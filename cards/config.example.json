@@ -1,0 +1,10 @@
+{
+  "anthropic_api_key": "",
+  "unsplash_access_key": "",
+  "inbox_dir": "~/Desktop/english/cards/inbox",
+  "data_dir": "~/Desktop/english/cards/data",
+  "deck": "English",
+  "model": "claude-opus-5",
+  "journal_port": 8787,
+  "ankiconnect_url": "http://127.0.0.1:8765"
+}

@@ -1,0 +1,14 @@
+фигня/
+книги/
+.omc/
+.DS_Store
+
+cards/englishd
+cards/config.json
+cards/data/
+cards/inbox/*
+!cards/inbox/processed/
+!cards/inbox/failed/
+cards/inbox/processed/*
+cards/inbox/failed/*
+!cards/inbox/**/.gitkeep
