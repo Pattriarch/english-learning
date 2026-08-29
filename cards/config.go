@@ -6,6 +6,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/anthropics/anthropic-sdk-go/config"
 )
 
 type Config struct {
@@ -64,10 +66,15 @@ func loadConfig() (Config, error) {
 	}
 	cfg.InboxDir = expandHome(cfg.InboxDir)
 	cfg.DataDir = expandHome(cfg.DataDir)
-	if cfg.AnthropicAPIKey == "" {
-		return cfg, errors.New("anthropic_api_key не задан: заполни config.json или переменную окружения ANTHROPIC_API_KEY")
-	}
 	return cfg, nil
+}
+
+// hasAnthropicProfile сообщает, лежит ли на диске профиль от `ant auth login`.
+// Пустой ключ — не ошибка: SDK сам возьмёт профиль, если он есть. Каталог
+// ищем функциями SDK, чтобы не разойтись с ним в ANTHROPIC_CONFIG_DIR и XDG.
+func hasAnthropicProfile() bool {
+	profiles, err := config.ListProfiles(config.DefaultDir())
+	return err == nil && len(profiles) > 0
 }
 
 func (c Config) processedDir() string { return filepath.Join(c.InboxDir, "processed") }

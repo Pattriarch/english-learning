@@ -15,19 +15,38 @@
 2. Поставь аддон AnkiConnect: Anki → Tools → Add-ons → Get Add-ons → код
    **2055492159** → OK, затем **перезапусти Anki**. Без него карточки создавать
    некому.
-3. Возьми два ключа:
-   - `anthropic_api_key` — https://console.anthropic.com (API Keys);
-   - `unsplash_access_key` — https://unsplash.com/developers (New Application,
-     нужен Access Key).
-4. Запусти установку:
+3. Дай доступ к Claude. Проще — войти аккаунтом, тогда никакого ключа на диске
+   не лежит:
+
+   ```sh
+   brew install anthropics/tap/ant
+   ant auth login
+   ```
+
+   `ant auth login` открывает браузер, логинит в Claude Console и кладёт
+   учётку в `~/.config/anthropic/`. SDK находит её сам. Оплата при этом идёт
+   по API-тарифу той организации, в которую вошёл, — подписка Claude сюда
+   не относится.
+
+   Альтернатива, если ключ милее: `anthropic_api_key` с
+   https://console.anthropic.com (раздел API Keys) в `config.json`. Ключ
+   в конфиге имеет приоритет над учёткой `ant`.
+
+4. Необязательно: `unsplash_access_key` с https://unsplash.com/developers
+   (New Application → Access Key) в `config.json`. Без него всё работает,
+   карточки просто будут без картинок.
+
+5. Запусти установку:
 
    ```sh
    ./install.sh
    ```
 
    Скрипт соберёт бинарник, создаст `config.json` из `config.example.json` и
-   поставит launchd-агент (автозапуск при логине). Впиши оба ключа в
-   `config.json` — и всё.
+   поставит launchd-агент (автозапуск при логине). Если доступа к Claude ещё
+   нет, агент не грузится, а скрипт скажет, чего не хватает: демон без учётки
+   выходит на старте, а `KeepAlive` крутил бы его по кругу. Разобрался с
+   доступом — запусти `./install.sh` ещё раз.
 
 ## Как пользоваться
 

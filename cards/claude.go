@@ -51,13 +51,18 @@ func newClaudeClient(cfg Config) *claudeClient {
 	if model == "" {
 		model = "claude-opus-5"
 	}
+	// Сорвавшийся вызов уводит скрин в failed/ и требует ручного повтора,
+	// поэтому перебираем сетевые сбои настойчивее, чем по умолчанию (2).
+	opts := []option.RequestOption{option.WithMaxRetries(5)}
+	// Пустой WithAPIKey перебил бы цепочку поиска учётки внутри SDK, поэтому
+	// ключ передаём только когда он есть. Без него SDK сам возьмёт
+	// OAuth-профиль, оставленный `ant auth login`.
+	if key := strings.TrimSpace(cfg.AnthropicAPIKey); key != "" {
+		opts = append(opts, option.WithAPIKey(key))
+	}
+
 	return &claudeClient{
-		// Сорвавшийся вызов уводит скрин в failed/ и требует ручного повтора,
-		// поэтому перебираем сетевые сбои настойчивее, чем по умолчанию (2).
-		client: anthropic.NewClient(
-			option.WithAPIKey(cfg.AnthropicAPIKey),
-			option.WithMaxRetries(5),
-		),
+		client: anthropic.NewClient(opts...),
 		model:  model,
 	}
 }

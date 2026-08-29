@@ -13,12 +13,20 @@ cd "$CARDS_DIR"
 echo "собираю englishd..."
 go build -o englishd .
 
-# Конфиг: первый запуск получает копию примера, ключи вписывает человек.
-NEED_KEYS=0
 if [ ! -f "$CARDS_DIR/config.json" ]; then
   cp "$CARDS_DIR/config.example.json" "$CARDS_DIR/config.json"
-  NEED_KEYS=1
-  echo "создан config.json — впиши в него anthropic_api_key и unsplash_access_key"
+  echo "создан config.json"
+fi
+
+# Доступ к Claude — либо OAuth-профиль от `ant auth login`, либо ключ в конфиге
+# или окружении. Без любого из них демон выйдет на старте.
+NEED_AUTH=1
+if [ -d "$HOME/.config/anthropic" ] && [ -n "$(/bin/ls -A "$HOME/.config/anthropic" 2>/dev/null)" ]; then
+  NEED_AUTH=0
+elif [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+  NEED_AUTH=0
+elif grep -q '"anthropic_api_key"[[:space:]]*:[[:space:]]*"[^"]\+"' "$CARDS_DIR/config.json"; then
+  NEED_AUTH=0
 fi
 
 mkdir -p "$CARDS_DIR/data" "$CARDS_DIR/inbox" "$HOME/Library/LaunchAgents"
@@ -49,16 +57,21 @@ cat > "$PLIST" <<PLIST_EOF
 </plist>
 PLIST_EOF
 
-# Без ключа демон выходит с ошибкой на старте, а KeepAlive поднимал бы его
-# заново каждые 10 секунд. Поэтому агент грузим только когда ключ на месте.
-if [ "$NEED_KEYS" = "1" ]; then
+# Без доступа к Claude демон выходит с ошибкой на старте, а KeepAlive поднимал
+# бы его заново каждые 10 секунд. Поэтому агент грузим только когда доступ есть.
+if [ "$NEED_AUTH" = "1" ]; then
   echo
-  echo "агент пока НЕ запущен."
+  echo "агент пока НЕ запущен — нет доступа к Claude."
   echo "дальше:"
-  echo "  1. поставь аддон AnkiConnect: Anki → Tools → Add-ons → Get Add-ons → код 2055492159, потом перезапусти Anki"
-  echo "  2. впиши anthropic_api_key (console.anthropic.com) и unsplash_access_key (unsplash.com/developers)"
-  echo "     в $CARDS_DIR/config.json"
-  echo "  3. запусти ./install.sh ещё раз — тогда демон стартует"
+  echo "  1. вход по аккаунту, без ключа на диске:"
+  echo "       brew install anthropics/tap/ant"
+  echo "       ant auth login"
+  echo "     (или, если предпочитаешь ключ, впиши anthropic_api_key в $CARDS_DIR/config.json)"
+  echo "  2. картинки на карточках: ключ с unsplash.com/developers в unsplash_access_key"
+  echo "     необязателен — без него карточки просто будут без картинок"
+  echo "  3. поставь аддон AnkiConnect: Anki → Tools → Add-ons → Get Add-ons → код 2055492159,"
+  echo "     потом перезапусти Anki"
+  echo "  4. запусти ./install.sh ещё раз — тогда демон стартует"
   exit 0
 fi
 

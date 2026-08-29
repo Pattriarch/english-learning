@@ -15,6 +15,13 @@
 (`install.sh` собирает бинарник и ставит plist). Конфиг `config.json` рядом с
 бинарником; ключи также берутся из env `ANTHROPIC_API_KEY` / `UNSPLASH_ACCESS_KEY`.
 
+Доступ к Claude — по учётке, а не по ключу: `ant auth login` кладёт OAuth-профиль
+в `~/.config/anthropic/`, и SDK находит его сам. Поэтому `anthropic_api_key`
+необязателен, а пустой `option.WithAPIKey` в клиент не передаётся — он перебил бы
+цепочку поиска учётки внутри SDK. Наличие профиля проверяется функциями самого
+SDK (`config.ListProfiles`), чтобы не разойтись с ним в `ANTHROPIC_CONFIG_DIR`
+и `XDG_CONFIG_HOME`.
+
 ## Поток данных
 
 1. Вотчер (fsnotify) следит за `inbox/`; при старте — пересканирование

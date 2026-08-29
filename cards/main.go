@@ -22,6 +22,11 @@ func main() {
 		fmt.Fprintln(os.Stderr, "ошибка конфигурации:", err)
 		os.Exit(1)
 	}
+	if cfg.AnthropicAPIKey == "" && !hasAnthropicProfile() {
+		fmt.Fprintln(os.Stderr, "нет доступа к Claude. Либо `brew install anthropics/tap/ant && ant auth login`,")
+		fmt.Fprintln(os.Stderr, "либо впиши anthropic_api_key в config.json.")
+		os.Exit(1)
+	}
 	if err := ensureDirs(cfg); err != nil {
 		fmt.Fprintln(os.Stderr, "не могу создать каталоги:", err)
 		os.Exit(1)
