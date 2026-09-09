@@ -1,0 +1,285 @@
+{
+  "topicId": "egiu-021",
+  "title": "Will/shall 1",
+  "title_ru": "will на все случаи, shall почти нигде",
+  "theory": "## Короткая версия\n\nwill делает четыре работы:\n\n1. **Предсказание и мнение.** `I think it'll be fine.` `She'll be late, she always is.`\n2. **Решение в момент речи.** `Fine, I'll call him.`\n3. **Обещание.** `I'll send it before standup. I won't forget.`\n4. **Предложение помощи.** `I'll get the door.`\n\nВ речи это почти всегда `'ll`. Полное `I will` — нажим: `I will not do that again.`\n\nОтдельная работа у **won't с вещами**: это не будущее, а «отказывается». `My laptop won't boot.` `The door won't lock.` `The file won't open.` Русское «не хочет заводиться» переводится именно так, а не через doesn't want.\n\n## Где русскоязычные валятся\n\n**1. will после when / if.**\n- ❌ `I'll call you when I will get home.` ✅ `…when I get home.`\n- ❌ `If it will rain, we'll stay in.` ✅ `If it rains, we'll stay in.`\n\n**2. Отрицание не в том месте.**\n- ❌ `I think he won't come.` ✅ `I don't think he'll come.` Английский переносит отрицание в главное предложение, русский — нет.\n\n**3. Два модальных подряд.**\n- ❌ `I will can finish it today.` ✅ `I'll be able to finish it today.`\n\n**4. will вместо договорённости.**\n- ❌ `I will meet Jake at seven, we agreed yesterday.` ✅ `I'm meeting Jake at seven.`\n\n**5. Обещание без will.**\n- ❌ `I promise I call you back.` ✅ `I promise I'll call you back.`\n\n## Про shall — коротко\n\nВ американском английском shall мёртв. Живых мест ровно два:\n\n- **договоры и таблички**: `Tenant shall pay the deposit within five days` — здесь shall значит «обязан», это юридический термин, а не вежливость.\n- **ироничное `Shall we?`** — «ну что, пошли?», обычно с полуулыбкой.\n\nВсё остальное заменяется: `Shall I help you?` → `Want me to help?` / `Should I help?` / `Let me get that.` `Shall we discuss it?` → `Let's talk about it.` Сказанное вслух `I shall send you the report` звучит примерно как костюм-тройка на барбекю.\n\n## AmE-примечание\n\nСтандартный ответ на просьбу — `Will do.` Два слова, и это абсолютно нормально в рабочем чате. Рядом живут `I'll let you know`, `That'll be $14.50` у кассы и разговорное `I bet he won't answer`. Британское `Shall I get you a coffee?` в Америке всегда превращается в `Want me to grab you a coffee?` — вот этот оборот и стоит унести с собой.",
+  "scenes": [
+    {
+      "type": "case",
+      "caseTitle": "Дело №17: Дверь, которая не запиралась",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Из подсобки цветочного магазина на Ирвинг-Парк пропали шесть ящиков эквадорских роз перед Днём матери — 6 800 долларов оптом. Замок на чёрном ходе по бумагам исправен. По факту — не очень.",
+      "steps": [
+        {
+          "narrative": "Хозяйка **Bea**, шестьдесят два года, тридцать лет в бизнесе:\n\n— **I'm sure it will turn up. Nobody in this shop would take anything.**",
+          "question_ru": "Что делает will в её фразе?",
+          "choices": [
+            "Работает как предсказание: она уверена в будущем, а не решает что-то в этот момент",
+            "Это обещание найти ящики самой",
+            "Это предложение помощи следствию"
+          ],
+          "answer": 0,
+          "clue_ru": "`I'm sure / I think / probably` + will — стандартная связка для мнения о будущем. Беа не свидетель, она оптимист. Мия вежливо кивает и идёт дальше."
+        },
+        {
+          "narrative": "Курьер **Nico**, работает через день, разгружает утренние поставки:\n\n— **I'll tell you the same thing I told the officer: the back door won't lock. It hasn't locked since May.**",
+          "question_ru": "Что означает won't в `the back door won't lock`?",
+          "choices": [
+            "Дверь отказывается запираться — устойчивая неисправность в настоящем, никакого будущего тут нет",
+            "Дверь не будет запираться в будущем, после ремонта",
+            "Дверь вчера не заперли"
+          ],
+          "answer": 0,
+          "clue_ru": "won't у неодушевлённых = «отказывается работать»: my car won't start, the file won't open, the door won't lock. Русское «дверь не закрывается» переводится именно так. Мия записывает: о дыре в охране знали все."
+        },
+        {
+          "narrative": "Продавщица **Hana** показывает переписку с хозяйкой от 14 июня. Она:\n\n— **The back door still won't lock.**\n\nБеа в ответ:\n\n— **I'll call a guy this week.**",
+          "question_ru": "Что фиксирует ответ Беа для следствия?",
+          "choices": [
+            "Обещание, данное в момент письма — значит Беа знала о двери с июня и взяла ремонт на себя",
+            "Что мастер уже приходил и не смог починить",
+            "Что Беа предсказывает, что дверь починят сама собой"
+          ],
+          "answer": 0,
+          "clue_ru": "`I'll call a guy this week` — решение и обещание, рождённые прямо в сообщении. Это письменная подпись под обязательством. Для страховой такая строка стоит дороже, чем показания."
+        },
+        {
+          "narrative": "Мия открывает телефон Нико. 2 августа, за день до пропажи, сообщение напарнику:\n\n— **Don't worry about the lock. I'll be there Thursday around six, leave the lights off.**\n\nЧасом раньше сам Нико сказал Мии: «I don't work Thursdays. I have no idea what happens here on Thursdays.»",
+          "question_ru": "Где Нико себя закопал?",
+          "choices": [
+            "`I'll be there Thursday around six` — обещание собственного присутствия в четверг, при том что «по четвергам он не работает и ничего о них не знает»",
+            "`Don't worry about the lock` — приказ напарнику, значит он главный",
+            "`leave the lights off` — единственная подозрительная деталь, грамматика ни при чём"
+          ],
+          "answer": 0,
+          "clue_ru": "Вот улика. will в первом лице — это обязательство говорящего насчёт собственных действий: «я буду там». Человек не даёт такого обещания про день, о котором «понятия не имеет». Плюс `don't worry about the lock` означает, что сломанный замок был для него не проблемой, а удобством."
+        }
+      ],
+      "outro_ru": "Ящики нашлись в фургоне Нико на стоянке в Портидж-Парке, две уже проданы в салон на Лоуренс-авеню. Беа отказалась подавать в суд, но замок наконец поменяла — через восемьдесят дней после первого сообщения Ханы. Мия записала: «I'll — это подпись под обещанием. Люди раздают её щедрее, чем думают»."
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Быстрый раунд. Отдельно смотри на shall: почти везде это красный флаг в американском контексте.",
+      "cards": [
+        {
+          "phrase": "I'll call you when I will get home.",
+          "ok": false,
+          "fix": "I'll call you when I get home.",
+          "flash_ru": "после when будущее не ставят — только настоящее время"
+        },
+        {
+          "phrase": "Shall I get you a coffee?",
+          "ok": false,
+          "fix": "Want me to get you a coffee?",
+          "flash_ru": "британское; в США — Want me to…? или Should I…?"
+        },
+        {
+          "phrase": "My laptop won't boot.",
+          "ok": true,
+          "flash_ru": "won't у вещей = «отказывается»; это настоящее, а не будущее"
+        },
+        {
+          "phrase": "I think he won't come.",
+          "ok": false,
+          "fix": "I don't think he'll come.",
+          "flash_ru": "английский переносит отрицание в главное предложение, русский оставляет на месте"
+        },
+        {
+          "phrase": "Will do.",
+          "ok": true,
+          "flash_ru": "стандартный американский ответ на просьбу: «сделаю»; в рабочем чате абсолютно уместно"
+        },
+        {
+          "phrase": "I will can finish it today.",
+          "ok": false,
+          "fix": "I'll be able to finish it today.",
+          "flash_ru": "два модальных подряд запрещены: will + be able to"
+        },
+        {
+          "phrase": "Don't worry, I take care of it.",
+          "ok": false,
+          "fix": "Don't worry, I'll take care of it.",
+          "flash_ru": "обещание требует will; present simple звучит как пункт расписания"
+        },
+        {
+          "phrase": "We shall discuss it at the standup.",
+          "ok": false,
+          "fix": "We'll discuss it at the standup.",
+          "flash_ru": "shall в первом лице — британская книжность; в США просто we'll"
+        },
+        {
+          "phrase": "Shall we?",
+          "ok": true,
+          "flash_ru": "единственный живой остаток shall в Америке: «ну что, пошли?», чаще с иронией"
+        },
+        {
+          "phrase": "I shall send you the report tomorrow.",
+          "ok": false,
+          "fix": "I'll send you the report tomorrow.",
+          "flash_ru": "I shall вслух в США звучит как костюм-тройка на барбекю"
+        },
+        {
+          "phrase": "He'll be fine, he always is.",
+          "ok": true,
+          "flash_ru": "предсказание из опыта → will"
+        },
+        {
+          "phrase": "I will meet Jake at 7, we agreed yesterday.",
+          "ok": false,
+          "fix": "I'm meeting Jake at 7, we agreed yesterday.",
+          "flash_ru": "договорённость с человеком и временем идёт через present continuous, не через will"
+        },
+        {
+          "phrase": "The tenant shall pay the deposit within five days.",
+          "ok": true,
+          "flash_ru": "shall жив в договорах и значит «обязан»; в разговоре так не говорят"
+        },
+        {
+          "phrase": "If it will rain, we'll stay in.",
+          "ok": false,
+          "fix": "If it rains, we'll stay in.",
+          "flash_ru": "после if — настоящее время, даже когда по-русски «если будет дождь»"
+        }
+      ]
+    },
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s02e07 — вечер, лифт в подъезде снова стоит. Переводи реплики на английский.",
+      "steps": [
+        {
+          "scene_ru": "Рэйчел у лифта с двумя пакетами из Jewel-Osco, из одного торчит багет. Дэнни выходит из почтовой ниши.",
+          "line_ru": "Давай помогу. Тебе на третий?",
+          "reference": "I'll get that. Third floor?",
+          "alt": "Let me grab that. Third floor?",
+          "note_ru": "Предложение помощи, придуманное в эту секунду → will. `I'm going to get that` прозвучало бы так, будто ты караулил её с пакетами. `Let me grab that` — ещё живее и очень по-американски."
+        },
+        {
+          "scene_ru": "Дэнни жмёт кнопку. Табло мигает и гаснет. Он жмёт ещё раз.",
+          "line_ru": "Он не едет. Он с апреля нормально не работает.",
+          "reference": "It won't move. It hasn't worked right since April.",
+          "alt": "The elevator won't come. It's been like this since April.",
+          "note_ru": "won't у техники значит «отказывается», это про сейчас, а не про будущее. Русское «не поедет» сбивает с толку: там будущее, здесь — упрямая железка в настоящем."
+        },
+        {
+          "scene_ru": "Идут пешком. На площадке второго этажа Рэйчел ставит пакеты и переводит дух.",
+          "line_ru": "Я сегодня же напишу управляющему. Обещаю, в этот раз не забуду.",
+          "reference": "I'll email the manager today. I promise I won't forget this time.",
+          "alt": "I'll write to the property manager tonight — I promise I won't forget this time.",
+          "note_ru": "Два will подряд: обещание и отрицательное обещание через won't. going to сюда не встанет — решение и обязательство рождаются прямо в этой реплике."
+        },
+        {
+          "scene_ru": "Дэнни ставит пакеты у её двери и оглядывается на лестничный пролёт.",
+          "line_ru": "Спорим, он даже не ответит.",
+          "reference": "I bet he won't even answer.",
+          "alt": "He won't even answer, watch.",
+          "note_ru": "Предсказание, построенное на опыте → will/won't. `I bet` — разговорное «спорим, зуб даю», нормально с соседями и коллегами, но не в письме клиенту."
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Майя, утренняя смена в кофейне на углу, пишет владельцу Рэю перед праздничной неделей: заказы, смены и техника, которая опять капризничает. Пишет уверенно, но will и shall расставляет по-своему.",
+      "segments": [
+        {
+          "text": "Ray,\n\nHoliday week starts Monday and I'd rather have this settled now than at 5 a.m. on the 23rd.\n\n"
+        },
+        {
+          "text": "I will let you know when I will have the final numbers",
+          "error": true,
+          "fix": "I'll let you know when I have the final numbers",
+          "note_ru": "После when будущее не ставят — только present simple; первое will при этом законное"
+        },
+        {
+          "text": " from the wholesale rep, probably Thursday.\n\n"
+        },
+        {
+          "text": "Shall I order the extra milk now",
+          "error": true,
+          "fix": "Should I order the extra milk now",
+          "note_ru": "shall в вопросе — британское; американец скажет Should I или Want me to"
+        },
+        {
+          "text": " or do you want to look at last December first? "
+        },
+        {
+          "text": "I bet we'll run out of oat milk by Friday",
+          "error": false,
+          "note_ru": "Правильно: предсказание из опыта → will; I bet — разговорное, но с Рэем можно"
+        },
+        {
+          "text": ", we did both of the last two years.\n\n"
+        },
+        {
+          "text": "I think we won't need a third barista on the 24th",
+          "error": true,
+          "fix": "I don't think we'll need a third barista on the 24th",
+          "note_ru": "Отрицание уходит в главное предложение: I don't think he'll…, а не I think he won't…"
+        },
+        {
+          "text": ", it's mostly to-go orders after ten.\n\n"
+        },
+        {
+          "text": "The espresso machine doesn't want to start in the mornings",
+          "error": true,
+          "fix": "The espresso machine won't start in the mornings",
+          "note_ru": "Калька с «не хочет заводиться». По-английски вещь именно won't — отказывается"
+        },
+        {
+          "text": " until it sits warm for twenty minutes. "
+        },
+        {
+          "text": "I promise I call you if it dies completely",
+          "error": true,
+          "fix": "I promise I'll call you if it dies completely",
+          "note_ru": "Обещание требует will; и обрати внимание — после if стоит present, и это верно"
+        },
+        {
+          "text": ", but I'd rather have the tech look at it before the rush.\n\n"
+        },
+        {
+          "text": "It won't take him more than an hour",
+          "error": false,
+          "note_ru": "Правильно: уверенное предсказание про будущее, отрицательная форма won't"
+        },
+        {
+          "text": ", he did the same job at the Wicker Park store in March.\n\n"
+        },
+        {
+          "text": "I will meet the milk guy on Tuesday, we agreed last week",
+          "error": true,
+          "fix": "I'm meeting the milk guy on Tuesday, we agreed last week",
+          "note_ru": "Договорённость с человеком и временем — present continuous; will звучит как решение, принятое в момент письма"
+        },
+        {
+          "text": ". He's bringing the invoice for November too.\n\n"
+        },
+        {
+          "text": "If it will be slow after two, I'll send someone home early",
+          "error": true,
+          "fix": "If it's slow after two, I'll send someone home early",
+          "note_ru": "После if — настоящее время, даже когда по-русски «если будет тихо»"
+        },
+        {
+          "text": ". Nobody wants to stand around wiping the same counter for three hours.\n\n"
+        },
+        {
+          "text": "I shall be there at 5 a.m. on the 24th",
+          "error": true,
+          "fix": "I'll be there at 5 a.m. on the 24th",
+          "note_ru": "I shall вслух в Америке звучит по-книжному до неловкости; нужен обычный I'll"
+        },
+        {
+          "text": " either way.\n\n"
+        },
+        {
+          "text": "I'll be honest — last December almost broke me",
+          "error": false,
+          "note_ru": "Правильно: I'll be honest — решение сказать прямо, принятое в этой самой строке"
+        },
+        {
+          "text": ", and I'm not doing it understaffed again.\n\nMaya"
+        }
+      ],
+      "corrected": "Ray,\n\nHoliday week starts Monday and I'd rather have this settled now than at 5 a.m. on the 23rd.\n\nI'll let you know when I have the final numbers from the wholesale rep, probably Thursday.\n\nShould I order the extra milk now or do you want to look at last December first? I bet we'll run out of oat milk by Friday, we did both of the last two years.\n\nI don't think we'll need a third barista on the 24th, it's mostly to-go orders after ten.\n\nThe espresso machine won't start in the mornings until it sits warm for twenty minutes. I promise I'll call you if it dies completely, but I'd rather have the tech look at it before the rush.\n\nIt won't take him more than an hour, he did the same job at the Wicker Park store in March.\n\nI'm meeting the milk guy on Tuesday, we agreed last week. He's bringing the invoice for November too.\n\nIf it's slow after two, I'll send someone home early. Nobody wants to stand around wiping the same counter for three hours.\n\nI'll be there at 5 a.m. on the 24th either way.\n\nI'll be honest — last December almost broke me, and I'm not doing it understaffed again.\n\nMaya"
+    }
+  ]
+}

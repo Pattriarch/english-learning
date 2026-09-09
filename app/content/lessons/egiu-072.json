@@ -1,0 +1,357 @@
+{
+  "topicId": "egiu-072",
+  "title": "A/an and the",
+  "title_ru": "какой-то vs тот самый",
+  "theory": "## Короткая версия\n\nАртикль отвечает на один вопрос: собеседник уже знает, о каком именно предмете речь?\n\n- Не знает → **a/an**. Ты вводишь объект в разговор впервые.\n- Знает → **the**. Объект уже назван, или единственный в этой ситуации, или уточнён.\n\n`I opened a PR. The PR touches three services.` Первый раз — a, дальше — the (а живее всего — просто `it`).\n\n`a` перед согласным звуком, `an` — перед гласным. Считается звук, а не буква: `an hour`, `a university`, `an SLA`, `a URL`.\n\n## Где русскоязычные валятся\n\n**1. Просто нет артикля.** В русском его нет, и мозг его не ставит. Это первое, что слышно в речи.\n\n- ❌ `I opened pull request.` ✅ `I opened a pull request.`\n- ❌ `Can you send me link?` ✅ `Can you send me the link?`\n\n**2. Профессия и роль — всегда a/an.**\n\n- ❌ `I work as backend developer.` ✅ `I work as a backend developer.`\n- ❌ `She is teacher.` ✅ `She's a teacher.`\n\n**3. The там, где собеседник ещё не в курсе.** Первый заказ у стойки:\n\n- ❌ `Give me the coffee.` ✅ `Can I get a coffee?`\n\n**4. A с неисчисляемым.**\n\n- ❌ `She gave me a good advice.` ✅ `She gave me some good advice.`\n\nТам же живут information, access, feedback, equipment, software, money, traffic — никакого a.\n\n**5. Второе упоминание существительным.** Грамматически всё цело, но люди так не говорят: `We hired a designer. The designer starts Monday.` → `…She starts Monday.`\n\n## Ситуативный the\n\nЕсли предмет в этой ситуации один, он сразу идёт с the, без всякого первого упоминания: `close the door`, `the kitchen`, `the office`, `the landlord`, `the Blue Line`. Обоим ясно, о чём речь, и вводить нечего.\n\n## AmE-примечание\n\nАмериканец говорит `in the hospital`, британец — `in hospital`. Дальше по списку: `on the weekend` (BrE: at the weekend), `go to the store` (BrE: to the shops), `take the elevator`, `go to the movies`.\n\nИ отдельно: заказ в США звучит `Can I get a large coffee?`, а не `I would like a coffee, please`. `Can I get` — не грубость, а норма у любой стойки от Чикаго до Остина.",
+  "scenes": [
+    {
+      "type": "case",
+      "caseTitle": "Дело №9: Фургон, который знали слишком хорошо",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Ночью от ресторана Rosa's на Дивижн-стрит угнали кейтеринговый фургон с оборудованием на восемнадцать тысяч. Дверь целая, ключи на месте. Мия допрашивает троих и слушает не факты, а артикли.",
+      "steps": [
+        {
+          "narrative": "Первым — **Ron**, охранник парковки напротив. Он видел всё из будки.\n\n— **A van pulled up around eleven. A guy got out, walked around the back, and drove off in it.**\n\nМия записывает дословно.",
+          "question_ru": "Рон говорит `a van`, `a guy`. Что это сообщает Мии о самом Роне?",
+          "choices": [
+            "Он вводит их в разговор впервые — ни фургон, ни человек ему не знакомы",
+            "Он говорит про тот самый фургон Rosa's, просто небрежно",
+            "Он ошибся, надо было the van и the guy"
+          ],
+          "answer": 0,
+          "clue_ru": "`a` = «один из многих, ты о нём ещё не знаешь». Рон честно описывает незнакомые объекты. Если бы он сказал `the van`, это значило бы, что фургон для него — известная вещь. Пока чисто."
+        },
+        {
+          "narrative": "Хозяйка, **Tanya**, объясняет, где хранятся ключи.\n\n— **We keep the keys in a drawer behind the bar. The drawer doesn't lock, but the bar is on camera.**",
+          "question_ru": "Почему Таня сначала сказала `a drawer`, а следом `the drawer`?",
+          "choices": [
+            "Первый раз — новая для Мии информация (a), второй раз — уже названный ящик (the)",
+            "Это ошибка, оба раза нужен the",
+            "Второй the стоит потому, что ящик не запирается"
+          ],
+          "answer": 0,
+          "clue_ru": "Классическая пара: вводим через a, подхватываем через the. А `the keys`, `the bar` — с самого начала the, потому что в этом ресторане и ключи, и бар одни на всех. Таня говорит как человек, которому нечего прятать."
+        },
+        {
+          "narrative": "Су-шеф **Victor**. Мия задаёт нейтральный вопрос: подходил ли кто-нибудь к кухонной двери ночью. Про фургон и про людей она ещё не сказала ни слова.\n\n— **No. And the guy in the gray hoodie wasn't with us, if that's what you're asking.**\n\nМия медленно кладёт ручку.",
+          "question_ru": "Что не так с фразой Виктора?",
+          "choices": [
+            "`the guy in the gray hoodie` подан как известный обоим — но Мия про него не говорила, значит Виктор знает, о ком речь",
+            "Виктор должен был сказать `a guy in a gray hoodie` — это просто ошибка в артикле",
+            "Проблема в `wasn't with us` — надо `wasn't with me`"
+          ],
+          "answer": 0,
+          "clue_ru": "`the` — это подпись под утверждением «мы оба понимаем, о ком речь». Виктор поставил её первым, до того как речь о человеке вообще зашла. Так говорят только те, у кого этот человек уже есть в голове."
+        },
+        {
+          "narrative": "Мия поднимает запись звонка в 911, поступившего в 23:14 с неопознанного номера. Голос мужской, торопливый:\n\n— **Somebody's taking the catering van from Rosa's. Hurry up.**\n\nЗвонок анонимный, и звонивший явно хотел выглядеть случайным прохожим.",
+          "question_ru": "Почему одна фраза из звонка выдаёт, что прохожим он не был?",
+          "choices": [
+            "`the catering van` — для случайного прохожего это был бы `a van`; the значит, что говорящий знает про этот конкретный фургон Rosa's",
+            "Он назвал ресторан по имени — значит, он там работает",
+            "`Somebody's taking` — слишком спокойная форма для срочного звонка"
+          ],
+          "answer": 0,
+          "clue_ru": "Вот улика. Человек с улицы видит белый фургон и говорит `a van`. Человек, у которого в голове уже есть «тот самый кейтеринговый фургон Розы», автоматически ставит the. Артикль показал, что звонивший — свой."
+        }
+      ],
+      "outro_ru": "Виктор и его двоюродный брат разыграли угон ради страховой: фургон загнали в гараж в Сисеро, а в 911 Виктор позвонил сам, чтобы отвести подозрение и заодно зафиксировать время. Мия записала в блокнот: «a — это «ты про него ещё не знаешь». the — «мы оба знаем». Врать надо, следя за артиклями»."
+    },
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s01e03 — сериал про соседей по трёхэтажке в Чикаго. Семь утра, у Дэнни что-то случилось этажом выше. Переводи реплики на английский.",
+      "steps": [
+        {
+          "scene_ru": "Дэнни колотит в дверь Рэйчел. В руках рулон скотча и мокрое полотенце.",
+          "line_ru": "Мне нужно одолжить лестницу. И, наверное, ведро.",
+          "reference": "I need to borrow a ladder. And probably a bucket.",
+          "alt": "I gotta borrow a ladder. And a bucket, probably.",
+          "note_ru": "Рэйчел про эти предметы ещё ничего не знает — оба вводятся впервые, значит a. Поставить здесь the — всё равно что сказать «ту самую лестницу», о которой разговора не было."
+        },
+        {
+          "scene_ru": "Рэйчел открывает на цепочку, в халате, щурится.",
+          "line_ru": "Лестница в подвале. Ведро под раковиной. Что ты сломал?",
+          "reference": "The ladder's in the basement. The bucket's under the sink. What did you break?",
+          "alt": "Ladder's in the basement, bucket's under the sink. What did you break?",
+          "note_ru": "Через одну реплику те же предметы стали известными обоим → the. А `the basement` и `the sink` идут с the сразу: подвал в доме один, раковина на кухне одна. В быстрой речи артикль в начале фразы часто глотают целиком — отсюда вариант alt."
+        },
+        {
+          "scene_ru": "Дэнни смотрит в пол.",
+          "line_ru": "Окно в коридоре третьего этажа. Там была птица.",
+          "reference": "The window in the third-floor hallway. There was a bird.",
+          "alt": "The window in the hallway on three. There was a bird in here.",
+          "note_ru": "Два разных артикля в двух коротких предложениях. `the window in the third-floor hallway` — уточнено до одного конкретного окна. `a bird` — новая информация, Рэйчел про птицу слышит впервые. Порядковое `third` тоже тянет за собой the."
+        },
+        {
+          "scene_ru": "Рэйчел снимает цепочку, достаёт из ящика ключ от подвала и держит его в руке.",
+          "line_ru": "Я риелтор, а не твоя мама. Верни лестницу до вечера.",
+          "reference": "I'm a realtor, not your mother. Bring the ladder back by tonight.",
+          "alt": "I'm a realtor, Danny, not your mom. Have the ladder back by tonight.",
+          "note_ru": "Профессия — всегда a/an, без вариантов: `I'm a realtor`. А перед `mother` артикля нет, потому что там уже стоит `your` — притяжательное и артикль не уживаются. `the ladder` — та самая, уже обсуждённая."
+        }
+      ]
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Семь секунд на фразу. Вопрос себе один: собеседник уже знает, о каком именно предмете речь?",
+      "cards": [
+        {
+          "phrase": "I work as backend developer.",
+          "ok": false,
+          "fix": "I work as a backend developer.",
+          "flash_ru": "профессия и роль — всегда a/an, исключений нет"
+        },
+        {
+          "phrase": "I opened a PR this morning — can you take a look?",
+          "ok": true,
+          "flash_ru": "первое упоминание в разговоре → a; дальше уже it"
+        },
+        {
+          "phrase": "Can you send me link?",
+          "ok": false,
+          "fix": "Can you send me the link?",
+          "flash_ru": "пропуск артикля — самый слышный русский акцент; ссылка конкретная → the"
+        },
+        {
+          "phrase": "She gave me a good advice.",
+          "ok": false,
+          "fix": "She gave me some good advice.",
+          "flash_ru": "advice неисчисляемое, a с ним не бывает — нужно some или a piece of"
+        },
+        {
+          "phrase": "He's in hospital with a broken leg.",
+          "ok": false,
+          "fix": "He's in the hospital with a broken leg.",
+          "flash_ru": "британское in hospital; в США обязательно the hospital"
+        },
+        {
+          "phrase": "Can I get a large coffee?",
+          "ok": true,
+          "flash_ru": "бариста не знает, какой именно кофе → a; и Can I get — стандартный американский заказ"
+        },
+        {
+          "phrase": "Can you close a door?",
+          "ok": false,
+          "fix": "Can you close the door?",
+          "flash_ru": "дверь одна и обоим видна → the; a door звучит как «закрой любую из дверей»"
+        },
+        {
+          "phrase": "It took me an hour and a half.",
+          "ok": true,
+          "flash_ru": "an перед звуком, а не буквой: h в hour не читается"
+        },
+        {
+          "phrase": "He's the only one who has an access to prod.",
+          "ok": false,
+          "fix": "He's the only one who has access to prod.",
+          "flash_ru": "access неисчисляемое — артикль не нужен; там же information и feedback"
+        },
+        {
+          "phrase": "I sent you a email this morning.",
+          "ok": false,
+          "fix": "I sent you an email this morning.",
+          "flash_ru": "гласный звук → an; правило знают все, а в чате всё равно проскакивает"
+        },
+        {
+          "phrase": "We hired a designer last week — the designer starts Monday.",
+          "ok": false,
+          "fix": "We hired a designer last week — she starts Monday.",
+          "flash_ru": "грамматика цела, но повторять существительное с the неестественно: живая речь берёт местоимение"
+        },
+        {
+          "phrase": "Traffic on the Kennedy was insane this morning.",
+          "ok": true,
+          "flash_ru": "traffic неисчисляемое и в общем смысле → без артикля; the Kennedy — название шоссе, с the"
+        },
+        {
+          "phrase": "I go to work by the subway.",
+          "ok": false,
+          "fix": "I take the subway to work.",
+          "flash_ru": "by subway идёт без артикля, но живее сказать take the subway; в Чикаго — take the L"
+        },
+        {
+          "phrase": "I need to talk to a manager about the invoice.",
+          "ok": true,
+          "flash_ru": "a manager — любой из них; the invoice — тот самый, о котором вы оба знаете"
+        }
+      ]
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Rachel",
+        "emoji": "🏢",
+        "desc_ru": "риелтор из Логан-сквер. Пишет быстро, сокращает всё подряд, на просмотр опаздывает ровно на пять минут."
+      },
+      "intro_ru": "Ты полгода живёшь в Чикаго и наконец съезжаешь из корпоративной квартиры. Рэйчел получила твою анкету и пишет первой.",
+      "steps": [
+        {
+          "incoming": [
+            "hey, saw your form come through",
+            "you're looking for a one-bedroom in Logan Square, right?"
+          ],
+          "options": [
+            {
+              "text": "yeah — a one-bedroom or a big studio, whatever's under 1900",
+              "verdict": "natural",
+              "note_ru": "Конкретной квартиры пока нет ни у кого в голове → a. И `whatever's under 1900` — нормальный разговорный способ задать потолок по цене."
+            },
+            {
+              "text": "yeah — one-bedroom or big studio, under 1900",
+              "verdict": "error",
+              "note_ru": "Два пропущенных артикля перед исчисляемым в единственном числе. Понять поймут, но акцент слышен сразу: нужно a one-bedroom, a big studio."
+            },
+            {
+              "text": "Yes, I am searching for the one-bedroom apartment or the studio apartment.",
+              "verdict": "textbook",
+              "note_ru": "the звучит так, будто речь о конкретной, уже известной вам обоим квартире. Плюс `I am searching` — язык объявления, а не переписки."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "ok I've got two",
+            "one on Kedzie with a parking spot, one on Fullerton without"
+          ],
+          "options": [
+            {
+              "text": "the one on Kedzie sounds better — how far is the Blue Line?",
+              "verdict": "natural",
+              "note_ru": "`the one` — Рэйчел только что их назвала, значит объект стал общеизвестным. `the Blue Line` — названия линий чикагского метро всегда с the."
+            },
+            {
+              "text": "one on Kedzie sounds better — how far is Blue Line?",
+              "verdict": "error",
+              "note_ru": "Оба артикля выпали. `one on Kedzie` без the звучит как «какая-то на Кедзи», хотя вы обсуждаете конкретную."
+            },
+            {
+              "text": "The apartment which is located on Kedzie sounds more suitable for me.",
+              "verdict": "textbook",
+              "note_ru": "Артикли на месте, но это канцелярит. В переписке говорят `the one on Kedzie` — короче и живее."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "8 min walk",
+            "can you do a showing thursday at 6?"
+          ],
+          "options": [
+            {
+              "text": "thursday works. I'll be coming straight from the office, so maybe 6:15?",
+              "verdict": "natural",
+              "note_ru": "`the office` — у тебя он один, вы оба понимаете какой, вводить нечего. Классический ситуативный the."
+            },
+            {
+              "text": "thursday works. I'll be coming straight from office, so maybe 6:15?",
+              "verdict": "error",
+              "note_ru": "`from office` — калька без артикля. Либо `from the office`, либо просто `from work` (вот там артикль как раз не нужен)."
+            },
+            {
+              "text": "Thursday is acceptable. I will be arriving from my place of work at 6:15.",
+              "verdict": "textbook",
+              "note_ru": "`acceptable` и `place of work` — язык договора аренды, а не сообщения риелтору."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Рэйчел скинула адрес и приписала «bring an ID». В США без документа на просмотр не пускают — a ID тут был бы ошибкой, an, потому что I читается как «ай»."
+    },
+    {
+      "type": "letter",
+      "from_ru": "Дэнни из 3C пишет в управляющую компанию: течёт потолок, и заодно накопилось. Английский у него бойкий, артикли — по настроению. Найди все места, где сломано.",
+      "segments": [
+        {
+          "text": "Hi Marta,\n\n"
+        },
+        {
+          "text": "There is leak in my ceiling",
+          "error": true,
+          "fix": "There is a leak in my ceiling",
+          "note_ru": "Первое упоминание: Марта про эту протечку ещё не знает → a"
+        },
+        {
+          "text": ", kitchen side, right over the stove. It started Sunday night. "
+        },
+        {
+          "text": "I took a video of the ceiling",
+          "error": false,
+          "note_ru": "Правильно: видео одно из многих возможных → a; потолок конкретный, в моей кухне он один → the"
+        },
+        {
+          "text": " and I can send it if you need it.\n\n"
+        },
+        {
+          "text": "I went up to 4C and talked to tenant",
+          "error": true,
+          "fix": "I went up to 4C and talked to the tenant",
+          "note_ru": "Жилец в 4C один, и обоим ясно, о ком речь → the"
+        },
+        {
+          "text": ". He says his dishwasher backed up on Saturday and he mopped it himself. "
+        },
+        {
+          "text": "He didn't call plumber",
+          "error": true,
+          "fix": "He didn't call a plumber",
+          "note_ru": "Любой сантехник, не конкретный человек → a"
+        },
+        {
+          "text": ", which explains a lot.\n\n"
+        },
+        {
+          "text": "The water is coming through the light fixture",
+          "error": false,
+          "note_ru": "Правильно: вода конкретная, та самая, а светильник в этой кухне один — оба под the"
+        },
+        {
+          "text": ", so I shut the breaker off for that room. "
+        },
+        {
+          "text": "I am not electrician",
+          "error": true,
+          "fix": "I'm not an electrician",
+          "note_ru": "Профессия — всегда a/an; перед гласным звуком an"
+        },
+        {
+          "text": ", but I'd rather not find out the hard way.\n\n"
+        },
+        {
+          "text": "Can you get someone out before the weekend? I can leave a key with Rachel in 2B",
+          "error": false,
+          "note_ru": "Правильно: ключ один из нескольких и для Марты новый объект → a"
+        },
+        {
+          "text": ", she works from home on Fridays. "
+        },
+        {
+          "text": "I will be at office until six",
+          "error": true,
+          "fix": "I'll be at the office until six",
+          "note_ru": "Офис у меня один, обоим понятно какой → the office (или просто at work — вот там артикля нет)"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Also mailbox for 3C is still broken",
+          "error": true,
+          "fix": "Also the mailbox for 3C is still broken",
+          "note_ru": "Уточнено словами for 3C — единственный конкретный ящик → the"
+        },
+        {
+          "text": ", I mentioned it in June and again in July.\n\n"
+        },
+        {
+          "text": "One more thing: the snow guy left a shovel in hallway",
+          "error": true,
+          "fix": "One more thing: the snow guy left a shovel in the hallway",
+          "note_ru": "Коридор на этаже один и Марта знает какой → the hallway; а лопата для неё новость, так что a shovel — верно"
+        },
+        {
+          "text": ". It's been standing there since March.\n\nThanks,\nDanny\n3C"
+        }
+      ],
+      "corrected": "Hi Marta,\n\nThere is a leak in my ceiling, kitchen side, right over the stove. It started Sunday night. I took a video of the ceiling and I can send it if you need it.\n\nI went up to 4C and talked to the tenant. He says his dishwasher backed up on Saturday and he mopped it himself. He didn't call a plumber, which explains a lot.\n\nThe water is coming through the light fixture, so I shut the breaker off for that room. I'm not an electrician, but I'd rather not find out the hard way.\n\nCan you get someone out before the weekend? I can leave a key with Rachel in 2B, she works from home on Fridays. I'll be at the office until six.\n\nAlso the mailbox for 3C is still broken, I mentioned it in June and again in July.\n\nOne more thing: the snow guy left a shovel in the hallway. It's been standing there since March.\n\nThanks,\nDanny\n3C"
+    }
+  ]
+}

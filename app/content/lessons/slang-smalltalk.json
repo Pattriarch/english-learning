@@ -1,0 +1,329 @@
+{
+  "topicId": "slang-smalltalk",
+  "title": "Small talk: openers and fillers",
+  "title_ru": "смоллток: what's up, how's it going, как поддержать болтовню",
+  "theory": "## Что это за слой\n\nСмоллток — не разговор, а рукопожатие словами. Обе стороны заранее знают, что содержания не будет, и это не лицемерие: так американцы проверяют, что канал открыт и никто ни на кого не злится. Ошибка тут стоит дороже грамматической — она читается как «человек странный», а не «человек учит язык».\n\n## Открытие: это не вопрос\n\n`How's it going?` `How are you?` `How you doing?` `What's up?` `How's everything?` — всё это одна функция: «привет». Правило простое: **отвечай в форме вопроса**.\n\n- `What's up?` / `What's going on?` → `Not much. You?` / `Not much, just work.`\n- `How's it going?` / `How are you?` / `How you doing?` → `Good.` / `Pretty good.` / `Can't complain.` — и обязательно `You?`\n\nПерепутать формы можно: `Not much` в ответ на `How's it going?` звучит косо, как ответ не на тот вопрос. Кассир и бариста спросят то же самое — им отвечают одним словом и не углубляются.\n\n## Середина\n\n- `How was your weekend?` — просит одну-две строки и мяч обратно. Не пересказ.\n- `Long story.` — законный способ не рассказывать: `Long story. I'll tell you later.`\n- `Anyway...` — переключатель темы, а часто и первая ступенька выхода из разговора.\n\n## Закрытие: лестница\n\nАмериканец не обрывает разговор, он спускается: `Anyway...` → `I should let you go` / `I'll let you go` → `Good seeing you` / `Good talking to you` → `Take care` / `Have a good one`.\n\n`I'll let you go` — вежливая фикция: заканчивать хочет говорящий, но подаёт это как заботу о твоём времени. Отвечать `Why do you let me go?` не надо.\n\n`We should grab coffee sometime` — вежливое ничего. Если человек серьёзен, он назовёт день: `Are you free Thursday?` Не жди звонка и не обижайся, когда его не будет.\n\n## Где валится русскоязычный\n\n**1. Честный ответ.** На `How are you?` рассказывает про спину, банк и погоду. Американец не спрашивал — он здоровался. Он не бессердечный: настоящий вопрос звучит иначе и по-другому интонируется — `How are you doing, though? Like, really.`\n\n**2. Длина.** Ответ на `How was your weekend?` длиной в абзац сбивает ритм: собеседник ждёт своей очереди и не понимает, когда она наступит.\n\n**3. Обрыв.** Написал `ok, bye` и ушёл — по-английски это хлопок дверью. Пропуск ступеней читается как обида.\n\n**4. Учебные формулы.** `How do you do?` мертво, живёт только в костюмных фильмах. `I am fine, thank you, and you?` целиком выдаёт неносителя за одну секунду. `Normal` вместо `fine` — калька.\n\n## AmE-примечание\n\nБританское `You alright?` — приветствие, а в США тот же вопрос значит «тебе плохо?». `Cheers` вместо `thanks` — тоже британское. Прощания: `Take care`, `Have a good one`, `See ya`, `Later`. Сухое `Goodbye` звучит как конец отношений, а не конец беседы.",
+  "scenes": [
+    {
+      "type": "case",
+      "caseTitle": "Дело №14: Голос в домофоне",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Из общего коридора трёхэтажки на Холстед-стрит пропали два велосипеда. Накануне вечером кто-то уговорил жильца открыть подъезд, представившись братом Дэнни из 3B. Домофон пишет звук. Мия слушает запись четыре раза подряд — и слышит не то, что сказал человек, а то, как он это сказал.",
+      "steps": [
+        {
+          "narrative": "Запись, 21:40. Жилец из 2C нажимает кнопку:\n\n— **Hey, how's it going?**\n\nГолос в домофоне:\n\n— **I am fine, thank you. And you?**\n\nМия отматывает назад и слушает эти четыре секунды ещё раз.",
+          "question_ru": "Что зацепило Мию?",
+          "choices": [
+            "Полная учебная формула в ответ на бытовое приветствие. Американец на автомате отвечает `Good, you?` — и сразу переходит к делу",
+            "Он не назвал своё имя, значит скрывался",
+            "`How's it going?` — неправильное приветствие для домофона, надо `Who is it?`"
+          ],
+          "answer": 0,
+          "clue_ru": "`How's it going?` — не вопрос о самочувствии, а «привет». Отвечают на него односложно и почти всегда возвращают `you?`. Развёрнутое `I am fine, thank you` — школьный ответ на школьный вопрос, произнесённый там, где вопроса вообще не было. Ещё не улика, но метка."
+        },
+        {
+          "narrative": "Голос продолжает:\n\n— **I would like to speak with the person who is responsible for the apartment 3B.**\n\nЖилец из 2C, судя по записи, замолкает на две секунды.",
+          "question_ru": "Почему сосед завис?",
+          "choices": [
+            "Так по-английски не говорят про соседа. Живой человек скажет `Is Danny around?` — короче и без канцелярита",
+            "Нужно было сказать `the apartment number 3B`",
+            "`responsible for` требует предлога of: `responsible of the apartment`"
+          ],
+          "answer": 0,
+          "clue_ru": "`The person who is responsible for the apartment` — перевод фразы «ответственный за квартиру» из бумаги. По-английски у квартиры нет ответственного, в ней просто кто-то живёт. Вторая метка: человек строит фразы из формальных блоков там, где нужны бытовые."
+        },
+        {
+          "narrative": "Мия идёт к Дэнни. Тот вспоминает, что днём во дворе к нему подходил незнакомый мужчина:\n\n— Он говорит **What's up?**, я говорю **Not much, you?**, а он мне: **I am very good, thank you.**\n\nМия просит повторить последнюю фразу дважды.",
+          "question_ru": "Какая часть этого обмена — улика?",
+          "choices": [
+            "Ответ незнакомца. На `What's up?` отвечают `Not much` — формой вопроса, а не рассказом о том, насколько тебе хорошо",
+            "Ответ Дэнни. На `What's up?` полагается отвечать `Good`",
+            "То, что Дэнни пересказывает через `he goes` вместо `he said`"
+          ],
+          "answer": 0,
+          "clue_ru": "Правило совпадения формы: `What's up?` спрашивает «что происходит», значит ответ про события — `Not much`. `How's it going?` спрашивает «как оно», значит ответ про состояние — `Pretty good`. Незнакомец ответил не на ту ось да ещё полной формулой. А `he goes` вместо `he said` — абсолютно нормальный пересказ в живой американской речи."
+        },
+        {
+          "narrative": "Последние секунды записи, 21:41:\n\n— **Goodbye. Have a nice day.**\n\nМия смотрит на таймкод и подчёркивает его дважды.",
+          "question_ru": "Где здесь двойной прокол?",
+          "choices": [
+            "Сухое `Goodbye` вживую почти не говорят, а `Have a nice day` в девять вечера невозможно — в это время говорят `Have a good night`",
+            "`Have a nice day` — британская формула, в США так не прощаются",
+            "После `Goodbye` полагается назвать имя собеседника"
+          ],
+          "answer": 0,
+          "clue_ru": "Прощание — такой же ритуал, как приветствие, и у него есть время суток. Днём `have a good one` или `have a nice day`, вечером `have a good night`. А `Goodbye` без ничего звучит окончательно, почти как разрыв. Человек, выучивший язык по учебнику, произносит формулы правильно и в неправильное время — это и слышно."
+        }
+      ],
+      "outro_ru": "Вором он не был. Это оказался Петер, двоюродный брат Дэнни из Гданьска, прилетевший на неделю и не дозвонившийся; он честно простоял у подъезда сорок минут. Велосипеды нашлись в подвале — их убрал управляющий, потому что они перегораживали пожарный выход. Мия закрыла дело как ложную тревогу и записала в блокнот: «Человек может знать все слова и всё равно звучать как самозванец. Приветствие — это не слова, а порядок движений»."
+    },
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s01e02 — Сэм за стойкой кофейни, утро вторника, очередь из четырёх человек. Ты переводишь реплики на живой американский.",
+      "steps": [
+        {
+          "scene_ru": "Дэнни заходит, снимает шапку, встаёт к стойке. Сэм уже тянется за стаканом, не спрашивая заказ.",
+          "line_ru": "Здорово. Ну как ты вообще?",
+          "reference": "Hey. How's it going?",
+          "alt": "Morning. What's up?",
+          "note_ru": "Обе версии — приветствие, а не вопрос. Разница только в том, какой ответ они запускают: после `How's it going?` ждут `Pretty good`, после `What's up?` — `Not much`. Не смешивай пары."
+        },
+        {
+          "scene_ru": "Сэм щёлкает крышкой, ставит стакан на стойку, ждёт ответа.",
+          "line_ru": "Да нормально, ничего нового. А ты как?",
+          "reference": "Pretty good, nothing new. You?",
+          "alt": "Can't complain. How about you?",
+          "note_ru": "«Нормально» — это `pretty good` или `fine`, но никогда `normal`. И обязательное `You?` в конце: без встречного вопроса ответ выглядит как захлопнутая дверь."
+        },
+        {
+          "scene_ru": "Дэнни смотрит на телефон, потом на дверь. Ему пора, но обрывать неловко.",
+          "line_ru": "Слушай, я побегу, а то опоздаю. Рад был увидеться.",
+          "reference": "Anyway, I gotta run — good seeing you.",
+          "alt": "I should let you go. Good seeing you, man.",
+          "note_ru": "Классическая лестница выхода: `Anyway...` открывает финал, `I gotta run` объясняет, `good seeing you` закрывает. Второй вариант — та же лестница, но вежливая фикция: уходишь ты, а звучит так, будто отпускаешь его."
+        },
+        {
+          "scene_ru": "Дэнни уже у двери, оборачивается через плечо. Сэм машет полотенцем.",
+          "line_ru": "Давай как-нибудь кофе выпьем.",
+          "reference": "We should grab coffee sometime.",
+          "alt": "Let's grab coffee sometime.",
+          "note_ru": "Это вежливое ничего — способ закончить встречу на тёплой ноте, а не приглашение. Если человек говорит всерьёз, он тут же назовёт день: `Are you free Thursday?` Не заносить в календарь и не обижаться."
+        }
+      ]
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Rachel",
+        "emoji": "🔑",
+        "desc_ru": "риелтор, ведёт твою квартиру на Холстед. Пишет быстро, с восклицательными знаками, всегда между показами."
+      },
+      "intro_ru": "Понедельник, 10:15. Рэйчел пишет первой — как всегда, начиная не с дела.",
+      "steps": [
+        {
+          "incoming": ["hey! how was your weekend?"],
+          "options": [
+            {
+              "text": "pretty good — mostly fixed my bike. how was yours?",
+              "verdict": "natural",
+              "note_ru": "Одна строка, одна деталь, мяч обратно. Это весь требуемый объём: вопрос про выходные — разогрев, а не интервью."
+            },
+            {
+              "text": "It was good, thank you. On Saturday I went to the store and then cleaned the apartment, after that my friend called and we talked about his new job for two hours, and on Sunday I had a headache because of the weather, but in the evening it was better.",
+              "verdict": "error",
+              "note_ru": "Грамматика целая, провален объём. `How was your weekend?` открывает разговор, а не просит отчёт. Абзац в ответ читается как «человек не считывает сигналы», и на середине Рэйчел уже листает дальше."
+            },
+            {
+              "text": "It was quite satisfactory, thank you for asking.",
+              "verdict": "textbook",
+              "note_ru": "Формально безупречно и абсолютно нежилое. `Quite satisfactory` американец применяет к отчёту аудитора, а не к своей субботе."
+            }
+          ]
+        },
+        {
+          "incoming": ["ha, nice", "so the owner finally signed", "want to see the place thursday at 6?"],
+          "options": [
+            {
+              "text": "thursday at 6 works. should I bring anything?",
+              "verdict": "natural",
+              "note_ru": "`Works` без подлежащего — стандартное согласование времени: `works for me`, `six works`. Плюс встречный практический вопрос, который показывает, что ты придёшь."
+            },
+            {
+              "text": "Yes, of course, it is very well for me.",
+              "verdict": "error",
+              "note_ru": "Калька. Идиома звучит `it works for me`; `it is very well for me` собрано по словам и разваливается. Рэйчел поймёт, но услышит перевод, а не речь."
+            },
+            {
+              "text": "Thursday at 6 p.m. would be entirely acceptable to me.",
+              "verdict": "textbook",
+              "note_ru": "`Entirely acceptable` — язык встречного предложения по контракту. В переписке про просмотр квартиры это звучит так, будто ты торгуешься."
+            }
+          ]
+        },
+        {
+          "incoming": ["perfect, see you then", "anyway I'll let you go, I've got a showing at 4"],
+          "options": [
+            {
+              "text": "sounds good — thanks for pushing this through. talk soon",
+              "verdict": "natural",
+              "note_ru": "Ты принял её ступеньку и поставил свою: благодарность плюс `talk soon`. Разговор закрыт с двух сторон, никто не хлопнул дверью."
+            },
+            {
+              "text": "Why do you let me go? I am not busy, we can continue.",
+              "verdict": "error",
+              "note_ru": "Не грамматика, а буквальное чтение формулы. `I'll let you go` = «не буду тебя задерживать», и заканчивать хочет именно Рэйчел. Ответ разворачивает вежливый выход в неловкость."
+            },
+            {
+              "text": "Thank you for the information. Goodbye.",
+              "verdict": "textbook",
+              "note_ru": "`Thank you for the information` — ответ службы поддержки, а сухое `Goodbye` в переписке звучит окончательно, почти как обида. Живые варианты: `talk soon`, `see ya`, `have a good one`."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Рэйчел прислала адрес и «see you thursday». Ключи ты получил в четверг в 18:20 — на двадцать минут позже, потому что она задержалась на показе и трижды за это извинилась."
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Семь секунд на карточку. Вопрос один: услышишь ли ты это на Холстед-стрит в 2026 году — или только в аудиокурсе 1988 года.",
+      "cards": [
+        {
+          "phrase": "— What's up? — Not much, you?",
+          "ok": true,
+          "flash_ru": "форма ответа совпала с формой вопроса — идеальный обмен"
+        },
+        {
+          "phrase": "— How's it going? — Pretty good, you?",
+          "ok": true,
+          "flash_ru": "вторая пара: про состояние спросили, про состояние ответили"
+        },
+        {
+          "phrase": "— How's it going? — Not much.",
+          "ok": false,
+          "fix": "— How's it going? — Pretty good.",
+          "flash_ru": "перепутаны пары: `not much` отвечает только на `what's up`"
+        },
+        {
+          "phrase": "How do you do?",
+          "ok": false,
+          "fix": "Nice to meet you.",
+          "flash_ru": "формула умерла, живёт в костюмных фильмах и старых учебниках"
+        },
+        {
+          "phrase": "— How are you? — Normal, thank you.",
+          "ok": false,
+          "fix": "— How are you? — I'm good, thanks. You?",
+          "flash_ru": "normal = «не отклоняющееся от нормы». Калька с «нормально»"
+        },
+        {
+          "phrase": "I am fine, thank you, and you?",
+          "ok": false,
+          "fix": "I'm good, thanks — you?",
+          "flash_ru": "учебная формула целиком: выдаёт неносителя за одну секунду"
+        },
+        {
+          "phrase": "Anyway, I should let you go.",
+          "ok": true,
+          "flash_ru": "вежливая фикция: заканчивать хочет говорящий, а звучит как забота"
+        },
+        {
+          "phrase": "Good seeing you. Take care.",
+          "ok": true,
+          "flash_ru": "две последние ступеньки выхода из разговора"
+        },
+        {
+          "phrase": "You alright?",
+          "ok": false,
+          "fix": "How's it going?",
+          "flash_ru": "британское приветствие. В США читается как «тебе плохо, ты не ушибся?»"
+        },
+        {
+          "phrase": "Cheers, see you later.",
+          "ok": false,
+          "fix": "Thanks, see you later.",
+          "flash_ru": "cheers вместо thanks — британское, в Чикаго звучит как цитата"
+        },
+        {
+          "phrase": "We should grab coffee sometime.",
+          "ok": true,
+          "flash_ru": "вежливое ничего. Всерьёз — только если тут же назовут день"
+        },
+        {
+          "phrase": "Thank you for your attention. Goodbye.",
+          "ok": false,
+          "fix": "Anyway, good seeing you. Take care.",
+          "flash_ru": "конец презентации, а не конец разговора с соседом"
+        },
+        {
+          "phrase": "Long story — I'll tell you later.",
+          "ok": true,
+          "flash_ru": "легальный способ не рассказывать и не выглядеть закрытым"
+        },
+        {
+          "phrase": "Sorry, I gotta run. Have a good one.",
+          "ok": true,
+          "flash_ru": "быстрый выход в две ступеньки — так уходят на самом деле"
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Maya, новая коллега из Остина, написала Артёму три строчки: поздоровалась и спросила, как он устроился. Артём отвечает — честно, подробно и совершенно не по-американски. Здесь сломана не грамматика, а дистанция: где-то её слишком много, где-то её вообще нет. Найди эти места.",
+      "segments": [
+        {
+          "text": "Dear Mrs. Maya,\n\nHow do you do?",
+          "error": true,
+          "fix": "Hi Maya,\n\nHow's it going?",
+          "note_ru": "Обращение сломано дважды: `Mrs.` идёт только с фамилией, и для коллеги по команде это в любом случае слишком — внутри компании пишут `Hi Maya` независимо от возраста и должности. А `How do you do?` — формула из учебника 1970-х; живая замена `How's it going?`, и на неё не отвечают всерьёз"
+        },
+        { "text": " " },
+        {
+          "text": "Thanks for checking in",
+          "error": false,
+          "note_ru": "Правильно: `check in on someone` = «узнать, как дела». Ровно та фраза, которой отвечают на такое письмо"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "You ask how I am. Honestly, not so good: I did not sleep well all week because of the noise from the street, my back hurts again after the flight, and I am still fighting with the bank about my card.",
+          "error": true,
+          "fix": "It's been a long week — jet lag and bank paperwork. Getting there, though.",
+          "note_ru": "Главный провал урока. `How are you?` — это «привет», а не приглашение к анамнезу. Три личных проблемы в ответ на ритуальный вопрос ставят коллегу в положение, из которого она не знает, как выйти"
+        },
+        { "text": " " },
+        {
+          "text": "My weekend was normal.",
+          "error": true,
+          "fix": "My weekend was pretty quiet.",
+          "note_ru": "`Normal` значит «без отклонений». Про выходные говорят `quiet`, `good`, `nothing special`"
+        },
+        { "text": " " },
+        {
+          "text": "I finally found a decent taqueria on 18th, so that's something",
+          "error": false,
+          "note_ru": "Правильно: одна конкретная деталь плюс лёгкая самоирония — идеальный объём для смоллтока"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "And how is your health and your family?",
+          "error": true,
+          "fix": "How about you — how's your week going?",
+          "note_ru": "Здоровье и семья — не тема второго письма коллеге. Про здоровье в США спрашивают, только если человек сам сказал, что болен"
+        },
+        { "text": " " },
+        {
+          "text": "I have one question: with whom I should speak about the VPN?",
+          "error": true,
+          "fix": "Quick question — who should I talk to about the VPN?",
+          "note_ru": "`With whom` в рабочей переписке звучит как повестка в суд, плюс порядок слов сломан. Живая форма: `who should I talk to`"
+        },
+        { "text": " " },
+        {
+          "text": "Please answer me as soon as possible.",
+          "error": true,
+          "fix": "No rush — whenever you get a chance.",
+          "note_ru": "Прямое требование от нового человека к коллеге. Американец в этом месте почти всегда снимает давление, даже когда оно ему нужно"
+        },
+        { "text": "\n\n" },
+        {
+          "text": "That is all. Goodbye.",
+          "error": true,
+          "fix": "Anyway — glad to be on the team. Talk soon.",
+          "note_ru": "Разговор оборван без лестницы выхода. `That is all` — реплика диспетчера, а `Goodbye` в письме коллеге звучит как «больше не пишите мне»"
+        },
+        { "text": " " },
+        {
+          "text": "I'll be at standup tomorrow",
+          "error": false,
+          "note_ru": "Правильно: короткая практичная строчка, которая сама задаёт следующий контакт"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "Yours sincerely,\nArtem Sokolov, Backend Developer",
+          "error": true,
+          "fix": "— Artem",
+          "note_ru": "`Yours sincerely` плюс должность во внутреннем письме — как прийти на кухню офиса в галстуке. Внутри компании подписываются именем"
+        }
+      ],
+      "corrected": "Hi Maya,\n\nHow's it going? Thanks for checking in.\n\nIt's been a long week — jet lag and bank paperwork. Getting there, though. My weekend was pretty quiet. I finally found a decent taqueria on 18th, so that's something.\n\nHow about you — how's your week going? Quick question — who should I talk to about the VPN? No rush — whenever you get a chance.\n\nAnyway — glad to be on the team. Talk soon. I'll be at standup tomorrow.\n\n— Artem"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "topicId": "egiu-013",
+  "title": "Present perfect and past 1 (I have done and I did)",
+  "title_ru": "уже сделал vs сделал тогда",
+  "theory": "## Короткая версия\n\n**Past simple** — событие приколочено ко времени, которое закончилось. *yesterday, last week, in 2019, at 6pm, when I was a kid.* Точка на карте прошлого.\n\n**Present perfect** — событие важно **сейчас**, а когда оно случилось — неважно или неизвестно. Результат жив.\n\n- `I lost my keys.` — потерял тогда. Может, уже нашёл.\n- `I've lost my keys.` — потерял, и вот стою у двери без ключей.\n\n## Где русскоязычные валятся\n\n**1. Маркер прошлого + перфект.** В русском «я уже видел его вчера» звучит нормально. В английском `yesterday` убивает перфект намертво.\n\n- ❌ `I've seen him yesterday.`\n- ✅ `I saw him yesterday.`\n\n**2. `Did you ever...?` vs `Have you ever...?`** Опыт за всю жизнь — перфект: `Have you ever been to Texas?` Но в разговорной Америке `Did you ever eat at Portillo's?` — абсолютно нормально, никто не поморщится. Это тот случай, где AmE мягче британского.\n\n**3. `just / already / yet`.** Учебник говорит только перфект. Живая Америка спокойно говорит past simple:\n\n- `I just got here.` (типичнее, чем `I've just gotten here`)\n- `Did you eat yet?` (типичнее, чем `Have you eaten yet?`)\n\nОба варианта правильные. В письме/на работе — перфект, в разговоре — как удобно.\n\n**4. Мёртвые люди и закрытые периоды.** Если период закончился — только past.\n\n- ❌ `Shakespeare has written 37 plays.`\n- ✅ `Shakespeare wrote 37 plays.` (он больше не напишет)\n- ✅ `My sister has written three novels.` (она ещё жива и пишет)\n\n**5. Новость → перфект, детали → past.** Классическая связка:\n\n`We've hired a new backend guy. He started Monday and he already broke staging.`\n\n## AmE-примечание\n\nАмериканцы говорят `gotten` (`I've gotten used to it`), британцы — `got`. И `I have` чаще, чем `I've got`, для владения: `Do you have a minute?`, не `Have you got a minute?`",
+  "scenes": [
+    {
+      "type": "case",
+      "caseTitle": "Дело №4: Алиби на 40 минут",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. В офисе на Уэст-Лейк ночью пропал ноутбук с прода. Три сотрудника были в здании. Все трое говорят, что ни при чём. Один из них врёт — и выдаст себя временем глагола.",
+      "steps": [
+        {
+          "narrative": "Первым заходит **Kevin**, дежурный сисадмин. Мия спрашивает, когда он последний раз видел ноутбук.\n\n— **I've seen it on Marcus's desk yesterday around seven.**\n\nМия ставит галочку в блокноте. Не потому, что он врёт — потому что фраза кривая.",
+          "question_ru": "Кевин сказал грамматически неправильную фразу. Как надо?",
+          "choices": [
+            "I saw it on Marcus's desk yesterday around seven.",
+            "I have seen it on Marcus's desk yesterday around seven.",
+            "I had seen it on Marcus's desk yesterday around seven."
+          ],
+          "answer": 0,
+          "clue_ru": "`yesterday around seven` — точка в закрытом прошлом. Перфект туда не лезет. Мия отмечает: Кевин нервничает, но это ещё не улика."
+        },
+        {
+          "narrative": "Вторая — **Priya**, тимлид. Она спокойна.\n\n— **I left at six. I haven't been in the office since then.**\n\nМия кивает. Эта фраза построена правильно — и говорит больше, чем Прия думает.",
+          "question_ru": "Что именно утверждает `I haven't been in the office since then`?",
+          "choices": [
+            "Что её не было в офисе с шести и до сих пор — включая прямо сейчас",
+            "Что её не было в офисе только вчера вечером",
+            "Что она однажды не пришла в офис"
+          ],
+          "answer": 0,
+          "clue_ru": "Перфект тянет линию из прошлого в настоящий момент. `since then` — начало отрезка. Проблема: Прия сидит в этом офисе прямо сейчас, разговаривая с Мией. Формально она уже соврала — но, скорее всего, просто не подумала. Мия делает пометку."
+        },
+        {
+          "narrative": "Третий — **Marcus**, чей стол и был. Он раздражён.\n\n— Look, I don't know what you want from me. **I've worked here for six years and nobody has ever accused me of anything.**\n\nМия слушает не смысл, а время.",
+          "question_ru": "Маркус говорит `I've worked here for six years`. О чём это говорит?",
+          "choices": [
+            "Он работает здесь до сих пор — шесть лет и продолжается",
+            "Он проработал шесть лет и уволился",
+            "Он работал здесь шесть лет назад"
+          ],
+          "answer": 0,
+          "clue_ru": "`I've worked here for six years` = работаю и сейчас. Сравни: `I worked there for six years` — всё, ушёл. Маркус говорит про себя честно и в настоящем."
+        },
+        {
+          "narrative": "Мия возвращается к записям Кевина. В самом начале он обронил ещё одну фразу, на которую она тогда не обратила внимания:\n\n— **I didn't touch that laptop. I've never even opened it.**\n\nА через минуту, оправдываясь:\n\n— **I only opened it once, last month, to check the disk.**",
+          "question_ru": "Где Кевин себя закопал?",
+          "choices": [
+            "`I've never even opened it` покрывает всю его жизнь до этой секунды — и прямо противоречит `I opened it last month`",
+            "`I didn't touch that laptop` — надо было сказать `I haven't touched`",
+            "`I only opened it once, last month` — надо было сказать `I have only opened it once`"
+          ],
+          "answer": 0,
+          "clue_ru": "Вот она, улика. `I have never opened it` — заявление про весь опыт до текущего момента, без дырок. `Last month` попадает внутрь этого отрезка. Человек, который правда никогда не открывал, не вспомнит через минуту, как открывал."
+        }
+      ],
+      "outro_ru": "Кевин сдался на второй чашке кофе: ноутбук он забрал, чтобы дома доломать сборку и починить до утра — героически и без спроса. Ноутбук нашёлся под его диваном. Мия закрыла дело и записала в блокнот: «Never — опасное слово. Люди говорят его быстрее, чем вспоминают.»"
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Jake",
+        "emoji": "👨‍💻",
+        "desc_ru": "твой техлид, Остин. Пишет коротко, отвечает мгновенно, обижается на длинные апдейты."
+      },
+      "intro_ru": "Утро понедельника. Ты вчера чинил падающий пайплайн. Джейк просыпается и открывает Slack.",
+      "steps": [
+        {
+          "incoming": ["morning", "any luck with the pipeline?"],
+          "options": [
+            {
+              "text": "yeah, I fixed it last night — it was a timeout in the migration step",
+              "verdict": "natural",
+              "note_ru": "`last night` = закрытый кусок времени, значит past simple. Именно так и напишет американец."
+            },
+            {
+              "text": "yeah, I have fixed it last night — it was a timeout in the migration step",
+              "verdict": "error",
+              "note_ru": "`last night` + перфект = нельзя. Самая частая ошибка русскоязычных, и она сразу слышна."
+            },
+            {
+              "text": "Yes, the pipeline has been repaired by me during the last night.",
+              "verdict": "textbook",
+              "note_ru": "Грамматика жива, стиль мёртв. Пассив + «by me» в Slack — как прийти в костюме на созвон в 9 утра."
+            }
+          ]
+        },
+        {
+          "incoming": ["nice", "is it green now?"],
+          "options": [
+            {
+              "text": "yep, it's been green for like three hours",
+              "verdict": "natural",
+              "note_ru": "Состояние тянется до сих пор → перфект + `for`. `like` тут = «где-то, примерно», нормальный разговорный AmE."
+            },
+            {
+              "text": "yep, it is green for three hours",
+              "verdict": "error",
+              "note_ru": "Present simple не умеет измерять длительность до текущего момента. Нужен перфект: `it's been green for three hours`."
+            },
+            {
+              "text": "yep, it was green during three hours",
+              "verdict": "error",
+              "note_ru": "Два бага сразу: past simple обрывает состояние в прошлом (значит, сейчас уже не зелёный), и `during` не работает с длительностью — нужно `for`."
+            }
+          ]
+        },
+        {
+          "incoming": ["cool, did you tell Priya?", "she's been asking about it since friday"],
+          "options": [
+            {
+              "text": "not yet — I'll ping her after standup",
+              "verdict": "natural",
+              "note_ru": "`not yet` идеально отвечает на «уже?». Коротко, по делу, без оправданий — тон, который любят в американских командах."
+            },
+            {
+              "text": "no, I didn't tell her yet, sorry, I have forgotten it completely",
+              "verdict": "textbook",
+              "note_ru": "Понятно, но многословно и с извинением на пустом месте. `I have forgotten it completely` звучит как трагедия из-за непинганутого человека."
+            },
+            {
+              "text": "no, I don't tell her yet",
+              "verdict": "error",
+              "note_ru": "Present simple вместо прошедшего/перфекта. Нужно `I haven't told her yet` или разговорное `I didn't tell her yet`."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Джейк кинул 👍 и ушёл. В американской переписке это высшая форма одобрения."
+    },
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s02e05 — сериал про соседей по трёхэтажке в Чикаго. Ты переводишь реплики на английский.",
+      "steps": [
+        {
+          "scene_ru": "Дэнни открывает дверь, в руках коробка с пиццей, на лестнице сидит Рэйчел с чемоданом.",
+          "line_ru": "Ты чего тут сидишь? Я тебя год не видел.",
+          "reference": "What are you doing here? I haven't seen you in a year.",
+          "alt": "What are you doing here? I haven't seen you for a year.",
+          "note_ru": "«Не видел и до сих пор не вижу» — отрезок тянется в настоящее, значит перфект. Американцы чаще говорят `in a year`, британцы `for a year`. Оба поймут."
+        },
+        {
+          "scene_ru": "Рэйчел встаёт, отряхивает джинсы, кивает на чемодан.",
+          "line_ru": "Я вчера съехала от Марка. Пока не знаю, куда дальше.",
+          "reference": "I moved out of Mark's place yesterday. I don't know where I'm going yet.",
+          "alt": "I left Mark's yesterday. I haven't figured out where I'm going yet.",
+          "note_ru": "`yesterday` → жёсткий past simple, никакого перфекта. А вот про «пока не знаю» — настоящее: состояние длится. `move out` — фразовый глагол про съехать с квартиры, `leave` тоже сойдёт."
+        },
+        {
+          "scene_ru": "Дэнни молча отходит от двери, пропуская её внутрь. Рэйчел не двигается.",
+          "line_ru": "Я тебя об этом не просила.",
+          "reference": "I didn't ask you for that.",
+          "alt": "I never asked you for that.",
+          "note_ru": "Оба варианта живые, но разные по температуре. `I didn't ask` — про конкретный момент. `I never asked` — накопленное «вообще никогда», звучит резче и обиднее. В этой сцене подходит второй."
+        },
+        {
+          "scene_ru": "Дэнни ставит пиццу на ступеньку между ними и садится рядом.",
+          "line_ru": "Знаю. Я её уже заказал, ещё до того, как тебя увидел.",
+          "reference": "I know. I already ordered it, before I even saw you.",
+          "alt": "I know. I'd already ordered it before I saw you.",
+          "note_ru": "В разговорной Америке `already` спокойно живёт с past simple — `I already ordered it` звучит естественнее книжного `I have already ordered it`. Второй вариант с past perfect — если хочешь подчеркнуть последовательность, но в живой речи это уже слегка литературно."
+        }
+      ]
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Семь секунд на фразу. Спрашивай себя не «правильно ли по учебнику», а «услышу ли я это от американца».",
+      "cards": [
+        {
+          "phrase": "I've finished the report yesterday.",
+          "ok": false,
+          "fix": "I finished the report yesterday.",
+          "flash_ru": "yesterday — метка закрытого прошлого, перфект туда не пускают"
+        },
+        {
+          "phrase": "I've been to Austin twice.",
+          "ok": true,
+          "flash_ru": "опыт за жизнь, время не названо — родной дом перфекта"
+        },
+        {
+          "phrase": "Did you eat yet?",
+          "ok": true,
+          "flash_ru": "по учебнику надо перфект, но в США так говорят все — это норма, а не ошибка"
+        },
+        {
+          "phrase": "I have got a headache.",
+          "ok": false,
+          "fix": "I have a headache.",
+          "flash_ru": "британская привычка. В Америке — просто have"
+        },
+        {
+          "phrase": "She's worked here since 2019.",
+          "ok": true,
+          "flash_ru": "since + перфект = работает до сих пор"
+        },
+        {
+          "phrase": "When have you moved to Chicago?",
+          "ok": false,
+          "fix": "When did you move to Chicago?",
+          "flash_ru": "вопрос со when требует конкретной точки — только past simple"
+        },
+        {
+          "phrase": "I've gotten used to the noise.",
+          "ok": true,
+          "flash_ru": "gotten — американская форма. Британец скажет got, и это будет звучать иначе"
+        },
+        {
+          "phrase": "Hemingway has written seven novels.",
+          "ok": false,
+          "fix": "Hemingway wrote seven novels.",
+          "flash_ru": "он больше ничего не напишет — период закрыт, перфект невозможен"
+        },
+        {
+          "phrase": "I didn't see him for three years.",
+          "ok": false,
+          "fix": "I haven't seen him in three years.",
+          "flash_ru": "не вижу до сих пор → перфект. Past simple означал бы, что теперь-то видишь"
+        },
+        {
+          "phrase": "We just shipped it.",
+          "ok": true,
+          "flash_ru": "just с past simple — стандарт американской речи, перфект тут не обязателен"
+        },
+        {
+          "phrase": "How long are you living in this apartment?",
+          "ok": false,
+          "fix": "How long have you been living in this apartment?",
+          "flash_ru": "длительность до сегодня — только перфект. Классическая калька с русского"
+        },
+        {
+          "phrase": "I've never met her, but we've emailed a bunch.",
+          "ok": true,
+          "flash_ru": "два перфекта про накопленный опыт. a bunch — разговорное «дофига раз»"
+        },
+        {
+          "phrase": "He has left the company in March.",
+          "ok": false,
+          "fix": "He left the company in March.",
+          "flash_ru": "in March — конкретная точка, значит past simple"
+        },
+        {
+          "phrase": "It's been a minute since we talked.",
+          "ok": true,
+          "flash_ru": "разговорное «давно не виделись». It's been a minute = на самом деле «дофига времени»"
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Sam, бариста из кофейни на углу, пишет письмо владельцу — просит поднять зарплату. Черновик. Английский у Сэма живой, но времена он путает ровно там же, где и ты. Найди все места, где сломано.",
+      "segments": [
+        { "text": "Hi Ray,\n\nI know you're slammed this week, so I'll keep it short. " },
+        {
+          "text": "I've started here in March 2023",
+          "error": true,
+          "fix": "I started here in March 2023",
+          "note_ru": "`in March 2023` — конкретная точка в прошлом, перфект запрещён"
+        },
+        { "text": ", so it's been about two and a half years. " },
+        {
+          "text": "In that time I have never asked for a raise",
+          "error": false,
+          "note_ru": "Правильно: отрезок «за это время и до сих пор» — родной случай перфекта"
+        },
+        { "text": ", so this is my first time bringing it up.\n\nA few things changed since we talked last spring. " },
+        {
+          "text": "I have trained four new baristas last year",
+          "error": true,
+          "fix": "I trained four new baristas last year",
+          "note_ru": "`last year` — закрытый период, только past simple"
+        },
+        { "text": ", including Maya, who now runs the morning shift on her own. " },
+        {
+          "text": "I've also taken over the wholesale orders",
+          "error": false,
+          "note_ru": "Правильно: взял и до сих пор занимается, время не названо"
+        },
+        { "text": " since Deb left, and " },
+        {
+          "text": "we didn't miss a delivery since then",
+          "error": true,
+          "fix": "we haven't missed a delivery since then",
+          "note_ru": "`since then` тянет линию до сегодня — обязателен перфект"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "I have talked to Maya yesterday",
+          "error": true,
+          "fix": "I talked to Maya yesterday",
+          "note_ru": "`yesterday` + перфект — та же ошибка, что и в первом абзаце"
+        },
+        { "text": " and she said the same thing: the morning crew does more now than the whole staff did two years ago.\n\n" },
+        {
+          "text": "I don't hear anything about the new schedule yet",
+          "error": true,
+          "fix": "I haven't heard anything about the new schedule yet",
+          "note_ru": "Present simple не умеет в «пока ещё не». Нужен перфект (или разговорное `I didn't hear anything yet`)"
+        },
+        { "text": ", but whatever it looks like, I'd like the raise conversation to happen before it starts.\n\n" },
+        {
+          "text": "How long do you know me now — two years?",
+          "error": true,
+          "fix": "How long have you known me now — two years?",
+          "note_ru": "Длительность до текущего момента = перфект. Present simple здесь звучит как вопрос из ниоткуда"
+        },
+        { "text": " You know I'm not going to make this weird. Coffee's on me if you want to talk it through Thursday.\n\n" },
+        {
+          "text": "Thanks for everything you've done for me",
+          "error": false,
+          "note_ru": "Правильно: накопленный итог, который важен сейчас"
+        },
+        { "text": ".\n\nSam" }
+      ],
+      "corrected": "Hi Ray,\n\nI know you're slammed this week, so I'll keep it short. I started here in March 2023, so it's been about two and a half years. In that time I have never asked for a raise, so this is my first time bringing it up.\n\nA few things changed since we talked last spring. I trained four new baristas last year, including Maya, who now runs the morning shift on her own. I've also taken over the wholesale orders since Deb left, and we haven't missed a delivery since then.\n\nI talked to Maya yesterday and she said the same thing: the morning crew does more now than the whole staff did two years ago.\n\nI haven't heard anything about the new schedule yet, but whatever it looks like, I'd like the raise conversation to happen before it starts.\n\nHow long have you known me now — two years? You know I'm not going to make this weird. Coffee's on me if you want to talk it through Thursday.\n\nThanks for everything you've done for me.\n\nSam"
+    }
+  ]
+}

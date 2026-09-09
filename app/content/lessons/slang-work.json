@@ -1,0 +1,297 @@
+{
+  "topicId": "slang-work",
+  "title": "Office and tech slang (circle back, bandwidth, ship it)",
+  "title_ru": "офис и айти: circle back, bandwidth, ship it, LGTM",
+  "theory": "## Что это за слой\n\nАмериканский офисный английский — не сленг из TikTok и не деловой язык из учебника. Это узкий рабочий жаргон: в Slack он звучит своим, в письме заказчику — небрежным. Половина выражений — метафоры из спорта, буквальный перевод не работает.\n\n## Словарь: фраза — смысл — с кем можно\n\n- **heads-up** — предупредить заранее. `Just a heads-up: deploy is at four.` Можно всем, включая клиента.\n- **blocker** — то, из-за чего работа стоит. Можно всем.\n- **deep dive** — подробный разбор. Можно всем.\n- **low-hanging fruit** — быстрая задача с заметной отдачей. Можно всем, кроме формальной переписки.\n- **circle back (on/to)** — вернуться к вопросу позже. Внутри команды идеально; клиенту лучше `follow up on this next week`.\n- **loop someone in** — добавить человека в переписку. Внутри — да; клиенту нейтральнее `I'll include Priya`.\n- **bandwidth** — свободные силы и время, не интернет. `I don't have the bandwidth this week.` Внутри команды.\n- **on my plate** — у меня в работе. Внутри.\n- **quick sync** — созвон минут на пятнадцать. Внутри.\n- **ping me** — дёрни меня, напиши. Внутри.\n- **ship it** — выкатить, выпустить. Внутри.\n- **LGTM** (looks good to me) — апрув в код-ревью. Только про код и только внутри.\n- **my bad** — мелкая моя вина. Устно и в Slack. Клиенту — никогда, там `That was on us`.\n- **drop the ball** — прошляпить. Про себя и команду нормально; про клиента — обвинение.\n- **take it offline** — обсудить отдельно, не при всех. Про людей, а не про интернет.\n- **table it** — ВНИМАНИЕ: в США «отложить, снять с повестки», в Британии ровно наоборот — «вынести на обсуждение». С британцем не используй: оба уйдёте с созвона уверенными в противоположном.\n\n## Где валится русскоязычный\n\n**1. Буквальный перевод.** `no bandwidth` — не про интернет, `take it offline` — не про выключить. `revert` в США значит «откатить»: `I will revert to you tomorrow` читается как «я тебя завтра откачу».\n\n**2. Регистр.** `Sorry, my bad, will circle back` коллеге — свой человек. То же самое заказчику — подрядчик, который не воспринимает дедлайн всерьёз.\n\n**3. Старьё.** `synergy`, `paradigm shift`, `think outside the box` живут только как шутка. `Let's touch base` ещё говорят, но это язык менеджера, не инженера.\n\n**4. Прямота.** Американец почти не пишет `You must fix it`. Он пишет `Can you take a look when you get a chance?` — и это не просьба, а задача. В обратную сторону тоже: его `I have some concerns` значит «так делать нельзя».\n\n## AmE-примечание\n\n`on the call`, не `in the call`. `reach out to someone` вместо `contact someone`. `PTO` (paid time off), а не `holiday`: в США holiday — государственный праздник. `Cheers` в подписи — британское, американец пишет `Best`.",
+  "scenes": [
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Jake",
+        "emoji": "👨‍💻",
+        "desc_ru": "твой техлид, Остин. Пишет строчными буквами, отвечает за минуту, длинные апдейты не читает."
+      },
+      "intro_ru": "Вторник, 9:40 утра по Чикаго. Джейк проснулся в Остине и открыл Slack раньше тебя.",
+      "steps": [
+        {
+          "incoming": ["morning", "you have bandwidth for a quick sync before standup? the exporter is blocking priya"],
+          "options": [
+            {
+              "text": "yeah, give me ten — I'm heads-down on the migration, then I'm free",
+              "verdict": "natural",
+              "note_ru": "`give me ten` без слова minutes, `heads-down` = «я в задаче, не дёргайте». Ровно тот тон, которым отвечают техлиду в Slack."
+            },
+            {
+              "text": "Yes of course, I am at your disposal, tell me when you want.",
+              "verdict": "error",
+              "note_ru": "Не грамматика — регистр. `at your disposal` пишет консьерж в отеле. Джейк прочитает это как «человек нервничает и подчёркивает субординацию», а он этого не просил."
+            },
+            {
+              "text": "Yes, I will be able to participate in a short meeting in approximately ten minutes.",
+              "verdict": "textbook",
+              "note_ru": "Всё правильно и всё мимо. `participate in a meeting` — язык протокола. В чате пишут `works for me` или `give me ten`."
+            }
+          ]
+        },
+        {
+          "incoming": ["cool", "also can you look at my PR? nothing crazy, ~40 lines"],
+          "options": [
+            {
+              "text": "LGTM — left one nit about the retry count, non-blocking",
+              "verdict": "natural",
+              "note_ru": "Три слова, и всё сказано: апрув, замечание, и что оно не держит мерж. `nit` = мелкая придирка, `non-blocking` = можно мержить."
+            },
+            {
+              "text": "I looked at it. It is good for me, you can merge.",
+              "verdict": "error",
+              "note_ru": "`good for me` = «мне полезно» или «мне удобно по времени». Апрув звучит как `looks good to me` — отсюда и LGTM. Калька «мне подходит» тут ломает смысл."
+            },
+            {
+              "text": "I have reviewed your pull request and I approve of the proposed changes.",
+              "verdict": "textbook",
+              "note_ru": "Грамматически безупречно, по-человечески — как письмо из юротдела. `I approve of` вообще про моральное одобрение, а не про кнопку Approve."
+            }
+          ]
+        },
+        {
+          "incoming": ["one more thing", "diane asked why the export was late", "I'm drafting the reply to her now — anything to add?"],
+          "options": [
+            {
+              "text": "just say we found a timeout in the migration step and fixed it Tuesday. no 'my bad', no 'we dropped the ball' — she doesn't need our slack vocabulary",
+              "verdict": "natural",
+              "note_ru": "Правильный инстинкт: внутренний язык остаётся внутри. Клиенту — что сломалось, когда починили, точка."
+            },
+            {
+              "text": "tell her my bad, we totally dropped the ball but we'll circle back next week",
+              "verdict": "error",
+              "note_ru": "Провал регистра, а не грамматики. `my bad` в письме клиенту звучит как пожатие плечами, `dropped the ball` — это ты за неё сформулировал обвинение своей команде, а `circle back` она прочитает как «нас снова не будет ещё неделю»."
+            },
+            {
+              "text": "Please inform the client that the delay was caused by a technical issue which has since been resolved.",
+              "verdict": "textbook",
+              "note_ru": "Другая крайность: пресс-релиз авиакомпании. `a technical issue` без деталей американский заказчик читает как «нам не хотят говорить, что случилось»."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Джейк ответил «perfect» и переслал твою формулировку Диане почти дословно. Внутренний язык остался внутри — ровно так это и работает."
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №11: Сообщение в 4:07",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Стартап на Фултон-Маркет: ночью с аккаунта Грега, стаффа с восемью годами стажа, в канал #deploys упало сообщение, разрешающее выкатку. Выкатка положила прод на шесть часов. Грег клянётся, что спал. Мия не разбирается в деплоях. Она разбирается в том, как люди пишут.",
+      "steps": [
+        {
+          "narrative": "Первое сообщение с аккаунта Грега, 4:07 ночи:\n\n— **Can we table the migration? Let's get it in front of everyone Monday.**\n\nМия не понимает половины слов, поэтому спрашивает у Прии, тимлида. Прия читает дважды и хмурится.",
+          "question_ru": "Почему Прия хмурится?",
+          "choices": [
+            "Фраза противоречит сама себе по-американски: `table it` в США значит «отложить», а вторая половина предлагает наоборот вынести вопрос на всех",
+            "`table the migration` — грамматическая ошибка, нужен предлог: `table on the migration`",
+            "В 4 утра миграции не обсуждают, значит писал не Грег"
+          ],
+          "answer": 0,
+          "clue_ru": "В американском английском `table it` = снять с повестки, отложить. В британском — ровно наоборот, вынести на обсуждение. Человек, который написал это сообщение, использовал британское значение и приклеил к нему логичное для себя продолжение. Американец с восемью годами в чикагском офисе так не напишет физически."
+        },
+        {
+          "narrative": "Мия просит выгрузку канала за сутки. Днём раньше настоящий Грег писал:\n\n— **no bandwidth today, I'm on the incident. I'll circle back Thursday.**\n\nМия обводит эту строчку и спрашивает Прию, значит ли это, что у Грега проблемы со связью.",
+          "question_ru": "Что на самом деле сказал Грег?",
+          "choices": [
+            "У него нет сил и времени сегодня, он занят инцидентом, вернётся к вопросу в четверг",
+            "У него плохой интернет, он подключится в четверг",
+            "Он просит отключить его от канала до четверга"
+          ],
+          "answer": 0,
+          "clue_ru": "`bandwidth` про человека — это ресурс внимания, а не сеть. `circle back` — вернуться к отложенному разговору. Обе фразы стандартные, обе на месте. Улики тут нет — есть образец того, как Грег пишет на самом деле: строчными, коротко, без вежливых оборотов."
+        },
+        {
+          "narrative": "В ту же ночь с аккаунта Грега ушло письмо заказчице, Диане:\n\n— **Hi Diane, my bad on the export, we dropped the ball. Will circle back. Cheers, Greg**\n\nМия показывает письмо Прие. Прия говорит одно слово: «Невозможно».",
+          "question_ru": "Что в этом письме невозможно?",
+          "choices": [
+            "Внутренний Slack-жаргон и британская подпись `Cheers` в письме заказчице — Грег восемь лет пишет клиентам `Best, Greg` и никогда не пишет им `my bad`",
+            "Обращение `Hi Diane` — к заказчику полагается `Dear Diane`",
+            "`Will circle back` без подлежащего — грамматическая ошибка, невозможная для носителя"
+          ],
+          "answer": 0,
+          "clue_ru": "`my bad` и `dropped the ball` — язык своего канала, в письме клиенту они читаются как «нам не очень стыдно». А `Cheers` в подписи — британская привычка, американцы так письма не заканчивают. Опущенное подлежащее (`Will circle back`) как раз нормально: в деловой переписке это обычное сокращение."
+        },
+        {
+          "narrative": "Мия сводит всё вместе: британское `table it`, британское `Cheers`, время 4:07 ночи по Чикаго. Она открывает список внешних подрядчиков и находит одного, у которого в 4:07 по Чикаго было 10:07 утра.",
+          "question_ru": "Что именно выдало автора — время или язык?",
+          "choices": [
+            "Язык. Время лишь подтвердило: два британских маркера подряд в аккаунте американца — это не опечатка, а другой человек",
+            "Время. Никто из команды не пишет в 4 утра, значит писал кто-то из другого часового пояса",
+            "Ни то ни другое: аккаунт мог быть взломан кем угодно, язык ничего не доказывает"
+          ],
+          "answer": 0,
+          "clue_ru": "Часовой пояс сужает круг до сотни человек. Язык сужает до одного. `Table it` в британском значении плюс `Cheers` в подписи — это подпись почерком, только словами."
+        }
+      ],
+      "outro_ru": "Найджел, подрядчик из Лондона, три недели сидел с чужим токеном, который ему когда-то скинули «на пару дней посмотреть логи». Ночью он честно пытался помочь и разрешил выкатку, будучи уверенным, что предлагает её обсудить. Мия записала в блокнот: «Table it — единственное известное мне слово, которое в двух странах значит противоположное, и оба уверены, что понимают собеседника»."
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Семь секунд на карточку. Вопрос не «правильно ли по учебнику», а «напишет ли так американский инженер в 2026 году».",
+      "cards": [
+        {
+          "phrase": "Just a heads-up — the deploy is at four.",
+          "ok": true,
+          "flash_ru": "нейтрально и безопасно: так пишут и в канал, и заказчику"
+        },
+        {
+          "phrase": "I will revert to you tomorrow.",
+          "ok": false,
+          "fix": "I'll get back to you tomorrow.",
+          "flash_ru": "в США revert = откатить изменения. Фраза читается как «я тебя завтра откачу»"
+        },
+        {
+          "phrase": "I don't have the bandwidth this week.",
+          "ok": true,
+          "flash_ru": "силы и время, а не интернет. Внутри команды — стандарт"
+        },
+        {
+          "phrase": "Let's table this until Monday.",
+          "ok": true,
+          "flash_ru": "в США = отложить. Британец поймёт наоборот, с ним эту фразу не используй"
+        },
+        {
+          "phrase": "Let's table the pricing so the whole team can discuss it today.",
+          "ok": false,
+          "fix": "Let's put pricing on the agenda so the whole team can discuss it today.",
+          "flash_ru": "британское значение table приклеено к американскому контексту — фраза противоречит себе"
+        },
+        {
+          "phrase": "LGTM, ship it.",
+          "ok": true,
+          "flash_ru": "апрув ревью. Только про код и только внутри"
+        },
+        {
+          "phrase": "Cheers, mate — nice work on the PR.",
+          "ok": false,
+          "fix": "Thanks, man — nice work on the PR.",
+          "flash_ru": "британский набор целиком. В США mate звучит как костюм из чужого сериала"
+        },
+        {
+          "phrase": "Dear Diane, my bad about the delay.",
+          "ok": false,
+          "fix": "Hi Diane, apologies for the delay — that was on us.",
+          "flash_ru": "my bad живёт в Slack, в письме клиенту читается как «не очень-то и жаль»"
+        },
+        {
+          "phrase": "Can you give me a feedback?",
+          "ok": false,
+          "fix": "Can you give me feedback?",
+          "flash_ru": "feedback неисчисляемое, артикль сюда не ставят никогда"
+        },
+        {
+          "phrase": "I've got a lot on my plate this week, can we take it offline?",
+          "ok": true,
+          "flash_ru": "обе идиомы на месте: занят и предлагает обсудить не при всех"
+        },
+        {
+          "phrase": "Let's synergize on this and think outside the box.",
+          "ok": false,
+          "fix": "Let's work on this together.",
+          "flash_ru": "корпоративный язык 2005-го, сейчас говорится только с иронией"
+        },
+        {
+          "phrase": "Please ping to me when you are free.",
+          "ok": false,
+          "fix": "Ping me when you're free.",
+          "flash_ru": "ping переходный, предлог лишний"
+        },
+        {
+          "phrase": "I'll loop in Priya — she owns that piece.",
+          "ok": true,
+          "flash_ru": "добавить в переписку. `owns that piece` = отвечает за этот кусок, не про собственность"
+        },
+        {
+          "phrase": "I want to make a deep dive to this problem.",
+          "ok": false,
+          "fix": "I want to do a deep dive on this problem.",
+          "flash_ru": "do a deep dive on — фиксированная связка, make и to тут не работают"
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Артём, бэкендер, второй месяц в американской команде. Пишет письмо Диане — продакт-оунеру со стороны заказчика. Пишет так же, как пишет Джейку в Slack. Грамматика в порядке. Регистр — нет. Найди куски, которые в письме клиенту не должны стоять.",
+      "segments": [
+        { "text": "Hi Diane,\n\n" },
+        {
+          "text": "Quick heads-up on the export feature",
+          "error": false,
+          "note_ru": "Правильно: `heads-up` нейтрально, его спокойно пишут и клиентам"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "My bad — we totally dropped the ball on the deadline.",
+          "error": true,
+          "fix": "We missed the deadline, and that's on us.",
+          "note_ru": "`my bad` — язык чата между своими. Клиент читает его как «мне не очень стыдно», а `dropped the ball` вы за него же и произнесли"
+        },
+        { "text": " " },
+        {
+          "text": "Nobody on the team had the bandwidth this sprint",
+          "error": true,
+          "fix": "The team was at capacity this sprint",
+          "note_ru": "`bandwidth` внутри команды — норма, клиенту это звучит как жаргон вместо объяснения. И как отговорка"
+        },
+        { "text": " " },
+        {
+          "text": "and honestly the rollout was kind of a dumpster fire.",
+          "error": true,
+          "fix": "and the rollout did not go the way we planned.",
+          "note_ru": "`dumpster fire` — сильная разговорная метафора про полный провал. В письме заказчику это самоуничтожение, а не честность"
+        },
+        { "text": "\n\n" },
+        {
+          "text": "Anyway, we shipped it Tuesday and it LGTM now.",
+          "error": true,
+          "fix": "We released it on Tuesday and it's working as expected now.",
+          "note_ru": "Двойной промах: `ship it` — внутреннее слово, а LGTM вообще значит «апрувлю ревью» и про работающую систему так не говорят"
+        },
+        { "text": " " },
+        {
+          "text": "The new export runs in about forty seconds instead of nine minutes",
+          "error": false,
+          "note_ru": "Правильно: конкретные числа — единственная часть письма, которая клиенту действительно нужна"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "Let's table the invoicing thing until you're back from PTO.",
+          "error": true,
+          "fix": "Let's put the invoicing question on hold until you're back.",
+          "note_ru": "`table it` рискованно даже с американцем, а с британским коллегой Дианы значит противоположное. И `PTO` — ваш внутренний кадровый термин, не её"
+        },
+        { "text": " " },
+        {
+          "text": "Also I'll need you to jump on a quick sync about it.",
+          "error": true,
+          "fix": "Could we set up a short call about it?",
+          "note_ru": "`quick sync` — внутренний формат. Плюс `I'll need you to` заказчику — это приказ; американец в этом месте ставит вопрос"
+        },
+        { "text": "\n\n" },
+        {
+          "text": "Ping me whenever.",
+          "error": true,
+          "fix": "Feel free to email me any time.",
+          "note_ru": "`ping me` предполагает общий Slack и панибратство. У Дианы нет ни того, ни другого"
+        },
+        { "text": " " },
+        {
+          "text": "Thanks for your patience with this one",
+          "error": false,
+          "note_ru": "Правильно: короткая нормальная формула, американцы пишут именно так"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "Cheers,\nArtem",
+          "error": true,
+          "fix": "Best,\nArtem",
+          "note_ru": "`Cheers` в подписи — британское. Американец пишет `Best`, `Thanks` или просто имя"
+        }
+      ],
+      "corrected": "Hi Diane,\n\nQuick heads-up on the export feature.\n\nWe missed the deadline, and that's on us. The team was at capacity this sprint and the rollout did not go the way we planned.\n\nWe released it on Tuesday and it's working as expected now. The new export runs in about forty seconds instead of nine minutes.\n\nLet's put the invoicing question on hold until you're back. Could we set up a short call about it?\n\nFeel free to email me any time. Thanks for your patience with this one.\n\nBest,\nArtem"
+    }
+  ]
+}

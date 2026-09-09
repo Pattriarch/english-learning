@@ -1,0 +1,326 @@
+{
+  "topicId": "egiu-121",
+  "title": "At/on/in (time)",
+  "title_ru": "at 6 / on Monday / in June",
+  "theory": "## Короткая версия\n\nТри уровня масштаба:\n\n- **at** — точка на часах и пара застывших слов: `at 7:30, at noon, at midnight, at night, at lunch, at the moment, at the same time`.\n- **on** — дни и даты: `on Monday, on the 14th, on Friday night, on my birthday, on Christmas`.\n- **in** — всё, что длиннее дня: `in June, in 2019, in the summer, in the morning/afternoon/evening`.\n\nЛогика ломается ровно в двух местах, и их надо просто запомнить: `at night`, но `in the morning`. И `in the evening` вообще, но `on Friday evening` — как только появляется день недели, всё переключается на `on`.\n\n## Где русскоязычные валятся\n\n**1. Предлог там, где его быть не должно.** `next, last, this, every` выкидывают предлог целиком.\n\n- ❌ `on next Monday`, ❌ `in this summer` → ✅ `next Monday`, `this summer`\n\nВ разговорной Америке предлог часто отваливается и просто так: `See you Monday.`, `I'm out Friday.` — это норма, а не небрежность.\n\n**2. «Через» → `after`.** Русское «через два часа» ложится на `after two hours`, и это неверно.\n\n- ❌ `I'll be back after two hours.` → ✅ `I'll be back in two hours.`\n- `in` = отсчёт вперёд от сейчас, `after` = после какого-то события: `after lunch`, `after the demo`.\n\n**3. `by` и `until` — разные вещи, и это стоит денег.**\n\n- `Send it by Friday` — не позже пятницы, дедлайн.\n- `I'm on it until Friday` — вплоть до пятницы, всё это время.\n- ❌ `I'll finish it until Friday.` Самая дорогая ошибка русскоязычного в рабочей переписке.\n\n**4. Часы.** `at 6`, `at 6:30`, `at 6 in the morning` или `at 6 a.m.` — но не `at 6 at night`. Три часа ночи по-английски — `three in the morning`.\n\n**5. `in time` vs `on time`.** `on time` — вовремя, по расписанию. `in time` — успел, впритык: `I made it in time for the standup.`\n\n## AmE-примечание\n\nВыходные: американец говорит `on the weekend` или `over the weekend`. `At the weekend` — британское, вычёркивай.\n\nРождество: в США `on Christmas`, `over the holidays`. `At Christmas` — снова британское.\n\nРабочая неделя: `Monday through Friday`. Британское `Monday to Friday` в США звучит слегка иностранно, а в письме про график — прямо заметно.\n\nВремя вслух: `six fifteen` или `quarter after six`. `Quarter past six` — британское. `Half six` в британском значит 6:30, американец не поймёт вообще.\n\nИ ещё чисто американское: `I'll do it Tuesday-ish`, `sometime next week`, `end of day` (часто просто `EOD`) — три способа не называть точное время и при этом звучать по-деловому.",
+  "scenes": [
+    {
+      "type": "radar",
+      "intro_ru": "Разминка перед делом. Семь секунд на фразу: at, on, in — или вообще без предлога.",
+      "cards": [
+        {
+          "phrase": "See you at the weekend.",
+          "ok": false,
+          "fix": "See you on the weekend.",
+          "flash_ru": "британское; в США on the weekend или over the weekend"
+        },
+        {
+          "phrase": "The standup is in 9:30.",
+          "ok": false,
+          "fix": "The standup is at 9:30.",
+          "flash_ru": "точка на часах — всегда at"
+        },
+        {
+          "phrase": "I'll call you in the evening.",
+          "ok": true,
+          "flash_ru": "части суток берут in — кроме ночи"
+        },
+        {
+          "phrase": "He works at night.",
+          "ok": true,
+          "flash_ru": "единственное исключение: night сидит с at, а не с in"
+        },
+        {
+          "phrase": "The demo is in Friday.",
+          "ok": false,
+          "fix": "The demo is on Friday.",
+          "flash_ru": "дни недели и даты — только on"
+        },
+        {
+          "phrase": "Let's meet on next Monday.",
+          "ok": false,
+          "fix": "Let's meet next Monday.",
+          "flash_ru": "next, last, this, every выкидывают предлог целиком"
+        },
+        {
+          "phrase": "I'll be back after two hours.",
+          "ok": false,
+          "fix": "I'll be back in two hours.",
+          "flash_ru": "калька с «через»; отсчёт вперёд от сейчас — это in"
+        },
+        {
+          "phrase": "I'll send you the numbers by Friday.",
+          "ok": true,
+          "flash_ru": "by = не позже, дедлайн; путать с until нельзя"
+        },
+        {
+          "phrase": "I'll finish the migration until Friday.",
+          "ok": false,
+          "fix": "I'll finish the migration by Friday.",
+          "flash_ru": "until = «вплоть до и всё это время», для дедлайна нужен by"
+        },
+        {
+          "phrase": "We open at 7 in the morning, Monday through Friday.",
+          "ok": true,
+          "flash_ru": "Monday through Friday — американский стандарт; Monday to Friday выдаёт британца"
+        },
+        {
+          "phrase": "I saw my family at Christmas.",
+          "ok": false,
+          "fix": "I saw my family on Christmas.",
+          "flash_ru": "британское at Christmas; в США on Christmas или over the holidays"
+        },
+        {
+          "phrase": "The retro is at Tuesday morning.",
+          "ok": false,
+          "fix": "The retro is on Tuesday morning.",
+          "flash_ru": "просто «утром» → in the morning, но утро конкретного дня → on"
+        },
+        {
+          "phrase": "It happened in the night of the 3rd.",
+          "ok": false,
+          "fix": "It happened on the night of the 3rd.",
+          "flash_ru": "at night — вообще; конкретная ночь с датой — on"
+        },
+        {
+          "phrase": "I got there in time to grab a seat.",
+          "ok": true,
+          "flash_ru": "in time = успел впритык; on time = вовремя по расписанию"
+        }
+      ]
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №19: Свидетель с чужим календарём",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. На Кларк-стрит машина сбила велокурьера и уехала. Единственный свидетель — Тревор Линч, менеджер бара напротив, представляется коренным чикагцем в третьем поколении. Его показания разваливаются не по фактам, а по предлогам.",
+      "steps": [
+        {
+          "narrative": "Тревор рассказывает про свой график:\n\n— I close up Thursdays and Fridays. **At the weekend** I'm usually here till two.\n\nМия останавливает его и просит повторить последнюю фразу.",
+          "question_ru": "Что не так с `at the weekend` в устах коренного чикагца?",
+          "choices": [
+            "Это британская форма; американец скажет on the weekend или over the weekend",
+            "Грамматическая ошибка: правильно только in the weekend",
+            "Ничего, это обычная американская фраза"
+          ],
+          "answer": 0,
+          "clue_ru": "`At the weekend` — чистый британизм. В США его не говорят ни в Чикаго, ни где-либо ещё: только `on the weekend` (или `over the weekend`, если про выходные целиком). Одна фраза — и легенда про три поколения дала трещину."
+        },
+        {
+          "narrative": "Второй свидетель — **Дэйв**, охранник с парковки. Он честно смотрит в записи в телефоне.\n\n— The alarm on the gate went off **in 3:15 in the morning**.\n\nАкцент чикагский, фраза — нет.",
+          "question_ru": "Как это должно звучать?",
+          "choices": [
+            "The alarm went off at 3:15 in the morning.",
+            "The alarm went off on 3:15 at the night.",
+            "The alarm went off in 3:15 at night."
+          ],
+          "answer": 0,
+          "clue_ru": "Часы — всегда `at`. И три часа ночи по-английски — `three in the morning`, а не `at night`: `at night` работает только без конкретного времени. Ошибка бытовая, к делу отношения не имеет — Мия просто поправляет протокол."
+        },
+        {
+          "narrative": "На телефоне Тревора два сообщения тем вечером, оба якобы от него.\n\n21:47 — **be there in twenty**\n\n22:02 — **I will come after twenty minutes, wait me**",
+          "question_ru": "Почему Мия уверена, что второе сообщение писал не Тревор?",
+          "choices": [
+            "`after twenty minutes` — калька: носитель скажет `in twenty minutes`. Плюс `wait me` вместо `wait for me`. Два сообщения писали два разных человека",
+            "Второе сообщение просто вежливее, стиль у людей меняется",
+            "`in twenty` в первом сообщении неправильно, значит подделка — именно первое"
+          ],
+          "answer": 0,
+          "clue_ru": "`In twenty` (минуты можно не договаривать) — то, как пишет американец. `After twenty minutes` — прямой перевод «через двадцать минут» и мгновенный маркер неносителя. Телефон в тот вечер был в двух руках."
+        },
+        {
+          "narrative": "В блокноте Тревора Мия находит запись про арендованный фургон:\n\n— **I told him I need the van until Friday.**\n\nВ разговоре часом раньше Тревор сказал другое:\n\n— I told him to have it back **by Friday**.",
+          "question_ru": "В чём разница между этими двумя версиями?",
+          "choices": [
+            "`until Friday` = фургон нужен ему самому всю неделю до пятницы; `by Friday` = фургон у кого-то другого и должен вернуться не позже пятницы. Это две противоположные истории",
+            "Разницы нет, until и by взаимозаменяемы",
+            "`by Friday` означает «в пятницу», а `until Friday` — «в четверг»"
+          ],
+          "answer": 0,
+          "clue_ru": "`Until` тянет отрезок времени, `by` ставит дедлайн. В первой версии фургон всю неделю у Тревора, во второй — у водителя, который его сбил и должен вернуть. Тревор не путал предлоги. Он путал показания."
+        }
+      ],
+      "outro_ru": "Тревор Линч приехал из Манчестера девять лет назад по студенческой визе и остался. Фургон был его, за рулём в ту ночь сидел его двоюродный брат, а «коренной чикагец» — легенда, которую он сам себе поверил. Курьер выжил. Мия записала в блокнот: «Человек может выучить акцент за год. Предлоги времени он не переучит никогда.»"
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Rachel",
+        "emoji": "🔑",
+        "desc_ru": "риелтор, работает с тобой второй месяц. Пишет быстро, отвечает в любое время суток."
+      },
+      "intro_ru": "Вторник, обед. Квартира на Волкотт, которую ты смотрел месяц назад, снова свободна. Рэйчел не любит терять время.",
+      "steps": [
+        {
+          "incoming": ["the Wolcott place is back", "can you see it this week?"],
+          "options": [
+            {
+              "text": "yeah — thursday after 6 works, or anytime saturday",
+              "verdict": "natural",
+              "note_ru": "В живой американской переписке предлог перед днём недели просто отваливается: `thursday after 6`, `anytime saturday`. Короче и естественнее, чем полная форма."
+            },
+            {
+              "text": "yes, in thursday after 6, or at saturday whenever",
+              "verdict": "error",
+              "note_ru": "Дни недели живут только с `on`, и то в разговоре его чаще выбрасывают. `in thursday` и `at saturday` не бывает никогда."
+            },
+            {
+              "text": "Yes, I am available on Thursday subsequent to 18:00, and at any time on Saturday.",
+              "verdict": "textbook",
+              "note_ru": "Всё верно, но это язык объявления о конкурсе. `Subsequent to` и 24-часовое время в личной переписке в США выглядят инопланетно."
+            }
+          ]
+        },
+        {
+          "incoming": ["6:30 thursday then", "how long do you need in there?"],
+          "options": [
+            {
+              "text": "half an hour tops. I'll be there at 6:30 on the dot",
+              "verdict": "natural",
+              "note_ru": "Часы — `at`. `On the dot` = «минута в минуту», разговорное, но полностью нейтральное: так пишут и коллеге, и риелтору."
+            },
+            {
+              "text": "in 6:30 sharp. I need 30 minutes maximum",
+              "verdict": "error",
+              "note_ru": "`in 6:30` невозможно — точка на часах берёт только `at`. Само `sharp` живое (`at 6:30 sharp`), но предлог всё ломает."
+            },
+            {
+              "text": "I shall arrive at half past six precisely and require no more than thirty minutes.",
+              "verdict": "textbook",
+              "note_ru": "Два британских флажка сразу: `shall` и `half past six`. Американец скажет `six thirty` или `quarter after` — и уж точно не `shall`."
+            }
+          ]
+        },
+        {
+          "incoming": ["perfect", "owner wants an answer fast, he's got another showing sunday"],
+          "options": [
+            {
+              "text": "I can get you an answer by monday morning, not before",
+              "verdict": "natural",
+              "note_ru": "`by monday morning` = не позже утра понедельника. Ровно то, что нужно сказать про дедлайн, и ровно то слово, которое ждёт вторая сторона."
+            },
+            {
+              "text": "I can get you an answer until monday morning",
+              "verdict": "error",
+              "note_ru": "`until monday` означает «я буду выдавать ответы вплоть до понедельника». Рэйчел прочитает это как «ответа не будет» — самая дорогая путаница в рабочей переписке."
+            },
+            {
+              "text": "I will provide a response not later than the morning of Monday next.",
+              "verdict": "textbook",
+              "note_ru": "Смысл правильный, форма — из письма нотариуса. `Monday next` в США вообще не говорят; максимум `next Monday`, и то без предлога."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Рэйчел ответила «got it» и в 6:31 в четверг уже стояла у подъезда. Хозяин снял квартиру с рынка в воскресенье вечером — но не из-за тебя."
+    },
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s02e01 — сериал про соседей по трёхэтажке в Чикаго. Ты переводишь реплики на английский.",
+      "steps": [
+        {
+          "scene_ru": "Дэнни на кухне у Майи, объясняет, почему его вечно нет дома.",
+          "line_ru": "Я работаю с девяти до шести по будням, а в выходные — как повезёт.",
+          "reference": "I work nine to six on weekdays, and on the weekend it's a coin flip.",
+          "alt": "I work nine to six Monday through Friday, and weekends are a coin flip.",
+          "note_ru": "`On the weekend` — американская форма, `at the weekend` оставь британцам. `Monday through Friday` тоже чисто американское; британское `Monday to Friday` в США слышно как чужое. Между часами предлоги можно вообще выкинуть: `nine to six`."
+        },
+        {
+          "scene_ru": "Майя показывает пальцем в потолок: сверху опять грохот.",
+          "line_ru": "Он приходит домой в три ночи и врубает музыку.",
+          "reference": "He gets home at three in the morning and puts on music.",
+          "alt": "He rolls in at three a.m. and cranks the music.",
+          "note_ru": "Три часа ночи по-английски — `three in the morning`, а не `at night`: `at night` работает только без конкретного времени. `Roll in` — «заявляться», с оттенком «когда ему вздумается»; в разговоре про соседа — самое то."
+        },
+        {
+          "scene_ru": "Рэйчел уходит, застёгивая куртку в дверях.",
+          "line_ru": "Ладно, увидимся в следующую пятницу.",
+          "reference": "All right, see you next Friday.",
+          "alt": "Okay, see you Friday.",
+          "note_ru": "`Next` выкидывает предлог: `on next Friday` не бывает. А в живой речи предлог часто отваливается и сам по себе — `see you Friday` звучит ровно как надо."
+        },
+        {
+          "scene_ru": "Дэнни складывает коробки в углу, не глядя на Майю.",
+          "line_ru": "Мы съезжаем в конце июня, где-то тридцатого.",
+          "reference": "We're moving out at the end of June, around the 30th.",
+          "alt": "We're out at the end of June, the 30th or so.",
+          "note_ru": "`At the end of June` — про календарную точку. Не путай с `in the end` («в итоге, в конце концов») — это вообще не про время. Даты берут `on` (`on the 30th`), но с `around` предлог уходит."
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Jake, твой техлид из Остина, рассылает команде письмо про заморозку релизов и выезд в Чикаго. Он торопится, пишет между созвонами, и предлоги времени у него сыплются. Найди все места, где сломано.",
+      "segments": [
+        { "text": "Team,\n\nTwo things before the end of the quarter, both boring, both important.\n\n**Release freeze.** " },
+        {
+          "text": "The freeze starts in Monday",
+          "error": true,
+          "fix": "The freeze starts on Monday",
+          "note_ru": "Дни недели берут только `on`. `in Monday` не существует ни в одном регистре"
+        },
+        { "text": " and runs through the 22nd. Hotfixes still go out, everything else waits. " },
+        {
+          "text": "Please don't deploy at night unless you're on call",
+          "error": false,
+          "note_ru": "Правильно: `at night` — то самое исключение, где ночь сидит с `at`, а не с `in`"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "If something breaks at the weekend, page the rotation first",
+          "error": true,
+          "fix": "If something breaks on the weekend, page the rotation first",
+          "note_ru": "`At the weekend` — британское. В США `on the weekend`, а про выходные целиком — `over the weekend`"
+        },
+        { "text": ", then me. " },
+        {
+          "text": "I'll be online in 8:30 central every morning",
+          "error": true,
+          "fix": "I'll be online at 8:30 central every morning",
+          "note_ru": "Точка на часах — `at`. А `every morning` идёт вообще без предлога: `every` его выкидывает"
+        },
+        { "text": ".\n\n**Chicago.** " },
+        {
+          "text": "We're doing the offsite on next week",
+          "error": true,
+          "fix": "We're doing the offsite next week",
+          "note_ru": "`next` убивает предлог: `next week`, `next Monday`, `last summer` — все без `on` и `in`"
+        },
+        { "text": ", Wednesday through Friday, office on Wacker. " },
+        {
+          "text": "The all-hands is on the 14th, in the morning",
+          "error": false,
+          "note_ru": "Правильно: дата — `on the 14th`, а часть суток без привязки к дню — `in the morning`"
+        },
+        { "text": ". " },
+        {
+          "text": "We'll do the retro at Thursday afternoon",
+          "error": true,
+          "fix": "We'll do the retro on Thursday afternoon",
+          "note_ru": "Как только появляется день недели, `in the afternoon` переключается на `on Thursday afternoon`"
+        },
+        { "text": ", then dinner somewhere near the office.\n\n" },
+        {
+          "text": "My flight lands after two hours from now",
+          "error": true,
+          "fix": "My flight lands in two hours",
+          "note_ru": "Калька с «через два часа». Отсчёт вперёд от сейчас — только `in`, и `from now` тут лишнее"
+        },
+        { "text": ", so I'm answering Slack from the air.\n\n" },
+        {
+          "text": "Send me your travel receipts until Friday",
+          "error": true,
+          "fix": "Send me your travel receipts by Friday",
+          "note_ru": "Дедлайн — `by`. `Until Friday` означало бы «шлите их непрерывно всю неделю»"
+        },
+        { "text": ", finance closes the books after that. " },
+        {
+          "text": "We'll revisit the whole schedule in June",
+          "error": false,
+          "note_ru": "Правильно: месяц — это `in`. Никаких `on June` или `at June`"
+        },
+        { "text": ".\n\nJake" }
+      ],
+      "corrected": "Team,\n\nTwo things before the end of the quarter, both boring, both important.\n\n**Release freeze.** The freeze starts on Monday and runs through the 22nd. Hotfixes still go out, everything else waits. Please don't deploy at night unless you're on call.\n\nIf something breaks on the weekend, page the rotation first, then me. I'll be online at 8:30 central every morning.\n\n**Chicago.** We're doing the offsite next week, Wednesday through Friday, office on Wacker. The all-hands is on the 14th, in the morning. We'll do the retro on Thursday afternoon, then dinner somewhere near the office.\n\nMy flight lands in two hours, so I'm answering Slack from the air.\n\nSend me your travel receipts by Friday, finance closes the books after that. We'll revisit the whole schedule in June.\n\nJake"
+    }
+  ]
+}

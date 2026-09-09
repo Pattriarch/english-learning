@@ -1,0 +1,323 @@
+{
+  "topicId": "egiu-073",
+  "title": "The 1",
+  "title_ru": "когда the обязателен, а когда мешает",
+  "theory": "## Короткая версия\n\n`the` значит «мы оба точно знаем, какой именно». Три надёжных случая:\n\n**1. Единственный в своём роде** — в мире или в этой ситуации: the sun, the internet, the weather, the CEO, the kitchen, the landlord, the Blue Line.\n\n**2. Уточнён контекстом** — существительное сузили придаточным, предлогом или ситуацией:\n\n- `the guy I told you about`\n- `the key to the back door`\n- `the parts that break`\n- `the bottom of the page`\n\n**3. Превосходная степень, порядковые, only, same** — тут the не обсуждается: the best, the fastest, the first, the second door, the only one, the same deadline.\n\n## Где русскоязычные валятся\n\nБаг зеркальный: the лепят на общие понятия и забывают на конкретных.\n\n- ❌ `The life is short.` ✅ `Life is short.`\n- ❌ `I love the music.` ✅ `I love music.` (но ✅ `I love the music in this bar`)\n- ❌ `The money is not the problem.` ✅ `Money is not the problem.`\n- ❌ `The good engineers get tired of this.` ✅ `Good engineers get tired of this.`\n- ❌ `We have same deadline.` ✅ `We have the same deadline.`\n- ❌ `He is best PM I've worked with.` ✅ `He's the best PM I've worked with.`\n\nПравило на пальцах: множественное число или неисчисляемое, речь о категории вообще → артикля нет вообще. Как только ты сузил (of the team, that we shipped, in this office) → the возвращается.\n\n- `Coffee is expensive.` / `The coffee in this office is undrinkable.`\n- `Trust is hard to rebuild.` / `The trust we lost in June is gone.`\n- `Developers are expensive.` / `The developers on my team are expensive.`\n\nВторая ловушка — слово, которое кажется общим, но в ситуации единственное. Ты говоришь `the office`, `the kitchen`, `the airport`, `the store` не потому, что офис один в мире, а потому что в этом разговоре он один.\n\n## AmE-примечание\n\n`in the fall` (британец скажет in autumn), `on the weekend` (BrE at the weekend), `in the hospital`, `go to the movies` (BrE the cinema). Про учёбу: американское `my kid is in college`, британское `at university`.\n\nИ вечное: `the weather` всегда с the, даже когда речь о погоде вообще. `The weather's been brutal all week.` Никакого weather is brutal — это звучит как перевод.",
+  "scenes": [
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Priya",
+        "emoji": "🧭",
+        "desc_ru": "твоя тимлид. Пишет до стендапа, вопросы задаёт по одному, ответ «позже» не принимает."
+      },
+      "intro_ru": "8:47 утра, до стендапа тринадцать минут. Прия открывает личку.",
+      "steps": [
+        {
+          "incoming": [
+            "quick one before standup",
+            "who owns the retry logic in the billing service?"
+          ],
+          "options": [
+            {
+              "text": "that's me. the tricky part is the timeout on the third retry",
+              "verdict": "natural",
+              "note_ru": "`the tricky part` — уточнено ситуацией, она в этом коде одна. `the third retry` — порядковое, всегда с the. Обе конструкции идут автоматом, если помнить про сужение."
+            },
+            {
+              "text": "that's me. tricky part is timeout on third retry",
+              "verdict": "error",
+              "note_ru": "Три пропущенных the подряд. Каждое существительное здесь уже сужено до одного конкретного — артикль обязателен."
+            },
+            {
+              "text": "I am the owner of the retry logic which you are mentioning.",
+              "verdict": "textbook",
+              "note_ru": "Артикли расставлены верно, но `the owner of` и `which you are mentioning` — язык тикета из 2011 года. В чате пишут `that's me`."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "can you write it up for the new hire?",
+            "she starts monday"
+          ],
+          "options": [
+            {
+              "text": "sure. I'll do a short doc — nothing fancy, just the parts that break",
+              "verdict": "natural",
+              "note_ru": "`a short doc` — новый объект, вводится впервые. `the parts that break` — придаточное сузило до конкретных мест. Смесь a и the в одной строке, ровно как в жизни."
+            },
+            {
+              "text": "sure. I'll do a short doc — nothing fancy, just parts that break",
+              "verdict": "error",
+              "note_ru": "`that break` сужает до вполне определённых кусков кода, значит нужен the parts. Без артикля это «какие-то ломающиеся части вообще»."
+            },
+            {
+              "text": "Certainly. I will prepare the comprehensive documentation for the new employee.",
+              "verdict": "textbook",
+              "note_ru": "`comprehensive documentation` вместо `a short doc` — обещание, которое ты не выполнишь. И `new employee` в переписке звучит холоднее, чем `new hire`."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "thanks",
+            "btw is money still an issue for the second staging env?"
+          ],
+          "options": [
+            {
+              "text": "money's fine now. the problem is capacity — we're out of nodes",
+              "verdict": "natural",
+              "note_ru": "Пара в одной строке: `money` в общем смысле идёт голым, а `the problem` — конкретная, обоим понятная → the. Именно так проверяется, понял ты тему или нет."
+            },
+            {
+              "text": "the money is fine now. problem is capacity — we are out of nodes",
+              "verdict": "error",
+              "note_ru": "Всё перевёрнуто: общее понятие money получило the, а конкретная проблема осталась без артикля."
+            },
+            {
+              "text": "The financial aspect is not an issue at the present moment.",
+              "verdict": "textbook",
+              "note_ru": "`financial aspect` и `at the present moment` — язык годового отчёта. Прия дочитает и всё равно спросит: так деньги есть или нет?"
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Прия ответила «perfect», добавила тебя ревьюером в доку и через минуту прислала ссылку на неё же с комментарием «make it shorter»."
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №11: Коробка, о которой никто не знал",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Из подсобки кафе-книжного Vine & Volume на Милуоки исчезла выручка за выходные — 4 200 долларов. Сейф не тронут. Хозяйка клянётся, что деньги были в сейфе. Трое сотрудников, ни одного следа взлома.",
+      "steps": [
+        {
+          "narrative": "Хозяйка **Nadia** объясняет схему:\n\n— **The safe is in the back room. Only the manager has the code, and I change it every quarter.**",
+          "question_ru": "Почему в её фразе всё идёт с the?",
+          "choices": [
+            "Сейф, задняя комната, менеджер и код в этом магазине по одному — единственные в своей ситуации",
+            "Потому что она хозяйка и говорит про своё имущество",
+            "Это ошибка: перед safe и code нужен a, они вводятся впервые"
+          ],
+          "answer": 0,
+          "clue_ru": "Единственный в своём роде в данном контексте — базовый случай the. Не «один в мире», а «один в этом магазине». Так же работают the kitchen, the landlord, the office."
+        },
+        {
+          "narrative": "Бариста **Theo**, родом из Софии, закрывал смену.\n\n— **I left at nine. I locked a back door and went home.**\n\nМия отмечает фразу, но не подчёркивает её.",
+          "question_ru": "`a back door` — это улика?",
+          "choices": [
+            "Нет: чёрный ход тут один и по правилам нужен the, но Тео не носитель — на артиклях его ловить нельзя",
+            "Да: он специально сказал a, чтобы запутать следствие",
+            "Нет, потому что фраза грамматически правильная"
+          ],
+          "answer": 0,
+          "clue_ru": "По правилу нужно `the back door` — вход один и обоим известен. Но у неносителя пропущенный или лишний артикль — фоновый шум, а не сигнал. Мия ищет не ошибку, а знание, которого у человека быть не должно."
+        },
+        {
+          "narrative": "Менеджер **Cal**. Мия спрашивает прямо: знал ли кто-нибудь, что в ту субботу деньги лежали не в сейфе.\n\n— **I don't know anything about a box. Nadia keeps the money in the safe, that's the whole system.**",
+          "question_ru": "Что именно утверждает Кэл словами `a box`?",
+          "choices": [
+            "Что никакой конкретной коробки для него не существует — это просто «какая-то коробка», о которой он слышит впервые",
+            "Что коробка была, но он не знает, где она стояла",
+            "Что он видел коробку, но не считал её важной"
+          ],
+          "answer": 0,
+          "clue_ru": "`a` вводит объект как незнакомый. Кэл строит алиби на незнании: для него коробка — абстракция из вопроса Мии. Мия записывает формулировку дословно."
+        },
+        {
+          "narrative": "Мия поднимает рабочий чат. Суббота, 23:41, сообщение от Кэла в общий канал:\n\n— **hey did anyone move the money box? it's not on the shelf**\n\nНадя переложила выручку в коробку на полку только в тот вечер и никому об этом не сказала.",
+          "question_ru": "Почему это сообщение закрывает дело?",
+          "choices": [
+            "`the money box` и `the shelf` поданы как известные всем — так пишет только тот, кто их видел; час назад он утверждал, что коробки для него не существует",
+            "Он написал в 23:41, когда магазин был закрыт",
+            "Он спросил «did anyone move», хотя должен был сказать «has anyone moved»"
+          ],
+          "answer": 0,
+          "clue_ru": "Улика — в переключении артикля. `a box` в разговоре с Мией = «я о таком не знаю». `the money box` в чате = «мы все знаем, о чём я». Одно и то же существительное, два взаимоисключающих заявления."
+        }
+      ],
+      "outro_ru": "Кэл вернул 3 900 наличными и уволился в тот же вечер; ещё триста ушли на ставки в приложении. Надя не стала подавать заявление, но код от сейфа теперь меняет ежемесячно. Мия записала: «a — это «я такого не знаю». the — это «мы оба знаем». Между ними в этом деле лежало ровно четыре тысячи»."
+    },
+    {
+      "type": "letter",
+      "from_ru": "Джейк, техлид из Остина, пишет финансовому директору письмо про второй стейджинг: третий заход, деньги дают неохотно. Тон живой, аргументы честные, артикли — как повезёт.",
+      "segments": [
+        {
+          "text": "Hi Dana,\n\nThird time I'm bringing this up, so I'll try to be short.\n\n"
+        },
+        {
+          "text": "The money is not the real problem here",
+          "error": true,
+          "fix": "Money is not the real problem here",
+          "note_ru": "Общее понятие «деньги вообще» идёт без артикля; а вот `the real problem` — конкретная, поэтому тут the на месте"
+        },
+        {
+          "text": " — it's the rerun time. "
+        },
+        {
+          "text": "We have same failure in three services every sprint",
+          "error": true,
+          "fix": "We have the same failure in three services every sprint",
+          "note_ru": "the same — сросшаяся конструкция, без the не существует"
+        },
+        {
+          "text": ", and it always shows up in the same place: the shared staging box.\n\n"
+        },
+        {
+          "text": "On first day of every sprint",
+          "error": true,
+          "fix": "On the first day of every sprint",
+          "note_ru": "Порядковые числительные всегда тянут за собой the"
+        },
+        {
+          "text": " two teams push to staging within an hour of each other, and QA reruns everything twice. "
+        },
+        {
+          "text": "The biggest line item is not the hardware, it's the reruns",
+          "error": false,
+          "note_ru": "Правильно: превосходная степень требует the, а `the hardware` и `the reruns` уточнены контекстом этого письма"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "I put the numbers in a spreadsheet Priya shared",
+          "error": true,
+          "fix": "I put the numbers in the spreadsheet Priya shared",
+          "note_ru": "Придаточное `Priya shared` сужает до одной конкретной таблицы → the, а не a"
+        },
+        {
+          "text": ", tab called Q3. Short version: 46 engineer-hours a month, most of it waiting.\n\n"
+        },
+        {
+          "text": "The good engineers get tired of this faster than anyone else",
+          "error": true,
+          "fix": "Good engineers get tired of this faster than anyone else",
+          "note_ru": "Категория вообще, множественное число → артикля нет; the превратил бы это в «те самые инженеры»"
+        },
+        {
+          "text": ". Marcus already asked to move off the platform team once. "
+        },
+        {
+          "text": "The patience of the team is not infinite",
+          "error": false,
+          "note_ru": "Правильно: `of the team` сужает до конкретной группы, поэтому the стоит справедливо"
+        },
+        {
+          "text": ", and I'd rather not test where it ends.\n\n"
+        },
+        {
+          "text": "This is cheapest option on the table",
+          "error": true,
+          "fix": "This is the cheapest option on the table",
+          "note_ru": "Превосходная степень — the обязателен, иначе фраза просто разваливается"
+        },
+        {
+          "text": ": one more box, 340 a month, no new headcount. "
+        },
+        {
+          "text": "The second environment we talked about in June is still the plan",
+          "error": false,
+          "note_ru": "Правильно: и порядковое second, и уточнение `we talked about in June` требуют the"
+        },
+        {
+          "text": ", nothing changed except the numbers got worse.\n\n"
+        },
+        {
+          "text": "The trust is hard to rebuild",
+          "error": true,
+          "fix": "Trust is hard to rebuild",
+          "note_ru": "Неисчисляемое в общем смысле — без артикля; сравни: `the trust we lost in June` — там уже the"
+        },
+        {
+          "text": " once people stop believing staging means anything.\n\nI'm around all week if you want to go through it line by line.\n\nJake"
+        }
+      ],
+      "corrected": "Hi Dana,\n\nThird time I'm bringing this up, so I'll try to be short.\n\nMoney is not the real problem here — it's the rerun time. We have the same failure in three services every sprint, and it always shows up in the same place: the shared staging box.\n\nOn the first day of every sprint two teams push to staging within an hour of each other, and QA reruns everything twice. The biggest line item is not the hardware, it's the reruns.\n\nI put the numbers in the spreadsheet Priya shared, tab called Q3. Short version: 46 engineer-hours a month, most of it waiting.\n\nGood engineers get tired of this faster than anyone else. Marcus already asked to move off the platform team once. The patience of the team is not infinite, and I'd rather not test where it ends.\n\nThis is the cheapest option on the table: one more box, 340 a month, no new headcount. The second environment we talked about in June is still the plan, nothing changed except the numbers got worse.\n\nTrust is hard to rebuild once people stop believing staging means anything.\n\nI'm around all week if you want to go through it line by line.\n\nJake"
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Быстро: конкретный предмет и оба это знают → the. Категория вообще → пусто. Погнали.",
+      "cards": [
+        {
+          "phrase": "The life is too short for this.",
+          "ok": false,
+          "fix": "Life is too short for this.",
+          "flash_ru": "общее понятие, неисчисляемое → артикля нет"
+        },
+        {
+          "phrase": "The coffee in this office is undrinkable.",
+          "ok": true,
+          "flash_ru": "сужено до кофе в конкретном офисе → the"
+        },
+        {
+          "phrase": "I love the music, I always have.",
+          "ok": false,
+          "fix": "I love music, I always have.",
+          "flash_ru": "музыка вообще — без артикля; the music сузило бы до конкретных треков"
+        },
+        {
+          "phrase": "She's best PM I've worked with.",
+          "ok": false,
+          "fix": "She's the best PM I've worked with.",
+          "flash_ru": "превосходная степень без the не бывает"
+        },
+        {
+          "phrase": "I'll see you in the autumn.",
+          "ok": false,
+          "fix": "I'll see you in the fall.",
+          "flash_ru": "британское autumn; в США — the fall"
+        },
+        {
+          "phrase": "We have same deadline as marketing.",
+          "ok": false,
+          "fix": "We have the same deadline as marketing.",
+          "flash_ru": "the same — единый блок, артикль не выкидывается"
+        },
+        {
+          "phrase": "Money isn't the issue — time is.",
+          "ok": true,
+          "flash_ru": "money общее и голое, the issue конкретное и с артиклем; вот эта пара и есть вся тема"
+        },
+        {
+          "phrase": "My daughter is at university in Ohio.",
+          "ok": false,
+          "fix": "My daughter is in college in Ohio.",
+          "flash_ru": "британское at university; американец скажет in college"
+        },
+        {
+          "phrase": "Take the second door on the left.",
+          "ok": true,
+          "flash_ru": "порядковое + уточнение — the по обеим причинам сразу"
+        },
+        {
+          "phrase": "The nature there is beautiful.",
+          "ok": false,
+          "fix": "The scenery there is beautiful.",
+          "flash_ru": "калька с «природа»: nature в этом смысле не работает, американец скажет the scenery или the outdoors"
+        },
+        {
+          "phrase": "I saw it on the news last night.",
+          "ok": true,
+          "flash_ru": "the news — единственное в своём роде, плюс устойчивое on the news"
+        },
+        {
+          "phrase": "He is only one who read the whole doc.",
+          "ok": false,
+          "fix": "He's the only one who read the whole doc.",
+          "flash_ru": "only one = единственный → the обязателен"
+        },
+        {
+          "phrase": "Traffic was bad, but the weather was worse.",
+          "ok": true,
+          "flash_ru": "traffic вообще — голое; weather всегда с the, даже в общем смысле, это надо просто запомнить"
+        },
+        {
+          "phrase": "Sun was already up when we finished the deploy.",
+          "ok": false,
+          "fix": "The sun was already up when we finished the deploy.",
+          "flash_ru": "солнце одно на всех → the; та же логика у the moon и the sky"
+        }
+      ]
+    }
+  ]
+}

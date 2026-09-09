@@ -1,0 +1,371 @@
+{
+  "topicId": "phrasal-015",
+  "title": "Phrasal verbs with up",
+  "title_ru": "up — доделать до конца, накопить, всплыть, объявиться",
+  "theory": "## Что делает up\n\nУ частицы `up` пять работ, и «вверх» — самая редкая из них.\n\n**1. Довести до конца.** finish up, wrap up, eat up, drink up, use up, clean up. `Let me finish up here` — «дай доделать». Без up глагол тоже работает, но up добавляет «до последней крошки».\n\n**2. Появиться.** show up (явиться), come up (всплыть — о теме, проблеме, вакансии), pop up (выскочить), turn up (обнаружиться). `Something came up` — универсальное «возникли обстоятельства».\n\n**3. Прибавить.** speed up, warm up, hurry up, turn up (громкость).\n\n**4. Собрать, создать.** set up (настроить, организовать), come up with (придумать), make up (выдумать или составить), put up (повесить, построить).\n\n**5. Идиомы, которые просто надо знать.** mess up / screw up (накосячить), catch up (догнать, наверстать, ввести в курс), follow up (вернуться к вопросу), give up (сдаться), bring up (поднять тему), put up with (терпеть), hang up (положить трубку), back up (сделать копию; сдать назад; поддержать человека).\n\n## Разделяемость — главный пункт урока\n\n**Разделяемые переходные** (look up, set up, pick up, call up, wake up, mess up, catch up):\n- с существительным можно оба порядка: `look up the word` = `look the word up`;\n- с местоимением — **только внутрь**: `look it up`.\n\n`look up it` — не «редкий вариант» и не «канцелярит». Это фраза, которую американец не произносит вообще: с местоимением частица уходит в конец всегда, без исключений.\n\n**Трёхчастные** (put up with, come up with, catch up with, keep up with) — не разделяются никогда: `put up with it`, `come up with it`. Не `put it up with`.\n\n**Непереходные** (show up, come up, grow up, hang up, speed up) — разделять нечего: `he showed up late`.\n\n**Отдельный случай — follow up.** Он не переходный: не `follow up him`, а `follow up with him` (о человеке) или `follow up on the ticket` (о деле).\n\n## Где валится русскоязычный\n\n**1. Порядок с местоимением:** `call up him`, `locked up it`. Ошибка не ломает смысл, но ломает звук фразы — её слышно мгновенно.\n\n**2. Пропуск частицы там, где она несёт смысл:** `he didn't come` и `he didn't show up` — разные вещи. Второе значит «не явился», и в нём есть упрёк.\n\n**3. Соседние частицы:** hang up (положить трубку) против hang out (тусоваться); pick up (забрать) против pick out (выбрать); make up (выдумать) против make out.\n\n**4. Буквальность:** `buy up` — не «купить», а «скупить подчистую». `Eat up` — не «съесть», а «доедай уже».\n\n## AmE-примечание\n\n`wash up` в США — помыть руки перед едой; в Британии — помыть посуду. Американец скажет `do the dishes`. Форму в США `fill out`, в Британии `fill in`. И `Wait up!` — не «подожди наверху», а «стой, я догоняю».",
+  "scenes": [
+    {
+      "type": "radar",
+      "intro_ru": "Семь секунд на карточку. Половина ошибок здесь — не в значении, а в порядке слов: смотри, где стоит местоимение.",
+      "cards": [
+        {
+          "phrase": "Can you look it up?",
+          "ok": true,
+          "flash_ru": "местоимение внутрь — единственно возможный порядок"
+        },
+        {
+          "phrase": "Can you look up it?",
+          "ok": false,
+          "fix": "Can you look it up?",
+          "flash_ru": "невозможная фраза: с местоимением частица всегда уходит в конец"
+        },
+        {
+          "phrase": "He never showed up.",
+          "ok": true,
+          "flash_ru": "«так и не явился» — с упрёком, которого нет в простом didn't come"
+        },
+        {
+          "phrase": "Something came up, I have to reschedule.",
+          "ok": true,
+          "flash_ru": "универсальное «возникли обстоятельства», деталей не требуют"
+        },
+        {
+          "phrase": "I can't put it up with this noise.",
+          "ok": false,
+          "fix": "I can't put up with this noise.",
+          "flash_ru": "трёхчастный глагол не разделяется никогда, даже местоимением"
+        },
+        {
+          "phrase": "Can you follow up him about the invoice?",
+          "ok": false,
+          "fix": "Can you follow up with him about the invoice?",
+          "flash_ru": "follow up непереходный: with о человеке, on о деле"
+        },
+        {
+          "phrase": "I called up him twice.",
+          "ok": false,
+          "fix": "I called him up twice.",
+          "flash_ru": "то же правило: him обязан стоять между глаголом и частицей"
+        },
+        {
+          "phrase": "I need to buy up a new keyboard.",
+          "ok": false,
+          "fix": "I need to buy a new keyboard.",
+          "flash_ru": "buy up = скупить подчистую весь запас. Про одну клавиатуру так не говорят"
+        },
+        {
+          "phrase": "Let me finish up here and I'll come over.",
+          "ok": true,
+          "flash_ru": "«доделаю и приду» — up здесь про завершённость, не про направление"
+        },
+        {
+          "phrase": "I messed up the migration.",
+          "ok": true,
+          "flash_ru": "с существительным порядок свободный: messed up the migration или messed the migration up"
+        },
+        {
+          "phrase": "He hung up me.",
+          "ok": false,
+          "fix": "He hung up on me.",
+          "flash_ru": "hang up on somebody — без on фраза разваливается"
+        },
+        {
+          "phrase": "I'm going to wash up the dishes.",
+          "ok": false,
+          "fix": "I'm going to do the dishes.",
+          "flash_ru": "британское. В США wash up = помыть руки, посуду do the dishes"
+        },
+        {
+          "phrase": "Fill up this form, please.",
+          "ok": false,
+          "fix": "Fill out this form, please.",
+          "flash_ru": "в США форму fill out, в Британии fill in. Fill up — это про бензобак"
+        },
+        {
+          "phrase": "I'll catch you up after standup.",
+          "ok": true,
+          "flash_ru": "«введу тебя в курс», и местоимение стоит ровно там, где обязано"
+        }
+      ]
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №9: Четыре ящика с Фултон-Маркет",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Со склада на Фултон-Маркет не доехали четыре ящика зерна, которые ждал Рэй для своей кофейни на Холстед. Все трое участников вечера — водитель, кладовщик и сам Рэй — рассказывают непротиворечивые истории. Мия ищет расхождение не в фактах, а в глаголах.",
+      "steps": [
+        {
+          "narrative": "Первым Мия говорит с **Рэем**. Он раздражён и повторяет одно и то же:\n\n— **The driver called me twice that night and hung up on me both times.**\n\nМия записывает дословно и подчёркивает предлог.",
+          "question_ru": "Что именно утверждает Рэй?",
+          "choices": [
+            "Водитель дважды бросил трубку, не дослушав его — то есть повёл себя грубо",
+            "Водитель дважды закончил разговор и положил трубку, ничего особенного",
+            "Водитель дважды не смог дозвониться, связь обрывалась"
+          ],
+          "answer": 0,
+          "clue_ru": "Разница в одном предлоге. `He hung up` = просто закончил звонок. `He hung up on me` = бросил трубку конкретному человеку в лицо, и это уже обвинение. Рэй не описывает связь — он описывает хамство."
+        },
+        {
+          "narrative": "Водитель, **Луис**, спокоен:\n\n— **I showed up at six, nobody was there, so I waited twenty minutes and left.**\n\nМия спрашивает себя, почему он не сказал просто `I came at six`.",
+          "question_ru": "Что добавляет `showed up` по сравнению с `came`?",
+          "choices": [
+            "Акцент на самом факте явки: «я-то приехал» — часто с оттенком «мог и не приехать» или «меня там не ждали»",
+            "Ничего, это полные синонимы, Луис просто выбрал более длинный вариант",
+            "`Show up` значит «показать документы на въезде», это складской термин"
+          ],
+          "answer": 0,
+          "clue_ru": "`Show up` всегда про факт появления, и обычно с невысказанным сравнением: кто-то мог не прийти, кто-то не пришёл. Луис защищается заранее. Кстати, `show up` непереходный — разделять там нечего, никакого `show it up` не бывает."
+        },
+        {
+          "narrative": "Кладовщик **Кевин** формулирует ещё короче:\n\n— **I wrapped up around five and locked up.**\n\nМия просит уточнить, что он имел в виду под первым глаголом.",
+          "question_ru": "Что сказал Кевин?",
+          "choices": [
+            "Закончил дела около пяти и запер склад",
+            "Обернул ящики плёнкой около пяти и убрал их наверх",
+            "Работал до пяти и позвонил начальнику"
+          ],
+          "answer": 0,
+          "clue_ru": "`Wrap up` — завершить: `let's wrap up` = «закругляемся». `Lock up` без дополнения — запереть помещение целиком на ночь, это стандартная фраза продавца, сторожа и бариста. Оба глагола здесь непереходные, и оба сказаны честно."
+        },
+        {
+          "narrative": "Наутро Мие приносят письменное объяснение с подписью Рэя. Первая строка:\n\n— **I closed up the shop at six and locked up it myself.**\n\nМия читает и сразу спрашивает, кто это писал.",
+          "question_ru": "Почему она уверена, что писал не Рэй?",
+          "choices": [
+            "`locked up it` — порядок, физически невозможный для носителя: местоимение обязано стоять внутри, `locked it up`",
+            "Рэй не мог запирать магазин, он в это время был дома",
+            "`closed up` — ошибка, по-английски бывает только `closed`"
+          ],
+          "answer": 0,
+          "clue_ru": "Вот она, улика. С существительным порядок свободный: `locked up the shop` и `locked the shop up` одинаково нормальны. С местоимением свободы нет: только `locked it up`. Носитель не выбирает этот порядок — он его не производит. Значит, объяснение писал человек, выучивший английский по книгам."
+        }
+      ],
+      "outro_ru": "Объяснение писал Влад, племянник Рэя, полгода как из Одессы. Он же и увёз четыре ящика — в новую точку на Пилсен, которую Рэй открывает и о которой пока не рассказывает даже своим бариста. Влад решил не отвлекать дядю и подписался за него. Мия закрыла дело и записала в блокнот: «Две буквы не на своём месте. С существительным можно было и так, и эдак — а местоимение выдало человека вернее подписи»."
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Priya",
+        "emoji": "📋",
+        "desc_ru": "тимлид, Чикаго. Спрашивает статус раз в день, ответы читает целиком, не любит слово «почти»."
+      },
+      "intro_ru": "Среда, 11:20. Прия открывает переписку между двумя встречами.",
+      "steps": [
+        {
+          "incoming": [
+            "hey, can you catch me up on the exporter?"
+          ],
+          "options": [
+            {
+              "text": "yeah — I wrapped up the retry logic yesterday, and one thing came up with the S3 creds",
+              "verdict": "natural",
+              "note_ru": "Два глагола на месте: `wrap up` — доделал, `come up` — всплыло. Плюс порядок «что готово, что мешает» — именно в нём тимлид хочет получать статус."
+            },
+            {
+              "text": "yes, I will catch up you in five minutes",
+              "verdict": "error",
+              "note_ru": "`catch up you` невозможно: местоимение обязано стоять внутри — `catch you up`. Ошибка не в смысле, а в звуке, и носитель спотыкается о неё сразу."
+            },
+            {
+              "text": "Certainly. I will provide you with a summary of the current status of the exporter.",
+              "verdict": "textbook",
+              "note_ru": "Правильно и мертво. `Provide you with a summary` — язык сопроводительного письма; в Slack на этом месте пишут `catching you up now` и сразу пишут сам статус."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "what came up with the creds?"
+          ],
+          "options": [
+            {
+              "text": "the rotation script never picked up the new key. I set up an alert so it screams next time",
+              "verdict": "natural",
+              "note_ru": "`pick up` — подхватить, забрать; `set up` — настроить. С существительными порядок свободный: `picked up the new key` и `picked the new key up` одинаково нормальны."
+            },
+            {
+              "text": "the rotation script didn't pick up it, so I set up an alert",
+              "verdict": "error",
+              "note_ru": "Опять местоимение снаружи: только `pick it up`. Заметь, во второй половине фразы (`set up an alert`) порядок правильный — существительное такой свободы не отбирает."
+            },
+            {
+              "text": "The rotation script failed to acquire the newly generated key.",
+              "verdict": "textbook",
+              "note_ru": "Так пишут в отчёте об инциденте для аудита. `Acquire` вместо `pick up` мгновенно поднимает регистр на две ступени выше, чем нужно в чате."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "ok",
+            "can you follow up with jake before he logs off? it's his key"
+          ],
+          "options": [
+            {
+              "text": "on it — I'll ping him now and follow up in the channel so it's written down",
+              "verdict": "natural",
+              "note_ru": "`On it` — стандартное подтверждение задачи в две буквы. `Follow up in the channel` — вернуться к вопросу письменно, чтобы осталось в истории."
+            },
+            {
+              "text": "ok, I will follow up him right now",
+              "verdict": "error",
+              "note_ru": "Ловушка урока. `Follow up` не переходный: с человеком — `follow up with him`, с задачей — `follow up on the ticket`. Похож на `call him up`, но ведёт себя наоборот."
+            },
+            {
+              "text": "Yes. I will contact Jacob and inform him accordingly.",
+              "verdict": "textbook",
+              "note_ru": "Два промаха сразу: `inform him accordingly` — оборот из служебной записки, а Jake в переписке никогда не разворачивают в Jacob, даже если так в паспорте."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Прия ответила «thanks» и закрыла тред. Ключ Джейк перевыпустил через двадцать минут, алерт сработал в первый раз ещё до конца недели — и оказался ложным."
+    },
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s02e01 — вечер в квартире на втором этаже. Ты переводишь реплики на живой американский.",
+      "steps": [
+        {
+          "scene_ru": "Кухня, половина восьмого. Рэйчел стоит в куртке у двери, Дэнни ковыряет остатки лапши из коробки.",
+          "line_ru": "Доедай уже, нам пора.",
+          "reference": "Finish up, we gotta go.",
+          "alt": "Eat up, we're gonna be late.",
+          "note_ru": "`Finish up` — «закругляйся с этим», `eat up` — конкретно «доедай». Просто `finish` тоже понятно, но без up исчезает оттенок «до конца и побыстрее»."
+        },
+        {
+          "scene_ru": "Машина, светофор на Холстед. Рэйчел смотрит в телефон, потом в окно.",
+          "line_ru": "Он так и не появился. Ни звонка, ничего.",
+          "reference": "He never showed up. No call, nothing.",
+          "alt": "He didn't show up at all. Not even a text.",
+          "note_ru": "`Never showed up` — «так и не явился», с упрёком внутри. `He didn't come` сказало бы только факт, без обиды. Разделять `show up` нельзя: он непереходный."
+        },
+        {
+          "scene_ru": "Парковка у ресторана. Дэнни глушит мотор и секунд пять не выходит.",
+          "line_ru": "Слушай, я всё испортил. Это я перепутал дату.",
+          "reference": "Look, I messed up. I'm the one who got the date wrong.",
+          "alt": "Look, I screwed up. That was on me — I had the wrong date.",
+          "note_ru": "`Mess up` и `screw up` — оба «накосячить», второе чуть грубее и чуть сильнее. Оба разделяемые: `I messed up the date` = `I messed the date up`, но с местоимением только `I messed it up`."
+        },
+        {
+          "scene_ru": "Обратная дорога, час ночи. Рэйчел говорит тихо, глядя прямо перед собой.",
+          "line_ru": "Я больше не могу это терпеть. Каждый раз одно и то же.",
+          "reference": "I can't put up with this anymore. It's the same thing every time.",
+          "alt": "I'm done putting up with this. Every single time.",
+          "note_ru": "`Put up with` — терпеть то, что бесит. Трёхчастный, не разделяется никогда: `put up with it`, а не `put it up with`. Это одна из самых частых ошибок и одна из самых заметных."
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Ты написал Рэйчел про новую квартиру: батарея не греет, управляющий не приходит. Письмо живое и по делу, но фразовые глаголы разъезжаются — то частица не там, то не та. Найди все места.",
+      "segments": [
+        {
+          "text": "Hi Rachel,\n\n"
+        },
+        {
+          "text": "Thanks for setting up it so fast",
+          "error": true,
+          "fix": "Thanks for setting it up so fast",
+          "note_ru": "Местоимение обязано стоять внутри: `setting it up`. С существительным было бы свободно — `setting up the lease` или `setting the lease up`"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "text": "I moved in on Saturday and the place is better than the photos",
+          "error": false,
+          "note_ru": "Правильно: `move in` непереходный, разделять нечего. Про вселение говорят именно так"
+        },
+        {
+          "text": ".\n\nOne problem. "
+        },
+        {
+          "text": "The super didn't come up on Sunday like he promised",
+          "error": true,
+          "fix": "The super didn't show up on Sunday like he promised",
+          "note_ru": "`Come up` = всплыть, о вопросе или проблеме. «Прийти, явиться» — это `show up`, и именно в нём слышен упрёк"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "so I called up him twice on Monday",
+          "error": true,
+          "fix": "so I called him up twice on Monday",
+          "note_ru": "То же правило, другой глагол: `called him up`. Можно и просто `called him` — up здесь ничего не добавляет, кроме разговорности"
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "and the second time he just hung up me.",
+          "error": true,
+          "fix": "and the second time he just hung up on me.",
+          "note_ru": "`Hang up on somebody` — бросить трубку человеку. Без `on` фраза разваливается: `hang up` сам по себе не берёт дополнение"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "I don't want to make up a problem out of this",
+          "error": true,
+          "fix": "I don't want to make a big deal out of this",
+          "note_ru": "`Make up` значит «выдумать». Получилось «не хочу выдумывать проблему», хотя ты имел в виду «не хочу раздувать» — а это `make a big deal out of`"
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "but I can't put it up with the cold for another week",
+          "error": true,
+          "fix": "but I can't put up with the cold for another week",
+          "note_ru": "`Put up with` — трёхчастный, он не разделяется ничем и никогда. Только `put up with it`"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "text": "Can you follow up him about it?",
+          "error": true,
+          "fix": "Can you follow up with him about it?",
+          "note_ru": "`Follow up` непереходный: `follow up with him` о человеке, `follow up on the radiator` о деле. Внешне похож на `call him up`, ведёт себя противоположно"
+        },
+        {
+          "text": "\n\n"
+        },
+        {
+          "text": "Also, one more thing came up",
+          "error": false,
+          "note_ru": "Правильно: вот здесь `come up` на своём месте — всплыло новое обстоятельство"
+        },
+        {
+          "text": ": "
+        },
+        {
+          "text": "the movers used up all my boxes, so now I need to buy up new ones",
+          "error": true,
+          "fix": "the movers used up all my boxes, so now I need to buy new ones",
+          "note_ru": "`Used up` верно — израсходовали подчистую. А `buy up` значит «скупить весь запас на рынке»; про пять коробок просто `buy`"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "Anyway, I'll wrap up here",
+          "error": false,
+          "note_ru": "Правильно: `wrap up` — закругляться. Так заканчивают и письмо, и встречу"
+        },
+        {
+          "text": ". "
+        },
+        {
+          "text": "Thanks for putting up with all my questions",
+          "error": false,
+          "note_ru": "Правильно: тот же трёхчастный глагол, но целиком и на месте — «спасибо, что терпишь мои вопросы»"
+        },
+        {
+          "text": ".\n\n— Artem"
+        }
+      ],
+      "corrected": "Hi Rachel,\n\nThanks for setting it up so fast. I moved in on Saturday and the place is better than the photos.\n\nOne problem. The super didn't show up on Sunday like he promised, so I called him up twice on Monday and the second time he just hung up on me.\n\nI don't want to make a big deal out of this, but I can't put up with the cold for another week. Can you follow up with him about it?\n\nAlso, one more thing came up: the movers used up all my boxes, so now I need to buy new ones.\n\nAnyway, I'll wrap up here. Thanks for putting up with all my questions.\n\n— Artem"
+    }
+  ]
+}

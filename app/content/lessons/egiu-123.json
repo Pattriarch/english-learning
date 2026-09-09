@@ -1,0 +1,326 @@
+{
+  "topicId": "egiu-123",
+  "title": "In/at/on (position) 1",
+  "title_ru": "in the car / on the bus / at the office",
+  "theory": "## Короткая версия\n\n- **in** — внутри границ: `in the car, in the kitchen, in my pocket, in Chicago, in the corner of the room`.\n- **at** — точка на карте или место занятия: `at the office, at home, at work, at the airport, at the corner of Halsted and 18th, at Danny's`.\n- **on** — поверхность или линия: `on the table, on the third floor, on the street, on page 12`.\n\nТранспорт живёт по своей логике: если внутри можно встать и пройти — `on` (`on the bus, on the train, on the plane`). Если только сидеть — `in` (`in the car, in a cab`).\n\n## Где русскоязычные валятся\n\n**1. `in the bus`.** Русское «в автобусе» тянет за собой `in`, и это слышно сразу.\n\n- ❌ `I was in the bus.` → ✅ `I was on the bus.`\n- ✅ `I left my laptop in the car.` — машина остаётся с `in`.\n\n**2. `on the photo`.** Калька с «на фото», и она железно выдаёт русскоязычного.\n\n- ❌ `That's Danny on the photo.` → ✅ `That's Danny in the photo.`\n\n**3. Артикль там, где его не должно быть.**\n\n- ❌ `in the work`, ❌ `in the home` → ✅ `at work`, `at home`\n- `at school`, `at church` — тоже без артикля, когда речь про занятие, а не про здание.\n\n**4. Этажи и страницы.** Поверхность, даже если она вертикальная в голове.\n\n- ❌ `in the third floor`, ❌ `in page 12` → ✅ `on the third floor`, `on page 12`\n\n**5. `at the office` vs `in the office`.** Разные утверждения, и на работе это важно. `at the office` — «на работе» вообще, можно выйти за кофе. `in the office` в американской компании после 2020-го значит «не на удалёнке, физически в здании». `Are you in the office today?` — это вопрос про удалёнку, а не про то, сидишь ли ты за столом прямо сейчас.\n\n**6. `in the corner` vs `at the corner` vs `on the corner`.** Угол комнаты — `in`. Перекрёсток — `at the corner of X and Y`. Стоять на углу — `on the corner`.\n\n## AmE-примечание\n\nБританизмов здесь больше, чем в любой другой теме, и все они звучат мгновенно:\n\n- `in the street` — британское. В США `on the street`, а `in the street` означает буквально «на проезжей части, под машинами».\n- `in the queue` — британское. Американцы стоят `in line` (и только в Нью-Йорке — `on line`).\n- `in hospital` — британское. В США всегда с артиклем: `she's in the hospital`.\n- `in the team` — британское. В США `on the team`, `on the project`.\n\nИ чисто американское: `downtown` идёт без предлога и артикля — `I'm heading downtown`, не `to the downtown`. `At Jake's` = у Джейка дома, слово `place` можно не добавлять.",
+  "scenes": [
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s02e03 — сериал про соседей по трёхэтажке в Чикаго. Ты переводишь реплики на английский.",
+      "steps": [
+        {
+          "scene_ru": "Дэнни тащит на второй этаж коробку с посудой, Майя придерживает дверь.",
+          "line_ru": "Он живёт на третьем этаже, прямо надо мной.",
+          "reference": "He lives on the third floor, right above me.",
+          "alt": "He's on the third floor, directly above me.",
+          "note_ru": "Этажи — `on`, всегда. `In the third floor` не бывает: пол воспринимается как поверхность, а не как объём. `Right above me` — обычная разговорная точность, `directly` чуть суше."
+        },
+        {
+          "scene_ru": "Майя показывает Дэнни телефон: старая фотография с крыши, человек десять.",
+          "line_ru": "Ты вот тут слева на фото — это точно ты?",
+          "reference": "That's you on the left in the photo, right?",
+          "alt": "Is that you on the left in the picture?",
+          "note_ru": "«На фото» переводится только как `in the photo` / `in the picture`. `On the photo` — самый узнаваемый русский маркер в английском. При этом `on the left` — правильно: сторона кадра действительно берёт `on`."
+        },
+        {
+          "scene_ru": "Дэнни у окна, во дворе стоит машина с работающим двигателем.",
+          "line_ru": "Она уже двадцать минут сидит в машине и не выходит.",
+          "reference": "She's been sitting in the car for twenty minutes and she's not getting out.",
+          "alt": "She's been in the car for twenty minutes, just sitting there.",
+          "note_ru": "Машина — `in the car`, тут русская логика совпадает. А вот `get out` (из машины) против `get off` (из автобуса) — уже нет: транспорт, по которому можно ходить, работает с `on/off`."
+        },
+        {
+          "scene_ru": "Майя роняет ключи, объясняет, почему не взяла трубку днём.",
+          "line_ru": "Я была в автобусе, когда позвонили из больницы.",
+          "reference": "I was on the bus when the hospital called.",
+          "alt": "I was on the bus when they called from the hospital.",
+          "note_ru": "`On the bus` — не `in the bus`. Правило простое: можешь встать и пройти внутри — значит `on`. Автобус, поезд, самолёт, паром. И `the hospital` с артиклем: британское `in hospital` в США звучит как обрывок фразы."
+        }
+      ]
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №22: Человек с угла Холстед и 18-й",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Из подсобки цветочного магазина в Пилсене ночью вынесли сейф и увезли на чужом пикапе. Показания дают трое, включая анонимную записку в почтовом ящике участка. Предлоги места в этом деле рассказывают больше, чем люди.",
+      "steps": [
+        {
+          "narrative": "Первым говорит **Тревор Линч**, снимает квартиру над магазином, утверждает, что живёт в Чикаго тридцать лет.\n\n— I couldn't sleep, so I was on the stoop around one. **Two guys were standing in the street, right by the truck.**\n\nМия просит его показать, где именно они стояли. Он показывает на тротуар.",
+          "question_ru": "Почему Мия зацепилась за `in the street`?",
+          "choices": [
+            "Это британская форма. Американец сказал бы `on the street`, а `in the street` для него значит буквально «на проезжей части»",
+            "Ошибка в артикле: надо было сказать `in a street`",
+            "Ничего странного, американцы говорят и так, и так"
+          ],
+          "answer": 0,
+          "clue_ru": "Он показал на тротуар, а сказал `in the street`. Для американца это две разные картинки: `on the street` — на улице вообще, `in the street` — посреди дороги, под колёсами. Britishism в чистом виде, и Мия ставит первую галочку рядом с «тридцать лет в Чикаго»."
+        },
+        {
+          "narrative": "Дальше Тревор рассказывает, как утром возил соседку в приёмный покой:\n\n— She fainted right there. I called it in and they took her **in hospital**. Then I stood **in the queue** at the pharmacy for an hour.",
+          "question_ru": "Как эти две фразы звучат по-американски?",
+          "choices": [
+            "They took her to the hospital. Then I stood in line at the pharmacy.",
+            "They took her in the hospital. Then I stood in the queue at the pharmacy.",
+            "They took her at hospital. Then I stood on the line at the pharmacy."
+          ],
+          "answer": 0,
+          "clue_ru": "`In hospital` без артикля и `in the queue` — два британских маркера подряд. Американец говорит `to the hospital`, `in the hospital`, и стоит `in line` (форма `on line` живёт только в Нью-Йорке). Три британизма за десять минут — это уже не оговорка."
+        },
+        {
+          "narrative": "Владелец магазина, **Эктор**, даёт алиби своему племяннику:\n\n— He was **at the office** all night, doing inventory.\n\nЧерез день адвокат племянника присылает письменную версию:\n\n— My client was **in the office** the entire night.",
+          "question_ru": "Чем письменная версия сильнее устной?",
+          "choices": [
+            "`at the office` = «был на работе» вообще, можно выходить; `in the office` = физически внутри всё время. Вторая версия проверяется по журналу пропусков — и падает, если он выходил",
+            "Разницы нет, это одно и то же выражение",
+            "`in the office` слабее: оно означает «где-то в районе офиса»"
+          ],
+          "answer": 0,
+          "clue_ru": "`At the office` — про занятие и район: сходил за едой, покурил, вернулся. `In the office` — заявление о непрерывном присутствии внутри. Адвокат усилил алиби на одном предлоге и тем самым сделал его проверяемым. Журнал пропусков показал сорок минут снаружи."
+        },
+        {
+          "narrative": "Анонимная записка, оставленная в участке от руки:\n\n— **The man on the photo is the one who took the safe. He waited in the bus stop across the street for two hours.**",
+          "question_ru": "Что Мия говорит про автора записки?",
+          "choices": [
+            "`on the photo` и `in the bus stop` — кальки, характерные для неносителя языка. Записку писал не Тревор и не Эктор",
+            "Записку писал Тревор: он же говорил `in the street`",
+            "Записку писал носитель языка, просто торопился"
+          ],
+          "answer": 0,
+          "clue_ru": "Британские формы Тревора и эти кальки — из разных языков. `On the photo` вместо `in the photo` и `in the bus stop` вместо `at the bus stop` — прямой перевод с русского или польского. В деле появился третий человек, который всё видел и не хотел разговаривать вслух."
+        }
+      ],
+      "outro_ru": "Записку написала пани Ирена, восемьдесят один год, второй этаж напротив, тридцать лет в Пилсене и ни одного разговора с полицией. Она правда просидела у окна всю ночь. Тревор Линч к сейфу отношения не имел — он просто девять лет очень старательно притворялся местным. Мия дописала в блокнот: «Акцент можно спрятать. Предлог места — нет: он всплывает у того, кто перевёл фразу в голове.»"
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Jake",
+        "emoji": "👨‍💻",
+        "desc_ru": "твой техлид, Остин. Прилетел в Чикаго на два дня, пишет из такси."
+      },
+      "intro_ru": "Четверг, 11:40. Джейк в городе, дизайн-ревью решили провести вживую. Ты едешь в офис.",
+      "steps": [
+        {
+          "incoming": ["you in the office today?", "priya wants to do the review in person"],
+          "options": [
+            {
+              "text": "not till after lunch. I'm on the train right now — I'll be at the office around 2",
+              "verdict": "natural",
+              "note_ru": "`On the train` — по вагону можно ходить, значит `on`. И два разных предлога в одной фразе не случайны: Джейк спрашивал про удалёнку (`in the office`), ты отвечаешь про приезд на работу (`at the office`)."
+            },
+            {
+              "text": "not till after lunch. I'm in the train right now — I'll be in office around 2",
+              "verdict": "error",
+              "note_ru": "`In the train` — калька с «в поезде», по-английски только `on the train`. И `in office` без артикля означает «у власти» (`the president in office`) — совсем не то."
+            },
+            {
+              "text": "Not until after lunch. I am currently on board a train and shall arrive at the office at approximately 14:00.",
+              "verdict": "textbook",
+              "note_ru": "Предлоги в порядке, регистр — нет. `On board`, `shall` и 24-часовое время в Слаке читаются как пародия на объявление в аэропорту."
+            }
+          ]
+        },
+        {
+          "incoming": ["ok", "is the big conference room free? I don't have a badge for the 4th"],
+          "options": [
+            {
+              "text": "the big one's booked till 3. we can grab the small room on the third floor",
+              "verdict": "natural",
+              "note_ru": "Этажи — `on the third floor`. `Grab a room` — стандартное офисное «займём переговорку», никакой пометки по уместности не нужно."
+            },
+            {
+              "text": "the big one's booked till 3. we can grab the small room in the third floor",
+              "verdict": "error",
+              "note_ru": "`In the third floor` не существует. Этаж — поверхность, на которой стоишь: только `on`."
+            },
+            {
+              "text": "The larger room is occupied until 15:00. The smaller room situated upon the third floor is available to us.",
+              "verdict": "textbook",
+              "note_ru": "`Situated upon` — язык описи имущества. В переписке это выглядит так, будто ты сдаёшь помещение в аренду, а не зовёшь на созвон."
+            }
+          ]
+        },
+        {
+          "incoming": ["works", "grab me a coffee on the way up? I'm dying"],
+          "options": [
+            {
+              "text": "sure, if the line at Ray's isn't down the block",
+              "verdict": "natural",
+              "note_ru": "`In line` / `the line` — американская очередь. `At Ray's` = в кофейне Рэя, притяжательное без слова place. `Down the block` — «на полквартала», обычное городское преувеличение."
+            },
+            {
+              "text": "sure, if the queue in Ray's isn't too long",
+              "verdict": "error",
+              "note_ru": "`Queue` — британское слово, в США его пишут разве что в документации по очередям сообщений. Плюс `in Ray's` вместо `at Ray's`."
+            },
+            {
+              "text": "Certainly, provided that the queue at the coffee establishment is not excessive.",
+              "verdict": "textbook",
+              "note_ru": "Британизм плюс `coffee establishment` — так не говорит никто, включая британцев. Живой вариант короче любого правила: `sure, if the line isn't crazy`."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Кофе ты донёс, ревью заняло сорок минут вместо двух часов, а Джейк улетел вечером, так и не воспользовавшись бейджем на четвёртый этаж."
+    },
+    {
+      "type": "letter",
+      "from_ru": "Maya, соседка из 3B, улетает на неделю к матери и просит тебя присмотреть за кошкой. Пишет второпях, между сменой в кофейне и аэропортом. Инструкции подробные, предлоги места — плавают. Найди все места, где сломано.",
+      "segments": [
+        { "text": "Hey,\n\nYou're a lifesaver. Everything you need is below, and I promise Doris is easier than she looks.\n\n" },
+        {
+          "text": "The spare key is at Danny",
+          "error": true,
+          "fix": "The spare key is at Danny's",
+          "note_ru": "`at + имя с 's` = «у него дома». Без `'s` фраза значит «ключ на Дэнни», как будто он его носит"
+        },
+        { "text": " in 2B, he's home most evenings after six. " },
+        {
+          "text": "Her food is in the top shelf above the sink",
+          "error": true,
+          "fix": "Her food is on the top shelf above the sink",
+          "note_ru": "Полка — поверхность, значит `on`. `In the shelf` означало бы «внутри доски»"
+        },
+        { "text": ", one scoop morning and night, and she gets water changed every day or she stares at you.\n\n" },
+        {
+          "text": "She hides in the corner behind the couch when the radiator kicks on",
+          "error": false,
+          "note_ru": "Правильно: угол комнаты — `in the corner`. Перекрёсток был бы `at the corner`, а стоять на углу — `on the corner`"
+        },
+        { "text": ". Don't drag her out, she comes back on her own in ten minutes. " },
+        {
+          "text": "If she's not in the apartment at all, check in the roof",
+          "error": true,
+          "fix": "If she's not in the apartment at all, check on the roof",
+          "note_ru": "Крыша — поверхность: `on the roof`. `In the roof` — это внутри конструкции, между балками"
+        },
+        { "text": " — the door by the stairs doesn't latch and she knows it.\n\n" },
+        {
+          "text": "You can see which bowl is hers on the photo I texted you",
+          "error": true,
+          "fix": "You can see which bowl is hers in the photo I texted you",
+          "note_ru": "«На фото» по-английски всегда `in the photo`. Самая узнаваемая калька из русского"
+        },
+        { "text": ". The blue one is for water, the chipped one is Danny's cat's, long story.\n\n" },
+        {
+          "text": "The vet is at the corner of 18th and Halsted",
+          "error": false,
+          "note_ru": "Правильно: перекрёсток двух улиц — `at the corner of X and Y`"
+        },
+        { "text": ", they know her name, and I already paid for the shots. " },
+        {
+          "text": "Gus is usually in the work until six",
+          "error": true,
+          "fix": "Gus is usually at work until six",
+          "note_ru": "`at work` — без артикля. `In the work` не существует ни в каком значении"
+        },
+        { "text": " if the radiator does the banging thing again.\n\n" },
+        {
+          "text": "I'll be in the plane most of Saturday",
+          "error": true,
+          "fix": "I'll be on the plane most of Saturday",
+          "note_ru": "Самолёт, автобус, поезд — `on`: внутри можно встать и пройти. `In` остаётся машине и такси"
+        },
+        { "text": " and my phone will be off, so text Danny if something's on fire. " },
+        {
+          "text": "There's usually somebody in the street outside until midnight",
+          "error": true,
+          "fix": "There's usually somebody on the street outside until midnight",
+          "note_ru": "`In the street` — британское, и для американца значит «посреди проезжей части». Нужно `on the street`"
+        },
+        { "text": ", so the block is fine at night.\n\n" },
+        {
+          "text": "I'm at my mom's in Rockford until Sunday",
+          "error": false,
+          "note_ru": "Правильно: `at my mom's` — у мамы дома, `in Rockford` — внутри города. Оба предлога на своих местах"
+        },
+        { "text": ". Coffee's on me for a month.\n\nMaya" }
+      ],
+      "corrected": "Hey,\n\nYou're a lifesaver. Everything you need is below, and I promise Doris is easier than she looks.\n\nThe spare key is at Danny's in 2B, he's home most evenings after six. Her food is on the top shelf above the sink, one scoop morning and night, and she gets water changed every day or she stares at you.\n\nShe hides in the corner behind the couch when the radiator kicks on. Don't drag her out, she comes back on her own in ten minutes. If she's not in the apartment at all, check on the roof — the door by the stairs doesn't latch and she knows it.\n\nYou can see which bowl is hers in the photo I texted you. The blue one is for water, the chipped one is Danny's cat's, long story.\n\nThe vet is at the corner of 18th and Halsted, they know her name, and I already paid for the shots. Gus is usually at work until six if the radiator does the banging thing again.\n\nI'll be on the plane most of Saturday and my phone will be off, so text Danny if something's on fire. There's usually somebody on the street outside until midnight, so the block is fine at night.\n\nI'm at my mom's in Rockford until Sunday. Coffee's on me for a month.\n\nMaya"
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Финальный круг. Семь секунд на фразу: in, at, on — или вообще без предлога.",
+      "cards": [
+        {
+          "phrase": "I was in the bus when you called.",
+          "ok": false,
+          "fix": "I was on the bus when you called.",
+          "flash_ru": "можешь встать и пройти внутри — значит on; in остаётся машине"
+        },
+        {
+          "phrase": "That's Danny on the photo.",
+          "ok": false,
+          "fix": "That's Danny in the photo.",
+          "flash_ru": "калька с «на фото»; по-английски всегда in the photo"
+        },
+        {
+          "phrase": "We live in the third floor.",
+          "ok": false,
+          "fix": "We live on the third floor.",
+          "flash_ru": "этажи — поверхность, только on"
+        },
+        {
+          "phrase": "Two guys were standing in the street.",
+          "ok": false,
+          "fix": "Two guys were standing on the street.",
+          "flash_ru": "британское; в США in the street значит «посреди проезжей части»"
+        },
+        {
+          "phrase": "I'll wait in line, it moves fast.",
+          "ok": true,
+          "flash_ru": "in line — американская очередь; in the queue выдаёт британца"
+        },
+        {
+          "phrase": "She's been in the hospital since Tuesday.",
+          "ok": true,
+          "flash_ru": "в США с артиклем; британское in hospital звучит как обрывок"
+        },
+        {
+          "phrase": "I was in the work until nine.",
+          "ok": false,
+          "fix": "I was at work until nine.",
+          "flash_ru": "at work, at home, at school — без артикля вообще"
+        },
+        {
+          "phrase": "He's the best engineer in the team.",
+          "ok": false,
+          "fix": "He's the best engineer on the team.",
+          "flash_ru": "британское in the team; в США on the team и on the project"
+        },
+        {
+          "phrase": "Meet me at the corner of Halsted and 18th.",
+          "ok": true,
+          "flash_ru": "перекрёсток — at the corner of X and Y"
+        },
+        {
+          "phrase": "The keys are in the kitchen table.",
+          "ok": false,
+          "fix": "The keys are on the kitchen table.",
+          "flash_ru": "поверхность — on; in означало бы «внутри тумбы»"
+        },
+        {
+          "phrase": "I'm at Danny's, come over whenever.",
+          "ok": true,
+          "flash_ru": "at + имя с 's = у него дома; слово place добавлять не нужно"
+        },
+        {
+          "phrase": "We're going to the downtown tonight.",
+          "ok": false,
+          "fix": "We're going downtown tonight.",
+          "flash_ru": "downtown работает как наречие: без артикля и без предлога"
+        },
+        {
+          "phrase": "Are you in the office today?",
+          "ok": true,
+          "flash_ru": "в американской компании это вопрос «ты не на удалёнке?», а не «ты за столом?»"
+        },
+        {
+          "phrase": "The address is in the second page.",
+          "ok": false,
+          "fix": "The address is on the second page.",
+          "flash_ru": "страницы — on, книга целиком — in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+data/
+english
+
+# Любые .env, кроме шаблона — там живой токен бота.
+.env
+.env.*
+!.env.example

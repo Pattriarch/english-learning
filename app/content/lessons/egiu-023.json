@@ -1,0 +1,358 @@
+{
+  "topicId": "egiu-023",
+  "title": "I will and I'm going to",
+  "title_ru": "решил сейчас vs решил раньше",
+  "theory": "## Короткая версия\n\nОба про будущее. Разница в том, **где было принято решение**.\n\n**will** — решение рождается прямо в момент речи:\n- телефон зазвонил → `I'll get it.`\n- кто-то тащит коробку → `I'll help you with that.`\n- обещание → `I'll send it tonight.`\n\n**going to** — решение уже принято до этого разговора:\n- `I'm going to take two weeks off in August.` (билеты куплены в мае)\n\nВторое значение going to — предсказание по признакам, которые видно прямо сейчас: `Look at that sky — it's going to pour.` Основание не в голове, а перед глазами: тучи, бёрндаун, лицо начальника.\n\n## Где русскоязычные валятся\n\nРусское «я сделаю» покрывает оба случая, поэтому выбор идёт наугад.\n\n**1. План через will.**\n- ❌ `I will visit my parents next weekend, I already bought the tickets.`\n- ✅ `I'm going to visit my parents next weekend.` (или `I'm visiting…`)\n\n**2. Спонтанная помощь через going to.**\n- ❌ `That box looks heavy — I'm going to help you.`\n- ✅ `I'll help you.` going to здесь звучит так, будто ты задумал это ещё вчера.\n\n**3. Обещание через going to.**\n- ❌ `I'm going to send it tonight, I promise.`\n- ✅ `I'll send it tonight, I promise.` Обещание всегда рождается в момент, когда его дают.\n\n**4. Предсказание с уликами через will.**\n- ❌ `Look at the burndown, we will miss the date.`\n- ✅ `…we're going to miss the date.`\n\n**5. Обратный перекос.** С `I think`, `I hope`, `probably`, `I'm sure` американцы почти всегда берут will: ✅ `I think it'll be fine.` going to там звучит так, будто у тебя есть данные, а не мнение.\n\nОтдельно стоит запомнить **was going to** — «собирался, но не вышло»: `I was going to quit anyway.` Очень частая живая форма, в учебниках прячется в конце юнита.\n\n## AmE-примечание\n\nВ речи это всегда `gonna`: `I'm gonna grab coffee.` В Slack с коллегами — тоже норма, в письме клиенту пиши going to. `I'll` почти всегда стягивается; полное `I will` звучит либо очень твёрдо (`I will not do that again`), либо очень по-книжному.\n\nИ ещё: когда дата и человек уже назначены, американец чаще возьмёт present continuous: `I'm meeting Jake at seven`, а не `I'm going to meet Jake at seven`.",
+  "scenes": [
+    {
+      "type": "dub",
+      "show_ru": "«Halsted Street», s02e01 — Рэйчел собирает коробки в коридоре, Дэнни варит кофе на общей кухне. Переводи реплики на английский.",
+      "steps": [
+        {
+          "scene_ru": "Домофон. Дэнни стоит ближе, у него мокрые руки.",
+          "line_ru": "Я открою.",
+          "reference": "I'll get it.",
+          "alt": "I got it.",
+          "note_ru": "Решение принято ровно в секунду, когда прозвенел домофон → will. `I'm going to get it` прозвучало бы так, будто ты планировал открыть дверь с утра. Разговорное `I got it` тоже живое и очень американское."
+        },
+        {
+          "scene_ru": "Рэйчел заклеивает третью коробку, не поднимая головы.",
+          "line_ru": "Я съезжаю в апреле. Договор уже подписала.",
+          "reference": "I'm going to move out in April. I already signed the lease.",
+          "alt": "I'm moving out in April — I already signed the lease.",
+          "note_ru": "Решение принято задолго до этого разговора, и доказательство лежит в сумке → going to. А когда дата уже назначена, ещё естественнее present continuous: `I'm moving out in April`."
+        },
+        {
+          "scene_ru": "Дэнни смотрит в окно: над озером чернота, первые капли по стеклу.",
+          "line_ru": "Смотри, сейчас ливанёт. Занеси велик.",
+          "reference": "Look at that — it's going to pour. Bring your bike in.",
+          "alt": "Look at the sky, it's gonna pour. Get your bike inside.",
+          "note_ru": "Улики перед глазами → going to. `It will pour` звучит как прогноз из телевизора, а не как «посмотри сам». В речи это всегда gonna."
+        },
+        {
+          "scene_ru": "Рэйчел роняет коробку, из неё сыплются книги. Дэнни ставит кружку и садится на корточки.",
+          "line_ru": "Не трогай, я сам соберу. И с грузчиками в апреле помогу, обещаю.",
+          "reference": "Don't — I'll get it. And I'll help you with the movers in April, I promise.",
+          "alt": "Leave it, I've got it. And I'll help with the movers in April, promise.",
+          "note_ru": "Два классических will подряд: спонтанное решение помочь сию секунду и обещание на будущее. `I'm going to help you` сюда не встанет — это звучит как заранее составленный план, а не как обещание, данное в эту минуту."
+        }
+      ]
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №14: Выходной, который случился заранее",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Из дизайн-студии на Уэкер-драйв в пятницу утекла клиентская база — 11 тысяч контактов. В тот день в офисе не было троих. Все трое говорят, что вышло случайно. Мия читает их переписку и смотрит не на слова, а на форму будущего времени.",
+      "steps": [
+        {
+          "narrative": "Понедельник, рабочий чат. **Alicia**:\n\n— **My laptop's acting up again. I'll take it to IT after lunch.**",
+          "question_ru": "Что форма `I'll` говорит о моменте решения?",
+          "choices": [
+            "Решение принято прямо сейчас, в ответ на то, что ноутбук забарахлил только что",
+            "Она давно планировала сходить в IT",
+            "Это обещание, данное кому-то конкретному"
+          ],
+          "answer": 0,
+          "clue_ru": "will = решение, родившееся в момент речи. Причина названа тут же: ноут глючит. Ничего заранее спланированного — Мия идёт дальше."
+        },
+        {
+          "narrative": "**Marcus** объясняет свою пятницу:\n\n— I woke up sick. **I texted Dev: I'll take a sick day.** That was it.\n\nМия сверяет сообщение — время 07:12, текст совпадает дословно.",
+          "question_ru": "Согласуется ли грамматика Маркуса с его версией?",
+          "choices": [
+            "Да: will = решение в момент отправки сообщения, ровно как он и рассказывает",
+            "Нет: надо было написать I'm going to take a sick day",
+            "Нет: про болезнь говорят только в present perfect"
+          ],
+          "answer": 0,
+          "clue_ru": "Версия и форма совпадают. Проснулся, решил, написал — will. Если бы Маркус планировал прогул со среды, у него бы вырвалось going to. Форма его не выдаёт."
+        },
+        {
+          "narrative": "**Owen** уверяет, что пятница вышла спонтанно: «Просто накопилось, проснулся и понял, что не могу».\n\nМия достаёт его переписку с сестрой, датированную девятью днями раньше:\n\n— **I'm going to take Friday the 14th off. Don't book anything for that morning.**",
+          "question_ru": "Почему это разрушает версию Оуэна?",
+          "choices": [
+            "going to = решение, уже принятое к моменту речи; за девять дней до пятницы он не «понял утром», а знал",
+            "Он назвал точную дату, а спонтанные люди дат не называют",
+            "`Don't book anything` — это приказ, значит он что-то скрывает"
+          ],
+          "answer": 0,
+          "clue_ru": "Вся разница будущих времён — в том, где принято решение. `I'm going to take Friday off` означает: решение уже существует. «Случайно вышло» и going to не живут в одном предложении."
+        },
+        {
+          "narrative": "Оуэн выкручивается: «Я имел в виду, что просто предполагал, что устану». Потом устаёт сам и говорит:\n\n— Fine. **I was going to quit anyway. I'm going to start my own thing in the spring.**",
+          "question_ru": "Что Мия услышала в `I was going to quit anyway`?",
+          "choices": [
+            "was going to = намерение, которое существовало заранее и не осуществилось — он сам подтвердил, что план был давно",
+            "Что он уже уволился и просто не сказал",
+            "Что он хочет уволиться прямо сейчас, в момент разговора"
+          ],
+          "answer": 0,
+          "clue_ru": "`I was going to…` — «собирался, но не сложилось». Это признание сроков, а не намерения: план существовал до пятницы. Мия дописывает в блокнот дату и закрывает папку."
+        }
+      ],
+      "outro_ru": "Оуэн зарегистрировал свою студию в Делавэре ещё в январе и увёл четырёх клиентов из выгруженной базы. Иск подали в понедельник. Мия записала: «will — решение, принятое при свидетелях. going to — решение, принятое, когда никто не смотрел»."
+    },
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Danny",
+        "emoji": "🔧",
+        "desc_ru": "сосед из 3C. Пишет без заглавных, всегда что-то тащит по лестнице и всегда зовёт помочь."
+      },
+      "intro_ru": "Четверг, вечер. Дэнни объявляется в мессенджере первым — обычно это значит, что у него что-то тяжёлое.",
+      "steps": [
+        {
+          "incoming": [
+            "yo",
+            "my couch is coming saturday and the stairwell is a nightmare"
+          ],
+          "options": [
+            {
+              "text": "I'll help. what time?",
+              "verdict": "natural",
+              "note_ru": "Решение принято прямо сейчас, в ответ на просьбу → will. Именно так по-английски и вызываются помочь, двумя словами."
+            },
+            {
+              "text": "I'm going to help. what time?",
+              "verdict": "error",
+              "note_ru": "going to значит «я это давно решил», хотя про диван ты узнал секунду назад. Звучит странно — будто ты знал заранее и ждал вопроса."
+            },
+            {
+              "text": "I would be glad to provide assistance. At what time will it arrive?",
+              "verdict": "textbook",
+              "note_ru": "Всё правильно и абсолютно мёртво. Соседу так не пишут даже в письменной культуре США."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "10am?",
+            "also I ordered pizza for after, don't eat before"
+          ],
+          "options": [
+            {
+              "text": "10 works. I'm gonna be at the gym till 9:30 but that's fine",
+              "verdict": "natural",
+              "note_ru": "Зал был в планах ещё вчера → going to, в чате нормально сокращать до gonna. С соседом и коллегами — уместно, в письме клиенту — нет."
+            },
+            {
+              "text": "10 works. I will be at the gym till 9:30 but that's fine",
+              "verdict": "error",
+              "note_ru": "will звучит как решение, принятое сию секунду — будто ты только что надумал пойти в зал ради этого сообщения. План есть план: going to или просто `I'm at the gym till 9:30`."
+            },
+            {
+              "text": "10 o'clock is suitable. I have a scheduled gym appointment until 9:30.",
+              "verdict": "textbook",
+              "note_ru": "`scheduled appointment` про зал — как про визит к стоматологу. И `suitable` в переписке с соседом звучит на два костюма официальнее, чем надо."
+            }
+          ]
+        },
+        {
+          "incoming": [
+            "cool",
+            "one more thing — landlord wants to look at the stairwell after",
+            "he thinks we're gonna scratch the paint"
+          ],
+          "options": [
+            {
+              "text": "we probably are, honestly. I'll bring a blanket to wrap the corners",
+              "verdict": "natural",
+              "note_ru": "Две формы за одну строку: `we probably are` подхватывает его gonna (лестница узкая, улики налицо), а `I'll bring` — решение, родившееся прямо в этом сообщении."
+            },
+            {
+              "text": "we probably will, honestly. I'm going to bring a blanket to wrap the corners",
+              "verdict": "error",
+              "note_ru": "Ровно наоборот. Предсказание по видимым признакам — going to, а спонтанное решение притащить плед — will."
+            },
+            {
+              "text": "It is probable that we will damage the paint. I shall bring a blanket.",
+              "verdict": "textbook",
+              "note_ru": "`It is probable that` — язык метеосводки, а shall в Америке живёт только в договорах аренды."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Дэнни написал «you're the best neighbor in this building». В доме четыре квартиры, так что комплимент умеренный."
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Спрашивай себя одно: решение приняли прямо сейчас или оно уже лежало готовое?",
+      "cards": [
+        {
+          "phrase": "Look at those clouds — it will rain.",
+          "ok": false,
+          "fix": "Look at those clouds — it's going to rain.",
+          "flash_ru": "улики перед глазами → going to; will тут звучит как прогноз погоды по радио"
+        },
+        {
+          "phrase": "Hold on, I'll grab my keys.",
+          "ok": true,
+          "flash_ru": "решение родилось в этой секунде → will"
+        },
+        {
+          "phrase": "I'm going to fly to Austin in March, tickets are booked.",
+          "ok": true,
+          "flash_ru": "план плюс доказательство → going to"
+        },
+        {
+          "phrase": "I will take a vacation in July, I booked it last week.",
+          "ok": false,
+          "fix": "I'm taking a vacation in July, I booked it last week.",
+          "flash_ru": "решение принято неделю назад → going to или present continuous, но не will"
+        },
+        {
+          "phrase": "That box looks heavy — I'm going to help you.",
+          "ok": false,
+          "fix": "That box looks heavy — I'll help you.",
+          "flash_ru": "предложение помощи в моменте — только will"
+        },
+        {
+          "phrase": "Fine, I'm going to call him right now.",
+          "ok": false,
+          "fix": "Fine, I'll call him right now.",
+          "flash_ru": "right now плюс решение прямо в разговоре → will; going to звучит как «я и так собирался»"
+        },
+        {
+          "phrase": "It will be a long meeting, look at the agenda.",
+          "ok": false,
+          "fix": "It's gonna be a long meeting — look at the agenda.",
+          "flash_ru": "повестка на четырнадцать пунктов — это улика → going to; gonna уместно устно и в чате"
+        },
+        {
+          "phrase": "Don't worry, I'm going to send it tonight, I promise.",
+          "ok": false,
+          "fix": "Don't worry, I'll send it tonight, I promise.",
+          "flash_ru": "обещание всегда рождается в момент, когда его дают → will"
+        },
+        {
+          "phrase": "Shall I open the window?",
+          "ok": false,
+          "fix": "Want me to open the window?",
+          "flash_ru": "британское; в США спросят Want me to…? или Should I…?"
+        },
+        {
+          "phrase": "She's not going to like this.",
+          "ok": true,
+          "flash_ru": "предсказание на основе того, что ты о ней знаешь → going to"
+        },
+        {
+          "phrase": "I'll be 35 next month.",
+          "ok": true,
+          "flash_ru": "факт будущего, никаких решений — чистый will"
+        },
+        {
+          "phrase": "Watch out, you gonna drop it!",
+          "ok": false,
+          "fix": "Watch out, you're gonna drop it!",
+          "flash_ru": "gonna не отменяет be: пропущенное you're слышно сразу"
+        },
+        {
+          "phrase": "The phone is ringing. I'm going to get it.",
+          "ok": false,
+          "fix": "The phone is ringing. I'll get it.",
+          "flash_ru": "реакция в моменте → will; going to здесь означало бы, что ты ждал этого звонка"
+        },
+        {
+          "phrase": "We're going to move the deploy to Thursday — that was decided yesterday.",
+          "ok": true,
+          "flash_ru": "решение принято вчера → going to; will означало бы, что решаешь прямо сейчас"
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Прия, твоя тимлид, пишет менеджеру и команде перед двухнедельным отпуском: план релиза, кто за что отвечает и что уже сломано. Пишет в спешке, будущее время местами промахивается.",
+      "segments": [
+        {
+          "text": "Hey all,\n\nBefore this turns into a hallway conversation, here's the plan in writing.\n\n"
+        },
+        {
+          "text": "I will take two weeks off starting August 4",
+          "error": true,
+          "fix": "I'm going to take two weeks off starting August 4",
+          "note_ru": "Билеты куплены в мае — решение давно принято, значит going to (или I'm taking)"
+        },
+        {
+          "text": ". Nothing about that is negotiable, my mother already bought the tickets.\n\n"
+        },
+        {
+          "text": "Jake is going to cover for me while I'm out — we agreed on it Monday",
+          "error": false,
+          "note_ru": "Правильно: договорились заранее, план существует → going to"
+        },
+        {
+          "text": ". Route everything through him, not through my phone.\n\n"
+        },
+        {
+          "text": "Look at the burndown: at this pace we will miss the August 12 date",
+          "error": true,
+          "fix": "Look at the burndown: at this pace we're going to miss the August 12 date",
+          "note_ru": "Признаки на графике, все их видят — предсказание с уликами идёт через going to"
+        },
+        {
+          "text": ". I'd rather say it now than on the 11th. "
+        },
+        {
+          "text": "It's going to be tight either way",
+          "error": false,
+          "note_ru": "Правильно: вывод из тех же цифр, что видят все — going to"
+        },
+        {
+          "text": ", so let's cut the export screen and ship the rest.\n\n"
+        },
+        {
+          "text": "Don't worry about the docs, I'm going to send the full plan tonight",
+          "error": true,
+          "fix": "Don't worry about the docs, I'll send the full plan tonight",
+          "note_ru": "Обещание, данное прямо в этом письме → will"
+        },
+        {
+          "text": ".\n\n"
+        },
+        {
+          "text": "I will hire a second QA in the fall — that was decided back in June",
+          "error": true,
+          "fix": "I'm going to hire a second QA in the fall — that was decided back in June",
+          "note_ru": "Решение принято в июне, значит going to; will выглядел бы как импровизация посреди письма"
+        },
+        {
+          "text": ", so please stop reopening that thread.\n\n"
+        },
+        {
+          "text": "Watch the error rate on the payments service, it will keep climbing",
+          "error": true,
+          "fix": "Watch the error rate on the payments service, it's going to keep climbing",
+          "note_ru": "График растёт на глазах — улики есть, значит going to"
+        },
+        {
+          "text": " until someone fixes the retry timeout. "
+        },
+        {
+          "text": "I think it's going to be fine after that",
+          "error": true,
+          "fix": "I think it'll be fine after that",
+          "note_ru": "С I think, I hope, probably американцы почти всегда берут will — это мнение, а не вывод из данных"
+        },
+        {
+          "text": ", but I've been wrong before.\n\n"
+        },
+        {
+          "text": "I'll be honest: the original estimate was mine, and it was bad",
+          "error": false,
+          "note_ru": "Правильно: I'll be honest — решение сказать прямо, принятое в этой самой строке"
+        },
+        {
+          "text": ". Next time I'm padding it by a week.\n\n"
+        },
+        {
+          "text": "Call me if prod is on fire and I'm going to pick up, even from the beach",
+          "error": true,
+          "fix": "Call me if prod is on fire and I'll pick up, even from the beach",
+          "note_ru": "Готовность и обещание → will; going to звучит так, будто ты уже запланировал этот звонок"
+        },
+        {
+          "text": ". Anything short of that can wait until the 19th.\n\nPriya"
+        }
+      ],
+      "corrected": "Hey all,\n\nBefore this turns into a hallway conversation, here's the plan in writing.\n\nI'm going to take two weeks off starting August 4. Nothing about that is negotiable, my mother already bought the tickets.\n\nJake is going to cover for me while I'm out — we agreed on it Monday. Route everything through him, not through my phone.\n\nLook at the burndown: at this pace we're going to miss the August 12 date. I'd rather say it now than on the 11th. It's going to be tight either way, so let's cut the export screen and ship the rest.\n\nDon't worry about the docs, I'll send the full plan tonight.\n\nI'm going to hire a second QA in the fall — that was decided back in June, so please stop reopening that thread.\n\nWatch the error rate on the payments service, it's going to keep climbing until someone fixes the retry timeout. I think it'll be fine after that, but I've been wrong before.\n\nI'll be honest: the original estimate was mine, and it was bad. Next time I'm padding it by a week.\n\nCall me if prod is on fire and I'll pick up, even from the beach. Anything short of that can wait until the 19th.\n\nPriya"
+    }
+  ]
+}

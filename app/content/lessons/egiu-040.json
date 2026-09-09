@@ -1,0 +1,285 @@
+{
+  "topicId": "egiu-040",
+  "title": "If I had known ... I wish I had known ...",
+  "title_ru": "если бы я тогда знал",
+  "theory": "## Короткая версия\n\nЭто режим сожаления. Событие в прошлом уже случилось (или не случилось), поменять нельзя, и ты об этом говоришь.\n\n- `If I had known, I would have told you.` — не знал, поэтому не сказал.\n- `I wish I had known.` — жаль, что не знал.\n\nФормула одна и жёсткая: **if + had + V3** в условии, **would have + V3** в главной части. Всё остальное — поломка.\n\nВ живой речи это почти всегда сокращается: `If I'd known, I would've told you` звучит как «ифайд ноун, ай вуда толд ю». Именно так и надо тренировать — целым куском, а не по кирпичику.\n\n## Где русскоязычные валятся\n\n**1. Второй тип вместо третьего.** В русском «если бы я знал» обслуживает и настоящее, и прошлое. В английском — нет.\n\n- ❌ `If I knew about the deploy, I would tell you.` (про вчерашний деплой)\n- ✅ `If I had known about the deploy, I would have told you.`\n\n**2. Половина третьего типа.** Самая частая поломка: одну часть подтянули, вторую забыли.\n\n- ❌ `If I had known, I would tell you.`\n- ✅ `If I had known, I would have told you.`\n\n**3. `wish` + прошедшее вместо past perfect.**\n\n- ❌ `I wish I knew that yesterday.` → ✅ `I wish I had known that yesterday.`\n- ❌ `I wish I didn't say that.` → ✅ `I wish I hadn't said that.`\n\nПри этом `I wish I knew his number` — правильно: это сожаление про **сейчас**, а не про прошлое. Разница ровно в том, о каком моменте ты жалеешь.\n\n**4. `wish` + `would` — отдельная история.** Не про прошлое, а про раздражение чужим поведением: `I wish he would stop replying-all.` Про себя так не говорят: не `I wish I would`, а `I wish I could`.\n\n**5. Конструкция громоздкая, и её начинают обходить.** «Надо было спросить» превращается в `It was necessary to ask` — и звучит как перевод инструкции. Живой вариант: `I should have asked.`\n\n## AmE-примечание\n\n`If I would have known` и `I wish I would have known` — формально ошибка, но в Чикаго, Огайо и Техасе так говорят каждый день, включая людей с дипломами. Понимать надо, повторять в письме, резюме и на интервью — нет.\n\n`Had I known, I'd have said something` — инверсия без `if`. Правильно и красиво, но это язык писем и судебных драм; в чате звучит как цитата.\n\nАмериканцы гораздо чаще заменяют всю громоздкую конструкцию коротким `should have`: `I should've asked her` вместо `I wish I had asked her`. И есть готовая формула `Woulda, coulda, shoulda` — «что теперь-то жалеть», для бара и Слака, не для почты.\n\nБританское `I wish I had have known` (лишнее `have`) в США звучит просто как ошибка.",
+  "scenes": [
+    {
+      "type": "thread",
+      "contact": {
+        "name": "Priya",
+        "emoji": "🧭",
+        "desc_ru": "твоя тимлид. Пишет прямо, без смайликов, признаёт свои косяки первой."
+      },
+      "intro_ru": "Утро вторника. Ночью прод лежал сорок минут, тебе никто не позвонил. Прия открывает личку.",
+      "steps": [
+        {
+          "incoming": ["you around?", "prod was down 40 min last night and nobody paged you"],
+          "options": [
+            {
+              "text": "nope, slept through it. if I'd known, I would've been on it in five minutes",
+              "verdict": "natural",
+              "note_ru": "Чистый третий тип, сжатый до речи: `if I'd known` + `I would've been`. Обе половины про прошлое — именно так это и произносят вслух."
+            },
+            {
+              "text": "no. if I knew, I would tell you immediately",
+              "verdict": "error",
+              "note_ru": "Второй тип вместо третьего: звучит как «если бы я знал вообще» — то есть про сейчас. Речь про конкретную ночь, значит `if I had known, I would have...`"
+            },
+            {
+              "text": "No. Had I been informed of the incident, I would have responded promptly.",
+              "verdict": "textbook",
+              "note_ru": "Грамматика безупречная, включая инверсию `Had I been`. Но в личке это звучит как объяснительная в отдел кадров — Прия решит, что ты обиделся."
+            }
+          ]
+        },
+        {
+          "incoming": ["yeah, the alert went to the old rotation", "my bad, honestly"],
+          "options": [
+            {
+              "text": "I wish we'd deleted that rotation back in june. it's bitten us twice now",
+              "verdict": "natural",
+              "note_ru": "`I wish we'd deleted` = `I wish we had deleted`: сожаление о конкретном непроделанном действии в прошлом. `it's bitten us` — обычное рабочее «уже дважды прилетало»."
+            },
+            {
+              "text": "I wish we deleted that rotation in june",
+              "verdict": "error",
+              "note_ru": "`I wish we deleted` — сожаление про настоящее («жаль, что мы её не удаляем»). Про июнь нужен past perfect: `I wish we had deleted`."
+            },
+            {
+              "text": "It is regrettable that the rotation was not removed in June.",
+              "verdict": "textbook",
+              "note_ru": "Правильно и абсолютно нежилое. `It is regrettable` — язык пресс-релиза после авиакатастрофы, а не переписки о дежурствах."
+            }
+          ]
+        },
+        {
+          "incoming": ["fair", "postmortem thursday, 10?"],
+          "options": [
+            {
+              "text": "works. and I wish you'd just text me next time — page or no page",
+              "verdict": "natural",
+              "note_ru": "`I wish you'd text me` = `I wish you would text me`: не сожаление о прошлом, а просьба поменять поведение в будущем. Мягче, чем «пиши мне», и без обвинения."
+            },
+            {
+              "text": "works. and I wish you texted me next time",
+              "verdict": "error",
+              "note_ru": "`next time` — про будущее, значит нужен `would`: `I wish you'd text me next time`. С прошедшей формой фраза разваливается по времени."
+            },
+            {
+              "text": "That works. I would have appreciated it if you had texted me.",
+              "verdict": "textbook",
+              "note_ru": "Грамматически чисто и максимально пассивно-агрессивно: третий тип тут разворачивает разговор назад, к вине, вместо договорённости на будущее."
+            }
+          ]
+        }
+      ],
+      "outro_ru": "Прия поставила галочку в календаре и добавила старую ротацию в тикет на удаление. Через неделю алерт снова ушёл не туда — тикет остался в бэклоге."
+    },
+    {
+      "type": "case",
+      "caseTitle": "Дело №14: Свидетель, который жалел о слишком многом",
+      "intro_ru": "Мия Торрес, детектив, Чикаго. Ночью со склада на Кедзи вынесли двадцать коробок с медью и подожгли контейнер во дворе. Никто ничего не видел. Трое дают показания, и один из них жалеет о вещах, о которых мог бы жалеть только тот, кто был на месте.",
+      "steps": [
+        {
+          "narrative": "Первым говорит **Бо**, сосед с той же улицы, разбуженный сиреной.\n\n— I sleep with the window open, even in November. **If I'd heard anything, I would have called 911.**\n\nМия кивает: фраза собрана правильно.",
+          "question_ru": "Что именно утверждает `If I'd heard anything, I would have called 911`?",
+          "choices": [
+            "Что он ничего не слышал — и поэтому не звонил",
+            "Что он что-то слышал, но не стал звонить",
+            "Что он позвонит, если услышит ещё раз"
+          ],
+          "answer": 0,
+          "clue_ru": "Третий тип всегда говорит обратное факту. `If I'd heard` = не слышал. `I would have called` = не звонил. Это не увёртка, а точное отрицание — и проверяется по журналу вызовов за минуту."
+        },
+        {
+          "narrative": "Вторая — **Лорен**, ночной менеджер склада. Она держится за стакан с водой.\n\n— The code to the side door was written on the box. Right on the box, in marker. **I wish I knew that a month ago.**\n\nМия просит повторить и записывает фразу дословно.",
+          "question_ru": "Лорен сказала `I wish I knew that a month ago`. Как это должно звучать?",
+          "choices": [
+            "I wish I had known that a month ago.",
+            "I wish I would know that a month ago.",
+            "I wish I know that a month ago."
+          ],
+          "answer": 0,
+          "clue_ru": "`a month ago` — точка в прошлом, значит `I wish I had known`. `I wish I knew` работало бы, если бы речь шла про сейчас: «жаль, что я не знаю». Мия отмечает не ложь, а то, что Лорен впервые узнала про код только что."
+        },
+        {
+          "narrative": "Третий — **Дэйв**, охранник со смены до полуночи. Говорит быстро, с чикагским выговором.\n\n— Look, **if I would have known** the camera was dead, I would've walked the yard twice.\n\nНапарник Мии подчёркивает эту фразу в блокноте двумя линиями.",
+          "question_ru": "`If I would have known` — доказывает ли эта форма, что Дэйв врёт или что он не местный?",
+          "choices": [
+            "Нет: по учебнику это ошибка, но в разговорной Америке так говорят повсеместно, особенно на Среднем Западе",
+            "Да: так говорят только неносители, значит он скрывает происхождение",
+            "Да: носители языка физически не могут построить такую фразу"
+          ],
+          "answer": 0,
+          "clue_ru": "`If I would have known` — самая распространённая «неправильная» конструкция в живой американской речи. В письме её не пишут, в разговоре произносят миллионы людей. Мия вычёркивает подчёркивание: это улика в диктанте, а не в деле."
+        },
+        {
+          "narrative": "Мия возвращается к Бо. В самом начале, ещё до вопросов, он сказал:\n\n— I was home by ten. Dead asleep by eleven.\n\nА в конце, уже расслабившись:\n\n— **I wish I'd moved my truck off the alley before the fire got going.**",
+          "question_ru": "Где Бо себя закопал?",
+          "choices": [
+            "`I wish I'd moved my truck` предполагает, что он мог это сделать — то есть не спал и знал про огонь, пока тот разгорался",
+            "`I wish I'd moved` — грамматическая ошибка, надо `I wish I moved`",
+            "Он сказал `by ten`, а надо было `until ten`"
+          ],
+          "answer": 0,
+          "clue_ru": "Вот она, улика. Сожаление в третьем типе всегда тащит за собой предпосылку: жалеть о неcделанном можно, только если ты был в состоянии это сделать. Спящий человек не жалеет, что не переставил грузовик, пока разгорался огонь, — он о нём просто не знает."
+        }
+      ],
+      "outro_ru": "Грузовик Бо сгорел наполовину, и страховка покрывала только угон и поджог третьими лицами. Медь он не трогал — он трогал спичку и собственный кузов, а воры приехали через сорок минут на готовое зарево. Мия закрыла блокнот: «Люди врут в фактах и честны в сожалениях. Слушай, о чём человек жалеет, — он не может жалеть о том, чего не видел.»"
+    },
+    {
+      "type": "radar",
+      "intro_ru": "Семь секунд на фразу. Главный вопрос: о каком моменте жалеет говорящий — о прошлом, о сейчас или о чужой привычке.",
+      "cards": [
+        {
+          "phrase": "If I knew, I would have told you.",
+          "ok": false,
+          "fix": "If I had known, I would have told you.",
+          "flash_ru": "речь про прошлое — обе половины должны быть в третьем типе"
+        },
+        {
+          "phrase": "If I had known, I would tell you.",
+          "ok": false,
+          "fix": "If I had known, I would have told you.",
+          "flash_ru": "половина третьего типа: would без have обрывает конструкцию на полпути"
+        },
+        {
+          "phrase": "I wish I'd known that yesterday.",
+          "ok": true,
+          "flash_ru": "'d = had, сожаление о конкретном вчера — ровно то, что нужно"
+        },
+        {
+          "phrase": "I wish I knew his number.",
+          "ok": true,
+          "flash_ru": "жаль, что не знаю сейчас — тут past без perfect правильный"
+        },
+        {
+          "phrase": "I wish I have listened to you.",
+          "ok": false,
+          "fix": "I wish I had listened to you.",
+          "flash_ru": "после wish перфект настоящего невозможен, только had + V3"
+        },
+        {
+          "phrase": "I wish I didn't say that.",
+          "ok": false,
+          "fix": "I wish I hadn't said that.",
+          "flash_ru": "сказал вчера — значит hadn't said; didn't say про прошлое тут не работает"
+        },
+        {
+          "phrase": "I wish I would have called her back.",
+          "ok": false,
+          "fix": "I wish I had called her back.",
+          "flash_ru": "так говорит пол-Америки вслух, но в письме и на интервью — только had called"
+        },
+        {
+          "phrase": "I should have asked her.",
+          "ok": true,
+          "flash_ru": "живая замена громоздкому I wish I had asked — американцы берут её чаще"
+        },
+        {
+          "phrase": "I wish he stopped micromanaging.",
+          "ok": false,
+          "fix": "I wish he would stop micromanaging.",
+          "flash_ru": "раздражение чужой привычкой = wish + would, а не прошедшее"
+        },
+        {
+          "phrase": "I wish I would be taller.",
+          "ok": false,
+          "fix": "I wish I were taller.",
+          "flash_ru": "про себя wish + would не говорят — только were или could"
+        },
+        {
+          "phrase": "If I hadn't missed the flight, I'd be in Austin right now.",
+          "ok": true,
+          "flash_ru": "смешанный тип: условие в прошлом, результат в настоящем — так и надо"
+        },
+        {
+          "phrase": "I wish I had have known.",
+          "ok": false,
+          "fix": "I wish I had known.",
+          "flash_ru": "лишнее have — британско-диалектное; в США просто слышится как ошибка"
+        },
+        {
+          "phrase": "If we would have deployed on Friday, we'd have lost the weekend.",
+          "ok": false,
+          "fix": "If we had deployed on Friday, we'd have lost the weekend.",
+          "flash_ru": "внутри if — только had; would уезжает во вторую половину"
+        },
+        {
+          "phrase": "Woulda, coulda, shoulda.",
+          "ok": true,
+          "flash_ru": "разговорная формула «что теперь-то жалеть» — для бара и Слака, не для почты"
+        }
+      ]
+    },
+    {
+      "type": "letter",
+      "from_ru": "Danny, твой сосед со второго этажа, пишет управляющему домом Гасу после того, как затопил квартиру снизу. Он объясняется, кается и торгуется одновременно. Английский живой, времена сожаления — плывут. Найди все места, где сломано.",
+      "segments": [
+        { "text": "Gus,\n\nI'm not going to pretend this wasn't on me, so here's the whole thing.\n\nThe washer hose has been leaking since spring, a little bit, only when the drum spun. " },
+        {
+          "text": "If I knew the hose was cracked, I would have replaced it in April",
+          "error": true,
+          "fix": "If I had known the hose was cracked, I would have replaced it in April",
+          "note_ru": "Речь про апрель — обе половины уходят в третий тип: `If I had known` + `I would have replaced`"
+        },
+        { "text": " — they're eleven dollars at the hardware store on Ashland. " },
+        {
+          "text": "I wish I checked behind the machine when I moved the shelf",
+          "error": true,
+          "fix": "I wish I had checked behind the machine when I moved the shelf",
+          "note_ru": "Сожаление о конкретном моменте в прошлом требует `wish + had + V3`"
+        },
+        { "text": ".\n\n" },
+        {
+          "text": "I should have called you the same night",
+          "error": false,
+          "note_ru": "Правильно: `should have + V3` — самый живой способ сказать «надо было». Американцы берут его чаще, чем полную конструкцию с wish"
+        },
+        { "text": ". Instead I put a bucket under it and went to bed, which is the dumbest thing I've done this year.\n\n" },
+        {
+          "text": "If Maya didn't stop by at seven, the whole floor would have been gone",
+          "error": true,
+          "fix": "If Maya hadn't stopped by at seven, the whole floor would have been gone",
+          "note_ru": "Условие в прошлом строится через `hadn't stopped`, а не через `didn't stop`"
+        },
+        { "text": ". She shut the valve and called me at work. " },
+        {
+          "text": "I wish I would tell you about the leak back in June",
+          "error": true,
+          "fix": "I wish I had told you about the leak back in June",
+          "note_ru": "`wish + would` — про чужое поведение в будущем. Про свой прошлый косяк — только `I wish I had told`"
+        },
+        { "text": ", when it was still a drip and not a lake.\n\n" },
+        {
+          "text": "If I had been home on Saturday, I would catch it before it reached the hallway",
+          "error": true,
+          "fix": "If I had been home on Saturday, I would have caught it before it reached the hallway",
+          "note_ru": "Классическая половинка: условие подтянули, а `would catch` осталось без `have`"
+        },
+        { "text": ".\n\nAbout 1B: I already talked to Ana and she's fine with me paying for the floor directly. " },
+        {
+          "text": "If I would have had renter's insurance, this email would be a lot shorter",
+          "error": true,
+          "fix": "If I'd had renter's insurance, this email would be a lot shorter",
+          "note_ru": "`If I would have had` слышно по всему Среднему Западу, но письмо домовладельцу — не то место. Нужен `If I'd had` (= if I had had)"
+        },
+        { "text": ". I signed up for a policy Monday, twenty-two a month, should have done it three years ago.\n\n" },
+        {
+          "text": "I wish I could fix the subfloor myself, but I'm not a plumber and I'm definitely not a carpenter",
+          "error": false,
+          "note_ru": "Правильно: сожаление про настоящее — `wish + could`, никакого перфекта тут не нужно"
+        },
+        { "text": ". Can you send me whoever you used for 3A last winter?\n\n" },
+        {
+          "text": "I wish I hadn't waited until Monday to write this",
+          "error": false,
+          "note_ru": "Правильно: `hadn't waited` — сожаление о конкретном непроделанном действии в прошлом"
+        },
+        { "text": ", but here it is. I'm around all week after six.\n\nDanny, 2B" }
+      ],
+      "corrected": "Gus,\n\nI'm not going to pretend this wasn't on me, so here's the whole thing.\n\nThe washer hose has been leaking since spring, a little bit, only when the drum spun. If I had known the hose was cracked, I would have replaced it in April — they're eleven dollars at the hardware store on Ashland. I wish I had checked behind the machine when I moved the shelf.\n\nI should have called you the same night. Instead I put a bucket under it and went to bed, which is the dumbest thing I've done this year.\n\nIf Maya hadn't stopped by at seven, the whole floor would have been gone. She shut the valve and called me at work. I wish I had told you about the leak back in June, when it was still a drip and not a lake.\n\nIf I had been home on Saturday, I would have caught it before it reached the hallway.\n\nAbout 1B: I already talked to Ana and she's fine with me paying for the floor directly. If I'd had renter's insurance, this email would be a lot shorter. I signed up for a policy Monday, twenty-two a month, should have done it three years ago.\n\nI wish I could fix the subfloor myself, but I'm not a plumber and I'm definitely not a carpenter. Can you send me whoever you used for 3A last winter?\n\nI wish I hadn't waited until Monday to write this, but here it is. I'm around all week after six.\n\nDanny, 2B"
+    }
+  ]
+}
