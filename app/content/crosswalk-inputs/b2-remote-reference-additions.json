@@ -1,0 +1,298 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-10",
+  "sources": [
+    {
+      "id": "oxford-mission-statement",
+      "title": "Oxford: mission statement",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/mission-statement",
+      "checkedAt": "2026-09-10",
+      "evidence": "Проверено значение: официальное изложение целей организации; используется только для разграничения миссии, плана и рекламного лозунга."
+    },
+    {
+      "id": "oxford-freeze-computing",
+      "title": "Oxford: freeze, computer sense",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/freeze_1",
+      "checkedAt": "2026-09-10",
+      "evidence": "Проверены компьютерное значение freeze и формы froze/frozen; используются для различения наблюдаемого зависания картинки и предположений о причине."
+    },
+    {
+      "id": "zoom-screen-share-controls",
+      "title": "Zoom Support: screen sharing and meeting controls",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060596",
+      "checkedAt": "2026-09-10",
+      "evidence": "Проверены отдельные действия Mute/Unmute, Start/Stop Video и показ экрана либо окна; урок учит языку общения, а не обещает одинаковое расположение кнопок."
+    },
+    {
+      "id": "purdue-niso-reference",
+      "title": "Purdue NISO: recommendation letter guidance",
+      "url": "https://www.purdue.edu/niso/recommender/Rec%20Letter%20Video%20Transcript.pdf",
+      "checkedAt": "2026-09-10",
+      "evidence": "Проверены рекомендации указывать характер знакомства, конкретные наблюдения и связь с критериями получателя; сценарии, письма и задания написаны самостоятельно."
+    }
+  ],
+  "modules": [
+    {
+      "id": "extended-b2-remote-project",
+      "level": "B2",
+      "title": "Видеовстреча и миссия проекта",
+      "skills": [
+        "listening",
+        "interaction",
+        "writing",
+        "mediation",
+        "vocabulary"
+      ],
+      "outcomes": [
+        "Восстановить понятную видеовстречу: описать сбой, предложить действие и перепроверить смысл.",
+        "Отделить утверждённые условия проекта от предложений и неизвестных сведений.",
+        "Написать короткую миссию проекта и обосновать её после изменения условий."
+      ],
+      "scenario": "Команда вымышленного Neighbour Link обсуждает пилот цифровой помощи взрослым и готовит публичную миссию; поздний запрос меняет пределы помощи.",
+      "materials": [
+        {
+          "id": "m1",
+          "title": "Досье проекта",
+          "kind": "reference",
+          "minWords": 230,
+          "maxWords": 330,
+          "brief": "Полные факты проекта, аудитория, роли, утверждённые возможности и неизвестное; не раскрывать поздние ограничения."
+        },
+        {
+          "id": "m2",
+          "title": "Начало видеовстречи",
+          "kind": "dialogue",
+          "minWords": 150,
+          "maxWords": 230,
+          "brief": "Реплики коллег: mute/unmute, share screen, lag/freeze и пропущенная деталь. Нет готового ответа учащегося; сбой описан словами."
+        },
+        {
+          "id": "m3",
+          "title": "Миссия другого проекта",
+          "kind": "reading",
+          "minWords": 160,
+          "maxWords": 240,
+          "brief": "Полная короткая модель на другой теме и редакторский разбор аудитории, действия и границ, отличия от плана."
+        },
+        {
+          "id": "m4",
+          "title": "Позднее уточнение партнёра",
+          "kind": "dialogue",
+          "minWords": 150,
+          "maxWords": 220,
+          "brief": "Новый этап после черновика: пилот исключает поиск работы, не подтверждено продолжение; запрос реакции и публичной формулировки."
+        }
+      ],
+      "exercisePlan": [
+        {
+          "kind": "write",
+          "materialIds": [
+            "m1"
+          ],
+          "brief": "Адресная записка по досье: цель, факты, неизвестное."
+        },
+        {
+          "kind": "speak",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "brief": "Ответ на проблемный звонок: восстановить связь и уточнить потерянный смысл."
+        },
+        {
+          "kind": "write",
+          "materialIds": [
+            "m3"
+          ],
+          "brief": "Разобрать миссию и отличить её от расписания и гарантии."
+        },
+        {
+          "kind": "translate",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "brief": "Перевести целое рабочее сообщение о связи, условиях и проверке."
+        },
+        {
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "brief": "Миссия 45–65 слов и объяснение 90–110 слов для команды.",
+          "minAnswerWords": 135
+        },
+        {
+          "kind": "speak",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m4"
+          ],
+          "brief": "Впервые открыть поздний этап; отреагировать на изменение."
+        },
+        {
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m3",
+            "m4"
+          ],
+          "brief": "Обновить миссию 45–65 слов и объяснить 90–110 слов статус/границы.",
+          "minAnswerWords": 135
+        },
+        {
+          "kind": "rewrite",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3",
+            "m4"
+          ],
+          "brief": "Исправить полный рекламный черновик и объяснить правки."
+        }
+      ],
+      "sourceIds": [
+        "oxford-mission-statement",
+        "oxford-freeze-computing",
+        "zoom-screen-share-controls"
+      ],
+      "relatedLessonIds": [
+        "vocabulary-upper-intermediate-035",
+        "phrasal-advanced-054",
+        "path-proposal"
+      ]
+    },
+    {
+      "id": "extended-b2-reference-letter",
+      "level": "B2",
+      "title": "Рекомендательное письмо с доказательствами",
+      "skills": [
+        "reading",
+        "writing",
+        "speaking",
+        "interaction",
+        "register"
+      ],
+      "outcomes": [
+        "Сопоставить запрос получателя с наблюдаемыми фактами о кандидате и границами знания рекомендателя.",
+        "Написать полное рекомендательное письмо с обращением, обоснованной оценкой и завершением.",
+        "Устно ответить на уточнение рекрутера и пересмотреть рекомендацию при изменении требований."
+      ],
+      "scenario": "Ruth Ellis рекомендует бывшую коллегу Leila Hassan в общественный центр; новые обязанности требуют уточнения вместо выдуманной гарантии.",
+      "materials": [
+        {
+          "id": "m1",
+          "title": "Запрос рекомендателю",
+          "kind": "reading",
+          "minWords": 140,
+          "maxWords": 210,
+          "brief": "Полное письмо рекрутера: кандидат, роль, адресат, критерии и цель."
+        },
+        {
+          "id": "m2",
+          "title": "Проверяемые наблюдения",
+          "kind": "reference",
+          "minWords": 280,
+          "maxWords": 390,
+          "brief": "Наблюдения Ruth, сведения кандидата, личный/командный вклад и неизвестное."
+        },
+        {
+          "id": "m3",
+          "title": "Модель полного письма",
+          "kind": "reading",
+          "minWords": 210,
+          "maxWords": 290,
+          "brief": "Полное письмо о другом кандидате и роли, salutation/closing, примеры, ограничение и прогноз."
+        },
+        {
+          "id": "m4",
+          "title": "Новый вопрос рекрутера",
+          "kind": "dialogue",
+          "minWords": 120,
+          "maxWords": 190,
+          "brief": "После первого письма новые обязанности и вопрос об их подтверждении; доступность неизвестна."
+        }
+      ],
+      "exercisePlan": [
+        {
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "brief": "Сопоставить запрос и факты, назвать неизвестное."
+        },
+        {
+          "kind": "write",
+          "materialIds": [
+            "m3"
+          ],
+          "brief": "Разобрать жанр письма, доказательство и оговорку."
+        },
+        {
+          "kind": "translate",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "brief": "Перевести полное сообщение с источниками сведений."
+        },
+        {
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "brief": "Адресный план письма с примерами и ограничениями."
+        },
+        {
+          "kind": "speak",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "brief": "Полная устная рекомендация по текущей роли."
+        },
+        {
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3"
+          ],
+          "brief": "Полное самостоятельное письмо 190–230 слов с обращением/завершением.",
+          "minAnswerWords": 190
+        },
+        {
+          "kind": "speak",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m4"
+          ],
+          "brief": "Открыть поздний запрос, ответить и уточнить новые требования."
+        },
+        {
+          "kind": "rewrite",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3",
+            "m4"
+          ],
+          "brief": "Полный ошибочный текст → обновлённое письмо 200–240 слов; объяснение отдельно.",
+          "minAnswerWords": 200
+        }
+      ],
+      "sourceIds": [
+        "purdue-niso-reference"
+      ],
+      "relatedLessonIds": [
+        "collocations-advanced-044",
+        "extended-b2-application"
+      ]
+    }
+  ]
+}

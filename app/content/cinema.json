@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "updated": "2026-09-09",
+  "series": [
+    {
+      "id": "better-call-saul",
+      "title": "Better Call Saul",
+      "subtitle": "Лучше звоните Солу · сезон 1",
+      "description": "Полный первый сезон как курс самостоятельной речи: переговоры, аргументы, работа с фактами, отношения и профессиональный английский. Тридцать готовых занятий, пятнадцать заданий на каждый эпизод.",
+      "levels": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "extension": "Задания на точность, смену регистра и сжатие аргумента позволяют усложнить работу до C2; курс не заменяет всю программу C2.",
+      "episodes": [
+        {
+          "id": "bcs-s01e01",
+          "number": 1,
+          "season": 1,
+          "title": "Uno",
+          "focus": "Представиться, убедить, попросить о возможности",
+          "level": "B1",
+          "grammar": "Present Simple / Continuous; вежливые просьбы",
+          "synopsis": "Джимми работает в суде и ищет необычный способ привлечь клиентов.",
+          "lessonIds": [
+            "cinema-bcs-s01e01-prepare",
+            "cinema-bcs-s01e01-listen",
+            "cinema-bcs-s01e01-respond"
+          ],
+          "lexicon": [
+            "make ends meet — сводить концы с концами; о личных финансах",
+            "build a practice — развивать собственную юридическую или врачебную практику",
+            "represent a client — представлять интересы клиента",
+            "give someone a chance — дать кому-то возможность",
+            "make a good impression — произвести хорошее впечатление",
+            "take someone seriously — воспринимать кого-то всерьёз"
+          ],
+          "watch": "Выбери короткую сцену, где Джимми пытается произвести впечатление на клиента или сотрудника. Отметь, чего он просит и что собеседник принимает за доказательство компетентности.",
+          "source": "https://tv.apple.com/us/episode/uno/umc.cmc.7ha901mh8lh5tnz62f5ocrdp5",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e01-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e01-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e01-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e02",
+          "number": 2,
+          "season": 1,
+          "title": "Mijo",
+          "focus": "Снизить напряжение и договориться об условиях",
+          "level": "B1",
+          "grammar": "First / Second Conditional; модальные предложения",
+          "synopsis": "Проблемы Джимми резко обостряются; неосторожность создаёт риск и для Чака.",
+          "lessonIds": [
+            "cinema-bcs-s01e02-prepare",
+            "cinema-bcs-s01e02-listen",
+            "cinema-bcs-s01e02-respond"
+          ],
+          "lexicon": [
+            "reach an agreement — прийти к соглашению",
+            "make a concession — пойти на уступку",
+            "calm down — успокоиться; прямой приказ иногда раздражает",
+            "meet someone halfway — пойти навстречу, найти компромисс",
+            "be willing to — быть готовым добровольно сделать что-то",
+            "on one condition — при одном условии"
+          ],
+          "watch": "Найди переговорный обмен, где один персонаж меняет исходное требование. Запиши первоначальную позицию, предложенную уступку и то, что остаётся неприемлемым для другого.",
+          "source": "https://tv.apple.com/us/episode/mijo/umc.cmc.40nsvrli2vs828ly0m9bbkzbs",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e02-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e02-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e02-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e03",
+          "number": 3,
+          "season": 1,
+          "title": "Nacho",
+          "focus": "Отделять наблюдение от предположения",
+          "level": "B2",
+          "grammar": "Must / might / can't have; reported questions",
+          "synopsis": "Джимми пытается доказать невиновность опасного клиента, что осложняет его общение с Ким.",
+          "lessonIds": [
+            "cinema-bcs-s01e03-prepare",
+            "cinema-bcs-s01e03-listen",
+            "cinema-bcs-s01e03-respond"
+          ],
+          "lexicon": [
+            "an eyewitness — очевидец",
+            "circumstantial evidence — косвенные доказательства",
+            "rule out a possibility — исключить возможность",
+            "jump to conclusions — делать поспешные выводы",
+            "back up a claim — подкрепить утверждение",
+            "account for something — объяснить факт или расхождение"
+          ],
+          "watch": "Выбери сцену обсуждения подозрений. Запиши один факт, одну чужую версию и один вывод Джимми. Укажи, какие сведения могли бы опровергнуть вывод.",
+          "source": "https://tv.apple.com/us/episode/nacho/umc.cmc.69s19pwt94jrc0yu7bn1u6f7q",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e03-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e03-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e03-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e04",
+          "number": 4,
+          "season": 1,
+          "title": "Hero",
+          "focus": "Реклама, репутация и критическое чтение",
+          "level": "B2",
+          "grammar": "Passive voice; reporting claims; rhetorical emphasis",
+          "synopsis": "План Джимми по привлечению клиентов вызывает конфликт с конкурирующей фирмой.",
+          "lessonIds": [
+            "cinema-bcs-s01e04-prepare",
+            "cinema-bcs-s01e04-listen",
+            "cinema-bcs-s01e04-respond"
+          ],
+          "lexicon": [
+            "a publicity stunt — акция ради внимания публики",
+            "raise awareness — повысить осведомлённость",
+            "damage a reputation — повредить репутации",
+            "a misleading claim — вводящее в заблуждение утверждение",
+            "take credit for — приписывать себе заслугу",
+            "be portrayed as — быть представленным в определённом образе"
+          ],
+          "watch": "Выбери момент, где публичный образ героя отличается от того, что известно зрителю. Опиши видимую картинку и объясни, какую дополнительную информацию имеет аудитория.",
+          "source": "https://tv.apple.com/us/episode/hero/umc.cmc.11r9cl8mf2ylghxhx94jb6zfi",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e04-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e04-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e04-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e05",
+          "number": 5,
+          "season": 1,
+          "title": "Alpine Shepherd Boy",
+          "focus": "Объяснять сложное просто и тактично",
+          "level": "B1",
+          "grammar": "Indirect questions; defining relative clauses",
+          "synopsis": "Поиск новых клиентов прерывается тревожными новостями и трудным выбором.",
+          "lessonIds": [
+            "cinema-bcs-s01e05-prepare",
+            "cinema-bcs-s01e05-listen",
+            "cinema-bcs-s01e05-respond"
+          ],
+          "lexicon": [
+            "put something in plain English — объяснить простым английским",
+            "talk someone through something — объяснить процесс по шагам",
+            "make an informed decision — принять осознанное решение",
+            "take someone's concerns seriously — всерьёз отнестись к опасениям",
+            "a next of kin — ближайший родственник; роль зависит от контекста",
+            "check someone's understanding — проверить понимание"
+          ],
+          "watch": "Выбери беседу Джимми с человеком, которому нужны ясность или поддержка. Отметь способ установления контакта и один момент, где профессиональное объяснение становится понятнее.",
+          "source": "https://tv.apple.com/us/episode/alpine-shepherd-boy/umc.cmc.1s4kp3nodwt3y0fcbc9chofsu",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e05-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e05-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e05-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e06",
+          "number": 6,
+          "season": 1,
+          "title": "Five-O",
+          "focus": "Рассказать о прошлом и выразить сожаление",
+          "level": "B2",
+          "grammar": "Past Perfect; would / used to; should have",
+          "synopsis": "Прошлое Майка заставляет его искать помощь; Джимми сталкивается с моральным испытанием.",
+          "lessonIds": [
+            "cinema-bcs-s01e06-prepare",
+            "cinema-bcs-s01e06-listen",
+            "cinema-bcs-s01e06-respond"
+          ],
+          "lexicon": [
+            "come to terms with — постепенно принять тяжёлую реальность",
+            "let someone down — подвести",
+            "look back on — оглядываться на период или события",
+            "carry a burden — нести тяжёлую ответственность или переживание",
+            "speak up — высказаться, не промолчать",
+            "take responsibility for — принять ответственность за"
+          ],
+          "watch": "Выбери спокойный рассказ Майка о прошлом. Составь временную линию из трёх событий и отметь, где рассказчик объясняет факт, а где оценивает собственный выбор.",
+          "source": "https://tv.apple.com/us/episode/five-o/umc.cmc.6x05oovxw6glpj1xblgaktip1",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e06-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e06-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e06-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e07",
+          "number": 7,
+          "season": 1,
+          "title": "Bingo",
+          "focus": "Выбирать между выгодой и обязательствами",
+          "level": "B2",
+          "grammar": "Obligation; concession; conditionals in decisions",
+          "synopsis": "Новые клиенты и возможность поступить правильно приводят Джимми к просьбе об услуге.",
+          "lessonIds": [
+            "cinema-bcs-s01e07-prepare",
+            "cinema-bcs-s01e07-listen",
+            "cinema-bcs-s01e07-respond"
+          ],
+          "lexicon": [
+            "owe someone a favour — быть обязанным ответной услугой",
+            "return a favour — отплатить услугой",
+            "a conflict of interest — конфликт интересов",
+            "put someone first — поставить чьи-то интересы на первое место",
+            "turn down an offer — отклонить предложение",
+            "do the right thing — поступить правильно"
+          ],
+          "watch": "Найди выбор, где Джимми может получить личную выгоду или выполнить обязательство перед другим человеком. Опиши цену каждого решения без предположения, что персонаж обязан мыслить как ты.",
+          "source": "https://tv.apple.com/us/episode/bingo/umc.cmc.7aykz3jelih0w07y41lt6puzh",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e07-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e07-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e07-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e08",
+          "number": 8,
+          "season": 1,
+          "title": "RICO",
+          "focus": "Исследовать документы и объяснять закономерности",
+          "level": "B2",
+          "grammar": "Present Perfect / passive; quantifiers; evidence language",
+          "synopsis": "Джимми показывает Чаку, насколько далеко готов зайти ради работы над делом.",
+          "lessonIds": [
+            "cinema-bcs-s01e08-prepare",
+            "cinema-bcs-s01e08-listen",
+            "cinema-bcs-s01e08-respond"
+          ],
+          "lexicon": [
+            "spot a pattern — заметить закономерность",
+            "an itemised bill — счёт с отдельными позициями",
+            "be overcharged — заплатить завышенную сумму",
+            "raise a concern — сообщить о проблеме или опасении",
+            "keep a record — вести или сохранять запись",
+            "a discrepancy — расхождение между данными"
+          ],
+          "watch": "Выбери сцену, где документ или небольшая деталь меняет масштаб проблемы. Объясни, какой именно переход происходит от единичного случая к более общей версии.",
+          "source": "https://tv.apple.com/us/episode/rico/umc.cmc.1enevk2vhmv4oa882k7k1l9zm",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e08-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e08-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e08-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e09",
+          "number": 9,
+          "season": 1,
+          "title": "Pimento",
+          "focus": "Сложный разговор, границы и подразумеваемый смысл",
+          "level": "C1",
+          "grammar": "Cleft sentences; concession; reported attitudes",
+          "synopsis": "Чак требует от Джимми принять неприятную правду; компетентность Майка ставят под сомнение.",
+          "lessonIds": [
+            "cinema-bcs-s01e09-prepare",
+            "cinema-bcs-s01e09-listen",
+            "cinema-bcs-s01e09-respond"
+          ],
+          "lexicon": [
+            "undermine someone's confidence — подрывать уверенность",
+            "earn someone's trust — заслужить доверие",
+            "set a boundary — обозначить границу",
+            "hold someone back — препятствовать развитию",
+            "call something into question — поставить под сомнение",
+            "live up to expectations — соответствовать ожиданиям"
+          ],
+          "watch": "Выбери разговор Джимми и Чака или сцену, где оценивают профессионализм Майка. Отдели буквальную претензию, скрытое ожидание и твою интерпретацию отношения между людьми.",
+          "source": "https://tv.apple.com/us/episode/pimento/umc.cmc.1y56z73fyo5twmr16zjuhylo1",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e09-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e09-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e09-respond"
+            }
+          ]
+        },
+        {
+          "id": "bcs-s01e10",
+          "number": 10,
+          "season": 1,
+          "title": "Marco",
+          "focus": "Переосмыслить путь и построить аргумент",
+          "level": "C1",
+          "grammar": "Mixed conditionals; future in the past; synthesis",
+          "synopsis": "Джимми встречается со старым другом, а Чак приспосабливается к изменившейся жизни.",
+          "lessonIds": [
+            "cinema-bcs-s01e10-prepare",
+            "cinema-bcs-s01e10-listen",
+            "cinema-bcs-s01e10-respond"
+          ],
+          "lexicon": [
+            "fall back into old habits — вернуться к старым привычкам",
+            "a turning point — поворотный момент",
+            "weigh up the options — взвесить варианты",
+            "start over — начать заново",
+            "a sense of belonging — чувство принадлежности",
+            "come at a cost — иметь свою цену"
+          ],
+          "watch": "После финала выбери один момент возвращения к прошлому и один момент выбора будущего. Объясни, что герой получает от привычной среды и чем за это платит. Избегай спойлеров последующих сезонов.",
+          "source": "https://tv.apple.com/us/episode/marco/umc.cmc.2bs8ap8zg45rbdqlo1awm6pd0",
+          "studyMinutes": 95,
+          "viewingMinutesEstimate": 45,
+          "stages": [
+            {
+              "id": "prepare",
+              "label": "До просмотра",
+              "minutes": 25,
+              "lessonId": "cinema-bcs-s01e10-prepare"
+            },
+            {
+              "id": "listen",
+              "label": "Смотрим и разбираем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e10-listen"
+            },
+            {
+              "id": "respond",
+              "label": "Говорим и пишем",
+              "minutes": 35,
+              "lessonId": "cinema-bcs-s01e10-respond"
+            }
+          ]
+        }
+      ],
+      "plan": [
+        {
+          "title": "Вечер 1 · подготовка и просмотр",
+          "minutes": 105,
+          "steps": [
+            "25 минут — изучить язык эпизода и выполнить пять самостоятельных заданий.",
+            "Около 45 минут — посмотреть эпизод из своей копии, сохранив 2–3 интересные сцены.",
+            "35 минут — выполнить разбор на слух, пересказ и уточняющие вопросы."
+          ]
+        },
+        {
+          "title": "Вечер 2 · самостоятельная речь",
+          "minutes": 80,
+          "steps": [
+            "35 минут — письмо, контраргумент и устный перенос в свою жизнь.",
+            "20 минут — переписать трудный фрагмент после обратной связи.",
+            "15 минут — повторить фразы в карточках с русского на английский.",
+            "10 минут — пересказать эпизод без субтитров и заметок."
+          ]
+        }
+      ],
+      "subtitleStatus": {
+        "status": "local-bundle-supported",
+        "checked": "2026-09-10",
+        "message": "Открой английские реплики из рабочих заметок эпизода: если локальный комплект установлен, появится кнопка готовых субтитров. Для всех десяти серий также доступны ссылки TVsubtitles и альтернативные версии Addic7ed. Видео подключается отдельно.",
+        "supported": [
+          "SRT",
+          "VTT"
+        ],
+        "workflow": [
+          "Откройте готовые субтитры или выберите свой SRT/VTT, затем добавьте видео в медиатеке.",
+          "Сверьте первую реплику: таймкоды зависят от выпуска видео.",
+          "Выбирайте реплику, повторяйте отрывок, сохраняйте кадр и перевод в карточку.",
+          "При просмотре внешнего плеера используйте окно захвата и OCR; импорт субтитров из стримингового сервиса автоматически не выполняется."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple TV — сезон 1 и английские CC",
+      "url": "https://tv.apple.com/us/season/season-1/umc.cmc.3bul1k4w04uc2zbc3o9khbbs7",
+      "note": "Порядок эпизодов; отдельные карточки эпизодов содержат краткие официальные описания и сведения об английских CC. Доступность зависит от региона и покупки."
+    },
+    {
+      "title": "Sony Pictures — сериал",
+      "url": "https://www.sonypictures.com/tv/bettercallsaul",
+      "note": "Официальная страница правообладателя и ссылки на варианты просмотра."
+    },
+    {
+      "title": "Sony Pictures Japan — комплект сезона 1",
+      "url": "https://www.sonypictures.jp/he/1257389",
+      "note": "В характеристиках указаны английские субтитры для описанных DVD/Blu-ray комплектов; характеристики конкретного издания нужно сверять."
+    },
+    {
+      "title": "Netflix — выбор субтитров",
+      "url": "https://help.netflix.com/en/node/372",
+      "note": "Как выбрать доступную дорожку субтитров в плеере."
+    },
+    {
+      "title": "Netflix — почему язык может отсутствовать",
+      "url": "https://help.netflix.com/en/node/101798",
+      "note": "Наличие зависит от региона, профиля, устройства и конкретного выпуска."
+    }
+  ],
+  "contentNote": "Все объяснения, примеры, учебные ситуации и задания написаны для приложения. Они не являются репликами или транскриптами сериала. Видео и полные субтитры не входят в курс."
+}

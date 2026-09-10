@@ -1,0 +1,2336 @@
+{
+  "title": "Читать и звучать по-английски",
+  "description": "16 практических уроков: от букв и транскрипции до связной речи, интонации и чтения вслух. Основная опора — американский английский с произносимым r, русскими объяснениями и собственными английскими ответами. Британские сравнения отмечены отдельно. Региональные варианты допустимы: цель — понятная речь, а не единственный «правильный» акцент.",
+  "sources": [
+    {
+      "title": "Cambridge Dictionary — обозначения IPA и ударения",
+      "url": "https://dictionary.cambridge.org/help/phonetics.html"
+    },
+    {
+      "title": "Cambridge Dictionary — британское и американское произношение слов",
+      "url": "https://dictionary.cambridge.org/pronunciation/"
+    },
+    {
+      "title": "British Council — Sounds Right: интерактивная таблица звуков",
+      "url": "https://learnenglish.britishcouncil.org/apps/learnenglish-sounds-right"
+    },
+    {
+      "title": "British Council — schwa",
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/q-s/schwa"
+    },
+    {
+      "title": "British Council — connected speech",
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/knowing-subject/connected-speech-part-1"
+    },
+    {
+      "title": "British Council — ударение, ритм и интонация",
+      "url": "https://www.teachingenglish.org.uk/sites/teacheng/files/TeachingSpeaking_4_stressintonation_v01.pdf"
+    },
+    {
+      "title": "BBC Learning English — произношение окончания -ed",
+      "url": "https://downloads.bbc.co.uk/worldservice/learningenglish/grammarchallenge/pdfs/gc_26_pron_ed_explanation.pdf"
+    },
+    {
+      "title": "BBC Learning English — окончания -s и -ed",
+      "url": "https://www.youtube.com/watch?v=hChye-OT2mU"
+    },
+    {
+      "title": "British Council — shadowing",
+      "url": "https://africa.teachingenglish.org.uk/classroom/pronunciation/shadowing"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — tour: варианты /ʊə/, /ɔː/ и произносимое r",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tour_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — cure: британская и американская транскрипция",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cure_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — слабое и сильное вспомогательное have",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/have_2"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — формы артикля the",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/the_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — use/used в значении использования",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/use_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — used to и didn’t use to",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/used-to"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — or в work и UK/US r",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/work_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — or в sort и UK/US r",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/sort_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — o в love",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/love_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — u в push",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/push_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — u в rule",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/rule_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — student: UK/US и /j/",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/student"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — c в city",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/city"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — c в cello — исключение",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cello"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — ai в train",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/train_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — said /sed/",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/say_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — air: UK/US варианты",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/air_1"
+    },
+    {
+      "title": "Oxford Learner’s Dictionaries — repair: гласная и ударение",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/repair_1"
+    },
+    {
+      "title": "BBC Learning English — Linking /w/: короткий переход, а не полный добавленный согласный",
+      "url": "https://downloads.bbc.co.uk/learningenglish/towardsadvanced/unit_7/bbc_tims_pron_wkshp_linking_w.pdf"
+    },
+    {
+      "title": "BBC Learning English — Linking between vowel sounds: окружение и допустимые паузы",
+      "url": "https://downloads.bbc.co.uk/learningenglish/features/the_pronunciation_lounge/pron_lounge_episode_14_transcript__.pdf"
+    },
+    {
+      "title": "British Council — Connected speech, part 2: intrusion and linking",
+      "url": "https://www.teachingenglish.org.uk/professional-development/teachers/knowing-subject/connected-speech-part-2"
+    },
+    {
+      "title": "Oxford: US/UK IPA, r и tap t",
+      "url": "https://www.oxfordlearnersdictionaries.com/about/pronunciation_english.html"
+    },
+    {
+      "title": "Исследование: региональное слияние cot–caught",
+      "url": "https://www.cambridge.org/core/journals/language-variation-and-change/article/abs/solving-the-actuation-problem-merger-and-immigration-in-eastern-pennsylvania/3A4A39FD146C559E7E0819FFEC9FCBA5"
+    },
+    {
+      "title": "Исследование: English Voicing in Dimensional Theory, flapping и ограничения",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2390816/"
+    },
+    {
+      "title": "Oxford: bath, US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/bath_1"
+    },
+    {
+      "title": "Oxford: cot, US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/cot"
+    },
+    {
+      "title": "Oxford: caught, US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/caught"
+    },
+    {
+      "title": "Oxford: wash, US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/wash_1"
+    },
+    {
+      "title": "Oxford: photograph, US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/photograph_1"
+    },
+    {
+      "title": "Oxford: photography, US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/photography"
+    },
+    {
+      "title": "Oxford: record (noun), US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/record_1"
+    },
+    {
+      "title": "Oxford: record (verb), US/UK",
+      "url": "https://www.oxfordlearnersdictionaries.com/definition/english/record_2"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "pron-01-letters-and-sounds",
+      "title": "Буквы — это не звуки",
+      "level": "A1",
+      "minutes": 20,
+      "goal": "Перестать читать английские слова по названиям букв и освоить способ проверки нового слова.",
+      "explanation": [
+        {
+          "title": "Зачем разделять написание и звучание",
+          "body": "В английском 26 букв, но звуков больше. Буква a называется /eɪ/, однако в cat она передаёт /æ/, а в name — /eɪ/. Сочетание sh обычно передаёт один звук /ʃ/. Поэтому при чтении ищи знакомые сочетания и проверяй всё слово: сложить названия букв и получить произношение нельзя. Spelling нужен, когда диктуешь имя или адрес; pronunciation — когда произносишь слово."
+        },
+        {
+          "title": "Как разбирать незнакомое слово",
+          "body": "Сначала прочитай предложение и выясни значение. Затем посмотри транскрипцию, найди ударение и послушай словарную запись выбранного акцента. Повтори слово отдельно и в короткой фразе. Закрой написание и попробуй вспомнить звук. В карточку сохраняй слово, IPA и собственный пример: так написание, значение и произношение связываются, а не учатся отдельно."
+        },
+        {
+          "title": "Названия букв и американская опора",
+          "body": "Названия A /eɪ/, E /iː/, I /aɪ/, O /oʊ/, U /juː/ нужны, когда диктуешь имя; внутри слова эти буквы могут звучать иначе. В американском алфавите Z обычно /ziː/, в британском — /zed/. Для сравнения: британское название O записывают /əʊ/. Начни с американских записей US и последовательно сравнивай с ними свои слова. Это выбранная опора курса, а не запрет на другие понятные варианты. Сочетание sh в shop обозначает один согласный /ʃ/, а не два звука по числу букв."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/æ/",
+          "label": "a в cat",
+          "articulation": "Раскрой челюсть, держи язык ближе к передней части рта; не произноси название буквы /eɪ/.",
+          "examples": [
+            {
+              "word": "cat",
+              "ipa": "/kæt/"
+            },
+            {
+              "word": "map",
+              "ipa": "/mæp/"
+            }
+          ]
+        },
+        {
+          "ipa": "/eɪ/",
+          "label": "название A и звук в name",
+          "articulation": "Гласный плавно меняется от более открытой позиции к /ɪ/ в пределах одного слога.",
+          "examples": [
+            {
+              "word": "name",
+              "ipa": "/neɪm/"
+            },
+            {
+              "word": "late",
+              "ipa": "/leɪt/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ʃ/",
+          "label": "две буквы, один звук",
+          "articulation": "Оставь узкую щель за верхними зубами, слегка округли губы и выпусти воздух без голоса.",
+          "examples": [
+            {
+              "word": "shop",
+              "ipa": "/ʃɑːp/"
+            },
+            {
+              "word": "fish",
+              "ipa": "/fɪʃ/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "Could you spell your first name, please?",
+          "note": "Произнеси всю просьбу, затем продиктуй своё имя названиями английских букв."
+        },
+        {
+          "text": "The name on the map is wrong.",
+          "note": "В name и map одна буква a, но разные гласные."
+        },
+        {
+          "text": "I know the word, but I cannot pronounce it yet.",
+          "note": "Знать значение и уметь произнести — разные навыки; тренируй оба."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "cap /kæp/",
+          "right": "cape /keɪp/",
+          "leftAudio": "cap",
+          "rightAudio": "cape",
+          "note": "Конечная e не создаёт второй слог; в этой паре меняется гласный."
+        },
+        {
+          "left": "ship /ʃɪp/",
+          "right": "sip /sɪp/",
+          "leftAudio": "ship",
+          "rightAudio": "sip",
+          "note": "sh — один звук, который отличается от /s/."
+        }
+      ],
+      "practice": {
+        "prompt": "На английском объясни, почему a в cat и name читается по-разному, и приведи ещё одну пару: cap/cape или bit/bite. Напиши вежливую просьбу продиктовать фамилию. Затем вслух назови буквы своего имени и прочитай свои предложения.",
+        "reference": "The letter a does not always represent the same sound. Cat has /æ/, but name has /eɪ/. Cap and cape also have different vowel sounds. Could you spell your last name, please?",
+        "criteria": [
+          "Различает название буквы и звук внутри слова.",
+          "Верно объясняет хотя бы одну пару с разными гласными.",
+          "Самостоятельно формулирует понятную просьбу продиктовать фамилию."
+        ]
+      }
+    },
+    {
+      "id": "pron-02-ipa-and-dictionary",
+      "title": "Как читать транскрипцию IPA",
+      "level": "A1",
+      "minutes": 25,
+      "goal": "Самостоятельно извлекать из словаря звуки, число слогов и место ударения.",
+      "explanation": [
+        {
+          "title": "Транскрипция — карта произношения",
+          "body": "Знаки между косыми чертами показывают звуки: /ʃɪp/ — ship. Не читай их как обычные буквы. /ʃ/ — один согласный, /tʃ/ — согласный с начальной смычкой, /ŋ/ — носовой звук. Знак /j/ обозначает начало yes, а не звук первой буквы job. Долгота /ː/ в /iː/ помогает различать категории гласных, но не означает фиксированное число секунд."
+        },
+        {
+          "title": "Ударение и слоги",
+          "body": "Знак ˈ ставится перед главным ударным слогом: /əˈbaʊt/ — ударение на втором слоге about. Знак ˌ отмечает второстепенное ударение в длинных словах. Точка в словаре может разделять слоги: /ˈteɪ.bəl/. В этих уроках точки часто опущены; это не меняет звуки. Начинай разбор с ударения, затем выделяй гласные слогов и только после этого собирай согласные вокруг них."
+        },
+        {
+          "title": "Американская IPA и явные сравнения",
+          "body": "Основная запись здесь американская: home /hoʊm/, car /kɑːr/. R сохраняется и перед паузой, и перед согласным. Британские /həʊm/ и /kɑː/ приведены для сравнения; это другая модель, а не ошибки. В разных словарях сходное звучание записывают немного по-разному: /e/ или /ɛ/ для bed, /ɜːr/ или /ɝː/ для ударного гласного с r, /ər/ или /ɚ/ для безударного. В курсе используем /e/, /ɜːr/, /ər/; не превращай два знака в обязательные два слога. IPA — широкая опора, не точная запись каждого движения. Выбирай US-аудио и слушай целое слово, ударение и фразу."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/j/",
+          "label": "начало yes",
+          "articulation": "Подними среднюю часть языка к твёрдому нёбу без полной смычки и плавно переходи к гласному.",
+          "examples": [
+            {
+              "word": "yes",
+              "ipa": "/jes/"
+            },
+            {
+              "word": "use",
+              "ipa": "/juːz/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ˈ/",
+          "label": "главное ударение",
+          "articulation": "Это знак, а не звук. Выдели следующий слог ясностью гласного, длительностью и движением тона.",
+          "examples": [
+            {
+              "word": "about",
+              "ipa": "/əˈbaʊt/"
+            },
+            {
+              "word": "table",
+              "ipa": "/ˈteɪbəl/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ˌ/",
+          "label": "второстепенное ударение",
+          "articulation": "Слабее главного: не превращай длинное слово в несколько одинаково сильных ударов.",
+          "examples": [
+            {
+              "word": "understand",
+              "ipa": "/ˌʌndərˈstænd/"
+            },
+            {
+              "word": "information",
+              "ipa": "/ˌɪnfərˈmeɪʃən/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I need some information about the course.",
+          "note": "Найди главное ударение в information и about, затем прочитай предложение."
+        },
+        {
+          "text": "Yes, I understand the question.",
+          "note": "В yes звук /j/, в understand главное ударение на последнем слоге."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "/j/ — yes",
+          "right": "/dʒ/ — job",
+          "leftAudio": "yes",
+          "rightAudio": "job",
+          "note": "IPA /j/ и английская буква j — разные вещи."
+        },
+        {
+          "left": "aBOUT",
+          "right": "TAble",
+          "leftAudio": "about",
+          "rightAudio": "table",
+          "note": "Заглавные буквы здесь лишь показывают ударный слог; в обычном тексте слова пишутся строчными."
+        }
+      ],
+      "practice": {
+        "prompt": "Разбери about /əˈbaʊt/, table /ˈteɪbəl/ и information /ˌɪnfərˈmeɪʃən/: на английском укажи главный ударный слог каждого слова. Объясни, что значит /ː/ и почему /j/ нельзя читать как начало job. Составь своё предложение с information и произнеси его.",
+        "reference": "About is stressed on the second syllable. Table is stressed on the first syllable. Information has its main stress on the third syllable. The length mark identifies a long vowel category; it does not set an exact duration. The symbol /j/ represents the first sound in yes. I need more information before I decide.",
+        "criteria": [
+          "Правильно определяет ударные слоги трёх слов.",
+          "Различает знак долготы и ударение.",
+          "Отличает /j/ от /dʒ/ и пишет собственное осмысленное предложение."
+        ]
+      }
+    },
+    {
+      "id": "pron-03-front-vowels",
+      "title": "Гласные: ship, sheep, bed, bad",
+      "level": "A1",
+      "minutes": 25,
+      "goal": "Различать четыре передних гласных и не сводить контраст только к длительности.",
+      "explanation": [
+        {
+          "title": "Почему одной длины недостаточно",
+          "body": "Ship /ʃɪp/ и sheep /ʃiːp/ отличаются качеством гласного, а не только временем звучания. Для /iː/ язык выше и ближе к передней части рта; для /ɪ/ он немного ниже и свободнее. Не растягивай один и тот же русский звук для обеих категорий. Сначала сравни слова в словаре и почувствуй изменение положения языка, затем произноси их попеременно."
+        },
+        {
+          "title": "От bed к bad",
+          "body": "В /e/ язык расположен спереди, рот открыт умеренно. Для /æ/ челюсть опускается заметнее, язык остаётся впереди. Bed и bad должны различаться даже при одинаковой громкости. Проверь себя в зеркале: если положение рта почти не меняется, вероятно, контраст слишком слабый. Не добавляй второй гласный после конечного согласного."
+        },
+        {
+          "title": "Как переносить звук в речь",
+          "body": "Скажи пару медленно, затем вставь каждое слово в разное предложение. Сохрани контраст, когда внимание переключится на смысл. Запись собственной речи полезнее десяти повторов без обратного прослушивания. Если распознавание речи записало нужное слово, это ещё не доказывает точность звука: программа использует контекст и может угадывать."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/ɪ/",
+          "label": "короткий передний гласный",
+          "articulation": "Язык высоко, но свободнее и немного ниже, чем для /iː/; губы без сильного округления.",
+          "examples": [
+            {
+              "word": "ship",
+              "ipa": "/ʃɪp/"
+            },
+            {
+              "word": "live",
+              "ipa": "/lɪv/"
+            }
+          ]
+        },
+        {
+          "ipa": "/iː/",
+          "label": "высокий передний гласный",
+          "articulation": "Подними переднюю часть языка ближе к нёбу, не перекрывая воздух; гласный ясный и обычно более продолжительный.",
+          "examples": [
+            {
+              "word": "sheep",
+              "ipa": "/ʃiːp/"
+            },
+            {
+              "word": "leave",
+              "ipa": "/liːv/"
+            }
+          ]
+        },
+        {
+          "ipa": "/e/",
+          "label": "средний передний гласный",
+          "articulation": "Рот умеренно открыт, язык впереди; сохрани одно устойчивое качество.",
+          "examples": [
+            {
+              "word": "bed",
+              "ipa": "/bed/"
+            },
+            {
+              "word": "men",
+              "ipa": "/men/"
+            }
+          ]
+        },
+        {
+          "ipa": "/æ/",
+          "label": "открытый передний гласный",
+          "articulation": "Опусти челюсть сильнее, чем для /e/, и удерживай язык впереди.",
+          "examples": [
+            {
+              "word": "bad",
+              "ipa": "/bæd/"
+            },
+            {
+              "word": "man",
+              "ipa": "/mæn/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "The sheep is standing near the ship.",
+          "note": "Контраст /iː/ и /ɪ/ сохраняется внутри одной фразы."
+        },
+        {
+          "text": "I live here, but I leave tomorrow.",
+          "note": "Live здесь глагол /lɪv/. Не путай с live /laɪv/ в a live show."
+        },
+        {
+          "text": "The man said the bed was bad.",
+          "note": "Чередуй /æ/ и /e/, не повышая скорость раньше ясности."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "ship /ʃɪp/",
+          "right": "sheep /ʃiːp/",
+          "leftAudio": "ship",
+          "rightAudio": "sheep",
+          "note": "Меняется и качество, и типичная длительность гласного."
+        },
+        {
+          "left": "sit /sɪt/",
+          "right": "seat /siːt/",
+          "leftAudio": "sit",
+          "rightAudio": "seat",
+          "note": "Глагол «сидеть» и существительное «место»."
+        },
+        {
+          "left": "bed /bed/",
+          "right": "bad /bæd/",
+          "leftAudio": "bed",
+          "rightAudio": "bad",
+          "note": "Более открытая челюсть в bad."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши четыре собственных английских предложения: с ship, sheep, bed и bad. Затем объясни на английском, чем артикуляция /ɪ/ отличается от /iː/ и /e/ от /æ/. Прочитай предложения в перемешанном порядке и прослушай свою запись.",
+        "reference": "The ship arrived before sunrise. A sheep was standing beside the fence. I bought a new bed. We had a bad experience. For /iː/, the tongue is higher and further forward than for /ɪ/. For /æ/, the mouth is more open than for /e/.",
+        "criteria": [
+          "Четыре слова употреблены по смыслу, без взаимной подмены.",
+          "Объясняет положение языка или челюсти, а не только «длинный и короткий».",
+          "Создаёт собственные предложения; текстовая проверка не оценивает звучание гласных."
+        ]
+      }
+    },
+    {
+      "id": "pron-04-central-back-vowels",
+      "title": "Гласные: full, fool, cut, cart",
+      "level": "A2",
+      "minutes": 30,
+      "goal": "Разобраться с задними и центральными гласными и типичными различиями акцентов.",
+      "explanation": [
+        {
+          "title": "Full и fool",
+          "body": "Для /ʊ/ губы округлены слабо, язык высоко, но положение свободнее, чем у /uː/. В /uː/ губы обычно округляются сильнее; в современных акцентах язык может быть заметно ближе к центру рта. Поэтому не пытайся выучить /uː/ как единственную неподвижную позу. Слушай full/fool и pull/pool: слова различаются качеством гласного, а не только его длиной."
+        },
+        {
+          "title": "Cut, cart, cot — и почему bath отдельно",
+          "body": "В американской опоре cut /kʌt/, cart /kɑːrt/ и cot /kɑːt/. У cart важно сохранить r: это не просто удлинённое cut. Cot, hot и palm относятся здесь к /ɑː/; британское /ɒ/ в cot не является нашей основной целью. Bath в американском словаре /bæθ/, как по типу гласного bad, а британский южный ориентир — /bɑːθ/. Нельзя менять любое написанное a на один звук: проверяй слово. Для cot /kɑːt/ и caught /kɔːt/ показана словарная модель без слияния. У многих американцев эти гласные совпадают; другие сохраняют различие. Оба варианта допустимы, поэтому одинаковое звучание этой пары само по себе не ошибка."
+        },
+        {
+          "title": "Bird: гласный с r",
+          "body": "В американской модели bird /bɜːrd/, work /wɜːrk/ и learn /lɜːrn/ сохраняют r-окраску гласного. Не делай русский раскатистый р и не вставляй отдельный гласный перед ним. Положение языка может различаться: важен узнаваемый результат без вибрации кончика. Запись /ɜːr/ в другом словаре может выглядеть как /ɝː/: это не указание добавить слог. Для сравнения, в неротической британской модели bird /bɜːd/ не содержит произносимого r перед d. Сначала слушай американский образец, затем сравни британский; не пытайся одновременно выполнить обе схемы одним словом."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/ʊ/",
+          "label": "full, good",
+          "articulation": "Язык высоко и относительно свободно; губы слегка округлены.",
+          "examples": [
+            {
+              "word": "full",
+              "ipa": "/fʊl/"
+            },
+            {
+              "word": "good",
+              "ipa": "/ɡʊd/"
+            }
+          ]
+        },
+        {
+          "ipa": "/uː/",
+          "label": "fool, food",
+          "articulation": "Язык высоко, губы округлены; сравни качество с /ʊ/, а не просто растягивай его.",
+          "examples": [
+            {
+              "word": "fool",
+              "ipa": "/fuːl/"
+            },
+            {
+              "word": "food",
+              "ipa": "/fuːd/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ʌ/",
+          "label": "cut, luck",
+          "articulation": "Язык ближе к центру, рот открыт, губы не округлены.",
+          "examples": [
+            {
+              "word": "cut",
+              "ipa": "/kʌt/"
+            },
+            {
+              "word": "luck",
+              "ipa": "/lʌk/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɑːr/",
+          "label": "cart, heart: гласный с r",
+          "articulation": "Открой рот для гласного и сохрани r-окраску. Не добавляй отдельный слог и не раскатывай r.",
+          "examples": [
+            {
+              "word": "cart",
+              "ipa": "/kɑːrt/"
+            },
+            {
+              "word": "heart",
+              "ipa": "/hɑːrt/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɑː/",
+          "label": "cot, hot: американская опора",
+          "articulation": "Открытый гласный без обязательного округления губ; не копируй британский /ɒ/ как единственный вариант.",
+          "examples": [
+            {
+              "word": "cot",
+              "ipa": "/kɑːt/"
+            },
+            {
+              "word": "hot",
+              "ipa": "/hɑːt/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɔː/",
+          "label": "caught, law: вариант без слияния",
+          "articulation": "В показанной словарной модели гласный отличается от cot. При cot–caught merger он может совпадать с /ɑː/; это допустимо.",
+          "examples": [
+            {
+              "word": "caught",
+              "ipa": "/kɔːt/"
+            },
+            {
+              "word": "law",
+              "ipa": "/lɔː/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɜːr/",
+          "label": "bird, work: r-окрашенный гласный",
+          "articulation": "Сохрани r-окраску внутри слога без русского раскатистого р; не произноси британский вариант без r по привычке.",
+          "examples": [
+            {
+              "word": "bird",
+              "ipa": "/bɜːrd/"
+            },
+            {
+              "word": "work",
+              "ipa": "/wɜːrk/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "The pool is full of children.",
+          "note": "В pool /uː/, в full /ʊ/."
+        },
+        {
+          "text": "I cut the label off the cart.",
+          "note": "В американском cut /kʌt/ и cart /kɑːrt/ различаются гласный и наличие r."
+        },
+        {
+          "text": "The bird was caught near the hot road.",
+          "note": "В bird сохраняется r-окраска. Caught и hot могут иметь разные или совпадающие гласные в зависимости от американского акцента."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "full /fʊl/",
+          "right": "fool /fuːl/",
+          "leftAudio": "full",
+          "rightAudio": "fool",
+          "note": "Недостаточно произнести full медленнее."
+        },
+        {
+          "left": "cut /kʌt/",
+          "right": "cart /kɑːrt/",
+          "leftAudio": "cut",
+          "rightAudio": "cart",
+          "note": "В американской опоре меняется гласный и сохраняется r в cart."
+        },
+        {
+          "left": "cot /kɑːt/",
+          "right": "caught /kɔːt/",
+          "leftAudio": "cot",
+          "rightAudio": "caught",
+          "note": "Контраст зависит от акцента; его слияние в некоторых американских вариантах — не ошибка."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши небольшой рассказ из 5–6 предложений, используя full, pool, work, hot и caught. Затем на английском объясни, почему британское и американское произношение bird могут отличаться. Прочитай рассказ медленно, отдельно проверив гласные в выбранном словаре.",
+        "reference": "The pool was full, so I went for a walk. It was a hot day. I had finished work early. A bird flew above the road. My friend caught my attention and waved. In the American model used here, bird has an r-colored vowel, written /ɜːr/. A non-rhotic British model has /ɜː/ without a pronounced r before d. Both are valid accent choices.",
+        "criteria": [
+          "Все пять заданных слов использованы осмысленно.",
+          "Рассказ связан по смыслу и грамматически понятен.",
+          "Объяснение признаёт допустимое различие акцентов."
+        ]
+      }
+    },
+    {
+      "id": "pron-05-diphthongs",
+      "title": "Дифтонги и гласные перед r: day, home, near",
+      "level": "A2",
+      "minutes": 25,
+      "goal": "Читать основные дифтонги и сохранять их движение внутри одного слога.",
+      "explanation": [
+        {
+          "title": "Что происходит во рту",
+          "body": "Дифтонг — гласный со сменой положения языка в пределах одного слога. В day /deɪ/ звук начинается более открыто и движется к /ɪ/. В my /maɪ/ начальная точка другая. Две IPA-буквы здесь не означают два слога: my — один слог, а не раздельные гласные. Обычно начальная часть заметнее, а движение к окончанию короче."
+        },
+        {
+          "title": "Пять частых направлений",
+          "body": "В американских day /eɪ/, my /aɪ/, boy /ɔɪ/, go /oʊ/ и now /aʊ/ гласный меняет качество внутри одного слога. Не делай между началом и концом остановку и не читай это как две русские гласные по слогам. Начни медленно, затем верни слово в предложение. Для home наша опора /hoʊm/; британское /həʊm/ — сравнение. Точное движение зависит от говорящего, но важно узнавать слово и сохранять место ударения, а не растягивать все дифтонги одинаково."
+        },
+        {
+          "title": "Near и hair: американский гласный с r",
+          "body": "В американской словарной записи near /nɪr/, here /hɪr/, hair /her/ и chair /tʃer/ содержат произносимое r. Здесь это группа гласных перед r, а не требование воспроизвести британские центрирующие дифтонги /ɪə/ и /eə/. Переход к r плавный; не добавляй отдельное «э» или новый слог. Британские near /nɪə/ и hair /heə/ полезно узнавать на слух. Современная британская реализация может звучать менее дифтонгично, чем ожидаешь по двум символам. Словарь и аудио конкретного варианта важнее подсчёта знаков."
+        },
+        {
+          "title": "Tour и cure: основной US и варианты UK",
+          "body": "Американские словарные опоры Oxford — tour /tʊr/ и cure /kjʊr/: r произносится, а cure также начинается с /kj/. Для сравнения Oxford показывает у британского tour /tʊə(r)/ и /tɔː(r)/, у cure /kjʊə(r)/. Скобки (r) у британского варианта относятся к следующему звуку: перед гласным возможно связывание. Это не несколько значений слова. Варианты могут различаться и внутри страны; не делай вывод, что любое слово на ure звучит одинаково. Проверь слово, пометку US или UK и конкретную запись, затем используй его в своей фразе."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/eɪ/",
+          "label": "day",
+          "articulation": "От среднего переднего положения плавно к более закрытому.",
+          "examples": [
+            {
+              "word": "day",
+              "ipa": "/deɪ/"
+            },
+            {
+              "word": "train",
+              "ipa": "/treɪn/"
+            }
+          ]
+        },
+        {
+          "ipa": "/aɪ/",
+          "label": "my",
+          "articulation": "Начни открыто, затем подними язык вперёд; не дели на два слога.",
+          "examples": [
+            {
+              "word": "my",
+              "ipa": "/maɪ/"
+            },
+            {
+              "word": "time",
+              "ipa": "/taɪm/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɔɪ/",
+          "label": "boy",
+          "articulation": "Начни с округлённой задней позиции, затем двигайся вперёд и ослабляй округление.",
+          "examples": [
+            {
+              "word": "boy",
+              "ipa": "/bɔɪ/"
+            },
+            {
+              "word": "choice",
+              "ipa": "/tʃɔɪs/"
+            }
+          ]
+        },
+        {
+          "ipa": "/oʊ/",
+          "label": "go, home: американский GOAT",
+          "articulation": "Начни с округлённого гласного и плавно двигайся к /ʊ/ внутри одного слога; британский /əʊ/ дан только для сравнения.",
+          "examples": [
+            {
+              "word": "go",
+              "ipa": "/ɡoʊ/"
+            },
+            {
+              "word": "home",
+              "ipa": "/hoʊm/"
+            }
+          ]
+        },
+        {
+          "ipa": "/aʊ/",
+          "label": "now",
+          "articulation": "Из открытой позиции двигайся к более закрытой, округляя губы.",
+          "examples": [
+            {
+              "word": "now",
+              "ipa": "/naʊ/"
+            },
+            {
+              "word": "house",
+              "ipa": "/haʊs/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɪr/",
+          "label": "near, here: гласный перед r",
+          "articulation": "Плавно сохрани r-окраску после гласного, без добавочного слога и раскатистого р.",
+          "examples": [
+            {
+              "word": "near",
+              "ipa": "/nɪr/"
+            },
+            {
+              "word": "here",
+              "ipa": "/hɪr/"
+            }
+          ]
+        },
+        {
+          "ipa": "/er/",
+          "label": "hair, chair: гласный перед r",
+          "articulation": "Соедини гласный с r; это американская словарная опора, а не британское /eə/ без r.",
+          "examples": [
+            {
+              "word": "hair",
+              "ipa": "/her/"
+            },
+            {
+              "word": "chair",
+              "ipa": "/tʃer/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ʊr/",
+          "label": "tour, cure: гласный перед r",
+          "articulation": "В выбранной US-записи сохраняй r. В cure перед гласным есть /j/; проверяй целое слово.",
+          "examples": [
+            {
+              "word": "tour",
+              "ipa": "/tʊr/"
+            },
+            {
+              "word": "cure",
+              "ipa": "/kjʊr/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I might stay at home tonight.",
+          "note": "Три направления в американской опоре: /aɪ/, /eɪ/, /oʊ/."
+        },
+        {
+          "text": "The boy made a choice about the house.",
+          "note": "Чередуются /ɔɪ/, /eɪ/ и /aʊ/."
+        },
+        {
+          "text": "There is a chair near the window.",
+          "note": "Послушай различия британского и американского образцов."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "late /leɪt/",
+          "right": "light /laɪt/",
+          "leftAudio": "late",
+          "rightAudio": "light",
+          "note": "Одинаковая конечная точка, но разное начало дифтонга."
+        },
+        {
+          "left": "boat /boʊt/",
+          "right": "bout /baʊt/",
+          "leftAudio": "boat",
+          "rightAudio": "bout",
+          "note": "Boat — лодка, bout — короткий период или поединок; различается начало дифтонга."
+        },
+        {
+          "left": "know /noʊ/",
+          "right": "now /naʊ/",
+          "leftAudio": "know",
+          "rightAudio": "now",
+          "note": "Похожее написание не гарантирует одинаковое звучание."
+        }
+      ],
+      "practice": {
+        "prompt": "Составь пять английских предложений о планах на вечер. Используй day, time, choice, home и now. После текста подпиши для каждого из пяти слов его дифтонг. Произнеси слова отдельно и затем в своих предложениях без разрыва дифтонга на два слога. Отдельно объясни по-русски, почему записи tour /tʊə/ и /tɔː/ не обязательно противоречат друг другу и чем отличается американское /tʊr/. Найди в словаре UK и US аудио этого слова и сравни их.",
+        "reference": "It has been a long day. I need some time to relax. My first choice is a quiet film. I will stay at home. I can start now. Day has /eɪ/, time has /aɪ/, choice has /ɔɪ/, home has /oʊ/, and now has /aʊ/.\n\nОсновная американская запись tour — /tʊr/, с произносимым r. Для сравнения Oxford даёт два британских варианта: /tʊə/ и /tɔː/ перед паузой. Это варианты одного слова, а не три разных значения. Этот письменный образец не заменяет сравнение записей на слух.",
+        "criteria": [
+          "Создаёт пять связанных или самостоятельных осмысленных предложений.",
+          "Верно соотносит пять слов с дифтонгами.",
+          "Не описывает дифтонг как два отдельных слога.",
+          "Узнаёт /ʊə/, объясняет допустимость вариантов tour и слышит наличие r в выбранном американском образце."
+        ]
+      }
+    },
+    {
+      "id": "pron-06-schwa",
+      "title": "Schwa: почему безударные гласные исчезают из внимания",
+      "level": "A2",
+      "minutes": 35,
+      "goal": "Замечать /ə/ в словах и слабых формах, чтобы понимать обычную речь.",
+      "explanation": [
+        {
+          "title": "Знакомый звук в неожиданном месте",
+          "body": "Schwa /ə/ — короткий нейтральный гласный в безударной позиции. Челюсть и губы расслаблены, язык расположен ближе к центру. В about /əˈbaʊt/ первый слог слабый, второй ударный. Разные буквы могут обозначать /ə/: по написанию нельзя надёжно угадать все случаи. Сначала найди ударение, затем проверь безударные гласные в словаре. В американском banana /bəˈnænə/ ударный гласный /æ/, а края слова слабые. Не путай обычное /ə/ с американским безударным /ər/ в teacher: во втором случае сохраняется r-окраска."
+        },
+        {
+          "title": "Не каждая буква требует полного гласного",
+          "body": "В banana /bəˈnɑːnə/ центральный слог выделен, а крайние ослаблены. Если прочитать три одинаково сильных гласных, слово будет труднее узнавать. Но не заменяй любой безударный гласный на /ə/ автоматически: встречаются /ɪ/, /i/ и другие варианты. Редукция — свойство конкретного слова и контекста, а не разрешение произвольно пропускать звуки."
+        },
+        {
+          "title": "Слабая форма не удаляет грамматику",
+          "body": "В обычной фразе can может звучать /kən/, to перед согласным — /tə/, a — /ə/. Смысл и грамматика сохраняются. При противопоставлении или отдельном ответе форма бывает полной: Yes, I can. Сначала учись замечать слабые формы на слух; затем произноси их мягче между смысловыми словами. Не делай /ə/ самым громким звуком упражнения."
+        },
+        {
+          "title": "Have после модального: услышать слабую форму и сохранить написание",
+          "body": "В could have checked и would have called вспомогательное have связывает модальный глагол с причастием. Без выделения оно часто звучит /həv/ или /əv/; Oxford даёт обе слабые формы и сильную /hæv/. Можно написать could have или could’ve, но не could of: сходство звучания не превращает вспомогательный глагол в предлог. В коротком ответе Yes, I have или при контрастном выделении обычно нужна сильная форма.\n\nСравни две свои реплики: We could have checked the date — «Мы могли бы проверить дату»; We HAVE checked the date — «Мы действительно проверили дату». Во второй have получает смысловой акцент. Не заменяй все have на слабую форму: сначала реши, что говорящий подчёркивает. Прочитай реплики медленно, затем в естественной смысловой группе. Синтезатор может выбрать другое выделение; для акустической сверки послушай словарный образец и свою запись."
+        },
+        {
+          "title": "The: следующий звук и смысловой акцент",
+          "body": "Для нейтрального чтения полезная опора такова: перед согласным звуком the обычно /ðə/, перед гласным /ði/. Сравни the train /ðə/ и the airport /ði/. Смотри на начало звучания следующего слова, а не на букву: в the university первым слышится /j/, поэтому обычная форма /ðə/; в the hour начальная h немая, поэтому /ði/.\n\nСильная форма /ðiː/ возникает при выделении самого артикля, например когда говорящий подчёркивает, что имеет в виду именно тот, особенный предмет. Это отдельная задача, а не правило «перед любым гласным растягивать the». Реальные акценты и темп допускают вариацию; указанная словарная модель помогает начать распознавать контраст. В собственной фразе сохрани /ð/, затем мягко свяжи артикль со следующим словом."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/ə/",
+          "label": "безударный центральный гласный",
+          "articulation": "Расслабь губы и челюсть, оставь язык в средней позиции и произнеси короткий ненапряжённый гласный.",
+          "examples": [
+            {
+              "word": "about",
+              "ipa": "/əˈbaʊt/"
+            },
+            {
+              "word": "banana",
+              "ipa": "/bəˈnænə/"
+            },
+            {
+              "word": "support",
+              "ipa": "/səˈpɔːrt/"
+            }
+          ]
+        },
+        {
+          "ipa": "/kən/",
+          "label": "слабая форма can",
+          "articulation": "Укороти гласный и не выделяй вспомогательный глагол, если он не противопоставлен. Слабую форму слушай в примере I can help you tomorrow: отдельно синтезатор обычно произносит сильную форму.",
+          "examples": [
+            {
+              "word": "can",
+              "ipa": "/kən/",
+              "audio": null
+            },
+            {
+              "word": "can",
+              "ipa": "/kæn/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I can help you tomorrow.",
+          "note": "Help несёт основной смысл; can в нейтральном прочтении слабее."
+        },
+        {
+          "text": "Yes, I can.",
+          "note": "В коротком ответе can обычно получает полную форму."
+        },
+        {
+          "text": "We need a banana and a bottle of water.",
+          "note": "Сравни ударные части существительных и слабые служебные слова."
+        },
+        {
+          "text": "We could have checked the address before we left.",
+          "note": "Have без смыслового выделения может быть /həv/ или /əv/. Написание остаётся have."
+        },
+        {
+          "text": "Have you checked the address? Yes, I have.",
+          "note": "В коротком ответе have обычно сильное /hæv/; сравни его с have внутри предыдущей фразы."
+        },
+        {
+          "text": "The train stops near the airport and the university.",
+          "note": "В нейтральной модели: /ðə/ перед train и university; /ði/ перед airport."
+        },
+        {
+          "text": "We waited for the hour to end.",
+          "note": "В hour h не произносится; the стоит перед гласным звуком."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "can /kən/ — I can help.",
+          "right": "can /kæn/ — Yes, I can.",
+          "leftAudio": "I can help you.",
+          "rightAudio": "Yes, I can.",
+          "note": "Одна грамматическая форма, разные условия выделения."
+        },
+        {
+          "left": "about /əˈbaʊt/",
+          "right": "ошибка: два одинаково сильных слога",
+          "note": "Контраст силы важнее попытки проговорить каждую букву."
+        },
+        {
+          "left": "have /əv/ — без выделения",
+          "right": "have /hæv/ — короткий ответ",
+          "leftAudio": "We could have checked the date.",
+          "rightAudio": "Yes, I have.",
+          "note": "Ожидаемый контраст зависит от контекста и голоса; синтез не гарантирует конкретную слабую форму."
+        },
+        {
+          "left": "the train /ðə/",
+          "right": "the airport /ði/",
+          "leftAudio": "The train is late.",
+          "rightAudio": "The airport is busy.",
+          "note": "Ориентир — первый звук следующего слова; сравни полный артикль и начало существительного."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши на английском два мини-диалога: в первом кто-то предлагает помощь с can, во втором отвечает Yes, I can. Отметь, где ожидаешь /kən/, а где /kæn/, и объясни причину. Добавь своё предложение с about или support, затем прочитай всё вслух.\n\nДополнительный проход B1. Напиши другу 4–5 связанных английских предложений о пропущенной встрече. Включи could have или would have, затем добавь короткий обмен репликами: друг задаёт вопрос с have, ты отвечаешь Yes, I have. Подпиши, где ожидаешь слабое, а где сильное have, и объясни, почему could of здесь неверно. Затем создай две осмысленные фразы с четырьмя сочетаниями the train, the airport, the university и the hour; подпиши /ðə/ или /ði/ и объясни выбор для university/hour. Укажи, чем сильная /ðiː/ отличается от нейтральной /ði/. Прочитай и запиши свои фразы, прослушай have и the отдельно от проверки грамматики.",
+        "reference": "Can you help me with this form? I can help you after lunch. In the second sentence, can is normally weak: /kən/. Can you drive? Yes, I can. In this short answer, can is strong: /kæn/. I need some information about the course. About has an unstressed first syllable.\n\nI missed our meeting because I read the date too quickly. I could have checked the invitation again.\nFriend: Have you checked the new date?\nMe: Yes, I have. I have saved it in my calendar. В could have ожидается /həv/ или /əv/, в коротком Yes, I have — /hæv/. Could of не образует нужную глагольную конструкцию.\nThe train /ðə/ goes to the airport /ði/. We stayed at the university /ðə/ until the hour /ði/ was over. University начинается со звука /j/, hour — с гласного при немой h. Сильная /ðiː/ выделяет артикль; её нельзя автоматически подставлять вместо нейтральной /ði/.",
+        "criteria": [
+          "Использует can в двух разных контекстах.",
+          "Объясняет связь слабой формы с ударением, а не с орфографией.",
+          "Верно отмечает безударную позицию в about или support.",
+          "Различает слабое вспомогательное have и сильный короткий ответ; сохраняет have/could’ve, а не could of.",
+          "Правильно объясняет четыре the-сочетания через следующий звук и отделяет сильную /ðiː/ от нейтральной /ði/.",
+          "Запись и слуховая самооценка выполнены отдельно; правильный текст не считается доказательством точного звучания."
+        ]
+      }
+    },
+    {
+      "id": "pron-07-voicing-and-endings",
+      "title": "Согласные: голос, воздух и конец слова",
+      "level": "A2",
+      "minutes": 25,
+      "goal": "Сохранять различия согласных и не добавлять лишние слоги в конце слов.",
+      "explanation": [
+        {
+          "title": "Глухой и звонкий — что ощущать",
+          "body": "Сравни /s/ и /z/: положение языка почти одинаково, но при /z/ голосовые складки вибрируют. Положи пальцы на горло и чередуй длительные /s/ и /z/. Пары /f–v/, /p–b/, /t–d/, /k–ɡ/ тоже различаются работой голоса и другими акустическими признаками. В конце слова звонкость может ослабляться: не требуй непрерывного гудения, но сохраняй различие всей пары."
+        },
+        {
+          "title": "Не оглушай смысл и не дописывай гласный",
+          "body": "В английском bad и bat должны оставаться разными. Длительность гласного перед конечным согласным тоже помогает: перед глухим он обычно короче. Не превращай bag в back по привычке полного оглушения и не произноси после конечного согласного дополнительный гласный. В asked или next несколько согласных могут быть трудными, но дополнительный слог меняет ритм слова."
+        },
+        {
+          "title": "Придыхание и смычка",
+          "body": "В начале ударного слога /p t k/ часто произносятся с заметным выдохом: pin, ten, key. После /s/ выдох слабее: spin, stay, ski. Это не отдельный звук /h/ и не повод писать лишнюю букву. При /t d/ кончик языка касается альвеолярного бугорка за верхними зубами, а при /k ɡ/ смычку делает задняя часть языка. Конечный взрыв может быть очень слабым: ясность не требует преувеличенного хлопка."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/s/ → /z/",
+          "label": "добавь голос",
+          "articulation": "Сохраняй узкую воздушную щель у альвеол; включай и выключай голос без изменения положения языка.",
+          "examples": [
+            {
+              "word": "sip",
+              "ipa": "/sɪp/"
+            },
+            {
+              "word": "zip",
+              "ipa": "/zɪp/"
+            }
+          ]
+        },
+        {
+          "ipa": "/p/ → /b/",
+          "label": "смычка губ",
+          "articulation": "Губы кратко закрывают поток воздуха; различай работу голоса и выдох, сохраняя один слог.",
+          "examples": [
+            {
+              "word": "pat",
+              "ipa": "/pæt/"
+            },
+            {
+              "word": "bat",
+              "ipa": "/bæt/"
+            }
+          ]
+        },
+        {
+          "ipa": "/t/ → /d/",
+          "label": "смычка за зубами",
+          "articulation": "Кончик языка касается альвеол, затем освобождает воздух; избегай лишнего гласного.",
+          "examples": [
+            {
+              "word": "bat",
+              "ipa": "/bæt/"
+            },
+            {
+              "word": "bad",
+              "ipa": "/bæd/"
+            }
+          ]
+        },
+        {
+          "ipa": "/k/ → /ɡ/",
+          "label": "задняя смычка",
+          "articulation": "Подними заднюю часть языка к мягкому нёбу, затем отпусти.",
+          "examples": [
+            {
+              "word": "back",
+              "ipa": "/bæk/"
+            },
+            {
+              "word": "bag",
+              "ipa": "/bæɡ/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "Put the bag on the back seat.",
+          "note": "Bag и back различаются, даже если конечные согласные произносятся без сильного взрыва."
+        },
+        {
+          "text": "The next task is quite short.",
+          "note": "Не добавляй гласные между согласными в next и task."
+        },
+        {
+          "text": "Please spin the pin slowly.",
+          "note": "Сравни /p/ после /s/ и в начале ударного слога."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "bad /bæd/",
+          "right": "bat /bæt/",
+          "leftAudio": "bad",
+          "rightAudio": "bat",
+          "note": "Слушай также гласный перед конечным согласным."
+        },
+        {
+          "left": "bag /bæɡ/",
+          "right": "back /bæk/",
+          "leftAudio": "bag",
+          "rightAudio": "back",
+          "note": "Полное оглушение может разрушить различие слов."
+        },
+        {
+          "left": "pin /pɪn/",
+          "right": "spin /spɪn/",
+          "leftAudio": "pin",
+          "rightAudio": "spin",
+          "note": "Придыхание обычно заметнее без предшествующего /s/."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши четыре предложения, которые однозначно различают bag/back и bad/bat по смыслу. На английском объясни, как проверить голос на паре /s–z/ и почему нельзя добавлять гласный после next. Прочитай предложения, сохранив конечные согласные.",
+        "reference": "I left my bag on the chair. My back hurts today. It was a bad decision. A bat flew out of the cave. I can feel vibration in my throat when I say /z/, but not when I say /s/. Adding a vowel after next creates an extra syllable.",
+        "criteria": [
+          "Использует четыре слова в правильных значениях.",
+          "Описывает физическую проверку звонкости.",
+          "Понимает, что дополнительный гласный создаёт лишний слог."
+        ]
+      }
+    },
+    {
+      "id": "pron-08-th",
+      "title": "Два звука th: think и this",
+      "level": "A2",
+      "minutes": 25,
+      "goal": "Освоить /θ/ и /ð/ без подмены на /s/, /z/, /t/ или /d/.",
+      "explanation": [
+        {
+          "title": "Одинаковые буквы, два согласных",
+          "body": "Th часто передаёт /θ/ как в think или /ð/ как в this. У этих звуков почти одинаковое положение языка, но для /ð/ включается голос. Кончик языка можно слегка вывести между зубами или приблизить к верхним резцам изнутри. Оставь щель для непрерывного воздуха. Не зажимай язык зубами и не останавливай поток полностью."
+        },
+        {
+          "title": "Как почувствовать отличие",
+          "body": "Произнеси /s/, затем чуть передвинь кончик языка вперёд: свист должен превратиться в более рассеянный шум /θ/. Теперь добавь голос — получится /ð/. Сравни thin/sin и then/den. Для /t d/ происходит полная смычка, а для /θ ð/ воздух продолжает проходить. Тренируй перед зеркалом короткими сериями без напряжения."
+        },
+        {
+          "title": "Перенос в слова и фразы",
+          "body": "Начни с think, three, this, they. Затем перейди к звуку в середине mother и в конце both. В распространённых служебных словах the, this, that, these, those, they обычно /ð/, но универсального правила по одной орфографии нет: новые слова проверяй. В беглой речи артикуляция может меняться; на первом этапе полезен ясный, спокойный вариант."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/θ/",
+          "label": "воздух без голоса",
+          "articulation": "Кончик языка у верхних резцов или между зубами; непрерывно выпускай воздух через узкую щель.",
+          "examples": [
+            {
+              "word": "think",
+              "ipa": "/θɪŋk/"
+            },
+            {
+              "word": "three",
+              "ipa": "/θriː/"
+            },
+            {
+              "word": "both",
+              "ipa": "/boʊθ/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ð/",
+          "label": "то же положение с голосом",
+          "articulation": "Сохрани щель и добавь вибрацию голоса, не превращая звук в смычку /d/.",
+          "examples": [
+            {
+              "word": "this",
+              "ipa": "/ðɪs/"
+            },
+            {
+              "word": "they",
+              "ipa": "/ðeɪ/"
+            },
+            {
+              "word": "mother",
+              "ipa": "/ˈmʌðər/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I think these three things belong to them.",
+          "note": "Чередуй глухое th в think, three, things и звонкое в these, them."
+        },
+        {
+          "text": "They both thanked their mother.",
+          "note": "Сначала отработай отдельные слова, затем свяжи их в спокойном темпе."
+        },
+        {
+          "text": "This is the third time.",
+          "note": "Не заменяй third на слово с начальным /t/ или /s/."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "thin /θɪn/",
+          "right": "sin /sɪn/",
+          "leftAudio": "thin",
+          "rightAudio": "sin",
+          "note": "Передвинь язык от /s/ к зубам, сохранив воздух."
+        },
+        {
+          "left": "three /θriː/",
+          "right": "tree /triː/",
+          "leftAudio": "three",
+          "rightAudio": "tree",
+          "note": "В three нет полной начальной смычки."
+        },
+        {
+          "left": "then /ðen/",
+          "right": "den /den/",
+          "leftAudio": "then",
+          "rightAudio": "den",
+          "note": "Непрерывный воздух против смычки."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши короткое описание трёх вещей на столе: используй these, three, things, this и both. Добавь на английском два предложения о том, где находится язык для /θ/ и чем /ð/ отличается. Прочитай описание вслух, не ускоряя трудные переходы.",
+        "reference": "These three things are on my desk: a book, a pen and a phone. This book is new. Both the pen and the phone are black. For /θ/, the tongue is close to the upper teeth or slightly between the teeth, and air flows continuously. For /ð/, I use a similar position and add voice.",
+        "criteria": [
+          "Правильно использует this/these и both с подходящим контекстом.",
+          "Описывает щель и поток воздуха для th.",
+          "Указывает голос как различие /θ/ и /ð/."
+        ]
+      }
+    },
+    {
+      "id": "pron-09-w-v-r-l-ng",
+      "title": "Трудные согласные: w, v, r, l и ng",
+      "level": "A2",
+      "minutes": 30,
+      "goal": "Различать движения губ и языка и читать окончания -ing без добавочного /ɡ/.",
+      "explanation": [
+        {
+          "title": "Wet и vet: работают разные части рта",
+          "body": "Для /w/ округли губы и сразу переходи к следующему гласному; зубы не касаются губы. Для /v/ верхние зубы легко касаются нижней губы, воздух проходит с голосом. В west/vest эта разница меняет слово. /f/ использует похожую на /v/ позицию без голоса. Начни с медленного движения губ, затем сократи переход до обычного согласного."
+        },
+        {
+          "title": "Right, light — и r после гласного",
+          "body": "Для английского /r/ не нужна вибрация, как у русского р. В американском варианте язык может быть собран в середине или слегка загнут назад; не прижимай кончик к альвеолам для раската. У /l/ кончик языка делает контакт, а воздух проходит по бокам; тёмный оттенок l часто слышен особенно в конце слова. Наша модель ротическая: r сохраняется не только в right, но и в car /kɑːr/, cart /kɑːrt/, bird /bɜːrd/. В неротическом британском car перед паузой r не звучит. Сравни записи, но в своей американской фразе не теряй r только из-за позиции после гласного."
+        },
+        {
+          "title": "Sing, singer, finger",
+          "body": "Для /ŋ/ задняя часть языка образует смычку у мягкого нёба, а воздух проходит через нос. В sing /sɪŋ/ и singer /ˈsɪŋər/ нет отдельного /ɡ/. В finger /ˈfɪŋɡər/ он есть. Значит, ng не даёт одного универсального правила для всех слов. Сравни /m/ с закрытыми губами, /n/ с кончиком языка у альвеол и /ŋ/ с задней смычкой. В начале happy /h/ — свободный выдох, а не сильное трение в задней части рта."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/w/",
+          "label": "губы без зубов",
+          "articulation": "Округли губы и плавно открой их к гласному, не касаясь нижней губы зубами.",
+          "examples": [
+            {
+              "word": "wet",
+              "ipa": "/wet/"
+            },
+            {
+              "word": "wine",
+              "ipa": "/waɪn/"
+            }
+          ]
+        },
+        {
+          "ipa": "/v/",
+          "label": "зубы и нижняя губа",
+          "articulation": "Верхние резцы легко касаются нижней губы; непрерывный воздух и голос.",
+          "examples": [
+            {
+              "word": "vet",
+              "ipa": "/vet/"
+            },
+            {
+              "word": "vine",
+              "ipa": "/vaɪn/"
+            }
+          ]
+        },
+        {
+          "ipa": "/r/",
+          "label": "без раскатистой вибрации",
+          "articulation": "Создай r-окраску без вибрации кончика языка; допустимы собранное или слегка загнутое положение. Сохраняй этот звук и после гласного в car.",
+          "examples": [
+            {
+              "word": "right",
+              "ipa": "/raɪt/"
+            },
+            {
+              "word": "read",
+              "ipa": "/riːd/"
+            },
+            {
+              "word": "car",
+              "ipa": "/kɑːr/"
+            }
+          ]
+        },
+        {
+          "ipa": "/l/",
+          "label": "контакт кончика языка",
+          "articulation": "Кончик языка у альвеол, воздух проходит по бокам; не вставляй лишний гласный.",
+          "examples": [
+            {
+              "word": "light",
+              "ipa": "/laɪt/"
+            },
+            {
+              "word": "feel",
+              "ipa": "/fiːl/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ŋ/",
+          "label": "задний носовой",
+          "articulation": "Задняя часть языка касается мягкого нёба, воздух выходит через нос; не отпускай смычку как отдельный /ɡ/.",
+          "examples": [
+            {
+              "word": "sing",
+              "ipa": "/sɪŋ/"
+            },
+            {
+              "word": "singer",
+              "ipa": "/ˈsɪŋər/"
+            }
+          ]
+        },
+        {
+          "ipa": "/h/",
+          "label": "свободный выдох",
+          "articulation": "Выдыхай в позиции следующего гласного без сильного трения языком.",
+          "examples": [
+            {
+              "word": "happy",
+              "ipa": "/ˈhæpi/"
+            },
+            {
+              "word": "home",
+              "ipa": "/hoʊm/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "We visited a very quiet village.",
+          "note": "В we — /w/, в visited, very, village — /v/."
+        },
+        {
+          "text": "Turn right when you see the light.",
+          "note": "Сохрани отсутствие контакта для /r/ и контакт для /l/."
+        },
+        {
+          "text": "The singer hurt her finger.",
+          "note": "Сравни отсутствие /ɡ/ в singer и его наличие в finger."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "wet /wet/",
+          "right": "vet /vet/",
+          "leftAudio": "wet",
+          "rightAudio": "vet",
+          "note": "Округлённые губы против контакта зубов и губы."
+        },
+        {
+          "left": "right /raɪt/",
+          "right": "light /laɪt/",
+          "leftAudio": "right",
+          "rightAudio": "light",
+          "note": "Не используй раскатистое r; для l нужен контакт."
+        },
+        {
+          "left": "sin /sɪn/",
+          "right": "sing /sɪŋ/",
+          "leftAudio": "sin",
+          "rightAudio": "sing",
+          "note": "Носовой согласный создаётся в разных местах."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши 5–6 предложений о прогулке, используя we, village, right, light и singing. Затем объясни на английском различия /w–v/, /r–l/ и почему singer и finger читаются с разным сочетанием согласных. Добавь своё предложение с car или bird и объясни, сохраняется ли r перед паузой в выбранной американской модели. Прочитай историю и прослушай конечное -ing.",
+        "reference": "We walked to a village after lunch. We turned right near the bridge. A light was on in a small house. Someone was singing inside. We stopped to listen. For /w/, the teeth do not touch the lower lip; for /v/, they do. For /l/, the tongue tip makes contact, but the English /r/ does not require a trill. Singer has /ŋ/, while finger has /ŋɡ/. Our car was parked near the bridge. In this American model, the r in car remains audible even before a pause.",
+        "criteria": [
+          "Пять слов встроены в понятный текст.",
+          "Верно описывает движения губ и языка.",
+          "Различает /ŋ/ и /ŋɡ/ без правила «всегда читать g».",
+          "Использует car или bird в собственной фразе и объясняет американское r после гласного, сохраняя право на другой акцент."
+        ]
+      }
+    },
+    {
+      "id": "pron-10-sh-ch-j",
+      "title": "Шум или смычка: sh, ch, j и звук в vision",
+      "level": "A2",
+      "minutes": 20,
+      "goal": "Различать /ʃ/, /ʒ/, /tʃ/ и /dʒ/ в чтении и собственной речи.",
+      "explanation": [
+        {
+          "title": "Четыре близких звука",
+          "body": "/ʃ/ в ship — непрерывный шум без голоса. /ʒ/ в vision — похожая позиция с голосом. Для /tʃ/ в chip сначала создаётся краткая смычка, которая переходит в шум; /dʒ/ в job — звонкая пара. Сочетания /tʃ/ и /dʒ/ в английской фонемной записи рассматриваются как единые согласные, хотя обозначаются двумя знаками."
+        },
+        {
+          "title": "Не сглаживай начало",
+          "body": "Если chip звучит как ship, вероятно, пропала начальная смычка /tʃ/. Если cheap становится jeep, поменялась звонкость. Чередуй длительный /ʃ/ и короткий /tʃ/: первый можно спокойно тянуть, второй начинается с остановки воздуха. Для /ʒ/ включай голос в той же области, но не превращай его в /z/ у зубов."
+        },
+        {
+          "title": "Написание даёт подсказки",
+          "body": "Sh часто передаёт /ʃ/, ch — /tʃ/, j — /dʒ/, но есть исключения: machine имеет /ʃ/, chemistry — /k/. В vision буквосочетание si передаёт /ʒ/. Полезнее запомнить звучание целого слова и его семейства, чем пытаться применить одну формулу ко всем сочетаниям. Новые многосложные слова проверяй вместе с ударением."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/ʃ/",
+          "label": "непрерывный глухой шум",
+          "articulation": "Язык образует щель за альвеолами, губы могут быть немного округлены.",
+          "examples": [
+            {
+              "word": "ship",
+              "ipa": "/ʃɪp/"
+            },
+            {
+              "word": "machine",
+              "ipa": "/məˈʃiːn/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ʒ/",
+          "label": "непрерывный шум с голосом",
+          "articulation": "Сохрани положение для /ʃ/, добавь голос без полной смычки.",
+          "examples": [
+            {
+              "word": "vision",
+              "ipa": "/ˈvɪʒən/"
+            },
+            {
+              "word": "measure",
+              "ipa": "/ˈmeʒər/"
+            }
+          ]
+        },
+        {
+          "ipa": "/tʃ/",
+          "label": "смычка и глухой шум",
+          "articulation": "Кратко перекрой воздух, затем отпусти в щель для шумного окончания.",
+          "examples": [
+            {
+              "word": "chip",
+              "ipa": "/tʃɪp/"
+            },
+            {
+              "word": "cheap",
+              "ipa": "/tʃiːp/"
+            }
+          ]
+        },
+        {
+          "ipa": "/dʒ/",
+          "label": "смычка с голосом",
+          "articulation": "Сделай сходное со /tʃ/ движение, сохранив звонкое противопоставление.",
+          "examples": [
+            {
+              "word": "jeep",
+              "ipa": "/dʒiːp/"
+            },
+            {
+              "word": "job",
+              "ipa": "/dʒɑːb/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "She chose a cheap chair.",
+          "note": "Начальное she отличается от chose и chair характером начала согласного."
+        },
+        {
+          "text": "The machine can measure the shape.",
+          "note": "Слушай /ʃ/ в machine и shape, /ʒ/ в measure."
+        },
+        {
+          "text": "James changed his job in June.",
+          "note": "Повтори /dʒ/ в разных позициях, не добавляя отдельный слог."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "ship /ʃɪp/",
+          "right": "chip /tʃɪp/",
+          "leftAudio": "ship",
+          "rightAudio": "chip",
+          "note": "У chip есть начальная смычка."
+        },
+        {
+          "left": "cheap /tʃiːp/",
+          "right": "jeep /dʒiːp/",
+          "leftAudio": "cheap",
+          "rightAudio": "jeep",
+          "note": "Различается звонкость."
+        },
+        {
+          "left": "wash /wɑːʃ/",
+          "right": "watch /wɑːtʃ/",
+          "leftAudio": "wash",
+          "rightAudio": "watch",
+          "note": "Конечный согласный должен оставаться различимым."
+        }
+      ],
+      "practice": {
+        "prompt": "Придумай по одному предложению с ship, chip, cheap и jeep. Добавь английское объяснение различия /ʃ/ и /tʃ/, а затем составь предложение с measure. Прочитай текст, особенно внимательно — последние согласные.",
+        "reference": "The ship crossed the sea. There is a chip in this plate. The ticket was cheap. They drove a jeep through the village. The sound /ʃ/ has continuous airflow, while /tʃ/ begins with a closure. We need to measure the table.",
+        "criteria": [
+          "Не путает значения четырёх похожих слов.",
+          "Объясняет начальную смычку в /tʃ/.",
+          "Правильно использует measure в собственном предложении."
+        ]
+      }
+    },
+    {
+      "id": "pron-11-spelling-and-silent-letters",
+      "title": "Как читать незнакомое слово: сочетания и немые буквы",
+      "level": "A2",
+      "minutes": 45,
+      "goal": "Использовать закономерности написания как гипотезы и проверять исключения.",
+      "explanation": [
+        {
+          "title": "Полезные закономерности",
+          "body": "В коротких словах конечная немая e часто связана с изменением гласного: cap/cape, kit/kite, not/note. Ai и ay часто обозначают /eɪ/, ee — /iː/, ph — /f/. Эти связи ускоряют чтение, но не гарантируют его: have /hæv/ и give /ɡɪv/ не подчиняются простой схеме с конечной e. Учитывай целое слово, ударение и семейство, а не только последнюю букву."
+        },
+        {
+          "title": "Что не произносится",
+          "body": "В know и knee начальная k немая; в write и wrong не произносится w; в lamb и thumb не слышно отдельного b. В listen и castle обычно нет /t/, в hour — /h/. Не добавляй звук только потому, что видишь букву. Однако переносить пример на все похожие сочетания нельзя: в number звук /b/ есть. Сверяй конкретное слово."
+        },
+        {
+          "title": "Опасные сочетания и одинаковое написание",
+          "body": "Ea может звучать /iː/ в team, /e/ в bread и /eɪ/ в great. Ough особенно непредсказуемо: though /ðoʊ/, through /θruː/, thought /θɔːt/, rough /rʌf/. Read в настоящем времени /riːd/, а в прошедшем /red/. Значение и грамматика предложения помогают выбрать звучание. После проверки нового слова прочитай фразу снова целиком, чтобы слово не осталось изолированной загадкой."
+        },
+        {
+          "title": "O и or: американские группы, не одно правило",
+          "body": "В американской опоре o звучит по-разному: hot /hɑːt/, note /noʊt/, love /lʌv/. Немая e помогает в паре not/note, но love показывает ограничение этой подсказки. В sort /sɔːrt/ и work /wɜːrk/ одинаковые or не дают одной гласной; в обоих словах r сохраняется. Запоминай слово с небольшой фразой: hot soup, a short note, this sort of work.\n\nДля сравнения британские hot /hɒt/, sort /sɔːt/ и work /wɜːk/ отличаются от нашей опоры. Они не неправильные, но не требуют менять американскую речь. Сначала предположи звучание по знакомой группе, затем проверь запись US. После проверки произнеси своё предложение, чтобы исключение связалось со смыслом."
+        },
+        {
+          "title": "U и c: проверяй слово и акцент",
+          "body": "Для u сравни американские cut /kʌt/, push /pʊʃ/, rule /ruːl/ и student /ˈstuːdnt/. В британском student Oxford даёт /ˈstjuːdnt/, с /j/, но в основной US-модели здесь /j/ нет. Это различие не позволяет выбрасывать /j/ из любого слова: use /juːz/ его сохраняет. Собери собственную фразу с каждой проверенной группой.\n\nC часто даёт /k/ перед a/o/u, как в cat, coat, cut, и /s/ перед e/i/y, как в center, city, cycle. Это подсказка, не закон: cello /ˈtʃeloʊ/ начинается с /tʃ/. В cycle первая c — /s/, вторая — /k/. Для сочетаний ch и ck нужны отдельные проверки. Прочитай I cycle to work и I carry a cello целиком; не пытайся произнести слово только по одной букве."
+        },
+        {
+          "title": "Ai и air: американский гласный перед r",
+          "body": "В train /treɪn/ ai даёт /eɪ/, а said /sed/ не следует той же модели. В американских air /er/ и repair /rɪˈper/ сохраняется r, главное ударение repair — на втором слоге. Не произноси repair как две одинаково сильные части.\n\nДля сравнения британская словарная запись — air /eə(r)/, repair /rɪˈpeə(r)/. В неротической модели r перед паузой отсутствует, а перед следующим гласным может связывать слова. В нашей американской опоре r сохраняется независимо от этого условия. Словарные символы не заставляют делать новый слог: слушай air и repair как цельные слова. Затем используй train, said, air и repair в своём сообщении о поездке или ремонте."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/f/",
+          "label": "ph или gh в отдельных словах",
+          "articulation": "Верхние зубы у нижней губы, воздух без голоса; ориентируйся на слово, а не на все gh.",
+          "examples": [
+            {
+              "word": "phone",
+              "ipa": "/foʊn/"
+            },
+            {
+              "word": "rough",
+              "ipa": "/rʌf/"
+            }
+          ]
+        },
+        {
+          "ipa": "/n/",
+          "label": "k не произносится",
+          "articulation": "Кончик языка у альвеол, воздух через нос; не делай начальную смычку /k/.",
+          "examples": [
+            {
+              "word": "know",
+              "ipa": "/noʊ/"
+            },
+            {
+              "word": "knee",
+              "ipa": "/niː/"
+            }
+          ]
+        },
+        {
+          "ipa": "/m/",
+          "label": "без отдельного b в lamb",
+          "articulation": "Сомкни губы и направь воздух через нос; закончи слово без добавочного взрыва /b/.",
+          "examples": [
+            {
+              "word": "lamb",
+              "ipa": "/læm/"
+            },
+            {
+              "word": "thumb",
+              "ipa": "/θʌm/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I know how to write the answer.",
+          "note": "Не произносятся k в know и w в write."
+        },
+        {
+          "text": "I read every evening, and I read this article yesterday.",
+          "note": "Первое read — /riːd/, второе — /red/."
+        },
+        {
+          "text": "Although the road was rough, we drove through the village.",
+          "note": "Не используй одно произношение для всех ough."
+        },
+        {
+          "text": "I left a note about the hot room before work.",
+          "note": "Американская опора: note /oʊ/, hot /ɑː/, work /ɜːr/; это разные реализации o/or."
+        },
+        {
+          "text": "I love this sort of work.",
+          "note": "Love /lʌv/, sort /sɔːrt/, work /wɜːrk/; в выбранной американской модели r сохраняется."
+        },
+        {
+          "text": "The student knows the rule: push the door gently.",
+          "note": "Сравни u в student, rule и push; допустимость /j/ зависит от слова и акцента."
+        },
+        {
+          "text": "I cycle to work, but today I have to carry a cello.",
+          "note": "Первое/второе c в cycle дают /s/ и /k/, cello начинается с /tʃ/."
+        },
+        {
+          "text": "She said the train needed a repair.",
+          "note": "Said /sed/, train /treɪn/, repair /rɪˈper/ в американской словарной опоре."
+        },
+        {
+          "text": "We waited for the train in the fresh air.",
+          "note": "Ai в train и air различаются; в основной американской модели air /er/ сохраняет r и перед паузой."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "kit /kɪt/",
+          "right": "kite /kaɪt/",
+          "leftAudio": "kit",
+          "rightAudio": "kite",
+          "note": "Частая модель с немой конечной e."
+        },
+        {
+          "left": "team /tiːm/",
+          "right": "bread /bred/",
+          "leftAudio": "team",
+          "rightAudio": "bread",
+          "note": "Одинаковое ea даёт разные гласные."
+        },
+        {
+          "left": "read /riːd/ — usually",
+          "right": "read /red/ — yesterday",
+          "leftAudio": "I read every day.",
+          "rightAudio": "I read it yesterday.",
+          "note": "Нужен грамматический контекст."
+        },
+        {
+          "left": "sort /sɔːrt/ — US",
+          "right": "work /wɜːrk/ — US",
+          "leftAudio": "sort",
+          "rightAudio": "work",
+          "note": "Or не имеет одного универсального чтения; в обоих американских словах сохраняется r."
+        },
+        {
+          "left": "push /pʊʃ/",
+          "right": "rule /ruːl/",
+          "leftAudio": "push",
+          "rightAudio": "rule",
+          "note": "Одинаковая u, разные гласные; это не просто медленное и быстрое произношение."
+        },
+        {
+          "left": "city /ˈsɪti/",
+          "right": "cello /ˈtʃeloʊ/",
+          "leftAudio": "city",
+          "rightAudio": "cello",
+          "note": "C перед i/e часто /s/, но cello — конкретное исключение."
+        },
+        {
+          "left": "train /treɪn/",
+          "right": "said /sed/",
+          "leftAudio": "train",
+          "rightAudio": "She said yes.",
+          "note": "Сходное написание ai не гарантирует /eɪ/."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши английскую инструкцию самому себе: как проверить произношение нового слова за четыре шага. Затем составь два предложения с read — в настоящем и прошедшем времени — и укажи IPA этого слова. Добавь по одному примеру немой буквы и исключения из модели с конечной e.\n\nДополнительный проход B1. Составь две короткие сцены по 3–4 собственных предложения: рабочая поездка и посещение музыкального клуба. В первой используй note, hot, love, sort, work, train и air; во второй — student, push, rule, city, cycle, cello, said и repair. Под сценами выпиши звучание o/or в пяти заданных словах; объясни u в student/push/rule, обе c в cycle и исключение cello, различие train/said и air/repair. Достаточно транскрипции нужного звука или краткого объяснения. Используй US как основную опору и отметь одно допустимое отличие UK; осознанный британский вариант также допустим. Запиши обе сцены, сравни 3–5 трудных слов со словарными записями, затем перескажи одну сцену без чтения.",
+        "reference": "First, I read the whole sentence to understand the meaning. Next, I check the transcription and stress. Then I listen to a dictionary recording. Finally, I repeat the word in my own sentence. I read /riːd/ before bed. I read /red/ that book last week. The k is silent in know. Have /hæv/ is an exception to the simple final-e pattern.\n\nI left a note before work because the room was hot. I love this sort of quiet morning. I took the train and enjoyed the fresh air.\nA student met me at the music club in the city. The rule was to push the door gently. She said she could repair my cello case. I usually cycle there, but today I carried the case on the bus.\nUS-ориентиры: note /oʊ/, hot /ɑː/, love /ʌ/, sort /ɔːr/, work /ɜːr/; student /uː/ после /st/, push /ʊ/, rule /uː/. Первое c в cycle — /s/, второе — /k/; cello начинается с /tʃ/. Train содержит /eɪ/, said — /e/. Air и repair имеют /er/ в американской записи, с главным ударением на втором слоге repair. Для сравнения британские /eə(r)/ и student /ˈstjuːdnt/ допустимы; их не нужно смешивать с американской опорой внутри упражнения.",
+        "criteria": [
+          "Предлагает последовательность с контекстом, IPA, аудио и фразой.",
+          "Правильно различает два времени и произношения read.",
+          "Приводит корректные примеры немой буквы и исключения.",
+          "Все заданные слова встроены в собственные осмысленные сцены, а не только перечислены.",
+          "Верно различает o/or, u и c на проверенных примерах, не превращая подсказку в универсальное правило.",
+          "Сопоставляет train/said и air/repair, сохраняет ударение repair и признаёт акцентную вариативность.",
+          "Сравнение записи и самостоятельный пересказ не подменены чтением IPA или грамматической проверкой."
+        ]
+      }
+    },
+    {
+      "id": "pron-12-ed-endings",
+      "title": "Окончание -ed: worked, played, wanted",
+      "level": "A2",
+      "minutes": 35,
+      "goal": "Выбирать /t/, /d/ или /ɪd/ по последнему звуку основы, а не по последней букве.",
+      "explanation": [
+        {
+          "title": "Три реализации одного окончания",
+          "body": "Регулярное -ed имеет три основных произношения. После /t/ или /d/ добавляется слог /ɪd/: wanted, needed. После других глухих согласных используется /t/: worked, laughed, washed. После остальных звонких звуков, включая гласные, используется /d/: played, cleaned, loved. Сначала произнеси основу без -ed и определи именно её последний звук."
+        },
+        {
+          "title": "Почему буквы могут обмануть",
+          "body": "В like последняя буква e, но последний звук /k/, поэтому liked /laɪkt/. В play последний звук — гласный /eɪ/, значит played /pleɪd/. В want основа заканчивается на /t/, поэтому wanted содержит дополнительный слог. Не добавляй /ɪd/ всем глаголам подряд: worked остаётся одним слогом, а wanted — двумя."
+        },
+        {
+          "title": "Трудные группы и реальные исключения",
+          "body": "Отрабатывай worked и asked от конца: сначала кластер, затем всё слово, затем фраза. Не вставляй вспомогательный гласный между согласными. Правило описывает регулярные глагольные формы; некоторые прилагательные на -ed имеют отдельное словарное произношение, например learned в значении «учёный». При сомнении проверь часть речи и словарь."
+        },
+        {
+          "title": "Used и used to: сначала смысл, затем звук",
+          "body": "У обычного глагола use «использовать» словарная форма /juːz/, а прошедшее used — /juːzd/: I used a map означает «Я использовал карту». Конец основы звонкий /z/, поэтому регулярное -ed даёт /d/, без нового слога.\n\nКонструкция used to о прежней привычке имеет другое словарное произношение: /ˈjuːst tə/, перед гласным и в конце высказывания Oxford указывает /ˈjuːst tu/. I used to cycle означает «Раньше я ездил на велосипеде»; переносить /juːzd/ из «использовал» сюда нельзя. В отрицании didn’t use to словарь даёт /ˌdɪdnt ˈjuːs tə/: написание после did — use, но внутри этой конструкции звучит /s/, а не обычное глагольное /z/.\n\nСравни I used a key и I used to work here. Сначала объясни разницу значений, затем послушай целые фразы. Стык /t/ с to в реальной речи зависит от темпа; не вставляй лишний слог между согласными и не требуй от любого голоса точного копирования одной словарной записи. Две буквы -ed сами по себе не позволяют решить, какая из этих конструкций перед тобой."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/t/",
+          "label": "после глухого, кроме /t/",
+          "articulation": "Сразу перейди от последнего согласного к /t/, не создавая новый гласный.",
+          "examples": [
+            {
+              "word": "worked",
+              "ipa": "/wɜːrkt/"
+            },
+            {
+              "word": "washed",
+              "ipa": "/wɑːʃt/"
+            }
+          ]
+        },
+        {
+          "ipa": "/d/",
+          "label": "после звонкого, кроме /d/",
+          "articulation": "Заверши слово /d/ без дополнительного слога.",
+          "examples": [
+            {
+              "word": "played",
+              "ipa": "/pleɪd/"
+            },
+            {
+              "word": "cleaned",
+              "ipa": "/kliːnd/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɪd/",
+          "label": "после /t/ или /d/",
+          "articulation": "Здесь действительно появляется отдельный безударный слог.",
+          "examples": [
+            {
+              "word": "wanted",
+              "ipa": "/ˈwɑːntɪd/"
+            },
+            {
+              "word": "needed",
+              "ipa": "/ˈniːdɪd/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I worked late, cleaned the desk and waited for a call.",
+          "note": "Worked /t/, cleaned /d/, waited /ɪd/."
+        },
+        {
+          "text": "She wanted to leave, but she stayed.",
+          "note": "Wanted — два слога; stayed — один."
+        },
+        {
+          "text": "We laughed, talked and enjoyed the evening.",
+          "note": "Определи последний звук laugh, talk и enjoy до добавления окончания."
+        },
+        {
+          "text": "I used a map because my phone had no signal.",
+          "note": "Used — обычное «использовал», словарная форма /juːzd/."
+        },
+        {
+          "text": "I used to cycle to work, but now I take the train.",
+          "note": "Прежняя привычка: used to /ˈjuːst tə/ перед согласным звуком."
+        },
+        {
+          "text": "I used to enjoy the long journey.",
+          "note": "Перед гласным в enjoy Oxford указывает вариант /ˈjuːst tu/; слушай связную фразу."
+        },
+        {
+          "text": "I didn't use to carry a map.",
+          "note": "В этой конструкции use звучит /juːs/; после did нет окончания -d в написании."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "work → worked /wɜːrkt/",
+          "right": "want → wanted /ˈwɑːntɪd/",
+          "leftAudio": "worked",
+          "rightAudio": "wanted",
+          "note": "Новый слог появляется только во втором примере."
+        },
+        {
+          "left": "like → liked /laɪkt/",
+          "right": "play → played /pleɪd/",
+          "leftAudio": "liked",
+          "rightAudio": "played",
+          "note": "Выбор определяется звуком, а не буквами e или y."
+        },
+        {
+          "left": "used a map — использовал",
+          "right": "used to cycle — раньше ездил",
+          "leftAudio": "I used a map.",
+          "rightAudio": "I used to cycle.",
+          "note": "У первого used словарная форма /juːzd/; у used to — /ˈjuːst tə/. Контекст нужен и слушателю, и синтезатору."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши рассказ о вчерашнем дне с worked, played, wanted, needed, watched и enjoyed. После рассказа сгруппируй эти слова по /t/, /d/ и /ɪd/ и объясни правило на английском. Прочитай рассказ, сохраняя число слогов.\n\nДополнительный проход. Напиши 4–5 английских предложений о том, как изменились твои поездки. Используй used в значении «использовал», used to для прежней привычки и didn’t use to для её отсутствия. В одном предложении после used to поставь глагол, начинающийся с гласного звука. Под текстом подпиши целевые used/use to и объясни по-русски различие /juːzd/, /ˈjuːst tə/ и /ˈjuːs tə/. Затем прочитай, запиши и прослушай рассказ; отдельно проверь, не добавил ли слог к -ed и не потерял ли различие значений.",
+        "reference": "Yesterday I worked at home and watched a short film. I wanted to go outside, but I needed to finish a task. Later I played a game and enjoyed dinner. The /t/ group is worked and watched. The /d/ group is played and enjoyed. The /ɪd/ group is wanted and needed because their base forms end in /t/ or /d/.\n\nI used a paper map on my first journey. I used to cycle to work. I used to enjoy the quiet streets in the morning. I didn’t use to carry a phone. Now I take the train and check the route online.\nUsed a map — /juːzd/, обычное прошедшее use. Used to cycle — /ˈjuːst tə/, прежняя привычка. Used to enjoy — словарный вариант /ˈjuːst tu/ перед гласным. В didn’t use to carry конструкция use to содержит /juːs tə/; отсутствие -d после did не возвращает сюда /z/ обычного глагола use.",
+        "criteria": [
+          "Все шесть глаголов употреблены в прошедшем времени.",
+          "Верно распределяет слова по трём окончаниям.",
+          "Формулирует правило через последний звук основы.",
+          "Различает обычное used и used to по смыслу и словарной форме; использует отрицание didn’t use to без -d.",
+          "Даёт собственный пример перед гласным звуком и признаёт зависимость реализации от контекста/акцента.",
+          "Слуховая проверка своей записи остаётся отдельным действием; письменная транскрипция не доказывает произношение."
+        ]
+      }
+    },
+    {
+      "id": "pron-13-s-endings",
+      "title": "Окончания -s и -es: books, days, watches",
+      "level": "A2",
+      "minutes": 25,
+      "goal": "Слышать и произносить грамматические окончания множественного числа и третьего лица.",
+      "explanation": [
+        {
+          "title": "Окончание передаёт грамматику",
+          "body": "В books окончание означает множественное число, в works — третье лицо Present Simple, в Kate's — принадлежность или сокращение в зависимости от контекста. Его произношение подчиняется похожему принципу согласования звуков. После /s z ʃ ʒ tʃ dʒ/ добавляется слог /ɪz/: buses, watches, judges. Сначала проверь эту группу."
+        },
+        {
+          "title": "Когда /s/, а когда /z/",
+          "body": "После других глухих согласных /p t k f θ/ обычно /s/: cups, cats, books. После остальных звонких звуков, включая гласные, обычно /z/: bags, names, days. В lives как глаголе /lɪvz/ последний звук основы /v/, поэтому /z/. В studies написание меняется на -ies, но дополнительный слог не появляется: основа study уже имеет два слога."
+        },
+        {
+          "title": "Сначала звук, затем скорость",
+          "body": "Скажи base form, определи последний звук, добавь окончание и только потом прочитай фразу. Не теряй -s, когда внимание занято смыслом: это может изменить число или грамматику. У отдельных слов есть изменения основы и словарные особенности, например wife/wives. Они не отменяют общего принципа, но требуют проверки самого слова."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/s/",
+          "label": "после глухих без шипящего окончания",
+          "articulation": "Продолжи поток воздуха без голоса; не добавляй новый гласный.",
+          "examples": [
+            {
+              "word": "books",
+              "ipa": "/bʊks/"
+            },
+            {
+              "word": "cups",
+              "ipa": "/kʌps/"
+            }
+          ]
+        },
+        {
+          "ipa": "/z/",
+          "label": "после звонких и гласных",
+          "articulation": "Сохрани звонкое окончание и не создавай лишний слог.",
+          "examples": [
+            {
+              "word": "days",
+              "ipa": "/deɪz/"
+            },
+            {
+              "word": "bags",
+              "ipa": "/bæɡz/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ɪz/",
+          "label": "после свистящих и шипящих",
+          "articulation": "Добавь короткий безударный слог, чтобы разделить похожие согласные.",
+          "examples": [
+            {
+              "word": "watches",
+              "ipa": "/ˈwɑːtʃɪz/"
+            },
+            {
+              "word": "buses",
+              "ipa": "/ˈbʌsɪz/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "She works at home and watches films in the evening.",
+          "note": "Works заканчивается /s/, watches — /ɪz/."
+        },
+        {
+          "text": "He studies languages and reads books.",
+          "note": "Studies не получает дополнительный слог только из-за написания -ies."
+        },
+        {
+          "text": "There are three bags and two boxes by the door.",
+          "note": "Bags /z/, boxes /ɪz/."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "book /bʊk/",
+          "right": "books /bʊks/",
+          "leftAudio": "book",
+          "rightAudio": "books",
+          "note": "Окончание слышно, но нового слога нет."
+        },
+        {
+          "left": "watch /wɑːtʃ/",
+          "right": "watches /ˈwɑːtʃɪz/",
+          "leftAudio": "watch",
+          "rightAudio": "watches",
+          "note": "Вторая форма имеет дополнительный слог."
+        },
+        {
+          "left": "day /deɪ/",
+          "right": "days /deɪz/",
+          "leftAudio": "day",
+          "rightAudio": "days",
+          "note": "После гласного используется /z/."
+        }
+      ],
+      "practice": {
+        "prompt": "Опиши на английском распорядок друга: используй works, studies, reads, watches, cooks и chooses. Затем распредели эти формы по /s/, /z/ и /ɪz/. Напиши, почему studies не получает третий слог, а watches получает второй. Прочитай описание вслух.",
+        "reference": "My friend works at a small office. She studies English after work and reads books on the train. She watches a film on Friday, cooks at home and chooses a new recipe each week. Works and cooks end in /s/. Studies and reads end in /z/. Watches and chooses end in /ɪz/. The base study ends in a vowel, while watch ends in /tʃ/.",
+        "criteria": [
+          "Сохраняет третье лицо Present Simple.",
+          "Правильно распределяет все шесть окончаний.",
+          "Объясняет число слогов через последний звук, а не написание -ies/-es."
+        ]
+      }
+    },
+    {
+      "id": "pron-14-word-stress",
+      "title": "Ударение в слове: record и photography",
+      "level": "B1",
+      "minutes": 25,
+      "goal": "Учить новые слова вместе с ударением и замечать изменения внутри словесных семейств.",
+      "explanation": [
+        {
+          "title": "Ударный слог — ориентир слушателя",
+          "body": "Ударение проявляется не только громкостью: важны длительность, ясность гласного и движение высоты голоса. В длинном слове один слог несёт главное ударение, возможен и второстепенный акцент. Если все слоги одинаковы, слушателю труднее узнать слово. При добавлении слова в словарь сразу сохраняй ударение и аудио, а не откладывай произношение на потом."
+        },
+        {
+          "title": "Семейство меняется",
+          "body": "Американские опоры photograph /ˈfoʊtəɡræf/, photography /fəˈtɑːɡrəfi/ и photographic /ˌfoʊtəˈɡræfɪk/ не сохраняют одно место главного ударения. Меняются и гласные: недостаточно просто усилить другой слог. В photography первый гласный слабый, а главное ударение падает на второй слог. В photographic главное ударение на третьем. Словарные семейства помогают замечать модели, но не дают универсального алгоритма для всех суффиксов. Сначала послушай US-образец, затем прочитай собственное предложение с нужным членом семейства."
+        },
+        {
+          "title": "Часть речи и числительные",
+          "body": "В record существительное обычно /ˈrekərd/, глагол /rɪˈkɔːrd/. Это полезная модель для некоторых пар, но не для любого двусложного слова. В изолированном thirteen главное ударение обычно на -teen, в thirty — на первом слоге; в связной речи распределение акцентов может меняться. Для важного номера лучше подтвердить цифры, а не надеяться только на ударение."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/ˈfoʊtəɡræf/",
+          "label": "PHOtograph",
+          "articulation": "Выдели первый слог; следующий слог слабый.",
+          "examples": [
+            {
+              "word": "photograph",
+              "ipa": "/ˈfoʊtəɡræf/"
+            }
+          ]
+        },
+        {
+          "ipa": "/fəˈtɑːɡrəfi/",
+          "label": "phoTOGraphy",
+          "articulation": "Главное ударение переходит на второй слог; начальный гласный редуцируется.",
+          "examples": [
+            {
+              "word": "photography",
+              "ipa": "/fəˈtɑːɡrəfi/"
+            }
+          ]
+        },
+        {
+          "ipa": "/ˌfoʊtəˈɡræfɪk/",
+          "label": "photoGRAPHic",
+          "articulation": "Главное ударение на третьем слоге, на первом возможно второстепенное.",
+          "examples": [
+            {
+              "word": "photographic",
+              "ipa": "/ˌfoʊtəˈɡræfɪk/"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "I want to record a new record.",
+          "note": "Первое record — глагол с ударением на втором слоге, второе — существительное с ударением на первом."
+        },
+        {
+          "text": "Photography helps me notice small details.",
+          "note": "Не переноси ударение из photograph автоматически."
+        },
+        {
+          "text": "Did you say thirteen or thirty?",
+          "note": "Выдели различие; для точности можно попросить назвать цифры."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "REcord /ˈrekərd/ — существительное",
+          "right": "reCORD /rɪˈkɔːrd/ — глагол",
+          "leftAudio": "I bought a new record.",
+          "rightAudio": "I will record my answer.",
+          "note": "Контекст определяет часть речи и произношение."
+        },
+        {
+          "left": "thirteen /ˌθɜːrˈtiːn/",
+          "right": "thirty /ˈθɜːrti/",
+          "leftAudio": "thirteen",
+          "rightAudio": "thirty",
+          "note": "Это изолированные формы; в предложении акценты могут меняться."
+        },
+        {
+          "left": "PHOtograph",
+          "right": "phoTOGraphy",
+          "leftAudio": "photograph",
+          "rightAudio": "photography",
+          "note": "При смене ударения также меняется качество отдельных гласных."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши два предложения с record: сначала существительное, затем глагол. Добавь предложение с photography и вежливую просьбу уточнить, имелось ли в виду 13 или 30. Отметь главные ударные слоги заглавными буквами и объясни на английском, почему нельзя учить слово только по написанию.",
+        "reference": "This REcord is difficult to find. I will reCORD my answer tomorrow. I am interested in phoTOGraphy. Did you mean thirTEEN or THIRty? Could you say the digits, please? Spelling alone does not show all the sounds or the position of stress.",
+        "criteria": [
+          "Различает существительное и глагол record.",
+          "Правильно отмечает главное ударение в photography.",
+          "Использует уточнение числа и объясняет роль ударения."
+        ]
+      }
+    },
+    {
+      "id": "pron-15-rhythm-and-linking",
+      "title": "Ритм и связная речь: слышать слова внутри потока",
+      "level": "B1",
+      "minutes": 50,
+      "goal": "Читать смысловыми группами, выделять главное и узнавать плавные переходы между согласными и гласными, включая связующий /w/.",
+      "explanation": [
+        {
+          "title": "Смысловые опоры вместо одинаковых ударов",
+          "body": "В нейтральной фразе смысловые слова часто заметнее артиклей, предлогов и вспомогательных глаголов. Но контраст может выделить любое слово: I said TO her, not ABOUT her. Английский ритм полезно тренировать через чередование сильных и слабых частей, а не через требование строго равных промежутков. Реальная речь меняется с эмоцией, темпом и задачей."
+        },
+        {
+          "title": "Соединяй, не стирай r",
+          "body": "В turn it off конечный согласный плавно переходит к следующему гласному. Границы письменных слов не требуют пауз. В нашей американской модели r в far сохраняется в far away, far from here и перед паузой. Это не звук, который появляется только перед гласным. Для сравнения: в неротическом британском far away возможно linking r, тогда как в far from here r обычно не произносится. Сохраняй смысловые части и не добавляй r в словах без такого основания. Сначала убери случайные разрывы, затем сравни акценты в целых фразах."
+        },
+        {
+          "title": "Почему в сериале звучит иначе",
+          "body": "В быстрой речи звуки могут уподобляться соседним или выпадать, особенно внутри трудных кластеров. Задача слушателя — восстановить слова по звуку, грамматике и контексту. Не нужно немедленно копировать максимальную редукцию: сначала пойми исходную фразу. Возьми 5–10 секунд, послушай без текста, затем с текстом, отметь слабые слова и повтори смысловую группу целиком."
+        },
+        {
+          "title": "Между гласными: откуда слышится /w/",
+          "body": "В go out между словами может слышаться короткий переход, похожий на /w/: губы движутся от конца гласного к следующему гласному без остановки. В нашей американской опоре это встречается после /uː/, /oʊ/ и /aʊ/; для сравнения британскому GOAT часто соответствует запись /əʊ/. Примеры стыков — two options, know about, how is. В учебниках встречаются названия linking w и intrusive w. Речь не о новой букве и не о дополнительном слове. Не выговаривай отдельное тяжёлое «у» и не касайся зубами губы, как при /v/: переход остаётся коротким и слитным."
+        },
+        {
+          "title": "Где связь уместна, а где нужна граница",
+          "body": "В go home следующий звук — /h/, поэтому эта модель перехода между гласными не применяется. Ориентируйся на звуки, а не соседние буквы. Даже в go out переход не обязан быть одинаково заметным: заминка, контраст или намеренная пауза могут разделять слова. Сначала произнеси своё предложение спокойно и понятно, затем убери случайные разрывы. Сравни две собственные записи; синтезатор не гарантирует слышимый /w/ в каждом примере и не заменяет запись живого говорящего."
+        },
+        {
+          "title": "Американские t и d: короткий tap [ɾ]",
+          "body": "В обычной американской речи t и d могут звучать как очень короткое касание языка [ɾ]: например, city, better и ladder. Частая позиция — после ударного гласного перед безударным. Это не правило заменить любую t на d: в начале table и перед ударным гласным в attack нужна другая опора. В словарях можно увидеть /t/ в широкой записи или специальный /t̬/; [ɾ] показывает конкретный вариант звучания. Касание короткое, без долгой смычки и без раската. Ясная форма с /t/ тоже допустима; темп, выделение и говорящий влияют на реализацию. Слушай знакомое слово в предложении и сохраняй его написание и смысл."
+        }
+      ],
+      "sounds": [
+        {
+          "ipa": "/tə/",
+          "label": "слабое to перед согласным",
+          "articulation": "Короткий безударный гласный между более сильными словами; при выделении возможна полная форма. Слушай to внутри предложения I wanted to practice before the next lesson, перед согласным /p/, а не отдельно.",
+          "examples": [
+            {
+              "word": "to",
+              "ipa": "/tə/",
+              "audio": null
+            }
+          ]
+        },
+        {
+          "ipa": "/ən/",
+          "label": "одна из слабых форм and",
+          "articulation": "Соединяй соседние слова спокойно; форма меняется с темпом и окружением. Слабую форму слушай в целой фразе, например We can read and write together, а не в отдельном and.",
+          "examples": [
+            {
+              "word": "and",
+              "ipa": "/ən/",
+              "audio": null
+            }
+          ]
+        },
+        {
+          "ipa": "/r/",
+          "label": "r сохраняется и связывает слова",
+          "articulation": "В американском far away сохрани r и плавно перейди к away. R остаётся и в far from here; в британской неротической модели условие другое.",
+          "examples": [
+            {
+              "word": "far away",
+              "ipa": "/ˌfɑːr əˈweɪ/"
+            }
+          ]
+        },
+        {
+          "ipa": "[w]",
+          "label": "короткий переход между гласными",
+          "articulation": "Квадратные скобки показывают возможное слитное произнесение. Сохрани округление губ после первого гласного и мягко перейди к следующему, без нового слога. Здесь показана американская опора; конкретный TTS может сделать переход менее заметным.",
+          "examples": [
+            {
+              "word": "go out",
+              "ipa": "[ɡoʊw‿aʊt]"
+            },
+            {
+              "word": "two options",
+              "ipa": "[tuːw‿ˈɑːpʃənz]"
+            },
+            {
+              "word": "know about",
+              "ipa": "[noʊw‿əˈbaʊt]"
+            },
+            {
+              "word": "how is",
+              "ipa": "[haʊw‿ɪz]"
+            }
+          ]
+        },
+        {
+          "ipa": "[ɾ]",
+          "label": "возможный американский tap у t и d",
+          "articulation": "Одно короткое касание кончика языка у альвеол, без раскатистого r. Показаны возможные реализации; нейтральный синтезатор не гарантирует их.",
+          "examples": [
+            {
+              "word": "city",
+              "ipa": "[ˈsɪɾi]"
+            },
+            {
+              "word": "better",
+              "ipa": "[ˈbɛɾɚ]"
+            },
+            {
+              "word": "ladder",
+              "ipa": "[ˈlæɾɚ]"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "text": "Could you turn it off for a moment?",
+          "note": "Соедини turn‿it‿off; выдели основное действие и moment."
+        },
+        {
+          "text": "I wanted to practice before the next lesson.",
+          "note": "To перед practice обычно слабое; next lesson несёт новую информацию. Не делай паузу после каждого слова."
+        },
+        {
+          "text": "We are far away from the city.",
+          "note": "Послушай связь r с начальным гласным away."
+        },
+        {
+          "text": "We can read and write together.",
+          "note": "And соединяет два действия и в нейтральном темпе обычно слабее read и write. Синтезатор может произнести более полную форму, поэтому сравни и живую запись."
+        },
+        {
+          "text": "We could go out after the meeting.",
+          "note": "В go‿out возможен короткий [w]-переход. После out сохраняй связь согласного с after; это другой тип стыка."
+        },
+        {
+          "text": "There are two options for our trip.",
+          "note": "Two заканчивается /uː/, options начинается гласным. Связь не меняет число слов и не добавляет букву w."
+        },
+        {
+          "text": "What do you know about the new route?",
+          "note": "В know‿about возможен [w]-переход; слушай целую смысловую группу, а не изолированный звук."
+        },
+        {
+          "text": "How is the project going?",
+          "note": "How‿is показывает переход после /aʊ/. Не нужно усиливать /w/ до самостоятельного слога."
+        },
+        {
+          "text": "The city looks better after the rain.",
+          "note": "В city и better часто слышен короткий [ɾ]. Сначала узнай слова и ударение, затем сравни их средние согласные."
+        },
+        {
+          "text": "I left the ladder beside the table.",
+          "note": "D в ladder может звучать как [ɾ]; начальную t в table это правило не превращает в tap."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "I sent it TO her.",
+          "right": "I sent it FROM her.",
+          "leftAudio": "I sent it to her.",
+          "rightAudio": "I sent it from her.",
+          "note": "To указывает получателя, from — источник отправления. При противопоставлении обычно выделяется предлог; синтезатор может не воспроизвести этот смысловой акцент."
+        },
+        {
+          "left": "turn | it | off",
+          "right": "turn‿it‿off",
+          "note": "Вертикальные черты показывают ненужные разрывы, дуги — плавные переходы."
+        },
+        {
+          "left": "go‿out → возможный [w]-переход",
+          "right": "go home → дальше /h/, не гласный",
+          "leftAudio": "We could go out after the meeting.",
+          "rightAudio": "We could go home after the meeting.",
+          "note": "Оба предложения естественны. Отличается начальный звук следующего слова; это не пара «правильно/неправильно». Синтезатор может сделать переход очень слабым."
+        },
+        {
+          "left": "better: возможный [ɾ]",
+          "right": "attack: t перед ударным гласным",
+          "leftAudio": "better",
+          "rightAudio": "attack",
+          "note": "Положение и ударение важны. Это разные слова, не пара значений одной формы; не заменяй каждую t на d."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши короткую просьбу из 3–4 предложений: попроси друга выключить музыку, потому что готовишься к разговору на английском, и предложи продолжить позже. Заглавными буквами выдели 1–2 смысловых слова в каждом предложении, знаком | отметь только осмысленные паузы. Объясни по-английски одну слабую форму и один стык согласного с гласным. Дополнение B2: придумай план прогулки в 3–4 английских предложениях с двумя стыками из go out, two options, know about, how is. Пометь возможный переход знаком [w] между словами, не меняя их написания. Объясни по-английски, почему в go home такое основание для /w/ отсутствует и почему пауза иногда уместна. Запиши план дважды: сначала с нарочитыми границами слов, затем плавно; прослушай и запиши одно конкретное наблюдение. Не объявляй ясное произнесение без заметного /w/ ошибкой. Американская связная речь: напиши ещё три своих предложения с city, better и ladder. Найди в них возможные места [ɾ], объясни, почему начальная t в table под это условие не подходит. Послушай US-записи этих слов и прочитай свои фразы, сохраняя ясную речь; заметный tap не обязателен.",
+        "reference": "Could you turn the MUSIC OFF for a moment? I need to prepare for an English INTERVIEW. We can listen AGAIN after dinner. In a neutral reading, to can be weak: /tə/. In turn it off, the consonants link smoothly to the following vowels. I pause between complete thought groups, not after every word. B2 plan: We could GO [w] OUT after lunch. We have TWO [w] OPTIONS: the park or the river path. I would prefer the PARK because it is closer. We can go HOME before dinner. The possible glide follows the rounded vowel and leads into another vowel. In go home, the next sound is /h/, so this vowel-to-vowel pattern does not apply. A pause may mark hesitation or contrast. In my first recording, I noticed a pause between two and options; in the second, I kept the phrase together. That is one possible observation, not a result another learner must report. My city has a new library. I feel better after a short walk. We used a ladder to reach the shelf. The middle consonants in city, better, and ladder may be short taps in ordinary American speech. The initial t in table is not between these vowels, so this example does not fit the pattern. A clear t is also acceptable; I need to compare an actual recording before describing my own sound.",
+        "criteria": [
+          "Создаёт вежливую связанную просьбу с объяснением причины.",
+          "Смысловое выделение соответствует намерению, допустимы разные варианты.",
+          "Корректно объясняет слабую форму и связывание, не объявляя редукцию обязательной везде.",
+          "Создаёт собственный план и находит два подходящих стыка, объясняя роль соседних звуков.",
+          "Отличает короткий переход от отдельного слова, /v/ и обязательного правила произношения.",
+          "Сравнивает две свои записи и сообщает конкретное наблюдение; текстовая проверка не подтверждает качество звука.",
+          "Пишет три собственные фразы с city, better, ladder, учитывает ударение и позицию tap; не требует заменять любую t/d и не выдаёт текст за акустическую оценку."
+        ]
+      }
+    },
+    {
+      "id": "pron-16-intonation-and-shadowing",
+      "title": "Интонация, чтение вслух и shadowing",
+      "level": "B2",
+      "minutes": 35,
+      "goal": "Прочитать небольшой текст с понятным смыслом и переносить модель звучания в собственную речь.",
+      "explanation": [
+        {
+          "title": "Интонация сообщает отношение",
+          "body": "Падение тона часто поддерживает завершённость, подъём может приглашать ответ или показывать незавершённость, а падение с подъёмом — оговорку или ограниченное согласие. Это частые интерпретации, а не правило «все вопросы вверх». Yes/no-вопрос может звучать с падением, а утверждение — с подъёмом в определённом контексте. Сначала определи намерение говорящего, затем слушай мелодию целой фразы."
+        },
+        {
+          "title": "Чтение вслух в четыре прохода",
+          "body": "Первый проход — понять содержание, не записывая голос. Второй — отметить смысловые группы, главные слова и проверить 3–5 трудных произношений. Третий — прочитать в спокойном темпе, следя за одним навыком: например, окончаниями или ударением. Четвёртый — прослушать запись и повторить только слабые места. Цель — передать мысль слушателю; скорость без понятности не считается улучшением."
+        },
+        {
+          "title": "Shadowing и самостоятельная речь",
+          "body": "Возьми понятный фрагмент длительностью 5–10 секунд. Послушай, повтори после паузы, затем попробуй говорить почти одновременно с небольшой задержкой. Сравни ритм, основные акценты и паузы. После нескольких повторов убери образец и перескажи мысль своими словами: это проверяет перенос навыка, а не только подражание. Для мелодии лучше живой образец; синтезатор полезен как доступная опора, но не воспроизводит все намерения автора. Для основной практики выбери живой американский образец с понятным содержанием. Британский или другой региональный вариант можно изучать для сравнения; не исправляй все отличия в нём как ошибки и не требуй от себя копировать личность говорящего."
+        },
+        {
+          "title": "Как оценивать себя честно",
+          "body": "Запиши 30–60 секунд, выбери один удачный момент и одну конкретную проблему. Формулируй её наблюдаемо: «пропускаю -s в третьем лице» или «делаю паузу внутри turn it off». Распознавание речи может проверить, какие слова удалось извлечь, но текст не показывает точность IPA, качество гласных и интонацию. Для такой оценки нужно слушать аудио; не принимай грамматическую проверку за акустическую."
+        }
+      ],
+      "sounds": [],
+      "examples": [
+        {
+          "text": "I thought the meeting was tomorrow. If it is today, I can join after lunch. Could you send me the address? I will call you when I arrive.",
+          "note": "Собственный текст для чтения: сначала понимание, затем смысловые группы, запись и пересказ."
+        },
+        {
+          "text": "You finished the report?",
+          "note": "С подъёмом может быть уточнением; с иной мелодией выражает удивление. Одной пунктуации недостаточно."
+        },
+        {
+          "text": "I said Tuesday, not Thursday.",
+          "note": "Выдели противопоставленные дни и сохрани различие их начальных звуков."
+        }
+      ],
+      "contrastPairs": [
+        {
+          "left": "I ordered the BLUE one.",
+          "right": "I ORDERED the blue one.",
+          "note": "Первый вариант уточняет цвет, второй может противопоставлять заказ другому действию."
+        },
+        {
+          "left": "That was useful. ↘",
+          "right": "That was useful. ↘↗",
+          "note": "Первый вариант часто завершённый, второй может подразумевать оговорку; реальное значение зависит от контекста."
+        }
+      ],
+      "practice": {
+        "prompt": "Напиши 80–120 слов на английском о небольшом недоразумении со временем встречи и его решении. Отметь смысловые паузы знаком | и выдели несколько главных слов заглавными буквами. Прочитай, запиши и прослушай текст. В конце письменно добавь два наблюдения по-английски: что получилось и что конкретно повторишь. Затем перескажи историю вслух без чтения.",
+        "reference": "I thought our meeting was on FRIDAY, | so I planned to finish the report on Thursday evening. Then my colleague called and asked where I was. The meeting was actually TODAY. | I apologized and explained the mistake. We agreed to talk after lunch, and I sent the report before the call. Next time, I will check the date in the invitation and repeat it in my reply. I also added a reminder to my calendar. My pauses made the story easier to follow. I need to practice the endings in planned and asked.",
+        "criteria": [
+          "Описывает недоразумение, реакцию и решение связным текстом.",
+          "Паузы разделяют смысловые группы, выделение помогает слушателю.",
+          "Два наблюдения конкретны; текстовая проверка оценивает содержание, а не достоверность самооценки звучания.",
+          "Упражнение включает самостоятельный пересказ после чтения."
+        ]
+      }
+    }
+  ]
+}

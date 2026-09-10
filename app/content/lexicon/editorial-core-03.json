@@ -1,0 +1,507 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-03-2026-09-10",
+    "title": "Original core contexts 03 — change, evidence and communication",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original situations and translations; no claims about real current events."
+  },
+  "entries": [
+    {
+      "word": "feminist",
+      "pos": "adj",
+      "meaningEn": "Concerned with equal rights and opportunities for women.",
+      "meaningRu": "Связанный с равными правами и возможностями женщин; феминистский.",
+      "en": "The reading group compares two feminist essays about unpaid work. Members discuss where the authors agree and where their proposed solutions differ.",
+      "ru": "Читательская группа сравнивает два феминистских эссе о неоплачиваемой работе. Участники обсуждают, в чём авторы согласны и в чём различаются предлагаемые ими решения.",
+      "phrase": "two feminist essays",
+      "explanation": "Feminist здесь прилагательное, описывающее подход к теме; a feminist может называть человека. Общая направленность текстов не означает полного совпадения взглядов авторов.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "Предложи с feminist тему для такой читательской встречи и два вопроса для сравнения авторских позиций."
+    },
+    {
+      "word": "mediate",
+      "pos": "verb",
+      "meaningEn": "To help people in a disagreement communicate and work toward an agreement.",
+      "meaningRu": "Помогать спорящим сторонам вести разговор и искать соглашение; выступать посредником.",
+      "en": "A colleague offered to mediate between the designers and the support team. She will help them discuss priorities rather than impose her own decision.",
+      "ru": "Коллега предложила выступить посредником между дизайнерами и командой поддержки. Она поможет им обсудить приоритеты, а не навяжет собственное решение.",
+      "phrase": "mediate between",
+      "explanation": "Mediate between two sides — содействовать согласованию. Это не обязательно формальный арбитраж с обязательным решением. Здесь роль коллеги ограничена организацией разговора.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "Предложи коллеге mediate between двумя вымышленными командами и обозначь границы её роли."
+    },
+    {
+      "word": "trajectory",
+      "pos": "noun",
+      "meaningEn": "The direction or course in which something develops over time.",
+      "meaningRu": "Направление или ход развития во времени; траектория.",
+      "en": "The chart shows the project's spending trajectory over six months. Costs rose steadily at first, then leveled off after the team finished buying equipment.",
+      "ru": "График показывает, как менялись расходы проекта за шесть месяцев. Сначала они стабильно росли, а затем перестали расти после завершения закупки оборудования.",
+      "phrase": "spending trajectory",
+      "explanation": "Trajectory здесь переносно описывает ход изменений. У слова есть физическое значение траектории движения, но график расходов не изображает полёт объекта. Level off не означает упасть до нуля.",
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Опиши с trajectory вымышленный график расходов: рост, затем стабилизация, и возможное объяснение."
+    },
+    {
+      "word": "trainee",
+      "pos": "noun",
+      "meaningEn": "A person learning the skills needed for a particular job through training.",
+      "meaningRu": "Человек, проходящий подготовку для определённой работы; стажёр.",
+      "en": "The trainee handles simple support requests with a supervisor nearby. She checks unusual cases before replying instead of pretending to know every answer.",
+      "ru": "Стажёр обрабатывает простые обращения в поддержку под наблюдением руководителя. Перед ответом она уточняет необычные случаи, а не делает вид, что знает всё.",
+      "phrase": "The trainee handles",
+      "explanation": "Trainee находится в процессе профессиональной подготовки. Это не обязательно студент университета, и слово само по себе не сообщает, оплачивается ли работа.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "Составь с trainee краткое описание учебной роли: одна самостоятельная задача и случай для обращения к наставнику."
+    },
+    {
+      "word": "continuity",
+      "pos": "noun",
+      "meaningEn": "The maintenance of an activity or connection without an unwanted break.",
+      "meaningRu": "Непрерывность деятельности или сохранение связи без нежелательного разрыва.",
+      "en": "We documented the handover to maintain continuity during the manager's leave. The next person can see open decisions instead of reconstructing them from scattered messages.",
+      "ru": "Мы документировали передачу дел, чтобы сохранить непрерывность работы во время отпуска руководителя. Следующий сотрудник сможет увидеть нерешённые вопросы, а не восстанавливать их по разрозненным сообщениям.",
+      "phrase": "maintain continuity",
+      "explanation": "Continuity — сохранение связности и хода работы. Это не требование никогда не отдыхать: передача дел позволяет людям сменять друг друга без потери важной информации.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "Предложи с maintain continuity три пункта документа для передачи своей вымышленной задачи коллеге."
+    },
+    {
+      "word": "credibility",
+      "pos": "noun",
+      "meaningEn": "The quality of being believable or deserving trust.",
+      "meaningRu": "Правдоподобие или способность вызывать обоснованное доверие.",
+      "en": "The report gained credibility by publishing its methods and acknowledging missing data. A confident tone alone would not make its conclusions more reliable.",
+      "ru": "Отчёт стал вызывать больше доверия благодаря публикации методов и признанию пробелов в данных. Один уверенный тон не сделал бы его выводы надёжнее.",
+      "phrase": "gained credibility",
+      "explanation": "Credibility относится к основаниям считать источник заслуживающим доверия. Это не гарантия безошибочности. Признание ограничений может укрепить доверие, если они описаны честно.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С credibility объясни, какие два изменения повысят доверие к вымышленному отчёту и чего они всё же не гарантируют."
+    },
+    {
+      "word": "regression",
+      "pos": "noun",
+      "meaningEn": "A return to a worse or earlier state after an improvement.",
+      "meaningRu": "Возврат к более раннему или худшему состоянию после улучшения; регрессия.",
+      "en": "The update fixed search but introduced a regression in draft saving. A feature that worked yesterday now loses text when the page reloads.",
+      "ru": "Обновление исправило поиск, но вызвало регрессию в сохранении черновиков. Функция, которая работала вчера, теперь теряет текст при перезагрузке страницы.",
+      "phrase": "a regression in draft saving",
+      "explanation": "В разработке regression — поломка ранее работавшего поведения. Статистическая regression analysis — другой смысл. Здесь важны конкретные действие и прежний ожидаемый результат.",
+      "registerTags": [
+        "software"
+      ],
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Напиши с regression отчёт о другой поломке: что работало раньше, что запускаешь сейчас и что происходит."
+    },
+    {
+      "word": "rejection",
+      "pos": "noun",
+      "meaningEn": "A refusal to accept a request, proposal or person for something.",
+      "meaningRu": "Отказ принять заявку, предложение или кандидата.",
+      "en": "After the rejection of her proposal, Dana asked which requirements it hadn't met. She wanted useful feedback before deciding whether to revise and submit it again.",
+      "ru": "После отклонения своего предложения Дана спросила, каким требованиям оно не соответствовало. Ей нужна была полезная обратная связь, прежде чем решать, дорабатывать ли его и подавать снова.",
+      "phrase": "the rejection of her proposal",
+      "explanation": "Rejection здесь отказ по предложению, не отрицательная оценка всей личности. Повторная подача пока только возможный следующий шаг.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "После вымышленного rejection попроси уточнить критерии и обратную связь, не предполагая причины отказа."
+    },
+    {
+      "word": "outsource",
+      "pos": "verb",
+      "meaningEn": "To arrange for work to be done by an outside person or company.",
+      "meaningRu": "Передать выполнение работы внешнему исполнителю; отдать на аутсорсинг.",
+      "en": "We may outsource payroll processing, but the internal team will still approve changes. Hiring an outside provider doesn't remove the need to check its work.",
+      "ru": "Мы можем передать обработку расчёта зарплаты внешнему исполнителю, но внутренняя команда по-прежнему будет утверждать изменения. Внешний поставщик не отменяет необходимости проверять его работу.",
+      "phrase": "outsource payroll processing",
+      "explanation": "Outsource описывает внешнего исполнителя, а не обязательно другую страну. Решение здесь ещё обсуждается: may, не have already outsourced.",
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Предложи outsource одну вымышленную рабочую функцию и опиши, какой контроль останется у команды."
+    },
+    {
+      "word": "submission",
+      "pos": "noun",
+      "meaningEn": "A document or piece of work formally sent for consideration.",
+      "meaningRu": "Материал или работа, официально направленные на рассмотрение.",
+      "en": "Each submission must include a short summary and the author's contact details. The editors will review the work after the deadline, so an upload receipt is not an acceptance.",
+      "ru": "Каждая поданная работа должна включать краткое описание и контактные данные автора. Редакторы рассмотрят работы после срока подачи, поэтому подтверждение загрузки не означает принятия.",
+      "phrase": "Each submission",
+      "explanation": "Submission может быть процессом подачи или самой поданной работой. Здесь each и must include указывают на отдельный материал. Received и accepted — разные статусы.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "Объясни автору с submission, что нужно отправить и как отличить получение работы от её принятия."
+    },
+    {
+      "word": "generalize",
+      "pos": "verb",
+      "meaningEn": "To extend a claim from particular cases to a wider group or situation.",
+      "meaningRu": "Распространить вывод из отдельных случаев на более широкую группу; обобщить.",
+      "en": "We shouldn't generalize from three customer interviews to every user. The interviews reveal possible problems, but we need broader evidence before estimating how common they are.",
+      "ru": "Не стоит распространять результаты трёх интервью с клиентами на всех пользователей. Интервью выявляют возможные проблемы, но для оценки их распространённости нужны более широкие данные.",
+      "phrase": "generalize from",
+      "explanation": "Generalize from a sample — обобщать данные выборки. Найденная проблема может быть реальной, даже если её частота пока неизвестна. Не превращай ограничение метода в утверждение, что интервью бесполезны.",
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С generalize from объясни, что можно узнать из трёх интервью и какую проверку стоит добавить."
+    },
+    {
+      "word": "predecessor",
+      "pos": "noun",
+      "meaningEn": "The person who held a role before the current person.",
+      "meaningRu": "Человек, занимавший должность до нынешнего сотрудника; предшественник.",
+      "en": "My predecessor left clear notes about the unfinished contract. I used them to prepare questions instead of assuming that the missing signature meant the deal was canceled.",
+      "ru": "Мой предшественник оставил ясные записи о незавершённом договоре. Я подготовил по ним вопросы, а не решил, что отсутствие подписи означает отмену сделки.",
+      "phrase": "My predecessor",
+      "explanation": "Predecessor — тот, кто был на этой позиции раньше; successor — следующий. Отсутствующая подпись указывает на неизвестный статус, если дополнительных фактов нет.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "С predecessor опиши, что оставил тебе вымышленный предшественник, и какие два вопроса о незавершённой задаче ещё нужно выяснить."
+    },
+    {
+      "word": "syntactic",
+      "pos": "adj",
+      "meaningEn": "Relating to how words are arranged and connected to form sentences.",
+      "meaningRu": "Относящийся к построению предложений и связям слов; синтаксический.",
+      "en": "The editor corrected a syntactic problem by moving the modifier next to the noun it described. The vocabulary stayed the same, but the intended meaning became clearer.",
+      "ru": "Редактор исправил синтаксическую проблему, переместив определение к существительному, которое оно описывало. Слова остались теми же, но задуманный смысл стал яснее.",
+      "phrase": "a syntactic problem",
+      "explanation": "Syntactic касается структуры и связи элементов предложения. Lexical problem относится к выбору слов; spelling error — к написанию. Эти уровни могут пересекаться, но не тождественны.",
+      "registerTags": [
+        "linguistics"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "Объясни с syntactic, как перестановка слов может уточнить, к какому предмету относится описание."
+    },
+    {
+      "word": "elevate",
+      "pos": "verb",
+      "meaningEn": "To raise the level, quality or importance of something.",
+      "meaningRu": "Повысить уровень, качество или значимость чего-либо.",
+      "en": "Clear examples can elevate a technical explanation from accurate to genuinely useful. Readers need to see how the idea changes a decision in a realistic situation.",
+      "ru": "Ясные примеры могут поднять техническое объяснение с уровня точного до действительно полезного. Читателям нужно увидеть, как идея меняет решение в реалистичной ситуации.",
+      "phrase": "elevate a technical explanation",
+      "explanation": "Elevate здесь переносно повысить качество, не поднять физически. Can описывает возможность: любой добавленный пример не делает текст автоматически полезнее.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С elevate предложи конкретный пример, который улучшит объяснение знакомой тебе темы."
+    },
+    {
+      "word": "standardize",
+      "pos": "verb",
+      "meaningEn": "To make something follow a consistent set of rules or a common format.",
+      "meaningRu": "Привести к единым правилам или общему формату; стандартизировать.",
+      "en": "Let's standardize the date format in the exported files. Using year-month-day will prevent our two teams from reading the same date in different ways.",
+      "ru": "Давай приведём формат дат в экспортируемых файлах к единому виду. Порядок год-месяц-день не позволит нашим двум командам по-разному прочитать одну и ту же дату.",
+      "phrase": "standardize the date format",
+      "explanation": "Standardize — установить согласованный способ представления. Формат даты — соглашение об отображении, а не изменение самого события. Standardize — американское написание.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Предложи с standardize ещё одно соглашение для совместного документа и объясни, какую путаницу оно снимет."
+    },
+    {
+      "word": "lyric",
+      "pos": "noun",
+      "meaningEn": "A word, line or passage of a song's verbal text; the full text is commonly called lyrics.",
+      "meaningRu": "Слово, строка или фрагмент слов песни; весь текст обычно называют lyrics.",
+      "en": "The songwriter revised one lyric because the image didn't fit the rest of the song. She kept the melody and changed only the words in that line.",
+      "ru": "Автор песни изменила одну строку текста, потому что образ не подходил к остальной песне. Она сохранила мелодию и поменяла только слова в этой строке.",
+      "phrase": "revised one lyric",
+      "explanation": "В этом контексте one lyric — конкретный словесный фрагмент. Когда говоришь обо всём тексте песни, обычно lyrics: I like the lyrics. Это не синоним melody.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "Объясни с lyric, какое изменение автор внёс в вымышленную песню, а что оставил прежним."
+    },
+    {
+      "word": "calorie",
+      "pos": "noun",
+      "meaningEn": "A unit used to express food energy; on nutrition labels, one Calorie means one kilocalorie.",
+      "meaningRu": "Единица энергии пищи; на пищевой маркировке Calorie обозначает килокалорию.",
+      "en": "The label gives a calorie count for one serving, but the package contains two servings. Sam checks the serving size before comparing it with another snack.",
+      "ru": "На этикетке указана калорийность одной порции, но в упаковке две порции. Сэм проверяет размер порции, прежде чем сравнивать продукт с другим перекусом.",
+      "phrase": "a calorie count",
+      "explanation": "Calorie count зависит от указанной порции. В питании calorie обычно означает килокалорию; это отличается от малой физической калории. Контекст учит читать единицу и порцию, не выбирать диету.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/calorie"
+      ],
+      "topic": {
+        "id": "food",
+        "title": "Еда и питание"
+      },
+      "task": "С calorie объясни другу, почему нельзя сравнивать два числа с упаковок, не проверив размер порций."
+    },
+    {
+      "word": "contingent",
+      "pos": "adj",
+      "meaningEn": "Dependent on another condition being met.",
+      "meaningRu": "Зависящий от выполнения другого условия.",
+      "en": "The job offer is contingent on the final reference check. Until that step is complete, the recruiter cannot confirm the proposed start date.",
+      "ru": "Предложение работы зависит от итоговой проверки рекомендаций. Пока этот этап не завершён, рекрутер не может подтвердить предложенную дату начала.",
+      "phrase": "contingent on",
+      "explanation": "Contingent on — зависящий от условия. Это не уже состоявшийся отказ и не безусловное обещание. A contingent как существительное может означать группу участников — другой смысл.",
+      "registerTags": [
+        "formal"
+      ],
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/contingent"
+      ],
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "С contingent on опиши вымышленное предложение, условие его подтверждения и то, что пока неизвестно."
+    },
+    {
+      "word": "interactive",
+      "pos": "adj",
+      "meaningEn": "Allowing people to respond and influence what happens next.",
+      "meaningRu": "Позволяющий участнику отвечать и влиять на дальнейшее происходящее; интерактивный.",
+      "en": "The interactive lesson changes its next task after the learner explains an answer. Clicking through fixed slides alone would not provide that kind of response.",
+      "ru": "В интерактивном уроке следующее задание меняется после объяснения ответа учеником. Простое пролистывание неизменных слайдов не дало бы такой реакции.",
+      "phrase": "The interactive lesson",
+      "explanation": "Interactive описывает взаимную реакцию. Формы взаимодействия бывают разными; здесь конкретный признак — изменение следующего задания по ответу. Не считать любую кнопку доказательством адаптивности.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "Опиши с interactive собственную идею задания и то, как оно реагирует на ответ ученика."
+    },
+    {
+      "word": "temporal",
+      "pos": "adj",
+      "meaningEn": "Relating to time or to the order in which events happen.",
+      "meaningRu": "Относящийся ко времени или последовательности событий.",
+      "en": "The historian checks the temporal order of the letters before interpreting the argument. A request first made in June cannot have prompted a decision already made in April.",
+      "ru": "Историк проверяет временную последовательность писем, прежде чем толковать спор. Просьба, впервые высказанная в июне, не могла стать причиной решения, уже принятого в апреле.",
+      "phrase": "temporal order",
+      "explanation": "Temporal здесь о времени; temporary — временный по длительности. Источник, созданный позже, может описывать прошлое, но его нельзя считать причиной уже принятого решения.",
+      "registerTags": [
+        "academic"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С temporal order объясни, почему для вымышленной переписки важны даты отправки и принятия решения."
+    },
+    {
+      "word": "artifact",
+      "pos": "noun",
+      "meaningEn": "An object made or modified by people, especially one studied as evidence of a past culture.",
+      "meaningRu": "Созданный или изменённый людьми предмет, особенно изучаемый как свидетельство прошлой культуры; артефакт.",
+      "en": "The archaeologist photographed the artifact before moving it from the excavation site. Its position could provide clues that the object alone would not reveal.",
+      "ru": "Археолог сфотографировал артефакт, прежде чем переместить его с места раскопок. Его расположение могло дать сведения, которые сам предмет не раскрыл бы.",
+      "phrase": "photographed the artifact",
+      "explanation": "Artifact здесь предмет человеческой деятельности; в науке слово также бывает обозначением эффекта метода измерения. Artifact — обычное американское написание; artefact встречается в BrE.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С artifact объясни посетителю музея, зачем документируют место обнаружения предмета."
+    },
+    {
+      "word": "prevalence",
+      "pos": "noun",
+      "meaningEn": "How widespread a condition or characteristic is in a population at a given time or period.",
+      "meaningRu": "Распространённость состояния или признака в группе в определённый момент либо период.",
+      "en": "The study estimates the prevalence of sleep difficulties among students at one college. It describes how common the problem is there, not how many new cases appear each week.",
+      "ru": "Исследование оценивает распространённость трудностей со сном среди студентов одного колледжа. Оно описывает, насколько проблема распространена там, а не сколько новых случаев появляется каждую неделю.",
+      "phrase": "the prevalence of sleep difficulties",
+      "explanation": "Prevalence — распространённость, incidence относится к новым случаям за период. Выборка одного колледжа не доказывает ту же распространённость среди всех студентов.",
+      "registerTags": [
+        "research"
+      ],
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/prevalence"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С prevalence перескажи, что именно оценивает вымышленное исследование и на какую группу распространяется вывод."
+    },
+    {
+      "word": "plea",
+      "pos": "noun",
+      "meaningEn": "An urgent and serious request for help or action.",
+      "meaningRu": "Настоятельная, серьёзная просьба о помощи или действии.",
+      "en": "The shelter issued a plea for temporary foster homes after a water leak damaged several rooms. It asked volunteers to contact the coordinator before bringing supplies.",
+      "ru": "После того как протечка повредила несколько помещений, приют обратился с настоятельной просьбой о временной передержке животных. Волонтёров попросили связаться с координатором, прежде чем приносить припасы.",
+      "phrase": "a plea for temporary foster homes",
+      "explanation": "A plea for help — настоятельная просьба. Юридическая plea, например guilty plea, — отдельное значение. Конкретный запрос приюта — передержка, не любые случайные вещи.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С plea for составь короткое обращение вымышленной организации: нужная помощь и способ связаться."
+    },
+    {
+      "word": "revelation",
+      "pos": "noun",
+      "meaningEn": "A fact made known that surprises people or changes their understanding.",
+      "meaningRu": "Неожиданно ставший известным факт, меняющий понимание ситуации; раскрытие или откровение.",
+      "en": "The revelation that both reports used the same dataset changed the discussion. Their agreement did not provide confirmation from a second, independently collected dataset.",
+      "ru": "Открытие того, что оба отчёта использовали один набор данных, изменило обсуждение. Совпадение выводов не давало подтверждения на основе второго, независимо собранного набора данных.",
+      "phrase": "The revelation that",
+      "explanation": "Revelation здесь новый раскрытый факт. Совпадение выводов на одних данных не заменяет проверки на независимой выборке, хотя независимая обработка тех же данных возможна. Это не доказывает, что сами выводы неверны.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С revelation опиши другой вымышленный факт, который изменил бы оценку достоверности двух сообщений."
+    },
+    {
+      "word": "oversee",
+      "pos": "verb",
+      "meaningEn": "To supervise an activity and check that it is carried out properly.",
+      "meaningRu": "Наблюдать за работой и контролировать её выполнение.",
+      "en": "Rina will oversee the website migration while two engineers carry out the technical steps. She will track risks and confirm that the team has a rollback plan.",
+      "ru": "Рина будет контролировать перенос сайта, а технические действия выполнят два инженера. Она будет отслеживать риски и проверит, что у команды есть план отката.",
+      "phrase": "oversee the website migration",
+      "explanation": "Oversee — осуществлять надзор, не обязательно самому выполнять все действия. Не путай с overlook — не заметить. Прошедшая форма oversaw, причастие overseen.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "С oversee опиши распределение ролей в собственном вымышленном проекте: кто контролирует и кто выполняет работу."
+    },
+    {
+      "word": "cholesterol",
+      "pos": "noun",
+      "meaningEn": "A substance found in body tissues and transported in the blood, involved in cell structures and other processes.",
+      "meaningRu": "Вещество, присутствующее в тканях организма и переносимое кровью, участвующее в строении клеток и других процессах; холестерин.",
+      "en": "The biology chapter explains cholesterol's role in cell membranes before discussing blood measurements. It does not treat one number as a complete picture of a person's health.",
+      "ru": "В главе по биологии объясняется роль холестерина в клеточных мембранах, прежде чем обсуждаются показатели крови. Одно число не представляется полной картиной здоровья человека.",
+      "phrase": "cholesterol's role",
+      "targetForms": [
+        "cholesterol's"
+      ],
+      "explanation": "Cholesterol — вещество, а не название диагноза или лекарства. Здесь possessive cholesterol's role означает его роль. Показатели крови требуют контекста; пример не задаёт личные лечебные цели.",
+      "registerTags": [
+        "biology"
+      ],
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/cholesterol"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С cholesterol сформулируй нейтральный вопрос к преподавателю о роли вещества в клетке."
+    },
+    {
+      "word": "peripheral",
+      "pos": "adj",
+      "meaningEn": "Only indirectly connected with the main issue and of less immediate importance to it.",
+      "meaningRu": "Косвенно связанный с главным вопросом, второстепенный для него.",
+      "en": "Let's set the peripheral issues aside and decide whether the deadline is realistic. We can discuss the slide colors after we agree on the actual work.",
+      "ru": "Давай пока отложим второстепенные вопросы и решим, реалистичен ли срок. Цвета слайдов можно обсудить после согласования самой работы.",
+      "phrase": "the peripheral issues",
+      "explanation": "Peripheral issues — второстепенные по отношению к главному вопросу. Это оценка для данной встречи, не утверждение, что оформление никогда не важно. В технике peripheral device — другое употребление.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "С peripheral вежливо верни вымышленное обсуждение к главному вопросу и предложи время для остальных тем."
+    },
+    {
+      "word": "transcript",
+      "pos": "noun",
+      "meaningEn": "A written record of what was said in an audio recording or spoken exchange.",
+      "meaningRu": "Письменная запись сказанного в аудио или разговоре; расшифровка.",
+      "en": "The transcript marks an unclear word instead of inventing it. Before quoting that sentence, the editor will listen to the recording again.",
+      "ru": "В расшифровке непонятное слово отмечено, а не выдумано. Прежде чем цитировать это предложение, редактор ещё раз прослушает запись.",
+      "phrase": "The transcript marks",
+      "explanation": "Transcript здесь текст аудиозаписи; academic transcript — документ с учебными результатами, другой смысл. Метка unclear сохраняет неопределённость, которую нельзя тихо заменить догадкой.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С transcript напиши коллеге, где осталось неясное слово и что нужно проверить до публикации цитаты."
+    },
+    {
+      "word": "kidnap",
+      "pos": "verb",
+      "meaningEn": "To take a person away illegally and hold them against their will.",
+      "meaningRu": "Незаконно увезти или увести человека и удерживать против его воли; похитить.",
+      "en": "In the detective novel, someone threatens to kidnap a witness before the trial. The reporter distinguishes the threat from an abduction that has actually happened.",
+      "ru": "В детективном романе кто-то угрожает похитить свидетеля до суда. Репортёр отличает угрозу от похищения, которое уже произошло.",
+      "phrase": "kidnap a witness",
+      "explanation": "Kidnap относится к похищению человека, не любой вещи. Threatens to kidnap описывает угрозу, не доказанное совершённое похищение. Контекст художественный.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С kidnap перескажи завязку своего вымышленного детектива, ясно различив угрозу и уже известные события."
+    },
+    {
+      "word": "allegedly",
+      "pos": "adv",
+      "meaningEn": "According to a claim that has not been established as fact.",
+      "meaningRu": "По утверждению, которое ещё не установлено как факт; предположительно, как утверждается.",
+      "en": "The employee allegedly shared confidential files, according to the complaint. The article makes clear that the investigation has not yet established what happened.",
+      "ru": "Согласно жалобе, сотрудник предположительно передал конфиденциальные файлы. В статье ясно сказано, что расследование ещё не установило, что произошло.",
+      "phrase": "allegedly shared",
+      "explanation": "Allegedly маркирует чужое или неподтверждённое утверждение. Это не способ сделать любое обвинение достоверным. Сохраняй источник according to the complaint и неизвестный итог расследования.",
+      "registerTags": [
+        "news",
+        "formal"
+      ],
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С allegedly составь нейтральную новостную фразу о вымышленной жалобе и явно укажи, что пока не установлено."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "book_lesson_pipeline",
+    "checkedAt": "2026-09-10",
+    "scope": "All 30 meanings, EN/RU contexts, explanations and tasks read in full; approved after listed editorial fixes."
+  }
+}

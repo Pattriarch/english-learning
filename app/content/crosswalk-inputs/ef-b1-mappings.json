@@ -1,0 +1,952 @@
+[
+  {
+    "code": "1A",
+    "label": "Привычки в питании и действия сейчас",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-003",
+          "grammar-intermediate-004"
+        ],
+        "note": "Выбор simple/continuous и состояния разобраны в готовых книгоуроках."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-022"
+        ],
+        "note": "Есть вкус, качество еды и приготовление; это тематическое соответствие, не проверка каждого слова внешнего Bank."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-03-front-vowels",
+          "pron-04-central-back-vowels"
+        ],
+        "note": "Есть короткие/долгие контрасты, артикуляция и самостоятельная практика; различается также качество гласного."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-a1-order",
+          "extended-b1-review",
+          "path-discussion-b2"
+        ],
+        "note": "Можно перенести заказ, оценку по деталям и аргументированное согласие; нет конкретного EF-текста, прогнозирования по его визуальным подсказкам и записи вопросов."
+      }
+    ]
+  },
+  {
+    "code": "1B",
+    "label": "Семейные планы и описание человека",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-019",
+          "grammar-intermediate-020",
+          "grammar-intermediate-023"
+        ],
+        "note": "Настоящее для договорённостей, going to и will сопоставлены по смыслу."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-elementary-001",
+          "vocabulary-upper-intermediate-008"
+        ],
+        "note": "Готовые уроки о родственниках и характере; объём внешнего списка не известен."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-14-word-stress",
+          "pron-15-rhythm-and-linking"
+        ],
+        "note": "Словесное и смысловое ударение имеют объяснение и output-практику."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-narrative",
+          "vocabulary-upper-intermediate-008",
+          "path-register-b2"
+        ],
+        "note": "Есть пересказ и описание характера. Отдельный сценарий вежливого отказа обсуждать личную тему и исходная история EF не подтверждены."
+      }
+    ]
+  },
+  {
+    "code": "2A",
+    "label": "Траты, опыт и завершённое прошлое",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-013",
+          "grammar-intermediate-014"
+        ],
+        "note": "Противопоставление present perfect/past simple разобрано с практикой."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-040"
+        ],
+        "note": "Доходы, расходы, сбережения и кредит в готовом уроке."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-04-central-back-vowels",
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "В уроке 11 сопоставлены o/or в hot, note, love, sort, work; практика требует своих сцен, пояснения гласных и сравнения записи.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "Фонемы и исключения объясняются, но отдельная сортировка написаний o/or и их частых вариантов отсутствует."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b1-listening",
+          "path-reading-inference",
+          "path-repair-conversation"
+        ],
+        "note": "Причины, последовательность и уточнение переносимы; нет EF-истории о тратах и её заданий на темы абзацев."
+      }
+    ]
+  },
+  {
+    "code": "2B",
+    "label": "Длительность перемен и сильная оценка",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-009",
+          "grammar-intermediate-010",
+          "grammar-intermediate-011",
+          "grammar-intermediate-012"
+        ],
+        "note": "Perfect continuous, длительность, for/since и вопрос how long есть."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "collocations-intermediate-006"
+        ],
+        "note": "Проверены tired/exhausted, absolutely/utterly и задания на усиленную оценку; полный внешний набор прилагательных не заявляется."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-15-rhythm-and-linking"
+        ],
+        "note": "Есть выделение смысловых слов и запись собственной реплики."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-email-basic",
+          "extended-b1-listening"
+        ],
+        "note": "Есть письмо с благодарностью во вступлении и работа с подробностями интервью; полноценное благодарственное письмо как отдельный жанр и визуально поддержанное EF-аудио не подтверждены."
+      }
+    ]
+  },
+  {
+    "code": "3A",
+    "label": "Сравнение маршрутов и вариантов транспорта",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "path-comparatives"
+        ],
+        "note": "Сравнительная/превосходная оценка и самостоятельные сравнения."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-031"
+        ],
+        "note": "Готовый урок различает travel/trip/journey и ситуации в пути."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-10-sh-ch-j",
+          "pron-15-rhythm-and-linking"
+        ],
+        "note": "Есть /ʃ dʒ tʃ/ и связывание слов; тренировка самостоятельная, без исходной EF-записи."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-a2-options",
+          "extended-b1-review"
+        ],
+        "note": "Сравнение поездок, пересмотр плана и текст для сайта переносимы; отдельный туристический role-play и статья EF не воспроизведены."
+      }
+    ]
+  },
+  {
+    "code": "3B",
+    "label": "Обобщения и устойчивое управление",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "path-articles-basic",
+          "path-articles-advanced"
+        ],
+        "note": "A/an/the и отсутствие артикля, включая обобщение, представлены."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "path-preposition-patterns",
+          "prepositions"
+        ],
+        "note": "Есть зависимые предлоги, но первый урок уровня C1; B1-подборка глаголов/прилагательных из EF отдельно не подтверждена."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-06-schwa",
+          "pron-08-th"
+        ],
+        "note": "В уроке 06 разобраны нейтральные /ðə/ и /ði/, сильная /ðiː/, university/hour; есть собственные фразы и объяснение выбора.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "Schwa и /ð/ разобраны; выбор двух произношений the в собственных фразах не является отдельной проверяемой задачей."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-reading-inference",
+          "path-discussion-b2"
+        ],
+        "note": "Различение утверждения и вывода, обсуждение обобщений переносимы; нет исходного материала об эволюции понятия и контрасте двух понятий."
+      }
+    ]
+  },
+  {
+    "code": "4A",
+    "label": "Телефонный этикет, правила и жалоба",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-031",
+          "grammar-intermediate-032",
+          "grammar-intermediate-033"
+        ],
+        "note": "Обязанность, запрет, отсутствие необходимости и совет различаются."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-elementary-017",
+          "research-telephone-messages"
+        ],
+        "note": "Названия частей телефона и реальные функции звонка/сообщения присутствуют."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "Проверены немые k/w/b/t/h, исключения и собственная проверка слова."
+      },
+      {
+        "kind": "skills",
+        "coverage": "mapped",
+        "targets": [
+          "research-complaint-resolution",
+          "extended-a2-service"
+        ],
+        "note": "Есть факты проблемы, адресат, просьба о решении и ответ на уточнение; это собственные сценарии приложения, не EF-аудио."
+      }
+    ]
+  },
+  {
+    "code": "4B",
+    "label": "Способности и эмоциональная реакция",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-026"
+        ],
+        "note": "Can/could/be able to: способность, возможность, разрешение и разовое достижение."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "collocations-intermediate-005",
+          "vocabulary-elementary-014"
+        ],
+        "note": "Подтверждён контраст bored/boring. Отдельная готовая широкая группа -ed/-ing прилагательных отсутствует в проверенном наборе; grammar-intermediate-098 на момент сверки ещё не опубликован."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-15-rhythm-and-linking"
+        ],
+        "note": "Смысловое ударение с собственным контекстом."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b1-listening",
+          "vocabulary-upper-intermediate-004"
+        ],
+        "note": "Есть gist/причины и вывод значения из контекста; исходные советы об изучении языка и их обсуждение EF не проверены."
+      }
+    ]
+  },
+  {
+    "code": "5A",
+    "label": "Спортивный эпизод и последовательность событий",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-005",
+          "grammar-intermediate-006",
+          "grammar-intermediate-015",
+          "path-narrative"
+        ],
+        "note": "Simple/continuous/perfect связаны с фоном, цепочкой и предысторией."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-018"
+        ],
+        "note": "Спорт представлен полноценным книгоуроком."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-04-central-back-vowels"
+        ],
+        "note": "/ɔː/ и /ɜː/ явно описаны, есть примеры caught/bird/work и связная практика."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-narrative",
+          "extended-b1-interview"
+        ],
+        "note": "Самостоятельный рассказ и интервью с опорой на опыт есть; спортивное интервью EF и его доказательные примеры отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "5B",
+    "label": "Отношения и изменившиеся привычки",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-018",
+          "path-past-habits"
+        ],
+        "note": "Used to, прошлые состояния и контраст с нынешними привычками проверены по теории и заданиям."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-010"
+        ],
+        "note": "Отношения и общение — готовый тематический урок."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "partial",
+        "targets": [
+          "pron-13-s-endings",
+          "pron-15-rhythm-and-linking",
+          "pron-12-ed-endings"
+        ],
+        "note": "Урок 12 теперь отдельно отрабатывает use/used и used to/didn’t use to, включая свою запись. Окончания -s представлены, но весь набор чтений буквы s вне окончаний внешнего блока не подтверждён.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "/-s/ окончания и связность есть; буква s вне окончаний и конкретное used to /ˈjuːstə/ отдельно не отрабатываются."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-past-habits",
+          "path-narrative",
+          "extended-b1-listening"
+        ],
+        "note": "Есть сравнение двух периодов и связный рассказ; исходные истории отношений EF не представлены."
+      }
+    ]
+  },
+  {
+    "code": "6A",
+    "label": "Кино и действие в пассиве",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-042",
+          "grammar-intermediate-043",
+          "grammar-intermediate-044"
+        ],
+        "note": "Готовы формы пассива, включая continuous и perfect; полный внешний Grammar Bank не сравнивался."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-020"
+        ],
+        "note": "Театр и кино представлены отдельным книгоуроком."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "partial",
+        "targets": [
+          "pron-12-ed-endings",
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "Окончания -ed и read/read объясняются; целевая тренировка полного списка нерегулярных причастий внешнего блока не подтверждена."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "research-review-writing",
+          "extended-b1-review"
+        ],
+        "note": "Есть оценка с доказательствами и жанр рецензии; подробный входной материал здесь о выставке, а не фильм EF; исходное аудио для конспекта отсутствует."
+      }
+    ]
+  },
+  {
+    "code": "6B",
+    "label": "Внешние признаки и осторожные догадки",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-028",
+          "grammar-intermediate-029",
+          "path-deduction"
+        ],
+        "note": "Must/might/cannot и границы уверенности опираются на признаки."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-elementary-003",
+          "vocabulary-upper-intermediate-047"
+        ],
+        "note": "Части тела и действия тела — готовые уроки."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-05-diphthongs"
+        ],
+        "note": "Дифтонги, IPA и вариативность британской/американской модели разобраны."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-deduction",
+          "path-reading-inference"
+        ],
+        "note": "Догадка отделяется от факта, но конкретное задание на интерпретацию фотографии профиля и сверку предположений с записью не найдено."
+      }
+    ]
+  },
+  {
+    "code": "7A",
+    "label": "Учёба и условия будущего действия",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-025",
+          "grammar-intermediate-038",
+          "path-zero-first"
+        ],
+        "note": "Первое условное и будущее в when/until-придаточных представлены."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-014",
+          "vocabulary-upper-intermediate-015"
+        ],
+        "note": "Учёба и высшее образование имеют отдельные уроки."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-04-central-back-vowels",
+          "pron-05-diphthongs",
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "Урок 11 сопоставляет cut, push, rule, student с UK/US вариантами; в практике требуются свои сцены и объяснение u.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "Звуки /ʌ ʊ uː/ и /j/ в cure встречаются; система чтения буквы u в разных словах отдельно не тренируется."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b1-interview",
+          "path-discussion-b2"
+        ],
+        "note": "Есть рассказ об опыте и организация мнения; исходный спор об образовании и аудиопроверка прогнозов EF отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "7B",
+    "label": "Жильё и воображаемая альтернатива",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-038",
+          "grammar-intermediate-039",
+          "path-second-conditional"
+        ],
+        "note": "Первое/второе условное, реальность и воображаемый сценарий различаются."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-011"
+        ],
+        "note": "Дом, помещения и бытовые условия — готовая лексическая тема."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-15-rhythm-and-linking",
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "В уроке 11 есть частые чтения c, обе c в cycle, исключение cello и самостоятельные фразы; смысловое ударение дополнительно в уроке 15.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "Смысловое ударение есть; отдельной практики c=/k/ или /s/ и исключений нет."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-011",
+          "extended-a2-options"
+        ],
+        "note": "Есть описание жилья и сравнение условий; подробный самостоятельный жанр описания дома мечты и биографическое EF-видео не подтверждены."
+      }
+    ]
+  },
+  {
+    "code": "8A",
+    "label": "Работа, выбор действия и заявка",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-053",
+          "grammar-intermediate-054",
+          "grammar-intermediate-056",
+          "grammar-intermediate-057"
+        ],
+        "note": "Герундий/инфинитив и изменения значения разобраны в нескольких готовых уроках."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-016"
+        ],
+        "note": "Работа и профессиональные обязанности — готовая тема."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-14-word-stress"
+        ],
+        "note": "Ударение и изменения в семье слов имеют собственные задания."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "research-application-interview",
+          "extended-b2-application",
+          "extended-b1-interview"
+        ],
+        "note": "Есть письмо-заявка и опыт через конкретные примеры; расширенная заявка уровня B2 и не является копией B1 cover email. Отдельный product pitch не подтверждён."
+      }
+    ]
+  },
+  {
+    "code": "8B",
+    "label": "Обслуживание и передача чужих слов",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-047",
+          "grammar-intermediate-048",
+          "grammar-intermediate-050"
+        ],
+        "note": "Косвенные утверждения и вопросы, порядок слов и контекст времени представлены."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "path-word-formation"
+        ],
+        "note": "Проверены decide/decision, explain/explanation и собственные семьи слов; автоматическое приписывание суффикса не поощряется."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-05-diphthongs",
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "Урок 11 сопоставляет train/said и air/repair, ударение и акцентные варианты; есть самостоятельная связная практика и сравнение записи.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "Ai→/eɪ/ и hair /eə/ описаны раздельно; целевая сопоставительная тренировка ai/air как в EF не подтверждена."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "mapped",
+        "targets": [
+          "research-complaint-resolution",
+          "extended-a2-service",
+          "path-reported-speech"
+        ],
+        "note": "Есть сервисная жалоба, исправление и сообщение о случившемся. Оригинальные короткие рассказы и EF-записи не входят в это соответствие."
+      }
+    ]
+  },
+  {
+    "code": "9A",
+    "label": "Неслучившееся прошлое и семьи слов",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-040",
+          "path-third-conditional"
+        ],
+        "note": "Третье условное и различие факта/контрфакта представлены."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "path-word-formation"
+        ],
+        "note": "Проверены careful/carefully, responsible/responsibility, исправление success/clear и самостоятельный текст."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-06-schwa",
+          "pron-15-rhythm-and-linking"
+        ],
+        "note": "В уроке 06 есть слабое have после модальных, сильный короткий ответ, правильное написание и свой обмен репликами с разбором.",
+        "previousReview": {
+          "coverage": "partial",
+          "note": "Общие слабые формы и ритм есть; слабое have после модальных (could have, would have) не выделено в отдельную проверяемую практику."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-narrative",
+          "extended-a2-story",
+          "path-third-conditional"
+        ],
+        "note": "Есть пересказ и альтернативное прошлое; конкретная EF-история об удаче и анализ первых предложений абзацев не подтверждены."
+      }
+    ]
+  },
+  {
+    "code": "9B",
+    "label": "Техника, количество и аргументы",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "path-countability",
+          "path-quantifiers-nuance"
+        ],
+        "note": "Some/any/much/many и few/a few/little/a little представлены; полного внешнего банка количественных слов не утверждаем."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-034",
+          "vocabulary-elementary-017"
+        ],
+        "note": "Компьютеры и телефонные устройства имеют готовые уроки."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-15-rhythm-and-linking",
+          "pron-11-spelling-and-silent-letters"
+        ],
+        "note": "Связывание и ough явно представлены: though/through/thought/rough; набор внешних слов может отличаться."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b2-essay-thread",
+          "path-argument-essay"
+        ],
+        "note": "Полноценный аргументированный текст о записи занятий тренирует две стороны вопроса; исходный рассказ о сбое электроснабжения и техническая запись EF отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "10A",
+    "label": "Описание известных людей и дополнительные сведения",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "path-relative-basic",
+          "path-relative-advanced"
+        ],
+        "note": "Определительные/неопределительные относительные части и запятые имеют уроки."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "grammar-advanced-043"
+        ],
+        "note": "Составные существительные представлены в Advanced; точная B1-группа слов и готовность vocabulary-upper-intermediate-075 на момент сверки не подтверждены."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "pron-14-word-stress"
+        ],
+        "note": "Словесное ударение с примерами и самостоятельным объяснением."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-narrative",
+          "extended-b1-interview"
+        ],
+        "note": "Последовательный рассказ и биографический опыт есть; законченная биография как отдельный письменный жанр с внешними фактами и её исходное аудио не подтверждены."
+      }
+    ]
+  },
+  {
+    "code": "10B",
+    "label": "Проверка версии событий и преступления",
+    "dimensions": [
+      {
+        "kind": "grammar",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-052"
+        ],
+        "note": "Question tags проверены по реальной теории и восьми заданиям."
+      },
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-039"
+        ],
+        "note": "Crime имеет готовый книгоурок."
+      },
+      {
+        "kind": "pronunciation",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-052",
+          "pron-16-intonation-and-shadowing"
+        ],
+        "note": "Книгоурок прямо различает восходящий/нисходящий tag и предлагает устную сцену с минимум5tags; акустическая оценка этим не доказана."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "grammar-intermediate-052",
+          "path-reading-inference",
+          "cinema-bcs-s01e03-listen"
+        ],
+        "note": "Проверка сведений и факт/вывод переносимы; EF-детектив, его персонажи и биографические заметки не воспроизведены."
+      }
+    ]
+  },
+  {
+    "code": "PE1",
+    "label": "Реагировать на новость собеседника",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "mapped",
+        "targets": [
+          "research-question-response",
+          "path-repair-conversation"
+        ],
+        "note": "Есть ответный вопрос, интерес/удивление и уточнение; оригинальный видеоэпизод EF и полный набор Social English недоступны."
+      }
+    ]
+  },
+  {
+    "code": "PE2",
+    "label": "Высказать мнение и поддержать обмен репликами",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-discussion-b2",
+          "extended-b1-review"
+        ],
+        "note": "Мнение с причиной и ответ адресату доступны; часть дискуссионных средств уровня B2. Оригинальный видеоэпизод и полный Social English не проверены."
+      }
+    ]
+  },
+  {
+    "code": "PE3",
+    "label": "Просить разрешение и помощь",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-037",
+          "path-requests-can"
+        ],
+        "note": "Готовы просьбы, предложение помощи, приглашение и разрешение; конкретный EF-видеоэпизод отсутствует."
+      }
+    ]
+  },
+  {
+    "code": "PE4",
+    "label": "Предложить вариант и согласовать решение",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "mapped",
+        "targets": [
+          "extended-a2-options",
+          "extended-a1-chat"
+        ],
+        "note": "Есть предложение, ответ на новое условие и согласование плана. Оригинальная EF-сцена и Social English не импортированы."
+      }
+    ]
+  },
+  {
+    "code": "PE5",
+    "label": "Задать косвенный вопрос",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "mapped",
+        "targets": [
+          "grammar-intermediate-050",
+          "path-polite-questions"
+        ],
+        "note": "Порядок слов в косвенном вопросе и вежливое уточнение разбираются с output-практикой. Исходное видео EF не включено."
+      }
+    ]
+  }
+]

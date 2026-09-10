@@ -1,0 +1,719 @@
+{
+  "version": 1,
+  "title": "Полный маршрут A1–C2",
+  "description": "Последовательность учебных задач и проверок переноса навыка. Прохождение списка не является сертификацией уровня CEFR.",
+  "levels": [
+    {
+      "id": "A1",
+      "title": "Проверка фундамента",
+      "goal": "Понимать и создавать короткие сообщения о себе, месте, времени и ежедневных действиях.",
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "speaking",
+        "listening",
+        "writing"
+      ],
+      "checkpoint": "Представьтесь без заученного текста; задайте пять разных вопросов; прочитайте бытовое сообщение и передайте место, время и действие. Напишите 60–80 слов без систематической потери be, окончаний и порядка слов.",
+      "lessonIds": [
+        "path-be",
+        "path-pronouns",
+        "path-present-simple",
+        "path-present-continuous",
+        "path-questions-basic",
+        "path-articles-basic",
+        "path-plurals",
+        "path-there-is",
+        "path-countability",
+        "path-possession",
+        "path-place-time",
+        "path-requests-can",
+        "path-instructions",
+        "path-adjectives-frequency",
+        "path-sound-basics",
+        "research-sound-w-v-th",
+        "research-spelling-numbers",
+        "research-ordering-checkout",
+        "extended-a1-registration",
+        "extended-a1-notices",
+        "extended-a1-chat",
+        "extended-a1-order",
+        "extended-a1-day"
+      ],
+      "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+    },
+    {
+      "id": "A2",
+      "title": "Самостоятельность в знакомых ситуациях",
+      "goal": "Рассказывать о прошлом, планировать, уточнять условия и поддерживать бытовой обмен.",
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "listening",
+        "reading",
+        "writing",
+        "speaking"
+      ],
+      "checkpoint": "Разыграйте изменение брони и расскажите историю на 90 секунд. Напишите понятное письмо на 100–120 слов. После двух прослушиваний короткого сообщения передайте ключевые детали и задайте уточнение.",
+      "lessonIds": [
+        "path-past-simple",
+        "path-past-continuous",
+        "path-future-simple",
+        "path-future-plans",
+        "path-present-perfect",
+        "path-comparatives",
+        "path-past-habits",
+        "path-obligation",
+        "path-zero-first",
+        "path-gerund-infinitive",
+        "path-relative-basic",
+        "path-connectors-basic",
+        "path-everyday-phrasal",
+        "path-listening-routine",
+        "path-email-basic",
+        "research-ending-s-ed",
+        "research-schwa-wordstress",
+        "research-telephone-messages",
+        "research-apologies-remedies",
+        "extended-a2-options",
+        "extended-a2-phone",
+        "extended-a2-story",
+        "extended-a2-service",
+        "extended-a2-relay",
+        "extended-a2-picture-description",
+        "extended-a2-survey-summary"
+      ],
+      "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+    },
+    {
+      "id": "B1",
+      "title": "Связная речь и объяснение выбора",
+      "goal": "Связывать события, причины и гипотезы; самостоятельно исправлять непонимание.",
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "reading",
+        "listening",
+        "writing",
+        "speaking",
+        "pronunciation"
+      ],
+      "checkpoint": "Расскажите незнакомую историю с предысторией, объясните проблему и предложите решение. Напишите 140–180 слов с причинами и примерами. Отделите факт от вывода в тексте и перескажите запись без копирования.",
+      "lessonIds": [
+        "path-present-perfect-continuous",
+        "path-past-perfect",
+        "path-future-continuous",
+        "path-second-conditional",
+        "path-third-conditional",
+        "path-passive-basic",
+        "path-reported-speech",
+        "path-polite-questions",
+        "path-deduction",
+        "path-word-formation",
+        "path-collocations-b1",
+        "path-reading-inference",
+        "path-connected-speech",
+        "path-narrative",
+        "path-repair-conversation",
+        "research-connected-boundaries",
+        "research-listening-decoding",
+        "research-review-writing",
+        "extended-b1-procedure",
+        "extended-b1-interview",
+        "extended-b1-listening",
+        "extended-b1-review",
+        "extended-b1-online-help"
+      ],
+      "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+    },
+    {
+      "id": "B2",
+      "title": "Аргумент и точность",
+      "goal": "Поддерживать дискуссию, читать критически и выбирать форму под смысл и аудиторию.",
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "reading",
+        "listening",
+        "writing",
+        "speaking",
+        "pragmatics"
+      ],
+      "checkpoint": "Напишите аргументированный текст на 220–260 слов с сильным возражением. Обсудите неожиданную тему 4–5 минут, уточняя и развивая чужую мысль. Сопоставьте два объяснения одной проблемы и назовите ограничения данных.",
+      "lessonIds": [
+        "path-past-perfect-continuous",
+        "path-future-perfect",
+        "path-future-perfect-continuous",
+        "path-mixed-conditionals",
+        "path-modal-perfect",
+        "path-passive-advanced",
+        "path-relative-advanced",
+        "path-articles-advanced",
+        "path-participle-clauses",
+        "path-verb-patterns-advanced",
+        "path-quantifiers-nuance",
+        "path-critical-reading",
+        "path-argument-essay",
+        "path-discussion-b2",
+        "path-register-b2",
+        "research-complaint-resolution",
+        "research-report-data",
+        "research-application-interview",
+        "extended-b2-evidence",
+        "extended-b2-negotiate",
+        "extended-b2-interview",
+        "extended-b2-essay-thread",
+        "extended-b2-application",
+        "extended-b2-regret-emphasis",
+        "extended-b2-sleep",
+        "extended-b2-remote-project",
+        "extended-b2-reference-letter"
+      ],
+      "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+    },
+    {
+      "id": "C1",
+      "title": "Гибкость и сложные тексты",
+      "goal": "Выражать нюанс, синтезировать информацию и уверенно менять жанр и регистр.",
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "reading",
+        "listening",
+        "writing",
+        "speaking",
+        "pronunciation",
+        "pragmatics",
+        "mediation"
+      ],
+      "checkpoint": "Сведите два расходящихся источника в самостоятельную записку на 280–350 слов. Проведите 6–8 минут обсуждения со сменой позиции и аудитории; сохраните точность оговорок, логическую связность и естественную лексику.",
+      "lessonIds": [
+        "path-inversion",
+        "path-clefts",
+        "path-fronting",
+        "path-nominalisation",
+        "path-hedging",
+        "path-reporting-verbs",
+        "path-advanced-negation",
+        "path-ellipsis",
+        "path-substitution",
+        "path-preposition-patterns",
+        "path-phrasal-nuance",
+        "path-idioms-context",
+        "path-academic-collocations",
+        "path-lexical-precision",
+        "path-discourse-markers",
+        "path-longform-reading",
+        "path-lecture-listening",
+        "path-prosody",
+        "path-synthesis",
+        "path-proposal",
+        "research-spoken-grammar",
+        "research-accent-adaptation",
+        "research-question-response",
+        "extended-c1-lecture",
+        "extended-c1-cross-text",
+        "extended-c1-public-explanation",
+        "extended-c1-facilitation",
+        "extended-c1-review-article",
+        "extended-c1-lexical-lab",
+        "extended-c1-conversion",
+        "extended-c1-sea-coast",
+        "extended-c1-adjective-scope",
+        "extended-c1-visual-data"
+      ],
+      "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+    },
+    {
+      "id": "C2",
+      "title": "Тонкое управление смыслом",
+      "goal": "Точно передавать подтекст, неоднозначность и сложные позиции в разных контекстах.",
+      "skills": [
+        "grammar",
+        "vocabulary",
+        "reading",
+        "listening",
+        "writing",
+        "speaking",
+        "pronunciation",
+        "pragmatics",
+        "mediation"
+      ],
+      "checkpoint": "Создайте письменный синтез нескольких источников и устную версию для другой аудитории. Обработайте скрытое возражение, иронию и неоднозначную формулировку без потери степени уверенности. Выполните незнакомую задачу после отсрочки и внешнего разбора.",
+      "lessonIds": [
+        "path-scope-ambiguity",
+        "path-counterfactual-inversion",
+        "path-aspect-viewpoint",
+        "path-modal-remoteness",
+        "path-determiner-nuance",
+        "path-information-density",
+        "path-emphasis-restraint",
+        "path-semantic-prosody",
+        "path-metaphor",
+        "path-irony",
+        "path-implicature",
+        "path-politeness-power",
+        "path-diplomatic-disagreement",
+        "path-source-mediation",
+        "path-cross-register",
+        "path-rhetorical-analysis",
+        "path-literary-reading",
+        "path-debate-synthesis",
+        "path-editing",
+        "path-c2-capstone",
+        "research-discourse-listening",
+        "research-public-correction",
+        "extended-c2-literary",
+        "extended-c2-synthesis",
+        "extended-c2-interview",
+        "extended-c2-consensus",
+        "extended-c2-editor",
+        "extended-c2-register-performance",
+        "extended-c2-shakespeare-idioms",
+        "extended-c2-built-environment"
+      ],
+      "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+    }
+  ],
+  "tenses": [
+    {
+      "id": "present-simple",
+      "title": "Present simple",
+      "meaning": "Привычка, факт, расписание",
+      "formula": "I work / she works",
+      "lessonIds": [
+        "path-present-simple"
+      ],
+      "compareLessonIds": [
+        "path-present-continuous"
+      ],
+      "contrast": "Факт целиком или процесс изнутри?"
+    },
+    {
+      "id": "present-continuous",
+      "title": "Present continuous",
+      "meaning": "Процесс сейчас, временная ситуация",
+      "formula": "am/is/are working",
+      "lessonIds": [
+        "path-present-continuous"
+      ],
+      "compareLessonIds": [
+        "path-present-simple"
+      ],
+      "contrast": "Временное занятие или устойчивая характеристика?"
+    },
+    {
+      "id": "present-perfect",
+      "title": "Present perfect simple",
+      "meaning": "Опыт, текущий результат, открытый период",
+      "formula": "have/has worked",
+      "lessonIds": [
+        "path-present-perfect"
+      ],
+      "compareLessonIds": [
+        "path-past-simple"
+      ],
+      "contrast": "Важен актуальный опыт или законченное прошлое время?"
+    },
+    {
+      "id": "present-perfect-continuous",
+      "title": "Present perfect continuous",
+      "meaning": "Длительность до настоящего, след процесса",
+      "formula": "have/has been working",
+      "lessonIds": [
+        "path-present-perfect-continuous"
+      ],
+      "compareLessonIds": [
+        "path-present-perfect"
+      ],
+      "contrast": "Количество результата или длительность усилия?"
+    },
+    {
+      "id": "past-simple",
+      "title": "Past simple",
+      "meaning": "Событие в завершённом прошлом",
+      "formula": "worked / went",
+      "lessonIds": [
+        "path-past-simple"
+      ],
+      "compareLessonIds": [
+        "path-past-continuous"
+      ],
+      "contrast": "Последовательное событие или фон?"
+    },
+    {
+      "id": "past-continuous",
+      "title": "Past continuous",
+      "meaning": "Процесс в прошлый момент",
+      "formula": "was/were working",
+      "lessonIds": [
+        "path-past-continuous"
+      ],
+      "compareLessonIds": [
+        "path-past-perfect-continuous"
+      ],
+      "contrast": "Процесс тогда или длительность до того момента?"
+    },
+    {
+      "id": "past-perfect",
+      "title": "Past perfect simple",
+      "meaning": "Результат раньше прошлой опорной точки",
+      "formula": "had worked",
+      "lessonIds": [
+        "path-past-perfect"
+      ],
+      "compareLessonIds": [
+        "path-past-simple"
+      ],
+      "contrast": "Нужен ли возврат к предыстории?"
+    },
+    {
+      "id": "past-perfect-continuous",
+      "title": "Past perfect continuous",
+      "meaning": "Процесс и длительность до прошлого",
+      "formula": "had been working",
+      "lessonIds": [
+        "path-past-perfect-continuous"
+      ],
+      "compareLessonIds": [
+        "path-past-perfect"
+      ],
+      "contrast": "Готовый результат или накопленный процесс?"
+    },
+    {
+      "id": "future-simple",
+      "title": "Future simple",
+      "meaning": "Прогноз, обещание, решение сейчас",
+      "formula": "will work",
+      "lessonIds": [
+        "path-future-simple"
+      ],
+      "compareLessonIds": [
+        "path-future-plans"
+      ],
+      "contrast": "Решение сейчас или ранее организованный план?"
+    },
+    {
+      "id": "future-continuous",
+      "title": "Future continuous",
+      "meaning": "Процесс в будущий момент, ожидаемый план",
+      "formula": "will be working",
+      "lessonIds": [
+        "path-future-continuous"
+      ],
+      "compareLessonIds": [
+        "path-future-perfect"
+      ],
+      "contrast": "Будет происходить или уже будет завершено?"
+    },
+    {
+      "id": "future-perfect",
+      "title": "Future perfect simple",
+      "meaning": "Завершение к будущему рубежу",
+      "formula": "will have worked",
+      "lessonIds": [
+        "path-future-perfect"
+      ],
+      "compareLessonIds": [
+        "path-future-perfect-continuous"
+      ],
+      "contrast": "Что будет сделано или как долго будет продолжаться?"
+    },
+    {
+      "id": "future-perfect-continuous",
+      "title": "Future perfect continuous",
+      "meaning": "Длительность процесса к будущему рубежу",
+      "formula": "will have been working",
+      "lessonIds": [
+        "path-future-perfect-continuous"
+      ],
+      "compareLessonIds": [
+        "path-future-perfect"
+      ],
+      "contrast": "Нужен ли акцент на длительности, а не результате?"
+    }
+  ],
+  "otherTimeForms": [
+    {
+      "title": "Планы, договорённости и расписания",
+      "lessonIds": [
+        "path-future-plans"
+      ]
+    },
+    {
+      "title": "Привычки прошлого",
+      "lessonIds": [
+        "path-past-habits"
+      ]
+    },
+    {
+      "title": "Нереальное время и условия",
+      "lessonIds": [
+        "path-second-conditional",
+        "path-third-conditional",
+        "path-mixed-conditionals",
+        "path-modal-remoteness"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "grammar",
+      "title": "Грамматика и смысл",
+      "goal": "Выбирать конструкцию, объяснять её значение и переносить в новую речь.",
+      "evidence": "Самостоятельные переводы, исправления и контрастные собственные примеры."
+    },
+    {
+      "id": "vocabulary",
+      "title": "Лексика, сочетания и фразовые глаголы",
+      "goal": "Вспоминать выражения по ситуации и уместно менять их форму.",
+      "evidence": "Активное употребление в письме и речи; отсроченные карточки RU → EN."
+    },
+    {
+      "id": "reading",
+      "title": "Чтение",
+      "goal": "Понимать структуру, аргумент, подтекст и границы выводов.",
+      "evidence": "Пересказ незнакомого текста, ответы с опорой на детали, критический комментарий."
+    },
+    {
+      "id": "listening",
+      "title": "Аудирование",
+      "goal": "Узнавать речь в потоке и восстанавливать смысл без транскрипта.",
+      "evidence": "Первый проход на общий смысл, второй на детали, проверка после открытия текста."
+    },
+    {
+      "id": "writing",
+      "title": "Письмо",
+      "goal": "Писать ясно для конкретной аудитории и улучшать черновик.",
+      "evidence": "Самостоятельная работа, разбор ошибок, переработанная версия, новый перенос через неделю."
+    },
+    {
+      "id": "speaking",
+      "title": "Говорение и взаимодействие",
+      "goal": "Спонтанно объяснять, аргументировать, уточнять и реагировать.",
+      "evidence": "Запись без полного сценария, ремонт непонимания, повторная запись после разбора."
+    },
+    {
+      "id": "pronunciation",
+      "title": "Произношение и просодия",
+      "goal": "Делать смысл разборчивым через звуки, ритм и ударение.",
+      "evidence": "Прослушивание собственной записи и образца; транскрипт не заменяет оценку звучания."
+    },
+    {
+      "id": "pragmatics",
+      "title": "Регистр и прагматика",
+      "goal": "Учитывать отношения, намерение, вежливость и скрытый смысл.",
+      "evidence": "Одна ситуация для разных адресатов; объяснение предполагаемой реакции слушателя."
+    },
+    {
+      "id": "mediation",
+      "title": "Синтез и передача смысла",
+      "goal": "Сводить источники и адаптировать сложное без искажения.",
+      "evidence": "Сравнительный конспект, синтез с оговорками, устная версия для другой аудитории."
+    }
+  ],
+  "weeklyPlan": [
+    {
+      "day": "Понедельник",
+      "title": "Новая тема + активная речь",
+      "minutes": 120,
+      "blocks": [
+        {
+          "title": "Повторить карточки по памяти",
+          "minutes": 15
+        },
+        {
+          "title": "Теория и контрастные примеры",
+          "minutes": 25
+        },
+        {
+          "title": "Перевод и исправление без подсказки",
+          "minutes": 30
+        },
+        {
+          "title": "Свободное письмо и разбор",
+          "minutes": 30
+        },
+        {
+          "title": "Запись речи и повтор",
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": "Вторник",
+      "title": "Аудирование + сериал",
+      "minutes": 120,
+      "blocks": [
+        {
+          "title": "Интервальное повторение",
+          "minutes": 15
+        },
+        {
+          "title": "Сцена без субтитров: общий смысл",
+          "minutes": 20
+        },
+        {
+          "title": "Субтитры, детали, 5–8 выражений",
+          "minutes": 25
+        },
+        {
+          "title": "Shadowing короткого фрагмента",
+          "minutes": 15
+        },
+        {
+          "title": "Пересказ и альтернативный диалог",
+          "minutes": 30
+        },
+        {
+          "title": "Проверка и карточки",
+          "minutes": 15
+        }
+      ]
+    },
+    {
+      "day": "Среда",
+      "title": "Чтение + лексика",
+      "minutes": 120,
+      "blocks": [
+        {
+          "title": "Отсроченная проверка понедельника",
+          "minutes": 20
+        },
+        {
+          "title": "Незнакомый текст и выводы",
+          "minutes": 30
+        },
+        {
+          "title": "Сочетаемость и словесные семьи",
+          "minutes": 25
+        },
+        {
+          "title": "Письменный пересказ",
+          "minutes": 25
+        },
+        {
+          "title": "Устное объяснение позиции",
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": "Четверг",
+      "title": "Новая тема + взаимодействие",
+      "minutes": 120,
+      "blocks": [
+        {
+          "title": "Карточки и журнал ошибок",
+          "minutes": 15
+        },
+        {
+          "title": "Вторая новая тема недели",
+          "minutes": 35
+        },
+        {
+          "title": "Самостоятельные упражнения",
+          "minutes": 30
+        },
+        {
+          "title": "Диалог и уточнения",
+          "minutes": 25
+        },
+        {
+          "title": "Произношение одного трудного фрагмента",
+          "minutes": 15
+        }
+      ]
+    },
+    {
+      "day": "Пятница",
+      "title": "Письмо с переработкой",
+      "minutes": 120,
+      "blocks": [
+        {
+          "title": "Повторение активной лексики",
+          "minutes": 15
+        },
+        {
+          "title": "План и первый черновик",
+          "minutes": 35
+        },
+        {
+          "title": "Разбор смысла и языка",
+          "minutes": 25
+        },
+        {
+          "title": "Новая версия без копирования исправлений",
+          "minutes": 25
+        },
+        {
+          "title": "Устная адаптация для другого адресата",
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": "Суббота",
+      "title": "Длинный материал + проект",
+      "minutes": 150,
+      "blocks": [
+        {
+          "title": "Карточки",
+          "minutes": 15
+        },
+        {
+          "title": "Эпизод или длинное интервью",
+          "minutes": 50
+        },
+        {
+          "title": "Конспект и проверка деталей",
+          "minutes": 25
+        },
+        {
+          "title": "Письменный анализ или творческая задача",
+          "minutes": 35
+        },
+        {
+          "title": "Обсуждение и запись",
+          "minutes": 25
+        }
+      ]
+    },
+    {
+      "day": "Воскресенье",
+      "title": "Проверка и настройка маршрута",
+      "minutes": 75,
+      "blocks": [
+        {
+          "title": "Незнакомая задача по темам недели",
+          "minutes": 25
+        },
+        {
+          "title": "Сравнить записи и тексты",
+          "minutes": 20
+        },
+        {
+          "title": "Отобрать повторяющиеся ошибки",
+          "minutes": 15
+        },
+        {
+          "title": "Выбрать темы следующей недели",
+          "minutes": 15
+        }
+      ]
+    }
+  ],
+  "studyRules": [
+    "План — ориентир: делайте короткий перерыв каждые 25–40 минут и снижайте объём при усталости.",
+    "Проверку знакомого уровня можно пройти сразу; приложение не должно отмечать остальные темы освоенными автоматически.",
+    "Сначала извлечение из памяти, затем объяснение ошибки, затем новый ответ без копирования.",
+    "Минимум половина занятия — собственный текст, речь, пересказ и взаимодействие.",
+    "Для устойчивого C1–C2 нужны разнообразные незнакомые материалы и независимая обратная связь; один счётчик уроков уровень не удостоверяет."
+  ]
+}

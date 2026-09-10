@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "figures": [
+    {
+      "id": "commuting-active-share",
+      "file": "commuting-active-share.svg",
+      "sha256": "be89c4efbe2ce35d18a750e46f9e5931de925f434bdc47fbfe9af66ee1ff3269",
+      "datasetFile": "commuting-survey.json",
+      "datasetSHA256": "6ca27b92f00e48851a1f708a4094e54155fd1b5162354fa334aef9a594f06554",
+      "materialId": "m1"
+    },
+    {
+      "id": "commuting-mode-comparison",
+      "file": "commuting-mode-comparison.svg",
+      "sha256": "ef4135082bb976105e328159d6e78bbb1e77295d01460f3b6dca71edb675d0b0",
+      "datasetFile": "commuting-survey.json",
+      "datasetSHA256": "6ca27b92f00e48851a1f708a4094e54155fd1b5162354fa334aef9a594f06554",
+      "materialId": "m2"
+    },
+    {
+      "id": "courtyard-actions",
+      "materialId": "m1",
+      "file": "courtyard-actions.png",
+      "sha256": "4bb3a0674bae1530e79a016264861ca04dd1c66bd74530bcdd36a44419847e4b",
+      "datasetFile": "courtyard-scene.json",
+      "datasetSHA256": "2ce87329c0d7c5c5fb6f90e07bdd8e60c9e347f47786aa885d9dba8e4d29d7eb"
+    }
+  ]
+}

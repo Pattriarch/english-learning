@@ -1,6 +1,9 @@
 .omc/
 .DS_Store
+progress/*.bak
+/progress/*.json
 книги/
+tmp/
 
 cards/englishd
 cards/config.json

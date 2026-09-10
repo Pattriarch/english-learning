@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-07-2026-09-10",
+    "title": "Original core contexts 07 — word formation and remaining source headwords",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Eight source headwords. Multi and neo are explicitly word-formation units; descendent and café retain variant spellings. Counts are source headwords, not eight newly distinguished lemmas."
+  },
+  "entries": [
+    {
+      "word": "multi",
+      "displayHeadword": "multi-",
+      "lexicalType": "combining-form",
+      "pos": "prefix",
+      "meaningEn": "A word element meaning many, more than one, or involving several kinds.",
+      "meaningRu": "Словообразовательный элемент со значением многих, нескольких или более одного.",
+      "en": "The multilingual guide provides directions in English, Spanish, and French. A visitor can switch languages without losing the place they were reading.",
+      "ru": "Многоязычный путеводитель даёт инструкции на английском, испанском и французском. Посетитель может переключить язык, не потеряв место чтения.",
+      "targetForms": [
+        "multilingual"
+      ],
+      "phrase": "The multilingual guide",
+      "explanation": "В исходном списке стоит multi, но здесь изучается элемент multi- внутри multilingual. Multi- добавляет значение нескольких языков; multilingual не означает владение всеми языками мира. Это словообразовательная единица, не самостоятельное обычное слово «multi» в таком предложении.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/multi-"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "Объясни роль multi- в multilingual и опиши свой вымышленный multilingual справочник: для кого он и какие языки нужны."
+    },
+    {
+      "word": "herbicide",
+      "pos": "noun",
+      "meaningEn": "A substance used to kill or control unwanted plants.",
+      "meaningRu": "Вещество для уничтожения или контроля нежелательной растительности; гербицид.",
+      "en": "The environmental report names the herbicide used on the test plots and records the application dates. Researchers compare the plots using the same observation schedule.",
+      "ru": "В экологическом отчёте назван гербицид, применявшийся на опытных участках, и указаны даты обработки. Исследователи сравнивают участки по одинаковому расписанию наблюдений.",
+      "phrase": "the herbicide used on the test plots",
+      "explanation": "Herbicide относится к средствам против нежелательных растений; insecticide — против насекомых. Pesticide — более широкая категория. Пример учит читать описание исследования, а не выбирать или применять препарат.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/herbicide"
+      ],
+      "registerTags": [
+        "environment"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С herbicide объясни, какую информацию сохраняет учебный отчёт и почему важны одинаковые сроки наблюдения."
+    },
+    {
+      "word": "conduction",
+      "pos": "noun",
+      "meaningEn": "The transfer of heat or electricity through a material; in heat conduction, energy passes through interactions within it.",
+      "meaningRu": "Перенос тепла или электричества через материал; при теплопроводности энергия передаётся через взаимодействия внутри материала.",
+      "en": "The simulation shows heat conduction along a metal bar from its warmer end. The solid bar stays in place while energy is transferred through the material.",
+      "ru": "Симуляция показывает теплопроводность вдоль металлического стержня от его более тёплого конца. Твёрдый стержень остаётся на месте, а энергия передаётся через материал.",
+      "phrase": "heat conduction",
+      "explanation": "Heat conduction — теплопроводность. Это отличается от convection, где тепло переносится с движущейся массой жидкости или газа. Electrical conduction относится к электрическому току; уточняй, какой процесс имеется в виду.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/conduction"
+      ],
+      "registerTags": [
+        "physics"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С heat conduction опиши движение энергии в учебной модели и сравни его с переносом тепла потоком жидкости."
+    },
+    {
+      "word": "descriptor",
+      "pos": "noun",
+      "meaningEn": "A word or statement used to describe a feature or define a category.",
+      "meaningRu": "Слово или формулировка, описывающие признак либо задающие категорию; дескриптор.",
+      "en": "The skill descriptor says the learner can explain a familiar process in a clear sequence. The teacher asks for an actual explanation instead of awarding the skill for opening a lesson.",
+      "ru": "Дескриптор навыка говорит, что ученик может объяснить знакомый процесс в ясной последовательности. Преподаватель просит настоящее объяснение, а не засчитывает навык за открытие урока.",
+      "phrase": "The skill descriptor",
+      "explanation": "Skill descriptor формулирует наблюдаемое умение. Это критерий описания, не сам результат проверки. Для лексики полезно назвать действие: explain, compare, request clarification.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/descriptor"
+      ],
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "Со skill descriptor напиши проверяемое описание навыка английского и придумай задание, которое его покажет."
+    },
+    {
+      "word": "deflection",
+      "pos": "noun",
+      "meaningEn": "A change in direction away from an original path or position.",
+      "meaningRu": "Отклонение от исходного направления или положения.",
+      "en": "A slight deflection of the ball changed its path toward the goal. The replay shows where it touched another player's foot before turning.",
+      "ru": "Небольшой рикошет изменил траекторию мяча в сторону ворот. На повторе видно, где мяч коснулся ноги другого игрока перед изменением направления.",
+      "phrase": "A slight deflection of the ball",
+      "explanation": "Deflection of a ball — отклонение его траектории, часто после касания. Deflect a question — переносно уклониться от вопроса или перевести разговор. В примере речь о физическом движении.",
+      "topic": {
+        "id": "interests",
+        "title": "Интересы и свободное время"
+      },
+      "task": "С deflection опиши вымышленный спортивный повтор: прежнее направление, касание и новый путь мяча."
+    },
+    {
+      "word": "descendent",
+      "displayHeadword": "descendent / descendant",
+      "lexicalType": "spelling-variant",
+      "pos": "noun",
+      "meaningEn": "A person or thing that comes from an earlier ancestor or source; a less common spelling of descendant.",
+      "meaningRu": "Потомок человека или производное от более раннего источника; менее распространённый вариант написания descendant.",
+      "en": "The old family note calls her a descendent of the town's first schoolteacher. In my summary, I'll use the more common spelling descendant and keep the same family relationship.",
+      "ru": "В старой семейной записке она названа потомком первого школьного учителя города. В своём пересказе я использую более распространённое написание descendant, сохранив ту же родственную связь.",
+      "phrase": "a descendent of",
+      "explanation": "Descendent допустим как вариант, но descendant более обычен. Descendant of someone — потомок; ancestor — предок. Здесь сохраняется написание исходного списка, а не придумывается отдельное новое значение.",
+      "usAlternative": "descendant",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/descendent"
+      ],
+      "topic": {
+        "id": "family",
+        "title": "Семья и отношения"
+      },
+      "task": "Опиши вымышленную родственную связь с descendant of и объясни, какой вариант встретился в старой записке."
+    },
+    {
+      "word": "neo",
+      "displayHeadword": "neo-",
+      "lexicalType": "combining-form",
+      "pos": "prefix",
+      "meaningEn": "A word element indicating a new or revived form of an earlier style, idea or movement.",
+      "meaningRu": "Словообразовательный элемент, обозначающий новую или возрождённую форму прежнего стиля, идеи или движения.",
+      "en": "The museum guide describes the building's neoclassical columns beside photographs of ancient temples. Visitors compare the later design with the older forms that inspired it.",
+      "ru": "Музейный путеводитель описывает неоклассические колонны здания рядом с фотографиями античных храмов. Посетители сравнивают более поздний проект со старыми формами, которые его вдохновили.",
+      "targetForms": [
+        "neoclassical"
+      ],
+      "phrase": "building's neoclassical columns",
+      "explanation": "В списке neo — учебная запись элемента neo-. В neoclassical он указывает на более позднее обращение к классическим формам. Это не самостоятельное слово в данной фразе; не добавляй neo- произвольно к любому прилагательному без проверки употребления.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/neo-"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "Объясни роль neo- в neoclassical и опиши вымышленное здание, которое использует более старые архитектурные формы."
+    },
+    {
+      "word": "café",
+      "displayHeadword": "café / cafe",
+      "lexicalType": "spelling-variant",
+      "pos": "noun",
+      "meaningEn": "A small place serving drinks and light meals; also commonly written cafe.",
+      "meaningRu": "Небольшое заведение, где подают напитки и лёгкую еду; кафе, также написание cafe.",
+      "en": "Let's meet at the café across from the station before our train leaves. It serves sandwiches until six, so we can get something to eat there.",
+      "ru": "Давай встретимся в кафе напротив вокзала перед отправлением нашего поезда. Сэндвичи там подают до шести, так что мы сможем перекусить.",
+      "phrase": "the café across from the station",
+      "explanation": "Café и cafe — варианты написания, используемые в английском, в том числе американском. Акцент над é не делает слово исключительно британским. Across from the station — напротив вокзала; cafe не обязательно продаёт только кофе.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/cafe"
+      ],
+      "topic": {
+        "id": "food",
+        "title": "Еда и питание"
+      },
+      "task": "Пригласи друга встретиться в вымышленном café или cafe: место, время и причина удобства перед поездкой."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "root",
+    "checkedAt": "2026-09-10",
+    "scope": "All meanings, English/Russian contexts, explanations, tasks and variant/word-formation boundaries read in full. No material defects; primer wording refined in chunk06."
+  }
+}

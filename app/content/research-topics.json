@@ -1,0 +1,1181 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-09",
+  "sources": [
+    {
+      "id": "cefr-2020",
+      "title": "Council of Europe — CEFR Companion Volume (2020)",
+      "url": "https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4",
+      "kind": "framework",
+      "scope": "Шкалы reception, production, interaction, mediation, plurilingual/pluricultural competence и language competences; главы 2–5, печатные с. 27–142. Уровни и сценарии в этом файле — редакционная адаптация, не официальный перечень тем CEFR."
+    },
+    {
+      "id": "cambridge-c1-handbook",
+      "title": "Cambridge English — C1 Advanced Handbook for Teachers",
+      "url": "https://www.cambridgeenglish.org/Images/167804-c1-advanced-handbook.pdf",
+      "kind": "exam-handbook",
+      "scope": "Проверены PDF с. 9, 30–35 и раздел Speaking. Сопоставление чтения, жанров письма и коммуникативной задачи; экзамен не заменяет всю программу языка."
+    },
+    {
+      "id": "cambridge-c2-handbook",
+      "title": "Cambridge English — C2 Proficiency Handbook for Teachers",
+      "url": "https://www.cambridgeenglish.org/Images/168194-c2-proficiency-teachers-handbook.pdf",
+      "kind": "exam-handbook",
+      "scope": "Версия for exams from 2023, 80 PDF-страниц. Проверены Writing PDF с. 27–30 и структура четырёх papers."
+    },
+    {
+      "id": "cambridge-c1-listening",
+      "title": "Cambridge English — Developing listening skills for C1 Advanced",
+      "url": "https://www.cambridgeenglish.org/Images/620562-c1-advanced-teacher-guide-for-listening.pdf",
+      "kind": "teacher-guide",
+      "scope": "Процесс слушания, работа с короткими фрагментами и audioscript, диагностика затруднений; проверено через извлечение PDF."
+    },
+    {
+      "id": "cambridge-c1-speaking",
+      "title": "Cambridge English — Assessing speaking: C1 Advanced",
+      "url": "https://www.cambridgeenglish.org/Images/735851-teacher-guide-for-speaking-c1-advanced.pdf",
+      "kind": "assessment-guide",
+      "scope": "Проверены критерии Grammatical/Lexical Resource, Discourse Management, Pronunciation, Interactive Communication и Global Achievement; PDF с. 3–10. Критерии используются как ориентир качества; более простые задачи — авторская адаптация, не задания экзамена C1."
+    },
+    {
+      "id": "cambridge-c2-writing",
+      "title": "Cambridge English — Assessing writing: C2 Proficiency",
+      "url": "https://www.cambridgeenglish.org/Images/600977-teacher-guide-for-writing-c2-proficiency.pdf",
+      "kind": "assessment-guide",
+      "scope": "Четыре независимые стороны письма: выполнение задачи, уместность для адресата, организация и язык; практика разных жанров и редактура."
+    },
+    {
+      "id": "english-profile",
+      "title": "English Profile — research programme and profile tools",
+      "url": "https://englishprofile.org/",
+      "kind": "research-programme",
+      "scope": "Корпусные ориентиры освоения английской грамматики и лексики A1–C2. Индивидуальные записи EVP/EGP в этой проверке не подтверждались; нельзя выводить точный CEFR отдельного слова по заголовку книги."
+    },
+    {
+      "id": "bc-a1-listening",
+      "title": "British Council — Meeting other students (A1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a1/meeting-other-students",
+      "kind": "open-practice",
+      "scope": "Внешнее аудио и transcript для проверки собственного понимания знакомства; упражнения источника не копируются."
+    },
+    {
+      "id": "bc-a2-listening",
+      "title": "British Council — Changing plans (A2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/changing-plans",
+      "kind": "open-practice",
+      "scope": "Внешняя запись бытового разговора с transcript; практика исходного и изменённого плана."
+    },
+    {
+      "id": "bc-b1-listening",
+      "title": "British Council — A phone call from a customer (B1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/b1/phone-call-customer?page=1",
+      "kind": "open-practice",
+      "scope": "Внешнее аудио телефонного взаимодействия с transcript; условие, просьба и подтверждение."
+    },
+    {
+      "id": "bc-b2-listening",
+      "title": "British Council — Film reviews (B2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/b2/film-reviews",
+      "kind": "open-practice",
+      "scope": "Внешнее аудио рецензий с transcript; сравнение ожидания, оценки и аргумента."
+    },
+    {
+      "id": "bc-c1-meeting",
+      "title": "British Council — A project management meeting (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/c1/project-management-meeting",
+      "kind": "open-practice",
+      "scope": "Внешняя запись нескольких участников и transcript для проверки распределения работы и изменения позиции."
+    },
+    {
+      "id": "bc-c1-writing",
+      "title": "British Council — C1 writing",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/writing/c1",
+      "kind": "open-course-index",
+      "scope": "Проверен набор жанров: essays, proposals, articles, reports, reviews, emails; новые задания ниже авторские. Само название жанра не определяет уровень: задания ниже уровнем созданы редакционно."
+    },
+    {
+      "id": "cambridge-c2-practice",
+      "title": "Cambridge English — C2 Proficiency preparation",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/qualifications/proficiency/preparation/",
+      "kind": "official-practice-index",
+      "scope": "Доступ к official sample tests, listening audio и tapescripts. Сайт источника нужен для настоящего слушания; текстовый ответ приложения не доказывает выполнение аудирования."
+    },
+    {
+      "id": "bc-audio-zone",
+      "title": "British Council — Audio zone",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/general/audio-zone",
+      "kind": "open-course-index",
+      "scope": "Записи живой речи говорящих из разных стран, уровни B2/C1; используются как мост к вариативности акцентов, без маркировки этих записей как C2."
+    },
+    {
+      "id": "oxford-ef-a1",
+      "title": "Oxford University Press — English File fifth edition A1: contents",
+      "url": "https://www.oup.es/wp-content/uploads/2025/01/EF5E-Spain-A1-TableContents-1.pdf",
+      "kind": "publisher-syllabus",
+      "scope": "Открытое оглавление: грамматика отдельно от чисел, алфавита, произношения и Practical English. Проверены 2 страницы; внутренние уроки учебника не скачивались."
+    },
+    {
+      "id": "oxford-ef-c1-c2",
+      "title": "Oxford University Press — English File fifth edition C1–C2: contents",
+      "url": "https://www.oup.es/wp-content/uploads/2025/01/EF5e-C1-C2-ADV-PLUS-SBWB-Contents-Spain-new.pdf",
+      "kind": "publisher-syllabus",
+      "scope": "Открытое оглавление, 4 страницы: академическое/художественное чтение, данные, устная реакция, акценты, жанры, Mediation Bank. Это сведения о содержании, не воспроизведение упражнений."
+    },
+    {
+      "id": "pearson-speakout-a2",
+      "title": "Pearson — Speakout third edition A2: scope and sequence",
+      "url": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/english/SampleMaterials/GeneralEnglish/speakout-3e/a2-level/SO3-A2-SandS.pdf",
+      "kind": "publisher-syllabus",
+      "scope": "Открытая карта 8 модулей: функции общения, чтение, аудио/видео, речь, письмо и медиация с A2; 2 PDF-страницы."
+    },
+    {
+      "id": "cambridge-pronunciation-intermediate",
+      "title": "Cambridge — English Pronunciation in Use Intermediate: contents",
+      "url": "https://assets.cambridge.org/97805210/06576/frontmatter/9780521006576_frontmatter.pdf",
+      "kind": "publisher-syllabus",
+      "scope": "Mark Hancock, открытая карта фонологических тем: звуки, слоги, окончания, ритм, связная речь, удержание очереди и уточнение. Подтверждён индексированный первичный PDF; практикумы A1–B1 ниже — наша адаптация, а не уровни, присвоенные издателем каждой теме."
+    },
+    {
+      "id": "cambridge-pronunciation-advanced",
+      "title": "Cambridge — English Pronunciation in Use Advanced: contents",
+      "url": "https://assets.cambridge.org/97811084/03498/toc/9781108403498_toc.pdf",
+      "kind": "publisher-syllabus",
+      "scope": "Martin Hewings, проверена первая страница оглавления: вариативность акцентов, быстрая речь, группы согласных, ударение, слабые формы и разговорные сокращения. Подтверждён индексированный первичный PDF, упражнения книги не копировались."
+    },
+    {
+      "id": "oxford-peu",
+      "title": "Oxford — Practical English Usage, fourth edition: contents",
+      "url": "https://www.oup.es/wp-content/uploads/2024/07/PracticalEnglishUsage4e-tabcont.pdf",
+      "kind": "publisher-syllabus",
+      "scope": "Michael Swan, оглавление; особенно разделы 25–30: информационная структура, письменная и устная речь, разновидности английского, орфография. Справочник не задаёт обязательный CEFR-порядок конструкций."
+    },
+    {
+      "id": "ngl-outcomes-sampler",
+      "title": "National Geographic Learning — Outcomes third edition: official sampler",
+      "url": "https://www.eltngl.com/digital/global/outcomes_3e/",
+      "kind": "publisher-sampler",
+      "scope": "Проверено публичное представление sampler с Upper Intermediate unit: разговор, чтение, аудирование, письмо и повторение. Содержимое всех учебников серии не проверялось и не переносилось."
+    },
+    {
+      "id": "ngl-listening-process",
+      "title": "Andrew Walkley / National Geographic Learning — How do we improve listening outcomes?",
+      "url": "https://infocus.eltngl.com/2023/08/24/improve-listening-outcomes/",
+      "kind": "author-methodology",
+      "scope": "Авторская методическая статья 24.08.2023: различение знания языка, распознавания звука/слов, извлечения смысла и построения понимания текста. Основание для диагностической процедуры, не независимое доказательство эффективности конкретного приложения."
+    }
+  ],
+  "topics": [
+    {
+      "id": "coverage-a1-identity-form",
+      "title": "Имя, адрес и числа: заполнить и подтвердить",
+      "level": "A1",
+      "skill": "interaction",
+      "why": "Знакомое be не гарантирует, что регистрация пройдёт без ошибки в имени или номере.",
+      "sourceIds": [
+        "cefr-2020",
+        "oxford-ef-a1",
+        "oxford-peu"
+      ],
+      "lessonIds": [
+        "path-be",
+        "path-questions-basic",
+        "research-spelling-numbers"
+      ],
+      "practicePrompt": "Учебная анкета: First name: Mira; Surname: Vale; City: York; Room: 16; Phone: 07000 123456. Используй только эти вымышленные данные. Заполни пять полей английскими подписями, затем напиши 5–6 реплик регистрации: представься, произнеси фамилию по буквам, уточни room sixteen или sixty и подтверди правильный номер. В конце запиши свои реплики голосом на 20–30 секунд. Проверка текста оценивает содержание; разборчивость цифр проверяй по записи.",
+      "successCriteria": [
+        "Все пять полей сохранены без изменения цифр.",
+        "Есть точное уточнение sixteen/sixty и подтверждение 16.",
+        "Фамилия передана по буквам; запись сохранена отдельно от текста."
+      ]
+    },
+    {
+      "id": "coverage-a1-notices",
+      "title": "Объявления: куда идти и когда",
+      "level": "A1",
+      "skill": "reading",
+      "why": "Нужно извлекать полезную информацию из короткого реального формата, а не только переводить предложение.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-place-time",
+        "path-instructions"
+      ],
+      "practicePrompt": "Прочитай три авторских объявления: A: Library. Open 9 am–6 pm, Monday to Friday. Closed at weekends. B: English club. Tuesday, 5 pm. Room 12. Bring a notebook. C: Lift out of order. Please use the stairs. Ты пришёл во вторник в 4:45 pm на English club. Ответь по-английски: куда и во сколько идти, что взять, как подняться; работает ли библиотека в субботу? Напиши 5 коротких предложений, без выбора вариантов.",
+      "successCriteria": [
+        "Указаны Tuesday, 5 pm, Room 12 и notebook.",
+        "Для подъёма выбрана лестница.",
+        "Субботнее закрытие библиотеки не перепутано с часами клуба."
+      ]
+    },
+    {
+      "id": "coverage-a1-first-exchange",
+      "title": "Знакомство: отвечать и задавать встречный вопрос",
+      "level": "A1",
+      "skill": "interaction",
+      "why": "Монолог о себе не тренирует поддержание двустороннего обмена.",
+      "sourceIds": [
+        "cefr-2020",
+        "oxford-ef-a1"
+      ],
+      "lessonIds": [
+        "path-questions-basic",
+        "path-be"
+      ],
+      "practicePrompt": "Собеседник пишет: Hi, I'm Leo. I'm new here. I live near the station. What do you do? Дай ответ о себе или вымышленном взрослом персонаже и задай встречный вопрос. Затем ответь на следующую реплику: I work in a café. I start at seven. Do you work in the morning? Наконец попроси повторить непонятное время начала работы. Напиши три свои реплики по 1–2 предложения. Если говоришь, сначала ответь вслух, а текст исправь после записи.",
+      "successCriteria": [
+        "Ответы связаны с каждой входящей репликой.",
+        "Есть хотя бы один встречный вопрос.",
+        "Последний вопрос уточняет время, а не повторяет весь диалог."
+      ]
+    },
+    {
+      "id": "coverage-a1-relay-instruction",
+      "title": "Передать простую инструкцию другому человеку",
+      "level": "A1",
+      "skill": "mediation",
+      "why": "Медиация начинается с короткой полезной передачи смысла, задолго до академического синтеза.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-instructions",
+        "path-place-time"
+      ],
+      "practicePrompt": "Сообщение хозяина квартиры: The key is in the blue box. The box is next to the door. Please close the window before you leave. Твой русскоязычный друг не понял сообщение. Передай ему по-русски три действия/ориентира. Затем напиши хозяину две короткие английские фразы: где находится ключ и что ты сделаешь перед уходом. Не придумывай код коробки: его в тексте нет.",
+      "successCriteria": [
+        "Русская передача сохраняет цвет коробки и положение у двери.",
+        "Закрытие окна связано с уходом.",
+        "Код, время и другие отсутствующие детали не выдуманы."
+      ]
+    },
+    {
+      "id": "coverage-a1-audio-identity",
+      "title": "Настоящее аудио: собрать сведения о собеседниках",
+      "level": "A1",
+      "skill": "listening",
+      "why": "Результат слушания нужно отделять от чтения открытого transcript.",
+      "sourceIds": [
+        "bc-a1-listening"
+      ],
+      "lessonIds": [
+        "listening"
+      ],
+      "practicePrompt": "Открой British Council Meeting other students: https://learnenglish.britishcouncil.org/free-resources/listening/a1/meeting-other-students. Сначала скрой Transcript и прослушай запись. Запиши по-английски имена участников и по одной понятой детали о двух людях; неизвестное пометь ?. После второго прослушивания открой transcript и исправь заметки другим абзацем. Отправь: первую попытку, исправленную версию и два места, которые спутал или не расслышал. Для каждого добавь короткую опорную фразу transcript и объяснение своими словами. Если аудио недоступно, пометь работу как чтение, не как аудирование.",
+      "successCriteria": [
+        "Сохранена попытка до открытия transcript, включая неизвестное.",
+        "Исправления подтверждены двумя короткими фрагментами источника.",
+        "Не заявлено успешное слушание, если использовался только текст."
+      ]
+    },
+    {
+      "id": "coverage-a1-sound-contrast",
+      "title": "Разборчивость: одно слово меняет сообщение",
+      "level": "A1",
+      "skill": "pronunciation",
+      "why": "Одинаковая расшифровка не доказывает различимость звуков для слушателя.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-pronunciation-intermediate",
+        "oxford-ef-a1"
+      ],
+      "lessonIds": [
+        "path-sound-basics",
+        "research-sound-w-v-th"
+      ],
+      "practicePrompt": "Авторские пары сообщений: We need a wet towel / We need a vet today; This is a thin book / This is a tin box. Объясни по-русски, какое слово меняет смысл каждой пары. Запиши четыре фразы в перемешанном порядке и отдельно сохрани ключ порядка. Прослушай запись позже, не глядя на текст, либо попроси человека записать услышанные ключевые слова. В ответе укажи порядок, что было распознано и одну конкретную правку произнесения. Текстовый ИИ проверяет объяснение и план, но не может по расшифровке оценить /w/, /v/, /θ/.",
+      "successCriteria": [
+        "Различие смысла wet/vet и thin/tin объяснено.",
+        "Есть запись и сравнение услышанных ключевых слов с ключом.",
+        "Выбрана конкретная следующая попытка, а не цель убрать весь акцент."
+      ]
+    },
+    {
+      "id": "coverage-a1-online-reply",
+      "title": "Короткий пост и ответ на приглашение",
+      "level": "A1",
+      "skill": "writing",
+      "why": "Письменное взаимодействие требует ответа на чужую просьбу, а не одного автономного текста.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [],
+      "practicePrompt": "В учебном чате появилось: Hi! I'm Sam. I like films and coffee. We meet at the café on Friday at 4. Can you come? Напиши 25–40 слов: представься, назови один общий интерес, скажи, можешь ли прийти, и задай вопрос о кафе. Затем пришла реплика: The Green Café, next to the station. Напиши отдельное короткое подтверждение места. Используй вымышленные данные; не отправляй сообщение во внешний чат.",
+      "successCriteria": [
+        "Первая реплика отвечает на can you come и содержит вопрос о месте.",
+        "Подтверждение учитывает новое название и ориентир.",
+        "Текст понятен без сложных конструкций и лишних личных данных."
+      ]
+    },
+    {
+      "id": "coverage-a1-word-use",
+      "title": "Новое слово: смысл, форма и собственная фраза",
+      "level": "A1",
+      "skill": "vocabulary",
+      "why": "Карточка с одним переводом не показывает, умеет ли ученик использовать слово в ситуации.",
+      "sourceIds": [
+        "english-profile"
+      ],
+      "lessonIds": [
+        "path-countability",
+        "path-adjectives-frequency"
+      ],
+      "practicePrompt": "Сравни авторские примеры: The shop is open. Please open the door. I have some water. Please water the plant. Для open и water запиши по-русски два разных употребления, затем составь четыре новые короткие английские фразы по картинкам, которые ты вообразишь: открытый музей, просьба открыть окно, стакан воды, уход за растением. Подчеркни целевое слово квадратными скобками. Сделай одну карточку на употребление, а не один перевод на все случаи.",
+      "successCriteria": [
+        "Различены действие и описание/предмет в каждом случае.",
+        "Четыре новые фразы сохраняют нужный смысл и грамматическое окружение.",
+        "Карточки дают ситуацию для воспроизведения, а не только перевод."
+      ]
+    },
+    {
+      "id": "coverage-a2-audio-change",
+      "title": "Изменение планов: исходное, новое, согласованное",
+      "level": "A2",
+      "skill": "listening",
+      "why": "При изменении договорённости легко запомнить первый вариант вместо итогового.",
+      "sourceIds": [
+        "bc-a2-listening"
+      ],
+      "lessonIds": [
+        "path-listening-routine"
+      ],
+      "practicePrompt": "Открой Changing plans: https://learnenglish.britishcouncil.org/free-resources/listening/a2/changing-plans. Не читай Transcript до двух прослушиваний. Составь три строки на английском: original plan, reason for changing it, final arrangement. Пометь неуверенные детали. Затем проверь transcript и добавь абзац What I corrected с двумя конкретными исправлениями или подтверждениями и короткими опорными фразами. Заверши собственным сообщением другу из 40–60 слов об изменении другого плана. Проверка в приложении опирается на приложенные заметки и фрагменты, а не на факт воспроизведения аудио.",
+      "successCriteria": [
+        "Первоначальный план отделён от итоговой договорённости.",
+        "Показана проверка минимум двух деталей по transcript.",
+        "Собственное сообщение содержит изменение и просьбу подтвердить."
+      ]
+    },
+    {
+      "id": "coverage-a2-telephone-slot",
+      "title": "Телефон: перенести запись и переспросить",
+      "level": "A2",
+      "skill": "interaction",
+      "why": "Телефон убирает жесты и зрительные подсказки; требуется явное подтверждение времени.",
+      "sourceIds": [
+        "cefr-2020",
+        "pearson-speakout-a2"
+      ],
+      "lessonIds": [
+        "research-telephone-messages",
+        "path-polite-questions"
+      ],
+      "practicePrompt": "Твои данные: appointment Thursday 14 May, 3:30 pm; ты свободен Friday 15 May после 2 pm. Администратор говорит: We have Friday at two fifteen or four thirty. Напиши первую реплику с просьбой перенести запись и ответ на предложение. Затем администратор переспрашивает: So, Thursday at four thirty? Исправь день, подтверди выбранное время и спроси, нужно ли что-то принести. Напиши 5–7 своих коротких фраз; затем озвучь без чтения на 40–60 секунд.",
+      "successCriteria": [
+        "Выбран один из реально предложенных пятничных слотов.",
+        "Ошибка Thursday исправлена явно.",
+        "Финальная договорённость включает день и время, есть уточняющий вопрос."
+      ]
+    },
+    {
+      "id": "coverage-a2-service-repair",
+      "title": "Небольшая проблема: объяснить и предложить исправление",
+      "level": "A2",
+      "skill": "interaction",
+      "why": "Знать слова еды или отеля недостаточно для исправления конкретного сбоя в обслуживании.",
+      "sourceIds": [
+        "cefr-2020",
+        "pearson-speakout-a2",
+        "ngl-outcomes-sampler"
+      ],
+      "lessonIds": [
+        "research-apologies-remedies",
+        "research-ordering-checkout"
+      ],
+      "practicePrompt": "Учебная ситуация: ты заказал vegetable soup без хлеба; принесли chicken soup и хлеб. Ты не хочешь обвинять сотрудника. Напиши первую просьбу исправить заказ. Сотрудник отвечает: I'm sorry. We have no vegetable soup left. We can offer a salad or give you your money back. Дай ответ, выбрав допустимое решение, и уточни одну важную деталь. Затем поменяй роль и напиши короткое извинение сотрудника с реальным следующим действием. Всего 70–100 слов.",
+      "successCriteria": [
+        "Ошибка заказа описана конкретно и вежливо.",
+        "Решение выбрано из предложенных, без выдуманных гарантий.",
+        "Извинение сопровождается действием, а не только sorry."
+      ]
+    },
+    {
+      "id": "coverage-a2-scan-options",
+      "title": "Выбрать предложение по нескольким условиям",
+      "level": "A2",
+      "skill": "reading",
+      "why": "Чтение для решения задачи требует объединять время, цену и ограничения.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-comparatives",
+        "path-place-time"
+      ],
+      "practicePrompt": "Авторские объявления: A: Art class, Saturday 10–12, £12. All materials included. Beginners welcome. B: Art class, Saturday 2–4, £8. Bring your own paints. For experienced students. C: Art class, Sunday 11–1, £15. Materials included. Beginners welcome. Ты новичок, свободен только в субботу, красок нет, бюджет £15. Напиши 60–80 слов по-английски: выбери подходящий класс, объясни, почему другие два не подходят, и задай организатору вопрос о записи. Не нужно выбирать буквенный ответ без объяснения.",
+      "successCriteria": [
+        "Все четыре условия учтены.",
+        "Причины исключения B и C различаются и опираются на текст.",
+        "Есть практический вопрос о регистрации."
+      ]
+    },
+    {
+      "id": "coverage-a2-relay-message",
+      "title": "Передать сообщение и сохранить срок",
+      "level": "A2",
+      "skill": "mediation",
+      "why": "Краткий пересказ полезен только при сохранении того, что адресату нужно сделать.",
+      "sourceIds": [
+        "cefr-2020",
+        "pearson-speakout-a2"
+      ],
+      "lessonIds": [
+        "path-email-basic",
+        "path-instructions"
+      ],
+      "practicePrompt": "Сообщение организатора: The club meeting has moved from Room 3 to Room 8. It still starts at 6 pm on Wednesday. Please email your topic by Tuesday evening. If you need a projector, tell us in the same email. Русскоязычный друг спрашивает только, где встреча и что ему сделать заранее. Напиши ему по-русски 2–3 предложения, затем подготовь английское письмо организатору на 45–65 слов с темой выступления и просьбой о проекторе. Темой пусть будет your favourite city.",
+      "successCriteria": [
+        "Новая комната не перепутана с прежней.",
+        "Сохранены Wednesday 6 pm и Tuesday evening.",
+        "Письмо содержит тему и просьбу о проекторе; не добавлены новые условия."
+      ]
+    },
+    {
+      "id": "coverage-a2-small-narrative",
+      "title": "Короткая история с ясным порядком событий",
+      "level": "A2",
+      "skill": "writing",
+      "why": "Список предложений в past simple ещё не становится понятным рассказом.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-past-simple",
+        "path-connectors-basic"
+      ],
+      "practicePrompt": "Авторские факты для истории: Saturday; you planned to visit a museum; the bus was late; you met an old classmate at the stop; you went to a café together; the museum closed at five; it was already after five when you left the café; you decided to visit it next weekend. Напиши 80–100 слов другу: начало, неожиданность и итог. Не меняй причины и порядок. Заверши одной личной реакцией, которую можно придумать. Затем сократи ту же историю до трёх предложений, сохранив главное.",
+      "successCriteria": [
+        "Порядок позволяет понять, почему посещение музея перенесли.",
+        "Основные факты сохранены, личная реакция отделена от них.",
+        "Краткая версия остаётся самостоятельной и понятной."
+      ]
+    },
+    {
+      "id": "coverage-a2-endings-rhythm",
+      "title": "Окончания и ударение в понятном сообщении",
+      "level": "A2",
+      "skill": "pronunciation",
+      "why": "Грамматическая форма должна быть слышна, но не превращать каждое окончание в отдельный слог.",
+      "sourceIds": [
+        "cefr-2020",
+        "pearson-speakout-a2",
+        "cambridge-pronunciation-intermediate"
+      ],
+      "lessonIds": [
+        "research-ending-s-ed",
+        "research-schwa-wordstress"
+      ],
+      "practicePrompt": "Запиши авторское сообщение: Yesterday I walked to the shops, waited for a friend and visited the market. She buys books and watches films. До записи отметь, где в walked, waited, visited добавляется отдельный слог, и где слышно окончание buys/watches. Затем прослушай: не потерялись ли прошедшее время и число, не одинаково ли выделены все слова? В ответе дай свою разметку, одну замеченную проблему и исправленную запись. ИИ по тексту проверяет разметку; качество звука оценивается по самой записи.",
+      "successCriteria": [
+        "Разметка различает слоговые и неслоговые окончания.",
+        "Есть сравнение первой и исправленной записи.",
+        "Смысловые слова выделены без требования имитировать один идеальный акцент."
+      ]
+    },
+    {
+      "id": "coverage-a2-chat-decision",
+      "title": "Групповой чат: согласовать встречу",
+      "level": "A2",
+      "skill": "interaction",
+      "why": "Последовательные ответы в ветке требуют следить за ограничениями разных людей.",
+      "sourceIds": [
+        "cefr-2020",
+        "pearson-speakout-a2"
+      ],
+      "lessonIds": [
+        "path-future-plans",
+        "path-email-basic"
+      ],
+      "practicePrompt": "Учебный чат: Maya: I can meet on Saturday after two. Ben: Saturday is fine, but I must leave at four. Li: The park is free, but the forecast says rain. The café has a table at three. Твоя задача — ответить 50–70 словами: предложить выполнимый вариант, назвать причину, уточнить ещё не согласованную деталь. Затем добавь ответ на новую реплику Ben: Three is too late for me; I need to leave at three now. Пересмотри план, не делая вид, что все уже согласны.",
+      "successCriteria": [
+        "Первая версия учитывает исходные ограничения.",
+        "После новой реплики план действительно изменён или запрошено новое время.",
+        "Не выдумано единогласное согласие остальных участников."
+      ]
+    },
+    {
+      "id": "coverage-b1-call-conditions",
+      "title": "Телефонный разговор: просьба, исключение и подтверждение",
+      "level": "B1",
+      "skill": "listening",
+      "why": "Слушателю нужно удерживать ограничения и итог, даже если он понял общую тему.",
+      "sourceIds": [
+        "bc-b1-listening"
+      ],
+      "lessonIds": [
+        "listening",
+        "research-telephone-messages"
+      ],
+      "practicePrompt": "Открой A phone call from a customer: https://learnenglish.britishcouncil.org/free-resources/listening/b1/phone-call-customer?page=1. Дважды прослушай без Transcript. Запиши на английском: чего просит клиент, почему собеседник сначала сомневается и что согласовано к концу. Затем сверь текст и подготовь собственное письмо-подтверждение на 70–100 слов. В ответ добавь первоначальные заметки и две короткие опорные фразы transcript, объясняющие твои исправления. Не выдавай разовое исключение за постоянное изменение правил. При недоступном аудио явно пометь работу как чтение.",
+      "successCriteria": [
+        "Просьба, препятствие и итог не смешаны.",
+        "Письмо сохраняет ограниченный характер договорённости.",
+        "Два вывода проверяемы по приложенным фрагментам, а первая попытка сохранена."
+      ]
+    },
+    {
+      "id": "coverage-b1-follow-up-interview",
+      "title": "Интервью: вопрос из предыдущего ответа",
+      "level": "B1",
+      "skill": "interaction",
+      "why": "Заготовленный список вопросов не тренирует реакцию на действительно полученную информацию.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-speaking",
+        "ngl-outcomes-sampler"
+      ],
+      "lessonIds": [
+        "path-repair-conversation",
+        "research-application-interview"
+      ],
+      "practicePrompt": "Ты берёшь учебное интервью о волонтёрстве. Входящие ответы: 1) I joined last spring because my friend needed help at an event. 2) At first I only checked tickets, but now I train new volunteers. 3) The hardest part is when several people ask me questions at the same time. Напиши после каждого ответа новый уточняющий вопрос, который связан именно с ним. Затем составь 80–100 слов профиля человека, различая известные факты и вопросы без ответа. Не добавляй возраст, оплату или профессию. При голосовой работе отвечай на каждый пункт отдельно, без готового полного сценария.",
+      "successCriteria": [
+        "Три follow-up questions используют разные детали ответов.",
+        "Профиль сохраняет изменение обязанностей во времени.",
+        "Отсутствующие сведения не превращены в факты."
+      ]
+    },
+    {
+      "id": "coverage-b1-procedure-exceptions",
+      "title": "Прочитать инструкцию с условием и исключением",
+      "level": "B1",
+      "skill": "reading",
+      "why": "В бытовой инструкции главный смысл часто находится в исключении или порядке действий.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-reading-inference",
+        "path-instructions"
+      ],
+      "practicePrompt": "Авторская инструкция приложения: Before importing your notes, save a backup of your current collection. Choose Import and select one JSON file. Existing notes with matching IDs will be updated; notes with new IDs will be added. If the file is larger than 10 MB, split it into smaller files first. Do not close the app until the confirmation message appears. Images are not included in this import. Напиши по-английски: последовательность действий для файла 12 MB, что произойдёт с совпавшими IDs, и одно действие, которое инструкция не выполняет. Заверши сообщением на 60–80 слов новичку. Это чтение инструкции, выполнять импорт на компьютере не нужно.",
+      "successCriteria": [
+        "Файл 12 MB разделяется до импорта, резервная копия делается первой.",
+        "Обновление существующих заметок отличено от создания новых.",
+        "Отсутствие импорта изображений и ожидание подтверждения сохранены."
+      ]
+    },
+    {
+      "id": "coverage-b1-explain-for-friend",
+      "title": "Объяснить понятие через понятный пример",
+      "level": "B1",
+      "skill": "mediation",
+      "why": "Пересказ тех же сложных слов не помогает адресату, который не знает предмета.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-repair-conversation",
+        "path-word-formation"
+      ],
+      "practicePrompt": "Авторский источник: A backup is a separate copy of your files. It can help you recover them if the original is lost or damaged. Synchronisation keeps selected folders up to date across devices. If a deletion is synchronised, the file may disappear from more than one device. A service may keep older versions, but this depends on its settings. Объясни русскоязычному другу разницу без жаргона в 3–4 предложениях. Затем напиши простое английское объяснение на 80–100 слов с одним бытовым примером и вопросом, проверяющим понимание. Не обещай, что любой сервис всегда восстановит файл.",
+      "successCriteria": [
+        "Различены отдельная копия и синхронное обновление.",
+        "Пример не противоречит возможности синхронизации удаления.",
+        "Условие об истории версий сохранено; вопрос проверяет смысл, а не только согласие."
+      ]
+    },
+    {
+      "id": "coverage-b1-useful-review",
+      "title": "Рецензия, которая помогает выбрать",
+      "level": "B1",
+      "skill": "writing",
+      "why": "Оценка понравилось/не понравилось должна превращаться в полезную рекомендацию для определённого читателя.",
+      "sourceIds": [
+        "cefr-2020",
+        "bc-c1-writing"
+      ],
+      "lessonIds": [
+        "research-review-writing"
+      ],
+      "practicePrompt": "Авторская карточка фильма Quiet Platform: 95 minutes; a student misses the last train and spends the night talking to a station cleaner; slow pace; clear everyday dialogue; no action scenes; ending is hopeful but not explained completely. Напиши рецензию на 110–140 слов для друга, который учит английский и любит разговорные истории, но не любит жестокость. Используй только данные карточки: отсутствие сведений о жестокости не доказывает её отсутствия. Укажи, что нужно проверить отдельно. Дай рекомендацию по двум критериям и не сочиняй финал.",
+      "successCriteria": [
+        "Рекомендация адресована конкретным интересам друга.",
+        "Оценка подкреплена темпом, диалогами или завязкой.",
+        "Неизвестный возрастной/контентный рейтинг обозначен как неизвестный."
+      ]
+    },
+    {
+      "id": "coverage-b1-meaning-without-word",
+      "title": "Объяснить незнакомое слово и не потерять очередь",
+      "level": "B1",
+      "skill": "vocabulary",
+      "why": "Продуктивный словарь включает обход незнакомого слова и выбор нужного значения знакомого.",
+      "sourceIds": [
+        "english-profile",
+        "cefr-2020",
+        "oxford-peu"
+      ],
+      "lessonIds": [
+        "path-repair-conversation",
+        "word-building"
+      ],
+      "practicePrompt": "Представь, что забыл английские слова для зарядного устройства, отвёртки и подписки. Для каждого напиши объяснение на английском через функцию, ситуацию и один пример, не называя само слово. Затем собеседник говорит: Do you mean a charger? Ответь так, чтобы подтвердить слово и продолжить просьбу, а не только повторить его. В конце сравни charge your phone и charge a fee: поясни по-русски два смысла и создай по одному собственному примеру. Общий ответ 100–130 слов плюс короткие пояснения.",
+      "successCriteria": [
+        "Каждое описание позволяет различить предмет/услугу по функции.",
+        "Подтверждение charger возвращает разговор к исходной цели.",
+        "Два значения charge не сведены к одному русскому эквиваленту."
+      ]
+    },
+    {
+      "id": "coverage-b1-speech-boundaries",
+      "title": "Смысловые группы: сделать объяснение удобным на слух",
+      "level": "B1",
+      "skill": "pronunciation",
+      "why": "Паузы и слабые формы влияют на разборчивость целой мысли, а не только отдельных звуков.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-speaking",
+        "cambridge-pronunciation-intermediate",
+        "cambridge-pronunciation-advanced"
+      ],
+      "lessonIds": [
+        "path-connected-speech",
+        "research-connected-boundaries"
+      ],
+      "practicePrompt": "Разметь авторское сообщение символом / для смысловых групп: If you finish the form today, I can check it tomorrow, but I won't be able to send it until Friday. Запиши две версии: с паузами по смыслу и намеренно с неудобной паузой внутри короткой фразы. Прослушай и объясни, какая версия помогает различить условие, проверку и отправку. Затем переделай сообщение для друга своими словами и запиши ещё раз. В текстовом ответе сохрани разметку и анализ; чтение этой строки с экрана само по себе не является тестом аудирования.",
+      "successCriteria": [
+        "Условие, tomorrow и Friday относятся к правильным действиям.",
+        "Сравнение опирается на конкретные паузы и смысл, а не на общую оценку акцента.",
+        "Новая версия сохраняет срок отправки и отрицательное ограничение."
+      ]
+    },
+    {
+      "id": "coverage-b1-two-versions-story",
+      "title": "История для друга и фактическая запись события",
+      "level": "B1",
+      "skill": "discourse",
+      "why": "Один и тот же случай требует разной структуры в личном рассказе и деловой записи.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-narrative",
+        "path-register-b2"
+      ],
+      "practicePrompt": "Факты: at 8:40 you arrived at the station; the board showed a 20-minute delay; at 9:05 the train was cancelled; you called your colleague at 9:10; she moved the meeting from 10 to 11; you took a bus and arrived at 10:45. Напиши другу рассказ на 100–130 слов с личной реакцией. Затем составь рабочую заметку на 50–70 слов: причина изменения, принятые действия и результат. В деловой версии не приписывай железной дороге причины отмены, которых в данных нет.",
+      "successCriteria": [
+        "Времена и причинные связи не перепутаны.",
+        "Личная реакция не подменяет факты деловой заметки.",
+        "Сокращение сохраняет перенос встречи и итоговое прибытие."
+      ]
+    },
+    {
+      "id": "coverage-b2-audio-evaluation",
+      "title": "Аудиорецензии: ожидание, оценка и аргумент",
+      "level": "B2",
+      "skill": "listening",
+      "why": "Отдельные положительные слова могут встречаться внутри отрицательной общей оценки.",
+      "sourceIds": [
+        "bc-b2-listening",
+        "cambridge-c1-listening",
+        "ngl-listening-process"
+      ],
+      "lessonIds": [
+        "listening",
+        "research-listening-decoding"
+      ],
+      "practicePrompt": "Открой Film reviews: https://learnenglish.britishcouncil.org/free-resources/listening/b2/film-reviews. До Transcript прослушай запись и запиши по двум фильмам: исходное ожидание, итоговую оценку и два основания. Затем проверь текст. В ответе сохрани первоначальную таблицу, исправленный абзац на 100–130 слов и две короткие опорные фразы, в которых буквальное слово могло ввести в заблуждение. Объясни собственными словами, как контекст меняет чтение. Приложение проверяет представленные доказательства и язык, но не подтверждает, слушал ли ты запись без текста.",
+      "successCriteria": [
+        "Ожидание отделено от итогового впечатления по каждому фильму.",
+        "Оценка подкреплена двумя причинами, а не только тональностью слова.",
+        "Неоднозначные места объяснены с опорой на локальный контекст."
+      ]
+    },
+    {
+      "id": "coverage-b2-complaint-resolution",
+      "title": "Жалоба: факт, последствие, конкретное решение",
+      "level": "B2",
+      "skill": "writing",
+      "why": "Формальная вежливость без доказательств и выполнимой просьбы не решает проблему.",
+      "sourceIds": [
+        "cefr-2020",
+        "bc-c1-writing"
+      ],
+      "lessonIds": [
+        "research-complaint-resolution",
+        "writing"
+      ],
+      "practicePrompt": "Авторские данные: ты купил онлайн-курс за £80; страница покупки обещала 12 lessons and downloadable worksheets; доступ открылся 2 June; доступны только lessons 1–6; кнопки worksheets дают error; support replied 4 June: We are investigating, but we cannot give a date yet. Напиши письмо на 150–180 слов: факты, влияние на план обучения, разумное желаемое решение и срок ответа, который ты предлагаешь, а не объявляешь юридической обязанностью. Затем напиши возможный ответ поддержки на 60–80 слов, сохранив неизвестный срок устранения.",
+      "successCriteria": [
+        "Отделены обещанные материалы, наблюдаемая проблема и запрос.",
+        "Предложен конкретный способ урегулирования без выдуманных правовых гарантий.",
+        "Ответ поддержки не обещает неустановленную дату исправления."
+      ]
+    },
+    {
+      "id": "coverage-b2-data-summary",
+      "title": "Объяснить таблицу без придуманной причины",
+      "level": "B2",
+      "skill": "mediation",
+      "why": "Работа с данными проверяет точность чисел, масштаба и допустимого вывода.",
+      "sourceIds": [
+        "cefr-2020",
+        "bc-c1-writing"
+      ],
+      "lessonIds": [
+        "research-report-data",
+        "path-critical-reading"
+      ],
+      "practicePrompt": "Учебная таблица библиотеки. Visits: January 800, February 1000, March 900. Evening classes: January 4, February 6, March 6. Survey in March: 40 respondents; 28 requested later opening. Напиши 150–180 слов руководителю: главные изменения, одно сравнение и осторожная рекомендация. Затем объясни вывод русскоязычному посетителю в 3 предложениях. Данные не показывают причину изменения посещений и не гарантируют, что 40 ответивших представляют всех посетителей.",
+      "successCriteria": [
+        "800→1000 описано как рост на 200/25%, 1000→900 — снижение на 100/10%, если приводятся проценты.",
+        "28 из 40 не превращены в мнение всех посетителей.",
+        "Рекомендация соразмерна данным, причинность не выдумана."
+      ]
+    },
+    {
+      "id": "coverage-b2-collaborative-choice",
+      "title": "Совместное решение с реальным ограничением",
+      "level": "B2",
+      "skill": "interaction",
+      "why": "Самостоятельный аргумент не проверяет, меняет ли ученик предложение после возражения.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-speaking"
+      ],
+      "lessonIds": [
+        "path-discussion-b2"
+      ],
+      "practicePrompt": "Учебный выбор мероприятия: workshop £300/20 people/indoors; walking tour £160/12 people/outdoors; discussion evening £100/25 people/indoors. Budget £250, expected group 18. Коллега предлагает: The walking tour is cheaper and more memorable. Ответь, признай сильную сторону и уточни ограничение. Затем новая информация: Five people have cancelled, and rain is likely. Пересмотри рекомендацию, предложи запасной вариант и попроси коллегу подтвердить решение. Сохрани две свои последовательные реплики общей длиной 140–180 слов. Это тренажёр реакции на заданные ходы; живой диалог проверяется отдельно.",
+      "successCriteria": [
+        "В первой реплике замечена вместимость и бюджет.",
+        "Новая информация действительно влияет на рассуждение.",
+        "Итог включает запасной вариант и явное подтверждение согласия."
+      ]
+    },
+    {
+      "id": "coverage-b2-online-reference",
+      "title": "Читать ветку: кто с чем согласился",
+      "level": "B2",
+      "skill": "reading",
+      "why": "Местоимения, цитирование и короткие ответы онлайн легко создают ложное впечатление согласия.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-handbook"
+      ],
+      "lessonIds": [
+        "path-reading-inference",
+        "path-substitution"
+      ],
+      "practicePrompt": "Авторская ветка: Anna: Let's record every meeting so absent colleagues can catch up. Ben: I support helping absent colleagues, but not recording private discussions. Cara: That concern is reasonable. We could record the training section only. Dan: Fine by me, as long as people know before it starts. Напиши 130–160 слов: карта позиций всех четырёх; к чему относятся that concern и it; что действительно согласовано и что ещё требует уточнения. Затем добавь свой ответ в ветку с одним точным вопросом. Не считай поддержку общей цели согласием на любой способ.",
+      "successCriteria": [
+        "Позиция Ben не сведена к полному отказу помогать коллегам.",
+        "That concern и it связаны с подходящими объектами обсуждения.",
+        "Условное согласие Dan и необходимость уточнить границы записи сохранены."
+      ]
+    },
+    {
+      "id": "coverage-b2-colligation",
+      "title": "Сочетание и управление: слово в конструкции",
+      "level": "B2",
+      "skill": "grammar",
+      "why": "Список сложных слов не заменяет знания того, какие дополнения и формы они допускают.",
+      "sourceIds": [
+        "english-profile",
+        "oxford-peu"
+      ],
+      "lessonIds": [
+        "verb-patterns",
+        "path-verb-patterns-advanced",
+        "path-preposition-patterns"
+      ],
+      "practicePrompt": "Сравни авторские модели: She suggested meeting earlier. She suggested that we meet earlier. He advised us to wait. They prevented us from entering. Переведи самостоятельно: 1) Я предложил проверить данные ещё раз. 2) Она посоветовала мне сохранить копию. 3) Шум помешал нам услышать ответ. Затем напиши 90–120 слов об улучшении учебного процесса, используя два из этих речевых действий. Объясни, почему механическая схема verb + somebody + to do не подходит ко всем четырём моделям. Уровень B2 здесь — место повторения в маршруте, а не утверждение о точном уровне каждой записи English Profile.",
+      "successCriteria": [
+        "Дополнение и форма после suggested/advised/prevented выбраны по конструкции.",
+        "Свободный текст использует модели с естественным смыслом.",
+        "Объяснение различает слово, его значение и управление, без универсального правила для всех глаголов."
+      ]
+    },
+    {
+      "id": "coverage-b2-application-evidence",
+      "title": "Заявка и интервью: доказывать опыт примером",
+      "level": "B2",
+      "skill": "writing",
+      "why": "Общие характеристики hardworking и motivated не показывают способность выполнять конкретную задачу.",
+      "sourceIds": [
+        "cefr-2020",
+        "bc-c1-writing"
+      ],
+      "lessonIds": [
+        "research-application-interview"
+      ],
+      "practicePrompt": "Учебная вакансия: part-time community assistant; welcome visitors, organise a weekly email and help at Saturday events. Опыт кандидата: volunteered at three local events; wrote a monthly newsletter for a small club; helped a new member learn the booking system; available Saturdays after 11 am. Напиши заявку на 150–180 слов, связывая требования с реальными примерами. Затем ответь на интервью-вопрос: Tell me about a time you helped someone understand a process. Для вымышленного примера явно обозначь, что это репетиция, а не факт своей биографии. Не скрывай ограничение по субботнему времени.",
+      "successCriteria": [
+        "Каждое заявленное качество поддержано данным из карточки или явно вымышленной репетицией.",
+        "Субботняя доступность передана точно.",
+        "Ответ на интервью показывает действие кандидата и результат, а не набор прилагательных."
+      ]
+    },
+    {
+      "id": "coverage-b2-structured-long-turn",
+      "title": "Устный ответ: сравнить и сделать вывод",
+      "level": "B2",
+      "skill": "discourse",
+      "why": "Длинная речь должна отвечать на вопрос, а не перечислять всё, что удалось вспомнить.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-speaking"
+      ],
+      "lessonIds": [
+        "speaking",
+        "path-discussion-b2"
+      ],
+      "practicePrompt": "Сравни две авторские ситуации: A — twelve learners discuss a short article in pairs, then exchange partners; B — one learner watches a recorded lecture alone and writes questions afterwards. Вопрос: Which setting may help a shy learner speak more, and what support would each setting need? Подготовь только пять ключевых слов, затем запиши 60–90 секунд: общий критерий, сравнение, ограничение и условный вывод. После записи добавь ответ на возражение: But pair work can also feel stressful. Сохрани краткий саморазбор: ответил ли ты на вопрос, где повторялся, какое уточнение улучшило мысль.",
+      "successCriteria": [
+        "Обе ситуации сопоставлены по одному понятному критерию.",
+        "Вывод условный: shy learners не представлены одинаковыми.",
+        "Ответ на возражение добавляет поддержку или ограничение, а не повторяет начало."
+      ]
+    },
+    {
+      "id": "coverage-c1-meeting-notes",
+      "title": "Совещание: решение, ответственность и неуверенность",
+      "level": "C1",
+      "skill": "listening",
+      "why": "Конспект должен хранить изменения позиции и итоговые обязательства, а не только знакомые существительные.",
+      "sourceIds": [
+        "bc-c1-meeting",
+        "cambridge-c1-listening"
+      ],
+      "lessonIds": [
+        "path-lecture-listening"
+      ],
+      "practicePrompt": "Открой A project management meeting: https://learnenglish.britishcouncil.org/free-resources/listening/c1/project-management-meeting. Сначала слушай без Transcript и создай заметки в четырёх колонках: problem, proposed response, agreed action, unresolved point. Затем проверь transcript. Подготовь английский итог совещания на 160–200 слов, не усиливая might до will. Приложи первую попытку, два коротких подтверждающих фрагмента и объяснение, какое предложение было принято, изменено или осталось неопределённым. Если источник не прослушан, честно назови работу анализом transcript. Для полноценного результата нужны запись источника и самостоятельная попытка до чтения.",
+      "successCriteria": [
+        "Предложения отделены от подтверждённых действий.",
+        "В итоговом тексте сохранены исполнители, сроки и модальная сила.",
+        "Исправления заметок подтверждены источником, а не памятью о теме."
+      ]
+    },
+    {
+      "id": "coverage-c1-accent-adaptation",
+      "title": "Разные голоса: адаптироваться и диагностировать сбой",
+      "level": "C1",
+      "skill": "listening",
+      "why": "Привыкание к одному диктору или TTS не обеспечивает понимание вариативной живой речи.",
+      "sourceIds": [
+        "bc-audio-zone",
+        "cambridge-c1-listening",
+        "oxford-ef-c1-c2",
+        "cambridge-pronunciation-advanced",
+        "ngl-listening-process"
+      ],
+      "lessonIds": [
+        "research-accent-adaptation",
+        "research-listening-decoding"
+      ],
+      "practicePrompt": "Открой Audio zone: https://learnenglish.britishcouncil.org/free-resources/general/audio-zone. Выбери две записи разных говорящих и сохрани названия и ссылки. Материалы источника помечены B2/C1; задача здесь — сравнение способов адаптации, не сертификация уровня. Из каждого возьми незнакомый отрезок 20–40 секунд. После первого слушания запиши услышанное с ? на пробелах, затем сравни с transcript. В ответе покажи по одному короткому фрагменту: свой вариант, сверенный вариант и причину сбоя (граница слов, звук, лексика, логическая связь). Повтори без текста и опиши, что изменилось. Не делай выводов о всех носителях акцента по одному человеку.",
+      "successCriteria": [
+        "Представлены две реальные ссылки и попытки до transcript.",
+        "Ошибки классифицированы конкретно, без ярлыка просто слишком быстро.",
+        "Повтор проверяет исходный фрагмент; успех не обобщается на все акценты."
+      ]
+    },
+    {
+      "id": "coverage-c1-cross-text-stance",
+      "title": "Сопоставить позиции, которые частично совпадают",
+      "level": "C1",
+      "skill": "reading",
+      "why": "Сходная лексика не означает одинаковую позицию; нужны область согласия и граница расхождения.",
+      "sourceIds": [
+        "cambridge-c1-handbook"
+      ],
+      "lessonIds": [
+        "path-longform-reading",
+        "path-synthesis"
+      ],
+      "practicePrompt": "Авторские мини-тексты. A: Publishing lecture recordings improves access for students with caring responsibilities. However, recordings should supplement discussion rather than replace it; access to a file is not the same as participation. B: Attendance rules can protect opportunities for discussion, but rigid rules may exclude people whose circumstances are least flexible. I would assess participation through several routes, including short responses to recordings. C: We cannot infer the effect of recordings from attendance alone. Students may watch a recording after attending, and those who miss a class may never open it. Напиши 170–210 слов: где A и B согласны по цели, чем различаются предлагаемые способы, и почему C не доказывает ни пользу, ни вред записи. Добавь один вопрос, требующий новых данных.",
+      "successCriteria": [
+        "Сопоставлены позиции, а не составлены три несвязанных пересказа.",
+        "Аргумент C о недостаточности показателя не превращён в отрицание пользы.",
+        "Общий вопрос логично следует из неполноты данных."
+      ]
+    },
+    {
+      "id": "coverage-c1-specialist-to-public",
+      "title": "Сложный источник для неспециалиста",
+      "level": "C1",
+      "skill": "mediation",
+      "why": "Упрощение должно сохранять ограничения и адресную пользу, а не только удалять длинные слова.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c2-writing"
+      ],
+      "lessonIds": [
+        "path-information-density",
+        "path-source-mediation"
+      ],
+      "practicePrompt": "Авторский источник: A pilot compared two voluntary study groups over six weeks. Group A used weekly peer feedback; Group B worked independently. The average improvement was larger in Group A, but allocation was not random and attendance differed. No delayed assessment was conducted. The results support further investigation, not a general claim that peer feedback is always superior. Participants reported that detailed comments were more useful than scores alone. Напиши 170–210 слов для взрослого, выбирающего способ самостоятельного обучения: объясни наблюдение, два ограничения и практический осторожный шаг. Затем сократи до русской голосовой памятки из 3–4 предложений. Не выдавай отсутствие доказательства за доказательство бесполезности метода.",
+      "successCriteria": [
+        "Сохранены добровольный состав, отсутствие случайного распределения и отсроченной проверки.",
+        "Читатель получает понятный следующий шаг без гарантии результата.",
+        "В короткой версии не исчезает главное ограничение уверенности."
+      ]
+    },
+    {
+      "id": "coverage-c1-question-response",
+      "title": "Ответить на вопрос, который меняет рамку",
+      "level": "C1",
+      "skill": "interaction",
+      "why": "Подготовленное выступление не показывает способность принять возражение и уточнить собственную позицию.",
+      "sourceIds": [
+        "cambridge-c1-speaking",
+        "cefr-2020",
+        "oxford-peu"
+      ],
+      "lessonIds": [
+        "research-question-response",
+        "path-discussion-b2",
+        "path-diplomatic-disagreement"
+      ],
+      "practicePrompt": "Твоя исходная позиция: An evening study group could help learners who work during the day. План: два занятия в неделю по 45 минут, участие добровольное, ведущий меняется. Ответь на три последовательные реплики: 1) Are you assuming everyone is free in the evening? 2) What if beginners feel embarrassed to speak? 3) How would you know whether this is helping? Каждую реплику ответь отдельно, 40–60 словами или 25–35 секундами. Признай точную границу исходного предложения, уточни меру поддержки и предложи наблюдаемую проверку. Заверши одной пересмотренной формулировкой плана. Это реактивная репетиция; непредсказуемый живой диалог остаётся отдельной практикой.",
+      "successCriteria": [
+        "Три ответа решают разные вопросы, а не повторяют один аргумент.",
+        "Исходное could не превращено в обещание пользы для всех.",
+        "Итоговый план отражает хотя бы одно изменение после возражений."
+      ]
+    },
+    {
+      "id": "coverage-c1-report-article",
+      "title": "Один набор фактов: отчёт и публичная статья",
+      "level": "C1",
+      "skill": "writing",
+      "why": "Жанры отличаются задачей читателя, а не только количеством формальных слов.",
+      "sourceIds": [
+        "cambridge-c1-handbook",
+        "bc-c1-writing",
+        "oxford-ef-c1-c2"
+      ],
+      "lessonIds": [
+        "research-report-data",
+        "path-cross-register",
+        "path-register-b2"
+      ],
+      "practicePrompt": "Авторские данные клуба: 60 registered members; average weekly attendance 18; survey answered by 24 members; 16 of those requested beginner sessions; 10 requested weekend sessions; several respondents chose both; room available Saturday mornings at no extra cost. Напиши отчёт комитету на 180–220 слов: наблюдения, ограничения опроса и рекомендация. Затем напиши начало публичной статьи на 90–120 слов для потенциальных участников. Сохрани числа и неопределённость, но измени порядок подачи и обращение к читателю. Объясни двумя предложениями, что пришлось изменить из-за жанра. Не складывай пересекающиеся ответы как независимые группы.",
+      "successCriteria": [
+        "24 ответа не представлены как мнение всех 60 участников.",
+        "Отчёт отделяет данные от рекомендации; статья объясняет пользу для читателя.",
+        "Числа и модальность сохранены при изменении жанра."
+      ]
+    },
+    {
+      "id": "coverage-c1-spoken-prosody",
+      "title": "Живая речь: пауза, уточнение и контраст",
+      "level": "C1",
+      "skill": "pronunciation",
+      "why": "Разговорная грамматика и просодия должны служить ясности, а не изображению разговорности.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-speaking",
+        "oxford-ef-c1-c2",
+        "cambridge-pronunciation-advanced",
+        "oxford-peu"
+      ],
+      "lessonIds": [
+        "path-prosody",
+        "research-spoken-grammar"
+      ],
+      "practicePrompt": "Авторская реплика: The schedule, we can change that. What we can't change is the final deadline. Well, not without asking the client first. Объясни, что уточняет последняя фраза и почему без неё позиция звучит жёстче. Запиши нейтральную версию и версию с осторожным возражением; пометь смысловые группы и контрастные слова. Затем напиши формальный эквивалент на 40–60 слов без разговорных обрывков, сохранив возможность согласования с клиентом. Оцени звучание по записи или человеку, который её слушает; корректная расшифровка сама по себе не показывает интонацию.",
+      "successCriteria": [
+        "Последняя часть понята как ограничение предыдущего абсолютного утверждения.",
+        "Просодическая разметка связана с конкретным смысловым контрастом.",
+        "Формальная версия не теряет возможность изменения срока после согласования."
+      ]
+    },
+    {
+      "id": "coverage-c1-proposal-revision",
+      "title": "Предложение и ответ на условное одобрение",
+      "level": "C1",
+      "skill": "writing",
+      "why": "Деловая переписка требует пересматривать проект, а не защищать первую версию любой ценой.",
+      "sourceIds": [
+        "cambridge-c1-handbook",
+        "bc-c1-writing"
+      ],
+      "lessonIds": [
+        "path-proposal"
+      ],
+      "practicePrompt": "Учебная задача: библиотека может выделить £400 на разговорный клуб; комната бесплатна по вторникам; 18 желающих, уровни смешанные; оплаченный ведущий стоит £40 за встречу. Напиши предложение на 220–260 слов: цель, структура, бюджет, поддержка новичков и проверка результата. Затем директор отвечает: I support a trial, provided that it lasts no more than six weeks and does not require additional staff. Напиши ответ на 80–100 слов: адаптация плана, что укладывается в условия, и один вопрос, без ответа на который нельзя обещать запуск. Не приписывай директору полное одобрение бессрочной программы.",
+      "successCriteria": [
+        "Бюджет согласован с ценой и числом встреч.",
+        "Ответ учитывает оба новых условия директора.",
+        "Есть конкретная проверка результата и честно обозначенный незакрытый вопрос."
+      ]
+    },
+    {
+      "id": "coverage-c2-audio-revision",
+      "title": "Сложное аудио: пересмотр мысли и итоговая позиция",
+      "level": "C2",
+      "skill": "listening",
+      "why": "Сильное понимание включает оговорки, смену формулировки и различие между голосом источника и своим выводом.",
+      "sourceIds": [
+        "cambridge-c2-handbook",
+        "cambridge-c2-practice",
+        "ngl-listening-process"
+      ],
+      "lessonIds": [
+        "research-discourse-listening",
+        "path-lecture-listening"
+      ],
+      "practicePrompt": "Открой официальный раздел C2 Proficiency preparation: https://www.cambridgeenglish.org/exams-and-tests/qualifications/proficiency/preparation/. Выбери listening sample с доступным tapescript; сохрани название части и метки начала/конца фрагмента. Прослушай незнакомый фрагмент без текста и запиши по-английски позицию, основание и важную оговорку каждого слышимого участника. После проверки подготовь аналитическую заметку на 180–220 слов: что ты понял сначала, что изменил и почему. Приведи до трёх коротких опорных фраз суммарно не более 70 слов. Если в отрывке нет явного пересмотра, так и напиши. Сама заметка оценивает доказательства и язык; факт аудирования и уровень C2 не подтверждаются одним текстовым ответом.",
+      "successCriteria": [
+        "Указаны конкретный sample, часть и границы отрывка.",
+        "Выводы привязаны к приложенным фрагментам, отсутствующий пересмотр не выдуман.",
+        "Первичная и сверенная версии различимы, степень уверенности сохранена."
+      ]
+    },
+    {
+      "id": "coverage-c2-incompatible-evidence",
+      "title": "Несопоставимые источники: синтез без ложного вывода",
+      "level": "C2",
+      "skill": "mediation",
+      "why": "Объединение цифр разных популяций и методов создаёт убедительный, но неподдержанный вывод.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c2-handbook",
+        "oxford-ef-c1-c2"
+      ],
+      "lessonIds": [
+        "path-source-mediation",
+        "path-synthesis"
+      ],
+      "practicePrompt": "Три авторских источника. A: A voluntary survey of 50 adult learners found that 36 preferred recorded feedback to a numerical score. It measured preference, not learning. B: In one six-week course, learners receiving recorded feedback improved more on an immediate writing task than a comparison group. The groups had different teachers, and no delayed test was used. C: Four tutors reported that producing recordings took longer initially but became faster with practice. Their comments did not include measured time logs. Напиши 240–280 слов редактору образовательного сайта: синтезируй, что эти материалы позволяют обсуждать, где они не сопоставимы, и какую формулировку заголовка можно обосновать. Не объединяй 50 учеников и четырёх преподавателей в единую статистику.",
+      "successCriteria": [
+        "Предпочтение, учебный результат и затраты времени остаются разными показателями.",
+        "Ограничения не спрятаны в формальное последнее предложение.",
+        "Заголовок соответствует наиболее сильному допустимому выводу."
+      ]
+    },
+    {
+      "id": "coverage-c2-cultural-repair",
+      "title": "Разные нормы общения: уточнить без стереотипа",
+      "level": "C2",
+      "skill": "interaction",
+      "why": "Межкультурная компетенция требует проверять интерпретацию поведения, а не объяснять человека национальностью.",
+      "sourceIds": [
+        "cefr-2020"
+      ],
+      "lessonIds": [
+        "path-politeness-power",
+        "path-implicature",
+        "path-debate-synthesis"
+      ],
+      "practicePrompt": "Авторская ситуация международной команды: Lina writes, We should discuss this when there is more time. Omar reads that as a polite rejection and stops work. Lina expected the draft to continue before a meeting next week. Neither had stated the interim deadline. Ты посредник. Напиши двум участникам нейтральное сообщение на 160–190 слов: обе возможные интерпретации, вопрос о намерении и конкретный способ подтвердить следующий шаг. Затем дай устную версию на 60–90 секунд. Не приписывай намерение и не выводи стиль поведения из имени или происхождения.",
+      "successCriteria": [
+        "Обе интерпретации переданы без объявления одной очевидно правильной.",
+        "Фактический пробел в сроке отделён от возможной культурной нормы.",
+        "Предложена явная договорённость об исполнителе, действии и сроке."
+      ]
+    },
+    {
+      "id": "coverage-c2-literary-distance",
+      "title": "Художественный текст: голос, умолчание и доказательство",
+      "level": "C2",
+      "skill": "reading",
+      "why": "Продвинутое чтение допускает несколько интерпретаций, но требует текстового основания и признания границ.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c2-handbook",
+        "oxford-ef-c1-c2"
+      ],
+      "lessonIds": [
+        "path-literary-reading",
+        "path-rhetorical-analysis"
+      ],
+      "practicePrompt": "Авторский фрагмент: When the committee thanked her for her flexibility, Mara folded the letter along the crease it already had. She had carried it for three weeks, waiting for a moment that now seemed to have passed without occurring. Outside, the new sign described the building as open to everyone. The side entrance was still locked. She told the caretaker the paint looked excellent. He glanced at the envelope and offered to find a chair. No, she said, she would only be a minute. Later, in her account of the meeting, she remembered the applause clearly. She could not remember what she had agreed to. Напиши 220–260 слов: две правдоподобные интерпретации состояния Mara, по две детали в поддержку, роль публичной надписи и закрытого входа. Назови один вывод, которого текст не позволяет сделать. Не отождествляй автора и героиню.",
+      "successCriteria": [
+        "Интерпретации опираются на точные детали, а не на вымышленную предысторию.",
+        "Возможный символический контраст отличён от буквального факта.",
+        "Отмечена граница знания о согласии, мотивах или биографии героини."
+      ]
+    },
+    {
+      "id": "coverage-c2-public-correction",
+      "title": "Публичное исправление: точность и ответственность",
+      "level": "C2",
+      "skill": "writing",
+      "why": "Исправление должно ясно менять неверный факт, не усиливая новые неподтверждённые объяснения.",
+      "sourceIds": [
+        "cambridge-c2-writing",
+        "bc-c1-writing"
+      ],
+      "lessonIds": [
+        "research-public-correction",
+        "path-editing",
+        "path-emphasis-restraint"
+      ],
+      "practicePrompt": "Исходная публикация учебного центра: Our new programme doubled success rates for all learners. Проверенные данные: in a pilot, 12 of 20 participants completed the final task; in a previous course, 6 of 20 completed a similar but not identical task; participation was voluntary; the groups were taught in different months; long-term retention was not assessed. Напиши публичное исправление на 180–220 слов и внутреннюю редакторскую заметку на 80–100 слов. Исправь масштаб и уверенность, сохрани действительные числа, обозначь ответственность за формулировку и правило проверки будущих публикаций. Не представляй ограничения как доказательство того, что программа не работает.",
+      "successCriteria": [
+        "Числовое удвоение доли завершения не названо доказанным удвоением успеха всех учеников.",
+        "Публичная версия явно исправляет исходное преувеличение.",
+        "Внутренняя заметка содержит применимый редакторский критерий, а не поиск виновного без данных."
+      ]
+    },
+    {
+      "id": "coverage-c2-conditional-consensus",
+      "title": "Модерировать спор и сохранить несогласие",
+      "level": "C2",
+      "skill": "discourse",
+      "why": "Итог дискуссии должен различать общую цель, временный шаг и сохраняющееся расхождение ценностей.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c1-speaking"
+      ],
+      "lessonIds": [
+        "path-debate-synthesis",
+        "path-diplomatic-disagreement"
+      ],
+      "practicePrompt": "Авторские позиции о клубе: A: Free access matters more than a large programme; I would rather offer fewer sessions. B: Consistent feedback requires paying someone; volunteers should not be expected to do unlimited work. C: A small fee is acceptable only if there is a straightforward waiver and no public disclosure of who receives it. Напиши председательский итог на 190–230 слов: общая цель, критерии конфликта, условное предложение на шесть недель и что ещё нужно согласовать. Затем ответь на возражение B: Your plan still relies on unpaid preparation. Не объявляй компромисс принятым только потому, что ты его сформулировал.",
+      "successCriteria": [
+        "Позиции всех сторон узнаваемы и не ослаблены ради удобного компромисса.",
+        "Условия C о доступе и приватности сохранены.",
+        "Ответ на новое возражение меняет распределение работы или честно оставляет вопрос открытым."
+      ]
+    },
+    {
+      "id": "coverage-c2-register-commitment",
+      "title": "Смена регистра: сохранить силу обязательства",
+      "level": "C2",
+      "skill": "discourse",
+      "why": "Красивый парафраз может незаметно превратить возможность в гарантию или условие в обещание.",
+      "sourceIds": [
+        "cambridge-c2-writing",
+        "english-profile",
+        "oxford-peu"
+      ],
+      "lessonIds": [
+        "path-cross-register",
+        "path-modal-remoteness",
+        "path-lexical-precision"
+      ],
+      "practicePrompt": "Авторский исходник: Subject to a successful pilot and confirmation of funding, the service may be extended to two additional neighbourhoods. Existing users will retain access during the review. No decision has been made about introducing a fee. Подготовь три версии: понятное письмо пользователям 100–130 слов; краткий внутренний briefing 70–90 слов; устное объяснение 45–60 секунд. Во всех сохрани, что гарантировано, что условно и что не решено. Затем проверь плохой заголовок Free service will expand across the city и объясни минимум три смысловые подмены. Не добавляй юридических оговорок, которых нет в задаче.",
+      "successCriteria": [
+        "May и два условия расширения сохранены.",
+        "Сохранение текущего доступа отделено от будущего решения о плате.",
+        "Разобраны гарантированное расширение, масштаб across the city и неподтверждённая бесплатность."
+      ]
+    },
+    {
+      "id": "coverage-c2-evidence-portfolio",
+      "title": "Портфолио переноса: новый материал и независимые навыки",
+      "level": "C2",
+      "skill": "assessment",
+      "why": "Счётчик прочитанных уроков и исправленный ИИ текст не доказывают самостоятельное владение языком.",
+      "sourceIds": [
+        "cefr-2020",
+        "cambridge-c2-writing",
+        "cambridge-c1-speaking"
+      ],
+      "lessonIds": [
+        "path-c2-capstone"
+      ],
+      "practicePrompt": "Подготовь мини-портфолио на вопрос How should a community centre combine access and sustainable funding? Стартовые данные: weekly costs £240; free attendance averaged 30; a £4 trial fee reduced attendance to 22; eight people reported cost as a barrier; reasons for other absences are unknown. Напиши записку на 250–300 слов и запиши объяснение на 90–120 секунд для посетителей. Ответь отдельно на возражение A fee may exclude exactly the people the centre is for. Сохрани первую версию, обратную связь и собственную переработку; через 7–14 дней выполни аналогичную работу о другой услуге с новыми данными. В конце укажи, что этим проверено и что ещё требует настоящего слушания, длинного чтения и живого взаимодействия.",
+      "successCriteria": [
+        "Числа используются точно; причины отсутствий не выдуманы.",
+        "Переработка объяснена конкретными исправлениями смысла, структуры или языка.",
+        "Отсроченная работа и ещё не проверенные навыки отмечены отдельно; уровень C2 не объявлен автоматически."
+      ]
+    }
+  ]
+}

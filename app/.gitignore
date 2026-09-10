@@ -1,5 +1,19 @@
 data/
-english
+/english
+english.exe
+*.log
+__pycache__/
+*.py[cod]
+studio/book-content/
+studio/book-audio/
+studio/lesson-audio/
+studio/cinema-subtitles/
+content/toc/catalog-pages/
+content/toc/egiu.txt
+content/toc/colloc-int.txt
+content/toc/essential-int.txt
+content/toc/phrasal-adv.txt
+content/toc/vocab-upint.txt
 
 # Любые .env, кроме шаблона — там живой токен бота.
 .env

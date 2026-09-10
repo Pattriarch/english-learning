@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "source": {
+    "id": "english-editorial-2026-09-10",
+    "title": "Original English context scenarios, September 2026",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original teaching text prepared for this project. No external example or translation is claimed. Distribution terms for original project content are separate from the imported source licences."
+  },
+  "entries": [
+    {
+      "word": "shareholder", "pos": "noun", "meaningEn": "A person or organization that owns shares in a company.", "meaningRu": "Акционер: человек или организация, владеющие акциями компании.",
+      "en": "I'm a shareholder in a small software company, but I don't manage it. I own shares and receive the company's annual report.",
+      "ru": "Я акционер небольшой компании, разрабатывающей программы, но не управляю ею. Я владею акциями и получаю годовой отчёт компании.",
+      "explanation": "Shareholder означает владельца акций. Владение и управление различаются: из этой ситуации не следует, что человек работает в компании или принимает ежедневные решения. Естественно shareholder in a company; shares — акции, а не «доли работы».",
+      "phrase": "a shareholder in", "topic": {"id": "work-money", "title": "Работа и деньги"},
+      "task": "Объясни по-английски, чем в этой ситуации владение акциями отличается от управления компанией."
+    },
+    {
+      "word": "competitor", "pos": "noun", "meaningEn": "A person or business trying to succeed against others in the same activity or market.", "meaningRu": "Участник соревнования или конкурент, добивающийся успеха в той же сфере.",
+      "en": "Our main competitor offers free shipping. We can't match that price, so we're focusing on faster repairs and better customer support.",
+      "ru": "Наш основной конкурент предлагает бесплатную доставку. Мы не можем предложить такую же цену, поэтому сосредоточиваемся на более быстром ремонте и качественной поддержке клиентов.",
+      "explanation": "Здесь competitor — другая компания на том же рынке. Это не обязательно личный враг. Main competitor — основной конкурент. Match a price означает предложить такую же цену, а не «подобрать цену».",
+      "phrase": "main competitor", "topic": {"id": "work-money", "title": "Работа и деньги"},
+      "task": "Предложи одно преимущество компании, которое не связано со снижением цены."
+    },
+    {
+      "word": "fascinate", "pos": "verb", "meaningEn": "To interest someone very strongly.", "meaningRu": "Очень сильно заинтересовывать, увлекать кого-либо.",
+      "en": "Old subway maps fascinate me because they show how the city has changed. I can spend an hour comparing routes from different decades.",
+      "ru": "Старые схемы метро меня увлекают, потому что по ним видно, как менялся город. Я могу целый час сравнивать маршруты разных десятилетий.",
+      "explanation": "Предмет интереса — подлежащее: maps fascinate me. Человек, которому интересно, — дополнение. При смене перспективы получится I'm fascinated by old subway maps. Не называй сам предмет a fascinate: здесь это глагол.",
+      "phrase": "fascinate me", "topic": {"id": "interests", "title": "Интересы и свободное время"},
+      "task": "Назови то, что сильно тебя увлекает, и объясни причину в двух предложениях."
+    },
+    {
+      "word": "specialize", "pos": "verb", "meaningEn": "To focus your work or study on a particular subject or activity.", "meaningRu": "Специализироваться в определённой области работы или учёбы.",
+      "en": "We specialize in repairing older laptops. If a replacement part is unavailable, we'll explain the options before you pay for any work.",
+      "ru": "Мы специализируемся на ремонте старых ноутбуков. Если нужной запчасти нет, мы объясним возможные варианты до того, как вы заплатите за работу.",
+      "explanation": "После specialize обычно нужен in: specialize in repairs или specialize in repairing laptops. После предлога in глагол принимает форму -ing. Specialize — обычное американское написание; specialise встречается в британском английском.",
+      "phrase": "specialize in repairing", "topic": {"id": "work-skills", "title": "Работа и навыки"},
+      "task": "Опиши специализацию вымышленной мастерской и одно ограничение её услуг."
+    },
+    {
+      "word": "stair", "pos": "noun", "meaningEn": "One step in a set of steps that leads from one level to another.", "meaningRu": "Одна ступенька лестницы.",
+      "en": "The bottom stair is loose, so please use the handrail. I've called the building manager and asked for someone to repair it.",
+      "ru": "Нижняя ступенька шатается, поэтому, пожалуйста, держитесь за перила. Я позвонил управляющему зданием и попросил прислать кого-нибудь её починить.",
+      "explanation": "A stair может означать одну ступеньку. Stairs во множественном числе — ступени или лестница: go up the stairs. A flight of stairs — лестничный марш, а не одна ступенька. В этом контексте is и it относятся к одной нижней ступеньке.",
+      "phrase": "the bottom stair", "topic": {"id": "home", "title": "Дом и повседневные дела"},
+      "task": "Напиши управляющему короткое сообщение о неисправной ступеньке и попроси о ремонте."
+    },
+    {
+      "word": "institutional", "pos": "adj", "meaningEn": "Relating to an established organization or its systems and practices.", "meaningRu": "Связанный с организацией, её устройством, системами или установленными порядками.",
+      "en": "The report calls for institutional changes, including clearer hiring rules. Replacing one manager won't solve a problem built into the organization's procedures.",
+      "ru": "В отчёте предлагаются изменения на уровне организации, в том числе более ясные правила найма. Замена одного руководителя не решит проблему, заложенную в её процедурах.",
+      "explanation": "Institutional здесь описывает устройство организации. Контекст противопоставляет изменение процедур замене одного человека. Перевод «институциональные изменения» возможен, но для понятного пересказа можно сказать «изменения на уровне организации». Это стиль отчёта.",
+      "phrase": "institutional changes", "topic": {"id": "organizations", "title": "Организации и общество"},
+      "task": "Объясни простыми словами, почему одной замены руководителя недостаточно."
+    },
+    {
+      "word": "stimulate", "pos": "verb", "meaningEn": "To encourage an activity, reaction, or interest to develop or increase.", "meaningRu": "Стимулировать, побуждать к активности или усиливать интерес и реакцию.",
+      "en": "The workshop uses short case studies to stimulate discussion. Participants compare possible solutions instead of listening to a speaker for the entire hour.",
+      "ru": "На семинаре используют короткие разборы ситуаций, чтобы вызвать обсуждение. Участники сравнивают возможные решения, а не весь час слушают выступающего.",
+      "explanation": "В этом значении stimulate discussion — побудить людей обсуждать тему. Это цель приёма, а не гарантия результата. Stimulate может относиться и к физиологической реакции, но здесь смысл учебный и коммуникативный.",
+      "phrase": "stimulate discussion", "topic": {"id": "learning", "title": "Учёба и развитие"},
+      "task": "Предложи преподавателю ещё один способ побудить группу обсуждать тему."
+    },
+    {
+      "word": "reasonably", "pos": "adv", "meaningEn": "To a fairly good or acceptable degree, without implying perfection.", "meaningRu": "Довольно, в приемлемой степени; не обязательно идеально.",
+      "en": "The apartment is reasonably quiet during the week, but the street gets noisy on Friday nights. I'd visit in the evening before signing a lease.",
+      "ru": "В будни в квартире довольно тихо, но по пятницам ночью на улице становится шумно. Я бы пришёл посмотреть её вечером, прежде чем подписывать договор аренды.",
+      "explanation": "Reasonably quiet — довольно тихо, достаточно тихо по разумным ожиданиям. Это не absolutely silent. У reasonably есть и значение «разумным образом»; нельзя подставлять один русский перевод во все случаи.",
+      "phrase": "reasonably quiet", "topic": {"id": "home", "title": "Дом и повседневные дела"},
+      "task": "Посоветуй другу, что проверить в квартире, не обещая полной тишины."
+    },
+    {
+      "word": "primarily", "pos": "adv", "meaningEn": "Mainly; more than for any other reason or purpose.", "meaningRu": "Главным образом, преимущественно.",
+      "en": "I use this tablet primarily for reading, so battery life matters more to me than gaming performance. I only play games occasionally.",
+      "ru": "Я использую этот планшет главным образом для чтения, поэтому время работы от батареи для меня важнее производительности в играх. Играю я лишь изредка.",
+      "explanation": "Primarily указывает на основную цель, но не исключает остальные. Only for reading противоречило бы последнему предложению. Mostly или mainly часто позволяют передать тот же смысл менее формально.",
+      "phrase": "primarily for reading", "topic": {"id": "digital-life", "title": "Цифровая жизнь"},
+      "task": "Объясни, для чего ты главным образом используешь телефон, и назови второстепенную цель."
+    },
+    {
+      "word": "appointment", "pos": "noun", "meaningEn": "An arrangement to meet someone at a particular time, often for a professional service.", "meaningRu": "Назначенная встреча или запись на приём к определённому времени.",
+      "en": "I have a dentist appointment at three, so I need to leave work early. Could we move our video call to tomorrow morning?",
+      "ru": "У меня запись к стоматологу на три часа, поэтому мне нужно уйти с работы пораньше. Можно перенести наш видеозвонок на завтрашнее утро?",
+      "explanation": "Здесь appointment — запись на приём, а не назначение на должность. Dentist appointment обычно в американской повседневной речи; a dental appointment тоже подходит. Запрос перенести звонок ещё не означает, что собеседник согласился.",
+      "phrase": "a dentist appointment", "topic": {"id": "daily-plans", "title": "Планы и встречи"},
+      "task": "Попроси коллегу перенести звонок и кратко объясни причину."
+    },
+    {
+      "word": "afford", "pos": "verb", "meaningEn": "To have enough money or another resource to do or obtain something.", "meaningRu": "Иметь достаточно денег или других ресурсов, чтобы что-то себе позволить.",
+      "en": "I can afford the monthly payment, but I haven't included insurance or repairs in my budget. I need the total cost before I decide.",
+      "ru": "Я могу позволить себе ежемесячный платёж, но ещё не включил в бюджет страховку и ремонт. Прежде чем решать, мне нужно узнать полную стоимость.",
+      "explanation": "Can afford означает, что ресурса хватает. Afford a payment — позволить себе платёж; afford to buy — позволить себе купить. Из приемлемого ежемесячного платежа не следует, что человеку по карману все расходы.",
+      "phrase": "afford the monthly payment", "topic": {"id": "work-money", "title": "Работа и деньги"},
+      "task": "Объясни продавцу, почему пока не готов принять решение о покупке."
+    },
+    {
+      "word": "refund", "pos": "noun", "meaningEn": "Money returned to someone who has paid for a product or service.", "meaningRu": "Возврат уплаченных денег.",
+      "en": "The headphones stopped working after two days. I'd like a refund rather than another pair because I no longer trust this model.",
+      "ru": "Наушники перестали работать через два дня. Я хотел бы вернуть деньги, а не получить другую пару, потому что больше не доверяю этой модели.",
+      "explanation": "I'd like a refund — вежливый запрос вернуть деньги. Exchange — обмен товара. Здесь покупатель выражает предпочтение; предложение не устанавливает правила магазина и не гарантирует право на возврат.",
+      "phrase": "I'd like a refund", "topic": {"id": "shopping", "title": "Покупки и услуги"},
+      "task": "Напиши в поддержку, что произошло и какое решение ты просишь."
+    },
+    {
+      "word": "receipt", "pos": "noun", "meaningEn": "A paper or electronic record showing that something has been paid for.", "meaningRu": "Бумажный или электронный чек, подтверждающий оплату.",
+      "en": "Please email me the receipt for the repair. My employer will reimburse the expense, but the accounting team needs proof that I paid.",
+      "ru": "Пожалуйста, отправьте мне по электронной почте чек за ремонт. Работодатель возместит эти расходы, но бухгалтерии нужно подтверждение оплаты.",
+      "explanation": "В этом контексте receipt подтверждает уже совершённую оплату. Invoice обычно выставляет сумму к оплате; это не автоматически одно и то же. Электронный чек тоже receipt. Буква p в слове receipt не произносится.",
+      "phrase": "the receipt for the repair", "topic": {"id": "shopping", "title": "Покупки и услуги"},
+      "task": "Попроси сервис прислать подтверждение оплаты и объясни, кому оно нужно."
+    },
+    {
+      "word": "borrow", "pos": "verb", "meaningEn": "To receive something for temporary use, intending to return it.", "meaningRu": "Взять что-либо на время с намерением вернуть.",
+      "en": "Could I borrow your charger until lunch? I left mine at home, and I'll bring yours back before your afternoon meeting.",
+      "ru": "Можно взять твоё зарядное устройство до обеда? Я оставил своё дома и верну твоё до твоей дневной встречи.",
+      "explanation": "Borrow описывает действие того, кто берёт вещь: borrow a charger from someone. Здесь человек просит разрешение и обещает вернуть устройство. Не заменяй borrow на lend без изменения роли говорящего.",
+      "phrase": "borrow your charger", "topic": {"id": "everyday-requests", "title": "Повседневные просьбы"},
+      "task": "Попроси у друга вещь на время и назови срок возврата."
+    },
+    {
+      "word": "lend", "pos": "verb", "meaningEn": "To allow another person to use something temporarily, expecting it to be returned.", "meaningRu": "Дать что-либо другому человеку на время с ожиданием возврата.",
+      "en": "I can lend you my bike this weekend, but I need it back by Sunday evening. Please lock it whenever you leave it outside.",
+      "ru": "Я могу одолжить тебе велосипед на выходные, но он нужен мне обратно к вечеру воскресенья. Пожалуйста, пристёгивай его замком, когда оставляешь на улице.",
+      "explanation": "Lend описывает действие владельца: lend someone something или lend something to someone. By Sunday evening — не позднее вечера воскресенья. Это разрешение с условиями, поэтому срок и просьбу о замке нельзя потерять при пересказе.",
+      "phrase": "lend you my bike", "topic": {"id": "everyday-requests", "title": "Повседневные просьбы"},
+      "task": "Предложи одолжить другу велосипед, сохранив оба условия."
+    },
+    {
+      "word": "deadline", "pos": "noun", "meaningEn": "The latest time or date by which something must be completed.", "meaningRu": "Крайний срок выполнения действия или работы.",
+      "en": "The application deadline is Friday at noon. I have the form ready, but I still need a reference letter before I can submit everything.",
+      "ru": "Крайний срок подачи заявки — пятница, полдень. Форма у меня готова, но перед отправкой всех документов мне ещё нужно рекомендательное письмо.",
+      "explanation": "Deadline задаёт последнюю допустимую границу времени. Meet a deadline — уложиться в срок; miss a deadline — пропустить срок. В этой ситуации готовая форма ещё не означает, что заявку уже можно отправить.",
+      "phrase": "application deadline", "topic": {"id": "work-skills", "title": "Работа и навыки"},
+      "task": "Попроси рекомендателя прислать письмо, ясно указав срок и причину."
+    },
+    {
+      "word": "assume", "pos": "verb", "meaningEn": "To treat something as true without having enough information to know for certain.", "meaningRu": "Предполагать, считать что-либо верным без достаточного подтверждения.",
+      "en": "Don't assume that everyone saw the updated schedule. Please send a short message and ask each teammate to confirm the new meeting time.",
+      "ru": "Не считай, что все увидели обновлённое расписание. Отправь короткое сообщение и попроси каждого участника команды подтвердить новое время встречи.",
+      "explanation": "Assume здесь показывает непроверенное предположение. Это не know и не confirm. Вместо утверждения о знании всей команды нужно запросить подтверждение. Предложение не говорит, что кто-то намеренно проигнорировал расписание.",
+      "phrase": "assume that everyone", "topic": {"id": "team-communication", "title": "Общение в команде"},
+      "task": "Напиши команде сообщение, которое проверяет получение обновления, не обвиняя участников."
+    },
+    {
+      "word": "issue", "pos": "noun", "meaningEn": "A problem or matter that needs attention or discussion.", "meaningRu": "Проблема или вопрос, требующие внимания либо обсуждения.",
+      "en": "There's an issue with the checkout page: customers can't enter their ZIP code. We're investigating, and we'll post an update when we know more.",
+      "ru": "На странице оформления заказа возникла проблема: покупатели не могут ввести свой почтовый индекс. Мы разбираемся и сообщим новости, когда узнаем больше.",
+      "explanation": "Issue здесь означает проблему в работе сайта. ZIP code — американский почтовый индекс. Issue может также обозначать выпуск журнала или официальную выдачу, но эти значения не подходят к данному контексту. Причина сбоя пока неизвестна.",
+      "phrase": "an issue with", "topic": {"id": "digital-life", "title": "Цифровая жизнь"},
+      "task": "Сообщи покупателю о сбое, не придумывая причину и срок исправления."
+    },
+    {
+      "word": "charge", "pos": "verb", "meaningEn": "To ask a customer to pay a particular amount for a product or service.", "meaningRu": "Взимать с клиента определённую сумму за товар или услугу.",
+      "en": "We charge twenty dollars for delivery outside the city. Pickup at our store is free, so you can choose whichever option works better for you.",
+      "ru": "За доставку за пределы города мы берём двадцать долларов. Самовывоз из нашего магазина бесплатный, поэтому вы можете выбрать более удобный вариант.",
+      "explanation": "Charge an amount for a service — взимать сумму за услугу. Charge someone an amount — брать сумму с кого-либо. Здесь речь об оплате; значения «заряжать батарею» и «обвинять» не подходят. Free относится только к самовывозу.",
+      "phrase": "charge twenty dollars for delivery", "topic": {"id": "shopping", "title": "Покупки и услуги"},
+      "task": "Объясни клиенту два способа получения покупки, сохранив цены и условие доставки."
+    },
+    {
+      "word": "budget", "pos": "noun", "meaningEn": "A plan or limit for the amount of money available to spend.", "meaningRu": "План расходов или установленная сумма, которую можно потратить.",
+      "en": "Our budget for the team dinner is three hundred dollars, including tax and tips. Let's check the full price before we book a table.",
+      "ru": "Наш бюджет на командный ужин — триста долларов, включая налог и чаевые. Давайте узнаем полную стоимость, прежде чем бронировать столик.",
+      "explanation": "Budget for an event — бюджет на мероприятие. Including означает, что налог и чаевые должны поместиться внутри трёхсот долларов. Это не дополнительные деньги сверх лимита. Конкретные правила ресторана здесь ещё не установлены.",
+      "phrase": "budget for the team dinner", "topic": {"id": "work-money", "title": "Работа и деньги"},
+      "task": "Напиши ресторану запрос о полной стоимости ужина, не утверждая, что бронь уже сделана."
+    }
+  ]
+}

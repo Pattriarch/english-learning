@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-09T18:43:16Z",
+  "seriesId": "better-call-saul",
+  "sources": [
+    {
+      "id": "tvsubtitles",
+      "name": "TVsubtitles · English, весь сезон",
+      "url": "https://www.tvsubtitles.net/subtitle-1643-1-en.html",
+      "access": "Публичный каталог. Скачивание требует обычной сессии с cookies; вход в аккаунт при проверке не требовался.",
+      "format": "10 файлов SRT в ZIP",
+      "notes": "Проверены английские страницы всех 10 серий и состав комплекта Better_Call_Saul - season 1.en.zip. После открытия страницы с сохранением cookies запрос HEAD к download-1643-1-en.html вернул HTTP 200 application/zip. Архив не скачан, его содержимое и тайминги не проверены. Открывайте страницу комплекта, затем Download."
+    },
+    {
+      "id": "addic7ed",
+      "name": "Addic7ed · варианты релизов",
+      "url": "https://www.addic7ed.com/show/4648/Better%20Call%20Saul",
+      "access": "Каталог публичный; часть страниц при проверке не открылась. Для Multi Download нужен вход; действуют суточные ограничения.",
+      "format": "Файлы субтитров; для Multi Download сайт описывает ZIP. Формат отдельных файлов здесь не подтверждён скачиванием.",
+      "notes": "Английские варианты подтверждены на страницах S01E01, E02, E03 и E08. У E01 есть KILLERS (HI и без HI), WEB.DL, PSYPHER с примечанием REWARD; у E02/E03/E08 — LOL (HI и без HI) и WEB.DL. Страницы E04–E07/E09/E10 инструменту не открылись; отсутствие субтитров из этого не следует. Официальный FAQ: https://www.sub-talk.net/topic/2784-frequently-asked-questions/"
+    },
+    {
+      "id": "opensubtitles",
+      "name": "OpenSubtitles · резервный каталог",
+      "url": "https://www.opensubtitles.com/en/tvshows/2015-better-call-saul/seasons/1",
+      "access": "Страница сезона найдена в поиске, но прямое открытие при проверке вернуло HTTP 403. Файлы и доступ к скачиванию не подтверждены.",
+      "format": "Зависит от конкретной раздачи субтитров; для этого сезона не проверен.",
+      "notes": "Для программного подключения использовать REST API OpenSubtitles.com с собственным API key и User-Agent; права и квоты определяются сервисом и учётной записью. Старый XML-RPC OpenSubtitles.org не выбирать: администратор объявил его окончательное закрытие 29.01.2026. Документация: https://opensubtitles.stoplight.io/docs/opensubtitles-api/"
+    },
+    {
+      "id": "apple-tv",
+      "name": "Apple TV · официальные English CC",
+      "url": "https://tv.apple.com/us/episode/uno/umc.cmc.7ha901mh8lh5tnz62f5ocrdp5",
+      "access": "Публичная карточка эпизода подтверждает English (United States) CC. Просмотр зависит от покупки/доступа и региона.",
+      "format": "Встроенные CC при просмотре; отдельный SRT/VTT для скачивания не заявлен.",
+      "notes": "Это источник официального просмотра с субтитрами, а не ссылка на файл для импорта. Проверена карточка Uno; она не подтверждает доступность сериала в регионе пользователя."
+    },
+    {
+      "id": "podnapisi",
+      "name": "Podnapisi · результат не подтверждён",
+      "url": "https://www.podnapisi.net",
+      "access": "Прямое открытие сайта инструменту не удалось. Подходящий каталог Better Call Saul S01 EN в этой проверке не найден.",
+      "format": "Не проверен.",
+      "notes": "Не добавлен как подтверждённый источник для эпизодов. Поиск также возвращал серию Better Call Saul из Breaking Bad — эти результаты исключены. Ошибка доступа не означает отсутствия субтитров на сайте."
+    }
+  ],
+  "episodes": [
+    {
+      "episodeId": "bcs-s01e01",
+      "season": 1,
+      "episode": 1,
+      "title": "Uno",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-110449.html",
+          "label": "English · HDTV KILLERS · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E01 «Uno»: язык, номер серии, имя SRT и релиз HDTV KILLERS. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/1/addic7ed",
+          "label": "English · другие версии",
+          "verified": true,
+          "note": "Проверена страница S01E01 с завершёнными English-вариантами KILLERS, WEB.DL и PSYPHER. Есть варианты с пометкой HI и без неё. Скачивание этого файла не проверялось."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e02",
+      "season": 1,
+      "episode": 2,
+      "title": "Mijo",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-110566.html",
+          "label": "English · HDTV LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E02 «Mijo»: язык, номер серии, имя SRT и релиз HDTV LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/2/addic7ed",
+          "label": "English · другие версии",
+          "verified": true,
+          "note": "Проверена страница S01E02 с завершёнными English-вариантами LOL и WEB.DL. Есть варианты с пометкой HI и без неё. Скачивание этого файла не проверялось."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e03",
+      "season": 1,
+      "episode": 3,
+      "title": "Nacho",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-284710.html",
+          "label": "English · HDTV x264-LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E03 «Nacho»: язык, номер серии, имя SRT и релиз HDTV x264-LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/3/addic7ed",
+          "label": "English · другие версии",
+          "verified": true,
+          "note": "Проверена страница S01E03 с завершёнными English-вариантами LOL и WEB.DL. Есть варианты с пометкой HI и без неё. Скачивание этого файла не проверялось."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e04",
+      "season": 1,
+      "episode": 4,
+      "title": "Hero",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-114447.html",
+          "label": "English · HDTV LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E04 «Hero»: язык, номер серии, имя SRT и релиз HDTV LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/4/addic7ed",
+          "label": "Addic7ed · проверить вручную",
+          "verified": false,
+          "note": "Адрес составлен по проверенному шаблону сайта. Попытка открытия вернула ошибку инструмента; наличие English-файла на этой странице не подтверждено. Это резервная ссылка для ручной проверки."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e05",
+      "season": 1,
+      "episode": 5,
+      "title": "Alpine Shepherd Boy",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-285646.html",
+          "label": "English · HDTV x264-LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E05 «Alpine Shepherd Boy»: язык, номер серии, имя SRT и релиз HDTV x264-LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/5/addic7ed",
+          "label": "Addic7ed · проверить вручную",
+          "verified": false,
+          "note": "Адрес составлен по проверенному шаблону сайта. Попытка открытия вернула ошибку инструмента; наличие English-файла на этой странице не подтверждено. Это резервная ссылка для ручной проверки."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e06",
+      "season": 1,
+      "episode": 6,
+      "title": "Five-O",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-286061.html",
+          "label": "English · HDTV x264-LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E06 «Five-O»: язык, номер серии, имя SRT и релиз HDTV x264-LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/6/addic7ed",
+          "label": "Addic7ed · проверить вручную",
+          "verified": false,
+          "note": "Адрес составлен по проверенному шаблону сайта. Попытка открытия вернула ошибку инструмента; наличие English-файла на этой странице не подтверждено. Это резервная ссылка для ручной проверки."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e07",
+      "season": 1,
+      "episode": 7,
+      "title": "Bingo",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-286375.html",
+          "label": "English · релиз не указан · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E07 «Bingo»: язык, номер серии, имя SRT; версия видео не указана. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/7/addic7ed",
+          "label": "Addic7ed · проверить вручную",
+          "verified": false,
+          "note": "Адрес составлен по проверенному шаблону сайта. Попытка открытия вернула ошибку инструмента; наличие English-файла на этой странице не подтверждено. Это резервная ссылка для ручной проверки."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e08",
+      "season": 1,
+      "episode": 8,
+      "title": "RICO",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-286685.html",
+          "label": "English · HDTV x264-LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E08 «RICO»: язык, номер серии, имя SRT и релиз HDTV x264-LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/8/addic7ed",
+          "label": "English · другие версии",
+          "verified": true,
+          "note": "Проверена страница S01E08 с завершёнными English-вариантами LOL и WEB.DL. Есть варианты с пометкой HI и без неё. Скачивание этого файла не проверялось."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e09",
+      "season": 1,
+      "episode": 9,
+      "title": "Pimento",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-287012.html",
+          "label": "English · HDTV x264-LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E09 «Pimento»: язык, номер серии, имя SRT и релиз HDTV x264-LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/9/addic7ed",
+          "label": "Addic7ed · проверить вручную",
+          "verified": false,
+          "note": "Адрес составлен по проверенному шаблону сайта. Попытка открытия вернула ошибку инструмента; наличие English-файла на этой странице не подтверждено. Это резервная ссылка для ручной проверки."
+        }
+      ]
+    },
+    {
+      "episodeId": "bcs-s01e10",
+      "season": 1,
+      "episode": 10,
+      "title": "Marco",
+      "links": [
+        {
+          "sourceId": "tvsubtitles",
+          "url": "https://www.tvsubtitles.net/subtitle-287513.html",
+          "label": "English · HDTV x264-LOL · SRT",
+          "verified": true,
+          "note": "Проверена страница английского файла именно S01E10 «Marco»: язык, номер серии, имя SRT и релиз HDTV x264-LOL. Сам файл не скачан и совпадение таймингов с вашим видео не проверено. На сайте нажмите Download."
+        },
+        {
+          "sourceId": "addic7ed",
+          "url": "https://www.addic7ed.com/serie/Better%20Call%20Saul/1/10/addic7ed",
+          "label": "Addic7ed · проверить вручную",
+          "verified": false,
+          "note": "Адрес составлен по проверенному шаблону сайта. Попытка открытия вернула ошибку инструмента; наличие English-файла на этой странице не подтверждено. Это резервная ссылка для ручной проверки."
+        }
+      ]
+    }
+  ]
+}

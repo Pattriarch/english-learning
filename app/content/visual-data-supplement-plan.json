@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-10",
+  "status": "editorial-plan-not-published-lessons",
+  "scope": "Одно дополнение для выявленного пробела: самостоятельное чтение настоящих графиков и последующее письменное и устное объяснение. Данные и сюжет оригинальные и вымышленные. Это семантическое дополнение к карте English File, не копия курса издателя и не сертификат C1. Новостная заметка и описание предметов уже имеют самостоятельные задания в готовых книжных уроках; дополнительные дубли не включены.",
+  "sources": [
+    {
+      "id": "visual-ons-axes",
+      "title": "Office for National Statistics — Axes and gridlines",
+      "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/axes-and-gridlines",
+      "checkedAt": "2026-09-10",
+      "evidence": "Столбцы кодируют величину длиной и должны начинаться от нуля. У линейного графика допустима обоснованная обрезанная шкала: нельзя учить универсальному запрету. Время обычно идёт слева направо, категории размещаются по вертикали, числовые шкалы и сопоставимые панели должны быть понятными. В нашем материале обе процентные шкалы специально фиксированы от 0 до 60."
+    },
+    {
+      "id": "visual-ons-text",
+      "title": "Office for National Statistics — Chart text",
+      "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/chart-text",
+      "checkedAt": "2026-09-10",
+      "evidence": "Подписи должны пояснять единицу, временной охват и источник; символ процента помогает читать шкалу. Альтернативный текст делает диаграмму доступной. ONS для публикаций рекомендует заголовок с главным выводом; для учебного задания мы намеренно даём нейтральный заголовок и краткий alt с типом и осями, чтобы учащийся сам сформулировал тенденцию. Полная таблица остаётся доступной в материале."
+    },
+    {
+      "id": "visual-ons-principles",
+      "title": "Office for National Statistics — Data visualisation principles",
+      "url": "https://service-manual.ons.gov.uk/data-visualisation/guidance/principles",
+      "checkedAt": "2026-09-10",
+      "evidence": "Графическая форма помогает показать сравнение, которое трудно увидеть в перечне чисел; ясность, точность и доступность являются основными целями. Оригинальная схема урока и числовые значения созданы нами: ONS не источник результатов вымышленного опроса."
+    }
+  ],
+  "authoringRules": [
+    "Создать все материалы и ответы полностью, строго по фиксированным данным visualDataSpec. Не менять числа, категории, определения, оси, годы или метод опроса. Не приписывать вымышленные сведения ONS, издателю, реальной компании или исследованию.",
+    "Материалы m1 и m2 имеют figure с фиксированным id. SVG создаётся отдельно из visualDataSpec; модель не рисует его и не придумывает невидимые детали. Все данные, названия шкал, легенда и существенные ограничения должны быть полным английским текстом в material.text для проверки ответов и доступного текстового режима.",
+    "Теория, formula, examples и ранние hints не раскрывают выводы из целевого графика и новую реплику m3. Учить языку динамики на других явно вымышленных числах. Не подменять обучение описанием вектора SVG или устройством приложения.",
+    "Давать связные полные образцы, покрывающие все части задания, и не менее 55 русских слов конкретного разбора. Объём считается для обозначенной части, а не для английского ответа вместе с русским объяснением. Разрешать другие точные группировки сведений и естественные перифразы.",
+    "Один процентный пункт отличается от одного процента относительного изменения. Категория walking or cycling объединённая: число велосипедистов отдельно неизвестно. Доли относятся к ответившим в конкретном месяце, а не ко всем работникам, поездкам или жителям. Отдельные добровольные месячные выборки не доказывают переход тех же людей между способами поездки или причинный эффект кампании.",
+    "Говорение — самостоятельная сценарная репетиция с готовым контекстом; проверяются смысл, формулировки и опоры. Не называть его настоящим интерактивным интервью или объективной акустической оценкой. Выполнение сейчас самодостаточно; повтор через день только необязательный."
+  ],
+  "modules": [
+    {
+      "id": "extended-c1-visual-data",
+      "level": "C1",
+      "title": "Что показывает график: от шкалы к точному объяснению",
+      "skills": ["reading", "writing", "speaking", "mediation", "vocabulary"],
+      "outcomes": [
+        "Самостоятельно прочитать линейный график и сгруппированную столбчатую диаграмму: назвать шкалы, единицы, легенду и границы набора данных.",
+        "Описать общую динамику, плато, поворот и существенные сравнения без перечисления каждого значения; отличить количество, долю, процентные пункты и относительное изменение.",
+        "Подготовить связное объяснение для читателя без графика и ответить на ошибочное толкование, сохранив знаменатели, неопределённость и предел причинного вывода."
+      ],
+      "scenario": "Рабочая группа вымышленной Marlowe Design готовит краткую заметку о способах поездки в офис. Ей переданы две диаграммы и таблица добровольных месячных ответов. Затем редактор предлагает громкий заголовок; учащийся должен объяснить, что действительно показывают графики и как изложить это людям, которые их не видят.",
+      "visualDataSpec": {
+        "version": 1,
+        "fictional": true,
+        "datasetId": "marlowe-commuting-2026",
+        "title": "Marlowe Design monthly commuting survey, January to June 2026",
+        "source": "Original fictional teaching dataset; not an official statistic or real survey.",
+        "observationUnit": "One voluntary response per employee in a month, reporting the main mode used for the longest part of their most recent journey to the office. One category per response.",
+        "populationBoundary": "Employees who answered in that month. Total workforce, response rates, identities across months, number of journeys and emissions are not supplied.",
+        "method": "Separate unweighted voluntary samples each month, not a tracked panel. Each row contains all valid responses in that month. Participants may differ between months. No causal experiment or control group is provided.",
+        "categoryDefinitions": {
+          "active": "Walking or cycling, combined; separate walking and cycling counts are unavailable.",
+          "publicTransport": "Bus, tram, underground or train as the main mode.",
+          "car": "Car as driver or passenger, combined. It is not a count of vehicles."
+        },
+        "rows": [
+          {"month": "January", "monthKey": "2026-01", "respondents": 100, "active": 30, "publicTransport": 20, "car": 50, "activePercent": 30, "publicTransportPercent": 20, "carPercent": 50},
+          {"month": "February", "monthKey": "2026-02", "respondents": 110, "active": 33, "publicTransport": 22, "car": 55, "activePercent": 30, "publicTransportPercent": 20, "carPercent": 50},
+          {"month": "March", "monthKey": "2026-03", "respondents": 125, "active": 50, "publicTransport": 25, "car": 50, "activePercent": 40, "publicTransportPercent": 20, "carPercent": 40},
+          {"month": "April", "monthKey": "2026-04", "respondents": 120, "active": 54, "publicTransport": 24, "car": 42, "activePercent": 45, "publicTransportPercent": 20, "carPercent": 35},
+          {"month": "May", "monthKey": "2026-05", "respondents": 140, "active": 63, "publicTransport": 28, "car": 49, "activePercent": 45, "publicTransportPercent": 20, "carPercent": 35},
+          {"month": "June", "monthKey": "2026-06", "respondents": 150, "active": 60, "publicTransport": 30, "car": 60, "activePercent": 40, "publicTransportPercent": 20, "carPercent": 40}
+        ],
+        "figures": [
+          {
+            "id": "commuting-active-share",
+            "materialId": "m1",
+            "type": "line",
+            "title": "Walking or cycling in the monthly commuting responses",
+            "subtitle": "Share of respondents, Marlowe Design, January to June 2026",
+            "xAxis": {"type": "category-time", "labels": ["Jan", "Feb", "Mar", "Apr", "May", "June"], "order": "chronological", "label": "2026"},
+            "yAxis": {"unit": "%", "label": "Share of respondents (%)", "min": 0, "max": 60, "ticks": [0, 10, 20, 30, 40, 50, 60]},
+            "series": [{"label": "Walking or cycling", "values": [30, 30, 40, 45, 45, 40], "rowField": "activePercent"}],
+            "footnote": "Separate voluntary samples each month. Walking and cycling are combined. Original fictional teaching data.",
+            "accessibility": "Distinct visible points, a direct series label, readable percentage ticks, and the complete underlying table in m1 text. No smoothing, fitted curve, confidence interval, or causal annotation."
+          },
+          {
+            "id": "commuting-mode-comparison",
+            "materialId": "m2",
+            "type": "grouped-horizontal-bar",
+            "title": "Main travel modes in January and June",
+            "subtitle": "Share of respondents, Marlowe Design, 2026",
+            "xAxis": {"unit": "%", "label": "Share of respondents (%)", "min": 0, "max": 60, "ticks": [0, 10, 20, 30, 40, 50, 60]},
+            "yAxis": {"type": "category", "labels": ["Walking or cycling", "Public transport", "Car"], "order": "fixed-top-to-bottom"},
+            "series": [
+              {"label": "January (n=100)", "monthKey": "2026-01", "values": [30, 20, 50]},
+              {"label": "June (n=150)", "monthKey": "2026-06", "values": [40, 20, 40]}
+            ],
+            "footnote": "One main mode per response. Car includes drivers and passengers. Original fictional teaching data.",
+            "accessibility": "Label both series and print values; distinguish them by pattern or direct labels as well as colour. Bars start at zero. Complete January and June counts and percentages remain in m2 text."
+          }
+        ],
+        "editorialChecks": [
+          "Every row's three category counts sums to respondents; percentages sum to 100 and equal count/respondents*100.",
+          "The active share is unchanged in January–February and April–May, peaks at 45% in April and May, then falls to 40% in June; it is not a continuous monthly rise.",
+          "January–June active count rises 30 to 60, but active share rises 30% to 40%: 10 percentage points, approximately one-third relative growth of the share, not a doubling of the share.",
+          "January–June car count rises 50 to 60 while its share falls 50% to 40%; this does not identify ten people who changed mode.",
+          "Public transport is 20% in both endpoint months, despite count 20 to 30. Walking and cycling cannot be separated; emissions, car numbers and individual mode changes cannot be calculated."
+        ]
+      },
+      "materials": [
+        {
+          "id": "m1",
+          "title": "Первая диаграмма и паспорт опроса",
+          "kind": "reference",
+          "minWords": 300,
+          "maxWords": 410,
+          "figure": {"id": "commuting-active-share", "alt": "Line chart with months on the horizontal axis and walking-or-cycling respondents as percentages on the vertical axis.", "caption": "Marlowe Design, January–June 2026. Original fictional teaching data."},
+          "brief": "Полный английский материал для первой диаграммы. Включить точное название, обе оси, единицу и название линии, а также все шесть строк visualDataSpec.rows в читаемой таблице или однозначных строках: месяц, общее n, три количества, три процента. Полностью сообщить observationUnit, populationBoundary, method и categoryDefinitions. Честно назвать данные вымышленными. Таблица — доступная альтернатива графику, не готовый аналитический ответ; НЕ формулировать максимум, плато, итоговую тенденцию или разоблачение будущего заголовка. Остальной текст объясняет, зачем рабочей группе эти данные и какой краткий материал она готовит, без выдуманных результатов кампании. Не добавлять событий из m3."
+        },
+        {
+          "id": "m2",
+          "title": "Вторая диаграмма: категории и знаменатели",
+          "kind": "reference",
+          "minWords": 260,
+          "maxWords": 360,
+          "figure": {"id": "commuting-mode-comparison", "alt": "Grouped horizontal bar chart with travel modes on the vertical axis and respondent percentages on the horizontal axis, comparing January and June.", "caption": "January n=100; June n=150. Original fictional teaching data."},
+          "brief": "Полный английский материал второй диаграммы с её осями, нулевым началом процентной шкалы, порядком категорий и двумя точными названиями из легенды. Включить все январские и июньские количества и доли visualDataSpec, обозначив разные n и главную единицу наблюдения. Добавить краткое техническое пояснение чтения легенды и диапазона шкалы, но не готовый вывод о car или active. Дать оригинальный независимый пример различия количества и процента с другими числами и не из этого опроса. Не объяснять пока готовый ответ на e3. Не делать утверждение, что любая линейная шкала всегда обязана начинаться от нуля. Не добавлять вымышленных человеко-переходов, частоты поездок или выбросов."
+        },
+        {
+          "id": "m3",
+          "title": "Редактор предлагает заголовок",
+          "kind": "dialogue",
+          "minWords": 230,
+          "maxWords": 310,
+          "brief": "Оригинальная сценарная редакционная беседа, впервые доступная после e3. Редактор предлагает заголовок 'Our cycling campaign doubled the share of green commuters' и хочет обещать сокращение автомобилей. Теперь впервые сообщается: компания запустила добровольные информационные письма о поездках в марте, но охват писем и реакция участников не измерялись; новый текст нужен всем работникам, которые не видят диаграммы, объёмом не более 230 слов. Редактор задаёт открытый вопрос, что можно оставить и что нужно проверить. Привести все эти новые сведения точно, но не давать от другого персонажа готовое опровержение или исправленный заголовок. Остальной разговор обсуждает понятность текста и формат, а не новые данные. Не называть его реально записанным интервью."
+        }
+      ],
+      "exercisePlan": [
+        {"kind": "write", "materialIds": ["m1"], "brief": "По первой диаграмме и её паспорту написать 110–140 английских слов для нового участника рабочей группы: что измеряет график, среди кого, за какой период; сформулировать общую динамику, значимые неизменные участки и поворот с числовыми опорами. Не перечислять все шесть значений. Учащийся должен сам прочитать шкалу и не утверждать, что показано количество людей. Если выбран текстовый режим, разрешить ту же аналитическую работу по полной таблице без заявления о визуальном восприятии."},
+        {"kind": "write", "materialIds": ["m1", "m2"], "brief": "Сопоставить две диаграммы в 130–170 английских словах для коллеги: объяснить легенду, выбрать существенные сравнения категорий между январём и июнем и показать, что линейная диаграмма добавляет к сравнению только двух конечных месяцев. Привести по меньшей мере три точные числовые опоры и одну методологическую границу. Не выдавать отсутствие изменения доли за неизменное количество."},
+        {"kind": "write", "materialIds": ["m1", "m2"], "brief": "В 130–170 английских словах объяснить автору черновика, как одновременно могут вырасти число car-ответов и снизиться их доля, а число active-ответов удвоиться без удвоения доли. Дать два соответствующих расчёта с названными знаменателями и отличить процентные пункты от относительного изменения. Не подставлять нужные результаты в prompt или hint; все исходные значения уже в материалах."},
+        {"kind": "translate", "materialIds": ["m1", "m2", "m3"], "brief": "После открытия m3 дать полный русский редакторский комментарий для английского перевода 95–125 слов: нейтрально исправить одно числовое утверждение, назвать границу объединённой категории и выборки, отделить информационную кампанию от доказанной причины и указать, кому предназначен новый текст. Русский исходник полный, все факты только из материалов; это перевод смысла с оговорками, не заполнение готовой формулы."},
+        {"kind": "rewrite", "materialIds": ["m1", "m2", "m3"], "brief": "Предоставить полный новый неудачный английский абзац с 4–5 конкретными ошибками чтения диаграмм: процент принят за число, неизменный участок назван ростом, величина относительного изменения смешана с пунктами, доля car приравнена к количеству автомобилей, корреляция названа эффектом кампании. Переписать как связное объяснение 140–180 английских слов. Затем отдельные 35–50 английских слов объясняют две самые существенные правки; один полный эталон покрывает обе части. Не создавать ошибок, которые нельзя проверить по входным материалам."},
+        {"kind": "write", "materialIds": ["m1", "m2", "m3"], "minAnswerWords": 190, "brief": "Написать готовую самостоятельную заметку 190–230 английских слов для всех работников, не видящих диаграммы, плюс точный собственный заголовок вне объёма. Связать общую динамику и конечные сравнения, выбрать важные числа, объяснить знаменатели и ограничение индивидуальных/причинных выводов, завершить одним полезным вопросом для следующего сбора данных. Текст должен читаться как цельное сообщение; нельзя просто перечислить ответы e1–e5 или описать все клетки."},
+        {"kind": "speak", "materialIds": ["m1", "m2", "m3"], "brief": "Самостоятельная сценарная устная репетиция 140–180 английских слов, примерно 75–105 секунд: провести слушателя, который не видит экран, по двум графикам, объяснить один кажущийся парадокс количества и доли и ответить редактору на требование причинного заголовка. Ученик выбирает порядок и опоры. Проверяются смысл и ясность, не акустика. Образец должен быть полной речью, а не списком советов, что сказать."},
+        {"kind": "write", "materialIds": ["m1", "m2", "m3"], "brief": "Самодостаточный перенос в компактный формат: дать новый полный английский запрос коллеги, которому нужны два коротких сообщения для экрана в офисе — первое о динамике, второе о конечном сравнении — и проверяемая подпись к каждому. Написать два сообщения по 45–60 слов, затем 40–60 английских слов об одном сознательно исключённом выводе и причине. Полный эталон включает все три части; не просить представить отсутствующий прошлый ответ. При желании упражнение можно повторить позже с другой группировкой фактов, но это не обязательная вторая оцениваемая попытка."}
+      ],
+      "sourceIds": ["visual-ons-axes", "visual-ons-text", "visual-ons-principles"],
+      "relatedLessonIds": ["research-report-data", "extended-b2-evidence", "extended-c2-editor"],
+      "externalCrosswalkBlocks": ["6B", "10A"]
+    }
+  ]
+}

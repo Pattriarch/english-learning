@@ -1,0 +1,1961 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-09-10",
+  "artifactType": "editorial-curriculum-gap-audit",
+  "executable": false,
+  "status": "baseline-before-extended-module-generation",
+  "scope": "Авторская сверка реального содержимого A1–C2 и официальных публичных источников. Это не аккредитация, не исчерпывающий перенос закрытых учебников и не подтверждение уровня ученика.",
+  "baseline": {
+    "preparedLessons": 167,
+    "researchExpansionLessons": 18,
+    "researchCoveragePrompts": 48,
+    "pronunciationLessons": 16,
+    "uniqueNumberedBookUnits": 872,
+    "snapshotFiles": [
+      {
+        "file": "app/content/curriculum.json",
+        "sha256": "96b601a5df5422663b004ab7e948c0bd4e13d754bd147c43b3eb90aa32ae97fb"
+      },
+      {
+        "file": "app/content/courses/advanced.json",
+        "sha256": "104e6ad5decc2bc68e8b0db68c1ee8758be889c0de81ee65bf68848c16dc9f6a"
+      },
+      {
+        "file": "app/content/courses/cinema-lessons.json",
+        "sha256": "27cbb9d306776d2f0f7dc330aa824e44d10c2fe2576061cdb8bd766b1e5936f5"
+      },
+      {
+        "file": "app/content/courses/foundation.json",
+        "sha256": "c10c28e3868e4574fe8375cccf916fe49070d25122ca5612dd0c0274d3f67292"
+      },
+      {
+        "file": "app/content/courses/research-expansion.json",
+        "sha256": "ae3b072be24ee1ddd0c96f97bdb5ea94351ba3348edd4b848f5bb83b4427e165"
+      },
+      {
+        "file": "app/content/research-topics.json",
+        "sha256": "27dfe965bd16aaebce9907d7664bcb2a42b5ca600ed85fe14089442f5b9811f6"
+      },
+      {
+        "file": "app/content/pronunciation.json",
+        "sha256": "d7e3c2f19866cf5f84e24ef716c12a163a7dbe4f3f0226aa7ce5747fc470182a"
+      },
+      {
+        "file": "app/content/book-supplements.json",
+        "sha256": "78a847629fb20b4e05cb17de47c1e497868d1b598b8e9cbb468e77788569fa0f"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "cefr-2020",
+      "title": "Council of Europe — CEFR Companion Volume (2020)",
+      "url": "https://rm.coe.int/common-european-framework-of-reference-for-languages-learning-teaching/16809ea0d4",
+      "access": "direct-pdf",
+      "scope": "Шкалы онлайн-взаимодействия, медиации, фонологии и профили навыков; это ориентиры деятельности, не универсальный список грамматики. Проверены соответствующие разделы, не каждый дескриптор.",
+      "locator": "pp. 35–39; 84–87; 90–122; 133–138; 191–195",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "evp-research",
+      "title": "Annette Capel — Completing the English Vocabulary Profile: C1 and C2 vocabulary (2012)",
+      "url": "https://www.cambridge.org/core/journals/english-profile-journal/article/completing-the-english-vocabulary-profile-c1-and-c2-vocabulary/418955FC7ED2455E98A499BC40C2C816",
+      "access": "direct-article",
+      "scope": "Уровневая информация относится также к значениям многозначных слов и устойчивым сочетаниям; исследование описательное. Отдельные современные записи EVP/EGP не сверены.",
+      "locator": "Abstract; sections 1–4",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "ef-a1",
+      "title": "OUP — English File fifth edition A1, contents",
+      "url": "https://www.oup.es/wp-content/uploads/2025/01/EF5E-Spain-A1-TableContents-1.pdf",
+      "access": "direct-pdf",
+      "scope": "Функциональное общение, числа, алфавит и звуковая работа рассматриваются рядом с грамматикой.",
+      "locator": "PDF pp. 1–2",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "ef-b1",
+      "title": "OUP — English File fifth edition B1, contents",
+      "url": "https://www.oup.es/wp-content/uploads/2025/01/EF5E-Spain-B1-TableContents-1.pdf",
+      "access": "direct-pdf",
+      "scope": "Разнообразные письменные жанры и ответная речь дают контекст для применения знакомых конструкций.",
+      "locator": "PDF pp. 1–4",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "ef-c1c2",
+      "title": "OUP — English File fifth edition C1/C2, contents",
+      "url": "https://www.oup.es/wp-content/uploads/2025/01/EF5e-C1-C2-ADV-PLUS-SBWB-Contents-Spain-new.pdf",
+      "access": "direct-pdf",
+      "scope": "Карта включает сложные интервью, исследовательские данные, литературу, акценты, разные письменные жанры и восстановление речи после перебивания.",
+      "locator": "PDF pp. 2,4",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "peu4",
+      "title": "OUP — Practical English Usage fourth edition, contents",
+      "url": "https://www.oup.es/wp-content/uploads/2024/07/PracticalEnglishUsage4e-tabcont.pdf",
+      "access": "direct-pdf",
+      "scope": "Справочник отдельно выделяет письменный текст и пунктуацию, устные обмены и разновидности английского. Его разделам нельзя автоматически присвоить CEFR-уровни.",
+      "locator": "sections 26–30, PDF pp. 6–7",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "empower2",
+      "title": "Cambridge — Empower second edition, C1 Student's Book",
+      "url": "https://shop.cambridge.org/english/product/2700218626",
+      "access": "official-product",
+      "scope": "Проверены издание и связка языкового материала, функциональной речи, произношения, видео и письма. Полное оглавление C1 second edition непосредственно не получено.",
+      "locator": "Product description",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "empower-c1-method",
+      "title": "Cambridge — Empower Advanced Teacher's Book, first-edition excerpt",
+      "url": "https://assets.cambridge.org/97811074/69204/excerpt/9781107469204_excerpt.pdf",
+      "access": "indexed-primary-pdf",
+      "scope": "Индексированный официальный методический фрагмент: уточнение знакомых форм, смысловые различия и лексические эквиваленты. Это первое издание, не TOC второго.",
+      "locator": "C1 methodology; direct fetch timed out",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "complete-advanced3",
+      "title": "Cambridge — Complete Advanced third edition, teacher frontmatter",
+      "url": "https://assets.cambridge.org/97810091/62388/frontmatter/9781009162388_frontmatter.pdf",
+      "access": "indexed-primary-pdf",
+      "scope": "Подтверждены издание 2023, C1 и структура курса; полная карта навыков Student's Book не извлечена. Сама серия не используется как доказательство C2.",
+      "locator": "Frontmatter; direct fetch timed out",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "c2-handbook",
+      "title": "Cambridge English — C2 Proficiency Handbook for Teachers",
+      "url": "https://www.cambridgeenglish.org/Images/168194-c2-proficiency-teachers-handbook.pdf",
+      "access": "direct-pdf",
+      "scope": "Письменный синтез опирается на два коротких входных текста; жанр, аудитория и цель различаются. Это экзаменационный формат, не полный жизненный курс.",
+      "locator": "printed pp. 25–29 / PDF pp. 26–30",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "speakout-a2",
+      "title": "Pearson — Speakout third edition A2, scope and sequence",
+      "url": "https://www.pearson.com/content/dam/one-dot-com/one-dot-com/english/SampleMaterials/GeneralEnglish/speakout-3e/a2-level/SO3-A2-SandS.pdf",
+      "access": "direct-pdf",
+      "scope": "Есть совместное планирование, передача сообщения, поддержка покупателя, рассказ и заметки; речь и медиация связаны с чтением и аудио.",
+      "locator": "units 1C,2C,4C,5C,6C,7C; PDF pp. 1–2",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "speakout-series",
+      "title": "Pearson — Speakout, official course overview",
+      "url": "https://www.pearson.com/languages/educators/connected-english-learning-program/adult/speakout.html",
+      "access": "direct-page",
+      "scope": "British third edition заявлена A1–C2; American A1–C1. Подтверждены разнообразие акцентов и медиация. Полный C1/C2 scope PDF не получен.",
+      "locator": "About the course",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "gse-adult-2022",
+      "title": "Pearson — GSE Learning Objectives, Adult General English (September 2022)",
+      "url": "https://www.pearsoncanadaschool.com/content/dam/websites/pearson-canada-school/assets/documents/literacy/gse/gse-learning-objectives-adult-general-english.pdf",
+      "access": "direct-pdf",
+      "scope": "Отдельные ориентиры для сложного чтения/слушания, точного конспекта, критического отзыва и редактирования; уровни описывают выполнение, не число пройденных уроков.",
+      "locator": "printed pp. 13,20,36,43–44",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "outcomes3",
+      "title": "National Geographic Learning — Outcomes third edition, sampler",
+      "url": "https://www.eltngl.com/digital/global/outcomes_3e/",
+      "access": "direct-interactive-shell",
+      "scope": "Свежая проверка публичного sampler; его текстовое представление неполно. Нельзя утверждать, что прочитаны все оглавления серии.",
+      "locator": "Sampler; limited extractability",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "outcomes-range",
+      "title": "National Geographic Learning — 2026 Spain catalogue",
+      "url": "https://www.eltngl.com/digital/emea/spain-catalog/",
+      "access": "indexed-official-catalogue",
+      "scope": "Outcomes third edition: A1–C1, шесть уровней. Не является отдельной опорой для C2.",
+      "locator": "Outcomes page",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "ngl-listening",
+      "title": "Andrew Walkley / NGL — How do we improve listening outcomes? (2023)",
+      "url": "https://infocus.eltngl.com/2023/08/24/improve-listening-outcomes/",
+      "access": "indexed-primary-article",
+      "scope": "Автор разделяет знание языка, распознавание потока речи, извлечение значения и построение понимания текста; это методическая позиция автора, не испытание нашего приложения.",
+      "locator": "sections on four listening processes",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "bc-audio",
+      "title": "British Council — Audio zone",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/general/audio-zone",
+      "access": "direct-page",
+      "scope": "Открытые записи разных говорящих с транскриптами маркированы B2/C1; их нельзя переименовывать в C2.",
+      "locator": "Introduction",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "bc-writing",
+      "title": "British Council — C1 writing",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/writing/c1",
+      "access": "direct-page",
+      "scope": "Подтверждены модели письменных жанров и задания на их разбор; ссылки ведут к материалу, а не заменяют встроенный урок.",
+      "locator": "Introduction and lesson list",
+      "checkedAt": "2026-09-10"
+    },
+    {
+      "id": "openlearn",
+      "title": "The Open University — English: skills for learning",
+      "url": "https://www.open.edu/openlearn/education-development/english-skills-learning",
+      "access": "direct-page",
+      "scope": "Открытый курс включает критическое чтение, заметки, использование источников, словарные стратегии и пунктуацию. Официальный CEFR-уровень ему здесь не присваивается.",
+      "locator": "Learning outcomes; updated 4 March 2020",
+      "checkedAt": "2026-09-10"
+    }
+  ],
+  "coverageStatuses": {
+    "partial": "Тема и некоторые задания есть, но для указанной деятельности не хватает подготовленной цепочки материалов и переноса.",
+    "externalDependent": "Есть ссылка/инструкция для самостоятельного поиска или слушания; встроенный подготовленный аудиокомплект не подтверждён.",
+    "planned": "Редакционный brief есть; урок ещё не создан и не опубликован."
+  },
+  "gaps": [
+    {
+      "id": "gap-a1-registration",
+      "level": "A1",
+      "topic": "Записаться в клуб: услышать, заполнить, подтвердить",
+      "skills": [
+        "listening",
+        "writing",
+        "interaction",
+        "pronunciation"
+      ],
+      "sourceIds": [
+        "ef-a1",
+        "cefr-2020"
+      ],
+      "currentLessonIds": [
+        "research-spelling-numbers",
+        "path-be"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a1-identity-form",
+        "coverage-a1-audio-identity"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "Форма и числа представлены; нет самостоятельного полного комплекта аудио→форма→исправление, а coverage-a1-audio-identity ведёт к общему B1–B2 listening.",
+      "priority": "P0",
+      "plannedModuleId": "extended-a1-registration",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Записать только услышанные данные и оставить неизвестное пустым.",
+        "Уточнить одно сомнительное поле и подтвердить исправление."
+      ]
+    },
+    {
+      "id": "gap-a1-notices",
+      "level": "A1",
+      "topic": "Таблички и расписание: помочь посетителю",
+      "skills": [
+        "reading",
+        "mediation",
+        "speaking",
+        "vocabulary"
+      ],
+      "sourceIds": [
+        "ef-a1",
+        "cefr-2020"
+      ],
+      "currentLessonIds": [
+        "path-instructions",
+        "path-place-time"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a1-notices",
+        "coverage-a1-relay-instruction"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Есть единичные coverage prompts, привязанные к грамматике; нет связного набора объявлений и передачи нужного посетителю действия.",
+      "priority": "P0",
+      "plannedModuleId": "extended-a1-notices",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Найти нужное условие в нескольких коротких надписях.",
+        "Передать инструкцию простым английским и кратко по-русски."
+      ]
+    },
+    {
+      "id": "gap-a1-chat",
+      "level": "A1",
+      "topic": "Договориться о встрече в коротком чате",
+      "skills": [
+        "reading",
+        "writing",
+        "interaction",
+        "register"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "ef-a1"
+      ],
+      "currentLessonIds": [
+        "path-questions-basic",
+        "path-present-simple"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a1-online-reply"
+      ],
+      "coverageStatus": "partial",
+      "finding": "coverage-a1-online-reply не связан ни с одним готовым lessonId; полный цикл ответ→уточнение→подтверждение отсутствует.",
+      "priority": "P0",
+      "plannedModuleId": "extended-a1-chat",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Написать уместный короткий ответ без готовых вариантов.",
+        "После нового сообщения изменить договорённость и подтвердить итог."
+      ]
+    },
+    {
+      "id": "gap-a1-order",
+      "level": "A1",
+      "topic": "Заказ в кафе: от просьбы до правильного чека",
+      "skills": [
+        "listening",
+        "interaction",
+        "speaking",
+        "pronunciation"
+      ],
+      "sourceIds": [
+        "ef-a1",
+        "speakout-a2"
+      ],
+      "currentLessonIds": [
+        "research-ordering-checkout",
+        "path-countability"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a1-first-exchange"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Объяснение цикла заказа есть, но мало последовательных входных реплик для самостоятельной симуляции и слуховой проверки.",
+      "priority": "P1",
+      "plannedModuleId": "extended-a1-order",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Заказать два предмета своими словами.",
+        "Исправить ошибку и подтвердить сумму, не обещая лишнего."
+      ]
+    },
+    {
+      "id": "gap-a1-day",
+      "level": "A1",
+      "topic": "Обычный день: понять человека и задать вопрос",
+      "skills": [
+        "listening",
+        "speaking",
+        "writing",
+        "vocabulary"
+      ],
+      "sourceIds": [
+        "ef-a1",
+        "empower2"
+      ],
+      "currentLessonIds": [
+        "path-present-simple",
+        "path-adjectives-frequency",
+        "pron-14-word-stress"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a1-word-use"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "База Present Simple есть, но ограничена переносом отдельных фраз; нужна целая понятная история и личная ответная речь.",
+      "priority": "P1",
+      "plannedModuleId": "extended-a1-day",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Восстановить распорядок без дословного копирования.",
+        "Сопоставить с собой и задать относящийся к рассказу вопрос."
+      ]
+    },
+    {
+      "id": "gap-a2-options",
+      "level": "A2",
+      "topic": "Выбрать поездку по условиям, а не по одному слову",
+      "skills": [
+        "reading",
+        "writing",
+        "interaction",
+        "vocabulary"
+      ],
+      "sourceIds": [
+        "speakout-a2",
+        "cefr-2020"
+      ],
+      "currentLessonIds": [
+        "path-comparatives",
+        "path-future-plans"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a2-scan-options",
+        "coverage-a2-chat-decision"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Есть отдельное сравнение и prompt; недостаточно подготовленных сопоставимых источников и условий выбора.",
+      "priority": "P0",
+      "plannedModuleId": "extended-a2-options",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Сравнить три предложения по одинаковым критериям.",
+        "Предложить выполнимый план с объяснением."
+      ]
+    },
+    {
+      "id": "gap-a2-phone",
+      "level": "A2",
+      "topic": "Звонок: перенести запись и проверить итог",
+      "skills": [
+        "listening",
+        "interaction",
+        "speaking",
+        "pronunciation"
+      ],
+      "sourceIds": [
+        "speakout-a2",
+        "peu4"
+      ],
+      "currentLessonIds": [
+        "research-telephone-messages",
+        "path-future-plans"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a2-telephone-slot",
+        "coverage-a2-audio-change"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Урок о телефоне есть, но задача часто ссылается на B1 polite questions; нужен полный A2-сценарий без скачка уровня.",
+      "priority": "P0",
+      "plannedModuleId": "extended-a2-phone",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Понять доступное время и уточнить неясное.",
+        "В конце назвать согласованные день, время и действие."
+      ]
+    },
+    {
+      "id": "gap-a2-story",
+      "level": "A2",
+      "topic": "Что случилось в поездке: рассказ и реакция",
+      "skills": [
+        "listening",
+        "speaking",
+        "writing",
+        "pronunciation"
+      ],
+      "sourceIds": [
+        "speakout-a2",
+        "ef-b1"
+      ],
+      "currentLessonIds": [
+        "path-past-simple",
+        "path-connectors-basic",
+        "research-ending-s-ed"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a2-small-narrative",
+        "coverage-a2-endings-rhythm"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "Есть формы и минирассказ, но мало целых звучащих историй с реакцией собеседника и переносом окончаний в речь.",
+      "priority": "P1",
+      "plannedModuleId": "extended-a2-story",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Отделить причину от следующего события.",
+        "Кратко отреагировать и рассказать свой случай связно."
+      ]
+    },
+    {
+      "id": "gap-a2-service",
+      "level": "A2",
+      "topic": "Неправильная доставка: спокойно получить решение",
+      "skills": [
+        "reading",
+        "interaction",
+        "writing",
+        "register"
+      ],
+      "sourceIds": [
+        "speakout-a2",
+        "peu4"
+      ],
+      "currentLessonIds": [
+        "research-apologies-remedies",
+        "research-ordering-checkout"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a2-service-repair"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Объяснение извинения и исправления есть; не хватает серии реплик с реалистичным ограничением сервиса.",
+      "priority": "P1",
+      "plannedModuleId": "extended-a2-service",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Назвать конкретную проблему без ненужной агрессии.",
+        "После ответа сервиса выбрать и сформулировать выполнимое решение самостоятельно."
+      ]
+    },
+    {
+      "id": "gap-a2-relay",
+      "level": "A2",
+      "topic": "Передать сообщение человеку, который его не видел",
+      "skills": [
+        "reading",
+        "mediation",
+        "writing",
+        "speaking"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "speakout-a2"
+      ],
+      "currentLessonIds": [
+        "path-email-basic",
+        "research-telephone-messages"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-a2-relay-message"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Медиация обозначена одним prompt, готовые ссылки обучают письму/инструкциям, а не отбору информации под другого человека.",
+      "priority": "P0",
+      "plannedModuleId": "extended-a2-relay",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Выделить актуальные сведения из двух сообщений.",
+        "Передать их другу коротко на английском и по-русски."
+      ]
+    },
+    {
+      "id": "gap-b1-procedure",
+      "level": "B1",
+      "topic": "Инструкция с исключением: объяснить следующий шаг",
+      "skills": [
+        "reading",
+        "mediation",
+        "writing",
+        "vocabulary"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "openlearn"
+      ],
+      "currentLessonIds": [
+        "path-reading-inference",
+        "path-instructions"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b1-procedure-exceptions",
+        "coverage-b1-explain-for-friend"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Процедуры и медиация только номинально связаны с уроками: нет развёрнутого документа с условием и отдельным адресатом.",
+      "priority": "P0",
+      "plannedModuleId": "extended-b1-procedure",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Восстановить процедуру без потери исключения.",
+        "Написать понятную другу инструкцию и спросить об отсутствующем факте."
+      ]
+    },
+    {
+      "id": "gap-b1-interview",
+      "level": "B1",
+      "topic": "Интервью о реальном опыте: ответить на уточнение",
+      "skills": [
+        "interaction",
+        "speaking",
+        "listening",
+        "fluency"
+      ],
+      "sourceIds": [
+        "empower2",
+        "ef-b1"
+      ],
+      "currentLessonIds": [
+        "path-repair-conversation",
+        "path-narrative"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b1-follow-up-interview",
+        "coverage-b1-meaning-without-word"
+      ],
+      "coverageStatus": "partial",
+      "finding": "coverage follow-up опирается на B2 application-interview; нужна доступная B1 репетиция с последовательными вопросами.",
+      "priority": "P0",
+      "plannedModuleId": "extended-b1-interview",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Дать связный ответ о собственном опыте.",
+        "После уточнения исправить понимание, не зачитывая новый монолог."
+      ]
+    },
+    {
+      "id": "gap-b1-listening",
+      "level": "B1",
+      "topic": "Услышать причину и поправку в интервью",
+      "skills": [
+        "listening",
+        "speaking",
+        "pronunciation",
+        "vocabulary"
+      ],
+      "sourceIds": [
+        "ngl-listening",
+        "ef-b1"
+      ],
+      "currentLessonIds": [
+        "research-listening-decoding",
+        "research-connected-boundaries",
+        "path-connected-speech"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b1-call-conditions",
+        "coverage-b1-speech-boundaries"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "Процедура decoding есть; полноценный заранее выбранный материал и контроль первого слушания остаются на ученике.",
+      "priority": "P0",
+      "plannedModuleId": "extended-b1-listening",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Выделить три причины решения по аудио.",
+        "Разобрать один нерасслышанный фрагмент и пересказать без усиления уверенности."
+      ]
+    },
+    {
+      "id": "gap-b1-review",
+      "level": "B1",
+      "topic": "Рецензия, которой можно воспользоваться",
+      "skills": [
+        "reading",
+        "writing",
+        "interaction",
+        "register"
+      ],
+      "sourceIds": [
+        "ef-b1",
+        "bc-writing"
+      ],
+      "currentLessonIds": [
+        "research-review-writing",
+        "path-register-b2"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b1-useful-review",
+        "coverage-b1-two-versions-story"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Полезный принцип рецензии объяснён, но не хватает целой модели, набора фактов и редакторского ответа.",
+      "priority": "P1",
+      "plannedModuleId": "extended-b1-review",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Выделить разницу между описанием и оценкой.",
+        "Написать свой отзыв для заданной аудитории и ответить на возражение."
+      ]
+    },
+    {
+      "id": "gap-b1-online-help",
+      "level": "B1",
+      "topic": "Помочь в онлайн-обсуждении и исправить недоразумение",
+      "skills": [
+        "reading",
+        "interaction",
+        "writing",
+        "mediation"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "peu4"
+      ],
+      "currentLessonIds": [
+        "path-repair-conversation",
+        "path-connectors-basic"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b1-meaning-without-word"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Отдельной полной B1 цепочки online thread→связанный ответ→repair не найдено; существующие prompts тренируют изолированное объяснение.",
+      "priority": "P1",
+      "plannedModuleId": "extended-b1-online-help",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Ответить на реальный вопрос, не повторяя весь чат.",
+        "Снять недоразумение и проверить, что действие понятно."
+      ]
+    },
+    {
+      "id": "gap-b2-evidence",
+      "level": "B2",
+      "topic": "Данные и обещания: написать обоснованный отчёт",
+      "skills": [
+        "reading",
+        "writing",
+        "mediation",
+        "critical-thinking"
+      ],
+      "sourceIds": [
+        "gse-adult-2022",
+        "ef-c1c2"
+      ],
+      "currentLessonIds": [
+        "research-report-data",
+        "path-critical-reading"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b2-data-summary"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Числовая точность представлена, но исходные данные слишком компактны для оценки контекста, разных источников и адресата.",
+      "priority": "P0",
+      "plannedModuleId": "extended-b2-evidence",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Сопоставить данные с публичным обещанием.",
+        "Написать отчёт с выполнимой рекомендацией и обозначить неизвестное."
+      ]
+    },
+    {
+      "id": "gap-b2-negotiate",
+      "level": "B2",
+      "topic": "Переговоры: договориться при изменении условий",
+      "skills": [
+        "interaction",
+        "speaking",
+        "listening",
+        "mediation"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "speakout-series"
+      ],
+      "currentLessonIds": [
+        "path-discussion-b2",
+        "research-complaint-resolution"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b2-collaborative-choice"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Есть discussion prompt, но нет полной совместной задачи с изменяемыми условиями и итогом, учитывающим несколько участников.",
+      "priority": "P0",
+      "plannedModuleId": "extended-b2-negotiate",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Предложить решение, связанное с интересами участников.",
+        "Пересогласовать план после нового ограничения и назвать ответственность."
+      ]
+    },
+    {
+      "id": "gap-b2-interview",
+      "level": "B2",
+      "topic": "Длинное интервью: мнение, пример и оговорка",
+      "skills": [
+        "listening",
+        "speaking",
+        "pronunciation",
+        "register"
+      ],
+      "sourceIds": [
+        "bc-audio",
+        "ngl-listening"
+      ],
+      "currentLessonIds": [
+        "research-listening-decoding",
+        "listening"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b2-audio-evaluation",
+        "coverage-b2-structured-long-turn"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "Общие стратегии есть, но готового более длинного input с разметкой голоса/отношения и циклом проверки недостаточно.",
+      "priority": "P0",
+      "plannedModuleId": "extended-b2-interview",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Проследить, как позиция уточняется по ходу записи.",
+        "Передать итоговую позицию и задать содержательный вопрос."
+      ]
+    },
+    {
+      "id": "gap-b2-essay-thread",
+      "level": "B2",
+      "topic": "От обсуждения к аргументированному эссе",
+      "skills": [
+        "reading",
+        "writing",
+        "interaction",
+        "cohesion"
+      ],
+      "sourceIds": [
+        "gse-adult-2022",
+        "peu4",
+        "ef-b1"
+      ],
+      "currentLessonIds": [
+        "path-argument-essay",
+        "path-register-b2"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b2-online-reference"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Онлайн-референция связана с C1 substitution; нужна полная B2 цепочка чужая позиция→аргумент→жанровая правка.",
+      "priority": "P1",
+      "plannedModuleId": "extended-b2-essay-thread",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Восстановить позиции участников и референты.",
+        "Написать связное эссе и переделать один фрагмент в ответ в треде."
+      ]
+    },
+    {
+      "id": "gap-b2-application",
+      "level": "B2",
+      "topic": "Заявка и собеседование: подтвердить свой вклад",
+      "skills": [
+        "reading",
+        "writing",
+        "interaction",
+        "speaking"
+      ],
+      "sourceIds": [
+        "empower2",
+        "gse-adult-2022"
+      ],
+      "currentLessonIds": [
+        "research-application-interview"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b2-application-evidence"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Схема заявки уже есть, но не хватает полных исходников вакансии/опыта и последовательного собеседования.",
+      "priority": "P1",
+      "plannedModuleId": "extended-b2-application",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Написать точное сопроводительное сообщение.",
+        "Подкрепить заявленный навык конкретным примером и честно назвать ограничение."
+      ]
+    },
+    {
+      "id": "gap-c1-lecture",
+      "level": "C1",
+      "topic": "Лекция и вопросы: конспект, который сохраняет смысл",
+      "skills": [
+        "listening",
+        "mediation",
+        "writing",
+        "speaking"
+      ],
+      "sourceIds": [
+        "gse-adult-2022",
+        "ef-c1c2",
+        "ngl-listening"
+      ],
+      "currentLessonIds": [
+        "path-lecture-listening",
+        "research-question-response"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c1-meeting-notes"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "path-lecture-listening объясняет стратегию на микропримерах; внешняя ссылка требует самостоятельно искать и готовить входной материал.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c1-lecture",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Сделать конспект смысловых связей без стенограммы.",
+        "Объяснить итоговую позицию после Q&A и предложить следующий шаг."
+      ]
+    },
+    {
+      "id": "gap-c1-cross-text",
+      "level": "C1",
+      "topic": "Три источника: различить позицию и качество доказательства",
+      "skills": [
+        "reading",
+        "mediation",
+        "writing",
+        "critical-thinking"
+      ],
+      "sourceIds": [
+        "gse-adult-2022",
+        "openlearn",
+        "ef-c1c2"
+      ],
+      "currentLessonIds": [
+        "path-longform-reading",
+        "path-synthesis",
+        "research-report-data"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c1-cross-text-stance"
+      ],
+      "coverageStatus": "partial",
+      "finding": "В path-longform-reading исходник состоит из четырёх предложений; coverage-c1-cross-text-stance тоже использует три миниабзаца. Это подготовка, а не тренировка длительного чтения.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c1-cross-text",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Составить карту согласия и реального расхождения трёх источников.",
+        "Подготовить brief с атрибуцией и соразмерной доказательствам рекомендацией."
+      ]
+    },
+    {
+      "id": "gap-c1-public-explanation",
+      "level": "C1",
+      "topic": "Сложная идея для неспециалиста: объяснить без искажения",
+      "skills": [
+        "reading",
+        "mediation",
+        "writing",
+        "speaking",
+        "register"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "openlearn",
+        "peu4"
+      ],
+      "currentLessonIds": [
+        "path-information-density",
+        "path-source-mediation",
+        "path-hedging"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c1-specialist-to-public"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Текущий source-mediation и coverage используют короткие высказывания; нет полноценного технического источника, адресата и проверки понимания.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c1-public-explanation",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Разложить сложное объяснение на понятные смысловые шаги.",
+        "Сохранить ограничения при адаптации на английский и кратком русском пересказе."
+      ]
+    },
+    {
+      "id": "gap-c1-facilitation",
+      "level": "C1",
+      "topic": "Вести встречу: дать слово и получить реальное решение",
+      "skills": [
+        "interaction",
+        "mediation",
+        "listening",
+        "speaking",
+        "register"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "speakout-series",
+        "empower2"
+      ],
+      "currentLessonIds": [
+        "research-question-response",
+        "path-discussion-b2",
+        "path-diplomatic-disagreement"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c1-question-response",
+        "coverage-c1-proposal-revision"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Заданы три статических вопроса; не тренируется ведение группы, включение молчащего и изменение решения по новой информации.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c1-facilitation",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Собрать позиции без подмены чужой цели своей.",
+        "Сформулировать условное решение, владельцев действий и неразрешённый вопрос."
+      ]
+    },
+    {
+      "id": "gap-c1-review-article",
+      "level": "C1",
+      "topic": "Критическая рецензия и статья: писать для читателя",
+      "skills": [
+        "reading",
+        "writing",
+        "register",
+        "vocabulary"
+      ],
+      "sourceIds": [
+        "bc-writing",
+        "gse-adult-2022",
+        "ef-c1c2"
+      ],
+      "currentLessonIds": [
+        "research-review-writing",
+        "research-report-data",
+        "path-cross-register"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c1-report-article"
+      ],
+      "coverageStatus": "partial",
+      "finding": "C1 report/article coverage опирается на шесть фактов и вводный абзац; полноценная жанровая модель и разбор целого текста отсутствуют.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c1-review-article",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Объяснить, как модель ведёт читателя через оценку.",
+        "Написать разные тексты по одним фактам и обосновать редакторскую правку."
+      ]
+    },
+    {
+      "id": "gap-c1-lexical-lab",
+      "level": "C1",
+      "topic": "Точное слово: значение, сочетание и конструкция",
+      "skills": [
+        "reading",
+        "vocabulary",
+        "writing",
+        "register"
+      ],
+      "sourceIds": [
+        "evp-research",
+        "empower-c1-method",
+        "openlearn"
+      ],
+      "currentLessonIds": [
+        "path-lexical-precision",
+        "path-preposition-patterns",
+        "path-academic-collocations",
+        "pron-02-ipa-and-dictionary"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-b2-colligation"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Словообразование и collocations представлены хорошо; не обнаружен полный навык проверки конкретного значения и конструкции по словарной статье. IPA-урок не закрывает эту задачу.",
+      "priority": "P1",
+      "plannedModuleId": "extended-c1-lexical-lab",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Выбрать значение по контексту и доказать конструкцию.",
+        "Использовать новое сочетание в другой ситуации без механической замены синонимов."
+      ]
+    },
+    {
+      "id": "gap-c2-literary",
+      "level": "C2",
+      "topic": "Рассказ и сцена: точная интерпретация неоднозначности",
+      "skills": [
+        "reading",
+        "writing",
+        "speaking",
+        "register",
+        "mediation"
+      ],
+      "sourceIds": [
+        "gse-adult-2022",
+        "ef-c1c2",
+        "c2-handbook"
+      ],
+      "currentLessonIds": [
+        "path-literary-reading",
+        "path-rhetorical-analysis",
+        "path-irony"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c2-literary-distance"
+      ],
+      "coverageStatus": "partial",
+      "finding": "path-literary-reading предлагает две фразы, coverage — небольшой абзац; нет длительного взаимодействия с художественным голосом и сценой.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c2-literary",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Сопоставить две интерпретации с точными текстовыми основаниями.",
+        "Объяснить, что меняется при переходе от рассказа к сцене, без выдуманной биографии автора."
+      ]
+    },
+    {
+      "id": "gap-c2-synthesis",
+      "level": "C2",
+      "topic": "Синтез без подмены: соединить несовпадающие аргументы",
+      "skills": [
+        "reading",
+        "writing",
+        "mediation",
+        "critical-thinking"
+      ],
+      "sourceIds": [
+        "c2-handbook",
+        "gse-adult-2022"
+      ],
+      "currentLessonIds": [
+        "path-synthesis",
+        "path-source-mediation",
+        "path-c2-capstone"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c2-incompatible-evidence",
+        "coverage-c2-evidence-portfolio"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Короткий input уместен для writing synthesis, но текущие задания не дают отдельной проверки переноса на новый dossier и разных жанров доказательства.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c2-synthesis",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Написать 240–280 слов по двум коротким входным текстам.",
+        "Перенести метод на более длинный материал и сохранить независимость источников."
+      ]
+    },
+    {
+      "id": "gap-c2-interview",
+      "level": "C2",
+      "topic": "Сложное интервью: подтекст, отступления и смена позиции",
+      "skills": [
+        "listening",
+        "mediation",
+        "speaking",
+        "register",
+        "pronunciation"
+      ],
+      "sourceIds": [
+        "ef-c1c2",
+        "gse-adult-2022",
+        "c2-handbook"
+      ],
+      "currentLessonIds": [
+        "research-discourse-listening",
+        "research-accent-adaptation",
+        "path-lecture-listening"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c2-audio-revision"
+      ],
+      "coverageStatus": "externalDependent",
+      "finding": "C2 audio coverage требует от ученика самому найти sample; самостоятельный подготовленный сложный input и его разбивка отсутствуют.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c2-interview",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Построить timeline позиции и отличить услышанное от интерпретации.",
+        "Подготовить точный устный brief с оговоркой и вопросом."
+      ]
+    },
+    {
+      "id": "gap-c2-consensus",
+      "level": "C2",
+      "topic": "Сложный спор: восстановить общение и условный консенсус",
+      "skills": [
+        "interaction",
+        "mediation",
+        "speaking",
+        "writing",
+        "register"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "speakout-series"
+      ],
+      "currentLessonIds": [
+        "path-debate-synthesis",
+        "path-politeness-power",
+        "path-diplomatic-disagreement"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c2-cultural-repair",
+        "coverage-c2-conditional-consensus"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Три фиксированные позиции и один email не покрывают развивающееся взаимодействие, эмоциональные реакции и проверку реального согласия.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c2-consensus",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Переформулировать разногласие так, чтобы стороны узнали свои цели.",
+        "Зафиксировать условный консенсус и явно оставить неразрешённое."
+      ]
+    },
+    {
+      "id": "gap-c2-editor",
+      "level": "C2",
+      "topic": "Редактура сложного текста и публичное исправление",
+      "skills": [
+        "reading",
+        "writing",
+        "mediation",
+        "register",
+        "orthography"
+      ],
+      "sourceIds": [
+        "peu4",
+        "gse-adult-2022",
+        "openlearn"
+      ],
+      "currentLessonIds": [
+        "path-editing",
+        "research-public-correction",
+        "path-emphasis-restraint"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c2-public-correction"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Редакторские принципы есть, но готовый длинный черновик, системная пунктуация/варианты и отдельный факт-лист отсутствуют; ученик должен искать свой текст.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c2-editor",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Разделить фактологическую ошибку, грамматику и редакторское предпочтение.",
+        "Подготовить новую версию и прозрачное исправление без сокрытия значения."
+      ]
+    },
+    {
+      "id": "gap-c2-register-performance",
+      "level": "C2",
+      "topic": "Один смысл в трёх регистрах и ответ без подготовки",
+      "skills": [
+        "speaking",
+        "writing",
+        "interaction",
+        "pronunciation",
+        "register"
+      ],
+      "sourceIds": [
+        "cefr-2020",
+        "peu4",
+        "ef-c1c2"
+      ],
+      "currentLessonIds": [
+        "path-cross-register",
+        "path-modal-remoteness",
+        "path-prosody",
+        "research-spoken-grammar",
+        "pron-16-intonation-and-shadowing"
+      ],
+      "currentCoverageTopicIds": [
+        "coverage-c2-register-commitment",
+        "coverage-c1-spoken-prosody"
+      ],
+      "coverageStatus": "partial",
+      "finding": "Контроль регистра дан на трёх предложениях, просодии — на короткой записи; мало задачи со сложным обязательством, аудиториями и последующим вопросом.",
+      "priority": "P0",
+      "plannedModuleId": "extended-c2-register-performance",
+      "plannedStatus": "planned",
+      "closureCriteria": [
+        "Передать одинаковые обязательства в разных жанрах и проверить, что факты не меняются.",
+        "Ответить на уточнение и сделать тонкие границы смысла слышимыми."
+      ]
+    }
+  ],
+  "supplements": {
+    "count": 28,
+    "pageCount": 177,
+    "entries": [
+      {
+        "id": "phrasal-advanced-appendix-01",
+        "title": "Mini dictionary of phrasal verbs",
+        "page": 166,
+        "endPage": 194,
+        "type": "reference",
+        "bookId": "phrasal-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "phrasal-intermediate-appendix-01",
+        "title": "Mini dictionary of phrasal verbs",
+        "page": 179,
+        "endPage": 202,
+        "type": "reference",
+        "bookId": "phrasal-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы."
+      },
+      {
+        "id": "grammar-advanced-appendix-01",
+        "title": "Irregular verbs",
+        "page": 213,
+        "endPage": 214,
+        "type": "reference",
+        "bookId": "grammar-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          213,
+          214
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы."
+      },
+      {
+        "id": "grammar-advanced-appendix-02",
+        "title": "Passive verb forms",
+        "page": 215,
+        "endPage": 215,
+        "type": "reference",
+        "bookId": "grammar-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          215
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы."
+      },
+      {
+        "id": "grammar-advanced-appendix-03",
+        "title": "Glossary of grammar terminology",
+        "page": 216,
+        "endPage": 220,
+        "type": "reference",
+        "bookId": "grammar-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          216,
+          217,
+          218,
+          219,
+          220
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы."
+      },
+      {
+        "id": "grammar-advanced-appendix-04",
+        "title": "Study planner: diagnostic review",
+        "page": 221,
+        "endPage": 232,
+        "type": "practice",
+        "bookId": "grammar-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы.",
+        "answerKeyStatus": "not-compiled"
+      },
+      {
+        "id": "grammar-advanced-appendix-05",
+        "title": "Grammar reminder",
+        "page": 233,
+        "endPage": 250,
+        "type": "reference",
+        "bookId": "grammar-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы."
+      },
+      {
+        "id": "grammar-advanced-appendix-06",
+        "title": "Additional exercises",
+        "page": 251,
+        "endPage": 261,
+        "type": "practice",
+        "bookId": "grammar-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "ocr-unverified",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы.",
+        "answerKeyStatus": "not-reviewed"
+      },
+      {
+        "id": "grammar-intermediate-appendix-01",
+        "title": "Regular and irregular verbs",
+        "page": 303,
+        "endPage": 304,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-02",
+        "title": "Present and past tenses",
+        "page": 305,
+        "endPage": 305,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-03",
+        "title": "The future",
+        "page": 306,
+        "endPage": 306,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-04",
+        "title": "Modal verbs (can/could/will/would etc.)",
+        "page": 307,
+        "endPage": 307,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-05",
+        "title": "Short forms (I’m / you’ve / didn’t etc.)",
+        "page": 308,
+        "endPage": 308,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-06",
+        "title": "Spelling",
+        "page": 309,
+        "endPage": 310,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-07",
+        "title": "American English",
+        "page": 311,
+        "endPage": 312,
+        "type": "reference",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-08",
+        "title": "Additional exercises 1–41: mixed grammar practice",
+        "page": 313,
+        "endPage": 336,
+        "type": "practice",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-intermediate-appendix-09",
+        "title": "Study guide: diagnostic grammar review",
+        "page": 337,
+        "endPage": 346,
+        "type": "practice",
+        "bookId": "grammar-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true,
+        "initialAuditQuality": {
+          "date": "2026-09-10",
+          "status": "needs-source-check",
+          "manuallyReviewed": false
+        },
+        "visualVerified": true,
+        "reviewDate": "2026-09-10",
+        "reviewedPdfPages": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "reviewNote": "Полная визуальная вычитка текста и структуры; исходный OCR сохранён. Готовность справочника не означает готовность автоматического ключа или освоение темы.",
+        "answerKeyStatus": "not-reviewed"
+      },
+      {
+        "id": "grammar-elementary-appendix-01",
+        "title": "Active and passive",
+        "page": 251,
+        "endPage": 251,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-02",
+        "title": "List of irregular verbs",
+        "page": 252,
+        "endPage": 252,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-03",
+        "title": "Irregular verbs in groups",
+        "page": 253,
+        "endPage": 253,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-04",
+        "title": "Short forms (he’s / I’d / don’t etc.)",
+        "page": 254,
+        "endPage": 255,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-05",
+        "title": "Spelling",
+        "page": 256,
+        "endPage": 257,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-06",
+        "title": "Phrasal verbs (take off / give up etc.)",
+        "page": 258,
+        "endPage": 258,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-07",
+        "title": "Phrasal verbs + object",
+        "page": 259,
+        "endPage": 259,
+        "type": "reference",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "grammar-elementary-appendix-08",
+        "title": "Additional exercises 1–35: mixed grammar practice",
+        "page": 232,
+        "endPage": 250,
+        "type": "practice",
+        "bookId": "grammar-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": false
+      },
+      {
+        "id": "vocabulary-advanced-appendix-01",
+        "title": "Phonemic symbols: vowels, consonants and word stress",
+        "page": 278,
+        "endPage": 278,
+        "type": "reference",
+        "bookId": "vocabulary-advanced",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true
+      },
+      {
+        "id": "vocabulary-elementary-appendix-01",
+        "title": "Phonemic symbols: vowels, consonants and word stress",
+        "page": 159,
+        "endPage": 159,
+        "type": "reference",
+        "bookId": "vocabulary-elementary",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true
+      },
+      {
+        "id": "vocabulary-upper-intermediate-appendix-01",
+        "title": "Phonemic symbols: vowels, consonants and word stress",
+        "page": 258,
+        "endPage": 258,
+        "type": "reference",
+        "bookId": "vocabulary-upper-intermediate",
+        "extracted": true,
+        "status": "extracted",
+        "manuallyReviewed": true
+      }
+    ],
+    "groups": [
+      {
+        "id": "irregular-verbs",
+        "title": "Неправильные глаголы и группы форм",
+        "entryIds": [
+          "grammar-advanced-appendix-01",
+          "grammar-intermediate-appendix-01",
+          "grammar-elementary-appendix-02",
+          "grammar-elementary-appendix-03"
+        ],
+        "relatedLessonIds": [
+          "path-past-simple",
+          "path-present-perfect",
+          "path-past-perfect"
+        ],
+        "plannedModuleIds": [
+          "extended-a2-story",
+          "extended-b1-interview"
+        ],
+        "gap": "Формы используются в готовых уроках и планируемой речи; полный перечень остаётся справочником с исходными страницами. Не создавать урок на каждую строку или считать знание всех форм подтверждённым."
+      },
+      {
+        "id": "form-charts",
+        "title": "Сводные таблицы времён, модальных форм и пассива",
+        "entryIds": [
+          "grammar-advanced-appendix-02",
+          "grammar-intermediate-appendix-02",
+          "grammar-intermediate-appendix-03",
+          "grammar-intermediate-appendix-04",
+          "grammar-elementary-appendix-01"
+        ],
+        "relatedLessonIds": [
+          "path-present-simple",
+          "path-past-simple",
+          "path-future-simple",
+          "path-deduction",
+          "path-passive-basic",
+          "path-passive-advanced"
+        ],
+        "plannedModuleIds": [
+          "extended-b1-procedure",
+          "extended-c2-register-performance"
+        ],
+        "gap": "Тематические уроки есть. Таблицы нужны как навигационная справка; полная пространственная структура и проверка OCR по оригиналу не заменяются авторским пересказом."
+      },
+      {
+        "id": "contractions",
+        "title": "Краткие формы в письме и речи",
+        "entryIds": [
+          "grammar-intermediate-appendix-05",
+          "grammar-elementary-appendix-04"
+        ],
+        "relatedLessonIds": [
+          "path-connected-speech",
+          "research-spoken-grammar",
+          "pron-15-rhythm-and-linking"
+        ],
+        "plannedModuleIds": [
+          "extended-a1-day",
+          "extended-b1-listening"
+        ],
+        "gap": "Краткие формы представлены, но доступность таблицы не доказывает распознавание на слух; перенос проверять на записи."
+      },
+      {
+        "id": "spelling",
+        "title": "Написание и орфографические изменения",
+        "entryIds": [
+          "grammar-intermediate-appendix-06",
+          "grammar-elementary-appendix-05"
+        ],
+        "relatedLessonIds": [
+          "path-present-continuous",
+          "pron-11-spelling-and-silent-letters",
+          "path-editing"
+        ],
+        "plannedModuleIds": [
+          "extended-c2-editor"
+        ],
+        "gap": "Некоторые изменения есть в уроках; полный справочник доступен отдельным текстом/оригиналом. Системный proofreading и пунктуация требуют новой практики."
+      },
+      {
+        "id": "varieties",
+        "title": "Американский английский и редакционная норма",
+        "entryIds": [
+          "grammar-intermediate-appendix-07"
+        ],
+        "relatedLessonIds": [
+          "research-accent-adaptation",
+          "path-cross-register"
+        ],
+        "plannedModuleIds": [
+          "extended-c2-editor",
+          "extended-c2-register-performance"
+        ],
+        "gap": "Акценты и регистр не равны сверке UK/US грамматики и написания. Полный перечень различий остаётся справочным; не считать допустимый вариант ошибкой."
+      },
+      {
+        "id": "phrasal-reference",
+        "title": "Мини-словари и порядок дополнения phrasal verbs",
+        "entryIds": [
+          "phrasal-advanced-appendix-01",
+          "phrasal-intermediate-appendix-01",
+          "grammar-elementary-appendix-06",
+          "grammar-elementary-appendix-07"
+        ],
+        "relatedLessonIds": [
+          "phrasal",
+          "path-everyday-phrasal",
+          "path-phrasal-nuance"
+        ],
+        "plannedModuleIds": [
+          "extended-c1-lexical-lab"
+        ],
+        "gap": "Тематические уроки и словари есть; lookup конкретного значения/управления и новое употребление нужно тренировать. Алфавитный список не превращается в набор новых тематических уроков."
+      },
+      {
+        "id": "phonemic-chart",
+        "title": "Фонетическая таблица и ударение",
+        "entryIds": [
+          "vocabulary-advanced-appendix-01",
+          "vocabulary-elementary-appendix-01",
+          "vocabulary-upper-intermediate-appendix-01"
+        ],
+        "relatedLessonIds": [
+          "pron-01-letters-and-sounds",
+          "pron-02-ipa-and-dictionary",
+          "pron-14-word-stress",
+          "pron-16-intonation-and-shadowing"
+        ],
+        "plannedModuleIds": [
+          "extended-a1-registration",
+          "extended-c2-register-performance"
+        ],
+        "gap": "Три таблицы извлечены и отмечены manuallyReviewed. 16 уроков произношения уже существуют; дополнительный пробел — применение в длинной речи и достоверная оценка записи, а не отсутствие IPA."
+      },
+      {
+        "id": "grammar-reference",
+        "title": "Термины и grammar reminder",
+        "entryIds": [
+          "grammar-advanced-appendix-03",
+          "grammar-advanced-appendix-05"
+        ],
+        "relatedLessonIds": [
+          "path-inversion",
+          "path-clefts",
+          "path-participle-clauses"
+        ],
+        "plannedModuleIds": [
+          "extended-c1-public-explanation",
+          "extended-c1-lexical-lab"
+        ],
+        "gap": "Справочник полностью вычитан 10.09.2026: 56 терминов и 211 пунктов Grammar reminder; восстановлены таблицы и ссылки. Это поиск объяснения, а не отдельное доказательство коммуникативного навыка.",
+        "initialAuditGap": "Это справка для поиска объяснений, а не самостоятельный коммуникативный навык. OCR этих двух приложений пока не верифицирован; сомнительные места проверять по PDF.",
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "id": "diagnostic-mixed",
+        "title": "Диагностические руководства и смешанные упражнения",
+        "entryIds": [
+          "grammar-advanced-appendix-04",
+          "grammar-advanced-appendix-06",
+          "grammar-intermediate-appendix-08",
+          "grammar-intermediate-appendix-09",
+          "grammar-elementary-appendix-08"
+        ],
+        "relatedLessonIds": [
+          "present",
+          "past-story",
+          "perfect",
+          "future",
+          "conditionals",
+          "articles"
+        ],
+        "plannedModuleIds": [
+          "extended-b1-procedure",
+          "extended-b2-essay-thread",
+          "extended-c2-synthesis"
+        ],
+        "gap": "Полностью вычитаны 160 вопросов Murphy Study guide, 159 вопросов Advanced Study planner и 16 групп /197 пунктов Advanced Additional exercises. Ключи за пределами этих приложений не проверены; автоматическое оценивание не подтверждено. Остальные mixed-приложения не получили новую ручную проверку.",
+        "initialAuditGap": "Оригинальная mixed/diagnostic практика доступна отдельно; автоматизированная валидированная диагностика и разбор всех пунктов в готовом приложении не подтверждены. Не оценивать CEFR по числу отмеченных заданий.",
+        "updatedAt": "2026-09-10"
+      }
+    ],
+    "note": "28 разделов /177 страниц находятся отдельно от872 номерных юнитов. Обновление10.09.2026: все8 ранее сомнительных приложений /83 страницы полностью визуально вычитаны; исходный OCR и печатные ошибки сохранены отдельно. Это исправление источников, а не выпуск новых уроков или проверка отдельных ключей.",
+    "initialAuditNote": "28 разделов / 177 страниц не входят в 872 номерных юнита. Фактические extracted JSON проверены read-only; text-layer report содержит21, ещё7 получены OCR. Доступ к тексту не равен ручной верификации и готовому уроку.",
+    "reviewUpdate": {
+      "date": "2026-09-10",
+      "entryIds": [
+        "grammar-advanced-appendix-01",
+        "grammar-advanced-appendix-02",
+        "grammar-advanced-appendix-03",
+        "grammar-advanced-appendix-04",
+        "grammar-advanced-appendix-05",
+        "grammar-advanced-appendix-06",
+        "grammar-intermediate-appendix-09",
+        "phrasal-intermediate-appendix-01"
+      ],
+      "pageCount": 83,
+      "scope": "All pages of eight formerly unverified appendices; remaining twenty entries retain their earlier review scope.",
+      "report": "docs/APPENDIX-QUALITY-2026-09-10.md"
+    }
+  },
+  "limitations": [
+    "Проверено наличие содержания и устойчивые примеры, но не выполнена вручную каждая из более тысячи библиотечных задач.",
+    "Для EVP/EGP не заявляется поэлементная проверка нынешней базы; новая лексика не получает придуманных официальных уровней.",
+    "Empower second edition подтверждён по странице издателя; методический C1 excerpt относится к первому изданию. Часть Cambridge PDF была доступна в индексированной официальной выдаче, но прямое получение завершалось тайм-аутом.",
+    "Название Complete Proficiency как отдельная текущая серия не подтверждено; C2 сверялся по официальному Proficiency handbook. Complete Advanced third edition — C1.",
+    "Outcomes — A1–C1; официальный sampler имеет ограниченно извлекаемый текст. Полный набор Advanced TOCs не заявляется прочитанным.",
+    "OpenLearn не получил придуманного CEFR-уровня. British Council Audio zone имеет маркировку B2/C1, а не C2.",
+    "Короткие входные тексты уместны для некоторых сложных письменных задач: Cambridge C2 synthesis использует два текста примерно по100слов. Для sustained reading/listening нужно отдельное содержательное задание.",
+    "32 planned модуля не закрывают автоматически все CEFR-дескрипторы, профессиональные домены и длительную практику. После генерации нужны фактологическая, языковая и сценарная редактура.",
+    "Спонтанное взаимодействие и тонкое произношение не подтверждаются текстовой расшифровкой, количеством занятий или прочитанными PDF."
+  ]
+}

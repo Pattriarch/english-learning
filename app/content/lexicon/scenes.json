@@ -1,0 +1,203 @@
+{
+  "version": "context-lexicon-scenes-v1",
+  "sourceId": "english-original-ai-scenes-2026-09-10",
+  "source": {
+    "kind": "original-ai-generated-images",
+    "attribution": "English project, generated with OpenAI Image Generator",
+    "license": "original-project-content"
+  },
+  "scenes": [
+    {
+      "id": "troubleshooting",
+      "title": "Разбираемся с технической проблемой",
+      "src": "/assets/vocabulary-scenes/troubleshooting.png",
+      "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5",
+      "entryIds": [
+        "us-figure-out",
+        "us-look-into",
+        "us-run-into-a-problem",
+        "us-roll-back",
+        "us-workaround",
+        "us-deadline"
+      ],
+      "association": "shared-scene-not-literal-depiction-of-every-context",
+      "associationRu": "Общая сцена-ассоциация: изображение не иллюстрирует буквально каждый пример и не служит доказательством описанных событий.",
+      "generation": {
+        "kind": "original-ai-generated-image",
+        "tool": "image_gen__imagegen",
+        "sourceBasename": "exec-830508e1-a8b1-4e3d-8340-784dbff85ba8.png",
+        "sourceSHA256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5",
+        "copiedWithoutImageEditing": true,
+        "promptRecorded": false,
+        "notes": "Original image generated for the English project; exact generation prompt is not reconstructed. Source image and published PNG are byte-identical.",
+        "visualReview": {
+          "date": "2026-09-10",
+          "scope": "All six source images and matching local copies viewed; alt descriptions checked against visible content."
+        }
+      }
+    },
+    {
+      "id": "team-planning",
+      "title": "Согласуем работу в команде",
+      "src": "/assets/vocabulary-scenes/team-planning.png",
+      "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38",
+      "entryIds": [
+        "us-on-the-same-page",
+        "us-follow-up",
+        "us-keep-someone-posted",
+        "us-push-back",
+        "us-trade-off",
+        "us-deliverable"
+      ],
+      "association": "shared-scene-not-literal-depiction-of-every-context",
+      "associationRu": "Общая сцена-ассоциация: изображение не иллюстрирует буквально каждый пример и не служит доказательством описанных событий.",
+      "generation": {
+        "kind": "original-ai-generated-image",
+        "tool": "image_gen__imagegen",
+        "sourceBasename": "exec-3fe3593c-1763-416f-830c-ecee9f3e73ce.png",
+        "sourceSHA256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38",
+        "copiedWithoutImageEditing": true,
+        "promptRecorded": false,
+        "notes": "Original image generated for the English project; exact generation prompt is not reconstructed. Source image and published PNG are byte-identical.",
+        "visualReview": {
+          "date": "2026-09-10",
+          "scope": "All six source images and matching local copies viewed; alt descriptions checked against visible content."
+        }
+      }
+    },
+    {
+      "id": "friends-cafe",
+      "title": "Встречаемся и договариваемся с друзьями",
+      "src": "/assets/vocabulary-scenes/friends-cafe.png",
+      "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8",
+      "entryIds": [
+        "us-catch-up",
+        "us-hang-out",
+        "us-my-bad",
+        "us-no-worries",
+        "us-take-a-rain-check",
+        "us-im-down"
+      ],
+      "association": "shared-scene-not-literal-depiction-of-every-context",
+      "associationRu": "Общая сцена-ассоциация: изображение не иллюстрирует буквально каждый пример и не служит доказательством описанных событий.",
+      "generation": {
+        "kind": "original-ai-generated-image",
+        "tool": "image_gen__imagegen",
+        "sourceBasename": "exec-c0e837c2-7448-4a8e-a6ef-e0b81ba68c8e.png",
+        "sourceSHA256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8",
+        "copiedWithoutImageEditing": true,
+        "promptRecorded": false,
+        "notes": "Original image generated for the English project; exact generation prompt is not reconstructed. Source image and published PNG are byte-identical.",
+        "visualReview": {
+          "date": "2026-09-10",
+          "scope": "All six source images and matching local copies viewed; alt descriptions checked against visible content."
+        }
+      }
+    },
+    {
+      "id": "online-discussion",
+      "title": "Участвуем в онлайн-обсуждении",
+      "src": "/assets/vocabulary-scenes/online-discussion.png",
+      "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad",
+      "entryIds": [
+        "us-thread",
+        "us-op",
+        "us-imo",
+        "us-fwiw",
+        "us-tl-dr",
+        "us-lurker"
+      ],
+      "association": "shared-scene-not-literal-depiction-of-every-context",
+      "associationRu": "Общая сцена-ассоциация: изображение не иллюстрирует буквально каждый пример и не служит доказательством описанных событий.",
+      "generation": {
+        "kind": "original-ai-generated-image",
+        "tool": "image_gen__imagegen",
+        "sourceBasename": "exec-fa46717a-81b7-4588-bc96-edd53e3902b3.png",
+        "sourceSHA256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad",
+        "copiedWithoutImageEditing": true,
+        "promptRecorded": false,
+        "notes": "Original image generated for the English project; exact generation prompt is not reconstructed. Source image and published PNG are byte-identical.",
+        "visualReview": {
+          "date": "2026-09-10",
+          "scope": "All six source images and matching local copies viewed; alt descriptions checked against visible content."
+        }
+      }
+    },
+    {
+      "id": "careful-purchase",
+      "title": "Проверяем покупку и условия",
+      "src": "/assets/vocabulary-scenes/careful-purchase.png",
+      "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4",
+      "entryIds": [
+        "us-sketchy",
+        "us-red-flag",
+        "us-no-brainer",
+        "us-heads-up",
+        "us-give-someone-the-benefit-of-the-doubt",
+        "us-call-someone-out"
+      ],
+      "association": "shared-scene-not-literal-depiction-of-every-context",
+      "associationRu": "Общая сцена-ассоциация: изображение не иллюстрирует буквально каждый пример и не служит доказательством описанных событий.",
+      "generation": {
+        "kind": "original-ai-generated-image",
+        "tool": "image_gen__imagegen",
+        "sourceBasename": "exec-b81c188d-9659-4ad0-94ca-04d37573eb00.png",
+        "sourceSHA256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4",
+        "copiedWithoutImageEditing": true,
+        "promptRecorded": false,
+        "notes": "Original image generated for the English project; exact generation prompt is not reconstructed. Source image and published PNG are byte-identical.",
+        "visualReview": {
+          "date": "2026-09-10",
+          "scope": "All six source images and matching local copies viewed; alt descriptions checked against visible content."
+        }
+      }
+    },
+    {
+      "id": "startup-budget",
+      "title": "Обсуждаем деньги небольшого бизнеса",
+      "src": "/assets/vocabulary-scenes/startup-budget.png",
+      "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21",
+      "entryIds": [
+        "us-runway",
+        "us-burn-rate",
+        "us-break-even",
+        "us-cash-flow",
+        "us-bootstrap",
+        "us-cut-corners"
+      ],
+      "association": "shared-scene-not-literal-depiction-of-every-context",
+      "associationRu": "Общая сцена-ассоциация: изображение не иллюстрирует буквально каждый пример и не служит доказательством описанных событий.",
+      "generation": {
+        "kind": "original-ai-generated-image",
+        "tool": "image_gen__imagegen",
+        "sourceBasename": "exec-c9a7abf4-59d5-4487-ace9-9edd0d8c6fc5.png",
+        "sourceSHA256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21",
+        "copiedWithoutImageEditing": true,
+        "promptRecorded": false,
+        "notes": "Original image generated for the English project; exact generation prompt is not reconstructed. Source image and published PNG are byte-identical.",
+        "visualReview": {
+          "date": "2026-09-10",
+          "scope": "All six source images and matching local copies viewed; alt descriptions checked against visible content."
+        }
+      }
+    }
+  ]
+}

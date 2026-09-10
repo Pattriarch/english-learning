@@ -1,0 +1,4337 @@
+{
+  "version": "context-lexicon-v1",
+  "targetVariety": "en-US",
+  "spanEncoding": "utf-16",
+  "source": {
+    "sourceId": "english-american-phrases-editorial-2026-09-10",
+    "kind": "original-editorial",
+    "license": "original-project-content",
+    "attribution": "English project contributors",
+    "checkedAt": "2026-09-10"
+  },
+  "notes": "Original educational scenarios, not quotations or claims about real people. US-compatible usage does not imply exclusive US origin. Rank and CEFR are unknown. The phrase collection includes useful single-word expressions.",
+  "entries": [
+    {
+      "id": "us-figure-out",
+      "kind": "phrase",
+      "word": "figure out",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-figure-out-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To reach an understanding or solution by thinking about a problem.",
+          "definitionRu": "Разобраться в проблеме и найти объяснение или решение, обдумав её.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-figure-out-context-1",
+          "en": "I can't figure out why the checkout page freezes after I enter my ZIP code. I'll compare the error logs from a successful order and a failed one.",
+          "ru": "Я не могу разобраться, почему страница оформления заказа зависает после ввода моего почтового индекса. Я сравню журналы ошибок успешного и неудачного заказов.",
+          "targetSpans": [
+            {
+              "start": 8,
+              "end": 18,
+              "text": "figure out"
+            }
+          ],
+          "senseId": "us-figure-out-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Разговорное; естественно в повседневной и рабочей американской речи.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Figure out здесь обозначает результат умственной работы: понять причину сбоя. После why идёт порядок слов утверждения — why the page freezes, без does. С существительным возможны figure out the problem и figure the problem out; местоимение ставят внутрь: figure it out. Look into означало бы начать исследование, ещё не обязательно найти ответ.",
+          "productionTask": "Опиши по-английски в 2–3 предложениях другую непонятную ситуацию из своей жизни: что ты пока не можешь выяснить и какие две вещи сравнишь. Используй figure out с why или how.",
+          "collocations": [
+            {
+              "text": "figure out why",
+              "contextId": "us-figure-out-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "troubleshooting",
+              "title": "Разбираемся с технической проблемой"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "figure out why",
+          "contextId": "us-figure-out-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "troubleshooting",
+          "title": "Разбираемся с технической проблемой"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "troubleshooting",
+          "contextId": "us-figure-out-context-1",
+          "src": "/assets/vocabulary-scenes/troubleshooting.png",
+          "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-look-into",
+      "kind": "phrase",
+      "word": "look into",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-look-into-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To investigate a reported situation in order to learn more about it.",
+          "definitionRu": "Изучить сообщённую ситуацию, чтобы выяснить подробности или причину.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-look-into-context-1",
+          "en": "Two customers say their receipts never arrived, so I'll look into the email settings this afternoon. I haven't confirmed the cause yet, and I won't promise a fix before checking the logs.",
+          "ru": "Два клиента говорят, что их квитанции так и не пришли, поэтому сегодня после обеда я проверю настройки электронной почты. Я пока не установил причину и не буду обещать исправление до проверки журналов.",
+          "targetSpans": [
+            {
+              "start": 56,
+              "end": 65,
+              "text": "look into"
+            }
+          ],
+          "senseId": "us-look-into-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное разговорное и деловое; подходит для ответа клиенту.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Look into — расследовать или внимательно проверить вопрос, а не буквально заглянуть внутрь предмета. Это неразделяемое сочетание в данном значении: look into the settings, look into it. Обещание исследования не равняется обещанию устранить сбой. I figured out the cause сообщало бы, что причина уже установлена; I’ll try to figure it out выражает только намерение разобраться.",
+          "productionTask": "Напиши ответ клиенту о другой жалобе в 2–3 предложениях. Скажи, что именно проверишь с look into, и честно обозначь, чего пока не знаешь.",
+          "collocations": [
+            {
+              "text": "look into the email settings",
+              "contextId": "us-look-into-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "troubleshooting",
+              "title": "Разбираемся с технической проблемой"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "look into the email settings",
+          "contextId": "us-look-into-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "troubleshooting",
+          "title": "Разбираемся с технической проблемой"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "troubleshooting",
+          "contextId": "us-look-into-context-1",
+          "src": "/assets/vocabulary-scenes/troubleshooting.png",
+          "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-run-into-a-problem",
+      "kind": "phrase",
+      "word": "run into a problem",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-run-into-a-problem-sense-1",
+          "pos": "phrasal verb + noun",
+          "definition": "To encounter an unexpected difficulty while doing something.",
+          "definitionRu": "Неожиданно столкнуться с трудностью в ходе работы.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-run-into-a-problem-context-1",
+          "en": "We ran into a problem while moving the customer records: several dates were in the wrong format. We paused the import so we could correct the file before trying again.",
+          "ru": "При переносе данных клиентов мы столкнулись с проблемой: несколько дат были в неверном формате. Мы приостановили импорт, чтобы исправить файл перед новой попыткой.",
+          "targetSpans": [
+            {
+              "start": 3,
+              "end": 21,
+              "text": "ran into a problem"
+            }
+          ],
+          "senseId": "us-run-into-a-problem-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное разговорное; уместно в рабочем обновлении.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Ran — прошедшая форма run; ran into a problem значит столкнулись с трудностью, без физического столкновения. Into не отделяется от дополнения: ran into it. While moving сокращает while we were moving, потому что действующее лицо то же. Сочетание сообщает о возникновении препятствия, но само по себе не объясняет его причину и не означает, что его уже устранили.",
+          "productionTask": "В 3 английских предложениях расскажи о другом препятствии при работе или учёбе: с чем столкнулся, что временно остановил и что сделал дальше. Используй ran into a problem.",
+          "collocations": [
+            {
+              "text": "ran into a problem",
+              "contextId": "us-run-into-a-problem-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "troubleshooting",
+              "title": "Разбираемся с технической проблемой"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "ran into a problem",
+          "contextId": "us-run-into-a-problem-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "troubleshooting",
+          "title": "Разбираемся с технической проблемой"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "troubleshooting",
+          "contextId": "us-run-into-a-problem-context-1",
+          "src": "/assets/vocabulary-scenes/troubleshooting.png",
+          "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-roll-back",
+      "kind": "phrase",
+      "word": "roll back",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-roll-back-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To return software to an earlier version or state.",
+          "definitionRu": "Вернуть программу к предыдущей версии или состоянию.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-roll-back-context-1",
+          "en": "The latest release broke the search filters, so we're going to roll back the update. We'll test a corrected version separately before putting it on the live site.",
+          "ru": "Последний выпуск сломал фильтры поиска, поэтому мы собираемся откатить обновление. Исправленную версию мы протестируем отдельно, прежде чем устанавливать её на работающий сайт.",
+          "targetSpans": [
+            {
+              "start": 63,
+              "end": 72,
+              "text": "roll back"
+            }
+          ],
+          "senseId": "us-roll-back-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Техническое; обычно в разговорах разработчиков и ИТ-поддержки.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Roll back the update здесь означает отменить внедрение новой версии и вернуться к прежней. Это разделяемый фразовый глагол: roll the update back, а с местоимением — roll it back. Существительное rollback обычно пишется слитно. Restart лишь перезапускает программу; он сам по себе не возвращает её предыдущую версию и не равнозначен откату.",
+          "productionTask": "Представь другой неудачный выпуск приложения. Напиши команде 3 предложения: что сломалось, что предлагаешь откатить и как проверишь следующую версию; используй roll back.",
+          "collocations": [
+            {
+              "text": "roll back the update",
+              "contextId": "us-roll-back-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "troubleshooting",
+              "title": "Разбираемся с технической проблемой"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "roll back the update",
+          "contextId": "us-roll-back-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "troubleshooting",
+          "title": "Разбираемся с технической проблемой"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "troubleshooting",
+          "contextId": "us-roll-back-context-1",
+          "src": "/assets/vocabulary-scenes/troubleshooting.png",
+          "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-workaround",
+      "kind": "phrase",
+      "word": "workaround",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-workaround-sense-1",
+          "pos": "noun",
+          "definition": "An alternative way to complete a task while the underlying problem remains.",
+          "definitionRu": "Обходной способ выполнить задачу, пока основная проблема не устранена.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-workaround-context-1",
+          "en": "Until we repair the upload button, the workaround is to email the file to support. This lets customers finish their requests, but it doesn't fix the broken button.",
+          "ru": "Пока мы не починим кнопку загрузки, обходной способ — отправлять файл в службу поддержки по электронной почте. Это позволяет клиентам завершить свои обращения, но не исправляет сломанную кнопку.",
+          "targetSpans": [
+            {
+              "start": 39,
+              "end": 49,
+              "text": "workaround"
+            }
+          ],
+          "senseId": "us-workaround-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Техническое и рабочее; вне ИТ лучше при необходимости пояснить смысл.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Workaround — исчисляемое существительное: a workaround, several workarounds. Здесь the появляется потому, что дальше назван конкретный способ обхода. После is стоит to email, описывающее действие. В отличие от fix, обходное решение оставляет исходную неисправность; при объяснении клиенту полезно назвать и доступный путь, и его временное ограничение.",
+          "productionTask": "Придумай обходной способ для другой временно недоступной функции. В 3 английских предложениях объясни его пользователю и отдельно скажи, какую проблему он пока не устраняет.",
+          "collocations": [
+            {
+              "text": "the workaround is to email",
+              "contextId": "us-workaround-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "troubleshooting",
+              "title": "Разбираемся с технической проблемой"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "the workaround is to email",
+          "contextId": "us-workaround-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "troubleshooting",
+          "title": "Разбираемся с технической проблемой"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "troubleshooting",
+          "contextId": "us-workaround-context-1",
+          "src": "/assets/vocabulary-scenes/troubleshooting.png",
+          "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-deadline",
+      "kind": "phrase",
+      "word": "deadline",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-deadline-sense-1",
+          "pos": "noun",
+          "definition": "The latest agreed time for completing or submitting something.",
+          "definitionRu": "Последний согласованный срок завершения или сдачи работы.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-deadline-context-1",
+          "en": "The deadline for the bug report is noon on Friday. Please send the findings we have by then and label any unanswered questions clearly.",
+          "ru": "Крайний срок сдачи отчёта об ошибке — полдень пятницы. Пожалуйста, к этому времени отправь имеющиеся результаты и ясно обозначь вопросы, на которые пока нет ответа.",
+          "targetSpans": [
+            {
+              "start": 4,
+              "end": 12,
+              "text": "deadline"
+            }
+          ],
+          "senseId": "us-deadline-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное; работа, учёба, административные сроки.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Deadline — конечный срок, а не длительность работы: the deadline for the report. By then значит не позднее этого момента; until then означало бы продолжение действия до него. Meet a deadline — уложиться, miss a deadline — пропустить срок. Само наличие срока не позволяет представлять неподтверждённые выводы как установленные факты.",
+          "productionTask": "В 3 английских предложениях назначь срок другой небольшой задачи, перечисли ожидаемый результат и объясни, как обозначить незавершённую часть. Используй deadline и by.",
+          "collocations": [
+            {
+              "text": "The deadline for the bug report",
+              "contextId": "us-deadline-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "troubleshooting",
+              "title": "Разбираемся с технической проблемой"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "The deadline for the bug report",
+          "contextId": "us-deadline-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "troubleshooting",
+          "title": "Разбираемся с технической проблемой"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "troubleshooting",
+          "contextId": "us-deadline-context-1",
+          "src": "/assets/vocabulary-scenes/troubleshooting.png",
+          "alt": "Двое коллег за столом рассматривают ноутбук с индикатором загрузки; рядом второй ноутбук и блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "f71c9c0a04b1c1dc06315dcd4135e903531c5335e822b35367ccf3706dc0cdb5"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-on-the-same-page",
+      "kind": "phrase",
+      "word": "on the same page",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-on-the-same-page-sense-1",
+          "pos": "idiom",
+          "definition": "Sharing the same understanding of a plan or situation.",
+          "definitionRu": "Одинаково понимать план или ситуацию.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-on-the-same-page-context-1",
+          "en": "Before we estimate the work, let's make sure we're on the same page: the first version needs email login but not social login. We can discuss additional sign-in options after the launch.",
+          "ru": "Прежде чем оценивать объём работы, давайте убедимся, что мы одинаково понимаем задачу: в первой версии нужен вход по электронной почте, но не через социальные сети. Дополнительные варианты входа можно обсудить после запуска.",
+          "targetSpans": [
+            {
+              "start": 51,
+              "end": 67,
+              "text": "on the same page"
+            }
+          ],
+          "senseId": "us-on-the-same-page-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное деловое; особенно привычно в командном общении.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Be on the same page — иметь общее понимание, здесь именно границ первой версии. Выражение требует be: we are, not we have on the same page. Буквальную страницу никто не обсуждает. Совпадение понимания не обязательно означает согласие по всем будущим решениям; двоеточие помогает прямо сформулировать то, что сейчас нужно сверить.",
+          "productionTask": "Напиши команде 3 предложения о новом проекте: проверь общее понимание с on the same page, назови одну обязательную функцию и одну отложенную.",
+          "collocations": [
+            {
+              "text": "we're on the same page",
+              "contextId": "us-on-the-same-page-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "team-planning",
+              "title": "Согласуем работу в команде"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "we're on the same page",
+          "contextId": "us-on-the-same-page-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "team-planning",
+          "title": "Согласуем работу в команде"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "team-planning",
+          "contextId": "us-on-the-same-page-context-1",
+          "src": "/assets/vocabulary-scenes/team-planning.png",
+          "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-follow-up",
+      "kind": "phrase",
+      "word": "follow up",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-follow-up-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To contact someone again or take a further step after an earlier discussion.",
+          "definitionRu": "Повторно связаться или сделать следующий шаг после предыдущего обсуждения.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-follow-up-context-1",
+          "en": "I'll follow up with Maya tomorrow about the draft schedule we discussed today. If she hasn't had time to review it, I'll ask when a reminder would be useful.",
+          "ru": "Завтра я снова свяжусь с Майей по поводу чернового расписания, которое мы обсуждали сегодня. Если она ещё не успеет его просмотреть, я спрошу, когда будет удобно напомнить.",
+          "targetSpans": [
+            {
+              "start": 5,
+              "end": 14,
+              "text": "follow up"
+            }
+          ],
+          "senseId": "us-follow-up-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное деловое; подходит для писем и рабочих разговоров.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Follow up with someone about something соединяет человека и тему последующего контакта. В глаголе здесь нет дефиса; в a follow-up email он обычно есть. Это продолжение прежнего разговора, а не первое обращение и не слежка за человеком. Условие if she hasn’t had time оставляет возможность, что работа ещё не завершена, без обвинения.",
+          "productionTask": "Составь новое короткое письмо в 3 предложениях после собственной встречи или заявки. Используй follow up, напомни конкретную тему и вежливо спроси о следующем шаге.",
+          "collocations": [
+            {
+              "text": "follow up with Maya",
+              "contextId": "us-follow-up-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "team-planning",
+              "title": "Согласуем работу в команде"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "follow up with Maya",
+          "contextId": "us-follow-up-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "team-planning",
+          "title": "Согласуем работу в команде"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "team-planning",
+          "contextId": "us-follow-up-context-1",
+          "src": "/assets/vocabulary-scenes/team-planning.png",
+          "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-keep-someone-posted",
+      "kind": "phrase",
+      "word": "keep someone posted",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-keep-someone-posted-sense-1",
+          "pos": "idiom",
+          "definition": "To continue giving someone relevant updates as a situation develops.",
+          "definitionRu": "Держать человека в курсе по мере появления существенных новостей.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-keep-someone-posted-context-1",
+          "en": "We're still waiting for the venue to confirm our reservation, and I'll keep you posted. As soon as I hear back, I'll tell you whether the meeting can stay on Thursday.",
+          "ru": "Мы всё ещё ждём подтверждения бронирования от площадки, и я буду держать тебя в курсе. Как только получу ответ, сообщу, можно ли оставить встречу на четверг.",
+          "targetSpans": [
+            {
+              "start": 71,
+              "end": 86,
+              "text": "keep you posted"
+            }
+          ],
+          "senseId": "us-keep-someone-posted-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Разговорное и дружелюбное деловое.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Keep you posted обещает сообщать новости, а не размещать человека в публикации. Между keep и posted обязательно стоит получатель: keep me posted, keep the team posted. После as soon as будущее выражено настоящим hear, хотя главная часть содержит will. Update someone once может быть разовым сообщением; keep someone posted подчёркивает поддержание связи по ходу событий.",
+          "productionTask": "В 3 английских предложениях сообщи другу или коллеге о другой ещё не решённой ситуации. Используй keep you posted и скажи, какое событие станет поводом для следующего обновления.",
+          "collocations": [
+            {
+              "text": "keep you posted",
+              "contextId": "us-keep-someone-posted-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "team-planning",
+              "title": "Согласуем работу в команде"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "keep you posted",
+          "contextId": "us-keep-someone-posted-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "team-planning",
+          "title": "Согласуем работу в команде"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "team-planning",
+          "contextId": "us-keep-someone-posted-context-1",
+          "src": "/assets/vocabulary-scenes/team-planning.png",
+          "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-push-back",
+      "kind": "phrase",
+      "word": "push back",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-push-back-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To move a planned event or deadline to a later time.",
+          "definitionRu": "Перенести событие или срок на более позднее время.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-push-back-context-1",
+          "en": "Can we push back the demo from Tuesday to Thursday so the team has time to test the payment screen? The customer meeting will stay on Friday, so that date won't change.",
+          "ru": "Можем перенести демонстрацию со вторника на четверг, чтобы команда успела протестировать экран оплаты? Встреча с клиентом останется в пятницу, так что эта дата не изменится.",
+          "targetSpans": [
+            {
+              "start": 7,
+              "end": 16,
+              "text": "push back"
+            }
+          ],
+          "senseId": "us-push-back-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Разговорное деловое; уточняй конкретные даты.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Push back the demo в данном контексте — отложить демонстрацию: from Tuesday to Thursday убирает неоднозначность направления. Дополнение можно поставить внутрь: push the demo back, push it back. Push back against a proposal означает возражать против предложения; это другой смысл. В реальном согласовании лучше назвать обе даты, а не полагаться только на back.",
+          "productionTask": "Предложи перенести другое событие в 3 английских предложениях. Используй push back, явно назови старую и новую даты, причину и одну договорённость, которая остаётся в силе.",
+          "collocations": [
+            {
+              "text": "push back the demo",
+              "contextId": "us-push-back-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "team-planning",
+              "title": "Согласуем работу в команде"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "push back the demo",
+          "contextId": "us-push-back-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "team-planning",
+          "title": "Согласуем работу в команде"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "team-planning",
+          "contextId": "us-push-back-context-1",
+          "src": "/assets/vocabulary-scenes/team-planning.png",
+          "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-trade-off",
+      "kind": "phrase",
+      "word": "trade-off",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-trade-off-sense-1",
+          "pos": "noun",
+          "definition": "A choice in which gaining one benefit means accepting a disadvantage elsewhere.",
+          "definitionRu": "Выбор, при котором одно преимущество достигается ценой другого ограничения.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-trade-off-context-1",
+          "en": "The trade-off is that a smaller launch will arrive sooner but won't include offline access. We need to decide whether including that feature matters more than releasing this month.",
+          "ru": "Компромисс в том, что сокращённую версию мы выпустим раньше, но в ней не будет доступа без интернета. Нужно решить, что важнее: наличие этой функции или выпуск в этом месяце.",
+          "targetSpans": [
+            {
+              "start": 4,
+              "end": 13,
+              "text": "trade-off"
+            }
+          ],
+          "senseId": "us-trade-off-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное аналитическое; работа, техника, повседневный выбор.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Trade-off обозначает обмен преимуществом на ограничение, а не просто любой недостаток. Здесь противопоставлены скорость выпуска и полнота функций. Существительное исчисляемое: a trade-off, trade-offs; типичная рамка — a trade-off between X and Y. Компромисс между людьми может быть compromise, но для trade-off не обязательно наличие спора или переговоров.",
+          "productionTask": "Сравни два собственных варианта покупки, поездки или проекта в 3 английских предложениях. Назови trade-off, получаемое преимущество и конкретную уступку; заверши своим выбором.",
+          "collocations": [
+            {
+              "text": "The trade-off is that",
+              "contextId": "us-trade-off-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "team-planning",
+              "title": "Согласуем работу в команде"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "The trade-off is that",
+          "contextId": "us-trade-off-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "team-planning",
+          "title": "Согласуем работу в команде"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "team-planning",
+          "contextId": "us-trade-off-context-1",
+          "src": "/assets/vocabulary-scenes/team-planning.png",
+          "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-deliverable",
+      "kind": "phrase",
+      "word": "deliverable",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-deliverable-sense-1",
+          "pos": "noun",
+          "definition": "A specific finished item or result that a project is expected to provide.",
+          "definitionRu": "Конкретный готовый результат, который должны передать по проекту.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-deliverable-context-1",
+          "en": "The deliverable for Friday is a two-page test summary with links to the failed cases. Time spent investigating is useful, but it isn't a substitute for that document.",
+          "ru": "Результат, который нужно сдать в пятницу, — двухстраничная сводка тестирования со ссылками на неудачные тестовые случаи. Время, потраченное на исследование, полезно, но не заменяет этот документ.",
+          "targetSpans": [
+            {
+              "start": 4,
+              "end": 15,
+              "text": "deliverable"
+            }
+          ],
+          "senseId": "us-deliverable-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Деловой проектный термин; в бытовой речи может звучать канцелярски.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Deliverable — исчисляемый результат, который можно предъявить или передать: здесь конкретный документ. Это не само действие и не количество затраченных часов. В a two-page summary слово page остаётся в единственном числе внутри определения с дефисом. Термин удобен в проекте с согласованными результатами; вне работы обычно яснее назвать report, file или другой сам предмет.",
+          "productionTask": "Опиши по-английски в 3 предложениях результат своей новой задачи. Используй deliverable, укажи форму и две проверяемые характеристики, а также срок передачи.",
+          "collocations": [
+            {
+              "text": "The deliverable for Friday",
+              "contextId": "us-deliverable-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "team-planning",
+              "title": "Согласуем работу в команде"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "The deliverable for Friday",
+          "contextId": "us-deliverable-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "team-planning",
+          "title": "Согласуем работу в команде"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "team-planning",
+          "contextId": "us-deliverable-context-1",
+          "src": "/assets/vocabulary-scenes/team-planning.png",
+          "alt": "Трое коллег обсуждают календарь на столе; рядом ноутбук, блокнот и доска со стикерами.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b45dd637bf59ecec472a6c8cb041b83e7c1c6735b8c2acb60b843a3af3575e38"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-catch-up",
+      "kind": "phrase",
+      "word": "catch up",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-catch-up-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To talk with someone about what has happened since you last spoke.",
+          "definitionRu": "Пообщаться и обменяться новостями после перерыва.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-catch-up-context-1",
+          "en": "Let's catch up over coffee on Saturday; I haven't heard much about your new job. We can meet at the cafe near the station if that works for you.",
+          "ru": "Давай в субботу поболтаем за кофе и обменяемся новостями; я мало слышал о твоей новой работе. Можем встретиться в кафе у станции, если тебе удобно.",
+          "targetSpans": [
+            {
+              "start": 6,
+              "end": 14,
+              "text": "catch up"
+            }
+          ],
+          "senseId": "us-catch-up-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Дружеское разговорное; подходит и для неформального разговора с коллегой.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Catch up здесь значит обменяться новостями после некоторого перерыва. Over coffee описывает общение за кофе, а не движение над чашкой. Catch up on work — наверстать работу, catch up with a runner — догнать бегуна; эти смыслы здесь не подходят. Present Perfect haven’t heard связывает отсутствие новостей с настоящим моментом и объясняет приглашение.",
+          "productionTask": "В 3 английских предложениях пригласи знакомого обменяться новостями о другой теме. Используй catch up, предложи место и оставь возможность выбрать другое время.",
+          "collocations": [
+            {
+              "text": "catch up over coffee",
+              "contextId": "us-catch-up-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "friends-cafe",
+              "title": "Встречаемся и договариваемся с друзьями"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "catch up over coffee",
+          "contextId": "us-catch-up-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "friends-cafe",
+          "title": "Встречаемся и договариваемся с друзьями"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "friends-cafe",
+          "contextId": "us-catch-up-context-1",
+          "src": "/assets/vocabulary-scenes/friends-cafe.png",
+          "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-hang-out",
+      "kind": "phrase",
+      "word": "hang out",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-hang-out-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To spend relaxed time with someone without a formal activity or purpose.",
+          "definitionRu": "Непринуждённо проводить время вместе без обязательной программы.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-hang-out-context-1",
+          "en": "A few of us are going to hang out at Leo's place after dinner. You can bring a board game, but there's no plan beyond spending some time together.",
+          "ru": "После ужина несколько человек из нашей компании собираются просто провести время у Лео. Можешь принести настольную игру, но никакого плана, кроме как побыть вместе, нет.",
+          "targetSpans": [
+            {
+              "start": 25,
+              "end": 33,
+              "text": "hang out"
+            }
+          ],
+          "senseId": "us-hang-out-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное; друзья и знакомые, не официальное приглашение.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Hang out — непринуждённо проводить время; with называет компанию, at — место. Здесь это не свидание само по себе: романтический смысл может дать только дополнительный контекст. Собственное имя с ’s place означает дом или квартиру человека. Глагол не нужно переводить буквально как «висеть снаружи»; meet тоже значит встретиться, но не передаёт такой свободный формат.",
+          "productionTask": "Напиши другу 3 английских предложения с приглашением hang out в другом месте. Укажи, кто придёт, и предложи необязательное занятие без жёсткого расписания.",
+          "collocations": [
+            {
+              "text": "hang out at Leo's place",
+              "contextId": "us-hang-out-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "friends-cafe",
+              "title": "Встречаемся и договариваемся с друзьями"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "hang out at Leo's place",
+          "contextId": "us-hang-out-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "friends-cafe",
+          "title": "Встречаемся и договариваемся с друзьями"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "friends-cafe",
+          "contextId": "us-hang-out-context-1",
+          "src": "/assets/vocabulary-scenes/friends-cafe.png",
+          "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-my-bad",
+      "kind": "phrase",
+      "word": "my bad",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-my-bad-sense-1",
+          "pos": "conversational formula",
+          "definition": "A casual acknowledgment that a small mistake was your fault.",
+          "definitionRu": "Неформальное признание своего небольшого промаха.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.collinsdictionary.com/us/dictionary/english/my-bad",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-my-bad-context-1",
+          "en": "My bad, I sent you the address of the other cafe. I'll text you the right location now and wait outside so you can find me.",
+          "ru": "Мой промах: я отправил тебе адрес другого кафе. Сейчас пришлю правильное место и подожду снаружи, чтобы ты мог меня найти.",
+          "targetSpans": [
+            {
+              "start": 0,
+              "end": 6,
+              "text": "My bad"
+            }
+          ],
+          "senseId": "us-my-bad-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Американское разговорное, сленговое; для небольших ошибок среди знакомых.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "My bad — устойчивая короткая формула признания ошибки: «это мой промах». Не нужно добавлять is внутри этой реплики или переводить bad как «плохой человек». Дальнейшее предложение предлагает исправление. Для серьёзного вреда такая лёгкая формула может звучать несоразмерно; тогда лучше полноценное I’m sorry с признанием последствий, а не только разговорная отговорка.",
+          "productionTask": "Придумай другой небольшой промах в общении с другом. В 2–3 английских предложениях признай его с my bad и предложи конкретное исправление.",
+          "collocations": [
+            {
+              "text": "My bad",
+              "contextId": "us-my-bad-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "friends-cafe",
+              "title": "Встречаемся и договариваемся с друзьями"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.collinsdictionary.com/us/dictionary/english/my-bad",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "My bad",
+          "contextId": "us-my-bad-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "friends-cafe",
+          "title": "Встречаемся и договариваемся с друзьями"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "friends-cafe",
+          "contextId": "us-my-bad-context-1",
+          "src": "/assets/vocabulary-scenes/friends-cafe.png",
+          "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-no-worries",
+      "kind": "phrase",
+      "word": "no worries",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-no-worries-sense-1",
+          "pos": "conversational formula",
+          "definition": "A relaxed response that tells someone their minor mistake or request is not a problem.",
+          "definitionRu": "Спокойный ответ, показывающий, что небольшой промах или просьба не создаёт проблемы.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-no-worries-context-1",
+          "en": "No worries, we haven't ordered yet, so you're not holding anyone up. Take your time getting here and send me a message when you're outside.",
+          "ru": "Ничего страшного, мы ещё не заказали, так что ты никого не задерживаешь. Добирайся без спешки и напиши мне, когда будешь снаружи.",
+          "targetSpans": [
+            {
+              "start": 0,
+              "end": 10,
+              "text": "No worries"
+            }
+          ],
+          "senseId": "us-no-worries-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное дружелюбное; употребляется в США и за их пределами.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "No worries здесь принимает извинение за задержку и успокаивает собеседника. Worries остаётся во множественном числе в устойчивой формуле; не нужно добавлять there are. Ответ не обещает, что у человека вообще никогда не будет забот. Выражение употребляется в США и других вариантах английского, а не принадлежит исключительно американской речи; в официальной ситуации можно сказать That’s all right.",
+          "productionTask": "Ответь другу на другую мелкую накладку в 3 английских предложениях. Используй no worries, объясни, почему всё в порядке, и скажи, что делать дальше.",
+          "collocations": [
+            {
+              "text": "No worries",
+              "contextId": "us-no-worries-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "friends-cafe",
+              "title": "Встречаемся и договариваемся с друзьями"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "No worries",
+          "contextId": "us-no-worries-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "friends-cafe",
+          "title": "Встречаемся и договариваемся с друзьями"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "friends-cafe",
+          "contextId": "us-no-worries-context-1",
+          "src": "/assets/vocabulary-scenes/friends-cafe.png",
+          "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-take-a-rain-check",
+      "kind": "phrase",
+      "word": "take a rain check",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-take-a-rain-check-sense-1",
+          "pos": "idiom",
+          "definition": "To decline an invitation for now while leaving open the possibility of accepting later.",
+          "definitionRu": "Отказаться от приглашения сейчас, оставив возможность встретиться в другой раз.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/rain%20check",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-take-a-rain-check-context-1",
+          "en": "Could I take a rain check on dinner tonight? My sister is visiting unexpectedly, but I'd love to meet you next week if you're free.",
+          "ru": "Можно перенести наш ужин сегодня на другой раз? Моя сестра неожиданно приехала в гости, но я с удовольствием встречусь с тобой на следующей неделе, если ты свободен.",
+          "targetSpans": [
+            {
+              "start": 8,
+              "end": 25,
+              "text": "take a rain check"
+            }
+          ],
+          "senseId": "us-take-a-rain-check-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное вежливое; характерно для североамериканского общения.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Take a rain check on dinner — вежливо отказаться сейчас с перспективой другого раза. Дождь не обязан иметь отношения к причине. Could I смягчает просьбу, а конкретная следующая неделя показывает заинтересованность, хотя сама идиома ещё не назначает новую встречу. Это не то же самое, что окончательное cancel без предложения вернуться к приглашению.",
+          "productionTask": "Откажись от другого приглашения в 2–3 английских предложениях с take a rain check. Дай краткую причину и предложи реальный альтернативный день.",
+          "collocations": [
+            {
+              "text": "take a rain check on dinner",
+              "contextId": "us-take-a-rain-check-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "friends-cafe",
+              "title": "Встречаемся и договариваемся с друзьями"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/rain%20check",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "take a rain check on dinner",
+          "contextId": "us-take-a-rain-check-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "friends-cafe",
+          "title": "Встречаемся и договариваемся с друзьями"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "friends-cafe",
+          "contextId": "us-take-a-rain-check-context-1",
+          "src": "/assets/vocabulary-scenes/friends-cafe.png",
+          "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-im-down",
+      "kind": "phrase",
+      "word": "I'm down",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-im-down-sense-1",
+          "pos": "conversational formula",
+          "definition": "A casual way to say that you are willing or interested in joining a suggested activity.",
+          "definitionRu": "Неформальный способ согласиться участвовать в предложенном занятии.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-im-down-context-1",
+          "en": "I'm down for a short hike on Sunday if we leave after breakfast. I need to be home by four, so let's choose a trail nearby.",
+          "ru": "Я за короткий поход в воскресенье, если мы выйдем после завтрака. Мне нужно быть дома к четырём, так что давай выберем маршрут поблизости.",
+          "targetSpans": [
+            {
+              "start": 0,
+              "end": 8,
+              "text": "I'm down"
+            }
+          ],
+          "senseId": "us-im-down-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Очень неформальное американское разговорное; друзья и близкие коллеги.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "I’m down for a hike здесь значит «я за, я готов присоединиться»: for вводит предлагаемое занятие. Down может также описывать подавленное настроение, но приглашение и условие про завтрак выбирают смысл согласия. Фраза разговорная и не универсальна для официального подтверждения; там яснее I’d be happy to join. Дополнительное условие не отменяет согласие, а уточняет его границы.",
+          "productionTask": "Ответь на приглашение к другому занятию в 3 английских предложениях. Используй I’m down for, добавь собственное ограничение и предложи подходящий вариант.",
+          "collocations": [
+            {
+              "text": "I'm down for a short hike",
+              "contextId": "us-im-down-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "friends-cafe",
+              "title": "Встречаемся и договариваемся с друзьями"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "I'm down for a short hike",
+          "contextId": "us-im-down-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "friends-cafe",
+          "title": "Встречаемся и договариваемся с друзьями"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "friends-cafe",
+          "contextId": "us-im-down-context-1",
+          "src": "/assets/vocabulary-scenes/friends-cafe.png",
+          "alt": "Трое друзей общаются у круглого столика в кафе: двое сидят, а одна подруга стоит рядом с сумкой и курткой.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "4a55fb03f74adccffa0668ad95d4800f370396a6823cc22442840b40f3fb0bb8"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-thread",
+      "kind": "phrase",
+      "word": "thread",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-thread-sense-1",
+          "pos": "noun",
+          "definition": "A connected series of online messages discussing one topic.",
+          "definitionRu": "Связанная цепочка сообщений на одну тему в онлайн-обсуждении.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-thread-context-1",
+          "en": "I started a thread about quiet keyboards and asked people to describe the ones they actually use. Please keep repair questions in a separate discussion so the recommendations are easy to find.",
+          "ru": "Я начал ветку обсуждения тихих клавиатур и попросил людей описать те, которыми они действительно пользуются. Пожалуйста, оставляйте вопросы ремонта в отдельном обсуждении, чтобы рекомендации было легко найти.",
+          "targetSpans": [
+            {
+              "start": 12,
+              "end": 18,
+              "text": "thread"
+            }
+          ],
+          "senseId": "us-thread-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное цифровое; форумы, чаты и рабочая переписка.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Thread — исчисляемая ветка сообщений, а не одна реплика: a thread, several threads. Start a thread — открыть обсуждение. Сообщение внутри него можно назвать post или comment в зависимости от платформы. В другом контексте thread бывает ниткой или вычислительным потоком; просьба сохранять тему обсуждения однозначно указывает здесь на интернет-значение.",
+          "productionTask": "В 3 английских предложениях предложи новую ветку о собственном интересе: используй thread, задай конкретный вопрос участникам и обозначь границу темы.",
+          "collocations": [
+            {
+              "text": "started a thread",
+              "contextId": "us-thread-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "online-discussion",
+              "title": "Участвуем в онлайн-обсуждении"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "started a thread",
+          "contextId": "us-thread-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "online-discussion",
+          "title": "Участвуем в онлайн-обсуждении"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "online-discussion",
+          "contextId": "us-thread-context-1",
+          "src": "/assets/vocabulary-scenes/online-discussion.png",
+          "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-op",
+      "kind": "phrase",
+      "word": "OP",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-op-sense-1",
+          "pos": "abbreviation used as a noun",
+          "definition": "The person who created the original post being discussed.",
+          "definitionRu": "Автор исходной публикации, которую сейчас обсуждают.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://support.reddithelp.com/hc/en-us/p/mod_help_center",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-op-context-1",
+          "en": "The OP said their budget was under a hundred dollars, but several replies recommend much more expensive headphones. Let's ask whether that limit includes shipping before suggesting another model.",
+          "ru": "Автор исходного поста сообщил, что его бюджет меньше ста долларов, но несколько ответов рекомендуют гораздо более дорогие наушники. Давайте спросим, входит ли доставка в этот лимит, прежде чем предлагать другую модель.",
+          "targetSpans": [
+            {
+              "start": 4,
+              "end": 6,
+              "text": "OP"
+            }
+          ],
+          "senseId": "us-op-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Интернет-сокращение; уместно там, где участники знают термин.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "OP здесь расшифровывается как original poster и обозначает человека, а не всю ветку. Артикль the указывает на конкретного автора обсуждаемой публикации. Their и they могут относиться к одному человеку, чей гендер не указан. В других сообществах у сокращения бывают другие значения; бюджет и ответы в этой ситуации привязывают его именно к автору поста.",
+          "productionTask": "Придумай новую форумную ситуацию в 3 английских предложениях. Передай одно условие, названное OP, укажи, какой совет его игнорирует, и предложи уточняющий вопрос.",
+          "collocations": [
+            {
+              "text": "The OP said",
+              "contextId": "us-op-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "online-discussion",
+              "title": "Участвуем в онлайн-обсуждении"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://support.reddithelp.com/hc/en-us/p/mod_help_center",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "The OP said",
+          "contextId": "us-op-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "online-discussion",
+          "title": "Участвуем в онлайн-обсуждении"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "online-discussion",
+          "contextId": "us-op-context-1",
+          "src": "/assets/vocabulary-scenes/online-discussion.png",
+          "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-imo",
+      "kind": "phrase",
+      "word": "IMO",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-imo-sense-1",
+          "pos": "abbreviation",
+          "definition": "A written marker that presents the following statement as your own opinion.",
+          "definitionRu": "Письменный маркер, представляющий следующее утверждение как личное мнение.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/IMO",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-imo-context-1",
+          "en": "IMO, the quieter keyboard is worth the extra cost because I share a room with someone who works nights. That may not matter as much if you have an office to yourself.",
+          "ru": "На мой взгляд, более тихая клавиатура стоит дополнительных денег, потому что я делю комнату с человеком, работающим по ночам. Это может быть не так важно, если у тебя отдельный кабинет.",
+          "targetSpans": [
+            {
+              "start": 0,
+              "end": 3,
+              "text": "IMO"
+            }
+          ],
+          "senseId": "us-imo-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальная письменная речь; чаты, форумы, комментарии.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "IMO раскрывается как in my opinion: автор маркирует оценку, а затем объясняет личную причину. В начале предложения сокращение отделено запятой; оно не заменяет подлежащее или глагол. Это не доказательство объективного превосходства товара. В формальном письме лучше полная фраза или прямо обоснованный вывод; интернет-маркер не делает резкое утверждение автоматически вежливым.",
+          "productionTask": "Напиши собственное мнение о другом бытовом выборе в 3 английских предложениях. Используй IMO, обоснуй его личными обстоятельствами и назови случай, когда другой выбор разумнее.",
+          "collocations": [
+            {
+              "text": "IMO",
+              "contextId": "us-imo-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "online-discussion",
+              "title": "Участвуем в онлайн-обсуждении"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/IMO",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "IMO",
+          "contextId": "us-imo-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "online-discussion",
+          "title": "Участвуем в онлайн-обсуждении"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "online-discussion",
+          "contextId": "us-imo-context-1",
+          "src": "/assets/vocabulary-scenes/online-discussion.png",
+          "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-fwiw",
+      "kind": "phrase",
+      "word": "FWIW",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-fwiw-sense-1",
+          "pos": "abbreviation",
+          "definition": "A marker for adding information while leaving its usefulness for the listener to judge.",
+          "definitionRu": "Маркер добавочной информации, полезность которой автор оставляет на усмотрение собеседника.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/FWIW",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-fwiw-context-1",
+          "en": "FWIW, I've used that microphone in a small apartment, and it picked up the refrigerator noise. Your room may be different, so I'd test one before buying it.",
+          "ru": "Если это пригодится: я пользовался этим микрофоном в маленькой квартире, и он улавливал шум холодильника. У тебя помещение может быть другим, поэтому я бы сначала протестировал такой микрофон, прежде чем покупать его.",
+          "targetSpans": [
+            {
+              "start": 0,
+              "end": 4,
+              "text": "FWIW"
+            }
+          ],
+          "senseId": "us-fwiw-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальная письменная речь; часто добавление опыта или оговорки.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "FWIW — for what it’s worth: автор добавляет опыт, не навязывая его как решающее доказательство. Это не денежная оценка стоимости микрофона. Сокращение относится ко всему сообщению и часто отделяется запятой. В отличие от IMO, здесь в центре не просто мнение, а потенциально полезная информация; её ограниченная применимость прямо объяснена различием помещений.",
+          "productionTask": "В 3 английских предложениях добавь к обсуждению собственный или явно вымышленный опыт с другой вещью. Используй FWIW и поясни, почему чужие условия могут дать иной результат.",
+          "collocations": [
+            {
+              "text": "FWIW",
+              "contextId": "us-fwiw-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "online-discussion",
+              "title": "Участвуем в онлайн-обсуждении"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/FWIW",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "FWIW",
+          "contextId": "us-fwiw-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "online-discussion",
+          "title": "Участвуем в онлайн-обсуждении"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "online-discussion",
+          "contextId": "us-fwiw-context-1",
+          "src": "/assets/vocabulary-scenes/online-discussion.png",
+          "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-tl-dr",
+      "kind": "phrase",
+      "word": "TL;DR",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-tl-dr-sense-1",
+          "pos": "abbreviation used as a summary label",
+          "definition": "A label introducing a brief summary of a longer message.",
+          "definitionRu": "Метка, вводящая краткое резюме более длинного сообщения.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/TL;DR",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-tl-dr-context-1",
+          "en": "TL;DR: The update fixed the battery drain on my laptop, but the camera still freezes during calls. The full test notes below explain which settings I used and what I haven't checked yet.",
+          "ru": "Коротко: обновление устранило быстрый разряд батареи на моём ноутбуке, но камера всё ещё зависает во время звонков. В полных заметках о тестировании ниже объясняется, какие настройки я использовал и что пока не проверил.",
+          "targetSpans": [
+            {
+              "start": 0,
+              "end": 5,
+              "text": "TL;DR"
+            }
+          ],
+          "senseId": "us-tl-dr-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальная письменная речь; самостоятельный ответ без резюме может быть резким.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "TL;DR буквально раскрывается как too long; didn’t read, но здесь автор сам вводит полезное резюме своего длинного сообщения. Двоеточие отделяет метку от содержания. Отправленное отдельно в ответ на чужой подробный текст, сокращение может звучать пренебрежительно. В образце резюме сохраняет и улучшение, и нерешённую проблему, не превращая частичный результат в полную победу.",
+          "productionTask": "Напиши на английском 2–3 предложения краткого итога собственного теста, поездки или выбора. Начни с TL;DR и сохрани одно достижение и одно ограничение, а не только общую оценку.",
+          "collocations": [
+            {
+              "text": "TL;DR",
+              "contextId": "us-tl-dr-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "online-discussion",
+              "title": "Участвуем в онлайн-обсуждении"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/TL;DR",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "TL;DR",
+          "contextId": "us-tl-dr-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "online-discussion",
+          "title": "Участвуем в онлайн-обсуждении"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "online-discussion",
+          "contextId": "us-tl-dr-context-1",
+          "src": "/assets/vocabulary-scenes/online-discussion.png",
+          "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-lurker",
+      "kind": "phrase",
+      "word": "lurker",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-lurker-sense-1",
+          "pos": "noun",
+          "definition": "Someone who reads an online community without taking part in its discussions.",
+          "definitionRu": "Человек, который читает онлайн-сообщество, но не участвует в обсуждениях.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/lurker",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-lurker-context-1",
+          "en": "I've been a lurker in this photography group for months, but this is my first question. Could someone explain how they keep a moving subject in focus without assuming I own expensive equipment?",
+          "ru": "Я уже несколько месяцев читаю эту группу о фотографии, ничего не публикуя, но сейчас задаю свой первый вопрос. Может кто-нибудь объяснить, как удерживает движущийся объект в фокусе, не предполагая, что у меня дорогое оборудование?",
+          "targetSpans": [
+            {
+              "start": 12,
+              "end": 18,
+              "text": "lurker"
+            }
+          ],
+          "senseId": "us-lurker-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальный интернет-термин; самоописание часто нейтральное, тон зависит от контекста.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Lurker в интернет-контексте — молчаливый читатель, а не обязательно подозрительный наблюдатель. Существительное исчисляемое, поэтому a lurker; for months с have been показывает период до настоящего момента. Первый вопрос меняет прежний способ участия. Слово subscriber означает подписчика и само по себе ничего не говорит о том, пишет ли он комментарии.",
+          "productionTask": "Составь первое сообщение в другом сообществе в 3 английских предложениях. Назови себя прежним lurker, укажи, чему уже научился из обсуждений, и задай конкретный новый вопрос.",
+          "collocations": [
+            {
+              "text": "a lurker in this photography group",
+              "contextId": "us-lurker-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "online-discussion",
+              "title": "Участвуем в онлайн-обсуждении"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/lurker",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "a lurker in this photography group",
+          "contextId": "us-lurker-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "online-discussion",
+          "title": "Участвуем в онлайн-обсуждении"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "online-discussion",
+          "contextId": "us-lurker-context-1",
+          "src": "/assets/vocabulary-scenes/online-discussion.png",
+          "alt": "Человек читает цепочку сообщений на ноутбуке и делает заметки в блокноте за домашним столом.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "b65dc9db2e9ed9ad0d21258f2b0eac10e33ff402c273977495e141a00cf35dad"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-sketchy",
+      "kind": "phrase",
+      "word": "sketchy",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-sketchy-sense-1",
+          "pos": "adjective",
+          "definition": "Seeming suspicious or unreliable in this particular situation.",
+          "definitionRu": "Выглядящий подозрительно или ненадёжно в данной ситуации.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/sketchy",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-sketchy-context-1",
+          "en": "That laptop listing looks sketchy: the seller refuses to show the serial number and wants payment before we meet. I'd ask for clearer information before deciding whether to buy it.",
+          "ru": "Это объявление о продаже ноутбука выглядит подозрительно: продавец отказывается показать серийный номер и хочет получить оплату до встречи. Я бы попросил более ясную информацию, прежде чем решать, покупать ли его.",
+          "targetSpans": [
+            {
+              "start": 26,
+              "end": 33,
+              "text": "sketchy"
+            }
+          ],
+          "senseId": "us-sketchy-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Разговорное, оценочное; может звучать резко в адрес человека.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Sketchy после looks — прилагательное, описывающее впечатление о сомнительной надёжности объявления. Здесь это оценка по двум наблюдениям, а не доказанный факт мошенничества. У слова есть и смысл «неполный, приблизительный», например о деталях рассказа; отказ дать информацию и требование оплаты выбирают значение подозрительности. В официальном обращении точнее перечислить проверяемые обстоятельства.",
+          "productionTask": "В 3 английских предложениях опиши другое сомнительное объявление или предложение. Используй sketchy, назови два наблюдаемых признака и вопрос для проверки без необоснованного обвинения.",
+          "collocations": [
+            {
+              "text": "looks sketchy",
+              "contextId": "us-sketchy-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "careful-purchase",
+              "title": "Проверяем покупку и условия"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/sketchy",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "looks sketchy",
+          "contextId": "us-sketchy-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "careful-purchase",
+          "title": "Проверяем покупку и условия"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "careful-purchase",
+          "contextId": "us-sketchy-context-1",
+          "src": "/assets/vocabulary-scenes/careful-purchase.png",
+          "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-red-flag",
+      "kind": "phrase",
+      "word": "red flag",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-red-flag-sense-1",
+          "pos": "noun phrase",
+          "definition": "A sign that gives you a reason to investigate a possible problem.",
+          "definitionRu": "Признак, который даёт основание проверить возможную проблему.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-red-flag-context-1",
+          "en": "The missing return policy is a red flag for me, especially because the laptop already has a cracked screen. I'll ask what happens if another fault appears after I take it home.",
+          "ru": "Отсутствие правил возврата для меня тревожный сигнал, особенно потому, что у ноутбука уже треснут экран. Я спрошу, что будет, если после покупки дома обнаружится другая неисправность.",
+          "targetSpans": [
+            {
+              "start": 31,
+              "end": 39,
+              "text": "red flag"
+            }
+          ],
+          "senseId": "us-red-flag-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Разговорное и нейтральное аналитическое; покупки, отношения, рабочие риски.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "A red flag — один тревожный признак; for me обозначает личную оценку риска. Красного флага физически может не быть. Это повод выяснить условия, а не заключение, что продавец обязательно нечестен. Вопрос what happens использует порядок слов утверждения внутри косвенного вопроса после ask; сочетание с конкретной причиной делает предостережение понятным.",
+          "productionTask": "Назови по-английски другой red flag при покупке или договорённости в 3 предложениях. Объясни, чем он важен, и сформулируй вопрос, который поможет проверить опасение.",
+          "collocations": [
+            {
+              "text": "a red flag for me",
+              "contextId": "us-red-flag-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "careful-purchase",
+              "title": "Проверяем покупку и условия"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "a red flag for me",
+          "contextId": "us-red-flag-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "careful-purchase",
+          "title": "Проверяем покупку и условия"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "careful-purchase",
+          "contextId": "us-red-flag-context-1",
+          "src": "/assets/vocabulary-scenes/careful-purchase.png",
+          "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-no-brainer",
+      "kind": "phrase",
+      "word": "no-brainer",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-no-brainer-sense-1",
+          "pos": "noun",
+          "definition": "A decision that seems very easy because one option has clear advantages for you.",
+          "definitionRu": "Решение, которое кажется очевидным благодаря явным преимуществам одного варианта.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-no-brainer-context-1",
+          "en": "For me, paying ten dollars more for the same laptop with a written return policy is a no-brainer. Both stores let me test it, and the more expensive one will also replace the cracked screen before pickup.",
+          "ru": "Для меня доплатить десять долларов за такой же ноутбук с письменными условиями возврата — очевидный выбор. Оба магазина позволяют его протестировать, а более дорогой ещё и заменит треснувший экран до получения.",
+          "targetSpans": [
+            {
+              "start": 86,
+              "end": 96,
+              "text": "no-brainer"
+            }
+          ],
+          "senseId": "us-no-brainer-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное и выразительное; может звучать самоуверенно.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "No-brainer — исчисляемое существительное: a no-brainer, а не прилагательное no-brain. Сочетание резко подчёркивает лёгкость решения; for me ограничивает оценку собственными обстоятельствами. Здесь преимущества перечислены, поэтому понятна причина выбора. Называя чужую сложную дилемму no-brainer, можно обесценить ограничения собеседника; нейтральнее сказать, почему один вариант подходит именно тебе.",
+          "productionTask": "Опиши собственный простой выбор в 3 английских предложениях с a no-brainer. Приведи две причины и назови обстоятельство, при котором для другого человека решение было бы сложнее.",
+          "collocations": [
+            {
+              "text": "is a no-brainer",
+              "contextId": "us-no-brainer-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "careful-purchase",
+              "title": "Проверяем покупку и условия"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "is a no-brainer",
+          "contextId": "us-no-brainer-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "careful-purchase",
+          "title": "Проверяем покупку и условия"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "careful-purchase",
+          "contextId": "us-no-brainer-context-1",
+          "src": "/assets/vocabulary-scenes/careful-purchase.png",
+          "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-heads-up",
+      "kind": "phrase",
+      "word": "heads-up",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-heads-up-sense-1",
+          "pos": "noun",
+          "definition": "Useful advance information that helps someone prepare or avoid a surprise.",
+          "definitionRu": "Полезная предварительная информация, помогающая подготовиться или избежать неожиданности.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/heads-up",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-heads-up-context-1",
+          "en": "Thanks for the heads-up about the pickup desk closing at five. I'll leave work early enough to collect the laptop, or I'll arrange another day with the store.",
+          "ru": "Спасибо, что заранее предупредил о закрытии стойки выдачи в пять. Я уйду с работы достаточно рано, чтобы забрать ноутбук, или договорюсь с магазином о другом дне.",
+          "targetSpans": [
+            {
+              "start": 15,
+              "end": 23,
+              "text": "heads-up"
+            }
+          ],
+          "senseId": "us-heads-up-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное, особенно североамериканское; дружеское и рабочее общение.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "A heads-up — заблаговременное сообщение; thanks for the heads-up благодарит за конкретное предупреждение. About вводит тему, а после предлога возможно сочетание с -ing: about the desk closing. Это не приказ поднять голову и не обязательное сообщение об опасности: время закрытия тоже полезно знать заранее. В существительном сохраняются s и дефис.",
+          "productionTask": "В 3 английских предложениях поблагодари за другое предупреждение с thanks for the heads-up. Объясни, как оно изменит твой план, и предложи запасной вариант.",
+          "collocations": [
+            {
+              "text": "the heads-up about the pickup desk closing",
+              "contextId": "us-heads-up-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "careful-purchase",
+              "title": "Проверяем покупку и условия"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.oxfordlearnersdictionaries.com/us/definition/english/heads-up",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "the heads-up about the pickup desk closing",
+          "contextId": "us-heads-up-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "careful-purchase",
+          "title": "Проверяем покупку и условия"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "careful-purchase",
+          "contextId": "us-heads-up-context-1",
+          "src": "/assets/vocabulary-scenes/careful-purchase.png",
+          "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-give-someone-the-benefit-of-the-doubt",
+      "kind": "phrase",
+      "word": "give someone the benefit of the doubt",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-give-someone-the-benefit-of-the-doubt-sense-1",
+          "pos": "idiom",
+          "definition": "To provisionally accept an innocent explanation when the evidence is uncertain.",
+          "definitionRu": "Пока допустить добросовестное объяснение, когда доказательств недостаточно.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-give-someone-the-benefit-of-the-doubt-context-1",
+          "en": "I'll give the seller the benefit of the doubt about the late reply because their shop was closed yesterday. I still want to see the laptop working before I pay for it.",
+          "ru": "Я пока допущу, что продавец ответил поздно по уважительной причине, потому что вчера его магазин был закрыт. Но я всё равно хочу увидеть ноутбук в работе до оплаты.",
+          "targetSpans": [
+            {
+              "start": 5,
+              "end": 45,
+              "text": "give the seller the benefit of the doubt"
+            }
+          ],
+          "senseId": "us-give-someone-the-benefit-of-the-doubt-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное; выражает осторожное доверие, а не уверенность в невиновности.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Give someone the benefit of the doubt — не считать человека виноватым при неоднозначной информации. В устойчивой рамке нужны оба the; после give стоит получатель, здесь the seller. Это не значит полностью доверять или отказаться от проверки. Второе предложение показывает границу: автор допускает невинную причину задержки, но продолжает проверять сам товар.",
+          "productionTask": "Опиши другую неоднозначную ситуацию в 3 английских предложениях. Используй give someone the benefit of the doubt с конкретным человеком, предложи разумное объяснение и сохрани одну необходимую проверку.",
+          "collocations": [
+            {
+              "text": "give the seller the benefit of the doubt",
+              "contextId": "us-give-someone-the-benefit-of-the-doubt-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "careful-purchase",
+              "title": "Проверяем покупку и условия"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "give the seller the benefit of the doubt",
+          "contextId": "us-give-someone-the-benefit-of-the-doubt-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "careful-purchase",
+          "title": "Проверяем покупку и условия"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "careful-purchase",
+          "contextId": "us-give-someone-the-benefit-of-the-doubt-context-1",
+          "src": "/assets/vocabulary-scenes/careful-purchase.png",
+          "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-call-someone-out",
+      "kind": "phrase",
+      "word": "call someone out",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-call-someone-out-sense-1",
+          "pos": "phrasal verb",
+          "definition": "To directly challenge someone about conduct you consider wrong or misleading.",
+          "definitionRu": "Прямо предъявить человеку претензию по поводу неправильного или вводящего в заблуждение поведения.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://dictionary.cambridge.org/us/dictionary/english/call-out",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-call-someone-out-context-1",
+          "en": "Maya called the seller out on describing the cracked laptop as being in perfect condition. She pointed to the damage and asked them to correct the listing before anyone else relied on it.",
+          "ru": "Майя прямо предъявила продавцу претензию за то, что ноутбук с трещиной был описан как находящийся в идеальном состоянии. Она указала на повреждение и попросила исправить объявление, прежде чем на него положится кто-нибудь ещё.",
+          "targetSpans": [
+            {
+              "start": 5,
+              "end": 26,
+              "text": "called the seller out"
+            }
+          ],
+          "senseId": "us-call-someone-out-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Неформальное, прямое и потенциально конфликтное; нужна конкретная причина.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Call someone out on something здесь означает открыто оспорить конкретное поведение. С местоимением нужно call them out, не call out them. После on стоит -ing: on describing. Это сильнее нейтрального ask for clarification и может звучать конфронтационно, даже без публичной аудитории. В другом контексте call out бывает вызовом специалиста; претензия к описанию товара выбирает смысл критики.",
+          "productionTask": "В 3 английских предложениях расскажи о другой явной неточности, которую кто-то оспорил. Используй called someone out on, укажи проверяемый факт и разумную просьбу об исправлении.",
+          "collocations": [
+            {
+              "text": "called the seller out on describing",
+              "contextId": "us-call-someone-out-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "careful-purchase",
+              "title": "Проверяем покупку и условия"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://dictionary.cambridge.org/us/dictionary/english/call-out",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "called the seller out on describing",
+          "contextId": "us-call-someone-out-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "careful-purchase",
+          "title": "Проверяем покупку и условия"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "careful-purchase",
+          "contextId": "us-call-someone-out-context-1",
+          "src": "/assets/vocabulary-scenes/careful-purchase.png",
+          "alt": "Два посетителя и продавец осматривают ноутбук с треснувшим экраном у прилавка; у посетительницы блокнот.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "64a3e7af82e3a97a1354aa2bec0ac4040bd8d33022b9a36aabea2ac4790858c4"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-runway",
+      "kind": "phrase",
+      "word": "runway",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-runway-sense-1",
+          "pos": "noun",
+          "definition": "The estimated time a business can continue before its available cash runs out at an assumed spending rate.",
+          "definitionRu": "Оценка времени, на которое бизнесу хватит доступных денег при предполагаемом темпе их расходования.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.ycombinator.com/blog/advice-startups-running-out-of-money",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-runway-context-1",
+          "en": "With sixty thousand dollars in the bank and a net cash outflow of ten thousand a month, we have about six months of runway. That estimate changes if our spending or cash receipts change.",
+          "ru": "При шестидесяти тысячах долларов на счёте и чистом оттоке денег в десять тысяч в месяц нам хватит средств примерно на шесть месяцев работы. Эта оценка изменится, если изменятся наши расходы или денежные поступления.",
+          "targetSpans": [
+            {
+              "start": 116,
+              "end": 122,
+              "text": "runway"
+            }
+          ],
+          "senseId": "us-runway-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Стартапы и деловые финансы; полезно явно называть допущения.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Runway здесь — запас времени до исчерпания денег, а не взлётная полоса. Six months of runway измеряет время, не сумму. В условном примере 60 000 делят на ежемесячный чистый отток 10 000; результат зависит от сохранения этого темпа. Это оценка при заданных условиях, а не обещание успеха, прибыльности или гарантированного срока жизни компании.",
+          "productionTask": "Придумай другой простой условный бюджет и напиши 3 английских предложения. Используй runway, назови запас денег и месячный чистый отток, рассчитай срок и укажи, что может его изменить.",
+          "collocations": [
+            {
+              "text": "six months of runway",
+              "contextId": "us-runway-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "startup-budget",
+              "title": "Обсуждаем деньги небольшого бизнеса"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.ycombinator.com/blog/advice-startups-running-out-of-money",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "six months of runway",
+          "contextId": "us-runway-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "startup-budget",
+          "title": "Обсуждаем деньги небольшого бизнеса"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "startup-budget",
+          "contextId": "us-runway-context-1",
+          "src": "/assets/vocabulary-scenes/startup-budget.png",
+          "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-burn-rate",
+      "kind": "phrase",
+      "word": "burn rate",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-burn-rate-sense-1",
+          "pos": "noun phrase",
+          "definition": "The rate at which a business uses cash, with gross or net treatment specified.",
+          "definitionRu": "Темп расходования денег бизнесом с уточнением, идёт ли речь об общих расходах или чистом оттоке.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/burn%20rate",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-burn-rate-context-1",
+          "en": "Our gross burn rate is thirty thousand dollars a month, while customer payments bring in twenty thousand. That leaves a net cash burn of ten thousand a month under these assumptions.",
+          "ru": "Наш общий темп расходования денег — тридцать тысяч долларов в месяц, а платежи клиентов приносят двадцать тысяч. При этих допущениях чистый расход денежного запаса составляет десять тысяч в месяц.",
+          "targetSpans": [
+            {
+              "start": 10,
+              "end": 19,
+              "text": "burn rate"
+            }
+          ],
+          "senseId": "us-burn-rate-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Деловые финансы; термин требует уточнения gross или net и периода.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Burn rate измеряет скорость расходования денежных средств: dollars a month. Gross в примере означает все денежные расходы до учёта поступлений, а net cash burn — остаточный отток после них. Поэтому нельзя молча сравнивать два показателя с разными определениями. While противопоставляет расходы поступлениям; 30 000 минус 20 000 даёт 10 000, но эта величина не равна бухгалтерской прибыли.",
+          "productionTask": "Составь другой условный месячный пример в 3 английских предложениях. Назови gross burn rate, денежные поступления и net cash burn с правильным вычитанием; не называй их прибылью.",
+          "collocations": [
+            {
+              "text": "gross burn rate",
+              "contextId": "us-burn-rate-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "startup-budget",
+              "title": "Обсуждаем деньги небольшого бизнеса"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/burn%20rate",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "gross burn rate",
+          "contextId": "us-burn-rate-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "startup-budget",
+          "title": "Обсуждаем деньги небольшого бизнеса"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "startup-budget",
+          "contextId": "us-burn-rate-context-1",
+          "src": "/assets/vocabulary-scenes/startup-budget.png",
+          "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-break-even",
+      "kind": "phrase",
+      "word": "break even",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-break-even-sense-1",
+          "pos": "verb phrase",
+          "definition": "To have revenue equal costs for the period being discussed, with neither profit nor loss.",
+          "definitionRu": "Получить выручку, равную затратам за рассматриваемый период, без прибыли и убытка.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-break-even-context-1",
+          "en": "If monthly revenue reaches forty thousand dollars and monthly costs stay at forty thousand, we'll break even for that month. That would not recover the losses we made before it.",
+          "ru": "Если месячная выручка достигнет сорока тысяч долларов, а месячные затраты останутся на уровне сорока тысяч, за этот месяц мы выйдем в ноль. Это не покроет убытки, понесённые до него.",
+          "targetSpans": [
+            {
+              "start": 98,
+              "end": 108,
+              "text": "break even"
+            }
+          ],
+          "senseId": "us-break-even-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное деловое и финансовое; период и состав затрат должны быть понятны.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Break even как глагольное сочетание пишется без дефиса: выйти на безубыточность за обозначенный период. В a break-even point дефис соединяет определение перед существительным. Условие содержит reaches и stay, а результат — will break even. Равенство выручки затратам за месяц не означает возврата всех прежних вложений и не доказывает положительный остаток денег на счёте.",
+          "productionTask": "В 3 английских предложениях опиши другой условный месяц с равной выручкой и затратами. Используй break even и объясни, почему это не гарантирует возмещения прошлых убытков.",
+          "collocations": [
+            {
+              "text": "we'll break even",
+              "contextId": "us-break-even-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "startup-budget",
+              "title": "Обсуждаем деньги небольшого бизнеса"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "we'll break even",
+          "contextId": "us-break-even-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "startup-budget",
+          "title": "Обсуждаем деньги небольшого бизнеса"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "startup-budget",
+          "contextId": "us-break-even-context-1",
+          "src": "/assets/vocabulary-scenes/startup-budget.png",
+          "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-cash-flow",
+      "kind": "phrase",
+      "word": "cash flow",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-cash-flow-sense-1",
+          "pos": "noun phrase",
+          "definition": "The movement and timing of money entering and leaving a business.",
+          "definitionRu": "Движение денег в бизнес и из него, включая сроки поступлений и выплат.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-cash-flow-context-1",
+          "en": "Our cash flow is tight this month because two customers will pay their invoices after rent is due. The sales are recorded, but the money hasn't reached our bank account yet.",
+          "ru": "В этом месяце у нас напряжённая ситуация с денежным потоком, потому что два клиента оплатят счета уже после срока внесения аренды. Продажи учтены, но деньги ещё не поступили на наш банковский счёт.",
+          "targetSpans": [
+            {
+              "start": 4,
+              "end": 13,
+              "text": "cash flow"
+            }
+          ],
+          "senseId": "us-cash-flow-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Нейтральное деловое; разговорное tight поясняется конкретным сроком платежей.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Cash flow касается реального движения и сроков поступления денег, а не только записанной выручки. Tight описывает нехватку свободных средств для текущих платежей. Money — неисчисляемое существительное, поэтому hasn’t, а не haven’t. Продажа с более поздней оплатой может уже учитываться, но ещё не обеспечивать деньги для аренды; прибыль и денежный поток нельзя автоматически считать одним показателем.",
+          "productionTask": "Придумай другую ситуацию несовпадения сроков поступления и выплаты денег. В 3 английских предложениях используй cash flow, назови оба срока и объясни разницу между продажей и получением денег.",
+          "collocations": [
+            {
+              "text": "cash flow is tight",
+              "contextId": "us-cash-flow-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "startup-budget",
+              "title": "Обсуждаем деньги небольшого бизнеса"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "cash flow is tight",
+          "contextId": "us-cash-flow-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "startup-budget",
+          "title": "Обсуждаем деньги небольшого бизнеса"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "startup-budget",
+          "contextId": "us-cash-flow-context-1",
+          "src": "/assets/vocabulary-scenes/startup-budget.png",
+          "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-bootstrap",
+      "kind": "phrase",
+      "word": "bootstrap",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-bootstrap-sense-1",
+          "pos": "verb",
+          "definition": "To build a business using the founders’ resources and business income rather than outside equity investment.",
+          "definitionRu": "Развивать бизнес за счёт собственных средств основателей и доходов бизнеса, а не внешних долевых инвестиций.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/bootstrap",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-bootstrap-context-1",
+          "en": "We decided to bootstrap the studio with our savings and income from small client projects instead of selling shares to investors. That gives us more control, but it also limits how quickly we can hire.",
+          "ru": "Мы решили развивать студию на свои сбережения и доходы от небольших клиентских проектов вместо продажи долей инвесторам. Это даёт нам больше контроля, но также ограничивает скорость найма.",
+          "targetSpans": [
+            {
+              "start": 14,
+              "end": 23,
+              "text": "bootstrap"
+            }
+          ],
+          "senseId": "us-bootstrap-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Стартапы и предпринимательство; вне этого контекста значение нужно пояснять.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Bootstrap в этом примере — глагол с прямым дополнением the studio: финансировать развитие своими ресурсами и доходами. После decided идёт to bootstrap. Речь не о загрузке компьютера и не о названии программной библиотеки. Отказ от долевых инвесторов описывает выбранную схему, а не автоматически лучший путь; собственные деньги тоже ограничены, что и показывает but.",
+          "productionTask": "Опиши вымышленный небольшой бизнес в 3 английских предложениях. Используй bootstrap, назови два собственных источника средств, одно преимущество и одно ограничение такого подхода.",
+          "collocations": [
+            {
+              "text": "bootstrap the studio",
+              "contextId": "us-bootstrap-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "startup-budget",
+              "title": "Обсуждаем деньги небольшого бизнеса"
+            }
+          ],
+          "verificationSources": [
+            {
+              "url": "https://www.merriam-webster.com/dictionary/bootstrap",
+              "purpose": "meaning-verification-only",
+              "checkedAt": "2026-09-10",
+              "note": "Reference consulted to check usage; no context, translation or definition is copied from this source."
+            }
+          ]
+        }
+      ],
+      "collocations": [
+        {
+          "text": "bootstrap the studio",
+          "contextId": "us-bootstrap-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "startup-budget",
+          "title": "Обсуждаем деньги небольшого бизнеса"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "startup-budget",
+          "contextId": "us-bootstrap-context-1",
+          "src": "/assets/vocabulary-scenes/startup-budget.png",
+          "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    },
+    {
+      "id": "us-cut-corners",
+      "kind": "phrase",
+      "word": "cut corners",
+      "rank": null,
+      "cefr": null,
+      "memberships": [
+        {
+          "sourceId": "english-american-phrases"
+        }
+      ],
+      "senses": [
+        {
+          "id": "us-cut-corners-sense-1",
+          "pos": "idiom",
+          "definition": "To save time or money by skipping proper steps and reducing the standard of the work.",
+          "definitionRu": "Экономить время или деньги, пропуская необходимые действия и снижая качество работы.",
+          "tags": [],
+          "rawTags": [],
+          "categories": [],
+          "pronunciations": [],
+          "examples": [],
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "quality": "editor-reviewed-for-this-context",
+          "verificationSources": []
+        }
+      ],
+      "contexts": [
+        {
+          "id": "us-cut-corners-context-1",
+          "en": "We can reduce office costs, but we shouldn't cut corners on testing the payment system. Skipping those checks could create errors that cost more to repair than we save now.",
+          "ru": "Мы можем сократить офисные расходы, но не должны экономить на необходимых проверках платёжной системы. Пропуск этих проверок может привести к ошибкам, исправление которых обойдётся дороже нынешней экономии.",
+          "targetSpans": [
+            {
+              "start": 45,
+              "end": 56,
+              "text": "cut corners"
+            }
+          ],
+          "senseId": "us-cut-corners-sense-1",
+          "variety": "en-US-compatible",
+          "register": "Разговорное и деловое, с отрицательной оценкой способа экономии.",
+          "source": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "translationSource": {
+            "sourceId": "english-american-phrases-editorial-2026-09-10",
+            "kind": "original-editorial",
+            "license": "original-project-content",
+            "attribution": "English project contributors",
+            "checkedAt": "2026-09-10"
+          },
+          "alignment": "original example and full Russian translation reviewed together",
+          "quality": "context-reviewed",
+          "explanation": "Cut corners подразумевает сомнительное упрощение за счёт правильной процедуры или качества. On testing называет область, где предлагают не допускать такого сокращения. Это не любой способ потратить меньше: reduce office costs может быть разумной экономией без потери стандарта. Could обозначает возможное последствие, а не утверждает, что ошибка обязательно случится; corners в идиоме остаётся во множественном числе.",
+          "productionTask": "В 3 английских предложениях предложи сократить расходы другого проекта без снижения важных стандартов. Используй cut corners, назови допустимую экономию и проверку, которую сохраняешь, с объяснением причины.",
+          "collocations": [
+            {
+              "text": "cut corners on testing",
+              "contextId": "us-cut-corners-context-1",
+              "evidence": "used in this original example; no corpus-frequency claim"
+            }
+          ],
+          "topics": [
+            {
+              "id": "startup-budget",
+              "title": "Обсуждаем деньги небольшого бизнеса"
+            }
+          ],
+          "verificationSources": []
+        }
+      ],
+      "collocations": [
+        {
+          "text": "cut corners on testing",
+          "contextId": "us-cut-corners-context-1",
+          "evidence": "used in this original example; no corpus-frequency claim"
+        }
+      ],
+      "topics": [
+        {
+          "id": "startup-budget",
+          "title": "Обсуждаем деньги небольшого бизнеса"
+        }
+      ],
+      "images": [
+        {
+          "sceneId": "startup-budget",
+          "contextId": "us-cut-corners-context-1",
+          "src": "/assets/vocabulary-scenes/startup-budget.png",
+          "alt": "Двое людей изучают календарь и записи за столом с калькулятором; на ноутбуке показана нисходящая линия графика.",
+          "association": "shared-scene",
+          "sourceId": "english-original-ai-scenes-2026-09-10",
+          "sha256": "3156d956826e6f25497a9c5aa762268f9c0f200ef4575c8142f1b11245e4cf21"
+        }
+      ],
+      "quality": {
+        "status": "context-reviewed",
+        "reviewedContextCount": 1,
+        "meaningAlignment": "reviewed-contexts-only",
+        "americanEnglish": "reviewed-contexts-only",
+        "register": "reviewed-for-this-context",
+        "reviewScope": "original context, Russian translation, linked original sense, explanation and production task"
+      }
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-06-2026-09-10",
+    "title": "Original core contexts 06 — systems, language and scientific reading",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original contexts with selected precise senses, not a claim of complete specialist mastery."
+  },
+  "entries": [
+    {
+      "word": "demonstrator",
+      "pos": "noun",
+      "meaningEn": "A person taking part in a public protest.",
+      "meaningRu": "Участник публичной протестной акции; демонстрант.",
+      "en": "A demonstrator held a sign asking the city to preserve the park. The reporter asked her to explain what the space meant to local families.",
+      "ru": "Демонстрантка держала плакат с просьбой к городу сохранить парк. Репортёр попросил её объяснить, что это место значит для местных семей.",
+      "phrase": "A demonstrator held a sign",
+      "explanation": "Demonstrator здесь участник протеста. В другом контексте слово может обозначать человека, показывающего работу устройства. Ни возраст, ни насилие из названия роли не следуют.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С demonstrator опиши участника вымышленной мирной акции и сформулируй один открытый вопрос для интервью."
+    },
+    {
+      "word": "primer",
+      "pos": "noun",
+      "meaningEn": "A short introductory text that teaches the basics of a subject.",
+      "meaningRu": "Краткий вводный текст, объясняющий основы предмета.",
+      "en": "I wrote a short primer on version control for our new volunteers. It explains saving changes, reviewing a diff, and asking for help before combining work.",
+      "ru": "Я написал для новых волонтёров краткое введение в контроль версий. В нём объясняются сохранение изменений, просмотр изменений и обращение за помощью перед объединением работ.",
+      "phrase": "a short primer on",
+      "explanation": "A primer on a subject — вводное руководство. В AmE для этого значения обычно /ˈprɪmər/, а primer «грунтовка» обычно /ˈpraɪmər/. В BrE встречается /ˈpraɪmə/ и для учебного текста; голос озвучки может не различить значения.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/primer"
+      ],
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С primer on предложи вводное руководство по своей теме: адресат и три базовых действия."
+    },
+    {
+      "word": "replication",
+      "pos": "noun",
+      "meaningEn": "A repetition of a study or procedure to see whether its findings can be obtained again.",
+      "meaningRu": "Повторение исследования или процедуры для проверки воспроизводимости результата; репликация.",
+      "en": "The team planned a replication of the study with a new group of participants. It kept the main procedure the same and documented the differences in setting.",
+      "ru": "Команда запланировала повторение исследования с новой группой участников. Она сохранила основную процедуру и зафиксировала различия условий.",
+      "phrase": "a replication of the study",
+      "explanation": "Replication здесь повторная проверка исследования. New participants дают новые данные; это отличается от одного только повторного расчёта прежней таблицы. Терминологические границы reproducibility и replication могут различаться между дисциплинами.",
+      "registerTags": [
+        "research"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С replication предложи повторение вымышленного исследования: что сохранить и какие условия отдельно записать."
+    },
+    {
+      "word": "invert",
+      "pos": "verb",
+      "meaningEn": "To reverse the order, position or arrangement of something.",
+      "meaningRu": "Обратить порядок, положение или устройство; перевернуть, инвертировать.",
+      "en": "If you invert the order of these two steps, the paint goes on before the surface is ready. The revised instructions keep preparation first and painting second.",
+      "ru": "Если поменять порядок этих двух шагов на обратный, краску нанесут до подготовки поверхности. В обновлённых инструкциях сначала идёт подготовка, затем окрашивание.",
+      "phrase": "invert the order",
+      "explanation": "Invert the order — обратить порядок, а не просто изменить любой элемент. Inverted image — перевёрнутое изображение. В математике и грамматике есть специальные применения этого значения.",
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "С invert опиши другую вымышленную пару действий, порядок которых нельзя бездумно обращать, и объясни почему."
+    },
+    {
+      "word": "phosphate",
+      "pos": "noun",
+      "meaningEn": "A chemical ion or compound derived from phosphoric acid, often discussed in nutrients and water analysis.",
+      "meaningRu": "Ион или соединение, производное фосфорной кислоты; фосфат.",
+      "en": "The water report lists the phosphate concentration next to the date and sampling location. The class compares measurements from the same sites across several months.",
+      "ru": "В отчёте о воде концентрация фосфатов указана рядом с датой и местом отбора пробы. Класс сравнивает измерения из одних и тех же точек за несколько месяцев.",
+      "phrase": "the phosphate concentration",
+      "explanation": "Phosphate относится к соединениям или иону, phosphorus — химический элемент. Phosphate concentration — концентрация фосфатов; сравнивая числа, нужно сохранить единицы измерения.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/phosphate"
+      ],
+      "registerTags": [
+        "chemistry"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С phosphate concentration опиши заголовки учебной таблицы: величина, единица, место и дата отбора."
+    },
+    {
+      "word": "genetics",
+      "pos": "noun",
+      "meaningEn": "The study of genes, inheritance and variation in living organisms.",
+      "meaningRu": "Наука о генах, наследовании и изменчивости живых организмов; генетика.",
+      "en": "Genetics is one part of the introductory biology course. Students learn how inherited information relates to traits while also discussing the role of the environment.",
+      "ru": "Генетика — одна из частей вводного курса биологии. Студенты изучают связь наследуемой информации с признаками, а также обсуждают роль среды.",
+      "phrase": "Genetics is one part",
+      "explanation": "Название науки genetics сочетается с is, несмотря на -s. Genetic — прилагательное, gene — ген. Не сводить любой сложный признак к единственной причине только из-за слова genetics.",
+      "registerTags": [
+        "biology"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С genetics is представь учебный раздел и сформулируй вопрос о наследовании и среде."
+    },
+    {
+      "word": "precipitate",
+      "pos": "verb",
+      "meaningEn": "To cause an event or change to happen suddenly or sooner than expected.",
+      "meaningRu": "Спровоцировать быстрое или неожиданно раннее событие либо изменение.",
+      "en": "An abrupt announcement could precipitate a wave of resignations, the adviser warned. She recommended explaining the changes to staff before publishing the final timetable.",
+      "ru": "Советница предупредила, что резкое объявление может спровоцировать волну увольнений. Она рекомендовала объяснить изменения сотрудникам до публикации окончательного графика.",
+      "phrase": "precipitate a wave of resignations",
+      "explanation": "Precipitate здесь вызвать резкое событие, формальнее cause. В химии глагол также описывает образование осадка; это другой смысл и ситуация.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "С precipitate опиши возможную реакцию команды на вымышленное решение и предложи более ясное сообщение."
+    },
+    {
+      "word": "rationality",
+      "pos": "noun",
+      "meaningEn": "The use of coherent reasoning and relevant evidence in thought or decisions.",
+      "meaningRu": "Опора мышления или решений на связное рассуждение и подходящие данные; рациональность.",
+      "en": "The discussion questions the rationality of buying equipment before defining its purpose. The team agrees to list the actual tasks before comparing models.",
+      "ru": "В обсуждении ставится под вопрос разумность покупки оборудования до определения его назначения. Команда решает сначала перечислить реальные задачи, а затем сравнивать модели.",
+      "phrase": "the rationality of buying equipment",
+      "explanation": "Rationality касается оснований решения. Rational choice — обоснованный выбор; rationalize может означать придумывать оправдание уже сделанному. Рациональность не требует полного отсутствия эмоций.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "work-money",
+        "title": "Работа и деньги"
+      },
+      "task": "С rationality объясни, каких данных не хватает для твоей вымышленной покупки, и предложи порядок выбора."
+    },
+    {
+      "word": "coronary",
+      "pos": "adj",
+      "meaningEn": "Relating to the blood vessels that supply and drain the heart muscle.",
+      "meaningRu": "Относящийся к кровеносным сосудам самого сердечного мускула; коронарный.",
+      "en": "The anatomy diagram highlights the coronary arteries on the outside of the heart. A separate view shows the chambers, helping students distinguish the structures.",
+      "ru": "На анатомической схеме выделены коронарные артерии на внешней поверхности сердца. Отдельный вид показывает камеры сердца и помогает студентам различать структуры.",
+      "phrase": "the coronary arteries",
+      "explanation": "Coronary arteries снабжают саму сердечную мышцу кровью. Это не название камер сердца. В разговоре a coronary может называть сердечный приступ; здесь используется прилагательное анатомического термина.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/coronary"
+      ],
+      "registerTags": [
+        "anatomy"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С coronary arteries сформулируй вопрос преподавателю о том, как различать сосуды и камеры на учебной схеме."
+    },
+    {
+      "word": "nonlinear",
+      "pos": "adj",
+      "meaningEn": "Not following a relationship that can be represented by a straight line.",
+      "meaningRu": "Не подчиняющийся зависимости, изображаемой прямой линией; нелинейный.",
+      "en": "The example uses a nonlinear relationship between waiting time and the number of requests. After a certain point, a small increase in requests produces a much larger delay.",
+      "ru": "В примере используется нелинейная зависимость времени ожидания от числа запросов. После определённой точки небольшое увеличение числа запросов вызывает гораздо большую задержку.",
+      "phrase": "a nonlinear relationship",
+      "explanation": "Nonlinear означает, что один и тот же прирост входа не даёт постоянного прироста выхода по всей рассматриваемой области. Это не синоним random: зависимость может быть вполне закономерной.",
+      "registerTags": [
+        "technical"
+      ],
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "С nonlinear relationship объясни на вымышленном графике, почему удвоение нагрузки не обязано просто удваивать задержку."
+    },
+    {
+      "word": "solvent",
+      "pos": "noun",
+      "meaningEn": "A substance, commonly a liquid, in which another substance can dissolve.",
+      "meaningRu": "Вещество, обычно жидкость, в котором растворяется другое вещество; растворитель.",
+      "en": "In the classroom example, water acts as the solvent when sugar dissolves in it. The teacher labels the sugar as the solute and the mixture as the solution.",
+      "ru": "В учебном примере вода выступает растворителем, когда в ней растворяется сахар. Преподаватель подписывает сахар как растворённое вещество, а смесь как раствор.",
+      "phrase": "acts as the solvent",
+      "explanation": "Solvent — растворитель, solute — растворяемое вещество, solution — раствор. Прилагательное solvent о компании означает платёжеспособный; к этому химическому примеру оно не относится.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/solvent"
+      ],
+      "registerTags": [
+        "chemistry"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С solvent, solute и solution объясни своими словами роли воды и сахара в описанном учебном примере."
+    },
+    {
+      "word": "oscillation",
+      "pos": "noun",
+      "meaningEn": "Repeated movement or variation back and forth around a central state.",
+      "meaningRu": "Повторное движение или изменение туда и обратно вокруг среднего состояния; колебание.",
+      "en": "The animation shows one complete oscillation of the pendulum, from one side to the other and back. Students compare the time for that cycle with the size of the swing.",
+      "ru": "Анимация показывает одно полное колебание маятника — от одной стороны к другой и обратно. Студенты сравнивают время этого цикла с размахом движения.",
+      "phrase": "one complete oscillation",
+      "explanation": "Одна oscillation — полный цикл, а не только движение в одну сторону. Oscillate — глагол. Period описывает время цикла, amplitude — отклонение; это разные параметры.",
+      "registerTags": [
+        "physics"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С oscillation объясни однокурснику, где начинается и заканчивается один полный цикл маятника."
+    },
+    {
+      "word": "entrant",
+      "pos": "noun",
+      "meaningEn": "A person or organization that enters a competition, market or field.",
+      "meaningRu": "Участник, вступающий в конкурс, рынок или сферу деятельности.",
+      "en": "Every entrant in the photo contest can submit up to three original images. The organizer asks for a short description of when and where each photo was taken.",
+      "ru": "Каждый участник фотоконкурса может подать до трёх собственных снимков. Организатор просит кратко описать, когда и где сделана каждая фотография.",
+      "phrase": "Every entrant in the photo contest",
+      "explanation": "Entrant in a contest — участник конкурса. New entrant to a market — новый игрок на рынке. Entrant называет участника, entry — его заявку или конкурсную работу.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С entrant объясни вымышленные правила конкурса и отдельно назови требования к entry."
+    },
+    {
+      "word": "inversion",
+      "pos": "noun",
+      "meaningEn": "A reversal of the usual order or arrangement; in grammar, a change in normal word order.",
+      "meaningRu": "Обращение обычного порядка; в грамматике — изменение стандартного порядка слов, инверсия.",
+      "en": "The sentence Never have I seen such a quiet airport uses inversion for emphasis. In a neutral version, the speaker says I have never seen such a quiet airport.",
+      "ru": "В предложении Never have I seen such a quiet airport используется инверсия для усиления. В нейтральном варианте говорящий скажет I have never seen such a quiet airport.",
+      "phrase": "uses inversion for emphasis",
+      "explanation": "После вынесенного Never вспомогательное have стоит перед I. Это утвердительное предложение с усилением, не обычный вопрос. Нейтральный порядок сохраняет основную мысль без того же риторического акцента.",
+      "registerTags": [
+        "grammar"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "С inversion объясни порядок слов, затем придумай своё предложение Never have I… и нейтральную версию."
+    },
+    {
+      "word": "censor",
+      "pos": "verb",
+      "meaningEn": "To remove or suppress material because someone in authority objects to it.",
+      "meaningRu": "Удалять или запрещать материал по возражению контролирующего лица; подвергать цензуре.",
+      "en": "In the novel, officials censor letters before prisoners can send them home. Missing passages become an important clue for the main character.",
+      "ru": "В романе чиновники проверяют письма заключённых и удаляют запрещённые фрагменты перед отправкой домой. Пропущенные отрывки становятся важной подсказкой для главного героя.",
+      "phrase": "officials censor letters",
+      "explanation": "Censor — подвергать цензуре; a censor — человек, который это делает. Sensor — датчик, другое слово с похожим звучанием. Сцена художественная и описывает удаление содержания, не обычную корректорскую правку.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С censor опиши вымышленную сюжетную ситуацию и объясни, как удалённый фрагмент влияет на понимание письма."
+    },
+    {
+      "word": "equivalence",
+      "pos": "noun",
+      "meaningEn": "A relationship in which two things have the same value, meaning or effect under a stated criterion.",
+      "meaningRu": "Отношение одинакового значения, смысла или эффекта по определённому критерию; эквивалентность.",
+      "en": "The translator aims for equivalence of meaning rather than identical word order. A natural Russian sentence may use a different structure to preserve the speaker's request.",
+      "ru": "Переводчик стремится к эквивалентности смысла, а не к одинаковому порядку слов. Естественное русское предложение может использовать другую структуру, сохраняя просьбу говорящего.",
+      "phrase": "equivalence of meaning",
+      "explanation": "Equivalence всегда полезно уточнять: по смыслу, стоимости, функции. Equivalence of meaning не требует пословного совпадения. Equivalent — прилагательное или существительное.",
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "С equivalence of meaning объясни, почему просьба на английском и её естественный русский перевод могут иметь разный порядок слов."
+    },
+    {
+      "word": "postgraduate",
+      "pos": "noun",
+      "meaningEn": "A student studying after a first university degree; commonly called a graduate student in American English.",
+      "meaningRu": "Студент, продолжающий учёбу после первой университетской степени; в американском английском обычно graduate student.",
+      "en": "The British university pairs each new postgraduate with a research mentor. In a similar American program, the announcement would usually refer to a graduate student.",
+      "ru": "Британский университет назначает каждому новому студенту последипломной программы научного наставника. В аналогичной американской программе объявление обычно использовало бы выражение graduate student.",
+      "phrase": "each new postgraduate",
+      "explanation": "Postgraduate не обязательно означает только аспиранта: программа может быть магистерской или докторской. Для AmE учим graduate student, а postgraduate распознаём в международном и британском контексте.",
+      "variety": "en-GB-recognition",
+      "usAlternative": "graduate student",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "Представь вымышленного участника американской программы с graduate student и поясни, где ты встретишь слово postgraduate."
+    },
+    {
+      "word": "connector",
+      "pos": "noun",
+      "meaningEn": "A part that joins two things, often carrying a physical or electrical connection.",
+      "meaningRu": "Деталь, соединяющая две части; соединитель или разъём.",
+      "en": "The cable's connector fits the port, but the device still doesn't charge. The technician checks the cable's rating instead of forcing the plug farther in.",
+      "ru": "Разъём кабеля подходит к порту, но устройство всё равно не заряжается. Техник проверяет характеристики кабеля, а не пытается сильнее вдавить штекер.",
+      "phrase": "connector fits the port",
+      "explanation": "Connector — соединяющая деталь; port — место подключения. Подходящая форма не обязательно означает поддержку нужного питания или передачи данных. В грамматике connector может называть связующее слово.",
+      "topic": {
+        "id": "digital-life",
+        "title": "Цифровая жизнь"
+      },
+      "task": "С connector опиши продавцу вымышленную проблему кабеля и попроси проверить совместимость по характеристикам."
+    },
+    {
+      "word": "chloride",
+      "pos": "noun",
+      "meaningEn": "A compound containing chlorine combined with another element or group, often as the chloride ion.",
+      "meaningRu": "Соединение хлора с другим элементом или группой, часто содержащее хлорид-ион; хлорид.",
+      "en": "The chemistry worksheet identifies table salt as sodium chloride. Students underline the two parts of the name and match them to the formula NaCl.",
+      "ru": "В задании по химии поваренная соль названа хлоридом натрия. Студенты подчёркивают две части названия и сопоставляют их с формулой NaCl.",
+      "phrase": "sodium chloride",
+      "explanation": "Sodium chloride — хлорид натрия; chlorine — название химического элемента. Окончание -ide в chloride не переводится отдельным английским словом. Контекст помогает узнать термин по знакомому веществу.",
+      "registerTags": [
+        "chemistry"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Со sodium chloride объясни знакомому, как связаны бытовое название table salt и название на учебной схеме."
+    },
+    {
+      "word": "syllabus",
+      "pos": "noun",
+      "meaningEn": "A document or outline describing the topics, work and requirements of a course.",
+      "meaningRu": "Описание тем, заданий и требований учебного курса; программа курса.",
+      "en": "The syllabus lists weekly topics, assignment deadlines, and how the final project is assessed. I read it before planning my study time for the semester.",
+      "ru": "В программе курса перечислены темы по неделям, сроки заданий и порядок оценки итогового проекта. Я прочитал её, прежде чем планировать учебное время на семестр.",
+      "phrase": "The syllabus lists",
+      "explanation": "Syllabus относится к конкретному курсу. Curriculum чаще обозначает более широкую учебную программу. Syllabuses и syllabi — варианты множественного числа; syllabus не значит готовые тексты всех уроков.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С syllabus предложи четыре пункта описания собственного курса, которые помогут студенту спланировать неделю."
+    },
+    {
+      "word": "elasticity",
+      "pos": "noun",
+      "meaningEn": "The ability of a material to return toward its original shape after a deforming force is removed.",
+      "meaningRu": "Способность материала возвращаться к исходной форме после снятия деформирующей силы; упругость.",
+      "en": "The lesson compares the elasticity of a rubber band with the behavior of a piece of clay. Students describe which sample returns to its earlier shape after gentle stretching.",
+      "ru": "На уроке сравнивают упругость резинки с поведением куска глины. Студенты описывают, какой образец возвращается к прежней форме после небольшого растяжения.",
+      "phrase": "the elasticity of a rubber band",
+      "explanation": "Elasticity здесь свойство материала, не просто возможность растянуться. В экономике price elasticity — чувствительность спроса или предложения к изменению цены, другой смысл.",
+      "registerTags": [
+        "physics"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С elasticity опиши различие резинки и глины, назвав то, что происходит после снятия нагрузки.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/elasticity"
+      ]
+    },
+    {
+      "word": "axiom",
+      "pos": "noun",
+      "meaningEn": "A statement accepted as a starting point within a system of reasoning.",
+      "meaningRu": "Положение, принятое в системе рассуждения как исходное; аксиома.",
+      "en": "The lecturer states an axiom before deriving the next result. Students must distinguish the starting assumption from the conclusion that follows from it.",
+      "ru": "Преподаватель формулирует аксиому, прежде чем вывести следующий результат. Студенты должны отличить исходное допущение от следующего из него вывода.",
+      "phrase": "states an axiom",
+      "explanation": "Axiom принимают в данной системе за исходное положение. Theorem выводят на основании принятых правил и посылок. Это не обязательно утверждение, доказанное во всех мыслимых системах.",
+      "registerTags": [
+        "mathematics"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С axiom объясни новичку различие исходного положения и выведенного результата в вымышленной системе правил."
+    },
+    {
+      "word": "semi",
+      "pos": "noun",
+      "meaningEn": "In American usage, a large truck with a tractor and semitrailer, or the semitrailer itself.",
+      "meaningRu": "В американском употреблении — седельный грузовик с полуприцепом либо сам полуприцеп.",
+      "en": "A semi was parked beside the warehouse while the crew prepared the loading area. The driver checked the delivery paperwork with the receiving team.",
+      "ru": "Фура стояла у склада, пока рабочие готовили зону погрузки. Водитель проверил документы поставки с принимающей командой.",
+      "phrase": "A semi was parked",
+      "explanation": "В этой американской дорожной ситуации semi — фура. В британской речи a semi может быть домом на две семьи; semi- в semicircle — приставка со значением половины. Значения разделяй по ситуации.",
+      "registerTags": [
+        "informal",
+        "US"
+      ],
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/semi"
+      ],
+      "topic": {
+        "id": "travel",
+        "title": "Поездки и транспорт"
+      },
+      "task": "С semi опиши вымышленную доставку на склад и поясни британскому собеседнику, какой транспорт имеется в виду."
+    },
+    {
+      "word": "handout",
+      "pos": "noun",
+      "meaningEn": "A sheet or document given to people to support a lesson, talk or meeting.",
+      "meaningRu": "Материал, выдаваемый участникам урока, выступления или встречи.",
+      "en": "The handout summarizes the workshop's main steps and leaves space for notes. I keep it beside my keyboard while trying the process on a new project.",
+      "ru": "В раздаточном материале кратко изложены основные шаги занятия и оставлено место для заметок. Я держу его рядом с клавиатурой, пока пробую этот процесс в новом проекте.",
+      "phrase": "The handout summarizes",
+      "explanation": "Handout здесь раздаточный материал. Hand out — глагол с пробелом, раздавать. В другом контексте handout может означать материальную помощь и иметь оценочный оттенок.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С handout опиши полезную памятку для своего вымышленного занятия: содержание и способ применения после урока."
+    },
+    {
+      "word": "cyclic",
+      "pos": "adj",
+      "meaningEn": "Happening in a repeating sequence or cycle.",
+      "meaningRu": "Происходящий в повторяющейся последовательности или цикле; циклический.",
+      "en": "The model shows a cyclic pattern of growth followed by decline. Students mark where one cycle ends and the next begins instead of drawing a straight trend line.",
+      "ru": "Модель показывает циклическую последовательность роста и спада. Студенты отмечают конец одного цикла и начало следующего, вместо того чтобы проводить прямую линию тренда.",
+      "phrase": "a cyclic pattern",
+      "explanation": "Cyclic pattern повторяется по циклам; cyclical — близкий вариант прилагательного. Cycle не требует одинаковой высоты каждой вершины во всех реальных процессах, но модель должна пояснить, что повторяется.",
+      "registerTags": [
+        "technical"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С cyclic pattern придумай простой повторяющийся процесс и назови его стадии по порядку."
+    },
+    {
+      "word": "dimensional",
+      "pos": "adj",
+      "meaningEn": "Relating to the measured size or dimensions of an object.",
+      "meaningRu": "Относящийся к измеряемым размерам объекта; размерный.",
+      "en": "The technician checks the dimensional accuracy of the replacement part before installing it. A small error in width would keep it from fitting into the frame.",
+      "ru": "Техник проверяет точность размеров сменной детали перед установкой. Даже небольшая ошибка по ширине не позволила бы ей войти в раму.",
+      "phrase": "dimensional accuracy",
+      "explanation": "Dimensional accuracy — точность размеров. Dimensions — размеры или измерения. Two-dimensional и three-dimensional описывают количество измерений; здесь проверяют соответствие заданным размерам детали.",
+      "registerTags": [
+        "engineering"
+      ],
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "С dimensional accuracy объясни, какие размеры вымышленной детали нужно проверить до установки и почему."
+    },
+    {
+      "word": "watershed",
+      "pos": "noun",
+      "meaningEn": "A major turning point after which a situation develops differently.",
+      "meaningRu": "Важный переломный момент, после которого ситуация развивается иначе.",
+      "en": "The first public performance was a watershed in her career. After years of private practice, she began working with other musicians and recording her own material.",
+      "ru": "Первое публичное выступление стало переломным моментом в её карьере. После многих лет самостоятельной практики она начала работать с другими музыкантами и записывать свой материал.",
+      "phrase": "a watershed in her career",
+      "explanation": "Watershed in a career — поворотный момент, сильнее обычного события. В американской географии watershed также означает водосборную территорию; для этого смысла нужна другая ситуация.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С watershed опиши вымышленный переломный момент и два конкретных изменения после него."
+    },
+    {
+      "word": "helix",
+      "pos": "noun",
+      "meaningEn": "A curve that winds around an axis while also advancing along it.",
+      "meaningRu": "Кривая, которая обвивает ось и одновременно продвигается вдоль неё; винтовая линия.",
+      "en": "The wire model forms a helix around a straight central rod. From the side, you can see each turn rise above the previous one rather than lie flat.",
+      "ru": "Проволочная модель образует винтовую линию вокруг прямого центрального стержня. Сбоку видно, как каждый виток поднимается над предыдущим, а не лежит в одной плоскости.",
+      "phrase": "forms a helix",
+      "explanation": "Helix — объёмная винтовая линия, как форма пружины. Flat spiral лежит в плоскости. Helices и helixes — варианты множественного числа; double helix описывает две связанные спиральные цепи.",
+      "registerTags": [
+        "geometry"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С helix объясни человеку, как представить форму модели, и сравни её с плоской спиралью.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/helix"
+      ]
+    },
+    {
+      "word": "epidemiology",
+      "pos": "noun",
+      "meaningEn": "The study of how health conditions are distributed in populations and what influences those patterns.",
+      "meaningRu": "Изучение распространения состояний здоровья в популяциях и факторов, влияющих на эти закономерности; эпидемиология.",
+      "en": "The introductory epidemiology course compares health patterns across groups and over time. Its first exercise asks students to define the population before interpreting the numbers.",
+      "ru": "Во вводном курсе эпидемиологии сравнивают закономерности здоровья между группами и во времени. Первое задание требует определить изучаемую популяцию до интерпретации чисел.",
+      "phrase": "introductory epidemiology course",
+      "explanation": "Epidemiology изучает популяционные закономерности, а не только лечит отдельного человека и не ограничивается эпидемиями инфекций. Epidemiologist — специалист, epidemiological — прилагательное.",
+      "registerTags": [
+        "research"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С epidemiology предложи учебный вопрос о группе людей и укажи, кто входит в эту группу.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/epidemiology"
+      ]
+    },
+    {
+      "word": "aerosol",
+      "pos": "noun",
+      "meaningEn": "A suspension of very small solid particles or liquid droplets in a gas, such as air.",
+      "meaningRu": "Взвесь очень мелких твёрдых частиц или жидких капель в газе, например воздухе; аэрозоль.",
+      "en": "The animation shows an aerosol moving through the air as tiny droplets. A close-up makes clear that the droplets are separate from the surrounding gas.",
+      "ru": "В анимации аэрозоль движется в воздухе в виде крошечных капель. Увеличенное изображение показывает, что капли отличаются от окружающего газа.",
+      "phrase": "an aerosol moving through the air",
+      "explanation": "Aerosol — частицы или капли во взвеси, не просто любое газообразное вещество. В бытовой речи aerosol может также относиться к баллончику или распыляемому средству; здесь научное значение.",
+      "registerTags": [
+        "science"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С aerosol опиши увеличенную учебную анимацию: что в ней взвешено и что составляет окружающую среду."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "root",
+    "checkedAt": "2026-09-10",
+    "scope": "All meanings, English/Russian contexts, explanations, tasks and variant/word-formation boundaries read in full. No material defects; primer wording refined in chunk06."
+  }
+}

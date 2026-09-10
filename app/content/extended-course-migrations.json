@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "migrations": [
+    {
+      "id": "2026-09-10-separate-transfer-audio-and-related-links",
+      "at": "2026-09-10T10:06:32+00:00",
+      "navigation": [
+        {
+          "id": "extended-c2-shakespeare-idioms",
+          "before": [
+            "path-idioms-in-context",
+            "path-semantic-prosody",
+            "book-vocabulary-advanced-093"
+          ],
+          "after": [
+            "path-idioms-context",
+            "path-semantic-prosody",
+            "book-vocabulary-advanced-093"
+          ]
+        },
+        {
+          "id": "extended-c1-sea-coast",
+          "before": [
+            "book-vocabulary-upper-023",
+            "book-vocabulary-advanced-028",
+            "path-hedging"
+          ],
+          "after": [
+            "book-vocabulary-upper-intermediate-023",
+            "book-vocabulary-advanced-028",
+            "path-hedging"
+          ]
+        },
+        {
+          "id": "extended-c2-built-environment",
+          "before": [
+            "book-vocabulary-advanced-018",
+            "book-vocabulary-upper-025",
+            "path-lexical-precision",
+            "path-hedging"
+          ],
+          "after": [
+            "book-vocabulary-advanced-018",
+            "book-vocabulary-upper-intermediate-025",
+            "path-lexical-precision",
+            "path-hedging"
+          ]
+        },
+        {
+          "id": "extended-c2-shakespeare-idioms",
+          "before": [
+            "path-idioms-in-context",
+            "path-semantic-prosody",
+            "book-vocabulary-advanced-093"
+          ],
+          "after": [
+            "path-idioms-context",
+            "path-semantic-prosody",
+            "book-vocabulary-advanced-093"
+          ]
+        },
+        {
+          "id": "extended-c1-sea-coast",
+          "before": [
+            "book-vocabulary-upper-023",
+            "book-vocabulary-advanced-028",
+            "path-hedging"
+          ],
+          "after": [
+            "book-vocabulary-upper-intermediate-023",
+            "book-vocabulary-advanced-028",
+            "path-hedging"
+          ]
+        },
+        {
+          "id": "extended-c2-built-environment",
+          "before": [
+            "book-vocabulary-advanced-018",
+            "book-vocabulary-upper-025",
+            "path-lexical-precision",
+            "path-hedging"
+          ],
+          "after": [
+            "book-vocabulary-advanced-018",
+            "book-vocabulary-upper-intermediate-025",
+            "path-lexical-precision",
+            "path-hedging"
+          ]
+        }
+      ],
+      "specs": [
+        {
+          "id": "extended-b1-listening",
+          "before": "bcfc92e2a9539240387372ead87da2d6951b7ccc665b182baddbd894fbbd2222",
+          "after": "a7d615433b4e75e96ea2b20a84de805e7e859eeb4dd5ce452b82022b76c0bb00"
+        },
+        {
+          "id": "extended-c2-shakespeare-idioms",
+          "before": "65e595c586a159498131fe7a64209cbbbfe5a2cac702e12757ff282a7f4f7c0c",
+          "after": "4f4fd8053a0ccee2e3261770d2b87dd3e4f3b5027d49a86a032148a9d9983d56"
+        },
+        {
+          "id": "extended-c1-sea-coast",
+          "before": "1b4a7f7cb87e276b3ffbd659e4a8f77843714bf3f93ac6d1f931ce2a98adf53d",
+          "after": "4b2d065b910686eb6f18c4018354b9e0726ac418c6a605d0e2429c2d5990b6b5"
+        },
+        {
+          "id": "extended-c2-built-environment",
+          "before": "b1ec29b16d86bc8a364c1299e65b01b3e5967d897c31951a17a8d1f2bb6641cb",
+          "after": "ca054bc423adc4526034a037ede268f9a5859df2d5c7146089e56ec95fa930da"
+        }
+      ],
+      "materialCountBefore": 124,
+      "materialCountAfter": 125,
+      "lessonChanges": [
+        {
+          "id": "extended-a1-registration",
+          "before": "f01f248dd48d948b26834109988ef5897258b34eaabb1b91ce329c76af926c9b",
+          "after": "ea6b58b0e653f3c07999a0223a721e9569cf24ec224d30e84d3986ea2e28ac43"
+        },
+        {
+          "id": "extended-b1-listening",
+          "before": "b1cfcbfa391602bd08b15c8ba5b3515f291e7fcfb27c1042268d2fef889a3b72",
+          "after": "e2107dec68fd957215e966ab21c70e01c597b61759f3874f85123d06d7e0b984"
+        },
+        {
+          "id": "extended-c2-shakespeare-idioms",
+          "before": "bd188de0634bf715177c1d8ca1686a3b27e05e79e06b06b9937c98682b984aa7",
+          "after": "64fb87544a75cb76484a3c89dfe17b81fa8167fca460cf8960dfd7b0aaa27204"
+        },
+        {
+          "id": "extended-c1-sea-coast",
+          "before": "322b18dba2e4c45ba279c92602f4b2f51660bafd1531532e9ddd4cee72c9b541",
+          "after": "ce885f523a1ee0f09969247827dbde1eda52ca9b29fa89c91997bc3c1ea33599"
+        },
+        {
+          "id": "extended-c2-built-environment",
+          "before": "da75e8884aca57a7c821a7f5e2403172a512d3d692bdcbf7efa0a1c14c8d35b2",
+          "after": "731160f68b8f849f5f6b0f27bad9a47dc8270a4e1293099f5f852dd6b6fb2460"
+        }
+      ]
+    }
+  ]
+}

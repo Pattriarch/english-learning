@@ -1,0 +1,2098 @@
+[
+  {
+    "id": "present",
+    "title": "Simple или continuous?",
+    "subtitle": "Как сказать, что происходит сейчас, а что — вообще",
+    "group": "Время и смысл",
+    "units": "Murphy · Units 1–4",
+    "goal": "Различать привычку, временную ситуацию и действие в процессе. Объяснять, почему выбран именно этот вид.",
+    "formula": "am / is / are + глагол с -ing",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Зачем в английском два настоящих",
+        "body": "В русском «я работаю» может означать и работу прямо сейчас, и постоянную занятость. В английском выбор показывает, как вы видите ситуацию. Present simple описывает привычку, стабильное положение или факт: I work here. Present continuous показывает разворачивающийся процесс или временную ситуацию: I’m working here this month. Работа не обязана происходить ровно в секунду разговора: временный проект тоже можно представить как процесс. Сначала решите, что хотите сообщить слушателю, и только потом выбирайте форму."
+      },
+      {
+        "title": "Из чего состоит is working",
+        "body": "В He is working слово is — вспомогательный глагол be: оно показывает настоящее время и согласуется с he. Working называет действие, рассматриваемое в процессе. Это одна глагольная конструкция, а не два независимых действия. Для I нужно am, для you/we/they — are. В отрицании not ставится после be: He isn’t working. В вопросе be выходит перед подлежащим: Is he working? В этой конструкции do не нужен. He working не образует полное сказуемое в стандартном английском."
+      },
+      {
+        "title": "Где проходит граница",
+        "body": "I usually work from home, but this week I’m working in the office: привычка противопоставлена временной ситуации. Know, believe, need, own обычно описывают состояние, поэтому I know, а не I’m knowing. Некоторые глаголы меняют смысл: I think you’re right — мнение; I’m thinking about it — обдумываю. Наречие now само по себе не заставляет использовать continuous: I understand now правильно. Слова-маркеры помогают, но решает смысл."
+      },
+      {
+        "title": "Продолжать — это тоже смысл",
+        "body": "He is continuing his research означает, что сейчас продолжается исследование; continuing — форма глагола continue в continuous. He continues his research тоже возможно: например, в повествовании или описании привычного поведения. Continuous не переводится одним универсальным русским словом: он задаёт взгляд на действие. Спросите себя: я описываю факт или показываю процесс изнутри?"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I work here.",
+        "ru": "Я здесь работаю.",
+        "why": "Сообщаю о своём месте работы как о факте."
+      },
+      {
+        "en": "I’m working here until Friday.",
+        "ru": "Я работаю здесь до пятницы.",
+        "why": "Ограниченная по времени ситуация."
+      },
+      {
+        "en": "She’s working on a new book.",
+        "ru": "Она работает над новой книгой.",
+        "why": "Проект в процессе, даже если сейчас она пьёт чай."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Обычно я работаю дома, но на этой неделе работаю в офисе.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I usually work from home, but this week I'm working in the office."
+        ],
+        "hint": "am / is / are + глагол с -ing",
+        "explanation": "Обычный распорядок — work; временное изменение — am working."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Не звони ему сейчас: он разговаривает с клиентом.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Don't call him now: he's talking to a client."
+        ],
+        "hint": "am / is / are + глагол с -ing",
+        "explanation": "Разговор идёт сейчас, поэтому is talking."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Ты работаешь над чем-нибудь интересным в последнее время?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Are you working on anything interesting these days?",
+          "Are you working on anything interesting at the moment?"
+        ],
+        "hint": "am / is / are + глагол с -ing",
+        "explanation": "Временный проект — are working. После вопросительного are следует you."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши правильно и сохрани смысл: She is knowing the answer, but she not tells us.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "She knows the answer, but she doesn't tell us."
+        ],
+        "hint": "am / is / are + глагол с -ing",
+        "explanation": "Know описывает состояние. В отрицании simple используем doesn’t + начальную форму tell."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Почему ты сегодня пользуешься моим ноутбуком?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Why are you using my laptop today?",
+          "Why are you using my laptop?"
+        ],
+        "hint": "am / is / are + глагол с -ing",
+        "explanation": "Сегодняшнюю временную ситуацию описывает continuous."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Напиши 5–7 предложений о своём обычном дне и о том, что временно изменилось на этой неделе. Упомяни также одно своё мнение.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "I usually start work at nine. This week I'm starting earlier because we're working on a new project. I often have lunch at home, but today I'm meeting a friend. I think the new routine is useful."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Стабильные привычки: simple. Временные изменения: continuous. Мнение I think не требует continuous. Не копируйте пример: факты должны быть вашими."
+      }
+    ]
+  },
+  {
+    "id": "past-story",
+    "title": "Рассказать, что случилось",
+    "subtitle": "Фон, событие и то, что произошло раньше",
+    "group": "Время и смысл",
+    "units": "Murphy · Units 5–6, 15–16",
+    "goal": "Строить понятный рассказ, связывая события во времени.",
+    "formula": "was / were doing → something happened → had done",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Фон и событие",
+        "body": "Past simple двигает историю вперёд: I opened the door and walked in. Past continuous помещает нас внутрь действия в конкретный момент: It was raining. Когда короткое событие происходит на фоне длительного, формы соединяются: I was cooking when the phone rang. Это не механическое правило «длинное — continuous»: I lived there for ten years — законченный факт за большой период."
+      },
+      {
+        "title": "Раньше прошлого",
+        "body": "Past perfect обозначает событие до другой прошлой точки: When I arrived, they had left. Когда я приехал, их уже не было. When I arrived, they left — уехали после моего приезда. Had одинаково для всех лиц; смысл действия передаёт третья форма. После того как порядок событий понятен, не нужно каждое предложение рассказа держать в past perfect."
+      },
+      {
+        "title": "Как проверить свой рассказ",
+        "body": "Нарисуйте мысленно временную линию: что было фоном, что случилось, что уже было завершено? Для вопросов в simple нужен did + начальная форма: When did it happen? В continuous вспомогательный глагол уже есть: What were you doing? Не пишите did happened. Если рассказываете об опыте жизни вообще, это уже другая перспектива — present perfect."
+      }
+    ],
+    "examples": [
+      {
+        "en": "I was leaving when she called.",
+        "ru": "Я уходил, когда она позвонила.",
+        "why": "Выход был в процессе."
+      },
+      {
+        "en": "I had left when she called.",
+        "ru": "Когда она позвонила, я уже ушёл.",
+        "why": "Выход завершился раньше звонка."
+      },
+      {
+        "en": "I left when she called.",
+        "ru": "Я ушёл, когда она позвонила.",
+        "why": "Звонок и последующий уход."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Я готовил ужин, когда отключилось электричество.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I was cooking dinner when the power went out."
+        ],
+        "hint": "was / were doing → something happened → had done",
+        "explanation": "Приготовление — фон; отключение — событие."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Когда мы добрались до станции, поезд уже ушёл.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "When we got to the station, the train had already left."
+        ],
+        "hint": "was / were doing → something happened → had done",
+        "explanation": "Поезд ушёл до нашего прибытия."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Вчера я работал до шести, а потом встретился с другом.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Yesterday I worked until six and then met a friend."
+        ],
+        "hint": "was / were doing → something happened → had done",
+        "explanation": "Цепочка завершённых событий в simple."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: What did you doing when I called?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "What were you doing when I called?"
+        ],
+        "hint": "was / were doing → something happened → had done",
+        "explanation": "Вопрос о процессе: were + subject + doing."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Она устала, потому что весь день работала.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "She was tired because she had been working all day."
+        ],
+        "hint": "was / were doing → something happened → had done",
+        "explanation": "Длительный процесс до прошлого результата — had been working."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Расскажи в 80–120 словах о неожиданной ситуации. Задай фон, опиши событие и объясни, что случилось до него.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "Last Friday I was walking home when a stranger called my name. I stopped and realized it was a friend I hadn't seen for years. He had moved back to town a week earlier. We went to a café and talked for an hour."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Читателю должен быть понятен порядок событий. Past perfect нужен там, где вы возвращаетесь к более раннему прошлому."
+      }
+    ]
+  },
+  {
+    "id": "perfect",
+    "title": "Опыт, результат и длительность",
+    "subtitle": "I did · I have done · I have been doing",
+    "group": "Время и смысл",
+    "units": "Murphy · Units 7–14",
+    "goal": "Выбирать между закрытым прошлым и связью с настоящим.",
+    "formula": "have / has + V3; have / has been + -ing",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Связь с настоящим",
+        "body": "Present perfect смотрит на прошлое из настоящего. I’ve lost my key может сообщать о текущей проблеме: ключа нет. I lost my key yesterday сообщает о событии в закончившемся периоде. Present perfect не является просто «усиленным прошлым». Когда указан закрытый момент — yesterday, in 2020, last Monday — выбирайте past simple. Сегодняшний период можно представить как продолжающийся или уже закрытый в контексте."
+      },
+      {
+        "title": "Процесс и количество",
+        "body": "I’ve read three chapters подчёркивает достигнутый объём. I’ve been reading for two hours подчёркивает длительность процесса: чтение может продолжаться или только что закончиться. С know обычно simple perfect: I’ve known her for years. Work и live часто допускают обе формы: I’ve worked here for five years / I’ve been working here for five years. Вторая сильнее выделяет процесс, но обе могут означать, что работа продолжается."
+      },
+      {
+        "title": "For и since; американский вариант",
+        "body": "For задаёт продолжительность: for three years. Since задаёт начальную точку: since 2022, since I moved here. Русское «я здесь работаю уже год» обычно требует present perfect, если год тянется до сейчас. В разговорном американском английском I just ate и Did you finish yet? могут быть естественными; это не повод считать их ошибками. Но finished yesterday не становится present perfect даже с already."
+      }
+    ],
+    "examples": [
+      {
+        "en": "I've been working here for two years.",
+        "ru": "Я работаю здесь уже два года.",
+        "why": "Процесс начался раньше и продолжается."
+      },
+      {
+        "en": "I've finished the report.",
+        "ru": "Я закончил отчёт.",
+        "why": "Результат актуален сейчас."
+      },
+      {
+        "en": "I finished it on Monday.",
+        "ru": "Я закончил его в понедельник.",
+        "why": "Указано закончившееся время."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Я работаю над этим проектом с понедельника.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I've been working on this project since Monday."
+        ],
+        "hint": "have / has + V3; have / has been + -ing",
+        "explanation": "Since — начальная точка; been working — длительность до настоящего."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Я отправил ему письмо вчера, но он ещё не ответил.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I sent him an email yesterday, but he hasn't replied yet."
+        ],
+        "hint": "have / has + V3; have / has been + -ing",
+        "explanation": "Вчера — simple; отсутствие ответа до сейчас — perfect."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Ты когда-нибудь выступал перед большой аудиторией?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Have you ever spoken in front of a large audience?"
+        ],
+        "hint": "have / has + V3; have / has been + -ing",
+        "explanation": "Опыт до настоящего момента."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: I have seen her yesterday.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I saw her yesterday."
+        ],
+        "hint": "have / has + V3; have / has been + -ing",
+        "explanation": "Yesterday задаёт закончившийся период."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Сегодня я написал три страницы.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I've written three pages today."
+        ],
+        "hint": "have / has + V3; have / has been + -ing",
+        "explanation": "Объём результата за продолжающийся сегодня период."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Напиши 6 предложений о навыке, который развиваешь: когда начал, как долго занимаешься, что уже сделал и что пока не получилось.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "I started learning to cook last year. I've been practicing almost every day since then. I've learned to make several soups, but I haven't tried baking bread yet. Yesterday I made dinner for my friends."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Отделите конкретное прошлое от опыта и длительности до сейчас."
+      }
+    ]
+  },
+  {
+    "id": "future",
+    "title": "Планы, решения и прогнозы",
+    "subtitle": "Будущее зависит от того, что ты имеешь в виду",
+    "group": "Время и смысл",
+    "units": "Murphy · Units 19–25",
+    "goal": "Обсуждать договорённости и планы; не ставить will автоматически.",
+    "formula": "will do · be going to do · am meeting",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Три разных сообщения",
+        "body": "I’ll help you — решение, обещание или предложение, часто возникшее сейчас. I’m going to learn Spanish — намерение, которое уже было. I’m meeting Anna tomorrow — конкретная договорённость. Это полезные смысловые ориентиры, а не абсолютные запреты: контекст может допускать несколько форм. Выбор показывает, как говорящий представляет будущее."
+      },
+      {
+        "title": "Расписание и условия",
+        "body": "The train leaves at seven — расписание в present simple. После when, as soon as и if в обычном придаточном о будущем используем настоящее: I’ll call you when I arrive. Не I’ll call when I will arrive. Но I don’t know when he will arrive — косвенный вопрос о времени прибытия, и will здесь возможно. Сначала определите роль when."
+      },
+      {
+        "title": "Внутри будущей точки",
+        "body": "This time tomorrow I’ll be flying to Rome — процесс в будущем. By Friday I’ll have finished the report — результат уже будет достигнут к сроку. Сравните at six и by six: первая фраза ставит событие в момент, вторая обозначает крайний срок. Future perfect полезен в планировании, но не обязателен в каждой фразе о дедлайне."
+      }
+    ],
+    "examples": [
+      {
+        "en": "I'll answer the door.",
+        "ru": "Я открою.",
+        "why": "Решение в момент звонка."
+      },
+      {
+        "en": "I'm seeing the dentist tomorrow.",
+        "ru": "Завтра у меня запись к стоматологу.",
+        "why": "Есть договорённость."
+      },
+      {
+        "en": "I'll call when I get home.",
+        "ru": "Позвоню, когда доберусь домой.",
+        "why": "В придаточном времени — настоящее."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Я позвоню тебе, как только узнаю результат.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'll call you as soon as I know the result."
+        ],
+        "hint": "will do · be going to do · am meeting",
+        "explanation": "As soon as вводит придаточное о будущем: know."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Мы встречаемся с заказчиком завтра в десять.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We're meeting the client at ten tomorrow."
+        ],
+        "hint": "will do · be going to do · am meeting",
+        "explanation": "Подтверждённая договорённость."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Посмотри на эти тучи. Сейчас пойдёт дождь.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Look at those clouds. It's going to rain."
+        ],
+        "hint": "will do · be going to do · am meeting",
+        "explanation": "Прогноз на основе наблюдаемых признаков."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: If I will have time, I will help you.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "If I have time, I'll help you."
+        ],
+        "hint": "will do · be going to do · am meeting",
+        "explanation": "В обычном условии о будущем после if — настоящее."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "К пятнице я закончу этот отчёт.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'll have finished this report by Friday."
+        ],
+        "hint": "will do · be going to do · am meeting",
+        "explanation": "Результат к будущему сроку."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Опиши планы на выходные: одно намерение, одну договорённость и обещание другу. Объясни, что сделаешь, если пойдёт дождь.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "I'm going to spend more time outside. I'm meeting a friend on Saturday morning. I'll help him choose a bicycle. If it rains, we'll visit a museum instead."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Используйте разные формы потому, что они передают разные смыслы."
+      }
+    ]
+  },
+  {
+    "id": "modals",
+    "title": "Обязанность, совет и догадка",
+    "subtitle": "Must · have to · should · might",
+    "group": "Точная речь",
+    "units": "Murphy · Units 26–37",
+    "goal": "Различать запрет, отсутствие необходимости и степень уверенности.",
+    "formula": "modal + начальная форма; must have + V3",
+    "level": "B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Необходимость и запрет",
+        "body": "Must и have to выражают необходимость; have to часто связано с правилами и обстоятельствами. Но это не жёсткое разделение на «внутреннее/внешнее». Mustn’t означает запрет, а don’t have to — отсутствие необходимости. You mustn’t tell anyone = никому нельзя говорить. You don’t have to tell anyone = можешь не говорить. Эта разница меняет реальное действие слушателя."
+      },
+      {
+        "title": "Совет и возможность",
+        "body": "Should даёт совет, might и may — возможность. Could может предлагать вариант: We could take a taxi. После модального глагола нет to и окончания -s: She might come. Для прошлого часто нужен другой оборот: I had to leave, а не musted. Was able to удобно подчёркивает, что удалось справиться в конкретной ситуации."
+      },
+      {
+        "title": "Догадки о прошлом",
+        "body": "He must have forgotten — я делаю уверенный вывод о прошлом. He might have forgotten — допускаю возможность. He can’t have forgotten — считаю это невозможным. Это не обязанность. Should have done указывает на желательное, но не сделанное действие: You should have called. Различайте степень уверенности и оценку поведения."
+      }
+    ],
+    "examples": [
+      {
+        "en": "You don't have to come.",
+        "ru": "Приходить необязательно.",
+        "why": "Есть выбор."
+      },
+      {
+        "en": "You mustn't park here.",
+        "ru": "Здесь запрещено парковаться.",
+        "why": "Выбора нет."
+      },
+      {
+        "en": "She might have missed the train.",
+        "ru": "Возможно, она опоздала на поезд.",
+        "why": "Неуверенная догадка о прошлом."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Тебе не обязательно платить сегодня.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "You don't have to pay today."
+        ],
+        "hint": "modal + начальная форма; must have + V3",
+        "explanation": "Отсутствие обязанности — don’t have to."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Здесь нельзя фотографировать.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "You mustn't take photos here."
+        ],
+        "hint": "modal + начальная форма; must have + V3",
+        "explanation": "Запрет выражается must not / mustn’t. Не путайте с don’t have to: эта форма оставила бы человеку возможность фотографировать."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Возможно, он забыл о встрече.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "He might have forgotten about the meeting."
+        ],
+        "hint": "modal + начальная форма; must have + V3",
+        "explanation": "Предположение о прошлом: might have + V3."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: She should to talk to him.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "She should talk to him."
+        ],
+        "hint": "modal + начальная форма; must have + V3",
+        "explanation": "После should — начальная форма без to."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Тебе стоило предупредить меня раньше.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "You should have warned me earlier."
+        ],
+        "hint": "modal + начальная форма; must have + V3",
+        "explanation": "Совет или сожаление о несделанном в прошлом."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Друг перегружен работой. Дай 3 мягких совета, предложи 2 возможных решения и объясни, чего ему делать не обязательно.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "You should talk to your manager. You could ask a colleague for help. You don't have to answer every email immediately. You might feel better after taking a proper break."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Совет не должен звучать как запрет или приказ, если это не ваша цель."
+      }
+    ]
+  },
+  {
+    "id": "conditionals",
+    "title": "Если бы всё было иначе",
+    "subtitle": "Реальные условия, воображение и сожаление",
+    "group": "Точная речь",
+    "units": "Murphy · Units 38–41",
+    "goal": "Обсуждать последствия решений и альтернативное прошлое.",
+    "formula": "if + past → would; if + had done → would have done",
+    "level": "B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Реальная возможность",
+        "body": "If I have time, I’ll help — условие рассматривается как реальное будущее. If you heat water enough, it boils — общая закономерность. Форму выбирают по смыслу: привычное следствие отличается от конкретного будущего результата. После if не нужен will для простого будущего условия."
+      },
+      {
+        "title": "Воображаемое настоящее",
+        "body": "If I had more time, I would travel — времени сейчас недостаточно или я представляю альтернативу. Past в had здесь создаёт дистанцию от реальности, а не указывает на вчера. If I were you — устойчивый способ дать совет; was тоже встречается в менее формальной речи с некоторыми подлежащими. Не называйте всякое was после if ошибкой."
+      },
+      {
+        "title": "Прошлое и смешанные условия",
+        "body": "If I had left earlier, I would have caught the train — прошлое уже нельзя изменить. Had left обозначает нереальное прошлое условие; would have caught — несостоявшийся результат. If I had studied medicine, I would be a doctor now — условие в прошлом, результат сейчас. Не заставляйте две части жить в одном времени, если сам смысл связывает разные периоды."
+      }
+    ],
+    "examples": [
+      {
+        "en": "If I knew, I would tell you.",
+        "ru": "Если бы я знал, я бы сказал.",
+        "why": "Воображаемая ситуация сейчас."
+      },
+      {
+        "en": "If I had known, I would have told you.",
+        "ru": "Если бы я тогда знал, я бы сказал.",
+        "why": "Альтернативное прошлое."
+      },
+      {
+        "en": "If I finish early, I'll call.",
+        "ru": "Если закончу рано, позвоню.",
+        "why": "Реальная возможность."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Если я закончу раньше, я тебе помогу.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "If I finish early, I'll help you."
+        ],
+        "hint": "if + past → would; if + had done → would have done",
+        "explanation": "Реальное условие о будущем."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Если бы у меня было больше времени, я бы чаще готовил.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "If I had more time, I would cook more often."
+        ],
+        "hint": "if + past → would; if + had done → would have done",
+        "explanation": "Нереальное настоящее: past + would."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Если бы ты мне сказал, я бы пришёл.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "If you had told me, I would have come."
+        ],
+        "hint": "if + past → would; if + had done → would have done",
+        "explanation": "Несостоявшееся прошлое."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: If I would know the answer, I would tell you.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "If I knew the answer, I would tell you."
+        ],
+        "hint": "if + past → would; if + had done → would have done",
+        "explanation": "В обычном second conditional would стоит в результате."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Жаль, что я не умею водить.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I wish I could drive."
+        ],
+        "hint": "if + past → would; if + had done → would have done",
+        "explanation": "Wish + past/could для желаемого изменения настоящего."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Опиши одно реальное решение на завтра, одну воображаемую перемену в жизни и одно сожаление о прошлом. Объясни последствия.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "If I finish work early tomorrow, I'll go swimming. If I lived near the sea, I would swim every day. If I had learned to swim as a child, I would have enjoyed our family holidays more."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "У каждой ситуации свой статус: возможное будущее, альтернативное настоящее, прошлое."
+      }
+    ]
+  },
+  {
+    "id": "articles",
+    "title": "A, the или без артикля",
+    "subtitle": "Как объяснить слушателю, о каком предмете речь",
+    "group": "Точность и структура",
+    "units": "Murphy · Units 69–81",
+    "goal": "Делать предметы и количество понятными слушателю.",
+    "formula": "a thing → the thing; information / advice — без a",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Артикль — инструкция слушателю",
+        "body": "A/an вводит одного представителя класса: I bought a lamp. The означает, что слушатель может определить нужный объект: The lamp is in my room. «Первое упоминание — a» лишь частный случай. Close the door возможно без предшествующего упоминания, если дверь понятна из ситуации. An зависит от звука: an hour, но a university."
+      },
+      {
+        "title": "Исчисляемость меняет форму",
+        "body": "Information, advice, equipment обычно неисчисляемы: some advice, a piece of information. Нельзя механически переносить русское «совет» в an advice. Существительное в единственном числе, которое считается, обычно требует определителя: a plan, the plan, my plan. Во множественном числе обобщение часто идёт без артикля: Books can change lives."
+      },
+      {
+        "title": "Общее и конкретное",
+        "body": "I like coffee — напиток вообще. The coffee you made is great — конкретный кофе. I went to school — учился; I went to the school — пришёл в конкретное здание. Такие выражения нужно рассматривать в контексте, а не запрещать the со словом school во всех случаях. Начните с вопроса: можно ли слушателю определить именно этот предмет?"
+      }
+    ],
+    "examples": [
+      {
+        "en": "I need advice.",
+        "ru": "Мне нужен совет.",
+        "why": "Advice не считается отдельными штуками без piece."
+      },
+      {
+        "en": "I bought a book. The book was expensive.",
+        "ru": "Я купил книгу. Книга была дорогой.",
+        "why": "Теперь слушатель знает, о какой книге речь."
+      },
+      {
+        "en": "The water in this bottle is warm.",
+        "ru": "Вода в этой бутылке тёплая.",
+        "why": "Конкретная вода."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Мне нужен совет по поводу новой работы.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I need some advice about my new job."
+        ],
+        "hint": "a thing → the thing; information / advice — без a",
+        "explanation": "Advice — неисчисляемое."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Я увидел собаку. Собака бежала к станции.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I saw a dog. The dog was running towards the station."
+        ],
+        "hint": "a thing → the thing; information / advice — без a",
+        "explanation": "Новый объект становится определённым."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Информация, которую ты прислал, оказалась полезной.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "The information you sent was useful."
+        ],
+        "hint": "a thing → the thing; information / advice — без a",
+        "explanation": "Определённая информация; was в единственном числе."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: She gave me an useful advice.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "She gave me some useful advice."
+        ],
+        "hint": "a thing → the thing; information / advice — без a",
+        "explanation": "Useful начинается с согласного звука, но главное — advice неисчисляемо."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Я люблю книги, которые заставляют меня думать.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I like books that make me think."
+        ],
+        "hint": "a thing → the thing; information / advice — без a",
+        "explanation": "Обобщаем класс книг, не выделяем известный набор."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Опиши комнату, которую видишь впервые, а затем скажи, какие конкретные вещи тебе понравились. 6–8 предложений.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "There is a desk by the window. The desk looks old, but the chair is comfortable. There are several books on a shelf. I like the light in this room."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Сначала вводите объекты, потом делайте отсылки к уже понятным предметам."
+      }
+    ]
+  },
+  {
+    "id": "questions",
+    "title": "Задавать вопросы естественно",
+    "subtitle": "Прямые вопросы, уточнения и вежливые просьбы",
+    "group": "Точность и структура",
+    "units": "Murphy · Units 49–52",
+    "goal": "Спрашивать без русского порядка слов и без лишнего did.",
+    "formula": "Where does she work? → Do you know where she works?",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Кто помогает построить вопрос",
+        "body": "Если в сказуемом есть be, have как вспомогательный или модальный глагол, переставьте его перед подлежащим: Are you ready? Have you finished? Can she come? Для present/past simple с обычным глаголом нужен do/does/did, а сам глагол возвращается в начальную форму: Where does she work? Не where does she works."
+      },
+      {
+        "title": "Вложенный вопрос",
+        "body": "Do you know where she works? состоит из общего вопроса Do you know и вложенной части с прямым порядком слов where she works. То же после Could you tell me: Could you tell me when the meeting starts? Для вопроса без вопросительного слова используйте if/whether: Do you know if he is coming?"
+      },
+      {
+        "title": "Вопрос к подлежащему и уточнение",
+        "body": "Who called you? — who само занимает место подлежащего, поэтому did не нужен в нейтральном вопросе. Who did you call? спрашивает об объекте, подлежащее you остаётся. Для уточнения: What do you mean by…? Could you say that again? Эти фразы помогают продолжать разговор, даже если часть сказанного потерялась."
+      }
+    ],
+    "examples": [
+      {
+        "en": "Who called you?",
+        "ru": "Кто тебе позвонил?",
+        "why": "Вопрос к действующему лицу."
+      },
+      {
+        "en": "Who did you call?",
+        "ru": "Кому ты позвонил?",
+        "why": "Вопрос к объекту."
+      },
+      {
+        "en": "Could you tell me where the station is?",
+        "ru": "Не подскажете, где вокзал?",
+        "why": "Внутри — прямой порядок."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Ты знаешь, во сколько начинается встреча?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Do you know what time the meeting starts?"
+        ],
+        "hint": "Where does she work? → Do you know where she works?",
+        "explanation": "Starts сохраняет -s во вложенной части."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Кто тебе это сказал?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Who told you that?"
+        ],
+        "hint": "Where does she work? → Do you know where she works?",
+        "explanation": "Who само является подлежащим: спрашиваем, кто выполнил действие. В нейтральном вопросе did не добавляется."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Не мог бы ты объяснить, что означает это слово?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Could you explain what this word means?"
+        ],
+        "hint": "Where does she work? → Do you know where she works?",
+        "explanation": "Во вложенном вопросе this word means."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: Can you tell me where is the nearest bank?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Can you tell me where the nearest bank is?"
+        ],
+        "hint": "Where does she work? → Do you know where she works?",
+        "explanation": "После tell me — прямой порядок слов."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "С кем ты разговаривал вчера?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Who did you talk to yesterday?"
+        ],
+        "hint": "Where does she work? → Do you know where she works?",
+        "explanation": "Обычный вопрос в past simple; to может оставаться в конце."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Ты выбираешь языковой курс. Напиши 6 вопросов организатору: о расписании, размере группы, преподавателе и домашних заданиях. Не менее двух вопросов сделай косвенными.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "How many students are in each group? Could you tell me how long each lesson lasts? Do you know whether the teacher gives individual feedback? What materials do you use?"
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Меняйте порядок слов в зависимости от того, прямой это вопрос или вложенный."
+      }
+    ]
+  },
+  {
+    "id": "passive",
+    "title": "Когда важен результат",
+    "subtitle": "Пассив и передача чужой речи",
+    "group": "Точность и структура",
+    "units": "Murphy · Units 42–48",
+    "goal": "Описывать процессы и пересказывать сказанное.",
+    "formula": "be + V3; she said (that)…",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Что меняется в пассиве",
+        "body": "Someone repaired my laptop → My laptop was repaired. В фокусе ноутбук, а исполнитель может быть неизвестен или неважен. Время показывает be: is repaired, was repaired, has been repaired, will be repaired. Третья форма основного глагола не меняется. Не используйте пассив просто потому, что предложение выглядит «официальнее»: актив часто яснее."
+      },
+      {
+        "title": "Процесс и результат",
+        "body": "The road is being repaired — работы идут сейчас. The road has been repaired — есть результат. В being repaired слово being передаёт continuous для be, а repaired остаётся V3. Две конструкции отвечают на разные вопросы: что происходит и что уже сделано. Have something done обозначает организацию услуги: I had my hair cut."
+      },
+      {
+        "title": "Пересказ",
+        "body": "She said, “I am tired” → She said she was tired. Перенос времён часто отражает прошлую точку зрения, но не обязателен, если сообщение всё ещё верно и говорящий это подчёркивает. Tell обычно требует адресата: She told me. Say — нет: She said. Просьбу можно передать через asked me to: He asked me to wait."
+      }
+    ],
+    "examples": [
+      {
+        "en": "The report is being checked.",
+        "ru": "Отчёт сейчас проверяют.",
+        "why": "Процесс проверки."
+      },
+      {
+        "en": "The report has been checked.",
+        "ru": "Отчёт уже проверен.",
+        "why": "Готовый результат."
+      },
+      {
+        "en": "She told me she needed help.",
+        "ru": "Она сказала мне, что ей нужна помощь.",
+        "why": "Пересказ из прошлой точки зрения."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Мой велосипед украли вчера.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "My bike was stolen yesterday."
+        ],
+        "hint": "be + V3; she said (that)…",
+        "explanation": "Was + stolen, исполнитель неизвестен."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Новый мост сейчас строят.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "A new bridge is being built."
+        ],
+        "hint": "be + V3; she said (that)…",
+        "explanation": "Строительство сейчас в процессе. Для Present Continuous Passive используем is being + третью форму built."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Она сказала мне, что опоздает.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "She told me she would be late."
+        ],
+        "hint": "be + V3; she said (that)…",
+        "explanation": "Told me; would как будущее из прошлого."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: He said me to wait.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "He told me to wait."
+        ],
+        "hint": "be + V3; she said (that)…",
+        "explanation": "Tell + адресат + to do."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Документы уже отправлены.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "The documents have already been sent."
+        ],
+        "hint": "be + V3; she said (that)…",
+        "explanation": "Результат: have been sent."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Напиши рабочее обновление: что сделано, что сейчас проверяют, что будет готово завтра и что сообщил коллега. 70–100 слов.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "The first draft has been completed. It is being reviewed by the team. The final version will be sent tomorrow. My colleague said she would check the figures before lunch."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Сочетайте пассивные формы по времени и не теряйте адресата после tell."
+      }
+    ]
+  },
+  {
+    "id": "verb-patterns",
+    "title": "Doing или to do?",
+    "subtitle": "Почему после разных слов меняется форма",
+    "group": "Точность и структура",
+    "units": "Murphy · Units 53–68",
+    "goal": "Использовать частые сочетания и понимать смену смысла.",
+    "formula": "enjoy doing · decide to do · look forward to doing",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Учите сочетание целиком",
+        "body": "После enjoy, avoid, finish обычно идёт -ing. После decide, plan, hope — to + глагол. Это свойство сочетания, а не перевод русского инфинитива. Учите avoid making mistakes и decide to leave вместе с примером. После предлога глагол обычно принимает -ing: without asking, interested in learning."
+      },
+      {
+        "title": "To не всегда инфинитив",
+        "body": "В look forward to и be used to слово to — предлог: I look forward to hearing from you. I’m used to getting up early означает, что это привычно. I used to get up early — так было раньше, теперь ситуация изменилась. Похожие буквы скрывают разные конструкции."
+      },
+      {
+        "title": "Когда форма меняет смысл",
+        "body": "Remember to call — не забудь совершить звонок. Remember calling — помнишь состоявшийся звонок. Stop talking — прекратить разговор. Stop to talk — остановить другое действие, чтобы поговорить. Try restarting — проверь метод; try to restart — постарайся выполнить действие. Выбор формы здесь влияет на последовательность и цель действий."
+      }
+    ],
+    "examples": [
+      {
+        "en": "I stopped drinking coffee.",
+        "ru": "Я перестал пить кофе.",
+        "why": "Прекратил действие."
+      },
+      {
+        "en": "I stopped to drink some coffee.",
+        "ru": "Я остановился, чтобы выпить кофе.",
+        "why": "Цель остановки."
+      },
+      {
+        "en": "I'm used to working late.",
+        "ru": "Я привык работать допоздна.",
+        "why": "To — предлог."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Я с нетерпением жду встречи с тобой.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'm looking forward to seeing you."
+        ],
+        "hint": "enjoy doing · decide to do · look forward to doing",
+        "explanation": "После to в look forward to нужна -ing форма."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Не забудь запереть дверь.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Remember to lock the door."
+        ],
+        "hint": "enjoy doing · decide to do · look forward to doing",
+        "explanation": "Действие ещё предстоит."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Я помню, как запирал дверь.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I remember locking the door."
+        ],
+        "hint": "enjoy doing · decide to do · look forward to doing",
+        "explanation": "Воспоминание о событии."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: I enjoy to learn languages.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I enjoy learning languages."
+        ],
+        "hint": "enjoy doing · decide to do · look forward to doing",
+        "explanation": "После enjoy, когда называем занятие, употребляем форму на -ing: enjoy learning. Русский инфинитив не означает, что в английском всегда нужен to."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Раньше я работал ночью, но теперь привык вставать рано.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I used to work at night, but now I'm used to getting up early."
+        ],
+        "hint": "enjoy doing · decide to do · look forward to doing",
+        "explanation": "Ранняя привычка used to do и текущая адаптация be used to doing."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Опиши две старые привычки, две вещи, к которым ты привык сейчас, и два решения на будущее.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "I used to stay up late. Now I'm used to getting up at seven. I enjoy having a quiet morning, and I've decided to spend less time on my phone."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Используйте устойчивые формы, а не один шаблон для всех русских инфинитивов."
+      }
+    ]
+  },
+  {
+    "id": "linking",
+    "title": "Соединять мысли",
+    "subtitle": "Причина, контраст, относительные предложения",
+    "group": "Точная речь",
+    "units": "Murphy · Units 92–96, 113–120",
+    "goal": "Писать связный абзац с ясной логикой.",
+    "formula": "although + предложение; despite + существительное / -ing",
+    "level": "B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Логика важнее длинных слов",
+        "body": "Because объясняет причину, so вводит результат, although создаёт контраст. Although I was tired, I kept working. Не нужно добавлять but ко второй части такой конструкции. However обычно связывает отдельные предложения и требует пунктуации: I was tired. However, I kept working. Не вставляйте связку, если отношения между мыслями не подходят."
+      },
+      {
+        "title": "Despite и относительные части",
+        "body": "После despite/in spite of можно поставить существительное или -ing: despite the rain, despite feeling tired. Для полного предложения нужен оборот despite the fact that. Relative clauses уточняют предмет: the book that I bought. В неограничительном добавочном сообщении используйте запятые: My brother, who lives in Berlin, is visiting."
+      },
+      {
+        "title": "Что убрать, чтобы стало яснее",
+        "body": "Избегайте слишком длинных цепочек с and. У каждого абзаца должна быть одна основная мысль, объяснение и пример. Which в добавочной части может относиться ко всему предыдущему сообщению: He apologized, which surprised me. Не путайте who для людей и which для вещей в типичных относительных конструкциях."
+      }
+    ],
+    "examples": [
+      {
+        "en": "Although it was raining, we went out.",
+        "ru": "Хотя шёл дождь, мы вышли.",
+        "why": "После although — целое предложение."
+      },
+      {
+        "en": "Despite the rain, we went out.",
+        "ru": "Несмотря на дождь, мы вышли.",
+        "why": "После despite — существительное."
+      },
+      {
+        "en": "That's the person who helped me.",
+        "ru": "Это тот человек, который мне помог.",
+        "why": "Уточняем, кого имеем в виду."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Хотя было поздно, мы решили продолжить.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Although it was late, we decided to continue."
+        ],
+        "hint": "although + предложение; despite + существительное / -ing",
+        "explanation": "Although вводит полную часть предложения."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Несмотря на усталость, она закончила отчёт.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Despite being tired, she finished the report."
+        ],
+        "hint": "although + предложение; despite + существительное / -ing",
+        "explanation": "Despite — предлог: после него подойдёт существительное или -ing. Поэтому despite being tired; для полного предложения можно сказать although she was tired."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Это приложение, о котором я тебе говорил.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "This is the app I told you about."
+        ],
+        "hint": "although + предложение; despite + существительное / -ing",
+        "explanation": "Относительное местоимение-объект можно опустить."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: Although it was expensive, but I bought it.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Although it was expensive, I bought it."
+        ],
+        "hint": "although + предложение; despite + существительное / -ing",
+        "explanation": "Не дублируйте although союзом but."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Он извинился, что меня удивило.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "He apologized, which surprised me."
+        ],
+        "hint": "although + предложение; despite + существительное / -ing",
+        "explanation": "Which отсылает ко всему факту извинения."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Напиши 100–140 слов: стоит ли работать из дома? Дай позицию, два аргумента, возражение и вывод. Используй конкретный пример.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "Working from home can save a lot of time because there is no commute. Although it can be lonely, regular calls help people stay connected. In my view, a mixed schedule works best because it combines focus with personal contact."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Оценивается логика и понятность аргументации; связки должны соответствовать смыслу."
+      }
+    ]
+  },
+  {
+    "id": "comparison",
+    "title": "Сравнивать и уточнять количество",
+    "subtitle": "Enough · too · fewer · less",
+    "group": "Точная речь",
+    "units": "Murphy · Units 87–91, 105–112",
+    "goal": "Сравнивать варианты и объяснять, чего достаточно.",
+    "formula": "much better · not as…as · enough time · good enough",
+    "level": "B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Сравнение",
+        "body": "Короткие прилагательные обычно получают -er, длинные — more: cheaper, more reliable. Good → better, bad → worse. Усилить сравнение можно much, far, a lot, slightly: much better, slightly cheaper. More better не нужен. As…as сравнивает равенство признака; not as…as показывает недостаточную степень."
+      },
+      {
+        "title": "Количество и достаточность",
+        "body": "Many/few — с исчисляемым множественным, much/little — с неисчисляемым. A few friends значит несколько, few friends — мало и недостаточно с точки зрения говорящего. A little time — немного времени есть; little time — почти нет. Enough стоит перед существительным, но после прилагательного: enough money, old enough."
+      },
+      {
+        "title": "Too и нормы живой речи",
+        "body": "Too означает избыток, создающий проблему: too expensive to buy. Very expensive просто усиливает признак. Fewer обычно относится к числу отдельных вещей, less — к объёму. В живой речи less встречается и с исчисляемыми; при нейтральном учебном письме можно предпочесть fewer, но не объявлять каждое разговорное less грубой ошибкой."
+      }
+    ],
+    "examples": [
+      {
+        "en": "This one is much cheaper.",
+        "ru": "Этот намного дешевле.",
+        "why": "Much усиливает сравнительную степень."
+      },
+      {
+        "en": "It's not warm enough.",
+        "ru": "Недостаточно тепло.",
+        "why": "Enough после прилагательного."
+      },
+      {
+        "en": "We have a little time.",
+        "ru": "У нас есть немного времени.",
+        "why": "Некоторое время всё-таки есть."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Этот вариант гораздо надёжнее, но немного дороже.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "This option is much more reliable but slightly more expensive."
+        ],
+        "hint": "much better · not as…as · enough time · good enough",
+        "explanation": "Much/slightly показывают степень различия."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "У нас недостаточно времени, чтобы обсудить всё.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We don't have enough time to discuss everything."
+        ],
+        "hint": "much better · not as…as · enough time · good enough",
+        "explanation": "Enough располагается перед существительным: enough time. После прилагательного порядок другой: fast enough."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Этот ноутбук не такой тяжёлый, как мой.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "This laptop isn't as heavy as mine."
+        ],
+        "hint": "much better · not as…as · enough time · good enough",
+        "explanation": "Отрицательное сравнение as…as."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: This solution is more better.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "This solution is better."
+        ],
+        "hint": "much better · not as…as · enough time · good enough",
+        "explanation": "Better уже сравнительная форма."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "В комнате было слишком много людей.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "There were too many people in the room."
+        ],
+        "hint": "much better · not as…as · enough time · good enough",
+        "explanation": "Too many для исчисляемого множественного people."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Сравни два города, приложения или способа обучения. Упомяни цену, удобство, один недостаток и свой выбор. 80–120 слов.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "The first course is cheaper, but the second offers much more speaking practice. Neither is perfect. The first doesn't provide enough feedback, while the second is too intensive for my current schedule."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Не ограничивайтесь перечислением признаков: объясните, почему различия влияют на выбор."
+      }
+    ]
+  },
+  {
+    "id": "prepositions",
+    "title": "Предлоги в живых фразах",
+    "subtitle": "Зависимости, место, время и движение",
+    "group": "Словарь в контексте",
+    "units": "Murphy · Units 121–136",
+    "goal": "Не переводить русский предлог буквально; запоминать сочетания.",
+    "formula": "depend on · interested in · arrive at / in",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Готовые связи",
+        "body": "Depend on, interested in, good at, responsible for — сочетания, которые полезно хранить в памяти целиком. Русский предлог не подсказывает английский надёжно. Discuss something обходится без about, а talk about something требует предлога. Listen to someone включает to; hear someone — нет."
+      },
+      {
+        "title": "Место и движение",
+        "body": "At может представлять место как точку или деятельность, in — как пространство, on — как поверхность. Arrive in a city/country, arrive at a station/building, но arrive home. To часто описывает направление: go to the office. In/into различают местоположение и движение внутрь: in the room / walk into the room."
+      },
+      {
+        "title": "Время",
+        "body": "At six, on Monday, in September — базовые ориентиры масштаба времени. Но устойчивые случаи нужно учить отдельно: at night, in the morning. После last, next, this, every предлог часто не нужен: next week. By Friday — не позже пятницы; until Friday — действие продолжается до пятницы. Это разные временные отношения."
+      }
+    ],
+    "examples": [
+      {
+        "en": "It depends on the weather.",
+        "ru": "Это зависит от погоды.",
+        "why": "Depend сочетается с on."
+      },
+      {
+        "en": "Send it by Friday.",
+        "ru": "Отправь не позже пятницы.",
+        "why": "Крайний срок."
+      },
+      {
+        "en": "Stay until Friday.",
+        "ru": "Останься до пятницы.",
+        "why": "Продолжение действия."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Это зависит от того, сколько времени у нас есть.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "It depends on how much time we have."
+        ],
+        "hint": "depend on · interested in · arrive at / in",
+        "explanation": "Depend on + вложенная часть."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Мне интересно изучать языки.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'm interested in learning languages."
+        ],
+        "hint": "depend on · interested in · arrive at / in",
+        "explanation": "Interested in + -ing."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Мы приехали в Лондон в понедельник.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We arrived in London on Monday."
+        ],
+        "hint": "depend on · interested in · arrive at / in",
+        "explanation": "Город — in, день — on."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: We discussed about the problem.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We discussed the problem."
+        ],
+        "hint": "depend on · interested in · arrive at / in",
+        "explanation": "После discuss прямое дополнение."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Я буду в офисе до шести.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'll be in the office until six."
+        ],
+        "hint": "depend on · interested in · arrive at / in",
+        "explanation": "Until обозначает продолжительность пребывания."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Опиши путь на работу или в любимое место, свой график и одну ответственность. 6–8 предложений.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "I usually arrive at the office at nine. I'm responsible for checking the reports. We discuss our plans in the morning, and I normally stay until six."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Проверяйте сочетание вместе с существительным или глаголом, а не отдельно взятый предлог."
+      }
+    ]
+  },
+  {
+    "id": "collocations",
+    "title": "Слова, которые работают вместе",
+    "subtitle": "Make a decision · take responsibility",
+    "group": "Словарь в контексте",
+    "units": "English Collocations in Use · Intermediate",
+    "goal": "Хранить и извлекать словосочетания вместо отдельных переводов.",
+    "formula": "make progress · meet a deadline · raise a concern",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Почему правильные слова звучат чуждо",
+        "body": "Слово может быть переведено верно, но сочетание — непривычным. Make a decision, do research, take a break, pay attention, meet a deadline принято употреблять вместе. Не пытайтесь вывести все сочетания из одной логики make/do. Учите смысловую ситуацию и типичный кусок фразы."
+      },
+      {
+        "title": "Строим активный словарь",
+        "body": "Для каждой новой единицы запишите русскую мысль на лицевой стороне и английское сочетание в предложении на обратной. «Уложиться в срок» → meet the deadline. Затем создайте свой пример, вопрос и отрицание. Узнавание английской стороны ещё не означает, что вы способны произнести фразу без подсказки."
+      },
+      {
+        "title": "Контекст и регистр",
+        "body": "Raise a concern — обозначить проблему или опасение в рабочем разговоре. Make an effort — приложить усилие. Strong coffee, heavy rain, a high salary показывают, что русское «сильный/большой» не переводится одним прилагательным везде. Для более разговорного варианта важно сохранять смысл и учитывать собеседника."
+      }
+    ],
+    "examples": [
+      {
+        "en": "We need to make a decision.",
+        "ru": "Нам нужно принять решение.",
+        "why": "Make a decision — устойчивое сочетание."
+      },
+      {
+        "en": "We're making steady progress.",
+        "ru": "Мы стабильно продвигаемся.",
+        "why": "Make progress; progress неисчисляемо."
+      },
+      {
+        "en": "She raised an important concern.",
+        "ru": "Она высказала важное опасение.",
+        "why": "Raise a concern в рабочем общении."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Нам нужно принять решение до пятницы.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We need to make a decision by Friday."
+        ],
+        "hint": "make progress · meet a deadline · raise a concern",
+        "explanation": "Make a decision; by — крайний срок."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Несмотря на сложности, мы добились заметного прогресса.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Despite the difficulties, we've made significant progress."
+        ],
+        "hint": "make progress · meet a deadline · raise a concern",
+        "explanation": "Make progress; без a перед progress."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Я не уверен, что мы уложимся в срок.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'm not sure we'll meet the deadline."
+        ],
+        "hint": "make progress · meet a deadline · raise a concern",
+        "explanation": "Meet a deadline — закончить вовремя."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: I did a mistake and need to do a decision.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I made a mistake and need to make a decision."
+        ],
+        "hint": "make progress · meet a deadline · raise a concern",
+        "explanation": "Make a mistake / make a decision."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Спасибо, что взял на себя ответственность.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Thank you for taking responsibility."
+        ],
+        "hint": "make progress · meet a deadline · raise a concern",
+        "explanation": "Take responsibility; после for — taking."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Напиши рабочее сообщение о сложном проекте. Используй 5 сочетаний из темы, предложи следующий шаг и попроси обратную связь.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "We've made good progress, but I'm worried we may not meet the deadline. We need to make a decision about the remaining tasks. I'm happy to take responsibility for the final review."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Устойчивые сочетания должны помогать сообщению, а не быть вставлены ради количества."
+      }
+    ]
+  },
+  {
+    "id": "phrasal",
+    "title": "Фразовые глаголы без зубрёжки",
+    "subtitle": "Figure out · put off · come up with",
+    "group": "Словарь в контексте",
+    "units": "English Phrasal Verbs in Use · Intermediate",
+    "goal": "Понимать фразовый глагол в ситуации и размещать дополнение.",
+    "formula": "figure it out · put it off · come up with an idea",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Одна смысловая единица",
+        "body": "Figure out — разобраться/найти решение; put off — отложить; run out of — израсходовать запас; come up with — придумать. Значение целого не всегда равно сумме слов. Нужен контекст: The meeting was called off = встречу отменили. Call someone back = перезвонить."
+      },
+      {
+        "title": "Где стоит местоимение",
+        "body": "У разделяемых глаголов существительное часто допускает обе позиции: turn off the light / turn the light off. Короткое местоимение ставится внутрь: turn it off, figure it out, put it off. У неразделяемых сочетаний части остаются вместе: look after him, run into her. Запоминайте модель вместе с глаголом."
+      },
+      {
+        "title": "От узнавания к использованию",
+        "body": "Не храните десять переводов get в одной карточке. Делайте одну ситуацию на карточку: «Я случайно встретил старого друга» → I ran into an old friend. Добавьте кадр или личную ассоциацию. Потом измените лицо, время и объект: Have you figured it out? We haven’t figured it out yet. Это тренирует продуктивное владение."
+      }
+    ],
+    "examples": [
+      {
+        "en": "We ran out of time.",
+        "ru": "У нас закончилось время.",
+        "why": "Запас исчерпан."
+      },
+      {
+        "en": "I'll look into it.",
+        "ru": "Я разберусь с этим / изучу вопрос.",
+        "why": "Обещание проверить обстоятельства."
+      },
+      {
+        "en": "Don't put it off.",
+        "ru": "Не откладывай это.",
+        "why": "It внутри разделяемого сочетания."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Я пока не понял, как это работает.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I haven't figured out how it works yet."
+        ],
+        "hint": "figure it out · put it off · come up with an idea",
+        "explanation": "Figure out — разобраться."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Давай отложим встречу до понедельника.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Let's put off the meeting until Monday."
+        ],
+        "hint": "figure it out · put it off · come up with an idea",
+        "explanation": "Put off — перенести на более позднее время."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "У нас закончился кофе.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We've run out of coffee."
+        ],
+        "hint": "figure it out · put it off · come up with an idea",
+        "explanation": "Run out of + ресурс."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: Please turn off it.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Please turn it off."
+        ],
+        "hint": "figure it out · put it off · come up with an idea",
+        "explanation": "Местоимение между частями разделяемого глагола."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Она придумала хорошую идею.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "She came up with a good idea."
+        ],
+        "hint": "figure it out · put it off · come up with an idea",
+        "explanation": "Come up with — придумать."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Расскажи о небольшой проблеме и её решении. Используй figure out, run out of, come up with и ещё одно сочетание. 70–100 слов.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "We ran out of time while planning the event. At first, we couldn't figure out what to do. Then my friend came up with a simpler plan. We put off one activity and finished everything else on time."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Покажите ситуацию: так значение сочетаний закрепляется вместе с контекстом."
+      }
+    ]
+  },
+  {
+    "id": "word-building",
+    "title": "Расширять словарь осмысленно",
+    "subtitle": "Семейства слов, оттенки и перефразирование",
+    "group": "Словарь в контексте",
+    "units": "English Vocabulary in Use · Upper-Intermediate",
+    "goal": "Выбирать нужную часть речи и объяснять незнакомое слово.",
+    "formula": "decide → decision; reliable → reliability",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Семейство вместо одного слова",
+        "body": "Decide — действие, decision — результат решения, decisive — качество. Не все формы образуются предсказуемо, поэтому проверяйте реальное употребление. После артикля или прилагательного часто ожидается существительное: an important decision. После can нужен глагол: can decide. По роли слова в предложении можно понять, чего не хватает."
+      },
+      {
+        "title": "Синонимы не взаимозаменяемы",
+        "body": "Job — конкретная работа или должность, work — деятельность; a job, но обычно не a work в значении занятости. Economic относится к экономике, economical — к экономности. Sensitive — чувствительный, sensible — разумный. Лучше одна понятная пара в контексте, чем длинный список почти одинаковых переводов."
+      },
+      {
+        "title": "Объяснить то, чего не знаешь",
+        "body": "Если забыли слово, используйте родовую категорию и функцию: It’s a device that measures temperature. It’s the opposite of… It’s similar to…, but… Перефразирование — полноценный коммуникативный навык. После разговора добавьте недостающее выражение в карточки и попробуйте употребить его в собственном примере."
+      }
+    ],
+    "examples": [
+      {
+        "en": "We need a reliable solution.",
+        "ru": "Нам нужно надёжное решение.",
+        "why": "Прилагательное описывает solution."
+      },
+      {
+        "en": "Reliability matters more than speed.",
+        "ru": "Надёжность важнее скорости.",
+        "why": "Существительное — подлежащее."
+      },
+      {
+        "en": "That's a sensible suggestion.",
+        "ru": "Это разумное предложение.",
+        "why": "Sensible, а не sensitive."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Нам нужно принять разумное решение.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We need to make a sensible decision."
+        ],
+        "hint": "decide → decision; reliable → reliability",
+        "explanation": "Sensible = разумный; decision — существительное."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Он ищет новую работу.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "He's looking for a new job."
+        ],
+        "hint": "decide → decision; reliable → reliability",
+        "explanation": "Конкретное место работы — a job."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Надёжность для меня важнее цены.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Reliability is more important to me than price."
+        ],
+        "hint": "decide → decision; reliable → reliability",
+        "explanation": "Reliability — название качества."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши: It was a very success project.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "It was a very successful project."
+        ],
+        "hint": "decide → decision; reliable → reliability",
+        "explanation": "Перед project нужно прилагательное successful."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Объясни по-английски слово «термометр», не называя его.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "It's a device that measures temperature."
+        ],
+        "hint": "decide → decision; reliable → reliability",
+        "explanation": "Категория + функция помогают передать значение."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Выбери 5 слов из своих интересов. Для каждого напиши определение по-английски и личный пример. Не используй перевод в определении.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "A deadline is the latest time by which something must be finished. I have a deadline on Friday, so I'm planning my week carefully."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Умение объяснить и использовать слово глубже, чем узнавание перевода."
+      }
+    ]
+  },
+  {
+    "id": "writing",
+    "title": "Письмо, которое выполняет задачу",
+    "subtitle": "От понятного запроса до связного эссе",
+    "group": "Навыки общения",
+    "units": "Практика B1–B2 · оригинальный материал",
+    "goal": "Писать адресно: цель, нужные детали, действие для читателя.",
+    "formula": "purpose → context → request → next step",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Перед началом",
+        "body": "Определите читателя, цель и желаемую реакцию. Сообщение коллеге и жалоба организации могут описывать одну проблему разным тоном. Первый абзац должен быстро объяснить, зачем вы пишете. Не начинайте каждое письмо с длинного формального вступления. Короткая понятная структура важнее редких слов."
+      },
+      {
+        "title": "Абзац как единица мысли",
+        "body": "Одна основная мысль, объяснение и конкретный пример — полезная модель абзаца. В аргументативном тексте обозначьте позицию, приведите причины, рассмотрите возражение. В рабочем письме дайте контекст, запрос и срок. Проверяйте, знает ли читатель, к чему относятся this, it и they."
+      },
+      {
+        "title": "Два прохода редактирования",
+        "body": "Сначала проверьте смысл: ответили ли на задачу, хватает ли деталей, понятен ли следующий шаг? Потом язык: времена, артикли, порядок слов и сочетания. Не заменяйте все простые слова «академическими». После обратной связи перепишите слабый фрагмент своими словами и сохраните одну важную ошибку для повторения."
+      }
+    ],
+    "examples": [
+      {
+        "en": "I'm writing to ask about the course schedule.",
+        "ru": "Пишу, чтобы узнать расписание курса.",
+        "why": "Сразу названа цель."
+      },
+      {
+        "en": "Could we move the meeting to Thursday?",
+        "ru": "Можем перенести встречу на четверг?",
+        "why": "Ясный запрос."
+      },
+      {
+        "en": "Please let me know if that works for you.",
+        "ru": "Сообщите, подходит ли вам это.",
+        "why": "Понятный следующий шаг."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Вежливо попроси коллегу прислать обновлённый отчёт до среды.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Could you send me the updated report by Wednesday, please?"
+        ],
+        "hint": "purpose → context → request → next step",
+        "explanation": "Просьба + предмет + срок."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Сообщи, что из-за неожиданной проблемы тебе нужен ещё один день.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Because of an unexpected problem, I need one more day."
+        ],
+        "hint": "purpose → context → request → next step",
+        "explanation": "Дайте причину и конкретную потребность."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Предложи перенести встречу и спроси, удобно ли это.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Could we move the meeting to Friday? Would that work for you?"
+        ],
+        "hint": "purpose → context → request → next step",
+        "explanation": "Предложение и проверка согласия."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши естественно: I very wait your answer.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I look forward to hearing from you."
+        ],
+        "hint": "purpose → context → request → next step",
+        "explanation": "Look forward to hearing — устойчивое завершение письма."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Вырази несогласие и коротко объясни причину.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I'm not sure I agree because this would take more time than we have."
+        ],
+        "hint": "purpose → context → request → next step",
+        "explanation": "Мягкое несогласие с обоснованием."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Напиши 120–160 слов организатору курса: объясни цель обучения, опиши свой уровень, уточни разговорную практику и попроси совет по выбору группы.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "Hello, I'm interested in joining your English course. I'm around B1 or B2 and would like to become more confident when speaking. Could you tell me how much time is devoted to conversation? I would also appreciate some advice on choosing the right group."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Оценивайте полноту запроса, структуру, тон и язык. У образца нет статуса единственного ответа."
+      }
+    ]
+  },
+  {
+    "id": "speaking",
+    "title": "Говорить и поддерживать разговор",
+    "subtitle": "Мнение, уточнение, история и выход из паузы",
+    "group": "Навыки общения",
+    "units": "Практика B1–B2 · оригинальный материал",
+    "goal": "Формулировать мысль вслух и развивать ответ вместо односложной реплики.",
+    "formula": "answer → reason → example → question",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Как развить короткий ответ",
+        "body": "На What do you do in your free time? можно ответить фразой и остановить разговор. Лучше добавьте причину, небольшой пример и вопрос собеседнику. Не заучивайте монолог целиком: держите в голове 3 смысловые опоры. Для практики поставьте себе 60–90 секунд и говорите до конца мысли, даже если приходится перефразировать."
+      },
+      {
+        "title": "Уточнение — часть разговора",
+        "body": "Sorry, could you say that again? Do you mean…? Let me put it another way. Эти фразы дают возможность восстановить понимание и исправиться. I mean… помогает уточнить собственную мысль. Пауза с формулировкой Let me think for a moment естественнее, чем отказ от ответа."
+      },
+      {
+        "title": "Как использовать запись",
+        "body": "Сначала запишите ответ, затем прослушайте себя и проверьте расшифровку. Распознавание может ошибаться, особенно с именами. Исправьте текст перед грамматической проверкой. Текст позволяет оценить грамматику, лексику и связность, но не качество произношения. Для звуков, ударения и ритма полезно сравнение своей записи с образцом; автоматический балл по транскрипту это не заменяет."
+      }
+    ],
+    "examples": [
+      {
+        "en": "I'd say the main advantage is flexibility.",
+        "ru": "Я бы сказал, главный плюс — гибкость.",
+        "why": "Обозначаем позицию."
+      },
+      {
+        "en": "What I mean is that we need more practice.",
+        "ru": "Я имею в виду, что нам нужно больше практики.",
+        "why": "Уточняем мысль."
+      },
+      {
+        "en": "Have you ever had a similar experience?",
+        "ru": "У тебя был похожий опыт?",
+        "why": "Возвращаем слово собеседнику."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Вежливо попроси собеседника говорить немного медленнее.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Could you speak a little more slowly, please?"
+        ],
+        "hint": "answer → reason → example → question",
+        "explanation": "Просьба помогает управлять разговором."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Скажи, что тебе нужно немного подумать.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Let me think for a moment."
+        ],
+        "hint": "answer → reason → example → question",
+        "explanation": "Естественный способ взять паузу."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Уточни: ты имеешь в виду, что встречу отменили?",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Do you mean the meeting has been canceled?"
+        ],
+        "hint": "answer → reason → example → question",
+        "explanation": "Do you mean + полное сообщение."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перефразируй: I agree you.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I agree with you."
+        ],
+        "hint": "answer → reason → example → question",
+        "explanation": "Согласие с человеком выражается agree with someone. Запоминайте сочетание целиком: I agree with you, но I agree that this is useful."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Попроси привести конкретный пример.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "Could you give me a specific example?"
+        ],
+        "hint": "answer → reason → example → question",
+        "explanation": "Конкретный вопрос развивает разговор."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Говори 60–90 секунд: какой навык ты хотел бы освоить за год и почему? Назови препятствие, план и задай вопрос собеседнику. Проверь расшифровку.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "I'd like to learn to play the piano because I enjoy music. The main challenge is finding time to practice. I'm planning to start with twenty minutes a day. Have you ever learned an instrument?"
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Разбор расшифровки относится к содержанию и языку. Произношение оценивайте по записи и образцу."
+      }
+    ]
+  },
+  {
+    "id": "listening",
+    "title": "Слышать смысл, а не каждое слово",
+    "subtitle": "Аудирование, чтение и пересказ",
+    "group": "Навыки общения",
+    "units": "Практика B1–B2 · оригинальный материал",
+    "goal": "Понимать общую мысль, извлекать детали и пересказывать без копирования.",
+    "formula": "listen → recall → check → retell",
+    "level": "B1–B2",
+    "minutes": 35,
+    "sections": [
+      {
+        "title": "Первый проход: зачем это сказано",
+        "body": "Сначала слушайте или читайте без остановок. Кто говорит? Чего хочет? Что изменилось? Неизвестное слово не обязано мешать общей мысли. Сформулируйте одно предложение с главным сообщением. Если пытаетесь перевести всё подряд, рабочая память переполняется и вы теряете связь между предложениями."
+      },
+      {
+        "title": "Второй проход: детали и доказательства",
+        "body": "Выберите 2–3 вопроса: когда это произошло, почему приняли решение, что будет дальше? Прослушайте снова. Только затем откройте текст и сравните. В чтении найдите фразу, на которую опирается вывод. Отделяйте явно сказанное от своей догадки: the speaker says / this suggests."
+      },
+      {
+        "title": "Произношение и перенос в речь",
+        "body": "В естественной речи слова соединяются, служебные элементы ослабляются, а важные слова получают ударение. Возьмите короткую реплику на 5–10 секунд, прослушайте, повторите, запишите себя. Затем используйте полезное сочетание в новой фразе и перескажите смысл своими словами. Видеокадр в карточке помогает вспомнить контекст, но сам по себе не учит произносить фразу."
+      }
+    ],
+    "examples": [
+      {
+        "en": "The speaker is explaining why the plan changed.",
+        "ru": "Говорящий объясняет, почему изменился план.",
+        "why": "Формулировка главной мысли."
+      },
+      {
+        "en": "The main reason was a lack of time.",
+        "ru": "Главной причиной стала нехватка времени.",
+        "why": "Выделяем ключевую деталь."
+      },
+      {
+        "en": "As far as I understood, the event was postponed.",
+        "ru": "Насколько я понял, событие перенесли.",
+        "why": "Обозначаем степень уверенности."
+      }
+    ],
+    "exercises": [
+      {
+        "id": "e1",
+        "kind": "translate",
+        "prompt": "Перескажи одной фразой: We planned to leave on Friday, but the storm forced us to stay until Sunday.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "They had to postpone their departure because of a storm."
+        ],
+        "hint": "listen → recall → check → retell",
+        "explanation": "Сохранены изменение плана и причина; копировать слова не обязательно."
+      },
+      {
+        "id": "e2",
+        "kind": "translate",
+        "prompt": "Скажи, что понял главную мысль, но упустил некоторые детали.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "I understood the main idea, but I missed some details."
+        ],
+        "hint": "listen → recall → check → retell",
+        "explanation": "Понимание не обязательно бывает полным или нулевым."
+      },
+      {
+        "id": "e3",
+        "kind": "translate",
+        "prompt": "Сформулируй вопрос к детали: The new course starts in October.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "When does the new course start?"
+        ],
+        "hint": "listen → recall → check → retell",
+        "explanation": "Вопрос о расписании — present simple."
+      },
+      {
+        "id": "e4",
+        "kind": "rewrite",
+        "prompt": "Перепиши своими словами: The tickets were too expensive, so we stayed at home.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "We stayed at home because we couldn't afford the tickets."
+        ],
+        "hint": "listen → recall → check → retell",
+        "explanation": "Сохраняем причинную связь."
+      },
+      {
+        "id": "e5",
+        "kind": "translate",
+        "prompt": "Скажи, что автор приводит пример, чтобы подтвердить свою мысль.",
+        "context": "Передайте всю мысль. Возможны разные правильные формулировки.",
+        "answers": [
+          "The author gives an example to support their point."
+        ],
+        "hint": "listen → recall → check → retell",
+        "explanation": "Support a point — подтвердить мысль аргументом."
+      },
+      {
+        "id": "e6",
+        "kind": "write",
+        "prompt": "Открой «Медиатеку»: посмотри 1–2 минуты видео, сначала без текста. Напиши главную мысль, три детали и короткий пересказ на английском. Затем проверь по субтитрам.",
+        "context": "Сначала напишите самостоятельно. Пример появится только после проверки. Можно ответить голосом.",
+        "answers": [
+          "The speaker describes a change in their daily routine. They started getting up earlier to make time for exercise. At first it was difficult, but they gradually got used to it."
+        ],
+        "hint": "Сначала определите смысл, затем выберите конструкцию. Используйте собственные детали.",
+        "explanation": "Сверяйте факты с источником. Проверка английского сама по себе не подтверждает верность пересказа неизвестного видео."
+      }
+    ]
+  }
+]

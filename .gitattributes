@@ -1,0 +1,10 @@
+# Release manifests pin exact lesson bytes. Never translate their line endings.
+/app/content/book-lessons/*.json -text
+# Catalogues, lexicon and course receipts also refer to exact JSON bytes.
+/app/content/**/*.json -text whitespace=cr-at-eol
+/app/studio/assets/**/*.json -text whitespace=cr-at-eol
+# Prepared charts pin the SVG and dataset bytes in their release manifest.
+/app/studio/assets/learning-figures/*.svg -text -whitespace
+/app/studio/assets/learning-figures/*.json -text whitespace=cr-at-eol
+# Preserve the bundled upstream font licence verbatim.
+/app/studio/assets/fonts/OFL-Onest.txt -whitespace

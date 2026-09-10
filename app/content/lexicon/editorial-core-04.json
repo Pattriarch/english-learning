@@ -1,0 +1,520 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-04-2026-09-10",
+    "title": "Original core contexts 04 — public language, learning and description",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original authored context, meaning and practice; explicit recognized inflections retain source headword IDs."
+  },
+  "entries": [
+    {
+      "word": "militant",
+      "pos": "adj",
+      "meaningEn": "Very forceful and confrontational in pursuing a cause or goal.",
+      "meaningRu": "Воинственный, решительно и конфронтационно добивающийся цели.",
+      "en": "The editorial describes the campaign's tone as militant, pointing to its confrontational speeches. A second writer calls the same speeches determined and argues for a less hostile label.",
+      "ru": "В редакционной статье тон кампании назван воинственным со ссылкой на конфронтационные выступления. Другой автор называет те же речи решительными и предлагает менее враждебное обозначение.",
+      "phrase": "tone as militant",
+      "explanation": "Militant — сильная оценка настроя или действий. Determined передаёт решительность без того же оттенка конфронтации. По одному этому прилагательному нельзя автоматически приписывать насилие; a militant также бывает существительным.",
+      "registerTags": [
+        "news",
+        "evaluative"
+      ],
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С militant и determined сравни две формулировки о вымышленной кампании и объясни разницу тона."
+    },
+    {
+      "word": "fetal",
+      "pos": "adj",
+      "meaningEn": "Relating to a fetus during development before birth.",
+      "meaningRu": "Относящийся к плоду во время развития до рождения.",
+      "en": "The biology course includes a unit on fetal development with labeled diagrams. Students describe the structures shown before moving on to the next stage.",
+      "ru": "В курс биологии входит раздел о развитии плода с подписанными схемами. Студенты описывают показанные структуры, прежде чем перейти к следующему этапу.",
+      "phrase": "fetal development",
+      "explanation": "Fetal — американское написание; foetal встречается в британском английском. Fetal development — развитие плода, не характеристика родителей. Важно не путать fetal с fatal («смертельный»).",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/fetal"
+      ],
+      "registerTags": [
+        "biology"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С fetal development опиши тему вымышленного учебного раздела и поясни отличие fetal от fatal."
+    },
+    {
+      "word": "constrain",
+      "pos": "verb",
+      "meaningEn": "To limit the actions or choices that are possible.",
+      "meaningRu": "Ограничивать доступные действия или выбор.",
+      "en": "The small budget will constrain our design choices, so we'll reuse the existing furniture. We can still improve the lighting and rearrange the room.",
+      "ru": "Небольшой бюджет ограничит выбор оформления, поэтому мы используем имеющуюся мебель. При этом мы всё ещё можем улучшить освещение и переставить предметы в комнате.",
+      "phrase": "constrain our design choices",
+      "explanation": "Constrain choices — сужать возможности. Ограничение может быть финансовым, временным или техническим. Constrain не обязательно означает полностью запретить действие; существительное constraint — ограничение.",
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "С constrain объясни ограничение своего вымышленного проекта и два решения, которые всё же доступны."
+    },
+    {
+      "word": "documentation",
+      "pos": "noun",
+      "meaningEn": "Written information that explains a system or records how work was done.",
+      "meaningRu": "Письменные сведения, объясняющие систему или фиксирующие работу; документация.",
+      "en": "The API documentation includes a request example and a description of each error code. A new developer can try the example before integrating the service.",
+      "ru": "Документация API включает пример запроса и описание каждого кода ошибки. Новый разработчик может проверить пример, прежде чем подключать сервис к своей системе.",
+      "phrase": "API documentation",
+      "explanation": "Documentation обычно неисчисляемое: some documentation, not a documentation. A document — отдельный документ. Здесь содержание помогает выполнить конкретное действие, а не только познакомиться с названием API.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "С documentation предложи три элемента справки для собственного вымышленного сервиса и объясни их пользу."
+    },
+    {
+      "word": "educator",
+      "pos": "noun",
+      "meaningEn": "A person who works in teaching or helps develop education.",
+      "meaningRu": "Специалист, работающий в преподавании или развитии образования; педагог.",
+      "en": "An experienced educator helped us turn the museum tour into a workshop. She added questions that made visitors compare objects instead of only reading labels.",
+      "ru": "Опытный педагог помог нам превратить музейную экскурсию в практическое занятие. Она добавила вопросы, побуждающие посетителей сравнивать предметы, а не только читать подписи.",
+      "phrase": "An experienced educator",
+      "explanation": "Educator — более широкое и формальное слово, чем schoolteacher: работа может происходить в музее, обучающем проекте или системе образования. Здесь речь о разработке обучения.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С educator представь специалиста, которого ты пригласил бы улучшить обучение, и назови его конкретную задачу."
+    },
+    {
+      "word": "commissioner",
+      "pos": "noun",
+      "meaningEn": "An official responsible for a particular public service, organization or area of work.",
+      "meaningRu": "Должностное лицо, отвечающее за определённую службу, организацию или сферу работы.",
+      "en": "The city commissioner responsible for transport answered questions about the proposed bus lanes. Her staff will publish a revised schedule for the consultation meetings.",
+      "ru": "Городская чиновница, отвечающая за транспорт, ответила на вопросы о предлагаемых автобусных полосах. Её сотрудники опубликуют обновлённое расписание консультационных встреч.",
+      "phrase": "commissioner responsible for transport",
+      "explanation": "Commissioner называет должность, содержание которой зависит от учреждения. Русское «комиссар» не всегда удачно передаёт американскую городскую роль; описание полномочий здесь понятнее.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С commissioner представь вымышленного представителя города и задай вопрос в его сфере ответственности."
+    },
+    {
+      "word": "proclaim",
+      "pos": "verb",
+      "meaningEn": "To announce something publicly and emphatically or officially.",
+      "meaningRu": "Публично и подчёркнуто либо официально объявить; провозгласить.",
+      "en": "The mayor will proclaim Saturday a day of volunteer service. Local groups are preparing activities, from park cleanup to free repair sessions.",
+      "ru": "Мэр объявит субботу днём волонтёрской помощи. Местные группы готовят мероприятия — от уборки парка до бесплатных ремонтных встреч.",
+      "phrase": "proclaim Saturday a day",
+      "explanation": "Proclaim a day something — официально объявить день чем-либо. Глагол звучит торжественнее announce. В повседневном сообщении «я ухожу на обед» такой торжественный тон обычно лишний.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С proclaim составь одно торжественное объявление о вымышленном общественном дне, затем перескажи его обычными словами."
+    },
+    {
+      "word": "embody",
+      "pos": "verb",
+      "meaningEn": "To express an idea or quality in a concrete person, action or form.",
+      "meaningRu": "Воплощать идею или качество в конкретном человеке, действии или форме.",
+      "en": "The new library is designed to embody the idea of open access. Its entrance faces the square, and the reading rooms are easy to find from the lobby.",
+      "ru": "Новую библиотеку спроектировали так, чтобы она воплощала идею открытого доступа. Её вход обращён к площади, а читальные залы легко найти из вестибюля.",
+      "phrase": "embody the idea of",
+      "explanation": "Embody the idea — сделать идею заметной в конкретных решениях. После embody прямое дополнение: embody a value, не embody of a value. Embodiment — существительное.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С embody the idea of опиши два проектных решения в собственном вымышленном общественном пространстве."
+    },
+    {
+      "word": "regulator",
+      "pos": "noun",
+      "meaningEn": "An organization or official that supervises an activity under established rules.",
+      "meaningRu": "Организация или должностное лицо, контролирующие деятельность по установленным правилам; регулятор.",
+      "en": "The fictional regulator asked the company to explain how it handles customer complaints. The company must describe its process and provide records for review.",
+      "ru": "Вымышленный регулятор попросил компанию объяснить порядок работы с жалобами клиентов. Компания должна описать процесс и предоставить документы для проверки.",
+      "phrase": "The fictional regulator",
+      "explanation": "Regulator здесь контролирующий орган. В техническом контексте voltage regulator — устройство регулирования напряжения. Один русский перевод не подходит ко всем значениям.",
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "С regulator кратко изложи запрос вымышленного контролирующего органа и назови документы, которые компания подготовит."
+    },
+    {
+      "word": "congratulation",
+      "pos": "noun",
+      "meaningEn": "An expression of pleasure at someone's success; normally used in the plural congratulations.",
+      "meaningRu": "Выражение радости по поводу чужого успеха; обычно употребляется во множественном числе congratulations.",
+      "en": "Congratulations on finishing your first marathon! I know how much training it took, and I'm glad I could be there to cheer you on.",
+      "ru": "Поздравляю с первым завершённым марафоном! Я знаю, сколько тренировок это потребовало, и рад, что смог поддержать тебя на месте.",
+      "targetForms": [
+        "congratulations"
+      ],
+      "phrase": "Congratulations on finishing",
+      "explanation": "В списке стоит словарная форма congratulation, но естественное поздравление — Congratulations! Во фразе congratulations on +существительное/-ing. Не говорить Congratulation! как обычную поздравительную реплику.",
+      "verificationSources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/congratulation"
+      ],
+      "topic": {
+        "id": "family",
+        "title": "Семья и отношения"
+      },
+      "task": "Поздравь друга с другим достижением, используя Congratulations on, и добавь одну личную деталь."
+    },
+    {
+      "word": "aspiration",
+      "pos": "noun",
+      "meaningEn": "A strong hope or ambition to achieve something.",
+      "meaningRu": "Сильное стремление или цель, которой человек надеется достичь.",
+      "en": "Her long-term aspiration is to run a community art studio. This year, she's learning how to budget for materials and organize small classes.",
+      "ru": "В долгосрочной перспективе она стремится открыть и вести районную художественную студию. В этом году она учится планировать бюджет материалов и организовывать небольшие занятия.",
+      "phrase": "long-term aspiration",
+      "explanation": "Aspiration to do something — стремление к действию; career aspirations — профессиональные устремления. Здесь существительное обозначает стремление, не специальное фонетическое или медицинское употребление.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "С aspiration опиши свою или вымышленную долгосрочную цель и два небольших шага на этот год."
+    },
+    {
+      "word": "transcription",
+      "pos": "noun",
+      "meaningEn": "The process of turning spoken words into written text, or the written result.",
+      "meaningRu": "Процесс записи устной речи текстом или полученная запись; расшифровка.",
+      "en": "Manual transcription took longer than expected because several speakers talked at once. The transcriber marked overlapping speech and returned to difficult passages after a break.",
+      "ru": "Ручная расшифровка заняла больше времени, чем ожидалось, потому что несколько участников говорили одновременно. Расшифровщик отметил наложение речи и вернулся к трудным фрагментам после перерыва.",
+      "phrase": "Manual transcription",
+      "explanation": "Transcription здесь процесс расшифровки, transcript — получившийся текст. Phonetic transcription использует звуковые символы, а обычная расшифровка может записываться стандартными словами.",
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "С transcription объясни клиенту, почему запись с перебиваниями требует больше времени, и предложи способ отметить неясные фрагменты."
+    },
+    {
+      "word": "generic",
+      "pos": "adj",
+      "meaningEn": "General rather than adapted to a particular person, purpose or case.",
+      "meaningRu": "Общий, типовой, не приспособленный к конкретному человеку или случаю.",
+      "en": "The generic welcome email didn't mention the workshop I had booked. A short sentence with the date and room number would make it much more useful.",
+      "ru": "Типовое приветственное письмо не упоминало семинар, на который я записался. Короткая фраза с датой и номером комнаты сделала бы его намного полезнее.",
+      "phrase": "generic welcome email",
+      "explanation": "Generic message — общее или шаблонное сообщение. Это не всегда плохо, но в примере не хватает конкретики. Generic medicine — другое специальное значение, не оценка качества письма.",
+      "topic": {
+        "id": "digital-life",
+        "title": "Цифровая жизнь"
+      },
+      "task": "С generic объясни недостаток вымышленного письма и напиши две персонализированные строки вместо него."
+    },
+    {
+      "word": "interestingly",
+      "pos": "adv",
+      "meaningEn": "Used to draw attention to a fact the speaker finds noteworthy or unexpected.",
+      "meaningRu": "Вводит факт, который говорящий считает любопытным или неожиданным: интересно, что…",
+      "en": "Interestingly, the quieter group produced more written ideas than the group that spoke the most. The facilitator plans to include silent planning time in the next workshop.",
+      "ru": "Интересно, что более тихая группа записала больше идей, чем та, которая говорила больше всех. Ведущий планирует включить в следующее занятие время на молчаливое обдумывание.",
+      "phrase": "Interestingly, the quieter group",
+      "explanation": "Interestingly в начале предложения комментирует факт с позиции автора. Оно не означает, что группа «интересно произвела» идеи. Обычно после вводного наречия ставят запятую.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "Начни с Interestingly собственное наблюдение о вымышленном занятии и предложи связанное с ним изменение."
+    },
+    {
+      "word": "invariably",
+      "pos": "adv",
+      "meaningEn": "Always, or on every occasion in the situation being described.",
+      "meaningRu": "Неизменно, каждый раз в описываемой ситуации.",
+      "en": "In these tests, the import invariably fails when the file has an empty header row. Removing that row lets the same file load successfully.",
+      "ru": "В этих тестах импорт неизменно завершается сбоем, если в файле пустая строка заголовка. После её удаления тот же файл успешно загружается.",
+      "phrase": "import invariably fails",
+      "explanation": "Invariably сильнее often: в описанной серии исключений нет. Ограничение in these tests важно; оно не утверждает, что исследованы все возможные файлы.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "С invariably опиши повторяемый сбой в вымышленной серии тестов и укажи точное условие его появления."
+    },
+    {
+      "word": "prosecute",
+      "pos": "verb",
+      "meaningEn": "To bring or conduct a criminal case against someone in court.",
+      "meaningRu": "Возбуждать или вести уголовное обвинение против человека в суде.",
+      "en": "In the legal drama, the prosecutor decides whether to prosecute the suspect. The defense lawyer prepares a response while the audience learns how the evidence was obtained.",
+      "ru": "В судебной драме прокурор решает, предъявлять ли подозреваемому уголовное обвинение в суде. Адвокат защиты готовит ответ, а зрители узнают, как были получены доказательства.",
+      "phrase": "prosecute the suspect",
+      "explanation": "Prosecute относится к ведению уголовного обвинения, не к вынесению обвинительного приговора. Convict — признать виновным. Не путай prosecute с persecute («преследовать, притеснять»).",
+      "registerTags": [
+        "legal"
+      ],
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С prosecute перескажи завязку вымышленной судебной серии, различив обвинение и приговор."
+    },
+    {
+      "word": "enact",
+      "pos": "verb",
+      "meaningEn": "To make a proposal into an official law through the required process.",
+      "meaningRu": "Принять и ввести в качестве закона через установленную процедуру.",
+      "en": "The fictional legislature plans to enact a new reporting law next year. Today's debate concerns the proposal, so the article uses future language rather than saying it is already law.",
+      "ru": "Вымышленный законодательный орган планирует принять новый закон об отчётности в следующем году. Сегодня обсуждается предложение, поэтому статья говорит о будущем, а не об уже действующем законе.",
+      "phrase": "enact a new reporting law",
+      "explanation": "Enact a law — принять закон. Propose a law — предложить его; эти этапы различаются. Здесь не описываются реальные действующие нормы.",
+      "registerTags": [
+        "legal",
+        "formal"
+      ],
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С enact напиши одну фразу о намерении вымышленного органа и вторую о текущем этапе обсуждения."
+    },
+    {
+      "word": "indirectly",
+      "pos": "adv",
+      "meaningEn": "Through another person, step or effect rather than by a direct route.",
+      "meaningRu": "Косвенно, через промежуточного человека, действие или эффект.",
+      "en": "I heard about the opening indirectly, through a former teammate. I checked the company's careers page before contacting the hiring manager.",
+      "ru": "Я узнал о вакансии не напрямую, а через бывшего коллегу по команде. Прежде чем связаться с нанимающим руководителем, я проверил страницу вакансий компании.",
+      "phrase": "heard about the opening indirectly",
+      "explanation": "Indirectly описывает путь получения информации. Это не означает «обязательно ложно»: непрямой источник может быть точным, но полезно подтвердить исходное сообщение.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "С indirectly расскажи, как узнал о вымышленной возможности, и укажи, где проверишь детали."
+    },
+    {
+      "word": "encompass",
+      "pos": "verb",
+      "meaningEn": "To include a range of different things within a larger whole.",
+      "meaningRu": "Включать, охватывать ряд разных элементов в составе целого.",
+      "en": "The training will encompass writing, speaking, listening, and reading. Each week combines a focused skill lesson with a task that brings several skills together.",
+      "ru": "Обучение охватит письмо, говорение, аудирование и чтение. Каждая неделя сочетает занятие по отдельному навыку с заданием, объединяющим несколько навыков.",
+      "phrase": "will encompass writing",
+      "explanation": "Encompass звучит формальнее include и подчёркивает широкий охват. После него прямое дополнение: encompass several skills, без предлога of.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С encompass опиши состав собственного вымышленного курса и одно задание, объединяющее два навыка."
+    },
+    {
+      "word": "longitudinal",
+      "pos": "adj",
+      "meaningEn": "In research, observing the same people or units repeatedly over a period of time.",
+      "meaningRu": "В исследовании — предполагающий повторные наблюдения за теми же участниками или объектами во времени; лонгитюдный.",
+      "en": "The longitudinal study interviews the same graduates every year for five years. Researchers can track changes in individual careers rather than compare unrelated groups each time.",
+      "ru": "В лонгитюдном исследовании одних и тех же выпускников опрашивают ежегодно в течение пяти лет. Исследователи могут отслеживать изменения отдельных карьер, а не каждый раз сравнивать разные группы.",
+      "phrase": "The longitudinal study",
+      "explanation": "Longitudinal study повторно наблюдает объекты во времени. Длительность сама по себе не всё: важна связь повторных наблюдений. В геометрии longitudinal значит продольный — другая тема.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/longitudinal"
+      ],
+      "registerTags": [
+        "research"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С longitudinal предложи маленькое исследование: кого наблюдать, что записывать и как часто возвращаться."
+    },
+    {
+      "word": "planner",
+      "pos": "noun",
+      "meaningEn": "A person who organizes a project or plans how something will be arranged.",
+      "meaningRu": "Специалист или человек, планирующий проект и его организацию.",
+      "en": "The event planner asked us to confirm the guest count before ordering food. She also kept a small reserve for people who might arrive without registering.",
+      "ru": "Организатор мероприятия попросила подтвердить число гостей, прежде чем заказывать еду. Она также предусмотрела небольшой запас на случай незарегистрированных посетителей.",
+      "phrase": "The event planner",
+      "explanation": "Planner здесь человек. A daily planner может быть бумажным или цифровым ежедневником. Event planner связывает роль с организацией мероприятия.",
+      "topic": {
+        "id": "daily-plans",
+        "title": "Планы и встречи"
+      },
+      "task": "С planner объясни другу, какие две сведения нужно передать организатору твоего вымышленного мероприятия."
+    },
+    {
+      "word": "handwrite",
+      "pos": "verb",
+      "meaningEn": "To write using a pen, pencil or similar tool rather than typing.",
+      "meaningRu": "Писать от руки, а не печатать.",
+      "en": "Please handwrite a short note on the card before we send the gift. A personal sentence will mean more to her than a printed message with only our names.",
+      "ru": "Пожалуйста, напиши от руки короткую записку на открытке, прежде чем мы отправим подарок. Личная фраза будет значить для неё больше, чем напечатанное сообщение только с нашими именами.",
+      "phrase": "handwrite a short note",
+      "explanation": "Handwrite = write by hand. Формы: handwrote, handwritten. Handwritten note — записка, написанная от руки; не путай с подписью как единственным элементом текста.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/handwrite"
+      ],
+      "topic": {
+        "id": "family",
+        "title": "Семья и отношения"
+      },
+      "task": "Попроси друга handwrite короткое поздравление и сам придумай две личные английские фразы для открытки."
+    },
+    {
+      "word": "sparkle",
+      "pos": "verb",
+      "meaningEn": "To shine with small bright points or flashes of light.",
+      "meaningRu": "Сверкать небольшими яркими точками или вспышками света.",
+      "en": "The lights make the glass decorations sparkle in the window. By day, the same display looks much simpler because the tiny reflections are less noticeable.",
+      "ru": "Огни заставляют стеклянные украшения в окне сверкать. Днём та же витрина выглядит гораздо проще, потому что маленькие отражения менее заметны.",
+      "phrase": "decorations sparkle",
+      "explanation": "Sparkle описывает множество небольших ярких бликов. Shine шире: просто светить или блестеть. Sparkling water — газированная вода; это отдельное устойчивое употребление.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "Со sparkle опиши собственную вымышленную вечернюю сцену и то, как она отличается днём."
+    },
+    {
+      "word": "endanger",
+      "pos": "verb",
+      "meaningEn": "To put someone or something at risk of harm or loss.",
+      "meaningRu": "Подвергать опасности или риску утраты.",
+      "en": "Leaving the emergency exit blocked could endanger people during an evacuation. The organizer asks the delivery team to move the boxes into the storage room.",
+      "ru": "Загромождённый аварийный выход может подвергнуть людей опасности при эвакуации. Организатор просит службу доставки перенести коробки в кладовую.",
+      "phrase": "endanger people",
+      "explanation": "Endanger someone — подвергнуть человека опасности; после глагола прямое дополнение. Endangered species — виды под угрозой исчезновения. Здесь риск назван вместе с конкретным действием, которое его уменьшит.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С endanger объясни вымышленной команде, почему проход должен оставаться свободным, и предложи место для коробок."
+    },
+    {
+      "word": "undergraduate",
+      "pos": "noun",
+      "meaningEn": "A student studying toward a first university degree, typically a bachelor's degree.",
+      "meaningRu": "Студент, получающий первую университетскую степень, обычно бакалаврскую.",
+      "en": "As an undergraduate, Mia joined a research group for the summer. A graduate student trained her to keep lab notes and present a short progress update.",
+      "ru": "Будучи студенткой бакалавриата, Мия летом присоединилась к исследовательской группе. Аспирант или магистрант научил её вести лабораторные записи и кратко докладывать о ходе работы.",
+      "phrase": "As an undergraduate",
+      "explanation": "В США undergraduate обычно учится на bachelor's degree. Graduate student — следующий уровень, например магистратура или докторантура; само слово не уточняет конкретную программу. Undergraduate также бывает прилагательным.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С undergraduate представь вымышленного студента, его летний проект и помощь более опытного участника."
+    },
+    {
+      "word": "extensively",
+      "pos": "adv",
+      "meaningEn": "Across a large range or to a substantial extent.",
+      "meaningRu": "Широко, в большом объёме или по значительному кругу вопросов.",
+      "en": "We revised the guide extensively after users tested the first draft. Entire sections moved, several examples changed, and the old introduction was removed.",
+      "ru": "После пользовательской проверки первого черновика мы основательно переработали руководство. Целые разделы переместились, несколько примеров изменились, а старое введение удалили.",
+      "phrase": "revised the guide extensively",
+      "explanation": "Extensively подчёркивает объём или охват работы. Intensively часто подчёркивает интенсивность усилий. Здесь перечисление конкретных правок раскрывает, почему переработку называют масштабной.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "С extensively опиши серьёзную переработку своего вымышленного документа и назови три изменения."
+    },
+    {
+      "word": "endorsement",
+      "pos": "noun",
+      "meaningEn": "An expression of approval or public support for someone or something.",
+      "meaningRu": "Выражение одобрения или публичной поддержки.",
+      "en": "The athlete's endorsement helped people notice the new shoes. Buyers still wanted details about comfort, sizing, and how the product had been tested.",
+      "ru": "Поддержка известного спортсмена помогла привлечь внимание к новой обуви. Покупатели всё равно хотели узнать об удобстве, размерах и проведённых испытаниях товара.",
+      "phrase": "athlete's endorsement",
+      "explanation": "Endorsement здесь публичная поддержка товара. Это не обязательно независимая экспертиза. Endorsement может иметь и документальные значения, например отметка на чеке, — смысл задаёт ситуация.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "С endorsement объясни, чем рекомендация известного человека отличается от информации, нужной тебе для выбора товара."
+    },
+    {
+      "word": "morphological",
+      "pos": "adj",
+      "meaningEn": "In linguistics, relating to the internal structure and formation of words.",
+      "meaningRu": "В лингвистике — относящийся к строению и образованию слов; морфологический.",
+      "en": "The exercise asks for a morphological analysis of reusable. Students identify the prefix, the base, and the suffix, then explain how the parts contribute to the meaning.",
+      "ru": "Задание требует морфологического разбора reusable. Студенты выделяют приставку, основу и суффикс, а затем объясняют вклад частей в значение.",
+      "phrase": "a morphological analysis",
+      "explanation": "В reusable можно выделить re- + use + -able: возможность использовать снова. Morphological анализирует устройство слова; syntactic — его связи в предложении. В биологии morphological относится к форме организмов.",
+      "registerTags": [
+        "linguistics"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "С morphological analysis разберите по-английски washable или reread: части, значение целого и собственное предложение."
+    },
+    {
+      "word": "convergence",
+      "pos": "noun",
+      "meaningEn": "A process in which separate things move toward a shared point, form or result.",
+      "meaningRu": "Сближение отдельных вещей к общей точке, форме или результату; конвергенция.",
+      "en": "The workshop revealed a convergence of priorities across three teams. All wanted faster feedback, although they proposed different tools to achieve it.",
+      "ru": "На встрече обнаружилось сближение приоритетов трёх команд. Все хотели получать обратную связь быстрее, хотя предлагали для этого разные инструменты.",
+      "phrase": "a convergence of priorities",
+      "explanation": "Convergence of priorities — сближение целей. Полного совпадения всех решений слово не требует; в примере инструменты различаются. Divergence — расхождение.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "С convergence опиши общую цель двух вымышленных команд и различие в предлагаемых способах её достичь."
+    },
+    {
+      "word": "appropriately",
+      "pos": "adv",
+      "meaningEn": "In a way that suits the situation, purpose or audience.",
+      "meaningRu": "Уместно, подходящим для ситуации, цели или адресата образом.",
+      "en": "The teacher showed us how to respond appropriately to a formal invitation. We practiced a clear acceptance and a polite refusal, each with the necessary details.",
+      "ru": "Преподаватель показал, как уместно ответить на официальное приглашение. Мы отработали ясное согласие и вежливый отказ, каждый с необходимыми подробностями.",
+      "phrase": "respond appropriately",
+      "explanation": "Appropriately оценивает соответствие ситуации, не просто грамматическую правильность. Другу и организатору конференции можно сообщить один факт разным тоном.",
+      "topic": {
+        "id": "spoken-register",
+        "title": "Разговорная речь и регистр"
+      },
+      "task": "С respond appropriately объясни выбор регистра, затем напиши краткое принятие вымышленного официального приглашения."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "root",
+    "checkedAt": "2026-09-10",
+    "scope": "All 30 meanings, EN/RU contexts, explanations and tasks read in full; approved after listed editorial fixes."
+  }
+}

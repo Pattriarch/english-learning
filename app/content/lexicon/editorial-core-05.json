@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-05-2026-09-10",
+    "title": "Original core contexts 05 — research, measurement and everyday choices",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original examples, technical vocabulary used in explanatory classroom contexts rather than professional advice."
+  },
+  "entries": [
+    {
+      "word": "physiological",
+      "pos": "adj",
+      "meaningEn": "Relating to how a living body and its parts function.",
+      "meaningRu": "Относящийся к работе живого организма и его частей; физиологический.",
+      "en": "The demonstration compares a physiological response, such as a change in breathing, with a person's report of feeling nervous. The two kinds of observation describe different aspects of the experience.",
+      "ru": "В демонстрации физиологическая реакция, например изменение дыхания, сравнивается с сообщением человека о нервозности. Эти два вида наблюдения описывают разные стороны переживания.",
+      "phrase": "a physiological response",
+      "explanation": "Physiological response — реакция работы организма. Psychological относится к психике и переживаниям. Эти стороны могут быть связаны, но одно слово не заменяет другое.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/physiological"
+      ],
+      "registerTags": [
+        "biology"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С physiological response опиши вымышленное наблюдение на уроке и отдели наблюдаемый признак от рассказа человека о чувствах."
+    },
+    {
+      "word": "appraisal",
+      "pos": "noun",
+      "meaningEn": "An assessment of the value, quality or performance of someone or something.",
+      "meaningRu": "Оценка стоимости, качества или результатов работы.",
+      "en": "My performance appraisal highlighted clear progress in written communication. My manager also suggested practicing shorter spoken updates during team meetings.",
+      "ru": "В оценке моей работы отметили явный прогресс в письменном общении. Руководитель также предложил потренироваться делать более короткие устные сообщения на командных встречах.",
+      "phrase": "performance appraisal",
+      "explanation": "Performance appraisal — оценка рабочих результатов. Property appraisal — оценка стоимости недвижимости; смысл задаёт дополнение. Appraisal не равно approval: оценка может включать и сильные стороны, и улучшения.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "С appraisal составь две строки вымышленной обратной связи: конкретное улучшение и следующая цель."
+    },
+    {
+      "word": "spectator",
+      "pos": "noun",
+      "meaningEn": "A person who watches an event, especially a sport, without taking part in it.",
+      "meaningRu": "Зритель события, особенно спортивного, который сам в нём не участвует.",
+      "en": "Each spectator receives a map showing the race route and the viewing areas. Runners use a different entrance so the two groups don't crowd the same gate.",
+      "ru": "Каждый зритель получает карту трассы и зон наблюдения за гонкой. Бегуны пользуются другим входом, чтобы обе группы не толпились у одних ворот.",
+      "phrase": "Each spectator",
+      "explanation": "Spectator наблюдает за событием; participant участвует. Audience чаще называет публику как группу на выступлении. В спортивной ситуации spectator естественно противопоставляется runner или player.",
+      "topic": {
+        "id": "interests",
+        "title": "Интересы и свободное время"
+      },
+      "task": "Со spectator объясни другу, куда идти зрителю твоего вымышленного соревнования и чем его вход отличается от входа участника."
+    },
+    {
+      "word": "residual",
+      "pos": "adj",
+      "meaningEn": "Remaining after the main amount has been removed or a process has finished.",
+      "meaningRu": "Остаточный, сохраняющийся после удаления основной части или завершения процесса.",
+      "en": "The room still has some residual heat after the oven is switched off. We open the window before bringing the next group in for the workshop.",
+      "ru": "После выключения печи в комнате всё ещё сохраняется остаточное тепло. Мы открываем окно, прежде чем пригласить следующую группу на занятие.",
+      "phrase": "residual heat",
+      "explanation": "Residual heat — оставшееся тепло. Residual effects — сохраняющиеся последствия. Прилагательное не сообщает само по себе, велик или мал остаток; это нужно уточнять отдельно.",
+      "registerTags": [
+        "technical"
+      ],
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "С residual опиши вымышленную ситуацию, где после окончания процесса остаётся тепло, запах или эффект."
+    },
+    {
+      "word": "morale",
+      "pos": "noun",
+      "meaningEn": "The confidence, enthusiasm and shared sense of purpose of a person or group.",
+      "meaningRu": "Настрой, уверенность и воодушевление человека или коллектива; моральный дух.",
+      "en": "Team morale improved when the manager recognized the support staff's work. People still had a busy week ahead, but they felt their contribution was visible.",
+      "ru": "Настрой команды улучшился, когда руководитель отметил работу сотрудников поддержки. Впереди всё ещё была загруженная неделя, но люди почувствовали, что их вклад заметен.",
+      "phrase": "Team morale improved",
+      "explanation": "Morale — настрой и боевой дух; moral — моральный или нравственный. Boost morale — поднять дух команды. Высокий morale не означает отсутствие нагрузки.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "С morale предложи руководителю один конкретный способ поддержать команду без обещания отменить всю работу."
+    },
+    {
+      "word": "plausible",
+      "pos": "adj",
+      "meaningEn": "Reasonable enough to seem possible or believable.",
+      "meaningRu": "Выглядящий разумным и возможным; правдоподобный.",
+      "en": "A loose cable is a plausible explanation for the intermittent screen problem. We'll test another cable before replacing the monitor.",
+      "ru": "Неплотно подключённый кабель — правдоподобное объяснение периодической проблемы с экраном. Прежде чем менять монитор, мы проверим другой кабель.",
+      "phrase": "a plausible explanation",
+      "explanation": "Plausible explanation выглядит возможным по имеющимся данным. Proven explanation уже подтверждено. Plausible не означает просто выдуманный: версия должна разумно соответствовать ситуации.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "С plausible explanation предложи причину другого вымышленного сбоя и короткую проверку своей версии."
+    },
+    {
+      "word": "pave",
+      "pos": "verb",
+      "meaningEn": "To cover a road or other surface with a firm material such as asphalt or stone.",
+      "meaningRu": "Покрыть дорогу или поверхность твёрдым материалом; замостить, заасфальтировать.",
+      "en": "The town plans to pave the gravel path between the bus stop and the library. Residents asked for a smooth surface that works for wheelchairs and strollers.",
+      "ru": "Город планирует уложить твёрдое покрытие на гравийную дорожку между остановкой и библиотекой. Жители попросили ровную поверхность, удобную для инвалидных и детских колясок.",
+      "phrase": "pave the gravel path",
+      "explanation": "Pave a path — устроить твёрдое покрытие. Pave the way for something — переносно подготовить почву для чего-либо. Здесь физическая дорожка и конкретные пользователи.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С pave предложи улучшение вымышленного маршрута в районе и объясни, кому оно поможет."
+    },
+    {
+      "word": "rig",
+      "pos": "verb",
+      "meaningEn": "To dishonestly arrange a process so that it produces a desired result.",
+      "meaningRu": "Нечестно подстроить процесс ради нужного результата.",
+      "en": "The story's villain tries to rig the contest by secretly changing the scores. The judge discovers the original records and compares them with the announced results.",
+      "ru": "Злодей в рассказе пытается подстроить результат конкурса, тайно меняя баллы. Судья находит исходные записи и сравнивает их с объявленными результатами.",
+      "phrase": "rig the contest",
+      "explanation": "Rig a contest — нечестно подстроить его исход. A camera rig или an oil rig — существительные о техническом оборудовании, другие значения. Прошедшая форма rigged с удвоенным g.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С rig перескажи собственную вымышленную интригу и назови улику, по которой подлог обнаружат."
+    },
+    {
+      "word": "theorist",
+      "pos": "noun",
+      "meaningEn": "A person who develops or studies systematic explanations and ideas in a field.",
+      "meaningRu": "Человек, разрабатывающий или изучающий теоретические объяснения в определённой области; теоретик.",
+      "en": "The communication theorist studies how audiences interpret the same message differently. Her model gives the workshop a framework for comparing those interpretations.",
+      "ru": "Теоретик коммуникации изучает, как разные аудитории по-разному понимают одно сообщение. Её модель даёт участникам занятия основу для сравнения этих интерпретаций.",
+      "phrase": "communication theorist",
+      "explanation": "Theorist — специалист по теоретическому осмыслению; theoretical — прилагательное. Слово не означает само по себе человека без практического опыта.",
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С theorist представь вымышленного исследователя: его область, вопрос и применение его модели."
+    },
+    {
+      "word": "approximation",
+      "pos": "noun",
+      "meaningEn": "A value or description close to the exact one but not fully exact.",
+      "meaningRu": "Приближённое значение или описание.",
+      "en": "The travel time on the map is only an approximation. I'll allow an extra half hour because the route includes a bus connection I haven't used before.",
+      "ru": "Время в пути на карте — лишь приблизительная оценка. Я заложу ещё полчаса, потому что маршрут включает незнакомую мне пересадку на автобус.",
+      "phrase": "only an approximation",
+      "explanation": "Approximation — результат приближения; approximately — приблизительно. Не каждая оценка имеет одинаковую погрешность: здесь причина запаса — неизвестная пересадка.",
+      "topic": {
+        "id": "travel",
+        "title": "Поездки и транспорт"
+      },
+      "task": "С approximation объясни другу свой расчёт времени для вымышленной поездки и выбранный запас."
+    },
+    {
+      "word": "discrete",
+      "pos": "adj",
+      "meaningEn": "Separate and distinct, rather than continuous or blended together.",
+      "meaningRu": "Отдельный и различимый, не непрерывный; дискретный.",
+      "en": "The course is divided into discrete modules that can be studied separately. A final project then asks learners to connect ideas from several modules.",
+      "ru": "Курс разделён на отдельные модули, которые можно изучать независимо. Затем итоговый проект требует связать идеи из нескольких модулей.",
+      "phrase": "discrete modules",
+      "explanation": "Discrete — отдельный; discreet — тактичный, соблюдающий осторожность или конфиденциальность. В произношении они совпадают, но в письме и смысле различаются.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С discrete предложи три отдельных модуля своего курса и одно задание, которое их объединит."
+    },
+    {
+      "word": "realism",
+      "pos": "noun",
+      "meaningEn": "The quality of showing people and situations in a way that resembles real life.",
+      "meaningRu": "Правдоподобное изображение людей и ситуаций; реализм.",
+      "en": "The film's realism comes from ordinary conversations and small, awkward pauses. The characters rarely deliver perfect speeches when they are upset.",
+      "ru": "Реализм фильма создают обычные разговоры и небольшие неловкие паузы. Расстроенные персонажи редко произносят безупречные речи.",
+      "phrase": "film's realism",
+      "explanation": "Realism здесь качество художественного изображения. Realistic dialogue — прилагательное о диалоге. Реализм не требует документальной подлинности каждого события: история может быть вымышленной.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С realism объясни, какие две детали сделали бы вымышленную сцену разговора правдоподобнее."
+    },
+    {
+      "word": "notation",
+      "pos": "noun",
+      "meaningEn": "A system of symbols used to represent information in a subject.",
+      "meaningRu": "Система условных знаков для записи сведений в определённой области; нотация.",
+      "en": "The textbook introduces its notation before presenting the equations. A short key explains what each symbol means, so readers can follow the worked example.",
+      "ru": "Учебник вводит систему обозначений, прежде чем показывать уравнения. Краткая легенда объясняет значение каждого символа, чтобы читатели могли проследить разобранный пример.",
+      "phrase": "introduces its notation",
+      "explanation": "Notation — система записи, не просто заметка note. Mathematical notation, musical notation и phonetic notation относятся к разным системам. Key здесь легенда обозначений.",
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С notation представь придуманную простую систему из двух символов и объясни, что они обозначают."
+    },
+    {
+      "word": "niche",
+      "pos": "noun",
+      "meaningEn": "A particular area of demand or activity that suits a person or business.",
+      "meaningRu": "Определённая область спроса или деятельности, подходящая человеку или компании; ниша.",
+      "en": "The shop found a niche repairing older game consoles that larger stores no longer service. Customers come from outside the neighborhood because that skill is hard to find.",
+      "ru": "Магазин нашёл нишу в ремонте старых игровых приставок, которые крупные магазины больше не обслуживают. Клиенты приезжают из других районов, потому что таких специалистов трудно найти.",
+      "phrase": "found a niche",
+      "explanation": "Find a niche — найти подходящую область деятельности. Niche market — узкий сегмент рынка. У слова есть и биологическое значение, и буквальная ниша в стене.",
+      "topic": {
+        "id": "work-money",
+        "title": "Работа и деньги"
+      },
+      "task": "С niche придумай небольшую мастерскую, её аудиторию и конкретную потребность, которую она закрывает."
+    },
+    {
+      "word": "locus",
+      "pos": "noun",
+      "meaningEn": "A place or focus at which an activity, quality or responsibility is located.",
+      "meaningRu": "Место или центр сосредоточения деятельности, качества либо ответственности; локус.",
+      "en": "The community center became a locus of activity after the library closed for repairs. Reading groups, tutoring sessions, and public meetings now share its rooms.",
+      "ru": "После закрытия библиотеки на ремонт общественный центр стал средоточием активности. Теперь его комнаты используют читательские группы, занятия с наставниками и открытые встречи.",
+      "phrase": "a locus of activity",
+      "explanation": "Locus of activity — формальное обозначение центра активности. В обычной речи a center of activity звучит проще. В генетике locus означает положение на хромосоме; здесь этот смысл не используется.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/locus"
+      ],
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "С locus of activity опиши вымышленное общественное место и затем перескажи ту же мысль менее формально."
+    },
+    {
+      "word": "transparency",
+      "pos": "noun",
+      "meaningEn": "Openness that allows people to see how decisions or processes work.",
+      "meaningRu": "Открытость, позволяющая понять порядок решений или работы; прозрачность.",
+      "en": "Publishing the selection criteria improved transparency in the hiring process. Candidates could see which skills mattered and how the work sample would be assessed.",
+      "ru": "Публикация критериев отбора повысила прозрачность найма. Кандидаты смогли увидеть, какие навыки важны и как будут оценивать практическое задание.",
+      "phrase": "improved transparency",
+      "explanation": "Transparency здесь открытость процесса. Transparent glass — физическая прозрачность. В найме слово полезно конкретизировать: какие критерии, этапы или основания решения доступны человеку.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "С transparency предложи два изменения вымышленного процесса отбора, которые сделают его понятнее кандидатам."
+    },
+    {
+      "word": "gradient",
+      "pos": "noun",
+      "meaningEn": "A rate or pattern of change in a quantity across distance or position.",
+      "meaningRu": "Изменение величины по расстоянию или положению, либо мера такого изменения; градиент.",
+      "en": "The classroom model shows a temperature gradient from the warm end of the bar to the cool end. Labels at several positions make the gradual change visible.",
+      "ru": "Учебная модель показывает температурный градиент от тёплого конца стержня к холодному. Подписи в нескольких точках делают постепенное изменение наглядным.",
+      "phrase": "a temperature gradient",
+      "explanation": "Temperature gradient связывает изменение температуры с положением. В дизайне color gradient — плавный переход цвета. Важно назвать, какая именно величина меняется и в каком направлении.",
+      "registerTags": [
+        "technical"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С gradient опиши свою вымышленную схему: величина, две крайние точки и направление изменения."
+    },
+    {
+      "word": "amplitude",
+      "pos": "noun",
+      "meaningEn": "The size of an oscillation measured from its central or equilibrium position to an extreme.",
+      "meaningRu": "Величина отклонения колебания от среднего или равновесного положения до крайнего; амплитуда.",
+      "en": "The two waves have the same frequency, but the second has a larger amplitude. On the graph, its peaks rise farther above the center line.",
+      "ru": "У двух волн одинаковая частота, но у второй больше амплитуда. На графике её вершины поднимаются выше над средней линией.",
+      "phrase": "a larger amplitude",
+      "explanation": "Amplitude — величина отклонения, frequency — число колебаний за время. Амплитуда не равна полному расстоянию от впадины до вершины симметричной волны: это удвоенная амплитуда.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/amplitude"
+      ],
+      "registerTags": [
+        "physics"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С amplitude сравни две воображаемые волны с одинаковой частотой и разной высотой пиков."
+    },
+    {
+      "word": "inference",
+      "pos": "noun",
+      "meaningEn": "A conclusion reached by reasoning from available evidence rather than by direct observation.",
+      "meaningRu": "Вывод, полученный рассуждением на основе данных, а не прямым наблюдением.",
+      "en": "My inference was that the office was closed because the lights were off and the door was locked. A note on the window later confirmed the team was working elsewhere.",
+      "ru": "Я сделал вывод, что офис закрыт, потому что свет был выключен, а дверь заперта. Позже записка на окне подтвердила, что команда работала в другом месте.",
+      "phrase": "My inference was that",
+      "explanation": "Inference — вывод из признаков; observation — непосредственно замеченный факт. Inference from evidence, draw an inference — полезные сочетания. Новая информация может подтвердить или изменить вывод.",
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С inference опиши собственную вымышленную догадку, два наблюдаемых признака и способ проверки."
+    },
+    {
+      "word": "randomize",
+      "pos": "verb",
+      "meaningEn": "To arrange or assign items using a chance-based procedure.",
+      "meaningRu": "Распределять или упорядочивать с использованием случайной процедуры; рандомизировать.",
+      "en": "We'll randomize the order of the pictures for each participant to reduce systematic position effects. By chance, some pictures may still appear first more often than others.",
+      "ru": "Для каждого участника мы зададим случайный порядок изображений, чтобы уменьшить систематическое влияние позиции. По случайности некоторые изображения всё же могут оказываться первыми чаще других.",
+      "phrase": "randomize the order",
+      "explanation": "Randomize the order — применять случайный порядок. Это отличается от «выбрать порядок на глаз». Цель здесь снизить влияние позиции, а не решить все возможные проблемы исследования. Это не гарантирует идеально равномерного распределения позиций в небольшой выборке.",
+      "registerTags": [
+        "research"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С randomize предложи, как менять порядок элементов своего вымышленного теста и зачем."
+    },
+    {
+      "word": "elevation",
+      "pos": "noun",
+      "meaningEn": "The height of a place above a reference level, often sea level.",
+      "meaningRu": "Высота места относительно заданного уровня, часто уровня моря.",
+      "en": "The trail map gives the lake's elevation as 900 meters above sea level. The route also shows how much we climb from the starting point.",
+      "ru": "На карте тропы высота озера указана как 900 метров над уровнем моря. Маршрут также показывает, насколько мы поднимаемся от начальной точки.",
+      "phrase": "lake's elevation",
+      "explanation": "Elevation above sea level — абсолютная высота относительно моря. Elevation gain — набор высоты на маршруте; эти числа могут различаться. Условное озеро в примере не является туристической рекомендацией.",
+      "topic": {
+        "id": "travel",
+        "title": "Поездки и транспорт"
+      },
+      "task": "С elevation объясни другу разницу между высотой воображаемой точки над морем и подъёмом от начала маршрута."
+    },
+    {
+      "word": "diffusion",
+      "pos": "noun",
+      "meaningEn": "The spreading of particles through random motion, producing net movement from higher to lower concentration.",
+      "meaningRu": "Распространение частиц из-за случайного движения с суммарным переносом от большей концентрации к меньшей; диффузия.",
+      "en": "The animation uses diffusion to explain why particles become more evenly distributed over time. The arrows show random motion rather than every particle moving in one direction.",
+      "ru": "В анимации с помощью диффузии объясняют, почему со временем частицы распределяются равномернее. Стрелки показывают случайное движение, а не движение каждой частицы в одну сторону.",
+      "phrase": "uses diffusion to explain",
+      "explanation": "В диффузии направление суммарного переноса не означает одинаковую траекторию каждой частицы. В общественных науках diffusion of ideas — распространение идей, переносное применение.",
+      "registerTags": [
+        "science"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С diffusion объясни однокурснику, почему общий перенос и движение отдельной частицы — разные описания."
+    },
+    {
+      "word": "adaptive",
+      "pos": "adj",
+      "meaningEn": "Able to change in response to different conditions or needs.",
+      "meaningRu": "Способный изменяться в ответ на условия или потребности; адаптивный.",
+      "en": "The adaptive quiz gives me extra practice with questions I find difficult. When I can explain them clearly, it moves on to a different challenge.",
+      "ru": "Адаптивный тест даёт мне дополнительную практику с вопросами, которые вызывают трудности. Когда я могу ясно их объяснить, он переходит к другой задаче.",
+      "phrase": "The adaptive quiz",
+      "explanation": "Adaptive система реагирует на данные об условиях или пользователе. Просто случайная смена задания ещё не показывает адаптацию. Adaptable тоже значит способный приспосабливаться, часто о человеке или вещи.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "С adaptive опиши желаемое поведение учебного приложения после трудного и после уверенного ответа."
+    },
+    {
+      "word": "motif",
+      "pos": "noun",
+      "meaningEn": "A recurring image, idea or pattern in an artistic work.",
+      "meaningRu": "Повторяющийся образ, идея или узор в произведении; мотив.",
+      "en": "An open doorway is a recurring motif in the film. It appears whenever the main character faces a choice between staying and leaving.",
+      "ru": "Открытый дверной проём — повторяющийся мотив фильма. Он появляется всякий раз, когда главный герой выбирает между тем, чтобы остаться, и тем, чтобы уйти.",
+      "phrase": "a recurring motif",
+      "explanation": "Motif — повторяемый элемент произведения; motive — побуждение к действию. Мотив может поддерживать тему, но не равен всему сюжету. Здесь наблюдаемая повторяемость связана с выбором героя.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С recurring motif придумай повторяющийся образ для короткого фильма и объясни, в каких двух сценах он появится."
+    },
+    {
+      "word": "respiratory",
+      "pos": "adj",
+      "meaningEn": "Relating to breathing and the organs involved in it.",
+      "meaningRu": "Относящийся к дыханию и участвующим в нём органам; дыхательный.",
+      "en": "The anatomy lesson traces air through the respiratory system. Students label the route on a diagram and explain it aloud to a partner.",
+      "ru": "На уроке анатомии прослеживают путь воздуха через дыхательную систему. Студенты подписывают маршрут на схеме и устно объясняют его напарнику.",
+      "phrase": "the respiratory system",
+      "explanation": "Respiratory system — дыхательная система; respiration — дыхание. Прилагательное относится к функции и органам, а не автоматически к заболеванию.",
+      "registerTags": [
+        "biology"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С respiratory system сформулируй тему учебной презентации и вопрос, на который она должна ответить."
+    },
+    {
+      "word": "interviewer",
+      "pos": "noun",
+      "meaningEn": "A person who asks questions in an interview.",
+      "meaningRu": "Человек, задающий вопросы во время интервью или собеседования.",
+      "en": "The interviewer asked me to describe a disagreement I had helped resolve. She followed up with a question about what I would do differently next time.",
+      "ru": "Интервьюер попросила меня рассказать о разногласии, которое я помог разрешить. Затем она уточнила, что в следующий раз я сделал бы иначе.",
+      "phrase": "The interviewer asked",
+      "explanation": "Interviewer задаёт вопросы; interviewee отвечает. Follow up with a question — задать дополнительный вопрос по ответу. В собеседовании важно описать своё действие, а не только чужие ошибки.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "Со interviewer перескажи вымышленный вопрос на собеседовании и дай короткий ответ с конкретным действием."
+    },
+    {
+      "word": "pesticide",
+      "pos": "noun",
+      "meaningEn": "A substance used to control organisms considered harmful to crops, materials or other valued things.",
+      "meaningRu": "Вещество для контроля организмов, считающихся вредными для культур, материалов или других объектов; пестицид.",
+      "en": "The environmental report records which pesticide was used near the field. It separates the product name from measurements taken later in the water samples.",
+      "ru": "В экологическом отчёте записано, какой пестицид применяли возле поля. Название средства указано отдельно от результатов последующих измерений в пробах воды.",
+      "phrase": "which pesticide was used",
+      "explanation": "Pesticide — общее название средств против вредных организмов. Insecticide относится к насекомым, herbicide — к нежелательным растениям. Здесь чтение отчёта, не рекомендация применения средства.",
+      "registerTags": [
+        "environment"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С pesticide объясни, какие два разных вида информации нужно сохранить в вымышленном экологическом отчёте."
+    },
+    {
+      "word": "rehabilitation",
+      "pos": "noun",
+      "meaningEn": "A process of helping someone recover abilities or return to everyday participation after injury or serious difficulty.",
+      "meaningRu": "Процесс восстановления способностей и возвращения к повседневному участию после травмы или серьёзных трудностей; реабилитация.",
+      "en": "The documentary follows an athlete through rehabilitation after an injury. It focuses on gradual goals and support from a professional team, not an instant return to competition.",
+      "ru": "Документальный фильм показывает реабилитацию спортсмена после травмы. В центре внимания — постепенные цели и поддержка профессиональной команды, а не мгновенное возвращение к соревнованиям.",
+      "phrase": "through rehabilitation after an injury",
+      "explanation": "Rehabilitation — процесс восстановления; отдельная тренировка не весь процесс. Слово также используется в социальных и строительных контекстах, где уточняется, что именно восстанавливают.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "С rehabilitation напиши краткое описание вымышленного документального фильма и двух его тем."
+    },
+    {
+      "word": "fungus",
+      "pos": "noun",
+      "meaningEn": "An organism belonging to the group that includes mushrooms, molds and yeasts.",
+      "meaningRu": "Организм из группы, включающей грибы, плесени и дрожжи.",
+      "en": "The teacher explains that yeast is a fungus used in bread making. The class compares its role with that of the visible mushrooms in another photograph.",
+      "ru": "Преподаватель объясняет, что дрожжи — грибы, используемые при приготовлении хлеба. Класс сравнивает их роль с ролью видимых грибов на другой фотографии.",
+      "phrase": "yeast is a fungus",
+      "explanation": "Fungus — единственное число; fungi или funguses — множественное. Группа шире привычного гриба со шляпкой. Не каждый fungus является возбудителем болезни.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/fungus"
+      ],
+      "registerTags": [
+        "biology"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "С fungus и fungi объясни новичку, почему дрожжи и шляпочные грибы относятся к одной большой группе."
+    },
+    {
+      "word": "slab",
+      "pos": "noun",
+      "meaningEn": "A thick, flat piece of a solid material.",
+      "meaningRu": "Толстая плоская плита или кусок твёрдого материала.",
+      "en": "A cracked concrete slab made the entrance uneven. The repair team marked the area and planned to replace the damaged section before reopening the path.",
+      "ru": "Треснувшая бетонная плита сделала вход неровным. Ремонтная бригада обозначила участок и запланировала заменить повреждённую часть, прежде чем снова открыть дорожку.",
+      "phrase": "A cracked concrete slab",
+      "explanation": "Slab of concrete или concrete slab — бетонная плита. A slab of chocolate — большой толстый кусок шоколада. Главное в образе — плоская форма и заметная толщина.",
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "Со slab опиши повреждённый участок вымышленного входа и попроси указать, когда будет доступен безопасный обход."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "book_lesson_pipeline",
+    "checkedAt": "2026-09-10",
+    "scope": "All 30 meanings, EN/RU contexts, explanations and tasks read. Randomization guarantee corrected; fungus task no longer requires an absent photograph."
+  }
+}

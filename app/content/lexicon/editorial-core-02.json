@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-02-2026-09-10",
+    "title": "Original core contexts 02 — evidence, organizations and decisions",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original scenarios; source links verify usage rather than supply copied examples."
+  },
+  "entries": [
+    {
+      "word": "pathway",
+      "pos": "noun",
+      "meaningEn": "A route or sequence of steps toward a particular goal.",
+      "meaningRu": "Путь или последовательность шагов к определённой цели.",
+      "en": "The internship offers a pathway into software testing, but it doesn't guarantee a permanent job. Participants receive feedback and can apply for open positions afterward.",
+      "ru": "Стажировка открывает путь в тестирование программ, но не гарантирует постоянную работу. Участники получают обратную связь и после неё могут подавать заявки на открытые вакансии.",
+      "phrase": "a pathway into",
+      "explanation": "Pathway into a field — способ войти в профессиональную область. Это возможность, не обещание результата. В биологии pathway имеет другое, специальное значение.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "Объясни знакомому возможности стажировки и то, чего она не гарантирует. Используй pathway в собственном примере по этой теме."
+    },
+    {
+      "word": "tactic",
+      "pos": "noun",
+      "meaningEn": "A particular action used to help achieve a goal.",
+      "meaningRu": "Конкретный приём или действие для достижения цели.",
+      "en": "Offering a free trial is one tactic for attracting customers. We still need to find out whether those customers keep using the service after the trial ends.",
+      "ru": "Бесплатный пробный период — один из приёмов привлечения клиентов. Нам ещё нужно выяснить, продолжают ли эти клиенты пользоваться сервисом после его окончания.",
+      "phrase": "one tactic for attracting",
+      "explanation": "Tactic — отдельный приём внутри более широкого плана. Привлечь пользователя и удержать его — разные результаты; первое не доказывает второе.",
+      "topic": {
+        "id": "work-money",
+        "title": "Работа и деньги"
+      },
+      "task": "Предложи, как проверить, помогает ли пробный период удерживать клиентов. Используй tactic в собственном примере по этой теме."
+    },
+    {
+      "word": "variance",
+      "pos": "noun",
+      "meaningEn": "A statistical measure of spread based on squared differences from a mean.",
+      "meaningRu": "Дисперсия: статистическая мера разброса, основанная на квадратах отклонений от среднего.",
+      "en": "The two groups have the same average score, but their variance differs. Scores in the second group are more spread out, so the average hides an important difference.",
+      "ru": "У двух групп одинаковый средний балл, но разная дисперсия. Во второй группе оценки сильнее разбросаны, поэтому среднее скрывает важное различие.",
+      "phrase": "their variance differs",
+      "explanation": "Здесь variance — дисперсия, не просто любое различие. Mean описывает средний уровень, variance — разброс. Формула зависит от того, описываем ли мы всю совокупность или оцениваем её по выборке.",
+      "registerTags": [
+        "technical",
+        "statistics"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Объясни без формул, почему одинаковый средний балл ещё не делает группы одинаковыми. Используй variance в собственном примере по этой теме.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/variance"
+      ]
+    },
+    {
+      "word": "governance",
+      "pos": "noun",
+      "meaningEn": "The arrangements through which an organization is directed and held accountable.",
+      "meaningRu": "Устройство управления организацией и контроля ответственности.",
+      "en": "The nonprofit is reviewing its governance after a spending dispute. It wants clearer rules about who approves purchases and who checks the records.",
+      "ru": "После спора о расходах некоммерческая организация пересматривает порядок управления. Она хочет яснее определить, кто одобряет покупки и кто проверяет документы.",
+      "phrase": "reviewing its governance",
+      "explanation": "Governance относится к системе управления и подотчётности. Government чаще называет правительство; подстановка поменяет смысл этой организационной ситуации.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Предложи два понятных правила: для одобрения покупки и для проверки расходов. Используй governance в собственном примере по этой теме."
+    },
+    {
+      "word": "enquiry",
+      "pos": "noun",
+      "meaningEn": "A request for information; a spelling especially associated with British English.",
+      "meaningRu": "Запрос информации; написание, характерное прежде всего для британского английского.",
+      "en": "The British hotel answered my enquiry about late check-in. In my message to an American hotel, I would normally spell the same word inquiry.",
+      "ru": "Британский отель ответил на мой запрос о позднем заселении. В сообщении американскому отелю я обычно написал бы это же слово как inquiry.",
+      "phrase": "my enquiry about",
+      "explanation": "Enquiry особенно характерно для BrE; inquiry употребляется и в AmE, и в BrE. Здесь значение — запрос, не расследование. Для собственной американской переписки выбирай inquiry или более простое question.",
+      "variety": "en-GB-recognition",
+      "usAlternative": "inquiry",
+      "verificationSources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/enquiry"
+      ],
+      "topic": {
+        "id": "travel",
+        "title": "Поездки и транспорт"
+      },
+      "task": "Напиши американскому отелю вопрос о возможности заселиться после полуночи."
+    },
+    {
+      "word": "operational",
+      "pos": "adj",
+      "meaningEn": "Working and ready to be used.",
+      "meaningRu": "Работающий и готовый к использованию.",
+      "en": "The backup server is operational, but we haven't tested a full recovery yet. Being able to start it isn't the same as proving that every file can be restored.",
+      "ru": "Резервный сервер работает, но полное восстановление мы ещё не проверяли. Возможность его запустить не доказывает, что можно восстановить каждый файл.",
+      "phrase": "server is operational",
+      "explanation": "Operational здесь означает работающий. В operational costs прилагательное относится к текущей деятельности — это иной контекст. Не расширяй факт запуска до доказанной сохранности всех данных.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Сообщи руководителю, что уже работает и какую проверку ещё предстоит выполнить. Используй operational в собственном примере по этой теме."
+    },
+    {
+      "word": "mandate",
+      "pos": "noun",
+      "meaningEn": "Authority given to someone to carry out a defined task.",
+      "meaningRu": "Предоставленные полномочия на выполнение определённой задачи.",
+      "en": "The committee has a mandate to recommend changes, not to approve a new budget. Its report will go to the board for a separate decision.",
+      "ru": "Комитет уполномочен рекомендовать изменения, но не утверждать новый бюджет. Его отчёт передадут совету для отдельного решения.",
+      "phrase": "a mandate to recommend",
+      "explanation": "A mandate to do something — полномочия на действие. Их границы здесь заданы явно: рекомендации не равны утверждению бюджета. Это условия описанной организации.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Разграничь полномочия комитета и решение, которое остаётся за советом. Используй mandate в собственном примере по этой теме."
+    },
+    {
+      "word": "purchaser",
+      "pos": "noun",
+      "meaningEn": "A person or organization that buys something.",
+      "meaningRu": "Покупатель; человек или организация, приобретающие что-либо.",
+      "en": "The purchaser asked for a revised invoice because the delivery address was wrong. The seller will correct the document before dispatching the equipment.",
+      "ru": "Покупатель попросил исправленный счёт, потому что адрес доставки был неверным. Продавец исправит документ, прежде чем отправлять оборудование.",
+      "phrase": "The purchaser asked",
+      "explanation": "Purchaser — более формальное обозначение покупателя, чем buyer. В этой ситуации документ ещё исправят; не сообщай, что оборудование уже отправлено.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "shopping",
+        "title": "Покупки и услуги"
+      },
+      "task": "Напиши продавцу просьбу исправить адрес в счёте до отправки. Используй purchaser в собственном примере по этой теме."
+    },
+    {
+      "word": "specimen",
+      "pos": "noun",
+      "meaningEn": "An individual sample collected or selected for examination.",
+      "meaningRu": "Отдельный образец, отобранный для изучения.",
+      "en": "The museum labeled each rock specimen with its collection location. Without that record, similar-looking stones would be difficult to distinguish in the study.",
+      "ru": "Музей пометил каждый образец горной породы местом сбора. Без этой записи похожие камни было бы трудно различать в исследовании.",
+      "phrase": "each rock specimen",
+      "explanation": "Specimen — конкретный изучаемый образец; это не обязательно медицинский материал. Collection location описывает происхождение образца, а не место его нынешнего хранения.",
+      "registerTags": [
+        "science"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Объясни, какую информацию нужно сохранить об образце и зачем. Используй specimen в собственном примере по этой теме."
+    },
+    {
+      "word": "taxpayer",
+      "pos": "noun",
+      "meaningEn": "A person or organization that pays taxes.",
+      "meaningRu": "Человек или организация, уплачивающие налоги.",
+      "en": "The report explains how taxpayer money funded the park renovation. It lists the project's costs but doesn't claim that every resident paid the same amount.",
+      "ru": "В отчёте объясняется, как средства налогоплательщиков использовали для обновления парка. В нём перечислены расходы проекта, но не утверждается, что каждый житель заплатил одинаковую сумму.",
+      "phrase": "taxpayer money",
+      "explanation": "Taxpayer money — средства налогоплательщиков. Это источник финансирования, не расчёт личного взноса каждого жителя. Не приписывай отчёту данных, которых в нём нет.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "Перескажи, какие сведения даёт отчёт о парке и какого вывода сделать нельзя. Используй taxpayer в собственном примере по этой теме."
+    },
+    {
+      "word": "phonological",
+      "pos": "adj",
+      "meaningEn": "Relating to the sound system of a language and the patterns within it.",
+      "meaningRu": "Относящийся к звуковой системе языка и её закономерностям; фонологический.",
+      "en": "The lesson compares the phonological patterns of two languages. Students explain why a sound difference can distinguish words in one language without doing so in the other.",
+      "ru": "На уроке сравнивают закономерности звуковых систем двух языков. Студенты объясняют, почему различие звуков может различать слова в одном языке, но не выполнять эту функцию в другом.",
+      "phrase": "phonological patterns",
+      "explanation": "Phonological относится к системе и функции звуков. Это не синоним spelling («правописание»): одна и та же буква не гарантирует одну звуковую функцию. Физическое образование звука относится к фонетическому описанию.",
+      "registerTags": [
+        "technical",
+        "linguistics"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "Объясни начинающему, почему сравнение букв не заменяет сравнение звуковых систем. Используй phonological в собственном примере по этой теме.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/phonology"
+      ]
+    },
+    {
+      "word": "tariff",
+      "pos": "noun",
+      "meaningEn": "A tax applied to goods when they cross a country's border, especially on imports.",
+      "meaningRu": "Пошлина на товары при пересечении границы, прежде всего на импорт.",
+      "en": "The analyst's example adds an import tariff to the price of the equipment. It uses an invented rate to show the calculation, not a current legal charge.",
+      "ru": "В примере аналитика к стоимости оборудования добавляется импортная пошлина. Для демонстрации расчёта используется вымышленная ставка, а не действующий законный сбор.",
+      "phrase": "an import tariff",
+      "explanation": "Import tariff — импортная пошлина. Это значение не совпадает с любым тарифным планом мобильной связи. Число в учебной модели нельзя выдавать за актуальную ставку.",
+      "registerTags": [
+        "economics"
+      ],
+      "topic": {
+        "id": "work-money",
+        "title": "Работа и деньги"
+      },
+      "task": "Объясни цель вымышленной ставки и предупреди, какие реальные данные понадобятся для расчёта поставки. Используй tariff в собственном примере по этой теме."
+    },
+    {
+      "word": "aide",
+      "pos": "noun",
+      "meaningEn": "A person whose job is to assist another person in their work.",
+      "meaningRu": "Помощник, выполняющий рабочие поручения другого человека.",
+      "en": "The mayor's aide collected questions before the community meeting. She organized them by topic but did not promise that every proposal would be accepted.",
+      "ru": "Помощница мэра собрала вопросы перед встречей с жителями. Она распределила их по темам, но не обещала, что каждое предложение примут.",
+      "phrase": "The mayor's aide",
+      "explanation": "Aide — помощник-человек. Aid без -e обычно помощь или глагол помогать. Сбор вопросов — организационная работа, не согласие с предложениями.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "Передай жителю, что сделала помощница и каких обещаний она не давала. Используй aide в собственном примере по этой теме."
+    },
+    {
+      "word": "demographic",
+      "pos": "adj",
+      "meaningEn": "Relating to characteristics of a population, such as age or where people live.",
+      "meaningRu": "Относящийся к характеристикам населения, например возрасту или месту проживания.",
+      "en": "The survey includes demographic questions about age and location. Respondents can skip them, and the published summary will show groups rather than individual profiles.",
+      "ru": "В опросе есть демографические вопросы о возрасте и месте проживания. Участники могут их пропустить, а опубликованная сводка покажет группы, не отдельные профили.",
+      "phrase": "demographic questions",
+      "explanation": "Demographic questions описывают характеристики группы людей. Это не вопросы о характере человека. В контексте указаны возможность пропуска и способ публикации, но не доказана полная анонимность всех исходных данных.",
+      "registerTags": [
+        "research"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Объясни участнику, зачем заданы эти вопросы и что будет видно в опубликованной сводке. Используй demographic в собственном примере по этой теме.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/demographic"
+      ]
+    },
+    {
+      "word": "persist",
+      "pos": "verb",
+      "meaningEn": "To continue to exist or happen despite an attempt to stop or change it.",
+      "meaningRu": "Продолжаться или сохраняться, несмотря на попытки устранить или изменить.",
+      "en": "If the login errors persist after the update, send us the time and the error message. We need that information to investigate the remaining problem.",
+      "ru": "Если ошибки входа сохранятся после обновления, пришлите нам время и сообщение об ошибке. Эта информация нужна, чтобы исследовать оставшуюся проблему.",
+      "phrase": "errors persist",
+      "explanation": "Здесь persist относится к сохраняющимся ошибкам. Persist in doing something о человеке — продолжать действие, иногда вопреки сопротивлению; предлог in здесь не нужен после errors.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Ответь пользователю, какие сведения прислать, если обновление не устранит ошибку. Используй persist в собственном примере по этой теме."
+    },
+    {
+      "word": "trustee",
+      "pos": "noun",
+      "meaningEn": "A person entrusted with overseeing assets or an organization's affairs for others.",
+      "meaningRu": "Доверенное лицо или член попечительского органа, контролирующий имущество либо дела организации в интересах других.",
+      "en": "As a museum trustee, Elena reviews major spending proposals with the rest of the board. She doesn't manage the ticket desk or supervise daily tours.",
+      "ru": "Как член попечительского совета музея Елена рассматривает крупные предложения о расходах вместе с остальными членами совета. Она не управляет билетной кассой и не руководит ежедневными экскурсиями.",
+      "phrase": "a museum trustee",
+      "explanation": "Trustee здесь роль в попечительском управлении. Конкретные полномочия зависят от организации; пример разграничивает надзор за крупными расходами и текущую работу.",
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Опиши роль Елены новому волонтёру, отделив её от ежедневного управления музеем. Используй trustee в собственном примере по этой теме."
+    },
+    {
+      "word": "hierarchy",
+      "pos": "noun",
+      "meaningEn": "An arrangement in which people or things are placed at different levels of authority or importance.",
+      "meaningRu": "Иерархия: устройство с разными уровнями полномочий или значимости.",
+      "en": "The diagram shows the company's management hierarchy. It explains who reports to whom, but it doesn't show every informal working relationship.",
+      "ru": "На схеме показана иерархия управления компанией. Она объясняет, кто кому подчиняется, но не показывает все неформальные рабочие связи.",
+      "phrase": "management hierarchy",
+      "explanation": "Hierarchy — структура уровней. Report to a manager означает подчиняться руководителю, а не просто один раз сообщить ему новость. Формальная схема не исчерпывает взаимодействий команды.",
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Объясни новому сотруднику, что можно и чего нельзя узнать из такой схемы. Используй hierarchy в собственном примере по этой теме."
+    },
+    {
+      "word": "diagnose",
+      "pos": "verb",
+      "meaningEn": "To identify the cause or nature of a problem by examining evidence.",
+      "meaningRu": "Установить характер или причину проблемы на основе исследования данных.",
+      "en": "We need the crash logs to diagnose the server problem. Restarting the service may restore access without revealing why it failed.",
+      "ru": "Чтобы установить причину проблемы сервера, нам нужны журналы сбоев. Перезапуск сервиса может восстановить доступ, не показав, почему произошёл сбой.",
+      "phrase": "diagnose the server problem",
+      "explanation": "Diagnose употребляется и вне медицины: определить причину технической проблемы. Восстановить работу и установить причину — разные цели. May показывает возможность, не обещанный результат.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Объясни коллеге, зачем сохранять журналы, даже если перезапуск помог. Используй diagnose в собственном примере по этой теме."
+    },
+    {
+      "word": "jurisdiction",
+      "pos": "noun",
+      "meaningEn": "The authority to make or enforce decisions within a particular area or range of matters.",
+      "meaningRu": "Полномочия принимать или исполнять решения на определённой территории либо по определённым вопросам; юрисдикция.",
+      "en": "The fictional court must first decide whether the dispute falls within its jurisdiction. The exercise asks students to identify that preliminary question, not to predict the final judgment.",
+      "ru": "Вымышленный суд должен сначала решить, относится ли спор к его юрисдикции. Задание просит студентов определить этот предварительный вопрос, а не предсказать итоговое решение.",
+      "phrase": "within its jurisdiction",
+      "explanation": "Within a court's jurisdiction касается полномочий рассматривать вопрос. Это отличается от того, кто прав в споре. Здесь учебная ситуация без указания действующей правовой системы.",
+      "registerTags": [
+        "legal"
+      ],
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "Объясни своими словами разницу между полномочием рассмотреть спор и решением по существу. Используй jurisdiction в собственном примере по этой теме.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/jurisdiction"
+      ]
+    },
+    {
+      "word": "reassure",
+      "pos": "verb",
+      "meaningEn": "To help someone feel less worried by giving information or support.",
+      "meaningRu": "Успокоить или уменьшить тревогу человека с помощью информации либо поддержки.",
+      "en": "I want to reassure the client that we saved the original files. I can show the backup record, but I won't promise a recovery time until we test it.",
+      "ru": "Я хочу успокоить клиента, сообщив, что мы сохранили исходные файлы. Я могу показать запись о резервной копии, но не буду обещать срок восстановления до проверки.",
+      "phrase": "reassure the client",
+      "explanation": "Reassure someone that… — успокоить сообщением. Убедительная поддержка опирается на проверяемый факт, а не на обещание, которого команда пока не может подтвердить.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "Напиши клиенту спокойный ответ с подтверждённым фактом и ясной границей неизвестного. Используй reassure в собственном примере по этой теме."
+    },
+    {
+      "word": "nominee",
+      "pos": "noun",
+      "meaningEn": "A person formally proposed for an award, position or role.",
+      "meaningRu": "Человек, официально выдвинутый на награду, должность или роль; номинант.",
+      "en": "Each nominee will give a short presentation before the panel selects the winner. Being nominated is an achievement, but it doesn't mean the award has been won.",
+      "ru": "Каждый номинант выступит с короткой презентацией, прежде чем комиссия выберет победителя. Номинация — достижение, но она не означает, что награда уже получена.",
+      "phrase": "Each nominee",
+      "explanation": "Nominee — выдвинутый кандидат. Winner — уже выбранный победитель. Не переводить nominated как «победил», если решение ещё впереди.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "Поздравь знакомого с номинацией, не объявляя его победителем. Используй nominee в собственном примере по этой теме."
+    },
+    {
+      "word": "surf",
+      "pos": "verb",
+      "meaningEn": "To ride waves while standing or lying on a board.",
+      "meaningRu": "Кататься на волнах на доске; заниматься сёрфингом.",
+      "en": "I'd like to learn to surf during the trip, so I booked a beginner lesson. I haven't decided whether to rent a board for the rest of the week.",
+      "ru": "Я хотел бы научиться сёрфингу во время поездки, поэтому записался на урок для начинающих. Я ещё не решил, брать ли доску напрокат на оставшуюся неделю.",
+      "phrase": "learn to surf",
+      "explanation": "Surf здесь спорт. Surf the web означает просматривать интернет — другой объект и ситуация. Бронирование первого занятия не говорит об уже приобретённом навыке.",
+      "topic": {
+        "id": "interests",
+        "title": "Интересы и свободное время"
+      },
+      "task": "Расскажи другу о запланированном уроке и решении, которое ещё не принято. Используй surf в собственном примере по этой теме."
+    },
+    {
+      "word": "methodology",
+      "pos": "noun",
+      "meaningEn": "The organized approach and principles used to conduct a study or task.",
+      "meaningRu": "Система подходов и принципов проведения исследования или работы; методология.",
+      "en": "The report's methodology explains how participants were selected and how answers were analyzed. Readers need those details to judge the limits of the conclusions.",
+      "ru": "В разделе о методологии объясняется, как отбирали участников и анализировали ответы. Эти детали нужны читателям для оценки ограничений выводов.",
+      "phrase": "The report's methodology",
+      "explanation": "Methodology — описание подхода к исследованию; один конкретный приём можно назвать method. Красивый график не заменяет объяснения того, откуда взялись данные.",
+      "registerTags": [
+        "academic"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Задай автору два вопроса: об отборе участников и об анализе ответов. Используй methodology в собственном примере по этой теме."
+    },
+    {
+      "word": "thereafter",
+      "pos": "adv",
+      "meaningEn": "After that point in time.",
+      "meaningRu": "После этого момента; впоследствии.",
+      "en": "The first month costs ten dollars; thereafter, the monthly price rises to fifteen. The customer asks when the higher rate will first appear on the bill.",
+      "ru": "Первый месяц стоит десять долларов; после этого ежемесячная цена повышается до пятнадцати. Клиент спрашивает, когда повышенная ставка впервые появится в счёте.",
+      "phrase": "thereafter, the monthly price",
+      "explanation": "Thereafter — формальное after that. В этом примере точка отсчёта — конец первого месяца, не момент прочтения объявления. Цены вымышленные, используются для понимания условий.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "shopping",
+        "title": "Покупки и услуги"
+      },
+      "task": "Перескажи условия простым языком и задай вопрос о дате второго платежа. Используй thereafter в собственном примере по этой теме."
+    },
+    {
+      "word": "spatial",
+      "pos": "adj",
+      "meaningEn": "Relating to the positions, distances and arrangement of things in space.",
+      "meaningRu": "Связанный с расположением, расстояниями и устройством объектов в пространстве.",
+      "en": "The designer tested the room's spatial layout with tape on the floor. The plan looked fine on paper, but the marked walkway was too narrow.",
+      "ru": "Дизайнер проверил пространственную планировку комнаты, обозначив её лентой на полу. На бумаге план выглядел хорошо, но размеченный проход оказался слишком узким.",
+      "phrase": "spatial layout",
+      "explanation": "Spatial относится к пространству и расположению, а не к outer space как теме космоса. Макет в реальном масштабе выявил ограничение, неочевидное на плане.",
+      "registerTags": [
+        "technical"
+      ],
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "Объясни, что обнаружила проверка и какое изменение планировки ты предложишь. Используй spatial в собственном примере по этой теме."
+    },
+    {
+      "word": "delegation",
+      "pos": "noun",
+      "meaningEn": "The act of assigning a task or responsibility to another person.",
+      "meaningRu": "Передача задачи или ответственности другому человеку; делегирование.",
+      "en": "Effective delegation means explaining the result you need and the decisions the person can make. Forwarding a vague email leaves both the task and the authority unclear.",
+      "ru": "Эффективное делегирование предполагает объяснение нужного результата и решений, которые человек вправе принимать. Пересылка неясного письма оставляет непонятными и задачу, и полномочия.",
+      "phrase": "Effective delegation",
+      "explanation": "Delegation здесь действие передачи работы. A delegation of visitors — группа представителей, другое значение. В рабочем поручении отдельно указывают результат и допустимые самостоятельные решения.",
+      "topic": {
+        "id": "work-communication",
+        "title": "Рабочее общение"
+      },
+      "task": "Поручи коллеге подготовить встречу: укажи результат и одно решение, которое он может принять сам. Используй delegation в собственном примере по этой теме."
+    },
+    {
+      "word": "interim",
+      "pos": "adj",
+      "meaningEn": "Temporary, until a final or longer-term arrangement is made.",
+      "meaningRu": "Временный, действующий до окончательного или постоянного решения.",
+      "en": "An interim manager will lead the team while the company recruits a permanent replacement. The announcement doesn't say whether she will apply for the permanent role.",
+      "ru": "Временный руководитель будет возглавлять команду, пока компания ищет постоянную замену. В объявлении не говорится, будет ли она претендовать на постоянную должность.",
+      "phrase": "An interim manager",
+      "explanation": "Interim manager — руководитель на переходный период. Это не синоним trainee или inexperienced: временность назначения ничего не говорит об опыте.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Передай команде, кто будет руководить сейчас, и не домысливай планы кандидата. Используй interim в собственном примере по этой теме."
+    },
+    {
+      "word": "cling",
+      "pos": "verb",
+      "meaningEn": "To hold tightly onto someone or something.",
+      "meaningRu": "Крепко держаться за кого-либо или что-либо; цепляться.",
+      "en": "The child continued to cling to her father's hand in the crowded station. He stopped walking until she felt ready to move again.",
+      "ru": "На переполненном вокзале ребёнок продолжал крепко держаться за руку отца. Отец остановился и подождал, пока дочь снова будет готова идти.",
+      "phrase": "cling to her father's hand",
+      "explanation": "Cling to — крепко держаться; предлог to связывает действие с опорой. Прошедшая форма clung, не clinged. Здесь физическое действие, хотя cling to an idea бывает переносным.",
+      "topic": {
+        "id": "family",
+        "title": "Семья и отношения"
+      },
+      "task": "Расскажи эту сцену в прошедшем времени, употребив clung to и объяснив реакцию отца."
+    },
+    {
+      "word": "vein",
+      "pos": "noun",
+      "meaningEn": "A blood vessel that carries blood toward the heart.",
+      "meaningRu": "Кровеносный сосуд, по которому кровь движется к сердцу; вена.",
+      "en": "The biology diagram labels a vein and an artery with arrows showing the direction of blood flow. Students must use the arrows rather than guess from the colors alone.",
+      "ru": "На биологической схеме подписаны вена и артерия, а стрелки показывают направление кровотока. Студенты должны опираться на стрелки, а не угадывать только по цветам.",
+      "phrase": "labels a vein",
+      "explanation": "Вена определяется направлением к сердцу; цвет на учебной схеме — условное обозначение. Не заменяй это определение утверждением, будто любая вена всегда несёт кровь без кислорода.",
+      "registerTags": [
+        "biology"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Объясни однокурснику, какой признак следует проверять на схеме, чтобы распознать вену. Используй vein в собственном примере по этой теме.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/vein"
+      ]
+    },
+    {
+      "word": "maximize",
+      "pos": "verb",
+      "meaningEn": "To increase something as much as possible within the available limits.",
+      "meaningRu": "Увеличить что-либо до максимально возможного уровня в имеющихся условиях.",
+      "en": "We want to maximize useful practice during the lesson, so we'll shorten the instructions. That doesn't mean making students work faster at the expense of understanding.",
+      "ru": "Мы хотим максимально увеличить полезную практику на уроке, поэтому сократим инструкции. Это не означает заставлять студентов работать быстрее в ущерб пониманию.",
+      "phrase": "maximize useful practice",
+      "explanation": "Maximize — сделать величину максимально возможной; minimize — минимизировать. Здесь цель качественная практика, не просто больше ответов в минуту. Maximize — американское написание.",
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "Предложи одно изменение урока, которое увеличит полезную практику и сохранит понимание. Используй maximize в собственном примере по этой теме."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "root",
+    "checkedAt": "2026-09-10",
+    "scope": "All 30 meanings, English and Russian contexts, explanations, tasks and variety notes; no material errors. One Russian style clarification applied."
+  }
+}

@@ -1,0 +1,215 @@
+/* Cobalt Bento: size the type for reading, then give the cards room for it. */
+[data-design=bento] {
+  --bento-label: .8125rem;
+  --bento-note: .875rem;
+  --bento-body: 1rem;
+}
+
+[data-design=bento] .nav a { font-size: .9375rem; padding: 12px 13px; }
+[data-design=bento] .nav-group { font-size: .6875rem; letter-spacing: .12em; }
+[data-design=bento] .brand small { font-size: .75rem; }
+[data-design=bento] .crumb { font-size: .9375rem; }
+[data-design=bento] .timer { font-size: .875rem; font-variant-numeric: tabular-nums; }
+[data-design=bento] .top-tools .save-status { font-size: .8125rem; }
+[data-design=bento] .theme-toggle { width: 40px; height: 40px; }
+[data-design=bento] .eyebrow { font-size: .75rem; line-height: 1.5; letter-spacing: .09em; }
+[data-design=bento] .small-note { font-size: var(--bento-note); line-height: 1.6; }
+[data-design=bento] .text-link { font-size: .9375rem; line-height: 1.5; }
+[data-design=bento] .btn { font-size: .9375rem; min-height: 44px; padding: 10px 14px; }
+[data-design=bento] .btn.small { font-size: .875rem; min-height: 36px; padding: 7px 10px; }
+[data-design=bento] :is(.hero-copy, .dash-output) .btn { min-height: 48px; padding: 11px 17px; }
+[data-design=bento] .review-ratings .btn { min-height: 64px; padding: 10px 12px; }
+[data-design=bento] .pill { font-size: .8125rem; }
+
+[data-design=bento] .dashboard-title { margin-bottom: 32px; }
+[data-design=bento] .dashboard-title h1 {
+  font-size: clamp(2.5rem, 3.3vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+[data-design=bento] .dashboard-title p { font-size: 1rem; line-height: 1.6; }
+[data-design=bento] .dashboard-date { font-size: 1rem; }
+[data-design=bento] .dashboard-date span { font-size: .875rem; }
+[data-design=bento] .dashboard-date a { font-size: .875rem; }
+[data-design=bento] .dash-grid { gap: 20px; }
+[data-design=bento] .dash-grid > .surface { padding: 28px; }
+
+[data-design=bento] .dash-hero { min-height: 460px; }
+[data-design=bento] .hero-copy { padding: 32px; width: min(88%, 510px); }
+[data-design=bento] .hero-copy .eyebrow { font-size: .75rem; }
+[data-design=bento] .hero-copy h2 {
+  font-size: clamp(2rem, 2.6vw, 2.75rem);
+  max-width: 410px;
+  margin: 36px 0 20px;
+  line-height: 1.15;
+}
+[data-design=bento] .hero-copy p { font-size: 1rem; line-height: 1.7; max-width: 380px; }
+[data-design=bento] .hero-copy small { font-size: .8125rem; line-height: 1.6; max-width: 370px; }
+[data-design=bento] .hero-folio { font-size: .625rem; letter-spacing: .12em; }
+
+[data-design=bento] :is(.dash-count, .dash-words) {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 290px;
+}
+[data-design=bento] :is(.dash-count, .dash-words) > .eyebrow {
+  font-size: .75rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+[data-design=bento] :is(.dash-count, .dash-words) > .eyebrow .icon { width: 19px; height: 19px; }
+[data-design=bento] :is(.dash-count, .dash-words) strong {
+  display: block;
+  font-size: clamp(4rem, 4.2vw, 5rem);
+  font-weight: 550;
+  letter-spacing: -.05em;
+  line-height: 1;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+[data-design=bento] :is(.dash-count, .dash-words) strong span {
+  display: block;
+  font-size: .9375rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin: 10px 0 0;
+}
+[data-design=bento] .tiny-levels { font-size: .8125rem; line-height: 1.5; margin: 24px 0 10px; }
+[data-design=bento] .dash-count small { font-size: .875rem; line-height: 1.5; }
+[data-design=bento] .dash-words p { font-size: .875rem; line-height: 1.6; margin: 18px 0; }
+[data-design=bento] .dash-words .text-link { font-size: .875rem; margin-top: auto; padding-top: 12px; }
+
+[data-design=bento] .dash-session h3 { font-size: 1.25rem; }
+[data-design=bento] .dash-session > .small-note { margin: 8px 0 12px; }
+[data-design=bento] .session-line {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) max-content;
+  gap: 16px;
+  padding: 17px 0;
+}
+[data-design=bento] .session-no {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--surface2);
+  font-size: .875rem;
+  font-variant-numeric: tabular-nums;
+}
+[data-design=bento] .session-line strong { font-size: 1.0625rem; line-height: 1.4; }
+[data-design=bento] .session-line small { font-size: .875rem; line-height: 1.5; margin-top: 5px; }
+[data-design=bento] .session-line > span:last-child {
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+[data-design=bento] .dash-cinema { padding: 26px; gap: 26px; min-height: 254px; }
+[data-design=bento] .dash-poster { width: 134px; min-width: 134px; min-height: 202px; padding: 20px 16px; }
+[data-design=bento] .dash-poster > span { font-size: 1.875rem; }
+[data-design=bento] .dash-cinema .eyebrow { font-size: .75rem; }
+[data-design=bento] .dash-cinema h2 { font-size: 1.875rem; line-height: 1.2; }
+[data-design=bento] .dash-cinema p { font-size: .9375rem; line-height: 1.65; }
+[data-design=bento] .dash-cinema .text-link { font-size: .9375rem; }
+[data-design=bento] .dash-output h2 { font-size: 2rem; line-height: 1.2; }
+[data-design=bento] .dash-output p { font-size: 1rem; max-width: 410px; }
+[data-design=bento] .dash-progress > div { gap: 10px 20px; margin: 30px 0; }
+[data-design=bento] .dash-progress strong {
+  font-size: clamp(2.5rem, 3vw, 3.5rem);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+}
+[data-design=bento] .dash-progress > div span { font-size: .875rem; line-height: 1.5; }
+[data-design=bento] .dashboard-footer { font-size: .8125rem; line-height: 1.6; }
+
+/* Carry the same hierarchy into the programme and progress counters. */
+[data-design=bento] :is(.path-summary, .research-intro) strong { font-size: 3rem; line-height: 1.15; }
+[data-design=bento] :is(.path-summary, .research-intro) span { font-size: .875rem; line-height: 1.5; }
+[data-design=bento] .level-rail strong { font-size: 2.25rem; }
+[data-design=bento] .level-rail small { font-size: .8125rem; }
+[data-design=bento] .stat strong { font-size: 2.5rem; font-variant-numeric: tabular-nums; }
+[data-design=bento] .stat-label { font-size: .875rem; }
+
+@media (min-width: 1051px) {
+  [data-design=bento] .sidebar { width: 248px; }
+  [data-design=bento] .content { margin-left: 248px; }
+}
+@media (min-width: 681px) and (max-width: 1050px) {
+  [data-design=bento] .sidebar { width: 224px; }
+  [data-design=bento] .content { margin-left: 224px; }
+  [data-design=bento] .nav a { padding-left: 10px; padding-right: 10px; gap: 8px; }
+}
+@media (max-width: 1350px) {
+  [data-design=bento] .dash-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: "hero hero" "count words" "session session" "cinema cinema" "output output" "progress progress";
+  }
+  [data-design=bento] .dash-hero { min-height: 390px; }
+  [data-design=bento] .hero-copy { width: min(85%, 530px); }
+  [data-design=bento] .hero-copy h2 { margin-top: 26px; }
+  [data-design=bento] .dash-words p { display: block; }
+  [data-design=bento] .dash-progress strong { font-size: 3rem; }
+}
+@media (max-width: 680px) {
+  [data-design=bento] .content { margin-left: 0; }
+  [data-design=bento] .crumb { font-size: .8125rem; }
+  [data-design=bento] .timer { font-size: .75rem; padding: 8px; }
+  [data-design=bento] .theme-toggle { width: 34px; height: 34px; }
+  [data-design=bento] .dashboard-title h1 { font-size: 2.25rem; }
+  [data-design=bento] .dashboard-title p { font-size: .9375rem; }
+  [data-design=bento] .dashboard-title .eyebrow { font-size: .6875rem; }
+  [data-design=bento] .dash-grid { gap: 14px; }
+  [data-design=bento] .dash-grid > .surface { padding: 22px; }
+  [data-design=bento] .hero-copy { width: 100%; padding: 25px; }
+  [data-design=bento] .hero-copy h2 { font-size: 2rem; margin-top: 28px; }
+  [data-design=bento] .hero-copy p { font-size: .9375rem; }
+  [data-design=bento] .hero-copy small { font-size: .8125rem; }
+  [data-design=bento] :is(.dash-count, .dash-words) strong { font-size: 3.5rem; }
+  [data-design=bento] :is(.dash-count, .dash-words) strong span { font-size: .875rem; }
+  [data-design=bento] :is(.dash-count, .dash-words) > .eyebrow { min-height: 36px; margin-bottom: 12px; }
+  [data-design=bento] .tiny-levels { font-size: .75rem; gap: 3px; }
+  [data-design=bento] .tiny-levels i { display: block; flex: 1 1 0; min-width: 0; width: auto; max-width: 10px; }
+  [data-design=bento] .dash-count small { font-size: .8125rem; }
+  [data-design=bento] .session-line { grid-template-columns: 30px minmax(0, 1fr) max-content; gap: 12px; }
+  [data-design=bento] .session-no { width: 30px; height: 30px; font-size: .8125rem; border-radius: 8px; }
+  [data-design=bento] .session-line strong { font-size: 1rem; }
+  [data-design=bento] .session-line small { font-size: .8125rem; }
+  [data-design=bento] .session-line > span:last-child { font-size: 1.125rem; }
+  [data-design=bento] .dash-session > .spread { gap: 8px; }
+  [data-design=bento] .dash-session h3 { font-size: 1.125rem; }
+  [data-design=bento] .dash-session .pill { white-space: nowrap; }
+  [data-design=bento] .dash-cinema { padding: 22px; gap: 18px; }
+  [data-design=bento] .dash-poster { width: 95px; min-width: 95px; min-height: 188px; padding: 15px 12px; }
+  [data-design=bento] .dash-poster > span { font-size: 1.5rem; }
+  [data-design=bento] .dash-cinema h2 { font-size: 1.5rem; }
+  [data-design=bento] .dash-cinema p { font-size: .875rem; }
+  [data-design=bento] .dash-cinema .eyebrow { font-size: .6875rem; }
+  [data-design=bento] .dash-output h2 { font-size: 1.875rem; }
+  [data-design=bento] .dash-progress strong { font-size: 2.5rem; }
+  [data-design=bento] .dash-progress > div { gap: 8px 12px; }
+  [data-design=bento] .dash-progress > div span { font-size: .8125rem; }
+  [data-design=bento] .dashboard-footer { font-size: .75rem; }
+  [data-design=bento] :is(.path-summary, .research-intro) strong { font-size: 2.25rem; }
+  [data-design=bento] :is(.path-summary, .research-intro) span { font-size: .75rem; }
+  [data-design=bento] .level-rail strong { font-size: 1.75rem; }
+  [data-design=bento] .level-rail small { font-size: .75rem; }
+}
+@media (max-width: 420px) {
+  [data-design=bento] .dash-grid { grid-template-areas: "hero hero" "count count" "words words" "session session" "cinema cinema" "output output" "progress progress"; }
+  [data-design=bento] :is(.dash-count, .dash-words) { min-height: 0; }
+  [data-design=bento] :is(.dash-count, .dash-words) > .eyebrow { min-height: 0; }
+  [data-design=bento] .dash-count strong span { display: inline; margin-left: 12px; }
+  [data-design=bento] .dash-cinema { flex-direction: column; align-items: flex-start; }
+  [data-design=bento] .dash-poster { width: 100%; align-self: auto; min-height: 132px; }
+  [data-design=bento] .dash-poster > span { font-size: 1.625rem; }
+  [data-design=bento] .dash-poster small { bottom: 18px; left: auto; right: 16px; font-size: .5rem; }
+  [data-design=bento] .dash-progress > div { grid-template-columns: 1fr auto; grid-auto-flow: row; grid-template-rows: none; align-items: baseline; gap: 14px; }
+  [data-design=bento] .dash-progress > div span { font-size: .875rem; text-align: right; }
+}
+
+[data-design=bento] .capture-mode .content { margin-left: 0; }

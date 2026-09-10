@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "approved": true,
+  "source": {
+    "id": "english-core-01-2026-09-10",
+    "title": "Original core contexts 01 — work, services and public life",
+    "author": "English project contributors",
+    "license": "original-project-content",
+    "checkedAt": "2026-09-10",
+    "note": "Original examples and translations. Dictionary links verify specific usage; no dictionary examples copied."
+  },
+  "entries": [
+    {
+      "word": "portfolio",
+      "pos": "noun",
+      "meaningEn": "A selected collection of someone's work, shown to demonstrate their skills.",
+      "meaningRu": "Подборка работ, показывающая навыки автора.",
+      "en": "Please add two recent projects to your design portfolio. For each one, explain what you created yourself and what the rest of the team contributed.",
+      "ru": "Пожалуйста, добавь два недавних проекта в своё дизайнерское портфолио. Для каждого объясни, что ты создал сам, а что сделали остальные участники команды.",
+      "phrase": "design portfolio",
+      "explanation": "Здесь portfolio — работы для оценки навыков, а не набор финансовых активов. Контекст требует отделить свой вклад от командного; наличие проекта в портфолио не означает единоличное авторство.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "Опиши один проект для портфолио: цель, твоя работа и вклад коллег. Используй portfolio в собственном примере по этой теме."
+    },
+    {
+      "word": "developmental",
+      "pos": "adj",
+      "meaningEn": "Connected with how abilities or living things grow and change over time.",
+      "meaningRu": "Связанный с развитием и изменением способностей или живых организмов.",
+      "en": "The developmental study follows the same children for three years. Researchers record changes in their language skills without treating every difference as a problem.",
+      "ru": "В исследовании развития за одними и теми же детьми наблюдают три года. Исследователи фиксируют изменения языковых навыков, не считая каждое различие проблемой.",
+      "phrase": "developmental study",
+      "explanation": "Developmental относится к процессу развития. Это не development team's study: речь о том, что изучают, а не о названии команды. Из различий между детьми сами по себе не следуют диагнозы.",
+      "registerTags": [
+        "academic"
+      ],
+      "topic": {
+        "id": "learning",
+        "title": "Учёба и развитие"
+      },
+      "task": "Объясни, что и в течение какого времени изучают исследователи. Используй developmental в собственном примере по этой теме."
+    },
+    {
+      "word": "dividend",
+      "pos": "noun",
+      "meaningEn": "A payment a company makes to its shareholders from money available for distribution.",
+      "meaningRu": "Дивиденд: выплата компании владельцам её акций.",
+      "en": "The company paid a small dividend this year but warned that future payments might change. Maya keeps that payment separate from changes in her shares' market value.",
+      "ru": "В этом году компания выплатила небольшой дивиденд, но предупредила, что будущие выплаты могут измениться. Майя отличает эту выплату от изменения рыночной стоимости своих акций.",
+      "phrase": "paid a small dividend",
+      "explanation": "Dividend — выплата акционеру; рост цены акции — другой вид изменения стоимости. В этой вымышленной ситуации выплата была, но её повторение не гарантировано.",
+      "topic": {
+        "id": "work-money",
+        "title": "Работа и деньги"
+      },
+      "task": "Объясни другу разницу между полученным дивидендом и ростом цены акции. Используй dividend в собственном примере по этой теме."
+    },
+    {
+      "word": "fuck",
+      "pos": "verb",
+      "meaningEn": "In fuck up, to spoil something or make a serious mistake; strongly informal and vulgar.",
+      "meaningRu": "В сочетании fuck up — сильно напортачить или испортить дело; грубо.",
+      "en": "I don't want to fuck up the presentation by using the wrong numbers. I'll check the spreadsheet before I send the slides to the client.",
+      "ru": "Я не хочу облажаться с презентацией из-за неверных цифр. Я проверю таблицу, прежде чем отправлять слайды клиенту.",
+      "phrase": "fuck up the presentation",
+      "explanation": "Здесь изучается fuck up, а не сексуальное значение отдельного глагола. Это грубая реплика в неформальном разговоре; клиенту естественнее написать make a mistake in the presentation или use incorrect figures. Не переноси грубость в деловое письмо автоматически.",
+      "registerTags": [
+        "vulgar",
+        "very-informal"
+      ],
+      "usAlternative": "make a mistake in the presentation",
+      "verificationSources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/fuck-up"
+      ],
+      "topic": {
+        "id": "spoken-register",
+        "title": "Разговорная речь и регистр"
+      },
+      "task": "Передай ту же обеспокоенность клиенту нейтрально и сообщи, что ты проверишь."
+    },
+    {
+      "word": "equity",
+      "pos": "noun",
+      "meaningEn": "An ownership interest in a company, rather than a loan to it.",
+      "meaningRu": "Доля владения компанией, в отличие от предоставленного ей займа.",
+      "en": "The investor offered cash in exchange for equity in the startup. The founders asked how much ownership they would give up before discussing the offer further.",
+      "ru": "Инвестор предложил деньги в обмен на долю в стартапе. Прежде чем дальше обсуждать предложение, основатели спросили, какую часть собственности им придётся передать.",
+      "phrase": "equity in the startup",
+      "explanation": "Здесь equity относится к владению компанией. Другие значения — собственный капитал и справедливость — требуют иных контекстов. Предложение инвестора ещё не означает заключённую сделку.",
+      "topic": {
+        "id": "work-money",
+        "title": "Работа и деньги"
+      },
+      "task": "Сформулируй инвестору вопрос о размере доли и одном условии предложения. Используй equity в собственном примере по этой теме."
+    },
+    {
+      "word": "headquarter",
+      "pos": "verb",
+      "meaningEn": "To establish an organization's main base in a particular place.",
+      "meaningRu": "Разместить главный офис или основную базу организации в определённом месте.",
+      "en": "We plan to headquarter the company in Denver while allowing engineers to work remotely. The location of the main office won't determine where every employee lives.",
+      "ru": "Мы планируем разместить главный офис компании в Денвере, сохранив инженерам возможность работать удалённо. Место главного офиса не будет определять, где живёт каждый сотрудник.",
+      "phrase": "headquarter the company",
+      "explanation": "Headquarter здесь глагол после to. Существительное headquarters сохраняет -s даже для одного главного офиса; a headquarter как обычное название офиса не подставляй. Часто встретится be headquartered in.",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/headquarter",
+        "https://www.oxfordlearnersdictionaries.com/definition/english/headquarters"
+      ],
+      "topic": {
+        "id": "organizations",
+        "title": "Организации и общество"
+      },
+      "task": "Сообщи кандидату, где планируется главный офис и обязательно ли жить в этом городе. Используй headquarter в собственном примере по этой теме."
+    },
+    {
+      "word": "sophisticate",
+      "pos": "noun",
+      "meaningEn": "A person seen as experienced in culture and fashionable social life.",
+      "meaningRu": "Искушённый человек, хорошо знакомый с культурой и светской жизнью.",
+      "en": "The novel presents Leo as an urban sophisticate who knows every new gallery. At home, however, he admits that he often feels out of place.",
+      "ru": "В романе Лео представлен как искушённый горожанин, знающий каждую новую галерею. Однако дома он признаётся, что часто чувствует себя не на своём месте.",
+      "phrase": "an urban sophisticate",
+      "explanation": "A sophisticate — человек; sophisticated — прилагательное. Формальное слово, часто встречается в литературе и не означает просто «сложная технология». Внешний образ героя контрастирует с его личными чувствами.",
+      "registerTags": [
+        "formal"
+      ],
+      "verificationSources": [
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/sophisticate"
+      ],
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "В двух предложениях сопоставь публичный образ Лео и его признание дома. Используй sophisticate в собственном примере по этой теме."
+    },
+    {
+      "word": "discourse",
+      "pos": "noun",
+      "meaningEn": "Communication and discussion through which a topic is presented and understood.",
+      "meaningRu": "Обсуждение и способы представления темы в речи и текстах; дискурс.",
+      "en": "Public discourse about the new bus route focuses on cost, but riders also raise questions about accessibility. Our article will include both concerns.",
+      "ru": "В публичном обсуждении нового автобусного маршрута основное внимание уделяют стоимости, но пассажиры также поднимают вопросы доступности. В нашей статье будут отражены обе темы.",
+      "phrase": "Public discourse",
+      "explanation": "Discourse — не одно выступление и не название одного документа. Здесь это более широкое публичное обсуждение. В повседневном пересказе можно сказать public discussion, сохранив смысл.",
+      "registerTags": [
+        "formal",
+        "academic"
+      ],
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "Предложи заголовок и одно предложение, которые отражают оба вопроса пассажиров. Используй discourse в собственном примере по этой теме."
+    },
+    {
+      "word": "provider",
+      "pos": "noun",
+      "meaningEn": "A person or organization that supplies a service or something people need.",
+      "meaningRu": "Поставщик услуги или необходимого ресурса.",
+      "en": "Our internet provider says the connection will be restored by noon. Until then, I'll work from the library and postpone the large file upload.",
+      "ru": "Наш интернет-провайдер сообщает, что соединение восстановят к полудню. До этого я буду работать из библиотеки и отложу загрузку большого файла.",
+      "phrase": "internet provider",
+      "explanation": "Provider называет того, кто оказывает услугу. Восстановление к полудню — сообщение компании, а не подтверждённый результат; says помогает сохранить источник обещания.",
+      "topic": {
+        "id": "digital-life",
+        "title": "Цифровая жизнь"
+      },
+      "task": "Напиши коллеге о сбое, предполагаемом времени восстановления и своём временном плане. Используй provider в собственном примере по этой теме."
+    },
+    {
+      "word": "lexical",
+      "pos": "adj",
+      "meaningEn": "Relating to words and their meanings in a language.",
+      "meaningRu": "Относящийся к словам языка и их значениям; лексический.",
+      "en": "The sentences share a grammatical structure, but their lexical choices create different tones. Replacing kids with children makes the second version sound more neutral.",
+      "ru": "У предложений одинаковая грамматическая структура, но выбор слов создаёт разный тон. Замена kids на children делает второй вариант более нейтральным.",
+      "phrase": "lexical choices",
+      "explanation": "Lexical choices — выбор слов; grammatical structure — устройство предложения. Здесь меняется регистр, а не возраст людей. Children нейтральнее разговорного kids в описываемой паре.",
+      "registerTags": [
+        "academic"
+      ],
+      "topic": {
+        "id": "language-analysis",
+        "title": "Как устроен язык"
+      },
+      "task": "Приведи ещё одну пару разговорного и нейтрального слова и объясни, кому адресован каждый вариант. Используй lexical в собственном примере по этой теме."
+    },
+    {
+      "word": "carve",
+      "pos": "verb",
+      "meaningEn": "To shape a solid material by cutting pieces away from it.",
+      "meaningRu": "Вырезать форму из твёрдого материала, удаляя его части.",
+      "en": "Nora wants to carve a spoon from a piece of wood. She sketches the shape first and leaves extra material around the handle.",
+      "ru": "Нора хочет вырезать ложку из куска дерева. Сначала она рисует форму и оставляет дополнительный материал вокруг ручки.",
+      "phrase": "carve a spoon",
+      "explanation": "Carve a spoon — создать предмет вырезанием. Carve wood называет материал, carve something from wood — предмет и материал. Это описание замысла, а не инструкция по работе инструментом.",
+      "topic": {
+        "id": "interests",
+        "title": "Интересы и свободное время"
+      },
+      "task": "Опиши, что Нора собирается сделать, из какого материала и что делает сначала. Используй carve в собственном примере по этой теме."
+    },
+    {
+      "word": "receptor",
+      "pos": "noun",
+      "meaningEn": "A molecule in or on a cell that can bind a particular substance and take part in signaling.",
+      "meaningRu": "Рецептор: молекула внутри клетки или на её поверхности, связывающая определённое вещество и участвующая в передаче сигнала.",
+      "en": "The diagram shows a receptor on the cell surface and a molecule that can bind to it. The caption explains the interaction without claiming that every molecule fits.",
+      "ru": "На схеме показаны рецептор на поверхности клетки и молекула, способная с ним связываться. Подпись объясняет взаимодействие, не утверждая, что подходит любая молекула.",
+      "phrase": "a receptor on the cell surface",
+      "explanation": "В этом биологическом значении receptor — не бытовой приёмник. Bind to a receptor — связываться с рецептором. Схема показывает конкретное взаимодействие; нельзя из неё вывести универсальную реакцию всех молекул.",
+      "registerTags": [
+        "technical",
+        "biology"
+      ],
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/receptor"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Напиши простую подпись к схеме, сохранив ограничение на связывание молекул. Используй receptor в собственном примере по этой теме."
+    },
+    {
+      "word": "availability",
+      "pos": "noun",
+      "meaningEn": "Whether and when someone or something can be obtained, used or scheduled.",
+      "meaningRu": "Наличие, доступность или свободное время для договорённости.",
+      "en": "Could you send me your availability for next week? I need two possible times before I book the interview room.",
+      "ru": "Можешь сообщить, когда у тебя есть свободное время на следующей неделе? Мне нужны два возможных варианта, прежде чем я забронирую комнату для собеседования.",
+      "phrase": "your availability",
+      "explanation": "Для человека availability часто означает, когда он свободен. Это не обещание доступности круглосуточно. Два варианта времени нужны до бронирования; комната ещё не забронирована.",
+      "topic": {
+        "id": "daily-plans",
+        "title": "Планы и встречи"
+      },
+      "task": "Ответь организатору, предложив два времени и указав часовой пояс. Используй availability в собственном примере по этой теме."
+    },
+    {
+      "word": "shit",
+      "pos": "noun",
+      "meaningEn": "In this vulgar informal use, things or matters that a speaker dismisses or dislikes.",
+      "meaningRu": "В этом грубом разговорном употреблении — неприятные или раздражающие дела, вещи.",
+      "en": "I've got too much shit to deal with today, so I can't join the game tonight. I'll message you when things calm down.",
+      "ru": "У меня сегодня слишком много всякой хрени, с которой надо разобраться, поэтому вечером я не смогу поиграть. Напишу, когда всё успокоится.",
+      "phrase": "shit to deal with",
+      "explanation": "Здесь shit — грубое обобщение дел, не буквальное физиологическое значение. Это речь между близкими, где такой регистр принят. Коллеге можно сказать too many things to deal with; обещания конкретного срока в сообщении нет.",
+      "registerTags": [
+        "vulgar",
+        "very-informal"
+      ],
+      "usAlternative": "too many things to deal with",
+      "verificationSources": [
+        "https://www.merriam-webster.com/dictionary/shit"
+      ],
+      "topic": {
+        "id": "spoken-register",
+        "title": "Разговорная речь и регистр"
+      },
+      "task": "Перепиши отказ нейтрально для знакомого, с которым ты редко общаешься."
+    },
+    {
+      "word": "respondent",
+      "pos": "noun",
+      "meaningEn": "A person who answers questions in a survey or study.",
+      "meaningRu": "Участник опроса или исследования, отвечающий на вопросы.",
+      "en": "Each respondent can skip a question they don't want to answer. The survey team will report how many responses are missing rather than guessing them.",
+      "ru": "Каждый участник опроса может пропустить вопрос, на который не хочет отвечать. Команда укажет количество пропущенных ответов, а не станет их угадывать.",
+      "phrase": "Each respondent",
+      "explanation": "Respondent здесь участник опроса; юридическое значение относится к другой ситуации. Singular they после each respondent допустимо. Пропущенный ответ не равен ответу no.",
+      "registerTags": [
+        "research"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Объясни участнику его возможность пропускать вопросы и то, как команда обработает пропуски. Используй respondent в собственном примере по этой теме."
+    },
+    {
+      "word": "parish",
+      "pos": "noun",
+      "meaningEn": "A local church community and the area it serves.",
+      "meaningRu": "Местный церковный приход и территория, которую он охватывает.",
+      "en": "The parish is collecting winter coats for a neighborhood shelter. Volunteers will sort the donations in the church hall on Saturday.",
+      "ru": "Приход собирает зимние пальто и куртки для районного приюта. В субботу волонтёры будут сортировать пожертвования в церковном зале.",
+      "phrase": "The parish is collecting",
+      "explanation": "Parish здесь церковная община. В других контекстах слово может называть административную территорию, в том числе в Луизиане; этот смысл не следует из сбора одежды.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "Пригласи соседа помочь и укажи, что будут делать волонтёры и когда. Используй parish в собственном примере по этой теме."
+    },
+    {
+      "word": "congressional",
+      "pos": "adj",
+      "meaningEn": "Relating to a congress, especially the United States Congress.",
+      "meaningRu": "Относящийся к конгрессу, прежде всего Конгрессу США.",
+      "en": "The article summarizes a congressional hearing on online privacy. It reports what witnesses said but does not claim that a new law has passed.",
+      "ru": "В статье кратко изложено содержание слушаний в Конгрессе по вопросам конфиденциальности в интернете. Она передаёт слова выступавших, но не утверждает, что принят новый закон.",
+      "phrase": "a congressional hearing",
+      "explanation": "Congressional hearing — слушание в Конгрессе, не автоматически закон или решение суда. Здесь важно отличать обсуждение и свидетельства от принятого законодательного акта.",
+      "registerTags": [
+        "public-affairs"
+      ],
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "Перескажи предмет статьи, не выдавая слушания за принятый закон. Используй congressional в собственном примере по этой теме."
+    },
+    {
+      "word": "retailer",
+      "pos": "noun",
+      "meaningEn": "A business that sells goods directly to the people who use them.",
+      "meaningRu": "Розничный продавец, продающий товары конечным покупателям.",
+      "en": "The retailer accepted my return, but the manufacturer will inspect the faulty camera. Selling the product and making it are different roles.",
+      "ru": "Розничный продавец принял мой возврат, но неисправную камеру будет проверять производитель. Продажа товара и его изготовление — разные роли.",
+      "phrase": "The retailer accepted",
+      "explanation": "Retailer продаёт конечному покупателю; manufacturer производит товар. Одна компания иногда совмещает роли, но в этой ситуации они разделены. Пример не устанавливает универсальных правил возврата.",
+      "topic": {
+        "id": "shopping",
+        "title": "Покупки и услуги"
+      },
+      "task": "Объясни другу, кто принял камеру и кто будет её проверять. Используй retailer в собственном примере по этой теме."
+    },
+    {
+      "word": "removal",
+      "pos": "noun",
+      "meaningEn": "The act of taking something away or getting rid of it.",
+      "meaningRu": "Удаление, вывоз или устранение чего-либо.",
+      "en": "The quote includes removal of the old refrigerator but not installation of the new one. Please confirm both services before scheduling the delivery.",
+      "ru": "В расчёт стоимости включён вывоз старого холодильника, но не установка нового. Пожалуйста, уточни обе услуги, прежде чем назначать доставку.",
+      "phrase": "removal of the old refrigerator",
+      "explanation": "Removal здесь вывоз предмета. Installation — установка, отдельная услуга. Includes X but not Y не означает, что Y невозможно заказать; это ограничение данного расчёта.",
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "Напиши продавцу и уточни стоимость вывоза, установки и доступную дату доставки. Используй removal в собственном примере по этой теме."
+    },
+    {
+      "word": "tonne",
+      "pos": "noun",
+      "meaningEn": "A metric unit of mass equal to one thousand kilograms.",
+      "meaningRu": "Метрическая тонна, равная тысяче килограммов.",
+      "en": "The shipping form lists the load as one tonne, or 1,000 kilograms. Our American customer asked us to write metric ton to avoid confusion with a US ton.",
+      "ru": "В транспортной форме груз указан как одна метрическая тонна, то есть 1000 килограммов. Наш американский клиент попросил написать metric ton, чтобы избежать путаницы с американской тонной.",
+      "phrase": "one tonne",
+      "explanation": "Tonne и metric ton — 1000 кг; US ton — 2000 фунтов, другая величина. Для американского адресата здесь явно выбирают metric ton. Не меняй единицу на ton без уточнения системы.",
+      "variety": "international-unit-recognition",
+      "usAlternative": "metric ton",
+      "verificationSources": [
+        "https://www.oxfordlearnersdictionaries.com/definition/english/tonne"
+      ],
+      "topic": {
+        "id": "measurement",
+        "title": "Количество и измерения"
+      },
+      "task": "Перепиши строку о грузе для американского клиента так, чтобы масса оставалась однозначной."
+    },
+    {
+      "word": "organizer",
+      "pos": "noun",
+      "meaningEn": "A person who plans an event and arranges what is needed for it.",
+      "meaningRu": "Человек, который планирует и организует мероприятие.",
+      "en": "Ask the event organizer whether the workshop has step-free access. The venue's general website doesn't describe the entrance to our room.",
+      "ru": "Спроси организатора мероприятия, можно ли попасть на семинар без ступенек. На общем сайте площадки не описан вход в нашу комнату.",
+      "phrase": "event organizer",
+      "explanation": "Здесь organizer — человек, не приложение-планировщик и не контейнер для вещей. Organizer — американское написание; organiser распространено в британском английском. Общая информация о здании не подтверждает доступность конкретной комнаты.",
+      "topic": {
+        "id": "community",
+        "title": "Местное сообщество"
+      },
+      "task": "Задай организатору конкретный вопрос о входе без ступенек в нужную комнату. Используй organizer в собственном примере по этой теме."
+    },
+    {
+      "word": "tenant",
+      "pos": "noun",
+      "meaningEn": "A person or organization that rents a place from its owner.",
+      "meaningRu": "Арендатор помещения или недвижимости.",
+      "en": "The tenant reported a leaking window to the property manager. She attached photos and asked when someone could inspect it.",
+      "ru": "Арендатор сообщила управляющему недвижимостью о протекающем окне. Она приложила фотографии и спросила, когда кто-нибудь сможет его осмотреть.",
+      "phrase": "The tenant reported",
+      "explanation": "Tenant снимает помещение; landlord сдаёт его. Управляющий может общаться с арендатором от имени владельца. Запрос осмотра ещё не означает согласованную дату ремонта.",
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "Напиши сообщение о протекающем окне и предложи два времени для осмотра. Используй tenant в собственном примере по этой теме."
+    },
+    {
+      "word": "recruitment",
+      "pos": "noun",
+      "meaningEn": "The process of finding and selecting people to join an organization.",
+      "meaningRu": "Поиск и отбор людей для работы или участия в организации.",
+      "en": "Our recruitment process includes a short work sample and a conversation with the team. We tell candidates the expected time commitment before they agree to continue.",
+      "ru": "Наш процесс найма включает небольшое практическое задание и беседу с командой. Мы заранее сообщаем кандидатам, сколько времени потребуется, прежде чем они согласятся продолжать.",
+      "phrase": "recruitment process",
+      "explanation": "Recruitment — процесс привлечения и отбора, а не отдельный сотрудник. Work sample здесь пробное задание, а time commitment — требуемое время, не обещание принять на работу.",
+      "topic": {
+        "id": "work-skills",
+        "title": "Работа и навыки"
+      },
+      "task": "Объясни кандидату два этапа отбора и попроси подтвердить, удобно ли ему выделить нужное время. Используй recruitment в собственном примере по этой теме."
+    },
+    {
+      "word": "specification",
+      "pos": "noun",
+      "meaningEn": "A detailed description of the requirements or features something must have.",
+      "meaningRu": "Подробное описание требований или характеристик; спецификация.",
+      "en": "The specification requires the app to save drafts even when the connection drops. A screen that merely looks complete doesn't meet that requirement.",
+      "ru": "По спецификации приложение должно сохранять черновики даже при обрыве соединения. Экран, который только выглядит готовым, этому требованию не соответствует.",
+      "phrase": "The specification requires",
+      "explanation": "Specification фиксирует требования, а не доказывает их выполнение. Requires the app to save описывает необходимое поведение. Проверка должна воспроизвести потерю соединения, а не оценить только внешний вид.",
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Опиши один тест, который покажет, сохраняется ли черновик при обрыве соединения. Используй specification в собственном примере по этой теме."
+    },
+    {
+      "word": "parental",
+      "pos": "adj",
+      "meaningEn": "Relating to a parent or to the role and responsibilities of parents.",
+      "meaningRu": "Относящийся к родителям и их роли или обязанностям.",
+      "en": "The camp asks for parental consent before using a child's photo in its newsletter. Agreeing to the trip does not automatically include permission to publish pictures.",
+      "ru": "Лагерь просит согласие родителей, прежде чем использовать фотографию ребёнка в своей рассылке. Согласие на поездку не включает автоматически разрешение публиковать фотографии.",
+      "phrase": "parental consent",
+      "explanation": "Parental consent — согласие родителей. В этой ситуации две формы согласия разделены; это условия вымышленного лагеря, а не утверждение о законодательстве каждой страны.",
+      "topic": {
+        "id": "family",
+        "title": "Семья и отношения"
+      },
+      "task": "Объясни родителю, какое дополнительное согласие запрашивает лагерь и для чего. Используй parental в собственном примере по этой теме."
+    },
+    {
+      "word": "contractor",
+      "pos": "noun",
+      "meaningEn": "A person or business hired under a contract to carry out particular work.",
+      "meaningRu": "Подрядчик: человек или компания, нанятые по договору для определённой работы.",
+      "en": "The contractor will repaint the hallway, but fixing the damaged wiring is outside the agreed scope. We need a separate estimate for that work.",
+      "ru": "Подрядчик перекрасит коридор, но ремонт повреждённой проводки выходит за согласованный объём работ. Для этой работы нам нужен отдельный расчёт стоимости.",
+      "phrase": "The contractor will repaint",
+      "explanation": "Contractor выполняет договорённую работу; слово само по себе не сообщает специальность. Здесь покраска и ремонт проводки имеют разные границы заказа. Outside the scope не равно отказу от любой дополнительной работы.",
+      "topic": {
+        "id": "home",
+        "title": "Дом и повседневные дела"
+      },
+      "task": "Уточни подрядчику согласованные работы и запроси отдельный расчёт для дополнительной задачи. Используй contractor в собственном примере по этой теме."
+    },
+    {
+      "word": "affiliate",
+      "pos": "noun",
+      "meaningEn": "A person or business connected with another organization through a commercial arrangement.",
+      "meaningRu": "Человек или компания, связанные с другой организацией коммерческим соглашением; здесь партнёр по продвижению.",
+      "en": "The reviewer is an affiliate of the store and earns a commission on qualifying purchases. She discloses that relationship before discussing the product's strengths and weaknesses.",
+      "ru": "Автор обзора участвует в партнёрской программе магазина и получает комиссию за покупки, отвечающие её условиям. Она раскрывает эту связь, прежде чем обсуждать сильные и слабые стороны товара.",
+      "phrase": "an affiliate of the store",
+      "explanation": "Affiliate здесь коммерческий партнёр, не обязательно сотрудник или дочерняя компания. Commission — вознаграждение за подходящие покупки. Связь может влиять на оценку обзора, но не доказывает ложность каждого утверждения.",
+      "topic": {
+        "id": "media-society",
+        "title": "Медиа и общество"
+      },
+      "task": "Напиши короткое раскрытие партнёрской связи для начала обзора. Используй affiliate в собственном примере по этой теме."
+    },
+    {
+      "word": "correlate",
+      "pos": "verb",
+      "meaningEn": "To vary together in a pattern, without necessarily having a cause-and-effect relationship.",
+      "meaningRu": "Изменяться взаимосвязанно; коррелировать, не обязательно причинно влияя друг на друга.",
+      "en": "In this small survey, longer commutes correlate with lower job satisfaction. That pattern alone doesn't show that travel time caused the difference.",
+      "ru": "В этом небольшом опросе более длительные поездки на работу связаны с меньшей удовлетворённостью работой. Само по себе это наблюдение не показывает, что разницу вызвало время в дороге.",
+      "phrase": "correlate with",
+      "explanation": "Correlate with — обнаруживать взаимосвязь. Можно обсуждать направление связи, но причинный вывод требует дополнительных оснований. This small survey ограничивает утверждение данной выборкой.",
+      "registerTags": [
+        "academic"
+      ],
+      "topic": {
+        "id": "science",
+        "title": "Наука и исследования"
+      },
+      "task": "Перескажи результат опроса и назови одну возможную альтернативную причину различий. Используй correlate в собственном примере по этой теме."
+    },
+    {
+      "word": "sculpture",
+      "pos": "noun",
+      "meaningEn": "A three-dimensional work of art made by shaping or assembling materials.",
+      "meaningRu": "Трёхмерное произведение искусства, созданное обработкой или соединением материалов; скульптура.",
+      "en": "The sculpture is made from discarded bicycle parts. Visitors can walk around it, but the sign asks them not to touch the metal surfaces.",
+      "ru": "Скульптура сделана из выброшенных велосипедных деталей. Посетители могут обойти её со всех сторон, но табличка просит не трогать металлические поверхности.",
+      "phrase": "The sculpture is made",
+      "explanation": "Sculpture здесь отдельное произведение; слово также называет вид искусства. Скульптуру не обязательно высекать из камня: в примере детали соединены в объёмную форму.",
+      "topic": {
+        "id": "culture",
+        "title": "Культура и искусство"
+      },
+      "task": "Опиши экспонат другу и объясни, как его можно осматривать. Используй sculpture в собственном примере по этой теме."
+    },
+    {
+      "word": "sufficiently",
+      "pos": "adv",
+      "meaningEn": "To the degree needed for a particular purpose or condition.",
+      "meaningRu": "В достаточной степени для определённой цели или условия.",
+      "en": "The instructions are sufficiently clear for an experienced user, but a beginner may need screenshots. We should test both groups before publishing the guide.",
+      "ru": "Инструкции достаточно понятны опытному пользователю, но новичку могут понадобиться скриншоты. Прежде чем публиковать руководство, нам стоит проверить обе группы.",
+      "phrase": "sufficiently clear",
+      "explanation": "Sufficiently означает достаточно для конкретной цели. Оценка здесь ограничена опытными пользователями; clear enough for an experienced user — менее формальная передача того же смысла.",
+      "registerTags": [
+        "formal"
+      ],
+      "topic": {
+        "id": "digital-work",
+        "title": "Разработка и работа с технологиями"
+      },
+      "task": "Предложи план проверки инструкции с опытным пользователем и новичком. Используй sufficiently в собственном примере по этой теме."
+    }
+  ],
+  "review": {
+    "status": "independently-reviewed",
+    "reviewer": "root",
+    "checkedAt": "2026-09-10",
+    "scope": "All 30 meanings, English and Russian contexts, explanations and production tasks; no material errors. Minor style edit and explicit productive-target requests applied."
+  }
+}

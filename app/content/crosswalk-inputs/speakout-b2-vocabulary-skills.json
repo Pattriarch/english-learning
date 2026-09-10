@@ -1,0 +1,791 @@
+[
+  {
+    "code": "1A",
+    "label": "Личность и самопрезентация",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-008",
+          "vocabulary-upper-intermediate-070"
+        ],
+        "note": "Черты характера объясняются через наблюдаемое поведение; e6/e8 требуют описания людей. Урок070 объясняет суффиксы прилагательных и существительных. Это соответствие теме, не полная сверка закрытого Vocabulary Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-008",
+          "path-email-basic"
+        ],
+        "note": "Есть связное описание характера и личное письмо. Самопрезентация через диаграмму идентичности и отдельная модель поста о себе не подтверждены; исходный подкаст не включён."
+      }
+    ]
+  },
+  {
+    "code": "1B",
+    "label": "Воспоминания и забывание",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "collocations-intermediate-054",
+          "vocabulary-advanced-077"
+        ],
+        "note": "Разобраны ясные/смутные воспоминания, провалы памяти, вызывающие воспоминание детали и ностальгические образы. В054 e6 — самостоятельное возвращение в место детства;077 добавляет recall/remind и rose-tinted spectacles. Внешний список идиом целиком не сверялся."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "collocations-intermediate-054",
+          "path-narrative"
+        ],
+        "note": "Письменное воспоминание054 e6 и рассказ с поворотом/кратким пересказом path-narrative практикуют личную историю. Статья о людях с необычной памятью и задания по ней отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "1C",
+    "label": "Предпочтения в поездке",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-043"
+        ],
+        "note": "Есть благодарность, восторг, досада, тревога, управление и степень чувства; e6/e8 требуют объяснить изменение эмоций. Полный внешний Bank неизвестен."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "extended-a2-options",
+          "vocabulary-upper-intermediate-032"
+        ],
+        "note": "Есть реальные условия однодневной поездки, сравнение и пересмотр плана в extended-a2-options;032 содержит описание отдыха и рекомендацию. Это более простая сценарная основа: путеводителя по Лагосу и полноценной B2-медиации туристических рекомендаций из него нет."
+      }
+    ]
+  },
+  {
+    "code": "1D",
+    "label": "Характер и рекомендация",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "collocations-advanced-044",
+          "vocabulary-upper-intermediate-008",
+          "extended-b2-reference-letter"
+        ],
+        "note": "Книжный reference дополнен полным авторским запросом рекрутера, досье наблюдений и оформленной моделью письма о другом кандидате. e6 требует целое адресное письмо 190–230 слов с обращением и завершением; e5/e7 — устную рекомендацию и уточнение, e8 — новое письмо после изменения обязанностей. Наблюдения, командный вклад и пределы знания разобраны явно. Жанровая практика подготовлена; исходные BBC-интервью о характере не включены, поэтому совокупная колонка skills остаётся partial.",
+        "previousReview": {
+          "coverage": "partial",
+          "targets": [
+            "collocations-advanced-044",
+            "vocabulary-upper-intermediate-008"
+          ],
+          "note": "044 действительно учит reference от руководителя: e6/e7 требуют рекомендации для комиссии/работодателя с наблюдениями, ограничениями и прогнозом, e8 — устный ответ рекрутеру. Это не заявка от кандидата. Полная оформительская модель письма с обращением/завершением и исходные BBC-интервью не включены."
+        },
+        "updatedAt": "2026-09-10"
+      }
+    ]
+  },
+  {
+    "code": "2A",
+    "label": "Технологии будущего",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-033",
+          "vocabulary-upper-intermediate-070"
+        ],
+        "note": "033 содержит научные области, устройства, исследования и объяснение назначения;070 — продуктивные семьи слов. Это тематическое соответствие, не копия внешнего Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-advanced-057",
+          "path-critical-reading"
+        ],
+        "note": "В057 рассматриваются общественные последствия технологий и осторожные прогнозы; критическое чтение учит отделять утверждение от основания. Исходной статьи о будущем VR и её заданий нет."
+      }
+    ]
+  },
+  {
+    "code": "2B",
+    "label": "Природа и выбор",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-026",
+          "vocabulary-upper-intermediate-024"
+        ],
+        "note": "026 объясняет животных, растения и природные процессы, e6/e8 — прогулка и сад;024 добавляет экологические проблемы и защиту среды. Внешний набор слов целиком не сверялся."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b2-essay-thread",
+          "vocabulary-upper-intermediate-026"
+        ],
+        "note": "В extended-b2-essay-thread есть полный материал, план, аргументы/возражение и эссе240–280слов; тема — запись занятий. Навык переносим на плюсы/минусы сельской жизни, но соответствующего эссе-досье, BBC-радиопередачи о деревьях и задания по ней нет."
+      }
+    ]
+  },
+  {
+    "code": "2C",
+    "label": "Необычный образ жизни",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-advanced-018",
+          "vocabulary-upper-intermediate-008"
+        ],
+        "note": "Есть quiet life, трудный/изменившийся образ жизни и оценки характера. Специальный набор lifestyle adjectives внешнего курса не установлен; черты личности не считаются автоматической заменой этой категории."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b2-interview",
+          "path-deduction"
+        ],
+        "note": "Есть точный пересказ интервью с поправкой и пределами уверенности, а также выводы по признакам. Материал посвящён городской улице, не необычным биографиям; исходные статья и разговор о жизни знаменитостей отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "2D",
+    "label": "Воображаемое путешествие",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-043",
+          "collocations-intermediate-006"
+        ],
+        "note": "043 явно различает обычные и крайние эмоциональные прилагательные с absolutely/really;006 закрепляет сильные сочетания. Это ядро extreme adjectives, без заявления о каждом слове внешнего Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-second-conditional",
+          "path-narrative"
+        ],
+        "note": "Воображаемая ситуация и связный рассказ доступны как самостоятельный output. BBC Doctor Who и отдельная жанровая модель конкурсной заявки о путешествии во времени не включены."
+      }
+    ]
+  },
+  {
+    "code": "3A",
+    "label": "Экологичный фестиваль",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "collocations-intermediate-024",
+          "vocabulary-upper-intermediate-024"
+        ],
+        "note": "Есть программа музыкального фестиваля, живые выступления и приглашение024 e7; экологический урок содержит отходы/переработку/сокращение воздействия. Полный специализированный фестивальный Bank не подтверждён."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-proposal",
+          "extended-b2-negotiate"
+        ],
+        "note": "Есть предложение клуба с целью/рисками/бюджетом и сценарное согласование мероприятия с новыми ограничениями. Эти навыки переносимы на экологичный фестиваль; три исходные статьи и готовое досье для соответствующего formal proposal email отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "3B",
+    "label": "Выступление перед публикой",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "phrasal-intermediate-031",
+          "phrasal-advanced-045"
+        ],
+        "note": "Есть get a point across, speak up, go through, expand on, dry up и репетиция обсуждения. Коммуникативные phrasal verbs покрыты; отдельный набор фразовых глаголов сценического исполнения не подтверждён."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-prosody",
+          "extended-c1-public-explanation"
+        ],
+        "note": "Можно перенести смысловое ударение и адресное публичное объяснение с вопросом слушателя. Исходный подкаст о страхе сцены и специальная практика управления волнением перед выступлением отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "3C",
+    "label": "Кино и телесериалы",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-020",
+          "vocabulary-upper-intermediate-037"
+        ],
+        "note": "Есть сюжет/сцена/сценарий/исполнители и телевизионные жанры, эпизоды, потоковый просмотр;020 e8 требует описать и рекомендовать фильм. Это тематическая сверка, не полный внешний Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-020",
+          "vocabulary-upper-intermediate-037",
+          "extended-b1-review"
+        ],
+        "note": "Есть устное представление фильма и перенос навыка адресной рецензии по фактам. Исходных инфографики о binge-watching и разговора о сериалах нет; доступные киноуроки о Saul не являются материалами Speakout."
+      }
+    ]
+  },
+  {
+    "code": "3D",
+    "label": "Музыка и общение",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "collocations-intermediate-024",
+          "extended-b2-essay-thread"
+        ],
+        "note": "Музыкальный урок требует обсуждать исполнение и приглашать на фестиваль; e8 extended-b2-essay-thread учит адресному ответу в треде. Нет исходных BBC-интервью и отдельной модели форумного комментария о роли музыки в жизни."
+      }
+    ]
+  },
+  {
+    "code": "4A",
+    "label": "Здоровье и перемены",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-028",
+          "vocabulary-upper-intermediate-030"
+        ],
+        "note": "Есть симптомы, лечение, восстановление, питание и образ жизни с осторожными формулировками пользы.030 e6/e8 требуют собственного плана привычек. Полный внешний Bank не доступен."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-030",
+          "path-future-perfect"
+        ],
+        "note": "Есть обсуждение желаемых привычек и самостоятельный рассказ о результатах к будущему сроку. Исходная статья о смене образа жизни и её задания не включены; точный сценарий через пять лет не перенесён."
+      }
+    ]
+  },
+  {
+    "code": "4B",
+    "label": "Сон и восстановление",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "phrasal-intermediate-058",
+          "vocabulary-upper-intermediate-047",
+          "extended-b2-sleep"
+        ],
+        "note": "Отдельное тематическое занятие дополняет книжные wake up/get up, sleep in/oversleep и yawn/snore: объясняет sleep/fall asleep/asleep, doze, snore, insomnia и daytime sleepiness, а затем требует различать их в полном пересказе, переводе, заметке и устном обращении. Причина состояния не выводится из одного слова; медицинские сведения ограничены NHS. Покрывается самостоятельная практика темы сна, а не неизвестный полный состав закрытого Vocabulary Bank.",
+        "previousReview": {
+          "coverage": "partial",
+          "targets": [
+            "phrasal-intermediate-058",
+            "vocabulary-upper-intermediate-047"
+          ],
+          "note": "Объясняются wake up/get up, sleep in/oversleep, stay up, yawn/snore. Это полезная часть темы; отдельный систематический словарь сна и полный внешний Bank отсутствуют."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "phrasal-intermediate-058",
+          "vocabulary-upper-intermediate-030",
+          "extended-b2-sleep"
+        ],
+        "note": "Теперь есть собственная полная статья о сне и точности описания, редакционный диалог со сравнением осторожной рекомендации и обещания, письменная заметка 125–155 слов и устные ответы 110–150 слов. Позднее прослушиваемое сообщение требует обновить ответ по новым наблюдениям. Это содержательная тематическая практика чтения, обсуждения и письма; оригинальная BBC-передача The science of sleep и её вопросы не воспроизведены, поэтому совокупная колонка skills остаётся partial.",
+        "previousReview": {
+          "coverage": "skill-transfer",
+          "targets": [
+            "phrasal-intermediate-058",
+            "vocabulary-upper-intermediate-030"
+          ],
+          "note": "Можно описывать режим будней/выходных и обсуждать привычки здоровья. Полноценной статьи о хорошем сне, досье для её написания и исходной BBC-передачи о науке сна не найдено."
+        },
+        "updatedAt": "2026-09-10"
+      }
+    ]
+  },
+  {
+    "code": "4C",
+    "label": "Спорт и мотивация",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-018",
+          "vocabulary-advanced-054"
+        ],
+        "note": "Есть виды спорта, участники/инвентарь и физическая форма;054 e6/e8 требуют реалистичного плана активности и мотивации. Внешний лексический список целиком не сверялся."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-discussion-b2",
+          "extended-b2-negotiate"
+        ],
+        "note": "Есть аргументированное частичное согласие, обсуждение нескольких участников и распределение обязанностей мероприятия. Темы — рабочая неделя/языковой вечер; исходного разговора о пользе упражнений и спортивной ролевой задачи нет."
+      }
+    ]
+  },
+  {
+    "code": "4D",
+    "label": "Традиции и изменения",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-advanced-060",
+          "vocabulary-upper-intermediate-053"
+        ],
+        "note": "Готовые уроки разбирают длительность, сроки, частотность и временные выражения; это покрытие категории, без полного внешнего списка."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "vocabulary-upper-intermediate-063",
+          "path-argument-essay"
+        ],
+        "note": "Есть выражение причин/целей/последствий и структура аргументированного эссе. Отдельный жанровый урок cause-and-effect essay о традиционном/современном образе жизни и BBC Earth from Space не включены."
+      }
+    ]
+  },
+  {
+    "code": "5A",
+    "label": "Первый рабочий опыт",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-061"
+        ],
+        "note": "Разобраны prior to, previously, meanwhile, during/throughout, subsequently и одновременность; задания требуют связать реальные этапы сообщения. Внешний Bank не воспроизводится."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-narrative",
+          "collocations-advanced-012"
+        ],
+        "note": "Есть история с предысторией/поворотом и язык перехода к новой работе. Исходная статья о первом рабочем дне отсутствует; отдельного входного рассказа и его разбора именно о первом опыте не найдено."
+      }
+    ]
+  },
+  {
+    "code": "5B",
+    "label": "Смена карьерного плана",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-016",
+          "collocations-advanced-011"
+        ],
+        "note": "Есть сферы/роли, profession/trade, график, карьерные перспективы, пересмотр приоритетов и уход. Упражнения требуют описать профессии и рабочие решения; закрытый Bank целиком не сверялся."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "extended-b1-listening",
+          "extended-b2-evidence"
+        ],
+        "note": "Есть полное авторское интервью о причинах смены работы и отдельный отчёт по проверяемым данным. Тема отчёта — клуб, не расширение карьерных устремлений молодёжи; исходная BBC-запись отсутствует."
+      }
+    ]
+  },
+  {
+    "code": "5C",
+    "label": "Сбой видеовстречи",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-035",
+          "phrasal-advanced-054",
+          "extended-b2-remote-project"
+        ],
+        "note": "Теперь есть связный набор языка видеовстречи: mute/unmute, share the screen/document window, lag, freeze/froze/frozen и breaking up. Теория различает выключенный микрофон, громкость, задержку и неподвижное видео; полный диалог и e2/e4/e6 требуют собственных просьб, описания наблюдаемого сбоя и восстановления смысла. Это подготовленная практика указанной темы, а не заявление о полном содержимом закрытого Vocabulary Bank.",
+        "previousReview": {
+          "coverage": "partial",
+          "targets": [
+            "vocabulary-upper-intermediate-035",
+            "phrasal-advanced-054"
+          ],
+          "note": "Есть интернет, видеосвязь, камера, подключение, экран и технические сбои. Специальные mute/unmute, share screen, lag/freeze как набор для видеовстречи в проверенных готовых уроках не найдены."
+        },
+        "updatedAt": "2026-09-10"
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "phrasal-advanced-054",
+          "extended-b2-negotiate",
+          "extended-b2-remote-project"
+        ],
+        "note": "Есть полный авторский сценарий видеовстречи: учащийся подтверждает видимость и слышимость, предлагает порядок реплик, восстанавливает вопрос и уточняет договорённости. Поздний этап требует повторить реакцию после описанного сбоя и проверить новые условия. Сбои сообщены словами; обычная озвучка не воспроизводит акустические помехи. Это непосредственная тематическая практика взаимодействия, но три исходных проблемных видеозвонка издателя и их аудирование не включены: skills остаётся partial.",
+        "previousReview": {
+          "coverage": "skill-transfer",
+          "targets": [
+            "phrasal-advanced-054",
+            "extended-b2-negotiate"
+          ],
+          "note": "Есть описание технической проблемы поддержке и согласование действий при ограничениях. Трёх исходных проблемных видеозвонков, их аудирования и полного сценария исправления видеовстречи нет."
+        },
+        "updatedAt": "2026-09-10"
+      }
+    ]
+  },
+  {
+    "code": "5D",
+    "label": "Команда и благодарность",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "phrasal-intermediate-010",
+          "extended-b2-negotiate"
+        ],
+        "note": "010 e7 — настоящее благодарственное письмо коллеге60–80слов за помощь с ответной услугой; есть согласование работы команды. Исходных BBC-интервью и самостоятельного сравнения одиночной/командной работы по ним нет."
+      }
+    ]
+  },
+  {
+    "code": "6A",
+    "label": "Внимание и конспект",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-071"
+        ],
+        "note": "Приставки отрицания, повторения и других изменений смысла объясняются с самостоятельным письмом и переформулировкой; это тематическое соответствие, не полный Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-c1-lecture",
+          "path-editing"
+        ],
+        "note": "Есть реальная авторская лекция, конспект по структуре и редактура текста. Навык отбора/сжатия можно перенести, но статьи о борьбе с отвлечениями и отдельной правки заметок по этой статье нет."
+      }
+    ]
+  },
+  {
+    "code": "6B",
+    "label": "Характер и чужие слова",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "path-reporting-verbs",
+          "collocations-intermediate-058"
+        ],
+        "note": "Reporting verbs различаются по позиции источника;058 учит утверждению, обвинению, признанию/отрицанию. Это больше, чем механический backshift, но внешний Bank не воспроизводится."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-008",
+          "extended-b2-interview"
+        ],
+        "note": "008 e7/e8 требуют вопросов о качествах и сравнения людей по поступкам; интервью тренирует точную передачу позиции. Нет исходного разговора об интровертах и полноценной анкеты из этого блока."
+      }
+    ]
+  },
+  {
+    "code": "6C",
+    "label": "Тактичный совет",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "collocations-intermediate-008",
+          "collocations-intermediate-009"
+        ],
+        "note": "Разобраны get в изменении состояния и take an interest/advantage/action с самостоятельным употреблением. Это тематическое соответствие collocations with get/take, без утверждения о каждом сочетании внешнего Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "phrasal-advanced-030",
+          "extended-b2-essay-thread"
+        ],
+        "note": "030 e7 требует поддержать организатора и тактично скорректировать его оценку; extended-b2-essay-thread учит адресному ответу на чужую позицию. Нет исходного разговора с просьбой о совете и готового треда советов, где нужно развить советы других."
+      }
+    ]
+  },
+  {
+    "code": "6D",
+    "label": "История и новости",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-067"
+        ],
+        "note": "Есть well, let me see, you know, sort of/kind of, I mean и управление паузой; самостоятельные диалог и сообщение. Полный внешний список fillers не сверялся."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-narrative",
+          "path-email-basic"
+        ],
+        "note": "Есть вымышленная история, её устное сокращение и личное письмо. Исходной BBC-игры, проверки истории уточняющими вопросами и её новостного письма нет."
+      }
+    ]
+  },
+  {
+    "code": "7A",
+    "label": "Случай и вдохновение",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-074",
+          "collocations-advanced-054"
+        ],
+        "note": "Составные прилагательные подробно разобраны;054 содержит stroke of luck и пояснение удачного момента. Полный набор chance-лексики не подтверждён, единичное выражение не считается всей темой."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-deduction",
+          "path-modal-perfect"
+        ],
+        "note": "Есть выводы по признакам и обсуждение альтернатив прошлого. Исходная статья об источнике вдохновения и факты для цепочки случайных событий отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "7B",
+    "label": "Упущенные возможности",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-advanced-077",
+          "collocations-intermediate-006"
+        ],
+        "note": "Есть regret/remorse/rue, сожаление о прошлом и bitterly regret. Это реальная лексика сожаления, но специальный набор идиом regrets не подтверждён; грамматика wish не заменяет идиомы."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-advanced-077",
+          "path-mixed-conditionals"
+        ],
+        "note": "Есть личная рефлексия о сожалении и альтернативе прошлому. Исходных историй упущенных возможностей и полноценной жанровой модели personal essay не найдено."
+      }
+    ]
+  },
+  {
+    "code": "7C",
+    "label": "Понятное объяснение процесса",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "phrasal-intermediate-031",
+          "phrasal-advanced-045"
+        ],
+        "note": "Есть go through, spell out, run through, expand on, get a point across и различие между обзором/подробностью; output требует объяснить порядок или неясную обязанность. Закрытый список не воспроизводится."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "extended-b1-procedure",
+          "extended-c1-public-explanation"
+        ],
+        "note": "Есть действительная инструкция с исключением и адаптация сложного объяснения под двух адресатов. Это перенос навыка; исходная запись рецепта и её пошаговый пересказ отсутствуют."
+      }
+    ]
+  },
+  {
+    "code": "7D",
+    "label": "Талант и усилия",
+    "dimensions": [
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "vocabulary-upper-intermediate-008",
+          "path-discussion-b2",
+          "vocabulary-upper-intermediate-035"
+        ],
+        "note": "Есть gifted/talented с примерами поведения, аргументированная дискуссия и различение блога/wiki/соцсети. Нет исходных BBC-интервью и отдельного задания написать короткий социальный пост именно о таланте и труде."
+      }
+    ]
+  },
+  {
+    "code": "8A",
+    "label": "Совместное жильё и заявка",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-011",
+          "collocations-intermediate-007",
+          "collocations-intermediate-009",
+          "collocations-intermediate-008"
+        ],
+        "note": "Есть типы/устройство жилья, домашние дела и самостоятельная инструкция; отдельные уроки объясняют go/get, have/take и make/do. Это покрытие лексических категорий, не каждого слова внешнего Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-advanced-018",
+          "extended-b2-application"
+        ],
+        "note": "018 требует сравнить условия жилья; extended-b2-application e7/e8 — полноценное сопроводительное письмо после интервью с обращением/завершением и доказательствами. Исходной статьи о co-living нет; письмо относится к роли координатора, а не внешнему объявлению."
+      }
+    ]
+  },
+  {
+    "code": "8B",
+    "label": "Глобальные проблемы и решения",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "vocabulary-upper-intermediate-013",
+          "vocabulary-upper-intermediate-024"
+        ],
+        "note": "Есть бедствия, война, миграция, экологические угрозы, причины/последствия и осторожное сообщение фактов. Это тематическое соответствие, не полная сверка Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "skill-transfer",
+        "targets": [
+          "path-second-conditional",
+          "path-discussion-b2"
+        ],
+        "note": "Есть воображаемые условия и обсуждение решений с возражением. Исходный доклад о мировых проблемах и его доказательная база не включены, поэтому предметный listening этим не закрыт."
+      }
+    ]
+  },
+  {
+    "code": "8C",
+    "label": "Аргумент в онлайн-сообществе",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "partial",
+        "targets": [
+          "vocabulary-upper-intermediate-068"
+        ],
+        "note": "Есть in other words, for instance, with reference to, in summary и другие письменные связки, включая предложные группы. Точный набор prepositional phrases внешнего блока неизвестен; зависимые предлоги сами по себе не засчитываются за него."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "extended-b2-essay-thread",
+          "vocabulary-upper-intermediate-035"
+        ],
+        "note": "В extended-b2-essay-thread есть полный тред, восстановление позиций, эссе240–280слов, устный ответ редактору и адресный итог. Тема — запись занятий; исходная аудиодискуссия об онлайн-сообществах отсутствует."
+      }
+    ]
+  },
+  {
+    "code": "8D",
+    "label": "Проект и его миссия",
+    "dimensions": [
+      {
+        "kind": "vocabulary",
+        "coverage": "mapped",
+        "targets": [
+          "phrasal-advanced-057",
+          "collocations-intermediate-008"
+        ],
+        "note": "Есть get в устойчивых выражениях о проекте, организации, пользе и изменении состояния; e6 требует рабочее сообщение команде. Соответствие теме phrases with get, не всему закрытому Bank."
+      },
+      {
+        "kind": "skills",
+        "coverage": "partial",
+        "targets": [
+          "path-proposal",
+          "extended-b2-remote-project"
+        ],
+        "note": "К общему proposal добавлена отдельная практика mission statement: полное досье проекта, авторская модель другого проекта и разбор аудитории, действия, способа и существенных границ. e5 требует миссию 45–65 слов с обоснованием, e6 — устную реакцию на новые условия, e7 — обновлённую миссию, e8 — исправление неподтверждённых публичных обещаний. Миссия отделена от плана и лозунга; BBC Amazing Humans и его исходные задания не включены, поэтому skills остаётся partial.",
+        "previousReview": {
+          "coverage": "partial",
+          "targets": [
+            "path-proposal"
+          ],
+          "note": "Есть письменное предложение проекта и его устная защита. Отдельной модели mission statement с адресатом, назначением и пределами деятельности не найдено; proposal не считается тем же жанром. BBC Amazing Humans не включён."
+        },
+        "updatedAt": "2026-09-10"
+      }
+    ]
+  }
+]

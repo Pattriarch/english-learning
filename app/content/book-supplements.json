@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "books": [
+    {
+      "bookId": "collocations-advanced",
+      "filename": "Collocation in Use - Advanced.pdf",
+      "entries": []
+    },
+    {
+      "bookId": "collocations-intermediate",
+      "filename": "Collocation in Use - Intermediate.pdf",
+      "entries": []
+    },
+    {
+      "bookId": "phrasal-advanced",
+      "filename": "English_Phrasal_Verbs_in_Use_Advanced.pdf",
+      "entries": [
+        {
+          "id": "phrasal-advanced-appendix-01",
+          "title": "Mini dictionary of phrasal verbs",
+          "page": 166,
+          "endPage": 194,
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "bookId": "phrasal-intermediate",
+      "filename": "English_Phrasal_Verbs_in_Use_Intermediate_2019.pdf",
+      "entries": [
+        {
+          "id": "phrasal-intermediate-appendix-01",
+          "title": "Mini dictionary of phrasal verbs",
+          "page": 179,
+          "endPage": 202,
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "bookId": "grammar-advanced",
+      "filename": "Hewings Martin. Advanced Grammar In Use With Answers. 3rd edition - 2013.pdf",
+      "entries": [
+        {
+          "id": "grammar-advanced-appendix-01",
+          "title": "Irregular verbs",
+          "page": 213,
+          "endPage": 214,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-advanced-appendix-02",
+          "title": "Passive verb forms",
+          "page": 215,
+          "endPage": 215,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-advanced-appendix-03",
+          "title": "Glossary of grammar terminology",
+          "page": 216,
+          "endPage": 220,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-advanced-appendix-04",
+          "title": "Study planner: diagnostic review",
+          "page": 221,
+          "endPage": 232,
+          "type": "practice"
+        },
+        {
+          "id": "grammar-advanced-appendix-05",
+          "title": "Grammar reminder",
+          "page": 233,
+          "endPage": 250,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-advanced-appendix-06",
+          "title": "Additional exercises",
+          "page": 251,
+          "endPage": 261,
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "bookId": "grammar-intermediate",
+      "filename": "Murphy R. English Grammar in Use. 2012 4-ed..pdf",
+      "entries": [
+        {
+          "id": "grammar-intermediate-appendix-01",
+          "title": "Regular and irregular verbs",
+          "page": 303,
+          "endPage": 304,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-02",
+          "title": "Present and past tenses",
+          "page": 305,
+          "endPage": 305,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-03",
+          "title": "The future",
+          "page": 306,
+          "endPage": 306,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-04",
+          "title": "Modal verbs (can/could/will/would etc.)",
+          "page": 307,
+          "endPage": 307,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-05",
+          "title": "Short forms (I’m / you’ve / didn’t etc.)",
+          "page": 308,
+          "endPage": 308,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-06",
+          "title": "Spelling",
+          "page": 309,
+          "endPage": 310,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-07",
+          "title": "American English",
+          "page": 311,
+          "endPage": 312,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-intermediate-appendix-08",
+          "title": "Additional exercises 1–41: mixed grammar practice",
+          "page": 313,
+          "endPage": 336,
+          "type": "practice"
+        },
+        {
+          "id": "grammar-intermediate-appendix-09",
+          "title": "Study guide: diagnostic grammar review",
+          "page": 337,
+          "endPage": 346,
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "bookId": "grammar-elementary",
+      "filename": "Murphy-Essential-Grammar in Use Elementary-2015.pdf",
+      "entries": [
+        {
+          "id": "grammar-elementary-appendix-01",
+          "title": "Active and passive",
+          "page": 251,
+          "endPage": 251,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-02",
+          "title": "List of irregular verbs",
+          "page": 252,
+          "endPage": 252,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-03",
+          "title": "Irregular verbs in groups",
+          "page": 253,
+          "endPage": 253,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-04",
+          "title": "Short forms (he’s / I’d / don’t etc.)",
+          "page": 254,
+          "endPage": 255,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-05",
+          "title": "Spelling",
+          "page": 256,
+          "endPage": 257,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-06",
+          "title": "Phrasal verbs (take off / give up etc.)",
+          "page": 258,
+          "endPage": 258,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-07",
+          "title": "Phrasal verbs + object",
+          "page": 259,
+          "endPage": 259,
+          "type": "reference"
+        },
+        {
+          "id": "grammar-elementary-appendix-08",
+          "title": "Additional exercises 1–35: mixed grammar practice",
+          "page": 232,
+          "endPage": 250,
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "bookId": "grammar-intermediate-ebook",
+      "filename": "Murphy-Essential-Grammar in Use Intermediate-2015.pdf",
+      "entries": [],
+      "duplicateOf": "grammar-intermediate",
+      "note": "Equivalent edition. Its clean source pages are mapped to the primary book entries; no duplicate curriculum entries."
+    },
+    {
+      "bookId": "vocabulary-advanced",
+      "filename": "Vocabulary in Use - Advanced.pdf",
+      "entries": [
+        {
+          "id": "vocabulary-advanced-appendix-01",
+          "title": "Phonemic symbols: vowels, consonants and word stress",
+          "page": 278,
+          "endPage": 278,
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "bookId": "vocabulary-elementary",
+      "filename": "Vocabulary in Use - Elementary.pdf",
+      "entries": [
+        {
+          "id": "vocabulary-elementary-appendix-01",
+          "title": "Phonemic symbols: vowels, consonants and word stress",
+          "page": 159,
+          "endPage": 159,
+          "type": "reference"
+        }
+      ]
+    },
+    {
+      "bookId": "vocabulary-upper-intermediate",
+      "filename": "Vocabulary in Use - Upper-Intermediate.pdf",
+      "entries": [
+        {
+          "id": "vocabulary-upper-intermediate-appendix-01",
+          "title": "Phonemic symbols: vowels, consonants and word stress",
+          "page": 258,
+          "endPage": 258,
+          "type": "reference"
+        }
+      ]
+    }
+  ],
+  "note": "Teaching/reference sections outside numbered units. Practice ranges revisit existing topics and are not counted as new thematic units. Answer keys, ordinary indexes and publisher credits are excluded.",
+  "entryCount": 28
+}

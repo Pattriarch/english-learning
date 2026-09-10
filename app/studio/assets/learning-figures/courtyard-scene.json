@@ -1,0 +1,21 @@
+{
+  "datasetId": "courtyard-scene-2026",
+  "kind": "reviewed-generated-picture",
+  "fictional": true,
+  "visuallyCheckedAt": "2026-09-10",
+  "imageFile": "courtyard-actions.png",
+  "imageSHA256": "4bb3a0674bae1530e79a016264861ca04dd1c66bd74530bcdd36a44419847e4b",
+  "facts": [
+    "Exactly four adults are visible in a paved courtyard with plants and a brick wall.",
+    "On the left, a woman in a yellow jacket is standing and watering flowers in a large pot with a blue watering can.",
+    "Near the centre, a man in a blue shirt is sitting on a wooden bench and reading an open book.",
+    "To the right of the bench, a woman in a red sweater is standing and holding a white cup in both hands.",
+    "At the far right, a man in a green T-shirt is crouching and tying a shoelace.",
+    "A bicycle is standing behind the bench near the brick wall.",
+    "The picture does not show names, jobs, relationships, nationality, habitual actions or what is inside the cup."
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: photorealistic-natural. Asset type: original English-learning A2 lesson picture for describing visible actions and positions. Create one natural candid photographic scene, landscape 1536x1024, a bright community-centre courtyard in daylight, exactly four adults well separated and entirely visible. At the left, a woman in a yellow jacket is standing and pouring water from a blue watering can onto a large potted plant. In the centre, a man in a blue shirt is sitting on a wooden bench reading an open book. To the right of the bench, a woman in a red sweater is standing holding a white cup with both hands. At the far right, a man in a green T-shirt is crouching and tying a shoelace. An empty bicycle stands against the brick wall behind the bench. Make the hands, objects, clothing colours and spatial relations unambiguous and physically plausible. Eye-level wide framing, softly lit, real textures, no dramatic blur, no ornamental UI. Fictional people, no celebrities. No text, labels, captions, logos or watermark, no extra people. The scene must support literal visual description without suggesting people's names, jobs, relationships or feelings."
+  }
+}
