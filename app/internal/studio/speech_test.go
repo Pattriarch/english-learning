@@ -1,10 +1,12 @@
 package studio
 
 import (
+	"bytes"
 	"context"
 	"encoding/binary"
 	"encoding/json"
 	"errors"
+	"net/http/httptest"
 	"os"
 	"path/filepath"
 	"runtime"
@@ -186,7 +188,15 @@ func TestSpeechHTTPReturnsPlayableCachedMediaAndRejectsInvalidInput(t *testing.T
 		t.Fatal(err)
 	}
 	s := &Server{db: &database{dir: profile}, content: content, web: t.TempDir()}
-	response := call(t, s, "POST", "/api/speech", request)
+	// Exercise the retained explicit system handler; the public route now uses Kokoro.
+	legacyCall := func(body speechRequest) *httptest.ResponseRecorder {
+		raw, _ := json.Marshal(body)
+		r := httptest.NewRequest("POST", "/api/speech", bytes.NewReader(raw))
+		w := httptest.NewRecorder()
+		s.systemSpeech(w, r)
+		return w
+	}
+	response := legacyCall(request)
 	var got speechResult
 	if response.Code != 200 || json.Unmarshal(response.Body.Bytes(), &got) != nil || got != want {
 		t.Fatalf("speech route: %d %s", response.Code, response.Body.String())
@@ -195,10 +205,10 @@ func TestSpeechHTTPReturnsPlayableCachedMediaAndRejectsInvalidInput(t *testing.T
 	if media.Code != 200 || !validSpeechWAV(media.Body.Bytes()) {
 		t.Fatal("returned audio is not served")
 	}
-	if call(t, s, "POST", "/api/speech", speechRequest{Text: "Hello", Lang: "en-GB"}).Code != 400 {
+	if legacyCall(speechRequest{Text: "Hello", Lang: "en-GB"}).Code != 400 {
 		t.Fatal("wrong accent request accepted")
 	}
-	if call(t, s, "POST", "/api/speech", speechRequest{Text: strings.Repeat("é", 4001), Lang: "en-US"}).Code != 400 {
+	if legacyCall(speechRequest{Text: strings.Repeat("é", 4001), Lang: "en-US"}).Code != 400 {
 		t.Fatal("UTF-8 size bound not enforced")
 	}
 }

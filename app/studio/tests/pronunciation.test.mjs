@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {createHash} from 'node:crypto';
+
 import {savedChecklist,pronunciationComplete,pronunciationAccent,pronunciationModelLabel} from '../pronunciation.js';
-import {speechVoice} from '../audio.js';
+
 import {studyUI,deferred} from './study-ui-fixture.mjs';
 
 test('Pronunciation lessons contain usable audio words, reading tasks and self-check criteria',()=>{
@@ -32,32 +32,6 @@ test('Self-check progress restores only valid criterion indices and is distinct 
   assert.equal(pronunciationComplete(state,'vowels'),false);
   state.drafts['pronunciation:ipa:checklist'].text='{invalid';
   assert.deepEqual([...savedChecklist(state,'ipa',3)],[]);
-});
-test('Every playable course text has an offline WAV sample with a stable filename',()=>{
-  const catalog=JSON.parse(readFileSync(new URL('../../content/pronunciation.json',import.meta.url),'utf8'));
-  const base=new URL('../assets/pronunciation-audio/',import.meta.url),audio=JSON.parse(readFileSync(new URL('index.json',base),'utf8'));
-  assert.match(audio.culture,/^en-/);
-  const texts=new Set();
-  for(const l of catalog.lessons){
-    for(const s of l.sounds)for(const e of s.examples)if(e.audio!==null)texts.add(e.audio||e.word);
-    for(const e of l.examples)texts.add(e.text);
-    for(const p of l.contrastPairs)for(const t of [p.leftAudio,p.rightAudio])if(t)texts.add(t);
-  }
-  for(const text of texts){
-    const filename=createHash('sha256').update(text).digest('hex')+'.wav';
-    assert.equal(audio.clips[text],filename,text);
-    const bytes=readFileSync(new URL(filename,base));
-    assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WAVE');assert.ok(bytes.length>44);
-  }
-});
-test('American examples prefer US voices while explicit British comparison remains selectable',()=>{
-  const us={lang:'en-US',localService:true,name:'US'},gb={lang:'en-GB',localService:false,name:'GB'},localGB={lang:'en_GB',localService:true,name:'GB local'};
-  assert.equal(speechVoice('en-US',[us,gb,localGB]),us);
-  assert.equal(speechVoice('en-US',[gb]),gb);
-  assert.equal(speechVoice('en-GB',[us,gb]),gb);
-  assert.equal(speechVoice('en-GB',[us,gb,localGB]),localGB);
-  assert.equal(speechVoice('en-GB',[us]),us);
-  assert.equal(speechVoice('en-GB',[{lang:'ru-RU'}]),null);
 });
 test('The US catalog and a still-running legacy UK catalog have truthful model labels',()=>{
   const current=JSON.parse(readFileSync(new URL('../../content/pronunciation.json',import.meta.url),'utf8'));
@@ -91,13 +65,13 @@ test('A saved pronunciation reflection keeps its assessment when the draft ends 
  assert.equal(f.root.querySelector('#sound-answer').value,'I noticed the stress.\n');assert.match(f.root.innerHTML,/Saved reflection feedback/);
 });
 
-test('A temporary sample index failure can retry, and Stop cancels its pending playback',async t=>{
- const f=await studyUI(t,'pronunciation.js'),data=practiceData(),samples=deferred();let requests=0;
- f.fetch=async()=>++requests===1?{ok:false}:samples.promise;
- f.module.mountPronunciation(f.root,data,'reading',async()=>data);await new Promise(setImmediate);assert.equal(requests,1);
- const pending=f.root.querySelector('[data-listen]').click();assert.equal(requests,2);
- f.root.querySelector('#sound-stop').click();samples.resolve({ok:true,json:async()=>({voice:'English',culture:'en-US',clips:{'I am working.':'b'.repeat(64)+'.wav'}})});await pending;
- assert.equal(f.root.querySelector('#sound-model').playCalls,undefined);assert.equal(f.alerts.length,0);
+test('US and British pronunciation use Kokoro with honest accent selection and invalidate old requests',async t=>{
+ const f=await studyUI(t,'pronunciation.js'),data=practiceData();f.fetch=async()=>assert.fail('Old pronunciation samples must not be used');
+ f.module.mountPronunciation(f.root,data,'reading',async()=>data);await f.root.querySelector('[data-listen]').click();
+ const old=f.spoken[0];assert.deepEqual(old.slice(0,3),['I am working.',.9,'en-US']);assert.equal(old[3].isCurrent(),true);
+ const accent=f.root.querySelector('#sound-accent');accent.value='en-GB';accent.onchange();assert.equal(old[3].isCurrent(),false);assert.match(f.root.querySelector('#sound-voice-info').textContent,/Emma.*британский/);
+ await f.root.querySelector('[data-listen]').click();assert.equal(f.spoken[1][2],'en-GB');
+ f.root.querySelector('#sound-stop').click();assert.equal(f.spoken[1][3].isCurrent(),false);
 });
 
 test('Practice completion keeps its snapshot stable through durable writes and unlocks on failure',async t=>{

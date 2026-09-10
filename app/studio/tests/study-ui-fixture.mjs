@@ -36,13 +36,13 @@ class Element {
 
 export async function studyUI(t,file,moduleMocks={}){
   const root=new Element(),local=new Map(),alerts=[],requests=[];let generation=0,request=0;
-  const fixture={root,local,alerts,requests,api:async()=>({}),fetch:async()=>({ok:false}),voice:async()=>{},recordOnly:async()=>{},queueDraft:async()=>{},stopAudio:()=>{generation++;}};
+  const spoken=[],fixture={root,local,alerts,requests,spoken,api:async()=>({}),fetch:async()=>({ok:false}),speak:async(...args)=>{spoken.push(args);},voice:async()=>{},recordOnly:async()=>{},queueDraft:async()=>{},stopAudio:()=>{generation++;}};
   const core={esc,icon,feedbackHTML,progressLesson,formatDate,mediaURL,empty,clipUTF8,$:(q,node)=>node?node.querySelector(q):root.querySelector(q)||fixture.modal?.querySelector(q),$$:(q,node=root)=>node.querySelectorAll(q),toast:(message)=>alerts.push(message),uid:()=>`request-${++request}`,words:text=>text.trim().split(/\s+/).filter(Boolean).length,bindMistakes(){},cardModal(){},openModal(_title,html){fixture.modal=new Element();fixture.modal.innerHTML=html;return fixture.modal;},
     localDraft:key=>local.has(key)?{text:local.get(key)}:null,getDraft:(key,state)=>local.get(key)??state.drafts[key]?.text??'',
     queueDraft:async(key,text,immediate)=>{local.set(key,text);return fixture.queueDraft(key,text,immediate);},api:async(path,body)=>{requests.push({path,body});return fixture.api(path,body);},
     busy:async(button,fn)=>{if(button.disabled)return;button.disabled=true;try{return await fn();}catch(error){alerts.push(error.message);}finally{button.disabled=false;}}
   };
-  const audio={stopAudio:fixture.stopAudio,beginAudio:()=>{fixture.stopAudio();const own=generation;return()=>own===generation;},speechVoice:()=>null,speak(){},voice:(...args)=>fixture.voice(...args),recordOnly:(...args)=>fixture.recordOnly(...args)};
+  const audio={stopAudio:fixture.stopAudio,beginAudio:()=>{fixture.stopAudio();const own=generation;return()=>own===generation;},speechVoiceName:id=>id,speak:(...args)=>fixture.speak(...args),voice:(...args)=>fixture.voice(...args),recordOnly:(...args)=>fixture.recordOnly(...args)};
   const key='studyFixture'+crypto.randomUUID(),descriptors=new Map();
   const session=new Map();fixture.session=session;
   for(const[name,value]of Object.entries({[key]:{core,audio,...moduleMocks},document:{addEventListener(){},removeEventListener(){}},sessionStorage:{getItem:k=>session.get(k)||null,setItem:(k,v)=>session.set(k,v)},location:{hash:'#/unit/unit-1'},fetch:(...args)=>fixture.fetch(...args),window:{history:{replaceState:(_s,_t,url)=>location.hash=url},speechSynthesis:{addEventListener(){},removeEventListener(){}}}})){

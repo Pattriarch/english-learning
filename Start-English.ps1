@@ -3,6 +3,9 @@ $appDirectory = Join-Path $PSScriptRoot 'app'
 Set-Location -LiteralPath $appDirectory
 $url = 'http://127.0.0.1:8777'
 try {
+    & (Join-Path $appDirectory 'scripts\start-local-kokoro.ps1') -AppDirectory $appDirectory | Out-Null
+} catch { Write-Warning "Local speech synthesis could not start: $($_.Exception.Message)" }
+try {
     & (Join-Path $appDirectory 'scripts\start-local-whisper.ps1') -AppDirectory $appDirectory | Out-Null
 } catch { Write-Warning "Local speech recognition could not start: $($_.Exception.Message)" }
 try {

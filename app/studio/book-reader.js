@@ -1,5 +1,5 @@
 import {$,$$,esc,icon,api,busy,toast,getDraft,localDraft,queueDraft,words,feedbackHTML,bindMistakes,uid,progressLesson,cardModal} from './core.js';
-import {voice,stopAudio,beginAudio,speak,speechVoice} from './audio.js';
+import {voice,stopAudio,speak} from './audio.js';
 
 export function bookParagraphs(value){
  return String(value||'').split(/\n\s*\n/).filter(Boolean).map(p=>`<p>${esc(p).replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>')}</p>`).join('');
@@ -50,15 +50,11 @@ export async function mountBookUnit(root,data,id,refresh){
   const main=$('#book-main',root);updateProgress();
   if(tab==='theory'){
    main.innerHTML=`<article class="book-theory">${lesson.formula?`<div class="book-key"><span class="eyebrow">ОПОРНАЯ ИДЕЯ</span><div>${esc(lesson.formula)}</div></div>`:''}${lesson.sections.map((s,i)=>`<section class="book-section" id="book-section-${i}"><div class="book-section-number">${String(i+1).padStart(2,'0')}</div><h2>${esc(s.title)}</h2>${bookParagraphs(s.body)}</section>`).join('')}<section class="book-section"><div class="eyebrow">ОТ СМЫСЛА К ФОРМЕ</div><h2>Разбираем на примерах</h2><div class="book-examples">${lesson.examples.map((ex,i)=>`<article class="book-example"><div class="spread"><span class="small-note">ПРИМЕР ${i+1}</span><div class="actions"><button class="btn ghost small" data-example-speak="${i}" aria-label="Прослушать пример ${i+1}">${icon('sound')}</button><button class="btn ghost small" data-example-card="${i}" aria-label="В карточки: пример ${i+1}">${icon('cards')}</button></div></div><p class="book-en">${esc(ex.en)}</p><p class="book-ru">${esc(ex.ru)}</p><p class="book-why">${esc(ex.why)}</p></article>`).join('')}</div></section><details class="book-source-map"><summary>Что перенесено из этого юнита</summary><p>Самостоятельный разбор по ${esc(book.title)}, юнит ${unit.unit}. Названия ниже связывают материал книги с разделами урока.</p><ul>${lesson.provenance.sourceCoverage.map(c=>`<li><strong>${esc(c.point)}</strong><br><span>${esc(c.sectionTitle)}</span></li>`).join('')}</ul>${lesson.provenance.warnings?.length?`<p class="small-note">Примечания к разбору: ${esc(lesson.provenance.warnings.join(' · '))}</p>`:''}<a class="text-link" href="${pdfLink(book,unit)}" target="_blank" rel="noopener">Свериться с оригиналом →</a></details><div class="book-bottom-actions"><button class="btn" id="book-read">${icon('check')} ${data.state.read[lesson.id]||data.state.read[canonical]?'Теория прочитана':'Отметить прочитанным'}</button><button class="btn primary" id="book-start">Перейти к практике ${icon('arrow')}</button></div></article>`;
-   $('.book-examples',main).insertAdjacentHTML('beforebegin','<audio id="book-model-audio" class="audio-preview" controls hidden></audio><p id="book-model-voice" class="small-note" hidden></p>');
+   $('.book-examples',main).insertAdjacentHTML('beforebegin','<audio id="book-model-audio" class="audio-preview" controls hidden></audio><p id="book-model-voice" class="small-note" role="status" hidden></p><button class="btn small ghost" id="book-model-stop">Остановить озвучку</button>');
+   $('#book-model-stop',main).onclick=()=>{playRequest++;stopAudio();};
    $$('[data-example-speak]',main).forEach(b=>b.onclick=async()=>{
-    const audioCurrent=beginAudio(),request=++playRequest,text=lesson.examples[+b.dataset.exampleSpeak].en;
-    if(speechVoice('en-US')){speak(text);return;}
-    try{const response=await fetch('/book-audio/'+encodeURIComponent(canonical)+'.json');if(!response.ok)throw Error('Аудиопримеры этого урока ещё готовятся.');const samples=await response.json();if(!current()||!audioCurrent()||!b.isConnected||request!==playRequest)return;
-     const file=samples.clips?.[text];if(!/^[a-f0-9]{64}\.wav$/.test(file||''))throw Error('Этот аудиопример ещё не готов.');
-     const player=$('#book-model-audio',main),label=$('#book-model-voice',main);player.src='/book-audio/'+file;player.hidden=false;label.textContent='Аудиопример: '+samples.voice+' · '+samples.culture;label.hidden=false;
-     try{await player.play();}catch{if(audioCurrent()&&b.isConnected)toast('Нажми ▶ в плеере, чтобы прослушать пример.');}
-    }catch(error){if(current()&&audioCurrent()&&b.isConnected)toast(error.message,true);}
+    const request=++playRequest,text=lesson.examples[+b.dataset.exampleSpeak].en;
+    await speak(text,.9,'en-US',{player:$('#book-model-audio',main),status:$('#book-model-voice',main),button:b,isCurrent:()=>current()&&b.isConnected&&request===playRequest});
    });
    $$('[data-example-card]',main).forEach(b=>b.onclick=()=>{const ex=lesson.examples[+b.dataset.exampleCard];cardModal({front:ex.ru,back:ex.en,note:ex.why,source:lesson.title});});
    $('#book-start',main).onclick=()=>{tab='practice';draw();main.scrollIntoView({block:'start'});};

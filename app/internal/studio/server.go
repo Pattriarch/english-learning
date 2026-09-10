@@ -81,6 +81,7 @@ type Server struct {
 	bookReadiness        bookReadinessCache
 	extendedCourse       extendedCourseCache
 	lexicon              lexiconCache
+	speechBackend        *kokoroSpeechEngine
 }
 
 func New(data, content, web string) (*Server, error) {
@@ -140,6 +141,8 @@ func (s *Server) Handler() http.Handler {
 	m.HandleFunc("POST /api/notebook/translate", s.notebookTranslate)
 	m.HandleFunc("POST /api/notebook/audio", s.notebookAudio)
 	m.HandleFunc("POST /api/speech", s.speech)
+	m.HandleFunc("GET /api/speech/config", s.speechConfig)
+	m.HandleFunc("POST /api/speech/config", s.speechConfig)
 	m.HandleFunc("GET /api/lexicon", s.lexiconList)
 	m.HandleFunc("GET /api/lexicon/{id}", s.lexiconGet)
 	m.HandleFunc("POST /api/transcribe", s.transcribe)

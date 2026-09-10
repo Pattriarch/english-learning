@@ -40,14 +40,14 @@ function recordingElements(){
 
 function speechFixture(t,request){
  const f=browserFixture(t,()=>Promise.reject(Error('Microphone must stay off'))),nodes=[];
- f.install('fetch',async(url,options)=>{assert.equal(url,'/api/speech');return{ok:true,json:async()=>request(JSON.parse(options.body))};});
+ f.install('fetch',async(url,options)=>{f.requestOptions=options;assert.equal(url,'/api/speech');return{ok:true,json:async()=>request(JSON.parse(options.body))};});
  document.createElement=tag=>{const node={tag,setAttribute(){},append(){},remove(){this.removed=true;},pause(){this.paused=true;},async play(){this.played=true;}};nodes.push(node);return node;};
  document.body={appendChild(node){node.attached=true;}};
- return{...f,nodes};
+ return Object.assign(f,{nodes});
 }
 
-test('no browser voice uses a cached US WAV with playback controls, never the microphone',async t=>{
- const f=speechFixture(t,body=>{assert.deepEqual(body,{text:'I will keep you posted.',lang:'en-US'});return{audio:'a'.repeat(64)+'.wav',voice:'Zira',culture:'en-US'};});
+test('Kokoro uses a cached US WAV with playback controls, never the microphone',async t=>{
+ const f=speechFixture(t,body=>{assert.deepEqual(body,{text:'I will keep you posted.',lang:'en-US'});return{audio:'a'.repeat(64)+'.wav',voice:'af_heart',culture:'en-US',engine:'kokoro'};});
  await speak('I will keep you posted.');
  const player=f.nodes.find(n=>n.tag==='audio');assert.equal(player.played,true);assert.equal(player.controls,true);assert.equal(player.src,'/media/'+'a'.repeat(64)+'.wav');
  stopAudio();assert.equal(player.paused,true);assert.equal(f.nodes.find(n=>n.tag==='aside').removed,true);
@@ -56,21 +56,54 @@ test('no browser voice uses a cached US WAV with playback controls, never the mi
 
 test('late local speech does not play after Stop or route navigation',async t=>{
  let finish;const wait=new Promise(resolve=>{finish=resolve;});const f=speechFixture(t,()=>wait);
- const pending=speak('An old page.');stopAudio();finish({audio:'a'.repeat(64)+'.wav',voice:'Zira',culture:'en-US'});await pending;
- assert.equal(f.nodes.length,0);
+ const pending=speak('An old page.');stopAudio();finish({audio:'a'.repeat(64)+'.wav',voice:'af_heart',culture:'en-US',engine:'kokoro'});await pending;
+ assert.equal(f.nodes.find(n=>n.tag==='audio').played,undefined);assert.equal(f.nodes.find(n=>n.tag==='aside').removed,true);
 });
 
-test('American playback uses the local US voice when the browser only offers British English',async t=>{
- const f=speechFixture(t,()=>({audio:'b'.repeat(64)+'.wav',voice:'Zira',culture:'en-US'}));
- window.speechSynthesis.getVoices=()=>[{name:'British voice',lang:'en-GB',localService:true}];
- window.speechSynthesis.speak=()=>assert.fail('A British voice must not replace the requested American model');
+test('Kokoro stays primary even when the browser offers a local American voice',async t=>{
+ const f=speechFixture(t,()=>({audio:'b'.repeat(64)+'.wav',voice:'af_heart',culture:'en-US',engine:'kokoro'}));
+ window.speechSynthesis.getVoices=()=>[{name:'Microsoft Zira',lang:'en-US',localService:true}];
+ window.speechSynthesis.speak=()=>assert.fail('A browser voice must not replace Kokoro');
  f.install('SpeechSynthesisUtterance',class{});
  await speak('The apartment is on the first floor.');
  assert.equal(f.nodes.find(n=>n.tag==='audio').played,true);
 });
 
-test('invalid local audio paths are rejected before a player is created',async t=>{
- const f=speechFixture(t,()=>({audio:'../../private.wav',voice:'Zira',culture:'en-US'}));await speak('Test sentence.');assert.equal(f.nodes.length,0);
+test('invalid local audio paths are rejected before a player receives a source',async t=>{
+ const f=speechFixture(t,()=>({audio:'../../private.wav',voice:'af_heart',culture:'en-US',engine:'kokoro'}));await speak('Test sentence.');assert.equal(f.nodes.find(n=>n.tag==='audio').src,undefined);
+});
+
+test('British comparison requests and verifies the British Kokoro voice',async t=>{
+ const f=speechFixture(t,body=>{assert.equal(body.lang,'en-GB');return{audio:'a'.repeat(64)+'.wav',voice:'bf_emma',culture:'en-GB',engine:'kokoro'};});
+ const out=await speak('A British comparison.',.75,'en-GB');assert.equal(out.voice,'bf_emma');assert.equal(f.nodes.find(n=>n.tag==='audio').playbackRate,.75);
+});
+
+test('legacy engine and mismatched accent never play or fall back to a browser voice',async t=>{
+ let output={audio:'a'.repeat(64)+'.wav',voice:'Zira',culture:'en-US'};
+ const f=speechFixture(t,()=>output);window.speechSynthesis.speak=()=>assert.fail('No system fallback');
+ assert.equal(await speak('First.'),null);assert.equal(f.nodes.some(n=>n.played),false);
+ output={...output,voice:'af_heart',engine:'kokoro'};assert.equal(await speak('Second.',1,'en-GB'),null);assert.equal(f.nodes.some(n=>n.played),false);
+});
+
+test('Stop aborts pending synthesis, unlocks inline controls, and keeps a later reply silent',async t=>{
+ let finish;const pending=new Promise(resolve=>{finish=resolve;});const f=speechFixture(t,()=>pending);
+ const player={isConnected:true,setAttribute(){},pause(){},async play(){this.played=true;}},button={innerHTML:'Listen',setAttribute(){}},status={};
+ const playing=speak('A pending sentence.',1,'en-US',{player,button,status});assert.equal(button.disabled,true);assert.match(status.textContent,/Готовим/);
+ stopAudio();assert.equal(f.requestOptions.signal.aborted,true);assert.equal(button.disabled,false);assert.equal(button.innerHTML,'Listen');
+ finish({audio:'a'.repeat(64)+'.wav',voice:'af_heart',culture:'en-US',engine:'kokoro'});await playing;assert.equal(player.played,undefined);
+});
+
+test('voice preview passes an explicit voice without changing the saved configuration',async t=>{
+ const f=speechFixture(t,body=>{assert.equal(body.voice,'am_fenrir');return{audio:'a'.repeat(64)+'.wav',voice:'am_fenrir',culture:'en-US',engine:'kokoro'};});
+ await speak('Same preview.',1,'en-US',{voice:'am_fenrir'});assert.equal(f.nodes.find(n=>n.tag==='audio').played,true);
+});
+
+test('a late play promise cannot pause a newer phrase in the same inline player',async t=>{
+ const f=speechFixture(t,()=>({audio:'a'.repeat(64)+'.wav',voice:'af_heart',culture:'en-US',engine:'kokoro'}));let finish,started;const playing=new Promise(resolve=>{finish=resolve;}),ready=new Promise(resolve=>{started=resolve;});
+ let plays=0,pauses=0;const player={setAttribute(){},pause(){pauses++;},play(){plays++;if(plays===1){started();return playing;}return Promise.resolve();}};
+ const first=speak('Old phrase.',1,'en-US',{player});await ready;
+ await speak('New phrase.',1,'en-US',{player});const pauseCount=pauses;
+ finish();await first;assert.equal(plays,2);assert.equal(pauses,pauseCount);
 });
 
 test('Stopping audio while microphone permission is pending prevents a late recording even before the old page disconnects',async t=>{

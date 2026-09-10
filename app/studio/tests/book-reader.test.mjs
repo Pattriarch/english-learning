@@ -52,14 +52,13 @@ test('A superseded load of the same unit cannot replace the newer reader',async 
  assert.match(f.root.innerHTML,/Current lesson/);assert.doesNotMatch(f.root.innerHTML,/Stale lesson/);
 });
 
-test('Book audio fetched after leaving the route cannot restart playback in still-connected controls',async t=>{
- const f=await studyUI(t,'book-reader.js'),{data,payload}=bookData(),samples=deferred();
- f.api=async()=>payload;f.fetch=async()=>samples.promise;
+test('Book examples use current text with Kokoro and invalidate playback after leaving the route',async t=>{
+ const f=await studyUI(t,'book-reader.js'),{data,payload}=bookData();
+ f.api=async()=>payload;f.fetch=async()=>assert.fail('Old book WAV manifests must not be used');
  await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
- const button=f.root.querySelector('[data-example-speak]'),player=f.root.querySelector('#book-model-audio'),pending=button.click();
- location.hash='#/today';f.stopAudio();assert.equal(button.isConnected,true);
- samples.resolve({ok:true,json:async()=>({clips:{'I am working.':'a'.repeat(64)+'.wav'}})});await pending;
- assert.equal(player.playCalls,undefined);assert.equal(f.alerts.length,0);
+ const button=f.root.querySelector('[data-example-speak]'),player=f.root.querySelector('#book-model-audio');await button.click();
+ assert.deepEqual(f.spoken[0].slice(0,3),['I am working.',.9,'en-US']);assert.equal(f.spoken[0][3].player,player);assert.equal(f.spoken[0][3].isCurrent(),true);
+ location.hash='#/today';assert.equal(button.isConnected,true);assert.equal(f.spoken[0][3].isCurrent(),false);
 });
 
 test('A saved book assessment restores beside a draft with a trailing newline',async t=>{

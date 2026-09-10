@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {exerciseMaterials,materialHTML,materialFigureHTML,materialTextHTML} from '../lesson-materials.js';
-import {studyUI,deferred} from './study-ui-fixture.mjs';
+import {studyUI} from './study-ui-fixture.mjs';
 
 test('Staged practice only reveals materials assigned to the current exercise',()=>{
  const lesson={materials:[{id:'stage-1',text:'Initial request.'},{id:'stage-2',text:'A surprise new restriction.'}]};
@@ -60,34 +60,30 @@ test('A prepared PNG scene opens locally and its description starts hidden',asyn
 });
 
 const audioLesson=()=>({id:'extended-test',materials:[{id:'m1',kind:'listening',title:'An interview',text:'A complete listening source.'}]});
-async function manifestFor(text){const hash=Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text))).toString('hex');return{voice:'Local test voice',materials:{m1:{file:'a'.repeat(64)+'.wav',textSHA256:hash}}};}
-
-test('prepared listening plays only the matching current text at the selected speed',async t=>{
+test('listening sends the current complete text and selected speed to Kokoro without reading old manifests',async t=>{
  const f=await studyUI(t,'lesson-materials.js'),lesson=audioLesson();
- f.fetch=async()=>({ok:true,json:async()=>manifestFor(lesson.materials[0].text)});
+ f.fetch=async()=>assert.fail('Old prepared speech must not be fetched');
  f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});
  f.root.querySelector('[data-material-rate="0"]').value='.8';
  await f.root.querySelector('[data-material-play]').click();
  const player=f.root.querySelector('[data-material-audio="0"]');
- assert.equal(player.playCalls,1);assert.equal(player.playbackRate,.8);assert.equal(player.hidden,false);
+ assert.deepEqual(f.spoken[0].slice(0,3),[lesson.materials[0].text,.8,'en-US']);assert.equal(f.spoken[0][3].player,player);
  assert.equal(f.root.querySelector('[data-material-text="0"]').hidden,true);
 });
 
-test('a delayed listening manifest cannot restart audio after Stop',async t=>{
- const f=await studyUI(t,'lesson-materials.js'),lesson=audioLesson(),response=deferred();
- f.fetch=async()=>response.promise;f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});
- const pending=f.root.querySelector('[data-material-play]').click();f.stopAudio();
- response.resolve({ok:true,json:async()=>manifestFor(lesson.materials[0].text)});await pending;
- assert.equal(f.root.querySelector('[data-material-audio="0"]').playCalls,undefined);assert.equal(f.alerts.length,0);
+test('a redraw invalidates the pending material playback even while the root stays connected',async t=>{
+ const f=await studyUI(t,'lesson-materials.js'),lesson=audioLesson();
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});await f.root.querySelector('[data-material-play]').click();
+ const options=f.spoken[0][3];assert.equal(options.isCurrent(),true);
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});assert.equal(options.isCurrent(),false);
 });
 
-test('an old text recording is rejected instead of teaching a different version',async t=>{
+test('long listening sources are sent without truncation',async t=>{
  const f=await studyUI(t,'lesson-materials.js'),lesson=audioLesson();
- f.fetch=async()=>({ok:true,json:async()=>manifestFor('The obsolete text.')});
+ lesson.materials[0].text='A complete paragraph. '.repeat(500);
  f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});
  await f.root.querySelector('[data-material-play]').click();
- assert.equal(f.root.querySelector('[data-material-audio="0"]').playCalls,undefined);
- assert.match(f.alerts.at(-1),/этой версии материала/);
+ assert.equal(f.spoken[0][0],lesson.materials[0].text);
 });
 
 test('Listening begins with a hidden transcript while reading exposes the complete paragraph text',t=>{

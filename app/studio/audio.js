@@ -1,36 +1,46 @@
 import {$,api,toast} from './core.js';
-let active=null,audioURL=null,audioGeneration=0,localSpeech=null,localSpeechPanel=null;
-export function speechVoice(lang='en-US',voices=window.speechSynthesis?.getVoices?.()||[]){
-  const same=v=>v.lang.replace(/_/g,'-').toLowerCase()===lang.toLowerCase();
-  return voices.find(v=>same(v)&&v.localService)||voices.find(same)||voices.find(v=>v.lang.startsWith('en')&&v.localService)||voices.find(v=>v.lang.startsWith('en'))||null;
+let active=null,audioURL=null,audioGeneration=0,localSpeech=null,localSpeechPanel=null,speechRequest=null;
+const speechPlayers=new WeakMap();
+export const speechVoiceName=id=>({af_heart:'Heart',af_bella:'Bella',am_michael:'Michael',am_fenrir:'Fenrir',bf_emma:'Emma'}[id]||id);
+export function speechLabel(voice,culture='en-US'){
+  return ['Kokoro',speechVoiceName(voice),culture==='en-GB'?'британский английский':'американский английский'].filter(Boolean).join(' · ');
 }
-export async function speak(text,rate=.9,lang='en-US'){
-  if(!String(text||'').trim())return;
-  stopAudio();const generation=audioGeneration,current=()=>generation===audioGeneration;let usedFallback=false;
-  const fallback=async()=>{
-    if(!current()||usedFallback)return;usedFallback=true;
-    try{
-      toast('Готовим американскую озвучку…');
-      const out=await api('/speech',{text:String(text),lang});
-      if(!current())return;
-      if(!/^[a-f0-9]{64}\.wav$/.test(out.audio||'')||out.culture!=='en-US')throw Error('Не удалось получить американский аудиообразец.');
-      const panel=document.createElement('aside'),player=document.createElement('audio'),close=document.createElement('button');
-      panel.className='local-speech-player';panel.setAttribute('aria-label','Американская озвучка');
-      player.src='/media/'+out.audio;player.controls=true;player.preload='auto';player.playbackRate=Math.min(1.5,Math.max(.5,Number(rate)||.9));
-      player.setAttribute('aria-label','Прослушать фразу · '+out.voice);player.title=out.voice+' · '+out.culture;
-      close.type='button';close.textContent='×';close.setAttribute('aria-label','Закрыть озвучку');close.onclick=()=>{if(current())stopAudio();};
-      panel.append(player,close);document.body.appendChild(panel);localSpeech=player;localSpeechPanel=panel;
-      player.onerror=()=>{if(current())toast('Не удалось воспроизвести аудио. Попробуй озвучить фразу ещё раз.',true);};
-      try{await player.play();}catch{if(current())toast('Аудио готово. Нажми ▶ в плеере.');}
-    }catch(e){if(current())toast(e.message,true);}
-  };
-  const voice=speechVoice(lang);
-  if(!window.speechSynthesis||!voice||typeof SpeechSynthesisUtterance==='undefined'||(lang==='en-US'&&voice.lang.replace(/_/g,'-').toLowerCase()!=='en-us'))return fallback();
-  const u=new SpeechSynthesisUtterance(text);u.lang=lang;u.rate=rate;u.voice=voice;
-  u.onerror=e=>{if(e.error!=='interrupted'&&e.error!=='canceled')void fallback();};
-  try{window.speechSynthesis.speak(u);}catch{return fallback();}
+// All course and free-text playback uses the same local neural voice and cache.
+// Optional inline controls keep the player beside its learning material.
+export async function speak(text,rate=.9,lang='en-US',options={}){
+  text=String(text||'').trim();if(!text)return null;
+  stopAudio();const generation=audioGeneration,current=()=>generation===audioGeneration&&(!options.isCurrent||options.isCurrent());
+  if(!current())return null;
+  let player=options.player,status=options.status;
+  if(!player){
+    const panel=document.createElement('aside'),close=document.createElement('button');player=document.createElement('audio');status=document.createElement('p');
+    panel.className='local-speech-player';panel.setAttribute('aria-label','Озвучка Kokoro');status.setAttribute('role','status');
+    close.type='button';close.textContent='×';close.setAttribute('aria-label','Остановить и закрыть озвучку');close.onclick=()=>{if(current())stopAudio();};
+    panel.append(status,player,close);document.body.appendChild(panel);localSpeechPanel=panel;
+  }
+  localSpeech=player;speechPlayers.set(player,generation);player.hidden=true;player.controls=true;player.preload='auto';player.removeAttribute?.('src');
+  const show=message=>{if(status){status.hidden=false;status.textContent=message;}};
+  const controller=new AbortController(),button=options.button,original=button?.innerHTML;
+  let restored=false;const restore=()=>{if(restored)return;restored=true;if(button){button.disabled=false;button.innerHTML=original;button.setAttribute('aria-busy','false');}};
+  const request={controller,cancel(){controller.abort();restore();if(generation===audioGeneration&&status?.isConnected!==false)show('Озвучивание остановлено.');}};speechRequest=request;
+  if(button){button.disabled=true;button.innerHTML='Готовим озвучку…';button.setAttribute('aria-busy','true');}
+  show('Готовим озвучку Kokoro… При первом запуске нужно немного подождать.');
+  try{
+    let response;try{response=await fetch('/api/speech',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,lang,...(options.voice?{voice:options.voice}:{})}),signal:controller.signal});}catch(error){if(error.name==='AbortError')throw error;throw Error('Сервер озвучки недоступен. Запусти приложение через Start-English.cmd и повтори.');}
+    if(!current())return null;
+    let out;try{out=await response.json();}catch{throw Error('Сервер озвучки вернул неожиданный ответ.');}
+    if(!current())return null;
+    if(!response.ok)throw Error(out.error||'Не удалось подготовить озвучку Kokoro. Попробуй ещё раз.');
+    if(out.engine!=='kokoro'||!/^[a-f0-9]{64}\.wav$/.test(out.audio||'')||out.culture!==lang||!out.voice)throw Error('Не удалось подтвердить голос Kokoro и выбранный вариант английского. Перезапусти приложение и повтори.');
+    player.src='/media/'+out.audio;player.playbackRate=Math.min(1.5,Math.max(.5,Number(rate)||.9));player.hidden=false;
+    const label=speechLabel(out.voice,out.culture);player.setAttribute('aria-label','Прослушать фразу · '+label);player.title=label;show(label);
+    player.onerror=()=>{if(current()){const message='Не удалось воспроизвести аудио. Попробуй озвучить фразу ещё раз.';show(message);toast(message,true);}};
+    try{await player.play();if(!current()&&speechPlayers.get(player)===generation)player.pause();}catch{if(current())show(label+' · Аудио готово. Нажми ▶ в плеере.');}
+    return current()?out:null;
+  }catch(error){if(current()&&error.name!=='AbortError'){show(error.message);toast(error.message,true);}return null;}
+  finally{if(speechRequest===request)speechRequest=null;restore();}
 }
-export function stopAudio(){audioGeneration++;const running=active;active=null;running?.stop();localSpeech?.pause();localSpeechPanel?.remove();localSpeech=null;localSpeechPanel=null;document.querySelectorAll('audio').forEach(a=>a.pause());window.speechSynthesis?.cancel();}
+export function stopAudio(){speechRequest?.cancel();speechRequest=null;audioGeneration++;const running=active;active=null;running?.stop();localSpeech?.pause();localSpeechPanel?.remove();localSpeech=null;localSpeechPanel=null;document.querySelectorAll('audio').forEach(a=>a.pause());window.speechSynthesis?.cancel();}
 // A queued file load must not restart playback after Stop or route navigation.
 export function beginAudio(){stopAudio();const generation=audioGeneration;return()=>generation===audioGeneration;}
 export async function recordOnly(button,preview,onReady,options={}){

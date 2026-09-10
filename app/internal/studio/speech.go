@@ -23,14 +23,16 @@ var errSpeechBusy = errors.New("Озвучивание занято. Через 
 var errSpeechUnavailable = errors.New("Локальная озвучка требует Windows и установленного американского голоса English (United States)")
 
 type speechRequest struct {
-	Text string `json:"text"`
-	Lang string `json:"lang"`
+	Text  string `json:"text"`
+	Lang  string `json:"lang"`
+	Voice string `json:"voice,omitempty"`
 }
 
 type speechResult struct {
 	Audio   string `json:"audio"`
 	Voice   string `json:"voice"`
 	Culture string `json:"culture"`
+	Engine  string `json:"engine,omitempty"`
 }
 
 type speechCacheRecord struct {
@@ -65,7 +67,7 @@ func speechHash(b speechRequest) string {
 	return hex.EncodeToString(h[:])
 }
 
-// System.Speech is configured to emit PCM mono 22,050 Hz, 16 bit. Check complete
+// System.Speech emits PCM mono 22,050 Hz; Kokoro emits 24,000 Hz, both 16 bit. Check complete
 // RIFF chunks, not only the .wav suffix, before a cached result becomes playable.
 func validSpeechWAV(raw []byte) bool {
 	if len(raw) < 46 || len(raw) > speechMaxWAV || string(raw[:4]) != "RIFF" || string(raw[8:12]) != "WAVE" || uint64(binary.LittleEndian.Uint32(raw[4:8]))+8 != uint64(len(raw)) {
@@ -83,12 +85,19 @@ func validSpeechWAV(raw []byte) bool {
 		}
 		switch string(raw[pos : pos+4]) {
 		case "fmt ":
-			if size < 16 {
+			if size < 16 || fmtOK {
 				return false
 			}
 			p := raw[pos+8 : int(end)]
-			fmtOK = binary.LittleEndian.Uint16(p[:2]) == 1 && binary.LittleEndian.Uint16(p[2:4]) == 1 && binary.LittleEndian.Uint32(p[4:8]) == 22050 && binary.LittleEndian.Uint32(p[8:12]) == 44100 && binary.LittleEndian.Uint16(p[12:14]) == 2 && binary.LittleEndian.Uint16(p[14:16]) == 16
+			rate := binary.LittleEndian.Uint32(p[4:8])
+			fmtOK = binary.LittleEndian.Uint16(p[:2]) == 1 && binary.LittleEndian.Uint16(p[2:4]) == 1 && (rate == 22050 || rate == 24000) && binary.LittleEndian.Uint32(p[8:12]) == rate*2 && binary.LittleEndian.Uint16(p[12:14]) == 2 && binary.LittleEndian.Uint16(p[14:16]) == 16
+			if !fmtOK {
+				return false
+			}
 		case "data":
+			if dataOK || size == 0 || size%2 != 0 {
+				return false
+			}
 			dataOK = size > 0 && size%2 == 0
 		}
 		pos = int(end + size%2)
@@ -119,7 +128,7 @@ func readBoundedFile(path string, max int64) ([]byte, error) {
 func cachedSpeech(profile, key string) (speechResult, bool) {
 	var cached speechCacheRecord
 	raw, err := readBoundedFile(filepath.Join(profile, "speech-cache", key+".json"), 4096)
-	if err != nil || json.Unmarshal(raw, &cached) != nil || cached.SourceHash != key || cached.Audio != key+".wav" || cached.Culture != "en-US" || cached.Voice == "" {
+	if err != nil || json.Unmarshal(raw, &cached) != nil || cached.SourceHash != key || cached.Audio != key+".wav" || (cached.Culture != "en-US" && cached.Culture != "en-GB") || cached.Voice == "" {
 		return speechResult{}, false
 	}
 	wav, err := readBoundedFile(filepath.Join(profile, "media", cached.Audio), speechMaxWAV)
@@ -205,7 +214,8 @@ func (e *speechEngine) synthesize(ctx context.Context, profile, content string, 
 	return out, nil
 }
 
-func (s *Server) speech(w http.ResponseWriter, r *http.Request) {
+// Retained for explicit legacy diagnostics; application speech uses Kokoro.
+func (s *Server) systemSpeech(w http.ResponseWriter, r *http.Request) {
 	r.Body = http.MaxBytesReader(w, r.Body, 64<<10)
 	var b speechRequest
 	if !decode(w, r, &b) {
