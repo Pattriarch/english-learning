@@ -115,7 +115,7 @@ function topicFor(data, level) {
 }
 
 function matchingMaterials(lesson,exercise,skill) {
- return arr(lesson?.materials).filter(m=>arr(exercise?.materialIds).includes(m.id)&&(skill==='reading'?m.kind==='reading':['listening','dialogue'].includes(m.kind)));
+ return arr(lesson?.materials).filter(m=>arr(exercise?.materialIds).includes(m.id)&&(skill==='reading'?m.kind==='reading':['listening','dialogue'].includes(m.kind)||m.inputSkill==='listening'));
 }
 function inputExercises(lesson,skill) {
  return exerciseList(lesson).filter(e=>['write','speak'].includes(e.kind)&&!/^Открой «Медиатеку»/.test(e.prompt||'')&&(!arr(lesson.materials).length||matchingMaterials(lesson,e,skill).length));
@@ -128,7 +128,7 @@ function inputLesson(data,level,skill,domain) {
  }).filter(l=>inputExercises(l,skill).length);
  const latest=latestAnswers(data.state?.attempts);
  const records=candidates.map(l=>({lesson:l,...lessonWork({...l,exercises:inputExercises(l,skill)},latest),last:Math.max(0,...[...latest.values()].filter(a=>identity(a).lessonId===l.id).map(a=>validTime(a.at)))}));
- records.sort((a,b)=>Number(a.covered)-Number(b.covered)||Number(b.started)-Number(a.started)||Number(arr(b.lesson.materials)[0]?.kind===skill)-Number(arr(a.lesson.materials)[0]?.kind===skill)||Number(arr(b.lesson.materials).length>0)-Number(arr(a.lesson.materials).length>0)||(domain==='culture'?Number(b.lesson.id.startsWith('cinema-'))-Number(a.lesson.id.startsWith('cinema-')):0)||a.last-b.last);
+ records.sort((a,b)=>Number(a.covered)-Number(b.covered)||Number(b.started)-Number(a.started)||Number(arr(b.lesson.materials).some(m=>m.inputSkill===skill))-Number(arr(a.lesson.materials).some(m=>m.inputSkill===skill))||Number(arr(b.lesson.materials)[0]?.kind===skill)-Number(arr(a.lesson.materials)[0]?.kind===skill)||Number(arr(b.lesson.materials).length>0)-Number(arr(a.lesson.materials).length>0)||(domain==='culture'?Number(b.lesson.id.startsWith('cinema-'))-Number(a.lesson.id.startsWith('cinema-')):0)||a.last-b.last);
  const lesson=records[0]?.lesson;if(!lesson)return null;
  const ids=inputExercises(lesson,skill).filter(e=>!latest.has(JSON.stringify([lesson.id,baseExercise(e.id)]))).map(e=>e.id);
  return {lesson,exerciseIds:ids.length?ids:inputExercises(lesson,skill).map(e=>e.id)};
@@ -139,7 +139,9 @@ function metadata(data) {
 }
 function answerSkills(a, meta) {
  const {lessonId,exerciseId}=identity(a), result=new Set(), l=meta.lessons.get(lessonId), e=exerciseList(l).find(e=>baseExercise(e.id)===exerciseId);
- if (lessonId.startsWith('book-grammar-')) result.add('grammar');
+ if(lessonId==='conversation'){if(a.mode==='writing')result.add('writing');}
+ else if(lessonId.startsWith('project-')){if(['reading','listening','writing'].includes(exerciseId))result.add(exerciseId);if(exerciseId==='mediation'||exerciseId==='revision'||exerciseId==='transfer')result.add('writing');}
+ else if (lessonId.startsWith('book-grammar-')) result.add('grammar');
  else if (/^book-(vocabulary|collocations|phrasal)-/.test(lessonId)) result.add('vocabulary');
  else if (lessonId==='pronunciation') result.add('pronunciation');
  else if (lessonId==='research') {
@@ -166,7 +168,7 @@ function answerSkills(a, meta) {
   else if (/reading|чтени/.test(text)) result.add('reading');
   else if (/vocab|collocation|phrasal|лексик|словар|словосочет/.test(text)) result.add('vocabulary');
   else if (/pronunciation|произнош|фонет/.test(text)) result.add('pronunciation');
-  else if (!l.id.startsWith('extended-')&&!/cinema-|writing|speaking|письм|устн/.test(text)) result.add('grammar');
+  else if (!/^(extended|natural|sustained)-/.test(l.id)&&!/cinema-|writing|speaking|письм|устн/.test(text)) result.add('grammar');
   if (e?.kind==='write') result.add('writing');
  }
  if (a.mode==='speaking') result.add('speaking');

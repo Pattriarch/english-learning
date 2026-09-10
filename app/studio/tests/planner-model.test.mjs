@@ -23,6 +23,16 @@ test('lexicon production records vocabulary and the actual writing or speaking m
  assert.equal(p.blocks.find(b=>b.skill==='vocabulary').href,'#/lexicon');
 });
 
+test('authentic recordings enter the listening plan and do not create grammar evidence',()=>{
+ const natural={...lesson('natural-b2-leadership','B2'),materials:[{id:'m1',kind:'reference',inputSkill:'listening'}],exercises:[{id:'e1',kind:'write',materialIds:['m1']}]};
+ const data={lessons:[lesson('path-listening','B2'),natural],state:{attempts:[]}};
+ assert.equal(createDailyPlan(data,{level:'B2',minutes:120},now).blocks.find(b=>b.skill==='listening').href,'#/lesson/natural-b2-leadership/0');
+ data.state.attempts=[answer(natural.id,'e1')];
+ const skills=weeklySummary(data,now).skills;
+ assert.equal(skills.find(s=>s.id==='listening').count,1);
+ assert.equal(skills.find(s=>s.id==='grammar').count,0);
+});
+
 test('all durations balance the budget; long days include input, output and bounded review',()=>{
  for(const minutes of [30,60,90,120,180]) {
   const p=createDailyPlan({}, {minutes}, now);

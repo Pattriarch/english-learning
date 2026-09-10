@@ -30,12 +30,15 @@ type LessonFigure struct {
 	Caption string `json:"caption"`
 }
 type LessonMaterial struct {
-	ID     string        `json:"id"`
-	Title  string        `json:"title"`
-	Kind   string        `json:"kind"`
-	Text   string        `json:"text"`
-	Source string        `json:"source"`
-	Figure *LessonFigure `json:"figure,omitempty"`
+	ID         string        `json:"id"`
+	Title      string        `json:"title"`
+	Kind       string        `json:"kind"`
+	Text       string        `json:"text"`
+	Source     string        `json:"source"`
+	SourceURL  string        `json:"sourceUrl,omitempty"`
+	AudioFile  string        `json:"audioFile,omitempty"`
+	InputSkill string        `json:"inputSkill,omitempty"`
+	Figure     *LessonFigure `json:"figure,omitempty"`
 }
 type Exercise struct {
 	ID          string   `json:"id"`
@@ -119,6 +122,10 @@ func (s *Server) Handler() http.Handler {
 	m.HandleFunc("GET /api/library/unit/{id}", s.libraryUnit)
 	m.HandleFunc("GET /api/library/status", s.libraryStatus)
 	m.HandleFunc("GET /api/curriculum/coverage", s.curriculumCoverage)
+	m.HandleFunc("GET /api/curriculum/mastery", s.curriculumMastery)
+	m.HandleFunc("GET /api/projects", s.projects)
+	m.HandleFunc("GET /api/conversation/scenarios", s.conversationCatalog)
+	m.HandleFunc("POST /api/conversation/turn", s.conversationReply)
 	m.HandleFunc("GET /book-content/status.json", s.libraryStatus)
 	m.HandleFunc("GET /book-content/{name}", s.releasedBookContent)
 	m.HandleFunc("POST /api/settings", s.settings)
@@ -194,6 +201,12 @@ func (s *Server) allLessons() []Lesson {
 	return lessons
 }
 func (s *Server) findExercise(lesson, exercise string) (Lesson, Exercise, bool) {
+	if lesson == "conversation" {
+		return s.conversationExercise(exercise)
+	}
+	if strings.HasPrefix(lesson, "project-") {
+		return s.projectExercise(lesson, exercise)
+	}
 	if strings.HasPrefix(lesson, "book-") {
 		return s.bookExercise(lesson, exercise)
 	}

@@ -66,8 +66,9 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 		Memberships    []struct{ SourceID string }
 		Topics         []struct{ ID, Title string }
 		Contexts       []struct {
-			ID, En, Ru  string
-			TargetSpans []lexiconSpan
+			ID, En, Ru        string
+			TargetSpans       []lexiconSpan
+			ExcludedFromStudy bool
 		}
 		Senses  []struct{ Definition string }
 		Quality struct{ Status string }
@@ -85,12 +86,21 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 	}
 	search := []string{entry.Word}
 	seen := map[string]bool{}
+	active := entry.Contexts[:0]
 	for _, c := range entry.Contexts {
 		if !safeID.MatchString(c.ID) || seen[c.ID] || strings.TrimSpace(c.En) == "" || !validLexiconSpans(c.En, c.TargetSpans) {
 			return lexiconItem{}, fmt.Errorf("invalid context in %s", entry.ID)
 		}
 		seen[c.ID] = true
+		if c.ExcludedFromStudy {
+			continue
+		}
+		active = append(active, c)
 		search = append(search, c.En, c.Ru)
+	}
+	entry.Contexts = active
+	if len(entry.Contexts) == 0 {
+		return lexiconItem{}, fmt.Errorf("no usable context in %s", entry.ID)
 	}
 	for _, sense := range entry.Senses {
 		search = append(search, sense.Definition)

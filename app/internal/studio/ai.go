@@ -295,6 +295,10 @@ func (s *Server) check(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 	}
+	if err := s.validateProjectSubmission(b.LessonID, b.ExerciseID, b.ID, b.Answer, b.Mode); err != nil {
+		problem(w, 400, err)
+		return
+	}
 	l, e, ok := s.findExercise(b.LessonID, b.ExerciseID)
 	if b.LessonID != "free" && !ok {
 		if strings.HasPrefix(b.LessonID, "book-") && strings.Contains(b.ExerciseID, "--") {

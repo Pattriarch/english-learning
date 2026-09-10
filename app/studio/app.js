@@ -13,6 +13,7 @@ import {mountNotebook} from './notebook.js';
 import {mountTransfer} from './transfer.js';
 import {mountLexicon} from './lexicon.js';
 import {mountMethod} from './method.js';
+import {mountMastery} from './mastery.js';
 let data,routeVersion=0;
 const titles={today:'Сегодня',roadmap:'Программа A1–C2',practice:'Практика',media:'Медиатека',review:'Повторение',journal:'Мой прогресс',books:'Все учебники',settings:'Настройки',lesson:'Занятие',cinema:'Киноклуб',tenses:'Карта времён',pronunciation:'Чтение и произношение',designs:'Варианты дизайна',unit:'Рабочая тетрадь',coverage:'Карта навыков',focus:'Практика навыка'};
 const nav=[['today','home','Сегодня'],['roadmap','map','Программа A1–C2'],['tenses','clock','Все времена'],['pronunciation','sound','Произношение'],['practice','pen','Практика'],['cinema','play','Киноклуб'],['review','cards','Повторение'],['notebook','journal','Мои мысли'],['books','book','Все учебники'],['media','play','Медиатека'],['journal','chart','Мой прогресс'],['designs','spark','Выбрать дизайн'],['settings','settings','Настройки']];
@@ -20,6 +21,11 @@ titles.notebook='Мои мысли';
 titles.transfer='Закрепление';
 titles.lexicon='Живой словарь';
 titles.method='Как заниматься';
+titles.mastery='Результаты A1–C2';
+titles.projects='Проекты и проверки';
+titles.conversation='Разговорная практика';
+nav.push(['mastery','map','Результаты A1–C2'],['projects','pen','Проекты и проверки']);
+nav.splice(6,0,['conversation','mic','Разговоры']);
 nav.splice(7,0,['lexicon','book','Живой словарь']);
 const href=r=>'#/'+r;
 async function refresh(){
@@ -121,6 +127,9 @@ async function render(){
   else if(r==='transfer')await mountTransfer(main,data,refresh,parts[1]);
   else if(r==='lexicon')await mountLexicon(main,data,refresh,parts[1]);
   else if(r==='method')await mountMethod(main);
+  else if(r==='mastery')await mountMastery(main,data,refresh,parts[1]);
+  else if(r==='projects'){const {mountProjects}=await import('./projects.js');await mountProjects(main,data,refresh,parts[1]);}
+  else if(r==='conversation'){const {mountConversation}=await import('./conversation.js');await mountConversation(main,data,refresh,parts[1],parts[2]);}
   else if(r==='settings')mountSettings(main,data,refresh);
   else if(r==='books')await mountLibrary(main,data);
   else if(r==='media'||r==='capture')mountMedia(main,data,r==='media'?parts[1]||'':'');

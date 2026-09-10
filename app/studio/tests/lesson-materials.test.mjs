@@ -1,8 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {exerciseMaterials,materialHTML,materialFigureHTML,materialTextHTML} from '../lesson-materials.js';
+import {exerciseMaterials,materialHTML,materialFigureHTML,materialTextHTML,materialSourceHTML} from '../lesson-materials.js';
 import {studyUI} from './study-ui-fixture.mjs';
+
+test('authentic sources use safe source links and local audio without a synthetic substitute',()=>{
+ const m={id:'m1',kind:'reference',inputSkill:'listening',title:'Recorded conversation',text:'Listen to the actual recording.',source:'Voice of America',sourceUrl:'https://learningenglish.voanews.com/a/lesson/3111026.html',audioFile:'/assets/authentic-listening/voa-welcome-conversation.mp3'};
+ const html=materialHTML(m,0,{drafts:{}},'natural-a1');assert.match(html,/data-natural-audio/);assert.match(html,/АУДИРОВАНИЕ · ЗАПИСЬ ЛЮДЕЙ/);assert.match(html,/Оригинальная запись/);assert.doesNotMatch(html,/data-material-play/);assert.match(html,/Открыть запись и расшифровку/);
+ for(const sourceUrl of ['javascript:alert(1)','https://user:secret@example.com/','file:///private'])assert.equal(materialSourceHTML({...m,sourceUrl}),'');
+ assert.doesNotMatch(materialHTML({...m,audioFile:'/media/private.mp3'},0,{drafts:{}},'natural-a1'),/data-natural-audio/);
+});
 
 test('Staged practice only reveals materials assigned to the current exercise',()=>{
  const lesson={materials:[{id:'stage-1',text:'Initial request.'},{id:'stage-2',text:'A surprise new restriction.'}]};

@@ -9,7 +9,8 @@ test('A1–C2 pathway, all tense comparisons and cinema lessons resolve to prepa
  assert.equal(byID.size,lessons.length,'duplicate lesson IDs');
  const path=read('learning-path.json');
  assert.deepEqual(path.levels.map(l=>l.id),['A1','A2','B1','B2','C1','C2']);
- for(const level of path.levels){assert.ok(level.lessonIds.length>=15);for(const id of level.lessonIds){assert.ok(byID.has(id),id);assert.equal(byID.get(id).level,level.id);}}
+ const cefr=['A1','A2','B1','B2','C1','C2'];
+ for(const level of path.levels){assert.ok(level.lessonIds.length>=15);for(const id of level.lessonIds){assert.ok(byID.has(id),id);const declared=byID.get(id).level;assert.match(declared,/^[ABC][12](?:[–-][ABC][12])?$/);const bounds=declared.match(/[ABC][12]/g).map(x=>cefr.indexOf(x)),target=cefr.indexOf(level.id);assert.ok(target>=Math.min(...bounds)&&target<=Math.max(...bounds),`${id}: ${declared} is outside ${level.id}`);}}
  assert.equal(path.tenses.length,12);
  for(const tense of path.tenses)for(const id of [...tense.lessonIds,...(tense.compareLessonIds||[])])assert.ok(byID.has(id),id);
  const cinema=read('cinema.json');assert.equal(cinema.series[0].episodes.length,10);

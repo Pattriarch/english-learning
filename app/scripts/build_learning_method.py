@@ -12,6 +12,8 @@ def inline(text):
         label, url = match.groups()
         if url.startswith("https://"):
             return f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>'
+        if re.fullmatch(r"#/[-a-zA-Z0-9/]+", url):
+            return f'<a href="{url}">{label}</a>'
         return f'{label} <span class="small-note">(документ в папке docs проекта)</span>'
     return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link, escaped)
 
