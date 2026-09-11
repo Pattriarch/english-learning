@@ -350,10 +350,20 @@ class EditorialPatchTests(unittest.TestCase):
         self.assertEqual(result["provenance"]["warnings"], [change["after"], "Audio was not inspected."])
         self.assertEqual(result["provenance"]["sourceImages"], base["provenance"]["sourceImages"])
         self.assertFalse(_allowed(path))
-        bad = self.change(["provenance", "warnings", 1], "Audio was not inspected.",
-            "The application has professional audio verification.")
+        bad = self.change(["provenance", "sourceImages", 0, "sha256"], "a" * 64, "b" * 64)
         with self.assertRaisesRegex(ValueError, "forbidden editorial field"):
             apply_changes(base, self.bundle, [bad])
+
+    def test_authored_phonetic_warning_is_correctable_without_changing_source_evidence(self):
+        base = deepcopy(self.base)
+        base["provenance"] = {"warnings": ["Pure merges with peer in the chosen model."],
+            "approvedAudio": [{"audioSha256": "a" * 64}]}
+        change = self.change(["provenance", "warnings", 0], base["provenance"]["warnings"][0],
+            "The model distinguishes pure /pjʊr/ and peer /pɪr/; no merger is asserted.")
+        result = apply_changes(base, self.bundle, [change])
+        self.assertEqual(result["provenance"]["approvedAudio"], base["provenance"]["approvedAudio"])
+        self.assertEqual(len(result["provenance"]["warnings"]), 1)
+        self.assertFalse(_allowed(change["path"]))
 
 
 if __name__ == "__main__":

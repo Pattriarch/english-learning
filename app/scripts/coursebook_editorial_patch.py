@@ -3,8 +3,9 @@
 This loader grants no acceptance and writes no files. Supplied materials,
 material references and identifiers cannot be patched. Direct editorial edits
 may fix text or its authored source caption in an explicitly original material
-without external assets, retaining its original-work attribution. The
-caller must validate the whole lesson and obtain independent review of it.
+without external assets, retaining its original-work attribution, and original
+warning prose. Immutable source/audio evidence is outside that scope. The caller
+must validate the whole lesson and obtain independent review of it.
 """
 from __future__ import annotations
 
@@ -80,17 +81,15 @@ def _original_source_label(source):
             and not re.search(r"\b(?:supplied|textbook|transcript|source|book)\b|учебник|расшифров|исходн|из\s+книг", source, re.I))
 
 
-def _application_warning(path, base, after):
-    # Author-written UI caveats are prose, not source-image/audio provenance.
+def _authored_warning(path, base, after):
+    # Author-written caveats are prose, not source-image/audio provenance.
     # Keep this outside the automatic field-editor's narrower whitelist.
     if not (isinstance(path, list) and len(path) == 3
             and path[:2] == ["provenance", "warnings"] and _index(path[2])):
         return False
     warnings = base.get("provenance", {}).get("warnings", [])
-    ui = re.compile(r"\bapplication\b|\bприложени[еяию]\b", re.I)
     return (isinstance(warnings, list) and path[2] < len(warnings)
-            and isinstance(warnings[path[2]], str) and isinstance(after, str)
-            and bool(ui.search(warnings[path[2]])) and bool(ui.search(after)))
+            and isinstance(warnings[path[2]], str) and isinstance(after, str))
 
 
 def _original_material_text(path, base, bundle, after):
@@ -149,7 +148,7 @@ def apply_changes(base, bundle, changes):
             _fail("unexpected change fields")
         path = change["path"]
         if not (_allowed(path) or _original_material_text(path, base, bundle, change["after"])
-                or _application_warning(path, base, change["after"])):
+                or _authored_warning(path, base, change["after"])):
             _fail("forbidden editorial field path: " + repr(path))
         if any(path[:len(prior)] == prior or prior[:len(path)] == path for prior in paths):
             _fail("duplicate or overlapping editorial field paths")
