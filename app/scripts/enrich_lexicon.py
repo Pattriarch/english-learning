@@ -235,7 +235,9 @@ def require_text(value, label, minimum=1, russian=False):
 
 
 def full_target_spans(text, word):
-    if not any(char.isspace() for char in word):
+    # Corpus tokenization intentionally excludes some punctuation. A literal
+    # heading such as TL;DR still needs its exact complete spelling in tasks.
+    if not re.search(r"[^\w’'\-]", word):
         return context_spans(text, word)
     pattern = r"(?<![\w’'\-])" + re.escape(word) + r"(?![\w’'\-])"
     return [{'start': len(text[:m.start()].encode('utf-16-le')) // 2,
@@ -507,7 +509,7 @@ def batch(index, inputs, timeout):
             'reviews': len(receipts), 'replacements': sum(r['action'] == 'replace' for r in rows)}
 
 
-def verify_receipt(receipt, inputs, folder):
+def verify_receipt(receipt, inputs, folder, *, _history_stack=(), _history_cache=None):
     rows = validate_rows(receipt['rows'], inputs)
     if receipt.get('policy') != POLICY or receipt.get('inputSHA256') != value_sha(inputs) or receipt.get('rowsSHA256') != value_sha(rows):
         raise ValueError('Verified receipt digest differs')
@@ -563,6 +565,9 @@ def verify_receipt(receipt, inputs, folder):
         correction = proof['corrections'].get(row['rowId'])
         if correction is not None and correction != row:
             raise ValueError('Accepted row differs from reviewer correction')
+    if 'exampleRevisions' in receipt or 'exampleHistory' in receipt:
+        from lexicon_example_history import verified_history
+        verified_history(receipt, inputs, folder, _history_stack, _history_cache)
 
 
 
@@ -687,6 +692,10 @@ def publish(partial=False):
         verify_receipt(receipt, inputs, folder)
         originals = {s['rowId']: s for s in inputs}
         receipt_hash = file_sha(path)
+        revision_metadata = {}
+        if 'exampleRevisions' in receipt or 'exampleHistory' in receipt:
+            from lexicon_example_history import publication_metadata
+            revision_metadata = publication_metadata(receipt, inputs, folder)
         for row in receipt['rows']:
             source = originals[row['rowId']]
             rows.append({**copy.deepcopy(row), **{key: source[key] for key in
@@ -695,7 +704,8 @@ def publish(partial=False):
                          'review': {'inputSHA256': receipt['inputSHA256'],
                                     'outputSHA256': value_sha(row),
                                     'receiptSHA256': receipt_hash,
-                                    'semanticReviewSHA256': receipt['accepted'][row['rowId']]['sha256']}})
+                                    'semanticReviewSHA256': receipt['accepted'][row['rowId']]['sha256']},
+                         **revision_metadata.get(row['rowId'], {})})
     if not rows:
         raise ValueError('Nothing independently reviewed to publish')
     if not partial and len(rows) != snapshot['targetRows']:
