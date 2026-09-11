@@ -288,7 +288,7 @@ def lesson_depth_findings(lesson):
     for index, exercise in enumerate(lesson.get("exercises", [])):
         for key, minimum in (("prompt", 45), ("context", 30), ("hint", 35), ("explanation", 120)):
             check(exercise.get(key), minimum, f"exercises[{index}]({exercise.get('id')}).{key}")
-        if exercise.get("kind") in {"write", "speak"}:
+        if exercise.get("kind") in {"write", "speak"} or re.search(r"(?<!\d)\d+\s*[–—-]\s*\d+\s+слов\b", exercise.get("prompt", "")):
             for answer_index, answer in enumerate(exercise.get("answers", [])):
                 for issue in answer_range_findings(exercise.get("prompt", ""), answer, WORDS):
                     findings.append(f"exercises[{index}]({exercise.get('id')}).answers[{answer_index}]: {issue}; provide a natural complete answer meeting the actual task and all applicable ranges.")
@@ -335,7 +335,7 @@ def validate_lesson(lesson, request):
             _string(answer, 10, "reference answer")
             if len(WORDS.findall(answer)) < 3:
                 raise ValueError("reference answer is an isolated token")
-        if exercise["kind"] in {"write", "speak"}:
+        if exercise["kind"] in {"write", "speak"} or re.search(r"(?<!\d)\d+\s*[–—-]\s*\d+\s+слов\b", exercise["prompt"]):
             length = re.search(r"(?<!\d)(\d+)\s*[–—-]\s*(\d+)\s+слов\b", exercise["prompt"])
             if not length or not 5 <= int(length[1]) <= int(length[2]) <= 1000:
                 raise ValueError("write/speak needs a bounded N–M слов output range")

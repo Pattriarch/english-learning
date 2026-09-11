@@ -32,6 +32,8 @@ class EditorialPatchTests(unittest.TestCase):
                                     "explanation": "Выбор определяется целью.",
                                     "answers": ["I sent the package this morning."]}],
                      "materials": [{"id": "audio-one", "text": "Immutable checked transcript."}],
+                     "studyPlan": {"stages": [{"id": "input", "purpose": "Прочитайте объяснение.",
+                         "exerciseIds": ["e01"], "minutes": 20}]},
                      "provenance": {"sourceCoverage": [{"pointId": "point-one"}]}}
         self.base_path = self.folder / "lesson-draft-1-repair-2.json"
         self.patch_path = self.folder / "editorial-patch.json"
@@ -62,6 +64,8 @@ class EditorialPatchTests(unittest.TestCase):
         changes = [self.change(["subtitle"], self.base["subtitle"], "Уточнённый подзаголовок"),
                    self.change(["goal"], self.base["goal"], "Более точная цель урока"),
                    self.change(["formula"], self.base["formula"], "Размеченное правило /ɪd/"),
+                   self.change(["studyPlan", "stages", 0, "purpose"],
+                               "Прочитайте объяснение.", "Сначала сравните примеры, затем проверьте правило."),
                    self.change(["sections", 0, "body"], self.base["sections"][0]["body"], "Пояснение смысла и ограничения."),
                    *[self.change(["examples", 0, key], self.base["examples"][0][key],
                                  "Полезное уточнение «выбора» — " + key) for key in ("en", "ru", "why")],
@@ -132,6 +136,8 @@ class EditorialPatchTests(unittest.TestCase):
                  ["provenance", "sourceCoverage", 0, "pointId"],
                  ["materials", 0, "text"], ["sections", 0, "title"],
                  ["examples"], ["exercises", 0, "id"], ["exercises", 0, "kind"],
+                 ["studyPlan", "stages", 0, "id"], ["studyPlan", "stages", 0, "exerciseIds"],
+                 ["studyPlan", "stages", 0, "minutes"], ["studyPlan", "stages"],
                  ["exercises", 0, "answers"], ["sourceCoverage", 0, "point"]]
         for path in paths:
             with self.subTest(path=path):

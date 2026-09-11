@@ -243,6 +243,33 @@ class LearningRowTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'target'):
             enrich.validate_rows([row], [source])
 
+    def test_task_can_name_exact_highlighted_form_in_a_retained_context(self):
+        text = 'That comment is degrading to the other participants.'
+        source = {**self.source, 'word': 'degrade', 'displayHeadword': 'degrade',
+                  'en': text, 'targetSpans': enrich.full_target_spans(text, 'degrading')}
+        row = {**analysis(source), 'pos': 'adjective', 'productionTask':
+               'Напишите участнику чата два предложения с просьбой изменить тон; используйте форму degrading.'}
+        self.assertEqual(enrich.validate_rows([row], [source]), [row])
+        for target in ['degradation', 'degraded', 'non-degrading', 'degradingly']:
+            with self.subTest(target=target), self.assertRaisesRegex(ValueError, 'omits target'):
+                enrich.validate_rows([{**row, 'productionTask':
+                    'Напишите участнику чата два предложения с просьбой изменить тон; используйте ' + target + '.'}], [source])
+
+    def test_task_does_not_borrow_stale_or_inexact_source_highlights(self):
+        text = 'That comment is degrading to the other participants.'
+        source = {**self.source, 'word': 'degrade', 'displayHeadword': 'degrade',
+                  'en': text, 'targetSpans': enrich.full_target_spans(text, 'degrading')}
+        task = 'Напишите участнику чата два предложения с просьбой изменить тон; используйте форму degrading.'
+        row = {**analysis(source), 'pos': 'adjective', 'productionTask': task}
+        for spans in [[{**source['targetSpans'][0], 'start': 0}],
+                      [{'start': 16, 'end': 24, 'text': 'degradin'}],
+                      [{'start': 0, 'end': 9, 'text': 'degrading'}]]:
+            with self.subTest(spans=spans), self.assertRaisesRegex(ValueError, 'omits target'):
+                enrich.validate_rows([row], [{**source, 'targetSpans': spans}])
+        replacement = {**analysis(source, replace=True), 'productionTask': task}
+        with self.assertRaisesRegex(ValueError, 'omits target'):
+            enrich.validate_rows([replacement], [source])
+
     def test_complete_phrase_replacement_preserves_utf16_span(self):
         source = {**self.source, 'word': 'figure out', 'displayHeadword': 'figure out'}
         row = {**analysis(source, replace=True),

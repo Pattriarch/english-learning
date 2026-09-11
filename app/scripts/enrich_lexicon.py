@@ -272,7 +272,7 @@ def validate_rows(rows, inputs):
             require_text(row.get('replacementReason'), 'replacementReason', 15, True)
             if row['en'] == source['en']:
                 raise ValueError('Replacement has unchanged English')
-        spans_for(row, source)
+        selected_spans = spans_for(row, source)
         notes = row.get('usageNotes')
         if not isinstance(notes, list) or not 2 <= len(notes) <= 4:
             raise ValueError('Expected 2-4 useful construction notes')
@@ -292,8 +292,18 @@ def validate_rows(rows, inputs):
                 require_text(item.get(key), 'pitfall/' + key, 2 if key != 'why' else 20, key == 'why')
             if item['wrong'].strip() == item['correct'].strip():
                 raise ValueError('Pitfall correction is unchanged')
-        if not any(full_target_spans(row['productionTask'], word)
-                   for word in [source['word'], source['displayHeadword']]):
+        # A retained context can teach a specific highlighted form (degrading),
+        # distinct from its imported lemma (degrade). Accept only that exact
+        # whole-token span in the current example, not guessed inflections or
+        # stale forms from a replaced source.
+        task_targets = {source['word'], source['displayHeadword']}
+        for span in selected_spans:
+            if (isinstance(span, dict) and isinstance(span.get('text'), str)
+                    and span['text'].strip()
+                    and {k: span.get(k) for k in ['start', 'end', 'text']}
+                    in full_target_spans(row['en'], span['text'])):
+                task_targets.add(span['text'])
+        if not any(full_target_spans(row['productionTask'], word) for word in task_targets):
             raise ValueError('Production task omits target: ' + row['rowId'])
         if not isinstance(row.get('registerTags'), list) or any(not isinstance(x, str) for x in row['registerTags']):
             raise ValueError('Invalid register tags')

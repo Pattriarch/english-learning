@@ -186,6 +186,16 @@ class CompleteChapterTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "requested output length"):
             contract.validate_lesson(lesson, request)
 
+    def test_explicit_rewrite_budgets_apply_to_each_labeled_block(self):
+        lesson, request = fixture()
+        exercise = next(item for item in lesson["exercises"] if item["kind"] == "rewrite")
+        exercise["prompt"] = "Покажите исходный и исправленный тексты отдельными блоками: Original: 5–10 слов; Revised: 5–10 слов. Объяснение должно быть понятно адресату."
+        exercise["answers"] = ["Original: Please tell me about the meeting today.\nRevised: Could you send the agenda before the meeting?"]
+        contract.validate_lesson(lesson, request)
+        exercise["answers"] = ["Original: Please tell me about the meeting today.\nRevised: Send it."]
+        with self.assertRaisesRegex(ValueError, "block Revised has 2 words"):
+            contract.validate_lesson(lesson, request)
+
     def test_no_multiple_choice_or_gaps(self):
         for prompt in ("Выберите правильный ответ и объясните, почему остальные варианты неверны в этой ситуации.",
                        "Вставьте пропуск в предложении и объясните выбор английского времени в контексте.",

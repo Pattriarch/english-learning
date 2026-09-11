@@ -46,6 +46,9 @@ def _allowed(path):
         return False
     if len(path) == 1:
         return path[0] in ("subtitle", "goal", "formula")
+    if (len(path) == 4 and path[:2] == ["studyPlan", "stages"]
+            and _index(path[2])):
+        return path[3] == "purpose"
     if len(path) == 3 and _index(path[1]):
         return ((path[0] == "sections" and path[2] == "body")
                 or (path[0] == "examples" and path[2] in ("en", "ru", "why"))
