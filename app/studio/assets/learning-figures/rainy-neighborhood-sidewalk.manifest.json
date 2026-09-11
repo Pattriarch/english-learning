@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "id": "rainy-neighborhood-sidewalk-2026-09-11",
+  "title": "Rain on a neighborhood street",
+  "createdAt": "2026-09-11",
+  "origin": {
+    "kind": "original-ai-generated-fictional-image",
+    "tool": "image_gen.imagegen",
+    "attribution": "Original image generated for the English project. The person and setting are fictional.",
+    "rights": "Original project image; no third-party photograph or reference image used."
+  },
+  "asset": {
+    "file": "rainy-neighborhood-sidewalk.png",
+    "url": "/assets/learning-figures/rainy-neighborhood-sidewalk.png",
+    "sha256": "c0bcd22432ba690e6a1cf413be9f764c2ef506e5ef7f210b22dd4ca746b12c80",
+    "bytes": 3427451,
+    "width": 1536,
+    "height": 1024,
+    "copiedWithoutEditing": true
+  },
+  "prompt": {
+    "status": "exact-submitted-tool-prompt",
+    "tool": "image_gen.imagegen",
+    "mode": "built-in",
+    "text": "Use case: illustration-story. Asset type: one contextual vocabulary illustration for an adult American-English learning app. Create one cohesive 3:2 contemporary rainy neighborhood street scene, with one adult under an open deep-teal umbrella on the near sidewalk. Heavy rain is clearly falling in dense visible streaks, with droplets and ripples on wet paving. The adult wears a warm ocher jacket and ordinary dark fabric shoes, not waterproof boots; one shoe is visibly stepping into a shallow, broad sidewalk puddle with a small natural splash. Keep the umbrella canopy, the rain streaks, the puddle and both feet large and legible. A warmly lit house doorway behind the adult provides a natural setting without a sequence of events. Use a slightly elevated three-quarter view that shows the near sidewalk, the road and the opposite sidewalk in the SAME continuous perspective. The near sidewalk is genuinely narrow, about two paving slabs wide between the house frontage and curb. Across the modest road, show a plainly much wider pedestrian sidewalk, about six paving slabs wide from curb to frontage, with both boundaries unobstructed; the width difference should be visible from the geometry rather than labels. Avoid perspective that makes the distant sidewalk appear narrower. Sophisticated cinematic editorial illustration with convincing anatomy and rich material texture, beautiful rain reflections, cool blue-gray paving, deep teal and warm amber accents, inviting and memorable rather than gloomy. One person only, a quiet residential street, no vehicle blocking the view. No collage, inset, diagram, arrows, labels, lettering, logos, watermark or written sound effects. This is a single still moment: do not depict a before/after sequence or medical symptoms.",
+    "referenceImagesUsed": false
+  },
+  "pixelReview": {
+    "method": "Two assistant visual inspections of the generated pixels before binding; no external human or expert certification claimed.",
+    "checkedAt": "2026-09-11",
+    "scope": "Only concrete visible meanings and a clear relative sidewalk width are associated with this single scene. A still image does not establish temporal order, historical events, location, intentions, health outcomes, sounds or saturation of shoes.",
+    "approved": [
+      {
+        "word": "rain",
+        "entryId": "lex-rain-319b44c5",
+        "contextId": "tatoeba-24119-419390",
+        "englishSHA256": "5add23a10cfec6c92618806c6ccab268903b92a354b550670891078c8c0d063e",
+        "meaningRuSHA256": "d96b7ea7148babcd4c83f630a5d1aebb0994c4be41cab375f2df319e4a1ff910",
+        "senseId": "tatoeba-24119-419390-rich-sense-v1",
+        "observation": "Dense falling rain streaks, wet surfaces and repeated raindrop impact rings visibly depict heavy rain.",
+        "limits": "The image shows rain falling, not the exact onset after leaving home. It is not bound to the neighboring rain-holds-off example."
+      },
+      {
+        "word": "umbrella",
+        "entryId": "lex-umbrella-29747449",
+        "contextId": "tatoeba-26766-1451590",
+        "englishSHA256": "d0dd2ea49e03e454778ee48d36688231e365b5ff1ed9465293b00ccc31a8fdc9",
+        "meaningRuSHA256": "f6b38d516cdd593487a4f529d503b43a4d0e9206905a4c646878090b2cc15569",
+        "senseId": "tatoeba-26766-1451590-rich-sense-v1",
+        "observation": "The adult holds an open teal umbrella with a large canopy and visible shaft; it clearly functions as shelter from the falling rain.",
+        "limits": "The still image does not communicate the spoken instruction, guarantee dryness or make a medical claim about catching cold. It is not bound to the neighboring example about not bringing an umbrella."
+      },
+      {
+        "word": "puddle",
+        "entryId": "lex-puddle-2b8ccf19",
+        "contextId": "tatoeba-270755-655977",
+        "englishSHA256": "9f289a2c1a99935b0c58aa6fc788df6890b0f39306f75379686b259fa287e013",
+        "meaningRuSHA256": "2bd88dfa0bb897f987d5db0891aafea60e04f26d67b8dd7ec2ad6b20e096f108",
+        "senseId": "tatoeba-270755-655977-rich-sense-v1",
+        "observation": "The front shoe meets a shallow standing patch of water on the sidewalk, with an unmistakable splash at foot level.",
+        "limits": "The visible water and splash illustrate puddle. The image cannot prove how completely the shoes are soaked or the sound they make, and does not establish the prior event sequence."
+      },
+      {
+        "word": "sidewalk",
+        "entryId": "lex-sidewalk-b6dce9d1",
+        "contextId": "tatoeba-2601932-8039768",
+        "englishSHA256": "d34f58a680be135cc6e58346e29c436d690102eb254d8d55d7d9e116e6ee571a",
+        "meaningRuSHA256": "76eac8645dd6e1765e8aec89945e7c4b99d8ee80b1b3f63921fab6ddcbc1378a",
+        "senseId": "tatoeba-2601932-8039768-rich-sense-v1",
+        "observation": "Both sidewalks have visible curb and frontage boundaries in one continuous perspective. The left near-side pedestrian strip is narrow; the sidewalk across the road has several more paving rows and is visibly wider.",
+        "limits": "This supports the visible width contrast, not surveyed measurements. No city, country or real historical event is identified."
+      }
+    ],
+    "rejected": []
+  }
+}

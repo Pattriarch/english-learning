@@ -9,7 +9,8 @@
     "imageDescription": "app/studio/assets/learning-figures/courtyard-scene.json",
     "imageOrigin": "Original fictional image generated for this project with OpenAI Image Generator; local pixels visually inspected.",
     "additionalImageManifests": [
-      "app/studio/assets/learning-figures/home-apple-pie-preparation.manifest.json"
+      "app/studio/assets/learning-figures/home-apple-pie-preparation.manifest.json",
+      "app/studio/assets/learning-figures/rainy-neighborhood-sidewalk.manifest.json"
     ]
   },
   "assets": [
@@ -28,6 +29,14 @@
       "alt": "Две женщины готовят выпечку: слева мука, скалка и сырое тесто, справа очистка яблока с длинной полоской красной кожуры. На столе яблочный пирог с видимой начинкой, кусочек на тарелке, хлеб и зубчатый нож.",
       "sourceId": "home-apple-pie-preparation-2026-09-11",
       "associationRu": "Домашняя выпечка: мука, сырое тесто, очистка яблок, яблочный пирог и свежий хлеб."
+    },
+    {
+      "id": "rainy-neighborhood-sidewalk",
+      "src": "/assets/learning-figures/rainy-neighborhood-sidewalk.png",
+      "sha256": "c0bcd22432ba690e6a1cf413be9f764c2ef506e5ef7f210b22dd4ca746b12c80",
+      "alt": "Мужчина под открытым бирюзовым зонтом идёт по узкому тротуару во время сильного дождя; у ноги виден всплеск в луже. На другой стороне дороги тротуар заметно шире.",
+      "sourceId": "rainy-neighborhood-sidewalk-2026-09-11",
+      "associationRu": "Дождь на улице: зонт, лужа и два тротуара. Слева тротуар заметно уже."
     }
   ],
   "bindings": [
@@ -84,6 +93,42 @@
       "meaningRuSHA256": "c0cbec0ef9a935b04b4a7c9cf689d57ac03980d6b9ae06b7ef10723e96991045",
       "imageId": "home-apple-pie-preparation",
       "evidence": "A loaf, cut bread slices and an unmistakably serrated bread knife are visible at the front left. This illustrates only the selected concrete meaning in the bound English context. The visible object/tool pairing illustrates the context; it does not measure or prove that the knife is perfect."
+    },
+    {
+      "entryId": "lex-rain-319b44c5",
+      "contextId": "tatoeba-24119-419390",
+      "englishSHA256": "5add23a10cfec6c92618806c6ccab268903b92a354b550670891078c8c0d063e",
+      "senseId": "tatoeba-24119-419390-rich-sense-v1",
+      "meaningRuSHA256": "d96b7ea7148babcd4c83f630a5d1aebb0994c4be41cab375f2df319e4a1ff910",
+      "imageId": "rainy-neighborhood-sidewalk",
+      "evidence": "Dense falling rain streaks, wet surfaces and repeated raindrop impact rings visibly depict heavy rain. The image shows rain falling, not the exact onset after leaving home. It is not bound to the neighboring rain-holds-off example."
+    },
+    {
+      "entryId": "lex-umbrella-29747449",
+      "contextId": "tatoeba-26766-1451590",
+      "englishSHA256": "d0dd2ea49e03e454778ee48d36688231e365b5ff1ed9465293b00ccc31a8fdc9",
+      "senseId": "tatoeba-26766-1451590-rich-sense-v1",
+      "meaningRuSHA256": "f6b38d516cdd593487a4f529d503b43a4d0e9206905a4c646878090b2cc15569",
+      "imageId": "rainy-neighborhood-sidewalk",
+      "evidence": "The adult holds an open teal umbrella with a large canopy and visible shaft; it clearly functions as shelter from the falling rain. The still image does not communicate the spoken instruction, guarantee dryness or make a medical claim about catching cold. It is not bound to the neighboring example about not bringing an umbrella."
+    },
+    {
+      "entryId": "lex-puddle-2b8ccf19",
+      "contextId": "tatoeba-270755-655977",
+      "englishSHA256": "9f289a2c1a99935b0c58aa6fc788df6890b0f39306f75379686b259fa287e013",
+      "senseId": "tatoeba-270755-655977-rich-sense-v1",
+      "meaningRuSHA256": "2bd88dfa0bb897f987d5db0891aafea60e04f26d67b8dd7ec2ad6b20e096f108",
+      "imageId": "rainy-neighborhood-sidewalk",
+      "evidence": "The front shoe meets a shallow standing patch of water on the sidewalk, with an unmistakable splash at foot level. The visible water and splash illustrate puddle. The image cannot prove how completely the shoes are soaked or the sound they make, and does not establish the prior event sequence."
+    },
+    {
+      "entryId": "lex-sidewalk-b6dce9d1",
+      "contextId": "tatoeba-2601932-8039768",
+      "englishSHA256": "d34f58a680be135cc6e58346e29c436d690102eb254d8d55d7d9e116e6ee571a",
+      "senseId": "tatoeba-2601932-8039768-rich-sense-v1",
+      "meaningRuSHA256": "76eac8645dd6e1765e8aec89945e7c4b99d8ee80b1b3f63921fab6ddcbc1378a",
+      "imageId": "rainy-neighborhood-sidewalk",
+      "evidence": "Both sidewalks have visible curb and frontage boundaries in one continuous perspective. The left near-side pedestrian strip is narrow; the sidewalk across the road has several more paving rows and is visibly wider. This supports the visible width contrast, not surveyed measurements. No city, country or real historical event is identified."
     }
   ]
 }
