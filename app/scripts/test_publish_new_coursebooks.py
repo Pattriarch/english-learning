@@ -9,7 +9,7 @@ from unittest.mock import patch
 import generate_new_coursebooks as pipeline
 import publish_new_coursebooks as publish
 import publish_book_release as release
-from test_generate_new_coursebooks import bundle_fixture, write_json
+from test_generate_new_coursebooks import bundle_fixture, isolate_provider_files, write_json
 
 
 class CoursebookPublicationTests(unittest.TestCase):
@@ -17,6 +17,7 @@ class CoursebookPublicationTests(unittest.TestCase):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
+        isolate_provider_files(self, self.root)
         self.content = self.root / 'app/content'
         self.content.mkdir(parents=True)
         self.work = self.root / 'private-build'

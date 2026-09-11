@@ -24,6 +24,12 @@ def write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False), encoding="utf-8")
 
 
+def isolate_provider_files(test, root):
+    test.enterContext(patch.object(pipeline, "WORK", Path(root) / "shared-work"))
+    test.enterContext(patch.object(pipeline, "LEXICON_RUN_STATUS",
+                                  Path(root) / "lexicon" / "run-status.json"))
+
+
 def bundle_fixture(root):
     lesson, request = lesson_fixture()
     chapter = deepcopy(request["payload"]["chapter"])
@@ -74,6 +80,7 @@ class OfflinePipelineTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         self.work = self.root / "generated"
+        isolate_provider_files(self, self.root)
         self.bundle, self.analysis, self.lesson = bundle_fixture(self.root)
         self.calls = []
         self.reject_stage = None
@@ -879,6 +886,115 @@ class OfflinePipelineTests(unittest.TestCase):
         self.assertEqual(pipeline.read(checkpoint.with_suffix(".raw.json")), raw)
         self.assertFalse(captured["cwd"].exists(), "Private input transport directory was not cleaned up")
 
+    def test_persistent_quota_sources_block_new_calls_but_keep_bound_cache_readable(self):
+        checkpoint = self.work / "accepted-call.json"
+        request = {"prompt": "Read the complete source.", "payload": {"source": "full"},
+                   "schema": contract._object({"answer": contract._STRING})}
+        response = {"answer": "Previously returned and retained."}
+
+        def returned(prompt, payload, schema, attachments, path, timeout):
+            write_json(path, response)
+            return response
+
+        with patch.object(pipeline, "call_model", side_effect=returned) as model:
+            pipeline.cached_call(checkpoint, **request, attachments=[], timeout=10)
+            before = checkpoint.read_bytes()
+            model.reset_mock()
+            for index, (marker, value) in enumerate((
+                    (self.work / "provider-paused.json", {"reason": "local quota"}),
+                    (pipeline.WORK / "provider-paused.json", {"reason": "another controller"}),
+                    (pipeline.LEXICON_RUN_STATUS, {"providerLimited": True}))):
+                with self.subTest(marker=marker):
+                    write_json(marker, value)
+                    self.assertEqual(pipeline.cached_call(checkpoint, **request,
+                        attachments=[], timeout=10), response)
+                    with self.assertRaises(pipeline.QuotaReached):
+                        pipeline.cached_call(self.work / f"new-{index}.json", **request,
+                                             attachments=[], timeout=10)
+                    marker.unlink()
+            model.assert_not_called()
+            self.assertEqual(checkpoint.read_bytes(), before)
+            write_json(pipeline.LEXICON_RUN_STATUS, {"providerLimited": False, "pauseRequested": True})
+            write_json(pipeline.LEXICON_RUN_STATUS.parent / "pause-request.json", {"drain": True})
+            self.assertEqual(pipeline.cached_call(self.work / "manual-drain.json", **request,
+                attachments=[], timeout=10), response)
+            model.assert_called_once()
+
+    def test_final_transport_gate_catches_quota_set_during_preparation(self):
+        checkpoint = self.work / "launch-race.json"
+        paused = threading.Event()
+        pipeline.CALL_CONTEXT.provider_stop = paused
+        self.addCleanup(lambda: delattr(pipeline.CALL_CONTEXT, "provider_stop"))
+
+        def prepare_command():
+            pipeline.signal_provider_pause(checkpoint)
+            return ["codex-offline-test"]
+
+        with patch.object(pipeline, "codex_command", side_effect=prepare_command), \
+                patch.object(pipeline.subprocess, "Popen") as launch, \
+                self.assertRaises(pipeline.QuotaReached):
+            pipeline.cached_call(checkpoint, "Read all pages.", {"source": "full"},
+                contract._object({"answer": contract._STRING}), self.bundle["attachments"], 10)
+        launch.assert_not_called()
+        self.assertTrue(paused.is_set())
+        self.assertTrue((self.work / "provider-paused.json").exists())
+        self.assertTrue((pipeline.WORK / "provider-paused.json").exists())
+        self.assertFalse(checkpoint.exists())
+
+    def test_start_and_quota_signal_share_lock_but_inflight_wait_and_checkpoint_do_not(self):
+        checkpoint = self.work / "inflight.json"
+        signaling, signaled = threading.Event(), threading.Event()
+        pause_threads = []
+        process = Mock(returncode=0)
+
+        def signal():
+            signaling.set()
+            pipeline.signal_provider_pause(checkpoint)
+            signaled.set()
+
+        def popen(command, **kwargs):
+            write_json(command[command.index("--output-last-message") + 1], {"answer": "Completed inflight result."})
+            thread = threading.Thread(target=signal)
+            pause_threads.append(thread)
+            thread.start()
+            self.assertTrue(signaling.wait(1))
+            self.assertFalse(signaled.wait(0.02), "Quota signal bypassed the process-start lock")
+            return process
+
+        def wait(timeout):
+            self.assertTrue(signaled.wait(1), "Process-start lock was held during model wait")
+
+        process.wait.side_effect = wait
+        with patch.object(pipeline, "codex_command", return_value=["codex-offline-test"]), \
+                patch.object(pipeline.subprocess, "Popen", side_effect=popen):
+            result = pipeline.cached_call(checkpoint, "Read all pages.", {"source": "full"},
+                contract._object({"answer": contract._STRING}), self.bundle["attachments"], 10)
+        for thread in pause_threads:
+            thread.join(timeout=1)
+            self.assertFalse(thread.is_alive())
+        self.assertEqual(result, {"answer": "Completed inflight result."})
+        self.assertEqual(pipeline.read(checkpoint), result)
+        with patch.object(pipeline, "call_model") as model:
+            self.assertEqual(pipeline.cached_call(checkpoint, "Read all pages.", {"source": "full"},
+                contract._object({"answer": contract._STRING}), self.bundle["attachments"], 10), result)
+        model.assert_not_called()
+
+    def test_detected_transport_quota_sets_event_and_shared_markers_without_retry(self):
+        checkpoint = self.work / "quota-call.json"
+        paused = threading.Event()
+        pipeline.CALL_CONTEXT.provider_stop = paused
+        self.addCleanup(lambda: delattr(pipeline.CALL_CONTEXT, "provider_stop"))
+        with patch.object(pipeline, "call_model", side_effect=RuntimeError("usage limit reached")) as model, \
+                self.assertRaises(pipeline.QuotaReached):
+            pipeline.cached_call(checkpoint, "Read source.", {"source": "full"},
+                                 contract._object({"answer": contract._STRING}), [], 10)
+        model.assert_called_once()
+        self.assertTrue(paused.is_set())
+        self.assertTrue((self.work / "provider-paused.json").exists())
+        self.assertTrue((pipeline.WORK / "provider-paused.json").exists())
+        nested = self.work / "units" / "unit-one" / "source-sha" / "draft.json"
+        self.assertEqual(pipeline.local_provider_circuit(nested), self.work / "provider-paused.json")
+
     def test_transport_schema_types_native_lesson_constants_without_mutating_contract(self):
         native = deepcopy(contract.LESSON_SCHEMA)
         before = deepcopy(native)
@@ -926,6 +1042,7 @@ class WorkerOrchestrationTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.work = Path(self.temp.name) / "bulk"
+        isolate_provider_files(self, self.temp.name)
         self.inventory = [({"id": "fixture-book"}, {"id": f"unit-{index:03d}", "pages": [1, 2]})
                           for index in range(9)]
         self.bundles = {unit["id"]: {"chapter": {"unitId": unit["id"]},
@@ -1135,6 +1252,41 @@ class AnalysisOnlyOrchestrationTests(unittest.TestCase):
 
     def status(self):
         return pipeline.read(self.work / "source-analysis-status.json")
+
+    def test_explicit_recovery_ignores_external_snapshot_only_for_authorized_run(self):
+        write_json(pipeline.LEXICON_RUN_STATUS, {"providerLimited": True, "at": "old-limit"})
+        original = pipeline.LEXICON_RUN_STATUS.read_bytes()
+
+        def checked_worker(bundle, folder, timeout):
+            with pipeline.PROVIDER_START_LOCK:
+                pipeline.check_provider_pause(folder / "analysis-draft-1.json")
+            return self.successful_worker(bundle, folder, timeout)
+
+        self.assertEqual(self.run_main(worker=checked_worker, extra=("--resume-after-quota",)), 0)
+        self.assertEqual(pipeline.LEXICON_RUN_STATUS.read_bytes(), original)
+        self.assertEqual(self.run_main(worker=checked_worker), 2)
+        self.assertEqual(pipeline.LEXICON_RUN_STATUS.read_bytes(), original)
+
+    def test_external_limited_snapshot_change_recloses_circuit_during_authorized_run(self):
+        write_json(pipeline.LEXICON_RUN_STATUS, {"providerLimited": True, "at": "old-limit"})
+        original = pipeline.LEXICON_RUN_STATUS.read_bytes()
+        completed = []
+
+        def checked_worker(bundle, folder, timeout):
+            with pipeline.PROVIDER_START_LOCK:
+                pipeline.check_provider_pause(folder / "analysis-draft-1.json")
+            completed.append(bundle["chapter"]["unitId"])
+            # Even semantically identical newly written bytes are a new external
+            # snapshot. Only the test modifies this temporary foreign status.
+            pipeline.LEXICON_RUN_STATUS.write_bytes(original + b"\n")
+            return self.successful_worker(bundle, folder, timeout)
+
+        self.assertEqual(self.run_main(count=2, workers=1, worker=checked_worker,
+                                       extra=("--resume-after-quota",)), 2)
+        self.assertEqual(completed, ["unit-000"])
+        self.assertEqual(self.status()["counts"]["verified"], 1)
+        self.assertEqual(self.status()["counts"]["provider-paused"], 1)
+        self.assertEqual(pipeline.LEXICON_RUN_STATUS.read_bytes(), original + b"\n")
 
     def test_analysis_action_is_exclusive_and_workers_are_bounded(self):
         invalid = [("--analyze-only", "--generate"), ("--analyze-only", "--dry-run"),
