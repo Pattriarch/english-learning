@@ -96,6 +96,40 @@ func TestBookRecordingRejectsChangedBytesEvenWithRestoredFileIdentity(t *testing
 	}
 }
 
+func TestBookRecordingPrivateCopyWorksWithoutSourceBooks(t *testing.T) {
+	s, entry, source, raw := recordingFixture(t)
+	cache := filepath.Join(s.content, "..", "data", "book-recordings", entry.ID)
+	if err := os.MkdirAll(filepath.Dir(cache), 0700); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(cache, raw, 0600); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.Remove(source); err != nil {
+		t.Fatal(err)
+	}
+	w := requestRecording(t, s, "GET", entry.ID, map[string]string{"Range": "bytes=4-12"})
+	if w.Code != http.StatusPartialContent || w.Body.String() != string(raw[4:13]) {
+		t.Fatalf("private copy cannot replace absent source: %d %q", w.Code, w.Body.String())
+	}
+}
+
+func TestBookRecordingChangedPrivateCopyCannotHideBehindValidSource(t *testing.T) {
+	s, entry, _, raw := recordingFixture(t)
+	cache := filepath.Join(s.content, "..", "data", "book-recordings", entry.ID)
+	if err := os.MkdirAll(filepath.Dir(cache), 0700); err != nil {
+		t.Fatal(err)
+	}
+	raw[5] ^= 1
+	if err := os.WriteFile(cache, raw, 0600); err != nil {
+		t.Fatal(err)
+	}
+	w := requestRecording(t, s, "GET", entry.ID, nil)
+	if w.Code != http.StatusConflict {
+		t.Fatalf("changed private copy silently bypassed: %d", w.Code)
+	}
+}
+
 func TestBookRecordingDoesNotExposeUnregisteredOrMissingSources(t *testing.T) {
 	s, entry, path, _ := recordingFixture(t)
 	for _, id := range []string{"unknown.mp3", "01.mp3", "clear-speech-3-track-001", "more%2FClear%20Speech%20Audio%20CD%2F01.mp3"} {

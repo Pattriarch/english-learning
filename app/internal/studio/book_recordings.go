@@ -82,13 +82,7 @@ func (s *Server) serveBookRecording(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	root, err := os.OpenRoot(filepath.Join(s.content, "..", "..", "книги"))
-	if err != nil {
-		http.NotFound(w, r)
-		return
-	}
-	defer root.Close()
-	file, err := root.Open(filepath.FromSlash(recording.Filename))
+	file, err := s.openBookRecording(recording)
 	if err != nil {
 		http.NotFound(w, r)
 		return
@@ -117,4 +111,29 @@ func (s *Server) serveBookRecording(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Cache-Control", "private, no-cache")
 	w.Header().Set("ETag", `"`+recording.SHA256+`"`)
 	http.ServeContent(w, r, recording.ID, info.ModTime(), bytes.NewReader(raw))
+}
+
+func (s *Server) openBookRecording(recording bookRecording) (*os.File, error) {
+	locations := []struct{ root, name string }{
+		{filepath.Join(s.content, "..", "data", "book-recordings"), recording.ID},
+		{filepath.Join(s.content, "..", "..", "книги"), filepath.FromSlash(recording.Filename)},
+	}
+	for _, location := range locations {
+		root, err := os.OpenRoot(location.root)
+		if errors.Is(err, os.ErrNotExist) {
+			continue
+		}
+		if err != nil {
+			return nil, err
+		}
+		file, err := root.Open(location.name)
+		root.Close()
+		if errors.Is(err, os.ErrNotExist) {
+			continue
+		}
+		// A present private copy must itself pass the caller's byte/hash checks.
+		// Never conceal a changed copy by falling back to the original source.
+		return file, err
+	}
+	return nil, os.ErrNotExist
 }
