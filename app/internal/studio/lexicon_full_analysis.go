@@ -89,25 +89,40 @@ type lexiconFullReview struct {
 }
 
 type lexiconFullRow struct {
-	RowID               string                   `json:"rowId"`
-	EntryID             string                   `json:"entryId"`
-	ContextID           string                   `json:"contextId"`
-	SourceContextSHA256 string                   `json:"sourceContextSHA256"`
-	Action              string                   `json:"action"`
-	En                  string                   `json:"en"`
-	Ru                  string                   `json:"ru"`
-	MeaningEn           string                   `json:"meaningEn"`
-	MeaningRu           string                   `json:"meaningRu"`
-	Explanation         string                   `json:"explanation"`
-	ProductionTask      string                   `json:"productionTask"`
-	ReplacementReason   string                   `json:"replacementReason"`
-	POS                 string                   `json:"pos"`
-	UsageNotes          []string                 `json:"usageNotes"`
-	Collocations        []lexiconFullCollocation `json:"collocations"`
-	CommonMistakes      []lexiconFullMistake     `json:"commonMistakes"`
-	RegisterTags        []string                 `json:"registerTags"`
-	TargetSpans         []lexiconSpan            `json:"targetSpans"`
-	Review              lexiconFullReview        `json:"review"`
+	RowID               string                    `json:"rowId"`
+	EntryID             string                    `json:"entryId"`
+	ContextID           string                    `json:"contextId"`
+	SourceContextSHA256 string                    `json:"sourceContextSHA256"`
+	Action              string                    `json:"action"`
+	En                  string                    `json:"en"`
+	Ru                  string                    `json:"ru"`
+	MeaningEn           string                    `json:"meaningEn"`
+	MeaningRu           string                    `json:"meaningRu"`
+	Explanation         string                    `json:"explanation"`
+	ProductionTask      string                    `json:"productionTask"`
+	ReplacementReason   string                    `json:"replacementReason"`
+	POS                 string                    `json:"pos"`
+	UsageNotes          []string                  `json:"usageNotes"`
+	Collocations        []lexiconFullCollocation  `json:"collocations"`
+	CommonMistakes      []lexiconFullMistake      `json:"commonMistakes"`
+	RegisterTags        []string                  `json:"registerTags"`
+	TargetSpans         []lexiconSpan             `json:"targetSpans"`
+	Review              lexiconFullReview         `json:"review"`
+	ExampleRevision     int                       `json:"exampleRevision,omitempty"`
+	PreviousAnalyses    []lexiconPreviousAnalysis `json:"previousAnalyses,omitempty"`
+}
+
+type lexiconPreviousAnalysis struct {
+	ExampleRevision int            `json:"exampleRevision"`
+	ReceiptSHA256   string         `json:"receiptSHA256"`
+	Row             lexiconFullRow `json:"row"`
+}
+
+func (row lexiconFullRow) exampleRevision() int {
+	if row.ExampleRevision == 0 {
+		return 1
+	}
+	return row.ExampleRevision
 }
 
 type lexiconFullPublication struct {
@@ -228,6 +243,37 @@ func validLexiconFullText(text string, min int, russian bool) bool {
 }
 
 func validateLexiconFullRow(row lexiconFullRow) error {
+	if err := validateLexiconAnalysisHistory(row); err != nil {
+		return err
+	}
+	return validateLexiconFullRowFields(row)
+}
+
+// Revisions are original examples, not additional active teaching contexts.
+// Keep the exact preceding analyses so existing work still names its old task.
+func validateLexiconAnalysisHistory(row lexiconFullRow) error {
+	revision := row.exampleRevision()
+	if revision < 1 || revision > 32 || len(row.PreviousAnalyses) != revision-1 || revision > 1 && row.Action != "replace" {
+		return errors.New("invalid example revision history")
+	}
+	seenEnglish := map[string]bool{row.En: true}
+	for index, previous := range row.PreviousAnalyses {
+		old := previous.Row
+		if previous.ExampleRevision != index+1 || old.ExampleRevision != 0 || len(old.PreviousAnalyses) != 0 ||
+			previous.ReceiptSHA256 != old.Review.ReceiptSHA256 || !lexiconFullHash.MatchString(previous.ReceiptSHA256) ||
+			old.RowID != row.RowID || old.EntryID != row.EntryID || old.ContextID != row.ContextID || old.SourceContextSHA256 != row.SourceContextSHA256 ||
+			index > 0 && old.Action != "replace" || seenEnglish[old.En] {
+			return errors.New("example history changed its source, receipt or sequence")
+		}
+		if err := validateLexiconFullRowFields(old); err != nil {
+			return fmt.Errorf("invalid archived example analysis: %w", err)
+		}
+		seenEnglish[old.En] = true
+	}
+	return nil
+}
+
+func validateLexiconFullRowFields(row lexiconFullRow) error {
 	if !safeID.MatchString(row.EntryID) || !safeID.MatchString(row.ContextID) || row.RowID != row.EntryID+":"+row.ContextID || !lexiconFullHash.MatchString(row.SourceContextSHA256) {
 		return errors.New("invalid stable source target")
 	}
@@ -343,86 +389,96 @@ func (p *lexiconFullPublication) apply(raw json.RawMessage) (json.RawMessage, er
 		return raw, nil
 	}
 	word, display := rawLexicalString(entry["word"]), rawLexicalString(entry["displayHeadword"])
-	for _, row := range rows {
+	for _, published := range rows {
 		var old map[string]json.RawMessage
 		for _, context := range contexts {
-			if rawLexicalString(context["id"]) == row.ContextID {
+			if rawLexicalString(context["id"]) == published.ContextID {
 				old = context
 				break
 			}
 		}
 		if old == nil {
-			return nil, fmt.Errorf("full-analysis context target is missing: %s", row.RowID)
+			return nil, fmt.Errorf("full-analysis context target is missing: %s", published.RowID)
 		}
 		var excluded bool
 		_ = json.Unmarshal(old["excludedFromStudy"], &excluded)
-		if excluded || p.used[row.RowID] {
+		if excluded || p.used[published.RowID] {
 			return nil, errors.New("full-analysis target is archived or repeated")
 		}
-		prompt := strings.ToLower(row.ProductionTask)
-		if (word == "" || !strings.Contains(prompt, strings.ToLower(word))) && (display == "" || !strings.Contains(prompt, strings.ToLower(display))) {
-			return nil, errors.New("full-analysis production task omits its headword")
+		versions := make([]lexiconFullRow, 0, len(published.PreviousAnalyses)+1)
+		for _, previous := range published.PreviousAnalyses {
+			version := previous.Row
+			version.ExampleRevision = previous.ExampleRevision
+			versions = append(versions, version)
 		}
-		oldEn := rawLexicalString(old["en"])
-		var oldSpans []lexiconSpan
-		_ = json.Unmarshal(old["targetSpans"], &oldSpans)
-		if row.Action == "keep" {
-			if row.En != oldEn || string(lexicalRaw(row.TargetSpans)) != string(lexicalRaw(oldSpans)) {
-				return nil, errors.New("keep changed English or selected source token")
+		versions = append(versions, published)
+		for _, row := range versions {
+			prompt := strings.ToLower(row.ProductionTask)
+			if (word == "" || !strings.Contains(prompt, strings.ToLower(word))) && (display == "" || !strings.Contains(prompt, strings.ToLower(display))) {
+				return nil, errors.New("full-analysis production task omits its headword")
 			}
-		} else if row.En == oldEn {
-			return nil, errors.New("replacement must have a new example")
-		}
-		if row.Action == "replace" {
-			for _, span := range row.TargetSpans {
-				if normalizeLexiconWord(span.Text) != normalizeLexiconWord(word) && (display == "" || normalizeLexiconWord(span.Text) != normalizeLexiconWord(display)) {
-					return nil, errors.New("replacement highlights a different headword")
+			oldEn := rawLexicalString(old["en"])
+			var oldSpans []lexiconSpan
+			_ = json.Unmarshal(old["targetSpans"], &oldSpans)
+			if row.Action == "keep" {
+				if row.En != oldEn || string(lexicalRaw(row.TargetSpans)) != string(lexicalRaw(oldSpans)) {
+					return nil, errors.New("keep changed English or selected source token")
+				}
+			} else if row.En == oldEn {
+				return nil, errors.New("replacement must have a new example")
+			}
+			if row.Action == "replace" {
+				for _, span := range row.TargetSpans {
+					if normalizeLexiconWord(span.Text) != normalizeLexiconWord(word) && (display == "" || normalizeLexiconWord(span.Text) != normalizeLexiconWord(display)) {
+						return nil, errors.New("replacement highlights a different headword")
+					}
 				}
 			}
-		}
-		original := lexicalRaw(old)
-		oldRu, oldTranslation := rawLexicalString(old["ru"]), old["translationSource"]
-		target := old
-		contextID := row.ContextID
-		if row.Action == "replace" {
-			contextID += "-rich-v1"
-			if !safeID.MatchString(contextID) || contextIDs[contextID] {
-				return nil, errors.New("replacement context ID collides or is invalid")
+			original := lexicalRaw(old)
+			oldRu, oldTranslation := rawLexicalString(old["ru"]), old["translationSource"]
+			target := old
+			contextID := row.ContextID
+			if row.Action == "replace" {
+				contextID += fmt.Sprintf("-rich-v%d", row.exampleRevision())
+				if !safeID.MatchString(contextID) || contextIDs[contextID] {
+					return nil, errors.New("replacement context ID collides or is invalid")
+				}
+				contextIDs[contextID] = true
+				old["excludedFromStudy"], old["exclusionReason"] = lexicalRaw(true), lexicalRaw(row.ReplacementReason)
+				old["replacedBy"], old["selectionReviewSourceId"] = lexicalRaw(contextID), lexicalRaw(lexiconFullVersion)
+				target = map[string]json.RawMessage{"id": lexicalRaw(contextID), "source": lexicalRaw(p.attribution()), "derivedFrom": lexicalRaw(map[string]any{"entryId": id, "contextId": row.ContextID, "source": old["source"], "sourceContextSHA256": row.SourceContextSHA256}), "replacementReason": lexicalRaw(row.ReplacementReason)}
+				contexts = append(contexts, target)
 			}
-			contextIDs[contextID] = true
-			old["excludedFromStudy"], old["exclusionReason"] = lexicalRaw(true), lexicalRaw(row.ReplacementReason)
-			old["replacedBy"], old["selectionReviewSourceId"] = lexicalRaw(contextID), lexicalRaw(lexiconFullVersion)
-			target = map[string]json.RawMessage{"id": lexicalRaw(contextID), "source": lexicalRaw(p.attribution()), "derivedFrom": lexicalRaw(map[string]any{"entryId": id, "contextId": row.ContextID, "source": old["source"], "sourceContextSHA256": row.SourceContextSHA256}), "replacementReason": lexicalRaw(row.ReplacementReason)}
-			contexts = append(contexts, target)
-		}
-		senseID := row.ContextID + "-rich-sense-v1"
-		if !safeID.MatchString(senseID) || senseIDs[senseID] {
-			return nil, errors.New("contextual sense ID collides or is invalid")
-		}
-		senseIDs[senseID] = true
-		senses = append(senses, map[string]json.RawMessage{"id": lexicalRaw(senseID), "pos": lexicalRaw(row.POS), "definition": lexicalRaw(row.MeaningEn), "definitionRu": lexicalRaw(row.MeaningRu), "source": lexicalRaw(p.attribution()), "review": lexicalRaw(row.Review)})
-		var history []json.RawMessage
-		if previous, ok := target["analysisHistory"]; ok {
-			if err := json.Unmarshal(previous, &history); err != nil {
-				return nil, errors.New("invalid previous contextual analysis history")
+			senseID := row.ContextID + fmt.Sprintf("-rich-sense-v%d", row.exampleRevision())
+			if !safeID.MatchString(senseID) || senseIDs[senseID] {
+				return nil, errors.New("contextual sense ID collides or is invalid")
 			}
+			senseIDs[senseID] = true
+			senses = append(senses, map[string]json.RawMessage{"id": lexicalRaw(senseID), "pos": lexicalRaw(row.POS), "definition": lexicalRaw(row.MeaningEn), "definitionRu": lexicalRaw(row.MeaningRu), "source": lexicalRaw(p.attribution()), "review": lexicalRaw(row.Review)})
+			var history []json.RawMessage
+			if previous, ok := target["analysisHistory"]; ok {
+				if err := json.Unmarshal(previous, &history); err != nil {
+					return nil, errors.New("invalid previous contextual analysis history")
+				}
+			}
+			history = append(history, lexicalRaw(map[string]any{"previousContext": original, "sourceContextSHA256": row.SourceContextSHA256, "review": row.Review}))
+			for key, value := range map[string]any{"en": row.En, "ru": row.Ru, "meaningRu": row.MeaningRu, "explanation": row.Explanation, "productionTask": row.ProductionTask, "usageNotes": row.UsageNotes, "collocations": row.Collocations, "commonMistakes": row.CommonMistakes, "registerTags": row.RegisterTags, "targetSpans": row.TargetSpans, "senseId": senseID, "quality": "ai-context-reviewed", "variety": "en-US-compatible", "analysisHistory": history, "analysisSource": p.attribution(), "review": row.Review, "sourceContextSHA256": row.SourceContextSHA256} {
+				target[key] = lexicalRaw(value)
+			}
+			translation := p.attribution()
+			translation["derivedFrom"] = map[string]any{"englishSource": old["source"], "previousTranslationSource": oldTranslation}
+			if row.Action == "keep" && row.Ru == oldRu && len(oldTranslation) > 0 && string(oldTranslation) != "null" {
+				target["translationSource"] = oldTranslation
+			} else {
+				target["translationSource"] = lexicalRaw(translation)
+			}
+			// The new reviewed tags supersede older free-form register guidance; the
+			// original wording remains in the immutable previous-context history.
+			delete(target, "register")
+			delete(target, "usAlternative")
+			old = target
 		}
-		history = append(history, lexicalRaw(map[string]any{"previousContext": original, "sourceContextSHA256": row.SourceContextSHA256, "review": row.Review}))
-		for key, value := range map[string]any{"en": row.En, "ru": row.Ru, "meaningRu": row.MeaningRu, "explanation": row.Explanation, "productionTask": row.ProductionTask, "usageNotes": row.UsageNotes, "collocations": row.Collocations, "commonMistakes": row.CommonMistakes, "registerTags": row.RegisterTags, "targetSpans": row.TargetSpans, "senseId": senseID, "quality": "ai-context-reviewed", "variety": "en-US-compatible", "analysisHistory": history, "analysisSource": p.attribution(), "review": row.Review, "sourceContextSHA256": row.SourceContextSHA256} {
-			target[key] = lexicalRaw(value)
-		}
-		translation := p.attribution()
-		translation["derivedFrom"] = map[string]any{"englishSource": old["source"], "previousTranslationSource": oldTranslation}
-		if row.Action == "keep" && row.Ru == oldRu && len(oldTranslation) > 0 && string(oldTranslation) != "null" {
-			target["translationSource"] = oldTranslation
-		} else {
-			target["translationSource"] = lexicalRaw(translation)
-		}
-		// The new reviewed tags supersede older free-form register guidance; the
-		// original wording remains in the immutable previous-context history.
-		delete(target, "register")
-		delete(target, "usAlternative")
-		p.used[row.RowID] = true
+		p.used[published.RowID] = true
 	}
 	entry["contexts"], entry["senses"] = lexicalRaw(contexts), lexicalRaw(senses)
 	return lexicalRaw(entry), nil
