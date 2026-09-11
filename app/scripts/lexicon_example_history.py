@@ -6,6 +6,35 @@ import re
 import enrich_lexicon as full
 
 
+def verify_replacement_review_scope(payload, sources, folder):
+    scope, concerns = payload.get('explicitExampleReplacement'), payload.get('editorialConcerns')
+    if (not isinstance(scope, dict) or scope.get('kind') != 'example-replacement-v1'
+            or scope.get('reviewModel') != 'gpt-6-astra'
+            or not isinstance(scope.get('previousReceiptSHA256'), str)
+            or not re.fullmatch(r'[0-9a-f]{64}', scope['previousReceiptSHA256'])
+            or not isinstance(concerns, dict) or concerns.keys() != {row['rowId'] for row in sources}):
+        raise ValueError('Invalid scoped example replacement review')
+    sha = scope['previousReceiptSHA256']
+    path = Path(folder) / f'verified-before-amendment-{sha}.json'
+    raw = path.read_bytes()
+    if full.hashlib.sha256(raw).hexdigest() != sha:
+        raise ValueError('Scoped replacement before-receipt changed')
+    before = {row['rowId']: row for row in full.json.loads(raw)['rows']}
+    for source in sources:
+        request = concerns[source['rowId']]
+        old = before.get(source['rowId'])
+        if (old is None or not isinstance(request, dict) or request.get('rowId') != source['rowId']
+                or request.get('beforeSHA256') != full.value_sha(old)
+                or request.get('sourceRowSHA256') != full.value_sha(source)
+                or request.get('sourceContextSHA256') != source['sourceContextSHA256']
+                or not isinstance(request.get('reason'), str) or len(request['reason'].strip()) < 20):
+            raise ValueError('Scoped replacement does not bind its exact before-row/source/reason')
+    for row in payload.get('proposedRows', []):
+        if (row.get('rowId') not in before or row.get('action') != 'replace'
+                or row.get('en') == before[row['rowId']]['en']):
+            raise ValueError('Scoped replacement review reused a previous example')
+
+
 def verified_history(receipt, inputs, folder, stack=(), cache=None):
     revisions, histories = receipt.get('exampleRevisions', {}), receipt.get('exampleHistory', {})
     if not isinstance(revisions, dict) or not isinstance(histories, dict) or revisions.keys() != histories.keys():

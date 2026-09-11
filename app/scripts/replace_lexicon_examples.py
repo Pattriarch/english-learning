@@ -104,8 +104,10 @@ def replace_batch(index, inputs, changes, timeout, work, *, kind):
         validate_proposals(list(proposals.values()), list(selected.values()), current)
         pending, accepted, reviews = copy.deepcopy(proposals), {}, []
         for iteration in range(1, 7):
-            path = folder / f'amendment-{serial:04}-review-{iteration}.json'
-            result = full.cached_call(path, full.REVIEW_PROMPT,
+            # Generic review attempts retain their exact requests/results. This
+            # namespace binds the explicit replacement policy independently.
+            path = folder / f'amendment-{serial:04}-example-review-{iteration}.json'
+            result = full.cached_call(path, full.EXAMPLE_REPLACEMENT_REVIEW_PROMPT,
                 {'sources': [selected[key] for key in pending], 'proposedRows': list(pending.values()),
                  'editorialConcerns': {key: requests[key] for key in pending},
                  'explicitExampleReplacement': {'kind': KIND, 'previousReceiptSHA256': previous_hash,
@@ -146,7 +148,16 @@ def replace_batch(index, inputs, changes, timeout, work, *, kind):
             'receiptSHA256': previous_hash, 'rowSHA256': full.value_sha(current[row_id])})
     updated['amendments'] = history + [{'serial': serial, 'kind': KIND, 'queueSHA256': queue_sha,
         'previousReceiptSHA256': previous_hash, 'previousReceipt': archive.name, 'rowIds': list(proposals),
-        'authorModel': AUTHOR_MODEL, 'reviewModel': REVIEW_MODEL, 'requests': requests}]
+        'authorModel': AUTHOR_MODEL if author_sources else None, 'reviewModel': REVIEW_MODEL,
+        'modelAuthoredRowIds': [source['rowId'] for source in author_sources],
+        'explicitProposalRowIds': [key for key in selected if key not in {source['rowId'] for source in author_sources}],
+        'requests': requests}]
+    previous_calls = []
+    for path in sorted(folder.glob(f'amendment-{serial:04}-review-[1-6].json')):
+        previous_calls.append({'file': path.name, 'sha256': full.file_sha(path),
+                               'requestSHA256': full.file_sha(path.with_suffix('.request.json'))})
+    if previous_calls:
+        updated['amendments'][-1]['priorGenericReviewCalls'] = previous_calls
     require_idle(work)
     if final.read_bytes() != original_bytes:
         raise ValueError('Accepted receipt changed during explicit replacement review')

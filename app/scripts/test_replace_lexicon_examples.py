@@ -30,7 +30,7 @@ class ExplicitExampleReplacementTests(TemporaryLexicon):
 
     def accepting(self, prompt, payload, schema, path, timeout):
         self.assertEqual(full.REVIEW_MODEL, replace.REVIEW_MODEL)
-        self.assertEqual(prompt, full.REVIEW_PROMPT)
+        self.assertEqual(prompt, full.EXAMPLE_REPLACEMENT_REVIEW_PROMPT)
         self.assertEqual(payload['explicitExampleReplacement']['kind'], replace.KIND)
         value = {'checkedRowIds': [row['rowId'] for row in payload['proposedRows']],
                  'corrections': [], 'blocked': []}
@@ -140,7 +140,7 @@ class ExplicitExampleReplacementTests(TemporaryLexicon):
             full.atomic_json(path, value)
             return value
         self.run_replacement(snapshot, queue, reviewing)
-        self.assertEqual(calls, ['amendment-0001-review-1.json', 'amendment-0001-review-2.json'])
+        self.assertEqual(calls, ['amendment-0001-example-review-1.json', 'amendment-0001-example-review-2.json'])
         after = full.read(folder / 'verified.json')
         self.assertEqual(after['accepted'][queue[0]['rowId']]['file'], calls[-1])
         full.verify_receipt(after, snapshot['rows'], folder)
@@ -176,7 +176,7 @@ class ExplicitExampleReplacementTests(TemporaryLexicon):
                 full.verify_receipt(invalid, snapshot['rows'], folder)
         archive = folder / receipt['exampleHistory'][row_id][0]['receiptFile']
         archive.write_bytes(archive.read_bytes() + b' ')
-        with self.assertRaisesRegex(ValueError, 'archive changed'):
+        with self.assertRaisesRegex(ValueError, '(archive|before-receipt) changed'):
             full.verify_receipt(receipt, snapshot['rows'], folder)
 
     def test_guidance_only_default_stays_strict_and_preserves_existing_revision(self):
@@ -208,3 +208,57 @@ class ExplicitExampleReplacementTests(TemporaryLexicon):
             invalid[0]['replacement'].update(change)
             with self.assertRaises(ValueError):
                 replace.replace_batch(1, snapshot['rows'], invalid, 5, self.work, kind=replace.KIND)
+
+    def test_scoped_review_rejects_resigned_wrong_kind_model_and_source_binding(self):
+        snapshot, folder, queue = self.prepared()
+        self.run_replacement(snapshot, queue)
+        receipt = full.read(folder / 'verified.json')
+        row_id = queue[0]['rowId']
+        path = folder / receipt['accepted'][row_id]['file']
+        binding = path.with_suffix('.request.json')
+        original = binding.read_bytes()
+        for target, key, value in [('explicitExampleReplacement', 'kind', 'guidance'),
+                                   ('explicitExampleReplacement', 'reviewModel', 'gpt-5.6-sol'),
+                                   ('editorialConcerns', 'beforeSHA256', '0' * 64),
+                                   ('editorialConcerns', 'sourceRowSHA256', '0' * 64)]:
+            with self.subTest(key=key):
+                request = full.json.loads(original)
+                selected = request['payload'][target]
+                if target == 'editorialConcerns':
+                    selected = selected[row_id]
+                selected[key] = value
+                request['sha256'] = full.value_sha({name: request[name] for name in ('policy', 'prompt', 'payload', 'schema')})
+                full.atomic_json(binding, request)
+                forged = copy.deepcopy(receipt)
+                forged['accepted'][row_id]['requestSHA256'] = full.file_sha(binding)
+                with self.assertRaisesRegex(ValueError, '[Ss]coped'):
+                    full.verify_receipt(forged, snapshot['rows'], folder)
+        binding.write_bytes(original)
+        full.verify_receipt(receipt, snapshot['rows'], folder)
+
+    def test_new_scoped_review_preserves_old_generic_rejected_calls_byte_for_byte(self):
+        snapshot, folder, queue = self.prepared()
+        initial = (folder / 'verified.json').read_bytes()
+        old_path = folder / 'amendment-0001-review-1.json'
+        proposed = queue[0]['replacement']
+        def generic_revert(prompt, payload, schema, path, timeout):
+            value = {'checkedRowIds': [proposed['rowId']], 'corrections': [full.read(folder / 'verified.json')['rows'][0]], 'blocked': []}
+            full.atomic_json(path, value)
+            return value
+        with patch.object(full, 'call_cli', side_effect=generic_revert):
+            full.cached_call(old_path, full.REVIEW_PROMPT, {'sources': snapshot['rows'], 'proposedRows': [proposed]}, full.REVIEW_SCHEMA, 5)
+        old_files = {path.name: path.read_bytes() for path in (old_path, old_path.with_suffix('.request.json'))}
+        self.run_replacement(snapshot, queue)
+        after = full.read(folder / 'verified.json')
+        self.assertEqual({name: (folder / name).read_bytes() for name in old_files}, old_files)
+        self.assertEqual(after['amendments'][-1]['priorGenericReviewCalls'][0]['file'], old_path.name)
+        self.assertEqual((folder / after['amendments'][-1]['previousReceipt']).read_bytes(), initial)
+        self.assertIn('-example-review-', after['accepted'][proposed['rowId']]['file'])
+
+    def test_accepted_legacy_replacement_contract_remains_verifiable(self):
+        snapshot, folder, queue = self.prepared()
+        # This models already accepted replacements from before the scoped
+        # policy; the actual legacy prompt remains part of their evidence.
+        with patch.object(full, 'EXAMPLE_REPLACEMENT_REVIEW_PROMPT', full.REVIEW_PROMPT):
+            self.run_replacement(snapshot, queue)
+        full.verify_receipt(full.read(folder / 'verified.json'), snapshot['rows'], folder)

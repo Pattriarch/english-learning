@@ -132,6 +132,25 @@ never put schema/classification workarounds or implementation details in learner
 '''
 REVIEW_PROMPT = LEGACY_REVIEW_PROMPT[:-len(LEGACY_DRAFT_PROMPT)] + DRAFT_PROMPT
 
+EXAMPLE_REPLACEMENT_REVIEW_PROMPT = REVIEW_PROMPT + '''
+SCOPED EXPLICIT EXAMPLE REPLACEMENT:
+This call is a separately authorized replacement of a learning example, not a
+routine decision whether the source sentence is grammatical. Verify the exact
+editorialConcerns and explicitExampleReplacement request against the supplied
+dictionary evidence and proposed complete analysis. A valid sentence using a
+person's name may leave an evidenced common-word sense entirely untaught; a
+near-duplicate can add no new learning situation. Those are legitimate reasons
+for an explicitly requested original example, without calling the source wrong.
+Do not revert to action=keep solely because the old sentence was valid English.
+Independently assess the requested lexical sense, natural American example,
+complete teaching fields and own-production task. Correct actual defects while
+retaining action=replace and a distinct example. If the requested sense or the
+reason for replacement is unsupported, block with the specific evidence concern
+rather than silently undoing the authorized scope. Original sources, previously
+accepted analyses and learner history are preserved by the revision workflow.
+Never assume every proper name is a defect; assess only these exact bound rows.
+'''
+
 
 def compatible_contract(prompt, schema, requested_prompt, requested_schema):
     if prompt == requested_prompt and schema == requested_schema:
@@ -523,7 +542,7 @@ def verify_receipt(receipt, inputs, folder, *, _history_stack=(), _history_cache
         if record.get('outputSHA256') != value_sha(row):
             raise ValueError('Accepted row was changed')
         path = folder / record['file']
-        if path.parent.resolve() != folder.resolve() or not re.fullmatch(r'(?:amendment-\d{4}-)?review-[1-6]\.json', path.name):
+        if path.parent.resolve() != folder.resolve() or not re.fullmatch(r'(?:amendment-\d{4}-(?:example-)?)?review-[1-6]\.json', path.name):
             raise ValueError('Invalid review path')
         if path.name not in proofs:
             request_path = path.with_suffix('.request.json')
@@ -532,8 +551,10 @@ def verify_receipt(receipt, inputs, folder, *, _history_stack=(), _history_cache
             request_bytes, review_bytes = request_path.read_bytes(), path.read_bytes()
             request, review = json.loads(request_bytes), json.loads(review_bytes)
             committed = {key: request.get(key) for key in ['policy', 'prompt', 'payload', 'schema']}
+            ordinary_review_contract = compatible_contract(committed['prompt'], committed['schema'], REVIEW_PROMPT, REVIEW_SCHEMA)
+            scoped_example_review = (not ordinary_review_contract and committed['prompt'] == EXAMPLE_REPLACEMENT_REVIEW_PROMPT and committed['schema'] == REVIEW_SCHEMA)
             if (committed['policy'] != POLICY or
-                    not compatible_contract(committed['prompt'], committed['schema'], REVIEW_PROMPT, REVIEW_SCHEMA) or
+                    not (ordinary_review_contract or scoped_example_review) or
                     value_sha(committed) != request.get('sha256')):
                 raise ValueError('Review request is not independently bound')
             payload = committed['payload']
@@ -543,6 +564,9 @@ def verify_receipt(receipt, inputs, folder, *, _history_stack=(), _history_cache
             if (len({r['rowId'] for r in source_rows}) != len(source_rows) or not source_rows or
                     any(expected.get(r['rowId']) != r for r in source_rows)):
                 raise ValueError('Review used different source rows')
+            if scoped_example_review:
+                from lexicon_example_history import verify_replacement_review_scope
+                verify_replacement_review_scope(payload, source_rows, folder)
             proposals = validate_rows(payload.get('proposedRows', []), source_rows)
             checked = review['checkedRowIds']
             if (len(checked) != len(source_rows) or set(checked) != {r['rowId'] for r in source_rows}
