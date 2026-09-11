@@ -319,6 +319,26 @@ class EditorialPatchTests(unittest.TestCase):
                 result = apply_changes(base, self.bundle, self.proposal["changes"])
                 self.assertEqual(result["materials"][1]["text"], "B1: White and Witt.")
 
+    def test_direct_source_caption_can_remove_false_ui_claim_without_changing_authorship(self):
+        self.prepare_original_material()
+        base = deepcopy(self.base)
+        base["materials"][1]["source"] = "Оригинальный сценарий диктанта; приложение обязано скрывать текст до отправки"
+        after = "Оригинальный сценарий диктанта"
+        change = self.change(["materials", 1, "source"], base["materials"][1]["source"], after)
+        result = apply_changes(base, self.bundle, [change])
+        self.assertEqual(result["materials"][1]["source"], after)
+        self.assertEqual(result["materials"][1]["text"], base["materials"][1]["text"])
+        self.assertEqual(result["materials"][0], self.bundle["approvedMaterials"][0])
+        self.assertFalse(_allowed(change["path"]))
+
+    def test_caption_edit_cannot_claim_a_new_external_source_or_strip_original_authorship(self):
+        self.prepare_original_material()
+        for after in ("NASA original recording", "Original NASA recording", "Original transcript from the textbook", "Approved source",
+                      "Запись профессионального диктора", "Original source", "https://example.org"):
+            change = self.change(["materials", 1, "source"], self.base["materials"][1]["source"], after)
+            with self.subTest(after=after), self.assertRaisesRegex(ValueError, "forbidden editorial field"):
+                apply_changes(self.base, self.bundle, [change])
+
 
 if __name__ == "__main__":
     unittest.main()

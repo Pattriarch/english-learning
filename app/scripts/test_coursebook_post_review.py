@@ -152,3 +152,28 @@ class PostReviewTests(unittest.TestCase):
         path = self.folder / self.proposal_name
         path.write_bytes(path.read_bytes() + b" ")
         with self.assertRaises(ValueError): pipeline.verify_ready(receipt, self.bundle, self.folder)
+
+    def test_exact_workflow_move_requires_new_version_and_full_review_receipt(self):
+        stages = self.lesson["studyPlan"]["stages"]
+        self.proposal.update({"version": 2, "kind": editorial.KIND_WITH_MOVE,
+            "workflowMove": {"exerciseId": "e3", "fromStage": "input", "toStage": "practice",
+                "beforeFrom": deepcopy(stages[1]["exerciseIds"]), "beforeTo": deepcopy(stages[2]["exerciseIds"]),
+                "afterId": "e14", "reason": "Place the final input check after the complete prerequisite practice without changing any task."}})
+        write_json(self.folder / self.proposal_name, self.proposal)
+        prepared = self.prepare()
+        self.assertEqual(prepared["candidate"]["studyPlan"]["stages"][1]["exerciseIds"], ["e2"])
+        self.assertEqual(prepared["candidate"]["studyPlan"]["stages"][2]["exerciseIds"][-1], "e3")
+        self.assertEqual(prepared["candidate"]["exercises"], [
+            {**exercise, "hint": prepared["candidate"]["exercises"][0]["hint"]} if index == 0 else exercise
+            for index, exercise in enumerate(self.lesson["exercises"])])
+        editorial.run(self.bundle, self.folder, self.proposal_name, 10)
+        receipt = pipeline.read(self.folder / "verified.json")
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.folder))
+        changed = deepcopy(receipt); changed["postReviewEditorial"]["workflowMove"]["afterId"] = "e13"
+        with self.assertRaises(ValueError): pipeline.verify_ready(changed, self.bundle, self.folder)
+
+    def test_legacy_proposal_cannot_silently_add_a_workflow_move(self):
+        self.proposal["workflowMove"] = {}
+        write_json(self.folder / self.proposal_name, self.proposal)
+        with self.assertRaisesRegex(ValueError, "identity/source"):
+            self.prepare()

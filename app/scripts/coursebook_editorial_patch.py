@@ -2,7 +2,8 @@
 
 This loader grants no acceptance and writes no files. Supplied materials,
 material references and identifiers cannot be patched. Direct editorial edits
-may fix text in an explicitly original material without external assets. The
+may fix text or its authored source caption in an explicitly original material
+without external assets, retaining its original-work attribution. The
 caller must validate the whole lesson and obtain independent review of it.
 """
 from __future__ import annotations
@@ -73,11 +74,17 @@ def _leaf(candidate, path):
     return node
 
 
-def _original_material_text(path, base, bundle):
+def _original_source_label(source):
+    return (isinstance(source, str)
+            and bool(re.match(r"^(?:Original\b|Оригиналь(?:ный|ная|ное|ные)\b)", source.strip(), re.I))
+            and not re.search(r"\b(?:supplied|textbook|transcript|source|book)\b|учебник|расшифров|исходн|из\s+книг", source, re.I))
+
+
+def _original_material_text(path, base, bundle, after):
     # Keep _allowed unchanged: the automated field editor deliberately uses
     # that narrower scope. This exception belongs to direct editorial work.
     if not (isinstance(path, list) and len(path) == 3 and path[0] == "materials"
-            and _index(path[1]) and path[2] == "text"):
+            and _index(path[1]) and path[2] in {"text", "source"}):
         return False
     materials, supplied = base.get("materials"), bundle.get("approvedMaterials", [])
     if (not isinstance(materials, list) or path[1] >= len(materials)
@@ -98,8 +105,10 @@ def _original_material_text(path, base, bundle):
     # An original-work label is a claim to check in the subsequent full review,
     # not proof of authorship. Ambiguous labels mentioning source transcripts or
     # a supplied textbook remain outside this repair scope.
-    return bool(re.match(r"^(?:Original\b|Оригиналь(?:ный|ная|ное|ные)\b)", source, re.I)
-                and not re.search(r"\b(?:supplied|textbook|transcript|source|book)\b|учебник|расшифров|исходн|из\s+книг", source, re.I))
+    return bool(_original_source_label(source)
+                and (path[2] == "text" or (
+                    _original_source_label(after) and ";" in source
+                    and after == source.split(";", 1)[0].strip())))
 
 
 def apply_changes(base, bundle, changes):
@@ -126,7 +135,7 @@ def apply_changes(base, bundle, changes):
         if not isinstance(change, dict) or set(change) != _CHANGE_FIELDS:
             _fail("unexpected change fields")
         path = change["path"]
-        if not (_allowed(path) or _original_material_text(path, base, bundle)):
+        if not (_allowed(path) or _original_material_text(path, base, bundle, change["after"])):
             _fail("forbidden editorial field path: " + repr(path))
         if any(path[:len(prior)] == prior or prior[:len(path)] == path for prior in paths):
             _fail("duplicate or overlapping editorial field paths")

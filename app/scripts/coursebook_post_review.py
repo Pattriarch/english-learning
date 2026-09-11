@@ -14,6 +14,7 @@ import coursebook_lesson_template as template
 from coursebook_editorial_patch import apply_changes
 
 KIND = "coursebook-post-review-editorial-v1"
+KIND_WITH_MOVE = "coursebook-post-review-editorial-v2"
 _PROPOSAL = re.compile(r"lesson-editorial-proposal-([1-6])\.json")
 _PREVIOUS = re.compile(r"lesson-(?:review-([1-6])|editorial-review-([1-6]))\.json")
 _FIELDS = {"version", "kind", "unitId", "sourceSetSha256", "sourceReview", "baseCandidateSha256", "changes"}
@@ -52,9 +53,12 @@ def prepare(bundle, folder, author, proposal_name, *, seen=()):
     if path.resolve().parent != folder.resolve() or not path.is_file():
         raise ValueError("Post-review proposal is outside its chapter")
     proposal = _read(path)
-    if (not isinstance(proposal, dict) or set(proposal) != _FIELDS
-            or type(proposal.get("version")) is not int or proposal["version"] != 1
-            or proposal["kind"] != KIND or proposal["unitId"] != bundle["chapter"]["unitId"]
+    version = proposal.get("version") if isinstance(proposal, dict) else None
+    expected_fields = _FIELDS | {"workflowMove"} if version == 2 else _FIELDS
+    if (not isinstance(proposal, dict) or set(proposal) != expected_fields
+            or type(version) is not int or version not in (1, 2)
+            or proposal["kind"] != (KIND_WITH_MOVE if version == 2 else KIND)
+            or proposal["unitId"] != bundle["chapter"]["unitId"]
             or proposal["sourceSetSha256"] != bundle["sourceSetSha256"]):
         raise ValueError("Post-review proposal identity/source changed")
     pipeline.validate_bundle(bundle)
@@ -83,10 +87,15 @@ def prepare(bundle, folder, author, proposal_name, *, seen=()):
     if template.validate_review(review, base, author):
         raise ValueError("Post-review recovery must start from a rejected candidate, not rewrite an acceptance")
     candidate = apply_changes(base, bundle, proposal["changes"])
+    if version == 2:
+        from coursebook_workflow_move import apply_move
+        candidate = apply_move(candidate, proposal["workflowMove"])
     template.validate_lesson(candidate, author)
     evidence = {"file": proposal_name, "sha256": _sha(path), "sourceReview": deepcopy(record),
                 "baseCandidateSha256": template.value_sha(base), "candidateSha256": template.value_sha(candidate),
                 "changes": [{"path": deepcopy(change["path"]), "reason": change["reason"]} for change in proposal["changes"]]}
+    if version == 2:
+        evidence["workflowMove"] = deepcopy(proposal["workflowMove"])
     request = _base_request(candidate, author, bundle, folder)
     request["payload"]["postReviewEditorial"] = evidence
     request["payload"]["applicationAndUserContract"] = deepcopy(RENDERER_CONTRACT)
