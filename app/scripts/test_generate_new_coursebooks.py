@@ -886,6 +886,130 @@ class OfflinePipelineTests(unittest.TestCase):
         write_json(path, original)
         self.assertTrue(pipeline.verify_ready(self.ready_receipt(), self.bundle, self.work))
 
+    def run_with_automatic_depth_editor(self, valid_after, invalid_proposal=False, transport_error=None):
+        import coursebook_field_repair as fields
+        real_transport = pipeline.call_model
+        self.field_calls = []
+
+        def model(prompt, payload, schema, attachments, path, timeout):
+            if schema["properties"].get("kind", {}).get("enum") != [fields.KIND]:
+                return self.fake_model(prompt, payload, schema, attachments, path, timeout)
+            self.field_calls.append(deepcopy(payload))
+            if transport_error is not None:
+                path.with_suffix(".stderr.txt").write_text("Offline structured response was incomplete.", encoding="utf-8")
+                self.lesson["examples"][0]["why"] = valid_after
+                raise transport_error
+            result = {key: deepcopy(payload[key]) for key in fields.RESPONSE_SCHEMA["properties"] if key != "changes"}
+            self.assertEqual([finding["path"] for finding in payload["findings"]], [["examples", 0, "why"]])
+            result["changes"] = [{"path": ["examples", 0, "why"],
+                "before": payload["candidate"]["examples"][0]["why"],
+                "after": "Still short." if invalid_proposal else valid_after,
+                "reason": "Explain the actual audience and support contrast in this existing example."}]
+
+            def popen(command, **kwargs):
+                self.assertEqual(command[command.index("--model") + 1], "gpt-5.6-sol")
+                output = Path(command[command.index("--output-last-message") + 1])
+                write_json(output, result)
+                return Mock(returncode=0)
+
+            with patch.object(pipeline, "codex_command", return_value=["offline-codex"]), \
+                    patch.object(pipeline.subprocess, "Popen", side_effect=popen):
+                value = real_transport(prompt, payload, schema, attachments, path, timeout)
+            if invalid_proposal:
+                self.lesson["examples"][0]["why"] = valid_after
+            return value
+
+        with patch.object(pipeline, "call_model", side_effect=model):
+            return pipeline.run_chapter(self.bundle, self.work, timeout=10)
+
+    def test_measured_text_defect_uses_one_field_proposal_and_full_exact_review(self):
+        after = self.lesson["examples"][0]["why"]
+        self.lesson["examples"][0]["why"] = "Кратко."
+        self.run_with_automatic_depth_editor(after)
+        self.assertEqual(self.author_count, 1)
+        self.assertEqual(len(self.field_calls), 1)
+        receipt = self.ready_receipt()
+        self.assertEqual(receipt["lesson"]["examples"][0]["why"], after)
+        self.assertEqual(pipeline.read(self.work / "lesson-draft-1.json")["examples"][0]["why"], "Кратко.")
+        self.assertFalse((self.work / "lesson-draft-1-repair-1.request.json").exists())
+        proof = receipt["automaticFieldRepairs"]
+        self.assertEqual(proof[0]["file"], "automatic-field-repair-1.json")
+        review = pipeline.read(self.work / "lesson-review-1.request.json")
+        self.assertEqual(review["payload"]["candidate"], receipt["lesson"])
+        self.assertEqual(review["payload"]["automaticFieldRepairs"], proof)
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.work))
+        before = {path.name: path.read_bytes() for path in self.work.glob("*.json")}
+        with patch.object(pipeline, "call_model", side_effect=AssertionError("Accepted repair cannot regenerate")):
+            self.assertEqual(pipeline.run_chapter(self.bundle, self.work, timeout=10)["status"], "resumed")
+        self.assertEqual({path.name: path.read_bytes() for path in self.work.glob("*.json")}, before)
+
+    def test_later_candidate_patch_preserves_prior_review_proof_and_requires_new_acceptance(self):
+        after = self.lesson["examples"][0]["why"]
+        self.lesson["examples"][0]["why"] = "Кратко."
+        self.reject_stage, self.reject_once = "lesson", True
+        self.run_with_automatic_depth_editor(after)
+        self.assertEqual(self.author_count, 2)
+        self.assertEqual(len(self.field_calls), 2)
+        first = pipeline.read(self.work / "lesson-review-1.request.json")
+        second = pipeline.read(self.work / "lesson-review-2.request.json")
+        self.assertEqual(first["payload"]["automaticFieldRepairs"][0]["file"], "automatic-field-repair-1.json")
+        self.assertEqual(second["payload"]["automaticFieldRepairs"][0]["file"], "automatic-field-repair-5.json")
+        self.assertNotEqual(first["payload"]["candidateSha256"], second["payload"]["candidateSha256"])
+        base = pipeline.author_request(self.bundle, self.analysis, self.work)
+        restored_first = pipeline.lesson_review_request(first["payload"]["candidate"], base, self.bundle, self.work)
+        self.assertEqual(restored_first["payload"], first["payload"])
+        self.assertEqual(restored_first["prompt"], first["prompt"])
+        receipt = self.ready_receipt()
+        self.assertEqual(receipt["lessonAcceptance"]["file"], "lesson-review-2.json")
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.work))
+        proof_path = self.work / "automatic-field-repair-5.json"
+        changed = pipeline.read(proof_path)
+        changed["proposalEvidence"]["candidateSha256"] = "0" * 64
+        write_json(proof_path, changed)
+        with self.assertRaises(ValueError):
+            pipeline.verify_ready(receipt, self.bundle, self.work)
+
+    def test_invalid_text_proposal_keeps_raw_evidence_and_uses_full_repair(self):
+        after = self.lesson["examples"][0]["why"]
+        self.lesson["examples"][0]["why"] = "Кратко."
+        self.run_with_automatic_depth_editor(after, invalid_proposal=True)
+        self.assertEqual(self.author_count, 2)
+        self.assertEqual(len(self.field_calls), 1)
+        self.assertTrue((self.work / "lesson-field-repair-1.json").exists())
+        self.assertTrue((self.work / "lesson-draft-1-repair-1.json").exists())
+        self.assertFalse(list(self.work.glob("automatic-field-repair-*.json")))
+        self.assertNotIn("automaticFieldRepairs", self.ready_receipt())
+        self.assertTrue(pipeline.verify_ready(self.ready_receipt(), self.bundle, self.work))
+
+    def test_optional_field_transport_failure_preserves_diagnostics_and_falls_back(self):
+        after = self.lesson["examples"][0]["why"]
+        self.lesson["examples"][0]["why"] = "Кратко."
+        self.run_with_automatic_depth_editor(after, transport_error=RuntimeError("Incomplete response: max_output_tokens"))
+        self.assertEqual(self.author_count, 2)
+        self.assertEqual(len(self.field_calls), 1)
+        self.assertTrue((self.work / "lesson-field-repair-1.request.json").exists())
+        self.assertTrue((self.work / "lesson-field-repair-1.stderr.txt").exists())
+        self.assertFalse((self.work / "lesson-field-repair-1.json").exists())
+        self.assertTrue((self.work / "lesson-draft-1-repair-1.json").exists())
+        self.assertNotIn("automaticFieldRepairs", self.ready_receipt())
+        self.assertTrue(pipeline.verify_ready(self.ready_receipt(), self.bundle, self.work))
+
+    def test_optional_field_timeout_uses_full_repair_but_provider_quota_stops(self):
+        after = self.lesson["examples"][0]["why"]
+        self.lesson["examples"][0]["why"] = "Кратко."
+        self.run_with_automatic_depth_editor(after, transport_error=subprocess.TimeoutExpired(["offline"], 10))
+        self.assertEqual(self.author_count, 2)
+        self.assertTrue(pipeline.verify_ready(self.ready_receipt(), self.bundle, self.work))
+
+    def test_optional_field_provider_limit_cannot_be_swallowed_by_fallback(self):
+        after = self.lesson["examples"][0]["why"]
+        self.lesson["examples"][0]["why"] = "Кратко."
+        with self.assertRaises(pipeline.QuotaReached):
+            self.run_with_automatic_depth_editor(after, transport_error=pipeline.QuotaReached("Actual provider limit"))
+        self.assertEqual(self.author_count, 1)
+        self.assertFalse((self.work / "lesson-draft-1-repair-1.request.json").exists())
+        self.assertFalse((self.work / "verified.json").exists())
+
     def test_declared_audio_without_verified_transcripts_stops_before_lesson_authoring(self):
         self.bundle["declaredAudioTracks"] = [1]
         self.bundle["sourceSetSha256"] = contract.value_sha({

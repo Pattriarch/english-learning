@@ -22,7 +22,10 @@ MODEL_ROLE = "lesson-field-editor"
 MODEL = "gpt-5.6-sol"
 _FILE = re.compile(r"[a-z0-9][a-z0-9-]*\.json")
 _RANGE = re.compile(r"(?<!\d)(\d+)\s*[–—-]\s*(\d+)\s+слов\b")
-_HASH = {"type": "string", "pattern": r"[a-f0-9]{64}"}
+# Anchor hash patterns before the transport also supplies a singleton enum.
+# An actual Sol probe with the unanchored form repeatedly exhausted its output
+# before producing even one tiny edit; anchoring alone resolved that decoder case.
+_HASH = {"type": "string", "pattern": r"^[a-f0-9]{64}$"}
 _TEXT = {"type": "string"}
 
 

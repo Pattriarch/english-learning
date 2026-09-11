@@ -795,6 +795,7 @@ def lesson_review_request(lesson, base, bundle, folder):
     patched = load_patch(bundle, folder)
     field_proof = field_repair_evidence(bundle, folder)
     recovery = recovery_seed(bundle, folder)
+    automatic = automatic_repair_evidence(lesson, base, bundle, folder)
     if patched is not None:
         request["payload"]["editorialPatch"] = patched[1]
         origin = "automated" if field_proof is not None else "human"
@@ -808,7 +809,12 @@ def lesson_review_request(lesson, base, bundle, folder):
         request["prompt"] += ("\nAn earlier incomplete draft and fallible observations seeded a NEW full candidate. "
             "The seed is explicitly unverified and grants no coverage or acceptance. Independently inspect the complete "
             "CURRENT candidate against the current source and every requirement; earlier observations may already be resolved.\n")
-    if notes is None and patched is None and recovery is None:
+    if automatic:
+        request["payload"]["automaticFieldRepairs"] = automatic
+        request["prompt"] += ("\nThe exact CURRENT candidate includes source-bound edits of measured existing-text defects. "
+            "The full resulting lesson passed structural checks, which do NOT establish semantic correctness. "
+            "Independently review every source point and all content, including each precisely recorded edited field.\n")
+    if notes is None and patched is None and recovery is None and not automatic:
         return request
     if notes is not None:
         request["payload"]["editorialFindings"] = notes
@@ -830,6 +836,12 @@ def revised_request(base, candidate, findings):
 def recovery_seed(bundle, folder):
     from coursebook_recovery_seed import load_recovery_seed
     return load_recovery_seed(bundle, folder)
+
+
+def automatic_repair_evidence(lesson, base, bundle, folder):
+    from coursebook_auto_repair import review_evidence
+    analysis = read(Path(folder) / "analysis.json")
+    return review_evidence(bundle, folder, lesson, analysis["requiredPoints"], base)
 
 
 def prepare_chapter_work(bundle, work):
@@ -946,10 +958,32 @@ def run_chapter(bundle, work, timeout=900):
         lesson = normalize_lesson_identity(lesson, bundle, draft_path)
         lesson = apply_editorial_patch(lesson, bundle, folder, draft_path)
         for repair in range(4):
+            from coursebook_auto_repair import existing_repair, repair as repair_text
+            automatic = existing_repair(bundle, folder, draft_path.name, analysis["requiredPoints"], lesson_base)
+            if automatic is not None:
+                lesson = automatic
             try:
                 template.validate_lesson(lesson, lesson_base)
                 break
             except (ValueError, TypeError, KeyError) as error:
+                next_full = folder / f"lesson-draft-{iteration}-repair-{repair + 1}.request.json"
+                # Do not alter the candidate used by an already committed full
+                # repair/review. A fresh exact-leaf proposal can avoid printing
+                # an entire chapter again just to correct measured text defects.
+                if (lesson == read(draft_path) and template.lesson_depth_findings(lesson)
+                        and not next_full.exists()
+                        and not (folder / f"lesson-review-{iteration}.request.json").exists()):
+                    try:
+                        lesson = repair_text(bundle, folder, draft_path.name, analysis["requiredPoints"],
+                                             lesson_base, cached_call, timeout)
+                        break  # repair_text validates the complete resulting lesson.
+                    except QuotaReached:
+                        raise  # An optional editor can never bypass the provider circuit.
+                    except (ValueError, TypeError, KeyError, RuntimeError, subprocess.TimeoutExpired):
+                        # Unsupported paths, structural omissions or an invalid
+                        # proposal/transport still use the full repair path.
+                        # Exact request and diagnostic files remain untouched.
+                        lesson = read(draft_path)
                 if repair == 3:
                     raise
                 findings = [str(error), *template.lesson_depth_findings(lesson), template.AUTHOR_REQUIREMENTS]
@@ -989,6 +1023,9 @@ def run_chapter(bundle, work, timeout=900):
         receipt["fieldRepairProposal"] = field_proof
     if recovery is not None:
         receipt["recoverySeed"] = recovery["evidence"]
+    automatic = automatic_repair_evidence(lesson, lesson_base, bundle, folder)
+    if automatic:
+        receipt["automaticFieldRepairs"] = automatic
     verify_ready(receipt, bundle, folder)
     atomic_json(folder / "lesson.json", lesson)
     atomic_json(final, receipt)
@@ -1017,6 +1054,9 @@ def verify_ready(receipt, bundle, folder):
     recovery = recovery_seed(bundle, folder)
     if receipt.get("recoverySeed") != (recovery["evidence"] if recovery is not None else None):
         raise ValueError("Unverified recovery seed differs from the final reviewed receipt")
+    automatic = automatic_repair_evidence(lesson, lesson_base, bundle, folder)
+    if receipt.get("automaticFieldRepairs") != (automatic or None):
+        raise ValueError("Automatic text repairs differ from the exact reviewed candidate")
     analysis_review = verify_call(receipt["analysisAcceptance"], folder, analysis_review_request(analysis, bundle), bundle["attachments"])
     if not validate_analysis_review(analysis_review, analysis, bundle):
         raise ValueError("Source inventory was not independently accepted")
