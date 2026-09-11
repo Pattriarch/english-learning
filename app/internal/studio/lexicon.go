@@ -188,6 +188,11 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	if err != nil {
 		return nil, err
 	}
+	images, imageStamps, err := readLexiconContextImages(dir, s.web)
+	if err != nil {
+		return nil, err
+	}
+	stamps = append(stamps, imageStamps...)
 	for _, name := range files {
 		info, err := os.Stat(filepath.Join(dir, name))
 		if err != nil {
@@ -250,6 +255,10 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 					return nil, err
 				}
 			}
+			rawEntry, err = images.apply(rawEntry)
+			if err != nil {
+				return nil, err
+			}
 			item, err := readLexiconItem(rawEntry)
 			if err != nil {
 				return nil, err
@@ -271,6 +280,9 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 			return nil, err
 		}
 		out.Metadata["fullAnalysis"] = metadata
+	}
+	if images != nil {
+		out.Metadata["contextImages"] = images.metadata()
 	}
 	for _, alias := range aliases {
 		if normalizeLexiconWord(alias.Word) == "" || len(alias.Word) > 200 || strings.ContainsAny(alias.Word, "\r\n\t") || strings.TrimSpace(alias.Relation) == "" || len(alias.Relation) > 2000 || alias.SourceRow < 1 || len(alias.EntryIDs) == 0 {

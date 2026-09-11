@@ -44,4 +44,15 @@ Recipient-facing messages and learning reflections can have separate word budget
 
 The final `verified.json` embeds the exact analysis and lesson accepted by their independent reviews. `analysis.json` and `lesson.json` must match those values. A consuming publisher must call `verify_ready` using a freshly loaded source bundle and the original checkpoint directory. Merely finding a receipt or counting source files is insufficient. Private source pages, audio, transcripts and model working files are not the distributable course release.
 
+## Verify and publish the complete intake
+
+Use the same approved-audio registry for publication as for authoring. Omitting it creates a different source set for Clear Speech and reports those reviewed chapters as missing; it does not mean their stored reviews have been lost.
+
+```text
+python app/scripts/publish_new_coursebooks.py --check --audio-registry app/data/new-coursebooks/audio/materials.json
+python app/scripts/publish_new_coursebooks.py --publish --audio-registry app/data/new-coursebooks/audio/materials.json
+```
+
+The check reconstructs all 59 current source bundles and verifies each matching receipt. Publication waits for all 59 chapters and then validates the combined 931-lesson book release. It preserves learner progress and original source books; private source files are needed to reproduce this source-based publication check, but are not committed with the lesson adaptations.
+
 When only source-file bookkeeping has changed, an earlier structurally valid analysis can seed a new source directory. The complete chapter text, images, metadata, audio and heading candidates must remain exactly equal. `analysis-seed.json` explicitly records this as an unverified candidate with exact original artifact hashes; it does not manufacture a model draft or reuse an old acceptance. The new source version still requires a fresh independent inventory review and a full independently reviewed lesson.

@@ -20,7 +20,7 @@ export function lexicalFeedbackMatches(attempt,answer,spec,fingerprint,rawReceip
  if(!attempt?.id||attempt.lessonId!==spec.lessonId||attempt.exerciseId!==spec.exerciseId||attempt.prompt!==spec.prompt||attempt.answer!==answer.trim())return false;
  try{const receipt=JSON.parse(rawReceipt);return receipt?.version===1&&receipt.attemptId===attempt.id&&receipt.fingerprint===fingerprint;}catch{return false;}
 }
-export const lexicalImageURL=image=>/^\/assets\/vocabulary-scenes\/[a-z0-9-]+\.png$/.test(image?.src||'')?image.src:'';
+export const lexicalImageURL=image=>/^\/assets\/(?:vocabulary-scenes|learning-figures)\/[a-z0-9-]+\.png$/.test(image?.src||'')?image.src:'';
 export const lexicalSourceURL=source=>/^https:\/\//.test(source?.url||'')?source.url:'';
 export function parseLexicalState(raw){try{const x=JSON.parse(raw);return x?.version===1&&['new','learning','known'].includes(x.status)?x:{version:1,status:'new'};}catch{return{version:1,status:'new'};}}
 export function lexicalProgress(drafts){const seen=new Set();let known=0,learning=0;for(const [key,value]of Object.entries(drafts||{})){if(!key.startsWith('lexicon:state:')||seen.has(key))continue;seen.add(key);const x=parseLexicalState(typeof value==='string'?value:value.text);if(x.status==='known')known++;else if(x.status==='learning')learning++;}return{known,learning};}
