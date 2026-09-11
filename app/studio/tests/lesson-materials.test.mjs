@@ -106,7 +106,7 @@ test('Listening begins with a hidden transcript while reading exposes the comple
  assert.match(reading,/<p>First complete paragraph\.<\/p>/);
  const reference=materialHTML({...material,kind:'reference'},0,state,'lesson');
  assert.doesNotMatch(reference,/data-material-play|data-material-audio/,'Reference forms and phonetic notation are not offered as spoken input');
- assert.doesNotMatch(reference,/data-material-text="0" hidden/);
+ assert.match(reference,/data-material-text="0" hidden/);assert.match(reference,/Открыть справку/);
 });
 
 test('coursebook recordings have original playback only and never gain a second synthetic listening button',()=>{
@@ -146,4 +146,16 @@ test('clearing attached materials invalidates pending synthesis and disconnects 
  f.module.mountLessonMaterials(f.root,lesson,{materialIds:[]},{drafts:{}});
  await old.onplay();assert.equal(played,0);assert.equal(paused,1);
  assert.doesNotThrow(()=>old.onerror());
+});
+
+
+test('reference answers start closed beside visible task input and opening them signals supported practice',async t=>{
+ const f=await studyUI(t,'lesson-materials.js');
+ const lesson={id:'source-check',materials:[{id:'rules',kind:'reading',title:'Try these words',text:'Word list without its solutions.'},{id:'check',kind:'reference',title:'Check your prediction',text:'The complete annotated answer key.'}]};
+ f.module.mountLessonMaterials(f.root,lesson,{id:'e10',materialIds:['rules','check']},{drafts:{}});
+ const input=f.root.querySelector('[data-material-text="0"]'),answers=f.root.querySelector('[data-material-text="1"]'),toggle=f.root.querySelector('[data-material-toggle="1"]'),note=f.root.querySelector('[data-material-reference-status="1"]');
+ assert.equal(input.hidden,false);assert.equal(answers.hidden,true);assert.equal(toggle.attrs['aria-expanded'],'false');assert.equal(note.hidden,true);
+ await toggle.click();assert.equal(answers.hidden,false);assert.equal(note.hidden,false);assert.equal(toggle.attrs['aria-expanded'],'true');
+ await toggle.click();assert.equal(answers.hidden,true);assert.equal(note.hidden,false);assert.equal(toggle.textContent,'Открыть справку');
+ assert.equal(input.hidden,false);assert.equal(f.spoken.length,0);
 });
