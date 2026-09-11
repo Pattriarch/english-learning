@@ -6,7 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from coursebook_editorial_patch import load_patch
+from coursebook_editorial_patch import _allowed, apply_changes, load_patch
 from coursebook_lesson_template import value_sha
 
 
@@ -226,6 +226,98 @@ class EditorialPatchTests(unittest.TestCase):
         # A proposal is never acceptance; the independent review must bind to
         # the new candidate and the caller compares persisted evidence exactly.
         self.assertNotIn("decision", new_evidence)
+
+    def prepare_original_material(self):
+        self.bundle["approvedMaterials"] = deepcopy(self.base["materials"])
+        self.bundle["sourceSetSha256"] = value_sha({key: value for key, value in self.bundle.items()
+                                                  if key != "sourceSetSha256"})
+        self.base["materials"].append({"id": "original-grid-key", "title": "Coordinate key",
+            "kind": "reference", "text": "B1: Selling and White.",
+            "source": "Оригинальный ключ координатной карты"})
+        self.save_base()
+        self.proposal.update({"sourceSetSha256": self.bundle["sourceSetSha256"],
+            "baseSha256": hashlib.sha256(self.base_path.read_bytes()).hexdigest(),
+            "baseCandidateSha256": value_sha(self.base)})
+        self.proposal["changes"] = [self.change(["materials", 1, "text"],
+                                                "B1: Selling and White.", "B1: White and Witt.")]
+        self.save_patch()
+
+    def test_direct_original_text_fix_preserves_supplied_material_and_all_files(self):
+        self.prepare_original_material()
+        original_base, original_bundle = deepcopy(self.base), deepcopy(self.bundle)
+        before = {p.name: p.read_bytes() for p in self.folder.iterdir()}
+        candidate, evidence = load_patch(self.bundle, self.folder)
+        self.assertEqual(candidate["materials"][1]["text"], "B1: White and Witt.")
+        self.assertEqual(candidate["materials"][0], original_base["materials"][0])
+        self.assertEqual(candidate["materials"][1]["source"], original_base["materials"][1]["source"])
+        self.assertEqual(evidence["candidateSha256"], value_sha(candidate))
+        self.assertEqual((self.base, self.bundle), (original_base, original_bundle))
+        self.assertEqual({p.name: p.read_bytes() for p in self.folder.iterdir()}, before)
+        self.assertFalse(_allowed(["materials", 1, "text"]), "automated editor must retain its narrower scope")
+
+    def test_pure_apply_uses_exact_base_and_does_not_read_or_replace_raw_draft(self):
+        self.prepare_original_material()
+        original = self.base_path.read_bytes()
+        base = deepcopy(self.base)
+        base["exercises"][0]["context"] = "A complete candidate from an independently bound historical review."
+        result = apply_changes(base, self.bundle, self.proposal["changes"])
+        self.assertEqual(result["exercises"], base["exercises"])
+        self.assertEqual(self.base_path.read_bytes(), original)
+        stale = deepcopy(self.proposal["changes"])
+        stale[0]["before"] = "A different rejected draft."
+        with self.assertRaisesRegex(ValueError, "before text"):
+            apply_changes(base, self.bundle, stale)
+        invalid_bundle = deepcopy(self.bundle)
+        invalid_bundle["source"]["text"] += " altered"
+        with self.assertRaisesRegex(ValueError, "source bundle"):
+            apply_changes(base, invalid_bundle, self.proposal["changes"])
+
+    def test_recording_id_cannot_be_relabelled_as_original_for_editing(self):
+        self.prepare_original_material()
+        base = deepcopy(self.base)
+        base["materials"][0].update({"kind": "reference", "source": "Original course adaptation"})
+        changes = [self.change(["materials", 0, "text"], base["materials"][0]["text"], "Changed recorded words.")]
+        with self.assertRaisesRegex(ValueError, "forbidden editorial field"):
+            apply_changes(base, self.bundle, changes)
+
+    def test_original_material_assets_unknown_metadata_and_source_labels_fail_closed(self):
+        self.prepare_original_material()
+        for key, value in [("audioFile", "recording.mp3"), ("imageFile", "map.svg"),
+                           ("sourceURL", "https://example.org/transcript"), ("audioSourceURL", "source.mp3"),
+                           ("externalReference", "source-document"), ("kind", "image"),
+                           ("source", "Supplied chapter transcript"),
+                           ("source", "Original transcript from the supplied book"),
+                           ("source", "Оригинальный текст из учебника"), ("source", "Unknown source")]:
+            with self.subTest(key=key, value=value):
+                base = deepcopy(self.base)
+                base["materials"][1][key] = value
+                with self.assertRaisesRegex(ValueError, "forbidden editorial field"):
+                    apply_changes(base, self.bundle, self.proposal["changes"])
+
+    def test_original_text_scope_rejects_material_identity_kind_arrays_and_duplicate_ids(self):
+        self.prepare_original_material()
+        for path in [["materials"], ["materials", 1], ["materials", 1, "id"],
+                     ["materials", 1, "source"], ["materials", 1, "kind"],
+                     ["materials", 1, "title"], ["materials", True, "text"],
+                     ["materials", -1, "text"], ["materials", 2, "text"]]:
+            with self.subTest(path=path):
+                changes = deepcopy(self.proposal["changes"])
+                changes[0]["path"] = path
+                with self.assertRaisesRegex(ValueError, "forbidden editorial field"):
+                    apply_changes(self.base, self.bundle, changes)
+        base = deepcopy(self.base)
+        base["materials"].append(deepcopy(base["materials"][1]))
+        with self.assertRaisesRegex(ValueError, "forbidden editorial field"):
+            apply_changes(base, self.bundle, self.proposal["changes"])
+
+    def test_original_english_material_uses_same_direct_scope(self):
+        self.prepare_original_material()
+        for source in ("Original course adaptation", "Original pronunciation reference created for this adaptation"):
+            with self.subTest(source=source):
+                base = deepcopy(self.base)
+                base["materials"][1]["source"] = source
+                result = apply_changes(base, self.bundle, self.proposal["changes"])
+                self.assertEqual(result["materials"][1]["text"], "B1: White and Witt.")
 
 
 if __name__ == "__main__":

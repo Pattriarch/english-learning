@@ -1,8 +1,9 @@
 """Apply a narrow, hash-bound editorial proposal in memory before fresh review.
 
-This loader grants no acceptance and writes no files. Immutable source fields,
-material references and identifiers cannot be patched. The caller must validate
-the resulting lesson and obtain independent review of that exact candidate.
+This loader grants no acceptance and writes no files. Supplied materials,
+material references and identifiers cannot be patched. Direct editorial edits
+may fix text in an explicitly original material without external assets. The
+caller must validate the whole lesson and obtain independent review of it.
 """
 from __future__ import annotations
 
@@ -72,6 +73,80 @@ def _leaf(candidate, path):
     return node
 
 
+def _original_material_text(path, base, bundle):
+    # Keep _allowed unchanged: the automated field editor deliberately uses
+    # that narrower scope. This exception belongs to direct editorial work.
+    if not (isinstance(path, list) and len(path) == 3 and path[0] == "materials"
+            and _index(path[1]) and path[2] == "text"):
+        return False
+    materials, supplied = base.get("materials"), bundle.get("approvedMaterials", [])
+    if (not isinstance(materials, list) or path[1] >= len(materials)
+            or not isinstance(supplied, list)
+            or any(not isinstance(item, dict) or not isinstance(item.get("id"), str) for item in supplied)):
+        return False
+    material = materials[path[1]]
+    if (not isinstance(material, dict)
+            or not set(material) <= {"id", "title", "kind", "text", "source", "inputSkill"}
+            or material.get("kind") not in {"reading", "dialogue", "listening", "reference"}
+            or not isinstance(material.get("id"), str) or not _UNIT.fullmatch(material["id"])
+            or not isinstance(material.get("source"), str)):
+        return False
+    identifier, source = material["id"], material["source"].strip()
+    if (sum(isinstance(item, dict) and item.get("id") == identifier for item in materials) != 1
+            or identifier in {item["id"] for item in supplied}):
+        return False
+    # An original-work label is a claim to check in the subsequent full review,
+    # not proof of authorship. Ambiguous labels mentioning source transcripts or
+    # a supplied textbook remain outside this repair scope.
+    return bool(re.match(r"^(?:Original\b|Оригиналь(?:ный|ная|ное|ные)\b)", source, re.I)
+                and not re.search(r"\b(?:supplied|textbook|transcript|source|book)\b|учебник|расшифров|исходн|из\s+книг", source, re.I))
+
+
+def apply_changes(base, bundle, changes):
+    """Apply exact editorial leaves in memory; never grant review acceptance.
+
+    This also serves a caller whose exact base comes from a verified historical
+    review request instead of a raw draft. That caller must independently bind
+    the base's provenance and obtain a fresh review of the complete result.
+    """
+    if (not isinstance(base, dict) or not isinstance(bundle, dict)
+            or not isinstance(bundle.get("chapter"), dict)):
+        _fail("invalid current source bundle or base candidate")
+    unit_id, source_sha = bundle["chapter"].get("unitId"), bundle.get("sourceSetSha256")
+    if (not isinstance(unit_id, str) or not _UNIT.fullmatch(unit_id)
+            or not isinstance(source_sha, str) or not _SHA.fullmatch(source_sha)
+            or value_sha({key: value for key, value in bundle.items() if key != "sourceSetSha256"}) != source_sha):
+        _fail("current source bundle self-hash or unit changed")
+    if base.get("id") != "book-" + unit_id:
+        _fail("base candidate must already have the canonical book-unit ID")
+    if not isinstance(changes, list) or not changes:
+        _fail("changes must be a nonempty list")
+    paths = []
+    for change in changes:
+        if not isinstance(change, dict) or set(change) != _CHANGE_FIELDS:
+            _fail("unexpected change fields")
+        path = change["path"]
+        if not (_allowed(path) or _original_material_text(path, base, bundle)):
+            _fail("forbidden editorial field path: " + repr(path))
+        if any(path[:len(prior)] == prior or prior[:len(path)] == path for prior in paths):
+            _fail("duplicate or overlapping editorial field paths")
+        paths.append(path)
+        before, after, reason = change["before"], change["after"], change["reason"]
+        if not isinstance(before, str) or _leaf(base, path) != before:
+            _fail("before text does not match the exact base leaf: " + repr(path))
+        if not isinstance(after, str) or not after.strip() or after == before:
+            _fail("after text must be a nonempty different string: " + repr(path))
+        if not isinstance(reason, str) or len(reason.strip()) < 20:
+            _fail("each change needs a reason of at least 20 characters")
+    candidate = deepcopy(base)
+    for change in changes:
+        node = candidate
+        for key in change["path"][:-1]:
+            node = node[key]
+        node[change["path"][-1]] = change["after"]
+    return candidate
+
+
 def load_patch(bundle, folder):
     """Return ``(candidate, evidence)`` or None when no patch file exists.
 
@@ -118,31 +193,7 @@ def load_patch(bundle, folder):
     if base.get("id") != "book-" + unit_id:
         _fail("base candidate must already have the canonical book-unit ID")
     changes = patch["changes"]
-    if not isinstance(changes, list) or not changes:
-        _fail("changes must be a nonempty list")
-    paths = []
-    for change in changes:
-        if not isinstance(change, dict) or set(change) != _CHANGE_FIELDS:
-            _fail("unexpected change fields")
-        path = change["path"]
-        if not _allowed(path):
-            _fail("forbidden editorial field path: " + repr(path))
-        if any(path[:len(prior)] == prior or prior[:len(path)] == path for prior in paths):
-            _fail("duplicate or overlapping editorial field paths")
-        paths.append(path)
-        before, after, reason = change["before"], change["after"], change["reason"]
-        if not isinstance(before, str) or _leaf(base, path) != before:
-            _fail("before text does not match the exact base leaf: " + repr(path))
-        if not isinstance(after, str) or not after.strip() or after == before:
-            _fail("after text must be a nonempty different string: " + repr(path))
-        if not isinstance(reason, str) or len(reason.strip()) < 20:
-            _fail("each change needs a reason of at least 20 characters")
-    candidate = deepcopy(base)
-    for change in changes:
-        node = candidate
-        for key in change["path"][:-1]:
-            node = node[key]
-        node[change["path"][-1]] = change["after"]
+    candidate = apply_changes(base, bundle, changes)
     evidence = {"file": patch_path.name, "sha256": hashlib.sha256(raw_patch).hexdigest(),
                 "baseFile": base_name, "baseSha256": base_sha,
                 "candidateSha256": value_sha(candidate),
