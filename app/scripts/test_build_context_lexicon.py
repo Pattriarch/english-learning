@@ -46,6 +46,28 @@ class LexiconContractTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'remove published'):
             lex.select_words(words, {}, 2, ['deleted-by-source'])
 
+    def test_separate_extension_owns_headwords_during_base_expansion(self):
+        words = [{'key': word, 'word': word, 'rank': {'value': i}} for i, word in enumerate(['core', 'new-extension-word', 'next-base-word'])]
+        selected = lex.select_words(words, {'core': [], 'new-extension-word': []}, 3, ['core'], {'new-extension-word'})
+        self.assertEqual([word['key'] for word in selected], ['core', 'next-base-word'])
+        with self.assertRaisesRegex(ValueError, 'overlap'):
+            lex.select_words(words, {}, 3, ['core'], {'core'})
+
+    def test_extension_reservation_reads_only_entries_and_fails_on_invalid_publication(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary)
+            with patch.object(lex, 'OUT', path):
+                self.assertEqual(lex.published_extension_words(), set())
+                document = {'version': lex.VERSION, 'targetVariety': 'en-US', 'spanEncoding': 'utf-16',
+                            'entries': [{'word': 'Snag'}], 'aliases': [{'word': 'snags'}], 'referenceItems': [{'word': 'Name'}]}
+                lex.atomic_json(path / 'coca-extension.json', document)
+                self.assertEqual(lex.published_extension_words(), {'snag'})
+                for changes in [{'targetVariety': 'en-GB'}, {'entries': [{'word': 'snag'}, {'word': 'SNAG'}]}, {'entries': [{'word': ''}]}]:
+                    with self.subTest(changes=changes):
+                        lex.atomic_json(path / 'coca-extension.json', {**document, **changes})
+                        with self.assertRaises(ValueError):
+                            lex.published_extension_words()
+
     def test_valid_unassigned_context(self):
         lex.validate_entries(*self.fixture())
 

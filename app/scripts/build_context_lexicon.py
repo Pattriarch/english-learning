@@ -423,20 +423,44 @@ def validate_entries(document: dict, sources: list[dict]) -> None:
                 raise ValueError(f'Unknown dictionary source: {key}')
 
 
-def select_words(eligible, member_index, limit, previous_words=()):
-    available = {item['key']: item for item in eligible}
+def published_extension_words() -> set[str]:
+    """Keep separately published entries out of future base-bank expansions."""
+    path = OUT / 'coca-extension.json'
+    if not path.exists():
+        return set()
+    document = json.loads(path.read_text(encoding='utf-8'))
+    if (document.get('version') != VERSION or document.get('targetVariety') != 'en-US'
+            or document.get('spanEncoding') != 'utf-16' or not isinstance(document.get('entries'), list)):
+        raise ValueError('Invalid published lexical extension; base rebuild stopped')
+    words = set()
+    for entry in document['entries']:
+        if not isinstance(entry.get('word'), str) or not normalized_word(entry['word']):
+            raise ValueError('Published extension contains an empty headword')
+        key = normalized_word(entry['word'])
+        if key in words:
+            raise ValueError('Published extension contains duplicate headwords')
+        words.add(key)
+    return words
+
+
+def select_words(eligible, member_index, limit, previous_words=(), reserved_words=()):
+    reserved = set(reserved_words)
+    if set(previous_words) & reserved:
+        raise ValueError('Published base and extension overlap; resolve ownership without removing saved IDs')
+    available = {item['key']: item for item in eligible if item['key'] not in reserved}
     missing_previous = set(previous_words) - set(available)
     if missing_previous:
         raise ValueError('Source refresh would remove published contexts; review before replacing: ' + ', '.join(sorted(missing_previous)[:20]))
     chosen = {key: available[key] for key in previous_words}
     # Required vocabulary adds to the published bank, never displaces saved IDs.
     for item in eligible:
-        if item['key'] in member_index:
+        if item['key'] in member_index and item['key'] not in reserved:
             chosen[item['key']] = item
     for item in eligible:
         if len(chosen) >= limit:
             break
-        chosen.setdefault(item['key'], item)
+        if item['key'] not in reserved:
+            chosen.setdefault(item['key'], item)
     return sorted(chosen.values(), key=lambda w: (w['rank']['value'] if w['rank']['value'] is not None else 999999, w['key']))
 
 
@@ -484,7 +508,7 @@ def build(limit=10000, pilot=False):
     ranked_keys = {w['key'] for w in words}
     eligible += [{'key': key, 'word': key, 'rank': {'sourceId': None, 'value': None, 'metric': None}} for key in sorted(member_index) if key not in ranked_keys and contexts.get(key)]
     previous_words = [normalized_word(e['word']) for e in previous_entries]
-    selected = select_words(eligible, member_index, limit, previous_words)
+    selected = select_words(eligible, member_index, limit, previous_words, published_extension_words())
     entries = []
     for item in selected:
         key = item["key"]
