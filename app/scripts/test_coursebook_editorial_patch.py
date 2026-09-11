@@ -339,6 +339,22 @@ class EditorialPatchTests(unittest.TestCase):
             with self.subTest(after=after), self.assertRaisesRegex(ValueError, "forbidden editorial field"):
                 apply_changes(self.base, self.bundle, [change])
 
+    def test_direct_ui_warning_correction_preserves_other_provenance_and_warning_count(self):
+        base = deepcopy(self.base)
+        base["provenance"] = {"warnings": ["The application must lock all transcripts.",
+            "Audio was not inspected."], "sourceImages": [{"sha256": "a" * 64}]}
+        path = ["provenance", "warnings", 0]
+        change = self.change(path, base["provenance"]["warnings"][0],
+            "The application collapses transcripts; the learner may reveal them voluntarily.")
+        result = apply_changes(base, self.bundle, [change])
+        self.assertEqual(result["provenance"]["warnings"], [change["after"], "Audio was not inspected."])
+        self.assertEqual(result["provenance"]["sourceImages"], base["provenance"]["sourceImages"])
+        self.assertFalse(_allowed(path))
+        bad = self.change(["provenance", "warnings", 1], "Audio was not inspected.",
+            "The application has professional audio verification.")
+        with self.assertRaisesRegex(ValueError, "forbidden editorial field"):
+            apply_changes(base, self.bundle, [bad])
+
 
 if __name__ == "__main__":
     unittest.main()

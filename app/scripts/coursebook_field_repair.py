@@ -196,12 +196,17 @@ def _model_evidence(folder, proposal_path, request, attachments):
                 "transportSchema": transport, "attachments": attachments}
     if committed != {**expected, "sha256": template.value_sha(expected)}:
         _fail("model request does not match exact source, draft, findings and attachments")
-    expected_invocation = {"version": 1, "role": MODEL_ROLE, "model": MODEL,
+    invocation_version = invocation.get("version")
+    if type(invocation_version) is not int or invocation_version not in (1, 2):
+        _fail("unknown model invocation policy version")
+    expected_invocation = {"version": invocation_version, "role": MODEL_ROLE, "model": MODEL,
         "requestSha256": _sha(request_raw), "promptSha256": template.text_sha(request["prompt"]),
         "payloadSha256": template.value_sha(request["payload"]),
         "schemaSha256": template.value_sha(request["schema"]),
         "transportSchemaSha256": template.value_sha(transport),
         "attachments": attachments, "httpArguments": invocation.get("httpArguments")}
+    if invocation_version == 2:
+        expected_invocation["reasoningArguments"] = ["-c", 'model_reasoning_effort="high"']
     if (invocation != expected_invocation or not isinstance(invocation.get("httpArguments"), list)
             or "model_providers.openai-http.supports_websockets=false" not in invocation["httpArguments"]
             or "model_providers.openai-http.requires_openai_auth=true" not in invocation["httpArguments"]):

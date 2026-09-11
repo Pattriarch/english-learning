@@ -1071,6 +1071,9 @@ class OfflinePipelineTests(unittest.TestCase):
         self.assertEqual(command[command.index("--model") + 1], "gpt-6-astra")
         invocation = pipeline.read(checkpoint.with_suffix(".invocation.json"))
         self.assertEqual(invocation["model"], "gpt-6-astra")
+        self.assertEqual(invocation["version"], 2)
+        self.assertEqual(invocation["reasoningArguments"], ["-c", 'model_reasoning_effort="high"'])
+        self.assertIn('model_reasoning_effort="high"', command)
         self.assertEqual(invocation["payloadSha256"], contract.value_sha(payload))
         self.assertIn('model_providers.openai-http.requires_openai_auth=true', command)
         self.assertIn('model_providers.openai-http.supports_websockets=false', command)
@@ -1096,6 +1099,63 @@ class OfflinePipelineTests(unittest.TestCase):
         self.assertEqual(pipeline.read(checkpoint), expected)
         self.assertEqual(pipeline.read(checkpoint.with_suffix(".raw.json")), raw)
         self.assertFalse(captured["cwd"].exists(), "Private input transport directory was not cleaned up")
+
+    def test_existing_legacy_invocation_resumes_exactly_without_relabeling_reasoning(self):
+        checkpoint = self.work / "transport-legacy.json"
+        schema = contract._object({"title": contract._STRING})
+        prompt, payload = "Inspect source.", {"text": "Full unchanged source."}
+        captured = []
+
+        def popen(command, **kwargs):
+            captured.append(command)
+            write_json(command[command.index("--output-last-message") + 1], {"title": "Same result"})
+            return Mock(returncode=0)
+
+        with patch.object(pipeline, "codex_command", return_value=["codex-offline-test"]), \
+                patch.object(pipeline.subprocess, "Popen", side_effect=popen):
+            pipeline.call_model(prompt, payload, schema, self.bundle["attachments"], checkpoint, 10)
+            invocation_path = checkpoint.with_suffix(".invocation.json")
+            legacy = pipeline.read(invocation_path)
+            legacy["version"] = 1
+            del legacy["reasoningArguments"]
+            write_json(invocation_path, legacy)
+            original_bytes = invocation_path.read_bytes()
+            pipeline.call_model(prompt, payload, schema, self.bundle["attachments"], checkpoint, 10)
+        self.assertEqual(invocation_path.read_bytes(), original_bytes)
+        self.assertFalse(any("model_reasoning_effort" in arg for arg in captured[-1]))
+
+    def test_unknown_or_changed_reasoning_policy_does_not_launch(self):
+        checkpoint = self.work / "transport-policy.json"
+        write_json(checkpoint.with_suffix(".invocation.json"), {"version": 2, "reasoningArguments": []})
+        with patch.object(pipeline.subprocess, "Popen") as launch, self.assertRaisesRegex(ValueError, "Changed model/transport"):
+            pipeline.call_model("Source.", {}, contract._object({"title": contract._STRING}), [], checkpoint, 10)
+        launch.assert_not_called()
+
+    def test_full_receipt_binds_explicit_reasoning_and_rejects_rehashed_policy_change(self):
+        transport = pipeline.call_model
+
+        def model(prompt, payload, schema, attachments, path, timeout):
+            def popen(command, **kwargs):
+                output = Path(command[command.index("--output-last-message") + 1])
+                self.fake_model(prompt, payload, schema, attachments, output, timeout)
+                return Mock(returncode=0)
+            with patch.object(pipeline, "codex_command", return_value=["codex-offline-test"]), \
+                    patch.object(pipeline.subprocess, "Popen", side_effect=popen):
+                return transport(prompt, payload, schema, attachments, path, timeout)
+
+        with patch.object(pipeline, "call_model", side_effect=model):
+            pipeline.run_chapter(self.bundle, self.work, timeout=10)
+        receipt = self.ready_receipt()
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.work))
+        record = receipt["lessonAcceptance"]
+        invocation_path = (self.work / record["file"]).with_suffix(".invocation.json")
+        invocation = pipeline.read(invocation_path)
+        self.assertEqual(invocation["version"], 2)
+        invocation["reasoningArguments"] = ["-c", 'model_reasoning_effort="none"']
+        write_json(invocation_path, invocation)
+        record["invocationSha256"] = pipeline.file_sha(invocation_path)
+        with self.assertRaisesRegex(ValueError, "invocation does not match"):
+            pipeline.verify_ready(receipt, self.bundle, self.work)
 
     def test_automated_field_proposal_has_exact_sol_transport_and_requires_new_full_review(self):
         import coursebook_field_repair as fields
