@@ -551,6 +551,10 @@ def call_model(prompt, payload, schema, attachments, path, timeout):
 def cached_call(path, prompt, payload, schema, attachments, timeout):
     path = Path(path)
     binding = path.with_suffix(".request.json")
+    from coursebook_runtime_guidance import effective_request
+    effective = effective_request(path, {"prompt": prompt, "payload": payload, "schema": schema},
+                                  read(binding) if binding.exists() else None)
+    prompt, payload, schema = (effective[key] for key in ("prompt", "payload", "schema"))
     try:
         transport = permitted_transport(strict_model_schema(schema), payload,
             read(binding).get("transportSchema") if binding.exists() else None)
@@ -603,6 +607,8 @@ def verify_call(record, folder, expected, attachments):
     if file_sha(path) != record["sha256"] or file_sha(path.with_suffix(".request.json")) != record["requestSha256"]:
         raise ValueError("Model response/request evidence changed")
     request = read(path.with_suffix(".request.json"))
+    from coursebook_runtime_guidance import effective_request
+    expected = effective_request(path, expected, request, allow_fresh=False)
     try:
         transport = permitted_transport(strict_model_schema(expected["schema"]), expected["payload"],
                                          request.get("transportSchema"))
@@ -667,6 +673,9 @@ def author_request(bundle, analysis, folder=None):
         request = {**candidate, "sha256": template.value_sha(candidate)}
         template.validate_request(request)
         expected_call = revised_request(candidate, recovered["candidate"], recovered["findings"]) if recovered else candidate
+        from coursebook_runtime_guidance import effective_request
+        expected_call = effective_request(cached.with_name(cached.name.replace(".request.json", ".json")),
+                                          expected_call, committed, allow_fresh=False)
         transport = permitted_transport(strict_model_schema(expected_call["schema"]), expected_call["payload"],
                                         committed.get("transportSchema"))
         expected = {"version": VERSION, **expected_call,
@@ -733,6 +742,8 @@ def legacy_identity_repair(path, base, candidate, attachments):
         raise ValueError("Legacy identity repair changed the prior candidate")
     original_prior = payload["previousCandidate"]
     expected = revised_request(base, original_prior, payload["requiredCorrections"])
+    from coursebook_runtime_guidance import effective_request
+    expected = effective_request(path, expected, committed, allow_fresh=False)
     bound = {"version": VERSION, **expected,
              "transportSchema": strict_model_schema(expected["schema"]), "attachments": attachments}
     if committed != {**bound, "sha256": template.value_sha(bound)}:
