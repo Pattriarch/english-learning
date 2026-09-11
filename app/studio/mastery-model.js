@@ -1,3 +1,4 @@
+import {currentAuthoredExercise} from './authored-exercise.js';
 // Course availability and evidence of learning are deliberately independent.
 import {transferIdentity} from './transfer-model.js';
 import {projectProgress,projectTimestamp} from './projects-model.js';
@@ -15,11 +16,13 @@ export function evidenceTarget(e){
 }
 function matches(a,e,data){
  const {id}=evidenceTarget(e);if(a.lessonId!==id)return false;
- const ids=e.lessonId?.startsWith('pron-')?[e.lessonId]:list(e.exerciseIds);if(!ids.length||!ids.includes(base(a.exerciseId)))return false;
+ const lesson=!e.unitId&&list(data.lessons).find(l=>l.id===id),exercise=lesson&&currentAuthoredExercise(lesson,a.exerciseId);
+ if(lesson&&!exercise)return false;
+ const ids=e.lessonId?.startsWith('pron-')?[e.lessonId]:list(e.exerciseIds);if(!ids.length||!ids.includes(exercise?.id||base(a.exerciseId)))return false;
  // Current published book versions are available in bootstrap metadata. Do not
  // reuse a successful answer from an older, materially different question.
  if(e.unitId){const pinned=data.masteryBookVersions?.[e.unitId],current=list(pinned||data.bookStatus?.units?.[e.unitId]?.exerciseIds);if((pinned||current.length)&&!current.includes(a.exerciseId))return false;}
- else {const exercise=list(data.lessons).find(l=>l.id===id)?.exercises?.find(x=>x.id===a.exerciseId);if(exercise&&exercise.prompt!==a.prompt)return false;}
+ else if(exercise&&exercise.prompt!==a.prompt)return false;
  return true;
 }
 export function indicatorProgress(indicator,data={},now=Date.now()){

@@ -1,0 +1,142 @@
+{
+  "version": "full-lexical-analysis-v1",
+  "targetVariety": "en-US",
+  "baseFiles": [
+    {
+      "name": "entries.json",
+      "sha256": "71c53166854828fb8c9f02b7482a87963ba3371084625bf0b3eae6b60c097c60"
+    },
+    {
+      "name": "coca-extension.json",
+      "sha256": "18dfbfadd973b9bf25589a4e630c887147d6fa751333694e42590fb4b42ccb70"
+    },
+    {
+      "name": "american-phrases.json",
+      "sha256": "2750399fbe33a122dda87e15db5f8ca929827f12190c9e1aca05fa0be4d87df6"
+    }
+  ],
+  "shards": [
+    {
+      "name": "full-analysis-17ab506d36eccc76a467ddf4.json",
+      "sha256": "9fb5fa80200fadc0481b670b53652fc195db9cadae638df01c872390aa48d2f9",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-3999b96a30474f5e491390ef.json",
+      "sha256": "0d41eab666b2e8654b9cb255ce5603ff9baade01aa1999a50e8ed7b3bab282a6",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-9d87b645e3b622907866d668.json",
+      "sha256": "b9d70b9d40cda35c67b3466b2f82f5a69243f83105932681dcddb333de3d7be1",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-32322ef36bee2c5185dbb927.json",
+      "sha256": "c13752ed331574e0ea2fd468dca59d5c5823560139c091bef692bb2fa37e16a9",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-0906ad43f2bae43de43996f5.json",
+      "sha256": "00a310cc1b9861a342a5b7839aac0effe30bba04b58142f4cbb1592721cf0d5d",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-3baf8dc3751f80d23ede0457.json",
+      "sha256": "317e1485f7c1e1c243966eea9655b8edfa7b441a8f6edb6d6f615cf343bca2e4",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-1abf9ca34787f3ef6e179da3.json",
+      "sha256": "28535a77de7803c037f6dcac6d56ee758330c9b714536616bf83f5b1caa13ca2",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-2623ba84bb6ec2c037f9b14b.json",
+      "sha256": "339e149e5a47e3b0d08f5ca91bcc45a82b66a89143bd552770c8952c34ffffe6",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-4406a602dc49c36a2fe45253.json",
+      "sha256": "34cd5990e8e609d63d0b1ee89b3afbe297de33edcb9b2b7f6d74e9bef59497f4",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-c1d11c1ba6badb8fe009b385.json",
+      "sha256": "6c616b2f63135c4825a6505b4ab31a34659259ceb1e03b7df3cfb18c21e5742b",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-7be25b559041bdcc09f251aa.json",
+      "sha256": "bd1709fab96bcd6688f4312dc1f4eb5ff271342fd9b9dea62c8c7912a6b08c2a",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-6f953e66fb86e00d39321914.json",
+      "sha256": "b6e8f17d704aa91db8ffc8ac72550af333b41a1dcac40f9dc8d3dcdbf238321c",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-135609487ec4e7fe7f4d57ac.json",
+      "sha256": "f596362b5d5c05448cc9e3414063008bbb16ee22313d5237d0b7c5e1531bf8c3",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-2ff0b6049fed0efa8dfad567.json",
+      "sha256": "a695ecc121415405efa51286ce433fc50e56a81387cdeb1cb8ae2397403bacd9",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-36b55bf559c42556de14d344.json",
+      "sha256": "6a9af086a7f850bfe632f330fb662b3ba952e120302118f288500c981e27335e",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-7c3da7774b25e89ed1d71302.json",
+      "sha256": "8b49b589b016905bce8e36f89aad469d5e9ce2c143101da6c7f3c43daaf2a217",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-3c8f08b271337a14c4db98e5.json",
+      "sha256": "9cfc6abe96e9a1d641f968302690221cb909524e1c71ea148b092f5e9aec7ebe",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-34f89cb129c16bd57cbbfd93.json",
+      "sha256": "8b8594876d31a7d74ea79bf72ffdf2056bca6e5f5ca0a610aa3af16940e71b3f",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-63abf3151ba8bed0f15e69a7.json",
+      "sha256": "e19c03afd3b777cd594773821164ee31482d4ac26e17b5abf96236c9ffc5a381",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-37d790572578d2382adb2954.json",
+      "sha256": "d8a5687f80866ff2d2fbcf3a4c5776392fd696a7926631e2ec8977cb5a83f7ab",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-8a2e9512a47cebbd9c8d56c6.json",
+      "sha256": "8821d2e2fba304d3087d8083f94b862762abd992d6afc63f0a458d26fbdc5732",
+      "rows": 400
+    },
+    {
+      "name": "full-analysis-d6f310c4d5ccf74e2ee687b7.json",
+      "sha256": "7d26dff6c63da47439e60ca304fce61825d72f6ab131d91c81080b2e5fe8f9e3",
+      "rows": 120
+    }
+  ],
+  "rows": 8520,
+  "targetRows": 18534,
+  "targetEntries": 10987,
+  "complete": false,
+  "source": {
+    "id": "full-lexical-analysis-v1",
+    "title": "Full contextual learning analyses",
+    "license": "original-project-content",
+    "author": "English project; AI drafting and separate semantic review",
+    "checkedAt": "2026-09-11",
+    "scope": "Every published active learning context; not all possible senses or human certification"
+  }
+}

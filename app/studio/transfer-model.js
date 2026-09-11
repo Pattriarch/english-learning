@@ -1,3 +1,5 @@
+import {currentAuthoredExercise} from './authored-exercise.js';
+import {hasStructuredBookStudy} from './planner-coursebooks.js';
 // Practice evidence is separate from reading, study time and self-assessment.
 export const TRANSFER_VERSION=1;
 export const TRANSFER_INTERVALS=[1,3,7,21,60];
@@ -46,7 +48,7 @@ export function transferTopics(data={}){
  for(const a of array(data.state?.attempts)){
   if(!meaningful(a))continue;const original=transferLessonIdentity(a),id=aliases.get(original)||original,meta=known.get(id);if(!meta)continue;
   // A legacy fill-in/token task does not seed a transfer cycle.
-  if(meta.lesson){const ex=meta.lesson.exercises.find(e=>base(e.id)===base(a.exerciseId));if(!ex||!['translate','rewrite','write','speak','correct','explain','contrast'].includes(ex.kind))continue;}
+  if(meta.lesson){const ex=currentAuthoredExercise(meta.lesson,a.exerciseId);if(!ex||!['translate','rewrite','write','speak','correct','explain','contrast'].includes(ex.kind))continue;}
   const previous=found.get(id);if(!previous||time(a.at)<time(previous.anchorAt))found.set(id,{...meta,anchorAt:a.at,anchorId:a.id});
  }
  return [...found.values()].map(topic=>{const saved=parse(data.state?.drafts?.[transferTopicKey(topic.lessonId)]);return validTransferSnapshot(saved,topic.lessonId)?{...topic,...saved,snapshot:saved}:topic;});
@@ -96,7 +98,10 @@ export function transferProgress(topic,state={},now=new Date()){
  return {...topic,round,dueDay,due:dueDay<=today,next:'recall',stages:[],attempts:[],history,completedRounds:history.length,needsWork:false,ungraded:false};
 }
 export function transferQueue(data={},now=new Date(),options={}){
- const topics=transferTopics(data).filter(t=>time(t.anchorAt)<=new Date(now).getTime()).map(t=>transferProgress(t,data.state,now));
+ // A six-stage chapter already owns recall, production, revision and delayed
+ // transfer. Keep legacy generic history accessible, but do not prescribe a
+ // second concurrent cycle for the same chapter in automatic queues.
+ const topics=transferTopics(data).filter(t=>!hasStructuredBookStudy(data,t.lessonId)&&time(t.anchorAt)<=new Date(now).getTime()).map(t=>transferProgress(t,data.state,now));
  topics.sort((a,b)=>a.dueDay.localeCompare(b.dueDay)||a.lessonId.localeCompare(b.lessonId));
  const due=topics.filter(t=>t.due),limit=Math.max(1,Math.min(3,Number(options.limit)||2));
  return {topics,due:due.slice(0,limit),dueCount:due.length,upcoming:topics.filter(t=>!t.due),limit};

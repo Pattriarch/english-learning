@@ -6,3 +6,5 @@
 .material-table-scroll{overflow-x:auto;margin:24px 0;border:1px solid var(--line);border-radius:12px}.material-table{width:100%;min-width:760px;border-collapse:collapse;font-size:14px;line-height:1.5;text-align:left;font-variant-numeric:tabular-nums}.material-table caption{text-align:left;padding:15px;font-weight:600;color:var(--ink)}.material-table th,.material-table td{padding:12px 15px;border-top:1px solid var(--line);vertical-align:top}.material-table thead th{background:var(--soft);color:var(--muted);font-size:12px;font-weight:600}.material-table tbody th{font-weight:600;white-space:nowrap}.material-table tbody td{white-space:nowrap}.material-table-scroll:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 
 dialog:has(.material-figure-large){width:min(1020px,calc(100% - 32px))}.material-figure-large{overflow:auto;border-radius:12px;background:#fbfcfe}.material-figure-large img{display:block;width:100%;min-width:600px;height:auto}
+.material-audio-error{color:var(--danger,var(--ink));font-size:.9rem;line-height:1.7;padding:12px 15px;border:1px solid var(--line);border-radius:10px}
+.lesson-material [hidden]{display:none!important}

@@ -22,6 +22,7 @@ import tempfile
 # Reuse the generation pipeline's content-depth/coverage checks without running
 # it or writing any of its inputs or outputs. Its entry point is main-guarded.
 from build_book_lessons import validate_lesson
+from book_source_contract import source_pages, unit_pages, valid_pdf_name
 
 APP = Path(__file__).resolve().parents[1]
 SAFE_ID = re.compile(r"[a-zA-Z0-9_-]{1,100}\Z")
@@ -47,18 +48,21 @@ def catalog_units(path):
             continue
         if not SAFE_ID.fullmatch(book["id"]):
             raise ValueError("Unsafe book ID")
+        if "filename" in book and not valid_pdf_name(book["filename"]):
+            raise ValueError("Unsafe PDF source path")
         for unit in book["units"]:
             identifier = unit["id"]
             if not SAFE_ID.fullmatch(identifier) or identifier in result:
                 raise ValueError("Unsafe or duplicate unit ID")
-            result[identifier] = {"bookId": book["id"], "pages": [unit["page"], unit["endPage"]]}
+            result[identifier] = {"bookId": book["id"], "pages": unit_pages(unit)}
     return result
 
 
-def validate_unit(identifier, entry, lesson_path, sources, images):
+def validate_unit(identifier, entry, lesson_path, sources, images, coursebook_work=None):
     raw, lesson = read_json(lesson_path)
     _, source = read_json(Path(sources) / f"{identifier}.json")
     provenance = lesson.get("provenance", {})
+    source_pages(source, entry["pages"])
     if (lesson.get("id") != "book-" + identifier or provenance.get("unitId") != identifier
             or provenance.get("bookId") != entry["bookId"] or provenance.get("pages") != entry["pages"]
             or source.get("unitId") != identifier or source.get("bookId") != entry["bookId"]
@@ -77,8 +81,8 @@ def validate_unit(identifier, entry, lesson_path, sources, images):
     if not isinstance(source_images, list) or (not visual and source_images):
         raise ValueError("Unverified source-image metadata")
     if visual:
-        if len(source_images) != 2:
-            raise ValueError("Both source pages are required")
+        if len(source_images) != len(entry["pages"]):
+            raise ValueError("Every source page image is required")
         for page, image in zip(entry["pages"], source_images):
             if image.get("page") != page or not SHA256.fullmatch(image.get("sha256", "")):
                 raise ValueError("Incorrect source-image page/hash")
@@ -88,7 +92,11 @@ def validate_unit(identifier, entry, lesson_path, sources, images):
                 raise ValueError("Incomplete source JPEG")
             if digest(image_bytes) != image["sha256"]:
                 raise ValueError("Source-page image changed")
-    validate_lesson(lesson, entry["pages"] if visual else None)
+    if lesson.get("studyPlan") is not None:
+        from publish_new_coursebooks import validate_published_coursebook
+        validate_published_coursebook(lesson, coursebook_work)
+    else:
+        validate_lesson(lesson, entry["pages"] if visual else None)
     # The generator publishes atomically and may be running. Never attest bytes
     # of a replaced lesson accidentally; a later replacement simply needs a new
     # snapshot and is rejected by the old manifest in a source-free clone.
@@ -100,7 +108,7 @@ def validate_unit(identifier, entry, lesson_path, sources, images):
             **({"sourceImages": [{"page": image["page"], "sha256": image["sha256"]} for image in source_images]} if visual else {})}
 
 
-def build_release(content, sources, images):
+def build_release(content, sources, images, coursebook_work=None):
     content = Path(content)
     catalog = catalog_units(content / "library.json")
     units, rejected = {}, {}
@@ -109,7 +117,7 @@ def build_release(content, sources, images):
         try:
             if identifier not in catalog:
                 raise ValueError("Lesson is not a canonical catalog unit")
-            units[identifier] = validate_unit(identifier, catalog[identifier], path, sources, images)
+            units[identifier] = validate_unit(identifier, catalog[identifier], path, sources, images, coursebook_work)
         except (OSError, ValueError, KeyError, TypeError, AttributeError) as error:
             # Report only the reason, never parsed textbook contents.
             rejected[identifier] = str(error)

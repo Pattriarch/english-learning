@@ -10,6 +10,7 @@ import re
 
 import pymupdf
 from book_text_layout import ROOT, atomic_json, clean_text, extract_page, span_text
+from book_source_contract import pdf_source_path
 
 INDEX = ROOT / "app/content/book-supplements.json"
 OUT = ROOT / "app/data/parsed-book-supplements"
@@ -127,7 +128,7 @@ def main():
             text_start, text_end = definition[4:] if len(definition) == 6 else (start, end)
             for source_book in (b, text_book):
                 if source_book["id"] not in docs:
-                    filename = ROOT / "книги" / source_book["filename"]
+                    filename = pdf_source_path(ROOT / "книги", source_book["filename"])
                     docs[source_book["id"]] = pymupdf.open(filename)
                     hashes[source_book["id"]] = hashlib.sha256(filename.read_bytes()).hexdigest()
             page_texts = []

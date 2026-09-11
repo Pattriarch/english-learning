@@ -31,6 +31,8 @@ import tempfile
 import threading
 import time
 
+from book_source_contract import source_pages, unit_pages, valid_pdf_name
+
 
 APP = Path(__file__).resolve().parents[1]
 PROMPT_VERSION = "book-source-lesson-v2-vision"
@@ -117,9 +119,7 @@ def image_paths(source, directory):
     book_id = source.get("bookId", "")
     if not SAFE_ID.fullmatch(book_id):
         raise ValueError("Некорректный bookId для изображений")
-    pages = source.get("pages", [])
-    if not pages or any(not isinstance(page, int) or page < 1 for page in pages):
-        raise ValueError("Некорректный список страниц источника")
+    pages = source_pages(source)
     return [Path(directory) / book_id / f"{page}.jpg" for page in pages]
 
 
@@ -143,12 +143,14 @@ def catalog_units(path):
     for book in catalog["books"]:
         if book.get("duplicateOf"):
             continue
+        if not valid_pdf_name(book["filename"]):
+            raise ValueError("Unsafe catalog PDF source path")
         for unit in book["units"]:
             if not SAFE_ID.fullmatch(unit["id"]):
                 raise ValueError("Unsafe catalog unit id")
             result.append({"unitId": unit["id"], "bookId": book["id"], "bookTitle": book["title"],
                            "level": book["level"], "unit": unit["unit"], "title": unit["title"],
-                           "category": unit.get("category", "")})
+                           "category": unit.get("category", ""), "pages": unit_pages(unit)})
     # Round-robin books by unit number, B1/B2 first. First sample anchors the
     # actual page the learner complained about, followed by foundational units.
     def priority(item):
@@ -291,6 +293,7 @@ class BuildFailure(Exception):
 
 def generate_one(item, source, options, command, model, stop):
     unit_id = item["unitId"]
+    source_pages(source, item["pages"])
     diagnostics = options.data / "book-build-diagnostics" / unit_id
     diagnostics.mkdir(parents=True, exist_ok=True)
     if stop.is_set():
@@ -425,12 +428,14 @@ def main(argv=None):
     if options.timeout < 30 or options.source_wait < 0:
         parser.error("--timeout must be >=30 and --source-wait must be nonnegative")
     items = catalog_units(options.catalog)
+    catalog_pages = {item["unitId"]: item["pages"] for item in items}
     existing = {}
     available = set()
     for item in items:
         uid = item["unitId"]
         try:
             source = read_json(options.source / f"{uid}.json")
+            source_pages(source, item["pages"])
         except (OSError, ValueError):
             continue
         try:
@@ -496,6 +501,7 @@ def main(argv=None):
                     available_hashes[uid] = cached[1]
                     continue
                 current_lesson, current_source = read_json(lesson_path), read_json(source_path)
+                source_pages(current_source, catalog_pages[uid])
                 validate_lesson(current_lesson)
                 digest = source_hash(current_source)
                 if (current_lesson.get("id") != "book-" + uid
@@ -562,6 +568,13 @@ def main(argv=None):
                             continue
                         if source.get("unitId") != uid or source.get("bookId") != item["bookId"]:
                             state["units"][uid] = {"state": "failed", "error": "Идентификатор источника не совпадает с каталогом"}
+                            attempted.add(uid)
+                            save()
+                            continue
+                        try:
+                            source_pages(source, item["pages"])
+                        except ValueError as error:
+                            state["units"][uid] = {"state": "failed", "error": str(error)}
                             attempted.add(uid)
                             save()
                             continue

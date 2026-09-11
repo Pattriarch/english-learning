@@ -53,7 +53,7 @@ foreach ($unit in $manifest.units) {
         }
     }
     $result = [ordered]@{
-        unitId=$unit.unitId;bookId=$unit.bookId;title=$unit.title;pages=@($unit.startPage,$unit.endPage)
+        unitId=$unit.unitId;bookId=$unit.bookId;title=$unit.title;pages=@($unit.renderedPages | ForEach-Object { [int]$_.page })
         source='ocr';text=($pages.text -join "`n`n");pageTexts=$pages
         quality=@{engine='Windows.Media.Ocr en-US';confidence=$null;confidenceNote='Windows OCR does not expose recognition confidence. Text needs visual verification, especially phonetic symbols and multi-column exercises.';complete=(@($pages | Where-Object { $_.text.Length -eq 0 }).Count -eq 0);pageCount=$pages.Count;characterCount=($pages.text -join "`n`n").Length;issues=$issues;renderDpi=$manifest.renderDpi;readingOrder='OCR line order, with word bounding boxes preserved for layout reconstruction';visualVerified=$false}
         extractedAt=[DateTime]::UtcNow.ToString('o')

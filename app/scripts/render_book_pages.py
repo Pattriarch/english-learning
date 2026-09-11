@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 import pymupdf
+from book_source_contract import pdf_source_path, source_pages, unit_pages
 
 ROOT = Path(__file__).resolve().parents[2]
 APP = ROOT / 'app'
@@ -23,10 +24,13 @@ def render_book(book):
     try:
         for unit in book['units']:
             source = json.loads((APP / 'data/parsed-books' / (unit['id']+'.json')).read_text(encoding='utf-8'))
+            source_pages(source, unit_pages(unit))
+            if 'pageTexts' not in source:
+                raise ValueError('Missing extracted page inventory')
             provenance = source.get('provenance', {})
             filename = provenance.get('textFilename', book['filename'])
             if filename not in docs:
-                docs[filename] = pymupdf.open(ROOT / 'книги' / filename)
+                docs[filename] = pymupdf.open(pdf_source_path(ROOT / 'книги', filename))
             document = docs[filename]
             for page in source['pageTexts']:
                 target = out / (str(page['page']) + '.jpg')

@@ -1,3 +1,4 @@
+import {authoredExerciseID,authoredLessonState,currentAuthoredExercise} from './authored-exercise.js';
 import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
 import {mountPractice,plannedPractice,mountReview,mountJournal,mountSettings} from './pages.js';
@@ -59,9 +60,9 @@ function shell(route){
 }
 function lesson(id,index){
  const l=data.lessons.find(l=>l.id===id);if(!l){$('#main').innerHTML=empty('Занятие не найдено','Откройте карту и выберите доступную тему.','<a class="btn primary" href="#/roadmap">Карта обучения</a>');return;}
- const done=new Set(data.state.attempts.filter(a=>a.lessonId===id).map(a=>a.exerciseId));
+ const {tried:done,latest}=authoredLessonState(l,data.state.attempts);
  const first=l.exercises.findIndex(e=>!done.has(e.id));let n=index===undefined?Math.max(0,first):Math.min(Math.max(0,index),l.exercises.length-1);
- const e=l.exercises[n],key=l.id+':'+e.id;let attempt=data.state.attempts.filter(a=>a.lessonId===id&&a.exerciseId===e.id).at(-1),inputMode=['speak','write'].includes(e.kind)?'writing':'translation',requestID=crypto.randomUUID();
+ const e=l.exercises[n],practiceID=authoredExerciseID(e),key=l.id+':'+practiceID;let attempt=latest.get(e.id),inputMode=['speak','write'].includes(e.kind)?'writing':'translation',requestID=crypto.randomUUID();
  $('#main').innerHTML=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1 style="margin:13px 0 8px">${esc(l.title)}</h1><span class="small-note">${esc(l.units)} · ${esc(l.level)} · ${l.generated?'Создано помощником':'Авторское занятие по теме'}</span></div><a class="btn small" href="#/books">${icon('book')} Учебники</a></div>
  <div class="lesson-layout ${l.materials?.length?'with-materials':''}">
   <aside class="card theory-panel"><div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div></aside>
@@ -97,8 +98,8 @@ function lesson(id,index){
  $('#hint-button').onclick=()=>$('#hint').hidden=!$('#hint').hidden;
  $('#check').onclick=ev=>busy(ev.currentTarget,async()=>{
    if(target.value.trim().length<2)throw Error('Сначала напишите или произнесите ответ.');
-   const submitted=target.value,payload={id:requestID,lessonId:id,exerciseId:e.id,answer:submitted,mode:inputMode};stopAudio();await queueDraft(key,submitted,true);const a=await api('/check',payload);
-   await refresh();if($('#answer')===target&&target.value===submitted){$('#feedback').innerHTML=feedbackHTML(a);bindMistakes($('#feedback'));$('#feedback').scrollIntoView({behavior:'smooth',block:'nearest'});}else toast('Разбор предыдущей версии сохранён в журнале.');
+   const submitted=target.value,payload={id:requestID,lessonId:id,exerciseId:practiceID,answer:submitted,mode:inputMode};stopAudio();await queueDraft(key,submitted,true);const a=await api('/check',payload);
+   await refresh();if($('#answer')===target&&target.value===submitted&&currentAuthoredExercise(data.lessons.find(l=>l.id===id),a.exerciseId)){$('#feedback').innerHTML=feedbackHTML(a);bindMistakes($('#feedback'));$('#feedback').scrollIntoView({behavior:'smooth',block:'nearest'});}else toast('Разбор предыдущей версии сохранён в журнале.');
  },data.settings.provider==='offline'?'Сравниваем…':'Разбираем ответ…');
  target.onkeydown=ev=>{if((ev.ctrlKey||ev.metaKey)&&ev.key==='Enter'){ev.preventDefault();$('#check').click();}};
  $('#prev').onclick=()=>{stopAudio();location.hash='/lesson/'+encodeURIComponent(id)+'/'+(n-1);};

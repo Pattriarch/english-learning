@@ -18,6 +18,7 @@ type lexiconItem struct {
 	ID, Word, Kind, Search string
 	Reviewed               bool
 	Prepared               bool
+	FullAnalysisContexts   int
 	Rank                   int
 	Lists, Topics          []string
 	Raw                    json.RawMessage
@@ -52,9 +53,11 @@ func (item lexiconItem) matchingAliases(query string) []lexiconAlias {
 }
 
 type lexiconSnapshot struct {
-	Items    []lexiconItem
-	ByID     map[string]int
-	Metadata map[string]any
+	Items       []lexiconItem
+	ByID        map[string]int
+	Metadata    map[string]any
+	Headwords   map[string][]int
+	TopicGroups map[string]string
 }
 
 type lexiconCache struct {
@@ -93,14 +96,9 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 		Rank           struct{ Value int }
 		Memberships    []struct{ SourceID string }
 		Topics         []struct{ ID, Title string }
-		Contexts       []struct {
-			ID, En, Ru        string
-			SenseID, Quality  string
-			TargetSpans       []lexiconSpan
-			ExcludedFromStudy bool
-		}
-		Senses  []struct{ ID, Definition string }
-		Quality struct{ Status string }
+		Contexts       []lexiconContextFields
+		Senses         []struct{ ID, Definition string }
+		Quality        struct{ Status string }
 	}
 	if err := json.Unmarshal(raw, &entry); err != nil {
 		return lexiconItem{}, err
@@ -125,7 +123,11 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 			continue
 		}
 		active = append(active, c)
-		search = append(search, c.En, c.Ru)
+		search = append(search, c.En, c.Ru, c.MeaningRu, c.Explanation)
+		search = append(search, c.UsageNotes...)
+		for _, combination := range c.Collocations {
+			search = append(search, combination.Text, combination.Ru)
+		}
 	}
 	entry.Contexts = active
 	if len(entry.Contexts) == 0 {
@@ -140,11 +142,18 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 	}
 	previewIndex, preparedContexts := 0, 0
 	for i, c := range entry.Contexts {
-		if strings.TrimSpace(c.Ru) != "" && preparedSenses[c.SenseID] && (c.Quality == "context-reviewed" || c.Quality == "ai-context-reviewed") {
+		prepared := strings.TrimSpace(c.Ru) != "" && preparedSenses[c.SenseID] && (c.Quality == "context-reviewed" || c.Quality == "ai-context-reviewed")
+		if prepared {
 			if preparedContexts == 0 {
 				previewIndex = i
 			}
 			preparedContexts++
+		}
+		if fullLexiconContext(c, prepared) {
+			if item.FullAnalysisContexts == 0 {
+				previewIndex = i
+			}
+			item.FullAnalysisContexts++
 		}
 	}
 	item.Prepared = preparedContexts > 0
@@ -160,6 +169,7 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 	_ = json.Unmarshal(raw, &object)
 	preview := entry.Contexts[previewIndex]
 	item.Summary = map[string]any{"id": item.ID, "word": item.Word, "kind": item.Kind, "rank": object["rank"], "memberships": object["memberships"], "topics": object["topics"], "quality": object["quality"], "contextCount": len(entry.Contexts), "preparedContexts": preparedContexts, "senseCount": len(entry.Senses), "preview": map[string]any{"id": preview.ID, "en": preview.En, "ru": preview.Ru, "targetSpans": preview.TargetSpans}}
+	item.Summary["fullAnalysisContexts"] = item.FullAnalysisContexts
 	for _, field := range []string{"displayHeadword", "lexicalType"} {
 		if value, ok := object[field]; ok {
 			item.Summary[field] = value
@@ -174,7 +184,10 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	defer c.mu.Unlock()
 	dir := filepath.Join(s.content, "lexicon")
 	files := []string{"entries.json", "american-phrases.json", "coca-extension.json", "sources.json", "coverage.json", "scenes.json"}
-	var stamps []string
+	full, stamps, err := readLexiconFullManifest(dir)
+	if err != nil {
+		return nil, err
+	}
 	for _, name := range files {
 		info, err := os.Stat(filepath.Join(dir, name))
 		if err != nil {
@@ -189,6 +202,11 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	stamp := strings.Join(stamps, "|")
 	if stamp == c.stamp && c.snapshot != nil {
 		return c.snapshot, nil
+	}
+	if full != nil {
+		if err := full.loadShards(dir); err != nil {
+			return nil, err
+		}
 	}
 	out := &lexiconSnapshot{ByID: map[string]int{}, Metadata: map[string]any{}}
 	var aliases []lexiconAlias
@@ -208,6 +226,11 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 			out.Metadata[strings.TrimSuffix(name, ".json")] = value
 			continue
 		}
+		if full != nil {
+			if err := full.bindBase(name, raw); err != nil {
+				return nil, err
+			}
+		}
 		var document struct {
 			Version       string
 			TargetVariety string
@@ -221,6 +244,12 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 			return nil, errors.New("invalid context lexicon format")
 		}
 		for _, rawEntry := range document.Entries {
+			if full != nil {
+				rawEntry, err = full.apply(rawEntry)
+				if err != nil {
+					return nil, err
+				}
+			}
 			item, err := readLexiconItem(rawEntry)
 			if err != nil {
 				return nil, err
@@ -235,6 +264,13 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 			aliases = document.Aliases
 			out.Metadata["cocaExtension"] = map[string]any{"sources": document.Sources, "importSummary": document.ImportSummary, "newEntries": len(document.Entries), "aliasCount": len(document.Aliases)}
 		}
+	}
+	if full != nil {
+		metadata, err := full.finish()
+		if err != nil {
+			return nil, err
+		}
+		out.Metadata["fullAnalysis"] = metadata
 	}
 	for _, alias := range aliases {
 		if normalizeLexiconWord(alias.Word) == "" || len(alias.Word) > 200 || strings.ContainsAny(alias.Word, "\r\n\t") || strings.TrimSpace(alias.Relation) == "" || len(alias.Relation) > 2000 || alias.SourceRow < 1 || len(alias.EntryIDs) == 0 {
@@ -256,13 +292,17 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	out.Metadata["targetVariety"] = "en-US"
 	out.Metadata["totalEntries"] = len(out.Items)
 	words, phrases := 0, 0
-	reviewed, prepared := 0, 0
+	reviewed, prepared, fullEntries, fullContexts := 0, 0, 0, 0
 	for _, item := range out.Items {
 		if item.Reviewed {
 			reviewed++
 		}
 		if item.Prepared {
 			prepared++
+		}
+		if item.FullAnalysisContexts > 0 {
+			fullEntries++
+			fullContexts += item.FullAnalysisContexts
 		}
 		if item.Kind == "phrase" {
 			phrases++
@@ -273,28 +313,9 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	out.Metadata["words"], out.Metadata["phrases"] = words, phrases
 	out.Metadata["reviewedEntries"] = reviewed
 	out.Metadata["preparedEntries"] = prepared
-	topicCounts := map[string]map[string]any{}
-	for _, item := range out.Items {
-		var topics []struct{ ID, Title string }
-		if raw, ok := item.Summary["topics"].(json.RawMessage); ok {
-			_ = json.Unmarshal(raw, &topics)
-		}
-		for _, topic := range topics {
-			if topic.ID == "" {
-				continue
-			}
-			if topicCounts[topic.ID] == nil {
-				topicCounts[topic.ID] = map[string]any{"id": topic.ID, "title": topic.Title, "count": 0}
-			}
-			topicCounts[topic.ID]["count"] = topicCounts[topic.ID]["count"].(int) + 1
-		}
-	}
-	topics := []map[string]any{}
-	for _, topic := range topicCounts {
-		topics = append(topics, topic)
-	}
-	sort.Slice(topics, func(i, j int) bool { return topics[i]["title"].(string) < topics[j]["title"].(string) })
-	out.Metadata["topics"] = topics
+	out.Metadata["fullAnalysisEntries"], out.Metadata["fullAnalysisContexts"] = fullEntries, fullContexts
+	out.indexTopics()
+	out.indexHeadwords()
 	c.stamp, c.snapshot = stamp, out
 	return out, nil
 }
@@ -330,7 +351,7 @@ func (s *Server) lexiconList(w http.ResponseWriter, r *http.Request) {
 		return false
 	}
 	for i, item := range all.Items {
-		if q != "" && !strings.Contains(item.Search, q) && len(item.matchingAliases(q)) == 0 || list != "" && !contains(item.Lists, list) || topic != "" && !contains(item.Topics, topic) || kind != "" && item.Kind != kind || preparedOnly && !item.Prepared {
+		if q != "" && !strings.Contains(item.Search, q) && len(item.matchingAliases(q)) == 0 || list != "" && !contains(item.Lists, list) || !all.topicMatches(item.Topics, topic) || kind != "" && item.Kind != kind || preparedOnly && !item.Prepared {
 			continue
 		}
 		matches = append(matches, i)
@@ -355,22 +376,13 @@ func (s *Server) lexiconList(w http.ResponseWriter, r *http.Request) {
 		}
 		return score(all.Items[matches[i]]) > score(all.Items[matches[j]])
 	})
+	groups := all.groupMatches(matches)
 	items := []map[string]any{}
-	offset = min(offset, len(matches))
-	for _, i := range matches[min(offset, len(matches)):min(offset+limit, len(matches))] {
-		item := all.Items[i]
-		summary := item.Summary
-		if forms := item.matchingAliases(q); len(forms) > 0 {
-			// Request-specific annotations must not leak into the cached snapshot.
-			summary = make(map[string]any, len(item.Summary)+1)
-			for key, value := range item.Summary {
-				summary[key] = value
-			}
-			summary["matchedForms"] = forms
-		}
-		items = append(items, summary)
+	offset = min(offset, len(groups))
+	for _, group := range groups[offset:min(offset+limit, len(groups))] {
+		items = append(items, all.headwordSummary(group, q))
 	}
-	jsonResponse(w, 200, map[string]any{"items": items, "total": len(matches), "offset": offset, "limit": limit, "metadata": all.Metadata})
+	jsonResponse(w, 200, map[string]any{"items": items, "total": len(groups), "matchedEntries": len(matches), "offset": offset, "limit": limit, "metadata": all.Metadata})
 }
 
 func (s *Server) lexiconGet(w http.ResponseWriter, r *http.Request) {
@@ -384,5 +396,5 @@ func (s *Server) lexiconGet(w http.ResponseWriter, r *http.Request) {
 		problem(w, 404, errors.New("Слово не найдено"))
 		return
 	}
-	jsonResponse(w, 200, map[string]any{"entry": all.Items[i].Raw, "aliases": all.Items[i].Aliases, "metadata": all.Metadata})
+	jsonResponse(w, 200, map[string]any{"entry": all.Items[i].Raw, "aliases": all.Items[i].Aliases, "siblings": all.headwordMembers(all.Headwords[lexiconHeadword(all.Items[i].Word)], ""), "metadata": all.Metadata})
 }

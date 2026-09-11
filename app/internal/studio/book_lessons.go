@@ -15,11 +15,16 @@ import (
 // Book lessons live outside the learner's progress. A batch can add a lesson
 // atomically while the application is running, without rebuilding bootstrap.
 type parsedBookUnit struct {
-	UnitID string `json:"unitId"`
-	BookID string `json:"bookId"`
-	Pages  []int  `json:"pages"`
-	Text   string `json:"text"`
-	Source string `json:"source"`
+	UnitID    string           `json:"unitId"`
+	BookID    string           `json:"bookId"`
+	Pages     []int            `json:"pages"`
+	Text      string           `json:"text"`
+	Source    string           `json:"source"`
+	PageTexts []parsedBookPage `json:"pageTexts,omitempty"`
+}
+
+type parsedBookPage struct {
+	Page int `json:"page"`
 }
 
 type bookSourceImage struct {
@@ -36,8 +41,10 @@ type bookLesson struct {
 		Source         string `json:"source"`
 		SourceHash     string `json:"sourceHash"`
 		SourceCoverage []struct {
-			Point        string `json:"point"`
-			SectionTitle string `json:"sectionTitle"`
+			PointID      string   `json:"pointId,omitempty"`
+			Point        string   `json:"point"`
+			SectionTitle string   `json:"sectionTitle"`
+			ExerciseIDs  []string `json:"exerciseIds,omitempty"`
 		} `json:"sourceCoverage"`
 		Warnings         []string          `json:"warnings"`
 		VisualSourceUsed bool              `json:"visualSourceUsed,omitempty"`
@@ -86,8 +93,15 @@ func (s *Server) parsedBookSource(id string) (parsedBookUnit, bool) {
 	var source parsedBookUnit
 	err := readBookJSON(filepath.Join(s.content, "..", "data", "parsed-books", id+".json"), &source)
 	valid := err == nil && source.UnitID == id && source.BookID == entry.Book.ID &&
-		len(source.Pages) == 2 && source.Pages[0] == entry.Unit.Page && source.Pages[1] == entry.Unit.EndPage &&
+		entry.Unit.matchesSourcePages(source.Pages) &&
 		strings.TrimSpace(source.Text) != "" && (source.Source == "text-layer-layout" || source.Source == "ocr")
+	if source.PageTexts != nil {
+		pages := make([]int, len(source.PageTexts))
+		for i, page := range source.PageTexts {
+			pages[i] = page.Page
+		}
+		valid = valid && entry.Unit.matchesSourcePages(pages)
+	}
 	return source, valid
 }
 
@@ -111,8 +125,7 @@ func (s *Server) loadBookLessonWithRelease(id string, release *bookRelease) (boo
 	entry := s.libraryUnits[id]
 	p := lesson.Provenance
 	if lesson.ID != "book-"+id || p.UnitID != id || p.BookID != entry.Book.ID ||
-		!validBookSHA256(p.SourceHash) || len(p.Pages) != 2 ||
-		p.Pages[0] != entry.Unit.Page || p.Pages[1] != entry.Unit.EndPage ||
+		!validBookSHA256(p.SourceHash) || !entry.Unit.matchesSourcePages(p.Pages) ||
 		(p.Source != "text-layer-layout" && p.Source != "ocr") {
 		return lesson, errors.New("lesson source needs review")
 	}
@@ -126,9 +139,25 @@ func (s *Server) loadBookLessonWithRelease(id string, release *bookRelease) (boo
 	for _, section := range lesson.Sections {
 		sectionTitles[section.Title] = true
 	}
+	exerciseIDs := map[string]bool{}
+	for _, exercise := range lesson.Exercises {
+		exerciseIDs[exercise.ID] = true
+	}
+	pointIDs := map[string]bool{}
 	for _, coverage := range p.SourceCoverage {
 		if strings.TrimSpace(coverage.Point) == "" || !sectionTitles[coverage.SectionTitle] {
 			return lesson, errors.New("unmapped source teaching point")
+		}
+		if lesson.StudyPlan != nil {
+			if !safeID.MatchString(coverage.PointID) || pointIDs[coverage.PointID] || len(coverage.ExerciseIDs) == 0 {
+				return lesson, errors.New("source point needs a unique ID and practice")
+			}
+			pointIDs[coverage.PointID] = true
+			for _, id := range coverage.ExerciseIDs {
+				if !exerciseIDs[id] {
+					return lesson, errors.New("source point refers to missing practice")
+				}
+			}
 		}
 	}
 	// The portable release only substitutes absent private artifacts. A source
@@ -144,8 +173,11 @@ func (s *Server) loadBookLessonWithRelease(id string, release *bookRelease) (boo
 			return lesson, errors.New("lesson source needs review")
 		}
 	}
+	if !p.VisualSourceUsed && len(p.SourceImages) > 0 {
+		return lesson, errors.New("unverified source image metadata")
+	}
 	if p.VisualSourceUsed {
-		if len(p.SourceImages) != 2 {
+		if len(p.SourceImages) != len(p.Pages) {
 			return lesson, errors.New("missing source images")
 		}
 		for i, sourceImage := range p.SourceImages {
@@ -178,8 +210,31 @@ func (s *Server) loadBookLessonWithRelease(id string, release *bookRelease) (boo
 // question open while its lesson is replaced, so the exercise's ID alone is not
 // enough to identify the question that their answer belongs to.
 func bookExerciseVersion(exercise Exercise) string {
+	return bookExerciseVersionWithMaterials(exercise, nil)
+}
+
+func bookExerciseVersionWithMaterials(exercise Exercise, materials []LessonMaterial) string {
 	fields := []string{exercise.Kind, exercise.Prompt, exercise.Context, exercise.Hint, exercise.Explanation, strings.Join(exercise.Answers, "\x1e")}
-	hash := sha256.Sum256([]byte(strings.Join(fields, "\x1f")))
+	value := strings.Join(fields, "\x1f")
+	wanted := make(map[string]bool, len(exercise.MaterialIDs))
+	for _, id := range exercise.MaterialIDs {
+		wanted[id] = true
+	}
+	var linked []string
+	for _, m := range materials {
+		if !wanted[m.ID] {
+			continue
+		}
+		figure := LessonFigure{}
+		if m.Figure != nil {
+			figure = *m.Figure
+		}
+		linked = append(linked, strings.Join([]string{m.ID, m.Title, m.Kind, m.Text, m.Source, m.SourceURL, m.AudioFile, m.InputSkill, figure.ID, figure.Format, figure.Alt, figure.Caption}, "\x1d"))
+	}
+	if len(linked) > 0 {
+		value += "\x1fmaterials-v1\x1f" + strings.Join(linked, "\x1e")
+	}
+	hash := sha256.Sum256([]byte(value))
 	return hex.EncodeToString(hash[:8])
 }
 
@@ -196,7 +251,7 @@ func (s *Server) bookExercise(lessonID, exerciseID string) (Lesson, Exercise, bo
 			if exercise.ID == exerciseID {
 				return lesson.Lesson, exercise, true
 			}
-			if separator >= 0 && exercise.ID == baseID && version == bookExerciseVersion(exercise) {
+			if separator >= 0 && exercise.ID == baseID && version == bookExerciseVersionWithMaterials(exercise, lesson.Materials) {
 				exercise.ID = exerciseID
 				return lesson.Lesson, exercise, true
 			}

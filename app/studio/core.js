@@ -1,3 +1,4 @@
+import {authoredLessonState} from './authored-exercise.js';
 import {icon} from './icons.js';
 export {icon};
 export const $=(q,root=document)=>root.querySelector(q);
@@ -21,27 +22,45 @@ export async function busy(button,fn,label='Подождите…'){
   try{return await fn();}catch(e){toast(e.message,true);return null;}finally{button.disabled=false;button.innerHTML=original;}
 }
 export function saveStatus(ok,text){const el=$('#save-status');if(el){el.className='save-status'+(ok?'':' error');el.innerHTML=icon(ok?'check':'clock')+esc(text||(ok?'Прогресс сохранён':'Не удалось сохранить'));}}
-let draftQueue=Promise.resolve();const pending=new Map();
+let draftQueue=Promise.resolve();const pending=new Map(),draftEpochs=new Map(),draftLocalVersions=new Map(),confirmedPending=new Map();
 export function localDraft(key){try{return JSON.parse(localStorage.getItem('ew-draft:'+key)||'null');}catch{return null;}}
 export function getDraft(key,state){const local=localDraft(key),server=state.drafts[key],localTime=Date.parse(local?.at),serverTime=Date.parse(server?.at);return(local&&Number.isFinite(localTime)&&(local.pending===true||!server||!Number.isFinite(serverTime)||localTime>serverTime)?local:server)?.text||'';}
 export function queueDraft(key,text,immediate=false){
+  const epoch=draftEpochs.get(key)||0;
+  draftLocalVersions.set(key,(draftLocalVersions.get(key)||0)+1);
   const draft={text,at:new Date().toISOString(),pending:true};try{localStorage.setItem('ew-draft:'+key,JSON.stringify(draft));}catch{toast('Хранилище браузера заполнено. Проверьте сохранение на сервере.',true);}
   clearTimeout(pending.get(key));saveStatus(true,'Сохраняем…');
-  const run=()=>{pending.delete(key);draftQueue=draftQueue.catch(()=>{}).then(async()=>{try{const saved=await api('/draft',{key,text}),accepted=saved.draft?.text===text&&Number.isFinite(Date.parse(saved.draft.at))?saved.draft:null;const latest=localDraft(key);if(latest?.at===draft.at&&latest.text===text){try{localStorage.setItem('ew-draft:'+key,JSON.stringify({...draft,at:accepted?.at||draft.at,pending:false}));}catch{}}saveStatus(true);}catch(e){saveStatus(false,'Черновик в браузере');}});return draftQueue;};
+  const run=()=>{pending.delete(key);draftQueue=draftQueue.catch(()=>{}).then(async()=>{if(epoch!==(draftEpochs.get(key)||0))return;try{const saved=await api('/draft',{key,text}),accepted=saved.draft?.text===text&&Number.isFinite(Date.parse(saved.draft.at))?saved.draft:null;const latest=localDraft(key);if(latest?.at===draft.at&&latest.text===text){try{localStorage.setItem('ew-draft:'+key,JSON.stringify({...draft,at:accepted?.at||draft.at,pending:false}));}catch{}}saveStatus(true);}catch(e){saveStatus(false,'Черновик в браузере');}});return draftQueue;};
   if(immediate)return run();pending.set(key,setTimeout(run,600));
+}
+// For ordered plan/archive writes, ordinary offline autosave is insufficient.
+// Stage no local replacement until the exact server draft is acknowledged.
+export function saveDraftConfirmed(key,text){
+  clearTimeout(pending.get(key));pending.delete(key);
+  const epoch=(draftEpochs.get(key)||0)+1;draftEpochs.set(key,epoch);confirmedPending.set(key,epoch);
+  const before=localDraft(key),localVersion=draftLocalVersions.get(key)||0;saveStatus(true,'Сохраняем…');
+  const operation=draftQueue.catch(()=>{}).then(async()=>{
+    if(draftEpochs.get(key)!==epoch)throw Error('Сохранение заменено более новым действием.');
+    const response=await api('/draft',{key,text}),saved=response.draft;
+    if(saved?.text!==text||!Number.isFinite(Date.parse(saved.at)))throw Error('Сервер не подтвердил сохранение плана. Попробуй ещё раз.');
+    const latest=localDraft(key);
+    if((draftLocalVersions.get(key)||0)===localVersion&&latest?.text===before?.text){
+      try{localStorage.setItem('ew-draft:'+key,JSON.stringify({...saved,pending:false}));}catch{}
+    }
+    saveStatus(true);return saved;
+  }).catch(error=>{saveStatus(false,'Не удалось подтвердить сохранение');throw error;}).finally(()=>{if(confirmedPending.get(key)===epoch)confirmedPending.delete(key);});
+  draftQueue=operation.catch(()=>{});return operation;
 }
 export function retryPendingDrafts(){
   const saves=[];
-  try{for(let i=0;i<localStorage.length;i++){const storageKey=localStorage.key(i);if(!storageKey?.startsWith('ew-draft:'))continue;const key=storageKey.slice(9),draft=localDraft(key);if(draft?.pending===true&&typeof draft.text==='string')saves.push(queueDraft(key,draft.text,true));}}catch{}
+  try{for(let i=0;i<localStorage.length;i++){const storageKey=localStorage.key(i);if(!storageKey?.startsWith('ew-draft:'))continue;const key=storageKey.slice(9),draft=localDraft(key);if(!confirmedPending.has(key)&&draft?.pending===true&&typeof draft.text==='string')saves.push(queueDraft(key,draft.text,true));}}catch{}
   return Promise.all(saves);
 }
 export function button(text,action,cls='',iconName=''){return `<button class="btn ${cls}" data-action="${action}">${iconName?icon(iconName):''}${text}</button>`;}
 export function empty(title,body,action=''){return `<div class="empty">${icon('pen')}<h3>${esc(title)}</h3><p>${esc(body)}</p>${action}</div>`;}
 export function progressLesson(l,state){
-  const valid=new Set(l.exercises.map(e=>e.id));
-  const attempts=state.attempts.filter(a=>a.lessonId===l.id&&valid.has(a.exerciseId)),tried=new Set(attempts.map(a=>a.exerciseId));
-  const latest=new Map();for(const a of attempts)latest.set(a.exerciseId,a);
-  const correct=[...latest.values()].filter(a=>a.feedback.verdict==='correct').length;
+  const {latest,tried}=authoredLessonState(l,state.attempts);
+  const correct=[...latest.values()].filter(a=>a.feedback?.verdict==='correct').length;
   return{tried:tried.size,correct,total:l.exercises.length,read:!!state.read[l.id],done:correct>=Math.ceil(l.exercises.length*.8)&&tried.size>=l.exercises.length};
 }
 export function feedbackHTML(a){

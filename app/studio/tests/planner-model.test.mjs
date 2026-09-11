@@ -1,7 +1,8 @@
+import {authoredExerciseID,currentAuthoredExercise} from '../authored-exercise.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync} from 'node:fs';
-import {createDailyPlan,dailyPlanProgress,weeklySummary} from '../planner-model.js';
+import {createDailyPlan,dailyPlanProgress,weeklySummary,optionalBookPractice} from '../planner-model.js';
 
 process.env.TZ='Europe/Moscow';
 const now=new Date(2026,8,10,12,0,0),day='2026-09-10';
@@ -27,10 +28,20 @@ test('authentic recordings enter the listening plan and do not create grammar ev
  const natural={...lesson('natural-b2-leadership','B2'),materials:[{id:'m1',kind:'reference',inputSkill:'listening'}],exercises:[{id:'e1',kind:'write',materialIds:['m1']}]};
  const data={lessons:[lesson('path-listening','B2'),natural],state:{attempts:[]}};
  assert.equal(createDailyPlan(data,{level:'B2',minutes:120},now).blocks.find(b=>b.skill==='listening').href,'#/lesson/natural-b2-leadership/0');
+ assert.notEqual(createDailyPlan(data,{level:'B2',minutes:120},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/natural-b2-leadership','a recording is not also a new grammar chapter');
  data.state.attempts=[answer(natural.id,'e1')];
  const skills=weeklySummary(data,now).skills;
  assert.equal(skills.find(s=>s.id==='listening').count,1);
  assert.equal(skills.find(s=>s.id==='grammar').count,0);
+});
+
+test('a mixed input task appears in one daily block while distinct tasks in the same lesson remain usable',()=>{
+ const mixed={...lesson('mixed-input'),materials:[{id:'read',kind:'reading'},{id:'listen',kind:'listening'}],exercises:[
+  {id:'both',kind:'write',materialIds:['read','listen']},{id:'listen-only',kind:'write',materialIds:['listen']}]};
+ const p=createDailyPlan({lessons:[mixed]}, {minutes:120},now),reading=p.blocks.find(b=>b.skill==='reading'),listening=p.blocks.find(b=>b.skill==='listening');
+ assert.deepEqual(reading.target.exerciseIds,['both']);assert.deepEqual(listening.target.exerciseIds,['listen-only']);
+ const identities=p.blocks.flatMap(b=>(b.target.lessonIds||[]).flatMap(id=>(b.target.exerciseIds||[]).map(ex=>JSON.stringify([id,ex]))));
+ assert.equal(new Set(identities).size,identities.length);
 });
 
 test('all durations balance the budget; long days include input, output and bounded review',()=>{
@@ -69,15 +80,34 @@ test('weak data produces usable destinations and a serializable validated snapsh
  }
 });
 
-test('book planner only selects ready canonical units and continues unanswered work',()=>{
- const data=bookData();data.state.read={'grammar-intermediate-001':at(-1)};
- assert.equal(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar').href,'#/unit/grammar-intermediate-001');
+test('the primary authored topic leads; only started canonical source books appear as optional practice',()=>{
+ const data=bookData();data.lessons=[lesson('main-topic')];data.state.read={'grammar-intermediate-001':at(-1)};
+ assert.equal(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/main-topic');
+ assert.deepEqual(optionalBookPractice(data),[],'a read flag does not auto-start a parallel textbook course');
  data.state.attempts=[answer('free','book-grammar-intermediate-003-e1--0123456789abcdef',{at:at(-1)})];
- data.bookLessons=[{id:'book-grammar-intermediate-003',exercises:[{id:'e1'},{id:'e2'},{id:'e3'}]}];
+ data.bookLessons=[{id:'book-grammar-intermediate-003',exercises:[{id:'e1--0123456789abcdef'},{id:'e2'},{id:'e3'}]}];
  const b=createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar');
- assert.equal(b.href,'#/unit/grammar-intermediate-003');assert.deepEqual(b.target.exerciseIds,['e2','e3']);
+ assert.equal(b.href,'#/lesson/main-topic');assert.equal(optionalBookPractice(data)[0].href,'#/unit/grammar-intermediate-003');
  data.state.attempts.push(answer('book-grammar-intermediate-003','e2',{at:at(-1)}),answer('book-grammar-intermediate-003','e3',{at:at(-1)}));
- assert.equal(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar').href,'#/unit/grammar-intermediate-001','all submitted ungraded tasks must allow moving to another topic');
+ assert.equal(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/main-topic');
+ assert.equal(optionalBookPractice(data)[0].covered,true,'ungraded answers remain available for optional correction');
+ data.state.attempts.forEach(a=>a.feedback={verdict:'correct'});assert.deepEqual(optionalBookPractice(data),[]);
+ data.state.attempts=[answer('book-grammar-intermediate-ebook-001','e1')];
+ assert.deepEqual(optionalBookPractice(data).map(item=>item.id),['grammar-intermediate-001'],'another edition keeps a single canonical continuation');
+});
+
+test('overview topics stay optional, deeper outcomes remain new work, and input reuse is labeled retention',()=>{
+ const overview=lesson('overview'),primary=lesson('primary'),deeper=lesson('deeper'),input={...lesson('longform-reading'),exercises:[{id:'e1',kind:'write'}]};
+ const data={lessons:[overview,primary,deeper,input],studyRoute:{version:1,overviewLessonIds:['overview'],deepening:[{lessonId:'deeper',afterLessonId:'primary',reason:'A distinct output skill.'}]},state:{attempts:[]}};
+ assert.equal(createDailyPlan(data,{minutes:120},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/primary');
+ data.state.attempts=primary.exercises.map(ex=>answer(primary.id,ex.id,{feedback:{verdict:'correct'}}));
+ assert.equal(createDailyPlan(data,{minutes:120},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/deeper','finishing the prerequisite does not credit deeper work');
+ data.state.attempts.push(answer(input.id,'e1',{feedback:{verdict:'correct'}}));
+ const reading=createDailyPlan(data,{minutes:120},now).blocks.find(b=>b.skill==='reading');
+ assert.match(reading.title,/^Повторение:/);assert.match(reading.why,/не добавляет новую тему/);
+ assert.equal(reading.href,'#/lesson/longform-reading/0');
+ const historical=plan([block('grammar',{kind:'attempts',count:1,lessonIds:['overview'],exerciseIds:['e1']})]),before=JSON.stringify(historical);
+ assert.equal(dailyPlanProgress(historical,{attempts:[answer('overview','e1')]}).blocks[0].automatic,true);assert.equal(JSON.stringify(historical),before);
 });
 
 test('fallback follows learning-path level order; read is not completion',()=>{
@@ -85,6 +115,29 @@ test('fallback follows learning-path level order; read is not completion',()=>{
  assert.equal(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/first');
  data.state.attempts=['e1','e2','e3'].map(id=>answer('first',id,{at:at(-1)}));
  assert.equal(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/later');
+});
+
+test('the next grammar step advances through home levels without repeating completed introductions or changing the learner setting',()=>{
+ const first=lesson('first-topic','B1'),second=lesson('next-topic','B2'),last=lesson('later-topic','C1');
+ const data={lessons:[last,second,first],state:{attempts:first.exercises.map(ex=>answer(first.id,ex.id))}};
+ const result=createDailyPlan(data,{level:'B1',minutes:120},now),grammar=result.blocks.find(b=>b.skill==='grammar');
+ assert.equal(grammar.href,'#/lesson/next-topic');assert.match(grammar.title,/Следующий шаг · B2/);
+ assert.equal(result.level,'B1','a new grammar chapter does not award a learner level');
+ data.state.attempts.push(answer(last.id,'e1'));
+ assert.equal(createDailyPlan(data,{level:'B1',minutes:120},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/next-topic','a sampled higher chapter does not jump the remaining sequence');
+ data.state.attempts.push(...second.exercises.map(ex=>answer(second.id,ex.id)));
+ assert.equal(createDailyPlan(data,{level:'B1',minutes:120},now).blocks.find(b=>b.skill==='grammar').href,'#/lesson/later-topic');
+});
+
+test('authored grammar and input lessons enter only their canonical home level, while saved plans keep their evidence',()=>{
+ const first={...lesson('shared-topic','B1–C2')},next=lesson('advanced-topic','C2'),input={...lesson('shared-listening','B2–C2'),materials:[{id:'m1',kind:'listening'}],exercises:[{id:'e1',kind:'write',materialIds:['m1']}]},advancedInput={...input,id:'advanced-listening',level:'C2'};
+ const data={lessons:[first,next,input,advancedInput],learningPath:{levels:[{id:'C2',lessonIds:[first.id,input.id,next.id,advancedInput.id]},{id:'B1',lessonIds:[first.id]},{id:'B2',lessonIds:[input.id]}]},state:{attempts:[]}};
+ const early=createDailyPlan(data,{level:'B1',minutes:120},now),saved=JSON.stringify(early),advanced=createDailyPlan(data,{level:'C2',minutes:120},now);
+ assert.equal(early.blocks.find(b=>b.skill==='grammar').href,'#/lesson/shared-topic');
+ assert.equal(advanced.blocks.find(b=>b.skill==='grammar').href,'#/lesson/advanced-topic');
+ assert.equal(advanced.blocks.find(b=>b.skill==='listening').href,'#/lesson/advanced-listening/0');
+ data.state.attempts=['e1','e2','e3'].map(id=>answer(first.id,id));
+ assert.equal(dailyPlanProgress(early,data.state).blocks.find(b=>b.skill==='grammar').automatic,true);assert.equal(JSON.stringify(early),saved);
 });
 
 test('prepared advanced input takes precedence and covered lessons rotate without claiming mastery',()=>{
@@ -185,6 +238,50 @@ test('corrections require a genuinely new answer after the original error',()=>{
  assert.equal(dailyPlanProgress(p,data.state).blocks.find(b=>b.skill==='review').done,true,'effort counts even when a correction still needs work');
 });
 
+test('new book correction plans bind to the current task version and retain obsolete work only in history',()=>{
+ const id='book-grammar-intermediate-003',oldID='e1--0123456789abcdef',currentID='e1--fedcba9876543210';
+ const old=answer(id,oldID,{at:at(-1),feedback:{verdict:'incorrect'}}),data=bookData();
+ data.bookLessons=[{id,exercises:[{id:currentID,kind:'write'}]}];data.state.attempts=[old];
+ assert.notEqual(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='review').target.kind,'corrections','an obsolete task cannot be submitted from the current lesson');
+ assert.deepEqual(data.state.attempts,[old],'the original question and feedback remain in history');
+ const original=answer('free',id+'-'+currentID,{feedback:{verdict:'partial'}});data.state.attempts.push(original);
+ const saved=createDailyPlan(data,{},now),review=saved.blocks.find(b=>b.skill==='review'),before=JSON.stringify(saved);
+ assert.equal(review.target.kind,'corrections');assert.equal(review.target.exactExerciseIds,true);
+ assert.deepEqual(review.target.tasks.map(t=>[t.lessonId,t.exerciseId]),[[id,currentID]]);
+ const progress=attempts=>dailyPlanProgress(saved,{attempts}).blocks.find(b=>b.skill==='review').current;
+ assert.equal(progress([original]),0,'the error itself is not its correction');
+ assert.equal(progress([original,answer(id,oldID,{at:at(0,11)})]),0,'another source version cannot satisfy the target');
+ assert.equal(progress([original,answer(id,currentID,{at:at(-1)})]),0,'an older answer is not a correction');
+ assert.equal(progress([original,answer(id,currentID,{at:at(0,11)})]),1);
+ assert.equal(progress([original,answer('free',id+'-'+currentID,{at:at(0,11)})]),1,'the historical free envelope preserves the same full identity');
+ assert.equal(dailyPlanProgress({...saved,day:undefined},{attempts:[answer(id,currentID,{at:at(0,11)})]}).blocks.find(b=>b.skill==='review').current,0);
+ assert.equal(JSON.stringify(saved),before,'progress reads do not migrate saved plans');
+ data.bookLessons[0].exercises[0].id='e1--1111111111111111';
+ assert.notEqual(createDailyPlan(data,{},now).blocks.find(b=>b.skill==='review').target.kind,'corrections');
+});
+
+test('explicit exact attempt targets reject old book hashes while legacy snapshots keep their original matching',()=>{
+ const id='book-grammar-intermediate-003',current='e1--fedcba9876543210',old='e1--0123456789abcdef';
+ const spec={kind:'attempts',count:1,lessonIds:[id],exerciseIds:[current],exactExerciseIds:true};
+ const saved=plan([block('writing',spec)]),oldAnswer=answer(id,old),latest=answer('free',id+'-'+current);
+ assert.equal(dailyPlanProgress(saved,{attempts:[oldAnswer]}).done,0);
+ assert.equal(dailyPlanProgress(saved,{attempts:[latest]}).done,1);
+ assert.equal(dailyPlanProgress(saved,{attempts:[latest,answer(id,current,{at:at(0,11)})]}).blocks[0].current,1);
+ const legacy=plan([block('writing',{...spec,exactExerciseIds:undefined})]);
+ assert.equal(dailyPlanProgress(legacy,{attempts:[oldAnswer]}).done,1,'unflagged saved snapshots are not reinterpreted');
+ const correction={kind:'corrections',count:1,tasks:[{lessonId:id,exerciseId:'e1',after:at(-1)}]};
+ assert.equal(dailyPlanProgress(plan([block('review',correction)]),{attempts:[latest]}).done,1,'legacy correction snapshots retain their historical base-ID contract');
+});
+
+test('optional book continuation is not hidden by success on an obsolete source version',()=>{
+ const data=bookData(),id='book-grammar-intermediate-003',oldID='e1--0123456789abcdef',currentID='e1--fedcba9876543210';
+ data.bookLessons=[{id,exercises:[{id:currentID,kind:'write'}]}];
+ data.state.attempts=[answer(id,oldID,{feedback:{verdict:'correct'}})];
+ assert.deepEqual(optionalBookPractice(data).map(r=>[r.id,r.covered]),[['grammar-intermediate-003',false]]);
+ data.state.attempts.push(answer(id,currentID,{feedback:{verdict:'correct'}}));
+ assert.deepEqual(optionalBookPractice(data),[]);
+});
+
 test('manual completion stays separate, is day scoped, and totals use planned minutes',()=>{
  const p=plan([block('writing',{kind:'attempts',count:1}),block('speaking',{kind:'manual',count:1})]);
  const result=dailyPlanProgress(p,{}, {writing:{done:true,at:at(),source:'outside'},speaking:{done:true,at:at(-1)}});
@@ -221,8 +318,8 @@ test('real curriculum snapshots fit the existing server draft limit for every le
   for(const b of p.blocks.filter(b=>b.href.startsWith('#/lesson/'))) {
    const selected=lessons.find(l=>b.href.split('/')[2]===l.id);assert.ok(selected);
    if(['reading','listening'].includes(b.skill)) {
-    assert.ok(b.target.exerciseIds.every(id=>['write','speak'].includes(selected.exercises.find(e=>e.id===id)?.kind)),'introductory translations cannot complete comprehension practice');
-    assert.equal(selected.exercises[Number(b.href.split('/')[3])].id,b.target.exerciseIds[0]);
+    assert.ok(b.target.exerciseIds.every(id=>['write','speak'].includes(currentAuthoredExercise(selected,id)?.kind)),'introductory translations cannot complete comprehension practice');
+    assert.equal(authoredExerciseID(selected.exercises[Number(b.href.split('/')[3])]),b.target.exerciseIds[0]);
    }
   }
  }

@@ -127,6 +127,49 @@ class BookReleaseTests(unittest.TestCase):
         self.assertEqual(json.loads(path.read_text()), {"preserved": True})
         self.assertEqual(list(self.content.glob("book-release-*.tmp")), [])
 
+    def test_long_chapter_release_requires_every_middle_page(self):
+        pages = [10, 11, 12, 13, 14]
+        catalog_path = self.content / "library.json"
+        catalog = json.loads(catalog_path.read_text())
+        catalog["books"][0]["units"][0]["endPage"] = 14
+        release.atomic_json(catalog_path, catalog)
+        self.source["pages"] = pages
+        self.source["pageTexts"] = [{"page": page, "text": "Private text."} for page in pages]
+        release.atomic_json(self.sources / f"{self.id}.json", self.source)
+        provenance = self.lesson["provenance"]
+        provenance["pages"] = pages
+        provenance["visualCoverage"] = [{"page": page, "observations": "На странице видны контрастные формы и контекст использования грамматического времени."} for page in pages]
+        provenance["sourceImages"] = []
+        for page in pages:
+            image = b"\xff\xd8" + f"full chapter page {page}".encode() + b"\xff\xd9"
+            (self.images / "grammar" / f"{page}.jpg").write_bytes(image)
+            provenance["sourceImages"].append({"page": page, "sha256": release.digest(image)})
+        release.atomic_json(self.lesson_path, self.lesson)
+        manifest, rejected = self.build()
+        self.assertFalse(rejected)
+        self.assertEqual(manifest["units"][self.id]["pages"], pages)
+        image = self.images / "grammar/12.jpg"
+        image.write_bytes(b"\xff\xd8changed middle image\xff\xd9")
+        manifest, rejected = self.build()
+        self.assertEqual(manifest["ready"], 0)
+        self.assertIn("image changed", rejected[self.id])
+        del provenance["sourceImages"][2]
+        release.atomic_json(self.lesson_path, self.lesson)
+        manifest, rejected = self.build()
+        self.assertEqual(manifest["ready"], 0)
+        self.assertIn("Every source page", rejected[self.id])
+
+    def test_long_catalog_rejects_old_endpoint_source(self):
+        catalog_path = self.content / "library.json"
+        catalog = json.loads(catalog_path.read_text())
+        catalog["books"][0]["units"][0]["endPage"] = 14
+        release.atomic_json(catalog_path, catalog)
+        self.source["pages"] = [10, 14]
+        release.atomic_json(self.sources / f"{self.id}.json", self.source)
+        manifest, rejected = self.build()
+        self.assertEqual(manifest["ready"], 0)
+        self.assertIn(self.id, rejected)
+
 
 if __name__ == "__main__":
     unittest.main()

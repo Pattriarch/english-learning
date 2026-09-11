@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {exerciseMaterials,materialHTML,materialFigureHTML,materialTextHTML,materialSourceHTML} from '../lesson-materials.js';
+import {exerciseMaterials,materialHTML,materialFigureHTML,materialTextHTML,materialSourceHTML,originalMaterialAudioURL} from '../lesson-materials.js';
 import {studyUI} from './study-ui-fixture.mjs';
 
 test('authentic sources use safe source links and local audio without a synthetic substitute',()=>{
@@ -107,4 +107,43 @@ test('Listening begins with a hidden transcript while reading exposes the comple
  const reference=materialHTML({...material,kind:'reference'},0,state,'lesson');
  assert.doesNotMatch(reference,/data-material-play|data-material-audio/,'Reference forms and phonetic notation are not offered as spoken input');
  assert.doesNotMatch(reference,/data-material-text="0" hidden/);
+});
+
+test('coursebook recordings have original playback only and never gain a second synthetic listening button',()=>{
+ const material={id:'clear-speech',kind:'listening',inputSkill:'listening',title:'Classroom recording',text:'A full original transcript.',source:'Clear Speech Student Audio',audioFile:'/book-recordings/clear-speech-unit-01-track-01.mp3'};
+ const html=materialHTML(material,0,{drafts:{}},'book-unit');
+ assert.match(html,/data-natural-audio="0"/);assert.match(html,/clear-speech-unit-01-track-01\.mp3/);
+ assert.match(html,/Из добавленного тобой аудиокомплекта учебника/);
+ assert.match(html,/data-material-text="0" hidden/);
+ assert.doesNotMatch(html,/data-material-play|data-material-audio|Kokoro/);
+ for(const audioFile of ['https://example.org/audio.mp3','/book-recordings/../private.mp3','/book-recordings/track.mp3?file=private','/book-recordings/track.wav','/book-recordings/nested/track.mp3']){
+  assert.equal(originalMaterialAudioURL({...material,audioFile}),'');
+  const invalid=materialHTML({...material,audioFile},0,{drafts:{}},'book-unit');
+  assert.doesNotMatch(invalid,/data-natural-audio|data-material-play/);
+  assert.match(invalid,/Запись источника пока недоступна/);
+ }
+});
+
+test('an unavailable classroom recording is explained without silently speaking its transcript',async t=>{
+ const f=await studyUI(t,'lesson-materials.js'),lesson=audioLesson();
+ Object.assign(lesson.materials[0],{inputSkill:'listening',audioFile:'/book-recordings/classroom-track.mp3'});
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});
+ const player=f.root.querySelector('[data-natural-audio]'),status=f.root.querySelector('[data-natural-status="0"]');
+ assert.equal(status.hidden,true);player.onerror();assert.equal(status.hidden,false);
+ assert.match(status.textContent,/Не удалось открыть оригинальную запись/);assert.equal(f.spoken.length,0);
+});
+
+test('clearing attached materials invalidates pending synthesis and disconnects old original-audio events',async t=>{
+ const f=await studyUI(t,'lesson-materials.js'),lesson=audioLesson();
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});
+ await f.root.querySelector('[data-material-play]').click();const options=f.spoken[0][3];
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:[]},{drafts:{}});
+ assert.equal(f.root.hidden,true);assert.equal(f.root.innerHTML,'');assert.equal(options.isCurrent(),false);
+ Object.assign(lesson.materials[0],{inputSkill:'listening',audioFile:'/book-recordings/classroom-track.mp3'});
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:['m1']},{drafts:{}});
+ const old=f.root.querySelector('[data-natural-audio]');let played=0,paused=0;
+ old.play=async()=>played++;old.pause=()=>paused++;
+ f.module.mountLessonMaterials(f.root,lesson,{materialIds:[]},{drafts:{}});
+ await old.onplay();assert.equal(played,0);assert.equal(paused,1);
+ assert.doesNotThrow(()=>old.onerror());
 });

@@ -1,5 +1,5 @@
 import {readFile} from 'node:fs/promises';
-import {esc,icon,feedbackHTML,progressLesson,formatDate,mediaURL,empty,clipUTF8} from '../core.js';
+import {esc,icon,feedbackHTML,progressLesson,formatDate,dateKey,mediaURL,empty,clipUTF8} from '../core.js';
 
 // Minimal DOM for exercising the real event handlers without a browser or real
 // profile. Replacing innerHTML disconnects old controls, as a route redraw does.
@@ -34,12 +34,12 @@ class Element {
   click(){if(!this.disabled)return this.onclick?.({currentTarget:this});}
 }
 
-export async function studyUI(t,file,moduleMocks={}){
+export async function studyUI(t,file,moduleMocks={},transform=source=>source){
   const root=new Element(),local=new Map(),alerts=[],requests=[];let generation=0,request=0;
-  const spoken=[],fixture={root,local,alerts,requests,spoken,api:async()=>({}),fetch:async()=>({ok:false}),speak:async(...args)=>{spoken.push(args);},voice:async()=>{},recordOnly:async()=>{},queueDraft:async()=>{},stopAudio:()=>{generation++;}};
-  const core={esc,icon,feedbackHTML,progressLesson,formatDate,mediaURL,empty,clipUTF8,$:(q,node)=>node?node.querySelector(q):root.querySelector(q)||fixture.modal?.querySelector(q),$$:(q,node=root)=>node.querySelectorAll(q),toast:(message)=>alerts.push(message),uid:()=>`request-${++request}`,words:text=>text.trim().split(/\s+/).filter(Boolean).length,bindMistakes(){},cardModal(){},openModal(_title,html){fixture.modal=new Element();fixture.modal.innerHTML=html;return fixture.modal;},
+  const spoken=[],fixture={root,local,alerts,requests,spoken,api:async()=>({}),fetch:async()=>({ok:false}),speak:async(...args)=>{spoken.push(args);},voice:async()=>{},recordOnly:async()=>{},queueDraft:async()=>{},saveDraftConfirmed:async(_key,text)=>({text,at:new Date().toISOString()}),stopAudio:()=>{generation++;}};
+  const core={esc,icon,feedbackHTML,progressLesson,formatDate,dateKey,mediaURL,empty,clipUTF8,$:(q,node)=>node?node.querySelector(q):root.querySelector(q)||fixture.modal?.querySelector(q),$$:(q,node=root)=>node.querySelectorAll(q),toast:(message)=>alerts.push(message),uid:()=>`request-${++request}`,words:text=>text.trim().split(/\s+/).filter(Boolean).length,bindMistakes(){},cardModal(){},openModal(_title,html){fixture.modal=new Element();fixture.modal.innerHTML=html;return fixture.modal;},
     localDraft:key=>local.has(key)?{text:local.get(key)}:null,getDraft:(key,state)=>local.get(key)??state.drafts[key]?.text??'',
-    queueDraft:async(key,text,immediate)=>{local.set(key,text);return fixture.queueDraft(key,text,immediate);},api:async(path,body)=>{requests.push({path,body});return fixture.api(path,body);},
+    queueDraft:async(key,text,immediate)=>{local.set(key,text);return fixture.queueDraft(key,text,immediate);},saveDraftConfirmed:async(key,text)=>{const result=await fixture.saveDraftConfirmed(key,text);local.set(key,text);return result;},api:async(path,body)=>{requests.push({path,body});return fixture.api(path,body);},
     busy:async(button,fn)=>{if(button.disabled)return;button.disabled=true;try{return await fn();}catch(error){alerts.push(error.message);}finally{button.disabled=false;}}
   };
   const audio={stopAudio:fixture.stopAudio,beginAudio:()=>{fixture.stopAudio();const own=generation;return()=>own===generation;},speechVoiceName:id=>id,speak:(...args)=>fixture.speak(...args),voice:(...args)=>fixture.voice(...args),recordOnly:(...args)=>fixture.recordOnly(...args)};
@@ -49,7 +49,7 @@ export async function studyUI(t,file,moduleMocks={}){
     descriptors.set(name,Object.getOwnPropertyDescriptor(globalThis,name));Object.defineProperty(globalThis,name,{configurable:true,writable:true,value});
   }
   t.after(()=>{for(const[name,descriptor]of descriptors){if(descriptor)Object.defineProperty(globalThis,name,descriptor);else delete globalThis[name];}});
-  const source=(await readFile(new URL('../'+file,import.meta.url),'utf8')).replace(/^import \{([^}]+)\} from '\.\/([^']+)\.js';$/gm,(_,names,kind)=>kind==='core'||kind==='audio'||Object.hasOwn(moduleMocks,kind)?`const {${names}}=globalThis[${JSON.stringify(key)}][${JSON.stringify(kind)}];`:`import {${names}} from ${JSON.stringify(new URL('../'+kind+'.js',import.meta.url).href)};`);
+  const source=transform(await readFile(new URL('../'+file,import.meta.url),'utf8')).replace(/^import \{([^}]+)\} from '\.\/([^']+)\.js';$/gm,(_,names,kind)=>kind==='core'||kind==='audio'||Object.hasOwn(moduleMocks,kind)?`const {${names}}=globalThis[${JSON.stringify(key)}][${JSON.stringify(kind)}];`:`import {${names}} from ${JSON.stringify(new URL('../'+kind+'.js',import.meta.url).href)};`).replace(/^(export \{[^}]+\} from )'\.\/([^']+)\.js';$/gm,(_,prefix,kind)=>prefix+JSON.stringify(new URL('../'+kind+'.js',import.meta.url).href)+';');
   fixture.module=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
   return fixture;
 }

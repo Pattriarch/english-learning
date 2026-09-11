@@ -21,7 +21,7 @@ test('search explains the matched source form and distinguishes import totals fr
  assert.match(sources,/Uploaded &lt;COCA&gt; file/);
  assert.doesNotMatch(sources,/<COCA>/);
  assert.match(f.root.querySelector('#lexicon-stats').innerHTML,/<strong>3<\/strong>/);
- assert.match(f.root.querySelector('#lexicon-quality').textContent,/6 контекстов дополнительно разобраны с ИИ/);
+ assert.match(f.root.querySelector('#lexicon-quality').textContent,/2 подборок с разобранным значением/);
  assert.match(f.root.innerHTML,/user-coca-wslx-2026-09/);
  const filter=f.root.querySelector('#lexicon-list');filter.value='user-coca-wslx-2026-09';filter.onchange({target:filter});
  await new Promise(resolve=>setImmediate(resolve));

@@ -31,7 +31,7 @@ test('a debounced search stops before DOM access when the route has changed',asy
  t.mock.method(globalThis,'setTimeout',fn=>{scheduled=fn;return 1;});t.mock.method(globalThis,'clearTimeout',()=>{});
  f.api=async()=>({items:[],total:0,offset:0,metadata:{words:10188,phrases:36,reviewedEntries:244}});
  await f.module.mountLexicon(f.root,d,async()=>d);
- assert.match(f.root.querySelector('#lexicon-quality').textContent,/208 статей.*36 выражений.*открытых источников/);
+ assert.match(f.root.querySelector('#lexicon-sources').innerHTML,/У 244 статей сохранён редакционный статус/);
  const query=f.root.querySelector('#lexicon-query');query.value='issue';query.oninput({target:query});
  location.hash='#/today';f.root.innerHTML='<h1>Today</h1>';
  await assert.doesNotReject(scheduled());assert.equal(f.requests.length,1);assert.equal(f.root.innerHTML,'<h1>Today</h1>');

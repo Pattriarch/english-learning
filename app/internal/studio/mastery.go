@@ -44,7 +44,7 @@ func (s *Server) curriculumMastery(w http.ResponseWriter, r *http.Request) {
 				versions[e.UnitID] = []string{}
 				if lesson, err := s.loadBookLesson(e.UnitID); err == nil {
 					for _, exercise := range lesson.Exercises {
-						versions[e.UnitID] = append(versions[e.UnitID], exercise.ID+"--"+bookExerciseVersion(exercise))
+						versions[e.UnitID] = append(versions[e.UnitID], exercise.ID+"--"+bookExerciseVersionWithMaterials(exercise, lesson.Materials))
 					}
 				}
 			}

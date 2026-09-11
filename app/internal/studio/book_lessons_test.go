@@ -32,9 +32,11 @@ func readyBookFixture(t *testing.T) (*Server, string, bookLesson) {
 	hash := sha256.Sum256([]byte(source.Text))
 	l.Provenance.SourceHash = hex.EncodeToString(hash[:])
 	l.Provenance.SourceCoverage = append(l.Provenance.SourceCoverage, struct {
-		Point        string `json:"point"`
-		SectionTitle string `json:"sectionTitle"`
-	}{"Stance", "Meaning"})
+		PointID      string   `json:"pointId,omitempty"`
+		Point        string   `json:"point"`
+		SectionTitle string   `json:"sectionTitle"`
+		ExerciseIDs  []string `json:"exerciseIds,omitempty"`
+	}{Point: "Stance", SectionTitle: "Meaning"})
 	writeFixture(t, filepath.Join(content, "book-lessons", id+".json"), l)
 	return openFixture(t, content, data), id, l
 }

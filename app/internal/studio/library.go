@@ -35,6 +35,7 @@ type libraryUnit struct {
 	Category         string `json:"category,omitempty"`
 	Page             int    `json:"page,omitempty"`
 	EndPage          int    `json:"endPage,omitempty"`
+	Pages            []int  `json:"pages,omitempty"`
 	PrintedPage      int    `json:"printedPage,omitempty"`
 	TOCPage          int    `json:"tocPage,omitempty"`
 	TopicID          string `json:"topicId,omitempty"`
@@ -174,8 +175,7 @@ func (s *Server) loadContent() error {
 		bookIDs := map[string]bool{}
 		for _, book := range catalog.Books {
 			if !safeID.MatchString(book.ID) || bookIDs[book.ID] || book.Title == "" ||
-				filepath.Base(book.Filename) != book.Filename || strings.ContainsAny(book.Filename, `/\`) ||
-				!strings.EqualFold(filepath.Ext(book.Filename), ".pdf") || book.UnitCount != len(book.Units) {
+				!validBookFilename(book.Filename) || book.UnitCount != len(book.Units) {
 				return fmt.Errorf("library.json: invalid or duplicate book %q", book.ID)
 			}
 			bookIDs[book.ID] = true
@@ -185,7 +185,8 @@ func (s *Server) loadContent() error {
 			for _, unit := range book.Units {
 				_, exists := s.libraryUnits[unit.ID]
 				if !safeID.MatchString(unit.ID) || exists || unit.Unit < 1 || numbers[unit.Unit] ||
-					unit.Title == "" || unit.Page < 0 || unit.EndPage < unit.Page ||
+					unit.Title == "" || unit.Page < 0 || unit.EndPage < unit.Page || unit.EndPage-unit.Page > 10000 ||
+					(unit.Pages != nil && !unit.matchesSourcePages(unit.Pages)) ||
 					(book.PDFPageCount > 0 && unit.EndPage > book.PDFPageCount) {
 					return fmt.Errorf("library.json: invalid or duplicate unit %q", unit.ID)
 				}
@@ -233,6 +234,9 @@ func (s *Server) loadContent() error {
 			}
 		}
 	}
+	if err = s.loadStudyRoute(); err != nil {
+		return err
+	}
 	s.topics, err = json.Marshal(topics)
 	return err
 }
@@ -251,7 +255,7 @@ func (s *Server) unitSource(id string) libraryText {
 	}
 	if cached, ok := s.libraryText[id]; ok {
 		// Reject a stale cache pointing at pages of a different edition.
-		if len(cached.Pages) == 2 && cached.Pages[0] == entry.Unit.Page && cached.Pages[1] == entry.Unit.EndPage {
+		if entry.Unit.matchesSourcePages(cached.Pages) {
 			if strings.TrimSpace(cached.Text) != "" && (cached.Source == "text-layer" || cached.Source == "ocr") {
 				return cached
 			}
@@ -261,7 +265,7 @@ func (s *Server) unitSource(id string) libraryText {
 	if entry.Book.Source == "ocr-and-visual-toc" {
 		source = "scanned"
 	}
-	return libraryText{Source: source, Pages: []int{entry.Unit.Page, entry.Unit.EndPage}}
+	return libraryText{Source: source, Pages: entry.Unit.sourcePages()}
 }
 
 func (s *Server) libraryUnit(w http.ResponseWriter, r *http.Request) {

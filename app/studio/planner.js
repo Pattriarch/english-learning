@@ -1,14 +1,17 @@
-import {$,$$,esc,icon,api,busy,toast,dateKey,getDraft,queueDraft} from './core.js';
-import {loadBookStatus} from './book-reader.js';
-import {createDailyPlan,dailyPlanProgress,weeklySummary} from './planner-model.js';
+import {$,$$,esc,icon,api,busy,toast,dateKey,getDraft,queueDraft,saveDraftConfirmed} from './core.js';
+import {loadBookStatus,bookExerciseID} from './book-reader.js';
+import {remapBookStudyPlan} from './book-study-model.js';
+import {isPlannerCoursebook,coursebookQueue} from './planner-coursebooks.js';
+import {createDailyPlan,dailyPlanProgress,weeklySummary,optionalBookPractice} from './planner-model.js';
 import {transferQueue} from './transfer-model.js';
 import {transferState} from './transfer.js';
 import {weeklyChallenge} from './weekly-challenges-model.js';
+import {changedPlanBlocks,reviseChangedPlan,actionablePlanChange} from './planner-revisions.js';
 
 const levels=['A1','A2','B1','B2','C1','C2'],durations=[30,60,90,120,180];
 const domains={everyday:'Повседневная жизнь',work:'Работа и общение',travel:'Путешествия',culture:'Культура и истории',science:'Наука и технологии',society:'Общество и идеи'};
 const skills={grammar:{label:'Грамматика',icon:'book'},vocabulary:{label:'Словарь',icon:'cards'},reading:{label:'Чтение',icon:'journal'},listening:{label:'Аудирование',icon:'sound'},speaking:{label:'Речь',icon:'mic'},writing:{label:'Письмо',icon:'pen'},pronunciation:{label:'Произношение',icon:'sound'},review:{label:'Повторение',icon:'loop'}};
-const targets={attempts:'Свои ответы',reviews:'Повторённые карточки',cards:'Новые карточки',corrections:'Возврат к ошибкам',transfer:'Применение своими словами',manual:'Самостоятельная практика'};
+const targets={attempts:'Свои ответы',reviews:'Повторённые карточки',cards:'Новые карточки',corrections:'Возврат к ошибкам',transfer:'Применение своими словами','book-study':'Текущий шаг учебника',manual:'Самостоятельная практика'};
 const mounts=new WeakMap(),dayKey=day=>'planner:day:'+day,manualKey=day=>'planner:manual:'+day;
 const dateLabel=(day,options)=>new Date(day+'T12:00:00').toLocaleDateString('ru-RU',options);
 
@@ -30,16 +33,34 @@ function recentDays(now){return Array.from({length:7},(_,i)=>{const d=new Date(n
 export function plannerBookRequests(data,level){
  const books=data.library?.books||[],aliases=new Map(books.flatMap(book=>(book.units||[]).map(unit=>[unit.id,unit.equivalentUnitId||unit.id]))),started=new Set();
  for(const attempt of data.state?.attempts||[]){const lesson=attempt.lessonId==='free'?attempt.exerciseId?.match(/^(book-.+-\d{3})-/)?.[1]:attempt.lessonId;if(typeof lesson==='string'&&lesson.startsWith('book-')&&attempt.answer?.trim())started.add(aliases.get(lesson.slice(5))||lesson.slice(5));}
+ for(const [key,value]of Object.entries(data.state?.drafts||{})){const id=key.match(/^book-(.+-\d{3}):/)?.[1];if(id&&typeof value?.text==='string'&&value.text.trim())started.add(aliases.get(id)||id);}
  const seen=new Set(),ready=[];
- for(const book of books){const range=(book.level?.match(/[ABC][12]/g)||[]).map(value=>levels.indexOf(value)),index=levels.indexOf(level);if(book.duplicateOf||!book.id.startsWith('grammar-')||!range.length||index<Math.min(...range)||index>Math.max(...range))continue;
+ for(const book of books){if(book.duplicateOf||isPlannerCoursebook(book.id))continue;
   for(const unit of book.units||[]){const id=unit.equivalentUnitId||unit.id;if(!/^[a-zA-Z0-9_-]{1,120}$/.test(id)||seen.has(id)||data.bookStatus?.units?.[id]?.status!=='ready')continue;seen.add(id);ready.push(id);}
  }
- return [...ready.filter(id=>started.has(id)).slice(0,300),...ready.filter(id=>!started.has(id)).slice(0,8)];
+ const courseStarted=[],courseNew=[];
+ for(const book of books){
+  if(book.duplicateOf||!isPlannerCoursebook(book.id))continue;
+  const range=(book.level?.match(/[ABC][12]/g)||[]).map(value=>levels.indexOf(value)),index=levels.indexOf(level),compatible=range.length&&index>=Math.min(...range)&&index<=Math.max(...range);let newSelected=false;
+  for(const unit of book.units||[]){const id=unit.equivalentUnitId||unit.id;if(!/^[a-zA-Z0-9_-]{1,120}$/.test(id)||seen.has(id)||data.bookStatus?.units?.[id]?.status!=='ready')continue;
+   if(started.has(id)){courseStarted.push(id);seen.add(id);}else if(compatible&&!newSelected){courseNew.push(id);seen.add(id);newSelected=true;}
+  }
+ }
+ return [...courseStarted.slice(0,64),...ready.filter(id=>started.has(id)).slice(0,300),...courseNew.slice(0,6)];
 }
 export async function loadPlannerBookLessons(data,level,isCurrent=()=>true){
  const ids=plannerBookRequests(data,level),lessons=[];
  for(let offset=0;offset<ids.length&&isCurrent();offset+=4){
-  const results=await Promise.allSettled(ids.slice(offset,offset+4).map(async id=>{const response=await fetch('/book-content/'+encodeURIComponent(id)+'.json');if(!response.ok)return null;const lesson=await response.json();if(lesson?.id!=='book-'+id||lesson.provenance?.unitId!==id||!Array.isArray(lesson.exercises)||!lesson.exercises.length)return null;return{id:lesson.id,title:lesson.title,level:lesson.level,exercises:lesson.exercises.filter(ex=>typeof ex.id==='string'&&/^[a-zA-Z0-9_-]{1,120}$/.test(ex.id)).map(ex=>({id:ex.id,kind:ex.kind}))};}));
+  const results=await Promise.allSettled(ids.slice(offset,offset+4).map(async id=>{
+   const response=await fetch('/book-content/'+encodeURIComponent(id)+'.json');if(!response.ok)return null;const lesson=await response.json();if(lesson?.id!=='book-'+id||lesson.provenance?.unitId!==id||!Array.isArray(lesson.exercises)||!lesson.exercises.length)return null;
+   if(lesson.studyPlan){
+    const exercises=await Promise.all(lesson.exercises.map(async ex=>({id:await bookExerciseID(ex,lesson.materials),kind:ex.kind,materialIds:ex.materialIds||[]}))),studyPlan=remapBookStudyPlan(lesson.studyPlan,lesson.exercises,exercises);
+    if(!studyPlan)return null;
+    return{id:lesson.id,title:lesson.title,level:lesson.level,studyPlan,exercises,materials:(lesson.materials||[]).map(m=>({id:m.id,title:m.title,kind:m.kind,inputSkill:m.inputSkill,audioFile:m.audioFile}))};
+   }
+   const exercises=await Promise.all(lesson.exercises.filter(ex=>typeof ex.id==='string'&&/^[a-zA-Z0-9_-]{1,120}$/.test(ex.id)).map(async ex=>({id:await bookExerciseID(ex,lesson.materials),kind:ex.kind})));
+   return{id:lesson.id,title:lesson.title,level:lesson.level,exercises};
+  }));
   for(const result of results)if(result.status==='fulfilled'&&result.value?.exercises.length)lessons.push(result.value);
  }
  return lessons;
@@ -49,14 +70,16 @@ export async function mountDailyPlanner(root,data,refresh){
  data={...data,state:transferState(data)};
  mounts.get(root)?.dispose?.();const token={},route=location.hash;mounts.set(root,token);
  const current=()=>mounts.get(root)===token&&root.isConnected&&location.hash===route;
- const now=new Date(),today=dateKey(now),days=recentDays(now);let selected=today,preferences=plannerPreferences(stored('planner:preferences',data.state),Number(data.settings?.dailyMinutes)||120),editing={...preferences},refreshVersion=0;
+ const now=new Date(),today=dateKey(now),days=recentDays(now);let selected=today,preferences=plannerPreferences(stored('planner:preferences',data.state),Number(data.settings?.dailyMinutes)||120),editing={...preferences},refreshVersion=0,planWriteBusy=false,updateQueued=false;
  root.innerHTML='<div class="planner-loading" role="status">Собираем твой день с английским…</div>';
  async function save(key,value){const text=plannerJSON(value);await queueDraft(key,text,true);data={...data,state:{...data.state,drafts:{...data.state.drafts,[key]:{text,at:new Date().toISOString()}}}};}
+ async function saveConfirmed(key,value){const draft=await saveDraftConfirmed(key,plannerJSON(value));data={...data,state:{...data.state,drafts:{...data.state.drafts,[key]:draft}}};}
+ function finishPlanWrite(){planWriteBusy=false;if(!current())return;draw();if(updateQueued){updateQueued=false;void onUpdate({detail:{source:'plan-write-finished'}});}}
  let challenges=null;try{challenges=await api('/projects');}catch{}if(!current())return;
  let todayPlan=stored(dayKey(today),data.state);
+ const bookStatus=await loadBookStatus(data);if(!current())return;
+ data={...data,bookStatus};const bookLessons=await loadPlannerBookLessons(data,preferences.level,current);if(!current())return;data={...data,bookLessons};
  if(!validDailyPlan(todayPlan,today)){
-  const bookStatus=await loadBookStatus(data);if(!current())return;
-  data={...data,bookStatus};const bookLessons=await loadPlannerBookLessons(data,preferences.level,current);if(!current())return;data={...data,bookLessons};
   const manualDays={};for(const day of days){const plan=stored(dayKey(day),data.state);if(validDailyPlan(plan,day))manualDays[day]={plan,manual:plannerManual(stored(manualKey(day),data.state),plan)};}
   todayPlan=createDailyPlan(data,{...preferences,manualDays},now);
   if(!validDailyPlan(todayPlan,today))throw Error('Не удалось собрать план с доступными заданиями. Открой карту обучения и попробуй ещё раз.');
@@ -64,23 +87,32 @@ export async function mountDailyPlanner(root,data,refresh){
  }
  function history(){const result={};for(const day of days){const plan=day===today?todayPlan:stored(dayKey(day),data.state);if(validDailyPlan(plan,day))result[day]={plan,manual:plannerManual(stored(manualKey(day),data.state),plan)};}return result;}
  function startLink(block,plan,label,cls=''){
-  return `<a class="planner-link ${cls}" href="${esc(block.href)}"${plan.day===today?` data-plan-start="${esc(block.id)}"`:''}>${esc(label)} ${icon('arrow')}</a>`;
+  return `<a class="planner-link ${cls}" href="${esc(block.recovery?.href||block.href)}"${plan.day===today&&!block.recovery?` data-plan-start="${esc(block.id)}"`:''}>${esc(block.recovery?'Посмотреть главу':label)} ${icon('arrow')}</a>`;
  }
  function draw(){
   if(!current())return;
   data={...data,state:transferState(data)};
   const challenge=weeklyChallenge(challenges,data.state,preferences.level,new Date());
   const saved=history(),entry=saved[selected],plan=entry?.plan,manual=entry?.manual||{},progress=plan?dailyPlanProgress(plan,data.state,manual):null,weekly=weeklySummary(data,now,saved),historical=selected!==today;
-  const actualMinutes=Math.floor(Math.max(0,Number(data.state.activity?.[selected])||0)/60),next=progress?.next,dates=weekly.days||[],transfers=historical?null:transferQueue(data,new Date());
+  const actualMinutes=Math.floor(Math.max(0,Number(data.state.activity?.[selected])||0)/60),dates=weekly.days||[],transfers=historical?null:transferQueue(data,new Date());
+  const courses=historical?null:coursebookQueue(data,new Date(),3),courseSteps=courses?[...courses.due,...courses.ready].slice(0,3):[];
+  const optionalBooks=historical?[]:optionalBookPractice(data,3);
+  const changed=historical||!plan?[]:changedPlanBlocks(plan,data,progress.blocks.filter(block=>block.done).map(block=>block.id));
+  const bookChanges=new Map(changed.filter(change=>change.bookStudy).map(change=>[change.blockId,change])),actionable=changed.filter(actionablePlanChange);
+  const next=progress?.next&&!bookChanges.has(progress.next.id)?progress.next:progress?.blocks.find(block=>!block.done&&!bookChanges.has(block.id)&&!(block.skill==='review'&&block.targetSpec.kind==='manual'));
+  const unavailable=progress?.blocks.filter(block=>!block.done&&bookChanges.has(block.id))||[],waiting=changed.find(change=>change.bookStudy&&change.status==='waiting'),allBlocked=unavailable.length>0&&!next;
   root.innerHTML=`<div class="daily-planner">
    <header class="planner-top"><div class="planner-date">${icon('home')} <time datetime="${today}">${esc(dateLabel(today,{weekday:'long',day:'numeric',month:'long'}))}</time></div><nav aria-label="Учебные материалы"><a href="#/method">Как заниматься</a><a href="#/mastery">Результаты A1–C2</a><a href="#/roadmap">Карта обучения</a><a href="#/books">Учебники</a><a href="#/cinema">${icon('play')} Киноклуб</a><a href="#/journal">Мои работы ${icon('arrow')}</a></nav></header>
    <section class="planner-hero" aria-labelledby="planner-title"><div class="planner-hero-copy"><span class="planner-kicker">${historical?'ИСТОРИЯ ЗАНЯТИЙ':'АНГЛИЙСКИЙ · ШАГ ЗА ШАГОМ'}</span><h1 id="planner-title">${historical?'Твой план на '+esc(dateLabel(selected,{day:'numeric',month:'long'})):'Вот твой план на сегодня'}</h1><p>${historical?'Можно вернуться к материалам. Здесь сохранён план этого дня.':'Понять новое, вспомнить знакомое и выразить свою мысль. Начни с одного конкретного шага.'}</p>
     ${plan?`<div class="planner-tags"><span>${esc(plan.level)}</span><span>${plan.minutes} мин в плане</span><span>${esc(domains[plan.domain])}</span></div>`:''}
-    <div class="planner-main-action">${historical?'<button class="planner-link planner-primary" data-plan-today>Вернуться к сегодняшнему плану '+icon('arrow')+'</button>':next?`<div><small>СЛЕДУЮЩИЙ ШАГ</small><strong>${esc(next.title)}</strong></div>${startLink(next,plan,progress.done?'Продолжить занятие':'Начать занятие','planner-primary')}`:`<div><small>НА СЕГОДНЯ ГОТОВО</small><strong>Все блоки сегодняшнего плана отмечены.</strong></div><a class="planner-link planner-primary" href="#/journal">Посмотреть свои работы ${icon('arrow')}</a>`}</div>
+    <div class="planner-main-action">${historical?'<button class="planner-link planner-primary" data-plan-today>Вернуться к сегодняшнему плану '+icon('arrow')+'</button>':allBlocked?`<div><small>СЕЙЧАС НЕТ ДОСТУПНОГО ШАГА</small><strong>${actionable.length?'Сначала обнови задания ниже':waiting&&Number.isFinite(waiting.dueAt)?'Следующее применение — с '+esc(new Date(waiting.dueAt).toLocaleDateString('ru-RU')):'Доступного задания для замены пока нет'}</strong><p>Незавершённые блоки остаются в истории; они не засчитаны как выполненные.</p></div>`:next?`<div><small>СЛЕДУЮЩИЙ ШАГ</small><strong>${esc(next.title)}</strong></div>${startLink(next,plan,progress.done?'Продолжить занятие':'Начать занятие','planner-primary')}`:`<div><small>НА СЕГОДНЯ ГОТОВО</small><strong>Все блоки сегодняшнего плана отмечены.</strong></div><a class="planner-link planner-primary" href="#/journal">Посмотреть свои работы ${icon('arrow')}</a>`}</div>
    </div><div class="planner-hero-progress"><div class="planner-progress-heading"><span>${historical?'Сохранённый план':'Сегодняшний план'}</span>${icon('chart')}</div><div class="planner-big-number">${progress?.done||0}<span> / ${progress?.total||0}</span></div><p>блоков практики выполнено</p><div class="planner-progress-track" role="progressbar" aria-label="Выполненные блоки" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${progress?.percent||0}"><span style="width:${progress?.percent||0}%"></span></div><div class="planner-time-fact"><strong><b id="planner-actual-minutes">${actualMinutes}</b><span> мин</span></strong><span>зафиксировано<br>в приложении</span></div><small>Выполнение показывает работу, а не присвоенный уровень.</small></div></section>
    <div class="planner-layout"><section class="planner-agenda" aria-labelledby="planner-agenda-title"><div class="planner-section-heading"><div><span class="planner-kicker">${historical?'ПЛАН ИЗ ИСТОРИИ':'ТВОЙ МАРШРУТ'}</span><h2 id="planner-agenda-title">${historical?'Задания этого дня':'Занятия по порядку'}</h2></div><span>${plan?plan.blocks.length+' блоков':'План не сохранён'}</span></div>
-    <div class="planner-blocks">${progress?progress.blocks.map((block,i)=>blockHTML(block,i,plan,manual,historical)).join(''):`<div class="planner-empty">${icon('journal')}<h3>На этот день нет сохранённого плана</h3><p>Это не пропуск и не долг. Ответы и время занятий остаются в журнале.</p><a class="planner-link" href="#/journal">Открыть журнал ${icon('arrow')}</a></div>`}</div>
+    ${changed.length?`<aside class="planner-block" role="status"><h3>В уроках обновились задания</h3><p>В плане остались прежние формулировки. Можно заменить их текущими; выполненные блоки и твои ответы сохранятся.</p>${actionable.length?`<button class="planner-link" data-plan-revise>Обновить задания ${icon('arrow')}</button>`:''}</aside>`:''}
+    <div class="planner-blocks">${progress?progress.blocks.map((block,i)=>blockHTML({...block,recovery:bookChanges.get(block.id)},i,plan,manual,historical)).join(''):`<div class="planner-empty">${icon('journal')}<h3>На этот день нет сохранённого плана</h3><p>Это не пропуск и не долг. Ответы и время занятий остаются в журнале.</p><a class="planner-link" href="#/journal">Открыть журнал ${icon('arrow')}</a></div>`}</div>
     ${transfers?.due.length?`<section class="planner-block"><div class="eyebrow">ЖИВАЯ ОЧЕРЕДЬ · 5–15 МИНУТ ЗА ПОДХОД</div><h3>Из урока — в свою жизнь</h3><p>Вспомни тему без опоры, используй её в своём письме и голосом. Через несколько дней она вернётся в другой ситуации. Сегодня достаточно одного следующего шага.</p>${transfers.due.map(t=>`<div class="planner-block-bottom"><div><strong>${esc(t.title)}</strong><p>${t.completedRounds?'Возврат после паузы':'Первое самостоятельное применение'}</p></div><a class="planner-link" href="#/transfer/${esc(t.lessonId)}">Применить ${icon('arrow')}</a></div>`).join('')}<p class="small-note">Эта очередь обновляется по твоим ответам. Сохранённый план дня остаётся прежним; пропущенные даты не превращаются в серию обязательных повторов.</p><a class="planner-link" href="#/transfer">Все темы и следующие даты ${icon('arrow')}</a></section>`:''}
+    ${courseSteps.length||courses?.waiting.length?`<section class="planner-block planner-coursebooks"><div class="eyebrow">УЧЕБНИКИ · ТВОИ ТЕКУЩИЕ ЭТАПЫ</div><h3>Продолжить самостоятельную работу</h3>${courseSteps.map(item=>`<div class="planner-block-bottom"><div><strong>${esc(item.lesson.title)}</strong><p>${esc(item.stage.title)} · ${esc(skills[item.skill]?.label||'Практика')}${item.stage.id==='transfer'?' · пауза завершена':''}</p><p class="small-note">${esc(item.stage.purpose)}</p></div><a class="planner-link" href="${esc(item.href)}">${item.stage.id==='transfer'?'Закрепить':'Продолжить'} ${icon('arrow')}</a></div>`).join('')}${courses.waiting.slice(0,2).map(item=>`<p class="small-note">${esc(item.lesson.title)}: вернуться к новой ситуации ${item.progress.dueAt===null?'после верного разбора исправлений':'с '+new Date(item.progress.dueAt).toLocaleDateString('ru-RU')}. <a href="${esc(item.href)}">Посмотреть задание</a></p>`).join('')}<p class="small-note">Очередь учитывает текущие версии заданий и твои ответы. Сохранённый план дня остаётся прежним; будущий перенос не добавляется как задание на сегодня.</p></section>`:''}
+    ${optionalBooks.length?`<section class="planner-block"><div class="eyebrow">ПО ЖЕЛАНИЮ · НАЧАТЫЕ ИСТОЧНИКИ</div><h3>Продолжить практику по книге</h3><p>Ты уже работал с этими материалами. Можно закончить выбранную практику; она не запускает второй курс тех же тем.</p>${optionalBooks.map(item=>`<div class="planner-block-bottom"><div><strong>${esc(item.title)}</strong><p class="small-note">${esc(item.bookTitle)}</p></div><a class="planner-link" href="${esc(item.href)}">${item.covered?'Доработать ответы':'Продолжить'} ${icon('arrow')}</a></div>`).join('')}</section>`:''}
     <div class="planner-break">${icon('pause')}<p><strong>Оставь место для перерыва.</strong> Если занимаешься подряд, отдохни примерно через 40–50 минут. План можно пройти за несколько подходов.</p></div>
    </section><aside class="planner-sidebar"><section class="planner-week" aria-labelledby="planner-week-title"><div class="planner-section-heading"><div><span class="planner-kicker">ПОСЛЕДНИЕ 7 ДНЕЙ</span><h2 id="planner-week-title">Твой ритм</h2></div>${icon('clock')}</div><div class="planner-week-days">${days.map(day=>{const facts=dates.find(d=>d.day===day),active=Boolean(facts&&(facts.minutes||facts.attempts||facts.reviews||facts.cards)||Object.values(saved[day]?.manual||{}).length);return `<button data-plan-day="${day}" class="${day===selected?'selected ':''}${active?'has-activity':''}" aria-pressed="${day===selected}" aria-label="${esc(dateLabel(day,{weekday:'long',day:'numeric',month:'long'}))}${saved[day]?', есть сохранённый план':''}"><span>${esc(dateLabel(day,{weekday:'short'}))}</span><strong>${new Date(day+'T12:00:00').getDate()}</strong><i aria-hidden="true"></i></button>`;}).join('')}</div><div class="planner-week-facts"><div><strong><b id="planner-week-active-days">${weekly.totals?.activeDays||0}</b><small> / 7</small></strong><span>дней с практикой</span></div><div><strong><b id="planner-week-minutes">${Math.floor(weekly.totals?.minutes||0)}</b><small> мин</small></strong><span>в приложении</span></div></div><p class="planner-note">Вернуться можно в любой день. Пропущенные дни не создают долг.</p></section>
     <section class="planner-balance" aria-labelledby="planner-balance-title"><div class="planner-section-heading"><div><span class="planner-kicker">РАЗНЫЕ СТОРОНЫ ЯЗЫКА</span><h2 id="planner-balance-title">Баланс недели</h2></div></div>${balanceHTML(weekly)}<p class="planner-note">Сохранённые действия и твои отметки. Количество не оценивает уровень или качество произношения.</p></section>
@@ -93,10 +125,27 @@ export async function mountDailyPlanner(root,data,refresh){
   $$('[data-plan-day]',root).forEach(button=>button.onclick=()=>{selected=button.dataset.planDay;draw();});$$('[data-plan-today]',root).forEach(button=>button.onclick=()=>{selected=today;draw();});
   $$('[data-plan-manual]',root).forEach(input=>input.onchange=()=>updateManual(input.dataset.planManual,input.checked));
   $$('[data-plan-undo]',root).forEach(button=>button.onclick=()=>updateManual(button.dataset.planUndo,false));
+  const reviseButton=$('[data-plan-revise]',root);if(reviseButton)reviseButton.onclick=()=>{if(!current()||planWriteBusy)return;return busy(reviseButton,async()=>{
+   planWriteBusy=true;++refreshVersion;draw();try{
+   const updated=await refresh();if(!current())return;
+   const latestStatus=await loadBookStatus(updated);if(!current())return;
+   const latest={...updated,bookStatus:latestStatus},lessons=await loadPlannerBookLessons(latest,preferences.level,current);if(!current())return;
+   data={...latest,bookLessons:lessons};const snapshot=stored(dayKey(today),data.state);if(!validDailyPlan(snapshot,today))throw Error('Сегодняшний план недоступен. Обнови страницу.');
+   const marks=plannerManual(stored(manualKey(today),data.state),snapshot),status=dailyPlanProgress(snapshot,data.state,marks),changes=changedPlanBlocks(snapshot,data,status.blocks.filter(block=>block.done).map(block=>block.id)).filter(actionablePlanChange);
+   if(!changes.length){todayPlan=snapshot;draw();return;}
+   const at=new Date().toISOString(),archiveKey='planner:archive:'+today+':'+Date.now(),revised=reviseChangedPlan(snapshot,changes,at,archiveKey);
+   if(!validDailyPlan(revised,today))throw Error('Не удалось обновить задания плана.');plannerJSON(revised);
+   await saveConfirmed(archiveKey,snapshot);if(!current()||dateKey()!==today)return;await saveConfirmed(dayKey(today),revised);todayPlan=revised;if(!current())return;
+   draw();window.dispatchEvent(new CustomEvent('planner-updated',{detail:{day:today,plan:todayPlan,manual:marks,source:'daily-planner'}}));
+   }finally{finishPlanWrite();}
+  },'Обновляем…');};
+  $$('[data-plan-revise]',root).concat($$('[data-plan-manual]',root),$$('[data-plan-undo]',root)).forEach(control=>control.disabled=planWriteBusy);
   async function updateManual(id,done){
-   if(historical||!plan.blocks.some(b=>b.id===id))return;
+   if(historical||planWriteBusy||!plan.blocks.some(b=>b.id===id))return;
+   planWriteBusy=true;++refreshVersion;draw();try{
    const value=plannerManual(stored(manualKey(today),data.state),todayPlan);if(done)value[id]={done:true,at:new Date().toISOString(),source:'outside'};else delete value[id];
    await save(manualKey(today),value);if(!current())return;draw();window.dispatchEvent(new CustomEvent('planner-updated',{detail:{day:today,plan:todayPlan,manual:value,source:'daily-planner'}}));
+   }finally{finishPlanWrite();}
   }
   $('#planner-level',root).onchange=e=>{editing.level=e.target.value;};$('#planner-domain',root).onchange=e=>{editing.domain=e.target.value;};
   $$('[data-plan-minutes]',root).forEach(button=>button.onclick=()=>{editing.minutes=+button.dataset.planMinutes;$$('[data-plan-minutes]',root).forEach(b=>{const selected=+b.dataset.planMinutes===editing.minutes;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',String(selected));});});
@@ -104,13 +153,13 @@ export async function mountDailyPlanner(root,data,refresh){
  }
  function blockHTML(block,index,plan,manual,historical){
   const skill=skills[block.skill]||skills.grammar,entry=manual[block.id],kind=block.targetSpec?.kind||plan.blocks.find(b=>b.id===block.id)?.target.kind;
-  return `<article class="planner-block ${block.done?'is-done':''}" data-planner-block="${esc(block.id)}"><div class="planner-block-top"><span class="planner-skill">${icon(skill.icon)} ${esc(skill.label)}</span><span class="planner-block-minutes">${block.minutes} мин <span aria-hidden="true">·</span> ${String(index+1).padStart(2,'0')}</span></div><h3>${esc(block.title)}</h3><p class="planner-instruction">${esc(block.instruction)}</p><details class="planner-why"><summary>Почему это в плане</summary><p>${esc(block.why)}</p></details><div class="planner-block-bottom"><div class="planner-target"><span>${esc(targets[kind]||'Выполненные действия')}</span><strong>${block.current} <small>/ ${block.target}</small></strong>${block.automatic?`<small class="planner-auto">${icon('check')} Выполнено в приложении</small>`:''}</div>${startLink(block,plan,historical?'Открыть материал':block.done?'Вернуться к заданию':'Открыть задание')}</div>${historical?entry?'<div class="planner-manual-note">Отмечено тобой</div>':'':entry?`<div class="planner-manual-note">${icon('check')} ${entry.source==='session'?'Отмечено после занятия':'Выполнено вне приложения'}<button data-plan-undo="${esc(block.id)}">Отменить отметку</button></div>`:!block.automatic?`<label class="planner-manual"><input type="checkbox" data-plan-manual="${esc(block.id)}"><span>Выполнил вне приложения<small>Твоя отметка, без автоматической оценки навыка</small></span></label>`:''}</article>`;
+  return `<article class="planner-block ${block.done?'is-done':''}" data-planner-block="${esc(block.id)}"><div class="planner-block-top"><span class="planner-skill">${icon(skill.icon)} ${esc(skill.label)}</span><span class="planner-block-minutes">${block.minutes} мин <span aria-hidden="true">·</span> ${String(index+1).padStart(2,'0')}</span></div><h3>${esc(block.title)}</h3><p class="planner-instruction">${esc(block.recovery?.message||block.instruction)}</p><details class="planner-why"><summary>Почему это в плане</summary><p>${esc(block.recovery?'Прежний блок сохранён. Следующее действие определяется текущей версией главы; ожидание не засчитывается как практика.':block.why)}</p></details><div class="planner-block-bottom"><div class="planner-target"><span>${esc(targets[kind]||'Выполненные действия')}</span><strong>${block.current} <small>/ ${block.target}</small></strong>${block.automatic?`<small class="planner-auto">${icon('check')} Выполнено в приложении</small>`:''}</div>${startLink(block,plan,historical?'Открыть материал':block.done?'Вернуться к заданию':'Открыть задание')}</div>${block.recovery?'':historical?entry?'<div class="planner-manual-note">Отмечено тобой</div>':'':entry?`<div class="planner-manual-note">${icon('check')} ${entry.source==='session'?'Отмечено после занятия':'Выполнено вне приложения'}<button data-plan-undo="${esc(block.id)}">Отменить отметку</button></div>`:!block.automatic?`<label class="planner-manual"><input type="checkbox" data-plan-manual="${esc(block.id)}"><span>Выполнил вне приложения<small>Твоя отметка, без автоматической оценки навыка</small></span></label>`:''}</article>`;
  }
  function balanceHTML(weekly){
   const rows=Object.entries(skills).filter(([id])=>id!=='review').map(([id,skill])=>{const ids=id==='vocabulary'?['vocabulary','review']:[id],found=(weekly.skills||[]).filter(row=>ids.includes(row.id));return{id,label:skill.label,count:found.reduce((n,row)=>n+(row.count||0),0),manual:found.reduce((n,row)=>n+(row.manualCount||0),0)};}),maximum=Math.max(1,...rows.map(row=>row.count+row.manual));
   return `<div class="planner-skill-balance">${rows.map(row=>`<div class="planner-balance-row"><div><span>${esc(row.label)}</span><strong>${row.count}${row.manual?` <small>+ ${row.manual} по отметке</small>`:''}</strong></div><div class="planner-balance-track" aria-label="${esc(row.label)}: ${row.count} сохранённых действий${row.manual?', '+row.manual+' по твоим отметкам':''}"><span style="width:${row.count/maximum*100}%"></span><i style="width:${row.manual/maximum*100}%"></i></div></div>`).join('')}</div>${weekly.recommendations?.length?`<div class="planner-week-advice"><span>НА ЭТОЙ НЕДЕЛЕ</span>${weekly.recommendations.slice(0,2).map(item=>`<p><strong>${esc(item.title)}.</strong> ${esc(item.reason)}</p>`).join('')}</div>`:''}`;
  }
- const onUpdate=async event=>{if(event.detail?.source==='daily-planner')return;if(!current()){dispose();return;}const version=++refreshVersion;try{const updated=await refresh();if(current()&&version===refreshVersion){data=updated;draw();}}catch(error){if(current())toast(error.message,true);}};
+ const onUpdate=async event=>{if(event.detail?.source==='daily-planner')return;if(!current()){dispose();return;}if(planWriteBusy){updateQueued=true;return;}const version=++refreshVersion;try{const updated=await refresh();if(!current()||version!==refreshVersion)return;const bookStatus=await loadBookStatus(updated);if(!current()||version!==refreshVersion)return;const next={...updated,bookStatus},bookLessons=await loadPlannerBookLessons(next,preferences.level,()=>current()&&version===refreshVersion);if(current()&&version===refreshVersion){data={...next,bookLessons};draw();}}catch(error){if(current())toast(error.message,true);}};
  const onActivity=event=>{
   if(!current()){dispose();return;}const {day,seconds}=event.detail||{};if(!days.includes(day)||!Number.isFinite(seconds)||seconds<0)return;
   data={...data,state:{...data.state,activity:{...data.state.activity,[day]:seconds}}};

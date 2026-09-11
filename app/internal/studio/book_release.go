@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"slices"
 	"strconv"
 	"strings"
 	"sync"
@@ -73,7 +74,7 @@ func (r *bookRelease) matches(id string, raw []byte, lesson bookLesson) bool {
 	if !ok || unit.LessonSHA256 != hex.EncodeToString(hash[:]) ||
 		unit.LessonID != lesson.ID || unit.BookID != p.BookID ||
 		unit.Source != p.Source || unit.SourceHash != p.SourceHash ||
-		len(unit.Pages) != 2 || unit.Pages[0] != p.Pages[0] || unit.Pages[1] != p.Pages[1] ||
+		!slices.Equal(unit.Pages, p.Pages) ||
 		unit.VisualSourceUsed != p.VisualSourceUsed || len(unit.SourceImages) != len(p.SourceImages) {
 		return false
 	}
@@ -116,7 +117,7 @@ func (s *Server) bookAvailability(id, releaseStamp string, release *bookRelease)
 		bookFileStamp(filepath.Join(s.content, "book-lessons", id+".json")),
 		bookFileStamp(filepath.Join(s.content, "..", "data", "parsed-books", id+".json")),
 	}
-	for _, page := range []int{entry.Unit.Page, entry.Unit.EndPage} {
+	for _, page := range entry.Unit.sourcePages() {
 		stamps = append(stamps, bookFileStamp(filepath.Join(s.content, "..", "data", "book-page-images", entry.Book.ID, strconv.Itoa(page)+".jpg")))
 	}
 	stamp := strings.Join(stamps, "|")

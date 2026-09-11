@@ -270,7 +270,21 @@
     },
     {
       "file": "app/content/courses/advanced.json",
-      "sha256": "fad1f08527e871b4df9f283796facc9cefebd21699ae3bc9f35ee9a113fc7f45"
+      "sha256": "d074577ab29c959288d1ad6c5f54fa24717c7c893076cd6cef2fd02f1b02baae",
+      "revisionReview": {
+        "date": "2026-09-11",
+        "previousSHA256": "fad1f08527e871b4df9f283796facc9cefebd21699ae3bc9f35ee9a113fc7f45",
+        "lessonId": "path-source-mediation",
+        "exerciseIds": [
+          "e4",
+          "e5",
+          "e6"
+        ],
+        "exerciseRevision": 1,
+        "method": "agent-scoped-task-and-source-evidence-review",
+        "scope": "Only the added fictional source-independence dossier and revised e4-e6 were reviewed; other lessons, tasks, and the original audit date were not re-audited.",
+        "report": "app/docs/SOURCE-MEDIATION-REVISION-2026-09-11.md"
+      }
     },
     {
       "file": "app/content/courses/cinema-lessons.json",
@@ -5726,7 +5740,7 @@
                 "e4",
                 "e6"
               ],
-              "note": "Посещаемость, качество и нагрузка как разные показатели.",
+              "note": "Три документа: A и B пересказывают WB-01; независимый RV-02 измеряет посещаемость, а не языковой прогресс. Атрибуция и сила вывода сохраняются при смене аудитории.",
               "file": "app/content/courses/advanced.json"
             },
             {

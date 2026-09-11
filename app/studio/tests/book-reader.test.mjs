@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {bookParagraphs,bookAttemptState,bookExerciseID} from '../book-reader.js';
+import {progressLesson} from '../core.js';
 import {studyUI,deferred,bookData} from './study-ui-fixture.mjs';
 
 test('book prose retains paragraph structure and escapes source markup',()=>{
@@ -35,6 +36,86 @@ test('answers from a running older server remain visible after the upgrade',()=>
  assert.equal(result.attempts[1],modern);
  assert.equal(result.attempts[2],unrelated);
  assert.equal(source.attempts[0].lessonId,'free');
+});
+
+test('registered book aliases restore only the exact current hashed task without changing history',async()=>{
+ const exercise={id:'e1',kind:'write',prompt:'Describe the current action.',answers:['I am working.']};
+ const lesson={id:'book-grammar-intermediate-003',exercises:[{...exercise,id:await bookExerciseID(exercise)}]};
+ const alias='book-grammar-intermediate-ebook-003',id=lesson.exercises[0].id;
+ const library={books:[{units:[{id:'grammar-intermediate-003'}]},{duplicateOf:'grammar-intermediate',units:[{id:'grammar-intermediate-ebook-003',equivalentUnitId:'grammar-intermediate-003'}]}]};
+ const direct=Object.freeze({id:'direct',lessonId:alias,exerciseId:id,answer:'I am working.',mode:'speaking',at:'2026-09-10T10:00:00Z',feedback:{verdict:'correct',source:'codex'}});
+ const free=Object.freeze({...direct,id:'free',lessonId:'free',exerciseId:alias+'-'+id});
+ const source={attempts:Object.freeze([direct,free]),drafts:{},read:{}},before=JSON.stringify(source);
+ const result=bookAttemptState(source,lesson,library);
+ assert.equal(progressLesson(lesson,source).tried,0);
+ assert.equal(progressLesson(lesson,result).tried,1);
+ assert.equal(progressLesson(lesson,result).correct,1);
+ assert.deepEqual(result.attempts,[{...direct,lessonId:lesson.id},{...free,lessonId:lesson.id,exerciseId:id}]);
+ assert.equal(result.attempts[0].feedback,direct.feedback);
+ assert.equal(JSON.stringify(source),before);
+ assert.equal(result.drafts,source.drafts);
+ assert.deepEqual(bookAttemptState(source,lesson).attempts,source.attempts,'no guessed aliases without catalog evidence');
+});
+
+test('aliases cannot recover changed, unversioned, unrelated or merely similar task identities',async()=>{
+ const exercise={id:'e1',kind:'write',prompt:'Describe the current action.',answers:['I am working.']};
+ const current=await bookExerciseID(exercise),changed=await bookExerciseID({...exercise,prompt:'Describe yesterday.'});
+ const lesson={id:'book-canonical-003',exercises:[{...exercise,id:current},{id:'unversioned'}]},alias='book-copy-003';
+ const library={books:[{units:[{id:'canonical-003'}]},{duplicateOf:'canonical',units:[{id:'copy-003',equivalentUnitId:'canonical-003'},{id:'other-copy-003',equivalentUnitId:'canonical-004'}]}]};
+ const attempts=[
+  {lessonId:alias,exerciseId:changed},{lessonId:'free',exerciseId:alias+'-'+changed},
+  {lessonId:alias,exerciseId:'e1'},{lessonId:'free',exerciseId:alias+'-e1'},
+  {lessonId:alias,exerciseId:'unversioned'},{lessonId:'free',exerciseId:alias+'-unversioned'},
+  {lessonId:alias,exerciseId:current.replace('e1--','e2--')},
+  {lessonId:'book-canonical-ebook-003',exerciseId:current},
+  {lessonId:'book-other-copy-003',exerciseId:current},
+  {lessonId:'free',exerciseId:alias+'-'+current+'-extra'},
+ ];
+ const result=bookAttemptState({attempts},lesson,library);
+ result.attempts.forEach((attempt,i)=>assert.equal(attempt,attempts[i]));
+ const invalidTarget={books:[{duplicateOf:'another',units:[{id:'canonical-003'}]},library.books[1]]};
+ const exact={lessonId:alias,exerciseId:current};
+ assert.equal(bookAttemptState({attempts:[exact]},lesson,invalidTarget).attempts[0],exact,'a duplicate target is not a canonical source');
+});
+
+for(const protocol of ['book','free'])test(`Reader progress and saved feedback restore the ${protocol} protocol through either catalog route`,async t=>{
+ for(const route of ['unit-1','copy-1'])await t.test(route,async t=>{
+  const f=await studyUI(t,'book-reader.js'),{data,payload,lesson}=bookData(),book=data.library.books[0],unit=book.units[0];
+  data.library.books.push({...book,duplicateOf:'canonical-book',units:[{...unit,id:'copy-1',equivalentUnitId:unit.id}]});
+  const id=await bookExerciseID(lesson.exercises[0]),alias='book-copy-1';
+  data.state.attempts.push({id:'saved-alias',lessonId:protocol==='free'?'free':alias,exerciseId:protocol==='free'?alias+'-'+id:id,answer:'I am working.',feedback:{verdict:'correct',summary:'Restored alias assessment',explanation:'Good.',source:'codex'}});
+  const before=JSON.stringify(data.state);location.hash='#/unit/'+route;f.api=async()=>payload;
+  await f.module.mountBookUnit(f.root,data,route,async()=>data);
+  assert.match(f.root.querySelector('#book-progress').innerHTML,/<strong>1<span> \/ 1<\/span>/);
+  f.root.querySelector('#book-start').click();
+  assert.equal(f.root.querySelector('#answer').value,'I am working.');
+  assert.match(f.root.querySelector('#book-feedback').innerHTML,/Restored alias assessment/);
+  assert.equal(JSON.stringify(data.state),before);
+ });
+});
+
+test('Structured book practice opens its own delayed transfer and keeps that stage locked',async t=>{
+ const f=await studyUI(t,'book-reader.js'),{data,payload,lesson}=bookData();
+ const kinds=['write','write','rewrite','write','speak','rewrite','write'];
+ lesson.exercises=kinds.map((kind,i)=>({...lesson.exercises[0],id:'e'+(i+1),kind,prompt:'Independent task '+(i+1)}));
+ const groups=[['e1'],['e2'],['e3'],['e4','e5'],['e6'],['e7']];
+ lesson.studyPlan={stages:['diagnostic','input','practice','production','revision','transfer'].map((id,i)=>({id,title:'Stage '+id,purpose:'Practice the target skill.',minutes:10,exerciseIds:groups[i]})),revisionExerciseIds:['e6'],transfer:{exerciseIds:['e7'],delayDays:7}};
+ f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);f.root.querySelector('#book-start').click();
+ assert.doesNotMatch(f.root.querySelector('#book-main').innerHTML,/#\/transfer\//);
+ const transfer=f.root.querySelector('#book-transfer-stage');assert.ok(transfer);
+ transfer.click();
+ assert.match(f.root.querySelector('#book-main').innerHTML,/Independent task 7/);
+ assert.match(f.root.querySelector('#book-main').innerHTML,/Сначала заверши исправления/);
+ assert.equal(f.root.querySelector('#book-check').disabled,true);
+ assert.equal(f.requests.filter(request=>request.path==='/check').length,0);
+ assert.match(f.root.querySelector('#book-main').innerHTML,/#\/notebook\/new\/book-unit-1/);
+});
+
+test('Legacy book practice retains the generic transfer route',async t=>{
+ const f=await studyUI(t,'book-reader.js'),{data,payload}=bookData();
+ f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);f.root.querySelector('#book-start').click();
+ assert.match(f.root.querySelector('#book-main').innerHTML,/#\/transfer\/book-unit-1/);
+ assert.equal(f.root.querySelector('#book-transfer-stage'),null);
 });
 
 test('Versioning preserves double hyphens in a base ID and is stable when applied again',async()=>{

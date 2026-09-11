@@ -270,7 +270,6 @@
         "path-literary-reading",
         "path-debate-synthesis",
         "path-editing",
-        "path-c2-capstone",
         "research-discourse-listening",
         "research-public-correction",
         "extended-c2-literary",
@@ -282,10 +281,14 @@
         "extended-c2-shakespeare-idioms",
         "extended-c2-built-environment",
         "natural-c1-teams",
-        "sustained-clock-history"
+        "sustained-clock-history",
+        "path-c2-capstone"
       ],
       "diagnostic": "Если тема знакома, выполните два перевода, исправление и свободный устный ответ без чтения объяснения. Успех в знакомом образце не заменяет повторную проверку через 7–14 дней.",
-      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата."
+      "promotion": "Соберите письменную работу, запись речи, проверку понимания незнакомого материала и отсроченное повторение. Переходите дальше при устойчивом выполнении задач; ошибки используйте для индивидуального возврата.",
+      "finalLessonIds": [
+        "path-c2-capstone"
+      ]
     }
   ],
   "tenses": [

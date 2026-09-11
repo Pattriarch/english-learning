@@ -1,0 +1,836 @@
+{
+  "version": 1,
+  "overviewLessonIds": [
+    "articles",
+    "collocations",
+    "comparison",
+    "conditionals",
+    "future",
+    "linking",
+    "listening",
+    "modals",
+    "passive",
+    "past-story",
+    "path-cross-register",
+    "path-debate-synthesis",
+    "perfect",
+    "phrasal",
+    "prepositions",
+    "present",
+    "questions",
+    "research-complaint-resolution",
+    "speaking",
+    "verb-patterns",
+    "word-building",
+    "writing"
+  ],
+  "relations": [
+    {
+      "lessonId": "path-present-continuous",
+      "kind": "lesson",
+      "id": "present",
+      "title": "Simple или continuous? · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-continuous",
+      "kind": "book",
+      "id": "grammar-elementary-003",
+      "title": "I am doing (present continuous) · Essential Grammar in Use · Ebook 2015",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-continuous",
+      "kind": "book",
+      "id": "grammar-intermediate-001",
+      "title": "делаю прямо сейчас, ещё не закончил · English Grammar in Use · Fourth edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-continuous",
+      "kind": "book",
+      "id": "grammar-advanced-001",
+      "title": "Present continuous and present simple 1 · Advanced Grammar in Use · Third edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-articles-basic",
+      "kind": "lesson",
+      "id": "articles",
+      "title": "A, the или без артикля · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-articles-basic",
+      "kind": "book",
+      "id": "grammar-elementary-069",
+      "title": "a/an and the · Essential Grammar in Use · Ebook 2015",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-articles-basic",
+      "kind": "book",
+      "id": "grammar-intermediate-072",
+      "title": "впервые назвал — a, потом уже the · English Grammar in Use · Fourth edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-second-conditional",
+      "kind": "lesson",
+      "id": "conditionals",
+      "title": "Если бы всё было иначе · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-second-conditional",
+      "kind": "book",
+      "id": "grammar-elementary-100",
+      "title": "If I had … If we went … etc. · Essential Grammar in Use · Ebook 2015",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-second-conditional",
+      "kind": "book",
+      "id": "grammar-intermediate-038",
+      "title": "реально может случиться vs чистая фантазия · English Grammar in Use · Fourth edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-second-conditional",
+      "kind": "book",
+      "id": "grammar-advanced-084",
+      "title": "If 2 · Advanced Grammar in Use · Third edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-perfect",
+      "kind": "lesson",
+      "id": "perfect",
+      "title": "Опыт, результат и длительность · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-perfect",
+      "kind": "book",
+      "id": "grammar-elementary-020",
+      "title": "I have done (present perfect) and I did (past) · Essential Grammar in Use · Ebook 2015",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-perfect",
+      "kind": "book",
+      "id": "grammar-intermediate-013",
+      "title": "уже сделал vs сделал тогда · English Grammar in Use · Fourth edition",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-perfect",
+      "kind": "book",
+      "id": "grammar-intermediate-014",
+      "title": "есть точное время в прошлом — значит past simple · English Grammar in Use · Fourth edition",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-perfect",
+      "kind": "book",
+      "id": "grammar-advanced-003",
+      "title": "Past simple and present perfect · Advanced Grammar in Use · Third edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-place-time",
+      "kind": "lesson",
+      "id": "prepositions",
+      "title": "Предлоги в живых фразах · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-place-time",
+      "kind": "book",
+      "id": "grammar-elementary-103",
+      "title": "at 8 o’clock on Monday in April · Essential Grammar in Use · Ebook 2015",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-place-time",
+      "kind": "book",
+      "id": "grammar-intermediate-121",
+      "title": "время: at 5, on Monday, in May · English Grammar in Use · Fourth edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-place-time",
+      "kind": "book",
+      "id": "grammar-elementary-106",
+      "title": "in at on (places 1) · Essential Grammar in Use · Ebook 2015",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-place-time",
+      "kind": "book",
+      "id": "grammar-intermediate-123",
+      "title": "внутри, в точке, на поверхности · English Grammar in Use · Fourth edition · дополнительные нюансы",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-argument-essay",
+      "kind": "lesson",
+      "id": "writing",
+      "title": "Письмо, которое выполняет задачу · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-argument-essay",
+      "kind": "lesson",
+      "id": "linking",
+      "title": "Соединять мысли · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-argument-essay",
+      "kind": "lesson",
+      "id": "extended-b2-essay-thread",
+      "title": "Запись занятий: от позиций в треде к аргументированному эссе",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-review-writing",
+      "kind": "lesson",
+      "id": "extended-b1-review",
+      "title": "От фактов к полезной рецензии: небольшая городская выставка",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-simple",
+      "kind": "lesson",
+      "id": "present",
+      "title": "Simple или continuous? · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-past-simple",
+      "kind": "lesson",
+      "id": "past-story",
+      "title": "Рассказать, что случилось · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-past-continuous",
+      "kind": "lesson",
+      "id": "past-story",
+      "title": "Рассказать, что случилось · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-past-perfect",
+      "kind": "lesson",
+      "id": "past-story",
+      "title": "Рассказать, что случилось · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-narrative",
+      "kind": "lesson",
+      "id": "past-story",
+      "title": "Рассказать, что случилось · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-present-perfect-continuous",
+      "kind": "lesson",
+      "id": "perfect",
+      "title": "Опыт, результат и длительность · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-future-simple",
+      "kind": "lesson",
+      "id": "future",
+      "title": "Планы, решения и прогнозы · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-future-plans",
+      "kind": "lesson",
+      "id": "future",
+      "title": "Планы, решения и прогнозы · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-future-continuous",
+      "kind": "lesson",
+      "id": "future",
+      "title": "Планы, решения и прогнозы · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-future-perfect",
+      "kind": "lesson",
+      "id": "future",
+      "title": "Планы, решения и прогнозы · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-obligation",
+      "kind": "lesson",
+      "id": "modals",
+      "title": "Обязанность, совет и догадка · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-deduction",
+      "kind": "lesson",
+      "id": "modals",
+      "title": "Обязанность, совет и догадка · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-modal-perfect",
+      "kind": "lesson",
+      "id": "modals",
+      "title": "Обязанность, совет и догадка · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-zero-first",
+      "kind": "lesson",
+      "id": "conditionals",
+      "title": "Если бы всё было иначе · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-third-conditional",
+      "kind": "lesson",
+      "id": "conditionals",
+      "title": "Если бы всё было иначе · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-mixed-conditionals",
+      "kind": "lesson",
+      "id": "conditionals",
+      "title": "Если бы всё было иначе · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-countability",
+      "kind": "lesson",
+      "id": "articles",
+      "title": "A, the или без артикля · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-articles-advanced",
+      "kind": "lesson",
+      "id": "articles",
+      "title": "A, the или без артикля · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-questions-basic",
+      "kind": "lesson",
+      "id": "questions",
+      "title": "Задавать вопросы естественно · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-polite-questions",
+      "kind": "lesson",
+      "id": "questions",
+      "title": "Задавать вопросы естественно · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-passive-basic",
+      "kind": "lesson",
+      "id": "passive",
+      "title": "Когда важен результат · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-passive-advanced",
+      "kind": "lesson",
+      "id": "passive",
+      "title": "Когда важен результат · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-gerund-infinitive",
+      "kind": "lesson",
+      "id": "verb-patterns",
+      "title": "Doing или to do? · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-verb-patterns-advanced",
+      "kind": "lesson",
+      "id": "verb-patterns",
+      "title": "Doing или to do? · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-connectors-basic",
+      "kind": "lesson",
+      "id": "linking",
+      "title": "Соединять мысли · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-relative-basic",
+      "kind": "lesson",
+      "id": "linking",
+      "title": "Соединять мысли · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-comparatives",
+      "kind": "lesson",
+      "id": "comparison",
+      "title": "Сравнивать и уточнять количество · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-quantifiers-nuance",
+      "kind": "lesson",
+      "id": "comparison",
+      "title": "Сравнивать и уточнять количество · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-preposition-patterns",
+      "kind": "lesson",
+      "id": "prepositions",
+      "title": "Предлоги в живых фразах · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-collocations-b1",
+      "kind": "lesson",
+      "id": "collocations",
+      "title": "Слова, которые работают вместе · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-academic-collocations",
+      "kind": "lesson",
+      "id": "collocations",
+      "title": "Слова, которые работают вместе · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-everyday-phrasal",
+      "kind": "lesson",
+      "id": "phrasal",
+      "title": "Фразовые глаголы без зубрёжки · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-phrasal-nuance",
+      "kind": "lesson",
+      "id": "phrasal",
+      "title": "Фразовые глаголы без зубрёжки · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-word-formation",
+      "kind": "lesson",
+      "id": "word-building",
+      "title": "Расширять словарь осмысленно · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-email-basic",
+      "kind": "lesson",
+      "id": "writing",
+      "title": "Письмо, которое выполняет задачу · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-register-b2",
+      "kind": "lesson",
+      "id": "writing",
+      "title": "Письмо, которое выполняет задачу · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-repair-conversation",
+      "kind": "lesson",
+      "id": "speaking",
+      "title": "Говорить и поддерживать разговор · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-discussion-b2",
+      "kind": "lesson",
+      "id": "speaking",
+      "title": "Говорить и поддерживать разговор · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-listening-routine",
+      "kind": "lesson",
+      "id": "listening",
+      "title": "Слышать смысл, а не каждое слово · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-connected-speech",
+      "kind": "lesson",
+      "id": "listening",
+      "title": "Слышать смысл, а не каждое слово · практика нескольких тем",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-register-b2",
+      "kind": "lesson",
+      "id": "path-cross-register",
+      "title": "Смена регистра: повторение и проверка точности",
+      "relation": "related"
+    },
+    {
+      "lessonId": "extended-c2-register-performance",
+      "kind": "lesson",
+      "id": "path-cross-register",
+      "title": "Смена регистра: повторение и проверка точности",
+      "relation": "related"
+    },
+    {
+      "lessonId": "extended-a2-service",
+      "kind": "lesson",
+      "id": "research-complaint-resolution",
+      "title": "Жалоба и решение: короткая памятка и другая ситуация",
+      "relation": "related"
+    },
+    {
+      "lessonId": "extended-c1-facilitation",
+      "kind": "lesson",
+      "id": "path-debate-synthesis",
+      "title": "Итог дискуссии: схема для повторения",
+      "relation": "related"
+    },
+    {
+      "lessonId": "extended-c2-consensus",
+      "kind": "lesson",
+      "id": "path-debate-synthesis",
+      "title": "Итог дискуссии: схема для повторения",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-spelling-numbers",
+      "kind": "lesson",
+      "id": "extended-a1-registration",
+      "title": "Запись в книжный клуб: данные без догадок",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-ordering-checkout",
+      "kind": "lesson",
+      "id": "extended-a1-order",
+      "title": "Два предмета в кафе: заказать, исправить, проверить сумму",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-comparatives",
+      "kind": "lesson",
+      "id": "extended-a2-options",
+      "title": "Однодневная поездка: сравнить условия и пересмотреть план",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-telephone-messages",
+      "kind": "lesson",
+      "id": "extended-a2-phone",
+      "title": "Звонок в мастерскую: перенести получение и проверить договорённость",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-connected-speech",
+      "kind": "lesson",
+      "id": "research-connected-boundaries",
+      "title": "Границы слов: сцепление, упрощение и группы согласных",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-listening-decoding",
+      "kind": "lesson",
+      "id": "extended-b1-listening",
+      "title": "Почему он сменил работу: причины, поправка и границы уверенности",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-application-interview",
+      "kind": "lesson",
+      "id": "extended-b2-application",
+      "title": "Заявка координатора: факты, личный вклад и условия",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-report-data",
+      "kind": "lesson",
+      "id": "extended-b2-evidence",
+      "title": "Продлевать ли клуб: отчёт, который выдержит проверку",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-discussion-b2",
+      "kind": "lesson",
+      "id": "extended-b2-negotiate",
+      "title": "Языковой вечер: пересогласовать формат и распределить ответственность",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-mixed-conditionals",
+      "kind": "lesson",
+      "id": "extended-b2-regret-emphasis",
+      "title": "Если бы только: сожалеть и честно уточнять факты",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-lecture-listening",
+      "kind": "lesson",
+      "id": "extended-c1-lecture",
+      "title": "Библиотека меняется: от конспекта лекции к решению после вопросов",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-synthesis",
+      "kind": "lesson",
+      "id": "extended-c1-cross-text",
+      "title": "Гибридные занятия: как сопоставить три источника и обосновать финансирование",
+      "relation": "related"
+    },
+    {
+      "lessonId": "extended-b2-negotiate",
+      "kind": "lesson",
+      "id": "extended-c1-facilitation",
+      "title": "Вести встречу: сохранить разные цели и зафиксировать условное решение",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-lexical-precision",
+      "kind": "lesson",
+      "id": "extended-c1-lexical-lab",
+      "title": "Точное слово в рабочей записке: от значения к конструкции",
+      "relation": "related"
+    },
+    {
+      "lessonId": "research-report-data",
+      "kind": "lesson",
+      "id": "extended-c1-visual-data",
+      "title": "Как объяснить график: динамика, доли и границы выводов",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-nominalisation",
+      "kind": "lesson",
+      "id": "path-information-density",
+      "title": "Информационная плотность и распаковка",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-lexical-precision",
+      "kind": "lesson",
+      "id": "path-semantic-prosody",
+      "title": "Лексическое окружение и скрытая оценка",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-argument-essay",
+      "kind": "lesson",
+      "id": "path-diplomatic-disagreement",
+      "title": "Дипломатичное несогласие без потери позиции",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-synthesis",
+      "kind": "lesson",
+      "id": "path-source-mediation",
+      "title": "Медиация: несколько источников и разные аудитории",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-literary-reading",
+      "kind": "lesson",
+      "id": "extended-c2-literary",
+      "title": "«Последний ключ»: ненадёжный рассказчик и неоднозначная сцена",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-source-mediation",
+      "kind": "lesson",
+      "id": "extended-c2-synthesis",
+      "title": "Синтез без подмены: охват, ценность и решение о финансировании",
+      "relation": "related"
+    },
+    {
+      "lessonId": "extended-c1-facilitation",
+      "kind": "lesson",
+      "id": "extended-c2-consensus",
+      "title": "Вернуть разговор к сути: доступ в мастерскую и условное согласие",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-editing",
+      "kind": "lesson",
+      "id": "extended-c2-editor",
+      "title": "Исправить вывод, сохранить доверие: редактура публичной аналитики",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-register-b2",
+      "kind": "lesson",
+      "id": "extended-c2-register-performance",
+      "title": "Условное решение: другу, руководству и публичной аудитории",
+      "relation": "related"
+    },
+    {
+      "lessonId": "path-longform-reading",
+      "kind": "lesson",
+      "id": "sustained-clock-history",
+      "title": "Часы над Мерсер-стрит: удержать смысл целой статьи",
+      "relation": "related"
+    }
+  ],
+  "deepening": [
+    {
+      "lessonId": "extended-b2-essay-thread",
+      "afterLessonId": "path-argument-essay",
+      "reason": "Разобрать позиции пяти участников, написать ответ по материалам и пересмотреть аргумент после нового свидетельства."
+    },
+    {
+      "lessonId": "extended-b1-review",
+      "afterLessonId": "research-review-writing",
+      "reason": "Написать рецензию по фактам выставки и ответить новому читателю, отделяя известное от неизвестного."
+    },
+    {
+      "lessonId": "extended-a1-registration",
+      "afterLessonId": "research-spelling-numbers",
+      "reason": "Применить диктовку имени и чисел в карточке регистрации: сохранить пустое поле и обработать последующее исправление."
+    },
+    {
+      "lessonId": "extended-a1-order",
+      "afterLessonId": "research-ordering-checkout",
+      "reason": "Пройти заказ по меню через уточнение и ошибочную выдачу, пересчитать сумму и сохранить неподтверждённый статус исправления."
+    },
+    {
+      "lessonId": "extended-a2-options",
+      "afterLessonId": "path-comparatives",
+      "reason": "Сравнить три полных предложения по одинаковым критериям и изменить выбор после нового ограничения."
+    },
+    {
+      "lessonId": "extended-a2-phone",
+      "afterLessonId": "research-telephone-messages",
+      "reason": "Обработать исправление времени в нескольких репликах и передать запасной вариант получения, не объявляя его согласованным."
+    },
+    {
+      "lessonId": "research-connected-boundaries",
+      "afterLessonId": "path-connected-speech",
+      "reason": "Уточнить сцепление, упрощение и группы согласных; сравнить две собственные расшифровки трудной границы."
+    },
+    {
+      "lessonId": "extended-b1-listening",
+      "afterLessonId": "research-listening-decoding",
+      "reason": "Применить диагностику слухового сбоя к полному интервью и затем ответить на новый вопрос по исходным данным."
+    },
+    {
+      "lessonId": "extended-b2-application",
+      "afterLessonId": "research-application-interview",
+      "reason": "Продолжить заявку после изменения требований: честно назвать пробел в опыте и условия доступности."
+    },
+    {
+      "lessonId": "extended-b2-evidence",
+      "afterLessonId": "research-report-data",
+      "reason": "Проверить рекламное обещание по нескольким данным и подготовить решение по стоимости, масштабу и сбору новых сведений."
+    },
+    {
+      "lessonId": "extended-b2-negotiate",
+      "afterLessonId": "path-discussion-b2",
+      "reason": "Пересогласовать реальный набор условий по новым репликам и распределить ответственность с запросом подтверждения."
+    },
+    {
+      "lessonId": "extended-b2-regret-emphasis",
+      "afterLessonId": "path-mixed-conditionals",
+      "reason": "Соединить сожаление с новым навыком: полные усилительные do/does/did подтверждают именно оспоренный факт."
+    },
+    {
+      "lessonId": "extended-c1-lecture",
+      "afterLessonId": "path-lecture-listening",
+      "reason": "Сделать конспект полного материала и пересмотреть рекомендацию после отдельного Q&A."
+    },
+    {
+      "lessonId": "extended-c1-cross-text",
+      "afterLessonId": "path-synthesis",
+      "reason": "Сопоставить три полноценных источника по разным критериям и обосновать условное финансирование."
+    },
+    {
+      "lessonId": "extended-c1-facilitation",
+      "afterLessonId": "extended-b2-negotiate",
+      "reason": "Вести встречу четырёх участников: вовлечь молчавшую сторону, проверить понимание и отдельно записать решения и обязательства."
+    },
+    {
+      "lessonId": "extended-c1-lexical-lab",
+      "afterLessonId": "path-lexical-precision",
+      "reason": "Исправить смысл, исчисляемость и управление в полной рабочей записке, затем применить выбор в другом контексте."
+    },
+    {
+      "lessonId": "extended-c1-visual-data",
+      "afterLessonId": "research-report-data",
+      "reason": "Читать шкалы и легенды графиков, описывать динамику и объяснять расхождение абсолютного числа и доли."
+    },
+    {
+      "lessonId": "path-information-density",
+      "afterLessonId": "path-nominalisation",
+      "reason": "Разбирать неоднозначные цепочки существительных и явно восстанавливать отношения, не выдумывая исполнителя."
+    },
+    {
+      "lessonId": "path-semantic-prosody",
+      "afterLessonId": "path-lexical-precision",
+      "reason": "Отличать оценочное значение слова от тенденции его соседства; проверять употребления без объявления редкого сочетания ошибкой."
+    },
+    {
+      "lessonId": "path-diplomatic-disagreement",
+      "afterLessonId": "path-argument-essay",
+      "reason": "Возражать против точного масштаба вывода, различать контрпример и отрицание тенденции, назвать условие пересмотра позиции."
+    },
+    {
+      "lessonId": "path-source-mediation",
+      "afterLessonId": "path-synthesis",
+      "reason": "Добавить проверку независимости свидетельств и адаптацию разных показателей под решение адресата."
+    },
+    {
+      "lessonId": "extended-c2-literary",
+      "afterLessonId": "path-literary-reading",
+      "reason": "Сопоставить полноценный рассказ, сценическую версию и два читательских суждения: кто получает доступ к знанию."
+    },
+    {
+      "lessonId": "extended-c2-synthesis",
+      "afterLessonId": "path-source-mediation",
+      "reason": "Проверить независимые доказательства длинного досье и отделить новый вывод от ранее написанного эссе."
+    },
+    {
+      "lessonId": "extended-c2-consensus",
+      "afterLessonId": "extended-c1-facilitation",
+      "reason": "Восстановить смысл спорной фразы между разными перспективами и пересмотреть условия доступа после новых сведений."
+    },
+    {
+      "lessonId": "extended-c2-editor",
+      "afterLessonId": "path-editing",
+      "reason": "Отредактировать полную аналитику по проверенным данным и подготовить прозрачное публичное исправление после нового уточнения."
+    },
+    {
+      "lessonId": "extended-c2-register-performance",
+      "afterLessonId": "path-register-b2",
+      "reason": "Сохранить числовые условия, полномочия и ограничения через три адресата и два последующих уточнения."
+    },
+    {
+      "lessonId": "sustained-clock-history",
+      "afterLessonId": "path-longform-reading",
+      "reason": "Удержать дальние связи полной статьи, сопоставить свидетельства и пересмотреть адресный вывод по позднему источнику."
+    }
+  ],
+  "policy": {
+    "newTopicSequence": "One primary placement per authored lesson; mixed overview lessons are optional consolidation. Book chapters are source practice, not a second automatic grammar course.",
+    "credit": "No equivalent completion or historical progress migration. Every distinct output task retains its own evidence.",
+    "sourceRelations": "Shared core or related practice, not equivalence of whole chapters. Additional scopes remain available."
+  }
+}

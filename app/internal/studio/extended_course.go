@@ -56,6 +56,16 @@ func copyExtendedLessons(source []Lesson) []Lesson {
 			lesson.Exercises[j].Answers = append([]string(nil), lesson.Exercises[j].Answers...)
 			lesson.Exercises[j].MaterialIDs = append([]string(nil), lesson.Exercises[j].MaterialIDs...)
 		}
+		if lesson.StudyPlan != nil {
+			plan := *lesson.StudyPlan
+			plan.Stages = append([]LessonStudyStage(nil), plan.Stages...)
+			for j := range plan.Stages {
+				plan.Stages[j].ExerciseIDs = append([]string(nil), plan.Stages[j].ExerciseIDs...)
+			}
+			plan.RevisionExerciseIDs = append([]string(nil), plan.RevisionExerciseIDs...)
+			plan.Transfer.ExerciseIDs = append([]string(nil), plan.Transfer.ExerciseIDs...)
+			lesson.StudyPlan = &plan
+		}
 		result[i] = lesson
 	}
 	return result

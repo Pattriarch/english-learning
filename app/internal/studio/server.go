@@ -41,6 +41,7 @@ type LessonMaterial struct {
 	Figure     *LessonFigure `json:"figure,omitempty"`
 }
 type Exercise struct {
+	Revision    int      `json:"revision,omitempty"`
 	ID          string   `json:"id"`
 	Kind        string   `json:"kind"`
 	Prompt      string   `json:"prompt"`
@@ -49,6 +50,22 @@ type Exercise struct {
 	Hint        string   `json:"hint"`
 	Explanation string   `json:"explanation"`
 	MaterialIDs []string `json:"materialIds,omitempty"`
+}
+type LessonStudyStage struct {
+	ID          string   `json:"id"`
+	Title       string   `json:"title"`
+	Purpose     string   `json:"purpose"`
+	ExerciseIDs []string `json:"exerciseIds"`
+	Minutes     int      `json:"minutes"`
+}
+type LessonStudyPlan struct {
+	Stages              []LessonStudyStage `json:"stages"`
+	RevisionExerciseIDs []string           `json:"revisionExerciseIds"`
+	Transfer            LessonTransferPlan `json:"transfer"`
+}
+type LessonTransferPlan struct {
+	ExerciseIDs []string `json:"exerciseIds"`
+	DelayDays   int      `json:"delayDays"`
 }
 type Lesson struct {
 	ID        string           `json:"id"`
@@ -65,6 +82,7 @@ type Lesson struct {
 	Exercises []Exercise       `json:"exercises"`
 	Generated bool             `json:"generated"`
 	Materials []LessonMaterial `json:"materials,omitempty"`
+	StudyPlan *LessonStudyPlan `json:"studyPlan,omitempty"`
 }
 type Server struct {
 	db                   *database
@@ -73,6 +91,7 @@ type Server struct {
 	topics               json.RawMessage
 	library              json.RawMessage
 	learningPath         json.RawMessage
+	studyRoute           json.RawMessage
 	cinema               json.RawMessage
 	research             json.RawMessage
 	pronunciation        json.RawMessage
@@ -128,6 +147,7 @@ func (s *Server) Handler() http.Handler {
 	m.HandleFunc("POST /api/conversation/turn", s.conversationReply)
 	m.HandleFunc("GET /book-content/status.json", s.libraryStatus)
 	m.HandleFunc("GET /book-content/{name}", s.releasedBookContent)
+	m.HandleFunc("GET /book-recordings/{id}", s.serveBookRecording)
 	m.HandleFunc("POST /api/settings", s.settings)
 	m.HandleFunc("POST /api/check", s.check)
 	m.HandleFunc("POST /api/ai/test", s.testAI)
@@ -155,7 +175,7 @@ func (s *Server) Handler() http.Handler {
 	m.HandleFunc("POST /api/transcribe", s.transcribe)
 	m.HandleFunc("GET /api/anki/export", s.exportAnki)
 	m.HandleFunc("POST /api/anki/sync", s.syncAnki)
-	m.HandleFunc("GET /books/{name}", s.book)
+	m.HandleFunc("GET /books/{name...}", s.book)
 	m.Handle("GET /media/", http.StripPrefix("/media/", http.FileServer(http.Dir(filepath.Join(s.db.dir, "media")))))
 	m.Handle("GET /", http.FileServer(http.Dir(s.web)))
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
@@ -219,7 +239,8 @@ func (s *Server) findExercise(lesson, exercise string) (Lesson, Exercise, bool) 
 	for _, l := range s.allLessons() {
 		if l.ID == lesson {
 			for _, e := range l.Exercises {
-				if e.ID == exercise {
+				if authoredExerciseID(e) == exercise {
+					e.ID = exercise
 					return l, e, true
 				}
 			}
@@ -240,7 +261,7 @@ func (s *Server) bootstrap(w http.ResponseWriter, r *http.Request) {
 	})
 	out := map[string]any{"state": s.db.snapshot(), "settings": c, "hasKey": hasKey, "lessons": s.allLessons(), "topics": s.topics, "books": books}
 	out["bookStatus"] = s.bookBuildStatus()
-	for key, value := range map[string]json.RawMessage{"library": s.library, "learningPath": s.learningPath, "cinema": s.cinema, "research": s.research, "pronunciation": s.pronunciation, "subtitleSources": s.subtitles} {
+	for key, value := range map[string]json.RawMessage{"library": s.library, "learningPath": s.learningPath, "studyRoute": s.studyRoute, "cinema": s.cinema, "research": s.research, "pronunciation": s.pronunciation, "subtitleSources": s.subtitles} {
 		if len(value) > 0 {
 			out[key] = value
 		}
@@ -483,10 +504,42 @@ func serviceError(label string, status int) error {
 
 func (s *Server) book(w http.ResponseWriter, r *http.Request) {
 	name := r.PathValue("name")
-	if name != filepath.Base(name) || strings.ContainsAny(name, `/\`) || !strings.EqualFold(filepath.Ext(name), ".pdf") {
+	if !validBookFilename(name) {
 		problem(w, 400, errors.New("Неверное имя книги"))
 		return
 	}
+	var catalog struct {
+		Books []libraryBook `json:"books"`
+	}
+	_ = json.Unmarshal(s.library, &catalog)
+	registered := false
+	for _, book := range catalog.Books {
+		if book.Filename == name {
+			registered = true
+			break
+		}
+	}
+	if !registered {
+		http.NotFound(w, r)
+		return
+	}
+	root, err := os.OpenRoot(filepath.Join(s.content, "..", "..", "книги"))
+	if err != nil {
+		http.NotFound(w, r)
+		return
+	}
+	defer root.Close()
+	file, err := root.Open(filepath.FromSlash(name))
+	if err != nil {
+		http.NotFound(w, r)
+		return
+	}
+	defer file.Close()
+	info, err := file.Stat()
+	if err != nil || !info.Mode().IsRegular() {
+		http.NotFound(w, r)
+		return
+	}
 	w.Header().Set("Content-Type", "application/pdf")
-	http.ServeFile(w, r, filepath.Join(s.content, "..", "..", "книги", name))
+	http.ServeContent(w, r, filepath.Base(name), info.ModTime(), file)
 }

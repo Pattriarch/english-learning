@@ -19,6 +19,8 @@ from pathlib import Path
 
 import pymupdf
 
+from book_source_contract import pdf_source_path, unit_pages
+
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "app/data/parsed-books"
 CATALOG = ROOT / "app/content/library.json"
@@ -243,8 +245,9 @@ def main():
     catalog = json.loads(CATALOG.read_text(encoding="utf8"))
     books = {b["id"]: b for b in catalog["books"]}
     selected = [b for b in catalog["books"] if b["source"] != "ocr-and-visual-toc"]
-    docs = {b["id"]: pymupdf.open(ROOT / "книги" / b["filename"]) for b in selected}
-    hashes = {b["id"]: hashlib.sha256((ROOT / "книги" / b["filename"]).read_bytes()).hexdigest() for b in selected}
+    paths = {b["id"]: pdf_source_path(ROOT / "книги", b["filename"]) for b in selected}
+    docs = {b["id"]: pymupdf.open(paths[b["id"]]) for b in selected}
+    hashes = {b["id"]: hashlib.sha256(paths[b["id"]].read_bytes()).hexdigest() for b in selected}
     records, page_cache = [], {}
     work = [(b, u) for b in selected for u in b["units"] if not args.only or u["id"] in args.only]
     priority = {"grammar-intermediate-003": -3, "grammar-intermediate-001": -2, "grammar-intermediate-002": -1}
@@ -257,23 +260,26 @@ def main():
             assert source_unit["equivalentUnitId"] == u["id"]
             assert source_unit["title"] == u["title"]
         page_texts = []
-        for offset, p in enumerate(range(source_unit["page"], source_unit["endPage"] + 1)):
+        pages, text_pages = unit_pages(u), unit_pages(source_unit)
+        if len(pages) != len(text_pages):
+            raise ValueError("Equivalent editions have different unit page counts")
+        for canonical_page, p in zip(pages, text_pages):
             key = (source_book["id"], p)
             if key not in page_cache:
                 page_cache[key] = extract_page(docs[source_book["id"]][p - 1], source_book["id"])
             result = page_cache[key]
-            page_texts.append({"page": u["page"] + offset, "sourcePage": p, **result})
+            page_texts.append({"page": canonical_page, "sourcePage": p, **result})
         text = "\n\n".join(p["text"] for p in page_texts)
         warnings = sorted({w for p in page_texts for w in p["quality"]["warnings"]})
         if source_book["id"] != b["id"]:
             warnings.append("equivalent_clean_ebook_replaces_damaged_ocr_layer")
         record = {
             "schemaVersion": SCHEMA_VERSION, "unitId": u["id"], "bookId": b["id"],
-            "title": u["title"], "pages": [u["page"], u["endPage"]],
+            "title": u["title"], "pages": pages,
             "source": "text-layer-layout", "text": text, "pageTexts": page_texts,
             "provenance": {"filename": b["filename"], "sha256": hashes[b["id"]],
                            "textFilename": source_book["filename"], "textBookId": source_book["id"],
-                           "textUnitId": source_unit["id"], "textPages": [source_unit["page"], source_unit["endPage"]],
+                           "textUnitId": source_unit["id"], "textPages": text_pages,
                            "textSha256": hashes[source_book["id"]], "extractor": "PyMuPDF " + pymupdf.VersionBind},
             "quality": {"characters": len(text), "words": len(text.split()),
                         "pageCount": len(page_texts), "tableCount": sum(p["quality"]["tableCount"] for p in page_texts),

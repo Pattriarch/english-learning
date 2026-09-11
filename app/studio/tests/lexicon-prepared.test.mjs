@@ -89,7 +89,7 @@ test('prepared filter displays the prepared count, preserves other filters, and 
   return{total:99,offset:Number(params.get('offset')),items:[{id:'issue',word:'issue',kind:'word',preview:{en:'There is an issue.',targetSpans:[]},contextCount:3,preparedContexts:1}],metadata:{words:10188,phrases:36,preparedEntries:1234,topics:[{id:'work',title:'Работа',count:99}]}};
  };
  await f.module.mountLexicon(f.root,d,async()=>d);
- assert.ok(f.root.querySelector('#lexicon-quality').textContent.includes((1234).toLocaleString('ru-RU')+' статей с разобранным значением'));
+ assert.ok(f.root.querySelector('#lexicon-quality').textContent.includes((1234).toLocaleString('ru-RU')+' подборок с разобранным значением'));
  assert.ok(f.root.querySelector('#lexicon-prepared'));
  const query=f.root.querySelector('#lexicon-query');query.value='account issue';query.oninput({target:query});await scheduled();
  for(const [selector,value]of [['#lexicon-list','ngsl-1.2'],['#lexicon-kind','word'],['#lexicon-topic','work']]){

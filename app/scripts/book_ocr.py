@@ -17,6 +17,7 @@ from pathlib import Path
 
 import pypdfium2 as pdfium
 from book_ocr_fix import apply_corrections
+from book_source_contract import pdf_source_path, source_pages, unit_pages
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / "app/data/parsed-books"
@@ -114,13 +115,14 @@ def enrich_layout(books: list[dict]) -> None:
             atomic_json(path, content)
 
 
-def complete_unit(path: Path, expected_pages: int) -> bool:
+def complete_unit(path: Path, expected_pages: list[int]) -> bool:
     if not path.exists():
         return False
     try:
         unit = json.loads(path.read_text(encoding="utf-8-sig"))
+        source_pages(unit, expected_pages)
         return (unit.get("source") == "ocr" and unit.get("quality", {}).get("complete")
-                and len(unit.get("pageTexts", [])) == expected_pages)
+                and len(unit.get("pageTexts", [])) == len(expected_pages))
     except (OSError, ValueError):
         return False
 
@@ -128,14 +130,15 @@ def complete_unit(path: Path, expected_pages: int) -> bool:
 def process_book(book: dict, dpi: int, limit: int | None, force: bool) -> dict:
     directory = WORK / book["id"]
     directory.mkdir(parents=True, exist_ok=True)
-    document = pdfium.PdfDocument(str(ROOT / "книги" / book["filename"]))
+    document = pdfium.PdfDocument(str(pdf_source_path(ROOT / "книги", book["filename"])))
     units = []
     for unit in book["units"][:limit]:
         output_path = OUTPUT / (unit["id"] + ".json")
-        if not force and complete_unit(output_path, unit["endPage"] - unit["page"] + 1):
+        pages = unit_pages(unit)
+        if not force and complete_unit(output_path, pages):
             continue
         rendered = []
-        for number in range(unit["page"], unit["endPage"] + 1):
+        for number in pages:
             image_path = directory / f"page-{number:03d}.png"
             page = document[number - 1]
             # Stay conservatively below Windows OCR's limit even on older builds.

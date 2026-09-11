@@ -20,9 +20,11 @@ class PreparedFigureTests(unittest.TestCase):
         full = json.loads((APP/'content/extended-course-plan.json').read_text(encoding='utf-8-sig'))
         self.plan = {'modules': [m for m in full['modules'] if m.get('visualDataSpec')]}
 
-    def test_both_reviewed_figures_are_included(self):
+    def test_reviewed_charts_and_scene_are_included(self):
         result = verify_figures(self.app, self.plan)
-        self.assertEqual(len(result), 2)
+        self.assertEqual(len(result), 3)
+        self.assertEqual({e['id'] for e in result}, {
+            'commuting-active-share', 'commuting-mode-comparison', 'courtyard-actions'})
         self.assertEqual({e['materialId'] for e in result}, {'m1', 'm2'})
 
     def test_missing_or_modified_asset_blocks_publication(self):

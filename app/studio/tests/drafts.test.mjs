@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {getDraft,queueDraft,localDraft,retryPendingDrafts} from '../core.js';
+import {getDraft,queueDraft,localDraft,retryPendingDrafts,saveDraftConfirmed} from '../core.js';
 
 function storedDraft(t,key,value){
   const descriptor=Object.getOwnPropertyDescriptor(globalThis,'localStorage');
@@ -70,4 +70,56 @@ test('Pending drafts from a closed offline session are retried when connectivity
   await retryPendingDrafts();
   assert.deepEqual(sent,[{key:'offline',text:'Retained offline'}]);
   assert.equal(localDraft('offline').pending,false);
+});
+
+function confirmedFixture(t){
+ const previous={localStorage:globalThis.localStorage,document:globalThis.document,fetch:globalThis.fetch},values=new Map(),calls=[];
+ globalThis.localStorage={get length(){return values.size;},key:i=>[...values.keys()][i],getItem:k=>values.get(k)||null,setItem:(k,v)=>values.set(k,v)};
+ globalThis.document={querySelector:()=>null};
+ const f={values,calls,response:async body=>({ok:true,json:async()=>({draft:{text:body.text,at:new Date().toISOString()}})})};
+ globalThis.fetch=async(_url,request)=>{const body=JSON.parse(request.body);calls.push(body);return f.response(body);};
+ t.after(()=>{for(const[key,value]of Object.entries(previous)){if(value===undefined)delete globalThis[key];else globalThis[key]=value;}});
+ return f;
+}
+
+test('confirmed saves reject server failure or mismatched acknowledgements without staging a replacement',async t=>{
+ const f=confirmedFixture(t),key='confirmed-failure',previous={text:'Original plan',at:'2026-09-11T09:00:00Z',pending:false};
+ f.values.set('ew-draft:'+key,JSON.stringify(previous));
+ f.response=async()=>({ok:false,json:async()=>({error:'Archive storage unavailable'})});
+ await assert.rejects(saveDraftConfirmed(key,'Revised plan'),/Archive storage unavailable/);
+ assert.deepEqual(localDraft(key),previous);
+ f.response=async()=>({ok:true,json:async()=>({draft:{text:'Different plan',at:new Date().toISOString()}})});
+ await assert.rejects(saveDraftConfirmed(key,'Revised plan'),/не подтвердил/);assert.deepEqual(localDraft(key),previous);
+ f.response=async body=>({ok:true,json:async()=>({draft:{text:body.text,at:new Date().toISOString()}})});
+ await saveDraftConfirmed(key,'Revised plan');assert.equal(localDraft(key).text,'Revised plan');assert.equal(localDraft(key).pending,false);
+});
+
+test('confirmed plan save supersedes queued old autosaves and prevents pending retry from replaying them',async t=>{
+ const f=confirmedFixture(t),key='confirmed-order';let unblock,held=false;
+ f.response=async body=>{if(body.key==='unrelated-blocker'&&!held){held=true;await new Promise(resolve=>unblock=resolve);}return {ok:true,json:async()=>({draft:{text:body.text,at:new Date().toISOString()}})};};
+ const blocker=queueDraft('unrelated-blocker','Other note',true);await new Promise(setImmediate);
+ const old=queueDraft(key,'Old queued plan',true),confirmed=saveDraftConfirmed(key,'Acknowledged new plan');
+ const retry=retryPendingDrafts();unblock();await Promise.all([blocker,old,confirmed,retry]);
+ assert.deepEqual(f.calls.filter(c=>c.key===key),[{key,text:'Acknowledged new plan'}]);assert.equal(localDraft(key).text,'Acknowledged new plan');
+ queueDraft(key,'Old debounce plan');await saveDraftConfirmed(key,'Current plan after debounce');
+ await new Promise(resolve=>setTimeout(resolve,650));
+ assert.equal(f.calls.some(c=>c.text==='Old debounce plan'),false);assert.equal(localDraft(key).text,'Current plan after debounce');
+});
+
+test('confirmed save waits for an already running autosave and leaves its acknowledgement current',async t=>{
+ const f=confirmedFixture(t),key='confirmed-running';let unblock;
+ f.response=async body=>{if(body.text==='Running old plan')await new Promise(resolve=>unblock=resolve);return{ok:true,json:async()=>({draft:{text:body.text,at:new Date().toISOString()}})};};
+ const old=queueDraft(key,'Running old plan',true);await new Promise(setImmediate);
+ const confirmed=saveDraftConfirmed(key,'Current confirmed plan');unblock();await Promise.all([old,confirmed]);
+ assert.deepEqual(f.calls.map(c=>c.text),['Running old plan','Current confirmed plan']);assert.equal(localDraft(key).text,'Current confirmed plan');
+});
+
+test('a genuinely newer ordinary edit during confirmation still wins after its own save',async t=>{
+ const f=confirmedFixture(t),key='confirmed-new-edit';let unblock;
+ f.response=async body=>{if(body.text==='Confirmed snapshot')await new Promise(resolve=>unblock=resolve);return{ok:true,json:async()=>({draft:{text:body.text,at:new Date().toISOString()}})};};
+ const confirmed=saveDraftConfirmed(key,'Confirmed snapshot');await new Promise(setImmediate);
+ const newer=queueDraft(key,'My new ordinary edit',true);unblock();await confirmed;
+ assert.equal(localDraft(key).text,'My new ordinary edit');assert.equal(localDraft(key).pending,true);
+ await newer;assert.equal(localDraft(key).pending,false);assert.equal(localDraft(key).text,'My new ordinary edit');
+ assert.deepEqual(f.calls.map(c=>c.text),['Confirmed snapshot','My new ordinary edit']);
 });
