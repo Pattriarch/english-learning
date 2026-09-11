@@ -340,7 +340,7 @@ func (s *Server) bookBuildStatus() map[string]any {
 		}
 	}
 	// Keep private model diagnostics, source text and machine paths off bootstrap.
-	return map[string]any{"state": stored.State, "updatedAt": stored.UpdatedAt, "total": total, "ready": ready, "visualReady": visualReady, "running": running, "failed": failed, "units": units, "books": books}
+	return map[string]any{"state": stored.State, "updatedAt": stored.UpdatedAt, "total": total, "ready": ready, "visualReady": visualReady, "running": running, "failed": failed, "units": units, "books": books, "intake": s.bookIntakeStatus(units)}
 }
 
 func (s *Server) libraryStatus(w http.ResponseWriter, r *http.Request) {
