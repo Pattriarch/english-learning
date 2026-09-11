@@ -343,6 +343,69 @@ def cached_call(path, prompt, payload, schema, timeout):
         raise
 
 
+def replay_format_repair(path, sources, draft, timeout, *, subset=False):
+    """Replay a started repair with its exact, independently checked old input.
+
+    Validator changes can make an earlier draft acceptable, but later reviews
+    still commit to the repair output. Historical error messages are evidence,
+    not recomputed input. A reviewer repair may select only the formerly broken
+    corrections, each of which must still equal the current source/proposal.
+    """
+    binding = path.with_suffix('.request.json')
+    if not binding.exists():
+        if path.exists():
+            raise ValueError('Unbound format repair checkpoint: ' + str(path))
+        return None
+    request = read(binding)
+    committed = {key: request.get(key) for key in ['policy', 'prompt', 'payload', 'schema']}
+    if (committed['policy'] != POLICY or value_sha(committed) != request.get('sha256') or
+            not compatible_contract(committed['prompt'], committed['schema'], DRAFT_PROMPT, DRAFT_SCHEMA)):
+        raise ValueError('Format repair request is not independently bound: ' + str(path))
+    payload = committed['payload']
+    reason_key = 'validationErrors' if subset else 'validationError'
+    if not isinstance(payload, dict) or set(payload) != {'sources', 'draft', reason_key}:
+        raise ValueError('Invalid format repair payload: ' + str(path))
+    selected, proposed = payload['sources'], payload['draft']
+    if subset:
+        source_by_id = {row['rowId']: row for row in sources}
+        draft_by_id = {row['rowId']: row for row in draft}
+        if (not isinstance(selected, list) or not selected or not isinstance(proposed, list) or
+                any(not isinstance(row, dict) or not isinstance(row.get('rowId'), str) for row in selected + proposed)):
+            raise ValueError('Invalid format repair subset: ' + str(path))
+        ids = [row['rowId'] for row in selected]
+        if (len(set(ids)) != len(ids) or [row['rowId'] for row in proposed] != ids or
+                any(source_by_id.get(row['rowId']) != row for row in selected) or
+                any(draft_by_id.get(row['rowId']) != row for row in proposed)):
+            raise ValueError('Changed format repair source/proposal subset: ' + str(path))
+        reasons = payload[reason_key]
+        if (not isinstance(reasons, list) or len(reasons) != len(ids) or
+                any(not isinstance(item, dict) or set(item) != {'rowId', 'error'} or
+                    not isinstance(item['error'], str) or not item['error'].strip() for item in reasons) or
+                [item['rowId'] for item in reasons] != ids):
+            raise ValueError('Invalid format repair reasons: ' + str(path))
+    elif (selected != sources or proposed != draft or
+          not isinstance(payload[reason_key], str) or not payload[reason_key].strip()):
+        raise ValueError('Changed format repair sources/draft: ' + str(path))
+    # cached_call retains its strict prompt/payload/checksum guards. A request
+    # with no output resumes that same call, never a newly synthesized request.
+    result = cached_call(path, DRAFT_PROMPT, payload, DRAFT_SCHEMA, timeout)
+    rows = result.get('rows') if isinstance(result, dict) else None
+    if (not isinstance(rows, list) or len(rows) != len(selected) or
+            any(not isinstance(row, dict) or not isinstance(row.get('rowId'), str) for row in rows) or
+            {row['rowId'] for row in rows} != {row['rowId'] for row in selected}):
+        raise ValueError('Format repair changed correction identities: ' + str(path))
+    return rows
+
+
+def require_contiguous_repairs(paths):
+    missing = False
+    for path in paths:
+        started = path.exists() or path.with_suffix('.request.json').exists()
+        if missing and started:
+            raise ValueError('Non-contiguous format repair checkpoint: ' + str(path))
+        missing = missing or not started
+
+
 def batch(index, inputs, timeout):
     folder = WORK / 'batches' / f'{index:04}'
     final = folder / 'verified.json'
@@ -355,8 +418,15 @@ def batch(index, inputs, timeout):
         return {'batch': index, 'rows': len(inputs), 'status': 'resumed'}
     draft = cached_call(folder / 'draft.json', DRAFT_PROMPT, inputs, DRAFT_SCHEMA, timeout)
     rows = draft['rows']
+    repair_paths = [folder / f'format-repair-{number}.json' for number in [1, 2]]
+    require_contiguous_repairs(repair_paths)
     # Structural defects are sent back explicitly; never silently relaxed.
     for attempt in range(3):
+        if attempt < 2:
+            replayed = replay_format_repair(repair_paths[attempt], inputs, rows, timeout)
+            if replayed is not None:
+                rows = replayed
+                continue
         try:
             validate_rows(rows, inputs)
             break
@@ -389,7 +459,15 @@ def batch(index, inputs, timeout):
         # proposal, then require a fresh semantic review; never accept a repair
         # simply because its fields are now complete.
         input_by_id = {source['rowId']: source for source in inputs}
+        repair_paths = [folder / f'review-format-repair-{iteration}-{number}.json' for number in [1, 2]]
+        require_contiguous_repairs(repair_paths)
         for repair in range(3):
+            if repair < 2:
+                replayed = replay_format_repair(repair_paths[repair], inputs, list(corrections.values()),
+                                                timeout, subset=True)
+                if replayed is not None:
+                    corrections.update({row['rowId']: row for row in replayed})
+                    continue
             broken, reasons = [], []
             for row_id, candidate in corrections.items():
                 try:

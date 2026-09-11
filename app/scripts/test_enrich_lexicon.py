@@ -118,6 +118,163 @@ class TemporaryLexicon(unittest.TestCase):
         return self.prepare()
 
 
+class PersistedRepairReplayTests(TemporaryLexicon):
+    def seed_chain(self, reviewer=False):
+        sources = self.fixture(3 if reviewer else 1)['rows']
+        originals = [analysis(source) for source in sources]
+        corrected = copy.deepcopy(originals)
+        for row in corrected:
+            row['usageNotes'][0] += ' Учитывайте конкретного адресата сообщения.'
+        middle = copy.deepcopy(corrected)
+        for row in middle:
+            row['usageNotes'][0] += ' Это первая уточненная формулировка.'
+        final = copy.deepcopy(middle)
+        for row in final:
+            row['usageNotes'][0] += ' Укажите причину возникшего препятствия.'
+        expected = [middle[0], final[1], corrected[2]] if reviewer else final
+        invalid_before = [corrected[0], corrected[1], middle[1]] if reviewer else [originals[0], middle[0]]
+        validator = enrich.validate_rows
+
+        def old_validator(rows, inputs):
+            validator(rows, inputs)
+            if any(row in invalid_before for row in rows):
+                raise ValueError('Former validator required a different target spelling')
+            return rows
+
+        def cli(prompt, payload, schema, path, timeout):
+            if path.name == 'draft.json':
+                result = {'rows': originals}
+            elif path.name == 'format-repair-1.json' and not reviewer:
+                result = {'rows': middle}
+            elif path.name == 'format-repair-2.json' and not reviewer:
+                result = {'rows': final}
+            elif path.name == 'review-1.json':
+                result = {'checkedRowIds': [row['rowId'] for row in originals],
+                          'corrections': corrected if reviewer else [], 'blocked': []}
+            elif path.name == 'review-format-repair-1-1.json' and reviewer:
+                self.assertEqual(payload['sources'], sources[:2])
+                result = {'rows': middle[:2]}
+            elif path.name == 'review-format-repair-1-2.json' and reviewer:
+                self.assertEqual(payload['sources'], sources[1:2])
+                result = {'rows': final[1:2]}
+            elif path.name == 'review-2.json' and reviewer:
+                self.assertEqual(payload['proposedRows'], expected)
+                result = {'checkedRowIds': [row['rowId'] for row in originals], 'corrections': [], 'blocked': []}
+            else:
+                self.fail('Unexpected call: ' + path.name)
+            enrich.atomic_json(path, result)
+            return result
+
+        with patch.object(enrich, 'call_cli', side_effect=cli), patch.object(enrich, 'validate_rows', side_effect=old_validator):
+            enrich.batch(1, sources, 5)
+        folder = self.work / 'batches/0001'
+        before = {path.name: path.read_bytes() for path in folder.glob('*.json')}
+        (folder / 'verified.json').unlink()
+        return sources, folder, before, expected
+
+    def test_resume_replays_entire_draft_chain_even_when_original_now_valid(self):
+        sources, folder, before, expected = self.seed_chain()
+        enrich.validate_rows(enrich.read(folder / 'draft.json')['rows'], sources)
+        enrich.batch(1, sources, 5)
+        self.forbid_real_cli.assert_not_called()
+        self.assertEqual(enrich.read(folder / 'verified.json')['rows'], expected)
+        self.assertEqual({path.name: path.read_bytes() for path in folder.glob('*.json')}, before)
+
+    def test_resume_replays_exact_reviewer_subsets_and_requires_the_later_review(self):
+        sources, folder, before, expected = self.seed_chain(reviewer=True)
+        enrich.validate_rows(enrich.read(folder / 'review-1.json')['corrections'], sources)
+        enrich.batch(1, sources, 5)
+        self.forbid_real_cli.assert_not_called()
+        receipt = enrich.read(folder / 'verified.json')
+        self.assertEqual(receipt['rows'], expected)
+        self.assertTrue(all(proof['file'] == 'review-2.json' for proof in receipt['accepted'].values()))
+        self.assertEqual({path.name: path.read_bytes() for path in folder.glob('*.json')}, before)
+
+    def test_started_request_without_output_resumes_the_exact_historical_payload(self):
+        sources, folder, before, expected = self.seed_chain()
+        path = folder / 'format-repair-1.json'
+        response = enrich.read(path)
+        saved = enrich.read(path.with_suffix('.request.json'))
+        path.unlink()
+
+        def cli(prompt, payload, schema, output, timeout):
+            self.assertEqual(output, path)
+            self.assertEqual(payload, saved['payload'])
+            self.assertEqual(prompt, saved['prompt'])
+            self.assertEqual(schema, saved['schema'])
+            enrich.atomic_json(output, response)
+            return response
+
+        with patch.object(enrich, 'call_cli', side_effect=cli) as calls:
+            enrich.batch(1, sources, 5)
+        self.assertEqual(calls.call_count, 1)
+        self.assertEqual(enrich.read(folder / 'verified.json')['rows'], expected)
+        self.assertEqual({p.name: p.read_bytes() for p in folder.glob('*.json')}, before)
+
+    def test_corrupt_binding_or_resigned_mismatched_source_and_parent_draft_are_rejected(self):
+        sources, folder, before, _ = self.seed_chain()
+        path = folder / 'format-repair-1.request.json'
+        original = enrich.read(path)
+        for kind in ['checksum', 'source', 'parent-draft', 'contract']:
+            with self.subTest(kind=kind):
+                request = copy.deepcopy(original)
+                if kind == 'checksum':
+                    request['payload']['validationError'] += ' changed without updating SHA'
+                elif kind == 'source':
+                    request['payload']['sources'][0]['en'] += ' Changed.'
+                elif kind == 'parent-draft':
+                    request['payload']['draft'][0]['meaningEn'] += ' Changed.'
+                else:
+                    request['prompt'] += '\nUse a different contract.'
+                if kind != 'checksum':
+                    request['sha256'] = enrich.value_sha({k: request[k] for k in ['policy', 'prompt', 'payload', 'schema']})
+                enrich.atomic_json(path, request)
+                with self.assertRaisesRegex(ValueError, 'Format repair|Changed format repair'):
+                    enrich.batch(1, sources, 5)
+                path.write_bytes(before[path.name])
+        self.forbid_real_cli.assert_not_called()
+        self.assertFalse((folder / 'verified.json').exists())
+
+    def test_changed_repair_output_is_rejected_by_its_next_exact_bound_request(self):
+        sources, folder, before, _ = self.seed_chain()
+        for name in ['format-repair-1.json', 'format-repair-2.json']:
+            with self.subTest(name=name):
+                path = folder / name
+                changed = enrich.read(path)
+                changed['rows'][0]['meaningEn'] += ' Unexpected valid alteration.'
+                enrich.atomic_json(path, changed)
+                with self.assertRaisesRegex(ValueError, 'Changed (format repair|checkpoint)'):
+                    enrich.batch(1, sources, 5)
+                path.write_bytes(before[name])
+        self.forbid_real_cli.assert_not_called()
+
+    def test_reviewer_repair_rejects_wrong_subset_proposals_and_output_identities(self):
+        sources, folder, before, _ = self.seed_chain(reviewer=True)
+        binding = folder / 'review-format-repair-1-2.request.json'
+        request = enrich.read(binding)
+        request['payload']['draft'][0]['meaningEn'] += ' Not the preceding correction.'
+        request['sha256'] = enrich.value_sha({k: request[k] for k in ['policy', 'prompt', 'payload', 'schema']})
+        enrich.atomic_json(binding, request)
+        with self.assertRaisesRegex(ValueError, 'Changed format repair source/proposal subset'):
+            enrich.batch(1, sources, 5)
+        binding.write_bytes(before[binding.name])
+        path = folder / 'review-format-repair-1-1.json'
+        changed = enrich.read(path)
+        changed['rows'][1] = copy.deepcopy(changed['rows'][0])
+        enrich.atomic_json(path, changed)
+        with self.assertRaisesRegex(ValueError, 'Format repair changed correction identities'):
+            enrich.batch(1, sources, 5)
+        self.forbid_real_cli.assert_not_called()
+
+    def test_orphaned_second_repair_is_not_silently_skipped(self):
+        sources, folder, _, _ = self.seed_chain()
+        (folder / 'format-repair-1.json').unlink()
+        (folder / 'format-repair-1.request.json').unlink()
+        with self.assertRaisesRegex(ValueError, 'Non-contiguous format repair checkpoint'):
+            enrich.batch(1, sources, 5)
+        self.forbid_real_cli.assert_not_called()
+
+
 class SnapshotAndSourceTests(TemporaryLexicon):
     def test_invalid_review_correction_is_repaired_then_reviewed_again(self):
         sources = self.fixture()['rows']

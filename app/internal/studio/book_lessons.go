@@ -143,20 +143,30 @@ func (s *Server) loadBookLessonWithRelease(id string, release *bookRelease) (boo
 	for _, exercise := range lesson.Exercises {
 		exerciseIDs[exercise.ID] = true
 	}
-	pointIDs := map[string]bool{}
+	pointTexts := map[string]string{}
+	pointSections := map[[2]string]bool{}
 	for _, coverage := range p.SourceCoverage {
 		if strings.TrimSpace(coverage.Point) == "" || !sectionTitles[coverage.SectionTitle] {
 			return lesson, errors.New("unmapped source teaching point")
 		}
 		if lesson.StudyPlan != nil {
-			if !safeID.MatchString(coverage.PointID) || pointIDs[coverage.PointID] || len(coverage.ExerciseIDs) == 0 {
-				return lesson, errors.New("source point needs a unique ID and practice")
+			if !safeID.MatchString(coverage.PointID) || len(coverage.ExerciseIDs) == 0 {
+				return lesson, errors.New("source point needs a stable ID and practice")
 			}
-			pointIDs[coverage.PointID] = true
+			// One teaching point can be explained in several sections. Its exact
+			// wording stays stable; each point/section pair remains unique.
+			pair := [2]string{coverage.PointID, coverage.SectionTitle}
+			if previous, exists := pointTexts[coverage.PointID]; (exists && previous != coverage.Point) || pointSections[pair] {
+				return lesson, errors.New("source point has conflicting or duplicate coverage")
+			}
+			pointTexts[coverage.PointID] = coverage.Point
+			pointSections[pair] = true
+			practiceIDs := map[string]bool{}
 			for _, id := range coverage.ExerciseIDs {
-				if !exerciseIDs[id] {
-					return lesson, errors.New("source point refers to missing practice")
+				if !exerciseIDs[id] || practiceIDs[id] {
+					return lesson, errors.New("source point refers to missing or repeated practice")
 				}
+				practiceIDs[id] = true
 			}
 		}
 	}
