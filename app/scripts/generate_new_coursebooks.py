@@ -49,6 +49,7 @@ from coursebook_analysis_seed import load_seed
 from coursebook_editorial_patch import load_patch
 from codex_transport import codex_http_arguments
 import coursebook_lesson_template as template
+from coursebook_transport_schema import permitted_transport
 
 
 APP = Path(__file__).resolve().parents[1]
@@ -473,6 +474,14 @@ def signal_provider_pause(path):
                 atomic_json(marker, record)
 
 
+def model_policy(schema):
+    fields = schema.get("properties", {})
+    if fields.get("kind") == {"type": "string", "enum": ["coursebook-field-repair-v1"]}:
+        return "lesson-field-editor", "gpt-5.6-sol"
+    role = "lesson-author" if "sections" in fields else "source-analysis" if "requiredPoints" in fields else "independent-review"
+    return role, "gpt-5.6-sol" if role == "lesson-author" else "gpt-6-astra"
+
+
 def call_model(prompt, payload, schema, attachments, path, timeout):
     """Isolated read-only CLI call with every hash-checked source image attached."""
     path = Path(path)
@@ -480,12 +489,14 @@ def call_model(prompt, payload, schema, attachments, path, timeout):
     for item in attachments:
         if file_sha(item["path"]) != item["sha256"]:
             raise ValueError("Source image changed before transport")
-    role = "lesson-author" if "sections" in schema.get("properties", {}) else "source-analysis" if "requiredPoints" in schema.get("properties", {}) else "independent-review"
-    model = "gpt-5.6-sol" if role == "lesson-author" else "gpt-6-astra"
+    role, model = model_policy(schema)
+    request_path = path.with_suffix(".request.json")
+    transport = permitted_transport(strict_model_schema(schema), payload,
+        read(request_path).get("transportSchema") if request_path.exists() else None)
     invocation = {"version": 1, "role": role, "model": model,
                   "requestSha256": file_sha(path.with_suffix(".request.json")) if path.with_suffix(".request.json").exists() else None,
                   "promptSha256": template.text_sha(prompt), "payloadSha256": template.value_sha(payload),
-                  "schemaSha256": template.value_sha(schema), "transportSchemaSha256": template.value_sha(strict_model_schema(schema)),
+                  "schemaSha256": template.value_sha(schema), "transportSchemaSha256": template.value_sha(transport),
                   "attachments": deepcopy(attachments), "httpArguments": codex_http_arguments()}
     invocation_path = path.with_suffix(".invocation.json")
     if invocation_path.exists() and read(invocation_path) != invocation:
@@ -497,7 +508,7 @@ def call_model(prompt, payload, schema, attachments, path, timeout):
         output, schema_path = work / "answer.json", work / "schema.json"
         input_path = work / "input.txt"
         input_path.write_text(prompt + "\nINPUT DATA:\n" + json.dumps(payload, ensure_ascii=False), encoding="utf-8")
-        atomic_json(schema_path, strict_model_schema(schema))
+        atomic_json(schema_path, transport)
         command = codex_command() + ["exec", "--model", model, "--skip-git-repo-check", "--ignore-user-config", "--ignore-rules",
             "--ephemeral", "--sandbox", "read-only", "-c", "features.shell_tool=false",
             "-c", "features.unified_exec=false", "-c", 'web_search="disabled"', "--color", "never",
@@ -532,8 +543,13 @@ def call_model(prompt, payload, schema, attachments, path, timeout):
 def cached_call(path, prompt, payload, schema, attachments, timeout):
     path = Path(path)
     binding = path.with_suffix(".request.json")
+    try:
+        transport = permitted_transport(strict_model_schema(schema), payload,
+            read(binding).get("transportSchema") if binding.exists() else None)
+    except ValueError as error:
+        raise ValueError("Changed model checkpoint transport schema") from error
     committed = {"version": VERSION, "prompt": prompt, "payload": payload, "schema": schema,
-                 "transportSchema": strict_model_schema(schema), "attachments": attachments}
+                 "transportSchema": transport, "attachments": attachments}
     request = {**committed, "sha256": template.value_sha(committed)}
     for item in attachments:
         if file_sha(item["path"]) != item["sha256"]:
@@ -579,7 +595,12 @@ def verify_call(record, folder, expected, attachments):
     if file_sha(path) != record["sha256"] or file_sha(path.with_suffix(".request.json")) != record["requestSha256"]:
         raise ValueError("Model response/request evidence changed")
     request = read(path.with_suffix(".request.json"))
-    committed = {"version": VERSION, **expected, "transportSchema": strict_model_schema(expected["schema"]), "attachments": attachments}
+    try:
+        transport = permitted_transport(strict_model_schema(expected["schema"]), expected["payload"],
+                                         request.get("transportSchema"))
+    except ValueError as error:
+        raise ValueError("Model receipt did not review the exact source/proposal/images: transport schema") from error
+    committed = {"version": VERSION, **expected, "transportSchema": transport, "attachments": attachments}
     if request != {**committed, "sha256": template.value_sha(committed)}:
         raise ValueError("Model receipt did not review the exact source/proposal/images")
     invocation_path = path.with_suffix(".invocation.json")
@@ -587,12 +608,12 @@ def verify_call(record, folder, expected, attachments):
         if not invocation_path.exists() or record.get("invocationSha256") != file_sha(invocation_path):
             raise ValueError("Model invocation provenance changed or is unbound")
         invocation = read(invocation_path)
-        role = "lesson-author" if "sections" in expected["schema"].get("properties", {}) else "source-analysis" if "requiredPoints" in expected["schema"].get("properties", {}) else "independent-review"
+        role, model = model_policy(expected["schema"])
         expected_invocation = {"version": 1, "role": role,
-            "model": "gpt-5.6-sol" if role == "lesson-author" else "gpt-6-astra",
+            "model": model,
             "requestSha256": record["requestSha256"], "promptSha256": template.text_sha(expected["prompt"]),
             "payloadSha256": template.value_sha(expected["payload"]), "schemaSha256": template.value_sha(expected["schema"]),
-            "transportSchemaSha256": template.value_sha(strict_model_schema(expected["schema"])),
+            "transportSchemaSha256": template.value_sha(transport),
             "attachments": attachments, "httpArguments": invocation.get("httpArguments")}
         if (invocation != expected_invocation or not isinstance(invocation.get("httpArguments"), list)
                 or 'model_providers.openai-http.supports_websockets=false' not in invocation["httpArguments"]
@@ -726,16 +747,47 @@ def apply_editorial_patch(lesson, bundle, folder, draft_path):
     return candidate
 
 
+def field_repair_evidence(bundle, folder):
+    """Reconstruct an automated text proposal before it can accompany review."""
+    path = Path(folder) / "field-repair-proof.json"
+    if not path.exists():
+        return None
+    from coursebook_field_repair import build_request, prepare_patch
+    record = read(path)
+    if (set(record) != {"version", "proposalFile", "evidence"}
+            or record["version"] != 1
+            or not re.fullmatch(r"lesson-field-repair-[1-6]\.json", record.get("proposalFile", ""))):
+        raise ValueError("Invalid automated field-repair proof")
+    proposal_path = Path(folder) / record["proposalFile"]
+    committed = read(proposal_path.with_suffix(".request.json"))
+    payload = committed["payload"]
+    analysis = read(Path(folder) / "analysis.json")
+    expected = build_request(bundle, folder, payload["baseFile"],
+                             analysis["requiredPoints"], payload["findings"])
+    prepared = prepare_patch(bundle, folder, expected, proposal_path)
+    if (record["evidence"] != prepared["evidence"]
+            or read(Path(folder) / "editorial-patch.json") != prepared["patch"]):
+        raise ValueError("Automated field proposal differs from its exact editorial patch")
+    patched = load_patch(bundle, folder)
+    if patched is None or patched[0] != prepared["candidate"]:
+        raise ValueError("Automated field proposal candidate changed")
+    return {"file": path.name, "sha256": file_sha(path), "proposal": prepared["evidence"]}
+
+
 def lesson_review_request(lesson, base, bundle, folder):
     """Include hash-bound independent editorial observations in final review."""
     request = template.build_review_request(lesson, base)
     notes = editorial_findings(bundle, folder)
     patched = load_patch(bundle, folder)
+    field_proof = field_repair_evidence(bundle, folder)
     if patched is not None:
         request["payload"]["editorialPatch"] = patched[1]
-        request["prompt"] += ("\nThe candidate may include precisely documented human editorial field corrections. "
+        origin = "automated" if field_proof is not None else "human"
+        request["prompt"] += (f"\nThe candidate may include precisely documented {origin} editorial field corrections. "
             "These are unverified proposed text, not a model acceptance. Independently review the complete CURRENT candidate "
             "against every supplied source page and all requirements, including the corrected fields.\n")
+    if field_proof is not None:
+        request["payload"]["fieldRepairProposal"] = field_proof
     if notes is None and patched is None:
         return request
     if notes is not None:
@@ -904,6 +956,9 @@ def run_chapter(bundle, work, timeout=900):
     patched = load_patch(bundle, folder)
     if patched is not None:
         receipt["editorialPatch"] = patched[1]
+    field_proof = field_repair_evidence(bundle, folder)
+    if field_proof is not None:
+        receipt["fieldRepairProposal"] = field_proof
     verify_ready(receipt, bundle, folder)
     atomic_json(folder / "lesson.json", lesson)
     atomic_json(final, receipt)
@@ -927,6 +982,8 @@ def verify_ready(receipt, bundle, folder):
     patched = load_patch(bundle, folder)
     if receipt.get("editorialPatch") != (patched[1] if patched is not None else None):
         raise ValueError("Editorial patch differs from the final reviewed receipt")
+    if receipt.get("fieldRepairProposal") != field_repair_evidence(bundle, folder):
+        raise ValueError("Automated field proposal differs from the final reviewed receipt")
     analysis_review = verify_call(receipt["analysisAcceptance"], folder, analysis_review_request(analysis, bundle), bundle["attachments"])
     if not validate_analysis_review(analysis_review, analysis, bundle):
         raise ValueError("Source inventory was not independently accepted")

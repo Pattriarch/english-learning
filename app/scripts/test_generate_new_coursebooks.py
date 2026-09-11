@@ -886,6 +886,65 @@ class OfflinePipelineTests(unittest.TestCase):
         self.assertEqual(pipeline.read(checkpoint.with_suffix(".raw.json")), raw)
         self.assertFalse(captured["cwd"].exists(), "Private input transport directory was not cleaned up")
 
+    def test_automated_field_proposal_has_exact_sol_transport_and_requires_new_full_review(self):
+        import coursebook_field_repair as fields
+        self.run_offline()
+        original = pipeline.read(self.work / "verified.json")
+        base_file = "lesson-draft-1.json"
+        raw = pipeline.read(self.work / base_file)
+        findings = [{"path": ["subtitle"], "issue": "Уточнить самостоятельное применение материала главы."}]
+        request = fields.build_request(self.bundle, self.work, base_file,
+                                       original["analysis"]["requiredPoints"], findings)
+        response = {key: request["payload"][key]
+                    for key in fields.RESPONSE_SCHEMA["properties"] if key != "changes"}
+        response["changes"] = [{"path": ["subtitle"], "before": raw["subtitle"],
+            "after": raw["subtitle"] + " с самостоятельным объяснением выбора",
+            "reason": "Уточнить цель самостоятельного применения без изменения содержания главы."}]
+        proposal = self.work / "lesson-field-repair-1.json"
+        captured = {}
+
+        def popen(command, **kwargs):
+            captured["model"] = command[command.index("--model") + 1]
+            captured["schema"] = pipeline.read(command[command.index("--output-schema") + 1])
+            write_json(command[command.index("--output-last-message") + 1], response)
+            return Mock(returncode=0)
+
+        with patch.object(pipeline, "codex_command", return_value=["codex-offline-test"]), \
+                patch.object(pipeline.subprocess, "Popen", side_effect=popen):
+            pipeline.cached_call(proposal, **request, attachments=self.bundle["attachments"], timeout=10)
+        self.assertEqual(captured["model"], "gpt-5.6-sol")
+        self.assertEqual(captured["schema"]["properties"]["inputSha256"]["enum"],
+                         [request["payload"]["inputSha256"]])
+        prepared = fields.prepare_patch(self.bundle, self.work, request, proposal)
+        write_json(self.work / "editorial-patch.json", prepared["patch"])
+        write_json(self.work / "field-repair-proof.json", {"version": 1,
+            "proposalFile": proposal.name, "evidence": prepared["evidence"]})
+        with self.assertRaises(ValueError):
+            pipeline.verify_ready(original, self.bundle, self.work)
+        (self.work / "verified.json").unlink()
+        base = pipeline.author_request(self.bundle, original["analysis"], self.work)
+        review_request = pipeline.lesson_review_request(prepared["candidate"], base, self.bundle, self.work)
+        self.assertIn("automated editorial", review_request["prompt"])
+        self.assertNotIn("human editorial", review_request["prompt"])
+        self.assertEqual(review_request["payload"]["candidate"], prepared["candidate"])
+        review_path = self.work / "lesson-review-2.json"
+        with patch.object(pipeline, "call_model", side_effect=self.fake_model):
+            pipeline.cached_call(review_path,
+                **{key: review_request[key] for key in ("prompt", "payload", "schema")},
+                attachments=self.bundle["attachments"], timeout=10)
+        receipt = deepcopy(original)
+        receipt.update(lesson=prepared["candidate"], lessonSha256=contract.value_sha(prepared["candidate"]),
+            lessonAcceptance=pipeline.checkpoint_record(review_path),
+            editorialPatch=pipeline.load_patch(self.bundle, self.work)[1],
+            fieldRepairProposal=pipeline.field_repair_evidence(self.bundle, self.work))
+        write_json(self.work / "lesson.json", prepared["candidate"])
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.work))
+        changed = deepcopy(response)
+        changed["changes"][0]["reason"] += " Изменено после проверки."
+        write_json(proposal, changed)
+        with self.assertRaises(ValueError):
+            pipeline.verify_ready(receipt, self.bundle, self.work)
+
     def test_persistent_quota_sources_block_new_calls_but_keep_bound_cache_readable(self):
         checkpoint = self.work / "accepted-call.json"
         request = {"prompt": "Read the complete source.", "payload": {"source": "full"},
