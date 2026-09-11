@@ -1,0 +1,475 @@
+{
+  "version": 1,
+  "publishedAt": "2026-09-11T08:14:04.112835+00:00",
+  "scope": "AI-assisted completion of the selected 2240 contexts; not a human full-bank review or complete CEFR/image coverage",
+  "baselineSHA256": "0dc07b85915afa20f1f04ec5e3bb4e8f544db75564cdbe0c98ccbb75b29b9aeb",
+  "entriesSHA256": "71c53166854828fb8c9f02b7482a87963ba3371084625bf0b3eae6b60c097c60",
+  "entriesBytes": 70229225,
+  "overlaySHA256": "dd07b2386876d3267fa3b4de682a40a793ef50f6bc8ffb174174c4cead488236",
+  "selectionRepairsSHA256": "8a891a30667e4c4925b44e1e92673a5d82bf635da6ea94902f99a0abaabdff00",
+  "coverageSHA256": "e144a50097e631c6b280569912d8a23a573d160d6ea09585559e2b2153058114",
+  "sourceRetentionAndReadiness": {
+    "errors": [],
+    "sourceEntryIDsRetained": 10188,
+    "sourceContextIDsEnglishSpansAndAttributionRetained": 17745,
+    "reviewedCompletionRows": 2240,
+    "newContextAdditions": 299,
+    "outputSHA256": "71c53166854828fb8c9f02b7482a87963ba3371084625bf0b3eae6b60c097c60",
+    "entries": 10188,
+    "contexts": 18044,
+    "entriesWithoutRussianContext": 0,
+    "contextsWithoutRussian": 199,
+    "studyContextsWithoutRussian": 0,
+    "entriesWithoutDefinition": 0,
+    "contextsWithoutSelectedMeaning": 15397,
+    "studyContextsWithoutSelectedMeaning": 15287,
+    "entriesWithTranslatedSelectedMeaning": 1990,
+    "entriesWithoutStudyContext": 0,
+    "entriesWithoutFrequencyRank": 8,
+    "entriesWithoutVerifiedCEFR": 10188,
+    "entriesWithoutImages": 10188,
+    "editorialContextReviewedEntries": 208,
+    "aiReviewedContexts": 2240,
+    "excludedSourceContexts": 309,
+    "studyContexts": 17735,
+    "entriesWithSourceContextIssues": 637
+  },
+  "rebuildingPublishedBankIsByteIdentical": true,
+  "contractTests": {
+    "passed": 29,
+    "failed": 0,
+    "logSHA256": "3e5771a43352cbb7d1b2e3891715e4068ec34618880bba6d01ca64d2af8a0b03"
+  },
+  "checkpointHashMeaning": "Hashes identify exact locally retained independent AI review receipts. They are evidence identifiers, not claims of human review. Input revisions and full CLI diagnostics stay in ignored data.",
+  "parentCheckpoints": [
+    {
+      "file": "batches/001/verified.json",
+      "sha256": "e570db306b184992c334f59a97f163ecb7905ea6d09683b13883c1e963ace9b0",
+      "inputSHA256": "953e19133aa8bc66f6b2cec1a207195c9be7d5a5e069d3d368c1eb476310be62",
+      "rows": 48,
+      "finalReviewIteration": 4
+    },
+    {
+      "file": "batches/002/verified.json",
+      "sha256": "16453d9870316723419c391484c823adf408897cb7fb07872b265df651d1e0ad",
+      "inputSHA256": "d0086c0bd2f8e958fe2269dd57b7a3582dc5d60cae4bea4f8e451a86baba7069",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/003/verified.json",
+      "sha256": "dad1e72872178bfcf3e0dfac91c20998939e4f4332d6cf4c250bd80f44ce20a0",
+      "inputSHA256": "2e3c8afcedbd66af454b765f6e3f1c6f2fbf9da4fb10f7ff27436087724c97d1",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/004/verified.json",
+      "sha256": "57fd5d1b569b2c40e75ac13addd88cabc8d80a58f82408fbd3ec7518b4df0b6c",
+      "inputSHA256": "652f77fc6be5b7e7672f5a0571e8440485803e58a29fabefdfca708cf131404b",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/005/verified.json",
+      "sha256": "9f3c8caf2fee6ed9cbb420d92d3769b98141482f515e1a649df50f36de2c706a",
+      "inputSHA256": "f726246b05dda5eea96f2bcba17cc501e5e6635bedbf8412ac478af790c216e0",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/006/verified.json",
+      "sha256": "4177b867583494b899f3ed27d336e928589ce38c6552973fc647676f13ed68ba",
+      "inputSHA256": "6fe4d2633954d2559e9cbf5c70b70906e6b5f4fab007a81b9c10a0a9246d57cc",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/007/verified.json",
+      "sha256": "c356108be6892fdd9d32826cc33f3af961a817065fa6c6429f9b6031f8819112",
+      "inputSHA256": "bc1126c72308c8f356eddabda112d32157bb72c1fb559ff43f669f0b289a6378",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/008/verified.json",
+      "sha256": "c03e9ecd4f61b3bf048a17b40287c8f3bf7d0bd3678a2fc86ba90fcbd2ff7f8f",
+      "inputSHA256": "5e3105398d267c64bdf25e04e1258e60fbe56c6440c168df375c63d2c96d2db3",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/009/verified.json",
+      "sha256": "adf81ee53d8902395b15b99a36f78e9ab4eec8a7ac011fd1e602c721f104a553",
+      "inputSHA256": "b317944bfba063ded4c62040659760f1b46460c3fe9b35b2e22ba34106479465",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/010/verified.json",
+      "sha256": "15c35865e78999205242709cf66e06ae35a5b6f79bcdb1016fe29a474ff0b538",
+      "inputSHA256": "76f476b3623a177b4dcddf5a4df49bf3e4ae0a5bcc3af94a1cfc05d8ddf360c8",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/011/verified.json",
+      "sha256": "c9f4e934653e88899f21be4b77e429a8bbb9eea19190bc43db072495d9d98140",
+      "inputSHA256": "649604712a2a1480714be1e4ba8076781e62a6974c9473ce04dfba5c567c5744",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/012/verified.json",
+      "sha256": "060e3c2a17c4d34425522b05ec89222eb17db0ab463f25be1866aaba06f4103d",
+      "inputSHA256": "f2fa69c7285db7df563eb9eb9dda3d716a4dce7b40038167454f4f27f39ee9c8",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/013/verified.json",
+      "sha256": "4db508157359c513ca4dc400b83d29c77faa78bdee9ee66a3a4cbf2e79a8685f",
+      "inputSHA256": "461c6c4f3da52967e283441106aa4c4a714ff4031c4f5f6ea984a5e7ab3c9cb8",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/014/verified.json",
+      "sha256": "4a533627e7391df13b12484db4d0f19e0459817caa601ec7f41c582b965a1f7e",
+      "inputSHA256": "78ec4b242a60a8b0e60ed79cb6cd2f90040ca361c11091bf1bf05e310c42cb56",
+      "rows": 48,
+      "finalReviewIteration": 4
+    },
+    {
+      "file": "batches/015/verified.json",
+      "sha256": "7ba9b0200da82d11c8e013cec0e17f83a9d1dfe69e29f0c68cad9565d200c883",
+      "inputSHA256": "53ee3f856a74d3299eae3d9a20144b9c235d3506e9aea8fce18a2f12ad12841d",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/016/verified.json",
+      "sha256": "1123114d4539f372d69573ec9f5a9ff75e1f9154640290de0134ec03e5bc5bec",
+      "inputSHA256": "5afbdf6ca11163210e433c762a5b635afe906a3819a3b96502858a58b1a50a4b",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/017/verified.json",
+      "sha256": "df32935ddd943e2c4e306d6b7bceddfd1fcb322b4a7898b51c831fa589f28e50",
+      "inputSHA256": "31d0a1574c467a123672cf9c58f752d02513af2b6261c974a0c57179bf0b146e",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/018/verified.json",
+      "sha256": "9967ece84997dcb91570d0c2fd6652e0778c6a48cfd0666e3d9dec59cab20128",
+      "inputSHA256": "4c7dd73e8a46499fbbb1ece9effc327519177be333a4cb33d74a890f6d83f710",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/019/verified.json",
+      "sha256": "02da4426a863f73c93d03598a4696a503fe15de987277d937aea96c3e2aee39a",
+      "inputSHA256": "33ffdcda1e4177e06269044dd12cabc746f310c5a08f0b59b3dc2239d173b845",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/020/verified.json",
+      "sha256": "6693184d57daba409c5c4dd2d9a88582ba3eca060f4297cdfa149300667eec59",
+      "inputSHA256": "8e7a81e06e826b2d6b5b3700ecb0441098b6b51a6248596eb08d608bb131e864",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/021/verified.json",
+      "sha256": "028468b12180691449fa6433f8df1b6d408fc97ed19ee1f6d73dbf382b8c1c49",
+      "inputSHA256": "d433b71e75cf89a203a348db909bd492d062495e7bc66baa8baf29aa95800bda",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/022/verified.json",
+      "sha256": "8a1a44309cdab782f0b953bf4003dfb2512db580f015f94ae2f4b87ca728f6b1",
+      "inputSHA256": "65ecf27badf77b7a25f1ef2e6b3735c735469e64272be5b75a23bb00eacb785d",
+      "rows": 48,
+      "finalReviewIteration": 4
+    },
+    {
+      "file": "batches/023/verified.json",
+      "sha256": "eee741b02f8643d5ff62e26713da7c9895b197f2df6a2123b8bda4a0944cc313",
+      "inputSHA256": "701f211f2fba55caf6813151eb5315148aa91d489dfcacfb79d5e8340bb7bc6f",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/024/verified.json",
+      "sha256": "2c2830f06b29434845e27f454caa49a58e95f985e55e62fb876318932ec1a027",
+      "inputSHA256": "b3b189dba19fe405f648eb14e72d70d803d861039ad3c01597ba61570ac8d6e2",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/025/verified.json",
+      "sha256": "bc83427c444bf1c3775d79b0b603bd3cc1661e7df865e0e625312917a4b4b5fe",
+      "inputSHA256": "4c7180340bd18f34059398a36aa8a7ae6c241bc4231897c26981ef2a408821fa",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/026/verified.json",
+      "sha256": "49d2bc395fa6c462784597c4356a9f80ca45aa8af44e2d1e66151db6e3178632",
+      "inputSHA256": "ee9141fa1112cdaea67acbddcb040ef67af90908be052eb0b0582751e65174a8",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/027/verified.json",
+      "sha256": "b926d93657b48eddf2e542dcd8240377a35a94ccdabccc353d89d621090a2ccb",
+      "inputSHA256": "d3248e23c1498e6c2892d31707b05441233f641e0aa2f8a0806d22891332dd33",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "batches/028/verified.json",
+      "sha256": "f1ec71ba9de74871f3b8e79bf2596027c54ca698388d05f994b7dc31f0157939",
+      "inputSHA256": "2dcedfb55df56242955e2dbc5debb4102bf682c4c1d3fe16f39a642d341c1d61",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/029/verified.json",
+      "sha256": "cd51b7ec09b2426e719360719c405662b22b5b9a4edad6337b4c2bb7eb6663a1",
+      "inputSHA256": "704123c7da735f7c1e1ddc5b31fd4ac234309005622996e101a86fd8f5e3de3c",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/030/verified.json",
+      "sha256": "bb4a5377b5dd57ec6f8bbb8d79ca1ca82941222f2a5823dec3f3c3aa6133f9f2",
+      "inputSHA256": "756f8b5e12722458dd9f8d9354e1ffd2f88079bf6a0ddf98734c8fef266da4b2",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/031/verified.json",
+      "sha256": "05e55f6e39d408f7f087ea86fbf83d9ca2e5717fe8f420e505b5f32e9e786a78",
+      "inputSHA256": "e9c0bd2cca49d6be130dc2309dda90744c25bcd552c6fc1bffb2b972e86fb12b",
+      "rows": 48,
+      "finalReviewIteration": 4
+    },
+    {
+      "file": "batches/032/verified.json",
+      "sha256": "d12d0352adcb463287795971195b88dc5f5c218babb81c4f86041e632a07fc01",
+      "inputSHA256": "32ad9b1783732c43e08a5a055ecfdc229a014f8de186e516ba0c086624bf5e6e",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/033/verified.json",
+      "sha256": "d65236967165419991839a0018872c7ab6c91556d94747cc659b1372279b3a3d",
+      "inputSHA256": "73e06939ce077f8dbbab5adef2a78ac28fbd6061ecdbb14cf9b03cea69f151a3",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/034/verified.json",
+      "sha256": "1ca4d120fd67f956ae454586d7cab2f17346db520d0581c3fc298c95f8f70701",
+      "inputSHA256": "7d905a8a0b60778652374f999ba386a906d49aaca14deb6fe0927b377ce9e391",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/035/verified.json",
+      "sha256": "1f2bc6bc7f74bc19d5a5317298c4019d2a46ed6c1980b2f583c90abc895838fd",
+      "inputSHA256": "3cb54adb628a9f7aab3e3898476438dc5ac2fc583e1349e4ebccef837930a0c4",
+      "rows": 48,
+      "finalReviewIteration": 4
+    },
+    {
+      "file": "batches/036/verified.json",
+      "sha256": "cac88eeb8488e693dacd95c6c92ac24b176a3a33e4a1ce8524c412a00e15b80d",
+      "inputSHA256": "d0a5a0e495ab621dbb94e30707d547ac670ed007dbd1ab6754ec61ba77a04b08",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/037/verified.json",
+      "sha256": "93b2d1908cb7052dbc8979b472a20cad8577e0cfbd1677664e2e00686376c7c1",
+      "inputSHA256": "ef39afa11f4706dc67878af81aa55ba0c6cfe8336864e4787c69ce2c031a7147",
+      "rows": 48,
+      "finalReviewIteration": 5
+    },
+    {
+      "file": "batches/038/verified.json",
+      "sha256": "e6d24c781087d091fac4bbec69569a049106b75683df8553a6ad2cec7126d39a",
+      "inputSHA256": "24bee41fa6164549b2e2689a7fb6cf1700821b3a7288c74aa89fc8bb5d9a47c3",
+      "rows": 48,
+      "finalReviewIteration": 5
+    },
+    {
+      "file": "batches/039/verified.json",
+      "sha256": "d690f93d15d8c0e78a47d6b433b25fcab0913df11af3ca42cff606e0358105e1",
+      "inputSHA256": "7fedda83ede601ea9949192effc8b67357b6407d05763656eb89e5d750563419",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/040/verified.json",
+      "sha256": "be38eecebc400030361cea2c425fce43a8d4734cbd7ef9bcab316079b3f1c4c3",
+      "inputSHA256": "5c6fcbbe633c5048ba35a235d06b98778e31e8c550289c2c68d85764dad967a9",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/041/verified.json",
+      "sha256": "45ccfe07e48717b3b2f5f2eb74aa7a5f7aa08542ffeb40f0d02a141f5c14ca3d",
+      "inputSHA256": "c556d39b1219c15b46a323b041f30e0919c3f2fe10b1181678670cce5fcf9ca5",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/042/verified.json",
+      "sha256": "ee0d538069134c08086d2a59503f57aeb4d9128512ca0c194b7cb5be019348c6",
+      "inputSHA256": "f61a450bae20659ccaf02b4fd54ed0ed53d2a025a960218e0ab6de1972f03f07",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/043/verified.json",
+      "sha256": "a9610d692f40b0ac84042afe199b4ee6f19b83c71d55e94285ab690c68ea2952",
+      "inputSHA256": "33e1a39dd5c922ad2154c29c2661b040cdba659e44a213a99564b131263ba1a5",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/044/verified.json",
+      "sha256": "fa116ceb0f5bc70f4239fff92a143e49b0dd5c81e134819af51ec1fb23d0edb1",
+      "inputSHA256": "852b15abbeab9ce1dcb13531c6a2da59875b5dfec1a7d636b0682b65755f1cb6",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/045/verified.json",
+      "sha256": "6a37e038e492893a98a188ee996f88fbda7ef97b563840dd2415e7ec9fd76d53",
+      "inputSHA256": "bd31c647c200591c49b6652b8f2c1355d142ea3a51cf60dcce12fcfd4c4a6ecf",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/046/verified.json",
+      "sha256": "2010a7ca19fad91e9df833849de2cb720b88693b3e0b99d29fe9682776af28c9",
+      "inputSHA256": "351ca28d5020863941e01847de4afba10ba24f5e7ec16315265a73f5c5ce2145",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "batches/047/verified.json",
+      "sha256": "64511a4aed588708b532400fd6774778728c66ca61fb315aed20164655743c14",
+      "inputSHA256": "b66ed4261ff14e0b6d462c0867e5038d24b1f93ee5cc57b27a8e20c602edfac9",
+      "rows": 32,
+      "finalReviewIteration": 2
+    }
+  ],
+  "replacementCheckpoints": [
+    {
+      "file": "replacement-round-3/batches/001/verified.json",
+      "sha256": "c22da57f30dffc6ba7cc7e49368489f4083ea52d88816d31162dd02d41d31e4f",
+      "inputSHA256": "f13379440752cb812e3222cfb4b47954e07c491bf7c0db83b1ff69c2a2455126",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "replacement-round-3/batches/002/verified.json",
+      "sha256": "8b3556e7e25f3906f465bba8edbb789af9ab10360c17993abcc092239c5fdd5c",
+      "inputSHA256": "897e6c3037c9cc3a9c6328dcbfe6e7b513339f31f91285a36efde83bcabc9e37",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "replacement-round-3/batches/003/verified.json",
+      "sha256": "430d31e57d128636ad9554db5fbd7e681fd56300b0c6adb179a9cadaad80b892",
+      "inputSHA256": "e8eaa8e428804e5d99dfa0416356243ab81bd69914ed4acdcf29de0da4bc6153",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "replacement-round-3/batches/004/verified.json",
+      "sha256": "24a57ef3bc4da6d953a5bd2bca43bc3b950ecce4db9441d7044aaa26ddc80617",
+      "inputSHA256": "3f4c012e9ed5c71199ae09ad82ebe6dc36ca08d321b60caaa852448cc521da25",
+      "rows": 48,
+      "finalReviewIteration": 2
+    },
+    {
+      "file": "replacement-round-3/batches/005/verified.json",
+      "sha256": "b9208284779bdeec25d9e9727bcd1ffbf94ab6f8ab591f4d12bcf499cf54dbe9",
+      "inputSHA256": "7c09f57cfc05fd89b0cc99d50eea5f53f32b0063b0f502f9ecc220033704db10",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "replacement-round-3/batches/006/verified.json",
+      "sha256": "1519d15c79b89221584b33a5991fa6b509d826931aeac2c57313eaeaf3dceb51",
+      "inputSHA256": "347e4123e6629a2abded67f8d037070cc6f873933782f0ac98f327246052e432",
+      "rows": 48,
+      "finalReviewIteration": 3
+    },
+    {
+      "file": "replacement-round-3/batches/007/verified.json",
+      "sha256": "9c21f9ff6999a2804fc09359388dedc920101ee9caf2687291766e55497e68b4",
+      "inputSHA256": "aaeac023352c927e75f3c513be4c64cf99646226d3b662b3b2960b0b175e18e3",
+      "rows": 7,
+      "finalReviewIteration": 1
+    },
+    {
+      "file": "replacement-round-4/batches/001/verified.json",
+      "sha256": "5dc1237bfe3be67325c63e3113607e61005d57cee984c1f0c119ad7349a2b881",
+      "inputSHA256": "4d0a38e6153f90c5e7722ce5259e8b704f093020975a9fa1a66bb19c39095320",
+      "rows": 1,
+      "finalReviewIteration": 1
+    }
+  ],
+  "peerSamples": [
+    {
+      "kind": "independent root AI",
+      "sampleSize": 35,
+      "receiptSHA256": "42aebf177d2e4bd64db8b5117327c0b72d680cf0b3bc2fa96deb7e5cc039b176"
+    },
+    {
+      "kind": "independent AI peer",
+      "sampleSize": 20,
+      "receiptSHA256": "0573e06894e4ac3135992015913868ad819e63f9579893454abc101dadf3dda2"
+    }
+  ],
+  "peerOverrides": [
+    {
+      "rowId": "lex-emergence-04a989df:wiktionary-a96735b143655e0c",
+      "en": "We watched the fox's slow emergence from its den after the noise stopped.",
+      "reviewNote": "Root peer sample rejected turtle emergence from its attached shell as an unsuitable physical description. This new example preserves emergence from an enclosure."
+    },
+    {
+      "rowId": "lex-flap-22917db8:wiktionary-5d24df464673043c",
+      "en": "During the storm, I could hear the flap of the loose canvas awning outside my window.",
+      "reviewNote": "Root peer sample found towel hitting the floor a weak collocation. Awning example preserves the noun meaning a sound produced by flapping; Merriam-Webster flap sense 2b was checked."
+    },
+    {
+      "rowId": "lex-ante-d968e224:wiktionary-853c51b221bf574d",
+      "en": "Our manager raised the ante by asking us to finish the project a week earlier.",
+      "reviewNote": "Independent late peer sample found a shift from demands/expectations toward a monetary prize in the classifier's replacement. This revision keeps the figurative increase in demands."
+    }
+  ],
+  "finalSingleContextRepair": {
+    "rowId": "lex-plasma-0c4ac837:tatoeba-10795379-2661544",
+    "en": "At the science museum, we watched glowing plasma inside a glass tube.",
+    "reason": "В исходном примере plasma входит в составной термин plasma membrane. Пять независимых итераций не согласовали надёжное отдельное определение выделенного компонента; это не объявляет исходное предложение неправильным. Для практики самостоятельного слова добавлен отдельный физический контекст, исходный термин сохранён в архиве.",
+    "peerReviewNote": "Root approved a separate transparent plasma sense after recurring component/compound ambiguity. Physics sense checked against US Department of Energy: https://www.energy.gov/science/doe-explainsplasma. New Russian translation, POS and selected meaning require fresh independent review. The new sentence is an original fictional observation, not a quotation."
+  },
+  "knownCoverageLimits": {
+    "wordEntriesWithoutIndividuallySelectedContextMeaning": 8198,
+    "activeContextsWithoutSelectedMeaning": 15287,
+    "wordsWithoutVerifiedCEFR": 10188,
+    "wordsWithoutImages": 10188,
+    "wordsWithoutVerifiedFrequencyRank": 8
+  }
+}

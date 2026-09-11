@@ -335,7 +335,7 @@ def collect_contexts(words: set[str], shortlist_size=4) -> tuple[dict, dict]:
         if score is None:
             continue
         eligible += 1
-        matched = set(normalized_word(m.group()) for m in re.finditer(r"[A-Za-z]+(?:['’\-][A-Za-z]+)*", row[2])) & words
+        matched = set(normalized_word(m.group()) for m in re.finditer(r"[^\W\d_]+(?:['’\-][^\W\d_]+)*", row[2])) & words
         for word in matched:
             candidate = (score, -int(row[0]), row)
             selected = best[word]
@@ -394,7 +394,19 @@ def validate_entries(document: dict, sources: list[dict]) -> None:
                 raise ValueError(f'Unknown context source: {source_id}')
             if context.get('senseId') and context['senseId'] not in senses:
                 raise ValueError(f'Context points to missing sense: {key}')
-            if source_id == 'tatoeba-eng' and context.get('senseId') and context['quality'] != 'context-reviewed':
+            if document.get('unicodeTokenSelectionValidated') and source_id == 'tatoeba-eng' and not context.get('excludedFromStudy') and context['targetSpans'] != target_spans(context['en'], entry['word']):
+                raise ValueError(f'Tatoeba target must be a complete Unicode token: {key}')
+            if context.get('excludedFromStudy') and (not context.get('exclusionReason') or context.get('selectionReviewSourceId') not in known_sources):
+                raise ValueError(f'Excluded source context needs an attributed reason: {key}')
+            if context.get('quality') == 'ai-context-reviewed':
+                review = context.get('completionReview', {})
+                selected = senses.get(context.get('senseId'), {})
+                if (review.get('sourceId') not in known_sources or
+                        selected.get('source', {}).get('sourceId') != review.get('sourceId') or
+                        not isinstance(review.get('reviewPasses'), int) or review['reviewPasses'] < 1 or
+                        not re.fullmatch('[a-f0-9]{64}', review.get('baseSHA256', ''))):
+                    raise ValueError('AI context alignment requires a selected editorial sense and review receipt')
+            if source_id == 'tatoeba-eng' and context.get('senseId') and context['quality'] not in {'context-reviewed', 'ai-context-reviewed'}:
                 raise ValueError('Tatoeba sense alignment must not be inferred automatically')
             if context.get('ru') and context.get('translationSource', {}).get('sourceId') not in known_sources:
                 raise ValueError(f'Russian context has no attribution: {key}')
@@ -428,13 +440,35 @@ def select_words(eligible, member_index, limit, previous_words=()):
     return sorted(chosen.values(), key=lambda w: (w['rank']['value'] if w['rank']['value'] is not None else 999999, w['key']))
 
 
+def retain_published_contexts(contexts, dictionary, previous_entries):
+    """Keep stable source records when an improved selector stops choosing them.
+
+    Repairs decide whether an old record remains usable; selection alone cannot
+    delete a context referenced by learner history or add unreviewed fallback
+    examples to a completed entry. Explicit overlays add replacement contexts. A
+    refreshed source with the same ID wins, so overlay hashes still detect an
+    actual source edit rather than silently replacing it with the old quotation.
+    """
+    for entry in previous_entries:
+        key = normalized_word(entry['word'])
+        selected = {context['id']: context for context in contexts.get(key, [])}
+        current = [selected.get(context['id'], json.loads(json.dumps(context))) for context in entry['contexts']]
+        contexts[key] = current
+        required_senses = {context.get('senseId') for context in current}
+        known_senses = {sense['id'] for sense in dictionary.get(key, [])}
+        for sense in entry.get('senses', []):
+            if sense['id'] in required_senses and sense['id'] not in known_senses:
+                dictionary.setdefault(key, []).append(json.loads(json.dumps(sense)))
+                known_senses.add(sense['id'])
+
+
 def build(limit=10000, pilot=False):
     words = load_ranked_words()
     dictionary = load_dictionary()
     member_index = memberships()
     cache = CACHE / "context-candidates.json"
     fingerprints = {s["id"]: file_sha(CACHE / s["file"]) for s in SOURCES if s["id"] != 'kaikki-simple'}
-    fingerprints["selectionVersion"] = "exact-token-v2-all-core-members"
+    fingerprints["selectionVersion"] = "unicode-token-v3-retained-publication-history"
     if cache.exists() and (saved := json.loads(cache.read_text(encoding="utf-8"))).get("fingerprints") == fingerprints:
         contexts, collection = saved["contexts"], saved["collection"]
     else:
@@ -443,11 +477,13 @@ def build(limit=10000, pilot=False):
     exact_contexts = contexts
     contexts = add_dictionary_contexts(contexts, dictionary)
     contexts = add_editorial_contexts(contexts, dictionary)
+    previous_path = OUT / 'entries.json'
+    previous_entries = json.loads(previous_path.read_text(encoding='utf-8'))['entries'] if previous_path.exists() else []
+    retain_published_contexts(contexts, dictionary, previous_entries)
     eligible = [w for w in words if contexts.get(w["key"])]
     ranked_keys = {w['key'] for w in words}
     eligible += [{'key': key, 'word': key, 'rank': {'sourceId': None, 'value': None, 'metric': None}} for key in sorted(member_index) if key not in ranked_keys and contexts.get(key)]
-    previous_path = OUT / 'entries.json'
-    previous_words = [normalized_word(e['word']) for e in json.loads(previous_path.read_text(encoding='utf-8'))['entries']] if previous_path.exists() else []
+    previous_words = [normalized_word(e['word']) for e in previous_entries]
     selected = select_words(eligible, member_index, limit, previous_words)
     entries = []
     for item in selected:
@@ -458,6 +494,19 @@ def build(limit=10000, pilot=False):
         if editorial_sense:
             entries[-1]['lexicalType'] = editorial_sense['lexicalType']
             entries[-1]['displayHeadword'] = editorial_sense['displayHeadword']
+    repairs_path = OUT / 'token-selection-repairs.json'
+    repairs = None
+    if repairs_path.exists():
+        from complete_context_lexicon import apply_selection_repairs
+        repairs = json.loads(repairs_path.read_text(encoding='utf-8'))
+        entries = apply_selection_repairs({'entries': entries}, repairs)['entries']
+    completion_path = OUT / 'editorial-completion.json'
+    completion = None
+    if completion_path.exists():
+        from complete_context_lexicon import apply_overlay
+        completion = json.loads(completion_path.read_text(encoding='utf-8'))
+        entries = apply_overlay({'entries': entries}, completion)['entries']
+        contexts.update({normalized_word(e['word']): e['contexts'] for e in entries})
     coverage = {"version": VERSION, "requestedWords": limit, "availableRankedCandidates": len(words), "availableWithLinkedContexts": len(exact_contexts), "availableWithAnyContext": len(eligible), "selectedWords": len(entries), "withDefinitions": sum(bool(e['senses']) for e in entries), "withRussianContexts": sum(any(c.get('ru') for c in e['contexts']) for e in entries), "contexts": sum(len(e['contexts']) for e in entries), "senses": sum(len(e['senses']) for e in entries), "editorReviewedWords": 0, "usReviewedWords": 0, "images": 0, "cefrRatedWords": 0, "core10000WithoutContext": [w['word'] for w in words[:10000] if w['key'] not in contexts], **collection}
     ranking = {w['key']: w for w in words}
     list_coverage = []
@@ -475,6 +524,18 @@ def build(limit=10000, pilot=False):
     coverage['editorReviewedWords'] = sum(e['quality']['reviewedContextCount'] > 0 for e in entries)
     coverage['usReviewedWords'] = sum(any(c['quality'] == 'context-reviewed' and c.get('variety') == 'en-US-compatible' for c in e['contexts']) for e in entries)
     coverage['reviewedContexts'] = sum(e['quality']['reviewedContextCount'] for e in entries)
+    coverage['aiReviewedContexts'] = sum(c.get('quality') == 'ai-context-reviewed' for e in entries for c in e['contexts'])
+    coverage['aiReviewedWords'] = sum(any(c.get('quality') == 'ai-context-reviewed' for c in e['contexts']) for e in entries)
+    coverage['contextsWithoutRussian'] = sum(not c.get('ru') for e in entries for c in e['contexts'])
+    coverage['studyContextsWithoutRussian'] = sum(not c.get('ru') and not c.get('excludedFromStudy') for e in entries for c in e['contexts'])
+    coverage['contextsWithoutSelectedMeaning'] = sum(not c.get('senseId') for e in entries for c in e['contexts'])
+    coverage['studyContextsWithoutSelectedMeaning'] = sum(not c.get('senseId') and not c.get('excludedFromStudy') for e in entries for c in e['contexts'])
+    coverage['entriesWithTranslatedSelectedMeaning'] = sum(any(c.get('ru') and c.get('senseId') and not c.get('excludedFromStudy') for c in e['contexts']) for e in entries)
+    coverage['entriesWithoutStudyContext'] = sum(not any(not c.get('excludedFromStudy') for c in e['contexts']) for e in entries)
+    coverage['excludedSourceContexts'] = sum(bool(c.get('excludedFromStudy')) for e in entries for c in e['contexts'])
+    coverage['studyContexts'] = sum(not c.get('excludedFromStudy') for e in entries for c in e['contexts'])
+    coverage['withSourceContextIssues'] = sum(any(c.get('sourceIssues') for c in e['contexts']) for e in entries)
+    coverage['aiReviewScope'] = 'Only named contexts in editorial-completion.json; separate AI drafting and semantic review, not full human review'
     coverage['withSourceIssues'] = sum(any(s.get('sourceIssues') for s in e['senses']) for e in entries)
     coverage['countingUnit'] = 'distinct source headword records; spelling variants and combining forms are explicitly marked, not counted as independently mastered lemmas'
     coverage['combiningForms'] = sum(e.get('lexicalType') == 'combining-form' for e in entries)
@@ -491,7 +552,13 @@ def build(limit=10000, pilot=False):
             entry['senses'] = [s for s in entry['senses'] if s['id'] in ids]
     receipts = [json.loads((CACHE / (s['file'] + '.receipt.json')).read_text(encoding='utf-8')) for s in SOURCES]
     source_records = [*receipts, *[{**data['source'], 'file': path.name, 'sha256': file_sha(path)} for path, data in editorial_documents()]]
+    if completion:
+        source_records.append({**completion['source'], 'file': completion_path.name, 'sha256': file_sha(completion_path)})
+    if repairs:
+        source_records.append({**repairs['source'], 'file': repairs_path.name, 'sha256': file_sha(repairs_path)})
     document = {"version": VERSION, "targetVariety": "en-US", "spanEncoding": "utf-16", "entries": pilot_entries if pilot else entries}
+    if repairs:
+        document['unicodeTokenSelectionValidated'] = True
     validate_entries(document, source_records)
     atomic_json(OUT / ('pilot-sources.json' if pilot else 'sources.json'), {'version': VERSION, 'sources': source_records})
     atomic_json(OUT / ("pilot.json" if pilot else "entries.json"), document)

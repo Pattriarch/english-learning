@@ -2,6 +2,8 @@
 
 Initial publication: 2026-09-10. `entries.json` is the word bank; `american-phrases.json` and `scenes.json` are separately authored additions. Word counts do not include phrases and do not measure CEFR attainment.
 
+Completion release, 2026-09-11: 10,188 source headword records, each with a reference definition and a Russian-translated active example. The bank contains 17,735 active contexts and 309 preserved source archives. Independent AI review covers 2,240 contexts in 1,782 entries, separately from the 208 existing editorial entries. Thus 1,990 words have an active translated example with a selected meaning; the remaining 8,198 words are contextual imports with reference definitions. The app's prepared filter distinguishes these groups. No complete CEFR classification or image collection is claimed. Exact hashes and review boundaries are recorded in `completion-release.json` and `coverage.json`.
+
 The initial bank contains 10,000 distinct source headwords, 17,557 English contexts, 8,927 words with a Russian context, and 9,292 words with at least one imported or editorial definition. Only 20 contexts were editorially reviewed at this publication. Subsequent figures belong to `coverage.json`, not this dated snapshot. NGSL 1.2, Spoken and supplementary lists are complete as contextual imports. The remaining GR/NAWL requirements initially comprise 188 distinct headwords; `required-gaps.json` records each missing item and the exact selection criteria.
 
 ## Reproduce
@@ -23,9 +25,11 @@ Files are replaced atomically. `coverage.outputSHA256` identifies the correspond
 - `rank` retains the named source metric. `RawFreq_Rank`, SFI rank and graded-reader sequence are different measures. A null rank remains unknown. `cefr:null` means no verified CEFR mapping, not A1 or C2.
 - `memberships` records every applicable required source list; overlapping lists must not be added together to count unique vocabulary.
 - `contexts[].targetSpans` use UTF-16 code units, compatible with JavaScript `String.slice`. They point to actual surface forms. Exact matches do not automatically conflate inflections, words, senses or families.
-- `contexts[].ru` can be null. Each translation carries its own `translationSource`; English and Russian authors need not be the same person.
+- `contexts[].ru` can be null in preserved source archives. In the completed release every active study context has Russian text. Each translation carries its own `translationSource`; English and Russian authors need not be the same person.
 - A Tatoeba context has `senseId:null` until meaning is reviewed. Dictionary senses are reference information, not automatically translations of that context. A dictionary's own nested example can retain its source sense, labelled `source-linked-context` and unreviewed.
 - `context-reviewed` concerns the explicitly linked original context, Russian translation and selected sense only. Other imported senses in that entry are still unverified. `sourceIssues` preserve identified source errors instead of teaching them as correct definitions.
+- `ai-context-reviewed` records a separate AI drafting and semantic-review workflow for the named context. Its `completionReview` receipt and selected editorial sense must agree. This status does not assert a human review of the entire entry or certify unrelated imported examples.
+- `excludedFromStudy:true` retains a defective source context and its stable ID for history, with an attributed `exclusionReason`. It must not be shown as a card or practice prompt. Every entry retains at least one active context. `studyContextsWithoutRussian` excludes these archives; the raw `contextsWithoutRussian` count includes them.
 - `targetVariety:en-US` is the learning target. Imported contexts and untagged IPA are not declared American. Pronunciation regional tags are retained literally; a neighboring audio filename is not evidence for an IPA variant.
 - Editorial `collocations` are combinations used in the cited scenario, not frequency claims. Topics and images stay empty without evidence. Original practice prompts require production in a situation, not multiple choice.
 
@@ -43,6 +47,8 @@ Files are replaced atomically. `coverage.outputSHA256` identifies the correspond
 The MIT licence of Wiktextract covers software, not blanket rights to dictionary content. Externally attributed quotations and audio are not imported under an assumed dictionary licence. The initial bank does not contain scraped Oxford definitions or unlicensed COCA data. Per-source legal pages and receipts are evidence boundaries, not a legal opinion about every possible redistribution.
 
 Detailed source research, corpus-size distinctions and CEFR limitations: `app/docs/CONTEXT-LEXICON-SOURCES-2026-09-10.md`.
+
+The completion/review workflow, Unicode-token corrections, meaning-specific editorial attribution and input-revision safeguards are documented in `app/docs/LEXICON-COMPLETION-2026-09-10.md`. When present, `token-selection-repairs.json` and `editorial-completion.json` are reapplied by the source build. Their original-source hashes prevent a later source refresh from silently attaching old editorial work to different English text.
 
 ## Saved feedback after content updates
 

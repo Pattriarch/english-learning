@@ -2,13 +2,13 @@
   "version": "context-lexicon-v1",
   "requestedWords": 10000,
   "availableRankedCandidates": 31224,
-  "availableWithLinkedContexts": 11695,
-  "availableWithAnyContext": 13855,
+  "availableWithLinkedContexts": 11691,
+  "availableWithAnyContext": 13853,
   "selectedWords": 10188,
-  "withDefinitions": 9480,
-  "withRussianContexts": 9115,
-  "contexts": 17745,
-  "senses": 20502,
+  "withDefinitions": 10188,
+  "withRussianContexts": 10188,
+  "contexts": 18044,
+  "senses": 22742,
   "editorReviewedWords": 208,
   "usReviewedWords": 205,
   "images": 0,
@@ -1316,14 +1316,14 @@
   ],
   "englishRowsScanned": 2036144,
   "eligibleLinkedSentences": 213708,
-  "wordsWithContext": 11695,
+  "wordsWithContext": 11691,
   "listCoverage": [
     {
       "sourceId": "ngsl-1.2",
       "requiredWords": 2809,
       "withContext": 2809,
       "inBankWithContext": 2809,
-      "withRussianContext": 2785,
+      "withRussianContext": 2809,
       "missingCount": 0
     },
     {
@@ -1331,7 +1331,7 @@
       "requiredWords": 5050,
       "withContext": 5050,
       "inBankWithContext": 5050,
-      "withRussianContext": 4875,
+      "withRussianContext": 5050,
       "missingCount": 0
     },
     {
@@ -1347,7 +1347,7 @@
       "requiredWords": 52,
       "withContext": 52,
       "inBankWithContext": 52,
-      "withRussianContext": 50,
+      "withRussianContext": 52,
       "missingCount": 0
     },
     {
@@ -1355,11 +1355,23 @@
       "requiredWords": 957,
       "withContext": 957,
       "inBankWithContext": 957,
-      "withRussianContext": 865,
+      "withRussianContext": 957,
       "missingCount": 0
     }
   ],
   "reviewedContexts": 208,
+  "aiReviewedContexts": 2240,
+  "aiReviewedWords": 1782,
+  "contextsWithoutRussian": 199,
+  "studyContextsWithoutRussian": 0,
+  "contextsWithoutSelectedMeaning": 15397,
+  "studyContextsWithoutSelectedMeaning": 15287,
+  "entriesWithTranslatedSelectedMeaning": 1990,
+  "entriesWithoutStudyContext": 0,
+  "excludedSourceContexts": 309,
+  "studyContexts": 17735,
+  "withSourceContextIssues": 637,
+  "aiReviewScope": "Only named contexts in editorial-completion.json; separate AI drafting and semantic review, not full human review",
   "withSourceIssues": 2,
   "countingUnit": "distinct source headword records; spelling variants and combining forms are explicitly marked, not counted as independently mastered lemmas",
   "combiningForms": 2,
@@ -1367,6 +1379,6 @@
   "scope": "available NGSL/GR/Spoken/supplement/NAWL words first, then available NGSL31k candidates by raw frequency; missing ranked/core words remain reported separately",
   "published": true,
   "outputFile": "entries.json",
-  "outputSHA256": "0dc07b85915afa20f1f04ec5e3bb4e8f544db75564cdbe0c98ccbb75b29b9aeb",
+  "outputSHA256": "71c53166854828fb8c9f02b7482a87963ba3371084625bf0b3eae6b60c097c60",
   "publishedWords": 10188
 }

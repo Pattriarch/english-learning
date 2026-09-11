@@ -109,6 +109,23 @@ class LexiconContractTests(unittest.TestCase):
         self.assertIsNone(result['sculpture'][0]['ru'])
         self.assertEqual(result['sculpture'][0]['quality'], 'source-linked-context')
 
+    def test_refined_selection_retains_published_contexts_without_new_unreviewed_fallbacks(self):
+        old = {'word': 'mar', 'contexts': [
+            {'id': 'source-a', 'en': 'Old source quotation.', 'senseId': 'sense-a'},
+            {'id': 'source-b', 'en': 'Previous version.', 'senseId': None}],
+            'senses': [{'id': 'sense-a', 'definition': 'Original source sense'}]}
+        contexts = {'mar': [
+            {'id': 'source-b', 'en': 'Refreshed source version.', 'senseId': None},
+            {'id': 'new-selection', 'en': 'Unreviewed fallback.', 'senseId': None, 'ru': None}]}
+        dictionary = {}
+        lex.retain_published_contexts(contexts, dictionary, [old])
+        self.assertEqual([c['id'] for c in contexts['mar']], ['source-a', 'source-b'])
+        self.assertEqual(contexts['mar'][0]['en'], 'Old source quotation.')
+        self.assertEqual(contexts['mar'][1]['en'], 'Refreshed source version.')
+        self.assertEqual(dictionary['mar'][0]['id'], 'sense-a')
+        contexts['mar'][0]['en'] = 'Changed copy'
+        self.assertEqual(old['contexts'][0]['en'], 'Old source quotation.')
+
     def test_real_pilot_all_twenty_contexts_are_complete(self):
         document = json.loads((lex.OUT / 'pilot.json').read_text(encoding='utf-8'))
         source_path = lex.OUT / 'pilot-sources.json'

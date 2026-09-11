@@ -230,6 +230,30 @@
       "note": "Eight source headwords. Multi and neo are explicitly word-formation units; descendent and café retain variant spellings. Counts are source headwords, not eight newly distinguished lemmas.",
       "file": "editorial-core-07.json",
       "sha256": "0297c0771c8af61d3cb4956ab6abdc712a388b6974c3a02b6a8ba5a2603f1c78"
+    },
+    {
+      "id": "editorial-context-completion-2026-09",
+      "title": "AI-assisted context translations and selected meanings",
+      "author": "English project contributors with Codex drafting and independent AI review",
+      "license": "original-project-content",
+      "checkedAt": "2026-09-11",
+      "modelsReportedByCLI": [
+        "gpt-6-astra"
+      ],
+      "reviewPassesMeaning": "Final review iteration in the originating accepted checkpoint; not a count of different reviewers or human reviews",
+      "reviewMethod": "Separate generation and semantic-review calls; no claim of full human review",
+      "file": "editorial-completion.json",
+      "sha256": "dd07b2386876d3267fa3b4de682a40a793ef50f6bc8ffb174174c4cead488236"
+    },
+    {
+      "id": "editorial-token-selection-repair-2026-09",
+      "title": "Context selection corrections and original study examples",
+      "author": "English project contributors with AI-assisted review",
+      "license": "original-project-content",
+      "checkedAt": "2026-09-10",
+      "reviewMethod": "Full-bank Unicode boundary audit; English-study suitability classification of the targeted completion scope; new English, Russian translations and selected meanings receive independent AI semantic review; limited AI peer samples are recorded separately",
+      "file": "token-selection-repairs.json",
+      "sha256": "8a891a30667e4c4925b44e1e92673a5d82bf635da6ea94902f99a0abaabdff00"
     }
   ]
 }
