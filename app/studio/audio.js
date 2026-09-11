@@ -76,10 +76,10 @@ async function wav(blob){
   const offline=new OfflineAudioContext(1,Math.ceil(buffer.duration*16000),16000);const source=offline.createBufferSource();source.buffer=buffer;source.connect(offline.destination);source.start();const mono=(await offline.startRendering()).getChannelData(0);
   const out=new ArrayBuffer(44+mono.length*2),v=new DataView(out);const str=(offset,t)=>{for(let i=0;i<t.length;i++)v.setUint8(offset+i,t.charCodeAt(i));};str(0,'RIFF');v.setUint32(4,out.byteLength-8,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,16000,true);v.setUint32(28,32000,true);v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,mono.length*2,true);mono.forEach((x,i)=>v.setInt16(44+i*2,Math.max(-1,Math.min(1,x))*32767,true));return new Blob([out],{type:'audio/wav'});
 }
-export async function voice(button,target,settings,onText){
+export async function voice(button,target,settings,onText,options={}){
   if(active){active.stop();return;}
-  if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){toast('Запись недоступна. Откройте приложение в Chrome или Edge через localhost.',true);return;}
-  stopAudio();const generation=audioGeneration,original=button.innerHTML,preview=$('#audio-preview'),check=$('#check')||$('#unit-check')||$('#book-check'),checkDisabled=check?.disabled;
+  if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){toast('Микрофон недоступен. На телефоне открой приложение по HTTPS-ссылке и разреши доступ к микрофону; на компьютере можно использовать localhost.',true);return;}
+  stopAudio();const generation=audioGeneration,original=button.innerHTML,preview=options.preview||$('#audio-preview'),check=options.check||$('#check')||$('#unit-check')||$('#book-check'),checkDisabled=check?.disabled;
   let stream,recognition,recorder,timer,transcript='',released=false,failed=false,lastText=target.value,textChanged=false;const chunks=[],initial=target.value.trim();
   const current=()=>generation===audioGeneration&&button.isConnected&&target.isConnected;
   const releaseStream=()=>{clearTimeout(timer);if(recognition){try{recognition.stop();}catch{}}stream?.getTracks().forEach(t=>t.stop());stream=null;};

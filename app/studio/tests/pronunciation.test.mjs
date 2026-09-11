@@ -57,6 +57,22 @@ test('US voice is selected on new lessons and practice/checklist IDs stay unchan
  assert.deepEqual(f.root.querySelectorAll('[data-criterion]').map(n=>n.checked),[true,false,true]);
 });
 
+test('pronunciation answer dictation saves in the answer field and submits that text',async t=>{
+ const f=await studyUI(t,'pronunciation.js'),data=practiceData();
+ f.module.mountPronunciation(f.root,data,'reading',async()=>data);
+ const target=f.root.querySelector('#sound-answer');
+ f.voice=async(_button,field,_settings,onText,options)=>{
+  assert.equal(field,target);assert.equal(options.check,f.root.querySelector('#sound-check'));
+  assert.equal(options.preview,f.root.querySelector('#sound-dictation-preview'));
+  field.value='I noticed the stress on the second word.';onText();
+ };
+ await f.root.querySelector('#sound-dictate').click();
+ assert.equal(f.local.get('pronunciation:reading'),target.value);
+ f.api=async(path,body)=>{assert.equal(path,'/check');assert.equal(body.answer,target.value);return{...body,feedback:{verdict:'correct'}};};
+ await f.root.querySelector('#sound-check').click();
+ assert.ok(f.requests.some(r=>r.path==='/check'&&r.body.answer===target.value));
+});
+
 test('A saved pronunciation reflection keeps its assessment when the draft ends with a newline',async t=>{
  const f=await studyUI(t,'pronunciation.js'),data=practiceData();
  data.state.drafts['pronunciation:reading']={text:'I noticed the stress.\n'};

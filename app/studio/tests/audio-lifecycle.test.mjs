@@ -192,6 +192,19 @@ test('Whisper preserves edits made while transcription is pending',async t=>{
   assert.equal(elements['#audio-preview'].hidden,false);assert.equal(button.disabled,false);assert.equal(elements['#book-check'].disabled,false);
 });
 
+test('dictation fills its answer and uses that form controls and preview',async t=>{
+  const{stats,elements,install}=browserFixture(t,async()=>({getTracks:()=>[{stop(){}}]}));
+  install('fetch',async()=>({ok:true,json:async()=>({text:'I would like to reschedule our meeting.'})}));
+  const{button}=recordingElements(),target={isConnected:true,value:'Hi Alex.'};
+  const check={disabled:false},preview={isConnected:true,hidden:true};let saved;
+  await voice(button,target,{whisperUrl:'http://local'},()=>saved=target.value,{check,preview});
+  assert.equal(check.disabled,true);assert.equal(elements['#book-check'].disabled,false);
+  await voice(button,target,{whisperUrl:'http://local'},()=>{}, {check,preview});await stats.recorder.finished;
+  assert.equal(saved,'Hi Alex. I would like to reschedule our meeting.');assert.equal(target.value,saved);
+  assert.equal(preview.hidden,false);assert.equal(elements['#audio-preview'].hidden,true);
+  assert.equal(check.disabled,false);assert.equal(button.disabled,false);
+});
+
 test('Cancelling Whisper releases controls immediately and its late result cannot interrupt a newer recording',async t=>{
   const{stats,elements,install}=browserFixture(t,async()=>({getTracks:()=>[{stop(){}}]}));
   let reply,started;const requested=new Promise(resolve=>started=resolve);

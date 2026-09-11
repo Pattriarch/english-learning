@@ -149,3 +149,8 @@ html{scroll-padding-top:90px}body{line-height:1.6}.content,.page{min-width:0}but
   dialog:not(.select-picker){max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);padding:22px;overflow:auto}
 }
 @media(prefers-reduced-motion:reduce){.sidebar,.lexicon-word{transition:none}}
+/* Keep the alternative to typing visible before a long answer field. */
+.answer-input-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin:0 0 12px}
+.answer-input-header label{margin:0;min-width:0}
+.answer-input-header .btn{flex-shrink:0;justify-content:center}
+@media(max-width:680px){.answer-input-header .btn{width:100%}}
