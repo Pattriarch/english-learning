@@ -94,7 +94,7 @@ export function mountPractice(root,data,mode,refresh,planned=null){
 }
 export function mountReview(root,data,refresh){
  let reveal=false,reviewID=uid(),shownCardID='',queue=data.state.cards.filter(c=>Date.parse(c.due)<=Date.now()).sort((a,b)=>Date.parse(a.due)-Date.parse(b.due)),finished=0;
- root.innerHTML=heading('Вспомнить. Сказать. Сохранить.','Сначала русский смысл. Затем твой английский — без подсказок.',`<button class="btn" id="add-card">${icon('plus')} Своя карточка</button>`)+`
+ root.innerHTML=heading('Вспомнить. Сказать. Сохранить.','Сначала русский смысл. Затем твой английский — без подсказок.',`<div class="actions"><a class="btn primary" href="#/lexicon/quick?deck=saved">${icon('cards')} Быстро · без печати</a><button class="btn" id="add-card">${icon('plus')} Своя карточка</button></div>`)+`
  <div class="srs-head"><span class="pill blue" id="review-count">${queue.length} к повторению</span><div class="actions"><a class="btn small" href="/api/anki/export">${icon('download')} Скачать для Anki</a><button class="btn small" id="sync-anki">${icon('loop')} Отправить в Anki</button></div></div>
  <section id="review-work"></section><div class="section-heading"><h2>Мой словарь</h2><span class="small-note">${data.state.cards.length} карточек</span></div>
  <div class="card"><div class="search"><label class="hidden" for="card-search">Поиск карточек</label>${icon('search')}<input id="card-search" placeholder="Найти слово или фразу…"></div><div class="cards-table" id="cards-table"></div></div>

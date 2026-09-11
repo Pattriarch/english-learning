@@ -1,3 +1,4 @@
+import {syncSelect} from './select-control.js';
 import {$,$$,esc,icon,progressLesson,getDraft,queueDraft,cardModal} from './core.js';
 import {mountSubtitleSources} from './subtitle-sources.js';
 
@@ -57,7 +58,7 @@ export function mountCinema(data,refresh){
     </article>`).join(''):'<p class="small-note">По этому запросу эпизодов нет. Попробуй название или другую тему.</p>';
     $$('[data-cinema-focus]',root).forEach(b=>b.onclick=()=>{
       selected=series.episodes.find(e=>e.id===b.dataset.cinemaFocus);
-      $('#cinema-episode-select',root).value=selected.id;
+      $('#cinema-episode-select',root).value=selected.id;syncSelect($('#cinema-episode-select',root));
       queueDraft('cinema:selected',selected.id);
       renderSession();
       $('.cinema-workbench',root).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});

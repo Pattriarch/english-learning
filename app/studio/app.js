@@ -15,6 +15,7 @@ import {mountTransfer} from './transfer.js';
 import {mountLexicon} from './lexicon.js';
 import {mountMethod} from './method.js';
 import {mountMastery} from './mastery.js';
+import {bindShellControls} from './shell-controls.js';
 let data,routeVersion=0;
 const titles={today:'Сегодня',roadmap:'Программа A1–C2',practice:'Практика',media:'Медиатека',review:'Повторение',journal:'Мой прогресс',books:'Все учебники',settings:'Настройки',lesson:'Занятие',cinema:'Киноклуб',tenses:'Карта времён',pronunciation:'Чтение и произношение',designs:'Варианты дизайна',unit:'Рабочая тетрадь',coverage:'Карта навыков',focus:'Практика навыка'};
 const nav=[['today','home','Сегодня'],['roadmap','map','Программа A1–C2'],['tenses','clock','Все времена'],['pronunciation','sound','Произношение'],['practice','pen','Практика'],['cinema','play','Киноклуб'],['review','cards','Повторение'],['notebook','journal','Мои мысли'],['books','book','Все учебники'],['media','play','Медиатека'],['journal','chart','Мой прогресс'],['designs','spark','Выбрать дизайн'],['settings','settings','Настройки']];
@@ -43,18 +44,18 @@ function dueCount(){return data.state.cards.filter(c=>Date.parse(c.due)<=Date.no
 function shell(route){
  const mins=Math.floor((data.state.activity[dateKey()]||0)/60),due=dueCount();
  $('#app').innerHTML=`<aside class="sidebar" id="sidebar">
-  <a class="brand" href="#/today"><span class="brandmark">e.</span><span class="brand-name">English</span></a>
+  <a class="brand" href="#/today"><span class="brandmark">e.</span><span class="brand-name">English</span></a><button class="menu-close" id="menu-close" aria-label="Закрыть меню">×</button>
   <div class="nav-group">МАСТЕРСКАЯ</div><nav class="nav" aria-label="Основная навигация">
   ${nav.slice(0,7).map(([r,i,t])=>`<a href="${href(r)}" class="${r===route||(route==='lesson'&&r==='roadmap')?'active':''}" ${r===route?'aria-current="page"':''}>${icon(i)}${t}${r==='review'&&due?`<span class="badge-count">${due}</span>`:''}</a>`).join('')}
   </nav><div class="nav-group" style="margin-top:22px">МОИ МАТЕРИАЛЫ</div><nav class="nav" aria-label="Материалы и настройки">
   ${nav.slice(7).map(([r,i,t])=>`<a href="${href(r)}" class="${r===route?'active':''}">${icon(i)}${t}</a>`).join('')}</nav>
   <div class="sidebar-bottom"><a class="sidebar-route" href="#/roadmap" aria-label="Открыть программу A1–C2"><span class="sidebar-route-label">Твой маршрут</span><span class="sidebar-route-levels"><span>A1</span>${icon('arrow')}<span>C2</span></span><span class="sidebar-route-caption">От основ к свободной речи</span></a></div>
- </aside><div class="content"><header class="topbar">
-  <button class="mobile-menu" id="menu" aria-label="Открыть меню">${icon('menu')}</button>
-  <div class="crumb">Мастерская <span style="padding:0 10px;color:#b3bacb">/</span> <strong>${titles[route]||'Сегодня'}</strong></div>
+ </aside><button class="menu-backdrop" id="menu-backdrop" aria-label="Закрыть меню" tabindex="-1" hidden></button><div class="content"><header class="topbar">
+  <button class="mobile-menu" id="menu" aria-label="Открыть меню" aria-controls="sidebar" aria-expanded="false">${icon('menu')}</button>
+  <div class="crumb"><span class="crumb-prefix">English <span style="padding:0 10px">/</span></span> <strong>${titles[route]||'Сегодня'}</strong></div>
   <div class="top-tools"><span class="save-status" id="save-status">${icon('check')} Прогресс на этом компьютере</span><span class="timer">${icon('clock')} <span id="daily-time">${mins}</span> / <span id="daily-goal">${dailyGoal()}</span> мин</span><a class="appearance-link" href="#/designs" aria-label="Шесть вариантов дизайна">${icon('spark')}</a><button class="theme-toggle" id="theme-toggle" aria-label="${appearance().theme==='dark'?'Включить светлую тему':'Включить тёмную тему'}">${appearance().theme==='dark'?'☼':'◐'}</button></div>
- </header><main id="main" class="page" tabindex="-1"></main></div>`;
- $('#menu').onclick=()=>$('#sidebar').classList.toggle('open');
+ </header><main id="main" class="page" tabindex="-1"></main></div><nav class="mobile-nav" aria-label="Быстрая навигация">${[['today','home','Сегодня'],['roadmap','map','Программа'],['lexicon','book','Слова'],['review','cards','Карточки']].map(([r,i,t])=>`<a href="${href(r)}" ${r===route?'aria-current="page"':''}>${icon(i)}<span>${t}</span></a>`).join('')}<button id="mobile-more" aria-controls="sidebar" aria-expanded="false">${icon('menu')}<span>Ещё</span></button></nav>`;
+ bindShellControls();
  $('.skip').onclick=ev=>{ev.preventDefault();$('#main').focus();};
  bindAppearance();
 }

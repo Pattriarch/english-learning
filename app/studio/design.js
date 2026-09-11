@@ -1,7 +1,7 @@
 import {$,$$,esc,icon,progressLesson} from './core.js';
 import {mountDailyPlanner} from './planner.js';
 export const designs=[
- {id:'bento',name:'01 / Cobalt Bento',short:'Bento',note:'Крупные модули, кобальт и тактильная обложка. Ближе всего к твоему «Драйву».',color:'#4667ff',dark:'#101216'},
+ {id:'bento',name:'01 / Daily ritual',short:'Ritual',note:'В духе Drinkit: мягкие карточки, кобальт, крупный текст и простой ежедневный ритуал.',color:'#5668f5',dark:'#101113'},
  {id:'editorial',name:'02 / The English Journal',short:'Editorial',note:'Журнальная сетка, выразительные заголовки и много воздуха для длинного чтения.',color:'#bc6146',dark:'#1c1917'},
  {id:'cinema',name:'03 / After Hours',short:'Cinema',note:'Широкий киноэкран, тёплый янтарь, практика через истории и диалоги.',color:'#d4a85f',dark:'#151311'},
  {id:'studio',name:'04 / Language Studio',short:'Studio',note:'Навигация сверху, компактная рабочая станция и лавандовые акценты.',color:'#9387db',dark:'#171621'},

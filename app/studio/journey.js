@@ -1,3 +1,4 @@
+import {syncSelect} from './select-control.js';
 import {$,$$,esc,icon,api,busy,toast,progressLesson,getDraft,localDraft,queueDraft,words,feedbackHTML,bindMistakes,uid} from './core.js';
 import {voice,stopAudio} from './audio.js';
 import {loadBookStatus} from './book-reader.js';
@@ -128,7 +129,7 @@ export async function mountLibrary(root,data){
  }
  $('#unit-search').oninput=()=>{page=0;draw();};$('#unit-book').onchange=e=>{filter=e.target.value;page=0;draw();};$('#include-duplicate').onchange=$('#only-unread').onchange=()=>{page=0;draw();};
  $('#units-prev').onclick=()=>{page--;draw();$('#unit-anchor').scrollIntoView();};$('#units-next').onclick=()=>{page++;draw();$('#unit-anchor').scrollIntoView();};
- $$('[data-book]',root).forEach(b=>b.onclick=()=>{filter=b.dataset.book;$('#unit-book').value=filter;page=0;draw();$('#unit-anchor').scrollIntoView({behavior:'smooth'});});draw();
+ $$('[data-book]',root).forEach(b=>b.onclick=()=>{filter=b.dataset.book;$('#unit-book').value=filter;syncSelect($('#unit-book'));page=0;draw();$('#unit-anchor').scrollIntoView({behavior:'smooth'});});draw();
  async function updateBookAvailability(){if(!root.isConnected||location.hash!==route)return;try{const response=await fetch('/book-content/status.json');if(response.ok){const status=await response.json();if(!root.isConnected||location.hash!==route)return;data.bookStatus=status;$('#library-book-intake',root).innerHTML=bookIntakeNotice(status,data.library?.uniqueUnits||0);const summary=$('.library-build-summary',root);summary.innerHTML=`<strong>${status.ready||0} из ${data.bookStatus?.total??data.library?.uniqueUnits??all.filter(b=>!b.duplicateOf).reduce((n,b)=>n+b.units.length,0)}</strong> юнитов разобрано в уроки. ${status.state==='paused'?'Обработка приостановлена; готовые уроки доступны.':'Готовые темы отмечены в оглавлении.'}`;$$('[data-book]',root).forEach(b=>{const count=b.querySelector(':scope > span');if(count)count.textContent=(status.books?.[b.dataset.book]?.ready||0)+' / '+(all.find(x=>x.id===b.dataset.book)?.unitCount||0)+' уроков готово';});draw();}}catch{}if(root.isConnected&&location.hash===route)setTimeout(updateBookAvailability,30000);}
  setTimeout(updateBookAvailability,30000);
 }

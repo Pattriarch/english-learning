@@ -1,0 +1,151 @@
+/* English / Daily ritual. Shared surfaces, a clear cobalt action, generous type.
+   Drinkit is the visual reference; the brand and interface remain our own. */
+:root[data-design=bento]{--bg:#101113;--surface:#1b1d21;--surface2:#25282e;--surface3:#31353e;--ink:#f6f6f8;--muted:#afb3bf;--line:#34373f;--blue:#afbaff;--accent:#5668f5;--on-accent:#fff;--soft:#29304e;--radius:24px;--ritual-lilac:#ccd3ff;--ritual-deep:#172176;--ritual-mint:#d6eddd;--ritual-peach:#f4ddc9}
+:root[data-design=bento][data-theme=light]{--bg:#f3f3f5;--surface:#fff;--surface2:#ededf2;--surface3:#e1e3ec;--ink:#202127;--muted:#646774;--line:#d7d9e3;--blue:#2d40cb;--accent:#2e3dd3;--on-accent:#fff;--soft:#e4e8ff}
+html{scroll-padding-top:90px}body{line-height:1.6}.content,.page{min-width:0}button,a,input,select,textarea,summary{-webkit-tap-highlight-color:transparent}button,a{touch-action:manipulation}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--blue);outline-offset:4px}input,textarea{font-size:max(16px,1em)}
+[data-design=bento] h1{font-size:clamp(30px,3.4vw,48px);line-height:1.13;font-weight:600;letter-spacing:-.055em;text-wrap:balance}
+[data-design=bento] h2{font-weight:600;letter-spacing:-.035em}
+[data-design=bento] .sidebar{width:230px;padding:28px 16px 22px;border:0;background:var(--bg);scrollbar-width:thin}
+[data-design=bento] .content{margin-left:230px}
+[data-design=bento] .brand{padding:0 14px 25px;gap:12px}
+[data-design=bento] .brand-name{font-size:25px;font-weight:600;letter-spacing:-.055em}
+[data-design=bento] .brandmark{width:43px;height:43px;border-radius:50%;font-size:26px;letter-spacing:-.09em;background:var(--ritual-lilac);color:var(--ritual-deep)}
+[data-design=bento] .nav-group{font-size:10px;letter-spacing:.1em;padding-left:14px;margin:17px 0 9px;color:var(--muted)}
+[data-design=bento] .nav a{font-size:14px;line-height:1.4;min-height:43px;padding:10px 13px;gap:11px;border-radius:15px;margin:3px 0}
+[data-design=bento] .nav a.active{background:var(--soft);color:var(--blue);font-weight:600;box-shadow:none}
+[data-design=bento] .nav a>.icon{width:19px;height:19px;flex-shrink:0}
+[data-design=bento] .sidebar-bottom{padding-top:18px}
+[data-design=bento] .sidebar-route{border:0;background:var(--surface);padding:16px;border-radius:20px}
+[data-design=bento] .sidebar-route-caption{font-size:12px}
+[data-design=bento] .topbar{height:78px;padding:0 34px;border:0;background:var(--bg);gap:16px}
+[data-design=bento] .crumb{font-size:14px}
+[data-design=bento] .top-tools{gap:12px}
+[data-design=bento] .timer{border:0;background:var(--surface);border-radius:30px;min-height:40px;padding:8px 14px;font-size:13px}
+[data-design=bento] .theme-toggle{border:0;background:var(--surface);width:42px;height:42px}
+[data-design=bento] .page{max-width:1540px;padding:22px 34px 60px;margin-inline:auto}
+[data-design=bento] :is(.card,.surface,.stats,.lesson-list,.lexicon-word,.lexicon-stats>div,.planner-block,.planner-week,.planner-balance,.planner-followup,.level-focus,.research-card){border-color:transparent;border-radius:var(--radius);box-shadow:none}
+[data-design=bento] .btn{border-radius:30px;padding:11px 19px;min-height:46px;font-size:14px;line-height:1.45;white-space:normal;justify-content:center;text-align:center}
+[data-design=bento] .btn.small{min-height:38px;padding:8px 13px;font-size:13px}
+[data-design=bento] .btn.ghost{border-color:transparent}
+[data-design=bento] .btn.primary{font-weight:600}
+[data-design=bento] .pill{border:0;border-radius:30px;padding:6px 11px;font-size:12px}
+[data-design=bento] :is(input:not([type=checkbox]):not([type=radio]),textarea,.answer-area,.search){border-radius:15px;line-height:1.6}
+[data-design=bento] .eyebrow{font-size:11px;line-height:1.5;letter-spacing:.07em}
+[data-design=bento] .small-note{font-size:13px;line-height:1.7}
+[data-design=bento] .page-head{gap:24px;margin-bottom:28px}
+[data-design=bento] .page-head p{font-size:16px;line-height:1.7;max-width:730px}
+/* The daily plan is the main entrance: one invitation, one action, then the day. */
+[data-design=bento] .planner-hero{border:0;border-radius:28px;grid-template-columns:minmax(0,1fr) 240px;gap:0;background:var(--ritual-lilac);color:var(--ritual-deep)}
+[data-design=bento] .planner-hero-copy{padding:36px;background:none}
+[data-design=bento] .planner-hero h1{font-size:clamp(34px,3.5vw,51px);max-width:650px;line-height:1.1;margin:17px 0 20px}
+[data-design=bento] .planner-hero :is(.planner-kicker,.planner-hero-copy>p,.planner-main-action small){color:#3d4879}
+[data-design=bento] .planner-hero-copy>p{font-size:16px;line-height:1.65}
+[data-design=bento] .planner-tags{gap:7px;margin-bottom:26px}
+[data-design=bento] .planner-tags>span{border:0;background:#ffffff60;color:#283664;border-radius:30px;font-size:12px;padding:7px 11px}
+[data-design=bento] .planner-tags>span:first-child{background:#fff9;color:var(--ritual-deep)}
+[data-design=bento] .planner-main-action strong{font-size:16px;line-height:1.5;color:var(--ritual-deep)}
+[data-design=bento] .daily-planner .planner-link{border-radius:28px;font-size:14px;padding:11px 17px;min-height:46px}
+[data-design=bento] .daily-planner .planner-primary{background:#2e3dd3;color:#fff;border-color:#2e3dd3;padding:13px 22px;min-height:49px}
+[data-design=bento] .planner-hero-progress{margin:14px;border:0;border-radius:22px;background:#1e2984;color:#fff;padding:26px}
+[data-design=bento] .planner-hero-progress :is(.planner-progress-heading,p,small,.planner-time-fact>span,.planner-time-fact>strong span,.planner-big-number>span){color:#d2d8ff}
+[data-design=bento] .planner-big-number{font-size:76px;letter-spacing:-.075em;margin-top:28px}
+[data-design=bento] .planner-time-fact{border-color:#ffffff30}
+[data-design=bento] .planner-time-fact>strong{white-space:nowrap}
+[data-design=bento] .planner-hero .planner-progress-track{background:#ffffff25}
+[data-design=bento] .planner-hero .planner-progress-track>span{background:#ccd3ff}
+[data-design=bento] .planner-layout{gap:24px;grid-template-columns:minmax(0,1.6fr) minmax(290px,.9fr)}
+[data-design=bento] .planner-block{padding:28px}
+[data-design=bento] .planner-skill{background:var(--soft);border-radius:30px;padding:6px 10px;font-size:12px}
+[data-design=bento] .planner-block h3{font-size:24px;line-height:1.3}
+[data-design=bento] .planner-block-minutes{font-size:13px}
+[data-design=bento] .planner-section-heading h2{font-size:25px}
+[data-design=bento] .planner-instruction{font-size:16px;line-height:1.75}
+[data-design=bento] .planner-week,[data-design=bento] .planner-balance{padding:25px}
+[data-design=bento] .planner-week-days button{border-radius:30px;min-height:72px}
+[data-design=bento] .planner-week-days button.selected{background:var(--ritual-lilac);border-color:transparent;color:var(--ritual-deep)}
+[data-design=bento] .planner-week-days button>strong{font-size:21px}
+[data-design=bento] .planner-week-facts>div>strong{font-size:35px}
+[data-design=bento] .planner-cinema{background:var(--ritual-peach);color:#493425;border:0}
+[data-design=bento] .planner-cinema :is(p,.planner-kicker,.planner-link){color:#5f4530}
+[data-design=bento] .planner-settings{border:0;border-radius:24px}
+[data-design=bento] .planner-settings>summary{min-height:68px}
+[data-design=bento] .planner-settings-fields{grid-template-columns:minmax(0,.7fr) minmax(0,1fr) minmax(0,1.2fr)}
+/* Library, writing and practice follow the same quiet card language. */
+[data-design=bento] .lexicon-header p{font-size:16px;line-height:1.7;max-width:690px}
+[data-design=bento] .lexicon-stats{gap:12px;margin:25px 0 18px}
+[data-design=bento] .lexicon-stats>div{padding:23px}
+[data-design=bento] .lexicon-stats>div:first-child{background:var(--ritual-lilac);color:var(--ritual-deep)}
+[data-design=bento] .lexicon-stats>div:first-child span{color:#3d4879}
+[data-design=bento] .lexicon-stats strong{font-size:clamp(28px,3vw,42px);font-weight:550}
+[data-design=bento] .lexicon-stats span{font-size:13px}
+[data-design=bento] .lexicon-browser{padding:0;background:transparent;border:0}
+[data-design=bento] .lexicon-filters{background:var(--surface);padding:22px;border-radius:24px;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+[data-design=bento] .lexicon-filters>label:first-child{grid-column:1/-1}
+[data-design=bento] .lexicon-filters label{min-width:0;font-size:12px;color:var(--muted)}
+[data-design=bento] .lexicon-filters input{background:var(--bg);padding:14px 16px;min-height:50px;font-size:16px}
+[data-design=bento] .lexicon-results{gap:14px;margin-top:18px}
+[data-design=bento] .lexicon-word{padding:25px;transition:background .15s ease}
+[data-design=bento] .lexicon-word:hover{background:var(--surface2)}
+[data-design=bento] .lexicon-word h3{font-size:26px;font-weight:550}
+[data-design=bento] .lexicon-word p{font-size:16px;line-height:1.75}
+[data-design=bento] .lexicon-tile-main .spread{gap:12px;flex-wrap:wrap}
+[data-design=bento] .lexicon-status{font-size:11px;padding:4px 8px;background:var(--surface2);border-radius:20px}
+[data-design=bento] .lexicon-quality{margin-bottom:22px}
+[data-design=bento] .lexicon-provenance{border:0;background:var(--surface);border-radius:22px}
+[data-design=bento] .lexicon-context,[data-design=bento] .lexicon-practice{padding:28px}
+[data-design=bento] .lexicon-entry-grid{gap:20px}
+[data-design=bento] .lexicon-example{font-size:23px;line-height:1.7}
+[data-design=bento] :is(.theory-panel,.exercise-card,.notebook-compose,.notebook-preview){border-radius:24px}
+[data-design=bento] .formula{border:0;border-radius:18px;padding:20px}
+[data-design=bento] .panel-tabs{padding:8px;gap:5px;border:0;flex-wrap:wrap}
+[data-design=bento] .panel-tabs button{border:0;border-radius:30px;font-size:14px;padding:10px 16px}
+[data-design=bento] .panel-tabs button.active{background:var(--soft)}
+[data-design=bento] .theory-content{line-height:1.8}
+[data-design=bento] .review-card{border:0;border-radius:28px;background:var(--surface)}
+[data-design=bento] .review-ratings{gap:9px}
+[data-design=bento] .review-ratings .btn{border-radius:18px;min-height:62px;padding:10px 14px;font-size:14px}
+[data-design=bento] .path-summary{border:0;gap:12px}
+[data-design=bento] .level-rail{gap:8px}
+[data-design=bento] .level-rail button{border-radius:20px}
+[data-design=bento] .level-rail button.active{background:var(--ritual-lilac);color:var(--ritual-deep);border-color:transparent}
+[data-design=bento] .level-rail button.active :is(small,strong){color:var(--ritual-deep)}
+.mobile-nav,.menu-close{display:none}.menu-backdrop{position:fixed;inset:0;border:0;background:#070a146e;z-index:39}.menu-is-open{overflow:hidden}
+@media(min-width:901px) and (max-width:1180px){[data-design=bento] .page{padding-inline:24px}[data-design=bento] .planner-layout{grid-template-columns:1fr}[data-design=bento] .planner-sidebar{grid-template-columns:1fr 1fr}[data-design=bento] .planner-followup{grid-column:1/-1}[data-design=bento] .lexicon-filters{grid-template-columns:1fr 1fr}[data-design=bento] .planner-hero{grid-template-columns:minmax(0,1fr) 210px}[data-design=bento] .planner-hero-copy{padding:27px}}
+@media(max-width:900px){
+  .sidebar,[data-design=bento] .sidebar{position:fixed;inset:0 auto 0 0;z-index:40;width:min(310px,88vw);height:100dvh;transform:translateX(-105%);transition:transform .2s;box-shadow:none;background:var(--bg);padding:22px 16px;overflow-y:auto}
+  .sidebar.open{transform:translateX(0)}.content,[data-design=bento] .content{margin-left:0;padding-top:0}
+  .mobile-menu{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;background:var(--surface);border:0;border-radius:50%;color:var(--ink)}
+  .menu-close{display:grid;place-items:center;position:absolute;right:16px;top:23px;width:40px;height:40px;border:0;background:var(--surface2);border-radius:50%;font-size:26px;color:var(--ink)}
+  .topbar,[data-design=bento] .topbar{height:70px;padding:0 20px;gap:12px}.crumb{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.crumb-prefix{display:none}
+  .top-tools .save-status,.appearance-link{display:none}.top-tools{margin-left:auto}.timer{white-space:nowrap}
+  .page,[data-design=bento] .page{padding:24px 22px calc(100px + env(safe-area-inset-bottom))}
+  .mobile-nav{position:fixed;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;bottom:0;left:0;right:0;z-index:30;background:var(--surface);border-top:1px solid var(--line);padding:7px 10px calc(8px + env(safe-area-inset-bottom))}
+  .mobile-nav a,.mobile-nav button{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;min-height:52px;padding:6px 2px;border:0;border-radius:16px;font:inherit;font-size:10px;line-height:1.3;background:transparent;color:var(--muted)}
+  .mobile-nav [aria-current=page]{background:var(--soft);color:var(--blue);font-weight:600}.mobile-nav .icon{width:21px;height:21px}
+  [data-design=bento] .planner-layout{grid-template-columns:1fr}[data-design=bento] .planner-sidebar{grid-template-columns:1fr 1fr}[data-design=bento] .planner-followup{grid-column:1/-1}
+  [data-design=bento] .lexicon-filters{grid-template-columns:1fr 1fr}
+  .lesson-layout,.lesson-layout.with-materials,.unit-workspace,.notebook-layout,.settings-layout{grid-template-columns:minmax(0,1fr)}
+  #toast{left:50%;bottom:calc(84px + env(safe-area-inset-bottom))}
+  .local-speech-player{bottom:calc(88px + env(safe-area-inset-bottom));left:16px;right:16px;width:auto;max-width:calc(100vw - 32px)}
+}
+@media(max-width:600px){
+  body:has(.fast-vocab-card.is-revealed) .local-speech-player{bottom:calc(174px + env(safe-area-inset-bottom))}
+  [data-design=bento] .topbar{padding:0 14px;height:64px;gap:10px}[data-design=bento] .crumb{font-size:13px}[data-design=bento] .top-tools{gap:7px}[data-design=bento] .timer{font-size:11px;padding:7px 9px;min-height:36px}[data-design=bento] .timer>.icon{display:none}[data-design=bento] .theme-toggle{width:38px;height:38px;flex-shrink:0}
+  [data-design=bento] .page{padding:19px 16px calc(98px + env(safe-area-inset-bottom))}[data-design=bento] h1{font-size:34px;overflow-wrap:break-word}[data-design=bento] .page-head h1{font-size:34px}[data-design=bento] .page-head p{font-size:15px}
+  [data-design=bento] .planner-top{gap:12px;margin-bottom:20px}[data-design=bento] .planner-top nav{font-size:12px;gap:14px}[data-design=bento] .planner-top nav a:not(:first-child):not(:last-child){display:none}
+  [data-design=bento] .planner-hero{grid-template-columns:1fr;border-radius:25px;margin-bottom:28px}[data-design=bento] .planner-hero-copy{padding:25px 23px 20px}[data-design=bento] .planner-hero h1{font-size:37px;line-height:1.09}[data-design=bento] .planner-hero-copy>p{font-size:15px}
+  [data-design=bento] .planner-hero-progress{margin:0 12px 12px;padding:22px;grid-template-columns:1fr 1fr;gap:0 16px;align-items:start}[data-design=bento] .planner-big-number{font-size:56px;margin:19px 0 8px}[data-design=bento] .planner-big-number>span{font-size:26px}[data-design=bento] .planner-hero-progress>p{font-size:11px}[data-design=bento] .planner-time-fact{padding-left:18px}[data-design=bento] .planner-time-fact>strong{font-size:35px}[data-design=bento] .planner-hero-progress>small{font-size:11px}
+  [data-design=bento] .planner-main-action .planner-primary{min-height:50px}[data-design=bento] .planner-block{padding:23px 21px;border-radius:24px}[data-design=bento] .planner-block h3{font-size:23px}[data-design=bento] .planner-instruction{font-size:15px}[data-design=bento] .planner-block-bottom{flex-wrap:wrap;gap:18px}[data-design=bento] .planner-block-bottom>.planner-link{max-width:none;font-size:13px}
+  [data-design=bento] .planner-sidebar{grid-template-columns:1fr}[data-design=bento] .planner-settings-fields{grid-template-columns:1fr}
+  [data-design=bento] .lexicon-header{gap:16px}[data-design=bento] .lexicon-header h1{font-size:35px}[data-design=bento] .lexicon-header p{font-size:15px}[data-design=bento] .lexicon-header>.btn{width:auto}
+  [data-design=bento] .lexicon-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}[data-design=bento] .lexicon-stats>div{padding:20px 17px;border-radius:20px}[data-design=bento] .lexicon-stats strong{font-size:33px}[data-design=bento] .lexicon-stats span{font-size:12px}
+  [data-design=bento] .lexicon-filters{padding:19px;gap:14px;grid-template-columns:minmax(0,1fr)}[data-design=bento] .lexicon-filters label{font-size:13px}[data-design=bento] .lexicon-results{grid-template-columns:minmax(0,1fr)}[data-design=bento] .lexicon-word{padding:23px}[data-design=bento] .lexicon-word h3{font-size:27px}
+  [data-design=bento] .lexicon-context,[data-design=bento] .lexicon-practice{padding:22px}[data-design=bento] .lexicon-context figure{margin:-22px -22px 20px}[data-design=bento] .lexicon-example{font-size:21px}
+  .spread,.exercise-actions,.lesson-bottom,.answer-meta{flex-wrap:wrap;gap:12px}.actions{flex-wrap:wrap;max-width:100%}.actions>*{max-width:100%}.steps{flex-wrap:wrap;max-width:100%}.step{width:16px}
+  .card,.surface{min-width:0}.theory-content{max-height:none}.exercise-card{padding:21px}.answer-area,.field textarea{min-width:0;font-size:16px}.panel-tabs button{min-height:44px}
+  .lesson-row{grid-template-columns:22px minmax(0,1fr) auto}.lesson-row h3,.book-card h3{overflow-wrap:anywhere}.unit-task-head{flex-wrap:wrap}
+  audio,video,iframe{max-width:100%}.reading-text,.formula,.prompt,.review-front,.review-back,.notebook-preview{overflow-wrap:anywhere}table{max-width:100%}pre{max-width:100%;overflow:auto}
+  .review-ratings{grid-template-columns:repeat(2,minmax(0,1fr))}.review-ratings .btn{min-width:0}
+  dialog:not(.select-picker){max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);padding:22px;overflow:auto}
+}
+@media(prefers-reduced-motion:reduce){.sidebar,.lexicon-word{transition:none}}
