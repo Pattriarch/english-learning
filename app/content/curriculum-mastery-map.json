@@ -300,7 +300,11 @@
     },
     {
       "file": "app/content/courses/natural-listening.json",
-      "sha256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af"
+      "sha256": "256285597a191437d51e9aeb198260bafebcac2145745c48b66a7209741e409c",
+      "sourceAccessRevision": 2,
+      "previousSHA256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af",
+      "updatedAt": "2026-09-11",
+      "change": "Two existing NASA lessons now include verified bounded local recordings and official excerpt transcripts. Task contents and IDs unchanged."
     },
     {
       "file": "app/content/courses/research-expansion.json",
@@ -3515,7 +3519,7 @@
             "requiresPartner": false
           },
           "limitations": [
-            "NASA fieldwork подготовлен с прямой записью и проверенными ориентирами; источник требует сети и самостоятельно найденного начала. Два тематических фрагмента не дают полного жанрового диапазона."
+            "Два NASA-фрагмента и соответствующие расшифровки сохранены в приложении; ручной поиск начала и сеть для занятия не нужны. Два тематических разговора не дают полного жанрового диапазона; сверка ASR с источником не является экспертной акустической оценкой."
           ],
           "sourceIds": [
             "cefr-2020",

@@ -167,8 +167,8 @@
     "formula": "audio first → first answer → replay → transcript check → new response",
     "sections": [
       {
-        "title": "Открой исходную запись",
-        "body": "В материале m1 находится ссылка на настоящий аудиоматериал источника. Открой её и используй опубликованный проигрыватель. Озвучивание текста этой страницы голосом приложения не заменяет запись. Сначала прочитай только инструкцию о границах фрагмента и первое задание. Для длинного подкаста найди указанный переход по расшифровке, затем убери текст с экрана и прослушай выбранный участок. Точные минуты здесь не обещаны: надёжными ориентирами служат проверенные реплики. Не нужно проходить весь длинный выпуск за одно занятие."
+        "title": "Слушай подготовленный отрывок",
+        "body": "В материале m1 уже находится оригинальная запись длиной 3:33. Нажми воспроизведение: искать начало в длинном выпуске не нужно, звук сохранён в приложении и работает без интернета. Сначала прочитай первое задание и слушай, оставив расшифровку закрытой. После собственной попытки и второго прослушивания открой m2 для точечной сверки. Внешняя ссылка ведёт к полному выпуску и нужна только при желании проверить первоисточник. Запись принадлежит NASA — Houston We Have a Podcast; задания, пояснения и вымышленные ситуации подготовлены для этого приложения и не являются рекомендациями NASA."
       },
       {
         "title": "Сохрани то, что услышал первым",
@@ -195,19 +195,20 @@
       {
         "id": "m1",
         "kind": "reference",
-        "title": "Исходная запись и границы фрагмента",
-        "source": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
+        "title": "Оригинальный разговор · 3:33",
+        "source": "NASA — Houston We Have a Podcast",
         "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
-        "text": "Выпуск NASA №357, Leadership at All Levels, 11 октября 2024. Ведущая Leah Cheshier, гость Steve Koerner. Используй только небольшой разговор о management и leadership: начни с вопроса ведущей, содержащего “But earlier you mentioned leadership versus management”; закончи в конце ответа гостя со словами “we’re doing things well tomorrow”. Следующий вопрос ведущей уже переключается на роль последователя. На странице нет проверенных минут для этих границ: найди реплики поиском по расшифровке, на слух найди соответствующий переход в проигрывателе и закрой текст. Полный выпуск слушать не требуется.\n\nОткрой запись по кнопке источника. Прямая MP3-ссылка: https://www.nasa.gov/wp-content/uploads/2024/10/ep357-leadership-at-all-levels.mp3\n\nИсточник: NASA — Houston We Have a Podcast. Сначала слушай без расшифровки. Это опубликованная запись людей, а не TTS приложения.",
-        "inputSkill": "listening"
+        "text": "NASA, выпуск №357, Leadership at All Levels, 11 октября 2024. Ведущая Leah Cheshier, гость Steve Koerner.\n\nВстроенный проигрыватель содержит весь нужный разговор (3:33). Слушай с начала локального файла; полный выпуск открывать и перематывать не нужно. Диапазон в сохранённом исходном MP3: 14:07.8–17:40.6. Порядок реплик, паузы и темп сохранены; внутри разговора нет склеек.\n\nСначала ответь по звуку. В m2 находится расшифровка именно этого отрывка для проверки после собственной попытки. Это голоса людей из исходной записи, а не озвучивание текста приложением. Источник записи: NASA — Houston We Have a Podcast. Авторские упражнения приложения не означают одобрения NASA.",
+        "inputSkill": "listening",
+        "audioFile": "/assets/authentic-listening/nasa-leadership-management.mp3"
       },
       {
         "id": "m2",
         "kind": "reference",
-        "title": "Проверка после собственной попытки",
-        "source": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
+        "title": "Расшифровка отрывка · после собственной попытки",
+        "source": "NASA — Houston We Have a Podcast · официальный транскрипт",
         "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
-        "text": "На странице источника есть расшифровка выбранной записи. Открой её после первоначального ответа. Найди один конкретный трудный участок и запиши свою первую версию, проверенную версию и причину различия. Если существенной ошибки не было, так и напиши. Полный чужой транскрипт в этот авторский урок не перенесён."
+        "text": "Открой этот текст после первых ответов по звуку. Это соответствующий отрывок официальной расшифровки NASA, а не текст, созданный распознавателем речи. Редакторская расшифровка может сглаживать повторы и особенности спонтанной речи: сверяй трудное место с самой записью. Сохрани свою первую версию, проверенные слова и причину различия; если существенного расхождения не было, так и напиши.\n\nHost: All of those things are how you see a leader. But earlier you mentioned leadership versus management, and I’d love to hear your thoughts on the differences between the two.\n\nSteve Koerner: Depending upon the time of day, I could argue lots of different ways, but I think the easiest way for me to think of it is, and someone will probably quickly argue with me, but I think of it as management as a process that’s good. Maybe managing the status quo. And that sounds perhaps bad. I don’t mean it to be bad, but leadership is about change. We want to move from here to there. We’re currently here, we want to get there. How do we get there? It’s about change. And I was just talking to some folks last week, the agency, in its executive leadership qualifications, spells out leading change as one of the attributes that it’s looking for. And I often wonder if we’ve maybe missed that a little bit because we give change this identity of this dragon that needs to be slayed as, oh no, it’s change. Oh, we’re changing. But that’s what we do as leaders. We move from here to there. We’re constantly changing. I just talked about how human spaceflight has evolved. It’s all about change and how are we managing change and moving forward. And so to me, when I think of, you know, what is a leader, a change agent, someone who is moving us from where we are to where we need to be effectively.\n\nHost: Well, let’s say your processes are all operating as intended. And so you could keep it status quo like a manager. Let’s say that everything that you’re doing moving forward in human spaceflight looks good.\n\nSteve Koerner: Which I would argue we’ve been very effective in how we’ve done human spaceflight.\n\nHost: Right. And I agree. I think the way we’re doing business currently is a lot of change. But let’s say we get into a routine, and it becomes never easy, but more manageable. What are other ways that you can continue to improve when it just looks like everything is going smoothly?\n\nSteve Koerner: Yeah, I think maybe the way to answer that is like with like a sports analogy. You know, the Astros won the World Series, and they could be content to continue doing with whatever they did that year to win the World Series. But the environment’s changing around you, and how are you being aware of that? How are you watching for that? Resources may or may not be more constrained. I think we constantly have to be looking at how we can do better with the resources we’re given. There’s always the argument, oh, we could use more money, but we are given a lot of money. And so how do we constantly assess how we’re doing things from a resource perspective, from a facilities perspective, that is constantly going to be evolving. And so the thought of the status quo being sufficient is probably a mistake to think, ah, it’s smooth, let’s just coast. Constantly have to be assessing. In fact, you know, here at Johnson we’ve got this strategic initiative campaign we call, “Dare. Unite. Explore.” People may raise their eyebrow and say, “Yeah, tell me what that is again.” And I like to say it simply, “It’s just doing things today so that we can do tomorrow’s mission well.” And so what things should we be doing today so that we can accomplish tomorrow’s mission. Today may be going great. That’s no judgment on how today’s going, but who’s looking up and looking down the road to determine what things we need to be doing so that we ensure we’re doing things well tomorrow?"
       },
       {
         "id": "m3",
@@ -293,19 +294,29 @@
     "provenance": {
       "kind": "official-source-listening-fieldwork",
       "reviewMethod": "agent-task-evidence-review",
-      "checkedAt": "2026-09-10",
+      "checkedAt": "2026-09-11",
       "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
       "audioSourceUrl": "https://www.nasa.gov/wp-content/uploads/2024/10/ep357-leadership-at-all-levels.mp3",
       "audioHeadStatus": 200,
       "audioContentLength": 125459648,
-      "verified": "Published page, transcript anchors and direct audio URL checked. Audio availability checked by HEAD; no claim of expert acoustic review.",
+      "verified": "Official transcript excerpt and complete final audio clip aligned with all unchanged lesson tasks using two local ASR decoders. Exact source cuts and hashes recorded in assets/authentic-listening/sources.json. No claim of human listening or expert acoustic review.",
       "rights": {
         "credit": "NASA — Houston We Have a Podcast",
         "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "scope": "NASA guidelines generally permit educational/informational use of NASA-owned audio with appropriate credit and without implying endorsement. Third-party copyrighted material and protected identifiers are excluded. Use the spoken discussion segment, not logos or unrelated music as app assets."
+        "scope": "NASA's media guidelines permit educational/informational use of NASA audio with source credit and without endorsement; third-party material is excluded. This continuous spoken discussion excludes the episode's music stings. Source recording: NASA — Houston We Have a Podcast. Exercises and explanations: this application, not NASA. No NASA logos or publicity use."
       },
-      "authorship": "Prompts, pedagogical explanations, transfer scenarios and language examples authored for this application; external transcript not reproduced.",
-      "timings": "VOA conversation duration displayed by publisher; NASA exact minute offsets not verified and not supplied."
+      "authorship": "Prompts, explanations, transfer scenarios and language examples authored for this application. The audio and explicitly labeled transcript excerpt are NASA source material; NASA did not author or endorse the exercises or AI explanations.",
+      "timings": "Original decoded MP3 14:07.8–17:40.6; 212.8 seconds. Exact frame cuts within pauses, checked against surrounding speech and final-clip recognition; not publisher-provided timestamps.",
+      "localAudioSha256": "5a91bf71f0ed5c16b887d7d17d5546025eb32ce9f73f3ed108b7abd0eacd054d",
+      "localTranscriptSHA256": "8b650a7e509104391d07ba214edcf5f1c68141ed8a7540952a785abd6127150d",
+      "sourceAccessRevision": 2,
+      "sourceAccessChange": {
+        "previousLessonSHA256": "e5c2a0d9a2da105f9a93803067a7acdfa4193890e2d6a03634eb3f7a24f2ead4",
+        "previousCourseFileSHA256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af",
+        "unchangedExercisesSHA256": "a8b41666e370f2893550e893c1d20622d31305faee5b6f935b4ab7923e8828ea",
+        "reason": "Replace manual external seeking with the same bounded source conversation and its official transcript, available locally. Exercises, IDs, answers, scenarios and their source meaning remain unchanged.",
+        "audioRegistry": "app/studio/assets/authentic-listening/sources.json"
+      }
     }
   },
   {
@@ -320,8 +331,8 @@
     "formula": "audio first → first answer → replay → transcript check → new response",
     "sections": [
       {
-        "title": "Открой исходную запись",
-        "body": "В материале m1 находится ссылка на настоящий аудиоматериал источника. Открой её и используй опубликованный проигрыватель. Озвучивание текста этой страницы голосом приложения не заменяет запись. Сначала прочитай только инструкцию о границах фрагмента и первое задание. Для длинного подкаста найди указанный переход по расшифровке, затем убери текст с экрана и прослушай выбранный участок. Точные минуты здесь не обещаны: надёжными ориентирами служат проверенные реплики. Не нужно проходить весь длинный выпуск за одно занятие."
+        "title": "Слушай подготовленный отрывок",
+        "body": "В материале m1 уже находится оригинальная запись длиной 2:51. Нажми воспроизведение: искать начало в длинном выпуске не нужно, звук сохранён в приложении и работает без интернета. Сначала прочитай первое задание и слушай, оставив расшифровку закрытой. После собственной попытки и второго прослушивания открой m2 для точечной сверки. Внешняя ссылка ведёт к полному выпуску и нужна только при желании проверить первоисточник. Запись принадлежит NASA — Houston We Have a Podcast; задания, пояснения и вымышленные ситуации подготовлены для этого приложения и не являются рекомендациями NASA."
       },
       {
         "title": "Сохрани то, что услышал первым",
@@ -348,19 +359,20 @@
       {
         "id": "m1",
         "kind": "reference",
-        "title": "Исходная запись и границы фрагмента",
-        "source": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
+        "title": "Оригинальный разговор · 2:51",
+        "source": "NASA — Houston We Have a Podcast",
         "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
-        "text": "NASA, The Science of Teams, выпуск №175. Американская научная программа с несколькими реальными голосами; не все участники обязаны иметь одинаковый акцент. Выбери два соседних ответа: начни с утверждения ведущего Gary Jordan “A happy team is a productive team”, адресованного Leslie DeChurch; затем слушай ответ Noshir Contractor на следующий тезис. Заверши после слов “interpersonal issues amongst people”, до следующего широкого вопроса о хорошей команде. Это ограниченный тематический участок, а не весь выпуск. Точные минуты не подтверждены: используй эти текстовые ориентиры для поиска перехода в проигрывателе, затем скрой расшифровку.\n\nОткрой запись по кнопке источника. Прямая MP3-ссылка: https://www.nasa.gov/wp-content/uploads/2020/12/ep175_the_science_of_teams.mp3\n\nИсточник: NASA — Houston We Have a Podcast. Сначала слушай без расшифровки. Это опубликованная запись людей, а не TTS приложения.",
-        "inputSkill": "listening"
+        "text": "NASA, выпуск №175, The Science of Teams. Ведущий Gary Jordan; два соседних ответа Leslie DeChurch и Noshir Contractor. Запись опубликована в американской программе; у участников разные акценты.\n\nВстроенный проигрыватель содержит весь нужный разговор (2:51). Слушай с начала локального файла; полный выпуск открывать и перематывать не нужно. Диапазон в сохранённом исходном MP3: 16:16.9–19:08.3. Порядок реплик, паузы и темп сохранены; внутри разговора нет склеек.\n\nСначала ответь по звуку. В m2 находится расшифровка именно этого отрывка для проверки после собственной попытки. Это голоса людей из исходной записи, а не озвучивание текста приложением. Источник записи: NASA — Houston We Have a Podcast. Авторские упражнения приложения не означают одобрения NASA.",
+        "inputSkill": "listening",
+        "audioFile": "/assets/authentic-listening/nasa-science-of-teams.mp3"
       },
       {
         "id": "m2",
         "kind": "reference",
-        "title": "Проверка после собственной попытки",
-        "source": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
+        "title": "Расшифровка отрывка · после собственной попытки",
+        "source": "NASA — Houston We Have a Podcast · официальный транскрипт",
         "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
-        "text": "На странице источника есть расшифровка выбранной записи. Открой её после первоначального ответа. Найди один конкретный трудный участок и запиши свою первую версию, проверенную версию и причину различия. Если существенной ошибки не было, так и напиши. Полный чужой транскрипт в этот авторский урок не перенесён."
+        "text": "Открой этот текст после первых ответов по звуку. Это соответствующий отрывок официальной расшифровки NASA, а не текст, созданный распознавателем речи. Редакторская расшифровка может сглаживать повторы и особенности спонтанной речи: сверяй трудное место с самой записью. Сохрани свою первую версию, проверенные слова и причину различия; если существенного расхождения не было, так и напиши.\n\nHost: Now, here’s another statement. Leslie, this one’s for you. “A happy team is a productive team.”\n\nLeslie DeChurch: And, Gary, I’m going to call that a half-truth, or a half-myth, depending on which side you look at it. This is actually one that I love, because when we talk about a lot of the properties that make effective teams, things like psychological safety, trust, believing in one another, there is this — you know, psychologists certainly recognize the importance of these kind of hot emotional properties in wanting to contribute to teams. But actually, the research shows that if we’re going to draw an arrow of causality, it’s stronger to reword the statement as “A productive team is a happy team,” and of course, it’s reciprocal. So, you know, nothing builds cohesion in a team like excellence, and by the same token, no expert specialist wants to be part of a losing team for a long period of time. And so, I think that the way to think about this is, there is a relationship between being a happy team and a productive team, but it’s maybe not — you maybe should start with performance first.\n\nHost: Now, Noshir, a statement for you. “Team conflict is bad.”\n\nNoshir Contractor: I would say that that is also a half-truth, and the reason is that it — people would generally assume, of course, conflict has a negative connotation, et cetera. And so, the idea is that all conflict is bad, when in fact, it turns out that a happy team may not be a very productive team, exactly because they don’t engage in the kind of creative conflict, and what some people call creative friction, which allows you to challenge one another. And so, in the literature on teams, for example, there is a distinction that is made between conflict that is associated with personalities and conflict that is associated with the process, the actual work being done. And most of the literature shows that, in fact, having conflict associated with coming up with ideas, and challenging one another’s ideas is actually helpful to the team. It’s when the conflict gets personal that things get really ugly, and it is — and as Tom Williams, who’s an element scientist at the human factors behavioral performance, and a three-time member on your podcast here, has said to you on an interview, “that the goal is not to reduce conflict. The goal is to manage conflict.” So, the question is not that you eliminate it. You recognize it. You nurture the kind of conflict that is going to lead to constructive criticism, and then you work towards minimizing the conflict that is going to create interpersonal issues amongst people."
       },
       {
         "id": "m3",
@@ -447,19 +459,29 @@
     "provenance": {
       "kind": "official-source-listening-fieldwork",
       "reviewMethod": "agent-task-evidence-review",
-      "checkedAt": "2026-09-10",
+      "checkedAt": "2026-09-11",
       "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
       "audioSourceUrl": "https://www.nasa.gov/wp-content/uploads/2020/12/ep175_the_science_of_teams.mp3",
       "audioHeadStatus": 200,
       "audioContentLength": 49954336,
-      "verified": "Published page, transcript anchors and direct audio URL checked. Audio availability checked by HEAD; no claim of expert acoustic review.",
+      "verified": "Official transcript excerpt and complete final audio clip aligned with all unchanged lesson tasks using two local ASR decoders. Exact source cuts and hashes recorded in assets/authentic-listening/sources.json. No claim of human listening or expert acoustic review.",
       "rights": {
         "credit": "NASA — Houston We Have a Podcast",
         "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "scope": "NASA guidelines generally permit educational/informational use of NASA-owned audio with appropriate credit and without implying endorsement. Third-party copyrighted material and protected identifiers are excluded. Use the spoken discussion segment, not logos or unrelated music as app assets."
+        "scope": "NASA's media guidelines permit educational/informational use of NASA audio with source credit and without endorsement; third-party material is excluded. This continuous spoken discussion excludes the episode's music stings. Source recording: NASA — Houston We Have a Podcast. Exercises and explanations: this application, not NASA. No NASA logos or publicity use."
       },
-      "authorship": "Prompts, pedagogical explanations, transfer scenarios and language examples authored for this application; external transcript not reproduced.",
-      "timings": "VOA conversation duration displayed by publisher; NASA exact minute offsets not verified and not supplied."
+      "authorship": "Prompts, explanations, transfer scenarios and language examples authored for this application. The audio and explicitly labeled transcript excerpt are NASA source material; NASA did not author or endorse the exercises or AI explanations.",
+      "timings": "Original decoded MP3 16:16.9–19:08.3; 171.4 seconds. Exact frame cuts within pauses, checked against surrounding speech and final-clip recognition; not publisher-provided timestamps.",
+      "localAudioSha256": "e0c47150d2061882aa9e7aebacbdd0acc5e90e4a021066c0f36e965374381791",
+      "localTranscriptSHA256": "b2ec77c597adeabab9b15de3f37dac204b22348b88cddc46a0433b059491dc68",
+      "sourceAccessRevision": 2,
+      "sourceAccessChange": {
+        "previousLessonSHA256": "825489d6cd16df6ce2e5df2ea549b9e894835b1cfcf0e9343fb8230767be879f",
+        "previousCourseFileSHA256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af",
+        "unchangedExercisesSHA256": "86a4050dde00f7a7d7a6d8380e2ff61015cf0c0cf7e7b460a50b9d71f45d5a2e",
+        "reason": "Replace manual external seeking with the same bounded source conversation and its official transcript, available locally. Exercises, IDs, answers, scenarios and their source meaning remain unchanged.",
+        "audioRegistry": "app/studio/assets/authentic-listening/sources.json"
+      }
     }
   }
 ]

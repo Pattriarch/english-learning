@@ -12,6 +12,148 @@
       "sha256": "f9bd90edddbb8736f64fb5cb3a34ab5a27aecd6e99510977e7b820caf47c5cf7",
       "bytes": 236944,
       "verifiedAt": "2026-09-10"
+    },
+    {
+      "file": "nasa-leadership-management.mp3",
+      "title": "Leadership at All Levels — management and change",
+      "creator": "NASA — Houston We Have a Podcast",
+      "lessonId": "natural-b2-leadership",
+      "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
+      "audioSourceUrl": "https://www.nasa.gov/wp-content/uploads/2024/10/ep357-leadership-at-all-levels.mp3",
+      "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "rights": "NASA's media guidelines permit educational/informational use of NASA audio with source credit and without endorsement; third-party material is excluded. This continuous spoken discussion excludes the episode's music stings. Source recording: NASA — Houston We Have a Podcast. Exercises and explanations: this application, not NASA. No NASA logos or publicity use.",
+      "sha256": "5a91bf71f0ed5c16b887d7d17d5546025eb32ce9f73f3ed108b7abd0eacd054d",
+      "bytes": 6811392,
+      "originalSHA256": "17ff04b4d78e0145e362a476ff32bc1ebb668104b22b619c6256c75a02985206",
+      "originalBytes": 125459648,
+      "sampleRate": 48000,
+      "channels": 2,
+      "frames": 10214400,
+      "durationSeconds": 212.8,
+      "clipStartSeconds": 847.8,
+      "clipEndSeconds": 1060.6,
+      "sourceTranscriptSHA256": "8b650a7e509104391d07ba214edcf5f1c68141ed8a7540952a785abd6127150d",
+      "verifiedAt": "2026-09-11",
+      "preparation": "Decoded original at 48000 Hz; exact frame range; same channels, pitch and tempo; MP3 MPEG Layer III re-encoding via libsndfile/soundfile 0.14.0, CONSTANT bitrate, compression_level=0.2; no internal cuts, TTS, generated voice or music added.",
+      "boundaries": {
+        "startAnchor": "All of those things are how you see a leader",
+        "endAnchor": "we’re doing things well tomorrow",
+        "cutFrameStart": 40694400,
+        "cutFrameEnd": 50908800,
+        "surroundingLowEnergyPauses": [
+          [
+            846.88,
+            848.26
+          ],
+          [
+            1060.16,
+            1060.81
+          ]
+        ]
+      },
+      "alignment": {
+        "method": "Unprompted local whisper.cpp base.en candidate recognition; small.en-q5_1 separate boundary and final-clip recognition; agent comparison with the official NASA transcript and all five unchanged tasks.",
+        "checkedTaskIds": [
+          "e1",
+          "e2",
+          "e3",
+          "e4",
+          "e5"
+        ],
+        "checks": [
+          "e1: complete management/status-quo versus leadership/change explanation retained.",
+          "e2: guest's explicit caveat that management is not bad retained.",
+          "e3: Astros analogy, changing resources and tomorrow's mission retained.",
+          "e4: continuous original recording allows a real 5–10 second replay and comparison.",
+          "e5: original fictional transfer task unchanged; no NASA endorsement of its suggested action."
+        ],
+        "privateEvidenceSHA256": {
+          "candidate-asr.json": "19d67758a311922867addee357299eba5ae541ef076c4f8efa77b0a4890c9976",
+          "start-boundary-asr.json": "26c142b0cbaa703e6fcd0d5dbeaf1de0f906567e7386bfe2300656f407b72b23",
+          "end-boundary-asr.json": "0c9b059790545e54bfdd48a6b5e2bec727c86d85273ade7687a5a05815285038",
+          "clip-asr.json": "a00cba0dadea707c20a9bb1417f4a21f27231e50c3d17063e13e5929198444c9"
+        },
+        "notes": [
+          "Both local decoders recognize the complete opening question and final tomorrow clause.",
+          "Both ASR decoders misrecognize Dare. Unite. Explore.; the displayed text preserves NASA's official spelling."
+        ],
+        "limitations": [
+          "ASR and textual/source alignment are not human listening or an expert acoustic review.",
+          "ASR timestamps are estimates and can extend beyond a segment. Published clip bounds are exact source frame cuts selected in low-energy pauses, not publisher-supplied timestamps.",
+          "The displayed official transcript normalizes some spontaneous repetitions and wording; ASR mistakes are not silently substituted into it."
+        ]
+      }
+    },
+    {
+      "file": "nasa-science-of-teams.mp3",
+      "title": "The Science of Teams — productivity and constructive conflict",
+      "creator": "NASA — Houston We Have a Podcast",
+      "lessonId": "natural-c1-teams",
+      "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
+      "audioSourceUrl": "https://www.nasa.gov/wp-content/uploads/2020/12/ep175_the_science_of_teams.mp3",
+      "rightsUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "rights": "NASA's media guidelines permit educational/informational use of NASA audio with source credit and without endorsement; third-party material is excluded. This continuous spoken discussion excludes the episode's music stings. Source recording: NASA — Houston We Have a Podcast. Exercises and explanations: this application, not NASA. No NASA logos or publicity use.",
+      "sha256": "e0c47150d2061882aa9e7aebacbdd0acc5e90e4a021066c0f36e965374381791",
+      "bytes": 5486592,
+      "originalSHA256": "67d8b9444067d6683d6f6c5bf66181833dcae97cff90e6841ab07eb342d7d628",
+      "originalBytes": 49954336,
+      "sampleRate": 48000,
+      "channels": 2,
+      "frames": 8227200,
+      "durationSeconds": 171.4,
+      "clipStartSeconds": 976.9,
+      "clipEndSeconds": 1148.3,
+      "sourceTranscriptSHA256": "b2ec77c597adeabab9b15de3f37dac204b22348b88cddc46a0433b059491dc68",
+      "verifiedAt": "2026-09-11",
+      "preparation": "Decoded original at 48000 Hz; exact frame range; same channels, pitch and tempo; MP3 MPEG Layer III re-encoding via libsndfile/soundfile 0.14.0, CONSTANT bitrate, compression_level=0.2; no internal cuts, TTS, generated voice or music added.",
+      "boundaries": {
+        "startAnchor": "Now, here’s another statement",
+        "endAnchor": "interpersonal issues amongst people",
+        "cutFrameStart": 46891200,
+        "cutFrameEnd": 55118400,
+        "surroundingLowEnergyPauses": [
+          [
+            976.86,
+            977.19
+          ],
+          [
+            1147.69,
+            1148.39
+          ]
+        ]
+      },
+      "alignment": {
+        "method": "Unprompted local whisper.cpp base.en candidate recognition; small.en-q5_1 separate boundary and final-clip recognition; agent comparison with the official NASA transcript and all five unchanged tasks.",
+        "checkedTaskIds": [
+          "e1",
+          "e2",
+          "e3",
+          "e4",
+          "e5"
+        ],
+        "checks": [
+          "e1: host identifies Leslie and Noshir before their two separate complete answers.",
+          "e2: the stronger direction productive→happy and reciprocal caveat both retained.",
+          "e3: work/idea disagreement, personal conflict and manage rather than eliminate distinction retained.",
+          "e4: both original voices, transitions and official excerpt available for actual personal comparison.",
+          "e5: delayed replay and the original fictional volunteer scenario unchanged."
+        ],
+        "privateEvidenceSHA256": {
+          "candidate-asr.json": "595ce0471a73cd963d66a4cbc75dd464d2f79454e53f6adc3e36d6ad84c45fcc",
+          "start-boundary-asr.json": "e44919d5eb036346e4a76a8fa44b97ced93a6a713009c2c6a2579206c150637f",
+          "end-boundary-asr.json": "4b10846e2be65a97058c05f82950898a9e69cf41a1242091210464be5a95eb53",
+          "clip-asr.json": "71aad8874331474f951fdaed75acb28db28f00f5bbd3b792179c4bd499a7829a"
+        },
+        "notes": [
+          "Both local decoders identify the complete host question and final interpersonal-issues clause.",
+          "ASR renders Noshir's half-truth as hot truth; the displayed text preserves the official transcript's half-truth."
+        ],
+        "limitations": [
+          "ASR and textual/source alignment are not human listening or an expert acoustic review.",
+          "ASR timestamps are estimates and can extend beyond a segment. Published clip bounds are exact source frame cuts selected in low-energy pauses, not publisher-supplied timestamps.",
+          "The displayed official transcript normalizes some spontaneous repetitions and wording; ASR mistakes are not silently substituted into it."
+        ]
+      }
     }
   ]
 }
