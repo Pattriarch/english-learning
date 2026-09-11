@@ -17,7 +17,7 @@ go run -mod=readonly ./cmd/english
 - [Ежедневный план и сохранение прогресса](docs/DAILY-PLAN.md)
 - [Как заниматься от B1 к C2: исследование и ежедневная практика](docs/LEARNING-METHOD-RESEARCH-2026-09-10.md)
 - [Проверка A1–C2: реальные задания, источники и ограничения](docs/A1-C2-COMPLETENESS-AUDIT-2026-09-10.md)
-- [Независимый проход по всем 24 проектам и контрольным](docs/PROJECTS-INDEPENDENT-REVIEW-2026-09-10.md)
+- [Содержательная проверка всех 24 проектов и контрольных агентом](docs/PROJECTS-INDEPENDENT-REVIEW-2026-09-10.md)
 - [Применять изученное после паузы](docs/RETENTION-METHOD.md)
 - [Сохранение собственных мыслей и голосовых записей](docs/NOTEBOOK-SAVING-REVIEW-2026-09-10.md)
 - [Словарь: 10 188 статей, источники и границы проверки](docs/CONTEXT-LEXICON-SOURCES-2026-09-10.md)

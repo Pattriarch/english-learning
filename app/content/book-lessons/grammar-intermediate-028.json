@@ -19,7 +19,7 @@
     },
     {
       "title": "Настоящее: состояние, привычка и действие в процессе",
-      "body": "Must и can’t — модальные глаголы: они показывают отношение говорящего к ситуации, а следующий глагол называет саму ситуацию. После них используется начальная форма без to. Она одинакова для всех лиц: I must know, she must know, they must know. Окончание -s после he или she не добавляется. Для отрицательного вывода используется can’t, без вспомогательного don’t или doesn’t.\n\nЕсли вывод касается состояния, признака или местонахождения, часто нужно be: He must be upset — Он наверняка расстроен; She can’t be upstairs — Она не может быть наверху. Перед прилагательным нельзя пропускать be, хотя в русском настоящая связка обычно отсутствует. Если говорим о привычке, знании, владении или регулярно возникающем состоянии, используем смысловой глагол: She must practise daily — Она наверняка занимается каждый день; He must have a spare charger — У него наверняка есть запасное зарядное устройство.\n\nЕсли действие происходит сейчас, нужна форма be + глагол с -ing: They must be rehearsing — Они, должно быть, репетируют. Сравните They must rehearse every week: это вывод о регулярности. Сочетание be looking forward to something описывает нынешнее радостное ожидание будущего события: She must be looking forward to the reunion. Само событие впереди, но чувство существует сейчас. Обычно know и have в значении владения употребляются без -ing."
+      "body": "Must и can’t — модальные глаголы: они показывают отношение говорящего к ситуации, а следующий глагол называет саму ситуацию. После них используется начальная форма без to. Она одинакова для всех лиц: I must know, she must know, they must know. Окончание -s после he или she не добавляется. Для отрицательного вывода используется can’t, без вспомогательного don’t или doesn’t.\n\nЕсли вывод касается состояния, признака или местонахождения, часто нужно be: He must be upset — Он наверняка расстроен; She can’t be upstairs — Она не может быть наверху. Перед прилагательным нельзя пропускать be, хотя в русском настоящая связка обычно отсутствует. Если говорим о привычке, знании, владении или регулярно возникающем состоянии, используем смысловой глагол: She must practice daily — Она наверняка занимается каждый день; He must have a spare charger — У него наверняка есть запасное зарядное устройство.\n\nЕсли действие происходит сейчас, нужна форма be + глагол с -ing: They must be rehearsing — Они, должно быть, репетируют. Сравните They must rehearse every week: это вывод о регулярности. Сочетание be looking forward to something описывает нынешнее радостное ожидание будущего события: She must be looking forward to the reunion. Само событие впереди, но чувство существует сейчас. Обычно know и have в значении владения употребляются без -ing."
     },
     {
       "title": "Прошлое: must have и can’t have с третьей формой",
@@ -36,7 +36,7 @@
   ],
   "examples": [
     {
-      "en": "Mila recognises every bird in the garden. She must know a lot about wildlife.",
+      "en": "Mila recognizes every bird in the garden. She must know a lot about wildlife.",
       "ru": "Мила узнаёт каждую птицу в саду. Она наверняка много знает о дикой природе.",
       "why": "Наблюдаемое умение служит основанием уверенного вывода о знаниях сейчас. После must стоит know без to и без -s. Must be knowing для обычного значения «знать» не подходит."
     },
@@ -109,14 +109,14 @@
     {
       "id": "e4",
       "kind": "rewrite",
-      "prompt": "Перепишите сообщение, сохранив два предложения: “I can hear someone practising the violin next door. Perhaps Eva is practising.” Измените смысл второго предложения: вы узнаёте манеру игры Евы и теперь практически уверены, кто играет. Включите это основание в первое предложение.",
+      "prompt": "Перепишите сообщение, сохранив два предложения: “I can hear someone practising the violin next door. Perhaps Eva is practising.” Измените смысл второго предложения: вы узнаёте манеру игры Евы и теперь практически уверены, кто играет. Включите это основание в первое предложение. В собственном ответе используйте американское написание practicing и recognizes/recognize, если понадобится этот глагол.",
       "context": "Вы объясняете гостю звуки из соседней квартиры и знаете, как обычно играет Ева.",
       "answers": [
-        "I can hear someone practising the violin next door, and I recognise Eva’s playing. She must be practising.",
-        "I recognise Eva’s playing in the violin music coming from next door. She must be practising."
+        "I can hear someone practicing the violin next door, and I recognize Eva’s playing. She must be practicing.",
+        "I recognize Eva’s playing in the violin music coming from next door. She must be practicing."
       ],
       "hint": "Измените степень уверенности, сохранив значение действия, которое происходит сейчас.",
-      "explanation": "Perhaps представляет только возможность. Узнавание манеры игры даёт основание для must, а be practising сохраняет процесс сейчас. Must practise само по себе могло бы означать необходимость заниматься или вывод о привычке, поэтому не передаёт заданный смысл достаточно точно. Принимаются другие естественные варианты из двух предложений с основанием и уверенным выводом."
+      "explanation": "Perhaps представляет только возможность. Узнавание манеры игры даёт основание для must, а be practicing сохраняет процесс сейчас. Must practice само по себе могло бы означать необходимость заниматься или вывод о привычке, поэтому не передаёт заданный смысл достаточно точно. Принимаются другие естественные варианты из двух предложений с основанием и уверенным выводом."
     },
     {
       "id": "e5",
@@ -124,8 +124,8 @@
       "prompt": "Перепишите сообщение “I’m certain that Daniel was not driving when you called. He was sitting beside me on the bus.” Сохраните уверенный отрицательный вывод о процессе в прошлом, но выразите его изучаемой модальной конструкцией. Дайте два полных варианта сообщения с разными допустимыми модальными формами.",
       "context": "Собеседник думает, что Даниэль не ответил на звонок, потому что был за рулём. Вы лично видели его пассажиром автобуса.",
       "answers": [
-        "Daniel can’t have been driving when you called. He was sitting beside me on the bus.",
-        "Daniel couldn’t have been driving when you called. He was sitting beside me on the bus."
+        "Daniel can’t have been driving when you called. He was sitting beside me on the bus.\nDaniel couldn’t have been driving when you called. He was sitting beside me on the bus.",
+        "Daniel couldn’t have been driving when you called. He was sitting beside me on the bus.\nDaniel can’t have been driving when you called. He was sitting beside me on the bus."
       ],
       "hint": "Вы исключаете действие в конкретный прошлый момент. В этом значении существуют две взаимозаменяемые модальные формы.",
       "explanation": "Оба варианта используют have been driving, потому что речь о возможном процессе во время звонка. Can’t have и couldn’t have здесь равноправно выражают отрицательный вывод. Can’t be driving относилось бы к настоящему, а couldn’t drive без have могло бы сообщать об отсутствии способности или возможности водить. Можно менять порядок предложений и использовать next to me вместо beside me."
@@ -147,10 +147,10 @@
       "prompt": "Напишите другу связное сообщение на английском объёмом 80–100 слов о вчерашнем посещении закрытого магазина. Вы видели через окно снятые со стен полки, открытые банки краски и двух людей в рабочей одежде; слышали звук дрели; покупателей внутри не было. Объясните, что, по вашему уверенному выводу, люди делали в тот момент, что уже сделали до вашего прихода и почему магазин не мог быть открыт для покупателей. Завершите сообщение своим дальнейшим планом.",
       "context": "Друг собирается купить там подарок и хочет понять, стоит ли идти сегодня.",
       "answers": [
-        "Hi Maya, I went past the gift shop yesterday, but it was closed. Through the window, I saw open paint tins and two people in work clothes. I could also hear a drill. They must have been renovating the shop. They must have taken the shelves off the walls before I arrived because the shelves were lying on the floor. The shop can’t have been open to customers with all that equipment around. I’ll phone this afternoon to find out when we can go."
+        "Hi Maya, I went past the gift shop yesterday, but it was closed. Through the window, I saw open paint cans and two people in work clothes. I could also hear a drill. They must have been renovating the shop. They must have taken the shelves off the walls before I arrived because I could see that they were no longer on the walls. The shop can’t have been open to customers with all that equipment around. I’ll phone this afternoon to find out when we can go."
       ],
       "hint": "Выберите отдельную форму для фонового процесса, завершённого действия и состояния магазина в прошлом.",
-      "explanation": "Образец содержит 84 слова. Must have been renovating объясняет процесс ремонта; must have taken указывает на уже завершённое снятие полок; can’t have been open выражает отрицательный вывод о прошлом состоянии магазина. Здесь been open — связка с прилагательным, а не форма процесса. Можно использовать couldn’t have been open. Образец не исчерпывает правильные ответы: принимаются иные связные сообщения нужной длины с обоснованными выводами и дальнейшим планом."
+      "explanation": "Образец укладывается в заданные 80–100 слов. Must have been renovating объясняет процесс ремонта; must have taken указывает на уже завершённое снятие полок; can’t have been open выражает отрицательный вывод о прошлом состоянии магазина. Здесь been open — связка с прилагательным, а не форма процесса. Можно использовать couldn’t have been open. Образец не исчерпывает правильные ответы: принимаются иные связные сообщения нужной длины с обоснованными выводами и дальнейшим планом."
     },
     {
       "id": "e8",
@@ -158,7 +158,7 @@
       "prompt": "Подготовьте и произнесите для друга рассказ на английском на 45–60 секунд, ориентировочно 85–105 слов. Цель — объяснить загадочную утреннюю ситуацию: на столе стоят две чашки и тарелка с крошками, посудомоечная машина работает, пальто вашего соседа по квартире нет; ночью вы слышали разговор из кухни. Выскажите не менее трёх уверенных выводов: о завершённом прошлом действии, о процессе ночью и о нынешнем местонахождении соседа. Назовите основания и кратко признайте, что ваша версия может оказаться ошибочной.",
       "context": "Друг спрашивает, что происходило в квартире, пока вы спали. Вы не видели события лично и восстанавливаете их по следам.",
       "answers": [
-        "Something happened in the kitchen while I was asleep. There are two cups and a plate covered in crumbs on the table, so my flatmate must have had a snack with someone. I heard voices during the night, so they must have been chatting in the kitchen. The dishwasher is running, which means someone must have switched it on recently. My flatmate’s coat is missing, so he must be out now. Of course, I could be wrong about some of this. I’ll ask him when he gets back."
+        "Something happened in the kitchen while I was asleep. There are two cups and a plate covered in crumbs on the table, so my roommate must have had a snack with someone. I heard voices during the night, so they must have been chatting in the kitchen. The dishwasher is running, which means someone must have switched it on recently. My roommate’s coat is missing, so he must be out now. Of course, I could be wrong about some of this. I’ll ask him when he gets back."
       ],
       "hint": "Стройте рассказ как последовательность «наблюдение — вывод». Сначала решите, к какому времени и типу ситуации относится каждый вывод.",
       "explanation": "Образец содержит 88 слов и подходит как ориентир для рассказа примерно на минуту. Must have had и must have switched описывают предполагаемые завершённые действия; must have been chatting — ночной процесс; must be out — нынешнее местонахождение. Оговорка I could be wrong показывает, что уверенный вывод не равен проверенному факту. Допустимы любые логичные формулировки и интерпретации с нужными временными различиями. Оцениваются связность, выбор слов и передаваемый смысл; акустическое произношение здесь не оценивается."
@@ -270,6 +270,9 @@
         "page": 68,
         "sha256": "07f4ee498676f90664e63c7221b2fbcbb2c840fb7d18a3b93bd337b6d8e6dec4"
       }
+    ],
+    "editorialCorrections": [
+      "2026-09-10-book-us-spotcheck"
     ]
   }
 }

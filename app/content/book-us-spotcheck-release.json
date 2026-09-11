@@ -1,0 +1,63 @@
+{
+  "id": "2026-09-10-book-us-spotcheck",
+  "changedLessons": 11,
+  "ready": 872,
+  "total": 872,
+  "files": [
+    {
+      "path": "content/book-lessons/grammar-elementary-034.json",
+      "beforeSHA256": "facf86d07349bd3af7c5b2792f84d658919058b9d078c1938d60e67cd7d217af",
+      "afterSHA256": "dd44787d643f5d74e978472efb52219529e5e236a6056f570c05336c24e6a1b1"
+    },
+    {
+      "path": "content/book-lessons/vocabulary-elementary-004.json",
+      "beforeSHA256": "2eb82559607c4be27f8e4a211d65b3fae716f27d9e9c6584902a63b7a841b899",
+      "afterSHA256": "be1d8416549cffe62648d7d062865d12a4143c5269a4e7f885e0ee560a17ce6a"
+    },
+    {
+      "path": "content/book-lessons/vocabulary-elementary-051.json",
+      "beforeSHA256": "06fb2edde7e1f20a9b01796f0d1f807f7b214431066f592c0c67a855d61951ba",
+      "afterSHA256": "28fab559636442d8fe12e8862e14a4814133128fd693e36c33acf146faa032b4"
+    },
+    {
+      "path": "content/book-lessons/grammar-intermediate-007.json",
+      "beforeSHA256": "bc9121a88ca0cc3510e99744f5fd79c8ea04c514bff9c23feeac40707574bd51",
+      "afterSHA256": "539f5ddfb0b356b165eeb2ca9902dfbe61f4afa94af9df817ed91b2156b4bb7f"
+    },
+    {
+      "path": "content/book-lessons/grammar-intermediate-028.json",
+      "beforeSHA256": "4d9b2910547638a4c37aea812fb5ad6439a7f2aef5d19c044e7e6fd5de8d9baf",
+      "afterSHA256": "94a55d816392bff0b181ea209786bd3b0001893fff44809cf1869534eaf6d0e3"
+    },
+    {
+      "path": "content/book-lessons/collocations-intermediate-006.json",
+      "beforeSHA256": "ac76d68c24e76555cc992ef2e8065ab7b93884a0baec335c6b5355cfd5010fbc",
+      "afterSHA256": "2aa71cbf514d48874855a5053de8844d0f449b1b6c82bb888c5cd28903e66d0a"
+    },
+    {
+      "path": "content/book-lessons/phrasal-intermediate-011.json",
+      "beforeSHA256": "04443e2dd00afc4e89d66d327f5d10a960170236b541f88d6f0ebc1917ca0558",
+      "afterSHA256": "0bad36c2f9797a18684e752a4a9f12edcaa150abee2c8240e9ab0b233f546b4b"
+    },
+    {
+      "path": "content/book-lessons/grammar-advanced-064.json",
+      "beforeSHA256": "19c03761ea795bf8ac03a2d8bd8bf4911363b89cb9bdd254e424574c7f94f05b",
+      "afterSHA256": "af864f7e4c35c361f2dce65162eb19a446a670662973e46baa31ba9fefbab1d4"
+    },
+    {
+      "path": "content/book-lessons/grammar-advanced-099.json",
+      "beforeSHA256": "57b14b6fe77a71fa1a5ac3df31e89ed7d632c9830a9206450f41bd09b7b1bc06",
+      "afterSHA256": "14d8cb2c3dc1444e26f85a47306ded363a3cb35a9ad34904c6e6bc8aeede1cf6"
+    },
+    {
+      "path": "content/book-lessons/vocabulary-advanced-097.json",
+      "beforeSHA256": "cbcee1f2ece75a4494dcf3e75bccba244203726c55857e9b4ea124d4d4ef46dc",
+      "afterSHA256": "66c2f133f0e73f50283873b77f244b19c96257276ff9b9619aae420e1daa717c"
+    },
+    {
+      "path": "content/book-lessons/collocations-advanced-005.json",
+      "beforeSHA256": "287da131943bedf0e268cc545fedd680dea691f99a554b3cb52adaddfbc34d22",
+      "afterSHA256": "7e8adfacd578be095855b3c493a14291e0cdff81d6887ab5af22467bc013639a"
+    }
+  ]
+}

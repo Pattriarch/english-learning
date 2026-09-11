@@ -95,7 +95,7 @@
       "prompt": "Переведите полное сообщение: «Виктор уехал в сервисный центр и ещё не вернулся. Я уже побывал там, и теперь я дома». Передайте различие двух поездок с помощью gone и been.",
       "context": "Друг уточняет, кто сейчас может принять доставку дома.",
       "answers": [
-        "Viktor has gone to the service centre and hasn't come back yet. I've already been there, and now I'm at home."
+        "Viktor has gone to the service center and hasn't come back yet. I've already been there, and now I'm at home."
       ],
       "hint": "Один человек ещё отсутствует, а поездка другого уже завершилась возвращением.",
       "explanation": "Has gone to объясняет отсутствие Виктора; hasn't come back yet делает ожидание возвращения явным. Have been there описывает завершённое посещение говорящего. Перед there не нужен to. Допустимы returned вместо come back, now I'm home вместо now I'm at home и другие точные перефразировки."
@@ -141,7 +141,7 @@
       "prompt": "Напишите соседу по квартире сообщение на английском объёмом 60–80 слов. Объясните, почему сейчас неудобно готовить: сообщите о поломке и ещё не завершённом ремонте. Также расскажите, что вы уже сходили за покупками и вернулись, а другой сосед уехал за нужной деталью и пока отсутствует. Завершите предложением, как поужинать.",
       "context": "Сосед скоро возвращается с работы и хочет знать, можно ли готовить дома. Названия техники, детали и имена выберите сами.",
       "answers": [
-        "Hi Ben, the cooker has broken down, so we can't make dinner at home. The repair technician hasn't fixed it yet because he needs a new part. I've been to the supermarket and bought some bread and cheese, and I'm back home now. Maya has gone to the hardware shop to collect the part. Let's have a simple cold meal tonight, or we can order something if you prefer."
+        "Hi Ben, the stove has broken down, so we can't make dinner at home. The repair technician hasn't fixed it yet because he needs a new part. I've been to the supermarket and bought some bread and cheese, and I'm back home now. Maya has gone to the hardware store to pick up the part. Let's have a simple cold meal tonight, or we can order something if you prefer."
       ],
       "hint": "Покажите нынешнее последствие поломки и различите завершённую поездку и поездку, из которой человек ещё не вернулся.",
       "explanation": "Образец содержит 69 слов. Has broken down объясняет текущую проблему; hasn't fixed it yet показывает, что ремонт ожидается, но пока не завершён. Have been to вместе с I'm back home now обозначает возвращение, а has gone to — отсутствие Майи. В заключении предложение ужина естественно следует из ситуации. Допустимы другие приборы, покупки, имена и решения; оцениваются связность, объём и точность временных значений, а не совпадение с образцом."
@@ -152,7 +152,7 @@
       "prompt": "Произнесите для руководителя короткое сообщение на английском длительностью 45–60 секунд, ориентировочно 80–100 слов. Вы готовите выставочный стенд. Сообщите, что изменилось и готово сейчас, упомяните одно действие в конкретный прошлый день, объясните отсутствие коллеги и задайте вопрос об ожидаемой доставке. Используйте present perfect, past simple, just, already и yet.",
       "context": "Руководитель звонит перед открытием выставки и хочет понять, можно ли начинать работу. Детали подготовки придумайте.",
       "answers": [
-        "Hi Rachel, we've made good progress with the exhibition stand. We've already put up the signs, and the designer has just sent the final price list. I checked the lights yesterday, and they all worked. We haven't unpacked the samples yet because we're still moving the tables. Daniel has gone to the car park to meet the driver, so he isn't here at the moment. Have the extra chairs arrived yet? Once we have them, we can finish the seating area and welcome our first visitors."
+        "Hi Rachel, we've made good progress with the exhibition stand. We've already put up the signs, and the designer has just sent the final price list. I checked the lights yesterday, and they all worked. We haven't unpacked the samples yet because we're still moving the tables. Daniel has gone to the parking lot to meet the driver, so he isn't here at the moment. Have the extra chairs arrived yet? Once we have them, we can finish the seating area and welcome our first visitors."
       ],
       "hint": "Отделите нынешний статус от события с законченной датой. Для отсутствующего коллеги выберите форму, которая не предполагает возвращения.",
       "explanation": "Образец содержит 86 слов и рассчитан примерно на указанное время при спокойной речи. Present perfect сообщает о прогрессе и нынешней готовности, just выделяет свежую новость, already — выполненный пункт. Checked и worked относятся к yesterday, поэтому стоят в past simple. Has gone объясняет отсутствие, а вопрос с yet проверяет ожидаемую доставку. Принимаются другие связные ответы, сохраняющие условия. Оцениваются формулировки и смысл; акустическое произношение здесь не оценивается."
@@ -264,6 +264,9 @@
         "page": 26,
         "sha256": "148cbfbb1a8766d8596e76271553ec3ce9301cf1f9ba50a3d5034b55acf05d55"
       }
+    ],
+    "editorialCorrections": [
+      "2026-09-10-book-us-spotcheck"
     ]
   }
 }

@@ -7,7 +7,7 @@
   "units": "Advanced Grammar in Use · Third edition · Unit 64",
   "minutes": 45,
   "goal": "Сокращать повторяющиеся сказуемые в диалогах и связном тексте, сохраняя время, модальность и нужную степень формальности.",
-  "formula": "has checked → has; might have been checked → might / might have / might have been; works → does; worked → did; is ready → is; has a car → has / does; has checked → has (done); might be working → might (be); formal passive → would be",
+  "formula": "has checked → has; might have been checked → might / might have / might have been; works → does; worked → did; is ready → is; has a car → has / does; has checked → has (BrE разговорное has done — для узнавания); might be working → might (be); formal passive → would be",
   "sections": [
     {
       "title": "1. Что остаётся, когда повторяющееся сказуемое опускают",
@@ -46,9 +46,9 @@
       "why": "Avoid стоит в Present Simple без вспомогательного глагола, поэтому используется do. После so порядок слов обратный: do I. Вариант and I do too передаёт тот же смысл."
     },
     {
-      "en": "I don't have a parking permit, but my neighbour does.",
+      "en": "I don't have a parking permit, but my neighbor does.",
       "ru": "У меня нет разрешения на парковку, а у моего соседа есть.",
-      "why": "Have обозначает обладание, поэтому does заменяет has a parking permit. Возможен и вариант my neighbour has. Положительная вторая часть намеренно противопоставлена отрицательной первой."
+      "why": "Have обозначает обладание, поэтому does заменяет has a parking permit. Возможен и вариант my neighbor has. Положительная вторая часть намеренно противопоставлена отрицательной первой."
     },
     {
       "en": "We weren't planning to have a break, but we did.",
@@ -121,13 +121,13 @@
     {
       "id": "e5",
       "kind": "rewrite",
-      "prompt": "Перепишите весь обмен репликами: «A: Will you be monitoring the server tonight? B: I will be monitoring the server tonight». Новый смысл: B пока не уверен, будет ли заниматься этим. Дайте три версии диалога: с одним модальным глаголом в ответе, с сохранением длительной структуры и с разговорной заменой действия через do.",
-      "context": "Вы обсуждаете ночное дежурство с близким коллегой; расписание ещё не утверждено. Для третьей версии ориентируйтесь на разговорный британский английский.",
+      "prompt": "Перепишите весь обмен репликами: «A: Will you be monitoring the server tonight? B: I will be monitoring the server tonight». Новый смысл: B пока не уверен, будет ли заниматься этим. Дайте две версии диалога на американском английском: с одним модальным глаголом в ответе и с сохранением длительной структуры.",
+      "context": "Вы обсуждаете ночное дежурство с близким коллегой; расписание ещё не утверждено. Выберите две естественные американские формы сокращённого ответа.",
       "answers": [
-        "A: Will you be monitoring the server tonight? B: I might.\nA: Will you be monitoring the server tonight? B: I might be.\nA: Will you be monitoring the server tonight? B: I might do."
+        "A: Will you be monitoring the server tonight? B: I might.\nA: Will you be monitoring the server tonight? B: I might be."
       ],
       "hint": "Сначала измените степень уверенности, затем по-разному сократите повтор. Во второй версии должна восстанавливаться форма процесса.",
-      "explanation": "Might меняет уверенное сообщение на возможность. I might позволяет восстановить всё продолжение; I might be сохраняет be monitoring; I might do заменяет monitor the server tonight как действие и звучит по-британски разговорно. Допустимы другие естественные модальные варианты, если они действительно выражают неуверенность и соблюдают три заданных способа сокращения."
+      "explanation": "Might меняет уверенное сообщение на возможность. I might позволяет восстановить всё продолжение; I might be сохраняет be monitoring. Обе версии естественны в американской речи и выполняют разные способы сокращения. Британское разговорное I might do также может заменять действие, но здесь остаётся материалом для узнавания, а не обязательной третьей версией. Допустимы другие естественные модальные варианты, если они выражают неуверенность и соблюдают два заданных способа сокращения."
     },
     {
       "id": "e6",
@@ -157,7 +157,7 @@
       "prompt": "Подготовьте и произнесите сообщение другу на 45–60 секунд, примерно 90–110 английских слов, о планах на выходные. Сравните свою обычную привычку с привычкой другого человека; упомяните действие с have + существительное, которое состоялось в прошлые выходные; сообщите об уже выполненной просьбе. В конце назовите один неуверенный план. Используйте минимум четыре сокращённых сказуемых.",
       "context": "Друг решает, присоединиться ли к вам. Ему нужно понять, что уже организовано, что обычно происходит и что ещё под вопросом.",
       "answers": [
-        "I usually spend Saturday mornings outdoors, and my brother does too. We don't often have breakfast at a café, but we did last weekend, and we really enjoyed it. I asked him to reserve a table for this Saturday, and he has, so that part is organised. He owns a decent camera, but I don't, so he'll take the photos if we go walking afterwards. I'm not sure about Sunday yet. You asked whether I'll be helping at the community garden. I might be, but I need to check the weather and finish some work first."
+        "I usually spend Saturday mornings outdoors, and my brother does too. We don't often have breakfast at a café, but we did last weekend, and we really enjoyed it. I asked him to reserve a table for this Saturday, and he has, so that part is organized. He owns a decent camera, but I don't, so he'll take the photos if we go walking afterwards. I'm not sure about Sunday yet. You asked whether I'll be helping at the community garden. I might be, but I need to check the weather and finish some work first."
       ],
       "hint": "Сначала установите понятное действие, затем сокращайте его повтор. Различайте прошлый факт, нынешний результат и неопределённый будущий план.",
       "explanation": "В образце 96 слов. Does too заменяет обычную привычку; did — прошедшее had breakfast at a café; has — результат has reserved a table. Don't восстанавливает don't own a decent camera. Might be сохраняет длительную структуру be helping и выражает неуверенность. Это открытое задание: допустимы любые связные корректные перефразировки с нужным содержанием и объёмом. Оцениваются формулировки, понятность отсылок и смысл, а не акустическое произношение."
@@ -279,6 +279,9 @@
         "page": 140,
         "sha256": "c9fabe201ffc3d1769cb7eadadc7af7ea0135fdd4fdec13b6678c9732eeee697"
       }
+    ],
+    "editorialCorrections": [
+      "2026-09-10-book-us-spotcheck"
     ]
   }
 }

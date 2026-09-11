@@ -23,7 +23,7 @@
     },
     {
       "title": "Bitterly: разочарование, обида и горечь",
-      "body": "Bitterly добавляет ощущение горечи, тяжёлого разочарования, обиды или болезненного недовольства. Это не нейтральное «сильно». Bitterly disappointed описывает того, кто разочарован, а bitterly disappointing — то, что разочаровывает. Сравните a bitterly disappointing decision — «решение, вызвавшее горькое разочарование» и residents who were bitterly disappointed — «жители, которые были горько разочарованы». Различие окончаний -ed и -ing здесь помогает разделить переживающего человека и причину переживания.\n\nС глаголами употребляются bitterly resent — «остро обижаться на что-либо, негодовать из-за несправедливости», bitterly criticise — «резко, с горечью критиковать», bitterly regret — «горько сожалеть», complain bitterly — «горько или ожесточённо жаловаться», cry bitterly и weep bitterly — «горько плакать». Weep обычно звучит более литературно, чем cry. После resent возможно существительное или форма на -ing: resent being excluded — «негодовать из-за того, что тебя исключили». Regret doing something означает сожаление об уже совершённом действии.\n\nBitterly несколько чаще встречается в письменной речи, но уместно и в разговорном рассказе о сильном переживании. Оно не подходит к любому глаголу отношения: bitterly regard не является стандартным усиленным вариантом regard. При выборе между bitterly regret и deeply regret первое сильнее подчёркивает горечь переживания, а второе — глубину сожаления; оба сочетания естественны."
+      "body": "Bitterly добавляет ощущение горечи, тяжёлого разочарования, обиды или болезненного недовольства. Это не нейтральное «сильно». Bitterly disappointed описывает того, кто разочарован, а bitterly disappointing — то, что разочаровывает. Сравните a bitterly disappointing decision — «решение, вызвавшее горькое разочарование» и residents who were bitterly disappointed — «жители, которые были горько разочарованы». Различие окончаний -ed и -ing здесь помогает разделить переживающего человека и причину переживания.\n\nС глаголами употребляются bitterly resent — «остро обижаться на что-либо, негодовать из-за несправедливости», bitterly criticize — «резко, с горечью критиковать», bitterly regret — «горько сожалеть», complain bitterly — «горько или ожесточённо жаловаться», cry bitterly и weep bitterly — «горько плакать». Weep обычно звучит более литературно, чем cry. После resent возможно существительное или форма на -ing: resent being excluded — «негодовать из-за того, что тебя исключили». Regret doing something означает сожаление об уже совершённом действии.\n\nBitterly несколько чаще встречается в письменной речи, но уместно и в разговорном рассказе о сильном переживании. Оно не подходит к любому глаголу отношения: bitterly regard не является стандартным усиленным вариантом regard. При выборе между bitterly regret и deeply regret первое сильнее подчёркивает горечь переживания, а второе — глубину сожаления; оба сочетания естественны."
     },
     {
       "title": "Deeply: чувства, забота и внутренняя приверженность",
@@ -55,7 +55,7 @@
       "why": "Bitterly добавляет горечь утраты и сожаления. Regretted selling относится к уже совершённому поступку. Deeply regretted также естественно, но выделяет глубину чувства, а не его горький оттенок."
     },
     {
-      "en": "We were deeply moved by the neighbours’ offer to cook for us.",
+      "en": "We were deeply moved by the neighbors’ offer to cook for us.",
       "ru": "Нас глубоко тронуло предложение соседей готовить для нас.",
       "why": "Deeply moved описывает сильную эмоциональную реакцию на доброту. Это не обязательно печаль. Strongly moved не является обычным сочетанием для такого переживания."
     },
@@ -104,7 +104,7 @@
       "prompt": "Переведите сообщение другу: «Наш номер оказался невероятно маленьким, а завтрак — нелепо дорогим. После ночной поездки мы были совершенно измотаны. При этом сотрудники были уверены, что никаких проблем нет». Для последнего предложения передайте полную уверенность сотрудников.",
       "context": "Вы описываете неудачное заселение в гостиницу и своё недовольство реакцией персонала.",
       "answers": [
-        "Our room turned out to be ridiculously small, and breakfast was ridiculously expensive. After travelling all night, we were utterly exhausted. Meanwhile, the staff were absolutely convinced that there were no problems."
+        "Our room turned out to be ridiculously small, and breakfast was ridiculously expensive. After traveling all night, we were utterly exhausted. Meanwhile, the staff were absolutely convinced that there were no problems."
       ],
       "hint": "Различите критическую оценку размера и цены, крайнюю усталость и полную уверенность. Одного усилителя на все случаи недостаточно.",
       "explanation": "Ridiculously small и ridiculously expensive передают не только степень, но и недовольство несоразмерностью. Utterly exhausted обозначает полное истощение; absolutely exhausted тоже естественно. Absolutely convinced that показывает уверенность сотрудников, но не подтверждает, что они правы. Допустимы другие точные переводы и выбор времён, согласованный с рассказом."
@@ -137,7 +137,7 @@
       "prompt": "Напишите коллеге отзыв на английском объёмом 80–100 слов о вымышленном онлайн-курсе. Цель — помочь решить, стоит ли записываться. Оцените эффективность курса, объясните, что было неожиданно простым или неудобным, опишите отношение преподавателя к ученикам и завершите обоснованной рекомендацией. Используйте не менее четырёх естественных усиленных сочетаний из урока.",
       "context": "Коллега выбирает курс для развития рабочего навыка. Ему нужны конкретные впечатления, включая хотя бы один недостаток.",
       "answers": [
-        "I have just finished a short online course on presenting data. The teaching method was highly effective because we practised with realistic reports instead of only watching videos. The first assignment was ridiculously easy, but the later tasks required much more thought. Our tutor was deeply committed to helping everyone improve and gave detailed feedback. My only complaint is that the live sessions started ridiculously early. Overall, I would strongly recommend the course if you can manage the timetable and want practical skills."
+        "I have just finished a short online course on presenting data. The teaching method was highly effective because we practiced with realistic reports instead of only watching videos. The first assignment was ridiculously easy, but the later tasks required much more thought. Our tutor was deeply committed to helping everyone improve and gave detailed feedback. My only complaint is that the live sessions started ridiculously early. Overall, I would strongly recommend the course if you can manage the timetable and want practical skills."
       ],
       "hint": "Пусть каждое усиление выполняет свою работу: оценка качества, субъективная оценка степени, отношение человека или рекомендация. Подкрепляйте оценки деталями.",
       "explanation": "Образец содержит 83 слова и связывает оценки с причинами. Highly effective описывает эффективность, ridiculously easy и ridiculously early показывают субъективно чрезмерную степень. Deeply committed to helping выражает серьёзную приверженность преподавателя; strongly recommend формулирует рекомендацию. Содержание можно полностью изменить: принимаются любые связные отзывы нужной длины, выполняющие условия и использующие естественные сочетания."
@@ -159,7 +159,7 @@
       "prompt": "Подготовьте и произнесите выступление на английском для собрания жильцов: 60–90 секунд, ориентир 100–130 слов. Обсуждается новая система электронных ключей. Объясните, что вы поддерживаете, против чего возражаете, чем обеспокоены и какое изменение рекомендуете. Упомяните строгое правило, с которым вы согласны. Используйте не менее четырёх разных усилительных наречий.",
       "context": "Вы хотите повысить безопасность дома, но считаете часть новых условий неудобными для пожилых жильцов.",
       "answers": [
-        "I strongly support improving security in our building, but I am deeply concerned about the proposed electronic keys. Some older residents do not use smartphones, so an app-only system would make daily life unnecessarily difficult. The replacement fee also seems ridiculously high for a small device. I am absolutely convinced that we can find a fairer solution. I strongly recommend offering a physical key to every resident and keeping the replacement cost low. I agree that sharing access codes with strangers should be strictly forbidden. However, the rules must still allow residents to receive carers and family visitors. Better security should help everyone feel safe in their own home."
+        "I strongly support improving security in our building, but I am deeply concerned about the proposed electronic keys. Some older residents do not use smartphones, so an app-only system would make daily life unnecessarily difficult. The replacement fee also seems ridiculously high for a small device. I am absolutely convinced that we can find a fairer solution. I strongly recommend offering a physical key to every resident and keeping the replacement cost low. I agree that sharing access codes with strangers should be strictly forbidden. However, the rules must still allow residents to receive caregivers and family visitors. Better security should help everyone feel safe in their own home."
       ],
       "hint": "Постройте речь от общей поддержки к конкретным возражениям и решению. Различайте силу позиции, глубину тревоги, оценку цены и строгость правила.",
       "explanation": "Образец содержит 109 слов. Strongly support и strongly recommend выражают позицию и рекомендацию; deeply concerned — обеспокоенность; ridiculously high — критику цены; absolutely convinced — уверенность; strictly forbidden — строгость правила. Принимаются другие связные выступления с теми же коммуникативными задачами. Оцениваются выбор слов, смысл, грамматические связи и организация речи; акустическое произношение этим заданием не оценивается."
@@ -297,6 +297,9 @@
         "page": 21,
         "sha256": "01781563edb747dade0ac3bc4dfaebbc0def9a9140bb14a221c272b54a60e372"
       }
+    ],
+    "editorialCorrections": [
+      "2026-09-10-book-us-spotcheck"
     ]
   }
 }

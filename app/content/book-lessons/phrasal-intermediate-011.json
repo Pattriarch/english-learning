@@ -100,7 +100,7 @@
       "prompt": "Переведите сообщение знакомой: «Мне было неприятно, что сосед опять оставил мусор у моей двери. Я больше не собираюсь это терпеть. Ты можешь подсказать мне человека, который поможет решить эту проблему?» Передайте реакцию, отказ терпеть и просьбу о полезном контакте сочетаниями с put.",
       "context": "Вы хотите спокойно решить повторяющуюся проблему в доме.",
       "answers": [
-        "I was put out that my neighbour had left rubbish outside my door again. I’m not going to put up with it any longer. Could you put me onto someone who can help resolve this problem?"
+        "I was put out that my neighbor had left trash outside my door again. I’m not going to put up with it any longer. Could you put me onto someone who can help resolve this problem?"
       ],
       "hint": "Эмоциональное состояние, терпимость к ситуации и рекомендация контакта требуют трёх разных конструкций.",
       "explanation": "Was put out передаёт досаду или обиду. В put up with it местоимение следует после with: это не разделяемая конструкция типа put it on. В put me onto someone сначала назван получатель рекомендации, затем полезный контакт. Допустимо написание on to вместо onto, а также другие естественные переводы, сохраняющие эти значения."
@@ -108,10 +108,10 @@
     {
       "id": "e4",
       "kind": "rewrite",
-      "prompt": "Перепишите весь текст для противоположной ситуации: теперь центр готовится к открытию, поэтому навес нужно установить, объявление вывесить, а обогреватель установить. Сохраните последовательность действий и используйте сочетания с put. Исходный текст: “The centre is closing for the winter. First, we’ll take down the canopy. Then we’ll remove the notice from the entrance. Finally, we’ll take out the old heater.”",
+      "prompt": "Перепишите весь текст для противоположной ситуации: теперь центр готовится к открытию, поэтому навес нужно установить, объявление вывесить, а обогреватель установить. Сохраните последовательность действий и используйте сочетания с put. Исходный текст: “The centre is closing for the winter. First, we’ll take down the canopy. Then we’ll remove the notice from the entrance. Finally, we’ll take out the old heater.” В новом сообщении используйте американское написание center; исходное centre сохраняет то же значение.",
       "context": "Вместо закрытия здания вы составляете краткий план подготовки к началу сезона.",
       "answers": [
-        "The centre is opening for the summer. First, we’ll put up the canopy. Then we’ll put up a notice at the entrance. Finally, we’ll put in a new heater."
+        "The center is opening for the summer. First, we’ll put up the canopy. Then we’ll put up a notice at the entrance. Finally, we’ll put in a new heater."
       ],
       "hint": "Для навеса и объявления подходит одна частица, но физические действия различаются. Монтаж оборудования требует другого сочетания.",
       "explanation": "Put up the canopy означает собрать и поставить навес; put up a notice — прикрепить объявление для посетителей. Put in a new heater описывает установку оборудования. Изменение closing на opening и old на new делает весь текст согласованным с новым контекстом. Можно выбрать другой сезон и естественно перефразировать предложения; эталон не является единственным правильным вариантом."
@@ -155,7 +155,7 @@
       "prompt": "Подготовьте устное сообщение на 45–60 секунд, примерно 85–105 слов, для друга о насыщенном дне волонтёра в лагере. Расскажите об установке палаток и оборудования, неожиданной посадке вертолёта поблизости, переносе инструктажа и тушении костра. Добавьте свою реакцию на изменение планов. Используйте не менее пяти изученных сочетаний с put и объясните, почему хотя бы одно действие пришлось выполнить.",
       "context": "Друг попросил рассказать, как прошёл ваш первый день помощи в лагере.",
       "answers": [
-        "We had a surprisingly busy day at the camp. In the morning, we put up three tents and put in a temporary lighting system because the main building had no electricity. Just before lunch, a rescue helicopter put down in a field nearby. The organisers put our safety briefing back by an hour so they could help the crew. I was a little put out at first, but the delay made sense. In the evening, we sat around a small fire, and I put it out before everyone went to bed."
+        "We had a surprisingly busy day at the camp. In the morning, we put up three tents and put in a temporary lighting system because the main building had no electricity. Just before lunch, a rescue helicopter put down in a field nearby. The organizers put our safety briefing back by an hour so they could help the crew. I was a little put out at first, but the delay made sense. In the evening, we sat around a small fire, and I put it out before everyone went to bed."
       ],
       "hint": "Стройте рассказ по этапам дня. Посадку описывайте как действие самого воздушного судна, а перенос события связывайте с новой причиной.",
       "explanation": "В образце 91 слово. Put up относится к палаткам, put in — к системе освещения, put down — к посадке вертолёта, put back — к переносу инструктажа, was put out — к досаде, put out — к тушению. Because и so объясняют причины, а временные выражения связывают события. Допустимы другие правдоподобные подробности и правильные перефразировки в заданном объёме. Оцениваются формулировки, связность и точность значений; акустическое произношение этим заданием не оценивается."
@@ -289,6 +289,9 @@
         "page": 29,
         "sha256": "bc4da2e2456daa1e9caeab84b6039c4ecb12a23697dbc45e2dc09429ca677b4e"
       }
+    ],
+    "editorialCorrections": [
+      "2026-09-10-book-us-spotcheck"
     ]
   }
 }
