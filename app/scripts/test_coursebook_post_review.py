@@ -152,4 +152,3 @@ class PostReviewTests(unittest.TestCase):
         path = self.folder / self.proposal_name
         path.write_bytes(path.read_bytes() + b" ")
         with self.assertRaises(ValueError): pipeline.verify_ready(receipt, self.bundle, self.folder)
-
