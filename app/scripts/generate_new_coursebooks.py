@@ -589,7 +589,7 @@ def checkpoint_record(path):
 
 
 def verify_call(record, folder, expected, attachments):
-    if not re.fullmatch(r"(?:analysis|lesson)-(?:draft|review)-[1-6](?:-repair-[1-3])?\.json", record.get("file", "")):
+    if not re.fullmatch(r"(?:(?:analysis|lesson)-(?:draft|review)-[1-6](?:-repair-[1-3])?|lesson-editorial-review-[1-6])\.json", record.get("file", "")):
         raise ValueError("Invalid model receipt path")
     path = Path(folder) / record["file"]
     if file_sha(path) != record["sha256"] or file_sha(path.with_suffix(".request.json")) != record["requestSha256"]:
@@ -1060,7 +1060,11 @@ def verify_ready(receipt, bundle, folder):
     analysis_review = verify_call(receipt["analysisAcceptance"], folder, analysis_review_request(analysis, bundle), bundle["attachments"])
     if not validate_analysis_review(analysis_review, analysis, bundle):
         raise ValueError("Source inventory was not independently accepted")
-    review_request = lesson_review_request(lesson, lesson_base, bundle, folder)
+    if receipt.get("postReviewEditorial") is not None:
+        from coursebook_post_review import verify_receipt
+        review_request = verify_receipt(receipt, bundle, folder, lesson_base)
+    else:
+        review_request = lesson_review_request(lesson, lesson_base, bundle, folder)
     lesson_review = verify_call(receipt["lessonAcceptance"], folder,
         {key: review_request[key] for key in ("prompt", "payload", "schema")}, bundle["attachments"])
     if not template.validate_review(lesson_review, lesson, lesson_base):
