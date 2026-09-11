@@ -257,3 +257,114 @@ func TestLexiconDetailKeepsRawFieldsAndUnknownIDReturns404(t *testing.T) {
 		}
 	}
 }
+
+func preparedLexicalFixture(id, word, en string, start, end int, quality string) map[string]any {
+	entry := lexicalFixture(id, word, en, "Русский перевод.", start, end)
+	entry["senses"] = []any{map[string]any{"id": "sense-1", "definition": "The meaning in this example"}}
+	context := entry["contexts"].([]any)[0].(map[string]any)
+	context["senseId"], context["quality"] = "sense-1", quality
+	return entry
+}
+
+func TestLexiconPreparedRequiresOneActiveReviewedContextWithTranslationAndSense(t *testing.T) {
+	for _, scenario := range []string{"editorial", "ai", "entry-status-only", "missing-ru", "blank-ru", "missing-sense", "unknown-sense", "blank-definition", "imported-quality", "archived"} {
+		t.Run(scenario, func(t *testing.T) {
+			entry := preparedLexicalFixture("ready", "word", "word here", 0, 4, "context-reviewed")
+			context := entry["contexts"].([]any)[0].(map[string]any)
+			entry["quality"] = map[string]any{"status": "context-reviewed"}
+			switch scenario {
+			case "ai":
+				context["quality"] = "ai-context-reviewed"
+			case "entry-status-only":
+				delete(context, "quality")
+			case "missing-ru":
+				delete(context, "ru")
+			case "blank-ru":
+				context["ru"] = " \n\t "
+			case "missing-sense":
+				delete(context, "senseId")
+			case "unknown-sense":
+				context["senseId"] = "other"
+			case "blank-definition":
+				entry["senses"].([]any)[0].(map[string]any)["definition"] = " \n "
+			case "imported-quality":
+				context["quality"] = "imported"
+			case "archived":
+				context["excludedFromStudy"] = true
+			}
+			fallback := lexicalFixture("reference", "word", "word there", "слово там", 0, 4)["contexts"].([]any)[0]
+			entry["contexts"] = append(entry["contexts"].([]any), fallback)
+			raw, _ := json.Marshal(entry)
+			item, err := readLexiconItem(raw)
+			if err != nil {
+				t.Fatal(err)
+			}
+			want := scenario == "editorial" || scenario == "ai"
+			if item.Prepared != want {
+				t.Fatalf("prepared=%v, want %v", item.Prepared, want)
+			}
+			if !item.Reviewed {
+				t.Fatal("context readiness changed the existing editorial entry status")
+			}
+		})
+	}
+}
+
+func TestLexiconPreparedPreviewIsStableAndPreservesRawContextIDs(t *testing.T) {
+	entry := lexicalFixture("word", "word", "word reference", "справочный пример", 0, 4)
+	entry["senses"] = []any{map[string]any{"id": "sense-1", "definition": "Meaning"}}
+	archived := preparedLexicalFixture("archived", "word", "word archived", 0, 4, "context-reviewed")["contexts"].([]any)[0].(map[string]any)
+	archived["excludedFromStudy"] = true
+	first := preparedLexicalFixture("first-ready", "word", "word first ready", 0, 4, "ai-context-reviewed")["contexts"].([]any)[0]
+	second := preparedLexicalFixture("second-ready", "word", "word second ready", 0, 4, "context-reviewed")["contexts"].([]any)[0]
+	entry["contexts"] = append(entry["contexts"].([]any), archived, first, second)
+	raw, _ := json.Marshal(entry)
+	item, err := readLexiconItem(raw)
+	if err != nil {
+		t.Fatal(err)
+	}
+	preview := item.Summary["preview"].(map[string]any)
+	if preview["id"] != "first-ready-context" || preview["en"] != "word first ready" || item.Summary["preparedContexts"] != 2 || item.Summary["contextCount"] != 3 {
+		t.Fatalf("wrong active prepared preview: %+v", item.Summary)
+	}
+	if string(item.Raw) != string(raw) {
+		t.Fatal("preview selection changed original contexts, IDs or archived provenance")
+	}
+}
+
+func TestLexiconPreparedFilterMetadataAndEditorialPriority(t *testing.T) {
+	s := &Server{content: t.TempDir()}
+	imported := lexicalFixture("issue", "issue", "issue here", "проблема здесь", 0, 5)
+	ai := preparedLexicalFixture("approach", "approach", "An approach to this issue.", 3, 11, "ai-context-reviewed")
+	ai["quality"] = map[string]any{"status": "ai-context-reviewed"}
+	editorial := preparedLexicalFixture("board", "board", "A board issue arose.", 2, 7, "context-reviewed")
+	editorial["quality"] = map[string]any{"status": "context-reviewed"}
+	statusOnly := lexicalFixture("draft", "draft", "draft here", "черновик здесь", 0, 5)
+	statusOnly["quality"] = map[string]any{"status": "context-reviewed"}
+	writeLexicalFixture(t, s, "entries.json", lexicalDocument(imported, ai, editorial, statusOnly))
+	code, body := listLexicalFixture(t, s, "?prepared=1&kind=word&list=common-list&topic=work")
+	if code != 200 || body["total"] != float64(2) {
+		t.Fatalf("prepared filter failed: %d %+v", code, body)
+	}
+	items := body["items"].([]any)
+	if items[0].(map[string]any)["id"] != "board" || items[1].(map[string]any)["id"] != "approach" {
+		t.Fatal("editorial entries must retain priority over other prepared entries")
+	}
+	metadata := body["metadata"].(map[string]any)
+	if metadata["preparedEntries"] != float64(2) || metadata["reviewedEntries"] != float64(2) || metadata["totalEntries"] != float64(4) {
+		t.Fatalf("prepared and existing editorial counts confused: %+v", metadata)
+	}
+	_, body = listLexicalFixture(t, s, "?q=issue")
+	items = body["items"].([]any)
+	if items[0].(map[string]any)["id"] != "issue" || items[1].(map[string]any)["id"] != "board" || items[2].(map[string]any)["id"] != "approach" {
+		t.Fatal("exact headword must lead, then editorial and AI-prepared entries")
+	}
+	_, body = listLexicalFixture(t, s, "?prepared=1&q=issue&offset=1&limit=1")
+	if body["total"] != float64(2) || body["items"].([]any)[0].(map[string]any)["id"] != "approach" {
+		t.Fatal("prepared search pagination lost a matching entry")
+	}
+	_, body = listLexicalFixture(t, s, "?prepared=0")
+	if body["total"] != float64(4) {
+		t.Fatal("all mode must preserve reference entries")
+	}
+}

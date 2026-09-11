@@ -17,6 +17,7 @@ import (
 type lexiconItem struct {
 	ID, Word, Kind, Search string
 	Reviewed               bool
+	Prepared               bool
 	Rank                   int
 	Lists, Topics          []string
 	Raw                    json.RawMessage
@@ -67,10 +68,11 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 		Topics         []struct{ ID, Title string }
 		Contexts       []struct {
 			ID, En, Ru        string
+			SenseID, Quality  string
 			TargetSpans       []lexiconSpan
 			ExcludedFromStudy bool
 		}
-		Senses  []struct{ Definition string }
+		Senses  []struct{ ID, Definition string }
 		Quality struct{ Status string }
 	}
 	if err := json.Unmarshal(raw, &entry); err != nil {
@@ -102,9 +104,23 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 	if len(entry.Contexts) == 0 {
 		return lexiconItem{}, fmt.Errorf("no usable context in %s", entry.ID)
 	}
+	preparedSenses := map[string]bool{}
 	for _, sense := range entry.Senses {
 		search = append(search, sense.Definition)
+		if strings.TrimSpace(sense.ID) != "" && strings.TrimSpace(sense.Definition) != "" {
+			preparedSenses[sense.ID] = true
+		}
 	}
+	previewIndex, preparedContexts := 0, 0
+	for i, c := range entry.Contexts {
+		if strings.TrimSpace(c.Ru) != "" && preparedSenses[c.SenseID] && (c.Quality == "context-reviewed" || c.Quality == "ai-context-reviewed") {
+			if preparedContexts == 0 {
+				previewIndex = i
+			}
+			preparedContexts++
+		}
+	}
+	item.Prepared = preparedContexts > 0
 	for _, member := range entry.Memberships {
 		item.Lists = append(item.Lists, member.SourceID)
 	}
@@ -115,7 +131,8 @@ func readLexiconItem(raw json.RawMessage) (lexiconItem, error) {
 	item.Search = strings.ToLower(strings.Join(search, " "))
 	var object map[string]json.RawMessage
 	_ = json.Unmarshal(raw, &object)
-	item.Summary = map[string]any{"id": item.ID, "word": item.Word, "kind": item.Kind, "rank": object["rank"], "memberships": object["memberships"], "topics": object["topics"], "quality": object["quality"], "contextCount": len(entry.Contexts), "senseCount": len(entry.Senses), "preview": map[string]any{"en": entry.Contexts[0].En, "ru": entry.Contexts[0].Ru, "targetSpans": entry.Contexts[0].TargetSpans}}
+	preview := entry.Contexts[previewIndex]
+	item.Summary = map[string]any{"id": item.ID, "word": item.Word, "kind": item.Kind, "rank": object["rank"], "memberships": object["memberships"], "topics": object["topics"], "quality": object["quality"], "contextCount": len(entry.Contexts), "preparedContexts": preparedContexts, "senseCount": len(entry.Senses), "preview": map[string]any{"id": preview.ID, "en": preview.En, "ru": preview.Ru, "targetSpans": preview.TargetSpans}}
 	for _, field := range []string{"displayHeadword", "lexicalType"} {
 		if value, ok := object[field]; ok {
 			item.Summary[field] = value
@@ -190,10 +207,13 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	out.Metadata["targetVariety"] = "en-US"
 	out.Metadata["totalEntries"] = len(out.Items)
 	words, phrases := 0, 0
-	reviewed := 0
+	reviewed, prepared := 0, 0
 	for _, item := range out.Items {
 		if item.Reviewed {
 			reviewed++
+		}
+		if item.Prepared {
+			prepared++
 		}
 		if item.Kind == "phrase" {
 			phrases++
@@ -203,6 +223,7 @@ func (s *Server) currentLexicon() (*lexiconSnapshot, error) {
 	}
 	out.Metadata["words"], out.Metadata["phrases"] = words, phrases
 	out.Metadata["reviewedEntries"] = reviewed
+	out.Metadata["preparedEntries"] = prepared
 	topicCounts := map[string]map[string]any{}
 	for _, item := range out.Items {
 		var topics []struct{ ID, Title string }
@@ -237,6 +258,7 @@ func (s *Server) lexiconList(w http.ResponseWriter, r *http.Request) {
 	}
 	q := strings.ToLower(strings.TrimSpace(r.URL.Query().Get("q")))
 	list, topic, kind := r.URL.Query().Get("list"), r.URL.Query().Get("topic"), r.URL.Query().Get("kind")
+	preparedOnly := r.URL.Query().Get("prepared") == "1"
 	if len(q) > 300 || len(list) > 100 || len(topic) > 100 {
 		problem(w, 400, errors.New("Слишком длинный поиск"))
 		return
@@ -259,7 +281,7 @@ func (s *Server) lexiconList(w http.ResponseWriter, r *http.Request) {
 		return false
 	}
 	for i, item := range all.Items {
-		if q != "" && !strings.Contains(item.Search, q) || list != "" && !contains(item.Lists, list) || topic != "" && !contains(item.Topics, topic) || kind != "" && item.Kind != kind {
+		if q != "" && !strings.Contains(item.Search, q) || list != "" && !contains(item.Lists, list) || topic != "" && !contains(item.Topics, topic) || kind != "" && item.Kind != kind || preparedOnly && !item.Prepared {
 			continue
 		}
 		matches = append(matches, i)
@@ -269,10 +291,13 @@ func (s *Server) lexiconList(w http.ResponseWriter, r *http.Request) {
 		score := func(item lexiconItem) int {
 			n := 0
 			if item.Reviewed {
+				n += 2
+			}
+			if item.Prepared {
 				n++
 			}
 			if q != "" && strings.ToLower(item.Word) == q {
-				n += 2
+				n += 4
 			}
 			return n
 		}

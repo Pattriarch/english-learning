@@ -25,4 +25,12 @@ export const lexicalSourceURL=source=>/^https:\/\//.test(source?.url||'')?source
 export function parseLexicalState(raw){try{const x=JSON.parse(raw);return x?.version===1&&['new','learning','known'].includes(x.status)?x:{version:1,status:'new'};}catch{return{version:1,status:'new'};}}
 export function lexicalProgress(drafts){const seen=new Set();let known=0,learning=0;for(const [key,value]of Object.entries(drafts||{})){if(!key.startsWith('lexicon:state:')||seen.has(key))continue;seen.add(key);const x=parseLexicalState(typeof value==='string'?value:value.text);if(x.status==='known')known++;else if(x.status==='learning')learning++;}return{known,learning};}
 export function lexicalLinkedSense(entry,context){return typeof context?.senseId==='string'?entry.senses?.find(s=>s.id===context.senseId)||null:null;}
+export function lexicalPreparedContext(entry,context){
+ const sense=lexicalLinkedSense(entry,context);
+ return !context?.excludedFromStudy&&typeof context?.ru==='string'&&!!context.ru.trim()&&['context-reviewed','ai-context-reviewed'].includes(context.quality)&&typeof context.senseId==='string'&&!!context.senseId.trim()&&typeof sense?.definition==='string'&&!!sense.definition.trim();
+}
+export function lexicalStudyContexts(entry){
+ const active=(entry.contexts||[]).filter(context=>!context.excludedFromStudy);
+ return active.filter(context=>lexicalPreparedContext(entry,context)).concat(active.filter(context=>!lexicalPreparedContext(entry,context)));
+}
 export function lexicalImage(entry,context){return (entry.images||[]).find(image=>lexicalImageURL(image)&&(!image.contextId||image.contextId===context.id))||null;}
