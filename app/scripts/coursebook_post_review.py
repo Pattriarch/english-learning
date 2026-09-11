@@ -15,6 +15,7 @@ from coursebook_editorial_patch import apply_changes
 
 KIND = "coursebook-post-review-editorial-v1"
 KIND_WITH_MOVE = "coursebook-post-review-editorial-v2"
+KIND_WITH_MATERIALS = "coursebook-post-review-editorial-v3"
 _PROPOSAL = re.compile(r"lesson-editorial-proposal-([1-6])\.json")
 _PREVIOUS = re.compile(r"lesson-(?:review-([1-6])|editorial-review-([1-6]))\.json")
 _FIELDS = {"version", "kind", "unitId", "sourceSetSha256", "sourceReview", "baseCandidateSha256", "changes"}
@@ -54,10 +55,10 @@ def prepare(bundle, folder, author, proposal_name, *, seen=()):
         raise ValueError("Post-review proposal is outside its chapter")
     proposal = _read(path)
     version = proposal.get("version") if isinstance(proposal, dict) else None
-    expected_fields = _FIELDS | {"workflowMove"} if version == 2 else _FIELDS
+    expected_fields = _FIELDS | ({"workflowMove"} if version == 2 else {"originalMaterialAdditions"} if version == 3 else set())
     if (not isinstance(proposal, dict) or set(proposal) != expected_fields
-            or type(version) is not int or version not in (1, 2)
-            or proposal["kind"] != (KIND_WITH_MOVE if version == 2 else KIND)
+            or type(version) is not int or version not in (1, 2, 3)
+            or proposal["kind"] != ({1: KIND, 2: KIND_WITH_MOVE, 3: KIND_WITH_MATERIALS}.get(version))
             or proposal["unitId"] != bundle["chapter"]["unitId"]
             or proposal["sourceSetSha256"] != bundle["sourceSetSha256"]):
         raise ValueError("Post-review proposal identity/source changed")
@@ -90,12 +91,17 @@ def prepare(bundle, folder, author, proposal_name, *, seen=()):
     if version == 2:
         from coursebook_workflow_move import apply_move
         candidate = apply_move(candidate, proposal["workflowMove"])
+    if version == 3:
+        from coursebook_material_additions import apply_additions
+        candidate = apply_additions(candidate, bundle, proposal["originalMaterialAdditions"])
     template.validate_lesson(candidate, author)
     evidence = {"file": proposal_name, "sha256": _sha(path), "sourceReview": deepcopy(record),
                 "baseCandidateSha256": template.value_sha(base), "candidateSha256": template.value_sha(candidate),
                 "changes": [{"path": deepcopy(change["path"]), "reason": change["reason"]} for change in proposal["changes"]]}
     if version == 2:
         evidence["workflowMove"] = deepcopy(proposal["workflowMove"])
+    if version == 3:
+        evidence["originalMaterialAdditions"] = deepcopy(proposal["originalMaterialAdditions"])
     request = _base_request(candidate, author, bundle, folder)
     request["payload"]["postReviewEditorial"] = evidence
     request["payload"]["applicationAndUserContract"] = deepcopy(RENDERER_CONTRACT)

@@ -177,3 +177,48 @@ class PostReviewTests(unittest.TestCase):
         write_json(self.folder / self.proposal_name, self.proposal)
         with self.assertRaisesRegex(ValueError, "identity/source"):
             self.prepare()
+
+    def add_original_material_proposal(self):
+        exercise = self.lesson["exercises"][1]
+        self.proposal.update({"version": 3, "kind": editorial.KIND_WITH_MATERIALS,
+            "originalMaterialAdditions": {"beforeMaterialIds": [m["id"] for m in self.lesson["materials"]],
+                "items": [{"material": {"id": "original-new-listening", "title": "A new spoken contrast",
+                    "kind": "listening", "text": "There is one notebook on my desk. Two folders are beside the lamp.",
+                    "source": "Original course adaptation", "inputSkill": "listening-script"},
+                    "exerciseLinks": [{"exerciseId": exercise["id"], "beforeMaterialIds": deepcopy(exercise.get("materialIds", []))}],
+                    "reason": "Supply new original listening choices for the existing number interpretation task."}]}})
+        write_json(self.folder / self.proposal_name, self.proposal)
+
+    def test_material_additions_still_require_exact_fresh_review_and_immutable_old_sources(self):
+        self.add_original_material_proposal()
+        prepared = self.prepare()
+        self.assertEqual(prepared["candidate"]["materials"][:-1], self.lesson["materials"])
+        self.assertEqual(prepared["candidate"]["studyPlan"], self.lesson["studyPlan"])
+        self.assertEqual(prepared["candidate"]["provenance"], self.lesson["provenance"])
+        self.assertFalse((self.folder / "verified.json").exists())
+        editorial.run(self.bundle, self.folder, self.proposal_name, 10)
+        receipt = pipeline.read(self.folder / "verified.json")
+        self.assertEqual(self.calls[-1]["payload"]["candidate"], prepared["candidate"])
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.folder))
+        changed = deepcopy(receipt)
+        changed["postReviewEditorial"]["originalMaterialAdditions"]["items"][0]["material"]["text"] += " Changed."
+        with self.assertRaises(ValueError): pipeline.verify_ready(changed, self.bundle, self.folder)
+
+    def test_v1_followup_reconstructs_rejected_v3_additions_without_new_material_rewrite(self):
+        self.add_original_material_proposal()
+        self.accept_editorial = False
+        editorial.run(self.bundle, self.folder, self.proposal_name, 10)
+        prior = self.prepare()["candidate"]
+        self.proposal_name = "lesson-editorial-proposal-2.json"
+        write_json(self.folder / self.proposal_name, self.make_proposal(self.folder / "lesson-editorial-review-1.json", prior))
+        prepared = self.prepare()
+        self.assertEqual(prepared["candidate"]["materials"], prior["materials"])
+        self.accept_editorial = True
+        editorial.run(self.bundle, self.folder, self.proposal_name, 10)
+        self.assertTrue(pipeline.verify_ready(pipeline.read(self.folder / "verified.json"), self.bundle, self.folder))
+
+    def test_legacy_or_workflow_proposals_cannot_hide_material_additions(self):
+        self.add_original_material_proposal()
+        self.proposal.update({"version": 1, "kind": editorial.KIND})
+        write_json(self.folder / self.proposal_name, self.proposal)
+        with self.assertRaisesRegex(ValueError, "identity/source"): self.prepare()
