@@ -799,6 +799,56 @@ class OfflinePipelineTests(unittest.TestCase):
         self.assertEqual(self.author_count, 0)
         self.assertFalse((self.work / "verified.json").exists())
 
+    def install_unverified_recovery(self):
+        with patch.object(pipeline, "call_model", side_effect=self.fake_model):
+            pipeline.run_analysis(self.bundle, self.work, timeout=10)
+        base = pipeline.author_request(self.bundle, self.analysis, self.work)
+        previous = deepcopy(self.lesson)
+        previous["provenance"].update(deepcopy(base["payload"]["requiredProvenance"]))
+        previous["materials"][0]["inputSkill"] = "unsupported-mode"
+        raw_path = self.work / "lesson-draft-1.json"
+        write_json(raw_path, previous)
+        write_json(self.work / "lesson-review-1.json", {"decision": "accept", "candidateSha256": "unbound"})
+        seed = {"version": 1, "unitId": self.bundle["chapter"]["unitId"],
+            "sourceSetSha256": self.bundle["sourceSetSha256"], "baseFile": raw_path.name,
+            "baseSha256": pipeline.file_sha(raw_path), "candidateSha256": contract.value_sha(previous),
+            "nextDraft": 2, "findings": ["Correct the material classification and recheck every source point in a full new candidate."],
+            "reason": "Earlier material metadata failed validation; the complete new candidate still needs independent review."}
+        write_json(self.work / "lesson-recovery.json", seed)
+        return raw_path, seed
+
+    def test_recovery_skips_unverified_old_cache_and_reviews_complete_new_candidate(self):
+        raw_path, seed = self.install_unverified_recovery()
+        before = raw_path.read_bytes()
+        old_review = (self.work / "lesson-review-1.json").read_bytes()
+        self.run_offline()
+        receipt = self.ready_receipt()
+        self.assertEqual(raw_path.read_bytes(), before)
+        self.assertEqual((self.work / "lesson-review-1.json").read_bytes(), old_review)
+        self.assertEqual(receipt["lessonAcceptance"]["file"], "lesson-review-2.json")
+        self.assertEqual(receipt["recoverySeed"]["status"], "unverified-recovery-seed")
+        author = pipeline.read(self.work / "lesson-draft-2.request.json")
+        self.assertEqual(author["payload"]["previousCandidate"], pipeline.read(raw_path))
+        self.assertEqual(author["payload"]["requiredCorrections"], seed["findings"])
+        review = pipeline.read(self.work / "lesson-review-2.request.json")
+        self.assertEqual(review["payload"]["candidate"], receipt["lesson"])
+        self.assertEqual(review["payload"]["recoverySeed"], receipt["recoverySeed"])
+        self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.work))
+        changed = deepcopy(seed)
+        changed["findings"].append("An additional observation was introduced after the final accepted review.")
+        write_json(self.work / "lesson-recovery.json", changed)
+        with self.assertRaises(ValueError):
+            pipeline.verify_ready(receipt, self.bundle, self.work)
+
+    def test_recovery_seed_never_replaces_independent_acceptance(self):
+        self.install_unverified_recovery()
+        self.reject_stage = "lesson"
+        with self.assertRaisesRegex(ValueError, "six independent lesson reviews"):
+            self.run_offline()
+        self.assertFalse((self.work / "verified.json").exists())
+        self.assertFalse((self.work / "lesson.json").exists())
+        self.assertFalse((self.work / "lesson-draft-1.request.json").exists())
+
     def test_declared_audio_without_verified_transcripts_stops_before_lesson_authoring(self):
         self.bundle["declaredAudioTracks"] = [1]
         self.bundle["sourceSetSha256"] = contract.value_sha({

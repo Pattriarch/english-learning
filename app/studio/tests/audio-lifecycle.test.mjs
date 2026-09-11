@@ -227,3 +227,29 @@ test('preview-only recording still drops a detached preview and errors never pub
  stats.recorder.onerror();stats.recorder.stop();assert.equal(calls,0);
  await recordOnly(button,preview,()=>calls++,{retainOnLeave:true});stopAudio();assert.equal(calls,1,'A fresh recorder works after the failed recorder');
 });
+
+test('recordOnly ends auxiliary capture exactly once on a recorder error even when stop follows',async t=>{
+ let tracksStopped=0;const {stats}=browserFixture(t,async()=>({getTracks:()=>[{stop(){tracksStopped++;}}]}));
+ const {button,preview}=recordingElements(),ends=[];let ready=0;
+ await recordOnly(button,preview,()=>ready++,{retainOnLeave:true,onCaptureEnd:event=>ends.push(event.reason)});
+ stats.recorder.onerror();assert.deepEqual(ends,['error']);assert.equal(tracksStopped,1);
+ stats.recorder.stop();stopAudio();assert.deepEqual(ends,['error']);assert.equal(tracksStopped,1);assert.equal(ready,0);
+});
+
+test('recordOnly ends auxiliary capture before a detached persistent Blob is delivered',async t=>{
+ const {stats}=browserFixture(t,async()=>({getTracks:()=>[{stop(){}}]}));
+ const {button,preview}=recordingElements(),events=[];
+ await recordOnly(button,preview,()=>events.push('ready'),{retainOnLeave:true,onCaptureEnd:event=>events.push(event.reason)});
+ button.isConnected=false;preview.isConnected=false;stopAudio();await stats.recorder.finished;
+ assert.deepEqual(events,['stopped','ready']);stopAudio();assert.deepEqual(events,['stopped','ready']);
+});
+
+test('recordOnly cancellation and denied permission each end auxiliary capture once without a Blob',async t=>{
+ let grant;const {stats}=browserFixture(t,()=>new Promise(resolve=>grant=resolve));const {button,preview}=recordingElements(),ends=[];
+ const pending=recordOnly(button,preview,()=>assert.fail('No cancelled Blob'),{onCaptureEnd:event=>ends.push(event.reason)});
+ stopAudio();grant({getTracks:()=>[{stop(){}}]});await pending;
+ assert.deepEqual(ends,['cancelled']);assert.equal(stats.started,0);
+ navigator.mediaDevices.getUserMedia=async()=>{throw Object.assign(Error('Denied'),{name:'NotAllowedError'});};
+ await recordOnly(button,preview,()=>assert.fail('No denied Blob'),{onCaptureEnd:event=>ends.push(event.reason)});
+ assert.deepEqual(ends,['cancelled','error']);assert.equal(button.disabled,false);
+});

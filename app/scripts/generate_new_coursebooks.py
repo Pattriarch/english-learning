@@ -780,6 +780,7 @@ def lesson_review_request(lesson, base, bundle, folder):
     notes = editorial_findings(bundle, folder)
     patched = load_patch(bundle, folder)
     field_proof = field_repair_evidence(bundle, folder)
+    recovery = recovery_seed(bundle, folder)
     if patched is not None:
         request["payload"]["editorialPatch"] = patched[1]
         origin = "automated" if field_proof is not None else "human"
@@ -788,7 +789,12 @@ def lesson_review_request(lesson, base, bundle, folder):
             "against every supplied source page and all requirements, including the corrected fields.\n")
     if field_proof is not None:
         request["payload"]["fieldRepairProposal"] = field_proof
-    if notes is None and patched is None:
+    if recovery is not None:
+        request["payload"]["recoverySeed"] = recovery["evidence"]
+        request["prompt"] += ("\nAn earlier incomplete draft and fallible observations seeded a NEW full candidate. "
+            "The seed is explicitly unverified and grants no coverage or acceptance. Independently inspect the complete "
+            "CURRENT candidate against the current source and every requirement; earlier observations may already be resolved.\n")
+    if notes is None and patched is None and recovery is None:
         return request
     if notes is not None:
         request["payload"]["editorialFindings"] = notes
@@ -805,6 +811,11 @@ def revised_request(base, candidate, findings):
         "originalInput": base["payload"], "previousCandidate": candidate,
         "requiredCorrections": findings,
         "instruction": "Produce one complete replacement meeting the original full-source contract. Do not shorten or remove required points/tasks."}}
+
+
+def recovery_seed(bundle, folder):
+    from coursebook_recovery_seed import load_recovery_seed
+    return load_recovery_seed(bundle, folder)
 
 
 def prepare_chapter_work(bundle, work):
@@ -911,8 +922,11 @@ def run_chapter(bundle, work, timeout=900):
     attachments = bundle["attachments"]
     lesson_base = author_request(bundle, analysis, folder)
     lesson_request = {key: lesson_base[key] for key in ("prompt", "payload", "schema")}
+    recovery = recovery_seed(bundle, folder)
+    if recovery is not None:
+        lesson_request = revised_request(lesson_request, recovery["candidate"], recovery["findings"])
     lesson = None
-    for iteration in range(1, 7):
+    for iteration in range(recovery["nextDraft"] if recovery is not None else 1, 7):
         draft_path = folder / f"lesson-draft-{iteration}.json"
         lesson = cached_call(draft_path, **lesson_request, attachments=attachments, timeout=timeout)
         lesson = normalize_lesson_identity(lesson, bundle, draft_path)
@@ -959,6 +973,8 @@ def run_chapter(bundle, work, timeout=900):
     field_proof = field_repair_evidence(bundle, folder)
     if field_proof is not None:
         receipt["fieldRepairProposal"] = field_proof
+    if recovery is not None:
+        receipt["recoverySeed"] = recovery["evidence"]
     verify_ready(receipt, bundle, folder)
     atomic_json(folder / "lesson.json", lesson)
     atomic_json(final, receipt)
@@ -984,6 +1000,9 @@ def verify_ready(receipt, bundle, folder):
         raise ValueError("Editorial patch differs from the final reviewed receipt")
     if receipt.get("fieldRepairProposal") != field_repair_evidence(bundle, folder):
         raise ValueError("Automated field proposal differs from the final reviewed receipt")
+    recovery = recovery_seed(bundle, folder)
+    if receipt.get("recoverySeed") != (recovery["evidence"] if recovery is not None else None):
+        raise ValueError("Unverified recovery seed differs from the final reviewed receipt")
     analysis_review = verify_call(receipt["analysisAcceptance"], folder, analysis_review_request(analysis, bundle), bundle["attachments"])
     if not validate_analysis_review(analysis_review, analysis, bundle):
         raise ValueError("Source inventory was not independently accepted")

@@ -45,15 +45,19 @@ export function stopAudio(){speechRequest?.cancel();speechRequest=null;audioGene
 export function beginAudio(){stopAudio();const generation=audioGeneration;return()=>generation===audioGeneration;}
 export async function recordOnly(button,preview,onReady,options={}){
   if(active){active.stop();return;}
-  if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){toast('Для записи открой приложение в Chrome или Edge через localhost.',true);return;}
+  let captureEnded=false;
+  // End auxiliary capture (for example browser ASR) on every terminal path,
+  // including errors that intentionally do not deliver an onReady Blob.
+  const endCapture=reason=>{if(captureEnded)return;captureEnded=true;options.onCaptureEnd?.({reason});};
+  if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){endCapture('unsupported');toast('Для записи открой приложение в Chrome или Edge через localhost.',true);return;}
   stopAudio();const generation=audioGeneration,original=button.innerHTML,chunks=[];let stream,recorder,timer,stopped=false,failed=false;
-  const cleanup=()=>{clearTimeout(timer);stream?.getTracks().forEach(t=>t.stop());button.innerHTML=original;button.classList.remove('recording');if(generation===audioGeneration)active=null;};
+  const cleanup=(reason='stopped')=>{if(captureEnded)return;clearTimeout(timer);stream?.getTracks().forEach(t=>t.stop());button.innerHTML=original;button.classList.remove('recording');if(generation===audioGeneration)active=null;endCapture(reason);};
   button.disabled=true;
   try{
     stream=await navigator.mediaDevices.getUserMedia({audio:true});
-    if(generation!==audioGeneration||!button.isConnected){cleanup();return;}
+    if(generation!==audioGeneration||!button.isConnected){cleanup('cancelled');return;}
     recorder=new MediaRecorder(stream);recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};
-    recorder.onerror=()=>{failed=true;cleanup();toast('Не удалось записать звук. Попробуй ещё раз.',true);};
+    recorder.onerror=()=>{failed=true;cleanup('error');toast('Не удалось записать звук. Попробуй ещё раз.',true);};
     recorder.onstop=()=>{
       cleanup();if(failed||!chunks.length||(!preview?.isConnected&&!options.retainOnLeave))return;
       const blob=new Blob(chunks,{type:recorder.mimeType});let url='';
@@ -64,7 +68,7 @@ export async function recordOnly(button,preview,onReady,options={}){
     };
     active={stop:()=>{if(stopped)return;stopped=true;if(recorder.state!=='inactive')recorder.stop();else cleanup();}};
     recorder.start();button.innerHTML='■ Остановить запись';button.classList.add('recording');timer=setTimeout(()=>active?.stop(),300000);
-  }catch(e){cleanup();toast(e.name==='NotAllowedError'?'Разреши доступ к микрофону в настройках браузера.':e.message,true);}
+  }catch(e){cleanup('error');toast(e.name==='NotAllowedError'?'Разреши доступ к микрофону в настройках браузера.':e.message,true);}
   finally{button.disabled=false;}
 }
 async function wav(blob){

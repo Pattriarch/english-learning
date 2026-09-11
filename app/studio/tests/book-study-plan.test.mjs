@@ -23,6 +23,34 @@ async function versionedFixture(){
  f.lesson.studyPlan=remapBookStudyPlan(f.lesson.studyPlan,original,f.lesson.exercises);return f;
 }
 
+test('a new structured lesson opens diagnostic practice before theory while theory remains freely available',async t=>{
+ const f=await studyUI(t,'book-reader.js'),{data,payload}=fixture();
+ f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
+ assert.match(f.root.querySelector('#book-main').innerHTML,/Complete original task 1/);
+ assert.equal(f.root.querySelector('[data-book-tab="practice"]').attrs['aria-pressed'],'true');
+ assert.equal(f.root.querySelector('#book-start'),null);
+ const answer=f.root.querySelector('#answer');answer.value='My own baseline answer.';answer.oninput();
+ f.root.querySelector('[data-book-tab="theory"]').click();assert.ok(f.root.querySelector('#book-start'));
+ f.root.querySelector('[data-book-tab="practice"]').click();assert.equal(f.root.querySelector('#answer').value,'My own baseline answer.');
+ assert.equal(data.state.attempts.length,0,'opening theory or entering a draft does not complete diagnostic work');
+});
+
+test('unfinished diagnostic resumes its next planned current task; completing it restores the normal theory landing',async t=>{
+ t.mock.method(Date,'now',()=>NOW);
+ const f=await studyUI(t,'book-reader.js'),{data,payload,lesson}=fixture();
+ lesson.exercises.push({...lesson.exercises[0],id:'e10',prompt:'Second independent baseline task.'});
+ lesson.studyPlan.stages[0].exerciseIds.push('e10');
+ data.state.read[lesson.id]=iso(NOW);
+ data.state.attempts=[{id:'baseline-1',lessonId:lesson.id,exerciseId:await bookExerciseID(lesson.exercises[0]),answer:'My first independent baseline answer.',mode:'writing',at:iso(NOW-2000),feedback:{verdict:'ungraded',summary:'Saved baseline.'}}];
+ f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
+ assert.match(f.root.querySelector('#book-main').innerHTML,/Second independent baseline task/);
+ assert.match(f.root.querySelector('#book-main').innerHTML,/Шаг 2 из 10 · задание e10/);
+ assert.equal(f.root.querySelector('[data-book-tab="practice"]').attrs['aria-pressed'],'true');
+ data.state.attempts.push({...data.state.attempts[0],id:'baseline-10',exerciseId:await bookExerciseID(lesson.exercises[9]),at:iso(NOW-1000)});
+ await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
+ assert.ok(f.root.querySelector('#book-start'));assert.equal(f.root.querySelector('[data-book-tab="theory"]').attrs['aria-pressed'],'true');
+});
+
 test('material-aware hashes preserve the exact legacy identity and bind only selected sources in lesson order',async()=>{
  const exercise={id:'task--one',kind:'write',prompt:'Explain the chart.',context:'To a colleague.',hint:'Use the figures.',explanation:'Describe the change.',answers:['A complete answer.'],materialIds:['second','first']};
  const first={id:'first',title:'Chart',kind:'reading',text:'June: 40%.',source:'Original chart',sourceUrl:'https://example.org/chart',figure:{id:'chart',format:'svg',alt:'A chart',caption:'Independent samples'}},second={id:'second',title:'Interview',kind:'listening',text:'An original transcript.',source:'Course recording',audioFile:'/book-recordings/course-track-01.mp3',inputSkill:'listening'};
@@ -111,7 +139,7 @@ test('book reader mounts only current exercise materials, with original audio an
  lesson.materials=[{id:'input',kind:'listening',title:'Original classroom track',text:'Complete original transcript.',source:'Clear Speech',audioFile:'/book-recordings/clear-speech-track-01.mp3',inputSkill:'listening'},{id:'later',kind:'reading',title:'Later source',text:'A later task-specific surprise.'}];
  lesson.exercises[0].materialIds=['input'];lesson.exercises[1].materialIds=['later'];
  f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
- f.root.querySelector('#book-start').click();
+ assert.ok(f.root.querySelector('#answer'),'new structured lessons open the diagnostic task directly');
  const materials=f.root.querySelector('#book-task-materials');
  assert.match(materials.innerHTML,/clear-speech-track-01\.mp3/);
  assert.match(materials.innerHTML,/data-material-text="0" hidden/);
@@ -162,14 +190,15 @@ test('the due date unlocks transfer checking and confirmed results survive a sta
  assert.match(f.root.querySelector('#book-study-plan').innerHTML,/8 из 9 заданий/);
 });
 
-test('spoken draft provenance survives leaving an exercise, while manual editing becomes writing',async t=>{
+test('saved spoken draft provenance survives leaving an exercise and correcting its transcript',async t=>{
  const f=await studyUI(t,'book-reader.js'),{data,payload}=fixture();
- f.api=async(path,body)=>path.startsWith('/library/')?payload:{...body,at:iso(NOW),feedback:{verdict:'correct',source:'codex',summary:'Saved'}};
- f.voice=async(_button,target,_settings,onText)=>{target.value='My original answer from the microphone.';onText();};
+ f.api=async(path,body)=>path.startsWith('/library/')?payload:path==='/notebook/audio'?{audio:'a'.repeat(64)+'.webm'}:{...body,at:iso(NOW),feedback:{verdict:'correct',source:'codex',summary:'Saved'}};
+ f.recordOnly=async(_button,_preview,onReady)=>onReady('blob:temporary','audio/webm',new Blob(['audio'],{type:'audio/webm'}));
  await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);f.root.querySelector('[data-book-stage="production"]').click();
  f.root.querySelector('[data-book-exercise="4"]').click();await f.root.querySelector('#book-voice').click();
+ let transcript=f.root.querySelector('#answer');transcript.value='My original answer from the microphone.';transcript.oninput();
  f.root.querySelector('[data-book-stage="input"]').click();f.root.querySelector('[data-book-stage="production"]').click();f.root.querySelector('[data-book-exercise="4"]').click();
  await f.root.querySelector('#book-check').click();assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'speaking');
  const target=f.root.querySelector('#answer');target.value='This answer was edited by hand.';target.oninput();await f.root.querySelector('#book-check').click();
- assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'writing');
+ assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'speaking');
 });

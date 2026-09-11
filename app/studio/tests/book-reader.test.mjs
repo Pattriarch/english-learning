@@ -100,7 +100,7 @@ test('Structured book practice opens its own delayed transfer and keeps that sta
  lesson.exercises=kinds.map((kind,i)=>({...lesson.exercises[0],id:'e'+(i+1),kind,prompt:'Independent task '+(i+1)}));
  const groups=[['e1'],['e2'],['e3'],['e4','e5'],['e6'],['e7']];
  lesson.studyPlan={stages:['diagnostic','input','practice','production','revision','transfer'].map((id,i)=>({id,title:'Stage '+id,purpose:'Practice the target skill.',minutes:10,exerciseIds:groups[i]})),revisionExerciseIds:['e6'],transfer:{exerciseIds:['e7'],delayDays:7}};
- f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);f.root.querySelector('#book-start').click();
+ f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);assert.ok(f.root.querySelector('#answer'));
  assert.doesNotMatch(f.root.querySelector('#book-main').innerHTML,/#\/transfer\//);
  const transfer=f.root.querySelector('#book-transfer-stage');assert.ok(transfer);
  transfer.click();
@@ -116,6 +116,19 @@ test('Legacy book practice retains the generic transfer route',async t=>{
  f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);f.root.querySelector('#book-start').click();
  assert.match(f.root.querySelector('#book-main').innerHTML,/#\/transfer\/book-unit-1/);
  assert.equal(f.root.querySelector('#book-transfer-stage'),null);
+});
+
+test('a legacy lesson still lands on theory and only clean source exercise IDs appear in the step reference',async t=>{
+ const f=await studyUI(t,'book-reader.js'),{data,payload,lesson}=bookData();f.api=async()=>payload;
+ for(const id of ['e09','custom-task','e09<script>','e09--not-a-version']){
+  lesson.exercises[0].id=id;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
+  assert.equal(f.root.querySelector('[data-book-tab="theory"]').attrs['aria-pressed'],'true');assert.ok(f.root.querySelector('#book-start'));
+  f.root.querySelector('#book-start').click();const html=f.root.querySelector('#book-main').innerHTML;
+  assert.match(html,/Шаг 1 из 1/);
+  if(id==='e09')assert.match(html,/Шаг 1 из 1 · задание e09<\/div>/);
+  else assert.doesNotMatch(html,/· задание /);
+  assert.doesNotMatch(html,/задание e09--[a-f0-9]{16}/);
+ }
 });
 
 test('Versioning preserves double hyphens in a base ID and is stable when applied again',async()=>{
@@ -171,16 +184,16 @@ test('Book version recovery checks the captured question and never replaces a ne
  assert.equal(target.value,'My newer answer');assert.equal(f.root.querySelector('#book-feedback').innerHTML,'');assert.match(f.alerts.at(-1),/предыдущей версии/);
 });
 
-test('Failed dictation keeps writing mode; a recognized answer alone switches it to speaking',async t=>{
+test('Failed recording keeps writing mode; editing the transcript of a saved recording retains speaking',async t=>{
  const f=await studyUI(t,'book-reader.js'),{data,payload}=bookData();
- f.api=async(path,body)=>path.startsWith('/library/')?payload:{answer:body.answer,feedback:{verdict:'correct',summary:'Saved',explanation:'Good.'}};
+ f.api=async(path,body)=>path.startsWith('/library/')?payload:path==='/notebook/audio'?{audio:'a'.repeat(64)+'.webm'}:{answer:body.answer,feedback:{verdict:'correct',summary:'Saved',explanation:'Good.'}};
  await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);f.root.querySelector('#book-start').click();
  const target=f.root.querySelector('#answer');target.value='Typed answer';target.oninput();
  await f.root.querySelector('#book-voice').click();await f.root.querySelector('#book-check').click();
  assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'writing');
- f.voice=async(_button,answer,_settings,onText)=>{answer.value='Dictated answer';onText();};
+ f.recordOnly=async(_button,_preview,onReady)=>onReady('blob:temporary','audio/webm',new Blob(['audio'],{type:'audio/webm'}));
  await f.root.querySelector('#book-voice').click();await f.root.querySelector('#book-check').click();
  assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'speaking');
  target.value='Edited by hand';target.oninput();await f.root.querySelector('#book-check').click();
- assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'writing');
+ assert.equal(f.requests.filter(r=>r.path==='/check').at(-1).body.mode,'speaking');
 });
