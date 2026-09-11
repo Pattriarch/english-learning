@@ -334,5 +334,79 @@ class IndependentReviewBindingTests(unittest.TestCase):
             contract.validate_review(review, lesson, request)
 
 
+class AuthorPromptCompatibilityTests(unittest.TestCase):
+    def test_historical_prompt_and_repair_requirement_bytes_stay_exact(self):
+        # These strings already bind persisted model requests and repairs.
+        hashes = {
+            "LEGACY_AUTHOR_PROMPT": "681aba4eb692b9059c9c21b8d073f436d8033aef9f925850b6c8ecd405ce6a8f",
+            "DEPTH_AUTHOR_PROMPT": "c0f469184b4c79830f8aecf7a37c1b0a4b21993c9035e9d3e9a4ba8bfa35d0ea",
+            "MULTIPART_AUTHOR_PROMPT": "b1a2f56896a8a78bf0f026c95ef59a83de3f2a54bd34043b4ee9a7df6d533bb5",
+            "AUTHOR_REQUIREMENTS": "fee31c566bbdd99ffd0b6a1ead121730ac2c9b090bb5523bed6c0bece5c8c304",
+        }
+        for name, digest in hashes.items():
+            with self.subTest(name=name):
+                self.assertEqual(contract.text_sha(getattr(contract, name)), digest)
+        self.assertNotEqual(contract.AUTHOR_PROMPT, contract.MULTIPART_AUTHOR_PROMPT)
+        self.assertTrue(contract.AUTHOR_PROMPT.startswith(contract.MULTIPART_AUTHOR_PROMPT + "\n"))
+
+    def test_every_historical_request_remains_valid_with_its_own_original_hash(self):
+        lesson, current = fixture()
+        for prompt in (contract.LEGACY_AUTHOR_PROMPT, contract.DEPTH_AUTHOR_PROMPT,
+                       contract.MULTIPART_AUTHOR_PROMPT):
+            with self.subTest(prompt_sha256=contract.text_sha(prompt)):
+                old = {"prompt": prompt, "payload": deepcopy(current["payload"]),
+                       "schema": deepcopy(current["schema"])}
+                old["sha256"] = contract.value_sha(old)
+                snapshot = deepcopy(old)
+                self.assertEqual(contract.validate_request(old), current["payload"])
+                self.assertIs(contract.validate_lesson(lesson, old), lesson)
+                self.assertEqual(old, snapshot)
+
+    def pronunciation_revision_fixture(self):
+        lesson, request = fixture()
+        # The input is an explicitly unrecorded original script; it does not
+        # claim a hidden partner or an independently unheard performance.
+        lesson["materials"].append({"id": "original-dialogue", "title": "Порядок рабочего обновления",
+            "kind": "dialogue", "inputSkill": "listening-script",
+            "source": "Авторский сценарий для чтения и поддерживаемой ролевой практики",
+            "text": "Alex: The report is delayed because two invoices are missing. Casey: Tell the manager the reason first, then explain when you will call the supplier."})
+        lesson["exercises"][2].update(materialIds=["original-dialogue"],
+            prompt="Прочитайте original-dialogue как открытый сценарий ролевой практики. Ответ: 15–30 слов. Объясните, зачем Casey предлагает такой порядок рабочего сообщения.",
+            answers=["Casey suggests giving the reason first so the manager understands the delay before considering the next action and its timing."])
+        message = ("The supplier report is delayed because two invoices are missing. I will call the supplier at noon "
+                   "and update the shared folder before our meeting.")
+        reflection = "I prioritized the reason for the delay and the promised next action."
+        lesson["exercises"][15].update(
+            prompt="Оставьте руководителю самостоятельное обновление о задержке: Message: 20–30 слов; Reflection: 10–15 слов. Запишите и сохраните аудиозапись примерно на 25–40 секунд.",
+            context="Руководителю нужно понять причину задержки и время следующего действия; учебное пояснение находится в отдельном блоке.",
+            answers=["Message:\n" + message + "\nReflection:\n" + reflection])
+        revised = message.replace("missing", "MISSING").replace("noon", "NOON")
+        lesson["exercises"][16].update(kind="write",
+            prompt="Прослушайте свою запись e16. Возьмите только собственный блок Message, без Reflection, и отправьте письменные блоки Original: 20–30 слов; Revised: 20–30 слов; Comparison: 15–25 слов. Вставьте фактический исходный текст, затем исправленную разметку фокуса. Запишите и сохраните сопоставимую новую аудиозапись, прослушайте обе версии и объясните выбранную поправку.",
+            context="Это письменное представление переработки собственной речи; акустические изменения проверяются самостоятельным сравнением двух сохранённых записей.",
+            answers=["Original:\n" + message + "\nRevised:\n" + revised +
+                "\nComparison:\nI emphasized MISSING to explain the delay and NOON to make the next action clear for the manager."],
+            hint="Сохраните собственные факты и выделите причину и следующий шаг; не подменяйте свою первую версию справочным примером.",
+            explanation="Пример показывает возможную разметку собственного сообщения, а не результат прослушивания ученика. Письменный ответ предъявляет исходную версию, исправленную разметку и осмысленное сравнение; акустический результат ученик сопоставляет по двум своим записям.")
+        return lesson, request
+
+    def test_future_request_accepts_complete_own_speech_revision_and_original_script(self):
+        lesson, request = self.pronunciation_revision_fixture()
+        self.assertEqual(request["prompt"], contract.AUTHOR_PROMPT)
+        self.assertIs(contract.validate_lesson(lesson, request), lesson)
+        production = lesson["studyPlan"]["stages"][3]["exerciseIds"]
+        self.assertEqual({e["kind"] for e in lesson["exercises"] if e["id"] in production}, {"write", "speak"})
+
+    def test_new_guidance_does_not_relax_revision_or_unrecorded_material_guards(self):
+        lesson, request = self.pronunciation_revision_fixture()
+        lesson["exercises"][16]["kind"] = "speak"
+        with self.assertRaisesRegex(ValueError, "revision must rewrite"):
+            contract.validate_lesson(lesson, request)
+        lesson, request = self.pronunciation_revision_fixture()
+        del lesson["materials"][-1]["inputSkill"]
+        with self.assertRaisesRegex(ValueError, "listening-script"):
+            contract.validate_lesson(lesson, request)
+
+
 if __name__ == "__main__":
     unittest.main()

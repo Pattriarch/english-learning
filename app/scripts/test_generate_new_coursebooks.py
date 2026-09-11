@@ -849,6 +849,43 @@ class OfflinePipelineTests(unittest.TestCase):
         self.assertFalse((self.work / "lesson.json").exists())
         self.assertFalse((self.work / "lesson-draft-1.request.json").exists())
 
+    def test_recovered_author_contract_survives_future_prompt_version_without_rewriting_requests(self):
+        self.install_unverified_recovery()
+        self.run_offline()
+        receipt = self.ready_receipt()
+        before = {path.name: path.read_bytes() for path in self.work.glob("*.request.json")}
+        original = pipeline.author_request(self.bundle, self.analysis, self.work)
+        future_prompt = contract.AUTHOR_PROMPT + "\nFuture precise revision-stage wording for new authors only."
+        with patch.object(contract, "AUTHOR_PROMPT", future_prompt), \
+                patch.object(contract, "KNOWN_AUTHOR_PROMPTS", (*contract.KNOWN_AUTHOR_PROMPTS, future_prompt)), \
+                patch.object(pipeline, "call_model", side_effect=AssertionError("Accepted recovery must not regenerate")):
+            current_default = contract.build_request(self.bundle["chapter"], original["payload"]["source"],
+                self.analysis["requiredPoints"], original["payload"]["attachedPages"], self.bundle["approvedMaterials"])
+            self.assertEqual(current_default["prompt"], future_prompt)
+            preserved = pipeline.author_request(self.bundle, self.analysis, self.work)
+            self.assertEqual(preserved, original)
+            self.assertTrue(pipeline.verify_ready(receipt, self.bundle, self.work))
+            self.assertEqual(pipeline.run_chapter(self.bundle, self.work, timeout=10)["status"], "resumed")
+        self.assertEqual({path.name: path.read_bytes() for path in self.work.glob("*.request.json")}, before)
+        self.assertFalse((self.work / "lesson-draft-1.request.json").exists())
+
+    def test_recovered_author_contract_rejects_changed_original_input_or_repair_findings(self):
+        self.install_unverified_recovery()
+        self.run_offline()
+        path = self.work / "lesson-draft-2.request.json"
+        original = pipeline.read(path)
+        for mutate in (
+                lambda value: value["payload"]["originalInput"].update({"unexpected": "different source"}),
+                lambda value: value["payload"]["requiredCorrections"].append("Changed prior repair observations.")):
+            changed = deepcopy(original)
+            mutate(changed)
+            changed["sha256"] = contract.value_sha({key: value for key, value in changed.items() if key != "sha256"})
+            write_json(path, changed)
+            with self.assertRaises(ValueError):
+                pipeline.author_request(self.bundle, self.analysis, self.work)
+        write_json(path, original)
+        self.assertTrue(pipeline.verify_ready(self.ready_receipt(), self.bundle, self.work))
+
     def test_declared_audio_without_verified_transcripts_stops_before_lesson_authoring(self):
         self.bundle["declaredAudioTracks"] = [1]
         self.bundle["sourceSetSha256"] = contract.value_sha({

@@ -633,17 +633,31 @@ def author_request(bundle, analysis, folder=None):
               "attachmentInventory": model_input(bundle)["attachmentInventory"]}
     request = template.build_request(bundle["chapter"], source, analysis["requiredPoints"], images, bundle["approvedMaterials"])
     cached = Path(folder) / "lesson-draft-1.request.json" if folder else None
+    recovered = None
+    if cached and not cached.exists():
+        recovered = recovery_seed(bundle, folder)
+        if recovered is not None:
+            cached = Path(folder) / f"lesson-draft-{recovered['nextDraft']}.request.json"
     if cached and cached.exists():
         committed = read(cached)
         candidate = {key: committed[key] for key in ("prompt", "payload", "schema")}
+        if recovered is not None:
+            # A failed raw draft copied into a fresh source folder has no
+            # original author request. Its first repair still binds the exact
+            # complete author input and known prompt; retain that contract when
+            # future author instructions improve, without rewriting the repair.
+            candidate["payload"] = committed.get("payload", {}).get("originalInput")
         # Preserve an exact known historical instruction only for the same full
         # source, analysis, schema and attached image bytes. No receipt relabeling.
         if candidate["payload"] != request["payload"] or candidate["schema"] != request["schema"]:
             raise ValueError("Cached author input differs from current full chapter")
         request = {**candidate, "sha256": template.value_sha(candidate)}
         template.validate_request(request)
-        expected = {"version": VERSION, **candidate,
-                    "transportSchema": strict_model_schema(candidate["schema"]), "attachments": bundle["attachments"]}
+        expected_call = revised_request(candidate, recovered["candidate"], recovered["findings"]) if recovered else candidate
+        transport = permitted_transport(strict_model_schema(expected_call["schema"]), expected_call["payload"],
+                                        committed.get("transportSchema"))
+        expected = {"version": VERSION, **expected_call,
+                    "transportSchema": transport, "attachments": bundle["attachments"]}
         if committed != {**expected, "sha256": template.value_sha(expected)}:
             raise ValueError("Cached author request/image binding changed")
     return request
