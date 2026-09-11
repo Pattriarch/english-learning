@@ -4,10 +4,13 @@
     "id": "english-context-images-2026-09-11",
     "kind": "visually-checked-local-image-bindings",
     "checkedAt": "2026-09-11",
-    "scope": "One exact active context, independently of the immutable dictionary publication. An image is an association with the described situation, not a complete description of every person and object in it.",
+    "scope": "Exact active contexts, independently of the immutable dictionary publication. Each image is an association with a selected described object or action, not a complete description of every person, object or event in the sentence.",
     "imageManifest": "app/studio/assets/learning-figures/manifest.json",
     "imageDescription": "app/studio/assets/learning-figures/courtyard-scene.json",
-    "imageOrigin": "Original fictional image generated for this project with OpenAI Image Generator; local pixels visually inspected."
+    "imageOrigin": "Original fictional image generated for this project with OpenAI Image Generator; local pixels visually inspected.",
+    "additionalImageManifests": [
+      "app/studio/assets/learning-figures/home-apple-pie-preparation.manifest.json"
+    ]
   },
   "assets": [
     {
@@ -17,6 +20,14 @@
       "alt": "Мужчина в синей рубашке сидит на деревянной скамейке и читает раскрытую книгу; рядом во дворе ещё трое взрослых.",
       "sourceId": "courtyard-scene-2026",
       "associationRu": "Иллюстрация ситуации: обрати внимание на мужчину с книгой на скамейке. Пример описывает эту часть сцены; на картинке есть и другие люди и предметы."
+    },
+    {
+      "id": "home-apple-pie-preparation",
+      "src": "/assets/learning-figures/home-apple-pie-preparation.png",
+      "sha256": "754c6c075b7ce5fc9316bb27d8988d290dd2292256145354a51d0e9f3ffa2f5d",
+      "alt": "Две женщины готовят выпечку: слева мука, скалка и сырое тесто, справа очистка яблока с длинной полоской красной кожуры. На столе яблочный пирог с видимой начинкой, кусочек на тарелке, хлеб и зубчатый нож.",
+      "sourceId": "home-apple-pie-preparation-2026-09-11",
+      "associationRu": "Домашняя выпечка: мука, сырое тесто, очистка яблок, яблочный пирог и свежий хлеб."
     }
   ],
   "bindings": [
@@ -28,6 +39,51 @@
       "meaningRuSHA256": "1b7d9df0e6b59f2e037cf772b2ea74de116043ff49f79fb2cc3da73c456805c1",
       "imageId": "courtyard-actions",
       "evidence": "Active English: He sat down on the bench and began to read the book. The inspected image shows a man seated on a wooden bench reading an open book. This binds only bench as a seat in this example, not another context or meaning. The preceding act of sitting down is conveyed by the sentence; the still image shows its resulting position, not a timed action sequence."
+    },
+    {
+      "entryId": "lex-flour-f55f97cf",
+      "contextId": "tatoeba-6158605-12697757",
+      "englishSHA256": "f1fff6359f1aee505e8dd9a7f333db1314300b60f5ff66b406badd7c2528b041",
+      "senseId": "tatoeba-6158605-12697757-rich-sense-v1",
+      "meaningRuSHA256": "9f5aff656efd8171211e45d4c36d3f7cef07218f02e0740ab049a9573d971b29",
+      "imageId": "home-apple-pie-preparation",
+      "evidence": "White flour is visible in a bowl, falling from fingertips, and dusting the rolling pin beside raw dough. This illustrates only the selected concrete meaning in the bound English context. The scene cannot prove always, necessity, or the viewer’s own cupboard contents."
+    },
+    {
+      "entryId": "lex-dough-cb9db879",
+      "contextId": "tatoeba-830745-3234366",
+      "englishSHA256": "a1b812bbad99d3da3290ceda2c0cc44be521cf77a927360039b7604a0c813f5d",
+      "senseId": "tatoeba-830745-3234366-rich-sense-v1",
+      "meaningRuSHA256": "dd99556f2473b170ab7f326b360eb88333fbf79bb10dc7aa4f677d2708969e45",
+      "imageId": "home-apple-pie-preparation",
+      "evidence": "A pale disk of raw dough is visibly distinct from the baked pie and bread; a flour-dusted rolling pin lies beside it. This illustrates only the selected concrete meaning in the bound English context. Do not infer family identity, completed past action, or verified non-stick performance from a still image."
+    },
+    {
+      "entryId": "lex-peel-099ae467",
+      "contextId": "tatoeba-10600141-6386744",
+      "englishSHA256": "2ddaad1875615026645c8754432a4084a2f4c0fa476632a2c7952bfb8e6e4bb5",
+      "senseId": "tatoeba-10600141-6386744-rich-sense-v1",
+      "meaningRuSHA256": "4eb92d10a48a44c303c5b8eb3bba2243fe3d98b30f7a62db425678f615ac60a7",
+      "imageId": "home-apple-pie-preparation",
+      "evidence": "A red apple is actively being peeled with a visible long strip of red skin and exposed pale flesh. This illustrates only the selected concrete meaning in the bound English context. One frame cannot establish the complete ordered recipe or demonstrate safe detailed technique."
+    },
+    {
+      "entryId": "lex-pie-558211ed",
+      "contextId": "tatoeba-71705-416449",
+      "englishSHA256": "92423a23a461b0688763607fdacb9053f367435f705e74386d4f279758fb0c78",
+      "senseId": "tatoeba-71705-416449-rich-sense-v1",
+      "meaningRuSHA256": "80a5563ef586ee9ed46a0459feeafac2383cdfad404571197b310d260e4fe6cf",
+      "imageId": "home-apple-pie-preparation",
+      "evidence": "The cut pie and separate plated wedge visibly contain light golden apple pieces, not the blueberries of the neighboring context. This illustrates only the selected concrete meaning in the bound English context. An image cannot establish who baked it, its recipient, or a spoken invitation."
+    },
+    {
+      "entryId": "lex-bread-985604c2",
+      "contextId": "tatoeba-678283-1601751",
+      "englishSHA256": "3f6f0ab79efbfe8c6582808cb9899453a28ec7e9a156f7c53064c35e39210513",
+      "senseId": "tatoeba-678283-1601751-rich-sense-v1",
+      "meaningRuSHA256": "c0cbec0ef9a935b04b4a7c9cf689d57ac03980d6b9ae06b7ef10723e96991045",
+      "imageId": "home-apple-pie-preparation",
+      "evidence": "A loaf, cut bread slices and an unmistakably serrated bread knife are visible at the front left. This illustrates only the selected concrete meaning in the bound English context. The visible object/tool pairing illustrates the context; it does not measure or prove that the knife is perfect."
     }
   ]
 }

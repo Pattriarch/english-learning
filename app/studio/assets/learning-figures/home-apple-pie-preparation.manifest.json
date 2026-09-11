@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "home-apple-pie-preparation-2026-09-11",
+  "title": "Home apple-pie preparation",
+  "createdAt": "2026-09-11",
+  "origin": {
+    "kind": "original-ai-generated-fictional-image",
+    "tool": "OpenAI Image Generator",
+    "attribution": "Original image generated for the English project. The people and setting are fictional.",
+    "rights": "Original project image; no third-party photograph used."
+  },
+  "asset": {
+    "file": "home-apple-pie-preparation.png",
+    "url": "/assets/learning-figures/home-apple-pie-preparation.png",
+    "sha256": "754c6c075b7ce5fc9316bb27d8988d290dd2292256145354a51d0e9f3ffa2f5d",
+    "bytes": 2762932,
+    "width": 1536,
+    "height": 1024,
+    "copiedWithoutEditing": true
+  },
+  "prompt": {
+    "status": "exact-submitted-tool-prompt",
+    "tool": "image_gen.imagegen",
+    "mode": "built-in",
+    "text": "Use case: illustration-story. Asset: a contextual vocabulary learning illustration for an adult American-English self-study app. One cohesive 3:2 editorial illustration of a warm contemporary home kitchen on an apple-pie baking afternoon. One continuous room, a single broad kitchen island, two adults, consistent perspective and natural window light; richly tactile, beautiful, calm, memorable. On the left an older woman sprinkles loose white flour onto a wooden rolling pin beside a large pale raw dough disk. The flour bowl, dusted pin and raw dough are clearly separated and visible. On the right another adult peels a red apple: exposed pale flesh and a curling red peel strip are unmistakable. On the same apple board are two large peeled apple halves with hollowed-out cores, removed cores and a small kitchen knife. In the front center a golden apple pie rests on a rack; one wedge is on a small plate and the cut opening clearly shows cooked apple pieces. At the near-left edge of the same island sits a modest crusty loaf, two bread slices and a bread knife with clearly visible serrated teeth. Natural spacious staging, all six learning details legible, realistic hands and tools, no additional activities or busy decoration. Sophisticated contemporary painterly illustration, warm terracotta, cream, deep green accents, inviting high-quality magazine finish with crisp objects. No collage, panels, arrows, floating objects, labels, lettering, logos or watermark. This is a still illustration of objects and actions, not a timeline.",
+    "referenceImagesUsed": false
+  },
+  "pixelReview": {
+    "method": "Assistant visual inspection of the generated pixels before binding; no external human or expert certification claimed.",
+    "checkedAt": "2026-09-11",
+    "scope": "Only concrete visible meanings are associated with this single scene. A still image does not establish temporal order, past events, family identities, intentions, invitations or cooking performance.",
+    "approved": [
+      {
+        "word": "flour",
+        "entryId": "lex-flour-f55f97cf",
+        "contextId": "tatoeba-6158605-12697757",
+        "englishSHA256": "f1fff6359f1aee505e8dd9a7f333db1314300b60f5ff66b406badd7c2528b041",
+        "meaningRuSHA256": "9f5aff656efd8171211e45d4c36d3f7cef07218f02e0740ab049a9573d971b29",
+        "senseId": "tatoeba-6158605-12697757-rich-sense-v1",
+        "observation": "White flour is visible in a bowl, falling from fingertips, and dusting the rolling pin beside raw dough.",
+        "limit": "The scene cannot prove always, necessity, or the viewer’s own cupboard contents."
+      },
+      {
+        "word": "dough",
+        "entryId": "lex-dough-cb9db879",
+        "contextId": "tatoeba-830745-3234366",
+        "englishSHA256": "a1b812bbad99d3da3290ceda2c0cc44be521cf77a927360039b7604a0c813f5d",
+        "meaningRuSHA256": "dd99556f2473b170ab7f326b360eb88333fbf79bb10dc7aa4f677d2708969e45",
+        "senseId": "tatoeba-830745-3234366-rich-sense-v1",
+        "observation": "A pale disk of raw dough is visibly distinct from the baked pie and bread; a flour-dusted rolling pin lies beside it.",
+        "limit": "Do not infer family identity, completed past action, or verified non-stick performance from a still image."
+      },
+      {
+        "word": "peel",
+        "entryId": "lex-peel-099ae467",
+        "contextId": "tatoeba-10600141-6386744",
+        "englishSHA256": "2ddaad1875615026645c8754432a4084a2f4c0fa476632a2c7952bfb8e6e4bb5",
+        "meaningRuSHA256": "4eb92d10a48a44c303c5b8eb3bba2243fe3d98b30f7a62db425678f615ac60a7",
+        "senseId": "tatoeba-10600141-6386744-rich-sense-v1",
+        "observation": "A red apple is actively being peeled with a visible long strip of red skin and exposed pale flesh.",
+        "limit": "One frame cannot establish the complete ordered recipe or demonstrate safe detailed technique."
+      },
+      {
+        "word": "pie",
+        "entryId": "lex-pie-558211ed",
+        "contextId": "tatoeba-71705-416449",
+        "englishSHA256": "92423a23a461b0688763607fdacb9053f367435f705e74386d4f279758fb0c78",
+        "meaningRuSHA256": "80a5563ef586ee9ed46a0459feeafac2383cdfad404571197b310d260e4fe6cf",
+        "senseId": "tatoeba-71705-416449-rich-sense-v1",
+        "observation": "The cut pie and separate plated wedge visibly contain light golden apple pieces, not the blueberries of the neighboring context.",
+        "limit": "An image cannot establish who baked it, its recipient, or a spoken invitation."
+      },
+      {
+        "word": "bread",
+        "entryId": "lex-bread-985604c2",
+        "contextId": "tatoeba-678283-1601751",
+        "englishSHA256": "3f6f0ab79efbfe8c6582808cb9899453a28ec7e9a156f7c53064c35e39210513",
+        "meaningRuSHA256": "c0cbec0ef9a935b04b4a7c9cf689d57ac03980d6b9ae06b7ef10723e96991045",
+        "senseId": "tatoeba-678283-1601751-rich-sense-v1",
+        "observation": "A loaf, cut bread slices and an unmistakably serrated bread knife are visible at the front left.",
+        "limit": "The visible object/tool pairing illustrates the context; it does not measure or prove that the knife is perfect."
+      }
+    ],
+    "rejected": [
+      {
+        "word": "slice",
+        "entryId": "lex-slice-03fdb065",
+        "contextId": "tatoeba-11639879-6386744",
+        "reason": "The apples on the cutting board look like whole peeled apples with removed cores, not two distinct halves. The selected example explicitly says slice them in half, so no image binding is published for it."
+      }
+    ]
+  }
+}
