@@ -1,4 +1,5 @@
 import {authoredExerciseID,currentAuthoredExercise} from './authored-exercise.js';
+import {beginnerPlan} from './beginner-plan.js';
 import {practiceIdentity} from './practice-identity.js';
 import {transferQueue,transferTargetEvidence,transferIdentity} from './transfer-model.js';
 import {coursebookQueue,coursebookPlanTarget,coursebookTargetEvidence,coursebookExerciseSkill,isPlannerCoursebook} from './planner-coursebooks.js';
@@ -239,6 +240,7 @@ export function createDailyPlan(data={},options={},now=new Date()) {
  data=obj(data); options=obj(options); const date=nowDate(now),day=dayKey(date),state=obj(data.state),chosenLevel=String(options.level||'B1').toUpperCase();
  const level=LEVELS.includes(chosenLevel)?chosenLevel:'B1',requested=number(options.minutes)||120;
  const minutes=BUDGETS.reduce((best,m)=>Math.abs(m-requested)<Math.abs(best-requested)?m:best,30),domain=Object.hasOwn(DOMAINS,options.domain)?options.domain:'everyday';
+ const foundation=beginnerPlan(data,{level,minutes,domain},date);if(foundation)return foundation;
  const seed=Math.floor(Date.UTC(date.getFullYear(),date.getMonth(),date.getDate())/86400000),situations=[DOMAINS[domain],...MORE_SITUATIONS[domain]],rotation=((seed%situations.length)+situations.length)%situations.length;
  const context={...DOMAINS[domain],...situations[rotation]},heard={...DOMAINS[domain],...situations[(rotation+1)%situations.length]};
  const weekly=weeklySummary(data,date,options.manualDays),weak=weekly.weakSkills,topic=topicFor(data,level),errors=recentErrors(state,date,data.lessons,data.bookLessons);

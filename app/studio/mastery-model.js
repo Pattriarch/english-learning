@@ -18,6 +18,7 @@ function matches(a,e,data){
  const {id}=evidenceTarget(e);if(a.lessonId!==id)return false;
  const lesson=!e.unitId&&list(data.lessons).find(l=>l.id===id),exercise=lesson&&currentAuthoredExercise(lesson,a.exerciseId);
  if(lesson&&!exercise)return false;
+ if(exercise?.practiceStage==='guided')return false;
  const ids=e.lessonId?.startsWith('pron-')?[e.lessonId]:list(e.exerciseIds);if(!ids.length||!ids.includes(exercise?.id||base(a.exerciseId)))return false;
  // Current published book versions are available in bootstrap metadata. Do not
  // reuse a successful answer from an older, materially different question.

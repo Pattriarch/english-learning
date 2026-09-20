@@ -40,16 +40,24 @@ type LessonMaterial struct {
 	InputSkill string        `json:"inputSkill,omitempty"`
 	Figure     *LessonFigure `json:"figure,omitempty"`
 }
+type ExerciseGuidance struct {
+	Title       string `json:"title"`
+	Body        string `json:"body"`
+	Example     string `json:"example"`
+	Translation string `json:"translation"`
+}
 type Exercise struct {
-	Revision    int      `json:"revision,omitempty"`
-	ID          string   `json:"id"`
-	Kind        string   `json:"kind"`
-	Prompt      string   `json:"prompt"`
-	Context     string   `json:"context"`
-	Answers     []string `json:"answers"`
-	Hint        string   `json:"hint"`
-	Explanation string   `json:"explanation"`
-	MaterialIDs []string `json:"materialIds,omitempty"`
+	Guidance      *ExerciseGuidance `json:"guidance,omitempty"`
+	PracticeStage string            `json:"practiceStage,omitempty"`
+	Revision      int               `json:"revision,omitempty"`
+	ID            string            `json:"id"`
+	Kind          string            `json:"kind"`
+	Prompt        string            `json:"prompt"`
+	Context       string            `json:"context"`
+	Answers       []string          `json:"answers"`
+	Hint          string            `json:"hint"`
+	Explanation   string            `json:"explanation"`
+	MaterialIDs   []string          `json:"materialIds,omitempty"`
 }
 type LessonStudyStage struct {
 	ID          string   `json:"id"`
@@ -68,21 +76,23 @@ type LessonTransferPlan struct {
 	DelayDays   int      `json:"delayDays"`
 }
 type Lesson struct {
-	ID        string           `json:"id"`
-	Title     string           `json:"title"`
-	Subtitle  string           `json:"subtitle"`
-	Level     string           `json:"level"`
-	Group     string           `json:"group"`
-	Units     string           `json:"units"`
-	Minutes   int              `json:"minutes"`
-	Goal      string           `json:"goal"`
-	Formula   string           `json:"formula"`
-	Sections  []Section        `json:"sections"`
-	Examples  []Example        `json:"examples"`
-	Exercises []Exercise       `json:"exercises"`
-	Generated bool             `json:"generated"`
-	Materials []LessonMaterial `json:"materials,omitempty"`
-	StudyPlan *LessonStudyPlan `json:"studyPlan,omitempty"`
+	Beginner      bool             `json:"beginner,omitempty"`
+	Prerequisites []string         `json:"prerequisites,omitempty"`
+	ID            string           `json:"id"`
+	Title         string           `json:"title"`
+	Subtitle      string           `json:"subtitle"`
+	Level         string           `json:"level"`
+	Group         string           `json:"group"`
+	Units         string           `json:"units"`
+	Minutes       int              `json:"minutes"`
+	Goal          string           `json:"goal"`
+	Formula       string           `json:"formula"`
+	Sections      []Section        `json:"sections"`
+	Examples      []Example        `json:"examples"`
+	Exercises     []Exercise       `json:"exercises"`
+	Generated     bool             `json:"generated"`
+	Materials     []LessonMaterial `json:"materials,omitempty"`
+	StudyPlan     *LessonStudyPlan `json:"studyPlan,omitempty"`
 }
 type Server struct {
 	db                   *database

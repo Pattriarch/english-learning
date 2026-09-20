@@ -48,7 +48,7 @@ export function transferTopics(data={}){
  for(const a of array(data.state?.attempts)){
   if(!meaningful(a))continue;const original=transferLessonIdentity(a),id=aliases.get(original)||original,meta=known.get(id);if(!meta)continue;
   // A legacy fill-in/token task does not seed a transfer cycle.
-  if(meta.lesson){const ex=currentAuthoredExercise(meta.lesson,a.exerciseId);if(!ex||!['translate','rewrite','write','speak','correct','explain','contrast'].includes(ex.kind))continue;}
+  if(meta.lesson){const ex=currentAuthoredExercise(meta.lesson,a.exerciseId);if(!ex||ex.practiceStage==='guided'||!['translate','rewrite','write','speak','correct','explain','contrast'].includes(ex.kind))continue;}
   const previous=found.get(id);if(!previous||time(a.at)<time(previous.anchorAt))found.set(id,{...meta,anchorAt:a.at,anchorId:a.id});
  }
  return [...found.values()].map(topic=>{const saved=parse(data.state?.drafts?.[transferTopicKey(topic.lessonId)]);return validTransferSnapshot(saved,topic.lessonId)?{...topic,...saved,snapshot:saved}:topic;});
@@ -115,7 +115,7 @@ export function transferTargetEvidence(spec,state,dayKey){
 }
 export function transferTask(topic,round,stage,state={}){
  const level=(String(topic.level).match(/[ABC][12]/)||['B1'])[0],advanced=/C[12]/.test(level),basic=/A[12]/.test(level);
- const length=basic?'4–6 connected sentences':advanced?'140–190 words':'80–120 words';
+ const length=level==='A1'?'two short sentences using only familiar patterns':level==='A2'?'2–3 short sentences':advanced?'140–190 words':'80–120 words';
  const scenarios=['a personal plan or a decision at work','a disagreement about shared time or resources','a recommendation to someone whose priorities differ from yours','a request to change an arrangement','an explanation of a past decision and its consequences','a choice between realistic alternatives'];
  const situation=scenarios[round%scenarios.length];
  const premise=`Target topic: ${topic.title}. Use American English as your default; other standard varieties are valid. Apply this topic naturally and accurately. If the topic is a contrast, choose a situation where the contrast changes the meaning; do not force incompatible forms into one sentence.`;
@@ -127,6 +127,12 @@ export function transferTask(topic,round,stage,state={}){
   const current=transferProgress(topic,state),previous=current.attempts||[],focus=[...previous].reverse().find(a=>['partial','incorrect'].includes(verdict(a)))||[...previous].reverse().find(a=>a.mode==='speaking')||previous.at(-1);
   prompt=`${premise} Revise your previous response below after considering the feedback. Keep the original purpose and relevant facts; correct the target topic and improve one unclear connection. Submit the complete revised response, not isolated corrections. Then briefly explain at least one meaningful change in Russian or English. If feedback was ungraded, use the topic notes to check the meaning yourself; no accuracy grade is implied. Do not copy a suggested answer verbatim.`;
   if(focus)context+=`\n\nOriginal task: ${focus.prompt||''}\nYour previous response: ${focus.answer}\nFeedback: ${focus.feedback?.summary||''}\n${focus.feedback?.explanation||''}\n${array(focus.feedback?.mistakes).map(m=>`${m.original} → ${m.correction}: ${m.why}`).join('\n')}`;
+ }
+ if(basic){
+  if(stage==='recall')prompt=`Тема «${topic.title}». Вспомни: какую простую мысль она помогает выразить? Объясни по-русски одной фразой и добавь один короткий английский пример. Не нужны термины или сложные предложения.`;
+  if(stage==='write')prompt=`Тема «${topic.title}». Напиши ${level==='A1'?'две':'две-три'} короткие фразы о себе или знакомых предметах, используя эту тему. Можно придумать ситуацию. Бери только знакомые слова и формы. Не нужны письмо, спор или объяснение на английском.`;
+  if(stage==='speak')prompt=`Тема «${topic.title}». Произнеси две короткие фразы с этой конструкцией. Измени человека, предмет или время по сравнению со своим письменным ответом, если тема это позволяет. Можно говорить медленно и делать паузы; минимальной длительности записи нет.`;
+  if(stage==='revise')prompt='Возьми свой предыдущий короткий ответ. Исправь одно замечание из разбора, запиши целиком исправленную фразу и коротко по-русски поясни, что изменил. Если разбора нет, сравни с объяснением темы. Не нужно увеличивать объём ответа.';
  }
  return {version:1,lessonId:topic.lessonId,round,stage,exerciseId:transferExerciseId(topic.lessonId,round,stage),title:topic.title,level,prompt,context,mode:stage==='speak'?'speaking':'writing'};
 }

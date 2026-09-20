@@ -1,4 +1,5 @@
 import {authoredExerciseID,authoredLessonState,currentAuthoredExercise} from './authored-exercise.js';
+import {lessonGuidanceHTML,lessonPrerequisiteHTML} from './lesson-guidance.js';
 import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
 import {mountPractice,plannedPractice,mountReview,mountJournal,mountSettings} from './pages.js';
@@ -65,11 +66,13 @@ function lesson(id,index){
  const first=l.exercises.findIndex(e=>!done.has(e.id));let n=index===undefined?Math.max(0,first):Math.min(Math.max(0,index),l.exercises.length-1);
  const e=l.exercises[n],practiceID=authoredExerciseID(e),key=l.id+':'+practiceID;let attempt=latest.get(e.id),inputMode=['speak','write'].includes(e.kind)?'writing':'translation',requestID=crypto.randomUUID();
  $('#main').innerHTML=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1 style="margin:13px 0 8px">${esc(l.title)}</h1><span class="small-note">${esc(l.units)} · ${esc(l.level)} · ${l.generated?'Создано помощником':'Авторское занятие по теме'}</span></div><a class="btn small" href="#/books">${icon('book')} Учебники</a></div>
- <div class="lesson-layout ${l.materials?.length?'with-materials':''}">
-  <aside class="card theory-panel"><div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div></aside>
+ ${lessonPrerequisiteHTML(l,data.lessons)}
+ <div class="lesson-layout ${l.materials?.length?'with-materials':''} ${l.beginner?'guided-lesson':''}">
+  ${l.beginner?'<details class="card theory-panel"><summary>Весь урок: объяснения и примеры</summary>':'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${l.beginner?'</details>':'</aside>'}
   <div><section class="card exercise-card">
    <div class="exercise-top"><span class="exercise-type">${e.kind==='speak'?'Скажи своими словами':e.kind==='write'?'Своя мысль':e.kind==='rewrite'?'Переформулируй':'С русского на английский'}</span><div class="steps" aria-label="Задание ${n+1} из ${l.exercises.length}">${l.exercises.map((ex,i)=>`<span class="step ${done.has(ex.id)?'done':''} ${i===n?'active':''}"></span>`).join('')}</div></div>
-   <p class="prompt">${esc(e.prompt)}</p><p class="context">${esc(e.context)}</p>
+   ${lessonGuidanceHTML(l,e,n)}
+   ${l.beginner?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p><p class="context">${esc(e.context)}</p>
    <div class="answer-input-header"><label for="answer" class="field-label">Твой ответ на английском</label><button type="button" id="voice" class="btn" aria-controls="answer">${icon('mic')} Надиктовать ответ</button></div>
    <textarea id="answer" class="answer-area" spellcheck="false" placeholder="Напиши свою мысль или нажми «Надиктовать ответ»…">${esc(getDraft(key,data.state)||attempt?.answer||'')}</textarea>
    <div class="answer-meta"><span id="word-count"></span><span>Черновик сохраняется автоматически</span></div>
@@ -91,6 +94,8 @@ function lesson(id,index){
   $$('[data-speak]').forEach(b=>b.onclick=()=>speak(l.examples[+b.dataset.speak].en));
  };
  showTheory(l.materials?.length?'materials':'theory');$$('[data-tab]').forEach(b=>b.onclick=()=>showTheory(b.dataset.tab));
+ if($('#guidance-listen'))$('#guidance-listen').onclick=()=>speak(e.guidance.example);
+ if($('#guidance-toggle'))$('#guidance-toggle').onclick=ev=>{const body=$('#guidance-body');body.hidden=!body.hidden;ev.currentTarget.textContent=body.hidden?'Вернуть объяснение':'Убрать опору';ev.currentTarget.setAttribute('aria-expanded',String(!body.hidden));};
  const target=$('#answer'),onText=()=>{queueDraft(key,target.value);$('#word-count').textContent=words(target.value)+' слов';requestID=crypto.randomUUID();$('#feedback').innerHTML='';};
  if(localDraft(key)!==null||Object.prototype.hasOwnProperty.call(data.state.drafts,key))target.value=getDraft(key,data.state);
  if(attempt&&target.value!==attempt.answer)$('#feedback').innerHTML='';

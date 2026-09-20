@@ -1,9 +1,23 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {studyUI} from './study-ui-fixture.mjs';
+import {readFileSync} from 'node:fs';
 
 // Exercise the real lesson renderer and submit handler without booting the app.
-const lessonOnly=raw=>{const source=raw.replace(/\r\n/g,'\n');return source.split('\n').filter(line=>/^import .*from '\.\/(core|audio|authored-exercise|lesson-materials)\.js';$/.test(line)).join('\n')+'\nlet data;async function refresh(){data=await api("/bootstrap");}\n'+source.slice(source.indexOf('function lesson(id,index){'),source.indexOf('\n}',source.indexOf('function lesson(id,index){'))+2)+'\nexport function mount(next,id,index){data=next;lesson(id,index);}';};
+const lessonOnly=raw=>{const source=raw.replace(/\r\n/g,'\n');return source.split('\n').filter(line=>/^import .*from '\.\/(core|audio|authored-exercise|lesson-materials|lesson-guidance)\.js';$/.test(line)).join('\n')+'\nlet data;async function refresh(){data=await api("/bootstrap");}\n'+source.slice(source.indexOf('function lesson(id,index){'),source.indexOf('\n}',source.indexOf('function lesson(id,index){'))+2)+'\nexport function mount(next,id,index){data=next;lesson(id,index);}';};
+
+test('real beginner UI puts the bilingual teaching card before the task and lets the learner remove it',async t=>{
+ const f=await studyUI(t,'app.js',{'lesson-materials':{mountLessonMaterials(){}}},lessonOnly);
+ const l=JSON.parse(readFileSync(new URL('../../content/courses/foundation.json',import.meta.url),'utf8')).find(l=>l.id==='path-be');
+ const d={lessons:[l],settings:{provider:'offline'},state:{attempts:[],drafts:{},read:{}}};
+ f.root.innerHTML='<main id="main"></main>';f.module.mount(d,l.id,0);
+ const main=f.root.querySelector('#main');assert.ok(main.innerHTML.indexOf('I am ready.')<main.innerHTML.indexOf('Скажи «Я устал»'));
+ assert.equal(f.root.querySelector('details').attrs.open,undefined);
+ await f.root.querySelector('#guidance-listen').click();assert.equal(f.spoken[0][0],'I am ready.');
+ await f.root.querySelector('#guidance-toggle').click();assert.equal(f.root.querySelector('#guidance-body').hidden,true);
+ await f.root.querySelector('#guidance-toggle').click();assert.equal(f.root.querySelector('#guidance-body').hidden,false);
+ f.module.mount(d,l.id,l.exercises.length-1);assert.equal(f.root.querySelector('#guidance-body'),null);assert.match(main.innerHTML,/Теперь сам/);
+});
 
 test('real authored UI isolates revised drafts and feedback and sends the current assessment identity',async t=>{
  const f=await studyUI(t,'app.js',{'lesson-materials':{mountLessonMaterials(){}}},lessonOnly);
