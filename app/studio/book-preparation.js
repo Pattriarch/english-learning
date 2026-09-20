@@ -1,5 +1,7 @@
-import {esc} from './core.js';
+import {esc,icon} from './core.js';
 import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
+import {beginnerBookNotes} from './book-beginner-notes.js';
+import {speak} from './audio.js';
 
 // These are language supports, not claims that a short lesson replaces an
 // entire book chapter. Category membership comes from the verified contents.
@@ -224,9 +226,17 @@ export function bookPreparation(book,unit,lessons=[]){
 export function bookPreparationHTML(book,unit,lessons){
  const prep=bookPreparation(book,unit,lessons),first=prep.supports[0];
  const brief=first?.courseGuide?first:first?.beginner?{...first,courseGuide:{purpose:first.goal,explanation:first.sections.slice(0,3),examples:first.examples.slice(0,2)}}:null;
- return `<section class="surface book-preparation"><span class="eyebrow">ВХОД В ГЛАВУ</span><h2>Сначала знакомая опора, затем детали</h2><p>В учебнике тема разобрана шире, чем в коротком уроке. Если конструкция новая, сначала пройди её по шагам в основном курсе. Главы библиотеки — дополнительная практика, их не нужно проходить повторно ради счётчика.</p>${prep.supports.length?`<ul>${prep.supports.map(l=>`<li><a href="#/lesson/${esc(l.id)}">${esc(l.title)}</a><span class="small-note"> · ${esc(l.level)}</span></li>`).join('')}</ul>`:''}<p class="small-note">Это языковые опоры для раздела ${esc(unit.category||book.title)}, а не замена всех нюансов главы. Разбирай по одному пункту ниже: пример → смысл → своя короткая фраза. Потом переходи к заданиям.</p>${brief?courseGuideHTML(brief,1):''}</section>`;
+ return `<section class="surface book-preparation"><span class="eyebrow">ВХОД В ГЛАВУ</span><h2>Сначала знакомая опора, затем детали</h2><p>В учебнике тема разобрана шире, чем в коротком уроке. Если конструкция новая, сначала пройди её по шагам в основном курсе. Главы библиотеки — дополнительная практика, их не нужно проходить повторно ради счётчика.</p>${prep.supports.length?`<ul>${prep.supports.map(l=>`<li><a href="#/lesson/${esc(l.id)}">${esc(l.title)}</a><span class="small-note"> · ${esc(l.level)}</span></li>`).join('')}</ul>`:''}<p class="small-note">Это языковые опоры для раздела ${esc(unit.category||book.title)}, а не замена всех нюансов главы. Разбирай по одному пункту ниже: пример → смысл → своя короткая фраза. Потом переходи к заданиям.</p>${bookBeginnerNotesHTML(prep.unitId)}${brief?courseGuideHTML(brief,1):''}</section>`;
+}
+export function bookBeginnerNotesHTML(unitId){
+ const note=beginnerBookNotes[unitId];if(!note)return '';
+ return `<details class="book-beginner-notes" open><summary>${esc(note.title)}</summary><p class="book-note-body">${esc(note.body)}</p>${note.examples.map((e,i)=>`<div class="book-note-example"><div class="diagram-english"><p lang="en">${esc(e.en)}</p><button type="button" class="btn small ghost" data-book-note-speak="${i}" aria-label="Послушать опорный пример ${i+1}">${icon('sound')}</button></div><p>${esc(e.ru)}</p></div>`).join('')}<details><summary>Слова для заданий · ${note.vocabulary.length}</summary><dl class="book-note-vocabulary">${note.vocabulary.map(w=>`<div><dt lang="en">${esc(w.en)}</dt><dd>${esc(w.ru)}</dd></div>`).join('')}</dl></details></details>`;
 }
 export function bindBookPreparation(root,book,unit,lessons){
- const first=bookPreparation(book,unit,lessons).supports[0];
+ const prep=bookPreparation(book,unit,lessons),first=prep.supports[0],note=beginnerBookNotes[prep.unitId];
  if(first)bindCourseGuide(root,first.courseGuide?first:{...first,courseGuide:{examples:first.examples.slice(0,2)}});
+ if(note)root.querySelectorAll('[data-book-note-speak]').forEach(button=>button.onclick=()=>{
+  const example=note.examples[Number(button.dataset.bookNoteSpeak)];
+  if(example)speak(example.en,.9,'en-US',{button,isCurrent:()=>button.isConnected});
+ });
 }

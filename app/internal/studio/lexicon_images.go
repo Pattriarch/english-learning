@@ -13,7 +13,7 @@ import (
 
 const lexiconImagesVersion = "context-images-v1"
 
-var lexiconImagePath = regexp.MustCompile(`^/assets/(vocabulary-scenes|learning-figures)/[a-z0-9-]+\.png$`)
+var lexiconImagePath = regexp.MustCompile(`^/assets/(vocabulary-scenes|learning-figures|course-scenes)/[a-z0-9-]+\.png$`)
 
 func validLexiconDigest(value string) bool {
 	return len(value) == 64 && value == strings.ToLower(value) && isHex(value)

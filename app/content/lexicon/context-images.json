@@ -10,8 +10,13 @@
     "imageOrigin": "Original fictional image generated for this project with OpenAI Image Generator; local pixels visually inspected.",
     "additionalImageManifests": [
       "app/studio/assets/learning-figures/home-apple-pie-preparation.manifest.json",
-      "app/studio/assets/learning-figures/rainy-neighborhood-sidewalk.manifest.json"
-    ]
+      "app/studio/assets/learning-figures/rainy-neighborhood-sidewalk.manifest.json",
+      "app/docs/course-illustration-prompts.json",
+      "app/docs/course-illustration-expansion.json"
+    ],
+    "expansionCheckedAt": "2026-09-20",
+    "expansionAudit": "app/docs/LEXICON-IMAGE-EXPANSION-2026-09-20.md",
+    "sharedAssetNote": "Focus-specific asset records share unchanged original PNG files. Russian captions identify the selected concrete sense and scene limitations; every file hash is verified."
   },
   "assets": [
     {
@@ -37,6 +42,166 @@
       "alt": "Мужчина под открытым бирюзовым зонтом идёт по узкому тротуару во время сильного дождя; у ноги виден всплеск в луже. На другой стороне дороги тротуар заметно шире.",
       "sourceId": "rainy-neighborhood-sidewalk-2026-09-11",
       "associationRu": "Дождь на улице: зонт, лужа и два тротуара. Слева тротуар заметно уже."
+    },
+    {
+      "id": "course-focus-apple",
+      "src": "/assets/course-scenes/countability-scene.png",
+      "sha256": "00148b7ec45ef8c7d749e825a641b10871dd85dab59caeac78ba1f7bd0cc4aad",
+      "alt": "Слева — одно яблоко: apple здесь означает съедобный плод.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Слева — одно яблоко: apple здесь означает съедобный плод. Падение яблока и поступок человека из примера не показаны."
+    },
+    {
+      "id": "course-focus-tired",
+      "src": "/assets/course-scenes/be-states-scene.png",
+      "sha256": "cb2b15f479cf2ef29b2665c59ebf44433605e2f5461b241042338db71056efc5",
+      "alt": "Справа женщина устала и отдыхает: tired — уставший.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа женщина устала и отдыхает: tired — уставший. Причина усталости, переезд и заказ супа остаются в тексте."
+    },
+    {
+      "id": "course-focus-sleepy",
+      "src": "/assets/course-scenes/be-states-scene.png",
+      "sha256": "cb2b15f479cf2ef29b2665c59ebf44433605e2f5461b241042338db71056efc5",
+      "alt": "Справа женщина зевает и трёт сонные глаза: sleepy — хочется спать.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа женщина зевает и трёт сонные глаза: sleepy — хочется спать. Это ещё не сам сон."
+    },
+    {
+      "id": "course-focus-yawn",
+      "src": "/assets/course-scenes/be-states-scene.png",
+      "sha256": "cb2b15f479cf2ef29b2665c59ebf44433605e2f5461b241042338db71056efc5",
+      "alt": "Справа показан зевок: yawn — зевать.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа показан зевок: yawn — зевать. Это само действие; совещание из предложения не изображено."
+    },
+    {
+      "id": "course-focus-sweater",
+      "src": "/assets/course-scenes/be-states-scene.png",
+      "sha256": "cb2b15f479cf2ef29b2665c59ebf44433605e2f5461b241042338db71056efc5",
+      "alt": "Справа виден светлый вязаный свитер: sweater.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа виден светлый вязаный свитер: sweater. Покупка и радость от покупки на картинке не показаны."
+    },
+    {
+      "id": "course-focus-jeans",
+      "src": "/assets/course-scenes/perspective-scene.png",
+      "sha256": "3ac2f16b1a05fa84b71c450ccbf61828f12c5072375d47de7d997146c62e5d20",
+      "alt": "Слева женщина в синих джинсах: jeans.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Слева женщина в синих джинсах: jeans. Вопрос, подходит ли к ним новая рубашка, остаётся в предложении."
+    },
+    {
+      "id": "course-focus-book",
+      "src": "/assets/course-scenes/habit-now-scene.png",
+      "sha256": "3d236a64f3bd7dfa683aaaa116b5bcab5afd63ddd8c18f6db7c9442e911bc2fe",
+      "alt": "Справа женщина читает раскрытую книгу: book.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа женщина читает раскрытую книгу: book. Картинка не сообщает, насколько книга интересна и за сколько времени её прочли."
+    },
+    {
+      "id": "course-focus-kitchen",
+      "src": "/assets/course-scenes/past-interrupted-scene.png",
+      "sha256": "e72d1707c6f265fc8c2dd8bcf28b4cd52d7d8a1f3ac9a5fc7e8a7ec5a91e78a9",
+      "alt": "На обеих половинах кухня: kitchen.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "На обеих половинах кухня: kitchen. Слева виден прибранный участок кухни; покупки и время уборки сообщает текст."
+    },
+    {
+      "id": "course-focus-plant",
+      "src": "/assets/course-scenes/comparatives-scene.png",
+      "sha256": "32d7a8e16fd09ce8ff7a0b8d0e11cc3725575c77a965b89ca77c528c07eebe41",
+      "alt": "Здесь plant — живое растение с листьями.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Здесь plant — живое растение с листьями. Картинка не утверждает, что эти комнатные растения — сорняки; определение weed остаётся в тексте."
+    },
+    {
+      "id": "course-focus-glass",
+      "src": "/assets/course-scenes/countability-scene.png",
+      "sha256": "00148b7ec45ef8c7d749e825a641b10871dd85dab59caeac78ba1f7bd0cc4aad",
+      "alt": "Справа стеклянный стакан: glass.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа стеклянный стакан: glass. Действие «поднёс и выпил залпом» не показано — здесь важен сам сосуд."
+    },
+    {
+      "id": "course-focus-mug",
+      "src": "/assets/course-scenes/prepositions-scene.png",
+      "sha256": "bf6d5827bb483f64767bb5e7d8537cfd7a1ca4e18b60086a1ce0e632b5d999d6",
+      "alt": "Во всех трёх частях кружка с ручкой: mug.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Во всех трёх частях кружка с ручкой: mug. В центре она наверху; человек, тянущийся к верхней полке, не изображён."
+    },
+    {
+      "id": "course-focus-rug",
+      "src": "/assets/course-scenes/perspective-scene.png",
+      "sha256": "3ac2f16b1a05fa84b71c450ccbf61828f12c5072375d47de7d997146c62e5d20",
+      "alt": "Внутри комнаты лежит серо-синий ковёр: rug.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Внутри комнаты лежит серо-синий ковёр: rug. Это не маленький коврик с обувью у входа. Измерение комнаты не показано."
+    },
+    {
+      "id": "course-focus-entrance",
+      "src": "/assets/course-scenes/perspective-scene.png",
+      "sha256": "3ac2f16b1a05fa84b71c450ccbf61828f12c5072375d47de7d997146c62e5d20",
+      "alt": "Дверной проём показывает entrance — место входа.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Дверной проём показывает entrance — место входа. По картинке нельзя узнать, трудно ли было его найти."
+    },
+    {
+      "id": "course-focus-door",
+      "src": "/assets/course-scenes/perspective-scene.png",
+      "sha256": "3ac2f16b1a05fa84b71c450ccbf61828f12c5072375d47de7d997146c62e5d20",
+      "alt": "Слева закрытая дверь: door.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Слева закрытая дверь: door. Забытый ключ и воспоминание о нём остаются в тексте."
+    },
+    {
+      "id": "course-focus-furniture",
+      "src": "/assets/course-scenes/time-scene.png",
+      "sha256": "0429a9154fd062fb33bcb3fa6086583b52f455979832e64d6f733dfbd4b61489",
+      "alt": "Стул, который перекрашивают, — предмет мебели: furniture.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Стул, который перекрашивают, — предмет мебели: furniture. Гараж, продажа и столы из предложения не показаны."
+    },
+    {
+      "id": "course-focus-wet",
+      "src": "/assets/course-scenes/past-interrupted-scene.png",
+      "sha256": "e72d1707c6f265fc8c2dd8bcf28b4cd52d7d8a1f3ac9a5fc7e8a7ec5a91e78a9",
+      "alt": "Справа руки мокрые от мытья посуды: wet hands.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа руки мокрые от мытья посуды: wet hands. Розетка и электроприбор не изображены; правило из предложения читается отдельно."
+    },
+    {
+      "id": "course-focus-plate",
+      "src": "/assets/course-scenes/past-interrupted-scene.png",
+      "sha256": "e72d1707c6f265fc8c2dd8bcf28b4cd52d7d8a1f3ac9a5fc7e8a7ec5a91e78a9",
+      "alt": "Слева в сушилке тарелки: plate — сам предмет посуды.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Слева в сушилке тарелки: plate — сам предмет посуды. Яичница из предложения не изображена."
+    },
+    {
+      "id": "course-focus-page",
+      "src": "/assets/course-scenes/habit-now-scene.png",
+      "sha256": "3d236a64f3bd7dfa683aaaa116b5bcab5afd63ddd8c18f6db7c9442e911bc2fe",
+      "alt": "Справа видны страницы раскрытой книги: page.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Справа видны страницы раскрытой книги: page. Номер главы и новые слова из примера здесь не указаны."
+    },
+    {
+      "id": "course-focus-backpack",
+      "src": "/assets/course-scenes/be-states-scene.png",
+      "sha256": "cb2b15f479cf2ef29b2665c59ebf44433605e2f5461b241042338db71056efc5",
+      "alt": "Слева у женщины рюкзак на плече: backpack.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Слева у женщины рюкзак на плече: backpack. Иллюстрация показывает вещь; пол человека и дорога в школу относятся к предложению."
+    },
+    {
+      "id": "course-focus-chair",
+      "src": "/assets/course-scenes/habit-now-scene.png",
+      "sha256": "3d236a64f3bd7dfa683aaaa116b5bcab5afd63ddd8c18f6db7c9442e911bc2fe",
+      "alt": "Слева женщина сидит в кресле: chair здесь может означать кресло.",
+      "sourceId": "course-scenes-2026-09-20",
+      "associationRu": "Слева женщина сидит в кресле: chair здесь может означать кресло. Ожидание и засыпание из предложения не показаны."
     }
   ],
   "bindings": [
@@ -129,6 +294,186 @@
       "meaningRuSHA256": "76eac8645dd6e1765e8aec89945e7c4b99d8ee80b1b3f63921fab6ddcbc1378a",
       "imageId": "rainy-neighborhood-sidewalk",
       "evidence": "Both sidewalks have visible curb and frontage boundaries in one continuous perspective. The left near-side pedestrian strip is narrow; the sidewalk across the road has several more paving rows and is visibly wider. This supports the visible width contrast, not surveyed measurements. No city, country or real historical event is identified."
+    },
+    {
+      "entryId": "lex-apple-3a7bd3e2",
+      "contextId": "tatoeba-953760-8953620",
+      "englishSHA256": "10d6e60fe9254c04b197bd8054037b51beb30ddc9eb4f65afe4aeb39224a3aef",
+      "senseId": "tatoeba-953760-8953620-rich-sense-v1",
+      "meaningRuSHA256": "26e03e963a14110d616977921ff972208d38c2a9a73bce795fb7013254ca86f8",
+      "imageId": "course-focus-apple",
+      "evidence": "Active English: I wonder why he didn't eat the apple that fell on his head. Selected meaning: яблоко. Left panel: one whole red apple illustrates the concrete edible fruit, not the apple-tree modifier in the sibling context. Falling on a head and eating are not pictured."
+    },
+    {
+      "entryId": "lex-tired-c405760d",
+      "contextId": "lex-tired-c405760d-context-coca-original-1",
+      "englishSHA256": "0cc28cfaeabfba355dede16ada615f20c28415eff9ae29ca9af47c6d339a919d",
+      "senseId": "lex-tired-c405760d-context-coca-original-1-rich-sense-v1",
+      "meaningRuSHA256": "f7ef95b2c2816b5db99fc2d12a31f048d9907722304409b4b4cb9b2451bc60ad",
+      "imageId": "course-focus-tired",
+      "evidence": "Active English: I was too tired to cook after the move, so we ordered soup from a nearby restaurant. Selected meaning: уставший; утомлённый. Right panel: resting posture, eye rubbing and yawning support ordinary tiredness. The image does not establish a move, cooking inability, soup order or a clinical diagnosis."
+    },
+    {
+      "entryId": "lex-sleepy-e74ca13b",
+      "contextId": "tatoeba-3260216-13934192",
+      "englishSHA256": "0869a2343c5999d064d5281f9f5f66099ff96224d1744215b0f737178b8dd536",
+      "senseId": "tatoeba-3260216-13934192-rich-sense-v1",
+      "meaningRuSHA256": "467eb2c56777611bce9012455674820d9978e95437980b592837e6ad9e1e992d",
+      "imageId": "course-focus-sleepy",
+      "evidence": "Active English: I am going to go to sleep right away because I'm very sleepy. Selected meaning: сонный; хотящий спать. Right panel: yawning and sleepy eyes illustrate wanting sleep, not being asleep. The figurative sleepy conscience sibling is excluded."
+    },
+    {
+      "entryId": "lex-yawn-25c4df8e",
+      "contextId": "tatoeba-3236802-5741496-rich-v1",
+      "englishSHA256": "52d7f8d95dd240eed76d81fdaa366abd501f55346759063de2ce307378681392",
+      "senseId": "tatoeba-3236802-5741496-rich-sense-v1",
+      "meaningRuSHA256": "d380ecbedaca50b3988da9c7c8a46b56d59f2fe746cb83badcb3da4ab6435fad",
+      "imageId": "course-focus-yawn",
+      "evidence": "Active English: I always seem to yawn during late meetings, even when the discussion is interesting. Selected meaning: зевать. Right panel: an open-mouthed yawn with sleepy eyes illustrates the action. No meeting or frequency claim is inferred. The separate cover-your-mouth context is not bound because that instruction is not pictured."
+    },
+    {
+      "entryId": "lex-sweater-a3a89efb",
+      "contextId": "tatoeba-393864-12709392",
+      "englishSHA256": "e93f32a2a95f0e5f0355066056f1bf6c6d82ea7c5da75ac51d01f74df3b25afd",
+      "senseId": "tatoeba-393864-12709392-rich-sense-v1",
+      "meaningRuSHA256": "ee760a66cd46cb05f0fb8f07aa7a44e313b16fa17afdd9501c47bc4e01aca566",
+      "imageId": "course-focus-sweater",
+      "evidence": "Active English: I bought a new sweater and I'm as pleased as Punch with it! Selected meaning: свитер; вязаная одежда для верхней части тела. Right panel: cream knitted pullover with ribbed collar and cuffs illustrates the garment. New purchase and being pleased with that purchase are not shown."
+    },
+    {
+      "entryId": "lex-jeans-3eb874ba",
+      "contextId": "tatoeba-249995-413488",
+      "englishSHA256": "562b05f56511a30be20461770da760047af8e47252cb5b1626bf56ad4e9da3fa",
+      "senseId": "tatoeba-249995-413488-rich-sense-v1",
+      "meaningRuSHA256": "0a15922e4fa30cf41b3725d28364368a4803782a90a88bf7b4cbb5394b8d4f2c",
+      "imageId": "course-focus-jeans",
+      "evidence": "Active English: I don't know if her new shirt will go with her blue jeans. Selected meaning: джинсы. Left panel: the woman wears visibly blue denim jeans. It does not decide whether a new shirt matches. The torn-jeans bicycle accident sibling is excluded."
+    },
+    {
+      "entryId": "lex-book-92719fe0",
+      "contextId": "tatoeba-42139-5180174",
+      "englishSHA256": "7623c4707b4a032567e24b75f50232ca7b24f5d9b49cd22339c623df55aa0934",
+      "senseId": "tatoeba-42139-5180174-rich-sense-v1",
+      "meaningRuSHA256": "76cb565aa7a90bdd96254f6ba55823520b7638b37be8d4c51007273fd53f77e2",
+      "imageId": "course-focus-book",
+      "evidence": "Active English: It was such an interesting book that I read it in a day. Selected meaning: книга, произведение для чтения. Right panel: a reader holds an open bound book, matching a work being read. Interest, finishing it and in-a-day duration cannot be established."
+    },
+    {
+      "entryId": "lex-kitchen-3171d89a",
+      "contextId": "tatoeba-2932632-2934298",
+      "englishSHA256": "7c5092970193e01ff379277a99f7294744438da9e86251c04dc0783ef0eba3ac",
+      "senseId": "tatoeba-2932632-2934298-rich-sense-v1",
+      "meaningRuSHA256": "6659df1e27cdfb810de6e429d0167a0c68779137f42972ca442c8a47ba0c9f90",
+      "imageId": "course-focus-kitchen",
+      "evidence": "Active English: While my wife was shopping in town, I tidied up in the kitchen. Selected meaning: кухня как помещение. Cabinets, worktop, sink and dishes identify a domestic kitchen. The left washing area is tidy. The speaker identity, wife shopping and exact tidying timeline are not pictured."
+    },
+    {
+      "entryId": "lex-plant-96044d97",
+      "contextId": "tatoeba-868158-3213841",
+      "englishSHA256": "5642801f5eb10054058b5736e2b567bb379bf4cfbe1bfc32f9bc26e078391a90",
+      "senseId": "tatoeba-868158-3213841-rich-sense-v1",
+      "meaningRuSHA256": "b5430615d51539268d1c8bb656c4274cce0f04116a6d2ddab29804d63719a15a",
+      "imageId": "course-focus-plant",
+      "evidence": "Active English: What is a weed? A plant whose virtues have not yet been discovered. Selected meaning: растение. All three panels show living leafy plants, supporting the botanical noun. They are not claimed to be weeds or have undiscovered virtues. The factory meaning in the other context is excluded."
+    },
+    {
+      "entryId": "lex-glass-132a1a39",
+      "contextId": "tatoeba-749972-3188709",
+      "englishSHA256": "fbe18cd575b9b1473b906e0e457e9adedee3ecd345276cb9fe273a22809de590",
+      "senseId": "tatoeba-749972-3188709-rich-sense-v1",
+      "meaningRuSHA256": "2e581d25ac397e3101f1bef40cba59f59385bc1ad6d098b19616120e81a69d2f",
+      "imageId": "course-focus-glass",
+      "evidence": "Active English: He raised the glass to his lips and drained it at one gulp. Selected meaning: стакан; бокал. Right panel: a cylindrical drinking glass is distinct from the pitcher. This illustrates the vessel, not raising it to the lips or draining it at one gulp."
+    },
+    {
+      "entryId": "lex-mug-a19ee257",
+      "contextId": "tatoeba-3239144-2506916",
+      "englishSHA256": "248a6a79f02ea2abd3149d2ec78532395a9cda5a52a0202e46f7fa40c7d7d300",
+      "senseId": "tatoeba-3239144-2506916-rich-sense-v1",
+      "meaningRuSHA256": "6f1fa6ed9b2462b4371029c885a190c09b53ed241a985813bc71f3b4b46e3964",
+      "imageId": "course-focus-mug",
+      "evidence": "Active English: Julia stood on tiptoes to reach a mug on the top shelf. Selected meaning: кружка с ручкой. Each panel shows a handled mug. The center mug rests on the cubby roof; this roof is not claimed to be the top shelf in the sentence. Reaching on tiptoes and Julia are not pictured."
+    },
+    {
+      "entryId": "lex-rug-9fdaa7ee",
+      "contextId": "tatoeba-2771421-2771422",
+      "englishSHA256": "2c52348a0b57b95dbc44550bff1fefcde9abc6cca61d7299285457c449298aa3",
+      "senseId": "tatoeba-2771421-2771422-rich-sense-v1",
+      "meaningRuSHA256": "c7bb8e957726b79bea8c68ecca73d0c387470733a60a3ab741791e9b25c669da",
+      "imageId": "course-focus-rug",
+      "evidence": "Active English: We'll have to measure the room before we buy the rug. Selected meaning: ковёр; съёмное напольное покрытие. Middle and right panels show a blue-gray rectangular rug inside, distinct from the brown doormat outside. It illustrates a removable floor covering, not measuring, buying, a cat or a fireplace."
+    },
+    {
+      "entryId": "lex-entrance-3902eb87",
+      "contextId": "tatoeba-48319-7993235",
+      "englishSHA256": "1a9d4a9dd6a4a3ffd01b5c97df79759b78908bbca563c562ad6a124d4f0e77ce",
+      "senseId": "tatoeba-48319-7993235-rich-sense-v1",
+      "meaningRuSHA256": "d291253fdd2f21cc6df85bab8e1fc65e29eb83f3797bbe5ea781fd8883d7c288",
+      "imageId": "course-focus-entrance",
+      "evidence": "Active English: It was difficult for me to find the entrance to that building. Selected meaning: вход. The doorway and threshold visibly mark a physical entrance. Difficulty finding it is not depicted. The entrance-examination admission sense is excluded."
+    },
+    {
+      "entryId": "lex-door-2534e2de",
+      "contextId": "tatoeba-38989-4484977",
+      "englishSHA256": "4a3a80138f52bb233cb0ea0272e4d4ee0174b59eea25e581842d17c41db2902a",
+      "senseId": "tatoeba-38989-4484977-rich-sense-v1",
+      "meaningRuSHA256": "2415daa86a0b2b6411c755047ee2ed10c4c6f41397b2f6c43d31aad27b53d6df",
+      "imageId": "course-focus-door",
+      "evidence": "Active English: After I shut the door, I remembered I had left my key behind. Selected meaning: дверь. Left panel: a closed residential door with handle and frame matches the physical door after shut the door. A locked state, who closed it and a forgotten key are not established."
+    },
+    {
+      "entryId": "lex-furniture-0a5a9bb7",
+      "contextId": "tatoeba-52793-1602016-rich-v1",
+      "englishSHA256": "46c76c92e7019981dbbff3578eb0d65f4a8469a2210be343143081849139fdc4",
+      "senseId": "tatoeba-52793-1602016-rich-sense-v1",
+      "meaningRuSHA256": "86e64f0ef860b97d1565bcc337a5043fd61cd4be9536dddcd6271a2a86a49d05",
+      "imageId": "course-focus-furniture",
+      "evidence": "Active English: Mr. Davis repairs furniture in his garage and sells restored tables at a neighborhood market. Selected meaning: мебель. A wooden chair being refinished and then painted gives a concrete instance of furniture under restoration. It is not claimed to show Mr. Davis, a garage, the tables he sells or a neighborhood market."
+    },
+    {
+      "entryId": "lex-wet-534c51e1",
+      "contextId": "tatoeba-1695343-4283364",
+      "englishSHA256": "2991da548790f53f5784f52acccb37e3d4f1dffe928fd36818ccea4d4c2950ca",
+      "senseId": "tatoeba-1695343-4283364-rich-sense-v1",
+      "meaningRuSHA256": "f347a53a19e4c6b23560939ea777926b0299e46545a283e35e646e98bb19ee36",
+      "imageId": "course-focus-wet",
+      "evidence": "Active English: Do not touch the plug of the AC power cord with wet hands. Selected meaning: мокрый. Right panel: wet, sudsy hands over the sink illustrate wet hands. No plug or cord is shown and no dangerous electrical action is depicted. The clothing-wet-from-boat-spray context is excluded."
+    },
+    {
+      "entryId": "lex-plate-3b56c352",
+      "contextId": "tatoeba-2953247-3674405",
+      "englishSHA256": "f2e86b0184fe2d3371246695c68be01300928e449e8e5dac0fc9acad2a19bec1",
+      "senseId": "tatoeba-2953247-3674405-rich-sense-v1",
+      "meaningRuSHA256": "9ab12039d6c32ae52e925ec5644b26ed2fb7eb5098a188f970830ffc670f2bcb",
+      "imageId": "course-focus-plate",
+      "evidence": "Active English: On the table, there was a plate with three fried eggs on it. Selected meaning: тарелка. Left panel: round dinner plates with rims stand in a rack. This illustrates the physical dish, not plate meaning a food portion in the sibling context. Three fried eggs and their count are not pictured."
+    },
+    {
+      "entryId": "lex-page-3660315a",
+      "contextId": "tatoeba-6151546-3595412",
+      "englishSHA256": "89ac102e17e8bea69160d30cfde6579f8506a7205c76079cf7c4e01eca12bfe4",
+      "senseId": "tatoeba-6151546-3595412-rich-sense-v1",
+      "meaningRuSHA256": "4def32a88f3a8666ab6c3c7296bb598fa28097816fd365b38db6904db20e1ebc",
+      "imageId": "course-focus-page",
+      "evidence": "Active English: On the first page of the second chapter there are many new words. Selected meaning: страница книги или документа. Right panel: visible paper pages in an open bound book illustrate a physical page. No chapter number, first-page position or readable vocabulary is claimed. The web-page sibling is excluded."
+    },
+    {
+      "entryId": "lex-backpack-5f00368a",
+      "contextId": "tatoeba-13796622-13796623",
+      "englishSHA256": "5fd7ad9351f88547d40e91459e0f71738e771160332b2847de7a45181491716c",
+      "senseId": "tatoeba-13796622-13796623-rich-sense-v1",
+      "meaningRuSHA256": "401b9e72a5d81ca679723b5700846ea0e388bfd5d894fdbb9e0b0ba0eb49a434",
+      "imageId": "course-focus-backpack",
+      "evidence": "Active English: He's going to school with a backpack on his back. Selected meaning: рюкзак. Left panel: a periwinkle backpack carried by a shoulder strap is distinct from a handbag. Male identity and school destination are not claimed. The forgotten-backpack context is excluded."
+    },
+    {
+      "entryId": "lex-chair-3d7eb3d3",
+      "contextId": "tatoeba-8989286-8989552",
+      "englishSHA256": "79b2c30165a557278e57b8512d818caf7392429c84e468472af9d20772688644",
+      "senseId": "tatoeba-8989286-8989552-rich-sense-v1",
+      "meaningRuSHA256": "436fdcb8455a931ac8303c956ded5fe49098ab0f2e5f89b2bdd75a63757a6670",
+      "imageId": "course-focus-chair",
+      "evidence": "Active English: I had to wait so long that I fell asleep in the chair. Selected meaning: стул; кресло. Left vignettes: a single-seat upholstered chair with arms supports chair including armchair. The person is awake and reading; falling asleep and a long wait are not depicted."
     }
   ]
 }

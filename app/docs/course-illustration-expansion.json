@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "date": "2026-09-20",
+  "generationMode": "built-in image_gen",
+  "referenceStyle": {
+    "inspected": "app/studio/assets/course-scenes/articles-scene.png",
+    "usage": "Viewed to match the existing cream/periwinkle 3D illustration style; no image was submitted as an edit target."
+  },
+  "notes": [
+    "New original generated raster images, copied without alteration from built-in outputs.",
+    "No external image API, CLI or API key used.",
+    "Captions and English examples belong in accessible HTML, not embedded inside the image.",
+    "The prepositions image depicts an open wooden cubby on legs: use 'box' only with a simple explanation of the depicted object, or introduce 'cabinet'.",
+    "The habit and tense images illustrate a contrast; accompanying language supplies the time reference rather than treating a still image as proof of a grammatical tense."
+  ],
+  "assets": [
+    {
+      "slug": "be-states-scene",
+      "topic": "be: ready / tired",
+      "panels": 2,
+      "prompt": "Use case: scientific-educational. Asset type: English course teaching illustration for adults. Landscape 3:2 canvas, high quality. Warm cream background, muted periwinkle blue accents, soft matte clay-like 3D editorial illustration, believable adult proportions, tactile ceramic and knit surfaces, soft daylight, calm uncluttered composition. Thin cream gutters between equal panels, no outer frame. No written text, letters, numbers, captions, logos or watermarks. Educational relationships must be visually unmistakable. This is a new image, not an edit. Create exactly TWO equal side-by-side panels of the SAME adult woman with short brown hair and cream sweater. LEFT: she stands upright beside the front door, fully dressed to leave, periwinkle backpack on shoulder, shoes on, door key in hand, alert eyes, cheerful confident expression: clearly ready to go. RIGHT: same woman seated resting in a comfortable chair at home, no backpack, drooping shoulders, one hand rubbing a sleepy eye, visibly yawning, clearly tired. Keep both poses fully understandable from the waist up. These illustrate present states, not a before/after story.",
+      "sourcePath": "C:\\Users\\Патриарх\\.codex\\generated_images\\01a0c036-c402-7bf3-8f57-e761283f111f\\exec-f1df1034-5913-4a8f-a2a3-6a6d710566c0.png",
+      "path": "app/studio/assets/course-scenes/be-states-scene.png",
+      "generationMode": "built-in image_gen",
+      "createdAt": "2026-09-20",
+      "visualReview": "Reviewed generated image: intended panel count and teaching contrast visible; no embedded text."
+    },
+    {
+      "slug": "prepositions-scene",
+      "topic": "cup in / on / under a box",
+      "panels": 3,
+      "prompt": "Use case: scientific-educational. Asset type: English course teaching illustration for adults. Landscape 3:2 canvas, high quality. Warm cream background, muted periwinkle blue accents, soft matte clay-like 3D editorial illustration, believable adult proportions, tactile ceramic and knit surfaces, soft daylight, calm uncluttered composition. Thin cream gutters between equal panels, no outer frame. No written text, letters, numbers, captions, logos or watermarks. Educational relationships must be visually unmistakable. This is a new image, not an edit. Create exactly THREE equal side-by-side panels with the SAME single periwinkle cup and SAME simple tan wooden display box in each. Box is a rectangular OPEN-FRONT wooden cubby with a SOLID FLAT ROOF and solid sides; it stands on four slim tall legs with enough clearance for the cup underneath. LEFT: cup is INSIDE the cubby, resting on its inner bottom shelf, clearly surrounded by box sides and roof. CENTER: cup is ON TOP of the box's solid roof, base visibly touching roof. RIGHT: cup is UNDER the box, on the ground between its legs, clearly below the bottom shelf. Three-quarter front view; same box geometry, size and perspective in all three panels; only cup position changes. No people or other objects. Do not put the right cup inside the cubby; it must be visibly below the entire box floor. All cups upright.",
+      "sourcePath": "C:\\Users\\Патриарх\\.codex\\generated_images\\01a0c036-c402-7bf3-8f57-e761283f111f\\exec-d8fa30ed-6760-4be3-8208-03128878281f.png",
+      "path": "app/studio/assets/course-scenes/prepositions-scene.png",
+      "generationMode": "built-in image_gen",
+      "createdAt": "2026-09-20",
+      "visualReview": "Reviewed generated image: intended panel count and teaching contrast visible; no embedded text."
+    },
+    {
+      "slug": "countability-scene",
+      "topic": "one apple / three apples / water",
+      "panels": 3,
+      "prompt": "Use case: scientific-educational. Asset type: English course teaching illustration for adults. Landscape 3:2 canvas, high quality. Warm cream background, muted periwinkle blue accents, soft matte clay-like 3D editorial illustration, believable adult proportions, tactile ceramic and knit surfaces, soft daylight, calm uncluttered composition. Thin cream gutters between equal panels, no outer frame. No written text, letters, numbers, captions, logos or watermarks. Educational relationships must be visually unmistakable. This is a new image, not an edit. Create exactly THREE equal side-by-side still-life panels on the same cream tabletop. LEFT: exactly ONE red apple with a short stem, centered and isolated. CENTER: exactly THREE separate red apples, clearly spaced so each whole apple is visible and countable, not a pile. RIGHT: a clear plain glass pitcher tipped gently by one anonymous adult hand, pouring an unbroken stream of water into a clear unmarked drinking glass. The pitcher and glass contain transparent water; the continuous liquid stream is the focus. Apples should match in size across first two panels. No extra fruit, slices, ice cubes, droplets used as countable symbols, numerals or decorative objects. This supports a lesson on counting separate objects versus measuring liquid.",
+      "sourcePath": "C:\\Users\\Патриарх\\.codex\\generated_images\\01a0c036-c402-7bf3-8f57-e761283f111f\\exec-cb8524c6-c25b-4999-9d66-78fcf6b57e02.png",
+      "path": "app/studio/assets/course-scenes/countability-scene.png",
+      "generationMode": "built-in image_gen",
+      "createdAt": "2026-09-20",
+      "visualReview": "Reviewed generated image: intended panel count and teaching contrast visible; no embedded text."
+    },
+    {
+      "slug": "comparatives-scene",
+      "topic": "small / bigger / biggest plants",
+      "panels": 3,
+      "prompt": "Use case: scientific-educational. Asset type: English course teaching illustration for adults. Landscape 3:2 canvas, high quality. Warm cream background, muted periwinkle blue accents, soft matte clay-like 3D editorial illustration, believable adult proportions, tactile ceramic and knit surfaces, soft daylight, calm uncluttered composition. Thin cream gutters between equal panels, no outer frame. No written text, letters, numbers, captions, logos or watermarks. Educational relationships must be visually unmistakable. This is a new image, not an edit. Create exactly THREE equal side-by-side panels of the SAME kind of leafy indoor plant, in identical plain periwinkle cylindrical pots. Show all pots on exactly the same baseline, identical pot size and viewing distance. LEFT plant is SMALL: a short healthy plant with few leaves about one pot-height tall above rim. CENTER plant is visibly BIGGER: about two pot-heights tall above rim. RIGHT plant is the BIGGEST: about three pot-heights tall above rim. Same species, same leaf shape and hue, same background and light; physical plant height is the only meaningful difference. All leaves completely inside frame with cream breathing room above. No person, ruler, arrows, text, digits or additional plants.",
+      "sourcePath": "C:\\Users\\Патриарх\\.codex\\generated_images\\01a0c036-c402-7bf3-8f57-e761283f111f\\exec-100b9a15-00c1-4fd0-a4f2-e8991782cc22.png",
+      "path": "app/studio/assets/course-scenes/comparatives-scene.png",
+      "generationMode": "built-in image_gen",
+      "createdAt": "2026-09-20",
+      "visualReview": "Reviewed generated image: intended panel count and teaching contrast visible; no embedded text."
+    },
+    {
+      "slug": "habit-now-scene",
+      "topic": "daily reading habit / reading right now",
+      "panels": 2,
+      "prompt": "Use case: scientific-educational. Asset type: English course teaching illustration for adults. Landscape 3:2 canvas, high quality. Warm cream background, muted periwinkle blue accents, soft matte clay-like 3D editorial illustration, believable adult proportions, tactile ceramic and knit surfaces, soft daylight, calm uncluttered composition. Thin cream gutters between equal panels, no outer frame. No written text, letters, numbers, captions, logos or watermarks. Educational relationships must be visually unmistakable. This is a new image, not an edit. Create exactly TWO equal side-by-side main panels. SAME adult woman with short brown hair, periwinkle sweater, SAME book and cream chair. LEFT main panel visualizes repeated daily habit using THREE small stacked horizontal vignettes, each showing this woman reading the same book in the same chair beside a sunlit window with a small rising sun; each vignette clearly a separate repeated morning, separated by cream space. RIGHT main panel shows ONE large close view of that same woman actively reading the open book right now, finger following the page, a daylight window behind. A very simple contrast of repeated small reading scenes versus one large present scene. No clocks with digits, no calendars, no written text on book pages, no timelines. Keep adult proportions and faces friendly but not exaggerated.",
+      "sourcePath": "C:\\Users\\Патриарх\\.codex\\generated_images\\01a0c036-c402-7bf3-8f57-e761283f111f\\exec-4bdfcb0a-442a-437a-a60a-72fc18efec72.png",
+      "path": "app/studio/assets/course-scenes/habit-now-scene.png",
+      "generationMode": "built-in image_gen",
+      "createdAt": "2026-09-20",
+      "visualReview": "Reviewed generated image: intended panel count and teaching contrast visible; no embedded text."
+    },
+    {
+      "slug": "past-interrupted-scene",
+      "topic": "finished washing / washing interrupted by phone",
+      "panels": 2,
+      "prompt": "Use case: scientific-educational. Asset type: English course teaching illustration for adults. Landscape 3:2 canvas, high quality. Warm cream background, muted periwinkle blue accents, soft matte clay-like 3D editorial illustration, believable adult proportions, tactile ceramic and knit surfaces, soft daylight, calm uncluttered composition. Thin cream gutters between equal panels, no outer frame. No written text, letters, numbers, captions, logos or watermarks. Educational relationships must be visually unmistakable. This is a new image, not an edit. Create exactly TWO equal side-by-side panels in the SAME simple cream kitchen, SAME adult man with short dark hair and periwinkle sleeves. LEFT: the washing-up task is visibly FINISHED: a neat rack of clean dry plates, empty clean sink, tap OFF, man's dry hands holding a folded towel away from sink, relaxed satisfied expression. RIGHT: the man is IN THE MIDDLE of washing one plate with both hands and suds over sink, other unwashed dishes remain nearby; a smartphone on the counter is visibly ringing with small simple curved vibration marks (no text). He turns his head toward ringing phone while his foamy hands still hold the half-washed plate. The right scene communicates an ongoing action interrupted by a separate event. Do not show a second man, split times within panels, written timestamps, speech bubbles or clock faces.",
+      "sourcePath": "C:\\Users\\Патриарх\\.codex\\generated_images\\01a0c036-c402-7bf3-8f57-e761283f111f\\exec-eb643190-cd5a-45f5-b957-a254c1504547.png",
+      "path": "app/studio/assets/course-scenes/past-interrupted-scene.png",
+      "generationMode": "built-in image_gen",
+      "createdAt": "2026-09-20",
+      "visualReview": "Reviewed generated image: intended panel count and teaching contrast visible; no embedded text."
+    }
+  ]
+}

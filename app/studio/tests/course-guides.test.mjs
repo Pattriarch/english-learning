@@ -62,5 +62,5 @@ test('teaching renders escaped examples and actual illustration assets for the r
   const visual=lessonVisual({id});assert.ok(visual);
   assert.ok(existsSync(new URL('../assets/course-scenes/'+visual.file,import.meta.url)));
  }
- assert.equal(lessonVisual({id:'path-be'}),null,'the first be lesson must not show untaught articles/perfect');
+ assert.equal(lessonVisual({id:'path-be'}).en,'I am ready. I am tired.','the first be illustration must use only the taught am forms');
 });

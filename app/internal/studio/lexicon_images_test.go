@@ -179,4 +179,13 @@ func TestPublishedContextImagesPreserveExistingPhraseImagesAndFullCounts(t *test
 	if all.Metadata["fullAnalysisContexts"] != 18534 || all.Metadata["fullAnalysisEntries"] != 10987 {
 		t.Fatal("image overlay altered publication coverage")
 	}
+	var registry lexiconImageOverlay
+	raw, err = os.ReadFile(filepath.Join(s.content, "lexicon", "context-images.json"))
+	if err != nil || json.Unmarshal(raw, &registry) != nil {
+		t.Fatal("cannot read image binding registry", err)
+	}
+	stats := all.Metadata["contextImages"].(map[string]any)
+	if stats["applied"] != len(registry.Bindings) || stats["inactive"] != 0 || stats["unavailableAssets"] != 0 {
+		t.Fatalf("published context scenes must all match active meanings and original assets: %#v", stats)
+	}
 }
