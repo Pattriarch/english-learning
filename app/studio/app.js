@@ -1,4 +1,6 @@
 import {authoredExerciseID,authoredLessonState,currentAuthoredExercise} from './authored-exercise.js';
+import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
+import {lessonSequence,lessonRouteInfo} from './lesson-sequence.js';
 import {lessonGuidanceHTML,lessonPrerequisiteHTML} from './lesson-guidance.js';
 import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
@@ -67,12 +69,13 @@ function lesson(id,index){
  const e=l.exercises[n],practiceID=authoredExerciseID(e),key=l.id+':'+practiceID;let attempt=latest.get(e.id),inputMode=['speak','write'].includes(e.kind)?'writing':'translation',requestID=crypto.randomUUID();
  $('#main').innerHTML=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1 style="margin:13px 0 8px">${esc(l.title)}</h1><span class="small-note">${esc(l.units)} · ${esc(l.level)} · ${l.generated?'Создано помощником':'Авторское занятие по теме'}</span></div><a class="btn small" href="#/books">${icon('book')} Учебники</a></div>
  ${lessonPrerequisiteHTML(l,data.lessons)}
- <div class="lesson-layout ${l.materials?.length?'with-materials':''} ${l.beginner?'guided-lesson':''}">
-  ${l.beginner?'<details class="card theory-panel"><summary>Весь урок: объяснения и примеры</summary>':'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${l.beginner?'</details>':'</aside>'}
+ ${courseGuideHTML(l,n)}
+ <div class="lesson-layout ${l.materials?.length?'with-materials':''} ${(l.beginner||l.courseGuide)?'guided-lesson':''}">
+  ${(l.beginner||l.courseGuide)?`<details class="card theory-panel" ${l.materials?.length&&e.practiceStage!=='guided'?'open':''}><summary>${l.materials?.length&&e.practiceStage!=='guided'?'Материал для этого задания':'Весь урок: объяснения и примеры'}</summary>`:'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${(l.beginner||l.courseGuide)?'</details>':'</aside>'}
   <div><section class="card exercise-card">
    <div class="exercise-top"><span class="exercise-type">${e.kind==='speak'?'Скажи своими словами':e.kind==='write'?'Своя мысль':e.kind==='rewrite'?'Переформулируй':'С русского на английский'}</span><div class="steps" aria-label="Задание ${n+1} из ${l.exercises.length}">${l.exercises.map((ex,i)=>`<span class="step ${done.has(ex.id)?'done':''} ${i===n?'active':''}"></span>`).join('')}</div></div>
    ${lessonGuidanceHTML(l,e,n)}
-   ${l.beginner?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p><p class="context">${esc(e.context)}</p>
+   ${(l.beginner||l.courseGuide)?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p><p class="context">${esc(e.context)}</p>
    <div class="answer-input-header"><label for="answer" class="field-label">Твой ответ на английском</label><button type="button" id="voice" class="btn" aria-controls="answer">${icon('mic')} Надиктовать ответ</button></div>
    <textarea id="answer" class="answer-area" spellcheck="false" placeholder="Напиши свою мысль или нажми «Надиктовать ответ»…">${esc(getDraft(key,data.state)||attempt?.answer||'')}</textarea>
    <div class="answer-meta"><span id="word-count"></span><span>Черновик сохраняется автоматически</span></div>
@@ -81,6 +84,7 @@ function lesson(id,index){
    <div class="lesson-bottom"><span>Задание ${n+1} из ${l.exercises.length} <span class="kbd">Ctrl + Enter</span></span><div class="actions"><button id="prev" class="btn small ghost" ${n===0?'disabled':''}>${icon('back')}</button><button id="next" class="btn small">${n===l.exercises.length-1?'Завершить занятие':'Следующее'} ${icon('arrow')}</button></div></div>
   </section><div class="note-card"><strong>Здесь нет единственной правильной формулировки.</strong><br>${data.settings.provider==='offline'?'Сейчас доступно сравнение с примерами. Подключи помощника в настройках, чтобы получать оценку других вариантов.':'Помощник проверяет смысл, грамматику и естественность. Если ответ принят, изучи объяснение и попробуй применить конструкцию в новой ситуации.'}<br>После диктовки проверь расшифровку: разбор текста не оценивает произношение.<p class="actions"><a class="btn small" href="#/transfer/${esc(l.id)}">Применить тему в своей жизни</a><a class="btn small ghost" href="#/notebook/new/${esc(l.id)}">Моя мысль по этой теме</a></p></div></div>
  </div>`;
+ bindCourseGuide($('#main'),l);
  const showTheory=tab=>{
   stopAudio();
   $$('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
@@ -109,7 +113,7 @@ function lesson(id,index){
  },data.settings.provider==='offline'?'Сравниваем…':'Разбираем ответ…');
  target.onkeydown=ev=>{if((ev.ctrlKey||ev.metaKey)&&ev.key==='Enter'){ev.preventDefault();$('#check').click();}};
  $('#prev').onclick=()=>{stopAudio();location.hash='/lesson/'+encodeURIComponent(id)+'/'+(n-1);};
- $('#next').onclick=()=>{stopAudio();if(n<l.exercises.length-1){location.hash='/lesson/'+encodeURIComponent(id)+'/'+(n+1);}else{location.hash='/roadmap';toast('Занятие сохранено. К любому заданию можно вернуться.');}};
+ $('#next').onclick=()=>{stopAudio();if(n<l.exercises.length-1){location.hash='/lesson/'+encodeURIComponent(id)+'/'+(n+1);}else{const route=lessonSequence(data.lessons,data.learningPath).filter(r=>!r.lesson.id.startsWith('cinema-')&&lessonRouteInfo(r.lesson.id,data.studyRoute).introduction),at=route.findIndex(r=>r.lesson.id===id),next=route[at+1]?.lesson;location.hash=at>=0&&next?'/lesson/'+next.id:'/roadmap';toast('Ответы сохранены. К этому занятию можно вернуться.');}};
  bindMistakes();
 }
 async function render(){

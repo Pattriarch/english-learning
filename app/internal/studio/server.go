@@ -76,6 +76,7 @@ type LessonTransferPlan struct {
 	DelayDays   int      `json:"delayDays"`
 }
 type Lesson struct {
+	CourseGuide   *CourseGuide     `json:"courseGuide,omitempty"`
 	Beginner      bool             `json:"beginner,omitempty"`
 	Prerequisites []string         `json:"prerequisites,omitempty"`
 	ID            string           `json:"id"`
@@ -102,6 +103,7 @@ type Server struct {
 	library              json.RawMessage
 	learningPath         json.RawMessage
 	studyRoute           json.RawMessage
+	courseGuides         map[string]CourseGuide
 	cinema               json.RawMessage
 	research             json.RawMessage
 	pronunciation        json.RawMessage
@@ -227,6 +229,9 @@ func (s *Server) allLessons() []Lesson {
 			lessons = append(lessons, lesson)
 			seen[lesson.ID] = true
 		}
+	}
+	for i := range lessons {
+		lessons[i] = s.withCourseGuide(lessons[i])
 	}
 	return lessons
 }

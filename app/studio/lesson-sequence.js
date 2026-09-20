@@ -26,7 +26,15 @@ export function lessonSequence(lessons,path){
  const finalPlacement=new Map();let finalOrder=0;
  for(const section of list(path?.levels))for(const id of list(section?.finalLessonIds))if(validID(id)&&placement.get(id)?.level===section.id&&!finalPlacement.has(id))finalPlacement.set(id,finalOrder++);
  records.sort((a,b)=>(a.level?courseLevels.indexOf(a.level):6)-(b.level?courseLevels.indexOf(b.level):6)||Number(finalPlacement.has(a.lesson.id))-Number(finalPlacement.has(b.lesson.id))||(finalPlacement.has(a.lesson.id)?finalPlacement.get(a.lesson.id)-finalPlacement.get(b.lesson.id):a.order-b.order));
- return records;
+ // Stable topological order: authored placement is the tie-breaker, while a
+ // prerequisite always comes first. Malformed external cycles stay visible.
+ const ordered=[],pending=[...records],seen=new Set(),known=new Set(records.map(r=>r.lesson.id));
+ while(pending.length){
+  const at=pending.findIndex(r=>list(r.lesson.prerequisites).every(id=>!known.has(id)||seen.has(id)));
+  if(at<0){ordered.push(...pending);break;}
+  const [record]=pending.splice(at,1);ordered.push(record);seen.add(record.lesson.id);
+ }
+ return ordered;
 }
 
 // Relations must come from an explicit reviewed map. This hook only presents

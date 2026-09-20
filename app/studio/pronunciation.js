@@ -1,5 +1,6 @@
 import {$,$$,esc,icon,api,busy,toast,uid,getDraft,localDraft,queueDraft,feedbackHTML,bindMistakes} from './core.js';
 import {speak,recordOnly,stopAudio,voice} from './audio.js';
+import {decoderIntroHTML,mountIPADecoder} from './pronunciation-decoder.js';
 
 const readKey=id=>'pronunciation:'+id;
 const checklistKey=id=>readKey(id)+':checklist';
@@ -13,6 +14,7 @@ export function savedChecklist(state,id,length){
 export function pronunciationComplete(state,id){return !!state.read[readKey(id)];}
 export function mountPronunciation(root,data,id,refresh){
   const catalog=data.pronunciation,lessons=catalog?.lessons||[];
+  if(id==='ipa-decoder'){mountIPADecoder(root,data);return;}
   if(!lessons.length){root.innerHTML='<div class="empty"><h2>Курс произношения пока не загружен</h2><p>Перезапусти приложение через Start-English.cmd, чтобы загрузить новые занятия.</p></div>';return;}
   const lesson=id?lessons.find(l=>l.id===id):null;
   if(id&&!lesson){root.innerHTML='<div class="empty"><h2>Занятие не найдено</h2><a class="btn" href="#/pronunciation">Курс произношения</a></div>';return;}
@@ -22,7 +24,8 @@ export function mountPronunciation(root,data,id,refresh){
 function mountOverview(root,data,catalog){
   const lessons=catalog.lessons,completed=lessons.filter(l=>pronunciationComplete(data.state,l.id)).length,next=lessons.find(l=>!pronunciationComplete(data.state,l.id))||lessons[0];
   root.innerHTML=`<div class="page-head"><div><span class="eyebrow">ЗВУК → СЛОВО → ЖИВАЯ РЕЧЬ</span><h1>Читать. Слышать. Произносить.</h1><p>${esc(catalog.description)}</p></div></div>
-  <section class="surface sound-intro"><div><span class="eyebrow">ОТ БУКВ К ЗВУЧАНИЮ</span><h2>Понимай, как звучит слово.</h2><p>Разбери движение языка и губ, послушай слова, прочитай фразу и сравни свою запись. Затем объясни своими словами, что изменилось.</p><a class="btn primary" href="#/pronunciation/${esc(next.id)}">${completed?'Продолжить':'Начать с основ'} ${icon('arrow')}</a></div><div class="sound-progress"><strong>${completed}<span> / ${lessons.length}</span></strong><p>практик отмечено тобой</p><div class="progress-track"><span style="width:${completed/lessons.length*100}%"></span></div><small>Отметка показывает практику, а не оценку акцента.</small></div></section>
+  ${decoderIntroHTML(catalog,data.state)}
+  <section class="surface sound-intro"><div><span class="eyebrow">ОТ БУКВ К ЗВУЧАНИЮ</span><h2>Понимай, как звучит слово.</h2><p>После первых значков переходи к звукам, ударению и связной речи. Послушай слова, прочитай фразу и сравни свою запись.</p><a class="btn primary" href="#/pronunciation/${esc(next.id)}">${completed?'Продолжить занятия':'Перейти к занятиям'} ${icon('arrow')}</a></div><div class="sound-progress"><strong>${completed}<span> / ${lessons.length}</span></strong><p>практик отмечено тобой</p><div class="progress-track"><span style="width:${completed/lessons.length*100}%"></span></div><small>Отметка показывает практику, а не оценку акцента.</small></div></section>
   <div class="sound-method">${[['01','Разобраться','Звук, положение языка и частая ошибка.'],['02','Услышать','Отдельные слова и различия в парах.'],['03','Прочитать','Короткая фраза, запись и повторная попытка.'],['04','Закрепить','Самопроверка и сохранённый вывод.']].map(([n,t,p])=>`<article><span>${n}</span><h3>${t}</h3><p>${p}</p></article>`).join('')}</div>
   <div class="section-heading"><h2>Последовательный курс</h2><span class="small-note">${lessons.reduce((n,l)=>n+l.minutes,0)} минут базовой практики</span></div><div class="sound-curriculum">${lessons.map((l,i)=>`<a class="surface sound-lesson-link" href="#/pronunciation/${esc(l.id)}"><span class="sound-order">${String(i+1).padStart(2,'0')}</span><div><span class="eyebrow">${esc(l.level)} · ${l.minutes} мин</span><h3>${esc(l.title)}</h3><p>${esc(l.goal)}</p></div><span class="sound-lesson-status">${pronunciationComplete(data.state,l.id)?icon('check'):icon('arrow')}<small>${pronunciationComplete(data.state,l.id)?'Практика отмечена':latest(data.state,l.id)?'Есть разбор':''}</small></span></a>`).join('')}</div>
   <details class="surface sound-sources"><summary>Транскрипция, образцы и самостоятельная проверка</summary><p>${esc(pronunciationModelLabel(catalog))} Примеры озвучивает локальная модель Kokoro; выбранный голос показан внутри занятия. Для проверки конкретного звука доступны словарные образцы. Помощник разбирает написанное объяснение, а качество звуков и интонации ты проверяешь по записи.</p>${sourceLinks(catalog.sources)}</details>`;

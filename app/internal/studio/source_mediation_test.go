@@ -16,7 +16,13 @@ func TestSourceMediationSuppliesIndependentSourceEvidenceToEveryRevisedTask(t *t
 	if err := validateLesson(lesson); err != nil {
 		t.Fatal(err)
 	}
-	if len(lesson.Materials) != 1 || len(lesson.Exercises) != 6 {
+	var sourceExercises []Exercise
+	for _, exercise := range lesson.Exercises {
+		if !strings.HasPrefix(exercise.ID, "prepare-") {
+			sourceExercises = append(sourceExercises, exercise)
+		}
+	}
+	if len(lesson.Materials) != 1 || len(sourceExercises) != 6 {
 		t.Fatal("missing supplied source dossier or exercises")
 	}
 	material := lesson.Materials[0]
@@ -28,7 +34,7 @@ func TestSourceMediationSuppliesIndependentSourceEvidenceToEveryRevisedTask(t *t
 			t.Error("task lacks a necessary supplied provenance or limitation", fact)
 		}
 	}
-	for i, exercise := range lesson.Exercises {
+	for i, exercise := range sourceExercises {
 		if i < 3 {
 			if exercise.Revision != 0 || len(exercise.MaterialIDs) != 0 || authoredExerciseID(exercise) != exercise.ID {
 				t.Fatal("unmodified exercises were invalidated")

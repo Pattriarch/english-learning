@@ -8,8 +8,8 @@ const snapshot=()=>({version:1,day,createdAt:at,level:'B1',minutes:90,domain:'cu
 
 test('Daily planner preferences retain all six agreed domains and supported durations',()=>{
  for(const domain of ['everyday','work','travel','culture','science','society'])for(const minutes of [30,60,90,120,180])assert.deepEqual(plannerPreferences({level:'C1',minutes,domain}),{version:1,level:'C1',minutes,domain});
- assert.deepEqual(plannerPreferences({level:'C3',minutes:999,domain:'unknown'}),{version:1,level:'B1',minutes:90,domain:'everyday'});
- assert.equal(plannerPreferences(null).level,'B1');
+ assert.deepEqual(plannerPreferences({level:'C3',minutes:999,domain:'unknown'}),{version:1,level:'A1',minutes:90,domain:'everyday'});
+ assert.equal(plannerPreferences(null).level,'A1');
  assert.equal(plannerPreferences(null,120).minutes,120);assert.equal(plannerPreferences(null,110).minutes,120);assert.equal(plannerPreferences({minutes:30},120).minutes,30);
 });
 

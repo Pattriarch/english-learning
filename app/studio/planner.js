@@ -17,7 +17,7 @@ const dateLabel=(day,options)=>new Date(day+'T12:00:00').toLocaleDateString('ru-
 
 export function plannerPreferences(value,defaultMinutes=90){
  const fallback=durations.reduce((best,m)=>Math.abs(m-defaultMinutes)<Math.abs(best-defaultMinutes)?m:best,30);
- return{version:1,level:levels.includes(value?.level)?value.level:'B1',minutes:durations.includes(value?.minutes)?value.minutes:fallback,domain:Object.hasOwn(domains,value?.domain)?value.domain:'everyday'};
+ return{version:1,level:levels.includes(value?.level)?value.level:'A1',minutes:durations.includes(value?.minutes)?value.minutes:fallback,domain:Object.hasOwn(domains,value?.domain)?value.domain:'everyday'};
 }
 export function validDailyPlan(value,day){
  return value?.version===1&&value.day===day&&Number.isFinite(Date.parse(value.createdAt))&&levels.includes(value.level)&&durations.includes(value.minutes)&&Object.hasOwn(domains,value.domain)&&Array.isArray(value.blocks)&&value.blocks.length>0&&value.blocks.length<=16&&new Set(value.blocks.map(b=>b?.id)).size===value.blocks.length&&value.blocks.every(b=>typeof b?.id==='string'&&/^[a-zA-Z0-9_-]{1,120}$/.test(b.id)&&Object.hasOwn(skills,b.skill)&&[b.title,b.instruction,b.why].every(text=>typeof text==='string'&&text.trim())&&Number.isFinite(b.minutes)&&b.minutes>0&&b.minutes<=180&&typeof b.href==='string'&&/^#\/[a-zA-Z0-9/_-]+$/.test(b.href)&&b.target&&typeof b.target.kind==='string'&&Number.isFinite(b.target.count)&&b.target.count>0);
@@ -70,7 +70,7 @@ export async function mountDailyPlanner(root,data,refresh){
  data={...data,state:transferState(data)};
  mounts.get(root)?.dispose?.();const token={},route=location.hash;mounts.set(root,token);
  const current=()=>mounts.get(root)===token&&root.isConnected&&location.hash===route;
- const now=new Date(),today=dateKey(now),days=recentDays(now);let selected=today,preferences=plannerPreferences(stored('planner:preferences',data.state),Number(data.settings?.dailyMinutes)||120),editing={...preferences},refreshVersion=0,planWriteBusy=false,updateQueued=false;
+ const now=new Date(),today=dateKey(now),days=recentDays(now);let selected=today,preferences=plannerPreferences(stored('planner:preferences',data.state)||(validDailyPlan(stored(dayKey(today),data.state),today)?stored(dayKey(today),data.state):null),Number(data.settings?.dailyMinutes)||120),editing={...preferences},refreshVersion=0,planWriteBusy=false,updateQueued=false;
  root.innerHTML='<div class="planner-loading" role="status">Собираем твой день с английским…</div>';
  async function save(key,value){const text=plannerJSON(value);await queueDraft(key,text,true);data={...data,state:{...data.state,drafts:{...data.state.drafts,[key]:{text,at:new Date().toISOString()}}}};}
  async function saveConfirmed(key,value){const draft=await saveDraftConfirmed(key,plannerJSON(value));data={...data,state:{...data.state,drafts:{...data.state.drafts,[key]:draft}}};}

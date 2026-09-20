@@ -237,6 +237,9 @@ func (s *Server) loadContent() error {
 	if err = s.loadStudyRoute(); err != nil {
 		return err
 	}
+	if err = s.loadCourseGuides(); err != nil {
+		return err
+	}
 	s.topics, err = json.Marshal(topics)
 	return err
 }

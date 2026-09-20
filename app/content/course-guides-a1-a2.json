@@ -1,0 +1,4284 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "a1-voa",
+      "title": "VOA: Lesson 1 — Welcome!",
+      "url": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html",
+      "kind": "video-transcript",
+      "notes": "Прочитан официальный урок с расшифровкой знакомства. Использован принцип: имя и короткая реплика до пересказа. Примеры подготовки собственные."
+    },
+    {
+      "id": "a1-can",
+      "title": "VOA: Lesson 20 — What Can You Do?",
+      "url": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-20-what-can-you-do/3384429.html",
+      "kind": "video-transcript",
+      "notes": "Прочитан американский разговор с can/cannot и короткими уточнениями. Сверены полезные формулы, материал не скопирован."
+    },
+    {
+      "id": "a1-voicemail",
+      "title": "British Council: A voicemail message",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a1/voicemail-message",
+      "kind": "official-lesson",
+      "notes": "Прочитана расшифровка. Знакомство с ключевыми словами до аудио; имя, цифры и цель звонка извлекаются отдельно."
+    },
+    {
+      "id": "a1-reading",
+      "title": "British Council: A2 reading",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/reading/a2",
+      "kind": "official-overview",
+      "notes": "Просмотрена организация практики: подготовка, понятный источник, конкретная информация. Не источник фактов авторских вымышленных сценариев."
+    },
+    {
+      "id": "a1-invitation",
+      "title": "British Council: An invitation",
+      "url": "https://learnenglishteens.britishcouncil.org/skills/writing/a2-writing/invitation",
+      "kind": "official-lesson",
+      "notes": "Прочитан образец короткого приглашения: понятные день и цель, короткие предложения и вопрос."
+    },
+    {
+      "id": "a1-cafe",
+      "title": "British Council: Ordering in a café",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a1/ordering-cafe",
+      "kind": "official-lesson",
+      "notes": "Прочитан диалог заказа и исправления. В наших примерах американское to go; британское take away объясняется как вариант."
+    },
+    {
+      "id": "a2-apology",
+      "title": "British Council: Apologising — A2 video worksheet",
+      "url": "https://learnenglish.britishcouncil.org/sites/podcasts/files/LearnEnglish-Speaking-A2-Apologising.pdf",
+      "kind": "video-transcript",
+      "notes": "Прочитан открытый учебный PDF с формулами извинения и сценарием. Короткое признание ошибки до длинного объяснения."
+    },
+    {
+      "id": "a1-ipa",
+      "title": "Cambridge Dictionary: Phonetic symbols",
+      "url": "https://dictionary.cambridge.org/help/phonetics.html",
+      "kind": "dictionary-guide",
+      "notes": "Сверены символы, ударение и различия американских словарных записей."
+    },
+    {
+      "id": "a1-rachel",
+      "title": "Rachel’s English: How to Pronounce the Schwa",
+      "url": "https://rachelsenglish.com/english-pronounce-schwa/",
+      "kind": "video-transcript",
+      "notes": "Прочитан оригинальный авторский транскрипт о слабом гласном. Артикуляция объясняется на слове, не как русская побуквенная запись."
+    },
+    {
+      "id": "a1-ed",
+      "title": "Rachel’s English: ED endings, part 2",
+      "url": "https://rachelsenglish.com/ed-endings-2-3/",
+      "kind": "video-transcript",
+      "notes": "Прочитан оригинальный транскрипт: правило зависит от звука, реальная связная речь меняет реализацию. Подготовка начинает с ясных отдельных слов."
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "extended-a1-registration",
+      "prerequisites": [
+        "path-be",
+        "path-possession",
+        "path-questions-basic",
+        "path-requests-can"
+      ],
+      "purpose": "Записать имя и контакт без догадок: одна короткая фраза на один факт.",
+      "explanation": [
+        {
+          "title": "Сначала имя",
+          "body": "My name is Ann — меня зовут Энн. My — мой/моё, name — имя, is связывает имя с человеком. В анкете достаточно самого имени; полная фраза нужна в разговоре."
+        },
+        {
+          "title": "Если не расслышал",
+          "body": "Can you repeat that, please? — повторите, пожалуйста. Can you — можешь/можете, repeat — повторить, that — это, please — пожалуйста. Это готовая вежливая просьба. Не нужно угадывать цифру."
+        },
+        {
+          "title": "Что уже известно",
+          "body": "My phone number is … — мой номер телефона … . Если номер не прозвучал, поле остаётся пустым. Напиши I don’t know the number: «Я не знаю номер». Don’t know уже знакомо из Present simple."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My name is Ann.",
+          "ru": "Меня зовут Энн.",
+          "why": "My name — моё имя; is вводит это имя."
+        },
+        {
+          "en": "Can you repeat that, please?",
+          "ru": "Повторите это, пожалуйста.",
+          "why": "Просим повторить, вместо того чтобы додумывать."
+        },
+        {
+          "en": "I don’t know the number.",
+          "ru": "Я не знаю номер.",
+          "why": "Отрицание показывает отсутствие информации."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Меня зовут Сэм.",
+          "context": "my name — моё имя; Sam — Сэм.",
+          "answers": [
+            "My name is Sam."
+          ],
+          "hint": "my name — моё имя; Sam — Сэм.",
+          "explanation": "После my name используем is.",
+          "guidance": {
+            "title": "Сначала имя",
+            "body": "My name is Ann — меня зовут Энн. My — мой/моё, name — имя, is связывает имя с человеком. В анкете достаточно самого имени; полная фраза нужна в разговоре. my name — моё имя; Sam — Сэм.",
+            "example": "My name is Ann.",
+            "translation": "Меня зовут Энн."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Повторите это, пожалуйста.",
+          "context": "repeat — повторить; that — это; please — пожалуйста.",
+          "answers": [
+            "Can you repeat that, please?"
+          ],
+          "hint": "repeat — повторить; that — это; please — пожалуйста.",
+          "explanation": "Can you + действие — вежливая просьба.",
+          "guidance": {
+            "title": "Если не расслышал",
+            "body": "Can you repeat that, please? — повторите, пожалуйста. Can you — можешь/можете, repeat — повторить, that — это, please — пожалуйста. Это готовая вежливая просьба. Не нужно угадывать цифру. repeat — повторить; that — это; please — пожалуйста.",
+            "example": "Can you repeat that, please?",
+            "translation": "Повторите это, пожалуйста."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я не знаю номер.",
+          "context": "know — знать; number — номер; do not = don’t.",
+          "answers": [
+            "I do not know the number."
+          ],
+          "hint": "know — знать; number — номер; do not = don’t.",
+          "explanation": "Неизвестный факт лучше обозначить прямо, чем выдумать.",
+          "guidance": {
+            "title": "Что уже известно",
+            "body": "My phone number is … — мой номер телефона … . Если номер не прозвучал, поле остаётся пустым. Напиши I don’t know the number: «Я не знаю номер». Don’t know уже знакомо из Present simple. know — знать; number — номер; do not = don’t.",
+            "example": "I don’t know the number.",
+            "translation": "Я не знаю номер."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В основном сообщении ищи по одному факту: имя, адрес, телефон, день. Сначала записывай отдельные данные, затем объединяй только уже понятные фразы. Любые дополнительные примеры в теории не являются данными анкеты.",
+      "sourceIds": [
+        "a1-voa",
+        "a1-voicemail"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Послушай начало m1. Как зовут участника? Напиши имя и фамилию. Пока не нужно пересказывать сообщение. Если читаешь вместо звука, это практика чтения.",
+          "context": "name — имя; сначала найди My name is.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Kim Reed."
+          ],
+          "hint": "name — имя; сначала найди My name is.",
+          "explanation": "Ответ нужен только об имени: Kim Reed. Остальные данные будут дальше.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Послушай m1 ещё раз. Запиши только первоначальный адрес и телефон — две строки. Можно использовать цифры.",
+          "context": "address — адрес; phone — телефон.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Address: 14 Hill Street. Phone: 01632 481 715."
+          ],
+          "hint": "address — адрес; phone — телефон.",
+          "explanation": "Fourteen — 14. Номер записывается по отдельным цифрам, без догадок.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Открой m1 и m2. Заполни только поля Name, Address, Phone и Email. Неизвестное поле оставь пустым. Дату добавим позже.",
+          "context": "name — имя; address — адрес; phone — телефон; email — электронная почта.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Name: Kim Reed\nAddress: 14 Hill Street\nPhone: 01632 481 715\nEmail:"
+          ],
+          "hint": "name — имя; address — адрес; phone — телефон; email — электронная почта.",
+          "explanation": "Адрес электронной почты не сообщён. Пустое поле не означает, что у человека нет почты.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Повтори представление от лица Ким: «Меня зовут Ким Рид». Затем произнеси имя Kim по буквам. Запиши или надиктуй только эти две короткие части.",
+          "context": "my name is — меня зовут; K — /keɪ/, I — /aɪ/, M — /ɛm/.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "My name is Kim Reed. K-I-M."
+          ],
+          "hint": "my name is — меня зовут; K — /keɪ/, I — /aɪ/, M — /ɛm/.",
+          "explanation": "Здесь тренируются целое имя и названия букв. Расшифровка не оценивает точность звуков.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи одно сообщение: «Ким не может прийти 12 июня». Дату можно написать цифрами.",
+          "context": "cannot = can’t — не может; come — прийти; on June 12 — 12 июня.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Kim cannot come on June 12."
+          ],
+          "hint": "cannot = can’t — не может; come — прийти; on June 12 — 12 июня.",
+          "explanation": "Отрицание относится к конкретной дате. После cannot глагол come без to.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Ты не уверен, правильно ли услышал телефон. Попроси Ким повторить только номер. Достаточно одной вежливой фразы. m3 пока не открывай.",
+          "context": "repeat — повторить; your phone number — ваш номер телефона; please — пожалуйста.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Can you repeat your phone number, please?"
+          ],
+          "hint": "repeat — повторить; your phone number — ваш номер телефона; please — пожалуйста.",
+          "explanation": "Уточняй сомнительные данные вместо того, чтобы угадывать их.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "speak",
+          "prompt": "Открой m3. Подтверди участнику исправленный адрес и поблагодари. Скажи две короткие фразы.",
+          "context": "your address — ваш адрес; forty — 40; thank you — спасибо.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "Your address is 40 Hill Street. Thank you."
+          ],
+          "hint": "your address — ваш адрес; forty — 40; thank you — спасибо.",
+          "explanation": "В новом сообщении дом 40 заменяет прежний 14. Остальные факты менять не нужно.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь две строки после m3: “Address: 14 Hill Street. Email: Kim has no email.” Запиши актуальный адрес, а неизвестное поле оставь пустым. Потом по-русски, если хочешь, поясни одну правку.",
+          "context": "has no email — не имеет электронной почты; такого факта в сообщении нет.",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "answers": [
+            "Address: 40 Hill Street.\nEmail:"
+          ],
+          "hint": "has no email — не имеет электронной почты; такого факта в сообщении нет.",
+          "explanation": "Адрес исправлен. Отсутствие данных о почте не равно отсутствию почты. Дата визита остаётся отдельным вопросом: 19 июня только при наличии места.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a1-notices",
+      "prerequisites": [
+        "path-instructions",
+        "path-there-is",
+        "path-place-time"
+      ],
+      "purpose": "Прочитать короткое правило и понять, какое действие от тебя требуется.",
+      "explanation": [
+        {
+          "title": "Правило — это действие",
+          "body": "Use the main entrance — пользуйтесь главным входом. Use — использовать, main — главный, entrance — вход. В инструкции действие стоит первым, без you."
+        },
+        {
+          "title": "Можно и нельзя",
+          "body": "You can take a small bag — можно взять маленькую сумку. Can показывает разрешение. No large bags — большие сумки нельзя: в коротком объявлении целое предложение часто сокращено."
+        },
+        {
+          "title": "Время без лишних слов",
+          "body": "The class starts at ten — занятие начинается в десять. Class — занятие, starts — начинается, at ten — в десять. Проверяй, относится ли время к нужному дню."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Use the main entrance.",
+          "ru": "Пользуйтесь главным входом.",
+          "why": "Use — действие, the main entrance — конкретный главный вход."
+        },
+        {
+          "en": "You can take a small bag.",
+          "ru": "Можно взять маленькую сумку.",
+          "why": "Can + take без to."
+        },
+        {
+          "en": "The class starts at ten.",
+          "ru": "Занятие начинается в десять.",
+          "why": "У class одно занятие, поэтому starts с s."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Пользуйтесь главным входом.",
+          "context": "use — пользоваться; the main entrance — главный вход.",
+          "answers": [
+            "Use the main entrance."
+          ],
+          "hint": "use — пользоваться; the main entrance — главный вход.",
+          "explanation": "Инструкция начинается с глагола use.",
+          "guidance": {
+            "title": "Правило — это действие",
+            "body": "Use the main entrance — пользуйтесь главным входом. Use — использовать, main — главный, entrance — вход. В инструкции действие стоит первым, без you. use — пользоваться; the main entrance — главный вход.",
+            "example": "Use the main entrance.",
+            "translation": "Пользуйтесь главным входом."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Можно взять маленькую сумку.",
+          "context": "take — взять; small — маленький; bag — сумка.",
+          "answers": [
+            "You can take a small bag."
+          ],
+          "hint": "take — взять; small — маленький; bag — сумка.",
+          "explanation": "После can не добавляем to.",
+          "guidance": {
+            "title": "Можно и нельзя",
+            "body": "You can take a small bag — можно взять маленькую сумку. Can показывает разрешение. No large bags — большие сумки нельзя: в коротком объявлении целое предложение часто сокращено. take — взять; small — маленький; bag — сумка.",
+            "example": "You can take a small bag.",
+            "translation": "Можно взять маленькую сумку."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Занятие начинается в девять.",
+          "context": "class — занятие; start — начинаться; nine — девять.",
+          "answers": [
+            "The class starts at nine."
+          ],
+          "hint": "class — занятие; start — начинаться; nine — девять.",
+          "explanation": "Для одного занятия starts, перед точным часом at.",
+          "guidance": {
+            "title": "Время без лишних слов",
+            "body": "The class starts at ten — занятие начинается в десять. Class — занятие, starts — начинается, at ten — в десять. Проверяй, относится ли время к нужному дню. class — занятие; start — начинаться; nine — девять.",
+            "example": "The class starts at ten.",
+            "translation": "Занятие начинается в десять."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала найди действие в каждом объявлении, затем место и время. Для своего объяснения используй отдельные короткие предложения: сначала вход, затем сумка, затем занятие.",
+      "sourceIds": [
+        "a1-reading"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай блок ENTRANCE в m1. Напиши посетителю одну инструкцию: каким входом пользоваться.",
+          "context": "use — пользоваться; main entrance — главный вход; please — пожалуйста.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Please use the main entrance."
+          ],
+          "hint": "use — пользоваться; main entrance — главный вход; please — пожалуйста.",
+          "explanation": "Действие use стоит первым после please.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Прочитай m2. Где комната для сумок? Ответь одним предложением.",
+          "context": "bag room — комната для сумок; opposite — напротив; reception — стойка администратора.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "The bag room is opposite reception."
+          ],
+          "hint": "bag room — комната для сумок; opposite — напротив; reception — стойка администратора.",
+          "explanation": "Opposite означает напротив, не рядом.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "В m3 посетитель пришёл в среду. Напиши, во сколько сегодня начинается английский. Одно предложение.",
+          "context": "starts — начинается; at eleven — в одиннадцать; today — сегодня.",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "answers": [
+            "English starts at eleven today."
+          ],
+          "hint": "starts — начинается; at eleven — в одиннадцать; today — сегодня.",
+          "explanation": "В среду действует исключение: 11:00 вместо обычных 10:00.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Переведи две простые инструкции: «Подойдите к стойке администратора. Оставьте сумку в комнате для сумок».",
+          "context": "go to — подойдите к; leave — оставьте; your bag — вашу сумку; in — в.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Go to reception. Leave your bag in the bag room."
+          ],
+          "hint": "go to — подойдите к; leave — оставьте; your bag — вашу сумку; in — в.",
+          "explanation": "У каждой инструкции своё действие. Длинное объединённое предложение не требуется.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи: «Кабинет 2 рядом с кафе».",
+          "context": "room — кабинет; next to — рядом с; café — кафе.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "Room 2 is next to the café."
+          ],
+          "hint": "room — кабинет; next to — рядом с; café — кафе.",
+          "explanation": "Is связывает комнату и её положение.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Напиши посетителю из m3 записку из трёх коротких предложений: где сумка, какой кабинет, во сколько начало в среду.",
+          "context": "leave your bag — оставьте сумку; go to — идите в; starts at — начинается в.",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3"
+          ],
+          "answers": [
+            "Leave your bag in the bag room. Go to Room 2. English starts at eleven."
+          ],
+          "hint": "leave your bag — оставьте сумку; go to — идите в; starts at — начинается в.",
+          "explanation": "Три отдельные мысли: действие с сумкой, кабинет и время.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "speak",
+          "prompt": "Произнеси две подсказки человеку у входа: «Подойдите к стойке администратора. Кабинет 2 рядом с кафе». Запиши или надиктуй их; минимального времени нет.",
+          "context": "go to reception — подойдите к администратору; next to — рядом.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Go to reception. Room 2 is next to the café."
+          ],
+          "hint": "go to reception — подойдите к администратору; next to — рядом.",
+          "explanation": "Короткие инструкции легче произнести и понять. Если посетитель просит записку, дай эти же слова письменно.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Новый посетитель приходит в четверг с маленькой сумкой. Исправь две ошибки: “You cannot take a small bag. English starts at eleven on Thursday.”",
+          "context": "small bag — маленькая сумка; Thursday — четверг; can — можно.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "You can take a small bag. English starts at ten on Thursday."
+          ],
+          "hint": "small bag — маленькая сумка; Thursday — четверг; can — можно.",
+          "explanation": "Маленькие сумки разрешены. В четверг действует обычное начало в десять; одиннадцать относится только к среде.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a1-chat",
+      "prerequisites": [
+        "path-requests-can",
+        "path-place-time",
+        "path-questions-basic"
+      ],
+      "purpose": "Ответить другу: согласиться, уточнить время и подтвердить встречу.",
+      "explanation": [
+        {
+          "title": "Короткое согласие",
+          "body": "I can come — я могу прийти. I — я, can — могу, come — прийти. Этого достаточно для первого ответа. Не надо сразу описывать все планы на неделю."
+        },
+        {
+          "title": "Одна точная просьба",
+          "body": "What time? — во сколько? Полный вопрос What time can we meet? — во сколько мы можем встретиться? We — мы, meet — встретиться. Здесь can уже знакомо."
+        },
+        {
+          "title": "Подтверждение",
+          "body": "See you at three — увидимся в три. See you — готовая разговорная формула прощания перед встречей. В дружеском чате это нормально. Если время поменялось, повтори новое время."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I can come on Friday.",
+          "ru": "Я могу прийти в пятницу.",
+          "why": "On Friday — в пятницу; come не меняется после can."
+        },
+        {
+          "en": "What time can we meet?",
+          "ru": "Во сколько мы можем встретиться?",
+          "why": "What time спрашивает именно время."
+        },
+        {
+          "en": "See you at three.",
+          "ru": "Увидимся в три.",
+          "why": "At three подтверждает время встречи."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я могу прийти в субботу.",
+          "context": "come — прийти; Saturday — суббота; on — перед днём.",
+          "answers": [
+            "I can come on Saturday."
+          ],
+          "hint": "come — прийти; Saturday — суббота; on — перед днём.",
+          "explanation": "I can come, затем день.",
+          "guidance": {
+            "title": "Короткое согласие",
+            "body": "I can come — я могу прийти. I — я, can — могу, come — прийти. Этого достаточно для первого ответа. Не надо сразу описывать все планы на неделю. come — прийти; Saturday — суббота; on — перед днём.",
+            "example": "I can come on Friday.",
+            "translation": "Я могу прийти в пятницу."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Во сколько мы можем встретиться?",
+          "context": "what time — во сколько; we — мы; meet — встретиться.",
+          "answers": [
+            "What time can we meet?"
+          ],
+          "hint": "what time — во сколько; we — мы; meet — встретиться.",
+          "explanation": "Вопрос what time, затем can we.",
+          "guidance": {
+            "title": "Одна точная просьба",
+            "body": "What time? — во сколько? Полный вопрос What time can we meet? — во сколько мы можем встретиться? We — мы, meet — встретиться. Здесь can уже знакомо. what time — во сколько; we — мы; meet — встретиться.",
+            "example": "What time can we meet?",
+            "translation": "Во сколько мы можем встретиться?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Увидимся в четыре.",
+          "context": "see you — увидимся; four — четыре.",
+          "answers": [
+            "See you at four."
+          ],
+          "hint": "see you — увидимся; four — четыре.",
+          "explanation": "Для часа используем at.",
+          "guidance": {
+            "title": "Подтверждение",
+            "body": "See you at three — увидимся в три. See you — готовая разговорная формула прощания перед встречей. В дружеском чате это нормально. Если время поменялось, повтори новое время. see you — увидимся; four — четыре.",
+            "example": "See you at three.",
+            "translation": "Увидимся в три."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Отдели слова собеседника от своего ответа. Сначала реши: могу прийти или нет; затем задай один вопрос; после обновления повтори новое время. Рассуждение о чате не должно подменять сам ответ другу.",
+      "sourceIds": [
+        "a1-invitation"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай m1. В какой день Alex приглашает на выставку? Напиши только день по-английски.",
+          "context": "Saturday — суббота; выставка — exhibition.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Saturday."
+          ],
+          "hint": "Saturday — суббота; выставка — exhibition.",
+          "explanation": "Сначала извлекаем один конкретный факт, не анализируем устройство чата.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Отдельная репетиция: переведи «Привет, Нина! Я могу прийти в воскресенье».",
+          "context": "hi — привет; can come — могу прийти; Sunday — воскресенье.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "Hi, Nina! I can come on Sunday."
+          ],
+          "hint": "hi — привет; can come — могу прийти; Sunday — воскресенье.",
+          "explanation": "Дружеское приветствие и короткое согласие.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Ответь Alex вслух: ты можешь прийти в субботу в три. Достаточно двух коротких фраз. m3 пока не открывай.",
+          "context": "on Saturday — в субботу; at three — в три; come — прийти.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Hi, Alex! I can come on Saturday at three."
+          ],
+          "hint": "on Saturday — в субботу; at three — в три; come — прийти.",
+          "explanation": "Называем день и своё время. Это предложение, а не уже подтверждённая встреча.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Открой m3. Напиши адрес выставки одной строкой.",
+          "context": "eighteen — 18; street — улица.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "18 King Street."
+          ],
+          "hint": "eighteen — 18; street — улица.",
+          "explanation": "На этом шаге известен адрес King Street. Новое сообщение прочитаем дальше.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "speak",
+          "prompt": "Проверь своё предложение о времени. Скажи Alex: «Три часа тебе подходит?» Одной реплики достаточно.",
+          "context": "good for you — тебе подходит; three — три.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "Is three good for you?"
+          ],
+          "hint": "good for you — тебе подходит; three — три.",
+          "explanation": "Проверяем удобство времени, не приписываем Alex согласие.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Открой m4. Где теперь вход? Ответь одной фразой и сохрани новый адрес.",
+          "context": "entrance — вход; now — теперь; at — по адресу.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "The entrance is at 6 Park Road now."
+          ],
+          "hint": "entrance — вход; now — теперь; at — по адресу.",
+          "explanation": "Новый вход на Park Road заменяет King Street.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "write",
+          "prompt": "Напиши Alex короткий итог: предложи встретиться у нового входа и спроси, подходит ли три часа. Два предложения.",
+          "context": "let’s meet — давай встретимся; is three good for you? — три тебе подходит?",
+          "materialIds": [
+            "m3",
+            "m4"
+          ],
+          "answers": [
+            "Let’s meet at 6 Park Road. Is three good for you?"
+          ],
+          "hint": "let’s meet — давай встретимся; is three good for you? — три тебе подходит?",
+          "explanation": "Адрес уже известен, время ещё требует подтверждения.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь сообщение: “Hi, Alex! Let’s meet at 18 King Street. We do not need tickets.” Напиши новый адрес и честно скажи, что про билеты пока неизвестно. Объяснять правки по-английски не нужно.",
+          "context": "I don’t know — я не знаю; about tickets — про билеты; yet — пока.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "Hi, Alex! Let’s meet at 6 Park Road. I don’t know about tickets yet."
+          ],
+          "hint": "I don’t know — я не знаю; about tickets — про билеты; yet — пока.",
+          "explanation": "Исправлены адрес и неподтверждённое утверждение о билетах.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a1-order",
+      "prerequisites": [
+        "path-articles-basic",
+        "path-countability",
+        "path-requests-can"
+      ],
+      "purpose": "Заказать одну вещь, добавить вторую и спокойно исправить недоразумение.",
+      "explanation": [
+        {
+          "title": "Готовая рамка заказа",
+          "body": "Can I have a tea, please? — можно мне чай, пожалуйста? В кафе a tea значит одну порцию чая. Не нужно сначала разбирать все значения have: здесь это часть вежливого заказа."
+        },
+        {
+          "title": "Два предмета",
+          "body": "A tea and a sandwich — чай и сэндвич. And — и, соединяет позиции заказа. A перед каждым словом показывает одну порцию или один предмет."
+        },
+        {
+          "title": "Исправить коротко",
+          "body": "Tea, not coffee — чай, не кофе. Not отделяет нужную вещь от ошибочной. Sorry — извините: добавь это слово, чтобы исправление звучало мягче."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can I have a tea, please?",
+          "ru": "Можно мне чай, пожалуйста?",
+          "why": "A tea — одна порция в ситуации заказа."
+        },
+        {
+          "en": "A tea and a sandwich, please.",
+          "ru": "Чай и сэндвич, пожалуйста.",
+          "why": "And соединяет две позиции."
+        },
+        {
+          "en": "Sorry, tea, not coffee.",
+          "ru": "Извините, чай, не кофе.",
+          "why": "Названы правильная и ошибочная позиции."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Можно мне кофе, пожалуйста?",
+          "context": "a coffee — одна порция кофе; please — пожалуйста.",
+          "answers": [
+            "Can I have a coffee, please?"
+          ],
+          "hint": "a coffee — одна порция кофе; please — пожалуйста.",
+          "explanation": "Вежливая рамка остаётся, меняется напиток.",
+          "guidance": {
+            "title": "Готовая рамка заказа",
+            "body": "Can I have a tea, please? — можно мне чай, пожалуйста? В кафе a tea значит одну порцию чая. Не нужно сначала разбирать все значения have: здесь это часть вежливого заказа. a coffee — одна порция кофе; please — пожалуйста.",
+            "example": "Can I have a tea, please?",
+            "translation": "Можно мне чай, пожалуйста?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Чай и сэндвич, пожалуйста.",
+          "context": "tea — чай; sandwich — сэндвич; and — и.",
+          "answers": [
+            "A tea and a sandwich, please."
+          ],
+          "hint": "tea — чай; sandwich — сэндвич; and — и.",
+          "explanation": "В кафе короткий заказ естественен.",
+          "guidance": {
+            "title": "Два предмета",
+            "body": "A tea and a sandwich — чай и сэндвич. And — и, соединяет позиции заказа. A перед каждым словом показывает одну порцию или один предмет. tea — чай; sandwich — сэндвич; and — и.",
+            "example": "A tea and a sandwich, please.",
+            "translation": "Чай и сэндвич, пожалуйста."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Извините, чай, не кофе.",
+          "context": "sorry — извините; not — не.",
+          "answers": [
+            "Sorry, tea, not coffee."
+          ],
+          "hint": "sorry — извините; not — не.",
+          "explanation": "Понятно, какой напиток нужно заменить.",
+          "guidance": {
+            "title": "Исправить коротко",
+            "body": "Tea, not coffee — чай, не кофе. Not отделяет нужную вещь от ошибочной. Sorry — извините: добавь это слово, чтобы исправление звучало мягче. sorry — извините; not — не.",
+            "example": "Sorry, tea, not coffee.",
+            "translation": "Извините, чай, не кофе."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В большом диалоге сначала выбери две позиции. Затем отдельно ответь на вопрос о размере и месте. To go — с собой, for here — здесь: так часто спрашивают в американском кафе.",
+      "sourceIds": [
+        "a1-cafe"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай свою роль в m1. Напиши, какие два предмета ты хочешь заказать. Одной короткой фразы достаточно; размеры пока не выбирай.",
+          "context": "cheese sandwich — сэндвич с сыром; tea — чай; and — и.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "A cheese sandwich and a tea, please."
+          ],
+          "hint": "cheese sandwich — сэндвич с сыром; tea — чай; and — и.",
+          "explanation": "Заказ состоит из двух позиций.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Переведи: «Можно мне маленький сэндвич с сыром, пожалуйста?»",
+          "context": "small — маленький; cheese sandwich — сэндвич с сыром.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "Can I have a small cheese sandwich, please?"
+          ],
+          "hint": "small — маленький; cheese sandwich — сэндвич с сыром.",
+          "explanation": "Одна вежливая рамка заказа, один предмет.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Ответь официанту вслух: закажи чай и сэндвич, затем скажи, что ешь здесь. Размеры пока не важны.",
+          "context": "for here — здесь, не с собой; please — пожалуйста.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "A tea and a cheese sandwich, please. For here."
+          ],
+          "hint": "for here — здесь, не с собой; please — пожалуйста.",
+          "explanation": "В американском кафе For here — обычный короткий ответ.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Прочитай m3. Большого сэндвича нет. Напиши, что маленький тебе подходит.",
+          "context": "small — маленький; is OK — подходит.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "A small sandwich is OK."
+          ],
+          "hint": "small — маленький; is OK — подходит.",
+          "explanation": "Принимаем доступный вариант, не заказываем отсутствующий большой.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "speak",
+          "prompt": "Ответь после m3: тебе нужен большой чай без молока. Скажи одну вежливую реплику.",
+          "context": "large — большой; without milk — без молока.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "A large tea without milk, please."
+          ],
+          "hint": "large — большой; without milk — без молока.",
+          "explanation": "Названы размер напитка и пожелание о молоке.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Открой m4. Принесли кофе вместо чая. Спокойно назови ошибку и попроси чай — две короткие фразы.",
+          "context": "this is — это; coffee — кофе; can I have — можно мне.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "This is coffee. Can I have tea, please?"
+          ],
+          "hint": "this is — это; coffee — кофе; can I have — можно мне.",
+          "explanation": "Мы просим исправить заказ, но ещё не утверждаем, что он исправлен.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "write",
+          "prompt": "Посмотри цены m2: маленький сэндвич и большой чай. Спроси кассира, семь ли фунтов получается всего. Одно предложение.",
+          "context": "seven pounds — семь фунтов; is it …? — это …?",
+          "materialIds": [
+            "m2",
+            "m4"
+          ],
+          "answers": [
+            "Is it seven pounds?"
+          ],
+          "hint": "seven pounds — семь фунтов; is it …? — это …?",
+          "explanation": "4 за маленький сэндвич + 3 за большой чай = 7. Кассира просим проверить сумму.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь итог: “A small cheese sandwich and a large coffee. Eight pounds is correct.” Напиши нужные позиции и вопрос о правильной сумме.",
+          "context": "small — маленький; large — большой; seven pounds — семь фунтов.",
+          "materialIds": [
+            "m2",
+            "m4"
+          ],
+          "answers": [
+            "A small cheese sandwich and a large tea. Is it seven pounds?"
+          ],
+          "hint": "small — маленький; large — большой; seven pounds — семь фунтов.",
+          "explanation": "Возвращаем чай вместо кофе и проверяем сумму, не объявляя исправление завершённым.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a1-day",
+      "prerequisites": [
+        "path-present-simple",
+        "path-place-time",
+        "path-adjectives-frequency"
+      ],
+      "purpose": "Рассказать о знакомом распорядке по одному действию за раз.",
+      "explanation": [
+        {
+          "title": "Кто делает",
+          "body": "I start work — я начинаю работу. She starts work — она начинает работу. С she у действия появляется s. Start work — начать рабочий день, не обязательно запускать отдельную задачу."
+        },
+        {
+          "title": "Когда",
+          "body": "At eight — в восемь. I start work at eight. Для привычного действия достаточно Present simple: не нужно добавлять am перед start."
+        },
+        {
+          "title": "Не всегда и не каждый день",
+          "body": "Usually — обычно, always — всегда. I usually walk — я обычно хожу пешком. She doesn’t work on Sunday — она не работает в воскресенье: после doesn’t форма work без s."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I start work at eight.",
+          "ru": "Я начинаю работу в восемь.",
+          "why": "I + start + work + время."
+        },
+        {
+          "en": "She starts work at nine.",
+          "ru": "Она начинает работу в девять.",
+          "why": "С she у starts появляется s."
+        },
+        {
+          "en": "She doesn’t work on Sunday.",
+          "ru": "Она не работает в воскресенье.",
+          "why": "Doesn’t уже показывает форму, поэтому work без s."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я начинаю работу в девять.",
+          "context": "start work — начинать работу; at nine — в девять.",
+          "answers": [
+            "I start work at nine."
+          ],
+          "hint": "start work — начинать работу; at nine — в девять.",
+          "explanation": "Привычный распорядок: I start.",
+          "guidance": {
+            "title": "Кто делает",
+            "body": "I start work — я начинаю работу. She starts work — она начинает работу. С she у действия появляется s. Start work — начать рабочий день, не обязательно запускать отдельную задачу. start work — начинать работу; at nine — в девять.",
+            "example": "I start work at eight.",
+            "translation": "Я начинаю работу в восемь."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Она начинает работу в восемь.",
+          "context": "she — она; eight — восемь.",
+          "answers": [
+            "She starts work at eight."
+          ],
+          "hint": "she — она; eight — восемь.",
+          "explanation": "После she добавляем s к start.",
+          "guidance": {
+            "title": "Когда",
+            "body": "At eight — в восемь. I start work at eight. Для привычного действия достаточно Present simple: не нужно добавлять am перед start. she — она; eight — восемь.",
+            "example": "She starts work at nine.",
+            "translation": "Она начинает работу в девять."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Она не работает в воскресенье.",
+          "context": "does not = doesn’t; Sunday — воскресенье.",
+          "answers": [
+            "She does not work on Sunday."
+          ],
+          "hint": "does not = doesn’t; Sunday — воскресенье.",
+          "explanation": "После does not не добавляем s к work.",
+          "guidance": {
+            "title": "Не всегда и не каждый день",
+            "body": "Usually — обычно, always — всегда. I usually walk — я обычно хожу пешком. She doesn’t work on Sunday — она не работает в воскресенье: после doesn’t форма work без s. does not = doesn’t; Sunday — воскресенье.",
+            "example": "She doesn’t work on Sunday.",
+            "translation": "Она не работает в воскресенье."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Слушай отдельно: кто, что делает, во сколько. Запиши шесть коротких событий, а не пересказ всего материала сразу. Сравнивая себя с Леей, явно меняй I на she.",
+      "sourceIds": [
+        "a1-voa",
+        "a1-can"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Послушай начало m1. Как зовут участницу? Напиши только имя. Не нужно пересказывать весь её день. Если читаешь текст, это практика чтения.",
+          "context": "name — имя; I’m — я, меня зовут.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Lea."
+          ],
+          "hint": "name — имя; I’m — я, меня зовут.",
+          "explanation": "Сначала одна задача на слух: распознать имя.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Послушай m1 ещё раз. Напиши два предложения: во сколько Лея начинает и заканчивает работу.",
+          "context": "start work — начинать работу; finish — заканчивать; nine — девять; five — пять.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "She starts work at nine. She finishes at five."
+          ],
+          "hint": "start work — начинать работу; finish — заканчивать; nine — девять; five — пять.",
+          "explanation": "С she оба глагола получают окончание: starts и finishes.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Открой m1 и m2. Ты Alex. Сравни начало работы: когда начинает Лея и когда ты. Два коротких предложения.",
+          "context": "nine — девять; ten — десять.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Lea starts work at nine. I start work at ten."
+          ],
+          "hint": "nine — девять; ten — десять.",
+          "explanation": "С Lea форма starts, с I форма start.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Скажи Лее от лица Alex: «Я заканчиваю работу в шесть. Я свободен в восемь». Надиктуй или запиши две фразы.",
+          "context": "finish work — заканчивать работу; free — свободен; six — шесть; eight — восемь.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "I finish work at six. I am free at eight."
+          ],
+          "hint": "finish work — заканчивать работу; free — свободен; six — шесть; eight — восемь.",
+          "explanation": "Действие I finish; состояние I am free. Не добавляй am перед finish.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи: «Лея не работает вечером». Пока не открывай m3: это её обычный распорядок из m1.",
+          "context": "does not = doesn’t; in the evening — вечером.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Lea does not work in the evening."
+          ],
+          "hint": "does not = doesn’t; in the evening — вечером.",
+          "explanation": "После does not форма work без s.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Напиши Лее короткое предложение: ты свободен в восемь, можешь ли ты позаниматься с ней в это время? Две фразы.",
+          "context": "practice English — заниматься английским; can we — можем мы.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "I am free at eight. Can we practice English at eight?"
+          ],
+          "hint": "practice English — заниматься английским; can we — можем мы.",
+          "explanation": "Сначала своё свободное время, затем вопрос — договорённость ещё не подтверждена.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "speak",
+          "prompt": "Открой m3. В среду Лея свободна с 8:30 до 9. Подтверди ей эти полчаса. Одной-двух фраз достаточно.",
+          "context": "Wednesday — среда; from eight thirty to nine — с 8:30 до 9.",
+          "materialIds": [
+            "m2",
+            "m3"
+          ],
+          "answers": [
+            "Wednesday is OK. We can practice from eight thirty to nine."
+          ],
+          "hint": "Wednesday — среда; from eight thirty to nine — с 8:30 до 9.",
+          "explanation": "Новое уточнение заменяет прежнее предложение на восемь.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь две ошибки: “On Wednesday, we can practice from eight to eight thirty. The place is the club.” Назови подходящее время и скажи, что место неизвестно.",
+          "context": "from … to … — с … до …; place — место.",
+          "materialIds": [
+            "m2",
+            "m3"
+          ],
+          "answers": [
+            "We can practice from eight thirty to nine. I don’t know the place."
+          ],
+          "hint": "from … to … — с … до …; place — место.",
+          "explanation": "Время из m3 подходит обоим. Клуб как место встречи не подтверждён.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-options",
+      "prerequisites": [
+        "path-comparatives",
+        "path-requests-can",
+        "path-connectors-basic"
+      ],
+      "purpose": "Выбрать из двух вариантов и объяснить одну причину.",
+      "explanation": [
+        {
+          "title": "Сравнение — одно отличие",
+          "body": "This trip is cheaper — эта поездка дешевле. Cheap — дешёвый, cheaper — дешевле. Than the other trip добавляет: чем другая поездка."
+        },
+        {
+          "title": "Цена не равна удобству",
+          "body": "Cheaper сообщает о цене; shorter — о длительности. Не превращай низкую цену в вывод, что поездка удобнее во всём. Сначала назови конкретное отличие."
+        },
+        {
+          "title": "Связать с собой",
+          "body": "I prefer this trip because it is shorter — я предпочитаю эту поездку, потому что она короче. Prefer — предпочитать, because — потому что. Причина должна относиться к твоему условию."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This trip is cheaper.",
+          "ru": "Эта поездка дешевле.",
+          "why": "Сравниваем только цену."
+        },
+        {
+          "en": "The bus ride is shorter.",
+          "ru": "Поездка на автобусе короче.",
+          "why": "Bus ride — поездка на автобусе, shorter — короче."
+        },
+        {
+          "en": "I prefer this trip because it is cheaper.",
+          "ru": "Я предпочитаю эту поездку, потому что она дешевле.",
+          "why": "Because соединяет выбор и причину."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Эта поездка короче.",
+          "context": "trip — поездка; short → shorter — короче.",
+          "answers": [
+            "This trip is shorter."
+          ],
+          "hint": "trip — поездка; short → shorter — короче.",
+          "explanation": "Is связывает поездку с её свойством.",
+          "guidance": {
+            "title": "Сравнение — одно отличие",
+            "body": "This trip is cheaper — эта поездка дешевле. Cheap — дешёвый, cheaper — дешевле. Than the other trip добавляет: чем другая поездка. trip — поездка; short → shorter — короче.",
+            "example": "This trip is cheaper.",
+            "translation": "Эта поездка дешевле."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Поездка на автобусе дешевле.",
+          "context": "bus ride — поездка на автобусе; cheaper — дешевле.",
+          "answers": [
+            "The bus ride is cheaper."
+          ],
+          "hint": "bus ride — поездка на автобусе; cheaper — дешевле.",
+          "explanation": "Названо конкретное сравнение цены.",
+          "guidance": {
+            "title": "Цена не равна удобству",
+            "body": "Cheaper сообщает о цене; shorter — о длительности. Не превращай низкую цену в вывод, что поездка удобнее во всём. Сначала назови конкретное отличие. bus ride — поездка на автобусе; cheaper — дешевле.",
+            "example": "The bus ride is shorter.",
+            "translation": "Поездка на автобусе короче."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я предпочитаю эту поездку, потому что она дешевле.",
+          "context": "prefer — предпочитать; because — потому что; it — она, поездка.",
+          "answers": [
+            "I prefer this trip because it is cheaper."
+          ],
+          "hint": "prefer — предпочитать; because — потому что; it — она, поездка.",
+          "explanation": "Выбор получает одну ясную причину.",
+          "guidance": {
+            "title": "Связать с собой",
+            "body": "I prefer this trip because it is shorter — я предпочитаю эту поездку, потому что она короче. Prefer — предпочитать, because — потому что. Причина должна относиться к твоему условию. prefer — предпочитать; because — потому что; it — она, поездка.",
+            "example": "I prefer this trip because it is cheaper.",
+            "translation": "Я предпочитаю эту поездку, потому что она дешевле."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Перед основным ответом выпиши цену, длительность и ограничения каждого варианта. Если новая информация меняет выбор, напиши коротко: Now I prefer … because … . Не дополняй объявления вымышленными удобствами.",
+      "sourceIds": [
+        "a1-reading"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай m1. Сколько стоит River Village и во сколько поездка возвращается? Напиши два коротких предложения.",
+          "context": "costs — стоит; returns — возвращается; nineteen — 19; six thirty — 6:30 вечера.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "River Village costs nineteen pounds. It returns at six thirty."
+          ],
+          "hint": "costs — стоит; returns — возвращается; nineteen — 19; six thirty — 6:30 вечера.",
+          "explanation": "На первом шаге нужны только цена и возвращение одного варианта.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Прочитай m2. Друзьям нужно вернуться до шести. Подходит ли River Village? Напиши короткий ответ и одну причину.",
+          "context": "too late — слишком поздно; return — возвращаться.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "No. River Village returns too late."
+          ],
+          "hint": "too late — слишком поздно; return — возвращаться.",
+          "explanation": "River Village возвращается в 6:30 вечера, позже предельных 6:00.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Открой m3. Нина может прибыть не раньше 9:30. Назови подходящую поездку и её время отправления в воскресенье. Два предложения.",
+          "context": "works — подходит, срабатывает; leaves — отправляется; nine forty-five — 9:45.",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "answers": [
+            "Green Hill Park works. It leaves at nine forty-five on Sunday."
+          ],
+          "hint": "works — подходит, срабатывает; leaves — отправляется; nine forty-five — 9:45.",
+          "explanation": "У Green Hill Park в воскресенье отправление в 9:45, поэтому Нина успевает.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Сравни только цену двух поездок: City Art House и Green Hill Park. Напиши, какая дешевле другой, с cheaper than.",
+          "context": "cheaper than — дешевле, чем; цены: 24 и 27 фунтов.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "City Art House is cheaper than Green Hill Park."
+          ],
+          "hint": "cheaper than — дешевле, чем; цены: 24 и 27 фунтов.",
+          "explanation": "С cheaper не нужно more. Сравнение относится к цене, не ко всем условиям.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи сообщение другу: «Давай выберем Green Hill Park. Возьми обед из дома».",
+          "context": "let’s choose — давай выберем; bring — принеси, возьми с собой; lunch — обед; from home — из дома.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Let’s choose Green Hill Park. Bring lunch from home."
+          ],
+          "hint": "let’s choose — давай выберем; bring — принеси, возьми с собой; lunch — обед; from home — из дома.",
+          "explanation": "План и одно нужное действие. Обед не входит в билет.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Напиши друзьям итог из трёх-четырёх коротких предложений: поездка, цена, отправление и возвращение в воскресенье. Сравнивать все три предложения заново не нужно.",
+          "context": "twenty-seven — 27; five thirty — 5:30 вечера; leaves — отправляется; returns — возвращается.",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3"
+          ],
+          "answers": [
+            "Let’s choose Green Hill Park. It costs twenty-seven pounds. It leaves at nine forty-five on Sunday. It returns at five thirty."
+          ],
+          "hint": "twenty-seven — 27; five thirty — 5:30 вечера; leaves — отправляется; returns — возвращается.",
+          "explanation": "План укладывается в бюджет и оба ограничения по времени.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "speak",
+          "prompt": "Скажи новому участнику две важные вещи: нужно взять обед, деньги за билеты в парк не возвращаются. Одной-двух фраз достаточно; минимального времени нет.",
+          "context": "bring lunch — возьми обед; refund — возврат денег; there are no refunds — деньги не возвращаются.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Bring lunch from home. There are no refunds."
+          ],
+          "hint": "bring lunch — возьми обед; refund — возврат денег; there are no refunds — деньги не возвращаются.",
+          "explanation": "Передаём два практических условия, не анализируем структуру источника.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь короткий черновик: “Green Hill Park leaves at nine on Sunday. Lunch is included.” Напиши верное время и что делать с обедом. Причину можешь отдельно пояснить по-русски.",
+          "context": "nine forty-five — 9:45; included — включён в стоимость.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Green Hill Park leaves at nine forty-five on Sunday. Bring lunch from home."
+          ],
+          "hint": "nine forty-five — 9:45; included — включён в стоимость.",
+          "explanation": "Воскресенье — исключение из обычного времени. Еду нужно взять с собой.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-phone",
+      "prerequisites": [
+        "path-requests-can",
+        "path-future-plans",
+        "path-place-time"
+      ],
+      "purpose": "Назвать причину звонка и проверить новую договорённость.",
+      "explanation": [
+        {
+          "title": "Сначала цель",
+          "body": "I’m calling about my bike — я звоню насчёт своего велосипеда. I’m calling — я сейчас звоню, about — о/насчёт, my bike — мой велосипед. Собеседник сразу понимает тему."
+        },
+        {
+          "title": "Предложить время",
+          "body": "Can I come at four? — можно прийти в четыре? Come — прийти, at four — в четыре. Чтобы изменить время, назови новое явно."
+        },
+        {
+          "title": "Повторить результат",
+          "body": "Friday at four, right? — в пятницу в четыре, верно? Right? в конце проверяет, что ты правильно понял. Не произноси старое время вместе с новым без пояснения."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I’m calling about my bike.",
+          "ru": "Я звоню насчёт своего велосипеда.",
+          "why": "About вводит тему звонка."
+        },
+        {
+          "en": "Can I come at four?",
+          "ru": "Можно мне прийти в четыре?",
+          "why": "Просим подтвердить время."
+        },
+        {
+          "en": "Friday at four, right?",
+          "ru": "В пятницу в четыре, верно?",
+          "why": "Коротко сверяем день и час."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я звоню насчёт своего телефона.",
+          "context": "I am = I’m; call — звонить; phone — телефон.",
+          "answers": [
+            "I am calling about my phone."
+          ],
+          "hint": "I am = I’m; call — звонить; phone — телефон.",
+          "explanation": "I am calling — действие сейчас.",
+          "guidance": {
+            "title": "Сначала цель",
+            "body": "I’m calling about my bike — я звоню насчёт своего велосипеда. I’m calling — я сейчас звоню, about — о/насчёт, my bike — мой велосипед. Собеседник сразу понимает тему. I am = I’m; call — звонить; phone — телефон.",
+            "example": "I’m calling about my bike.",
+            "translation": "Я звоню насчёт своего велосипеда."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Можно мне прийти в пять?",
+          "context": "come — прийти; five — пять.",
+          "answers": [
+            "Can I come at five?"
+          ],
+          "hint": "come — прийти; five — пять.",
+          "explanation": "Can I + действие.",
+          "guidance": {
+            "title": "Предложить время",
+            "body": "Can I come at four? — можно прийти в четыре? Come — прийти, at four — в четыре. Чтобы изменить время, назови новое явно. come — прийти; five — пять.",
+            "example": "Can I come at four?",
+            "translation": "Можно мне прийти в четыре?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "В понедельник в пять, верно?",
+          "context": "Monday — понедельник; right? — верно?",
+          "answers": [
+            "Monday at five, right?"
+          ],
+          "hint": "Monday — понедельник; right? — верно?",
+          "explanation": "Повторяем условия для проверки.",
+          "guidance": {
+            "title": "Повторить результат",
+            "body": "Friday at four, right? — в пятницу в четыре, верно? Right? в конце проверяет, что ты правильно понял. Не произноси старое время вместе с новым без пояснения. Monday — понедельник; right? — верно?",
+            "example": "Friday at four, right?",
+            "translation": "В пятницу в четыре, верно?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Основной разговор слушай по частям: предмет звонка, проблема, новое время. Если цифру не понял, используй Can you repeat the time? — повторите время. Только потом составляй итог.",
+      "sourceIds": [
+        "a1-voicemail"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай m1–m2. Сотрудник просит номер заказа. Ответь ему одной фразой с номером.",
+          "context": "order number — номер заказа; цифры можно написать цифрами.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "My order number is 5816."
+          ],
+          "hint": "order number — номер заказа; цифры можно написать цифрами.",
+          "explanation": "Сначала называем данные, которые сейчас запросил сотрудник.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Переведи: «Я не могу прийти в среду. Можно прийти в пятницу?»",
+          "context": "cannot = can’t; come — прийти; Wednesday — среда; Friday — пятница.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "I cannot come on Wednesday. Can I come on Friday?"
+          ],
+          "hint": "cannot = can’t; come — прийти; Wednesday — среда; Friday — пятница.",
+          "explanation": "Сообщаем проблему и предлагаем другой день, ещё не подтверждая запись.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Ответь сотруднику вслух по m2: ты можешь прийти в пятницу с четырёх до пяти. Одна короткая фраза. m3 пока не открывай.",
+          "context": "between four and five — между четырьмя и пятью; on Friday — в пятницу.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "I can come on Friday between four and five."
+          ],
+          "hint": "between four and five — между четырьмя и пятью; on Friday — в пятницу.",
+          "explanation": "Называем свою доступность, а не время уже назначенного получения.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Открой m3. Какое время сотрудник предлагает в пятницу? Ответь коротко.",
+          "context": "Friday — пятница; at four — в четыре.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "Friday at four."
+          ],
+          "hint": "Friday — пятница; at four — в четыре.",
+          "explanation": "Это предложение из m3. Позднее уточнение пока не открыто.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "speak",
+          "prompt": "Ответь на вопрос сотрудника из m3: лампу заберёшь сам. Затем спроси, нужно ли прийти ровно в четыре. Две фразы.",
+          "context": "collect — забрать; lamp — лампа; myself — сам; should I arrive — нужно ли прийти; exactly — ровно.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "I will collect the lamp myself. Should I arrive at exactly four?"
+          ],
+          "hint": "collect — забрать; lamp — лампа; myself — сам; should I arrive — нужно ли прийти; exactly — ровно.",
+          "explanation": "Отвечаем за себя и уточняем правило, не разыгрываем ответ сотрудника.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Открой m4. Сотрудник исправил время. Подтверди устно день и точное время, когда сам заберёшь лампу.",
+          "context": "four thirty — 4:30 дня; exactly — ровно; collect — забрать.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "I will collect the lamp on Friday at exactly four thirty."
+          ],
+          "hint": "four thirty — 4:30 дня; exactly — ровно; collect — забрать.",
+          "explanation": "Новое время 4:30 заменяет 4:00.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "write",
+          "prompt": "Напиши другу две фразы: ты сам заберёшь лампу в пятницу в 4:30; цена пока неизвестна.",
+          "context": "price — цена; yet — пока; collect — забрать.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "I will collect the lamp on Friday at four thirty. I don’t know the price yet."
+          ],
+          "hint": "price — цена; yet — пока; collect — забрать.",
+          "explanation": "Сотрудник не смог подтвердить цену. Не называем ремонт бесплатным.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь итог: “I will collect the lamp on Tuesday at ten. The repair is free.” Напиши подтверждённый день и час и честно назови неизвестное.",
+          "context": "repair price — цена ремонта; free — бесплатный.",
+          "materialIds": [
+            "m3",
+            "m4"
+          ],
+          "answers": [
+            "I will collect the lamp on Friday at four thirty. I don’t know the repair price."
+          ],
+          "hint": "repair price — цена ремонта; free — бесплатный.",
+          "explanation": "Во вторник нет подходящих записей. Цена не подтверждена, значит free писать нельзя.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-story",
+      "prerequisites": [
+        "path-past-simple",
+        "path-past-continuous",
+        "path-connectors-basic"
+      ],
+      "purpose": "Рассказать, что произошло, в понятном порядке без сложных времён.",
+      "explanation": [
+        {
+          "title": "Сначала три события",
+          "body": "I left home. I missed the bus. I called Sam. — Я вышел из дома. Я опоздал на автобус. Я позвонил Сэму. Left — прошедшая форма leave; missed и called имеют ed."
+        },
+        {
+          "title": "Порядок",
+          "body": "First — сначала, then — затем. First I left home. Then I missed the bus. Эти слова показывают порядок. Для этого не требуется Past perfect."
+        },
+        {
+          "title": "Одна причина",
+          "body": "Because — потому что, so — поэтому. I was late, so I called Sam. Was late — опоздал; called — позвонил. Не путай событие с объяснением причины."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I missed the bus.",
+          "ru": "Я опоздал на автобус.",
+          "why": "Missed the bus означает не успел на автобус."
+        },
+        {
+          "en": "Then I called Sam.",
+          "ru": "Потом я позвонил Сэму.",
+          "why": "Then показывает следующее событие."
+        },
+        {
+          "en": "I was late, so I called Sam.",
+          "ru": "Я опоздал, поэтому позвонил Сэму.",
+          "why": "So вводит действие, которое стало результатом."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я опоздал на автобус.",
+          "context": "miss the bus — опоздать на автобус; miss → missed.",
+          "answers": [
+            "I missed the bus."
+          ],
+          "hint": "miss the bus — опоздать на автобус; miss → missed.",
+          "explanation": "Past simple сообщает законченное событие.",
+          "guidance": {
+            "title": "Сначала три события",
+            "body": "I left home. I missed the bus. I called Sam. — Я вышел из дома. Я опоздал на автобус. Я позвонил Сэму. Left — прошедшая форма leave; missed и called имеют ed. miss the bus — опоздать на автобус; miss → missed.",
+            "example": "I missed the bus.",
+            "translation": "Я опоздал на автобус."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Потом я позвонил Энн.",
+          "context": "then — потом; call → called; Ann — Энн.",
+          "answers": [
+            "Then I called Ann."
+          ],
+          "hint": "then — потом; call → called; Ann — Энн.",
+          "explanation": "Новое событие после первого.",
+          "guidance": {
+            "title": "Порядок",
+            "body": "First — сначала, then — затем. First I left home. Then I missed the bus. Эти слова показывают порядок. Для этого не требуется Past perfect. then — потом; call → called; Ann — Энн.",
+            "example": "Then I called Sam.",
+            "translation": "Потом я позвонил Сэму."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я опоздал, поэтому позвонил Энн.",
+          "context": "was late — опоздал; so — поэтому.",
+          "answers": [
+            "I was late, so I called Ann."
+          ],
+          "hint": "was late — опоздал; so — поэтому.",
+          "explanation": "So связывает проблему и последующее действие.",
+          "guidance": {
+            "title": "Одна причина",
+            "body": "Because — потому что, so — поэтому. I was late, so I called Sam. Was late — опоздал; called — позвонил. Не путай событие с объяснением причины. was late — опоздал; so — поэтому.",
+            "example": "I was late, so I called Sam.",
+            "translation": "Я опоздал, поэтому позвонил Сэму."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала составь цепочку из отдельных событий. Затем добавь одну причину и ответ другу. Уточнение из нового сообщения должно исправить старую версию истории.",
+      "sourceIds": [
+        "a1-reading"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Послушай m1 или прочитай текст. Кого Alex собирался навестить? Ответь одним коротким предложением. Не нужно пересказывать всю историю.",
+          "context": "wanted to visit — хотел навестить; he — он.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "He wanted to visit Mia."
+          ],
+          "hint": "wanted to visit — хотел навестить; he — он.",
+          "explanation": "Сначала выясняем цель поездки.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Послушай ещё раз. Во сколько должен был отправиться первый автобус? Alex поправляет себя. Напиши только верное время словами или цифрами.",
+          "context": "eight fifteen — 8:15; sorry — извините, здесь сигнал исправления.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Eight fifteen."
+          ],
+          "hint": "eight fifteen — 8:15; sorry — извините, здесь сигнал исправления.",
+          "explanation": "Окончательная версия — 8:15, не первоначальное eight fifty.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Открой текст m1. Почему Alex пропустил автобус? Напиши одно предложение с because.",
+          "context": "missed the bus — пропустил автобус; because — потому что; wrong stop — не та остановка.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "He missed the bus because he was at the wrong stop."
+          ],
+          "hint": "missed the bus — пропустил автобус; because — потому что; wrong stop — не та остановка.",
+          "explanation": "Причина — место ожидания, а не поздний приход на остановку.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Расскажи вслух маленький реальный или вымышленный случай: «Я опоздал на автобус. Потом я позвонил другу». Две фразы; можно заменить транспорт или человека.",
+          "context": "missed — пропустил; then — потом; called a friend — позвонил другу.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "I missed the bus. Then I called a friend."
+          ],
+          "hint": "missed — пропустил; then — потом; called a friend — позвонил другу.",
+          "explanation": "Сначала событие, затем действие. Это твоя репетиция, не новый факт о поездке Alex.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи: «Alex не купил другой билет. Его билет ещё действовал».",
+          "context": "did not buy — не купил; another ticket — другой билет; still good — ещё действовал.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Alex did not buy another ticket. His ticket was still good."
+          ],
+          "hint": "did not buy — не купил; another ticket — другой билет; still good — ещё действовал.",
+          "explanation": "После did not форма buy без изменения.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Напиши Alex две-три короткие фразы о своём реальном или придуманном случае: что не получилось и что ты сделал потом. Для вымышленного случая можно начать Here is an example.",
+          "context": "here is an example — вот пример; missed a train — опоздал на поезд; called — позвонил.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Here is an example. I missed a train. Then I called my friend."
+          ],
+          "hint": "here is an example — вот пример; missed a train — опоздал на поезд; called — позвонил.",
+          "explanation": "Нужно своё связное сообщение из маленьких шагов, не подробный рассказ на заданное число слов.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "speak",
+          "prompt": "Открой m3. Alex спрашивает, известно ли время следующего автобуса в его истории. Ответь ему одной короткой фразой.",
+          "context": "I don’t know — я не знаю; the time of your next bus — время твоего следующего автобуса.",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "answers": [
+            "I don’t know the time of your next bus."
+          ],
+          "hint": "I don’t know — я не знаю; the time of your next bus — время твоего следующего автобуса.",
+          "explanation": "В m1 названо время прибытия к Mia, но не отправления следующего автобуса.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь два предложения: “Alex bought another ticket. His next bus left at eleven.” Скажи, что билет он не покупал, а в одиннадцать уже приехал к Mia.",
+          "context": "arrived — приехал; Mia’s house — дом Мии; at eleven — в одиннадцать.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Alex did not buy another ticket. He arrived at Mia’s house at eleven."
+          ],
+          "hint": "arrived — приехал; Mia’s house — дом Мии; at eleven — в одиннадцать.",
+          "explanation": "Одиннадцать — время прибытия к Mia, не отправления автобуса.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-service",
+      "prerequisites": [
+        "path-past-simple",
+        "path-questions-basic",
+        "path-requests-can"
+      ],
+      "purpose": "Сообщить об ошибке в заказе и попросить конкретное исправление.",
+      "explanation": [
+        {
+          "title": "Что заказывал",
+          "body": "I ordered a blue shirt — я заказал синюю рубашку. Ordered — прошедшая форма order, blue — синий, shirt — рубашка. Сначала называем заказ."
+        },
+        {
+          "title": "Что получил",
+          "body": "This shirt is red — эта рубашка красная. Два коротких предложения уже показывают проблему. Не нужны грубость, сложная жалоба или длинная предыстория."
+        },
+        {
+          "title": "Что нужно сейчас",
+          "body": "Can you send a blue one? — можете прислать синюю? One заменяет повторное shirt. Can you + send — просьба выполнить действие. Если нужен возврат денег: a refund — возврат оплаты."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I ordered a blue shirt.",
+          "ru": "Я заказал синюю рубашку.",
+          "why": "Ordered сообщает о завершённом заказе."
+        },
+        {
+          "en": "This shirt is red.",
+          "ru": "Эта рубашка красная.",
+          "why": "Показываем фактическое отличие."
+        },
+        {
+          "en": "Can you send a blue one?",
+          "ru": "Можете прислать синюю?",
+          "why": "One заменяет уже названную рубашку."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я заказал чёрную сумку.",
+          "context": "order → ordered; black — чёрный; bag — сумка.",
+          "answers": [
+            "I ordered a black bag."
+          ],
+          "hint": "order → ordered; black — чёрный; bag — сумка.",
+          "explanation": "Называем заказанную вещь.",
+          "guidance": {
+            "title": "Что заказывал",
+            "body": "I ordered a blue shirt — я заказал синюю рубашку. Ordered — прошедшая форма order, blue — синий, shirt — рубашка. Сначала называем заказ. order → ordered; black — чёрный; bag — сумка.",
+            "example": "I ordered a blue shirt.",
+            "translation": "Я заказал синюю рубашку."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Эта сумка белая.",
+          "context": "this — эта; white — белая.",
+          "answers": [
+            "This bag is white."
+          ],
+          "hint": "this — эта; white — белая.",
+          "explanation": "Описываем то, что получили.",
+          "guidance": {
+            "title": "Что получил",
+            "body": "This shirt is red — эта рубашка красная. Два коротких предложения уже показывают проблему. Не нужны грубость, сложная жалоба или длинная предыстория. this — эта; white — белая.",
+            "example": "This shirt is red.",
+            "translation": "Эта рубашка красная."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Можете прислать чёрную?",
+          "context": "send — прислать; one — уже названная сумка.",
+          "answers": [
+            "Can you send a black one?"
+          ],
+          "hint": "send — прислать; one — уже названная сумка.",
+          "explanation": "Просим конкретную замену.",
+          "guidance": {
+            "title": "Что нужно сейчас",
+            "body": "Can you send a blue one? — можете прислать синюю? One заменяет повторное shirt. Can you + send — просьба выполнить действие. Если нужен возврат денег: a refund — возврат оплаты. send — прислать; one — уже названная сумка.",
+            "example": "Can you send a blue one?",
+            "translation": "Можете прислать синюю?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В основном задании различай: твоя просьба и то, на что уже согласился сервис. Не называй возврат подтверждённым, пока оператор его не подтвердил.",
+      "sourceIds": [
+        "a2-apology",
+        "a1-can"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай m1–m2. Назови сотруднику номер своего заказа одной фразой.",
+          "context": "order number — номер заказа.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "My order number is P482."
+          ],
+          "hint": "order number — номер заказа.",
+          "explanation": "Отвечаем на конкретный первый вопрос поддержки.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Переведи по данным m2: «Я заказал синюю куртку размера M».",
+          "context": "ordered — заказал; blue jacket — синяя куртка; in size M — размера M.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "I ordered a blue jacket in size M."
+          ],
+          "hint": "ordered — заказал; blue jacket — синяя куртка; in size M — размера M.",
+          "explanation": "Называем исходный заказ.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Скажи сотруднику две фразы: что ты заказал и что получил. Назови цвет и размер каждой куртки.",
+          "context": "received — получил; black — чёрный; size — размер.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "I ordered a blue jacket in size M. I received a black jacket in size S."
+          ],
+          "hint": "received — получил; black — чёрный; size — размер.",
+          "explanation": "Два простых предложения показывают проблему без длинной жалобы.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Открой m3. В какие два дня курьер может забрать куртку? Напиши только дни.",
+          "context": "Tuesday — вторник; Thursday — четверг; or — или.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "Tuesday or Thursday."
+          ],
+          "hint": "Tuesday — вторник; Thursday — четверг; or — или.",
+          "explanation": "Сотрудник предлагает выбор, но приезд ещё не назначен.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "speak",
+          "prompt": "Выбери один день из m3. Скажи сотруднику, что он подходит, и попроси подтвердить время.",
+          "context": "good for me — мне подходит; confirm — подтвердить; time — время.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "Thursday is good for me. Can you confirm the time?"
+          ],
+          "hint": "good for me — мне подходит; confirm — подтвердить; time — время.",
+          "explanation": "Принимается и Tuesday, если ты последовательно выбираешь вторник.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Открой m4: нужной куртки теперь нет. Скажи, что согласен на возврат денег вместо обмена. Одной фразы достаточно.",
+          "context": "I would like — я хотел бы; refund — возврат денег.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "I would like a refund, please."
+          ],
+          "hint": "I would like — я хотел бы; refund — возврат денег.",
+          "explanation": "Возврат — доступное решение после нового сообщения. Обмен уже невозможен.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "write",
+          "prompt": "Напиши Jo три короткие фразы: согласен на возврат 40 фунтов, какой день удобен для курьера и просьбу подтвердить его приезд.",
+          "context": "forty-pound refund — возврат 40 фунтов; collection — приезд за вещью; confirm — подтвердить.",
+          "materialIds": [
+            "m3",
+            "m4"
+          ],
+          "answers": [
+            "I would like the forty-pound refund. Thursday is good for me. Please confirm the collection."
+          ],
+          "hint": "forty-pound refund — возврат 40 фунтов; collection — приезд за вещью; confirm — подтвердить.",
+          "explanation": "Просьба о подтверждении не означает, что приезд уже согласован.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь: “Send me the blue jacket today. My refund comes before you receive the old jacket.” Напиши, что выбираешь возврат, и когда по m4 начнётся отсчёт пяти рабочих дней. Можно ответить двумя короткими предложениями.",
+          "context": "working days — рабочие дни; start after — начинаются после; receive — получить.",
+          "materialIds": [
+            "m4"
+          ],
+          "answers": [
+            "I would like a refund. The five working days start after you receive the jacket."
+          ],
+          "hint": "working days — рабочие дни; start after — начинаются после; receive — получить.",
+          "explanation": "Срок связан с получением куртки магазином. Обмен на синюю куртку больше не доступен.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-relay",
+      "prerequisites": [
+        "path-place-time",
+        "path-connectors-basic",
+        "path-future-plans"
+      ],
+      "purpose": "Передать другу актуальные время и место, не смешав старое сообщение с новым.",
+      "explanation": [
+        {
+          "title": "Возьми самый новый факт",
+          "body": "The meeting is at eleven now — встреча теперь в одиннадцать. Meeting — встреча, now — теперь. Now помогает показать изменение."
+        },
+        {
+          "title": "Что осталось прежним",
+          "body": "The place is the same — место то же самое. Place — место, the same — тот же самый. Не меняй адрес, если исправили только час."
+        },
+        {
+          "title": "Скажи только нужное",
+          "body": "Meet us at the library — встречай нас у библиотеки. Meet — встреть, us — нас, library — библиотека. Другу нужен понятный план, а не отчёт о процессе чтения писем."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The meeting is at eleven now.",
+          "ru": "Встреча теперь в одиннадцать.",
+          "why": "Now отмечает обновлённое время."
+        },
+        {
+          "en": "The place is the same.",
+          "ru": "Место то же самое.",
+          "why": "Отделяем изменившееся от неизменного."
+        },
+        {
+          "en": "Meet us at the library.",
+          "ru": "Встречай нас у библиотеки.",
+          "why": "Короткая инструкция для друга."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Встреча теперь в десять.",
+          "context": "meeting — встреча; at ten — в десять; now — теперь.",
+          "answers": [
+            "The meeting is at ten now."
+          ],
+          "hint": "meeting — встреча; at ten — в десять; now — теперь.",
+          "explanation": "Передаём новое время.",
+          "guidance": {
+            "title": "Возьми самый новый факт",
+            "body": "The meeting is at eleven now — встреча теперь в одиннадцать. Meeting — встреча, now — теперь. Now помогает показать изменение. meeting — встреча; at ten — в десять; now — теперь.",
+            "example": "The meeting is at eleven now.",
+            "translation": "Встреча теперь в одиннадцать."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Место то же самое.",
+          "context": "place — место; the same — то же самое.",
+          "answers": [
+            "The place is the same."
+          ],
+          "hint": "place — место; the same — то же самое.",
+          "explanation": "Не выдумываем новую локацию.",
+          "guidance": {
+            "title": "Что осталось прежним",
+            "body": "The place is the same — место то же самое. Place — место, the same — тот же самый. Не меняй адрес, если исправили только час. place — место; the same — то же самое.",
+            "example": "The place is the same.",
+            "translation": "Место то же самое."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Встречай нас у музея.",
+          "context": "meet — встреть; us — нас; museum — музей.",
+          "answers": [
+            "Meet us at the museum."
+          ],
+          "hint": "meet — встреть; us — нас; museum — музей.",
+          "explanation": "Действие и нужное место.",
+          "guidance": {
+            "title": "Скажи только нужное",
+            "body": "Meet us at the library — встречай нас у библиотеки. Meet — встреть, us — нас, library — библиотека. Другу нужен понятный план, а не отчёт о процессе чтения писем. meet — встреть; us — нас; museum — музей.",
+            "example": "Meet us at the library.",
+            "translation": "Встречай нас у библиотеки."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Прочитай первое письмо и обновление. Зачеркни только устаревшие поля в своих заметках. Затем напиши другу короткое сообщение с итоговыми данными.",
+      "sourceIds": [
+        "a1-invitation",
+        "a1-reading"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Прочитай два письма m1. Запиши только актуальное название места и адрес.",
+          "context": "new meeting place — новое место встречи; instead — вместо прежнего.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "River Centre, 24 Mill Street."
+          ],
+          "hint": "new meeting place — новое место встречи; instead — вместо прежнего.",
+          "explanation": "Позднее письмо заменяет библиотеку на River Centre.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Прочитай m2: Pavel ожидает приехать в 10:10. Какой вход ему нужен? Напиши одну короткую инструкцию по-английски для репетиции.",
+          "context": "use — воспользуйся; side entrance — боковой вход; beside — рядом с.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Use the side entrance beside the café."
+          ],
+          "hint": "use — воспользуйся; side entrance — боковой вход; beside — рядом с.",
+          "explanation": "После 10:00 нужен боковой вход; это не общее правило для любого времени.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Открой m3. Pavel спрашивает про чемодан. В письмах ответа нет. Напиши Anna один прямой вопрос: можно ли оставить чемодан в центре?",
+          "context": "leave — оставить; his suitcase — его чемодан.",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "answers": [
+            "Can Pavel leave his suitcase at River Centre?"
+          ],
+          "hint": "leave — оставить; his suitcase — его чемодан.",
+          "explanation": "Запрашиваем неизвестный факт у организатора, не придумываем камеру хранения.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Из m1 известно: прогулка начинается в 10:20. Напиши один вопрос, которым можно перепроверить именно это время.",
+          "context": "walk — прогулка; start — начинаться; ten twenty — 10:20.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Does the walk start at ten twenty?"
+          ],
+          "hint": "walk — прогулка; start — начинаться; ten twenty — 10:20.",
+          "explanation": "С does глагол start без s.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи две инструкции: «Приходи в River Centre. Воспользуйся боковым входом рядом с кафе».",
+          "context": "come to — приходи в; side entrance — боковой вход; beside — рядом с.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Come to River Centre. Use the side entrance beside the café."
+          ],
+          "hint": "come to — приходи в; side entrance — боковой вход; beside — рядом с.",
+          "explanation": "Это вариант для планируемого прихода Pavel после 10:00.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Для английской репетиции напиши короткую записку: актуальный адрес, нужный вход для 10:10 и начало прогулки. Три предложения. Pavel затем можно передать смысл по-русски: он не читает эти английские письма.",
+          "context": "go to — иди в; starts — начинается; ten twenty — 10:20.",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "Go to River Centre, 24 Mill Street. Use the side entrance beside the café. The walk starts at ten twenty."
+          ],
+          "hint": "go to — иди в; starts — начинается; ten twenty — 10:20.",
+          "explanation": "Выбираем только сведения, нужные именно этому человеку.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "speak",
+          "prompt": "Потренируй короткую устную реплику: «Я не знаю про чемодан. Я спрошу Anna». Надиктуй или запиши две фразы.",
+          "context": "suitcase — чемодан; I will ask — я спрошу.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "I don’t know about the suitcase. I will ask Anna."
+          ],
+          "hint": "suitcase — чемодан; I will ask — я спрошу.",
+          "explanation": "Отделяем известное от обещанного действия.",
+          "revision": 1
+        },
+        {
+          "id": "e8",
+          "kind": "rewrite",
+          "prompt": "Исправь черновик: “Go to Green Library. The walk starts at ten. You can leave your suitcase there.” Назови новое место и начало прогулки, а про чемодан честно скажи, что не знаешь.",
+          "context": "ten twenty — 10:20; I don’t know — я не знаю.",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "answers": [
+            "Go to River Centre. The walk starts at ten twenty. I don’t know about the suitcase."
+          ],
+          "hint": "ten twenty — 10:20; I don’t know — я не знаю.",
+          "explanation": "Встреча и начало прогулки — разное время. Место хранения чемодана не указано.",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-picture-description",
+      "prerequisites": [
+        "path-present-continuous",
+        "path-place-time",
+        "path-adjectives-frequency"
+      ],
+      "purpose": "Описать то, что видно на картинке, без догадок о людях.",
+      "explanation": [
+        {
+          "title": "Кто и что делает",
+          "body": "A man is reading — мужчина читает. Man — мужчина, is reading — сейчас читает. Для действия на картинке подходит is/are + ing."
+        },
+        {
+          "title": "Как его узнать",
+          "body": "The man in a blue shirt — мужчина в синей рубашке. In здесь означает «в одежде». Эту короткую часть можно добавить к описанию действия."
+        },
+        {
+          "title": "Где он",
+          "body": "On the left — слева, on the right — справа. The man is on the left. Это положение. Само изображение не говорит, чем человек работает или что думает."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A woman is reading.",
+          "ru": "Женщина читает.",
+          "why": "Woman — женщина, is reading — действие сейчас."
+        },
+        {
+          "en": "The man in a blue shirt is sitting.",
+          "ru": "Мужчина в синей рубашке сидит.",
+          "why": "In a blue shirt помогает найти человека."
+        },
+        {
+          "en": "The woman is on the left.",
+          "ru": "Женщина слева.",
+          "why": "Описываем видимое положение."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Мужчина читает.",
+          "context": "man — мужчина; read → reading.",
+          "answers": [
+            "A man is reading."
+          ],
+          "hint": "man — мужчина; read → reading.",
+          "explanation": "Is + reading показывает действие на сцене.",
+          "guidance": {
+            "title": "Кто и что делает",
+            "body": "A man is reading — мужчина читает. Man — мужчина, is reading — сейчас читает. Для действия на картинке подходит is/are + ing. man — мужчина; read → reading.",
+            "example": "A woman is reading.",
+            "translation": "Женщина читает."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Женщина в красной куртке стоит.",
+          "context": "woman — женщина; red jacket — красная куртка; stand → standing.",
+          "answers": [
+            "The woman in a red jacket is standing."
+          ],
+          "hint": "woman — женщина; red jacket — красная куртка; stand → standing.",
+          "explanation": "Одежда определяет, о какой женщине речь.",
+          "guidance": {
+            "title": "Как его узнать",
+            "body": "The man in a blue shirt — мужчина в синей рубашке. In здесь означает «в одежде». Эту короткую часть можно добавить к описанию действия. woman — женщина; red jacket — красная куртка; stand → standing.",
+            "example": "The man in a blue shirt is sitting.",
+            "translation": "Мужчина в синей рубашке сидит."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Мужчина справа.",
+          "context": "on the right — справа.",
+          "answers": [
+            "The man is on the right."
+          ],
+          "hint": "on the right — справа.",
+          "explanation": "Для положения не нужен глагол действия с ing.",
+          "guidance": {
+            "title": "Где он",
+            "body": "On the left — слева, on the right — справа. The man is on the left. Это положение. Само изображение не говорит, чем человек работает или что думает. on the right — справа.",
+            "example": "The woman is on the left.",
+            "translation": "Женщина слева."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Рассматривай по одному человеку. Сначала кто, затем одежда, действие и место. Формулировки «наверное, врач» и «он грустит» не заменяют видимые признаки.",
+      "sourceIds": [
+        "a1-reading"
+      ],
+      "replacements": [
+        {
+          "prompt": "Посмотри на картинку m1. Что делает мужчина в синей рубашке? Напиши одно предложение.",
+          "context": "man — мужчина; blue shirt — синяя рубашка; read → reading.",
+          "hint": "man — мужчина; blue shirt — синяя рубашка; read → reading.",
+          "explanation": "Описываем одно видимое действие, а не всю сцену сразу.",
+          "answers": [
+            "The man in the blue shirt is reading."
+          ],
+          "id": "e1",
+          "kind": "write",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Переведи: «Велосипед позади скамейки».",
+          "context": "bicycle — велосипед; behind — позади; bench — скамейка.",
+          "hint": "bicycle — велосипед; behind — позади; bench — скамейка.",
+          "explanation": "Is описывает расположение. Здесь не обязательно добавлять standing.",
+          "answers": [
+            "The bicycle is behind the bench."
+          ],
+          "id": "e2",
+          "kind": "translate",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Опиши вслух женщину слева: одежда и действие. Достаточно одного-двух предложений.",
+          "context": "woman — женщина; yellow jacket — жёлтая куртка; water flowers — поливать цветы.",
+          "hint": "woman — женщина; yellow jacket — жёлтая куртка; water flowers — поливать цветы.",
+          "explanation": "Глагол water может означать поливать, не только существительное вода.",
+          "answers": [
+            "The woman in the yellow jacket is watering flowers."
+          ],
+          "id": "e3",
+          "kind": "speak",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Исправь подпись: “The woman in yellow is reading. The cup contains coffee.” Напиши видимое действие женщины в жёлтом и скажи, что содержимое чашки не видно.",
+          "context": "in yellow — в жёлтом; cannot see — не могу увидеть; what is in the cup — что в чашке.",
+          "hint": "in yellow — в жёлтом; cannot see — не могу увидеть; what is in the cup — что в чашке.",
+          "explanation": "Первое утверждение противоречит картинке, второе — недоказанная догадка.",
+          "answers": [
+            "The woman in yellow is watering flowers. I cannot see what is in the cup."
+          ],
+          "id": "e4",
+          "kind": "rewrite",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Открой m2. Помоги посетителю найти мужчину с книгой. Назови рубашку и место, затем действие. Две короткие фразы.",
+          "context": "in blue — в синем; on the bench — на скамейке; read a book — читать книгу.",
+          "hint": "in blue — в синем; on the bench — на скамейке; read a book — читать книгу.",
+          "explanation": "Посетителю нужен один человек, остальные сейчас не важны.",
+          "answers": [
+            "The man in blue is on the bench. He is reading a book."
+          ],
+          "id": "e5",
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Напиши по одному короткому предложению о двух людях: женщине в красном и мужчине в зелёном. Назови их видимые действия.",
+          "context": "hold a cup — держать чашку; tie a shoelace — завязывать шнурок; tying — форма с ing.",
+          "hint": "hold a cup — держать чашку; tie a shoelace — завязывать шнурок; tying — форма с ing.",
+          "explanation": "Оба действия происходят на изображении, поэтому is + ing.",
+          "answers": [
+            "The woman in red is holding a cup. The man in green is tying a shoelace."
+          ],
+          "id": "e6",
+          "kind": "write",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Посетитель спрашивает имя мужчины с книгой. Ответь вслух, что имени не знаешь, но он в синем и читает. Две короткие фразы.",
+          "context": "his name — его имя; in blue — в синем.",
+          "hint": "his name — его имя; in blue — в синем.",
+          "explanation": "Картинка не сообщает имя. Можно описать человека, не придумывая личные данные.",
+          "answers": [
+            "I don’t know his name. The man in blue is reading."
+          ],
+          "id": "e7",
+          "kind": "speak",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Открой m3. Где белая чашка? Опиши одежду человека, который её держит. Затем скажи, видно ли содержимое. Два предложения.",
+          "context": "red sweater — красный свитер; hold — держать; white cup — белая чашка; inside — внутри.",
+          "hint": "red sweater — красный свитер; hold — держать; white cup — белая чашка; inside — внутри.",
+          "explanation": "Определяем нужного человека и сохраняем границу видимого.",
+          "answers": [
+            "The woman in the red sweater is holding the white cup. I cannot see what is inside."
+          ],
+          "id": "e8",
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m3"
+          ],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "extended-a2-survey-summary",
+      "prerequisites": [
+        "path-present-simple",
+        "path-countability",
+        "path-gerund-infinitive"
+      ],
+      "purpose": "Задать один понятный вопрос и точно пересказать несколько ответов.",
+      "explanation": [
+        {
+          "title": "Простой вопрос",
+          "body": "What do you want to learn? — чему ты хочешь научиться? Want to learn — хотеть научиться. Вопрос начинается с what, затем do you."
+        },
+        {
+          "title": "Передай один ответ",
+          "body": "Sam wants to cook — Сэм хочет готовить. При переходе от I к Sam появляется wants с s. Cook — готовить. Хотеть научиться — ещё не значит уметь."
+        },
+        {
+          "title": "Посчитай ответы",
+          "body": "Three people want to cook — трое хотят готовить. People — люди, поэтому want без s. После исправления одного ответа пересчитай итоги; старое число больше не действует."
+        }
+      ],
+      "examples": [
+        {
+          "en": "What do you want to learn?",
+          "ru": "Чему ты хочешь научиться?",
+          "why": "Вопрос о желании учиться."
+        },
+        {
+          "en": "Ann wants to cook.",
+          "ru": "Энн хочет готовить.",
+          "why": "Ann — один человек, поэтому wants."
+        },
+        {
+          "en": "Three people want to cook.",
+          "ru": "Трое хотят готовить.",
+          "why": "Несколько людей: want без s."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Чему ты хочешь научиться?",
+          "context": "want — хотеть; learn — учиться, научиться.",
+          "answers": [
+            "What do you want to learn?"
+          ],
+          "hint": "want — хотеть; learn — учиться, научиться.",
+          "explanation": "Do you ставит вопрос к want.",
+          "guidance": {
+            "title": "Простой вопрос",
+            "body": "What do you want to learn? — чему ты хочешь научиться? Want to learn — хотеть научиться. Вопрос начинается с what, затем do you. want — хотеть; learn — учиться, научиться.",
+            "example": "What do you want to learn?",
+            "translation": "Чему ты хочешь научиться?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Сэм хочет фотографировать.",
+          "context": "take photos — фотографировать; Sam — Сэм.",
+          "answers": [
+            "Sam wants to take photos."
+          ],
+          "hint": "take photos — фотографировать; Sam — Сэм.",
+          "explanation": "После wants идёт to + действие.",
+          "guidance": {
+            "title": "Передай один ответ",
+            "body": "Sam wants to cook — Сэм хочет готовить. При переходе от I к Sam появляется wants с s. Cook — готовить. Хотеть научиться — ещё не значит уметь. take photos — фотографировать; Sam — Сэм.",
+            "example": "Ann wants to cook.",
+            "translation": "Энн хочет готовить."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Двое хотят готовить.",
+          "context": "two people — двое людей; cook — готовить.",
+          "answers": [
+            "Two people want to cook."
+          ],
+          "hint": "two people — двое людей; cook — готовить.",
+          "explanation": "У нескольких людей want без s.",
+          "guidance": {
+            "title": "Посчитай ответы",
+            "body": "Three people want to cook — трое хотят готовить. People — люди, поэтому want без s. После исправления одного ответа пересчитай итоги; старое число больше не действует. two people — двое людей; cook — готовить.",
+            "example": "Three people want to cook.",
+            "translation": "Трое хотят готовить."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Основной опрос разбей на шесть строк: имя, один выбор, одна причина. Сначала перескажи отдельный ответ; только затем считай группу. Не придумывай дату и цену, если их ещё нет.",
+      "sourceIds": [
+        "a1-can",
+        "a1-reading"
+      ],
+      "replacements": [
+        {
+          "prompt": "Послушай m1. Сколько участников нужно спросить? Напиши число и слово people. Пока не нужно пересказывать весь план опроса.",
+          "context": "six — шесть; people — люди.",
+          "hint": "six — шесть; people — люди.",
+          "explanation": "Один конкретный факт из сообщения.",
+          "answers": [
+            "Six people."
+          ],
+          "id": "e1",
+          "kind": "write",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Спроси одного участника вслух, какое занятие он хочет выбрать. Используй want to join. Одного вопроса достаточно.",
+          "context": "which workshop — какое занятие; want to join — хочешь посетить, присоединиться.",
+          "hint": "which workshop — какое занятие; want to join — хочешь посетить, присоединиться.",
+          "explanation": "Сначала задаём ясный вопрос, затем будем пересказывать ответы.",
+          "answers": [
+            "Which workshop do you want to join?"
+          ],
+          "id": "e2",
+          "kind": "speak",
+          "materialIds": [
+            "m1"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Прочитай m2. Запиши первоначальные количества тремя короткими строками: cooking, photography, bike repair.",
+          "context": "cooking — кулинария; photography — фотография; bike repair — ремонт велосипедов.",
+          "hint": "cooking — кулинария; photography — фотография; bike repair — ремонт велосипедов.",
+          "explanation": "Изначально 3 + 2 + 1 = 6 участников.",
+          "answers": [
+            "Cooking: three. Photography: two. Bike repair: one."
+          ],
+          "id": "e3",
+          "kind": "write",
+          "materialIds": [
+            "m2"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Переведи: «Eva хочет пользоваться своей новой камерой».",
+          "context": "want to use — хотеть пользоваться; her new camera — её новая камера.",
+          "hint": "want to use — хотеть пользоваться; her new camera — её новая камера.",
+          "explanation": "Один человек: wants. После wants действие с to.",
+          "answers": [
+            "Eva wants to use her new camera."
+          ],
+          "id": "e4",
+          "kind": "translate",
+          "materialIds": [
+            "m2"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Открой m3. Omar меняет свой выбор. Запиши новые количества по трём занятиям; имя Omar не считай второй раз.",
+          "context": "two — два; three — три; one — один.",
+          "hint": "two — два; three — три; one — один.",
+          "explanation": "Ответ Omar заменяет старый: всего по-прежнему шесть человек.",
+          "answers": [
+            "Cooking: two. Photography: three. Bike repair: one."
+          ],
+          "id": "e5",
+          "kind": "write",
+          "materialIds": [
+            "m2",
+            "m3"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Напиши организатору три фразы: всего шесть ответов; фотографию теперь выбрали трое; спроси дату занятий, которой пока нет.",
+          "context": "answers — ответы; chose — выбрали; when — когда; workshops — занятия.",
+          "hint": "answers — ответы; chose — выбрали; when — когда; workshops — занятия.",
+          "explanation": "Подытоживаем один главный результат и спрашиваем неизвестное.",
+          "answers": [
+            "We have six answers. Three people chose photography. When are the workshops?"
+          ],
+          "id": "e6",
+          "kind": "write",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Скажи другу, что Omar теперь хочет фотографировать семью. Одно короткое предложение.",
+          "context": "take pictures — фотографировать; family pictures — семейные фотографии.",
+          "hint": "take pictures — фотографировать; family pictures — семейные фотографии.",
+          "explanation": "Новая причина относится к Omar. Фотографии собаки — причина Leo, не Omar.",
+          "answers": [
+            "Omar wants to take family pictures."
+          ],
+          "id": "e7",
+          "kind": "speak",
+          "materialIds": [
+            "m3"
+          ],
+          "revision": 1
+        },
+        {
+          "prompt": "Исправь итог: “Seven people answered. Omar wants to photograph his dog. The date is confirmed.” Напиши верное число, новую цель Omar и честно укажи, что дата неизвестна.",
+          "context": "answered — ответили; family pictures — семейные фотографии; date — дата; yet — пока.",
+          "hint": "answered — ответили; family pictures — семейные фотографии; date — дата; yet — пока.",
+          "explanation": "Новый ответ Omar не добавляет участника. Дата в источнике не названа.",
+          "answers": [
+            "Six people answered. Omar wants to take family pictures. We don’t know the date yet."
+          ],
+          "id": "e8",
+          "kind": "rewrite",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3"
+          ],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-sound-w-v-th",
+      "prerequisites": [
+        "path-sound-basics",
+        "path-be",
+        "path-articles-basic"
+      ],
+      "purpose": "Различить четыре согласных в коротких знакомых словах.",
+      "explanation": [
+        {
+          "title": "Губы: west и vest",
+          "body": "West — запад, vest — жилет. Для /w/ округли губы: зубы не касаются губы. Для /v/ верхние зубы у нижней губы. Сначала слушай эти два слова, затем произнеси каждое."
+        },
+        {
+          "title": "Язык: thin и this",
+          "body": "Thin — тонкий, this — этот. Для /θ/ и /ð/ кончик языка слегка касается края верхних зубов. /θ/ в thin без голоса, /ð/ в this с голосом."
+        },
+        {
+          "title": "Маленькая фраза",
+          "body": "This is a vest — это жилет. This — это, is связывает предмет с названием, a vest — один жилет. Не нужно начинать со сложного описания деревни и реки."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This is a vest.",
+          "ru": "Это жилет.",
+          "why": "В this звук /ð/, в vest звук /v/."
+        },
+        {
+          "en": "This is thin.",
+          "ru": "Это тонкое.",
+          "why": "В this звонкий /ð/, в thin глухой /θ/."
+        },
+        {
+          "en": "We are here.",
+          "ru": "Мы здесь.",
+          "why": "We начинается с округления губ /w/."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это жилет.",
+          "context": "this — это; vest — жилет.",
+          "answers": [
+            "This is a vest."
+          ],
+          "hint": "this — это; vest — жилет.",
+          "explanation": "Is связывает this и a vest. После проверки послушай два разных согласных.",
+          "guidance": {
+            "title": "Губы: west и vest",
+            "body": "West — запад, vest — жилет. Для /w/ округли губы: зубы не касаются губы. Для /v/ верхние зубы у нижней губы. Сначала слушай эти два слова, затем произнеси каждое. this — это; vest — жилет.",
+            "example": "This is a vest.",
+            "translation": "Это жилет."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это тонкое.",
+          "context": "thin — тонкий.",
+          "answers": [
+            "This is thin."
+          ],
+          "hint": "thin — тонкий.",
+          "explanation": "Прилагательному thin не нужен артикль a.",
+          "guidance": {
+            "title": "Язык: thin и this",
+            "body": "Thin — тонкий, this — этот. Для /θ/ и /ð/ кончик языка слегка касается края верхних зубов. /θ/ в thin без голоса, /ð/ в this с голосом. thin — тонкий.",
+            "example": "This is thin.",
+            "translation": "Это тонкое."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Мы здесь.",
+          "context": "we — мы; here — здесь.",
+          "answers": [
+            "We are here."
+          ],
+          "hint": "we — мы; here — здесь.",
+          "explanation": "С we используем are. Начало we — /w/.",
+          "guidance": {
+            "title": "Маленькая фраза",
+            "body": "This is a vest — это жилет. This — это, is связывает предмет с названием, a vest — один жилет. Не нужно начинать со сложного описания деревни и реки. we — мы; here — здесь.",
+            "example": "We are here.",
+            "translation": "Мы здесь."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Если значки пока мешают, сначала пройди «Транскрипция с нуля», ступени 11–12. Печатный ответ не оценивает твой акцент: произнеси, запиши и сравни слова.",
+      "sourceIds": [
+        "a1-ipa",
+        "a1-rachel"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "translate",
+          "prompt": "Переведи одну фразу: «Это мой жилет». После проверки послушай образец и повтори.",
+          "context": "this — это; my vest — мой жилет.",
+          "answers": [
+            "This is my vest."
+          ],
+          "hint": "this — это; my vest — мой жилет.",
+          "explanation": "В this звучит /ð/, в vest — /v/. Сначала короткая фраза, без нового описания реки и деревни.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Напиши две короткие фразы: «Это тонкое. Этот жилет красный».",
+          "context": "thin — тонкий; vest — жилет; red — красный.",
+          "answers": [
+            "This is thin. This vest is red."
+          ],
+          "hint": "thin — тонкий; vest — жилет; red — красный.",
+          "explanation": "This начинается со звонкого /ð/, thin — с глухого /θ/. Правило можно пояснить по-русски в заметках.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Произнеси: «Мы здесь». Затем повтори: «Этот жилет красный». Запиши две короткие фразы.",
+          "context": "we — мы; here — здесь; vest — жилет; red — красный.",
+          "answers": [
+            "We are here. This vest is red."
+          ],
+          "hint": "we — мы; here — здесь; vest — жилет; red — красный.",
+          "explanation": "В we губы округляются; в vest верхние зубы у нижней губы. Расшифровка не подтверждает артикуляцию.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Переведи два коротких сообщения: «Иди на запад. Это жилет». Затем сравни звучание west и vest по записи.",
+          "context": "go west — иди на запад; vest — жилет.",
+          "answers": [
+            "Go west. This is a vest."
+          ],
+          "hint": "go west — иди на запад; vest — жилет.",
+          "explanation": "West — направление, vest — одежда. Различие одного звука меняет смысл.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи: «Спасибо. Это для тебя».",
+          "context": "thank you — спасибо; this — это; for you — для тебя.",
+          "answers": [
+            "Thank you. This is for you."
+          ],
+          "hint": "thank you — спасибо; this — это; for you — для тебя.",
+          "explanation": "Thank начинается с /θ/, this — с /ð/. Короткие знакомые фразы дают место для работы над звуком.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Покажи на два воображаемых предмета: книгу рядом и чашку дальше. Скажи «Это моя книга. То — моя чашка». Повтори трудное слово один раз; длинный рассказ не нужен.",
+          "context": "this — это рядом; that — то подальше; book — книга; cup — чашка.",
+          "answers": [
+            "This is my book. That is my cup."
+          ],
+          "hint": "this — это рядом; that — то подальше; book — книга; cup — чашка.",
+          "explanation": "В this и that нужен звонкий /ð/. Здесь проверяется текст, а звук сравнивается по собственной записи.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-spelling-numbers",
+      "prerequisites": [
+        "path-questions-basic",
+        "path-requests-can",
+        "path-be"
+      ],
+      "purpose": "Переспросить имя или число одним коротким вопросом.",
+      "explanation": [
+        {
+          "title": "Имя по буквам",
+          "body": "Can you spell it? — можете назвать это по буквам? Spell — произнести или написать по буквам, it — уже названное имя. Не читай буквы как звуки внутри слова: это названия букв."
+        },
+        {
+          "title": "Конкретный выбор",
+          "body": "Sixteen or sixty? — шестнадцать или шестьдесят? Or означает «или». Когда знаешь, что именно неясно, короткий выбор полезнее общего I don’t understand."
+        },
+        {
+          "title": "Повтори для проверки",
+          "body": "Is that fifteen? — это пятнадцать? Is that …? проверяет услышанное. Ответ Yes подтверждает число; No означает, что нужно исправить запись."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you spell it?",
+          "ru": "Можете назвать это по буквам?",
+          "why": "Spell — по буквам, it — имя."
+        },
+        {
+          "en": "Sixteen or sixty?",
+          "ru": "Шестнадцать или шестьдесят?",
+          "why": "Or разделяет две услышанные версии."
+        },
+        {
+          "en": "Is that fifteen?",
+          "ru": "Это пятнадцать?",
+          "why": "Проверка одной конкретной версии."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Можете назвать это по буквам?",
+          "context": "spell — назвать по буквам; it — это.",
+          "answers": [
+            "Can you spell it?"
+          ],
+          "hint": "spell — назвать по буквам; it — это.",
+          "explanation": "Can you + spell.",
+          "guidance": {
+            "title": "Имя по буквам",
+            "body": "Can you spell it? — можете назвать это по буквам? Spell — произнести или написать по буквам, it — уже названное имя. Не читай буквы как звуки внутри слова: это названия букв. spell — назвать по буквам; it — это.",
+            "example": "Can you spell it?",
+            "translation": "Можете назвать это по буквам?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Четырнадцать или сорок?",
+          "context": "fourteen — 14; forty — 40; or — или.",
+          "answers": [
+            "Fourteen or forty?"
+          ],
+          "hint": "fourteen — 14; forty — 40; or — или.",
+          "explanation": "Вопрос явно называет обе версии.",
+          "guidance": {
+            "title": "Конкретный выбор",
+            "body": "Sixteen or sixty? — шестнадцать или шестьдесят? Or означает «или». Когда знаешь, что именно неясно, короткий выбор полезнее общего I don’t understand. fourteen — 14; forty — 40; or — или.",
+            "example": "Sixteen or sixty?",
+            "translation": "Шестнадцать или шестьдесят?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это пятнадцать?",
+          "context": "that — это; fifteen — 15.",
+          "answers": [
+            "Is that fifteen?"
+          ],
+          "hint": "that — это; fifteen — 15.",
+          "explanation": "Is стоит первым в вопросе.",
+          "guidance": {
+            "title": "Повтори для проверки",
+            "body": "Is that fifteen? — это пятнадцать? Is that …? проверяет услышанное. Ответ Yes подтверждает число; No означает, что нужно исправить запись. that — это; fifteen — 15.",
+            "example": "Is that fifteen?",
+            "translation": "Это пятнадцать?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала слушай отдельно пары чисел и названия букв. В основном обмене контактами записывай подтверждённые данные. Для американского названия Z используй zee.",
+      "sourceIds": [
+        "a1-voa",
+        "a1-voicemail"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "translate",
+          "prompt": "Переведи одну просьбу: «Повторите номер, пожалуйста».",
+          "context": "repeat — повторить; the number — номер; please — пожалуйста.",
+          "answers": [
+            "Can you repeat the number, please?"
+          ],
+          "hint": "repeat — повторить; the number — номер; please — пожалуйста.",
+          "explanation": "Can you + действие — короткая вежливая просьба.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Вымышленный контакт: Ben, номер 4058. Запиши имя по буквам, затем четыре цифры английскими словами. Дату пока не добавляй.",
+          "context": "four — 4; zero — 0; five — 5; eight — 8.",
+          "answers": [
+            "B-E-N. Four, zero, five, eight."
+          ],
+          "hint": "four — 4; zero — 0; five — 5; eight — 8.",
+          "explanation": "Цифры в номере называются отдельно. Не нужно превращать номер в большое число.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "В сообщении “Let’s meet at eight” непонятно, утро это или вечер. Задай один короткий вопрос, не угадывая.",
+          "context": "in the morning — утром; in the evening — вечером; or — или.",
+          "answers": [
+            "Eight in the morning or in the evening?"
+          ],
+          "hint": "in the morning — утром; in the evening — вечером; or — или.",
+          "explanation": "Короткий уточняющий вопрос может повторять только неясную часть сообщения.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Продиктуй вымышленный контакт: Ann, номер 4015. Сначала имя по буквам, затем цифры. Не разыгрывай обе стороны разговора.",
+          "context": "four — 4; zero — 0; one — 1; five — 5.",
+          "answers": [
+            "A-N-N. Four, zero, one, five."
+          ],
+          "hint": "four — 4; zero — 0; one — 1; five — 5.",
+          "explanation": "Две одинаковые буквы n нужно назвать обе. Запись позволяет проверить порядок, но текст не оценивает звуки.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи короткое исправление: «Сорок, не четырнадцать».",
+          "context": "forty — 40; fourteen — 14; not — не.",
+          "answers": [
+            "Forty, not fourteen."
+          ],
+          "hint": "forty — 40; fourteen — 14; not — не.",
+          "explanation": "Для исправления числа не требуется новая конструкция с прошедшим временем.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Вернись к своей записи из прошлого задания. Запиши услышанные имя и номер. Если записи нет, снова продиктуй Ann, 4015 и только потом сверяйся. Отдельно по-русски можешь отметить, что проверил.",
+          "context": "Ann — вымышленное имя; номер можно записать цифрами.",
+          "answers": [
+            "Ann. 4015."
+          ],
+          "hint": "Ann — вымышленное имя; номер можно записать цифрами.",
+          "explanation": "Сверяем реальные данные своей репетиции. Не требуется придумывать ошибки или писать английский отчёт о процессе.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-ordering-checkout",
+      "prerequisites": [
+        "path-requests-can",
+        "path-countability",
+        "extended-a1-order"
+      ],
+      "purpose": "Довести простой заказ до оплаты: продукт, формат, сумма.",
+      "explanation": [
+        {
+          "title": "Одна порция",
+          "body": "A small coffee — маленький кофе. Small стоит перед coffee. В кафе a coffee означает одну порцию; это не правило, что любое вещество всегда можно считать."
+        },
+        {
+          "title": "С собой или здесь",
+          "body": "To go — с собой, for here — здесь. Это обычные американские ответы на вопрос кассира. Добавь их после заказа: A small coffee to go, please."
+        },
+        {
+          "title": "Сколько всего",
+          "body": "How much is it? — сколько это стоит? That’s all, thanks — это всё, спасибо. Сначала закончи выбор, затем уточни сумму."
+        }
+      ],
+      "examples": [
+        {
+          "en": "A small coffee, please.",
+          "ru": "Маленький кофе, пожалуйста.",
+          "why": "Размер перед названием."
+        },
+        {
+          "en": "To go, please.",
+          "ru": "С собой, пожалуйста.",
+          "why": "Короткий ответ о формате заказа."
+        },
+        {
+          "en": "How much is it?",
+          "ru": "Сколько это стоит?",
+          "why": "Вопрос о цене."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Маленький чай, пожалуйста.",
+          "context": "small — маленький; tea — порция чая.",
+          "answers": [
+            "A small tea, please."
+          ],
+          "hint": "small — маленький; tea — порция чая.",
+          "explanation": "A обозначает одну порцию.",
+          "guidance": {
+            "title": "Одна порция",
+            "body": "A small coffee — маленький кофе. Small стоит перед coffee. В кафе a coffee означает одну порцию; это не правило, что любое вещество всегда можно считать. small — маленький; tea — порция чая.",
+            "example": "A small coffee, please.",
+            "translation": "Маленький кофе, пожалуйста."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "С собой, пожалуйста.",
+          "context": "to go — с собой.",
+          "answers": [
+            "To go, please."
+          ],
+          "hint": "to go — с собой.",
+          "explanation": "Естественная американская фраза.",
+          "guidance": {
+            "title": "С собой или здесь",
+            "body": "To go — с собой, for here — здесь. Это обычные американские ответы на вопрос кассира. Добавь их после заказа: A small coffee to go, please. to go — с собой.",
+            "example": "To go, please.",
+            "translation": "С собой, пожалуйста."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это всё, спасибо. Сколько это стоит?",
+          "context": "that is all — это всё; thanks — спасибо; how much — сколько стоит.",
+          "answers": [
+            "That is all, thanks. How much is it?"
+          ],
+          "hint": "that is all — это всё; thanks — спасибо; how much — сколько стоит.",
+          "explanation": "Сначала завершение заказа, затем вопрос о сумме.",
+          "guidance": {
+            "title": "Сколько всего",
+            "body": "How much is it? — сколько это стоит? That’s all, thanks — это всё, спасибо. Сначала закончи выбор, затем уточни сумму. that is all — это всё; thanks — спасибо; how much — сколько стоит.",
+            "example": "How much is it?",
+            "translation": "Сколько это стоит?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В основном диалоге не добавляй сразу пять уточнений. Скажи заказ, ответь о размере, ответь «здесь/с собой», затем проверь сумму. В примерах источника take away соответствует американскому to go.",
+      "sourceIds": [
+        "a1-cafe"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "translate",
+          "prompt": "Переведи: «Два чая с собой, пожалуйста».",
+          "context": "two teas — две порции чая; to go — с собой.",
+          "answers": [
+            "Two teas to go, please."
+          ],
+          "hint": "two teas — две порции чая; to go — с собой.",
+          "explanation": "В кафе напиток может обозначать порцию. To go — обычный американский вариант.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Меню учебного кафе: sandwich £5, tea £2. Закажи один сэндвич и один чай. Затем спроси, можно ли оплатить картой. Две короткие реплики.",
+          "context": "sandwich — сэндвич; pay by card — оплатить картой.",
+          "answers": [
+            "A sandwich and a tea, please. Can I pay by card?"
+          ],
+          "hint": "sandwich — сэндвич; pay by card — оплатить картой.",
+          "explanation": "Сначала заказ, затем способ оплаты. Не нужно писать реплики продавца.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Принесли кофе вместо чая. Вежливо перепиши “You never listen. Give me something else.” Назови ошибочный и нужный напиток.",
+          "context": "sorry — извините; this is — это; tea — чай.",
+          "answers": [
+            "Sorry, this is coffee. Tea, please."
+          ],
+          "hint": "sorry — извините; this is — это; tea — чай.",
+          "explanation": "Спокойное уточнение сообщает, что исправить, без обвинения. Прошедшее время здесь пока не требуется.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Продавец говорит, что кофе закончился. В этой репетиции ты выбираешь чай. Скажи одну короткую реплику.",
+          "context": "a tea — одна порция чая; please — пожалуйста.",
+          "answers": [
+            "A tea, please."
+          ],
+          "hint": "a tea — одна порция чая; please — пожалуйста.",
+          "explanation": "Не нужно придумывать весь разговор или разыгрывать продавца.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "translate",
+          "prompt": "Переведи вопрос: «Это цена одного чая или двух?»",
+          "context": "for one tea — за один чай; or two — или за два.",
+          "answers": [
+            "Is that for one tea or two?"
+          ],
+          "hint": "for one tea — за один чай; or two — или за два.",
+          "explanation": "Контекст цены позволяет задать короткий естественный вопрос.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "У тебя в заказе чай и сэндвич, вместе семь фунтов. Напиши другу две короткие фразы: что у тебя и сколько это стоит.",
+          "context": "I have — у меня есть; it is seven pounds — это стоит семь фунтов.",
+          "answers": [
+            "I have a tea and a sandwich. It is seven pounds."
+          ],
+          "hint": "I have — у меня есть; it is seven pounds — это стоит семь фунтов.",
+          "explanation": "5 + 2 = 7. Для простого сообщения о текущем заказе не требуется новое прошедшее время.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-ending-s-ed",
+      "prerequisites": [
+        "path-present-simple",
+        "path-past-simple",
+        "path-sound-basics"
+      ],
+      "purpose": "Слышать, что окончание добавляет смысл, и не вставлять лишний слог.",
+      "explanation": [
+        {
+          "title": "Сначала смысл",
+          "body": "She works — она работает, she worked — она работала. Конец слова сообщает о лице или времени. Если всегда проглатывать его, смысл может стать неясным."
+        },
+        {
+          "title": "Окончание s",
+          "body": "После /k/ в works слышно /s/; после /l/ в calls — /z/. После шипящих, например в washes, появляется слог /ɪz/. Выбор зависит от последнего звука, не последней буквы."
+        },
+        {
+          "title": "Окончание ed",
+          "body": "Worked заканчивается на /t/, called — на /d/. В wanted после /t/ добавляется слог /ɪd/. Поэтому worked не нужно читать как два слога. В быстрой речи окончания иногда ослабляются; начни с ясного образца."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She works.",
+          "ru": "Она работает.",
+          "why": "Окончание works произносится /s/."
+        },
+        {
+          "en": "She calls.",
+          "ru": "Она звонит.",
+          "why": "Окончание calls произносится /z/."
+        },
+        {
+          "en": "I worked. I called. I wanted it.",
+          "ru": "Я работал. Я позвонил. Я хотел это.",
+          "why": "Три окончания ed: /t/, /d/, /ɪd/."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Она работает.",
+          "context": "work — работать; she — она.",
+          "answers": [
+            "She works."
+          ],
+          "hint": "work — работать; she — она.",
+          "explanation": "С she добавь s; после проверки послушай /s/ в конце.",
+          "guidance": {
+            "title": "Сначала смысл",
+            "body": "She works — она работает, she worked — она работала. Конец слова сообщает о лице или времени. Если всегда проглатывать его, смысл может стать неясным. work — работать; she — она.",
+            "example": "She works.",
+            "translation": "Она работает."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я позвонил.",
+          "context": "call → called — позвонил.",
+          "answers": [
+            "I called."
+          ],
+          "hint": "call → called — позвонил.",
+          "explanation": "После /l/ окончание ed звучит /d/, без отдельного слога.",
+          "guidance": {
+            "title": "Окончание s",
+            "body": "После /k/ в works слышно /s/; после /l/ в calls — /z/. После шипящих, например в washes, появляется слог /ɪz/. Выбор зависит от последнего звука, не последней буквы. call → called — позвонил.",
+            "example": "She calls.",
+            "translation": "Она звонит."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я хотел это.",
+          "context": "want → wanted; it — это.",
+          "answers": [
+            "I wanted it."
+          ],
+          "hint": "want → wanted; it — это.",
+          "explanation": "После /t/ в want окончание даёт дополнительный слог.",
+          "guidance": {
+            "title": "Окончание ed",
+            "body": "Worked заканчивается на /t/, called — на /d/. В wanted после /t/ добавляется слог /ɪd/. Поэтому worked не нужно читать как два слога. В быстрой речи окончания иногда ослабляются; начни с ясного образца. want → wanted; it — это.",
+            "example": "I worked. I called. I wanted it.",
+            "translation": "Я работал. Я позвонил. Я хотел это."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала прочитай шесть слов по одному, затем фразы. При объяснении назови последний звук основы и звук окончания. Правильная расшифровка записи сама по себе не подтверждает произношение.",
+      "sourceIds": [
+        "a1-ed"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Напиши две короткие фразы: «Она работает. Она звонит». Затем послушай и сравни окончания.",
+          "context": "work — работать; call — звонить.",
+          "answers": [
+            "She works. She calls."
+          ],
+          "hint": "work — работать; call — звонить.",
+          "explanation": "После /k/ в works окончание /s/, после /l/ в calls — /z/. Английский анализ правила не требуется.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Переведи: «Вчера она позвонила мне».",
+          "context": "yesterday — вчера; call → called — позвонила; me — мне.",
+          "answers": [
+            "Yesterday she called me."
+          ],
+          "hint": "yesterday — вчера; call → called — позвонила; me — мне.",
+          "explanation": "В called окончание /d/, без нового слога.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Скажи две фразы: «Она работает каждый день. Вчера она работала». Надиктуй или запиши их; потом сравни endings works и worked.",
+          "context": "every day — каждый день; yesterday — вчера.",
+          "answers": [
+            "She works every day. Yesterday she worked."
+          ],
+          "hint": "every day — каждый день; yesterday — вчера.",
+          "explanation": "Works — привычка с she; worked — прошедшее. В этих словах окончания /s/ и /t/.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "rewrite",
+          "prompt": "Исправь две формы: “Yesterday I work. She call every day.” Перепиши оба предложения.",
+          "context": "yesterday — вчера; every day — каждый день.",
+          "answers": [
+            "Yesterday I worked. She calls every day."
+          ],
+          "hint": "yesterday — вчера; every day — каждый день.",
+          "explanation": "Для вчера нужен worked. С she в обычном распорядке нужен calls.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Напиши три коротких предложения о вымышленном вчерашнем дне: готовил, убирал, ждал. В каждом используй один глагол из подсказки.",
+          "context": "cook → cooked — готовил; clean → cleaned — убирал; wait → waited — ждал.",
+          "answers": [
+            "I cooked. I cleaned. I waited."
+          ],
+          "hint": "cook → cooked — готовил; clean → cleaned — убирал; wait → waited — ждал.",
+          "explanation": "Окончания: cooked /t/, cleaned /d/, waited /ɪd/. Только в waited добавляется слог.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Прочитай свои три предложения из предыдущего задания вслух. Затем скрой текст и повтори. Запиши произнесённые фразы; сравни одну из них по аудио.",
+          "context": "cooked — готовил; cleaned — убирал; waited — ждал.",
+          "answers": [
+            "I cooked. I cleaned. I waited."
+          ],
+          "hint": "cooked — готовил; cleaned — убирал; waited — ждал.",
+          "explanation": "Задача — сохранить маленькие окончания при повторении без текста. По расшифровке нельзя поставить балл произношению.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-schwa-wordstress",
+      "prerequisites": [
+        "path-sound-basics",
+        "research-sound-w-v-th"
+      ],
+      "purpose": "Узнать сильный слог и не стараться произносить каждый гласный одинаково чётко.",
+      "explanation": [
+        {
+          "title": "Сильный слог",
+          "body": "About /əˈbaʊt/: значок ˈ стоит перед сильным слогом. Громче и заметнее вторая часть, а не первая. About значит «о/об». Начни с одного слова, не с длинной фразы."
+        },
+        {
+          "title": "Слабый гласный",
+          "body": "/ə/ называется шва: короткий расслабленный звук без ударения. Он есть в начале about и в конце sofa /ˈsoʊfə/. Не читай любую букву a как одно и то же «а»."
+        },
+        {
+          "title": "После изменения слова проверь ударение",
+          "body": "В photograph сильнее первый слог, в photography — второй. Это разные словарные формы. Знакомое написание не гарантирует прежнего ударения. Сначала слушай два слова, потом пробуй целую фразу."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This is a sofa.",
+          "ru": "Это диван.",
+          "why": "В sofa сильнее первый слог, последний гласный слабый."
+        },
+        {
+          "en": "Tell me about it.",
+          "ru": "Расскажи мне об этом.",
+          "why": "В about ударение на втором слоге."
+        },
+        {
+          "en": "I like photography.",
+          "ru": "Мне нравится фотография как занятие.",
+          "why": "В photography основной ударный слог второй."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это диван.",
+          "context": "sofa — диван.",
+          "answers": [
+            "This is a sofa."
+          ],
+          "hint": "sofa — диван.",
+          "explanation": "После проверки послушай sofa и найди слабый последний слог.",
+          "guidance": {
+            "title": "Сильный слог",
+            "body": "About /əˈbaʊt/: значок ˈ стоит перед сильным слогом. Громче и заметнее вторая часть, а не первая. About значит «о/об». Начни с одного слова, не с длинной фразы. sofa — диван.",
+            "example": "This is a sofa.",
+            "translation": "Это диван."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Расскажи мне об этом.",
+          "context": "tell me — расскажи мне; about it — об этом.",
+          "answers": [
+            "Tell me about it."
+          ],
+          "hint": "tell me — расскажи мне; about it — об этом.",
+          "explanation": "Начало about слабое, второй слог сильный.",
+          "guidance": {
+            "title": "Слабый гласный",
+            "body": "/ə/ называется шва: короткий расслабленный звук без ударения. Он есть в начале about и в конце sofa /ˈsoʊfə/. Не читай любую букву a как одно и то же «а». tell me — расскажи мне; about it — об этом.",
+            "example": "Tell me about it.",
+            "translation": "Расскажи мне об этом."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Мне нравится фотография как занятие.",
+          "context": "like — нравиться; photography — фотография как занятие.",
+          "answers": [
+            "I like photography."
+          ],
+          "hint": "like — нравиться; photography — фотография как занятие.",
+          "explanation": "Photography отличается по ударению от photograph.",
+          "guidance": {
+            "title": "После изменения слова проверь ударение",
+            "body": "В photograph сильнее первый слог, в photography — второй. Это разные словарные формы. Знакомое написание не гарантирует прежнего ударения. Сначала слушай два слова, потом пробуй целую фразу. like — нравиться; photography — фотография как занятие.",
+            "example": "I like photography.",
+            "translation": "Мне нравится фотография как занятие."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала пройди ступени 8–9 в чтении IPA. В основной практике помечай ударный слог и слушай слово; не заменяй все безударные гласные на шва по догадке.",
+      "sourceIds": [
+        "a1-ipa",
+        "a1-rachel"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Вспомни два слова из объяснения. Напиши photograph и photography, выделив ударную часть заглавными буквами. Объяснять правило по-английски не нужно.",
+          "context": "photograph — фотография-снимок; photography — фотография как занятие.",
+          "answers": [
+            "PHOtograph. phoTOGraphy."
+          ],
+          "hint": "photograph — фотография-снимок; photography — фотография как занятие.",
+          "explanation": "Первый слог ударный в photograph, второй — в photography.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Переведи: «Моя встреча завтра».",
+          "context": "my appointment — моя назначенная встреча; tomorrow — завтра.",
+          "answers": [
+            "My appointment is tomorrow."
+          ],
+          "hint": "my appointment — моя назначенная встреча; tomorrow — завтра.",
+          "explanation": "Appointment: сильная часть POINT; tomorrow: MOR. Сначала собери смысл, затем послушай ритм.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "speak",
+          "prompt": "Скажи «Моя встреча завтра». Повтори ещё раз, выделив голосом именно завтра. В ответе напиши эту одну фразу.",
+          "context": "appointment — назначенная встреча; tomorrow — завтра.",
+          "answers": [
+            "My appointment is tomorrow."
+          ],
+          "hint": "appointment — назначенная встреча; tomorrow — завтра.",
+          "explanation": "Положение слов не меняется, но главный смысловой акцент можно перенести. Текст не показывает, как это прозвучало.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "rewrite",
+          "prompt": "Исправь обозначение ударения: “PHOtography”. Напиши слово, выделив верную ударную часть заглавными буквами.",
+          "context": "photography — фотография как занятие.",
+          "answers": [
+            "phoTOGraphy."
+          ],
+          "hint": "photography — фотография как занятие.",
+          "explanation": "Сильный второй слог. Не переносим ударение автоматически с photograph.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Напиши два коротких предложения со словами teacher и tomorrow. Можно использовать готовые смыслы: «Это мой преподаватель. Моя встреча завтра».",
+          "context": "teacher — преподаватель; appointment — встреча; tomorrow — завтра.",
+          "answers": [
+            "This is my teacher. My appointment is tomorrow."
+          ],
+          "hint": "teacher — преподаватель; appointment — встреча; tomorrow — завтра.",
+          "explanation": "В teacher ударение в начале, а в appointment и tomorrow — на втором слоге.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Прочитай свой ответ вслух, затем повтори без текста. Запиши две фразы и выбери для повторения одно слово: teacher, appointment или tomorrow. Выбор можно пояснить по-русски в заметках.",
+          "context": "Сначала слушай слово целиком; не произноси каждую букву отдельным сильным слогом.",
+          "answers": [
+            "This is my teacher. My appointment is tomorrow."
+          ],
+          "hint": "Сначала слушай слово целиком; не произноси каждую букву отдельным сильным слогом.",
+          "explanation": "Сравнивай реальную запись, не придумывай результат. Учебный разбор относится к тексту, не к акценту.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-telephone-messages",
+      "prerequisites": [
+        "path-requests-can",
+        "path-present-continuous",
+        "path-future-simple"
+      ],
+      "purpose": "Оставить сообщение так, чтобы человек понял, кто звонит и что нужно сделать.",
+      "explanation": [
+        {
+          "title": "Кто звонит",
+          "body": "This is Sam — это Сэм. По телефону это обычный способ представиться. Не нужно дословно переводить русское «Сэм говорит»."
+        },
+        {
+          "title": "Что нужно",
+          "body": "Please call me back — пожалуйста, перезвоните мне. Call back — перезвонить. Me — мне. Back здесь означает обратный звонок, а не место позади."
+        },
+        {
+          "title": "Один следующий шаг",
+          "body": "Can I leave a message? — можно оставить сообщение? Leave a message — готовое сочетание. Сначала попроси, затем назови имя, причину и номер."
+        }
+      ],
+      "examples": [
+        {
+          "en": "This is Ann.",
+          "ru": "Это Энн.",
+          "why": "Так представляются по телефону."
+        },
+        {
+          "en": "Please call me back.",
+          "ru": "Пожалуйста, перезвоните мне.",
+          "why": "Call back — перезвонить."
+        },
+        {
+          "en": "Can I leave a message?",
+          "ru": "Можно оставить сообщение?",
+          "why": "Can I — просьба о возможности."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это Сэм.",
+          "context": "this is — это; Sam — Сэм.",
+          "answers": [
+            "This is Sam."
+          ],
+          "hint": "this is — это; Sam — Сэм.",
+          "explanation": "Телефонное представление.",
+          "guidance": {
+            "title": "Кто звонит",
+            "body": "This is Sam — это Сэм. По телефону это обычный способ представиться. Не нужно дословно переводить русское «Сэм говорит». this is — это; Sam — Сэм.",
+            "example": "This is Ann.",
+            "translation": "Это Энн."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Пожалуйста, перезвоните мне.",
+          "context": "please — пожалуйста; call me back — перезвоните мне.",
+          "answers": [
+            "Please call me back."
+          ],
+          "hint": "please — пожалуйста; call me back — перезвоните мне.",
+          "explanation": "Не теряй back: оно меняет звонок на обратный.",
+          "guidance": {
+            "title": "Что нужно",
+            "body": "Please call me back — пожалуйста, перезвоните мне. Call back — перезвонить. Me — мне. Back здесь означает обратный звонок, а не место позади. please — пожалуйста; call me back — перезвоните мне.",
+            "example": "Please call me back.",
+            "translation": "Пожалуйста, перезвоните мне."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Можно оставить сообщение?",
+          "context": "leave a message — оставить сообщение.",
+          "answers": [
+            "Can I leave a message?"
+          ],
+          "hint": "leave a message — оставить сообщение.",
+          "explanation": "После can действие без to.",
+          "guidance": {
+            "title": "Один следующий шаг",
+            "body": "Can I leave a message? — можно оставить сообщение? Leave a message — готовое сочетание. Сначала попроси, затем назови имя, причину и номер. leave a message — оставить сообщение.",
+            "example": "Can I leave a message?",
+            "translation": "Можно оставить сообщение?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Слушая длинный автоответчик, выпиши имя, причину звонка, номер и нужное действие. Необязательно понимать каждое слово, но цифры и договорённость нужно перепроверить.",
+      "sourceIds": [
+        "a1-voicemail"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "translate",
+          "prompt": "Переведи: «Она сейчас недоступна. Можно передать сообщение?»",
+          "context": "available — доступна; now — сейчас; take a message — принять сообщение для передачи.",
+          "answers": [
+            "She is not available now. Can I take a message?"
+          ],
+          "hint": "available — доступна; now — сейчас; take a message — принять сообщение для передачи.",
+          "explanation": "Две короткие реплики: ситуация и предложение помочь.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Сообщение: “For bookings, press two. If nobody answers, leave your name and number.” Напиши две инструкции: что нажать и что оставить.",
+          "context": "press two — нажмите два; leave — оставьте; name and number — имя и номер.",
+          "answers": [
+            "Press two. Leave your name and number."
+          ],
+          "hint": "press two — нажмите два; leave — оставьте; name and number — имя и номер.",
+          "explanation": "Называем нужные действия без дополнительных обещаний обратного звонка.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Тебе сказали только “I’ll pass on your message” — передам сообщение. Исправь заметку “The manager will call at three”. Скажи, что время звонка неизвестно.",
+          "context": "I don’t know when — я не знаю, когда; manager — менеджер; will call — позвонит.",
+          "answers": [
+            "I don’t know when the manager will call."
+          ],
+          "hint": "I don’t know when — я не знаю, когда; manager — менеджер; will call — позвонит.",
+          "explanation": "Обещание передать сообщение не подтверждает звонок в три.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Оставь вымышленное голосовое сообщение: ты Sam, звонишь насчёт занятия и просишь перезвонить. Три короткие фразы.",
+          "context": "this is — это; calling about — звоню насчёт; class — занятие; call me back — перезвоните мне.",
+          "answers": [
+            "This is Sam. I’m calling about my class. Please call me back."
+          ],
+          "hint": "this is — это; calling about — звоню насчёт; class — занятие; call me back — перезвоните мне.",
+          "explanation": "Собеседнику понятны имя, тема и нужное действие.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Передай коллеге сообщение из вымышленного звонка: Sam просит позвонить после трёх. Одна короткая записка.",
+          "context": "call — позвоните; after three — после трёх.",
+          "answers": [
+            "Please call Sam after three."
+          ],
+          "hint": "call — позвоните; after three — после трёх.",
+          "explanation": "Не меняем after three на at three: это разные условия.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Запиши короткий учебный автоответчик: сегодня закрываемся в пять; оставьте имя и номер. Две фразы, без минимального времени.",
+          "context": "close — закрываемся; at five — в пять; leave — оставьте.",
+          "answers": [
+            "We close at five today. Please leave your name and number."
+          ],
+          "hint": "close — закрываемся; at five — в пять; leave — оставьте.",
+          "explanation": "Главные сведения слышны в коротком сообщении. Затем можно повторить без текста.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "research-apologies-remedies",
+      "prerequisites": [
+        "path-past-simple",
+        "path-future-simple",
+        "path-gerund-infinitive"
+      ],
+      "purpose": "Коротко извиниться за конкретную ошибку и сказать, как ты её исправишь.",
+      "explanation": [
+        {
+          "title": "Начни прямо",
+          "body": "I’m sorry — извини/извините. Для опоздания I’m sorry I’m late. Late — опоздавший. Не обязательно сразу объяснять всю историю дня."
+        },
+        {
+          "title": "Назови действие",
+          "body": "I’m sorry for calling late — извини за поздний звонок. После for действие с ing: calling. Эта рамка называет конкретную ошибку."
+        },
+        {
+          "title": "Предложи исправление",
+          "body": "I’ll send the right file — я отправлю правильный файл. I’ll = I will, right здесь — правильный. Обещай то действие, которое реально можешь выполнить."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I’m sorry I’m late.",
+          "ru": "Извини, что я опоздал.",
+          "why": "Late описывает твоё состояние сейчас."
+        },
+        {
+          "en": "I’m sorry for calling late.",
+          "ru": "Извини за поздний звонок.",
+          "why": "После for используем calling."
+        },
+        {
+          "en": "I’ll send the right file.",
+          "ru": "Я отправлю правильный файл.",
+          "why": "Называем конкретное исправление."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Извини, что я опоздал.",
+          "context": "I am = I’m; sorry — извини; late — опоздавший.",
+          "answers": [
+            "I am sorry I am late."
+          ],
+          "hint": "I am = I’m; sorry — извини; late — опоздавший.",
+          "explanation": "Прямое короткое извинение.",
+          "guidance": {
+            "title": "Начни прямо",
+            "body": "I’m sorry — извини/извините. Для опоздания I’m sorry I’m late. Late — опоздавший. Не обязательно сразу объяснять всю историю дня. I am = I’m; sorry — извини; late — опоздавший.",
+            "example": "I’m sorry I’m late.",
+            "translation": "Извини, что я опоздал."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Извини за поздний звонок.",
+          "context": "for calling — за звонок; late — поздно.",
+          "answers": [
+            "I am sorry for calling late."
+          ],
+          "hint": "for calling — за звонок; late — поздно.",
+          "explanation": "For + calling, не for call.",
+          "guidance": {
+            "title": "Назови действие",
+            "body": "I’m sorry for calling late — извини за поздний звонок. После for действие с ing: calling. Эта рамка называет конкретную ошибку. for calling — за звонок; late — поздно.",
+            "example": "I’m sorry for calling late.",
+            "translation": "Извини за поздний звонок."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Я отправлю правильный файл.",
+          "context": "send — отправить; right — правильный; file — файл.",
+          "answers": [
+            "I will send the right file."
+          ],
+          "hint": "send — отправить; right — правильный; file — файл.",
+          "explanation": "Will + send сообщает о следующем действии.",
+          "guidance": {
+            "title": "Предложи исправление",
+            "body": "I’ll send the right file — я отправлю правильный файл. I’ll = I will, right здесь — правильный. Обещай то действие, которое реально можешь выполнить. send — отправить; right — правильный; file — файл.",
+            "example": "I’ll send the right file.",
+            "translation": "Я отправлю правильный файл."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Основной ответ собери из трёх частей: извинение, короткое объяснение, исправление. Извинение не должно превращаться в обвинение собеседника.",
+      "sourceIds": [
+        "a2-apology"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "translate",
+          "prompt": "Переведи: «Извини, что перебил. Продолжай, пожалуйста».",
+          "context": "interrupted — перебил; please go on — продолжай, пожалуйста.",
+          "answers": [
+            "I am sorry I interrupted you. Please go on."
+          ],
+          "hint": "interrupted — перебил; please go on — продолжай, пожалуйста.",
+          "explanation": "Извинение относится к своему действию, затем собеседнику возвращается слово.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "rewrite",
+          "prompt": "Ты отправил неверный файл. Перепиши “Sorry you are confused” так, чтобы назвать свою ошибку.",
+          "context": "sent — отправил; wrong file — не тот файл.",
+          "answers": [
+            "I am sorry I sent the wrong file."
+          ],
+          "hint": "sent — отправил; wrong file — не тот файл.",
+          "explanation": "Извиняемся за своё действие, а не за чужую реакцию.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Ты перепутал время и опоздал. Напиши две короткие фразы: извинись и скажи причину.",
+          "context": "late — опоздавший; got the time wrong — перепутал время.",
+          "answers": [
+            "I’m sorry I’m late. I got the time wrong."
+          ],
+          "hint": "late — опоздавший; got the time wrong — перепутал время.",
+          "explanation": "Короткое объяснение не снимает ответственность, но помогает понять ошибку.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "Ты пропустил звонок. Скажи собеседнику, что извиняешься, и предложи перезвонить в семь. Только твои две реплики, не весь диалог.",
+          "context": "missed your call — пропустил твой звонок; at seven — в семь.",
+          "answers": [
+            "Sorry I missed your call. Can I call you at seven?"
+          ],
+          "hint": "missed your call — пропустил твой звонок; at seven — в семь.",
+          "explanation": "После извинения предлагается конкретный следующий шаг.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Человек извинился за неверный файл. Напиши две отдельные реакции: 1) всё в порядке; 2) правильный файл ещё нужен. По одной короткой фразе.",
+          "context": "that’s OK — всё в порядке; send — отправь; right file — правильный файл.",
+          "answers": [
+            "That’s OK. Please send the right file."
+          ],
+          "hint": "that’s OK — всё в порядке; send — отправь; right file — правильный файл.",
+          "explanation": "Вторая фраза не скрывает оставшееся действие.",
+          "materialIds": [],
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Вымышленная ситуация: ты отправил другу неверный адрес кафе. Извинись и скажи, что сейчас отправишь правильный. Две короткие фразы.",
+          "context": "sent — отправил; address — адрес; I’ll send — я отправлю; right one — правильный адрес; now — сейчас.",
+          "answers": [
+            "I’m sorry I sent the wrong address. I’ll send the right one now."
+          ],
+          "hint": "sent — отправил; address — адрес; I’ll send — я отправлю; right one — правильный адрес; now — сейчас.",
+          "explanation": "Конкретная ошибка и конкретное исправление. Не нужен большой рассказ с неизвестными подробностями.",
+          "materialIds": [],
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "lessonId": "natural-a1-welcome",
+      "prerequisites": [
+        "path-be",
+        "path-possession",
+        "research-spelling-numbers"
+      ],
+      "purpose": "Расслышать знакомство в реальной записи, начиная с одного имени.",
+      "explanation": [
+        {
+          "title": "Одна цель на прослушивание",
+          "body": "Сначала найди только имя. My name is … — меня зовут … . Не старайся сразу пересказать весь разговор. На втором прослушивании можно проверить буквы."
+        },
+        {
+          "title": "Знакомая короткая реакция",
+          "body": "Nice to meet you — приятно познакомиться. Это готовая вежливая фраза. Nice — приятно, meet — встретить/познакомиться, you — тебя/вас. Не нужно до разговора изучать все значения nice."
+        },
+        {
+          "title": "Уточни конкретное",
+          "body": "Is that Park Street? — это Парк-стрит? Street — улица. Вопрос проверяет адрес, а не предлагает его придумать. Если не слышишь, вернись к нужному фрагменту или открой расшифровку."
+        }
+      ],
+      "examples": [
+        {
+          "en": "My name is Zoe.",
+          "ru": "Меня зовут Зои.",
+          "why": "Сначала фраза знакомства и имя."
+        },
+        {
+          "en": "Nice to meet you.",
+          "ru": "Приятно познакомиться.",
+          "why": "Готовая дружелюбная реакция."
+        },
+        {
+          "en": "Is that Park Street?",
+          "ru": "Это Парк-стрит?",
+          "why": "Проверяется одна версия адреса."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Меня зовут Энн.",
+          "context": "my name — моё имя; Ann — Энн.",
+          "answers": [
+            "My name is Ann."
+          ],
+          "hint": "my name — моё имя; Ann — Энн.",
+          "explanation": "Is соединяет фразу и имя.",
+          "guidance": {
+            "title": "Одна цель на прослушивание",
+            "body": "Сначала найди только имя. My name is … — меня зовут … . Не старайся сразу пересказать весь разговор. На втором прослушивании можно проверить буквы. my name — моё имя; Ann — Энн.",
+            "example": "My name is Zoe.",
+            "translation": "Меня зовут Зои."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Приятно познакомиться.",
+          "context": "nice to meet you — готовая фраза знакомства.",
+          "answers": [
+            "Nice to meet you."
+          ],
+          "hint": "nice to meet you — готовая фраза знакомства.",
+          "explanation": "Так отвечают при первом знакомстве.",
+          "guidance": {
+            "title": "Знакомая короткая реакция",
+            "body": "Nice to meet you — приятно познакомиться. Это готовая вежливая фраза. Nice — приятно, meet — встретить/познакомиться, you — тебя/вас. Не нужно до разговора изучать все значения nice. nice to meet you — готовая фраза знакомства.",
+            "example": "Nice to meet you.",
+            "translation": "Приятно познакомиться."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-3",
+          "revision": 1,
+          "kind": "translate",
+          "prompt": "Это Пайн-стрит?",
+          "context": "that — это; Pine Street — Пайн-стрит.",
+          "answers": [
+            "Is that Pine Street?"
+          ],
+          "hint": "that — это; Pine Street — Пайн-стрит.",
+          "explanation": "В вопросе is перед that.",
+          "guidance": {
+            "title": "Уточни конкретное",
+            "body": "Is that Park Street? — это Парк-стрит? Street — улица. Вопрос проверяет адрес, а не предлагает его придумать. Если не слышишь, вернись к нужному фрагменту или открой расшифровку. that — это; Pine Street — Пайн-стрит.",
+            "example": "Is that Park Street?",
+            "translation": "Это Парк-стрит?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала открой именно короткий Conversation из источника и поймай имя. Затем проверь написание и адрес. Своё первое резюме можно собрать из двух уже освоенных коротких фраз.",
+      "sourceIds": [
+        "a1-voa"
+      ],
+      "replacements": [
+        {
+          "id": "e1",
+          "kind": "write",
+          "prompt": "Послушай короткий Conversation один раз. Как зовут двух людей? Напиши только два имени. Текст пока не открывай.",
+          "context": "and — и; слушай фразу My name is.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "Anna and Pete."
+          ],
+          "hint": "and — и; слушай фразу My name is.",
+          "explanation": "Первый шаг — имена, без необходимости описывать всю ситуацию.",
+          "revision": 1
+        },
+        {
+          "id": "e2",
+          "kind": "write",
+          "prompt": "Послушай ещё раз. Напиши имя девушки по буквам. Сколько букв N? Можно ответить самой последовательностью букв.",
+          "context": "Имя произносится целиком, затем по буквам; N называется /ɛn/.",
+          "materialIds": [
+            "m1"
+          ],
+          "answers": [
+            "A-N-N-A."
+          ],
+          "hint": "Имя произносится целиком, затем по буквам; N называется /ɛn/.",
+          "explanation": "Две N — существенная деталь, которую уточняет разговор.",
+          "revision": 1
+        },
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Теперь открой m2. Запиши адрес из разговора одной строкой. Номер квартиры не придумывай: он не назван.",
+          "context": "street — улица; адрес можно написать цифрами.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "1400 Irving Street."
+          ],
+          "hint": "street — улица; адрес можно написать цифрами.",
+          "explanation": "Номер дома известен, номер квартиры — нет.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "speak",
+          "prompt": "По m3 представься вымышленному соседу под именем Sam. Назови имя, затем произнеси его по буквам. Две короткие части.",
+          "context": "my name is — меня зовут; S /ɛs/, A /eɪ/, M /ɛm/.",
+          "materialIds": [
+            "m3"
+          ],
+          "answers": [
+            "My name is Sam. S-A-M."
+          ],
+          "hint": "my name is — меня зовут; S /ɛs/, A /eɪ/, M /ɛm/.",
+          "explanation": "Переносим способ знакомства в другой разговор, не повторяем имя героини.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "После паузы снова послушай Conversation. Запиши имя по буквам и адрес. Затем задай один вопрос о неизвестном номере квартиры.",
+          "context": "what is your apartment number? — какой у тебя номер квартиры?",
+          "materialIds": [
+            "m1",
+            "m2"
+          ],
+          "answers": [
+            "A-N-N-A. 1400 Irving Street. What is your apartment number?"
+          ],
+          "hint": "what is your apartment number? — какой у тебя номер квартиры?",
+          "explanation": "Известное восстанавливаем по записи; неизвестное спрашиваем. Пауза сама по себе не доказывает устойчивое запоминание.",
+          "revision": 1
+        }
+      ]
+    }
+  ]
+}

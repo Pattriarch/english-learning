@@ -81,8 +81,19 @@ function marked(entry, day) {
 function exerciseList(lesson) {return arr(lesson?.exercises).filter(e=>safeId(e?.id));}
 function lessonWork(lesson, latest) {
  const all = exerciseList(lesson), submitted = all.map(e=>latest.get(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))).filter(Boolean);
- const covered=all.length>0&&submitted.length===all.length;
+ const covered=all.length>0&&submitted.length===all.length&&(!(lesson.courseGuide||lesson.beginner)||!submitted.some(a=>['partial','incorrect'].includes(a.feedback?.verdict)));
  return {started:submitted.length>0,covered,done:covered&&submitted.filter(a=>a.feedback?.verdict==='correct').length>=Math.ceil(all.length*.8)};
+}
+function pendingCourseExercises(lesson,latest){
+ return exerciseList(lesson).filter(e=>{const a=latest.get(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]));return !a||['partial','incorrect'].includes(a.feedback?.verdict);});
+}
+function missingPrerequisite(lesson,data,latest,seen=new Set()){
+ if(seen.has(lesson.id))return null;seen.add(lesson.id);
+ for(const id of arr(lesson.prerequisites)){
+  const previous=arr(data.lessons).find(l=>l?.id===id);
+  if(previous&&!lessonWork(previous,latest).covered)return missingPrerequisite(previous,data,latest,seen)||previous;
+ }
+ return null;
 }
 function bookWork(id, latest, data) {
  const submitted = [...latest.values()].filter(a=>identity(a).lessonId === 'book-'+id);
@@ -98,11 +109,14 @@ function topicFor(data, level) {
  const latest = latestAnswers(data.state?.attempts), availableLessons=lessonSequence(data.lessons,data.learningPath).filter(record=>LEVELS.indexOf(record.level)>=LEVELS.indexOf(level)&&lessonRouteInfo(record.lesson.id,data.studyRoute).introduction&&exerciseList(record.lesson).length);
  const lessons = availableLessons.filter(({lesson:l})=>!/extended-|cinema-|reading|listening|writing|speaking|pronunciation|vocab|narrative|essay|rhetorical|literary|lecture|discourse-listening/.test(l.id)&&!arr(l.materials).some(m=>['reading','listening','dialogue'].includes(m.kind)||m.inputSkill==='listening'));
  const known = lessons.map(({lesson:l,level:courseLevel})=>({id:l.id,title:String(l.title||'Занятие'),href:'#/lesson/'+l.id,courseLevel,lesson:l,...lessonWork(l,latest)})).filter(l=>!l.covered);
- const chosen = known.find(l=>l.courseLevel===known[0]?.courseLevel&&l.started) || known[0];
+ let chosen = known[0]?.lesson.courseGuide?known[0]:(known.find(l=>l.courseLevel===known[0]?.courseLevel&&l.started) || known[0]);
  if (!chosen) return null;
+ const prerequisite=missingPrerequisite(chosen.lesson,data,latest);
+ if(prerequisite){const placed=lessonSequence(data.lessons,data.learningPath).find(r=>r.lesson.id===prerequisite.id);chosen={id:prerequisite.id,title:prerequisite.title,href:'#/lesson/'+prerequisite.id,courseLevel:placed?.level||level,lesson:prerequisite,prerequisite:true,...lessonWork(prerequisite,latest)};}
  const sourceIds=exerciseList(chosen.lesson).map(authoredExerciseID);
- const ids=sourceIds.filter(id=>!latest.has(JSON.stringify([chosen.id,baseExercise(id)])));
- return {...chosen,exerciseIds:ids.length?ids:sourceIds};
+ const ids=chosen.lesson.courseGuide?pendingCourseExercises(chosen.lesson,latest).map(authoredExerciseID):sourceIds.filter(id=>!latest.has(JSON.stringify([chosen.id,baseExercise(id)])));
+ const first=chosen.lesson.courseGuide?exerciseList(chosen.lesson).findIndex(e=>authoredExerciseID(e)===ids[0]):-1;
+ return {...chosen,href:first>=0?'#/lesson/'+chosen.id+'/'+first:chosen.href,exerciseIds:ids.length?ids:sourceIds};
 }
 
 export function optionalBookPractice(data={},limit=4){
@@ -127,16 +141,19 @@ function inputExercises(lesson,skill) {
  return exerciseList(lesson).filter(e=>['write','speak'].includes(e.kind)&&!/^Открой «Медиатеку»/.test(e.prompt||'')&&(!arr(lesson.materials).length||matchingMaterials(lesson,e,skill).length));
 }
 function inputLesson(data,level,skill,domain,reserved=new Set()) {
+ const latest=latestAnswers(data.state?.attempts);
+ const preparation=lesson=>pendingCourseExercises(lesson,latest).filter(e=>e.practiceStage==='guided');
  const availableInput=lesson=>inputExercises(lesson,skill).filter(ex=>!reserved.has(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(ex))])));
  const candidates=lessonSequence(data.lessons,data.learningPath).filter(record=>record.level===level&&lessonRouteInfo(record.lesson.id,data.studyRoute).introduction&&exerciseList(record.lesson).length).map(record=>record.lesson).filter(l=>{
   if(arr(l.materials).length)return inputExercises(l,skill).length;
   if(l.id.startsWith('cinema-')) return domain==='culture'&&skill==='listening'&&l.id.endsWith('-listen');
   return skill==='reading'?/reading|rhetorical-analysis/.test(l.id):/listening/.test(l.id);
- }).filter(l=>availableInput(l).length);
- const latest=latestAnswers(data.state?.attempts);
+ }).filter(l=>availableInput(l).length&&!missingPrerequisite(l,data,latest)&&(!l.courseGuide||!preparation(l).length||preparation(l).some(e=>!reserved.has(JSON.stringify([l.id,baseExercise(authoredExerciseID(e))])))));
  const records=candidates.map(l=>({lesson:l,...lessonWork({...l,exercises:availableInput(l)},latest),last:Math.max(0,...[...latest.values()].filter(a=>identity(a).lessonId===l.id).map(a=>validTime(a.at)))}));
  records.sort((a,b)=>Number(a.covered)-Number(b.covered)||Number(b.started)-Number(a.started)||Number(arr(b.lesson.materials).some(m=>m.inputSkill===skill))-Number(arr(a.lesson.materials).some(m=>m.inputSkill===skill))||Number(arr(b.lesson.materials)[0]?.kind===skill)-Number(arr(a.lesson.materials)[0]?.kind===skill)||Number(arr(b.lesson.materials).length>0)-Number(arr(a.lesson.materials).length>0)||(domain==='culture'?Number(b.lesson.id.startsWith('cinema-'))-Number(a.lesson.id.startsWith('cinema-')):0)||a.last-b.last);
  const lesson=records[0]?.lesson;if(!lesson)return null;
+ const support=lesson.courseGuide?preparation(lesson).filter(e=>!reserved.has(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))):[];
+ if(support.length)return {lesson,preparation:true,retention:false,exerciseIds:support.map(authoredExerciseID)};
  const ids=availableInput(lesson).filter(e=>!latest.has(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))).map(authoredExerciseID);
  return {lesson,retention:records[0].covered,exerciseIds:ids.length?ids:availableInput(lesson).map(authoredExerciseID)};
 }
@@ -146,6 +163,13 @@ function metadata(data) {
 }
 function answerSkills(a, meta) {
  const {lessonId,exerciseId}=identity(a), result=new Set(), l=meta.lessons.get(lessonId), e=exerciseList(l).find(e=>baseExercise(authoredExerciseID(e))===exerciseId);
+ // Translating a preparation phrase is output practice, not evidence that the
+ // learner has already read or listened to this lesson's source material.
+ if(e?.practiceStage==='guided'){
+  result.add(a.mode==='speaking'?'speaking':'writing');
+  if(!arr(l?.materials).length)result.add(/vocab|collocation|phrasal/.test(l.id)?'vocabulary':'grammar');
+  return result;
+ }
  if(lessonId==='conversation'){if(a.mode==='writing')result.add('writing');}
  else if(lessonId.startsWith('project-')){if(['reading','listening','writing'].includes(exerciseId))result.add(exerciseId);if(exerciseId==='mediation'||exerciseId==='revision'||exerciseId==='transfer')result.add('writing');}
  else if(l?.studyPlan){
@@ -244,6 +268,10 @@ export function createDailyPlan(data={},options={},now=new Date()) {
  const seed=Math.floor(Date.UTC(date.getFullYear(),date.getMonth(),date.getDate())/86400000),situations=[DOMAINS[domain],...MORE_SITUATIONS[domain]],rotation=((seed%situations.length)+situations.length)%situations.length;
  const context={...DOMAINS[domain],...situations[rotation]},heard={...DOMAINS[domain],...situations[(rotation+1)%situations.length]};
  const weekly=weeklySummary(data,date,options.manualDays),weak=weekly.weakSkills,topic=topicFor(data,level),errors=recentErrors(state,date,data.lessons,data.bookLessons);
+ if(topic?.prerequisite&&['A1','A2'].includes(topic.courseLevel)){
+  const support=beginnerPlan(data,{level:topic.courseLevel,minutes,domain},date);
+  if(support)return {...support,level,courseLevel:topic.courseLevel,blocks:support.blocks.map(b=>b.skill==='review'?b:{...b,title:'Опора '+topic.courseLevel+': '+b.title})};
+ }
  const due=arr(state.cards).filter(c=>typeof c?.id==='string' && c.id && Number.isFinite(validTime(c.due)) && validTime(c.due)<=date.getTime()).sort((a,b)=>validTime(a.due)-validTime(b.due)||a.id.localeCompare(b.id));
  const input=weak.find(s=>['reading','listening'].includes(s))||'listening',output=weak.find(s=>['speaking','writing'].includes(s))||'speaking';
  let selected;
@@ -257,7 +285,7 @@ export function createDailyPlan(data={},options={},now=new Date()) {
  const blocks=selected.map(skill=>{
   const block={id:skill,skill,title:LABELS[skill],instruction:'',why:'',minutes:allocated[skill],href:'#/review',target:{kind:'manual',count:1}};
   if(skill==='grammar') {
-   block.title=topic?(topic.courseLevel!==level?'Следующий шаг · '+topic.courseLevel+': ':'')+topic.title:'Конструкция в собственной мысли';block.instruction=topic?'Разбери одну тему. Закрой примеры, напиши свои полные ответы, затем прочитай проверку и объясни себе исправление. Одно прочтение не завершает практику.':'Переведи свои мысли полными предложениями и объясни выбор времени.';
+   block.title=topic?(topic.prerequisite?'Сначала опора · '+topic.courseLevel+': ':topic.courseLevel!==level?'Следующий шаг · '+topic.courseLevel+': ':'')+topic.title:'Конструкция в собственной мысли';block.instruction=topic?'Иди по порядку: сначала объяснение и подготовительные фразы, затем самостоятельные ответы. После проверки разберись в исправлении. Одно прочтение не завершает практику.':'Переведи свои мысли полными предложениями и объясни выбор времени.';
    block.why=topic?.started?'Продолжаем тему с твоими ответами. Ошибки показывают, что стоит доработать.':topic?.courseLevel&&topic.courseLevel!==level?'По грамматическим темам выбранного этапа уже есть твои ответы. Следующая тема находится в '+topic.courseLevel+'. Настройка уровня для остальных навыков остаётся прежней.':topic?'Одна новая тема за день оставляет время применить её в речи и письме.':'Своя ситуация показывает, какие конструкции ты можешь использовать самостоятельно.';
    if(topic){for(const id of topic.exerciseIds)reserved.add(JSON.stringify([topic.id,baseExercise(id)]));return {...block,href:topic.href,target:{kind:'attempts',count:Math.min(3,topic.exerciseIds.length||3),lessonIds:[topic.id],...(topic.exerciseIds.length?{exerciseIds:topic.exerciseIds}:{})}};}
    return practice(block,day,level,'translation',`Тема: ${context.label}. Напиши три разные мысли по-русски о том, как ${context.situation}, затем переведи их на английский полными предложениями. Объясни на русском выбор одной конструкции. Не подставляй отдельные слова.`);
@@ -267,6 +295,7 @@ export function createDailyPlan(data={},options={},now=new Date()) {
    if(prepared) {
     for(const id of prepared.exerciseIds)reserved.add(JSON.stringify([prepared.lesson.id,baseExercise(id)]));
     const first=exerciseList(prepared.lesson).findIndex(e=>authoredExerciseID(e)===prepared.exerciseIds[0])+1;
+    if(prepared.preparation)return {...block,skill:'writing',title:'Подготовка: '+prepared.lesson.title,instruction:'Сначала разберись в объяснении и напиши короткие фразы с опорой. Чтение или слушание материала начнется после этой подготовки.',why:'Эти ответы тренируют нужные выражения. Они не засчитываются как уже выполненное чтение или аудирование.',href:'#/lesson/'+prepared.lesson.id+'/'+(first-1),target:{kind:'attempts',exactExerciseIds:true,count:Math.min(2,prepared.exerciseIds.length),lessonIds:[prepared.lesson.id],exerciseIds:prepared.exerciseIds}};
     return {...block,title:(prepared.retention?'Повторение: ':'')+prepared.lesson.title,instruction:(prepared.retention?'Вернись к знакомому материалу без старого ответа. ':'')+`В практике начни с задания ${first}. `+(skill==='reading'?'Прочитай учебный фрагмент, закрой опору и ответь своими словами. Разделяй прямые утверждения, выводы и то, что остаётся неизвестным.':'Сначала прослушай учебные примеры или текст без расшифровки, затем проверь детали и сохрани собственный ответ. Для живой речи используй свой фрагмент в медиатеке.'),why:prepared.retention?'Это повторная практика уже выполненного материала. Восстанови смысл самостоятельно; повтор не добавляет новую тему в пройденную программу.':'Подготовленная практика твоего уровня включает учебные фрагменты и собственный ответ. Перевод вводных фраз сам по себе этот блок не закрывает.',href:'#/lesson/'+prepared.lesson.id+'/'+(first-1),target:{kind:'attempts',count:Math.min(2,prepared.exerciseIds.length),lessonIds:[prepared.lesson.id],exerciseIds:prepared.exerciseIds}};
    }
    block.title=skill==='reading'?'Прочитать и понять позицию':'Услышать и восстановить смысл';

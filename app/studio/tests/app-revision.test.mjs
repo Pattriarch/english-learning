@@ -4,7 +4,7 @@ import {studyUI} from './study-ui-fixture.mjs';
 import {readFileSync} from 'node:fs';
 
 // Exercise the real lesson renderer and submit handler without booting the app.
-const lessonOnly=raw=>{const source=raw.replace(/\r\n/g,'\n');return source.split('\n').filter(line=>/^import .*from '\.\/(core|audio|authored-exercise|lesson-materials|lesson-guidance)\.js';$/.test(line)).join('\n')+'\nlet data;async function refresh(){data=await api("/bootstrap");}\n'+source.slice(source.indexOf('function lesson(id,index){'),source.indexOf('\n}',source.indexOf('function lesson(id,index){'))+2)+'\nexport function mount(next,id,index){data=next;lesson(id,index);}';};
+const lessonOnly=raw=>{const source=raw.replace(/\r\n/g,'\n');return source.split('\n').filter(line=>/^import .*from '\.\/(core|audio|authored-exercise|lesson-materials|lesson-guidance|course-guide|lesson-sequence)\.js';$/.test(line)).join('\n')+'\nlet data;async function refresh(){data=await api("/bootstrap");}\n'+source.slice(source.indexOf('function lesson(id,index){'),source.indexOf('\n}',source.indexOf('function lesson(id,index){'))+2)+'\nexport function mount(next,id,index){data=next;lesson(id,index);}';};
 
 test('real beginner UI puts the bilingual teaching card before the task and lets the learner remove it',async t=>{
  const f=await studyUI(t,'app.js',{'lesson-materials':{mountLessonMaterials(){}}},lessonOnly);

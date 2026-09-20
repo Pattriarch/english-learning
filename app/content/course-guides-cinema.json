@@ -1,0 +1,2434 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "voa-clefts",
+      "title": "VOA Everyday Grammar: Cleft Sentences in Speaking, Writing",
+      "url": "https://learningenglish.voanews.com/a/cleft-sentences-in-speaking-writing/5164836.html",
+      "kind": "audio-transcript",
+      "notes": "Прочитан опубликованный транскрипт: сначала ситуация и контраст, затем название конструкции. Аудио не прослушано инструментом."
+    },
+    {
+      "id": "gmu-hedges",
+      "title": "George Mason University Writing Center: Hedges",
+      "url": "https://writingcenter.gmu.edu/writing-resources/research-based-writing/hedges-softening-claims-in-academic-writing",
+      "kind": "university-writing",
+      "notes": "Проверка принципа соразмерности формулировки доказательству; собственные учебные мини-ситуации."
+    },
+    {
+      "id": "purdue-concision",
+      "title": "Purdue OWL: Concision",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/index.html",
+      "kind": "university-writing",
+      "notes": "Методическая опора: ясный смысл и точные слова важнее минимального числа слов."
+    },
+    {
+      "id": "purdue-synthesis",
+      "title": "Purdue OWL: Synthesizing Sources",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/conducting_research/research_overview/synthesizing_sources.html",
+      "kind": "university-writing",
+      "notes": "Методическая опора: строить связи по вопросу и не выдумывать согласие источников."
+    },
+    {
+      "id": "uvu-rhetoric",
+      "title": "Utah Valley University: Rhetorical Analysis",
+      "url": "https://www.uvu.edu/writingcenter/handouts/rhetorical-analysis.html",
+      "kind": "university-writing",
+      "notes": "Разбор цели, аудитории, языковой детали и эффекта; не готовая трактовка вымышленных текстов приложения."
+    },
+    {
+      "id": "rachel-stress",
+      "title": "Rachel’s English: Is Rachel Stressed? — Video Transcript",
+      "url": "https://rachelsenglish.com/english-conversation-exercise-rachel-stressed-ben-franklin-exericse/",
+      "kind": "video-transcript",
+      "notes": "Прочитан текст разбора реального разговора: контекст объясняет выделение you; имеются сокращения и связки. Видео не объявляется просмотренным."
+    },
+    {
+      "id": "cam-discourse",
+      "title": "Cambridge English Grammar Today: Discourse markers",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/discourse-markers-so-right-okay.",
+      "kind": "reference",
+      "notes": "Проверка различий между связью мыслей, сменой темы и реакцией собеседника."
+    },
+    {
+      "id": "bc-reporting",
+      "title": "British Council: Patterns with reporting verbs",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
+      "kind": "reference",
+      "notes": "Проверка рамок suggest doing, advise someone to do, deny doing."
+    },
+    {
+      "id": "bc-conditionals",
+      "title": "British Council: Inversion and conditionals",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals",
+      "kind": "reference",
+      "notes": "Проверка рамок had/should/were; не любое if-условие допускает механическую инверсию."
+    },
+    {
+      "id": "cam-politeness",
+      "title": "Cambridge English Grammar Today: Politeness",
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/politeness",
+      "kind": "reference",
+      "notes": "Проверка связи формы просьбы, дистанции и контекста; не универсальная шкала вежливости."
+    },
+    {
+      "id": "cam-aspect",
+      "title": "Cambridge English Grammar Today: Present continuous",
+      "url": "https://dictionary.cambridge.org/us/grammar/british-grammar/present-continuous-i-am-",
+      "kind": "reference",
+      "notes": "Опора для различий временного поведения и текущего процесса."
+    },
+    {
+      "id": "cam-determiners",
+      "title": "British Council: Few, a few, little and a bit of",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/quantifiers-few-a-few-little-a-bit",
+      "kind": "reference",
+      "notes": "Проверка значения количества; артикли и количество связываются с точкой зрения говорящего."
+    },
+    {
+      "id": "film-method",
+      "title": "British Council: How can film help you teach or learn English?",
+      "url": "https://www.britishcouncil.org/voices-magazine/how-can-film-help-you-teach-or-learn-english",
+      "kind": "teaching-method",
+      "notes": "Короткая сцена как материал для осмысленных языковых действий; не источник диалогов сериала."
+    },
+    {
+      "id": "captions-study",
+      "title": "Pujadas & Muñoz: TV viewing comprehension through captions and subtitles",
+      "url": "https://www.cambridge.org/core/product/identifier/S0272263120000042/type/journal_article",
+      "kind": "research",
+      "notes": "Публичное описание исследования: роль уровня, предварительного словаря и субтитров. Не обоснование универсального запрета субтитров и не обещание конкретного роста уровня."
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "cinema-bcs-s01e01-prepare",
+      "prerequisites": [
+        "path-present-simple",
+        "path-present-continuous",
+        "path-polite-questions"
+      ],
+      "purpose": "Перед Uno тренируем две вещи: коротко представить себя и попросить немного времени. Задача — понятная просьба, а не убедительная речь с первого предложения.",
+      "explanation": [
+        {
+          "title": "Обычная работа и нынешняя задача",
+          "body": "I work with local shops — моя обычная работа. I am helping one shop this week — временная задача. Выбирай форму по смыслу, а не только по наличию слова now."
+        },
+        {
+          "title": "Просьба о небольшой возможности",
+          "body": "Could you give me five minutes? просит понятную небольшую уступку. Затем скажи, зачем: to explain the plan. Собеседник видит и размер просьбы, и её цель."
+        },
+        {
+          "title": "С чем входить в сцену",
+          "body": "Подготовь вопрос: What does he want from the listener? — чего он хочет от собеседника? В эпизоде ищи ответ, а не все неизвестные слова. Учебные фразы здесь авторские, не реплики сериала."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I work with small stores.",
+          "ru": "Я работаю с небольшими магазинами.",
+          "why": "Устойчивое занятие."
+        },
+        {
+          "en": "Could you give me five minutes to explain?",
+          "ru": "Не могли бы вы дать мне пять минут на объяснение?",
+          "why": "Ограниченная просьба с понятной целью."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Обычно я работаю один, но сегодня помогаю команде». Usually; alone; help a team.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Uno тренируем две вещи: коротко представить себя и попросить немного времени. Задача — понятная просьба, а не убедительная речь с первого предложения.",
+          "answers": [
+            "I usually work alone, but today I am helping a team."
+          ],
+          "hint": "Обычное и временное требуют разных форм.",
+          "explanation": "Simple задаёт фон; continuous — сегодняшнюю задачу.",
+          "guidance": {
+            "title": "Обычная работа и нынешняя задача",
+            "body": "I work with local shops — моя обычная работа. I am helping one shop this week — временная задача. Выбирай форму по смыслу, а не только по наличию слова now.",
+            "example": "I work with small stores.",
+            "translation": "Я работаю с небольшими магазинами."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Не могли бы вы дать мне минуту?»",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Uno тренируем две вещи: коротко представить себя и попросить немного времени. Задача — понятная просьба, а не убедительная речь с первого предложения.",
+          "answers": [
+            "Could you give me a minute?"
+          ],
+          "hint": "Give me a minute — дать минуту.",
+          "explanation": "Короткая форма уже выполняет реальную просьбу.",
+          "guidance": {
+            "title": "Просьба о небольшой возможности",
+            "body": "Could you give me five minutes? просит понятную небольшую уступку. Затем скажи, зачем: to explain the plan. Собеседник видит и размер просьбы, и её цель.",
+            "example": "Could you give me five minutes to explain?",
+            "translation": "Не могли бы вы дать мне пять минут на объяснение?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Затем выполни подготовительные переводы. Не переходи к длинному письму, пока можешь уверенно назвать свою роль и размер просьбы.",
+      "sourceIds": [
+        "cam-aspect",
+        "cam-politeness",
+        "film-method"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e01-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e01-prepare",
+        "path-reading-inference"
+      ],
+      "purpose": "Во время Uno ищем, как человек пытается заслужить доверие: что он обещает и что собеседник считает риском.",
+      "explanation": [
+        {
+          "title": "Первый проход — просьба и реакция",
+          "body": "В короткой сцене поймай три вещи: кто просит, о чём и получает ли согласие. Не останавливайся на каждом слове. Если общий смысл потерян, включи английские субтитры и повтори короткий участок."
+        },
+        {
+          "title": "Второй проход — предел обещания",
+          "body": "I can explain the options слабее, чем I guarantee success. Услышь can, cannot, only и условия. Именно они показывают, что человек действительно берётся сделать."
+        },
+        {
+          "title": "Проверь, откуда твои сведения",
+          "body": "В уроке есть отдельная учебная история о консультанте, а задание по эпизоду требует твоего просмотра. Не смешивай персонажей и факты двух источников. У сцены сохрани свою отметку времени."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I can explain the options, but I cannot promise a result.",
+          "ru": "Я могу объяснить варианты, но не могу обещать результат.",
+          "why": "Граница обещания названа прямо."
+        },
+        {
+          "en": "The listener agrees to a short conversation, not to a contract.",
+          "ru": "Собеседник согласился на короткий разговор, а не на договор.",
+          "why": "Маленькое согласие не расширено до большого."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-реплика: I can listen for five minutes, but I cannot hire anyone today. На что собеседник согласен? Одно предложение.",
+          "context": "Учебная мини-ситуация перед основной практикой. Во время Uno ищем, как человек пытается заслужить доверие: что он обещает и что собеседник считает риском.",
+          "answers": [
+            "The listener agrees to listen for five minutes."
+          ],
+          "hint": "Hire — нанять; это действие пока исключено.",
+          "explanation": "Различаем внимание и решение о найме.",
+          "guidance": {
+            "title": "Первый проход — просьба и реакция",
+            "body": "В короткой сцене поймай три вещи: кто просит, о чём и получает ли согласие. Не останавливайся на каждом слове. Если общий смысл потерян, включи английские субтитры и повтори короткий участок.",
+            "example": "I can explain the options, but I cannot promise a result.",
+            "translation": "Я могу объяснить варианты, но не могу обещать результат."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Он предлагает объяснение, а не гарантию». Offers an explanation; a guarantee.",
+          "context": "Учебная мини-ситуация перед основной практикой. Во время Uno ищем, как человек пытается заслужить доверие: что он обещает и что собеседник считает риском.",
+          "answers": [
+            "He offers an explanation, not a guarantee."
+          ],
+          "hint": "Назови конкретный тип обещания.",
+          "explanation": "Не усиливаем сказанное до гарантированного успеха.",
+          "guidance": {
+            "title": "Второй проход — предел обещания",
+            "body": "I can explain the options слабее, чем I guarantee success. Услышь can, cannot, only и условия. Именно они показывают, что человек действительно берётся сделать.",
+            "example": "The listener agrees to a short conversation, not to a contract.",
+            "translation": "Собеседник согласился на короткий разговор, а не на договор."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала ответь по учебному аудиотексту, затем отдельно выбери сцену Uno. При втором просмотре сравни услышанное с субтитрами, потом снова скрой их.",
+      "sourceIds": [
+        "film-method",
+        "captions-study"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e01-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e01-listen",
+        "path-email-basic"
+      ],
+      "purpose": "Теперь переносим язык знакомства в своё письмо: коротко объяснить пользу, признать сомнение клиента и предложить небольшой следующий шаг.",
+      "explanation": [
+        {
+          "title": "Письмо начинается с задачи клиента",
+          "body": "Не перечисляй все свои качества. Назови проблему адресата: You need a clear estimate. Затем напиши, что можешь сделать для этой конкретной проблемы."
+        },
+        {
+          "title": "Сомнение можно признать без капитуляции",
+          "body": "I understand your concern about my experience не означает «я бесполезен». Это признание понятного вопроса. Дальше предложи проверяемый небольшой шаг, а не чрезмерное обещание."
+        },
+        {
+          "title": "Собери абзац из коротких функций",
+          "body": "Проблема → помощь → граница → следующий шаг. Сначала напиши по одному предложению на пункт; затем добавь детали для большого задания. Устную версию сделай короче письменной."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I understand your concern about my experience.",
+          "ru": "Я понимаю ваше сомнение насчёт моего опыта.",
+          "why": "Признаём вопрос без самообесценивания."
+        },
+        {
+          "en": "We could start with a short meeting and a written estimate.",
+          "ru": "Мы могли бы начать с короткой встречи и письменной оценки.",
+          "why": "Следующий шаг небольшой и проверяемый."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Я могу проверить план, но не могу гарантировать результат». Review the plan; guarantee the result.",
+          "context": "Учебная мини-ситуация перед основной практикой. Теперь переносим язык знакомства в своё письмо: коротко объяснить пользу, признать сомнение клиента и предложить небольшой следующий шаг.",
+          "answers": [
+            "I can review the plan, but I cannot guarantee the result."
+          ],
+          "hint": "Назови пользу и предел одним связным сообщением.",
+          "explanation": "Обещание остаётся честным.",
+          "guidance": {
+            "title": "Письмо начинается с задачи клиента",
+            "body": "Не перечисляй все свои качества. Назови проблему адресата: You need a clear estimate. Затем напиши, что можешь сделать для этой конкретной проблемы.",
+            "example": "I understand your concern about my experience.",
+            "translation": "Я понимаю ваше сомнение насчёт моего опыта."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Предложи следующий шаг: «Начнём с короткого звонка?» Start with a short call.",
+          "context": "Учебная мини-ситуация перед основной практикой. Теперь переносим язык знакомства в своё письмо: коротко объяснить пользу, признать сомнение клиента и предложить небольшой следующий шаг.",
+          "answers": [
+            "Could we start with a short call?"
+          ],
+          "hint": "Просьба не требует сразу большого обязательства.",
+          "explanation": "Письмо заканчивается действием, на которое можно ответить.",
+          "guidance": {
+            "title": "Сомнение можно признать без капитуляции",
+            "body": "I understand your concern about my experience не означает «я бесполезен». Это признание понятного вопроса. Дальше предложи проверяемый небольшой шаг, а не чрезмерное обещание.",
+            "example": "We could start with a short meeting and a written estimate.",
+            "translation": "Мы могли бы начать с короткой встречи и письменной оценки."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Из этих четырёх функций собери основной текст. После проверки произнеси его смысл за полминуты без чтения, затем перенеси одну фразу в собственную ситуацию.",
+      "sourceIds": [
+        "cam-politeness",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e02-prepare",
+      "prerequisites": [
+        "path-zero-first",
+        "path-second-conditional",
+        "path-obligation"
+      ],
+      "purpose": "Перед Mijo учимся предлагать условие и уступку: что мы сделаем, если другой человек сделает свою часть.",
+      "explanation": [
+        {
+          "title": "Реальное предложение",
+          "body": "If you wait, we will check it — мы считаем ожидание возможным и предлагаем действие. В обычной if-части будущее выражено present: if you wait, не if you will wait только ради будущего."
+        },
+        {
+          "title": "Более отдалённый вариант",
+          "body": "If you waited, we could check it tomorrow рассматривает вариант осторожнее. Past-форма тут не обязательно про вчера. Сначала реши, предлагаешь реальный шаг сейчас или обсуждаешь воображаемый вариант."
+        },
+        {
+          "title": "Уступка имеет границу",
+          "body": "We can lower the price if… не равно «снизим цену при любых условиях». Укажи свою границу и спроси, подходит ли она. При напряжении прямое Calm down иногда звучит раздражающе; I understand this is frustrating обычно яснее признаёт чувство."
+        }
+      ],
+      "examples": [
+        {
+          "en": "If you give us a day, we will fix it.",
+          "ru": "Если вы дадите нам день, мы это исправим.",
+          "why": "Реальная условная договорённость."
+        },
+        {
+          "en": "We could lower the price if the date changed.",
+          "ru": "Мы могли бы снизить цену, если бы дата изменилась.",
+          "why": "Обсуждаем вариант с уступкой, а не обещаем скидку безусловно."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Если вы подождёте, мы проверим файл». Wait; check the file.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Mijo учимся предлагать условие и уступку: что мы сделаем, если другой человек сделает свою часть.",
+          "answers": [
+            "If you wait, we will check the file."
+          ],
+          "hint": "После if используй wait.",
+          "explanation": "Обе стороны условия названы.",
+          "guidance": {
+            "title": "Реальное предложение",
+            "body": "If you wait, we will check it — мы считаем ожидание возможным и предлагаем действие. В обычной if-части будущее выражено present: if you wait, не if you will wait только ради будущего.",
+            "example": "If you give us a day, we will fix it.",
+            "translation": "Если вы дадите нам день, мы это исправим."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Мы можем перенести встречу, но не отменить её». Move the meeting; cancel it.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Mijo учимся предлагать условие и уступку: что мы сделаем, если другой человек сделает свою часть.",
+          "answers": [
+            "We can move the meeting, but we cannot cancel it."
+          ],
+          "hint": "Уступка и предел в одной фразе.",
+          "explanation": "Собеседник видит, какие варианты доступны.",
+          "guidance": {
+            "title": "Более отдалённый вариант",
+            "body": "If you waited, we could check it tomorrow рассматривает вариант осторожнее. Past-форма тут не обязательно про вчера. Сначала реши, предлагаешь реальный шаг сейчас или обсуждаешь воображаемый вариант.",
+            "example": "We could lower the price if the date changed.",
+            "translation": "Мы могли бы снизить цену, если бы дата изменилась."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В пяти основных переводах сначала подпиши условие и результат. После этого наблюдай в эпизоде, какое именно требование меняется в переговорах.",
+      "sourceIds": [
+        "bc-conditionals",
+        "cam-politeness"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e02-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e02-prepare",
+        "path-connected-speech"
+      ],
+      "purpose": "В Mijo тренируем слух на изменении условий: первоначальное требование, уступка и то, что всё ещё неприемлемо.",
+      "explanation": [
+        {
+          "title": "Запиши версии до и после",
+          "body": "Первое предложение может быть заменено следующим. Не оставляй в итогах оба как одновременно действующие. Запиши исходный вариант, затем стрелкой новый."
+        },
+        {
+          "title": "Услышь маленькое only",
+          "body": "Only if, unless, as long as могут полностью менять сделку. Если не услышал условие, переслушай одну реплику с текстом, затем без текста. Не угадывай цену или срок из общего настроения сцены."
+        },
+        {
+          "title": "Пауза — ещё не согласие",
+          "body": "I need to think about it сообщает необходимость подумать. Это не yes. В учебном тексте о мероприятии и сцене сериала отдельно проверь, было ли принято решение или разговор лишь продолжился."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The discount applies only if we change the date.",
+          "ru": "Скидка действует только если мы меняем дату.",
+          "why": "Условие ограничивает уступку."
+        },
+        {
+          "en": "They have offered a compromise, but it has not been accepted.",
+          "ru": "Они предложили компромисс, но его ещё не приняли.",
+          "why": "Предложение и принятие разделены."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-реплика: Friday is possible if you use the smaller room. Назови условие пятницы.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Mijo тренируем слух на изменении условий: первоначальное требование, уступка и то, что всё ещё неприемлемо.",
+          "answers": [
+            "Friday is possible only if they use the smaller room."
+          ],
+          "hint": "Smaller room — меньший зал.",
+          "explanation": "Не выкидываем ограничение варианта.",
+          "guidance": {
+            "title": "Запиши версии до и после",
+            "body": "Первое предложение может быть заменено следующим. Не оставляй в итогах оба как одновременно действующие. Запиши исходный вариант, затем стрелкой новый.",
+            "example": "The discount applies only if we change the date.",
+            "translation": "Скидка действует только если мы меняем дату."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Она попросила время подумать; она ещё не согласилась». Time to think; agreed yet.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Mijo тренируем слух на изменении условий: первоначальное требование, уступка и то, что всё ещё неприемлемо.",
+          "answers": [
+            "She asked for time to think; she has not agreed yet."
+          ],
+          "hint": "Не считай паузу положительным ответом.",
+          "explanation": "Статус решения сохраняется.",
+          "guidance": {
+            "title": "Услышь маленькое only",
+            "body": "Only if, unless, as long as могут полностью менять сделку. Если не услышал условие, переслушай одну реплику с текстом, затем без текста. Не угадывай цену или срок из общего настроения сцены.",
+            "example": "They have offered a compromise, but it has not been accepted.",
+            "translation": "Они предложили компромисс, но его ещё не приняли."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В аудиотексте и сцене веди короткую запись «требование → уступка → граница → статус». Это полезнее попытки переписать весь разговор.",
+      "sourceIds": [
+        "film-method",
+        "cam-discourse"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e02-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e02-listen",
+        "path-email-basic",
+        "path-connectors-basic"
+      ],
+      "purpose": "После Mijo нужно написать ограниченный компромисс: уступить в одном вопросе, не обещая уступки во всех будущих случаях.",
+      "explanation": [
+        {
+          "title": "Сначала два реальных варианта",
+          "body": "Для каждого варианта назови время, место и важный предел. Сравни один и тот же критерий у обоих. Адресат не должен сам искать, почему один дешевле, а другой удобнее."
+        },
+        {
+          "title": "Исключение не отменяет правило",
+          "body": "We can make an exception this time ограничивает уступку текущим случаем. Добавь, что останется обязательным. Но не называй exception решение, если контекст уже предусматривает его как нормальный вариант."
+        },
+        {
+          "title": "Предложение заканчивается подтверждением",
+          "body": "Please confirm which option works for you просит конкретный ответ. Если нужен срок ответа, назови его. В устной версии сначала скажи рекомендованный вариант, затем причину и условие."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We can make an exception this time, but the new deadline must be met.",
+          "ru": "В этот раз можно сделать исключение, но новый срок нужно соблюсти.",
+          "why": "Уступка не стирает новое обязательство."
+        },
+        {
+          "en": "Please confirm which option works for you.",
+          "ru": "Пожалуйста, подтвердите, какой вариант вам подходит.",
+          "why": "Адресату ясно, что ответить."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Мы можем перенести срок в этот раз». Extend the deadline; this time.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Mijo нужно написать ограниченный компромисс: уступить в одном вопросе, не обещая уступки во всех будущих случаях.",
+          "answers": [
+            "We can extend the deadline this time."
+          ],
+          "hint": "This time ограничивает уступку случаем.",
+          "explanation": "Не обещаем перенос всех будущих сроков.",
+          "guidance": {
+            "title": "Сначала два реальных варианта",
+            "body": "Для каждого варианта назови время, место и важный предел. Сравни один и тот же критерий у обоих. Адресат не должен сам искать, почему один дешевле, а другой удобнее.",
+            "example": "We can make an exception this time, but the new deadline must be met.",
+            "translation": "В этот раз можно сделать исключение, но новый срок нужно соблюсти."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Допиши условие: We can offer a discount — если вы выберете меньший зал. Choose the smaller room.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Mijo нужно написать ограниченный компромисс: уступить в одном вопросе, не обещая уступки во всех будущих случаях.",
+          "answers": [
+            "We can offer a discount if you choose the smaller room."
+          ],
+          "hint": "Условие рядом с выгодой.",
+          "explanation": "Письмо не скрывает цену компромисса.",
+          "guidance": {
+            "title": "Исключение не отменяет правило",
+            "body": "We can make an exception this time ограничивает уступку текущим случаем. Добавь, что останется обязательным. Но не называй exception решение, если контекст уже предусматривает его как нормальный вариант.",
+            "example": "Please confirm which option works for you.",
+            "translation": "Пожалуйста, подтвердите, какой вариант вам подходит."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала напиши короткое предложение сделки из двух фраз. Затем расширь его до письма с сравнением двух вариантов и ответом на возражение.",
+      "sourceIds": [
+        "cam-politeness",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e03-prepare",
+      "prerequisites": [
+        "path-modal-perfect",
+        "path-polite-questions",
+        "path-critical-reading"
+      ],
+      "purpose": "Перед Nacho учимся говорить о подозрении, не превращая его в установленный факт.",
+      "explanation": [
+        {
+          "title": "Догадка о прошлом",
+          "body": "He might have left — возможно, он ушёл. После might have нужна третья форма left. Must have left выражает сильный вывод, а had to leave — необходимость уйти. Это разные смыслы."
+        },
+        {
+          "title": "Вопрос без скрытого обвинения",
+          "body": "Do you know why the times differ? просит объяснить расхождение. Why did you change the time? уже предполагает, что человек изменил время. Сначала проверь, установлен ли такой факт."
+        },
+        {
+          "title": "Назови наблюдение отдельно",
+          "body": "The door was open — наблюдение. Someone must have entered — вывод. Для честной версии используй might и укажи, чего ещё не знаешь. Сюжетная догадка зрителя не становится доказательством."
+        }
+      ],
+      "examples": [
+        {
+          "en": "He might have left before six.",
+          "ru": "Возможно, он ушёл до шести.",
+          "why": "Возможность, не установленное событие."
+        },
+        {
+          "en": "Do you know why the times are different?",
+          "ru": "Вы знаете, почему время различается?",
+          "why": "Встроенная часть имеет обычный порядок слов."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Возможно, она забыла файл». Forget; forgotten.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Nacho учимся говорить о подозрении, не превращая его в установленный факт.",
+          "answers": [
+            "She might have forgotten the file."
+          ],
+          "hint": "Might have + forgotten.",
+          "explanation": "Говорящий допускает версию.",
+          "guidance": {
+            "title": "Догадка о прошлом",
+            "body": "He might have left — возможно, он ушёл. После might have нужна третья форма left. Must have left выражает сильный вывод, а had to leave — необходимость уйти. Это разные смыслы.",
+            "example": "He might have left before six.",
+            "translation": "Возможно, он ушёл до шести."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Вы знаете, когда он ушёл?»",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Nacho учимся говорить о подозрении, не превращая его в установленный факт.",
+          "answers": [
+            "Do you know when he left?"
+          ],
+          "hint": "Не добавляй did после when.",
+          "explanation": "Внутри вопроса обычный порядок he left.",
+          "guidance": {
+            "title": "Вопрос без скрытого обвинения",
+            "body": "Do you know why the times differ? просит объяснить расхождение. Why did you change the time? уже предполагает, что человек изменил время. Сначала проверь, установлен ли такой факт.",
+            "example": "Do you know why the times are different?",
+            "translation": "Вы знаете, почему время различается?"
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Перед просмотром научись писать три строки: увидел, предполагаю, не знаю. Эта разница понадобится в отчёте, а не только в детективной сцене.",
+      "sourceIds": [
+        "gmu-hedges",
+        "bc-reporting"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e03-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e03-prepare",
+        "path-reading-inference"
+      ],
+      "purpose": "В Nacho важен переход от замеченной детали к версии о произошедшем. Учимся ловить, где именно говорящий делает этот шаг.",
+      "explanation": [
+        {
+          "title": "Кто видел сам",
+          "body": "I saw him leave — человек сообщает наблюдение. Someone told me he left — пересказывает чужие слова. Не смешивай источник сведений и степень уверенности в них."
+        },
+        {
+          "title": "Свидетельство может поддерживать несколько версий",
+          "body": "Запись человека у двери не обязательно показывает, что он взял пропавшую вещь. Спросите, какая ещё версия согласуется с наблюдением. Не нужно верить любой альтернативе — нужно отличать её от исключённой."
+        },
+        {
+          "title": "Два источника держи раздельно",
+          "body": "Учебное расследование с ноутбуком существует отдельно от эпизода. На вопросы к нему отвечай по тексту. В сцене сериала опирайся на то, что реально увидел, и укажи момент просмотра."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The witness saw him near the door, not taking the laptop.",
+          "ru": "Свидетель видел его у двери, а не забирающим ноутбук.",
+          "why": "Граница наблюдения не расширена."
+        },
+        {
+          "en": "That detail supports a possibility, but does not rule out another explanation.",
+          "ru": "Деталь поддерживает возможность, но не исключает другое объяснение.",
+          "why": "Улика не названа единственным выводом."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-факт: A person was seen near the office. Напиши, что это не доказывает вход в кабинет.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Nacho важен переход от замеченной детали к версии о произошедшем. Учимся ловить, где именно говорящий делает этот шаг.",
+          "answers": [
+            "Being seen near the office does not prove that the person entered it."
+          ],
+          "hint": "Near — рядом, не внутри.",
+          "explanation": "Наблюдение и вывод имеют разный масштаб.",
+          "guidance": {
+            "title": "Кто видел сам",
+            "body": "I saw him leave — человек сообщает наблюдение. Someone told me he left — пересказывает чужие слова. Не смешивай источник сведений и степень уверенности в них.",
+            "example": "The witness saw him near the door, not taking the laptop.",
+            "translation": "Свидетель видел его у двери, а не забирающим ноутбук."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «У нас есть версия, но нет подтверждения». A possible explanation; confirmation.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Nacho важен переход от замеченной детали к версии о произошедшем. Учимся ловить, где именно говорящий делает этот шаг.",
+          "answers": [
+            "We have a possible explanation, but no confirmation."
+          ],
+          "hint": "Possible explanation — возможное объяснение.",
+          "explanation": "Не подменяем версию фактом.",
+          "guidance": {
+            "title": "Свидетельство может поддерживать несколько версий",
+            "body": "Запись человека у двери не обязательно показывает, что он взял пропавшую вещь. Спросите, какая ещё версия согласуется с наблюдением. Не нужно верить любой альтернативе — нужно отличать её от исключённой.",
+            "example": "That detail supports a possibility, but does not rule out another explanation.",
+            "translation": "Деталь поддерживает возможность, но не исключает другое объяснение."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "На втором прослушивании поймай слова источника: saw, heard, was told, might. Затем перескажи без обвинительной добавки от себя.",
+      "sourceIds": [
+        "film-method",
+        "gmu-hedges"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e03-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e03-listen",
+        "path-argument-essay"
+      ],
+      "purpose": "После Nacho пишем отчёт, который помогает проверить событие, а не заранее назначить виновного.",
+      "explanation": [
+        {
+          "title": "Разложи сообщение на три части",
+          "body": "Confirmed facts — проверенное. Possible explanations — версии. Next checks — что проверить. Один и тот же факт не надо повторять как доказанную причину в следующем разделе."
+        },
+        {
+          "title": "Проверка должна различать версии",
+          "body": "Если спор касается времени, полезно сверить журнал и часы. Если данных нет, напиши, каких именно не хватает. «Нужно разобраться» слишком расплывчато для следующего действия."
+        },
+        {
+          "title": "Отказ отвечать не доказывает версию",
+          "body": "Не придумывай мотив молчания. Можно сообщить, что ответ не получен, и что это оставляет вопрос открытым. Это языковая задача о точном отчёте, не юридическая консультация."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The time is confirmed; the reason for the visit is not.",
+          "ru": "Время подтверждено; причина визита — нет.",
+          "why": "Две степени установленности указаны отдельно."
+        },
+        {
+          "en": "We should compare the two records before reaching a conclusion.",
+          "ru": "Нам следует сравнить две записи перед выводом.",
+          "why": "Следующее действие связано с пробелом в данных."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Причина неизвестна; нам нужно проверить записи». The reason; check the records.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Nacho пишем отчёт, который помогает проверить событие, а не заранее назначить виновного.",
+          "answers": [
+            "The reason is unknown; we need to check the records."
+          ],
+          "hint": "Unknown лучше выдуманного объяснения.",
+          "explanation": "После пробела идёт выполнимый шаг.",
+          "guidance": {
+            "title": "Разложи сообщение на три части",
+            "body": "Confirmed facts — проверенное. Possible explanations — версии. Next checks — что проверить. Один и тот же факт не надо повторять как доказанную причину в следующем разделе.",
+            "example": "The time is confirmed; the reason for the visit is not.",
+            "translation": "Время подтверждено; причина визита — нет."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Сделай вывод точнее: He did not answer, so he is guilty.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Nacho пишем отчёт, который помогает проверить событие, а не заранее назначить виновного.",
+          "answers": [
+            "He did not answer, but that does not prove he is guilty."
+          ],
+          "hint": "Не добавляй новую причину молчания.",
+          "explanation": "Отсутствие ответа не превращается в доказательство обвинения.",
+          "guidance": {
+            "title": "Проверка должна различать версии",
+            "body": "Если спор касается времени, полезно сверить журнал и часы. Если данных нет, напиши, каких именно не хватает. «Нужно разобраться» слишком расплывчато для следующего действия.",
+            "example": "We should compare the two records before reaching a conclusion.",
+            "translation": "Нам следует сравнить две записи перед выводом."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Сначала собери три коротких абзаца без требуемого большого объёма. Затем добавь факты из учебного кейса и проверь, что каждая версия подписана как версия.",
+      "sourceIds": [
+        "gmu-hedges",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e04-prepare",
+      "prerequisites": [
+        "path-passive-basic",
+        "path-reported-speech",
+        "path-critical-reading"
+      ],
+      "purpose": "Перед Hero учимся описывать публичное событие и отделять заявление компании от того, что подтверждено.",
+      "explanation": [
+        {
+          "title": "Событие можно поставить первым",
+          "body": "The ad was removed — рекламу убрали. Пассив полезен, если в центре само удаление. Если важно, кто принял решение, добавь by the company или используй активную фразу."
+        },
+        {
+          "title": "Claims — это чей-то голос",
+          "body": "The company claims that… показывает владельца утверждения. Не убирай эту рамку, если не проверил содержание. Заявление и факт публикации заявления — разные вещи."
+        },
+        {
+          "title": "Реклама меняет впечатление",
+          "body": "Misleading — вводящий в заблуждение. Такое описание нужно обосновать: какие слова или кадры создают лишнее обещание? Не называй любое эффектное изображение ложью без конкретного несоответствия."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ad was removed after complaints.",
+          "ru": "Рекламу убрали после жалоб.",
+          "why": "Событие впереди, исполнитель пока не назван."
+        },
+        {
+          "en": "The company says the claim was taken out of context.",
+          "ru": "Компания говорит, что заявление вырвали из контекста.",
+          "why": "Позиция компании не выдана за проверенный факт."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Объявление изменили вчера». The notice; changed.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Hero учимся описывать публичное событие и отделять заявление компании от того, что подтверждено.",
+          "answers": [
+            "The notice was changed yesterday."
+          ],
+          "hint": "Was + третья форма changed.",
+          "explanation": "В центре событие изменения.",
+          "guidance": {
+            "title": "Событие можно поставить первым",
+            "body": "The ad was removed — рекламу убрали. Пассив полезен, если в центре само удаление. Если важно, кто принял решение, добавь by the company или используй активную фразу.",
+            "example": "The ad was removed after complaints.",
+            "translation": "Рекламу убрали после жалоб."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Компания утверждает, что услуга бесплатна». Claims; the service is free.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Hero учимся описывать публичное событие и отделять заявление компании от того, что подтверждено.",
+          "answers": [
+            "The company claims that the service is free."
+          ],
+          "hint": "Оставь рамку владельца заявления.",
+          "explanation": "Мы сообщаем заявление, а не независимо подтверждаем бесплатность.",
+          "guidance": {
+            "title": "Claims — это чей-то голос",
+            "body": "The company claims that… показывает владельца утверждения. Не убирай эту рамку, если не проверил содержание. Заявление и факт публикации заявления — разные вещи.",
+            "example": "The company says the claim was taken out of context.",
+            "translation": "Компания говорит, что заявление вырвали из контекста."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В просмотре ищи разницу между публичной картинкой и доступными зрителю фактами. В собственных ответах называй конкретную разницу, а не общий ярлык.",
+      "sourceIds": [
+        "bc-reporting",
+        "gmu-hedges"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e04-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e04-prepare",
+        "path-critical-reading"
+      ],
+      "purpose": "В Hero проверяем, что реклама действительно показывает и какое более широкое впечатление из этого может возникнуть.",
+      "explanation": [
+        {
+          "title": "Увиденный случай не равен типичному",
+          "body": "One delivery was fast говорит об одном случае. Deliveries are always fast — обобщение. Переслушай слова количества и частоты: one, usually, every, always."
+        },
+        {
+          "title": "Кто о чём спорит",
+          "body": "Компания может подтвердить факт съёмки, но не подтверждать типичность услуги. Жители могут просить правила, а не просто отвергать рекламу. Запиши точный предмет каждой позиции."
+        },
+        {
+          "title": "У зрителя иногда больше сведений",
+          "body": "В сцене сериала различай знание персонажа и знание аудитории. Объясни, какая дополнительная деталь меняет впечатление, не выдумывая мыслей героя и не используя последующие сезоны."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The video shows one successful case, not the usual result.",
+          "ru": "Видео показывает один успешный случай, а не обычный результат.",
+          "why": "Масштаб доказательства ограничен."
+        },
+        {
+          "en": "The residents are asking for clear terms, not denying that the video exists.",
+          "ru": "Жители просят ясные условия, а не отрицают существование видео.",
+          "why": "Возражение описано по его настоящему предмету."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-факт: One customer received a free service. Исправь All customers receive it for free.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Hero проверяем, что реклама действительно показывает и какое более широкое впечатление из этого может возникнуть.",
+          "answers": [
+            "One customer received the service for free; this does not show that all customers do."
+          ],
+          "hint": "One и all дают разный охват.",
+          "explanation": "Не расширяем единичный случай.",
+          "guidance": {
+            "title": "Увиденный случай не равен типичному",
+            "body": "One delivery was fast говорит об одном случае. Deliveries are always fast — обобщение. Переслушай слова количества и частоты: one, usually, every, always.",
+            "example": "The video shows one successful case, not the usual result.",
+            "translation": "Видео показывает один успешный случай, а не обычный результат."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Зрителю известна деталь, которой не знает клиент». The viewer; a detail; the client.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Hero проверяем, что реклама действительно показывает и какое более широкое впечатление из этого может возникнуть.",
+          "answers": [
+            "The viewer knows a detail that the client does not."
+          ],
+          "hint": "После does not понятно пропущенное know.",
+          "explanation": "Разделяем знания участников.",
+          "guidance": {
+            "title": "Кто о чём спорит",
+            "body": "Компания может подтвердить факт съёмки, но не подтверждать типичность услуги. Жители могут просить правила, а не просто отвергать рекламу. Запиши точный предмет каждой позиции.",
+            "example": "The residents are asking for clear terms, not denying that the video exists.",
+            "translation": "Жители просят ясные условия, а не отрицают существование видео."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Ответ по учебной рекламе сверь с её точными ограничениями. Ответ по Hero отдельно привяжи к выбранной сцене и тому, что в ней доступно зрителю.",
+      "sourceIds": [
+        "film-method",
+        "uvu-rhetoric"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e04-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e04-listen",
+        "path-argument-essay"
+      ],
+      "purpose": "После Hero пишем критический разбор, в котором ясно, что подтверждено, какой вывод спорен и что помогло бы проверить рекламу.",
+      "explanation": [
+        {
+          "title": "Начни с проверяемого",
+          "body": "Вместо «компания ужасна» напиши, какое обещание создаёт реклама и какие условия не показаны. Читателю нужен предмет проверки, а не только твоя реакция."
+        },
+        {
+          "title": "Признай реальную пользу",
+          "body": "Привлечение внимания может помогать полезному делу. Это не отменяет вопроса о точности сообщения. Хороший ответ может удерживать обе мысли без крайних ярлыков."
+        },
+        {
+          "title": "Предложи ясное исправление",
+          "body": "Добавить условия, назвать типичный диапазон или отделить демонстрацию от гарантии — конкретные действия. Выбирай исправление под найденное недопонимание."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The campaign draws attention to the service, but leaves its limits unclear.",
+          "ru": "Кампания привлекает внимание к услуге, но оставляет её ограничения неясными.",
+          "why": "Польза и недостаток оценены отдельно."
+        },
+        {
+          "en": "The company should state when the offer applies.",
+          "ru": "Компании следует указать, когда действует предложение.",
+          "why": "Рекомендация отвечает конкретному пробелу."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Реклама привлекает внимание, но может вводить в заблуждение». Draws attention; may mislead.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Hero пишем критический разбор, в котором ясно, что подтверждено, какой вывод спорен и что помогло бы проверить рекламу.",
+          "answers": [
+            "The ad draws attention, but it may mislead people."
+          ],
+          "hint": "May не утверждает установленный обман без доказательств.",
+          "explanation": "Разделены эффект и возможная проблема.",
+          "guidance": {
+            "title": "Начни с проверяемого",
+            "body": "Вместо «компания ужасна» напиши, какое обещание создаёт реклама и какие условия не показаны. Читателю нужен предмет проверки, а не только твоя реакция.",
+            "example": "The campaign draws attention to the service, but leaves its limits unclear.",
+            "translation": "Кампания привлекает внимание к услуге, но оставляет её ограничения неясными."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Предложи исправление: «Укажите условия рядом с обещанием». State the conditions; next to the promise.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Hero пишем критический разбор, в котором ясно, что подтверждено, какой вывод спорен и что помогло бы проверить рекламу.",
+          "answers": [
+            "State the conditions next to the promise."
+          ],
+          "hint": "Ограничение должно быть заметно там же.",
+          "explanation": "Читателю легче правильно понять обещание.",
+          "guidance": {
+            "title": "Признай реальную пользу",
+            "body": "Привлечение внимания может помогать полезному делу. Это не отменяет вопроса о точности сообщения. Хороший ответ может удерживать обе мысли без крайних ярлыков.",
+            "example": "The company should state when the offer applies.",
+            "translation": "Компании следует указать, когда действует предложение."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Собери разбор вокруг одного спорного обещания, подкрепи его деталями учебного текста и предложи правку. Затем произнеси ту же мысль без газетного тона.",
+      "sourceIds": [
+        "uvu-rhetoric",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e05-prepare",
+      "prerequisites": [
+        "path-polite-questions",
+        "path-relative-basic",
+        "path-instructions"
+      ],
+      "purpose": "Перед Alpine Shepherd Boy учимся спрашивать о потребности и объяснять документ простыми словами, не разговаривая с человеком свысока.",
+      "explanation": [
+        {
+          "title": "Встроенный вопрос идёт обычным порядком",
+          "body": "Could you tell me what you need? После what идут you need, не do you need. Внешняя рамка уже задаёт вопрос. Для ответа да/нет нужна if: Could you tell me if you have a copy?"
+        },
+        {
+          "title": "Поясни предмет через функцию",
+          "body": "This is the form that confirms your choice — «это форма, которая подтверждает ваш выбор». Короткая that-часть объясняет, зачем документ нужен. Не начинай с внутреннего служебного названия без расшифровки."
+        },
+        {
+          "title": "Дай возможность действовать самому",
+          "body": "I can talk you through it — я могу объяснить по шагам. Это отличается от I will do it for you. Сначала выясни, какую помощь человек хочет и на что согласен."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Could you tell me what you need?",
+          "ru": "Не могли бы вы сказать, что вам нужно?",
+          "why": "Внутренний порядок слов прямой."
+        },
+        {
+          "en": "This is the form that confirms your choice.",
+          "ru": "Это форма, которая подтверждает ваш выбор.",
+          "why": "Объяснение через понятную функцию."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Не могли бы вы сказать, есть ли у вас копия?»",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Alpine Shepherd Boy учимся спрашивать о потребности и объяснять документ простыми словами, не разговаривая с человеком свысока.",
+          "answers": [
+            "Could you tell me if you have a copy?"
+          ],
+          "hint": "If вводит встроенный вопрос да/нет.",
+          "explanation": "Не нужно do you внутри if-части.",
+          "guidance": {
+            "title": "Встроенный вопрос идёт обычным порядком",
+            "body": "Could you tell me what you need? После what идут you need, не do you need. Внешняя рамка уже задаёт вопрос. Для ответа да/нет нужна if: Could you tell me if you have a copy?",
+            "example": "Could you tell me what you need?",
+            "translation": "Не могли бы вы сказать, что вам нужно?"
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Это документ, который объясняет следующий шаг». The document; explains the next step.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Alpine Shepherd Boy учимся спрашивать о потребности и объяснять документ простыми словами, не разговаривая с человеком свысока.",
+          "answers": [
+            "This is the document that explains the next step."
+          ],
+          "hint": "That соединяет предмет и его функцию.",
+          "explanation": "Документ описан по пользе для читателя.",
+          "guidance": {
+            "title": "Поясни предмет через функцию",
+            "body": "This is the form that confirms your choice — «это форма, которая подтверждает ваш выбор». Короткая that-часть объясняет, зачем документ нужен. Не начинай с внутреннего служебного названия без расшифровки.",
+            "example": "This is the form that confirms your choice.",
+            "translation": "Это форма, которая подтверждает ваш выбор."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Теперь переходи к подготовительным фразам и просмотру. Следи, какие слова делают помощь понятнее и сохраняют возможность самому принять решение.",
+      "sourceIds": [
+        "cam-politeness",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e05-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e05-prepare",
+        "path-reading-inference"
+      ],
+      "purpose": "В этой части слушаем, чего человек хочет от помощника: готового результата, объяснения шагов или возможности попробовать самому.",
+      "explanation": [
+        {
+          "title": "Отказ от одной помощи не равен отказу от всей",
+          "body": "I do not want you to fill it in for me может сопровождаться просьбой объяснить. Не пересказывай это как She refuses help. Уточни, какой вид помощи принят."
+        },
+        {
+          "title": "Два признака понятного объяснения",
+          "body": "Слова first, then, after that делят процесс. Проверка Would you like to try? даёт человеку действие. Найди в учебном тексте эти функции, даже если используются другие слова."
+        },
+        {
+          "title": "В сцене смотри на реакцию",
+          "body": "Понятность нельзя установить только по уверенности помощника. Смотри, может ли собеседник объяснить следующий шаг или задать нужный вопрос. Это наблюдение, не диагноз его способностей."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She wants an explanation, not someone to take over.",
+          "ru": "Ей нужно объяснение, а не чтобы всё сделали вместо неё.",
+          "why": "Различаются помощь и замена самостоятельного действия."
+        },
+        {
+          "en": "He explains one step and then lets her try.",
+          "ru": "Он объясняет один шаг, затем даёт ей попробовать.",
+          "why": "Помощь разбита на понятные действия."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-реплика: Please show me how, but let me do it. Что человек просит? Одно английское предложение.",
+          "context": "Учебная мини-ситуация перед основной практикой. В этой части слушаем, чего человек хочет от помощника: готового результата, объяснения шагов или возможности попробовать самому.",
+          "answers": [
+            "The person wants guidance while doing the task independently."
+          ],
+          "hint": "Guidance — объяснение и помощь; independently — самостоятельно.",
+          "explanation": "Просьба о помощи сохраняет самостоятельность.",
+          "guidance": {
+            "title": "Отказ от одной помощи не равен отказу от всей",
+            "body": "I do not want you to fill it in for me может сопровождаться просьбой объяснить. Не пересказывай это как She refuses help. Уточни, какой вид помощи принят.",
+            "example": "She wants an explanation, not someone to take over.",
+            "translation": "Ей нужно объяснение, а не чтобы всё сделали вместо неё."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Она отказалась от ввода данных за неё, а не от объяснения». Entering the information for her; an explanation.",
+          "context": "Учебная мини-ситуация перед основной практикой. В этой части слушаем, чего человек хочет от помощника: готового результата, объяснения шагов или возможности попробовать самому.",
+          "answers": [
+            "She refused to have the information entered for her, not an explanation."
+          ],
+          "hint": "Назови именно отвергнутую помощь.",
+          "explanation": "Отказ не обобщается на всё взаимодействие.",
+          "guidance": {
+            "title": "Два признака понятного объяснения",
+            "body": "Слова first, then, after that делят процесс. Проверка Would you like to try? даёт человеку действие. Найди в учебном тексте эти функции, даже если используются другие слова.",
+            "example": "He explains one step and then lets her try.",
+            "translation": "Он объясняет один шаг, затем даёт ей попробовать."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В учебной истории выпиши принятую и отвергнутую помощь. Затем отдельно найди в эпизоде момент, где объяснение меняет понимание собеседника.",
+      "sourceIds": [
+        "film-method",
+        "cam-politeness"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e05-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e05-listen",
+        "path-instructions",
+        "path-email-basic"
+      ],
+      "purpose": "После просмотра напишем инструкцию, которой сможет воспользоваться человек без твоих знаний о системе.",
+      "explanation": [
+        {
+          "title": "Начни с того, что нужно подготовить",
+          "body": "Перед первым нажатием назови материалы: адрес почты, документ или номер, если они нужны в заданном сценарии. Не добавляй личные данные, которые услуга не просит."
+        },
+        {
+          "title": "Один шаг — одно действие",
+          "body": "First, open the form. Then enter your name. Короткие команды легче выполнить, чем абзац из нескольких зависимых действий. После сложного шага покажи, как проверить результат."
+        },
+        {
+          "title": "Ошибка тоже часть инструкции",
+          "body": "If you see an error message, check… помогает продолжить. Назови конкретную проверку или канал помощи. В конце попроси человека своими словами назвать следующий шаг, а не только сказать «понятно»."
+        }
+      ],
+      "examples": [
+        {
+          "en": "First, open the form. Then enter your name.",
+          "ru": "Сначала откройте форму. Затем введите имя.",
+          "why": "Действия даны по одному и в порядке выполнения."
+        },
+        {
+          "en": "If the page does not open, check the link.",
+          "ru": "Если страница не открывается, проверьте ссылку.",
+          "why": "Есть понятный путь при сбое."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи два шага: «Сначала проверьте данные. Затем отправьте форму». Check the details; submit the form.",
+          "context": "Учебная мини-ситуация перед основной практикой. После просмотра напишем инструкцию, которой сможет воспользоваться человек без твоих знаний о системе.",
+          "answers": [
+            "First, check the details. Then submit the form."
+          ],
+          "hint": "Не соединяй проверку и отправку в неясное действие.",
+          "explanation": "Порядок защищает от отправки непроверенного.",
+          "guidance": {
+            "title": "Начни с того, что нужно подготовить",
+            "body": "Перед первым нажатием назови материалы: адрес почты, документ или номер, если они нужны в заданном сценарии. Не добавляй личные данные, которые услуга не просит.",
+            "example": "First, open the form. Then enter your name.",
+            "translation": "Сначала откройте форму. Затем введите имя."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи вопрос для проверки понимания: «Какой следующий шаг?»",
+          "context": "Учебная мини-ситуация перед основной практикой. После просмотра напишем инструкцию, которой сможет воспользоваться человек без твоих знаний о системе.",
+          "answers": [
+            "What is the next step?"
+          ],
+          "hint": "Просим восстановить действие, а не угадать наш ответ.",
+          "explanation": "Человек показывает понимание процесса.",
+          "guidance": {
+            "title": "Один шаг — одно действие",
+            "body": "First, open the form. Then enter your name. Короткие команды легче выполнить, чем абзац из нескольких зависимых действий. После сложного шага покажи, как проверить результат.",
+            "example": "If the page does not open, check the link.",
+            "translation": "Если страница не открывается, проверьте ссылку."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Расширь два шага в полную инструкцию из задания. Потом прочитай её как новичок: хватает ли информации без твоих устных подсказок?",
+      "sourceIds": [
+        "purdue-concision",
+        "cam-politeness"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e06-prepare",
+      "prerequisites": [
+        "path-past-perfect",
+        "path-modal-perfect",
+        "path-narrative"
+      ],
+      "purpose": "Перед Five-O учимся различать событие прошлого, то, что произошло ещё раньше, и сегодняшнее сожаление о прошлом выборе.",
+      "explanation": [
+        {
+          "title": "Выбери опорный момент",
+          "body": "When I arrived, she had left: мой приезд — опора, её уход — раньше. Had left не означает просто «очень давно». Оно показывает отношение к другой прошлой точке."
+        },
+        {
+          "title": "Сожаление не меняет факт",
+          "body": "I should have called означает «мне следовало позвонить». Это оценка упущенного действия. I had to call — была необходимость; I called — факт звонка. Не смешивай эти три сообщения."
+        },
+        {
+          "title": "Факт и самооценку можно разделить",
+          "body": "I stayed silent — я промолчал. I let her down — я её подвёл, оценка последствий. В рассказе сначала дай события, затем своё отношение. Не нужно сразу перескакивать к длинной исповеди."
+        }
+      ],
+      "examples": [
+        {
+          "en": "When I arrived, the meeting had ended.",
+          "ru": "Когда я приехал, встреча уже закончилась.",
+          "why": "Завершение встречи произошло раньше приезда."
+        },
+        {
+          "en": "I should have spoken up.",
+          "ru": "Мне следовало высказаться.",
+          "why": "Говорящий оценивает прошлое упущение."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Когда я позвонил, она уже ушла». Called; had left.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Five-O учимся различать событие прошлого, то, что произошло ещё раньше, и сегодняшнее сожаление о прошлом выборе.",
+          "answers": [
+            "When I called, she had already left."
+          ],
+          "hint": "Уход раньше звонка → had left.",
+          "explanation": "Два события расположены во времени.",
+          "guidance": {
+            "title": "Выбери опорный момент",
+            "body": "When I arrived, she had left: мой приезд — опора, её уход — раньше. Had left не означает просто «очень давно». Оно показывает отношение к другой прошлой точке.",
+            "example": "When I arrived, the meeting had ended.",
+            "translation": "Когда я приехал, встреча уже закончилась."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Мне следовало помочь». Help.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Five-O учимся различать событие прошлого, то, что произошло ещё раньше, и сегодняшнее сожаление о прошлом выборе.",
+          "answers": [
+            "I should have helped."
+          ],
+          "hint": "Should have + третья форма helped.",
+          "explanation": "Речь о сожалении, не о совершённой помощи.",
+          "guidance": {
+            "title": "Сожаление не меняет факт",
+            "body": "I should have called означает «мне следовало позвонить». Это оценка упущенного действия. I had to call — была необходимость; I called — факт звонка. Не смешивай эти три сообщения.",
+            "example": "I should have spoken up.",
+            "translation": "Мне следовало высказаться."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Перед просмотром построй временную линию из двух событий и одной оценки. Потом используй тот же порядок в длинном рассказе.",
+      "sourceIds": [
+        "bc-conditionals",
+        "cam-aspect"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e06-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e06-prepare",
+        "path-reading-inference"
+      ],
+      "purpose": "В Five-O отделяем хронологию рассказа от того, как рассказчик теперь оценивает своё поведение.",
+      "explanation": [
+        {
+          "title": "Пересказ начинается с временной линии",
+          "body": "Назови три события по порядку, даже если герой рассказывает их иначе. Earlier, by then, already и when помогают понять возврат назад. Повторяй только короткий участок, где связь потерялась."
+        },
+        {
+          "title": "Сожаление не устанавливает всю ответственность",
+          "body": "I should have done more говорит о самооценке. Она может быть справедливой или слишком широкой. В учебной истории посмотри, какие ограничения добавляет друг, не превращая его поддержку в доказательство всех мотивов."
+        },
+        {
+          "title": "Содержание сериала и учебный кейс разные",
+          "body": "Нора из авторской истории не персонаж выбранной сцены. Ответ на учебный вопрос строится по её фактам; временную линию Майка строишь после просмотра своей сцены."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She returned after the decision had been made.",
+          "ru": "Она вернулась после того, как решение уже приняли.",
+          "why": "Решение раньше возвращения."
+        },
+        {
+          "en": "He regrets staying silent, but does not know whether speaking would have changed the result.",
+          "ru": "Он жалеет, что промолчал, но не знает, изменил бы разговор результат.",
+          "why": "Сожаление отделено от недоказанного альтернативного исхода."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-сцена: Anna called on Friday. The team had decided on Thursday. Что произошло раньше? Одно полное предложение.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Five-O отделяем хронологию рассказа от того, как рассказчик теперь оценивает своё поведение.",
+          "answers": [
+            "The team made the decision before Anna called."
+          ],
+          "hint": "Before называет порядок без догадки о причине.",
+          "explanation": "События упорядочены, мотивы не добавлены.",
+          "guidance": {
+            "title": "Пересказ начинается с временной линии",
+            "body": "Назови три события по порядку, даже если герой рассказывает их иначе. Earlier, by then, already и when помогают понять возврат назад. Повторяй только короткий участок, где связь потерялась.",
+            "example": "She returned after the decision had been made.",
+            "translation": "Она вернулась после того, как решение уже приняли."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Она жалеет об этом, но результат другого выбора неизвестен». Regrets it; the outcome of a different choice.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Five-O отделяем хронологию рассказа от того, как рассказчик теперь оценивает своё поведение.",
+          "answers": [
+            "She regrets it, but the outcome of a different choice is unknown."
+          ],
+          "hint": "Сожаление и причинный вывод — не одно и то же.",
+          "explanation": "Не заявляем, что прошлое обязательно сложилось бы иначе.",
+          "guidance": {
+            "title": "Сожаление не устанавливает всю ответственность",
+            "body": "I should have done more говорит о самооценке. Она может быть справедливой или слишком широкой. В учебной истории посмотри, какие ограничения добавляет друг, не превращая его поддержку в доказательство всех мотивов.",
+            "example": "He regrets staying silent, but does not know whether speaking would have changed the result.",
+            "translation": "Он жалеет, что промолчал, но не знает, изменил бы разговор результат."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "После прослушивания отдельно запиши факты и оценки. Во время просмотра сделай то же для трёх событий рассказа, сохранив свою отметку сцены.",
+      "sourceIds": [
+        "film-method",
+        "gmu-hedges"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e06-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e06-listen",
+        "path-third-conditional",
+        "path-narrative"
+      ],
+      "purpose": "После Five-O пишем историю о сожалении так, чтобы она показывала событие, возможный другой выбор и то, что человек может сделать теперь.",
+      "explanation": [
+        {
+          "title": "Рассказу нужен поворот",
+          "body": "Сначала исходная ситуация, затем решение, затем поздняя новая информация. Не начинай с длинного общего рассуждения о жизни: один конкретный эпизод даёт читателю опору."
+        },
+        {
+          "title": "Другое прошлое — воображаемое",
+          "body": "If I had called, I might have understood earlier допускает возможное последствие. Would have guaranteed success было бы намного сильнее и нуждалось бы в основаниях. Выбирай уверенность честно."
+        },
+        {
+          "title": "Настоящий шаг отдели от отмены прошлого",
+          "body": "Нельзя отменить старое решение, но можно объясниться, предложить помощь или изменить следующую привычку. Скажи, что именно доступно сейчас, не обещая этим исправить всё."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I cannot change what happened, but I can explain my decision.",
+          "ru": "Я не могу изменить произошедшее, но могу объяснить своё решение.",
+          "why": "Необратимость и нынешнее действие разделены."
+        },
+        {
+          "en": "If I had asked, I might have understood the problem sooner.",
+          "ru": "Если бы я спросил, возможно, я бы понял проблему раньше.",
+          "why": "Альтернативный результат не объявлен гарантированным."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Я не могу изменить прошлое, но могу помочь сейчас». The past; help now.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Five-O пишем историю о сожалении так, чтобы она показывала событие, возможный другой выбор и то, что человек может сделать теперь.",
+          "answers": [
+            "I cannot change the past, but I can help now."
+          ],
+          "hint": "Две временные плоскости с разными возможностями.",
+          "explanation": "Ответ не обесценивает доступное действие.",
+          "guidance": {
+            "title": "Рассказу нужен поворот",
+            "body": "Сначала исходная ситуация, затем решение, затем поздняя новая информация. Не начинай с длинного общего рассуждения о жизни: один конкретный эпизод даёт читателю опору.",
+            "example": "I cannot change what happened, but I can explain my decision.",
+            "translation": "Я не могу изменить произошедшее, но могу объяснить своё решение."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи осторожный другой исход: «Если бы я позвонил, я мог бы узнать раньше». Called; found out sooner.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Five-O пишем историю о сожалении так, чтобы она показывала событие, возможный другой выбор и то, что человек может сделать теперь.",
+          "answers": [
+            "If I had called, I might have found out sooner."
+          ],
+          "hint": "Might have передаёт возможный, а не доказанный результат.",
+          "explanation": "Другая история остаётся предположением.",
+          "guidance": {
+            "title": "Другое прошлое — воображаемое",
+            "body": "If I had called, I might have understood earlier допускает возможное последствие. Would have guaranteed success было бы намного сильнее и нуждалось бы в основаниях. Выбирай уверенность честно.",
+            "example": "If I had asked, I might have understood the problem sooner.",
+            "translation": "Если бы я спросил, возможно, я бы понял проблему раньше."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Собери черновик в порядке «событие → оценка → иной вариант → нынешний шаг». Затем расскажи ту же историю вслух, не зачитывая письменные предложения.",
+      "sourceIds": [
+        "gmu-hedges",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e07-prepare",
+      "prerequisites": [
+        "path-obligation",
+        "path-quantifiers-nuance",
+        "path-connectors-basic"
+      ],
+      "purpose": "Перед Bingo различаем запрет, отсутствие обязанности и добровольное решение, принятое несмотря на выгоду.",
+      "explanation": [
+        {
+          "title": "Не обязан и нельзя — противоположные ограничения",
+          "body": "You do not have to accept — не обязательно принимать, выбор остаётся. You must not accept — принимать запрещено. Не переводим оба как одно расплывчатое «не надо»."
+        },
+        {
+          "title": "Despite требует предмет или -ing",
+          "body": "Despite the high pay, she refused — несмотря на высокую оплату. Although it paid well, she refused — хотя работа хорошо оплачивалась. После although есть целая часть с глаголом; после despite здесь существительное."
+        },
+        {
+          "title": "Выбор имеет несколько цен",
+          "body": "Выгода может быть финансовой, цена — потеря доверия или времени. Назови каждую отдельно. Обязанность по договору и чувство долга перед человеком не автоматически совпадают."
+        }
+      ],
+      "examples": [
+        {
+          "en": "You do not have to accept the offer.",
+          "ru": "Ты не обязан принимать предложение.",
+          "why": "Разрешён выбор, а не введён запрет."
+        },
+        {
+          "en": "Despite the high pay, she turned it down.",
+          "ru": "Несмотря на высокую оплату, она отказалась.",
+          "why": "После despite — группа существительного."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Вы не обязаны соглашаться». Agree.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Bingo различаем запрет, отсутствие обязанности и добровольное решение, принятое несмотря на выгоду.",
+          "answers": [
+            "You do not have to agree."
+          ],
+          "hint": "Не используй must not: это был бы запрет.",
+          "explanation": "Сохраняется свобода отказа.",
+          "guidance": {
+            "title": "Не обязан и нельзя — противоположные ограничения",
+            "body": "You do not have to accept — не обязательно принимать, выбор остаётся. You must not accept — принимать запрещено. Не переводим оба как одно расплывчатое «не надо».",
+            "example": "You do not have to accept the offer.",
+            "translation": "Ты не обязан принимать предложение."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи с although: «Хотя предложение выгодное, я откажусь». The offer is attractive; turn it down.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Bingo различаем запрет, отсутствие обязанности и добровольное решение, принятое несмотря на выгоду.",
+          "answers": [
+            "Although the offer is attractive, I will turn it down."
+          ],
+          "hint": "После although нужна полная часть.",
+          "explanation": "Уступка показывает, какая выгода не перевесила решение.",
+          "guidance": {
+            "title": "Despite требует предмет или -ing",
+            "body": "Despite the high pay, she refused — несмотря на высокую оплату. Although it paid well, she refused — хотя работа хорошо оплачивалась. После although есть целая часть с глаголом; после despite здесь существительное.",
+            "example": "Despite the high pay, she turned it down.",
+            "translation": "Несмотря на высокую оплату, она отказалась."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Перед просмотром сформулируй два честных варианта выбора. Не приписывай персонажу свои ценности; сначала пойми, какие обязательства видит он.",
+      "sourceIds": [
+        "cam-politeness",
+        "cam-discourse"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e07-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e07-prepare",
+        "path-critical-reading"
+      ],
+      "purpose": "В Bingo слушаем не только «выгодно или нет», но и то, на чём основано обязательство: договор, обещание или доверие.",
+      "explanation": [
+        {
+          "title": "Назови источник долга",
+          "body": "The contract requires… ссылается на договор. I promised… — на личное обещание. I feel I owe them… — на собственное чувство долга. Эти основания нельзя незаметно заменять одно другим."
+        },
+        {
+          "title": "Уступка другой стороны меняет выбор",
+          "body": "Если компания снимает одно ограничение, часть возражения может исчезнуть. Отметь, что именно изменено и что осталось. Не сохраняй старое возражение, если его условие уже сняли."
+        },
+        {
+          "title": "Различай факт и оценку героя",
+          "body": "He chose the better-paid job — факт выбора. He betrayed them — сильная оценка. Для второй нужны основания о договорённостях и ожиданиях, а не только твоя симпатия."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The contract does not require it, but she made a personal promise.",
+          "ru": "Договор этого не требует, но она дала личное обещание.",
+          "why": "Разные основания обязательства."
+        },
+        {
+          "en": "The company has removed one condition, not every condition.",
+          "ru": "Компания сняла одно условие, а не все условия.",
+          "why": "Масштаб уступки сохранён."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-факт: There is no contract, but I promised to help. Назови основание обязательства.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Bingo слушаем не только «выгодно или нет», но и то, на чём основано обязательство: договор, обещание или доверие.",
+          "answers": [
+            "The obligation comes from a personal promise, not a contract."
+          ],
+          "hint": "Personal promise — личное обещание.",
+          "explanation": "Не превращаем моральное объяснение в юридическое.",
+          "guidance": {
+            "title": "Назови источник долга",
+            "body": "The contract requires… ссылается на договор. I promised… — на личное обещание. I feel I owe them… — на собственное чувство долга. Эти основания нельзя незаметно заменять одно другим.",
+            "example": "The contract does not require it, but she made a personal promise.",
+            "translation": "Договор этого не требует, но она дала личное обещание."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Больше денег не означает, что решение проще». More money; an easier decision.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Bingo слушаем не только «выгодно или нет», но и то, на чём основано обязательство: договор, обещание или доверие.",
+          "answers": [
+            "More money does not mean an easier decision."
+          ],
+          "hint": "Разные критерии могут тянуть в разные стороны.",
+          "explanation": "Не сводим сложный выбор к одной цифре.",
+          "guidance": {
+            "title": "Уступка другой стороны меняет выбор",
+            "body": "Если компания снимает одно ограничение, часть возражения может исчезнуть. Отметь, что именно изменено и что осталось. Не сохраняй старое возражение, если его условие уже сняли.",
+            "example": "The company has removed one condition, not every condition.",
+            "translation": "Компания сняла одно условие, а не все условия."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В учебном кейсе выпиши два вида обязательства и изменённое условие. В эпизоде отдельно опиши цену каждого решения по наблюдаемым фактам.",
+      "sourceIds": [
+        "film-method",
+        "uvu-rhetoric"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e07-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e07-listen",
+        "path-argument-essay"
+      ],
+      "purpose": "После Bingo даём рекомендацию, которая признаёт финансовую сторону и объясняет остальные обязательства без морализаторского ярлыка.",
+      "explanation": [
+        {
+          "title": "Два решения оценивай по одним критериям",
+          "body": "Сравни доход, обещание, сроки и доверие для каждого варианта. Иначе рекомендация будет подгонять критерии под заранее выбранный ответ."
+        },
+        {
+          "title": "Признай цену своего совета",
+          "body": "I recommend keeping the promise, although this reduces your income честно называет потерю. Нельзя обещать, что «правильный» выбор обязательно окупится, если таких данных нет."
+        },
+        {
+          "title": "Рекомендация не забирает выбор",
+          "body": "You could negotiate a later start предлагает путь, а не командует чужой жизнью. В конце назови, какую информацию человеку надо проверить перед решением."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Keeping the promise protects trust, but has a financial cost.",
+          "ru": "Выполнение обещания сохраняет доверие, но имеет финансовую цену.",
+          "why": "Польза и потеря признаны вместе."
+        },
+        {
+          "en": "You could ask whether a later start is possible.",
+          "ru": "Можно спросить, возможен ли более поздний старт.",
+          "why": "Предложен проверяемый промежуточный вариант."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Этот вариант приносит больше денег, но нарушает обещание». Pays more; breaks a promise.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Bingo даём рекомендацию, которая признаёт финансовую сторону и объясняет остальные обязательства без морализаторского ярлыка.",
+          "answers": [
+            "This option pays more, but it breaks a promise."
+          ],
+          "hint": "Назови обе стороны без скрытой гарантии.",
+          "explanation": "Критерии остаются видимыми.",
+          "guidance": {
+            "title": "Два решения оценивай по одним критериям",
+            "body": "Сравни доход, обещание, сроки и доверие для каждого варианта. Иначе рекомендация будет подгонять критерии под заранее выбранный ответ.",
+            "example": "Keeping the promise protects trust, but has a financial cost.",
+            "translation": "Выполнение обещания сохраняет доверие, но имеет финансовую цену."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Предложи вопрос: «Можно ли начать позже?» Start later.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Bingo даём рекомендацию, которая признаёт финансовую сторону и объясняет остальные обязательства без морализаторского ярлыка.",
+          "answers": [
+            "Would it be possible to start later?"
+          ],
+          "hint": "Сначала проверяем возможность компромисса.",
+          "explanation": "Вежливая форма не предполагает заранее согласие другой стороны.",
+          "guidance": {
+            "title": "Признай цену своего совета",
+            "body": "I recommend keeping the promise, although this reduces your income честно называет потерю. Нельзя обещать, что «правильный» выбор обязательно окупится, если таких данных нет.",
+            "example": "You could ask whether a later start is possible.",
+            "translation": "Можно спросить, возможен ли более поздний старт."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Собери рекомендацию из сравнения, выбранного критерия, признанной потери и следующего вопроса. Потом защити её устно и ответь на сильное возражение.",
+      "sourceIds": [
+        "cam-politeness",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e08-prepare",
+      "prerequisites": [
+        "path-present-perfect",
+        "path-passive-advanced",
+        "path-quantifiers-nuance"
+      ],
+      "purpose": "Перед RICO учимся сообщать накопленный результат проверки и не превращать несколько ошибок в утверждение обо всей системе.",
+      "explanation": [
+        {
+          "title": "Что уже проверено к настоящему моменту",
+          "body": "We have checked ten bills связывает работу с текущим результатом. Ten bills have been checked выдвигает документы вперёд. Have been checked — have + been + третья форма checked."
+        },
+        {
+          "title": "Название количества должно быть точным",
+          "body": "Four of the twenty bills — четыре из двадцати проверенных счетов. Это не автоматически четверть всех счетов компании. Всегда назови группу, внутри которой считал."
+        },
+        {
+          "title": "Мало информации и несколько фактов",
+          "body": "Little information подчёркивает нехватку. A few discrepancies сообщает, что несколько расхождений есть. Эти формулировки могут быть верны одновременно."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We have checked ten bills so far.",
+          "ru": "К этому моменту мы проверили десять счетов.",
+          "why": "Накопленный результат текущей работы."
+        },
+        {
+          "en": "Three of the ten bills contain an error.",
+          "ru": "В трёх из десяти счетов есть ошибка.",
+          "why": "Доля относится к названной проверенной группе."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи в пассиве: «Пять счетов уже проверены». Bills; checked.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед RICO учимся сообщать накопленный результат проверки и не превращать несколько ошибок в утверждение обо всей системе.",
+          "answers": [
+            "Five bills have already been checked."
+          ],
+          "hint": "Have been + checked.",
+          "explanation": "Счета в начале; исполнитель может быть неважен.",
+          "guidance": {
+            "title": "Что уже проверено к настоящему моменту",
+            "body": "We have checked ten bills связывает работу с текущим результатом. Ten bills have been checked выдвигает документы вперёд. Have been checked — have + been + третья форма checked.",
+            "example": "We have checked ten bills so far.",
+            "translation": "К этому моменту мы проверили десять счетов."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «У нас всё ещё мало информации». Still; little information.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед RICO учимся сообщать накопленный результат проверки и не превращать несколько ошибок в утверждение обо всей системе.",
+          "answers": [
+            "We still have little information."
+          ],
+          "hint": "Information неисчисляемое.",
+          "explanation": "Little выражает нехватку, не просто наличие небольшого запаса.",
+          "guidance": {
+            "title": "Название количества должно быть точным",
+            "body": "Four of the twenty bills — четыре из двадцати проверенных счетов. Это не автоматически четверть всех счетов компании. Всегда назови группу, внутри которой считал.",
+            "example": "Three of the ten bills contain an error.",
+            "translation": "В трёх из десяти счетов есть ошибка."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В переводах сначала назови проверенную группу, затем результат и ограничение. В эпизоде ищи, как единичная деталь становится поводом для более широкой проверки.",
+      "sourceIds": [
+        "gmu-hedges",
+        "cam-determiners"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e08-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e08-prepare",
+        "path-critical-reading"
+      ],
+      "purpose": "В RICO важен переход от обнаруженного расхождения к проверке закономерности: что можно заключить сейчас и какие документы ещё нужны.",
+      "explanation": [
+        {
+          "title": "Запиши размер проверки рядом с выводом",
+          "body": "Если изучили десять счетов, не записывай «ошибки во всей компании». В конспекте держи рядом checked, found и sample. Так исходный масштаб не потеряется."
+        },
+        {
+          "title": "Повторение не сразу объясняет причину",
+          "body": "Несколько похожих ошибок могут указывать на общий процесс. Но намеренность, причина и полный охват требуют других сведений. Услышь, какое из этих утверждений говорящий действительно делает."
+        },
+        {
+          "title": "Следующий шаг должен отвечать пробелу",
+          "body": "Request itemized bills — запросить счета с отдельными позициями. Compare dates — сравнить даты. Слушай, какое действие группа выбрала, не заменяй его своим более драматичным решением."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The sample reveals a discrepancy, but not its cause.",
+          "ru": "Выборка выявляет расхождение, но не его причину.",
+          "why": "Наблюдение и объяснение разделены."
+        },
+        {
+          "en": "They decided to request the original records before making a wider claim.",
+          "ru": "Они решили запросить исходные записи до более широкого заявления.",
+          "why": "Проверка предшествует обобщению."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-данные: two errors in eight checked bills. Напиши результат с точной группой.",
+          "context": "Учебная мини-ситуация перед основной практикой. В RICO важен переход от обнаруженного расхождения к проверке закономерности: что можно заключить сейчас и какие документы ещё нужны.",
+          "answers": [
+            "Two of the eight checked bills contained errors."
+          ],
+          "hint": "Не меняй checked bills на all bills.",
+          "explanation": "Количество ошибки связано с размером проверки.",
+          "guidance": {
+            "title": "Запиши размер проверки рядом с выводом",
+            "body": "Если изучили десять счетов, не записывай «ошибки во всей компании». В конспекте держи рядом checked, found и sample. Так исходный масштаб не потеряется.",
+            "example": "The sample reveals a discrepancy, but not its cause.",
+            "translation": "Выборка выявляет расхождение, но не его причину."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Это может быть закономерность, но нам нужны ещё записи». A pattern; more records.",
+          "context": "Учебная мини-ситуация перед основной практикой. В RICO важен переход от обнаруженного расхождения к проверке закономерности: что можно заключить сейчас и какие документы ещё нужны.",
+          "answers": [
+            "This may be a pattern, but we need more records."
+          ],
+          "hint": "May сохраняет статус предварительной версии.",
+          "explanation": "Не отказываемся от наблюдения и не переоцениваем его.",
+          "guidance": {
+            "title": "Повторение не сразу объясняет причину",
+            "body": "Несколько похожих ошибок могут указывать на общий процесс. Но намеренность, причина и полный охват требуют других сведений. Услышь, какое из этих утверждений говорящий действительно делает.",
+            "example": "They decided to request the original records before making a wider claim.",
+            "translation": "Они решили запросить исходные записи до более широкого заявления."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Ответь по учебному тексту, сохранив размер выборки и оба ограничения. После просмотра сцены отдельно объясни, какая деталь изменила масштаб вопроса.",
+      "sourceIds": [
+        "film-method",
+        "gmu-hedges"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e08-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e08-listen",
+        "path-email-basic",
+        "path-argument-essay"
+      ],
+      "purpose": "После RICO пишем запрос документов так, чтобы адресат понял расхождение и мог ответить, а текст не превращался в неподтверждённое обвинение.",
+      "explanation": [
+        {
+          "title": "Укажи предмет проверки",
+          "body": "Какие счета, за какой период и какая строка не совпала? Для учебного задания бери эти сведения из кейса. Если номера не даны, не выдумывай их — опиши документы доступным способом."
+        },
+        {
+          "title": "Запроси конкретную опору",
+          "body": "Please provide an itemized explanation… просит расшифровку. Не требуй «доказать, что вы честны»: это не проверяемый документ. Свяжи каждую просьбу с замеченным расхождением."
+        },
+        {
+          "title": "Общественный интерес не заменяет точность",
+          "body": "Публикация может привлекать внимание, но сильное обвинение требует основания. Можно прямо сообщить обнаруженную проблему и то, что причина проверяется. Это не означает молчать о проверенных фактах."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please explain the difference between these two charges.",
+          "ru": "Пожалуйста, объясните разницу между этими двумя начислениями.",
+          "why": "Запрос привязан к определённому расхождению."
+        },
+        {
+          "en": "We have found errors in the checked records; we have not established their cause.",
+          "ru": "В проверенных записях найдены ошибки; их причина не установлена.",
+          "why": "Сообщение сохраняет факт и предел."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Пожалуйста, пришлите счёт с отдельными позициями». An itemized bill.",
+          "context": "Учебная мини-ситуация перед основной практикой. После RICO пишем запрос документов так, чтобы адресат понял расхождение и мог ответить, а текст не превращался в неподтверждённое обвинение.",
+          "answers": [
+            "Please send an itemized bill."
+          ],
+          "hint": "Itemized — с разбивкой по позициям.",
+          "explanation": "Запрос допускает конкретный ответ.",
+          "guidance": {
+            "title": "Укажи предмет проверки",
+            "body": "Какие счета, за какой период и какая строка не совпала? Для учебного задания бери эти сведения из кейса. Если номера не даны, не выдумывай их — опиши документы доступным способом.",
+            "example": "Please explain the difference between these two charges.",
+            "translation": "Пожалуйста, объясните разницу между этими двумя начислениями."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Сузь They deliberately overcharged everyone: установлено только расхождение в проверенных счетах.",
+          "context": "Учебная мини-ситуация перед основной практикой. После RICO пишем запрос документов так, чтобы адресат понял расхождение и мог ответить, а текст не превращался в неподтверждённое обвинение.",
+          "answers": [
+            "We found a discrepancy in the bills we checked."
+          ],
+          "hint": "Убери неустановленные deliberate и everyone.",
+          "explanation": "Сильные слова не заменяют доказательство намеренности и охвата.",
+          "guidance": {
+            "title": "Запроси конкретную опору",
+            "body": "Please provide an itemized explanation… просит расшифровку. Не требуй «доказать, что вы честны»: это не проверяемый документ. Свяжи каждую просьбу с замеченным расхождением.",
+            "example": "We have found errors in the checked records; we have not established their cause.",
+            "translation": "В проверенных записях найдены ошибки; их причина не установлена."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Перед длинным письмом составь список «факт — вопрос — нужный документ». После редактуры проверь, что ни один вопрос не содержит выдуманного обвинения.",
+      "sourceIds": [
+        "purdue-concision",
+        "gmu-hedges"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e09-prepare",
+      "prerequisites": [
+        "path-clefts",
+        "path-reporting-verbs",
+        "path-discussion-b2"
+      ],
+      "purpose": "Перед Pimento учимся назвать настоящую причину обиды и обозначить границу, не подменяя разговор оценкой личности.",
+      "explanation": [
+        {
+          "title": "Выдели конкретное действие",
+          "body": "What upset me was your silence — меня расстроило твоё молчание. Рамка выделяет причину. Она полезна, когда собеседник думает, будто проблема только в результате, а ты говоришь о способе решения."
+        },
+        {
+          "title": "Признание не означает согласие на всё",
+          "body": "I understand your concern, but… признаёт опасение. Дальше можно ясно сказать, что из этого не следует право решать за другого. Держи обе мысли, а не своди ответ к «ты всегда неправ»."
+        },
+        {
+          "title": "Описывай наблюдаемое",
+          "body": "You changed the plan without asking me сообщает действие. You have never respected me обобщает отношения и требует гораздо большего основания. Начни с конкретного случая."
+        }
+      ],
+      "examples": [
+        {
+          "en": "What upset me was that you did not ask me.",
+          "ru": "Меня расстроило то, что ты меня не спросил.",
+          "why": "Фокус на способе решения, а не только результате."
+        },
+        {
+          "en": "I understand your concern, but the choice is still mine.",
+          "ru": "Я понимаю твоё опасение, но выбор всё равно за мной.",
+          "why": "Сочетаются признание и граница."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи с What upset me: «Меня расстроило твоё решение». Your decision.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Pimento учимся назвать настоящую причину обиды и обозначить границу, не подменяя разговор оценкой личности.",
+          "answers": [
+            "What upset me was your decision."
+          ],
+          "hint": "После was назови реальную причину.",
+          "explanation": "Рамка не добавляет обвинений о всей личности.",
+          "guidance": {
+            "title": "Выдели конкретное действие",
+            "body": "What upset me was your silence — меня расстроило твоё молчание. Рамка выделяет причину. Она полезна, когда собеседник думает, будто проблема только в результате, а ты говоришь о способе решения.",
+            "example": "What upset me was that you did not ask me.",
+            "translation": "Меня расстроило то, что ты меня не спросил."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Я понимаю риск, но решение должен принять я». Understand the risk; make the decision.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Pimento учимся назвать настоящую причину обиды и обозначить границу, не подменяя разговор оценкой личности.",
+          "answers": [
+            "I understand the risk, but I need to make the decision."
+          ],
+          "hint": "Покажи и понимание, и свою роль.",
+          "explanation": "Признание риска не отдаёт право выбора автоматически.",
+          "guidance": {
+            "title": "Признание не означает согласие на всё",
+            "body": "I understand your concern, but… признаёт опасение. Дальше можно ясно сказать, что из этого не следует право решать за другого. Держи обе мысли, а не своди ответ к «ты всегда неправ».",
+            "example": "I understand your concern, but the choice is still mine.",
+            "translation": "Я понимаю твоё опасение, но выбор всё равно за мной."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В сцене ищи, какую конкретную претензию произносят и какое ожидание за ней может стоять. Подтекст записывай как интерпретацию, а не факт.",
+      "sourceIds": [
+        "voa-clefts",
+        "cam-politeness"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e09-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e09-prepare",
+        "path-reading-inference",
+        "path-prosody"
+      ],
+      "purpose": "В Pimento слушаем два слоя: о чём люди спорят буквально и какое значение их слова могут иметь для доверия и самостоятельности.",
+      "explanation": [
+        {
+          "title": "Сначала буквальная претензия",
+          "body": "Запиши одну короткую формулировку того, что человек прямо сказал. Только после этого спроси, какое ожидание она может показывать. Иначе эмоция сцены легко заменит точное содержание."
+        },
+        {
+          "title": "Сильный тон не доказывает скрытый мотив",
+          "body": "Пауза, ударение и уклончивый ответ помогают чтению, но не дают доступа к мыслям героя. Для выводов о мотивах нужны реплика, действие и контекст. Оставь возможную альтернативу."
+        },
+        {
+          "title": "Граница слышна в продолжении",
+          "body": "I respect your experience, but… может сочетать признание и отказ передать решение. В учебной истории Елены отследи именно это. Её история не является расшифровкой разговора персонажей сериала."
+        }
+      ],
+      "examples": [
+        {
+          "en": "She accepts his experience, but not his right to decide for her.",
+          "ru": "Она признаёт его опыт, но не его право решать за неё.",
+          "why": "Согласие и граница относятся к разным вещам."
+        },
+        {
+          "en": "The pause may suggest hesitation; it does not prove the reason for it.",
+          "ru": "Пауза может показывать колебание, но не доказывает его причину.",
+          "why": "Наблюдение отделено от мотива."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-реплика: I value your advice, but please ask before changing my plan. Назови границу.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Pimento слушаем два слоя: о чём люди спорят буквально и какое значение их слова могут иметь для доверия и самостоятельности.",
+          "answers": [
+            "The speaker wants to be asked before the plan is changed."
+          ],
+          "hint": "Не пересказывай это как отказ от любого совета.",
+          "explanation": "Сохраняется конкретное требование к действию.",
+          "guidance": {
+            "title": "Сначала буквальная претензия",
+            "body": "Запиши одну короткую формулировку того, что человек прямо сказал. Только после этого спроси, какое ожидание она может показывать. Иначе эмоция сцены легко заменит точное содержание.",
+            "example": "She accepts his experience, but not his right to decide for her.",
+            "translation": "Она признаёт его опыт, но не его право решать за неё."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Это возможно подразумевается, но не сказано прямо». May be implied; stated directly.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Pimento слушаем два слоя: о чём люди спорят буквально и какое значение их слова могут иметь для доверия и самостоятельности.",
+          "answers": [
+            "This may be implied, but it is not stated directly."
+          ],
+          "hint": "May удерживает статус интерпретации.",
+          "explanation": "Подтекст не превращается в буквальную цитату.",
+          "guidance": {
+            "title": "Сильный тон не доказывает скрытый мотив",
+            "body": "Пауза, ударение и уклончивый ответ помогают чтению, но не дают доступа к мыслям героя. Для выводов о мотивах нужны реплика, действие и контекст. Оставь возможную альтернативу.",
+            "example": "The pause may suggest hesitation; it does not prove the reason for it.",
+            "translation": "Пауза может показывать колебание, но не доказывает его причину."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Дай отдельные ответы по учебному кейсу и эпизоду. Для каждого вывода о подтексте укажи наблюдаемую опору и то, чего она всё ещё не устанавливает.",
+      "sourceIds": [
+        "film-method",
+        "cam-discourse",
+        "rachel-stress"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e09-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e09-listen",
+        "path-proposal",
+        "path-register-b2"
+      ],
+      "purpose": "После Pimento пишем письмо о нарушенной договорённости: назвать случай, признать понятную заботу и предложить новый порядок решений.",
+      "explanation": [
+        {
+          "title": "Отдели критику работы от права решать",
+          "body": "Можно обсуждать качество проекта и одновременно возражать против решения за спиной автора. Эти вопросы не обязаны иметь один ответ. В письме разведи их по предложениям."
+        },
+        {
+          "title": "Граница должна быть выполнимой",
+          "body": "Please discuss major changes with me first конкретно задаёт нужное действие. Respect me more звучит важно, но не объясняет, что делать иначе завтра."
+        },
+        {
+          "title": "Новый порядок лучше общего обещания",
+          "body": "Предложи, что обсуждать заранее, кто принимает окончательное решение и что делать при разногласии. Не обещай, что это уберёт все конфликты. Это способ вести следующий разговор яснее."
+        }
+      ],
+      "examples": [
+        {
+          "en": "I am willing to discuss the quality of my work, but the decision should be discussed with me.",
+          "ru": "Я готов обсуждать качество своей работы, но решение нужно обсуждать со мной.",
+          "why": "Критика не приравнена к праву решать в одиночку."
+        },
+        {
+          "en": "Please raise your concerns with me before changing the plan.",
+          "ru": "Пожалуйста, обсуди со мной опасения до изменения плана.",
+          "why": "Граница переведена в конкретное действие."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Я готов обсудить критику, но не согласен с тем, как было принято решение». Discuss the criticism; how the decision was made.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Pimento пишем письмо о нарушенной договорённости: назвать случай, признать понятную заботу и предложить новый порядок решений.",
+          "answers": [
+            "I am willing to discuss the criticism, but I disagree with how the decision was made."
+          ],
+          "hint": "Содержание критики и процедура — разные вопросы.",
+          "explanation": "Письмо сохраняет пространство для разговора.",
+          "guidance": {
+            "title": "Отдели критику работы от права решать",
+            "body": "Можно обсуждать качество проекта и одновременно возражать против решения за спиной автора. Эти вопросы не обязаны иметь один ответ. В письме разведи их по предложениям.",
+            "example": "I am willing to discuss the quality of my work, but the decision should be discussed with me.",
+            "translation": "Я готов обсуждать качество своей работы, но решение нужно обсуждать со мной."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Сформулируй правило: «Пожалуйста, сначала обсуди изменения со мной». Discuss the changes with me first.",
+          "context": "Учебная мини-ситуация перед основной практикой. После Pimento пишем письмо о нарушенной договорённости: назвать случай, признать понятную заботу и предложить новый порядок решений.",
+          "answers": [
+            "Please discuss the changes with me first."
+          ],
+          "hint": "Одно наблюдаемое действие вместо общей оценки характера.",
+          "explanation": "Адресат понимает, что требуется изменить.",
+          "guidance": {
+            "title": "Граница должна быть выполнимой",
+            "body": "Please discuss major changes with me first конкретно задаёт нужное действие. Respect me more звучит важно, но не объясняет, что делать иначе завтра.",
+            "example": "Please raise your concerns with me before changing the plan.",
+            "translation": "Пожалуйста, обсуди со мной опасения до изменения плана."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "В основном письме сохрани четыре части: случай, его значение, признание разумного опасения, новый порядок. После проверки скажи ту же границу устно коротко.",
+      "sourceIds": [
+        "cam-politeness",
+        "purdue-concision"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e10-prepare",
+      "prerequisites": [
+        "path-mixed-conditionals",
+        "path-narrative",
+        "path-synthesis"
+      ],
+      "purpose": "Перед Marco учимся связывать неслучившийся прошлый выбор с воображаемой нынешней жизнью и отличать первоначальный план от результата.",
+      "explanation": [
+        {
+          "title": "Две временные точки в одном условии",
+          "body": "If I had accepted the job — другой выбор тогда. I would be living abroad now — другая жизнь сейчас. Не нужно автоматически ставить would have в результате, если речь о настоящем."
+        },
+        {
+          "title": "План и итог могут разойтись",
+          "body": "I thought I would stay a week описывает ожидание в прошлом. I ended up staying a month сообщает результат. End up + -ing полезно, когда путь привёл не туда, куда ожидали."
+        },
+        {
+          "title": "Выбор не обязан иметь простую причину",
+          "body": "Среда, привычка, деньги и отношения могут действовать вместе. Во время финала отмечай отдельные основания, а не ищи одно волшебное слово, которое объяснит всю жизнь героя."
+        }
+      ],
+      "examples": [
+        {
+          "en": "If I had taken the job, I would be living elsewhere now.",
+          "ru": "Если бы я взял ту работу, сейчас жил бы в другом месте.",
+          "why": "Прошлое условие связано с нынешним результатом."
+        },
+        {
+          "en": "I planned to stay a week but ended up staying a month.",
+          "ru": "Я собирался остаться на неделю, а в итоге остался на месяц.",
+          "why": "Отделены план и фактический итог."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи: «Если бы я тогда переехал, сейчас жил бы рядом». Had moved then; would be living nearby now.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Marco учимся связывать неслучившийся прошлый выбор с воображаемой нынешней жизнью и отличать первоначальный план от результата.",
+          "answers": [
+            "If I had moved then, I would be living nearby now."
+          ],
+          "hint": "Then и now относятся к разным частям.",
+          "explanation": "Не переводим настоящее последствие в законченное прошлое.",
+          "guidance": {
+            "title": "Две временные точки в одном условии",
+            "body": "If I had accepted the job — другой выбор тогда. I would be living abroad now — другая жизнь сейчас. Не нужно автоматически ставить would have в результате, если речь о настоящем.",
+            "example": "If I had taken the job, I would be living elsewhere now.",
+            "translation": "Если бы я взял ту работу, сейчас жил бы в другом месте."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Я думал, что уйду рано, но в итоге остался». Leave early; ended up staying.",
+          "context": "Учебная мини-ситуация перед основной практикой. Перед Marco учимся связывать неслучившийся прошлый выбор с воображаемой нынешней жизнью и отличать первоначальный план от результата.",
+          "answers": [
+            "I thought I would leave early, but I ended up staying."
+          ],
+          "hint": "После ended up нужен -ing.",
+          "explanation": "Изменение результата видно без длинного объяснения.",
+          "guidance": {
+            "title": "План и итог могут разойтись",
+            "body": "I thought I would stay a week описывает ожидание в прошлом. I ended up staying a month сообщает результат. End up + -ing полезно, когда путь привёл не туда, куда ожидали.",
+            "example": "I planned to stay a week but ended up staying a month.",
+            "translation": "Я собирался остаться на неделю, а в итоге остался на месяц."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Перед финалом потренируй эти две рамки на своём вымышленном примере. Затем наблюдай, какие ожидания героя подтверждаются, а какие меняются.",
+      "sourceIds": [
+        "bc-conditionals",
+        "cam-aspect"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e10-listen",
+      "prerequisites": [
+        "cinema-bcs-s01e10-prepare",
+        "path-longform-reading"
+      ],
+      "purpose": "В Marco следим за изменением плана и за тем, какие варианты герой сравнивает честно, а какие видит через привычку или воспоминание.",
+      "explanation": [
+        {
+          "title": "Запиши план отдельно от результата",
+          "body": "Слова intended, expected, thought показывают ожидание. Ended up, eventually сообщают, к чему пришли. Не пересказывай первоначальный план как уже выполненное действие."
+        },
+        {
+          "title": "Проверь основание сравнения",
+          "body": "Знакомая среда может казаться надёжнее потому, что её легче представить. Новая возможность может казаться лучше из-за неизвестных недостатков. Это возможные объяснения; привяжи их к сцене, а не диагностируй человека."
+        },
+        {
+          "title": "Внешние события и внутренний вывод раздельны",
+          "body": "Герой вернулся — событие. Он вернулся, потому что ценит принадлежность, — интерпретация, если не названа прямо. Не используй дальнейшие сезоны для объяснения того, что на этом этапе ещё не известно."
+        }
+      ],
+      "examples": [
+        {
+          "en": "He intended to leave early, but stayed longer than planned.",
+          "ru": "Он собирался уйти рано, но остался дольше, чем планировал.",
+          "why": "Ожидание и результат различаются."
+        },
+        {
+          "en": "Familiarity may influence the choice, but it is not the only possible factor.",
+          "ru": "Привычность может влиять на выбор, но это не единственный возможный фактор.",
+          "why": "Интерпретация не стала единственной причиной."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "write",
+          "prompt": "Мини-реплика: I expected a short visit, but I stayed for weeks. Передай, что изменилось.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Marco следим за изменением плана и за тем, какие варианты герой сравнивает честно, а какие видит через привычку или воспоминание.",
+          "answers": [
+            "The visit lasted much longer than expected."
+          ],
+          "hint": "Lasted — длился; than expected — чем ожидалось.",
+          "explanation": "Отслеживаем изменение плана, не выдумываем причину.",
+          "guidance": {
+            "title": "Запиши план отдельно от результата",
+            "body": "Слова intended, expected, thought показывают ожидание. Ended up, eventually сообщают, к чему пришли. Не пересказывай первоначальный план как уже выполненное действие.",
+            "example": "He intended to leave early, but stayed longer than planned.",
+            "translation": "Он собирался уйти рано, но остался дольше, чем планировал."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "translate",
+          "prompt": "Переведи: «Нам нужна информация о обоих вариантах, а не только о знакомом». Both options; the familiar one.",
+          "context": "Учебная мини-ситуация перед основной практикой. В Marco следим за изменением плана и за тем, какие варианты герой сравнивает честно, а какие видит через привычку или воспоминание.",
+          "answers": [
+            "We need information about both options, not just the familiar one."
+          ],
+          "hint": "One заменяет option.",
+          "explanation": "Сравнение должно иметь сведения по обеим сторонам.",
+          "guidance": {
+            "title": "Проверь основание сравнения",
+            "body": "Знакомая среда может казаться надёжнее потому, что её легче представить. Новая возможность может казаться лучше из-за неизвестных недостатков. Это возможные объяснения; привяжи их к сцене, а не диагностируй человека.",
+            "example": "Familiarity may influence the choice, but it is not the only possible factor.",
+            "translation": "Привычность может влиять на выбор, но это не единственный возможный фактор."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Разбери сначала изменение плана в учебной истории, затем два выбранных момента финала. Для интерпретации выбора оставь хотя бы одну альтернативу.",
+      "sourceIds": [
+        "film-method",
+        "gmu-hedges"
+      ]
+    },
+    {
+      "lessonId": "cinema-bcs-s01e10-respond",
+      "prerequisites": [
+        "cinema-bcs-s01e10-listen",
+        "path-synthesis",
+        "path-argument-essay"
+      ],
+      "purpose": "Финал кинокурса — собственный аргумент о выборе человека. Сезон даёт материал, но вывод нужно построить и проверить возражением.",
+      "explanation": [
+        {
+          "title": "Тезис должен позволять спор",
+          "body": "Среда влияет на выбор слишком широко для сильного анализа. Уточни, когда и через что: знакомые отношения могут перевешивать новую карьерную возможность. Это позиция для проверки, а не универсальный закон."
+        },
+        {
+          "title": "Сцена нужна как опора, не пересказ серии",
+          "body": "Коротко назови наблюдаемое решение, затем объясни, как оно поддерживает тезис. Добавь сцену, которая усложняет вывод. Не подменяй анализ пересказом всех десяти эпизодов."
+        },
+        {
+          "title": "Сильное возражение улучшает итог",
+          "body": "Сформулируй реальный аргумент противоположной стороны. Потом сузь свой вывод, если нужно: not always, in this situation, one factor. Через день попробуй объяснить ту же мысль на новом жизненном примере."
+        }
+      ],
+      "examples": [
+        {
+          "en": "The familiar environment influences his choice, but does not remove his responsibility.",
+          "ru": "Привычная среда влияет на его выбор, но не снимает ответственности.",
+          "why": "Два аспекта могут сосуществовать."
+        },
+        {
+          "en": "This scene supports my argument, while the later choice complicates it.",
+          "ru": "Эта сцена поддерживает мой аргумент, а поздний выбор его осложняет.",
+          "why": "Анализ учитывает неудобное свидетельство."
+        }
+      ],
+      "practice": [
+        {
+          "id": "prepare-1",
+          "kind": "translate",
+          "prompt": "Переведи тезис с ограничением: «Среда влияет на выбор, но не полностью его определяет». Environment; influences; determines.",
+          "context": "Учебная мини-ситуация перед основной практикой. Финал кинокурса — собственный аргумент о выборе человека. Сезон даёт материал, но вывод нужно построить и проверить возражением.",
+          "answers": [
+            "The environment influences a choice, but does not determine it completely."
+          ],
+          "hint": "Не превращай влияние в единственную причину.",
+          "explanation": "Тезис оставляет место другим основаниям.",
+          "guidance": {
+            "title": "Тезис должен позволять спор",
+            "body": "Среда влияет на выбор слишком широко для сильного анализа. Уточни, когда и через что: знакомые отношения могут перевешивать новую карьерную возможность. Это позиция для проверки, а не универсальный закон.",
+            "example": "The familiar environment influences his choice, but does not remove his responsibility.",
+            "translation": "Привычная среда влияет на его выбор, но не снимает ответственности."
+          },
+          "practiceStage": "guided"
+        },
+        {
+          "id": "prepare-2",
+          "kind": "write",
+          "prompt": "Начни сильное возражение: «Однако тот же опыт мог бы привести другого человека к иному решению». The same experience; lead another person to a different decision.",
+          "context": "Учебная мини-ситуация перед основной практикой. Финал кинокурса — собственный аргумент о выборе человека. Сезон даёт материал, но вывод нужно построить и проверить возражением.",
+          "answers": [
+            "However, the same experience could lead another person to a different decision."
+          ],
+          "hint": "Could обозначает правдоподобную альтернативу.",
+          "explanation": "Возражение проверяет слишком широкий вывод.",
+          "guidance": {
+            "title": "Сцена нужна как опора, не пересказ серии",
+            "body": "Коротко назови наблюдаемое решение, затем объясни, как оно поддерживает тезис. Добавь сцену, которая усложняет вывод. Не подменяй анализ пересказом всех десяти эпизодов.",
+            "example": "This scene supports my argument, while the later choice complicates it.",
+            "translation": "Эта сцена поддерживает мой аргумент, а поздний выбор его осложняет."
+          },
+          "practiceStage": "guided"
+        }
+      ],
+      "beforePractice": "Напиши основной анализ, затем отдельное возражение и уточнённый итог. Устная версия должна передавать логику без чтения текста; итог сезона не является автоматическим подтверждением C1.",
+      "sourceIds": [
+        "purdue-synthesis",
+        "uvu-rhetoric"
+      ]
+    }
+  ]
+}

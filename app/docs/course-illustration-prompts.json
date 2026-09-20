@@ -1,0 +1,21 @@
+{
+  "generator": "built-in image_gen",
+  "date": "2026-09-20",
+  "prompts": [
+    {
+      "key": "articles-scene",
+      "prompt": "Use case: scientific-educational. Create one clean, sophisticated adult English course teaching illustration, wide 3:2 horizontal composition, exactly two equally sized sequential panels separated by a slim white gutter. Soft editorial 3D clay / matte illustration, warm cream backdrop, pale periwinkle accents, vivid red focal objects. Same two adult friends seated at a small round cafe table in both panels. Left panel: one person takes a single shiny red apple out of an otherwise closed cloth bag and introduces it to their friend; both looking at that apple. Right panel: the very same apple now clearly visible on the otherwise empty table, second person points at it while both already know which apple. Only ONE apple in each panel. Purpose: new mention 'an apple' then known shared mention 'the apple'. Friendly expressive faces, accurate hands, legible uncluttered scene at mobile size. No typography, no letters, no speech bubbles, no logos or watermark. This must show the change in shared knowledge, not a collage of random apples.",
+      "output": "app/studio/assets/course-scenes/articles-scene.png"
+    },
+    {
+      "key": "time-scene",
+      "prompt": "Use case: scientific-educational. One polished adult English lesson illustration, wide horizontal 3:2, exactly two equal sequential panels separated by a white gutter. Editorial matte 3D illustration with cream background, periwinkle clothing, mint and peach accents. Same adult man and small wooden desk in both panels. Left panel: man actively PAINTING a small blue wooden chair, brush in hand touches a visibly half-painted seat, other half natural wood, paint can beside it. Right panel: same man has finished, puts brush down, whole same chair now completely painted blue with no unpainted patches, smiling at usable finished result. Emphasize process happening now versus completed action with result present. Keep object count low, consistent chair shape and person, no other time clues needed. No words, letters, numbers, speech bubbles, labels, logos or watermark. Designed to support original text 'He is painting the chair' and 'He has painted the chair', recognizable on mobile.",
+      "output": "app/studio/assets/course-scenes/time-scene.png"
+    },
+    {
+      "key": "perspective-scene",
+      "prompt": "Use case: scientific-educational. One wide horizontal 3:2 thoughtful editorial illustration for advanced adult English about interpreting evidence and certainty. Exactly three equally sized side by side panels, light warm neutral background, matte cut-paper / soft 3D style, periwinkle mint peach accents. All three panels depict the same closed apartment door and small doormat. Panel one: person outside sees bright light under the closed door and two shoes on mat but cannot see inside, holds hand at chin wondering. Panel two: simple cutaway view reveals resident inside sitting quietly reading under a lamp. Panel three: alternative cutaway view reveals EMPTY room, lamp on and identical shoes left on mat. Visually distinguish the one observation from two plausible explanations. No text at all, no letters, no numbers, no thought bubbles, no logos. Clear low-clutter pedagogical visual, consistent room and door. This helps teach difference between evidence, inference and certainty, not a detective or danger scene.",
+      "output": "app/studio/assets/course-scenes/perspective-scene.png"
+    }
+  ]
+}

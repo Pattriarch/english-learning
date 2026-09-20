@@ -40,10 +40,12 @@ test('beginner plans follow prerequisites for all budgets without generic essays
   assert.equal(plan.beginner,true);assert.equal(plan.blocks.reduce((n,b)=>n+b.minutes,0),minutes);
   assert.equal(validDailyPlan(JSON.parse(plannerJSON(plan)),dateKey(now)),true);
   const study=plan.blocks.filter(b=>b.id!=='review');
-  assert.equal(study[0].href,`#/lesson/${level==='A1'?'path-be':'path-past-simple'}/0`);
+  assert.equal(study[0].href,'#/lesson/path-be/0');
   for(const b of study){assert.equal(b.target.kind,'attempts');assert.equal(b.target.exactExerciseIds,true);assert.ok(b.target.count>=8);assert.equal(b.practiceTask,undefined);}
  }
 });
+
+test('A2 continues at the past after its A1 foundations have been answered',()=>{const d=data();d.state.attempts=beginner.filter(l=>l.level==='A1').flatMap(l=>l.exercises.map(e=>attempt(l,e)));assert.equal(createDailyPlan(d,{level:'A2',minutes:30},now).blocks[0].href,'#/lesson/path-past-simple/0');});
 
 test('saved old revisions and unsuccessful answers cannot silently skip beginner steps',()=>{
  const d=data(),l=beginner.find(l=>l.id==='path-be');

@@ -1,5 +1,6 @@
 import {authoredLessonState} from './authored-exercise.js';
 import {icon} from './icons.js';
+import {answerAudioHTML,primaryAnswerAudio,bindAnswerAudio} from './feedback-audio.js';
 export {icon};
 export const $=(q,root=document)=>root.querySelector(q);
 export const $$=(q,root=document)=>[...root.querySelectorAll(q)];
@@ -68,10 +69,11 @@ export function feedbackHTML(a){
     <div class="feedback-title">${icon(f.verdict==='correct'?'check':'pen')}${esc(f.summary)}</div>
     <div class="answer-meta"><span>${f.source==='reference'?'Сравнение с примерами':'Разбор помощника · '+esc(f.source)}</span><span>${f.verdict==='ungraded'?'Без оценки':'Ответ сохранён'}</span></div>
     ${f.scope==='text-reflection'?'<p class="small-note">Разобран текст ответа. Это не оценка звуков, акцента или интонации.</p>':''}
-    ${f.corrected?`<div class="eyebrow">${f.verdict==='ungraded'?'Один из примеров':'Возможная формулировка'}</div><div class="correction">${esc(f.corrected)}</div>`:''}
+    ${f.corrected?`<div class="eyebrow">${f.verdict==='ungraded'?'Один из примеров':'Возможная формулировка'}</div><div class="correction" lang="en">${esc(f.corrected)}</div>`:''}
+    ${answerAudioHTML(primaryAnswerAudio(a),f.verdict==='ungraded'?'Послушать пример':'Послушать ответ')}
     ${(f.mistakes||[]).map(m=>`<div class="mistake"><del>${esc(m.original)}</del> &nbsp;→&nbsp; <strong>${esc(m.correction)}</strong><p>${esc(m.why)}</p><small>${esc(m.rule)}</small><div class="spacer"></div><button class="btn small" data-mistake="${esc(m.original)}" data-correction="${esc(m.correction)}" data-note="${esc(m.why)}">${icon('cards')} В повторение</button></div>`).join('')}
     <p>${esc(f.explanation)}</p>
-    ${f.alternatives?.length?`<details><summary>Другие допустимые варианты</summary><ul>${f.alternatives.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></details>`:''}
+    ${f.alternatives?.length?`<details><summary>Другие допустимые варианты</summary><ul>${f.alternatives.map(t=>`<li><span>${esc(t)}</span> ${answerAudioHTML(t,'Послушать вариант')}</li>`).join('')}</ul></details>`:''}
   </div>`;
 }
 export function openModal(title,body){const d=$('#modal');d.innerHTML=`<div class="modal-head"><h2>${esc(title)}</h2><button aria-label="Закрыть" id="modal-close">${icon('close')}</button></div>${body}`;$('#modal-close').onclick=()=>d.close();if(!d.open)d.showModal();return d;}
@@ -86,4 +88,4 @@ export async function cardModal(prefill={},onSaved=()=>{}){
   const cardID=uid(),form=$('#card-form');
   form.onsubmit=e=>{e.preventDefault();busy($('#card-form button'),async()=>{await api('/cards',{id:cardID,front:$('#card-front').value,back:$('#card-back').value,note:$('#card-note').value,source:prefill.source||'',image:prefill.image||''});if(form.isConnected)d.close();toast('Карточка добавлена. Она уже доступна для повторения.');window.dispatchEvent(new Event('ew-refresh'));await onSaved();},'Сохраняем…');};
 }
-export function bindMistakes(root=document){$$('[data-mistake]',root).forEach(b=>b.onclick=()=>cardModal({front:'Исправь и объясни: '+b.dataset.mistake,back:b.dataset.correction,note:b.dataset.note,source:'Моя ошибка'}));}
+export function bindMistakes(root=document){bindAnswerAudio(root);$$('[data-mistake]',root).forEach(b=>b.onclick=()=>cardModal({front:'Исправь и объясни: '+b.dataset.mistake,back:b.dataset.correction,note:b.dataset.note,source:'Моя ошибка'}));}

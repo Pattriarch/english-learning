@@ -5,7 +5,10 @@ import {lessonSequence} from './lesson-sequence.js';
 // answers do not move a beginner past a construction they have not practiced.
 export function beginnerPlan(data,{level,minutes,domain},now){
  if(!['A1','A2'].includes(level))return null;
- const lessons=lessonSequence(data.lessons,data.learningPath).filter(r=>r.level===level&&r.lesson.beginner).map(r=>r.lesson);
+ const sequence=lessonSequence(data.lessons,data.learningPath),wanted=new Set();
+ const include=lesson=>{if(!lesson||wanted.has(lesson.id))return;wanted.add(lesson.id);for(const id of lesson.prerequisites||[])include(sequence.find(r=>r.lesson.id===id)?.lesson);};
+ for(const record of sequence)if(record.level===level&&(record.lesson.beginner||record.lesson.courseGuide))include(record.lesson);
+ const lessons=sequence.filter(r=>wanted.has(r.lesson.id)).map(r=>r.lesson);
  const latest=new Map();for(const a of data.state?.attempts||[]){const at=Date.parse(a.at);if(!Number.isFinite(at)||at>now.getTime())continue;const key=a.lessonId+':'+a.exerciseId,previous=latest.get(key);if(!previous||at>=Date.parse(previous.at))latest.set(key,a);}
  const pending=lesson=>lesson.exercises.filter(e=>{const a=latest.get(lesson.id+':'+authoredExerciseID(e));return !a?.answer?.trim()||['partial','incorrect'].includes(a.feedback?.verdict);});
  const remaining=lessons.filter(l=>pending(l).length);if(!remaining.length)return null;
