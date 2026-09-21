@@ -223,10 +223,10 @@ export function bookPreparation(book,unit,lessons=[]){
  const supports=[...new Set(ids)].map(id=>lessons.find(l=>l.id===id)).filter(Boolean);
  return {unitId:unit.equivalentUnitId||unit.id,title,basis,supports,requestedIds:ids};
 }
-export function bookPreparationHTML(book,unit,lessons){
+export function bookPreparationHTML(book,unit,lessons,options={}){
  const prep=bookPreparation(book,unit,lessons),first=prep.supports[0];
  const brief=first?.courseGuide?first:first?.beginner?{...first,courseGuide:{purpose:first.goal,explanation:first.sections.slice(0,3),examples:first.examples.slice(0,2)}}:null;
- return `<section class="surface book-preparation"><span class="eyebrow">ВХОД В ГЛАВУ</span><h2>Сначала знакомая опора, затем детали</h2><p>В учебнике тема разобрана шире, чем в коротком уроке. Если конструкция новая, сначала пройди её по шагам в основном курсе. Главы библиотеки — дополнительная практика, их не нужно проходить повторно ради счётчика.</p>${prep.supports.length?`<ul>${prep.supports.map(l=>`<li><a href="#/lesson/${esc(l.id)}">${esc(l.title)}</a><span class="small-note"> · ${esc(l.level)}</span></li>`).join('')}</ul>`:''}<p class="small-note">Это языковые опоры для раздела ${esc(unit.category||book.title)}, а не замена всех нюансов главы. Разбирай по одному пункту ниже: пример → смысл → своя короткая фраза. Потом переходи к заданиям.</p>${bookBeginnerNotesHTML(prep.unitId)}${brief?courseGuideHTML(brief,1):''}</section>`;
+ return `<section class="surface book-preparation"><span class="eyebrow">ВХОД В ГЛАВУ</span><h2>Сначала знакомая опора, затем детали</h2><p>В учебнике тема разобрана шире, чем в коротком уроке. Если конструкция новая, сначала пройди её по шагам в основном курсе. Главы библиотеки — дополнительная практика, их не нужно проходить повторно ради счётчика.</p>${prep.supports.length?`<ul>${prep.supports.map(l=>`<li><a href="#/lesson/${esc(l.id)}">${esc(l.title)}</a><span class="small-note"> · ${esc(l.level)}</span></li>`).join('')}</ul>`:''}<p class="small-note">Это языковые опоры для раздела ${esc(unit.category||book.title)}, а не замена всех нюансов главы. Разбирай по одному пункту ниже: пример → смысл → своя короткая фраза. Потом переходи к заданиям.</p>${options.editorial?'' : bookBeginnerNotesHTML(prep.unitId)}${brief?courseGuideHTML(brief,1):''}</section>`;
 }
 export function bookBeginnerNotesHTML(unitId){
  const note=beginnerBookNotes[unitId];if(!note)return '';

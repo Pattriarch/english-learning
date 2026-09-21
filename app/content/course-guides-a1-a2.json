@@ -79,7 +79,8 @@
         "path-be",
         "path-possession",
         "path-questions-basic",
-        "path-requests-can"
+        "path-requests-can",
+        "research-spelling-numbers"
       ],
       "purpose": "Записать имя и контакт без догадок: одна короткая фраза на один факт.",
       "explanation": [
@@ -92,8 +93,8 @@
           "body": "Can you repeat that, please? — повторите, пожалуйста. Can you — можешь/можете, repeat — повторить, that — это, please — пожалуйста. Это готовая вежливая просьба. Не нужно угадывать цифру."
         },
         {
-          "title": "Что уже известно",
-          "body": "My phone number is … — мой номер телефона … . Если номер не прозвучал, поле остаётся пустым. Напиши I don’t know the number: «Я не знаю номер». Don’t know уже знакомо из Present simple."
+          "title": "Если данных нет",
+          "body": "I don’t know the number — я не знаю номер. Don’t = do not; после этих слов know остаётся без изменений. Если адрес электронной почты не назван, оставь поле Email пустым. Это не значит, что у человека нет почты."
         }
       ],
       "examples": [
@@ -127,7 +128,7 @@
           "explanation": "После my name используем is.",
           "guidance": {
             "title": "Сначала имя",
-            "body": "My name is Ann — меня зовут Энн. My — мой/моё, name — имя, is связывает имя с человеком. В анкете достаточно самого имени; полная фраза нужна в разговоре. my name — моё имя; Sam — Сэм.",
+            "body": "В представлении сначала My name («моё имя»), затем is и имя человека. Сохрани My name is и замени Ann на Sam.",
             "example": "My name is Ann.",
             "translation": "Меня зовут Энн."
           },
@@ -146,7 +147,7 @@
           "explanation": "Can you + действие — вежливая просьба.",
           "guidance": {
             "title": "Если не расслышал",
-            "body": "Can you repeat that, please? — повторите, пожалуйста. Can you — можешь/можете, repeat — повторить, that — это, please — пожалуйста. Это готовая вежливая просьба. Не нужно угадывать цифру. repeat — повторить; that — это; please — пожалуйста.",
+            "body": "Просьба начинается с Can you, затем repeat («повторить»), that («это») и please. После can не добавляй to.",
             "example": "Can you repeat that, please?",
             "translation": "Повторите это, пожалуйста."
           },
@@ -165,7 +166,7 @@
           "explanation": "Неизвестный факт лучше обозначить прямо, чем выдумать.",
           "guidance": {
             "title": "Что уже известно",
-            "body": "My phone number is … — мой номер телефона … . Если номер не прозвучал, поле остаётся пустым. Напиши I don’t know the number: «Я не знаю номер». Don’t know уже знакомо из Present simple. know — знать; number — номер; do not = don’t.",
+            "body": "I do not know означает «я не знаю». The number — конкретный номер, о котором спрашивают. Don’t — короткая форма do not.",
             "example": "I don’t know the number.",
             "translation": "Я не знаю номер."
           },
@@ -211,7 +212,7 @@
         {
           "id": "e3",
           "kind": "write",
-          "prompt": "Открой m1 и m2. Заполни только поля Name, Address, Phone и Email. Неизвестное поле оставь пустым. Дату добавим позже.",
+          "prompt": "Открой m1 и m2. Заполни поля Name, Address, Phone и Email. Неизвестное поле оставь пустым. С датой отдельно поработаем в задании про 12 и 19 июня.",
           "context": "name — имя; address — адрес; phone — телефон; email — электронная почта.",
           "materialIds": [
             "m1",
@@ -222,7 +223,7 @@
           ],
           "hint": "name — имя; address — адрес; phone — телефон; email — электронная почта.",
           "explanation": "Адрес электронной почты не сообщён. Пустое поле не означает, что у человека нет почты.",
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e4",
@@ -242,17 +243,24 @@
         {
           "id": "e5",
           "kind": "translate",
-          "prompt": "Переведи одно сообщение: «Ким не может прийти 12 июня». Дату можно написать цифрами.",
-          "context": "cannot = can’t — не может; come — прийти; on June 12 — 12 июня.",
+          "prompt": "Передай коллеге две мысли Ким: «Я не могу прийти 12 июня. Я могу прийти 19 июня, если есть место». Говори о Ким, а не от первого лица. Даты можно записать цифрами.",
+          "context": "Kim cannot come — Ким не может прийти; on June 12/19 — 12/19 июня; if there is a place — если есть место.",
           "materialIds": [
             "m1"
           ],
           "answers": [
-            "Kim cannot come on June 12."
+            "Kim cannot come on June 12. Kim can come on June 19 if there is a place."
           ],
-          "hint": "cannot = can’t — не может; come — прийти; on June 12 — 12 июня.",
-          "explanation": "Отрицание относится к конкретной дате. После cannot глагол come без to.",
-          "revision": 1
+          "hint": "После can и cannot используй come. К дате возможного визита добавь готовое условие if there is a place.",
+          "explanation": "12 июня исключено. 19 июня возможно только при наличии места. Короткая фраза if there is a place сохраняет это условие и не обещает, что место уже есть.",
+          "revision": 2,
+          "guidance": {
+            "title": "Два разных ответа о дате",
+            "body": "Cannot — не может, can — может. После них ставим come. If there is a place — готовая фраза «если есть место»; в этом задании учим её целиком.",
+            "example": "Jo can come on July 8 if there is a place.",
+            "translation": "Джо может прийти 8 июля, если есть место."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e6",
@@ -283,7 +291,14 @@
           ],
           "hint": "your address — ваш адрес; forty — 40; thank you — спасибо.",
           "explanation": "В новом сообщении дом 40 заменяет прежний 14. Остальные факты менять не нужно.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Повтори исправленный адрес",
+            "body": "Your address is … — ваш адрес … . Fourteen — 14, forty — 40. В исправлении forty, not fourteen число после not отвергается: записываем forty.",
+            "example": "Your address is 20 Lake Road. Thank you.",
+            "translation": "Ваш адрес — Лейк-роуд, 20. Спасибо."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e8",
@@ -321,8 +336,8 @@
           "body": "You can take a small bag — можно взять маленькую сумку. Can показывает разрешение. No large bags — большие сумки нельзя: в коротком объявлении целое предложение часто сокращено."
         },
         {
-          "title": "Время без лишних слов",
-          "body": "The class starts at ten — занятие начинается в десять. Class — занятие, starts — начинается, at ten — в десять. Проверяй, относится ли время к нужному дню."
+          "title": "День и время",
+          "body": "The class starts at ten — занятие начинается в десять. Class — занятие; одно занятие: starts с s. At ставим перед часом, on — перед днём: on Monday — в понедельник. Usually — обычно, only — только. Если для нужного дня названо отдельное время, используй его."
         }
       ],
       "examples": [
@@ -339,7 +354,7 @@
         {
           "en": "The class starts at ten.",
           "ru": "Занятие начинается в десять.",
-          "why": "У class одно занятие, поэтому starts с s."
+          "why": "The class — одно занятие: глагол start получает s. At ten — в десять."
         }
       ],
       "practice": [
@@ -356,7 +371,7 @@
           "explanation": "Инструкция начинается с глагола use.",
           "guidance": {
             "title": "Правило — это действие",
-            "body": "Use the main entrance — пользуйтесь главным входом. Use — использовать, main — главный, entrance — вход. В инструкции действие стоит первым, без you. use — пользоваться; the main entrance — главный вход.",
+            "body": "Use — «пользуйтесь». Начни с этого действия; затем назови the main entrance — главный вход. You в такой инструкции не нужен.",
             "example": "Use the main entrance.",
             "translation": "Пользуйтесь главным входом."
           },
@@ -375,7 +390,7 @@
           "explanation": "После can не добавляем to.",
           "guidance": {
             "title": "Можно и нельзя",
-            "body": "You can take a small bag — можно взять маленькую сумку. Can показывает разрешение. No large bags — большие сумки нельзя: в коротком объявлении целое предложение часто сокращено. take — взять; small — маленький; bag — сумка.",
+            "body": "You can — «можно», take — «взять». После can поставь take; a small bag — одну маленькую сумку.",
             "example": "You can take a small bag.",
             "translation": "Можно взять маленькую сумку."
           },
@@ -394,14 +409,14 @@
           "explanation": "Для одного занятия starts, перед точным часом at.",
           "guidance": {
             "title": "Время без лишних слов",
-            "body": "The class starts at ten — занятие начинается в десять. Class — занятие, starts — начинается, at ten — в десять. Проверяй, относится ли время к нужному дню. class — занятие; start — начинаться; nine — девять.",
+            "body": "The class — одно занятие, поэтому starts с s. Перед часом нужен at. Замени ten в образце на nine.",
             "example": "The class starts at ten.",
             "translation": "Занятие начинается в десять."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала найди действие в каждом объявлении, затем место и время. Для своего объяснения используй отдельные короткие предложения: сначала вход, затем сумка, затем занятие.",
+      "beforePractice": "В объявлении найди нужный блок: ENTRANCE — вход, BAGS — сумки, CLASS TIMES — время занятий. Затем проверь день посетителя. В плане британское ground floor означает этаж на уровне земли, то есть первый этаж по-русски. Вопросы к каждому материалу выполняй по порядку.",
       "sourceIds": [
         "a1-reading"
       ],
@@ -485,7 +500,7 @@
         {
           "id": "e6",
           "kind": "write",
-          "prompt": "Напиши посетителю из m3 записку из трёх коротких предложений: где сумка, какой кабинет, во сколько начало в среду.",
+          "prompt": "Напиши посетителю из m3 три короткие инструкции: где оставить большую сумку, в какой кабинет идти и во сколько в среду начинается английский.",
           "context": "leave your bag — оставьте сумку; go to — идите в; starts at — начинается в.",
           "materialIds": [
             "m1",
@@ -493,11 +508,11 @@
             "m3"
           ],
           "answers": [
-            "Leave your bag in the bag room. Go to Room 2. English starts at eleven."
+            "Leave your large bag in the bag room. Go to Room 2. English starts at eleven."
           ],
           "hint": "leave your bag — оставьте сумку; go to — идите в; starts at — начинается в.",
-          "explanation": "Три отдельные мысли: действие с сумкой, кабинет и время.",
-          "revision": 1
+          "explanation": "Сначала действие с большой сумкой, затем кабинет и время для среды. Маленькую сумку разрешено взять в класс.",
+          "revision": 2
         },
         {
           "id": "e7",
@@ -528,7 +543,14 @@
           ],
           "hint": "small bag — маленькая сумка; Thursday — четверг; can — можно.",
           "explanation": "Маленькие сумки разрешены. В четверг действует обычное начало в десять; одиннадцать относится только к среде.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Сначала проверь день",
+            "body": "You can … — можно; you cannot … — нельзя. Starts at … — начинается в … . В объявлении слово only ограничивает исключение одним днём.",
+            "example": "You can take a small bag. English starts at nine on Monday.",
+            "translation": "Можно взять маленькую сумку. В понедельник английский начинается в девять."
+          },
+          "practiceStage": "guided"
         }
       ]
     },
@@ -546,12 +568,12 @@
           "body": "I can come — я могу прийти. I — я, can — могу, come — прийти. Этого достаточно для первого ответа. Не надо сразу описывать все планы на неделю."
         },
         {
-          "title": "Одна точная просьба",
-          "body": "What time? — во сколько? Полный вопрос What time can we meet? — во сколько мы можем встретиться? We — мы, meet — встретиться. Здесь can уже знакомо."
+          "title": "Спроси о времени",
+          "body": "What time can we meet? — во сколько мы можем встретиться? What time спрашивает час; can стоит перед we («мы»), затем meet («встретиться»). Если предлагаешь свой час, спроси Is three good for you? — тебе подходит три часа?"
         },
         {
-          "title": "Подтверждение",
-          "body": "See you at three — увидимся в три. See you — готовая разговорная формула прощания перед встречей. В дружеском чате это нормально. Если время поменялось, повтори новое время."
+          "title": "Предложение и подтверждение",
+          "body": "Let’s meet … — давай встретимся … . После let’s ставим действие без to. Это предложение. See you at three — увидимся в три — уместно, когда время уже подходит обоим. Если согласия ещё нет, сначала задай вопрос."
         }
       ],
       "examples": [
@@ -585,7 +607,7 @@
           "explanation": "I can come, затем день.",
           "guidance": {
             "title": "Короткое согласие",
-            "body": "I can come — я могу прийти. I — я, can — могу, come — прийти. Этого достаточно для первого ответа. Не надо сразу описывать все планы на неделю. come — прийти; Saturday — суббота; on — перед днём.",
+            "body": "I can come — я могу прийти. Перед днём ставим on. Сохрани начало фразы и замени Friday («пятница») на Saturday («суббота»).",
             "example": "I can come on Friday.",
             "translation": "Я могу прийти в пятницу."
           },
@@ -604,7 +626,7 @@
           "explanation": "Вопрос what time, затем can we.",
           "guidance": {
             "title": "Одна точная просьба",
-            "body": "What time? — во сколько? Полный вопрос What time can we meet? — во сколько мы можем встретиться? We — мы, meet — встретиться. Здесь can уже знакомо. what time — во сколько; we — мы; meet — встретиться.",
+            "body": "What time — во сколько; can we meet — мы можем встретиться? В вопросе can идёт перед we. Не добавляй do.",
             "example": "What time can we meet?",
             "translation": "Во сколько мы можем встретиться?"
           },
@@ -623,7 +645,7 @@
           "explanation": "Для часа используем at.",
           "guidance": {
             "title": "Подтверждение",
-            "body": "See you at three — увидимся в три. See you — готовая разговорная формула прощания перед встречей. В дружеском чате это нормально. Если время поменялось, повтори новое время. see you — увидимся; four — четыре.",
+            "body": "See you — готовая фраза «увидимся». Перед часом поставь at. Здесь по условию час уже выбран; в настоящем чате сначала согласуй его.",
             "example": "See you at three.",
             "translation": "Увидимся в три."
           },
@@ -740,7 +762,14 @@
           ],
           "hint": "let’s meet — давай встретимся; is three good for you? — три тебе подходит?",
           "explanation": "Адрес уже известен, время ещё требует подтверждения.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Предложи место и проверь час",
+            "body": "Начни с Let’s meet at … — давай встретимся по адресу … . Во втором предложении проверь своё время: Is … good for you? — тебе подходит …?",
+            "example": "Let’s meet at 8 Lake Road. Is four good for you?",
+            "translation": "Давай встретимся по адресу Лейк-роуд, 8. Тебе подходит четыре?"
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e8",
@@ -755,7 +784,14 @@
           ],
           "hint": "I don’t know — я не знаю; about tickets — про билеты; yet — пока.",
           "explanation": "Исправлены адрес и неподтверждённое утверждение о билетах.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Чего ещё не знаем",
+            "body": "I don’t know about … yet — я пока не знаю насчёт … . Tickets — билеты. Yet в конце показывает, что ответ пока неизвестен. Оставь приветствие, затем исправь адрес и сведения о билетах.",
+            "example": "I don’t know about the price yet.",
+            "translation": "Я пока не знаю цену."
+          },
+          "practiceStage": "guided"
         }
       ]
     },
@@ -766,7 +802,7 @@
         "path-countability",
         "path-requests-can"
       ],
-      "purpose": "Заказать одну вещь, добавить вторую и спокойно исправить недоразумение.",
+      "purpose": "Заказать еду и напиток, уточнить размер и спокойно попросить исправить заказ.",
       "explanation": [
         {
           "title": "Готовая рамка заказа",
@@ -812,7 +848,7 @@
           "explanation": "Вежливая рамка остаётся, меняется напиток.",
           "guidance": {
             "title": "Готовая рамка заказа",
-            "body": "Can I have a tea, please? — можно мне чай, пожалуйста? В кафе a tea значит одну порцию чая. Не нужно сначала разбирать все значения have: здесь это часть вежливого заказа. a coffee — одна порция кофе; please — пожалуйста.",
+            "body": "Can I have …, please? — готовая вежливая просьба в кафе. Вставь a coffee вместо a tea: нужна одна порция кофе.",
             "example": "Can I have a tea, please?",
             "translation": "Можно мне чай, пожалуйста?"
           },
@@ -831,7 +867,7 @@
           "explanation": "В кафе короткий заказ естественен.",
           "guidance": {
             "title": "Два предмета",
-            "body": "A tea and a sandwich — чай и сэндвич. And — и, соединяет позиции заказа. A перед каждым словом показывает одну порцию или один предмет. tea — чай; sandwich — сэндвич; and — и.",
+            "body": "Назови по одной позиции: a tea и a sandwich. Соедини их словом and и добавь please.",
             "example": "A tea and a sandwich, please.",
             "translation": "Чай и сэндвич, пожалуйста."
           },
@@ -850,14 +886,14 @@
           "explanation": "Понятно, какой напиток нужно заменить.",
           "guidance": {
             "title": "Исправить коротко",
-            "body": "Tea, not coffee — чай, не кофе. Not отделяет нужную вещь от ошибочной. Sorry — извините: добавь это слово, чтобы исправление звучало мягче. sorry — извините; not — не.",
+            "body": "После Sorry назови нужный напиток, затем not и ошибочный: tea, not coffee. Так официант поймёт, что заменить.",
             "example": "Sorry, tea, not coffee.",
             "translation": "Извините, чай, не кофе."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В большом диалоге сначала выбери две позиции. Затем отдельно ответь на вопрос о размере и месте. To go — с собой, for here — здесь: так часто спрашивают в американском кафе.",
+      "beforePractice": "В своей роли найди еду и напиток. Small — маленький, large — большой; without milk — без молока. Сначала назови позиции, потом ответь о размере. For here — здесь, to go — с собой. Цены этого вымышленного меню указаны в pounds — фунтах.",
       "sourceIds": [
         "a1-cafe"
       ],
@@ -950,7 +986,14 @@
           ],
           "hint": "this is — это; coffee — кофе; can I have — можно мне.",
           "explanation": "Мы просим исправить заказ, но ещё не утверждаем, что он исправлен.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Назови напиток и попроси замену",
+            "body": "This is … — это … . Can I have …, please? — можно мне …, пожалуйста? Сначала назови полученный напиток, затем нужный.",
+            "example": "This is tea. Can I have coffee, please?",
+            "translation": "Это чай. Можно мне кофе, пожалуйста?"
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e7",
@@ -971,18 +1014,18 @@
         {
           "id": "e8",
           "kind": "rewrite",
-          "prompt": "Исправь итог: “A small cheese sandwich and a large coffee. Eight pounds is correct.” Напиши нужные позиции и вопрос о правильной сумме.",
-          "context": "small — маленький; large — большой; seven pounds — семь фунтов.",
+          "prompt": "Исправь итог: “A small cheese sandwich and a large coffee. Eight pounds is correct.” Назови нужную еду, напиток без молока и спроси правильную общую сумму.",
+          "context": "small — маленький; large — большой; without milk — без молока; seven pounds — семь фунтов.",
           "materialIds": [
             "m2",
             "m4"
           ],
           "answers": [
-            "A small cheese sandwich and a large tea. Is it seven pounds?"
+            "A small cheese sandwich and a large tea without milk. Is it seven pounds?"
           ],
-          "hint": "small — маленький; large — большой; seven pounds — семь фунтов.",
-          "explanation": "Возвращаем чай вместо кофе и проверяем сумму, не объявляя исправление завершённым.",
-          "revision": 1
+          "hint": "small — маленький; large — большой; without milk — без молока; seven pounds — семь фунтов.",
+          "explanation": "В заказе остаются маленький сэндвич и большой чай без молока. Они стоят 4 + 3 = 7 фунтов. Вопрос просит проверить сумму.",
+          "revision": 2
         }
       ]
     },
@@ -996,8 +1039,8 @@
       "purpose": "Рассказать о знакомом распорядке по одному действию за раз.",
       "explanation": [
         {
-          "title": "Кто делает",
-          "body": "I start work — я начинаю работу. She starts work — она начинает работу. С she у действия появляется s. Start work — начать рабочий день, не обязательно запускать отдельную задачу."
+          "title": "Я и она",
+          "body": "I start work — я начинаю работу. She starts work — она начинает работу. С she, he, it или одним именем в такой фразе к start добавляем s. У finish («заканчивать») добавляется es: she finishes. Start work — начинать рабочий день."
         },
         {
           "title": "Когда",
@@ -1039,7 +1082,7 @@
           "explanation": "Привычный распорядок: I start.",
           "guidance": {
             "title": "Кто делает",
-            "body": "I start work — я начинаю работу. She starts work — она начинает работу. С she у действия появляется s. Start work — начать рабочий день, не обязательно запускать отдельную задачу. start work — начинать работу; at nine — в девять.",
+            "body": "I start work — я начинаю работу. После I у start нет s. Добавь at nine — в девять.",
             "example": "I start work at eight.",
             "translation": "Я начинаю работу в восемь."
           },
@@ -1057,8 +1100,8 @@
           "hint": "she — она; eight — восемь.",
           "explanation": "После she добавляем s к start.",
           "guidance": {
-            "title": "Когда",
-            "body": "At eight — в восемь. I start work at eight. Для привычного действия достаточно Present simple: не нужно добавлять am перед start. she — она; eight — восемь.",
+            "title": "Она: starts с s",
+            "body": "She starts work — она начинает работу. С she у start появляется s. Добавь at eight — в восемь.",
             "example": "She starts work at nine.",
             "translation": "Она начинает работу в девять."
           },
@@ -1077,14 +1120,14 @@
           "explanation": "После does not не добавляем s к work.",
           "guidance": {
             "title": "Не всегда и не каждый день",
-            "body": "Usually — обычно, always — всегда. I usually walk — я обычно хожу пешком. She doesn’t work on Sunday — она не работает в воскресенье: после doesn’t форма work без s. does not = doesn’t; Sunday — воскресенье.",
+            "body": "She does not work — она не работает. После does not оставь work без s. On Sunday — в воскресенье.",
             "example": "She doesn’t work on Sunday.",
             "translation": "Она не работает в воскресенье."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Слушай отдельно: кто, что делает, во сколько. Запиши шесть коротких событий, а не пересказ всего материала сразу. Сравнивая себя с Леей, явно меняй I на she.",
+      "beforePractice": "В каждом задании ищи только названные в вопросе действия и часы. Когда рассказываешь о Лее, используй she и starts/finishes; когда говоришь от лица Alex — I и start/finish. From … to … — с … до … . Обновление Леи относится к среде: не переноси его на каждый день.",
       "sourceIds": [
         "a1-voa",
         "a1-can"
@@ -1149,7 +1192,14 @@
           ],
           "hint": "finish work — заканчивать работу; free — свободен; six — шесть; eight — восемь.",
           "explanation": "Действие I finish; состояние I am free. Не добавляй am перед finish.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Действие и состояние",
+            "body": "I finish work — я заканчиваю работу: am перед finish не нужен. I am free — я свободен: free означает состояние, поэтому здесь нужен am.",
+            "example": "I finish work at five. I am free at seven.",
+            "translation": "Я заканчиваю работу в пять. Я свободен в семь."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e5",
@@ -1169,17 +1219,17 @@
         {
           "id": "e6",
           "kind": "write",
-          "prompt": "Напиши Лее короткое предложение: ты свободен в восемь, можешь ли ты позаниматься с ней в это время? Две фразы.",
-          "context": "practice English — заниматься английским; can we — можем мы.",
+          "prompt": "Напиши Лее две короткие фразы от лица Alex: ты свободен в восемь; спроси, можете ли вы заниматься английским в это время.",
+          "context": "I am free — я свободен; at eight — в восемь; can we — можем ли мы; practice English — заниматься английским.",
           "materialIds": [
             "m2"
           ],
           "answers": [
             "I am free at eight. Can we practice English at eight?"
           ],
-          "hint": "practice English — заниматься английским; can we — можем мы.",
+          "hint": "I am free — я свободен; at eight — в восемь; can we — можем ли мы; practice English — заниматься английским.",
           "explanation": "Сначала своё свободное время, затем вопрос — договорённость ещё не подтверждена.",
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e7",
@@ -1207,11 +1257,11 @@
             "m3"
           ],
           "answers": [
-            "We can practice from eight thirty to nine. I don’t know the place."
+            "On Wednesday, we can practice from eight thirty to nine. I don’t know the place."
           ],
           "hint": "from … to … — с … до …; place — место.",
-          "explanation": "Время из m3 подходит обоим. Клуб как место встречи не подтверждён.",
-          "revision": 1
+          "explanation": "В среду Лея свободна с 8:30; Alex свободен до 9. Место встречи не указано. День сохраняем: это договорённость на среду.",
+          "revision": 2
         }
       ]
     },
@@ -1222,15 +1272,15 @@
         "path-requests-can",
         "path-connectors-basic"
       ],
-      "purpose": "Выбрать из двух вариантов и объяснить одну причину.",
+      "purpose": "Сравнить три поездки по цене и расписанию и выбрать подходящую друзьям.",
       "explanation": [
         {
           "title": "Сравнение — одно отличие",
           "body": "This trip is cheaper — эта поездка дешевле. Cheap — дешёвый, cheaper — дешевле. Than the other trip добавляет: чем другая поездка."
         },
         {
-          "title": "Цена не равна удобству",
-          "body": "Cheaper сообщает о цене; shorter — о длительности. Не превращай низкую цену в вывод, что поездка удобнее во всём. Сначала назови конкретное отличие."
+          "title": "Проверь ограничения",
+          "body": "Cheaper — дешевле, shorter — короче по времени. Это разные сравнения. Before six — до шести, by six — не позднее шести. Too late — слишком поздно. Сначала проверь, успевают ли друзья к отправлению и возвращению, затем сравни цену."
         },
         {
           "title": "Связать с собой",
@@ -1268,7 +1318,7 @@
           "explanation": "Is связывает поездку с её свойством.",
           "guidance": {
             "title": "Сравнение — одно отличие",
-            "body": "This trip is cheaper — эта поездка дешевле. Cheap — дешёвый, cheaper — дешевле. Than the other trip добавляет: чем другая поездка. trip — поездка; short → shorter — короче.",
+            "body": "This trip is … — эта поездка … . Shorter означает «короче». Замени в образце cheaper («дешевле») на shorter.",
             "example": "This trip is cheaper.",
             "translation": "Эта поездка дешевле."
           },
@@ -1287,7 +1337,7 @@
           "explanation": "Названо конкретное сравнение цены.",
           "guidance": {
             "title": "Цена не равна удобству",
-            "body": "Cheaper сообщает о цене; shorter — о длительности. Не превращай низкую цену в вывод, что поездка удобнее во всём. Сначала назови конкретное отличие. bus ride — поездка на автобусе; cheaper — дешевле.",
+            "body": "The bus ride — поездка на автобусе. Cheaper — дешевле; поставь is перед этим словом. Мы сравниваем только цену.",
             "example": "The bus ride is shorter.",
             "translation": "Поездка на автобусе короче."
           },
@@ -1306,14 +1356,14 @@
           "explanation": "Выбор получает одну ясную причину.",
           "guidance": {
             "title": "Связать с собой",
-            "body": "I prefer this trip because it is shorter — я предпочитаю эту поездку, потому что она короче. Prefer — предпочитать, because — потому что. Причина должна относиться к твоему условию. prefer — предпочитать; because — потому что; it — она, поездка.",
+            "body": "I prefer this trip — я предпочитаю эту поездку. Because it is cheaper — потому что она дешевле. Соедини выбор с одной причиной.",
             "example": "I prefer this trip because it is cheaper.",
             "translation": "Я предпочитаю эту поездку, потому что она дешевле."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед основным ответом выпиши цену, длительность и ограничения каждого варианта. Если новая информация меняет выбор, напиши коротко: Now I prefer … because … . Не дополняй объявления вымышленными удобствами.",
+      "beforePractice": "В карточках costs — стоит, leaves — отправляется, returns — возвращается. Выпиши цену и оба времени каждой поездки. В m2 найди ограничения друзей, а m3 открой только по просьбе задания: оно добавит новое условие. Для воскресенья проверь отдельное время отправления. Примеры из разбора не являются фактами этих карточек.",
       "sourceIds": [
         "a1-reading"
       ],
@@ -1410,7 +1460,14 @@
           ],
           "hint": "twenty-seven — 27; five thirty — 5:30 вечера; leaves — отправляется; returns — возвращается.",
           "explanation": "План укладывается в бюджет и оба ограничения по времени.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Короткий итог поездки",
+            "body": "Let’s choose … — давай выберем … . Дальше по одной фразе о цене, отправлении и возвращении: It costs …; It leaves at …; It returns at … . On Sunday — в воскресенье.",
+            "example": "It leaves at ten on Sunday. It returns at five.",
+            "translation": "Она отправляется в десять в воскресенье. Возвращается в пять."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e7",
@@ -1462,8 +1519,8 @@
           "body": "Can I come at four? — можно прийти в четыре? Come — прийти, at four — в четыре. Чтобы изменить время, назови новое явно."
         },
         {
-          "title": "Повторить результат",
-          "body": "Friday at four, right? — в пятницу в четыре, верно? Right? в конце проверяет, что ты правильно понял. Не произноси старое время вместе с новым без пояснения."
+          "title": "Проверь точное время",
+          "body": "Friday at four, right? — в пятницу в четыре, верно? Right? в конце просит проверить понимание. Between four and five — в промежутке с четырёх до пяти. At exactly four — ровно в четыре. Свободный промежуток ещё не означает запись на конкретный час."
         }
       ],
       "examples": [
@@ -1497,7 +1554,7 @@
           "explanation": "I am calling — действие сейчас.",
           "guidance": {
             "title": "Сначала цель",
-            "body": "I’m calling about my bike — я звоню насчёт своего велосипеда. I’m calling — я сейчас звоню, about — о/насчёт, my bike — мой велосипед. Собеседник сразу понимает тему. I am = I’m; call — звонить; phone — телефон.",
+            "body": "I am calling about … — я звоню насчёт … . About называет тему. Замени my bike («мой велосипед») на my phone («мой телефон»).",
             "example": "I’m calling about my bike.",
             "translation": "Я звоню насчёт своего велосипеда."
           },
@@ -1516,7 +1573,7 @@
           "explanation": "Can I + действие.",
           "guidance": {
             "title": "Предложить время",
-            "body": "Can I come at four? — можно прийти в четыре? Come — прийти, at four — в четыре. Чтобы изменить время, назови новое явно. come — прийти; five — пять.",
+            "body": "Can I come at …? — можно мне прийти в …? После can используй come без to. Поставь five вместо four.",
             "example": "Can I come at four?",
             "translation": "Можно мне прийти в четыре?"
           },
@@ -1535,7 +1592,7 @@
           "explanation": "Повторяем условия для проверки.",
           "guidance": {
             "title": "Повторить результат",
-            "body": "Friday at four, right? — в пятницу в четыре, верно? Right? в конце проверяет, что ты правильно понял. Не произноси старое время вместе с новым без пояснения. Monday — понедельник; right? — верно?",
+            "body": "Назови день, затем at и час. Right? в конце означает «верно?» и предлагает собеседнику проверить данные.",
             "example": "Friday at four, right?",
             "translation": "В пятницу в четыре, верно?"
           },
@@ -1621,7 +1678,14 @@
           ],
           "hint": "collect — забрать; lamp — лампа; myself — сам; should I arrive — нужно ли прийти; exactly — ровно.",
           "explanation": "Отвечаем за себя и уточняем правило, не разыгрываем ответ сотрудника.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Сам заберу и проверю час",
+            "body": "I will collect … myself — я сам заберу … . Will + collect говорит о будущем действии; myself подчёркивает «сам». Should I arrive at …? — нужно ли мне прийти в …? Здесь используем вопрос целиком.",
+            "example": "I will collect the bike myself. Should I arrive at exactly five?",
+            "translation": "Я сам заберу велосипед. Мне нужно прийти ровно в пять?"
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e6",
@@ -1651,7 +1715,14 @@
           ],
           "hint": "price — цена; yet — пока; collect — забрать.",
           "explanation": "Сотрудник не смог подтвердить цену. Не называем ремонт бесплатным.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Что решено, а что неизвестно",
+            "body": "I will collect … on … at … — я заберу … в такой-то день в такое-то время. I don’t know the price yet — я пока не знаю цену. Эти две фразы сообщают разную степень уверенности.",
+            "example": "I will collect the bike on Monday at five. I don’t know the price yet.",
+            "translation": "Я заберу велосипед в понедельник в пять. Цену пока не знаю."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e8",
@@ -1689,8 +1760,8 @@
           "body": "First — сначала, then — затем. First I left home. Then I missed the bus. Эти слова показывают порядок. Для этого не требуется Past perfect."
         },
         {
-          "title": "Одна причина",
-          "body": "Because — потому что, so — поэтому. I was late, so I called Sam. Was late — опоздал; called — позвонил. Не путай событие с объяснением причины."
+          "title": "Причина и результат",
+          "body": "Because — потому что, so — поэтому. I called Sam because I was late — я позвонил Сэму, потому что опаздывал. I was late, so I called Sam — я опаздывал, поэтому позвонил Сэму. В первой фразе после because стоит причина, во второй после so — результат."
         }
       ],
       "examples": [
@@ -1724,7 +1795,7 @@
           "explanation": "Past simple сообщает законченное событие.",
           "guidance": {
             "title": "Сначала три события",
-            "body": "I left home. I missed the bus. I called Sam. — Я вышел из дома. Я опоздал на автобус. Я позвонил Сэму. Left — прошедшая форма leave; missed и called имеют ed. miss the bus — опоздать на автобус; miss → missed.",
+            "body": "Miss the bus — не успеть на автобус. Для законченного события используем missed. Фраза сама по себе не объясняет причину.",
             "example": "I missed the bus.",
             "translation": "Я опоздал на автобус."
           },
@@ -1743,7 +1814,7 @@
           "explanation": "Новое событие после первого.",
           "guidance": {
             "title": "Порядок",
-            "body": "First — сначала, then — затем. First I left home. Then I missed the bus. Эти слова показывают порядок. Для этого не требуется Past perfect. then — потом; call → called; Ann — Энн.",
+            "body": "Then — потом. Called — позвонил. После called можно сразу назвать человека, без to: called Sam. В твоём ответе это Ann.",
             "example": "Then I called Sam.",
             "translation": "Потом я позвонил Сэму."
           },
@@ -1762,14 +1833,14 @@
           "explanation": "So связывает проблему и последующее действие.",
           "guidance": {
             "title": "Одна причина",
-            "body": "Because — потому что, so — поэтому. I was late, so I called Sam. Was late — опоздал; called — позвонил. Не путай событие с объяснением причины. was late — опоздал; so — поэтому.",
+            "body": "I was late — я опоздал. So — поэтому. После so назови результат: I called … . В этом задании человек — Ann.",
             "example": "I was late, so I called Sam.",
             "translation": "Я опоздал, поэтому позвонил Сэму."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала составь цепочку из отдельных событий. Затем добавь одну причину и ответ другу. Уточнение из нового сообщения должно исправить старую версию истории.",
+      "beforePractice": "В рассказе сначала найди цель поездки, затем исправленное время автобуса. Sorry перед новым числом означает, что говорящий поправился. Then — что случилось потом; because — почему. Новое сообщение Alex содержит вопросы к тебе, а не новую версию его поездки.",
       "sourceIds": [
         "a1-reading"
       ],
@@ -1817,7 +1888,14 @@
           ],
           "hint": "missed the bus — пропустил автобус; because — потому что; wrong stop — не та остановка.",
           "explanation": "Причина — место ожидания, а не поздний приход на остановку.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Назови настоящую причину",
+            "body": "He missed the bus because … — он пропустил автобус, потому что … . He was at … — он был на … . Wrong stop — не та остановка. Свяжи две части, сохранив was.",
+            "example": "He missed the train because he was at the wrong station.",
+            "translation": "Он пропустил поезд, потому что был не на той станции."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e4",
@@ -1862,7 +1940,14 @@
           ],
           "hint": "here is an example — вот пример; missed a train — опоздал на поезд; called — позвонил.",
           "explanation": "Нужно своё связное сообщение из маленьких шагов, не подробный рассказ на заданное число слов.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Два события из своей истории",
+            "body": "Можно взять реальный или придуманный случай. Missed a train — пропустил поезд; missed the bus — не успел на автобус; called a friend — позвонил другу; went home — пошёл домой. Выбери одну проблему и одно последующее действие. Then означает «потом».",
+            "example": "Here is an example. I missed the bus. Then I went home.",
+            "translation": "Вот пример. Я не успел на автобус. Потом пошёл домой."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e7",
@@ -1915,8 +2000,8 @@
           "body": "This shirt is red — эта рубашка красная. Два коротких предложения уже показывают проблему. Не нужны грубость, сложная жалоба или длинная предыстория."
         },
         {
-          "title": "Что нужно сейчас",
-          "body": "Can you send a blue one? — можете прислать синюю? One заменяет повторное shirt. Can you + send — просьба выполнить действие. Если нужен возврат денег: a refund — возврат оплаты."
+          "title": "Попроси нужное действие",
+          "body": "Can you send a blue one? — можете прислать синюю? One заменяет уже названную рубашку; после can you ставим send без to. Если замены нет, можно выбрать возврат: I would like a refund, please — я хотел бы вернуть деньги. Эту вежливую фразу можно использовать целиком."
         }
       ],
       "examples": [
@@ -1950,7 +2035,7 @@
           "explanation": "Называем заказанную вещь.",
           "guidance": {
             "title": "Что заказывал",
-            "body": "I ordered a blue shirt — я заказал синюю рубашку. Ordered — прошедшая форма order, blue — синий, shirt — рубашка. Сначала называем заказ. order → ordered; black — чёрный; bag — сумка.",
+            "body": "I ordered — я заказал. После этого назови одну вещь: a black bag — чёрную сумку. Цвет ставится перед названием вещи.",
             "example": "I ordered a blue shirt.",
             "translation": "Я заказал синюю рубашку."
           },
@@ -1969,7 +2054,7 @@
           "explanation": "Описываем то, что получили.",
           "guidance": {
             "title": "Что получил",
-            "body": "This shirt is red — эта рубашка красная. Два коротких предложения уже показывают проблему. Не нужны грубость, сложная жалоба или длинная предыстория. this — эта; white — белая.",
+            "body": "This bag — эта сумка. Затем is и цвет white («белая»). Перед цветом, который стоит после is, артикль не нужен.",
             "example": "This shirt is red.",
             "translation": "Эта рубашка красная."
           },
@@ -1988,7 +2073,7 @@
           "explanation": "Просим конкретную замену.",
           "guidance": {
             "title": "Что нужно сейчас",
-            "body": "Can you send a blue one? — можете прислать синюю? One заменяет повторное shirt. Can you + send — просьба выполнить действие. Если нужен возврат денег: a refund — возврат оплаты. send — прислать; one — уже названная сумка.",
+            "body": "Сумка уже названа, поэтому one заменяет bag. Can you send a black one? просит прислать чёрную сумку. После can you не добавляй to.",
             "example": "Can you send a blue one?",
             "translation": "Можете прислать синюю?"
           },
@@ -2046,7 +2131,14 @@
           ],
           "hint": "received — получил; black — чёрный; size — размер.",
           "explanation": "Два простых предложения показывают проблему без длинной жалобы.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Покупка и доставка",
+            "body": "I ordered … — я заказал … . I received … — я получил … . Это два завершённых действия. In size M/S — размера M/S. Назови в каждой фразе и цвет, и размер.",
+            "example": "I ordered a red shirt in size L. I received a white shirt in size M.",
+            "translation": "Я заказал красную рубашку размера L. Я получил белую рубашку размера M."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e4",
@@ -2072,11 +2164,12 @@
             "m3"
           ],
           "answers": [
-            "Thursday is good for me. Can you confirm the time?"
+            "Thursday is good for me. Can you confirm the time?",
+            "Tuesday is good for me. Can you confirm the time?"
           ],
           "hint": "good for me — мне подходит; confirm — подтвердить; time — время.",
           "explanation": "Принимается и Tuesday, если ты последовательно выбираешь вторник.",
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e6",
@@ -2103,11 +2196,12 @@
             "m4"
           ],
           "answers": [
-            "I would like the forty-pound refund. Thursday is good for me. Please confirm the collection."
+            "I would like the forty-pound refund. Thursday is good for me. Please confirm the collection.",
+            "I would like the forty-pound refund. Tuesday is good for me. Please confirm the collection."
           ],
           "hint": "forty-pound refund — возврат 40 фунтов; collection — приезд за вещью; confirm — подтвердить.",
           "explanation": "Просьба о подтверждении не означает, что приезд уже согласован.",
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e8",
@@ -2122,7 +2216,14 @@
           ],
           "hint": "working days — рабочие дни; start after — начинаются после; receive — получить.",
           "explanation": "Срок связан с получением куртки магазином. Обмен на синюю куртку больше не доступен.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Срок начинается после возврата вещи",
+            "body": "Within five working days — в течение пяти рабочих дней. After you receive the jacket — после того, как вы получите куртку. После after здесь receive, без will. Мы считаем срок от получения вещи магазином.",
+            "example": "The five working days start after you receive the bag.",
+            "translation": "Пять рабочих дней отсчитываются после того, как вы получите сумку."
+          },
+          "practiceStage": "guided"
         }
       ]
     },
@@ -2136,12 +2237,12 @@
       "purpose": "Передать другу актуальные время и место, не смешав старое сообщение с новым.",
       "explanation": [
         {
-          "title": "Возьми самый новый факт",
-          "body": "The meeting is at eleven now — встреча теперь в одиннадцать. Meeting — встреча, now — теперь. Now помогает показать изменение."
+          "title": "Что изменилось",
+          "body": "The meeting is at the café now — встреча теперь в кафе. Meeting — встреча, now — теперь. В новом письме найди изменённую деталь: место, день или час. Не переноси старый адрес в итог."
         },
         {
           "title": "Что осталось прежним",
-          "body": "The place is the same — место то же самое. Place — место, the same — тот же самый. Не меняй адрес, если исправили только час."
+          "body": "The time is the same — время то же самое. Time — время, the same — то же самое. Если в письме меняют только место и прямо сохраняют время, оставь прежний час."
         },
         {
           "title": "Скажи только нужное",
@@ -2150,14 +2251,14 @@
       ],
       "examples": [
         {
-          "en": "The meeting is at eleven now.",
-          "ru": "Встреча теперь в одиннадцать.",
-          "why": "Now отмечает обновлённое время."
+          "en": "The meeting is at the café now.",
+          "ru": "Встреча теперь в кафе.",
+          "why": "Новым может быть место, а не время. Now показывает изменение."
         },
         {
-          "en": "The place is the same.",
-          "ru": "Место то же самое.",
-          "why": "Отделяем изменившееся от неизменного."
+          "en": "The time is the same.",
+          "ru": "Время то же самое.",
+          "why": "Час встречи не меняется вместе с адресом."
         },
         {
           "en": "Meet us at the library.",
@@ -2168,39 +2269,39 @@
       "practice": [
         {
           "id": "prepare-1",
-          "revision": 1,
+          "revision": 2,
           "kind": "translate",
-          "prompt": "Встреча теперь в десять.",
-          "context": "meeting — встреча; at ten — в десять; now — теперь.",
+          "prompt": "Встреча теперь в музее.",
+          "context": "meeting — встреча; at the museum — в музее; now — теперь.",
           "answers": [
-            "The meeting is at ten now."
+            "The meeting is at the museum now."
           ],
-          "hint": "meeting — встреча; at ten — в десять; now — теперь.",
-          "explanation": "Передаём новое время.",
+          "hint": "The meeting is … now. Поставь новое место между is и now.",
+          "explanation": "Сообщаем новое место встречи. Время эта фраза не меняет.",
           "guidance": {
-            "title": "Возьми самый новый факт",
-            "body": "The meeting is at eleven now — встреча теперь в одиннадцать. Meeting — встреча, now — теперь. Now помогает показать изменение. meeting — встреча; at ten — в десять; now — теперь.",
-            "example": "The meeting is at eleven now.",
-            "translation": "Встреча теперь в одиннадцать."
+            "title": "Новое место",
+            "body": "The meeting is … now — встреча теперь … . Вставь at the museum вместо at the café. Здесь изменилось место.",
+            "example": "The meeting is at the café now.",
+            "translation": "Встреча теперь в кафе."
           },
           "practiceStage": "guided"
         },
         {
           "id": "prepare-2",
-          "revision": 1,
+          "revision": 2,
           "kind": "translate",
-          "prompt": "Место то же самое.",
-          "context": "place — место; the same — то же самое.",
+          "prompt": "Время то же самое.",
+          "context": "time — время; the same — то же самое.",
           "answers": [
-            "The place is the same."
+            "The time is the same."
           ],
-          "hint": "place — место; the same — то же самое.",
-          "explanation": "Не выдумываем новую локацию.",
+          "hint": "После The time поставь is, затем the same.",
+          "explanation": "Время осталось прежним, хотя место могло измениться.",
           "guidance": {
-            "title": "Что осталось прежним",
-            "body": "The place is the same — место то же самое. Place — место, the same — тот же самый. Не меняй адрес, если исправили только час. place — место; the same — то же самое.",
-            "example": "The place is the same.",
-            "translation": "Место то же самое."
+            "title": "Прежний час",
+            "body": "The time — время, is the same — то же самое. Эта фраза сохраняет прежний час, даже если адрес изменился.",
+            "example": "The time is the same.",
+            "translation": "Время то же самое."
           },
           "practiceStage": "guided"
         },
@@ -2217,14 +2318,14 @@
           "explanation": "Действие и нужное место.",
           "guidance": {
             "title": "Скажи только нужное",
-            "body": "Meet us at the library — встречай нас у библиотеки. Meet — встреть, us — нас, library — библиотека. Другу нужен понятный план, а не отчёт о процессе чтения писем. meet — встреть; us — нас; museum — музей.",
+            "body": "Meet us — встречай нас. At the museum — у музея. Замени место из образца, сохрани действие и us («нас»).",
             "example": "Meet us at the library.",
             "translation": "Встречай нас у библиотеки."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Прочитай первое письмо и обновление. Зачеркни только устаревшие поля в своих заметках. Затем напиши другу короткое сообщение с итоговыми данными.",
+      "beforePractice": "В m1 есть два письма: сравни адрес и часы. Unchanged — без изменений; after — после; before — до. Выбирая вход, проверь время прихода Pavel. Названия River Centre и Green Library оставляй как в письмах. Английские ответы здесь служат репетицией; другу, который не читает по-английски, передай итог по-русски.",
       "sourceIds": [
         "a1-invitation",
         "a1-reading"
@@ -2290,7 +2391,14 @@
           ],
           "hint": "walk — прогулка; start — начинаться; ten twenty — 10:20.",
           "explanation": "С does глагол start без s.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Перепроверь час",
+            "body": "The walk starts at … — прогулка начинается в … . В вопросе поставь Does перед the walk; у start после does уже нет s.",
+            "example": "Does the walk start at eleven?",
+            "translation": "Прогулка начинается в одиннадцать?"
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e5",
@@ -2337,7 +2445,14 @@
           ],
           "hint": "suitcase — чемодан; I will ask — я спрошу.",
           "explanation": "Отделяем известное от обещанного действия.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Неизвестное и твой следующий шаг",
+            "body": "I don’t know about … — я не знаю насчёт … . I will ask … — я спрошу … . Первая фраза описывает пробел, вторая — твой план уточнить его.",
+            "example": "I don’t know about the tickets. I will ask Sam.",
+            "translation": "Я не знаю насчёт билетов. Я спрошу Сэма."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e8",
@@ -2371,12 +2486,12 @@
           "body": "A man is reading — мужчина читает. Man — мужчина, is reading — сейчас читает. Для действия на картинке подходит is/are + ing."
         },
         {
-          "title": "Как его узнать",
-          "body": "The man in a blue shirt — мужчина в синей рубашке. In здесь означает «в одежде». Эту короткую часть можно добавить к описанию действия."
+          "title": "Как найти человека",
+          "body": "The man in a blue shirt — мужчина в синей рубашке. In + одежда помогает выбрать человека: in a red jacket — в красной куртке. При описании конкретного человека на картинке начинаем с the man или the woman. Затем добавляем is и действие с ing."
         },
         {
-          "title": "Где он",
-          "body": "On the left — слева, on the right — справа. The man is on the left. Это положение. Само изображение не говорит, чем человек работает или что думает."
+          "title": "Место и граница видимого",
+          "body": "On the left — слева, on the right — справа: считаем стороны со стороны зрителя. Behind the bench — позади скамейки. Если деталь скрыта, скажи I cannot see what is inside — я не вижу, что внутри. Картинка не сообщает имена и мысли людей."
         }
       ],
       "examples": [
@@ -2410,7 +2525,7 @@
           "explanation": "Is + reading показывает действие на сцене.",
           "guidance": {
             "title": "Кто и что делает",
-            "body": "A man is reading — мужчина читает. Man — мужчина, is reading — сейчас читает. Для действия на картинке подходит is/are + ing. man — мужчина; read → reading.",
+            "body": "A man — мужчина, is reading — читает сейчас. В описании действия нужны оба слова: is и reading.",
             "example": "A woman is reading.",
             "translation": "Женщина читает."
           },
@@ -2429,7 +2544,7 @@
           "explanation": "Одежда определяет, о какой женщине речь.",
           "guidance": {
             "title": "Как его узнать",
-            "body": "The man in a blue shirt — мужчина в синей рубашке. In здесь означает «в одежде». Эту короткую часть можно добавить к описанию действия. woman — женщина; red jacket — красная куртка; stand → standing.",
+            "body": "Сначала назови женщину: The woman in a red jacket. Затем действие: is standing. In a red jacket значит «в красной куртке».",
             "example": "The man in a blue shirt is sitting.",
             "translation": "Мужчина в синей рубашке сидит."
           },
@@ -2448,7 +2563,7 @@
           "explanation": "Для положения не нужен глагол действия с ing.",
           "guidance": {
             "title": "Где он",
-            "body": "On the left — слева, on the right — справа. The man is on the left. Это положение. Само изображение не говорит, чем человек работает или что думает. on the right — справа.",
+            "body": "The man is … — мужчина находится … . On the right — справа. Это положение, поэтому после is глагол с ing не требуется.",
             "example": "The woman is on the left.",
             "translation": "Женщина слева."
           },
@@ -2549,7 +2664,14 @@
           "materialIds": [
             "m1"
           ],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Два разных действия",
+            "body": "Hold a cup — держать чашку: is holding a cup. Tie a shoelace — завязывать шнурок: is tying a shoelace. У tie перед ing буквы ie меняются на y. В каждом предложении сначала назови человека по цвету одежды.",
+            "example": "The man in blue is holding a cup.",
+            "translation": "Мужчина в синем держит чашку."
+          },
+          "practiceStage": "guided"
         },
         {
           "prompt": "Посетитель спрашивает имя мужчины с книгой. Ответь вслух, что имени не знаешь, но он в синем и читает. Две короткие фразы.",
@@ -2568,12 +2690,12 @@
           "revision": 1
         },
         {
-          "prompt": "Открой m3. Где белая чашка? Опиши одежду человека, который её держит. Затем скажи, видно ли содержимое. Два предложения.",
-          "context": "red sweater — красный свитер; hold — держать; white cup — белая чашка; inside — внутри.",
-          "hint": "red sweater — красный свитер; hold — держать; white cup — белая чашка; inside — внутри.",
-          "explanation": "Определяем нужного человека и сохраняем границу видимого.",
+          "prompt": "Открой m3. Помоги найти белую чашку: назови одежду человека и его положение относительно скамейки. Затем скажи, видно ли содержимое чашки. Два коротких предложения.",
+          "context": "the woman in red — женщина в красном; to the right of — справа от; bench — скамейка; is holding — держит; cannot see inside — не могу увидеть, что внутри.",
+          "hint": "Назови человека через the woman in red, добавь место to the right of the bench и что она держит.",
+          "explanation": "Чашку держит женщина в красном справа от скамейки. Is holding описывает действие на картинке. Содержимое чашки не видно.",
           "answers": [
-            "The woman in the red sweater is holding the white cup. I cannot see what is inside."
+            "The woman in red to the right of the bench is holding the white cup. I cannot see inside."
           ],
           "id": "e8",
           "kind": "write",
@@ -2581,7 +2703,14 @@
             "m1",
             "m3"
           ],
-          "revision": 1
+          "revision": 2,
+          "guidance": {
+            "title": "Найди предмет через человека",
+            "body": "The woman in red — женщина в красном. To the right of the bench — справа от скамейки. Is holding the cup — держит чашку. I cannot see inside — не вижу, что внутри.",
+            "example": "The man in blue is holding the bag. I cannot see inside.",
+            "translation": "Мужчина в синем держит сумку. Я не вижу, что внутри."
+          },
+          "practiceStage": "guided"
         }
       ]
     },
@@ -2600,7 +2729,7 @@
         },
         {
           "title": "Передай один ответ",
-          "body": "Sam wants to cook — Сэм хочет готовить. При переходе от I к Sam появляется wants с s. Cook — готовить. Хотеть научиться — ещё не значит уметь."
+          "body": "Sam wants to cook — Сэм хочет готовить. С одним именем используем wants с s, затем to + действие: wants to cook. Sam wants to learn to cook означает «Сэм хочет научиться готовить»: learn добавляет смысл обучения. Ни одна фраза не обещает, что Сэм уже записался на занятие."
         },
         {
           "title": "Посчитай ответы",
@@ -2638,7 +2767,7 @@
           "explanation": "Do you ставит вопрос к want.",
           "guidance": {
             "title": "Простой вопрос",
-            "body": "What do you want to learn? — чему ты хочешь научиться? Want to learn — хотеть научиться. Вопрос начинается с what, затем do you. want — хотеть; learn — учиться, научиться.",
+            "body": "What do you want to learn? — чему ты хочешь научиться? What спрашивает, чему; do стоит перед you; want to learn сохраняем вместе.",
             "example": "What do you want to learn?",
             "translation": "Чему ты хочешь научиться?"
           },
@@ -2657,7 +2786,7 @@
           "explanation": "После wants идёт to + действие.",
           "guidance": {
             "title": "Передай один ответ",
-            "body": "Sam wants to cook — Сэм хочет готовить. При переходе от I к Sam появляется wants с s. Cook — готовить. Хотеть научиться — ещё не значит уметь. take photos — фотографировать; Sam — Сэм.",
+            "body": "Sam — один человек, поэтому wants. После wants нужен to, затем действие take photos — фотографировать.",
             "example": "Ann wants to cook.",
             "translation": "Энн хочет готовить."
           },
@@ -2676,14 +2805,14 @@
           "explanation": "У нескольких людей want без s.",
           "guidance": {
             "title": "Посчитай ответы",
-            "body": "Three people want to cook — трое хотят готовить. People — люди, поэтому want без s. После исправления одного ответа пересчитай итоги; старое число больше не действует. two people — двое людей; cook — готовить.",
+            "body": "Two people — двое. С несколькими людьми используем want без s. Затем to cook — готовить.",
             "example": "Three people want to cook.",
             "translation": "Трое хотят готовить."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Основной опрос разбей на шесть строк: имя, один выбор, одна причина. Сначала перескажи отдельный ответ; только затем считай группу. Не придумывай дату и цену, если их ещё нет.",
+      "beforePractice": "В опросе cooking — кулинария, photography — фотография, bike repair — ремонт велосипедов; workshop — практическое занятие. Составь шесть строк: имя, один выбор, причина. Новое сообщение Omar заменяет его прежний выбор. Общий итог всё равно должен содержать шесть человек. Дата и цена пока неизвестны.",
       "sourceIds": [
         "a1-can",
         "a1-reading"
@@ -2717,7 +2846,14 @@
           "materialIds": [
             "m1"
           ],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Один вопрос о выборе",
+            "body": "Which workshop — какое занятие; do you want to join — ты хочешь посетить. В вопросе do стоит перед you, а после want нужно to join.",
+            "example": "Which class do you want to join?",
+            "translation": "Какое занятие ты хочешь посетить?"
+          },
+          "practiceStage": "guided"
         },
         {
           "prompt": "Прочитай m2. Запиши первоначальные количества тремя короткими строками: cooking, photography, bike repair.",
@@ -2780,7 +2916,14 @@
             "m2",
             "m3"
           ],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Скажи результат и спроси дату",
+            "body": "We have six answers — у нас шесть ответов. Chose — прошедшая форма choose («выбрать»). When are the workshops? — когда занятия? Здесь are стоит перед workshops, потому что это вопрос с be.",
+            "example": "Two people chose cooking. When are the classes?",
+            "translation": "Двое выбрали кулинарию. Когда занятия?"
+          },
+          "practiceStage": "guided"
         },
         {
           "prompt": "Скажи другу, что Omar теперь хочет фотографировать семью. Одно короткое предложение.",
@@ -2827,15 +2970,15 @@
       "explanation": [
         {
           "title": "Губы: west и vest",
-          "body": "West — запад, vest — жилет. Для /w/ округли губы: зубы не касаются губы. Для /v/ верхние зубы у нижней губы. Сначала слушай эти два слова, затем произнеси каждое."
+          "body": "West — запад, vest — жилет. Значки между / / обозначают звуки, не буквы. Для /w/ округли губы и перейди к гласному: зубы не касаются губы. Для /v/ верхние зубы слегка касаются нижней губы, воздух проходит между ними. Сначала послушай west и vest, затем повтори."
         },
         {
           "title": "Язык: thin и this",
-          "body": "Thin — тонкий, this — этот. Для /θ/ и /ð/ кончик языка слегка касается края верхних зубов. /θ/ в thin без голоса, /ð/ в this с голосом."
+          "body": "Thin — тонкий, this — этот/это. Для /θ/ и /ð/ кончик языка у передних зубов или слегка между ними, воздух проходит непрерывно. В /θ/ голоса нет; в /ð/ есть голос, горло вибрирует. Сравни thin и this. Не превращай эти звуки в короткие т или д."
         },
         {
-          "title": "Маленькая фраза",
-          "body": "This is a vest — это жилет. This — это, is связывает предмет с названием, a vest — один жилет. Не нужно начинать со сложного описания деревни и реки."
+          "title": "Сохрани звук во фразе",
+          "body": "This is a vest — это жилет. Сначала скажи this с /ð/, затем vest с /v/, потом соедини фразу. We are here — мы здесь: начни we с округлённых губ /w/. Для одной попытки выбери один звук; после этого повтори целую фразу."
         }
       ],
       "examples": [
@@ -2869,7 +3012,7 @@
           "explanation": "Is связывает this и a vest. После проверки послушай два разных согласных.",
           "guidance": {
             "title": "Губы: west и vest",
-            "body": "West — запад, vest — жилет. Для /w/ округли губы: зубы не касаются губы. Для /v/ верхние зубы у нижней губы. Сначала слушай эти два слова, затем произнеси каждое. this — это; vest — жилет.",
+            "body": "This is a vest — это жилет. This начни с /ð/: язык у зубов, есть голос. В vest нужен /v/: верхние зубы слегка касаются нижней губы.",
             "example": "This is a vest.",
             "translation": "Это жилет."
           },
@@ -2888,7 +3031,7 @@
           "explanation": "Прилагательному thin не нужен артикль a.",
           "guidance": {
             "title": "Язык: thin и this",
-            "body": "Thin — тонкий, this — этот. Для /θ/ и /ð/ кончик языка слегка касается края верхних зубов. /θ/ в thin без голоса, /ð/ в this с голосом. thin — тонкий.",
+            "body": "This is thin — это тонкое. This начинается с /ð/ с голосом, thin — с /θ/ без голоса. После is сразу ставим thin, без a.",
             "example": "This is thin.",
             "translation": "Это тонкое."
           },
@@ -2906,15 +3049,15 @@
           "hint": "we — мы; here — здесь.",
           "explanation": "С we используем are. Начало we — /w/.",
           "guidance": {
-            "title": "Маленькая фраза",
-            "body": "This is a vest — это жилет. This — это, is связывает предмет с названием, a vest — один жилет. Не нужно начинать со сложного описания деревни и реки. we — мы; here — здесь.",
+            "title": "Фраза с we",
+            "body": "We — мы; с we используется are. Here — здесь. В начале we округли губы для /w/, затем произнеси всю фразу.",
             "example": "We are here.",
             "translation": "Мы здесь."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Если значки пока мешают, сначала пройди «Транскрипция с нуля», ступени 11–12. Печатный ответ не оценивает твой акцент: произнеси, запиши и сравни слова.",
+      "beforePractice": "Прослушай четыре коротких слова из разбора: west, vest, thin, this. Произнеси их медленно, затем переходи к фразам. Если значки незнакомы, открой тренажёр «Транскрипция с нуля» и пройди ступени по порядку до 11–12. Печатный ответ проверяет слова; собственную запись слушай отдельно.",
       "sourceIds": [
         "a1-ipa",
         "a1-rachel"
@@ -2929,9 +3072,9 @@
             "This is my vest."
           ],
           "hint": "this — это; my vest — мой жилет.",
-          "explanation": "В this звучит /ð/, в vest — /v/. Сначала короткая фраза, без нового описания реки и деревни.",
+          "explanation": "В this нужен /ð/ с голосом, в vest — /v/ с лёгким касанием нижней губы верхними зубами. Сначала проверь слова, затем сравни звучание фразы с образцом.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e2",
@@ -3005,13 +3148,14 @@
       "prerequisites": [
         "path-questions-basic",
         "path-requests-can",
-        "path-be"
+        "path-be",
+        "path-sound-basics"
       ],
       "purpose": "Переспросить имя или число одним коротким вопросом.",
       "explanation": [
         {
           "title": "Имя по буквам",
-          "body": "Can you spell it? — можете назвать это по буквам? Spell — произнести или написать по буквам, it — уже названное имя. Не читай буквы как звуки внутри слова: это названия букв."
+          "body": "Can you spell it? — можете назвать это по буквам? It здесь заменяет имя. Букву называем отдельно, а не читаем как часть слова. Для репетиции нужны A /eɪ/, B /bi/, E /i/, N /ɛn/. Значки между / / передают звучание; сначала прослушай названия букв A, B, E, N."
         },
         {
           "title": "Конкретный выбор",
@@ -3053,7 +3197,7 @@
           "explanation": "Can you + spell.",
           "guidance": {
             "title": "Имя по буквам",
-            "body": "Can you spell it? — можете назвать это по буквам? Spell — произнести или написать по буквам, it — уже названное имя. Не читай буквы как звуки внутри слова: это названия букв. spell — назвать по буквам; it — это.",
+            "body": "Can you spell it? просит назвать по буквам уже известное собеседнику имя. Can стоит перед you, затем spell, без to.",
             "example": "Can you spell it?",
             "translation": "Можете назвать это по буквам?"
           },
@@ -3072,7 +3216,7 @@
           "explanation": "Вопрос явно называет обе версии.",
           "guidance": {
             "title": "Конкретный выбор",
-            "body": "Sixteen or sixty? — шестнадцать или шестьдесят? Or означает «или». Когда знаешь, что именно неясно, короткий выбор полезнее общего I don’t understand. fourteen — 14; forty — 40; or — или.",
+            "body": "Fourteen — 14, forty — 40. Соедини их словом or («или»), чтобы собеседник выбрал верное число.",
             "example": "Sixteen or sixty?",
             "translation": "Шестнадцать или шестьдесят?"
           },
@@ -3091,14 +3235,14 @@
           "explanation": "Is стоит первым в вопросе.",
           "guidance": {
             "title": "Повтори для проверки",
-            "body": "Is that fifteen? — это пятнадцать? Is that …? проверяет услышанное. Ответ Yes подтверждает число; No означает, что нужно исправить запись. that — это; fifteen — 15.",
+            "body": "Is that …? — это …? Вставь fifteen («пятнадцать»). В вопросе is идёт перед that.",
             "example": "Is that fifteen?",
             "translation": "Это пятнадцать?"
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала слушай отдельно пары чисел и названия букв. В основном обмене контактами записывай подтверждённые данные. Для американского названия Z используй zee.",
+      "beforePractice": "Послушай пары fourteen/forty (14/40) и sixteen/sixty (16/60), затем названия букв A, B, E, N. В телефонном номере каждую цифру называем отдельно; zero — ноль. На просьбу spell it произнеси все буквы имени, включая повтор. Американское название Z — zee.",
       "sourceIds": [
         "a1-voa",
         "a1-voicemail"
@@ -3128,7 +3272,14 @@
           "hint": "four — 4; zero — 0; five — 5; eight — 8.",
           "explanation": "Цифры в номере называются отдельно. Не нужно превращать номер в большое число.",
           "materialIds": [],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Имя и номер — две части",
+            "body": "Напиши буквы Ben по порядку через дефис. При произнесении B называется /bi/, E — /i/, N — /ɛn/. Номер 4058 состоит из четырёх отдельных цифр: используй слова из подсказки.",
+            "example": "A-N-N. Two, zero, four, six.",
+            "translation": "Энн по буквам. Два, ноль, четыре, шесть."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e3",
@@ -3172,15 +3323,15 @@
         {
           "id": "e6",
           "kind": "write",
-          "prompt": "Вернись к своей записи из прошлого задания. Запиши услышанные имя и номер. Если записи нет, снова продиктуй Ann, 4015 и только потом сверяйся. Отдельно по-русски можешь отметить, что проверил.",
+          "prompt": "Вернись к записи с именем Ann и номером из задания на диктовку. Прослушай её без текста и запиши имя и номер. Если записи нет, снова продиктуй Ann, 4015, а потом прослушай. Когда записать звук нельзя, восстанови контакт по памяти и отметь для себя, что это не проверка слуха.",
           "context": "Ann — вымышленное имя; номер можно записать цифрами.",
           "answers": [
             "Ann. 4015."
           ],
           "hint": "Ann — вымышленное имя; номер можно записать цифрами.",
-          "explanation": "Сверяем реальные данные своей репетиции. Не требуется придумывать ошибки или писать английский отчёт о процессе.",
+          "explanation": "Сверяем имя и номер с собственной записью. Предыдущее задание про forty не содержит контакта: нужна именно диктовка Ann. Ошибки выдумывать не нужно.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2
         }
       ]
     },
@@ -3202,8 +3353,8 @@
           "body": "To go — с собой, for here — здесь. Это обычные американские ответы на вопрос кассира. Добавь их после заказа: A small coffee to go, please."
         },
         {
-          "title": "Сколько всего",
-          "body": "How much is it? — сколько это стоит? That’s all, thanks — это всё, спасибо. Сначала закончи выбор, затем уточни сумму."
+          "title": "Заверши заказ и спроси об оплате",
+          "body": "That’s all, thanks — это всё, спасибо. How much is it? — сколько это стоит? Когда заказ назван, it может означать весь заказ. Can I pay by card? — можно оплатить картой? Pay — платить, by card — картой; вопрос ещё не означает, что оплата прошла."
         }
       ],
       "examples": [
@@ -3226,18 +3377,18 @@
       "practice": [
         {
           "id": "prepare-1",
-          "revision": 1,
+          "revision": 2,
           "kind": "translate",
           "prompt": "Маленький чай, пожалуйста.",
-          "context": "small — маленький; tea — порция чая.",
+          "context": "small — маленький; tea — чай; a tea — одна порция чая.",
           "answers": [
             "A small tea, please."
           ],
-          "hint": "small — маленький; tea — порция чая.",
+          "hint": "Начни с A small …, затем назови напиток и добавь please.",
           "explanation": "A обозначает одну порцию.",
           "guidance": {
             "title": "Одна порция",
-            "body": "A small coffee — маленький кофе. Small стоит перед coffee. В кафе a coffee означает одну порцию; это не правило, что любое вещество всегда можно считать. small — маленький; tea — порция чая.",
+            "body": "A small tea — маленькая порция чая. Small ставится перед tea. Вставь этот напиток в образец и оставь please.",
             "example": "A small coffee, please.",
             "translation": "Маленький кофе, пожалуйста."
           },
@@ -3256,7 +3407,7 @@
           "explanation": "Естественная американская фраза.",
           "guidance": {
             "title": "С собой или здесь",
-            "body": "To go — с собой, for here — здесь. Это обычные американские ответы на вопрос кассира. Добавь их после заказа: A small coffee to go, please. to go — с собой.",
+            "body": "To go — с собой. Можно ответить этой короткой фразой на вопрос кассира и добавить please.",
             "example": "To go, please.",
             "translation": "С собой, пожалуйста."
           },
@@ -3275,9 +3426,9 @@
           "explanation": "Сначала завершение заказа, затем вопрос о сумме.",
           "guidance": {
             "title": "Сколько всего",
-            "body": "How much is it? — сколько это стоит? That’s all, thanks — это всё, спасибо. Сначала закончи выбор, затем уточни сумму. that is all — это всё; thanks — спасибо; how much — сколько стоит.",
-            "example": "How much is it?",
-            "translation": "Сколько это стоит?"
+            "body": "That is all, thanks завершает выбор: «это всё, спасибо». Затем отдельный вопрос How much is it? — сколько это стоит? That’s — сокращение that is.",
+            "example": "That’s all, thanks. How much is it?",
+            "translation": "Это всё, спасибо. Сколько это стоит?"
           },
           "practiceStage": "guided"
         }
@@ -3311,7 +3462,14 @@
           "hint": "sandwich — сэндвич; pay by card — оплатить картой.",
           "explanation": "Сначала заказ, затем способ оплаты. Не нужно писать реплики продавца.",
           "materialIds": [],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Заказ, затем карта",
+            "body": "Назови еду и напиток через and. Для оплаты используй готовую просьбу Can I pay by card? После can I глагол pay идёт без to.",
+            "example": "A coffee, please. Can I pay by card?",
+            "translation": "Кофе, пожалуйста. Можно оплатить картой?"
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e3",
@@ -3356,14 +3514,14 @@
           "id": "e6",
           "kind": "write",
           "prompt": "У тебя в заказе чай и сэндвич, вместе семь фунтов. Напиши другу две короткие фразы: что у тебя и сколько это стоит.",
-          "context": "I have — у меня есть; it is seven pounds — это стоит семь фунтов.",
+          "context": "I have — у меня есть; seven pounds in total — всего семь фунтов.",
           "answers": [
-            "I have a tea and a sandwich. It is seven pounds."
+            "I have a tea and a sandwich. It is seven pounds in total."
           ],
-          "hint": "I have — у меня есть; it is seven pounds — это стоит семь фунтов.",
-          "explanation": "5 + 2 = 7. Для простого сообщения о текущем заказе не требуется новое прошедшее время.",
+          "hint": "I have — у меня есть; seven pounds in total — всего семь фунтов.",
+          "explanation": "Сэндвич стоит 5 фунтов, чай — 2; общая сумма 7. In total уточняет, что речь об обеих позициях.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2
         }
       ]
     },
@@ -3381,12 +3539,12 @@
           "body": "She works — она работает, she worked — она работала. Конец слова сообщает о лице или времени. Если всегда проглатывать его, смысл может стать неясным."
         },
         {
-          "title": "Окончание s",
-          "body": "После /k/ в works слышно /s/; после /l/ в calls — /z/. После шипящих, например в washes, появляется слог /ɪz/. Выбор зависит от последнего звука, не последней буквы."
+          "title": "Как звучит s",
+          "body": "Смотри на последний звук основы, не на букву. После глухого звука, например /k/ в work, добавляется /s/: works. После гласного или звонкого, например /l/ в call, — /z/: calls. После /s/, /z/, /ʃ/, /ʒ/, /tʃ/, /dʒ/ появляется слог /ɪz/: washes. Звонкий звук произносится с голосом, глухой — без него. Сначала сравни готовые слова на слух."
         },
         {
-          "title": "Окончание ed",
-          "body": "Worked заканчивается на /t/, called — на /d/. В wanted после /t/ добавляется слог /ɪd/. Поэтому worked не нужно читать как два слога. В быстрой речи окончания иногда ослабляются; начни с ясного образца."
+          "title": "Как звучит ed",
+          "body": "После /t/ и /d/ нужен дополнительный слог /ɪd/: wanted, needed. После остальных глухих звуков окончание звучит /t/: worked. После остальных звонких и гласных — /d/: called. Worked и called остаются односложными. В живой речи конец бывает слабым; в первой репетиции произноси слова спокойно и различимо."
         }
       ],
       "examples": [
@@ -3420,7 +3578,7 @@
           "explanation": "С she добавь s; после проверки послушай /s/ в конце.",
           "guidance": {
             "title": "Сначала смысл",
-            "body": "She works — она работает, she worked — она работала. Конец слова сообщает о лице или времени. Если всегда проглатывать его, смысл может стать неясным. work — работать; she — она.",
+            "body": "She works — она работает. С she для привычного действия нужен s. В works после /k/ звучит /s/; слог не добавляется.",
             "example": "She works.",
             "translation": "Она работает."
           },
@@ -3438,10 +3596,10 @@
           "hint": "call → called — позвонил.",
           "explanation": "После /l/ окончание ed звучит /d/, без отдельного слога.",
           "guidance": {
-            "title": "Окончание s",
-            "body": "После /k/ в works слышно /s/; после /l/ в calls — /z/. После шипящих, например в washes, появляется слог /ɪz/. Выбор зависит от последнего звука, не последней буквы. call → called — позвонил.",
-            "example": "She calls.",
-            "translation": "Она звонит."
+            "title": "Прошедшее called",
+            "body": "I called — я позвонил. Call заканчивается на /l/ с голосом, поэтому ed звучит /d/. Called — один слог, без отдельного «эд».",
+            "example": "I called.",
+            "translation": "Я позвонил."
           },
           "practiceStage": "guided"
         },
@@ -3457,15 +3615,15 @@
           "hint": "want → wanted; it — это.",
           "explanation": "После /t/ в want окончание даёт дополнительный слог.",
           "guidance": {
-            "title": "Окончание ed",
-            "body": "Worked заканчивается на /t/, called — на /d/. В wanted после /t/ добавляется слог /ɪd/. Поэтому worked не нужно читать как два слога. В быстрой речи окончания иногда ослабляются; начни с ясного образца. want → wanted; it — это.",
-            "example": "I worked. I called. I wanted it.",
-            "translation": "Я работал. Я позвонил. Я хотел это."
+            "title": "Дополнительный слог",
+            "body": "I wanted it — я хотел это. Want заканчивается на /t/, поэтому ed добавляет слог /ɪd/. It означает «это».",
+            "example": "I wanted it.",
+            "translation": "Я хотел это."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала прочитай шесть слов по одному, затем фразы. При объяснении назови последний звук основы и звук окончания. Правильная расшифровка записи сама по себе не подтверждает произношение.",
+      "beforePractice": "Сравни на слух works — работает, calls — звонит, washes — моет; worked — работал, called — позвонил, wanted — хотел. Затем используй слова во фразах. Если фонетические значки незнакомы, сначала пройди ступени тренажёра IPA по порядку до окончаний. Текстовая расшифровка не показывает, прозвучало ли окончание.",
       "sourceIds": [
         "a1-ed"
       ],
@@ -3499,7 +3657,7 @@
         {
           "id": "e3",
           "kind": "speak",
-          "prompt": "Скажи две фразы: «Она работает каждый день. Вчера она работала». Надиктуй или запиши их; потом сравни endings works и worked.",
+          "prompt": "Скажи две фразы: «Она работает каждый день. Вчера она работала». Надиктуй или запиши их; потом сравни на слух окончания works и worked.",
           "context": "every day — каждый день; yesterday — вчера.",
           "answers": [
             "She works every day. Yesterday she worked."
@@ -3507,7 +3665,7 @@
           "hint": "every day — каждый день; yesterday — вчера.",
           "explanation": "Works — привычка с she; worked — прошедшее. В этих словах окончания /s/ и /t/.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e4",
@@ -3533,7 +3691,14 @@
           "hint": "cook → cooked — готовил; clean → cleaned — убирал; wait → waited — ждал.",
           "explanation": "Окончания: cooked /t/, cleaned /d/, waited /ɪd/. Только в waited добавляется слог.",
           "materialIds": [],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Три прошедших действия",
+            "body": "Cooked — готовил, cleaned — убирал, waited — ждал. У cook последний звук /k/, поэтому окончание /t/. У clean последний звук /n/ с голосом, поэтому /d/. Wait заканчивается на /t/, поэтому добавляется целый слог /ɪd/.",
+            "example": "I worked. I called. I wanted it.",
+            "translation": "Я работал. Я позвонил. Я хотел это."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e6",
@@ -3559,16 +3724,16 @@
       "purpose": "Узнать сильный слог и не стараться произносить каждый гласный одинаково чётко.",
       "explanation": [
         {
-          "title": "Сильный слог",
-          "body": "About /əˈbaʊt/: значок ˈ стоит перед сильным слогом. Громче и заметнее вторая часть, а не первая. About значит «о/об». Начни с одного слова, не с длинной фразы."
+          "title": "Найди ударный слог",
+          "body": "About /əˈbaʊt/ — о/об. Значок ˈ стоит перед ударным слогом: в about это вторая часть, bout. Ударение слышно по длительности, ясности гласного и движению голоса; не нужно просто выкрикивать слог. В sofa /ˈsoʊfə/ («диван») ударный первый слог."
         },
         {
           "title": "Слабый гласный",
           "body": "/ə/ называется шва: короткий расслабленный звук без ударения. Он есть в начале about и в конце sofa /ˈsoʊfə/. Не читай любую букву a как одно и то же «а»."
         },
         {
-          "title": "После изменения слова проверь ударение",
-          "body": "В photograph сильнее первый слог, в photography — второй. Это разные словарные формы. Знакомое написание не гарантирует прежнего ударения. Сначала слушай два слова, потом пробуй целую фразу."
+          "title": "Новое слово — проверь ударение",
+          "body": "Photograph — снимок: PHOtograph, ударение на первом слоге. Photography — фотография как занятие: phoTOGraphy, ударение на втором. Заглавные буквы здесь только учебная отметка; в обычном письме слово photography пишется без них. Похожие слова могут звучать по-разному: слушай каждое целиком."
         }
       ],
       "examples": [
@@ -3601,8 +3766,8 @@
           "hint": "sofa — диван.",
           "explanation": "После проверки послушай sofa и найди слабый последний слог.",
           "guidance": {
-            "title": "Сильный слог",
-            "body": "About /əˈbaʊt/: значок ˈ стоит перед сильным слогом. Громче и заметнее вторая часть, а не первая. About значит «о/об». Начни с одного слова, не с длинной фразы. sofa — диван.",
+            "title": "Два слога в sofa",
+            "body": "This is a sofa — это диван. В sofa два слога: первый ударный, второй слабый. Сначала послушай целое слово, затем повтори короткую фразу.",
             "example": "This is a sofa.",
             "translation": "Это диван."
           },
@@ -3620,8 +3785,8 @@
           "hint": "tell me — расскажи мне; about it — об этом.",
           "explanation": "Начало about слабое, второй слог сильный.",
           "guidance": {
-            "title": "Слабый гласный",
-            "body": "/ə/ называется шва: короткий расслабленный звук без ударения. Он есть в начале about и в конце sofa /ˈsoʊfə/. Не читай любую букву a как одно и то же «а». tell me — расскажи мне; about it — об этом.",
+            "title": "Слабое начало about",
+            "body": "Tell me — расскажи мне; about it — об этом. В about первый гласный /ə/ слабый, ударение на втором слоге.",
             "example": "Tell me about it.",
             "translation": "Расскажи мне об этом."
           },
@@ -3640,14 +3805,14 @@
           "explanation": "Photography отличается по ударению от photograph.",
           "guidance": {
             "title": "После изменения слова проверь ударение",
-            "body": "В photograph сильнее первый слог, в photography — второй. Это разные словарные формы. Знакомое написание не гарантирует прежнего ударения. Сначала слушай два слова, потом пробуй целую фразу. like — нравиться; photography — фотография как занятие.",
+            "body": "I like … — мне нравится … . Photography означает фотографию как занятие; ударение на втором слоге. Перед photography в этой фразе артикль не нужен.",
             "example": "I like photography.",
             "translation": "Мне нравится фотография как занятие."
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала пройди ступени 8–9 в чтении IPA. В основной практике помечай ударный слог и слушай слово; не заменяй все безударные гласные на шва по догадке.",
+      "beforePractice": "Если значки пока незнакомы, пройди тренажёр IPA по порядку до ступеней 8–9. В заданиях появятся ещё три слова: TEACHer — преподаватель, apPOINTment — назначенная встреча, toMORrow — завтра. Заглавные части показывают ударение. Прослушай эти слова до записи своей фразы. Не любой безударный гласный превращается в /ə/.",
       "sourceIds": [
         "a1-ipa",
         "a1-rachel"
@@ -3677,7 +3842,14 @@
           "hint": "my appointment — моя назначенная встреча; tomorrow — завтра.",
           "explanation": "Appointment: сильная часть POINT; tomorrow: MOR. Сначала собери смысл, затем послушай ритм.",
           "materialIds": [],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Встреча завтра",
+            "body": "My appointment — моя назначенная встреча; is tomorrow — состоится завтра. Appointment и tomorrow имеют ударение на втором слоге: apPOINTment, toMORrow. Сначала собери фразу, потом послушай оба слова.",
+            "example": "My appointment is on Monday.",
+            "translation": "Моя встреча в понедельник."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e3",
@@ -3690,7 +3862,14 @@
           "hint": "appointment — назначенная встреча; tomorrow — завтра.",
           "explanation": "Положение слов не меняется, но главный смысловой акцент можно перенести. Текст не показывает, как это прозвучало.",
           "materialIds": [],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Слово и вся фраза",
+            "body": "В tomorrow ударение остаётся на втором слоге. Если важно именно «завтра», сделай всё слово tomorrow заметнее остальных. Не переноси ударение внутри него и не увеличивай громкость каждого слова.",
+            "example": "My appointment is tomorrow.",
+            "translation": "Моя встреча завтра."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e4",
@@ -3751,8 +3930,8 @@
           "body": "Please call me back — пожалуйста, перезвоните мне. Call back — перезвонить. Me — мне. Back здесь означает обратный звонок, а не место позади."
         },
         {
-          "title": "Один следующий шаг",
-          "body": "Can I leave a message? — можно оставить сообщение? Leave a message — готовое сочетание. Сначала попроси, затем назови имя, причину и номер."
+          "title": "Оставить или принять сообщение",
+          "body": "Звонящий спрашивает Can I leave a message? — можно оставить сообщение? Сотрудник предлагает Can I take a message? — передать ему/ей сообщение? Leave — оставить, take — принять для передачи. Это разные роли. I’ll pass on your message — я передам ваше сообщение — ещё не обещание обратного звонка."
         }
       ],
       "examples": [
@@ -3786,7 +3965,7 @@
           "explanation": "Телефонное представление.",
           "guidance": {
             "title": "Кто звонит",
-            "body": "This is Sam — это Сэм. По телефону это обычный способ представиться. Не нужно дословно переводить русское «Сэм говорит». this is — это; Sam — Сэм.",
+            "body": "По телефону This is … означает «это …», когда говорящий представляется. Замени Ann на Sam.",
             "example": "This is Ann.",
             "translation": "Это Энн."
           },
@@ -3805,7 +3984,7 @@
           "explanation": "Не теряй back: оно меняет звонок на обратный.",
           "guidance": {
             "title": "Что нужно",
-            "body": "Please call me back — пожалуйста, перезвоните мне. Call back — перезвонить. Me — мне. Back здесь означает обратный звонок, а не место позади. please — пожалуйста; call me back — перезвоните мне.",
+            "body": "Please call me back — пожалуйста, перезвоните мне. Me стоит между call и back: это готовое сочетание.",
             "example": "Please call me back.",
             "translation": "Пожалуйста, перезвоните мне."
           },
@@ -3824,14 +4003,14 @@
           "explanation": "После can действие без to.",
           "guidance": {
             "title": "Один следующий шаг",
-            "body": "Can I leave a message? — можно оставить сообщение? Leave a message — готовое сочетание. Сначала попроси, затем назови имя, причину и номер. leave a message — оставить сообщение.",
+            "body": "Can I leave a message? говорит звонящий: «можно оставить сообщение?» Leave означает «оставить». Не меняй его на take: это уже роль сотрудника.",
             "example": "Can I leave a message?",
             "translation": "Можно оставить сообщение?"
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Слушая длинный автоответчик, выпиши имя, причину звонка, номер и нужное действие. Необязательно понимать каждое слово, но цифры и договорённость нужно перепроверить.",
+      "beforePractice": "В автоответчике bookings — бронирования, press — нажмите, if nobody answers — если никто не отвечает. Слушай имя, тему, номер и просьбу отдельно. Указанный номер кнопки не является временем. Условие if сохраняй рядом с действием: оно говорит, когда нужно оставить сообщение.",
       "sourceIds": [
         "a1-voicemail"
       ],
@@ -3839,41 +4018,55 @@
         {
           "id": "e1",
           "kind": "translate",
-          "prompt": "Переведи: «Она сейчас недоступна. Можно передать сообщение?»",
-          "context": "available — доступна; now — сейчас; take a message — принять сообщение для передачи.",
+          "prompt": "Ты отвечаешь на звонок вместо коллеги. Переведи: «Она сейчас недоступна. Передать ей сообщение?»",
+          "context": "she is not available now — она сейчас недоступна; can I take a message? — принять сообщение, чтобы передать ей?",
           "answers": [
             "She is not available now. Can I take a message?"
           ],
-          "hint": "available — доступна; now — сейчас; take a message — принять сообщение для передачи.",
-          "explanation": "Две короткие реплики: ситуация и предложение помочь.",
+          "hint": "she is not available now — она сейчас недоступна; can I take a message? — принять сообщение, чтобы передать ей?",
+          "explanation": "Сотрудник принимает сообщение: take a message. Звонящий оставляет сообщение: leave a message.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e2",
           "kind": "write",
-          "prompt": "Сообщение: “For bookings, press two. If nobody answers, leave your name and number.” Напиши две инструкции: что нажать и что оставить.",
-          "context": "press two — нажмите два; leave — оставьте; name and number — имя и номер.",
+          "prompt": "Автоответчик: “For bookings, press two. If nobody answers, leave your name and number.” Объясни, что нажать для бронирования и при каком условии оставить имя и номер. Два коротких предложения.",
+          "context": "press two — нажмите два; if nobody answers — если никто не отвечает; leave your name and number — оставьте имя и номер.",
           "answers": [
-            "Press two. Leave your name and number."
+            "Press two. If nobody answers, leave your name and number."
           ],
-          "hint": "press two — нажмите два; leave — оставьте; name and number — имя и номер.",
-          "explanation": "Называем нужные действия без дополнительных обещаний обратного звонка.",
+          "hint": "Сохрани слова If nobody answers перед второй инструкцией.",
+          "explanation": "Оставить данные нужно, если никто не отвечает. Без if инструкция превращается в обязательное действие при любом исходе.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2,
+          "guidance": {
+            "title": "Сохрани условие",
+            "body": "If nobody answers — если никто не отвечает. Эту часть можно взять целиком. После запятой поставь просьбу leave … («оставьте …»).",
+            "example": "If nobody answers, leave a message.",
+            "translation": "Если никто не отвечает, оставьте сообщение."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e3",
           "kind": "rewrite",
-          "prompt": "Тебе сказали только “I’ll pass on your message” — передам сообщение. Исправь заметку “The manager will call at three”. Скажи, что время звонка неизвестно.",
-          "context": "I don’t know when — я не знаю, когда; manager — менеджер; will call — позвонит.",
+          "prompt": "Тебе сказали только “I’ll pass on your message” — передам сообщение. Исправь заметку “The manager will call at three”. Напиши, что ты не знаешь, будет ли менеджер звонить.",
+          "context": "I don’t know if — я не знаю, будет ли; the manager will call — менеджер позвонит.",
           "answers": [
-            "I don’t know when the manager will call."
+            "I don’t know if the manager will call."
           ],
-          "hint": "I don’t know when — я не знаю, когда; manager — менеджер; will call — позвонит.",
-          "explanation": "Обещание передать сообщение не подтверждает звонок в три.",
+          "hint": "I don’t know if … + the manager will call. If здесь передаёт русское «ли».",
+          "explanation": "Обещали передать сообщение. Даже сам обратный звонок пока не подтверждён, поэтому нельзя спрашивать только о его времени.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2,
+          "guidance": {
+            "title": "Не обещай за другого",
+            "body": "I don’t know if … — я не знаю, … ли. После if в этой фразе остаётся порядок утверждения: the manager will call. Не переставляй will перед manager.",
+            "example": "I don’t know if Ann will call.",
+            "translation": "Я не знаю, позвонит ли Энн."
+          },
+          "practiceStage": "guided"
         },
         {
           "id": "e4",
@@ -3926,8 +4119,8 @@
       "purpose": "Коротко извиниться за конкретную ошибку и сказать, как ты её исправишь.",
       "explanation": [
         {
-          "title": "Начни прямо",
-          "body": "I’m sorry — извини/извините. Для опоздания I’m sorry I’m late. Late — опоздавший. Не обязательно сразу объяснять всю историю дня."
+          "title": "Назови свою ошибку",
+          "body": "I’m sorry I’m late — извини, что я опоздал. I’m = I am; I’m late означает «я опаздываю / пришёл с опозданием». После sorry можно добавить целую мысль: I’m sorry I sent the wrong file — извини, что я отправил не тот файл. Sent — прошедшая форма send."
         },
         {
           "title": "Назови действие",
@@ -3958,18 +4151,18 @@
       "practice": [
         {
           "id": "prepare-1",
-          "revision": 1,
+          "revision": 2,
           "kind": "translate",
           "prompt": "Извини, что я опоздал.",
-          "context": "I am = I’m; sorry — извини; late — опоздавший.",
+          "context": "I am = I’m; I am sorry — извини; I am late — я опоздал, пришёл с опозданием.",
           "answers": [
             "I am sorry I am late."
           ],
-          "hint": "I am = I’m; sorry — извини; late — опоздавший.",
+          "hint": "Соедини I am sorry и I am late: это извинение за своё опоздание.",
           "explanation": "Прямое короткое извинение.",
           "guidance": {
             "title": "Начни прямо",
-            "body": "I’m sorry — извини/извините. Для опоздания I’m sorry I’m late. Late — опоздавший. Не обязательно сразу объяснять всю историю дня. I am = I’m; sorry — извини; late — опоздавший.",
+            "body": "I am sorry — извини; I am late — я опоздал. Соедини две части без because. I’m — сокращение I am.",
             "example": "I’m sorry I’m late.",
             "translation": "Извини, что я опоздал."
           },
@@ -3988,7 +4181,7 @@
           "explanation": "For + calling, не for call.",
           "guidance": {
             "title": "Назови действие",
-            "body": "I’m sorry for calling late — извини за поздний звонок. После for действие с ing: calling. Эта рамка называет конкретную ошибку. for calling — за звонок; late — поздно.",
+            "body": "Sorry for calling late — извинение за поздний звонок. После for нужен calling, не call. Late здесь означает «поздно».",
             "example": "I’m sorry for calling late.",
             "translation": "Извини за поздний звонок."
           },
@@ -4007,7 +4200,7 @@
           "explanation": "Will + send сообщает о следующем действии.",
           "guidance": {
             "title": "Предложи исправление",
-            "body": "I’ll send the right file — я отправлю правильный файл. I’ll = I will, right здесь — правильный. Обещай то действие, которое реально можешь выполнить. send — отправить; right — правильный; file — файл.",
+            "body": "I will send — я отправлю. После will глагол send без to. The right file — правильный файл; I’ll = I will.",
             "example": "I’ll send the right file.",
             "translation": "Я отправлю правильный файл."
           },
@@ -4074,15 +4267,15 @@
         {
           "id": "e5",
           "kind": "write",
-          "prompt": "Человек извинился за неверный файл. Напиши две отдельные реакции: 1) всё в порядке; 2) правильный файл ещё нужен. По одной короткой фразе.",
+          "prompt": "Человек извинился за неверный файл. Напиши один ответ из двух коротких фраз: спокойно прими извинение и попроси правильный файл. Он всё ещё нужен.",
           "context": "that’s OK — всё в порядке; send — отправь; right file — правильный файл.",
           "answers": [
             "That’s OK. Please send the right file."
           ],
           "hint": "that’s OK — всё в порядке; send — отправь; right file — правильный файл.",
-          "explanation": "Вторая фраза не скрывает оставшееся действие.",
+          "explanation": "That’s OK принимает извинение. Please send the right file сохраняет конкретную просьбу: нужного файла ещё нет.",
           "materialIds": [],
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e6",
@@ -4095,7 +4288,14 @@
           "hint": "sent — отправил; address — адрес; I’ll send — я отправлю; right one — правильный адрес; now — сейчас.",
           "explanation": "Конкретная ошибка и конкретное исправление. Не нужен большой рассказ с неизвестными подробностями.",
           "materialIds": [],
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Ошибся раньше — исправлю сейчас",
+            "body": "I sent — я отправил; I’ll send — я отправлю. I’ll = I will. One во второй фразе заменяет уже названный address («адрес»), поэтому right one означает «правильный адрес».",
+            "example": "I’m sorry I sent the wrong file. I’ll send the right one now.",
+            "translation": "Извини, что я отправил не тот файл. Сейчас отправлю правильный."
+          },
+          "practiceStage": "guided"
         }
       ]
     },
@@ -4152,7 +4352,7 @@
           "explanation": "Is соединяет фразу и имя.",
           "guidance": {
             "title": "Одна цель на прослушивание",
-            "body": "Сначала найди только имя. My name is … — меня зовут … . Не старайся сразу пересказать весь разговор. На втором прослушивании можно проверить буквы. my name — моё имя; Ann — Энн.",
+            "body": "My name is … — меня зовут … . Сохрани это начало и вставь Ann. Это учебное имя для репетиции, не ответ о героине записи.",
             "example": "My name is Zoe.",
             "translation": "Меня зовут Зои."
           },
@@ -4171,7 +4371,7 @@
           "explanation": "Так отвечают при первом знакомстве.",
           "guidance": {
             "title": "Знакомая короткая реакция",
-            "body": "Nice to meet you — приятно познакомиться. Это готовая вежливая фраза. Nice — приятно, meet — встретить/познакомиться, you — тебя/вас. Не нужно до разговора изучать все значения nice. nice to meet you — готовая фраза знакомства.",
+            "body": "Nice to meet you — готовая фраза при первом знакомстве. Произнеси её целиком; она выражает дружелюбную реакцию, а не задаёт вопрос.",
             "example": "Nice to meet you.",
             "translation": "Приятно познакомиться."
           },
@@ -4190,14 +4390,14 @@
           "explanation": "В вопросе is перед that.",
           "guidance": {
             "title": "Уточни конкретное",
-            "body": "Is that Park Street? — это Парк-стрит? Street — улица. Вопрос проверяет адрес, а не предлагает его придумать. Если не слышишь, вернись к нужному фрагменту или открой расшифровку. that — это; Pine Street — Пайн-стрит.",
+            "body": "Is that …? проверяет услышанный вариант. Замени Park Street на Pine Street. Is ставится перед that.",
             "example": "Is that Park Street?",
             "translation": "Это Парк-стрит?"
           },
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала открой именно короткий Conversation из источника и поймай имя. Затем проверь написание и адрес. Своё первое резюме можно собрать из двух уже освоенных коротких фраз.",
+      "beforePractice": "Открой короткий Conversation по ссылке источника или его запись в материале m1. Сначала слушай имена без расшифровки, затем написание имени. m2 содержит ссылку на расшифровку, а не сам адрес. Если звук недоступен, выполни те же вопросы по тексту и считай это чтением.",
       "sourceIds": [
         "a1-voa"
       ],
@@ -4235,32 +4435,32 @@
         {
           "id": "e3",
           "kind": "write",
-          "prompt": "Теперь открой m2. Запиши адрес из разговора одной строкой. Номер квартиры не придумывай: он не назван.",
-          "context": "street — улица; адрес можно написать цифрами.",
+          "prompt": "Теперь открой ссылку на расшифровку в m2 и найди адрес в тексте источника. Запиши его одной строкой. Номер квартиры не назван: не добавляй его.",
+          "context": "street — улица; apartment — квартира; адрес дома можно написать цифрами.",
           "materialIds": [
             "m2"
           ],
           "answers": [
             "1400 Irving Street."
           ],
-          "hint": "street — улица; адрес можно написать цифрами.",
+          "hint": "street — улица; apartment — квартира; адрес дома можно написать цифрами.",
           "explanation": "Номер дома известен, номер квартиры — нет.",
-          "revision": 1
+          "revision": 2
         },
         {
           "id": "e4",
           "kind": "speak",
-          "prompt": "По m3 представься вымышленному соседу под именем Sam. Назови имя, затем произнеси его по буквам. Две короткие части.",
+          "prompt": "В новом знакомстве из m3 твоё учебное имя Sam Lee. Представься соседу, затем произнеси своё имя Sam по буквам. Напиши или надиктуй эти две короткие части.",
           "context": "my name is — меня зовут; S /ɛs/, A /eɪ/, M /ɛm/.",
           "materialIds": [
             "m3"
           ],
           "answers": [
-            "My name is Sam. S-A-M."
+            "My name is Sam Lee. S-A-M."
           ],
           "hint": "my name is — меня зовут; S /ɛs/, A /eɪ/, M /ɛm/.",
-          "explanation": "Переносим способ знакомства в другой разговор, не повторяем имя героини.",
-          "revision": 1
+          "explanation": "Используем имя роли Sam Lee из m3. Здесь отдельно тренируем написание Sam по буквам; это другой человек, не Anna из записи.",
+          "revision": 2
         },
         {
           "id": "e5",
@@ -4276,7 +4476,14 @@
           ],
           "hint": "what is your apartment number? — какой у тебя номер квартиры?",
           "explanation": "Известное восстанавливаем по записи; неизвестное спрашиваем. Пауза сама по себе не доказывает устойчивое запоминание.",
-          "revision": 1
+          "revision": 1,
+          "guidance": {
+            "title": "Спроси номер квартиры",
+            "body": "What is your apartment number? — какой у тебя номер квартиры? Apartment number означает именно номер квартиры; адрес улицы на этот вопрос не отвечает. В вопросе what is стоит перед your apartment number.",
+            "example": "What is your phone number?",
+            "translation": "Какой у тебя номер телефона?"
+          },
+          "practiceStage": "guided"
         }
       ]
     }

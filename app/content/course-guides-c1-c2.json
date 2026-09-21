@@ -203,6 +203,20 @@
       "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
       "kind": "authentic-audio-transcript",
       "notes": "Источник уже существующей человеческой записи и транскрипта; новые учебные примеры не являются цитатами участников."
+    },
+    {
+      "id": "cam-would-rather",
+      "title": "Cambridge English Grammar Today — Would rather, would sooner",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/would-rather-would-sooner",
+      "kind": "grammar",
+      "notes": "Проверено 2026-09-21: разные исполнители, past simple для предпочтения о настоящем или будущем; учебная рамка без to."
+    },
+    {
+      "id": "cam-car-pronunciation",
+      "title": "Cambridge Dictionary — car, UK and US pronunciation models",
+      "url": "https://dictionary.cambridge.org/us/pronunciation/english/car",
+      "kind": "pronunciation",
+      "notes": "Страница и метки UK/US подтверждены поиском 2026-09-21. Прямой просмотр словарной статьи получил 403. Реальное прослушивание пользователем не заменяется текстовым описанием."
     }
   ],
   "lessons": [
@@ -225,6 +239,10 @@
         {
           "title": "Когда это нужно",
           "body": "Инверсия добавляет заметный акцент и часто звучит официальнее. Не превращай каждую фразу в речь со сцены. Другу обычно достаточно I only realized later. Обычные наречия вроде often не требуют такой перестановки."
+        },
+        {
+          "title": "Запрет и обычная просьба",
+          "body": "Under no circumstances should you share it — «Ни при каких обстоятельствах не передавайте это». После отрицательного начала should идёт перед you. Never share it — обычный прямой запрет; Never should you share it — подчёркнутая формальная версия."
         }
       ],
       "examples": [
@@ -277,7 +295,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В основных заданиях сначала найди границу ограничения, затем собери главную часть. В длинной речи хватит одного-двух осмысленных акцентов.",
+      "beforePractice": "Сначала переставь слова в одной фразе. Затем составь речь о том, почему людям нужно объяснять решения: проблема → пример → предложение. Можно придумать небольшой случай в рабочей команде и прямо назвать его примером. Transparency — прозрачность; accountable — обязан объяснять свои решения.",
       "sourceIds": [
         "bc-emphasis",
         "voa-inversion",
@@ -303,6 +321,10 @@
         {
           "title": "Сначала реши, что исправляешь",
           "body": "It was yesterday that Maya called исправляет время. It was Maya who called исправляет человека. Не ставь ударную рамку вокруг всей фразы: читателю станет непонятно, с чем ты споришь."
+        },
+        {
+          "title": "All we need — всё необходимое",
+          "body": "All we need is a decision — «Всё, что нам нужно, — решение». В What I need is a clear explanation после is названо одно объяснение. Здесь is подходит; не переноси это упрощение на все cleft с множественным дополнением."
         }
       ],
       "examples": [
@@ -355,11 +377,25 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Теперь переходи от одной исправленной детали к ответу на письмо: отдельно назови настоящую проблему и отдельно отвергни чужую догадку.",
+      "beforePractice": "В письме сначала назови настоящую претензию, потом две ошибочные догадки адресата, затем попроси конкретное исправление. Для вымышленной ситуации можно выбрать неясный порядок согласования: approval — одобрение; responsibility — ответственность; a guarantee — гарантия.",
       "sourceIds": [
         "voa-clefts",
         "bc-emphasis",
         "forum-inversion"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Исправь три недоразумения, выделяя только неверно понятую деталь. Напиши по одному предложению с It is/was… that/who.",
+          "context": "Собеседник думает: Maria called; the report is due Friday afternoon; you refused because you were not interested. На самом деле: Anna called; you need the report by Thursday morning; you refused because there was not enough preparation time. Turn down an invitation — отклонить приглашение.",
+          "answers": [
+            "It was Anna who called you, not Maria.\nIt is by Thursday morning that I need the report, not by Friday afternoon.\nIt was the lack of preparation time that made me turn down the invitation, not a lack of interest."
+          ],
+          "hint": "Направлять внимание на причину, человека или нужное изменение.",
+          "explanation": "В первой фразе исправляется человек, во второй — крайний срок, в третьей — причина отказа. By Thursday morning значит «к утру четверга». Сохрани заданные обстоятельства; естественные варианты с that/who допустимы.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -381,6 +417,10 @@
         {
           "title": "Не путай с инверсией",
           "body": "В That part I understand слова I understand идут обычно. Перенос дополнения вперёд сам по себе не требует do I. Проверь также, ясно ли, к чему относятся this, that и it."
+        },
+        {
+          "title": "Редактировать — не всегда исправлять ошибку",
+          "body": "Длинная часть в начале может быть грамматически правильной, но тяжёлой для чтения. Переносим её после It was difficult for us to understand… ради удобства читателя. Исходный вариант не становится запрещённым."
         }
       ],
       "examples": [
@@ -433,10 +473,36 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В описании процесса проверь каждое начало: есть ли у читателя опора из предыдущей фразы? Не меняй порядок слов ради самого изменения.",
+      "beforePractice": "Для описания процесса выбери один сбой и проследи цепочку: заявка → недостающая информация → неверный выбор → задержка. Не нужно искать реальный рабочий инцидент: можно явно обозначить свой пример как вымышленный.",
       "sourceIds": [
         "cam-focus",
         "purdue-cohesion"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Сделай фразу легче для чтения, начав с It was difficult for us…: That he had changed the entire schedule without telling anyone was difficult to understand for us.",
+          "context": "Это стилистическая правка: исходная фраза не является безусловно неграмматичной. Сохрани, кто изменил расписание и о чём не сообщил.",
+          "answers": [
+            "It was difficult for us to understand that he had changed the entire schedule without telling anyone."
+          ],
+          "hint": "given → new · This I can explain · end-weight",
+          "explanation": "Короткое начало It was difficult for us to understand подготавливает длинную that-часть. Меняется подача информации, а не событие. Допустим другой естественный порядок с тем же смыслом.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Перепиши предложение двумя способами: сначала с It was difficult…, затем вынеси The unexplained rejection… в начало. Объясни, что в каждой версии стало отправной точкой.",
+          "context": "Исходник: The applicants found the unexplained rejection of their proposal difficult to understand. Applicants — заявители; unexplained rejection — отказ без объяснения. Всего 4–5 предложений: две версии и пояснения.",
+          "answers": [
+            "It was difficult for the applicants to understand the unexplained rejection of their proposal. The unexplained rejection of their proposal, the applicants found difficult to understand. The first version begins with their difficulty and presents its cause later. The second makes the rejection the starting point; it sounds more marked and needs a context where that rejection is already being discussed."
+          ],
+          "hint": "Выстраивать предложение по информационной нагрузке.",
+          "explanation": "Версия с it начинает с трудности понимания и позже называет её предмет. Вынесенное The unexplained rejection… делает отказ исходной темой. Такой порядок заметно выделен и уместнее при противопоставлении; обычный порядок тоже грамотен.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -458,6 +524,10 @@
         {
           "title": "Две полезные проверки",
           "body": "Номинализация — название для превращения действия в существительное. Сначала спроси: это удобная ссылка на уже сказанное? Затем: не потерялось ли кто сделал что? Оставляй существительное ради смысла, а не официального вида."
+        },
+        {
+          "title": "Отчёт без тумана",
+          "body": "The approval of the plan удобно после того, как план уже обсудили. Но The plan was approved by Maya сразу отвечает, кто одобрил. Lack of instructions — отсутствие инструкций; repeated errors — повторные ошибки; implement a plan — выполнить план."
         }
       ],
       "examples": [
@@ -510,10 +580,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед отчётом потренируй обе стороны: упаковать знакомое действие и распаковать тяжёлую фразу обратно в ясное «кто сделал что».",
+      "beforePractice": "Для отчёта придумай и обозначь небольшой неудачный запуск: кто принял решение, чего не проверили и что задержалось. Используй существительное как связку к предыдущей фразе. В устном пересказе возьми три выражения из собственного отчёта, а не ищи новый документ.",
       "sourceIds": [
         "cam-nominalisation",
         "purdue-concision"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Объедини A и B так, чтобы второе предложение ссылалось на действие существительным. Затем распакуй C, явно назвав исполнителя.",
+          "context": "A: The director refused to sign. B: This stopped the negotiations. C: The team carried out an evaluation of the plan. Refusal — отказ; evaluate — оценить. Напиши получившиеся две фразы и одно пояснение.",
+          "answers": [
+            "The director’s refusal to sign stopped the negotiations. The team evaluated the plan. Refusal packages the earlier action as the cause of the stoppage, while evaluated makes the team’s action direct."
+          ],
+          "hint": "Сжимать сложную мысль и сохранять исполнителя.",
+          "explanation": "Refusal превращает отказ директора в причину остановки переговоров. Evaluated заменяет тяжёлое carried out an evaluation и сохраняет исполнителя — команду. Здесь две разные редакторские задачи: связать мысли и сделать действие яснее.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -535,6 +619,10 @@
         {
           "title": "Не прячь известное за туманом",
           "body": "Число участников можно сообщить прямо. Осторожность нужна там, где начинается догадка. Вместо may possibly perhaps лучше одна ясная оговорка: The sample was small — выборка была маленькой."
+        },
+        {
+          "title": "Оговорка должна что-то ограничивать",
+          "body": "Likely to be partly related to age — «вероятно, отчасти связано с возрастом». Partly оставляет место другим причинам, likely показывает степень уверенности. Ни слово likely, ни сильный тон сами по себе не дают доказательств."
         }
       ],
       "examples": [
@@ -587,10 +675,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В аналитической записке сначала перечисли данные, затем вывод, затем то, чего данных пока недостаточно установить.",
+      "beforePractice": "Работай с теми же учебными данными: 18 из 24 улучшили результат после курса; контрольной группы нет. Сначала наблюдение, затем возможное объяснение, затем что ещё проверить. Не выдумывай возраст, средние баллы, причины или статистическую значимость.",
       "sourceIds": [
         "gmu-hedges",
         "purdue-synthesis"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "По одним данным напиши три версии: точное наблюдение, осторожное объяснение и намеренно слишком сильный вывод. Пометь последнюю как unsupported и объясни её ошибку.",
+          "context": "Данные вымышленного курса: 18 из 24 улучшили результат после обучения; контрольной группы нет. 4–5 предложений. Слова: scores — баллы; comparison group — группа для сравнения.",
+          "answers": [
+            "Eighteen of the twenty-four participants improved their scores after the course. The course may have contributed to the improvement. Unsupported: The course guarantees improvement for everyone. The last claim goes beyond this small group and assumes a cause without a comparison group."
+          ],
+          "hint": "Делать силу утверждения соразмерной основанию.",
+          "explanation": "Число улучшивших результат дано как наблюдение. May have contributed предлагает возможную причину, не объявляя её доказанной. Guarantees improvement for everyone неправомерно обещает эффект любому человеку.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -612,6 +714,10 @@
         {
           "title": "Не добавляй мотив от себя",
           "body": "Warned — предупредил о риске. Claimed может дистанцировать автора пересказа от утверждения. Если исходная реплика нейтральна, said или reported часто точнее, чем эмоциональный глагол."
+        },
+        {
+          "title": "Сначала реплика, потом глагол",
+          "body": "I will send it — может быть обещанием; do not open it — предупреждением; yes, I deleted it — признанием. Для протокола нужны исходные слова. A target date — плановая дата, не обязательно подтверждённый срок; provisional — предварительный."
         }
       ],
       "examples": [
@@ -664,9 +770,23 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В протоколе подпиши владельца каждого утверждения и подбери глагол по исходной реплике, а не ради разнообразия.",
+      "beforePractice": "Протокол — короткая запись того, кто что заявил и о чём договорились. Вымышленный спор можно построить вокруг target date: один счёл её твёрдым сроком, другой — ориентиром. Сначала выпиши позиции, затем перескажи, не назначая виноватого без оснований.",
       "sourceIds": [
         "bc-reporting"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Перескажи три реплики в прошедшем времени, используя promised, warned и admitted.",
+          "context": "Maya: “I promise to send the revised file tonight.” Leo, обращаясь к нам: “Do not open that attachment; it may contain a virus.” Nina: “Yes, I deleted the original file.” Пересказываешь на следующий день: tonight → that night. Attachment — вложение.",
+          "answers": [
+            "Maya promised to send the revised file that night. Leo warned us not to open the attachment because it might contain a virus. Nina admitted deleting the original file."
+          ],
+          "hint": "Передавать позицию и речевое действие источника.",
+          "explanation": "Promised to send передаёт обещание; warned us not to open — предупреждение с отрицанием; admitted deleting — признание с -ing. Tonight становится that night из-за заданного пересказа на следующий день. Возможность вируса не превращается в установленный факт.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -688,6 +808,10 @@
         {
           "title": "Сделай границу видимой",
           "body": "All students did not pass может быть понято неоднозначно. Для частичного провала напиши Not all students passed; для полного — No students passed. Ясность здесь важнее эффектной конструкции."
+        },
+        {
+          "title": "Проверка не равна догадке",
+          "body": "Я не увидел ключ, быстро заглянув в ящик: ключ мог быть под бумагой. Я вынул всё и проверил пустой ящик: теперь есть основание сказать, что ключа там нет. Вывод зависит от того, что проверка могла обнаружить."
         }
       ],
       "examples": [
@@ -734,13 +858,14 @@
           "guidance": {
             "title": "Не обязательно — не то же, что нет",
             "body": "It is not necessarily wrong означает, что ошибочность не следует автоматически. Фраза не обещает, что решение правильное. Это отказ от слишком быстрого вывода.",
-            "example": "No one replied.",
-            "translation": "Никто не ответил."
+            "example": "A delay does not necessarily mean failure.",
+            "translation": "Задержка не обязательно означает провал."
           },
-          "practiceStage": "guided"
+          "practiceStage": "guided",
+          "revision": 2
         }
       ],
-      "beforePractice": "В публичном уточнении сначала назови исходный смысл без двусмысленности, затем покажи, какое слишком сильное толкование появилось.",
+      "beforePractice": "В задании с десятью участниками сравни три возможных сообщения, а не пытайся описать один результат всеми тремя сразу. Для публичного исправления достаточно исходного not all: из него нельзя вывести ни число сторонников, ни их полное отсутствие.",
       "sourceIds": [
         "cam-negation"
       ]
@@ -764,6 +889,10 @@
         {
           "title": "Проверь, что можно восстановить",
           "body": "I like it, and so does she: does подхватывает like. So is she здесь не подходит. Если перед коротким ответом несколько разных действий, повтори нужный глагол — это избавит от угадывания."
+        },
+        {
+          "title": "Что именно подхватывает короткий ответ",
+          "body": "Have you booked it? — I have. Did you book it? — I did. Оба вопроса возможны в подходящем контексте; короткий ответ подхватывает форму конкретного вопроса. Это проверка связки, а не правило «американцы всегда выбирают только одно время»."
         }
       ],
       "examples": [
@@ -808,18 +937,45 @@
           "hint": "С I используй do, а не does или am.",
           "explanation": "Do заменяет повтор like this plan.",
           "guidance": {
-            "title": "После to тоже бывает пропуск",
-            "body": "I did not want to complain, but I had to. В конце to относится к уже названному complain. Такая короткая форма работает, потому что нужное действие рядом.",
-            "example": "I wanted to leave, but I could not.",
-            "translation": "Я хотел уйти, но не смог."
+            "title": "Подхвати обычный глагол через do",
+            "body": "I like it, and so does she: does подхватывает like. So is she здесь не подходит. Если перед коротким ответом несколько разных действий, повтори нужный глагол — это избавит от угадывания.",
+            "example": "She likes the idea, and so do I.",
+            "translation": "Ей нравится идея, и мне тоже."
           },
-          "practiceStage": "guided"
+          "practiceStage": "guided",
+          "revision": 2
         }
       ],
-      "beforePractice": "Прежде чем сокращать диалог, проговори полную версию. После сокращения проверь, что слушатель восстановит именно её.",
+      "beforePractice": "Сначала сокращай данные реплики, затем пиши свой разговор о распределении задач. Повтори полное действие там, где короткое I will могло бы относиться к двум разным поручениям. Для устной части сначала запиши пять ключевых слов, а не весь текст.",
       "sourceIds": [
         "bc-ellipsis",
         "cam-substitution"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Сократи повтор в ответе B в каждом диалоге. Сохрани действие и положительный либо отрицательный смысл.",
+          "context": "1) A: I can check the figures. B: I can check the figures too. 2) A: I have read the report. B: I have not read the report. 3) A: I will attend the meeting. B: I will attend the meeting too. Напиши три коротких ответа; затем восстанови мысленно пропущенные слова.",
+          "answers": [
+            "1) So can I.\n2) I have not.\n3) I will too."
+          ],
+          "hint": "Сокращать повтор с восстановимым смыслом.",
+          "explanation": "So can I подхватывает can check; I have not — have not read; I will too — will attend too. Во всех случаях действие восстанавливается из соседней реплики, а форма и отрицание сохраняются.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Ответь на пять вопросов о планах короткой формой, затем добавь к каждому одну причину или оговорку. Проверь вспомогательные глаголы в расшифровке и повтори.",
+          "context": "Will you study tonight? Have you booked your next lesson? Can you attend a conversation club on Saturday? Are you going to practice tomorrow? Would you like to study abroad? Ответы могут быть вымышленными. 90–150 секунд — ориентир, не требование растягивать пять ясных ответов.",
+          "answers": [
+            "Illustrative starting example — invented transcript excerpts, not learner recordings:\n“I am” in reply to “Will you study tonight?”\n“I didn't” in reply to “Have you booked your next lesson?”\n\nCorrected practice dialogue — imagined plans, model for repetition:\nInterviewer: Will you study English tonight?\nSpeaker: I will. I've set aside some time after dinner, and I want to use it to review yesterday's vocabulary. A short session should fit my evening better than a long one.\nInterviewer: Have you booked your next English lesson?\nSpeaker: I haven't yet, but I intend to. I'm waiting to check my work schedule before choosing a time. I don't want to book a lesson that I might have to cancel.\nInterviewer: Can you attend the conversation club on Saturday?\nSpeaker: I can. My afternoon is free, so I'm planning to join the discussion and stay for the whole session. I'd also like to meet some of the other regular participants.\nInterviewer: Are you going to practice your presentation tomorrow?\nSpeaker: I am. I'll do one practice run in the morning and another after lunch. That should give me a chance to reconsider any examples that seem difficult to explain.\nInterviewer: Would you like to study abroad next year?\nSpeaker: I would. I haven't chosen a course or a destination yet, though. For now, I plan to compare the available options and work out what I could afford."
+          ],
+          "hint": "Сокращать повтор с восстановимым смыслом.",
+          "explanation": "Короткие ядра ответов подхватывают вопрос: will, have, can, am, would. Планы могут быть другими; проверяются форма и понятное продолжение. Прослушай собственную запись: текстовая проверка не показывает, насколько слышны короткие формы.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -841,6 +997,10 @@
         {
           "title": "Не подставляй one везде",
           "body": "Advice — неисчисляемое. Вместо a good one о совете нужны some useful advice или a useful piece of advice. Проверяй также, ясно ли, какой из нескольких предметов заменён словом one."
+        },
+        {
+          "title": "Сначала проверь, что заменяешь",
+          "body": "В предложении The cable is next to the adapter; I need a new one слово one непонятно без контекста: кабель или адаптер? Сохранённое существительное иногда полезнее короткого ответа. It обычно возвращает к уже названному предмету; a new one — к другому предмету того же типа."
         }
       ],
       "examples": [
@@ -893,9 +1053,23 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В сравнении методов проверь каждое one, this и it: читатель должен сразу находить заменённое слово или мысль.",
+      "beforePractice": "В сравнении способов учёбы назови их один раз и следи, чтобы one не путал метод, урок и результат. Для устного ответа придумай два предложения друга и произнеси сами предложения перед реакциями I think so / I do not think so.",
       "sourceIds": [
         "cam-substitution"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Убери повторы там, где понятно, какой предмет заменяет one/ones. В последней фразе сохрани существительное, если замена создаёт двусмысленность.",
+          "context": "This cable is broken; I need a new cable. These chairs are old; we need new chairs. The adapter is next to the lamp; I need a new lamp. Напиши исправленный абзац и объясни одно сохранённое название.",
+          "answers": [
+            "This cable is broken; I need a new one. These chairs are old; we need new ones. The adapter is next to the lamp; I need a new lamp. I kept lamp because one could refer to the adapter or the lamp."
+          ],
+          "hint": "Заменять повтор, сохраняя ясный объект отсылки.",
+          "explanation": "После cable и chairs слова one и ones имеют ясную опору. После adapter и lamp сохранённое lamp снимает возможную путаницу. Сокращение полезно только пока читатель понимает, какой предмет имеется в виду.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -917,6 +1091,10 @@
         {
           "title": "Собери личные полезные пары",
           "body": "Не учи список предлогов отдельно. Напиши одну правдивую для себя фразу на сочетание: I rely on my calendar. При повторении меняй только объект, пока сама связь не станет привычной."
+        },
+        {
+          "title": "Ещё три рабочие рамки",
+          "body": "Be accused of hiding information — быть обвинённым в сокрытии информации. Object to a condition / to working late — возражать против условия / поздней работы. Depend on funding — зависеть от финансирования. В object to слово to — предлог, поэтому после него working, не work."
         }
       ],
       "examples": [
@@ -969,7 +1147,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В письме сначала разложи отношения: кто согласен, с кем, относительно чего и за что отвечает. Затем выбирай связки слов.",
+      "beforePractice": "В письме раздели три действия: согласие с целью, возражение против одного условия, своя ответственность. Можно придумать командный проект. Для устного ответа опирайся на него же: depends on → obstacle → rely on. Не требуется знать чужую профессию.",
       "sourceIds": [
         "cam-spoken",
         "bc-reporting"
@@ -994,6 +1172,10 @@
         {
           "title": "Регистр проверяем по выражению",
           "body": "Фразовый глагол не автоматически сленг. Carry out a study уместно в отчёте. Выбирай естественное выражение для ситуации и объясняй смысл нейтральными словами, если читатель может не знать его."
+        },
+        {
+          "title": "Четыре смысла из практики",
+          "body": "Bring up a question — поднять вопрос; bring up a child — вырастить ребёнка. Come across an article — случайно наткнуться на статью. Follow through on a promise — довести обещанное до выполнения. Во втором значении bring up речь не о разговоре."
         }
       ],
       "examples": [
@@ -1046,7 +1228,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед рассказом выпиши событие для каждого сочетания: перенесли, случайно нашли, подняли вопрос, довели до конца. Так глаголы не станут случайными украшениями.",
+      "beforePractice": "В четырёх фразах покажи смысл участниками и последствиями: перенесённая встреча, отталкивающий тон, поднятый вопрос, воспитанный ребёнок. Для рассказа сначала составь цепочку событий, затем используй фразовые глаголы там, где они передают нужное действие.",
       "sourceIds": [
         "voa-phrasal",
         "cam-formal-phrasal"
@@ -1071,6 +1253,10 @@
         {
           "title": "Всегда умей сказать прямо",
           "body": "В личной истории образ полезен. В официальном сообщении The repeated delays led me to cancel яснее, чем набор идиом. Словарь помогает проверить употребление; буквальный перевод русской идиомы часто создаёт другой образ."
+        },
+        {
+          "title": "Идиома не заменяет ситуацию",
+          "body": "Если пишешь last straw, дай читателю хотя бы один предыдущий повод для недовольства. Для on the fence покажи два рассматриваемых варианта. Gray area поясни тем, какое правило не даёт ясного ответа. В американском написании обычно gray, британское grey тоже правильно."
         }
       ],
       "examples": [
@@ -1123,10 +1309,25 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Для каждой идиомы сначала придумай причину, по которой она уместна. В рабочей версии передай тот же смысл без образа.",
+      "beforePractice": "Сначала дай короткий контекст, затем идиому. В длинной работе объём 190–240 слов относится к личному комментарию и нейтральной рабочей версии вместе. Устно можно пересказать этот же вымышленный случай от первого лица, обозначив его как пример.",
       "sourceIds": [
         "cam-last-straw",
         "cam-formal-phrasal"
+      ],
+      "replacements": [
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Вопрос использования записи остаётся серой зоной.",
+          "context": "Переведи всю мысль. A gray area — ситуация, для которой правило не даёт ясной границы. Американское gray и британское grey допустимы.",
+          "answers": [
+            "The question of using the recording remains a gray area.",
+            "The question of using the recording remains a grey area."
+          ],
+          "hint": "A gray area · the last straw · on the fence",
+          "explanation": "A gray area — случай с неясной границей правила. Это не утверждение, что запись однозначно разрешена или запрещена. Американское gray и британское grey передают одинаковый смысл.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1148,6 +1349,10 @@
         {
           "title": "Связывай выражение с реальным содержанием",
           "body": "Preliminary findings — предварительные результаты. Напиши, что именно нашли и чего пока не проверили. Академический тон не возникает от длинных слов без данных."
+        },
+        {
+          "title": "Что входит в аннотацию",
+          "body": "Abstract — короткий обзор исследования: вопрос → как проверяли → что заметили → ограничение. Plausible explanation — правдоподобное объяснение, не доказанный факт. Statistical significance требует анализа; нельзя объявлять её по ощущению от результата."
         }
       ],
       "examples": [
@@ -1200,7 +1405,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В аннотации сначала назови вопрос, затем метод, результат и ограничение. Не выдумывай числа или значимость ради убедительного вида.",
+      "beforePractice": "Для вымышленного исследования сам задай два учебных метода и явно назови ситуацию вымышленной. Не придумывай реальные цитаты или научное подтверждение. Опиши цель, способ сравнения и ограничения; затем объясни тот же вывод неспециалисту.",
       "sourceIds": [
         "gmu-hedges",
         "purdue-synthesis"
@@ -1225,6 +1430,10 @@
         {
           "title": "Оценка человека тоже меняется",
           "body": "Confident обычно описывает уверенность; arrogant — высокомерие. Второе слово добавляет неодобрение. Если хочешь сообщить наблюдение без оценки характера, опиши поведение конкретно."
+        },
+        {
+          "title": "Ещё одна пара, а не запрет",
+          "body": "Historic — важный для истории: a historic agreement. Historical — относящийся к прошлому: historical records. Sensitive decision может быть деликатным решением; это не всегда ошибка. Если имеется в виду «разумное», выбираем sensible."
         }
       ],
       "examples": [
@@ -1277,10 +1486,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В рекомендации сравнивай по отдельным критериям: результат, время, стоимость, удобство. Под каждое оценочное слово нужна опора.",
+      "beforePractice": "Для рекомендации сравни два придуманных метода по одинаковым критериям: время, цена, результат, удобство. Пометь пример как вымышленный. Для устного задания возьми четыре слова из разобранных пар; объясни каждое сценой, а не словарным переводом.",
       "sourceIds": [
         "purdue-concision",
         "cam-focus"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Отредактируй слова так, чтобы они передавали заданный смысл: She made a sensitive decision to use a more economic printer.",
+          "context": "Нужно сказать: она приняла разумное решение использовать принтер с меньшими расходами на эксплуатацию. В другом контексте sensitive и economic могут быть правильными; здесь они не передают эту конкретную мысль.",
+          "answers": [
+            "She made a sensible decision to use a more economical printer."
+          ],
+          "hint": "efficient ≠ effective · economical ≠ economic",
+          "explanation": "Sensible означает разумный; economical — экономичный в расходе ресурсов. Sensitive могло бы означать деликатный, а economic — относящийся к экономике. Исправление зависит от заданного смысла, а не от запрета этих слов.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1302,6 +1525,10 @@
         {
           "title": "Связка не создаёт доказательство",
           "body": "Consequently — «следовательно». Прежде чем писать его, проверь, следует ли второй вывод из первого. Если между мыслями пропущена причина, её нужно объяснить, а не прикрыть переходом."
+        },
+        {
+          "title": "Ограничение — тоже связь",
+          "body": "Only insofar as… — «лишь в той мере, в какой…»: вывод действует, пока сохраняется названное условие. Whereas сопоставляет две вещи; nevertheless признаёт препятствие, после которого вывод всё же сохраняется. Это не взаимозаменяемые украшения."
         }
       ],
       "examples": [
@@ -1354,10 +1581,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед длинным аргументом подпиши на русском связь между соседними тезисами. Затем подбери английские переходы под эту логику.",
+      "beforePractice": "В аргументе о длинной учебной сессии используй собственное наблюдение, явно отделив его от общего вывода. Сначала напиши мысли обычными предложениями. Затем выбери связки: причина, уступка или ограничение — согласно реальной связи, а не ради разнообразия.",
       "sourceIds": [
         "cam-discourse",
         "purdue-cohesion"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Соедини каждую пару одной подходящей связкой. После каждой фразы укажи по-английски отношение: cause, concession, comparison или limitation.",
+          "context": "1) The file is missing. We cannot check the figures. 2) The method is slow. It reduces errors. 3) One course is self-paced. The other follows a fixed schedule. 4) The comparison is useful. The conditions must remain the same. 4 предложения со связками и короткие подписи.",
+          "answers": [
+            "The file is missing; therefore, we cannot check the figures. — Cause. The method is slow; nevertheless, it reduces errors. — Concession. One course is self-paced, whereas the other follows a fixed schedule. — Comparison. The comparison is useful only insofar as the conditions remain the same. — Limitation."
+          ],
+          "hint": "Выражать реальную логику перехода и степень уступки.",
+          "explanation": "Therefore выражает следствие; nevertheless сохраняет пользу вопреки медленности; whereas сопоставляет форматы; only insofar as ограничивает полезность условием. Другие связки допустимы, если не меняют эти отношения.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1379,6 +1620,10 @@
         {
           "title": "Отделяй пример от основания",
           "body": "Один случай показывает, что нечто возможно. Он не устанавливает, как часто это происходит. Для вывода о большинстве нужны другие данные. В ответе называй конкретную границу, а не просто «текст слабый»."
+        },
+        {
+          "title": "Близкое чтение без пересказа каждого слова",
+          "body": "Acknowledge an advantage — признать преимущество; limit its applicability — ограничить применимость. Для каждого предложения спроси: что оно делает с аргументом? Точное наблюдение выглядит так: автор признаёт риск изоляции, затем предлагает способ его снизить."
         }
       ],
       "examples": [
@@ -1431,7 +1676,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала разбери короткий исходный фрагмент. Добавляя собственные идеи в обзор, явно отделяй их от того, что было в тексте.",
+      "beforePractice": "Сначала разметь четыре предложения из задания: плюс, возражение, ответ, ограничение. В обзоре отдели текст фрагмента от собственных предложений. Дополнительные доводы можно придумать, но нельзя приписывать их автору или выдавать за результаты исследования.",
       "sourceIds": [
         "purdue-synthesis",
         "uvu-rhetoric"
@@ -1456,6 +1701,10 @@
         {
           "title": "Честно назови вид практики",
           "body": "Синтетическая озвучка полезна для тренировки фраз, но не воспроизводит все перебивания и акценты живой лекции. Если работаешь только с текстом, это конспектирование прочитанного, а не проверка слуха."
+        },
+        {
+          "title": "Три сигнала для заметок",
+          "body": "The point I want to emphasize is… — сейчас назовут главное. Let me qualify that… — сейчас ограничат или уточнят предыдущую мысль. That brings us to… — переход к следующему вопросу. Qualify здесь не «получить квалификацию»."
         }
       ],
       "examples": [
@@ -1508,10 +1757,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Включи озвучку, скрой текст и выпиши тезис с ограничением. Если звук недоступен, выполни текстовый вариант и не считай его аудированием.",
+      "beforePractice": "Сначала разберите письменные сигналы из e4. Конспект вымышленной лекции — тренировка построения и передачи аргумента; сам по себе он не доказывает понимание живой речи на слух. Дальше в курсе есть отдельные главы с приложенной записью лекции и интервью NASA.",
       "sourceIds": [
         "rachel-stress",
         "cam-discourse"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Разбери три учебные реплики: где говорящий выделяет главное, где ограничивает утверждение, где переходит к другой теме? Объясни по-английски функцию каждой.",
+          "context": "1) The point I want to emphasize is consistency. 2) Let me qualify that: the effect is not universal. 3) That brings us to the second issue. Consistency — регулярность; universal — применимый ко всем случаям. Здесь дан письменный материал, поэтому это разбор сигналов речи, а не проверка слуха.",
+          "answers": [
+            "In the first statement, the speaker identifies consistency as the main point. The second limits the claim by saying that the effect is not universal. The third signals a transition to another issue."
+          ],
+          "hint": "Конспектировать ход сложного выступления и восстанавливать позицию.",
+          "explanation": "Три функции: выделение главного, ограничение вывода, переход к новой теме. Ответ должен различать их; перевод каждого слова не обязателен. Письменное выполнение не является проверкой понимания аудио.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1533,6 +1796,10 @@
         {
           "title": "Контекст надёжнее угадывания",
           "body": "Одна интонация не гарантирует единственного намерения. Добавь ясное продолжение: I sent the file, not the link. TTS может не передать нужный контраст; для проверки слушай собственную запись и человеческий образец."
+        },
+        {
+          "title": "Запись и расшифровка проверяют разное",
+          "body": "Косая черта / может помечать паузу между смысловыми группами; заглавные буквы — выбранный контраст. Это учебные пометки, не инструкция синтезатору. По расшифровке можно проверить слова, но нельзя надёжно оценить ударение и интонацию: для этого нужна запись."
         }
       ],
       "examples": [
@@ -1585,7 +1852,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала напиши, какое недопонимание исправляешь. Потом запиши голосом две версии и сравни с этим намерением. Автоозвучка не является оценкой твоей интонации.",
+      "beforePractice": "В I thought you booked it сначала придумай, что исправляешь: кто думал, кто бронировал или что именно сделал. Затем произнеси и прослушай варианты. В письменной речи помечай лишь те паузы и акценты, для которых можешь объяснить смысл.",
       "sourceIds": [
         "rachel-stress",
         "bc-emphasis"
@@ -1610,6 +1877,10 @@
         {
           "title": "Не выжимай согласие",
           "body": "Если источник молчит о стоимости, это не значит, что он считает её низкой. Отметь пробел. Общий вывод может быть условным: полезно при одном условии, недостаточно данных по другому."
+        },
+        {
+          "title": "Разные показатели не обязаны спорить",
+          "body": "Flexible hours — гибкое начало рабочего дня; remote work — работа вне офиса. Lateness — опоздания; switching off — способность перестать думать о работе после её окончания. Меньше опозданий и труднее отключиться могут происходить одновременно."
         }
       ],
       "examples": [
@@ -1662,7 +1933,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед обзором сделай таблицу «вопрос — A — B — неизвестно». Каждый общий вывод проверь по заполненным ячейкам.",
+      "beforePractice": "В e4–e6 используй именно два приложенных сообщения. Не достраивай размеры выборок и доказанную причинность. План записки: общий вопрос → что сообщает A → что добавляет B → предел сравнения → свой следующий шаг. Устно ответь на возражение: These reports are too limited to justify a company-wide policy.",
       "sourceIds": [
         "purdue-synthesis"
       ]
@@ -1686,6 +1957,10 @@
         {
           "title": "Риск и правило остановки",
           "body": "A trial is useful if… называет условие. We will review it after… задаёт проверку. Уверенный тон не требует обещать успех: сильнее объяснить, как заметим проблему и изменим решение."
+        },
+        {
+          "title": "Как предложить проверяемый план",
+          "body": "Pilot — ограниченный пробный запуск; assumption — предположение, которое ещё нужно проверить. Exceed the budget — превысить бюджет. Если суммы нет, укажи, что её нужно согласовать: не придумывай разрешённый бюджет как уже известный факт."
         }
       ],
       "examples": [
@@ -1738,7 +2013,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Собери документ из решения, двух оснований, сильного возражения и проверки результата. Длинные исходные задания теперь используют уже разобранные части.",
+      "beforePractice": "Для клуба сначала задай цель и аудиторию, затем длительность встречи и способ проверить результат. Все выбранные тобой числа — предложения для вымышленного плана. В устной части сократи время своей встречи вдвое: что уберёшь, а какой обязательный результат сохранишь?",
       "sourceIds": [
         "purdue-synthesis",
         "gmu-hedges"
@@ -1763,6 +2038,10 @@
         {
           "title": "Редактура начинается с вопроса",
           "body": "Неясность не всегда ошибка: контекст может всё прояснять. В инструкции или договорённости лучше убрать её заранее. Спроси себя: какой второй смысл мог бы честно увидеть человек без моей предыстории?"
+        },
+        {
+          "title": "Приложенный оборот тоже бывает неясным",
+          "body": "I saw the visitor with the telescope допускает телескоп у наблюдателя или у посетителя. Through a telescope уточняет способ наблюдения; the visitor who was carrying a telescope уточняет человека. В реальном контексте одно чтение может быть заметно вероятнее."
         }
       ],
       "examples": [
@@ -1815,10 +2094,48 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В длинных ответах ищи only, all, each и местоимения. Для каждой спорной фразы запиши два возможных смысла и выбери нужный.",
+      "beforePractice": "В коротких заданиях покажи два возможных прочтения и перепиши каждое прямо. Для правила допуска сначала выпиши намерения организатора, потом формулируй правило. Нельзя молча выбрать свой возраст или исключение: новые условия помечай как собственные проектные предложения.",
       "sourceIds": [
         "cam-negation",
         "cam-focus"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Убери необоснованную уверенность в выводе: The assistant saw the client with the telescope, so the client definitely had it.",
+          "context": "Сохрани the telescope: исправляется вывод о владельце, а не определённость предмета. Объясни, что оборот может описывать способ наблюдения или клиента.",
+          "answers": [
+            "The assistant saw the client with the telescope, but the sentence alone does not establish who had the telescope."
+          ],
+          "hint": "only · even · almost · quantifier scope",
+          "explanation": "With the telescope допускает два прикрепления: помощник использовал телескоп или клиент был с ним. Контекст может разрешить неясность, но без него definitely не обосновано.",
+          "revision": 1
+        },
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Дай два прочтения I saw the visitor with the telescope. Напиши однозначную версию каждого и объясни, какую информацию добавил.",
+          "context": "Первое прочтение: я смотрел через телескоп. Второе: у посетителя был телескоп. Не меняй участников события. 4–5 английских предложений.",
+          "answers": [
+            "I saw the visitor through a telescope. This version identifies the instrument I used. I saw the visitor who was carrying the telescope. This version identifies the visitor as the person with the telescope. The original sentence does not settle that distinction on its own."
+          ],
+          "hint": "Находить несколько чтений и устранять нежелательную двусмысленность.",
+          "explanation": "Иллюстративный образец показывает два возможных присоединения оборота for the new office и даёт отдельную однозначную формулировку для каждого. В первом прочтении оборот характеризует предложение: обсуждается создание нового офиса. Инфинитив to establish прямо называет содержание предложения. Во втором прочтении оборот относится к обсуждению: участники действуют от имени нового офиса, а тема предложения остаётся неизвестной. Начальный оборот Acting on behalf of закрепляет именно это отношение. Ответ содержит четыре полных предложения. Второе чтение сильнее зависит от контекста, поэтому оно представлено как возможное, а не установленное намерение автора. Допустимы другие правдоподобные толкования с соответствующими ясными переформулировками.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Отредактируй правило допуска и поясни важные решения. Отдельно обозначь возраст, сопровождающих, исключение для исполнителей и то, к кому относится only.",
+          "context": "Черновик: “Only guests aged sixteen and over may enter with an adult, except performers.” Намерение организатора: обычные гости допускаются с 16 лет; в 16–17 лет нужен взрослый; зарегистрированные исполнители имеют исключение по возрасту. Остальные условия неизвестны. В 230–300 словах отдели обязательную правку от собственных предложений об этих неизвестных условиях; не выдавай их за утверждённые.",
+          "answers": [
+            "Revised core rule\nGuests aged eighteen or over may enter without an adult companion. Guests aged sixteen or seventeen may enter only with an adult companion. Guests under sixteen are not admitted under the general admission rule. Registered performers are exempt from that minimum guest age.\n\nThis revision separates the general age requirement from the requirement to have a companion. In the second sentence, only limits the conditions under which sixteen- and seventeen-year-old guests may enter. It does not suggest that adult guests also need companions. The performer exception applies to the minimum guest age; it should not be read as an exemption from every event rule.\n\nDetails requiring a decision\nThe organizer has not specified whether performers under eighteen need adult supervision. Ticket requirements, the number of young guests one adult may accompany, and whether companions must remain throughout the event are also unknown. Those points should be settled before the rule is published.\n\nMy proposals, subject to approval\nI suggest requiring an adult companion to remain with any guest who needs supervision. I would also ask the organizer to establish a separate supervision rule for younger performers and to state ticket requirements explicitly. These are recommendations, not existing conditions.\n\nA shorter notice could summarize the approved rules at the entrance, but it should link to the complete version. Clear age categories and a narrowly described exception matter more than fitting every condition into a single sentence."
+          ],
+          "hint": "Находить несколько чтений и устранять нежелательную двусмысленность.",
+          "explanation": "Исправленная основа следует только трём данным условиям. Неизвестные правила о билетах и сопровождении исполнителей должны оставаться вопросами или явно обозначенными предложениями. Любая логически ясная версия допустима; нельзя превращать авторские дополнения в уже утверждённую политику.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1840,6 +2157,10 @@
         {
           "title": "Не инвертируй любое условие",
           "body": "Этот приём связан с had, should и were. Нельзя просто превратить If he calls в Calls he. Сначала восстанови вариант с if и проверь время и реальность ситуации."
+        },
+        {
+          "title": "Were to и отрицание",
+          "body": "Were the costs to rise, we would review the plan — «Если бы расходы выросли, мы бы пересмотрели план». Это мысленно отдалённый сценарий, не процент вероятности. Had I not checked… ставит not после I. Для прошлого результата: would have missed, не would miss."
         }
       ],
       "examples": [
@@ -1892,9 +2213,23 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В официальном тексте используй такую форму там, где она естественна. Умение объяснить ту же мысль с if важнее количества инверсий.",
+      "beforePractice": "Сначала запиши условие с if, затем меняй только форму подачи. В записке отличай несостоявшееся прошлое от будущих запасных вариантов. В разговорном пересказе можно вернуть if: важнее сохранить условия, чем формальность.",
       "sourceIds": [
         "bc-conditionals"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Сравни три версии одного условия и объясни, как меняется подача: обычный будущий случай, формальное указание на случай изменения и более отдалённый мысленный сценарий.",
+          "context": "Начало: If the costs rise, we will review the plan. Сделай версию с Should the costs rise… и с Were the costs to rise…. В третьей согласуй главную часть с would. Не приписывай формам точные проценты вероятности. 3 версии + 1–2 предложения пояснения.",
+          "answers": [
+            "If the costs rise, we will review the plan. Should the costs rise, we will review the plan. Were the costs to rise, we would review the plan. The first presents an open future condition, the second gives it a formal contingency framing, and the third frames it more remotely. None of these forms supplies a numerical probability."
+          ],
+          "hint": "Различать формальную условную подачу, контрфакт и осторожный сценарий.",
+          "explanation": "Should в начале делает условие формальнее, а were to с would оформляет более отдалённый мысленный сценарий. Это выбор подачи, не вычисление вероятности. В обоих случаях после вспомогательного глагола стоит подлежащее.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1916,6 +2251,10 @@
         {
           "title": "Значение самого глагола тоже важно",
           "body": "I think it is useful — мнение. I am thinking about it — обдумываю. Не все глаголы одинаково охотно принимают continuous: сначала проверь, какое значение используешь."
+        },
+        {
+          "title": "Continuous меняет взгляд, а иногда смысл",
+          "body": "I have a car — владение; I am having lunch — действие. She is always interrupting часто передаёт раздражение из-за повторов, но always + continuous может выражать и одобрение. I am loving it в разговоре выделяет текущее яркое впечатление, а не отменяет обычное I love it."
         }
       ],
       "examples": [
@@ -1968,9 +2307,23 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Выбирая форму в рассказе, объясни, что хочешь показать: начало, процесс, завершение или временное проявление. Не заменяй формы механически.",
+      "beforePractice": "В парах think/have/be дай обеим фразам понятную ситуацию. Для сцены конфликта покажи разницу: описание человека вообще и критика его поведения сейчас. Не делай абсолютного вывода, что simple всегда грубый, а continuous всегда вежливый.",
       "sourceIds": [
         "cam-aspect"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Напиши три пары предложений с think, have и be: обычное состояние или мнение и действие либо поведение в конкретный момент. Поясни различие каждой пары.",
+          "context": "Опоры: think the plan is useful / think about the plan; have a car / have lunch; be rude / be rude to a customer now. Нужно 6 примеров и 3 коротких пояснения, а не 3–5 предложений на всё задание.",
+          "answers": [
+            "I think the plan is useful. I am thinking about the plan. The first expresses an opinion; the second describes active consideration.\nI have a car. I am having lunch. The first expresses possession; the second describes an activity.\nHe is rude. He is being rude to a customer now. The first can describe his general manner; the second focuses on his behavior in this situation."
+          ],
+          "hint": "Управлять смыслом вида при необычных, но допустимых употреблениях.",
+          "explanation": "Think a plan is useful передаёт мнение, а think about — обдумывание. Have a car означает владение, have lunch — действие. Be rude может описывать привычную манеру; be being rude выделяет поведение в ситуации. Контекст важнее механического запрета continuous.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -1992,6 +2345,10 @@
         {
           "title": "Осторожность не должна скрывать задачу",
           "body": "В длинной цепочке might perhaps possibly читатель может не увидеть просьбу. Назови действие и нужный срок. Важное требование безопасности не стоит превращать в необязательную догадку."
+        },
+        {
+          "title": "Чужое действие после would rather",
+          "body": "I would rather wait — я предпочёл бы подождать сам. I would rather you waited — я предпочёл бы, чтобы подождал ты. В учебной рамке с другим исполнителем past simple относится к желанию сейчас или на будущее: did not tell, без to."
         }
       ],
       "examples": [
@@ -2044,9 +2401,10 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В основных заданиях отдельно определи время действия и отношение говорящего. Тогда прошедшая форма не будет автоматически превращаться в прошлое событие.",
+      "beforePractice": "В диалоге о сроке назови невозможное условие, объясни причину и предложи два реальных варианта. Если вежливое начало приняли за необязательную идею, следующей репликой прямо назови просьбу. Прямота после недопонимания не требует грубости.",
       "sourceIds": [
-        "cam-politeness"
+        "cam-politeness",
+        "cam-would-rather"
       ]
     },
     {
@@ -2068,6 +2426,10 @@
         {
           "title": "Any зависит от рамки",
           "body": "Choose any file разрешает выбрать любой. I do not have any files сообщает отсутствие файлов. Не присваивай any один русский перевод вне предложения."
+        },
+        {
+          "title": "Когда little и some меняют оттенок",
+          "body": "A certain bitterness — заметный оттенок горечи: здесь абстрактное качество представлено как конкретное проявление. Some expert может нейтрально означать неуточнённого эксперта или звучать пренебрежительно. Из одного some нельзя достоверно вывести тон: нужны голос и ситуация."
         }
       ],
       "examples": [
@@ -2120,9 +2482,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед объяснением выбора спроси: предмет уже узнаваем? количество подаётся как запас или нехватка? выбор свободный или ограниченный?",
+      "beforePractice": "Сначала различи наблюдение и оценку: человек замолчал — наблюдение; он, возможно, обиделся — интерпретация. Для длинного описания придумай сцену, но не выдавай мысли человека за доступные факты. В правиле доступа объясни, какая группа попадает под каждое ограничение.",
       "sourceIds": [
         "cam-determiners"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Перепиши без every information, сохранив смысл «вся информация такого рода полезна»: Every information of this kind is useful.",
+          "context": "Information — неисчисляемое. Можно сказать all information либо every piece of information. Any information возможно при смысле «любая информация», но здесь отрабатываем заданное «вся».",
+          "answers": [
+            "All information of this kind is useful.",
+            "Every piece of information of this kind is useful."
+          ],
+          "hint": "a certain · some · any · such · the very",
+          "explanation": "Every требует исчисляемого существительного в единственном числе: every piece, не every information. All information сохраняет обобщение без добавления счётной единицы.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -2144,6 +2521,10 @@
         {
           "title": "Плотность выбирают под задачу",
           "body": "Специалист узнает короткий термин сразу; новичку потребуется пояснение. Разбить длинную фразу на две иногда точнее, чем заменить понятное описание одним редким словом."
+        },
+        {
+          "title": "Как распутать группу",
+          "body": "Student support staff training: главное training. Кого учат: сотрудников поддержки студентов? Или чему учат любых сотрудников: поддерживать студентов? Распакуй обе версии с for и on how to, затем спроси про аудиторию курса. Не выбирай смысл только по длине слов."
         }
       ],
       "examples": [
@@ -2196,10 +2577,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала подчеркни факты, которые нельзя потерять. Сокращай только после того, как понятны участники, действия и связи.",
+      "beforePractice": "Для двух описаний процесса сначала выпиши один общий набор фактов. Коллегам можно дать сжатую последовательность; новичку объясни роли и условия перехода. 230–300 слов — суммарно на обе версии. В устной части разрешено взять этот же процесс.",
       "sourceIds": [
         "purdue-concision",
         "purdue-cohesion"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Распакуй цепочку существительных: Customer service quality improvement resource allocation changes failed.",
+          "context": "Нужный смысл: изменили распределение ресурсов, чтобы улучшить обслуживание клиентов, но изменения не достигли цели. Исходная цепочка не выражает все связи однозначно; здесь смысл задан отдельно. Напиши одно или два ясных предложения.",
+          "answers": [
+            "Changes to the allocation of resources intended to improve customer service did not achieve their aim."
+          ],
+          "hint": "compressed noun phrase ↔ explicit clause",
+          "explanation": "Главное сообщение: changes did not achieve their aim. Остальные связи нужно выразить явно: changes to resource allocation; intended to improve customer service. Выбранная версия соответствует данному контексту, а не единственной логически возможной расшифровке цепочки.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -2221,6 +2616,10 @@
         {
           "title": "Уточнение не равно слабость",
           "body": "It is a serious risk, not a certainty позволяет держать две мысли: риск важен и исход не предрешён. Убирая преувеличение, не стирай саму проблему."
+        },
+        {
+          "title": "Преуменьшение тоже может усиливать",
+          "body": "It was inconvenient, to say the least буквально значит «это было неудобно, и это ещё мягко сказано». Говорящий намекает на более серьёзную проблему. Hyperbole — намеренное преувеличение; understatement — сдержанная формулировка, часто понятная только из контекста."
         }
       ],
       "examples": [
@@ -2273,7 +2672,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В публичном тексте проверь каждый усилитель: добавляет ли он нужную границу или лишь эмоцию? Под важной оценкой оставь конкретный факт.",
+      "beforePractice": "Для трёх тонов выбери одну и ту же вымышленную проблему: например, из-за переноса встречи пришлось менять планы. В публичном объяснении отдели известные последствия от оценки. Перед записью выбери один приоритет и одну паузу, а не выделяй каждое слово.",
       "sourceIds": [
         "gmu-hedges",
         "uvu-rhetoric"
@@ -2298,6 +2697,10 @@
         {
           "title": "Выбор должен совпасть с намерением",
           "body": "Если описываешь полезное изменение, проверь, не звучит ли выбранное выражение как обвинение или насмешка. При сомнении используй нейтральное led to и конкретно назови результат."
+        },
+        {
+          "title": "Значение слова и привычное окружение",
+          "body": "Notorious прямо подразумевает дурную известность; renowned обычно выражает признание. Это различие значения. Склонность cause сочетаться с проблемами — уже наблюдение об окружении слова. Persistent может хвалить настойчивость; stubborn обычно критикует нежелание уступить."
         }
       ],
       "examples": [
@@ -2350,9 +2753,23 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Собирая свои примеры, записывай не только перевод, но и жанр, соседние слова и отношение говорящего. Для утверждения о частоте нужен корпус, а не догадка.",
+      "beforePractice": "Slim часто звучит одобрительно, skinny может быть критикой, заботой или нейтральным самоописанием в контексте. Для двух описаний изменения сохрани один набор фактов и пометь оценочные слова. Не превращай скептический тон в новые обвинения без оснований.",
       "sourceIds": [
         "oup-prosody"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Сделай фразу искренней похвалой без иронии: She is notorious for her generosity and universally admired for it.",
+          "context": "Говорящий действительно хвалит щедрость. Слово notorious при таком намерении создаёт нежелательный отрицательный оттенок. В ироническом контексте оно могло бы быть намеренным.",
+          "answers": [
+            "She is renowned for her generosity and universally admired for it."
+          ],
+          "hint": "cause problems · bring about change · a consequence",
+          "explanation": "Renowned подходит для искренней положительной известности. Notorious обычно означает известный дурным образом. Здесь исправляется несоответствие заданному тону; возможность намеренной иронии в другом контексте не отрицается.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -2374,6 +2791,10 @@
         {
           "title": "Образ не доказывает вывод",
           "body": "Назвать реформу лекарством ещё не значит показать, что она поможет. Проверь, что образ подчёркивает и что скрывает. Не смешивай несколько картин так, чтобы читатель потерял сцену."
+        },
+        {
+          "title": "Разбери картинку до прямого смысла",
+          "body": "Gain ground — получать поддержку, как будто занимать территорию. Rest on a shaky assumption — опираться на ненадёжное предположение, как строение на слабое основание. Если смешение образов мешает, сначала скажи мысль прямо и выбери один образ."
         }
       ],
       "examples": [
@@ -2426,9 +2847,23 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "При разборе текста сначала переведи образ в обычное утверждение, затем объясни, как образ влияет на читателя. Это не поиск скрытого смысла любой ценой.",
+      "beforePractice": "В трёх сравнениях обучения покажи, на что направлено внимание: путь — направление, строительство — опора, тренировка — повторение. Для эссе выбери одну метафору и конкретный проект. В конце объясни, какую важную сторону проекта эта картинка упускает.",
       "sourceIds": [
         "uvu-rhetoric"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "rewrite",
+          "prompt": "Отредактируй смешанные образы, оставив одну понятную метафору: We must build a bridge to steer the argument onto solid roots.",
+          "context": "Нужная мысль: аргументу требуется более надёжное основание. В исходной фразе смешаны мост, управление движением и корни. Задача про ясность образа, а не про формальный грамматический запрет.",
+          "answers": [
+            "We need to put the argument on a firmer footing."
+          ],
+          "hint": "an argument has foundations · a plan gathers momentum",
+          "explanation": "Put the argument on a firmer footing сохраняет образ основания. Improve the basis of the argument — естественный прямой вариант без метафоры. Исходное смешение не является синтаксической ошибкой, но затемняет заданную мысль.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -2450,6 +2885,10 @@
         {
           "title": "Умей снять второй слой",
           "body": "Если адресат понял слова буквально, скажи прямо: I was frustrated about the delay. Разъяснение полезнее, чем обвинять его в отсутствии чувства юмора. В важных инструкциях избегай двусмысленного юмора."
+        },
+        {
+          "title": "Признак — ещё не доказательство намерения",
+          "body": "Если человек говорит Perfect! после третьей отмены встречи, несоответствие ситуации словам поддерживает ироническое чтение. Но он мог радоваться освободившемуся времени. Укажи, какая информация могла бы изменить твой вывод."
         }
       ],
       "examples": [
@@ -2502,10 +2941,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В основных заданиях назови слова, контекст и альтернативное буквальное чтение. Затем реши, какая интерпретация лучше подкреплена.",
+      "beforePractice": "В сцене сначала покажи событие и отношения людей, затем реплику. В комментарии предложи искреннее и ироническое чтение, проверяя оба по деталям. В записи сравни голос, но не считай автоматическую расшифровку проверкой сарказма.",
       "sourceIds": [
         "cam-spoken",
         "uvu-rhetoric"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Дай искренний и иронический контекст для That is exactly what we needed. В каждом назови деталь, которая поддерживает это чтение, и поясни, почему она не гарантирует намерение говорящего.",
+          "context": "4–5 предложений. Контексты можно придумать: удачная помощь и неожиданная новая проблема. Не объявляй одну интонацию универсальным кодом сарказма.",
+          "answers": [
+            "In a sincere context, two volunteers need tape to seal their donation boxes, and a colleague brings some: “That is exactly what we needed.” The delivery meets a need the volunteers have expressed, which supports the sincere reading. In an ironic context, the volunteers are trying to keep those boxes dry when a leaking pipe sprays water over them, and one uses the same sentence. The water frustrates their stated goal, so irony is plausible; the words and circumstances support that reading but do not make the speaker’s intention certain."
+          ],
+          "hint": "Распознавать возможную иронию без выдумывания намерения.",
+          "explanation": "Важны несоответствие событию, отношения и продолжение реплики. Та же фраза может искренне радоваться неожиданной пользе. Назови основание своего чтения, сохранив возможность другого намерения.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -2527,6 +2980,10 @@
         {
           "title": "Предполагаемое заранее тоже проверяем",
           "body": "Have you stopped working nights? подаёт прежнюю ночную работу как уже известную. Если это неверно, можно ответить I never worked nights. Не обязан принимать скрытую предпосылку вопроса."
+        },
+        {
+          "title": "Even отмечает неожиданного участника",
+          "body": "Even Alex understood it утверждает: Алекс понял. Even представляет этот результат как неожиданный по сравнению с ожиданиями говорящего. Это не устанавливает способности Алекса объективно и не доказывает, что все остальные поняли."
         }
       ],
       "examples": [
@@ -2579,7 +3036,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В разборе помечай отдельно: произнесено, принято за известное, выведено из контекста. Последнюю часть при необходимости уточняй.",
+      "beforePractice": "В диалоге держи отдельно: что сказано словами, что собеседник мог вывести и как проверить вывод. Для скрытой предпосылки используй знакомое Have you stopped…? с фактом, который второй участник может принять или прямо опровергнуть. Не делай скрытые мысли всеведущим фактом.",
       "sourceIds": [
         "cam-politeness",
         "cam-discourse"
@@ -2604,6 +3061,10 @@
         {
           "title": "Дай реальную возможность ответить",
           "body": "If that is not possible, let me know работает, если отказ действительно допустим. Не маскируй обязательный приказ под свободный выбор. В международной команде полезно явно согласовать ожидания."
+        },
+        {
+          "title": "Должность не даёт готовую интонацию",
+          "body": "Просьба руководителю может быть прямой, а коллеге — осторожной: всё зависит от срочности, нагрузки и договорённостей. Объясни конкретное основание выбранного тона. Required означает обязательность; realistic deadline — срок, который действительно можно выполнить."
         }
       ],
       "examples": [
@@ -2656,7 +3117,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед ответом назови отношения, нагрузку и срочность. Меняй форму под эти условия, сохраняя честное содержание просьбы.",
+      "beforePractice": "Выбери один срочный рабочий случай и скажи, какая помощь нужна. В разговоре о нагрузке обе стороны должны назвать ограничения. Итог — кто делает что и когда; если согласия нет, не превращай в него молчание или вежливость.",
       "sourceIds": [
         "cam-politeness"
       ]
@@ -2680,6 +3141,10 @@
         {
           "title": "Предложи следующий шаг",
           "body": "Could we compare costs before deciding? переводит разногласие в действие. При этом твоя позиция должна оставаться видимой: I cannot support a full launch yet — понятнее туманного I have some thoughts."
+        },
+        {
+          "title": "Сильное возражение начинается с честного пересказа",
+          "body": "Сторонник запрета телефонов может заботиться о внимании, а не ненавидеть технологии. Признай этот довод, затем назови конкретный предел: например, доступность для человека, которому нужен переводчик. Пример показывает исключение, но не частоту проблемы."
         }
       ],
       "examples": [
@@ -2732,7 +3197,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В длинном ответе проверь три вещи: что признаёшь, чего не принимаешь и какое новое основание могло бы изменить твою позицию.",
+      "beforePractice": "В письменном ответе можно продолжить тему телефонов на занятиях. План: сильный довод другой стороны → точное ограничение → предложение проверки. Устно поменяй сторону и защити её лучший аргумент; выдуманные числа и исследования не нужны.",
       "sourceIds": [
         "cam-politeness",
         "gmu-hedges"
@@ -2757,6 +3222,10 @@
         {
           "title": "Отдели своё предложение",
           "body": "The report finds… передаёт источник. I recommend… вводит твой шаг. Не прячь собственное решение в пересказе так, будто его предписал автор."
+        },
+        {
+          "title": "Три документа — не обязательно три проверки",
+          "body": "Если заметка B пересказывает исследование A, это два документа с одним набором данных. Независимый источник C может измерять посещаемость, а не языковой прогресс. Происхождение данных и то, что измеряли, проверяются отдельно."
         }
       ],
       "examples": [
@@ -2809,7 +3278,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Составь короткую версию для одной аудитории, затем проверь по исходнику каждое число, условие и авторство мысли.",
+      "beforePractice": "В досье сначала свяжи документы с WB-01 и RV-02. Затем запиши показатель каждого набора и ограничение вывода. Для комитета объясни решение и риск; для участников — что известно об их возможной пользе. Ни в одной версии не превращай повтор публикации в новое подтверждение.",
       "sourceIds": [
         "purdue-synthesis",
         "purdue-concision"
@@ -2834,6 +3303,10 @@
         {
           "title": "Сокращение не должно выкинуть условие",
           "body": "В заголовке мало места, однако pending approval или after checks могут быть самыми важными словами. Если короткая версия вводит в заблуждение, лучше добавить строку."
+        },
+        {
+          "title": "Стиль меняется, обязательство остаётся тем же",
+          "body": "Preliminary — предварительный; mandatory — обязательный; recommendation — рекомендация. We recommend не равно You must. В трёх версиях задержки проверь одни и те же опоры: причина, подтверждённая дата или её отсутствие, условие следующего шага."
         }
       ],
       "examples": [
@@ -2886,10 +3359,36 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Перед тремя версиями выпиши общий смысл в двух строках. После смены тона сверь каждую версию с этими строками.",
+      "beforePractice": "Техническая записка, публичное объявление и объяснение другу должны сообщать одни факты. 230–300 слов относятся к трём версиям вместе. В устном ответе возьми этот же случай: сначала объясни термины школьнику, затем сократи пояснения для коллеги.",
       "sourceIds": [
         "purdue-concision",
         "cam-politeness"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Передай данное сообщение в научном, рабочем и разговорном стиле. Сохрани предварительность вывода и необходимость новых проверок.",
+          "context": "Исходная мысль: первый тест обновлённого интерфейса позволяет предположить, что задание выполняют быстрее; нужны дальнейшие проверки. Не добавляй число участников, процент улучшения или доказанную причинность. По одному предложению на стиль.",
+          "answers": [
+            "Scientific: The preliminary test suggests that the revised interface may reduce task completion time, but further testing is required; workplace: Our first test suggests that the updated interface might help people finish the task faster, but we need more testing; conversational: The first test makes it look as though people might finish the task faster with the updated interface, but we need to test it more."
+          ],
+          "hint": "Сохранять факт, обязательство и неопределённость при смене регистра.",
+          "explanation": "Во всех трёх версиях результат предварительный, ускорение лишь возможно и дальнейшая проверка нужна. Меняется доступность слов, а не доказанность эффекта. Нельзя превращать suggests в proves ради короткой разговорной фразы.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Подготовь три версии сообщения о задержке запуска: техническую записку, публичное объявление и разговор с другом.",
+          "context": "Общие факты вымышленного случая: финальные проверки надёжности ещё не завершены; новую дату не подтвердили; прежде чем назначать её, проверки нужно закончить и оценить. Следующее сообщение расскажет о ходе проверок, даже если даты ещё не будет. Не утверждай, что продукт доказанно ненадёжен. 230–300 слов суммарно.",
+          "answers": [
+            "Technical memo\nThe launch is postponed because the final reliability checks are incomplete. No revised launch date has been confirmed. The outstanding checks must be completed and reviewed before a new date can be set. This delay does not establish that the product is unreliable; it means that the evidence needed for the launch decision is not yet complete. The next update will report the status of the checks, even if a launch date remains unavailable. Although teams need a date for planning, a provisional estimate should not be presented as a commitment.\n\nPublic announcement\nWe are postponing the launch because we have not finished the final checks on how reliably the product works. We cannot confirm a new launch date yet: the remaining checks must first be completed and reviewed. This does not mean we have established that the product is unreliable. We understand that the uncertainty makes planning difficult. Our next update will explain where the checks stand, even if we still cannot give a date. We do not want an estimate to be mistaken for a promise.\n\nConversation with a friend\nFriend: So, is the launch delayed because the product doesn't work?\nMe: It's delayed because the final reliability checks aren't finished. That doesn't prove the product is unreliable.\nFriend: But surely you can give people a date to plan around?\nMe: We haven't confirmed one. The checks have to be finished and reviewed first. The next update will say how they're going, even if there's still no date. An estimate shouldn't sound like a promise."
+          ],
+          "hint": "Сохранять факт, обязательство и неопределённость при смене регистра.",
+          "explanation": "У всех адресатов должны сохраниться незавершённые проверки, неподтверждённая дата и порядок следующего шага. Для широкой аудитории поясни reliability обычными словами. Технический пробел сам по себе не доказывает ненадёжность продукта.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -2911,6 +3410,10 @@
         {
           "title": "Убедительность и истинность различаются",
           "body": "Личная история может сильно воздействовать, но не доказывает частоту явления. Хорошо устроенный аргумент может опираться на слабые данные. Оцени обе стороны отдельно."
+        },
+        {
+          "title": "Как показать давление на читателя",
+          "body": "No responsible parent would ignore this risk предлагает выбор: согласиться с автором или оказаться «безответственным родителем». Эта рамка может влиять на решение, но не сообщает вероятность и тяжесть риска. Для оценки фактов нужны отдельные данные."
         }
       ],
       "examples": [
@@ -2963,7 +3466,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В каждом абзаце разбора держи цепочку: конкретная цитируемая деталь, её возможный эффект, связь с аудиторией и ограничение интерпретации.",
+      "beforePractice": "В анализе двигайся от слов к действию на аудиторию: цитата → возможный эффект → предел вывода. Кампанию можно придумать, явно обозначив её как вымышленную. В новой версии сохрани повод обратить внимание, но убери требование доказать свою «правильную» личность.",
       "sourceIds": [
         "uvu-rhetoric"
       ]
@@ -2987,6 +3490,10 @@
         {
           "title": "Неоднозначность можно сохранить",
           "body": "The detail suggests… осторожнее, чем The author proves…. Предложи альтернативное чтение и проверь, какие детали оно объясняет хуже. Художественный текст не всегда даёт единственный окончательный диагноз."
+        },
+        {
+          "title": "Альтернативное чтение должно держаться на детали",
+          "body": "Повторное складывание письма может скрывать имя от другого человека, а может помогать рассказчику самому не видеть его. Оба чтения надо привязать к until her name disappeared. Не добавляй автора письма или прошлые отношения как установленный текстом факт."
         }
       ],
       "examples": [
@@ -3039,7 +3546,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала собери наблюдаемые детали, затем объясни свою версию и одну правдоподобную альтернативу. Не приписывай автору слова рассказчика.",
+      "beforePractice": "В анализе короткого фрагмента обсуждай голос, действие и возможное напряжение между ними. Объём достигается сравнением трактовок, а не выдуманной предысторией. Пересказ от другого лица — уже твоя адаптация: отдельно назови добавленное и потерянное.",
       "sourceIds": [
         "uvu-rhetoric",
         "purdue-synthesis"
@@ -3064,6 +3571,10 @@
         {
           "title": "Назови открытый вопрос и хозяина шага",
           "body": "We agree to compare two estimates — решение о проверке, а не о полном запуске. Укажи, кто и когда принесёт данные. Если владельца ещё не назначили, так и напиши."
+        },
+        {
+          "title": "Из общей цели ещё не следует общий план",
+          "body": "Доступность, качество и устойчивые расходы могут быть общими целями, но люди по-разному расставляют приоритеты. Agreement on a review означает согласие проверить варианты. It remains unresolved честно обозначает вопрос, по которому решения ещё нет."
         }
       ],
       "examples": [
@@ -3116,10 +3627,36 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В итоговом синтезе используй четыре строки: общее, расхождение, условие, следующий шаг. Затем проверь каждую по репликам.",
+      "beforePractice": "Сначала выпиши три позиции из e4, затем условия согласия. Для итогов обсуждения отдели решение о проверке от решения вводить плату. Для модерации задай уточняющий вопрос о том, что стороны считают «доступным», и не отвечай за них молча.",
       "sourceIds": [
         "purdue-synthesis",
         "cam-discourse"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Сопоставь три позиции и сформулируй общий вопрос, который сохраняет различия между ними.",
+          "context": "Учебный разговор: Maya, learners: “Fees must not exclude people on low incomes.” Leo, teachers: “Funding must cover preparation and individual feedback.” Nina, finance: “We need a way to cover recurring costs.” 3–5 предложений. Recurring costs — регулярные расходы; low incomes — низкие доходы.",
+          "answers": [
+            "From an accessibility perspective, the central concern is whether course fees prevent people with limited incomes from participating. From a quality perspective, the concern is whether the funding supports adequate teaching, feedback, and learning resources. From a financial sustainability perspective, the concern is whether the provider can cover continuing costs without relying on uncertain income. What fee and support arrangements could keep courses accessible, maintain educational quality, and cover ongoing costs, and where would these aims still require a trade-off?"
+          ],
+          "hint": "Управлять многопозиционной дискуссией и формулировать точный итог.",
+          "explanation": "У Maya критерий — участие людей с низкими доходами, у Leo — ресурсы для качественного преподавания, у Nina — покрытие регулярных расходов. Общий вопрос должен объединять критерии, не изображая уже найденный компромисс.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Напиши итог вымышленного обсуждения: общее решение, условия сторон, неснятое возражение и следующий шаг.",
+          "context": "Продолжение e4: все согласились заказать оценку осуществимости, но не согласились вводить плату. Учащиеся требуют помощи с оплатой и доступной заявки; преподаватели — времени на подготовку и обратную связь; финансисты — полного расчёта расходов. Риск отпугнуть людей самой процедурой помощи не снят. Предложи ответственного и срок проверки, явно обозначив их как свой проект, если участники их ещё не назначили. 230–300 слов.",
+          "answers": [
+            "Discussion summary\n\nThe learner representatives, teaching staff, and finance team agreed to commission a feasibility review before deciding whether to introduce course fees. They did not approve charging learners or commit to a paid course model. Their shared task is to find out whether access, teaching quality, and recurring costs can be addressed together.\n\nThe learner representatives require financial assistance and an application process that people can realistically use. Teaching staff require enough time for preparation and individual feedback. The finance team requires a complete estimate of continuing costs. These are conditions that a proposal must address; the discussion does not establish that they have already been met.\n\nOne concern remains open: the process of applying for assistance might discourage people from taking part. A financially balanced proposal would not, by itself, answer that objection. The review should therefore examine the procedure as well as the amount of assistance.\n\nI propose asking a course coordinator to bring the three strands together and return a draft review within two weeks. Those arrangements still need the group’s agreement and confirmation that someone has time to do the work. They are proposed next steps, not commitments made in the discussion.\n\nBefore any decision on fees, the group should review the cost estimate, the teaching resources, and the proposed assistance process together. If important information remains missing, that gap should be recorded rather than treated as evidence that the conditions are satisfied."
+          ],
+          "hint": "Управлять многопозиционной дискуссией и формулировать точный итог.",
+          "explanation": "Дано согласие заказать проверку, а не разрешение вводить плату. Условия трёх сторон и нерешённый риск процедуры помощи должны остаться видимыми. Ответственный и срок, которых группа не назначила, оформляются как предложения.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -3141,6 +3678,10 @@
         {
           "title": "В конце сокращай строку",
           "body": "Убери повторения и пустые обороты. Сохрани полезный термин, если он точен, и поясни его, если читатель новичок. Редактор улучшает чужую мысль, а не незаметно подменяет её своей."
+        },
+        {
+          "title": "Пять решений могут быть разного масштаба",
+          "body": "Сначала меняем порядок аргумента: где рекомендация и её условие? Затем отдельные фразы: можно ли убрать повтор, прояснить this, вернуть исполнителя? Объяснение правки называет её пользу для читателя. Не называй свой любимый стиль единственно грамотным."
         }
       ],
       "examples": [
@@ -3193,10 +3734,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Редактируй в три прохода: содержание, структура, строка. После последнего прохода вновь проверь ограничения, которые легко потерять при сокращении.",
+      "beforePractice": "Можно взять собственный текст или приложенный учебный черновик. Сначала проверь смысл, потом структуру, затем слова. В 230–300 слов входят новая версия и пять пояснений. Устно защити две правки и одну честно назови стилистическим выбором.",
       "sourceIds": [
         "purdue-concision",
         "purdue-cohesion"
+      ],
+      "replacements": [
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Отредактируй свой текст из предыдущей главы либо данный черновик. Измени структуру и отдельные фразы, затем объясни пять решений.",
+          "context": "Учебный черновик: “We should extend the pilot to every class. Some learners may benefit when support is available. The pilot should remain limited until we understand whether that support can be maintained. Teachers need time to provide support. Universal expansion is therefore the obvious next step. I am writing to make a recommendation about what should happen next with the pilot. We should consider the support requirement before deciding.” Для своей версии приложи исходник. 230–300 слов на правку и пояснения; исходник не считается.",
+          "answers": [
+            "Illustrative starting example — assumed previous-lesson text for a course coordinator:\n“We should extend the pilot to every class. Some learners may benefit when support is available. The pilot should remain limited until we understand whether that support can be maintained. Teachers need time to provide support. Universal expansion is therefore the obvious next step. I am writing to make a recommendation about what should happen next with the pilot. We should consider the support requirement before deciding.”\n\nStructural and line revision:\n“I recommend keeping the pilot limited until we understand whether the necessary support can be maintained. Some learners may benefit when support is available, so the support requirement should inform any decision about expansion. Teachers need time to provide that support. Wider access is a reasonable aim, but the current argument does not establish that extending the pilot to every class is justified.”\n\nFive editorial decisions:\n1. I moved the recommendation to the opening so the coordinator can identify the proposed action immediately, instead of reconstructing it from conflicting statements.\n2. I removed the demand for universal expansion because it contradicted the proposed limit; this substantive choice would require the author’s agreement.\n3. I retained “some,” “may,” and the support condition because removing them would broaden the claim and increase its certainty without evidence.\n4. I replaced the unsupported “therefore” conclusion with an explicit boundary on what the argument establishes, while acknowledging the possible objection about wider access.\n5. I cut the sentence announcing that a recommendation was being made. The opening now performs that function directly; the deletion improves economy without losing a separate claim."
+          ],
+          "hint": "Исправлять по приоритету и объяснять цену изменения.",
+          "explanation": "Сначала устрани противоречие между немедленным расширением и условием поддержки. Затем сократи повторы и поставь рекомендацию в начало. Пять пояснений должны говорить, как изменилось понимание читателя; собственный исходник требует собственных решений.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -3219,6 +3774,10 @@
         {
           "title": "Защита не равна упрямству",
           "body": "Хороший ответ на возражение может уточнить условие или изменить рекомендацию. После обсуждения назови, что осталось прежним и что ты пересмотрел. Один проект не удостоверяет уровень C2: нужны устойчивые навыки в разных задачах."
+        },
+        {
+          "title": "Поиск источников — отдельный шаг проекта",
+          "body": "Сначала найди два самостоятельных материала, а не две перепечатки одного. Запиши автора, ссылку, что именно прочитал и границу вывода. Если доступна лишь аннотация, не приписывай себе чтение полной работы. Названия исследований в образце — возможные отправные точки, не готовое доказательство."
         }
       ],
       "examples": [
@@ -3271,11 +3830,49 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Здесь можно работать несколькими сессиями: вопрос и источники → черновик → возражение → новая версия → устное объяснение. Сохрани версии для сравнения своего прогресса.",
+      "beforePractice": "Этот итоговый проект занимает несколько подходов: выбор вопроса → поиск и чтение → карта позиций → текст → устная защита → возврат через неделю. Не надо придумывать доказательства за одну сессию. Для работы без внешнего поиска используй уже приложенные материалы m1–m4 главы «Синтез без подмены: охват, ценность и решение о финансировании» (extended-c2-synthesis) и тему культурного финансирования, сохранив их вымышленный статус.",
       "sourceIds": [
         "purdue-synthesis",
         "purdue-concision",
         "gmu-hedges"
+      ],
+      "replacements": [
+        {
+          "id": "e4",
+          "kind": "write",
+          "prompt": "Выбери вопрос своего итогового проекта и составь карту: три позиции, недостающие данные, аудитория, критерий решения и сильнейшее возражение.",
+          "context": "Вариант с поиском: как сочетать самостоятельное обучение и обратную связь? Вариант с материалами курса: как распределить культурное финансирование по досье extended-c2-synthesis? Это подготовка к следующему заданию, поэтому оставь тот же вопрос. Можно оформить 6 коротких пунктов вместо искусственного ограничения в 3–5 предложений.",
+          "answers": [
+            "Question: How should an adult learner combine independent study and feedback? One position prioritizes independent practice, another prioritizes regular expert feedback, and a third proposes a planned combination. The audience is adults organizing a limited weekly study schedule. We need evidence about what independent practice can accomplish and which misunderstandings require feedback. The criterion is useful progress that the learner can sustain within the available time. A strong objection to a combined plan is that obtaining good feedback may take more time or money than the learner has."
+          ],
+          "hint": "Выполнить сложную задачу через несколько навыков и проверить перенос.",
+          "explanation": "Карта должна вести к тому же вопросу, который будет исследован дальше. Позиции пока рабочие: не выдавай их за мнение конкретных авторов до чтения. В варианте с досье используй его реальные различия, а не этот образец на другую тему.",
+          "revision": 1
+        },
+        {
+          "id": "e5",
+          "kind": "write",
+          "prompt": "Напиши синтез по вопросу из карты: сопоставь минимум два источника, отдели их идеи от своих выводов и предложи обоснованное решение для выбранной аудитории.",
+          "context": "230–300 слов. Для темы самостоятельного обучения сначала найди и прочитай два самостоятельных источника; укажи ссылки и ограничения. Для варианта без поиска используй материалы m1–m4 главы «Синтез без подмены: охват, ценность и решение о финансировании» (extended-c2-synthesis) о культурном финансировании; обозначь их как вымышленное учебное досье и ссылайся на ID материала. Не подменяй реальные источники выдуманными. Образец про обучение показывает структуру; его нельзя считать ответом по культурному досье.",
+          "answers": [
+            "Illustrative starting example: the two publications below are assumed source choices for this model, not sources supplied by the learner or newly verified here.\n\nFor adults organizing their own learning, independence and feedback should serve complementary purposes: independence makes learners attempt difficult work, while feedback helps them judge whether their approach is effective.\n\nDunlosky and colleagues review learning techniques and identify practice testing and distributed practice as particularly useful approaches (https://doi.org/10.1177/1529100612453266). Their review supports organizing independent study around retrieval and revisiting material rather than relying mainly on rereading. It does not establish that learners can diagnose every misunderstanding without assistance.\n\nHattie and Timperley examine feedback and argue that its effects depend on its type and delivery (https://doi.org/10.3102/003465430298487). Their framework distinguishes information about the task, the process, and self-regulation from comments directed at the person. This suggests that useful feedback should clarify a difficulty and inform a subsequent action, rather than merely express approval.\n\nMy conclusion is that learners should first attempt a manageable task independently, then seek focused feedback on uncertain or consequential aspects, and finally apply the correction to a different task. That sequence is my practical synthesis, not a procedure jointly tested by these publications.\n\nA reasonable objection is that expert feedback costs time or money. I would therefore prioritize it for persistent errors, while treating peer comments as suggestions requiring judgment. Another limitation is that broad educational findings do not determine the best schedule for every adult learner. Progress should be checked through later independent performance, with the balance adjusted when mistakes persist or feedback becomes a substitute for thinking."
+          ],
+          "hint": "Выполнить сложную задачу через несколько навыков и проверить перенос.",
+          "explanation": "Синтез связывает идеи по общему вопросу и отличает их от твоей рекомендации. Ссылки должны вести к действительно использованным источникам; в варианте с досье достаточно честных ссылок на учебные материалы. Образец про обучение не является готовым ответом о культурном финансировании.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Представь вывод другой аудитории и ответь на два критических вопроса. Затем назови, что проверишь на новой теме через неделю.",
+          "context": "Вопросы для самостоятельной тренировки: “Does your evidence apply to a different group?” и “What would make you change your recommendation?” Сначала говори 90–150 секунд по короткому плану, затем проверь расшифровку и повтори без текста. Если можешь, попроси собеседника дать новое возражение: только тогда это проверка ответа на действительно неожиданный вопрос.",
+          "answers": [
+            "Illustrative defense for a student language club\n\nMy recommendation is to combine independent practice with specific feedback. Try a task yourself first, then use feedback to identify one change, and try a related task again. The point is to connect advice to another attempt, rather than simply collect comments. This is a proposal based on the sources in my written project, not a sequence that those sources tested together.\n\nDoes the evidence apply to a different group? I would not assume that every finding transfers unchanged to this club. Your aims, available time, and access to help may differ from the settings discussed in the sources. I would begin with a limited trial and check whether participants can use the feedback in a new task. Enjoyment and the time needed to obtain feedback also matter for sustaining the plan.\n\nWhat would make me change the recommendation? I would reconsider it if participants could not obtain useful feedback, or if later work showed that they were repeating corrections without applying them independently. We might then change the task, the type of feedback, or the amount of support.\n\nNext week I would use an unfamiliar topic and check the same distinction: can learners act on the underlying principle without copying the earlier example? One successful attempt would be encouraging, but it would not establish reliable performance in every setting."
+          ],
+          "hint": "Выполнить сложную задачу через несколько навыков и проверить перенос.",
+          "explanation": "В ответе на первое возражение уточни границы переноса на другую группу. Во втором назови наблюдение, которое изменило бы рекомендацию. Это подготовленная защита; неожиданной она становится только при новом вопросе реального собеседника.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -3296,7 +3893,11 @@
         },
         {
           "title": "Новые вопросы могут изменить рекомендацию",
-          "body": "Сначала работай с m1 и m2. Продолжение m3 открывай на указанном в заданиях этапе. После него сравни версии: что ограничили, что отозвали и что осталось прежним. Это репетиция реакции на новую информацию."
+          "body": "В e1–e2 работай только с m1. В e3 добавляются транскрипт и m2. Продолжение m3 открывай после e6. Затем сравни версии: что ограничили, что отозвали и что осталось прежним. Это репетиция реакции на новую информацию."
+        },
+        {
+          "title": "Как собрать конспект",
+          "body": "Claim — основная мысль; evidence — сведения, которыми её подкрепляют; qualification — уточнение границы. Brief здесь — короткая рабочая записка, не сокращённый перевод всей лекции. В заметках можно писать ключевые слова; в ответе связывай их в понятные предложения."
         }
       ],
       "examples": [
@@ -3349,7 +3950,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Теперь прослушай m1 без текста и составь короткую карту. Эти мини-примеры не являются фактами о библиотеке: точные сведения бери только из материалов урока.",
+      "beforePractice": "В e1–e2 работай только с m1; m2 и транскрипт добавляются в e3, m3 — после e6. Для каждого числа запиши показатель и период. Сначала смысл, потом проверка по тексту, затем своя рекомендация. Указанные минуты — ориентир для повторной тренировки, а не причина пропускать понимание.",
       "sourceIds": [
         "cam-discourse",
         "gmu-hedges"
@@ -3375,6 +3976,10 @@
         {
           "title": "Решение связывай с критериями",
           "body": "Комитету нужен выбор по его запросу m4. Построй ответ вокруг доступности и надёжности работы, а не трёх независимых пересказов. Собственную рекомендацию подпиши как рекомендацию, а не найденный факт."
+        },
+        {
+          "title": "Одна тема, разные задачи текстов",
+          "body": "Исследовательский вопрос — что именно пытались узнать. Карта согласия — кто в чём совпадает и где расходится. Атрибуция — простое «по словам Мары» или «заметка сообщает». Brief должен отвечать на вопрос комитета, а не демонстрировать количество прочитанных слов."
         }
       ],
       "examples": [
@@ -3427,7 +4032,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Прочитай m1–m4 и заполни по строке «вопрос — данные — ограничение». Только после этого пиши рекомендацию комитету.",
+      "beforePractice": "Открывай источники по очереди: m1 → m2 → m3 и запрос m4. Для каждого зафиксируй автора, показатель и ограничение. Короткую цитату сопровождай объяснением, что она подтверждает. В финале проверь отдельно пользу доступа и возможность надёжно организовать занятия.",
       "sourceIds": [
         "purdue-synthesis",
         "gmu-hedges"
@@ -3452,6 +4057,10 @@
         {
           "title": "Для разных читателей — разный вход",
           "body": "Жителю сначала объясни, что он видит. Техническому сотруднику — что нужно проверить. m3 добавляет сцену недопонимания позже; не открывай её до первых заданий. Учебные сведения здесь вымышлены, а не рекомендация по здоровью."
+        },
+        {
+          "title": "От числа к объяснению",
+          "body": "Фактическая опора — конкретная деталь источника, на которую ссылается твой вывод. Аналогия — сравнение со знакомой вещью; она помогает представить идею, но не обязана совпадать с прибором во всём. Открытый вопрос просит объяснить: What would you check before comparing the readings?"
         }
       ],
       "examples": [
@@ -3504,7 +4113,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В основных заданиях сначала выпиши, что измерено, где, когда и чего число не доказывает. Затем объясняй это языком выбранного адресата.",
+      "beforePractice": "Работай по цепочке: m1 → аудитории m2 → недопонимание m3. В каждом ответе отделяй показание, условия сравнения и вывод. Не придумывай ещё одно измерение для уверенности. При объяснении сначала назови, что означает число, затем предел и доступный следующий шаг.",
       "sourceIds": [
         "purdue-concision",
         "gmu-hedges"
@@ -3529,6 +4138,10 @@
         {
           "title": "Фиксируй статус, не желаемый итог",
           "body": "Предложено, поддержано при условии и окончательно согласовано — разные состояния. Материалы m3 и m4 вводят новые сведения поэтапно. Сохраняй старый итог, затем явно обновляй его после новой реплики."
+        },
+        {
+          "title": "Короткая реплика ведущего",
+          "body": "Facilitate a discussion — помочь группе разобраться и договориться. Рабочая последовательность: кратко связать две позиции → уточнить неизвестное → проверить, поддержан ли следующий шаг. Action owner — тот, кто согласился выполнить действие; это не обязательно ведущий."
         }
       ],
       "examples": [
@@ -3581,7 +4194,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Читай этапы в указанном порядке. После каждого обновляй четыре строки: цель, ограничения, согласие, открытый вопрос.",
+      "beforePractice": "Читай m1–m2 до e3, m3 вводится в e4, m4 — в e6. После каждого этапа обнови две строки: что подтверждено и что ещё обсуждают. Итоговое письмо должно сохранять условия и названных исполнителей; собственный новый шаг помечай I propose.",
       "sourceIds": [
         "cam-politeness",
         "cam-discourse"
@@ -3606,6 +4219,10 @@
         {
           "title": "Не выдумывай сцены ради сильной мысли",
           "body": "Материалы содержат вымышленные фильмы и сведения о них. Оценивай только предоставленные детали; собственную интерпретацию обозначай. Поздний запрос редактора открывай на этапе задания — он меняет задачу текста."
+        },
+        {
+          "title": "Что анализировать в сцене",
+          "body": "Формальный приём — способ показать сцену: пауза, кадр, монтаж, звук. Критерий — то, по чему оцениваешь фильм, например способность показать скрытую работу. Композиция — порядок частей текста. Можно объяснить всё это простыми словами, без терминов из киноведения."
         }
       ],
       "examples": [
@@ -3658,7 +4275,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала привяжи каждую оценку к сцене из материалов. Когда изменится редакционный запрос, перестрой главный вопрос, сохранив проверяемые детали.",
+      "beforePractice": "Сначала разбери образец m1, затем строй рецензию только по сведениям о целевом фильме в m2. Связка для абзаца: моя оценка → конкретная сцена → почему она её поддерживает → ограничение. m3 открой после своей рецензии: он задаёт новую редакционную задачу.",
       "sourceIds": [
         "uvu-rhetoric",
         "purdue-concision"
@@ -3683,6 +4300,10 @@
         {
           "title": "Правка должна сохранить сообщение",
           "body": "В m1 есть намеренные ошибки, а m2 даёт справку. Меняй только то, что мешает нужному смыслу. В m3 знакомые слова попадают в другую тему — сначала заново установи значение."
+        },
+        {
+          "title": "Не меняй смысл ради красивого синонима",
+          "body": "Address an issue — заняться проблемой, не обязательно уже решить её. Conduct a review — провести проверку; conduct как существительное — поведение. У глагола ударение на втором слоге, у существительного — на первом. Афишировать результат раньше проверки нельзя даже грамматически гладкой фразой."
         }
       ],
       "examples": [
@@ -3701,7 +4322,7 @@
         {
           "id": "prepare-1",
           "kind": "translate",
-          "prompt": "Переведи: «Нужно решить эту проблему». We need to; address this issue.",
+          "prompt": "Переведи: «Нужно заняться этой проблемой». We need to; address this issue.",
           "context": "Учебная мини-ситуация перед основной практикой. Знакомое слово может ошибочно попасть в знакомую конструкцию. В этой мастерской проверяем значение, форму и соседние слова вместе.",
           "answers": [
             "We need to address this issue."
@@ -3714,7 +4335,8 @@
             "example": "We need to address this issue before Friday.",
             "translation": "Нам нужно заняться этой проблемой до пятницы."
           },
-          "practiceStage": "guided"
+          "practiceStage": "guided",
+          "revision": 2
         },
         {
           "id": "prepare-2",
@@ -3735,7 +4357,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Для каждой правки запиши короткую причину: значение, исчисляемость, предлог или сочетаемость. Не заменяй все знакомые слова редкими синонимами.",
+      "beforePractice": "Сначала пойми управленческий смысл m1, потом правь по справке m2. После m3 снова проверь значение знакомых слов. В своём словаре сохраняй целое сочетание и сцену употребления. Новые примеры можно брать из обычной организации встречи; специальных знаний медицины или закупок не требуется.",
       "sourceIds": [
         "purdue-concision",
         "cam-substitution"
@@ -3760,6 +4382,10 @@
         {
           "title": "Спор читателей проверяй по тексту",
           "body": "В m3 есть разные оценки. Не выбирай по уверенности тона. Найди для каждой поддерживающую и осложняющую деталь. Итог может сохранить напряжение между заботой и контролем."
+        },
+        {
+          "title": "Как обосновать чтение рассказа",
+          "body": "Интерпретационная задача — вопрос, который оставляет текст: например, забота ли это или контроль? Тезис — твой ответ с опорами. Композиционная деталь — значимый порядок, повтор или задержка события. Разумная альтернативная трактовка не делает все версии одинаково убедительными."
         }
       ],
       "examples": [
@@ -3812,7 +4438,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В основных заданиях используй точные детали «Последнего ключа», а не учебную мини-сцену выше. Для каждой трактовки сохрани хотя бы одно реальное осложнение.",
+      "beforePractice": "В e1 дай рабочее чтение m1; после m2 проверь, что меняет сцена; после m3 сравни чужие оценки по деталям. Для каждого вывода запиши опору и предел. Не требуется угадывать биографию автора или придумывать продолжение истории.",
       "sourceIds": [
         "uvu-rhetoric",
         "purdue-synthesis"
@@ -3837,6 +4463,10 @@
         {
           "title": "Рекомендация должна выдержать ограничения",
           "body": "Используй досье m3 для выполнимости решения. Не добавляй статистику или согласие авторов, которого нет. Объясни, какой критерий выбран и какой компромисс остаётся."
+        },
+        {
+          "title": "Как устроены две части главы",
+          "body": "Оценочное эссе сравнивает основания авторов и защищает твою позицию. Карта доказательств связывает каждое существенное утверждение с его источником: кто сообщил, что измерили, насколько данные сопоставимы. Это разные задачи, поэтому вывод эссе нельзя автоматически перенести на новый бюджетный случай."
         }
       ],
       "examples": [
@@ -3889,7 +4519,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Прочитай критерии и бюджет из досье, затем строй рекомендацию. Каждый новый вывод помечай как свой и показывай, на какие сведения он опирается.",
+      "beforePractice": "Сначала m1 и m2, затем запрос m4 для эссе. m3 остаётся закрытым до e6. После открытия досье заново проверь суммы, единицы счёта и происхождение заявлений. Ответ комиссии должен учитывать эти конкретные ограничения, а не только общую симпатию к одному критерию.",
       "sourceIds": [
         "purdue-synthesis",
         "gmu-hedges"
@@ -3914,6 +4544,10 @@
         {
           "title": "Подтекст проверяй альтернативой",
           "body": "Сдержанный тон может означать сомнение, осторожность или просто манеру речи. В ответе отдели явную реплику от твоего чтения и укажи, что подтвердило бы его. Сценарная репетиция не равна спонтанному интервью."
+        },
+        {
+          "title": "Timeline — порядок мысли говорящего",
+          "body": "Здесь timeline — четыре-пять шагов беседы: вопрос → ответ → оговорка → уточнение. Это не обязательно календарные даты. Endorse — явно поддержать; reservation — оговорка или сомнение; attribute a claim to the guest — указать, что сведение сообщил гость."
         }
       ],
       "examples": [
@@ -3966,7 +4600,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала собери таблицу явных ответов. Подтекст добавляй отдельным слоем с опорой на конкретные реплики и возможной альтернативой.",
+      "beforePractice": "Сначала слушай m1 без текста либо честно используй текстовый режим. В e3 добавляется m2, а m3 — только после e6. В итогах различай слова гостя об источнике и собственную проверку документа: пересказ интервью не делает тебя независимым свидетелем.",
       "sourceIds": [
         "cam-discourse",
         "cam-politeness"
@@ -3991,6 +4625,10 @@
         {
           "title": "Новая информация меняет доступные решения",
           "body": "Материалы идут этапами. После нового ограничения сначала проверь, какой прежний вариант стал невыполним, и только затем переформулируй предложение. Не делай вид, что ограничение было известно изначально."
+        },
+        {
+          "title": "Понять возражение и согласовать действие",
+          "body": "Reservation здесь — оговорка, при которой человек пока не согласен полностью. Это не бронь. Признать, что слова задели человека, можно без решения о тайном намерении автора. Ask what remains unclear — попросить назвать, что ещё непонятно; затем проверить конкретное условие."
         }
       ],
       "examples": [
@@ -4043,10 +4681,63 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "После каждого этапа перепиши статус решения. В итог включи условия каждой стороны, нерешённый пункт и конкретную следующую проверку.",
+      "beforePractice": "На первом этапе используй m1–m2. Открывай m3 в e4, m4 — в e6. После обновления отдели объяснение недоразумения от согласия с планом. В итогах укажи, что форум рекомендует и что вправе утверждать совет. Случай B в e8 предназначен для другого дня.",
       "sourceIds": [
         "cam-politeness",
         "purdue-synthesis"
+      ],
+      "replacements": [
+        {
+          "id": "e2",
+          "kind": "translate",
+          "prompt": "Передайте по-английски полное сообщение модератора ниже. Адресат — вся группа; цель — установить уважительный порядок обсуждения с точными границами полномочий. Ориентир: 100–135 английских слов. Сохраните предположительность культурной гипотезы, признание переживания, процедуру уточнения, критерии и оговорку. Это самостоятельная репетиция формулировки, а не новое событие форума.\n\n«Возможно, мы по-разному привыкли обсуждать общие правила; у нас нет оснований объяснять это национальностью участников. Если какая-либо формулировка задела вас, это стоит признать, но не следует заранее решать, что имел в виду её автор. Предлагаю уточнять спорные слова, а затем сравнивать варианты по предсказуемости доступа, понятности процедуры и нагрузке на волонтёров. Следует также учитывать неудачные попытки попасть в мастерскую, хотя способ такого учёта ещё не согласован. Наш форум может подготовить рекомендацию; утвердить пилот должен совет. Я готов поддержать дальнейшую разработку предложения, но это не означает согласия с постоянным изменением порядка доступа. Вопрос платы здесь не решается».",
+          "context": "Используйте m2 для проверки процедурных фактов. Русский текст целиком задаёт сообщение; не добавляйте к нему события из диалогов.",
+          "materialIds": [
+            "m2"
+          ],
+          "answers": [
+            "We may have different expectations about discussing shared rules; we have no grounds for attributing this to participants' nationalities. If any wording has upset you, that deserves acknowledgement, without prejudging what its author intended. I suggest clarifying disputed expressions and then comparing options in terms of predictability of access, clarity of procedure and volunteer workload. We should also consider unsuccessful attempts to attend, although we have not agreed how to record them. This forum can prepare a recommendation; the board must approve a pilot. I am willing to support further development of the proposal, but that does not imply agreement to a permanent change in access arrangements. Fees are outside the scope of this discussion."
+          ],
+          "hint": "Проследите за степенью уверенности каждого утверждения. Предположение о привычках, факт о полномочиях и ограниченная готовность поддержать предложение требуют разных языковых средств.",
+          "explanation": "May сохраняет гипотезу, а no grounds не позволяет превратить её в национальное объяснение. Условное if признаёт возможную реакцию, не выдумывая уже произошедший конфликт. Without prejudging разделяет эффект слов и намерение автора. Перечень критериев не объявлен готовой системой измерений: способ учёта ещё открыт. Различие prepare и approve соответствует m2. Оговорка касается постоянного изменения, поэтому её нельзя заменить общим нежеланием участвовать. Возможны иные естественные переводы при сохранении всех этих смысловых отношений.",
+          "revision": 1
+        },
+        {
+          "id": "e6",
+          "kind": "speak",
+          "prompt": "Откройте m4. Произнесите для всей группы пересмотренную модераторскую реплику: 90–120 секунд, ориентировочно 170–210 слов. Назовите новое ограничение и объясните, какую часть прежнего компромисса теперь необходимо изменить или уточнить. Покажите последствия для обеих пользовательских перспектив и для работы волонтёров. Сформулируйте ограниченный предмет возможной поддержки и завершите проверкой понимания конкретного условия или оговорки. Не обещайте действия, которые никто не подтвердил. Подготовьте транскрипт; оцениваются смысл, регистр и точность условий.",
+          "context": "Все четыре материала теперь доступны. Вы должны сохранить полезные части обсуждения и честно пересмотреть те предположения, которые больше нельзя оставлять без оговорок.",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3",
+            "m4"
+          ],
+          "answers": [
+            "The building manager's clarification changes the conditions under which the later booking periods could operate. People can arrive for those periods only if their names are on the list submitted by 15:00 on Friday; the caretaker cannot add someone after 17:00. We therefore need to revise the booking procedure, even if we retain the proposed timetable. The early arrival-based hour remains possible with registration at the door, but it does not help someone who finishes work at 17:00 and wants to attend spontaneously that evening. Owen's planning needs can still be partly met, provided the deadline and the limits on replacement attendance are clear before booking. Leila's support must be recorded as support for a limited test, with her access objection preserved. We also cannot promise consistent recording of unsuccessful attempts until the volunteer workload has been checked. I suggest taking this revised proposal to the board with those conditions and open questions visible. Leila, have I understood correctly that your support depends on the report explicitly acknowledging the absence of spontaneous evening access, rather than treating the pilot as evidence that access is equitable?"
+          ],
+          "hint": "Свяжите новый факт с конкретным изменением процедуры. Отдельно проверьте, сохраняется ли расписание, меняется ли условие входа и какие интересы остаются неудовлетворёнными.",
+          "explanation": "Новое правило не обязательно отменяет два поздних периода: оно меняет условия допуска и процедуру записи. Ответ сохраняет это различие и точно называет срок подачи списка. Одновременно он показывает ограничение раннего часа для работающих до 17:00 и не приравнивает предварительную поддержку Лейлы к признанию справедливости. Нагрузка на волонтёров остаётся непроверенной. Финальный вопрос проверяет конкретную оговорку, а не собирает расплывчатое общее согласие. Допустимы другие предложения дальнейших действий, если они ясно обозначены как предложения.",
+          "revision": 1
+        },
+        {
+          "id": "e7",
+          "kind": "write",
+          "prompt": "Напишите для совета мастерской официальный итог форума объёмом 260–320 английских слов; обязательный минимум — 240 слов. Используйте m1–m4. Документ должен узнаваемо представить цели сторон, нейтрально зафиксировать восстановление смысла спорной фразы, описать пересмотренное предложение и точные условия доступа, отделить поддержку от утверждения, сохранить оговорки и неизвестное. Укажите, кто уже может выполнить следующий шаг и что ещё требует подтверждения. Обоснуйте, почему предлагаемый пилот может дать полезную информацию, но не доказывает решения всей проблемы. Не добавляйте вымышленных обязательств, сроков запуска или результатов измерений.",
+          "context": "Адресат — совет, уполномоченный утвердить пилот. Члены совета не читали форум и должны понять как практическое предложение, так и пределы согласия.",
+          "materialIds": [
+            "m1",
+            "m2",
+            "m3",
+            "m4"
+          ],
+          "answers": [
+            "To the Workshop Board\nSubject: Conditional recommendation for a four-Saturday access pilot\n\nThe forum identified overlapping but distinct aims. Leila seeks a realistic route in for people unfamiliar with booking; Owen needs predictable access to justify traveling with materials. Mara needs a procedure volunteers can operate, while Jules needs a proposal the board can assess.\n\nAn ambiguous comment about people obtaining places was heard by Owen as questioning his conduct. Leila denied alleging cheating or favors and clarified that her concern was familiarity with the process. Owen acknowledged the distinction but requested accurate representation. This report therefore examines procedural barriers without characterizing regular attendance as wrongdoing.\n\nThe revised proposal would offer arrival-based access at all six stations from 16:00 to 17:00, with registration at the door, followed by bookable periods from 17:00 to 18:00 and 18:00 to 19:00. For entry after 17:00, users must appear on the attendance list submitted by 15:00 on Friday. Booking closure must allow that submission. An unlisted replacement cannot enter after 17:00 merely because a reservation has been canceled.\n\nOwen supports a trial provided these conditions are prominent before booking. Leila supports it only on the explicit basis that spontaneous evening access remains unavailable, including for people finishing work at 17:00. Her support does not endorse the arrangement as equitable. Board approval remains necessary; fees are outside this discussion's remit.\n\nMara can draft instructions, and Jules can submit the proposal. Capacity to record unsuccessful attempts consistently remains unconfirmed. Whether building access arrangements could change after the pilot is also unknown.\n\nThe trial could inform assessment of predictability, clarity and workload. However, full occupancy alone would not demonstrate accessibility. The board should request a feasible evaluation plan and preserve the unresolved evening-access issue when considering approval."
+          ],
+          "hint": "Организуйте документ вокруг решения, которое предстоит адресату. Каждое слово support, approve, can и will проверяйте по материалам. Условия и нерешённые вопросы должны быть видны без чтения между строк.",
+          "explanation": "Итог превышает обязательные 240 слов и даёт совету самостоятельный документ. Он не пересказывает все реплики, а связывает цели с устройством пилота и пределами его полезности. Точное время подачи списка отличено от ещё не установленного срока закрытия записи. Действия Мары и Джулса подтверждены, сбор данных не обещан. Последняя рекомендация адресована совету как предложение автора, а не выдана за принятое решение. Допустима другая структура, если сохраняются оговорки, полномочия и все существенные ограничения.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -4068,6 +4759,10 @@
         {
           "title": "Поправка должна находиться легко",
           "body": "В поздней сцене редакторского обмена важен уже опубликованный текст. Чётко назови, что было неверно и что подтверждено. Причину ошибки указывай только если она установлена; не придумывай технический сбой."
+        },
+        {
+          "title": "Редактор работает в несколько проходов",
+          "body": "Содержательная правка меняет понимание фактов или вывода. Строковая правка улучшает отдельную фразу. Comma splice — две самостоятельные части, соединённые только запятой; их можно разделить или связать союзом. Panel’s remit — круг задач комиссии, поэтому нужна притяжательная форма."
         }
       ],
       "examples": [
@@ -4120,7 +4815,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Работай сначала со справкой, затем со структурой публикации. Для каждой правки оставь объяснение, какая ошибочная картина возникала бы у читателя.",
+      "beforePractice": "Сначала передай позицию черновика m1 без согласия с ней. В e2 открой данные m2 и проверь числа; только потом переходи к языку. Восемь точек e3 разбирай по одной. m3 открывается после готовой статьи и меняет задачу на публичное исправление.",
       "sourceIds": [
         "purdue-concision",
         "gmu-hedges"
@@ -4145,6 +4840,10 @@
         {
           "title": "Ремонт смысла после реакции",
           "body": "В m3 и m4 собеседники добавят новые реакции и сведения. Сначала назови, что было понято неверно, затем повтори действительное решение обычными словами. Не обвиняй слушателя вместо прояснения своей фразы."
+        },
+        {
+          "title": "Уточнение не означает новое разрешение",
+          "body": "Approval — одобрение; conditions of launch — условия запуска; spending limit — предел расходов. Если разрешение уже есть, ещё одно голосование нельзя добавить просто для осторожности. Сначала восстанови реальный статус, затем отдели его от уверенных предположений слушателей."
         }
       ],
       "examples": [
@@ -4197,7 +4896,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Сначала подготовь краткое смысловое ядро из m1–m2. Сохрани его при смене адресата, затем обновляй только на основании новых этапов.",
+      "beforePractice": "Читай m1–m2 до первой публичной реплики; m3 — в e4, m4 — в e6. Сверяй дружескую, публичную и официальную версии по одному списку фактов. Все числа и условия должны совпасть, даже если предложения и степень подробности разные.",
       "sourceIds": [
         "cam-politeness",
         "purdue-concision"
@@ -4222,6 +4921,10 @@
         {
           "title": "Проверь различия вариантов",
           "body": "Table a proposal может пониматься по-разному в американском и британском контексте. Для международной команды postpone discussion или put it on the agenda яснее — выбери именно нужное действие."
+        },
+        {
+          "title": "Откуда видно, что слово — глагол",
+          "body": "В She chaired the meeting окончание -ed и дополнение the meeting показывают действие: она вела встречу. Shoulder the cost — взять расходы на себя, не буквальное плечо. Аффиксация добавляет часть слова, как modern → modernize; конверсия меняет роль без такой добавки."
         }
       ],
       "examples": [
@@ -4274,7 +4977,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Разбирая историю и продолжение, проверяй у каждого нового глагола действие и адресата. При межвариантной неоднозначности формулируй прямо.",
+      "beforePractice": "Сначала пойми поручения m1, затем проверь шесть глаголов по m2. Международной команде назови действие table прямо: обсудить или отложить. В позднем письме важны адресат и доступный ему инструмент; внутреннюю новинку объясняй, если человек её не знает.",
       "sourceIds": [
         "cam-conversion"
       ]
@@ -4298,6 +5001,10 @@
         {
           "title": "Публичный текст требует проверки тона",
           "body": "Ироническая идиома может звучать как насмешка над людьми, хотя автор хотел пошутить о ситуации. Назови вероятное чтение и предложи прямую версию. Новые реакции редактора вводятся позднее по сценарию."
+        },
+        {
+          "title": "Ссылка на пьесу и сегодняшнее значение",
+          "body": "Attestation — конкретное место, где выражение встречается: произведение, акт, сцена. Periphrase — тот же смысл обычными словами. Идиома могла со временем получить новые употребления; значение в современной сцене проверяй по контексту, не только по происхождению."
         }
       ],
       "examples": [
@@ -4350,7 +5057,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В материалах m2 проверяй нынешнее значение отдельно от литературной ссылки. В журнальной версии объясни образ так, чтобы читателю не требовалось заранее знать пьесу.",
+      "beforePractice": "В m1 сначала найди позицию автора. В m2 есть справка для значения и исторической ссылки — искать пьесы не обязательно. m3 открывай только перед e4. Переписывая публичный текст, сохраняй полезную мысль и убирай образ, если он создаёт лишнюю оценку людей.",
       "sourceIds": [
         "cam-last-straw",
         "uvu-rhetoric"
@@ -4375,6 +5082,10 @@
         {
           "title": "Наблюдение не равно гарантии",
           "body": "An estimate — оценка; a projection — расчёт будущего при допущениях; a guarantee — обещание исхода. В споре жителей передавай каждое с правильной силой. m3 слушай на указанном этапе; это синтетический учебный сценарий."
+        },
+        {
+          "title": "Начни с собственной схемы места",
+          "body": "Эстуарий можно представить как место встречи реки и моря. Quay — набережная или причал; headland — мыс; offshore — в море вдали от берега; inland — вглубь суши. Схема нужна для понимания текста, но не является картой реального места."
         }
       ],
       "examples": [
@@ -4427,7 +5138,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В основных заданиях сначала нарисуй мысленную карту Greyhaven по m1. Все местные числа и выводы бери из сценария, не из этих отдельных мини-примеров.",
+      "beforePractice": "Сначала по m1 нарисуй расположение объектов, затем пользуйся терминами m2. m3 слушай или читай только в e4. Для каждого нового числа подпиши: измерение или прогноз, место, время и исходный уровень. Строительные знания и поиск карты не требуются.",
       "sourceIds": [
         "gmu-hedges",
         "purdue-concision"
@@ -4452,6 +5163,10 @@
         {
           "title": "Оценка требует причины",
           "body": "A welcoming space — оценка. Объясни, какая деталь её поддерживает: понятный вход, обзор, место для ожидания. Не выдавай предположение об удобстве за установленное техническое соответствие. Новые требования m3 появляются позже."
+        },
+        {
+          "title": "Облик, план и сохранившийся материал",
+          "body": "Elevation — вид фасада; floor plan — расположение помещений сверху. Historic fabric — сохранившийся материал здания, например стены и рамы, а не просто старая мебель. Retrofit — обновление существующего здания; слово само по себе не обещает тишину или доступность."
         }
       ],
       "examples": [
@@ -4504,7 +5219,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Теперь опиши Alder House по материалам, а затем сопоставь критерии авторов. В колонке каждая оценка должна опираться на видимую деталь или прямо названное требование.",
+      "beforePractice": "В m1 сначала восстанови путь человека по зданию; в m2 уточни названия деталей. m3 открывается в e4 и добавляет требования к функции. Строй аргумент так: деталь → польза или ограничение → что ещё проверить. Не выдавай эстетическое впечатление за техническое заключение.",
       "sourceIds": [
         "purdue-concision",
         "uvu-rhetoric"
@@ -4529,6 +5244,10 @@
         {
           "title": "Тесты помогают, но смысл главнее",
           "body": "Замена порядка или вставка and — подсказки, а не безошибочная машина. Our old friend может означать давнего друга, не старого по возрасту. Если подпись допускает нежелательное чтение, распиши смысл словами."
+        },
+        {
+          "title": "К чему относится описание",
+          "body": "В blue folding screen слово folding называет тип ширмы, а blue отличает её от зелёной. Это ещё не причина выбора: её надо сказать отдельно. Короткая группа экономит слова, но для нового читателя два ясных предложения иногда лучше."
         }
       ],
       "examples": [
@@ -4581,7 +5300,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Разбирая подписи выставки, сначала запиши нужный смысл обычным предложением. Затем выбирай порядок, запятую или явное пояснение.",
+      "beforePractice": "До e4 работай с m1–m2; затем проверь подписи для новой аудитории m3. В каждом сочетании назови предмет, независимое качество и тип. Проверка с and помогает лишь после понимания нужного смысла; не вставляй запятые автоматически между всеми определениями.",
       "sourceIds": [
         "cam-adjectives",
         "cam-focus"
@@ -4607,6 +5326,10 @@
         {
           "title": "Две группы не обязательно те же люди",
           "body": "Опрос января и опрос июня могут включать разных участников. Тогда нельзя заявить, сколько конкретных людей пересели на велосипед. Рост после кампании также сам по себе не доказывает её причинный эффект."
+        },
+        {
+          "title": "Один расчёт до большого текста",
+          "body": "Share = число ответов категории / все ответы × 100. Например, 20 из 100 и 30 из 200: количество выросло, доля снизилась с 20% до 15%. Это отдельный учебный пример, не цифры диаграммы. Denominator — общее число в знаменателе."
         }
       ],
       "examples": [
@@ -4659,7 +5382,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В m1–m2 сначала прочитай шкалы, легенду и состав опроса. Считай по реальным учебным данным этих графиков; цифры подготовительного примера к ним не относятся.",
+      "beforePractice": "Сначала прочитай меру и шкалу m1, потом сопоставь категории m2; m3 открывай в e4. Для каждой цифры держи подпись: люди, ответы или проценты. Перед заметкой проверь знаменатели, затем выбирай три-четыре важных сравнения вместо перечисления всех клеток.",
       "sourceIds": [
         "gmu-hedges",
         "purdue-synthesis"
@@ -4684,6 +5407,10 @@
         {
           "title": "Живую речь и письмо оценивай по задаче",
           "body": "Повтор местоимения может помогать слушателю, но перегружать отчёт. Переписывая устный рассказ, сохраняй смысл и убирай только ненужные следы поиска слов. Не объявляй всякое несовпадение с книжным предложением неграмотностью."
+        },
+        {
+          "title": "Достройка — мысль, законченная на ходу",
+          "body": "Говорящий может начать с предмета, потом уточнить его или исправить число. Это удобно в живой речи, где нет кнопки удаления. В редактуре оставь последнее уточнённое число и важное отношение; убери лишь то, что мешает читателю следить."
         }
       ],
       "examples": [
@@ -4736,7 +5463,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В разговорных заданиях разрешай себе уточнять и достраивать мысль. Затем сравни устную запись с более компактной письменной версией.",
+      "beforePractice": "Для шести реплик выбери обычную сцену — бронирование комнаты или покупку билетов. Потом расскажи собственную историю и сохрани её расшифровку для письменной версии. Не добавляй «спонтанные» исправления задним числом, если в записи их не было.",
       "sourceIds": [
         "cam-spoken",
         "cam-discourse"
@@ -4762,6 +5489,10 @@
         {
           "title": "Цель — понимать и быть понятным",
           "body": "Сохраняй последовательную модель произношения для своей речи. При незнакомом звучании уточняй слово, не оценивай акцент. Синтетические голоса не заменяют всё разнообразие реальных голосов."
+        },
+        {
+          "title": "Слушаем шире, произносим последовательно",
+          "body": "Для собственной речи выбирай американский образец US. Сравнение с UK нужно, чтобы узнавать знакомое слово у других говорящих. /r/ — символ звука, не название буквы; короткий американский звук в water часто обозначают [ɾ]. Это не обычный русский «д»."
         }
       ],
       "examples": [
@@ -4814,10 +5545,25 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В заданиях с двумя голосами используй законно доступные человеческие записи и сохрани ссылки. Здесь нет встроенной пары записей, подтверждающей сравнение акцентов.",
+      "beforePractice": "Для e3 есть готовая отправная точка: https://dictionary.cambridge.org/us/pronunciation/english/car — записи с пометками UK и US. Сначала слушай без чтения транскрипции, затем сверяй. Если сайт недоступен, упражнение на реальное сравнение голосов остаётся на потом; догадку по IPA не называй прослушиванием.",
       "sourceIds": [
         "rachel-stress",
-        "cam-spoken"
+        "cam-spoken",
+        "cam-car-pronunciation"
+      ],
+      "replacements": [
+        {
+          "id": "e3",
+          "kind": "write",
+          "prompt": "Сравни две словарные записи car с пометками US и UK. Сначала послушай каждую, затем проверь транскрипцию. На английском назови одно действительно замеченное различие, источник и то, что пока не расслышал.",
+          "context": "Источник: https://dictionary.cambridge.org/us/pronunciation/english/car . Можно выбрать другую пару человеческих словарных записей и дать ссылку. Пометки обозначают учебные модели произношения, а не доказанное происхождение каждого диктора. Для собственного произношения ориентируйся на US. Если записи недоступны, сохрани задание для поздней попытки.",
+          "answers": [
+            "Illustrative comparison, not a report of the learner’s listening: Cambridge provides UK and US pronunciation models for car at https://dictionary.cambridge.org/us/pronunciation/english/car . A useful comparison is the treatment of r after the vowel in the isolated word. The US model is rhotic, while the standard UK model does not pronounce that r in isolation. These labels describe the dictionary’s models; they do not establish every speaker’s personal background. In my own answer I would record what I actually heard and mark anything still unclear."
+          ],
+          "hint": "variation → recognition → context check · intelligibility",
+          "explanation": "Сравниваются две конкретные записи одного слова. Модель указывает, на что можно обратить внимание; она не доказывает, что ты сам это расслышал. Не нужно угадывать регион диктора или изображать проверку без доступного звука.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -4840,6 +5586,10 @@
         {
           "title": "Реакция ещё не согласие",
           "body": "I see может означать «понимаю, что ты говоришь», без поддержки предложения. Интонация помогает, но не гарантирует смысл. Если решение важно, спроси Are you agreeing to the plan?"
+        },
+        {
+          "title": "Для интереса оставь место ясному продолжению",
+          "body": "Have you? может прозвучать с радостью или недоверием. That is wonderful! поясняет поддержку словами. Для проверки цифры лучше Could you confirm the number? Упражнение на вспомогательный глагол тренирует форму; оно не запрещает другие естественные разговорные реакции."
         }
       ],
       "examples": [
@@ -4892,10 +5642,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "После тренировки формы произнеси реакции с ясным продолжением. Не полагайся только на тон, когда важно понять согласие или обязательство.",
+      "beforePractice": "Сначала повтори помощник has/have/did в коротком вопросе. Затем выбери реакцию по задаче: поддержать, уточнить число или проверить предположение. В устной части добавь продолжение: одна одинаковая расшифровка Did you? не показывает различия голоса.",
       "sourceIds": [
         "cam-discourse",
         "bc-ellipsis"
+      ],
+      "replacements": [
+        {
+          "id": "e2",
+          "kind": "rewrite",
+          "prompt": "Ответь коротким вопросом на She has changed her plans, повторив именно вспомогательный глагол present perfect.",
+          "context": "Упражнение на соответствие формы: has → has. Ожидается Has she? Другие реакции возможны в реальном разговоре; Did she? здесь не выполняет специально заданное условие, но не объявляется универсально неправильной репликой.",
+          "answers": [
+            "Has she?"
+          ],
+          "hint": "reply questions · echo questions · tags · stance",
+          "explanation": "В контролируемом упражнении подхватываем has и получаем Has she? Отдельно в живой американской речи возможны реакции с past simple, если это допускает ситуация. Проверяем заданную рамку, а не запрещаем разговорные варианты.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -4917,6 +5681,10 @@
         {
           "title": "Текстовая репетиция готовит к слуху",
           "body": "Сначала разбери написанный диалог. Затем послушай или озвучь роли без чтения и восстанови карту. Собственное чтение ролей — репетиция, а не доказательство понимания настоящего многоголосного разговора."
+        },
+        {
+          "title": "Для подтверждения нужны все важные части",
+          "body": "Назначенная встреча требует ясных даты, времени и доступности места; присутствие участников тоже нужно подтвердить. After three — позже трёх, не ровно в три. В вымышленном продолжении можно добавить новый факт, но его нужно отделить от исходной записи."
         }
       ],
       "examples": [
@@ -4969,10 +5737,24 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "В исходном диалоге отмечай каждую смену статуса. Для внешней записи в последнем задании нужен доступный тебе аудиофрагмент: урок не содержит его автоматически.",
+      "beforePractice": "Сначала разметь письменный диалог: предложение → условие → неизвестное. В e4 добавленные реплики должны подтвердить нужное время, помещение и участие. Для новой аудиопопытки можно использовать m1 главы «Согласие, продуктивность и полезный спор: разные голоса» (natural-c1-teams): не в каждом разговоре есть решение о встрече или явная смена позиции.",
       "sourceIds": [
         "cam-discourse",
         "purdue-synthesis"
+      ],
+      "replacements": [
+        {
+          "id": "e6",
+          "kind": "write",
+          "prompt": "Прослушай новый для тебя разговор с несколькими участниками. Опиши одну оговорку или пересмотр, одну отсылку и итог: что утверждено, что осталось открытым. Если какой-то элемент отсутствует, прямо скажи об этом.",
+          "context": "Можно взять встроенную человеческую запись m1 из главы «Согласие, продуктивность и полезный спор: разные голоса» (natural-c1-teams) либо другой доступный разговор. Дай источник/локальную отметку времени, затем после попытки сверь короткий нужный фрагмент с транскриптом и приложи его для текстовой проверки. Не придумывай неслышанные детали и не называй готовый письменный диалог живым аудированием. Образец ниже — вымышленная демонстрация анализа; он не заменяет твою попытку.",
+          "answers": [
+            "Illustrative starting example and assumed source\nThe assumed source is an invented three-person planning conversation, labeled “Practice excerpt A” for this example. No recording, URL or timestamp was supplied by the learner. The text below is fictional source material, not a transcript verified against audio; the unclear passage is also simulated. This example therefore illustrates the written analysis but does not document completed listening or transcript verification.\n\nIllustrative source transcript — Practice excerpt A\nAlex: “I suggest sending the draft on Thursday.”\nBeth: “The figures won’t be ready until Friday.”\nAlex: “In that case, I’ll withdraw Thursday and suggest Monday instead.”\nChris: “That would give us time to check them, but I still need approval from [unclear name].”\nBeth: “Monday works for me, provided the figures are ready on Friday.”\nAlex: “Let’s leave the date open until Chris gets approval.”\n\nOne revision of position\nAlex withdraws his Thursday proposal after Beth says the figures will not be ready until Friday. He proposes Monday instead.\n\nOne reference\nChris’s “That” refers to Alex’s proposal to send the draft on Monday. His following comment explains the benefit of that proposed schedule.\n\nFinal status\nThe date remains open pending Chris’s approval. Monday has been proposed, and Beth’s support depends on the figures being ready on Friday. The conversation does not establish that approval has been obtained or that the figures are ready.\n\nUnclear passage and verification status\nThe approver’s name is marked [unclear name]; no identity is inferred. All other wording is specified in this fictional source. There is no audio verification to report, and a learner’s actual recording may support a different revision, reference and outcome."
+          ],
+          "hint": "speaker → claim → revision → current status",
+          "explanation": "В своём ответе укажи конкретный источник, кто что сказал и на какие слова ссылается короткое that/it. Если участник уточняет общий тезис, это не обязательно смена его личного мнения. Не каждый разговор заканчивается общим решением; отсутствие решения тоже точный результат.",
+          "revision": 1
+        }
       ]
     },
     {
@@ -4994,6 +5776,10 @@
         {
           "title": "Причину не выдумываем",
           "body": "Если источник ошибки не установлен, скажи The cause is being checked или The cause is unknown — по фактам. Ни обвинение программы, ни оценка качества курса не следуют автоматически из этой путаницы."
+        },
+        {
+          "title": "Поправка отвечает на три вопроса",
+          "body": "Что написали раньше? Какой факт подтверждён теперь? Как это меняет вывод читателя? Во внутренней записке можно предложить сверять названия колонок и числа с первичной таблицей, но не утверждать, что проверка уже внедрена."
         }
       ],
       "examples": [
@@ -5046,7 +5832,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Теперь составь публичную версию: что перепутали, какие числа верны, что о причине известно. Проверки для команды вынеси отдельно от сообщения читателю.",
+      "beforePractice": "Сначала напиши точную поправку по 80 зарегистрированным и 56 завершившим. Затем отдельно предложи две проверки. В устном ответе объясни, почему 70% завершивших сами по себе не измеряют качество преподавания; после этого сократи сообщение до трёх ясных предложений.",
       "sourceIds": [
         "purdue-concision",
         "gmu-hedges"
@@ -5072,6 +5858,10 @@
         {
           "title": "Отложенный перенос — новый случай",
           "body": "m3 меняет часть сведений позднее; сохрани предыдущую версию ответа и объясни изменение. m4 оставь на 24–48 часов: задача проверяет перенос способа рассуждения, а не память о фразах про часы."
+        },
+        {
+          "title": "Как работать с длинным текстом",
+          "body": "P1, P7 и другие метки — номера абзацев. Дальняя связь означает, что поздняя деталь меняет чтение ранней. Перифраза — объяснение тех же слов прямо. Медиация — передать нужное конкретному адресату, не потеряв условия и границы знания."
         }
       ],
       "examples": [
@@ -5124,7 +5914,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Теперь переходи к статье и соблюдай порядок m1 → m2 → m3 → отложенный m4. Подготовительные фразы не заменяют чтение целого текста.",
+      "beforePractice": "Не пытайся выполнить всё за один подход. Сначала прочитай m1 целиком; затем вернись к названным парам абзацев. m2 открывается в e5, m3 — в e7, m4 — через 24–48 часов для новой ситуации. Сохраняй первую версию: изменение ответа после нового источника здесь часть навыка.",
       "sourceIds": [
         "purdue-synthesis",
         "uvu-rhetoric"
@@ -5150,6 +5940,10 @@
         {
           "title": "Проверь слух по транскрипту после ответа",
           "body": "Запись в m1 — человеческая; m2 — официальный текст, который может сглаживать особенности звучания. После своей попытки найди место расхождения, снова послушай его и исправь именно эту мысль. В m3 дан новый вымышленный случай для переноса."
+        },
+        {
+          "title": "Поймай поворот, затем проверь слова",
+          "body": "Productive — достигающий полезного результата; reciprocal — взаимный, действующий в обе стороны; personal attack — выпад против человека. Эти слова помогают держать тему, но не заменяют слушание. При первом проходе запиши, кто отвечает и какой тезис уточняет."
         }
       ],
       "examples": [
@@ -5202,7 +5996,7 @@
           "practiceStage": "guided"
         }
       ],
-      "beforePractice": "Включи m1 без m2. Сначала раздели голоса и предметы разговора, затем уточни аргументы. Учебные рамки выше не являются цитатами NASA.",
+      "beforePractice": "Первый проход — два голоса и общий смысл. Второй — конкретные различия в их аргументах. Только после e1–e3 открывай m2 для сверки. Отметь свой реальный пробел или удачную опору; новую ситуацию m3 разбери на следующий день, не выдавая её за исследование NASA.",
       "sourceIds": [
         "nasa-teams",
         "rachel-stress"

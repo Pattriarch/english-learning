@@ -1,6 +1,9 @@
 """Authored preparation for the 20 applied A1/A2 lessons beyond foundation."""
 import json
 from pathlib import Path
+from editorial_guard import require_historical_restore
+
+require_historical_restore()
 
 def ex(en,ru,why):return dict(en=en,ru=ru,why=why)
 def task(prompt,answer,words,why):return (prompt,answer,words,why)

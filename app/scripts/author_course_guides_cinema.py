@@ -220,6 +220,8 @@ c(10,'respond','cinema-bcs-s01e10-listen path-synthesis path-argument-essay',
  'Напиши основной анализ, затем отдельное возражение и уточнённый итог. Устная версия должна передавать логику без чтения текста; итог сезона не является автоматическим подтверждением C1.', 'purdue-synthesis uvu-rhetoric')
 
 def build():
+    from editorial_guard import require_historical_restore
+    require_historical_restore()
     raw=json.loads((ROOT/'content/courses/cinema-lessons.json').read_text(encoding='utf-8'))
     original=raw.get('lessons',[]) if isinstance(raw,dict) else raw
     assert {x['lessonId'] for x in LESSONS}=={x['id'] for x in original}

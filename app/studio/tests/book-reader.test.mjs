@@ -24,6 +24,32 @@ test('a regenerated question receives a new draft and attempt identity',async()=
  assert.equal(bookAttemptState({attempts:[oldAttempt]},lesson).attempts[0],oldAttempt);
 });
 
+test('preparation is part of a book task version and cannot inherit an earlier unsupported answer',async()=>{
+ const task={id:'e1',kind:'translate',prompt:'Say ready.',context:'Use am.',answers:['I am ready.'],hint:'I am',explanation:'A state.'};
+ const oldID=await bookExerciseID(task);
+ const prepared={...task,practiceStage:'guided',guidance:{title:'First step',body:'Use am to describe yourself.',example:'I am tired.',translation:'Я устал.'}};
+ assert.notEqual(await bookExerciseID(prepared),oldID);
+ assert.notEqual(await bookExerciseID({...prepared,guidance:{...prepared.guidance,body:'A new explanation.'}}),await bookExerciseID(prepared));
+ assert.equal(await bookExerciseID({...task,guidance:undefined,practiceStage:undefined}),oldID);
+});
+
+test('book preparation is visible before the task and its own English can be heard or hidden',async t=>{
+ const f=await studyUI(t,'book-reader.js'),{data,payload,lesson}=bookData();
+ lesson.exercises[0].practiceStage='guided';
+ lesson.exercises[0].guidance={title:'Why am?',body:'One short sentence.',example:'I am tired.',translation:'Я устал.'};
+ f.api=async()=>payload;await f.module.mountBookUnit(f.root,data,'unit-1',async()=>data);
+ f.root.querySelector('#book-start').click();
+ const html=f.root.querySelector('#book-main').innerHTML;
+ assert.ok(html.indexOf('Why am?')<html.indexOf('class="book-prompt"'));
+ const toggle=f.root.querySelector('#guidance-toggle'),body=f.root.querySelector('#guidance-body');
+ toggle.click();assert.equal(body.hidden,true);assert.equal(toggle.textContent,'Показать опору');
+ toggle.click();assert.equal(body.hidden,false);
+ const listen=f.root.querySelector('#guidance-listen');await listen.click();
+ assert.deepEqual(f.spoken[0].slice(0,3),['I am tired.',.9,'en-US']);
+ assert.equal(f.spoken[0][3].isCurrent(),true);
+ location.hash='#/today';assert.equal(f.spoken[0][3].isCurrent(),false);
+});
+
 test('answers from a running older server remain visible after the upgrade',()=>{
  const lesson={id:'book-grammar-intermediate-003',exercises:[{id:'e1'},{id:'e2'}]};
  const old={lessonId:'free',exerciseId:lesson.id+'-e1',answer:'I am working.'};

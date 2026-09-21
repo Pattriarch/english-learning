@@ -8,7 +8,7 @@ import {beginnerPlan} from '../beginner-plan.js';
 const dir=new URL('../../content/',import.meta.url),read=n=>JSON.parse(readFileSync(new URL(n,dir),'utf8'));
 const base=[...read('curriculum.json'),...readdirSync(new URL('courses/',dir)).filter(n=>n.endsWith('.json')).flatMap(n=>read('courses/'+n))];
 const guides=readdirSync(dir).filter(n=>/^course-guides-.*\.json$/.test(n)).flatMap(n=>read(n).lessons);
-const lessons=base.map(l=>{const g=guides.find(g=>g.lessonId===l.id);return g?{...l,courseGuide:g,prerequisites:g.prerequisites,exercises:[...g.practice.map(e=>({...e,revision:1})),...l.exercises.map(e=>(g.replacements||[]).find(r=>r.id===e.id)||e)]}:l;});
+const lessons=base.map(l=>{const g=guides.find(g=>g.lessonId===l.id);return g?{...l,courseGuide:g,prerequisites:g.prerequisites,exercises:[...g.practice.map(e=>({...e,revision:e.revision||1})),...l.exercises.map(e=>(g.replacements||[]).find(r=>r.id===e.id)||e)]}:l;});
 const path=read('learning-path.json'),library=read('library.json');
 test('every authored course step has teaching and its dependencies precede it, without repeated topics',()=>{
  assert.equal(new Set(guides.map(g=>g.lessonId)).size,guides.length);

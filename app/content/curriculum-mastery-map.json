@@ -292,15 +292,15 @@
     },
     {
       "file": "app/content/courses/extended-skills.json",
-      "sha256": "f57f42dae49d5c8e9f4160853804fbf0eea252d0be2893ed0821c4811656b342"
+      "sha256": "1be2580539dcd5bb6e8d7014bcd7b0c6109dcf8b1272fb5946c3a4bc357ccb13"
     },
     {
       "file": "app/content/courses/foundation.json",
-      "sha256": "0c8e9807892669f9a2626a7db1e3d13a18d5146e9df5d18854c193b291d88eaf"
+      "sha256": "f86c6ca5a7874d10e6f2106246fcf1375806693f815b1f2fec4f28d7e136cdc6"
     },
     {
       "file": "app/content/courses/natural-listening.json",
-      "sha256": "256285597a191437d51e9aeb198260bafebcac2145745c48b66a7209741e409c",
+      "sha256": "7a96e0beb37fa4d0daa08b60b7021fc9502cbf4d2b431fd92354127da00f3aaf",
       "sourceAccessRevision": 2,
       "previousSHA256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af",
       "updatedAt": "2026-09-11",
@@ -308,7 +308,7 @@
     },
     {
       "file": "app/content/courses/research-expansion.json",
-      "sha256": "be85fa4f9aa844078c5abbea3cd1648648c3d76a94989c1fb28c46757a602398"
+      "sha256": "f328344807bab566d79454b6c20daed4652a535c87d44a3a6335f4c2c73536e3"
     },
     {
       "file": "app/content/courses/sustained-reading.json",
@@ -320,7 +320,7 @@
     },
     {
       "file": "app/content/pronunciation.json",
-      "sha256": "3699fc4389b75dc01f0bbdb26ff85b4b72a9a76880f008e7ade11fad34674455"
+      "sha256": "2bc43e1d202c66fb0acf38535c350852b0eaddd924ac69fa7ce723cbaeb3c674"
     }
   ],
   "levels": [
@@ -5923,5 +5923,6 @@
       "scope": "Catalog metadata and all 872 unique unit titles; not full semantic review of every book lesson."
     }
   ],
-  "beginnerEvidenceUpdatedAt": "2026-09-20"
+  "beginnerEvidenceUpdatedAt": "2026-09-20",
+  "editorialSnapshotUpdatedAt": "2026-09-21"
 }

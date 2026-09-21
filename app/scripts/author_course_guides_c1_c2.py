@@ -638,6 +638,8 @@ SOURCES = [
 ]
 
 def build():
+    from editorial_guard import require_historical_restore
+    require_historical_restore()
     assigned = []
     for p in [ROOT/'content/curriculum.json', *sorted((ROOT/'content/courses').glob('*.json'))]:
         if 'cinema' in p.name:

@@ -115,6 +115,7 @@ func (s *Server) bookAvailability(id, releaseStamp string, release *bookRelease)
 	entry := s.libraryUnits[id]
 	stamps := []string{entry.Book.ID, strconv.Itoa(entry.Unit.Page), strconv.Itoa(entry.Unit.EndPage), releaseStamp,
 		bookFileStamp(filepath.Join(s.content, "book-lessons", id+".json")),
+		bookFileStamp(filepath.Join(s.content, "book-editorial", id+".json")),
 		bookFileStamp(filepath.Join(s.content, "..", "data", "parsed-books", id+".json")),
 	}
 	for _, page := range entry.Unit.sourcePages() {

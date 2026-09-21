@@ -34,6 +34,7 @@ type bookSourceImage struct {
 
 type bookLesson struct {
 	Lesson
+	Editorial  *bookEditorialInfo `json:"editorial,omitempty"`
 	Provenance struct {
 		UnitID         string `json:"unitId"`
 		BookID         string `json:"bookId"`
@@ -213,7 +214,7 @@ func (s *Server) loadBookLessonWithRelease(id string, release *bookRelease) (boo
 			return lesson, errors.New("private source unavailable and lesson has no matching release")
 		}
 	}
-	return lesson, nil
+	return s.applyBookEditorial(id, raw, lesson)
 }
 
 // Keep this wire-format hash in sync with book-reader.js. A learner can keep a
@@ -226,6 +227,9 @@ func bookExerciseVersion(exercise Exercise) string {
 func bookExerciseVersionWithMaterials(exercise Exercise, materials []LessonMaterial) string {
 	fields := []string{exercise.Kind, exercise.Prompt, exercise.Context, exercise.Hint, exercise.Explanation, strings.Join(exercise.Answers, "\x1e")}
 	value := strings.Join(fields, "\x1f")
+	if g := exercise.Guidance; g != nil {
+		value += "\x1fguidance-v1\x1f" + strings.Join([]string{exercise.PracticeStage, g.Title, g.Body, g.Example, g.Translation}, "\x1e")
+	}
 	wanted := make(map[string]bool, len(exercise.MaterialIDs))
 	for _, id := range exercise.MaterialIDs {
 		wanted[id] = true

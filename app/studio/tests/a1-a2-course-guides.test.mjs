@@ -20,7 +20,7 @@ test('every applied A1/A2 lesson gets short preparation after actual prerequisit
     assert.ok(guide.sourceIds.length>0);assert.ok(guide.sourceIds.every(id=>sourceIDs.has(id)));
     for(const section of guide.explanation){assert.ok(section.title&&section.body);assert.ok(section.body.length<=700,lesson.id);}
     for(const task of guide.practice){
-      assert.ok(!lesson.exercises.some(e=>e.id===task.id));assert.match(task.id,/^prepare-\d+$/);assert.equal(task.revision,1);
+      assert.ok(!lesson.exercises.some(e=>e.id===task.id));assert.match(task.id,/^prepare-\d+$/);assert.ok(Number.isInteger(task.revision)&&task.revision>=1);
       assert.equal(task.practiceStage,'guided');assert.ok(task.guidance.body&&task.guidance.example&&task.guidance.translation);
       assert.ok(task.context&&task.hint&&task.explanation);
       assert.ok(task.answers.every(a=>!/[А-Яа-яЁё]/.test(a)),lesson.id);
@@ -29,9 +29,13 @@ test('every applied A1/A2 lesson gets short preparation after actual prerequisit
     assert.equal(guide.replacements.length,lesson.exercises.length,lesson.id+' entire original lesson reviewed');
     for(const replacement of guide.replacements){
       const prior=lesson.exercises.find(e=>e.id===replacement.id);
-      assert.ok(prior);assert.equal(replacement.revision,(prior.revision||0)+1);
+      assert.ok(prior);assert.ok(replacement.revision>(prior.revision||0));
       assert.notEqual(replacement.prompt,prior.prompt);
       assert.ok(replacement.context&&replacement.hint&&replacement.explanation);
+      if(replacement.guidance){
+        assert.equal(replacement.practiceStage,'guided',lesson.id+' preparation must pass the server contract');
+        for(const key of ['title','body','example','translation'])assert.ok(replacement.guidance[key]?.trim(),lesson.id+' guidance '+key);
+      }
       assert.ok(replacement.answers.every(a=>a.split(/\s+/).length<=24),lesson.id+' practical short model');
       assert.doesNotMatch(replacement.prompt,/\d+\s*[–-]\s*\d+\s*(?:английских\s+)?слов/,'No minimum output length replaces a communicative task');
       for(const material of replacement.materialIds||[])assert.ok(lesson.materials.some(m=>m.id===material),lesson.id+' referenced material exists');

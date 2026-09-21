@@ -222,6 +222,8 @@ ORDER_A1 = ['path-be', 'path-articles-basic', 'path-plurals', 'path-present-simp
 ORDER_A2 = [row[0] for row in LESSONS if row[0] not in ORDER_A1]
 
 def build():
+    from editorial_guard import require_historical_restore
+    require_historical_restore()
     lessons = json.loads(COURSE.read_text('utf-8'))
     previous = {l['id']: l for l in lessons}
     for id, title, goal, blocks, independent in LESSONS:
