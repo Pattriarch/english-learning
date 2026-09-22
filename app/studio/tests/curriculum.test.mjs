@@ -15,7 +15,9 @@ test('A1–C2 pathway, all tense comparisons and cinema lessons resolve to prepa
  for(const tense of path.tenses)for(const id of [...tense.lessonIds,...(tense.compareLessonIds||[])])assert.ok(byID.has(id),id);
  const cinema=read('cinema.json');assert.equal(cinema.series[0].episodes.length,10);
  for(const episode of cinema.series[0].episodes){assert.equal(episode.lessonIds.length,3);for(const id of episode.lessonIds)assert.ok(byID.has(id),id);}
- for(const l of lessons){assert.ok(l.sections.length>=3,l.id);assert.ok(l.examples.length>=2,l.id);assert.ok(l.exercises.length>=5,l.id);assert.equal(new Set(l.exercises.map(e=>e.id)).size,l.exercises.length);for(const e of l.exercises){assert.ok(['translate','translation','rewrite','write','speak'].includes(e.kind),l.id+': '+e.kind);assert.ok(e.prompt&&e.context&&e.explanation);}}
+ // Context is optional when the prompt already provides the entire situation;
+ // requiring filler here encouraged identical boilerplate under every task.
+ for(const l of lessons){assert.ok(l.sections.length>=3,l.id);assert.ok(l.examples.length>=2,l.id);assert.ok(l.exercises.length>=5,l.id);assert.equal(new Set(l.exercises.map(e=>e.id)).size,l.exercises.length);for(const e of l.exercises){assert.ok(['translate','translation','rewrite','write','speak'].includes(e.kind),l.id+': '+e.kind);assert.ok(e.prompt&&e.explanation);assert.equal(typeof e.context,'string');}}
 });
 test('Every numbered unit from all supplied books is present exactly once per edition',()=>{
  const catalog=read('library.json'),units=catalog.books.flatMap(b=>b.units);

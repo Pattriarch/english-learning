@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 $appDirectory = Join-Path $PSScriptRoot 'app'
 Set-Location -LiteralPath $appDirectory
-$url = 'http://127.0.0.1:8777'
+$url = 'http://127.0.0.1:8790'
 try {
     & (Join-Path $appDirectory 'scripts\start-local-kokoro.ps1') -AppDirectory $appDirectory | Out-Null
 } catch { Write-Warning "Local speech synthesis could not start: $($_.Exception.Message)" }
@@ -14,13 +14,13 @@ try {
 } catch {}
 if (-not (Get-Command go -ErrorAction SilentlyContinue)) {
     if (Test-Path -LiteralPath (Join-Path $appDirectory 'english.exe')) {
-        Start-Process -FilePath (Join-Path $appDirectory 'english.exe') -WorkingDirectory $appDirectory -WindowStyle Hidden
+        Start-Process -FilePath (Join-Path $appDirectory 'english.exe') -ArgumentList '-addr','127.0.0.1:8790' -WorkingDirectory $appDirectory -WindowStyle Hidden
     } else { throw 'Install Go 1.25+ from https://go.dev/dl/ and run again.' }
 } else {
     Write-Host 'Building English...'
     & go build -mod=readonly -o english.exe ./cmd/english
     if ($LASTEXITCODE -ne 0) { throw 'Build failed. See the output above.' }
-    Start-Process -FilePath (Join-Path $appDirectory 'english.exe') -WorkingDirectory $appDirectory -WindowStyle Hidden -RedirectStandardOutput (Join-Path $appDirectory 'english.stdout.log') -RedirectStandardError (Join-Path $appDirectory 'english.stderr.log')
+    Start-Process -FilePath (Join-Path $appDirectory 'english.exe') -ArgumentList '-addr','127.0.0.1:8790' -WorkingDirectory $appDirectory -WindowStyle Hidden -RedirectStandardOutput (Join-Path $appDirectory 'english.stdout.log') -RedirectStandardError (Join-Path $appDirectory 'english.stderr.log')
 }
 for ($attempt = 0; $attempt -lt 30; $attempt++) {
     Start-Sleep -Milliseconds 500

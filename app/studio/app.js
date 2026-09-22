@@ -1,7 +1,8 @@
 import {authoredExerciseID,authoredLessonState,currentAuthoredExercise} from './authored-exercise.js';
 import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
-import {lessonSequence,lessonRouteInfo} from './lesson-sequence.js';
 import {lessonGuidanceHTML,lessonPrerequisiteHTML} from './lesson-guidance.js';
+import {lessonIntroHTML} from './lesson-intro.js';
+import {scheduleLessonAdvance} from './lesson-advance.js';
 import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
 import {mountPractice,plannedPractice,mountReview,mountJournal,mountSettings} from './pages.js';
@@ -64,25 +65,33 @@ function shell(route){
 }
 function lesson(id,index){
  const l=data.lessons.find(l=>l.id===id);if(!l){$('#main').innerHTML=empty('Занятие не найдено','Откройте карту и выберите доступную тему.','<a class="btn primary" href="#/roadmap">Карта обучения</a>');return;}
- const {tried:done,latest}=authoredLessonState(l,data.state.attempts);
- const first=l.exercises.findIndex(e=>!done.has(e.id));let n=index===undefined?Math.max(0,first):Math.min(Math.max(0,index),l.exercises.length-1);
+ const {latest}=authoredLessonState(l,data.state.attempts),done=new Set([...latest].filter(([,a])=>a.feedback?.verdict==='correct').map(([id])=>id));
+ const first=l.exercises.findIndex(e=>!done.has(e.id));let n=index===undefined?Math.max(0,first):index==='complete'?0:Math.min(Math.max(0,index),l.exercises.length-1);
  const e=l.exercises[n],practiceID=authoredExerciseID(e),key=l.id+':'+practiceID;let attempt=latest.get(e.id),inputMode=['speak','write'].includes(e.kind)?'writing':'translation',requestID=crypto.randomUUID();
+ const guided=l.beginner||l.courseGuide,base='/lesson/'+encodeURIComponent(id),practice=i=>base+'/'+i+'?practice';
+ const header=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1>${esc(l.title)}</h1><span class="small-note">${esc(l.level)} · ${esc(l.goal)}</span></div></div>`;
+ if(guided&&(index===undefined||(index===0&&!latest.size&&!location.hash.endsWith('?practice')))){
+  $('#main').innerHTML=`<div class="lesson-flow">${header}${lessonIntroHTML(l,n)}</div>`;
+  bindCourseGuide($('#main'),l);return;
+ }
+ if(index==='complete'){
+  const correct=[...latest.values()].filter(a=>a.feedback?.verdict==='correct').length;
+  $('#main').innerHTML=`<div class="lesson-flow">${header}<section class="card lesson-complete"><h2>Итоги практики</h2><p>Принято ответов: ${correct} из ${l.exercises.length}. Все попытки и разборы сохранены.</p><div class="actions"><a class="btn primary" href="#/transfer/${esc(id)}">Применить в своей жизни</a><a class="btn" href="#/roadmap">К программе</a><a class="btn ghost" href="#${practice(0)}">Посмотреть ответы</a></div></section></div>`;return;
+ }
  $('#main').innerHTML=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1 style="margin:13px 0 8px">${esc(l.title)}</h1><span class="small-note">${esc(l.level)} · ${l.beginner?'Шаг за шагом с нуля':l.generated?'Личная практика':'Объяснение → примеры → твоя практика'}</span></div><a class="btn small" href="#/books">${icon('book')} Учебники</a></div>
- ${lessonPrerequisiteHTML(l,data.lessons)}
- ${courseGuideHTML(l,n)}
+ ${l.prerequisites?.length?lessonPrerequisiteHTML(l,data.lessons):''}
  <div class="lesson-layout ${l.materials?.length?'with-materials':''} ${(l.beginner||l.courseGuide)?'guided-lesson':''}">
-  ${(l.beginner||l.courseGuide)?`<details class="card theory-panel" ${l.materials?.length&&e.practiceStage!=='guided'?'open':''}><summary>${l.materials?.length&&e.practiceStage!=='guided'?'Материал для этого задания':'Весь урок: объяснения и примеры'}</summary>`:'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${(l.beginner||l.courseGuide)?'</details>':'</aside>'}
+  ${(l.beginner||l.courseGuide)?`<details class="card theory-panel" ${l.materials?.length&&e.practiceStage!=='guided'?'open':''}><summary>${l.materials?.length&&e.practiceStage!=='guided'?'Материал для этого задания':'Напомнить правило'}</summary><a class="lesson-intro-link" href="#${base}">Вернуться к сцене и объяснению</a>`:'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${(l.beginner||l.courseGuide)?'</details>':'</aside>'}
   <div><section class="card exercise-card">
-   <div class="exercise-top"><span class="exercise-type">${e.kind==='speak'?'Скажи своими словами':e.kind==='write'?'Своя мысль':e.kind==='rewrite'?'Переформулируй':'С русского на английский'}</span><div class="steps" aria-label="Задание ${n+1} из ${l.exercises.length}">${l.exercises.map((ex,i)=>`<span class="step ${done.has(ex.id)?'done':''} ${i===n?'active':''}"></span>`).join('')}</div></div>
+   <div class="exercise-top"><span class="exercise-type">${e.kind==='speak'?'Скажи своими словами':e.kind==='write'?'Своя мысль':e.kind==='rewrite'?'Переформулируй':'С русского на английский'}</span><div class="lesson-navigation"><button id="prev" class="btn small ghost" aria-label="Предыдущее задание" ${n===0?'disabled':''}>${icon('back')}</button><div class="steps" aria-label="Задание ${n+1} из ${l.exercises.length}">${l.exercises.map((ex,i)=>`<span class="step ${done.has(ex.id)?'done':''} ${i===n?'active':''}"></span>`).join('')}</div><button id="next" class="btn small ghost" aria-label="${n===l.exercises.length-1?'Итоги занятия':'Следующее задание'}">${icon('arrow')}</button></div></div>
    ${lessonGuidanceHTML(l,e,n)}
-   ${(l.beginner||l.courseGuide)?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p><p class="context">${esc(e.context)}</p>
+   ${(l.beginner||l.courseGuide)?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p>${e.context?`<p class="context">${esc(e.context)}</p>`:''}
    <div class="answer-input-header"><label for="answer" class="field-label">Твой ответ на английском</label><button type="button" id="voice" class="btn" aria-controls="answer">${icon('mic')} Надиктовать ответ</button></div>
    <textarea id="answer" class="answer-area" spellcheck="false" placeholder="Напиши свою мысль или нажми «Надиктовать ответ»…">${esc(getDraft(key,data.state)||attempt?.answer||'')}</textarea>
    <div class="answer-meta"><span id="word-count"></span><span>Черновик сохраняется автоматически</span></div>
    <div class="exercise-actions"><div class="actions"><button id="hint-button" class="btn ghost small">Подсказка</button></div><button id="check" class="btn primary">Проверить ${icon('arrow')}</button></div>
    <audio id="audio-preview" class="audio-preview" controls hidden></audio><div id="hint" class="hint" hidden>${esc(e.hint)}</div><div id="feedback">${attempt?feedbackHTML(attempt):''}</div>
-   <div class="lesson-bottom"><span>Задание ${n+1} из ${l.exercises.length} <span class="kbd">Ctrl + Enter</span></span><div class="actions"><button id="prev" class="btn small ghost" ${n===0?'disabled':''}>${icon('back')}</button><button id="next" class="btn small">${n===l.exercises.length-1?'Завершить занятие':'Следующее'} ${icon('arrow')}</button></div></div>
-  </section><div class="note-card"><strong>${e.guidance?'Сначала с опорой, затем своими словами.':'Одну мысль можно выразить по-разному.'}</strong><br>${data.settings.provider==='offline'?'Сейчас доступно сравнение с примерами. Подключи помощника в настройках, чтобы получать оценку других вариантов.':'Помощник проверяет смысл, грамматику и естественность. Если ответ принят, изучи объяснение и попробуй применить конструкцию в новой ситуации.'}<br>После диктовки проверь расшифровку: разбор текста не оценивает произношение.<p class="actions"><a class="btn small" href="#/transfer/${esc(l.id)}">Применить тему в своей жизни</a><a class="btn small ghost" href="#/notebook/new/${esc(l.id)}">Моя мысль по этой теме</a></p></div></div>
+  </section></div>
  </div>`;
  bindCourseGuide($('#main'),l);
  const showTheory=tab=>{
@@ -100,7 +109,8 @@ function lesson(id,index){
  showTheory(l.materials?.length?'materials':'theory');$$('[data-tab]').forEach(b=>b.onclick=()=>showTheory(b.dataset.tab));
  if($('#guidance-listen'))$('#guidance-listen').onclick=()=>speak(e.guidance.example);
  if($('#guidance-toggle'))$('#guidance-toggle').onclick=ev=>{const body=$('#guidance-body');body.hidden=!body.hidden;ev.currentTarget.textContent=body.hidden?'Вернуть объяснение':'Убрать опору';ev.currentTarget.setAttribute('aria-expanded',String(!body.hidden));};
- const target=$('#answer'),onText=()=>{queueDraft(key,target.value);$('#word-count').textContent=words(target.value)+' слов';requestID=crypto.randomUUID();$('#feedback').innerHTML='';};
+ let cancelAdvance=()=>{};
+ const target=$('#answer'),onText=()=>{cancelAdvance();queueDraft(key,target.value);$('#word-count').textContent=words(target.value)+' слов';requestID=crypto.randomUUID();$('#feedback').innerHTML='';};
  if(localDraft(key)!==null||Object.prototype.hasOwnProperty.call(data.state.drafts,key))target.value=getDraft(key,data.state);
  if(attempt&&target.value!==attempt.answer)$('#feedback').innerHTML='';
  $('#word-count').textContent=words(target.value)+' слов';target.oninput=()=>{inputMode=['speak','write'].includes(e.kind)?'writing':'translation';onText();};
@@ -108,18 +118,24 @@ function lesson(id,index){
  $('#hint-button').onclick=()=>$('#hint').hidden=!$('#hint').hidden;
  $('#check').onclick=ev=>busy(ev.currentTarget,async()=>{
    if(target.value.trim().length<2)throw Error('Сначала напишите или произнесите ответ.');
-   const submitted=target.value,payload={id:requestID,lessonId:id,exerciseId:practiceID,answer:submitted,mode:inputMode};stopAudio();await queueDraft(key,submitted,true);const a=await api('/check',payload);
-   await refresh();if($('#answer')===target&&target.value===submitted&&currentAuthoredExercise(data.lessons.find(l=>l.id===id),a.exerciseId)){$('#feedback').innerHTML=feedbackHTML(a);bindMistakes($('#feedback'));$('#feedback').scrollIntoView({behavior:'smooth',block:'nearest'});}else toast('Разбор предыдущей версии сохранён в журнале.');
+   cancelAdvance();const submitted=target.value,submittedID=requestID,submittedRoute=location.hash,payload={id:requestID,lessonId:id,exerciseId:practiceID,answer:submitted,mode:inputMode};stopAudio();await queueDraft(key,submitted,true);const a=await api('/check',payload);
+   await refresh();const isCurrent=()=>$('#answer')===target&&target.value===submitted&&requestID===submittedID&&location.hash===submittedRoute&&currentAuthoredExercise(data.lessons.find(l=>l.id===id),a.exerciseId);
+   if(isCurrent()){
+    const feedback=$('#feedback'),correct=a.feedback?.verdict==='correct';
+    feedback.innerHTML=(correct?'<div class="lesson-success" role="status"><span id="advance-status">Верно! Переходим дальше…</span><button type="button" class="btn small ghost" id="stay-feedback">Остаться и послушать</button><button type="button" class="btn small" id="continue-feedback" hidden>Продолжить →</button></div>':'')+feedbackHTML(a);bindMistakes(feedback);
+    feedback.scrollIntoView({behavior:'smooth',block:'nearest'});
+    if(correct){cancelAdvance=scheduleLessonAdvance({isCurrent,advance:()=>{$('#next').click();},onCancel:()=>{if($('#feedback')===feedback&&$('#stay-feedback')){$('#advance-status').textContent='Верно. Можно послушать ответ и прочитать разбор.';$('#stay-feedback').hidden=true;$('#continue-feedback').hidden=false;}}});feedback.onpointerdown=()=>cancelAdvance();feedback.onfocusin=()=>cancelAdvance();$('#stay-feedback').onclick=()=>cancelAdvance();$('#continue-feedback').onclick=()=>$('#next').click();}
+   }else toast('Разбор предыдущей версии сохранён в журнале.');
  },data.settings.provider==='offline'?'Сравниваем…':'Разбираем ответ…');
  target.onkeydown=ev=>{if((ev.ctrlKey||ev.metaKey)&&ev.key==='Enter'){ev.preventDefault();$('#check').click();}};
- $('#prev').onclick=()=>{stopAudio();location.hash='/lesson/'+encodeURIComponent(id)+'/'+(n-1);};
- $('#next').onclick=()=>{stopAudio();if(n<l.exercises.length-1){location.hash='/lesson/'+encodeURIComponent(id)+'/'+(n+1);}else{const route=lessonSequence(data.lessons,data.learningPath).filter(r=>!r.lesson.id.startsWith('cinema-')&&lessonRouteInfo(r.lesson.id,data.studyRoute).introduction),at=route.findIndex(r=>r.lesson.id===id),next=route[at+1]?.lesson;location.hash=at>=0&&next?'/lesson/'+next.id:'/roadmap';toast('Ответы сохранены. К этому занятию можно вернуться.');}};
+ $('#prev').onclick=()=>{cancelAdvance();stopAudio();location.hash=practice(n-1);};
+ $('#next').onclick=()=>{cancelAdvance();stopAudio();location.hash=n<l.exercises.length-1?practice(n+1):base+'/complete';};
  bindMistakes();
 }
 async function render(){
  const version=++routeVersion;unmountMedia();stopAudio();
  try{await refresh();if(version!==routeVersion)return;const parts=location.hash.replace(/^#\/?/,'').split('/'),r=parts[0]||'today';shell(r);const main=$('#main');
-  if(r==='today')await mountDashboard(main,data,refresh);else if(r==='roadmap')mountRoadmap(main,data,parts[1]);else if(r==='lesson')lesson(parts[1],/^\d+$/.test(parts[2]||'')&&Number.isSafeInteger(+parts[2])?+parts[2]:undefined);
+  if(r==='today')await mountDashboard(main,data,refresh);else if(r==='roadmap')mountRoadmap(main,data,parts[1]);else if(r==='lesson'){const step=parts[2]?.split('?')[0];lesson(parts[1],step==='complete'?'complete':/^\d+$/.test(step||'')&&Number.isSafeInteger(+step)?+step:undefined);}
   else if(r==='tenses')mountTenses(main,data);
   else if(r==='pronunciation')mountPronunciation(main,data,parts[1],refresh);
   else if(r==='designs')mountDesigns(main);

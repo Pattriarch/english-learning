@@ -44,11 +44,12 @@ export async function studyUI(t,file,moduleMocks={},transform=source=>source){
   };
   const audio={stopAudio:fixture.stopAudio,beginAudio:()=>{fixture.stopAudio();const own=generation;return()=>own===generation;},speechVoiceName:id=>id,speak:(...args)=>fixture.speak(...args),voice:(...args)=>fixture.voice(...args),recordOnly:(...args)=>fixture.recordOnly(...args)};
   const key='studyFixture'+crypto.randomUUID(),descriptors=new Map();
-  const session=new Map();fixture.session=session;
+  const session=new Map();fixture.session=session;const events=new EventTarget();
   for(const[name,value]of Object.entries({[key]:{core,audio,...moduleMocks},document:{addEventListener(){},removeEventListener(){}},sessionStorage:{getItem:k=>session.get(k)||null,setItem:(k,v)=>session.set(k,v)},location:{hash:'#/unit/unit-1'},fetch:(...args)=>fixture.fetch(...args),window:{history:{replaceState:(_s,_t,url)=>location.hash=url},speechSynthesis:{addEventListener(){},removeEventListener(){}}}})){
     descriptors.set(name,Object.getOwnPropertyDescriptor(globalThis,name));Object.defineProperty(globalThis,name,{configurable:true,writable:true,value});
   }
-  t.after(()=>{for(const[name,descriptor]of descriptors){if(descriptor)Object.defineProperty(globalThis,name,descriptor);else delete globalThis[name];}});
+  for(const name of ['addEventListener','removeEventListener','dispatchEvent'])window[name]=events[name].bind(events);
+  t.after(()=>{events.dispatchEvent(new Event('hashchange'));for(const[name,descriptor]of descriptors){if(descriptor)Object.defineProperty(globalThis,name,descriptor);else delete globalThis[name];}});
   const source=transform(await readFile(new URL('../'+file,import.meta.url),'utf8')).replace(/^import \{([^}]+)\} from '\.\/([^']+)\.js';$/gm,(_,names,kind)=>kind==='core'||kind==='audio'||Object.hasOwn(moduleMocks,kind)?`const {${names}}=globalThis[${JSON.stringify(key)}][${JSON.stringify(kind)}];`:`import {${names}} from ${JSON.stringify(new URL('../'+kind+'.js',import.meta.url).href)};`).replace(/^(export \{[^}]+\} from )'\.\/([^']+)\.js';$/gm,(_,prefix,kind)=>prefix+JSON.stringify(new URL('../'+kind+'.js',import.meta.url).href)+';');
   fixture.module=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
   return fixture;

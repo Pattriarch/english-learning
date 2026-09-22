@@ -162,7 +162,7 @@ html{scroll-padding-top:90px}body{line-height:1.6}.content,.page{min-width:0}but
 .guided-lesson .answer-area{min-height:110px}
 .lesson-guidance{padding:0 0 24px;margin-bottom:24px;border-bottom:1px solid var(--line)}
 .lesson-guidance h2{margin:18px 0 12px;font-size:clamp(22px,3vw,28px);line-height:1.3}
-.lesson-guidance-body{font-size:17px;line-height:1.75;max-width:65ch}
+.lesson-guidance-body{font-size:17px;line-height:1.75;max-width:none}
 .lesson-guidance-example{background:var(--surface2);border-radius:16px;padding:16px 20px;margin-top:18px}
 .lesson-guidance-example p{margin:0;color:var(--muted)}
 .lesson-guidance-example p[lang=en]{font-size:24px;font-weight:550;color:var(--ink);line-height:1.45}
