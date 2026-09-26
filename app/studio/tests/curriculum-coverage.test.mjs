@@ -21,6 +21,9 @@ test('publication requires complete material and exercise references, not a matc
  assert.equal(preparedCoverageModule(module,lesson),true);
  for(const broken of [{...lesson,materials:[]},{...lesson,exercises:lesson.exercises.slice(1)},{...lesson,sections:[]},{...lesson,materials:lesson.materials.map((m,i)=>i?m:{...m,text:''})},{...lesson,exercises:lesson.exercises.map((e,i)=>i?e:{...e,materialIds:['missing']})},{...lesson,exercises:lesson.exercises.map(e=>({...e,id:'duplicate'}))}])assert.equal(preparedCoverageModule(module,broken),false);
  assert.equal(preparedCoverageModule(module,{id:module.id,title:module.title}),false);
+ const guidedStep={id:'e99',prompt:'Say the phrase first.',guidance:{title:'Step',body:'Body',example:'Hi.',translation:'Привет.'}};
+ assert.equal(preparedCoverageModule(module,{...lesson,exercises:[guidedStep,...lesson.exercises]}),true,'a language step before the material work keeps the lesson available');
+ assert.equal(preparedCoverageModule(module,{...lesson,exercises:[...lesson.exercises.map(e=>({...e,materialIds:[]})),guidedStep]}),false,'a lesson that never uses its sources is not published');
 });
 
 test('level totals and publication update when actual lessons arrive, without mutating the frozen plan',()=>{

@@ -1,0 +1,329 @@
+{
+  "id": "path-passive-basic",
+  "title": "Пассив: что случилось, а не кто сделал",
+  "subtitle": "Начни с того, что важно → be покажет время → by — только по делу → got в разговоре",
+  "level": "B1",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Рассказать, что случилось с вещью или с тобой, когда неизвестно или неважно, кто это сделал: My bike was stolen, I was invited.",
+  "formula": "Someone stole my bike. → My bike was stolen. → My bike has been found.",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-be",
+    "path-past-simple",
+    "path-present-perfect"
+  ],
+  "recycles": [
+    "path-past-simple",
+    "path-present-perfect"
+  ],
+  "teaches": [
+    "пассив = be + третья форма: действие случилось с предметом или человеком — My bike was stolen",
+    "время показывает be: is/are made, was/were stolen, has/have been sold; третья форма не меняется",
+    "«Меня пригласили», «Здесь говорят по-английски» → I was invited, English is spoken here: в начале I, а не me",
+    "by + исполнитель — только когда это новость: It was painted by my mom",
+    "отрицание и вопрос через be, без do и did: I wasn't invited. Were you invited? Has it been fixed?",
+    "у happen, arrive, die пассива нет: The accident happened, а не was happened",
+    "get-пассив в разговоре о неожиданном: I got fired, My flight got canceled; вопрос — Did you get paid?",
+    "слова: steal → stolen, invite, fix, paint, damage, hurt, cancel → canceled, fire (уволить), be known for"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Passives (B1–B2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives",
+      "notes": "Сверено: пассив строится как be + третья форма, время меняет только be; исполнителя называют не всегда; формы present simple, past simple и present perfect."
+    },
+    {
+      "title": "VOA Learning English · Everyday Grammar: When Passive Is Better than Active",
+      "url": "https://learningenglish.voanews.com/a/everyday-grammar-when-passive-is-better-than-active/2825976.html",
+      "notes": "Когда исполнитель неизвестен или неважен и когда его всё же называют через by; пассив помогает не называть виновного. В неформальной американской речи get заменяет be: I got hit by a car."
+    },
+    {
+      "title": "Инглекс · Passive Voice в английском языке",
+      "url": "https://englex.ru/passive-voice/",
+      "notes": "Объяснение для русскоязычных: русские фразы без действующего лица («Студентов попросили…») передаются пассивом; get-пассив отмечен как разговорный."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Время меняет только be",
+    "why": "Delivered одинаково во всех трёх фразах. Бывает ли это обычно, случилось в понедельник или уже готово — показывает только be.",
+    "items": [
+      {
+        "label": "Обычно · is/are",
+        "en": "Packages are usually delivered in the afternoon.",
+        "ru": "Посылки обычно привозят днём.",
+        "note": "Так бывает всегда. Посылок много — are."
+      },
+      {
+        "label": "В прошлом · was/were",
+        "en": "My package was delivered on Monday.",
+        "ru": "Мою посылку доставили в понедельник.",
+        "note": "Названо, когда это было, — was."
+      },
+      {
+        "label": "Результат сейчас · has/have been",
+        "en": "Your package has been delivered.",
+        "ru": "Ваша посылка доставлена.",
+        "note": "Когда — неважно: посылка уже у двери."
+      }
+    ],
+    "footnote": "Been — третья форма be. Вопрос тоже строит be: Was it delivered? Has it been delivered?",
+    "focus": [
+      "are",
+      "was",
+      "has been",
+      "delivered"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему «Меня пригласили» по-английски начинается с I?",
+      "body": "Ты выходишь из магазина, а велосипеда нет. Кто его взял — неизвестно. Другу ты пишешь: «У меня украли велосипед». По-русски мы просто не называем того, кто действовал: украли, пригласили, доставили.\n\nВ английской фразе всегда есть «кто» — слово в начале, о ком или о чём речь. Если исполнитель неизвестен или неважен, начинаем с того, с чем это случилось: My bike was stolen — мой велосипед украли. Stolen — третья форма steal («красть»): та самая форма, которая стоит после have в I have finished. Was + stolen называют пассивом: велосипед ничего не делает сам, действие случилось с ним.\n\nС людьми так же. «Меня пригласили на свадьбу» — I was invited to a wedding. В начале I, а не me: теперь «я» — главное слово фразы. «Здесь говорят по-английски» — English is spoken here. Один пассив ты, скорее всего, уже знаешь: I was born — я родился.\n\nМожно сказать и Someone stole my bike. Но друга волнует велосипед, а не неизвестный вор, поэтому естественнее начать с велосипеда."
+    },
+    {
+      "title": "Время показывает be, третья форма не меняется",
+      "body": "Сначала реши, какое это время, — как в обычной фразе. Это время получает be, а после него всегда стоит третья форма.\n\nОбычно, всегда — am/is/are: This cheese is made in Wisconsin. Этот сыр делают в Висконсине.\n\nЗаконченное прошлое, часто сказано когда, — was/were: The windows were washed yesterday. Окна помыли вчера.\n\nУже, результат виден сейчас, — has/have been: The room has been booked. Номер забронирован. Been — третья форма be.\n\nОтрицание и вопрос тоже строит be, без do и did: I wasn't invited. Were you invited? Has it been fixed? Did you invited — ошибка."
+    },
+    {
+      "title": "By — только если исполнитель что-то сообщает",
+      "body": "Обычно в пассиве того, кто действовал, не называют. Он неизвестен (My bike was stolen), понятен и так (The thief was arrested — вора арестовали, ясно, что полиция) или неважен. By people и by someone ничего не добавляют — их не пишут.\n\nBy + исполнитель нужен, когда он и есть новость: This house was built by my grandfather — этот дом построил мой дедушка. Новое для собеседника стоит в конце фразы.\n\nЕсли разговор с самого начала о человеке, пассив не нужен: My grandfather built this house. Особенно если это ты сам: I broke the vase (я разбил вазу) звучит честнее, чем The vase was broken."
+    },
+    {
+      "title": "Was happened — частая ошибка",
+      "body": "Пассив бывает только у действия, которое кто-то совершает над чем-то: steal a bike → the bike was stolen. У happen («случаться»), arrive («прибывать») и die («умирать») такого «над чем» нет. Поэтому The accident happened at night — авария случилась ночью, без was. Проверь себя: можно ли сказать «кто-то happened что-то»? Нельзя — значит, и пассива нет.\n\nВторая частая ошибка — потерять be: My bike stolen. По-русски «велосипед украден» звучит законченно, а английской фразе без was не хватает глагола. Как в I am ready: be нужен и здесь."
+    },
+    {
+      "title": "I got fired: пассив в разговоре",
+      "body": "В разговоре американцы часто ставят get вместо be: I got fired — меня уволили. He got hurt — он пострадал. Так обычно рассказывают о неожиданном, часто неприятном событии, которое с кем-то случилось.\n\nВремя теперь показывает сам get: get → got. Поэтому отрицание и вопрос строим через did, как у обычного глагола: I didn't get invited. Did you get paid? — тебе заплатили?\n\nДля фактов, правил и объявлений оставляй be: English is spoken here, The city is known for its bridges (город известен своими мостами). С got такие фразы звучат странно."
+    }
+  ],
+  "examples": [
+    {
+      "en": "My bike was stolen last night.",
+      "ru": "Вчера вечером у меня украли велосипед.",
+      "why": "Вор неизвестен, поэтому фраза начинается с велосипеда: was + stolen."
+    },
+    {
+      "en": "I was invited to Sam's wedding.",
+      "ru": "Меня пригласили на свадьбу Сэма.",
+      "why": "Русское «меня» стало I: в английской фразе это главное слово."
+    },
+    {
+      "en": "English is spoken here.",
+      "ru": "Здесь говорят по-английски.",
+      "why": "Так всегда, поэтому is. Кто именно говорит, неважно."
+    },
+    {
+      "en": "All the tickets have been sold.",
+      "ru": "Все билеты проданы.",
+      "why": "Результат виден сейчас: билетов больше нет. Когда их продали, неважно."
+    },
+    {
+      "en": "This house was built by my grandfather.",
+      "ru": "Этот дом построил мой дедушка.",
+      "why": "Строитель — новость, поэтому он в конце после by. Built — третья форма build."
+    },
+    {
+      "en": "The package arrived on Tuesday.",
+      "ru": "Посылка пришла во вторник.",
+      "why": "Arrive никто ни с чем не делает — посылка пришла сама. Поэтому без was."
+    },
+    {
+      "en": "He got hurt at soccer practice.",
+      "ru": "Он получил травму на тренировке по футболу.",
+      "why": "Got вместо was — так в разговоре говорят о неожиданной неприятности."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши другу: «Вчера в метро у меня украли кошелёк». wallet = кошелёк, steal → stole → stolen = красть, on the subway = в метро.",
+      "context": "",
+      "guidance": {
+        "title": "Начни с того, что пострадало",
+        "body": "Вор неизвестен, поэтому первой ставь вещь. Дальше — was, раз это уже случилось, и третья форма глагола.",
+        "example": "Our car was damaged last night.",
+        "translation": "Вчера ночью нашу машину повредили."
+      },
+      "hint": "Начни так: My wallet … Какая форма be подходит для «вчера»?",
+      "answers": [
+        "My wallet was stolen on the subway yesterday.",
+        "My wallet was stolen yesterday on the subway.",
+        "Yesterday my wallet was stolen on the subway.",
+        "Yesterday, my wallet was stolen on the subway.",
+        "My wallet got stolen on the subway yesterday."
+      ],
+      "explanation": "My wallet was stolen: главное — кошелёк, вор неизвестен. Was показывает прошлое, stolen — третья форма steal. Время и место можно вынести в начало: Yesterday, my wallet…"
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Соседка Лиза позвала тебя и брата на новоселье. Напиши маме: «Нас пригласили к Лизе на новоселье в субботу». invite = пригласить, housewarming party = новоселье.",
+      "context": "",
+      "guidance": {
+        "title": "Кого пригласили — тот и начинает фразу",
+        "body": "«Меня», «нас», «его» в начале английской фразы становятся I, we, he. Be подстраивается под это слово, как обычно: I was, we were.",
+        "example": "He was invited to the meeting.",
+        "translation": "Его пригласили на встречу."
+      },
+      "hint": "С какого слова начнёшь — us или we? Какая форма be идёт с ним в прошлом?",
+      "answers": [
+        "We were invited to Liza's housewarming party on Saturday.",
+        "We were invited to Liza's housewarming on Saturday.",
+        "We've been invited to Liza's housewarming party on Saturday.",
+        "We have been invited to Liza's housewarming party on Saturday.",
+        "We were invited to a housewarming party at Liza's on Saturday."
+      ],
+      "explanation": "«Нас» стало we, поэтому were invited. We’ve been invited тоже верно: так подчёркивают, что приглашение уже есть сейчас."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Американский коллега спрашивает, на каком языке говорят в Канаде. Ответь: «В Канаде говорят по-английски и по-французски». speak → spoke → spoken = говорить.",
+      "context": "",
+      "guidance": {
+        "title": "Так бывает всегда — is или are",
+        "body": "Это не событие, а то, что верно всегда. Поэтому be в настоящем: is для одного, are для нескольких.",
+        "example": "Coffee is grown in Colombia.",
+        "translation": "Кофе выращивают в Колумбии."
+      },
+      "hint": "Сколько здесь языков? От этого зависит выбор между is и are.",
+      "answers": [
+        "English and French are spoken in Canada.",
+        "Both English and French are spoken in Canada.",
+        "In Canada, English and French are spoken.",
+        "In Canada English and French are spoken."
+      ],
+      "explanation": "Два языка — are spoken; для одного было бы is spoken. Можно сказать и In Canada, people speak English and French, но в пассиве главное слово — языки."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем present perfect и past simple. Коллега пишет: Has the printer been fixed? Ответь: «Да. Его починили сегодня утром». fix = чинить.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: результат — has been, время названо — was",
+        "body": "Вспоминаем пару I have finished и I finished yesterday. Короткое «да» отвечает на вопрос о результате — через has. Раз ты называешь, когда починили, дальше нужен was.",
+        "example": "Has the room been cleaned? — Yes, it was cleaned at nine.",
+        "translation": "Комнату убрали? — Да, её убрали в девять."
+      },
+      "hint": "Короткий ответ на вопрос с has: Yes, it … Потом скажи, когда: It was …",
+      "answers": [
+        "Yes, it has. It was fixed this morning.",
+        "Yes, it has been fixed. It was fixed this morning.",
+        "Yes, it's been fixed. It was fixed this morning.",
+        "Yes, it was fixed this morning."
+      ],
+      "explanation": "This morning называет время, поэтому was fixed, а не has been fixed. Короткий ответ Yes, it has повторяет has из вопроса, как Yes, I have."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Гость смотрит на картину у тебя на стене: Nice picture! Where did you buy it? Ответь: «Я её не покупал(а). Её нарисовала моя мама». paint = рисовать красками. Вторую фразу начни с It.",
+      "context": "",
+      "guidance": {
+        "title": "Кто сделал — новость? Добавь by",
+        "body": "Гость не знает, кто автор, — это и есть новость. Поставь её в конец после by: сначала что сделали, потом кем.",
+        "example": "This song was written by my brother.",
+        "translation": "Эту песню написал мой брат."
+      },
+      "hint": "Первая фраза в past simple с didn't: I didn't … it. Вторая: It was … by …",
+      "answers": [
+        "I didn't buy it. It was painted by my mom.",
+        "I did not buy it. It was painted by my mom.",
+        "I didn't buy it. It was painted by my mother."
+      ],
+      "explanation": "Картина уже в разговоре, поэтому it в начале, а мама — новость в конце после by. My mom painted it тоже естественно, если хочешь начать с мамы."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет тебе про аварию возле дома и просит проверить английский: It was happened at 8. Two cars damaged, but nobody hurt. Исправь три ошибки и напиши текст целиком.",
+      "context": "damage — повредить; hurt → hurt → hurt — ранить, ушибить.",
+      "guidance": {
+        "title": "Проверь каждый глагол",
+        "body": "Для каждого действия спроси: его кто-то совершил над кем-то или чем-то? Тогда нужен be + третья форма. Если событие случилось само, be лишний.",
+        "example": "The fire started at night. Three houses were damaged.",
+        "translation": "Пожар начался ночью. Пострадали три дома."
+      },
+      "hint": "Можно ли «happen что-то»? А машины кто-то повредил или они сами? Машин две — was или were?",
+      "answers": [
+        "It happened at 8. Two cars were damaged, but nobody was hurt.",
+        "It happened at eight. Two cars were damaged, but nobody was hurt.",
+        "It happened at 8. Two cars were damaged, but nobody got hurt.",
+        "It happened at eight. Two cars were damaged, but nobody got hurt."
+      ],
+      "explanation": "Happen случается само — was не нужен. Машины и людей кто-то повредил, поэтому were damaged и was hurt. Nobody got hurt тоже верно и звучит разговорно."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты застрял в аэропорту. Напиши другу по-разговорному, с got: «Мой рейс отменили! Прилечу завтра». cancel → canceled = отменить (в американском написании одна l).",
+      "context": "",
+      "guidance": {
+        "title": "О неприятности в разговоре — got",
+        "body": "Когда рассказываешь другу о неожиданной неприятности, ставь got на место was. Третья форма после него та же.",
+        "example": "My suitcase got lost at the airport.",
+        "translation": "Мой чемодан потерялся в аэропорту."
+      },
+      "hint": "Начни так: My flight got … Вторая фраза — о завтра: I'll …",
+      "answers": [
+        "My flight got canceled! I'll be there tomorrow.",
+        "My flight got canceled! I'll fly in tomorrow.",
+        "My flight got canceled! I'll arrive tomorrow.",
+        "My flight got canceled! I'll fly tomorrow.",
+        "My flight got canceled! I'm flying in tomorrow.",
+        "My flight got canceled! I'll be back tomorrow."
+      ],
+      "explanation": "My flight got canceled — обычная американская фраза в сообщении другу. My flight was canceled тоже верно, но звучит спокойнее и официальнее."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Управляющий домом написал объявление для жильцов, и в каждой фразе у него they. Жильцам важен дом, а не рабочие. Перепиши три фразы так, чтобы каждая начиналась с того, что сделали: They painted the lobby on Monday. They have fixed the elevator. They clean the stairs every Friday.",
+      "context": "lobby — холл, elevator — лифт, stairs — лестница.",
+      "hint": "Сохрани время каждой фразы. Начни так: The lobby was …",
+      "answers": [
+        "The lobby was painted on Monday. The elevator has been fixed. The stairs are cleaned every Friday.",
+        "The lobby was painted on Monday. The elevator's been fixed. The stairs are cleaned every Friday."
+      ],
+      "explanation": "Засчитывается, если сохранены все три времени: painted → was painted, have fixed → has been fixed, clean → are cleaned. They пропадает: кто красил и чинил, жильцам неважно."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Курьер оставил твою посылку в холле дома, а когда ты вернулся, её там не было. Напиши управляющему домом, Mr. Lee, сообщение на 60–100 слов. В нём: что и когда доставили; что, по-твоему, случилось; что ты уже сделал; просьба с Could you…?",
+      "context": "package — посылка, deliver — доставить, leave → left — оставить, lobby — холл, security camera — камера наблюдения, delivery company — служба доставки.",
+      "hint": "План: I'm writing about a package that … . It was left … . I think … . I've already … . Could you …?",
+      "answers": [
+        "Hi Mr. Lee,\nI'm writing about a package that was delivered to our building on Monday, May 4. The delivery app says it was left in the lobby at 2:15 p.m., but when I got home at six, it wasn't there. I think it was stolen. I've already contacted the delivery company. Could you please check the security camera? My apartment is 5B.\nThank you,\nAnna Petrova"
+      ],
+      "explanation": "Засчитывается, если сказано, что и когда доставили, что случилось и что ты уже сделал, а в конце есть просьба. Нужно хотя бы три пассива: was delivered, was left, was stolen."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Американский знакомый собирается в твой город. Расскажи ему о городе вслух за 30–60 секунд. В рассказе: на каком языке там говорят; чем город известен (is known for); что там делают или выращивают; что там построили или открыли.",
+      "context": "be known for — быть известным (чем-то); build → built — построить; make → made — делать; grow → grown — выращивать; open — открыть.",
+      "hint": "Начни так: I'm from … . … is spoken there. It's known for …",
+      "answers": [
+        "I'm from Kazan. Russian and Tatar are spoken there. Kazan is known for its Kremlin. It was built hundreds of years ago, and it's beautiful at night. Chak-chak is made there. It's a sweet dessert, and tourists love it. A lot of new parks have been opened in the last few years, so it's a great place for a walk."
+      ],
+      "explanation": "Засчитывается любой город, если есть все четыре пункта и хотя бы три пассива: is/are spoken, is known for, was built или have been opened."
+    }
+  ]
+}

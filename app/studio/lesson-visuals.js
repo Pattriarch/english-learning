@@ -28,8 +28,11 @@ const focus={
  'path-everyday-phrasal':['Turn off','Turn','off','it']
 };
 // Mark only deliberately selected whole words/phrases, never raw lesson HTML.
-export function visualSentence(text,id){
- const terms=(focus[id]||[]).slice().sort((a,b)=>b.length-a.length);
+// A rewritten lesson carries its own diagram; older lessons use the built-in set.
+export const lessonTeachingVisual=lesson=>validVisual(lesson?.visual)?lesson.visual:teachingVisuals[lesson?.id]||null;
+function validVisual(v){return Boolean(v&&typeof v.title==='string'&&v.title.trim()&&Array.isArray(v.items)&&v.items.length>=2&&v.items.every(i=>i&&typeof i.en==='string'&&typeof i.ru==='string'));}
+export function visualSentence(text,id,terms=focus[id]||[]){
+ terms=terms.filter(t=>typeof t==='string'&&t.trim()).slice().sort((a,b)=>b.length-a.length);
  if(!terms.length)return esc(text);
  const escaped=terms.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
  const expression=new RegExp('\\b('+escaped.join('|')+')\\b','g');
@@ -41,12 +44,13 @@ export function visualSentence(text,id){
  return output+esc(text.slice(offset));
 }
 export function lessonDiagramHTML(lesson){
- const visual=teachingVisuals[lesson.id];if(!visual)return '';
+ const visual=lessonTeachingVisual(lesson);if(!visual)return '';
+ const terms=Array.isArray(visual.focus)?visual.focus:focus[lesson.id]||[];
  const kind=kinds.has(visual.kind)?visual.kind:'contrast';
- return `<section class="lesson-diagram diagram-${kind}" aria-label="Наглядное объяснение"><div class="diagram-heading"><span class="eyebrow">Сравни и пойми</span><h3>${esc(visual.title)}</h3><p>${esc(visual.why)}</p></div><ol class="diagram-items">${visual.items.map((item,i)=>`<li class="diagram-item"><div class="diagram-label"><span class="diagram-node" aria-hidden="true">${i+1}</span><strong>${esc(item.label)}</strong></div><p class="diagram-ru">${esc(item.ru)}</p><div class="diagram-answer"><div class="diagram-english"><p lang="en">${visualSentence(item.en,lesson.id)}</p><button type="button" class="btn small ghost" data-visual-speak="${i}" aria-label="Послушать пример ${i+1}: ${esc(item.en)}">${icon('sound')}</button></div><p class="diagram-note">${esc(item.note)}</p></div><p class="diagram-recall-prompt" hidden>Скажи эту мысль по-английски, затем открой пример.</p></li>`).join('')}</ol>${visual.footnote?`<p class="diagram-footnote">${esc(visual.footnote)}</p>`:''}<div class="diagram-actions"><button type="button" class="btn small secondary" data-visual-recall aria-pressed="false">Скрыть английский · вспомнить самому</button><span class="small-note">Это тренировка с опорой; результат не оценивается.</span></div></section>`;
+ return `<section class="lesson-diagram diagram-${kind}" aria-label="Наглядное объяснение"><div class="diagram-heading"><span class="eyebrow">Сравни и пойми</span><h3>${esc(visual.title)}</h3><p>${esc(visual.why)}</p></div><ol class="diagram-items">${visual.items.map((item,i)=>`<li class="diagram-item"><div class="diagram-label"><span class="diagram-node" aria-hidden="true">${i+1}</span><strong>${esc(item.label)}</strong></div><p class="diagram-ru">${esc(item.ru)}</p><div class="diagram-answer"><div class="diagram-english"><p lang="en">${visualSentence(item.en,lesson.id,terms)}</p><button type="button" class="btn small ghost" data-visual-speak="${i}" aria-label="Послушать пример ${i+1}: ${esc(item.en)}">${icon('sound')}</button></div><p class="diagram-note">${esc(item.note)}</p></div><p class="diagram-recall-prompt" hidden>Скажи эту мысль по-английски, затем открой пример.</p></li>`).join('')}</ol>${visual.footnote?`<p class="diagram-footnote">${esc(visual.footnote)}</p>`:''}<div class="diagram-actions"><button type="button" class="btn small secondary" data-visual-recall aria-pressed="false">Скрыть английский · вспомнить самому</button><span class="small-note">Это тренировка с опорой; результат не оценивается.</span></div></section>`;
 }
 export function bindLessonVisuals(root,lesson){
- const visual=teachingVisuals[lesson.id];if(!visual)return;
+ const visual=lessonTeachingVisual(lesson);if(!visual)return;
  root.querySelectorAll('[data-visual-speak]').forEach(button=>button.onclick=()=>{
   const item=visual.items[Number(button.dataset.visualSpeak)];
   if(item)speak(item.en,.9,'en-US',{button,isCurrent:()=>button.isConnected});

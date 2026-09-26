@@ -219,6 +219,7 @@ func (e *kokoroSpeechEngine) synthesize(ctx context.Context, profile string, b s
 	} else if b.Voice == "" {
 		b.Voice = "af_heart"
 	}
+	b.Text = americanSpeechText(b.Text)
 	if err := ctx.Err(); err != nil {
 		return speechResult{}, err
 	}

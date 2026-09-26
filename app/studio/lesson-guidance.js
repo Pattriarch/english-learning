@@ -1,10 +1,11 @@
 import {esc,icon} from './core.js';
+import {isGuidedLesson} from './authored-exercise.js';
 
 export function lessonGuidanceHTML(lesson,exercise,index){
- if(!lesson.beginner&&!lesson.courseGuide)return '';
+ if(!isGuidedLesson(lesson))return '';
  const g=exercise.guidance;
  if(!g&&lesson.courseGuide)return `<div class="lesson-step-heading"><span class="eyebrow">Теперь применяем</span><p>${esc(lesson.courseGuide.beforePractice)}</p></div>`;
- if(!g)return '<div class="lesson-step-heading"><span class="eyebrow">Теперь сам · без готового образца</span><p>Используй то, что уже потренировал. Одной короткой мысли достаточно, если в задании не сказано иначе.</p></div>';
+ if(!g)return '<div class="lesson-step-heading"><span class="eyebrow">Теперь сам · без готового образца</span><p>Используй то, что уже потренировал. Что именно написать или сказать — в задании ниже.</p></div>';
  return `<section class="lesson-guidance" aria-label="Объяснение перед заданием"><div class="spread"><span class="eyebrow">Короткое объяснение</span><button type="button" class="btn small ghost" id="guidance-toggle" aria-expanded="true" aria-controls="guidance-body">Убрать опору</button></div><div id="guidance-body"><h2>${esc(g.title)}</h2><p class="lesson-guidance-body">${esc(g.body)}</p><div class="lesson-guidance-example"><div class="spread"><p lang="en">${esc(g.example)}</p><button type="button" class="btn small ghost" id="guidance-listen" aria-label="Послушать образец">${icon('sound')}</button></div><p>${esc(g.translation)}</p></div></div></section>`;
 }
 

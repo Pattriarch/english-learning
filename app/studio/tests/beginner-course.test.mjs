@@ -16,14 +16,16 @@ const now=new Date('2026-09-20T12:00:00'),at=new Date('2026-09-20T10:00:00').toI
 const data=()=>({lessons,learningPath,settings:{},state:{attempts:[],cards:[],reviews:[],drafts:{},read:{}}});
 const attempt=(lesson,ex,overrides={})=>({id:lesson.id+ex.id,lessonId:lesson.id,exerciseId:authoredExerciseID(ex),prompt:ex.prompt,answer:ex.answers[0],at,feedback:{verdict:'correct',source:'codex'},...overrides});
 
-test('the beginner route teaches the first tiny answer before asking for it; all 30 units are gradual',()=>{
- assert.equal(beginner.length,30);assert.equal(beginner.reduce((n,l)=>n+l.exercises.length,0),244);
+test('the beginner route teaches the first tiny answer before asking for it; every foundation unit is gradual',()=>{
+ assert.equal(beginner.length,34);assert.ok(beginner.every(l=>l.exercises.length>=8&&l.exercises.length<=14));
  const sequence=lessonSequence(lessons,learningPath).filter(r=>r.lesson.beginner).map(r=>r.lesson);
- assert.deepEqual(sequence.slice(0,4).map(l=>l.id),['path-be','path-articles-basic','path-plurals','path-present-simple']);
+ assert.deepEqual(sequence.slice(0,4).map(l=>l.id),['path-be','path-sound-basics','path-articles-basic','path-plurals']);
  for(const [i,l] of sequence.entries()){
   assert.deepEqual(l.prerequisites,i?[sequence[i-1].id]:[]);
-  assert.ok(l.exercises.slice(0,-2).every(e=>e.practiceStage==='guided'));
-  assert.ok(l.exercises.slice(-2).every(e=>e.practiceStage==='independent'&&!e.guidance));
+  const firstIndependent=l.exercises.findIndex(e=>e.practiceStage==='independent');
+  assert.ok(firstIndependent>=Math.max(3,l.exercises.length-3),l.id+': short supported steps come first');
+  assert.ok(l.exercises.slice(0,firstIndependent).every(e=>e.practiceStage==='guided'),l.id);
+  assert.ok(l.exercises.slice(firstIndependent).every(e=>e.practiceStage==='independent'&&!e.guidance),l.id);
   for(const e of l.exercises){
    assert.ok(e.revision>=1,l.id+e.id);
    if(e.guidance){for(const k of ['title','body','example','translation'])assert.ok(e.guidance[k]?.trim(),l.id+e.id+k);assert.ok(e.guidance.body.split(/\s+/).length<=90,l.id+e.id);}
@@ -52,7 +54,7 @@ test('saved old revisions and unsuccessful answers cannot silently skip beginner
  d.state.attempts=l.exercises.map(e=>attempt(l,e,{exerciseId:e.id}));
  assert.equal(createDailyPlan(d,{level:'A1',minutes:30},now).blocks[0].href,'#/lesson/path-be/0');
  d.state.attempts=l.exercises.map(e=>attempt(l,e));
- assert.match(createDailyPlan(d,{level:'A1',minutes:30},now).blocks[0].href,/path-articles-basic/);
+ assert.match(createDailyPlan(d,{level:'A1',minutes:30},now).blocks[0].href,/path-sound-basics/);
  d.state.attempts.push(attempt(l,l.exercises[2],{id:'retry',at:new Date('2026-09-20T11:00:00').toISOString(),feedback:{verdict:'partial'}}));
  d.state.attempts.push(attempt(l,l.exercises[2],{id:'bad-date',at:'invalid'}));
  const plan=createDailyPlan(d,{level:'A1',minutes:30},now);

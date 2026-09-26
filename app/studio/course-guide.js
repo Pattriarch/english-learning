@@ -1,6 +1,6 @@
 import {esc,icon} from './core.js';
 import {speak} from './audio.js';
-import {lessonDiagramHTML,bindLessonVisuals,teachingVisuals} from './lesson-visuals.js';
+import {lessonDiagramHTML,bindLessonVisuals,lessonTeachingVisual} from './lesson-visuals.js';
 
 const scenes={
  states:{file:'be-states-scene.png',alt:'Слева девушка с ключами и рюкзаком готова выйти; справа она устало зевает на диване.',title:'Выходим — или лучше отдохнуть?',en:'I am ready. I am tired.',ru:'Я готова. Я устала.',why:'Слева она готова выйти, справа хочет отдохнуть. В обеих фразах говорим о её состоянии. Почему здесь появляется am? Разберём ниже.'},
@@ -29,9 +29,9 @@ export function lessonVisualHTML(lesson){
  const s=lessonVisual(lesson);if(!s)return '';
  return `<figure class="course-visual"><img src="/assets/course-scenes/${s.file}" alt="${esc(s.alt)}" loading="lazy" width="1536" height="1024"><figcaption><h3>${esc(s.title)}</h3><div class="diagram-english"><p lang="en">${esc(s.en)}</p><button type="button" class="btn small ghost" data-scene-speak aria-label="Послушать подпись к иллюстрации">${icon('sound')}</button></div><p>${esc(s.ru)}</p><p class="small-note">${esc(s.why)}</p></figcaption></figure>`;
 }
-export function lessonVisualSupportHTML(lesson){
- const diagram=lessonDiagramHTML(lesson),scene=lessonVisualHTML(lesson);if(!diagram&&!scene)return '';
- const count=teachingVisuals[lesson.id]?.items.length;
+export function lessonVisualSupportHTML(lesson,{scene:withScene=true}={}){
+ const diagram=lessonDiagramHTML(lesson),scene=withScene?lessonVisualHTML(lesson):'';if(!diagram&&!scene)return '';
+ const count=lessonTeachingVisual(lesson)?.items.length;
  return `<details class="course-visual-support"><summary><span>Разобраться наглядно</span><small>${count?`Схема · ${count} примера${scene?' · иллюстрация':''}`:'Иллюстрация с объяснением'}</small></summary><div class="course-visual-support-body">${scene}${diagram}</div></details>`;
 }
 export function courseGuideHTML(lesson,index=0){

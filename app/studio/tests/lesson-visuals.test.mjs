@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
-import {teachingVisuals,lessonDiagramHTML,visualSentence,bindLessonVisuals} from '../lesson-visuals.js';
+import {teachingVisuals,lessonDiagramHTML,visualSentence,bindLessonVisuals,lessonTeachingVisual} from '../lesson-visuals.js';
 import {courseGuideHTML,lessonVisual,lessonVisualSupportHTML} from '../course-guide.js';
 import {beginnerBookNotes} from '../book-beginner-notes.js';
 import {bookBeginnerNotesHTML} from '../book-preparation.js';
@@ -10,7 +10,8 @@ const lessons=[...read('curriculum.json'),...readdirSync(new URL('courses/',dir)
 
 test('visual explanations cover every foundational A1/A2 lesson and only existing topics',()=>{
  assert.equal(Object.keys(teachingVisuals).length,70);
- for(const l of lessons.filter(l=>l.beginner))assert.ok(teachingVisuals[l.id],l.id);
+ for(const l of lessons.filter(l=>l.beginner))assert.ok(lessonTeachingVisual(l),l.id);
+ for(const l of lessons.filter(l=>l.visual)){const v=l.visual;assert.ok(['sequence','contrast','timeline','scale'].includes(v.kind)&&v.title&&v.why&&v.items.length>=2&&v.items.length<=4,l.id);for(const item of v.items)assert.ok(item.label&&item.en&&item.ru&&item.note,l.id);assert.equal((lessonDiagramHTML(l).match(/data-visual-speak=/g)||[]).length,v.items.length);}
  let examples=0;
  for(const [id,v] of Object.entries(teachingVisuals)){
   assert.ok(lessons.some(l=>l.id===id),id);assert.ok(v.title&&v.why);

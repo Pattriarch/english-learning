@@ -10,7 +10,10 @@ export function preparedCoverageModule(module,lesson){
  return expected>0&&exercises.length>=expected&&required.length>0&&required.every(id=>materialIds.has(id))
   &&arr(lesson.sections).some(s=>text(s?.body))
   &&new Set(exercises.map(e=>e?.id)).size===exercises.length
-  &&exercises.every(e=>text(e?.id)&&text(e?.prompt)&&arr(e.materialIds).length>0&&e.materialIds.every(id=>materialIds.has(id)));
+  // A guided language step may come without material; the lesson must still
+  // be built on its sources, and every reference must resolve.
+  &&exercises.every(e=>text(e?.id)&&text(e?.prompt)&&arr(e.materialIds).every(id=>materialIds.has(id)))
+  &&exercises.filter(e=>arr(e.materialIds).length>0).length>=Math.min(3,expected);
 }
 
 export function coverageSummary(metadata,lessons,level=null){

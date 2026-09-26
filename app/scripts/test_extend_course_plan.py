@@ -16,7 +16,7 @@ class CourseExpansionTests(unittest.TestCase):
   plan=json.loads((APP/'content/extended-course-plan.json').read_text(encoding='utf-8-sig'))
   self.current={**plan,'modules':plan['modules'][:1]}
   self.supplement=json.loads((APP/'content/external-topic-bridge-plan.json').read_text(encoding='utf-8-sig'))
-  lessons=json.loads((APP/'content/courses/extended-skills.json').read_text(encoding='utf-8-sig'))
+  lessons=json.loads((Path(__file__).parent/'fixtures/extended-generator-lessons.json').read_text(encoding='utf-8'))
   self.lesson=next(l for l in lessons if l['id']==self.current['modules'][0]['id'])
   self.plan_path=self.app/'content/extended-course-plan.json'
   self.extra_path=self.app/'supplement.json'

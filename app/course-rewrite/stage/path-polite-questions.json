@@ -1,0 +1,340 @@
+{
+  "id": "path-polite-questions",
+  "title": "Не подскажете…?: вежливые вопросы и просьбы",
+  "subtitle": "Вежливое начало → внутри порядок утверждения → if для «да/нет» → мягкая просьба",
+  "level": "B1",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Вежливо спросить незнакомого человека о месте, времени или цене и попросить об услуге, не ломая порядок слов.",
+  "formula": "Where is the station? → Do you know where the station is? → Could you tell me what time it opens?",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-questions-basic",
+    "path-requests-can"
+  ],
+  "recycles": [
+    "path-questions-basic",
+    "path-requests-can"
+  ],
+  "teaches": [
+    "вежливый вопрос = начало (Do you know…? Could you tell me…?) + вопрос в порядке утверждения: where the station is",
+    "do, does, did внутри исчезают, глагол берёт форму утверждения: what time the museum opens, when the package arrived",
+    "can, will и be встают после «кто»: where I can buy tickets, when it will be ready",
+    "вопрос «да/нет» — через if («ли»): Do you know if the store is open?",
+    "Do you know…? — если человек может не знать ответа; Could you tell me…? — если он точно знает",
+    "«Скажите, пожалуйста» — не Tell me, please: начинай с Excuse me, could you tell me…?",
+    "просьбы: Could I…? Could you…? Would you mind + -ing? Согласие: No, not at all / Sure",
+    "I was wondering if you could… — самая мягкая просьба, в конце точка",
+    "слова: Excuse me, ATM, restroom, charge, switch seats, give someone a ride"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: Do You Know What an Indirect Question Is?",
+      "url": "https://learningenglish.voanews.com/a/do-you-know-what-an-indirect-question-is/4439120.html",
+      "notes": "Сверено: вежливые начала Can/Could you tell me…?, Do you know…?, Would you mind…?; порядок утверждения внутри; if или whether для вопроса «да/нет»; I was wondering if… — частая вежливая просьба, в конце точка. Их используют с незнакомыми и коллегами."
+    },
+    {
+      "title": "Инглекс · Косвенные вопросы в английском языке",
+      "url": "https://englex.ru/indirect-questions/",
+      "notes": "Для русскоязычных: во второй части прямой порядок слов и нет do/does/did; частые ошибки — сохранить вопросительный порядок и забыть if."
+    },
+    {
+      "title": "Language Log · Do you mind if…",
+      "url": "https://languagelog.ldc.upenn.edu/nll/?p=185",
+      "notes": "Обсуждение, почему на Do you mind…? трудно ответить просто yes или no: буквально «нет» значит согласие. В живой речи отвечают Sure, Go ahead — поэтому в уроке ответы No, not at all, No problem и Sure."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Как прямой вопрос встаёт в вежливую рамку",
+    "why": "Вопрос уже задан в начале фразы. Поэтому внутри остаётся порядок утверждения: сначала «что», потом глагол.",
+    "items": [
+      {
+        "label": "Прямо, с is",
+        "en": "Where is the restroom?",
+        "ru": "Где туалет?",
+        "note": "Is стоит перед the restroom."
+      },
+      {
+        "label": "Вежливо",
+        "en": "Could you tell me where the restroom is?",
+        "ru": "Не подскажете, где туалет?",
+        "note": "Is ушёл в конец."
+      },
+      {
+        "label": "Прямо, с does",
+        "en": "What time does the pharmacy close?",
+        "ru": "Во сколько закрывается аптека?",
+        "note": "Does нужен, чтобы задать вопрос."
+      },
+      {
+        "label": "Вежливо",
+        "en": "Do you know what time the pharmacy closes?",
+        "ru": "Вы не знаете, во сколько закрывается аптека?",
+        "note": "Does исчез, а -s вернулось: closes."
+      }
+    ],
+    "footnote": "Restroom — так в США называют туалет в кафе, магазине или офисе.",
+    "focus": [
+      "is",
+      "does",
+      "closes",
+      "close"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему «Не подскажете, где вокзал?» — это не Tell me, please",
+      "body": "Ты в незнакомом городе и ищешь вокзал. По-русски ты не скажешь прохожему голое «Где вокзал?», а начнёшь мягче: «Извините, не подскажете, где вокзал?». Американцы делают то же: Excuse me, do you know where the station is? Excuse me — «извините», так привлекают внимание. Ты не требуешь ответа, а спрашиваешь, может ли человек помочь.\n\nНе переводи дословно «Скажите, пожалуйста»: Tell me, please звучит по-английски как приказ. Начни с Excuse me и вопроса Do you know…? или Could you tell me…?\n\nПосмотри на конец фразы: where the station is, а не where is the station. Вопрос уже задан словами Do you know, поэтому дальше идёт обычный порядок, как в утверждении: the station is. Ты видел это в уроке о пересказе: She asked where I lived. Разница одна: здесь ты спрашиваешь сам и сейчас, поэтому время не сдвигается."
+    },
+    {
+      "title": "Do, does и did внутри исчезают",
+      "body": "Если в прямом вопросе был помощник do, does или did, внутри вежливого вопроса его нет. Глагол берёт ту форму, что была бы в утверждении.\n\nWhat time does the bank close? → Could you tell me what time the bank closes? Does ушёл, а -s вернулось к closes.\n\nWhen did the package arrive? → Do you know when the package arrived? Did ушёл, а прошедшее время перешло к arrived.\n\nCan, will и be просто встают после «кто»: Where can I buy tickets? → Do you know where I can buy tickets?\n\nОшибка: Could you tell me what time does it open? — в одной фразе два вопроса."
+    },
+    {
+      "title": "Вопрос «да или нет» — через if",
+      "body": "Если в прямом вопросе нет слова-вопроса вроде where или what, вставь if — здесь оно значит «ли»: Is the store open? → Do you know if the store is open? — вы не знаете, открыт ли магазин? Can I pay by card? → Do you know if I can pay by card? Whether значит то же и звучит чуть официальнее.\n\nБез if смысл меняется: Do you know the store is open? — «ты в курсе, что магазин открыт?». Это уже не вопрос, а новость для собеседника."
+    },
+    {
+      "title": "Просьба: Could you…? и Would you mind…?",
+      "body": "Can I…? и Could you…? ты уже знаешь. С незнакомыми и на работе чаще берут could — так мягче: Could I sit here? Could you help me with this box?\n\nЕщё мягче — Would you mind + -ing: Would you mind closing the door? — вы не против закрыть дверь? После mind глагол с -ing, как в Do you mind waiting?\n\nMind значит «возражать», поэтому согласие звучит как «нет»: No, not at all или No problem. Американцы часто отвечают и просто Sure. А одно Yes может прозвучать как «да, возражаю»."
+    },
+    {
+      "title": "Какое начало выбрать",
+      "body": "Do you know…? подходит, когда человек может и не знать ответа: прохожий, сосед в очереди. Could you tell me…? — когда ответ он знает: администратор, продавец, сотрудник справочной. Can you tell me…? — чуть проще, тоже вежливо.\n\nДля большой просьбы, особенно к тому, кто тебе ничего не должен, американцы начинают с I was wondering if you could… — «я хотел спросить, не мог бы ты…». Was здесь не про прошлое: оно смягчает просьбу. Это утверждение, поэтому в конце точка: I was wondering if you could give me a ride home. Give a ride — подвезти.\n\nНе перегружай простой вопрос: чтобы спросить дорогу, хватит Excuse me, do you know where…?"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Excuse me, do you know where the bus stop is?",
+      "ru": "Извините, вы не знаете, где остановка?",
+      "why": "Вопрос задают слова do you know, поэтому внутри the bus stop is."
+    },
+    {
+      "en": "Could you tell me how much this jacket costs?",
+      "ru": "Не подскажете, сколько стоит эта куртка?",
+      "why": "Does ушёл, -s вернулось: costs."
+    },
+    {
+      "en": "Do you know if they deliver on Sundays?",
+      "ru": "Вы не знаете, они доставляют по воскресеньям?",
+      "why": "Вопрос «да/нет» — через if. Do из Do they deliver…? исчез."
+    },
+    {
+      "en": "Can you tell me when it will be ready?",
+      "ru": "Можете сказать, когда это будет готово?",
+      "why": "Will стоит после it, как в утверждении."
+    },
+    {
+      "en": "Would you mind taking a picture of us? — Sure!",
+      "ru": "Вы не могли бы нас сфотографировать? — Конечно!",
+      "why": "После mind — -ing. Sure здесь значит «не против»."
+    },
+    {
+      "en": "I was wondering if you could help me with my résumé.",
+      "ru": "Я хотел спросить, не поможешь ли ты мне с резюме.",
+      "why": "Мягкая просьба о большой услуге. По форме это утверждение — в конце точка."
+    },
+    {
+      "en": "Could I use your phone for a minute?",
+      "ru": "Можно мне на минутку ваш телефон?",
+      "why": "Could I — вежливое «можно мне?» к незнакомому человеку."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты в Нью-Йорке и ищешь метро. Спроси прохожего: «Извините, вы не знаете, где станция метро?» subway station = станция метро.",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос уже задан — дальше обычный порядок",
+        "body": "Do you know уже делает фразу вопросом. Поэтому после where сначала идёт «что», а потом is — как в утверждении.",
+        "example": "Excuse me, do you know where the elevator is?",
+        "translation": "Извините, вы не знаете, где лифт?"
+      },
+      "hint": "Начни так: Excuse me, do you know where … Каким словом закончится фраза?",
+      "answers": [
+        "Excuse me, do you know where the subway station is?",
+        "Excuse me, do you know where the subway is?",
+        "Do you know where the subway station is?",
+        "Excuse me, do you know where the nearest subway station is?"
+      ],
+      "explanation": "Is уходит в конец: where the subway station is. Прямое Where is the subway station? тоже поймут, но оно звучит резче."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты звонишь в музей. Спроси сотрудника: «Не подскажете, во сколько открывается музей?»",
+      "context": "",
+      "guidance": {
+        "title": "Does уходит, -s возвращается",
+        "body": "В прямом вопросе здесь был бы does. Внутри вежливого вопроса его нет, а глагол снова получает -s, как в утверждении.",
+        "example": "Could you tell me when the next bus leaves?",
+        "translation": "Не подскажете, когда уходит следующий автобус?"
+      },
+      "hint": "Сотрудник знает ответ. Начни так: Could you tell me what time …",
+      "answers": [
+        "Could you tell me what time the museum opens?",
+        "Can you tell me what time the museum opens?",
+        "Could you tell me when the museum opens?",
+        "Can you tell me when the museum opens?",
+        "Could you please tell me what time the museum opens?",
+        "Do you know what time the museum opens?"
+      ],
+      "explanation": "What time the museum opens: does исчез, -s перешло к opens. Сотруднику лучше подходит Could you tell me…?: ответ он точно знает."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На улице тебе срочно нужны наличные. Спроси прохожего: «Вы не знаете, здесь рядом есть банкомат?» ATM = банкомат, near here = рядом.",
+      "context": "",
+      "guidance": {
+        "title": "Нет слова-вопроса — нужен if",
+        "body": "На такой вопрос отвечают «да» или «нет», слова-вопроса в нём нет. Его место занимает if — «ли», а дальше обычный порядок.",
+        "example": "Do you know if the gym is open today?",
+        "translation": "Вы не знаете, спортзал сегодня открыт?"
+      },
+      "hint": "После Do you know нужно маленькое слово «ли». А дальше — is there или there is?",
+      "answers": [
+        "Do you know if there's an ATM near here?",
+        "Do you know if there is an ATM near here?",
+        "Do you know if there's an ATM nearby?",
+        "Do you know if there is an ATM nearby?",
+        "Excuse me, do you know if there's an ATM near here?",
+        "Excuse me, do you know if there is an ATM near here?",
+        "Do you know whether there's an ATM near here?"
+      ],
+      "explanation": "If значит «ли», а there is стоит в порядке утверждения. Без if — Do you know there's an ATM? — вышло бы «Ты в курсе, что здесь есть банкомат?»."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем вопросы с where и can. В аэропорту у тебя сел телефон. Напиши два вопроса «Где можно зарядить телефон?»: сначала прямой — так спросишь друга, потом вежливый, с Do you know, — для незнакомого человека. charge = заряжать.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: where + can + I",
+        "body": "Вспоминаем прямой вопрос: слово-вопрос, can, потом I и действие. В вежливом вопросе can встаёт после I — как в утверждении I can park.",
+        "example": "Where can I park? — Do you know where I can park?",
+        "translation": "Где можно припарковаться? — Не знаете, где тут можно припарковаться?"
+      },
+      "hint": "Первый вопрос начни с Where can I …, второй — с Do you know where I …",
+      "answers": [
+        "Where can I charge my phone? Do you know where I can charge my phone?",
+        "Where can I charge my phone? Excuse me, do you know where I can charge my phone?",
+        "Where can I charge my phone? Do you know where I can charge it?",
+        "Where can I charge my phone? Excuse me, do you know where I can charge it?"
+      ],
+      "explanation": "В прямом вопросе can стоит перед I, в вежливом — после: where I can charge. Слово-вопрос where остаётся в обоих."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В самолёте ты хочешь сидеть рядом с другом. Вежливо попроси соседа: «Вы не против поменяться со мной местами?» switch seats = поменяться местами.",
+      "context": "",
+      "guidance": {
+        "title": "Would you mind + -ing",
+        "body": "Сосед тебе ничего не должен, поэтому просьба мягче обычного Could you…? — Would you mind…? После mind глагол получает -ing.",
+        "example": "Would you mind waiting a minute?",
+        "translation": "Вы не против подождать минутку?"
+      },
+      "hint": "Начни так: Would you mind … Какое окончание получит switch?",
+      "answers": [
+        "Would you mind switching seats with me?",
+        "Excuse me, would you mind switching seats with me?",
+        "Would you mind switching seats with me, please?",
+        "Would you mind changing seats with me?",
+        "Would you mind swapping seats with me?"
+      ],
+      "explanation": "Would you mind switching: после mind — -ing. Если сосед согласен, он скажет No, not at all или Sure."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет в отель и просит проверить его вопрос: Tell me please, what time does breakfast start? Исправь две ошибки, чтобы вопрос звучал вежливо и правильно.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь начало и середину",
+        "body": "Сначала проверь начало: звучит ли оно как просьба, а не как приказ. Потом середину: после вежливого начала does не остаётся.",
+        "example": "Excuse me, could you tell me where the gym is?",
+        "translation": "Извините, не подскажете, где спортзал?"
+      },
+      "hint": "Чем заменить Tell me please? Что станет с does и start?",
+      "answers": [
+        "Could you tell me what time breakfast starts?",
+        "Could you please tell me what time breakfast starts?",
+        "Can you tell me what time breakfast starts?",
+        "Could you tell me what time breakfast starts, please?",
+        "Could you tell me when breakfast starts?",
+        "Do you know what time breakfast starts?"
+      ],
+      "explanation": "Could you tell me… вместо Tell me please, а внутри — what time breakfast starts: does исчез, -s вернулось. Do you know…? тоже верно, но работнику отеля естественнее Could you tell me."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В пятницу у тебя ранний рейс, и тебе нужна большая услуга от коллеги. Напиши ему: «Я хотел спросить, не мог бы ты отвезти меня в аэропорт в пятницу». drive someone to = отвезти кого-то на машине.",
+      "context": "",
+      "guidance": {
+        "title": "Большая просьба — I was wondering if",
+        "body": "Для большой услуги начни с I was wondering if you could + действие. Порядок после if — как в утверждении, а в конце точка.",
+        "example": "I was wondering if you could feed my cat on the weekend.",
+        "translation": "Я хотел спросить, не покормишь ли ты мою кошку в выходные."
+      },
+      "hint": "Начни так: I was wondering if you could drive … Что в конце — точка или вопросительный знак?",
+      "answers": [
+        "I was wondering if you could drive me to the airport on Friday.",
+        "I was wondering whether you could drive me to the airport on Friday.",
+        "I was wondering if you could give me a ride to the airport on Friday.",
+        "I was wondering if you could drive me to the airport on Friday morning."
+      ],
+      "explanation": "Мягкая просьба о большой услуге: после if порядок утверждения — you could. В переписке иногда ставят и вопросительный знак, но по форме это утверждение."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Друг написал в спортзал, но сообщение звучит резко: What time do you open on Sundays? Is parking free? How much does a monthly membership cost? Send me your class schedule. Перепиши его вежливо: три вопроса и одна просьба.",
+      "context": "monthly membership — абонемент на месяц, class schedule — расписание занятий.",
+      "hint": "Сотрудники знают ответы — подойдёт Could you tell me… Для вопроса «да/нет» нужен if, для просьбы — Would you mind …-ing?",
+      "answers": [
+        "Could you tell me what time you open on Sundays? Could you also tell me if parking is free and how much a monthly membership costs? Would you mind sending me your class schedule? Thank you!",
+        "Hi! Could you tell me what time you open on Sundays? I was also wondering if parking is free. Could you tell me how much a monthly membership costs? Would you mind sending me your class schedule? Thanks!"
+      ],
+      "explanation": "Засчитывается, если все три вопроса стали вежливыми и внутри них порядок утверждения: what time you open, if parking is free, how much a membership costs. Просьба — Would you mind sending… или Could you send…"
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты уезжаешь на неделю. Напиши соседке, Mrs. Carter, сообщение на 60–100 слов. В нём: куда и когда ты уезжаешь; большая просьба (I was wondering if you could…); вежливый вопрос с Could you tell me… или Do you know if…; что ты предложишь взамен; благодарность.",
+      "context": "water the plants — поливать цветы, pick up the mail — забирать почту, be away — быть в отъезде, key — ключ, in return — взамен.",
+      "hint": "План: Hi, Mrs. Carter! I'm going to … . I was wondering if you could … . Could you tell me when …? Thanks so much!",
+      "answers": [
+        "Hi, Mrs. Carter! I'm going to visit my parents in Chicago next week, so I'll be away from Monday to Sunday. I was wondering if you could water my plants and pick up my mail while I'm away. I can bring you the key on Sunday evening. Could you tell me when you'll be home? I'd be happy to bring you something from Chicago in return. Thanks so much!"
+      ],
+      "explanation": "Засчитывается, если есть объяснение, мягкая просьба с I was wondering if you could…, вежливый вопрос с порядком утверждения внутри (when you'll be home) и благодарность."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты прилетел в американский аэропорт, и у тебя пересадка. Подойди к стойке информации и вслух, за 30–60 секунд, вежливо задай три вопроса: где твой выход на посадку; во сколько начинается посадка; есть ли рядом с выходом, где поесть. Добавь одну просьбу — например, записать номер выхода — и закончи благодарностью.",
+      "context": "connecting flight — рейс с пересадкой, gate — выход на посадку, boarding — посадка, write down — записать.",
+      "hint": "Начни так: Excuse me, I have a connecting flight to … . Could you tell me where …?",
+      "answers": [
+        "Excuse me, I have a connecting flight to Denver. My flight number is UA 245. Could you tell me where my gate is? Do you know what time boarding starts? I was also wondering if there's a place to eat near the gate. Would you mind writing the gate number down for me? Thank you so much!"
+      ],
+      "explanation": "Засчитывается, если есть Excuse me, три вежливых вопроса с порядком утверждения внутри (where my gate is, what time boarding starts, if there's…), просьба через Would you mind + -ing или Could you… и благодарность."
+    }
+  ]
+}

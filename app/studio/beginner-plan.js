@@ -1,4 +1,4 @@
-import {authoredExerciseID} from './authored-exercise.js';
+import {authoredExerciseID,isGuidedLesson} from './authored-exercise.js';
 import {lessonSequence} from './lesson-sequence.js';
 
 // Practice completion is not a CEFR or mastery claim. Old revisions and failed
@@ -7,7 +7,7 @@ export function beginnerPlan(data,{level,minutes,domain},now){
  if(!['A1','A2'].includes(level))return null;
  const sequence=lessonSequence(data.lessons,data.learningPath),wanted=new Set();
  const include=lesson=>{if(!lesson||wanted.has(lesson.id))return;wanted.add(lesson.id);for(const id of lesson.prerequisites||[])include(sequence.find(r=>r.lesson.id===id)?.lesson);};
- for(const record of sequence)if(record.level===level&&(record.lesson.beginner||record.lesson.courseGuide))include(record.lesson);
+ for(const record of sequence)if(record.level===level&&isGuidedLesson(record.lesson))include(record.lesson);
  const lessons=sequence.filter(r=>wanted.has(r.lesson.id)).map(r=>r.lesson);
  const latest=new Map();for(const a of data.state?.attempts||[]){const at=Date.parse(a.at);if(!Number.isFinite(at)||at>now.getTime())continue;const key=a.lessonId+':'+a.exerciseId,previous=latest.get(key);if(!previous||at>=Date.parse(previous.at))latest.set(key,a);}
  const pending=lesson=>lesson.exercises.filter(e=>{const a=latest.get(lesson.id+':'+authoredExerciseID(e));return !a?.answer?.trim()||['partial','incorrect'].includes(a.feedback?.verdict);});
@@ -20,7 +20,7 @@ export function beginnerPlan(data,{level,minutes,domain},now){
   id:'beginner-'+lesson.id,skill:lesson.id==='path-sound-basics'?'pronunciation':lesson.id==='path-listening-routine'?'listening':'grammar',
   title:lesson.title,minutes:Math.floor(lessonBudget/selected.length/5)*5+(i===0?lessonBudget% (selected.length*5):0),
   href:'#/lesson/'+lesson.id+'/'+index,
-  instruction:'Иди по шагам: короткое объяснение → послушай образец → напиши или надиктуй одну фразу. В конце попробуй два задания без опоры. К следующей теме переходи после этой.',
+  instruction:'Иди по шагам: короткое объяснение → послушай образец → напиши или надиктуй одну фразу. В конце — задания без опоры: своё сообщение и речь. К следующей теме переходи после этой.',
   why:'Новые формы объясняются до задания. Сначала тренируем одну конструкцию, затем применяем её самостоятельно. Время — ориентир, а не требование сидеть до конца таймера.',
   target:{kind:'attempts',exactExerciseIds:true,lessonIds:[lesson.id],exerciseIds:tasks.map(authoredExerciseID),count:tasks.length}
  };});

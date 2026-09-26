@@ -5,6 +5,7 @@ import {lessonSequence,lessonRouteInfo} from '../lesson-sequence.js';
 import {bookPreparation,bookPreparationHTML} from '../book-preparation.js';
 import {courseGuideHTML,lessonVisual} from '../course-guide.js';
 import {beginnerPlan} from '../beginner-plan.js';
+import {isGuidedLesson} from '../authored-exercise.js';
 const dir=new URL('../../content/',import.meta.url),read=n=>JSON.parse(readFileSync(new URL(n,dir),'utf8'));
 const base=[...read('curriculum.json'),...readdirSync(new URL('courses/',dir)).filter(n=>n.endsWith('.json')).flatMap(n=>read('courses/'+n))];
 const guides=readdirSync(dir).filter(n=>/^course-guides-.*\.json$/.test(n)).flatMap(n=>read(n).lessons);
@@ -12,20 +13,20 @@ const lessons=base.map(l=>{const g=guides.find(g=>g.lessonId===l.id);return g?{.
 const path=read('learning-path.json'),library=read('library.json');
 test('every authored course step has teaching and its dependencies precede it, without repeated topics',()=>{
  assert.equal(new Set(guides.map(g=>g.lessonId)).size,guides.length);
- assert.equal(lessons.length,215);
+ assert.equal(lessons.length,220);
  const sequence=lessonSequence(lessons,path),seen=new Set();
  for(const {lesson:l,level} of sequence){
-  assert.ok(l.beginner||l.courseGuide,'missing guide: '+l.id);
+  assert.ok(isGuidedLesson(l),'missing teaching: '+l.id);
   for(const id of l.prerequisites||[])assert.ok(seen.has(id),l.id+' depends on missing/later '+id);
   seen.add(l.id);
-  if(l.courseGuide){
-   assert.ok(l.exercises.slice(0,2).every(e=>e.guidance&&e.practiceStage==='guided'));
-   assert.ok(l.courseGuide.explanation.every(s=>s.body.length<1800),'intro must stay readable: '+l.id);
+  if(l.courseGuide||l.guided){
+   assert.ok(l.exercises.slice(0,2).every(e=>e.guidance&&e.practiceStage==='guided'),'teaching before the first two tasks: '+l.id);
+   assert.ok((l.courseGuide?l.courseGuide.explanation:l.sections).every(s=>s.body.length<1800),'intro must stay readable: '+l.id);
    if(['A1','A2'].includes(level))assert.ok(l.exercises.slice(0,2).every(e=>e.answers[0].split(/\s+/).length<=24),'short preparation: '+l.id);
   }
  }
  const main=sequence.filter(r=>!r.lesson.id.startsWith('cinema-')&&lessonRouteInfo(r.lesson.id,read('study-route.json')).introduction);
- assert.equal(main.length,163);assert.equal(main[0].lesson.id,'path-be');assert.equal(main.at(-1).lesson.id,'path-c2-capstone');
+ assert.equal(main.length,168);assert.equal(main[0].lesson.id,'path-be');assert.equal(main.at(-1).lesson.id,'path-c2-capstone');
 });
 test('all 872 canonical book chapters have real language supports; duplicate editions preserve canonical IDs',()=>{
  const canonical=new Set();
@@ -46,14 +47,14 @@ test('all 872 canonical book chapters have real language supports; duplicate edi
   ['grammar-advanced',25,'path-passive-advanced'],['grammar-advanced',95,'path-there-is']
  ]){const book=library.books.find(b=>b.id===bookId),unit=book.units.find(u=>u.unit===n);assert.equal(bookPreparation(book,unit,lessons).supports[0].id,expected,unit.title);}
 });
-test('new beginners stay on small supported practice after the first 30 foundation lessons',()=>{
+test('after the foundation lessons, beginners continue into guided applied lessons',()=>{
  const now=new Date('2026-09-20T12:00:00Z'),attempts=lessons.filter(l=>l.beginner).flatMap(l=>l.exercises.map(e=>({lessonId:l.id,exerciseId:e.revision?e.id+'--revision-'+e.revision:e.id,answer:e.answers[0],at:now.toISOString(),feedback:{verdict:'correct'}})));
  const plan=beginnerPlan({lessons,learningPath:path,state:{attempts,cards:[]}},{level:'A1',minutes:60,domain:'everyday'},now);
  assert.ok(plan?.beginner);assert.ok(plan.blocks.every(b=>b.href.startsWith('#/lesson/')));
- assert.ok(plan.blocks.some(b=>b.target.exerciseIds.some(id=>id.startsWith('prepare-'))));
+ assert.ok(plan.blocks.some(b=>{const l=lessons.find(x=>x.id===b.href.split('/')[2]);return l&&!l.beginner&&isGuidedLesson(l)&&b.target.exerciseIds.length>0;}));
 });
 test('teaching renders escaped examples and actual illustration assets for the right topics',()=>{
- const g=lessons.find(l=>l.id==='path-present-perfect-continuous');
+ const g={id:'overlay-fixture',title:'Overlay',courseGuide:{purpose:'Purpose',explanation:[{title:'One',body:'Body'}],examples:[{en:'It is ready.',ru:'Готово.',why:'Why'}],sources:[]}};
  assert.match(courseGuideHTML(g,0),/details class="course-guide card" open/);
  assert.ok(!courseGuideHTML(g,1).includes('card" open'));
  const malicious={...g,title:'<script>',courseGuide:{...g.courseGuide,purpose:'<script>'}};

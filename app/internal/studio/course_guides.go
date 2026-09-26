@@ -68,6 +68,10 @@ func (s *Server) loadCourseGuides() error {
 			if _, duplicate := s.courseGuides[g.LessonID]; !ok || duplicate || g.Purpose == "" || len(g.Explanation) < 3 || len(g.Examples) < 2 || g.BeforePractice == "" || len(g.SourceIDs) == 0 {
 				return fmt.Errorf("invalid/duplicate course guide %s", g.LessonID)
 			}
+			if l.Guided {
+				// A second explanation layer is exactly what guided lessons remove.
+				return fmt.Errorf("guided lesson already contains its teaching: %s", g.LessonID)
+			}
 			for _, section := range g.Explanation {
 				if strings.TrimSpace(section.Title) == "" || strings.TrimSpace(section.Body) == "" {
 					return fmt.Errorf("empty teaching section: %s", g.LessonID)
@@ -120,6 +124,13 @@ func (s *Server) loadCourseGuides() error {
 				return fmt.Errorf("guide %s: %w", g.LessonID, err)
 			}
 			s.courseGuides[g.LessonID] = g
+		}
+	}
+	for _, l := range s.lessons {
+		for _, id := range append(append([]string{}, l.Prerequisites...), l.Recycles...) {
+			if _, ok := known[id]; !ok {
+				return fmt.Errorf("missing prerequisite or recycled lesson %s: %s", l.ID, id)
+			}
 		}
 	}
 	// Detect every dependency cycle, including edges back to the initial course.

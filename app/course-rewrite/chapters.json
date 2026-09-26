@@ -1,0 +1,53 @@
+{
+  "A1": [
+    ["Первые фразы: кто я и что это", ["path-be", "path-sound-basics", "path-articles-basic", "path-plurals", "path-this-that", "research-sound-w-v-th"]],
+    ["Действия, люди и вопросы", ["path-present-simple", "path-pronouns", "path-possession", "path-questions-basic"]],
+    ["Знакомство: имена, числа, анкета", ["research-spelling-numbers", "extended-a1-registration", "natural-a1-welcome"]],
+    ["Что происходит и где что есть", ["path-present-continuous", "path-there-is", "path-countability", "path-place-time"]],
+    ["Могу и можно: кафе, касса, чат", ["path-requests-can", "extended-a1-order", "research-ordering-checkout", "extended-a1-chat"]],
+    ["Инструкции, объявления и мой день", ["path-instructions", "extended-a1-notices", "path-adjectives-frequency", "extended-a1-day"]]
+  ],
+  "A2": [
+    ["Что было: прошедшее время", ["path-past-simple", "research-ending-s-ed", "extended-a2-picture-description", "extended-a2-service", "path-past-continuous", "path-something-anything"]],
+    ["Будущее и планы", ["path-future-simple", "research-telephone-messages", "path-future-plans", "extended-a2-phone"]],
+    ["Опыт и сравнение", ["research-schwa-wordstress", "path-present-perfect", "path-me-too", "path-comparatives", "path-adverbs-manner"]],
+    ["Привычки, правила и условия", ["path-past-habits", "path-obligation", "path-zero-first", "path-gerund-infinitive", "research-apologies-remedies", "extended-a2-survey-summary"]],
+    ["Связный рассказ и сообщения", ["path-relative-basic", "path-connectors-basic", "extended-a2-options", "extended-a2-story", "extended-a2-relay", "path-everyday-phrasal", "path-listening-routine", "path-email-basic"]]
+  ],
+  "B1": [
+    ["Время и история", ["path-present-perfect-continuous", "path-past-perfect", "path-narrative", "path-future-continuous"]],
+    ["Если бы: условия", ["path-second-conditional", "path-third-conditional"]],
+    ["Кто что сделал и сказал", ["path-passive-basic", "path-reported-speech"]],
+    ["Вежливый разговор", ["path-polite-questions", "path-question-tags", "path-repair-conversation", "extended-b1-interview", "extended-b1-online-help"]],
+    ["Выводы и слова", ["path-deduction", "path-word-formation", "path-collocations-b1"]],
+    ["Чтение и отзывы", ["path-reading-inference", "research-review-writing", "extended-b1-review", "extended-b1-procedure"]],
+    ["Живая речь на слух", ["path-connected-speech", "research-connected-boundaries", "research-listening-decoding", "extended-b1-listening"]]
+  ],
+  "B2": [
+    ["Сроки и длительность", ["path-past-perfect-continuous", "path-future-perfect", "path-future-perfect-continuous"]],
+    ["Сожаления и выводы о прошлом", ["path-mixed-conditionals", "path-modal-perfect", "extended-b2-regret-emphasis"]],
+    ["Точная грамматика письма", ["path-passive-advanced", "path-relative-advanced", "path-articles-advanced", "path-participle-clauses", "path-verb-patterns-advanced", "path-quantifiers-nuance"]],
+    ["Факты, данные и аргументы", ["path-critical-reading", "research-report-data", "extended-b2-sleep", "path-argument-essay", "extended-b2-evidence", "extended-b2-essay-thread"]],
+    ["Дискуссия и переговоры", ["path-discussion-b2", "extended-b2-negotiate", "extended-b2-interview", "natural-b2-leadership"]],
+    ["Рабочее общение", ["path-register-b2", "research-complaint-resolution", "research-application-interview", "extended-b2-application", "extended-b2-remote-project", "extended-b2-reference-letter"]]
+  ],
+  "C1": [
+    ["Акцент и порядок слов", ["path-inversion", "path-clefts", "path-fronting", "path-nominalisation"]],
+    ["Точность позиции", ["path-hedging", "path-reporting-verbs", "extended-c1-facilitation", "path-advanced-negation", "extended-c1-adjective-scope"]],
+    ["Живая грамматика разговора", ["path-ellipsis", "research-spoken-grammar", "path-substitution"]],
+    ["Слова и сочетания", ["path-preposition-patterns", "path-phrasal-nuance", "path-idioms-context", "path-academic-collocations", "path-lexical-precision", "extended-c1-lexical-lab", "extended-c1-conversion", "extended-c1-sea-coast"]],
+    ["Длинные тексты", ["path-discourse-markers", "path-longform-reading", "extended-c1-review-article"]],
+    ["Лекции, акценты, интонация", ["path-lecture-listening", "path-prosody", "research-accent-adaptation", "research-question-response", "natural-c1-teams"]],
+    ["Синтез и предложения", ["path-synthesis", "extended-c1-public-explanation", "extended-c1-visual-data", "path-proposal", "extended-c1-lecture", "extended-c1-cross-text"]]
+  ],
+  "C2": [
+    ["Смысл до тонкостей", ["path-scope-ambiguity", "path-counterfactual-inversion", "path-aspect-viewpoint", "path-modal-remoteness", "path-determiner-nuance"]],
+    ["Стиль и плотность", ["path-information-density", "path-emphasis-restraint", "path-semantic-prosody", "path-metaphor"]],
+    ["Ирония и подтекст", ["path-irony", "extended-c2-shakespeare-idioms", "path-implicature", "extended-c2-interview"]],
+    ["Вежливость и несогласие", ["path-politeness-power", "path-diplomatic-disagreement"]],
+    ["Источники и аудитории", ["path-source-mediation", "extended-c2-synthesis", "path-cross-register", "extended-c2-register-performance"]],
+    ["Анализ текста", ["path-rhetorical-analysis", "extended-c2-built-environment", "path-literary-reading", "extended-c2-literary", "sustained-clock-history"]],
+    ["Обсуждение и редактура", ["path-debate-synthesis", "research-discourse-listening", "extended-c2-consensus", "path-editing", "research-public-correction", "extended-c2-editor"]],
+    ["Итоговая мастерская C2", ["path-c2-capstone"]]
+  ]
+}

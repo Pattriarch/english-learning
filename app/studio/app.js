@@ -1,7 +1,7 @@
-import {authoredExerciseID,authoredLessonState,currentAuthoredExercise} from './authored-exercise.js';
+import {authoredExerciseID,authoredLessonState,currentAuthoredExercise,isGuidedLesson} from './authored-exercise.js';
 import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
 import {lessonGuidanceHTML,lessonPrerequisiteHTML} from './lesson-guidance.js';
-import {lessonIntroHTML} from './lesson-intro.js';
+import {lessonIntroHTML,bindLessonIntro} from './lesson-intro.js';
 import {scheduleLessonAdvance} from './lesson-advance.js';
 import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
@@ -68,24 +68,24 @@ function lesson(id,index){
  const {latest}=authoredLessonState(l,data.state.attempts),done=new Set([...latest].filter(([,a])=>a.feedback?.verdict==='correct').map(([id])=>id));
  const first=l.exercises.findIndex(e=>!done.has(e.id));let n=index===undefined?Math.max(0,first):index==='complete'?0:Math.min(Math.max(0,index),l.exercises.length-1);
  const e=l.exercises[n],practiceID=authoredExerciseID(e),key=l.id+':'+practiceID;let attempt=latest.get(e.id),inputMode=['speak','write'].includes(e.kind)?'writing':'translation',requestID=crypto.randomUUID();
- const guided=l.beginner||l.courseGuide,base='/lesson/'+encodeURIComponent(id),practice=i=>base+'/'+i+'?practice';
+ const guided=isGuidedLesson(l),base='/lesson/'+encodeURIComponent(id),practice=i=>base+'/'+i+'?practice';
  const header=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1>${esc(l.title)}</h1><span class="small-note">${esc(l.level)} · ${esc(l.goal)}</span></div></div>`;
  if(guided&&(index===undefined||(index===0&&!latest.size&&!location.hash.endsWith('?practice')))){
-  $('#main').innerHTML=`<div class="lesson-flow">${header}${lessonIntroHTML(l,n)}</div>`;
-  bindCourseGuide($('#main'),l);return;
+  $('#main').innerHTML=`<div class="lesson-flow">${header}${lessonIntroHTML(l,n,data.lessons)}</div>`;
+  bindCourseGuide($('#main'),l);bindLessonIntro($('#main'),l);return;
  }
  if(index==='complete'){
   const correct=[...latest.values()].filter(a=>a.feedback?.verdict==='correct').length;
   $('#main').innerHTML=`<div class="lesson-flow">${header}<section class="card lesson-complete"><h2>Итоги практики</h2><p>Принято ответов: ${correct} из ${l.exercises.length}. Все попытки и разборы сохранены.</p><div class="actions"><a class="btn primary" href="#/transfer/${esc(id)}">Применить в своей жизни</a><a class="btn" href="#/roadmap">К программе</a><a class="btn ghost" href="#${practice(0)}">Посмотреть ответы</a></div></section></div>`;return;
  }
- $('#main').innerHTML=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1 style="margin:13px 0 8px">${esc(l.title)}</h1><span class="small-note">${esc(l.level)} · ${l.beginner?'Шаг за шагом с нуля':l.generated?'Личная практика':'Объяснение → примеры → твоя практика'}</span></div><a class="btn small" href="#/books">${icon('book')} Учебники</a></div>
+ $('#main').innerHTML=`<div class="lesson-head"><div><a class="small-note" href="#/roadmap">${icon('back')} Карта обучения</a><h1 style="margin:13px 0 8px">${esc(l.title)}</h1><span class="small-note">${esc(l.level)} · ${l.beginner?'Шаг за шагом с нуля':l.guided?'Объяснение → шаги → своя речь':l.generated?'Личная практика':'Объяснение → примеры → твоя практика'}</span></div><a class="btn small" href="#/books">${icon('book')} Учебники</a></div>
  ${l.prerequisites?.length?lessonPrerequisiteHTML(l,data.lessons):''}
- <div class="lesson-layout ${l.materials?.length?'with-materials':''} ${(l.beginner||l.courseGuide)?'guided-lesson':''}">
-  ${(l.beginner||l.courseGuide)?`<details class="card theory-panel" ${l.materials?.length&&e.practiceStage!=='guided'?'open':''}><summary>${l.materials?.length&&e.practiceStage!=='guided'?'Материал для этого задания':'Напомнить правило'}</summary><a class="lesson-intro-link" href="#${base}">Вернуться к сцене и объяснению</a>`:'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${(l.beginner||l.courseGuide)?'</details>':'</aside>'}
+ <div class="lesson-layout ${l.materials?.length?'with-materials':''} ${guided?'guided-lesson':''}">
+  ${guided?`<details class="card theory-panel" ${l.materials?.length&&e.practiceStage!=='guided'?'open':''}><summary>${l.materials?.length&&e.practiceStage!=='guided'?'Материал для этого задания':'Напомнить правило'}</summary><a class="lesson-intro-link" href="#${base}">Вернуться к сцене и объяснению</a>`:'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${guided?'</details>':'</aside>'}
   <div><section class="card exercise-card">
    <div class="exercise-top"><span class="exercise-type">${e.kind==='speak'?'Скажи своими словами':e.kind==='write'?'Своя мысль':e.kind==='rewrite'?'Переформулируй':'С русского на английский'}</span><div class="lesson-navigation"><button id="prev" class="btn small ghost" aria-label="Предыдущее задание" ${n===0?'disabled':''}>${icon('back')}</button><div class="steps" aria-label="Задание ${n+1} из ${l.exercises.length}">${l.exercises.map((ex,i)=>`<span class="step ${done.has(ex.id)?'done':''} ${i===n?'active':''}"></span>`).join('')}</div><button id="next" class="btn small ghost" aria-label="${n===l.exercises.length-1?'Итоги занятия':'Следующее задание'}">${icon('arrow')}</button></div></div>
    ${lessonGuidanceHTML(l,e,n)}
-   ${(l.beginner||l.courseGuide)?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p>${e.context?`<p class="context">${esc(e.context)}</p>`:''}
+   ${guided?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p>${e.context?`<p class="context">${esc(e.context)}</p>`:''}
    <div class="answer-input-header"><label for="answer" class="field-label">Твой ответ на английском</label><button type="button" id="voice" class="btn" aria-controls="answer">${icon('mic')} Надиктовать ответ</button></div>
    <textarea id="answer" class="answer-area" spellcheck="false" placeholder="Напиши свою мысль или нажми «Надиктовать ответ»…">${esc(getDraft(key,data.state)||attempt?.answer||'')}</textarea>
    <div class="answer-meta"><span id="word-count"></span><span>Черновик сохраняется автоматически</span></div>

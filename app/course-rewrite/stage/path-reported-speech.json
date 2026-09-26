@@ -1,0 +1,334 @@
+{
+  "id": "path-reported-speech",
+  "title": "Она сказала, что…: как передать чужие слова",
+  "subtitle": "Said или told → шаг назад во времени → если всё ещё правда → пересказ вопроса",
+  "level": "B1",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Передать другу, что сказал или спросил другой человек: выбрать said или told, сдвинуть время и сохранить порядок слов в пересказанном вопросе.",
+  "formula": "“I'm tired.” → She said she was tired. → She asked if I was ready.",
+  "guided": true,
+  "introSections": 6,
+  "prerequisites": [
+    "path-past-perfect",
+    "path-future-simple"
+  ],
+  "recycles": [
+    "path-future-simple",
+    "path-past-perfect"
+  ],
+  "teaches": [
+    "said — что сказали: She said (that) she was busy; told + кому: She told me she was busy (не said me)",
+    "в пересказе I → she/he, my → her/his, you → I/me: рассказывает теперь другой человек",
+    "шаг назад: am/is → was, are → were, work → worked, don't → didn't, can → could",
+    "will → would: She said she would call back; то, что было раньше слов, — had + третья форма: He said he had lost his keys",
+    "если это правда и сейчас, время можно оставить: My sister said she works from home; после says время не меняется",
+    "пересказ вопроса: asked if I was ready, asked where I lived — порядок утверждения, без do/did и без «?»",
+    "tomorrow → the next day, yesterday → the day before, today → that day, here → there — если пересказываешь позже или в другом месте",
+    "слова: sick, call back, hire, allergic, on vacation, work from home"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Reported speech: statements (B1–B2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements",
+      "notes": "Сверены сдвиг времён (present → past, present perfect и past simple → past perfect, will → would), сохранение настоящего, если сказанное всё ещё верно, tell + человек, необязательное that, замены tomorrow → the next day, here → there."
+    },
+    {
+      "title": "British Council · Reported speech: questions (B1–B2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-questions",
+      "notes": "Вопрос «да/нет» пересказывают через if или whether, вопрос со словом-вопросом — с порядком утверждения; в конце точка, а не вопросительный знак."
+    },
+    {
+      "title": "Инглекс · Косвенная речь в английском",
+      "url": "https://englex.ru/talking-about-reported-speech/",
+      "notes": "Для русскоязычных: в русском время в пересказе не меняется, в английском после said отступает на шаг назад; без сдвига — общеизвестные факты и пересказ с says."
+    }
+  ],
+  "visual": {
+    "kind": "timeline",
+    "title": "Слова звучали тогда — пересказ звучит сейчас",
+    "why": "Was показывает, как было в момент разговора. Если сказанное верно и сейчас, настоящее время можно оставить.",
+    "items": [
+      {
+        "label": "Понедельник · слова Майи",
+        "en": "I'm busy. I live in Austin.",
+        "ru": "Я занята. Я живу в Остине.",
+        "note": "Майя говорит о себе: I."
+      },
+      {
+        "label": "Пятница · занятость прошла",
+        "en": "Maya said she was busy.",
+        "ru": "Майя сказала, что занята.",
+        "note": "Was — так было в понедельник."
+      },
+      {
+        "label": "Пятница · всё ещё правда",
+        "en": "Maya said she lives in Austin.",
+        "ru": "Майя сказала, что живёт в Остине.",
+        "note": "Она и сейчас там живёт — lives можно оставить."
+      }
+    ],
+    "footnote": "По-русски время в обоих пересказах не меняется: «сказала, что занята», «сказала, что живёт».",
+    "focus": [
+      "said",
+      "was",
+      "lives"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему «сказала, что устала» — это she was tired?",
+      "body": "Вчера вечером подруга Кейт написала тебе: I'm tired. Сегодня друг спрашивает, почему она не пришла. Ты передаёшь её слова: Kate said she was tired — Кейт сказала, что устала.\n\nИзменились две вещи. I стало she: теперь о Кейт рассказываешь ты. Так же my станет her, а you — I или me, если Кейт обращалась к тебе.\n\nИ am стало was. По-русски мы пересказываем так, будто стоим в том моменте, когда звучали слова: «сказала, что устала», «сказал, что позвонит». Английский смотрит из сегодняшнего дня. Said — уже прошлое, и то, о чём тогда говорили, отодвигается туда же: время делает шаг назад.\n\nWas не значит, что сейчас Кейт бодрая. Оно показывает: так было в момент её слов."
+    },
+    {
+      "title": "Said или told: назван ли человек",
+      "body": "Said передаёт слова и не требует, кому их сказали: She said she was hungry. Told всегда называет человека сразу после себя: She told me she was hungry — она сказала мне, что голодна. Так же told Tom, told us, told them.\n\nРусское «сказала мне» подталкивает к ошибке She said me. Проверка простая: есть «кому» — told, нет — said. Said to me тоже возможно, но в разговоре американцы обычно говорят told me.\n\nThat («что») после said и told можно ставить или пропускать: She said (that) she was hungry. В разговоре его чаще пропускают."
+    },
+    {
+      "title": "Шаг назад: am → was, will → would",
+      "body": "Сдвиг устроен одинаково: берёшь глагол из чужих слов и отступаешь на одно время назад.\n\nAm/is → was, are → were: “I'm cold.” → He said he was cold.\n\nWork → worked, don't → didn't: “I don't have time.” → He said he didn't have time.\n\nCan → could: “I can help.” → She said she could help.\n\nWill → would: “I'll text you.” → She said she would text me. Would — это will, увиденное из прошлого. В речи she would сливается в she'd.\n\nТо, что к моменту разговора уже случилось, отступает ещё дальше — к had + третья форма, как в past perfect. “I missed the bus.” → She said she had missed the bus. Если порядок и так понятен, в разговоре часто оставляют missed."
+    },
+    {
+      "title": "Если это правда и сейчас",
+      "body": "Шаг назад нужен, когда ситуация могла измениться. Если сказанное верно и сейчас, время можно оставить: He said he's allergic to cats — у него аллергия на кошек, и она никуда не делась. Сдвиг здесь тоже не ошибка: he was allergic не значит, что аллергия прошла.\n\nА если всё уже иначе, сдвигай обязательно. Утром Том сказал: “I'm at home.” Сейчас его дома нет, и ты говоришь: Tom said he was at home.\n\nЕсли пересказываешь сразу, пока человек рядом или на связи, бери says — тогда время не меняется: Mom says dinner's ready."
+    },
+    {
+      "title": "Как пересказать вопрос",
+      "body": "Вопрос пересказывают через asked. Внутри он превращается в обычную фразу: порядок как в утверждении, без do, does, did и без вопросительного знака.\n\nВопрос «да или нет» — через if, здесь это «ли»: “Are you ready?” → He asked if I was ready — он спросил, готов ли я. Whether значит то же и звучит чуть официальнее.\n\nВ вопросе со словом-вопросом это слово остаётся: “Where do you live?” → She asked where I lived. Do исчез, а прошедшее время перешло к lived. Ошибка: She asked where did I live — это два вопроса в одном.\n\nПосле asked можно назвать человека: She asked me where I lived."
+    },
+    {
+      "title": "Tomorrow, here, this тоже пересчитываются",
+      "body": "Слова вроде tomorrow и here зависят от того, когда и где ты пересказываешь. В понедельник Нина сказала тебе: “I'll see you here tomorrow.” В среду ты рассказываешь об этом в другом месте. Поэтому говоришь: Nina said she would see me there the next day — на следующий день.\n\nТак же: today → that day, yesterday → the day before, here → there, this → that.\n\nЕсли пересказываешь в тот же день и там же, ничего не меняй: Nina said she'd see me here tomorrow. Смотри на ситуацию, а не заменяй слова по списку."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Tom told me he was on vacation.",
+      "ru": "Том сказал мне, что он в отпуске.",
+      "why": "Told + me: с told всегда называем, кому сказали."
+    },
+    {
+      "en": "She said she would call back.",
+      "ru": "Она сказала, что перезвонит.",
+      "why": "Will из её слов стало would. Call back — перезвонить."
+    },
+    {
+      "en": "He said he had lost his keys.",
+      "ru": "Он сказал, что потерял ключи.",
+      "why": "Ключи пропали раньше разговора — had lost. His вместо my: теперь рассказываешь ты."
+    },
+    {
+      "en": "My sister said she works from home.",
+      "ru": "Сестра сказала, что работает из дома.",
+      "why": "Она и сейчас так работает, поэтому works можно оставить."
+    },
+    {
+      "en": "The doctor asked if I was taking any medicine.",
+      "ru": "Врач спросил, принимаю ли я какие-нибудь лекарства.",
+      "why": "Вопрос «да/нет» — через asked if. Внутри порядок утверждения: I was taking."
+    },
+    {
+      "en": "He asked what time the store opened.",
+      "ru": "Он спросил, во сколько открывается магазин.",
+      "why": "По-русски «открывается», а по-английски opened: вопрос прозвучал в прошлом. Does исчез."
+    },
+    {
+      "en": "She said she had called the day before.",
+      "ru": "Она сказала, что звонила накануне.",
+      "why": "Пересказ позже: её yesterday стало the day before."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В пятницу Лиза отказалась идти в кино и написала: I'm sick. В понедельник друг спрашивает, почему её не было. Ответь: «Лиза сказала, что болеет». sick = больной.",
+      "context": "",
+      "guidance": {
+        "title": "Чужие слова: I → she, am → was",
+        "body": "Лиза говорила о себе в пятницу. Теперь о ней рассказываешь ты, а её слова звучат из прошлого — время делает шаг назад.",
+        "example": "Ben said he was late.",
+        "translation": "Бен сказал, что опаздывает."
+      },
+      "hint": "Начни так: Liza said she … Какая форма be нужна для прошлого?",
+      "answers": [
+        "Liza said she was sick.",
+        "Liza said that she was sick.",
+        "She said she was sick.",
+        "She said that she was sick."
+      ],
+      "explanation": "I стало she, am — was: ты передаёшь, как было в пятницу. That можно вставить или пропустить."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утром коллега Сэм сказал тебе: I don't feel well. Сейчас начальник спрашивает, где Сэм. Ответь: «Сэм сказал мне, что плохо себя чувствует».",
+      "context": "",
+      "guidance": {
+        "title": "Есть «кому» — told",
+        "body": "Told требует человека сразу после себя: told me, told Anna. Said me не бывает. Don't отступает назад так же, как am, — к didn't.",
+        "example": "Emma told me she didn't know the answer.",
+        "translation": "Эмма сказала мне, что не знает ответа."
+      },
+      "hint": "«Сказал мне» — said или told? Во что превратится don't?",
+      "answers": [
+        "Sam told me he didn't feel well.",
+        "Sam told me that he didn't feel well.",
+        "Sam told me he did not feel well.",
+        "He told me he didn't feel well."
+      ],
+      "explanation": "Told me — потому что назван человек, которому сказали. Don't feel → didn't feel: шаг назад. Sam said he didn't feel well тоже верно, но без «мне»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем will. В понедельник Том пообещал: I'll call you tomorrow. Сегодня среда, а звонка так и не было. Пожалуйся другу: «Том сказал, что позвонит мне на следующий день». the next day = на следующий день.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем will: в пересказе — would",
+        "body": "Вспоминаем will: так обещают что-то на будущее. В пересказе обещание звучит из прошлого, поэтому will отступает к would. Глагол после него не меняется.",
+        "example": "Nick said he would help.",
+        "translation": "Ник сказал, что поможет."
+      },
+      "hint": "Начни так: Tom said he … Что стало с tomorrow, если сегодня уже среда?",
+      "answers": [
+        "Tom said he would call me the next day.",
+        "Tom said he'd call me the next day.",
+        "Tom said that he would call me the next day.",
+        "Tom told me he would call me the next day.",
+        "Tom told me he'd call me the next day.",
+        "Tom said he would call the next day."
+      ],
+      "explanation": "Will call → would call: обещание передано из прошлого. Tomorrow → the next day, потому что понедельничное «завтра» уже прошло. He’d — разговорное сокращение he would."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем past perfect. В субботу вы с Анной выбирали фильм, и она сказала: I've already seen this movie. Объясни другу, почему вы пошли на другой: «Анна сказала, что уже видела этот фильм».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем past perfect: то, что было раньше слов",
+        "body": "Вспоминаем had + третья форма: одно прошлое случилось раньше другого. Анна посмотрела фильм ещё до разговора, поэтому have seen отступает к had seen.",
+        "example": "Max said he had already eaten.",
+        "translation": "Макс сказал, что уже поел."
+      },
+      "hint": "Начни так: Anna said she had … А this movie — это всё ещё «этот» фильм?",
+      "answers": [
+        "Anna said she had already seen that movie.",
+        "Anna said she'd already seen that movie.",
+        "Anna said she had already seen the movie.",
+        "Anna said she'd already seen the movie.",
+        "Anna said she had already seen it.",
+        "Anna said that she had already seen that movie."
+      ],
+      "explanation": "Have seen → had seen: она видела фильм раньше разговора. This → that или the: ты уже не стоишь у той афиши. В разговоре слышно и she already saw it, но had seen точнее показывает порядок."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На прошлой неделе новая знакомая Дана рассказала: I'm looking for a job. I live in Brooklyn. Теперь она уже нашла работу, а живёт всё там же. Передай другу обе фразы: «Дана сказала, что ищет работу. Она сказала, что живёт в Бруклине». Во второй покажи, что это правда и сейчас.",
+      "context": "",
+      "guidance": {
+        "title": "Изменилось или всё ещё правда?",
+        "body": "Перед каждой фразой спроси себя: это верно и сейчас? Ситуация прошла — сдвигай время. Всё по-прежнему — можно оставить настоящее, и слушатель поймёт, что это правда и сегодня.",
+        "example": "He said he was new in town. He said he works in Denver.",
+        "translation": "Он сказал, что недавно в городе. Он сказал, что работает в Денвере."
+      },
+      "hint": "Начни так: Dana said she was … Во второй фразе — lives или lived?",
+      "answers": [
+        "Dana said she was looking for a job. She said she lives in Brooklyn.",
+        "Dana said that she was looking for a job. She said that she lives in Brooklyn.",
+        "Dana said she was looking for a job. She also said she lives in Brooklyn.",
+        "Dana said she was looking for a job and that she lives in Brooklyn."
+      ],
+      "explanation": "Поиск работы закончился — was looking. Бруклин всё ещё правда — lives. Lived во второй фразе тоже не ошибка, но не показывает, что она живёт там сейчас."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На собеседовании менеджер спросила тебя: Are you free on weekends? Вечером расскажи другу: «Она спросила, свободен ли я по выходным». on weekends = по выходным.",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос «да/нет» — asked if",
+        "body": "После asked if вопрос становится обычной фразой. Её вопрос к тебе теперь звучит из твоих уст: you → I, а are делает шаг назад.",
+        "example": "He asked if I was new here.",
+        "translation": "Он спросил, новенький ли я здесь."
+      },
+      "hint": "Начни так: She asked if I … Нужен ли в конце вопросительный знак?",
+      "answers": [
+        "She asked if I was free on weekends.",
+        "She asked me if I was free on weekends.",
+        "She asked whether I was free on weekends.",
+        "She asked me whether I was free on weekends."
+      ],
+      "explanation": "Asked if + I was: порядок как в утверждении, you стало I, are — was. Whether тоже подходит. Вопросительного знака нет: ты сообщаешь, о чём спросили."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг радостно пишет тебе после собеседования: The manager said me I was hired! She asked me when can I start. Исправь две ошибки и напиши обе фразы целиком. hire → hired = нанять на работу.",
+      "context": "",
+      "guidance": {
+        "title": "Ищи следы прямого вопроса",
+        "body": "В пересказанном вопросе не остаётся вопросительного порядка: сначала «кто», потом глагол. Время при этом делает шаг назад, как в любом пересказе.",
+        "example": "He asked me what time I finished work.",
+        "translation": "Он спросил, во сколько я заканчиваю работу."
+      },
+      "hint": "Можно ли said me? И что в when can I start стоит перед I?",
+      "answers": [
+        "The manager told me I was hired! She asked me when I could start.",
+        "The manager told me that I was hired! She asked me when I could start.",
+        "The manager said I was hired! She asked me when I could start.",
+        "The manager told me I was hired! She asked when I could start.",
+        "The manager told me I'd been hired! She asked me when I could start.",
+        "The manager told me I had been hired! She asked me when I could start."
+      ],
+      "explanation": "Said me — ошибка: с человеком нужен told me, или said без me. В пересказе вопроса порядок утверждения — when I could start, а can отступает к could."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "В понедельник коллега Карен оставила голосовое сообщение: Hi, it's Karen. I'm sick today, so I won't be at the meeting tomorrow. Can you send me the notes? Сегодня среда. Перескажи коллеге Джону двумя фразами, что сказала Карен и о чём она попросила.",
+      "context": "notes — записи со встречи.",
+      "hint": "Первая фраза: Karen said she … that day … . Вторая: She asked if I …",
+      "answers": [
+        "Karen said she was sick that day, so she wouldn't be at the meeting the next day. She asked if I could send her the notes.",
+        "Karen said she was sick on Monday, so she wouldn't be at the meeting on Tuesday. She asked me if I could send her the notes."
+      ],
+      "explanation": "Засчитывается, если am → was, won't → wouldn't, can → could, me → her, а today и tomorrow заменены на that day и the next day (или на Monday и Tuesday). Просьба Карен передана через asked if с порядком утверждения. Естественно звучит и She asked me to send her the notes — «попросила прислать»."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши другу сообщение на 60–100 слов о недавнем важном разговоре — с начальником, врачом, хозяином квартиры или родственником. В нём: с кем и когда ты говорил; что тебе сказали (said или told me); что пообещали (would); о чём спросили (asked if… или asked what/when…); что ты ответил.",
+      "context": "",
+      "hint": "Начни так: I talked to … yesterday. She told me … . She asked if … . I said I would …",
+      "answers": [
+        "Hi Alex! I talked to my boss yesterday. She told me the company was opening a new office in Denver. She said they needed someone who speaks Spanish, and she asked if I wanted to move there. I was really surprised! I said I needed a few days to think. She told me she would send me the details on Friday. She also asked what my family thought about it. What would you do?"
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов: кто и когда, что сказали, обещание с would, пересказанный вопрос с порядком утверждения и твой ответ. Настоящее время допустимо там, где это правда и сейчас: someone who speaks Spanish."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Вспомни, как ты недавно познакомился с новым человеком: соседом, коллегой или попутчиком. Расскажи вслух за 30–60 секунд: где вы встретились; что он(а) рассказал(а) о себе — хотя бы одно, что правда и сейчас; о чём спросил(а) тебя (asked if… и asked where/what…); что ты ответил(а).",
+      "context": "neighbor — сосед, coworker — коллега, move from — переехать из.",
+      "hint": "Начни так: Last month I met … . He told me … . Then he asked if …",
+      "answers": [
+        "Last month I met my new neighbor, Carlos, in the elevator. He told me he had just moved from Miami. He said he works at the hospital downtown. He asked if I lived alone, and I said I lived with my roommate. Then he asked where he could buy good coffee, so I told him about a small coffee shop on our street. He said he would try it the next day."
+      ],
+      "explanation": "Засчитывается, если есть место встречи, два факта о человеке (хотя бы один без сдвига, потому что он верен и сейчас), два пересказанных вопроса — с if и со словом-вопросом — и твой ответ."
+    }
+  ]
+}

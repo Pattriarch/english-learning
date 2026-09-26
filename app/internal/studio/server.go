@@ -75,25 +75,50 @@ type LessonTransferPlan struct {
 	ExerciseIDs []string `json:"exerciseIds"`
 	DelayDays   int      `json:"delayDays"`
 }
+
+// A lesson-level diagram replaces the built-in one for the same lesson ID.
+type LessonVisualItem struct {
+	Label   string `json:"label"`
+	Russian string `json:"ru"`
+	English string `json:"en"`
+	Note    string `json:"note"`
+}
+type LessonVisual struct {
+	Kind     string             `json:"kind"`
+	Title    string             `json:"title"`
+	Why      string             `json:"why"`
+	Items    []LessonVisualItem `json:"items"`
+	Footnote string             `json:"footnote,omitempty"`
+	Focus    []string           `json:"focus,omitempty"`
+}
 type Lesson struct {
-	CourseGuide   *CourseGuide     `json:"courseGuide,omitempty"`
-	Beginner      bool             `json:"beginner,omitempty"`
-	Prerequisites []string         `json:"prerequisites,omitempty"`
-	ID            string           `json:"id"`
-	Title         string           `json:"title"`
-	Subtitle      string           `json:"subtitle"`
-	Level         string           `json:"level"`
-	Group         string           `json:"group"`
-	Units         string           `json:"units"`
-	Minutes       int              `json:"minutes"`
-	Goal          string           `json:"goal"`
-	Formula       string           `json:"formula"`
-	Sections      []Section        `json:"sections"`
-	Examples      []Example        `json:"examples"`
-	Exercises     []Exercise       `json:"exercises"`
-	Generated     bool             `json:"generated"`
-	Materials     []LessonMaterial `json:"materials,omitempty"`
-	StudyPlan     *LessonStudyPlan `json:"studyPlan,omitempty"`
+	CourseGuide *CourseGuide `json:"courseGuide,omitempty"`
+	Beginner    bool         `json:"beginner,omitempty"`
+	// A guided lesson carries its own single explanation and step sequence;
+	// it never receives a course-guide overlay (see docs/COURSE-STANDARD.md).
+	Guided        bool                `json:"guided,omitempty"`
+	IntroSections int                 `json:"introSections,omitempty"`
+	IntroExamples int                 `json:"introExamples,omitempty"`
+	Recycles      []string            `json:"recycles,omitempty"`
+	Teaches       []string            `json:"teaches,omitempty"`
+	Sources       []CourseGuideSource `json:"sources,omitempty"`
+	Visual        *LessonVisual       `json:"visual,omitempty"`
+	Prerequisites []string            `json:"prerequisites,omitempty"`
+	ID            string              `json:"id"`
+	Title         string              `json:"title"`
+	Subtitle      string              `json:"subtitle"`
+	Level         string              `json:"level"`
+	Group         string              `json:"group"`
+	Units         string              `json:"units"`
+	Minutes       int                 `json:"minutes"`
+	Goal          string              `json:"goal"`
+	Formula       string              `json:"formula"`
+	Sections      []Section           `json:"sections"`
+	Examples      []Example           `json:"examples"`
+	Exercises     []Exercise          `json:"exercises"`
+	Generated     bool                `json:"generated"`
+	Materials     []LessonMaterial    `json:"materials,omitempty"`
+	StudyPlan     *LessonStudyPlan    `json:"studyPlan,omitempty"`
 }
 type Server struct {
 	db                   *database

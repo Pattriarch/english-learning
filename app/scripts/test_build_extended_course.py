@@ -24,7 +24,9 @@ class ExtendedResumeTests(unittest.TestCase):
   self.app=Path(self.workspace.name)
   self.args=argparse.Namespace(data=self.app/'data',resume=True,workers=2)
   self.plan=json.loads((builder.APP/'content/extended-course-plan.json').read_text(encoding='utf-8-sig'))
-  prepared=json.loads((builder.APP/'content/courses/extended-skills.json').read_text(encoding='utf-8-sig'))
+  # The generator's own output (commit 832fdf7), frozen before the course lessons
+  # were edited by hand. The live course no longer follows the generator's rules.
+  prepared=json.loads((Path(__file__).parent/'fixtures/extended-generator-lessons.json').read_text(encoding='utf-8'))
   by_id={lesson['id']:lesson for lesson in prepared}
   self.modules=self.plan['modules'][:3]
   self.lessons=[deepcopy(by_id[module['id']]) for module in self.modules]

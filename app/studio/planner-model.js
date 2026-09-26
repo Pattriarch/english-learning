@@ -1,4 +1,4 @@
-import {authoredExerciseID,currentAuthoredExercise} from './authored-exercise.js';
+import {authoredExerciseID,currentAuthoredExercise,hasCourseTeaching,isGuidedLesson} from './authored-exercise.js';
 import {beginnerPlan} from './beginner-plan.js';
 import {practiceIdentity} from './practice-identity.js';
 import {transferQueue,transferTargetEvidence,transferIdentity} from './transfer-model.js';
@@ -81,7 +81,7 @@ function marked(entry, day) {
 function exerciseList(lesson) {return arr(lesson?.exercises).filter(e=>safeId(e?.id));}
 function lessonWork(lesson, latest) {
  const all = exerciseList(lesson), submitted = all.map(e=>latest.get(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))).filter(Boolean);
- const covered=all.length>0&&submitted.length===all.length&&(!(lesson.courseGuide||lesson.beginner)||!submitted.some(a=>['partial','incorrect'].includes(a.feedback?.verdict)));
+ const covered=all.length>0&&submitted.length===all.length&&(!isGuidedLesson(lesson)||!submitted.some(a=>['partial','incorrect'].includes(a.feedback?.verdict)));
  return {started:submitted.length>0,covered,done:covered&&submitted.filter(a=>a.feedback?.verdict==='correct').length>=Math.ceil(all.length*.8)};
 }
 function pendingCourseExercises(lesson,latest){
@@ -109,13 +109,13 @@ function topicFor(data, level) {
  const latest = latestAnswers(data.state?.attempts), availableLessons=lessonSequence(data.lessons,data.learningPath).filter(record=>LEVELS.indexOf(record.level)>=LEVELS.indexOf(level)&&lessonRouteInfo(record.lesson.id,data.studyRoute).introduction&&exerciseList(record.lesson).length);
  const lessons = availableLessons.filter(({lesson:l})=>!/extended-|cinema-|reading|listening|writing|speaking|pronunciation|vocab|narrative|essay|rhetorical|literary|lecture|discourse-listening/.test(l.id)&&!arr(l.materials).some(m=>['reading','listening','dialogue'].includes(m.kind)||m.inputSkill==='listening'));
  const known = lessons.map(({lesson:l,level:courseLevel})=>({id:l.id,title:String(l.title||'Занятие'),href:'#/lesson/'+l.id,courseLevel,lesson:l,...lessonWork(l,latest)})).filter(l=>!l.covered);
- let chosen = known[0]?.lesson.courseGuide?known[0]:(known.find(l=>l.courseLevel===known[0]?.courseLevel&&l.started) || known[0]);
+ let chosen = hasCourseTeaching(known[0]?.lesson)?known[0]:(known.find(l=>l.courseLevel===known[0]?.courseLevel&&l.started) || known[0]);
  if (!chosen) return null;
  const prerequisite=missingPrerequisite(chosen.lesson,data,latest);
  if(prerequisite){const placed=lessonSequence(data.lessons,data.learningPath).find(r=>r.lesson.id===prerequisite.id);chosen={id:prerequisite.id,title:prerequisite.title,href:'#/lesson/'+prerequisite.id,courseLevel:placed?.level||level,lesson:prerequisite,prerequisite:true,...lessonWork(prerequisite,latest)};}
  const sourceIds=exerciseList(chosen.lesson).map(authoredExerciseID);
- const ids=chosen.lesson.courseGuide?pendingCourseExercises(chosen.lesson,latest).map(authoredExerciseID):sourceIds.filter(id=>!latest.has(JSON.stringify([chosen.id,baseExercise(id)])));
- const first=chosen.lesson.courseGuide?exerciseList(chosen.lesson).findIndex(e=>authoredExerciseID(e)===ids[0]):-1;
+ const ids=hasCourseTeaching(chosen.lesson)?pendingCourseExercises(chosen.lesson,latest).map(authoredExerciseID):sourceIds.filter(id=>!latest.has(JSON.stringify([chosen.id,baseExercise(id)])));
+ const first=hasCourseTeaching(chosen.lesson)?exerciseList(chosen.lesson).findIndex(e=>authoredExerciseID(e)===ids[0]):-1;
  return {...chosen,href:first>=0?'#/lesson/'+chosen.id+'/'+first:chosen.href,exerciseIds:ids.length?ids:sourceIds};
 }
 
@@ -148,11 +148,11 @@ function inputLesson(data,level,skill,domain,reserved=new Set()) {
   if(arr(l.materials).length)return inputExercises(l,skill).length;
   if(l.id.startsWith('cinema-')) return domain==='culture'&&skill==='listening'&&l.id.endsWith('-listen');
   return skill==='reading'?/reading|rhetorical-analysis/.test(l.id):/listening/.test(l.id);
- }).filter(l=>availableInput(l).length&&!missingPrerequisite(l,data,latest)&&(!l.courseGuide||!preparation(l).length||preparation(l).some(e=>!reserved.has(JSON.stringify([l.id,baseExercise(authoredExerciseID(e))])))));
+ }).filter(l=>availableInput(l).length&&!missingPrerequisite(l,data,latest)&&(!hasCourseTeaching(l)||!preparation(l).length||preparation(l).some(e=>!reserved.has(JSON.stringify([l.id,baseExercise(authoredExerciseID(e))])))));
  const records=candidates.map(l=>({lesson:l,...lessonWork({...l,exercises:availableInput(l)},latest),last:Math.max(0,...[...latest.values()].filter(a=>identity(a).lessonId===l.id).map(a=>validTime(a.at)))}));
  records.sort((a,b)=>Number(a.covered)-Number(b.covered)||Number(b.started)-Number(a.started)||Number(arr(b.lesson.materials).some(m=>m.inputSkill===skill))-Number(arr(a.lesson.materials).some(m=>m.inputSkill===skill))||Number(arr(b.lesson.materials)[0]?.kind===skill)-Number(arr(a.lesson.materials)[0]?.kind===skill)||Number(arr(b.lesson.materials).length>0)-Number(arr(a.lesson.materials).length>0)||(domain==='culture'?Number(b.lesson.id.startsWith('cinema-'))-Number(a.lesson.id.startsWith('cinema-')):0)||a.last-b.last);
  const lesson=records[0]?.lesson;if(!lesson)return null;
- const support=lesson.courseGuide?preparation(lesson).filter(e=>!reserved.has(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))):[];
+ const support=hasCourseTeaching(lesson)?preparation(lesson).filter(e=>!reserved.has(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))):[];
  if(support.length)return {lesson,preparation:true,retention:false,exerciseIds:support.map(authoredExerciseID)};
  const ids=availableInput(lesson).filter(e=>!latest.has(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))).map(authoredExerciseID);
  return {lesson,retention:records[0].covered,exerciseIds:ids.length?ids:availableInput(lesson).map(authoredExerciseID)};

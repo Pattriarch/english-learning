@@ -1,3 +1,7 @@
+// A lesson teaches before it asks when it has its own guided sequence, an
+// older course-guide overlay, or the original beginner flag.
+export const hasCourseTeaching=lesson=>Boolean(lesson?.guided||lesson?.courseGuide);
+export const isGuidedLesson=lesson=>Boolean(lesson?.beginner||hasCourseTeaching(lesson));
 // Editorial contract: bump revision whenever a published prompt, attached
 // material, answer, explanation, or assessment changes. Unchanged tasks retain
 // their historical IDs; revisions never migrate or delete a learner's history.

@@ -79,14 +79,14 @@ test('roadmap totals, home badges and next-level navigation agree without replay
  assert.equal(JSON.stringify(data),before);assert.equal(f.local.get('roadmap-level'),'C2');
 });
 
-test('the actual study route separates 22 optional overviews from 163 main lessons and retains distinct deepening',async t=>{
+test('the actual study route separates 22 optional overviews from 168 main lessons and retains distinct deepening',async t=>{
  const route=read('study-route.json'),overview=new Set(route.overviewLessonIds),main=roadmapLessons(lessons,path,null,'',true,route);
- assert.equal(overview.size,22);assert.equal(main.length,163);assert.equal(new Set(main.map(l=>l.id)).size,163);
- assert.ok(main.every(l=>!overview.has(l.id)));assert.equal(courseLevels.reduce((n,level)=>n+roadmapLessons(lessons,path,level,'',false,route).length,0),163);
+ assert.equal(overview.size,22);assert.equal(main.length,168);assert.equal(new Set(main.map(l=>l.id)).size,168);
+ assert.ok(main.every(l=>!overview.has(l.id)));assert.equal(courseLevels.reduce((n,level)=>n+roadmapLessons(lessons,path,level,'',false,route).length,0),168);
  assert.ok(route.deepening.every(item=>main.some(l=>l.id===item.lessonId)));
  const f=await studyUI(t,'journey.js',{'curriculum-coverage':{mountCurriculumCoverage(){},loadCurriculumCoverage:async()=>null}}),data={lessons,learningPath:path,studyRoute:route,state:{attempts:[],read:{},drafts:{}}};
  const before=JSON.stringify(data);f.api=async()=>({units:{}});f.module.mountRoadmap(f.root,data,'B2');
- assert.equal(f.root.querySelector('#path-main-count').textContent,163);
+ assert.equal(f.root.querySelector('#path-main-count').textContent,168);
  const optional=f.root.querySelector('#path-overviews').innerHTML;assert.match(optional,/22 обзорных занятия/);assert.match(optional,/Необязательное закрепление/);
  for(const id of overview)assert.match(optional,new RegExp('href="#/lesson/'+id+'"'));
  assert.match(f.root.querySelector('#path-list').innerHTML,/Углубление темы/);assert.match(f.root.querySelector('#path-list').innerHTML,/Опора перед занятием/);
@@ -131,7 +131,7 @@ test('actual rendered main links preserve all planned prerequisite edges and end
   if(level==='C2'){assert.equal(ids.at(-1),'path-c2-capstone');assert.match(list.innerHTML,/<h2>Итоговая мастерская C2<\/h2>/);}
   rendered.push(...ids);
  }
- assert.equal(rendered.length,163);assert.equal(new Set(rendered).size,163);
+ assert.equal(rendered.length,168);assert.equal(new Set(rendered).size,168);
  for(const edge of route.deepening)assert.ok(rendered.indexOf(edge.afterLessonId)<rendered.indexOf(edge.lessonId),`${edge.lessonId} is rendered before ${edge.afterLessonId}`);
  const groups=roadmapLessonGroups([{id:'first',group:'Произношение и слух'},{id:'second',group:'Произношение и слушание'}]);
  assert.equal(groups.length,1);assert.deepEqual(groups[0].lessons.map(l=>l.id),['first','second']);
