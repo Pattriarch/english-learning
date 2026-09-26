@@ -27,7 +27,7 @@ export function lessonVisual(lesson){
 }
 export function lessonVisualHTML(lesson){
  const s=lessonVisual(lesson);if(!s)return '';
- return `<figure class="course-visual"><img src="/assets/course-scenes/${s.file}" alt="${esc(s.alt)}" loading="lazy" width="1536" height="1024"><figcaption><h3>${esc(s.title)}</h3><div class="diagram-english"><p lang="en">${esc(s.en)}</p><button type="button" class="btn small ghost" data-scene-speak aria-label="Послушать подпись к иллюстрации">${icon('sound')}</button></div><p>${esc(s.ru)}</p><p class="small-note">${esc(s.why)}</p></figcaption></figure>`;
+ return `<figure class="course-visual"><div class="course-visual-frame"><img src="/assets/course-scenes/${s.file}" alt="${esc(s.alt)}" loading="lazy" width="1536" height="1024"><p class="course-visual-subtitle" lang="en">${esc(s.en)}</p></div><figcaption><h3>${esc(s.title)}</h3><div class="diagram-english"><p lang="en">${esc(s.en)}</p><button type="button" class="btn small ghost" data-scene-speak aria-label="Послушать подпись к иллюстрации">${icon('sound')}</button></div><p>${esc(s.ru)}</p><p class="small-note">${esc(s.why)}</p></figcaption></figure>`;
 }
 export function lessonVisualSupportHTML(lesson,{scene:withScene=true}={}){
  const diagram=lessonDiagramHTML(lesson),scene=withScene?lessonVisualHTML(lesson):'';if(!diagram&&!scene)return '';

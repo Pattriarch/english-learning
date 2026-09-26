@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>E — Сегодня</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;font-family:'Manrope',sans-serif;background:#0A0A0B;color:#F4F4F5}
+a{color:#F4F4F5}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 1440px; height: 960px; box-sizing: border-box; background: #0A0A0B; color: #F4F4F5; font-family: 'Manrope', sans-serif; padding: 20px 48px 40px; display: flex; flex-direction: column; gap: 24px; overflow: hidden">
+<header style="height: 56px; display: flex; align-items: center; gap: 40px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 36px; height: 36px; border-radius: 11px; background: #FFFFFF; color: #0A0A0B; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px">E</span>
+<span style="font-size: 20px; font-weight: 800; letter-spacing: -0.03em">English</span>
+</div>
+<nav aria-label="Разделы" style="display: flex; gap: 28px; font-size: 16px; font-weight: 600">
+<a href="#" style="color: #FFFFFF; text-decoration: none; padding: 12px 0; box-shadow: inset 0 -2px 0 #FFFFFF">Сегодня</a>
+<a href="#" style="color: #A1A1A8; text-decoration: none; padding: 12px 0">Путь</a>
+<a href="#" style="color: #A1A1A8; text-decoration: none; padding: 12px 0">Слова</a>
+<a href="#" style="color: #A1A1A8; text-decoration: none; padding: 12px 0">Разговор</a>
+<a href="#" style="color: #A1A1A8; text-decoration: none; padding: 12px 0">Кино</a>
+</nav>
+<div style="margin-left: auto; display: flex; align-items: center; gap: 10px">
+<button type="button" aria-label="Поиск" style="width: 44px; height: 44px; border-radius: 999px; border: none; background: #18181B; display: flex; align-items: center; justify-content: center">
+<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#F4F4F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></button>
+<span style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border-radius: 999px; background: #18181B; font-size: 15px; font-weight: 700">
+<svg width="17" height="17" viewBox="0 0 24 24" fill="#FF8A3D"><path d="M12 2c1.2 3.6 5.5 5.6 5.5 11a5.5 5.5 0 0 1-11 0c0-2.8 1.6-4.3 2.5-5.6.4 1.7 1.4 2.8 2.6 3.3C11.2 8 11.3 5 12 2z"></path></svg>6 дней</span>
+<a href="#" aria-label="Профиль" style="width: 44px; height: 44px; border-radius: 999px; background: #2A2A30; display: flex; align-items: center; justify-content: center">
+<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#F4F4F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"></path></svg></a>
+</div>
+</header>
+<section aria-label="Текущий урок" style="position: relative; height: 500px; border-radius: 36px; overflow: hidden; background: radial-gradient(38% 70% at 80% 14%, rgba(255,172,98,0.55) 0%, rgba(255,150,70,0) 70%), radial-gradient(34% 60% at 58% 100%, rgba(90,120,255,0.22) 0%, rgba(90,120,255,0) 70%), linear-gradient(180deg, #1D1714 0%, #0E0C0B 100%)">
+<span aria-hidden="true" style="position: absolute; right: 150px; top: 60px; width: 70px; height: 70px; border-radius: 999px; background: rgba(255,210,150,0.30); box-shadow: 0 0 60px 26px rgba(255,190,120,0.18)"></span>
+<span aria-hidden="true" style="position: absolute; right: 320px; top: 120px; width: 26px; height: 26px; border-radius: 999px; background: rgba(255,220,170,0.25); box-shadow: 0 0 26px 10px rgba(255,200,140,0.12)"></span>
+<span aria-hidden="true" style="position: absolute; right: 60px; top: 190px; width: 38px; height: 38px; border-radius: 999px; background: rgba(255,190,130,0.18); box-shadow: 0 0 34px 14px rgba(255,170,110,0.10)"></span>
+<span aria-hidden="true" style="position: absolute; right: 250px; top: 24px; width: 16px; height: 16px; border-radius: 999px; background: rgba(255,230,190,0.30); box-shadow: 0 0 18px 8px rgba(255,210,150,0.14)"></span>
+<span aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 150px; background: linear-gradient(180deg, rgba(40,26,18,0) 0%, rgba(40,26,18,0.75) 100%)"></span>
+<svg aria-hidden="true" width="100%" height="100%" style="position: absolute; inset: 0; opacity: 0.16; mix-blend-mode: overlay"><filter id="e-grain-today"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence></filter><rect width="100%" height="100%" filter="url(#e-grain-today)"></rect></svg>
+<span aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,10,11,0.94) 0%, rgba(10,10,11,0.72) 34%, rgba(10,10,11,0) 62%)"></span>
+<div style="position: absolute; right: 64px; bottom: 44px; width: 520px; display: flex; flex-direction: column; align-items: center; gap: 8px">
+<span lang="en" style="padding: 6px 14px; border-radius: 8px; background: rgba(0,0,0,0.55); font-size: 22px; font-weight: 600; color: rgba(255,255,255,0.55)">It is a pen.</span>
+<span lang="en" style="padding: 6px 14px; border-radius: 8px; background: rgba(0,0,0,0.62); font-size: 26px; font-weight: 700"><span style="color: {{accent}}">The</span> pen is blue.</span>
+</div>
+<div style="position: absolute; left: 56px; top: 52px; bottom: 52px; width: 520px; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; gap: 8px">
+<span style="padding: 7px 12px; border-radius: 999px; background: rgba(255,255,255,0.14); font-size: 14px; font-weight: 700">A1 · эпизод 3</span>
+<span style="padding: 7px 12px; border-radius: 999px; background: rgba(255,255,255,0.08); font-size: 14px; color: #D4D4D8">25 минут</span>
+</div>
+<h1 style="margin: 0; font-size: 84px; line-height: 0.95; font-weight: 800; letter-spacing: -0.05em">A, an и the</h1>
+<p style="margin: 0; font-size: 20px; line-height: 1.5; color: #D4D4D8; max-width: 440px">Как показать собеседнику, что вещь для него новая или уже знакомая.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; align-items: center; gap: 14px">
+<div aria-label="Пройдено 4 шага из 10" style="width: 260px; height: 4px; border-radius: 999px; background: rgba(255,255,255,0.18)"><span style="display: block; width: 40%; height: 4px; border-radius: 999px; background: #FFFFFF"></span></div>
+<span style="font-size: 14px; color: #D4D4D8">шаг 5 из 10</span>
+</div>
+<div style="display: flex; gap: 10px">
+<a href="E-Lesson.dc.html" style="display: inline-flex; align-items: center; gap: 12px; height: 60px; padding: 0 30px 0 24px; border-radius: 999px; background: #FFFFFF; color: #0A0A0B; text-decoration: none; font-size: 17px; font-weight: 800">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="#0A0A0B"><path d="M7 4.5v15l12.5-7.5z"></path></svg>Продолжить</a>
+<button type="button" style="height: 60px; padding: 0 24px; border-radius: 999px; border: none; background: rgba(255,255,255,0.14); color: #FFFFFF; font-family: 'Manrope', sans-serif; font-size: 16px; font-weight: 700">Правило за минуту</button>
+</div>
+</div>
+</div>
+</section>
+<section aria-label="Дальше сегодня" style="display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<h2 style="margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -0.02em">Дальше сегодня</h2>
+<span style="font-size: 15px; color: #A1A1A8">ещё 20 минут · 10 уже позади</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px">
+<a href="#" style="display: flex; flex-direction: column; gap: 12px; text-decoration: none">
+<span style="position: relative; height: 172px; border-radius: 24px; background: #FFD84A; color: #0A0A0B; overflow: hidden; display: block">
+<span style="position: absolute; left: 20px; top: 16px; font-size: 14px; font-weight: 700">карточки</span>
+<span style="position: absolute; left: 16px; bottom: 2px; font-size: 104px; font-weight: 800; letter-spacing: -0.06em; line-height: 1">14</span>
+<span aria-hidden="true" style="position: absolute; right: 22px; top: 36px; width: 96px; height: 116px; border-radius: 16px; background: #0A0A0B; box-shadow: -10px -10px 0 -2px rgba(10,10,11,0.25)"></span>
+<span lang="en" style="position: absolute; right: 22px; top: 36px; width: 96px; height: 116px; display: flex; align-items: center; justify-content: center; color: #FFD84A; font-size: 19px; font-weight: 800">a pen</span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 700">Карточки: 14 фраз</span><span style="font-size: 14px; color: #A1A1A8">10 минут</span></span>
+</a>
+<a href="#" style="display: flex; flex-direction: column; gap: 12px; text-decoration: none">
+<span style="position: relative; height: 172px; border-radius: 24px; background: #FF6B4A; overflow: hidden; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="220" height="80" viewBox="0 0 220 80"><g fill="#0A0A0B"><rect x="0" y="32" width="8" height="16" rx="4"></rect><rect x="16" y="22" width="8" height="36" rx="4"></rect><rect x="32" y="10" width="8" height="60" rx="4"></rect><rect x="48" y="26" width="8" height="28" rx="4"></rect><rect x="64" y="4" width="8" height="72" rx="4"></rect><rect x="80" y="18" width="8" height="44" rx="4"></rect><rect x="96" y="30" width="8" height="20" rx="4"></rect><rect x="112" y="12" width="8" height="56" rx="4"></rect><rect x="128" y="24" width="8" height="32" rx="4"></rect><rect x="144" y="6" width="8" height="68" rx="4"></rect><rect x="160" y="20" width="8" height="40" rx="4"></rect><rect x="176" y="30" width="8" height="20" rx="4"></rect><rect x="192" y="16" width="8" height="48" rx="4"></rect><rect x="208" y="32" width="8" height="16" rx="4"></rect></g></svg>
+<span style="position: absolute; left: 20px; top: 16px; font-size: 14px; font-weight: 700; color: #0A0A0B">вслух</span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 700">Что у меня на столе</span><span style="font-size: 14px; color: #A1A1A8">5 минут · запись голоса</span></span>
+</a>
+<a href="#" style="display: flex; flex-direction: column; gap: 12px; text-decoration: none">
+<span style="position: relative; height: 172px; border-radius: 24px; overflow: hidden; display: block; background: radial-gradient(60% 80% at 75% 20%, rgba(255,172,98,0.6) 0%, rgba(255,150,70,0) 70%), linear-gradient(180deg, #2A1F19 0%, #120F0D 100%)">
+<span aria-hidden="true" style="position: absolute; right: 40px; top: 28px; width: 34px; height: 34px; border-radius: 999px; background: rgba(255,210,150,0.35); box-shadow: 0 0 30px 12px rgba(255,190,120,0.18)"></span>
+<span style="position: absolute; left: 16px; top: 14px; padding: 5px 10px; border-radius: 999px; background: rgba(0,0,0,0.5); font-size: 13px; font-weight: 700">2:10</span>
+<span lang="en" style="position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); white-space: nowrap; padding: 4px 10px; border-radius: 6px; background: rgba(0,0,0,0.6); font-size: 15px; font-weight: 700">Is this <span style="color: {{accent}}">the</span> coffee I ordered?</span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 700">Кино: сцена в кафе</span><span style="font-size: 14px; color: #A1A1A8">5 минут · субтитры EN</span></span>
+</a>
+<a href="#" style="display: flex; flex-direction: column; gap: 12px; text-decoration: none">
+<span style="position: relative; height: 172px; border-radius: 24px; background: #2F45FF; overflow: hidden; display: block">
+<span style="position: absolute; left: 20px; top: 16px; font-size: 14px; font-weight: 700">путь</span>
+<span style="position: absolute; right: 18px; bottom: -14px; font-size: 128px; font-weight: 800; letter-spacing: -0.06em; line-height: 1; color: rgba(255,255,255,0.95)">A1</span>
+<span style="position: absolute; left: 20px; bottom: 20px; display: flex; gap: 4px"><span style="width: 10px; height: 10px; border-radius: 999px; background: #FFFFFF"></span><span style="width: 10px; height: 10px; border-radius: 999px; background: #FFFFFF"></span><span style="width: 10px; height: 10px; border-radius: 999px; box-shadow: inset 0 0 0 2px #FFFFFF"></span><span style="width: 10px; height: 10px; border-radius: 999px; background: rgba(255,255,255,0.3)"></span><span style="width: 10px; height: 10px; border-radius: 999px; background: rgba(255,255,255,0.3)"></span></span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 17px; font-weight: 700">Путь A1: первые фразы</span><span style="font-size: 14px; color: #A1A1A8">урок 3 из 25</span></span>
+</a>
+</div>
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#FFB36B","options":["#FFB36B","#7AA2FF","#FF7A8A","#8BE3B5"]},"$preview":{"width":1440,"height":960}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#FFB36B' };
+}
+}
+</script>
+</body>
+</html>

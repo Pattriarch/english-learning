@@ -9,10 +9,12 @@ export function bindShellControls() {
   const more = document.getElementById('mobile-more'), content = document.querySelector('.content');
   const mobileNav = document.querySelector('.mobile-nav');
   const narrow = window.matchMedia('(max-width: 900px)');
+  // In the «Кино» design the full section list is a drawer at every width.
+  const drawer = () => narrow.matches || document.documentElement.dataset.design === 'kino';
   let opener = menu;
   function setOpen(open) {
     sidebar.classList.toggle('open', open);
-    sidebar.inert = narrow.matches && !open;
+    sidebar.inert = drawer() && !open;
     backdrop.hidden = !open;
     content.inert = open;
     mobileNav.inert = open;
@@ -37,8 +39,8 @@ export function bindShellControls() {
   };
   const adapt = () => {
     if (!sidebar.isConnected) {narrow.removeEventListener('change', adapt);return;}
-    if (!narrow.matches && sidebar.classList.contains('open')) setOpen(false);
-    sidebar.inert = narrow.matches && !sidebar.classList.contains('open');
+    if (!drawer() && sidebar.classList.contains('open')) setOpen(false);
+    sidebar.inert = drawer() && !sidebar.classList.contains('open');
   };
   narrow.addEventListener('change', adapt); adapt();
   cleanup = () => narrow.removeEventListener('change', adapt);

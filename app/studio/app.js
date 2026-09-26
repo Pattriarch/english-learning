@@ -34,6 +34,8 @@ nav.push(['mastery','map','Результаты A1–C2'],['projects','pen','П�
 nav.splice(6,0,['conversation','mic','Разговоры']);
 nav.splice(7,0,['lexicon','book','Живой словарь']);
 const href=r=>'#/'+r;
+// The «Кино» design shows these in the top bar; every section stays in the drawer.
+const topNav=[['today','Сегодня'],['roadmap','Программа'],['lexicon','Слова'],['review','Карточки'],['conversation','Разговор'],['cinema','Кино']];
 async function refresh(){
  data=await api('/bootstrap');
  initStudySession(data.state);
@@ -55,9 +57,11 @@ function shell(route){
   ${nav.slice(7).map(([r,i,t])=>`<a href="${href(r)}" class="${r===route?'active':''}">${icon(i)}${t}</a>`).join('')}</nav>
   <div class="sidebar-bottom"><a class="sidebar-route" href="#/roadmap" aria-label="Открыть программу A1–C2"><span class="sidebar-route-label">Твой маршрут</span><span class="sidebar-route-levels"><span>A1</span>${icon('arrow')}<span>C2</span></span><span class="sidebar-route-caption">От основ к свободной речи</span></a></div>
  </aside><button class="menu-backdrop" id="menu-backdrop" aria-label="Закрыть меню" tabindex="-1" hidden></button><div class="content"><header class="topbar">
-  <button class="mobile-menu" id="menu" aria-label="Открыть меню" aria-controls="sidebar" aria-expanded="false">${icon('menu')}</button>
+  <a class="topbar-brand" href="#/today" aria-label="English, план на сегодня"><span class="brandmark" aria-hidden="true">E</span><span>English</span></a>
+  <nav class="top-nav" aria-label="Главные разделы">${topNav.map(([r,t])=>{const on=r===route||(r==='roadmap'&&['lesson','unit','tenses'].includes(route));return `<a href="${href(r)}" ${on?'aria-current="page"':''}>${t}${r==='review'&&due?`<span class="badge-count">${due}</span>`:''}</a>`;}).join('')}</nav>
+  <button class="mobile-menu" id="menu" aria-label="Открыть меню" aria-controls="sidebar" aria-expanded="false">${icon('menu')}<span class="mobile-menu-label">Все разделы</span></button>
   <div class="crumb"><span class="crumb-prefix">English <span style="padding:0 10px">/</span></span> <strong>${titles[route]||'Сегодня'}</strong></div>
-  <div class="top-tools"><span class="save-status" id="save-status">${icon('check')} Прогресс на этом компьютере</span><span class="timer">${icon('clock')} <span id="daily-time">${mins}</span> / <span id="daily-goal">${dailyGoal()}</span> мин</span><a class="appearance-link" href="#/designs" aria-label="Шесть вариантов дизайна">${icon('spark')}</a><button class="theme-toggle" id="theme-toggle" aria-label="${appearance().theme==='dark'?'Включить светлую тему':'Включить тёмную тему'}">${appearance().theme==='dark'?'☼':'◐'}</button></div>
+  <div class="top-tools"><span class="save-status" id="save-status">${icon('check')} Прогресс на этом компьютере</span><span class="timer">${icon('clock')} <span id="daily-time">${mins}</span> / <span id="daily-goal">${dailyGoal()}</span> мин</span><a class="appearance-link" href="#/designs" aria-label="Варианты дизайна">${icon('spark')}</a><button class="theme-toggle" id="theme-toggle" aria-label="${appearance().theme==='dark'?'Включить светлую тему':'Включить тёмную тему'}">${appearance().theme==='dark'?'☼':'◐'}</button></div>
  </header><main id="main" class="page" tabindex="-1"></main></div><nav class="mobile-nav" aria-label="Быстрая навигация">${[['today','home','Сегодня'],['roadmap','map','Программа'],['lexicon','book','Слова'],['review','cards','Карточки']].map(([r,i,t])=>`<a href="${href(r)}" ${r===route?'aria-current="page"':''}>${icon(i)}<span>${t}</span></a>`).join('')}<button id="mobile-more" aria-controls="sidebar" aria-expanded="false">${icon('menu')}<span>Ещё</span></button></nav>`;
  bindShellControls();
  $('.skip').onclick=ev=>{ev.preventDefault();$('#main').focus();};

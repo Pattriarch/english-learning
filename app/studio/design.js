@@ -1,6 +1,7 @@
 import {$,$$,esc,icon,progressLesson} from './core.js';
 import {mountDailyPlanner} from './planner.js';
 export const designs=[
+ {id:'kino',name:'Кино',short:'Kino',note:'Главный дизайн: тёмный кинозал, кадр урока с субтитрами, эпизоды дня и крупный шрифт. Есть светлая версия.',color:'#ffb36b',dark:'#0a0a0b',light:'#f2f2f0'},
  {id:'bento',name:'01 / Daily ritual',short:'Ritual',note:'В духе Drinkit: мягкие карточки, кобальт, крупный текст и простой ежедневный ритуал.',color:'#5668f5',dark:'#101113'},
  {id:'editorial',name:'02 / The English Journal',short:'Editorial',note:'Журнальная сетка, выразительные заголовки и много воздуха для длинного чтения.',color:'#bc6146',dark:'#1c1917'},
  {id:'cinema',name:'03 / After Hours',short:'Cinema',note:'Широкий киноэкран, тёплый янтарь, практика через истории и диалоги.',color:'#d4a85f',dark:'#151311'},
@@ -8,21 +9,26 @@ export const designs=[
  {id:'forest',name:'05 / Quiet Progress',short:'Forest',note:'Спокойный зелёный, одна большая цель и мягкий ритм учебного дня.',color:'#77a990',dark:'#121c18'},
  {id:'mono',name:'06 / Swiss Index',short:'Mono',note:'Строгая типографика, открытая модульная сетка и красный маркер действия.',color:'#e86651',dark:'#151515'}
 ];
+// Version 2 introduced the «Кино» design as the default. Earlier saved choices
+// switch to it once; after that the person's own choice is kept.
+const appearanceVersion=2;
 export function appearance(){
- let prefs={design:'bento',theme:'dark'};
- try{prefs={...prefs,...JSON.parse(localStorage.getItem('ew-appearance')||'{}')};}catch{}
- if(!designs.some(d=>d.id===prefs.design))prefs.design='bento';
+ let prefs={design:'kino',theme:'dark'},stored={};
+ try{stored=JSON.parse(localStorage.getItem('ew-appearance')||'{}')||{};}catch{}
+ if(stored.v===appearanceVersion)prefs={...prefs,...stored};
+ if(!designs.some(d=>d.id===prefs.design))prefs.design='kino';
  if(!['light','dark'].includes(prefs.theme))prefs.theme='dark';
  document.documentElement.dataset.design=prefs.design;document.documentElement.dataset.theme=prefs.theme;return prefs;
 }
+function themeColor(pref){const d=designs.find(d=>d.id===pref.design);return pref.theme==='dark'?d.dark:d.light||'#f4f5f8';}
 export function setAppearance(patch){
- const pref={...appearance(),...patch};
+ const pref={...appearance(),...patch,v:appearanceVersion};
  try{localStorage.setItem('ew-appearance',JSON.stringify(pref));}catch{}
  document.documentElement.dataset.design=pref.design;document.documentElement.dataset.theme=pref.theme;
- document.querySelector('meta[name="theme-color"]')?.setAttribute('content',pref.theme==='dark'?designs.find(d=>d.id===pref.design).dark:'#f4f5f8');
+ document.querySelector('meta[name="theme-color"]')?.setAttribute('content',themeColor(pref));
  window.dispatchEvent(new Event('ew-appearance'));
 }
-appearance();
+document.querySelector('meta[name="theme-color"]')?.setAttribute('content',themeColor(appearance()));
 export function bindAppearance(){
  const b=$('#theme-toggle');
  if(b)b.onclick=()=>setAppearance({theme:appearance().theme==='dark'?'light':'dark'});
@@ -36,12 +42,12 @@ export async function mountDashboard(root,data,refresh){
  return mountDailyPlanner(root,data,refresh);
 }
 function miniature(d){
- const light=appearance().theme==='light',paper={bento:'#eef1f8',editorial:'#f4eee3',cinema:'#f2e9db',studio:'#f0ecfa',forest:'#eaf1e6',mono:'#f2f2ec'};
- return `<div class="design-mini mini-${d.id} ${light?'preview-light':''}" style="--preview-bg:${light?paper[d.id]:d.dark};--preview-accent:${d.color}"><div class="mini-sidebar"><b>ew.</b><i></i><i></i><i></i><i></i></div><div class="mini-canvas"><span>ENGLISH WORKSHOP</span><h3>${d.id==='editorial'?'The art of<br> <em>finding words.</em>':d.id==='cinema'?'Stories worth<br>talking about.':d.id==='mono'?'MAKE<br>YOUR POINT.':'Your next<br>chapter.'}</h3><div class="mini-grid"><div class="mini-hero"><span>Продолжить</span><b>Present perfect.<br>Смысл важнее формулы.</b></div><div class="mini-stat"><b>A1<br>↓<br>C2</b></div><div class="mini-film">BETTER CALL SAUL</div><div class="mini-list"><i></i><i></i><i></i></div></div></div></div>`;
+ const light=appearance().theme==='light',paper={kino:'#f2f2f0',bento:'#eef1f8',editorial:'#f4eee3',cinema:'#f2e9db',studio:'#f0ecfa',forest:'#eaf1e6',mono:'#f2f2ec'};
+ return `<div class="design-mini mini-${d.id} ${light?'preview-light':''}" style="--preview-bg:${light?paper[d.id]:d.dark};--preview-accent:${d.color}"><div class="mini-sidebar"><b>ew.</b><i></i><i></i><i></i><i></i></div><div class="mini-canvas"><span>ENGLISH WORKSHOP</span><h3>${d.id==='kino'?'Твой следующий<br>эпизод.':d.id==='editorial'?'The art of<br> <em>finding words.</em>':d.id==='cinema'?'Stories worth<br>talking about.':d.id==='mono'?'MAKE<br>YOUR POINT.':'Your next<br>chapter.'}</h3><div class="mini-grid"><div class="mini-hero"><span>Продолжить</span><b>Present perfect.<br>Смысл важнее формулы.</b></div><div class="mini-stat"><b>A1<br>↓<br>C2</b></div><div class="mini-film">BETTER CALL SAUL</div><div class="mini-list"><i></i><i></i><i></i></div></div></div></div>`;
 }
 export function mountDesigns(root){
  const pref=appearance();
- root.innerHTML=`<div class="page-head"><div><div class="eyebrow">DESIGN COLLECTION / 2026</div><h1>Шесть характеров.<br>Одна мастерская.</h1><p>Выбери пространство, в котором хочется остаться. Каждый вариант — светлый и тёмный.</p></div><button class="btn" id="gallery-mode">${pref.theme==='dark'?'Посмотреть в светлом':'Посмотреть в тёмном'}</button></div><div class="design-gallery">${designs.map(d=>`<article class="design-option ${d.id===pref.design?'selected':''}">${miniature(d)}<div class="design-description"><div class="spread"><h2>${d.name}</h2><span class="design-dot" style="background:${d.color}"></span></div><p>${d.note}</p><button class="btn ${d.id===pref.design?'primary':''}" data-design-pick="${d.id}">${d.id===pref.design?'Открыть текущий':'Примерить дизайн'} ${icon('arrow')}</button></div></article>`).join('')}</div><div class="notice design-references">Опорные идеи: типографика и карточки из твоего «Драйва», выразительная модульная сетка и спокойные поверхности. <a href="https://linear.app/now/behind-the-latest-design-refresh" target="_blank" rel="noreferrer">Linear: обновление 2026</a> · <a href="https://vercel.com/geist/typography" target="_blank" rel="noreferrer">Geist: типографика</a>. Обложка создана через Image Generator специально для мастерской.</div>`;
+ root.innerHTML=`<div class="page-head"><div><h1>Дизайн мастерской</h1><p>Основной — «Кино». Остальные варианты можно примерить; у каждого есть светлая и тёмная версия.</p></div><button class="btn" id="gallery-mode">${pref.theme==='dark'?'Посмотреть в светлом':'Посмотреть в тёмном'}</button></div><div class="design-gallery">${designs.map(d=>`<article class="design-option ${d.id===pref.design?'selected':''}">${miniature(d)}<div class="design-description"><div class="spread"><h2>${d.name}</h2><span class="design-dot" style="background:${d.color}"></span></div><p>${d.note}</p><button class="btn ${d.id===pref.design?'primary':''}" data-design-pick="${d.id}">${d.id===pref.design?'Открыть текущий':'Примерить дизайн'} ${icon('arrow')}</button></div></article>`).join('')}</div><div class="notice design-references">Опорные идеи: типографика и карточки из твоего «Драйва», выразительная модульная сетка и спокойные поверхности. <a href="https://linear.app/now/behind-the-latest-design-refresh" target="_blank" rel="noreferrer">Linear: обновление 2026</a> · <a href="https://vercel.com/geist/typography" target="_blank" rel="noreferrer">Geist: типографика</a>. Обложка создана через Image Generator специально для мастерской.</div>`;
  $$('[data-design-pick]',root).forEach(b=>b.onclick=()=>{setAppearance({design:b.dataset.designPick});location.hash='/today';});
  $('#gallery-mode').onclick=()=>setAppearance({theme:appearance().theme==='dark'?'light':'dark'});
 }
