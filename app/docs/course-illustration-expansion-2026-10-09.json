@@ -1,0 +1,607 @@
+{
+  "version": 1,
+  "date": "2026-10-09",
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "key": "daily-tea",
+      "ids": [
+        "path-present-simple"
+      ],
+      "title": "Чай каждый день",
+      "alt": "Том пьёт чай за столом у окна.",
+      "en": "Tom drinks tea.",
+      "ru": "Том пьёт чай.",
+      "subject": "An adult man drinking tea from a ceramic cup at his kitchen table in morning daylight; everyday routine, book nearby. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult man drinking tea from a ceramic cup at his kitchen table in morning daylight; everyday routine, book nearby. Single scene. Intended lesson caption: Tom drinks tea. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "her-red-bag",
+      "ids": [
+        "path-pronouns"
+      ],
+      "title": "Её красная сумка",
+      "alt": "Девушка с красной сумкой, на которую указывает собеседник.",
+      "en": "Her bag is red.",
+      "ru": "Её сумка красная.",
+      "subject": "An adult woman wearing a clearly red shoulder bag, standing beside a friendly adult who points gently toward her bag. The red bag must be the clear focus. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult woman wearing a clearly red shoulder bag, standing beside a friendly adult who points gently toward her bag. The red bag must be the clear focus. Single scene. Intended lesson caption: Her bag is red. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "where-are-you",
+      "ids": [
+        "path-questions-basic"
+      ],
+      "title": "Где ты?",
+      "alt": "Человек на улице разговаривает по телефону и оглядывается.",
+      "en": "Where are you?",
+      "ru": "Где ты?",
+      "subject": "An adult pedestrian at a quiet street corner talking on a smartphone and looking around to locate a friend; street trees and a small cafe, no visible writing. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult pedestrian at a quiet street corner talking on a smartphone and looking around to locate a friend; street trees and a small cafe, no visible writing. Single scene. Intended lesson caption: Where are you? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "room-table-chairs",
+      "ids": [
+        "path-there-is"
+      ],
+      "title": "Что есть в комнате",
+      "alt": "В светлой комнате стоит стол и ровно три стула.",
+      "en": "There is a table in the room.",
+      "ru": "В комнате есть стол.",
+      "subject": "A simple bright kitchen room viewed wide, one wooden table and exactly three separate chairs arranged around it, ample uncluttered space. No people. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: A simple bright kitchen room viewed wide, one wooden table and exactly three separate chairs arranged around it, ample uncluttered space. No people. Single scene. Intended lesson caption: There is a table in the room. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "spelling-at-desk",
+      "ids": [
+        "research-spelling-numbers"
+      ],
+      "title": "Имя по буквам",
+      "alt": "Посетитель медленно называет имя, сотрудница записывает его.",
+      "en": "How do you spell that?",
+      "ru": "Как это пишется?",
+      "subject": "Two friendly adults at a community center reception desk: the visitor speaking slowly, receptionist listening attentively and writing in a notebook, a small stack of books beside the notebook. All paper surfaces have abstract faint lines only, absolutely no readable letters or numbers. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two friendly adults at a community center reception desk: the visitor speaking slowly, receptionist listening attentively and writing in a notebook, a small stack of books beside the notebook. All paper surfaces have abstract faint lines only, absolutely no readable letters or numbers. Single scene. Intended lesson caption: How do you spell that? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "first-hello",
+      "ids": [
+        "natural-a1-welcome"
+      ],
+      "title": "Первое знакомство",
+      "alt": "Два человека приветствуют друг друга на встрече.",
+      "en": "I’m Tom. Nice to meet you.",
+      "ru": "Я Том. Приятно познакомиться.",
+      "subject": "Two young adult Americans meeting for the first time in a community center lounge, friendly wave and welcoming expressions, no handshake required. A bookshelf in the soft background. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two young adult Americans meeting for the first time in a community center lounge, friendly wave and welcoming expressions, no handshake required. A bookshelf in the soft background. Single scene. Intended lesson caption: I’m Tom. Nice to meet you. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "bagel-and-juice",
+      "ids": [
+        "extended-a1-order"
+      ],
+      "title": "Заказ в кафе",
+      "alt": "На подносе лежат бейгл и стакан апельсинового сока.",
+      "en": "Can I get a bagel and an orange juice, please?",
+      "ru": "Можно бейгл и апельсиновый сок, пожалуйста?",
+      "subject": "An adult customer politely ordering at a cafe counter, employee offering a tray with one plain bagel and a clear glass of orange juice. The bagel must have a round hole and no frosting; juice orange and no brand labels. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult customer politely ordering at a cafe counter, employee offering a tray with one plain bagel and a clear glass of orange juice. The bagel must have a round hole and no frosting; juice orange and no brand labels. Single scene. Intended lesson caption: Can I get a bagel and an orange juice, please? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "paying-by-card",
+      "ids": [
+        "research-ordering-checkout"
+      ],
+      "title": "Оплата картой",
+      "alt": "Покупатель прикладывает банковскую карту к терминалу в кафе.",
+      "en": "Card, please.",
+      "ru": "Картой, пожалуйста.",
+      "subject": "Close but wide cafe payment scene: adult customer tapping a plain unbranded bank card on a card reader; server nearby, a short receipt with illegible faint lines on the counter. No card digits, no display text, no brands. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Close but wide cafe payment scene: adult customer tapping a plain unbranded bank card on a card reader; server nearby, a short receipt with illegible faint lines on the counter. No card digits, no display text, no brands. Single scene. Intended lesson caption: Card, please. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "sunday-chat",
+      "ids": [
+        "extended-a1-chat"
+      ],
+      "title": "Договориться с другом",
+      "alt": "Человек дома читает сообщение от друга и улыбается.",
+      "en": "Sounds good! I’m free on Sunday.",
+      "ru": "Давай! В воскресенье я свободен.",
+      "subject": "An adult relaxing in a cozy living room and smiling while responding to a friend on their smartphone. A small framed abstract exhibition artwork on the wall and a jacket ready on a chair suggest making outing plans. Phone screen contains only simple blank chat shapes, no text. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult relaxing in a cozy living room and smiling while responding to a friend on their smartphone. A small framed abstract exhibition artwork on the wall and a jacket ready on a chair suggest making outing plans. Phone screen contains only simple blank chat shapes, no text. Single scene. Intended lesson caption: Sounds good! I’m free on Sunday. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "please-wait",
+      "ids": [
+        "extended-a1-notices"
+      ],
+      "title": "Подождать здесь",
+      "alt": "Посетитель ждёт у стойки, сотрудница вежливо просит подождать.",
+      "en": "Please wait here.",
+      "ru": "Пожалуйста, подождите здесь.",
+      "subject": "At a community center reception an employee makes a calm polite open palm waiting gesture toward an adult visitor near the counter; a free waiting chair at the side. Welcoming, not authoritarian. No notices or readable signs. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: At a community center reception an employee makes a calm polite open palm waiting gesture toward an adult visitor near the counter; a free waiting chair at the side. Welcoming, not authoritarian. No notices or readable signs. Single scene. Intended lesson caption: Please wait here. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "new-phone",
+      "ids": [
+        "path-adjectives-frequency"
+      ],
+      "title": "Новый телефон",
+      "alt": "Человек держит новый телефон рядом с открытой коробкой.",
+      "en": "I have a new phone.",
+      "ru": "У меня новый телефон.",
+      "subject": "Adult proudly holding a new unbranded smartphone beside its opened plain packaging on a desk, a simple clean screen without text. Phone and packaging clearly visible, no logos. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult proudly holding a new unbranded smartphone beside its opened plain packaging on a desk, a simple clean screen without text. Phone and packaging clearly visible, no logos. Single scene. Intended lesson caption: I have a new phone. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "english-at-home",
+      "ids": [
+        "extended-a1-day"
+      ],
+      "title": "Заниматься дома",
+      "alt": "Девушка дома слушает английский в наушниках и делает заметки.",
+      "en": "She practices English at home.",
+      "ru": "Она занимается английским дома.",
+      "subject": "Adult woman practicing a language at a home desk with headphones, open notebook and laptop displaying a simple audio waveform, mouth gently repeating a phrase. Cozy houseplant in background. No letters or words on screens or paper. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult woman practicing a language at a home desk with headphones, open notebook and laptop displaying a simple audio waveform, mouth gently repeating a phrase. Cozy houseplant in background. No letters or words on screens or paper. Single scene. Intended lesson caption: She practices English at home. Use this only to guide the pictured situation, do not render any caption or writing in the image. Hardware realism is essential: the viewer sees the PLAIN BACK of the laptop or smartphone while its screen faces the person. Do not draw any waveform, microphone icon, play button, interface element or any marking on a device back. The visible device back is completely plain except an ordinary camera lens on the phone. Remove all requested screen graphics from this composition."
+    },
+    {
+      "key": "worked-late",
+      "ids": [
+        "path-past-simple"
+      ],
+      "title": "Работали допоздна",
+      "alt": "Два человека работают в офисе вечером, за окном темно.",
+      "en": "We worked late on Friday.",
+      "ru": "В пятницу мы работали допоздна.",
+      "subject": "Two adults finishing work together at an office desk at night, warm desk lamp, dark blue sky outside, closed folders and laptops, slightly tired but calm. No clocks, calendar dates, text or numbers. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adults finishing work together at an office desk at night, warm desk lamp, dark blue sky outside, closed folders and laptops, slightly tired but calm. No clocks, calendar dates, text or numbers. Single scene. Intended lesson caption: We worked late on Friday. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "asking-directions",
+      "ids": [
+        "path-dates-directions"
+      ],
+      "title": "Дорога к вокзалу",
+      "alt": "Прохожий показывает туристу путь к вокзалу.",
+      "en": "Excuse me, how do I get to the train station?",
+      "ru": "Извините, как мне добраться до вокзала?",
+      "subject": "Adult traveler with a small rolling suitcase asking a local pedestrian for directions. Local points along a clear sidewalk toward a modest train station visible in the distance with a train beside it. American street setting, no readable signage or maps. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult traveler with a small rolling suitcase asking a local pedestrian for directions. Local points along a clear sidewalk toward a modest train station visible in the distance with a train beside it. American street setting, no readable signage or maps. Single scene. Intended lesson caption: Excuse me, how do I get to the train station? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "child-swimming",
+      "ids": [
+        "path-could-able"
+      ],
+      "title": "Умел плавать в детстве",
+      "alt": "Ребёнок спокойно плывёт в бассейне под присмотром взрослого.",
+      "en": "Could you swim when you were a kid? — Yes, I could.",
+      "ru": "Ты умел плавать в детстве? — Да, умел.",
+      "subject": "A child competently swimming in a shallow supervised swimming pool, a responsible adult watching calmly from poolside. Friendly educational scene, no distress or flotation confusion, a clear swimming action. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: A child competently swimming in a shallow supervised swimming pool, a responsible adult watching calmly from poolside. Friendly educational scene, no distress or flotation confusion, a clear swimming action. Single scene. Intended lesson caption: Could you swim when you were a kid? — Yes, I could. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "call-after-work",
+      "ids": [
+        "path-future-simple"
+      ],
+      "title": "Обещание позвонить",
+      "alt": "Человек завершает рабочий день и договаривается о звонке.",
+      "en": "I’ll call you after work.",
+      "ru": "Я позвоню тебе после работы.",
+      "subject": "Adult in a small office finishing work, holding smartphone while closing a laptop and putting on a jacket to leave; reassuring smile suggesting a promise. Late afternoon light. No text on phone or documents. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult in a small office finishing work, holding smartphone while closing a laptop and putting on a jacket to leave; reassuring smile suggesting a promise. Late afternoon light. No text on phone or documents. Single scene. Intended lesson caption: I’ll call you after work. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "leave-voice-message",
+      "ids": [
+        "research-telephone-messages"
+      ],
+      "title": "Оставить сообщение",
+      "alt": "Девушка записывает голосовое сообщение на телефон.",
+      "en": "Would you like to leave a message?",
+      "ru": "Хотите оставить сообщение?",
+      "subject": "Adult woman speaking a voice message into a smartphone at home; phone screen shows only a simple audio waveform and a microphone symbol, no text or numbers. A separate subtle empty speech shape can suggest the other caller, not written dialogue. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult woman speaking a voice message into a smartphone at home; phone screen shows only a simple audio waveform and a microphone symbol, no text or numbers. A separate subtle empty speech shape can suggest the other caller, not written dialogue. Single scene. Intended lesson caption: Would you like to leave a message? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "pickup-workshop",
+      "ids": [
+        "extended-a2-phone"
+      ],
+      "title": "Перенести получение",
+      "alt": "Клиент разговаривает по телефону, в другой половине кадра сотрудник мастерской рядом с готовым предметом.",
+      "en": "Could I pick it up on Friday instead?",
+      "ru": "А можно забрать его в пятницу?",
+      "subject": "Two balanced panels separated by clean space: left an adult customer at home speaking on a phone; right a repair workshop employee answering a phone beside an unbranded laptop ready to collect on the workbench. No dates, clock faces, words or numbers. Workshop is calm and organized.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two balanced panels separated by clean space: left an adult customer at home speaking on a phone; right a repair workshop employee answering a phone beside an unbranded laptop ready to collect on the workbench. No dates, clock faces, words or numbers. Workshop is calm and organized. Intended lesson caption: Could I pick it up on Friday instead? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "hospital-since",
+      "ids": [
+        "path-present-perfect-for-since"
+      ],
+      "title": "Работает здесь с 2021 года",
+      "alt": "Сотрудница больницы в форме стоит у стойки.",
+      "en": "She’s worked at the hospital since 2021.",
+      "ru": "Она работает в больнице с 2021 года.",
+      "subject": "An adult hospital staff woman in blue scrubs at a reception desk, welcoming professional expression, softly visible hospital corridor in the background. No patients or medical procedures, no dates, names, text or labels. Single scene; duration will be supplied by HTML caption.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult hospital staff woman in blue scrubs at a reception desk, welcoming professional expression, softly visible hospital corridor in the background. No patients or medical procedures, no dates, names, text or labels. Single scene; duration will be supplied by HTML caption. Intended lesson caption: She’s worked at the hospital since 2021. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "me-too-music",
+      "ids": [
+        "path-me-too"
+      ],
+      "title": "Мне тоже нравится",
+      "alt": "Два друга слушают одну песню и оба улыбаются.",
+      "en": "I like this song. — Me too.",
+      "ru": "Мне нравится эта песня. — Мне тоже.",
+      "subject": "Two adult friends sitting on a park bench happily listening to the same song on a small unbranded portable speaker; one smiles enthusiastically and the other nods in agreement. No musical words or text, subtle clean music-note shapes okay. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adult friends sitting on a park bench happily listening to the same song on a small unbranded portable speaker; one smiles enthusiastically and the other nods in agreement. No musical words or text, subtle clean music-note shapes okay. Single scene. Intended lesson caption: I like this song. — Me too. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "little-sugar",
+      "ids": [
+        "path-quantifiers-basic"
+      ],
+      "title": "Немного сахара",
+      "alt": "Небольшая ложка с сахаром над чашкой, рядом сахарница.",
+      "en": "Can I have a little sugar, please?",
+      "ru": "Можно мне немного сахара?",
+      "subject": "Clear tabletop view of a ceramic cup, open sugar bowl containing loose granulated white sugar, and a hand holding a small spoon with just a little loose sugar over the cup. No sugar cubes. No logos or writing. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Clear tabletop view of a ceramic cup, open sugar bowl containing loose granulated white sugar, and a hand holding a small spoon with just a little loose sugar over the cup. No sugar cubes. No logos or writing. Single scene. Intended lesson caption: Can I have a little sugar, please? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "used-to-soccer",
+      "ids": [
+        "path-past-habits"
+      ],
+      "title": "Раньше играла в футбол",
+      "alt": "Слева девушка играет в футбол, справа убирает футбольные бутсы.",
+      "en": "She used to play soccer on weekends.",
+      "ru": "Раньше она играла в футбол по выходным.",
+      "subject": "Two panels with the same adult woman: left playing soccer outdoors, one clear ball at her foot; right at home calmly putting her soccer boots away on a shelf, soccer ball beside them. Left suggests former hobby, right present life; do not add calendars, dates, labels or arrows.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two panels with the same adult woman: left playing soccer outdoors, one clear ball at her foot; right at home calmly putting her soccer boots away on a shelf, soccer ball beside them. Left suggests former hobby, right present life; do not add calendars, dates, labels or arrows. Intended lesson caption: She used to play soccer on weekends. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "work-on-saturday",
+      "ids": [
+        "path-obligation"
+      ],
+      "title": "Нужно работать в субботу",
+      "alt": "Человек работает, пока друзья собираются на прогулку.",
+      "en": "I have to work on Saturday.",
+      "ru": "Мне нужно работать в субботу.",
+      "subject": "Adult seated at an office desk working, while through a large window two adult friends with day-trip backpacks head toward a park. Working person gives a friendly apologetic wave. No calendars, dates or text; caption supplies the day. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult seated at an office desk working, while through a large window two adult friends with day-trip backpacks head toward a park. Working person gives a friendly apologetic wave. No calendars, dates or text; caption supplies the day. Single scene. Intended lesson caption: I have to work on Saturday. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "enjoy-walking",
+      "ids": [
+        "path-gerund-infinitive"
+      ],
+      "title": "Нравится гулять",
+      "alt": "Двое взрослых спокойно гуляют по парку.",
+      "en": "We enjoy walking in the park.",
+      "ru": "Нам нравится гулять в парке.",
+      "subject": "Two adults enjoying a relaxed walk along a park path, leafy trees, slight smiles and easy body language, no phones, no cafe table, no signs. Full figures visible. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adults enjoying a relaxed walk along a park path, leafy trees, slight smiles and easy body language, no phones, no cafe table, no signs. Full figures visible. Single scene. Intended lesson caption: We enjoy walking in the park. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "broken-mug-apology",
+      "ids": [
+        "research-apologies-remedies"
+      ],
+      "title": "Извиниться и исправить",
+      "alt": "Человек извиняется перед другом за разбитую кружку.",
+      "en": "I broke your mug. I’ll buy you a new one.",
+      "ru": "Я разбил твою кружку. Куплю тебе новую.",
+      "subject": "Two adults in a kitchen: one looks apologetic and gestures toward a broken ceramic mug with a few large pieces on a tabletop; the friend listens calmly. No injuries or shards on hands. A simple reassuring gesture, no text. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adults in a kitchen: one looks apologetic and gestures toward a broken ceramic mug with a few large pieces on a tabletop; the friend listens calmly. No injuries or shards on hands. A simple reassuring gesture, no text. Single scene. Intended lesson caption: I broke your mug. I’ll buy you a new one. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "rain-taking-bus",
+      "ids": [
+        "path-connectors-basic"
+      ],
+      "title": "Дождь — поэтому автобус",
+      "alt": "Человек с зонтом входит в автобус во время дождя.",
+      "en": "It’s raining, so I’m taking the bus.",
+      "ru": "Идёт дождь, поэтому я еду на автобусе.",
+      "subject": "Adult holding a wet umbrella boarding a city bus in gentle rain, bus door open and driver visible, sidewalk slick with rain. American bus, full understandable boarding action, no route numbers, words, brands or signs. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult holding a wet umbrella boarding a city bus in gentle rain, bus door open and driver visible, sidewalk slick with rain. American bus, full understandable boarding action, no route numbers, words, brands or signs. Single scene. Intended lesson caption: It’s raining, so I’m taking the bus. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "bring-water-trip",
+      "ids": [
+        "extended-a2-options"
+      ],
+      "title": "Взять воду в поездку",
+      "alt": "Друзья кладут бутылки с водой в рюкзаки перед поездкой.",
+      "en": "Drinks are not included, so bring water.",
+      "ru": "Напитки в цену не входят, поэтому возьми воду.",
+      "subject": "Two adults preparing for a day trip at a table, putting plain reusable water bottles into their backpacks; a closed folded map without markings and train tickets without writing nearby. Water bottles are the clear main objects. No logos or text. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adults preparing for a day trip at a table, putting plain reusable water bottles into their backpacks; a closed folded map without markings and train tickets without writing nearby. Water bottles are the clear main objects. No logos or text. Single scene. Intended lesson caption: Drinks are not included, so bring water. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "pool-is-closed",
+      "ids": [
+        "extended-a2-relay"
+      ],
+      "title": "Бассейн закрыт",
+      "alt": "Друзья стоят у закрытого входа в бассейн.",
+      "en": "Tom says the pool is closed today.",
+      "ru": "Том пишет, что бассейн сегодня закрыт.",
+      "subject": "Two adults arriving at an outdoor community swimming pool and stopping at its locked gate; clear clean blue pool beyond, gate visibly closed with a simple padlock, one friend reading a smartphone message without text. No forbidden-sign text or calendar dates. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adults arriving at an outdoor community swimming pool and stopping at its locked gate; clear clean blue pool beyond, gate visibly closed with a simple padlock, one friend reading a smartphone message without text. No forbidden-sign text or calendar dates. Single scene. Intended lesson caption: Tom says the pool is closed today. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "party-voice-update",
+      "ids": [
+        "path-listening-routine"
+      ],
+      "title": "Новое голосовое сообщение",
+      "alt": "Девушка слушает сообщение о встрече, рядом украшения для вечеринки.",
+      "en": "The party moved to Sunday.",
+      "ru": "Вечеринку перенесли на воскресенье.",
+      "subject": "Adult woman listening closely to a voice message through one earbud, smartphone screen showing a simple audio waveform; behind her a small box of party decorations and two muted balloons. Calm planning scene, no dates, calendars or writing. Single scene; the new day is given in the caption.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult woman listening closely to a voice message through one earbud, smartphone screen showing a simple audio waveform; behind her a small box of party decorations and two muted balloons. Calm planning scene, no dates, calendars or writing. Single scene; the new day is given in the caption. Intended lesson caption: The party moved to Sunday. Use this only to guide the pictured situation, do not render any caption or writing in the image. Hardware realism is essential: the viewer sees the PLAIN BACK of the laptop or smartphone while its screen faces the person. Do not draw any waveform, microphone icon, play button, interface element or any marking on a device back. The visible device back is completely plain except an ordinary camera lens on the phone. Remove all requested screen graphics from this composition."
+    },
+    {
+      "key": "send-email",
+      "ids": [
+        "path-email-basic"
+      ],
+      "title": "Попросить фотографии по почте",
+      "alt": "Человек пишет письмо за ноутбуком, на экране видны маленькие фотографии.",
+      "en": "Could you send me the photos, please?",
+      "ru": "Не могли бы вы прислать мне фотографии?",
+      "subject": "Adult writing an email at a laptop in a tidy home workspace. Screen shows an abstract email envelope symbol and three small landscape photo thumbnails, no words or letters. Relaxed focused posture, hands naturally on keyboard. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult writing an email at a laptop in a tidy home workspace. Screen shows an abstract email envelope symbol and three small landscape photo thumbnails, no words or letters. Relaxed focused posture, hands naturally on keyboard. Single scene. Intended lesson caption: Could you send me the photos, please? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "already-asleep",
+      "ids": [
+        "path-past-perfect"
+      ],
+      "title": "Уже легла спать",
+      "alt": "Девушка спит, на тумбочке светится телефон с входящим звонком.",
+      "en": "When I called Anna, she had already gone to bed.",
+      "ru": "Когда я позвонил Анне, она уже легла спать.",
+      "subject": "Adult woman already asleep under a blanket in a calm bedroom at night, bedside smartphone lights up with a plain incoming-call icon but no names or text. Main focus sleeping woman and phone, no clock digits. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult woman already asleep under a blanket in a calm bedroom at night, bedside smartphone lights up with a plain incoming-call icon but no names or text. Main focus sleeping woman and phone, no clock digits. Single scene. Intended lesson caption: When I called Anna, she had already gone to bed. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "knock-before-bed",
+      "ids": [
+        "path-narrative"
+      ],
+      "title": "И тут постучали",
+      "alt": "Человек в пижаме поворачивается к двери, услышав стук.",
+      "en": "I was about to go to bed when someone knocked on the door.",
+      "ru": "Я уже собирался ложиться спать, и тут в дверь постучали.",
+      "subject": "Adult in pajamas about to enter their bedroom, turning in surprise toward the front door; on the other side of the doorway a visitor hand knocking, shown through a simple cutaway wall composition. Warm night interior, no danger, no words. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult in pajamas about to enter their bedroom, turning in surprise toward the front door; on the other side of the doorway a visitor hand knocking, shown through a simple cutaway wall composition. Warm night interior, no danger, no words. Single scene. Intended lesson caption: I was about to go to bed when someone knocked on the door. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "not-used-to-snow",
+      "ids": [
+        "path-used-to-be-used-to"
+      ],
+      "title": "Не привык к снегу",
+      "alt": "Человек удивлён снегом и кутается в шарф.",
+      "en": "I used to live in Miami, so I’m not used to snow.",
+      "ru": "Раньше я жил в Майами, поэтому к снегу не привык.",
+      "subject": "Adult newcomer standing in a snowy American neighborhood, bundled in an oversized scarf and holding a light pair of sunglasses, surprised but amused by falling snow. No readable city signs, no maps or dates. Single scene; previous city supplied only by HTML caption.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult newcomer standing in a snowy American neighborhood, bundled in an oversized scarf and holding a light pair of sunglasses, surprised but amused by falling snow. No readable city signs, no maps or dates. Single scene; previous city supplied only by HTML caption. Intended lesson caption: I used to live in Miami, so I’m not used to snow. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "flying-tomorrow",
+      "ids": [
+        "path-future-continuous"
+      ],
+      "title": "Завтра в полёте",
+      "alt": "Пассажир смотрит в окно самолёта на облака.",
+      "en": "This time tomorrow, I’ll be flying to Denver.",
+      "ru": "Завтра в это время я буду лететь в Денвер.",
+      "subject": "Adult passenger seated by a window on a commercial airplane, looking out at clouds and a clearly visible airplane wing, relaxed travel posture. No airline logos, ticket text, city labels or dates. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult passenger seated by a window on a commercial airplane, looking out at clouds and a clearly visible airplane wing, relaxed travel posture. No airline logos, ticket text, city labels or dates. Single scene. Intended lesson caption: This time tomorrow, I’ll be flying to Denver. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "missing-phone-number",
+      "ids": [
+        "path-second-conditional"
+      ],
+      "title": "Если бы знал номер",
+      "alt": "Человек смотрит на телефон и думает о знакомой, чей номер не знает.",
+      "en": "If I knew her number, I’d call her.",
+      "ru": "Если бы я знал её номер, я бы ей позвонил.",
+      "subject": "Adult man seated at home holding a smartphone with an empty contact-card silhouette on its screen, small subtle thought bubble with a friendly adult woman portrait suggests wanting to call her but lacking her number. No digits, words, question marks or lettering. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult man seated at home holding a smartphone with an empty contact-card silhouette on its screen, small subtle thought bubble with a friendly adult woman portrait suggests wanting to call her but lacking her number. No digits, words, question marks or lettering. Single scene. Intended lesson caption: If I knew her number, I’d call her. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "missed-party",
+      "ids": [
+        "path-third-conditional"
+      ],
+      "title": "Если бы знал о вечеринке",
+      "alt": "Человек дома представляет вечеринку, на которую не попал.",
+      "en": "If I had known about the party, I would have come.",
+      "ru": "Если бы я знал о вечеринке, я бы пришёл.",
+      "subject": "Adult at home looking regretful but calm, with a clearly translucent imagined thought vignette of friends having a small party elsewhere. Real person occupies lower left, imagined party higher right with soft bubble border, no arrows or labels. Distinguish imagination from the real room. No text.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult at home looking regretful but calm, with a clearly translucent imagined thought vignette of friends having a small party elsewhere. Real person occupies lower left, imagined party higher right with soft bubble border, no arrows or labels. Distinguish imagination from the real room. No text. Intended lesson caption: If I had known about the party, I would have come. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "polite-bus-stop",
+      "ids": [
+        "path-polite-questions"
+      ],
+      "title": "Вежливо спросить",
+      "alt": "Человек спрашивает прохожего, где автобусная остановка.",
+      "en": "Excuse me, do you know where the bus stop is?",
+      "ru": "Извините, вы не знаете, где остановка?",
+      "subject": "Two adult pedestrians in a friendly street interaction: traveler asks politely, local points toward a visible simple bus shelter down the sidewalk, bus in distance. No railway station, no signs with words or route numbers. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two adult pedestrians in a friendly street interaction: traveler asks politely, local points toward a visible simple bus shelter down the sidewalk, bus in distance. No railway station, no signs with words or route numbers. Single scene. Intended lesson caption: Excuse me, do you know where the bus stop is? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "take-an-umbrella",
+      "ids": [
+        "path-advice-preference"
+      ],
+      "title": "Лучше взять зонт",
+      "alt": "Друг предлагает зонт перед выходом, за окном собираются тучи.",
+      "en": "It’s going to rain. You’d better take an umbrella.",
+      "ru": "Будет дождь. Возьми-ка лучше зонт.",
+      "subject": "At a home doorway one adult offers a closed umbrella to a friend about to leave, through the doorway grey rain clouds gathering but no rain yet. Friendly practical advice, umbrella clearly visible. No text, numbers or labels. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: At a home doorway one adult offers a closed umbrella to a friend about to leave, through the doorway grey rain clouds gathering but no rain yet. Friendly practical advice, umbrella clearly visible. No text, numbers or labels. Single scene. Intended lesson caption: It’s going to rain. You’d better take an umbrella. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "heavy-highway-traffic",
+      "ids": [
+        "path-collocations-b1"
+      ],
+      "title": "Большие пробки",
+      "alt": "Плотная очередь машин на американском шоссе.",
+      "en": "There’s heavy traffic on the highway.",
+      "ru": "На шоссе большие пробки.",
+      "subject": "Wide slightly elevated view of heavy slow traffic on an American highway, several clearly separated lanes packed with unbranded cars, foreground driver visible looking resigned. No crash, no road sign text or plate digits. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Wide slightly elevated view of heavy slow traffic on an American highway, several clearly separated lanes packed with unbranded cars, foreground driver visible looking resigned. No crash, no road sign text or plate digits. Single scene. Intended lesson caption: There’s heavy traffic on the highway. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "vegetable-soup-review",
+      "ids": [
+        "research-review-writing"
+      ],
+      "title": "Конкретная деталь в отзыве",
+      "alt": "Посетитель кафе пробует горячий суп с овощами.",
+      "en": "The soup was hot and full of vegetables.",
+      "ru": "Суп был горячим, и в нём было много овощей.",
+      "subject": "An adult diner in a small restaurant tasting a bowl of hot vegetable soup; visible carrot slices, peas and leafy vegetables with gentle steam above the bowl. Main bowl close and clearly legible, no menu text or logos. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: An adult diner in a small restaurant tasting a bowl of hot vegetable soup; visible carrot slices, peas and leafy vegetables with gentle steam above the bowl. Main bowl close and clearly legible, no menu text or logos. Single scene. Intended lesson caption: The soup was hot and full of vegetables. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "bus-waiting-long",
+      "ids": [
+        "path-past-perfect-continuous"
+      ],
+      "title": "Долго ждали автобус",
+      "alt": "Уставшие пассажиры ждут на остановке, автобус наконец подъезжает.",
+      "en": "When the bus finally came, we had been waiting for forty minutes.",
+      "ru": "Когда автобус наконец пришёл, мы ждали уже сорок минут.",
+      "subject": "Two tired adult passengers at a bus shelter, one seated one standing, a bus finally approaching them in the background; accumulated patient waiting visible in posture. No clocks, route digits or readable timetable. Single scene; exact elapsed duration supplied by caption.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two tired adult passengers at a bus shelter, one seated one standing, a bus finally approaching them in the background; accumulated patient waiting visible in posture. No clocks, route digits or readable timetable. Single scene; exact elapsed duration supplied by caption. Intended lesson caption: When the bus finally came, we had been waiting for forty minutes. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "elevator-under-repair",
+      "ids": [
+        "path-passive-advanced"
+      ],
+      "title": "Лифт ремонтируют",
+      "alt": "Мастер ремонтирует лифт, посетитель идёт по лестнице.",
+      "en": "The elevator is being repaired, so please use the stairs.",
+      "ru": "Лифт сейчас ремонтируют, поэтому, пожалуйста, идите по лестнице.",
+      "subject": "Inside an office lobby a technician safely working on an elevator control panel beside closed elevator doors behind a simple barrier, another adult using the adjacent staircase. Elevator clearly out of service, no people in dangerous shafts, no text or numbers on signs. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Inside an office lobby a technician safely working on an elevator control panel beside closed elevator doors behind a simple barrier, another adult using the adjacent staircase. Elevator clearly out of service, no people in dangerous shafts, no text or numbers on signs. Single scene. Intended lesson caption: The elevator is being repaired, so please use the stairs. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "remember-stove-off",
+      "ids": [
+        "path-verb-patterns-advanced"
+      ],
+      "title": "Не забыть выключить",
+      "alt": "Человек проверяет, что плита выключена перед выходом.",
+      "en": "Did you remember to turn off the stove?",
+      "ru": "Ты не забыл выключить плиту?",
+      "subject": "Adult in a home kitchen about to leave with a bag, reaching to turn stove knob off and checking all burners are dark and unlit. Clear stove with one pot on an inactive burner, no flames, no text or numbers. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult in a home kitchen about to leave with a bag, reaching to turn stove knob off and checking all burners are dark and unlit. Clear stove with one pot on an inactive burner, no flames, no text or numbers. Single scene. Intended lesson caption: Did you remember to turn off the stove? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "remote-call-mute",
+      "ids": [
+        "extended-b2-remote-project"
+      ],
+      "title": "Микрофон выключен",
+      "alt": "Человек на видеозвонке указывает на выключенный микрофон.",
+      "en": "I can see you, but I can’t hear you. I think you’re on mute.",
+      "ru": "Я тебя вижу, но не слышу. Кажется, у тебя выключен микрофон.",
+      "subject": "Adult at laptop on a video conference, screen shows three adult portrait tiles and one small crossed-out microphone symbol; person gently points to the microphone symbol while listening. No company logo, no actual app branding or screen text. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult at laptop on a video conference, screen shows three adult portrait tiles and one small crossed-out microphone symbol; person gently points to the microphone symbol while listening. No company logo, no actual app branding or screen text. Single scene. Intended lesson caption: I can see you, but I can’t hear you. I think you’re on mute. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "invite-quiet-colleague",
+      "ids": [
+        "extended-c1-facilitation"
+      ],
+      "title": "Дать слово участнику",
+      "alt": "Ведущая встречи приглашает тихую коллегу высказаться.",
+      "en": "Grace, we haven’t heard from you yet. How does this look from your side?",
+      "ru": "Грейс, мы тебя ещё не слышали. Как это выглядит с твоей стороны?",
+      "subject": "Four adult colleagues around a meeting table, facilitator makes a welcoming open-handed gesture toward a quieter female colleague who begins to respond; the other two listen. Not arguing, respectful focused discussion, papers have abstract lines only. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Four adult colleagues around a meeting table, facilitator makes a welcoming open-handed gesture toward a quieter female colleague who begins to respond; the other two listen. Not arguing, respectful focused discussion, papers have abstract lines only. Single scene. Intended lesson caption: Grace, we haven’t heard from you yet. How does this look from your side? Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "new-one-umbrella",
+      "ids": [
+        "path-substitution"
+      ],
+      "title": "Купить новый вместо потерянного",
+      "alt": "Слева пустой крючок для зонта, справа человек покупает новый зонт.",
+      "en": "I lost my umbrella, so I bought a new one.",
+      "ru": "Я потерял зонт и купил новый.",
+      "subject": "Two balanced panels: left adult looks at an empty umbrella hook at their home doorway, right the same adult buying a clearly new blue umbrella from a store employee. No third umbrella confusing the distinction; no labels, numbers or text. The new umbrella is a different object from the missing one.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two balanced panels: left adult looks at an empty umbrella hook at their home doorway, right the same adult buying a clearly new blue umbrella from a store employee. No third umbrella confusing the distinction; no labels, numbers or text. The new umbrella is a different object from the missing one. Intended lesson caption: I lost my umbrella, so I bought a new one. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "river-mouth-coast",
+      "ids": [
+        "extended-c1-sea-coast"
+      ],
+      "title": "Устье, мыс, платформа",
+      "alt": "Иллюстративный вид берега: река впадает в море, набережная идёт к мысу, за ним стоит платформа.",
+      "en": "The harbor walk runs east from the river mouth to Bell Point, and a small platform stands offshore beyond the point.",
+      "ru": "Набережная идёт на восток от устья реки до мыса Белл-Пойнт, а за мысом в море стоит небольшая платформа.",
+      "subject": "Educational isometric coastal landscape viewed from above with north at top implicitly: river enters from upper-left and empties into open sea in lower half; waterfront walking path follows land coast horizontally from the river mouth toward a distinct rocky point on the right; a small platform stands in water offshore to the right beyond the point. Show these relationships clearly; no maps, labels, distances, arrows, compass marks, lettering or people required. This is an illustrative fictional coast, not a precise geographic map.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Educational isometric coastal landscape viewed from above with north at top implicitly: river enters from upper-left and empties into open sea in lower half; waterfront walking path follows land coast horizontally from the river mouth toward a distinct rocky point on the right; a small platform stands in water offshore to the right beyond the point. Show these relationships clearly; no maps, labels, distances, arrows, compass marks, lettering or people required. This is an illustrative fictional coast, not a precise geographic map. Intended lesson caption: The harbor walk runs east from the river mouth to Bell Point, and a small platform stands offshore beyond the point. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "canceled-flight-irony",
+      "ids": [
+        "path-irony"
+      ],
+      "title": "Отлично — рейс отменили",
+      "alt": "Пассажир в аэропорту раздражён новостью об отмене рейса.",
+      "en": "Great. Another canceled flight.",
+      "ru": "Отлично. Ещё один отменённый рейс.",
+      "subject": "Adult traveler seated at an airport gate with carry-on luggage, looking dryly frustrated and raising an eyebrow at a flight board. Board has a plain airplane silhouette with a small red cancellation cross but absolutely no text or numbers. Other airport seats visible, no airline logos. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Adult traveler seated at an airport gate with carry-on luggage, looking dryly frustrated and raising an eyebrow at a flight board. Board has a plain airplane silhouette with a small red cancellation cross but absolutely no text or numbers. Other airport seats visible, no airline logos. Single scene. Intended lesson caption: Great. Another canceled flight. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "five-bay-facade",
+      "ids": [
+        "extended-c2-built-environment"
+      ],
+      "title": "Фасад из пяти частей",
+      "alt": "Фасад здания с пятью вертикальными частями и входом строго посередине.",
+      "en": "From the square, the façade reads as five bays, with the entrance in the central one.",
+      "ru": "С площади фасад воспринимается как пять вертикальных частей, вход — в центральной.",
+      "subject": "Front elevation of a handsome old American brick civic building seen from a small town square. Exactly FIVE vertical architectural bays: five evenly spaced window columns across each upper floor, pilasters separate the bays, central third bay contains the main entrance below. Three floors total; exact five-column arrangement must be unambiguous. No sixth bay, no wings, no people obscuring structure, no signage, no letters or numbers. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Front elevation of a handsome old American brick civic building seen from a small town square. Exactly FIVE vertical architectural bays: five evenly spaced window columns across each upper floor, pilasters separate the bays, central third bay contains the main entrance below. Three floors total; exact five-column arrangement must be unambiguous. No sixth bay, no wings, no people obscuring structure, no signage, no letters or numbers. Single scene. Intended lesson caption: From the square, the façade reads as five bays, with the entrance in the central one. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    },
+    {
+      "key": "water-my-plants",
+      "ids": [
+        "path-modal-remoteness"
+      ],
+      "title": "Мягко попросить соседа",
+      "alt": "Человек просит соседа полить комнатные растения.",
+      "en": "I was hoping you could water my plants this weekend.",
+      "ru": "Я надеялся, что ты сможешь полить мои цветы на этих выходных.",
+      "subject": "Two friendly adult neighbors at an apartment doorway: resident asks a small favor while handing a plain watering can to neighbor; several houseplants clearly visible inside the home. Gentle tentative asking expression, neighbor listening, no keys or travel calendar distractions. No words or numbers. Single scene.",
+      "prompt": "Use case: illustration-story. Asset type: illustration inside an English lesson for Russian-speaking adults. Create ONE horizontal 3:2 image, 1536x1024. Style: polished soft matte 3D editorial illustration, warm cream backdrop, restrained periwinkle blue and sage accents, subtly textured materials, warm natural light, adult proportions and realistic anatomy, simple legible forms. Keep the meaningful objects completely inside the frame. Each object and gesture must be instantly understandable, composition uncluttered, approachable without looking childish. No embedded text, letters, digits, brands, logos, watermarks, UI headings or captions. Captions will be placed separately in HTML. Scene: Two friendly adult neighbors at an apartment doorway: resident asks a small favor while handing a plain watering can to neighbor; several houseplants clearly visible inside the home. Gentle tentative asking expression, neighbor listening, no keys or travel calendar distractions. No words or numbers. Single scene. Intended lesson caption: I was hoping you could water my plants this weekend. Use this only to guide the pictured situation, do not render any caption or writing in the image."
+    }
+  ]
+}

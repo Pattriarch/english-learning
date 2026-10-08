@@ -22,7 +22,7 @@ const mapped={
  'path-deduction':'perspective','modals-deduction':'perspective'
 };
 // Light copies of the scenes for cards and banners; the lesson keeps the full image.
-export const scenePoster=scene=>scene.association?'/assets/course-scenes/'+scene.file:'/assets/posters/'+String(scene.file).replace(/\.png$/,'.jpg');
+export const scenePoster=scene=>'/assets/posters/'+String(scene.file).replace(/\.png$/,'.jpg');
 // A short English label for a lesson without a scene: the English term from its
 // title ("I, me, my"), or its shortest example when that fits a poster whole.
 export function posterWord(lesson){
