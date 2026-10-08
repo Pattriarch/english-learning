@@ -1,3 +1,4 @@
+import {lexicalWordImage} from './word-images.js';
 import {esc} from './core.js';
 export function highlightLexicon(text,spans=[]){
  const boundary=i=>i<=0||i>=text.length||!(text.charCodeAt(i-1)>=0xD800&&text.charCodeAt(i-1)<=0xDBFF&&text.charCodeAt(i)>=0xDC00&&text.charCodeAt(i)<=0xDFFF);
@@ -20,7 +21,7 @@ export function lexicalFeedbackMatches(attempt,answer,spec,fingerprint,rawReceip
  if(!attempt?.id||attempt.lessonId!==spec.lessonId||attempt.exerciseId!==spec.exerciseId||attempt.prompt!==spec.prompt||attempt.answer!==answer.trim())return false;
  try{const receipt=JSON.parse(rawReceipt);return receipt?.version===1&&receipt.attemptId===attempt.id&&receipt.fingerprint===fingerprint;}catch{return false;}
 }
-export const lexicalImageURL=image=>/^\/assets\/(?:vocabulary-scenes|learning-figures)\/[a-z0-9-]+\.png$/.test(image?.src||'')?image.src:'';
+export const lexicalImageURL=image=>/^\/assets\/(?:(?:vocabulary-scenes|learning-figures)\/[a-z0-9-]+\.png|words\/[a-z0-9-]+\.jpg)$/.test(image?.src||'')?image.src:'';
 export const lexicalSourceURL=source=>/^https:\/\//.test(source?.url||'')?source.url:'';
 export function parseLexicalState(raw){try{const x=JSON.parse(raw);return x?.version===1&&['new','learning','known'].includes(x.status)?x:{version:1,status:'new'};}catch{return{version:1,status:'new'};}}
 export function lexicalProgress(drafts){const seen=new Set();let known=0,learning=0;for(const [key,value]of Object.entries(drafts||{})){if(!key.startsWith('lexicon:state:')||seen.has(key))continue;seen.add(key);const x=parseLexicalState(typeof value==='string'?value:value.text);if(x.status==='known')known++;else if(x.status==='learning')learning++;}return{known,learning};}
@@ -61,4 +62,4 @@ export function lexicalStudyContexts(entry){
  const active=(entry.contexts||[]).filter(context=>!context.excludedFromStudy);
  return active.filter(context=>lexicalFullAnalysis(entry,context)).concat(active.filter(context=>lexicalPreparedContext(entry,context)&&!lexicalFullAnalysis(entry,context)),active.filter(context=>!lexicalPreparedContext(entry,context)));
 }
-export function lexicalImage(entry,context){return (entry.images||[]).find(image=>lexicalImageURL(image)&&(!image.contextId||image.contextId===context.id))||null;}
+export function lexicalImage(entry,context){return lexicalWordImage(entry,context)||(entry.images||[]).find(image=>lexicalImageURL(image)&&(!image.contextId||image.contextId===context.id))||null;}

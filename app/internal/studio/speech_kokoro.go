@@ -21,7 +21,7 @@ import (
 const kokoroMaxText = 64 << 10
 const kokoroCacheVersion = "kokoro-onnx/kokoro-v1.0/pcm16-24000/v1"
 
-var errKokoroUnavailable = errors.New("Kokoro не запущен. Запусти приложение через Start-English.cmd и повтори попытку")
+var errKokoroUnavailable = errors.New("Kokoro не запущен. Запусти приложение через Start-English.cmd (Windows) или Start-English.command (Mac) и повтори попытку")
 var errKokoroAudio = errors.New("Kokoro вернул неполный аудиофайл. Попробуй озвучить более короткий фрагмент")
 var errKokoroStorage = errors.New("Не удалось сохранить озвучку в профиле приложения")
 var errSpeechConfig = errors.New("Не удалось прочитать или сохранить настройки озвучки")

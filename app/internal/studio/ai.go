@@ -122,14 +122,9 @@ func (s *Server) cli(ctx context.Context, c Settings, system, input string) (str
 			args = append(args, "--model", c.Model)
 		}
 		args = append(args, "-")
-		if strings.HasSuffix(strings.ToLower(bin), ".cmd") {
-			launcher := filepath.Join(filepath.Dir(bin), "node_modules", "@openai", "codex", "bin", "codex.js")
-			if _, e := os.Stat(launcher); e != nil {
-				return "", e
-			}
-			cmd = exec.CommandContext(ctx, "node", append([]string{launcher}, args...)...)
-		} else {
-			cmd = exec.CommandContext(ctx, bin, args...)
+		cmd, e = codexCommand(ctx, bin, args...)
+		if e != nil {
+			return "", e
 		}
 		cmd.Stdin = strings.NewReader(system + "\n\nINPUT DATA:\n" + input)
 	}
@@ -160,6 +155,17 @@ func (s *Server) cli(ctx context.Context, c Settings, system, input string) (str
 	return env.Result, nil
 }
 
+func codexCommand(ctx context.Context, bin string, args ...string) (*exec.Cmd, error) {
+	if strings.HasSuffix(strings.ToLower(bin), ".cmd") {
+		launcher := filepath.Join(filepath.Dir(bin), "node_modules", "@openai", "codex", "bin", "codex.js")
+		if _, err := os.Stat(launcher); err != nil {
+			return nil, err
+		}
+		return exec.CommandContext(ctx, "node", append([]string{launcher}, args...)...), nil
+	}
+	return exec.CommandContext(ctx, bin, args...), nil
+}
+
 func codexBinary() (string, error) {
 	if custom := os.Getenv("ENGLISH_CODEX_BIN"); custom != "" {
 		return custom, nil
@@ -176,7 +182,15 @@ func codexBinary() (string, error) {
 			return matches[0], nil
 		}
 	}
-	return exec.LookPath("codex")
+	if bin, err := exec.LookPath("codex"); err == nil {
+		return bin, nil
+	}
+	for _, path := range []string{"/Applications/Codex.app/Contents/Resources/codex", "/Applications/ChatGPT.app/Contents/Resources/codex", "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex", "/opt/homebrew/bin/codex", "/usr/local/bin/codex"} {
+		if file, err := os.Stat(path); err == nil && !file.IsDir() && file.Mode()&0111 != 0 {
+			return path, nil
+		}
+	}
+	return "", errors.New("Codex CLI не найден")
 }
 func clip(s string, n int) string {
 	r := []rune(strings.TrimSpace(s))

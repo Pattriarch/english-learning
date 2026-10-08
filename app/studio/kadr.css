@@ -873,3 +873,14 @@
 }
 [data-design=kadr] .kadr-hero .course-visual-panels{z-index:1}
 @media(max-width:900px){[data-design=kadr] .kadr-hero .course-visual-panels{display:none}}
+
+/* Local speech and word photos follow the same quiet learning surface. */
+[data-design=kadr] .word-photo>img{border-radius:6px;background:transparent}
+[data-design=kadr] .word-photo-label strong{font-family:inherit;font-weight:500}
+[data-design=kadr] .word-image-credit{line-height:1.6;font-style:normal}
+[data-design=kadr] .speech-practice{background:transparent;border-radius:0;padding:18px 0 0}
+[data-design=kadr] .speech-feedback{background:transparent;border:0;padding:0}
+[data-design=kadr] .speech-words{gap:10px}
+[data-design=kadr] .speech-word small{font-style:normal;color:var(--muted);line-height:1.6}
+[data-design=kadr] .speech-practice-body label{display:block;margin-top:14px}
+[data-design=kadr] .speech-practice-body select{white-space:normal;height:auto;min-height:44px}

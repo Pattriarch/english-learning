@@ -1,3 +1,5 @@
+import {loadWordImages,lessonWordImagesHTML,bindWordImages} from './word-images.js';
+import {mountSpeechPractice} from './speech-practice.js';
 import {authoredExerciseID,authoredLessonState,currentAuthoredExercise,isGuidedLesson} from './authored-exercise.js';
 import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
 import {lessonGuidanceHTML,lessonPrerequisiteHTML} from './lesson-guidance.js';
@@ -49,6 +51,7 @@ const kadrSection={lesson:'roadmap',unit:'roadmap',tenses:'roadmap',books:'roadm
 const isKadr=()=>document.documentElement.dataset.design==='kadr';
 async function refresh(){
  data=await api('/bootstrap');
+ await loadWordImages();
  initStudySession(data.state);
  const link=$('.nav a[href="#/review"]');
  if(link){const count=dueCount(),badge=$('.badge-count',link);if(badge){if(count)badge.textContent=count;else badge.remove();}else if(count)link.insertAdjacentHTML('beforeend',`<span class="badge-count">${count}</span>`);}
@@ -135,16 +138,18 @@ function lesson(id,index){
   ${guided?`<details class="card theory-panel" ${l.materials?.length&&e.practiceStage!=='guided'?'open':''}><summary>${l.materials?.length&&e.practiceStage!=='guided'?'Материал для этого задания':'Напомнить правило'}</summary><a class="lesson-intro-link" href="#${base}">Вернуться к сцене и объяснению</a>`:'<aside class="card theory-panel">'}<div class="panel-tabs">${l.materials?.length?'<button data-tab="materials">Материалы</button>':''}<button class="active" data-tab="theory">Объяснение</button><button data-tab="examples">Примеры</button></div><div class="theory-content" id="theory"></div>${guided?'</details>':'</aside>'}
   <div><section class="card exercise-card">
    <div class="exercise-top"><span class="exercise-type">${e.kind==='speak'?'Скажи своими словами':e.kind==='write'?'Своя мысль':e.kind==='rewrite'?'Переформулируй':'С русского на английский'}</span><div class="lesson-navigation"><button id="prev" class="btn small ghost" aria-label="Предыдущее задание" ${(daySet?pos<=0:n===0)?'disabled':''}>${icon('back')}</button><div class="steps" aria-label="Задание ${(daySet?Math.max(0,pos):n)+1} из ${seq.length}">${seq.map(ex=>`<span class="step ${done.has(ex.id)?'done':''} ${ex===e?'active':''}"></span>`).join('')}</div><button id="next" class="btn small ghost" aria-label="${(daySet?pos===seq.length-1:n===l.exercises.length-1)?(dayStepId==='write'?'Следующий шаг дня':'Итоги занятия'):'Следующее задание'}">${icon('arrow')}</button></div></div>
-   ${lessonGuidanceHTML(l,e,n)}
+   ${lessonGuidanceHTML(l,e,n)}${lessonWordImagesHTML(l,e)}
    ${guided?'<span class="eyebrow">Твоя очередь</span>':''}<p class="prompt">${esc(e.prompt)}</p>${e.context?`<p class="context">${esc(e.context)}</p>`:''}${dayStepId==='write'&&clipPhrase?`<p class="small-note">Можно добавить фразу из ролика: <span lang="en">${esc(clipPhrase)}</span></p>`:''}
    <div class="answer-input-header"><label for="answer" class="field-label">Твой ответ на английском</label><button type="button" id="voice" class="btn" aria-controls="answer">${icon('mic')} Надиктовать ответ</button></div>
    <textarea id="answer" class="answer-area" spellcheck="false" placeholder="Напиши свою мысль или нажми «Надиктовать ответ»…">${esc(getDraft(key,data.state)||attempt?.answer||'')}</textarea>
    <div class="answer-meta"><span id="word-count"></span><span>Черновик сохраняется автоматически</span></div>
    <div class="exercise-actions"><div class="actions"><button id="hint-button" class="btn ghost small">Подсказка</button></div><button id="check" class="btn primary">Проверить ${icon('arrow')}</button></div>
-   <audio id="audio-preview" class="audio-preview" controls hidden></audio><div id="hint" class="hint" hidden>${esc(e.hint)}</div><div id="feedback">${attempt?feedbackHTML(attempt):''}</div>
+   <audio id="audio-preview" class="audio-preview" controls hidden></audio>${e.kind==='speak'?'<div id="lesson-speech-practice"></div>':''}<div id="hint" class="hint" hidden>${esc(e.hint)}</div><div id="feedback">${attempt?feedbackHTML(attempt):''}</div>
   </section></div>
  </div>`;
  bindCourseGuide($('#main'),l);
+ bindWordImages($('#main'));
+ if(e.kind==='speak')mountSpeechPractice($('#lesson-speech-practice'),data.settings,e.answers||[]);
  const showTheory=tab=>{
   stopAudio();
   $$('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));

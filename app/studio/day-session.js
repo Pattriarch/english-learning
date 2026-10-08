@@ -1,3 +1,6 @@
+import {mountSpeechPractice} from './speech-practice.js';
+import {showSpeechFeedback} from './speech-feedback.js';
+import {transcribeRecording} from './audio.js';
 import {$,esc,icon,dateKey,getDraft,queueDraft,toast} from './core.js';
 import {speak,stopAudio,recordOnly} from './audio.js';
 import {authoredLessonState} from './authored-exercise.js';
@@ -100,16 +103,17 @@ function recall(root,ctx){
 function retell(root,ctx){
  const lesson=ctx.lesson,task=lessonParts(lesson).speak[0],rounds=['A1','A2'].includes(lesson.level)?[90,60,45]:[180,120,60];
  const prompt=task?.prompt||`Расскажи о себе и своём дне. Используй: ${lesson.keyRule?.rule||lesson.formula||lesson.goal}`;
- const mic=Boolean(navigator.mediaDevices?.getUserMedia&&window.MediaRecorder);let round=0,left=0,timer=null,running=false;
+ const mic=Boolean(navigator.mediaDevices?.getUserMedia&&window.MediaRecorder);let round=0,left=0,timer=null,running=false,recordingGeneration=0;
  const clock=n=>n>=60?`${Math.floor(n/60)}:${String(n%60).padStart(2,'0')}`:`${n} с`;
- root.innerHTML=`<div class="lesson-flow day-flow">${dayHeader(ctx,'speak')}<section class="day-screen"><h1>Расскажи трижды</h1><p class="day-cue">${esc(prompt)}</p><p class="small-note">Одно и то же — три раза, каждый раз короче по времени. Не читай с листа; ${mic?'каждый круг записывается, последний можно послушать.':'говори вслух.'}</p><p class="day-count" id="retell-round"></p><p class="day-clock" id="retell-clock" aria-live="polite"></p><div class="day-next" id="retell-actions"><button type="button" class="btn primary" id="retell-go"></button></div><button type="button" id="retell-rec" hidden></button><audio id="retell-audio" class="audio-preview" controls hidden></audio><div id="retell-done"></div></section></div>`;
+ root.innerHTML=`<div class="lesson-flow day-flow">${dayHeader(ctx,'speak')}<section class="day-screen"><h1>Расскажи трижды</h1><p class="day-cue">${esc(prompt)}</p><p class="small-note">Одно и то же — три раза, каждый раз короче по времени. Не читай с листа; ${mic?'каждый круг записывается, последний можно послушать.':'говори вслух.'}</p><p class="day-count" id="retell-round"></p><p class="day-clock" id="retell-clock" aria-live="polite"></p><div class="day-next" id="retell-actions"><button type="button" class="btn primary" id="retell-go"></button></div><button type="button" id="retell-rec" hidden></button><audio id="retell-audio" class="audio-preview" controls hidden></audio><div id="retell-repeat"></div><div id="retell-done"></div></section></div>`;
+ mountSpeechPractice($('#retell-repeat',root),ctx.data.settings,task?.answers||(lesson.examples||[]).map(e=>e.en));
  const go=$('#retell-go',root),rec=$('#retell-rec',root),audio=$('#retell-audio',root);
  const label=()=>{$('#retell-round',root).textContent=`Круг ${Math.min(round+1,3)} из 3`;$('#retell-clock',root).textContent=clock(running?left:rounds[round]);go.innerHTML=running?'Готово':`Начать круг ${round+1} · ${clock(rounds[round])}`;};
  const stop=async()=>{clearInterval(timer);running=false;if(mic&&rec.classList.contains('recording'))recordOnly(rec,audio);round++;
   if(round<3){label();return;}
   $('#retell-actions',root).remove();$('#retell-round',root).textContent='Три круга позади';$('#retell-clock',root).textContent='';
   await markDayStep(ctx.data,ctx.day,'speak').catch(()=>{});$('#retell-done',root).innerHTML=dayNextHTML(ctx,'speak');};
- go.onclick=()=>{if(running){stop();return;}running=true;left=rounds[round];if(mic)recordOnly(rec,audio,null);label();timer=setInterval(()=>{left--;if(!root.isConnected){clearInterval(timer);return;}if(left<=0)stop();else $('#retell-clock',root).textContent=clock(left);},1000);};
+ go.onclick=()=>{if(running){stop();return;}running=true;left=rounds[round];const generation=++recordingGeneration;audio.hidden=true;audio.nextElementSibling?.classList.contains('speech-feedback-host')&&audio.nextElementSibling.remove();if(mic)recordOnly(rec,audio,async(url,mime,blob)=>{if(!ctx.data.settings?.whisperUrl)return;try{const result=await transcribeRecording(blob);if(audio.isConnected&&generation===recordingGeneration)showSpeechFeedback(audio,result);}catch(error){if(audio.isConnected&&generation===recordingGeneration)toast(error.message,true);}});label();timer=setInterval(()=>{left--;if(!root.isConnected){clearInterval(timer);return;}if(left<=0)stop();else $('#retell-clock',root).textContent=clock(left);},1000);};
  window.addEventListener('hashchange',()=>clearInterval(timer),{once:true});
  label();
 }

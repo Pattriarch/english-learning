@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Локальная речь · English</title>
+<style>html{color-scheme:light dark}body{font:17px/1.65 system-ui,sans-serif;max-width:720px;margin:48px auto;padding:0 24px}h1{font-size:32px;line-height:1.2}h2{font-size:22px;margin-top:32px}a{color:inherit}code,pre{font:14px/1.6 ui-monospace,monospace}pre{white-space:pre-wrap;overflow-wrap:anywhere;padding:16px;border:1px solid #8886;border-radius:8px}li{margin:8px 0}p{overflow-wrap:anywhere}</style>
+<a href="/#/settings">← Настройки</a><h1>Whisper и озвучка на своём компьютере</h1>
+<p>Whisper превращает запись в текст и возвращает время и уверенность слов. Kokoro читает английские фразы американским голосом. После установки модели работают локально.</p>
+<h2>Mac</h2><ol><li>Установи Go 1.25+, Python 3.12 и инструменты Apple: <code>xcode-select --install</code>. С Homebrew: <code>brew install go python@3.12</code>.</li><li>В папке приложения один раз открой <code>Install-Speech.command</code>. Скачиваются модели и собирается Whisper. На Apple Silicon используется Metal; на Intel — CPU.</li><li>Открой <code>Start-English.command</code>. Если macOS блокирует скачанный скрипт, запусти его из Terminal: <code>bash Install-Speech.command</code>, затем <code>bash Start-English.command</code>.</li></ol>
+<h2>Windows с NVIDIA</h2><p>Нужны Go 1.25+, Python 3.12+, Visual Studio Build Tools с компонентом «Desktop development with C++» и CUDA Toolkit. Установи их, затем открой Developer PowerShell for VS и перейди в папку приложения:</p>
+<pre>powershell -ExecutionPolicy Bypass -File app/scripts/install-local-whisper.ps1 -Accelerator cuda
+powershell -ExecutionPolicy Bypass -File app/scripts/install-local-kokoro.ps1</pre>
+<p>После установки открой <code>Start-English.cmd</code>. Если CUDA недоступна, вместо <code>cuda</code> выбери <code>cpu</code>.</p>
+<h2>Подключение и практика</h2><p>Лаунчер добавляет адрес готового Whisper, если поле ещё пустое. Иначе укажи адрес вручную и нажми «Проверить Whisper»:</p><pre>http://127.0.0.1:8080/inference</pre>
+<p>Если у тебя уже есть whisper.cpp server, запусти его на этом адресе с английской моделью. Нужна свежая версия с <code>verbose_json</code> и вероятностями слов. Один скачанный файл модели или библиотека faster-whisper ещё не являются HTTP-сервером.</p>
+<p>В заданиях и шаге «поговорить» раскрой «Повторить образец и проверить слова»: послушай фразу, запиши повторение и останови запись. Видны пропуски, замены, лишние слова и «проверь произношение». Обычная запись своего ответа показывает расшифровку без сравнения с единственным образцом.</p>
+<p>Низкая уверенность может быть вызвана шумом. Совпавшие слова не гарантируют правильные th, гласные или интонацию: подсказки помогают повторить трудный звук, но Whisper не выполняет фонетический разбор.</p>
+<h2>Если не запускается</h2><p>Посмотри <code>app/data/local-whisper/server.stderr.log</code> или <code>app/data/local-kokoro/server.stderr.log</code>. Если порт занят, лаунчер сообщает об этом и сохраняет работающие процессы. Микрофон разреши для <code>127.0.0.1</code> в браузере. Если сервер не передал вероятности слов, останется сравнение расшифровки.</p>
+</html>

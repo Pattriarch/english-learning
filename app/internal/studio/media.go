@@ -12,7 +12,6 @@ import (
 	"fmt"
 	"html"
 	"io"
-	"mime/multipart"
 	"net/http"
 	"os"
 	"os/exec"
@@ -172,62 +171,6 @@ func (s *Server) review(w http.ResponseWriter, r *http.Request) {
 		return errors.New("Карточка не найдена")
 	})
 	s.saved(w, e)
-}
-func (s *Server) transcribe(w http.ResponseWriter, r *http.Request) {
-	c := s.db.config()
-	if c.WhisperURL == "" {
-		problem(w, 400, errors.New("Укажите адрес whisper.cpp в настройках или используйте распознавание браузера"))
-		return
-	}
-	u, e := endpoint(c.WhisperURL)
-	if e != nil {
-		problem(w, 400, e)
-		return
-	}
-	r.Body = http.MaxBytesReader(w, r.Body, 22<<20)
-	if e = r.ParseMultipartForm(22 << 20); e != nil {
-		problem(w, 400, e)
-		return
-	}
-	defer r.MultipartForm.RemoveAll()
-	f, _, e := r.FormFile("file")
-	if e != nil {
-		problem(w, 400, e)
-		return
-	}
-	defer f.Close()
-	var buf bytes.Buffer
-	mw := multipart.NewWriter(&buf)
-	part, _ := mw.CreateFormFile("file", "speech.wav")
-	_, _ = io.Copy(part, f)
-	_ = mw.WriteField("language", "en")
-	_ = mw.WriteField("response_format", "json")
-	_ = mw.Close()
-	req, e := http.NewRequestWithContext(r.Context(), "POST", u.String(), &buf)
-	if e != nil {
-		problem(w, 400, e)
-		return
-	}
-	req.Header.Set("Content-Type", mw.FormDataContentType())
-	res, e := (&http.Client{Timeout: 2 * time.Minute}).Do(req)
-	if e != nil {
-		problem(w, 502, errors.New("Сервер whisper.cpp недоступен"))
-		return
-	}
-	defer res.Body.Close()
-	if res.StatusCode != 200 {
-		problem(w, 502, serviceError("whisper.cpp", res.StatusCode))
-		return
-	}
-	b, _ := boundedRead(res.Body)
-	var v struct {
-		Text string `json:"text"`
-	}
-	if json.Unmarshal(b, &v) != nil || strings.TrimSpace(v.Text) == "" {
-		problem(w, 422, errors.New("Речь не распознана. Попробуйте говорить ближе к микрофону"))
-		return
-	}
-	jsonResponse(w, 200, v)
 }
 func cardHTML(c Card) (string, string) {
 	front := html.EscapeString(c.Front)

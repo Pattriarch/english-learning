@@ -1,4 +1,5 @@
 import {$,api,toast} from './core.js';
+import {showSpeechFeedback} from './speech-feedback.js';
 let active=null,audioURL=null,audioGeneration=0,localSpeech=null,localSpeechPanel=null,speechRequest=null;
 const speechPlayers=new WeakMap();
 export const speechVoiceName=id=>({af_heart:'Heart',af_bella:'Bella',am_michael:'Michael',am_fenrir:'Fenrir',bf_emma:'Emma'}[id]||id);
@@ -26,7 +27,7 @@ export async function speak(text,rate=.9,lang='en-US',options={}){
   if(button){button.disabled=true;button.innerHTML='Готовим озвучку…';button.setAttribute('aria-busy','true');}
   show('Готовим озвучку Kokoro… При первом запуске нужно немного подождать.');
   try{
-    let response;try{response=await fetch('/api/speech',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,lang,...(options.voice?{voice:options.voice}:{})}),signal:controller.signal});}catch(error){if(error.name==='AbortError')throw error;throw Error('Сервер озвучки недоступен. Запусти приложение через Start-English.cmd и повтори.');}
+    let response;try{response=await fetch('/api/speech',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text,lang,...(options.voice?{voice:options.voice}:{})}),signal:controller.signal});}catch(error){if(error.name==='AbortError')throw error;throw Error('Сервер озвучки недоступен. Запусти приложение через Start-English.cmd (Windows) или Start-English.command (Mac) и повтори.');}
     if(!current())return null;
     let out;try{out=await response.json();}catch{throw Error('Сервер озвучки вернул неожиданный ответ.');}
     if(!current())return null;
@@ -49,7 +50,7 @@ export async function recordOnly(button,preview,onReady,options={}){
   // End auxiliary capture (for example browser ASR) on every terminal path,
   // including errors that intentionally do not deliver an onReady Blob.
   const endCapture=reason=>{if(captureEnded)return;captureEnded=true;options.onCaptureEnd?.({reason});};
-  if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){endCapture('unsupported');toast('Для записи открой приложение в Chrome или Edge через localhost.',true);return;}
+  if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){endCapture('unsupported');toast('Для записи открой приложение через localhost в Safari, Chrome или Edge.',true);return;}
   stopAudio();const generation=audioGeneration,original=button.innerHTML,chunks=[];let stream,recorder,timer,stopped=false,failed=false;
   const cleanup=(reason='stopped')=>{if(captureEnded)return;clearTimeout(timer);stream?.getTracks().forEach(t=>t.stop());button.innerHTML=original;button.classList.remove('recording');if(generation===audioGeneration)active=null;endCapture(reason);};
   button.disabled=true;
@@ -71,7 +72,7 @@ export async function recordOnly(button,preview,onReady,options={}){
   }catch(e){cleanup('error');toast(e.name==='NotAllowedError'?'Разреши доступ к микрофону в настройках браузера.':e.message,true);}
   finally{button.disabled=false;}
 }
-async function wav(blob){
+export async function wav(blob){
   const ctx=new AudioContext();let buffer;try{buffer=await ctx.decodeAudioData(await blob.arrayBuffer());}finally{await ctx.close();}
   const offline=new OfflineAudioContext(1,Math.ceil(buffer.duration*16000),16000);const source=offline.createBufferSource();source.buffer=buffer;source.connect(offline.destination);source.start();const mono=(await offline.startRendering()).getChannelData(0);
   const out=new ArrayBuffer(44+mono.length*2),v=new DataView(out);const str=(offset,t)=>{for(let i=0;i<t.length;i++)v.setUint8(offset+i,t.charCodeAt(i));};str(0,'RIFF');v.setUint32(4,out.byteLength-8,true);str(8,'WAVE');str(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,16000,true);v.setUint32(28,32000,true);v.setUint16(32,2,true);v.setUint16(34,16,true);str(36,'data');v.setUint32(40,mono.length*2,true);mono.forEach((x,i)=>v.setInt16(44+i*2,Math.max(-1,Math.min(1,x))*32767,true));return new Blob([out],{type:'audio/wav'});
@@ -87,7 +88,7 @@ export async function voice(button,target,settings,onText,options={}){
   const applyText=text=>{
     if(!current()||textChanged)return;
     if(target.value!==lastText){textChanged=true;toast('Ответ уже изменён вручную. Сохранили твой текст; запись можно прослушать.',true);return;}
-    lastText=[initial,text.trim()].filter(Boolean).join(' ');target.value=lastText;onText();
+    lastText=options.replace?text.trim():[initial,text.trim()].filter(Boolean).join(' ');target.value=lastText;onText();
   };
   const session={stop:()=>{if(!current())cleanup();if(recorder&&recorder.state!=='inactive')recorder.stop();else{if(current())audioGeneration++;cleanup();}}};
   active=session;button.disabled=true;
@@ -99,7 +100,7 @@ export async function voice(button,target,settings,onText,options={}){
       const blob=new Blob(chunks,{type:recorder.mimeType});if(audioURL)URL.revokeObjectURL(audioURL);audioURL=URL.createObjectURL(blob);if(preview?.isConnected){preview.src=audioURL;preview.hidden=false;}
       if(!settings.whisperUrl){cleanup();return;}
       button.disabled=true;button.textContent='Распознаём запись…';
-      try{const file=await wav(blob);if(!current())return;const form=new FormData();form.append('file',file,'speech.wav');const out=await api('/transcribe',form);if(current()){applyText(out.text);if(!textChanged)toast('Проверьте расшифровку перед разбором.');}}
+      try{const file=await wav(blob);if(!current())return;const out=await transcribeWAV(file);if(current()){applyText(out.text);if(!textChanged){showSpeechFeedback(preview,out,options.expected||'');options.onTranscript?.(out);toast('Запись разобрана. Проверь расшифровку.');}}}
       catch(e){if(current())toast(e.message,true);}finally{cleanup();}
     };
     if(!settings.whisperUrl){
@@ -114,3 +115,6 @@ export async function voice(button,target,settings,onText,options={}){
     toast(settings.whisperUrl?'Говорите по-английски. Расшифруем после остановки.':'Говорите по-английски. Распознавание браузера может использовать интернет.');
   }catch(e){cleanup();if(current())toast(e.name==='NotAllowedError'?'Разрешите доступ к микрофону в настройках браузера.':e.message,true);}
 }
+
+export async function transcribeWAV(file){const form=new FormData();form.append('file',file,'speech.wav');return api('/transcribe',form);}
+export async function transcribeRecording(blob){return transcribeWAV(await wav(blob));}

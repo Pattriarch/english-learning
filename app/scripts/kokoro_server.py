@@ -9,6 +9,8 @@ import pathlib
 import re
 import select
 import socket
+import shutil
+import tempfile
 import threading
 import time
 import wave
@@ -66,11 +68,21 @@ def validate(body):
 
 class SpeechService:
     def __init__(self, model_directory, threads):
+        import espeakng_loader
+        data_path = espeakng_loader.get_data_path()
+        # eSpeak has a bounded native path buffer. Deep macOS checkouts can
+        # exceed it; keep a real short directory (a symlink would be resolved).
+        if os.name != 'nt' and len(data_path.encode('utf-8')) > 120:
+            self._espeak_temp = tempfile.TemporaryDirectory(prefix='english-espeak-')
+            short_data = pathlib.Path(self._espeak_temp.name) / 'espeak-ng-data'
+            shutil.copytree(data_path, short_data)
+            data_path = str(short_data)
+        os.environ['ESPEAK_DATA_PATH'] = data_path
+        os.environ['PHONEMIZER_ESPEAK_DATA_PATH'] = data_path
         import numpy as np
         import onnxruntime as ort
         from kokoro_onnx import Kokoro
         from kokoro_onnx.config import EspeakConfig
-        import espeakng_loader
         self.np = np
         options = ort.SessionOptions()
         options.intra_op_num_threads = threads
@@ -98,9 +110,16 @@ class SpeechService:
                     return pathlib.Path(native_path(path.parent)) / path.name
                 EspeakWrapper.data_path = property(c_data_path)
                 EspeakWrapper._english_short_path_patch = True
+        # Native eSpeak also reads this environment variable before wrapper setup.
+        # Bundled macOS dylibs must use the installed data, not a CI build path.
+        os.environ['ESPEAK_DATA_PATH'] = native_path(data_path)
         espeak = EspeakConfig(lib_path=native_path(espeakng_loader.get_library_path()),
-                              data_path=espeakng_loader.get_data_path())
+                              data_path=data_path)
         self.model = Kokoro.from_session(session, str(model_directory / 'voices-v1.0.bin'), espeak_config=espeak)
+        # Set both wrapper and native paths before the first phonemization.
+        from phonemizer.backend.espeak.wrapper import EspeakWrapper
+        EspeakWrapper.set_library(espeak.lib_path)
+        EspeakWrapper.set_data_path(espeak.data_path)
         # Health is reported only after the native phonemizer and model both work.
         self.model.create('The American English voice is ready to practice.', voice='af_heart', lang='en-us')
         self.slots = threading.BoundedSemaphore(2)

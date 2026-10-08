@@ -91,6 +91,7 @@ type LessonVisual struct {
 	Footnote string             `json:"footnote,omitempty"`
 	Focus    []string           `json:"focus,omitempty"`
 }
+
 // LessonKeyRule is the one memorable rule shown at the top of a lesson:
 // the rule itself, a vivid example and a quick self-check.
 type LessonKeyRule struct {
@@ -101,7 +102,7 @@ type LessonKeyRule struct {
 type Lesson struct {
 	CourseGuide *CourseGuide   `json:"courseGuide,omitempty"`
 	KeyRule     *LessonKeyRule `json:"keyRule,omitempty"`
-	Beginner    bool         `json:"beginner,omitempty"`
+	Beginner    bool           `json:"beginner,omitempty"`
 	// A guided lesson carries its own single explanation and step sequence;
 	// it never receives a course-guide overlay (see docs/COURSE-STANDARD.md).
 	Guided        bool                `json:"guided,omitempty"`
@@ -197,6 +198,7 @@ func (s *Server) Handler() http.Handler {
 	m.HandleFunc("POST /api/settings", s.settings)
 	m.HandleFunc("POST /api/check", s.check)
 	m.HandleFunc("POST /api/ai/test", s.testAI)
+	m.HandleFunc("GET /api/chatgpt/status", s.chatGPTStatus)
 	m.HandleFunc("POST /api/lessons/generate", s.generate)
 	m.HandleFunc("POST /api/practice/task", s.practiceTask)
 	m.HandleFunc("POST /api/draft", s.draft)
@@ -219,6 +221,7 @@ func (s *Server) Handler() http.Handler {
 	m.HandleFunc("GET /api/lexicon", s.lexiconList)
 	m.HandleFunc("GET /api/lexicon/{id}", s.lexiconGet)
 	m.HandleFunc("POST /api/transcribe", s.transcribe)
+	m.HandleFunc("POST /api/transcribe/check", s.checkWhisper)
 	m.HandleFunc("GET /api/anki/export", s.exportAnki)
 	m.HandleFunc("POST /api/anki/sync", s.syncAnki)
 	m.HandleFunc("GET /books/{name...}", s.book)

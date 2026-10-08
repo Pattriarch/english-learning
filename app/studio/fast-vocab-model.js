@@ -1,3 +1,4 @@
+import {wordImageNote} from './word-images.js';
 import {lexicalPreparedContext,lexicalGuideNote,lexicalImage,lexicalImageURL} from './lexicon-model.js';
 
 export function fastVocabOptions(value={}){
@@ -30,7 +31,7 @@ export async function fastLexicalCard(entry,context){
  const sources=[context.source,context.translationSource].filter(Boolean).map(s=>[s.attribution||s.author||'',s.url||'',s.license||''].filter(Boolean).join(' · '));
  const image=lexicalImage(entry,context);
  const forms=[...new Set((context.targetSpans||[]).map(span=>span.text))];
- return {card:{id,front:context.ru,back:context.en,note:[entry.word,forms.length?'Целевая форма в примере: '+forms.join(' · '):'',context.explanation,lexicalGuideNote(context),...sources].filter(Boolean).join('\n').slice(0,9000),source:`Контекстный словарь · ${entry.word} · #/lexicon/${entry.id}`,image:''},entryId:entry.id,contextId:context.id,targetSpans:context.targetSpans||[],imageURL:image?lexicalImageURL(image):'',imageAlt:image?.alt||'Иллюстрация ситуации',meaning:context.meaningRu||'',isNew:true};
+ return {card:{id,front:context.ru,back:context.en,note:[entry.word,forms.length?'Целевая форма в примере: '+forms.join(' · '):'',context.explanation,lexicalGuideNote(context),wordImageNote(image),...sources].filter(Boolean).join('\n').slice(0,9000),source:`Контекстный словарь · ${entry.word} · #/lexicon/${entry.id}`,image:''},entryId:entry.id,contextId:context.id,targetSpans:context.targetSpans||[],imageURL:image?lexicalImageURL(image):'',imageAlt:image?.alt||'Иллюстрация ситуации',imageCredit:image,meaning:context.meaningRu||'',isNew:true};
 }
 export function fastSwipeRating(dx,dy,revealed){
  if(!revealed||!Number.isFinite(dx)||!Number.isFinite(dy)||Math.abs(dx)<72||Math.abs(dx)<Math.abs(dy)*1.5)return null;

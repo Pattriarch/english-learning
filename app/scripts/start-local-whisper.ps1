@@ -5,6 +5,20 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $asrDirectory = [IO.Path]::GetFullPath((Join-Path $AppDirectory 'data\local-whisper'))
+# Portable installs use the same helper as macOS; older CPU installs below
+# remain usable without replacing the user's downloaded binaries.
+if (Test-Path -LiteralPath (Join-Path $asrDirectory 'install-portable.json')) {
+    $asrPython = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+    if (-not (Test-Path -LiteralPath $asrPython)) {
+        $asrPythonCommand = Get-Command python -ErrorAction SilentlyContinue
+        if (-not $asrPythonCommand) { throw 'Python 3.12 is needed to start this Whisper installation.' }
+        $asrPython = $asrPythonCommand.Source
+    }
+    & $asrPython (Join-Path $PSScriptRoot 'local_speech.py') start --engine whisper
+    if ($LASTEXITCODE -ne 0) { throw 'Local Whisper could not start. See app/data/local-whisper/server.stderr.log.' }
+    return
+}
+
 $asrExecutable = Join-Path $asrDirectory 'bin\Release\whisper-server.exe'
 $asrModel = Join-Path $asrDirectory 'ggml-base.en.bin'
 $asrURL = 'http://127.0.0.1:8080/inference'
@@ -45,7 +59,7 @@ try {
         # Relative model/public paths also work when the Windows account name is Cyrillic.
         [IO.Directory]::CreateDirectory((Join-Path $asrDirectory 'public')) | Out-Null
         $asrArguments = @('--host','127.0.0.1','--port','8080','--model','ggml-base.en.bin',
-            '--language','en','--threads','6','--no-gpu','--public','public')
+            '--language','en','--threads','6','--public','public')
         $asrProcess = Start-Process -FilePath $asrExecutable -ArgumentList $asrArguments -WorkingDirectory $asrDirectory `
             -WindowStyle Hidden -PassThru -RedirectStandardOutput (Join-Path $asrDirectory 'server.stdout.log') `
             -RedirectStandardError (Join-Path $asrDirectory 'server.stderr.log')

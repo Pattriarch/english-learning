@@ -1,3 +1,4 @@
+import {lessonWordImagesHTML,bindWordImages} from './word-images.js';
 import {esc,icon} from './core.js';
 import {speak} from './audio.js';
 import {lessonVisualHTML,lessonVisualSupportHTML,courseGuideHTML} from './course-guide.js';
@@ -22,7 +23,7 @@ export function keyRuleHTML(lesson){
 
 export function lessonIntroHTML(lesson,index=0,lessons=[]){
  const start=`<a class="btn primary lesson-start" href="#/lesson/${encodeURIComponent(lesson.id)}/${index}?practice">${index?'Продолжить практику':'Попробовать самому'} ${icon('arrow')}</a>`;
- if(lesson.courseGuide)return `<section class="card lesson-intro" aria-label="Объяснение перед практикой"><span class="eyebrow">Сначала поймём идею</span>${keyRuleHTML(lesson)}${courseGuideHTML(lesson,0)}${start}</section>`;
+ if(lesson.courseGuide)return `<section class="card lesson-intro" aria-label="Объяснение перед практикой"><span class="eyebrow">Сначала поймём идею</span>${keyRuleHTML(lesson)}${courseGuideHTML(lesson,0)}${lessonWordImagesHTML(lesson)}${start}</section>`;
  const {sections,later,examples}=lessonIntroParts(lesson);
  const recycled=list(lesson.recycles).map(id=>list(lessons).find(l=>l?.id===id)).filter(Boolean);
  const sectionHTML=sections.map(s=>`<section><h2>${esc(s.title)}</h2>${String(s.body).split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')}</section>`).join('');
@@ -31,10 +32,11 @@ export function lessonIntroHTML(lesson,index=0,lessons=[]){
  const recycleHTML=recycled.length?`<p class="lesson-recycles"><span class="eyebrow">Заодно повторим</span> ${recycled.map(l=>`<a href="#/lesson/${encodeURIComponent(l.id)}">${esc(l.title)}</a>`).join(' · ')}</p>`:'';
  const sources=list(lesson.sources).filter(s=>typeof s?.url==='string'&&s.url.startsWith('https://'));
  const sourceHTML=sources.length?`<details class="course-sources"><summary>На чём основано объяснение</summary><p class="small-note">Объяснение и задания написаны для этого курса. Правило сверено с этими материалами; их тексты не скопированы.</p><ul>${sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a>${s.notes?` — ${esc(s.notes)}`:''}</li>`).join('')}</ul></details>`:'';
- return `<section class="card lesson-intro" aria-label="Объяснение перед практикой"><span class="eyebrow">Сначала поймём идею</span>${lessonVisualHTML(lesson)}${keyRuleHTML(lesson)}${sectionHTML}${laterHTML}${lessonVisualSupportHTML(lesson,{scene:false})}${exampleHTML}${recycleHTML}${start}${sourceHTML}</section>`;
+ return `<section class="card lesson-intro" aria-label="Объяснение перед практикой"><span class="eyebrow">Сначала поймём идею</span>${lessonVisualHTML(lesson)}${keyRuleHTML(lesson)}${sectionHTML}${lessonWordImagesHTML(lesson)}${laterHTML}${lessonVisualSupportHTML(lesson,{scene:false})}${exampleHTML}${recycleHTML}${start}${sourceHTML}</section>`;
 }
 
 export function bindLessonIntro(root,lesson){
+ bindWordImages(root);
  const {examples}=lessonIntroParts(lesson);
  root.querySelectorAll('[data-intro-speak]').forEach(button=>button.onclick=()=>{
   const example=examples[Number(button.dataset.introSpeak)];
