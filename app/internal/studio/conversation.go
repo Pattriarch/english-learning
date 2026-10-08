@@ -49,6 +49,60 @@ func conversationScenarioByID(id string) (conversationScenario, bool) {
 	}
 	return conversationScenario{}, false
 }
+// A day session talks about today's lesson: "lesson-<id>" builds the partner
+// from that lesson's goal, key rule, formula and examples.
+const lessonScenarioPrefix = "lesson-"
+
+func conversationScenarioKnown(id string) bool {
+	if _, ok := conversationScenarioByID(id); ok {
+		return true
+	}
+	return strings.HasPrefix(id, lessonScenarioPrefix) && safeID.MatchString(strings.TrimPrefix(id, lessonScenarioPrefix))
+}
+func lessonScenario(l Lesson) conversationScenario {
+	examples, opening := []string{}, ""
+	for _, e := range l.Examples {
+		en := strings.TrimSpace(e.English)
+		if en == "" || len(examples) >= 6 {
+			continue
+		}
+		examples = append(examples, en)
+		if opening == "" && strings.HasSuffix(en, "?") {
+			opening = en
+		}
+	}
+	if opening == "" {
+		opening = "Hi! How is your day going? Tell me a little about it."
+	} else {
+		opening = "Hi! Quick question: " + opening
+	}
+	rule, goal := "", l.Goal
+	if l.KeyRule != nil {
+		rule = l.KeyRule.Rule
+		goal = "Отвечай о себе и своём дне так, чтобы понадобилось правило урока: " + l.KeyRule.Rule
+	}
+	level := l.Level
+	if level == "" {
+		level = "B1"
+	}
+	role := "You are a friendly American friend chatting with the learner about their own life and day. The chat exists so the learner uses today's lesson. Lesson: " + l.Title + ". Lesson goal (Russian): " + l.Goal + ". Pattern: " + l.Formula + ". Key rule (Russian): " + rule + ". Model sentences: " + strings.Join(examples, " | ") + ". Each reply: react briefly to what the learner actually said, then ask exactly one short question whose natural answer needs today's pattern. Do not explain grammar or correct mistakes during the chat; if the learner avoids the pattern, rephrase your question so it invites it. Never invent facts about the learner. Match CEFR " + level + ": at A1-A2 use very short sentences and only common words."
+	return conversationScenario{lessonScenarioPrefix + l.ID, level, "Разговор: " + l.Title, goal, opening, role}
+}
+func (s *Server) conversationScenario(id string) (conversationScenario, bool) {
+	if scenario, ok := conversationScenarioByID(id); ok {
+		return scenario, true
+	}
+	if !conversationScenarioKnown(id) {
+		return conversationScenario{}, false
+	}
+	lessonID := strings.TrimPrefix(id, lessonScenarioPrefix)
+	for _, l := range s.allLessons() {
+		if l.ID == lessonID {
+			return lessonScenario(l), true
+		}
+	}
+	return conversationScenario{}, false
+}
 func conversationSaved(p Progress, id string) (conversationSession, error) {
 	var s conversationSession
 	raw := p.Drafts["conversation:v1:"+id].Text
@@ -60,7 +114,7 @@ func conversationSaved(p Progress, id string) (conversationSession, error) {
 		err = errors.New("Несовместимый сохранённый диалог")
 	}
 	if err == nil {
-		_, known := conversationScenarioByID(s.ScenarioID)
+		known := conversationScenarioKnown(s.ScenarioID)
 		if !known || !safeID.MatchString(s.ID) || len(s.Turns) > 6 || len(raw) > 19500 {
 			return s, errors.New("Неполный сохранённый диалог")
 		}
@@ -91,7 +145,7 @@ func (s *Server) conversationExercise(exercise string) (Lesson, Exercise, bool) 
 	if err != nil || session.ID == "" || count > len(session.Turns) {
 		return Lesson{}, Exercise{}, false
 	}
-	scenario, ok := conversationScenarioByID(session.ScenarioID)
+	scenario, ok := s.conversationScenario(session.ScenarioID)
 	if !ok {
 		return Lesson{}, Exercise{}, false
 	}
@@ -104,7 +158,13 @@ func (s *Server) conversationExercise(exercise string) (Lesson, Exercise, bool) 
 	return l, e, true
 }
 func (s *Server) conversationCatalog(w http.ResponseWriter, r *http.Request) {
-	jsonResponse(w, 200, map[string]any{"scenarios": conversationScenarios, "maxTurns": 6})
+	scenarios := append([]conversationScenario{}, conversationScenarios...)
+	if lesson := r.URL.Query().Get("lesson"); lesson != "" {
+		if scenario, ok := s.conversationScenario(lessonScenarioPrefix + lesson); ok {
+			scenarios = append(scenarios, scenario)
+		}
+	}
+	jsonResponse(w, 200, map[string]any{"scenarios": scenarios, "maxTurns": 6})
 }
 func (s *Server) conversationReply(w http.ResponseWriter, r *http.Request) {
 	var b struct {
@@ -115,7 +175,7 @@ func (s *Server) conversationReply(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	b.Answer = strings.TrimSpace(b.Answer)
-	scenario, ok := conversationScenarioByID(b.ScenarioID)
+	scenario, ok := s.conversationScenario(b.ScenarioID)
 	if !ok || !safeID.MatchString(b.ID) || !safeID.MatchString(b.RequestID) || len(b.Answer) < 2 || len(b.Answer) > 1800 || (b.Mode != "writing" && b.Mode != "speaking") {
 		problem(w, 400, errors.New("Выбери сценарий и напиши или произнеси ответ до 1800 символов"))
 		return

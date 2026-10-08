@@ -1,0 +1,340 @@
+{
+  "id": "extended-c2-shakespeare-idioms",
+  "title": "Шекспир в редакции: старые выражения, сегодняшний смысл и чужие чувства",
+  "subtitle": "Колонка M1 → «впервые записано» ≠ «придумано» → смысл тогда и сейчас → образ о чужих чувствах → пояснение для читателей",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Прочитать колонку с пятью выражениями из пьес Шекспира и объяснить их новому читателю: “a wild-goose chase” — «бесполезные поиски», “not a foregone conclusion” — «ещё не решено». Говорить «впервые встречается у Шекспира», а не «придумал Шекспир», и не приписывать образом чувства реальному человеку.",
+  "formula": "appears in / is first recorded in ≠ was invented by · смысл тогда ≠ смысл сейчас · образ о себе — шутка, о другом — догадка о мотиве · одно выражение + простое объяснение",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-idioms-context",
+    "path-metaphor",
+    "path-irony"
+  ],
+  "recycles": [
+    "path-irony",
+    "path-idioms-context"
+  ],
+  "teaches": [
+    "is first recorded in / appears in — самая старая известная запись; was invented by — утверждение об авторстве, которое запись не доказывает",
+    "a wild-goose chase — бесполезные поиски; send someone on a wild-goose chase; у Шекспира — вид скачек «за вожаком»",
+    "in (at) one fell swoop — разом, одним действием; fell — старинное «жестокий», не форма fall; сегодня без мрачного смысла",
+    "a foregone conclusion — результат, ясный заранее; not a foregone conclusion — «ещё не решено», а не «скорее всего, нет»",
+    "wear your heart on your sleeve — открыто показывать любые чувства; притяжательное слово меняется по человеку: she wears her heart on her sleeve",
+    "the green-eyed monster — ревность или зависть; о себе — шутка, о другом человеке — заявление о его мотиве",
+    "ирония в колонке: похвала (efficient, remarkable tidiness) + факт рядом; вывод с suggests / may",
+    "для читателя без Шекспира: одно выражение и его смысл простыми словами; историю — только если она помогает понять",
+    "слова: attest, porter, minutes (протокол), grant, quote box, preview"
+  ],
+  "sources": [
+    {
+      "title": "The Phrase Finder · A wild-goose chase",
+      "url": "https://www.phrases.org.uk/meanings/wild-goose-chase.html",
+      "notes": "Сверено: первоначально — вид скачек, где всадники следуют за ведущей лошадью (описан у Gervase Markham, 1593); первая известная запись — «Ромео и Джульетта», шутка Меркуцио; к XIX веку скачки забыли, и выражение стало значить утомительную безнадёжную погоню."
+    },
+    {
+      "title": "Grammarphobia · One fell swoop",
+      "url": "https://grammarphobia.com/blog/2007/01/one-fell-swoop.html",
+      "notes": "Сверено: fell здесь — «жестокий, свирепый, смертельный» (родственно felon), не от fall; первая запись по OED — «Макбет», реакция Макдуфа на гибель семьи, образ хищной птицы; сегодня выражение значит «разом, внезапно», мрачный образ почти забыт."
+    },
+    {
+      "title": "Grammarphobia · Foregone",
+      "url": "https://grammarphobia.com/blog/2019/02/foregone.html",
+      "notes": "Сверено: строка Отелло «But this denoted a fore-gone conclusion» толкуют по-разному; сегодня два значения: мнение, сложившееся до разбора, и результат, который можно предвидеть. Отсюда правило урока: смысл берём сегодняшний, а не из пьесы."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Тогда и сейчас",
+    "why": "Самая старая запись выражения показывает, что слова были. Она не показывает, что значение осталось прежним и что их придумал автор пьесы.",
+    "items": [
+      {
+        "label": "Wild-goose chase",
+        "en": "Then: a horse race. Now: a useless search.",
+        "ru": "Тогда: скачки «за вожаком». Сейчас: бесполезные поиски.",
+        "note": "Значение сменилось."
+      },
+      {
+        "label": "One fell swoop",
+        "en": "Fell = cruel, not “fall.” Now: all at once.",
+        "ru": "Fell — «жестокий». Сейчас: разом, одним действием.",
+        "note": "Мрачный образ стёрся."
+      },
+      {
+        "label": "Происхождение",
+        "en": "first recorded in ≠ invented by",
+        "ru": "впервые записано ≠ придумано",
+        "note": "Люди могли так говорить и раньше."
+      }
+    ],
+    "footnote": "Для сегодняшнего читателя важен сегодняшний смысл. Историю называй, только если она помогает понять.",
+    "focus": [
+      "useless search",
+      "all at once",
+      "first recorded in"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Пять старых выражений в одной современной колонке",
+      "body": "В материале M1 — колонка небольшого журнала о районном проекте. Автор пишет о людях, споре и деньгах. По пути он использует пять выражений, впервые записанных в пьесах Шекспира. Вот они: wear your heart on your sleeve, a wild-goose chase, the green-eyed monster, in one fell swoop, a foregone conclusion.\n\nОсновное об идиомах ты уже знаешь: смысл не складывается из слов, слова не меняются, ситуация должна совпадать с картинкой. Здесь три новых вопроса.\n\nПервый — откуда выражение и что можно сказать о его истории честно. Второй — значило ли оно в пьесе то же, что сегодня. Третий — что происходит, когда яркий образ применяют к живому человеку, которого назвали по имени.\n\nВ конце урока ты пишешь пояснение для читателей, которые не знают Шекспира, и редактируешь справку для сайта журнала."
+    },
+    {
+      "title": "Встречается у Шекспира — не значит придумано им",
+      "body": "Словари находят самую старую известную запись выражения. Для этих пяти выражений это пьесы Шекспира: «Отелло», «Ромео и Джульетта», «Макбет». По-английски это говорят так: The phrase is first recorded in Othello или The phrase appears in Othello.\n\nНо самая старая запись — не доказательство авторства. Люди могли говорить так и раньше, просто это не дошло до нас на бумаге. Поэтому Shakespeare invented this phrase — утверждение сильнее, чем позволяют сведения.\n\nРусскоязычные авторы часто пишут «шекспировское выражение» и переводят это как invented by Shakespeare. Точнее: an expression first recorded in Shakespeare. Культурная связь остаётся, а лишнего ты не утверждаешь.\n\nТо же правило, что в уроке об оговорках: говори так уверенно, как позволяют факты."
+    },
+    {
+      "title": "Что значило тогда и что значит сейчас",
+      "body": "A wild-goose chase у Шекспира — вид скачек: всадники должны были следовать за ведущим, как дикие гуси за вожаком. Сегодня — бесполезные поиски того, что вряд ли найдёшь: The fake address sent us on a wild-goose chase. Трудный поиск, который может закончиться успехом, — ещё не wild-goose chase.\n\nIn one fell swoop — разом, одним действием. Fell — старинное прилагательное «жестокий», не прошедшее время от fall. В «Макбете» это строка о гибели семьи. Сегодня выражение нейтральное: One phone call settled all three questions in one fell swoop.\n\nA foregone conclusion — результат, ясный заранее. Что имел в виду Отелло, спорят до сих пор. Not a foregone conclusion — «ещё не решено», а не «скорее всего, не выйдет».\n\nWear your heart on your sleeve — открыто показывать чувства: радость, тревогу, обиду, не только любовь. Притяжательное слово меняется по человеку: she wears her heart on her sleeve."
+    },
+    {
+      "title": "Образ о чужих чувствах и ирония автора",
+      "body": "The green-eyed monster — ревность или зависть. О себе это звучит шутливо: I think the green-eyed monster got me when my friend got the job. Ты признаёшься в своём чувстве.\n\nО другом человеке тот же образ — уже заявление: ты знаешь, почему он так поступил. Если доказательств нет, это догадка о мотиве, поданная как остроумие. Надёжнее описать поступок: что человек сказал или сделал.\n\nАвтор M1 это понимает и пользуется иронией из прошлого урока: хвалит то, что критикует. Он называет «зелёноглазое чудовище» efficient little diagnosis — «удобный маленький диагноз», и тут же добавляет: no interview required — «даже не надо ни с кем говорить». Похвала и факт рядом расходятся.\n\nОписывая чужую иронию, разделяй, что видно в тексте и что ты выводишь: The praise suggests the author doubts this explanation. Намерение автора ты не знаешь наверняка."
+    },
+    {
+      "title": "Для читателя, который не знает Шекспира",
+      "body": "Читатель может понимать каждое слово и не узнать выражение. Wild-goose chase для него — «погоня за диким гусем», не больше.\n\nПоэтому в тексте для широкой аудитории оставляй одно-два выражения. Рядом объясняй их смысл простыми словами: Ellis calls the search a wild-goose chase — a long search that is unlikely to find anything. Пьесу называй, только если это помогает понять или если текст о языке.\n\nПеред тем как оставить выражение, проверь три вещи. Совпадает ли сегодняшний смысл с ситуацией? Поймёт ли этот читатель? Не говорит ли образ о чувствах реального человека больше, чем ты знаешь?\n\nКрасивая цитата не заменяет мысль. Если выражение закрывает спор раньше, чем появились факты, замени его прямыми словами."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The phrase is first recorded in Othello, but that doesn't prove Shakespeare invented it.",
+      "ru": "Выражение впервые записано в «Отелло», но это не доказывает, что его придумал Шекспир.",
+      "why": "Первая часть — известный факт, вторая — граница вывода."
+    },
+    {
+      "en": "Without a catalog number, the search could turn into a wild-goose chase.",
+      "ru": "Без номера в каталоге поиск может превратиться в бесполезную погоню.",
+      "why": "Could turn into — риск, а не приговор: письмо ещё может найтись."
+    },
+    {
+      "en": "By merging the two forms, we removed three duplicate checks in one fell swoop.",
+      "ru": "Объединив две формы, мы разом убрали три лишние проверки.",
+      "why": "Одно действие — несколько результатов. Беды здесь нет."
+    },
+    {
+      "en": "She has strong support, but her appointment is not a foregone conclusion.",
+      "ru": "У неё сильная поддержка, но её назначение ещё не предрешено.",
+      "why": "Not a foregone conclusion — «ещё не решено», а не «она проиграет»."
+    },
+    {
+      "en": "Leila wears her heart on her sleeve: everyone could see how disappointed she was.",
+      "ru": "Лейла не скрывает чувств: все видели, как она расстроилась.",
+      "why": "Чувство — разочарование, не любовь. Her — потому что речь о Лейле."
+    },
+    {
+      "en": "I suspect the green-eyed monster made me criticize his prize before I'd read the story.",
+      "ru": "Подозреваю, что это зависть заставила меня ругать его премию, хотя я ещё не прочитал рассказ.",
+      "why": "Образ о себе звучит как честная шутка. О другом человеке он звучал бы как обвинение."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Колонка / Five Old Expressions at the Editorial Table",
+      "kind": "reading",
+      "source": "Придумано для курса: журнал, проект и люди вымышленные.",
+      "text": "At Margin, our small neighborhood magazine, we have spent two weeks arguing about the Lantern Rooms, a plan to turn the empty ticket office at the old train station into a space for exhibitions and recorded memories of the neighborhood. The drawings are beautiful. Whether the building can do what the drawings promise is a less photogenic question.\n\nMara, who leads the project, wears her heart on her sleeve. When she describes the listening benches, her hands draw an imaginary room in the air. This makes her persuasive, and it also makes her easy to underestimate. People sometimes assume that an enthusiastic person has forgotten about the plumbing. Mara has not. She brings the plumbing inspection report to every meeting, in the same folder as her sketches.\n\nOur reviews editor, Ellis, likes both the sketches and the report. His objection is about the memory collection. An early flyer promised to find a recording of a station porter who used to sing on the platform. Nobody can name the person who supposedly made that recording. Ellis calls the search a wild-goose chase. Mara answers that three residents remember the song, even if none of them has heard a recording. She has since removed the promise from the flyer and given the search two weeks.\n\nAt our last editorial meeting, someone mentioned that another local project had just received a glowing review, and blamed the Lantern team's impatience on the green-eyed monster. It is an efficient little diagnosis: no interview required. In fact, the team has been waiting six weeks for a decision on access to the building. That does not make envy impossible. It does make envy a strangely complete explanation.\n\nOn Tuesday, the project committee approved the room layout, the volunteer schedule, and the opening date in one fell swoop, with a single vote. Several people welcomed the speed. So did I, at first. The minutes record unanimous agreement. They do not record whether anyone asked how volunteers would watch the listening equipment while also giving tours. Our editor praised the minutes for their remarkable tidiness: a question that is not in the record can no longer delay the schedule. We laughed and moved on. I am less sure now that the joke was only about the committee.\n\nFunding is not a foregone conclusion. The committee has applied for a grant, and the building's owner has offered temporary access, but neither fact pays for anything. I want the Lantern Rooms to open. I also want our article to keep that wish separate from a prediction. Old expressions can help us draw distinctions like these. When they settle the argument before the evidence arrives, they are just well-dressed shortcuts."
+    },
+    {
+      "id": "m2",
+      "title": "Справка / Five Expressions: Meaning Today and Where They Appear",
+      "kind": "reference",
+      "source": "Справка для курса; сведения о пьесах сверены по источникам урока.",
+      "text": "wear your heart on your sleeve — to show your feelings openly: joy, worry, or disappointment, not only love. The possessive changes with the person: she wears her heart on her sleeve. In Othello (Act 1, Scene 1), Iago uses the older form “wear my heart upon my sleeve.”\n\na wild-goose chase — a long, useless search for something you probably won't find. Common pattern: send someone on a wild-goose chase. The phrase appears in Romeo and Juliet (Act 2, Scene 4), but there it named a kind of horse race in which riders had to follow the leader. The meaning “useless search” came later.\n\nthe green-eyed monster — jealousy or envy. It appears in Othello (Act 3, Scene 3). Used about yourself, it sounds playful. Used about another person, it claims to know their motive.\n\na foregone conclusion — a result that seems certain before it happens: Her win was a foregone conclusion. It appears in Othello (Act 3, Scene 3). Scholars disagree about exactly what Othello meant; the modern meaning is clear. “Not a foregone conclusion” means “not decided yet,” not “unlikely.”\n\nin one fell swoop (also at one fell swoop) — all at once, in a single action. It appears in Macbeth (Act 4, Scene 3), when Macduff learns that his whole family has been killed and pictures a bird of prey diving on its victims. Fell is an old adjective meaning “cruel” or “deadly”; it is not the past tense of fall. Today the phrase is neutral: One phone call settled all three questions in one fell swoop.\n\nA note on history. These expressions are first recorded in Shakespeare's plays. That means the oldest written example we know is there. It does not prove he invented them: people may have used them in speech before. Write “appears in” or “is first recorded in,” not “was invented by.”"
+    },
+    {
+      "id": "m3",
+      "title": "Разговор редакторов / After the Preview",
+      "kind": "dialogue",
+      "source": "Придумано для курса: редакторы и волонтёр вымышленные.",
+      "text": "Nina: The preview of our column went further than we expected. A neighborhood translation group shared it with new residents. Their coordinator says many readers understand every word but not the expressions.\n\nEllis: We shouldn't remove every image. Part of the column is about how images shape our judgment. But we can't assume that a Shakespeare reference explains itself.\n\nNina: There's also a complaint. Jo, a Lantern Rooms volunteer, wrote to us. The quote box next to the envy paragraph shows Jo's name and her question: “Why has the access decision taken six weeks?” She says the layout makes the green-eyed monster look like our explanation of her behavior.\n\nEllis: The paragraph actually argues against that explanation. But a reader who sees her name right next to the word “monster” could easily connect the two.\n\nNina: Jo wants it to be clear that we have no evidence about her motives. She hasn't asked us to support the project or to drop our questions about the budget.\n\nEllis: And we shouldn't claim that nobody on the team could feel envy. We don't know that either.\n\nNina: So the note on the preview page should explain the layout problem, say what we're changing, and keep the column's main point. It has to make sense on its own.\n\nEllis: And if it uses one of the expressions, it should say what it means in plain words."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Открой M2. В черновике врезки для сайта написано: “Shakespeare invented the phrase ‘a wild-goose chase’ in Romeo and Juliet.” Исправь фразу так, чтобы она говорила только то, что известно.",
+      "context": "",
+      "guidance": {
+        "title": "Встречается у автора — не значит придумано им",
+        "body": "First recorded in — самая старая известная запись. Она не доказывает, что выражение придумал этот автор: люди могли говорить так и раньше.",
+        "example": "The word appears in a letter from 1598, but that doesn't prove the writer invented it.",
+        "translation": "Слово встречается в письме 1598 года, но это не доказывает, что его придумал автор письма."
+      },
+      "hint": "Начни так: The phrase “a wild-goose chase” appears in…",
+      "answers": [
+        "The phrase “a wild-goose chase” appears in Shakespeare's Romeo and Juliet, but that doesn't prove he invented it.",
+        "The phrase “a wild-goose chase” is first recorded in Shakespeare's Romeo and Juliet.",
+        "“A wild-goose chase” first appears in writing in Romeo and Juliet; Shakespeare may not have invented it."
+      ],
+      "explanation": "Appears in и is first recorded in говорят только о записи. Можно добавить границу вывода: but that doesn't prove he invented it. Was coined by или was invented by оставляют прежнюю ошибку."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Читатель спрашивает: «Если это из Шекспира, значит, в „Ромео и Джульетте“ wild-goose chase — тоже бесполезные поиски?» Ответь ему двумя фразами по M2: что выражение значило тогда и что значит сейчас.",
+      "context": "",
+      "guidance": {
+        "title": "Значение могло измениться",
+        "body": "Старая запись показывает, что слова были. Смысл со временем мог стать другим. Назови оба смысла и скажи, какой живёт сегодня.",
+        "example": "In the 1500s, “nice” could mean “foolish”; today it means “pleasant.”",
+        "translation": "В XVI веке nice могло значить «глупый»; сегодня оно значит «приятный»."
+      },
+      "hint": "Что в M2 сказано о скачках — horse race? Начни так: In Romeo and Juliet, …",
+      "answers": [
+        "In Romeo and Juliet, a wild-goose chase was a kind of horse race in which riders followed the leader. Today it means a long, useless search for something you probably won't find.",
+        "Not quite: in the play, the phrase named a horse race where riders had to follow the leader. The modern meaning, a useless search, came later."
+      ],
+      "explanation": "Засчитывается, если названы оба значения: тогда — скачки «за ведущим», сейчас — бесполезные поиски, и ясно, что сегодняшний смысл появился позже."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь команде о новом релизе. Переведи: «Одним обновлением мы исправили все четыре ошибки сразу». Используй выражение из M2.",
+      "context": "bug — ошибка в программе.",
+      "guidance": {
+        "title": "Fell — старое слово, а не форма fall",
+        "body": "Fell здесь — старинное «жестокий». Сегодня выражение нейтральное, беды в нём нет. Слова не меняются: ни fall, ни falling.",
+        "example": "The new law closed all three loopholes in one fell swoop.",
+        "translation": "Новый закон разом закрыл все три лазейки."
+      },
+      "hint": "Начни так: One update fixed… Выражение — в конце.",
+      "answers": [
+        "One update fixed all four bugs in one fell swoop.",
+        "One update fixed all four bugs at one fell swoop.",
+        "We fixed all four bugs in one fell swoop with a single update.",
+        "With one update, we fixed all four bugs in one fell swoop."
+      ],
+      "explanation": "In one fell swoop и at one fell swoop — оба варианта верны. One fall swoop или one felled swoop — уже не выражение."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега радуется: «Грант у нас в кармане!» Ответь ему по M1: «Финансирование ещё не предрешено: комитет только подал заявку».",
+      "context": "grant — грант; apply for — подать заявку.",
+      "guidance": {
+        "title": "Отрицание: «не предрешено» — ещё не «проиграли»",
+        "body": "Foregone conclusion — исход, известный наперёд. С not фраза значит «пока не известно», а не «скорее всего, не получим».",
+        "example": "Her promotion is likely, but it isn't a foregone conclusion.",
+        "translation": "Её повышение вероятно, но не предрешено."
+      },
+      "hint": "Начни так: Funding isn't… Подали заявку — has only applied.",
+      "answers": [
+        "Funding isn't a foregone conclusion: the committee has only applied for the grant.",
+        "Funding is not a foregone conclusion yet; the committee has only applied for it.",
+        "The funding isn't a foregone conclusion. The committee has only just applied for the grant."
+      ],
+      "explanation": "Not a foregone conclusion — «ещё не решено». Has only applied показывает, почему: заявка подана, ответа нет. Это не значит, что грант не дадут."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок об иронии. В M1 автор дважды хвалит то, что на деле критикует. Выбери одно место и напиши редактору две-три фразы: какие слова звучат как похвала, какой факт рядом делает их иронией и почему это вывод, а не доказанное намерение.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: похвала и факт рядом",
+        "body": "Как в уроке об иронии, ищи похвалу рядом с фактом, который ей противоречит. Назови оба по тексту. Вывод формулируй осторожно: suggests, may.",
+        "example": "The review calls the hotel room “cozy,” and the next sentence says it was eight feet wide. This suggests the praise is ironic.",
+        "translation": "В отзыве номер назван «уютным», а следующая фраза сообщает, что в нём два с половиной метра в ширину. Это наводит на мысль, что похвала ироническая."
+      },
+      "hint": "Посмотри на efficient little diagnosis и remarkable tidiness. Что стоит сразу после каждого?",
+      "answers": [
+        "The author calls the green-eyed monster explanation “an efficient little diagnosis,” then adds “no interview required.” Since the team has in fact been waiting six weeks for a decision, this suggests the praise is ironic: the explanation is quick because nobody checked it. We can't be sure of the author's intention, but the contrast is clear in the text.",
+        "The editor praises the minutes for their “remarkable tidiness,” but the next words say that a question missing from the record can no longer delay the schedule. This suggests the tidiness came from leaving out an awkward question, so the praise may be ironic."
+      ],
+      "explanation": "Засчитывается, если названы слова-похвала, факт рядом, который ей противоречит, и вывод с suggests или may. Подходит любое из двух мест: efficient little diagnosis или remarkable tidiness."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Черновик подписи к фото волонтёров: “Jo's question about the six-week delay is just the green-eyed monster talking.” Перепиши подпись: опиши, что Jo сделала, без догадки о её чувствах.",
+      "context": "",
+      "guidance": {
+        "title": "Образ о чужих чувствах — уже обвинение",
+        "body": "О себе green-eyed monster звучит шутливо. О другом человеке оно заявляет, что ты знаешь его мотив. Доказательств нет — опиши поступок.",
+        "example": "Instead of “His complaint is pure jealousy,” write “He asked why his proposal was rejected.”",
+        "translation": "Вместо «Его жалоба — чистая ревность» — «Он спросил, почему его предложение отклонили»."
+      },
+      "hint": "Что Jo сделала на самом деле? Начни так: Jo asked why…",
+      "answers": [
+        "Jo asked why the access decision has taken six weeks.",
+        "Jo asked the committee why the decision on access to the building has taken six weeks.",
+        "Jo wants to know why the decision on access has taken six weeks."
+      ],
+      "explanation": "Засчитывается, если остался только поступок: Jo задала вопрос о шести неделях ожидания. Оценки мотива (envy, jealous, the green-eyed monster) нет. По M1 вопрос обоснованный: решение действительно ждут шесть недель."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок об идиомах. Переведи фразу для статьи: «Мара не скрывает чувств: все видели, как она расстроилась, когда комитет отложил решение».",
+      "context": "postpone — отложить.",
+      "guidance": {
+        "title": "Вспоминаем: в идиоме меняется только то, что относится к человеку",
+        "body": "Как в уроке об идиомах, слова идиомы неизменны. Меняются время глагола и притяжательное слово — my, her, his — по тому, о ком речь. Чувство может быть любым, не только любовь.",
+        "example": "My brother wears his heart on his sleeve: you always know when he's worried.",
+        "translation": "Мой брат не скрывает чувств: всегда видно, когда он волнуется."
+      },
+      "hint": "Чей рукав и чьё сердце? Начни так: Mara wears…",
+      "answers": [
+        "Mara wears her heart on her sleeve: everyone could see how upset she was when the committee postponed the decision.",
+        "Mara wears her heart on her sleeve: everyone saw how upset she was when the committee postponed its decision.",
+        "Mara wears her heart on her sleeve. Everyone could see how disappointed she was when the committee put off the decision."
+      ],
+      "explanation": "Her heart, her sleeve — потому что речь о Маре. Upset и disappointed одинаково подходят для «расстроилась». Put off и postpone — оба «отложить»."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Теперь прочитай M3. Напиши пояснение редакции для страницы с превью колонки: 200–300 слов. Среди читателей — новые жители, которые хорошо знают английские слова, но не знают Шекспира. Что должно быть: в чём проблема с оформлением (цитата Jo рядом с абзацем о зависти); что у редакции нет сведений о мотивах Jo и что её вопрос обоснованный (сколько ждут решения — по M1); главная мысль колонки своими словами; одно выражение из колонки с объяснением простыми словами; что редакция меняет. Не приписывай Jo того, чего она не просила.",
+      "context": "",
+      "hint": "План: A note about this preview… → The problem… → What we know and don't know… → What the column argues… → One expression explained… → What we are changing…",
+      "answers": [
+        "A note about this preview\n\nIn the preview of our column on the Lantern Rooms, we placed a quote box with the name of Jo, a volunteer, and her question, “Why has the access decision taken six weeks?”, right next to a paragraph about envy. That placement was a mistake. It made it look as if we were explaining Jo's question by her feelings.\n\nWe want to be clear: we have no information about Jo's motives, and we did not mean to suggest any. Her question is a fair one. According to our own reporting, the team has been waiting six weeks for a decision on access to the building.\n\nThe column's main point is different. It argues that familiar expressions can help us describe a situation, but they should not replace the facts. For example, someone at our meeting blamed the team's impatience on “the green-eyed monster,” an old expression for jealousy or envy. The column says this is too easy an explanation, because the team has a real reason to be impatient.\n\nThe column also says that the project's funding is “not a foregone conclusion.” That means it is not decided yet: the committee has applied for a grant, but there is no answer.\n\nWe have moved the quote box away from that paragraph, and Jo's question now appears next to the section about the access decision. The rest of the column, including our questions about the budget, stays the same.\n\nThe Margin editors"
+      ],
+      "explanation": "Засчитывается, если названа проблема с оформлением, сказано, что сведений о мотивах Jo нет, и её вопрос подтверждён фактом из M1 (шесть недель). Главная мысль колонки должна быть передана верно: выражения не заменяют факты. Нужно хотя бы одно выражение с простым объяснением и что меняется. Нельзя писать, что Jo просила поддержать проект или убрать вопросы о бюджете."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Коллега без литературной подготовки говорит: “The more idioms we use, the more advanced our English sounds.” Ответь вслух за 2–3 минуты. Что должно быть: с чем в его словах ты согласен; два конкретных случая из M1–M3, где выражение мешает или требует проверки; одно место, где выражение к месту, и почему; правило, которое ты предлагаешь редакции.",
+      "context": "",
+      "hint": "Начни так: I partly agree… Переходы: But look at what happened with… / Another example… / On the other hand, … works well because… / So here's what I'd suggest…",
+      "answers": [
+        "I partly agree. Idioms can make writing sound natural and alive, and a good one says a lot in a few words. But using more of them doesn't automatically make our English better. It depends on whether each one fits and whether the reader understands it.\n\nLook at what happened with the green-eyed monster. In the column, it was someone else's explanation, and the author was actually criticizing it. But in the preview, Jo's name ended up right next to it. So a reader could think we were calling her jealous, and we have no evidence about her feelings at all. One colorful phrase turned into an accusation against a real person.\n\nAnother example is the history. A draft said Shakespeare invented “a wild-goose chase.” We don't know that. It's first recorded in his play, and back then it meant a kind of horse race, not a useless search. So the idiom sounded impressive, but the sentence around it was wrong.\n\nOn the other hand, “not a foregone conclusion” works well in the column. The facts are right there: the committee has applied for a grant, but nobody has said yes. The phrase sums that up quickly, and it doesn't claim more than we know.\n\nSo here's what I'd suggest. One expression per paragraph at most. Next to it, a plain explanation if our readers might not know it. Never use an image about a named person's feelings unless we have evidence. And when we mention history, say “first recorded in,” not “invented by.” Advanced English is about choosing the right words, not the most decorated ones."
+      ],
+      "explanation": "Засчитывается, если есть частичное согласие, два конкретных случая из материалов (например, green-eyed monster рядом с именем Jo и «изобрёл Шекспир» или старое значение wild-goose chase), один удачный случай с объяснением и правило для редакции. 2–3 минуты — примерно 250–350 слов."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй справку для сайта журнала (150–200 слов): исправь все ошибки по M2 и сохрани цель — показать, как эти выражения работают сегодня. Черновик: “All five expressions were invented by Shakespeare. A wild-goose chase is any difficult search, like looking for a document in a big archive. If you wear your heart on your sleeve, you are in love. A foregone conclusion is a conclusion someone made earlier, so ‘not a foregone conclusion’ means nobody has thought about it yet. In one fell swoop comes from ‘fall’: something falls on several things at once, usually a disaster. The green-eyed monster is a neutral word for criticism, so we can use it about any reader who complains.”",
+      "context": "",
+      "hint": "Проверь по M2 каждую фразу: откуда выражение, что значит сегодня, нужна ли беда, о ком можно так сказать.",
+      "answers": [
+        "Five expressions from Shakespeare's time\n\nAll five expressions are first recorded in Shakespeare's plays, but that does not prove he invented them. People may have used them before.\n\nA wild-goose chase is a long search that is unlikely to succeed. A difficult search is not always one: if the document may still be in the archive, the search is just hard. In Romeo and Juliet, the phrase named a kind of horse race.\n\nIf you wear your heart on your sleeve, you show your feelings openly. That can be any feeling, such as joy, worry, or disappointment, not only love.\n\nA foregone conclusion is a result that seems certain in advance. “Not a foregone conclusion” means the result is not decided yet.\n\nIn one fell swoop means all at once, in a single action. Fell is an old word for “cruel,” not a form of fall, and today the phrase does not suggest a disaster.\n\nThe green-eyed monster means jealousy or envy. It is a playful way to talk about your own feelings, but used about another person, it claims to know their motive, so it should not be used about readers who complain."
+      ],
+      "explanation": "Засчитывается, если исправлены все шесть ошибок: авторство (first recorded in вместо invented by), wild-goose chase (безнадёжный, а не просто трудный поиск), любые чувства вместо любви, foregone conclusion (результат, ясный заранее), fell (не от fall, беды нет) и green-eyed monster (зависть, а не критика; о других — догадка о мотиве)."
+    }
+  ],
+  "keyRule": {
+    "rule": "Пиши «впервые встречается у Шекспира», а не «придумал Шекспир». Значение бери сегодняшнее, а не из пьесы.",
+    "example": "The phrase is first recorded in Othello. — Выражение впервые записано в «Отелло».",
+    "check": "Говорит ли твоя фраза о происхождении больше, чем известно? Убери лишнее."
+  }
+}

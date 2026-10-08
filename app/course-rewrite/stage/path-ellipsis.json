@@ -1,0 +1,335 @@
+{
+  "id": "path-ellipsis",
+  "title": "Sarah has, but I haven't: что можно не повторять",
+  "subtitle": "Оставь помощника → нет помощника — do или did → после to → if possible, if necessary → в сравнении → когда повтор нужен",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Не повторять то, что собеседник только что слышал, и не терять смысл: «Сара прочитала, а я нет» (Sarah has, but I haven't), «не хотел, но пришлось» (I didn't want to, but I had to), «дольше, чем мы ожидали» (longer than we expected).",
+  "formula": "убери повторённое действие → оставь помощника: has / can / will / is; нет помощника — do / did → после want, need, have — оставь to; с be — to be → if possible / if necessary → than we expected → два действия или отдельная инструкция — повтори",
+  "keyRule": {
+    "rule": "Убираешь повторённое действие — оставь помощника: has, did, can или to.",
+    "example": "Sarah has read it, but I haven't. — Сара прочитала, а я нет.",
+    "check": "I wanted to go, but I couldn't go — что здесь лишнее? Второе go."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-me-too",
+    "path-question-tags"
+  ],
+  "recycles": [
+    "path-me-too",
+    "path-question-tags"
+  ],
+  "teaches": [
+    "эллипсис — пропуск слов, которые собеседник только что слышал; само действие уходит, помощник остаётся: Sarah has, but I haven't",
+    "помощник берётся из первой фразы и меняется под новое подлежащее: I haven't, but she has; с be — be: I'm tired, and Sam is too",
+    "нет помощника — do / does / did: She called, but I didn't",
+    "после to действие убирают, to оставляют: I didn't want to, but I had to; I'd love to; с be — I'd like to be, it used to be",
+    "короткие условия: if possible, if necessary, if needed, if so, if not",
+    "в сравнении: longer than we expected, more than last year, more than I do / than me",
+    "нельзя убирать после because, when, before, after; при двух действиях и в отдельной инструкции — повтори глагол",
+    "слова: training, sign, invoice, review, repairs, landlord"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Ellipsis (C1 grammar)",
+      "url": "https://learnenglish.britishcouncil.org/grammar/c1-grammar/ellipsis",
+      "notes": "Сверено: пропуск после and / but / or, после to (I wanted to, but…), после помощников и модальных глаголов (I hadn't noticed it, but my son had); пропуск не работает после before, after, because, when, while. Разговорный пропуск начала фразы (Sounds familiar, Want some coffee?) оставлен для следующего урока о живой речи."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Убираем повтор — помощник остаётся",
+    "why": "Слева направо: полная фраза, та же без повтора, затем фраза без помощника и фраза с to.",
+    "items": [
+      {
+        "label": "Полная фраза",
+        "en": "Sarah has read the report, but I haven't read the report.",
+        "ru": "Сара прочитала отчёт, а я не прочитал отчёт.",
+        "note": "Read the report звучит дважды."
+      },
+      {
+        "label": "Без повтора",
+        "en": "Sarah has read the report, but I haven't.",
+        "ru": "Сара прочитала отчёт, а я нет.",
+        "note": "Haven't сохраняет время и «нет»."
+      },
+      {
+        "label": "Нет помощника — did",
+        "en": "Sarah called, but I didn't.",
+        "ru": "Сара позвонила, а я нет.",
+        "note": "В первой фразе помощника нет — берём did."
+      },
+      {
+        "label": "После to",
+        "en": "I didn't want to, but I had to.",
+        "ru": "Я не хотел, но пришлось.",
+        "note": "Действие убрано, to осталось."
+      }
+    ],
+    "focus": [
+      "haven't",
+      "didn't",
+      "had to"
+    ],
+    "footnote": "«А я нет» — but I haven't, but I didn't, but I can't. But I not — ошибка."
+  },
+  "sections": [
+    {
+      "title": "Почему нельзя сказать просто «а я нет»",
+      "body": "Коллега спрашивает: “Have you read the report?” Ты отвечаешь: «Сара прочитала, а я нет». По-русски глагол во второй половине можно убрать целиком. По-английски так нельзя: but I not — ошибка. Нужно: Sarah has, but I haven't.\n\nПропуск слов, которые собеседник только что слышал, называют эллипсисом. Пропускаешь само действие (read the report), но слово-помощник остаётся: has, did, can, will, is. Именно он показывает время и то, «да» это или «нет».\n\nТы уже так делал: Yes, I am. So do I. Neither can I. It's cold, isn't it? Везде помощник взят из первой фразы. Теперь то же правило работает в любой фразе, особенно после but и and: The kids can swim, but their dad can't."
+    },
+    {
+      "title": "Какого помощника оставить",
+      "body": "Помощник есть в первой фразе — повтори его: I've finished, but Sam hasn't. She'll come, and her sister will too. Если подлежащее другое, помощник меняется под него: I haven't, but she has.\n\nПомощника нет — обычный глагол в настоящем или прошедшем, — бери do, does, did: She called, but I didn't. He likes jazz more than I do.\n\nС be оставляй be: I'm tired, and Sam is too. Was it expensive? — It was.\n\nЕсли помощников два, обычно хватает первого: Have you been waiting long? — I have. Will you be working on Saturday? — I will."
+    },
+    {
+      "title": "После to: I'd love to, I had to",
+      "body": "После want, need, try, plan, have, would like и других слов с to действие убирают, но to оставляют: I didn't want to leave early, but I had to. — Can you come on Friday? — I'd love to. Без to ответ I'd love звучит оборванным — это ошибка.\n\nГде правило кончается. Если пропущенная часть начинается с be, be остаётся: Are you a member? — Not yet, but I'd like to be. Is the apartment quiet? — Not really, but it used to be.\n\nТак же коротко звучат условия с if: if possible — «если возможно», if necessary и if needed — «если нужно», if so — «если да», if not — «если нет». Здесь пропущено it is: Call me if necessary."
+    },
+    {
+      "title": "В сравнении: than we expected, than last year",
+      "body": "После than и as вторую половину сравнения тоже сокращают. It took longer than we expected — «заняло больше времени, чем мы ожидали»: что именно ожидали, и так понятно. More people came than last year — «пришло больше людей, чем в прошлом году». I'm not as tired as I was yesterday — «я не так устал, как вчера».\n\nЕсли во второй половине другой человек, оставь его помощника: She earns more than I do. В разговоре американцы часто говорят короче: She earns more than me. Оба варианта верны: than I do звучит аккуратнее, than me — разговорнее.\n\n«Чем я думал» по-английски — than I thought, без it и без повтора глагола."
+    },
+    {
+      "title": "Когда повтор нужен",
+      "body": "Пропуск работает, только если слушатель точно знает, что пропущено.\n\nПосле because, when, before, after и while подлежащее и помощника не убирают: We left after we had lunch, а не after had lunch.\n\nЕсли до короткого ответа прозвучали два разных действия, назови нужное: Can you book the room and order lunch? — I can book the room, but not lunch. Ответ I can непонятен: что из двух?\n\nВ инструкции или письме, которое читают отдельно от разговора, тоже повтори действие. Фраза Please do it by Friday if needed понятна, только если читатель помнит, что такое it. Лучше так: Please update your address by Friday if needed."
+    }
+  ],
+  "examples": [
+    {
+      "en": "“Have you read the report?” “Sarah has, but I haven't.”",
+      "ru": "«Ты читал отчёт?» — «Сара прочитала, а я нет».",
+      "why": "Has и haven't подхватывают read the report из вопроса."
+    },
+    {
+      "en": "She called, but I didn't.",
+      "ru": "Она позвонила, а я нет.",
+      "why": "В первой фразе помощника нет, поэтому во второй — did."
+    },
+    {
+      "en": "I didn't want to leave early, but I had to.",
+      "ru": "Я не хотел уходить рано, но пришлось.",
+      "why": "После had to действие убрано, to осталось."
+    },
+    {
+      "en": "“Are you a member?” “Not yet, but I'd like to be.”",
+      "ru": "«Ты участник?» — «Пока нет, но хотел бы им быть».",
+      "why": "Пропущенная часть начинается с be, поэтому be остаётся."
+    },
+    {
+      "en": "The repairs took longer than we expected.",
+      "ru": "Ремонт занял больше времени, чем мы ожидали.",
+      "why": "После than не нужно повторять, что именно ожидали."
+    },
+    {
+      "en": "Call me if necessary.",
+      "ru": "Позвони мне, если нужно.",
+      "why": "Пропущено it is: if it is necessary."
+    },
+    {
+      "en": "“Can you book the room and order lunch?” “I can book the room, but not lunch.”",
+      "ru": "«Сможешь забронировать зал и заказать обед?» — «Зал забронирую, а обед — нет».",
+      "why": "Действий было два, поэтому нужное названо. Просто I can было бы непонятно."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Менеджер спрашивает: “Has everyone finished the safety training?” Ответь: «Майя закончила, а я ещё нет».",
+      "context": "safety training — обучение по технике безопасности.",
+      "guidance": {
+        "title": "Помощник из вопроса",
+        "body": "В вопросе стоит has, значит, и в ответе has. Для «я нет» тот же помощник с n't, а само действие не повторяй.",
+        "example": "Leo has paid, but his brother hasn't.",
+        "translation": "Лео заплатил, а его брат нет."
+      },
+      "hint": "Начни так: Maya has, but …",
+      "answers": [
+        "Maya has, but I haven't yet.",
+        "Maya has, but I haven't.",
+        "Maya has finished, but I haven't yet.",
+        "Maya has finished, but I haven't.",
+        "Maya's finished, but I haven't yet.",
+        "Maya has, but I have not yet."
+      ],
+      "explanation": "Has и haven't подхватывают finished the training. But I not — ошибка: без помощника нет ни времени, ни «нет»."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Начальница спрашивает: “Did everyone sign the form?” Ответь: «Тим подписал, а Лена нет».",
+      "context": "sign — подписать.",
+      "guidance": {
+        "title": "Нет помощника — did",
+        "body": "Если первая часть — обычный глагол в прошедшем, во второй части нужен did или didn't.",
+        "example": "Ana liked the movie, but I didn't.",
+        "translation": "Ане фильм понравился, а мне нет."
+      },
+      "hint": "Какой помощник в вопросе Did everyone…?",
+      "answers": [
+        "Tim did, but Lena didn't.",
+        "Tim signed it, but Lena didn't.",
+        "Tim signed the form, but Lena didn't.",
+        "Tim did, but Lena did not.",
+        "Tim signed it, but Lena did not."
+      ],
+      "explanation": "Did и didn't заменяют sign the form. Lena not — ошибка, Lena hasn't — другое время."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг удивляется, что ты был в офисе в субботу. Объясни: «Я не хотел работать в субботу, но пришлось».",
+      "context": "",
+      "guidance": {
+        "title": "После to — действие уходит, to остаётся",
+        "body": "Have to, want to, need to: второй раз глагол не повторяй, а to оставь.",
+        "example": "She didn't plan to stay late, but she needed to.",
+        "translation": "Она не собиралась задерживаться, но пришлось."
+      },
+      "hint": "Начни так: I didn't want to work on Saturday, but I …",
+      "answers": [
+        "I didn't want to work on Saturday, but I had to.",
+        "I did not want to work on Saturday, but I had to.",
+        "I didn't want to work on Saturday, but I needed to.",
+        "I didn't want to work on a Saturday, but I had to.",
+        "I didn't want to work Saturday, but I had to."
+      ],
+      "explanation": "Had to заменяет had to work on Saturday. Без to (but I had) ответ оборван. Needed to тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг собирается снимать квартиру рядом с тобой и спрашивает: “Is your neighborhood quiet?” Ответь: «Сейчас не очень, но раньше был».",
+      "context": "",
+      "guidance": {
+        "title": "Если пропущено be, be остаётся",
+        "body": "Quiet — это is quiet. После used to или will убираешь quiet, но be оставляешь.",
+        "example": "“Are you busy?” “Not yet, but I will be soon.”",
+        "translation": "«Ты занят?» — «Пока нет, но скоро буду»."
+      },
+      "hint": "Начни так: Not really, but it used to …",
+      "answers": [
+        "Not really, but it used to be.",
+        "Not now, but it used to be.",
+        "Not really now, but it used to be.",
+        "Not anymore, but it used to be.",
+        "It isn't now, but it used to be.",
+        "It's not really quiet now, but it used to be."
+      ],
+      "explanation": "Used to be заменяет used to be quiet. It used to — ошибка: после to пропало be, а оно нужно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь хозяину квартиры о ремонте в ванной. Переведи: «Ремонт занял больше времени, чем мы ожидали, и стоил больше, чем в прошлом году».",
+      "context": "repairs — ремонт; landlord — хозяин квартиры.",
+      "guidance": {
+        "title": "После than — без повтора",
+        "body": "После than оставляй только то, что новое: кто ожидал или когда было.",
+        "example": "The trip was shorter than we planned and cheaper than last time.",
+        "translation": "Поездка была короче, чем мы планировали, и дешевле, чем в прошлый раз."
+      },
+      "hint": "Что после первого than — кто ожидал? А после второго — когда?",
+      "answers": [
+        "The repairs took longer than we expected and cost more than last year.",
+        "The repairs took longer than we expected, and they cost more than last year.",
+        "The repairs took longer than we expected and cost more than they did last year.",
+        "The repair took longer than we expected and cost more than last year.",
+        "The repairs took more time than we expected and cost more than last year."
+      ],
+      "explanation": "Than we expected не требует повтора того, что ожидали. Than last year — то же. Than they did last year тоже верно, но длиннее."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Подруга просит проверить сообщение о поездке: “I haven't booked the hotel, but Ana did. I wanted to visit the museum, but I couldn't visit the museum. We left after had lunch.” Исправь все три фразы.",
+      "context": "",
+      "guidance": {
+        "title": "Три разные ошибки",
+        "body": "В первой фразе помощник не совпадает с первой частью. Во второй лишний повтор. В третьей пропущено то, что после after убирать нельзя.",
+        "example": "I haven't called him, but Sam has. We went home after we ate.",
+        "translation": "Я ему не звонила, а Сэм звонил. Мы пошли домой после того, как поели."
+      },
+      "hint": "Haven't booked — какой помощник тогда нужен для Ana? Что в третьей фразе стоит после after?",
+      "answers": [
+        "I haven't booked the hotel, but Ana has. I wanted to visit the museum, but I couldn't. We left after we had lunch.",
+        "I haven't booked the hotel, but Ana has. I wanted to visit the museum, but I couldn't. We left after lunch.",
+        "I haven't booked the hotel, but Ana has. I wanted to visit the museum, but I couldn't. We left after we'd had lunch.",
+        "I haven't booked the hotel, but Ana has. I wanted to go to the museum, but I couldn't. We left after we had lunch."
+      ],
+      "explanation": "Haven't booked → Ana has, а не did. Второе visit the museum лишнее: хватит couldn't. После after нужны we had — или просто after lunch."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «я тоже» и хвостики. Друг пишет: “I've never been to Chicago.” Ответь: «Я тоже. Но Мария была, да?»",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: Neither have I и хвостик",
+        "body": "Вспоминаем урок о «я тоже»: never делает фразу отрицательной, поэтому Neither have I. Потом короткое «а Мария была» и хвостик из урока о хвостиках — с тем же помощником.",
+        "example": "“I've never tried sushi.” “Neither have I. But your sister has, hasn't she?”",
+        "translation": "«Я никогда не пробовал суши». — «Я тоже. Но твоя сестра пробовала, да?»"
+      },
+      "hint": "Начни так: Neither have I. But Maria …",
+      "answers": [
+        "Neither have I. But Maria has, hasn't she?",
+        "Me neither. But Maria has, hasn't she?",
+        "Neither have I. But Maria has, right?",
+        "I haven't either. But Maria has, hasn't she?",
+        "Me neither. But Maria has, right?",
+        "Nor have I. But Maria has, hasn't she?"
+      ],
+      "explanation": "Neither have I, Me neither и I haven't either значат одно и то же. Maria has подхватывает been to Chicago; хвостик hasn't she берёт тот же помощник. Right? тоже звучит естественно."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты с двумя соседями по квартире (Jake и Mia) съезжаешь 31 мая. Напиши им сообщение на 150–250 слов: что уже сделано, что нет и кто что берёт. Что должно быть: две фразы вида «я сделал, а он нет» с помощником; одна с did или didn't; одна, которая кончается на to (I had to, I'd like to, I need to); if possible или if necessary; одно сравнение с than; одно место, где ты нарочно повторяешь действие, потому что дел было два.",
+      "context": "move out — съехать; cancel — отменить, отключить; landlord — хозяин квартиры; moving truck — грузовик для переезда.",
+      "hint": "Начни так: Hi guys, quick update on the move. I've…, but…",
+      "answers": [
+        "Hi guys,\n\nQuick update on the move. We have to be out by May 31, so here's where we are.\n\nI've canceled the internet, but Jake hasn't canceled the electricity yet. Jake, can you do it this week? Mia has packed the kitchen, and I have too, so the boxes by the door are ready.\n\nThe landlord wants to check the apartment on May 30. I didn't want to schedule it so early, but I had to: he's away after that. If possible, let's clean everything on May 29.\n\nMia, you asked if I can clean the bathroom and the oven. I can clean the oven, but I can't clean the bathroom, because I work late that day. Can you?\n\nThe moving truck is more expensive than we planned: $180, not $120. I can pay more than half if necessary.\n\nOne more thing: did everyone return their extra keys? I did, but I'm not sure Jake did.\n\nThanks!\nSam"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: две фразы с помощником после but или and, одна с did / didn't, одна с to в конце, if possible или if necessary, сравнение с than и одно намеренное повторение при двух делах. Нет оборванных форм вроде but I not."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты записываешь голосовое для разговорного клуба: ответь на шесть вопросов о себе, 2–3 минуты. Вопросы: Will you study English tonight? Have you ever been to the US? Can you cook well? Are you going to travel this year? Did you sleep well last night? Would you like to live in another country? Что должно быть: каждый ответ начинается с короткой формы с помощником (I will, I haven't, I can't, I am, I did, I'd love to…); после неё 1–3 фразы о причине или подробностях; хотя бы раз but I'd like to или but I need to; одно сравнение с than. Ответы могут быть придуманными.",
+      "context": "",
+      "hint": "Начни так: Will I study tonight? I will. …",
+      "answers": [
+        "Will I study English tonight? I will. I usually study after dinner, about thirty minutes, and tonight I want to review new words.\n\nHave I ever been to the US? I haven't, but I'd like to. I'd start with Chicago, because a friend of mine lives there.\n\nCan I cook well? Not really, but my wife can. She cooks much better than I do. I can make pasta and eggs, and that's about it.\n\nAm I going to travel this year? I am. We're going to the coast in August. It's a short trip, but we need it.\n\nDid I sleep well last night? I didn't, actually. The neighbors had a party, and it went on later than I expected.\n\nWould I like to live in another country? I'd love to, at least for a year. I think it's the fastest way to learn a language. My job doesn't allow it right now, but maybe later."
+      ],
+      "explanation": "Засчитывается, если ответ звучит 2–3 минуты, каждый из шести ответов начинается с короткой формы с нужным помощником, есть but I'd like to / need to и сравнение с than. Расшифровка покажет слова; послушай себя: короткое I did или I am в ответе произносят полностью и с ударением."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега просит сократить письмо команде: в нём слишком много повторов. Что известно: Том может проверить только слайды, бюджет — нет. Черновик: “Hi team, I have sent the invoice to the client, but Mark has not sent the invoice to the client yet. Lisa wanted to join the call, but Lisa couldn't join the call. If it is possible, please review the slides and the budget before Friday. Tom can. The project took longer than we expected that the project would take. Thanks!” Убери лишние повторы, но в одном месте добавь то, чего не хватает.",
+      "context": "invoice — счёт; review — проверить.",
+      "hint": "Tom can — что именно? Из двух дел читатель не угадает.",
+      "answers": [
+        "Hi team, I've sent the invoice to the client, but Mark hasn't yet. Lisa wanted to join the call, but she couldn't. If possible, please review the slides and the budget before Friday. Tom can review the slides, but not the budget. The project took longer than we expected. Thanks!",
+        "Hi team, I've sent the invoice to the client, but Mark hasn't yet. Lisa wanted to join the call, but she couldn't. If possible, please review the slides and the budget before Friday. Tom can review the slides, but he can't review the budget. The project took longer than we expected. Thanks!",
+        "Hi team, I have sent the invoice to the client, but Mark has not yet. Lisa wanted to join the call but couldn't. Please review the slides and the budget before Friday if possible. Tom can review the slides, but not the budget. The project took longer than expected. Thanks!"
+      ],
+      "explanation": "Засчитывается, если убраны повторы после hasn't и couldn't, if it is possible стало if possible, сравнение сократилось до than we expected, а Tom can дополнено: review the slides, but not the budget. Ни один факт не потерян."
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "path-used-to-be-used-to",
+  "title": "Used to, be used to, get used to: раньше, привык, привыкаю",
+  "subtitle": "Раньше было → уже привык → привыкаю → «бывало» с would",
+  "level": "B1",
+  "group": "Времена",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Сказать, что раньше было иначе, к чему ты уже привык и к чему ещё привыкаешь: «Раньше я жил в Майами, но к холоду уже привык».",
+  "formula": "I used to live in Miami. → I'm used to the cold. → I'm getting used to driving in snow. → We would swim every morning.",
+  "keyRule": {
+    "rule": "Раньше было, теперь нет — used to + глагол. Уже привык — am used to + -ing.",
+    "example": "I used to work nights — раньше я работал по ночам. I'm used to working nights — я привык работать по ночам.",
+    "check": "После am used to — вещь или -ing: I'm used to it. I'm used to work — ошибка."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-past-habits",
+    "path-gerund-infinitive"
+  ],
+  "recycles": [
+    "path-past-habits",
+    "path-present-perfect-continuous"
+  ],
+  "teaches": [
+    "be used to + вещь или -ing — «привык», это о сейчас: I'm used to the cold, I'm used to getting up early",
+    "to в be used to значит «к», поэтому после него -ing, а не обычный глагол: I'm used to working (не used to work)",
+    "отрицание и вопрос через be: I'm not used to…, Are you used to…?, I wasn't used to… at first",
+    "get used to — процесс привыкания: I'm getting used to…, You'll get used to it, I got used to it, I can't get used to…",
+    "would + глагол — «бывало», только о повторяющихся действиях: She would make pancakes every Sunday",
+    "состояние (have, live, like) — только used to или past simple: I used to have a dog (не would have)",
+    "различить на слух: am / is / get перед used и -ing после to — «привык»",
+    "слова: at first, still, commute, altitude, headache, hike"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Different uses of 'used to'",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/different-uses-of-used-to",
+      "notes": "Сверены три значения: used to + глагол — прошлое, которого больше нет; be used to — уже знакомо и привычно; get used to — процесс привыкания. После be used to и get used to — существительное, местоимение или -ing; обе конструкции бывают в любом времени."
+    },
+    {
+      "title": "British Council LearnEnglish · Past habits: 'used to', 'would' and the past simple",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/past-habits-used-to-would-past-simple",
+      "notes": "Проверено: would — только для повторяющихся действий в прошлом, не для состояний; часто звучит в рассказах; отрицание и вопрос с таким would обычно не используют. Одно событие — только past simple."
+    },
+    {
+      "title": "Skyeng · Конструкции used to, get used to и be used to",
+      "url": "https://skyeng.ru/articles/used-to/",
+      "notes": "Объяснение для русскоговорящих: be used to — то, что уже привычно сейчас, get used to — привыкание, которое ещё идёт; после обеих — -ing или существительное. Сверены схемы отрицания и вопроса."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Used to: четыре разных смысла",
+    "why": "Слова почти одинаковые. Смысл меняют am или get перед used и форма глагола после to.",
+    "items": [
+      {
+        "label": "Раньше, теперь нет",
+        "en": "I used to work nights.",
+        "ru": "Раньше я работал по ночам.",
+        "note": "Used to + обычный глагол."
+      },
+      {
+        "label": "Раньше бывало",
+        "en": "We would stay up until two.",
+        "ru": "Мы, бывало, сидели до двух ночи.",
+        "note": "Would — только для действия, которое повторялось."
+      },
+      {
+        "label": "Уже привык",
+        "en": "I'm used to working nights.",
+        "ru": "Я привык работать по ночам.",
+        "note": "Am + used to + -ing. Это о сейчас."
+      },
+      {
+        "label": "Привыкаю",
+        "en": "I'm getting used to working days.",
+        "ru": "Я привыкаю работать днём.",
+        "note": "Get used to — процесс ещё идёт."
+      }
+    ],
+    "focus": [
+      "used to work",
+      "would stay",
+      "I'm used to working",
+      "getting used to"
+    ]
+  },
+  "sections": [
+    {
+      "title": "«Раньше» и «привык» — две разные мысли",
+      "body": "Ты переехал из Майами в Чикаго. Друг спрашивает: «Как тебе зима?» Ты отвечаешь: «Раньше я жил там, где тепло. Но к холоду я уже привык».\n\n«Раньше жил» ты уже знаешь: I used to live in Miami — так было, теперь нет. «Привык» — новая мысль: I'm used to the cold now — я уже привык к холоду. Это не о прошлом, а о том, как тебе сейчас: холод стал обычным делом.\n\nСлова похожи, но смысл разный. Used to + глагол — «раньше». Am, is, are + used to — «привык». Русское «привык» по форме прошедшее, но говорит о сейчас. Поэтому в английском здесь настоящее время: I'm used to."
+    },
+    {
+      "title": "Как собрать be used to: после to — вещь или -ing",
+      "body": "Be used to — это am, is или are + used to. Дальше идёт вещь или занятие с -ing. I'm used to the noise — я привык к шуму. I'm used to getting up early — я привык рано вставать.\n\nTo здесь не такое, как в want to go. Оно значит «к»: привык к чему. Поэтому обычный глагол после него не ставят: I'm used to get up — ошибка.\n\nОтрицание и вопрос — как с любым be. I'm not used to driving in snow — я не привык ездить по снегу. Are you used to it? — ты привык? О прошлом — was или were: At first, I wasn't used to the noise — сначала шум был мне непривычен. At first — сначала."
+    },
+    {
+      "title": "Get used to: привыкаю, привыкну",
+      "body": "Be used to — уже привык. Get used to — процесс: ты только привыкаешь. Get здесь — обычный глагол, и он меняется по временам, как всегда.\n\nI'm getting used to my new job — я привыкаю к новой работе. You'll get used to it — ты привыкнешь. I got used to it quickly — я быстро привык. I can't get used to the time difference — не могу привыкнуть к разнице во времени.\n\nПосле get used to — тоже вещь или -ing: I'm getting used to working from home — я привыкаю работать из дома."
+    },
+    {
+      "title": "Would: «бывало» о том, что повторялось",
+      "body": "В рассказе о детстве первую фразу часто строят с used to, а дальше переходят на would. When I was a kid, we used to spend summers at the lake. We would swim every morning — мы, бывало, плавали каждое утро. Would здесь не «бы»: из рассказа ясно, что речь о прошлом. В разговоре — 'd: we'd swim.\n\nWould подходит только для действий, которые повторялись: плавали, пекли, играли. Для состояния — где жил, что было, что нравилось — только used to или past simple: I used to have a dog. I would have a dog — ошибка. Отрицание и вопрос с таким would почти не используют: для них есть didn't use to и Did you use to…?"
+    },
+    {
+      "title": "Как не перепутать на слух и на письме",
+      "body": "Во всех трёх used to звучит одинаково, примерно [юстэ]. Различить помогают соседние слова. Перед used стоит am, is, was или get — значит «привык». После to идёт -ing или вещь — тоже «привык». Перед used ничего нет, а после to обычный глагол — «раньше».\n\nСравни три фразы. I used to work nights — раньше я работал по ночам. I'm used to working nights — я привык работать по ночам. I'm getting used to working nights — я привыкаю работать по ночам. Частые ошибки — смешать схемы: I'm used to work (нужно working) и I used to working (нужно work)."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I used to live in Miami, so I'm not used to snow.",
+      "ru": "Раньше я жил в Майами, поэтому к снегу не привык.",
+      "why": "Used to live — прежняя жизнь. I'm not used to snow — как мне сейчас."
+    },
+    {
+      "en": "She's used to working late.",
+      "ru": "Она привыкла работать допоздна.",
+      "why": "После be used to — занятие с -ing: working, а не work."
+    },
+    {
+      "en": "Don't worry, you'll get used to it.",
+      "ru": "Не волнуйся, ты привыкнешь.",
+      "why": "Get used to с will — привыкание ещё впереди."
+    },
+    {
+      "en": "I'm still getting used to driving on the highway.",
+      "ru": "Я всё ещё привыкаю ездить по шоссе.",
+      "why": "Am getting used to — процесс идёт сейчас. Still — всё ещё."
+    },
+    {
+      "en": "On Sundays, my grandpa would make pancakes for everyone.",
+      "ru": "По воскресеньям дедушка, бывало, пёк блины на всех.",
+      "why": "Would — действие повторялось каждое воскресенье. Это не «бы»."
+    },
+    {
+      "en": "We used to have a cat named Pepper.",
+      "ru": "Раньше у нас была кошка по имени Пеппер.",
+      "why": "Have здесь — состояние, поэтому used to, а не would."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты переехал из Флориды в Миннесоту. Друг из Флориды пишет: Isn't it too cold for you? Ответь: «Сначала было тяжело, но теперь я привык к холоду». at first = сначала, hard = тяжело.",
+      "context": "",
+      "guidance": {
+        "title": "Привык к чему-то: am used to + вещь",
+        "body": "«Привык» — это о том, как тебе сейчас, поэтому нужен am. После used to сразу назови то, к чему привык: the cold, the noise, it.",
+        "example": "She's used to the noise now.",
+        "translation": "Теперь она привыкла к шуму."
+      },
+      "hint": "Вторая часть: …but now I’m used to … Не забудь the перед cold.",
+      "answers": [
+        "It was hard at first, but now I'm used to the cold.",
+        "It was hard at first, but now I am used to the cold.",
+        "It was hard at first, but I'm used to the cold now.",
+        "At first it was hard, but now I'm used to the cold.",
+        "At first, it was hard, but now I'm used to the cold.",
+        "It was hard at first, but now I'm used to the cold weather."
+      ],
+      "explanation": "I’m used to the cold — холод теперь для тебя обычное дело. Без am (I used to the cold) смысл ломается: used to без am — это «раньше». Now можно поставить и в конец."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Твоя новая смена начинается в шесть утра. Коллега спрашивает, как ты. Скажи: «Я не привык вставать так рано». get up = вставать, so early = так рано.",
+      "context": "",
+      "guidance": {
+        "title": "Привык делать: used to + -ing",
+        "body": "Если привык не к вещи, а к занятию, после to ставь глагол с -ing. Обычная форма (get up) здесь не подходит: to значит «к».",
+        "example": "He isn't used to working at night.",
+        "translation": "Он не привык работать по ночам."
+      },
+      "hint": "Начни так: I’m not used to … Какое окончание у get после to?",
+      "answers": [
+        "I'm not used to getting up so early.",
+        "I am not used to getting up so early.",
+        "I'm not used to getting up this early.",
+        "I'm not used to waking up so early.",
+        "I'm not used to waking up this early."
+      ],
+      "explanation": "Getting up — занятие, к которому ты не привык, поэтому -ing. I’m not used to get up — частая ошибка: to здесь не часть глагола. Waking up и this early тоже подходят."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг удивляется, что ты в час ночи ещё не спишь. Объясни: «Раньше я работал по ночам, так что я привык поздно ложиться». work nights = работать по ночам, go to bed late = поздно ложиться.",
+      "context": "",
+      "guidance": {
+        "title": "«Раньше» и «привык» в одной фразе",
+        "body": "В первой части — то, чего больше нет: used to + обычный глагол. Во второй — как тебе сейчас: am used to + -ing. Проверь глагол после каждого to.",
+        "example": "She used to live in Alaska, so she's used to long winters.",
+        "translation": "Раньше она жила на Аляске, поэтому привыкла к долгим зимам."
+      },
+      "hint": "Первая часть начинается с I used to …, вторая — с so I’m used to …",
+      "answers": [
+        "I used to work nights, so I'm used to going to bed late.",
+        "I used to work nights, so I am used to going to bed late.",
+        "I used to work at night, so I'm used to going to bed late.",
+        "I used to work the night shift, so I'm used to going to bed late.",
+        "I used to work nights, so I'm used to going to sleep late."
+      ],
+      "explanation": "Used to work — раньше работал, теперь нет: после to обычный глагол. I’m used to going — привык сейчас: после to -ing. Если поменять формы местами, получатся две ошибки."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты недавно переехал в новую квартиру в Чикаго. Друг спрашивает, как тебе там. Ответь: «Пока непросто, но я привыкаю. Думаю, через месяц я привыкну». not easy yet = пока непросто, in a month = через месяц.",
+      "context": "",
+      "guidance": {
+        "title": "Привыкаю, привыкну: get used to",
+        "body": "Get used to — процесс привыкания. Get меняется как обычный глагол: I’m getting used to — привыкаю сейчас, I’ll get used to — привыкну, I got used to — привык когда-то.",
+        "example": "My son is getting used to his new school.",
+        "translation": "Сын привыкает к новой школе."
+      },
+      "hint": "Сейчас процесс идёт — am getting used to it. Привыкнешь потом — will get used to it.",
+      "answers": [
+        "It's not easy yet, but I'm getting used to it. I think I'll get used to it in a month.",
+        "It isn't easy yet, but I'm getting used to it. I think I'll get used to it in a month.",
+        "It's not easy yet, but I am getting used to it. I think I will get used to it in a month.",
+        "It's not easy yet, but I'm getting used to it. I think I'll be used to it in a month.",
+        "It's not easy yet, but I'm getting used to it. I think I'll get used to it in a month or so."
+      ],
+      "explanation": "I’m getting used to it — привыкание идёт прямо сейчас. I’ll get used to it — результат впереди. I’ll be used to it in a month тоже верно: «через месяц буду привычен». It в конце обязательно: привыкаешь к чему-то."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга из Техаса спрашивает о твоём детстве. Расскажи: «Каждое лето мы ездили к бабушке. По утрам она, бывало, готовила нам блины». visit grandma = ездить к бабушке, make pancakes = готовить блины, in the mornings = по утрам.",
+      "context": "",
+      "guidance": {
+        "title": "Бывало: would + глагол",
+        "body": "Начни рассказ с used to. Дальше о том же времени можно говорить через would — «бывало». Это только для действий, которые повторялись.",
+        "example": "My dad used to take us fishing. We would get up at five.",
+        "translation": "Папа раньше брал нас на рыбалку. Мы, бывало, вставали в пять."
+      },
+      "hint": "Первая фраза — с used to, вторая — с would или she’d.",
+      "answers": [
+        "Every summer, we used to visit our grandma. In the mornings, she would make pancakes for us.",
+        "We used to visit our grandma every summer. In the mornings, she would make us pancakes.",
+        "We used to visit our grandma every summer. She would make pancakes for us in the mornings.",
+        "We used to visit our grandmother every summer. In the mornings, she'd make us pancakes.",
+        "Every summer, we used to visit Grandma. In the mornings, she would make pancakes for us.",
+        "We used to visit our grandma every summer. She'd make us pancakes in the mornings."
+      ],
+      "explanation": "Used to visit задаёт картину прошлого, would make — то, что повторялось каждое утро. Во второй фразе можно и used to make, и просто made: смысл тот же."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет пост о себе и просит проверить. В нём две ошибки. Исправь их и перепиши текст целиком: When I was a kid, I would have a big dog named Max. He would sleep on my bed every night. Now I live alone in a small apartment, and I'm used to live without a dog.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь would и форму после to",
+        "body": "Про каждый would спроси: это действие, которое повторялось, или состояние? Про каждый used to: «раньше» это или «привык»?",
+        "example": "I used to have a bike. I would ride it to school every day.",
+        "translation": "Раньше у меня был велосипед. Я, бывало, каждый день ездил на нём в школу."
+      },
+      "hint": "Have — это действие или состояние? И какая форма нужна после I’m used to?",
+      "answers": [
+        "When I was a kid, I used to have a big dog named Max. He would sleep on my bed every night. Now I live alone in a small apartment, and I'm used to living without a dog.",
+        "When I was a kid, I had a big dog named Max. He would sleep on my bed every night. Now I live alone in a small apartment, and I'm used to living without a dog.",
+        "When I was a kid, I used to have a big dog named Max. He used to sleep on my bed every night. Now I live alone in a small apartment, and I'm used to living without a dog."
+      ],
+      "explanation": "Have a dog — состояние, поэтому used to have или had, а не would have. I’m used to living — после be used to нужен -ing. He would sleep верно: так было каждую ночь."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем вопросы с used to и «уже три месяца». Коллега спрашивает: Did you use to live in a big city? Ответь: «Нет. Раньше я жил в маленьком городке. Я живу здесь уже три месяца, но всё ещё не привык к шуму». small town = маленький город, still = всё ещё.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: Did you use to…? и have been + -ing",
+        "body": "На Did you use to…? коротко отвечают No, I didn’t. «Живу уже три месяца» — have been + -ing и for, как в уроке о длительности. Still ставь после I’m.",
+        "example": "Yes, I did. I've been driving here for a year, but I'm still not used to the traffic.",
+        "translation": "Да. Я вожу здесь уже год, но всё ещё не привык к пробкам."
+      },
+      "hint": "Три фразы: No, I didn’t. → I used to live … → I’ve been living here for …, but I’m still not …",
+      "answers": [
+        "No, I didn't. I used to live in a small town. I've been living here for three months, but I'm still not used to the noise.",
+        "No, I did not. I used to live in a small town. I have been living here for three months, but I am still not used to the noise.",
+        "No. I used to live in a small town. I've been living here for three months, but I'm still not used to the noise.",
+        "No, I didn't. I used to live in a small town. I've lived here for three months, but I'm still not used to the noise.",
+        "No, I didn't. I used to live in a small town. I've been living here for three months, and I'm still not used to the noise."
+      ],
+      "explanation": "No, I didn’t — короткий ответ на Did you use to…? I’ve been living here for three months — живёшь до сих пор; I’ve lived тоже верно. I’m still not used to — привычки пока нет."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твой американский друг Райан спрашивает: How's life after the move? Напиши ему сообщение на 60–120 слов о переезде или новой работе (можно придумать). В нём должно быть: 1) как ты жил раньше — used to; 2) одно воспоминание о том, что вы обычно делали, — would; 3) к чему ты уже привык — I’m used to…; 4) к чему ещё привыкаешь или не можешь привыкнуть — I’m getting used to… / I can’t get used to…; 5) вопрос Райану.",
+      "context": "Слова: commute — дорога на работу, neighborhood — район, roommate — сосед по квартире, miss — скучать по, dry — сухой.",
+      "hint": "План: I used to … → On Saturdays, we would … → Now I’m used to … → But I’m still getting used to … → What about you?",
+      "answers": [
+        "Hi Ryan,\n\nLife after the move is good, but different. I used to live in a small town near the ocean, and I used to walk everywhere. On Saturdays, my friends and I would go to the beach and stay there until dark. Now I live in Denver. I'm used to the cold mornings, and I'm used to taking the bus to work. But I'm still getting used to the altitude, and I can't get used to the dry air. I really miss the ocean. What about you? Are you used to your new job yet?\n\nTalk soon,\nAlex"
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов: used to + обычный глагол, would для повторяющегося действия, be used to + вещь или -ing, get used to и вопрос Райану. Город и подробности — любые."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый коллега в Бостоне спрашивает на перерыве: So, are you used to working here yet? Ответь вслух за 30–60 секунд: 1) где или как ты работал раньше — used to; 2) к чему здесь уже привык; 3) к чему ещё привыкаешь; 4) спроси коллегу: What was hard to get used to when you started?",
+      "context": "Слова: open office — общий зал без перегородок, schedule — график, coworkers — коллеги, commute — дорога на работу, loud — шумный.",
+      "hint": "Начни так: Almost. I used to … Потом: Now I’m used to … But I’m still getting used to …",
+      "answers": [
+        "Almost. I used to work from home, so I used to start at nine in my pajamas. Now I'm used to the commute, and I'm used to having lunch with coworkers. But I'm still getting used to the open office. It's pretty loud, and I can't get used to the noise yet. What about you? What was hard to get used to when you started?"
+      ],
+      "explanation": "Засчитывается, если прозвучали used to о прошлом, be used to о том, что уже привычно, get used to о том, что ещё непривычно, и вопрос коллеге. Работа и подробности — твои собственные."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Подруга пишет пост для блога о переезде в Денвер и просит проверить. В тексте три ошибки. Исправь и перепиши текст целиком: I moved to Denver last year. At first, I wasn't used to the altitude, and I would get headaches every afternoon. I used to living near the ocean, so the dry air was hard for me. Back in Florida, I would have a small boat. Now I'm used to hike in the mountains on weekends, and I'm getting used to the snow.",
+      "context": "Слова: altitude — высота над уровнем моря, headache — головная боль, hike — ходить в походы, back in Florida — ещё во Флориде.",
+      "hint": "Про каждый used to спроси: «раньше» это или «привыкла»? Про каждый would — повторялось ли действие?",
+      "answers": [
+        "I moved to Denver last year. At first, I wasn't used to the altitude, and I would get headaches every afternoon. I used to live near the ocean, so the dry air was hard for me. Back in Florida, I used to have a small boat. Now I'm used to hiking in the mountains on weekends, and I'm getting used to the snow.",
+        "I moved to Denver last year. At first, I wasn't used to the altitude, and I would get headaches every afternoon. I used to live near the ocean, so the dry air was hard for me. Back in Florida, I had a small boat. Now I'm used to hiking in the mountains on weekends, and I'm getting used to the snow."
+      ],
+      "explanation": "Засчитывается, если исправлены три места: used to live (раньше жила — обычный глагол), used to have или had (лодка — состояние, would не подходит), I’m used to hiking (после be used to — -ing). Would get headaches верно: головная боль повторялась каждый день."
+    }
+  ]
+}

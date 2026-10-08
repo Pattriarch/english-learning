@@ -1,0 +1,275 @@
+{
+  "id": "path-longform-reading",
+  "title": "Длинная статья: что делает каждый абзац и где позиция автора",
+  "subtitle": "Сначала скелет, потом детали → у каждого абзаца своя работа → чей это голос → позиция вместе с её условием → пересказ",
+  "level": "C1",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Прочитать длинную колонку в газете и не потерять ход мысли: записать, что делает каждый абзац («Paragraph 4 presents the critics' view…»), не приписать автору чужое мнение и пересказать её позицию вместе с условием: «She still supports free fares, but only if…».",
+  "formula": "предпросмотр: заголовок → начало → конец → первые фразы абзацев · Paragraph N + introduces / supports / presents the critics' view / concedes / qualifies / recommends · Critics argue… ≠ the author · позиция + условие · The article does not say…",
+  "keyRule": {
+    "rule": "Пересказывая автора, назови его вывод вместе с условием — и не приписывай ему слова критиков.",
+    "example": "She still supports free fares, but only if frequent service is protected. — Она по-прежнему за бесплатный проезд, но только если сохранят частые рейсы.",
+    "check": "Это говорит автор или тот, кого он цитирует?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-reading-inference",
+    "path-critical-reading",
+    "path-discourse-markers"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-discourse-markers"
+  ],
+  "teaches": [
+    "предпросмотр: заголовок, первые два абзаца, последний абзац и первые фразы абзацев — до чтения целиком",
+    "карта абзацев: Paragraph N + глагол работы + о чём (introduces, states, supports, presents the critics' view, concedes, qualifies, recommends)",
+    "чей голос: Critics argue / Some claim / According to … — не мнение автора; ищи ответ автора после",
+    "claim — источник держит дистанцию, admit / acknowledge — уступка",
+    "позиция автора вместе с условием: worth trying, but not enough · only if …; позиция может измениться по ходу статьи",
+    "проверка пересказа: не приписал ли мнение критиков, не усилил ли may до will, не выбросил ли условие",
+    "своё наблюдение отдельно от текста: The article does not say … / The author doesn't explain …",
+    "слова: fare, ridership, route, frequency, rider survey, budget"
+  ],
+  "sources": [
+    {
+      "title": "Harvard Library · Interrogating Texts: 6 Reading Habits to Develop in Your First Year at Harvard",
+      "url": "https://guides.library.harvard.edu/sixreadinghabits",
+      "notes": "Сверено: до чтения — предпросмотр (заголовок, вступление, устройство текста); план показывает «скелет» аргумента — тезис, пункты, доказательства, вывод; пересказ своими словами делает связи между мыслями явными; при разборе спрашивают, что автор утверждает, какие доказательства даёт и где рассуждение слабеет. Отсюда шаги «сначала скелет» и «Paragraph N + работа»."
+    },
+    {
+      "title": "UNC Learning Center · Reading to Write",
+      "url": "https://learningcenter.unc.edu/tips-and-tools/reading-to-write/",
+      "notes": "Сверено: при чтении рисовать схему связей между главными вопросами и менять её, когда понимание меняется; читать по разделам; замечать, что текст оставляет в стороне. Отсюда карта абзацев, проверка по разделам и пункт «чего в статье нет»."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Зачем карта, если понятно каждое предложение",
+      "body": "Перед голосованием в городе соседка просит: «Ты читал колонку про бесплатные автобусы? Она за или против?» В колонке восемь абзацев. Каждое предложение тебе понятно, но ответить одним словом не получается. Автор то хвалит, то цитирует критиков, то с ними соглашается.\n\nТак бывает с любым длинным текстом. Можно понять все фразы и потерять ход мысли. Можно переводить слово за словом и к концу забыть начало.\n\nЧасть инструментов ты знаешь. Из урока о выводах при чтении: что сказано, что следует, чего нет. Из урока о критическом чтении: вывод и доказательство. Из урока о связках: admittedly, even so, by contrast показывают повороты.\n\nНовое здесь — карта абзацев. Для каждого абзаца записываешь не перевод, а его работу: вводит тему, подкрепляет цифрами, приводит мнение критиков, признаёт слабое место, ограничивает вывод.\n\nНачинай с предпросмотра, до чтения целиком. Прочитай заголовок, первые два абзаца, последний абзац и первую фразу каждого абзаца. Так ты увидишь вопрос и примерный ответ автора. Потом читай всё и проверяй, держится ли этот скелет.\n\nПредел: предпросмотр даёт догадку, а не вывод. Иногда главный поворот спрятан в середине."
+    },
+    {
+      "title": "Один абзац — одна работа",
+      "body": "Строчка карты — это номер абзаца, глагол работы и о чём он. Полезные глаголы: introduces — вводит тему или фон; states — заявляет главный тезис; supports — подкрепляет цифрами или примером. Presents the critics' view — приводит мнение критиков; concedes — признаёт слабое место; qualifies — ограничивает вывод; recommends — предлагает решение.\n\nОдной метки мало. «Paragraph 3: evidence» ничего не говорит. Нужно так: Paragraph 3 supports the case for free fares with ride numbers and one rider's story.\n\nПовороты часто видны по связкам. Admittedly — сейчас будет уступка. Even so — главный тезис устоял. None of this means — автор закрывает вывод, к которому ты мог бы прыгнуть. Отметь эти слова на полях: это границы частей."
+    },
+    {
+      "title": "Чей это голос: автора или того, кого он приводит",
+      "body": "В колонке говорят несколько голосов. Critics argue…, Some go further and claim…, According to the transit agency… — это не мнение автора. Это то, что сказали другие. Смотри, что автор делает с этим дальше: соглашается, частично соглашается или спорит.\n\nГлагол подсказывает, как автор относится к чужим словам. Claim — источник держит дистанцию: «утверждают, а правда ли это — посмотрим». Argue — нейтрально: «приводят довод». Admit и acknowledge — уступка: «признаю».\n\nДве типичные ошибки. Первая: приписать автору мнение критиков, потому что оно стоит в тексте. Вторая: решить, что раз автор привёл чужое мнение, то он с ним согласен. Упомянуть мнение — ещё не принять его."
+    },
+    {
+      "title": "Позиция автора — вместе с её условием",
+      "body": "Сильные авторы редко бывают просто «за» или «против». Позиция часто звучит так: free fares were worth trying, but they are not enough. Или с условием: keep them only if… Пересказ без этого условия искажает текст в обе стороны. The author is against free buses — неверно. The author supports free buses — тоже неверно.\n\nПозиция может меняться по ходу статьи. Автор пишет, что год назад была сторонницей, а теперь её рекомендация уже. Это не противоречие, а главный ход колонки.\n\nПрежде чем пересказывать, проверь три вещи. Не приписал ли ты автору слова критиков? Не усилил ли осторожное may или suggests до will и proves? Не выбросил ли условие?"
+    },
+    {
+      "title": "Как пересказать длинный текст",
+      "body": "Хороший пересказ идёт по скелету, а не по всем деталям. Порядок такой: вопрос статьи → позиция автора с условием → как автор к ней пришёл (два-три шага) → какой предел автор сам признаёт.\n\nСвоё наблюдение держи отдельно и помечай: The article does not say… или The author doesn't explain… Так читатель видит, где текст, а где ты.\n\nЗакрой статью и перескажи вслух. Потом открой и сверь по трём вопросам из прошлого раздела. Устно оставь две-три цифры, остальное опусти."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Paragraph 3 supports the case for free fares with ride numbers and one rider's story.",
+      "ru": "Третий абзац подкрепляет довод за бесплатный проезд цифрами поездок и историей одной пассажирки.",
+      "why": "Строчка карты: номер, глагол работы, о чём."
+    },
+    {
+      "en": "The author quotes the critics' view in order to test it, not to accept it.",
+      "ru": "Автор приводит мнение критиков, чтобы проверить его, а не чтобы с ним согласиться.",
+      "why": "Чужой голос в тексте — ещё не позиция автора."
+    },
+    {
+      "en": "Some critics claim that free fares mostly helped existing riders.",
+      "ru": "Некоторые критики утверждают, что бесплатный проезд помог в основном тем, кто и так ездил.",
+      "why": "Claim показывает, что это чужое утверждение, которое ещё надо проверить."
+    },
+    {
+      "en": "The author admits that the survey has limits.",
+      "ru": "Автор признаёт, что у опроса есть ограничения.",
+      "why": "Admit — уступка: автор сам называет слабое место."
+    },
+    {
+      "en": "She still supports free fares, but only if the city protects money for more buses.",
+      "ru": "Она по-прежнему за бесплатный проезд, но только если город сохранит деньги на дополнительные автобусы.",
+      "why": "Позиция вместе с условием. Без only if пересказ был бы неверным."
+    },
+    {
+      "en": "The article does not say how much more frequent service would cost.",
+      "ru": "В статье не сказано, сколько стоили бы более частые рейсы.",
+      "why": "Своё наблюдение помечено и отделено от текста."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Колонка в газете / Free Buses Were Worth Trying. They Are Not Enough.",
+      "kind": "reading",
+      "text": "Free Buses Were Worth Trying. They Are Not Enough.\nBy Dana Ruiz, columnist, The Millbrook Ledger\n\n[1] A year ago, the Millbrook City Council voted to make city buses free for twelve months. The $2 fare disappeared on every route, and the city covered the lost money, about $3.1 million, from its general budget. Supporters promised that free buses would get people out of their cars, help low-income families and cut traffic downtown. I was one of those supporters. I wrote in this column that free fares were \"the simplest transit idea we have.\"\n\n[2] Now the trial is over, and the council must decide whether to continue it. I still think free fares were worth trying. But I no longer think they are the most important thing Millbrook can do for its riders.\n\n[3] Start with what went well. According to the transit agency, rides rose 18 percent compared with the year before. Drivers reported fewer arguments about fares, and buses spent less time at stops because nobody had to pay. Several riders told me the change mattered to them. One home health aide said she saved about $80 a month, which is real money for a family on a tight budget.\n\n[4] Critics argue that the money would have been better spent on more buses. Some go further and claim that free fares mostly helped people who would have ridden anyway. The second claim deserves a closer look. In the agency's rider survey, about two out of three extra trips were made by people who already rode the bus before the trial. In other words, many of the new rides came from existing riders riding more, not from drivers leaving their cars at home. Traffic downtown, by the city's own count, barely changed.\n\n[5] Admittedly, the survey has limits. Only about 900 riders answered it, and people who ride every day were more likely to fill it out. The real share of new riders could be somewhat higher. Even so, nothing in the data suggests that free fares, on their own, pulled large numbers of drivers onto buses.\n\n[6] What did seem to matter was how often the buses came. Halfway through the trial, the agency added buses to Route 9, so that a bus came every ten minutes instead of every thirty. Ridership on Route 9 grew by 41 percent, more than twice the citywide increase. That is one route, and it runs through a dense neighborhood near the community college, so it may not predict what would happen elsewhere. Still, it fits what transit researchers have long said: riders care about waiting time at least as much as about price.\n\n[7] None of this means that fares should come back. For the aide who saves $80 a month, free buses are not a statistic. And bringing back fare machines would cost money too. But free fares and frequent service compete for the same budget. To the extent that the council must choose, I would put frequency first.\n\n[8] My recommendation, then, is narrower than the one I made a year ago. Keep fares free for another year only if the council also protects the money for more frequent service on its busiest routes. Then compare the results route by route. If more buses bring in new riders and free fares alone do not, Millbrook will finally know where its transit dollars do the most good.",
+      "source": "Придумано для курса: город, газета, автор и все цифры вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Сделай предпросмотр M1: прочитай только заголовок, абзацы [1]–[2] и последний абзац [8]. Напиши одну-две фразы по-английски: какой вопрос обсуждает колонка и какой примерный ответ даёт автор.",
+      "context": "fare — плата за проезд; transit — общественный транспорт.",
+      "guidance": {
+        "title": "Сначала скелет: заголовок, начало, конец",
+        "body": "Заголовок и первые абзацы обычно ставят вопрос, последний абзац даёт ответ. Запиши их одной-двумя фразами. Это догадка, которую ты проверишь при полном чтении.",
+        "example": "The article asks whether schools should ban phones; the author seems to support a ban during lessons only.",
+        "translation": "Статья обсуждает, нужно ли запрещать телефоны в школах; автор, похоже, за запрет только на уроках."
+      },
+      "hint": "Начни так: The column asks whether Millbrook should… В абзаце [2] есть But — что после него?",
+      "answers": [
+        "The column asks whether Millbrook should keep its buses free. The author still thinks free fares were worth trying, but she now believes they are not enough and that more frequent service matters more.",
+        "It asks whether the city should continue free buses after the trial. The author's answer seems to be a qualified yes: keep them only if the city also pays for more frequent service.",
+        "The question is whether the free-bus trial should continue. The author supports continuing it, but only on the condition that money for more frequent buses is protected."
+      ],
+      "explanation": "Засчитывается, если назван вопрос (продолжать ли бесплатный проезд) и ответ с оговоркой: «стоило попробовать, но мало» или «только если сохранят деньги на частые рейсы». Просто «автор за» или «автор против» — неточно."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь прочитай M1 целиком. Запиши для карты две строчки по-английски: что делает абзац [3] и что делает абзац [4]. В каждой строчке — глагол работы и о чём абзац.",
+      "context": "ridership — число пассажиров; rider survey — опрос пассажиров.",
+      "guidance": {
+        "title": "Строчка карты = глагол + о чём",
+        "body": "Метка «evidence» без содержания ничего не говорит. Начни с Paragraph N, возьми глагол работы — supports, presents, concedes, qualifies — и добавь, чем именно абзац это делает.",
+        "example": "Paragraph 2 states the thesis: the new library hours help students but hurt evening workers.",
+        "translation": "Второй абзац заявляет тезис: новые часы библиотеки помогают студентам, но вредят тем, кто работает вечером."
+      },
+      "hint": "Абзац [3] начинается со Start with what went well. Абзац [4] — с Critics argue. Что автор делает с мнением критиков к концу абзаца?",
+      "answers": [
+        "Paragraph 3 supports the case for free fares with evidence: rides rose 18 percent, stops got faster, and one rider saved about $80 a month. Paragraph 4 presents the critics' view and then partly confirms one of their claims with survey data: most extra trips came from people who already rode the bus.",
+        "Paragraph 3 supports the benefits of the trial with agency figures, drivers' reports and one rider's story. Paragraph 4 introduces two criticisms and tests the second one, showing that about two out of three extra trips were made by existing riders and that downtown traffic barely changed."
+      ],
+      "explanation": "Засчитывается, если у [3] есть глагол поддержки и хотя бы одна опора (18 percent, быстрее на остановках, $80), а у [4] — что автор приводит критиков и частично подтверждает их второе утверждение сведениями опроса."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Одноклассник выписал из M1 фразу «free fares mostly helped people who would have ridden anyway» как мнение автора. Объясни ему двумя фразами по-английски, чьё это утверждение и как к нему относится автор.",
+      "context": "",
+      "guidance": {
+        "title": "Чужой голос и ответ автора",
+        "body": "Найди, кто говорит: перед фразой стоит some go further and claim. Потом найди, что автор делает в следующих предложениях: спорит, соглашается или соглашается частично.",
+        "example": "\"Kids watch too much TV\" is what some parents claim; the author agrees only for younger children.",
+        "translation": "«Дети слишком много смотрят телевизор» — так утверждают некоторые родители; автор согласен только насчёт младших детей."
+      },
+      "hint": "Начни так: This is the critics' claim, not… Что значит The second claim deserves a closer look?",
+      "answers": [
+        "This is the critics' claim, not the author's. The author says it deserves a closer look and partly agrees, because the survey shows that about two out of three extra trips came from people who already rode the bus.",
+        "The sentence reports what some critics claim. The author tests it and finds it partly true: many extra rides came from existing riders, although she admits the survey has limits.",
+        "It's a claim made by critics. The author doesn't simply accept it, but the survey data she cites mostly supports it."
+      ],
+      "explanation": "Засчитывается, если сказано, что это слова критиков (claim), а автор проверяет их и частично соглашается по сведениям опроса. Ответ «автор с этим не согласен» неверен: сведения она приводит в пользу этой мысли."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Абзац [6] рассказывает о маршруте 9. Напиши двумя фразами по-английски: что этот пример показывает и чего он не доказывает — по словам самого автора.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: один случай — «так бывает»",
+        "body": "Вспоминаем урок о критическом чтении: одна история показывает, что так может быть, но не как часто и не везде. Здесь автор сам называет, чем маршрут 9 особенный.",
+        "example": "One bakery doubled its sales after adding delivery; that does not mean every bakery would.",
+        "translation": "Одна пекарня удвоила продажи после того, как добавила доставку; это не значит, что так будет с любой пекарней."
+      },
+      "hint": "Начни так: The Route 9 example shows that… Какие две особенности маршрута автор называет?",
+      "answers": [
+        "The Route 9 example shows that ridership grew much faster on a route where buses came every ten minutes instead of every thirty. It does not prove that more frequent service would work the same way everywhere, because it is one route in a dense neighborhood near a community college.",
+        "On Route 9, more frequent buses came with a 41 percent rise in riders, more than twice the city average. But the author admits it is only one route in an unusual neighborhood, so it may not predict results elsewhere."
+      ],
+      "explanation": "Засчитывается, если названо, что показал пример (рост на 41% при частых рейсах), и обе границы, которые автор сам указывает: один маршрут и особый район у колледжа."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В абзацах [5] и [7] стоят четыре поворота: Admittedly, Even so, None of this means, To the extent that. Напиши по-английски по одной короткой фразе: что каждый из них делает с аргументом.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: связки показывают границы частей",
+        "body": "Вспоминаем урок о связках: уступка, «и всё же», предел. В длинном тексте эти слова — дорожные знаки: по ним видно, где автор признаёт слабость, где держит тезис и где его сужает.",
+        "example": "\"Granted\" admits a weak point; \"Still\" shows that the main claim survives it.",
+        "translation": "«Granted» признаёт слабое место; «Still» показывает, что главный тезис его выдерживает."
+      },
+      "hint": "Admittedly — что автор признаёт? Even so — что устояло? None of this means — от какого вывода автор удерживает читателя?",
+      "answers": [
+        "Admittedly concedes that the survey has limits. Even so shows that the main point survives those limits. None of this means stops the reader from concluding that fares should come back. To the extent that limits the author's preference for frequency to the case where the council has to choose.",
+        "Admittedly introduces a weakness in the survey. Even so keeps the conclusion despite that weakness. None of this means blocks a wrong conclusion: bringing fares back. To the extent that narrows the recommendation to a situation where the budget forces a choice."
+      ],
+      "explanation": "Засчитывается, если для каждого слова названа его работа: уступка, тезис устоял, закрытый неверный вывод (вернуть плату), предел предпочтения. Можно своими словами."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Перепиши неверный пересказ M1 так, чтобы он передавал позицию автора точно: «The author argues that free buses don't work and that fares should come back. She agrees with the critics that free fares only help people who would ride anyway.»",
+      "context": "",
+      "guidance": {
+        "title": "Позиция с условием, без чужих слов",
+        "body": "Проверь пересказ по трём вопросам: не приписан ли автору голос критиков, не усилено ли «в основном» до «только», не потеряно ли условие.",
+        "example": "Not \"The author hates the new park,\" but \"The author likes the new park but wants it to stay open later.\"",
+        "translation": "Не «Автор ненавидит новый парк», а «Автору нравится новый парк, но он хочет, чтобы его не закрывали так рано»."
+      },
+      "hint": "Что автор пишет в начале абзаца [7]? Mostly и only — одно и то же?",
+      "answers": [
+        "The author argues that free fares were worth trying but are not enough on their own. She partly agrees with the critics that many extra trips came from existing riders, but she does not want fares to come back; she wants the council to put frequent service first and keep fares free only if that money is protected.",
+        "The author still supports free fares but no longer sees them as the most important change. She accepts the critics' point that most extra trips came from people who already rode, yet she says fares should not come back. She recommends keeping buses free for another year only if the city also funds more frequent service."
+      ],
+      "explanation": "Засчитывается, если исправлены три искажения: автор против возврата платы (None of this means…); «в основном» существующие пассажиры, а не «только»; и сохранено условие only if про частые рейсы."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Член городского совета не успевает прочитать колонку перед голосованием. Напиши ему по M1 пересказ на 150–250 слов. Что должно быть: вопрос колонки; позиция автора вместе с условием и то, как она изменилась за год; как автор к ней пришла — три-четыре шага по абзацам; какой предел своих сведений она сама признаёт; одно твоё наблюдение, чего в статье нет, помеченное как твоё (The article does not say…).",
+      "context": "",
+      "hint": "План: The column asks… → Her answer is… → First… Then the critics… She admits… Route 9… → She recommends… only if… → The article does not say…",
+      "answers": [
+        "Dana Ruiz's column asks whether Millbrook should keep its buses free now that the one-year trial is over. Her answer is a qualified yes. She still thinks free fares were worth trying, but she no longer sees them as the most important change, and her recommendation is narrower than a year ago, when she fully supported them.\n\nShe gets there in steps. First, she lists what went well: rides rose 18 percent, stops got faster, and some riders saved real money. Then she tests the critics' claim that free fares mostly helped people who would have ridden anyway, and the rider survey partly supports it: about two out of three extra trips came from existing riders, and downtown traffic barely changed. She admits that the survey is small and may undercount new riders. Next, she points to Route 9, where buses every ten minutes brought a 41 percent rise in riders, although it is only one route.\n\nShe does not want fares to come back. Instead, she recommends keeping buses free for another year only if the council also protects money for more frequent service, and then comparing results route by route.\n\nThe article does not say how much more frequent service would cost or how many routes it could cover with the same budget."
+      ],
+      "explanation": "Засчитывается, если верно передана позиция с условием only if и её изменение, шаги аргумента идут по абзацам, предел опроса назван как уступка автора, мнение критиков не выдано за позицию автора, а твоё наблюдение помечено отдельно.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Закрой M1. Соседка спрашивает перед городским собранием: «Ты читал колонку про автобусы? Она за или против?» Объясни ей вслух за 2–3 минуты. Что должно быть: почему ответ «за или против» не подходит; позиция автора с условием; два-три главных шага её рассуждения с одной-двумя цифрами; что говорят критики и что с этим делает автор; что ты сам хотел бы узнать перед голосованием.",
+      "context": "",
+      "hint": "Начни так: It's not really for or against… В конце: Before I vote, I'd want to know…",
+      "answers": [
+        "It's not really for or against. She's for free buses, but she thinks they're not enough on their own, and her support comes with a condition.\n\nHere's how she gets there. A year ago she was a big supporter. Now she says the trial did some good: rides went up about eighteen percent, and some people saved real money. One woman she talked to saves eighty dollars a month.\n\nBut then she looks at what the critics say. They claim free fares mostly helped people who were riding anyway. She checks that against the rider survey, and it's partly true: about two out of three extra trips came from people who already took the bus. Traffic downtown barely changed. She admits the survey wasn't perfect, but she still thinks free fares alone didn't pull many drivers out of their cars.\n\nWhat made a bigger difference, she says, was how often the buses came. On one route they added buses every ten minutes, and ridership jumped way more than anywhere else. She's careful to say it's only one route, though.\n\nSo her bottom line is: keep the buses free for another year, but only if the city also protects the money for more frequent buses. She definitely doesn't want fares to come back.\n\nBefore I vote, I'd want to know what more frequent service would actually cost, and whether the city can pay for both."
+      ],
+      "explanation": "Засчитывается, если ты объяснил, почему «за или против» не подходит, передал позицию с условием, развёл голос критиков и ответ автора, оставил одну-две цифры и закончил своим вопросом. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Одноклассник составил карту колонки M1, но в ней несколько ошибок: перепутаны голоса, усилены выводы, потеряны условия. Сверь каждую строчку с текстом и перепиши карту целиком так, чтобы все восемь строчек были верными.\n\nКарта одноклассника:\n\"P1: The author introduces her opinion that free buses are the simplest transit idea.\nP2: Thesis: free buses should end.\nP3: Evidence that free buses failed.\nP4: The author claims that free fares mostly helped people who would ride anyway.\nP5: The author proves that no drivers switched to buses.\nP6: Route 9 shows that more buses will raise ridership on every route.\nP7: The author wants fares to come back.\nP8: Recommendation: keep free fares for another year.\"",
+      "context": "",
+      "hint": "Проверь каждую строчку: чей голос, какая сила вывода (proves, will, every), есть ли условие. В P1 — что автор думала год назад или думает сейчас?",
+      "answers": [
+        "P1: The author introduces the trial and admits that a year ago she called free fares \"the simplest transit idea we have.\"\nP2: Thesis: free fares were worth trying, but they are not the most important thing the city can do for riders.\nP3: The author supports the benefits of the trial with evidence: rides rose 18 percent, stops got faster, and one rider saved about $80 a month.\nP4: The author presents the critics' claim that free fares mostly helped existing riders and partly confirms it with survey data.\nP5: The author concedes that the survey has limits but argues that the data still don't suggest many drivers switched.\nP6: Route 9 suggests that frequent service may matter more than price, although it is only one route.\nP7: The author says fares should not come back, but she would put frequency first if the council has to choose.\nP8: Recommendation: keep fares free for another year only if money for more frequent service is protected, then compare routes."
+      ],
+      "explanation": "Засчитывается, если исправлены: P1 — это прошлое мнение автора; P2 и P7 — автор не за отмену бесплатного проезда; P3 — успехи, а не провал; P4 — голос критиков; P5 — уступка, а не «доказывает, что никто»; P6 — suggests и один маршрут вместо will и every; P8 — условие only if.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

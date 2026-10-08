@@ -1,0 +1,304 @@
+{
+  "id": "path-emphasis-restraint",
+  "title": "Not exactly cheap: как выделить главное и не кричать",
+  "subtitle": "Вместо very — последствие → контраст «это да, а это нет» → преуменьшение: not exactly → «немалый»: not insignificant → где преуменьшать опасно → сила и уверенность → своя речь",
+  "level": "C2",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Выделять главное так, чтобы тебе верили: «Если не исправим к четвергу, 400 человек получат зарплату позже» вместо «Это огромная проблема», и понимать американское преуменьшение: It wasn't exactly cheap — «это было дорого».",
+  "formula": "a huge problem → 400 people will be paid late · The price is fine; the timeline is not. · It wasn't exactly cheap. · not insignificant",
+  "keyRule": {
+    "rule": "Хочешь усилить — назови последствие или число, а не добавляй very и absolutely.",
+    "example": "400 employees will be paid late — 400 сотрудников получат зарплату с опозданием (вместо This is a huge problem).",
+    "check": "Убери усилитель. Фраза стала слабее? Добавь факт, а не слово."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-so-such-intensifiers",
+    "path-clefts",
+    "path-hedging",
+    "path-lexical-precision"
+  ],
+  "recycles": [
+    "path-clefts",
+    "path-hedging"
+  ],
+  "teaches": [
+    "усилитель — слово, которое только делает фразу громче: very, really, absolutely, extremely, totally, huge; в отчёте и деловом письме его заменяют последствием, числом, сроком",
+    "контраст: The price is fine; the timeline is not — главное выделяет сосед, а не наречие",
+    "место: главное — в конце абзаца или короткой фразой после длинных; одно главное на абзац",
+    "преуменьшение (understatement): It wasn't exactly cheap, It could have gone better, a bit of a problem, to say the least, Not bad!",
+    "не + противоположность: not insignificant — «немалый», not uncommon — «не редкость»; слабее прямого слова",
+    "где преуменьшать нельзя: безопасность, здоровье, деньги, сроки, читатель с другим родным языком",
+    "сила и уверенность — разное: serious (насколько плохо) vs may (насколько уверен)",
+    "гипербола в разговоре: I'm starving, a million times, the best ever; literally в разговоре — «прямо, реально», в письме — только «буквально»"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Eliminating Words",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/conciseness/eliminating_words.html",
+      "notes": "Сверено: really, basically, definitely, actually и подобные слова чаще всего можно убрать без потери смысла; very и extremely не сочетаются со словами без степени вроде unique."
+    },
+    {
+      "title": "Dictionary.com · understatement",
+      "url": "https://www.dictionary.com/browse/understatement",
+      "notes": "Сверено: преуменьшение — нарочно представить что-то слабее, чем есть; приём сдержанной иронии, смягчает тяжёлую правду или шутит (We didn't do our best после проигрыша 56:0)."
+    },
+    {
+      "title": "Dictionary.com · literally",
+      "url": "https://www.dictionary.com/browse/literally",
+      "notes": "Сверено: значение «фактически, почти» как усилитель существует с XIX века, часто вызывает критику и в официальных текстах его лучше избегать."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Громко, точно, тихо",
+    "why": "Одна и та же плохая новость тремя способами. Убеждает не громкость, а факт.",
+    "items": [
+      {
+        "label": "Громко",
+        "en": "This is a huge, absolutely critical problem!",
+        "ru": "Это огромная, абсолютно критическая проблема!",
+        "note": "Непонятно, насколько всё плохо и к какому сроку."
+      },
+      {
+        "label": "Точно",
+        "en": "If we don't fix it by Thursday, 400 employees will be paid late.",
+        "ru": "Если не исправим к четвергу, 400 сотрудников получат зарплату с опозданием.",
+        "note": "Последствие и срок говорят сами."
+      },
+      {
+        "label": "Тихо",
+        "en": "It wasn't exactly a smooth week.",
+        "ru": "Неделя была, скажем так, не самой гладкой.",
+        "note": "Свои поймут: неделя была тяжёлой."
+      }
+    ],
+    "focus": [
+      "huge, absolutely critical",
+      "400 employees will be paid late",
+      "wasn't exactly"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Громко — ещё не убедительно",
+      "body": "Сбой в системе зарплаты. Коллега пишет руководителю: This is a really huge problem and absolutely needs to be fixed right away! Руководитель получает такие письма каждый день и не понимает, насколько всё плохо. Другой вариант: If we don't fix this by Thursday, 400 employees will be paid two days late. «Если не исправим к четвергу, 400 сотрудников получат зарплату на два дня позже». Сразу ясно, насколько всё серьёзно и к какому сроку.\n\nVery, really, absolutely, extremely, totally, huge — усилители: слова, которые только делают фразу громче. В разговоре с другом они нормальны. В отчёте, деловом письме и объявлении их так много, что читатель перестаёт их замечать. Работают последствие, число и срок.\n\nВ уроке о точном слове ты выбирал силу одного слова: a drop или a collapse. Здесь — как выделить главное в целом тексте и когда нарочно говорить слабее, чем есть."
+    },
+    {
+      "title": "Как выделить без усилителей",
+      "body": "Первый приём — последствие вместо оценки: a huge problem → 400 employees will be paid late.\n\nВторой — контраст. Поставь рядом то, что не страшно, и главное: The price is fine; the timeline is not. «С ценой всё в порядке, а со сроком — нет». Главное выделяет сосед, а не наречие. Тот же контраст ты строил в уроке о расщеплённых фразах: It's not the price that worries us, it's the timeline.\n\nТретий — место. Главное ставь в конец абзаца или отдельной короткой фразой после длинных: We checked the servers, the network, and the payroll software. The problem is the bank's file format. Короткая фраза после длинных звучит как вывод.\n\nГраница: одно главное на абзац. Если выделено всё, не выделено ничего."
+    },
+    {
+      "title": "Преуменьшение: сказать слабее, чтобы поняли",
+      "body": "Американцы часто нарочно говорят слабее, чем есть. Это преуменьшение (understatement). It wasn't exactly cheap — «это было дорого», дословно «не то чтобы дёшево». It could have gone better — «всё прошло плохо». It's a bit of a problem — «это проблема». It was inconvenient, to say the least — «мягко говоря, неудобно». Not bad! — «неплохо», то есть хорошо.\n\nОтдельный вид — «не + противоположность»: not uncommon — «не редкость», not insignificant — «немалый, заметный». Это слабее прямого слова: not insignificant не значит huge, переводи «немалый», а не «огромный».\n\nЗачем это нужно: смягчить плохую новость, пошутить, звучать спокойно. Слушатель сам достраивает настоящую силу — по тону и по фактам рядом."
+    },
+    {
+      "title": "Где преуменьшать нельзя",
+      "body": "Преуменьшение работает, только если слушатель его узнает. Носитель сразу поймёт It wasn't exactly cheap. Человек с другим родным языком или переводчик в телефоне поймёт буквально: «не очень дёшево», значит, нормально.\n\nПоэтому говори прямо, когда на кону безопасность, здоровье, деньги или срок. We may have a bit of a situation with the gas line — опасно: жильцы не выйдут из дома. Прямо: There is a gas leak. Leave the building now.\n\nПреуменьшение — не оговорка. Оговорка (may, likely — из урока об оговорках) снижает уверенность: может быть, а может и нет. Преуменьшение снижает силу: ты всё знаешь, но говоришь тише. The delay is serious — уверен и честно назвал силу. The delay may be serious — не уверен."
+    },
+    {
+      "title": "Гипербола и literally: где громко можно",
+      "body": "В разговоре американцы охотно преувеличивают: I'm starving — «умираю с голоду» (просто голоден), I've told you a million times — «сто раз тебе говорил», This is the best pizza ever. Это никого не обманывает: все понимают, что это для живости.\n\nLiterally в разговоре часто значит просто «прямо, реально»: I literally ran to the bus. Словари это значение знают, но отмечают, что его критикуют. В письме и отчёте literally значит только «буквально, без преувеличения».\n\nГраница: гипербола — для друзей и рассказов. В отчёте, жалобе, отзыве и объявлении читатель примет её за факт или перестанет тебе верить."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If we don't fix this by Thursday, 400 employees will be paid two days late.",
+      "ru": "Если не исправим к четвергу, 400 сотрудников получат зарплату на два дня позже.",
+      "why": "Вместо huge problem — последствие и срок."
+    },
+    {
+      "en": "The price is fine; the timeline is not.",
+      "ru": "С ценой всё в порядке, а со сроком — нет.",
+      "why": "Главное выделено контрастом с менее важным."
+    },
+    {
+      "en": "It wasn't exactly cheap.",
+      "ru": "Это было недёшево.",
+      "why": "Преуменьшение: слушатель понимает «дорого»."
+    },
+    {
+      "en": "The move could have gone better.",
+      "ru": "Переезд прошёл не лучшим образом.",
+      "why": "Мягко о плохом: на деле всё пошло не так."
+    },
+    {
+      "en": "The savings are not insignificant.",
+      "ru": "Экономия немалая.",
+      "why": "Не + противоположность — слабее, чем huge."
+    },
+    {
+      "en": "There is a gas leak. Leave the building now.",
+      "ru": "Утечка газа. Немедленно выйдите из здания.",
+      "why": "Опасность — только прямые слова."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь руководительнице склада о сломанных погрузчиках (forklifts). Черновик: This is a really, really huge problem and we absolutely need help! Факты: из трёх погрузчиков работает один; заказы уходят на день позже; если до пятницы не починить, 60 заказов не уйдут вовремя. Перепиши в 1–2 фразы без усилителей: только последствие и срок.",
+      "context": "ship — отправлять заказ, go out — уходить (о заказах).",
+      "guidance": {
+        "title": "Вместо усилителя — последствие",
+        "body": "Убери really, huge и absolutely. Вместо них назови, что будет и к какому сроку. Насколько всё серьёзно, читатель поймёт сам.",
+        "example": "The heating is absolutely terrible! → The heating is off, and it's 58 degrees in the office.",
+        "translation": "Отопление выключено, в офисе 14 градусов (58 по Фаренгейту)."
+      },
+      "hint": "Начни так: Only one of our three forklifts…",
+      "answers": [
+        "Only one of our three forklifts is working, so orders are shipping a day late. If they aren't fixed by Friday, 60 orders won't go out on time.",
+        "Only one of our three forklifts is working, and orders are going out a day late. If we can't fix them by Friday, 60 orders will ship late."
+      ],
+      "explanation": "Засчитывается, если нет really, huge и absolutely, а есть факты: один из трёх, на день позже, 60 заказов к пятнице. Shipping a day late и going out a day late — оба верны."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Поставщик мебели для офиса предлагает скидку, но привезёт заказ только в сентябре. Ответь ему: «С ценой всё в порядке, а со сроком — нет. Нас беспокоит не цена, а дата доставки». delivery date — дата доставки, worry — беспокоить.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем It's not… it's…: выдели контрастом",
+        "body": "Вспоминаем урок о расщеплённых фразах: It's not X that…, it's Y. Тот же контраст бывает короче: две части через точку с запятой, во второй — not. Главное выделяет сосед, а не very.",
+        "example": "The hotel is fine; the location is not.",
+        "translation": "С отелем всё в порядке, а с расположением — нет."
+      },
+      "hint": "Первая фраза: The price is fine; …",
+      "answers": [
+        "The price is fine; the timeline is not. It's not the price that worries us, it's the delivery date.",
+        "The price is fine; the timeline isn't. It's not the price that worries us; it's the delivery date.",
+        "The price is fine, but the timeline is not. It's not the price that worries us, it's the delivery date.",
+        "The price is fine; the timing is not. It isn't the price that worries us, it's the delivery date.",
+        "The price is fine; the delivery time is not. What worries us is not the price but the delivery date.",
+        "The price works for us; the timeline doesn't. It's not the price that worries us, it's the delivery date."
+      ],
+      "explanation": "Главное — срок — выделено контрастом, без very и absolutely. Точка с запятой связывает две части; but тоже верно и звучит проще."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает: How was the move? Всё прошло плохо. Ответь с американским преуменьшением: «Ну, не то чтобы гладко. Грузовик опоздал на три часа, а коробка с посудой разбилась». smooth — гладкий, без проблем; truck — грузовик; dishes — посуда.",
+      "context": "",
+      "guidance": {
+        "title": "Преуменьшение: wasn't exactly",
+        "body": "Чтобы спокойно сказать о плохом, американцы говорят слабее: It wasn't exactly…, It could have gone better. Факты после такой фразы показывают настоящую силу.",
+        "example": "The interview? It wasn't exactly a success. They asked about Excel, and I froze.",
+        "translation": "Собеседование? Не сказать чтобы успешно. Спросили про Excel, и я растерялся."
+      },
+      "hint": "Начни так: Well, it wasn't exactly…",
+      "answers": [
+        "Well, it wasn't exactly smooth. The truck was three hours late, and a box of dishes broke.",
+        "Well, it wasn't exactly smooth. The truck was three hours late and a box of dishes broke.",
+        "Well, it wasn't exactly smooth. The truck showed up three hours late, and a box of dishes broke.",
+        "Well, it wasn't exactly smooth. The truck came three hours late, and a box of dishes got broken.",
+        "It wasn't exactly smooth. The truck was three hours late, and a box of dishes broke.",
+        "Well, it could have gone better. The truck was three hours late, and a box of dishes broke."
+      ],
+      "explanation": "It wasn't exactly smooth — «не сказать чтобы гладко», то есть плохо. It could have gone better тоже верно. Very bad здесь прозвучало бы жалобой, а не спокойным рассказом."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь финансовому директору о новом поставщике: «Экономия немалая — около $8,000 в год». Тон сдержанный, без восторгов. savings — экономия.",
+      "context": "",
+      "guidance": {
+        "title": "Не + противоположность — «немалый»",
+        "body": "Not insignificant, not uncommon — слабее прямого слова. Not insignificant значит «заметный, немалый», но не «огромный». Это сдержанный деловой тон.",
+        "example": "Delays like this are not uncommon in winter.",
+        "translation": "Такие задержки зимой — не редкость."
+      },
+      "hint": "Какое слово значит «незначительный»? Поставь перед ним not.",
+      "answers": [
+        "The savings are not insignificant: about $8,000 a year.",
+        "The savings are not insignificant — about $8,000 a year.",
+        "The savings are not insignificant, about $8,000 a year.",
+        "The savings aren't insignificant: about $8,000 a year.",
+        "The savings are not insignificant: about $8,000 per year.",
+        "The savings are not insignificant: roughly $8,000 a year.",
+        "The savings are not insignificant: around $8,000 a year."
+      ],
+      "explanation": "Not insignificant — «немалая»: сдержанно, но ясно, что сумма заметная. The savings are significant тоже верно и звучит чуть сильнее. Huge было бы преувеличением."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Управляющий домом написал жильцам: We may have a bit of a situation with the gas line in the basement. You might want to think about stepping outside for a while. Факты: в подвале утечка газа; газовая служба уже едет; жильцам нужно сразу выйти на улицу и не включать свет и плиту. Перепиши объявление прямо, 2–4 короткие фразы. gas leak — утечка газа, stove — плита.",
+      "context": "",
+      "guidance": {
+        "title": "Опасность — только прямые слова",
+        "body": "Преуменьшение понимают не все, а в опасности нет времени на догадки. Назови, что случилось, что делать и чего не делать. Короткие фразы, повелительная форма.",
+        "example": "There's a bit of water on the floor. → The floor is flooded. Don't use the elevator.",
+        "translation": "Пол затоплен. Не пользуйтесь лифтом."
+      },
+      "hint": "Начни так: There is a gas leak in the basement.",
+      "answers": [
+        "There is a gas leak in the basement. Leave the building now. Don't turn on any lights or use the stove. The gas company is on its way.",
+        "There's a gas leak in the basement. Please leave the building right away. Do not turn on the lights or use your stove. The gas company is coming."
+      ],
+      "explanation": "Засчитывается, если прямо сказано, что случилось (gas leak), что делать сейчас (leave now, right away) и чего не делать (свет, плита), и нет a bit of, may и might want to."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет в отчёт: The new schedule completely destroyed team morale and will definitely make people quit. Факты: средняя оценка настроения в опросе упала с 7.2 до 5.9 из 10; за месяц уволились трое из 40; что виноват именно график, не доказано. Перепиши в 2 фразы: силу передай цифрами, а неуверенность — одной оговоркой. morale — настроение, боевой дух.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем оговорки: сила и уверенность — разное",
+        "body": "Вспоминаем урок об оговорках: факт — прямо, вывод — с may. Сила — насколько плохо, уверенность — насколько ты уверен. Completely destroyed завышает силу, definitely — уверенность.",
+        "example": "Sales crashed and will definitely keep falling. → Sales fell 9% in May. They may keep falling.",
+        "translation": "Продажи упали на 9% в мае. Возможно, они продолжат падать."
+      },
+      "hint": "Первая фраза — только цифры. Оговорка — во второй.",
+      "answers": [
+        "Team morale fell after the schedule change: the average survey score dropped from 7.2 to 5.9 out of 10, and three of our 40 employees quit this month. The new schedule may have contributed to this, but we haven't shown that it caused it.",
+        "After the schedule changed, the average morale score fell from 7.2 to 5.9 out of 10, and three of 40 employees left within a month. The schedule may be one reason, but we can't say that yet."
+      ],
+      "explanation": "Засчитывается, если сила передана цифрами (7.2 → 5.9, трое из 40) без completely destroyed, а вывод о графике — с одной оговоркой (may have contributed, may be one reason). Definitely убран."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты руководишь районным бассейном (community pool). В разгар лета бассейн пришлось закрыть. Напиши письмо всем членам бассейна на 200–300 слов. В письме: что случилось и что это значит для людей — числами и датами, без very, absolutely и huge; одно главное, выделенное контрастом или короткой фразой в конце абзаца; о безопасности воды — прямо, без преуменьшения; что вы делаете и когда планируете открыться; что получат члены бассейна. Факты: фильтр сломался в субботу, August 2; вода не прошла проверку на хлор (chlorine test), плавать нельзя; новый фильтр придёт к August 7; открытие — August 9, если вода пройдёт проверку; уроки плавания переносятся на неделю; всем членам абонемент продлят на 7 дней.",
+      "context": "membership — абонемент, членство; extend — продлить.",
+      "hint": "Сначала решай, какая одна мысль в письме главная. Её и выдели.",
+      "answers": [
+        "Dear pool members,\n\nI'm sorry to tell you that the pool is closed this week.\n\nOn Saturday, August 2, our main filter broke. Without it, the water can't be cleaned properly, and it has failed the chlorine test. That means the water is not safe to swim in. Please do not enter the pool, even for a few minutes.\n\nWe know this is a bad time to close. Many of you come every day in August, and many children are signed up for swim lessons.\n\nHere is our plan. A new filter is on its way and should arrive by August 7. Once it is installed, we will test the water again. If the water passes the test, we will reopen on Saturday, August 9. If it doesn't, we will tell you right away.\n\nAll swim lessons are moving back one week, at the same days and times.\n\nEvery membership will be extended by seven days. You don't need to do anything.\n\nA filter can be replaced in a week. Your trust is harder to replace, and we want to keep it. We will write to you again as soon as we know the test results.\n\nThank you for your patience.\n\nMaria Lopez\nPool Manager"
+      ],
+      "explanation": "Засчитывается, если все факты на месте (2, 7 и 9 августа; проверка на хлор; уроки на неделю позже; плюс 7 дней), нет very, absolutely и huge, о безопасности воды сказано прямо, а одна мысль выделена контрастом или короткой фразой в конце абзаца."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух о неудачной поездке, ремонте или переезде — дважды, всего 2–3 минуты. Сначала другу (1,5–2 минуты): можно гиперболу (I was starving, it took forever) и одно-два преуменьшения (It wasn't exactly…, It could have gone better). Потом — короткая жалоба в компанию по телефону (30–60 секунд): без гипербол и усилителей, только факты и даты, одно главное выделено контрастом (X was fine; Y was not) и ясная просьба.",
+      "context": "Запиши обе версии и послушай: во второй не должно остаться ни одного literally, totally, forever.",
+      "hint": "Для жалобы начни так: I'm calling about my flight on…",
+      "answers": [
+        "Oh, my trip to Boston? Let's just say it could have gone better. So first, my flight was delayed. Then it was delayed again. We sat at the gate for, like, forever. I was starving, and the only place open was selling twelve-dollar sandwiches, which wasn't exactly a bargain. When we finally landed, it was almost midnight, and of course my suitcase didn't come out. Everybody else got their bags, and I'm just standing there watching the same pink suitcase go around a million times. It wasn't mine. Turns out my bag was still in Chicago. So I had to give a presentation the next morning in the same clothes I'd been wearing for eighteen hours. Not exactly the first impression I was going for. But hey, the presentation went fine, and the bag showed up two days later. Next time I'm driving.\n\nComplaint: Hi, I'm calling about my flight from Chicago to Boston on October 3, flight 482. The flight was delayed by four hours, and my checked bag didn't arrive. The delay I can understand; the lost bag is the real problem. It was delivered two days later, on October 5, so I had to buy clothes for a business meeting. I spent $146, and I have the receipts. I'd like to ask for a refund of that amount. Could you tell me how to submit the receipts?"
+      ],
+      "explanation": "Засчитывается, если в версии для друга есть гипербола и одно-два преуменьшения, а в жалобе — только факты с датами и суммой, ни одного усилителя и гиперболы, одно главное выделено контрастом и есть ясная просьба."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Волонтёр прислал письмо родителям школы. Отредактируй его (80–150 слов): убери гиперболу, заглавные буквы и лишние усилители, оставь одно главное, выделенное контрастом или короткой фразой, сохрани все факты и ничего не добавляй, кроме просьбы ответить на письмо. Текст: HUGE NEWS!!! Our school garden is literally dying and we absolutely, desperately need EVERY parent to help this Saturday!!! It's the most important event of the entire year and it's going to be totally amazing! Факты: в саду сломался полив (watering system), за две недели засохли 12 из 30 грядок (beds); нужно 10 добровольцев в субботу, September 13, с 9 a.m. до полудня; надо починить шланги (hoses) и пересадить растения; перчатки и инструменты даст школа; дети могут прийти с родителями.",
+      "context": "",
+      "hint": "Какая одна мысль должна остаться в голове у родителя после письма?",
+      "answers": [
+        "Subject: Help save the school garden this Saturday\n\nDear parents,\n\nOur school garden needs help. The watering system broke two weeks ago, and 12 of our 30 beds have already dried out. The other 18 can still be saved.\n\nWe're looking for 10 volunteers this Saturday, September 13, from 9 a.m. to noon. We'll repair the hoses and replant the beds. The school will provide gloves and tools, and children are welcome to come with you.\n\nIf you can come, please reply to this email.\n\nThank you,\nKaren Wu\nGarden Volunteer"
+      ],
+      "explanation": "Засчитывается, если нет HUGE, literally, absolutely, totally и заглавных букв; все факты на месте (12 из 30, 10 добровольцев, 13 сентября, 9–12, шланги и пересадка, перчатки и инструменты, дети); главное выделено контрастом или короткой фразой (например, «12 засохли, остальные 18 ещё можно спасти»); ничего не придумано."
+    }
+  ]
+}

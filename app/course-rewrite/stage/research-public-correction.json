@@ -1,0 +1,363 @@
+{
+  "id": "research-public-correction",
+  "title": "Публичная поправка: что было неверно, что верно и что это меняет",
+  "subtitle": "Correction, clarification или update → назвать ошибку один раз → верный факт → что она меняет → причину не придумывать → сообщить туда, куда ушла ошибка",
+  "level": "C2",
+  "group": "Жанры письма",
+  "units": "Внешний аудит · English File C1/C2 news story and report · Practical English Usage written texts",
+  "minutes": 60,
+  "goal": "Написать поправку, которой читатель поверит: «An earlier version of this article misstated the meeting date. It is March 12, not March 21.», «It was said by a rider, not by the transit director.», «We regret the error.» — и не спрятать ошибку за «Some details have been updated».",
+  "formula": "Correction: An earlier version of this article misstated / misattributed / misidentified … It is …, not … · As a result, … · Clarification: An earlier version did not make clear that … · Update: This article has been updated to reflect … · We regret the error.",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Назови, что было неверно, дай верный факт и скажи, что это меняет. Причину не придумывай.",
+    "example": "An earlier version of this article misstated the meeting date. It is March 12, not March 21. — В прежней версии статьи неверно указана дата заседания: 12 марта, а не 21-го.",
+    "check": "«Some details have been updated» — это поправка или способ её спрятать?"
+  },
+  "prerequisites": [
+    "path-editing",
+    "path-hedging",
+    "path-reporting-verbs",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-hedging",
+    "path-reporting-verbs"
+  ],
+  "teaches": [
+    "поправка (correction) — публичная заметка о том, что в опубликованном тексте был неверный факт; ставится там же, где была ошибка",
+    "три ярлыка: Correction — факт был неверен; Clarification — факт верен, но слова сбивали с толку; Update — после публикации появилось новое",
+    "назвать ошибку глаголом: misstated — неверно указал факт или число; misattributed — приписал слова не тому; misidentified — перепутал, кто это",
+    "шаблон: An earlier version of this article misstated … It is …, not … — неверная версия звучит один раз",
+    "последствие: As a result, the article also … — только если ошибка меняет сравнение или вывод",
+    "причину и меры не выдумывать: We are reviewing how the error occurred — только если это правда; proposed ≠ done",
+    "извинение коротко: We regret the error; не We apologize for any confusion и не This will never happen again",
+    "поправка ≠ retraction (снять всю статью): снимают, только когда неверна суть",
+    "слова: correction, clarification, update, misstate, misattribute, misidentify, retraction, public comment, newsletter"
+  ],
+  "sources": [
+    {
+      "title": "SPJ Code of Ethics (текст кодекса на InvestigateWest)",
+      "url": "https://www.investigatewest.org/spjcodeofethics/",
+      "notes": "Сверено: американский кодекс журналистов требует признавать ошибки и исправлять их быстро и заметно (promptly and prominently), а поправки и уточнения объяснять ясно; информацию обновляют и исправляют на всём протяжении жизни материала."
+    },
+    {
+      "title": "CnEVPost · Corrections Policy",
+      "url": "https://cnevpost.com/corrections-policy/",
+      "notes": "Сверено различие трёх ярлыков: correction — ошибка была в момент публикации; clarification — факт верен, но формулировка допускала неверное чтение; update — новые сведения, прежний текст не был неверным. Шаблон «An earlier version of this article incorrectly stated… It was…»."
+    },
+    {
+      "title": "iMediaEthics · NPR Needs Transparency with Corrections, Public Editor says",
+      "url": "https://www.imediaethics.org/?p=17721",
+      "notes": "Сверено: страница поправок, которую мало кто открывает, не доходит до тех, кто видел ошибку; слушатели эфира могут так и не увидеть исправление на сайте. Отсюда правило урока: поправку отправляют по тому же каналу, по которому ушла ошибка."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна ошибка — три поправки",
+    "why": "В статье написали, что заседание школьного совета — March 21, а оно March 12. Сравни, что читатель узнаёт из каждой поправки.",
+    "items": [
+      {
+        "label": "Спрятано",
+        "en": "Some details in this story have been updated.",
+        "ru": "Некоторые детали в статье обновлены.",
+        "note": "Непонятно, что было неверно и что теперь верно."
+      },
+      {
+        "label": "С оправданием",
+        "en": "Due to a technical glitch, a date was briefly shown incorrectly.",
+        "ru": "Из-за технического сбоя дата ненадолго отображалась неверно.",
+        "note": "Причина придумана, ошибка уменьшена словом briefly."
+      },
+      {
+        "label": "Ясно",
+        "en": "An earlier version misstated the meeting date. It is March 12, not March 21.",
+        "ru": "В прежней версии неверно указана дата заседания: 12 марта, а не 21-го.",
+        "note": "Что было неверно, как верно — за две фразы."
+      }
+    ],
+    "footnote": "Misstate — неверно указать факт; glitch — сбой; briefly — ненадолго.",
+    "focus": [
+      "have been updated",
+      "briefly",
+      "misstated",
+      "not March 21"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Зачем нужна поправка и что в ней должно быть",
+      "body": "Городской новостной сайт написал, что школьный совет обсудит новое расписание автобусов March 21 — 21 марта. На самом деле заседание March 12. Статью уже прочитали, кто-то уже отметил дату в календаре.\n\nПоправка (correction) — короткая публичная заметка: что в тексте было неверно и как верно. Её ставят там же, где была ошибка: в начале или в конце статьи. Кодекс американских журналистов требует исправлять promptly and prominently — быстро и так, чтобы было видно.\n\nВ поправке три части. Что было неверно. Какой факт верный. Что это меняет для читателя — если меняет.\n\nКогда поправка не нужна: опечатку, которая не меняет смысл (goverment вместо government), просто исправляют. Но неверное имя, число, дата или цитата — это всегда поправка, даже если ошибка в одной букве."
+    },
+    {
+      "title": "Correction, clarification, update — три разных ярлыка",
+      "body": "Перед текстом поправки спроси: было ли это неверно в момент публикации?\n\nДа — это Correction. Пример: заседание назначено на 12 марта, а написали 21-е.\n\nФакт верный, но слова могли сбить с толку — это Clarification, уточнение. Пример: в заголовке сказано Free rides on the new bus line — бесплатный проезд на новой линии, а в статье верно сказано, что бесплатно только по выходным. Шаблон: Clarification: An earlier version of the headline did not make clear that… — «прежний заголовок не давал понять, что…».\n\nПосле публикации появилось новое, а прежнее было верным — это Update. Пример: город перенёс открытие линии на неделю. Шаблон: This article has been updated to reflect… — «статья обновлена: добавлено…».\n\nТипичная ошибка: назвать неверный факт update или clarification, чтобы он звучал мельче. Читатель это замечает, и доверия становится меньше, а не больше."
+    },
+    {
+      "title": "Как назвать ошибку: точно и один раз",
+      "body": "Ошибку называют глаголом, который говорит, что именно было не так:\nmisstated — неверно указал факт или число;\nmisattributed — приписал слова не тому человеку;\nmisidentified — перепутал, кто это или какая у человека должность.\n\nШаблон из двух фраз: An earlier version of this article misstated the meeting date. It is March 12, not March 21. Первая фраза — что было неверно, вторая — верный факт. Неверная версия звучит один раз, через not…, чтобы читатель её узнал. Повторять её дальше не нужно.\n\nВспомни урок о регистре: ошибку не прячут в пассив без исполнителя (Mistakes were made). Здесь так же. Some details have been updated не говорит, что было неверно. We apologize for any confusion звучит так, будто ошибка в головах читателей, а не в статье. Короткое американское извинение в поправке: We regret the error — «Приносим извинения за ошибку»."
+    },
+    {
+      "title": "Что ошибка меняет и чего мы не знаем",
+      "body": "Иногда неверное число тянет за собой вывод. В статье сказано: новый проездной сэкономит обычному пассажиру «$40 в месяц». Если цена проездного указана неверно, эта экономия тоже неверна. Скажи об этом: As a result, the article also… — «из-за этого в статье также…». Если ошибка ничего больше не меняет, эта фраза не нужна.\n\nВспомни урок об оговорках: факт говори прямо, сомнение ставь только у того, чего не знаешь. Причина ошибки чаще всего неизвестна в день поправки. Не придумывай её (a software glitch — «сбой программы») и не называй виновного (a new intern — «новый стажёр»). Если причину проверяют, так и скажи: We are reviewing how the error occurred. Если нет — о причине можно промолчать.\n\nТо же с мерами. Предложенное — proposed, we plan to. Сделанное — we have added. Обещание This will never happen again не может выполнить никто, поэтому ему не верят."
+    },
+    {
+      "title": "Где и кому сообщить",
+      "body": "Поправка должна дойти до тех, кто видел ошибку. Если статья ушла в рассылку (newsletter) и в соцсети, одной заметки на сайте мало: подписчики не вернутся на страницу сами. Поэтому — короткая заметка в следующей рассылке и пост с пометкой Correction: под прежним постом. Так же у радио: кто услышал ошибку в эфире, может никогда не увидеть исправление на сайте.\n\nЧеловеку, которого ошибка задела (ему приписали чужие слова), пишут или звонят отдельно. Но публичный текст остаётся спокойным: без долгой истории о том, как старалась редакция.\n\nПоправка — не retraction. Retraction — снять всю статью как недостоверную. Так делают, когда неверна суть. Если в статье неверна одна дата, а само решение совета описано верно, статья остаётся с поправкой."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Correction: An earlier version of this article misstated the date of the school board meeting. It is March 12, not March 21.",
+      "ru": "Поправка: в прежней версии статьи неверно указана дата заседания школьного совета: 12 марта, а не 21 марта.",
+      "why": "Что было неверно — первой фразой, верный факт — второй."
+    },
+    {
+      "en": "An earlier version of this article misattributed a quote about the new bus line. It was said by rider Ana Ruiz, not by transit director Paul Grant.",
+      "ru": "В прежней версии статьи цитата о новой автобусной линии приписана не тому человеку. Эти слова сказала пассажирка Ана Руис, а не директор транспортного управления Пол Грант.",
+      "why": "Misattributed — именно про чужие слова; вторая фраза называет, чьи они."
+    },
+    {
+      "en": "An earlier version of this article misidentified Paul Grant. He is the transit director, not the mayor's spokesman.",
+      "ru": "В прежней версии статьи неверно указано, кто такой Пол Грант. Он директор транспортного управления, а не пресс-секретарь мэра.",
+      "why": "Misidentified — человек назван верно, перепутана его должность."
+    },
+    {
+      "en": "Clarification: An earlier version of the headline did not make clear that rides are free only on weekends.",
+      "ru": "Уточнение: прежний заголовок не давал понять, что проезд бесплатный только по выходным.",
+      "why": "Факт в статье был верным, сбивал с толку заголовок, поэтому ярлык — Clarification."
+    },
+    {
+      "en": "This article has been updated to reflect the new opening date of the bus line.",
+      "ru": "Статья обновлена: указана новая дата открытия автобусной линии.",
+      "why": "Update: дату перенесли после публикации, прежняя дата не была ошибкой."
+    },
+    {
+      "en": "As a result, the article also overstated how much a typical rider would save each month.",
+      "ru": "Из-за этого в статье также преувеличено, сколько обычный пассажир сэкономит за месяц.",
+      "why": "Ошибка в числе испортила вывод — об этом говорят отдельной фразой."
+    },
+    {
+      "en": "We regret the error.",
+      "ru": "Приносим извинения за ошибку.",
+      "why": "Коротко и о самой ошибке. Сравни с We apologize for any confusion — так виноватой выглядит «путаница» читателей."
+    },
+    {
+      "en": "We are reviewing how the error occurred.",
+      "ru": "Мы выясняем, как произошла ошибка.",
+      "why": "Говорит только то, что правда: причину ищут, но не знают."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Опубликованная статья / Council backs free after-school program",
+      "source": "Авторский учебный материал; город, газета, люди и цифры вымышлены",
+      "text": "The Lakeview Ledger · May 12, 2026\n\nCouncil backs free after-school program\n\nThe Lakeview City Council voted 5–2 on Tuesday to fund an after-school program at all 14 of the city's elementary schools.\n\nThe program will cost the city $4.2 million a year, about as much as the city spends on its entire library system.\n\n\"This is the best money we will spend this decade,\" said council member Dana Ortiz, who voted for the plan.\n\nThe program will run from 3 to 6 p.m. on school days. It will be free for families that earn less than $60,000 a year; other families will pay $15 a week.\n\nClasses start September 8. Parents can sign up on the school district's website starting in August."
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Проверка редакции / Editor's checking notes",
+      "source": "Авторский учебный материал; внутренние заметки редакции, всё вымышлено",
+      "text": "Editor's checking notes · May 14, 2026 (internal)\n\nCost: The city budget memo lists $4.2 million in total for three years, about $1.4 million a year. The article says \"$4.2 million a year.\"\n\nComparison: The library system's budget is $4.1 million a year.\n\nQuote: The meeting video shows that Maria Chen, a parent, said \"This is the best money we will spend this decade\" during public comment. Ms. Ortiz voted for the plan but did not say this.\n\nHeadline: The article correctly gives the $60,000 income limit. The headline says only \"free.\"\n\nStart date: On May 14, two days after the article ran, the school district moved the start date to September 15.\n\nCause of the cost error: unknown. We are checking the reporter's notes.\n\nWhere the article went: our website; the morning newsletter (about 12,000 subscribers); our social media post, shared about 400 times.\n\nApproved by the editor: a correction at the top of the article, a note in tomorrow's newsletter, and a correction post on social media. Not decided yet: a notice on the homepage.\n\nProposed by the managing editor, not decided: a second check of all budget figures before publication.\n\nMs. Ortiz emailed the newsroom this morning (see M3)."
+    },
+    {
+      "id": "m3",
+      "kind": "reference",
+      "title": "Письмо члена совета / An email from Dana Ortiz",
+      "source": "Авторский учебный материал; письмо вымышлено",
+      "text": "From: Dana Ortiz\nSubject: Your article about the after-school program\n\nI never said that quote. I voted for the program, but I would never call it \"the best money we will spend this decade\" before we have seen any results. Two people have already used that line against me online.\n\nI want a retraction on your front page and a personal apology. And I want to know who gave your reporter the wrong cost figure. Was it someone in the city budget office?\n\nPlease call me today at (312) 555-0164.\n\nDana Ortiz"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Прочитай M1 и сверь стоимость с M2. Переведи поправку: «В прежней версии этой статьи неверно указана стоимость программы. Она составляет $4,2 млн за три года, а не в год».",
+      "context": "",
+      "guidance": {
+        "title": "Ошибку называет глагол misstated",
+        "body": "Первая фраза говорит, что было неверно: An earlier version of this article misstated… Вторая даёт верный факт. Неверную версию называешь один раз — через not…",
+        "example": "An earlier version of this article misstated the number of new bus routes. There are three new routes, not five.",
+        "translation": "В прежней версии статьи неверно указано число новых автобусных маршрутов. Новых маршрутов три, а не пять."
+      },
+      "hint": "За какой срок указаны $4.2 million в M2? Это и есть верный факт для второй фразы.",
+      "answers": [
+        "An earlier version of this article misstated the program's cost. It is $4.2 million over three years, not a year.",
+        "An earlier version of this article misstated the cost of the program. It costs $4.2 million over three years, not $4.2 million a year.",
+        "An earlier version of this article misstated the program's cost. The program will cost $4.2 million over three years, not per year."
+      ],
+      "explanation": "Misstated называет именно неверный факт. Over three years — «за три года»; for three years и in total over three years тоже верны. Not a year, not per year и not each year — равные варианты."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "По M2: кто на самом деле сказал «This is the best money we will spend this decade»? Напиши поправку из двух фраз.",
+      "context": "public comment — время на заседании, когда выступают жители; parent — родитель.",
+      "guidance": {
+        "title": "Чужие слова: misattributed",
+        "body": "Misattributed — слова приписаны не тому человеку. Misidentified — перепутано, кто человек или какая у него должность. Во второй фразе назови, кто сказал на самом деле и в какой роли.",
+        "example": "An earlier version of this article misidentified Tom Reyes. He is the school board's president, not its treasurer.",
+        "translation": "В прежней версии статьи неверно указано, кто такой Том Рейес. Он председатель школьного совета, а не его казначей."
+      },
+      "hint": "Начни так: An earlier version of this article misattributed a quote…",
+      "answers": [
+        "An earlier version of this article misattributed a quote about the program. It was said by Maria Chen, a parent, during public comment, not by council member Dana Ortiz.",
+        "An earlier version of this article misattributed a quote to council member Dana Ortiz. The comment was made by Maria Chen, a parent, during public comment.",
+        "An earlier version of this article misattributed a quote about the after-school program. Maria Chen, a parent, said it during public comment; council member Dana Ortiz did not."
+      ],
+      "explanation": "Засчитывается, если стоит misattributed и названо, кто сказал на самом деле (Maria Chen, родитель). Сказать, что Ortiz голосовала за, не обязательно: это не было ошибкой. Misidentified здесь не подходит — Ortiz названа верно, неверно только, чьи это слова."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "В M2 есть ещё два изменения: заголовок со словом free и новая дата начала. Какой ярлык у каждого — Correction, Clarification или Update? Ответь одной строкой, затем напиши текст про заголовок с правильным ярлыком (одна фраза).",
+      "context": "headline — заголовок; income limit — предел дохода.",
+      "guidance": {
+        "title": "Ярлык по сути: было ли неверно?",
+        "body": "Спроси: было ли это неверно в момент публикации? Да — Correction. Факт верный, но слова могли сбить с толку — Clarification. Появилось новое после публикации — Update.",
+        "example": "Clarification: An earlier version of this article did not make clear that the discount applies only to weekday tickets.",
+        "translation": "Уточнение: прежняя версия статьи не давала понять, что скидка действует только на билеты в будние дни."
+      },
+      "hint": "В самой статье предел $60,000 указан верно. Значит, ошибся факт или сбивало слово в заголовке?",
+      "answers": [
+        "Headline: Clarification. Start date: Update.\nClarification: An earlier version of the headline did not make clear that the program is free only for families that earn less than $60,000 a year.",
+        "The headline needs a clarification, and the new start date is an update.\nClarification: An earlier version of this headline did not make clear that the program is free only for families earning under $60,000 a year."
+      ],
+      "explanation": "Заголовок — Clarification: в статье предел дохода указан верно, но одно слово free обещало больше. Дата — Update: 8 сентября было верно в день публикации, округ перенёс начало позже. Настоящие Correction в этой статье — стоимость (e1) и цитата (e2)."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Ошибка в стоимости испортила ещё одно утверждение в M1. Найди его и допиши к поправке из e1 одну-две фразы с As a result, …: что из-за этого тоже неверно и как на самом деле.",
+      "context": "",
+      "guidance": {
+        "title": "Что ошибка меняет: As a result, …",
+        "body": "Если неверное число стояло в сравнении или выводе, скажи, что это сравнение тоже меняется, и дай верное соотношение. Если ошибка больше ничего не задевает, такая фраза не нужна.",
+        "example": "As a result, the article also overstated how much the new fee adds to a typical monthly bill.",
+        "translation": "Из-за этого в статье также преувеличено, насколько новый сбор увеличивает обычный ежемесячный счёт."
+      },
+      "hint": "В M2: программа — около $1.4 million в год, библиотеки — $4.1 million в год. Какая это часть?",
+      "answers": [
+        "As a result, the article also wrongly said that the program costs about as much as the city's library system. Its yearly cost, about $1.4 million, is roughly a third of the library budget.",
+        "As a result, the article also overstated how the program's cost compares with the library budget. The program costs about $1.4 million a year, about a third of the $4.1 million the city spends on libraries."
+      ],
+      "explanation": "Засчитывается, если названо сравнение с библиотеками и дано верное соотношение: около $1.4 млн в год — примерно треть от $4.1 млн. Overstated — «преувеличила», wrongly said — «неверно сказала»: оба подходят."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Коллега предлагает поставить в начало статьи такую заметку. Перепиши её в ясную поправку о стоимости (2–3 фразы).\n\n\"Editor's note: Some details in this story have been updated for clarity. Due to a typo by a new intern, a number was briefly displayed incorrectly. We apologize for any confusion this may have caused, and we can promise this will never happen again.\"",
+      "context": "",
+      "guidance": {
+        "title": "Четыре способа спрятать ошибку",
+        "body": "Проверь: назван ли неверный факт; не уменьшена ли ошибка (updated for clarity, briefly); не придуманы ли причина и виновный; не обещано ли то, что нельзя выполнить. Any confusion перекладывает ошибку на читателя.",
+        "example": "Correction: An earlier version of this article misstated the date of the hearing. It is June 3, not June 13. We regret the error.",
+        "translation": "Поправка: в прежней версии статьи неверно указана дата слушаний: 3 июня, а не 13 июня. Приносим извинения за ошибку."
+      },
+      "hint": "Найди в заметке: some details, briefly, intern, never again. Что из этого правда по M2?",
+      "answers": [
+        "Correction: An earlier version of this article misstated the program's cost. It is $4.2 million over three years, not $4.2 million a year. We regret the error.",
+        "Correction: An earlier version of this article misstated the program's cost. It is $4.2 million over three years, not a year. We are reviewing how the error occurred, and we regret it."
+      ],
+      "explanation": "Засчитывается, если ярлык Correction, неверный и верный факт названы, а intern, briefly, some details, any confusion и never again убраны. Фраза We are reviewing how the error occurred допустима: по M2 записи репортёра действительно проверяют. Причину «опечатка стажёра» M2 не подтверждает."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Главный редактор просит для внутреннего письма редакции (не для читателей) две фразы: что известно о причине ошибки в стоимости и что решено о проверке бюджетных цифр. Пиши только то, что есть в M2.",
+      "context": "managing editor — заместитель главного редактора.",
+      "guidance": {
+        "title": "Вспоминаем: факт прямо, сомнение — у неизвестного",
+        "body": "Вспоминаем урок об оговорках: известное говори прямо, неизвестное так и называй. И урок о глаголах пересказа: глагол по силе исходных слов — proposed не превращается в decided. Предложенное — has proposed; сделанное — has added.",
+        "example": "We don't yet know why the invoice was sent twice. Finance has proposed a weekly check, but it hasn't started.",
+        "translation": "Мы пока не знаем, почему счёт отправили дважды. Финансовый отдел предложил еженедельную проверку, но она ещё не началась."
+      },
+      "hint": "Начни так: We don't yet know how the cost error happened; we're checking…",
+      "answers": [
+        "We don't yet know how the cost error happened; we're checking the reporter's notes. The managing editor has proposed a second check of all budget figures before publication, but no decision has been made.",
+        "The cause of the cost error is still unknown, and we are checking the reporter's notes. A second check of budget figures has been proposed by the managing editor, but it has not been approved yet."
+      ],
+      "explanation": "Засчитывается, если причина названа неизвестной, сказано, что проверяют записи репортёра, а вторая проверка цифр — предложение (proposed), а не принятая мера. Has been introduced или we now check — ошибка: M2 этого не говорит."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Подготовь по M1 и M2 два текста (вместе 200–300 слов). Первый — заметка в начало статьи. Второй — короткое письмо подписчикам утренней рассылки, которые получили статью с ошибками. Что должно быть: каждое изменение под своим ярлыком (Correction, Clarification, Update); каждая ошибка названа один раз и точно; верные факты из M2; что ошибка в стоимости меняет в сравнении с библиотеками; чьи это слова на самом деле; ни придуманной причины, ни обещаний; We regret the error; в письме — почему вы пишете снова и где исправленная статья.",
+      "context": "",
+      "hint": "План заметки: Correction (cost) + As a result… → Correction (quote) → Clarification (headline) → Update (date) → We regret the errors. План письма: что было в рассылке → две ошибки и верные факты → где исправленная статья.",
+      "answers": [
+        "Correction: An earlier version of this article misstated the program's cost. It is $4.2 million over three years, about $1.4 million a year, not $4.2 million a year. As a result, the article also wrongly compared the program with the library budget; its yearly cost is about a third of that budget.\n\nCorrection: An earlier version of this article misattributed a quote about the program. It was said by Maria Chen, a parent, during public comment, not by council member Dana Ortiz.\n\nClarification: An earlier version of the headline did not make clear that the program is free only for families that earn less than $60,000 a year.\n\nUpdate: This article has been updated to reflect the school district's new start date, September 15.\n\nWe regret the errors.\n\nSubject: A correction to yesterday's story on the after-school program\n\nYesterday's newsletter linked to our story about the after-school program, and that story contained two errors. The program costs $4.2 million over three years, not each year, so it costs far less than the library system, not about the same. The quote \"This is the best money we will spend this decade\" came from Maria Chen, a parent, not from council member Dana Ortiz.\n\nWe are writing again because many of you read the original version. The corrected story is on our website, with a note at the top that lists every change. We regret the errors."
+      ],
+      "explanation": "Засчитывается, если стоимость и цитата идут как Correction, заголовок — как Clarification, дата — как Update; неверная версия звучит один раз; сравнение с библиотеками исправлено; нет причины ошибки, виновного и обещаний. Письмо подписчикам объясняет, зачем оно пришло, и не пересказывает всю статью."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m2",
+        "m3"
+      ],
+      "prompt": "Прочитай M3 и позвони Дане Ортис. Говори 2–3 минуты, как в настоящем разговоре. Что должно быть: короткое прямое извинение за приписанную цитату; что именно и где исправлено (по M2 — только одобренное); почему это поправка, а не retraction всей статьи; честный ответ на вопрос, кто дал неверную цифру; что вы не можете пока обещать (главная страница); вопрос в конце — чего ещё она ждёт от редакции.",
+      "context": "front page — главная страница; retraction — снять статью целиком.",
+      "hint": "Начни так: Ms. Ortiz, thank you for writing. First, I want to apologize…",
+      "answers": [
+        "Ms. Ortiz, thank you for writing to us, and I'm sorry. We attributed a quote to you that you didn't say. The meeting video shows that Maria Chen, a parent, said it during public comment. That was our mistake, not yours, and I understand that people have already used it against you.\n\nHere's what we've done. There's a correction at the top of the article that says the quote was misattributed and names the person who actually said it. The same correction will go out in tomorrow's morning newsletter, because about twelve thousand people got the original story that way. And we're posting a correction on social media, under the original post.\n\nYou asked for a retraction. I understand why, but a retraction means we withdraw the whole story because its main point is false. The main point here is accurate: the council did vote five to two to fund the program, and you voted for it. So the story stays, with the errors corrected and clearly marked.\n\nYou also asked who gave us the wrong cost figure. Honestly, we don't know yet. We're checking our reporter's notes, and I don't want to guess or point at the budget office without evidence.\n\nAs for the homepage, my editor hasn't decided on a homepage notice yet, so I can't promise that today. I can tell you when we decide.\n\nIs there anything else you'd like us to correct, or anything you'd like me to pass on to my editor?"
+      ],
+      "explanation": "Засчитывается, если извинение прямое и без оправданий, названы только одобренные в M2 шаги, объяснено, чем поправка отличается от retraction, о причине сказано «пока не знаем» без обвинения бюджетного отдела, а главная страница не обещана. Оценивай по своей записи: слышно ли, где извинение, где факт, а где то, что ещё не решено."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Вот пост газеты в соцсети, которым поделились около 400 раз. Напиши пост-поправку под ним: не больше 280 знаков, с ярлыком Correction:. Что должно быть: две ошибки и верные факты; сказать, для кого программа бесплатна; извинение.\n\n\"Council backs FREE after-school program at all 14 elementary schools: $4.2 million a year, as much as the whole library system. 'Best money we will spend this decade,' says council member Dana Ortiz.\"",
+      "context": "",
+      "hint": "Сначала выпиши, что обязательно должно остаться, потом сокращай слова, а не факты. $4.2M и $60K для соцсети подходят.",
+      "answers": [
+        "Correction: Our post misstated the program's cost and misattributed a quote. It costs $4.2M over three years, not per year. The quote came from parent Maria Chen, not council member Dana Ortiz. The program is free for families earning under $60K. We regret the errors.",
+        "Correction: The after-school program costs $4.2M over three years, not a year. A parent, Maria Chen, made the \"best money\" comment, not council member Dana Ortiz. And it's free only for families earning under $60K. We regret the errors."
+      ],
+      "explanation": "Засчитывается, если в пределах 280 знаков названы обе ошибки с верными фактами, сказано про предел дохода и есть извинение. Сокращения $4.2M и $60K в соцсетях естественны. Сравнение с библиотеками можно не повторять: верная стоимость уже его снимает."
+    }
+  ]
+}

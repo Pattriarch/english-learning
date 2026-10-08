@@ -1,0 +1,326 @@
+{
+  "id": "extended-c1-sea-coast",
+  "title": "Меняющийся берег: точные слова о воде и честная рекомендация",
+  "subtitle": "Где что находится → уровень воды и её движение → что измерили, а что ожидают → рекомендация, которая меняется от нового факта",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Описать побережье так, чтобы человек без карты его представил, не путать прилив и течение, штормовой нагон и итоговый уровень воды, отделять измерения от прогнозов. И написать жителям рекомендацию с условием: «On the available evidence, I would favor…, provided that…» — а потом честно поправить её, когда на встрече всплыл новый факт.",
+  "formula": "X lies at / along / beyond … · tide — уровень, current — движение · storm surge — добавка, storm tide — итог (на одной шкале) · recorded / estimated / predicted / assumed · On the available evidence, I would favor …, provided that … · I would reconsider if …",
+  "keyRule": {
+    "rule": "Измеренное пиши как факт, ожидаемое — как прогноз с условием; числа сравнивай только на одной шкале.",
+    "example": "The gauge measured 10.0 feet; the predicted tide was 7.8 feet. — Датчик показал 10,0 фута; по прогнозу прилив был 7,8 фута.",
+    "check": "Это кто-то измерил или только ожидает?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-hedging",
+    "path-critical-reading",
+    "extended-b2-evidence"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "extended-b2-evidence"
+  ],
+  "teaches": [
+    "место: estuary, headland, shoreline, offshore, inland; lies / runs / stands + along, beyond, east of, at the west end",
+    "tide — подъём и спад уровня; current — движение воды; the tide rises, a current carries sediment",
+    "storm surge — добавка от шторма сверх прогноза прилива; storm tide — итоговый уровень; сравнение только на одной шкале (reference level)",
+    "brackish — солоноватая (о соли, не о грязи); sediment, erosion, seawall, wetland",
+    "recorded / measured — измерили; estimated — посчитали; predicted / projected — ожидают; assumed — приняли без проверки",
+    "предел наблюдения: at the surveyed sections, over eight months — не годовая скорость для всего берега",
+    "честно передать позицию: самый сильный довод человека и то, что он сам признаёт",
+    "рекомендация: On the available evidence, I would favor …, provided that …; I would reconsider if …",
+    "слова: harbor walk, terrace, gauge, reference level, habitat, closure"
+  ],
+  "sources": [
+    {
+      "title": "NOAA Ocean Service · What is the difference between storm surge and storm tide?",
+      "url": "https://oceanservice.noaa.gov/facts/stormsurge-stormtide.html",
+      "notes": "Сверено: storm surge — ненормальный подъём воды во время шторма сверх предсказанного астрономического прилива; storm tide — весь наблюдаемый уровень, то есть нагон плюс прилив. Отсюда правило «добавка — итог» и вычитание на одной шкале."
+    },
+    {
+      "title": "NOAA Ocean Service · Tidal currents",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_currents/02tidal1.html",
+      "notes": "Сверено: tides — вертикальный подъём и спад уровня, tidal currents — горизонтальное движение воды, которое прилив вызывает; в устьях рек течения меняют направление (flood и ebb). Отсюда различие «tide — уровень, current — движение» и оговорка, что они связаны, но не взаимозаменяемы."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Зачем точные слова, когда город спорит о набережной",
+      "body": "Порт-Олдер — вымышленный городок у широкого устья реки. Прогулочная набережная (harbor walk) разрушается, и совет выбирает из двух вариантов. Первый: оставить набережную на месте и заменить повреждённую часть защитной стены (seawall). Второй: отодвинуть часть дорожки вглубь суши, дать место прибрежному болоту и сделать низкую террасу у воды. Жителей просят прислать мнения.\n\nВ таком споре расплывчатые слова мешают. «Вода поднялась» — от обычного прилива или от шторма? «Берег уходит» — на всём побережье или на шести отмеченных участках? «Терраса будет доступна» — это измерили или только ожидают?\n\nОдну часть инструментов ты уже знаешь. Из урока о критическом чтении: вывод не шире того, кого и что измерили. Из урока об оговорках: may, suggests, appears to ослабляют утверждение до силы сведений. Из отчёта о клубе: provided that — «при условии, что».\n\nНовое здесь — три вещи. Первая: точные слова о месте и о воде. Вторая: числа сравнивают, только если они стоят на одной шкале. Третья: рекомендация, которую ты честно меняешь, когда на встрече всплывает новый факт.\n\nПо-русски мы тоже различаем «прилив» и «течение», «измерили» и «ожидают». В английском разница видна в выборе слова, поэтому путаница сразу меняет смысл."
+    },
+    {
+      "title": "Где что находится: estuary, headland, offshore",
+      "body": "Estuary — широкое устье, где речная вода встречается с морской. Вода там часто brackish — солоноватая. Это слово о соли, а не о грязи. Headland — мыс: суша, которая выступает в море. Высокий холм на прямом берегу — не headland. Shoreline — линия, где суша встречает воду. Offshore — в море, на расстоянии от берега; сколько именно, слово не говорит. Inland — вглубь суши. Wetland — болотистый участок, где вода стоит часто или постоянно и живут птицы и рыбы.\n\nОписание строят от одного ориентира и дальше по порядку: The town lies on the south shore of the estuary. The harbor walk runs east from the river mouth to Bell Point. Beyond the point, the coast faces open water.\n\nТипичная ошибка — перечислить названия без связей между ними. Другая — добавить расстояние или направление, которых нет в тексте."
+    },
+    {
+      "title": "Уровень воды и её движение: tide, current, surge",
+      "body": "Tide — прилив и отлив: регулярный подъём и спад уровня воды, вверх и вниз. Current — течение: вода движется в какую-то сторону. Прилив может вызывать течение (tidal current), но слова не заменяют друг друга. Высокий уровень ничего не говорит о скорости течения. Плывущие листья показывают движение, а не высоту прилива.\n\nВ шторм к обычному приливу добавляется вода, которую нагоняет ветер. Storm surge — эта добавка: насколько вода выше предсказанного прилива. Storm tide — итоговый уровень: прилив плюс добавка. Прогноз 7,8 фута, датчик показал 10,0 — значит, surge около 2,2 фута, а storm tide 10,0 фута.\n\nВычитать можно, только если оба числа стоят на одной шкале (reference level — от какой отметки меряют). Если причина подъёма неизвестна, пиши The water level rose, а не There was a storm surge."
+    },
+    {
+      "title": "Что измерили, что посчитали, чего ожидают",
+      "body": "Глагол показывает, откуда число. Recorded или measured — кто-то измерил. Estimated — посчитали приблизительно. Predicted или projected — ожидают при каких-то условиях. Assumed — приняли без проверки. Это не синонимы для разнообразия.\n\nУ наблюдения есть границы: где, когда и как мерили. Волонтёры восемь месяцев отмечали линию берега на шести участках пляжа. На четырёх берег отступил, на двух песка стало больше. Это изменение на этих участках за эти месяцы. Это не годовая скорость для всего побережья и не причина.\n\nSediment — песок и ил, которые переносит вода. Erosion — когда вода уносит материал с берега. Песок может уходить в одном месте и копиться в другом. Но что это тот же самый песок, без отдельной проверки сказать нельзя."
+    },
+    {
+      "title": "Рекомендация, которая может измениться",
+      "body": "Сначала честно передай обе позиции. У каждого человека назови самый сильный довод и то, что он сам признаёт. Не приписывай ему удобную для спора крайность.\n\nПотом выбор с условием: On the available evidence, I would favor… — «судя по тому, что известно, я бы поддержал…». Дальше provided that и проверяемое условие. И что заставит тебя передумать: I would reconsider if…\n\nФраза More research is needed пустая, пока не сказано, что измерить и как ответ повлияет на выбор. Лучше так: We need to know how often the terrace would be under water, because that decides whether it offers daily access.\n\nКогда приходит новый факт, не прячь старый вывод. Скажи, что изменилось, а что осталось. Неспециалисту каждый термин один раз объясни простыми словами."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The harbor walk runs east from the river mouth to Bell Point, and a small platform stands offshore beyond the point.",
+      "ru": "Набережная идёт на восток от устья реки до мыса Белл-Пойнт, а за мысом в море стоит небольшая платформа.",
+      "why": "Один ориентир и связи: runs east from … to …, beyond, offshore. Расстояния нет — его нет и в тексте."
+    },
+    {
+      "en": "The tide was rising, but the floating leaves showed a current moving toward the river mouth.",
+      "ru": "Вода прибывала, но плывущие листья показывали течение к устью реки.",
+      "why": "Первая часть — об уровне, вторая — о движении воды."
+    },
+    {
+      "en": "The predicted tide was 7.8 feet, and the gauge measured 10.0 feet, so the storm surge was about 2.2 feet.",
+      "ru": "По прогнозу прилив был 7,8 фута, датчик показал 10,0 фута, значит, штормовой нагон — около 2,2 фута.",
+      "why": "Surge — добавка, а итоговые 10,0 фута — storm tide. Оба числа на одной шкале."
+    },
+    {
+      "en": "Water in the creek is usually brackish, although the salt level changes with the tide.",
+      "ru": "Вода в протоке обычно солоноватая, хотя солёность меняется с приливом.",
+      "why": "Brackish — о соли, не о чистоте. Usually не даёт обобщить на все случаи."
+    },
+    {
+      "en": "Volunteers recorded erosion at four of the six marked sections; the survey did not show why.",
+      "ru": "Волонтёры зафиксировали размыв на четырёх из шести отмеченных участков; почему — обследование не показало.",
+      "why": "Recorded — факт с границей «4 из 6». Причину наблюдение не устанавливает."
+    },
+    {
+      "en": "The plan assumes that the terrace will stay dry at ordinary high tide.",
+      "ru": "План исходит из того, что терраса будет сухой при обычном высоком приливе.",
+      "why": "Assumes — принято без проверки. Это не measured и не predicted."
+    },
+    {
+      "en": "On the available evidence, I would favor moving the walkway inland, provided that the city shows how often the new route would be usable.",
+      "ru": "Судя по тому, что известно, я бы поддержал перенос дорожки вглубь суши при условии, что город покажет, как часто новым маршрутом можно будет пользоваться.",
+      "why": "Выбор, его основание и проверяемое условие в одной фразе."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Отчёт для жителей / Port Alder at the Water's Edge",
+      "kind": "reading",
+      "text": "Port Alder at the Water's Edge\n\nAt Port Alder's western edge, the Alder River widens into an estuary before it meets the sea. The town lies on the south shore of the estuary. A paved harbor walk runs east from the river mouth to Bell Point, a headland that sticks out beyond the rest of the shoreline. Beyond Bell Point, the coast faces open water. Inside the estuary, a wetland lies between the west end of the harbor walk and a shallow creek. Farther offshore, east of Bell Point, a small platform carries instruments, but its readings are not part of the current project papers.\n\nThese places are connected, but they do not behave the same way. Near the creek, river water mixes with seawater, so the water is brackish and its salt level changes. The tide raises and lowers the water along the waterfront. A current can also carry sand and silt through the estuary. The open beach beyond Bell Point gets much more wind and waves than the sheltered inner shore, so what is true in one place is not automatically true in the other.\n\nThe city council is considering two options for a worn section of the waterfront. Option A would keep the harbor walk where it is and replace a damaged section of seawall. Option B would move part of the walkway inland, leave more room for the wetland and add a lower terrace closer to the water. Both are options for discussion, not approved construction plans. The early description of Option B assumes that the terrace would stay above ordinary high tides and could therefore be used every day. Neither option promises to prevent every future flood.\n\nMara Venn, who runs a bike repair shop near the harbor walk, supports Option A. Her strongest argument is about connection: the current walk links homes, stores and the town square without a detour. She worries that moving the route would make the waterfront feel less public. A new seawall, she says, could protect the land right behind it and keep a familiar walking route. She admits, however, that a wall does not create more beach, and she wants the council to explain what would happen at the ends of the wall.\n\nJon Hale, a volunteer with the town's habitat group, supports Option B. He argues that the wetland needs room to shift as water and sand conditions change, and a fixed wall can block that. He also sees the terrace as a way to keep people close to the water. Jon admits that Option B would use some existing paved public space. His support depends on the new route being genuinely useful, not just a thin line on a plan.\n\nThe evidence so far is modest. Over eight months, volunteers measured the shoreline position at six marked sections of the open beach beyond Bell Point. At four sections, the shoreline moved landward; the largest change was 1.5 feet. At two sections, the beach gained a little sand. These results show local change during that period, not a long-term rate for the whole coast. No study has tracked whether the sand lost at one section reached the sections that gained it.\n\nCouncil records also list three temporary closures of the western harbor walk during high tides with strong winds. The records do not separate the normal tide level from any extra rise caused by the storms. A wetland survey found feeding birds and small fish along the creek, but it covered only two visits in one season.\n\nBoth Mara and Jon want public space to survive. Before choosing, residents need to separate what has been seen from what is expected.",
+      "source": "Придумано для курса: город, люди и все цифры вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Справка: слова о береге / Coastal Words: Twelve Distinctions",
+      "kind": "reference",
+      "text": "Coastal Words: Twelve Distinctions\n\n1. Coast: the wider area where land meets the sea. Conditions vary along this coast.\n2. Shoreline: the line where land meets water at a given time. The survey recorded a change in shoreline position.\n3. Estuary: usually, a partly enclosed area where river water and seawater meet. The river widens into an estuary.\n4. Brackish water: water that is saltier than river water but less salty than seawater. It describes salt, not cleanliness.\n5. Headland: land that sticks out into the sea. The beach continues beyond the rocky headland.\n6. Offshore: in the sea, away from the shore. The word gives no distance; say it separately: two miles offshore.\n7. Tide: the regular rise and fall of the water level, caused mainly by the moon and the sun. The tide rises in the afternoon.\n8. Current: water moving in one direction. Tides, wind and other forces can drive currents. A current carries sand toward the inlet.\n9. Storm surge: the extra rise in water during a storm, above the predicted tide. It is the extra part, not the total.\n10. Storm tide: the total water level during a storm: the predicted tide plus the surge. Compare levels only on the same reference scale.\n11. Sediment: sand, silt and other material that water carries and drops. Erosion removes it; deposition leaves it somewhere else.\n12. Seawall and wetland: a seawall is a wall that protects land from water and waves; a wetland is land that is wet most of the time and supports plants and animals.",
+      "source": "Придумано для курса: справка по материалам урока."
+    },
+    {
+      "id": "m3",
+      "title": "Общественная встреча / Public Meeting: A Corrected Comparison",
+      "kind": "listening",
+      "text": "Public Meeting: A Corrected Comparison\n\nSpeaker: Thanks for coming. I need to correct one assumption in the description of Option B. The lower terrace was described as being above ordinary high tides. That comparison used two different reference levels, so it was wrong. This changes the discussion about access, but it doesn't decide which option the town should choose.\n\nThe early paper compared a terrace height of 7.0 feet above the town reference level with a predicted ordinary high tide of 5.5 feet above the old gauge zero. The old gauge zero is 2.0 feet above the town reference level. On the town scale, then, the predicted high tide is 7.5 feet. That's half a foot above the planned terrace, not below it. This is a prediction for an ordinary high tide. It's not a measurement of water on the terrace, because the terrace hasn't been built.\n\nAudience member: So the whole inland route would be under water every day?\n\nSpeaker: No. The terrace and the inland route are separate parts of Option B. We've corrected a comparison about the terrace only. It no longer supports a promise of daily access to the terrace. We haven't calculated how often the terrace would be covered, or for how long. And this figure tells us nothing about the rest of the inland route.\n\nOne more record, to get the terms right. During last month's storm, the estuary gauge measured a water level of 10.0 feet above the town reference level. The predicted tide for that place and time was 7.8 feet. The extra 2.2 feet is the estimated storm surge. The total, 10.0 feet, is the storm tide. Calling the whole 10.0 feet a surge would mix up the total with the extra rise.\n\nAudience member: Doesn't that storm prove that a new seawall is the better choice?\n\nSpeaker: It shows one water level at one gauge during one storm. It doesn't show what either option would do along the whole waterfront. We still need information about access in different conditions, how the wetland is used in other seasons and how sand moves. Mara's concern about a continuous public route still matters, and so does Jon's concern about room for the wetland. Next time, our comparison will use the same reference level throughout and keep predictions separate from measurements.",
+      "source": "Придумано для курса: сценарий для озвучки, встреча и цифры вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Новый житель Порт-Олдера никогда не видел берег, карты у него нет. По M1 опиши ему в двух-трёх фразах, где что находится: начни с устья реки и дойди до платформы в море. Используй хотя бы три из слов lies, runs, beyond, offshore.",
+      "context": "",
+      "guidance": {
+        "title": "Один ориентир — и дальше по порядку",
+        "body": "Выбери начальную точку и веди читателя в одну сторону. У каждого объекта — связь с предыдущим: east of, beyond, at the west end. Расстояний, которых нет в тексте, не добавляй.",
+        "example": "The marina lies at the north end of the bay; a lighthouse stands on the cliff beyond it, and a buoy floats offshore.",
+        "translation": "Пристань находится у северного края залива; за ней на скале стоит маяк, а в море качается буй."
+      },
+      "hint": "Начни так: The town lies on the south shore of… Что находится у западного конца набережной?",
+      "answers": [
+        "The town lies on the south shore of the Alder River estuary. The harbor walk runs east from the river mouth to Bell Point, and a wetland lies near its west end. Beyond Bell Point, the coast faces open water, and an instrument platform stands offshore east of the point.",
+        "Port Alder lies on the south shore of the estuary, where the Alder River meets the sea. A harbor walk runs east from the river mouth to a headland called Bell Point. A wetland lies between the west end of the walk and a creek, and a small platform is offshore beyond Bell Point.",
+        "Start at the mouth of the Alder River: the town lies on the south shore of the estuary. From there, the harbor walk runs east to Bell Point, with a wetland at its west end. Beyond the point is open water, and offshore to the east there is a small instrument platform."
+      ],
+      "explanation": "Засчитывается, если читатель может восстановить порядок: устье — набережная на восток — мыс — открытое море — платформа в море, и болото у западного конца. Без выдуманных расстояний."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Житель снимал воду в ветреный день и пишет в группу города. Переведи: «Вода прибывала, но щепки плыли в сторону моря — течение шло от устья».",
+      "context": "щепки — wood chips; в сторону моря — out to sea / toward the sea.",
+      "guidance": {
+        "title": "Tide — вверх-вниз, current — в сторону",
+        "body": "О подъёме и спаде воды говорят tide: the tide is rising. О том, куда движется вода, — current: a current is moving… В одной фразе обе вещи могут идти разными путями.",
+        "example": "The tide was going out, but the current near the pier was still pushing the boats toward land.",
+        "translation": "Начинался отлив, но течение у пирса всё ещё толкало лодки к берегу."
+      },
+      "hint": "Начни так: The tide was rising, but… Куда шло течение — away from the river mouth.",
+      "answers": [
+        "The tide was rising, but the wood chips were floating out to sea; the current was moving away from the river mouth.",
+        "The tide was coming in, but the wood chips were drifting toward the sea, so the current was flowing away from the mouth of the river.",
+        "The tide was rising, but the wood chips floated out to sea — the current was moving away from the river mouth.",
+        "The water level was rising with the tide, but the wood chips were moving toward the sea; the current was flowing out of the estuary."
+      ],
+      "explanation": "Rising и coming in описывают уровень, moving / flowing — направление движения. Сказать The tide was moving away from the river mouth — значит спутать уровень с течением."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Соседний городок публикует сведения: во время шторма датчик показал 9,0 футов, прогноз прилива на это время — 6,5 фута, обе цифры на одной шкале. Напиши для городской рассылки две фразы: каким был итоговый уровень воды и каким — штормовой нагон.",
+      "context": "",
+      "guidance": {
+        "title": "Surge — добавка, storm tide — итог",
+        "body": "Измеренный уровень во время шторма — storm tide. Разница между ним и прогнозом прилива — storm surge, и это оценка. Назови оба числа и скажи, что шкала одна.",
+        "example": "The gauge showed 12 feet against a predicted 9 feet, so the storm tide was 12 feet and the surge about 3 feet.",
+        "translation": "Датчик показал 12 футов при прогнозе 9, то есть итоговый уровень — 12 футов, а нагон — около 3 футов."
+      },
+      "hint": "9,0 − 6,5 = ? Какое из двух чисел — итог, а какое — добавка?",
+      "answers": [
+        "The storm tide was 9.0 feet. The estimated storm surge was 2.5 feet above the predicted tide.",
+        "During the storm, the water reached a storm tide of 9.0 feet. Since the predicted tide was 6.5 feet on the same scale, the storm surge was about 2.5 feet.",
+        "The total water level, or storm tide, was 9.0 feet. The storm surge, the extra rise above the predicted 6.5-foot tide, was about 2.5 feet."
+      ],
+      "explanation": "Итог 9,0 фута — storm tide, 2,5 фута — storm surge. Estimated или about честно показывают, что нагон посчитан, а не измерен отдельно."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В городской группе кто-то пишет по M1: «The survey proves that the whole coast is losing 1.5 feet a year, and a seawall will stop it». Перепиши это одной-двумя фразами так, чтобы осталось только то, что действительно измерили, и было видно, чего обследование не показывает.",
+      "context": "landward — в сторону суши.",
+      "guidance": {
+        "title": "Вспоминаем: вывод не шире измерения",
+        "body": "Вспоминаем урок о критическом чтении: где мерили, сколько и как долго. Здесь шесть участков, восемь месяцев, а 1,5 фута — самое большое изменение, не среднее. Про стену сведений нет вовсе.",
+        "example": "Staff counted 40 cars on two Saturdays; that does not tell us weekday traffic or whether a new light would help.",
+        "translation": "Сотрудники насчитали 40 машин в две субботы; это ничего не говорит о движении в будни и о том, поможет ли новый светофор."
+      },
+      "hint": "Начни так: Over eight months, volunteers recorded… Потом: This does not show…",
+      "answers": [
+        "Over eight months, volunteers recorded the shoreline moving landward at four of six marked sections; the largest change was 1.5 feet. This does not show a yearly rate for the whole coast or what a seawall would do.",
+        "The survey recorded landward movement at four of the six sections it measured over eight months, with a maximum of 1.5 feet. It says nothing about a yearly rate for the whole coast or about the effect of a seawall.",
+        "At four of six marked sections, the shoreline moved landward during eight months of measurements, by up to 1.5 feet. Two sections gained sand. We can't turn this into a yearly loss for the entire coast, and it tells us nothing about a seawall."
+      ],
+      "explanation": "Засчитывается, если сохранены границы: 4 из 6 участков, восемь месяцев, 1,5 фута — максимум. И прямо сказано, что годовой скорости для всего берега и эффекта стены сведения не дают. Упоминание двух участков с прибавкой песка — плюс."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Секретарь встречи просит нейтральную справку по M1. Напиши две фразы: самый сильный довод Мары и что она сама признаёт; самый сильный довод Джона и что признаёт он.",
+      "context": "",
+      "guidance": {
+        "title": "Сильный довод и собственная уступка",
+        "body": "Честно передать позицию — значит назвать её лучший довод, а не самый слабый. Добавь, что человек сам признал: это показывает, что ты его не карикатуришь.",
+        "example": "Lena wants the market to stay downtown because it brings customers to small stores, although she admits that parking is a problem.",
+        "translation": "Лена хочет оставить рынок в центре, потому что он приводит покупателей в маленькие магазины, хотя признаёт, что с парковкой проблема."
+      },
+      "hint": "Мара: что связывает нынешняя набережная? Джон: зачем болоту место? Для уступки ищи в M1 admits.",
+      "answers": [
+        "Mara supports keeping the harbor walk because it connects homes, stores and the square without a detour, although she admits that a wall does not create more beach. Jon supports moving part of the route inland because the wetland needs room to shift, although he admits that this would use some paved public space.",
+        "Mara's strongest point is continuity: the present walk links homes, stores and the square, but she accepts that a seawall won't add beach and wants to know what happens at its ends. Jon's strongest point is that a fixed wall can block the wetland from shifting, but he accepts that Option B would take some existing public space."
+      ],
+      "explanation": "Засчитывается, если у Мары названы связь домов, магазинов и площади и её признание про пляж или концы стены, а у Джона — место для болота и признание, что вариант B забирает часть общественного пространства. Без оценок вроде «Мара против природы»."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Послушай M3 один раз, не открывая текст. Напиши жительнице, которая пропустила встречу, две-три фразы: что именно исправили, что это значит для террасы и чего мы пока не знаем. Потом открой текст и проверь цифры.",
+      "context": "terrace — терраса у воды; reference level — отметка, от которой меряют высоту.",
+      "guidance": {
+        "title": "Вспоминаем: известное — отдельно от неизвестного",
+        "body": "Вспоминаем отчёт о клубе: сначала то, что установлено, потом пробел — It remains unclear how often… или We don't know yet whether… После how often и whether — обычный порядок слов.",
+        "example": "The new schedule saves drivers ten minutes. It remains unclear whether riders will notice the change.",
+        "translation": "Новое расписание экономит водителям десять минут. Пока неясно, заметят ли это пассажиры."
+      },
+      "hint": "Что было на разных шкалах? Где теперь прогноз прилива — выше или ниже террасы? Что выступающий прямо назвал непосчитанным?",
+      "answers": [
+        "The earlier comparison mixed two reference levels. On the town scale, an ordinary high tide is predicted at 7.5 feet, which is half a foot above the planned 7.0-foot terrace, so daily access to the terrace can no longer be promised. It remains unclear how often or for how long the terrace would be under water, and this says nothing about the rest of the inland route.",
+        "They corrected the terrace comparison: it used two different reference levels. Ordinary high tide is now predicted to be 0.5 feet above the terrace, so we can't promise people daily use of it. We don't know yet how often it would be covered."
+      ],
+      "explanation": "Засчитывается, если названы две разные шкалы, прогноз выше террасы и потеря обещания ежедневного доступа, а неизвестное отделено: как часто и надолго терраса будет под водой. Нельзя писать, что весь маршрут будет каждый день под водой.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Начни своё письмо в совет: одной-двумя фразами скажи, какой вариант ты поддерживаешь сейчас, при каком условии, и что заставило бы тебя передумать. Учитывай исправление из M3.",
+      "context": "",
+      "guidance": {
+        "title": "Выбор + условие + что изменит решение",
+        "body": "On the available evidence, I would favor… показывает, что выбор держится на нынешних сведений. Provided that даёт проверяемое условие. I would reconsider if… называет факт, который тебя переубедит.",
+        "example": "On the available evidence, I would favor the later start time, provided that bus schedules can change too; I would reconsider if parents could not get to work on time.",
+        "translation": "Судя по тому, что известно, я бы поддержал более позднее начало уроков при условии, что расписание автобусов тоже изменят; я бы передумал, если бы родители не успевали на работу."
+      },
+      "hint": "Условие должно быть таким, чтобы его можно было проверить: что именно город должен посчитать или показать?",
+      "answers": [
+        "On the available evidence, I would favor developing Option B further, provided that the city calculates how often the terrace and the inland route would be usable. I would reconsider if that study showed that people would lose regular access to the waterfront.",
+        "On the available evidence, I would favor Option A, provided that the council explains what would happen at the ends of the new seawall. I would reconsider if a study showed that the wall would leave the wetland no room to shift.",
+        "On the available evidence, I would favor keeping both options open, provided that the next comparison uses one reference level throughout. I would reconsider if the new figures showed that one option clearly protects access better."
+      ],
+      "explanation": "Засчитывается любой вариант, если есть выбор, проверяемое условие и факт, который изменит решение. Если ты выбрал B, нельзя обещать ежедневную террасу: M3 это обещание сняло."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши в городской совет письменное мнение жителя на 180–250 слов по M1–M3. Что должно быть: оба варианта с их сильной стороной и ценой; что изменило исправление из M3 и чего оно не решает; storm tide и storm surge из M3 без путаницы; твой выбор с условием (provided that); одна конкретная проверка, которая может изменить твоё решение, и почему; хотя бы шесть слов о береге, которые работают на смысл, а не стоят списком. Без инженерных гарантий.",
+      "context": "",
+      "hint": "План: мой выбор и условие → сильная сторона другого варианта → что изменило исправление → что показал шторм и чего не показал → что проверить и почему это может изменить решение.",
+      "answers": [
+        "On the available evidence, I would favor developing Option B further, provided that its access claims are corrected and compared openly with Option A.\n\nOption A has a real strength: the harbor walk connects homes, stores and the square without a detour, and a new seawall could protect the land right behind it. However, a fixed wall may leave the wetland no room to shift, and nobody has explained what would happen to the shoreline at the ends of the wall.\n\nOption B would leave more room for the wetland inside the estuary and still keep people close to the water. But it would use some paved public space, and the meeting corrected a key assumption: on the town scale, an ordinary high tide is predicted to be half a foot above the planned terrace. Daily access to the terrace can no longer be promised. This correction concerns the terrace only, not the whole inland route.\n\nThe storm record does not settle the choice either. The gauge measured a storm tide of 10.0 feet; the estimated storm surge was 2.2 feet above the predicted tide. That is one level at one gauge during one storm.\n\nBefore deciding, the city should calculate how often and for how long the terrace and the inland route would be under water, using one reference level. If that study shows that residents would regularly lose access, I would reconsider and support Option A."
+      ],
+      "explanation": "Засчитывается, если у обоих вариантов названы сила и цена, исправление из M3 передано точно (прогноз на 0,5 фута выше террасы, обещание ежедневного доступа снято, остальной маршрут не затронут), 10,0 — storm tide, 2,2 — surge, есть выбор с условием и проверка, которая может его изменить. Обоснованная поддержка варианта A тоже засчитывается.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Закрой материалы. Друг не был на встрече и далёк от темы. Объясни ему вслух за 2–3 минуты, что происходит с берегом Порт-Олдера и почему один шторм не решает выбор. Что должно быть: два варианта в двух словах; простое объяснение двух терминов (например, tide и storm surge); что исправили на встрече; ответ на его возражение «Surely one big storm shows we need the wall?» — признай разумную часть и объясни, чего шторм не доказывает; что, по-твоему, нужно проверить дальше.",
+      "context": "",
+      "hint": "Начни так: So the town is choosing between two plans… На возражение: That's a fair point, but…",
+      "answers": [
+        "So the town is choosing between two plans for the waterfront. One keeps the walkway where it is and builds a new seawall. The other moves part of the walkway inland, gives the wetland more room and adds a low terrace by the water.\n\nTwo terms help here. The tide is just the water going up and down every day. A storm surge is the extra water a storm pushes in on top of the normal tide. So during last month's storm, the water reached ten feet, but only about two feet of that was the surge.\n\nAt the meeting, they corrected one number. The plan said the terrace would stay dry at normal high tide. It turned out they had compared two different scales. On the same scale, normal high tide is half a foot above the terrace. So nobody can promise you could use it every day. But that's about the terrace, not the whole new route.\n\nYou said one big storm shows we need the wall. That's a fair point: the storm shows the danger is real, and a wall could protect the land behind it. But that storm was one reading at one gauge on one day. It doesn't tell us what either plan would do along the whole waterfront, or what a wall would do to the wetland.\n\nWhat I'd want next is simple: how often would each route actually be under water? That's the question that should decide it."
+      ],
+      "explanation": "Засчитывается, если два термина объяснены простыми словами, исправление про террасу передано без преувеличения, возражение признано в разумной части, но шторм не превращён в доказательство, и названа конкретная следующая проверка. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй заметку для протокола встречи. Сверь с M1–M3: исправь перепутанные термины, статус чисел (измерили или ожидают) и обещания, которых материалы не дают. Всё верное сохрани.\n\nЧерновик: \"Port Alder's harbor walk runs east from the river mouth to Bell Point, with a wetland near its west end and an instrument platform offshore east of the point. A tide is water flowing along the shore, while a current is the regular rise in water level. The terrace is planned at 7.0 feet on the town scale, and ordinary high tide is predicted at 7.5 feet. This measures flooding of the terrace every day. During last month's storm, the gauge measured 10.0 feet and the predicted tide was 7.8 feet. The whole 10.0 feet was the storm surge. The corrected comparison guarantees that Option B will fail and that a new seawall will keep the entire waterfront open in all conditions.\"",
+      "context": "",
+      "hint": "Проверь по слоям: где что находится (верно ли?) → определения tide и current → измерение или прогноз → surge или итог → насколько широкий вывод.",
+      "answers": [
+        "Port Alder's harbor walk runs east from the river mouth to Bell Point, with a wetland near its west end and an instrument platform offshore east of the point. The tide is the regular rise and fall of the water level, while a current is water moving in one direction. The terrace is planned at 7.0 feet on the town scale, and ordinary high tide is predicted at 7.5 feet. This is a prediction, not a measurement: the terrace has not been built, and no one has calculated how often it would be covered. During last month's storm, the gauge measured 10.0 feet against a predicted tide of 7.8 feet, so the storm tide was 10.0 feet and the estimated storm surge was 2.2 feet. The correction means daily access to the terrace can no longer be promised. It does not show that Option B will fail, and it does not show that a new seawall would keep the whole waterfront open in all conditions."
+      ],
+      "explanation": "Засчитывается, если сохранены верные места и числа, исправлены обе пары терминов (tide / current, surge / storm tide), прогноз не выдан за измерение, а две гарантии заменены честным пределом вывода. Порядок фраз и слова могут быть другими.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    }
+  ]
+}

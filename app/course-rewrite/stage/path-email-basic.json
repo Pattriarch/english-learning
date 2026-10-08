@@ -1,0 +1,368 @@
+{
+  "id": "path-email-basic",
+  "title": "Короткое письмо: кому, зачем и о чём прошу",
+  "subtitle": "Hi Sam, → I’m writing about… → Could you…? → Thanks,",
+  "level": "A2",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · A2",
+  "minutes": 30,
+  "goal": "Написать короткое письмо другу или учителю: тема, приветствие, зачем пишешь, вежливая просьба и подпись.",
+  "formula": "Hi Mia, → I'm writing about… → Could you…? → Best, Anna",
+  "keyRule": {
+    "rule": "Первой фразой скажи, зачем пишешь. Потом вежливо попроси. В конце — имя.",
+    "example": "I'm writing about the homework. Could you send it to me? — Пишу насчёт задания. Не могли бы вы его прислать?",
+    "check": "Приветствие с запятой: Hi Sam, — текст с новой строки."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 1,
+  "prerequisites": [
+    "path-listening-routine"
+  ],
+  "recycles": [
+    "path-requests-can",
+    "path-past-simple",
+    "path-connectors-basic"
+  ],
+  "teaches": [
+    "строение письма: тема → приветствие → зачем пишу → просьба → подпись",
+    "приветствие с запятой: Hi Sam, (знакомому); Hello Ms. Carter, (учителю, взрослому); Hello, — если имени не знаешь",
+    "Mr., Ms., Dr. с точкой + фамилия; Ms. подходит любой женщине",
+    "первая фраза: I'm writing about … / I'm writing because …",
+    "просьба в письме — Could you …?; please после you или в конце; голый приказ звучит резко",
+    "подпись: Thanks, / Thank you, / Best, и имя на новой строке",
+    "тема письма — суть в нескольких словах; ответ начинаем с Thanks for …"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Email Etiquette",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/email_etiquette.html",
+      "notes": "Сверено по американскому справочнику: содержательная тема письма, прямота и краткость, завершение вроде best, thanks, sincerely и имя отправителя, обращение с титулом (Dr., Ms.) к старшему или незнакомому."
+    },
+    {
+      "title": "Инглекс · Как написать электронное письмо на английском",
+      "url": "https://englex.ru/how-to-write-an-email-in-english/",
+      "notes": "Строение письма для русскоязычных: тема, приветствие с запятой и текст с новой строки, Ms. для любой женщины, первая фраза с I am writing. Британские Yours faithfully и Cheers в урок не взяты."
+    }
+  ],
+  "visual": {
+    "title": "Письмо в четыре шага",
+    "kind": "sequence",
+    "why": "Каждая часть отвечает на вопрос читателя: о чём письмо, кому оно, что нужно и от кого.",
+    "items": [
+      {
+        "label": "Тема: о чём",
+        "en": "Subject: Our Tuesday lesson",
+        "ru": "Тема: наш урок во вторник",
+        "note": "Несколько слов о сути, а не Hello."
+      },
+      {
+        "label": "Приветствие: кому",
+        "en": "Hello Mr. Brown,",
+        "ru": "Здравствуйте, господин Браун,",
+        "note": "Mr. с точкой, после фамилии — запятая."
+      },
+      {
+        "label": "Цель и просьба: что нужно",
+        "en": "I'm writing about our lesson. Could you call me today?",
+        "ru": "Пишу насчёт нашего урока. Не могли бы вы позвонить мне сегодня?",
+        "note": "Сначала зачем пишешь, потом просьба с could."
+      },
+      {
+        "label": "Подпись: от кого",
+        "en": "Thank you, Kate",
+        "ru": "Спасибо, Кейт",
+        "note": "Thank you, — а имя на следующей строке."
+      }
+    ],
+    "focus": [
+      "Subject",
+      "Hello",
+      "Could you",
+      "Thank you"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Из чего состоит короткое письмо?",
+      "body": "Тебе нужно попросить учительницу прислать задание. По-русски ты бы начал: «Здравствуйте, Анна Сергеевна! Пишу по поводу…» Английское письмо устроено похоже, только короче и прямее.\n\nТема (Subject) — несколько слов о главном: Question about homework. Приветствие с запятой: Hi Mia, или Hello Mr. Brown, — а текст с новой строки. Первая фраза сразу говорит, зачем пишешь. Потом просьба. В конце — Thanks, или Best, и на следующей строке имя.\n\nАмериканцы ценят, когда цель видна в первой-второй строке. Для такого письма хватает трёх–пяти коротких предложений."
+    },
+    {
+      "title": "Hi или Hello: кому как писать",
+      "body": "Другу, коллеге, соседу пиши Hi и имя: Hi Jake, (можно и Hi, Jake,). Учителю, врачу, незнакомому взрослому — Hello, затем Mr. (мужчине) или Ms. (женщине) и фамилия: Hello Ms. Green, — с точкой после Ms. Ms. [миз] подходит любой женщине, замужем она или нет. Dear Ms. Green, — ещё официальнее. Если имени не знаешь, напиши просто Hello, — Dear Sir or Madam в обычном письме звучит слишком торжественно."
+    },
+    {
+      "title": "Первая фраза — зачем ты пишешь",
+      "body": "Не начинай с долгого вступления. Сразу назови тему: I’m writing about Friday’s class — пишу насчёт занятия в пятницу. Или причину: I’m writing because I missed the class. Здесь am + -ing: ты пишешь прямо сейчас, а I write звучало бы как «пишу обычно». Другу можно ещё короче: Quick question about Saturday — быстрый вопрос насчёт субботы."
+    },
+    {
+      "title": "Просьба в письме: Could you…?",
+      "body": "Could you…? ты знаешь из урока про can: это мягкая просьба. В письме учителю, врачу или коллеге бери её, а не Can you…? Please ставь после you или в конце: Could you please call me? Could you call me, please? Голый приказ Send me the file в таком письме звучит резко."
+    },
+    {
+      "title": "Подпись и тема",
+      "body": "В конце — короткая фраза с запятой: Thanks, / Thank you, / Best, — а имя на следующей строке. Best, — нейтральное «всего доброго», подходит почти всем. Тема письма — конкретная: Question about Friday, а не Hello. Отвечая на письмо, начни со спасибо: Thanks for your email. В чате тема и подпись не нужны: хватит Hi Jake! и самого текста."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Subject: Question about Friday's class",
+      "ru": "Тема: вопрос о занятии в пятницу",
+      "why": "Тема называет суть письма в нескольких словах."
+    },
+    {
+      "en": "Hi Jake,",
+      "ru": "Привет, Джейк,",
+      "why": "Знакомому — Hi и имя. После имени запятая, текст — с новой строки."
+    },
+    {
+      "en": "Hello Dr. Lee,",
+      "ru": "Здравствуйте, доктор Ли,",
+      "why": "Врачу — Hello, Dr. и фамилия. После Dr. точка."
+    },
+    {
+      "en": "I'm writing about the trip on Saturday.",
+      "ru": "Пишу насчёт поездки в субботу.",
+      "why": "Первая фраза сразу называет тему. Am writing — пишешь сейчас."
+    },
+    {
+      "en": "Could you send me the photos, please?",
+      "ru": "Не могли бы вы прислать мне фотографии?",
+      "why": "Просьба в письме — с could. Please в конце, через запятую."
+    },
+    {
+      "en": "Thanks for your email.",
+      "ru": "Спасибо за письмо.",
+      "why": "Так часто начинают ответ: человек сразу видит, на что ты отвечаешь."
+    },
+    {
+      "en": "Best, Anna",
+      "ru": "Всего доброго, Анна",
+      "why": "Best, — нейтральная подпись. В письме имя пишут на следующей строке."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь письмо другу Сэму. Напиши первую строку — приветствие «Привет, Сэм».",
+      "context": "",
+      "guidance": {
+        "title": "Знакомому — Hi и имя",
+        "body": "В письме другу или коллеге начни с Hi и имени. После имени ставь запятую, а сам текст начинай со следующей строки.",
+        "example": "Hi Mia,",
+        "translation": "Привет, Мия,"
+      },
+      "hint": "Два слова и знак после имени. Точка или запятая?",
+      "answers": [
+        "Hi Sam,",
+        "Hi, Sam,"
+      ],
+      "explanation": "Hi Sam, — обычное начало письма знакомому. Вариант Hi, Sam, с запятой после Hi тоже правильный."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Теперь ты пишешь учительнице английского, её зовут Linda Carter. Напиши вежливое приветствие: «Здравствуйте, госпожа Картер».",
+      "context": "",
+      "guidance": {
+        "title": "Учителю — Ms. и фамилия",
+        "body": "Hello + Ms. + фамилия — примерно как наше обращение по имени-отчеству: вежливо, но не холодно. Мужчине пишут Mr. После Ms. и Mr. — точка, после фамилии — запятая, а имя Linda не нужно.",
+        "example": "Hello Mr. Brown,",
+        "translation": "Здравствуйте, господин Браун,"
+      },
+      "hint": "Начни так: Hello Ms. … Что идёт после Ms. — Linda или Carter?",
+      "answers": [
+        "Hello Ms. Carter,",
+        "Hello, Ms. Carter,",
+        "Dear Ms. Carter,"
+      ],
+      "explanation": "Hello Ms. Carter, — вежливо и не слишком официально; Dear Ms. Carter, — чуть официальнее, тоже верно. С Ms. ставится фамилия, а не имя."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Первая фраза письма Ms. Carter: «Пишу насчёт домашнего задания». homework = домашнее задание.",
+      "context": "",
+      "guidance": {
+        "title": "Сразу скажи, зачем пишешь",
+        "body": "Сразу после приветствия назови тему: I’m writing about … — «пишу насчёт…». Am + -ing, потому что пишешь прямо сейчас.",
+        "example": "I'm writing about our meeting.",
+        "translation": "Пишу насчёт нашей встречи."
+      },
+      "hint": "Начни так: I'm writing … Какое маленькое слово значит «насчёт»?",
+      "answers": [
+        "I'm writing about the homework.",
+        "I am writing about the homework.",
+        "I'm writing about my homework.",
+        "I am writing about my homework."
+      ],
+      "explanation": "Тема видна с первой строки. I write about… здесь не подходит: так говорят о привычке, а не о письме, которое пишешь сейчас."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Попроси Ms. Carter: «Не могли бы вы прислать мне задание?» send = прислать.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: Could you…?",
+        "body": "Could you…? — мягкая просьба из урока про can. Учителю пиши её, а не Can you…?",
+        "example": "Could you call me back?",
+        "translation": "Не могли бы вы мне перезвонить?"
+      },
+      "hint": "Начни так: Could you send …? Please можно добавить в конце.",
+      "answers": [
+        "Could you send me the homework?",
+        "Could you send me the homework, please?",
+        "Could you please send me the homework?",
+        "Could you send the homework to me?",
+        "Could you send the homework to me, please?"
+      ],
+      "explanation": "Could you send me the homework? — вежливая просьба; с please тоже верно. Can you… учителю не ошибка, но could звучит мягче."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Закончи письмо Ms. Carter: поблагодари и подпишись. Тебя зовут Alex.",
+      "context": "",
+      "guidance": {
+        "title": "Подпись — две строки",
+        "body": "В конце короткая фраза с запятой: Thank you, или Thanks, — а имя на новой строке. Учителю чуть вежливее Thank you, другу хватит Thanks,",
+        "example": "Best,\nMaria",
+        "translation": "Всего доброго,\nМария"
+      },
+      "hint": "Сначала благодарность и запятая, потом с новой строки — имя.",
+      "answers": [
+        "Thank you,\nAlex",
+        "Thanks,\nAlex",
+        "Thank you, Alex",
+        "Thanks, Alex"
+      ],
+      "explanation": "Thank you, и имя на новой строке — обычная подпись. Thanks, тоже подходит; Best, — нейтральный вариант, если благодарить не за что."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Письмо почти готово: ты пропустил занятие в понедельник и просишь прислать задание. Придумай тему (Subject) — 2–5 слов о главном.",
+      "context": "",
+      "guidance": {
+        "title": "Тема — суть в нескольких словах",
+        "body": "Subject человек видит первым, ещё до письма. Назови суть: о чём письмо или что нужно. Hello, Question или пустая строка ничего не говорят.",
+        "example": "Subject: Photos from the trip",
+        "translation": "Тема: фотографии с поездки"
+      },
+      "hint": "О чём письмо? Начни так: Subject: Homework …",
+      "answers": [
+        "Subject: Homework for Monday's class",
+        "Subject: Question about the homework",
+        "Subject: Missed class on Monday"
+      ],
+      "explanation": "Хорошая тема называет суть: homework, missed class. Подойдёт любая короткая и конкретная тема."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сэм прислал тебе фотографии с поездки. Начни ответ: «Спасибо за фотографии!» photos = фотографии.",
+      "context": "",
+      "guidance": {
+        "title": "Отвечаешь — начни со спасибо",
+        "body": "В ответе на письмо первая фраза часто благодарит за него: Thanks for + то, что прислали. Так человек сразу видит, на что ты отвечаешь.",
+        "example": "Thanks for the invitation!",
+        "translation": "Спасибо за приглашение!"
+      },
+      "hint": "Начни так: Thanks for … Перед photos нужен артикль.",
+      "answers": [
+        "Thanks for the photos!",
+        "Thank you for the photos!",
+        "Thanks for the photos.",
+        "Thank you for the photos."
+      ],
+      "explanation": "Thanks for the photos — благодарность, и сразу ясно, на что ответ. The — потому что это те самые фотографии, которые прислал Сэм."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Проверь начало письма другу: Hi Sam. I write about Saturday. Здесь две ошибки. Исправь их и напиши обе строки правильно.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь начало письма",
+        "body": "Перед отправкой проверь две вещи: какой знак стоит после имени и не спутал ли ты «пишу сейчас» с «пишу обычно».",
+        "example": "Hello Mr. Brown,\nI'm writing about the class.",
+        "translation": "Здравствуйте, господин Браун,\nпишу насчёт занятия."
+      },
+      "hint": "Какой знак нужен после имени? Ты пишешь письмо прямо сейчас — значит, I'm …",
+      "answers": [
+        "Hi Sam,\nI'm writing about Saturday.",
+        "Hi Sam,\nI am writing about Saturday.",
+        "Hi, Sam,\nI'm writing about Saturday."
+      ],
+      "explanation": "Приветствие заканчивается запятой, а письмо продолжается со следующей строки. I’m writing — пишу сейчас; I write значило бы «пишу вообще, обычно»."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Объясни Ms. Carter, почему просишь задание: «Я пропустил занятие в понедельник, потому что был болен». miss = пропустить, sick = болен.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем прошедшее и because",
+        "body": "Вспоминаем: законченное событие — в прошедшем времени (miss → missed, am → was), а because вводит причину. Одной такой фразы хватает, чтобы объяснить просьбу.",
+        "example": "I was late because I missed the bus.",
+        "translation": "Я опоздал, потому что пропустил автобус."
+      },
+      "hint": "Начни так: I missed … После because — I was …",
+      "answers": [
+        "I missed class on Monday because I was sick.",
+        "I missed the class on Monday because I was sick.",
+        "I missed Monday's class because I was sick.",
+        "I missed my class on Monday because I was sick."
+      ],
+      "explanation": "Missed и was — прошедшее время: занятие уже прошло. Because I was sick — причина. «Болеть» в американском английском чаще sick, чем ill."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "На кухне сломался кран. Напиши управляющему домом, Mr. Diaz, короткое письмо: тема, приветствие, что случилось, просьба прислать мастера, когда ты будешь дома, подпись.",
+      "context": "faucet — кран; stopped working — перестал работать; send someone to fix it — прислать кого-нибудь починить; be home — быть дома.",
+      "hint": "Порядок: Subject → Hello Mr. Diaz, → I'm writing about … → Could you …? → Thank you, и имя.",
+      "answers": [
+        "Subject: Kitchen faucet\n\nHello Mr. Diaz,\nI'm writing about the kitchen faucet. It stopped working yesterday. Could you send someone to fix it? I'll be home after five today.\n\nThank you,\nAlex"
+      ],
+      "explanation": "Проверь пять частей: тема, Mr. и фамилия с запятой, что случилось (в прошедшем времени), просьба с could и подпись. Когда ты будешь дома, скажи через will или going to."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши другу Сэму короткое письмо: в субботу вы с друзьями собираетесь в поход. Позови его и попроси о чём-то — например, заехать за тобой или взять что-то с собой. Тема, Hi Sam, 3–4 фразы, подпись.",
+      "context": "go on a hike — пойти в поход; come with us — пойти с нами; bring — взять с собой; pick me up — заехать за мной.",
+      "hint": "Начни так: Subject: Saturday hike. Потом: Hi Sam, we're going to …",
+      "answers": [
+        "Subject: Saturday hike\n\nHi Sam,\nWe're going to go on a hike near the lake on Saturday. Do you want to come with us? Could you pick me up at nine? I can bring some sandwiches.\n\nBest,\nAlex"
+      ],
+      "explanation": "В письме должны быть план (going to), приглашение и просьба. Другу подходят и Can you…?, и Could you…?; подпись — Thanks, или Best,."
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Mr. Diaz не ответил на письмо, и ты звонишь ему. Включился автоответчик. Оставь голосовое: кто ты, зачем звонишь, одна просьба и спасибо. 3–5 фраз, около 30 секунд.",
+      "context": "apartment 4B — квартира 4B.",
+      "hint": "Начало — как в уроке о сообщениях: Hello Mr. Diaz, this is … from apartment … I'm calling about …",
+      "answers": [
+        "Hello Mr. Diaz, this is Alex from apartment 4B. I'm calling about the kitchen faucet. It stopped working yesterday. Could you call me back today? Thank you!",
+        "Hi Mr. Diaz, it's Alex in 4B. I sent you an email about my faucet. It still doesn't work. Could you send someone tomorrow morning? Thanks!"
+      ],
+      "explanation": "Голосовое устроено как письмо: кто ты, зачем звонишь, просьба, спасибо. Только вместо I'm writing — I'm calling."
+    }
+  ]
+}

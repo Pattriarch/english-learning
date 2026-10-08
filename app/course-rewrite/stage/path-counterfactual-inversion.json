@@ -1,0 +1,329 @@
+{
+  "id": "path-counterfactual-inversion",
+  "title": "Had I known, Should you need: условие без if",
+  "subtitle": "Had I known → Had I not → Should you need → Were the city to… → Were it not for / Had it not been for → где лучше обычное if",
+  "level": "C2",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Писать официальные условия без if: «Если бы я знал, я бы позвонил» — Had I known, I would have called; «Если у вас возникнут вопросы, звоните» — Should you have any questions, please call. И понимать, когда в разговоре лучше обычное if.",
+  "formula": "Had + кто + третья форма → Had + кто + not → Should + кто + глагол → Were + кто + to + глагол → Were it not for (сейчас) / Had it not been for (тогда) → в разговоре — обычное if",
+  "keyRule": {
+    "rule": "Убираешь if — ставь had, should или were перед «кто». Not — после «кто».",
+    "example": "Had I known, I would have called. — Если бы я знал, я бы позвонил.",
+    "check": "Hadn't I known или Had I not known? Верно второе."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-third-conditional",
+    "path-mixed-conditionals",
+    "path-inversion"
+  ],
+  "recycles": [
+    "path-mixed-conditionals"
+  ],
+  "teaches": [
+    "условие без if: had, should или were перед «кто» — смысл тот же, тон официальнее; с другими глаголами нельзя (Calls he — ошибка)",
+    "Had + кто + третья форма = If + кто + had…: Had we known, we would have waited; результат может быть и о сейчас (would be living now)",
+    "«не» — после «кто» и без сокращения: Had I not checked…, не Hadn't I checked",
+    "Should + кто + словарная форма — возможный случай в будущем, не «должен»: Should you have any questions, please contact us",
+    "Were + кто + прилагательное или место: Were I in your position… (was нельзя); Were + кто + to + глагол — маловероятное будущее с would",
+    "«если бы не»: Were it not for… — сейчас, Had it not been for… — тогда",
+    "уместно в деловом письме, отчёте, речи; в разговоре — If I'd known…; одной-двух на текст хватает",
+    "ошибки: If had I known, Would you need help…, Hadn't we…",
+    "слова: reservation, tenant, heating, afford, loan, couch, tow, refund"
+  ],
+  "sources": [
+    {
+      "title": "Grammarphobia · A conditional question",
+      "url": "https://grammarphobia.com/blog/2019/07/conditional.html",
+      "notes": "Сверено: if можно убрать, поставив вспомогательный глагол перед подлежащим (Were it not…, Had it not been…); not идёт после подлежащего, сокращения не используются (Hadn't it been for… — ненормально); Were it not звучит официально, if — нейтральнее."
+    },
+    {
+      "title": "GrammarError · Advanced Inverted Conditionals: Should, Were, and Had",
+      "url": "https://grammarerror.com/intro/advanced-inverted-conditionals",
+      "notes": "Сверено: Should you need = If you should need (should + подлежащее + словарная форма); Were I to win = If I were to win; Had + подлежащее + третья форма; смешанный пример с результатом о сейчас; устойчивые Had it not been for / Were it not for; формы книжные и официальные."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Три начала без if — и одно, которое не работает",
+    "why": "Перед «кто» может встать только had, should или were. Каждое из них соответствует своему обычному условию с if.",
+    "items": [
+      {
+        "label": "Прошлое, которого не было",
+        "en": "Had we known, we would have waited.",
+        "ru": "Если бы мы знали, мы бы подождали.",
+        "note": "= If we had known…"
+      },
+      {
+        "label": "Возможный случай",
+        "en": "Should you need help, call us.",
+        "ru": "Если понадобится помощь, звоните нам.",
+        "note": "= If you need help…"
+      },
+      {
+        "label": "Маловероятное будущее",
+        "en": "Were prices to rise, we would cancel.",
+        "ru": "Если бы цены вдруг выросли, мы бы отказались.",
+        "note": "= If prices were to rise…"
+      },
+      {
+        "label": "Так нельзя",
+        "en": "Calls he, tell him.",
+        "ru": "«Позвонит он — скажи ему»",
+        "note": "Нет had, should или were — оставь if: If he calls…"
+      }
+    ],
+    "focus": [
+      "Had we",
+      "Should you",
+      "Were prices",
+      "Calls he"
+    ],
+    "footnote": "«Не» — после «кто», полностью: Had we not known… Hadn't we known — ошибка."
+  },
+  "sections": [
+    {
+      "title": "Зачем убирать if: та же мысль, но официальнее",
+      "body": "Представь письмо из отеля после ошибки с бронью (reservation): Had we known about your late arrival, we would have held your room. «Если бы мы знали, что вы приедете поздно, мы бы придержали ваш номер». Это обычное условие из урока «Если бы тогда»: If we had known…, we would have… Только if убрали, а had поставили перед we.\n\nСмысл не меняется. Меняется звучание: фраза становится официальнее и короче. Так пишут в деловых письмах, отчётах, официальных речах. По-русски похожий приём — «Знай мы заранее, …»: тоже без «если».\n\nТак работают только три слова: had, should и were. Помощник встаёт перед «кто», как в уроке Never have I seen… Но это не вопрос: в конце условия запятая, потом результат.\n\nС любым глаголом так нельзя. If he calls → Calls he — ошибка. If I knew → Knew I — тоже ошибка. Нет had, should или were — оставь if."
+    },
+    {
+      "title": "Had: другая версия прошлого — и её след сейчас",
+      "body": "Had + кто + третья форма = If + кто + had + третья форма. Результат тот же, что ты знаешь: would have + третья форма. Had the bus come on time, I wouldn't have missed the meeting. Could have и might have тоже подходят: Had we left earlier, we might have caught the train.\n\n«Не» — not после «кто», без сокращения: Had I not checked the bill, we would have paid twice. Hadn't I checked — ошибка: с сокращением фраза звучит как настоящий вопрос.\n\nРезультат может быть и о сейчас, как в смешанных условиях: Had I taken that job, I would be living in Denver now.\n\nHad it not been for + человек или вещь — «если бы не…» о прошлом: Had it not been for your help, I would have quit. Это то же, что If it hadn't been for your help или Without your help."
+    },
+    {
+      "title": "Should: возможный случай в будущем",
+      "body": "Should you need help, call me at (312) 555-0147 — «Если понадобится помощь, звоните». Should здесь не значит «следует» или «должны». Оно вводит случай, который может произойти, а может и нет.\n\nПосле should — глагол в словарной форме: should you need, should the flight be delayed. Результат — как в обычном реальном условии: will, can или просьба. Should the flight be delayed, we will rebook you. Should you have any questions, please contact us.\n\nЭто частое начало в американских деловых письмах и инструкциях. Звучит вежливо, но официально. Другу так не пишут, другу пишут: If you need anything, just text me.\n\n«Не» — тоже после «кто»: Should you not receive the package by Friday, please let us know."
+    },
+    {
+      "title": "Were: воображаемое «сейчас» и маловероятное будущее",
+      "body": "Were + кто + описание или место = If + кто + were. Were I in your position, I would ask for a raise — «Будь я на твоём месте, я бы попросил прибавку». Was здесь не ставят никогда: Was I in your position — это вопрос «Был ли я…?».\n\nWere + кто + to + глагол — будущий случай, которого не ждут, а только рассматривают: Were the company to close this office, 300 people would lose their jobs. Результат — would + глагол.\n\nСравни три будущих случая. If the price rises, we'll cancel — обычное условие. Should the price rise, we will cancel — то же, но официально. Were the price to rise, we would cancel — «если бы цена вдруг выросла»: дальше от реальности. Точной вероятности ни одна форма не называет.\n\nWere it not for + человек или вещь — «если бы не…» о сейчас: Were it not for the loan, we couldn't afford this apartment (afford — позволить себе). О прошлом — Had it not been for."
+    },
+    {
+      "title": "Когда лучше обычное if",
+      "body": "В разговоре с друзьями условие без if звучит как речь со сцены. Had I known, I would have called — так в кафе не говорят. Говорят: If I'd known, I would've called.\n\nБез if уместно в деловом письме, отчёте, официальной речи, тосте, эссе. Одного-двух таких условий на текст хватает. Если каждое условие начинать с Had или Should, текст становится тяжёлым.\n\nТри частые ошибки. If остался вместе с перестановкой: If had I known — ошибка, had уже заменяет if. Not сократили: Hadn't we known — ошибка. Поставили would вместо should: Would you need help, call us — ошибка, нужно Should you need help."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Had we known about the delay, we would have called you.",
+      "ru": "Если бы мы знали о задержке, мы бы вам позвонили.",
+      "why": "Had перед we заменяет If we had known."
+    },
+    {
+      "en": "Had I not checked the bill, we would have paid twice.",
+      "ru": "Если бы я не проверил счёт, мы бы заплатили дважды.",
+      "why": "Not после I, полностью, без сокращения."
+    },
+    {
+      "en": "Should you have any questions, please contact our office.",
+      "ru": "Если у вас возникнут вопросы, обращайтесь в наш офис.",
+      "why": "Возможный случай; результат — обычная просьба."
+    },
+    {
+      "en": "Were I in your position, I would talk to her first.",
+      "ru": "Будь я на твоём месте, я бы сначала поговорил с ней.",
+      "why": "Were для всех, даже для I; was здесь нельзя."
+    },
+    {
+      "en": "Were it not for the loan, we couldn't afford this apartment.",
+      "ru": "Если бы не кредит, мы бы не могли позволить себе эту квартиру.",
+      "why": "«Если бы не» о сейчас: кредит помогает до сих пор."
+    },
+    {
+      "en": "If I'd known, I would've called.",
+      "ru": "Если бы я знал, я бы позвонил.",
+      "why": "Та же мысль в разговоре — с обычным if."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь официальный ответ клиенту отеля. Перепиши без if: “If we had received your email earlier, we would have changed the reservation.”",
+      "context": "",
+      "guidance": {
+        "title": "Had вместо if — перед «кто»",
+        "body": "Убери if и поставь had перед we. Вторая часть не меняется.",
+        "example": "Had the store told us, we would have waited.",
+        "translation": "Если бы магазин нам сказал, мы бы подождали."
+      },
+      "hint": "Первые два слова: Had we …",
+      "answers": [
+        "Had we received your email earlier, we would have changed the reservation.",
+        "Had we received your email earlier, we would have changed your reservation.",
+        "Had we received your email earlier, we'd have changed the reservation."
+      ],
+      "explanation": "If ушёл, had встал перед we, received осталась на месте. Would have changed не меняется: это всё та же другая версия прошлого."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отчёт о поездке команды. Переведи без if: «Если бы она нам не позвонила, мы бы уехали без неё».",
+      "context": "",
+      "guidance": {
+        "title": "Not — после «кто», без сокращения",
+        "body": "В условии без if not стоит после человека и пишется полностью. Hadn't she… здесь не годится: так звучит вопрос.",
+        "example": "Had he not stopped, he would have hit the car.",
+        "translation": "Если бы он не остановился, он бы врезался в машину."
+      },
+      "hint": "Начни так: Had she …",
+      "answers": [
+        "Had she not called us, we would have left without her.",
+        "Had she not called, we would have left without her.",
+        "Had she not called us, we'd have left without her.",
+        "Had she not called us, we would've left without her."
+      ],
+      "explanation": "Had she not called — «если бы она не позвонила». Not идёт после she и не сокращается. Would have left — то, чего не случилось."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь письмо новым жильцам (tenants). Переведи: «Если у вас возникнут проблемы с отоплением, звоните мне по номеру (312) 555-0147».",
+      "context": "heating — отопление.",
+      "guidance": {
+        "title": "Should — «если вдруг» в будущем",
+        "body": "Should здесь не «должны». Оно вводит случай, который может произойти. После него — глагол в словарной форме, результат — обычная просьба.",
+        "example": "Should the elevator stop, press the red button.",
+        "translation": "Если лифт остановится, нажмите красную кнопку."
+      },
+      "hint": "Начни так: Should you have any …",
+      "answers": [
+        "Should you have any problems with the heating, please call me at (312) 555-0147.",
+        "Should you have any problems with the heating, call me at (312) 555-0147.",
+        "Should you have problems with the heating, please call me at (312) 555-0147.",
+        "Should you have any issues with the heating, please call me at (312) 555-0147.",
+        "Should there be any problems with the heating, please call me at (312) 555-0147.",
+        "Should you have any trouble with the heating, please call me at (312) 555-0147."
+      ],
+      "explanation": "Should you have = If you have: проблем пока нет, но они возможны. Please call me — обычная просьба. По-американски звонят at a number: call me at (312) 555-0147."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь открытое письмо в городской совет. Переведи: «Если бы город вдруг закрыл эту библиотеку, сотням детей было бы негде заниматься».",
+      "context": "nowhere to study — негде заниматься.",
+      "guidance": {
+        "title": "Were + to — «если бы вдруг» в будущем",
+        "body": "Так рассматривают случай, которого не ждут. После were — кто, потом to + глагол. В результате — would.",
+        "example": "Were the rent to double, we would have to move.",
+        "translation": "Если бы аренда вдруг выросла вдвое, нам пришлось бы переехать."
+      },
+      "hint": "Начни так: Were the city to …",
+      "answers": [
+        "Were the city to close this library, hundreds of children would have nowhere to study.",
+        "Were the city to close the library, hundreds of children would have nowhere to study.",
+        "Were the city to close this library, hundreds of kids would have nowhere to study.",
+        "Were the city to close this library, hundreds of children would have no place to study."
+      ],
+      "explanation": "Were the city to close = If the city were to close: закрытие не ожидается, его только рассматривают. Результат — would have nowhere to study."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты говоришь тост на свадьбе друга. Переведи две фразы: «Если бы не Кейт, Марк до сих пор жил бы на диване у брата. А если бы не тот дождь пять лет назад, они бы никогда не встретились».",
+      "context": "couch — диван.",
+      "guidance": {
+        "title": "«Если бы не…»: сейчас — Were it not for, тогда — Had it not been for",
+        "body": "После for — человек или вещь, без глагола. Форму выбираешь по тому, когда действует это «если бы не».",
+        "example": "Were it not for my GPS, I would be lost. Had it not been for the map, we would have gotten lost.",
+        "translation": "Если бы не навигатор, я бы заблудился. Если бы не карта, мы бы тогда заблудились."
+      },
+      "hint": "Кейт помогает Марку и сейчас, а дождь был один раз — тогда.",
+      "answers": [
+        "Were it not for Kate, Mark would still be living on his brother's couch. And had it not been for that rain five years ago, they would never have met.",
+        "Were it not for Kate, Mark would still be living on his brother's couch. Had it not been for that rain five years ago, they would never have met.",
+        "Were it not for Kate, Mark would still live on his brother's couch. And had it not been for that rain five years ago, they would never have met.",
+        "Were it not for Kate, Mark would still be living on his brother's couch. And had it not been for that rain five years ago, they never would have met.",
+        "Were it not for Kate, Mark would still be living on his brother's couch. And had it not been for that rain five years ago, they wouldn't have met."
+      ],
+      "explanation": "Kate — «если бы не» сейчас, поэтому Were it not for и would still be living. Дождь — прошлое, поэтому Had it not been for и would never have met. Never would have met — тоже естественно для американской речи."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В черновике письма три ошибки, по одной в каждой фразе. Исправь, оставив фразы без if: “If had we known about the noise, we would have moved you. Hadn't the driver stopped, there would have been an accident. Would you need a ride, let us know.”",
+      "context": "",
+      "guidance": {
+        "title": "Три ошибки: if + перестановка, сокращение, would",
+        "body": "Перестановка уже заменяет if — второй раз его не ставь. Not пиши полностью после «кто». Для будущего случая — should, не would.",
+        "example": "Had I seen the sign, I would have stopped.",
+        "translation": "Если бы я увидел знак, я бы остановился."
+      },
+      "hint": "Проверь первые два слова каждой фразы.",
+      "answers": [
+        "Had we known about the noise, we would have moved you. Had the driver not stopped, there would have been an accident. Should you need a ride, let us know.",
+        "Had we known about the noise, we would have moved you. Had the driver not stopped, there would have been an accident. Should you need a ride, please let us know."
+      ],
+      "explanation": "If had we → Had we: if лишний. Hadn't the driver → Had the driver not: not после «кто» и полностью. Would you need → Should you need: would в условие не ставят."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем смешанные условия. Ты пишешь сопроводительное письмо (cover letter) и вспоминаешь решение пятилетней давности. Переведи без if: «Если бы я тогда не перешёл в отдел продаж, у меня сейчас не было бы опыта работы с клиентами».",
+      "context": "sales — отдел продаж; experience working with clients — опыт работы с клиентами.",
+      "guidance": {
+        "title": "Вспоминаем смешанные условия: тогда → сейчас",
+        "body": "Вспоминаем урок о смешанных условиях: условие о прошлом, результат о сейчас — would + глагол. Had I not… работает и здесь.",
+        "example": "Had I not learned Spanish, I wouldn't be working in Miami now.",
+        "translation": "Если бы я не выучил испанский, я бы сейчас не работал в Майами."
+      },
+      "hint": "Результат о сейчас: wouldn't have experience — здесь have значит «иметь», третьей формы нет.",
+      "answers": [
+        "Had I not moved to sales back then, I wouldn't have experience working with clients now.",
+        "Had I not moved to sales back then, I would not have experience working with clients now.",
+        "Had I not moved to sales five years ago, I wouldn't have experience working with clients now.",
+        "Had I not switched to sales back then, I wouldn't have any experience working with clients now.",
+        "Had I not moved to sales back then, I wouldn't have any experience with clients now."
+      ],
+      "explanation": "Had I not moved — прошлое, которого не было. Wouldn't have experience… now — результат сейчас: have здесь обычный глагол «иметь». Would not have had значило бы «тогда не было бы»."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты менеджер отеля Lakeview в Чикаго. Гостья, Ms. Patel, приехала в полночь, а её номер отдали другому гостю: её письмо о позднем приезде попало в спам. Ночной администратор, Carlos, нашёл ей номер в соседнем отеле. Напиши ей официальный ответ на 200–300 слов. Что должно быть: извинение и что случилось; одно условие с Had… о том, что было бы иначе; одно с Had it not been for… или Were it not for…; что вы изменили; два условия с Should… для будущих случаев (например, вопросы и возврат денег — refund); компенсация; подпись. Хотя бы одно условие оставь с обычным if, чтобы текст не был тяжёлым.",
+      "context": "spam folder — папка «Спам»; night manager — ночной администратор; compensation — компенсация.",
+      "hint": "План: Dear Ms. Patel, → I'm sorry… → Your email went to… → Had we… → Had it not been for Carlos… → We have now… → Should you… → Should… → We would like to offer… → Sincerely,",
+      "answers": [
+        "Dear Ms. Patel,\n\nI'm very sorry about what happened when you arrived at the Lakeview Hotel on May 6. You had a confirmed reservation, and you should have had a room waiting for you.\n\nWe have looked into the problem. Your email about your late arrival went to our spam folder, so the front desk didn't see it. Because the system showed you as a no-show, your room was given to another guest at 11 p.m. Had we received your message, we would have held the room for you, as we always do for late arrivals.\n\nHad it not been for Carlos, our night manager, you might have been left without a place to stay at midnight. I'm glad he was able to find you a room nearby, but that should never have been necessary.\n\nWe have made two changes. Our team now checks the spam folder every evening, and the front desk calls any guest who hasn't arrived by 10 p.m. before releasing the room.\n\nWe have refunded your first night in full. We would also like to offer you two free nights on your next visit. Should you wish to book them, please reply to this email or call me directly at (312) 555-0136. Should the refund not appear on your card within five business days, please let me know and I will follow up with our bank right away.\n\nIf there is anything else we can do, I hope you will tell us. Thank you for your patience, and I hope we can welcome you back soon.\n\nSincerely,\nDavid Moore\nGeneral Manager, Lakeview Hotel"
+      ],
+      "explanation": "Засчитывается, если письмо 200–300 слов и в нём есть: извинение и причина; одно Had… с would have; одно Had it not been for… или Were it not for…; что изменили; два Should… с обычной просьбой или will в результате; компенсация; подпись; хотя бы одно обычное if. Not — после «кто», без сокращений."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты говоришь речь на прощальном вечере коллеги, Linda: она уходит на пенсию после 25 лет в компании. Говори 2–3 минуты. Что должно быть: кто она и сколько лет с вами; одна фраза с Had it not been for Linda… или Were it not for Linda…; одна история с Had she not…; одно пожелание или приглашение с Should…; хотя бы два обычных условия с if; тост в конце. Запиши, прослушай и проверь, что not стоит после she и не сокращается.",
+      "context": "retire — уйти на пенсию; toast — тост; Here's to… — «за…» (тост).",
+      "hint": "Начни так: Good evening, everyone. For twenty-five years, Linda has…",
+      "answers": [
+        "Good evening, everyone. For twenty-five years, Linda has been the person we all go to when something goes wrong. Tonight, we're saying goodbye, and I'd like to say a few words about why that's so hard.\n\nWhen I joined the company twelve years ago, I didn't know anything about our clients. Linda sat with me every afternoon for a month and showed me how everything worked. Had it not been for Linda, I would have quit in my first year. I'm not joking. And I'm not the only one. Were it not for Linda, half of this room probably wouldn't be working here today.\n\nLet me tell you one story. In 2019, the night before our biggest presentation, the files on the shared drive disappeared. Everyone panicked. Linda didn't. She had kept a copy of everything on her own laptop. Had she not saved those files, we would have lost the biggest client in the company's history. If you've ever wondered why she always says, “Save a copy,” now you know.\n\nLinda, if you get bored at home, and I don't think you will, you know where to find us. Should you ever want to come back and tell us what we're doing wrong, the coffee will be ready and your old chair will be waiting.\n\nSo please raise your glasses. To Linda: thank you for twenty-five years of patience, good advice, and backup copies. Here's to your next chapter. To Linda!"
+      ],
+      "explanation": "Засчитывается, если речь звучит 2–3 минуты и в ней есть: Had it not been for… или Were it not for…; Had she not… с would have; одно Should…; минимум два обычных if; тост. Условия без if звучат как часть речи на сцене, а не разговора. Расшифровка проверит слова, но не произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Управляющая компания повесила объявление: “Should the elevator stop between floors, press the alarm button and remain inside. Were the repairs to take longer than planned, residents would be offered free parking at the garage on Elm Street. Had the replacement parts arrived on time, the work would have been completed in May.” Твой пожилой сосед, Mr. Jones, попросил объяснить, что там написано. Напиши ему сообщение (text) простым разговорным английским, с обычным if, без потерь смысла.",
+      "context": "between floors — между этажами; replacement parts — запчасти; garage — парковка.",
+      "hint": "Каждое начало без if переведи обратно: Should… → If…, Were… to → If…, Had… → If… had…",
+      "answers": [
+        "Hi Mr. Jones! Here's what the notice says. If the elevator stops between floors, press the alarm button and stay inside. If the repairs take longer than planned, we'll get free parking at the garage on Elm Street. The work would have been done in May if the parts had come on time.",
+        "Hi Mr. Jones! Quick update about the elevator. If it gets stuck between floors, press the alarm button and stay inside. If the repairs took longer than planned, they'd give us free parking at the Elm Street garage. They would have finished in May if the new parts had arrived on time.",
+        "Hi Mr. Jones! The notice says three things. If the elevator stops between floors, press the alarm button and don't get out. If the repairs take longer than they planned, we can park for free at the garage on Elm Street. And if the parts had arrived on time, the work would have been finished in May."
+      ],
+      "explanation": "Засчитывается, если переданы все три мысли: что делать, если лифт встанет; бесплатная парковка, если ремонт затянется; работы закончили бы в мае, если бы запчасти пришли вовремя. If the repairs take и if the repairs took — оба верны: второе сохраняет оттенок «вряд ли». В третьей мысли нужны had и would have: это прошлое, которого не было."
+    }
+  ]
+}

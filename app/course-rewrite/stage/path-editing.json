@@ -1,0 +1,342 @@
+{
+  "id": "path-editing",
+  "title": "Редактура чужого текста: сначала смысл, потом порядок, потом слова",
+  "subtitle": "Что автор хочет сказать → не противоречит ли текст сам себе → сила вывода → главное в начало → неясное this → лишние слова → правка смысла или правка строки → письмо автору",
+  "level": "C2",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "keyRule": {
+    "rule": "Сначала смысл, потом порядок, потом слова. Правку смысла согласуй с автором.",
+    "example": "This edit changes what you're asking for, so please check it; that one only shortens a sentence. — Эта правка меняет то, о чём ты просишь, проверь её; а та только сокращает фразу.",
+    "check": "Эта правка меняет смысл — или только звучание?"
+  },
+  "goal": "Отредактировать письмо коллеги перед отправкой: найти, где текст противоречит сам себе или говорит сильнее, чем позволяет его же опора, поставить просьбу в начало, сократить лишние слова — и объяснить автору правки: «Это меняет то, о чём ты просишь, — проверь», «Это только короче, смысл тот же», «Твой тон я оставил».",
+  "formula": "1 смысл: What does the author want to say? Противоречия, сила вывода, therefore · 2 порядок: просьба и решение — в начало, абзац — одна мысль · 3 строка: in order to → to, at this point in time → now, made a decision → decided, this → this concern · правка смысла (нужно согласие автора) ≠ правка строки (смысл тот же)",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-hedging",
+    "path-nominalisation",
+    "path-fronting",
+    "path-proposal"
+  ],
+  "recycles": [
+    "path-hedging",
+    "path-nominalisation"
+  ],
+  "teaches": [
+    "порядок редактуры: смысл → маршрут читателя → строка → последний медленный проход по именам, числам, датам и not",
+    "первый проход: одной фразой сформулировать, что хочет сказать автор, и проверить текст по ней: противоречия между фразами, вывод сильнее опоры, therefore без основания",
+    "правка не делает вывод сильнее опоры: 12 of 20 ≠ everyone; «предпочитают» ≠ «работают лучше»",
+    "второй проход: просьба и решение — в первые фразы; абзац — одна мысль; посторонняя тема — в отдельное письмо",
+    "третий проход: лишние обороты (in order to, I'm writing to let you know that, at this point in time, with respect to), спрятанные глаголы (made a decision → decided, carried out a review → reviewed), неясное this / it → this concern, that idea",
+    "правка смысла (меняет то, что текст утверждает или просит) — объяснить и согласовать; правка строки (смысл тот же) — можно без обсуждения",
+    "объяснение правок: по важности, с пользой для читателя, и что из текста автора сохранено: This changes what the email asks for… · This only shortens the sentence… · I kept your opening because it sounds like you",
+    "слова: draft, edit, line edit, trial, in person, commute, drift apart"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Steps for Revising Your Paper",
+      "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/proofreading/steps_for_revising.html",
+      "notes": "Сверено: порядок правки — сначала главная мысль и цель, потом опора и лишнее, потом язык (лишние и неточные слова, неясные предложения) и только в конце грамматика, пунктуация и орфография; полезно перечитать текст так, будто его написал другой."
+    },
+    {
+      "title": "Digital.gov · Plain language: Writing for understanding",
+      "url": "https://digital.gov/guides/plain-language/writing",
+      "notes": "Сверено: «спрятанный глагол» (существительное на -tion, -ment с make, take, conduct) удлиняет текст — лучше сильный глагол (conduct an analysis → analyze); называть, кто что делает. Отсюда раздел о строке."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Три прохода редактора и проверка в конце",
+    "why": "Каждый проход ищет своё. Зачем шлифовать фразу, которую на втором проходе придётся удалить?",
+    "items": [
+      {
+        "label": "1. Смысл",
+        "en": "Trial or permanent change?",
+        "ru": "Проба или навсегда?",
+        "note": "Текст говорит то, что хочет автор?"
+      },
+      {
+        "label": "2. Порядок",
+        "en": "I'd like to suggest a one-month trial.",
+        "ru": "Предлагаю пробу на месяц.",
+        "note": "Просьба — в начало."
+      },
+      {
+        "label": "3. Строка",
+        "en": "made a decision → decided",
+        "ru": "приняли решение → решили",
+        "note": "Короче, смысл тот же."
+      },
+      {
+        "label": "Проверка",
+        "en": "names · dates · numbers · not",
+        "ru": "имена, даты, числа, «не»",
+        "note": "Отдельно и медленно."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Редактура — не «сделать красивее»",
+      "body": "Коллега Джордан просит: «Глянь моё письмо начальнице, пока я не отправил». В письме он в одном абзаце предлагает пробу, а в последнем — менять всё навсегда. Если ты заменишь пару слов на более гладкие, начальница получит гладкое противоречие.\n\nРедактор отвечает за то, чтобы читатель понял, чего хочет автор, и знал, что ему решить. Поэтому правят по проходам, и каждый проход ищет одно.\n\nПервый — смысл: говорит ли текст то, что автор хочет сказать, и не противоречит ли сам себе. Второй — маршрут читателя: где просьба, о чём каждый абзац. Третий — строка: лишние слова, неясные this и it. В конце — медленно по именам, датам, числам и словам not, no, never.\n\nПорядок важен: фразу, которую на втором проходе удалишь, незачем шлифовать на третьем.\n\nПредел: редактор улучшает чужую мысль, а не меняет её на свою. Если правка меняет смысл, автор должен об этом знать и согласиться."
+    },
+    {
+      "title": "Первый проход: что текст на самом деле утверждает",
+      "body": "Сначала сформулируй одной фразой, чего хочет автор. Если не можешь — это первая находка: текст пока не знает, чего хочет. Если автор сказал тебе это сам, сверяй текст с его словами.\n\nПотом проверь три вещи.\n\nПротиворечия. We should close the café on weekends в начале и The café should stay open on Saturdays в середине — два разных предложения. Читатель не поймёт, о чём его просят.\n\nСила вывода — как в уроке об оговорках. Если в тексте сказано «7 из 15», то everyone — неправда. «Людям нравится» не доказывает «стало лучше»: это другое утверждение, и опоры для него в тексте нет.\n\nСвязки. Therefore, so, that's why обещают, что вывод следует из сказанного. Если перед therefore — «давайте попробуем месяц», а после — «значит, навсегда», связка врёт.\n\nПредел: на первом проходе ты не переписываешь фразы, а отмечаешь, что текст утверждает и где это расходится с замыслом автора."
+    },
+    {
+      "title": "Второй проход: маршрут читателя",
+      "body": "Главное — в начало: что автор предлагает и какого решения ждёт. Это ты знаешь из уроков о порядке слов и о предложении руководителю. Если просьба стоит в последней строке, занятой читательнице придётся искать её самой, а на телефоне она может до неё не дочитать.\n\nАбзац — одна мысль: предложение, опора, просьба о решении. Предыстория «как давно мы это обсуждаем» читателю обычно не нужна.\n\nПосторонняя тема — в отдельное письмо. Если в письме о расписании вдруг жалоба на кофемашину, читатель не поймёт, что из двух решать сейчас. Убрать тему из письма — правка смысла: спроси автора или опирайся на его прямые слова.\n\nНе бойся, что текст станет короче: короткое письмо с ясной просьбой выглядит увереннее длинного."
+    },
+    {
+      "title": "Третий проход: строка",
+      "body": "Лишние обороты ничего не добавляют: in order to → to; I'm writing to let you know that… → просто скажи, что хотел; at this point in time → now; with respect to the issue of… — чаще всего убрать.\n\nСпрятанный глагол — действие, превращённое в существительное. Это ты знаешь из урока о существительных вместо глаголов: carried out a review → reviewed, made a decision → decided. Существительное оставляй, если оно точнее или связывает фразы.\n\nНеясные this, it, they. Prices went up, and some parents are upset about it. This is why… — чем именно недовольны: ценой или тем, что не предупредили? Что такое this? Назови предмет словом: this concern, that idea, the new price.\n\nПосле сокращения перечитай: осталась ли условность («проба», «на месяц»), не стал ли вывод сильнее.\n\nНе вычёркивай голос автора: тёплое начало или живой оборот, который не мешает смыслу, лучше оставить. Это его письмо."
+    },
+    {
+      "title": "Правка смысла или правка строки — и как сказать автору",
+      "body": "Правка строки меняет звучание, но не смысл: короче, проще, яснее. Её можно сделать без обсуждения и коротко упомянуть.\n\nПравка смысла меняет то, что текст утверждает или о чём просит: убрать «навсегда», заменить «все» на «12 из 20», выбросить тему. Её надо объяснить и получить согласие автора: это его имя стоит под письмом.\n\nКак объяснять. Начни с самых важных правок. У каждой — польза для читателя, а не «так красивее»: Dana will see the request in the first line. Скажи, что ты сохранил.\n\nФразы: This changes what the email asks for, so please check it's what you mean. · This only shortens the sentence; the point is the same. · I kept your opening line because it sounds like you.\n\nЕсли две версии одинаково верны и это просто твой вкус, предложи, а не настаивай: If you prefer your version, keep it."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The draft recommends a trial in one paragraph and a permanent change in another.",
+      "ru": "Черновик в одном абзаце рекомендует пробу, а в другом — постоянное изменение.",
+      "why": "Находка первого прохода: текст противоречит сам себе."
+    },
+    {
+      "en": "Most customers we asked liked the new menu.",
+      "ru": "Большинству клиентов, которых мы спросили, новое меню понравилось.",
+      "why": "Вывод такой же силы, как опора."
+    },
+    {
+      "en": "All our customers love the new menu, which proves it will boost sales.",
+      "ru": "Всем нашим клиентам нравится новое меню, а это доказывает, что продажи вырастут.",
+      "why": "Неверно: «все» сильнее опоры, а «нравится» не доказывает рост продаж."
+    },
+    {
+      "en": "I'd like to suggest a one-month trial of the new schedule. Could you let me know by Friday?",
+      "ru": "Предлагаю попробовать новое расписание месяц. Можете ответить до пятницы?",
+      "why": "Просьба и решение — в первых строках."
+    },
+    {
+      "en": "We decided to postpone the launch, so the materials were late.",
+      "ru": "Мы решили отложить запуск, поэтому материалы опоздали.",
+      "why": "Вместо made a decision и due to the fact that — глагол и ясная связь."
+    },
+    {
+      "en": "This delay is why we need a second driver.",
+      "ru": "Именно из-за этой задержки нам нужен второй водитель.",
+      "why": "This с существительным: ясно, на что показывает."
+    },
+    {
+      "en": "This edit changes what the email asks for, so please check it's what you mean.",
+      "ru": "Эта правка меняет то, о чём просит письмо, — проверь, пожалуйста, что ты имеешь в виду именно это.",
+      "why": "Правка смысла — с просьбой о согласии автора."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Черновик письма Джордана / Draft email: Meetings",
+      "source": "Авторский учебный материал; люди и ситуация вымышлены. Недочёты в черновике оставлены намеренно.",
+      "text": "To: Dana Ortiz\nFrom: Jordan Lee\nSubject: Meetings\n\nHi Dana,\n\nAs you know, the topic of meetings has been under discussion for some time now, and I wanted to take the opportunity to share some thoughts with you in regard to this matter. Over the past month, I conducted an informal survey of the team in order to get a sense of their preferences. Twelve of the twenty people I asked said they would prefer to meet online on Mondays, because it saves them the commute. Everyone on the team prefers online meetings, which proves they are more productive.\n\nSeveral people said they miss seeing each other, and some managers are worried about it. This is why I think we should keep one in-person meeting a month. Also, the parking lot is still a problem on meeting days, and a lot of people are frustrated about that, so maybe that should be looked at too.\n\nTo sum up, I think we should move all our meetings online. We could try it for six weeks first and see how it goes. Therefore, the obvious next step is to make online meetings permanent starting next month.\n\nLet me know what you think.\n\nJordan"
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Сообщение Джордана редактору / Jordan's message to you",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Hey, can you look at my email to Dana before I send it? Here's what I actually want: a six-week trial. Monday team meetings go online, but we keep the first Monday of each month in person, because people miss seeing each other. Two managers told me they're worried the team will drift apart if we never meet in person. After six weeks, we ask the team again and then decide. I don't want Dana to think I'm pushing to go fully remote. The parking thing is a separate issue; I'll raise it another time. Dana reads email on her phone between meetings, so shorter is better. And please don't make it sound like a robot wrote it. I want it to still sound like me."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Первый проход. Прочитай M1 и M2. Напиши две фразы: первая — чего Джордан на самом деле хочет (по M2); вторая — какие места в M1 этому противоречат.",
+      "context": "trial — проба; in person — вживую; permanent — постоянный.",
+      "guidance": {
+        "title": "Сначала одной фразой: что хочет сказать автор",
+        "body": "Сформулируй замысел автора сам, своими словами. Потом пройди по тексту и отметь фразы, которые с этим замыслом не совпадают. Переписывать пока ничего не надо.",
+        "example": "The author wants a one-month trial of the new schedule, but the draft also says \"switch everyone now\" and \"make it permanent.\"",
+        "translation": "Автор хочет попробовать новое расписание месяц, но в черновике есть и «перевести всех сейчас», и «сделать постоянным»."
+      },
+      "hint": "Найди в M1 три разных «рекомендации»: в начале последнего абзаца, в его середине и в конце.",
+      "answers": [
+        "Jordan wants a six-week trial of online Monday meetings, keeping the first Monday of each month in person, and then a check with the team before deciding. But the draft also says \"move all our meetings online\" and \"make online meetings permanent starting next month,\" which contradict that.",
+        "What Jordan actually wants is a six-week trial with one in-person meeting a month and a decision after asking the team again. The last paragraph says the opposite twice: move all meetings online, and make the change permanent next month."
+      ],
+      "explanation": "Засчитывается, если замысел назван точно (проба на шесть недель, первый понедельник вживую, потом решение) и найдены оба противоречия: «все встречи онлайн» и «навсегда со следующего месяца». Therefore перед «permanent» тоже можно назвать: из пробы этот вывод не следует.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Перепиши последнее предложение первого абзаца M1 так, чтобы вывод был не сильнее того, что Джордан сам пишет абзацем выше: Everyone on the team prefers online meetings, which proves they are more productive. Одна-две фразы.",
+      "context": "commute — дорога на работу и обратно; productive — продуктивный.",
+      "guidance": {
+        "title": "Вспоминаем оговорки: вывод не сильнее опоры",
+        "body": "Из урока об оговорках: сила слов равна силе опоры. Опора здесь — ответы 12 человек из 20. Это говорит о том, что людям удобнее, но ничего не говорит о том, как они работают.",
+        "example": "Draft: \"Everyone loves the new app, so it saves time.\" → \"Most of the people we asked like the new app. We haven't measured whether it saves time.\"",
+        "translation": "Черновик: «Всем нравится новое приложение, значит, оно экономит время». → «Большинству опрошенных приложение нравится. Экономит ли оно время, мы не измеряли»."
+      },
+      "hint": "Сколько человек из скольких сказали «онлайн»? И есть ли в письме хоть что-то о том, как люди работают?",
+      "answers": [
+        "Twelve of the twenty people I asked said they'd prefer to meet online on Mondays, mainly because it saves them the commute. I don't have any data on whether online meetings are more productive.",
+        "Most of the people I asked (12 of 20) would prefer online Monday meetings because it saves them the commute."
+      ],
+      "explanation": "Засчитывается, если everyone заменено на 12 из 20 (или most of the people I asked), а «доказывает продуктивность» убрано или прямо названо тем, чего мы не знаем. Это правка смысла: письмо перестаёт утверждать то, для чего нет опоры.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Второй проход. Напиши новое начало письма — две-три фразы, которые Дана увидит первыми на телефоне: что Джордан предлагает (точно по M2) и какого решения он ждёт от неё.",
+      "context": "",
+      "guidance": {
+        "title": "Главное — в начало: предложение и просьба о решении",
+        "body": "Как в предложении руководителю: первая фраза — то, ради чего читатель открыл письмо. Здесь это проба с её границами. Последняя фраза начала — вопрос, на который Дана может ответить «да» или «нет».",
+        "example": "I'd like to suggest a one-month trial of the new delivery schedule, starting May 4. Could you let me know by Friday if that works?",
+        "translation": "Предлагаю месяц попробовать новый график доставки, начиная с 4 мая. Можете ответить до пятницы, подходит ли это?"
+      },
+      "hint": "Начни так: I'd like to suggest a six-week trial…",
+      "answers": [
+        "I'd like to suggest a six-week trial: Monday team meetings online, with the first Monday of each month still in person. After six weeks, we'd ask the team again and then decide. Would you be OK with starting the trial?",
+        "Could we try online Monday meetings for six weeks? We'd keep the first Monday of each month in person, and after the trial we'd check with the team before deciding anything. Does that work for you?"
+      ],
+      "explanation": "Засчитывается, если в первых фразах есть все границы из M2 — шесть недель, первый понедельник вживую, решение после повторного опроса — и вопрос к Дане. Слов «all meetings» и «permanent» быть не должно: они вернули бы противоречие.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Третий проход. Две фразы из M1: Several people said they miss seeing each other, and some managers are worried about it. This is why I think we should keep one in-person meeting a month. О чём worried и что такое this? Перепиши так, чтобы it и this заменили точные слова. Ответ ищи в M2.",
+      "context": "drift apart — отдалиться друг от друга.",
+      "guidance": {
+        "title": "Неясное this и it — замени словом",
+        "body": "Спроси про каждое it и this: на что именно оно показывает? Если вариантов два, назови предмет прямо: this concern, that idea. Ответ должен быть в тексте или в словах автора, а не в твоей догадке.",
+        "example": "\"Drivers are late, and customers complain about it. This is why we need a second van.\" → \"Drivers are often late, and customers complain about the delays. These delays are why we need a second van.\"",
+        "translation": "«Водители опаздывают, и клиенты на это жалуются. Поэтому нам нужен второй фургон». → «Водители часто опаздывают, и клиенты жалуются на задержки. Из-за этих задержек нам и нужен второй фургон»."
+      },
+      "hint": "В M2 сказано, о чём именно беспокоятся два менеджера.",
+      "answers": [
+        "Several people said they miss seeing each other, and two managers are worried that the team will drift apart if we never meet in person. That's why I'd keep the first Monday of each month in person.",
+        "Several people said they miss seeing each other, and two managers worry that the team could drift apart without in-person meetings. Because of that concern, I'd keep one in-person meeting a month, on the first Monday."
+      ],
+      "explanation": "Засчитывается, если ясно, чего боятся менеджеры (команда отдалится без встреч вживую) и почему остаётся одна встреча вживую. Some managers → two managers — тоже точнее по M2. That's why и because of that concern одинаково хороши.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сократи первые два предложения M1, не потеряв ничего важного: As you know, the topic of meetings has been under discussion for some time now, and I wanted to take the opportunity to share some thoughts with you in regard to this matter. Over the past month, I conducted an informal survey of the team in order to get a sense of their preferences.",
+      "context": "informal survey — неофициальный опрос.",
+      "guidance": {
+        "title": "Вспоминаем: спрятанный глагол и пустые обороты",
+        "body": "Из урока о существительных вместо глаголов: если действие спрятано в существительное и смысл от этого не точнее, верни глагол. Обороты, которые только объявляют, что сейчас будет мысль, убирай целиком.",
+        "example": "\"We are in the process of making a decision in regard to the schedule\" → \"We're deciding on the schedule.\"",
+        "translation": "«Мы находимся в процессе принятия решения в отношении расписания» → «Мы решаем, какое будет расписание»."
+      },
+      "hint": "Что из первого предложения Дана и так знает? Что Джордан на самом деле сделал в прошлом месяце — «провёл опрос» или просто спросил?",
+      "answers": [
+        "Last month, I asked the team how they'd like to meet.",
+        "Over the past month, I asked twenty people on the team what kind of meetings they'd prefer."
+      ],
+      "explanation": "Засчитывается, если первое предложение убрано (Дана и так знает, что встречи обсуждают) или сведено к нескольким словам, а conducted an informal survey… in order to get a sense of заменено простым глаголом asked. Это правка строки: смысл тот же.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты сделал в письме три правки: (1) убрал «make online meetings permanent starting next month»; (2) conducted an informal survey → asked; (3) убрал фразу о парковке. Для каждой напиши Джордану одну фразу: это правка смысла или правка строки — и нужно ли его согласие.",
+      "context": "",
+      "guidance": {
+        "title": "Правка смысла или правка строки",
+        "body": "Спроси про каждую правку: изменилось ли то, что письмо утверждает или о чём просит? Если да — это правка смысла: объясни и попроси согласия, даже если ты опираешься на слова автора. Если нет — это строка, достаточно упомянуть.",
+        "example": "I removed \"starting tomorrow\": that changes the request, so please check it. I changed \"in the event that\" to \"if\": same meaning, just shorter.",
+        "translation": "Я убрал «начиная с завтра»: это меняет просьбу, проверь, пожалуйста. «В случае если» я заменил на «если»: смысл тот же, просто короче."
+      },
+      "hint": "Изменилось ли то, о чём письмо просит Дану? Добавила или убрала правка тему?",
+      "answers": [
+        "1) Removing \"permanent starting next month\" is a meaning edit: it changes what the email asks for, so please check that a six-week trial is what you want. 2) \"Asked\" instead of \"conducted an informal survey\" is a line edit; the point is the same. 3) Cutting the parking sentence is a meaning edit, because it removes a topic; you said you'd raise it separately, but please confirm.",
+        "The first change is about meaning, since the email no longer asks for a permanent switch, so I need your OK. The second only shortens the sentence. The third also changes the content, because Dana won't hear about parking in this email, so please confirm that's fine."
+      ],
+      "explanation": "Засчитывается, если правки 1 и 3 названы правками смысла с просьбой подтвердить, а правка 2 — правкой строки. Даже когда редактор опирается на слова автора (M2), правку смысла лучше показать: под письмом стоит его имя.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй письмо M1 целиком по замыслу из M2, 100–160 слов: Дана читает его на телефоне между встречами. Что должно быть: предложение и вопрос к Дане — в начале; одно предложение без противоречий; опора не сильнее, чем есть; ясно, почему остаётся встреча вживую; без лишних оборотов и без темы парковки; голос Джордана — живой, не канцелярский. В конце проверь последним проходом числа и дни недели.",
+      "context": "",
+      "hint": "Порядок работы: 1 сверь каждую рекомендацию с M2 → 2 переставь абзацы → 3 сократи и замени it и this словами → 4 отдельно проверь числа.",
+      "answers": [
+        "Subject: Trial: online Monday meetings\n\nHi Dana,\n\nI'd like to suggest a six-week trial: Monday team meetings online, with the first Monday of each month still in person. After six weeks, we'd ask the team again and decide together. Would you be OK with starting the trial?\n\nLast month, I asked twenty people on the team how they'd like to meet. Twelve said they'd prefer online Mondays, mainly because it saves them the commute.\n\nSeveral people also said they miss seeing each other, and two managers are worried that the team will drift apart if we never meet in person. That's why I'd keep one in-person Monday a month.\n\nHappy to talk it through if that's easier.\n\nThanks,\nJordan"
+      ],
+      "explanation": "Засчитывается, если предложение и вопрос стоят в начале, нет «все встречи онлайн» и «навсегда», опора — 12 из 20 без «доказывает продуктивность», причина встречи вживую названа словами, парковки нет, лишние обороты убраны, а тон остался дружеским. Числа 6, 12 и 20 совпадают с M1 и M2.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши Джордану письмо к своей правке, 200–300 слов. Он будет решать, принять ли правки, и он просил, чтобы письмо звучало как он. Что должно быть: одна фраза о том, что в черновике хорошо; правки по порядку важности — сначала правки смысла (каждую объясни и попроси подтвердить), потом порядок, потом строка коротко; для каждой — чем она поможет Дане; что ты сознательно оставил из его текста; когда тебе нужен ответ. Тон — коллеги, а не учителя.",
+      "context": "",
+      "hint": "План: Thanks + what works → Meaning edits (please confirm) → Order → Line edits in one paragraph → What I kept → When I need your reply.",
+      "answers": [
+        "Subject: Your email to Dana: my edits\n\nHi Jordan,\n\nThanks for sending this. The idea is clear once you see it, and your friendly tone fits Dana well. Here's what I changed, most important first.\n\nMeaning (please check these):\n1. The last paragraph asked for three different things: all meetings online, a six-week trial, and a permanent change next month. I kept only the trial you described to me, with the first Monday in person and a decision after you ask the team again. That way, Dana won't think you're pushing to go fully remote.\n2. \"Everyone prefers online meetings, which proves they're more productive\" was stronger than your own numbers. I wrote \"twelve of the twenty people I asked\" and dropped the productivity claim, since we have no data on it.\n3. I took out the parking sentence, since you said you'd raise it separately. Please confirm that's still the plan.\n\nOrder: I moved the proposal and your question to the top, so Dana sees them on her phone before she has to scroll.\n\nLine: I cut the opening about how long meetings have been discussed, replaced \"conducted an informal survey\" with \"asked,\" and changed \"worried about it\" to say what the managers are actually worried about. None of these change your point.\n\nI kept your closing offer to talk and the casual \"Hi Dana,\" because they sound like you.\n\nCould you let me know by tomorrow at noon if you're OK with the three meaning edits? Then you can send it.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если правки смысла идут первыми и у каждой есть просьба подтвердить, порядок и строка отделены от них, у правок названа польза для Даны, сказано, что сохранено от Джордана, и есть срок ответа. Тон предлагающий, без «you made mistakes».",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Джордан звонит, он недоволен: You cut half my reasons, and now it sounds like I'm not even sure what I want. Ответь вслух, 2–3 минуты. Что должно быть: что ты понимаешь его недовольство; две правки смысла, которые ты защищаешь, — и почему они делают его позицию сильнее, а не слабее; одна правка, которую ты готов вернуть или изменить; предложение, как добавить уверенности, не возвращая противоречия; вопрос к нему в конце.",
+      "context": "",
+      "hint": "Опора: I hear you… → The two changes I'd keep… → That actually makes your case stronger because… → One thing I can put back… → What if the first line said…? → What do you think?",
+      "answers": [
+        "I hear you, Jordan, and I'm sorry it came across that way. It's your email, and you should sound confident in it.\n\nThere are two changes I'd really like to keep, and I think they make your case stronger, not weaker. The first is the ending. Your draft asked Dana for three different things: all meetings online, a six-week trial, and a permanent change next month. If she reads all three, she won't know what you're asking for, and she might think you want to go fully remote, which you told me you don't. One clear request is easier to say yes to.\n\nThe second is the line about everyone preferring online meetings and being more productive. Your own numbers say twelve out of twenty. If Dana notices that, she might doubt the rest of the email. Twelve out of twenty is still a clear majority, and it's true.\n\nOn the other hand, if you feel I cut too much of your reasoning, I can put the commute point back in more detail. That's a real reason, and it doesn't contradict anything.\n\nAnd if it sounds unsure, we can fix that in the wording. What if the first line said, \"I'd like to propose a six-week trial of online Monday meetings\"? That's direct, and it's still exactly what you want.\n\nWould that work for you, or is there another reason you'd like to bring back?"
+      ],
+      "explanation": "Засчитывается по расшифровке, если ты признаёшь его недовольство без оправданий, защищаешь две правки смысла (противоречие в просьбе, вывод сильнее опоры) и объясняешь, почему они помогают его цели, готов вернуть одну причину или формулировку, предлагаешь уверенную фразу без противоречия и заканчиваешь вопросом.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    }
+  ]
+}

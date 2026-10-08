@@ -6,8 +6,13 @@
   "group": "Полная практика навыков",
   "units": "Дополнительная программа по исследованию",
   "minutes": 50,
-  "goal": "Написать для городского сайта отзыв о выставке по справке организаторов — с фактами для планирования, чужим мнением с именем, своей оценкой с причиной и советом с условием — и честно ответить читательнице на вопрос, которого нет в справке.",
+  "goal": "Написать отзыв о выставке, на которой ты не был, по справке организаторов: «Билеты по 4 доллара», «Одна посетительница сказала…», «По-моему, лучше всего карта, потому что…». И честно ответить читательнице: «В справке об этом не сказано».",
   "formula": "Tickets are $4. → One visitor, Nora, said … → I think … because … → It's worth a visit if … → It doesn't say whether …",
+  "keyRule": {
+    "rule": "Пишешь по справке — не пиши «я был». Чужое мнение — с именем, своё — с причиной.",
+    "example": "One visitor, Nora, said the lists felt personal. I think the map is the best part. — Одна посетительница, Нора, сказала, что списки трогают. По-моему, лучше всего карта.",
+    "check": "Откуда ты это знаешь: из справки, от посетителя или решил сам?"
+  },
   "guided": true,
   "introSections": 5,
   "prerequisites": [
@@ -33,7 +38,7 @@
     {
       "title": "Dictionary.com · worth",
       "url": "https://www.dictionary.com/browse/worth",
-      "notes": "Сверено: после worth идёт существительное или форма на -ing в значении «стоит того, чтобы…» (a place worth visiting). Отсюда worth a visit и worth visiting, а не worth to visit."
+      "notes": "Сверено: в значении «стоит того» после worth идёт форма на -ing (a place worth visiting, advice worth taking), а не to + глагол. Отсюда worth seeing и worth visiting; worth a visit — то же значение с существительным."
     },
     {
       "title": "Dictionary.com · through",
@@ -43,13 +48,13 @@
     {
       "title": "Dictionary.com · first floor",
       "url": "https://www.dictionary.com/browse/first-floor",
-      "notes": "Сверено: в американском английском first floor обычно этаж на уровне улицы, в британском — следующий над ground floor. В материалах урока — first floor."
+      "notes": "Сверено: в американском английском first floor — этаж на уровне улицы (иногда и следующий), в британском — обычно этаж над ground floor. В справке урока first floor стоит рядом с «no steps from the street», так что смысл однозначен."
     }
   ],
   "sections": [
     {
       "title": "Как написать отзыв о выставке, если ты там не был?",
-      "body": "Редактор городского сайта просит отзыв о маленькой выставке. Сходить туда ты не успел, зато у тебя есть справка организаторов с двумя отзывами посетителей (M2) и образец отзыва о другом событии (M1). Как устроен полезный отзыв — факт, оценка с доказательством, кому подойдёт, — ты уже знаешь. Новое другое: в тексте звучат три голоса, и читатель должен их различать.\n\nФакты из справки подаёшь как факты: Tickets are $4. Чужое мнение — с именем того, кто его высказал: One visitor, Nora, said… Своё мнение — с причиной: I think the map is the best part because… По-русски мы делаем то же: «организаторы сообщают», «одна посетительница пишет», «на мой взгляд».\n\nОдного делать нельзя: писать I visited или I saw. Автор M1 сам был на вечере, а ты — нет. Читатель поверит, что ты всё видел своими глазами. Пиши о самой выставке: The exhibition shows…, Visitors can…"
+      "body": "Редактор городского сайта просит отзыв о маленькой выставке. Сходить туда ты не успел, зато у тебя есть справка организаторов с двумя отзывами посетителей (M2) и образец отзыва о другом событии (M1). Как писать отзыв о своём опыте — деталь с причиной, честный минус, совет кому, — ты разобрал в прошлом уроке. Новое здесь другое: в тексте звучат три голоса, и читатель должен их различать.\n\nФакты из справки подаёшь как факты: Tickets are $4. Чужое мнение — с именем того, кто его высказал: One visitor, Nora, said… Своё мнение — с причиной: I think the map is the best part because… По-русски мы делаем то же: «организаторы сообщают», «одна посетительница пишет», «на мой взгляд».\n\nОдного делать нельзя: писать I visited или I saw. Автор M1 сам был на вечере, а ты — нет. Читатель поверит, что ты всё видел своими глазами. Пиши о самой выставке: The exhibition shows…, Visitors can…"
     },
     {
       "title": "Факты для планирования — в американском формате",
@@ -60,8 +65,8 @@
       "body": "One visitor, Kate, said the photos were too small — одна посетительница, Кейт, сказала, что фотографии слишком маленькие. Имя и one visitor показывают: это мнение одного человека. Visitors say the photos are too small — уже утверждение обо всех, а у тебя пара отзывов, а не опрос. Своё мнение начинай с I think или For me. Причиной делай факт из справки: I think the photos are the best part because they show the same park in 1970 and today. Тогда читатель видит, на чём держится оценка, и может с ней не согласиться."
     },
     {
-      "title": "Совет с условием и честное «но»",
-      "body": "Worth a visit — «стоит сходить»: спокойная рекомендация без обещания восторга. После worth ставят существительное или глагол с -ing: worth a visit, worth seeing. Worth to visit — ошибка. Условие с if называет, кому совет подходит: It's worth a visit if you like old cars.\n\nОграничение тоже бери из фактов, а не из настроения. «Зал маленький» — факт, «скучно» — догадка. Из факта сделай вывод для читателя: However, the room is small, so it can get crowded on weekends. Так ты предупреждаешь, но не ругаешь."
+      "title": "Совет с worth и минус из справки",
+      "body": "В прошлом уроке ты советовал так: I'd recommend it to people who… Здесь добавим ещё одну спокойную формулу: It's worth a visit — «стоит сходить». Она не обещает восторга. После worth ставят существительное или глагол с -ing: worth a visit, worth seeing. Worth to visit — ошибка. Условие с if называет, кому совет подходит: It's worth a visit if you like old cars.\n\nМинус с However ты уже писал. Новое здесь — откуда его брать. Своего визита у тебя нет, поэтому минус бери только из фактов справки. «Зал маленький» — факт, «скучно» — догадка. However, the room is small, so it can get crowded on weekends."
     },
     {
       "title": "Что ответить, если читатель спрашивает о том, чего нет в справке?",
@@ -304,7 +309,7 @@
       "context": "",
       "hint": "План: что это → два экспоната → I think … because … → One visitor, … said … → цена, часы, этаж → However, … → It's worth a visit if …",
       "answers": [
-        "Small Things, Shared Streets is a small exhibition at Alder Room, downtown. It shows everyday life on Maple Street from 1950 to 2000. A large map shows how the stores changed, and a glass case holds six handwritten shopping lists from families on the street. I think the map is the best part because it shows fifty years of change in one picture. One visitor, Nora, said the lists felt surprisingly personal. However, the labels are short, so history fans might want more. Tickets are $4 for adults, and kids under 12 get in free. It's open Tuesday through Sunday, 11 a.m. to 5 p.m., on the first floor, with no steps. It's worth a short visit if you like local history."
+        "Small Things, Shared Streets is a small exhibition at Alder Room, downtown. It shows everyday life on Maple Street from 1950 to 2000. A large map shows how the stores changed, and a glass case holds six handwritten shopping lists. I think the map is the best part because it shows fifty years of change in one picture. One visitor, Nora, said the lists felt surprisingly personal. However, the labels are short, so history fans might want more. Tickets are $4 for adults, and kids under 12 get in free. It's open Tuesday through Sunday, 11 a.m. to 5 p.m., on the first floor, with no steps. It's worth a short visit if you like local history."
       ],
       "explanation": "Засчитывается, если есть все семь пунктов и факты совпадают с M2: $4, дети до 12 лет бесплатно, Tuesday through Sunday, 11 a.m. to 5 p.m., first floor без ступенек. Мнение Норы или Бена подано как мнение одного человека, своя оценка опирается на факт, а о своём визите в тексте нет ни слова.",
       "materialIds": [

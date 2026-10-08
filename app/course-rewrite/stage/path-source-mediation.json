@@ -1,0 +1,359 @@
+{
+  "id": "path-source-mediation",
+  "title": "Один набор фактов — разные читатели: пересказать источники и не сдвинуть смысл",
+  "subtitle": "Сколько на самом деле проверок → что меняется для читателя, а что нет → термин для новичка → какая оговорка остаётся → свой шаг подписан в каждой версии",
+  "level": "C2",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Пересказать несколько источников разным людям — комитету, который голосует, новичку и специалисту — так, чтобы у всех осталась одна и та же правда: «A and B both rely on WB-01; B is a second account, not a second study», «The average score rose, which doesn't mean everyone improved», «That doesn't show the program works, and it doesn't show it fails», «I've suggested a one-year trial; the committee hasn't decided yet».",
+  "formula": "document → data → what was measured · A and B both rely on …; B is a second account, not a second study · C is independent, but it measures …, not … · Specialist: … / Newcomer: … (same meaning) · Keep the caveat that would change the reader's decision · I've suggested …; … hasn't decided yet",
+  "keyRule": {
+    "rule": "Для нового читателя меняй порядок, слова и подробности. Кто, что, на ком измерил и насколько уверен — не меняй.",
+    "example": "Two of the three documents describe the same quiz. — Два документа из трёх описывают один и тот же тест.",
+    "check": "Статья пересказывает отчёт. Сколько это проверок — одна или две?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-synthesis",
+    "extended-c1-cross-text",
+    "extended-c1-public-explanation",
+    "path-advanced-negation"
+  ],
+  "recycles": [
+    "path-advanced-negation",
+    "path-synthesis"
+  ],
+  "teaches": [
+    "документ ≠ набор сведений ≠ вывод: цепочка «документ → откуда сведения → что измерили»",
+    "пересказ чужого отчёта — второй рассказ, а не вторая проверка (ложное подтверждение, circular reporting): A and B both rely on WB-01; B is a second account, not a second study",
+    "независимый источник, который измерял другое, не подтверждает результат: C is independent, but it measures attendance, not language",
+    "поправляя преувеличение, не уходить в обратное: doesn't show it works ≠ shows it doesn't work",
+    "для разных читателей меняются порядок, длина, слова, примеры; не меняются кто, на ком, за какой срок, что измерили и насколько уверенно",
+    "термин для новичка разворачивают, а не заменяют другим понятием: no comparison group → they didn't compare them with people who didn't join; mean score rose ≠ everyone improved",
+    "какую оговорку оставить: решит ли читатель иначе, если её не узнает?; лишние оговорки тоже мешают",
+    "своя рекомендация подписана в каждой версии, особенно в простой: I've suggested…; the committee hasn't decided yet",
+    "слова: dataset, replication, comparison group, follow-up, mean / average, attendance, account, evidential basis, provenance"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia · Circular reporting",
+      "url": "https://en.wikipedia.org/wiki/Circular_reporting",
+      "notes": "Сверено определение: ложное подтверждение (false confirmation) — сведения кажутся пришедшими из нескольких независимых источников, а на деле восходят к одному; повторы принимают за подтверждение. Отсюда правило «статья об отчёте — второй рассказ, а не вторая проверка»."
+    },
+    {
+      "title": "Digital.gov · Principles of plain language",
+      "url": "https://digital.gov/guides/plain-language/principles",
+      "notes": "Сверено: первое правило — писать для своей аудитории, учитывая её знания, опыт и интерес; простой язык — не «упрощение до глупости» (dumb down). Отсюда раздел о том, что для новичка меняются слова, но не сила и границы вывода."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "От трёх документов к двум читателям",
+    "why": "Сначала считаем настоящие проверки, потом выбираем слова для читателя. Сила вывода в обеих версиях одна и та же.",
+    "items": [
+      {
+        "label": "Три документа",
+        "en": "A report, an article about that report, and an attendance log.",
+        "ru": "Отчёт, статья об этом отчёте и журнал посещаемости.",
+        "note": "Документов три — это ещё не три проверки."
+      },
+      {
+        "label": "Одна проверка английского",
+        "en": "Only WB-01 measured English, and only with a vocabulary quiz.",
+        "ru": "Английский измерял только WB-01, и только тестом на слова.",
+        "note": "B пересказывает A; C считал посещения."
+      },
+      {
+        "label": "Для комитета",
+        "en": "One small pilot, no comparison group, no later check.",
+        "ru": "Одна маленькая проба, без группы для сравнения и без проверки позже.",
+        "note": "Оговорки, от которых зависит голосование."
+      },
+      {
+        "label": "Для участника",
+        "en": "One group did better on a quiz right afterward; we don't know if it lasts.",
+        "ru": "Одна группа лучше написала тест сразу после занятий; надолго ли это — неизвестно.",
+        "note": "Слова проще, вывод той же силы."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что этот урок добавляет к синтезу",
+      "body": "Комитет района решает, финансировать ли постоянный разговорный клуб по английскому. Сторонник говорит: «У нас три документа — значит, три независимых исследования доказывают, что клуб улучшает английский». Председатель просит тебя объяснить комитету, что документы показывают на самом деле. А будущий участник спрашивает: «Если я запишусь, мой английский точно станет лучше?»\n\nЧто ты уже умеешь. Из урока о синтезе: начинать с общего вопроса, писать по пунктам (both, whereas, neither) и помечать свой вывод. Из урока о трёх текстах: разные виды источников отвечают на разные вопросы. Из урока о датчике воздуха: передача смысла другому читателю (mediation) делает форму проще, а факты оставляет теми же.\n\nНовое здесь — три вещи. Первая: считать не документы, а независимые проверки. Вторая: один набор фактов сразу для разных читателей — комитета, новичка, специалиста. Третья: решить, какую оговорку нельзя выбросить для каждого из них.\n\nПредел: урок не о том, как сделать текст короче или красивее. Он о том, чтобы у всех читателей осталась одна и та же правда, хотя слова у них разные."
+    },
+    {
+      "title": "Сколько здесь на самом деле проверок",
+      "body": "Документ, набор сведений и вывод — разные вещи. Цепочка такая: документ → откуда его сведения → что именно измерили.\n\nСтатья, которая пересказывает отчёт, — второй рассказ о той же проверке, а не вторая проверка. Если посчитать её отдельно, выйдет ложное подтверждение (circular reporting): кажется, что источников два, а сведения одни. Фраза: Documents A and B both rely on report WB-01. B is a second account of the same pilot, not a second study.\n\nНезависимый документ тоже может ничего не подтверждать, если он измерял другое. Отчёт RV-02 собран отдельно, на других людях, но считает посещения, а не английский: RV-02 is independent, but it measures attendance, not language.\n\nПредел: «не подтверждено» — не «опровергнуто». Из урока об отрицании: That doesn't show the program works ≠ It shows the program doesn't work."
+    },
+    {
+      "title": "Что меняется для разных читателей, а что — нет",
+      "body": "Комитету нужно решение: что известно, чего нет, какие есть варианты. Новичку нужно понять, что это значит для него. Специалисту — точные термины: comparison group, follow-up, replication.\n\nМеняются порядок, длина, слова и примеры. Не меняются кто измерил, на ком, за какой срок, что измеряли и насколько уверенно. May не становится will, «24 добровольца» — «участниками», «тест на слова» — «английским».\n\nТермин для новичка разворачивай, а не заменяй другим понятием. Специалисту: an uncontrolled before-and-after comparison. Новичку: They tested the same people before and after, but didn't compare them with people who didn't join. Смысл тот же. А вот The group's average score rose («средний балл вырос») — не Everyone improved: средний балл может вырасти, даже если у кого-то результат не изменился."
+    },
+    {
+      "title": "Какую оговорку нельзя выбросить",
+      "body": "Короткий текст всегда теряет детали. Вопрос — какие. Проверка: если читатель этого не узнает, решит ли он иначе? Если да, оговорка остаётся даже в двух предложениях.\n\nКомитету, который голосует за постоянную программу, нужны две оговорки: не было группы для сравнения и не было проверки позже. Без них «баллы выросли» звучит как «программа работает». Шкалу теста (из 100) или то, что статью написал репортёр, можно убрать.\n\nУчастнику, который спрашивает «успею ли к собеседованию?», нужна другая: результат получен на одной небольшой группе и сразу после занятий, это не обещание. Технические слова ему не нужны, а честное «мы не знаем, поможет ли и надолго ли» — нужно.\n\nЛишняя оговорка тоже вредит: если в каждой фразе may, perhaps и possibly, читатель не поймёт, что всё-таки известно."
+    },
+    {
+      "title": "Свой шаг — подписан в каждой версии",
+      "body": "Вспомни из урока о синтезе: свой вывод помечают — Taken together…, I would recommend…, provided that… Новое здесь: в версии для простого читателя эта пометка теряется чаще всего. We're starting a program that will improve your English звучит как решённое дело и как обещание. Честнее: I've suggested a one-year trial; the committee hasn't decided yet.\n\nЕсли читателей несколько, в конце сравни версии между собой. В каждой должны совпадать число независимых проверок, что измеряли, главная оговорка и то, что рекомендация твоя. Если в версии для участника источник «доказывает», а в версии для комитета «позволяет предположить», одна из них неверна."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The article repeats the report's numbers; it isn't a second study.",
+      "ru": "Статья повторяет цифры отчёта; это не второе исследование.",
+      "why": "Два документа, но одна проверка: повтор не добавляет подтверждения."
+    },
+    {
+      "en": "The second center is independent, but it counted attendance, not progress.",
+      "ru": "Второй центр независим, но он считал посещения, а не успехи.",
+      "why": "Независимый источник подтверждает только то, что сам измерял."
+    },
+    {
+      "en": "The group's average score went up, which doesn't mean every learner improved.",
+      "ru": "Средний балл группы вырос, но это не значит, что улучшился каждый.",
+      "why": "Средний — о группе, а не о каждом человеке."
+    },
+    {
+      "en": "They tested the same people before and after, but there was no group to compare them with.",
+      "ru": "Одних и тех же людей проверили до и после, но сравнить их было не с кем.",
+      "why": "Термин comparison group развёрнут для новичка, смысл не изменился."
+    },
+    {
+      "en": "That doesn't show the program works, and it doesn't show it fails.",
+      "ru": "Это не показывает, что программа работает, и не показывает, что она не работает.",
+      "why": "Поправка преувеличения не уходит в обратное преувеличение."
+    },
+    {
+      "en": "I've suggested a one-year trial; the committee hasn't decided yet.",
+      "ru": "Я предложил пробный год; комитет ещё не решил.",
+      "why": "Своя рекомендация подписана, и не звучит как принятое решение."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Досье для комитета / Three documents about a discussion program",
+      "source": "Придумано для курса: организации, документы и цифры вымышленные.",
+      "text": "Decision context\nA neighborhood learning committee is considering a permanent weekly English discussion program. A supporter says, “We have three documents, so three independent studies prove that weekly discussions improve English.”\n\nDocument A — Westbridge Learning Center, internal report WB-01\nTwenty-four volunteers took part in a four-week discussion pilot. The same 24 learners took a vocabulary quiz before and immediately after the pilot. Their mean score rose from 62 to 71 out of 100. There was no comparison group, and the report includes no later follow-up. The report does not identify the cause of the change or measure broader proficiency.\n\nDocument B — City Learning Bulletin, news article\nThe article describes the same Westbridge pilot, names report WB-01 as its only evidence, and repeats the mean quiz scores of 62 and 71. Its reporter collected no new data and interviewed no additional participants. The article presents the improvement as a reason to consider discussion programs.\n\nDocument C — Riverside Center, attendance report RV-02\nA different center independently recorded attendance for a separate eight-week discussion program involving 30 different learners. Twenty-one attended at least six meetings. None of these learners participated in WB-01. RV-02 includes no language assessment. The report records attendance without claiming that it demonstrates a change in English proficiency.\n\nNo other evidence is available."
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Два письма: председатель и будущий участник / Two messages",
+      "source": "Придумано для курса: люди и письма вымышленные.",
+      "text": "From: Linda Park, chair, Neighborhood Learning Committee\nSubject: Discussion program: what do the documents show?\n\nHi,\n\nOn Tuesday, May 12, the committee will vote on whether to fund the weekly English discussion program permanently, at about $6,000 a year. Several members have read the City Learning Bulletin article and say the case is settled. Could you send me a short memo on what the three documents actually show and what they don't? Most members aren't researchers, so please keep the language plain, but don't leave out anything that should affect the vote.\n\nThanks,\nLinda\n\n---\n\nFrom: Tomás Ortiz\nSubject: Question about the program\n\nHello,\n\nI read in the Bulletin that the discussion program improves English. I have a job interview in three months. If I join, will my English get better in time? Is it proven?\n\nThank you,\nTomás"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1. Ответь в 2–3 предложениях: сколько здесь документов, сколько независимо собранных наборов сведений и сколько из них измеряли английский. Назови отчёты по номерам (WB-01, RV-02).",
+      "context": "dataset — набор сведений; rely on — опираться на; attendance — посещаемость.",
+      "guidance": {
+        "title": "Документ → сведения → что измерили",
+        "body": "Для каждого документа спроси: собрал ли он свои сведения или пересказывает чужие? Потом — что именно в этих сведений измеряли. Считай проверки, а не публикации.",
+        "example": "There are two articles but only one survey behind them, and the survey asked about sleep, not grades.",
+        "translation": "Статей две, но за ними один опрос, и спрашивали в нём о сне, а не об оценках."
+      },
+      "hint": "Начни так: There are three documents, but…",
+      "answers": [
+        "There are three documents, but only two independently collected datasets: WB-01 and RV-02. Documents A and B both rely on WB-01, so B is a second account, not a second study. Only WB-01 measured English, with a vocabulary quiz; RV-02 measured attendance.",
+        "Three documents, two datasets, one measure of language. The Bulletin article repeats WB-01's numbers, and RV-02 is independent but only counts attendance."
+      ],
+      "explanation": "Засчитывается, если сказано: документов три, наборов сведений два (WB-01 и RV-02), английский измерял только WB-01, а B пересказывает A. Second account, retells, repeats — всё подходит.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сторонник пишет: \"Three independent studies prove that weekly discussions improve English.\" Коллега «поправил»: \"So the documents show the program doesn't work.\" Напиши одну-две фразы вместо обеих.",
+      "context": "rule out — исключить.",
+      "guidance": {
+        "title": "Вспоминаем: «не показано» — не «опровергнуто»",
+        "body": "Вспоминаем урок об отрицании: doesn't show ≠ shows not. Новое здесь: поправляя одно преувеличение, легко уйти в обратное. Скажи, сколько проверок на самом деле и чего они не показывают — в обе стороны.",
+        "example": "The survey doesn't show that the new menu caused the drop in sales, but it doesn't rule that out either.",
+        "translation": "Опрос не показывает, что падение продаж вызвало новое меню, но и не исключает этого."
+      },
+      "hint": "Начни так: The documents don't show that…, but they don't show that… either.",
+      "answers": [
+        "The documents contain one small study of English, not three, so they don't show that the discussions improve English. But they don't show that the program doesn't work either.",
+        "We have one quiz result, not three independent studies. It doesn't prove the program works, and it doesn't prove it fails; we just don't know yet."
+      ],
+      "explanation": "Засчитывается, если исправлен счёт (одна проверка английского, а не три) и обе крайности сняты: не доказано, что работает, и не доказано, что не работает. Don't know yet — хороший честный итог.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи для будущего участника: «Средний балл группы вырос с 62 до 71 из 100. Это не значит, что каждый участник улучшил результат: у кого-то балл мог остаться прежним».",
+      "context": "average — средний (проще, чем mean); score — балл; stay the same — остаться прежним.",
+      "guidance": {
+        "title": "Средний — не «у каждого»",
+        "body": "Для новичка average понятнее, чем mean. Главное — не потерять, что это число о группе. Вторая фраза прямо говорит, чего число не сообщает.",
+        "example": "The average wait fell to ten minutes, but some patients still waited an hour.",
+        "translation": "Среднее ожидание сократилось до десяти минут, но некоторые пациенты всё равно ждали час."
+      },
+      "hint": "Начни так: The group's average score…",
+      "answers": [
+        "The group's average score rose from 62 to 71 out of 100. That doesn't mean every participant improved: some people's scores may have stayed the same.",
+        "The group's average score went up from 62 to 71 out of 100. This doesn't mean that every participant did better; some scores may have stayed the same.",
+        "The group's mean score rose from 62 to 71 out of 100, but that doesn't mean everyone improved. Some participants' scores might not have changed."
+      ],
+      "explanation": "Важно сохранить «средний балл группы» и «не значит, что каждый». Average и mean значат одно и то же; для новичка average проще. May have stayed и might not have changed — оба верны.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Напиши одну и ту же оговорку о WB-01 дважды. Для специалиста — одной фразой с терминами comparison group и follow-up. Для Томаса из M2 — простыми словами, 1–2 предложения. Смысл должен совпадать.",
+      "context": "follow-up — повторная проверка позже; uncontrolled — без группы для сравнения.",
+      "guidance": {
+        "title": "Развернуть термин, а не заменить",
+        "body": "Для новичка объясни, что на самом деле сделали или не сделали исследователи. Не подменяй термин похожим, но другим понятием: «не сравнили» — не то же, что «проверка была плохой».",
+        "example": "Specialist: The survey used a convenience sample. / Newcomer: They only asked people who happened to be at the gym that day.",
+        "translation": "Специалисту: опрос использовал удобную выборку. / Новичку: спрашивали только тех, кто случайно оказался в спортзале в тот день."
+      },
+      "hint": "Что значит no follow-up простыми словами? Кого с кем не сравнили?",
+      "answers": [
+        "Specialist: WB-01 is an uncontrolled before-and-after comparison with no comparison group and no follow-up. / Newcomer: They tested the same people before and after the course, but they didn't compare them with people who didn't join, and they didn't test them again later.",
+        "Specialist: With no comparison group and no follow-up, WB-01 can't show cause or persistence. / Newcomer: We don't know if the classes caused the better scores, because nobody checked people who didn't take them, or if the improvement lasted, because nobody tested again later."
+      ],
+      "explanation": "Засчитывается, если обе версии говорят о двух одинаковых пробелах: не с кем сравнить и нет проверки позже. В версии для новичка нет терминов, но нет и оценки вроде the study was bad.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Томас спрашивает, успеет ли он улучшить английский к собеседованию через три месяца. Из списка выбери, что обязательно сказать ему, и напиши ответ из двух предложений: а) тест был из 100 баллов; б) участвовали 24 добровольца; в) проверяли сразу после четырёх недель, позже — нет; г) статья в Bulletin — пересказ отчёта; д) в другом центре считали посещаемость.",
+      "context": "",
+      "guidance": {
+        "title": "Проверка: решит ли читатель иначе?",
+        "body": "Оставь то, без чего читатель примет другое решение или будет ждать обещанного. Остальное убери, даже если это правда.",
+        "example": "You asked if the diet will work for you by summer. The study followed 30 people for only two weeks, so we don't know about longer.",
+        "translation": "Ты спрашивал, сработает ли диета к лету. Исследование наблюдало 30 человек всего две недели, так что о более долгом сроке мы не знаем."
+      },
+      "hint": "Томаса волнует срок «три месяца». Какой пункт прямо про то, сохраняется ли результат?",
+      "answers": [
+        "One small group of 24 volunteers did better on a vocabulary quiz right after four weeks, but nobody tested them later. So it isn't proven, and I can't promise it will help in time for your interview.",
+        "The only test was a quiz taken right after a four-week course by a small group, and no one checked them again later. It might help you, but it isn't proven."
+      ],
+      "explanation": "Засчитывается, если есть пункт «в» (проверка сразу после, позже — нет) и честное «не доказано / не могу обещать». Пункт «б» полезен, но не обязателен; «а», «г», «д» Томасу для решения не нужны.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Напиши свою рекомендацию комитету (два предложения) и одну фразу Томасу о том же решении. В обеих должно быть видно, что это твоё предложение, а не вывод документов, и что решение ещё не принято.",
+      "context": "trial — проба на время; evaluation — проверка результата.",
+      "guidance": {
+        "title": "Вспоминаем: свой вывод подписан",
+        "body": "Вспоминаем урок о синтезе: свой вывод помечай — I would recommend…, provided that… Новое здесь: в версии для простого читателя пометка теряется чаще всего. Проверь её там отдельно.",
+        "example": "I would recommend keeping the late bus for one more semester, provided that we count riders. / I've suggested keeping the late bus for now; the board hasn't decided yet.",
+        "translation": "Я бы рекомендовал сохранить поздний автобус ещё на семестр при условии, что мы посчитаем пассажиров. / Я предложил пока сохранить поздний автобус; совет ещё не решил."
+      },
+      "hint": "Для Томаса: I've suggested…; the committee hasn't…",
+      "answers": [
+        "My recommendation, not a finding of the documents, is to fund the program for one year instead of permanently. I would also suggest a comparison group and a second quiz three months later, so the committee can vote on permanent funding with real evidence. / I've suggested trying the program for a year; the committee hasn't decided yet.",
+        "Taken together, the documents don't settle the question, so I would recommend a one-year trial with a simple evaluation, provided that we test participants again after three months. This is my proposal, not something the reports conclude. / I've proposed a one-year trial, but the committee will decide on May 12."
+      ],
+      "explanation": "Засчитывается, если в обеих версиях рекомендация подписана как твоя (My recommendation, I would recommend, I've suggested) и ни одна не звучит как решение или обещание. Срок пробы и вид проверки можно выбрать свои.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Волонтёр сделал листовку для набора участников: \"Research proves it: our discussion program improves your English! Three studies agree. Join now and raise your score by 9 points!\" Перепиши её честно (2–3 предложения), чтобы она всё ещё звала прийти.",
+      "context": "flyer — листовка; sign up — записаться.",
+      "guidance": {
+        "title": "Приглашение — не обещание",
+        "body": "Листовка может звать и радовать, но не может обещать то, чего источники не показали. Убери «доказано», неверный счёт и личное обещание, а приглашение оставь.",
+        "example": "Proven to cut your bills in half! → In one small trial, some households saw lower bills. Come find out if it works for you.",
+        "translation": "Доказано: счета вдвое меньше! → В одной небольшой пробе у некоторых семей счета снизились. Приходите узнать, подойдёт ли это вам."
+      },
+      "hint": "Найди три проблемы: proves, three studies, your score by 9 points.",
+      "answers": [
+        "Want to practice speaking English? In one small pilot, a group of learners did better on a vocabulary quiz after four weeks of discussions. Join our weekly group and see if it helps you.",
+        "Weekly English discussions: come practice with your neighbors! In a short pilot at Westbridge, the group's average quiz score went up. We can't promise results, but we'd love to have you."
+      ],
+      "explanation": "Засчитывается, если нет proves и three studies, рост балла описан как результат одной группы (не «твои +9 баллов»), а приглашение осталось. We can't promise results — честная и дружелюбная оговорка.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ответь на оба письма из M2 (всего 200–300 слов). Сначала записка Линде Парк для комитета, примерно 150–220 слов; потом ответ Томасу, примерно 50–70 слов. Что должно быть: сколько на самом деле проверок и почему статья — не вторая проверка; что измерил RV-02; единственный результат об английском с цифрами и двумя главными оговорками; что это не доказывает и обратного; твоя рекомендация, подписанная как твоя; для Томаса — простые слова, честное «не доказано», без обещаний и с той же силой вывода, что в записке.",
+      "context": "",
+      "hint": "Перед отправкой сравни две версии: совпадают ли число проверок, оговорки и пометка «моя рекомендация»?",
+      "answers": [
+        "Memo to Linda Park\n\nThe documents give us less independent evidence than their number suggests. Documents A and B both rely on Westbridge report WB-01: the Bulletin article repeats its numbers and collected no new data, so it is a second account, not a second study. Riverside's RV-02 is a separate study with 30 different learners, but it measured attendance, not English: 21 of them attended at least six meetings.\n\nThat leaves one finding about language. The same 24 volunteers took a vocabulary quiz before and right after a four-week pilot, and their average score rose from 62 to 71. There was no comparison group, so we can't tell whether the discussions caused the rise. There was no later check, so we don't know whether it lasted.\n\nNone of this shows that the program doesn't work. It shows that we don't know yet.\n\nMy recommendation, not a finding of the documents: fund one year rather than a permanent program, with a comparison group and a second quiz three months later. The committee could then vote on permanent funding with real evidence.\n\nReply to Tomás\n\nHi Tomás,\n\nThanks for asking. One small group did better on a vocabulary quiz right after four weeks of discussions, but nobody checked them later or compared them with people who didn't join. So it isn't proven, and I can't promise results by your interview. Practice can still help, though, so please come try a session.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если в обеих версиях одинаковы счёт проверок, что измерил RV-02 и главная оговорка; цифры совпадают с M1; сказано, что обратное тоже не доказано; рекомендация подписана как твоя; Томасу ничего не обещано, а термины заменены объяснением.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "На заседании комитета один из членов говорит: \"Three independent studies prove that weekly discussions improve English.\" Ответь вслух, 2–3 минуты, не глядя в M1. Сначала объясни всем простыми словами, затем коротко — для Dr. Hale, бывшего исследователя, с терминами. Что должно быть: сколько проверок и почему; что измерил каждый документ; результат об английском с цифрами и его границы; что обратное тоже не доказано; честная замена фразы; твоё предложение, подписанное как твоё. Сила вывода в обеих версиях одна.",
+      "context": "provenance — происхождение сведений; replication — повторная проверка другими.",
+      "hint": "Переход между версиями: Dr. Hale, let me put that more technically.",
+      "answers": [
+        "I'd like to respond to the idea that three independent studies prove the program works. I don't think that's what the documents show, so let me explain in plain terms first.\n\nWe have three documents, but they don't add up to three checks. The news article is about the Westbridge pilot and repeats the same numbers from the same 24 people. Reading it is like hearing the same story twice. The Riverside report really is separate, with 30 different learners, but it counted how often people came, not whether their English improved. So we have one result about English: the Westbridge group did better on a vocabulary quiz right after four weeks, from 62 to 71 on average. That's encouraging. But nobody compared them with people who didn't join, and nobody tested them again later. That doesn't mean the program doesn't work. It means we don't know yet.\n\nDr. Hale, let me put that more technically. The dossier contains three documents but two independently collected datasets. A and B share WB-01 as their evidential basis, so B isn't a replication. RV-02 is independent in provenance, but its outcome is attendance, so it can't replicate a language result. WB-01 is an uncontrolled before-and-after comparison with no follow-up. It supports a claim about immediate quiz scores, not a causal claim about proficiency.\n\nA fair way to put it would be: one small pilot found a short-term quiz gain, and a separate program had steady attendance. My suggestion, and it's mine, not the documents', is a one-year program with a comparison group and a follow-up quiz."
+      ],
+      "explanation": "Засчитывается, если в обеих версиях одно и то же: две независимые проверки, одна об английском, статья — пересказ, RV-02 — посещаемость, нет сравнения и проверки позже, обратное не доказано. Термины звучат только во второй версии; предложение подписано как твоё. Проверь по расшифровке, не стало ли attendance «прогрессом».",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Соседская рассылка готовит заметку для всех жителей. Отредактируй черновик (120–180 слов): исправь всё, что не совпадает с M1 и M2, и оставь текст понятным для любого читателя.\n\n\"Great news for our neighborhood! A study at Westbridge, confirmed by the City Learning Bulletin and by a second study at Riverside, shows that weekly discussion groups improve English. Learners' scores jumped from 62 to 71, which means every participant got better in just four weeks. Riverside's numbers show that 70 percent of learners stayed with the program, proof that people love it. The committee will make the program permanent next month.\"",
+      "context": "newsletter — рассылка, местная газета.",
+      "hint": "Пять мест для проверки: confirmed by, shows that… improve, every participant, proof that people love it, will make permanent.",
+      "answers": [
+        "Discussion groups: what we know so far\n\nThe neighborhood committee is considering a permanent weekly English discussion program. Here is what the evidence shows.\n\nAt the Westbridge Learning Center, 24 volunteers took a vocabulary quiz before and right after a four-week pilot. Their average score rose from 62 to 71 out of 100. That doesn't mean every participant improved. And because no one compared them with people who didn't join or tested them again later, we don't know whether the discussions caused the rise or whether it lasted.\n\nThe City Learning Bulletin reported on the same pilot, so it isn't a second study. At Riverside, a separate program counted attendance: 21 of 30 learners came to at least six meetings. That shows steady attendance, not better English.\n\nThe committee hasn't decided yet. It will vote on Tuesday, May 12."
+      ],
+      "explanation": "Засчитывается, если Bulletin больше не «подтверждает», Riverside описан как подсчёт посещений (не «любят» и не «прогресс»), средний балл не превращён в «каждый», нет причинного «улучшает», а решение комитета не выдано за принятое. Текст остаётся понятным без терминов.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    }
+  ]
+}

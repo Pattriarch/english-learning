@@ -1,0 +1,316 @@
+{
+  "id": "path-proposal",
+  "title": "Предложение руководителю: цель, варианты, риск и просьба о решении",
+  "subtitle": "Проверяемая цель → варианты по одним критериям → must, should, could → риск с ответом → о чём ты просишь",
+  "level": "C1",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C1",
+  "minutes": 50,
+  "goal": "Написать руководителю короткое предложение, по которому можно сразу решить: «Рекомендую шестинедельный пилот за $1,320», «Главный риск — пропуски; через три недели проверим посещаемость», «Можете одобрить до пятницы?». И защитить его вслух, когда бюджет урезали.",
+  "formula": "The goal is for … to … → We compared … against …: cost, …, fit with the goal → I recommend … / I recommend that we … → It must …; we should …; we could … → The main risk is …; to reduce it, … → We will review … after …; if …, we will pause → Could you approve … by …?",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-argument-essay",
+    "extended-b2-evidence",
+    "path-subjunctive-formal",
+    "path-hedging"
+  ],
+  "recycles": [
+    "path-subjunctive-formal",
+    "path-hedging"
+  ],
+  "teaches": [
+    "предложение (proposal) из пяти частей: цель → варианты → рекомендация с ценой → риск и проверка → просьба о решении",
+    "проверяемая цель: The goal is for agents to … — что люди смогут сделать, а не improve English",
+    "критерии (criterion, мн. criteria) из условий задачи; оба варианта по каждому критерию: Option A …, while Option B …",
+    "признать сильную альтернативу: Option A is a reasonable choice if cost matters most, but …",
+    "must — граница, should — совет, could — возможность",
+    "рекомендация в первой фразе: I recommend Option B: … for $1,320 / I recommend that the company fund …",
+    "риск вместе с ответом: The main risk is …; to reduce it, …; допущение: This plan assumes that …",
+    "точка проверки и правило остановки: We will review … after three weeks. If …, we will pause …",
+    "просьба в конце: Could you approve … by Friday, May 15? вместо Hope this helps",
+    "слова: proposal, pilot, criterion / criteria, assumption, option, fund, approve, quarter"
+  ],
+  "sources": [
+    {
+      "title": "UNC Writing Center · Grant Proposals (or Give Me the Money!)",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/grant-proposals-or-give-me-the-money/",
+      "notes": "Сверено: предложение показывает проблему и почему она важна, называет главные цели, соответствующие этой проблеме, объясняет выбор метода, говорит, как будут судить об успехе, даёт бюджет с обоснованием и сроки; проект должен быть реалистичным, а не слишком амбициозным. Отсюда части урока: цель, выбор варианта, проверка, цена."
+    }
+  ],
+  "keyRule": {
+    "rule": "Сначала одной фразой — что ты предлагаешь и сколько это стоит. В конце — о каком решении просишь.",
+    "example": "I recommend a six-week pilot for $1,320. Could you approve it by Friday? — Я рекомендую шестинедельный пилот за $1,320. Можете одобрить его до пятницы?",
+    "check": "Поймёт ли читатель из первой и последней фразы, что ты предлагаешь и что ему сделать?"
+  },
+  "sections": [
+    {
+      "title": "Зачем руководителю предложение и что в нём должно быть",
+      "body": "Дана руководит отделом поддержки. Она хочет помочь двенадцати сотрудникам с английским и просит у тебя короткое предложение (proposal). В пятницу она понесёт его в финансовый отдел. Ей нужно принять решение, а не прочитать сочинение.\n\nПоэтому в предложении пять частей: какая цель; какие есть варианты; что ты рекомендуешь и сколько это стоит; какой главный риск и как проверить, работает ли план; о каком решении ты просишь.\n\nЧасть ты уже знаешь. Из урока об аргументе — тезис и честное «но». Из урока о клубе — рекомендация с ценой и provided that. Из урока о формальном стиле — I recommend that we run…, глагол без -s и без to.\n\nНовое здесь: сравнить варианты по одним и тем же признакам, отличать обязательное от желательного, называть риск вместе с ответом и заканчивать просьбой о конкретном решении. По-русски так же: «предлагаю шестинедельный пилот (pilot — пробный запуск) за 1 320 долларов», «прошу одобрить до пятницы»."
+    },
+    {
+      "title": "Цель, которую можно проверить",
+      "body": "Improve English — не цель для шести недель: непонятно, что считать успехом. Цель говорит, что люди смогут сделать и где ты это увидишь. The goal is for nurses to explain a new medicine schedule and check that the patient can repeat it — «цель — чтобы медсёстры могли объяснить новый график приёма лекарств и проверить, может ли пациент его повторить». Конструкция: The goal is for + кто + to + действие.\n\nПроверяемая цель не обязательно с числом. Достаточно, чтобы можно было увидеть, получилось или нет. Например, сравнить короткую сценку в начале и в конце по одному списку признаков.\n\nГде правило заканчивается: цель не обещает того, что от пилота не зависит. «Жалоб станет меньше» — надежда, а не цель: на жалобы влияет не только то, как люди объясняют."
+    },
+    {
+      "title": "Варианты по одним и тем же признакам",
+      "body": "Критерий (criterion, во множественном числе criteria) — признак, по которому сравнивают варианты. Возьми их из условий задачи. Например, школа выбирает приложение для учеников: We compared the two apps against three criteria: cost, who can use them, and fit with the goal.\n\nПотом пройди каждый критерий для обоих вариантов: The free app costs nothing, while the paid one costs $12 a month per student. Ошибка — хвалить один вариант за одно, а ругать другой за другое: The paid app is better because it looks modern. Читатель не видит, по какому признаку ты выбирал.\n\nСильную альтернативу признай: The free app is a reasonable choice if cost matters most, but it gives no feedback on speaking. Так видно, что ты её взвесил, а не пропустил."
+    },
+    {
+      "title": "Must, should, could и сама рекомендация",
+      "body": "Три слова — три степени обязательности. Must — граница, которую нельзя нарушить: The trial must end before the exams. Should — то, что ты советуешь: We should start with one class. Could — возможность, которую можно и не использовать: Parents could join later. Если их перепутать, читатель примет твой совет за обязательное правило или правило — за совет.\n\nРекомендацию ставь в начало, одной фразой: I recommend the paid app: a three-month trial for one class of 25 students, for $900. Или формально, как в уроке о формальном стиле: I recommend that the school fund a three-month trial.\n\nНе обещай результат, которого ещё нет. Вместо will fix the problem пиши is designed to help students… или We expect… Уверенным должен быть план, а не прогноз."
+    },
+    {
+      "title": "Риск, проверка и просьба в конце",
+      "body": "Риск без ответа — просто тревога. Называй их парой: The main risk is that students stop using the app after the first week. To reduce it, teachers will set one short task a day. Допущение (assumption) — то, что ты считаешь верным, но ещё не проверил: This plan assumes that every student has a phone. We need to confirm this before we start.\n\nНазови точку проверки и правило остановки: We will review usage after a month. If fewer than half of the students use the app each week, we will pause the trial and ask them why.\n\nПоследний абзац — просьба о решении: что, кто и к какому сроку. Could you approve the trial by Friday, May 15? Фразы Hope this helps или Let me know what you think читателю ничего не говорят: он не знает, чего от него ждут."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The goal is for new cashiers to handle a refund in English without help.",
+      "ru": "Цель — чтобы новые кассиры могли сами оформить возврат на английском.",
+      "why": "The goal is for + кто + to + действие: успех можно увидеть, а не только надеяться на него."
+    },
+    {
+      "en": "We compared both options against the same three criteria: cost, time, and fit with the goal.",
+      "ru": "Мы сравнили оба варианта по одним и тем же трём критериям: цена, время и связь с целью.",
+      "why": "Читатель заранее знает, по каким признакам ты выбирал."
+    },
+    {
+      "en": "The bus is a reasonable choice if cost matters most, but it takes twice as long.",
+      "ru": "Автобус — разумный вариант, если главное — цена, но он едет вдвое дольше.",
+      "why": "Сильная сторона другого варианта признана, а отказ привязан к другому критерию — времени."
+    },
+    {
+      "en": "The pilot must end by June 30, and we should review it after three weeks.",
+      "ru": "Пилот обязательно должен закончиться к 30 июня, а проверить его стоит через три недели.",
+      "why": "Must — граница, которую нельзя сдвинуть; should — совет автора."
+    },
+    {
+      "en": "The main risk is low attendance. To reduce it, we will hold the sessions during working hours.",
+      "ru": "Главный риск — низкая посещаемость. Чтобы его уменьшить, проведём занятия в рабочее время.",
+      "why": "Риск сразу идёт вместе с ответом на него."
+    },
+    {
+      "en": "Could you approve the six-week pilot by Friday, May 15?",
+      "ru": "Можете одобрить шестинедельный пилот до пятницы, 15 мая?",
+      "why": "Конец — конкретная просьба: что сделать и к какому сроку."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Письмо руководителя / English practice for the support team",
+      "kind": "reference",
+      "text": "From: Dana Brooks, Support Operations Manager\nSubject: English practice for the support team\n\nHi,\n\nAs you know, twelve agents on our Denver support team speak English as a second language. Most of them write well, but several have told me that explaining a fix on a video call is stressful. Last quarter, 14 of our 90 customer complaints said that an agent's explanation was hard to follow. I don't know yet whether the problem was language, the product, or both.\n\nI'd like to try something this quarter. Here's what I have:\n\n- Budget: up to $1,500 for this quarter.\n- Time: at most 45 minutes per agent per week, during working hours.\n- Shifts: eight agents work the day shift (8 a.m. to 4 p.m.), and four work the late shift (2 p.m. to 10 p.m.).\n\nTwo options so far:\n\nOption A: Luis Ortega from our QA team has offered to run a free conversation club on Tuesdays at noon, during the lunch break. Topics would be open: weekend plans, movies, the news. He can run it for six weeks, until his vacation.\n\nOption B: A local language school can send a tutor for workplace practice: explaining steps, checking that the customer understood, and handling an upset caller. A 45-minute session costs $110 for a group of up to eight. The tutor is available on Thursdays at 10 a.m. and 3 p.m.\n\nPlease send me a short proposal by Thursday, May 14: what you recommend, what it costs, and how we'll know whether it's working. I'm meeting with finance on Friday.\n\nThanks,\nDana",
+      "source": "Придумано для курса: компания, люди и цены вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Ответ руководителя — открыть в задании e9 / New limits",
+      "kind": "reference",
+      "text": "Thanks for the proposal. I talked to finance this morning, and there are two changes. First, they want this quarter's cost under $1,000. Second, the team leads say 45 minutes a week is too much during our busy season: 30 minutes per agent is the most they can give. The school says a 30-minute session costs $80. Luis is still happy to help if that's useful.\n\nCan you adjust the plan? And to be honest, I'm not convinced yet. Why should we spend money when we don't even know whether language is the problem?",
+      "source": "Придумано для курса: письмо вымышленное."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега начал предложение так: The goal of the program is to improve the team's English. Перепиши цель по M1 так, чтобы через шесть недель можно было увидеть, достигнута она или нет.",
+      "context": "fix — решение проблемы клиента; agent — сотрудник поддержки.",
+      "guidance": {
+        "title": "Цель — что люди смогут сделать",
+        "body": "Замени общее «улучшить» на действие, которое можно увидеть: кто, что сможет сделать и в какой ситуации.",
+        "example": "The goal is for new drivers to explain a delivery delay to a customer and offer a new time.",
+        "translation": "Цель — чтобы новые водители могли объяснить клиенту задержку доставки и предложить другое время."
+      },
+      "hint": "Что агентам трудно делать, по словам Даны? Начни так: The goal is for agents to…",
+      "answers": [
+        "The goal is for agents to explain a fix in three clear steps on a video call and check that the customer understood.",
+        "The goal is for agents to explain a solution step by step and check the customer's understanding.",
+        "The goal is for agents to walk a customer through a fix on a video call and confirm that the customer can follow it."
+      ],
+      "explanation": "Засчитывается, если цель называет действие (объяснить решение на звонке) и способ увидеть успех (проверить, понял ли клиент). «Меньше жалоб» не подходит: на жалобы влияет ещё и продукт.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Назови по M1 три критерия для выбора и сравни оба варианта по двум из них: цена и кто сможет прийти. Две-три фразы.",
+      "context": "criterion — критерий, во множественном числе criteria; late shift — вечерняя смена.",
+      "guidance": {
+        "title": "Каждый критерий — для обоих вариантов",
+        "body": "Сначала назови признаки, потом пройди каждый для A и для B. Связка while ставит два варианта рядом в одной фразе.",
+        "example": "We compared the gyms against two criteria: price and hours. Gym A costs $30 a month, while Gym B costs $55. Gym A closes at 8 p.m., while Gym B is open until midnight.",
+        "translation": "Мы сравнили спортзалы по двум критериям: цена и часы работы. Зал A стоит $30 в месяц, а зал B — $55. Зал A закрывается в 8 вечера, а зал B работает до полуночи."
+      },
+      "hint": "Цена B: две группы × шесть недель × $110. С какого часа работает вечерняя смена — и во сколько клуб Луиса?",
+      "answers": [
+        "We compared the options against three criteria: cost, who can attend, and fit with the goal. Option A is free, while Option B costs $1,320 for six weeks with two groups. Option A meets at noon, so the four late-shift agents can't attend, while Option B has a 3 p.m. group for them.",
+        "Our criteria are cost, attendance, and fit with the goal. Option A costs nothing, while Option B costs $1,320 for two groups over six weeks. The late shift starts at 2 p.m., so those four agents would miss Luis's noon club, but they could join the tutor's 3 p.m. session."
+      ],
+      "explanation": "Засчитывается, если оба варианта сравнены по одним и тем же признакам и цифры верны: 2 × 6 × $110 = $1,320; вечерняя смена начинается в 2 p.m., поэтому клуб в полдень ей не подходит. Третий критерий — связь с целью или время сотрудников.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Найди, что не так в сравнении, и перепиши его двумя фразами по критериям из M1: Option B is better because the tutor is very professional. Option A is bad because Luis is going on vacation.",
+      "context": "",
+      "guidance": {
+        "title": "Честное сравнение: признай сильную сторону",
+        "body": "«Профессиональный» и «отпуск» — не критерии из задачи. Сравни по тем же признакам и признай, чем хорош отвергнутый вариант: … is a reasonable choice if …, but …",
+        "example": "Gym A is a reasonable choice if price matters most, but it closes before most of us finish work.",
+        "translation": "Зал A разумен, если главное — цена, но он закрывается раньше, чем большинство из нас заканчивает работу."
+      },
+      "hint": "Мешает ли отпуск Луиса шестинедельному пилоту? Начни так: Option A is a reasonable choice if cost matters most, but…",
+      "answers": [
+        "Option A is a reasonable choice if cost matters most, but its open topics don't practice explaining a fix, and the late shift can't attend. Option B costs $1,320, but it practices the skill in our goal and covers both shifts.",
+        "Option A is free, so it is a reasonable choice if cost is the main concern. However, Option B fits our goal better, because the tutor practices explaining steps and checking understanding, and its 3 p.m. group works for the late shift."
+      ],
+      "explanation": "Отпуск Луиса начнётся после шести недель и пилоту не мешает, а «профессионализм» никак не связан с критериями. Засчитывается, если признано, что A бесплатен, а выбор B объяснён связью с целью и сменами.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи три фразы для предложения: «Пилот обязательно должен уложиться в 1 500 долларов. Мы советуем начать с шести недель. Клуб Луиса можно было бы добавить позже как дополнительную практику».",
+      "context": "",
+      "guidance": {
+        "title": "Must, should, could",
+        "body": "Must — граница, которую нельзя нарушить. Should — твой совет. Could — возможность, без обязательства. Подбери слово к смыслу каждой фразы.",
+        "example": "The event must end by 9 p.m. We should send invitations this week. We could also invite the neighbors.",
+        "translation": "Мероприятие обязательно должно закончиться к 9 вечера. Приглашения стоит разослать на этой неделе. Можно было бы позвать и соседей."
+      },
+      "hint": "Где граница от финансового отдела, где твой совет, а где только возможность?",
+      "answers": [
+        "The pilot must stay within $1,500. We should start with six weeks. Luis's club could add extra practice later.",
+        "The pilot must stay within the $1,500 budget. We should start with six weeks. We could add Luis's club later as extra practice.",
+        "The pilot must not cost more than $1,500. We should begin with six weeks. Luis's club could be added later for extra practice."
+      ],
+      "explanation": "Бюджет — граница, поэтому must. Шесть недель — твой совет, поэтому should. Клуб Луиса — только возможность, поэтому could. Recommend starting with six weeks тоже верно для второй фразы."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о формальном стиле. Напиши рекомендацию для Даны: «Я рекомендую, чтобы компания оплатила шесть недель занятий в двух группах. Важно, чтобы каждый агент был в группе своей смены».",
+      "context": "fund — оплатить, профинансировать; shift — смена.",
+      "guidance": {
+        "title": "Вспоминаем: recommend that + глагол без -s",
+        "body": "Вспоминаем урок о формальном стиле: после recommend that и It is important that глагол стоит в начальной форме — без -s, без to: the company pay, each agent be. В американском деловом письме это обычная форма.",
+        "example": "I recommend that the school hire two more tutors. It is important that each tutor be free on Thursdays.",
+        "translation": "Я рекомендую, чтобы школа наняла ещё двух преподавателей. Важно, чтобы каждый был свободен по четвергам."
+      },
+      "hint": "Начни так: I recommend that the company pay… Во второй фразе — each agent be, а не is.",
+      "answers": [
+        "I recommend that the company pay for six weeks of sessions in two groups. It is important that each agent be in the group for their shift.",
+        "I recommend that the company fund six weeks of sessions in two groups. It is important that each agent be in the group that matches their shift.",
+        "I recommend that the company pay for six weeks of sessions for two groups. It's important that every agent be in the group for their shift."
+      ],
+      "explanation": "После recommend that и it is important that — начальная форма: pay, fund, be. Вариант со should (the company should pay) понятен, но в американском деловом тексте чаще пишут без него."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Назови по M1 главный риск пилота, как ты его уменьшишь и когда и по какому правилу решишь, продолжать ли. Две-три фразы.",
+      "context": "attend — приходить, посещать; in a row — подряд.",
+      "guidance": {
+        "title": "Риск — вместе с ответом и точкой проверки",
+        "body": "Назови риск и сразу ответ: To reduce it, … Потом — когда проверишь и что сделаешь, если дела плохи: We will review … after …; if …, we will …",
+        "example": "The main risk is that volunteers stop coming. To reduce it, each shift lasts only two hours. We will review sign-ups after a month, and if fewer than ten people sign up, we will change the schedule.",
+        "translation": "Главный риск — волонтёры перестанут приходить. Чтобы этого избежать, каждая смена длится всего два часа. Через месяц проверим запись, и если запишутся меньше десяти человек, поменяем расписание."
+      },
+      "hint": "Что может помешать агентам прийти в загруженную неделю? Начни так: The main risk is that agents…",
+      "answers": [
+        "The main risk is that agents miss sessions in busy weeks. To reduce it, the sessions are during their shifts, and team leads will know the times in advance. We will review attendance after three weeks, and if fewer than half of the agents attend two sessions in a row, we will pause the pilot and ask them why.",
+        "The main risk is low attendance when the phones are busy. To reduce it, each group meets during its own shift. After three weeks, we will check attendance; if most agents have missed two sessions, we will pause and change the time."
+      ],
+      "explanation": "Засчитывается, если риск идёт вместе с ответом, названы срок проверки и понятное правило: при каком результате пилот ставят на паузу или меняют. Другие риски тоже подходят, например разный уровень английского в группе.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок об оговорках. Перепиши этот абзац честно (две-три фразы): This program will fix our customer complaints. The 14 complaints prove that language is the problem, and after six weeks every agent will speak confidently.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: факт прямо, ожидание — с границей",
+        "body": "Вспоминаем урок об оговорках: цифру из письма пиши прямо и вместе с итогом. Причину и результат пилота — с границей. Скажи, что пилот проверит, а чего не докажет.",
+        "example": "Last year, 9 of 40 parents said the forms were confusing. The new form is designed to be simpler, but we don't know yet whether it will reduce mistakes.",
+        "translation": "В прошлом году 9 из 40 родителей сказали, что анкеты запутанные. Новая форма задумана проще, но мы пока не знаем, станет ли меньше ошибок."
+      },
+      "hint": "Из скольких жалоб эти 14? Что Дана сама пишет о причине? Начни так: Last quarter, 14 of 90 complaints…",
+      "answers": [
+        "Last quarter, 14 of 90 complaints said that an explanation was hard to follow, but we don't know whether language, the product, or both caused this. The pilot is designed to help agents explain fixes more clearly. We will compare a short practice call at the start and at the end, but this will not prove that any change in complaints comes from the sessions.",
+        "Fourteen of last quarter's 90 complaints mentioned explanations that were hard to follow. We don't know yet whether the problem was language or the product. We expect the sessions to help agents explain steps more clearly, and we will check this with a practice call at the start and the end."
+      ],
+      "explanation": "Засчитывается, если цифра стоит вместе с итогом (14 из 90), причина жалоб названа неизвестной, а пилот обещает только то, что можно проверить. Will fix и prove убраны: без сравнения нельзя знать, что изменило число жалоб.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши Дане предложение по M1: 180–250 слов. Что должно быть: рекомендация и цена в первом абзаце; проверяемая цель; сравнение обоих вариантов по одним и тем же критериям и почему ты не выбрал второй; must, should или could там, где они нужны; главный риск с ответом и одно допущение, которое надо подтвердить; как вы поймёте, работает ли план, и когда проверите; в конце — просьба о решении со сроком.",
+      "context": "",
+      "hint": "План: I recommend… for $… → The goal is for… → We compared… → The main risk is… This plan assumes… → We will review… → Could you approve… by…?",
+      "answers": [
+        "Subject: Proposal: six-week English pilot for the support team\n\nHi Dana,\n\nI recommend Option B: six weeks of workplace sessions with the language school, in two groups, for $1,320. That leaves $180 of this quarter's budget unused.\n\nThe goal is for agents to explain a fix in three clear steps on a video call and check that the customer understood.\n\nWe compared both options against three criteria: cost, who can attend, and fit with the goal. Option A is a reasonable choice if cost matters most, since it is free. However, its topics are open, and it meets at noon, before the late shift starts. Option B costs more, but it practices exactly the skill in our goal, and its 10 a.m. and 3 p.m. groups cover both shifts. Each session is 45 minutes, so it stays within the time limit.\n\nThe main risk is that agents miss sessions in busy weeks. To reduce it, the sessions are during working hours. This plan assumes that team leads can free agents on Thursdays; we need to confirm this before we start.\n\nIn the first and last sessions, each agent will do a short practice call, and the tutor will use the same checklist both times. We will review attendance after three weeks. If fewer than half of the agents attend two sessions in a row, we should pause and ask them why.\n\nCould you approve the pilot by Friday, May 15?\n\nThanks,\nAlex"
+      ],
+      "explanation": "Засчитывается, если рекомендация и цена стоят в начале, цена верна ($1,320 из $1,500), оба варианта сравнены по одним критериям, есть риск с ответом, допущение, способ проверки и срок, а в конце — конкретная просьба. Выбор A тоже засчитывается, если он честно объяснён по тем же критериям и учтена вечерняя смена.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Открой M2: финансовый отдел урезал бюджет и время, а Дана сомневается. Ответь ей вслух за 2–3 минуты. Что должно быть: ответ на её вопрос «зачем тратить деньги, если мы не знаем, в языке ли дело» — признай, в чём она права; новый план под оба новых ограничения с ценой; как ты сузил цель и что пилот теперь проверит, а чего не докажет; что делать с предложением Луиса; в конце — о чём ты её просишь.",
+      "context": "",
+      "hint": "Начни так: You're right that we don't know whether… That's actually a reason for a small pilot… Посчитай: две группы × шесть недель × $80.",
+      "answers": [
+        "You're right that we don't know whether language is the problem. Fourteen of ninety complaints is not proof of anything. But I think that's actually a reason for a small pilot, not against it. Right now we're guessing. A short pilot would show whether agents explain fixes more clearly after practice. If they don't, we've learned something for less than a thousand dollars.\n\nHere's the new plan. The school charges eighty dollars for a thirty-minute session. With two groups, one for each shift, six weeks costs nine hundred and sixty dollars. That's under the thousand-dollar limit, and it's thirty minutes per agent per week, which is what the team leads can give.\n\nShorter sessions mean less practice, so I'd narrow the goal. Instead of three skills, we'd focus on one: explaining a fix in three clear steps and checking that the customer understood. We'd drop the part about upset callers for now.\n\nIn the first and last sessions, each agent would do a short practice call, and the tutor would use the same checklist both times. That shows whether their explanations changed. It won't prove that the sessions reduce complaints, because the product can cause complaints too. We'd watch the complaints, but we shouldn't promise anything there.\n\nAs for Luis, his club could be optional extra practice at lunch, but it shouldn't count toward the thirty minutes, because it's not during working hours.\n\nSo what I'm asking is this: could you take the nine-hundred-sixty-dollar version to finance and approve it by Friday? If you'd rather wait, I can suggest what we could check about the complaints first."
+      ],
+      "explanation": "Засчитывается, если ты признал правоту Даны и объяснил, почему пилот всё же полезен, цена верна (2 × 6 × $80 = $960), время — 30 минут, цель сужена и названо, чего пилот не докажет, а в конце — просьба о решении. Отказ от пилота тоже засчитывается, если он обоснован и предлагает следующий шаг.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега написал своё предложение Дане и просит его поправить. Перепиши его по M1 (150–200 слов), а потом напиши коллеге две фразы: какие две правки самые важные и почему.\n\nЧерновик: \"Hi Dana, I think English is really important for our team, so we should definitely do something. My idea is the tutor, because the school has great reviews and Luis's club is too informal. It will cost around $2,600 for the quarter, which is fine. Agents must come every week, even on busy days. This will improve our English and fix the complaints. Hope this helps! Let me know what you think.\"",
+      "context": "",
+      "hint": "Проверь: есть ли цель? По каким критериям сравнили? Укладывается ли $2,600 в бюджет — и откуда эта цифра? Чьё это «must»? Что обещано? О каком решении просят?",
+      "answers": [
+        "Hi Dana,\n\nI recommend a six-week pilot with the language school's tutor, in two groups, for $1,320. A full quarter would cost $2,640, which is over our $1,500 budget, so six weeks is what we can afford now.\n\nThe goal is for agents to explain a fix in three clear steps and check that the customer understood. Luis's free club is a reasonable choice if cost matters most, but its topics are open, and the late shift can't join at noon. The tutor's sessions practice the skill in our goal and cover both shifts.\n\nThe main risk is missed sessions in busy weeks, so the sessions are during working hours. We will compare a short practice call at the start and the end, and we will review attendance after three weeks. The pilot may help with complaints, but it can't prove that, because the product matters too.\n\nCould you approve the pilot by Friday, May 15?\n\nThanks,\nSam\n\nThe most important change is the cost: $2,600 was over budget, so I reduced the plan to six weeks. I also replaced \"fix the complaints\" with a goal we can check, because we don't know what caused them."
+      ],
+      "explanation": "Засчитывается, если в новой версии есть рекомендация с верной ценой в бюджете, проверяемая цель, сравнение по критериям из M1, риск, проверка и просьба со сроком, а «must come every week» и обещание «fix the complaints» убраны. Две правки можно выбрать другие, если объяснено, чем они важны для решения Даны.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

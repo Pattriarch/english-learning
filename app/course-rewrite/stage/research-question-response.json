@@ -1,0 +1,315 @@
+{
+  "id": "research-question-response",
+  "title": "Вопрос в ответ: интерес, удивление и проверка",
+  "subtitle": "Have you? → You did? и продолжение → эхо-вопрос → «разве не…?» → I see ≠ «да» → своя речь",
+  "level": "C1",
+  "group": "Разговор и дискурс",
+  "units": "Разговорная практика · авторские задания",
+  "minutes": 50,
+  "goal": "Отвечать на новости собеседника так, как это делают американцы: «Have you? What was it like?», «You did? Congratulations!», удивиться числу («You paid how much?»), проверить то, в чём был уверен («Isn't the meeting online?»), — и не принимать «I see» за согласие.",
+  "formula": "I've moved. — Have you? · I don't… — Don't you? · You did? + Congratulations! / Is everything OK? · You paid how much? · Isn't…? / Didn't you say…? · I see ≠ I agree → Does that work for you?",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Ответный вопрос берёт помощника из фразы собеседника и не меняет «да» на «нет».",
+    "example": "I don't eat meat. — Oh, don't you? — Я не ем мясо. — Правда?",
+    "check": "Как ответить на She can't drive, чтобы показать удивление?"
+  },
+  "prerequisites": [
+    "path-question-tags",
+    "path-repair-conversation",
+    "path-prosody"
+  ],
+  "recycles": [
+    "path-question-tags",
+    "path-repair-conversation"
+  ],
+  "teaches": [
+    "ответный вопрос (reply question) = «Да? Правда?»: помощник из чужой фразы + you/he/she: I've moved. — Have you?",
+    "знак не меняется: I don't drink coffee. — Don't you? (у хвостика к своей фразе знак меняется)",
+    "американский порядок утверждения с голосом вверх: You did? You haven't? She is?; Really?; Oh yeah? может звучать как вызов",
+    "после ответного вопроса — фраза, которая показывает отношение: You did? Congratulations! / You did? Is everything OK?",
+    "эхо-вопрос: You paid how much? She's moving where? — удивление или не расслышал; с клиентом спокойнее Sorry, did you say…?",
+    "отрицательный вопрос — проверить то, в чём был уверен: Isn't the meeting online? Didn't you say Friday?; ответ на факт: Yes, it is / No, it isn't",
+    "Uh-huh, I see, right, got it — «слушаю», а не «согласен»; проверить согласие: Does that work for you, or would another day be better?"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia · Echo question",
+      "url": "https://en.wikipedia.org/wiki/Echo_question",
+      "notes": "Сверено со ссылками на Cambridge Grammar of the English Language: эхо-вопрос повторяет реплику собеседника; вопросительное слово остаётся на месте неясной детали, без перестановки и без do (He saw a what?); голос в конце вверх; зачем — удивление или не расслышал."
+    },
+    {
+      "title": "British Council LearnEnglish · Question tags",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/question-tags",
+      "notes": "Сверено для контраста с прошлым уроком: хвостик к своей фразе меняет знак (She's a doctor, isn't she?), помощник берётся из фразы, без помощника — do/does/did; голос вниз — уверен, вверх — не уверен. Ответных вопросов страница не касается: правило «знак не меняется» сверено по учебным материалам о reply questions (I never buy shoes online. — Don't you?)."
+    }
+  ],
+  "sections": [
+    {
+      "title": "«Правда?» по-английски: ответный вопрос с помощником",
+      "body": "Коллега говорит: I've just moved to Denver — «Я только что переехал в Денвер». По-русски ты ответишь «Да? Правда?». По-английски часто отвечают коротким вопросом из помощника и you, he или she: Have you? Это ответный вопрос (reply question).\n\nОн не просит подтвердить факт. Он значит «я слушаю, мне интересно, рассказывай». Помощник берёшь из фразы собеседника, как в So do I из урока «Me too»: She's moving. — Is she? He can't drive. — Can't he? Если помощника нет — do, does или did: I ran a marathon. — Did you?\n\nГлавное отличие от хвостика (tag): ответный вопрос не меняет «да» на «нет». It's cold, isn't it? — хвостик к своей фразе, знак меняется. I don't drink coffee. — Don't you? — ответ на чужую фразу, not остаётся."
+    },
+    {
+      "title": "You did? — так часто говорят американцы, и после него нужно продолжение",
+      "body": "В американской речи ответный вопрос часто звучит в порядке обычной фразы, только голос идёт вверх ↗: I got the job. — You did? I've never been to New York. — You haven't? Смысл тот же, что у Did you? и Haven't you?. Ещё короче — Really?\n\nОдин такой вопрос без продолжения звучит сухо. Слова You did? можно сказать и с радостью, и с сомнением, и собеседник не поймёт, что ты имел в виду. Поэтому сразу добавь вторую фразу, которая показывает отношение: You did? Congratulations! When do you start? — радость и интерес. You did? Is everything OK? — беспокойство.\n\nПредел: Oh yeah? с ровным или падающим голосом может прозвучать как вызов — «ну-ну, докажи». С незнакомыми людьми надёжнее Really? или вопрос с помощником и продолжение."
+    },
+    {
+      "title": "Эхо-вопрос: You paid how much?",
+      "body": "Иногда тебя удивила одна деталь или ты её не расслышал. Тогда повторяют фразу собеседника, а на место этой детали ставят вопросительное слово: I paid $900 for the ticket. — You paid how much? She's moving to Alaska. — She's moving where? Это эхо-вопрос (echo question). Порядок слов остаётся как в утверждении, без do и did. Вопросительное слово звучит громко, голос в конце идёт вверх.\n\nСравни с обычным вопросом. How much did you pay? — ты просто узнаёшь цену. You paid how much? — «сколько-сколько?»: тебя удивило число.\n\nПредел: эхо легко звучит как осуждение — «ты с ума сошёл?». С другом это нормально. С клиентом или начальником спокойнее переспросить, как в уроке о переспросе: Sorry, did you say $900? или Sorry, how much was it?"
+    },
+    {
+      "title": "Отрицательный вопрос: «Разве встреча не онлайн?»",
+      "body": "Ты был уверен, что встреча онлайн, а коллега пишет: See you in Room 4. Ты удивлён и проверяешь свою уверенность: Isn't the meeting online? — «Разве встреча не онлайн?». Это отрицательный вопрос: в начале помощник с n't. Didn't you say Friday? — «Ты же говорил, в пятницу?»\n\nТакой вопрос показывает: ты ждёшь ответа «да» и удивишься, если будет «нет». Обычный вопрос Is the meeting online? ничего не ожидает: так спрашивает человек, который не знает.\n\nОтвечают на сам факт, как на хвостики. Isn't the meeting online? — Yes, it is (онлайн). — No, it isn't (не онлайн). Русское «да, не онлайн» по-английски не работает: говори No, it isn't. Didn't you get my email? — письмо пришло: Yes, I did."
+    },
+    {
+      "title": "Uh-huh и I see значат «я слушаю», а не «я согласен»",
+      "body": "Uh-huh, I see, right, OK, got it — сигналы слушателя. Они значат «я слежу за твоей мыслью». Согласия в них может не быть. Ты предлагаешь новый график, коллега отвечает Uh-huh, I see — это ещё не «да».\n\nПоэтому в заметке после встречи не пиши She agreed, если она сказала только I see. Пиши то, что было: She said \"I see\" but didn't say whether she agreed. Если решение важно, спроси прямо: Does that work for you? Are you OK with Thursday? Хороший вопрос оставляет место и для «нет»: …or would another day be better?\n\nТо же наоборот. Если ты просто слушаешь — говори I see. Если согласен — скажи это словами: That works for me. I agree."
+    }
+  ],
+  "examples": [
+    {
+      "en": "\"I've been to Alaska twice.\" \"Have you? What was it like?\"",
+      "ru": "«Я был на Аляске дважды». «Да? И как там?»",
+      "why": "Have взят из фразы собеседника; второй вопрос показывает интерес и даёт ему рассказать больше."
+    },
+    {
+      "en": "\"We don't have a car.\" \"Don't you? How do you get around?\"",
+      "ru": "«У нас нет машины». «Правда? А как вы передвигаетесь?»",
+      "why": "Ответ на чужую фразу: not остаётся."
+    },
+    {
+      "en": "It isn't far, is it?",
+      "ru": "Это ведь недалеко?",
+      "why": "Хвостик к своей фразе: знак меняется. Сравни с примером выше, где он не меняется."
+    },
+    {
+      "en": "\"I got the job.\" \"You did? That's great!\"",
+      "ru": "«Меня взяли на работу». «Правда? Здорово!»",
+      "why": "Американский вариант в порядке утверждения; That's great! снимает вопрос, радость это или сомнение."
+    },
+    {
+      "en": "You invited how many people?",
+      "ru": "Ты пригласил сколько человек?",
+      "why": "Эхо: how many people стоит там, где было число, которое тебя удивило."
+    },
+    {
+      "en": "Isn't the store open on Sundays?",
+      "ru": "Разве магазин не работает по воскресеньям?",
+      "why": "Ты был уверен, что работает, и удивлён, что, может быть, нет."
+    },
+    {
+      "en": "She said \"I see,\" but she didn't say yes.",
+      "ru": "Она сказала «понимаю», но «да» не сказала.",
+      "why": "Сигнал слушателя записан как сигнал, а не как согласие."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "dialogue",
+      "title": "Новости Джордана / Jordan's news",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Your friend Jordan calls you. Your lines are B.\n\nJordan: Guess what? I got the job in Denver!\nB: …\nJordan: Yeah, and I'm moving in three weeks. I start on November 3.\nB: …\nJordan: I already found an apartment. It's $2,400 a month.\nB: …\nJordan: I know, right? But it's close to the office, so I'm not taking my car.\nB: …\nJordan: I'm going to sell it. Oh, and my manager says I can work from home on Fridays. Well, she said, \"We'll see.\"\nB: …\nJordan: Anyway, I'm having a little goodbye party next Saturday. You're coming, right?\nB: …"
+    },
+    {
+      "id": "m2",
+      "kind": "dialogue",
+      "title": "Расшифровка звонка / Call notes: moving the weekly check-in",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "A short team call. You are Alex. Ken was not on the call.\n\nAlex: So here's my idea. We move the weekly check-in from Mondays at 9:00 a.m. to Thursdays at 8:30 a.m., starting October 22.\nDana: Uh-huh.\nLuis: Right, right. I see.\nPriya: Wait, you're moving it to when? Thursday at 8:30?\nAlex: Yes, 8:30.\nPriya: Doesn't Ken have a client call on Thursday mornings?\nAlex: I'm not sure. I'll check with him.\nDana: OK.\nLuis: Got it. Can we keep it to thirty minutes, though?\nAlex: Sure, thirty minutes.\nPriya: Then Thursday works for me, if Ken can make it."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега за обедом говорит: I've been to Alaska twice. Ответь коротким вопросом с помощником и добавь один вопрос, который показывает интерес.",
+      "context": "",
+      "guidance": {
+        "title": "Помощник — из фразы собеседника",
+        "body": "Найди помощника в его фразе (am, is, have, can…) и поставь его перед you, he или she. Второй вопрос приглашает рассказать больше.",
+        "example": "She's lived in Japan. — Has she? Where?",
+        "translation": "Она жила в Японии. — Да? А где?"
+      },
+      "hint": "Какой помощник спрятан в I've been? Начни так: Have…",
+      "answers": [
+        "Have you? What was it like?",
+        "Have you? When did you go?",
+        "Have you? Why did you go twice?",
+        "Have you? What did you see there?",
+        "Oh, have you? What was it like?",
+        "You have? What was it like?",
+        "You have? When did you go?"
+      ],
+      "explanation": "I've = I have, поэтому ответ Have you?. Американское You have? с голосом вверх тоже верно. Второй вопрос — любой настоящий вопрос о поездке."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет: Mark didn't come to the meeting. Ответь в два хода: сначала удивись ответным вопросом, потом проверь свою догадку хвостиком: «Он ведь не заболел?»",
+      "context": "sick — больной.",
+      "guidance": {
+        "title": "Вспоминаем хвостики: где знак меняется, а где нет",
+        "body": "Вспоминаем урок о хвостиках: к своей фразе хвостик ставят с обратным знаком — He isn't busy, is he? Ответный вопрос на чужую фразу знак не меняет: didn't остаётся didn't.",
+        "example": "Ana can't come. — Can't she? She isn't busy, is she?",
+        "translation": "Ана не может прийти. — Да? Она ведь не занята?"
+      },
+      "hint": "Первая часть начинается с Didn't…, вторая — с He isn't sick…",
+      "answers": [
+        "Didn't he? He isn't sick, is he?",
+        "Didn't he? He's not sick, is he?",
+        "Oh, didn't he? He isn't sick, is he?",
+        "He didn't? He isn't sick, is he?",
+        "He didn't? He's not sick, is he?"
+      ],
+      "explanation": "Didn't he? повторяет отрицание из фразы коллеги; Did he? здесь — ошибка знака. В хвостике знак меняется: фраза с isn't — хвостик is he?. He didn't? — американский вариант первой части."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Подруга говорит: I quit my job yesterday. Напиши две разные реакции. Обе начинаются с You did?, но первая показывает радость и интерес, а вторая — беспокойство. В каждой — ещё одна фраза или вопрос.",
+      "context": "quit — уйти с работы по своему желанию (quit — quit — quit).",
+      "guidance": {
+        "title": "You did? + фраза, которая показывает отношение",
+        "body": "You did? — ответный вопрос в порядке утверждения, голос вверх. Сам по себе он значит и радость, и сомнение. Что ты чувствуешь, показывает вторая фраза.",
+        "example": "I sold my car. — You did? Good for you! / You did? But how will you get to work?",
+        "translation": "Я продал машину. — Правда? Молодец! / Правда? А как ты будешь добираться до работы?"
+      },
+      "hint": "Для радости подойдут Good for you! или Congratulations!, для беспокойства — Is everything OK?",
+      "answers": [
+        "You did? Good for you! What are you going to do next? / You did? Is everything OK? What happened?",
+        "You did? Congratulations! Do you have a new job? / You did? Are you OK? Did something happen at work?",
+        "You did? That's great! Tell me everything. / You did? Oh no, is everything all right?"
+      ],
+      "explanation": "Засчитывается, если обе реакции начинаются с You did?, а вторая фраза явно показывает разное отношение: сначала радость или интерес, потом беспокойство. Did you? вместо You did? тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Сосед по квартире говорит: I invited thirty people to the party on Saturday. Ты думал, будет человек десять. Удивись эхо-вопросом и добавь спокойную фразу: «Я думал, это будет маленькая вечеринка».",
+      "context": "",
+      "guidance": {
+        "title": "Эхо: повтори фразу, а удивившую деталь замени вопросом",
+        "body": "Порядок слов как у собеседника, без do и did. На место числа ставишь how many people, произносишь его громко, голос в конце вверх.",
+        "example": "She's moving to Alaska. — She's moving where?",
+        "translation": "Она переезжает на Аляску. — Она переезжает куда?"
+      },
+      "hint": "Начни так: You invited…",
+      "answers": [
+        "You invited how many people? I thought it was going to be a small party.",
+        "You invited how many people? I thought it would be a small party.",
+        "You invited how many? I thought it was going to be a small party.",
+        "Wait, you invited how many people? I thought it was going to be a small party."
+      ],
+      "explanation": "Эхо сохраняет порядок You invited… и ставит how many people на место thirty. How many people did you invite? — обычный вопрос: удивления в нём нет. Was going to be и would be — оба верны."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Клиентка пишет в чате: We need the final design by Monday. Ты набрал ответ You need it WHEN?! — так он звучит как упрёк. Перепиши: спокойно проверь день и коротко объясни, почему спрашиваешь (срок для вас тесный).",
+      "context": "tight — тесный (о сроке); make sure — убедиться.",
+      "guidance": {
+        "title": "Вспоминаем: переспросить без оценки",
+        "body": "Вспоминаем урок о переспросе: Sorry, did you say…? и Just to confirm… проверяют одну деталь и ничего не оценивают. Эхо оставь для друзей.",
+        "example": "Sorry, did you say 200 copies? I want to make sure we print the right number.",
+        "translation": "Простите, вы сказали 200 экземпляров? Хочу убедиться, что мы напечатаем нужное количество."
+      },
+      "hint": "Начни так: Sorry, did you say…? или Just to confirm, …",
+      "answers": [
+        "Sorry, did you say Monday? That's a little tight for us, so I want to make sure.",
+        "Sorry, did you say by Monday? It's a little tight for us, so I just want to make sure.",
+        "Just to confirm, you need the final design by Monday? That's a tight deadline for us, so I want to make sure I have it right."
+      ],
+      "explanation": "Sorry, did you say Monday? проверяет только день. Фраза о тесном сроке объясняет, зачем ты спрашиваешь, без упрёка. Just to confirm + фраза в порядке утверждения тоже подходит."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет: See you in Room 4 at three. Ты был уверен, что встреча онлайн. Переведи свой ответ: «Разве встреча не онлайн? В письме была ссылка на Zoom».",
+      "context": "link — ссылка.",
+      "guidance": {
+        "title": "Отрицательный вопрос: ты ждал «да»",
+        "body": "Помощник с n't в начале показывает: ты был уверен и теперь удивлён. Обычный вопрос Is the meeting online? звучит так, будто ты ничего не знал.",
+        "example": "Didn't you say the store opens at nine? The door's still locked.",
+        "translation": "Ты же говорил, что магазин открывается в девять? Дверь ещё закрыта."
+      },
+      "hint": "Начни так: Isn't…",
+      "answers": [
+        "Isn't the meeting online? The email had a Zoom link.",
+        "Isn't the meeting online? There was a Zoom link in the email.",
+        "Isn't the meeting online? The email included a Zoom link.",
+        "Wait, isn't the meeting online? The email had a link to Zoom."
+      ],
+      "explanation": "Isn't the meeting online? показывает, что ты ждал «онлайн». В начале вопроса — сокращение isn't: Is not the meeting…? так не говорят. Had, included и There was… — все верны."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В этих записях три ошибки, по одной в строке. Исправь каждую строку.\n1) A: I can't come on Friday. — B: Do you?\n2) A: Didn't you get my email? — B (письмо получил): No, I got it this morning.\n3) Заметка после звонка: The client agreed to the new price. (Клиентка сказала только: Uh-huh, I see.)",
+      "context": "",
+      "guidance": {
+        "title": "Uh-huh и I see — «слушаю», а не «согласен»",
+        "body": "Сигнал слушателя не равен «да». В заметку пиши то, что человек сказал, а не то, что ты надеялся услышать. Строки 1 и 2 проверь по помощнику и по факту.",
+        "example": "The manager said \"OK, I see\" but didn't say whether she agreed.",
+        "translation": "Начальница сказала «ок, понимаю», но не сказала, согласна ли она."
+      },
+      "hint": "Какой помощник в I can't? B получил письмо — значит, по факту это «да» или «нет»?",
+      "answers": [
+        "1) Can't you? 2) Yes, I did. I got it this morning. 3) The client said \"I see\" but didn't say whether she agreed to the new price.",
+        "1) Can't you? Why not? 2) Yes, I did — I got it this morning. 3) The client said \"Uh-huh, I see,\" but she didn't say if she agreed to the new price."
+      ],
+      "explanation": "1) Ответный вопрос берёт помощника can't: Can't you?. 2) Отвечаешь на факт: письмо пришло — Yes, I did. 3) I see — сигнал слушания, поэтому в заметке только сказанное; можно добавить, что согласие нужно уточнить."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Открой M1. Друг Джордан рассказывает новости, твои реплики — B. Сыграй разговор вслух: прочитай реплику Джордана и сразу ответь своими словами. Потом примерно минуту перескажи новости коллеге, который знает Джордана. Всего 2–3 минуты. Что должно быть: хотя бы два ответных вопроса с продолжением (один — в американском порядке, как You did?); одно эхо или спокойный переспрос цены; один отрицательный вопрос, который проверяет твою уверенность; одна проверка догадки хвостиком или right?; в пересказе — что точно решено, а что нет.",
+      "context": "We'll see — «посмотрим».",
+      "hint": "Перед записью отметь в M1, какую форму скажешь после каждой реплики. Пересказ: Jordan got… He's moving… His manager only said…",
+      "answers": [
+        "B: You did? Congratulations! When did you find out?\nB: You're moving when? In three weeks? Wow, that's fast.\nB: Sorry, did you say $2,400 a month? That's a lot. Is it a one-bedroom?\nB: You're not? But aren't you going to need a car on the weekends?\nB: She said \"We'll see\"? So it's not a yes yet, right?\nB: Of course I'm coming! What time?\n\nHey, did you hear about Jordan? He got the job in Denver, and he's moving in three weeks. He starts on November 3. He already found an apartment close to the office. It's $2,400 a month, which surprised me. He's going to sell his car, because he won't need it to get to work. He also told me he can work from home on Fridays, but actually his manager only said \"We'll see,\" so that isn't decided yet. Oh, and he's having a goodbye party next Saturday."
+      ],
+      "explanation": "Засчитывается, если есть все пять видов реакций и каждая подходит к новости, а в пересказе работа из дома по пятницам не выдана за решённую: We'll see — ещё не «да». Послушай запись: идёт ли голос вверх в You did? и в эхо."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Открой M2 — расшифровку звонка. Ты — Alex. Напиши письмо всей команде — Дане, Луису, Прие и Кену (150–200 слов). Что должно быть: что ты предложил (день, время, с какой даты); кто что ответил — без «все согласились», если человек сказал только Uh-huh, OK или I see; условие Прии и просьба Луиса; вопрос к Кену, которого не было на звонке; прямой вопрос к тем, кто не сказал «да», с местом для «нет»; когда и как ты примешь решение.",
+      "context": "check-in — короткая встреча команды; make it — успеть, прийти.",
+      "hint": "План: Here's where we are → I suggested… → Luis asked… Priya said… → Ken, … → Dana and Luis, I heard \"OK\" and \"I see,\" but… → Please reply by…",
+      "answers": [
+        "Subject: Moving our weekly check-in to Thursdays?\n\nHi everyone,\n\nThanks for the call today. Here's where we are.\n\nI suggested moving our weekly check-in from Mondays at 9:00 a.m. to Thursdays at 8:30 a.m., starting October 22. Luis asked us to keep it to thirty minutes, and I'm happy to do that. Priya said Thursday works for her if Ken can make it.\n\nKen, you weren't on the call, so this is the open question: don't you have a client call on Thursday mornings? Could you let me know if 8:30 works for you?\n\nDana and Luis, I heard \"OK\" and \"I see,\" but I don't want to assume that means yes. Does Thursday at 8:30 work for you, or would you rather keep Monday? Either answer is fine.\n\nPlease reply by Friday. If Thursday works for everyone, I'll send a new invite for October 22. If not, we'll stay with Mondays for now.\n\nThanks,\nAlex"
+      ],
+      "explanation": "Засчитывается, если факты совпадают с M2 (Thursday, 8:30 a.m., October 22, thirty minutes), согласие Прии передано с её условием, Uh-huh, OK и I see не выданы за «да», а к Кену и к остальным есть прямые вопросы с местом для «нет». Другой срок ответа тоже подходит."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Это твоя переписка с новым соседом по квартире Сэмом. Твои ответы звучат холодно или ведут к недоразумению. Перепиши три своих ответа (You) так, чтобы они звучали дружелюбно и ясно.\n\nSam: I just paid $300 for concert tickets!\nYou: What? You paid how much?!\nSam: Yeah, they're for both of us. My treat.\nYou: Really.\nSam: Also, I asked my brother to stay with us next weekend.\nYou: I see.\nSam: Great, so he can stay?\n\nНа самом деле тебе неудобно: в понедельник у тебя экзамен, и следующие выходные — плохое время. Через неделю — можно.",
+      "context": "My treat — «я угощаю»; generous — щедрый.",
+      "hint": "1) удивление + интерес, 2) благодарность словами, 3) не I see, а честный ответ и другой вариант.",
+      "answers": [
+        "1) You did? Wow! Which concert?\n2) Really? That's so generous of you. Thank you!\n3) Hmm, next weekend isn't great for me. I have an exam on Monday, and I need to study. Could he come the weekend after?",
+        "1) You did? For which show?\n2) For both of us? Thanks so much, that's really generous!\n3) Sorry, I should have been clearer. Next weekend is hard for me because of my exam on Monday. How about the weekend after?"
+      ],
+      "explanation": "Засчитывается, если первый ответ — ответный вопрос с интересом, а не эхо-упрёк; второй — благодарность словами вместо сухого Really.; третий ясно говорит «нет» на эти выходные, объясняет почему и предлагает другое время. I see ведёт к ошибке: Сэм принял его за согласие."
+    }
+  ]
+}

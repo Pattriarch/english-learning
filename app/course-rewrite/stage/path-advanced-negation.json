@@ -1,0 +1,346 @@
+{
+  "id": "path-advanced-negation",
+  "title": "Not all, not necessarily, no longer: что именно отрицает not",
+  "subtitle": "Не все ≠ никто → не обязательно ≠ точно нет → hardly, no longer, fail to → I don't think → объявление, которое нельзя понять иначе",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Сказать ровно то, что знаешь: «ответили не все» (Not everyone replied), а не «никто»; «это ещё не значит провал» (That doesn't necessarily mean…); «он здесь больше не работает» (He no longer works here).",
+  "formula": "Not all / not every ≠ none / no one → doesn't necessarily mean ≠ can't be → hardly · no longer · fail to → I don't think + обычная фраза → важное — без второго прочтения",
+  "keyRule": {
+    "rule": "Ответили не все — Not everyone. Не ответил никто — No one. All… not не пиши.",
+    "example": "Not all the files are lost. — Потеряны не все файлы.",
+    "check": "Not necessarily — это «нет»? Нет, это «не обязательно»."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-quantifiers-nuance",
+    "path-hedging"
+  ],
+  "recycles": [
+    "path-deduction",
+    "path-quantifiers-nuance"
+  ],
+  "teaches": [
+    "not all / not every / not everyone — «не все»: часть да, часть нет; сколько — фраза не сообщает",
+    "all… not у глагола (All the guests didn't come) читают двумя способами — пиши Not all… или None of…",
+    "not necessarily — «не обязательно», а не «нет»; X doesn't necessarily mean Y — «X ещё не значит Y»",
+    "no longer — «больше не»: перед глаголом, после is / can / will; разговорно — not… anymore; не путать с not yet",
+    "fail to + глагол — не сделал то, что должен был или пытался; fail a test — провалить экзамен",
+    "I don't think he knows — not у think; с hope и I'm sure not остаётся во второй части",
+    "I didn't say it was impossible — отказ от чужих слов, а не «это возможно»",
+    "в объявлении: после сложного отрицания — простая фраза о том, что можно",
+    "слова: survey, refund, refundable, landlord, fee, store credit, receipt, final sale"
+  ],
+  "sources": [
+    {
+      "title": "Grammarphobia · All wrong?",
+      "url": "https://www.grammarphobia.com/blog/2013/01/all.html",
+      "notes": "Сверено: фраза с all в начале и not у глагола («All of the decisions won't be correct») читается двусмысленно; то же с every, everyone, everything. Совет американских справочников — ставить not перед all / every: «Not everyone…». Отсюда раздел 1 и задание на объявление."
+    },
+    {
+      "title": "Grammarphobia · Not necessarily so",
+      "url": "https://grammarphobia.com/blog/2011/01/necessarily.html",
+      "notes": "Сверено: not necessarily значит «не во всём и не без оговорок верно», а не «неверно»; часто это уклончивый короткий ответ. Отсюда граница «не обязательно ≠ точно нет» и пример — So you're moving? — Not necessarily."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Ответили семь из десяти: какая фраза годится",
+    "why": "Группа одна и та же. Одна фраза верна, одна неверна, одна неясна, а число снимает все вопросы.",
+    "items": [
+      {
+        "label": "Верно",
+        "en": "Not everyone replied.",
+        "ru": "Ответили не все.",
+        "note": "Not перед everyone: часть молчит."
+      },
+      {
+        "label": "Неверно",
+        "en": "No one replied.",
+        "ru": "Никто не ответил.",
+        "note": "Так говорят, когда ответов ноль."
+      },
+      {
+        "label": "Неясно",
+        "en": "Everyone didn't reply.",
+        "ru": "«Все не ответили»",
+        "note": "Одни поймут «никто», другие — «не все»."
+      },
+      {
+        "label": "Точнее всего",
+        "en": "Seven of the ten people replied.",
+        "ru": "Ответили семь человек из десяти.",
+        "note": "Когда число важно, назови его."
+      }
+    ],
+    "focus": [
+      "Not everyone",
+      "No one",
+      "Seven of the ten"
+    ],
+    "footnote": "Нужна часть — Not all или Not every. Нужен ноль — None of или No one."
+  },
+  "sections": [
+    {
+      "title": "«Не все» и «никто» — разные новости",
+      "body": "Представь: из десяти коллег на опрос (survey) ответили семь. Ты пишешь менеджеру. Not everyone replied — «ответили не все». Это правда: трое молчат. No one replied — «никто не ответил». Это неправда: так говорят, когда ответов ноль.\n\nNot в начале отрицает слово all или every, а не всю фразу. Not all the files are lost — «потеряны не все файлы»: часть цела. Сколько именно, фраза не сообщает. Если число важно, назови его: Seven of the ten people replied.\n\nЛовушка — all в начале и not у глагола: All the guests didn't come. Одни читатели поймут «не пришёл никто», другие — «пришли не все». Американские справочники советуют ставить not перед all, every, everyone: Not all the guests came.\n\n«Ни один» — это none of, no one, nobody из B2: None of the guests came. Слова all и not здесь не нужны."
+    },
+    {
+      "title": "Not necessarily: «не обязательно» — это не «нет»",
+      "body": "Друг говорит: «Ресторан дорогой — значит, вкусный». Ты отвечаешь: Not necessarily — «не обязательно». Ты не говоришь, что там невкусно. Ты говоришь, что из цены вкус не следует.\n\nВ полной фразе: X doesn't necessarily mean Y — «X ещё не значит Y». A delay doesn't necessarily mean the project failed. Задержка не доказывает провал. Успех она тоже не доказывает: вопрос остаётся открытым.\n\nНе путай с «точно нет». «Точно нет» — That's not true или can't be, как в уроке о догадках: She can't be home. Там же была похожая пара: might not — «может, и нет», can't — «точно нет».\n\nКороткий ответ Not necessarily часто значит «пока не решил»: — So you're moving? — Not necessarily. Человек не говорит ни «да», ни «нет»."
+    },
+    {
+      "title": "Hardly, no longer, fail to: «не» уже внутри слова",
+      "body": "В этих словах отрицание уже есть, поэтому второе not не ставят. Hardly any и hardly ever ты знаешь с B2: She hardly ever complains — она почти никогда не жалуется.\n\nNo longer — «больше не, уже нет»: было раньше и кончилось. He no longer works here — он здесь больше не работает. No longer стоит перед глаголом, а с is, can, will — после них: She is no longer a member. We can no longer accept checks. В разговоре чаще говорят not… anymore: He doesn't work here anymore. He doesn't work here no longer — ошибка: два «не». Не путай с not yet — «ещё нет»: этого пока не было, но ждём.\n\nFail to + глагол — «не сделать то, что должен был или пытался»: The landlord failed to mention the fee — хозяин квартиры не упомянул плату, а должен был. Это не «провалить»: fail a test — провалить экзамен, fail to call — не позвонить. Fail to звучит строже, чем didn't, и подходит для жалобы или отчёта."
+    },
+    {
+      "title": "I don't think he knows: «по-моему, он не знает»",
+      "body": "По-русски говорят: «Я думаю, он не знает». По-английски not обычно ставят к think: I don't think he knows. Дословно «я не думаю, что он знает», но смысл тот же: «по-моему, нет». Так же с believe, expect и seem: I don't expect it'll take long. It doesn't seem to work.\n\nI think he doesn't know — не ошибка, но звучит резче и встречается реже.\n\nГде правило кончается. С hope и I'm sure not остаётся во второй части: I hope it doesn't rain. I don't hope it rains — ошибка. I'm sure she isn't angry.\n\nЕщё одна ловушка — отрицание чужих слов. I didn't say it was impossible — «я не говорил, что это невозможно». Это не значит «это возможно». Человек только отказывается от слов, которые ему приписали. Если ответ важен, переспроси: So do you think it's possible?"
+    },
+    {
+      "title": "Когда ошибка дорого стоит: отрицание без второго прочтения",
+      "body": "В объявлении, договоре или отчёте читатель не может переспросить. Поэтому проверь три вещи.\n\nПервое: all или every вместе с not у глагола перепиши. Нужна часть — Not all…; нужен ноль — None of… или No…\n\nВторое: после сложного отрицания добавь простую фразу о том, что можно. Not all tickets can be refunded. Tickets bought before May 1 can be refunded.\n\nТретье: два отрицания подряд замени одним утверждением: It's not impossible → It's possible, but unlikely. «Можно не» и «нельзя» тоже не смешивай. С A2 ты помнишь: You don't have to bring ID — «удостоверение можно не брать», а You can't bring food inside — «еду проносить нельзя»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Not everyone replied to the survey.",
+      "ru": "На опрос ответили не все.",
+      "why": "Not перед everyone: часть ответила, часть нет."
+    },
+    {
+      "en": "None of the guests stayed late.",
+      "ru": "Никто из гостей не задержался.",
+      "why": "Ноль из группы — none of; второе not не нужно."
+    },
+    {
+      "en": "A higher price doesn't necessarily mean better quality.",
+      "ru": "Цена выше — это ещё не значит, что качество лучше.",
+      "why": "Качество может оказаться и лучше, и хуже: из цены это не следует."
+    },
+    {
+      "en": "He no longer works here.",
+      "ru": "Он здесь больше не работает.",
+      "why": "Раньше работал, теперь нет. В разговоре — He doesn't work here anymore."
+    },
+    {
+      "en": "The landlord failed to mention the parking fee.",
+      "ru": "Хозяин квартиры не упомянул плату за парковку.",
+      "why": "Должен был сказать — и не сказал. Fee — плата, сбор."
+    },
+    {
+      "en": "I don't think she knows about the meeting.",
+      "ru": "По-моему, она не знает о встрече.",
+      "why": "Not стоит у think, хотя по-русски «не» — у «знает»."
+    },
+    {
+      "en": "I hope it doesn't rain on Saturday.",
+      "ru": "Надеюсь, в субботу не будет дождя.",
+      "why": "С hope отрицание остаётся во второй части."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь менеджеру: из двенадцати сотрудников новую форму заполнили девять. Переведи: «Форму заполнили не все сотрудники». fill out — заполнить; employee — сотрудник.",
+      "context": "",
+      "guidance": {
+        "title": "Часть группы — Not all или Not every",
+        "body": "Not ставь в самое начало, перед all или every. Тогда ясно: кто-то заполнил, кто-то нет.",
+        "example": "Not all the rooms have a view.",
+        "translation": "Не из всех номеров есть вид."
+      },
+      "hint": "Начни так: Not …",
+      "answers": [
+        "Not all employees filled out the form.",
+        "Not all the employees filled out the form.",
+        "Not all of the employees filled out the form.",
+        "Not every employee filled out the form.",
+        "Not everyone filled out the form.",
+        "Not all employees have filled out the form.",
+        "Not every employee has filled out the form.",
+        "Not everyone has filled out the form."
+      ],
+      "explanation": "Not перед all, every или everyone говорит «не все». All the employees didn't fill out the form многие прочитают как «никто не заполнил»."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В рассылке района написано: “All the stores weren't open on Sunday.” Непонятно, что имелось в виду. Напиши две ясные фразы одну за другой: сначала для случая, когда работали два магазина из пяти, потом — когда не работал ни один.",
+      "context": "",
+      "guidance": {
+        "title": "Часть — Not all, ноль — None of",
+        "body": "Одна неясная фраза превращается в две разные новости. Для части — Not all; для нуля — None of, без второго not.",
+        "example": "Not all the buses were late. None of the trains were late.",
+        "translation": "Опоздали не все автобусы. Ни один поезд не опоздал."
+      },
+      "hint": "Во второй фразе есть ли место для weren't?",
+      "answers": [
+        "Not all the stores were open on Sunday. None of the stores were open on Sunday.",
+        "Not all of the stores were open on Sunday. None of the stores were open on Sunday.",
+        "Not all the stores were open on Sunday. None of the stores was open on Sunday.",
+        "Not all the stores were open on Sunday. No stores were open on Sunday.",
+        "Only two of the five stores were open on Sunday. None of the stores were open on Sunday.",
+        "Not every store was open on Sunday. None of the stores were open on Sunday."
+      ],
+      "explanation": "Первая фраза — «не все»: часть работала. Вторая — «ни один»: none of без not; глагол were или was — оба верны. Only two of the five тоже хорошо: число убирает вопросы."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: “The reviews are terrible, so the movie must be bad.” Ответь: «Не обязательно. Плохие отзывы ещё не значат, что фильм плохой».",
+      "context": "review — отзыв.",
+      "guidance": {
+        "title": "«Ещё не значит» — doesn't necessarily mean",
+        "body": "Ты не споришь, что фильм хороший. Ты говоришь, что из отзывов вывод не следует.",
+        "example": "Not necessarily. A small office doesn't necessarily mean a small company.",
+        "translation": "Не обязательно. Маленький офис ещё не значит, что компания маленькая."
+      },
+      "hint": "Начни так: Not necessarily. Bad reviews don't …",
+      "answers": [
+        "Not necessarily. Bad reviews don't necessarily mean the movie is bad.",
+        "Not necessarily. Bad reviews don't necessarily mean that the movie is bad.",
+        "Not necessarily. Bad reviews don't necessarily mean it's bad.",
+        "Not necessarily. Bad reviews don't necessarily mean that it's a bad movie.",
+        "Not necessarily. Terrible reviews don't necessarily mean the movie is bad."
+      ],
+      "explanation": "Not necessarily — «не обязательно», а не «нет». Фраза не обещает, что фильм хороший: она только снимает уверенный вывод."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Клиент звонит и просит позвать мистера Рида. Ответь: «Мистер Рид здесь больше не работает, а новый менеджер ещё не приступил».",
+      "context": "start — приступить, начать работу.",
+      "guidance": {
+        "title": "Уже нет — no longer, ещё нет — not yet",
+        "body": "No longer — было и кончилось, стоит перед глаголом. Not yet — ещё не было, но ждём.",
+        "example": "The store no longer sells phones, and the new models haven't arrived yet.",
+        "translation": "Магазин больше не продаёт телефоны, а новые модели ещё не пришли."
+      },
+      "hint": "Начни так: Mr. Reed no longer …",
+      "answers": [
+        "Mr. Reed no longer works here, and the new manager hasn't started yet.",
+        "Mr. Reed no longer works here, and the new manager has not started yet.",
+        "Mr. Reed doesn't work here anymore, and the new manager hasn't started yet.",
+        "Mr. Reed no longer works here, and the new manager hasn't started.",
+        "Mr. Reed no longer works here, but the new manager hasn't started yet.",
+        "Mr. Reed no longer works here, and the new manager hasn't started work yet."
+      ],
+      "explanation": "No longer works — раньше работал, теперь нет; doesn't work here anymore значит то же, но разговорнее. Hasn't started yet — новый человек ещё впереди."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь жалобу в компанию, которая сдаёт квартиры. Переведи: «Хозяин квартиры не упомянул плату за парковку и не ответил на два моих письма».",
+      "context": "landlord — хозяин квартиры; parking fee — плата за парковку.",
+      "guidance": {
+        "title": "Не сделал, что должен был, — fail to",
+        "body": "Fail to + глагол — человек должен был что-то сделать и не сделал. В жалобе это звучит твёрже, чем didn't.",
+        "example": "The airline failed to tell us about the delay.",
+        "translation": "Авиакомпания не сообщила нам о задержке."
+      },
+      "hint": "Начни так: The landlord failed …",
+      "answers": [
+        "The landlord failed to mention the parking fee and failed to reply to two of my emails.",
+        "The landlord failed to mention the parking fee and didn't reply to two of my emails.",
+        "The landlord failed to mention the parking fee and did not answer two of my emails.",
+        "The landlord failed to mention the parking fee and failed to answer two of my emails.",
+        "The landlord failed to mention the parking fee and did not reply to two of my emails."
+      ],
+      "explanation": "Failed to mention — не упомянул, хотя должен был. Во второй части подходят и failed to reply, и didn't reply."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает про новенького, Сэма. Ответь: «По-моему, он не знает о встрече. Надеюсь, он не опоздает».",
+      "context": "",
+      "guidance": {
+        "title": "Not — к think, но не к hope",
+        "body": "«Думаю, что нет» по-английски — I don't think + обычная фраза. С hope так не работает: not стоит во второй части.",
+        "example": "I don't think the store is open. I hope it isn't closed for good.",
+        "translation": "По-моему, магазин не работает. Надеюсь, он не закрылся навсегда."
+      },
+      "hint": "Где стоит not в первой фразе, а где — во второй?",
+      "answers": [
+        "I don't think he knows about the meeting. I hope he isn't late.",
+        "I don't think he knows about the meeting. I hope he won't be late.",
+        "I don't think he knows about the meeting. I hope he's not late.",
+        "I don't think he knows about the meeting. I hope he doesn't come late.",
+        "I don't think Sam knows about the meeting. I hope he isn't late.",
+        "I don't think he knows about the meeting. I hope he won't come late."
+      ],
+      "explanation": "I don't think he knows — обычная форма для «по-моему, не знает»; I think he doesn't know звучит резче. I don't hope he's late — ошибка: с hope not остаётся во второй части."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем догадки. Друг говорит: “Her car isn't here, so she isn't home.” Ответь: «Не обязательно. Может, она дома: иногда она ездит на автобусе».",
+      "context": "take the bus — ездить на автобусе.",
+      "guidance": {
+        "title": "Вспоминаем: not necessarily + другая версия через might",
+        "body": "Вспоминаем урок о догадках: might — «может быть». Not necessarily снимает чужую уверенность, а might предлагает другую версию.",
+        "example": "Not necessarily. He might be in a meeting: he sometimes turns his phone off.",
+        "translation": "Не обязательно. Может, он на совещании: иногда он выключает телефон."
+      },
+      "hint": "Начни так: Not necessarily. She might …",
+      "answers": [
+        "Not necessarily. She might be home: she sometimes takes the bus.",
+        "Not necessarily. She might be home. She sometimes takes the bus.",
+        "Not necessarily. She may be home: she sometimes takes the bus.",
+        "Not necessarily. She could be home: she sometimes takes the bus.",
+        "Not necessarily. She might be at home: sometimes she takes the bus.",
+        "Not necessarily. She might be home because she sometimes takes the bus."
+      ],
+      "explanation": "Not necessarily — вывод не обязателен. Might, may или could be home — другая возможная версия. She can't be home было бы «точно нет» — как раз то, с чем ты споришь."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты секретарь соседской ассоциации на Oak Street. Ассоциация написала: “Not all residents support the new bike lane.” Районный новостной сайт пересказал: “None of the residents support the bike lane.” Итоги опроса: ответили 40 жителей; 26 за, 9 против, 5 не решили. Напиши редактору, Ms. Grant, письмо на 150–250 слов. Что должно быть: о какой статье речь; что сказали вы и что напечатали они; чем not all отличается от none; цифры опроса; почему пятеро нерешивших — не обязательно противники; точная фраза для исправления; вежливая просьба и подпись.",
+      "context": "resident — житель; bike lane — велодорожка; neighborhood association — соседская ассоциация.",
+      "hint": "План: I'm writing about your article… → Our statement said… Your article reported… → “Not all” means…, “none” means… → Here are the numbers… → The five who are not sure don't necessarily… → Could you please correct…? → Sincerely,",
+      "answers": [
+        "Dear Ms. Grant:\n\nI'm writing on behalf of the Oak Street Neighborhood Association about your May 6 article on the new bike lane.\n\nOur statement said, “Not all residents support the new bike lane.” Your article reported this as “None of the residents support the bike lane.” These sentences mean very different things. “Not all” means that support isn't universal. “None” means that nobody supports it, and that isn't true.\n\nHere are the numbers from our survey. Forty residents answered. Twenty-six support the bike lane, nine are against it, and five are not sure. So most residents who answered support it. The five who are not sure don't necessarily oppose it; they simply haven't decided yet.\n\nCould you please correct the sentence to: “Most residents who answered the survey support the bike lane, while nine oppose it”? You could also add the full numbers above. I'd be happy to send you the survey results if that would help.\n\nThank you for your time. It's easy to miss one small word, but here it changes the whole story.\n\nSincerely,\nLaura Chen\nSecretary, Oak Street Neighborhood Association"
+      ],
+      "explanation": "Засчитывается, если в письме есть все пункты: исходная и напечатанная фразы, разница not all и none, цифры 26 / 9 / 5, мысль «нерешившие не обязательно против», готовая фраза для исправления, просьба и подпись. Тон вежливый, ошибка названа прямо, без обвинений."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг в панике: он быстро заглянул в ящик стола, не увидел паспорт и говорит: “It's not there. Someone stole it.” Объясни ему голосом 2–3 минуты, что он знает на самом деле. Что должно быть: что точно известно — failed to find; что из этого не следует — doesn't necessarily mean; одно мнение через I don't think…; какая проверка дала бы настоящий ответ; что даже тогда вывод касается только ящика; совет, что делать дальше. Запиши, прослушай и проверь, нет ли двух «не» в одной фразе.",
+      "context": "drawer — ящик; passport office — паспортная служба.",
+      "hint": "Начни так: OK, so you didn't see it. I don't think you can say it's gone yet…",
+      "answers": [
+        "OK, so you looked in the drawer, you didn't see your passport, and now you think it's gone. I don't think you can say that yet. What you know for sure is this: you failed to find it in a quick look. That's all. It doesn't necessarily mean the passport isn't in the drawer, and it definitely doesn't mean someone stole it.\n\nThink about how you looked. You opened the drawer, looked at the top, and closed it. A passport is small and flat. It could easily be under a folder or at the back.\n\nNow imagine a real check. You take everything out of the drawer, one thing at a time, and open every folder. If the passport still isn't there, then you can say, “It's not in the drawer.” But that's all it shows. It doesn't mean the passport is lost forever. Maybe it's in your bag or in the car.\n\nSo here's what I'd do. First, check the drawer properly. Then check the other places where you keep documents. If you still can't find it, don't say “Someone stole it.” Say “I can't find it,” and call the passport office to ask what to do. And next time, keep it in one place, so you no longer have to search the whole apartment."
+      ],
+      "explanation": "Засчитывается, если речь звучит 2–3 минуты и в ней есть: failed to find, doesn't necessarily mean, I don't think…, описание тщательной проверки, граница вывода и совет. Расшифровка покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Менеджер магазина прислал черновик объявления. Что он хотел сказать: часть товаров со скидкой (sale items) вернуть можно, а с пометкой “Final sale” — нельзя; чеки (checks) магазин больше не принимает; без чека о покупке (receipt) деньги обычно не возвращают, но иногда дают store credit — сумму на покупки в этом магазине. Черновик: “All sale items are not returnable. We don't accept checks no longer. Without a receipt, you can't hardly get a refund, but it doesn't mean you can't never get store credit.” Перепиши объявление для покупателей так, чтобы его нельзя было понять двумя способами.",
+      "context": "returnable — можно вернуть; refund — возврат денег.",
+      "hint": "Сколько «не» в каждой фразе черновика? Где читатель поймёт «ни один товар»?",
+      "answers": [
+        "Not all sale items are returnable: items marked “Final sale” can't be returned. We no longer accept checks. Without a receipt, you usually can't get a refund, but you may be able to get store credit.",
+        "Not all sale items can be returned. Items marked “Final sale” can't be returned. We no longer accept checks. Without a receipt, you can hardly ever get a refund, but you can sometimes get store credit.",
+        "Not all sale items are returnable; “Final sale” items can't be returned. We don't accept checks anymore. Without a receipt, you usually can't get a refund, but you may still get store credit."
+      ],
+      "explanation": "Засчитывается, если: all… not → Not all; don't… no longer → no longer или not… anymore; can't hardly → usually can't или can hardly ever; двойное «не» в конце → простое утверждение о store credit. Фраза о “Final sale” показывает, какие товары нельзя вернуть."
+    }
+  ]
+}

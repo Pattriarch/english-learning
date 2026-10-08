@@ -4,6 +4,7 @@ import {practiceIdentity} from './practice-identity.js';
 import {transferQueue,transferTargetEvidence,transferIdentity} from './transfer-model.js';
 import {coursebookQueue,coursebookPlanTarget,coursebookTargetEvidence,coursebookExerciseSkill,isPlannerCoursebook} from './planner-coursebooks.js';
 import {lessonSequence,lessonRouteInfo} from './lesson-sequence.js';
+import {createDaySession,dayStepEvidence,independentTask} from './day-session-model.js';
 // The saved plan is a snapshot. These functions never write progress or replace it.
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const BUDGETS = [30, 60, 90, 120, 180];
@@ -79,8 +80,8 @@ function marked(entry, day) {
  return entry === true || (entry?.done === true && (!entry.at || dayAt(entry.at) === day));
 }
 function exerciseList(lesson) {return arr(lesson?.exercises).filter(e=>safeId(e?.id));}
-function lessonWork(lesson, latest) {
- const all = exerciseList(lesson), submitted = all.map(e=>latest.get(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))).filter(Boolean);
+function lessonWork(lesson, latest, skip) {
+ const all = exerciseList(lesson).filter(e=>!skip?.(e)), submitted = all.map(e=>latest.get(JSON.stringify([lesson.id,baseExercise(authoredExerciseID(e))]))).filter(Boolean);
  const covered=all.length>0&&submitted.length===all.length&&(!isGuidedLesson(lesson)||!submitted.some(a=>['partial','incorrect'].includes(a.feedback?.verdict)));
  return {started:submitted.length>0,covered,done:covered&&submitted.filter(a=>a.feedback?.verdict==='correct').length>=Math.ceil(all.length*.8)};
 }
@@ -105,14 +106,14 @@ function bookWork(id, latest, data) {
  const covered=ids.length>0&&matching.length===ids.length;
  return {started:submitted.length>0,covered,done:covered&&matching.filter(a=>a.feedback?.verdict==='correct').length>=Math.ceil(ids.length*.8),exerciseIds:ids};
 }
-function topicFor(data, level) {
+function topicFor(data, level, skip) {
  const latest = latestAnswers(data.state?.attempts), availableLessons=lessonSequence(data.lessons,data.learningPath).filter(record=>LEVELS.indexOf(record.level)>=LEVELS.indexOf(level)&&lessonRouteInfo(record.lesson.id,data.studyRoute).introduction&&exerciseList(record.lesson).length);
  const lessons = availableLessons.filter(({lesson:l})=>!/extended-|cinema-|reading|listening|writing|speaking|pronunciation|vocab|narrative|essay|rhetorical|literary|lecture|discourse-listening/.test(l.id)&&!arr(l.materials).some(m=>['reading','listening','dialogue'].includes(m.kind)||m.inputSkill==='listening'));
- const known = lessons.map(({lesson:l,level:courseLevel})=>({id:l.id,title:String(l.title||'Занятие'),href:'#/lesson/'+l.id,courseLevel,lesson:l,...lessonWork(l,latest)})).filter(l=>!l.covered);
+ const known = lessons.map(({lesson:l,level:courseLevel})=>({id:l.id,title:String(l.title||'Занятие'),href:'#/lesson/'+l.id,courseLevel,lesson:l,...lessonWork(l,latest,skip)})).filter(l=>!l.covered);
  let chosen = hasCourseTeaching(known[0]?.lesson)?known[0]:(known.find(l=>l.courseLevel===known[0]?.courseLevel&&l.started) || known[0]);
  if (!chosen) return null;
  const prerequisite=missingPrerequisite(chosen.lesson,data,latest);
- if(prerequisite){const placed=lessonSequence(data.lessons,data.learningPath).find(r=>r.lesson.id===prerequisite.id);chosen={id:prerequisite.id,title:prerequisite.title,href:'#/lesson/'+prerequisite.id,courseLevel:placed?.level||level,lesson:prerequisite,prerequisite:true,...lessonWork(prerequisite,latest)};}
+ if(prerequisite){const placed=lessonSequence(data.lessons,data.learningPath).find(r=>r.lesson.id===prerequisite.id);chosen={id:prerequisite.id,title:prerequisite.title,href:'#/lesson/'+prerequisite.id,courseLevel:placed?.level||level,lesson:prerequisite,prerequisite:true,...lessonWork(prerequisite,latest,skip)};}
  const sourceIds=exerciseList(chosen.lesson).map(authoredExerciseID);
  const ids=hasCourseTeaching(chosen.lesson)?pendingCourseExercises(chosen.lesson,latest).map(authoredExerciseID):sourceIds.filter(id=>!latest.has(JSON.stringify([chosen.id,baseExercise(id)])));
  const first=hasCourseTeaching(chosen.lesson)?exerciseList(chosen.lesson).findIndex(e=>authoredExerciseID(e)===ids[0]):-1;
@@ -264,14 +265,16 @@ export function createDailyPlan(data={},options={},now=new Date()) {
  data=obj(data); options=obj(options); const date=nowDate(now),day=dayKey(date),state=obj(data.state),chosenLevel=String(options.level||'B1').toUpperCase();
  const level=LEVELS.includes(chosenLevel)?chosenLevel:'B1',requested=number(options.minutes)||120;
  const minutes=BUDGETS.reduce((best,m)=>Math.abs(m-requested)<Math.abs(best-requested)?m:best,30),domain=Object.hasOwn(DOMAINS,options.domain)?options.domain:'everyday';
- const foundation=beginnerPlan(data,{level,minutes,domain},date);if(foundation)return foundation;
+ const day_=options.daySession===true,foundation=beginnerPlan(data,{level,minutes,domain,daySession:day_},date);if(foundation)return foundation;
  const seed=Math.floor(Date.UTC(date.getFullYear(),date.getMonth(),date.getDate())/86400000),situations=[DOMAINS[domain],...MORE_SITUATIONS[domain]],rotation=((seed%situations.length)+situations.length)%situations.length;
  const context={...DOMAINS[domain],...situations[rotation]},heard={...DOMAINS[domain],...situations[(rotation+1)%situations.length]};
- const weekly=weeklySummary(data,date,options.manualDays),weak=weekly.weakSkills,topic=topicFor(data,level),errors=recentErrors(state,date,data.lessons,data.bookLessons);
+ const weekly=weeklySummary(data,date,options.manualDays),weak=weekly.weakSkills,topic=topicFor(data,level,day_?e=>independentTask(e)&&e.kind==='speak':undefined),errors=recentErrors(state,date,data.lessons,data.bookLessons);
  if(topic?.prerequisite&&['A1','A2'].includes(topic.courseLevel)){
-  const support=beginnerPlan(data,{level:topic.courseLevel,minutes,domain},date);
+  const support=beginnerPlan(data,{level:topic.courseLevel,minutes,domain,daySession:day_},date);
   if(support)return {...support,level,courseLevel:topic.courseLevel,blocks:support.blocks.map(b=>b.skill==='review'?b:{...b,title:'Опора '+topic.courseLevel+': '+b.title})};
  }
+ // Day session (B1+): today's grammar topic is the anchor lesson for every step.
+ if(day_&&topic?.lesson){const ids=new Set(topic.exerciseIds),plan=createDaySession(data,{lesson:topic.lesson,level,minutes,domain,now:date,pending:e=>ids.has(authoredExerciseID(e))});if(plan)return plan;}
  const due=arr(state.cards).filter(c=>typeof c?.id==='string' && c.id && Number.isFinite(validTime(c.due)) && validTime(c.due)<=date.getTime()).sort((a,b)=>validTime(a.due)-validTime(b.due)||a.id.localeCompare(b.id));
  const input=weak.find(s=>['reading','listening'].includes(s))||'listening',output=weak.find(s=>['speaking','writing'].includes(s))||'speaking';
  let selected;
@@ -374,6 +377,7 @@ export function dailyPlanProgress(plan={},state={},manual={}) {
   const spec=obj(block.target),target=Math.max(1,Math.floor(number(spec.count)||1));let current=0;
   if(spec.kind==='transfer'&&validDay)current=transferTargetEvidence(spec,state,day);
   else if(spec.kind==='book-study'&&validDay)current=coursebookTargetEvidence(spec,state,day);
+  else if(spec.kind==='day'&&validDay)current=dayStepEvidence(spec,state,day);
   else if(spec.kind==='attempts'&&validDay) current=latestAnswers(arr(state.attempts).filter(a=>attemptMatches(a,spec)),day,spec.exactExerciseIds===true?practiceIdentity:identity).size;
   else if(spec.kind==='corrections'&&validDay) {
    const matched=new Set();

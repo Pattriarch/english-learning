@@ -1,0 +1,336 @@
+{
+  "id": "extended-c1-public-explanation",
+  "title": "Датчик воздуха во дворе: объяснить число и не пообещать лишнего",
+  "subtitle": "Что за число и откуда → где и за какое время → сравнение и его предел → поправить вывод соседки → вопрос на понимание → объявление и речь",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Объяснить жителям, что показывает датчик воздуха: «The display shows an estimate of…», «It's like…, but it doesn't…», поправить слишком сильный вывод соседки («Twelve is 40 percent lower than twenty, but that doesn't mean the air is 40 percent cleaner») и проверить понимание вопросом, на который нельзя просто ответить yes.",
+  "formula": "The display shows an estimate of X near… · It gets this number by… · averaged over… · It's like…, but it doesn't tell you… · I can see why it looks that way, but… · That doesn't mean… · So if you saw…, what would that tell you?",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Сначала скажи, что за число и откуда оно, потом — чего оно не показывает.",
+    "example": "The sensor estimates fine particles near the courtyard; it doesn't show air quality across the neighborhood. — Датчик приблизительно оценивает мелкие частицы у двора; он не показывает качество воздуха во всём районе.",
+    "check": "Что значит прочерк на экране: «частиц нет» или «мало сведений»?"
+  },
+  "prerequisites": [
+    "extended-b2-evidence",
+    "path-hedging",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-hedging",
+    "path-false-friends",
+    "path-register-b2"
+  ],
+  "teaches": [
+    "передача смысла другому читателю (mediation): форма проще и короче, факты и их границы те же",
+    "порядок объяснения: что за число → как получено → где и за какое время → чего оно не показывает",
+    "measures — измеряет напрямую; estimates — оценивает приблизительно; shows / indicates — показывает",
+    "сравнение со знакомым и его предел в той же или следующей фразе: It's like…, but it doesn't tell you…; The comparison explains X, not Y",
+    "арифметика отдельно от вывода: Twelve is 40 percent lower than twenty, but that doesn't mean…",
+    "поправка без оценки человека: I can see why it looks that way + недостающий шаг; не You understood it wrong",
+    "проверка понимания вопросом на применение: So if you saw a dash tomorrow, what would that tell you? вместо Do you understand?",
+    "слова: estimate, fine particles, average, inlet, reference instrument, maintenance flag, humidity, dash — прочерк"
+  ],
+  "sources": [
+    {
+      "title": "U.S. EPA · Frequent Questions about Air Sensors",
+      "url": "https://www.epa.gov/air-sensor-toolbox/frequent-questions-about-air-sensors",
+      "notes": "Сверены факты для M1: сведения недорогих датчиков менее надёжны, чем у эталонных станций (Federal Reference и Equivalent Method); бывают сомнительные значения и постоянный сдвиг вверх или вниз; высокая влажность и температура искажают показания; датчикам нужна калибровка на месте, и со временем они теряют точность."
+    },
+    {
+      "title": "Digital.gov · Principles of plain language",
+      "url": "https://digital.gov/guides/plain-language/principles",
+      "notes": "Сверено: первое правило — писать для конкретного читателя и его знаний; сначала сказать, чего ждать; короткие простые предложения; избегать профессионального жаргона; проверять, понял ли читатель то, что ты хотел сказать."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового: объяснить число людям, которые не читали записку",
+      "body": "Во дворе дома висит экран датчика воздуха. Соседка видит 12, вспоминает, что на прошлой неделе было 20, и решает: «воздух стал на 40% чище». Тебе нужно объяснить, что значит число, — коротко, понятно и не обещая больше, чем показывает прибор.\n\nЭто передача смысла другому читателю (по-английски mediation). Записку M1 писали для специалистов, а читают её жители. Форма меняется: короче, проще, в другом порядке. Факты и их границы не меняются.\n\nЧасть инструментов ты знаешь. Из уроков B2: вывод должен выдерживать проверку сведениями. Из урока об оговорках: may и suggests — когда основание слабее вывода. Новое здесь — четыре вещи: порядок объяснения, сравнение со знакомым и его предел, поправка чужого вывода без обиды и вопрос, который проверяет, понял ли человек."
+    },
+    {
+      "title": "Порядок: что за число → как получено → где и когда → чего не показывает",
+      "body": "Начни с того, что за число: The display shows an estimate of fine particles in the air — «экран показывает приблизительную оценку мелких частиц в воздухе». Потом — как его получают: The sensor gets this number by measuring how much light the particles scatter — «по тому, сколько света рассеивают частицы».\n\nСлова различай. Measures — измеряет напрямую. Estimates — оценивает приблизительно, через другой сигнал. Shows и indicates — показывает, указывает. Датчик частицы не взвешивает, поэтому о нём точнее estimates.\n\nПотом — где и когда: near the sensor, averaged over fifteen minutes. Место и время — часть числа: без них 12 ничего не значит.\n\nВ конце — чего число не показывает: It doesn't show air quality across the neighborhood. Не начинай с вступления о важности чистого воздуха: житель хочет знать, что значит число на экране."
+    },
+    {
+      "title": "Сравнение со знакомым — и где оно кончается",
+      "body": "Сложную вещь легче понять через знакомую. Среднее за 15 минут похоже на среднюю скорость в поездке: It's like your average speed on a trip: it sums up the whole trip, but it doesn't tell you how fast you were going at any one moment — «одно число на всю поездку, но не скорость в каждую минуту».\n\nУ любого сравнения есть предел. Средняя скорость объясняет усреднение, но ничего не говорит о том, точен ли датчик. Назови предел сразу, в той же или следующей фразе: The comparison explains the averaging, not the accuracy. Иначе человек перенесёт на прибор то, чего у него нет.\n\nХорошее сравнение объясняет одно свойство. Если ему нужны три оговорки, возьми другое."
+    },
+    {
+      "title": "Поправить слишком сильный вывод, не задев человека",
+      "body": "Leila считает: 12 на 40% меньше 20, значит, воздух на 40% чище. Арифметика верна, вывод — нет. Раздели их: Twelve is 40 percent lower than twenty, but that doesn't mean the air is 40 percent cleaner — «12 на 40% меньше 20, но это не значит, что воздух на 40% чище».\n\nСначала признай, почему вывод кажется естественным: I can see why it looks that way — «понимаю, почему так кажется». Это не согласие, поэтому сразу назови недостающий шаг: We don't know when the photo was taken.\n\nОбсуждай число, а не человека. You understood it wrong и You're wrong звучат резко. Точнее и мягче сказать, чего не хватает: The photo doesn't show the date, so we can't compare the two readings yet."
+    },
+    {
+      "title": "Проверить, понял ли человек",
+      "body": "Do you understand? проверяет только, скажет ли человек yes. Does that make sense? мягче, но тоже ждёт yes. Лучше попросить применить объяснение: So if you saw a dash tomorrow, what would that tell you? — «Если завтра увидишь прочерк, что это будет значить?» Ответ покажет, понял ли человек.\n\nВопрос не должен содержать ответ. Плохо: A dash means not enough data, right? Хорошо: What would you want to know before comparing these two numbers?\n\nВслух говори короткими кусками и называй переходы: First, what the number is. Second, what it can't tell us. Числа произноси словами и с единицами: twelve micrograms, fifteen minutes. Слушатель не может перечитать фразу."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The meter estimates water use from the number of pulses it counts.",
+      "ru": "Счётчик оценивает расход воды по числу импульсов, которые он считает.",
+      "why": "Estimates + как получено: сигнал и результат — разные вещи."
+    },
+    {
+      "en": "This number covers the last fifteen minutes near the sensor, not the whole day.",
+      "ru": "Это число относится к последним пятнадцати минутам рядом с датчиком, а не ко всему дню.",
+      "why": "Место и время стоят рядом с числом, и их не потеряют при пересказе."
+    },
+    {
+      "en": "A class average is like a summary of the whole class: it doesn't tell you any one student's grade.",
+      "ru": "Средний балл класса — как итог по всему классу: он не говорит, какая оценка у отдельного ученика.",
+      "why": "Сравнение и его предел в одной фразе."
+    },
+    {
+      "en": "The line got shorter, but that doesn't show that service got faster.",
+      "ru": "Очередь стала короче, но это не показывает, что обслуживать стали быстрее.",
+      "why": "Наблюдение отдельно, вывод отдельно: людей могло просто прийти меньше."
+    },
+    {
+      "en": "I can see why that sounds good. The photo, though, doesn't show the date.",
+      "ru": "Понимаю, почему это звучит хорошо. Но на фото не видно даты.",
+      "why": "Признание реакции + недостающий шаг, без оценки человека."
+    },
+    {
+      "en": "If the screen showed 30 tomorrow, what would you check first?",
+      "ru": "Если завтра на экране будет 30, что ты проверишь первым делом?",
+      "why": "Вопрос на применение: на него нельзя просто ответить yes."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Техническая записка о датчике / What the Alder Park sensor reports",
+      "source": "Авторский учебный материал; район, проект, прибор и цифры вымышлены",
+      "text": "[1] The Alder Park community project has installed one small particle sensor next to the entrance of its shared courtyard. The pilot is meant to help residents notice local patterns and find periods worth looking into. It is not designed to show whether the neighborhood meets a legal standard. The public display shows an estimated concentration of fine particles, labeled PM2.5, near the device. PM2.5 means very small particles in the air, about 2.5 micrometers across or smaller.\n\n[2] Inside the sensor, a fan pulls air through a chamber with a small light. Particles scatter the light, and the sensor uses that signal to estimate how much particle mass is in the air. It does not collect or weigh the particles. The conversion assumes certain particle properties, so a different mix of particles can change the result. The unit is micrograms per cubic meter. The sensor does not identify what the particles are made of, and it does not measure gases.\n\n[3] The sensor takes a reading every minute. Every fifteen minutes, the display updates with the average of the valid minute readings from the last fifteen minutes. A displayed value of 18 does not mean that every minute was 18: a short spike can be hidden by lower readings in the same block. At least twelve valid minute readings are needed for a number to appear. If there are fewer, the display shows a dash. A dash means not enough data, not zero particles.\n\n[4] In a preliminary check against a reference instrument, the fifteen-minute estimates were usually within 5 micrograms per cubic meter of the reference values when concentrations were between 10 and 40. These checks took place when relative humidity was below 75 percent and the air inlet was clean. This describes those checks; it is not a guaranteed error limit for every future reading. In very humid air, particles take up water and scatter more light, so estimates can be too high. The project has no reliable correction for this yet.\n\n[5] The sensor needs a clear inlet, a working fan, and protection from rain. A coordinator checks the inlet every week and records any interruptions. A reading with a maintenance flag should be reviewed before anyone uses it in a comparison. The sensor describes the air near its inlet, not every street, home, or room. Wind and nearby activities can affect the reading. A change can be a reason to look for explanations, but the number alone cannot show which activity caused it.\n\n[6] For public explanations, the project recommends starting with what the number represents, then its time period, then its limits. Comparisons are most useful when the location, averaging period, and conditions are the same. A pattern that repeats across similar periods is a stronger reason to investigate than one difference. The display is not a full assessment of air quality or of any person's exposure."
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Два читателя / Two readers, different decisions",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Resident: Leila reads the notice in the lobby while picking up a package. She has about a minute. She wants to know what the number means and whether comparing it with an earlier number makes sense. She doesn't need instructions for servicing the device.\n\nCoordinator: Martin keeps the weekly project log. He decides which readings need review and what to record before anyone compares readings in public. His notes must keep what was observed separate from possible explanations.\n\nFive terms:\nEstimate: an approximate value worked out from another signal.\nAverage: the total of several values divided by how many there are.\nInlet: the opening where air enters the device.\nReference instrument: a more accurate device used to check another one.\nMaintenance flag: a mark showing that a reading needs review because of an equipment problem."
+    },
+    {
+      "id": "m3",
+      "kind": "dialogue",
+      "title": "Сообщение перед собранием / A forwarded photo before a meeting",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Leila: Someone forwarded me a cropped photo of the display showing 12. I remember seeing 20 last week. So the air in Alder Park is 40 percent cleaner now, isn't it?\n\nMartin: What information came with the photo?\n\nLeila: Just the number and the project name. The date and time are cut off. I don't know who took it. The message says we should celebrate.\n\nMartin: Is anyone making a decision based on it?\n\nLeila: Yes. Tomorrow the residents' association votes on whether to move the sensor to the delivery gate. The chair wants to use these two numbers as proof that the courtyard problem is solved. I said I'd bring a short explanation, but I don't want to embarrass the person who shared the photo.\n\nMartin: Before we write anything, what can you still check?\n\nLeila: I can ask for the full photo and look at the project log. I can't arrange another measurement before the meeting."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прочитай M1, абзацы 1–2. Напиши для жителей первые 1–2 предложения объявления: что показывает экран и как датчик получает это число.",
+      "context": "fine particles — мелкие частицы; scatter — рассеивать.",
+      "guidance": {
+        "title": "Что за число и как оно получено",
+        "body": "Начни с самого числа, а не с вступления. Глагол estimates честнее, чем measures: датчик не взвешивает частицы, а судит о них по свету.",
+        "example": "The meter shows an estimate of your water use. It gets this number by counting how many times a small wheel turns.",
+        "translation": "Счётчик показывает приблизительный расход воды. Он получает это число, считая, сколько раз поворачивается маленькое колёсико."
+      },
+      "hint": "Начни так: The display shows an estimate of…",
+      "answers": [
+        "The display shows an estimate of the fine particles in the air near the sensor. The sensor gets this number by measuring how much light the particles scatter.",
+        "The number on the screen is an estimate of fine particles in the air next to the courtyard entrance. The sensor shines a small light through the air and estimates the particles from how much light they scatter.",
+        "The display shows an estimate of fine particle pollution near the device. It works this out from the light that particles scatter inside the sensor; it doesn't weigh them."
+      ],
+      "explanation": "Засчитывается, если есть estimate или estimates, «рядом с датчиком» и способ — рассеянный свет. The sensor measures air quality — ошибка дважды: не измеряет напрямую и не всё «качество воздуха»."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Абзац 3 из M1. Что значит 18 на экране? Объясни 1–2 предложениями: за какое время и для какого места это число и чего оно не говорит о каждой отдельной минуте.",
+      "context": "average — среднее; spike — короткий скачок.",
+      "guidance": {
+        "title": "Место и время — часть числа",
+        "body": "Без «где» и «за какое время» число ничего не значит. Поставь их рядом с ним, а потом скажи, что среднее может спрятать.",
+        "example": "The 72 on the thermostat is the average for the living room over the last hour, so a cold minute by the door won't show up.",
+        "translation": "72 на термостате — среднее для гостиной за последний час, поэтому холодная минута у двери не будет видна."
+      },
+      "hint": "Начни так: 18 is the average for the last fifteen minutes…",
+      "answers": [
+        "18 is the average of the minute readings from the last fifteen minutes, for the air near the sensor. It doesn't mean every minute was 18: a short spike can be hidden by lower readings.",
+        "A reading of 18 is a fifteen-minute average near the courtyard sensor. Some minutes may have been higher or lower, so a short spike might not show."
+      ],
+      "explanation": "Засчитывается, если сказаны и пятнадцать минут, и «рядом с датчиком», и что короткий скачок может спрятаться в среднем. Слово average или averaged — оба верны."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Объясни жителям усреднение через знакомое сравнение и сразу назови его предел: чего это сравнение о датчике не говорит. 1–2 предложения.",
+      "context": "sum up — подвести итог; accuracy — точность.",
+      "guidance": {
+        "title": "Сравнение + его граница",
+        "body": "Сравнение должно объяснять одно свойство — усреднение. В той же или следующей фразе скажи, чего оно не объясняет, чтобы человек не перенёс на датчик лишнего.",
+        "example": "A monthly electric bill is like a summary of the month: it doesn't tell you which day you used the most power. And it says nothing about whether the meter is accurate.",
+        "translation": "Счёт за электричество — как итог за месяц: он не говорит, в какой день ты потратил больше всего. И ничего не говорит о том, точен ли счётчик."
+      },
+      "hint": "Подойдёт средняя скорость в поездке. Начни так: It's like your average speed on a trip:…",
+      "answers": [
+        "It's like your average speed on a trip: it sums up the whole trip, but it doesn't tell you how fast you were going at any one moment. The comparison explains the averaging, not how accurate the sensor is.",
+        "Think of your average speed on a drive: one number for the whole drive, not your speed every minute. That explains the fifteen-minute average, but it doesn't tell us whether the reading is accurate."
+      ],
+      "explanation": "Засчитывается любое знакомое сравнение, если оно объясняет одно число на весь период и рядом назван предел: о точности датчика оно ничего не говорит."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Абзац 4 из M1. Переведи для объявления: «Во время предварительной проверки оценки обычно были точными — в пределах 5 микрограммов на кубический метр. Но это результат той проверки, а не гарантия для каждого будущего показания, особенно во влажную погоду».",
+      "context": "preliminary — предварительный; humid — влажный.",
+      "guidance": {
+        "title": "Вспоминаем оговорки и одного «ложного друга»",
+        "body": "Вспоминаем урок об оговорках: usually и прошедшее were привязывают точность к той проверке. И урок о ложных друзьях: «точный» — accurate, а не «аккуратный».",
+        "example": "In last year's test, the scale was usually accurate to within one pound, but that's not a promise for every weigh-in.",
+        "translation": "В прошлогодней проверке весы обычно были точными в пределах одного фунта, но это не обещание для каждого взвешивания."
+      },
+      "hint": "Начни так: In a preliminary check, the estimates were usually accurate…",
+      "answers": [
+        "In a preliminary check, the estimates were usually accurate to within 5 micrograms per cubic meter. But that was the result of that check, not a guarantee for every future reading, especially in humid weather.",
+        "During the preliminary check, the estimates were usually within 5 micrograms per cubic meter. However, that's what the check showed, not a guarantee for every future reading, especially when the weather is humid.",
+        "In the preliminary check, the estimates were usually accurate to within 5 micrograms per cubic meter, but this describes that check. It isn't a guarantee for every future reading, especially in humid weather."
+      ],
+      "explanation": "Usually и were сохраняют границу: так было в проверке. Are always accurate превратило бы её в обещание. Within 5 micrograms без accurate тоже верно."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m3"
+      ],
+      "prompt": "Открой M3. Ответь Лейле от лица Мартина (2–3 предложения): признай, почему её вывод кажется естественным, раздели арифметику и вывод о воздухе и назови один недостающий шаг.",
+      "context": "cropped — обрезанный.",
+      "guidance": {
+        "title": "Арифметика — да, вывод — пока нет",
+        "body": "I can see why… признаёт реакцию, но не соглашается. Сразу после — that doesn't mean… и чего не хватает. Говори о числах и фото, а не о том, что Лейла ошиблась.",
+        "example": "I can see why that looks like good news. The line is half as long, but that doesn't mean service is twice as fast: we don't know how many people came today.",
+        "translation": "Понимаю, почему это похоже на хорошую новость. Очередь вдвое короче, но это не значит, что обслуживают вдвое быстрее: мы не знаем, сколько людей пришло сегодня."
+      },
+      "hint": "Начни так: I can see why it looks that way. Twelve is 40 percent lower than twenty, but…",
+      "answers": [
+        "I can see why it looks that way. Twelve is 40 percent lower than twenty, but that doesn't mean the air in Alder Park is 40 percent cleaner. The photo doesn't show the date or time, so we can't compare the two readings yet.",
+        "I understand why that sounds like good news. The math is right: twelve is 40 percent less than twenty. But the sensor only describes the air near the courtyard, and we don't know when the photo was taken, so we can't say the air is cleaner."
+      ],
+      "explanation": "Засчитывается, если реакция признана без согласия, арифметика отделена от вывода о воздухе и назван недостающий шаг: нет даты и времени, датчик описывает только место у двора. Фразы You're wrong нет."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Мартин закончил объяснение вопросом: So now you understand that a dash means not enough data, right? Перепиши его в вопрос, который проверяет, может ли Лейла сама применить объяснение. Ответ в вопросе не подсказывай.",
+      "context": "dash — прочерк.",
+      "guidance": {
+        "title": "Вопрос на применение, а не на yes",
+        "body": "Дай новую ситуацию и спроси, что она значит или что бы Лейла проверила. Если в вопросе уже есть ответ, он проверяет только вежливость.",
+        "example": "If your bill next month were twice as high, what would you look at first?",
+        "translation": "Если в следующем месяце счёт окажется вдвое больше, на что ты посмотришь первым делом?"
+      },
+      "hint": "Начни так: So if you saw a dash on the screen tomorrow, …",
+      "answers": [
+        "So if you saw a dash on the screen tomorrow, what would that tell you?",
+        "If a neighbor sent you a photo of the screen showing a dash, what would you tell them it means?",
+        "So if the screen showed a dash tomorrow, what would you say to someone who thinks the air is perfectly clean?"
+      ],
+      "explanation": "Засчитывается вопрос с новой ситуацией, на который нельзя ответить просто yes, и без подсказки «not enough data» внутри. Does that make sense? мягче, но всё равно ждёт yes."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Во вторник утром экран показал 17 с пометкой maintenance flag. Открой M2 и напиши об этом по одной фразе для двух читателей: для Лейлы (житель, объявление) и для Мартина (координатор, рабочая заметка).",
+      "context": "maintenance flag — пометка «нужна проверка оборудования»; inlet — отверстие, через которое входит воздух; log — журнал.",
+      "guidance": {
+        "title": "Вспоминаем: тон меняется, факты — нет",
+        "body": "Вспоминаем урок «Другу, коллеге, клиенту»: меняются слова, подробности и тон. Факт, срок и степень уверенности остаются одинаковыми для обоих.",
+        "example": "Residents: The elevator may stop for a short time on Friday. Staff: Elevator 2 is offline Friday 9–11 a.m. for a sensor check; log any calls.",
+        "translation": "Жителям: в пятницу лифт может ненадолго остановиться. Сотрудникам: лифт 2 не работает в пятницу с 9 до 11 утра — проверка датчика; записывайте все вызовы."
+      },
+      "hint": "Лейле не нужны слова inlet и log; Мартину нужно, что проверить и что записать.",
+      "answers": [
+        "For Leila: The 17 from Tuesday morning needs to be checked before we compare it with anything, because the sensor may have had a problem. For Martin: Tuesday morning's 17 has a maintenance flag, so please check the inlet and the log before we use it in any comparison.",
+        "Residents: Please don't compare Tuesday's 17 with other numbers yet; the sensor flagged a possible equipment problem. Coordinator: The 17 reading on Tuesday a.m. is flagged; review the inlet check and interruptions in the log before it's used."
+      ],
+      "explanation": "Засчитывается, если для обоих сказано одно и то же: показание 17 нельзя сравнивать до проверки. Для жителя — без технических слов, для координатора — что именно проверить. Если одна фраза увереннее другой, правило нарушено."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "prompt": "Подготовь для жителей объяснение на 180–220 слов, которое Лейла прочитает на собрании (M3). Читатели записку M1 не видели. Что должно быть: что за число и как его получают; где и за какое время; одно сравнение и его предел; что известно и неизвестно о паре 12 и 20; что можно проверить до собрания и чего сделать нельзя; что эти два числа значат для решения о переносе датчика. Не стыди человека, который переслал фото.",
+      "context": "residents' association — объединение жильцов; relocation — перенос.",
+      "hint": "План: Before we talk about moving the sensor… → The display shows… → Like an average speed… → The photo shows 12… but… → We can… We can't… → So these two numbers…",
+      "answers": [
+        "Before we talk about moving the sensor, here's what the numbers can and can't tell us.\n\nThe courtyard display shows an estimate of fine particles in the air near the sensor. The sensor doesn't weigh the particles; it estimates them from how much light they scatter. Each number is an average of the last fifteen minutes.\n\nThink of your average speed on a trip: one number for the whole trip, not your speed at every moment. That explains the averaging, but it doesn't tell us how accurate any reading is.\n\nThanks to whoever shared the photo of the display showing 12. Twelve is 40 percent lower than twenty, but that doesn't mean the air in Alder Park is 40 percent cleaner. The photo doesn't show the date or time, and we don't know if the two readings were taken in similar conditions, for example, similar humidity.\n\nBefore the meeting, we can ask for the full photo and check the project log. We can't take a new measurement.\n\nSo these two numbers alone can't show that the courtyard problem is solved. They also don't tell us where the sensor would be most useful. That's a separate question for tonight."
+      ],
+      "explanation": "Засчитывается, если по M1 верно сказано: оценка, рассеянный свет, рядом с датчиком, пятнадцать минут; у сравнения назван предел; арифметика отделена от вывода; нет даты и времени; названы проверки и невозможность нового измерения; два числа не выданы ни за доказательство, ни за запрет переноса."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m3"
+      ],
+      "prompt": "На собрание пришёл житель, который не видел ни записки, ни фото. Объясни ему вслух, 2–3 минуты. Что должно быть: что за число и где и за какое время; почему 12 и 20 пока нельзя сравнивать; что мы проверим и чего не можем; одна фраза о том, что ты упростил и какую границу сохранил; в конце — вопрос на применение, а не на yes.",
+      "context": "",
+      "hint": "Говори короткими кусками: First, what the number is. Second, the photo. Third, what we can check. В конце: I left out… What I kept is…",
+      "answers": [
+        "Let me explain what these numbers mean before we vote. First, what the number is. The screen in the courtyard shows an estimate of tiny particles in the air right next to the sensor. Each number is an average of the last fifteen minutes, so it's one summary for that time, not a reading for every minute.\n\nSecond, the photo. Someone shared a picture of the screen showing twelve, and last week someone saw twenty. Twelve is forty percent lower, that's true. But that doesn't mean the air in the neighborhood is forty percent cleaner. The sensor only describes the air near the courtyard. And the photo is cropped, so we don't know the date or the time.\n\nThird, what we can do. Before the meeting, we can ask for the full photo and check the project log, for example, whether the sensor had any equipment problems. What we can't do is take a new measurement today.\n\nI left out how the sensor turns light into a number. What I kept is that this is an estimate for one place and fifteen minutes.\n\nSo, here's a question for you. If you saw a dash on the screen tomorrow instead of a number, what do you think that would tell you?"
+      ],
+      "explanation": "Засчитывается, если слушатель без текста поймёт, что за число, почему пара 12 и 20 пока ничего не доказывает и что будет дальше; упрощение названо, граница «одно место, пятнадцать минут, оценка» сохранена; последний вопрос — на применение. Расшифровка оценивает слова и порядок, а не произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Новый волонтёр написал черновик сообщения жителям. Это другая ситуация, не история с фото. Перепиши его (110–150 слов), исправив все смысловые ошибки по M1, а затем двумя предложениями по-английски объясни две главные правки. Новых измерений не придумывай.\n\n\"On Thursday afternoon, the courtyard display showed a dash. This means the sensor found no fine particles, so the air was perfectly clean. Earlier, the screen showed 17 with a maintenance flag, but the flag only matters to technicians, so residents can compare that number as usual. The preliminary checks guarantee that all readings are accurate to within 5 micrograms per cubic meter, whatever the weather. We can therefore call Thursday a confirmed improvement and stop worrying about the courtyard.\"",
+      "context": "",
+      "hint": "Проверь по абзацам 3, 4 и 5: что значит прочерк, что делать с пометкой, к чему относится «в пределах 5».",
+      "answers": [
+        "On Thursday afternoon, the courtyard display showed a dash. A dash means there weren't enough valid minute readings to show a fifteen-minute average. It doesn't mean there were no fine particles. Earlier, the screen showed 17 with a maintenance flag, so that number should be reviewed before anyone compares it with other readings.\n\nIn a preliminary check, the estimates were usually within 5 micrograms per cubic meter of a reference instrument, but only in certain conditions, such as humidity below 75 percent. That isn't a guarantee for every reading. We'll check the project log to understand the missing data and the flag. Until then, Thursday's readings don't show an improvement, and they don't tell us whether the courtyard still needs monitoring.\n\nTwo main changes: I explained that a dash means not enough data, not clean air. I also removed the guarantee, because the check was limited to certain conditions."
+      ],
+      "explanation": "Засчитывается, если исправлены все четыре ошибки: прочерк — мало сведений, а не чистый воздух; показание с пометкой сначала проверяют; проверка — не гарантия и была при определённых условиях; Thursday — не «подтверждённое улучшение». В объяснении — любые две из этих правок."
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": "path-rhetorical-analysis",
+  "title": "Как текст убеждает: рамка, уступка, аналогия и «мы все знаем»",
+  "subtitle": "Кому и чего хочет автор → рамка в словах → уступка → аналогия → какая роль у читателя → разбор: приём, эффект, предел",
+  "level": "C2",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Разобрать колонку в газете: какими словами автор подаёт решение, что уступает, с чем сравнивает и какую роль даёт читателю — и отдельно сказать, чем это подкреплено: «The writer frames the rule as protection», «The analogy clarifies…, but it breaks down because…», «The story makes the problem vivid, but it doesn't show how common it is».",
+  "formula": "The writer frames X as Y · The writer concedes …, but answers a narrower question · The analogy clarifies …, but it breaks down because … · … positions the reader as … · may persuade …, but may alienate … · appears designed to … · persuasive ≠ well supported",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Сначала скажи, как фраза действует на читателя. Потом отдельно — доказывает ли она что-то.",
+    "example": "The story makes the risk feel real, but it doesn't show how common it is. — История делает риск ощутимым, но не показывает, насколько он распространён.",
+    "check": "Ты сейчас оцениваешь приём или факты? Это два разных вопроса."
+  },
+  "prerequisites": [
+    "path-critical-reading",
+    "path-argument-essay",
+    "path-reporting-verbs",
+    "path-hedging"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-reporting-verbs"
+  ],
+  "teaches": [
+    "риторический разбор: не «правда ли это», а «как текст подводит к согласию»; два отдельных вывода — убедительность и обоснованность",
+    "цепочка: фрагмент → приём → эффект на конкретного читателя → предел",
+    "рамка (frame): phone ban ↔ phone-free; The writer frames X as Y; проверка нейтральным пересказом",
+    "уступка (concession): The writer concedes…, but answers a narrower question",
+    "аналогия: The analogy clarifies…, but it breaks down because…",
+    "позиционирование читателя: We all know…, No responsible…; may persuade…, but may alienate…",
+    "история и число: история — что так бывает; 81 percent of the teachers who responded — не всех учителей",
+    "о намерении автора осторожно: appears designed to, may encourage; не The writer wants to manipulate",
+    "глаголы разбора: frames, appeals to, concedes, implies, invokes",
+    "слова: op-ed, frame, concession, analogy, appeal, alienate, undecided, vivid"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Using Rhetorical Strategies for Persuasion",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/establishing_arguments/rhetorical_strategies.html",
+      "notes": "Сверено: три вида убеждения — довод, доверие к автору, чувство; одна человеческая история может убедить сильнее статистики; уважительный пересказ чужой позиции и общая почва с читателем работают на доверие; при разборе проверяют, хватает ли доказательств и подкрепляет ли эмоция сам тезис. Отсюда разделы об уступке и о двух отдельных выводах."
+    },
+    {
+      "title": "UNC Writing Center · Argument",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/argument/",
+      "notes": "Сверено: при чтении спрашивают, что автор доказывает, что он предлагает принять без доказательства и что опускает; уступка признаёт пункт и объясняет, почему позиция держится. Отсюда проверка уступки «ответил ли автор на то самое возражение» и задание на позиционирование."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Как разобрать одну фразу",
+    "why": "Каждый шаг отвечает на свой вопрос. Последний шаг — предел: чего приём не доказывает.",
+    "items": [
+      {
+        "label": "Фрагмент",
+        "en": "\"The time to act is now.\"",
+        "ru": "«Действовать нужно сейчас».",
+        "note": "Короткая цитата, а не весь абзац."
+      },
+      {
+        "label": "Приём",
+        "en": "The repeated \"now\" creates urgency.",
+        "ru": "Повтор «сейчас» создаёт срочность.",
+        "note": "Название приёма — вместе с тем, что он делает."
+      },
+      {
+        "label": "Эффект",
+        "en": "It may push the board to vote quickly but make careful readers suspicious.",
+        "ru": "Это может подтолкнуть совет голосовать быстро, но насторожить внимательных читателей.",
+        "note": "Эффект на конкретного читателя, с may."
+      },
+      {
+        "label": "Предел",
+        "en": "It doesn't show that waiting a year would cause harm.",
+        "ru": "Это не показывает, что год ожидания навредит.",
+        "note": "Убедительно ≠ доказано."
+      }
+    ],
+    "footnote": "urgency — срочность; suspicious — настороженный.",
+    "focus": [
+      "now",
+      "urgency",
+      "may",
+      "doesn't show"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Не «правда ли это», а «как это убеждает»",
+      "body": "Местная газета напечатала колонку (M1): мама двоих школьников просит совет округа убрать телефоны из школ на весь день. Редактор школьного дебат-клуба просит тебя разобрать, почему колонка так действует на читателей.\n\nИз урока о критическом чтении ты знаешь вопрос «хватает ли доказательств для вывода». Риторический разбор задаёт другой вопрос: как текст подводит читателя к согласию — какие слова выбраны, в каком порядке идут мысли, какой пример стоит первым. Риторика — умение убеждать словами.\n\nПриём (technique) — не ложь и не доказательство. Колонка может убеждать и опираться на честные факты, а может убеждать на слабых сведений. Поэтому в разборе всегда два отдельных вывода: как текст убеждает и чем он это подкрепляет.\n\nЦепочка разбора: короткий фрагмент → приём → вероятный эффект на конкретного читателя → предел: чего этот приём не доказывает."
+    },
+    {
+      "title": "Рамка: какими словами названо решение",
+      "body": "Рамка (frame) — слова, которыми называют предмет, а с ними и угол, под которым его видно. Пример не из колонки: город хочет брать плату за въезд в центр на машине. Противники пишут congestion tax («налог на пробки»), сторонники — clean-air fee («сбор за чистый воздух»). Мера одна, но первое звучит как наказание водителей, второе — как забота о здоровье.\n\nЗаголовок Take Back Our Streets («Вернём себе наши улицы») ставит машины в роль захватчика: улицы отняли, их надо вернуть.\n\nПроверка рамки: перескажи фразу нейтрально и посмотри, что исчезло — оценка, чувство «все так думают», срочность, образ противника. Нейтрально: The city proposes a $10 fee for driving into downtown on weekdays.\n\nФразы для разбора: The writer frames X as Y. By calling it…, the writer presents… Рамка может быть обоснованной: её надо заметить, а не обязательно осудить."
+    },
+    {
+      "title": "Уступка и аналогия",
+      "body": "Уступка (concession) — автор сам называет возражение: Some drivers worry about the cost. I understand. Так текст выглядит честным, а автор — человеком, который слышит другую сторону. Проверь две вещи: получило ли возражение настоящий ответ и не сменился ли вопрос. Фраза для разбора: The writer concedes that…, but answers a narrower question — «но отвечает на вопрос поуже».\n\nАналогия (analogy) — сравнение с похожим случаем: We don't let factories pour smoke into our air for free. Аналогия объясняет, но доказывает, только если случаи похожи в том, что важно для вывода. Спроси: чем два случая отличаются и важно ли это отличие именно в этом споре? Фраза: The analogy clarifies…, but it breaks down because… — «но перестаёт работать, потому что…»."
+    },
+    {
+      "title": "Какую роль текст даёт читателю",
+      "body": "Every parent knows… — «каждый родитель знает…». Это ставит согласие раньше доказательств: кто не знает, тот будто плохой родитель. No serious city would wait — «ни один серьёзный город не стал бы ждать». Читателю предлагают выбор: согласиться или оказаться несерьёзным. Такой ход называют позиционированием читателя (audience positioning).\n\nЛичная история в начале текста — соседка, которая неделю не открывала окно из-за выхлопа, — делает проблему живой (vivid). Из урока о критическом чтении: одна история показывает, что так бывает, но не показывает, как часто.\n\nЭффект зависит от читателя. Тот, кто уже согласен, увидит решительность. Сомневающийся (undecided) увидит давление и может перестать слушать. Фразы: positions the reader as…; may persuade…, but may alienate… — «может оттолкнуть»."
+    },
+    {
+      "title": "Как писать разбор",
+      "body": "Не составляй список терминов. На каждый приём — короткая цитата и объяснение, что она делает с читателем.\n\nО намерении автора — осторожно. Ты видишь текст, а не мысли автора. Не The writer wants to manipulate parents, а The phrase appears designed to… или may encourage readers to… — оговорки из урока о hedging.\n\nГлаголы, которые называют ход автора: frames — «подаёт как», appeals to — «обращается к (чувству)», concedes — «уступает», implies — «подразумевает», invokes — «ссылается на». Из урока о глаголах пересказа: claims держит дистанцию, points out — знак согласия.\n\nГлавная ошибка — смешать два вывода. The writer uses emotion, so the argument is false — неверно: эмоция не делает факты ложными. The statistic is real, so the argument is fair — тоже неверно: число может быть верным, а подача — однобокой. О числе спроси отдельно: кто отвечал и что измерили."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The writer frames the fee as care for public health, not a punishment for drivers.",
+      "ru": "Автор подаёт плату как заботу о здоровье, а не как наказание водителей.",
+      "why": "Frames … as … называет рамку и пока не оценивает её."
+    },
+    {
+      "en": "The story makes the problem vivid, but it doesn't show how common it is.",
+      "ru": "История делает проблему живой, но не показывает, насколько она распространена.",
+      "why": "Эффект истории и её предел в одной фразе."
+    },
+    {
+      "en": "The writer concedes that the fee costs drivers money, but answers only for people who drive downtown every day.",
+      "ru": "Автор признаёт, что плата бьёт водителей по карману, но отвечает только про тех, кто ездит в центр каждый день.",
+      "why": "Уступка есть, но ответ уже, чем возражение."
+    },
+    {
+      "en": "Comparing the app to a gym membership explains the monthly fee, but the comparison breaks down because you can't cancel the app.",
+      "ru": "Сравнение приложения с абонементом в спортзал объясняет ежемесячную плату, но перестаёт работать: приложение нельзя отменить.",
+      "why": "Что аналогия объясняет и где она перестаёт работать."
+    },
+    {
+      "en": "\"Every parent knows\" positions doubters as bad parents.",
+      "ru": "«Каждый родитель знает» делает сомневающихся плохими родителями.",
+      "why": "Позиционирование: несогласие подано как недостаток читателя."
+    },
+    {
+      "en": "The countdown clock appears designed to rush buyers; it says nothing about whether the price is good.",
+      "ru": "Таймер обратного отсчёта, похоже, должен торопить покупателей; о том, хороша ли цена, он ничего не говорит.",
+      "why": "Appears designed to — о действии текста, а не утверждение о мыслях автора."
+    },
+    {
+      "en": "The writer is clearly trying to manipulate parents.",
+      "ru": "Автор явно пытается манипулировать родителями.",
+      "why": "Контраст: так нельзя — это утверждение о чужих мыслях как о факте."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Колонка в газете / Give Our Kids Their Attention Back",
+      "kind": "reading",
+      "text": "Give Our Kids Their Attention Back\nBy Dana Whitfield\n\nLast spring, my daughter's math teacher told me about a student who had stopped answering questions in class. He wasn't shy. He was checking his phone under the desk, every few minutes, all period long. By May, he was failing a class he used to love.\n\nWe all know this story. We have all watched a child stare at a screen while someone tries to talk to them. That is why I am asking the Maple Grove School Board to make our schools phone-free from the first bell to the last.\n\nThis is not about punishing students. It is about protecting the one thing school needs most: their attention. In a district survey last fall, 81 percent of the teachers who responded said phones disrupt their lessons at least once a day.\n\nSome parents worry about emergencies. I understand; I am a parent too. But schools handled emergencies long before smartphones, and every school office has a phone. A rule that keeps phones in lockers during class does not leave anyone alone in a crisis.\n\nThink about it this way. We wouldn't let a student bring a TV into math class. Why do we let them bring something far more distracting?\n\nOther districts have already acted. Our kids cannot wait while we study the problem again. The board votes on March 12. No responsible school board would wait another year. The time to act is now.",
+      "source": "Придумано для курса: газета, округ, автор и опрос вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Письмо ученика в газету / Phones Aren't the Enemy",
+      "kind": "reading",
+      "text": "Phones Aren't the Enemy\nBy Jordan Reyes, junior at Maple Grove High School\n\nMs. Whitfield's column treats phones as the enemy. For many students, they are a lifeline. Last October, my bus broke down on the highway, and I was the one who texted my mom and the school office to tell them where we were. A phone in a locker can't do that.\n\nAnyone who has been a teenager knows that a rule like this only teaches students to hide things. Banning phones because they distract us is like banning pencils because kids doodle.\n\nI agree that phones shouldn't be out during lessons. But a full-day ban takes away our control over our own day. Before the board votes, it should ask students what actually works.",
+      "source": "Придумано для курса: автор письма вымышленный."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1. Напиши редактору одно-два предложения: для кого колонка и что она хочет, чтобы читатели сделали.",
+      "context": "op-ed, column — колонка с мнением автора в газете; school board — совет школьного округа.",
+      "guidance": {
+        "title": "Кому и чего хочет автор",
+        "body": "Сначала назови адресатов и действие, которого от них ждут. Бывает, что адресатов двое: тот, кто читает, и тот, кто решает. От этого зависит, как сработает каждый приём.",
+        "example": "The ad speaks to busy parents and wants them to sign up for a free trial.",
+        "translation": "Реклама обращается к занятым родителям и хочет, чтобы они записались на бесплатную пробу."
+      },
+      "hint": "Кто голосует 12 марта? А кто читает газету?",
+      "answers": [
+        "The column speaks to parents and other local readers, but its real target is the school board: it wants the board to vote on March 12 for a phone-free school day.",
+        "It is written for parents in the district, and it asks the Maple Grove School Board to make schools phone-free from the first bell to the last when it votes on March 12."
+      ],
+      "explanation": "Засчитывается, если названы читатели (родители, жители), тот, кто решает (совет), и действие — голосовать 12 марта за день без телефонов.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Объясни одним-двумя предложениями, как работают слова phone-free и заголовок Give Our Kids Their Attention Back. Используй The writer frames… as…",
+      "context": "",
+      "guidance": {
+        "title": "Найди рамку",
+        "body": "Рамка — слова, которыми названо решение. Подставь другое название (ban вместо phone-free) и посмотри, что изменилось. Это и есть работа рамки.",
+        "example": "Calling the fee a \"small investment\" frames a cost as a future gain.",
+        "translation": "Назвав плату «небольшим вложением», автор подаёт расход как будущую выгоду."
+      },
+      "hint": "Чем phone-free отличается от phone ban? Кто в заголовке «отнял» внимание?",
+      "answers": [
+        "By saying \"phone-free\" instead of \"phone ban,\" the writer frames the rule as protection, not punishment. The headline frames phones as something that has taken children's attention away, so the rule sounds like giving something back.",
+        "The writer frames the policy as returning something that was taken: \"Give Our Kids Their Attention Back\" casts phones as the thief, and \"phone-free\" sounds like a clean space rather than a ban."
+      ],
+      "explanation": "Засчитывается, если сказано, что phone-free звучит как защита или чистое место, а не запрет, и что заголовок ставит телефон в роль того, кто отнял внимание. Frames as, presents as, casts as — все подходят.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Разбери абзац про экстренные случаи (Some parents worry about emergencies…): что автор уступает, чем отвечает и на какой вопрос ответа не даёт. Два предложения.",
+      "context": "",
+      "guidance": {
+        "title": "Уступка: проверь ответ",
+        "body": "Уступка делает текст честным на вид. Проверь, отвечает ли автор на то самое возражение или на вопрос поуже. Сравни ответ с тем, что автор предлагает в начале.",
+        "example": "The writer concedes that the plan costs more, but responds only about the first year.",
+        "translation": "Автор признаёт, что план дороже, но отвечает только про первый год."
+      },
+      "hint": "Что предлагает автор: during class или from the first bell to the last? А о чём ответ?",
+      "answers": [
+        "The writer concedes that parents worry about emergencies and shows she shares the concern as a parent. But her answer is about phones in lockers during class, while her proposal covers the whole day, so the concern about the rest of the day is left unanswered.",
+        "She acknowledges the emergency concern, which makes her seem fair. Then she answers a narrower question: a rule for class time, not the full-day rule she is actually proposing."
+      ],
+      "explanation": "Засчитывается, если названа уступка (беспокойство родителей, I am a parent too) и найдено расхождение: ответ про время урока, а предложение — на весь день. Ответ про телефон в школьном офисе тоже можно упомянуть.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Разбери аналогию с телевизором: что она объясняет и где перестаёт работать. Одно-два предложения.",
+      "context": "",
+      "guidance": {
+        "title": "Аналогия: объясняет или доказывает",
+        "body": "Аналогия доказывает, только если случаи похожи в том, что важно для вывода. Найди, чем телефон отличается от телевизора именно для этого спора.",
+        "example": "Comparing a tablet to a textbook explains why it belongs in class, but it breaks down because a textbook can't send messages.",
+        "translation": "Сравнение планшета с учебником объясняет, почему ему место на уроке, но перестаёт работать: учебник не умеет присылать сообщения."
+      },
+      "hint": "Для чего ещё нужен телефон, кроме развлечения? И важно ли это в этом споре?",
+      "answers": [
+        "The TV analogy makes the distraction point easy to grasp. But it breaks down because a TV has no other use in school, while a phone is also how students reach their families, which is exactly what the emergency concern is about.",
+        "The analogy clarifies how distracting phones can be, but the two cases differ in a way that matters here: no one needs a TV to contact a parent."
+      ],
+      "explanation": "Засчитывается, если сказано, что аналогия объясняет отвлечение, и названо важное для спора отличие — телефон нужен для связи с семьёй. «Аналогия плохая» без причины не засчитывается.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Найди в M1 две фразы, которые дают читателю роль, и объясни их эффект на два вида читателей: на тех, кто уже согласен, и на тех, кто сомневается. Два-три предложения.",
+      "context": "undecided — тот, кто ещё не решил; alienate — оттолкнуть.",
+      "guidance": {
+        "title": "Какую роль дают читателю",
+        "body": "We all know и No responsible… ставят согласие раньше доказательств. Опиши, как одна и та же фраза действует на разных читателей: may persuade…, but may alienate…",
+        "example": "\"Every smart shopper knows\" may please fans of the store but annoy careful buyers.",
+        "translation": "«Каждый умный покупатель знает» может понравиться поклонникам магазина, но раздражать осторожных покупателей."
+      },
+      "hint": "Посмотри на начало второго абзаца и на последний абзац.",
+      "answers": [
+        "\"We all know this story\" assumes agreement before any evidence, and \"No responsible school board would wait\" presents disagreement as irresponsibility. Readers who already support the rule may feel encouraged, but undecided readers and board members may feel pressured and stop listening.",
+        "The column positions readers as part of a \"we\" who already agree, and it positions the board so that voting no looks irresponsible. That may persuade supporters, but it may alienate people who want to see more evidence first."
+      ],
+      "explanation": "Засчитывается, если найдены обе фразы, сказано, что они ставят согласие раньше доказательств, и описан разный эффект на согласных и сомневающихся.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем критическое чтение и глаголы пересказа. Однокурсник написал: The writer uses an emotional story, so her argument is false, and she is clearly trying to manipulate parents. The 81 percent proves that phones disrupt every classroom. Перепиши в два-три предложения: отдели приём от фактов, осторожно скажи о намерении и точно передай число.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: два отдельных вывода",
+        "body": "Вспоминаем: одна история показывает, что так бывает, а не как часто; опрос — что ответили эти люди. Новое: эмоция не делает факты ложными, а о намерении автора говорят через appears designed to или may.",
+        "example": "The ad's music appeals to nostalgia, which may make viewers trust it; that doesn't tell us whether the price is fair.",
+        "translation": "Музыка в рекламе обращается к ностальгии и может вызвать доверие; справедлива ли цена, это не говорит."
+      },
+      "hint": "Кто ответил на опрос — все учителя или только ответившие? Видишь ли ты мысли автора?",
+      "answers": [
+        "The opening story appeals to readers' emotions and may make the problem feel urgent, but that does not make the argument false; it just doesn't show how common the problem is. The 81 percent refers only to the teachers who responded to the survey, so it suggests that many of them see phones as a daily disruption, not that every classroom is disrupted.",
+        "The emotional story appears designed to make the issue feel personal, but emotion and accuracy are separate questions. The survey figure describes the teachers who answered, not all teachers, and it measures what they reported, not what happens in every classroom."
+      ],
+      "explanation": "Засчитывается, если эмоция отделена от истинности, о намерении сказано осторожно (appears designed to, may) или не сказано вовсе, а 81 percent отнесены к ответившим учителям. Заменять одну крайность другой нельзя: «значит, аргумент верный» тоже не следует.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M2 — письмо ученика. Он пользуется теми же приёмами. Найди один приём (рамку, аналогию или роль для читателя), процитируй его и назови предел. Два предложения.",
+      "context": "lifeline — спасательный круг; doodle — рисовать каракули.",
+      "guidance": {
+        "title": "Те же приёмы у другой стороны",
+        "body": "Разбор честный, если ты задаёшь те же вопросы тексту, с которым сам согласен. Цепочка та же: фрагмент → приём → эффект → предел.",
+        "example": "The reply frames the fee as \"a tax on families,\" which may rally parents but doesn't show that the fee is unfair.",
+        "translation": "Ответ называет плату «налогом на семьи» — это может сплотить родителей, но не показывает, что плата несправедлива."
+      },
+      "hint": "Посмотри на lifeline, на сравнение с карандашами и на Anyone who has been a teenager knows.",
+      "answers": [
+        "Jordan compares banning phones to banning pencils because kids doodle. The analogy makes the ban sound absurd, but it breaks down because pencils are needed for schoolwork, while the column's point is that phones are a much stronger distraction.",
+        "\"Anyone who has been a teenager knows\" positions readers who disagree as out of touch, which may persuade students but may alienate parents. It also assumes, without evidence, that the rule will only teach students to hide their phones.",
+        "Jordan frames phones as \"a lifeline\" rather than a distraction. The bus story makes that frame vivid, but one breakdown does not show how often students need a phone during the school day."
+      ],
+      "explanation": "Засчитывается любой из трёх приёмов, если есть цитата, эффект и предел. Заметь: в M2 есть и уступка — I agree that phones shouldn't be out during lessons; она показывает, что спор уже, чем кажется.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши разбор колонки M1 для рассылки школьного дебат-клуба (200–300 слов). Что должно быть: кому колонка адресована и чего хочет; три приёма с короткими цитатами — рамка, уступка или аналогия, роль для читателя — и предел каждого; как колонка может подействовать на сторонников и на сомневающихся; что подкрепляет колонку (история, опрос) и чего это не показывает; осторожность в словах о намерении автора; итог из двух частей: насколько колонка убедительна и насколько обоснована.",
+      "context": "",
+      "hint": "План: что колонка просит → Its first move is a frame… → Second, she concedes… → Third, the column positions… → As for support… → Overall, … persuasive…; less well supported…",
+      "answers": [
+        "Dana Whitfield's column asks the Maple Grove School Board to make schools phone-free for the whole day, and it is written to move parents as well as board members.\n\nIts first move is a frame. By calling the policy \"phone-free\" and promising to \"give our kids their attention back,\" Whitfield presents the rule as protection rather than punishment, with phones cast as the thief. The opening story of a student who stopped answering questions makes that loss feel concrete.\n\nSecond, she concedes the strongest objection, emergencies, which makes her sound fair. However, her answer covers phones during class, while her proposal covers the full day, so part of the concern goes unanswered. The TV analogy works in a similar way: it clarifies the distraction point, but a TV cannot call home.\n\nThird, the column positions its readers. \"We all know this story\" assumes agreement before any evidence, and \"No responsible school board would wait\" makes a no vote look irresponsible. That may energize supporters, but it may alienate undecided readers.\n\nAs for support, the column offers one story and a survey in which 81 percent of the teachers who responded reported daily disruption. That suggests a real concern among those teachers, but we are not told how many responded or how serious the disruption is, and one story does not show how common the problem is.\n\nOverall, the column is highly persuasive for readers who already worry about phones. It is less well supported than it sounds: its techniques create an urgency that its evidence does not fully justify."
+      ],
+      "explanation": "Засчитывается, если названы цель и адресаты, три приёма с цитатами и пределами, эффект на два вида читателей, граница опроса и истории и итог из двух частей. О намерении автора — осторожно или никак; оценка «колонка лжёт» не засчитывается.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Знакомая мама прочитала колонку и говорит: That story about the boy convinced me. I'm voting for the ban at the meeting. Ответь ей вслух, 2–3 минуты, не глядя в тексты. Что должно быть: что история действительно показывает и почему она убеждает; чего она не показывает; что известно об опросе и чего нет; один довод из письма ученика (M2), который стоит услышать; два вопроса, которые стоит задать на встрече совета; уважение к её решению, без давления.",
+      "context": "",
+      "hint": "Начни так: I get why that story stuck with you. Переходы: But it's one student… / The survey… / There was also a letter… / So if you go to the meeting, I'd ask…",
+      "answers": [
+        "I get why that story stuck with you. It stuck with me too. A kid who loved math and ended up failing because he couldn't stop checking his phone — that's a real thing, and it makes the problem feel close to home.\n\nBut it's one student. The story shows that this can happen. It doesn't tell us how often it happens, or whether a full-day ban is what would have helped him. Maybe a rule just for class time would have been enough.\n\nThe column also mentions a survey: eighty-one percent of the teachers who responded said phones disrupt their lessons at least once a day. That's worth taking seriously. But we don't know how many teachers answered, and teachers who are frustrated with phones might have been more likely to reply.\n\nThere was also a letter from a student, Jordan. He actually agreed that phones shouldn't be out during lessons. His point was about the rest of the day: his bus broke down, and he used his phone to tell his mom and the school where they were. You don't have to agree with him, but it shows the real disagreement is narrower than \"phones or no phones.\"\n\nSo if you go to the meeting, I'd ask two things. First, how many teachers answered the survey? Second, why a full-day ban rather than phones away during class? Those answers might make you even more sure, or they might change your mind. Either way, it's your call. I just think it's worth asking."
+      ],
+      "explanation": "Засчитывается, если сила истории признана, её предел назван, у опроса названа граница (ответившие учителя, неизвестно сколько), точно передан довод Jordan вместе с его уступкой, есть два конкретных вопроса, а решение оставлено собеседнице. Свой вывод о запрете можно высказать, если он помечен как твой.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Перепиши последний абзац колонки M1 (от Other districts… до конца) с другой рамкой: убедительно, но без давления на читателя и без «ответственных» и «безответственных». Сохрани факты и просьбу: голосование 12 марта, школы без телефонов на весь день, 81 percent ответивших учителей. 70–110 слов. Потом одна фраза для редактора: что изменилось в риторике, а что осталось.",
+      "context": "",
+      "hint": "Проверь три вещи: та же ли просьба, та же ли дата, то же ли число? И нет ли в тексте слов, которые делят читателей на хороших и плохих?",
+      "answers": [
+        "On March 12, the school board will decide whether to make our schools phone-free for the whole school day. In last fall's district survey, 81 percent of the teachers who responded said phones disrupt their lessons at least once a day. That is a strong reason to act. I hope board members will vote for a phone-free day, and I hope they will also explain how students can reach their families when they need to. Parents and students who see it differently should come to the meeting and be heard.\n\nI removed the \"no responsible board\" pressure and the repeated \"now,\" but kept the same request, the same date and the same survey figure."
+      ],
+      "explanation": "Засчитывается, если просьба, дата и число сохранены точно (81 percent of the teachers who responded), давление на читателя и повтор now убраны, а фраза для редактора называет и изменения, и то, что осталось. Можно добавить уважение к другой стороне, но не новые факты.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

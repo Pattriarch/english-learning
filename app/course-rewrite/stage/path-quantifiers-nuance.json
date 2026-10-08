@@ -1,0 +1,378 @@
+{
+  "id": "path-quantifiers-nuance",
+  "title": "Quite a few, fewer, most of: точнее о количестве",
+  "subtitle": "Довольно много или почти нет → fewer или less → много для отчёта → most или most of → none of",
+  "level": "B2",
+  "group": "Существительные и определители",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Точно сказать, сколько и кого: «пришло довольно много людей» (quite a few people), «меньше машин и меньше пробок» (fewer cars, less traffic), «большинство моих коллег» (most of my coworkers), «никто из гостей» (none of the guests).",
+  "formula": "quite a few / only a few / hardly any → fewer + штуки, less + вещество → plenty of / a large number of / a great deal of → most people ≠ most of the people → none of",
+  "keyRule": {
+    "rule": "Можно сказать «две …» — бери fewer. Нельзя — бери less.",
+    "example": "Fewer cars, less traffic. — Меньше машин, меньше пробок.",
+    "check": "Most of ставь только перед the, my или them: most of the guests."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-quantifiers-basic",
+    "path-so-such-intensifiers"
+  ],
+  "recycles": [
+    "path-quantifiers-basic",
+    "path-me-too"
+  ],
+  "teaches": [
+    "quite a few — «довольно много», а не «немного»; с тем, что не считают, — quite a bit of",
+    "only a few / only a little — «всего несколько»; hardly any — «почти нет», без второго not",
+    "fewer + штуки, less + вещество: fewer cars, less traffic; less people — только в разговоре",
+    "less than + деньги, время, расстояние: less than $50, less than ten minutes; fewer than + люди и вещи",
+    "plenty of — «с запасом»; a large number of + штуки, глагол как для нескольких; the number of — как для одного; a great deal of + вещество",
+    "most people — люди вообще; most of the / my / them — знакомая группа; most of people — ошибка",
+    "none of — «ни один из» трёх и больше; с -s глагол is или are, с веществом — is",
+    "«никто из моих друзей» — none of my friends, а не nobody of; второе not не нужно",
+    "слова: show up, space, preparation, take part, resident, stand, run out of"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Quantifiers",
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/quantifiers",
+      "notes": "Сверено: fewer — только со штуками; less в обычной речи встречается и со штуками («10 items or less»), поэтому урок разрешает less people в разговоре, но требует fewer в письме. Plenty of — со штуками и с веществом; a great deal of — с тем, что не считают (time, money); most без the — обобщение, most of the / them — конкретная группа."
+    },
+    {
+      "title": "Thesaurus.com · Is “none” singular or plural?",
+      "url": "https://www.thesaurus.com/e/grammar/none/",
+      "notes": "Сверено: none of + слово с -s принимает и is, и are, во множественном часто звучит естественнее; с веществом (none of the cake) — только как для одного. Отсюда правило урока и варианты ответов."
+    },
+    {
+      "title": "Englex · Few, a few, little, a little",
+      "url": "https://englex.ru/few-a-few-little-a-little/",
+      "notes": "Сверено объяснение для русскоговорящих: few / little — «мало, не хватает», a few / a little — «немного, но хватает». В уроке это одна строка-напоминание из A2, дальше — только новое."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Меньше чего и большинство кого",
+    "why": "Первая пара — fewer или less: можно ли посчитать. Вторая пара — most или most of: люди вообще или знакомая группа.",
+    "items": [
+      {
+        "label": "Штуки — fewer",
+        "en": "There are fewer cars.",
+        "ru": "Машин стало меньше.",
+        "note": "Можно сказать «две машины» — значит, fewer."
+      },
+      {
+        "label": "Вещество — less",
+        "en": "There's less traffic.",
+        "ru": "Пробок стало меньше.",
+        "note": "Traffic — поток машин, его не считают по одному."
+      },
+      {
+        "label": "Вообще — most",
+        "en": "Most people drive to work.",
+        "ru": "Большинство людей ездят на работу на машине.",
+        "note": "Все люди вообще, без of."
+      },
+      {
+        "label": "Группа — most of the",
+        "en": "Most of the people here walk.",
+        "ru": "Большинство людей здесь ходят пешком.",
+        "note": "Of + the: конкретные люди, о которых говорим."
+      }
+    ],
+    "focus": [
+      "fewer",
+      "less",
+      "Most of the"
+    ],
+    "footnote": "Most of ставь только перед the, my, these или them."
+  },
+  "sections": [
+    {
+      "title": "Довольно много или почти нет: quite a few, only a few, hardly any",
+      "body": "С A2 ты знаешь: a few — «немного, но есть», few — «мало». Теперь — слова, которые делают оценку точнее.\n\nQuite a few — «довольно много», хотя внутри слово few: Quite a few people came — пришло довольно много людей. Это не «немного». С тем, что не считают по штукам, говорят quite a bit of: quite a bit of time — довольно много времени.\n\nOnly a few и only a little — «всего несколько, совсем немного»: Only a few people came. В разговоре это звучит естественнее, чем few без a.\n\nHardly any — «почти нет», и со штуками, и с веществом: hardly any seats, hardly any milk. «Не» уже внутри hardly, поэтому второе not не ставят: There's hardly any milk, а не There isn't hardly any milk."
+    },
+    {
+      "title": "Fewer или less: меньше штук или меньше вещества",
+      "body": "Less ты знаешь как «меньше». Но со штуками в письме нужен fewer: fewer cars — меньше машин, fewer people — меньше людей. Less — с тем, что не считают: less traffic — меньше пробок, less time — меньше времени. Проверка та же, что для a few: можно сказать «две …»? Да — fewer. Нет — less.\n\nВ разговоре американцы иногда говорят less people, а на кассе в магазине бывает табличка 10 items or less. В письме, отчёте и на экзамене пиши fewer.\n\nИсключение — число как одна сумма: деньги, время, расстояние. Less than $50, less than ten minutes, less than five miles. О людях и вещах, которые считают по одному, — fewer than: fewer than ten people."
+    },
+    {
+      "title": "Много: plenty of, a large number of, a great deal of",
+      "body": "В обычной речи «много» — a lot of. Есть ещё три слова, у каждого своя работа.\n\nPlenty of — «с запасом, хватит всем»: We have plenty of chairs. Подходит и к штукам, и к веществу: plenty of time.\n\nA large number of — «большое число» — только со штуками: a large number of people. Глагол как для нескольких: A large number of people have signed. Не путай с the number of — «само число»: The number of members has grown — число участников выросло. Здесь глагол как для одного.\n\nA great deal of — «очень много» — только с тем, что не считают: a great deal of time, money, effort. A great deal of people — ошибка. Эти два слова звучат официально, их место — в отчёте и деловом письме."
+    },
+    {
+      "title": "Most или most of: люди вообще или знакомая группа",
+      "body": "Most people like weekends — большинство людей вообще. Most of the people in my building work downtown — большинство из конкретной группы, о которой мы говорим.\n\nПосле most of всегда стоит слово-указатель: the, my, these или them, us: most of the guests, most of my friends, most of them. Most of people — ошибка: без the группа не названа. The most people — тоже другое: «больше всего людей».\n\nТак же работают some of, many of, a few of, none of. Глагол смотрит на слово после of: Most of the money is gone — вещество, как для одного. Most of the guests are here — люди, как для нескольких."
+    },
+    {
+      "title": "None of и nobody: «никто из…» и «ни один из…»",
+      "body": "Neither — «ни один из двух» — ты знаешь. Если вариантов три и больше, нужен none of: None of the five stores were open — ни один из пяти магазинов не работал.\n\nПосле none of + слово с -s глагол бывает и как для одного, и как для нескольких. Оба верны: None of my friends were there / was there. Were звучит естественнее в разговоре, was — строже. С веществом — только как для одного: None of the money was returned.\n\nNobody и no one стоят без of: Nobody came. «Никто из моих друзей» — none of my friends, а не nobody of my friends. Второе not не нужно: «не» уже внутри none. None of them called, а не None of them didn't call."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Quite a few people came to the meeting.",
+      "ru": "На встречу пришло довольно много людей.",
+      "why": "Quite a few — «довольно много», а не «немного», хотя внутри few."
+    },
+    {
+      "en": "There's hardly any milk left.",
+      "ru": "Молока почти не осталось.",
+      "why": "Hardly any без второго not. Left — «осталось»."
+    },
+    {
+      "en": "There are fewer cars downtown now, so there's less traffic.",
+      "ru": "Сейчас в центре меньше машин, поэтому меньше пробок.",
+      "why": "Машины считают по одной — fewer. Traffic не считают — less."
+    },
+    {
+      "en": "The ride takes less than twenty minutes.",
+      "ru": "Поездка занимает меньше двадцати минут.",
+      "why": "Двадцать минут здесь — одно время целиком, поэтому less than."
+    },
+    {
+      "en": "A large number of residents have signed the petition.",
+      "ru": "Петицию подписало большое число жителей.",
+      "why": "A large number of + штуки, глагол как для нескольких: have. Residents — жители."
+    },
+    {
+      "en": "Most people like weekends, but most of my coworkers work on Saturdays.",
+      "ru": "Большинство людей любят выходные, но большинство моих коллег работают по субботам.",
+      "why": "Первое most — люди вообще. Most of my coworkers — знакомая группа."
+    },
+    {
+      "en": "None of the stores were open.",
+      "ru": "Ни один из магазинов не работал.",
+      "why": "Магазинов больше двух — none of. Were звучит естественно; was тоже верно."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает про день открытых дверей (open house): “Did anyone show up?” (show up — прийти, появиться). Пришло больше, чем ты ждал. Ответь: «Да, пришло довольно много людей».",
+      "context": "",
+      "guidance": {
+        "title": "Довольно много — quite a few",
+        "body": "Quite a few — «довольно много», хотя внутри few. Слово после него — с -s.",
+        "example": "She has quite a few friends in Denver.",
+        "translation": "У неё довольно много друзей в Денвере."
+      },
+      "hint": "Начни так: Yes, quite …",
+      "answers": [
+        "Yes, quite a few people came.",
+        "Yes, quite a few people showed up.",
+        "Yes, quite a few.",
+        "Quite a few people came.",
+        "Quite a few people showed up.",
+        "Yes, quite a lot of people came.",
+        "Yes, quite a lot of people showed up."
+      ],
+      "explanation": "Quite a few — «довольно много». Quite a lot of значит то же самое. A few people came было бы «пришло несколько человек» — меньше, чем ты хотел сказать."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед по квартире (roommate) хочет сделать кофе с молоком. Предупреди его: «Молока почти не осталось».",
+      "context": "left — осталось.",
+      "guidance": {
+        "title": "Почти нет — hardly any",
+        "body": "Hardly any — «почти нет», со штуками и с веществом. Второе not не ставь: «не» уже внутри hardly.",
+        "example": "There are hardly any seats left.",
+        "translation": "Мест почти не осталось."
+      },
+      "hint": "Начни так: There's … Нужен ли здесь isn't?",
+      "answers": [
+        "There's hardly any milk left.",
+        "There is hardly any milk left.",
+        "We have hardly any milk left.",
+        "There's almost no milk left.",
+        "There is almost no milk left.",
+        "We've got hardly any milk left.",
+        "There's hardly any milk."
+      ],
+      "explanation": "Hardly any milk — «почти нет молока». Almost no milk тоже верно. There isn't hardly any — ошибка: два «не»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, как тебе новый офис. Ответь: «Там меньше места, но и людей меньше». space — место, пространство.",
+      "context": "",
+      "guidance": {
+        "title": "Меньше штук — fewer, меньше вещества — less",
+        "body": "Людей считают по одному — fewer people. Место по штукам не считают — less space.",
+        "example": "There's less noise and fewer meetings.",
+        "translation": "Меньше шума и меньше совещаний."
+      },
+      "hint": "Можно сказать «два места» в этом смысле? А «два человека»?",
+      "answers": [
+        "There's less space, but there are also fewer people.",
+        "There is less space, but there are also fewer people.",
+        "There's less space, but there are fewer people too.",
+        "There's less space, but fewer people too.",
+        "It has less space, but it also has fewer people.",
+        "It has less space, but fewer people.",
+        "The new office has less space, but it also has fewer people."
+      ],
+      "explanation": "Space не считают — less. People считают — fewer. Less people в разговоре слышно, но в письме и на экзамене нужен fewer."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь коллеге про курс по выходным. Скажи: «Курс стоит меньше 80 долларов, а в группе меньше двенадцати человек».",
+      "context": "",
+      "guidance": {
+        "title": "Сумма целиком — less than",
+        "body": "О деньгах, времени и расстоянии говорят less than + число: сумма — одно целое. О людях и вещах, которых считают по одному, — fewer than.",
+        "example": "It's less than an hour away, and fewer than ten families live there.",
+        "translation": "Ехать туда меньше часа, и живёт там меньше десяти семей."
+      },
+      "hint": "Доллары здесь — одна сумма или штуки по одной? А люди?",
+      "answers": [
+        "The course costs less than $80, and there are fewer than twelve people in the group.",
+        "The course costs less than $80, and the group has fewer than twelve people.",
+        "It costs less than $80, and there are fewer than twelve people in the group.",
+        "The course costs less than 80 dollars, and there are fewer than twelve people in the group.",
+        "It's less than $80, and there are fewer than 12 people in the group.",
+        "The course costs under $80, and there are fewer than twelve people in the group."
+      ],
+      "explanation": "$80 — одна сумма, поэтому less than. Люди считаются по одному — fewer than. Under $80 тоже звучит естественно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отчёт о районном празднике для сайта района. Переведи: «Подготовка заняла очень много времени, но в ней участвовало большое число волонтёров».",
+      "context": "preparation — подготовка; take part — участвовать; volunteers — волонтёры.",
+      "guidance": {
+        "title": "Для отчёта: a great deal of и a large number of",
+        "body": "В отчёте «очень много» звучит строже. A great deal of — с тем, что не считают. A large number of — со штуками.",
+        "example": "The program cost a great deal of money, but a large number of families used it.",
+        "translation": "Программа стоила очень много денег, но ею воспользовалось большое число семей."
+      },
+      "hint": "Время можно посчитать по штукам? А волонтёров?",
+      "answers": [
+        "The preparation took a great deal of time, but a large number of volunteers took part in it.",
+        "The preparation took a great deal of time, but a large number of volunteers took part.",
+        "Preparation took a great deal of time, but a large number of volunteers took part in it.",
+        "The preparation took a great deal of time, but a large number of volunteers were involved.",
+        "The preparation took a great deal of time, but a large number of volunteers participated.",
+        "Preparing for it took a great deal of time, but a large number of volunteers took part."
+      ],
+      "explanation": "Время не считают — a great deal of. Волонтёров считают — a large number of. В разговоре оба заменит a lot of, но в отчёте эти слова звучат точнее."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый сосед спрашивает, тихо ли у вас в доме по субботам. Ответь: «Большинство людей отдыхают в выходные, но большинство людей в нашем доме работают по субботам». building — дом (многоквартирный).",
+      "context": "",
+      "guidance": {
+        "title": "Most — вообще, most of the — знакомая группа",
+        "body": "Most + слово — люди вообще. Если группа названа (наш дом, мои друзья), нужен most of + the, my или them.",
+        "example": "Most kids like pizza, but most of the kids in my class hate it.",
+        "translation": "Большинство детей любят пиццу, но большинство детей в моём классе её терпеть не могут."
+      },
+      "hint": "Где группа конкретная — «в нашем доме»? Туда — of the.",
+      "answers": [
+        "Most people relax on the weekend, but most of the people in our building work on Saturdays.",
+        "Most people relax on weekends, but most of the people in our building work on Saturdays.",
+        "Most people rest on the weekend, but most of the people in our building work on Saturdays.",
+        "Most people relax on the weekend, but most of the people in our building work on Saturday.",
+        "Most people relax on the weekend, but most people in our building work on Saturdays.",
+        "Most people relax on the weekend, but most of our neighbors work on Saturdays."
+      ],
+      "explanation": "Первое most — люди вообще, без of. Второе — конкретные люди из нашего дома: most of the people. Most people in our building тоже звучит естественно, а most of people — ошибка."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега просит проверить сообщение после вечеринки в офисе: “Nobody of the guests didn't stay late, and none of the food were left.” Перепиши правильно.",
+      "context": "stay late — задержаться допоздна.",
+      "guidance": {
+        "title": "None of: без второго not, с веществом — как для одного",
+        "body": "«Никто из…» — none of, а не nobody of. Not не нужен: «не» уже внутри none. Если после of вещество, глагол как для одного.",
+        "example": "None of my emails were answered, and none of the money was returned.",
+        "translation": "Ни на одно моё письмо не ответили, и деньги так и не вернули."
+      },
+      "hint": "Сколько «не» в первой части? Food — штуки или вещество?",
+      "answers": [
+        "None of the guests stayed late, and none of the food was left.",
+        "None of the guests stayed late, and none of the food was left over.",
+        "None of the guests stayed late, and there was no food left.",
+        "None of the guests stayed late, and there wasn't any food left.",
+        "Nobody stayed late, and none of the food was left.",
+        "No one stayed late, and none of the food was left."
+      ],
+      "explanation": "Nobody of — ошибка: «никто из» — none of. Didn't уходит: «не» уже внутри none. Food не считают, поэтому was. Nobody stayed late тоже верно, но тогда без of the guests."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем neither и «тоже не». Ты выбирал спортзал: сначала смотрел два около дома, потом пять в центре. Напиши другу: «Ни один из двух спортзалов не работает по воскресеньям. Ни один из пяти в центре — тоже».",
+      "context": "gym — спортзал; downtown — в центре.",
+      "guidance": {
+        "title": "Вспоминаем: neither о двух, none of — о трёх и больше",
+        "body": "Neither + одна вещь — «ни один из двух», как в уроке о both и either. О пяти — none of. «Тоже не» в конце — either, как в I don't either.",
+        "example": "Neither bakery sells bagels. None of the cafes do either.",
+        "translation": "Ни одна из двух пекарен не продаёт бейглы. И ни одно из кафе тоже."
+      },
+      "hint": "Начни так: Neither gym … Вторая фраза — None of the five …",
+      "answers": [
+        "Neither gym is open on Sundays. None of the five gyms downtown are open on Sundays either.",
+        "Neither gym is open on Sundays. None of the five gyms downtown is open on Sundays either.",
+        "Neither gym is open on Sundays. None of the five downtown are open on Sundays either.",
+        "Neither of the gyms is open on Sundays. None of the five gyms downtown are open on Sundays either.",
+        "Neither of the two gyms is open on Sundays. None of the five downtown are either.",
+        "Neither gym is open on Sundays, and none of the five gyms downtown are either.",
+        "Neither gym is open on Sunday. None of the five downtown are open on Sunday either."
+      ],
+      "explanation": "Два зала — neither gym is. Пять залов — none of, глагол are или is: оба верны. Either в конце значит «тоже не», как в I don't either."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг из другого штата думает переехать в твой район и спрашивает: “What's your neighborhood like? Is it worth moving there?” Напиши ему письмо на 100–180 слов о районе, где ты живёшь или который хорошо знаешь. Что должно быть: сравнение с другим районом — один раз fewer и один раз less; чего здесь с запасом (plenty of); чего почти нет (hardly any); о людях вокруг — most of или none of; где-то quite a few; вывод — кому район подойдёт, а кому нет.",
+      "context": "",
+      "hint": "Начни так: Hi Sam! You asked about my neighborhood. Compared with my old place, …",
+      "answers": [
+        "Hi Sam! You asked about my neighborhood, so here's the honest version. Compared with my old place, there are fewer cars on my street and much less noise at night. There are plenty of parks nearby, and quite a few new cafes have opened this year. Most of my neighbors are young families, so it's friendly, but it's not exciting. There's hardly any nightlife: none of the bars stay open past eleven. Rent is less than I paid downtown, about $1,400 a month for two bedrooms, and the bus gets me downtown in less than thirty minutes. So if you want a quiet place with green space, you'd like it here. If you want to go out a lot, it might be too quiet for you. Come visit first and see for yourself!"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: fewer со штуками и less с веществом, plenty of, hardly any без второго not, most of или none of перед the / my, quite a few и вывод для друга. Less than + деньги или время — тоже верно."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Коллега собирает материал для заметки о том, как люди добираются до работы. Расскажи голосом 1–2 минуты о своей команде, группе или семье. Что должно быть: как добирается большинство (most of); сколько человек ездят на машине — quite a few, only a few или none of; стало ли за последние годы машин или пробок больше или меньше (fewer, less); сколько занимает дорога у тебя (less than…); одно, что ты бы изменил.",
+      "context": "",
+      "hint": "Начни так: There are … people on my team, and most of them …",
+      "answers": [
+        "There are twelve people on my team, and most of them take the train. Only a few of us drive, maybe three people, because parking downtown costs a great deal of money. None of my coworkers bike to work, which is a little surprising, because there are plenty of bike lanes now. Compared with five years ago, there are fewer cars on the main road and less traffic in the morning. My own commute takes less than forty minutes: I walk to the station, and the train is usually on time. If I could change one thing, I'd ask the company to let us start at ten twice a week. Then quite a few people could avoid the busiest trains."
+      ],
+      "explanation": "Засчитывается, если рассказ звучит 1–2 минуты и в нём есть most of, одно из quite a few / only a few / none of, пара fewer и less и less than со временем. Расшифровка голоса покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e11",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ты редактор рассылки районного фермерского рынка. Волонтёр прислал абзац с ошибками в словах о количестве. Исправь его, чтобы его можно было отправить читателям. Правильные места не меняй.",
+      "context": "Текст: “Less people came to the farmers market this year, but there was quite a few new stands. Most of visitors stayed less than an hour. A great deal of families brought their kids, and nobody of the sellers didn't run out of fruit.” stand — палатка, прилавок; run out of — закончиться (о запасе).",
+      "hint": "Ошибок пять. Одно место с less верное — найди его и оставь.",
+      "answers": [
+        "Fewer people came to the farmers market this year, but there were quite a few new stands. Most visitors stayed less than an hour. A large number of families brought their kids, and none of the sellers ran out of fruit.",
+        "Fewer people came to the farmers market this year, but there were quite a few new stands. Most of the visitors stayed less than an hour. A large number of families brought their kids, and none of the sellers ran out of fruit.",
+        "Fewer people came to the farmers market this year, but there were quite a few new stands. Most of the visitors stayed less than an hour. A lot of families brought their kids, and none of the sellers ran out of fruit."
+      ],
+      "explanation": "Засчитывается, если исправлены пять мест: fewer people; there were — палаток несколько; most visitors или most of the visitors; a large number of или a lot of families; none of the sellers ran out — без nobody of и без didn't. Less than an hour верно: время — одно целое."
+    }
+  ]
+}

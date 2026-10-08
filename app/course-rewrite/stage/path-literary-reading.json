@@ -1,0 +1,289 @@
+{
+  "id": "path-literary-reading",
+  "title": "Художественное чтение: кто говорит, что видно и какое чтение сильнее",
+  "subtitle": "Рассказчик ≠ автор → чьими глазами → слова против детали → как форма даёт эффект → два чтения и выбор между ними",
+  "level": "C2",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Разобрать короткий художественный отрывок: показать, где слова рассказчика расходятся с деталью («She says she doesn't mind, yet she wipes the clean keys again»), объяснить, что дают повтор или короткая фраза, предложить два чтения и сказать, какое сильнее и почему.",
+  "formula": "The narrator says / insists…, yet… · The word … seems to belong to… · The repeated… undercuts… · The short sentence sounds… · One reading is…; alternatively… · The first reading is better supported because… · The passage does not tell us whether…",
+  "keyRule": {
+    "rule": "Рассказчик — не автор и не судья: сверяй то, что он говорит, с тем, что он делает.",
+    "example": "He calls himself calm, yet his fingers keep folding the receipt. — Он называет себя спокойным, но его пальцы всё складывают и складывают чек.",
+    "check": "Твой вывод опирается на слова героя или на деталь, которую он сам не объясняет?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-implicature",
+    "path-irony",
+    "path-rhetorical-analysis",
+    "extended-c1-review-article"
+  ],
+  "recycles": [
+    "extended-c1-review-article",
+    "path-hedging"
+  ],
+  "teaches": [
+    "рассказчик (narrator) — голос внутри текста, не автор: the narrator says, the passage suggests, the story lets us see; без биографии писателя",
+    "разбор пишут в настоящем времени: The narrator wipes the keys (не wiped); прошедшее — для того, что было раньше в сюжете",
+    "точка зрения (point of view): чьи мысли и ощущения доступны; оценочное слово в рассказе от третьего лица может принадлежать герою: The word … seems to belong to…",
+    "ненадёжный рассказчик (unreliable narrator): слова против детали; insists, claims, undercuts; the narrator lies — только если текст показывает правду",
+    "форма → эффект: повтор, порядок деталей, короткая фраза после длинных; эффект показывают на конкретном месте, не каждая деталь — символ",
+    "два чтения с опорой: One reading is…; Alternatively… — и выбор: better supported because it also explains…",
+    "граница: The passage does not tell us whether…; чтение, которое противоречит прямо сказанному, отбрасывают"
+  ],
+  "sources": [
+    {
+      "title": "The Writing Center, UNC Chapel Hill · Literature (Fiction)",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/literature/",
+      "notes": "Сверено: разбор — спорное утверждение о тексте, а не пересказ сюжета; сюжет служит опорой аргумента; каждую цитату объясняют своими словами; полезно спросить, кто рассказывает, что он знает и не окрашивает ли рассказ своими интересами."
+    },
+    {
+      "title": "The Writing Center, UNC Chapel Hill · Verb Tenses",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/verb-tenses/",
+      "notes": "Сверено: present simple в рассказе о тексте называют literary present — «литературное настоящее» (пример про Шекспира в настоящем времени). Отсюда правило писать разбор в present simple."
+    },
+    {
+      "title": "Purdue OWL · Literary Terms",
+      "url": "https://owl.purdue.edu/owl/subject_specific_writing/writing_in_literature/literary_terms/index.html",
+      "notes": "Сверено: narrator — голос, который рассказывает историю; point of view — с какой позиции и через чьи глаза текст подаёт события; tone — отношение, которое создают выбор слов, образы и стиль."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Кто говорит в рассказе — и почему это не автор",
+      "body": "В книжном клубе кто-то говорит: «Автор холодна к брату». Но в рассказе от первого лица «я» — не писательница. Это рассказчик (narrator) — голос внутри текста. Автор придумал его вместе с его слепыми пятнами. Слова рассказчика — его версия событий, а не справка об истине.\n\nПо-русски мы тоже различаем автора и героя-рассказчика. По-английски в разборе это видно по подлежащему: the narrator says, the passage suggests, the story lets us see. The author… уместно, только когда речь о выборе в самом тексте. Биографию писателя без источника не добавляй.\n\nЕщё одна привычка английского разбора — настоящее время. О том, что происходит в тексте, пишут в present simple: The narrator wipes the keys, а не wiped. Текст «происходит» каждый раз, когда его читают. Прошедшее нужно только для того, что случилось раньше внутри сюжета: Their father had made the scratch.\n\nГраница: если рассказчику ничто в тексте не противоречит, не ищи подвох. Сомнение в нём нужно показать на детали."
+    },
+    {
+      "title": "Чьими глазами мы смотрим и чьё это слово",
+      "body": "Точка зрения (point of view) — чьи мысли и ощущения текст нам открывает. От первого лица мы знаем только то, что рассказчик заметил и решил сказать. Рассказ от третьего лица может знать всё, а может держаться одного героя.\n\nОценочное слово в рассказе от третьего лица часто принадлежит герою, а не повествователю. At last, the absurd meeting was over. Dana thanked everyone. Собрание «нелепое» для Даны: это её мысль внутри чужого голоса. Благодарность вслух показывает, что сказать это она не готова.\n\nПроверяй три вещи: что знает читатель, что знает или думает герой и чего текст не сообщает никому. Фраза для разбора: The word \"absurd\" seems to belong to Dana rather than to the narrator."
+    },
+    {
+      "title": "Ненадёжный рассказчик: слова против детали",
+      "body": "Вспоминаем урок о подтексте: сказанное и подразумеваемое — разные вещи. В прозе это часто разрыв между тем, что рассказчик говорит о себе, и тем, что он делает. В M1 Эллен говорит I didn't mind at all, а потом протирает уже чистые клавиши.\n\nНенадёжный рассказчик (unreliable narrator) — тот, чьей версии текст не даёт верить полностью. Он может ошибаться, оправдываться или выбирать удобные подробности. Это не всегда ложь. Сказать the narrator lies можно, только если текст показывает правду.\n\nПолезные глаголы: insists — «настаивает», claims — «утверждает» (с сомнением), undercuts — «подрывает»: The repeated wiping undercuts her claim. Опору называй точно: какое слово, какое действие, в каком месте."
+    },
+    {
+      "title": "Как форма создаёт эффект",
+      "body": "В уроке о рецензии ты связывал приём с тем, что он даёт зрителю. В прозе приёмы мельче: повтор, порядок деталей, короткая фраза после длинных, одно выбранное слово.\n\nКороткая фраза после длинных звучит резко — как удар или как спор с кем-то невидимым. Повтор (again, once more) показывает, что действие важнее, чем кажется. Порядок деталей решает, что читатель заметит первым и что запомнит последним.\n\nЭффект объясняй на конкретном месте: что сделано и что это меняет для читателя. Не каждая деталь — символ. Если пишешь, что предмет «символизирует семью», покажи, какие слова текста держат это чтение."
+    },
+    {
+      "title": "Два чтения и какое из них сильнее",
+      "body": "Хороший отрывок часто допускает два чтения. Человек прячет письмо: может быть, скрывает тайну, а может быть, не хочет перечитывать то, что ранит. Оба чтения законны, если каждое опирается на деталь.\n\nНо «можно по-разному» не значит «всё равно». Сравни чтения: какое объясняет больше деталей и требует меньше догадок. Фразы: One reading is… Alternatively… The first reading is better supported because it also explains… Чтение, которое противоречит прямо сказанному, отбрасывают.\n\nВ конце назови, чего текст не сообщает: The passage does not tell us whether… Это не слабость разбора, а его точность. Оговорку ставь у своего вывода, а не у цитаты."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The narrator insists that she doesn't mind, yet she wipes the clean keys again.",
+      "ru": "Рассказчица уверяет, что не против, но снова протирает чистые клавиши.",
+      "why": "Слова против действия; оба глагола в настоящем времени, как принято в разборе."
+    },
+    {
+      "en": "The word \"absurd\" seems to belong to Dana rather than to the narrator.",
+      "ru": "Слово «нелепое», похоже, принадлежит Дане, а не повествователю.",
+      "why": "Оценка звучит как мысль героини внутри рассказа от третьего лица."
+    },
+    {
+      "en": "Her repeated wiping undercuts the calm tone of her account.",
+      "ru": "То, что она снова и снова протирает клавиши, подрывает спокойный тон её рассказа.",
+      "why": "Undercuts — деталь ослабляет версию рассказчика, не доказывая обратного."
+    },
+    {
+      "en": "After the long, slow paragraph, the two short sentences sound defensive.",
+      "ru": "После длинного неторопливого абзаца две короткие фразы звучат как оправдание.",
+      "why": "Эффект формы назван на конкретном месте."
+    },
+    {
+      "en": "One reading is that he hides the letter to protect a secret; alternatively, he may not want to reread it.",
+      "ru": "Одно чтение: он прячет письмо, чтобы сохранить тайну; другое: возможно, он не хочет его перечитывать.",
+      "why": "Два чтения одного действия; оговорка may стоит у вывода."
+    },
+    {
+      "en": "The passage does not tell us what the brother plans to do.",
+      "ru": "Отрывок не сообщает, что собирается делать брат.",
+      "why": "Граница вывода названа прямо."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "The Piano / «Пианино»",
+      "kind": "reading",
+      "text": "The Piano\n\nMy brother arrived at ten, which was early for him. \"Sorry, Ellen,\" he said. \"Traffic was light.\" I told him I didn't mind at all. I had already written the price on a card and propped it against the music stand, where anyone who came to look would see it first. He lifted the lid, played three notes of a song our father used to hum, and stopped.\n\nI asked whether he wanted coffee. He asked who had tuned the piano last. I said I didn't remember, which was true in the way that most things I tell my brother are true.\n\nThe buyer was coming at noon. I wiped the keys again, although they were clean, and moved the card an inch to the left, so that it covered the scratch our father had made with his wedding ring. My brother watched me do it. Then he sat down on the bench, carefully, as if it might be sold out from under him.\n\nNeither of us said anything for a while. It was a fair price. I had checked.",
+      "source": "Рассказ написан для урока; люди и события вымышлены."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга по книжному клубу просит фразу для разбора рассказа. Переведи, как принято в разборе — в настоящем времени: «Он говорит, что дал ей полную свободу, и в ту же минуту запирает дверь».",
+      "context": "lock — запирать; in the same moment, at that very moment — в ту же минуту.",
+      "guidance": {
+        "title": "Разбор пишут в настоящем времени",
+        "body": "О том, что происходит в тексте, говорят в present simple: the narrator says, she wipes. Это не рассказ о прошлом, а описание того, что делает текст каждый раз, когда его читают.",
+        "example": "The narrator promises to stay calm and then slams the door.",
+        "translation": "Рассказчик обещает сохранять спокойствие и тут же хлопает дверью."
+      },
+      "hint": "Начни так: He says he has given her… или He claims he gave her…",
+      "answers": [
+        "He says he has given her complete freedom, and in the same moment he locks the door.",
+        "He claims he gave her complete freedom, and at that very moment he locks the door.",
+        "He insists he has given her complete freedom, yet as he says it, he locks the door."
+      ],
+      "explanation": "Засчитывается, если действие в тексте передано через locks, а не locked. Внутри его слов подходят has given и gave; says, claims, insists — тоже. Yet подчёркивает разрыв между словами и действием."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В отзыве участника клуба: The narrator lied once, so the author is a dishonest person. Перепиши одной фразой: вывод должен касаться надёжности рассказчика, а не честности писателя.",
+      "context": "",
+      "guidance": {
+        "title": "Рассказчик — не автор",
+        "body": "Сомнение в рассказчике — вывод о тексте: можно ли верить его версии. На честность живого писателя оно не переносится. Подлежащее твоей фразы — the narrator или his account.",
+        "example": "The narrator's boasting makes his account of the fight hard to trust; it tells us nothing about the novelist.",
+        "translation": "Хвастовство рассказчика мешает верить его версии драки; о самом писателе это ничего не говорит."
+      },
+      "hint": "Слово-помощник: reliability — надёжность, можно ли верить чьей-то версии.",
+      "answers": [
+        "The narrator's lie raises doubts about the reliability of his account, not about the author's honesty.",
+        "Because the narrator lies once, we may trust his account less; that says nothing about the author as a person.",
+        "The narrator's lie makes his version of events less reliable, but it is not evidence that the author is dishonest."
+      ],
+      "explanation": "Засчитывается, если сомнение относится к версии рассказчика (account, version, reliability), а об авторе сказано, что вывода о нём нет. Lies или lied внутри фразы о сюжете — оба варианта допустимы, но разбор естественнее в настоящем."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай две фразы из рассказа от третьего лица: At last, the endless dinner was over. Laura smiled at her mother-in-law. Напиши одно-два предложения: чьё это слово endless и что оно показывает вместе с улыбкой.",
+      "context": "mother-in-law — свекровь; endless — бесконечный.",
+      "guidance": {
+        "title": "Чьё это слово",
+        "body": "Спроси, кто в сцене мог бы так оценить происходящее. Если оценка звучит как мысль героя, а вслух он говорит или делает другое, текст показывает разрыв между внутренним и внешним.",
+        "example": "The word \"charming\" seems to belong to Ben, who is trying hard to like the house.",
+        "translation": "Слово «очаровательный», похоже, принадлежит Бену, который изо всех сил старается полюбить этот дом."
+      },
+      "hint": "Кто за столом мог считать ужин бесконечным — повествователь или Лора? И что значит её улыбка рядом с этим словом?",
+      "answers": [
+        "The word \"endless\" seems to belong to Laura rather than to the narrator: it conveys her boredom, which her smile at her mother-in-law hides.",
+        "\"Endless\" sounds like Laura's own thought, not a neutral description; her polite smile suggests she would never say it aloud."
+      ],
+      "explanation": "Засчитывается, если слово приписано Лоре (seems to belong to, sounds like her thought) и сказано, что улыбка прячет её чувство. Скука, раздражение, усталость — любое из этих слов подходит."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1 целиком. Напиши 2 предложения: что дают две короткие последние фразы It was a fair price. I had checked. после более длинных и спокойных абзацев.",
+      "context": "sell something out from under someone — продать вещь, пока человек ещё ею пользуется.",
+      "guidance": {
+        "title": "Вспоминаем: приём → эффект",
+        "body": "Вспоминаем урок о рецензии: сначала что сделано, потом что это даёт читателю. Здесь приём — ритм: длина фраз и их место в самом конце. Назови эффект словом, которое можно проверить по тексту.",
+        "example": "After pages of slow description, the one-word paragraph \"Gone.\" lands like a slammed door.",
+        "translation": "После страниц медленного описания абзац из одного слова «Нет.» звучит как хлопнувшая дверь."
+      },
+      "hint": "Кому Эллен отвечает этими фразами, если брат молчит? Слова в помощь: defensive — оборонительный, abrupt — резкий.",
+      "answers": [
+        "After the longer, calmer sentences, the two short ones sound abrupt and defensive. Ellen seems to answer an accusation that nobody in the room has made.",
+        "The short closing sentences break the slow rhythm of the passage. They sound like self-justification, as if Ellen needs to convince herself, or us, that the sale is fair."
+      ],
+      "explanation": "Засчитывается, если назван приём (короткие фразы после длинных, в самом конце) и эффект, который можно проверить по тексту: оправдание, спор с невысказанным упрёком. Просто «это красиво» или «так проще» — не эффект.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В M1 Эллен сдвигает карточку с ценой так, чтобы она закрыла царапину от обручального кольца отца. Напиши 2–3 предложения: два разных чтения этого действия, у каждого — своя опора в тексте.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: оговорка у вывода",
+        "body": "Вспоминаем урок об оговорках: действие из текста говори прямо, его объяснение — с may или might. Второе чтение вводи через alternatively или another possibility is.",
+        "example": "She keeps the radio on all night. She may be afraid of the silence; alternatively, she may want the neighbors to think someone is awake.",
+        "translation": "Она не выключает радио всю ночь. Возможно, она боится тишины; а может быть, хочет, чтобы соседи думали, что кто-то не спит."
+      },
+      "hint": "Одно чтение связано с покупателем, который придёт в полдень. Другое — с тем, чьё кольцо оставило след.",
+      "answers": [
+        "Ellen moves the card so that it covers the scratch. She may be hiding a flaw from the buyer, who is coming at noon. Alternatively, she may not want to see her father's mark herself, since it was made with his wedding ring.",
+        "One reading is practical: she covers a defect before the sale. Another is emotional: the scratch is a trace of their father, and hiding it might help her go through with selling the piano."
+      ],
+      "explanation": "Засчитывается, если два чтения различаются и у каждого есть опора (покупатель в полдень; кольцо отца). Само действие говорится прямо, а его объяснение — с may, might или One reading is…",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Участник клуба написал о M1: Ellen obviously hates her brother and wants to cheat the buyer. The scratch proves it. Перепиши в 2–3 предложения: оставь одно чтение, которое лучше держится на тексте, скажи, почему оно сильнее, и чего текст не сообщает.",
+      "context": "",
+      "guidance": {
+        "title": "Какое чтение сильнее",
+        "body": "Сильнее то чтение, которое объясняет больше деталей и требует меньше догадок. Слова вроде obviously и proves убери: текст не даёт такой уверенности. Закончи тем, чего отрывок не говорит.",
+        "example": "The jealousy reading is better supported than the revenge reading, because it also explains why he rereads her letters; the story never says what he plans to do.",
+        "translation": "Чтение про ревность держится лучше, чем чтение про месть: оно объясняет и то, почему он перечитывает её письма; что он собирается делать, рассказ не говорит."
+      },
+      "hint": "Есть ли в M1 хоть одно слово о ненависти? А признаки того, что Эллен неловко при брате?",
+      "answers": [
+        "Ellen's behavior suggests discomfort rather than hatred: she wipes clean keys, dodges her brother's question, and covers their father's scratch while he watches. This reading is better supported because it explains all three details. The passage does not tell us whether she means to deceive the buyer.",
+        "The text supports tension between Ellen and her brother more than hatred. Covering the scratch could hide a flaw, but it fits better with her wish not to face their father's memory in front of him. Whether she would mislead the buyer remains open."
+      ],
+      "explanation": "Засчитывается, если obviously и proves убраны, выбранное чтение опирается на 2–3 детали и названо, чего текст не сообщает (обманет ли она покупателя). Можно выбрать и чтение про покупателя, если оно так же опирается на детали.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши разбор M1 для листка книжного клуба, 220–300 слов. Что должно быть: кто рассказывает и что мы знаем только с её слов; одно место, где слова Эллен расходятся с деталью; один приём формы и его эффект; два чтения истории с царапиной и какое сильнее; чего отрывок не сообщает. Пиши в настоящем времени и не приписывай автору чувства Эллен.",
+      "context": "",
+      "hint": "Перед отправкой найди в своём тексте каждое the author: говоришь ли ты о выборе в тексте или о жизни писателя?",
+      "answers": [
+        "\"The Piano\" is told by Ellen, who is selling their father's piano while her brother looks on. Everything we learn passes through her, and she is not a neutral witness.\n\nHer account keeps colliding with what she does. She tells her brother she doesn't mind his early arrival, yet she wipes keys that are already clean. She admits that her answers to him are true only \"in the way that most things I tell my brother are true,\" a joke that quietly warns us not to trust her completely.\n\nThe form adds to this tension. After calm, fairly long paragraphs, the passage ends with two short sentences: \"It was a fair price. I had checked.\" They sound abrupt and defensive, as if Ellen were answering an accusation that no one in the room has made.\n\nThe central detail is the card she moves to cover the scratch from their father's wedding ring. One reading is practical: she hides a flaw before the buyer arrives at noon. Another is emotional: she cannot bear to see her father's mark, or to have her brother see it, while the piano is being sold. The second reading is better supported, because it also explains why her brother watches so closely and then sits down \"carefully, as if it might be sold out from under him.\"\n\nWhat the passage leaves open is whether the sale will go ahead, and what the brother thinks it should cost."
+      ],
+      "explanation": "Засчитывается, если есть все пункты списка, каждый вывод опирается на слово или действие из M1, разбор в настоящем времени, а чувства Эллен не приписаны автору. Можно считать сильнее и чтение про покупателя, если ты объяснишь, какие детали оно покрывает.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга не читала M1, но придёт на встречу клуба. Расскажи ей за 2–3 минуты. Что должно быть: кратко, что происходит в сцене (3–4 фразы); почему Эллен трудно верить полностью — одна деталь; как изменилась бы сцена, если бы её рассказывал брат: что мы узнали бы и что потеряли; какую версию ты выбрал бы для этой истории и почему. Запиши себя и проверь по записи, все ли пункты прозвучали.",
+      "context": "",
+      "hint": "Для части про брата спроси себя: чего он не знает о мыслях Эллен и что видит только он?",
+      "answers": [
+        "So the story is very short. Ellen is selling the piano that belonged to their father. Her brother comes over before the buyer arrives, earlier than expected. She says she doesn't mind, puts the price on a card, and while he watches, she slides the card over a scratch their father made with his wedding ring. Then they just sit there in silence, and she tells us the price was fair.\n\nThe thing is, it's hard to take her completely at her word. She keeps wiping keys that are already clean, and she even admits that what she tells her brother is only true in a certain way. So you start reading around what she says.\n\nNow imagine the same scene told by the brother. We'd lose Ellen's little jokes and her defensive tone, and we wouldn't know she feels she has to justify the price. But we'd gain his side: what he hears in those three notes, and whether he sees the card cover the scratch as a betrayal or as something he understands. We'd also find out what he thinks a fair price would be, which Ellen never asks.\n\nI'd still keep Ellen as the narrator. The story works because she can't quite say what she feels, so the details have to say it for her. If the brother told it, his feelings would probably be stated more directly, and the silence at the end would mean less."
+      ],
+      "explanation": "Засчитывается, если сцена пересказана без лишнего, названа одна деталь, из-за которой Эллен трудно верить, сказано, что дала бы и что отняла бы точка зрения брата, и есть выбор с причиной. Выбрать версию брата тоже можно. Оценивай по своей записи.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Новичок прислал для листка клуба абзац о M1. В нём пять проблем: прошедшее время в разборе, биография автора, «символ всего» без опоры, proves и единственное «правильное» чтение. Перепиши его в разбор на 150–200 слов. Абзац: In \"The Piano,\" the author showed her own greed, because she probably sold her father's piano in real life. Ellen was a liar from the first line. The scratch is a symbol of the whole family's destruction, and covering it proved that she wanted to cheat the buyer. The short sentences at the end were just a simple style. There was only one possible reading of the story.",
+      "context": "",
+      "hint": "Проверь каждую фразу черновика вопросом: на какое слово или действие в M1 она опирается?",
+      "answers": [
+        "In \"The Piano,\" Ellen narrates the morning she sells their father's piano, and her account is less steady than it first appears. She tells her brother she doesn't mind his early arrival, yet she wipes keys that are already clean. She also admits that what she tells him is true only in a limited way, which invites us to read around her words rather than call her a liar.\n\nThe key detail is the card she moves over the scratch from their father's wedding ring. It may hide a flaw from the buyer; alternatively, it may hide a painful reminder from Ellen and her brother. The second reading explains more, including the brother's careful way of sitting down, but the text does not tell us whether she would deceive the buyer.\n\nThe two short final sentences are not just simple style. After the calmer paragraphs, they sound defensive, as if Ellen were arguing with an accusation no one has spoken."
+      ],
+      "explanation": "Засчитывается, если разбор в настоящем времени, без биографии автора, «лжец» заменён на осторожный вывод с опорой, у царапины два чтения и выбор между ними, proves убрано, а короткие фразы объяснены через эффект. Объём — 150–200 слов.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "path-fronting",
+  "title": "От знакомого к новому: что поставить в начало фразы, а что в конец",
+  "subtitle": "Знакомое — в начало → новое и длинное — в конец → It is hard to say why… → The report I can promise → Here comes the bus",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Строить фразы так, чтобы текст читался легко: каждая начинается с того, что читатель уже знает, а новое и длинное стоит в конце. «Трудно сказать, почему упал сервер», «Отчёт я могу обещать, а слайды — нет».",
+  "formula": "known → new · That nobody checked was strange. → It was strange that nobody checked. · I can promise the report. → The report I can promise.",
+  "guided": true,
+  "keyRule": {
+    "rule": "Начинай фразу с того, что читатель уже знает, а новое и длинное ставь в конец.",
+    "example": "It's hard to say why the server crashed — трудно сказать, почему упал сервер.",
+    "check": "Перед глаголом стоит длинная часть? Перенеси её в конец, а на её место поставь It."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-clefts",
+    "path-inversion",
+    "path-passive-basic"
+  ],
+  "recycles": [
+    "path-passive-basic",
+    "path-inversion"
+  ],
+  "teaches": [
+    "знакомое — в начале фразы, новое и главное — в конце; конец запоминается лучше всего",
+    "место или время в начало, чтобы связать фразу с предыдущей: On the second floor, the inspector found…",
+    "длинная часть с that, to, why, whether — в конец, вместо неё It: It's surprising that…, It's hard to say why…",
+    "пассив, чтобы оставить знакомое в начале: It was built in 1920 by a local carpenter",
+    "вынести предмет вперёд для противопоставления: The report I can promise; the slides I can't — порядок после него обычный",
+    "место впереди, глагол перед героем: Here comes the bus, At the end of the hall stood a guard; с местоимением — Here it comes"
+  ],
+  "sources": [
+    {
+      "title": "Duke University Writing Studio · Revising for Style: Cohesion and Coherence",
+      "url": "https://wrp.duke.edu/sites/twp.duke.edu/files/documents/updated-Cohesion-and-Coherence-Handout-Feb2023.pdf",
+      "notes": "Сверено: начало фразы — о чём она (знакомое), конец — что она сообщает (новое, сложное, техническое); не начинать с нового и не заканчивать старым; читатель лучше всего помнит конец фразы, потом начало, хуже всего середину."
+    },
+    {
+      "title": "Wikipedia · Topicalization",
+      "url": "https://en.wikipedia.org/wiki/Topicalization",
+      "notes": "Сверено: в английском часто выносят вперёд обстоятельства (For entertainment, …), а вынесенный предмет встречается реже и звучит естественно с this/that (That pizza, I won't eat)."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Конец одной фразы — начало следующей",
+    "why": "Читатель держит в голове то, что прочитал последним. Если следующая фраза начинается с этого, ему не нужно искать связь.",
+    "items": [
+      {
+        "label": "Новое в конце",
+        "en": "On Monday, we visited the old warehouse.",
+        "ru": "В понедельник мы осмотрели старый склад.",
+        "note": "Склад — новость, он в конце."
+      },
+      {
+        "label": "Знакомое в начале",
+        "en": "On the second floor, the inspector found water damage.",
+        "ru": "На втором этаже инспектор нашёл следы протечки.",
+        "note": "Второй этаж — часть склада, опора. Протечка — новость."
+      },
+      {
+        "label": "Длинное в конце",
+        "en": "It's still unclear how the water got in.",
+        "ru": "Пока неясно, как туда попала вода.",
+        "note": "Длинная часть ушла в конец, на её месте It."
+      }
+    ],
+    "footnote": "Это совет читателю, а не закон грамматики: первую фразу текста начинают просто с темы.",
+    "focus": [
+      "On the second floor",
+      "water damage",
+      "It's still unclear"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему важен порядок, если слова те же",
+      "body": "По-русски порядок свободный, и новое само уходит в конец: «В конце коридора стоял охранник». В английском порядок строже: «кто — что делает — что». Но и в нём есть выбор, и читатель ждёт определённого.\n\nНачало фразы — опора: то, что читатель уже знает из прошлой фразы. Конец — новое и главное. Конец запоминается лучше всего, середина — хуже всего.\n\nСравни. We visited the old warehouse on Monday. Water damage was found by the inspector on the second floor. Вторая фраза начинается с новости — протечки, и читатель на секунду теряется. Лучше: On the second floor, the inspector found water damage. Второй этаж — часть уже названного склада, а протечка — в конце, где её заметят.\n\nГде совет не работает: в первой фразе текста знакомого ещё нет — начинай просто с темы. И это не ошибка грамматики, а удобство для читателя."
+    },
+    {
+      "title": "Длинное — в конец: It is … that / to / why",
+      "body": "Длинная часть перед глаголом заставляет читателя долго ждать: That nobody had checked the numbers was surprising. Английский переносит её в конец, а на её место ставит пустое It: It was surprising that nobody had checked the numbers — «Удивительно, что никто не проверил цифры».\n\nТак же с to, why, how, whether (ли):\nTo finish by Friday is impossible → It's impossible to finish by Friday.\nWhy the server crashed is unclear → It's unclear why the server crashed.\n\nПо-русски «это» здесь не говорят: «Удивительно, что…». По-английски It обязательно. Ошибки: Is unclear why…, This is surprising that…\n\nКороткие части остаются на месте: The plan is clear. Переносить стоит то, что длиннее нескольких слов."
+    },
+    {
+      "title": "Как удержать знакомое в начале: место, время, пассив",
+      "body": "Место или время в начале связывают фразу с предыдущей: In 2019, …, On the second floor, …, After the meeting, … После них порядок обычный, обычно с запятой.\n\nПассив тоже помогает. We bought an old house in Vermont. A local carpenter built it in 1920. Вторая фраза начинается с плотника — он новый. С пассивом знакомый дом остаётся в начале: It was built in 1920 by a local carpenter. Плотник — новость, он в конце после by.\n\nСовсем новую вещь вводят через there is — ты знаешь это с первых уроков: There's a small park behind the building."
+    },
+    {
+      "title": "Вынести вперёд для противопоставления: The report I can promise",
+      "body": "Иногда вперёд выносят то, что обычно стоит после глагола, — чтобы противопоставить две вещи. Начальник спрашивает, успеешь ли ты отчёт и слайды к пятнице: The report I can promise; the slides I can't — «Отчёт я могу обещать, а слайды — нет».\n\nПосле вынесенного слова порядок обычный: I can, без do и без перестановки. Это не то же, что Never have I…: перестановка нужна только после «никогда», «редко», «только тогда».\n\nВ разговоре американцы часто так отвечают коротко: That I can do. That I don't know. Без противопоставления и без this/that такой порядок звучит странно: A pizza I won't eat — так не говорят."
+    },
+    {
+      "title": "Место впереди, глагол перед героем: Here comes the bus",
+      "body": "Ещё один способ поставить новое в конец — начать с места, а глагол поставить перед героем:\nHere comes the bus! — «А вот и автобус!»\nThere goes my weekend — «Прощайте, выходные» (шутливо).\nAt the end of the hall stood a security guard — «В конце коридора стоял охранник».\nNext to the pharmacy is a small park.\n\nТак говорят с глаголами места и движения: be, stand, sit, lie, hang, come, go. Первые две фразы — обычный разговор, последние — описание и рассказ.\n\nГде правило не работает: если герой — местоимение, перестановки нет. Here it comes, а не Here comes it. There she is, а не There is she."
+    }
+  ],
+  "examples": [
+    {
+      "en": "We visited the old warehouse. On the second floor, the inspector found water damage.",
+      "ru": "Мы осмотрели старый склад. На втором этаже инспектор нашёл следы протечки.",
+      "why": "Вторая фраза начинается с части уже названного склада, новость — в конце."
+    },
+    {
+      "en": "It was surprising that nobody had checked the numbers.",
+      "ru": "Удивительно, что никто не проверил цифры.",
+      "why": "Длинная часть с that ушла в конец, на её месте It."
+    },
+    {
+      "en": "It's hard to say why the server crashed.",
+      "ru": "Трудно сказать, почему упал сервер.",
+      "why": "Сначала короткая оценка, потом длинное «что именно»."
+    },
+    {
+      "en": "We bought an old house. It was built in 1920 by a local carpenter.",
+      "ru": "Мы купили старый дом. Его построил местный плотник в 1920 году.",
+      "why": "Пассив оставляет знакомый дом в начале, плотник — новость в конце."
+    },
+    {
+      "en": "The report I can promise; the slides I can't.",
+      "ru": "Отчёт я могу обещать, а слайды — нет.",
+      "why": "Две вещи противопоставлены. После вынесенного слова — обычный порядок I can."
+    },
+    {
+      "en": "Here comes the bus!",
+      "ru": "А вот и автобус!",
+      "why": "Место впереди, глагол перед героем. С местоимением: Here it comes."
+    },
+    {
+      "en": "At the end of the hall stood a security guard.",
+      "ru": "В конце коридора стоял охранник.",
+      "why": "Так пишут в рассказе: охранник — новость, он в самом конце."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отчёт после осмотра склада. Перепиши вторую фразу так, чтобы она начиналась с того, что читатель уже знает: We visited the old warehouse on Monday. Water damage was found by the inspector on the second floor.",
+      "context": "water damage — следы протечки, inspector — инспектор.",
+      "guidance": {
+        "title": "Начни с того, что уже знакомо",
+        "body": "Второй этаж — часть склада, о котором уже сказано: это опора. Протечка — новость, ей место в конце. Место можно поставить в начало, дальше обычный порядок «кто — что делает — что».",
+        "example": "We moved into the house in May. In the basement, we found a box of old letters.",
+        "translation": "Мы переехали в дом в мае. В подвале мы нашли коробку старых писем."
+      },
+      "hint": "Начни так: On the second floor, …",
+      "answers": [
+        "We visited the old warehouse on Monday. On the second floor, the inspector found water damage.",
+        "We visited the old warehouse on Monday. On the second floor, the inspector found some water damage.",
+        "We visited the old warehouse on Monday. On the second floor, the inspector discovered water damage.",
+        "We visited the old warehouse on Monday. On the second floor, the inspector found signs of water damage.",
+        "On the second floor, the inspector found water damage."
+      ],
+      "explanation": "On the second floor связывает фразу со складом, а water damage стоит в конце, где читатель замечает новость. Можно переписать и только вторую фразу."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В отчёте нашли ошибку. Напиши в рабочий чат: «Удивительно, что никто не проверил цифры перед публикацией». publish — опубликовать, publication — публикация.",
+      "context": "",
+      "guidance": {
+        "title": "It держит место для длинной части",
+        "body": "Длинную часть с that не ставят перед глаголом. На её место встаёт пустое It, а сама часть уходит в конец. По-русски «это» здесь не нужно, а по-английски It обязательно.",
+        "example": "It's strange that the store closed without any notice.",
+        "translation": "Странно, что магазин закрылся без предупреждения."
+      },
+      "hint": "Начни так: It's surprising that …",
+      "answers": [
+        "It's surprising that nobody checked the numbers before publication.",
+        "It's surprising that nobody checked the numbers before publishing them.",
+        "It's surprising that no one checked the numbers before publication.",
+        "It's surprising that no one checked the numbers before publishing them.",
+        "It is surprising that nobody checked the numbers before the report was published.",
+        "It's surprising that nobody had checked the numbers before publication.",
+        "It's surprising nobody checked the numbers before publication."
+      ],
+      "explanation": "It's surprising — короткая оценка, что именно удивительно — в конце. That можно пропустить. Had checked тоже верно: проверки не было до публикации."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь соседям о доме, который вы купили. Перепиши вторую фразу так, чтобы она начиналась с дома: We bought an old house in Vermont. A local carpenter built it in 1920.",
+      "context": "carpenter — плотник.",
+      "guidance": {
+        "title": "Вспоминаем пассив: знакомое остаётся в начале",
+        "body": "Вспоминаем пассив: be + третья форма, исполнитель — после by, когда он новость. Здесь дом уже знаком, а плотник — новость, поэтому пассив ставит его в конец.",
+        "example": "Our town has a famous bridge. It was designed by a 22-year-old student.",
+        "translation": "В нашем городе есть знаменитый мост. Его спроектировал 22-летний студент."
+      },
+      "hint": "Начни так: It was built …",
+      "answers": [
+        "It was built in 1920 by a local carpenter.",
+        "It was built by a local carpenter in 1920.",
+        "We bought an old house in Vermont. It was built in 1920 by a local carpenter.",
+        "We bought an old house in Vermont. It was built by a local carpenter in 1920.",
+        "The house was built in 1920 by a local carpenter."
+      ],
+      "explanation": "It was built — дом в начале, плотник после by — в конце. Год можно поставить до или после by a local carpenter."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Начальник спрашивает, успеешь ли ты к пятнице отчёт и слайды. Ответь: «Отчёт я могу обещать, а слайды — нет». slides — слайды.",
+      "context": "",
+      "guidance": {
+        "title": "Вынеси вперёд, чтобы противопоставить",
+        "body": "Когда сравниваешь две вещи, их можно поставить в начало: The report…, the slides… После них порядок обычный — I can, без do и без перестановки.",
+        "example": "The first chapter I liked; the ending I didn't.",
+        "translation": "Первая глава мне понравилась, а конец — нет."
+      },
+      "hint": "Начни так: The report I can promise …",
+      "answers": [
+        "The report I can promise; the slides I can't.",
+        "The report I can promise, but the slides I can't.",
+        "The report I can promise, but not the slides.",
+        "The report I can promise. The slides I can't.",
+        "The report I can promise; the slides, no.",
+        "I can promise the report, but not the slides."
+      ],
+      "explanation": "The report I can promise — вынесенный отчёт противопоставлен слайдам, порядок I can обычный. Простое I can promise the report, but not the slides тоже верно, но без такого сильного противопоставления."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи две фразы. Первая — ты говоришь другу на остановке: «А вот и автобус!» Вторая — из рассказа: «В конце коридора стоял охранник». hall — коридор, security guard — охранник.",
+      "context": "",
+      "guidance": {
+        "title": "Место впереди — глагол перед героем",
+        "body": "Начни с места (here, at the end of the hall), потом глагол, а герой — в самом конце, как новость. Так говорят с come, go, be, stand, sit.",
+        "example": "Here comes the waiter. On the table sat a huge cake.",
+        "translation": "А вот и официант. На столе стоял огромный торт."
+      },
+      "hint": "Где в обеих фразах стоят the bus и a security guard — в начале или в конце?",
+      "answers": [
+        "Here comes the bus! At the end of the hall stood a security guard.",
+        "Here comes the bus! At the end of the hallway stood a security guard.",
+        "Here comes the bus! At the end of the hall stood a guard.",
+        "Here comes the bus! At the end of the hallway stood a guard.",
+        "Here's the bus! At the end of the hall stood a security guard."
+      ],
+      "explanation": "Here comes the bus и At the end of the hall stood a guard: место впереди, глагол, герой в конце. Here's the bus тоже естественно. С местоимением порядок другой: Here it comes."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В письме коллеги три ошибки в порядке слов. Исправь их и перепиши текст целиком: That part do I understand, but the budget I don't. Is unclear why the meeting was canceled. Oh, and here comes it — the new schedule.",
+      "context": "budget — бюджет, schedule — расписание.",
+      "guidance": {
+        "title": "Вспоминаем Never have I: где перестановка, а где нет",
+        "body": "Вспоминаем урок о перестановке: она нужна только после «никогда», «редко», «только тогда». После вынесенного предмета порядок обычный. Пустое It нельзя пропустить, а местоимение не уходит в конец после here.",
+        "example": "That I can fix. It's not clear who sent it. There it is!",
+        "translation": "Это я могу исправить. Неясно, кто это прислал. Вот оно!"
+      },
+      "hint": "Проверь каждую фразу: нужен ли do? Чего не хватает перед is? Где должно стоять it?",
+      "answers": [
+        "That part I understand, but the budget I don't. It is unclear why the meeting was canceled. Oh, and here it comes — the new schedule.",
+        "That part I understand, but the budget I don't. It's unclear why the meeting was canceled. Oh, and here it comes — the new schedule.",
+        "That part I understand, but not the budget. It's unclear why the meeting was canceled. Oh, and here it comes — the new schedule."
+      ],
+      "explanation": "That part I understand — после вынесенного предмета без do. It's unclear why… — пустое It обязательно. Here it comes — с местоимением глагол не переходит вперёд."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь заметку для сайта библиотеки. Перепиши вторую и третью фразы так, чтобы каждая начиналась с уже знакомого, а новое стояло в конце: Our library opened a new reading room in May. Two hundred people from the neighborhood visited the room in its first week. A small donation from a local bookstore paid for the room's furniture.",
+      "context": "reading room — читальный зал, donation — пожертвование, furniture — мебель.",
+      "guidance": {
+        "title": "Собери абзац цепочкой",
+        "body": "Конец одной фразы подсказывает начало следующей. Читальный зал назван в первой фразе — начни с него вторую. Новое — посетители, пожертвование — перенеси в конец, где поможет время в начале или пассив.",
+        "example": "The city opened a new park in June. In its first month, the park had more than 5,000 visitors.",
+        "translation": "Город открыл новый парк в июне. За первый месяц в парке побывало больше 5000 человек."
+      },
+      "hint": "С чего начать вторую фразу — с In its first week или с The room? А третью — с The furniture?",
+      "answers": [
+        "Our library opened a new reading room in May. In its first week, the room was visited by two hundred people from the neighborhood. The furniture was paid for by a small donation from a local bookstore.",
+        "Our library opened a new reading room in May. In its first week, the room had two hundred visitors from the neighborhood. Its furniture was paid for by a small donation from a local bookstore.",
+        "Our library opened a new reading room in May. The room was visited by two hundred people from the neighborhood in its first week. Its furniture was paid for by a small donation from a local bookstore."
+      ],
+      "explanation": "Вторая фраза начинается с зала или его первой недели, третья — с мебели этого зала. Новое — двести человек и пожертвование магазина — стоит в конце. Пассив (was visited by, was paid for by) или had visitors одинаково верны."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "В твоём доме протёк потолок над квартирой 3B. Напиши жильцам письмо-обновление на 150–250 слов от имени домового совета. В письме: что случилось и что уже сделано; каждая фраза и каждый абзац начинаются со знакомого, новое — в конце; хотя бы одна фраза с It is … that/to/why; одно противопоставление с вынесенным вперёд словом (например, The ceiling we can fix this week; the floor will take longer); пассив там, где неважно, кто сделал; что жильцам делать дальше.",
+      "context": "leak — протечка, ceiling — потолок, pipe — труба, plumber — сантехник.",
+      "hint": "Перечитай каждую фразу: её начало связано с концом предыдущей?",
+      "answers": [
+        "Dear neighbors,\n\nLast Thursday, water started coming through the ceiling of apartment 3B. The leak was traced to an old pipe in apartment 4B, directly above. On Friday morning, a plumber replaced the pipe, and the water was shut off for about three hours.\n\nThe damage in 3B is worse than we first thought. The ceiling we can fix this week; the floor will take longer, because the wood needs to dry completely before it can be replaced. It's hard to say exactly how long that will take, but the contractor expects about two weeks.\n\nThis was not the first leak in our building. Similar pipes were installed on every floor in the 1970s, and it is likely that some of them are close to failing. For that reason, the board has asked a plumber to inspect all the pipes on the B side of the building next month.\n\nThe inspection will take about thirty minutes per apartment. A sign-up sheet has been posted in the lobby. Please choose a time by May 20, or call me at (312) 555-0119 if none of the times work for you.\n\nThank you for your patience,\nLaura Kim\nBuilding Board"
+      ],
+      "explanation": "Засчитывается, если каждая фраза связана с предыдущей через знакомое начало, новые факты стоят в конце, есть хотя бы одна фраза с It is … that/to/why, одно противопоставление с вынесенным словом без do, пассив там, где исполнитель неважен, и понятный следующий шаг для жильцов."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг впервые едет к тебе в гости. Объясни вслух за 2–3 минуты, как дойти от станции метро или остановки до твоей двери и что есть рядом. В рассказе: каждый шаг начинается с того места, где друг только что оказался; две фразы, где место впереди, а глагол перед предметом (Next to the pharmacy is…, Across the street is…); одна фраза с Here или There (There it is / Here's…); одна фраза It's easy to… или It's hard to miss…; что есть рядом полезного.",
+      "context": "Сначала скажи без записи, потом прослушай себя: каждый новый ориентир звучит в конце фразы, а следующая фраза начинается с него.",
+      "hint": "Начни так: When you come out of the station, you'll see …",
+      "answers": [
+        "Okay, so here's how to get to my place. Take the Blue Line to Damen. When you come out of the station, you'll see a big Walgreens right in front of you. It's a pharmacy that's open twenty-four hours, so it's good to know about. Turn left at the Walgreens and walk down Milwaukee Avenue for about two blocks. On the second block, you'll pass a coffee shop with a red door. That coffee shop is actually my favorite place in the neighborhood, so we can go there on Saturday. Right after the coffee shop is a small street called Wood Street. Turn right onto Wood. If you get to a big gas station, you've gone too far, so just come back one block. Halfway down the street is a little park with a playground. Across from the park is my building. It's a brown brick building with a green awning, and it's hard to miss because it's the only one with a green awning on the whole street. The front door is locked, so text me when you're outside, and I'll come down. If you see a guy waving from the third-floor window, that's me. Oh, and next to my building is a great taco place, so if you're hungry when you arrive, that's the first thing we'll do. It's easy to find from here even at night, because the whole street is well lit."
+      ],
+      "explanation": "Засчитывается, если маршрут идёт цепочкой — каждый шаг начинается с последнего ориентира, — есть две фразы с местом впереди и глаголом перед предметом (Across from the park is my building), фраза с here/there, фраза с It's easy to… или It's hard to miss… и сказано, что есть рядом."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Это абзац из отчёта коллеги для руководителя. Все факты верны, но читается тяжело: новое стоит в начале, а длинные части — перед глаголом. Перепиши абзац для руководителя, не меняя фактов: Several complaints from customers about slow delivery in the Denver area were received in April. That the new warehouse had not hired enough drivers before it opened was the main reason. A plan to hire twelve more drivers by June has been approved by the regional manager. Whether this will be enough to fix the problem is still unclear.",
+      "context": "warehouse — склад, regional manager — региональный менеджер.",
+      "hint": "Найди две длинные части перед is/was (с That и с Whether) — им место в конце.",
+      "answers": [
+        "In April, we received several complaints from customers in the Denver area about slow delivery. The main reason was that the new warehouse had not hired enough drivers before it opened. To fix this, the regional manager has approved a plan to hire twelve more drivers by June. It is still unclear whether this will be enough to solve the problem.",
+        "In April, customers in the Denver area sent us several complaints about slow delivery. The main reason was that the new warehouse hadn't hired enough drivers before it opened. The regional manager has now approved a plan to hire twelve more drivers by June. It's still unclear whether that will be enough to fix the problem."
+      ],
+      "explanation": "Засчитывается, если длинные части с that и whether перенесены в конец (The main reason was that…, It is still unclear whether…), фразы связаны цепочкой — жалобы → причина → план → неизвестное — и ни один факт не потерян и не изменён."
+    }
+  ]
+}

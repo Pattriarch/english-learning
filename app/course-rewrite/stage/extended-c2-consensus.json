@@ -1,0 +1,334 @@
+{
+  "id": "extended-c2-consensus",
+  "title": "Вернуть разговор к сути: доступ в мастерскую и условное согласие",
+  "subtitle": "Нужда за вариантом → слово задело: как прозвучало и что имели в виду → новое правило — как факт → поддержка ровно в том объёме, в каком её дали → кто решает → итог для совета",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "keyRule": {
+    "rule": "Записывай поддержку ровно такой, какой её дали: на что, при каком условии, с какой оговоркой.",
+    "example": "Noah supports a two-week test, not a permanent change. — Ноа поддерживает двухнедельную пробу, а не постоянное изменение.",
+    "check": "Узнает ли человек свою поддержку в твоём итоге — вместе с её условием и оговоркой?"
+  },
+  "goal": "Провести онлайн-обсуждение в три этапа и написать итог для совета, которого там не было: «Я понимаю, почему это слово прозвучало как обвинение», «После 17:00 войти можно только по списку — это правило, а не пожелание», «Лейла поддерживает ограниченную пробу, но не считает доступ справедливым», «Утвердить пилот может только совет».",
+  "formula": "If I understand you correctly, you need… Is that fair? · I can see why \"…\" sounded like… · Could you say what you meant by…? · The new rule means that…; this part stays, this part changes · X supports…, provided that… · This should not be read as… · The forum recommends that the board approve… · Approval remains with the board.",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "extended-c1-facilitation",
+    "extended-b2-negotiate",
+    "path-reporting-verbs",
+    "path-debate-synthesis"
+  ],
+  "recycles": [
+    "extended-c1-facilitation",
+    "path-reporting-verbs",
+    "path-subjunctive-formal"
+  ],
+  "teaches": [
+    "восстановить смысл задевшего слова: что сказано → как поняли → что имели в виду; I can see why \"…\" sounded like… — признать, как прозвучало, не решая за автора",
+    "конкретный вопрос о смысле: Could you say what you meant by…? — the people, or the procedure?",
+    "записать восстановление честно: clarified, said she wasn't…, appreciated — а не apologized, admitted, the issue is closed",
+    "новое правило (constraint) — как факт, без perhaps; предпочтение — как предпочтение; сказать, какая часть плана меняется, а какая остаётся",
+    "объём поддержки и оговорка: X supports a limited test, provided that…; This should not be read as agreement that…",
+    "уровни поддержки: support · support with a reservation (оговорка) · не возражает, но не участвует",
+    "полномочия: recommend (форум) ≠ approve / authorize (совет); Approval remains with…; can draft ≠ has confirmed",
+    "свои предложения модератора помечены: I suggest…, а не «группа решила»",
+    "слова: workstation, walk-in, booking, slot, attendance list, caretaker, board, pilot, reservation (здесь — оговорка)"
+  ],
+  "sources": [
+    {
+      "title": "Beyond Intractability · Interests, Positions, Needs, and Values",
+      "url": "https://www.beyondintractability.org/essay/interests",
+      "notes": "Сверено: позиция — заявленное требование, интерес — причина за ним (вопрос «зачем?»); позиции сталкиваются, интересы часто совместимы; но не всякий интерес совместим, а глубинные потребности и ценности не торгуются — не надо обещать решение, которое устроит всех."
+    },
+    {
+      "title": "Seeds for Change · Consensus Decision Making",
+      "url": "https://www.seedsforchange.org.uk/consensus",
+      "notes": "Сверено: уровни согласия — полная поддержка, поддержка с оговорками, «не мешаю, но не участвую», блок; перед итогом спросить об оговорках; молчание не считать согласием; итог объявлять прямо, с тем, принято ли решение и кто что делает."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового после урока о ведении встречи",
+      "body": "Представь: ты модерируешь онлайн-форум общественной мастерской. Шесть рабочих мест, по субботам все разобраны онлайн за несколько дней. Одни хотят приходить без записи, другие — бронировать заранее. Совет мастерской ждёт от форума рекомендацию.\n\nЧто ты уже умеешь. Отделять вариант от нужды за ним — из урока о переговорах. Пересказывать цель человека с проверкой, писать нейтральными глаголами и вести протокол с provided that — из урока о ведении встречи. Здесь это нужно с первой минуты, но заново не объясняется.\n\nНовое — три вещи. Первая: одно слово задело человека, и смысл надо восстановить, никого не обвиняя. Вторая: поддержка бывает узкой — на пробу, а не на всё решение, — и её надо записать ровно в таком объёме. Третья: форум только рекомендует, а утверждает совет; это видно в каждом глаголе итога.\n\nМатериалы идут этапами: M1–M2, потом M3, потом M4. Не открывай следующий этап раньше задания."
+    },
+    {
+      "title": "Слово задело: что сказано, как поняли, что имели в виду",
+      "body": "Представь другую встречу. Ана говорит: Some volunteers just don't bother to answer emails. Радж слышит: «ты ленивый». Это три разных уровня: слова, которые прозвучали; как их понял слушатель; что хотел сказать автор. Ни один не доказывает другой.\n\nПервый шаг — признать, как прозвучало, не решая за автора: I can see why \"don't bother\" sounded like criticism of you. — «Понимаю, почему don't bother прозвучало как упрёк тебе». Это не согласие с упрёком и не извинение за Ану.\n\nВторой шаг — конкретный вопрос о смысле, с вариантами: Ana, could you say what you meant: particular people, or how we send the emails? Общее What do you mean? хуже: человеку трудно ответить точно.\n\nЧего не говорить: You misunderstood — вина на слушателе. No offense was intended — ты закрываешь вопрос за автора. И не пиши потом в итоге apologized или admitted, если человек только уточнил: глагол пересказа должен совпадать с тем, что было сказано."
+    },
+    {
+      "title": "Новое правило: факт, а не пожелание",
+      "body": "Новость может не отменить нужды людей, но сделать один вариант невозможным. Скажи это в три шага: какое правило → что именно оно меняет → что остаётся как было.\n\nThe parks office's rule means that amplified music has to stop at 9:00 p.m. So the band has to finish by 9:00. The food stands can stay open until 10:00.\n\nПравило — это факт, говори его прямо, без perhaps и maybe: Perhaps the music should stop at nine звучит так, будто можно и не останавливать. А вот пожелание остаётся пожеланием: Tom would prefer… Не путай одно с другим: Tom needs… вместо Tom would prefer… делает пожелание обязательным.\n\nЕщё одно различие — «неизвестно» и «невозможно». We don't know if the rule could change next year ≠ The rule can't change. Говори то, что известно."
+    },
+    {
+      "title": "Объём поддержки и оговорка",
+      "body": "Поддержка бывает разной. Полная: I support this. С условием: I can support it, provided the schedule is posted a week ahead. С оговоркой (reservation — здесь не бронь, а «да, но с возражением»): I can support a two-week test, but please don't describe my support as agreement to keep attendance records.\n\nВ итоге запиши, на что именно дана поддержка — на пробу, а не на всё решение, — и рядом условие и оговорку: Noah supports a two-week test. His support should not be read as agreement to keep attendance records. — «его поддержку не следует понимать как…».\n\nОшибка — сжать всё до Everyone supports the plan. Ты получишь «да» на две недели и запишешь «да» навсегда.\n\nЕщё раз о молчании: если человек ничего не сказал про пробу, его поддержки в итоге нет. Есть только то, что он сказал: например, что может составить график, но не обещает людей."
+    },
+    {
+      "title": "Кто решает: recommend, approve, can draft",
+      "body": "Форум не решает. Recommend — рекомендовать, это может форум. Approve, authorize — утвердить, разрешить, это может только тот, у кого есть право: совет, директор. Русское «мы решили» легко превращается в We have decided, хотя группа лишь согласовала рекомендацию. Пиши: The group recommends that the director approve a summer trial (форма из урока об официальном «чтобы») и Approval remains with the director. — «утверждение остаётся за директором».\n\nТак же точно — с обещаниями людей. Tomas can draft a schedule — он это сказал. Tomas will staff every evening — этого он не обещал. Will be provided без того, кто это сделает, в английском звучит как обещание: если никто не взялся, пиши has not been confirmed.\n\nСвои предложения модератора помечай: I suggest that the board ask for an evaluation plan. Полезная мысль модератора не становится задним числом решением группы."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If I understand you correctly, Nina, you need a quiet place to study, not necessarily a separate room. Is that fair?",
+      "ru": "Если я правильно понимаю, Нина, тебе нужно тихое место для учёбы, не обязательно отдельная комната. Так?",
+      "why": "Пересказана нужда, а не вариант."
+    },
+    {
+      "en": "I can see why \"don't bother\" sounded like criticism of you.",
+      "ru": "Понимаю, почему don't bother прозвучало как упрёк тебе.",
+      "why": "Признано, как прозвучало, — без решения, что хотел автор."
+    },
+    {
+      "en": "Ana said she wasn't criticizing anyone in particular; she meant that our emails are easy to miss.",
+      "ru": "Ана сказала, что никого конкретно не упрекала: она имела в виду, что наши письма легко пропустить.",
+      "why": "Уточнение записано как уточнение, а не как извинение."
+    },
+    {
+      "en": "Amplified music has to stop at 9:00 p.m.",
+      "ru": "Музыка через усилители должна стихнуть в 21:00.",
+      "why": "Правило — факт, без perhaps."
+    },
+    {
+      "en": "Noah supports a two-week test. This should not be read as agreement to keep attendance records.",
+      "ru": "Ноа поддерживает двухнедельную пробу. Это не следует понимать как согласие на хранение записей о посещениях.",
+      "why": "Объём поддержки и оговорка записаны рядом."
+    },
+    {
+      "en": "Everyone supports the new system.",
+      "ru": "Все поддерживают новую систему.",
+      "why": "Обычно неверно: поддержку дают на пробу, с условием и оговоркой."
+    },
+    {
+      "en": "The group recommends that the director approve a summer trial. Approval remains with the director.",
+      "ru": "Группа рекомендует директору утвердить летнюю пробу. Утверждение остаётся за директором.",
+      "why": "Recommend и approve разведены по тем, у кого есть право."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "dialogue",
+      "title": "Форум, часть 1: исходное разногласие / Forum, part 1",
+      "source": "Авторский учебный материал; мастерская и люди вымышлены. Читай вместе с M2; M3 и M4 пока не открывай.",
+      "text": "Online forum, Harbor Street Community Workshop. Topic: Saturday access.\n\nMara, volunteer coordinator: We need to send the board a recommendation about Saturday access. Right now, all six workstations are booked online, usually days ahead. Volunteers say it's hard to explain to people who show up without a booking why they can't get in.\n\nLeila, access group representative: My concern is the person who finds out about the workshop on Saturday morning. A space that's supposed to be public can feel closed if every spot was taken online days earlier. Some people always manage to get a place. I want to know what makes it easy for them and hard for someone new.\n\nOwen, regular user: I get that. But I carry my repair projects across town on the bus. If I can't reserve a station, I could spend an hour getting there and then just turn around. Knowing I have a station tells me what's worth bringing.\n\nJules, board liaison: The board has asked us for a proposal for a four-Saturday pilot, with reasons. It hasn't asked us to prove that booking or walk-in access is better in general.\n\nMara: From the volunteer side, we need one procedure we can explain. I can't run six different exceptions while I'm also helping people use the tools.\n\nOwen: I could consider a mix. What I'd need is a real chance to reserve, not a booking option that almost never has anything open.\n\nLeila: And we should count the people who tried and didn't get in. A full room doesn't show that the space is accessible if we never hear from the people who gave up.\n\nJules: So the first job is to describe what each of us actually needs, and what's still undecided."
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Правила и роли / Facts for the forum",
+      "source": "Авторский учебный материал; справка вымышленная",
+      "text": "Harbor Street Community Workshop: facts for the forum\n\n- Six workstations. Saturday public session: 4:00 to 7:00 p.m.\n- Now: all stations are reserved online. No other arrangement has been approved.\n- The board must approve any pilot before it starts. The forum can only recommend.\n- Mara can estimate volunteer workload and write instructions. She cannot change building rules.\n- Leila speaks for an access group, not for every newcomer.\n- Owen speaks as a regular user. He has no say over how stations are given out.\n- Jules takes recommendations to the board. He cannot approve them.\n- You are the forum moderator. You have no decision-making power.\n- This forum cannot change workshop fees. Safety rules stay the same."
+    },
+    {
+      "id": "m3",
+      "kind": "dialogue",
+      "title": "Форум, часть 2: недоразумение и компромисс / Forum, part 2",
+      "source": "Авторский учебный материал. Открыть в задании e2; M4 пока не открывай.",
+      "text": "Part 2, two days later.\n\nOwen: I keep thinking about Leila's line, \"Some people always manage to get a place.\" It sounds like I'm being accused of gaming the system. I follow the published rules. I don't want my attendance treated as evidence against me.\n\nLeila: I wasn't saying you cheated or got favors. I meant that knowing the system well makes the same procedure easier to use. I can see that \"manage\" didn't make that clear. I still want us to look at the procedure.\n\nOwen: I appreciate that. What I need to know is whether the report will talk about barriers in the process or suggest that regular users are the problem. Those are two very different stories.\n\nMara: Here's a possible compromise. From 4:00 to 5:00, all six stations are walk-in. From 5:00 to 6:00 and from 6:00 to 7:00, they can be booked online. That's one pattern for volunteers to explain.\n\nLeila: I could support testing that, if the walk-in hour is clearly advertised and we record people who don't get a station.\n\nOwen: I could support it for now, too, assuming people with a 5:00 or 6:00 booking can just walk in when their slot starts.\n\nJules: For the record, this is a draft recommendation. Nobody has checked whether it works, and the board hasn't seen it."
+    },
+    {
+      "id": "m4",
+      "kind": "dialogue",
+      "title": "Форум, часть 3: новое правило / Forum, part 3",
+      "source": "Авторский учебный материал. Открыть в задании e4.",
+      "text": "Part 3, one week later.\n\nJules: The building manager has told us about a rule we didn't know. After 5:00 p.m. on Saturdays, the front door is locked. Only people on an attendance list can come in, and the list has to be sent by 3:00 p.m. on Friday. The caretaker can check names on the list but can't add anyone. This rule applies during the pilot.\n\nMara: That changes the booking part. The walk-in hour can stay, with sign-in at the door. But bookings for the 5:00 and 6:00 slots would have to close by Friday afternoon. If you're not on the list, you can't get in after 5:00.\n\nOwen: I can still support a trial with that deadline, provided it's shown clearly before anyone books. But we can't tell people that a late cancellation opens a spot for someone else on Saturday evening.\n\nLeila: There's another problem. Some people I represent get off work at 5:00. They can't use the walk-in hour. I can support a limited pilot, but only if the report says clearly that it gives them no walk-in option in the evening. Please don't describe my support as agreement that access is fair now.\n\nMara: I can write the instructions. I can't promise yet that volunteers will have time to record everyone who doesn't get a station.\n\nJules: I can take the revised proposal to the board. We don't know whether the building manager would change the rule after the pilot.\n\nOwen: So my support is for testing this, with accurate information, not for saying the access problem is solved.\n\nLeila: Agreed, on that basis."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай только M1 и M2. Ты модератор. Напиши в форум два-три предложения: перескажи, что нужно Лейле и что нужно Оуэну, так, чтобы каждый узнал себя, и закончи проверкой.",
+      "context": "walk-in — без записи, просто прийти; workstation, station — рабочее место.",
+      "guidance": {
+        "title": "Вспоминаем: пересказ нужды с проверкой",
+        "body": "Из уроков о переговорах и о ведении встречи: пересказывай не вариант («только бронь», «только без записи»), а то, зачем он человеку. Последняя фраза — вопрос, на который можно ответить «нет».",
+        "example": "If I understand you correctly, Sam, you need to finish before the last bus, not necessarily to start early. And Rita needs the room to stay quiet. Is that fair?",
+        "translation": "Если я правильно понимаю, Сэм, тебе нужно закончить до последнего автобуса, а не обязательно начать раньше. А Рите нужно, чтобы в комнате было тихо. Я верно передаю?"
+      },
+      "hint": "Начни так: If I understand you correctly, Leila, you want someone new to…",
+      "answers": [
+        "If I understand you correctly, Leila, you want someone who hears about the workshop on Saturday morning to have a real chance to get in. Owen, you need to know you'll have a station before you carry your project across town. Have I got that right?",
+        "Leila, it sounds like your concern is that newcomers can't get in when every station is booked days ahead. Owen, your concern is making the trip worthwhile: you need a real chance to reserve. Is that a fair summary of both of you?"
+      ],
+      "explanation": "Засчитывается, если у Лейлы — реальный шанс для новичка, у Оуэна — уверенность, что место будет, прежде чем ехать; ни одному не приписан мотив вроде wants control; в конце — проверка. Слова «Лейла против бронирования» — это уже вариант, а не нужда.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M3 и прочитай только первую реплику Оуэна. Ответь ему как модератор, две фразы: признай, как прозвучало слово manage, не решая за Лейлу, что она имела в виду; и задай Лейле конкретный вопрос о смысле.",
+      "context": "game the system — хитрить, обходить правила.",
+      "guidance": {
+        "title": "Слово задело: признай, как прозвучало",
+        "body": "I can see why \"…\" sounded like… признаёт впечатление слушателя и ничего не говорит о намерении автора. Вопрос автору делай с вариантами ответа — так ему проще сказать точно.",
+        "example": "I can see why \"careless\" felt personal. Tom, could you say which part of the report you meant: the numbers or the layout?",
+        "translation": "Понимаю, почему слово «небрежный» прозвучало как личный упрёк. Том, можешь сказать, какую часть отчёта ты имел в виду: цифры или оформление?"
+      },
+      "hint": "Начни так: Owen, I can see why \"manage\" sounded like…",
+      "answers": [
+        "Owen, I can see why \"manage\" sounded like an accusation, especially since you follow the published rules. Leila, could you say what you meant by it: the people who get places, or the procedure itself?",
+        "Owen, I understand why that line came across as questioning how you get a station. Leila, before we go on, could you tell us whether you were talking about regular users or about how the booking system works?"
+      ],
+      "explanation": "Засчитывается, если признано впечатление Оуэна (sounded like, came across as), нет решения за Лейлу (No offense was intended, She didn't mean it) и нет вины на Оуэне (You misunderstood), а вопрос Лейле конкретный — с выбором «люди или процедура».",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Теперь прочитай M3 до слов «two very different stories». Помощник модератора записал: Leila admitted she was unfair to regular users and apologized. Owen accepted the apology, so the issue is closed. Перепиши запись по M3 в две фразы.",
+      "context": "",
+      "guidance": {
+        "title": "Запиши, что сказано, — не больше",
+        "body": "Вспоминаем урок о глаголах пересказа: admitted — признал неприятное, apologized — извинился. Лейла не делала ни того, ни другого: она уточнила. Оуэн поблагодарил, но не закрыл вопрос — у него осталась просьба.",
+        "example": "Tom said he didn't mean the team was careless; he meant the numbers needed checking. Ana appreciated that but still wants the report to name the cause.",
+        "translation": "Том сказал, что не имел в виду небрежность команды: он имел в виду, что цифры нужно проверить. Ана это оценила, но всё ещё хочет, чтобы в отчёте была названа причина."
+      },
+      "hint": "Начни так: Leila said she wasn't accusing Owen of…",
+      "answers": [
+        "Leila said she wasn't accusing Owen of cheating or getting favors; she meant that knowing the system well makes the same procedure easier to use. Owen appreciated that clarification but still wants the report to describe barriers in the process, not regular users as the problem.",
+        "Leila clarified that her point was about the procedure: people who know the system well find it easier to use. Owen welcomed that, but his concern about how the report will describe regular users is still open."
+      ],
+      "explanation": "Засчитывается, если нет admitted, apologized, unfair и «вопрос закрыт», Лейла уточняет (said, clarified), а у Оуэна осталась просьба о том, как отчёт опишет постоянных посетителей. Лейла сама говорит I can see that \"manage\" didn't make that clear — это признание неясного слова, а не извинение.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M4. Напиши группе две-три фразы: какое новое правило, какую часть компромисса Мары из M3 оно меняет и что остаётся как было.",
+      "context": "attendance list — список посетителей; caretaker — сторож, смотритель здания; slot — отрезок времени по записи.",
+      "guidance": {
+        "title": "Правило — как факт; потом что меняется и что остаётся",
+        "body": "Правило говори прямо, без perhaps. Потом назови следствие для конкретной части плана и скажи, какая часть не меняется, — иначе люди решат, что рухнуло всё.",
+        "example": "The library closes at 8:00, so the evening session has to end by 7:45. The morning plan doesn't change.",
+        "translation": "Библиотека закрывается в восемь, поэтому вечернее занятие должно заканчиваться в 19:45. Утренний план не меняется."
+      },
+      "hint": "Начни так: The building manager's rule means that after 5:00 p.m.…",
+      "answers": [
+        "The building manager's rule means that after 5:00 p.m., only people on Friday's list can come in. So bookings for the 5:00 and 6:00 slots have to close by 3:00 p.m. on Friday, and a late cancellation can't go to someone else. The walk-in hour from 4:00 to 5:00 stays, with sign-in at the door.",
+        "After 5:00 on Saturdays, the door is locked and only people on the list sent by 3:00 p.m. Friday can get in; the caretaker can't add names. That changes the booking part of Mara's plan: online bookings must close on Friday. The walk-in hour itself doesn't change."
+      ],
+      "explanation": "Засчитывается, если правило сказано как факт (без perhaps, maybe), названо следствие — бронь закрывается в пятницу и освободившееся место нельзя отдать в субботу, — и сказано, что час без записи остаётся.",
+      "materialIds": [
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Для итога переведи фразы о поддержке Лейлы: «Лейла поддерживает ограниченную пробу. Её поддержку не следует понимать как согласие с тем, что доступ теперь справедлив: у тех, кто заканчивает работу в пять, вечером нет возможности прийти без записи».",
+      "context": "fair — справедливый; get off work — заканчивать работу.",
+      "guidance": {
+        "title": "Объём поддержки и оговорка — рядом",
+        "body": "Сначала — на что именно дана поддержка. Сразу за ней — оговорка: This should not be read as… — «это не следует понимать как…». Если оговорку отнести в конец документа, её не заметят.",
+        "example": "Elena supports longer hours. This should not be read as agreement to cut weekend staff.",
+        "translation": "Елена поддерживает продлённые часы. Это не следует понимать как согласие сократить сотрудников в выходные."
+      },
+      "hint": "Проверь начало второй фразы: Her support should not be read as…",
+      "answers": [
+        "Leila supports a limited pilot. Her support should not be read as agreement that access is now fair: people who get off work at 5:00 have no walk-in option in the evening.",
+        "Leila supports a limited trial. Her support should not be read as agreement that access is now fair, since people who finish work at five have no way to come in the evening without a booking.",
+        "Leila supports a limited pilot. Her support should not be taken as agreement that access is now fair: people who get off work at 5:00 can't come in the evening without a booking."
+      ],
+      "explanation": "Should not be read as и should not be taken as — оба естественны. Pilot и trial здесь синонимы. Оговорку можно присоединить через двоеточие, since или because; главное — что она стоит рядом с поддержкой.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи две фразы для итога: «Форум рекомендует, чтобы совет утвердил пилот на четыре субботы; утверждение остаётся за советом. Мара может подготовить инструкции, но не подтвердила, что у волонтёров будет время записывать всех, кто не получил место».",
+      "context": "four-Saturday pilot — пилот на четыре субботы.",
+      "guidance": {
+        "title": "Вспоминаем официальное «чтобы»: кто рекомендует, кто утверждает",
+        "body": "Из урока об официальном «чтобы»: recommend that + форма без -s — the board approve. Recommend — то, что может форум; approve — то, что может только совет. Can write ≠ will record: обещание пиши, только если человек его дал.",
+        "example": "The committee recommends that the city fund a second bus. The final decision remains with the mayor.",
+        "translation": "Комитет рекомендует, чтобы город оплатил второй автобус. Окончательное решение остаётся за мэром."
+      },
+      "hint": "Проверь форму: recommends that the board approve (без -s).",
+      "answers": [
+        "The forum recommends that the board approve a four-Saturday pilot; approval remains with the board. Mara can write the instructions, but she hasn't confirmed that volunteers will have time to record everyone who doesn't get a station.",
+        "The forum recommends that the board approve a pilot for four Saturdays; the approval remains with the board. Mara can prepare the instructions, but she has not confirmed that volunteers will have time to record everyone who doesn't get a place."
+      ],
+      "explanation": "Approve без -s после recommends that — американская официальная форма; should approve тоже понятно, но в США звучит реже. Hasn't confirmed передаёт «не подтвердила»; will record every… было бы обещанием, которого Мара не давала.",
+      "materialIds": [
+        "m2",
+        "m4"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши итог форума для совета мастерской, 200–300 слов, по M1–M4. Члены совета форум не читали. Что должно быть: что нужно каждой стороне — так, чтобы человек себя узнал; как восстановили смысл спорной фразы — нейтрально; пересмотренное предложение с точными условиями входа; поддержка Оуэна и Лейлы ровно в том объёме, в каком её дали, с условием и оговоркой; кто что уже может сделать и что не подтверждено; что неизвестно; рекомендация форума и что утверждает совет. Не добавляй сроков запуска, результатов или обещаний, которых никто не давал.",
+      "context": "",
+      "hint": "План: Subject → What each side needs → The disputed comment → Revised proposal → Support and its limits → Who can do what → Unknown → Recommendation.",
+      "answers": [
+        "To: Harbor Street Community Workshop Board\nSubject: Saturday access: conditional recommendation for a four-Saturday pilot\n\nThe forum identified different but related needs. Leila wants newcomers to have a realistic chance to get in on the day. Owen needs to know he will have a station before carrying a project across town. Mara needs one procedure volunteers can explain, and Jules needs a reasoned proposal for the board.\n\nOne comment, \"Some people always manage to get a place,\" sounded to Owen like an accusation. Leila said she meant that familiarity with the system makes it easier to use, not that anyone cheated. Owen appreciated that, and asked that this report describe barriers in the process rather than regular users. It does.\n\nRevised proposal: walk-in access at all six stations from 4:00 to 5:00 p.m., with sign-in at the door, then two bookable slots, 5:00 to 6:00 and 6:00 to 7:00. Because of the building rule, only people on the list sent by 3:00 p.m. Friday can enter after 5:00, so bookings must close by then and a late cancellation cannot go to someone else.\n\nOwen supports a trial, provided the deadline is clear before anyone books. Leila supports a limited pilot only if the report states that people who get off work at 5:00 have no evening walk-in option. Neither of them considers the access problem solved.\n\nMara can write the instructions but has not confirmed that volunteers can record everyone turned away. We don't know whether the building rule could change after the pilot.\n\nThe forum recommends that the board approve this four-Saturday pilot. Approval remains with the board. I suggest that the board also ask for a workable way to record unsuccessful visits."
+      ],
+      "explanation": "Засчитывается, если правило о списке и пятничный срок точны, нет apologized и admitted, поддержка Оуэна и Лейлы записана с условием и оговоркой, нет will record и will relax, «рекомендует» отделено от «утверждает», а последнее предложение модератора помечено как его (I suggest). Объём — ориентир: важнее, чтобы все условия были видны.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "После M4 скажи вслух реплику модератора для всей группы, 2–3 минуты, не читая с листа. Что должно быть: новое правило — как факт; какая часть плана меняется и какая остаётся; что это значит для Оуэна, для людей, о которых говорит Лейла, и для волонтёров; на что именно есть поддержка — с условиями и оговоркой; что ты предлагаешь сделать дальше — помеченным как твоё предложение; в конце — проверочный вопрос Лейле о её оговорке.",
+      "context": "",
+      "hint": "Опора: Jules has told us about a rule… → So this part changes… this part stays… → For Owen… For people who finish at 5:00… For volunteers… → What I'm hearing is support for… → I suggest… → Leila, have I got your condition right?",
+      "answers": [
+        "Thanks, everyone. Jules has told us about a rule we didn't know: after 5:00 p.m. on Saturdays, the front door is locked, and only people on the list sent by 3:00 p.m. Friday can come in. The caretaker can't add names. That's a fixed rule for the pilot, not something we can work around.\n\nSo here's what changes. Bookings for the 5:00 and 6:00 slots will have to close on Friday afternoon, and if someone cancels late, we can't give that place to someone else on Saturday evening. What stays the same is the walk-in hour from 4:00 to 5:00, with sign-in at the door.\n\nFor Owen, the plan can still work, provided the Friday deadline is shown clearly before anyone books. For the people Leila represents who get off work at 5:00, it offers no evening walk-in option at all, and we should say that plainly. For volunteers, Mara can write the instructions, but we don't yet know if there's time to record everyone who doesn't get a station.\n\nSo what I'm hearing is support for testing this arrangement for four Saturdays, with accurate information. I'm not hearing agreement that the access problem is solved.\n\nI suggest that Jules take this revised proposal to the board with those limits written in, and that we ask the board how unsuccessful visits should be recorded.\n\nLeila, have I got your condition right? Your support depends on the report saying clearly that there's no evening walk-in option for people who finish work at five?"
+      ],
+      "explanation": "Засчитывается по расшифровке, если правило звучит как факт, сказано, что меняется (бронь закрывается в пятницу, отмену нельзя передать) и что остаётся (час без записи), названы последствия для всех трёх групп, поддержка — на пробу, а не на решение проблемы, предложение помечено (I suggest), а в конце — конкретный вопрос Лейле, а не общее Does everyone agree?",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Участник форума сам отправил совету итог. Перепиши его по M1–M4 как точную записку для совета, 150–200 слов, а потом добавь две фразы: какие две правки самые важные и почему. Итог: \"The forum has settled the access dispute and approved the new Saturday system. Leila admitted that her criticism of regular users was unfair, and Owen accepted her apology. Everyone agrees that one walk-in hour makes access fair. The evening slots stay flexible: anyone can take a canceled place and sign in with the caretaker. Mara will record every unsuccessful visit, so the board only needs to announce the start date. The building manager will relax the rule after the pilot if attendance is high. Anyone who still complains should accept that the group has moved on.\"",
+      "context": "",
+      "hint": "Проверь каждую фразу по трём вопросам: кто это сказал? на что именно дал согласие? у кого есть право это решать?",
+      "answers": [
+        "The forum recommends a four-Saturday pilot for the board's consideration; it has not approved anything. The proposal keeps walk-in access from 4:00 to 5:00 p.m. and two bookable slots after that. After 5:00, only people on the list sent by 3:00 p.m. Friday can enter, and the caretaker can't add names, so a canceled place can't go to someone else.\n\nOwen supports a trial, provided the Friday deadline is clear before booking. Leila supports a limited pilot only if the report says that people who get off work at 5:00 have no evening walk-in option; she does not consider access fair.\n\nLeila clarified that her earlier comment was about the procedure, not about regular users cheating. Owen appreciated that; no apology was made.\n\nMara can write the instructions, but recording unsuccessful visits is not confirmed. We don't know whether the building rule could change.\n\nThe two most important corrections: the forum can only recommend, so \"approved\" had to go. And Leila's support has a clear reservation, so \"everyone agrees access is fair\" reverses her position."
+      ],
+      "explanation": "Засчитывается, если исправлены все семь искажений: решение (только рекомендация), извинение (было уточнение), «все согласны, что справедливо» (оговорка Лейлы), вечерние места (список и сторож), обещание Мары, «управляющий смягчит правило» (неизвестно) и последняя неуважительная фраза удалена. Две самые важные правки могут быть другими, если объяснение опирается на M2–M4.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    }
+  ]
+}

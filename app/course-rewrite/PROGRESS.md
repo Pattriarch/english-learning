@@ -60,3 +60,16 @@
 - Урок: сцена-иллюстрация с субтитрами (`course-guide.js`: `.course-visual-subtitle`), пример в каждом шаге оформлен как маленькая сцена, крупное задание и поле ответа.
 - «Программа»: уровни A1–C2 как «сезоны» со своим цветом. Есть светлая тема. Шрифт — Onest (уже в приложении); Manrope из макета не скачивался.
 - Тесты интерфейса зелёные; падают только 7 тестов маршрута, которые ждут B1–C2 и `path-question-tags`.
+
+## Октябрь 2026: дописываем курс до конца (ветка claude/mcp-mobin-design-update-4b1bb9)
+
+- Стиль объяснений: `course-rewrite/explanation-style.md` (простой «pass 1»; вариант с аналогиями отклонён). Каждый урок получает `keyRule` — карточку «Простое правило» (Go: `LessonKeyRule`, JS: `lesson-intro.js` `keyRuleHTML`).
+- Бриф волны: `course-rewrite/WAVE-2026-10.md` (не гонять линтер/тесты — просьба владельца; apply-скрипт сам проверяет и отказывает при ошибках).
+- Аудит покрытия: `course-rewrite/coverage-audit-2026-10-05.md`.
+- 6–8 октября применено: A1 1–12 (тексты + keyRule), 8 новых уроков A2 (could-able, dates-directions, suggestions-offers, vowels-russian, present-perfect-for-since, possessive-pronouns, quantifiers-basic, adjectives-ed-ing; цепочка prerequisites исправлена), весь B1 (30 уроков, из них 7 новых: question-tags, used-to-be-used-to, verb-patterns, so-such-intensifiers, advice-preference, purpose-contrast, false-friends).
+- Идёт: B2 (30 уроков, 2 новых: passive-reporting, articles-geography) — 8 авторов. Потом C1, C2.
+- Параллельно: «день» (day-session: вспомнить → урок → говорим → смотрим → пишем → итог дня) — агент пишет код; `content/lesson-clips.json` — 46 проверенных роликов VOA к A1–B1.
+- Дизайн: палитра «Ночь» в `studio/kadr.css` (чёрный, #1C1C1E, акцент #f2542c), телефон — обложка на весь экран; компьютер — после механики дня.
+- 8 октября: весь B2 применён (30 уроков, keyRule у 80 уроков). Механика дня и «Ночь» (телефон + компьютер) готовы. C1 пишется (36 уроков, новые: subjunctive-formal, vague-language) — 9 авторов. Следом C2 (31). Применять: `python scripts/apply_course_rewrites.py <stage files>` (скрипт сам отказывает при повторах фраз и «канцелярите»; «данные» в смысле data он ловит ложно — заменять на «цифры»).
+- 8 октября, вечер: **весь курс A1–C2 переписан и применён** — 189 уроков на маршруте (A1 25, A2 37, B1 30, B2 30, C1 36, C2 31), у всех `guided` и `keyRule`, ссылки prerequisites/recycles только назад, 1946 заданий. Новые уроки: A2 ×8, B1 ×7, B2 ×2, C1 ×2. Повторы A1–A2 (буквы/номера, заказ/оплата, начало звонка, -s/-ed, рассказ) убраны. Перед запуском сервера сверять `scratchpad/server_check.py` (копия правил validateLesson из `internal/studio/ai.go`: пункт teaches ≤ 300 байт и т.п.). `course_standard_lint.py` теперь не проверяет «американскость» защищённых материалов (настоящие записи/расшифровки).
+- Не сделано: тесты не запускались (просьба владельца) — `node --test studio/tests/*.mjs`, `go test ./...` ещё ждут обновления счётчиков; небольшой повтор extended-a2-relay ↔ path-listening-routine (раздел 2); видео (`lesson-clips.json`) есть только для 46 уроков A1–B1.

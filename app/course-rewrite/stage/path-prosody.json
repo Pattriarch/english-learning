@@ -1,0 +1,259 @@
+{
+  "id": "path-prosody",
+  "title": "Ударение и мелодия: те же слова — другой смысл",
+  "subtitle": "Ударение выдаёт скрытый контраст → знакомое звучит тише → I DID send it → мелодия с «но» → в письме всё это — словами",
+  "level": "C1",
+  "group": "Произношение и слушание",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Голосом показать, что именно ты исправляешь или с чем не совсем согласен, не меняя слов: «I didn't SAY she took it» (не говорил — может, намекнул), «I DID send it» (я же отправил), «The FOOD was good…» (а остальное — нет), — и уметь передать тот же смысл словами в чате, где голоса нет.",
+  "formula": "I didn't SAY… / I didn't say SHE… · No, it's my SISTER'S (car) · I DID send it · It IS far, but… · ↘ = сказано всё · ↘↗ = «но…» · в письме — договорить словами",
+  "keyRule": {
+    "rule": "Выделяй голосом новое или спорное слово; то, что уже прозвучало, произноси тише.",
+    "example": "Is that your car? — No, it's my SISTER'S car. — Это твоя машина? — Нет, это машина СЕСТРЫ.",
+    "check": "На какой скрытый вопрос отвечает твоя фраза?"
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "path-connected-speech",
+    "path-question-tags",
+    "path-clefts"
+  ],
+  "recycles": [
+    "path-clefts",
+    "path-connected-speech"
+  ],
+  "teaches": [
+    "ударение выдаёт скрытый контраст: I didn't SAY she took it (не говорил — намекнул) / I didn't say SHE took it (не она)",
+    "одно главное ударение в смысловой группе — на слове, которое слушатель мог понять неправильно",
+    "знакомое — тише: No, it's my SISTER'S car / my SISTER'S; I'd LOVE some — не some COFFEE",
+    "ударное do / does / did в утверждении: I DID send it — «я же отправил»; после did — начальная форма",
+    "ударный помощник без сокращения: It IS far, but… · You WERE right · I HAVE called them — согласие перед «но»",
+    "падение ↘ — сказано всё; падение-подъём ↘↗ на слове — «но…», частичное согласие: The ↘↗FOOD was good",
+    "в письме мелодии нет: контраст и «но» надо договорить словами",
+    "cleft на письме ↔ ударение в речи: It was the PRICE that… → The PRICE worried them"
+  ],
+  "sources": [
+    {
+      "title": "pronounce.tv · The Melody of English Speech: rising and falling patterns",
+      "url": "https://pronounce.tv/blog/intonation-english-rising-falling-patterns",
+      "notes": "Сверено: падение-подъём на ударном слове передаёт оговорку, неуверенность, контраст или недосказанное «но» (I like the blue one — «а не красную»); при исправлении главное ударение переходит на слово, которое противопоставлено сказанному собеседником."
+    },
+    {
+      "title": "Perfect Your English · Using do and does for emphasis",
+      "url": "https://perfectyourenglish.com/grammar/do-does-emphatic-use.htm",
+      "notes": "Сверено: do / does / did ставят в утверждение для усиления и для возражения (I did lock the door), на них падает дополнительное ударение, глагол после них — в начальной форме."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Одни и те же слова отвечают на разные скрытые вопросы",
+      "body": "В уроке о связной речи ты выделял слово при исправлении: I said FRIDAY, not Thursday. Там контраст был назван вслух. Новое здесь — контраст, который не называют: слушатель достраивает его сам по ударению.\n\nВозьмём I didn't say she took your money — «Я не говорил, что она взяла твои деньги». Ударение на SAY: «не говорил — может, намекнул». На SHE: «не она — кто-то другой». На TOOK: «не взяла — может, одолжила». На YOUR: «не твои». Слова одни, а ответы — на разные вопросы.\n\nКак выбрать слово: спроси себя, что слушатель мог понять неправильно. Его и выделяй — одно главное ударение в смысловой группе. Ударное слово чуть длиннее и заметно выше или ниже по тону; кричать не нужно.\n\nГраница правила: ударение подсказывает, но не гарантирует. Если ошибка дорого стоит, договори словами: …she only borrowed it."
+    },
+    {
+      "title": "Знакомое — тише, новое — сильнее",
+      "body": "Слово, которое уже прозвучало или ясно из ситуации, обычно теряет ударение. Сильнее звучит новое. Is that your car? — No, it's my SISTER'S car. Car уже было в вопросе, поэтому ударение на sister's. Часто знакомое слово вообще убирают или заменяют: my SISTER'S, the BLUE one.\n\nРусскоязычные по привычке выделяют последнее существительное: No, it's my sister's CAR. Американец услышит лишний контраст — «не дом, а машина», хотя о доме никто не спрашивал.\n\nТо же в ответах на предложения: Do you want some coffee? — I'd LOVE some. Если выделить coffee, выйдет «именно кофе, а не чай»."
+    },
+    {
+      "title": "Ударное маленькое слово: I DID send it",
+      "body": "Обычно do, is, can, have звучат коротко и слабо. Но когда собеседник сомневается или ошибается, выделяют именно их — и они значат «на самом деле да».\n\nЕсли в утверждении нет помощника (I sent it), для этого добавляют do / does / did с ударением: You didn't send it, did you? — I DID send it. По-русски это делают словами «же», «правда», «всё-таки»: «Я же отправил». Глагол после did — в начальной форме: I did send, не I did sent.\n\nЕсли помощник уже есть, ударение ставят на него и не сокращают: It IS expensive, but it's worth it — «да, дорого, но оно того стоит». You WERE right. I HAVE called them. Так часто признают правоту собеседника перед своим «но».\n\nГраница: ударное did звучит как возражение. Если никто не сомневался, обычное I sent it вежливее."
+    },
+    {
+      "title": "Мелодия с «но»: падение и подъём",
+      "body": "Падение тона ↘ на ударном слове значит «сказано всё»: The food was ↘GOOD. — Еда была хорошая, точка.\n\nПадение и подъём на одном слове ↘↗ значит «есть продолжение, которое я не говорю»: The ↘↗FOOD was good… — «еда — да, а вот остальное…». Так звучат частичное согласие и мягкое возражение: Well, ↘↗SOMETIMES. I ↘↗THINK so. Собеседник слышит «но».\n\nЭто не словарь с одним значением: смысл решает ситуация, и намёк поймут не все — особенно в международной команде или при плохой связи. Если важно, договори: The food was good, but the service was slow.\n\nСинтез речи в приложении эту мелодию передаёт ненадёжно. Проверяй себя по своей записи: слышно ли «но», если не смотреть в текст? А в чате и почте мелодии нет вовсе — контраст и «но» там пишут словами."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I didn't SAY she took your money.",
+      "ru": "Я не ГОВОРИЛ, что она взяла твои деньги.",
+      "why": "Скрытое продолжение: «но, может быть, намекнул»."
+    },
+    {
+      "en": "I didn't say SHE took your money.",
+      "ru": "Я не говорил, что это ОНА взяла твои деньги.",
+      "why": "Те же слова, другой вопрос: «кто взял?» — не она."
+    },
+    {
+      "en": "Do you want some coffee? — I'd LOVE some.",
+      "ru": "Хочешь кофе? — С удовольствием.",
+      "why": "Кофе уже назван, поэтому ударение на love, а coffee заменено на some."
+    },
+    {
+      "en": "You didn't lock the door, did you? — I DID lock it.",
+      "ru": "Ты ведь не запер дверь? — Я же её запер.",
+      "why": "Ударное did возражает; после него lock без -ed."
+    },
+    {
+      "en": "It IS a long drive, but the view is worth it.",
+      "ru": "Ехать и правда долго, но вид того стоит.",
+      "why": "Полное ударное is признаёт довод собеседника перед «но»; it's здесь не подходит."
+    },
+    {
+      "en": "How was the hotel? — The ↘↗ROOM was nice.",
+      "ru": "Как отель? — Номер был хороший…",
+      "why": "Падение-подъём на room: «а остальное — не очень»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега возмущена: You told everyone that Ana took the money! Ты отвечаешь: I didn't SAY Ana took the money — с ударением на SAY. Напиши по-английски одной фразой, что ты имел в виду, договорив скрытую часть.",
+      "context": "imply — намекать, подразумевать; hint — намекнуть.",
+      "guidance": {
+        "title": "Ударение = скрытое «а …»",
+        "body": "Найди, чему противопоставлено ударное слово. Если выделен глагол речи, противопоставлены «сказал вслух» и «намекнул, подумал, спросил».",
+        "example": "I didn't EAT the cake. I only tasted it.",
+        "translation": "Я не ЕЛ торт. Я только попробовал."
+      },
+      "hint": "Начни так: I didn't say it, but I may have…",
+      "answers": [
+        "I didn't say it, but I may have implied it.",
+        "I never actually said it; I only hinted at it.",
+        "I didn't say Ana took the money; I only asked whether she could have."
+      ],
+      "explanation": "Ударение на SAY противопоставляет «сказать» и «намекнуть, спросить». Подойдёт любое продолжение с другим речевым действием: implied, hinted, asked, suggested. Ответ про другого человека (not Ana) — это уже ударение на ANA."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты показываешь фото. Друг спрашивает: Is that your apartment? Это квартира твоего брата. Ответь одной фразой и напиши ЗАГЛАВНЫМИ слово, на которое падает главное ударение.",
+      "context": "",
+      "guidance": {
+        "title": "Повтор — тише",
+        "body": "Слово, которое уже прозвучало в вопросе, не выделяй. Ударение получает новое — чьё. Повторённое слово можно и убрать.",
+        "example": "Is that your bike? — No, it's my ROOMMATE'S.",
+        "translation": "Это твой велосипед? — Нет, соседа по квартире."
+      },
+      "hint": "Какое слово в твоём ответе новое для друга?",
+      "answers": [
+        "No, it's my BROTHER'S apartment.",
+        "No, it's my BROTHER'S.",
+        "No, that's my BROTHER'S apartment.",
+        "No, it's my BROTHER'S place."
+      ],
+      "explanation": "Ударение на brother's, а apartment тише или вовсе убрано. No, it's my brother's APARTMENT звучало бы так, будто речь шла о доме, а не о квартире."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Начальница пишет в чат: You didn't call the client, did you? А ты звонил вчера днём. Напиши, что скажешь ей на звонке, и выдели ударное слово ЗАГЛАВНЫМИ. Переведи: «Я же звонил ему — вчера днём».",
+      "context": "",
+      "guidance": {
+        "title": "Did с ударением",
+        "body": "В утверждении без помощника добавь did и выдели его: голос говорит «на самом деле да». После did — начальная форма глагола.",
+        "example": "You forgot my birthday! — I DID remember. I just didn't call.",
+        "translation": "Ты забыл про мой день рождения! — Я же помнил. Просто не позвонил."
+      },
+      "hint": "Начни так: I DID…",
+      "answers": [
+        "I DID call him — yesterday afternoon.",
+        "I DID call him yesterday afternoon.",
+        "I DID call him. Yesterday afternoon."
+      ],
+      "explanation": "Did с ударением передаёт русское «же». После did — call, а не called. Him можно заменить на them, если клиент — компания."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг сомневается насчёт поездки в Сиэтл: It's so far. Ты согласен, но считаешь, что поездка того стоит. Переведи и выдели ударное слово ЗАГЛАВНЫМИ: «Да, это правда далеко, но оно того стоит».",
+      "context": "worth it — того стоит.",
+      "guidance": {
+        "title": "Ударный помощник: согласие перед «но»",
+        "body": "Если во фразе уже есть is, are, was, can, have, do не добавляй. Выдели сам помощник и не сокращай его: it IS, а не it's.",
+        "example": "You were late. — I WAS late, but the traffic was terrible.",
+        "translation": "Ты опоздал. — Да, опоздал, но пробки были жуткие."
+      },
+      "hint": "Почему здесь нельзя сказать it's far с ударением?",
+      "answers": [
+        "It IS far, but it's worth it.",
+        "Yes, it IS far, but it's worth it.",
+        "It IS a long way, but it's worth it."
+      ],
+      "explanation": "Ударное is признаёт довод друга, а but вводит твою мысль. Сокращённое it's не может нести ударение. It does be far — ошибка: при is помощник do не нужен."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает: Did you like the conference? Тебе понравились доклады, но не организация. Напиши два ответа: 1) короткий, где «но» только в мелодии — поставь ↘↗ перед словом, к которому относится похвала; 2) тот же ответ для чата, где «но» сказано словами.",
+      "context": "talks — доклады; organized — организован.",
+      "guidance": {
+        "title": "↘↗ — «но» без слова but",
+        "body": "Падение-подъём ставят на то слово, которое ты хвалишь. Слушатель достроит: «а остальное — нет». В письме мелодии нет, поэтому второй ответ договаривает.",
+        "example": "Was the hotel nice? — The ↘↗ROOM was nice. / The room was nice, but the location was noisy.",
+        "translation": "Отель был хороший? — Номер был хороший… / Номер был хороший, но место шумное."
+      },
+      "hint": "Какое слово получает ↘↗ — talks или conference?",
+      "answers": [
+        "The ↘↗TALKS were good.\nThe talks were good, but it wasn't very well organized.",
+        "The ↘↗TALKS were interesting.\nThe talks were interesting, but the organization was a mess.",
+        "The ↘↗TALKS were great.\nThe talks were great, but the conference was badly organized."
+      ],
+      "explanation": "Падение-подъём — на talks: похвала касается только докладов. Во втором ответе «но» сказано словами — так его поймут и в чате. Подойдут good, interesting, great; badly organized, not well organized."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В письменном отчёте ты написал: It was the price that worried the client, not the location. Теперь говоришь это на звонке. Перепиши фразу для речи без It was… that и выдели ЗАГЛАВНЫМИ оба противопоставленных слова.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: cleft на письме — ударение в речи",
+        "body": "Вспоминаем из урока о cleft sentences: It was X that… выделяет X на письме. В речи то же делает ударение. Размечай, как в уроке о связной речи: два противопоставленных слова — заглавными.",
+        "example": "It was Tom who found the bug, not Lisa. → TOM found the bug, not LISA.",
+        "translation": "Ошибку нашёл Том, а не Лиза."
+      },
+      "hint": "Начни так: The PRICE…",
+      "answers": [
+        "The PRICE worried the client, not the LOCATION.",
+        "The client was worried about the PRICE, not the LOCATION.",
+        "The client's worried about the PRICE, not the LOCATION."
+      ],
+      "explanation": "Ударение на price и location делает то же, что конструкция It was… that на письме. Порядок слов может быть обычным: the client was worried about…"
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твой коллега Марк написал в общем чате, что ты против запуска сайта в пятницу. Это не так: ты против того, чтобы пропустить финальную проверку. Напиши сценарий голосового сообщения Марку, 150–200 слов. Что должно быть: исправление с переносом ударения (не дата, а проверка); одно ударное did / is / am в значении «на самом деле»; одно частичное согласие; условие, при котором ты за пятницу; просьба поправить сообщение в чате. Разметь: ЗАГЛАВНЫМИ — главное ударение (одно в группе), / — границы групп. В конце 1–2 предложения по-английски: на какой скрытый вопрос отвечает твоё главное ударение.",
+      "context": "launch — запуск; review — проверка; skip — пропустить.",
+      "hint": "Начни так: Hi Mark, / it's about your message in the team chat. / I'm not against FRIDAY…",
+      "answers": [
+        "Hi Mark, / it's about your message in the team chat. / I'm not against FRIDAY. / I'm against skipping the final REVIEW. / That's a different thing.\n\nI DO want to launch soon, / and I understand why Friday looks good: / it gives us time to get comments / before the planning meeting. / The DATE is fine. / The CHECKS worry me.\n\nRight now / the final review isn't finished, / and two forms still go to the old address. / If Priya can finish the review by THURSDAY, / I'm happy with Friday. / If she CAN'T, / I'd rather wait a few days / than launch with broken forms.\n\nI know it sounds like I'm just being careful, / and I AM being careful, / but that's my job on this project.\n\nCould you correct the message in the chat? / Just say I support Friday / IF the review is done. / Thanks!\n\nNote: My main stress is on REVIEW, not FRIDAY. It answers the hidden question \"What exactly are you against?\" — the skipped check, not the date."
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов, в группе одно главное ударение, контраст «дата — проверка» выделен, ударное do / am / is действительно возражает, а пояснение называет скрытый вопрос. Ударений не больше, чем групп: если выделено всё, не выделено ничего."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Без сценария: позвони (запиши себя) коллеге, который на встрече передал твою позицию неточно, и объясни её за 2–3 минуты. Ситуацию выбери свою или возьми эту: тебя назвали противником нового графика, а ты против только ночных смен в нём. Что должно прозвучать: исправление с переносом ударения; ударное did / do / is для «на самом деле»; частичное согласие с падением-подъёмом и его продолжение словами; знакомые слова — без ударения; спокойный тон и конкретная просьба. Потом прослушай запись, не глядя в заметки: слышен ли каждый контраст?",
+      "context": "",
+      "hint": "Перед записью выпиши 3 пары контраста: что поняли → что ты имел в виду. Ударение ставь на вторую часть каждой пары.",
+      "answers": [
+        "Hi Dana, thanks for picking up. It's about this morning's meeting. You said I'm against the new SCHEDULE. I'm not, actually. I'm against the NIGHT shifts in it. That's a much smaller thing.\n\nI DO like most of the schedule. The weekly rotation is fair, and the longer breaks are a real improvement. The ↘↗DAY shifts look great. The night shifts are the problem: three in a row, and then a morning shift two days later. People won't get enough sleep, and that's when mistakes happen.\n\nI know the plan HAS to cover nights. I'm not saying we drop them. I'm saying we spread them out, so nobody does three in a row.\n\nYou may be right that people will get used to it. You MAY be. But I'd rather test it for a month than find out the hard way.\n\nAnd just so it's clear: I didn't SAY the schedule was unfair. I said the NIGHTS were too close together. Those are two different problems, and only the second one worries me. If we fix that, I'm happy to sign off on the rest, and I'll tell the team that myself.\n\nI also know it sounded like I was criticizing your work. I WASN'T. You did a lot of work on this, and most of it is really good. I just think one part needs another look.\n\nSo here's what I'm asking. At Thursday's meeting, could you say that I support the schedule, with one change to the night shifts? And if you want, I can send you the numbers I looked at before then. Thanks, I really appreciate it."
+      ],
+      "explanation": "Засчитывается, если в записи слышны: контраст «весь график — только ночные смены», ударное do / has / may в нужном месте, частичное согласие с продолжением словами, спокойный тон и просьба. Слова образца не важны. Расшифровка не показывает ударение — проверяй по звуку."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "На встрече ты сказал: I didn't say the PLAN was bad. I said the TIMING was bad. Коллега передал это в чат команды так: He thinks the plan is bad. В письме ударения нет. Напиши в чат 3–4 предложения так, чтобы весь смысл, который ты передал голосом, был в словах: что ты на самом деле сказал, что ты поддерживаешь и что предлагаешь.",
+      "context": "timing — выбор момента, сроки.",
+      "hint": "Начни так: Just to clarify: I don't think the plan is bad. My concern is…",
+      "answers": [
+        "Just to clarify: I don't think the plan itself is bad. My concern is the timing. Launching it in the same week as the move is too much at once. I fully support the plan, and I'd suggest starting it two weeks later.",
+        "Quick correction: I said the timing was the problem, not the plan. I support the plan as it is. I'd just like us to start after the holidays, when the whole team is back."
+      ],
+      "explanation": "Засчитывается, если контраст «не план, а сроки» сказан словами (not…, but… / the plan itself / my concern is), ясно, что план ты поддерживаешь, и есть конкретное предложение. Заглавные буквы в рабочем чате не нужны: они читаются как крик."
+    }
+  ]
+}

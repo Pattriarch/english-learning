@@ -1,0 +1,269 @@
+{
+  "id": "research-accent-adaptation",
+  "title": "Непривычный акцент: настроить слух за минуту и переспросить по делу",
+  "subtitle": "Первая минута — тема и знакомые слова → найди одну замену звука → проверь догадку смыслом → переспроси слово, а не акцент → своя речь остаётся американской",
+  "level": "C1",
+  "group": "Произношение и слух",
+  "units": "Внешний аудит · Pronunciation in Use Advanced 1–6 · English File C1/C2 accents",
+  "minutes": 65,
+  "goal": "Понимать коллегу с непривычным акцентом — из Лондона, с юга США, из Индии — уже после первой минуты разговора: находить, какой звук у него «другой», проверять догадку смыслом и переспрашивать конкретное слово («Sorry, did you say pen or pin?»), не оценивая, как человек говорит.",
+  "formula": "first minute: topic + familiar words → one sound change, repeated → two guesses + context → Sorry, did you say X or Y? · Could you spell that? · So you mean…? · I'm still getting used to…",
+  "keyRule": {
+    "rule": "Первую минуту лови тему, потом найди один «другой» звук; переспрашивай слово, не акцент.",
+    "example": "Sorry, did you say pen or pin? — Простите, вы сказали pen (ручка) или pin (булавка)?",
+    "check": "Ты спрашиваешь о слове — или оцениваешь, как человек говорит?"
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "research-listening-decoding",
+    "research-connected-boundaries",
+    "path-repair-conversation",
+    "path-lecture-listening"
+  ],
+  "recycles": [
+    "path-repair-conversation",
+    "path-used-to-be-used-to"
+  ],
+  "teaches": [
+    "акцент — устойчивый способ произносить звуки, а не ошибка; по одной фразе происхождение не угадывают",
+    "слух подстраивается быстро — примерно за минуту, через знакомые слова: первые 30–60 секунд — тема и узнаваемые слова",
+    "замена звука повторяется: нашёл в одном слове — «переводи» в других",
+    "частые замены: нет r после гласного (car, later); t как пауза в горле (wa'er); can't и dance с долгим «а:»; на юге США pen = pin, time ≈ «та:м»; в Австралии day ≈ die; ровный ритм и похожие v / w в индийском английском",
+    "две догадки и проверка смыслом и грамматикой: pen или pin — чем подписывают документ?",
+    "переспросить слово: Sorry, did you say X or Y? · Could you spell that? · So you mean…? · I'm still getting used to the sound",
+    "чего не говорить: Your accent is hard to understand · Can you speak normal English? · Where are you from? You sound strange",
+    "тренировка на нескольких голосах одного акцента (Speech Accent Archive); своя речь — одна последовательная американская модель"
+  ],
+  "sources": [
+    {
+      "title": "Romero-Rivas, Martin, Costa · Processing changes when listening to foreign-accented speech · Frontiers in Human Neuroscience, 2015",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2015.00167/full",
+      "notes": "Сверено по обзору в статье: у Clarke & Garrett (2004) слушатели медленнее обрабатывали речь с акцентом, но разница уменьшалась примерно через минуту; Bradlow & Bent (2008) — подстройка идёт при любой исходной разборчивости, а нужное время зависит от силы акцента и опыта слушателя; в собственном опыте авторов изменение заметно уже после первых ~8 фраз каждого говорящего, и опирается оно на знакомые слова. Отсюда «первая минута» и «лови знакомые слова»."
+    },
+    {
+      "title": "Speech Accent Archive · George Mason University",
+      "url": "https://accent.gmu.edu/",
+      "notes": "Сверено: носители и неносители английского читают один и тот же абзац; записи можно искать по родному языку и по месту. Используется для задания на сравнение нескольких голосов одного акцента."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Почему знакомые слова вдруг «пропадают»",
+      "body": "Ты много слушал американскую речь, и слух привык к одному набору звуков. Коллега из Лондона, Атланты или Бангалора говорит те же слова, но часть звуков у него другая. Это акцент — устойчивый способ произносить звуки. Он есть у всех, у носителей тоже, и это не ошибка и не «плохой английский».\n\nХорошая новость из исследований: слух подстраивается быстро. В опыте Кларк и Гаррета (2004) слушатели сначала понимали речь с акцентом медленнее, но примерно через минуту разница заметно уменьшалась. Подстройка идёт через знакомые слова: ты узнаёшь слово по смыслу и запоминаешь, как этот человек произносит его звуки.\n\nОтсюда первое правило: первые 30–60 секунд не паникуй и не выключайся. Лови тему и слова, которые узнаёшь. Детали — когда слух настроится.\n\nИ не пытайся угадать по одной фразе, откуда человек. Для понимания это не нужно, а вслух звучит обидно."
+    },
+    {
+      "title": "Что меняется: замена звука повторяется",
+      "body": "Акцент — не хаос. Если человек произносит звук по-своему в одном слове, он почти всегда делает так же в других. Нашёл одну замену — «переводи» её дальше.\n\nЧастые замены (у многих говорящих, но не у всех):\n— Нет r после гласного: в Англии, Австралии, иногда в Бостоне car звучит «ка:», later — «лэйтэ». Перед гласным r может вернуться: car alarm.\n— Другое t: американское мягкое t в water ты знаешь. В Лондоне на этом месте часто короткая пауза в горле: wa'er, bu'er.\n— Другие гласные: британские can't и dance с долгим «а:»; на юге США time и my ближе к «та:м», «ма:», а pen и pin у многих звучат одинаково; в Австралии day похоже на американское die.\n— Другой ритм: в индийском английском слоги часто звучат ровнее, ударение может падать на другой слог, v и w бывают похожи.\n\nЭто наблюдения о вариантах, а не правила для целой страны."
+    },
+    {
+      "title": "Проверь догадку и переспроси слово",
+      "body": "Когда слово не узнаётся, держи две догадки — как в уроке о том, почему не расслышал: pen или pin, fifteen или fifty. Проверь их смыслом: Can I borrow a ___ to sign this? — подписывают ручкой, значит, pen. Проверь грамматикой: после a нужен предмет, после I'll — действие.\n\nЕсли от слова зависит дело — имя, адрес, число, время, — не угадывай молча. Как в уроке о переспрашивании, спроси о слове, а не об акценте: Sorry, did you say pen or pin? Could you spell the street name for me? Потом повтори своими словами: So we're meeting at 3:30, right?\n\nНе говори Your accent is hard to understand или Can you speak normal English? Трудность — в твоей привычке, а не в собеседнике. Если нужно объяснить паузу, честная фраза такая: I'm still getting used to the sound."
+    },
+    {
+      "title": "Как тренировать слух и что делать со своей речью",
+      "body": "Сколько времени нужно на подстройку, зависит от силы акцента и от того, слышал ли ты его раньше. Значит, опыт с акцентом копится. Слушай одного человека дольше одной фразы, а один акцент — у нескольких разных людей: тогда ты учишь черты акцента, а не привычки одного голоса.\n\nПростой способ — Speech Accent Archive (accent.gmu.edu): там сотни людей читают один и тот же абзац, который начинается словами Please call Stella. Текст один, поэтому всё внимание — на звуки. Послушай 3–4 человек с одним акцентом и найди замену, которая повторяется.\n\nСинтез речи в этом приложении говорит американским голосом. Он подходит, чтобы проверить понимание содержания, но не для тренировки акцентов — для этого нужны живые записи.\n\nСвою речь под каждого собеседника не меняй. Держи одну последовательную американскую модель: так тебя проще понять. Копировать чужой акцент не нужно — это может прозвучать как насмешка."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Sorry, did you say pen or pin?",
+      "ru": "Простите, вы сказали pen (ручка) или pin (булавка)?",
+      "why": "Вопрос о слове с двумя вариантами — собеседнику легко ответить."
+    },
+    {
+      "en": "Could you spell the street name for me?",
+      "ru": "Не могли бы вы продиктовать название улицы по буквам?",
+      "why": "Для имён и адресов надёжнее букв ничего нет."
+    },
+    {
+      "en": "Sorry, did you mean pin as in a safety pin, or pen as in something to write with?",
+      "ru": "Простите, вы имели в виду pin — булавку или pen — то, чем пишут?",
+      "why": "As in… — «в смысле…»: уточняешь значение, когда два слова звучат одинаково."
+    },
+    {
+      "en": "So we're meeting at 3:30, not 3:00, right?",
+      "ru": "Значит, встречаемся в 3:30, а не в 3:00, верно?",
+      "why": "Повтор своими словами проверяет понимание лучше, чем Okay."
+    },
+    {
+      "en": "He drops the r in car, so \"far\" and \"here\" will probably sound different too.",
+      "ru": "Он не произносит r в car, значит, far и here, скорее всего, тоже прозвучат иначе.",
+      "why": "Одна замена повторяется — её можно «переводить» в других словах."
+    },
+    {
+      "en": "I'm still getting used to the sound, so I may ask you to repeat a number or two.",
+      "ru": "Я ещё привыкаю к звучанию, поэтому могу попросить повторить пару чисел.",
+      "why": "Честное предупреждение без оценки собеседника."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Голосовое от руководителя команды / Welcome to the team",
+      "kind": "listening",
+      "source": "Авторский учебный материал; люди и компания вымышленные. Звучит американский синтезированный голос: акценты коллег здесь описаны, а не слышны.",
+      "text": "Hi Daniel, it's Rachel Kim. Welcome to the team! Before your first call on Thursday, I want to tell you a little about who you'll hear and what helped me when I started.\n\nOur weekly call is on Thursdays at 9:30 a.m. Chicago time. That's 3:30 in the afternoon for Tom in London and 8 p.m. for Priya in Bangalore, so please don't let it run late.\n\nYou'll hear three accents that may be new to you. Tom is from London. He doesn't pronounce the r at the end of words like \"car\" or \"later,\" and sometimes his t almost disappears, so \"water\" sounds like \"wa-er.\" Priya leads our data team. She speaks fast, and her rhythm is more even than ours, so the stress isn't always where you expect it. Jolene is in our Atlanta office. She's from Georgia, and for her, \"pen\" and \"pin\" sound the same. The first time she asked me for a pin, I handed her a pen, and that was exactly what she wanted.\n\nHere's what worked for me. During the first call, don't try to catch every detail. Get the topic and the decisions, and let your ear adjust. Honestly, it took me about two calls before Priya's numbers stopped slipping past me. If a name, a number or a date matters, ask about that word. Don't ask people to change how they talk. Something like \"Sorry, was that fifteen or fifty?\" works much better than \"Can you repeat everything?\"\n\nOne more thing: Tom sends a summary after every call. Read it after you've written your own notes, not before. That way, you'll know what you actually heard.\n\nAnyway, call me back if you have any questions. My cell is (312) 555-0164. See you Thursday!"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На звонке ты не сразу узнал слово и замолчал. Объясни коллеге паузу так, чтобы не задеть его. Переведи: «Я знаю это слово, просто ещё не привык к такому произношению».",
+      "context": "pronunciation — произношение.",
+      "guidance": {
+        "title": "Вспоминаем: be used to — трудность в привычке",
+        "body": "Вспоминаем из урока про be used to: be used to + существительное или -ing — «привык к». Not used to / still getting used to описывают твою привычку, а не чужую ошибку.",
+        "example": "I know the street; I'm just not used to hearing it said that way.",
+        "translation": "Я знаю эту улицу, просто не привык, чтобы её так называли."
+      },
+      "hint": "Начни так: I know the word; I'm just not used to…",
+      "answers": [
+        "I know the word; I'm just not used to that pronunciation yet.",
+        "I know this word, I'm just not used to hearing it pronounced like that yet.",
+        "I know the word, but I'm still getting used to this pronunciation."
+      ],
+      "explanation": "Be used to + существительное (that pronunciation) или + -ing (hearing it…). Still getting used to — «ещё привыкаю» — тоже верно. I'm not used to hear — ошибка: после be used to нужно -ing."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты заметил, что коллега из Лондона произносит car без r в конце, а later — «лэйтэ». Он говорит: The report is on the floor near the door. Какие слова этой фразы, скорее всего, тоже прозвучат без r? Напиши их и одно предложение-вывод по-английски.",
+      "context": "",
+      "guidance": {
+        "title": "Одна замена — во многих словах",
+        "body": "Найди условие замены: r после гласного, перед согласным или в конце слова. Потом ищи такое же место в других словах. Перед гласным r может вернуться.",
+        "example": "She says \"dis\" for \"this,\" so \"those\" and \"there\" will probably start with a d sound too.",
+        "translation": "Она говорит «дис» вместо this, значит, those и there тоже, скорее всего, начнутся со звука «д»."
+      },
+      "hint": "Найди все слова, где r стоит после гласного: в конце слова или перед согласным.",
+      "answers": [
+        "Report, floor, near and door will probably have no r. If he drops the r after a vowel in car and later, he'll most likely do the same in these words.",
+        "Probably report, floor, near and door. The r comes after a vowel in all of them, just like in car and later."
+      ],
+      "explanation": "Засчитывается, если названы report, floor, near, door и правило: r после гласного не звучит. Если пропущено report, проверь: r стоит после o и перед t."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега из Атланты протягивает тебе договор и говорит: Can I borrow a pin to sign this? Напиши 1–2 предложения по-английски: какое слово она, скорее всего, имела в виду и как ты это понял.",
+      "context": "borrow — одолжить; sign — подписать.",
+      "guidance": {
+        "title": "Две догадки — проверь смыслом",
+        "body": "Держи обе версии и проверь ситуацией: что нужно, чтобы подписать документ? Если ошибка ничего не стоит, догадки по смыслу хватает; если стоит — переспроси.",
+        "example": "He said \"ship,\" but we were talking about lunch, so he probably meant \"chip.\"",
+        "translation": "Он сказал ship (корабль), но мы говорили об обеде, так что он, скорее всего, имел в виду chip (чипсы)."
+      },
+      "hint": "Чем подписывают документ — булавкой или ручкой?",
+      "answers": [
+        "She probably meant a pen. For many Southern speakers, pen and pin sound the same, and you sign a document with a pen.",
+        "Most likely \"pen.\" You need a pen to sign something, and in her accent pen and pin can sound alike."
+      ],
+      "explanation": "Засчитывается, если выбран pen и названы обе опоры: смысл (подписывают ручкой) и черта акцента (pen и pin звучат одинаково у многих на юге США)."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "На звонке Прия называет число, и ты не уверен: fifteen или fifty. Ещё она назвала поставщика, название которого ты не знаешь. Напиши две реплики: переспроси число и попроси продиктовать название по буквам.",
+      "context": "supplier — поставщик.",
+      "guidance": {
+        "title": "Вспоминаем: переспроси одно слово",
+        "body": "Вспоминаем из урока о переспрашивании: называй варианты, между которыми выбираешь. Для имён и названий — Could you spell that? Просьба касается слова, а не того, как человек говорит.",
+        "example": "Sorry, did you say Tuesday or Thursday? And how do you spell the hotel's name?",
+        "translation": "Простите, вы сказали во вторник или в четверг? И как пишется название отеля?"
+      },
+      "hint": "Начни так: Sorry, was that fifteen or…",
+      "answers": [
+        "Sorry, was that fifteen or fifty? And could you spell the supplier's name for me?",
+        "Sorry, did you say fifteen or fifty? Could you spell the name of the supplier, please?"
+      ],
+      "explanation": "Вопрос с двумя вариантами быстрее, чем Can you repeat that? — собеседник сразу понимает, что именно ты не расслышал. Could you spell…? вежливо и точно. Подойдут was that и did you say."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Перепиши три реплики так, чтобы они не оценивали акцент, а решали задачу: 1) Your accent is hard to understand. 2) Can you speak normal English? 3) Where are you from? You sound strange.",
+      "context": "",
+      "guidance": {
+        "title": "Убери оценку человека",
+        "body": "Спроси себя, что тебе нужно на самом деле: повтор слова, медленнее, по буквам? Попроси это прямо. Трудность опиши как свою: I'm still getting used to…",
+        "example": "You talk too fast. → Could you slow down a little when you give the numbers?",
+        "translation": "Ты слишком быстро говоришь. → Можешь чуть медленнее, когда называешь числа?"
+      },
+      "hint": "Для третьей реплики: тебе правда нужна его биография — или повтор слова, которое ты не понял?",
+      "answers": [
+        "1) Sorry, I missed the last part. Could you say it again?\n2) Could you slow down a little? I'm still getting used to the sound.\n3) Sorry, could you repeat the name of that place?",
+        "1) Sorry, I didn't catch that last word. Could you repeat it?\n2) Would you mind going a bit slower for the numbers?\n3) Sorry, I didn't get that name. Could you spell it for me?"
+      ],
+      "explanation": "Засчитывается, если каждая реплика просит конкретное действие (повторить, медленнее, по буквам) и ни одна не говорит о том, как человек звучит или откуда он. Вопрос Where are you from? уместен в дружеской беседе, но не как реакция на непонятое слово."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Послушай M1, расшифровку не открывай. Запиши по одному признаку речи для каждого из трёх коллег Рейчел и пример слова, если он прозвучал.",
+      "context": "rhythm — ритм; even — ровный.",
+      "guidance": {
+        "title": "Кто как говорит",
+        "body": "Слушай, что Рейчел говорит о каждом коллеге: какой звук или ритм другой и на каком слове это слышно. Одна строка на человека.",
+        "example": "Ana is from Boston: she drops the r in \"park\" and \"car.\"",
+        "translation": "Ана из Бостона: она не произносит r в park и car."
+      },
+      "hint": "Три имени: Tom, Priya, Jolene. У каждого — один признак.",
+      "answers": [
+        "Tom, from London, drops the r at the end of words like car and later, and his t can almost disappear in water. Priya speaks fast with a more even rhythm, so the stress isn't where you expect it. For Jolene, from Georgia, pen and pin sound the same.",
+        "Tom: no r at the end of car and later; t almost gone in water. Priya: fast, even rhythm, stress in unexpected places. Jolene: pen and pin sound the same."
+      ],
+      "explanation": "Засчитывается, если у каждого коллеги один верный признак: Том — нет r в конце и почти пропадающее t; Прия — быстрый ровный ритм и неожиданное ударение; Джолин — pen и pin звучат одинаково. Достаточно одного признака у Тома.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Послушай M1 ещё раз, расшифровку не открывай. Второй новичок, Мария, сообщение не получила. Напиши ей письмо, 150–200 слов. Что должно быть: когда звонок — время в Чикаго, Лондоне и Бангалоре; три коллеги и что непривычного в их речи; два совета Рейчел про первый звонок и про то, как переспрашивать; что делать с итогами Тома; как связаться с Рейчел. Ничего не добавляй от себя.",
+      "context": "",
+      "hint": "План: Hi Maria → the call → three colleagues → Rachel's tips → Tom's summary → Rachel's number.",
+      "answers": [
+        "Hi Maria,\n\nRachel left me a welcome message and asked me to pass it on, since you didn't get it.\n\nOur weekly call is on Thursdays at 9:30 a.m. Chicago time. That's 3:30 p.m. for Tom in London and 8 p.m. for Priya in Bangalore, so we shouldn't let it run late.\n\nWe'll hear three accents. Tom, from London, doesn't pronounce the r at the end of words like car, and his t can almost disappear, so water sounds like \"wa-er.\" Priya leads the data team; she speaks fast, with a more even rhythm, so the stress isn't always where we expect it. Jolene, in the Atlanta office, says pen and pin the same way.\n\nRachel's advice for the first call is not to chase every detail: get the topic and the decisions and let your ear adjust. If a name, number or date matters, ask about that word, for example \"Was that fifteen or fifty?\", instead of asking people to repeat everything.\n\nTom sends a summary after each call. Rachel says to read it only after writing our own notes.\n\nHer cell is (312) 555-0164.\n\nSee you Thursday,\nDaniel"
+      ],
+      "explanation": "Засчитывается, если верно передано время (9:30 a.m. Чикаго, 3:30 p.m. Лондон, 8 p.m. Бангалор), по одному признаку у каждого коллеги, оба совета, правило про итоги Тома (после своих заметок) и номер. Нельзя добавлять того, чего в сообщении нет. Расшифровку открой после письма и сверь пункты.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новичок в твоей команде (или друг, который едет учиться в Лондон) боится не понять коллег с другим акцентом. Объясни ему вслух за 2–3 минуты, как с этим справиться. Что должно быть: что такое акцент и почему это не ошибка; что происходит в первую минуту; одна конкретная замена звука с примерами слов; как проверить догадку смыслом; две фразы, чтобы переспросить слово; чего не говорить; что делать со своим произношением. Запиши себя и проверь по записи, все ли пункты прозвучали.",
+      "context": "",
+      "hint": "Построй ответ как маленькую лекцию из прошлого урока: план → главное → пример → оговорка → итог.",
+      "answers": [
+        "So you're worried about understanding people with different accents. I get it, I felt the same way. Let me tell you three things that helped me.\n\nFirst, an accent isn't a mistake. Everyone has one, including Americans. It's just a consistent way of saying sounds, so it's not \"bad English.\"\n\nSecond, your ear adjusts faster than you think. Research suggests that in about a minute, listening to a new accent already gets easier. So in the first minute, don't panic and don't try to catch details. Just get the topic and the words you recognize.\n\nThen look for one sound that's different. For example, a lot of people in London don't pronounce the r at the end of words. Car sounds like \"cah,\" and later sounds like \"lay-tuh.\" Once you notice that, you'll hear it in floor, door and near too.\n\nIf you're still not sure about a word, use context. If someone asks for a \"pin\" to sign something, they probably mean a pen. But if it's a number or a name, ask. Say, \"Sorry, was that fifteen or fifty?\" or \"Could you spell that for me?\"\n\nWhat you shouldn't say is \"Your accent is hard to understand\" or \"Can you speak normal English?\" The problem is your habit, not their English.\n\nAnd for your own speech, don't try to copy everyone. Keep your American model and speak clearly. That's what makes you easy to understand.\n\nSo, to sum up: give it a minute, find one sound, and ask about words, not accents."
+      ],
+      "explanation": "Засчитывается, если прозвучали все семь пунктов, замена звука проиллюстрирована словами, фразы для переспроса касаются слова, а не акцента, и про своё произношение сказано «одна последовательная модель». Оценивай по своей записи."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "После звонка новичок написал Прие черновик. Перепиши его в вежливое рабочее сообщение, 60–100 слов. Что должно быть: благодарность за звонок; что именно ты не расслышал (сумма за март — fifteen или fifty thousand); просьба подтвердить письменно; без оценки акцента и без вопросов о происхождении. Черновик: Hi Priya, your accent is very strong and I couldn't understand your numbers. Are you from India? Please speak slower and more normal on Thursday.",
+      "context": "",
+      "hint": "Начни так: Hi Priya, thanks for the update on today's call. I want to make sure I got one number right…",
+      "answers": [
+        "Hi Priya,\n\nThanks for the update on today's call. I want to make sure I got one number right: was the March total fifteen thousand or fifty thousand? I'm new to the project and still getting used to our calls, so I'd rather check than guess. Could you confirm it in writing when you have a minute?\n\nThanks a lot,\nDaniel",
+        "Hi Priya,\n\nThank you for walking us through the numbers today. It was really helpful for someone new to the project. I didn't quite catch the March figure: did you say fifteen thousand or fifty thousand? Could you send it to me in writing so I have it right in my notes?\n\nThanks,\nDaniel"
+      ],
+      "explanation": "Засчитывается, если сообщение благодарит, называет одно конкретное число с двумя вариантами, просит письменного подтверждения и ни слова не говорит об акценте, темпе «нормального английского» или происхождении. Трудность, если упомянута, описана как своя: I'm still getting used to…"
+    }
+  ]
+}

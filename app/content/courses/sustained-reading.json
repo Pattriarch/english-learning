@@ -1,52 +1,100 @@
 [
   {
     "id": "sustained-clock-history",
-    "title": "Часы над Мерсер-стрит: удержать смысл целой статьи",
-    "subtitle": "Длинное чтение, конкурирующая память и решения, которые нельзя вывести из фотографии",
+    "title": "Часы над Мерсер-стрит: держать в голове всю длинную статью",
+    "subtitle": "Рабочий вопрос после первого чтения → дальние связи между абзацами → что доказывает каждый источник → поздний источник и точечная правка → тот же способ на новом случае",
     "level": "C1–C2",
     "group": "Длинное чтение",
     "units": "Авторский практикум · законченная статья и новый перенос",
-    "minutes": 100,
-    "goal": "Прочитать целый сложный текст, восстановить связи между удалёнными частями, оценить разные свидетельства, подготовить адресный вывод и пересмотреть его после нового источника.",
-    "formula": "claim → source and scope → distant connection → audience-specific synthesis → revision",
+    "minutes": 90,
+    "goal": "Прочитать целиком статью из пятнадцати абзацев, связать поздние детали с ранними («P9 changes how we read P1»), сказать, что может и чего не может доказать каждый источник, а после позднего сообщения поправить ровно ту фразу, которую оно меняет.",
+    "formula": "working question → distant link → source and scope → targeted correction → transfer · At first…, but by the end… · P9 changes how we read P1: … · The test shows…; it does not settle… · The payroll list records…, not… · I would narrow… while keeping… · of the fifty-four people who used the board",
+    "guided": true,
+    "introSections": 5,
+    "prerequisites": [
+      "path-longform-reading",
+      "path-critical-reading",
+      "path-synthesis",
+      "path-source-mediation"
+    ],
+    "recycles": [
+      "path-longform-reading",
+      "path-critical-reading"
+    ],
+    "teaches": [
+      "первый проход без остановок; словарь — только для слова, без которого меняется вывод; рабочий вопрос статьи: At first…, but by the end…",
+      "дальняя связь: поздний абзац поправляет, переосмысляет или сужает ранний; P9 changes how we read P1: …; Looking back at P7, P14 shows…",
+      "результат в своих границах: The test shows…; it does not settle… — не обесценивать и не раздувать",
+      "каждый источник отвечает на свой вопрос: объявление, платёжный список, воспоминание, расписание, коллекция интервью, наклейки; кто, когда, сколько, что записано",
+      "отсутствие доказательства ≠ доказательство обратного; сузить вывод, сохранив источник",
+      "образ и факт: что делает фраза — шутка, ирония, поворот, проверяемое событие; the whole town в воспоминании — чувство, а не подсчёт",
+      "поздний источник: заменить, сузить или оставить; цитата без контекста; знаменатель (denominator): of the fifty-four people who used the board",
+      "перенос на новый случай: тот же способ, без имён и цифр прежнего"
+    ],
+    "sources": [
+      {
+        "title": "Harvard Library · Interrogating Texts: 6 Reading Habits to Develop in Your First Year at Harvard",
+        "url": "https://guides.library.harvard.edu/sixreadinghabits",
+        "notes": "Сверено: предварительный просмотр, пометки на полях с вопросами к автору, пересказ своими словами и оценка логики и доказательств, поиск повторяющихся образов и слов, контекст. Отсюда первый проход, рабочий вопрос и внимание к повторяющемуся образу «часы для всех»."
+      },
+      {
+        "title": "Oral History Association · Best Practices",
+        "url": "https://oralhistory.org/best-practices/",
+        "notes": "Сверено: тем, кто использует интервью, советуют не искажать слова рассказчика, сохранять его точку зрения, давать отрывкам контекст, по возможности проверять факты и указывать, где найти полную запись. Отсюда правка подписи к словам Роя: контекст и ссылка на всё интервью, а не удаление цитаты."
+      }
+    ],
     "sections": [
       {
-        "title": "Первый проход: держать весь вопрос",
-        "body": "Длинный текст требует памяти о ходе мысли. На первом проходе не останавливайся у каждого выражения: после нескольких абзацев запиши короткую рабочую формулировку вопроса и отметь, что заставило её изменить. Здесь начало, эпизод с магазином и финал связаны через ошибочный образ остановившейся жизни. Понимание отдельного абзаца ещё не объясняет эту связь. Прочитай статью целиком, затем вернись к помеченным местам. Словарь используй для слова, без которого меняется вывод, а не для каждого непривычного оборота."
+        "title": "Длинная статья целиком: зачем сначала дочитать",
+        "body": "Из урока о длинной статье ты знаешь, как составить карту абзацев и найти позицию автора вместе с её условием. Эта статья длиннее и устроена иначе: её главный вопрос меняется по ходу текста, а некоторые ранние фразы становятся понятны только в конце.\n\nM1 — пятнадцать абзацев о старых часах на башне в маленьком городе Pine Bend. Сначала кажется, что речь о ремонте. Потом выясняется, что спорят о другом: чью память и чьё время представляют эти часы.\n\nПоэтому первый проход — без остановок. В словаре ищи только слово, без которого меняется вывод. После чтения запиши рабочий вопрос статьи в одной-двух фразах. Если при втором чтении он меняется, отметь, какой абзац его изменил.\n\nP1, P7, P15 в заданиях — номера абзацев: [1], [7], [15] в тексте M1.\n\nГраница: первый проход не заменяет второй. Он даёт общий вопрос, к которому потом привязываются детали."
       },
       {
-        "title": "Дальние связи: источник, голос и граница",
-        "body": "Различай автора статьи, героя, старый документ, черновик подписи и нового редактора. Все они могут говорить об одном предмете, но отвечать на разные вопросы. Выпиши утверждение, укажи его автора и найди позднюю деталь, которая ограничивает, поддерживает или переосмысливает его. Поздняя оговорка не обязательно опровергает раннее высказывание. Иногда она лишь уточняет период, группу людей или объект сравнения. Хорошая аргументация сохраняет полезное свидетельство даже после того, как из него убрали слишком широкий вывод."
+        "title": "Дальняя связь: поздний абзац меняет ранний",
+        "body": "Дальняя связь — это когда деталь из конца статьи меняет то, как ты понял начало. Такие связи бывают разными. Поправка: рассказчик ошибся в дате. Новый смысл: фотография магазина показывает, что часы шли, когда в городе начиналась новая жизнь. Сужение: «весь город слушал» оказывается памятью о конкретных людях. Граница: тест показывает, что одно устройство двигает стрелки, но остальные вопросы не решает.\n\nЗаписывай связь так: P9 changes how we read P1: … или Looking back at P7, P14 shows that… Называй, что именно изменилось — дата, охват или смысл.\n\nОшибка — пересказывать абзацы по очереди. Пятнадцать пересказов не показывают, как части связаны. Выбирай две-три связи, которые меняют вывод."
       },
       {
-        "title": "Риторика: не путать силу образа с фактом",
-        "body": "Повторяющийся образ может объединять статью и одновременно скрывать различия. Вопрос читателя: что именно делает эта формулировка — создаёт общий образ, подчёркивает иронию, переключает перспективу или сообщает проверяемое событие? Для ответа нужны место в статье и соседние факты. Слова everyone и whole town не всегда обозначают результат подсчёта; в воспоминании они могут быть эмоциональным обобщением. Объясни такую функцию, сохранив возможность другого чтения и не объявляя неустановленное намерение автора доказанным."
+        "title": "Каждый источник отвечает на свой вопрос",
+        "body": "Вспоминаем урок о критическом чтении: вывод не должен быть шире доказательства. В M1 источников много, и у каждого свой вопрос.\n\nОбъявление компании записывает публичную версию — «подарок городу». Платёжный список — что из зарплаты удерживали деньги. Ни то, ни другое не говорит, что чувствовал конкретный рабочий. Воспоминание Аники — как она помнит сигнал. Три листа расписания — когда кончался обед, но не почему. Шестьдесят два интервью — с теми, кого было легко найти. Наклейки — выбор пятидесяти четырёх человек, которые подошли к доске.\n\nДля каждого спроси: кто, когда, сколько людей и что именно записано. Если принуждение не доказано, это не значит, что все платили добровольно. Сужай вывод, но сохраняй источник: в своих границах он полезен."
       },
       {
-        "title": "Медиация и пересмотр без потери результата",
-        "body": "Для редактора важен сквозной аргумент, для правления — решения и проверка условий. Создай два самостоятельных текста, каждый под своего адресата. Не пересказывай пятнадцать абзацев по очереди: выбери связи, которые помогают выполнить задачу. После позднего сообщения проверь, какое предложение собственного ответа действительно нужно заменить, какое лишь уточнить и какое сохранить. Пересмотр не требует выбрасывать все прежние данные. В новом независимом случае переноси способ анализа, а не имена, цифры и готовую рекомендацию предыдущего проекта."
+        "title": "Образ и факт: что делает фраза в статье",
+        "body": "Яркая фраза может держать статью вместе и при этом скрывать различия. В P1 часы declining to take sides — «не встают ни на чью сторону». Это шутка об остановившихся стрелках, но она же вводит тему спорящих точек зрения. The whole town used to listen в воспоминании Роя — не подсчёт, а чувство.\n\nСпроси: фраза сообщает проверяемый факт, создаёт образ, подчёркивает иронию или переключает точку зрения? Ответ ищи по месту в статье и соседним фактам.\n\nРассказчик сам ловит себя на двух ошибках. Сначала красивая подпись сдвинула дату на тринадцать лет. Потом — обратная крайность: так бояться преувеличения, что ни один результат не считается. Статья предлагает середину: сообщать, что результат решает, и не приписывать ему больше."
+      },
+      {
+        "title": "Поздний источник и новый случай: правка точечная",
+        "body": "Поздний источник (M3) обычно меняет не весь вывод, а одну-две фразы. Для каждой своей фразы реши: заменить, сузить или оставить. Слова Роя вырезали из контекста, но не выдумали: подпись уточняют, а его желание слышать колокол остаётся. Наклейки клеили пятьдесят четыре разных человека, но сколько всего людей пришло, неизвестно: цифры оставляют, а долю от всех присутствовавших не считают.\n\nЗнаменатель (denominator) — число, от которого считают долю: of the fifty-four people who used the board, а не of all residents.\n\nНовый случай (M4) проверяет, перенёс ли ты способ, а не память о часах. Вопросы те же: кто отобрал материал, кого не хватает, что проверил тест, что ещё не разрешено. Имена и цифры из Pine Bend туда не переносятся."
       }
     ],
     "examples": [
       {
-        "en": "The interview supports a particular memory; it does not establish how every resident used the clock.",
-        "ru": "Интервью подтверждает конкретное воспоминание, но не устанавливает, как часами пользовался каждый житель.",
-        "why": "Сохраняем свидетельство и ограничиваем охват вывода."
-      },
-      {
-        "en": "A moving dial would be a visible result, although it would not by itself constitute a restoration of the original mechanism.",
-        "ru": "Движущийся циферблат был бы видимым результатом, хотя сам по себе не означал бы восстановления исходного механизма.",
-        "why": "Различаем два результата, не обесценивая первый."
-      },
-      {
         "en": "The grocery-store photograph complicates the opening image rather than merely adding another date.",
         "ru": "Фотография магазина усложняет начальный образ, а не просто добавляет ещё одну дату.",
-        "why": "Объясняем дальнюю смысловую связь между частями текста."
+        "why": "Дальняя связь: поздняя деталь меняет смысл раннего места."
       },
       {
-        "en": "I would narrow the claim about Roy’s memory while retaining the fact that he supports a working bell.",
-        "ru": "Я бы сузил утверждение о воспоминании Роя, сохранив факт, что он поддерживает работающий колокол.",
-        "why": "Пересмотр относится к конкретному утверждению, а не ко всей позиции человека."
+        "en": "The interview supports a particular memory; it does not establish how every resident used the clock.",
+        "ru": "Интервью подтверждает конкретное воспоминание, но не показывает, как часами пользовался каждый житель.",
+        "why": "Источник сохраняется, охват вывода сужается."
+      },
+      {
+        "en": "A moving dial would be a visible result, although it would not by itself restore the original mechanism.",
+        "ru": "Движущийся циферблат был бы видимым результатом, хотя сам по себе не восстановил бы исходный механизм.",
+        "why": "Два разных результата, и первый не обесценивается."
+      },
+      {
+        "en": "The payroll list records a deduction, not how any worker felt about it.",
+        "ru": "Платёжный список фиксирует удержание, а не то, как к нему относился кто-либо из рабочих.",
+        "why": "Источник назван вместе с вопросом, на который он отвечает."
+      },
+      {
+        "en": "Thirty-one of the fifty-four people who used the board chose a running clock.",
+        "ru": "Тридцать один из пятидесяти четырёх человек, подошедших к доске, выбрали работающие часы.",
+        "why": "Цифра с правильным знаменателем — те, кто участвовал, а не весь город."
+      },
+      {
+        "en": "I would narrow the claim about Roy's memory while keeping the fact that he wants a working bell.",
+        "ru": "Я бы сузил утверждение о воспоминании Роя, сохранив то, что он хочет работающий колокол.",
+        "why": "Правка касается одной фразы, а не всей позиции человека."
       }
     ],
     "materials": [
@@ -78,127 +126,223 @@
     "exercises": [
       {
         "id": "e1",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Первый полный проход, 15–20 минут. Прочитайте m1 от начала до конца, не открывая m2–m4 и образцы. Для редактора напишите 120–160 английских слов: какой вопрос постепенно занимает место простого вопроса о ремонте часов? Покажите два поворота рассуждения из разных частей и объясните позицию рассказчика к финалу. Не делайте по одному предложению на каждый абзац.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
+        "practiceStage": "guided",
+        "prompt": "Первый проход, 15–20 минут. Прочитай M1 от начала до конца, не открывая M2–M4. Напиши рабочий вопрос статьи в 2–3 предложениях: с какого вопроса она начинается и каким он становится к концу.",
+        "context": "",
+        "guidance": {
+          "title": "Вспоминаем: сначала весь текст, потом вопрос",
+          "body": "Вспоминаем урок о длинной статье: сначала общая картина, потом детали. Здесь после первого чтения назови не тему, а вопрос, который статья решает. Если он меняется, покажи поворот: At first…, but by the end…",
+          "example": "At first, the report asks whether the bridge can be repaired; by the end, it asks who the bridge was built for.",
+          "translation": "Сначала доклад спрашивает, можно ли починить мост; к концу — для кого этот мост строили."
+        },
+        "hint": "Какие три вопроса волонтёр написал карандашом на обороте плаката в P2?",
+        "answers": [
+          "At first, the article asks whether the clock above Mercer Street can be made to run again. By the end, the question has become whose time and whose memory a restored clock would represent, and how the town can describe the project honestly.",
+          "The article begins as a story about repairing a stopped clock, but it turns into a question about who gets to speak for the town's past: workers, newer residents, and people who want quiet at night all see the clock differently."
+        ],
+        "explanation": "Засчитывается, если назван начальный вопрос (ремонт) и тот, которым он стал (чью память и чьё время представляют часы, как честно описать проект). Список героев без вопроса — ещё не рабочий вопрос.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "The article begins with a visible defect but develops into a question about whose experience a restored clock would represent. The narrator first corrects a caption that confused the mill’s closure with a later power failure. That apparently small correction becomes more significant when Noor’s photograph shows the clock accompanying a new business after the mill had closed. A second turn comes when the meeting exposes different present-day needs: Roy wants the bell, while Dana wants quiet at particular hours. The issue therefore extends beyond preserving a shared past. By the end, the narrator supports reporting limited progress, such as the successful test of a dial, without presenting it as a complete solution. The final position is neither simple nostalgia nor a rejection of restoration; it calls for specific claims and decisions that recognize different accounts."
-        ],
-        "hint": "Ищите не тему каждого абзаца, а то, как меняется основной вопрос.",
-        "explanation": "Сильный ответ связывает начало, магазин, встречу и финальный тест общей мыслью. Перечень персонажей сам по себе не показывает движения аргумента. Рассказчик признаёт ошибку красивой подписи, но не делает обратного вывода, будто любой ремонт или воспоминание бесполезны. В четырнадцатом абзаце он прямо защищает право сообщать ограниченный успех. Поэтому итог может поддерживать проект условно, одновременно требуя точности. Другой выбор двух поворотов допустим, если объяснена их функция и связь с концом."
+        ]
       },
       {
         "id": "e2",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Проверка дальних связей, 10 минут. Напишите 150–190 английских слов для коллеги-редактора. Свяжите P1 с P9 и P15: назовите две разные даты и объясните, что ошибка подписи стирала помимо календарной точности. Затем свяжите P7 с P14: что именно подтвердил тест, а чего он не подтвердил? Укажите номера абзацев и минимум четыре точные фактические опоры.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
+        "practiceStage": "guided",
+        "prompt": "Свяжи P1 с P9. Напиши редактору 2–3 предложения: какие две даты спутала старая подпись рассказчика и что, кроме календарной точности, она стёрла.",
+        "context": "",
+        "guidance": {
+          "title": "Дальняя связь: поздняя деталь меняет раннюю",
+          "body": "Назови раннее место, позднюю деталь и что именно она меняет: дату, охват или смысл. Начни с номеров абзацев, чтобы читатель мог проверить.",
+          "example": "P12 changes how we read P3: the \"empty\" lot in the opening was a playground for six years.",
+          "translation": "Абзац 12 меняет чтение абзаца 3: «пустой» участок из начала шесть лет был детской площадкой."
+        },
+        "hint": "Когда закрылась фабрика, когда остановились часы и что случилось на той же улице между этими датами?",
+        "answers": [
+          "In P1, the narrator admits that his caption linked the stopped hands to the mill's closure in 1998, although the clock actually stopped after a power failure in January 2011. P9 shows what that error erased: Noor's family opened their grocery store in 2004, and the clock was running above their opening banner. The caption hid years in which new life began on the street, not just a date.",
+          "P9 changes how we read P1. The caption treated 1998, when the mill closed, as the moment the clock stopped, but the hands only froze in 2011; in between, a new store opened under a working clock. The mistake turned a period of new beginnings into a single ending."
+        ],
+        "explanation": "Засчитывается, если названы обе даты (1998 и январь 2011) и сказано, что ошибка стёрла годы новой жизни — магазин 2004 года под идущими часами. P9 changes how we read P1 или Looking back… — оба начала подходят.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "P1 separates the mill’s closure in 1998 from the power failure in January 2011. The narrator’s old caption collapsed those events into a single symbolic ending. P9 shows why that matters beyond chronology: Noor’s family opened its grocery store in 2004, and their opening photograph includes the still-running clock. The caption therefore overlooked a period of new activity rather than simply getting a date wrong. P15 returns to this problem by presenting several current lives without making any one stand for the whole town. P7 and P14 establish a different distinction. Inside the tower, parts from several periods coexist, so moving a face is not equivalent to restoring the surviving historic mechanism. The workbench test in P14 shows that one proposed drive can move a temporary dial under test conditions. It does not establish weather performance, operation of the second face, a bell schedule, or future maintenance. Both pairs of passages warn against letting a visible image claim more than its evidence supports."
-        ],
-        "hint": "Сначала разделите события и результаты, затем объясните, почему различие важно.",
-        "explanation": "Нужны две причинно-смысловые связи, а не четыре независимых цитаты. Магазин появился между закрытием и поломкой, поэтому неверная подпись делает новую жизнь невидимой. Технический тест имеет другой предмет: возможность движения одного циферблата в заданных условиях. Он не доказывает состояние исторических деталей и согласованность звукового режима. Не называй тест неудачным: движение состоялось. Точное ограничение делает результат пригодным для решения, а не отменяет его."
+        ]
       },
       {
         "id": "e3",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Свидетельства и позиции, 10 минут. Для куратора напишите 150–190 английских слов: сопоставьте P3, P4–P6 и P10–P11. Объясните, что позволяют утверждать взнос работников, воспоминание Аники, коллекция интервью и 54 наклейки. Выберите два случая, где сильный вывод не поддержан. Сохраните полезность источников; не называйте отсутствие доказательства доказательством противоположного.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
+        "practiceStage": "guided",
+        "prompt": "Свяжи P7 с P14. Напиши 2–3 предложения: что показал тест на верстаке и на какие вопросы он не отвечает.",
+        "context": "dial — циферблат; drive — привод, механизм, который двигает стрелки; deliverable — результат работы, который сдают заказчику.",
+        "guidance": {
+          "title": "Результат считается — но назови, что он решает",
+          "body": "Сначала скажи, что результат действительно показал. Потом перечисли вопросы, на которые он не отвечает. Так результат остаётся полезным и не выдаёт себя за большее.",
+          "example": "The trial run shows that the new pump can lift water to the roof tank; it does not tell us how it will cope with winter.",
+          "translation": "Пробный запуск показывает, что новый насос поднимает воду в бак на крыше; как он справится зимой, неизвестно."
+        },
+        "hint": "В P7 Калеб различает два результата работы. Какие именно?",
+        "answers": [
+          "P7 separates two deliverables: making a face move with a new electric drive and restoring the surviving historic mechanism. The workbench test in P14 shows that one proposed drive can move a temporary dial under test conditions. It does not settle weather exposure, the second face, the historic parts, the bell, or long-term care.",
+          "Looking back at P7, P14 shows a real but limited success: a temporary dial moved smoothly on Caleb's test equipment. That is evidence for one drive, not a restored clock; the tower, the second face, the sound, and maintenance remain open."
+        ],
+        "explanation": "Засчитывается, если сказано, что тест прошёл (циферблат двигался), и названы минимум три вопроса, на которые он не отвечает. Называть тест неудачей неверно: движение состоялось.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "The payroll list supports the fact that workers contributed to the clock, while the newsletter records the company’s public presentation of the gift. Neither establishes whether a particular worker contributed willingly. Anika’s recollection is evidence of how she remembers a signal being used, but the three surviving scheduling sheets do not confirm the tower’s setting or a pay practice. Calling the clock an instrument of discipline for half a century would therefore outrun the evidence. The interview collection remains valuable because it preserves individual accounts; its recruitment through reunion groups nevertheless limits any claim that it represents Pine Bend as a whole. Similarly, the sticker board records preferences among fifty-four participants in one exercise. Thirty-one preferred a running clock, but the exercise did not define the mechanism or establish a town-wide mandate. These limitations call for more precise labels and further questions, not the rejection of memories, documents, or the meeting itself."
-        ],
-        "hint": "Для каждого утверждения проверьте группу, период, показатель и способ получения сведений.",
-        "explanation": "Разные источники отвечают на разные вопросы. Платёжная ведомость не сообщает согласие работника, расписание не устанавливает расчёт зарплаты, число интервью не устраняет способ отбора. Наклейки полезны как наблюдение о конкретном упражнении, но не как доказательство позиции всех жителей. Можно оспорить другие два чрезмерных вывода, если ответ явно показывает недостающую связь. Недопустимо заменять «не доказано принуждение» на «все платили добровольно» или отсутствие интервью новых жителей на догадку об их единой позиции."
+        ]
       },
       {
         "id": "e4",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Риторика и лексика, 8 минут. Напишите 130–170 английских слов для редакционного семинара. Объясните по контексту три выражения: “declining to take sides” в P1, “age was distributed unevenly” в P7 и “making room for a wish” в P13. Для каждого дайте прямую перифразу и объясните его роль. Затем предложите одно собственное предложение с одним из выражений в новой вымышленной ситуации; не переносите часы.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
+        "practiceStage": "guided",
+        "prompt": "Сравни два источника из M1: платёжный список (P3) и коллекцию из шестидесяти двух интервью (P10). Напиши куратору 2–3 предложения: что каждый может установить и на какой вопрос не отвечает.",
+        "context": "",
+        "guidance": {
+          "title": "Вспоминаем: каждый источник в своих границах",
+          "body": "Вспоминаем урок о критическом чтении: вывод не шире доказательства. Для каждого источника назови, что он записывает, и один вопрос, на который он не отвечает. Бесполезным источник от этого не становится.",
+          "example": "The visitor log records who signed in, not who stayed for the whole talk.",
+          "translation": "Журнал посетителей показывает, кто расписался, а не кто остался до конца лекции."
+        },
+        "hint": "Что записывает платёжный список — чувства или удержания? И через кого собирали интервью?",
+        "answers": [
+          "The payroll list establishes that money for the clock was deducted from workers' pay, but not whether any worker gave it willingly. The sixty-two interviews preserve valuable individual accounts, yet because most came through two reunion groups, they cannot represent Pine Bend as a whole.",
+          "The payroll list records deductions, not consent or feelings. The interview collection records what sixty-two people remember, but its recruitment through reunion groups leaves out temporary workers, families who moved away, and newer residents."
+        ],
+        "explanation": "Засчитывается, если для каждого источника названо, что он записывает, и чего не может показать: согласие рабочих; весь город. Хорошо, если сказано, что источники от этого не становятся бесполезными.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "In P1, “declining to take sides” personifies the stopped clock: it cannot distinguish morning from evening, rather than literally choosing neutrality. The playful opening also introduces the article’s concern with competing perspectives. In P7, “age was distributed unevenly” means that the clock contains components installed in different periods. It challenges the simple visual impression of one uniformly old object. In P13, “making room for a wish” means allowing Roy’s desire for the bell to coexist with other needs without presenting his preference as universal. The spatial image turns an apparently weaker claim into a more inclusive one. A new context might be: “By adding a quiet study room, the school was making room for a wish that the busy group schedule had overlooked.” Here, too, making room refers both to practical provision and to recognizing a previously neglected preference."
-        ],
-        "hint": "Не переводите отдельные слова: объясните, какую работу выражение делает в аргументе.",
-        "explanation": "Перифраза должна передать значение выражения именно в статье. У часов нет политической позиции: это олицетворение, связанное с неподвижностью и дальнейшими разногласиями. Возраст распределён между деталями разных лет, а не между жителями. В третьем случае речь идёт о совместимости частной просьбы с чужими потребностями. Собственный пример проверяет перенос значения; он не обязан повторять тему истории или содержать все три выражения. Объяснение эффекта может быть иным, если опирается на контекст."
+        ]
       },
       {
         "id": "e5",
-        "kind": "write",
-        "prompt": "Самостоятельная аргументация, 15 минут. Теперь откройте m2. Напишите для местного журнала статью-ответ 260–320 английских слов с собственным заголовком. Защитите позицию о том, как стоит представить восстановление часов публике. Обязательно соедините техническое различие P7/P14, историческое свидетельство P3–P6 и современную перспективу P9/P12. Представьте сильную версию довода Мартина и ответьте на неё. Не выдумывайте смету, договор или дату запуска.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
-        "materialIds": [
-          "m1",
-          "m2"
-        ],
+        "revision": 1,
+        "kind": "rewrite",
+        "practiceStage": "guided",
+        "prompt": "Две фразы в M1 выходят за свои источники: подпись на выставке The clock disciplined workers for half a century (P6) и слова Мартина на встрече The town chose restoration (P11). Перепиши каждую так, чтобы она говорила ровно то, что показывают источники.",
+        "context": "",
+        "guidance": {
+          "title": "Сузить вывод, сохранив свидетельство",
+          "body": "Не меняй сильное утверждение на противоположное. Оставь то, что источник действительно показывает, и назови его охват: кто, когда, сколько.",
+          "example": "Not \"Everyone loved the old market,\" but \"Most of the vendors we interviewed remember the old market fondly.\"",
+          "translation": "Не «Все любили старый рынок», а «Большинство опрошенных продавцов вспоминают старый рынок с теплом»."
+        },
+        "hint": "Что именно показывают три листа 1978 года? Сколько человек подошли к доске с наклейками?",
         "answers": [
-          "Let the Clock Tell More Than One Story\n\nPine Bend can support visible progress on its tower without pretending that either the machine or the town has a single past. The campaign should explain what work it is proposing and let different accounts remain distinct. A more qualified description need not be a less engaging one.\n\nThe technical distinction is essential. The tower contains components from several periods, and a new drive could make a face move without restoring the surviving mechanical system. The successful workbench test is worth reporting, but it is evidence about a dial under test conditions. It supplies neither a launch date nor an answer about sound and maintenance.\n\nHistorical interpretation needs similar care. Employee contributions complicate the company’s description of a gift, but the surviving records do not establish individual consent. Anika’s account raises a question about time as a workplace signal without proving a particular pay practice. Displaying those sources separately would invite inquiry without replacing a celebratory myth with an equally unsupported accusation.\n\nMartin’s strongest point is that a visible result can attract attention and sustain slower work. A campaign burdened with every unresolved detail may lose its audience. The answer is therefore a clear description of a limited first result, not an indefinite refusal to begin.\n\nThe public story should also include people whose lives continued or began after the closure. Noor’s opening photograph and Dana’s request for quiet hours show why belonging and present-day use cannot be settled by nostalgia. Roy’s support for the bell can remain part of that story without speaking for every resident. The center should publish the option it is exploring, identify the decisions still open, and invite accounts beyond its existing reunion networks."
+          "1) Three daily sheets from 1978 show lunch breaks ending five minutes before the hour, and Anika remembers the tower being set ahead for several months in the late seventies; why the breaks ended then and how pay was affected are not recorded. 2) Of the fifty-four people who used the sticker board, thirty-one preferred a running clock.",
+          "1) Anika recalls the tower clock being set five minutes fast for a few months in the late 1970s, and three 1978 schedules show early-ending lunch breaks; the records do not explain why. 2) Most of the people who used the board at the open meeting, thirty-one of fifty-four, chose a running clock."
         ],
-        "hint": "Начните с собственной ограниченной позиции, затем выбирайте доказательства под неё.",
-        "explanation": "Это законченный ответ со своей позицией, а не обзор всех пятнадцати абзацев. Обязательные три линии связаны принципом точного публичного обещания: технический результат, исторический смысл и нынешнее использование требуют разных оснований. Довод Мартина представлен в сильной форме — видимый успех может поддержать дальнейшую работу. Ответ не приписывает ему намерение обмануть. Допустимо рекомендовать другое направление проекта, но нужны те же границы: подарок оплачивает осмотр, дата и контракт не согласованы, предпочтения участников не равны единому решению города."
+        "explanation": "Засчитывается, если в первой фразе остались листы 1978 года и воспоминание Аники с их периодом, а «полвека» и «дисциплинировали» убраны; во второй — 31 из 54 участников вместо «город выбрал». Противоположный вывод («часы никого не дисциплинировали») тоже был бы ошибкой.",
+        "materialIds": [
+          "m1"
+        ]
       },
       {
         "id": "e6",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Рабочая медиация, 12 минут. Не открывая m3, напишите правлению исторического центра самостоятельный brief 180–230 английских слов. Правление не читало вашу статью. Назовите ближайшее решение, три разных вопроса, которые оно не решает автоматически, и один выполнимый шаг по расширению свидетельств. Включите точные результаты наклеек с подходящей группой сравнения. Завершите предлагаемой публичной формулировкой, сохраняющей неизвестную дату.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
-        "materialIds": [
-          "m1",
-          "m2"
-        ],
+        "practiceStage": "guided",
+        "prompt": "Объясни по контексту два выражения: declining to take sides (P1) и age was distributed unevenly (P7). Для каждого — прямая перифраза и что выражение делает в статье, по 1–2 предложения.",
+        "context": "",
+        "guidance": {
+          "title": "Перифраза и работа фразы",
+          "body": "Перифраза — то же самое прямыми словами. Потом скажи, зачем автор выбрал образ: шутка, ирония, поворот к главному вопросу или поправка к первому впечатлению.",
+          "example": "In the opening, \"the river refused to cooperate\" simply means the water was too high; the image also hints that nature will be the story's real opponent.",
+          "translation": "В начале «река отказалась сотрудничать» значит просто, что вода стояла слишком высоко; но образ намекает, что настоящим противником в истории станет природа."
+        },
+        "hint": "Что видит прохожий снизу и что Калеб находит внутри шкафа?",
         "answers": [
-          "The board should first decide which outcome it is asking a specialist to assess: making a clock face run or restoring the surviving historical mechanism. Those are different projects. The preliminary inspection gift and the successful test of a temporary dial do not establish funding for either option or a completion date.\n\nThat choice would not automatically settle three further questions: how the historic components should be treated, when the bell should sound, and who will maintain the installation. Roy’s wish for a bell and Dana’s request for quiet hours need to be discussed as distinct, potentially compatible preferences.\n\nThe meeting exercise offers a useful starting point, not a town-wide decision. Of fifty-four people who used the sticker board, thirty-one selected a running clock, seventeen a stationary mechanism, and six an empty tower. Running was not defined precisely enough to choose a technical option.\n\nTo broaden the evidence base, the center could invite interviews through current businesses and contacts beyond the two reunion groups. Noor’s photograph would add a documented post-closure perspective, while new interviews should remain an invitation until completed.\n\nSuggested public wording: “We are examining options for the tower clock and inviting accounts of its place in Pine Bend. No restoration option or completion date has yet been confirmed.”"
+          "In P1, \"declining to take sides\" means that the stopped clock shows neither morning nor evening, since its two faces show different times. The joke also introduces the article's real subject: competing points of view. In P7, \"age was distributed unevenly\" means that the clock contains parts from different periods: original gears, a 1960s motor and a 1994 controller. It corrects the impression from the sidewalk that the clock is one uniformly old object.",
+          "\"Declining to take sides\" turns a broken clock into a polite neutral party: it simply doesn't commit to any hour, which prepares us for a story about people who disagree. \"Age was distributed unevenly\" says that some parts are old and some are recent; it warns us that restoring \"the old clock\" could mean several different things."
         ],
-        "hint": "Сократите историю до решений и условий, которые нужны именно правлению.",
-        "explanation": "Рабочий brief должен быть полезен человеку без всей статьи. Он различает выбор результата, уход за историческими деталями, расписание звука и обслуживание. Числа наклеек относятся к людям, участвовавшим в упражнении; исходный материал до m3 не устанавливает общее число всех посетителей встречи. Новый контакт или приглашение не считается уже собранным свидетельством. Публичная фраза допускает движение проекта, но не превращает осмотр или тест в оплату и завершение работ. Другая организация допустима при сохранении этих смысловых границ."
+        "explanation": "Засчитывается, если у каждого выражения есть перифраза по контексту (часы не показывают ни утро, ни вечер; детали разных лет) и названа его работа в статье (вводит тему разных точек зрения; поправляет впечатление «одни старые часы»).",
+        "materialIds": [
+          "m1"
+        ]
       },
       {
         "id": "e7",
+        "revision": 1,
+        "kind": "rewrite",
+        "practiceStage": "guided",
+        "prompt": "Только теперь открой M3. Вот две фразы из твоего черновика. Поправь каждую: что заменить, что сузить, что оставить. 1) Roy remembers that the whole town used to listen to the bell. 2) Fifty-four people put stickers on the board, so 57 percent of the meeting chose a running clock.",
+        "context": "",
+        "guidance": {
+          "title": "Точечная правка после позднего источника",
+          "body": "Не выбрасывай фразу целиком. Найди, что именно меняет новый источник — контекст цитаты или знаменатель, — и поправь только это. Остальное оставь.",
+          "example": "Not \"The survey shows residents oppose the plan,\" but \"Of the 40 people who returned the survey, 26 opposed the plan; we don't know how many received it.\"",
+          "translation": "Не «Опрос показывает, что жители против плана», а «Из 40 человек, вернувших анкету, 26 против; сколько людей её получили, неизвестно»."
+        },
+        "hint": "Что было в предложении перед цитатой Роя? И известно ли, сколько всего людей пришло на встречу?",
+        "answers": [
+          "1) In his full interview, Roy says the whole town used to listen while recalling a winter in 1973 when his usual bus was not running; he still wants a working bell. 2) Thirty-one of the fifty-four different people who used the sticker board chose a running clock; the total attendance at the meeting is unknown.",
+          "1) Roy's line about the whole town listening comes from a specific memory of the winter of 1973, when his bus wasn't running; the exhibition should identify that memory and link to the complete interview. 2) Of the fifty-four attendees who placed stickers, each placing one, thirty-one preferred a running clock; we can't give a share of everyone at the meeting."
+        ],
+        "explanation": "Засчитывается, если цитата Роя получила свой контекст (зима 1973 года, автобус), а его желание колокола сохранено; во второй фразе 57 процентов «встречи» заменены на 31 из 54 участников и сказано, что общее число пришедших неизвестно.",
+        "materialIds": [
+          "m1",
+          "m3"
+        ]
+      },
+      {
+        "id": "e8",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "independent",
+        "prompt": "Открой M2. Напиши для местного журнала статью-ответ на 250–300 слов со своим заголовком. Что должно быть: твоя позиция о том, как представить восстановление часов публике; техническое различие из P7 и P14; историческое свидетельство из P3–P6; нынешний взгляд из P9 и P12; сильная версия довода Мартина и твой ответ на неё. Не выдумывай смету, договор или дату запуска.",
+        "context": "",
+        "hint": "Начни с собственной ограниченной позиции, а потом выбирай под неё опоры из разных частей статьи.",
+        "answers": [
+          "Let the Clock Tell More Than One Story\n\nPine Bend can support visible progress on its tower without pretending that either the machine or the town has a single past. The campaign should say exactly what work it proposes and let different accounts stay distinct.\n\nThe technical distinction comes first. The tower holds parts from several periods, and a new drive could make a face move without restoring the surviving mechanism. The successful workbench test is worth reporting, but it is evidence about one dial under test conditions. It supplies neither a launch date nor an answer about sound and maintenance.\n\nHistory needs the same care. Workers' contributions complicate the company's description of a gift, but the records do not show how any worker felt. Anika's memory raises a real question about the clock as a workplace signal without proving anything about pay. Showing these sources side by side would invite inquiry instead of replacing one tidy myth with another.\n\nMartin's strongest point is that a visible result can attract attention and keep the slower work alive. A campaign buried under qualifications may lose its audience. The answer is not to wait indefinitely, but to describe a limited first result clearly.\n\nThe public story should also include people whose lives in Pine Bend began after the mill closed. Noor's photograph of her family's store under a running clock, and Dana's request for quiet hours, show that belonging cannot be settled by nostalgia. Roy's love of the bell belongs in that story too, without speaking for everyone. The center should publish the option it is exploring, name the decisions still open, and invite accounts beyond its reunion groups."
+        ],
+        "explanation": "Засчитывается, если есть своя позиция и все три линии (техника, история, современность), довод Мартина представлен в сильной форме, а смета, договор и дата не выдуманы. Можно защищать и другое направление проекта при тех же границах доказательств.",
+        "materialIds": [
+          "m1",
+          "m2"
+        ]
+      },
+      {
+        "id": "e9",
+        "revision": 1,
         "kind": "speak",
-        "prompt": "Поздний источник, 8 минут. Только теперь откройте m3. Произнесите редактору ответ 130–170 английских слов, примерно 75–100 секунд. Объясните, какую конкретную формулировку о Рое следует уточнить, что остаётся верным и чего новая запись не доказывает. Затем решите, как обращаться с цифрами встречи. Запишите речь или её текст; текстовая версия проверяет формулировки, запись дополнительно позволяет прослушать подачу. Это сценарная репетиция, а не живой разговор.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
+        "practiceStage": "independent",
+        "prompt": "Ты выступаешь на заседании правления исторического центра; статью они не читали. Говори 2–3 минуты, используй M1–M3. Что должно быть: какое решение правлению нужно принять первым; три вопроса, которые это решение само не закрывает; цифры наклеек с правильной группой сравнения; один выполнимый шаг, чтобы расширить круг свидетельств; публичная фраза, где дата остаётся неизвестной. Запиши себя и проверь по записи, все ли пункты прозвучали.",
+        "context": "",
+        "hint": "Сократи всю статью до того, что нужно правлению для решения: выбор → открытые вопросы → цифры → следующий шаг → фраза для публики.",
+        "answers": [
+          "Thank you. I'll keep this to the decisions in front of you.\n\nFirst, you need to decide what you're asking a specialist to assess. Making a clock face run with a new drive and restoring the surviving historic mechanism are two different projects. The inspection gift and Caleb's successful test with a temporary dial don't pay for either one, and they don't give us a completion date.\n\nThat first choice won't settle three other questions. How should the historic parts be treated? When should the bell sound? Roy wants to hear it, and Dana has asked for quiet after ten, and those two wishes may well be compatible. And who will maintain the clock over the long term?\n\nOn public opinion: fifty-four different people used the sticker board at the open meeting, and thirty-one of them chose a running clock. That's a useful starting point. But we don't know how many people attended, and the board wasn't a town survey, so please don't describe it as the town's decision.\n\nOne practical step: invite interviews through current businesses and contacts outside the two reunion groups, starting with the grocery store across the street. Until those interviews are done, we should call them an invitation, not a collection.\n\nFinally, here's wording I'd suggest for the public: \"We are exploring options for the tower clock and collecting stories about its place in Pine Bend. No restoration plan or completion date has been confirmed yet.\""
+        ],
+        "explanation": "Засчитывается, если правлению названо первое решение (какой результат оценивать), три открытых вопроса (исторические детали, колокол, обслуживание), 31 из 54 участников без доли от всех пришедших, выполнимый шаг и публичная фраза без даты. Оценивай по своей записи.",
         "materialIds": [
           "m1",
           "m2",
           "m3"
-        ],
-        "answers": [
-          "I would revise the description of Roy’s recorded memory to identify the winter in 1973 and the disruption to his usual bus. The isolated quotation made the memory sound less specifically situated than the complete recording allows. That is a reason to restore the context and link to the full interview, not to claim that Roy invented the words or that nobody listened in other years. His support for a working bell also remains unchanged.\n\nI would retain the sticker figures. The new check confirms that fifty-four different people placed them, so we should not suggest that a few attendees voted repeatedly. However, we still cannot report the proportion of all meeting attendees, because that total is unknown. The appropriate comparison remains the fifty-four participants in the board exercise. These are targeted revisions: they improve attribution and scope without erasing useful evidence."
-        ],
-        "hint": "Пересматривайте конкретное утверждение: источник, период, числитель, знаменатель.",
-        "explanation": "Новое сообщение не подтверждает удобную противоположность старой истории. Уточняется конкретный зимний контекст Роя; желание восстановить колокол остаётся. Нельзя обвинять запись в выдуманных словах: слова подлинные, удалён контекст. Проверка наклеек устраняет сомнение о повторном голосовании, но не добавляет неизвестный знаменатель всех посетителей. Хороший ответ говорит, какие предложения изменить, а какие сохранить. В тексте оценивается смысл; плавность, интонация и слышимая реакция требуют реальной аудиозаписи и не выводятся из правильной расшифровки."
+        ]
       },
       {
-        "id": "e8",
+        "id": "e10",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Отсроченный перенос: через 24–48 часов откройте только m4 и это задание, не перечитывая свои ответы про часы. Напишите руководителю радиостанции внутреннюю рекомендацию 180–230 английских слов. Объясните, как описать коллекцию, как представить воспоминания и технический тест, что нужно проверить до объявления запуска и как включить отсутствовавшую перспективу. Включите одну готовую публичную фразу. Все необходимые факты есть в m4; не переносите детали Pine Bend.",
-        "context": "Авторский учебный материал. Все люди, место и события вымышлены. Сначала собственная попытка, затем образец. Разные обоснованные формулировки допустимы.",
+        "practiceStage": "independent",
+        "prompt": "Перенос на новый случай. Лучше через 24–48 часов: открой только M4 и не перечитывай свои ответы о часах. Напиши руководителю радиостанции внутреннюю рекомендацию на 180–230 слов. Что должно быть: как описать коллекцию; как подать воспоминания и технический тест; что проверить до объявления запуска; как включить недостающую точку зрения; одна готовая публичная фраза. Все нужные факты есть в M4; детали Pine Bend не переносить.",
+        "context": "",
+        "hint": "Ищи в новых фактах те же отношения: кто отобрал материал, чьего голоса нет, что проверил тест и что ещё не разрешено.",
+        "answers": [
+          "The proposed series should be presented as eighteen surviving programs selected by their former host, not as the soundtrack of every teenager's life. The selection is valuable but cannot show universal reach, especially when one former teenager remembers being unable to receive the station. Her account does not cancel the two listeners' warm memories; it marks their limits.\n\nThe host's original introductions should be clearly separated from present-day commentary. Keeping his occasional mistakes can serve a historical purpose if listeners can tell what was said then and what the station knows now. We should agree on that format with him without implying that broadcast permission has already been secured.\n\nThe studio test confirms that the digital files can be played. It does not establish permission to broadcast them or a launch date, and both need confirmation before any announcement promises a series.\n\nI recommend using the offered interview slot to seek accounts from people who did not listen, including those in neighborhoods with poor reception. The student's proposal is a practical next step, but no interview should be advertised until it has taken place.\n\nA suitable public description: \"We are exploring a series based on a former host's archive and inviting different memories of local radio; broadcast arrangements are not yet confirmed.\""
+        ],
+        "explanation": "Засчитывается, если коллекция описана как отбор одного ведущего, воспоминания и отсутствие приёма поданы рядом, тест отделён от разрешения и даты, предложено интервью с теми, кто не слушал, и есть публичная фраза без обещаний. Ошибка — перенести сюда 54 наклейки, колокол или механизм.",
         "materialIds": [
           "m4"
-        ],
-        "answers": [
-          "The proposed series should be presented as eighteen surviving programs selected by their former host, not as the soundtrack of every teenager’s life. The selection is valuable but cannot establish universal reach, particularly when one former teenager recalls being unable to receive the station. Her account does not invalidate the two listeners’ warm memories; it makes the boundaries of those memories clearer.\n\nThe host’s original introductions should be distinguishable from present-day commentary. Preserving occasional mistakes can serve a historical purpose if listeners can tell what was said then and what the station knows now. We should discuss that presentation with the host without implying that broadcast permission has already been secured.\n\nThe studio test confirms that digital files can be played. It does not establish permission to broadcast them or a launch date. Those matters need confirmation before an announcement promising a series.\n\nI recommend using the offered interview slot to seek accounts from nonlisteners and neighborhoods with different reception. The student’s proposal is a practical next step, but no completed interview should be advertised yet.\n\nA suitable public description would be: “We are exploring a series based on a former host’s archive and inviting different memories of local radio; broadcasting arrangements are not yet confirmed.”"
-        ],
-        "hint": "Ищите те же отношения в новых фактах; оставьте прежние имена и числа за пределами ответа.",
-        "explanation": "Независимый случай проверяет перенос способа чтения, а не воспроизведение готового вывода про часы. Восемнадцать программ отобраны одним человеком; это ограничивает охват, но не делает материал бесполезным. Два воспоминания и один опыт отсутствия приёма могут сосуществовать. Тест воспроизведения отделён от разрешения и даты. Запланированное интервью ещё не состоялось. Смысловая ошибка — добавить сюда 54 участника, исторический механизм или решение о колоколе. После ответа сравни критерии и отметь одну реальную сильную сторону и один предел своего переноса."
+        ]
       }
     ],
     "generated": true,
-    "provenance": {
-      "kind": "original-fictional-longform",
-      "authorship": "Original English text and exercises authored for this application. No adapted commercial passage or external transcript.",
-      "review": "Agent whole-text evidence review: chronology, claim/source scope, distant links, answer-grounding, US spelling, independent transfer.",
-      "sourceWordCount": 2023
+    "keyRule": {
+      "rule": "Прочитай всё, потом сверяй: что поздний абзац меняет в раннем — дату, охват или смысл?",
+      "example": "P9 changes how we read P1: the clock was still running when the grocery store opened in 2004. — Абзац 9 меняет чтение абзаца 1: часы ещё шли, когда в 2004 году открылся магазин.",
+      "check": "Какая поздняя деталь заставила тебя перечитать начало статьи?"
     }
   }
 ]

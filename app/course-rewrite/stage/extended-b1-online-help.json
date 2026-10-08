@@ -1,0 +1,325 @@
+{
+  "id": "extended-b1-online-help",
+  "title": "Помощь в чате: ответить по делу и поправить недоразумение",
+  "subtitle": "Ответ на сам вопрос → шаги по порядку → by или until → что письмо значит и чего не значит → проверка следующего шага",
+  "level": "B1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 50,
+  "goal": "Помочь человеку в клубном чате: сразу ответить на его вопрос, объяснить шаги регистрации по порядку, мягко поправить, если он понял письмо не так («Это письмо значит, что форма дошла, но не значит, что место твоё»), и проверить, что он будет делать дальше.",
+  "formula": "You don't need… → First, … Then, … → If…, … → by Thursday · until 5 p.m. → That means…, but it doesn't mean… → Could you tell me when you'll…?",
+  "keyRule": {
+    "rule": "Сначала ответь на сам вопрос. Потом дай шаги по порядку: First…, then…",
+    "example": "You don't need an account. First, open the event page. — Аккаунт не нужен. Сначала открой страницу мероприятия.",
+    "check": "Человек спросил про аккаунт — твоя первая фраза о нём?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-email-basic",
+    "path-zero-first",
+    "path-polite-questions",
+    "path-repair-conversation"
+  ],
+  "recycles": [
+    "path-zero-first",
+    "path-polite-questions"
+  ],
+  "teaches": [
+    "ответ в общем чате: имя → ответ на сам вопрос → шаги; About your question, … если сообщений много",
+    "инструкция: глагол в начале (Open…, Enter…), порядок через First, then, after that; у каждого шага свой глагол",
+    "условие в инструкции: If no offer arrives…, When you get…, — без will",
+    "by — крайний срок (reply by Thursday), until — длится до момента (in the chat until 5 p.m.)",
+    "поправить понимание письма: That email means…, but it doesn't mean…",
+    "не утверждать неизвестное: I'm not sure if…; Could you check if…?",
+    "проверка не Is that clear?, а следующий шаг: Could you tell me when you'll reply?; Now that we know…, …",
+    "слова: event page, club account, session, place offer, accept, deadline, confirm, inbox"
+  ],
+  "sources": [
+    {
+      "title": "English Current · The difference: by & until/till",
+      "url": "https://www.englishcurrent.com/grammar/difference-by-until-till-prepositions-exercises/",
+      "notes": "Сверено: by — крайний срок, действие можно сделать и раньше (finish the report by Friday); until — действие или состояние длится до момента и заканчивается (open until 9 p.m.); until не сочетается с короткими действиями вроде start."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Как ответить в чате на вопрос новичка",
+      "body": "В клубном чате Нина пишет: хочу на субботний семинар, этим сайтом ещё не пользовалась — с чего начать и нужен ли аккаунт клуба? Рядом Омар рассказывает о прошлой встрече, а Бет — о своих делах. Отвечать надо Нине.\n\nНачни с имени: в общем чате так видно, кому ответ. Потом сразу ответ на её вопрос — нужен аккаунт или нет. Так же с любым вопросом: Jen, the class is free — Джен, занятие бесплатное. Потом шаги. Если сообщений много, свяжи ответ с вопросом: About your question, … — «насчёт твоего вопроса…».\n\nНе пересказывай чат и не начинай с долгих объяснений. Сначала то, что нужно человеку, потом подробности. Встречный вопрос задавай, только если без него нельзя дать совет."
+    },
+    {
+      "title": "Шаги по порядку: First, then, after that",
+      "body": "Инструкцию пишут глаголом в начале фразы: Open the page — открой страницу. Enter your name — введи имя. Choose a session — выбери занятие. Порядок показывают first — «сначала», then — «потом», after that — «после этого».\n\nУ каждого шага свой глагол. Отправить форму, ждать письма и ответить на него — три шага. Слить их в один нельзя: Send the form and reply — между ними человек ждёт.\n\nУсловие пиши с if или when, как в уроке об условиях: после них настоящее время, без will. If the link doesn't work, write to me here — если ссылка не откроется, напиши мне сюда."
+    },
+    {
+      "title": "By или until: два разных «до»",
+      "body": "По-русски «пришли до понедельника» и «открыто до воскресенья» — одно и то же «до». По-английски это разные слова.\n\nBy — крайний срок: успеть сделать не позже этого момента. Please send the photo by Monday at noon — пришли фото не позже понедельника, 12:00. Прислать в воскресенье — тоже хорошо.\n\nUntil — что-то длится до этого момента, а потом заканчивается. The page stays open until Sunday — страница открыта до воскресенья. К короткому действию until не подходит: reply until Thursday — ошибка. Проверь себя: надо успеть — by. Надо продолжать — until."
+    },
+    {
+      "title": "Человек понял не так: что письмо значит и чего не значит",
+      "body": "Омар получил письмо We have received your registration form и решил, что место его. Но по инструкции это только автоответ: форма дошла. Место подтверждают позже, другим письмом.\n\nПоправляй смысл письма, а не внимательность человека. Скажи, что письмо значит и чего оно не значит: That text means the doctor got your request, but it doesn't mean you have an appointment — это сообщение значит, что врач получил твой запрос, но не значит, что ты записан. Не пиши You didn't read the guide или obviously — «очевидно»: это упрёк.\n\nНе утверждай того, чего не знаешь. Ты не видишь чужую почту. Поэтому не It didn't arrive, а I'm not sure if it has arrived yet — «не знаю, пришло ли оно уже». И попроси проверить: Could you check your spam folder?"
+    },
+    {
+      "title": "Проверь не «понятно?», а следующий шаг",
+      "body": "На вопрос Is that clear? — «понятно?» — почти всегда отвечают yes. Это ничего не проверяет. Лучше попроси назвать следующий шаг: Could you tell me when you'll reply? — «скажешь, когда ответишь?». Ответ сразу покажет, понял ли человек.\n\nЕсли появились новые сведения, обнови совет и скажи почему: Now that we know the deadline, … — «теперь, когда мы знаем срок, …». Прежний совет не был ошибкой: тогда срока ещё не знали.\n\nИсправляй одну важную деталь. Если человек понял всё, кроме срока, говори про срок, а не повторяй всю инструкцию."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Hi Kim! The meeting is online this week. Here's the link.",
+      "ru": "Привет, Ким! На этой неделе встреча онлайн. Вот ссылка.",
+      "why": "Имя показывает, кому ответ. Первая фраза отвечает на вопрос, вторая даёт то, что нужно для следующего шага."
+    },
+    {
+      "en": "First, choose a photo. Then add a short description. After that, click \"Save.\"",
+      "ru": "Сначала выбери фото. Потом добавь короткое описание. После этого нажми «Сохранить».",
+      "why": "Каждый шаг — свой глагол в начале фразы. В американском письме точка стоит внутри кавычек: \"Save.\""
+    },
+    {
+      "en": "When you get the address, check which bus goes there.",
+      "ru": "Когда получишь адрес, посмотри, какой автобус туда идёт.",
+      "why": "Речь о будущем, но после when — get, без will."
+    },
+    {
+      "en": "Please upload your photo by Tuesday. The gallery stays open until Friday.",
+      "ru": "Загрузи фото не позже вторника. Галерея открыта до пятницы.",
+      "why": "By — успеть к сроку. Until — галерея открыта всё время до пятницы, потом закрывается."
+    },
+    {
+      "en": "That message means your payment went through, but it doesn't mean your order has shipped.",
+      "ru": "Это сообщение значит, что оплата прошла, но не значит, что заказ уже отправили.",
+      "why": "Сначала что сообщение значит, потом чего не значит. Go through — пройти (об оплате). Упрёка человеку нет."
+    },
+    {
+      "en": "Now that the room has changed, please use the side entrance. Which entrance will you use?",
+      "ru": "Раз помещение поменялось, заходи через боковой вход. Через какой вход ты пойдёшь?",
+      "why": "Now that объясняет, почему совет новый. Вопрос просит назвать действие, а не просто сказать «понятно»."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Чат, часть 1: вопрос Нины",
+      "kind": "dialogue",
+      "text": "Nina: Hi everyone! I’d like to join Saturday’s map-making workshop. I’ve found the event page, but I’m new to the club and haven’t used this website before. Where do I start, and do I need to create a club account before I can register?\n\nOmar: I went to the drawing evening last month and really enjoyed meeting people. I’m interested in this workshop too, especially the part about drawing local streets. I’ll look at the event page during my lunch break today.\n\nBeth: Welcome, Nina! I’m helping with the room and materials this week. The registration guide is on the event page, just below the workshop description. I can stay in the chat for a few minutes while you look at it.",
+      "source": "Придумано для курса: люди и события вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Инструкция по регистрации",
+      "kind": "reference",
+      "text": "Registration guide: Saturday’s map-making workshop\n\n1. Open the event page and select “Register”. You do not need a club account. The form works in an ordinary web browser.\n\n2. Enter your name and email address, choose the morning or afternoon session, and send the form. An automatic receipt shows that your form arrived.\n\n3. Wait for a place offer by email. Reply to that email to accept the offer before the deadline stated in it.\n\n4. Read the final confirmation email. This confirms your place and gives the room details.\n\nOne exception: if no offer arrives within two days, contact the organizer at the address on the event page.",
+      "source": "Придумано для курса: люди и события вымышленные."
+    },
+    {
+      "id": "m3",
+      "title": "Чат, часть 2: сообщение Омара",
+      "kind": "dialogue",
+      "text": "Omar: I’ve just sent my form and received an email saying, “We have received your registration form.” Great, so my place is confirmed! I’ll put the workshop in my calendar and stop checking my email. I haven’t read anything else in the message yet.\n\nBeth: I can’t see your inbox, Omar, so I don’t know what else has arrived. The sentence you quoted is useful, though. Could someone explain which stage of the process that sentence describes?",
+      "source": "Придумано для курса: люди и события вымышленные."
+    },
+    {
+      "id": "m4",
+      "title": "Чат, часть 3: план Нины",
+      "kind": "dialogue",
+      "text": "Nina: I’ve now received a place offer for the morning session. I understand that I need to reply to accept it and then wait for the final confirmation. I’ll reply on Friday evening, when I have more time. The offer says, “Please accept by Thursday at 6 p.m.”\n\nBeth: Today is Wednesday. Nina, thanks for sharing the exact wording. We have enough information to check your plan now.",
+      "source": "Придумано для курса: люди и события вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1 и M2. Ответь Нине: «Нина, аккаунт клуба не нужен. Открой страницу мероприятия и нажми Register».",
+      "context": "club account — аккаунт клуба; event page — страница мероприятия; click — нажать (мышкой).",
+      "guidance": {
+        "title": "Сначала — ответ на вопрос",
+        "body": "Нина спросила, нужен ли аккаунт. Первая фраза — ответ именно на это, с её именем. Потом первый шаг: глагол в начале фразы.",
+        "example": "Hi Leo, you don't need a ticket. Just come to the front desk.",
+        "translation": "Привет, Лео, билет не нужен. Просто подойди к стойке у входа."
+      },
+      "hint": "Начни так: Nina, you don't need…",
+      "answers": [
+        "Nina, you don't need a club account. Open the event page and click \"Register.\"",
+        "Nina, you don't need a club account. Open the event page and click Register.",
+        "Nina, you don't need a club account. Open the event page and select \"Register.\"",
+        "Nina, you do not need a club account. Open the event page and click \"Register\".",
+        "Hi Nina, you don't need a club account. Open the event page and click \"Register.\""
+      ],
+      "explanation": "Ответ на вопрос стоит первым. Click и select здесь значат одно и то же. В американском письме точку обычно ставят внутри кавычек: \"Register.\"",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Продолжи ответ Нине по шагам 2 и 3 из M2. Напиши три короткие фразы: что ввести и выбрать, чего потом ждать и что сделать с письмом. Вторую начни с Then, третью — с After that.",
+      "context": "session — занятие; place offer — предложение места; accept — принять; deadline — срок.",
+      "guidance": {
+        "title": "Каждый шаг — свой глагол",
+        "body": "Отправить форму, ждать письма и ответить на него — разные шаги: между ними человек ждёт. Каждый начинай с глагола: enter, wait, reply.",
+        "example": "Fill out the form. Then wait for a text message. After that, show the text at the door.",
+        "translation": "Заполни форму. Потом дождись сообщения. После этого покажи его на входе."
+      },
+      "hint": "Найди в M2 три глагола из шагов 2 и 3: enter, wait, reply.",
+      "answers": [
+        "Enter your name and email address, choose the morning or afternoon session, and send the form. Then wait for a place offer by email. After that, reply to that email to accept the offer before the deadline.",
+        "Enter your name and email, choose a session, and send the form. Then wait for a place offer by email. After that, reply to accept it before the deadline in the email."
+      ],
+      "explanation": "Засчитывается, если три действия разделены и порядок как в M2: отправить форму → ждать предложения → ответить до срока. Сам срок пока неизвестен — он будет в письме, поэтому день недели не добавляй.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Добавь в ответ Нине условие из M2: «Если предложение не придёт в течение двух дней, напиши организатору».",
+      "context": "arrive — прийти (о письме); within two days — в течение двух дней; contact — связаться.",
+      "guidance": {
+        "title": "Вспоминаем: после if — без will",
+        "body": "Вспоминаем урок об условиях: речь о будущем, но после if стоит настоящее время — arrives. Will бывает только во второй части.",
+        "example": "If the bus doesn't come in ten minutes, take a taxi.",
+        "translation": "Если автобус не придёт через десять минут, возьми такси."
+      },
+      "hint": "Начни так: If no offer…",
+      "answers": [
+        "If no offer arrives within two days, contact the organizer.",
+        "If you don't get an offer within two days, contact the organizer.",
+        "If no offer arrives within two days, email the organizer.",
+        "If you don't receive an offer within two days, contact the organizer.",
+        "If an offer doesn't arrive within two days, contact the organizer.",
+        "If you don't get an offer within two days, email the organizer."
+      ],
+      "explanation": "После if — arrives или don't get, без will. Можно contact или email the organizer. If no offer will arrive — ошибка.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Бет пишет в чат два сообщения. Переведи: «Ответь на письмо не позже четверга, 18:00. Я буду в чате до пяти вечера».",
+      "context": "",
+      "guidance": {
+        "title": "By — успеть, until — продолжать",
+        "body": "Ответить — короткое действие, его надо успеть к сроку: by. Быть в чате — это длится, а потом заканчивается: until.",
+        "example": "Send me the file by noon. I'll be at my desk until three.",
+        "translation": "Пришли мне файл до полудня. Я буду на месте до трёх."
+      },
+      "hint": "Какое из двух действий длится, а какое надо успеть?",
+      "answers": [
+        "Reply to the email by Thursday at 6 p.m. I'll be in the chat until 5 p.m.",
+        "Please reply to the email by Thursday at 6 p.m. I'll be in the chat until 5 p.m.",
+        "Reply to the email by 6 p.m. on Thursday. I'll be in the chat until five.",
+        "Please reply by Thursday at 6 p.m. I will be in the chat until 5 p.m.",
+        "Reply to the email by Thursday at 6 p.m. I'll be in the chat until five p.m."
+      ],
+      "explanation": "By Thursday — не позже четверга: ответить в среду тоже можно. Until 5 p.m. — Бет в чате всё это время, потом уходит. Reply until Thursday — ошибка."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M3. Омар решил, что место его. Напиши ему одну фразу: что значит письмо, которое он получил, и чего оно не значит.",
+      "context": "confirm — подтвердить; arrive — дойти.",
+      "guidance": {
+        "title": "Что значит — и чего не значит",
+        "body": "Объясняй письмо, а не ошибку Омара. Сначала That email means…, потом but it doesn't mean… Так человек сразу видит обе части.",
+        "example": "That text means your table is booked, but it doesn't mean the food is paid for.",
+        "translation": "Это сообщение значит, что столик забронирован, но не значит, что еда оплачена."
+      },
+      "hint": "Что, по M2, показывает automatic receipt — автоматический ответ?",
+      "answers": [
+        "Omar, that email means your form arrived, but it doesn't mean your place is confirmed.",
+        "Omar, that email means we got your form, but it doesn't mean your place is confirmed yet.",
+        "That email means your form arrived, but it doesn't mean you have a place yet.",
+        "Omar, the email you quoted means your form arrived. It doesn't mean your place is confirmed.",
+        "Omar, that email means your form arrived, but it does not mean your place is confirmed."
+      ],
+      "explanation": "По M2 такое письмо — автоматический ответ: форма дошла. Место подтверждает последнее письмо. Yet подчёркивает «пока»: хорошо, но не обязательно.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Помощник клуба ответил Омару слишком резко: “Omar, you obviously didn't read the guide. You don't have a place. Check your email.” Перепиши сообщение: объясни, что значит его письмо, не утверждай того, чего не знаешь, и вежливо попроси проверить, есть ли письмо с предложением места.",
+      "context": "obviously — очевидно; inbox — входящие письма.",
+      "guidance": {
+        "title": "Вспоминаем: Could you check if…?",
+        "body": "Вспоминаем урок о вежливых вопросах: вопрос «да / нет» внутри Could you…? идёт через if, а порядок слов как в обычной фразе: if there's an offer email.",
+        "example": "Could you check if the door is locked?",
+        "translation": "Можешь проверить, заперта ли дверь?"
+      },
+      "hint": "Ты видишь почту Омара? Если нет, начни так: I'm not sure if…",
+      "answers": [
+        "Omar, the email you quoted means your form arrived, but it doesn't mean your place is confirmed. I'm not sure if you have a place offer yet. Could you check if there's an offer email in your inbox?",
+        "Omar, that email means we got your form. It doesn't confirm your place yet. I can't see your inbox, so I don't know if an offer has arrived. Could you check if there's an offer email?"
+      ],
+      "explanation": "Убраны упрёк (obviously, you didn't read) и неправда: что места нет, никто не знает — почту Омара не видно. Вопрос с if даёт ему ответить. После if — there's an offer, а не is there an offer.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Открой M4. Запиши Нине голосовое сообщение на 30–60 секунд. Что должно быть: что она поняла верно; в чём проблема с её планом (сравни её день со сроком в письме); что ей сделать и к какому сроку; вопрос, который проверит её следующий шаг. Сначала скажи, потом запиши текст и сверь с M4.",
+      "context": "Сегодня среда.",
+      "hint": "План: You're right that… → But… → Please reply by… → Could you tell me when…?",
+      "answers": [
+        "Nina, you're right that you need to reply to accept the offer and then wait for the final confirmation. But Friday evening is too late. The offer says to accept by Thursday at 6 p.m. Now that we know the exact deadline, please reply by Thursday, or even today. After that, look for the final confirmation with the room details. Could you tell me when you'll reply?"
+      ],
+      "explanation": "Засчитывается, если ты назвал верную часть плана, сравнил пятницу со сроком «четверг, 18:00», сказал by, а не until, и закончил вопросом о её следующем шаге, а не Is that clear? Не пугай, что место пропало: сегодня только среда.",
+      "materialIds": [
+        "m2",
+        "m4"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Разговор в чате закончился. Напиши Нине итоговое сообщение на 60–100 слов. Что должно быть: какое занятие ей предложили; что сделать и к какому сроку; что придёт потом и что будет в этом письме; честно — чего ты не знаешь (ответила ли она уже); вопрос о её следующем шаге. Историю Омара не пересказывай.",
+      "context": "",
+      "hint": "Проверь каждую фразу: она нужна Нине для следующего шага?",
+      "answers": [
+        "Hi Nina! You have an offer for the morning session. To accept it, please reply to that email by Thursday at 6 p.m. Friday evening would be too late. After you reply, wait for the final confirmation. It will give you the room details. I'm not sure if you've replied since your last message. If you haven't, that's your next step. Could you tell me when you'll reply, or let me know if you already have?"
+      ],
+      "explanation": "Засчитывается, если есть утреннее занятие, срок с by, последнее письмо с подробностями о помещении, честное «не знаю, ответила ли ты» и вопрос о следующем шаге. Ты не утверждаешь ни что она уже ответила, ни что нет.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Другой участник клуба написал Нине такое сообщение. Найди неверные советы и упрёки и перепиши его (60–100 слов) точно и дружелюбно: “Nina, you obviously haven't paid attention. Getting the offer means your place is fully confirmed, so you don't need to reply. Friday evening is fine. Stop worrying about the instructions and just come to the morning session. Your registration is finished.”",
+      "context": "pay attention — быть внимательным; fully confirmed — полностью подтверждено.",
+      "hint": "Сверь каждое утверждение с M2 и M4: предложение места — это уже подтверждение?",
+      "answers": [
+        "Hi Nina, thanks for sharing the offer. An offer doesn't mean your place is confirmed yet. To accept the morning place, please reply to that email by Thursday at 6 p.m. Friday evening would be too late for that deadline. After you reply, you'll get a final confirmation with the room details. Could you tell me when you plan to reply? Then we can check your next step together."
+      ],
+      "explanation": "Исправлены три неверных совета: предложение — ещё не подтверждение, ответить нужно, пятница позже срока. Упрёки (obviously, haven't paid attention) заменены благодарностью и вопросом. Засчитывается любая точная и вежливая версия; просто убрать obviously мало — неверные советы остались бы.",
+      "materialIds": [
+        "m2",
+        "m4"
+      ]
+    }
+  ]
+}

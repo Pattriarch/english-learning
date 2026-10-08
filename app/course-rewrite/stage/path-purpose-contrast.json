@@ -1,0 +1,353 @@
+{
+  "id": "path-purpose-contrast",
+  "title": "Чтобы, несмотря на, если только не: to, despite, unless",
+  "subtitle": "To → so that → however → despite → найди ошибку → unless → as long as и in case → напиши сам",
+  "level": "B1",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Сказать, зачем ты что-то делаешь, что мешало и при каком условии: «Я встал рано, чтобы успеть на автобус», «Несмотря на пробки, мы приехали вовремя», «Буду в шесть, если рейс не задержат», «Возьми зонт на всякий случай».",
+  "formula": "to / so that · however · despite + вещь · unless · as long as · in case",
+  "keyRule": {
+    "rule": "«Чтобы» — это to + действие, а не for. For ставят только перед вещью.",
+    "example": "I'm saving money to buy a car. — Я коплю, чтобы купить машину.",
+    "check": "I'm saving money for buy a car — так сказать нельзя."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-connectors-basic",
+    "path-zero-first",
+    "path-gerund-infinitive"
+  ],
+  "recycles": [
+    "path-connectors-basic"
+  ],
+  "teaches": [
+    "цель: to + действие — I called the bank to ask about my card; for только перед вещью — I went out for milk",
+    "in order to — то же, что to, но строже; «чтобы не» — in order not to",
+    "so (that) + кто + can/will/don't — цель для другого человека: I'll send you the address so you don't get lost; о прошлом could/would",
+    "so для цели (без запятой) и so «поэтому» (с запятой)",
+    "however — «однако» в начале новой фразы, после него запятая; внутри одной фразы — but",
+    "even though — сильнее although; though в конце фразы в разговоре; whereas — сравнить два разных факта",
+    "despite / in spite of + вещь или -ing: Despite the rain… Despite being tired…; ошибки despite of и despite it was",
+    "unless = if … not, после него без not и без will: unless I have to work late",
+    "as long as — «при условии, что»; in case — «на случай, если» (заранее); in case of + вещь на табличках"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Contrasting ideas: although, despite and others",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/contrasting-ideas-although-despite-others",
+      "notes": "Сверено: although, though, even though + кто + действие; though в конце фразы в разговоре; despite и in spite of + вещь, местоимение или -ing; вариант despite the fact that + целая фраза."
+    },
+    {
+      "title": "Perfect Your English · So that, in order that, in order to, so as to",
+      "url": "https://perfectyourenglish.com/blog/so-that-in-order-that-in-order-to-so-as-to/",
+      "notes": "Сверено: so that обычнее и проще, чем in order that; после so that — can, will, о прошлом could, would; «чтобы не» — in order not to или so that … won't/don't; that в разговоре опускают."
+    },
+    {
+      "title": "VOA Learning English · Just in Case You Don't Use 'If'",
+      "url": "https://learningenglish.voanews.com/a/just-in-case-you-dont-use-if/4320942.html",
+      "notes": "Сверено: unless значит «if not» и не сочетается с if; in case — подготовка заранее (зонт берут до дождя), в отличие от if; in case of + вещь на табличках; as long as — «только если»."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна мысль — три связки",
+    "why": "Смысл везде один: шёл дождь, а мы всё равно пошли. Меняется то, что стоит после связки, и знаки препинания.",
+    "items": [
+      {
+        "label": "Although + кто + действие",
+        "en": "Although it was raining, we went out.",
+        "ru": "Хотя шёл дождь, мы пошли гулять.",
+        "note": "После although — целая фраза."
+      },
+      {
+        "label": "Despite + вещь",
+        "en": "Despite the rain, we went out.",
+        "ru": "Несмотря на дождь, мы пошли гулять.",
+        "note": "После despite — только вещь или -ing."
+      },
+      {
+        "label": "However — новая фраза",
+        "en": "It was raining. However, we went out.",
+        "ru": "Шёл дождь. Однако мы пошли гулять.",
+        "note": "Перед however — точка, после — запятая."
+      }
+    ],
+    "focus": [
+      "Although",
+      "Despite",
+      "However"
+    ],
+    "footnote": "Спроси себя: после связки идёт целая фраза (кто + действие) или одна вещь?"
+  },
+  "sections": [
+    {
+      "title": "«Чтобы» — это to, а не for",
+      "body": "Ты объясняешь, зачем вышел: «Я вышел, чтобы купить молока». По-английски «чтобы» здесь — to + действие: I went out to buy milk. Это то же to, что после want, только теперь оно отвечает на вопрос «зачем?».\n\nFor ставят только перед вещью: I went out for milk — за молоком. For buy и for to buy — ошибки, хотя по-русски хочется сказать «для того чтобы».\n\nIn order to значит то же самое, но звучит строже — для письма и работы: We changed the schedule in order to save time. В разговоре обычно хватает to. «Чтобы не» — in order not to: I left early in order not to miss the bus. Просто not to в начале цели не ставят.\n\nНе путай с уроком о want you to: там «хочу, чтобы ты…» — это желание, а здесь «чтобы» отвечает на «зачем»."
+    },
+    {
+      "title": "So that: когда цель касается другого человека",
+      "body": "To работает, когда цель у того же человека: I turned on the TV to watch the news — включил я, смотреть буду тоже я. Если в цели другой человек, нужна целая фраза: so that + кто + can, will или don’t. I’ll send you the address so that you can find us — чтобы ты смог нас найти. В разговоре that часто опускают: so you can find us.\n\n«Чтобы не» с другим человеком: Write it down so you don’t forget — запиши, чтобы не забыть. В рассказе о прошлом can → could, will → would: I woke him up so he wouldn’t be late.\n\nНе путай с so «поэтому»: It was late, so we took a taxi. Перед таким so — запятая, а после него — то, что получилось. В цели запятой нет, а после so идут can, could, will, would или don’t."
+    },
+    {
+      "title": "Хотя и однако: although, even though, however, whereas",
+      "body": "Although («хотя») ты знаешь: Although it was cold, we went to the beach. Even though — то же, но сильнее: Even though I was sick, I went to work. В разговоре часто говорят though в конце: It was cold. We went to the beach, though.\n\nHowever — «однако». Он не соединяет две части одной фразы, а начинает новую: The room was small. However, it was very clean. После however — запятая. The room was small, however it was clean — ошибка: внутри одной фразы нужен but.\n\nWhereas — «а», «тогда как». Оно сравнивает два разных факта о двух людях или вещах: My sister works at night, whereas I work during the day. Это слово для письма; в разговоре американцы скажут but или while."
+    },
+    {
+      "title": "Despite и in spite of: после них вещь, а не фраза",
+      "body": "«Несмотря на» — despite или in spite of. Смысл как у although, но после них идёт не «кто + действие», а вещь или форма на -ing. Despite the rain, we went out. In spite of being tired, she finished the report — несмотря на усталость, она закончила отчёт. Сравни: Although it was raining = Despite the rain.\n\nДве частые ошибки. Despite of — of бывает только в in spite of. Despite it was raining — после despite нельзя ставить целую фразу. Если очень нужна фраза, говорят despite the fact that it was raining, но проще взять although.\n\nDespite звучит чуть строже. В разговоре чаще слышны although, even though и but."
+    },
+    {
+      "title": "Unless, as long as, in case: три разных условия",
+      "body": "Unless — «если не»: I’ll come to the party unless I have to work late — приду, если не придётся задержаться на работе. «Не» уже внутри unless, второе not не ставят: unless I don’t have to work late — ошибка: выходит «если не не придётся». Как после if и when, will после unless нет.\n\nAs long as — «при условии, что», «только если»: You can use my laptop as long as you’re careful with it — можешь взять ноутбук, только будь с ним аккуратен.\n\nIn case — «на случай, если». Ты делаешь что-то заранее, хотя не знаешь, случится ли это. Take an umbrella in case it rains — бери зонт сейчас, даже если дождя пока нет. If it rains, take an umbrella — бери, когда пойдёт дождь. In case of + вещь пишут на табличках: In case of fire, use the stairs — при пожаре идите по лестнице."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I called the bank to ask about my card.",
+      "ru": "Я позвонил в банк, чтобы спросить про карту.",
+      "why": "Цель у того же человека — to + действие."
+    },
+    {
+      "en": "I'm saving money for a new car.",
+      "ru": "Я коплю на новую машину.",
+      "why": "Перед вещью — for. Перед действием было бы to buy."
+    },
+    {
+      "en": "Text me when you land so I don't worry.",
+      "ru": "Напиши, когда приземлишься, чтобы я не волновался.",
+      "why": "Цель у другого человека — so + I + don't."
+    },
+    {
+      "en": "The tickets were expensive. However, the show was amazing.",
+      "ru": "Билеты были дорогие. Однако шоу было потрясающим.",
+      "why": "However начинает новую фразу, после него запятая."
+    },
+    {
+      "en": "Despite the cold, the kids played outside all day.",
+      "ru": "Несмотря на холод, дети весь день играли на улице.",
+      "why": "После despite — вещь: the cold."
+    },
+    {
+      "en": "I drink coffee, whereas my husband only drinks tea.",
+      "ru": "Я пью кофе, а муж — только чай.",
+      "why": "Whereas сравнивает два разных факта."
+    },
+    {
+      "en": "We'll eat outside unless it rains.",
+      "ru": "Поедим на улице, если не будет дождя.",
+      "why": "Unless = if … not; после него без not и без will."
+    },
+    {
+      "en": "Take some cash in case they don't accept cards.",
+      "ru": "Возьми наличные на случай, если там не принимают карты.",
+      "why": "In case — подготовка заранее, на всякий случай."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега удивляется, что ты пришёл на работу так рано. Объясни: «Я встал в шесть, чтобы успеть на первый автобус».",
+      "context": "успеть на автобус — catch the bus.",
+      "guidance": {
+        "title": "«Чтобы» — to + действие",
+        "body": "For перед действием не ставят: for catch — ошибка.",
+        "example": "We stopped at a gas station to buy some water.",
+        "translation": "Мы заехали на заправку, чтобы купить воды."
+      },
+      "hint": "Начни так: I got up at six … Что стоит перед catch?",
+      "answers": [
+        "I got up at six to catch the first bus.",
+        "I got up at 6 to catch the first bus.",
+        "I got up at six in order to catch the first bus.",
+        "I got up at six a.m. to catch the first bus.",
+        "I got up at 6:00 to catch the first bus."
+      ],
+      "explanation": "To catch отвечает на «зачем встал». In order to тоже верно, но для разговора звучит строже. For catch и for to catch — ошибки."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг впервые едет к тебе в гости. Напиши ему: «Я пришлю тебе адрес, чтобы ты не заблудился».",
+      "context": "заблудиться — get lost.",
+      "guidance": {
+        "title": "Цель у другого человека — so that",
+        "body": "Если цель касается другого человека, нужна целая фраза: so (that) + кто + can, will или don't. That в разговоре можно опустить.",
+        "example": "Speak slowly so that everyone can understand.",
+        "translation": "Говори медленно, чтобы все поняли."
+      },
+      "hint": "Начни так: I'll send you the address so … Кто не должен заблудиться — ты или друг?",
+      "answers": [
+        "I'll send you the address so you don't get lost.",
+        "I'll send you the address so that you don't get lost.",
+        "I'll send you the address so you won't get lost.",
+        "I'll send you the address so that you won't get lost.",
+        "I will send you the address so that you don't get lost."
+      ],
+      "explanation": "Отправляю я, а не заблудиться должен друг — поэтому so (that) you don't get lost. Won't тоже верно. To not get lost здесь не подходит: to говорит о цели того же человека."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь короткий отзыв об отеле. Напиши: «Отель был дешёвый и чистый. Однако он был далеко от центра».",
+      "context": "центр города — downtown, без the: far from downtown.",
+      "guidance": {
+        "title": "However начинает новую фразу",
+        "body": "However — «однако». Перед ним точка, после него запятая. Внутри одной фразы вместо него ставят but.",
+        "example": "The test was hard. However, most students passed.",
+        "translation": "Тест был трудный. Однако большинство студентов его сдали."
+      },
+      "hint": "Сколько здесь фраз — одна или две? Где после however запятая?",
+      "answers": [
+        "The hotel was cheap and clean. However, it was far from downtown.",
+        "The hotel was cheap and clean. However, it was far from the city center.",
+        "The hotel was cheap and clean. However, it was a long way from downtown.",
+        "The hotel was inexpensive and clean. However, it was far from downtown."
+      ],
+      "explanation": "However стоит в начале второй фразы, после него запятая. Одной фразой можно сказать и с but: The hotel was cheap and clean, but it was far from downtown."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друзья волновались, что вы опоздаете на свадьбу. Напиши им: «Несмотря на пробки, мы приехали вовремя».",
+      "context": "пробки — traffic.",
+      "guidance": {
+        "title": "Despite + вещь или -ing",
+        "body": "После despite и in spite of — вещь или форма на -ing, а не «кто + действие». Of есть только в in spite of.",
+        "example": "Despite being tired, he finished the report.",
+        "translation": "Несмотря на усталость, он закончил отчёт."
+      },
+      "hint": "Начни так: Despite the … Нужно ли после despite слово of?",
+      "answers": [
+        "Despite the traffic, we got there on time.",
+        "In spite of the traffic, we got there on time.",
+        "Despite the traffic, we arrived on time.",
+        "Despite the heavy traffic, we got there on time.",
+        "We got there on time despite the traffic.",
+        "In spite of the traffic, we arrived on time."
+      ],
+      "explanation": "Despite the traffic — вещь после despite. In spite of тоже верно. Despite of the traffic и despite there was traffic — ошибки; с целой фразой нужно although: Although there was a lot of traffic, …"
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Подруга просит проверить сообщение перед отправкой. В нём три ошибки со связками. Исправь и напиши сообщение целиком: “Hi Sam! I went downtown for buy a new phone. Despite it was Sunday, the store was open. The phone is great, however the battery is weak.”",
+      "context": "",
+      "guidance": {
+        "title": "Проверь, что стоит после связки",
+        "body": "Для каждой связки спроси: что после неё — действие, вещь или целая фраза? И отдельно: где кончается одна фраза и начинается другая?",
+        "example": "I went out for some milk. Although it was late, the store was open.",
+        "translation": "Я вышел за молоком. Хотя было поздно, магазин был открыт."
+      },
+      "hint": "Ошибок три — по одной в каждой фразе после первой.",
+      "answers": [
+        "Hi Sam! I went downtown to buy a new phone. Although it was Sunday, the store was open. The phone is great, but the battery is weak.",
+        "Hi Sam! I went downtown to buy a new phone. Although it was Sunday, the store was open. The phone is great. However, the battery is weak.",
+        "Hi Sam! I went downtown to buy a new phone. Even though it was Sunday, the store was open. The phone is great, but the battery is weak.",
+        "Hi Sam! I went downtown to buy a new phone. Even though it was Sunday, the store was open. The phone is great. However, the battery is weak.",
+        "Hi Sam! I went downtown to buy a new phone. Despite it being Sunday, the store was open. The phone is great, but the battery is weak.",
+        "Hi Sam! I went downtown in order to buy a new phone. Although it was Sunday, the store was open. The phone is great, but the battery is weak."
+      ],
+      "explanation": "For buy → to buy: перед действием to. Despite it was Sunday → Although it was Sunday: после despite фразу не ставят. However внутри фразы → but или новая фраза с However,."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты летишь к другу, и он спрашивает, во сколько тебя ждать. Ответь: «Я буду в шесть, если только рейс не задержат».",
+      "context": "рейс — flight; задержать — delay.",
+      "guidance": {
+        "title": "Unless — «если не»",
+        "body": "Unless уже значит «если не», поэтому второе not не ставят. После unless, как после if, нет will.",
+        "example": "I'll call you tonight unless I get home late.",
+        "translation": "Я позвоню тебе вечером, если не вернусь поздно."
+      },
+      "hint": "Начни так: I'll be there at six unless … Нужен ли после unless not?",
+      "answers": [
+        "I'll be there at six unless my flight is delayed.",
+        "I'll be there at six unless my flight is late.",
+        "I'll be there at 6 unless my flight is delayed.",
+        "I'll be there at six unless the flight is delayed.",
+        "I'll get there at six unless my flight is delayed.",
+        "I will be there at six unless my flight is delayed."
+      ],
+      "explanation": "Unless my flight is delayed = if my flight isn't delayed. Is late тоже естественно. Unless my flight isn't delayed и unless it will be delayed — ошибки."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед просит машину на выходные. Ответь: «Можешь взять мою машину, если вернёшь её к воскресенью. И возьми зарядку на случай, если сядет телефон».",
+      "context": "borrow — взять на время; charger — зарядка; сесть (о телефоне) — die.",
+      "guidance": {
+        "title": "As long as или in case",
+        "body": "As long as — условие: «только если». In case — делаешь заранее, на всякий случай, даже если ничего не случится.",
+        "example": "You can stay up late as long as you finish your homework. Take a jacket in case it gets cold.",
+        "translation": "Можешь лечь попозже, если сделаешь уроки. Возьми куртку на случай, если похолодает."
+      },
+      "hint": "Вернуть машину — условие или подготовка на всякий случай? А зарядка?",
+      "answers": [
+        "You can borrow my car as long as you bring it back by Sunday. And take a charger in case your phone dies.",
+        "You can borrow my car as long as you bring it back by Sunday. Take a charger in case your phone dies.",
+        "You can borrow my car as long as you return it by Sunday. And take a charger in case your phone dies.",
+        "You can take my car as long as you bring it back by Sunday. And take a charger in case your phone dies.",
+        "You can borrow my car as long as you bring it back by Sunday. And take a charger in case your phone battery dies."
+      ],
+      "explanation": "As long as you bring it back — условие, без него машину не дадут. In case your phone dies — зарядку берут заранее. После обоих — настоящее время, без will. If your phone dies значило бы «бери, когда уже сядет»."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый знакомый спрашивает о твоём брате. Ответь: «Мой брат любит большие города, а я предпочитаю маленькие. Хотя мы разные, мы хорошо ладим».",
+      "context": "prefer — предпочитать; маленький город — small town; ладить — get along.",
+      "guidance": {
+        "title": "Вспоминаем although и добавляем whereas",
+        "body": "Вспоминаем: although + кто + действие, во второй части без but. Whereas сравнивает два разных факта о двух людях.",
+        "example": "My sister is an early bird, whereas I love sleeping late. Although we share a room, we rarely argue.",
+        "translation": "Сестра — жаворонок, а я люблю поспать подольше. Хотя мы живём в одной комнате, мы редко ссоримся."
+      },
+      "hint": "Начни вторую фразу так: Although we're … Нужен ли после запятой but?",
+      "answers": [
+        "My brother loves big cities, whereas I prefer small towns. Although we're different, we get along well.",
+        "My brother loves big cities, whereas I prefer small towns. Although we are different, we get along well.",
+        "My brother likes big cities, whereas I prefer small towns. Although we're different, we get along well.",
+        "My brother loves big cities, but I prefer small towns. Although we're different, we get along well.",
+        "My brother loves big cities, whereas I prefer small towns. Even though we're different, we get along well."
+      ],
+      "explanation": "Whereas сравнивает брата и тебя; but тоже верно и звучит разговорнее. После although во второй части but не нужен. Even though — чуть сильнее."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Подруга Нора поживёт в твоей квартире, пока ты в отпуске. Оставь ей записку (60–120 слов). В записке: две просьбы и зачем они нужны (to и so that); одно условие (as long as или unless); одна подготовка на всякий случай (in case); один минус квартиры с however, although или despite.",
+      "context": "water the plants — поливать цветы; landlord — хозяин квартиры; spare key — запасной ключ.",
+      "hint": "План: Welcome! → просьба + to … → просьба + so that … → You can … as long as … → in case … → However, …",
+      "answers": [
+        "Hi Nora,\n\nWelcome! Please water the plants every two days to keep them alive. Also, lock the back door at night so the cat doesn't go outside. You can use my bike as long as you lock it downstairs. There's a spare key under the blue pot in case you lose yours. The landlord's number is (312) 555-0147, in case something breaks. The apartment is quiet and sunny. However, the hot water takes a few minutes, so be patient. Enjoy your stay!\n\nKate"
+      ],
+      "explanation": "Засчитывается, если есть цель с to и цель с so (that) для другого (кошка, сосед), условие с as long as или unless, подготовка с in case и минус с however, although или despite. После unless и in case — настоящее время без will."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "В разговорном клубе тема — «Зачем я учу английский». Расскажи 30–60 секунд: две цели (to и so that); одна трудность с although или despite; одно условие для успеха (as long as или unless); что ты делаешь заранее на всякий случай (in case).",
+      "context": "improve — улучшить; job interview — собеседование.",
+      "hint": "Начни так: I'm learning English to … I also want to … so that …",
+      "answers": [
+        "I'm learning English to get a better job. I also want to speak well so that I can travel without help. Although I'm busy, I study every evening for thirty minutes. Despite my mistakes, I try to speak a lot. I think I'll be fine as long as I practice every day. I always keep a list of useful phrases on my phone in case I need them at work."
+      ],
+      "explanation": "Засчитывается, если есть цель с to, цель с so that + can/will, трудность с although или despite, условие с as long as или unless и in case. Послушай запись: нет ли for + действие и despite + целая фраза."
+    }
+  ]
+}

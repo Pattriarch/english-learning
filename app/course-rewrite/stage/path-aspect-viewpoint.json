@@ -1,0 +1,341 @@
+{
+  "id": "path-aspect-viewpoint",
+  "title": "He's rude или he's being rude: целиком, изнутри, временно",
+  "subtitle": "Событие целиком или изнутри → процесс, который не дошёл до конца → think, have, see с -ing — другое значение → is rude / is being rude → always + -ing → где -ing не ставят",
+  "level": "C2",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Выбирать форму по тому, что хочешь сказать: «Он грубый» — He's rude, а «Он сейчас грубит» — He's being rude; «По-моему, это дорого» — I think, а «Я это обдумываю» — I'm thinking about it; «Он вечно теряет ключи!» — He's always losing his keys.",
+  "formula": "простая форма — факт целиком, свойство, мнение → форма с -ing — действие изнутри, временно → think / have / see / taste + -ing — другое значение → is being + описание — поведение сейчас → always + -ing — повтор с чувством → know, own, belong, mean — без -ing",
+  "keyRule": {
+    "rule": "Факт или свойство — простая форма. Идёт сейчас, временно или раздражает — форма с -ing.",
+    "example": "He's rude. / He's being rude. — Он грубый. / Он сейчас грубит.",
+    "check": "I'm knowing the answer — можно? Нет: know — без -ing."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-present-continuous",
+    "path-past-continuous",
+    "path-present-perfect-continuous",
+    "path-used-to-be-used-to"
+  ],
+  "recycles": [
+    "path-used-to-be-used-to",
+    "path-present-perfect-for-since"
+  ],
+  "teaches": [
+    "форма с -ing показывает действие изнутри, простая — целиком: I was reading the report (дочитал ли — неизвестно) ↔ I read the report",
+    "процесс, который не дошёл до конца: The cat was falling, but I caught it (fell — упал)",
+    "форма с -ing не значит «не закончил»: она просто не говорит о конце",
+    "think, have, see, taste: состояние без -ing, действие с -ing — I think so ↔ I'm thinking about it; I have a car ↔ I'm having a hard time; I'm seeing a doctor",
+    "is rude — какой человек вообще, is being rude — как он ведёт себя сейчас; только то, что человек контролирует (He's being tall — ошибка)",
+    "временно: I'm living with my parents until I find an apartment ↔ I live in Chicago",
+    "always / constantly / forever + -ing — повтор с чувством (обычно раздражение, иногда похвала); was always + -ing о прошлом ↔ спокойное would",
+    "I'm loving it — разговорная окраска; know, own, belong, mean, need, prefer — без -ing; I'm starting to understand",
+    "слова: drown, lifeguard, roommate, charger, sink, harsh, puddle"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Stative verbs",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/stative-verbs",
+      "notes": "Сверено: группы глаголов состояния (мнения, чувства, восприятие, владение) обычно без -ing; think, have, see, be, taste меняют значение: I think it's a good idea / I'm thinking; I have an old car / I'm having a break; We're seeing… tomorrow (встреча); He's being very unhelpful (временное поведение); The chef is tasting the soup."
+    },
+    {
+      "title": "Perfect English Grammar · Present continuous use",
+      "url": "https://www.perfect-english-grammar.com/present-continuous-use.html",
+      "notes": "Сверено: временные ситуации (She's staying with her friend for a week); частые повторы с always, forever, constantly, часто с раздражением (You're forever losing your keys!), но и без него (Lucy's always smiling!). Отсюда раздел о том, что чувство бывает и хорошим."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одно слово — две формы — два смысла",
+    "why": "В каждой паре глагол тот же. Простая форма говорит о свойстве или мнении, форма с -ing — о том, что происходит сейчас.",
+    "items": [
+      {
+        "label": "Какой он вообще",
+        "en": "He's rude.",
+        "ru": "Он грубый.",
+        "note": "Описываешь человека."
+      },
+      {
+        "label": "Как он ведёт себя сейчас",
+        "en": "He's being rude.",
+        "ru": "Он сейчас грубит.",
+        "note": "Описываешь поступок."
+      },
+      {
+        "label": "Мнение",
+        "en": "I think it's too expensive.",
+        "ru": "По-моему, это слишком дорого.",
+        "note": "Состояние — без -ing."
+      },
+      {
+        "label": "Процесс",
+        "en": "I'm thinking about it.",
+        "ru": "Я это обдумываю.",
+        "note": "Действие идёт — с -ing."
+      }
+    ],
+    "focus": [
+      "rude",
+      "being rude",
+      "think",
+      "thinking"
+    ],
+    "footnote": "Перед -ing спроси: это действие, которое идёт, или состояние?"
+  },
+  "sections": [
+    {
+      "title": "Одно событие — два взгляда",
+      "body": "Ты давно знаешь: I read — «читаю обычно», I'm reading — «читаю сейчас». На C2 полезно увидеть, что стоит за этим правилом. Форма с -ing показывает действие изнутри: оно идёт, начало и конец за кадром. Простая форма показывает его целиком, как готовый факт.\n\nОтсюда разница, которую по-русски передаёт вид глагола: «читал» и «прочитал». I was reading the report when Maya called — я читал отчёт, когда позвонила Майя. Дочитал ли — неизвестно. I read the report — прочитал: событие целиком.\n\nСамый ясный пример: The man was drowning, but a lifeguard pulled him out. Мужчина тонул (drown), но спасатель (lifeguard) его вытащил. Was drowning — процесс, и он не дошёл до конца. Drowned значило бы «утонул».\n\nГде правило кончается: форма с -ing не значит «не закончил». Она просто не говорит о конце. I was writing the report all evening, and I finished it at ten — так сказать можно."
+    },
+    {
+      "title": "Think, have, see: с -ing — другое значение",
+      "body": "На A1 ты запомнил: know, like, want — без -ing. Причина в значении. Форма с -ing нужна для действия, которое идёт. Если глагол называет состояние — мнение, владение, свойство, — -ing не ставят. Но у многих глаголов есть оба значения.\n\nThink: I think it's a good idea — мнение. I'm thinking about the offer — обдумываю.\nHave: I have a car — владею. I'm having lunch, I'm having a hard time — действие или переживание.\nSee: I see what you mean — понимаю. I'm seeing a doctor tomorrow — иду к врачу. She's seeing someone — у неё кто-то есть, они встречаются.\nTaste: The soup tastes salty — суп солёный на вкус. The chef is tasting the soup — повар пробует суп.\n\nПеред тем как поставить -ing, спроси: это действие или состояние? Если не уверен, подставь синоним: think = believe — состояние, think = consider — действие."
+    },
+    {
+      "title": "Is rude и is being rude: какой он и как он себя ведёт сейчас",
+      "body": "He's rude — «он грубый»: так описывают человека вообще. He's being rude — «он сейчас грубит»: это поведение в эту минуту, не характер. Being — это be с -ing. По-русски разницу часто передают разными словами: «грубый» — «грубит», «глупый» — «глупит».\n\nYou're being unfair — «ты сейчас несправедлив». Это мягче, чем You're unfair: ты критикуешь поступок, а не человека. Поэтому being удобно в споре и в отзыве о работе: You're being a little harsh — «ты сейчас резковат».\n\nBeing работает с тем, что человек может контролировать: rude, unfair, careful, quiet, silly, honest. С тем, что от него не зависит, — нет: He's being tall — ошибка.\n\nВременное и постоянное различают и другие глаголы. I live in Chicago — живу, это мой дом. I'm living with my parents until I find an apartment — живу у родителей пока, временно."
+    },
+    {
+      "title": "Always + -ing: повтор, который вызывает чувство",
+      "body": "He always loses his keys — он всегда теряет ключи. Это спокойный факт. He's always losing his keys! — он вечно теряет ключи! Это тот же факт с чувством, обычно с раздражением.\n\nФорма: am / is / are + always + -ing. Вместо always бывает constantly или forever: She's constantly checking her phone. You're forever borrowing my charger! (charger — зарядка).\n\nЧувство не всегда плохое. She's always helping new people — она вечно всем помогает: здесь это похвала. Какое чувство, показывают слова вокруг и голос.\n\nО прошлом — was always + -ing: My brother was always picking fights — брат вечно лез в драку. В уроке о used to ты учил would для повторов в прошлом: Grandpa would call every Sunday. Would — спокойный рассказ. Was always + -ing — с чувством."
+    },
+    {
+      "title": "Где -ing не ставят даже на C2",
+      "body": "Ты услышишь I'm loving this weather или рекламный слоган I'm lovin' it. Это живая разговорная форма: «мне прямо сейчас очень нравится». В письме и официальной речи лучше I love it или I really like it.\n\nНо с know, own, belong, mean («значить»), need, prefer -ing не ставят. I'm knowing the answer, This car is belonging to me — ошибки. Loving — разговорная окраска одного глагола, а не новое правило для всех.\n\nС understand тоже лучше простая форма: I understand. Если понимание приходит постепенно, скажи: I'm starting to understand или I'm beginning to see the problem.\n\nПроверка перед -ing: можно ли ответить этим глаголом на вопрос «что ты сейчас делаешь»? «Обдумываю» — да: I'm thinking. «Знаю» — нет: I know."
+    }
+  ],
+  "examples": [
+    {
+      "en": "She was crossing the street when the light changed.",
+      "ru": "Она переходила улицу, когда сменился сигнал светофора.",
+      "why": "Переход шёл; светофор сменился посреди него."
+    },
+    {
+      "en": "I'm thinking about the offer, but I think it's fair.",
+      "ru": "Я обдумываю предложение, но, по-моему, оно честное.",
+      "why": "Один глагол дважды: сначала процесс, потом мнение."
+    },
+    {
+      "en": "You're being unfair, and you know it.",
+      "ru": "Ты сейчас несправедлив, и сам это знаешь.",
+      "why": "Being — о поступке сейчас; know — состояние, без -ing."
+    },
+    {
+      "en": "We're having a hard time with the new system.",
+      "ru": "Нам сейчас тяжело с новой системой.",
+      "why": "Have здесь «переживать», а не «владеть»."
+    },
+    {
+      "en": "He's always borrowing my car without asking.",
+      "ru": "Он вечно берёт мою машину без спроса.",
+      "why": "Always + -ing — повтор с раздражением."
+    },
+    {
+      "en": "I'm living with my parents until I find an apartment.",
+      "ru": "Я пока живу у родителей, пока не найду квартиру.",
+      "why": "Временно, поэтому -ing."
+    },
+    {
+      "en": "This coffee tastes burnt.",
+      "ru": "У этого кофе горелый вкус.",
+      "why": "Свойство кофе, а не действие — без -ing."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, видел ли ты его письмо. Переведи: «Я читал твоё письмо, когда отключили свет, так что дочитал его только утром».",
+      "context": "the power went out — отключили свет.",
+      "guidance": {
+        "title": "Изнутри — was + -ing, целиком — простая форма",
+        "body": "Чтение шло, и его прервали — was reading. Законченный факт утром — finished.",
+        "example": "I was cooking dinner when the guests arrived, so we ate an hour late.",
+        "translation": "Я готовил ужин, когда пришли гости, поэтому мы поели на час позже."
+      },
+      "hint": "Что шло, а что произошло целиком?",
+      "answers": [
+        "I was reading your email when the power went out, so I finished it only in the morning.",
+        "I was reading your email when the power went out, so I only finished it in the morning.",
+        "I was reading your email when the power went out, so I didn't finish it until the morning.",
+        "I was reading your email when the power went out, so I didn't finish it until this morning.",
+        "I was reading your email when the power went out, so I finished it this morning."
+      ],
+      "explanation": "Was reading — процесс, внутрь которого попало событие. Went out и finished — события целиком. I read your email when the power went out звучало бы так, будто ты прочитал всё сразу после отключения."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь, как спас кота. Переведи: «Кот падал с балкона, но я его поймал».",
+      "context": "balcony — балкон; catch → caught — поймать.",
+      "guidance": {
+        "title": "Процесс, который не дошёл до конца",
+        "body": "Was + -ing говорит: это шло. Fell значило бы «упал» — до самого конца. Для «падал, но не упал» нужна форма с -ing.",
+        "example": "The bus was leaving, but the driver saw me and stopped.",
+        "translation": "Автобус уже отъезжал, но водитель меня увидел и остановился."
+      },
+      "hint": "Если напишешь fell, кот упал. Ты этого хочешь?",
+      "answers": [
+        "The cat was falling off the balcony, but I caught it.",
+        "The cat was falling off the balcony, but I caught him.",
+        "The cat was falling from the balcony, but I caught it.",
+        "The cat was falling from the balcony, but I caught her.",
+        "My cat was falling off the balcony, but I caught it."
+      ],
+      "explanation": "Was falling — падение шло, но не дошло до конца: ты его поймал. The cat fell off the balcony, but I caught it звучит противоречиво: fell уже значит «долетел»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг зовёт тебя в кино в пятницу. Ответь: «Не могу: в пятницу я иду к врачу. И, по-моему, этот фильм скучный».",
+      "context": "boring — скучный.",
+      "guidance": {
+        "title": "See и think: действие — с -ing, мнение — без",
+        "body": "See в значении «встречаться, идти к кому-то» — действие, поэтому с -ing. Think в значении «по-моему» — мнение, без -ing.",
+        "example": "I'm seeing my lawyer on Monday. I think she's very good.",
+        "translation": "В понедельник я встречаюсь со своим юристом. По-моему, она очень хорошая."
+      },
+      "hint": "Сначала встреча — действие. Потом мнение — состояние.",
+      "answers": [
+        "I can't. I'm seeing a doctor on Friday. And I think the movie is boring.",
+        "I can't: I'm seeing the doctor on Friday. And I think that movie is boring.",
+        "I can't. I'm seeing my doctor on Friday. And I think this movie is boring.",
+        "I can't. I'm seeing a doctor on Friday. Besides, I think the movie is boring.",
+        "Sorry, I can't. I'm seeing my doctor on Friday. And I think that movie's boring."
+      ],
+      "explanation": "I'm seeing a doctor — запланированная встреча, действие. I think — мнение, без -ing. I'm thinking the movie is boring звучало бы как «я сейчас обдумываю…», а не как мнение."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Твой обычно спокойный друг кричит на официанта. Ты тихо говоришь ему: «Ты сейчас грубишь. Это на тебя не похоже».",
+      "context": "That's not like you — это на тебя не похоже.",
+      "guidance": {
+        "title": "Поведение сейчас — is being",
+        "body": "You're rude — про характер, и это обидно. You're being rude — про то, что он делает в эту минуту.",
+        "example": "You're being very quiet tonight. Is everything OK?",
+        "translation": "Ты сегодня очень тихий. Всё в порядке?"
+      },
+      "hint": "Ты говоришь о характере друга или о его поступке сейчас?",
+      "answers": [
+        "You're being rude. That's not like you.",
+        "You are being rude. That's not like you.",
+        "You're being rude. This isn't like you.",
+        "You're being rude. It's not like you.",
+        "You're being rude right now. That's not like you."
+      ],
+      "explanation": "You're being rude — поведение сейчас; вторая фраза прямо говорит, что это не характер. You're rude противоречило бы второй фразе: «ты грубый человек, но это на тебя не похоже»."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты жалуешься подруге на соседа по квартире (roommate). Переведи: «Он вечно оставляет грязную посуду в раковине. И вечно берёт мою зарядку».",
+      "context": "dirty dishes — грязная посуда; sink — раковина; charger — зарядка.",
+      "guidance": {
+        "title": "Раздражает — always + -ing",
+        "body": "He always leaves — спокойный факт. He's always leaving — тот же факт с раздражением. Always стоит между is и -ing.",
+        "example": "She's always calling me during dinner!",
+        "translation": "Она вечно звонит мне во время ужина!"
+      },
+      "hint": "Начни так: He's always …",
+      "answers": [
+        "He's always leaving dirty dishes in the sink. And he's always borrowing my charger.",
+        "He's always leaving dirty dishes in the sink. And he's always taking my charger.",
+        "He's always leaving dirty dishes in the sink, and he's always borrowing my charger.",
+        "He's constantly leaving dirty dishes in the sink. And he's always borrowing my charger.",
+        "He's always leaving dirty dishes in the sink. He's forever borrowing my charger.",
+        "He is always leaving dirty dishes in the sink. And he is always using my charger."
+      ],
+      "explanation": "Is always leaving, is always borrowing — повтор с раздражением. Constantly и forever тоже подходят. He always leaves dirty dishes — не ошибка, но звучит как спокойный отчёт, а не жалоба."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем for и since. Твой знакомый написал о себе: “I'm knowing this neighborhood well because I'm living here for ten years. The pizza at Tony's is tasting great. Right now I'm thinking about opening a café here.” Исправь там, где нужно, и перепиши всё целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: «уже десять лет» — have + третья форма",
+        "body": "Вспоминаем урок о for и since: «живу уже десять лет» — I've lived for ten years. Know и taste в значении «на вкус» — состояния, без -ing. Обдумывание — процесс, -ing остаётся.",
+        "example": "I own a small shop, and I've worked there since 2019. Right now I'm having a busy week.",
+        "translation": "У меня маленький магазин, и я работаю там с 2019 года. Сейчас у меня тяжёлая неделя."
+      },
+      "hint": "Одна фраза из трёх верна.",
+      "answers": [
+        "I know this neighborhood well because I've lived here for ten years. The pizza at Tony's tastes great. Right now I'm thinking about opening a café here.",
+        "I know this neighborhood well because I have lived here for ten years. The pizza at Tony's tastes great. Right now I'm thinking about opening a café here.",
+        "I know this neighborhood well because I've been living here for ten years. The pizza at Tony's tastes great. Right now I'm thinking about opening a café here."
+      ],
+      "explanation": "I know — знание, без -ing. I've lived (или I've been living) here for ten years — с того момента до сейчас, как в уроке о for и since. Tastes great — свойство пиццы. I'm thinking about — действие, тут -ing верно."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем would. Ты рассказываешь о дедушке. Переведи: «Каждое лето дедушка брал нас на рыбалку. Он вечно рассказывал одни и те же шутки, но мы всё равно смеялись».",
+      "context": "take somebody fishing — брать на рыбалку; anyway — всё равно.",
+      "guidance": {
+        "title": "Вспоминаем would: спокойный повтор и повтор с чувством",
+        "body": "Вспоминаем урок о used to: would — «бывало», спокойный рассказ о повторах. Was always + -ing — тоже повтор, но с чувством: здесь с нежностью.",
+        "example": "My mom would make pancakes on Sundays. She was always burning the first one.",
+        "translation": "По воскресеньям мама пекла блины. Первый у неё вечно подгорал."
+      },
+      "hint": "Первая фраза — would + глагол, вторая — was always + -ing.",
+      "answers": [
+        "Every summer, my grandpa would take us fishing. He was always telling the same jokes, but we laughed anyway.",
+        "Every summer, my grandfather would take us fishing. He was always telling the same jokes, but we still laughed.",
+        "Every summer, Grandpa would take us fishing. He was always telling the same jokes, but we laughed anyway.",
+        "Every summer, my grandpa used to take us fishing. He was always telling the same jokes, but we laughed anyway.",
+        "Every summer, my grandpa took us fishing. He was always telling the same jokes, but we laughed anyway."
+      ],
+      "explanation": "Would take или used to take — спокойный рассказ о повторах; took тоже верно. Was always telling — повтор с чувством, здесь тёплым. He always told the same jokes — правильно, но без этой окраски."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты руководишь небольшой командой. Сотрудник, Kevin, обычно сильный и дружелюбный, на последних трёх встречах перебивал коллег и резко отвечал на вопросы. Напиши ему письмо на 200–300 слов. Что должно быть: какой он сотрудник вообще (простая форма); что именно происходит в последние недели (has been + -ing или is being…); чего ты не говоришь — что он грубый человек; вопрос, не тяжело ли ему сейчас (having a hard time); одно think как мнение и одно thinking как процесс; конкретная просьба и предложение встретиться.",
+      "context": "interrupt — перебивать; sharp — резкий; one-on-one — встреча один на один.",
+      "hint": "План: Hi Kevin, → You're one of… → In the last three meetings, you've been… → I don't think you're… → Are you having…? → I've been thinking about… → Could you…? → Let's meet…",
+      "answers": [
+        "Hi Kevin,\n\nI wanted to write to you before our next team meeting, because I value your work and I'd rather talk about this early.\n\nYou're one of the strongest people on the team. You know the product better than anyone, and you're usually the first person to help a new colleague. That's exactly why I noticed a change.\n\nIn the last three meetings, you've been interrupting people before they finish, and some of your answers have been quite sharp. On Tuesday, when Priya asked about the schedule, you cut her off twice. I don't think you're a rude person, and I'm not saying that. I think you're being a little impatient lately, and the team is feeling it.\n\nI also want to ask: are you having a hard time right now? A heavy project, something outside work, anything? If so, I'd like to know, so we can find a way to make the next few weeks easier for you.\n\nI've been thinking about how to make our meetings work better for everyone. One idea is that each person finishes their update before we discuss it. Could you help me with that and let people finish, even when you already know the answer?\n\nLet's have a one-on-one this week. Are you free on Thursday at 2 p.m.? If that doesn't work, just suggest another time.\n\nThanks, Kevin. I'm glad you're on this team.\n\nBest,\nRachel"
+      ],
+      "explanation": "Засчитывается, если письмо 200–300 слов и в нём есть: оценка человека в простой форме; поведение последних недель через has been + -ing или is being; ясно сказано, что это не характер; вопрос с having a hard time; I think (мнение) и I've been thinking или I'm thinking (процесс); просьба и время встречи."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга учит английский на уровне B1. Она возмущена: «В учебнике написано, что love не ставят с -ing, а в рекламе — I'm lovin' it!» Объясни ей голосом 2–3 минуты. Что должно быть: правило из учебника и чем оно полезно; настоящая причина — действие или состояние; две пары с think, have, see или taste; разница is rude / is being rude; почему I'm loving it — разговорная окраска, а не ошибка; какие глаголы без -ing всё равно; простой вопрос для самопроверки. Запиши, прослушай и проверь каждый свой пример с -ing.",
+      "context": "textbook — учебник; commercial — реклама.",
+      "hint": "Начни так: OK, so your textbook isn't wrong. The rule is useful, but here's the real reason behind it…",
+      "answers": [
+        "OK, so your textbook isn't wrong. The rule says that verbs like know, like, and love usually don't take -ing, and that's a good rule for a beginner. If you follow it, you'll avoid a lot of mistakes.\n\nBut here's the real reason behind it. The -ing form is for actions that are happening, things you can be in the middle of. Verbs like know or own describe a state, not an action. You're not in the middle of knowing something. You just know it. That's why “I'm knowing the answer” sounds wrong.\n\nNow, some verbs can be both. “I think it's a good idea” is an opinion, so no -ing. But “I'm thinking about it” means I'm considering it right now, so -ing is fine. Same with have: “I have a car” is owning, but “I'm having lunch” is an action. And the soup “tastes salty,” but the chef “is tasting the soup.”\n\nThe same idea works with be. “He's rude” describes his character. “He's being rude” describes what he's doing right now. It's actually a nicer way to criticize someone.\n\nSo what about “I'm lovin' it”? In casual speech, people use love with -ing to say they're enjoying something very much right now: “I'm loving this weather.” It's a style choice, not a new rule. In an essay or a formal email, I'd just say “I love it” or “I really like it.” And verbs like know, own, belong, and need still don't take -ing.\n\nHere's a simple test. Ask yourself: can I answer “What are you doing right now?” with this verb? “I'm thinking” — yes. “I'm knowing” — no. If the answer is no, don't use -ing."
+      ],
+      "explanation": "Засчитывается, если речь звучит 2–3 минуты и в ней есть: правило и его польза; причина — действие или состояние; две пары с разным значением; rude / being rude; I'm loving как разговорная окраска; глаголы, которые остаются без -ing; вопрос для самопроверки. Расшифровка проверит слова, но не произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Друг пишет рассказ на английском и просит поправить начало. Что он хотел сказать: он шёл домой, и тут начался дождь; на остановке стоял мужчина — высокий; этот мужчина всегда ему улыбался, когда он проходил мимо, и другу это нравилось; друг думал, что это сосед, но не был уверен; потом машина въехала в лужу и окатила их обоих. Черновик: “Last night I walked home when it started to rain. A man stood at the bus stop, and he was being tall. He always was smiling at me when I passed. I was thinking he was a neighbor, but I wasn't sure. Then a car was hitting a puddle and was splashing us both.” Перепиши так, чтобы каждая форма говорила то, что он имел в виду.",
+      "context": "puddle — лужа; splash — окатить брызгами.",
+      "hint": "Что в этой сцене фон, а что — события по порядку? Рост — это поведение?",
+      "answers": [
+        "Last night I was walking home when it started to rain. A man was standing at the bus stop. He was tall. He was always smiling at me when I passed. I thought he was a neighbor, but I wasn't sure. Then a car hit a puddle and splashed us both.",
+        "Last night, I was walking home when it started to rain. A tall man was standing at the bus stop. He was always smiling at me when I walked by. I thought he was a neighbor, but I wasn't sure. Then a car hit a puddle and splashed both of us.",
+        "Last night I was walking home when it started to rain. A tall man was standing at the bus stop. He was always smiling at me whenever I passed, and I liked that. I thought he was a neighbor, but I wasn't sure. Then a car drove through a puddle and splashed us both."
+      ],
+      "explanation": "Засчитывается, если: фон — was walking, was standing; рост — was tall без being; повтор с тёплым чувством — was always smiling (always перед -ing); мнение — thought, без -ing; события по порядку — hit и splashed."
+    }
+  ]
+}

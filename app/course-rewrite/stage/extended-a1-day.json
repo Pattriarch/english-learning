@@ -1,0 +1,360 @@
+{
+  "id": "extended-a1-day",
+  "title": "Рабочий день Леи: пересказать и найти время для практики",
+  "subtitle": "Послушай → перескажи о ней → сравни с собой → найди общее время",
+  "level": "A1",
+  "group": "Полная практика навыков",
+  "units": "Авторский маршрут · A1",
+  "minutes": 35,
+  "goal": "Понять рассказ о рабочем дне, пересказать его о другом человеке — «She finishes work at five» — и найти общее свободное время: «I’m free from eight to nine. Can we practice at eight?»",
+  "formula": "I finish at five → She finishes at five · Lea starts at nine, but I start at ten · I'm free from eight to nine. Can we practice at eight?",
+  "guided": true,
+  "introSections": 1,
+  "prerequisites": [
+    "path-adjectives-frequency",
+    "path-present-simple",
+    "path-place-time"
+  ],
+  "recycles": [
+    "path-present-simple",
+    "path-adjectives-frequency",
+    "path-possession"
+  ],
+  "teaches": [
+    "пересказ о ней — напоминание: she starts, she has, she doesn’t (из уроков про действия и have)",
+    "после sh и ch — -es и лишний слог: finish → she finishes",
+    "practice → she practices: пишется только -s, но слог тоже лишний",
+    "сравнение двух людей с but: Lea starts at nine, but I start at ten",
+    "from … to … — «с … до …»: I’m free from eight to nine",
+    "общее время — там, где свободны оба; предложение Can we practice at …?",
+    "новое сообщение меняет одну деталь плана: On Wednesday, we can practice at eight thirty",
+    "рассказ о своём дне в 3–4 фразах",
+    "слова: get up, have breakfast, start work, finish work, practice — заниматься, free — свободен, partner — напарник"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Daily routine vocabulary (A1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/vocabulary/a1-a2/daily-routine-vocabulary-a1-beginner-english-vocabulary-lesson",
+      "notes": "Сверены фразы распорядка have breakfast, have lunch, have dinner, go to work и форма she wakes up. Британское half seven со страницы в урок не взято."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Где о ней слышен лишний слог",
+    "why": "Окончание о ней звучит по-разному. В пересказе дня Леи встретятся все три случая.",
+    "items": [
+      {
+        "label": "-s просто прилипает",
+        "en": "start → she starts",
+        "ru": "начинает",
+        "note": "Слог не прибавляется."
+      },
+      {
+        "label": "После sh, ch — -es",
+        "en": "finish → she finishes",
+        "ru": "заканчивает",
+        "note": "Слышен лишний слог: «фи-ни-шиз»."
+      },
+      {
+        "label": "На конце звук «с» — тоже лишний слог",
+        "en": "practice → she practices",
+        "ru": "занимается",
+        "note": "Пишется только -s, а звучит на слог длиннее."
+      }
+    ],
+    "focus": [
+      "finishes",
+      "practices"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как пересказать чужой день?",
+      "body": "В английском клубе новенькая, Лея, рассказывает о своём дне. Тебе нужно понять её, пересказать другу и найти общее время для практики.\n\nЛея говорит о себе: I walk to work. Ты пересказываешь о ней: She walks to work. Как это устроено, ты знаешь из уроков про действия и have: о ней — -s, has, doesn’t, а слово частоты стоит там же. Время — двумя числами: seven thirty — 7:30.\n\nСлушай в два прохода. Сначала пойми, кто говорит и о чём. Потом лови часы и записывай их цифрами. Не расслышал время — послушай ещё раз, но не угадывай."
+    },
+    {
+      "title": "Finishes и practices: когда слышен лишний слог",
+      "body": "Если действие кончается на sh или ch, о ней пишут -es: finish → she finishes («заканчивает»), watch → she watches. И это слышно: finishes на один слог длиннее — «фи-ни-шиз».\n\nPractice («заниматься») уже кончается на e, поэтому пишут только -s: she practices. Но слог тоже лишний — «прэк-ти-сиз»: на конце слова звук «с». А в starts или walks слог не прибавляется: -s просто прилипает к концу."
+    },
+    {
+      "title": "Сравнить два дня: but",
+      "body": "But — «но» или «а». Им показывают разницу между двумя людьми: Lea has dinner at six, but I have dinner at seven — Лея ужинает в шесть, а я в семь. В каждой половине своя форма: о Лее — has, о себе — have."
+    },
+    {
+      "title": "Как найти общее время",
+      "body": "From … to … — «с … до …»: I’m free from eight to nine — я свободен с восьми до девяти. Free — «свободен». Сравни свои часы с чужими: общее время там, где свободны оба.\n\nПредложить время можно вопросом с can: Can we practice at eight? — «Можем позаниматься в восемь?». Пришло новое сообщение — поменяй в плане только то, что изменилось: день или час. Остальное оставь."
+    }
+  ],
+  "examples": [
+    {
+      "en": "He finishes at six.",
+      "ru": "Он заканчивает в шесть.",
+      "why": "Finish кончается на sh — с he пишут -es, и слышен лишний слог."
+    },
+    {
+      "en": "She practices English at home.",
+      "ru": "Она занимается английским дома.",
+      "why": "Practice + s, но звучит на слог длиннее: practices."
+    },
+    {
+      "en": "I work at home, but she works in an office.",
+      "ru": "Я работаю дома, а она — в офисе.",
+      "why": "But связывает два разных факта. О себе — work, о ней — works."
+    },
+    {
+      "en": "We're free from two to four.",
+      "ru": "Мы свободны с двух до четырёх.",
+      "why": "From … to … называет начало и конец свободного времени."
+    },
+    {
+      "en": "Can we practice at seven thirty?",
+      "ru": "Можем позаниматься в семь тридцать?",
+      "why": "Can перед we делает из фразы вопрос-предложение."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Лея рассказывает о своём дне",
+      "kind": "listening",
+      "text": "Hi! I'm Lea, and I'm a new member of this English club. Here is my workday. I usually get up at seven. I always have breakfast at seven thirty — coffee and an egg. I start work at nine. My office is small, and it's near my home. I often walk to work. I finish work at five. I don't work in the evening. I have dinner at six. At eight, I practice English at home for thirty minutes. I want a practice partner. What about your day?",
+      "source": "Текст придуман для урока; люди вымышлены."
+    },
+    {
+      "id": "m2",
+      "title": "Твоя роль: расписание Alex",
+      "kind": "reference",
+      "text": "ALEX'S SCHEDULE\nGet up: 8:00 a.m.\nWork: 10:00 a.m. – 6:00 p.m.\nDinner: 7:00 p.m.\nFree: 8:00–9:00 p.m. every evening\nGoal: 30 minutes of English practice with a partner",
+      "source": "Текст придуман для урока; люди вымышлены."
+    },
+    {
+      "id": "m3",
+      "title": "Ответ Леи",
+      "kind": "dialogue",
+      "text": "Lea: Thanks, Alex! Eight is good for me. But on Wednesday, I finish work at eight. Can we practice at eight thirty on Wednesday?",
+      "source": "Текст придуман для урока; люди вымышлены."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Послушай M1. Во сколько Лея обычно встаёт и во сколько начинает работу? Перескажи эти две её фразы о ней.",
+      "context": "get up — вставать; start work — начинать работу.",
+      "guidance": {
+        "title": "Вспоминаем: о ней — с -s",
+        "body": "Вспоминаем: о ней действие получает -s, а usually не двигается. В get up окончание встаёт на get.",
+        "example": "He usually gets up at six. He starts work at eight.",
+        "translation": "Обычно он встаёт в шесть. Работу он начинает в восемь."
+      },
+      "hint": "Начни так: She usually gets … Вторая фраза — She starts …",
+      "answers": [
+        "She usually gets up at seven. She starts work at nine.",
+        "She usually gets up at 7:00. She starts work at 9:00.",
+        "She usually gets up at 7:00 a.m. She starts work at 9:00 a.m.",
+        "She usually gets up at seven, and she starts work at nine.",
+        "Lea usually gets up at seven. She starts work at nine."
+      ],
+      "explanation": "Лея сказала I usually get up и I start work. О ней — gets и starts, usually на том же месте. Время можно записать и цифрами.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Во сколько Лея заканчивает работу? Найди её фразу в M1 и перескажи о ней.",
+      "context": "finish work — заканчивать работу.",
+      "guidance": {
+        "title": "Finish → finishes",
+        "body": "Finish кончается на sh, поэтому о ней — -es. Скажи слово вслух: finishes на слог длиннее, чем finish.",
+        "example": "He watches TV at nine.",
+        "translation": "В девять он смотрит телевизор."
+      },
+      "hint": "Начни так: She fini… Сколько слогов получилось?",
+      "answers": [
+        "She finishes work at five.",
+        "She finishes work at 5:00.",
+        "She finishes work at 5:00 p.m.",
+        "She finishes at five.",
+        "Lea finishes work at five."
+      ],
+      "explanation": "Finish + -es = finishes. Finishs — ошибка: после sh всегда -es.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Что Лея делает в восемь вечера? Найди её фразу в M1, перескажи о ней и скажи вслух.",
+      "context": "practice — заниматься.",
+      "guidance": {
+        "title": "Practices: пишется -s, слышен лишний слог",
+        "body": "Practice уже кончается на e — допиши только -s. Но произнеси на слог длиннее: «прэк-ти-сиз».",
+        "example": "He practices Spanish on the weekend.",
+        "translation": "Он занимается испанским на выходных."
+      },
+      "hint": "Начни так: At eight, she practices … Где она занимается?",
+      "answers": [
+        "At eight, she practices English at home.",
+        "At eight, she practices English at home for thirty minutes.",
+        "She practices English at home at eight.",
+        "She practices English at eight.",
+        "Lea practices English at home at eight."
+      ],
+      "explanation": "Practices — practice + s, три слога. Расшифровка проверяет слова, поэтому лишний слог проверь сам на слух: «прэк-ти-сиз».",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Участник клуба Бен пересказал день Леи с двумя ошибками: Lea have dinner at six. She don't work in the evening. Исправь обе фразы.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем has и doesn’t",
+        "body": "Вспоминаем уроки про have и про «не»: о ней have → has, don’t → doesn’t, а действие после doesn’t без -s.",
+        "example": "Tom has lunch at one. He doesn't work on Sunday.",
+        "translation": "Том обедает в час. В воскресенье он не работает."
+      },
+      "hint": "Какое слово меняется целиком? А где нужен does?",
+      "answers": [
+        "Lea has dinner at six. She doesn't work in the evening.",
+        "Lea has dinner at six. She does not work in the evening."
+      ],
+      "explanation": "О Лее — has, а не have. Don’t → doesn’t, а work без -s: окончание уже в does."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты играешь Alex. Открой M2 и сравни начало работы: Лея начинает в девять, а ты? Скажи одной фразой с but.",
+      "context": "but — но, а.",
+      "guidance": {
+        "title": "Два разных факта — but",
+        "body": "But ставят между двумя фактами, которые отличаются. В каждой половине своя форма: о Лее — с -s, о себе — без -s.",
+        "example": "Lea gets up at seven, but I get up at eight.",
+        "translation": "Лея встаёт в семь, а я — в восемь."
+      },
+      "hint": "Во сколько по M2 начинает работу Alex? Начни так: Lea starts work at nine, but I …",
+      "answers": [
+        "Lea starts work at nine, but I start work at ten.",
+        "Lea starts work at nine, but I start at ten.",
+        "Lea starts at nine, but I start at ten.",
+        "She starts work at nine, but I start work at ten."
+      ],
+      "explanation": "О Лее — starts, о себе — start. But показывает разницу: у неё девять, у тебя десять.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Предложи Лее время для практики. Напиши от лица Alex: «Я свободен с восьми до девяти. Можем позаниматься в восемь?»",
+      "context": "from … to … — с … до …",
+      "guidance": {
+        "title": "С … до …: from … to …",
+        "body": "Начало и конец свободного времени соединяй так: from five to six. Потом предложи время вопросом с can: can идёт перед we.",
+        "example": "I'm free from five to six. Can we meet at five?",
+        "translation": "Я свободен с пяти до шести. Можем встретиться в пять?"
+      },
+      "hint": "Две фразы. Первая начинается с I'm free …, вторая — с Can we …",
+      "answers": [
+        "I'm free from eight to nine. Can we practice at eight?",
+        "I am free from eight to nine. Can we practice at eight?",
+        "I'm free from 8:00 to 9:00. Can we practice at 8:00?",
+        "I'm free from 8 to 9 p.m. Can we practice at 8 p.m.?"
+      ],
+      "explanation": "From eight to nine — «с восьми до девяти». Can we practice…? — предложение: Лея может согласиться или назвать своё время.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Лея ответила голосовым сообщением — оно в M3. Что она меняет в плане? Напиши новый план на среду одной фразой от лица Alex: когда вы можете позаниматься.",
+      "context": "Wednesday — среда.",
+      "guidance": {
+        "title": "Новое сообщение — одна новая деталь",
+        "body": "Сравни M3 со старым планом: практика остаётся, меняется только время в среду. День поставь в начало: On Wednesday, …",
+        "example": "On Friday, we can meet at six thirty.",
+        "translation": "В пятницу мы можем встретиться в шесть тридцать."
+      },
+      "hint": "Какое время Лея предлагает на среду? Начни так: On Wednesday, we can …",
+      "answers": [
+        "On Wednesday, we can practice at eight thirty.",
+        "On Wednesday, we can practice at 8:30.",
+        "On Wednesday, we practice at eight thirty.",
+        "On Wednesday, we practice at 8:30.",
+        "We can practice at eight thirty on Wednesday.",
+        "We can practice at 8:30 on Wednesday."
+      ],
+      "explanation": "В среду Лея заканчивает работу в восемь, поэтому просит 8:30. В остальные дни план прежний — в восемь. День можно поставить и в конец: …at eight thirty on Wednesday.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твой друг Сэм тоже ищет напарника для английского. Перескажи ему в сообщении день Леи по M1: когда она работает и когда занимается английским. Две-три фразы.",
+      "context": "",
+      "hint": "Три факта из M1: когда Лея начинает и заканчивает работу и когда занимается английским.",
+      "answers": [
+        "Lea starts work at nine and finishes at five. She doesn't work in the evening. She practices English at eight.",
+        "Lea works from nine to five. She practices English at home at eight."
+      ],
+      "explanation": "Засчитывается пересказ о ней с верными часами из M1: starts, finishes, practices — с окончаниями. Порядок фраз любой.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Лея спрашивает в M3, можно ли в среду в 8:30. Ответь ей голосом от лица Alex: согласись и скажи, с какого и до какого часа вы позанимаетесь в среду. До скольки ты свободен, смотри в M2.",
+      "context": "",
+      "hint": "Начни так: Yes, … Потом: On Wednesday, we can practice from … to …",
+      "answers": [
+        "Yes, eight thirty is good for me. On Wednesday, we can practice from eight thirty to nine.",
+        "Yes, we can. On Wednesday, we can practice from eight thirty to nine."
+      ],
+      "explanation": "Alex свободен до девяти (M2), Лея в среду — с 8:30 (M3). Значит, в среду вы занимаетесь с eight thirty до nine — ровно тридцать минут.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Клуб просит новых участников рассказать о себе, как Лея. Напиши 3–4 фразы о своём обычном дне: когда встаёшь, когда работаешь или учишься, что делаешь всегда или никогда и когда свободен для практики.",
+      "context": "study — учиться.",
+      "hint": "О себе — с I, без -s. Свободное время — from … to …",
+      "answers": [
+        "I usually get up at 7:00. I work from 9:00 to 6:00. I never work on Sunday. I'm free from 8:00 to 9:00 p.m.",
+        "I get up at six thirty. I always walk to work. I don't work in the evening. I'm usually free at seven."
+      ],
+      "explanation": "Засчитывается любой правдивый рассказ: действия о себе без -s, время с at или from … to …, слово частоты на своём месте."
+    }
+  ],
+  "keyRule": {
+    "rule": "Пересказываешь её день — I меняй на she. Кончается на sh или ch — добавь -es.",
+    "example": "I finish at five → She finishes at five — она заканчивает в пять.",
+    "check": "Свободен с восьми до девяти — I’m free from eight to nine."
+  }
+}

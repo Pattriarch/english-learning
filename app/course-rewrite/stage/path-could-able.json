@@ -1,0 +1,373 @@
+{
+  "id": "path-could-able",
+  "title": "Could и was able to: что умел и что удалось",
+  "subtitle": "Умел раньше → не мог → смог в этот раз → спроси",
+  "level": "A2",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · A2",
+  "minutes": 25,
+  "goal": "Рассказать, что ты умел в детстве («В пять лет я умел плавать»), чего не смог сделать («Ночью я не мог уснуть») и что тебе удалось в один конкретный раз («Вчера мне удалось ему дозвониться»).",
+  "formula": "I can swim → I could swim when I was five · I couldn't sleep · I was able to call him yesterday.",
+  "keyRule": {
+    "rule": "Умел вообще — could. Смог в один конкретный раз, и всё получилось, — was able to.",
+    "example": "I could swim at five — в пять лет я умел плавать. I was able to call him — мне удалось ему дозвониться.",
+    "check": "«Не смог» — всегда можно couldn't: I couldn't call him."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 1,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-something-anything"
+  ],
+  "recycles": [
+    "path-something-anything",
+    "path-past-continuous"
+  ],
+  "teaches": [
+    "could — прошлое от can: умение в то время (I could swim when I was five); одно для всех, действие без to и без -s",
+    "couldn't — «не умел» и «не смог в тот раз»: I couldn't sleep last night",
+    "вопрос без did: Could you swim when you were a kid? — Yes, I could. / No, I couldn't.",
+    "was/were able to — удалось в один конкретный раз: I was able to get home; Were you able to fix it?",
+    "выбор: умение вообще — could, один успешный случай — was able to; с see и hear could подходит и в один раз",
+    "ошибки: didn't could, could to swim, Yesterday I could finish",
+    "Could you…? в настоящем — вежливая просьба, а не прошлое",
+    "could звучит /kʊd/: l не произносится",
+    "слова: when I was five, as a kid, ride a bike, fix, get to work, on time, parking spot"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Past ability",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-ability",
+      "notes": "Сверено: could/couldn't — общее умение в прошлом; для одного конкретного успешного случая could обычно неверно, нужен was/were able to или managed to; в отрицании couldn't подходит и для одного случая, wasn't able to — официальнее."
+    },
+    {
+      "title": "VOA Learning English · Past Ability: Could, Was Able To, Managed To",
+      "url": "https://learningenglish.voanews.com/a/past-ability-could-was-able-to-managed-to/5139503.html",
+      "notes": "Сверено: was able to для общего умения возможен, но в речи реже и звучит официальнее; исключение — глаголы чувств и понимания (smell, understand и т. п.), с ними could подходит и для одного раза."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Умел, не смог, удалось",
+    "why": "Could рассказывает об умении в прошлом. Was able to — о том, что получилось в один конкретный раз.",
+    "items": [
+      {
+        "label": "Умею сейчас",
+        "en": "I can swim.",
+        "ru": "Я умею плавать.",
+        "note": "Can — умение сейчас."
+      },
+      {
+        "label": "Умел тогда",
+        "en": "I could swim when I was five.",
+        "ru": "В пять лет я умел плавать.",
+        "note": "Could — прошлое от can."
+      },
+      {
+        "label": "Не смог",
+        "en": "I couldn't sleep last night.",
+        "ru": "Ночью я не мог уснуть.",
+        "note": "Couldn't подходит и к одному разу."
+      },
+      {
+        "label": "Удалось в этот раз",
+        "en": "I was able to call him yesterday.",
+        "ru": "Вчера мне удалось ему позвонить.",
+        "note": "Один случай, и получилось: was able to, а не could."
+      }
+    ],
+    "footnote": "Could you help me? — не прошлое, а вежливая просьба сейчас, как в уроке про can.",
+    "focus": [
+      "can",
+      "could",
+      "couldn't",
+      "was able to"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как сказать «умел» и «не мог»?",
+      "body": "Новый друг спрашивает о детстве: «Ты умел плавать?» Ты помнишь can из урока про умения: I can swim — я умею плавать. О прошлом can превращается в could: I could swim when I was five — в пять лет я умел плавать. When I was five — «когда мне было пять».\n\nCould — это прошлое от can, а не новое слово. Ведёт себя так же: одно для всех и действие после него без to и без -s. She could read — она умела читать, а не she could reads.\n\n«Не умел» или «не мог» — couldn't, полная форма could not: I couldn't swim — я не умел плавать.\n\nCould you help me? из урока про can — другое. Это вежливая просьба сейчас. Если в ситуации есть прошлое — when I was a kid, yesterday, — could рассказывает о прошлом."
+    },
+    {
+      "title": "Couldn't — не смог в тот раз. Вопрос без did",
+      "body": "Couldn't подходит и для одного случая: I couldn't sleep last night — ночью я не мог уснуть. I couldn't find my keys — я не мог найти ключи. В вопросе could идёт вперёд, did не нужен, как и с can: Could you ride a bike when you were six? — «Ты умел кататься на велосипеде в шесть лет?» Ответ: Yes, I could. / No, I couldn't. Сказать didn't could — ошибка. Буква l в could не звучит: /kʊd/, рифмуется с good."
+    },
+    {
+      "title": "Was able to — удалось в этот раз",
+      "body": "Вчера дорогу перекрыли, но ты всё-таки добрался домой. Это не умение, а один случай, когда всё получилось. Здесь could обычно не ставят. Говорят was или were able to + действие: I was able to get home — мне удалось добраться домой. Able — «способный», дословно «был способен». Was или were — по человеку, как в уроке про прошлое: they were able to. Вопрос: Were you able to fix it? — «Тебе удалось починить?»"
+    },
+    {
+      "title": "Could или was able to: как выбрать",
+      "body": "Спроси себя: это умение на долгое время или один случай? Умение — could: My grandpa could fix any car. Один случай, и получилось — was able to: Yesterday I was able to fix the car. Yesterday I could fix — так обычно не говорят. «Не» в обоих случаях — couldn't. Wasn't able to тоже верно, но звучит официальнее. Исключение: с see и hear could подходит и для одного раза: I could see the lake from my room — из номера было видно озеро."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Could you swim when you were a kid? — Yes, I could.",
+      "ru": "Ты умел плавать в детстве? — Да, умел.",
+      "why": "Could идёт вперёд без did. В коротком ответе swim не повторяют."
+    },
+    {
+      "en": "I couldn't hear you. Can you repeat that?",
+      "ru": "Я тебя не расслышал. Можешь повторить?",
+      "why": "Couldn't — не смог в тот момент. Can you repeat — просьба сейчас, поэтому can."
+    },
+    {
+      "en": "My grandma could speak three languages.",
+      "ru": "Моя бабушка говорила на трёх языках.",
+      "why": "Умение, которое было у неё долгое время, — could. Speak без -s."
+    },
+    {
+      "en": "We couldn't find a parking spot.",
+      "ru": "Мы не смогли найти, где припарковаться.",
+      "why": "Один неудачный случай: couldn't. Parking spot — место для машины."
+    },
+    {
+      "en": "The store was closed, but I was able to buy milk at the gas station.",
+      "ru": "Магазин был закрыт, но мне удалось купить молоко на заправке.",
+      "why": "Один случай, и всё получилось: was able to."
+    },
+    {
+      "en": "Were you able to fix the car?",
+      "ru": "Тебе удалось починить машину?",
+      "why": "Were идёт вперёд, как в Were you at home? Fix — чинить."
+    },
+    {
+      "en": "From my window, I could see the lake.",
+      "ru": "Из моего окна было видно озеро.",
+      "why": "С see could подходит и для одного раза."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый друг спрашивает о твоём детстве. Скажи: «В шесть лет я умел читать». read = читать.",
+      "context": "",
+      "guidance": {
+        "title": "Умел тогда — could",
+        "body": "О прошлом can превращается в could. Действие после него остаётся простым: read, без to и без -ed. «В шесть лет» — when I was six.",
+        "example": "My brother could ride a bike when he was four.",
+        "translation": "В четыре года мой брат умел кататься на велосипеде."
+      },
+      "hint": "Начни так: I could … when I was …",
+      "answers": [
+        "I could read when I was six.",
+        "When I was six, I could read.",
+        "I could read at six."
+      ],
+      "explanation": "Could — прошлое от can: умение в то время. Read не меняется. When I was six можно поставить и в начало."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга удивляется, что ты так хорошо плаваешь. Скажи: «В детстве я не умел плавать». as a kid = в детстве.",
+      "context": "",
+      "guidance": {
+        "title": "Не умел — couldn't",
+        "body": "Couldn't — это could not. Ставь его перед действием, как can't: действие не меняется.",
+        "example": "She couldn't drive when she was eighteen.",
+        "translation": "В восемнадцать лет она не умела водить."
+      },
+      "hint": "Начни так: I couldn't … Куда поставить as a kid?",
+      "answers": [
+        "I couldn't swim as a kid.",
+        "As a kid, I couldn't swim.",
+        "I could not swim as a kid.",
+        "I couldn't swim when I was a kid.",
+        "When I was a kid, I couldn't swim."
+      ],
+      "explanation": "Couldn't — «не умел». As a kid можно поставить в начало или в конец; when I was a kid тоже верно."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утром коллега говорит, что ты выглядишь уставшим. Ответь: «Ночью я не мог уснуть». sleep = спать, уснуть; last night = прошлой ночью.",
+      "context": "",
+      "guidance": {
+        "title": "Couldn't — и про один раз",
+        "body": "Couldn't говорит не только «не умел». Оно подходит и к одному случаю, когда что-то не получилось.",
+        "example": "I couldn't find my keys this morning.",
+        "translation": "Утром я не мог найти ключи."
+      },
+      "hint": "Начни так: I couldn't … Где поставить last night?",
+      "answers": [
+        "I couldn't sleep last night.",
+        "I could not sleep last night.",
+        "Last night, I couldn't sleep."
+      ],
+      "explanation": "Couldn't sleep — «не мог уснуть» в одну конкретную ночь. Wasn't able to sleep тоже верно, но звучит официальнее."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Спроси подругу Мию: «Ты умела кататься на велосипеде, когда тебе было пять?» ride a bike = кататься на велосипеде.",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос: could вперёд, без did",
+        "body": "Как с can: could ставим перед человеком, did не нужен. Короткий ответ — Yes, I could. / No, I couldn't.",
+        "example": "Could he read when he was four? — No, he couldn't.",
+        "translation": "Он умел читать в четыре года? — Нет, не умел."
+      },
+      "hint": "Начни так: Could you … when you were …?",
+      "answers": [
+        "Could you ride a bike when you were five?",
+        "When you were five, could you ride a bike?"
+      ],
+      "explanation": "Could впереди делает вопрос, ride не меняется. Did could — ошибка: прошлое уже в could."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утром дорогу перекрыли, но ты всё-таки успел на работу. Напиши коллеге: «Дорога была закрыта, но мне удалось приехать на работу вовремя». closed = закрыт, get to work = добраться до работы, on time = вовремя.",
+      "context": "",
+      "guidance": {
+        "title": "Удалось в этот раз — was able to",
+        "body": "Сегодня всё получилось один раз — значит, was able to + действие. Could в такой фразе американцу покажется странным.",
+        "example": "The line was long, but we were able to get tickets.",
+        "translation": "Очередь была длинной, но нам удалось купить билеты."
+      },
+      "hint": "Начни так: The road was closed, but I was able … Какое слово идёт перед get?",
+      "answers": [
+        "The road was closed, but I was able to get to work on time.",
+        "The road was closed, but I was able to get to work on time this morning.",
+        "The road was closed, but I managed to get to work on time."
+      ],
+      "explanation": "Was able to — один случай с успехом. Could get здесь не подходит. Managed to тоже верно: так говорят, если это было трудно."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вчера у друга сломалась машина, и он собирался её чинить. Спроси: «Тебе удалось починить машину?» fix = чинить.",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос: were вперёд",
+        "body": "Was и were идут перед человеком, как в Were you at home? С you — were. Able to и действие остаются после человека.",
+        "example": "Was she able to call the doctor?",
+        "translation": "Ей удалось дозвониться до врача?"
+      },
+      "hint": "Начни так: Were you … ? Что после you — able to или to able?",
+      "answers": [
+        "Were you able to fix the car?",
+        "Were you able to fix your car?",
+        "Were you able to fix it?"
+      ],
+      "explanation": "Were впереди делает вопрос, able to fix остаётся после you. Did you able — ошибка: с was и were did не нужен."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вставь could или was / were able to и напиши обе фразы целиком: 1) My grandpa … fix any car. 2) The restaurant was full, but we … get a table.",
+      "context": "grandpa — дедушка, full — полный, get a table — получить столик.",
+      "guidance": {
+        "title": "Умение или один случай?",
+        "body": "Спроси себя про каждую фразу. Человек умел это долгое время — could. Один раз, и получилось — was или were able to.",
+        "example": "I could run fast at school. Last week I was able to run five miles.",
+        "translation": "В школе я быстро бегал. На прошлой неделе мне удалось пробежать пять миль."
+      },
+      "hint": "Дедушка чинил машины один раз или умел всегда? Столик достался вам один раз или всегда?",
+      "answers": [
+        "My grandpa could fix any car. The restaurant was full, but we were able to get a table.",
+        "My grandpa could fix any car. The restaurant was full, but we managed to get a table."
+      ],
+      "explanation": "Дедушка умел чинить машины всегда — could. Столик достался в один вечер — were able to: с we нужен were."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг написал: Yesterday I could finish the report, but I didn't could call the client. Исправь две ошибки и напиши фразу целиком. report = отчёт, client = клиент.",
+      "context": "",
+      "guidance": {
+        "title": "Найди две ошибки",
+        "body": "Первая часть — один случай, и всё получилось: could здесь не подходит. Во второй прошлое показано дважды: в didn't и в could.",
+        "example": "I was able to send the email, but I couldn't print it.",
+        "translation": "Мне удалось отправить письмо, но не удалось его распечатать."
+      },
+      "hint": "Чем заменить could finish? И что значит didn't could одним словом?",
+      "answers": [
+        "Yesterday I was able to finish the report, but I couldn't call the client.",
+        "Yesterday, I was able to finish the report, but I couldn't call the client.",
+        "Yesterday I was able to finish the report, but I wasn't able to call the client.",
+        "Yesterday I managed to finish the report, but I couldn't call the client."
+      ],
+      "explanation": "Отчёт закончен в один конкретный день — was able to. «Не смог» — couldn't: did с could не ставят. Wasn't able to тоже верно."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ночью ты проголодался, но холодильник был пуст. Утром скажи соседу по квартире: «Ночью я ничего не смог найти в холодильнике». fridge = холодильник.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: после not — anything",
+        "body": "Как в уроке про something и anything: после not ставим anything, а не something или nothing. В couldn't тоже есть not.",
+        "example": "We couldn't see anything.",
+        "translation": "Мы ничего не видели."
+      },
+      "hint": "Начни так: Last night, I couldn't find … Какое слово после not — anything или nothing?",
+      "answers": [
+        "Last night, I couldn't find anything in the fridge.",
+        "Last night I couldn't find anything in the fridge.",
+        "I couldn't find anything in the fridge last night."
+      ],
+      "explanation": "Couldn't уже содержит not, поэтому anything. Couldn't find nothing — двойное отрицание, так нельзя."
+    },
+    {
+      "id": "e10",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: Why didn't you answer my call? Ответь: «Извини, я не мог ответить. Я вёл машину». answer = ответить, drive = вести машину.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: was + -ing — дело шло в тот момент",
+        "body": "Как в уроке про was и were + -ing: дело, которое шло в момент звонка, — I was driving. Почему не смог — couldn't.",
+        "example": "Sorry, I couldn't talk. I was having lunch.",
+        "translation": "Извини, я не мог говорить. Я обедал."
+      },
+      "hint": "Две фразы: Sorry, I couldn't … . I was …",
+      "answers": [
+        "Sorry, I couldn't answer. I was driving.",
+        "Sorry, I couldn't answer your call. I was driving.",
+        "Sorry, I could not answer. I was driving.",
+        "Sorry, I couldn't answer because I was driving."
+      ],
+      "explanation": "Couldn't answer — не смог ответить в тот раз. I was driving — что шло в момент звонка, поэтому was + -ing."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг пишет: How was your first week at the new job? Ответь 3–4 фразами: что не получалось, что тебе всё-таки удалось и как ты себя чувствуешь.",
+      "context": "",
+      "hint": "Начни так: It was … Потом: I couldn't … But I was able to …",
+      "answers": [
+        "It was OK! On Monday, I couldn't find the office, and I was late. But on Friday, I was able to finish my first project. I'm tired but happy.",
+        "Not bad! I couldn't remember everyone's names. But on Thursday, I was able to help two customers. My boss was happy."
+      ],
+      "explanation": "Засчитывается, если есть хотя бы одно couldn't о неудаче и одно was able to о конкретном успехе. Could finish в таком месте — ошибка."
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Запиши голосом для нового друга рассказ о себе в детстве: 3–5 фраз. Скажи, что ты умел, чего не умел и что тебе однажды удалось. once = однажды.",
+      "context": "",
+      "hint": "Опора: When I was a kid, I could … I couldn't … Once, I was able to …",
+      "answers": [
+        "When I was a kid, I could swim very well. I couldn't ride a bike. I could read when I was five. Once, I was able to catch a big fish with my dad.",
+        "As a kid, I couldn't sing, but I could draw. When I was ten, I could speak a little English. Once, I was able to win a school race."
+      ],
+      "explanation": "Засчитывается любой честный рассказ: could и couldn't — умения в детстве, was able to — один случай, когда что-то получилось."
+    }
+  ]
+}

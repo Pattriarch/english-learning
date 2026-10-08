@@ -1,30 +1,36 @@
 {
   "id": "path-past-perfect",
   "title": "Фильм уже начался: had + третья форма",
-  "subtitle": "Шаг назад из прошлого → когда had не нужен → by the time → расскажи сам",
+  "subtitle": "Что было раньше → когда had не нужен → by the time → расскажи сам",
   "level": "B1",
   "group": "Времена",
   "units": "Авторский маршрут · B1",
   "minutes": 45,
-  "goal": "Показать, что одно событие в прошлом случилось раньше другого, и не ставить had там, где порядок и так ясен.",
+  "goal": "Рассказать, что одно событие в прошлом случилось раньше другого: «Когда мы пришли, фильм уже начался». И не ставить had там, где порядок и так ясен: «Я закончил отчёт и пошёл в спортзал».",
   "formula": "When we got to the theater, the movie had already started. → After I finished, I left.",
+  "keyRule": {
+    "rule": "Из двух событий прошлого к более раннему ставь had + третью форму.",
+    "example": "When we got there, the movie had started — когда мы пришли, фильм уже начался.",
+    "check": "События идут по порядку или есть after / before? Тогда had не нужен."
+  },
   "guided": true,
   "introSections": 5,
   "prerequisites": [
     "path-past-simple",
-    "path-present-perfect"
+    "path-present-perfect",
+    "path-present-perfect-continuous"
   ],
   "recycles": [
     "path-present-perfect",
     "path-past-simple"
   ],
   "teaches": [
-    "had + третья форма — событие раньше другой точки в прошлом: When we got to the theater, the movie had already started",
+    "had + третья форма — событие раньше другого момента в прошлом: When we got to the theater, the movie had already started",
     "had одинаков для всех; I’d = I had; hadn’t; вопрос Had you…?",
     "без had порядок другой: When we arrived, Ben left ↔ Ben had left",
     "события по очереди и после after/before — обычно past simple: After I finished, I left",
     "by the time + past simple, в другой части — had + третья форма",
-    "had never… before — опыта не было до точки в прошлом (I’ve never → I had never)",
+    "had never… before — опыта не было до момента в прошлом (I’ve never → I had never)",
     "realized / found out / remembered + had: I realized I had left my keys in the car",
     "одно давнее событие — past simple, а не had: I went to Paris in 2015",
     "I’d left (had) и I’d like (would)"
@@ -38,7 +44,7 @@
     {
       "title": "British Council · Past perfect (B1–B2)",
       "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/past-perfect",
-      "notes": "Сверены never, already и just с past perfect (never … before), by the time и то, что отдельное давнее событие без второй точки в прошлом не требует had."
+      "notes": "Сверены never, already и just с past perfect (never … before), by the time и то, что отдельное давнее событие без второго события в прошлом не требует had."
     },
     {
       "title": "Инглекс · Past Perfect Tense",
@@ -49,7 +55,7 @@
   "visual": {
     "kind": "contrast",
     "title": "Одно had — другой порядок",
-    "why": "Точка рассказа — «я пришёл домой». Had отправляет событие раньше этой точки; before делает то же словом.",
+    "why": "Момент рассказа — «я пришёл домой». Had ставит событие раньше этого момента; before говорит то же словом.",
     "items": [
       {
         "label": "По очереди",
@@ -58,7 +64,7 @@
         "note": "Сначала пришёл я, потом она взялась за ужин."
       },
       {
-        "label": "Шаг назад",
+        "label": "Раньше момента",
         "en": "When I got home, my sister had made dinner.",
         "ru": "Когда я пришёл домой, сестра уже приготовила ужин.",
         "note": "Had made: ужин был готов до моего прихода."
@@ -75,12 +81,12 @@
       "made",
       "before"
     ],
-    "footnote": "Спроси себя: какое событие — точка рассказа, а какое случилось до неё?"
+    "footnote": "Спроси себя: какое событие — момент рассказа, а какое случилось до него?"
   },
   "sections": [
     {
-      "title": "Зачем шаг назад, если всё и так в прошлом?",
-      "body": "Вы с другом опоздали в кино. Ты рассказываешь: «Когда мы пришли, фильм уже начался». Оба события в прошлом, но одно случилось раньше другого. По-русски порядок подсказывает слово «уже». По-английски его показывает форма глагола: When we got to the theater, the movie had already started.\n\nПредставь, что рассказ стоит в одной точке прошлого — «мы пришли». Past simple описывает то, что происходит в этой точке и после неё: we got there, we sat down. Had + третья форма глагола делает шаг назад, к тому, что успело случиться ещё раньше: the movie had started. Эту форму называют past perfect — «прошлое до прошлого».\n\nБез had смысл меняется. When we got to the theater, the movie started — фильм начался, когда мы пришли: сначала мы, потом фильм."
+      "title": "Зачем had, если всё и так в прошлом?",
+      "body": "Вы с другом опоздали в кино. Ты рассказываешь: «Когда мы пришли, фильм уже начался». Оба события в прошлом, но одно случилось раньше другого. По-русски это подсказывает слово «уже». По-английски — форма глагола: When we got to the theater, the movie had already started.\n\nРассказ стоит в одном моменте прошлого — «мы пришли». То, что в этот момент и после него, — past simple: we got there, we sat down. То, что успело случиться ещё раньше, — had + третья форма: the movie had started. Эту форму называют past perfect.\n\nHad здесь не значит «имел». Это слово-помощник: прошлая форма have из I have finished.\n\nБез had порядок другой. When we got to the theater, the movie started — сначала пришли мы, потом начался фильм."
     },
     {
       "title": "Had + третья форма — одинаково для всех",
@@ -88,22 +94,22 @@
     },
     {
       "title": "Когда had не нужен",
-      "body": "Had нужен, когда рассказ возвращается назад — к тому, что было раньше его точки. Если события идут по очереди, хватает past simple: I got home, took a shower and went to bed. С after и before порядок и так понятен, и американцы обычно говорят проще: After the kids went to bed, we watched a movie. After the kids had gone to bed тоже верно, но звучит тяжелее. И «давно» не значит «had»: I went to Paris in 2015 — просто past simple, ведь второго события для сравнения нет."
+      "body": "Had нужен, когда рассказ возвращается назад — к тому, что было раньше момента рассказа. Если события идут по очереди, хватает past simple: I got home, took a shower and went to bed. С after и before порядок и так понятен, и американцы обычно говорят проще: After the kids went to bed, we watched a movie. After the kids had gone to bed тоже верно, но звучит тяжелее. И «давно» не значит «had»: I went to Paris in 2015 — просто past simple, ведь второго события для сравнения нет."
     },
     {
       "title": "By the time и never… before",
-      "body": "By the time — «к тому времени, как». После него ставь past simple. В другой части — то, что успело случиться раньше. By the time we got to the beach, the rain had stopped — когда мы добрались до пляжа, дождь уже кончился. Второй частый случай — опыт до момента в прошлом. Сейчас: I’ve never seen snow. В рассказе о прошлом: I had never seen snow before I moved to Chicago — до переезда в Чикаго я ни разу не видел снега. Точка отсчёта ушла в прошлое, и have сдвинулся в had."
+      "body": "By the time — «к тому времени, как». После него ставь past simple. В другой части — то, что успело случиться раньше. By the time we got to the beach, the rain had stopped — когда мы добрались до пляжа, дождь уже кончился. Второй частый случай — опыт до момента в прошлом. Сейчас: I’ve never seen snow. В рассказе о прошлом: I had never seen snow before I moved to Chicago — до переезда в Чикаго я ни разу не видел снега. Опыт считаем до момента в прошлом, поэтому вместо have — had."
     },
     {
       "title": "Понял, что забыл: realized + had",
-      "body": "Шаг назад часто нужен после realized — понял, found out — узнал, remembered — вспомнил. I realized I had left my keys in the car — я понял, что оставил ключи в машине. «Понял» — точка рассказа, «оставил» — раньше. Типичная ошибка — прицепить had не к тому событию: When I had arrived, the store closed. Правильно: When I arrived, the store had closed. Had ставят к более раннему событию, а не к тому, что стоит первым во фразе."
+      "body": "Had часто нужен после realized — понял, found out — узнал, remembered — вспомнил. I realized I had left my keys in the car — я понял, что оставил ключи в машине. «Понял» — момент рассказа, «оставил» — раньше. Типичная ошибка — прицепить had не к тому событию: When I had arrived, the store closed. Правильно: When I arrived, the store had closed. Had ставят к более раннему событию, а не к тому, что стоит первым во фразе."
     }
   ],
   "examples": [
     {
       "en": "When I called Anna, she had already gone to bed.",
       "ru": "Когда я позвонил Анне, она уже легла спать.",
-      "why": "Анна легла раньше звонка, поэтому had gone; сам звонок — точка рассказа."
+      "why": "Анна легла раньше звонка, поэтому had gone; сам звонок — момент рассказа."
     },
     {
       "en": "When the police arrived, the thief ran away.",
@@ -123,7 +129,7 @@
     {
       "en": "By the time the pizza came, everybody had gone home.",
       "ru": "К тому времени, как привезли пиццу, все уже разошлись.",
-      "why": "Приезд пиццы — точка рассказа, уход гостей — раньше неё."
+      "why": "Приезд пиццы — момент рассказа, уход гостей — раньше него."
     },
     {
       "en": "I found out that my friend had moved to Texas.",
@@ -133,7 +139,7 @@
     {
       "en": "We had never met before that day.",
       "ru": "До того дня мы ни разу не встречались.",
-      "why": "Опыт считаем до точки в прошлом — того самого дня."
+      "why": "Опыт считаем до момента в прошлом — того самого дня."
     }
   ],
   "exercises": [
@@ -144,8 +150,8 @@
       "prompt": "Вы с другом опоздали на поезд. Расскажи коллеге: «Когда мы приехали на вокзал, поезд уже ушёл».",
       "context": "leave → left → left — уходить, уезжать.",
       "guidance": {
-        "title": "Шаг назад: had + третья форма",
-        "body": "Рассказ стоит в точке «мы приехали» — это past simple. То, что случилось ещё раньше, ставь в had + третью форму.",
+        "title": "Что было раньше: had + третья форма",
+        "body": "Момент рассказа — «мы приехали»: это past simple. То, что случилось ещё раньше, ставь в had + третью форму.",
         "example": "When I got to the office, the meeting had already started.",
         "translation": "Когда я пришёл в офис, совещание уже началось."
       },
@@ -159,7 +165,7 @@
         "The train had already left when we got to the station.",
         "The train had already left when we arrived at the station."
       ],
-      "explanation": "Поезд ушёл раньше, чем вы приехали, поэтому had left. Приезд — точка рассказа, для него хватает past simple: got to или arrived at."
+      "explanation": "Поезд ушёл раньше, чем вы приехали, поэтому had left. Приезд — момент рассказа, для него хватает past simple: got to или arrived at."
     },
     {
       "id": "e2",
@@ -169,7 +175,7 @@
       "context": "",
       "guidance": {
         "title": "Одно had меняет порядок",
-        "body": "Если в обеих частях past simple, события идут по очереди: сначала первое, потом второе. Had переносит событие раньше точки рассказа.",
+        "body": "Если в обеих частях past simple, события идут по очереди: сначала первое, потом второе. Had ставит событие раньше момента рассказа.",
         "example": "When I turned on the TV, the game had ended.",
         "translation": "Когда я включил телевизор, игра уже закончилась."
       },
@@ -180,7 +186,7 @@
         "When we arrived, Ben had gone.",
         "When we arrived, Ben had already gone."
       ],
-      "explanation": "When we arrived, Ben left — сначала пришли вы, потом ушёл он. Had left переносит его уход раньше вашего прихода; already делает это ещё яснее."
+      "explanation": "When we arrived, Ben left — сначала пришли вы, потом ушёл он. Had left ставит его уход раньше вашего прихода; already делает это ещё яснее."
     },
     {
       "id": "e3",
@@ -212,7 +218,7 @@
       "context": "report — отчёт; gym — спортзал.",
       "guidance": {
         "title": "After и before уже показывают порядок",
-        "body": "Если порядок понятен из after или before, американцы обычно обходятся past simple. Had здесь не ошибка, просто лишний груз.",
+        "body": "Если порядок понятен из after или before, американцы обычно говорят past simple. Had здесь не ошибка, но фраза с ним звучит тяжелее.",
         "example": "Before I left, I checked the stove.",
         "translation": "Перед уходом я проверил плиту."
       },
@@ -234,7 +240,7 @@
       "context": "",
       "guidance": {
         "title": "К тому времени, как… — by the time",
-        "body": "После by the time — past simple: это точка рассказа. В другой части — то, что успело случиться до неё: had + третья форма.",
+        "body": "После by the time — past simple: это момент рассказа. В другой части — то, что успело случиться до него: had + третья форма.",
         "example": "By the time I woke up, my parents had left for work.",
         "translation": "Когда я проснулся, родители уже ушли на работу."
       },
@@ -246,7 +252,7 @@
         "By the time we got to the store, the store had already closed.",
         "By the time we got to the store, it was already closed."
       ],
-      "explanation": "By the time we got… — точка рассказа в past simple. Магазин закрылся раньше, поэтому had closed. It was already closed тоже верно: так описывают состояние, а не событие."
+      "explanation": "By the time we got… — момент рассказа, поэтому past simple. Магазин закрылся раньше, поэтому had closed. It was already closed тоже верно: так описывают состояние, а не событие."
     },
     {
       "id": "e6",
@@ -269,7 +275,7 @@
         "Sorry I'm late! I realized that I had left my wallet at the cafe, so I went back.",
         "Sorry I'm late! I realized I had left my wallet at the cafe, so I went back."
       ],
-      "explanation": "Кошелёк он оставил раньше, чем это понял, поэтому had left, а realized — обычная точка рассказа. Went back — следующий шаг, тоже past simple."
+      "explanation": "Кошелёк он оставил раньше, чем это понял, поэтому had left, а realized — обычный момент рассказа. Went back — следующий шаг, тоже past simple."
     },
     {
       "id": "e7",
@@ -279,7 +285,7 @@
       "context": "fly → flew → flown — летать; flight — полёт.",
       "guidance": {
         "title": "Вспоминаем: I’ve never → I had never",
-        "body": "I’ve never been there — опыта нет до сейчас. Если точка отсчёта в прошлом, have сдвигается в had: опыта не было до того момента.",
+        "body": "I’ve never been there — опыта нет до сейчас. Если считаешь опыт до момента в прошлом, вместо have ставь had.",
         "example": "It was his first job interview. He had never worn a suit before.",
         "translation": "Это было его первое собеседование. Раньше он никогда не носил костюм."
       },
@@ -324,7 +330,7 @@
       "practiceStage": "independent",
       "prompt": "Друг выкладывает историю в англоязычную группу путешественников и просит проверить времена. В тексте четыре ошибки: где-то had лишний, где-то его не хватает. Исправь и напиши текст целиком: “In 2019, I had traveled to Mexico for the first time. I didn't speak any Spanish, and I never tried real Mexican food. On my first night, I had gone to a small restaurant near my hotel. When I got there, the kitchen already closed, but the owner made me tacos anyway. I have never forgotten that night.”",
       "context": "anyway — всё равно.",
-      "hint": "Про каждый глагол спроси: это событие рассказа или то, что случилось раньше точки рассказа?",
+      "hint": "Про каждый глагол спроси: это событие рассказа или то, что случилось раньше момента рассказа?",
       "answers": [
         "In 2019, I traveled to Mexico for the first time. I didn't speak any Spanish, and I had never tried real Mexican food. On my first night, I went to a small restaurant near my hotel. When I got there, the kitchen had already closed, but the owner made me tacos anyway. I have never forgotten that night.",
         "In 2019, I traveled to Mexico for the first time. I didn't speak any Spanish, and I'd never tried real Mexican food. On my first night, I went to a small restaurant near my hotel. When I got there, the kitchen had already closed, but the owner made me tacos anyway. I've never forgotten that night."

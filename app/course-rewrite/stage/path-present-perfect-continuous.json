@@ -1,55 +1,58 @@
 {
   "id": "path-present-perfect-continuous",
-  "title": "Жду уже 20 минут: I’ve been waiting",
-  "subtitle": "Сколько длится → с какого момента → след и результат → расскажи о себе",
+  "title": "Жду уже 20 минут: I've been waiting",
+  "subtitle": "Занятие до сих пор → вопрос → след → занятие или результат",
   "level": "B1",
   "group": "Времена",
   "units": "Авторский маршрут · B1",
   "minutes": 45,
-  "goal": "Сказать, как долго длится дело до этой минуты, спросить об этом и отличить занятие от готового результата.",
-  "formula": "She’s been working since eight. → How long have you been here? → I’ve written three emails.",
+  "goal": "Сказать, сколько уже идёт занятие: «Я жду уже двадцать минут», «Она учит гитару с января». Спросить «Сколько ты уже…?» и отличить «всё утро пишу письма» от «написал три письма».",
+  "formula": "I've been waiting for twenty minutes. → How long have you been learning English? → I've written three emails.",
+  "keyRule": {
+    "rule": "Занятие началось раньше и идёт до сих пор — have been + -ing.",
+    "example": "I've been waiting for twenty minutes — я жду уже двадцать минут.",
+    "check": "Know, like, have не берут -ing: I've known her for years."
+  },
   "guided": true,
   "introSections": 5,
   "prerequisites": [
-    "path-present-perfect",
+    "path-present-perfect-for-since",
     "path-present-continuous"
   ],
   "recycles": [
-    "path-present-continuous",
-    "path-present-perfect"
+    "path-present-perfect-for-since",
+    "path-present-continuous"
   ],
   "teaches": [
-    "have/has been + -ing — дело началось раньше и идёт до сих пор: I’ve been waiting for 20 minutes (по-русски «жду уже»)",
-    "for + длина отрезка, since + точка начала: for two years, since Monday, since I moved here",
-    "вопрос How long have you been…? и отрицание I haven’t been sleeping well",
-    "занятие только что закончилось, а след виден: Have you been crying? It’s been raining",
-    "занятие или результат: I’ve been writing emails all morning ↔ I’ve written three emails",
-    "know, like, want, have («иметь») и be — без -ing: I’ve known her for years, I’ve been here for an hour",
-    "live и work — обе формы: I’ve lived / I’ve been living here for five years",
-    "в речи: I’ve been, she’s been (’s = has); been звучит /bɪn/",
-    "фразы: lately, all morning, so far, What have you been up to?"
+    "have/has been + -ing — занятие началось раньше и идёт до сих пор: I've been waiting for 20 minutes (по-русски «жду уже»)",
+    "she's been = she has been; been звучит коротко /bɪn/",
+    "вопрос How long have you been…? Have you been waiting long? и отрицание I haven't been sleeping well lately",
+    "занятие только что закончилось, а след виден: Have you been crying? It's been raining",
+    "занятие или результат: I've been writing emails all morning ↔ I've written three emails",
+    "состояния без -ing: I've known her for years, I've been here for an hour; live и work — обе формы",
+    "фразы: lately, all morning, all day, so far, What have you been up to?"
   ],
   "sources": [
     {
       "title": "VOA Learning English · Have You Been Using the Perfect Progressive?",
       "url": "https://learningenglish.voanews.com/a/have-you-been-using-the-perfect-progressive/3628550.html",
-      "notes": "Сверены форма have/has been + -ing, вопрос How long, for и since, недавно закончившееся дело с видимым следом (красные глаза), запрет -ing для глаголов состояния (I have known, не I’ve been knowing) и то, что в речи почти всегда звучит I’ve been."
+      "notes": "Сверены форма have/has been + -ing, длительность до сейчас с for и since, недавно закончившееся дело с видимым следом (красные глаза — Have you been crying?), запрет -ing для глаголов состояния и то, что в речи почти всегда звучит I've been."
     },
     {
       "title": "British Council · Present perfect simple and continuous (B1–B2)",
       "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/present-perfect-simple-continuous",
-      "notes": "Сверено противопоставление: форма с have + третья форма говорит о результате и отвечает на «сколько», форма с been + -ing — о самом занятии и отвечает на «как долго»; for, since и how long работают с обеими."
+      "notes": "Сверено противопоставление: have + третья форма — результат, отвечает на «сколько» (ten books), have been + -ing — само занятие, отвечает на «как долго»; состояния с for и since — в форме без -ing."
     },
     {
       "title": "Инглекс · Present Perfect Continuous",
       "url": "https://englex.ru/present-perfect-continuous-tense/",
-      "notes": "Как форма переводится на русский: настоящим временем с «уже», если дело идёт, и прошедшим, если оно только что закончилось; глаголы состояния остаются в форме с have + третья форма."
+      "notes": "Как форма переводится на русский: настоящим временем с «уже», если дело идёт, и прошедшим, если оно только что закончилось."
     }
   ],
   "visual": {
     "kind": "timeline",
-    "title": "Одна линия — since и for",
-    "why": "Have been + -ing охватывает весь отрезок: от начала до этой минуты. Since отмечает начало, for — длину отрезка.",
+    "title": "Одна линия: от начала до этой минуты",
+    "why": "Have been + -ing охватывает весь отрезок: занятие началось в прошлом и идёт сейчас.",
     "items": [
       {
         "label": "7:00 · начало",
@@ -58,53 +61,45 @@
         "note": "Начало — законченный факт, поэтому past simple."
       },
       {
-        "label": "since · от точки",
-        "en": "He's been working since seven.",
-        "ru": "Он работает с семи.",
-        "note": "Since + точка, с которой всё началось."
-      },
-      {
-        "label": "for · длина",
+        "label": "7:00–12:00 · весь отрезок",
         "en": "He's been working for five hours.",
         "ru": "Он работает уже пять часов.",
-        "note": "For + длина отрезка до этой минуты."
+        "note": "Has been working: от семи до этой минуты."
       },
       {
         "label": "12:00 · сейчас",
         "en": "He's still working.",
         "ru": "Он всё ещё работает.",
-        "note": "Отрезок дошёл до сейчас, и работа продолжается."
+        "note": "Только эта минута — is working. Весь отрезок — has been working."
       }
     ],
     "focus": [
       "started",
-      "since",
-      "for",
       "been working",
       "still"
     ],
-    "footnote": "Вопрос к этой линии: How long has Dan been working? Ответ — since seven или for five hours."
+    "footnote": "Вопрос к этой линии: How long has Dan been working? — For five hours. / Since seven."
   },
   "sections": [
     {
-      "title": "Почему «жду уже 20 минут» — не I am waiting?",
-      "body": "Друг опаздывает в кино и пишет: «Ты где?» Ты отвечаешь: «У входа, жду уже двадцать минут». По-русски хватает настоящего времени и слова «уже». По-английски I am waiting описывает только эту минуту. А нужно показать весь отрезок: ожидание началось раньше и тянется до сих пор. Для этого есть форма have been + -ing: I’ve been waiting for twenty minutes.\n\nОна собирается из трёх частей: have или has + been + глагол с -ing. Have связывает прошлое с настоящим, как в I have finished. Been — третья форма be. Глагол с -ing показывает, что это занятие, процесс. С he, she и it — has: She’s been working since eight. Здесь ’s — это has, а не is.\n\nВопрос начинается с have или has: Have you been waiting long? — Ты давно ждёшь? Отрицание — haven’t или hasn’t: I haven’t been sleeping well lately — в последнее время я плохо сплю. Lately — «в последнее время». В американской речи been звучит коротко: /bɪn/, а не /biːn/.\n\nЭту форму называют present perfect continuous. Её смысл: дело началось раньше и идёт до сих пор."
+      "title": "Почему «жду уже 20 минут» — это не I am waiting",
+      "body": "Друг опаздывает в кино и пишет: «Ты где?» Ты отвечаешь: «У входа, жду уже двадцать минут». Ожидание началось раньше и идёт до сих пор. По-русски хватает настоящего времени и слова «уже».\n\nПо-английски I am waiting говорит только про эту минуту. Для всего отрезка от начала до сейчас нужна форма have been + -ing: I've been waiting for twenty minutes. Её называют present perfect continuous.\n\nВ ней три части. Have — слово-помощник, как в I have finished, а не «иметь». С he, she, it — has. Been — третья форма be. Глагол с -ing показывает, что это занятие, процесс.\n\nFor и since ты уже знаешь: for + длина (for two hours), since + точка начала (since Monday). С этой формой они работают так же."
     },
     {
-      "title": "For или since: длина отрезка или точка начала",
-      "body": "Вопрос How long…? — «сколько времени…?» — ждёт одного из двух ответов. For + длина отрезка: for twenty minutes, for two years, for a long time — давно. Since + точка, с которой всё началось: since 9:30, since Monday, since 2020. После since может стоять целое событие в past simple: since I moved here — с тех пор, как я сюда переехал. По-русски в обоих случаях часто звучит просто «уже» или «с». Выбирай по смыслу: отрезок — for, точка — since. В разговоре for иногда опускают: I’ve been waiting twenty minutes."
+      "title": "Вопрос, «не» и короткие формы",
+      "body": "Для вопроса have или has встаёт перед человеком: Have you been waiting long? — Ты давно ждёшь? How long has she been working there? — Сколько она там уже работает?\n\nДля «не» — haven't или hasn't: I haven't been sleeping well lately — в последнее время я плохо сплю. Lately — «в последнее время».\n\nВ речи have сливается с человеком: I've been, we've been. С he и she — he's been, she's been. Здесь 's — это has, а не is: после него стоит been. Само been американцы говорят коротко: /bɪn/, почти «бин» с кратким «и»."
+    },
+    {
+      "title": "Занятие — с -ing, состояние — без",
+      "body": "В уроке про for и since ты говорил: I've known her since college, I've had this car for two years. Know (знать), like (нравиться), want (хотеть), have («иметь») — это не занятия, а состояния. Их не ставят в -ing и здесь: I've known Sam for ten years. I've been knowing — ошибка.\n\nС be так же: I've been here for an hour — я здесь уже час. Тут been — это сам глагол «быть», а не помощник, поэтому -ing нет.\n\nЗанятие — это то, что делают: wait, work, cook, study, play. Если оно идёт до сих пор — have been + -ing: I've been cooking for two hours. У live и work подходят обе формы: I've lived here for five years и I've been living here for five years значат почти одно и то же."
     },
     {
       "title": "Дело закончилось, а след ещё виден",
-      "body": "Иногда занятие уже закончилось, но его след заметен прямо сейчас. У подруги красные глаза: Have you been crying? — Ты плакала? У тебя руки в краске: I’ve been painting the chair — я красил стул. Улица мокрая: It’s been raining — шёл дождь. По-русски здесь прошедшее время. По-английски — have been + -ing: форма связывает недавнее занятие с тем, что видно сейчас. Did you cry? спросило бы просто о факте из прошлого."
+      "body": "Иногда занятие уже закончилось, но его след виден прямо сейчас. У подруги красные глаза: Have you been crying? — Ты плакала? У тебя руки в краске: I've been painting — я красил. Улица мокрая: It's been raining — шёл дождь.\n\nПо-русски здесь прошедшее время. По-английски — have been + -ing: форма связывает недавнее занятие с тем, что видно сейчас. Did you cry? тоже правильно, но спрашивает просто о факте из прошлого и не связывает его с красными глазами."
     },
     {
       "title": "Как долго — или сколько уже готово",
-      "body": "Сравни: I’ve been writing emails all morning — я всё утро пишу письма. I’ve written three emails — я написал три письма. Первая фраза о занятии и о том, как долго оно идёт. Вторая — о готовом результате: три письма можно отправить. Вопрос How long…? обычно ведёт к have been + -ing, вопрос How many…? — к have + третья форма. С числом готовых вещей -ing обычно не ставят: не I’ve been writing three emails, а I’ve written three emails. All morning — «всё утро», all day — «весь день»."
-    },
-    {
-      "title": "Know, like, have: состояние остаётся без -ing",
-      "body": "Ты уже знаешь: know, like, want и have в смысле «иметь» не ставят в -ing даже сейчас. Это не занятие, а состояние. С for и since для них берём have + третья форма. I’ve known her for years — я знаю её много лет, а не I’ve been knowing. We’ve had this car since 2019 — у нас эта машина с 2019 года. С be так же: I’ve been here for an hour — я здесь уже час. С live и work подходят обе формы: I’ve lived here for five years и I’ve been living here for five years — почти одно и то же."
+      "body": "Сравни две фразы на картинке. He's been painting the chair — он красил стул какое-то время; готов ли стул, фраза не говорит. He's painted the chair — стул покрашен, работа сделана.\n\nТак же с письмами. I've been writing emails all morning — я всё утро пишу письма: это о занятии и о том, как долго оно идёт. I've written three emails — я написал три письма: это готовый результат. All morning — «всё утро», all day — «весь день», so far — «пока что».\n\nНа вопрос How long…? обычно отвечает have been + -ing. На How many…? — have + третья форма. С числом готовых вещей -ing не ставят: I've been writing three emails — ошибка."
     }
   ],
   "examples": [
@@ -116,12 +111,12 @@
     {
       "en": "I've been learning English since I was twelve.",
       "ru": "Я учу английский с двенадцати лет.",
-      "why": "Since вводит точку начала; здесь это целое событие в past simple."
+      "why": "После since — целое событие в past simple: с этого момента учёба и идёт."
     },
     {
       "en": "How long have you been living in Denver?",
       "ru": "Сколько ты уже живёшь в Денвере?",
-      "why": "Вопрос о длине отрезка до сейчас: have стоит перед you."
+      "why": "Have стоит перед you — так строится вопрос."
     },
     {
       "en": "Your eyes are red. Have you been crying?",
@@ -131,17 +126,17 @@
     {
       "en": "I've been writing emails all morning.",
       "ru": "Я всё утро пишу письма.",
-      "why": "Сколько писем уже готово, эта фраза не говорит."
+      "why": "Говорит о занятии; сколько писем готово, не сказано."
     },
     {
       "en": "I've written three emails.",
       "ru": "Я написал три письма.",
-      "why": "Число готовых писем — результат, поэтому -ing не нужен."
+      "why": "Число готовых писем — результат, поэтому без -ing."
     },
     {
       "en": "I've known Sam for ten years.",
       "ru": "Я знаю Сэма десять лет.",
-      "why": "Know — состояние, поэтому have known."
+      "why": "Know — состояние, а не занятие, поэтому have known."
     }
   ],
   "exercises": [
@@ -153,11 +148,11 @@
       "context": "",
       "guidance": {
         "title": "«Готовлю уже…» — have been + -ing",
-        "body": "Русское «готовлю уже…» — не I am cooking: нужно показать весь отрезок от начала до этой минуты. Собери have been + глагол с -ing, а длину отрезка поставь после for.",
+        "body": "Готовка началась раньше и идёт сейчас. Собери три части: I've + been + глагол с -ing. Длину отрезка поставь в конец после for.",
         "example": "We've been driving for three hours.",
         "translation": "Мы едем уже три часа."
       },
-      "hint": "Начни так: I’ve been cooking … В конце — два часа.",
+      "hint": "Начни так: I've been … А «два часа» — это длина или точка начала?",
       "answers": [
         "I've been cooking for two hours!",
         "I have been cooking for two hours!",
@@ -165,7 +160,7 @@
         "I have been cooking for 2 hours!",
         "I've been cooking two hours!"
       ],
-      "explanation": "Have been cooking тянет готовку от начала до этой минуты, for two hours называет длину. I am cooking for two hours — ошибка: am cooking говорит только о «сейчас». В разговоре for перед сроком иногда опускают."
+      "explanation": "Have been cooking охватывает готовку от начала до этой минуты, for two hours называет длину. I am cooking for two hours — ошибка: am cooking говорит только о «сейчас». В разговоре for перед сроком иногда опускают."
     },
     {
       "id": "e2",
@@ -174,19 +169,19 @@
       "prompt": "Твоя соседка Кейт недавно взялась за гитару. Расскажи другу: «Она играет на гитаре с января».",
       "context": "guitar — гитара; американцы часто говорят play guitar без the.",
       "guidance": {
-        "title": "Since — точка, с которой всё началось",
-        "body": "For называет длину отрезка, since — точку начала: since January, since Monday, since 9:30. С she, he и it вместо have — has.",
+        "title": "С she и he — has: she's been",
+        "body": "С she, he и it вместо have ставим has. В речи she has сливается в she's. Перед been 's всегда значит has, а не is.",
         "example": "He's been working here since March.",
         "translation": "Он работает здесь с марта."
       },
-      "hint": "Январь — длина отрезка или точка на календаре? Начни так: She’s been …",
+      "hint": "Январь — длина отрезка или точка начала? Начни так: She's been …",
       "answers": [
         "She's been playing guitar since January.",
         "She has been playing guitar since January.",
         "She's been playing the guitar since January.",
         "She has been playing the guitar since January."
       ],
-      "explanation": "Январь — точка начала, поэтому since, а не for. She’s been — коротко от she has been: перед been ’s всегда означает has."
+      "explanation": "С she нужен has: she has been playing, коротко she's been playing. Январь — точка начала, поэтому since, а не for. Play guitar и play the guitar — оба варианта верны."
     },
     {
       "id": "e3",
@@ -195,17 +190,17 @@
       "prompt": "В языковом клубе ты знакомишься с Марком. Он неплохо говорит по-русски. Спроси его: «Сколько ты уже учишь русский?»",
       "context": "",
       "guidance": {
-        "title": "Вопрос о длине: How long have you been…?",
-        "body": "Начни с How long, затем поставь have или has перед человеком — как в Have you finished? Been и глагол с -ing встают после него.",
+        "title": "Вопрос: How long have you been…?",
+        "body": "Начни с How long. Потом have или has перед человеком, а за ним been и глагол с -ing.",
         "example": "How long has she been working there?",
         "translation": "Сколько она уже там работает?"
       },
-      "hint": "Три слова в начале: How long have …",
+      "hint": "Первые три слова: How long have …",
       "answers": [
         "How long have you been learning Russian?",
         "How long have you been studying Russian?"
       ],
-      "explanation": "How long спрашивает о длине отрезка до сейчас, have перед you делает вопрос. How long do you learn Russian? и How long are you learning Russian? — частые ошибки: они не охватывают время от начала до сейчас."
+      "explanation": "How long спрашивает о длине отрезка до сейчас, have перед you делает вопрос. How long do you learn Russian? и How long are you learning Russian? — частые ошибки: они не охватывают время от начала до сейчас. Learn и study здесь подходят оба."
     },
     {
       "id": "e4",
@@ -215,7 +210,7 @@
       "context": "",
       "guidance": {
         "title": "Дело закончилось, а след виден",
-        "body": "Если занятие только что закончилось и его след заметен сейчас, по-русски говорим в прошедшем. По-английски всё равно have been + -ing: форма связывает дело с тем, что видно.",
+        "body": "Бег уже закончился, но его видно по лицу. По-русски тут прошедшее время, а по-английски — have been + -ing: форма связывает дело с тем, что видно сейчас.",
         "example": "You look tired. Have you been working all night?",
         "translation": "Ты выглядишь уставшим. Ты работал всю ночь?"
       },
@@ -223,21 +218,21 @@
       "answers": [
         "Have you been running?"
       ],
-      "explanation": "Бег уже закончился, но его видно по лицу — поэтому have been running. Did you run? тоже грамматически верно, но просто спрашивает о факте и не связывает его с тем, что ты видишь сейчас."
+      "explanation": "Бег закончился, но его видно по лицу — поэтому have been running. Did you run? тоже грамматически верно, но просто спрашивает о факте и не связывает его с тем, что ты видишь сейчас."
     },
     {
       "id": "e5",
       "kind": "translate",
       "practiceStage": "guided",
       "prompt": "Мама подарила тебе книгу и спрашивает в сообщении, как продвигается чтение. Ответь двумя фразами: «Я читаю её с понедельника. Я уже прочитал сто страниц».",
-      "context": "read → read → read: третья форма пишется так же, но звучит /rɛd/.",
+      "context": "read → read → read: третья форма пишется так же, но звучит /rɛd/, как red.",
       "guidance": {
-        "title": "How long или how many: две формы в одном ответе",
-        "body": "На «как долго?» отвечает have been + -ing. На «сколько уже готово?» — have + третья форма: число готовых вещей с -ing обычно не сочетается.",
+        "title": "Как долго — или сколько готово",
+        "body": "На «как долго?» отвечает have been + -ing. На «сколько уже готово?» — have + третья форма, без -ing.",
         "example": "I've been cleaning since ten. I've cleaned two rooms.",
         "translation": "Я убираюсь с десяти. Я убрал две комнаты."
       },
-      "hint": "Во второй фразе считаешь готовые страницы. Начни её так: I’ve already read …",
+      "hint": "Во второй фразе ты считаешь готовые страницы. Начни её так: I've already read …",
       "answers": [
         "I've been reading it since Monday. I've already read a hundred pages.",
         "I have been reading it since Monday. I have already read a hundred pages.",
@@ -246,21 +241,21 @@
         "I've been reading it since Monday. I've read a hundred pages.",
         "I've been reading it since Monday. I've read 100 pages."
       ],
-      "explanation": "Первая фраза — о занятии и его длине: have been reading. Вторая — о результате, ста готовых страницах: have read. I’ve been reading a hundred pages звучит неестественно."
+      "explanation": "Первая фраза — о занятии и его длине: have been reading. Вторая — о результате, ста готовых страницах: have read. I've been reading a hundred pages — ошибка: с числом готовых вещей -ing не ставят."
     },
     {
       "id": "e6",
       "kind": "rewrite",
       "practiceStage": "guided",
-      "prompt": "Олег пишет новому соседу-американцу: “Hi! I'm Oleg from 5B. I live here since May, and I am learning English for two years.” Исправь две ошибки и напиши сообщение целиком.",
+      "prompt": "Олег пишет новому соседу-американцу: \"Hi! I'm Oleg from 5B. I live here since May, and I am learning English for two years.\" Исправь две ошибки и напиши сообщение целиком.",
       "context": "",
       "guidance": {
-        "title": "Найди русское «живу с мая»",
-        "body": "Если в фразе есть since или for, а дело тянется до сих пор, present simple и am + -ing не подходят. Нужна форма с have.",
+        "title": "Найди дословное «живу с мая»",
+        "body": "Если есть since или for, а дело тянется до сих пор, I live и I am learning не подходят. Нужна форма с have.",
         "example": "I've worked at this store since June, and I've been taking driving lessons for a month.",
         "translation": "Я работаю в этом магазине с июня и уже месяц беру уроки вождения."
       },
-      "hint": "Проверь обе части с since и for: дело началось раньше и идёт до сих пор?",
+      "hint": "Проверь обе части — с since и с for. Дело началось раньше и идёт до сих пор?",
       "answers": [
         "Hi! I'm Oleg from 5B. I've lived here since May, and I've been learning English for two years.",
         "Hi! I'm Oleg from 5B. I've been living here since May, and I've been learning English for two years.",
@@ -268,17 +263,17 @@
         "Hi! I'm Oleg from 5B. I have been living here since May, and I have been learning English for two years.",
         "Hi! I'm Oleg from 5B. I've lived here since May, and I've been studying English for two years."
       ],
-      "explanation": "Жизнь здесь и учёба тянутся с прошлого до сих пор, поэтому have lived (или have been living) и have been learning. Live since May и am learning for two years — дословный перевод с русского."
+      "explanation": "Жизнь здесь и учёба тянутся с прошлого до сих пор, поэтому have lived (или have been living) и have been learning. I live here since May и I am learning for two years — дословный перевод с русского."
     },
     {
       "id": "e7",
       "kind": "translate",
       "practiceStage": "guided",
-      "prompt": "Вспоминаем, какие глаголы не берут -ing. Новый коллега видит, как вы с Мией смеётесь, и спрашивает, давно ли вы знакомы. Ответь: «Я знаю Мию с колледжа».",
+      "prompt": "Новый коллега видит, как вы с Мией смеётесь, и спрашивает, давно ли вы знакомы. Ответь: «Я знаю Мию с колледжа».",
       "context": "",
       "guidance": {
         "title": "Вспоминаем: know остаётся без -ing",
-        "body": "Know, like и want не берут -ing даже сейчас — это отношение и знание, а не занятие. С since и for так же: have + третья форма.",
+        "body": "Вспоминаем урок про for и since. Know, like и have («иметь») — состояния, им -ing не нужен и с since. Берём обычную форму have + третья форма.",
         "example": "We've had this car for ten years.",
         "translation": "У нас эта машина уже десять лет."
       },
@@ -289,15 +284,15 @@
         "I've known Mia since we were in college.",
         "I have known Mia since we were in college."
       ],
-      "explanation": "Know — состояние, поэтому have known, а не have been knowing. Колледж — точка, с которой вы знакомы, поэтому since; since we were in college тоже верно."
+      "explanation": "Know — состояние, поэтому have known, а не have been knowing. Колледж — точка начала, поэтому since; since we were in college тоже верно."
     },
     {
       "id": "e8",
       "kind": "write",
       "practiceStage": "independent",
-      "prompt": "Американская подруга Эмили пишет: “Hey! Long time no see! What have you been up to?” Ответь ей (60–120 слов). В ответе: два-три занятия последнего времени с for или since; один готовый результат с числом; одно состояние без -ing (know, have, be); вопрос к Эмили в конце.",
-      "context": "Long time no see — сто лет не виделись. What have you been up to? — чем занимаешься в последнее время? so far — пока что.",
-      "hint": "План: I’ve been really busy lately → два занятия с I’ve been … → I’ve … (число) → I’ve had / I’ve known … → What about you?",
+      "prompt": "Американская подруга Эмили пишет: \"Hey! Long time no see! What have you been up to?\" Ответь ей (60–120 слов). В ответе: два-три занятия последнего времени с for или since; один готовый результат с числом; одно состояние без -ing (know, have, be); вопрос к Эмили в конце.",
+      "context": "Long time no see — сто лет не виделись. What have you been up to? — чем занимаешься в последнее время?",
+      "hint": "План: I've been really busy lately → два занятия с I've been … → I've … (число) → I've had / I've known … → What about you?",
       "answers": [
         "Hi Emily! It's so good to hear from you. I've been really busy lately. I've been working on a big project at work since August, so I've been staying late a lot. I've also been taking guitar lessons on Tuesdays, and I've learned five songs so far! I've had my new apartment for two months now, and I love it. What about you? What have you been up to?"
       ],
@@ -307,26 +302,26 @@
       "id": "e9",
       "kind": "speak",
       "practiceStage": "independent",
-      "prompt": "На встрече разговорного клуба ведущий спрашивает тебя: “How long have you been learning English? What have you been doing to practice?” Ответь вслух за 30–60 секунд. Скажи: как давно или с какого времени ты учишь английский; два способа, которыми занимаешься в последнее время; один результат с числом; что пока даётся труднее всего.",
+      "prompt": "На встрече разговорного клуба ведущий спрашивает тебя: \"How long have you been learning English? What have you been doing to practice?\" Ответь вслух за 30–60 секунд. Скажи: как давно или с какого времени ты учишь английский; два способа, которыми занимаешься в последнее время; один результат с числом; что пока даётся труднее всего.",
       "context": "practice — заниматься, тренироваться; subtitles — субтитры; the hardest part — самое трудное.",
-      "hint": "Начни так: I’ve been learning English for … или since … Потом: Lately I’ve been …",
+      "hint": "Начни так: I've been learning English for … или since … Потом: Lately I've been …",
       "answers": [
         "I've been learning English for about three years, but I've only been studying seriously since last spring. Lately I've been watching American TV shows with subtitles, and I've been doing short lessons every morning. I've watched two whole seasons of a comedy so far! Listening has been the hardest part for me, but it's getting easier."
       ],
-      "explanation": "Засчитывается, если есть for или since с have been + -ing, два занятия последнего времени, результат с числом и фраза о трудностях. В речи короткие I’ve и it’s звучат естественнее полных форм."
+      "explanation": "Засчитывается, если есть for или since с have been + -ing, два занятия последнего времени, результат с числом и фраза о трудностях. В речи короткие I've и it's звучат естественнее полных форм."
     },
     {
       "id": "e10",
       "kind": "rewrite",
       "practiceStage": "independent",
-      "prompt": "Олег просит проверить письмо управляющему дома перед отправкой. Найди и исправь четыре ошибки во временах, напиши письмо целиком: “Hi Mr. Brown, I'm writing about the heat in apartment 5B. It doesn't work since Monday, and we are sleeping in sweaters for three nights. I have been calling your office twice, but nobody answered. I live in this building for six years, and I've never had a problem before. Could someone come today? Thanks, Oleg”",
+      "prompt": "Олег просит проверить письмо управляющему дома перед отправкой. Найди и исправь четыре ошибки во временах, напиши письмо целиком: \"Hi Mr. Brown, I'm writing about the heat in apartment 5B. It doesn't work since Monday, and we are sleeping in sweaters for three nights. I have been calling your office twice, but nobody answered. I live in this building for six years, and I've never had a problem before. Could someone come today? Thanks, Oleg\"",
       "context": "building manager — управляющий дома; heat — отопление; sweater — свитер; twice — дважды.",
       "hint": "Ищи места с since, for и числом раз: какая форма нужна в каждом?",
       "answers": [
         "Hi Mr. Brown, I'm writing about the heat in apartment 5B. It hasn't been working since Monday, and we've been sleeping in sweaters for three nights. I've called your office twice, but nobody answered. I've lived in this building for six years, and I've never had a problem before. Could someone come today? Thanks, Oleg",
         "Hi Mr. Brown, I'm writing about the heat in apartment 5B. It hasn't worked since Monday, and we've been sleeping in sweaters for three nights. I've called your office twice, but nobody has answered. I've been living in this building for six years, and I've never had a problem before. Could someone come today? Thanks, Oleg"
       ],
-      "explanation": "Засчитывается, если исправлены четыре места: hasn’t been working (или hasn’t worked) since Monday; we’ve been sleeping… for three nights; I’ve called… twice — это число звонков, поэтому без -ing; I’ve lived (или I’ve been living)… for six years."
+      "explanation": "Засчитывается, если исправлены четыре места: hasn't been working (или hasn't worked) since Monday; we've been sleeping… for three nights; I've called… twice — это число звонков, поэтому без -ing; I've lived (или I've been living)… for six years."
     }
   ]
 }

@@ -1,0 +1,331 @@
+{
+  "id": "extended-c1-lecture",
+  "title": "Библиотека меняется: от конспекта лекции к решению после вопросов",
+  "subtitle": "Позиция, пример, цифры, условие → чей это голос → что лектор сузил после вопросов → записка менеджеру",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Прослушать лекцию и вопросы после неё и написать менеджеру библиотеки записку, по которой можно решать: «Лектор поддерживает пробу, только если сохранятся тихие места», «После вопросов она сузила мысль, но не отказалась от неё», «Поэтому мы предлагаем сначала спросить жителей…».",
+  "formula": "The lecturer argues that … → This example shows that …, but not that … → The figures count …, not … → The lecturer supports … only if … → According to the brief, … / We suggest … → In the Q&A, she qualified …; she did not withdraw it → That changes our recommendation. In that case, … → What we still don't know is whether …",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-lecture-listening",
+    "extended-b2-interview",
+    "extended-b2-evidence"
+  ],
+  "recycles": [
+    "path-lecture-listening",
+    "extended-b2-interview",
+    "extended-b2-essay-thread"
+  ],
+  "teaches": [
+    "конспект для решения — четыре строки: позиция, пример, цифры, условие",
+    "условие не терять: supports a trial only if …; not at the expense of — «не за счёт»",
+    "пример показывает «так можно», а не «так нужно везде»: This example shows that …, but not that every …",
+    "цифры с единицей и границей: visits and requests, not people; другая возможная причина роста",
+    "не усиливать отрицание: does not prove a benefit ≠ there is no benefit",
+    "три голоса: The lecturer argues … / According to the brief, … / We suggest …",
+    "qualify — уточнить, сузить; withdraw / retract — отказаться; narrow — сузить",
+    "обновление после вопросов: что осталось → что изменилось → что это значит для нас → шаг → неизвестное",
+    "слова: branch, patron, help table, silent study, accessible, reversible, brief, Q&A"
+  ],
+  "sources": [
+    {
+      "title": "UNC Learning Center · Effective Note-Taking in Class",
+      "url": "https://learningcenter.unc.edu/tips-and-tools/effective-note-taking-in-class/",
+      "notes": "Сверено: слушать структуру (вступление и вывод часто называют главные мысли), ловить сигналы вроде \"There are four main…\" и \"To sum up…\", не записывать всё дословно, отмечать свои вопросы и в течение дня-двух пересказать конспект своими словами. Отсюда «четыре строки» конспекта и пересказ без расшифровки."
+    }
+  ],
+  "keyRule": {
+    "rule": "После вопросов проверь: лектор отказался от своей мысли или только сузил её?",
+    "example": "She qualified her claim; she did not withdraw it. — Она уточнила своё утверждение, но не отказалась от него.",
+    "check": "Что из сказанного в лекции осталось в силе после вопросов из зала?"
+  },
+  "sections": [
+    {
+      "title": "Зачем конспект лекции, если решает команда",
+      "body": "В центральной библиотеке города Bellwick прошла лекция: должна ли библиотека стать местом, где жители общаются и участвуют в жизни города. Менеджер отделения Northgate на ней не была. Команде нужно решить, пробовать ли что-то у себя, и от тебя ждут записку. После лекции были вопросы из зала (Q&A), и лектор сузила одну из своих мыслей.\n\nЧасть ты знаешь. Из урока о лекциях: первый раз слушать ради темы и позиции, второй — ради цифр и оговорок, расшифровку открывать после своей попытки; let me qualify that значит «уточню». Из урока об интервью: сузить позицию — не то же, что передумать.\n\nНовое здесь — три вещи. Первая: превратить конспект в записку, по которой можно решать. Вторая: держать отдельно голос лектора, справки и свой. Третья: обновить рекомендацию после вопросов и честно назвать, чего мы ещё не знаем."
+    },
+    {
+      "title": "Конспект для решения: позиция, пример, цифры, условие",
+      "body": "Для записки нужны не все фразы лекции, а четыре строки. Позиция — что лектор предлагает. Пример — где это пробовали и что вышло. Цифры — что посчитали. Условие — при чём предложение вообще действует. Список слов вроде library, community, access — ещё не конспект: из него не видно, что из чего следует.\n\nУсловие терять нельзя. Лектор поддерживает пробу, только если сохранятся тихие места для чтения и обычная помощь. В записке так и пиши: The speaker supports longer hours only if weekend staff agree. If — «если», only if — «только если»: без этого условия предложения нет. Not at the expense of — «не за счёт»: new events, but not at the expense of quiet study.\n\nЕсли при пересказе условие пропало, получилось другое предложение — «давайте расширяться», — которого лектор не делала."
+    },
+    {
+      "title": "Что показывает пример и что — цифры",
+      "body": "Пример показывает, что так можно сделать в одном месте. В Eastbank поставили стол помощи у входа и не тронули ни полки, ни тихие столы. Это не значит, что стол нужен везде. В записке: This example shows that a small change can work, but not that every branch needs a help table.\n\nЦифры Eastbank: в среднем 420 посещений в неделю до стола и 486 после; запросов о помощи — 38 и 61 в неделю. Это посещения и запросы, а не разные люди. И в те же недели рядом сократила часы консультационная служба — другая возможная причина роста. Из урока о клубе: «после» ещё не «благодаря».\n\nНе усиливай отрицание при пересказе. Does not prove a benefit — «пользу не доказали», а не «пользы нет». Лектор говорит, что цифры недостаточны, а не что стол бесполезен."
+    },
+    {
+      "title": "Чей это голос: лектор, справка или мы",
+      "body": "В записке звучат три голоса. Лектор: The lecturer argues… / According to Dr. Okafor… Справка команды: The brief says… / Under the brief… Ты и команда: We suggest… / I recommend…\n\nЕсли их смешать, менеджер решит, что твоя идея — требование лектора. Например, лектор ничего не говорила о Northgate и о бюджете. Это сведения справки: According to the brief, the budget covers temporary equipment, but not new paid positions. А «давайте начнём с опроса жителей» — уже ваше предложение: We suggest starting with…\n\nСвою догадку тоже подписывай как свою: I think… / This suggests to me that… Так менеджер знает, за что отвечает источник, а за что — ты."
+    },
+    {
+      "title": "После вопросов: что осталось, что сузилось, что меняется",
+      "body": "Ответ на вопрос из зала может изменить не всю позицию, а её размах. Qualify — «уточнить, сузить утверждение» (не «подтвердить квалификацию»). Withdraw и retract — «отказаться от сказанного». Narrow — «сузить». Подбирай глагол по тому, что реально произошло: The mayor qualified her claim; she did not withdraw it.\n\nОбновление строй по порядку: что осталось в силе → что изменилось → что это значит для нас → следующий шаг → чего мы ещё не знаем. Фразы: That changes our recommendation. In that case, … What we still don't know is whether…\n\nНеизвестное называй предметно. We need more information ничего не говорит менеджеру. Скажи, какое именно сведение нужно и что от него зависит: подойдёт ли жителям дневное время."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The speaker supports longer hours, but not at the expense of weekend staff.",
+      "ru": "Выступающий поддерживает продление часов, но не за счёт сотрудников выходного дня.",
+      "why": "Not at the expense of — условие, без которого поддержки нет."
+    },
+    {
+      "en": "The new schedule should go ahead only if every class keeps its room.",
+      "ru": "Новое расписание стоит вводить, только если у каждого класса останется свой кабинет.",
+      "why": "Only if — «только если»: без условия план не действует. Should — совет, а не принятое решение."
+    },
+    {
+      "en": "This example shows that a small change can work, but not that every school needs it.",
+      "ru": "Этот пример показывает, что небольшое изменение может сработать, но не что оно нужно каждой школе.",
+      "why": "Пример — «так можно», а не «так нужно везде»."
+    },
+    {
+      "en": "The figures count visits, not people, and a nearby clinic closed in the same month.",
+      "ru": "Цифры считают посещения, а не людей, и в тот же месяц рядом закрылась поликлиника.",
+      "why": "Единица подсчёта и другая возможная причина — две границы одной цифры."
+    },
+    {
+      "en": "According to the brief, the money covers equipment; we would still need to check staff time.",
+      "ru": "По справке, деньги покрывают оборудование; время сотрудников нам всё равно нужно проверить.",
+      "why": "Первая часть — голос справки, вторая — оценка команды."
+    },
+    {
+      "en": "In the Q&A, the mayor narrowed her promise rather than withdrawing it.",
+      "ru": "Отвечая на вопросы, мэр сузила своё обещание, а не отказалась от него.",
+      "why": "Narrowed и withdrawing — разные изменения позиции; rather than ставит их рядом."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Лекция: зачем меняется библиотека",
+      "kind": "listening",
+      "text": "When people ask whether libraries should become community spaces, I think the question starts in the wrong place. Libraries already organize relationships between people: readers and staff, experienced users and newcomers, people with reliable internet and people without it. The practical question is which relationships a library should support, and what it must protect while doing so. My argument is that a library should widen access to shared public life without making sustained reading harder.\n\nIn the town of Bellwick, the central library was first arranged around a counter. Readers asked for a book, and a staff member brought it. Later, open shelves let people browse on their own. Public computers then gave people another reason to stay. Each change altered how the building was used, but none made the earlier purpose irrelevant. This history matters because today's debate often presents continuity and change as opposites. In practice, access has always required decisions about space, help, and acceptable behavior.\n\nConsider our first example, at the Eastbank branch. Staff noticed that residents who asked for help with online forms were also asking one another questions in the entrance area. The branch set up a weekly help table there, staffed by an existing advice partner. It did not remove any shelves or move the silent study desks. Some visitors got practical help; others simply discovered that help existed. The point is not that every library needs a help table. It is that a small change can make an existing public service easier to find.\n\nOur second example comes from Westfield, where a local storytelling group asked for an open session next to the reading area. Staff welcomed the idea at first, but a rehearsal made it hard for nearby readers to concentrate. They moved the session into a room with a door that closes and published its times. Attendance was modest, but complaints about the session stopped. This example supports a less dramatic lesson: successful community activity may depend more on boundaries than on attracting a crowd. A quieter event is not necessarily a less valuable one.\n\nWe also have a short monitoring exercise from Eastbank. In the six weeks before the help table opened, staff counted an average of 420 visits per week. In the following six weeks, the average was 486. Over the same periods, recorded requests for digital help rose from 38 to 61 per week. These figures describe visits and requests, not unique individuals. They do not prove that the table caused the increase: a nearby advice office had cut its opening hours. Nor do they tell us whether visitors who needed quiet felt equally welcome.\n\nThe strongest objection, then, is not nostalgia. It is that people with few alternatives may lose the very service they depend on. Someone who lives in a crowded home cannot simply replace a quiet library desk with a private office or a coffee shop. A program can look inclusive because its participants are visible, while it excludes the people who stop coming. Counting activity alone would miss that loss. Staff workload matters too: a new event that leaves routine questions unanswered passes its cost on to other users.\n\nEven so, every branch should become a place where people can participate, not just pick things up. That is a strong claim, but participation includes reading privately in a shared public institution. It doesn't have to mean speaking in a group. The question is whether a branch offers a fair range of ways to use it. Protecting silent study is therefore part of the community argument, not an exception to it. At the same time, keeping every existing arrangement without asking who struggles to use it is not automatically fair.\n\nMy recommendation is a limited trial, not an immediate redesign. A branch could test a change it can reverse, if it can protect quiet study and keep routine help available. It should compare attendance with staff observations, comments from existing readers, and evidence about who has stopped using the service. If those protections can't be maintained, the trial should pause. We would then know something useful about the limits of the idea. The aim is not maximum activity. It is a fair improvement in access, with the losses made visible instead of hidden inside an attractive total.",
+      "source": "Придумано для курса: город, библиотеки и цифры вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Справка для команды Northgate / Team brief",
+      "kind": "reference",
+      "text": "Last week, Dr. Ruth Okafor gave a public lecture at the central library about how libraries are changing.\n\nYou advise the service team at the Northgate branch of the Bellwick library. The team must decide whether to plan a community-space trial that can be reversed, while protecting reading and routine help.\n\nThe project budget is $18,000. Staff can give a combined maximum of 12 planning hours per week. The proposed trial would run for eight weeks.\n\nThe budget is only for temporary equipment, signs, and evaluation. It cannot pay for permanent building work or additional paid positions. All existing silent study places must stay available. Patrons with routine questions must still get help. The team may recommend a smaller change, or postponing the trial, if no workable plan meets these conditions.\n\nPrepare a decision note for the branch manager. Keep the lecturer's evidence separate from your own recommendations, name one gap that matters for Northgate, and suggest how to find out more.",
+      "source": "Придумано для курса: справка и цифры вымышленные."
+    },
+    {
+      "id": "m3",
+      "title": "Вопросы после лекции — открыть в задании e6 / Q&A",
+      "kind": "dialogue",
+      "text": "Audience member, accessibility volunteer: You said every branch should become a place for participation. At Northgate, the only room with a door that closes is upstairs. A recent accessibility survey found that wheelchair users can't reach it, and there's no accessible room we could use instead. Would moving a discussion group upstairs meet your recommendation just because it keeps the downstairs quiet?\n\nLecturer: No. Let me qualify what I said. Every branch should look at what keeps people from participating; I don't mean that every branch must add a group activity. An arrangement that protects one group by shutting out another is not a good solution. Northgate might look for a service change that doesn't need a separate meeting room, or decide that a group program isn't suitable right now. The principle stands, but that particular format may not.\n\nAudience member, Northgate coordinator: There's another local restriction. Our building agreement doesn't allow public sessions after 6 p.m., even if volunteers offer to stay. Several residents have asked for evening discussions. Can we describe a daytime trial as meeting that demand?\n\nLecturer: Not on that evidence. A daytime session may work for some residents, but you can't present it as meeting the requests for evening sessions. Ask those residents whether any allowed time would work for them, and if it wouldn't, record that the need is unmet. First find out whether a workable, accessible offer meets a real need. Having a budget is not an instruction to spend it.",
+      "source": "Придумано для курса: вопросы и ответы вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Первый проход. Прослушай M1 один раз, не читая текст. Напиши коллеге, который пропустил лекцию, две-три фразы: какой вопрос обсуждается, что предлагает лектор и насколько большое изменение она советует. Цифры пока не нужны. M2 и M3 не открывай.",
+      "context": "sustained reading — долгое сосредоточенное чтение; redesign — полная перестройка; reverse — отменить, вернуть как было.",
+      "guidance": {
+        "title": "Вспоминаем: первый проход — ради позиции",
+        "body": "Вспоминаем урок о лекциях: на первом проходе слушай тему, позицию и вывод, а не цифры. Новое здесь: сразу запиши размах предложения — «всё переделать» или «немного попробовать».",
+        "example": "The speaker argues that schools should start later in the morning. She recommends a one-year trial in a few schools, not a change everywhere.",
+        "translation": "Выступающая считает, что занятия в школах должны начинаться позже. Она советует годовой пробный период в нескольких школах, а не изменение везде."
+      },
+      "hint": "Лекция кончается словами My recommendation is… Что там — a trial или a redesign?",
+      "answers": [
+        "The lecture asks what kind of community space a library should be. The lecturer argues that libraries should widen access to public life without making quiet reading harder. She recommends a limited trial that can be reversed, not an immediate redesign.",
+        "The question is whether libraries should become community spaces. The speaker thinks they should open up to more people, but protect sustained reading. Her recommendation is a small, reversible trial rather than a full redesign.",
+        "The lecturer talks about libraries as community spaces. Her position is that they should widen access but keep quiet study. She suggests a limited trial, not changing everything at once."
+      ],
+      "explanation": "Засчитывается, если названы тема, позиция с её границей (расширять доступ, не мешая чтению) и размах — ограниченная проба, а не перестройка. Пол лектора из M1 не виден, поэтому the lecturer или they тоже верно.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Второй проход. Прослушай M1 ещё раз без текста и напиши коллеге, который проверяет цифры, две-три фразы: что считали в Eastbank, как изменились оба числа и почему они не доказывают, что причина в столе помощи. Потом сверь цифры по тексту.",
+      "context": "help table — стол помощи; request — запрос, обращение; advice office — консультационная служба.",
+      "guidance": {
+        "title": "Цифра — с единицей и границей",
+        "body": "У каждого числа назови, что посчитано и за какой период. Потом скажи, чего это число не показывает и какая есть другая возможная причина.",
+        "example": "The gym counted an average of 300 check-ins a week before the new classes and 350 after. These are check-ins, not members, and another gym nearby closed that month.",
+        "translation": "Спортзал насчитывал в среднем 300 отметок о входе в неделю до новых занятий и 350 после. Это отметки, а не люди, и в тот же месяц неподалёку закрылся другой зал."
+      },
+      "hint": "Начни так: Eastbank counted an average of 420 visits a week… Что случилось с соседней консультационной службой?",
+      "answers": [
+        "Eastbank counted an average of 420 visits a week in the six weeks before the help table and 486 in the six weeks after. Requests for digital help rose from 38 to 61 a week. These are visits and requests, not individual people, and a nearby advice office cut its hours at the same time, so the table may not be the reason.",
+        "Over six weeks before and six weeks after the table opened, average weekly visits went from 420 to 486, and help requests went from 38 to 61. The figures count visits, not people. They don't prove that the table caused the rise, because a nearby advice office had reduced its hours."
+      ],
+      "explanation": "Засчитывается, если у чисел есть единица и период (в среднем за неделю, шесть недель до и после), сказано, что это посещения, а не люди, и названа другая причина — сокращение часов соседней службы. Ни одна цифра не должна стать «новыми людьми».",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи для записки условие из конца лекции: «Лектор поддерживает пробу, только если тихие места для чтения и обычная помощь сохранятся. Если сохранить их не удастся, пробу нужно приостановить».",
+      "context": "quiet study places — тихие места для занятий; routine help — обычная помощь посетителям; pause — приостановить.",
+      "guidance": {
+        "title": "Условие — рядом с планом",
+        "body": "Only if — «только если»: без условия поддержки нет. Поставь условие в ту же фразу, что и план, а вторую фразу начни с If…: что делать, если условие не выполнено.",
+        "example": "The principal supports the new club only if it doesn't use classroom time. If it does, the club should move to after school.",
+        "translation": "Директор поддерживает новый кружок, только если он не займёт время уроков. Если займёт, кружок нужно перенести на после уроков."
+      },
+      "hint": "Начни так: The lecturer supports a trial only if… Вторая фраза: If they can't be…",
+      "answers": [
+        "The lecturer supports a trial only if quiet study places and routine help are protected. If they can't be protected, the trial should pause.",
+        "The lecturer supports a trial only if quiet study places and routine help remain available. If they can't be kept, the trial should be paused.",
+        "The lecturer only supports a trial if quiet study places and routine help stay available. If that isn't possible, the trial should pause."
+      ],
+      "explanation": "Only if сохраняет главное: без тихих мест и помощи лектор пробу не поддерживает. Should pause и should be paused одинаково верны. Перевод без only (supports a trial if) теряет часть смысла."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега записал по M1: The lecturer says libraries should replace books with community events, and the Westfield example proves that big crowds make events successful. Найди две ошибки и перепиши пересказ двумя фразами.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь пересказ: что сказано и что показал пример",
+        "body": "Сверь пересказ с лекцией по двум вопросам. Что лектор предлагает — заменить или добавить, не ломая старое? Что именно показал пример — и какой вывод сделала из него сама лектор?",
+        "example": "The speaker doesn't want to close the old gym; she wants to add evening classes. Her example shows that small groups work better, not that bigger groups do.",
+        "translation": "Выступающая не хочет закрывать старый спортзал — она хочет добавить вечерние занятия. Её пример показывает, что лучше работают маленькие группы, а не большие."
+      },
+      "hint": "Что лектор говорит о чтении? Сколько людей пришло в Westfield после переноса — и что прекратилось?",
+      "answers": [
+        "The lecturer says libraries should widen access to public life without making quiet reading harder, not replace books with events. The Westfield example suggests that clear boundaries matter more than big crowds: attendance was modest, but the complaints stopped.",
+        "The lecturer does not want to replace books; she wants libraries to add ways to take part while protecting quiet reading. In Westfield, the session moved to a closed room, attendance was modest, and complaints stopped, so the example is about boundaries, not crowds."
+      ],
+      "explanation": "Первая ошибка — «заменить книги»: лектор защищает чтение как часть своей идеи. Вторая — «большие толпы»: в Westfield пришло немного людей, а пример говорит о границах. Засчитывается, если исправлены обе.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M2. Напиши менеджеру Northgate три фразы, где ясно слышны три голоса: что предлагает лектор, что разрешает справка и что предлагаете вы.",
+      "context": "brief — справка, короткий рабочий документ; paid position — оплачиваемая должность.",
+      "guidance": {
+        "title": "Три голоса — три подписи",
+        "body": "Каждую фразу начни с того, чей это голос: The lecturer argues… / According to the brief… / We suggest… Так менеджер не примет твоё предложение за требование лектора.",
+        "example": "The author argues for smaller classes. According to the budget, we can hire one more teacher. We suggest starting with the youngest students.",
+        "translation": "Автор выступает за маленькие классы. По бюджету мы можем нанять ещё одного учителя. Мы предлагаем начать с самых младших учеников."
+      },
+      "hint": "Что справка разрешает тратить, а что нет? Свою идею начни с We suggest…",
+      "answers": [
+        "The lecturer argues for a limited trial that can be reversed, as long as quiet study and routine help are protected. According to the brief, our $18,000 can pay for temporary equipment, signs, and evaluation, but not for building work or new paid positions. We suggest a small eight-week trial that uses only temporary equipment and fits within 12 planning hours a week.",
+        "Dr. Okafor recommends a small, reversible trial rather than a redesign. The brief says the budget covers temporary equipment, signs, and evaluation, and all silent study places must stay. We suggest first asking patrons what they need before we choose a format."
+      ],
+      "explanation": "Засчитывается, если у каждой фразы свой голос и сведения не перепутаны: бюджет и запреты — из справки, проба с условием — от лектора, конкретный шаг — ваш. Своё предложение может быть другим, если оно укладывается в справку.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь открой M3 и прослушай его. Что лектор сделала со своей фразой every branch should become a place where people can participate — отказалась от неё или сузила? Ответь двумя фразами: что осталось и что изменилось.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: сузила ≠ передумала",
+        "body": "Вспоминаем урок об интервью: сузить позицию — не то же, что передумать. Qualify — «уточнить, сузить», withdraw — «отказаться». Назови, что осталось в силе и что теперь понимается уже.",
+        "example": "The mayor qualified her promise: she still supports a new park, but only on land the city already owns.",
+        "translation": "Мэр уточнила своё обещание: она по-прежнему за новый парк, но только на земле, которая уже принадлежит городу."
+      },
+      "hint": "Найди в M3 Let me qualify… и The principle stands, but… Что стоит до but, а что после?",
+      "answers": [
+        "The lecturer qualified the claim but did not withdraw it. Every branch should still look at what keeps people from participating, but that doesn't mean every branch must add a group activity.",
+        "She narrowed her claim rather than withdrawing it. The principle stays: branches should remove barriers to participation. What changed is that a group program is no longer required, and it may not suit Northgate right now.",
+        "She didn't take back her idea; she qualified it. Branches should still look at barriers, but adding a discussion group is only one possible format, and it can't come at the cost of shutting some people out."
+      ],
+      "explanation": "Засчитывается, если сказано, что лектор сузила мысль (qualified, narrowed), а не отказалась (withdrew), и названо, что осталось — смотреть на барьеры, — и что изменилось — групповое занятие не обязательно.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Из M3 ты узнал два местных ограничения Northgate. Напиши менеджеру три-четыре фразы: что меняется в нашей рекомендации, какой шаг теперь разумен и чего мы ещё не знаем.",
+      "context": "wheelchair user — человек на инвалидной коляске; building agreement — договор об использовании здания.",
+      "guidance": {
+        "title": "Вспоминаем: That changes our recommendation",
+        "body": "Вспоминаем урок о треде: новый факт — That changes our recommendation. In that case, … и суженное предложение. В конце назови неизвестное предметно: What we still don't know is whether…",
+        "example": "That changes our plan. In that case, we will hold the meeting online. What we still don't know is whether older members can join a video call.",
+        "translation": "Это меняет наш план. В таком случае проведём встречу онлайн. Чего мы пока не знаем — смогут ли пожилые участники подключиться к видеозвонку."
+      },
+      "hint": "Ограничение 1: комната наверху. Ограничение 2: после 6 p.m. нельзя. Что лектор советует сделать с жителями, которые просили вечерние встречи?",
+      "answers": [
+        "That changes our recommendation. In that case, we should not move a discussion group upstairs, because wheelchair users can't reach that room, and we can't present a daytime trial as meeting the requests for evening sessions. Instead, we should ask those residents whether any allowed time would work and look for a change that doesn't need a separate room. What we still don't know is whether a daytime, accessible offer would meet their actual needs.",
+        "That changes our plan. The upstairs room would exclude wheelchair users, and public sessions after 6 p.m. are not allowed. In that case, our next step is to ask the residents who wanted evening discussions whether a daytime time would work, and to record the need as unmet if it wouldn't. What we still don't know is whether any allowed time suits them."
+      ],
+      "explanation": "Засчитывается, если учтены оба ограничения (недоступная комната и запрет после 6 p.m.), шаг взят из совета лектора или разумно выведен из него, а неизвестное названо конкретно. Нельзя писать, что дневная проба закрывает запрос на вечерние встречи.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши менеджеру отделения Northgate записку по M1–M3: 180–250 слов. Что должно быть: позиция лектора после вопросов — что осталось и что сузилось; что показывают пример Eastbank и его цифры, а чего не показывают; ограничения из справки и два новых ограничения из Q&A; ваша рекомендация, подписанная как ваша; что вы будете отслеживать, кроме посещаемости; одно конкретное неизвестное.",
+      "context": "",
+      "hint": "План: Dr. Okafor argues… In the Q&A, she qualified… → Eastbank shows…, but… → Under the brief… The Q&A adds… → We recommend… → Besides attendance, we would track… → What we still don't know is whether…",
+      "answers": [
+        "To: Northgate Branch Manager\nSubject: Community-space trial after Dr. Okafor's lecture\n\nDr. Okafor argues that libraries should widen access to public life without making sustained reading harder. In the Q&A, she qualified one claim: every branch should look at barriers to participation, but it does not have to add a group activity.\n\nHer Eastbank example shows that a small change, a help table near the entrance, can make an existing service easier to find. Average weekly visits rose from 420 to 486, and help requests from 38 to 61. However, these were visits and requests, not people, and a nearby advice office had cut its hours, so the figures do not prove that the table caused the rise.\n\nUnder our brief, the $18,000 can pay only for temporary equipment, signs, and evaluation, and silent study places and routine help must stay. The Q&A adds two limits: our only closed room is upstairs and not accessible, and public sessions after 6 p.m. are not allowed.\n\nWe recommend not starting a group program now. Instead, we suggest asking the residents who requested evening discussions whether any allowed time would work, and testing a small change that needs no separate room. Besides attendance, we would track comments from regular readers and whether routine questions still get answered.\n\nWhat we still don't know is whether a daytime, accessible offer would meet these residents' needs."
+      ],
+      "explanation": "Засчитывается, если голоса лектора, справки и команды разделены, цифры Eastbank даны с единицей и обеими границами, учтены оба ограничения из Q&A, рекомендация укладывается в справку, а неизвестное конкретно. Отложить пробу тоже можно, если это объяснено теми же фактами.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Закрой все тексты. Прослушай M1 и M3 ещё раз без расшифровки. Коллега дежурил в день лекции и просит рассказать её за 2–3 минуты. Что должно быть: позиция лектора; оба примера и что показывает каждый; цифры Eastbank с их границей; главное возражение, о котором говорила лектор; что изменилось после вопросов; в конце — что ты сам советуешь для Northgate, отдельно от лектора.",
+      "context": "",
+      "hint": "Начни так: The lecture was about… Переходы: She gave two examples… / The numbers… / The strongest objection… / In the Q&A… / My own view is…",
+      "answers": [
+        "The lecture was about whether libraries should become community spaces. Dr. Okafor's position is that they should widen access to public life, but without making quiet reading harder. For her, reading quietly is also a way of taking part.\n\nShe gave two examples. In Eastbank, the branch put a help table near the entrance and didn't touch the shelves or the study desks. That shows a small change can make a service easier to find. In Westfield, a storytelling session was too loud, so they moved it into a closed room. Fewer people came, but the complaints stopped. So boundaries matter more than crowds.\n\nThen the numbers. In Eastbank, visits went from about 420 to 486 a week, and help requests from 38 to 61. But those are visits, not people, and a nearby advice office had cut its hours, so the table may not be the reason.\n\nThe strongest objection, in her view, is that people who really need quiet space might simply stop coming, and you wouldn't see that in the attendance numbers.\n\nIn the Q&A, she narrowed one claim. Every branch should look at barriers, but it doesn't have to add group activities. That mattered for Northgate, because our only closed room is upstairs and not accessible, and we can't hold public sessions after six.\n\nMy own view is that we shouldn't start a discussion group now. I'd first ask the residents who wanted evening events whether a daytime time would work. That's my suggestion, not the lecturer's."
+      ],
+      "explanation": "Засчитывается, если пересказ без текста сохраняет позицию с её границей, оба примера и их смысл, цифры с единицей и другой причиной, возражение, сужение после вопросов и отдельно — твою рекомендацию. Точность числа «около» допустима; превращать посещения в людей — нет. Расшифровка не оценивает произношение.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега подготовил слишком уверенный итог после лекции и вопросов. Перепиши его по M1–M3 (120–170 слов), а потом добавь две фразы: какие места в материалах помогли тебе исправить текст.\n\nИтог: \"The lecture proves that a help table brought 66 new people into Eastbank every week. The speaker therefore requires every branch to add group activities. Northgate can use its upstairs room because a closed door solves the main problem. Volunteers can run evening discussions after 6 p.m., and the project budget can pay for extra staff if necessary. If evening sessions are difficult, a daytime trial will meet the same demand. We should approve the program now and judge success by attendance.\"",
+      "context": "",
+      "hint": "Проверь каждую фразу: люди или посещения? Требование или сужённая мысль? Доступна ли комната? Что запрещает договор? Что не оплачивает бюджет? Закрывает ли день вечерний запрос?",
+      "answers": [
+        "Average weekly visits at Eastbank rose by 66, but these were visits, not new people, and the lecture does not prove that the help table caused the rise. After the Q&A, the lecturer asks every branch to look at barriers to participation; she does not require group activities.\n\nNorthgate's upstairs room is not accessible to wheelchair users, and public sessions after 6 p.m. are not allowed, even with volunteers. The budget cannot pay for extra paid staff. A daytime trial might help some residents, but it does not meet the requests for evening sessions.\n\nWe should first ask those residents whether any allowed time would work and look for an accessible change that needs no separate room. Success should be judged by more than attendance, including regular readers' comments and routine help.\n\nThe lecture itself says the figures are visits and requests, not individuals. In the Q&A, the lecturer qualifies her claim, and the audience gives the room and evening restrictions."
+      ],
+      "explanation": "Засчитывается, если исправлены все шесть мест: посещения вместо людей и без «доказывает», сужённая мысль вместо требования, недоступная комната, запрет после 6 p.m., бюджет без новых сотрудников, день не заменяет вечер, а оценка не только по посещаемости. В двух последних фразах должны быть конкретные опоры из M1–M3.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    }
+  ]
+}

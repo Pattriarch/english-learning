@@ -1,0 +1,341 @@
+{
+  "id": "path-advice-preference",
+  "title": "Had better, would rather, it’s time: совет, выбор и «пора»",
+  "subtitle": "Совет с предупреждением → что я выбираю → пора что-то сделать → нужно и не нужно",
+  "level": "B1",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Предупредить: «Тебе лучше взять зонт, а то промокнешь»; сказать, что выбираешь: «Я лучше пройдусь, чем буду ждать автобус»; сказать «Пора идти» и «Тебе не нужно ничего приносить».",
+  "formula": "You'd better take an umbrella. → I'd rather walk than wait. → It's time to go. / It's time you went to bed. → You don't need to bring anything.",
+  "keyRule": {
+    "rule": "Предупреждаешь «а то будет плохо» — you’d better. Говоришь, что сам выбираешь, — I’d rather.",
+    "example": "You'd better leave now. — Тебе лучше выйти сейчас (а то опоздаешь). I'd rather walk. — Я лучше пройдусь.",
+    "check": "После обоих — действие без to: you'd better go, I'd rather go."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-obligation",
+    "path-second-conditional",
+    "path-deduction"
+  ],
+  "recycles": [
+    "path-second-conditional",
+    "path-obligation"
+  ],
+  "teaches": [
+    "had better ('d better) + глагол без to — совет с предупреждением: You'd better hurry, or you'll miss the bus",
+    "'d better not — «лучше не…»; не hadn't better; had better — не о прошлом",
+    "should — мягкий совет, 'd better — с угрозой последствий; начальнику 'd better не говорят",
+    "would rather ('d rather) + глагол без to — что я выбираю; than + второй вариант: I'd rather walk than wait",
+    "I'd rather not — вежливый отказ; Would you rather…or…?",
+    "It's time to go / It's time for lunch; It's time you went — прошедшая форма, а смысл «уже пора сейчас»",
+    "I'd rather you didn't… — мягкая просьба не делать",
+    "need to — нужно; don't need to — не обязательно (как don't have to), это не запрет; needn't в американской речи редко",
+    "слова: get wet, in a bad mood, miss, last bus, bring, ID"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: You Had Better Learn Modals!",
+      "url": "https://learningenglish.voanews.com/a/everyday-grammar-you-had-better-learn-modals/2865365.html",
+      "notes": "Сверено: had better сильнее, чем should и ought to, и намекает на неприятные последствия — почти угроза; так говорят родители и начальники, а не подчинённые; в быстрой речи you'd better; у had better нет прошедшего времени и формы вопроса."
+    },
+    {
+      "title": "VOA Learning English · How to Talk About Preferences",
+      "url": "https://learningenglish.voanews.com/a/how-to-talk-about-preferences/4605975.html",
+      "notes": "Сверено: would rather и would prefer значат одно, но в американской разговорной речи would rather гораздо чаще; после would rather — простая форма глагола; для двух вариантов — than; would почти всегда сокращают до 'd."
+    },
+    {
+      "title": "Lingbase · Would rather and had better",
+      "url": "https://lingbase.com/en/english/grammar/would-rather-had-better",
+      "notes": "Сверено: обе конструкции ведут себя как модальные глаголы — дальше глагол без to; отрицание would rather not, had better not (не wouldn't rather, hadn't better); had better — только о настоящем и будущем; вопрос Would you rather…?"
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Совет, предупреждение, выбор, «не обязательно»",
+    "why": "Все четыре фразы — о том, что делать. Разница в том, кто решает и что будет, если не сделать.",
+    "items": [
+      {
+        "label": "Мягкий совет",
+        "en": "You should try the soup.",
+        "ru": "Попробуй суп, советую.",
+        "note": "Should — ничего плохого не случится, если не попробуешь."
+      },
+      {
+        "label": "Совет с предупреждением",
+        "en": "You'd better go now, or you'll be late.",
+        "ru": "Тебе лучше идти сейчас, а то опоздаешь.",
+        "note": "'d better — если не сделать, будет плохо."
+      },
+      {
+        "label": "Мой выбор",
+        "en": "I'd rather stay in tonight.",
+        "ru": "Я лучше останусь сегодня дома.",
+        "note": "'d rather — так хочу я сам."
+      },
+      {
+        "label": "Не обязательно",
+        "en": "You don't need to call first.",
+        "ru": "Звонить заранее не нужно.",
+        "note": "Можно позвонить, можно нет — это не запрет."
+      }
+    ],
+    "footnote": "'d в 'd better — это had, в 'd rather — would. Различай по следующему слову: better или rather.",
+    "focus": [
+      "should",
+      "'d better",
+      "'d rather",
+      "don't need to"
+    ]
+  },
+  "sections": [
+    {
+      "title": "«Тебе лучше…, а то…»: had better",
+      "body": "Друг собирается в аэропорт и никак не выйдет. Ты говоришь: «Тебе лучше выйти сейчас, а то опоздаешь на самолёт». По-английски: You'd better leave now, or you'll miss your flight.\n\nHad better — сильный совет с предупреждением: если не сделаешь, будет плохо. По-русски — «тебе лучше…», «ты бы лучше…, а то…». Почти всегда сокращают: you'd better, I'd better. После better — действие без to: you'd better leave, не better to leave. «Лучше не» — 'd better not: You'd better not forget your keys.\n\nВ had есть прошедшая форма, но речь не о прошлом: had better — всегда о «сейчас» и «потом». В быстрой американской речи had часто почти не слышно: You better hurry! Пиши всё же You'd better."
+    },
+    {
+      "title": "Should или had better: насколько это серьёзно",
+      "body": "Should ты знаешь из урока об обязанностях: You should try the soup — советую попробовать суп. Это мягкий совет: не попробуешь — ничего не случится.\n\nHad better сильнее. В нём слышно «а то будет хуже»: You'd better take your passport — возьми паспорт, а то не пустят. Поэтому You'd better try the soup звучит странно: как будто за отказ от супа что-то грозит.\n\nТак говорят родители, начальники или друзья, когда дело серьёзное. Начальнику или незнакомому человеку You'd better… не говори: прозвучит как угроза. Скажи мягче: You might want to… — «возможно, стоит…» или You should…"
+    },
+    {
+      "title": "«Я лучше…»: would rather",
+      "body": "Друг зовёт в бар, а тебе хочется погулять в парке. I'd rather go to the park — я лучше пойду в парк. Would rather — что ты сам выбираешь. Сокращают так же: I'd rather. Дальше — действие без to: I'd rather go, не I'd rather to go.\n\nЕсли называешь оба варианта, второй ставь после than — «чем»: I'd rather take the stairs than wait for the elevator — я лучше пойду по лестнице, чем буду ждать лифт. Оба действия — без to.\n\nI'd rather not — «я бы не хотел»: вежливый отказ. I'd rather not talk about it — давай не будем об этом. Спросить, что выбирает другой: Would you rather take the bus or walk?\n\nНе путай два 'd. В I'd better это had — совет себе. В I'd rather это would — выбор. Смотри на следующее слово."
+    },
+    {
+      "title": "«Пора»: It's time to…, It's time you…",
+      "body": "It's time to start — пора начинать. После It's time — to и действие. Или for и предмет: It's time for lunch — пора обедать.\n\nЕсли хочешь сказать, что пора что-то сделать конкретному человеку, после It's time ставь его и прошедшую форму: It's time you went to bed — тебе пора спать. Went — прошедшая форма, но речь о «сейчас». Как в уроке о «если бы»: If I had a car — машины на самом деле нет. Здесь прошедшая форма значит: «ты ещё не лёг, а уже давно пора». Поэтому фраза часто звучит как упрёк: It's time you called your mom.\n\nТак же устроена мягкая просьба: I'd rather you didn't smoke here — я бы предпочёл, чтобы ты здесь не курил."
+    },
+    {
+      "title": "Нужно и не нужно: need to, don't need to",
+      "body": "Need to — «нужно»: I need to call my mom. Это ты знаешь. Don't need to — «не нужно, не обязательно»: You don't need to wear a suit — костюм надевать не нужно. Значит то же, что don't have to: можно надеть, можно нет. С he и she — doesn't need to.\n\nDon't need to — не запрет. Запрет — can't или Don't…!: You can't smoke here. А You'd better not… — «лучше не надо, а то…».\n\nСпросить: Do I need to bring my ID? — Мне нужно взять удостоверение? Ответ: Yes, you do. / No, you don't.\n\nВ британских книгах встретишь needn't: You needn't worry. В американской речи так говорят редко — скажи You don't need to worry."
+    }
+  ],
+  "examples": [
+    {
+      "en": "It's going to rain. You'd better take an umbrella.",
+      "ru": "Будет дождь. Возьми-ка лучше зонт.",
+      "why": "Не возьмёшь — промокнешь: это предупреждение, поэтому 'd better, а не should."
+    },
+    {
+      "en": "We'd better not tell Mom about the car yet.",
+      "ru": "Маме про машину лучше пока не говорить.",
+      "why": "Not стоит после better. Hadn't better — ошибка."
+    },
+    {
+      "en": "I'd rather cook at home than eat out tonight.",
+      "ru": "Сегодня я лучше приготовлю дома, чем пойду в ресторан.",
+      "why": "'d rather — мой выбор. Второй вариант — после than, тоже без to. Eat out — поесть не дома."
+    },
+    {
+      "en": "Would you rather go on Saturday or Sunday?",
+      "ru": "Тебе удобнее в субботу или в воскресенье?",
+      "why": "Вопрос о выборе: would ставится перед you, дальше — действие без to."
+    },
+    {
+      "en": "It's ten o'clock. It's time for bed.",
+      "ru": "Уже десять. Пора спать.",
+      "why": "После It's time for — предмет: bed, lunch, a break."
+    },
+    {
+      "en": "It's time we bought a new car.",
+      "ru": "Нам давно пора купить новую машину.",
+      "why": "После It's time + человек — прошедшая форма bought, а смысл — «сейчас, и уже давно пора»."
+    },
+    {
+      "en": "You don't need to pay now. You can pay at the door.",
+      "ru": "Платить сейчас не нужно. Можно заплатить на входе.",
+      "why": "Don't need to — не обязательно. Это не запрет: заплатить сейчас тоже можно."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга выходит из дома без зонта, а на улице тучи. Предупреди её: «Тебе лучше взять зонт, а то промокнешь».",
+      "context": "umbrella — зонт; get wet — промокнуть; «а то» — or.",
+      "guidance": {
+        "title": "Предупреждение — 'd better + действие",
+        "body": "После you'd better — действие без to. Что будет, если не послушать, — после or, с will.",
+        "example": "You'd better hurry, or you'll miss the bus.",
+        "translation": "Тебе лучше поторопиться, а то опоздаешь на автобус."
+      },
+      "hint": "Начни так: You'd better take…",
+      "answers": [
+        "You'd better take an umbrella, or you'll get wet.",
+        "You had better take an umbrella, or you'll get wet.",
+        "You'd better take an umbrella or you'll get wet.",
+        "You'd better take an umbrella, or you will get wet.",
+        "You'd better bring an umbrella, or you'll get wet."
+      ],
+      "explanation": "'d better take — без to. Or — «а то», дальше будущее с will. You should take an umbrella тоже совет, но без предупреждения."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, можно ли сегодня прийти на совещание попозже. Ответь: «Тебе лучше не опаздывать. Начальник сегодня не в духе».",
+      "context": "be late — опаздывать; boss — начальник; in a bad mood — не в духе.",
+      "guidance": {
+        "title": "«Лучше не» — 'd better not",
+        "body": "Not ставь после better, а не после had: you'd better not. Дальше снова действие без to.",
+        "example": "You'd better not eat that. It's been in the fridge for a week.",
+        "translation": "Лучше это не ешь. Оно неделю лежит в холодильнике."
+      },
+      "hint": "Где стоит not — перед better или после?",
+      "answers": [
+        "You'd better not be late. The boss is in a bad mood today.",
+        "You had better not be late. The boss is in a bad mood today.",
+        "You'd better not be late. The boss is in a bad mood.",
+        "You'd better not be late. Our boss is in a bad mood today.",
+        "You'd better not be late because the boss is in a bad mood today."
+      ],
+      "explanation": "'d better not be late — «лучше не опаздывай». You hadn't better be late — ошибка. Be late — «опоздать», be здесь нужен."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Автобуса нет уже двадцать минут, а до дома — пятнадцать минут пешком. Скажи другу: «Я лучше пройдусь пешком, чем буду ждать автобус».",
+      "context": "walk — идти пешком; wait for the bus — ждать автобус.",
+      "guidance": {
+        "title": "Мой выбор — 'd rather … than …",
+        "body": "Что выбираешь — после I'd rather. Второй вариант — после than. Оба действия без to.",
+        "example": "I'd rather take a taxi than drive in this snow.",
+        "translation": "Я лучше возьму такси, чем поеду за рулём по такому снегу."
+      },
+      "hint": "Начни так: I'd rather walk…",
+      "answers": [
+        "I'd rather walk than wait for the bus.",
+        "I would rather walk than wait for the bus.",
+        "I'd rather walk home than wait for the bus.",
+        "I'd rather walk than wait for the bus anymore.",
+        "I'd rather walk than keep waiting for the bus."
+      ],
+      "explanation": "'d rather walk than wait — оба глагола без to. I'd rather to walk и than to wait — ошибки. Keep waiting — «ждать дальше», тоже хорошо."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: “Want to go to the movies tonight? The movie ends at 11:30.” Ответь двумя фразами. Первая: ты бы лучше остался сегодня дома. Вторая — предупреждение для него: последний автобус уходит в 11:15, так что ему лучше выбрать сеанс пораньше.",
+      "context": "stay home — остаться дома; last bus — последний автобус; earlier show — сеанс пораньше; miss — опоздать на, пропустить.",
+      "guidance": {
+        "title": "Два 'd: rather или better",
+        "body": "Свой выбор — I'd rather. Совет с предупреждением другому — you'd better. Звучат похоже, различай по следующему слову.",
+        "example": "I'd rather eat at home. You'd better book a table, or you won't get one.",
+        "translation": "Я лучше поем дома. А тебе лучше забронировать столик, а то не достанется."
+      },
+      "hint": "Кто выбирает в первой фразе — ты или друг? А во второй кого предупреждаешь?",
+      "answers": [
+        "I'd rather stay home tonight. The last bus leaves at 11:15, so you'd better choose an earlier show.",
+        "Thanks, but I'd rather stay home tonight. The last bus is at 11:15, so you'd better pick an earlier show, or you'll miss it.",
+        "I'd rather stay in tonight. You'd better go to an earlier show, or you'll miss the last bus at 11:15."
+      ],
+      "explanation": "I'd rather — твоё желание, you'd better — предупреждение: иначе он пропустит автобус. Stay in — тоже «остаться дома». You should choose… — мягче, но тоже возможно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед ездит на машине, которой тридцать лет, и она ломается каждую неделю. Скажи ему: «Тебе давно пора купить новую машину». А потом посмотри на часы и скажи: «Ой, уже восемь. Мне пора идти».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: прошедшая форма — «на самом деле не так»",
+        "body": "Вспоминаем урок о «если бы»: в If I had a car прошедшая форма значит «на самом деле не так». После It's time you — то же: bought, хотя речь о сейчас. О себе проще: It's time to + действие.",
+        "example": "It's time you got a haircut. — It's late. It's time to go to bed.",
+        "translation": "Тебе давно пора подстричься. — Поздно. Пора спать."
+      },
+      "hint": "Первая фраза: It's time you… — купить в прошедшей форме. Вторая: It's time to…",
+      "answers": [
+        "It's time you bought a new car. Oh, it's eight already. It's time to go.",
+        "It's time you bought a new car. Oh, it's already eight. It's time for me to go.",
+        "It's time you got a new car. Oh, it's eight o'clock. It's time to go.",
+        "It's about time you bought a new car. Oh, it's already eight. I need to go.",
+        "It is time you bought a new car. Oh, it's eight already. It's time to go."
+      ],
+      "explanation": "It's time you bought — прошедшая форма, а смысл «уже давно пора». It's time you buy — ошибка. О себе — It's time to go или It's time for me to go. About time усиливает упрёк: «давно пора»."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты зовёшь друга на пикник. Напиши ему: «Тебе не нужно ничего приносить — еда будет. Но собаку взять нельзя: в парке такое правило».",
+      "context": "bring — приносить, брать с собой; picnic — пикник; rule — правило.",
+      "guidance": {
+        "title": "Вспоминаем: «не обязательно» и «нельзя»",
+        "body": "Вспоминаем урок об обязанностях: don't have to — не обязательно, can't — нельзя. Don't need to значит то же, что don't have to: это не запрет.",
+        "example": "You don't need to dress up. But you can't wear shorts in the restaurant.",
+        "translation": "Наряжаться не нужно. Но в шортах в ресторан нельзя."
+      },
+      "hint": "Первая часть: You don't need to… Вторая: But you can't…",
+      "answers": [
+        "You don't need to bring anything. There will be food. But you can't bring your dog. That's the park's rule.",
+        "You don't need to bring anything, there will be food. But you can't bring your dog because of the park rules.",
+        "You don't have to bring anything. There will be food. But you can't bring your dog. It's a park rule.",
+        "You don't need to bring anything. We'll have food. But you can't bring your dog. The park has a rule about that."
+      ],
+      "explanation": "Don't need to = don't have to: можно принести, можно нет. Can't — запрет. You don't need to bring your dog значило бы «собаку брать не обязательно» — а её брать нельзя. После not — anything, а не nothing."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В сообщении четыре ошибки. Перепиши его правильно: “You had better to call her today. I would rather to stay home than going out. You needn't to worry. It's time you go home.”",
+      "context": "",
+      "guidance": {
+        "title": "Проверь, что стоит дальше",
+        "body": "После 'd better и 'd rather — действие без to, после than — такое же действие. После It's time you — прошедшая форма. Needn't в американской речи замени на don't need to.",
+        "example": "You'd better ask him. I'd rather wait than call. It's time we left.",
+        "translation": "Лучше спроси его. Я лучше подожду, чем буду звонить. Нам пора уходить."
+      },
+      "hint": "Посчитай to в тексте. Сколько из них лишние?",
+      "answers": [
+        "You'd better call her today. I'd rather stay home than go out. You don't need to worry. It's time you went home.",
+        "You had better call her today. I would rather stay home than go out. You don't need to worry. It's time you went home.",
+        "You'd better call her today. I'd rather stay home than go out. You don't have to worry. It's time you went home.",
+        "You'd better call her today. I'd rather stay home than go out. Don't worry. It's time you went home."
+      ],
+      "explanation": "Четыре правки: better to call → better call; rather to stay than going → rather stay than go; needn't to worry → don't need to worry (needn't без to возможно, но в американской речи звучит книжно); you go → you went. Вместо You don't need to worry можно просто Don't worry."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг приезжает к тебе на выходные и спрашивает, что взять и куда пойти. Что ты знаешь: в субботу обещают дождь; музей закрывается в 5 p.m.; парковка в центре дорогая, а у твоего дома метро; полотенца и постельное у тебя есть. Напиши ему сообщение на 60–100 слов. Что должно быть: одно предупреждение с you'd better и чем грозит; что ему не нужно брать или делать; твой выбор на субботу с I'd rather… than…; вопрос о его выборе с Would you rather…?",
+      "context": "towels and sheets — полотенца и постельное бельё; downtown — центр города; subway — метро; parking — парковка.",
+      "hint": "План: You'd better…, or… → You don't need to… → On Saturday, I'd rather… than… → Would you rather… or…?",
+      "answers": [
+        "Hi Josh! Can't wait to see you. It's going to rain on Saturday, so you'd better bring a jacket, or you'll get wet. You don't need to bring towels or sheets. I have everything. Parking downtown is expensive, so you'd better not drive there. The subway is right next to my place. On Saturday, I'd rather go to the museum than walk around in the rain. It closes at 5 p.m., so we'd better go early. Would you rather have lunch before the museum or after it?"
+      ],
+      "explanation": "Засчитывается, если есть предупреждение с 'd better и последствием, «не нужно» с don't need to, выбор с I'd rather… than… и вопрос Would you rather…? Все действия после better и rather — без to. Факты (дождь, 5 p.m., метро) совпадают с заданием."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга из твоей группы английского через неделю сдаёт экзамен и просит совета в голосовом сообщении. Запиши ей ответ на 30–60 секунд. Что должно быть: одно серьёзное предупреждение с you'd better (или 'd better not) и чем грозит; что ей не нужно делать; что выбрал бы ты сам с I'd rather… than…; фраза с It's time to… или It's time you…",
+      "context": "exam — экзамен; stay up late — поздно ложиться; review — повторять материал.",
+      "hint": "Начни так: Hi! Good luck with your exam. You'd better…",
+      "answers": [
+        "Hi Kate! Good luck with your exam. You'd better not stay up late the night before, or you'll be too tired to think. You don't need to learn every word in the book. Just review the main topics. If I were you, I'd study a little every day. I'd rather do thirty minutes a day than ten hours on Sunday. And it's time you stopped worrying. You know more than you think!"
+      ],
+      "explanation": "Засчитывается, если есть 'd better или 'd better not с последствием, don't need to, I'd rather… than… и It's time… Если после It's time стоит человек, глагол в прошедшей форме: It's time you stopped. Расшифровка покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Коллега зовёт тебя в пятницу на караоке. Петь ты не любишь, но с коллегами пообщаться хочешь. Ответь ему коротко (2–4 фразы): поблагодари, вежливо откажись петь с I'd rather not, предложи другой вариант и спроси, что он выбирает, с Would you rather…?",
+      "context": "karaoke — караоке; bowling — боулинг; sing — петь.",
+      "hint": "Вежливый отказ начинается с Thanks, but…",
+      "answers": [
+        "Thanks for the invite! I'd rather not sing, but I'd love to come and listen. Or would you rather go bowling this time?",
+        "Thanks! I'd rather not do karaoke, to be honest. Would you rather go bowling or get dinner on Friday?"
+      ],
+      "explanation": "I'd rather not — мягкое «я бы не хотел», без грубого No. Would you rather…? предлагает выбор, а не отменяет встречу. Засчитывается, если есть благодарность, отказ с I'd rather not и вопрос с другим вариантом."
+    }
+  ]
+}

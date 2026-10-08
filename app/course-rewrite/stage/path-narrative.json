@@ -1,0 +1,340 @@
+{
+  "id": "path-narrative",
+  "title": "История с поворотом: сцена, неожиданность, итог",
+  "subtitle": "Сцена → поворот → разгадка → чем кончилось",
+  "level": "B1",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Рассказать историю, которую интересно слушать: «Я уже собирался уходить, и тут заметил, что чемодан не мой. Оказалось, его по ошибке взяла женщина с моего рейса. В итоге мы посмеялись».",
+  "formula": "It was late, and I was waiting… → I was about to leave when… → It turned out that she had… → In the end, …",
+  "keyRule": {
+    "rule": "Сначала сцена (was + -ing), потом поворот, потом что ты сделал и чем кончилось.",
+    "example": "I was about to leave when the phone rang — я уже собирался уходить, и тут зазвонил телефон.",
+    "check": "Разгадка случилась раньше момента рассказа? Тогда had: It turned out she had left."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-past-perfect",
+    "path-past-continuous",
+    "extended-a2-story"
+  ],
+  "recycles": [
+    "path-connectors-basic",
+    "path-past-continuous"
+  ],
+  "teaches": [
+    "четыре части истории: сцена → поворот → твоё действие → конец",
+    "сцена: It was late, and I was waiting… — фон без событий",
+    "поворот: Suddenly, … и was about to + глагол … when … — «как раз собирался, и тут»",
+    "разгадка: It turned out (that) … — «оказалось»; то, что было раньше, — had + третья форма",
+    "конец: in the end — «в итоге», eventually — «в конце концов» (не «возможно»), finally — «наконец»",
+    "at first — «поначалу», потом всё изменилось (≠ first в списке шагов)",
+    "вместо then в каждой фразе: a minute later, an hour later, the next morning",
+    "два человека одного пола — повтори имя вместо she или he"
+  ],
+  "sources": [
+    {
+      "title": "Cambridge Dictionary blog · When no one was looking, she opened the door: using narrative tenses",
+      "url": "https://dictionaryblog.cambridge.org/2017/07/26/when-no-one-was-looking-she-opened-the-door-using-narrative-tenses",
+      "notes": "Сверено, как времена делят работу в рассказе: past continuous — сцена и дело в процессе, past simple — события по порядку, past perfect — то, что случилось до главного действия истории."
+    },
+    {
+      "title": "VOA Learning English · Finally, Eventually, Ultimately: What's the Difference?",
+      "url": "https://learningenglish.voanews.com/a/finally-eventually-ultimately-what-s-the-difference-/5922408.html",
+      "notes": "Сверено значение eventually — «позже, в конце концов» (а не «возможно») и finally как последний пункт или долгожданный итог."
+    },
+    {
+      "title": "British Council English Online · Telling a story: narrative tenses",
+      "url": "https://englishonline.britishcouncil.org/blog/mini-english-lessons/telling-a-story-narrative-tenses/",
+      "notes": "Сверена главная мысль урока: простой список событий слушать скучно; историю держат фон и неожиданность."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Четыре части одной истории",
+    "why": "Каждая часть отвечает на свой вопрос слушателя: где мы, что случилось, почему и чем кончилось.",
+    "items": [
+      {
+        "label": "Сцена",
+        "en": "It was Friday night, and we were waiting for a table.",
+        "ru": "Был вечер пятницы, мы ждали столик.",
+        "note": "Was + -ing — фон. Событий ещё нет."
+      },
+      {
+        "label": "Поворот",
+        "en": "We were about to leave when a waiter called my name.",
+        "ru": "Мы уже собирались уходить, и тут официант назвал моё имя.",
+        "note": "Was about to … when — план сорвался."
+      },
+      {
+        "label": "Разгадка",
+        "en": "It turned out that my friend had reserved a table for us.",
+        "ru": "Оказалось, что друг заранее заказал нам столик.",
+        "note": "Had reserved — это случилось раньше."
+      },
+      {
+        "label": "Конец",
+        "en": "In the end, we got the best table in the room.",
+        "ru": "В итоге нам достался лучший столик в зале.",
+        "note": "In the end — чем всё кончилось."
+      }
+    ],
+    "focus": [
+      "were waiting",
+      "were about to",
+      "It turned out",
+      "had reserved",
+      "In the end"
+    ],
+    "footnote": "Проверь свою историю: есть ли в ней момент, когда что-то пошло не так?"
+  },
+  "sections": [
+    {
+      "title": "Чем история отличается от списка дел",
+      "body": "Друг спрашивает: «Как съездил?» Можно перечислить: I flew to Denver, I got my bag, I took a taxi. Это правда, но слушать скучно: ничего не случилось. История — это когда что-то пошло не так или вдруг изменилось.\n\nУ такой истории четыре части. Сцена — когда, где и что в это время шло. Поворот — что вдруг случилось. Твоё действие — что ты сделал. Конец — чем всё кончилось.\n\nВ уроке «Автобус уехал» ты уже рассказывал по порядку: фон — was/were + -ing, события — past simple, шаги — first, then, finally. Здесь новое: как построить поворот, как объяснить, что было на самом деле, и как закончить."
+    },
+    {
+      "title": "Сцена и поворот: suddenly и was about to",
+      "body": "Сцена — это фон, а не события: It was late, and I was waiting for a taxi. Was + описание и was/were + -ing говорят, что было и что шло.\n\nПоворот — первое событие, которое всё меняет. Его часто начинают с suddenly — «вдруг», после него запятая и past simple: Suddenly, the lights went out — вдруг погас свет.\n\nЕщё один способ — was about to + глагол: «как раз собирался, вот-вот». Дальше when и событие: I was about to leave when someone called my name — я уже собирался уходить, и тут меня окликнули. Was about to не значит, что ты ушёл: план сорвался."
+    },
+    {
+      "title": "Разгадка: it turned out и had",
+      "body": "Часто поворот непонятен, пока не узнаешь, что было на самом деле. Для этого есть it turned out (that) — «оказалось, что». That можно опустить.\n\nЕсли разгадка случилась раньше момента рассказа, после it turned out ставь had + третью форму, как в прошлом уроке: It turned out that Sam had sent the invitation to the wrong email — оказалось, что Сэм отправил приглашение не на тот адрес.\n\nЕсли разгадка — то, что было в тот же момент, had не нужен: It turned out that he was my neighbor — оказалось, что это мой сосед. После разгадки рассказ идёт дальше в past simple."
+    },
+    {
+      "title": "Конец: in the end, eventually, finally, at first",
+      "body": "In the end — «в итоге»: последний шаг истории. Eventually — «в конце концов, со временем»: итог после долгого пути или ожидания. Не путай с русским «эвентуально»: eventually не значит «возможно». Оба обычно стоят в начале фразы, с запятой.\n\nFinally — «наконец», когда долго ждал: The bus finally came. Обычно стоит перед глаголом.\n\nAt first — «поначалу»: так было сначала, а потом изменилось. At first, I didn't understand, but then I saw the sign. Это не first из списка шагов (first, then, after that). После at first обычно говорят, что стало потом."
+    },
+    {
+      "title": "Чтобы слушатель не запутался",
+      "body": "Then в каждой фразе делает рассказ однообразным. Порядок и так виден из past simple, поэтому then часто можно просто убрать. Или назови точное время: a minute later, an hour later, the next morning — через минуту, через час, на следующее утро.\n\nЕсли в истории два человека одного пола, she или he может значить любого из них. Anna called Liz, but she didn't answer — кто не ответил? Там, где легко спутать, повтори имя: but Liz didn't answer. Это не ошибка стиля, а помощь слушателю."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I was about to go to bed when someone knocked on the door.",
+      "ru": "Я уже собирался ложиться спать, и тут в дверь постучали.",
+      "why": "Сон так и не начался: стук прервал план."
+    },
+    {
+      "en": "Suddenly, the car in front of us stopped.",
+      "ru": "Вдруг машина перед нами остановилась.",
+      "why": "Suddenly в начале фразы отмечает поворот; само событие — в past simple."
+    },
+    {
+      "en": "It turned out that I had the wrong address.",
+      "ru": "Оказалось, что у меня был не тот адрес.",
+      "why": "Здесь had — обычное «было у меня», а не помощник: после него нет третьей формы."
+    },
+    {
+      "en": "It turned out that the store had closed an hour earlier.",
+      "ru": "Оказалось, что магазин закрылся ещё за час до этого.",
+      "why": "Магазин закрылся раньше, чем мы пришли, поэтому had closed."
+    },
+    {
+      "en": "We waited for two hours. Eventually, a mechanic came.",
+      "ru": "Мы ждали два часа. В конце концов приехал механик.",
+      "why": "Eventually — итог после долгого ожидания."
+    },
+    {
+      "en": "At first, I was angry. In the end, we laughed about it.",
+      "ru": "Сначала я злился. В итоге мы над этим посмеялись.",
+      "why": "At first — так было поначалу, потом всё изменилось; in the end называет последний шаг."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты начинаешь рассказывать коллеге историю из поездки. Скажи первые две фразы: «Это было поздно вечером в аэропорту Денвера. Я очень устал и ждал свой чемодан».",
+      "context": "late at night — поздно вечером; suitcase — чемодан.",
+      "guidance": {
+        "title": "Сцена: когда, где и что шло",
+        "body": "Первые фразы истории отвечают: когда, где и что в это время шло. Для фона — was + описание и was/were + -ing. Событий пока нет.",
+        "example": "It was a Friday night. We were standing in line at the movie theater.",
+        "translation": "Был вечер пятницы. Мы стояли в очереди в кинотеатре."
+      },
+      "hint": "Начни так: It was late at night … «Ждал» — дело шло или случилось один раз?",
+      "answers": [
+        "It was late at night at the Denver airport. I was very tired, and I was waiting for my suitcase.",
+        "It was late at night at the Denver airport. I was really tired, and I was waiting for my suitcase.",
+        "It was late at night at the Denver airport. I was very tired and was waiting for my suitcase.",
+        "It was late at night at the Denver airport. I was very tired. I was waiting for my suitcase.",
+        "It was late at night at the airport in Denver. I was very tired, and I was waiting for my suitcase.",
+        "It was late in the evening at the Denver airport. I was very tired, and I was waiting for my suitcase."
+      ],
+      "explanation": "Was tired и was waiting — фон: что было и что шло, когда история начнётся. I waited for my suitcase прозвучало бы как первое событие, а не как сцена. At the Denver airport и at the airport in Denver — оба варианта естественны."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Продолжи историю: «Я уже собирался уходить, и тут заметил, что чемодан не мой».",
+      "context": "notice — заметить.",
+      "guidance": {
+        "title": "Поворот: was about to … when",
+        "body": "Was about to + глагол — «как раз собирался, вот-вот». Потом when и событие в past simple: план сорвался.",
+        "example": "We were about to buy tickets when my phone rang.",
+        "translation": "Мы уже собирались купить билеты, и тут зазвонил мой телефон."
+      },
+      "hint": "Начни так: I was about to … «Заметил» — событие: какая нужна форма?",
+      "answers": [
+        "I was about to leave when I noticed that the suitcase wasn't mine.",
+        "I was about to leave when I noticed the suitcase wasn't mine.",
+        "I was about to leave when I noticed that the suitcase was not mine.",
+        "I was about to leave when I noticed that it wasn't my suitcase.",
+        "I was about to leave when I noticed it wasn't my suitcase.",
+        "I was about to leave when I noticed that it wasn't mine.",
+        "I was about to leave when I noticed it wasn't mine."
+      ],
+      "explanation": "Was about to leave — уход вот-вот должен был случиться, noticed — событие, которое его прервало. I was leaving when I noticed… тоже бывает, но значит «я уже уходил»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Объясни коллеге, что было на самом деле: «Оказалось, что женщина с моего рейса по ошибке взяла мой чемодан».",
+      "context": "flight — рейс; by mistake — по ошибке; take → took → taken.",
+      "guidance": {
+        "title": "Разгадка: it turned out + had",
+        "body": "It turned out (that) — «оказалось». Если разгадка случилась раньше момента рассказа, за it turned out идёт had + третья форма.",
+        "example": "It turned out that the movie had started an hour earlier.",
+        "translation": "Оказалось, что фильм начался на час раньше."
+      },
+      "hint": "Что было раньше: ты заметил или она взяла? Начни так: It turned out that …",
+      "answers": [
+        "It turned out that a woman from my flight had taken my suitcase by mistake.",
+        "It turned out a woman from my flight had taken my suitcase by mistake.",
+        "It turned out that a woman on my flight had taken my suitcase by mistake.",
+        "It turned out a woman on my flight had taken my suitcase by mistake.",
+        "It turned out that a woman from my flight had taken my suitcase by accident.",
+        "It turned out that a woman from my flight had mistakenly taken my suitcase."
+      ],
+      "explanation": "Женщина взяла чемодан раньше, чем ты это заметил, поэтому had taken. That после turned out можно опустить. From my flight и on my flight звучат одинаково естественно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Закончи историю: «Через час она вернулась. В итоге мы просто поменялись чемоданами и посмеялись».",
+      "context": "come back → came back — вернуться; swap — поменяться.",
+      "guidance": {
+        "title": "Конец: in the end",
+        "body": "Ставь его в начало фразы и отделяй запятой. Время перед этим тоже можно назвать точно: an hour later.",
+        "example": "In the end, we watched the movie at home.",
+        "translation": "В итоге мы посмотрели фильм дома."
+      },
+      "hint": "Первая фраза: An hour later, she … Вторая начинается с In the end, …",
+      "answers": [
+        "An hour later, she came back. In the end, we just swapped suitcases and laughed.",
+        "An hour later, she came back. In the end, we swapped suitcases and laughed.",
+        "An hour later, she came back. In the end, we just swapped suitcases and laughed about it.",
+        "An hour later, she came back. In the end, we swapped suitcases and laughed about it.",
+        "She came back an hour later. In the end, we just swapped suitcases and laughed.",
+        "She came back an hour later. In the end, we swapped suitcases and laughed.",
+        "An hour later, she came back, and in the end, we just swapped suitcases and laughed.",
+        "An hour later, she came back. In the end, we just traded suitcases and laughed."
+      ],
+      "explanation": "An hour later называет точное время вместо then, in the end — последний шаг истории. Swap и trade здесь значат одно и то же; laughed about it тоже верно."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет историю: \"My sister and her friend Kate were driving to Austin when she got a call from her boss. She had to go back to Dallas.\" На самом деле звонили Кейт. Перепиши так, чтобы это было ясно.",
+      "context": "",
+      "guidance": {
+        "title": "Кто такая she? Повтори имя",
+        "body": "Когда в истории два человека одного пола, she или he может значить любого из них. Там, где легко спутать, назови человека по имени.",
+        "example": "Tom and his dad were fishing when Tom fell into the lake.",
+        "translation": "Том с папой рыбачили, и тут Том упал в озеро."
+      },
+      "hint": "Кому звонил начальник? Поставь это имя вместо первого she.",
+      "answers": [
+        "My sister and her friend Kate were driving to Austin when Kate got a call from her boss. She had to go back to Dallas.",
+        "My sister and her friend Kate were driving to Austin when Kate got a call from her boss. Kate had to go back to Dallas."
+      ],
+      "explanation": "В первой фразе she может быть и сестрой, и Кейт. После when Kate got a call следующее she уже понятно — это Кейт; повторить имя ещё раз тоже можно."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Подруга выкладывает историю в групповой чат и просит проверить времена. В тексте три ошибки. Исправь и напиши текст целиком: \"It was late, and I walked home from the subway. Suddenly I was hearing footsteps behind me. I turned around and saw a man in a dark coat. I was so scared! It turned out that he was my neighbor. He wanted to give me my scarf. I dropped it on the subway.\"",
+      "context": "footsteps — шаги; scarf — шарф; drop → dropped — уронить.",
+      "guidance": {
+        "title": "Три слоя: фон, событие, раньше",
+        "body": "Проверь каждый глагол по очереди. Фон, который шёл, — was + -ing. Событие — past simple. То, что случилось раньше момента рассказа, — had + третья форма.",
+        "example": "We were sitting in the park when it started to rain. I had left my umbrella at home.",
+        "translation": "Мы сидели в парке, и тут начался дождь. Зонт я оставила дома."
+      },
+      "hint": "Ошибок три: одна в сцене, одна в повороте, одна в последней фразе.",
+      "answers": [
+        "It was late, and I was walking home from the subway. Suddenly I heard footsteps behind me. I turned around and saw a man in a dark coat. I was so scared! It turned out that he was my neighbor. He wanted to give me my scarf. I had dropped it on the subway.",
+        "It was late, and I was walking home from the subway. Suddenly, I heard footsteps behind me. I turned around and saw a man in a dark coat. I was so scared! It turned out that he was my neighbor. He wanted to give me my scarf. I had dropped it on the subway.",
+        "It was late, and I was walking home from the subway. Suddenly I heard footsteps behind me. I turned around and saw a man in a dark coat. I was so scared! It turned out that he was my neighbor. He wanted to give me my scarf. I'd dropped it on the subway."
+      ],
+      "explanation": "Was walking — сцена, дело шло, когда случился поворот. Heard — одно событие, а не процесс. Had dropped — шарф упал раньше, чем подруга шла домой. It turned out that he was my neighbor не трогай: разгадка о том же моменте, had не нужен."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь, как вы ехали к друзьям за город: «Хотя у нас была карта, мы заблудились, поэтому спросили дорогу на заправке».",
+      "context": "get lost → got lost — заблудиться; ask for directions — спросить дорогу; gas station — заправка.",
+      "guidance": {
+        "title": "Вспоминаем: although и so",
+        "body": "Вспоминаем урок о связках. Although — «хотя», и but во второй части уже не нужен. So — «поэтому», перед ним запятая. В истории они объясняют, почему герой поступил так.",
+        "example": "Although it was late, the store was open, so we bought some snacks.",
+        "translation": "Хотя было поздно, магазин работал, поэтому мы купили перекусить."
+      },
+      "hint": "Начни так: Although we had a map, …",
+      "answers": [
+        "Although we had a map, we got lost, so we asked for directions at a gas station.",
+        "Although we had a map, we got lost, so we asked for directions at the gas station.",
+        "Although we had a map, we got lost, so we stopped at a gas station and asked for directions.",
+        "Although we had a map, we got lost, so we asked someone at a gas station for directions."
+      ],
+      "explanation": "Although открывает фразу, поэтому but не нужен: Although…, but… — ошибка. So вводит результат. Had здесь — «у нас была», обычное прошедшее от have, а не помощник."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Американский друг Джейк пишет: \"Any crazy travel stories? I need one for my podcast!\" Напиши ему историю (60–120 слов). В ней: сцена — когда, где и что шло (was/were + -ing); поворот с suddenly или was about to … when; разгадка с it turned out + had; что ты сделал; конец с in the end или eventually. Then — не больше одного раза.",
+      "context": "podcast — подкаст; crazy — безумный, невероятный.",
+      "hint": "План: Last summer, I was … → We were about to … when … → It turned out that … had … → so we … → In the end, …",
+      "answers": [
+        "Hi Jake! Here's one. Last summer, I was traveling in Arizona with my friend Max. One night, we were driving to our hotel through the desert, and it was really dark. We were about to turn onto a small road when Max's phone suddenly died. It turned out that he had forgotten to charge it, and we didn't have a map. We drove to a tiny gas station, and an old man there drew a map for us on a napkin. Eventually, we found the hotel at two in the morning. In the end, that napkin became my favorite souvenir from the trip!"
+      ],
+      "explanation": "Засчитывается, если есть сцена с was/were + -ing, поворот с suddenly или was about to … when, разгадка с it turned out и had + третьей формой, твоё действие и конец с in the end или eventually. История может быть любой, настоящей или придуманной."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Тема встречи разговорного клуба: \"Tell us about a time when something went wrong.\" Расскажи вслух свою историю за 30–60 секунд. Скажи: когда, где и что шло; что вдруг случилось; одно событие, которое случилось раньше (had); что ты сделал; чем всё кончилось.",
+      "context": "gate — выход на посадку; just in time — как раз вовремя.",
+      "hint": "Начни так: A couple of years ago, I was … Потом: Suddenly, …",
+      "answers": [
+        "A couple of years ago, I was flying to Miami for my cousin's wedding. I was sitting at the gate and reading a book. Suddenly, I heard my name on the speakers. It turned out that they had changed my gate, and my plane was about to leave! I grabbed my bag and ran across the whole airport. I got there just in time. At first, I was really stressed, but in the end, I made it to the wedding, and now it's a funny story."
+      ],
+      "explanation": "Засчитывается, если есть сцена с was + -ing, поворот, одно более раннее событие с had, твоё действие и конец. Говори своими словами; короткие формы вроде it's и I'd звучат естественнее полных."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Джейку понравилась история. Он просит: \"Can you give me a short version for Instagram? Three sentences max.\" Перескажи ту же историю, которую писал ему, в трёх предложениях: сцена и поворот в одном; разгадка с had; конец.",
+      "context": "",
+      "hint": "Первое предложение собери так: We were … when … suddenly …",
+      "answers": [
+        "We were driving through the Arizona desert at night when Max's phone suddenly died. It turned out that he had forgotten to charge it, and we didn't have a map. In the end, an old man at a gas station drew us a map on a napkin, and we found our hotel at 2 a.m."
+      ],
+      "explanation": "Засчитывается, если в трёх предложениях есть сцена с поворотом (was/were + -ing … when …), разгадка с had + третьей формой и конец. Короткая версия не меняет причину и итог длинной."
+    }
+  ]
+}

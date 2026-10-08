@@ -1,0 +1,309 @@
+{
+  "id": "extended-c2-literary",
+  "title": "«Последний ключ»: рассказ, сцена и два читательских мнения",
+  "subtitle": "Слова героя против детали → что меняет сцена → чьё чтение лучше держится на тексте → вступление для книжного клуба",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Сравнить рассказ и его сценическую версию («Whereas the story lets Elias explain himself, the stage shows him pocketing the key»), проверить два читательских мнения по тексту и подготовить для клуба вступление, где слова героя не выданы за факт.",
+  "formula": "action ≠ motive · Whereas the story…, the stage shows… · The stage direction shows…; it does not say why · … has no basis in the text · Reader A's reading is better supported because… · He says he is protecting…, not He is protecting…",
+  "keyRule": {
+    "rule": "Сцена показывает действие, но не мотив: «он прячет ключ» — факт, «он хочет власти» — чтение.",
+    "example": "The stage direction shows him pocketing the key; it does not say why. — Ремарка показывает, как он кладёт ключ в карман, но не говорит зачем.",
+    "check": "Это видно со сцены — или это твоё объяснение того, что видно?"
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "path-literary-reading",
+    "path-source-mediation",
+    "extended-c1-review-article"
+  ],
+  "recycles": [
+    "path-literary-reading"
+  ],
+  "teaches": [
+    "применение урока о художественном чтении к большому тексту: слова Элиаса против его жестов, два чтения — забота или контроль",
+    "рассказ и сцена: в рассказе всё идёт через голос рассказчика, на сцене зритель видит действие раньше и без объяснения; Whereas the story…, the stage…",
+    "ремарка (stage direction) показывает действие, место, паузу, но не мотив: The stage direction shows…; it does not say why",
+    "что сцена добавляет нового: срок до семи, открытый конверт без текста",
+    "чужое мнение — не факт о сюжете: опора, помеха, достроенная догадка; must без опоры — has no basis in the text",
+    "сравнение мнений: better supported because…, rightly notes…, goes too far in…; слабость одного не доказывает другое; смешанные мотивы",
+    "вступление для новичков: люди → предмет спора → почему он возможен → два чтения → открытый вопрос; He says he is…, а не He is…"
+  ],
+  "sources": [
+    {
+      "title": "The Writing Center, UNC Chapel Hill · Drama",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/drama/",
+      "notes": "Сверено: текст пьесы и постановка — разные вещи; слова пьесы получают смысл в контексте постановки; каждое решение постановки (свет, действие, исполнение) разбирают через вопрос, как оно влияет на восприятие; полезно сравнить, что зритель узнаёт на сцене, чего не ожидал при чтении."
+    },
+    {
+      "title": "The Writing Center, UNC Chapel Hill · Literature (Fiction)",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/literature/",
+      "notes": "Сверено: чтение — аргумент с опорой на детали, а не пересказ; каждую опору объясняют своими словами; стоит спросить, кто рассказывает, что он знает и не окрашивает ли рассказ своими интересами."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что этот урок добавляет к чтению рассказа",
+      "body": "В уроке о художественном чтении ты научился отличать рассказчика от автора, сверять слова героя с деталью и выбирать между двумя чтениями. Здесь эти навыки работают на одном большом материале. Новое — сцена и чужие мнения.\n\nСюжет M1. Читальный зал закрывается навсегда. Мара приходит забрать тетради своей матери: договор это разрешает. Хранитель зала сам рассказывает историю (в пьесе его зовут Элиас), и он тянет время. Он говорит, что сначала всё нужно проверить, а четвёртый ключ держит в кармане.\n\nГлавный вопрос рассказа: это забота о тетрадях или желание сохранить над ними власть? Прямого ответа текст не даёт. Элиас сам признаётся, что боялся стать ненужным. Но и это признание — часть его версии.\n\nM2 — та же история в виде пьесы. M3 — мнения двух участников клуба. Порядок работы: сначала только M1, потом M2, потом M3."
+    },
+    {
+      "title": "Рассказ и сцена: кто что знает и когда",
+      "body": "В рассказе всё проходит через голос Элиаса. Он сообщает, что ключ у него в кармане, и тут же себя объясняет. Он даже предлагает посмотреть на комнату глазами Мары, но этот взгляд тоже строит сам.\n\nНа сцене рассказчика нет. Зритель видит, как Элиас кладёт ключ в карман ещё до прихода Мары: знание приходит раньше и без объяснения. Сравнивать удобно так: Whereas the story…, the stage…\n\nРемарка (stage direction) — текст пьесы между репликами: кто где стоит, что делает, где пауза. Она показывает действие, но не мотив. У паузы нет постоянного значения: обида, расчёт, поиск слов.\n\nПроверь и то, что сцена добавила. В M2 центру нужно подтверждение до семи, а Мара вскрывает конверт, но зритель не видит, что внутри."
+    },
+    {
+      "title": "Проверить чужое чтение: опора, помеха, догадка",
+      "body": "Мнения участников клуба (M3) — не новые факты о сюжете, а чтения. Их проверяют так же, как свои. Для каждого найди деталь, которая его поддерживает, деталь, которая мешает, и догадку, которую оно добавляет от себя.\n\nСлабое место обычно выдаёт уверенность без опоры. Если читатель пишет, что в письме «наверняка» что-то есть, а текст письма нам не показан, у такого утверждения нет основы: it has no basis in the text.\n\nНе выбирай по тону. Сильнее то чтение, которое объясняет больше деталей и меньше достраивает. Слабость одного мнения не делает другое верным. И помни о смешанных мотивах: забота и желание контроля могут быть правдой одновременно."
+    },
+    {
+      "title": "Вступление для клуба: сначала ситуация, потом спор",
+      "body": "Вспоминаем урок о медиации: что нужно этому слушателю и что нельзя потерять. Новый участник клуба не читал ни рассказа, ни пьесы. Сначала ему нужны люди, предмет спора и причина, почему спор вообще возможен. Потом — два чтения и одна-две решающие детали. Слова вроде unreliable narrator без ситуации ему ничего не скажут.\n\nУпрощая, держи границу между словами героя и фактом. He says he is protecting the notebooks передаёт версию Элиаса. He is protecting the notebooks уже принимает её как правду.\n\nЗакончи вопросом, на который действительно можно ответить по-разному. В устном рассказе полезно добавить, что ты упростил и какое различие сохранил."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Elias says the collection must be checked first, but his finger rests on no particular sentence of the agreement.",
+      "ru": "Элиас говорит, что сначала нужно проверить коллекцию, но его палец не указывает ни на одну конкретную фразу договора.",
+      "why": "Слова героя рядом с жестом, который их ослабляет."
+    },
+    {
+      "en": "Whereas the story lets Elias explain himself, the stage shows him pocketing the key before Mara arrives.",
+      "ru": "В рассказе Элиас может себя объяснить, а на сцене мы видим, как он кладёт ключ в карман ещё до прихода Мары.",
+      "why": "Тот же факт, разный путь к зрителю; whereas ставит их рядом."
+    },
+    {
+      "en": "The stage direction shows Mara breaking the seal; it does not show what the letter says.",
+      "ru": "Ремарка показывает, как Мара вскрывает конверт, но не показывает, что в письме.",
+      "why": "Действие видно, содержание и мотив — нет."
+    },
+    {
+      "en": "Reader B's claim that the envelope must contain a request has no basis in the text.",
+      "ru": "Утверждение Reader B, что в конверте наверняка просьба, не опирается на текст.",
+      "why": "Must здесь — уверенная догадка; проверяем её по тексту."
+    },
+    {
+      "en": "His concern for the notebooks may be sincere and still not justify the delay.",
+      "ru": "Его забота о тетрадях может быть искренней — и всё равно не оправдывать задержку.",
+      "why": "Смешанные мотивы: одно не отменяет другого."
+    },
+    {
+      "en": "He says he is protecting the notebooks; the play gives us reason to doubt that.",
+      "ru": "Он говорит, что защищает тетради; пьеса даёт повод в этом усомниться.",
+      "why": "Версия героя передана как его слова, а не как факт."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "The Last Key / «Последний ключ»",
+      "kind": "reading",
+      "text": "Original teaching material: a fictional short story.\n\nThe Last Key\n\nBy six, the rain had erased the opposite bank of the river. I had promised the council that the reading room would be empty by seven. After thirty years as its keeper, I could surely be trusted with one final evening. The notice on the door said CLOSED, though I had turned it inward. There was no reason to make the street look more deserted than it was.\n\nI was counting the returned keys when Mara arrived. Three lay beside the register; the fourth was in my vest pocket. It opened the narrow cupboard behind the lending desk, where her mother's notebooks had been kept since the exhibition. Mara carried a cardboard box with handles cut into its sides. I remember thinking that she had chosen something practical. Later, she said I had laughed at it.\n\n\"I came for the notebooks,\" she said.\n\n\"You came rather late.\"\n\n\"You told me after six.\"\n\nThat was possible. I had been answering questions all week: where the chairs would go, whether the children's height marks would be painted over, who owned the clock. Precision becomes difficult when everyone mistakes a building for a person who can be persuaded to stay.\n\nI opened the register to her mother's donation. The agreement was quite clear: the notebooks were to remain available for public consultation while the reading room operated. If it closed permanently, the donor or her named representative could reclaim them. Mara's name appeared beneath her mother's, in smaller writing. The council called this closure permanent. I had hoped the word might prove premature.\n\n\"Until the collection has been checked, nothing should leave,\" I said.\n\n\"Is that in the agreement?\"\n\nI laid a finger along the page, not on any particular sentence. What I meant was that things disappear when they travel. Her mother had understood this. She used to bring loose pages in shopping bags and leave with them arranged in folders. I supplied the folders. I do not think it unreasonable to mention that.\n\nMara put the box on the desk. Its bottom was lined with a folded towel. I had imagined the notebooks knocking against one another in the trunk of her car; the towel embarrassed me, though I cannot have shown it. She asked for the key. I touched my pocket to check that it was safe.\n\n\"It isn't among the returned ones,\" I said.\n\nThis was accurate. Accuracy is not always as helpful as people expect.\n\nOutside, a van backed up toward the entrance. Its warning sounded three times and stopped. Mara looked at the cupboard, then at the three keys. \"We can wait,\" she said. I took this as an accusation that I was making her wait. Perhaps it was merely an offer. At the time, offers had begun to sound like instructions.\n\nFor a moment, consider the room from Mara's side of the desk. An old man stands between her and a cupboard. He has just touched his pocket. On the page below his hand, her own name authorizes her to collect what she requested. There is a towel in her box, but he has explained how easily things can be damaged. She cannot hear the sentences in which he has been generous for thirty years.\n\nI can give her that view now. I did not ask for it then.\n\nInstead, I said her mother had wanted the notebooks read. Mara answered that she had arranged a table at the neighborhood center for Saturday. She would bring them there each month. I asked whether anyone qualified would supervise. Her mother had been a bus driver who wrote about birds during her breaks. I had never asked who qualified her to notice them.\n\nMara took an envelope from her coat. \"She left instructions for me as well.\"\n\nI did not reach for it. I knew her mother's handwriting on the front, but not what was inside. It would be convenient to say that I feared some private grief. In fact, I feared a sentence that would make my assistance unnecessary. I am less certain whether admitting this now makes the rest of my account more trustworthy.\n\nThe van driver knocked. He wanted the desk first, while there was still light. I told him to take the chairs. Mara sat on the nearest one before he could lift it. Neither of us smiled. The clock, which had been five minutes slow all winter, struck seven.\n\nI brought out the fourth key and placed it beside the others. Mara did not pick it up. \"You can open it,\" she said. There was no forgiveness in the words that I could recognize, but recognition was never my strongest service to that family.\n\nAt the cupboard I hesitated, listening for the soft scrape of the box being lifted. Behind me, paper moved. Perhaps Mara had opened the envelope; perhaps she had only moved the register out of the driver's way. The key entered easily. I turned it until something yielded, and waited to discover whether I had opened the door.",
+      "source": "Авторский учебный материал; ситуация вымышленная"
+    },
+    {
+      "id": "m2",
+      "title": "The Last Key: a stage version / Сценическая версия",
+      "kind": "dialogue",
+      "text": "Original teaching material: a fictional dramatic adaptation.\n\nA reading room on its final evening. A desk, three keys, a register, a locked cupboard. ELIAS, the keeper, stands behind the desk. Before MARA enters, he takes a fourth key from the cupboard lock and pockets it. He straightens the register. Rain.\n\nMARA: You said after six.\n\nELIAS: I thought you might telephone.\n\nMARA: I brought a box.\n\nShe places it on the desk. A towel lines the bottom. ELIAS reaches toward the towel, then withdraws his hand.\n\nELIAS: Your mother wanted people to read them.\n\nMARA: They can. At the neighborhood center.\n\nELIAS: Can they?\n\nMARA: On Saturdays. I've arranged a table.\n\nELIAS: And someone to watch it?\n\nMARA: Someone will be there.\n\nShe opens the register and turns it toward him.\n\nMARA: Permanent closure. Named representative. Here.\n\nELIAS: I know what it says.\n\nMARA: Then we need the key.\n\nELIAS: It isn't among those.\n\nA pause. MARA looks at the keys. ELIAS looks at her box.\n\nMARA: The center needs confirmation by seven. Otherwise they'll give the table to someone else.\n\nELIAS: You didn't tell me.\n\nMARA: I'm telling you now.\n\nA backup alarm sounds outside. MARA takes an envelope from her coat and places it, unopened, beside the register.\n\nELIAS: Is that for me?\n\nMARA: It has my name on it.\n\nHe puts his hand in his pocket. A knock interrupts him.\n\nDRIVER, outside: Desk first?\n\nELIAS: Chairs.\n\nMARA sits on a chair. The DRIVER does not enter.\n\nELIAS: Your mother never minded waiting.\n\nMARA: She minded being called patient.\n\nSilence. He places the fourth key on the desk. She leaves it there.\n\nMARA: You can open it.\n\nHe crosses to the cupboard. While his back is turned, she lifts the envelope. The audience can see her break its seal, but cannot see the contents. The lock clicks.\n\nBlackout before either speaks.",
+      "source": "Авторский учебный материал; ситуация вымышленная"
+    },
+    {
+      "id": "m3",
+      "title": "Two club readers respond / Два читательских суждения",
+      "kind": "reference",
+      "text": "Original teaching material: two fictional readers' judgments.\n\nReader A\nThe keeper's care is real, but he uses it to preserve his authority. His finger does not identify an actual restriction in the agreement, and his comment about qualifications sits awkwardly beside the mother's ordinary occupation. The stage version strengthens this reading by showing him pocket the key. Still, the final offer to let him open the cupboard may preserve a role for him rather than simply defeat him.\n\nReader B\nI read his hesitation chiefly as responsible caution. The notebooks could be damaged, and Mara gives no detailed account of their supervision. The envelope must contain the mother's request that he remain involved; otherwise Mara would open the cupboard herself. Both endings therefore reconcile the characters. His eventual production of the key confirms that his earlier delay was necessary, even if his manner was unfortunate.",
+      "source": "Авторский учебный материал; ситуация вымышленная"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай только M1. Элиас говорит Маре: Until the collection has been checked, nothing should leave. Напиши 2 предложения: что он делает рукой, когда Мара спрашивает, есть ли это в договоре, и что это позволяет предположить. Без слова proves.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: слова героя против жеста",
+        "body": "Вспоминаем урок о художественном чтении: слова героя сверяют с тем, что он делает. Сначала опиши жест точно по тексту, потом осторожно назови, что он может значить.",
+        "example": "She says the decision is final, but she keeps the application in her desk drawer instead of filing it.",
+        "translation": "Она говорит, что решение окончательное, но держит заявление в ящике стола, а не отправляет его дальше."
+      },
+      "hint": "Найди в M1 место сразу после вопроса Is that in the agreement?",
+      "answers": [
+        "Elias claims that nothing should leave until the collection has been checked, but when Mara asks whether that is in the agreement, he lays his finger along the page, not on any particular sentence. This suggests that the rule may be his own rather than the agreement's.",
+        "When Mara asks if the agreement requires a check, Elias points at the page without touching any specific sentence. His gesture hints that the condition comes from him, not from the document."
+      ],
+      "explanation": "Засчитывается, если жест описан точно по тексту (палец вдоль страницы, ни на одной фразе) и вывод осторожный: suggests, hints, may be. «Он лжёт» — слишком сильно: текст показывает только, что опоры в договоре он не находит.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Теперь прочитай M2. Переведи для заметки о двух версиях: «Если в рассказе о ключе в кармане мы узнаём из слов самого Элиаса, то на сцене зрители видят, как он прячет ключ ещё до прихода Мары».",
+      "context": "",
+      "guidance": {
+        "title": "Тот же факт — другой путь к зрителю",
+        "body": "Сравнивай не только что произошло, но и как зритель об этом узнаёт: из слов рассказчика или из действия. Whereas ставит два способа рядом в одной фразе.",
+        "example": "Whereas the novel reports the storm in a letter, the radio play lets us hear it from the first scene.",
+        "translation": "В романе о буре сообщает письмо, а в радиопостановке мы слышим её с первой сцены."
+      },
+      "hint": "Начни так: Whereas in the story we learn about the key…",
+      "answers": [
+        "Whereas in the story we learn about the key in his pocket from Elias himself, on stage the audience sees him hide it before Mara arrives.",
+        "Whereas the story tells us about the key through Elias's own words, the stage version shows him pocketing it before Mara comes in.",
+        "In the story, we learn from Elias that the key is in his pocket, whereas on stage the audience watches him hide it before Mara enters."
+      ],
+      "explanation": "Засчитывается, если сопоставлены два пути к зрителю — слова Элиаса и видимое действие — и сохранено «ещё до прихода Мары». Whereas может стоять в начале или в середине фразы.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Зритель написал о M2: The pause proves that Elias despises Mara. Найди ремарку A pause. MARA looks at the keys. ELIAS looks at her box. Перепиши вывод в 1–2 предложения: что ремарка показывает и чего она не говорит.",
+      "context": "despise — презирать; stage direction — ремарка.",
+      "guidance": {
+        "title": "Ремарка показывает действие, не мотив",
+        "body": "Опиши то, что видно со сцены: кто куда смотрит, что делает. Значение паузы оставь открытым или предложи его осторожно, с may. Слово proves здесь не подходит.",
+        "example": "The stage direction has him stand by the window for a long time; it does not tell us whether he is angry or simply tired.",
+        "translation": "По ремарке он долго стоит у окна; злится он или просто устал, она не говорит."
+      },
+      "hint": "На что смотрит каждый из них? И что в коробке Мары, по рассказу, задело Элиаса?",
+      "answers": [
+        "The stage direction shows a pause in which Mara looks at the keys and Elias looks at her box; it does not tell us what either of them feels. The silence may suggest tension, but it does not prove contempt.",
+        "During the pause, Mara watches the keys and Elias watches her box. The direction shows where their attention goes, not why, so contempt is only one possible reading, and not the most obvious one."
+      ],
+      "explanation": "Засчитывается, если описано видимое (кто на что смотрит), сказано, что мотив ремаркой не назван, и proves заменено осторожным may suggest или «одно из возможных чтений».",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M3. Reader B пишет: The envelope must contain the mother's request that he remain involved. Напиши 2 предложения: что о конверте известно из M1 и M2 и есть ли у этого утверждения опора.",
+      "context": "",
+      "guidance": {
+        "title": "Уверенность без опоры",
+        "body": "Must в таком мнении значит «наверняка». Проверь, что текст на самом деле сообщает о предмете, и назови разрыв между этим и уверенностью читателя.",
+        "example": "Reader C says the stranger must be the brother, but the story never gives his name or describes his face.",
+        "translation": "Reader C считает, что незнакомец наверняка брат, но рассказ ни разу не называет его имени и не описывает его лица."
+      },
+      "hint": "Видим ли мы хоть раз, что написано внутри? Что известно о надписи на конверте?",
+      "answers": [
+        "We know the envelope has the mother's handwriting on the front and, on stage, Mara's name on it; in the play she breaks the seal, but neither version shows what is inside. Reader B's claim that it must contain a request for Elias's involvement therefore has no basis in the text.",
+        "Both versions keep the contents hidden: the story only tells us the handwriting is the mother's, and the play lets us watch Mara open it without seeing the letter. Reader B turns an unknown into a certainty."
+      ],
+      "explanation": "Засчитывается, если названо известное (почерк матери, имя Мары, вскрытый конверт) и сказано, что содержание не показано ни в одной версии, поэтому must ничем не подкреплено.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Сравни два мнения из M3 в 3 предложениях: чьё чтение лучше держится на M1 и M2 и почему; что верно подмечено у другого; где он достраивает.",
+      "context": "",
+      "guidance": {
+        "title": "Какое мнение лучше держится на тексте",
+        "body": "Не выбирай по уверенности тона. Скажи, чьё чтение объясняет больше деталей, признай, что верно у другого, и назови, где оно достраивает.",
+        "example": "Critic A's reading is better supported because it accounts for both the gift and the debt; Critic B is right about the timing but goes too far in calling it a bribe.",
+        "translation": "Чтение критика A держится лучше: оно объясняет и подарок, и долг; критик B прав насчёт сроков, но заходит слишком далеко, называя это взяткой."
+      },
+      "hint": "Что Reader B подметил верно о сохранности тетрадей? И какое признание Элиаса объясняет чтение Reader A?",
+      "answers": [
+        "Reader A's reading is better supported, because it accounts for both the keeper's care and his control, including his admission that he feared becoming unnecessary. Reader B rightly notes that the notebooks could be damaged and that Mara says little about supervision. However, B goes too far in treating the envelope's contents and a reconciliation as facts.",
+        "Reader A offers the stronger account: it explains the vague finger on the agreement and Elias's own fear of being made unnecessary. Reader B's concern about damage is fair, but the claim that producing the key proves the delay was necessary does not follow."
+      ],
+      "explanation": "Засчитывается, если выбор обоснован деталями (признание, жест над договором), у второго мнения признано верное (риск повреждения, мало сведений о надзоре) и названа его догадка (конверт, примирение, «задержка была нужна»).",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи фразу для вступления на встрече клуба: «Элиас говорит, что защищает тетради; пьеса позволяет в этом усомниться, но не доказывает обратного».",
+      "context": "",
+      "guidance": {
+        "title": "Слова героя — со ссылкой на героя",
+        "body": "Упрощая для новичков, не теряй, чьи это слова. He says he is… передаёт версию героя; he is… принимает её как факт. Вторая часть фразы — что текст делает с этой версией.",
+        "example": "She says she left for the children's sake; the novel lets us question that without calling her a liar.",
+        "translation": "Она говорит, что ушла ради детей; роман позволяет в этом усомниться, не называя её лгуньей."
+      },
+      "hint": "Начни так: Elias says he is protecting… Для «позволяет усомниться» подойдут lets us doubt it или gives us reason to doubt it.",
+      "answers": [
+        "Elias says he is protecting the notebooks; the play lets us doubt it, but it does not prove the opposite.",
+        "Elias claims he is protecting the notebooks; the play gives us reason to doubt this without proving the opposite.",
+        "Elias says he's protecting the notebooks, and the play lets us question that, but it doesn't prove the opposite."
+      ],
+      "explanation": "Засчитывается, если версия Элиаса передана как его слова (says, claims), а вторая часть не превращает сомнение в доказательство. Doubt и question подходят оба."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши вступление для листка книжного клуба, 220–300 слов. Читатели не знают ни рассказа, ни пьесы. Что должно быть: ситуация в 2–3 фразах; два мнения из M3 с опорами из M1 и M2 — какое сильнее и что верно в другом; одно изменение при переходе к сцене и что оно даёт зрителю; что остаётся неизвестным; в конце — вопрос, на который можно ответить по-разному. Без биографии автора.",
+      "context": "",
+      "hint": "Найди в своём тексте каждое утверждение о мотиве Элиаса: стоит ли рядом says, claims, may или опора на деталь?",
+      "answers": [
+        "Tonight we are discussing two versions of \"The Last Key,\" a story about who decides what happens to a collection of notebooks. A reading room is closing for good, and Mara comes to collect her mother's notebooks, as the donation agreement allows. Its keeper, Elias, delays, saying the collection must be checked first.\n\nTwo readers see this delay differently, and their readings are not equally strong. Reader A argues that Elias's care has become a way of keeping control. The text supports this: when Mara asks whether a check is in the agreement, his finger rests on no particular sentence, and he later admits that he feared becoming unnecessary. Reader B treats the delay as responsible caution. That concern is fair, since the notebooks could be damaged and Mara says little about supervision. But B's claim that the envelope must ask for Elias's continued involvement has no basis in the text.\n\nThe stage version changes what we know and when. Before Mara enters, we watch Elias pocket the fourth key, so we see his control instead of hearing him explain it. The play also adds a deadline: the neighborhood center needs confirmation by seven, which gives every minute of delay a cost.\n\nSome things stay hidden in both versions. We never learn what the envelope says, and neither ending confirms a reconciliation.\n\nSo here is our question: when Mara tells Elias that he can open the cupboard, is she offering him a role, or asking him to give one up?"
+      ],
+      "explanation": "Засчитывается, если есть все пункты списка, мнения сравнены по деталям, изменение сцены объяснено через то, что видит зритель, неизвестное названо, а мотивы Элиаса не выданы за факт. Можно поддержать и Reader B, если его чтение опирается на детали, а не на конверт.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый участник клуба пришёл за пять минут до встречи и ничего не читал. Объясни ему за 2–3 минуты. Что должно быть: ситуация и спор; два чтения и какое тебе кажется сильнее, с одной деталью; одно важное изменение на сцене; в конце — что ты упростил и какое различие сохранил. Запиши себя и проверь по записи, все ли пункты прозвучали.",
+      "context": "",
+      "hint": "Представь, что слушатель не знает ни одного имени. Кого и что нужно представить при первом упоминании?",
+      "answers": [
+        "Okay, quick version. A reading room is closing, and a woman called Mara comes to collect her mother's notebooks. The donation agreement says she can take them once the room closes for good. But the keeper, Elias, who tells the story, keeps delaying. He says the notebooks need to be checked and protected, and the key to their cupboard is in his pocket.\n\nOne reader thinks his care has turned into a way of keeping control. That's the stronger reading for me. When Mara asks whether the check is actually in the agreement, he can't point to a sentence, and later he admits he was afraid of becoming unnecessary. Another reader says he's just being careful. That's a fair concern, since the notebooks could get damaged. But that reader also claims to know what's in a letter that we never get to see.\n\nThe stage version changes one big thing. We watch Elias put the key in his pocket before Mara even walks in, so we see the control instead of hearing him explain it. There's also a new deadline: if Mara doesn't confirm by seven, she loses her table at the neighborhood center.\n\nI've simplified the timeline and left out a lot of small objects. What I tried to keep is the difference between evidence of control and proof that he's purely selfish. He may care about the notebooks and still be treating her unfairly."
+      ],
+      "explanation": "Засчитывается, если слушатель без текста понимает ситуацию, оба чтения переданы честно, выбор опирается на деталь, изменение сцены названо, а в конце сказано, что упрощено и какое различие сохранено. Оценивай по своей записи.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Редактор страницы клуба прислал черновик вступления. Это ошибочный текст, а не новый факт о сюжете. Перепиши его в верное вступление на 150–200 слов и добавь 2 предложения о главных правках. Проверь каждое утверждение по M1–M3. Черновик: The Last Key proves that its author regretted spending his life as a librarian. Elias is a perfectly reliable narrator because he finally admits a weakness. Mara can take the notebooks because relatives always own a dead person's writing, whatever a donation agreement says. Reader A and Reader B are equally convincing, since literature has no right answers. On stage, the envelope reveals that Mara's mother wanted Elias to keep supervising the collection, and his pause means he accepts her wishes. The deadline merely makes the scene faster; it changes nothing important. Both versions finish with the cupboard open and the family reconciled, teaching us that patient people are eventually rewarded.",
+      "context": "",
+      "hint": "Проверь черновик на трёх уровнях: откуда взят факт, насколько силён вывод и не стало ли частное условие договора общим правилом.",
+      "answers": [
+        "\"The Last Key\" is about a conflict between care and control as a reading room closes. Mara comes for her mother's notebooks under an agreement that lets her reclaim them once the closure is permanent. Elias, the keeper who narrates the story, delays, and his later admission that he feared becoming unnecessary complicates his protective explanation.\n\nThe two readers are not equally convincing. Reader A's view of care tangled with authority is better supported. Reader B raises a reasonable question about safe supervision, but cannot know what the envelope contains or whether the characters reconcile.\n\nThe stage version changes what the audience knows: we see Elias pocket the key and Mara open the envelope, without seeing its contents. A new deadline also gives the delay a real cost. Both versions end before we learn whether the handover is complete.\n\nMain corrections: I removed the invented biography and the general rule about ownership, and restored the agreement's actual condition. I also separated what we see from what we guess: an opened envelope does not reveal its contents, and neither ending confirms a reconciliation."
+      ],
+      "explanation": "Засчитывается, если убраны биография автора, «полностью надёжный рассказчик», общее правило о собственности, ложное равенство мнений, выдуманное содержание конверта и примирение, а срок назван как реальное изменение. Два предложения о правках должны называть, что и почему исправлено.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    }
+  ]
+}

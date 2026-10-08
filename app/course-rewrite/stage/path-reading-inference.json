@@ -1,0 +1,350 @@
+{
+  "id": "path-reading-inference",
+  "title": "Чтение: что сказано, что следует и чего в тексте нет",
+  "subtitle": "Факт → вывод → неизвестное → чужие слова → перескажи новость сам",
+  "level": "B1",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Пересказать текст и не выдать догадку за факт: «В тексте сказано, что…», «Из этого следует, что…», «Почему — в тексте не сказано».",
+  "formula": "The text says… → This suggests… → It doesn't say why…",
+  "keyRule": {
+    "rule": "Написано прямо — The text says. Понял по деталям — This suggests. Нет в тексте — It doesn't say.",
+    "example": "The text says Tom left at six. It doesn't say why. — В тексте сказано, что Том ушёл в шесть. Почему — не сказано.",
+    "check": "Можешь показать это место в тексте пальцем? Да — факт. Нет — вывод или неизвестное."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-deduction",
+    "path-reported-speech",
+    "path-polite-questions"
+  ],
+  "recycles": [
+    "path-deduction",
+    "path-reported-speech"
+  ],
+  "teaches": [
+    "три коробки при чтении: что сказано прямо, что следует из деталей, чего в тексте нет",
+    "факт: The text says (that)… / According to the text, …",
+    "вывод: This suggests (that)… — suggest здесь «наводит на мысль», а не «предлагает»",
+    "неизвестное: The text doesn't say why / where / whether… + обычный порядок слов",
+    "сила вывода: одна деталь — might, несколько в одну сторону — must или probably",
+    "чужие слова — не факт текста: The mayor said… / According to the mayor, …",
+    "«после» — ещё не «из-за»: порядок событий передаём как факт, причину — как вывод",
+    "слова: suggest, according to, detail, budget, petition, board"
+  ],
+  "sources": [
+    {
+      "title": "LibreTexts · Inferences (ESL Reading, Writing, Research and Reasoning)",
+      "url": "https://human.libretexts.org/Sandboxes/Team%3A_ESL_(OERI)/Reading_Writing_Research_and_Reasoning%3A_An_Advanced_ESL_Text_(remix_version)/01%3A_Critical_Reading/1.05%3A_Inferences",
+      "notes": "Сверено различие: факт написан в тексте, вывод собирается из двух и больше деталей, догадка без опоры — не вывод. Оттуда же совет проверять другие объяснения и не приписывать тексту причин, которых он не называет."
+    },
+    {
+      "title": "Dictionary.com · suggest",
+      "url": "https://www.dictionary.com/browse/suggest",
+      "notes": "Сверено значение «навести на мысль, не говоря прямо» (синонимы imply, indicate) рядом с привычным «предлагать». Отсюда фраза This suggests that… для вывода."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Один текст — три коробки",
+    "why": "Текст: “Mark is carrying an umbrella, and his shoes are wet.” Слева то, что написано, в середине то, что из этого следует, справа то, чего текст не говорит.",
+    "items": [
+      {
+        "label": "Сказано",
+        "en": "The text says his shoes are wet.",
+        "ru": "В тексте сказано, что у него мокрые ботинки.",
+        "note": "Это место можно показать пальцем."
+      },
+      {
+        "label": "Следует",
+        "en": "This suggests it might be raining.",
+        "ru": "Это наводит на мысль, что, возможно, идёт дождь.",
+        "note": "Две детали — зонт и мокрая обувь — указывают в одну сторону."
+      },
+      {
+        "label": "Не сказано",
+        "en": "It doesn't say where he was.",
+        "ru": "Где он был, не сказано.",
+        "note": "Пробел оставляем пробелом."
+      }
+    ],
+    "focus": [
+      "says",
+      "suggests",
+      "doesn't say"
+    ],
+    "footnote": "Перед каждой фразой пересказа спроси: в какую коробку она идёт?"
+  },
+  "sections": [
+    {
+      "title": "Что в тексте написано, а что ты додумал сам?",
+      "body": "Представь: подруга пишет тебе: “Anna checked her phone again and put on her coat.” Анна снова проверила телефон и надела пальто. Что ты знаешь точно? Только это: телефон и пальто.\n\nНо ты сразу думаешь: «Она уходит». Этого в тексте нет. Ты сложил две детали и сделал вывод. Вывод — не ошибка: без выводов текст не понять. Ошибка — пересказать вывод как факт.\n\nЕсть и то, о чём текст молчит: куда Анна идёт и почему. Это неизвестное. Его не заполняют догадкой.\n\nПолучается три коробки: что сказано прямо, что следует из деталей и чего в тексте нет. По-русски мы их тоже различаем: «в тексте сказано», «из этого можно понять», «об этом не сказано».\n\nКоробки нужны в любом пересказе: в письме коллеге, в ответе на экзамене, в разговоре о новости. Если их смешать, собеседник примет твою догадку за правду."
+    },
+    {
+      "title": "Три коробки — три готовые фразы",
+      "body": "Факт: The text says (that) Anna put on her coat — в тексте сказано, что Анна надела пальто. Можно и According to the text, … — «по тексту». Время берёшь из самого текста: put on так и остаётся put on.\n\nВывод: This suggests (that) she is leaving — это наводит на мысль, что она уходит. Suggest ты мог встречать как «предлагать». Здесь у него другое значение: «наводить на мысль». This — это те детали, на которые ты опираешься.\n\nНеизвестное: The text doesn't say where she is going — в тексте не сказано, куда она идёт. После where, why или whether порядок как в обычном предложении, как в вежливых вопросах: where she is going, а не where is she going."
+    },
+    {
+      "title": "Насколько ты уверен: might или must",
+      "body": "Вывод бывает слабым и сильным. Здесь работают must и might из урока о выводах.\n\nОдна деталь — might: She has a suitcase. She might be going on a trip — у неё чемодан, может быть, она уезжает. Но чемодан мог остаться и после поездки.\n\nНесколько деталей в одну сторону — must или probably: She has a suitcase, a passport and a ticket. She must be going on a trip.\n\nДаже с must это всё ещё вывод, а не факт. А если деталей нет совсем, не пиши ни might, ни must: скажи, что текст об этом молчит."
+    },
+    {
+      "title": "Чужие слова — ещё не факт",
+      "body": "Текст часто передаёт чьё-то мнение: The mayor said the new park was a success — мэр сказал, что новый парк — это успех. Факт здесь в том, что мэр так сказал. А успех ли это — его оценка.\n\nПри пересказе сохрани, чьи это слова: The mayor said… или According to the mayor, … — «по словам мэра». Если написать просто The park is a success, оценка мэра превратится в факт.\n\nПосле чужого мнения часто идёт However — «однако»: However, some neighbors disagree. Это знак, что дальше говорит другая сторона. Её тоже не теряй."
+    },
+    {
+      "title": "«После» — ещё не «из-за»",
+      "body": "Когда одно событие идёт за другим, хочется решить, что первое вызвало второе. Текст: The gym raised its prices in March. In April, fewer people came. Цены подняли, потом людей стало меньше. Из-за цен? Возможно. Но текст этого не говорит: может, в апреле просто потеплело.\n\nПорядок событий передай как факт: The text says fewer people came after the gym raised its prices. Причину — как вывод: This suggests the prices might be the reason. Причина становится фактом, только когда в тексте есть because, so или прямое объяснение."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The text says the café closed in March.",
+      "ru": "В тексте сказано, что кафе закрылось в марте.",
+      "why": "Факт: это место можно найти в тексте. Closed остаётся в прошедшем, как в самом тексте."
+    },
+    {
+      "en": "This suggests that business was slow.",
+      "ru": "Это наводит на мысль, что дела шли плохо.",
+      "why": "Вывод из деталей. Suggests честно показывает: так сказал не текст, так понял ты."
+    },
+    {
+      "en": "It doesn't say why the owner left.",
+      "ru": "Почему хозяин уехал, не сказано.",
+      "why": "После why — обычный порядок: the owner left, без did."
+    },
+    {
+      "en": "She has a suitcase. She might be going on a trip.",
+      "ru": "У неё чемодан. Может быть, она уезжает.",
+      "why": "Одна деталь — слабый вывод, поэтому might."
+    },
+    {
+      "en": "She has a suitcase, a passport and a ticket. She must be going on a trip.",
+      "ru": "У неё чемодан, паспорт и билет. Наверняка она уезжает.",
+      "why": "Сравни с фразой выше: деталей три, и все указывают в одну сторону, поэтому must."
+    },
+    {
+      "en": "According to the mayor, the new park is a success.",
+      "ru": "По словам мэра, новый парк — это успех.",
+      "why": "According to the mayor не даёт выдать оценку мэра за факт."
+    },
+    {
+      "en": "However, some neighbors disagree.",
+      "ru": "Однако некоторые соседи не согласны.",
+      "why": "However открывает другую сторону. В пересказе её нельзя потерять."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Новость: библиотека будет закрываться раньше",
+      "kind": "reading",
+      "text": "Maple Street Library Will Close Earlier\n\nStarting June 3, the Maple Street Library will close at 6 p.m. on weekdays instead of 8 p.m. Library director Sandra Lee said the change was “the best way to use our budget.” She also said the library would open an hour earlier on Saturdays, at 9 a.m.\n\nHowever, not everyone is happy about the new hours. Tom Garcia, a nurse who finishes work at 5:30 p.m., said he usually comes to the library in the evening. “Six o'clock doesn't give me much time,” he said. Last week, a group of parents started an online petition against the change. By Monday, it had 340 signatures.\n\nThe library board will discuss the new hours at its next meeting on June 12.",
+      "source": "Придумано для курса: библиотека и люди вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, когда закрылось кафе. Ответь по тексту: «В тексте сказано, что кафе закрылось 30 мая».",
+      "context": "Текст: “The Corner Café closed on May 30. The owner, Sam Diaz, moved to Texas.”",
+      "guidance": {
+        "title": "Факт: The text says…",
+        "body": "The text says ставят перед тем, что написано прямо. После says идёт обычное предложение, а время берёшь из текста: closed так и остаётся closed.",
+        "example": "The text says the store opened in 2019.",
+        "translation": "В тексте сказано, что магазин открылся в 2019 году."
+      },
+      "hint": "Найди в тексте дату. Начни так: The text says the café …",
+      "answers": [
+        "The text says the café closed on May 30.",
+        "The text says that the café closed on May 30.",
+        "The text says the cafe closed on May 30.",
+        "The text says that the cafe closed on May 30.",
+        "The text says it closed on May 30.",
+        "According to the text, the café closed on May 30.",
+        "According to the text, the cafe closed on May 30."
+      ],
+      "explanation": "Дата написана в тексте прямо, поэтому это факт. That после says можно ставить или пропускать. According to the text, … тоже подходит."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Перескажи, что ты понял из текста: «Это наводит на мысль, что она кого-то ждала».",
+      "context": "Текст: “Lena checked her watch three times and kept looking at the door.” kept looking — продолжала смотреть.",
+      "guidance": {
+        "title": "Вывод: This suggests…",
+        "body": "Вывод начинай с This suggests (that) — «это наводит на мысль». This — это детали текста: часы и дверь. Сам вывод — обычное предложение в нужном времени.",
+        "example": "His hands were shaking. This suggests that he was nervous.",
+        "translation": "У него дрожали руки. Это наводит на мысль, что он нервничал."
+      },
+      "hint": "Ждала в тот момент — was + -ing. Начни так: This suggests that she …",
+      "answers": [
+        "This suggests that she was waiting for someone.",
+        "This suggests she was waiting for someone.",
+        "This suggests that she was waiting for somebody.",
+        "This suggests she was waiting for somebody."
+      ],
+      "explanation": "Текст не говорит, что Лена кого-то ждала, но две детали — часы и дверь — указывают на это. Was waiting: процесс в тот момент. Someone и somebody одинаково верны."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг читает тот же текст про кафе и спрашивает: “Why did he move?” Ответь честно: «В тексте не сказано, почему он переехал».",
+      "context": "Текст тот же, что в первом задании: про кафе на углу.",
+      "guidance": {
+        "title": "Неизвестное: doesn't say why",
+        "body": "Если ответа в тексте нет, так и скажи: The text doesn't say… После why порядок как в обычном предложении: why he moved. Did из вопроса сюда не переходит.",
+        "example": "The text doesn't say where she works.",
+        "translation": "В тексте не сказано, где она работает."
+      },
+      "hint": "В вопросе друга есть did. В твоём ответе его нет. Начни так: The text doesn't say why …",
+      "answers": [
+        "The text doesn't say why he moved.",
+        "The text does not say why he moved.",
+        "It doesn't say why he moved.",
+        "The text doesn't tell us why he moved.",
+        "The text doesn't say why Sam Diaz moved.",
+        "The text doesn't say why he moved to Texas."
+      ],
+      "explanation": "Переезд — факт, а причина в тексте не названа. Why he moved — обычный порядок, как в вежливых вопросах. Why did he move внутри фразы — ошибка."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем must и might. В тексте одна деталь: “There's a suitcase by the door.” Друг пишет: “Mom must be going on a trip.” Перепиши его фразу осторожнее.",
+      "context": "suitcase — чемодан.",
+      "guidance": {
+        "title": "Вспоминаем: must или might",
+        "body": "Как в уроке о выводах: must — когда несколько деталей указывают в одну сторону. Might — когда деталь одна и есть другие объяснения.",
+        "example": "There's a ticket on his desk. He might be going to a concert.",
+        "translation": "У него на столе билет. Может быть, он идёт на концерт."
+      },
+      "hint": "Чемодан у двери может значить и другое: мама только вернулась. Какое слово оставляет место для других версий?",
+      "answers": [
+        "Mom might be going on a trip.",
+        "She might be going on a trip.",
+        "Mom may be going on a trip.",
+        "Mom could be going on a trip.",
+        "Maybe Mom is going on a trip.",
+        "Mom might be going on a trip, but she might also be back from one."
+      ],
+      "explanation": "Одной детали мало для must: чемодан могли и распаковывать. Might, may, could и maybe оставляют место для другой версии."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем косвенную речь. Подруга пересказывает текст так: “The bike lanes are a big success.” Но это слова мэра. Перескажи правильно одной фразой.",
+      "context": "Текст: “The mayor said the new bike lanes were a big success. However, many drivers complain about traffic.” bike lanes — велодорожки; complain — жаловаться.",
+      "guidance": {
+        "title": "Чужие слова — с именем",
+        "body": "Если оценка принадлежит человеку из текста, оставь его в пересказе: The mayor said… или According to the mayor, … После said время сдвигается назад, как в уроке о косвенной речи.",
+        "example": "According to the coach, the team played well.",
+        "translation": "По словам тренера, команда сыграла хорошо."
+      },
+      "hint": "Кто назвал велодорожки успехом? Начни так: The mayor said … или According to …",
+      "answers": [
+        "The mayor said the bike lanes were a big success.",
+        "The mayor said that the bike lanes were a big success.",
+        "The mayor said the new bike lanes were a big success.",
+        "The mayor said that the new bike lanes were a big success.",
+        "According to the mayor, the bike lanes are a big success.",
+        "According to the mayor, the new bike lanes are a big success."
+      ],
+      "explanation": "Факт в тексте — что мэр так сказал. Успех ли это, текст не утверждает: водители жалуются. Said + were — косвенная речь; с According to время не меняется: are."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пересказал текст так: “The text says people stopped coming because of the prices.” Перепиши честно в две фразы: что сказано и что из этого следует.",
+      "context": "Текст: “In March, the gym raised its prices. In April, fewer people came.” raised its prices — подняли цены.",
+      "guidance": {
+        "title": "После — ещё не из-за",
+        "body": "Одно событие после другого — это факт. Что первое стало причиной, — уже вывод. Первая фраза — The text says … after …, вторая — This suggests …",
+        "example": "The text says the team won after the new coach arrived. This suggests the coach helped.",
+        "translation": "В тексте сказано, что команда выиграла после прихода нового тренера. Это наводит на мысль, что тренер помог."
+      },
+      "hint": "Есть ли в тексте because? Нет — значит, причина не названа прямо.",
+      "answers": [
+        "The text says fewer people came after the gym raised its prices. This suggests the prices might be the reason.",
+        "The text says fewer people came after the gym raised its prices. This suggests that the higher prices were the reason.",
+        "The text says that fewer people came after the gym raised its prices. This suggests that the prices might be the reason.",
+        "The text says fewer people came in April, after the gym raised its prices. This suggests the prices might be the reason, but it doesn't say so."
+      ],
+      "explanation": "Порядок событий — факт: сначала цены, потом меньше людей. Причина — вывод, поэтому suggests и might. Писать because нельзя: в тексте причина не названа."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Перескажи текст тремя фразами: что сказано, что из этого следует и чего текст не говорит.",
+      "context": "Текст: “Ana is at the airport. She keeps looking at the arrivals board and holding a sign with a name on it.” arrivals board — табло прилёта; sign — табличка.",
+      "guidance": {
+        "title": "Все три коробки подряд",
+        "body": "Теперь все три шага сразу: факт с The text says, вывод с This suggests, пробел с It doesn't say. Одна фраза — одна коробка.",
+        "example": "The text says Ray is wearing a suit. This suggests he has a meeting. It doesn't say where.",
+        "translation": "В тексте сказано, что Рэй в костюме. Это наводит на мысль, что у него встреча. Где — не сказано."
+      },
+      "hint": "Для третьей фразы подойдёт who или whether: кого она встречает и прилетел ли этот человек?",
+      "answers": [
+        "The text says Ana is at the airport and is holding a sign with a name on it. This suggests she is meeting someone. It doesn't say who the person is.",
+        "The text says Ana is holding a sign with a name on it at the airport. This suggests she is waiting for someone. It doesn't say whether the person has landed."
+      ],
+      "explanation": "Засчитывается, если три фразы разложены по коробкам: аэропорт и табличка — факт, встреча — вывод, кто этот человек — неизвестно. Нельзя писать, что она встречает родственника: этого в тексте нет."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твоя подруга Ким работает до 5:30 и по вечерам ходит в библиотеку на Maple Street. Новость M1 она не читала. Напиши ей сообщение на 60–120 слов. Что должно быть: что меняется и с какого числа; что сказала директор и что это её мнение; кто с этим не согласен и что они сделали; что это может значить для Ким; чего новость не говорит.",
+      "context": "budget — бюджет; petition — петиция; signatures — подписи; board — совет библиотеки.",
+      "hint": "Для Ким — вывод с might. Для неизвестного — The article doesn't say whether …",
+      "answers": [
+        "Hi Kim! Did you see the news about the Maple Street Library? Starting June 3, it will close at 6 p.m. on weekdays instead of 8 p.m. The director, Sandra Lee, said it was the best way to use the budget, but that's her opinion. Not everyone agrees. A nurse who finishes work at 5:30 said six o'clock doesn't give him much time, and some parents started a petition. It already has 340 signatures, so a lot of people seem to care. Since you also finish at 5:30, you might only have half an hour there. The article doesn't say whether the board will change the hours. They'll discuss it on June 12."
+      ],
+      "explanation": "Засчитывается, если дата и время совпадают с M1, слова директора поданы как её мнение, вывод для Ким помечен might или suggests, а неизвестное — doesn't say whether. Нельзя писать, что бюджет урезали или что совет точно вернёт часы: в M1 этого нет.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Прочитай M1 ещё раз и закрой текст. Сосед спрашивает тебя: “What's going on with the library?” Ответь ему голосом за 30–60 секунд. Что должно быть: что меняется; чьи это слова — «лучший способ использовать бюджет»; кто против и что они сделали; один вывод с might или must; чего пока никто не знает.",
+      "context": "",
+      "hint": "Начни так: The library is going to close earlier. Starting June 3, …",
+      "answers": [
+        "The library is going to close earlier. Starting June 3, it will close at 6 p.m. on weekdays, not 8. The director said it was the best way to use the budget. But some people aren't happy. A nurse said six o'clock doesn't give him much time, and a group of parents started a petition. It has 340 signatures, so a lot of people must care about this. The board will talk about it on June 12, but we don't know whether they'll change anything."
+      ],
+      "explanation": "Засчитывается, если новость пересказана без текста перед глазами, слова директора остались её словами, вывод помечен might или must, а решение совета названо неизвестным. Расшифровка голоса покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Сосед выложил в чат дома свой пересказ M1. В нём три места, где догадка или чужое мнение поданы как факт. Перепиши пересказ честно: “The library is closing early because the city cut its budget. Closing at 6 p.m. is the best way to save money. The board will change the hours back on June 12.”",
+      "context": "cut its budget — урезал бюджет.",
+      "hint": "Про каждую фразу спроси: это есть в M1, это чьи-то слова или это додумал сосед?",
+      "answers": [
+        "Starting June 3, the library will close at 6 p.m. on weekdays. The director said it was the best way to use the budget, but the article doesn't say whether the city cut it. The board will discuss the hours on June 12, but the article doesn't say whether they will change them.",
+        "The library will close at 6 p.m. on weekdays starting June 3. According to the director, it's the best way to use the budget. The article doesn't say why the budget is a problem. The board will discuss the new hours on June 12, but we don't know what they will decide."
+      ],
+      "explanation": "Засчитывается, если исправлены три места: урезанный бюджет — догадка, «лучший способ» — слова директора, решение совета — неизвестно. В M1 сказано только, что совет обсудит часы 12 июня.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

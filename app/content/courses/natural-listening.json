@@ -7,7 +7,7 @@
     "group": "Естественное аудирование",
     "units": "Практика по официальной записи · авторские задания",
     "minutes": 25,
-    "goal": "Понять короткое знакомство двух настоящих голосов — имена, приветствия, имя по буквам и адрес — и так же познакомиться самому.",
+    "goal": "Понять короткое знакомство двух настоящих голосов — имена, приветствия и адрес — и так же познакомиться самому: «Привет! Ты Том? Я Макс. Приятно познакомиться».",
     "formula": "Hi! Are you Anna? → I'm Pete. → Is that A-N-A? → No. A-N-N-A.",
     "guided": true,
     "introSections": 2,
@@ -25,9 +25,9 @@
       "Hi! / Hi there! — привет; Nice to meet you — приятно познакомиться",
       "Are you Anna? — узнать, тот ли это человек; I’m Pete — представиться",
       "I am → I’m: в быстрой речи один слог",
-      "проверить написание: Is that A-N-A? — No. A-N-N-A; with two n’s — с двумя n",
+      "проверка имени в разговоре: Is that A-N-A? — No. A-N-N-A; with two n’s — с двумя n",
       "номер дома сотнями: 1400 — fourteen hundred",
-      "Welcome to … — добро пожаловать в …; my new apartment — моя новая квартира"
+      "Welcome to … — добро пожаловать в …; my new apartment — моя новая квартира; I’m new here — я тут новенький"
     ],
     "sources": [
       {
@@ -52,10 +52,10 @@
       "why": "В живой речи слова звучат не так, как выглядят на письме. Такие пары встретятся и в записи.",
       "items": [
         {
-          "label": "Буквы → имя",
-          "en": "E-M-M-A",
-          "ru": "Emma — две m",
-          "note": "Имя диктуют по буквам, чтобы его не пришлось угадывать."
+          "label": "Готовый блок → одно целое",
+          "en": "Nice to meet you.",
+          "ru": "Приятно познакомиться.",
+          "note": "Звучит слитно, как одно длинное слово, но to в нём есть."
         },
         {
           "label": "Сотни → номер дома",
@@ -71,6 +71,7 @@
         }
       ],
       "focus": [
+        "Nice to meet you",
         "hundred",
         "I'm"
       ]
@@ -82,11 +83,7 @@
       },
       {
         "title": "Какие фразы звучат при знакомстве",
-        "body": "Hi! и Hi there! — «Привет!». Are you Anna? — «Ты Анна?»: так проверяют, тот ли это человек. I’m Pete — «Я Пит». Nice to meet you — «Приятно познакомиться»: готовый блок, его говорят целиком. Welcome to … — «Добро пожаловать в …». Apartment — «квартира», new — «новый»."
-      },
-      {
-        "title": "Как проверяют имя по буквам",
-        "body": "Похожие на слух имена пишутся по-разному: Ana и Anna, Jon и John. Поэтому имя диктуют по буквам. Is that …? — «Это …?»: собеседник называет буквы так, как понял. В ответ No и правильные буквы — это поправка. With two n’s — «с двумя n». Буквы звучат по-английски: A — [эй], N — [эн]."
+        "body": "Hi! и Hi there! — «Привет!». Are you Anna? — «Ты Анна?»: так проверяют, тот ли это человек. I’m Pete — «Я Пит». Nice to meet you — «Приятно познакомиться»: готовый блок, его говорят целиком. Welcome to … — «Добро пожаловать в …». Apartment — «квартира», new — «новый».\n\nЕщё в записи Пит проверяет имя по буквам: Is that A-N-A? — «Это A-N-A?». Анна поправляет: No. A-N-N-A. With two n’s — «с двумя n». Названия букв ты знаешь из урока «По буквам и по цифрам»."
       },
       {
         "title": "Как звучит номер дома",
@@ -119,11 +116,6 @@
         "why": "Вопрос называет буквы так, как их поняли; No и новые буквы исправляют написание."
       },
       {
-        "en": "It's Matt, with two t's.",
-        "ru": "Меня зовут Мэтт, с двумя t.",
-        "why": "With two + буква уточняет двойную букву без диктовки всего имени."
-      },
-      {
         "en": "Welcome to my new apartment!",
         "ru": "Добро пожаловать в мою новую квартиру!",
         "why": "Welcome to + место. В my new apartment сначала «чья», потом «какая», потом сама вещь."
@@ -151,8 +143,8 @@
       {
         "id": "m3",
         "kind": "reference",
-        "title": "Новый самостоятельный случай",
-        "text": "Вымышленная новая ситуация: ты впервые встретил соседа. Твоё учебное имя Sam Lee; его имя на слух похоже на May. Не используй реальные личные данные. Сначала представься, затем проверь написание его имени."
+        "title": "Новый сосед",
+        "text": "Учебная ситуация: ты — Sam. В твой дом, 2300 Oak Street, переезжает новый сосед. Ты знаешь только его имя — Ben. Ты встречаешь его у двери, как Пит встречал Анну."
       }
     ],
     "exercises": [
@@ -225,14 +217,14 @@
       },
       {
         "id": "e4",
-        "revision": 3,
+        "revision": 4,
         "kind": "write",
         "practiceStage": "guided",
         "prompt": "Дальше Пит проверяет, как пишется имя Анны, а она его поправляет. Запиши вопрос Пита и ответ Анны; буквы — через дефис.",
         "context": "",
         "guidance": {
-          "title": "Вспоминаем: Is that …? — проверка написания",
-          "body": "Вспоминаем вопрос из урока про имена и числа: Is that …? — «Это …?». Пит называет буквы так, как понял имя. Если в ответ звучит No, дальше идут правильные буквы.",
+          "title": "Вспоминаем: Is that …? — проверка имени",
+          "body": "Is that …? — «Это …?»: Пит называет буквы так, как понял имя. Если в ответ звучит No, дальше идут правильные буквы.",
           "example": "Is that E-R-I-C? No. E-R-I-K.",
           "translation": "Это E-R-I-C? Нет, E-R-I-K."
         },
@@ -338,34 +330,34 @@
       },
       {
         "id": "e9",
-        "revision": 1,
+        "revision": 2,
         "kind": "speak",
         "practiceStage": "independent",
-        "prompt": "Открой M3. Ты — Sam Lee и впервые встречаешь соседа. Представься, продиктуй имя и фамилию по буквам, скажи «Приятно познакомиться» и проверь, как пишется имя соседа: на слух оно May.",
+        "prompt": "Открой M3. Ты встречаешь нового соседа у двери. Проверь, Бен ли это, представься, скажи «Приятно познакомиться» и поприветствуй его в доме: Welcome to … и адрес. Номер дома назови сотнями.",
         "context": "",
-        "hint": "Порядок: I’m … → буквы → Nice to meet you → Is that …?",
+        "hint": "Порядок: Are you …? → I’m … → Nice to meet you → Welcome to …",
         "answers": [
-          "Hi! I'm Sam Lee. S-A-M, L-E-E. Nice to meet you. Is that M-A-Y?",
-          "Hi there! I'm Sam Lee. That's S-A-M, L-E-E. Nice to meet you! May — is that M-A-Y?"
+          "Hi! Are you Ben? I'm Sam. Nice to meet you. Welcome to twenty-three hundred Oak Street!",
+          "Hi there! Are you Ben? I'm Sam. Nice to meet you! Welcome to 2300 Oak Street!"
         ],
-        "explanation": "Подойдут любые вежливые фразы, если буквы звучат по одной и есть вопрос о написании. Прослушай свою запись: ясно ли слышны S-A-M и L-E-E?",
+        "explanation": "Засчитывается, если есть Are you Ben?, I’m Sam, Nice to meet you и адрес сотнями: twenty-three hundred Oak Street. Послушай запись: звучит ли I’m одним слогом?",
         "materialIds": [
           "m3"
         ]
       },
       {
         "id": "e10",
-        "revision": 1,
+        "revision": 2,
         "kind": "write",
         "practiceStage": "independent",
-        "prompt": "Ты начинаешь работать в американской команде. Напиши первое сообщение в общий чат: поздоровайся, представься, продиктуй имя по буквам — как в загранпаспорте — и скажи «Приятно познакомиться».",
-        "context": "",
-        "hint": "Схема: Hi! I’m … . That’s … (буквы через дефис). Nice to meet you!",
+        "prompt": "Ты начинаешь работать в американской команде. Напиши первое сообщение в общий чат: поздоровайся, представься, скажи, что ты тут новенький, и «Приятно познакомиться».",
+        "context": "I’m new here — я тут новенький; everyone — все.",
+        "hint": "Схема: Hi! I’m … . I’m new here. Nice to meet you!",
         "answers": [
-          "Hi there! I'm Dmitry. That's D-M-I-T-R-Y. Nice to meet you!",
-          "Hi! I'm Olga, O-L-G-A. Nice to meet you!"
+          "Hi there! I'm Dmitry. I'm new here. Nice to meet you!",
+          "Hi, everyone! I'm Olga, and I'm new here. Nice to meet you!"
         ],
-        "explanation": "Русское имя латиницей пишут по-разному (Dmitry, Dmitri), поэтому буквы сразу снимают вопрос. Подойдут любое твоё имя и приветствие."
+        "explanation": "Засчитывается любое приветствие, если есть I’m + твоё имя, I’m new here и Nice to meet you. В чате пишут коротко: I’m, а не I am."
       },
       {
         "id": "e11",
@@ -385,42 +377,103 @@
         ]
       }
     ],
-    "generated": true
+    "generated": true,
+    "keyRule": {
+      "rule": "Слушай запись несколько раз. Каждый раз ищи что-то одно: имена, приветствие, адрес.",
+      "example": "Hi! Are you Anna? — I'm Pete. — Привет! Ты Анна? — Я Пит.",
+      "check": "I’m — это I am, сказанное одним слогом."
+    }
   },
   {
     "id": "natural-b2-leadership",
-    "title": "Когда всё работает: понять позицию в живом интервью",
-    "subtitle": "Настоящие голоса: сначала слушание, затем точечная сверка и самостоятельный ответ",
+    "title": "Когда всё работает: понять мнение в живом интервью NASA",
+    "subtitle": "Главное различие → оговорки гостя → «допустим» ведущей → зачем пример со спортом → сверка по расшифровке → своя ситуация",
     "level": "B2–C1",
     "group": "Естественное аудирование",
     "units": "Практика по официальной записи · авторские задания",
-    "minutes": 28,
-    "goal": "Понять позицию гостя, оговорку и роль примера в естественном американском интервью.",
-    "formula": "audio first → first answer → replay → transcript check → new response",
+    "minutes": 45,
+    "goal": "Понять на слух настоящий разговор из подкаста NASA: какое различие между управлением и лидерством предлагает гость, какие оговорки он делает («I don't mean it to be bad»), зачем ему пример с бейсбольной командой — и пересказать это коллеге своими словами.",
+    "formula": "In his view, management is… and leadership is… · He doesn't mean that… · The host asks him to imagine… · He uses the example to show that… · In our case, I'd suggest…",
+    "guided": true,
+    "introSections": 5,
+    "prerequisites": [
+      "extended-b2-interview",
+      "research-listening-decoding",
+      "path-critical-reading"
+    ],
+    "recycles": [
+      "extended-b2-interview",
+      "research-listening-decoding"
+    ],
+    "teaches": [
+      "слушать настоящую спонтанную речь: одна цель на прослушивание, потом сверка по официальной расшифровке",
+      "мнение, а не определение: In his view… / He sees management as… вместо Management is…",
+      "оговорки меняют смысл: Depending upon the time of day…, someone will probably argue with me, I don't mean it to be bad",
+      "слова-паузы и начатые заново фразы (you know, like, I think maybe) — не искать в них смысла, ждать следующей фразы",
+      "Let's say… в вопросе ведущей — сценарий «допустим», а не оценка работы",
+      "зачем пример: He uses the example to show that… — функция важнее подробностей о спорте",
+      "образ и его смысл: this dragon that needs to be slayed — к изменениям относятся как к врагу",
+      "слова: status quo — как есть сейчас; change agent — тот, кто ведёт изменения; coast — катиться по инерции; constrained — ограничены; assess — оценивать"
+    ],
+    "sources": [
+      {
+        "title": "NASA · Houston We Have a Podcast, Ep. 357: Leadership at All Levels",
+        "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
+        "notes": "Сверено на странице выпуска: 11 октября 2024, ведущая Leah Cheshier, гость Steve Koerner — заместитель директора Космического центра Джонсона. Отрывок о management и leadership, пример с Astros и кампания «Dare. Unite. Explore.» есть в официальной расшифровке в том же порядке."
+      },
+      {
+        "title": "VOA Learning English · How Do I Improve My Listening Skills? Part 2",
+        "url": "https://learningenglish.voanews.com/amp/how-do-i-improve-my-listening-skills-part-2-/5264093.html",
+        "notes": "Сверено: во время слушания следить за главными мыслями, после — оценить, что понял, и ответить на содержание своими словами. Отсюда порядок: без текста → ответ → повтор → расшифровка → своя речь."
+      }
+    ],
     "sections": [
       {
-        "title": "Слушай подготовленный отрывок",
-        "body": "В материале m1 уже находится оригинальная запись длиной 3:33. Нажми воспроизведение: искать начало в длинном выпуске не нужно, звук сохранён в приложении и работает без интернета. Сначала прочитай первое задание и слушай, оставив расшифровку закрытой. После собственной попытки и второго прослушивания открой m2 для точечной сверки. Внешняя ссылка ведёт к полному выпуску и нужна только при желании проверить первоисточник. Запись принадлежит NASA — Houston We Have a Podcast; задания, пояснения и вымышленные ситуации подготовлены для этого приложения и не являются рекомендациями NASA."
+        "title": "Что нового: настоящий разговор, а не учебная запись",
+        "body": "В M1 — настоящий отрывок из подкаста NASA, 3 минуты 33 секунды. Ведущая — Leah Cheshier, гость — Steve Koerner, заместитель директора Космического центра Джонсона в Хьюстоне. Тема — чем управление (management) отличается от лидерства (leadership).\n\nВ прошлом уроке интервью было написано для учёбы: фразы чёткие, мысли по порядку. Здесь человек думает вслух. Он начинает фразу, бросает её, вставляет оговорки, говорит you know и like. Это нормальная живая речь.\n\nПорядок тот же, что раньше: слушаешь без текста → отвечаешь → слушаешь кусок ещё раз → открываешь официальную расшифровку M2 → говоришь своими словами о новом случае. Расшифровка NASA немного сглаживает повторы, поэтому трудное место сверяй и по звуку."
       },
       {
-        "title": "Сохрани то, что услышал первым",
-        "body": "Сначала запиши короткий ответ по смыслу и одно сомнение, если оно было. После второго прохода уточни ответ другим цветом или отдельным предложением, сохранив первую версию. Теперь можно открыть расшифровку и проверить конкретный участок. Различай незнакомое слово, неузнанное знакомое сочетание и потерянную смысловую связь: этим трудностям нужны разные действия. Если звука нет или ты заранее прочитал весь участок, выполни задания как чтение и вернись к слушанию другой записи позже. Такая пометка сохраняет полезность результата."
+        "title": "Оговорки: это мнение, а не определение",
+        "body": "Когда человека спрашивают о сложной вещи, он часто начинает с оговорок. Depending on the day, I could answer this in different ways — «смотря по дню, я мог бы ответить по-разному». Someone will probably disagree with me — «кто-нибудь наверняка со мной поспорит». Так говорят: «это мой взгляд, не единственно верный».\n\nПоэтому в пересказе не пиши как определение из учебника: Management is… Пиши In his view… — «по его мнению» или He sees X as… — «он видит X как…».\n\nЕщё одна оговорка защищает от неверного вывода: I don't mean it's bad, but… — «я не говорю, что это плохо, но…». Её в пересказе не выбрасывай: без неё мысль звучит резче, чем сказал человек. В записи такие оговорки строятся на глаголах argue — «спорить, доказывать» и mean — «иметь в виду»."
       },
       {
-        "title": "Перенеси смысл в свою речь",
-        "body": "После сверки закрой расшифровку и создай ответ на новую ситуацию. Используй собственные формулировки и подходящий адресату объём. Короткая запись помогает проверить не только найденные слова, но и ясность подачи. На следующий день повтори выбранный участок без текста и сравни только реально изменившиеся места. Успех на знакомой записи ещё не показывает перенос на незнакомый голос, поэтому следующий модуль должен менять говорящего или задачу. Уровень этого практикума — редакционная ориентировка приложения, а не официальная маркировка самого подкаста."
+        "title": "Слова-паузы и начатые заново фразы",
+        "body": "You know, I think maybe, like, so — слова, которыми заполняют паузу, пока думают. Перевода у них нет, смысла в них не ищи. So, I think, you know, maybe the easiest way is, like, to start early — главное здесь только start early.\n\nБывает, что слово повторяется, потому что человек подбирает следующее: with, like, with a… Это не ошибка записи и не новая мысль.\n\nЕсли фраза потерялась, не останавливай запись: дождись следующей. Живая речь повторяет главное несколько раз разными словами. Две-три фразы подряд часто говорят одно и то же — услышишь хотя бы одну из них, и мысль понятна."
+      },
+      {
+        "title": "«Допустим…»: вопрос ведущей и ответ примером",
+        "body": "Let's say your team hits every goal this year — «допустим, команда выполнит все цели в этом году». Как Imagine в прошлом уроке, let's say вводит сценарий «а если». Это не оценка и не упрёк: ведущая просто ставит гостя в условную ситуацию. Пересказ: She asks him to imagine that…\n\nНа такой вопрос гость отвечает примером из бейсбола. Astros — бейсбольная команда Хьюстона, World Series — финал чемпионата по бейсболу. Пригодятся слова content — «довольный, успокоившийся», coast — «катиться по инерции», constrained — «ограниченный».\n\nВажны не подробности о бейсболе, а то, какую мысль пример подтверждает. Спроси себя: что было бы ошибкой у этой команды? Пересказ строй так: He uses the example to show that…"
+      },
+      {
+        "title": "Перенести мысль на свой случай — и не приписать её гостю",
+        "body": "В конце гость объясняет девиз своего центра «Dare. Unite. Explore.» — «Дерзай. Объединяйся. Исследуй». Слушай не перевод девиза, а то, как он сам его объясняет простыми словами.\n\nВ последних заданиях ты применишь мысль гостя к своей команде (M3). Отделяй два голоса. Его мысль: Koerner's point is that… / The interview suggests a reason to… Твоё решение: In our case, I'd suggest…\n\nГость говорит об NASA и ничего не советует твоей команде. Написать «NASA рекомендует перенести нашу встречу» — ошибка. Его мысль — повод подумать, а решение принимаешь ты."
       }
     ],
     "examples": [
       {
-        "en": "The old schedule worked, but the new building changes the journey.",
-        "ru": "Старое расписание работало, но новое здание меняет дорогу.",
-        "why": "Авторский пример сохраняет прошлый успех и новое условие."
+        "en": "In her view, a good teacher asks more than she tells.",
+        "ru": "По её мнению, хороший учитель больше спрашивает, чем рассказывает.",
+        "why": "In her view показывает, что это взгляд человека, а не словарное определение."
       },
       {
-        "en": "I would review the arrangement before replacing it.",
-        "ru": "Я бы сначала пересмотрел порядок, прежде чем заменять его.",
-        "why": "Авторское ограниченное предложение без обещания результата."
+        "en": "He doesn't mean that tests are useless.",
+        "ru": "Он не имеет в виду, что тесты бесполезны.",
+        "why": "Пересказ сохраняет оговорку I don't mean…, поэтому мысль не звучит резче, чем было."
+      },
+      {
+        "en": "The host asks her to imagine that the budget doubles.",
+        "ru": "Ведущий просит её представить, что бюджет вырастет вдвое.",
+        "why": "Let's say или imagine в вопросе — сценарий, а не новость."
+      },
+      {
+        "en": "She uses the story about her first job to show that mistakes can be useful.",
+        "ru": "Она рассказывает о первой работе, чтобы показать: ошибки бывают полезны.",
+        "why": "Пересказ называет, зачем нужен пример, а не только сам пример."
+      },
+      {
+        "en": "Our team meeting works fine now, but things are about to change.",
+        "ru": "Сейчас наша встреча команды проходит нормально, но скоро всё изменится.",
+        "why": "Мысль переносится на свой случай — твоими словами и без ссылки на NASA."
       }
     ],
     "materials": [
@@ -444,147 +497,320 @@
       },
       {
         "id": "m3",
-        "kind": "reference",
-        "title": "Новый самостоятельный случай",
-        "text": "Вымышленная ситуация: команда проводит короткую встречу по вторникам в 9:00. Сейчас все приходят вовремя. Со следующего месяца один участник будет работать в другом здании; точное время дороги неизвестно. Коллега предлагает сразу отменить все встречи. До следующей недели нужно выбрать первый шаг, но менять расписание без обсуждения ты не уполномочен."
+        "title": "Новый случай: сообщение коллеги / A message from Jordan",
+        "kind": "dialogue",
+        "source": "Авторский учебный материал; ситуация вымышленная и к NASA не относится",
+        "text": "Jordan: Quick question before Friday. Our Tuesday check-in at 9:00 a.m. works fine right now — everyone shows up on time, and it's short. But starting next month, Priya is moving to the North building, and nobody knows yet how long the walk will take. Mark says we should just cancel the meetings. I don't think either of us can change the schedule without asking the team. What would you suggest as a first step?"
       }
     ],
     "exercises": [
       {
         "id": "e1",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Прослушай выделенный фрагмент без текста. Дай одним-двумя английскими предложениями предварительный ответ: какое различие предлагает гость? Не перечисляй его карьеру и не переходи к следующей теме выпуска.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "guided",
+        "prompt": "Первое прослушивание. Прослушай M1 до вопроса ведущей Let's say…, расшифровку не открывай. Какое различие между management и leadership предлагает гость? Ответь 1–2 предложениями.",
+        "context": "management — управление; leadership — лидерство; status quo — как есть сейчас; change agent — тот, кто ведёт изменения.",
+        "guidance": {
+          "title": "Первый раз — только главное различие",
+          "body": "Не старайся понять каждое слово. Лови две вещи: что он говорит о management и что о leadership. Слово change прозвучит много раз — это подсказка.",
+          "example": "In her view, a coach plans the training, and a leader makes the team believe in it.",
+          "translation": "По её мнению, тренер планирует тренировки, а лидер заставляет команду в них поверить."
+        },
+        "hint": "Начни так: In his view, management is about… and leadership is about…",
+        "answers": [
+          "In his view, management is about keeping good processes running, the status quo, and leadership is about change: moving from where we are to where we need to be.",
+          "He sees management as managing the status quo and leadership as leading change."
+        ],
+        "explanation": "Засчитывается, если есть обе стороны: управление — поддерживать то, что есть; лидерство — изменения, движение «отсюда туда». In his view или He sees… лучше, чем Management is…: это его взгляд.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "He associates management with maintaining processes and leadership with guiding change."
-        ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Первый вопрос проверяет ось рассуждения. В кратком ответе нужен собственный пересказ, а не подбор всех красивых выражений. Не превращай удобное различие гостя в универсальное определение науки управления. Если не удалось удержать одну часть, обозначь сомнение и проверь её во втором проходе. Следующие биографические или мотивационные темы не относятся к выбранному отрезку, поэтому не должны заменять его основную мысль."
+        ]
       },
       {
         "id": "e2",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Прослушай начало ответа ещё раз. Какую чрезмерно отрицательную интерпретацию гость сам предотвращает? Напиши одно-два коротких английских предложения и укажи, услышал ли ты эту оговорку до текста.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "guided",
+        "prompt": "Прослушай начало ответа гостя ещё раз, текст закрыт. Он делает две оговорки, перед тем как назвать различие, и одну — сразу после. Назови их в 2–3 коротких предложениях: что каждая говорит о его ответе?",
+        "context": "argue — доказывать, спорить; mean — иметь в виду.",
+        "guidance": {
+          "title": "Оговорки — часть смысла",
+          "body": "Оговорка показывает, насколько человек уверен или от какого вывода он защищается. Слушай фразы с argue и mean — это они.",
+          "example": "I might be wrong, and some people won't agree, but I think the old plan was better.",
+          "translation": "Может, я ошибаюсь, и кто-то не согласится, но, по-моему, старый план был лучше."
+        },
+        "hint": "Первая начинается со слов Depending upon…, вторая — с someone will…, третья — с I don't mean…",
+        "answers": [
+          "He says he could argue it in different ways and that someone will probably argue with him, so it's his personal view, not a final definition. Then he says he doesn't mean that managing the status quo is bad.",
+          "First, he says the answer depends on the time of day, and second, that someone will probably disagree. So this is just how he sees it. After that, he says management isn't bad."
+        ],
+        "explanation": "Засчитывается, если первые две оговорки поняты как «это моё мнение, можно спорить», а третья — как защита от вывода «управлять плохо». Дословно повторять фразы гостя не нужно.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "He is not dismissing management as bad; he qualifies the contrast while emphasizing change."
-        ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Оговорка ограничивает возможное прочтение, а не обязательно отменяет тезис. Проверяй, как она связана с предшествующими словами и дальнейшим объяснением. Ответ не обязан воспроизводить английскую реплику дословно. Важнее сохранить степень противопоставления и отделить собственный первый результат от знания, полученного при сверке. Если услышана только отрицательная часть без её цели, вернись к началу соседней фразы и прослушай связный участок."
+        ]
       },
       {
         "id": "e3",
-        "kind": "write",
-        "prompt": "Прослушай вторую половину выбранного разговора. Зачем появляется спортивный пример и какой довод о будущем он поддерживает? Ответь одним-двумя английскими предложениями; не делай вывод о результатах самого NASA.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "revision": 1,
+        "kind": "translate",
+        "practiceStage": "guided",
+        "prompt": "Перескажи мысль гостя коллеге. Переведи: «По его мнению, управлять — это не плохо: это значит поддерживать то, что уже работает. А лидерство — это изменения».",
+        "context": "maintain — поддерживать.",
+        "guidance": {
+          "title": "Вспоминаем: чьи это слова",
+          "body": "Вспоминаем из прошлого урока: в пересказе всегда видно, чья мысль. In his view — «по его мнению» — ставит мнение гостя на его место и не выдаёт за правило.",
+          "example": "In her view, homework isn't useless: it just needs to be shorter.",
+          "translation": "По её мнению, домашка — не бесполезная вещь: просто её нужно делать короче."
+        },
+        "hint": "Начни так: In his view, management isn't…",
+        "answers": [
+          "In his view, management isn't bad: it means maintaining what already works. And leadership is about change.",
+          "In his view, managing isn't bad; it's keeping what already works going. Leadership is about change.",
+          "According to him, management isn't a bad thing: it means maintaining what already works. Leadership, on the other hand, is about change."
+        ],
+        "explanation": "In his view или According to him показывают, чья это мысль. Подойдут management и managing, maintaining и keeping … going.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "The example shows why previous success does not guarantee future success when conditions change. It supports continuing to reassess current practice."
-        ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Здесь проверяется функция примера. Название команды или соревнования без объяснения не отвечает на вопрос. Пример в интервью помогает понять ход мысли гостя, но не представляет исследование эффективности всей организации. Не добавляй текущие спортивные результаты и не проверяй их вместо слушания: задача относится к тому, какую связь устанавливает говорящий в выбранном разговоре. Причина пересмотра должна быть связана с меняющимся контекстом."
+        ]
       },
       {
         "id": "e4",
-        "kind": "speak",
-        "prompt": "После собственной попытки открой m2. Выбери 5–10 секунд внутри этого фрагмента, где повтор, сокращение или смена темпа мешали распознать знакомые слова. Сохрани свою первую запись и сверку; затем повтори вслух и передай мысль иначе. Если сбоя не было, выбери трудный участок без выдуманной ошибки.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
-        "materialIds": [
-          "m1",
-          "m2"
-        ],
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "guided",
+        "prompt": "Послушай вторую часть: вопрос ведущей, который начинается с Let's say… Какую ситуацию она просит представить и о чём спрашивает? 1–2 предложения.",
+        "context": "operate as intended — работать так, как задумано; smoothly — гладко.",
+        "guidance": {
+          "title": "Let's say — это «допустим»",
+          "body": "Let's say, imagine, suppose вводят сценарий «а если». Пересказывай его как просьбу представить: She asks him to imagine…, а не как факт или критику.",
+          "example": "Let's say you won a million dollars. → She asks him to imagine that he won a million dollars.",
+          "translation": "Допустим, ты выиграл миллион. → Она просит его представить, что он выиграл миллион."
+        },
+        "hint": "Начни так: She asks him to imagine that… Then she asks how…",
         "answers": [
-          "Допустимый результат: реальный участок записи, собственная первая версия, сверка и новый пересказ. Единого текста ответа здесь нет."
+          "She asks him to imagine that all processes are working as intended and everything looks smooth. Then she asks how you can keep improving in that situation.",
+          "The host asks him to imagine that everything is going smoothly, so you could just keep the status quo. She wants to know what else you can do to keep improving."
         ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Это персональная слуховая проверка, и заготовленный «идеальный» ответ сделал бы её бессмысленной. Нужна конкретная последовательность действий с записью: услышанный вариант, проверенные слова, причина расхождения и самостоятельный пересказ. Повторить ритм полезно, но повтор сам по себе не показывает понимание. В конце вырази ту же мысль другим предложением. Если загружена только расшифровка, можно проверить формулировку, но нельзя делать вывод о слышимом качестве повторения."
+        "explanation": "Засчитывается, если есть сценарий «всё работает как задумано» и вопрос «как улучшать дальше». Это не оценка NASA: гость сам вставляет, что NASA работает очень успешно.",
+        "materialIds": [
+          "m1"
+        ]
       },
       {
         "id": "e5",
+        "revision": 1,
         "kind": "write",
-        "prompt": "На следующий день открой m3. Напиши коллеге 60–90 английских слов: предложи один способ проверить необходимость изменения, сохранив то, что сейчас работает. Сначала кратко соотнеси предложение с прослушанной мыслью, затем объясни новую ситуацию своими словами. Не приписывай гостю рекомендацию о вашей вымышленной команде.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "guided",
+        "prompt": "Дослушай ответ гостя на этот вопрос, текст закрыт. Зачем ему пример с бейсбольной командой Astros? Ответь 1–2 предложениями. Подробности о бейсболе не нужны.",
+        "context": "World Series — финал чемпионата по бейсболу; content — довольный, успокоившийся; coast — катиться по инерции.",
+        "guidance": {
+          "title": "Не что в примере, а зачем он",
+          "body": "Пример подтверждает какую-то мысль. Ответ на это и есть мысль гостя.",
+          "example": "She tells a story about her first car to show that cheap things can cost more later.",
+          "translation": "Она рассказывает о своей первой машине, чтобы показать: дешёвые вещи потом могут обойтись дороже."
+        },
+        "hint": "Начни так: He uses the Astros example to show that…",
+        "answers": [
+          "He uses the Astros example to show that winning once doesn't mean you can keep doing the same thing, because the environment keeps changing. So you have to keep assessing how you work, even when everything looks smooth.",
+          "He uses it to show that past success doesn't guarantee future success. The world around you changes, so you can't just coast."
+        ],
+        "explanation": "Засчитывается, если сказано, что прошлая победа не гарантирует будущую, потому что всё вокруг меняется, и поэтому нельзя «катиться по инерции». Ответ «Astros выиграли World Series» не объясняет, зачем пример.",
+        "materialIds": [
+          "m1"
+        ]
+      },
+      {
+        "id": "e6",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "guided",
+        "prompt": "Теперь открой расшифровку M2. Найди фразу про дракона: we give change this identity of this dragon that needs to be slayed. Объясни своими словами, что гость имеет в виду (1–2 предложения).",
+        "context": "dragon — дракон; slay — убить (в сказке); identity — образ, роль.",
+        "guidance": {
+          "title": "Образ — перескажи его смысл",
+          "body": "Образ не переводят слово в слово. Спроси: как люди относятся к изменениям, если видят в них дракона? И что гость говорит сразу после этого?",
+          "example": "He calls the deadline a monster. → He means the deadline feels scary and too big.",
+          "translation": "Он называет срок монстром. → Он имеет в виду, что срок кажется страшным и слишком большим."
+        },
+        "hint": "Что гость говорит сразу после образа: But that's what we do as leaders…",
+        "answers": [
+          "He means that people often treat change like an enemy, something scary that has to be fought. But for him, change is just normal work for leaders.",
+          "He means we act as if change is a monster we have to fight. He thinks that's wrong, because leaders change things all the time."
+        ],
+        "explanation": "Засчитывается, если сказано, что к изменениям относятся как к врагу или чему-то страшному, а гость считает их обычной работой лидера. Сказку про драконов пересказывать не нужно.",
+        "materialIds": [
+          "m1",
+          "m2"
+        ]
+      },
+      {
+        "id": "e7",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "guided",
+        "prompt": "Сравни свой первый ответ (e1–e5) с расшифровкой M2. Выбери одно место, где ты что-то пропустил или понял не так. Напиши три предложения: что ты услышал, что в расшифровке, почему пропустил. Если ошибок не было — напиши, какое место ты проверил.",
+        "context": "",
+        "guidance": {
+          "title": "Вспоминаем: назвать причину пропуска",
+          "body": "Вспоминаем из урока «Не расслышал»: причина бывает одна из трёх — новое слово; знакомое слово звучит иначе; все слова понятны, но потерялась связь. В живой речи добавь четвёртую: начатая заново фраза.",
+          "example": "I heard \"the plan is fine.\" The transcript says \"the plan isn't fine.\" I missed the \"not\" because it was short and fast.",
+          "translation": "Я услышал «план нормальный». В расшифровке «план не нормальный». Я пропустил «не», потому что оно прозвучало коротко и быстро."
+        },
+        "hint": "Начни так: I heard… The transcript says… I missed it because…",
+        "answers": [
+          "I heard \"we give change this entity.\" The transcript says \"we give change this identity of this dragon.\" I missed it because \"identity\" was fast and I didn't expect a dragon in a talk about leadership.",
+          "I didn't make a mistake in the Astros part. I checked \"could be content to continue doing whatever they did,\" and my note was right: they could just keep doing the same thing."
+        ],
+        "explanation": "Засчитывается, если место настоящее, есть обе версии и названа одна из причин: новое слово, знакомое слово звучит иначе, потерянная связь, начатая заново фраза. Ошибку не выдумывай: «проверил — верно» тоже ответ.",
+        "materialIds": [
+          "m1",
+          "m2"
+        ]
+      },
+      {
+        "id": "e8",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "independent",
+        "prompt": "На следующий день послушай M1 ещё раз целиком, без расшифровки. Коллега, которая не слушала подкаст, спрашивает: What did the NASA guy say about leadership? Напиши ей 100–140 слов. Что должно быть: его различие и что это его мнение; оговорка про management; вопрос ведущей «допустим»; пример с командой и что он показывает; как он объясняет девиз «Dare. Unite. Explore.».",
+        "context": "",
+        "hint": "План: In his view… → He says management isn't bad… → The host asks him to imagine… → He uses… to show… → The motto means…",
+        "answers": [
+          "Hi Sara, the guest was Steve Koerner from NASA's Johnson Space Center. In his view, management means keeping good processes running, and leadership means change: moving from where you are to where you need to be. He says right away that he doesn't think management is bad. Then the host asks him to imagine that everything is working as intended and asks how you can still improve. He uses a baseball example: the Astros won the World Series, but they can't just keep doing the same thing, because everything around them changes. So you have to keep checking how you work, even when things go smoothly. He explains his center's motto, \"Dare. Unite. Explore.\", as doing things today so you can do tomorrow's mission well."
+        ],
+        "explanation": "Засчитывается, если есть все пять пунктов, мнение помечено как его, «допустим» не выдан за критику, а пример объяснён через его смысл. Нельзя добавлять того, чего в записи нет: например, что NASA что-то сделало плохо.",
+        "materialIds": [
+          "m1"
+        ]
+      },
+      {
+        "id": "e9",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "independent",
+        "prompt": "Открой M3. Ответь Джордану (100–150 слов). Что должно быть: одна фраза о мысли из интервью — как мысль гостя, а не совет NASA; что сейчас работает и что меняется; один первый шаг, который проверяет, нужно ли менять встречу; почему отменять всё сразу рано; что решение принимает команда.",
+        "context": "check-in — короткая встреча команды; North building — северный корпус.",
+        "hint": "План: Hi Jordan, → Koerner's point… → Right now… but… → I'd suggest first… → Then we can bring the options to the team.",
+        "answers": [
+          "Hi Jordan,\n\nI listened to a NASA podcast where the guest made a good point: when something works well today, you should still check whether it'll work tomorrow, because things around you change. That fits our case. The Tuesday check-in works fine now, but Priya's move to the North building might make 9:00 a.m. hard for her.\n\nI don't think we should cancel the meetings yet, because we don't know how long her walk will be. As a first step, I'd ask Priya to time the walk next week. Then we could compare two options: starting at 9:15 or letting her join by video.\n\nWe can't change the schedule ourselves, so I'd bring both options to the team on Tuesday.\n\nBest,\nChris"
+        ],
+        "explanation": "Засчитывается, если мысль гостя названа как его и не превращена в совет NASA вашей команде, первый шаг проверяет неизвестное (время дороги), а решение оставлено команде. Другой разумный шаг тоже подходит.",
         "materialIds": [
           "m3"
-        ],
+        ]
+      },
+      {
+        "id": "e10",
+        "revision": 1,
+        "kind": "speak",
+        "practiceStage": "independent",
+        "prompt": "На встрече команды тебя просят рассказать, что ты думаешь о различии из подкаста. Говори 1–2 минуты. Что должно быть: его различие (как его мнение); согласен ли ты и почему; один пример из твоей жизни или работы, где что-то работало, но пришлось меняться; одна оговорка, где различие, по-твоему, не работает.",
+        "context": "",
+        "hint": "Отдели голоса: Koerner says… / In my experience… / I'm not sure that… Запиши себя и проверь по расшифровке, слышно ли, где его мысль, а где твоя.",
         "answers": [
-          "The interview suggests a reason to review successful routines when circumstances change. In our case, Tuesday meetings currently work, but the new building may affect one person’s journey. I suggest asking about travel time before proposing a new schedule. We could then compare a later start with a remote connection. I cannot change the arrangement myself, so I would bring those options to the team rather than announce a cancellation."
+          "In the NASA podcast, Steve Koerner says that, in his view, management is about keeping good processes running, and leadership is about change. He also says management isn't bad. I mostly agree with him. In my experience, things that work well can quietly stop working. For example, at my last job, we used the same weekly report for three years. It was fine, but when the team grew, nobody read it anymore. Someone had to suggest a shorter version, and that was a small act of leadership. But I'm not sure the line between the two is always so clear. A good manager also notices when a process needs to change, so in real life, one person often does both."
         ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Новый пример должен показать самостоятельное применение идеи, а не копирование контекста интервью. Факты о переезде вымышлены и не относятся к NASA. Можно предложить другой ограниченный способ проверки, если он учитывает полезность нынешнего порядка и новое условие. В образце предложены проверка времени дороги и обсуждение вариантов; это самостоятельные действия новой вымышленной команды. Не обещай эффективность решения до проверки и не объявляй мнение гостя доказательством результата."
+        "explanation": "Засчитывается, если мысль гостя помечена как его, есть твоё мнение с причиной, пример из жизни и оговорка. Оценивай по своей расшифровке: слышно ли, где кончаются его слова и начинаются твои.",
+        "materialIds": [
+          "m1"
+        ]
       }
     ],
     "generated": true,
-    "provenance": {
-      "kind": "official-source-listening-fieldwork",
-      "reviewMethod": "agent-task-evidence-review",
-      "checkedAt": "2026-09-11",
-      "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/leadership-at-all-levels/",
-      "audioSourceUrl": "https://www.nasa.gov/wp-content/uploads/2024/10/ep357-leadership-at-all-levels.mp3",
-      "audioHeadStatus": 200,
-      "audioContentLength": 125459648,
-      "verified": "Official transcript excerpt and complete final audio clip aligned with all unchanged lesson tasks using two local ASR decoders. Exact source cuts and hashes recorded in assets/authentic-listening/sources.json. No claim of human listening or expert acoustic review.",
-      "rights": {
-        "credit": "NASA — Houston We Have a Podcast",
-        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "scope": "NASA's media guidelines permit educational/informational use of NASA audio with source credit and without endorsement; third-party material is excluded. This continuous spoken discussion excludes the episode's music stings. Source recording: NASA — Houston We Have a Podcast. Exercises and explanations: this application, not NASA. No NASA logos or publicity use."
-      },
-      "authorship": "Prompts, explanations, transfer scenarios and language examples authored for this application. The audio and explicitly labeled transcript excerpt are NASA source material; NASA did not author or endorse the exercises or AI explanations.",
-      "timings": "Original decoded MP3 14:07.8–17:40.6; 212.8 seconds. Exact frame cuts within pauses, checked against surrounding speech and final-clip recognition; not publisher-provided timestamps.",
-      "localAudioSha256": "5a91bf71f0ed5c16b887d7d17d5546025eb32ce9f73f3ed108b7abd0eacd054d",
-      "localTranscriptSHA256": "8b650a7e509104391d07ba214edcf5f1c68141ed8a7540952a785abd6127150d",
-      "sourceAccessRevision": 2,
-      "sourceAccessChange": {
-        "previousLessonSHA256": "e5c2a0d9a2da105f9a93803067a7acdfa4193890e2d6a03634eb3f7a24f2ead4",
-        "previousCourseFileSHA256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af",
-        "unchangedExercisesSHA256": "a8b41666e370f2893550e893c1d20622d31305faee5b6f935b4ab7923e8828ea",
-        "reason": "Replace manual external seeking with the same bounded source conversation and its official transcript, available locally. Exercises, IDs, answers, scenarios and their source meaning remain unchanged.",
-        "audioRegistry": "app/studio/assets/authentic-listening/sources.json"
-      }
+    "keyRule": {
+      "rule": "В живой речи главное часто идёт после оговорок. Дослушай I think, I don't mean…, you know.",
+      "example": "I don't mean it's bad, but it's not enough. — Я не говорю, что это плохо, но этого мало.",
+      "check": "Зачем гостю пример со спортом? Ответь одной фразой: He uses it to show that…"
     }
   },
   {
     "id": "natural-c1-teams",
-    "title": "Согласие, продуктивность и полезный спор: разные голоса",
-    "subtitle": "Настоящие голоса: сначала слушание, затем точечная сверка и самостоятельный ответ",
+    "title": "Счастливая команда и полезный спор: два голоса из подкаста NASA",
+    "subtitle": "Кто что получил → «полуправда» и обратная стрелка → два вида конфликта → чужая цитата → сверка по расшифровке → новый случай",
     "level": "C1–C2",
     "group": "Естественное аудирование",
     "units": "Практика по официальной записи · авторские задания",
-    "minutes": 32,
-    "goal": "Сопоставить ответы разных учёных, удержать причинную оговорку и различие видов конфликта в настоящем интервью.",
-    "formula": "audio first → first answer → replay → transcript check → new response",
+    "minutes": 50,
+    "goal": "Понять на слух настоящий разговор из подкаста NASA: почему оба гостя называют популярные утверждения «полуправдой» (half-truth), как Leslie DeChurch переворачивает связь «счастье → результат», какие два вида конфликта различает Noshir Contractor — и применить это к спору в своей команде, не выдав мнение гостей за доказательство.",
+    "formula": "She calls it a half-truth: … · The arrow goes the other way: … · It works both ways · He separates conflict about the work from personal conflict · He quotes X, who said that… · In our case, I'd suggest…",
+    "guided": true,
+    "introSections": 5,
+    "prerequisites": [
+      "natural-b2-leadership",
+      "path-discussion-b2",
+      "path-hedging",
+      "path-lecture-listening"
+    ],
+    "recycles": [
+      "natural-b2-leadership",
+      "research-listening-decoding",
+      "path-discussion-b2"
+    ],
+    "teaches": [
+      "half-truth / half-myth = «да, но…»; пересказ: She calls it a half-truth / She partly agrees, but…",
+      "стрелка причины: draw an arrow of causality; обратная связь A productive team is a happy team; reciprocal — взаимно, в обе стороны",
+      "осторожный совет сохраняется в пересказе: you maybe should start with performance first → She suggests that maybe…",
+      "два вида конфликта: about personalities ≠ about the process, the actual work; creative friction — полезный спор",
+      "второй гость продолжает первого: a happy team may not be very productive → Building on her answer, he adds that…",
+      "чужая цитата внутри ответа: He quotes Tom Williams, who said that…; manage, not reduce: recognize, nurture, minimize",
+      "живая речь: фраза обрывается и начинается заново; длинный список до But actually — жди поворота",
+      "слова: statement, productive, cohesion — сплочённость, performance — результат работы, reciprocal, constructive criticism, interpersonal"
+    ],
+    "sources": [
+      {
+        "title": "NASA · Houston We Have a Podcast, Ep. 175: The Science of Teams",
+        "url": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
+        "notes": "Сверено на странице выпуска: 11 декабря 2020, ведущий Gary Jordan; Leslie DeChurch и Noshir Contractor — профессора Northwestern University. В официальной расшифровке оба называют свои утверждения half-truth; DeChurch говорит о стрелке причины и взаимности, Contractor — о конфликте из-за личностей и о работе и цитирует Tom Williams: the goal is to manage conflict."
+      }
+    ],
     "sections": [
       {
-        "title": "Слушай подготовленный отрывок",
-        "body": "В материале m1 уже находится оригинальная запись длиной 2:51. Нажми воспроизведение: искать начало в длинном выпуске не нужно, звук сохранён в приложении и работает без интернета. Сначала прочитай первое задание и слушай, оставив расшифровку закрытой. После собственной попытки и второго прослушивания открой m2 для точечной сверки. Внешняя ссылка ведёт к полному выпуску и нужна только при желании проверить первоисточник. Запись принадлежит NASA — Houston We Have a Podcast; задания, пояснения и вымышленные ситуации подготовлены для этого приложения и не являются рекомендациями NASA."
+        "title": "Что нового: два гостя, два «мифа» и одна линия разговора",
+        "body": "В M1 — настоящий отрывок из подкаста NASA Houston We Have a Podcast, выпуск 175 «The Science of Teams» («Наука о командах»), 2 минуты 51 секунда. Ведущий Gary Jordan зачитывает гостям популярные утверждения о командах. Leslie DeChurch получает «A happy team is a productive team» — «счастливая команда — продуктивная команда». Noshir Contractor — «Team conflict is bad» — «конфликт в команде — это плохо». Оба — профессора Северо-Западного университета (Northwestern University), они изучают, как работают команды.\n\nПорядок работы ты знаешь по уроку с интервью NASA о лидерстве: без текста → ответ → повтор куска → расшифровка M2 → своя речь о новом случае M3.\n\nНовое здесь — два голоса. Важно не смешать, кто что сказал. А второй ответ ещё и продолжает первый: Contractor возвращается к «счастливой команде»."
       },
       {
-        "title": "Сохрани то, что услышал первым",
-        "body": "Сначала запиши короткий ответ по смыслу и одно сомнение, если оно было. После второго прохода уточни ответ другим цветом или отдельным предложением, сохранив первую версию. Теперь можно открыть расшифровку и проверить конкретный участок. Различай незнакомое слово, неузнанное знакомое сочетание и потерянную смысловую связь: этим трудностям нужны разные действия. Если звука нет или ты заранее прочитал весь участок, выполни задания как чтение и вернись к слушанию другой записи позже. Такая пометка сохраняет полезность результата."
+        "title": "Half-truth и обратная стрелка: ответ Leslie DeChurch",
+        "body": "Оба гостя начинают одинаково: I'm going to call that a half-truth — «я бы назвал это полуправдой». Это не отказ, а «да, но…»: часть утверждения верна, часть — нет. В пересказе не пиши She rejects the idea. Пиши She calls it a half-truth или She partly agrees, but…\n\nDeChurch меняет направление связи. If we're going to draw an arrow of causality — «если рисовать стрелку причины», — сильнее обратное: A productive team is a happy team, успех → счастье. Её довод: nothing builds cohesion in a team like excellence — «ничто так не сплачивает команду, как отличный результат».\n\nНо счастье у неё тоже влияет на работу: it's reciprocal — «это взаимно». И совет осторожный: you maybe should start with performance first — «может быть, начинать стоит с результата». В пересказе сохрани все три части: обратная стрелка, взаимность и maybe."
       },
       {
-        "title": "Перенеси смысл в свою речь",
-        "body": "После сверки закрой расшифровку и создай ответ на новую ситуацию. Используй собственные формулировки и подходящий адресату объём. Короткая запись помогает проверить не только найденные слова, но и ясность подачи. На следующий день повтори выбранный участок без текста и сравни только реально изменившиеся места. Успех на знакомой записи ещё не показывает перенос на незнакомый голос, поэтому следующий модуль должен менять говорящего или задачу. Уровень этого практикума — редакционная ориентировка приложения, а не официальная маркировка самого подкаста."
+        "title": "Мостик к первому ответу и два вида конфликта",
+        "body": "Contractor тоже называет своё утверждение полуправдой. Начинает он с мостика к первому ответу: a happy team may not be a very productive team — счастливая команда может работать слабо как раз потому, что в ней не спорят. Полезный спор он называет creative conflict или creative friction — «творческое трение».\n\nДальше он различает два вида конфликта. Conflict associated with personalities — спор переходит на личности. Conflict associated with the process, the actual work being done — спор о самой работе и об идеях. Второй, по его словам, обычно помогает: люди предлагают идеи и проверяют идеи друг друга (challenge one another's ideas). Первый вредит: when the conflict gets personal, things get really ugly — «когда спор становится личным, всё становится по-настоящему плохо».\n\nЗначит, его вывод — не «конфликт полезен», а «полезен спор о деле»."
+      },
+      {
+        "title": "Чужая цитата и живая речь",
+        "body": "В середине ответа Contractor цитирует третьего человека — Tom Williams, учёного NASA, который раньше был гостем подкаста: the goal is not to reduce conflict. The goal is to manage conflict — «цель — не уменьшить конфликт, а управлять им». В пересказе это слова Уильямса, а не Contractor: He quotes Tom Williams, who said that… Потом Contractor объясняет цитату тремя действиями: recognize — заметить конфликт, nurture — поддерживать спор, который ведёт к полезной критике (constructive criticism), minimize — уменьшать столкновения между людьми (interpersonal issues).\n\nРечь живая. Фраза and it is — and as Tom Williams… обрывается и начинается заново; et cetera — «и так далее»; you know — пауза. Ответ DeChurch начинается со списка (psychological safety, trust — психологическая безопасность, доверие), а главное приходит после But actually. Жди поворота с but, а не держи в голове каждый пункт списка."
+      },
+      {
+        "title": "Мысль гостей — повод подумать, а не доказательство про твою команду",
+        "body": "В M3 — новый вымышленный случай: волонтёры готовят выставку и спорят из-за таблицы расходов. Здесь пригодится различие Contractor. Вспоминаем урок «Спор без ссоры»: спорить с планом, а не с человеком. Теперь у этого правила есть основание из исследований команд.\n\nДержи два голоса раздельно. Мысль гостя: Contractor argues that… / In DeChurch's view… Твоё решение: In our case, I'd suggest…\n\nПредел переноса. Гости говорят о командах вообще. Они не знают вашу таблицу и не проверяли, верна ли сумма. Фраза «Учёные NASA доказали, что критика полезна» ошибочна дважды: гости — профессора университета, которых пригласил подкаст NASA, и они ничего не доказывали про вашу команду. А «конфликт бывает полезен» не разрешает личных выпадов."
       }
     ],
     "examples": [
       {
-        "en": "We can question the estimate without questioning her competence.",
-        "ru": "Мы можем проверить оценку, не ставя под сомнение её компетентность.",
-        "why": "Авторский пример различает предмет обсуждения и личный выпад."
+        "en": "She calls it a half-truth: she partly agrees, but she changes the direction.",
+        "ru": "Она называет это полуправдой: частично соглашается, но меняет направление.",
+        "why": "Half-truth пересказывают как частичное согласие, а не как отказ."
       },
       {
-        "en": "Could we check which figures led to the difference?",
-        "ru": "Можем проверить, какие цифры привели к расхождению?",
-        "why": "Авторская реплика возвращает спор к проверяемому предмету."
+        "en": "In her view, success makes a team happy, and it works both ways.",
+        "ru": "По её мнению, успех делает команду счастливой, и это работает в обе стороны.",
+        "why": "Обратная стрелка и взаимность (reciprocal) — обе части в одной фразе."
+      },
+      {
+        "en": "He separates arguments about the work from personal attacks.",
+        "ru": "Он отделяет споры о работе от личных выпадов.",
+        "why": "Главное различие второго ответа, своими словами."
+      },
+      {
+        "en": "The article quotes a nurse, who said that the night shift is the hardest.",
+        "ru": "В статье цитируют медсестру, которая сказала, что ночная смена — самая тяжёлая.",
+        "why": "Чужие слова внутри рассказа остаются за их автором: quoted X, who said that…"
+      },
+      {
+        "en": "Let's check the numbers Alex found, not the person who made the spreadsheet.",
+        "ru": "Давайте проверим цифры, которые нашёл Алекс, а не человека, который делал таблицу.",
+        "why": "Перенос на свой случай: спор о деле остаётся, выпад — нет."
       }
     ],
     "materials": [
@@ -608,112 +834,230 @@
       },
       {
         "id": "m3",
-        "kind": "reference",
-        "title": "Новый самостоятельный случай",
-        "text": "Вымышленная ситуация: три волонтёра планируют выставку. Alex заметил, что сумма в таблице не совпадает с итогом, и попросил проверить строки. Jordan сказал, что составитель таблицы всегда безнадёжен в математике. Координатор хочет запретить любые возражения, чтобы всем было комфортно. Правильность суммы пока не проверена. Нужно предложить следующую реплику, которая сохранит содержательную проверку и остановит личный выпад."
+        "kind": "dialogue",
+        "title": "Новый случай: сообщение в чате волонтёров / A message from Kim",
+        "source": "Авторский учебный материал; ситуация вымышленная и к NASA не относится",
+        "text": "Kim (volunteer coordinator), in the group chat:\n\nQuick update before Saturday's setup. Yesterday Alex noticed that the total in the budget spreadsheet doesn't match the receipts. He thinks two rows might be counted twice. Then Jordan wrote, \"Of course it's wrong. Tyler always messes up the math.\" Tyler hasn't said anything since. Nobody has checked the rows yet.\n\nHonestly, I just want everyone to be happy. So from now on, let's have no more criticism in this chat. If something looks wrong, just let it go. We're volunteers, not accountants!\n\nWhat do you all think?"
       }
     ],
     "exercises": [
       {
         "id": "e1",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Прослушай оба ответа без текста. В двух-трёх английских предложениях раздели голоса: кто обсуждает счастье и продуктивность, а кто — конфликт? Обозначь общий характер их реакции: полное согласие, полный отказ или уточнение.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "guided",
+        "prompt": "Первое прослушивание. Прослушай M1 целиком, расшифровку не открывай. Кому ведущий зачитывает какое утверждение и как каждый гость к нему относится: согласен, не согласен или «да, но»? Ответь 2–3 предложениями.",
+        "context": "statement — утверждение; productive — продуктивный, дающий результат; half-truth — полуправда.",
+        "guidance": {
+          "title": "Первый раз — кто, какое утверждение и какой ответ",
+          "body": "Подробности не лови. Запиши два имени, два утверждения и первую оценку после каждого. Ведущий называет гостя по имени прямо перед утверждением — это подсказка.",
+          "example": "The host reads \"Homework is useless\" to Ana. She calls it partly true.",
+          "translation": "Ведущий зачитывает Ане «Домашние задания бесполезны». Она называет это отчасти правдой."
+        },
+        "hint": "Начни так: The host reads \"A happy team…\" to… Then he reads…",
+        "answers": [
+          "The host reads \"A happy team is a productive team\" to Leslie DeChurch and \"Team conflict is bad\" to Noshir Contractor. Both call their statements half-truths: they partly agree, but they change them.",
+          "Leslie gets the statement about happy teams, and Noshir gets the one about conflict. Neither of them simply agrees or disagrees; each calls it a half-truth."
+        ],
+        "explanation": "Засчитывается, если утверждения не перепутаны и ответ обоих — «полуправда», а не согласие или отказ. Если имена не удержались, пиши «первая гостья» и «второй гость», а при сверке проверь по M2.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "Leslie qualifies the link between happiness and productivity. Noshir distinguishes kinds of conflict. Both refine the claims rather than simply accepting or rejecting them."
-        ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "В разговоре нескольких людей важно сохранить авторство. Совпадение общего тона не означает совпадение предмета ответа. В первой попытке достаточно развести два вопроса и характер реакции; подробные причинные отношения проверяются дальше. Если имена пока не удержались, обозначь первый и второй ответ, затем сопоставь их с расшифровкой. Не приписывай обоим участникам одну недифференцированную позицию только потому, что они отвечают на похожие по форме тезисы."
+        ]
       },
       {
         "id": "e2",
+        "revision": 1,
         "kind": "write",
-        "prompt": "При повторном прослушивании ответа Leslie объясни одним-двумя английскими предложениями, как она уточняет направление связи. Почему вариант с единственной простой причиной был бы слишком сильным?",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "guided",
+        "prompt": "Прослушай ответ Leslie DeChurch ещё раз, текст закрыт. Как она меняет утверждение? Ответь 2–3 предложениями и не потеряй её оговорки: что связь взаимна и что совет она даёт осторожно.",
+        "context": "arrow of causality — стрелка причины; reciprocal — взаимный; cohesion — сплочённость; performance — результат работы.",
+        "guidance": {
+          "title": "Вспоминаем: оговорку не выбрасывай",
+          "body": "Вспоминаем урок с интервью о лидерстве: без оговорки мысль в пересказе звучит резче, чем у человека. Здесь их две: it's reciprocal и maybe. Слушай, что идёт после But actually.",
+          "example": "In his view, practice builds confidence, though it works both ways, so maybe start with small tasks.",
+          "translation": "По его мнению, практика даёт уверенность, хотя это работает в обе стороны, так что, может быть, стоит начать с маленьких задач."
+        },
+        "hint": "Начни так: She says the arrow is stronger the other way:…",
+        "answers": [
+          "She says the arrow is stronger the other way: a productive team is a happy team, because success builds cohesion. But she adds that it's reciprocal, so happiness matters too. She suggests that maybe teams should start with performance.",
+          "In her view, success makes teams happy more than happiness makes them successful, although the relationship works both ways. So she thinks you maybe should start with performance first."
+        ],
+        "explanation": "Засчитывается, если есть три части: обратная стрелка (успех → счастье), взаимность и осторожный совет с maybe или suggests. «Счастье не важно» — ошибка: этого она не говорила.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "She stresses that successful performance can support cohesion while acknowledging a reciprocal relationship, so a one-way causal slogan would oversimplify her answer."
-        ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Нужны и направление, которому уделено внимание, и оговорка о взаимности. Слуховая задача состоит в удержании обеих частей одного ответа. Не превращай формулировку участницы в доказательство, что одна переменная всегда единолично вызывает другую. Собственная перифраза может быть проще, чем исходная речь, если она сохраняет это отношение. При сверке отметь, в каком месте первая запись стала слишком категоричной, либо честно укажи, что оговорка была услышана сразу."
+        ]
       },
       {
         "id": "e3",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Прослушай ответ Noshir. Какие два вида разногласий нужно различать и какое действие он предлагает вместо механического устранения всех споров? Ответь одним-двумя английскими предложениями. Не выводи из этого разрешение на любое грубое поведение.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "guided",
+        "prompt": "Прослушай ответ Noshir Contractor, текст закрыт. Какие два вида конфликта он различает и какой из них, по его словам, помогает команде? 2 предложения.",
+        "context": "personality — личность; process — процесс работы; ugly — безобразный, очень плохой.",
+        "guidance": {
+          "title": "Лови «различие между X и Y»",
+          "body": "Различие он объявляет фразой there is a distinction between… and… — «есть различие между… и…». Запиши обе половины, потом жди, о какой он скажет «помогает», а о какой — «плохо».",
+          "example": "There's a difference between being tired and being bored: rest helps only with the first.",
+          "translation": "Есть разница между усталостью и скукой: отдых помогает только от первой."
+        },
+        "hint": "Начни так: He separates conflict about… from conflict about…",
+        "answers": [
+          "He separates conflict about personalities from conflict about the process, the actual work. Arguing about ideas and challenging each other's ideas usually helps the team, but personal conflict makes things ugly.",
+          "He distinguishes personal conflict from conflict about the work itself. In his view, disagreement about ideas is helpful, and it's personal conflict that hurts the team."
+        ],
+        "explanation": "Засчитывается, если названы оба вида и сказано, что полезен спор о работе и идеях, а вредит личный. Ответ «он считает конфликт полезным» теряет главное ограничение.",
         "materialIds": [
           "m1"
-        ],
-        "answers": [
-          "He distinguishes challenges to ideas or work from personal conflict. The aim is to manage disagreement constructively while limiting damaging interpersonal conflict."
-        ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Различие проходит не между приятным и неприятным тоном само по себе. Важно, на что направлено разногласие и что оно делает с общей работой. Ответ, в котором остаётся лишь мысль «конфликт полезен», теряет существенное ограничение источника. Можно использовать другой естественный словарь, если предметная критика и личная враждебность не смешаны. Не приписывай говорящему универсальное одобрение любого спора или гарантию продуктивности конкретной команды."
+        ]
       },
       {
         "id": "e4",
+        "revision": 1,
         "kind": "write",
-        "prompt": "Открой m2 после первых ответов. Выбери один реальный момент, где смена говорящего, вводная оговорка или незавершённое построение повлияли на твоё понимание. Запиши первую интерпретацию, результат сверки и одну короткую исправленную английскую фразу. Если смысл был понятен, объясни конкретную опору, а не придумывай сбой.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
-        "materialIds": [
-          "m1",
-          "m2"
-        ],
+        "practiceStage": "guided",
+        "prompt": "Как ответ Noshir Contractor связан с ответом Leslie DeChurch? Послушай начало его ответа ещё раз и объясни 1–2 предложениями, что он говорит о «счастливой команде» и почему.",
+        "context": "creative friction — «творческое трение», полезный спор; engage in — участвовать.",
+        "guidance": {
+          "title": "Второй гость продолжает первого",
+          "body": "В разговоре двух людей второй часто возвращается к мысли первого. Найди это место и скажи, что он добавляет: соглашается, спорит или даёт новую причину.",
+          "example": "Building on what Ana said, Sam adds that a quiet class isn't always a class that learns.",
+          "translation": "Развивая мысль Аны, Сэм добавляет, что тихий класс — не всегда класс, который учится."
+        },
+        "hint": "Он говорит: a happy team may not be… exactly because…",
         "answers": [
-          "Ответ индивидуален: нужен конкретный участок и доказуемое изменение или подтверждение собственного понимания; готовую ошибку копировать не следует."
+          "He says that a happy team may not be very productive, exactly because it avoids creative conflict. So he adds a new reason to doubt the first statement.",
+          "Building on Leslie's answer, he says that a happy team might not be productive if people don't challenge each other's ideas."
         ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Цель — наблюдаемая работа со звуком и собственным выводом. Не оценивай акцент человека как правильный или неправильный: опиши, какое слово, переход или отношение потребовало внимания. Проверенный текст помогает установить содержание, но он может сглаживать особенности живой речи. Поэтому сравни его с повторным прослушиванием небольшого участка. Отсутствие затруднения допустимо; тогда покажи точный сигнал, по которому ты разделил позицию, оговорку или голос."
+        "explanation": "Засчитывается, если сказано, что счастливая команда может работать слабо, потому что в ней нет полезного спора. May not или might not оставь: он говорит «может», а не «всегда».",
+        "materialIds": [
+          "m1"
+        ]
       },
       {
         "id": "e5",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "guided",
+        "prompt": "Чьи это слова: the goal is not to reduce conflict. The goal is to manage conflict? Перескажи их с правильным автором и назови три действия, которыми Noshir Contractor объясняет эту мысль. 2–3 предложения.",
+        "context": "recognize — заметить, признать; nurture — растить, поддерживать; minimize — свести к минимуму; interpersonal — между людьми.",
+        "guidance": {
+          "title": "Цитата внутри ответа — за её автором",
+          "body": "As X has said — сигнал чужих слов. В пересказе назови обоих: кто цитирует и кого. Действия после цитаты — уже объяснение самого Contractor.",
+          "example": "She quotes her first coach, who said that the goal isn't to win every game but to learn from each one.",
+          "translation": "Она цитирует своего первого тренера, который говорил, что цель — не выиграть каждую игру, а учиться на каждой."
+        },
+        "hint": "Начни так: He quotes Tom Williams, who…",
+        "answers": [
+          "He quotes Tom Williams, a NASA scientist, who said that the goal is to manage conflict, not to reduce it. Then he explains what that means: recognize conflict, nurture the kind that leads to constructive criticism, and minimize personal conflict.",
+          "Noshir quotes Tom Williams, who has said that the goal is not to reduce conflict but to manage it. According to Noshir, you recognize the conflict, support useful criticism, and work to reduce interpersonal problems."
+        ],
+        "explanation": "Засчитывается, если цитата приписана Тому Уильямсу, а три действия — Contractor: заметить, поддерживать полезный спор, уменьшать личный. Who said и who has said — оба верны.",
+        "materialIds": [
+          "m1"
+        ]
+      },
+      {
+        "id": "e6",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "guided",
+        "prompt": "Теперь открой расшифровку M2. Сравни её со своими ответами e1–e5 и выбери одно место, где ты что-то пропустил или понял не так. Напиши три предложения: что ты услышал, что в расшифровке, почему пропустил. Если ошибок не было — какое место ты проверил и по какому сигналу понял его сразу.",
+        "context": "",
+        "guidance": {
+          "title": "Вспоминаем: назвать причину пропуска",
+          "body": "Вспоминаем урок «Не расслышал»: новое слово, знакомое слово звучит иначе или потерялась связь. Здесь добавь две причины живой речи: фраза оборвалась и началась заново; внутри ответа зазвучали чужие слова.",
+          "example": "I heard \"we can't start.\" The transcript says \"we can start.\" I missed it because \"can\" was short and fast.",
+          "translation": "Я услышал «мы не можем начать». В расшифровке «мы можем начать». Я ошибся, потому что can прозвучало коротко и быстро."
+        },
+        "hint": "Начни так: I heard… The transcript says… I missed it because…",
+        "answers": [
+          "I heard \"a half-truth or a half-mess.\" The transcript says \"a half-myth.\" I didn't expect that word here, so I guessed a word with a similar sound.",
+          "I didn't miss the Tom Williams part. I checked \"as Tom Williams… has said,\" and my note was right: I knew it was a quote because of \"as\" and the name before the words."
+        ],
+        "explanation": "Засчитывается, если место настоящее, есть обе версии и названа причина. Ошибку не выдумывай: «проверил — верно» с названным сигналом тоже ответ.",
+        "materialIds": [
+          "m1",
+          "m2"
+        ]
+      },
+      {
+        "id": "e7",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "guided",
+        "prompt": "Открой M3. В сообщении Ким три поступка: Алекс заметил расхождение, Джордан написал о Тайлере, Ким предлагает запретить критику. Для каждого одним предложением: это спор о работе, личный выпад или попытка убрать спор совсем?",
+        "context": "receipts — чеки; mess up — напортачить; let it go — не обращать внимания.",
+        "guidance": {
+          "title": "Вспоминаем: спорить с планом, а не с человеком",
+          "body": "Вспоминаем урок «Спор без ссоры». Спрашивай о каждой реплике: о чём она — о цифрах и работе или о человеке? Помогает ли она найти ошибку?",
+          "example": "\"The dates on the poster are wrong\" is about the work. \"You never check anything\" is about the person.",
+          "translation": "«Даты на плакате неверные» — о работе. «Ты никогда ничего не проверяешь» — о человеке."
+        },
+        "hint": "Начни так: Alex's message is about the work, because…",
+        "answers": [
+          "Alex's message is about the work: he points to a possible mistake in two rows. Jordan's comment is a personal attack, because it's about Tyler, not about the numbers. Kim wants to remove disagreement completely, so nobody would check the mistake.",
+          "Alex disagrees about the process, which can help. Jordan makes it personal. Kim's rule would stop the useful kind of conflict along with the harmful kind."
+        ],
+        "explanation": "Засчитывается, если Алекс — спор о работе, Джордан — личный выпад, а правило Ким убирает и полезный спор. Сумму пока никто не проверил: не пиши, что Алекс прав.",
+        "materialIds": [
+          "m3"
+        ]
+      },
+      {
+        "id": "e8",
+        "revision": 1,
+        "kind": "write",
+        "practiceStage": "independent",
+        "prompt": "На следующий день послушай M1 ещё раз целиком, без расшифровки. Коллега, которая подкаст не слушала, пишет: What did those NASA podcast guests say about happy teams and conflict? Ответь ей (150–200 слов). Что должно быть: кто гости и какие два утверждения они получили; что оба называют их полуправдой; как DeChurch переворачивает стрелку, что связь взаимна и какой у неё осторожный совет; два вида конфликта у Contractor и какой из них полезен; цитата Тома Уильямса с правильным автором; одна фраза о том, чего интервью не говорит.",
+        "context": "",
+        "hint": "План: The host read… → Both called them half-truths → In DeChurch's view… → Contractor separates… → He quotes… → They don't say…",
+        "answers": [
+          "Hi Maya,\n\nThe host read two popular statements to two researchers from Northwestern University. Leslie DeChurch got \"A happy team is a productive team,\" and Noshir Contractor got \"Team conflict is bad.\" Both called their statements half-truths.\n\nIn DeChurch's view, the arrow mostly goes the other way: a productive team is a happy team, because nothing brings a team together like success. But she says the relationship works both ways, so happiness matters too. Her advice is careful: maybe start with performance.\n\nContractor says a happy team might not be productive if people avoid useful disagreement. He separates personal conflict from conflict about the work and ideas. Arguing about ideas usually helps; personal conflict makes things ugly. He quotes Tom Williams, a NASA scientist, who said that the goal is to manage conflict, not to reduce it.\n\nThey're talking about teams in general, so this doesn't tell us what's going on in any particular team, including ours.\n\nBest,\nChris"
+        ],
+        "explanation": "Засчитывается, если утверждения не перепутаны, обе оговорки DeChurch сохранены, полезным назван спор о работе, а не любой конфликт, цитата приписана Уильямсу, а мнения помечены как мнения (In her view, he says). «NASA доказало» — ошибка.",
+        "materialIds": [
+          "m1"
+        ]
+      },
+      {
+        "id": "e9",
+        "revision": 1,
         "kind": "speak",
-        "prompt": "На следующий день сначала снова прослушай выбранный участок без текста, затем открой только m3. Объясни координатору за 60–90 секунд, 100–140 английских слов, как различить полезный спор и личный выпад в новом случае. Предложи конкретную следующую реплику. Мнение учёных атрибутируй, но не называй его доказательством успешности вашей команды.",
-        "context": "Сначала собственная попытка по исходной записи, затем расшифровка и образец. Если использован только текст, явно назови попытку чтением. Не придумывай личный результат слуховой проверки.",
+        "practiceStage": "independent",
+        "prompt": "Завтра встреча волонтёров. Ответь Ким из M3 вслух, 2–3 минуты. Что должно быть: что ты понимаешь её цель — чтобы всем было хорошо; почему запрет критики — плохая идея, с опорой на мысль гостей подкаста (как их мнение, не как доказательство про вашу команду); чем сообщение Алекса отличается от фразы Джордана; правило для чата вместо запрета; конкретный следующий шаг с таблицей — кто и когда проверит строки; в конце — вопрос, который оставляет место для возражений.",
+        "context": "",
+        "hint": "Отдели голоса: Contractor argues… / In our case, I'd suggest… Запиши себя и проверь, слышно ли, где мысль гостя, а где твоя.",
+        "answers": [
+          "Kim, I understand why you want everyone to be happy, and I want that too. But I don't think banning criticism will get us there. I listened to a NASA podcast about teams, and two researchers made a point that fits our situation. Noshir Contractor separates arguments about the work from personal attacks. In his view, arguing about ideas usually helps a team, and it's personal conflict that does the damage. Leslie DeChurch even argues that success makes a team happy, maybe more than the other way around. They're talking about teams in general, not about us, but I think the idea is useful.\n\nLook at what happened. Alex noticed that the total doesn't match the receipts. That's about the work, and it's a fair question. We don't know yet if he's right. Jordan's comment was different: it was about Tyler, not about the numbers. That's the part we need to stop.\n\nSo instead of \"no criticism,\" I'd suggest a simple rule for the chat: talk about the work, not the person. If something looks wrong, say what and where, like Alex did.\n\nFor Saturday, here's my suggestion. Alex and Tyler could check the two rows together tomorrow, since Tyler knows the spreadsheet best. If the total is wrong, we fix it before setup. If it's right, great, now we know for sure. Either way, nobody should be afraid to point out a problem. Does that sound OK to everyone, or is there something I'm missing?"
+        ],
+        "explanation": "Засчитывается, если мысль гостей помечена как их и не выдана за доказательство, сообщение Алекса и фраза Джордана разведены, вместо запрета есть правило, а следующий шаг называет, кто и когда проверит строки. Оценивай по своей расшифровке: слышно ли, где кончается мысль гостя и начинается твоя.",
         "materialIds": [
           "m1",
           "m3"
-        ],
+        ]
+      },
+      {
+        "id": "e10",
+        "revision": 1,
+        "kind": "rewrite",
+        "practiceStage": "independent",
+        "prompt": "Ким прислала черновик письма всем волонтёрам и просит его поправить. Перепиши его (100–150 слов) так, чтобы он честно передавал мысли из подкаста и давал полезное правило для чата. Потом одним-двумя предложениями по-английски объясни Ким две главные правки.\n\n\"NASA scientists have proved that happy teams are productive teams. They also say that conflict is bad for teams. So from now on, there will be no criticism in our group chat. If you see a mistake, please keep it to yourself so everyone stays happy.\"",
+        "context": "",
+        "hint": "Что гости на самом деле сказали о каждом утверждении? Какое правило оставляет спор о работе и убирает выпады?",
         "answers": [
-          "I would separate Alex’s request from Jordan’s remark. The request concerns a possible mismatch in the spreadsheet, which has not yet been checked. Jordan’s comment attacks the person and does not establish whether the figures are wrong. The researchers distinguish constructive disagreement from damaging personal conflict, but that distinction does not tell us the result of our calculation. I would say: “Let’s check the rows Alex identified. Jordan, please explain any concern about the figures without judging the person who prepared them.” We can acknowledge people’s feelings while keeping the factual question open. Banning every objection would leave the possible error unresolved; treating every criticism as useful would excuse the personal attack."
+          "Hi everyone,\n\nI listened to a NASA podcast about teams, and two researchers made a useful point. Leslie DeChurch says the link between happy teams and productive teams works both ways, and that success may be what makes a team happy. Noshir Contractor says that arguing about the work and ideas usually helps a team, while personal conflict hurts it.\n\nSo here's our new chat rule: talk about the work, not the person. If you see a mistake, please say what it is and where, and suggest a fix if you can. Comments about someone's abilities aren't OK.\n\nThanks, everyone!\nKim\n\nTwo changes: the guests are university researchers on a NASA podcast, and they didn't prove anything or say that conflict is bad; they called both ideas half-truths. Also, hiding mistakes would stop the useful kind of disagreement, so the rule now separates the work from the person."
         ],
-        "hint": "Запиши первый ответ до открытия текста. При сверке раздели слова записи, свою интерпретацию и то, чего источник не устанавливает.",
-        "explanation": "Это задача переноса на новый эпизод, а не новый факт о научном исследовании. Содержательный ответ называет два разных действия участников, сохраняет необходимость проверки данных и предлагает реплику, которая позволяет продолжить работу. Не объявляй группу счастливой или успешной по одному разговору. Образец связывает просьбу проверить строки с правилом уместной критики; можно предложить другую реплику с той же точностью. Запись позволяет отдельно проверить организацию и подачу, а текстовая версия — только формулировки и смысл."
+        "explanation": "Засчитывается, если в письме нет «NASA доказало» и «конфликт — это плохо», обе мысли гостей переданы как «да, но», правило оставляет спор о работе и запрещает выпады, а объяснение называет две правки. Другое правило подходит, если оно не прячет ошибки.",
+        "materialIds": [
+          "m1"
+        ]
       }
     ],
     "generated": true,
-    "provenance": {
-      "kind": "official-source-listening-fieldwork",
-      "reviewMethod": "agent-task-evidence-review",
-      "checkedAt": "2026-09-11",
-      "sourceUrl": "https://www.nasa.gov/podcasts/houston-we-have-a-podcast/the-science-of-teams/",
-      "audioSourceUrl": "https://www.nasa.gov/wp-content/uploads/2020/12/ep175_the_science_of_teams.mp3",
-      "audioHeadStatus": 200,
-      "audioContentLength": 49954336,
-      "verified": "Official transcript excerpt and complete final audio clip aligned with all unchanged lesson tasks using two local ASR decoders. Exact source cuts and hashes recorded in assets/authentic-listening/sources.json. No claim of human listening or expert acoustic review.",
-      "rights": {
-        "credit": "NASA — Houston We Have a Podcast",
-        "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-        "scope": "NASA's media guidelines permit educational/informational use of NASA audio with source credit and without endorsement; third-party material is excluded. This continuous spoken discussion excludes the episode's music stings. Source recording: NASA — Houston We Have a Podcast. Exercises and explanations: this application, not NASA. No NASA logos or publicity use."
-      },
-      "authorship": "Prompts, explanations, transfer scenarios and language examples authored for this application. The audio and explicitly labeled transcript excerpt are NASA source material; NASA did not author or endorse the exercises or AI explanations.",
-      "timings": "Original decoded MP3 16:16.9–19:08.3; 171.4 seconds. Exact frame cuts within pauses, checked against surrounding speech and final-clip recognition; not publisher-provided timestamps.",
-      "localAudioSha256": "e0c47150d2061882aa9e7aebacbdd0acc5e90e4a021066c0f36e965374381791",
-      "localTranscriptSHA256": "b2ec77c597adeabab9b15de3f37dac204b22348b88cddc46a0433b059491dc68",
-      "sourceAccessRevision": 2,
-      "sourceAccessChange": {
-        "previousLessonSHA256": "825489d6cd16df6ce2e5df2ea549b9e894835b1cfcf0e9343fb8230767be879f",
-        "previousCourseFileSHA256": "d0730d7d7e3064ee22b94857748356d3aefe33df75e08c94f2852d148f8c88af",
-        "unchangedExercisesSHA256": "86a4050dde00f7a7d7a6d8380e2ff61015cf0c0cf7e7b460a50b9d71f45d5a2e",
-        "reason": "Replace manual external seeking with the same bounded source conversation and its official transcript, available locally. Exercises, IDs, answers, scenarios and their source meaning remain unchanged.",
-        "audioRegistry": "app/studio/assets/authentic-listening/sources.json"
-      }
+    "keyRule": {
+      "rule": "Half-truth — не «нет», а «да, но». Перескажи, какую часть гость оставил и что поменял.",
+      "example": "She calls it a half-truth: happy teams matter, but success may come first. — Она называет это полуправдой: счастье в команде важно, но, может быть, сначала идёт успех.",
+      "check": "Что Noshir Contractor предлагает делать с конфликтом вместо того, чтобы убрать его?"
     }
   }
 ]

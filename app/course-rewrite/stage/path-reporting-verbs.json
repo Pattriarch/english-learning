@@ -1,0 +1,350 @@
+{
+  "id": "path-reporting-verbs",
+  "title": "Admitted, denied, pointed out: пересказать не только слова, но и позицию",
+  "subtitle": "said — нейтрально → глагол называет поступок: признал, отрицал, предупредил → у каждого глагола своя схема → claim или point out: веришь ли ты сам → встреча — прошедшее, текст — настоящее",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Пересказывать встречу, разговор или статью так, чтобы было видно, что человек сделал словами, — признал, отрицал, уступил, предупредил, — и не приписывать ему того, чего он не говорил: «Он признал, что смета была слишком оптимистичной», «Она отрицала, что обещала вернуть деньги».",
+  "formula": "admit / deny + -ing · refuse / offer / promise + to · urge / warn / advise + someone + to · insist on / apologize for + -ing · accuse … of / blame … for · suggest / recommend that + he do",
+  "guided": true,
+  "keyRule": {
+    "rule": "Перед пересказом спроси: что человек сделал словами? Глагол выбирай по поступку, а не для красоты.",
+    "example": "“Yes, I was late.” → She admitted being late. — Она признала, что опоздала.",
+    "check": "Человек правда признал, отрицал или предупредил? Не уверен — said или stated, без оттенка."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-reported-speech",
+    "path-verb-patterns",
+    "path-subjunctive-formal"
+  ],
+  "recycles": [
+    "path-subjunctive-formal",
+    "path-hedging"
+  ],
+  "teaches": [
+    "said / stated / explained — нейтрально; глагол пересказа называет речевой поступок: admitted, denied, warned, urged, conceded, insisted",
+    "оттенки признания: acknowledged — подтвердил, admitted — признал неприятное, conceded — уступил в споре",
+    "admit / deny + -ing или that; ошибка: deny to do",
+    "+ to: agree, offer, promise, refuse, threaten; + кого + to: advise, encourage, persuade, remind, urge, warn (warn … not to, warn against + -ing)",
+    "+ предлог + -ing: insist on, apologize for, object to; кого + предлог: accuse … of, blame … for, thank … for",
+    "suggest / recommend: + -ing или that + словарная форма; ошибка: suggested me to",
+    "позиция пересказчика: points out, shows — ты согласен; claims — держишь дистанцию; argues — одна из позиций",
+    "сила глагола = сила исходных слов: may help не пересказывают как proves",
+    "событие — прошедшее время; текст, который существует сейчас, — настоящее: The author argues…",
+    "слова: estimate, acknowledge, concede, maintain, urge, accuse, blame, invoice, refund"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Patterns with reporting verbs (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
+      "notes": "Сверены восемь схем: verb + to (agree, claim, offer, promise, refuse, threaten), verb + object + to (advise, encourage, remind, urge, warn), verb + -ing (admit, deny, recommend, suggest), verb + предлог + -ing (insist on, object to, warn against), object + предлог (accuse of, blame for), that + subjunctive и that + обычное время, verb + object + that (assure, persuade, remind, tell, warn). Британское apologise заменено на apologize."
+    },
+    {
+      "title": "Newcastle University · Academic Skills Kit: Reporting verbs",
+      "url": "https://www.ncl.ac.uk/academic-skills-kit/writing/academic-writing/reporting-verbs/",
+      "notes": "Сверено: глагол пересказа показывает позицию пишущего — нейтрально (describes, states, says), как одну из точек зрения (argues, contends, proposes), с согласием (shows, confirms, points out), с сомнением (claims). Отсюда раздел «Claim или point out»."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна фраза — три пересказа",
+    "why": "Подрядчик сказал: “Yes, our estimate was too low.” — «Да, наша смета была занижена». Все три пересказа грамматически верны, но сообщают о нём разное.",
+    "items": [
+      {
+        "label": "Нейтрально",
+        "en": "He said that their estimate had been too low.",
+        "ru": "Он сказал, что их смета была занижена.",
+        "note": "Только слова, без оценки."
+      },
+      {
+        "label": "Признание",
+        "en": "He admitted that their estimate had been too low.",
+        "ru": "Он признал, что их смета была занижена.",
+        "note": "Неприятное для него признание."
+      },
+      {
+        "label": "Уступка в споре",
+        "en": "He conceded that their estimate had been too low.",
+        "ru": "Он согласился, что их смета была занижена.",
+        "note": "Был спор, и он принял довод другой стороны."
+      }
+    ],
+    "footnote": "Estimate — смета, расчёт стоимости. Выбирай admitted или conceded, только если знаешь ситуацию.",
+    "focus": [
+      "said",
+      "admitted",
+      "conceded"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Said передаёт слова, а другие глаголы — поступок",
+      "body": "Ты пересказываешь начальнице встречу с подрядчиком. Он сказал: “Yes, our estimate was too optimistic.” Можно передать нейтрально: He said that their estimate had been too optimistic. А можно назвать, что он сделал своей фразой: He admitted that the estimate had been too optimistic — «признал». Estimate — смета.\n\nВ уроке о пересказе ты выучил said и told: они передают слова и ничего к ним не добавляют. Глаголы этого урока называют речевой поступок: admitted — признал, denied — отрицал, warned — предупредил, urged — настойчиво призывал, conceded — уступил, insisted — настаивал.\n\nПо-русски так же: «сказал» и «признал» — разные пересказы. «Признал» сообщает, что подрядчику было неприятно это говорить.\n\nГраница правила: глагол поступка ставь, только если человек правда это сделал. Не знаешь — said или stated («заявил», официально). Яркий глагол без основания — искажение, а не богатый словарь."
+    },
+    {
+      "title": "Признал, уступил, отрицал: оттенки меняют смысл",
+      "body": "Acknowledged — «подтвердил, признал»: спокойно согласился, что это так. Admitted — «признал»: обычно что-то неприятное или свою ошибку. Conceded — «уступил, согласился»: в споре принял довод другой стороны. Denied — «отрицал». Insisted, maintained — «настаивал, стоял на своём».\n\nСравни: She acknowledged the delay — подтвердила, что задержка есть. She admitted causing the delay — признала, что задержка из-за неё. She conceded that the delay was a problem — в споре согласилась, что это проблема.\n\nПризнавать и отрицать можно поступок (-ing) или факт (that): He denied taking the money. He denied that the money was missing. Ошибка русскоговорящих — denied to take, по схеме «отрицал взять». Так не говорят."
+    },
+    {
+      "title": "У каждого глагола своя схема",
+      "body": "Глагол учи вместе со схемой: она перестраивает всё предложение.\n\n+ to: agree, offer, promise, refuse, threaten (угрожать): She refused to sign.\n\n+ кого + to: advise, encourage, persuade (убедить), remind, urge, warn: He urged us to apply. She warned us not to wait. Знакомые ask и tell — из этой же группы.\n\n+ -ing: admit, deny, recommend, suggest: She suggested meeting on Monday.\n\n+ предлог + -ing: insist on, apologize for, object to (возражать против): He apologized for missing the call. Warn against + -ing — «предостеречь от».\n\n+ кого + предлог + -ing: accuse of (обвинить в), blame for (винить в), thank for: They blamed him for losing the file.\n\nSuggest и recommend с человеком — через that и словарную форму из прошлого урока: She suggested that I apply. Не suggested me to apply."
+    },
+    {
+      "title": "Claim или point out: веришь ли ты сам",
+      "body": "Глагол пересказа показывает не только позицию говорящего, но и твою.\n\nPoints out — «обращает внимание», shows — «показывает»: ты считаешь, что это правда. The report points out that the bridge is 70 years old.\n\nClaims — «утверждает»: ты держишь дистанцию. The company claims that the update is safe — так говорит компания, ты за это не ручаешься.\n\nArgues — «доказывает, считает»: одна из позиций в споре, без твоей оценки.\n\nСила глагола должна совпадать с силой исходных слов. Автор писал “may help some beginners”, а ты пересказываешь “he proves that it helps” — ты исказил его вывод. Это та же ошибка, что лишняя уверенность в уроке об оговорках, только с чужими словами.\n\nВ американских новостях почти всегда пишут said: он ничего не добавляет. Claimed там звучит как сомнение журналиста."
+    },
+    {
+      "title": "Время: встреча — прошедшее, текст — настоящее",
+      "body": "Пересказываешь событие — встречу, звонок, интервью — глагол в прошедшем, и дальше работает сдвиг из урока о пересказе: He admitted that the estimate had been too low.\n\nПересказываешь текст, который существует и сейчас, — статью, книгу, отчёт — обычно настоящее время: The author argues that cities need more trees. The report points out that… Текст «говорит» это каждый раз, когда его открывают.\n\nС фамилией и годом исследования в американских работах часто прошедшее: Smith (2021) found that… Речь о конкретном исследовании, которое уже провели. Это тоже правильно."
+    }
+  ],
+  "examples": [
+    {
+      "en": "He admitted that the estimate had been too optimistic.",
+      "ru": "Он признал, что смета была слишком оптимистичной.",
+      "why": "Признание неприятного факта; сдвиг времени, как в обычном пересказе."
+    },
+    {
+      "en": "She denied promising a refund.",
+      "ru": "Она отрицала, что обещала вернуть деньги.",
+      "why": "Deny + -ing. Refund — возврат денег."
+    },
+    {
+      "en": "The inspector urged us to replace the wiring.",
+      "ru": "Инспектор настойчиво советовал нам заменить проводку.",
+      "why": "Urge + кого + to."
+    },
+    {
+      "en": "They blamed the airline for losing their bags.",
+      "ru": "Они обвинили авиакомпанию в том, что та потеряла их багаж.",
+      "why": "Blame кого + for + -ing."
+    },
+    {
+      "en": "My doctor suggested that I cut down on coffee.",
+      "ru": "Врач посоветовал мне пить меньше кофе.",
+      "why": "С человеком — that + словарная форма, а не suggested me to."
+    },
+    {
+      "en": "The report points out that the bridge is 70 years old.",
+      "ru": "В отчёте обращают внимание, что мосту 70 лет.",
+      "why": "Points out — пересказчик считает это фактом. Отчёт существует сейчас — настоящее время."
+    },
+    {
+      "en": "The company claims that the update fixes the problem.",
+      "ru": "Компания утверждает, что обновление решает проблему.",
+      "why": "Claims — передаёшь их слова, но не ручаешься за них."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Встреча о протечке / Meeting about the leak",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Tuesday, March 3. Ana Torres, tenant in Apartment 4B, meets with Mark Ellis, the building manager.\n\nAna: Water has been coming through my bathroom ceiling since February 10. I reported it three times. I want it fixed by the end of next week.\n\nMark: You're right, you reported it three times. Our first plumber didn't find the leak. That's on us.\n\nAna: The water ruined my rug. I think the company should pay for it.\n\nMark: I can't promise that today. The owner decides on any payment. I'll send her your photos and the receipt this afternoon.\n\nAna: Can you at least tell me when someone is coming?\n\nMark: I'll have a new plumber there on Thursday morning. Please don't use the bathroom fan until then. It's right under the leak.\n\nAna: The leak is coming from 5B. Their tub has been leaking for months.\n\nMark: We don't know that yet. The plumber will check 5B as well. I'm not saying it isn't 5B. I'm saying we haven't confirmed it.\n\nAna: OK. But if it isn't fixed by next Friday, I'll contact the city housing office.\n\nMark: That's your right. I'd recommend that you keep a record of every day the water comes through."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вчера на встрече менеджер проекта сказала: “Yes, I forgot to send the invoice.” Перескажи это коллеге одной фразой: «Менеджер признала, что забыла отправить счёт». invoice — счёт.",
+      "context": "",
+      "guidance": {
+        "title": "Глагол называет поступок",
+        "body": "Она не просто сказала, а признала свою ошибку. Admit + -ing называет сделанное действие. Вариант admitted that + полная фраза тоже верен.",
+        "example": "He admitted breaking the printer.",
+        "translation": "Он признал, что сломал принтер."
+      },
+      "hint": "Начни так: The project manager admitted…",
+      "answers": [
+        "The project manager admitted forgetting to send the invoice.",
+        "The project manager admitted that she had forgotten to send the invoice.",
+        "The project manager admitted that she forgot to send the invoice.",
+        "The project manager admitted to forgetting to send the invoice.",
+        "She admitted forgetting to send the invoice.",
+        "She admitted that she had forgotten to send the invoice."
+      ],
+      "explanation": "Admitted forgetting, admitted to forgetting и admitted that she had forgotten — всё верно. Admitted to forget — ошибка: после admit не ставят to + глагол."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В споре о доставке клиент сказал: “OK, the delivery was on time. But the boxes were damaged, and I'm not changing my mind about that.” Перескажи в отчёте: «Клиент согласился, что доставка была вовремя, но настаивал, что коробки были повреждены».",
+      "context": "damaged — повреждённый.",
+      "guidance": {
+        "title": "Уступка и «стоял на своём»",
+        "body": "Conceded — в споре принял довод другой стороны. Insisted или maintained that — продолжал утверждать своё. Оба глагола — с that и обычным пересказом.",
+        "example": "The landlord conceded that the heater was old but maintained that it worked.",
+        "translation": "Хозяин согласился, что обогреватель старый, но стоял на том, что он работает."
+      },
+      "hint": "Первая половина — conceded that…, вторая — but insisted that…",
+      "answers": [
+        "The client conceded that the delivery had been on time but insisted that the boxes had been damaged.",
+        "The client conceded that the delivery was on time but insisted that the boxes were damaged.",
+        "The client conceded that the delivery had been on time, but insisted that the boxes had been damaged.",
+        "The client conceded that the delivery had been on time but maintained that the boxes had been damaged.",
+        "The customer conceded that the delivery had been on time but insisted that the boxes had been damaged.",
+        "The customer conceded that the delivery was on time but maintained that the boxes were damaged.",
+        "The client acknowledged that the delivery had been on time but insisted that the boxes had been damaged."
+      ],
+      "explanation": "Conceded показывает уступку в споре; acknowledged тоже подходит, но без оттенка спора. Insisted that или maintained that — стоял на своём. Had been и was — оба верны: доставка в прошлом в любом случае."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Пересказываешь, что сказала соседка-юрист: «Она отказалась подписывать договор и посоветовала нам поговорить с адвокатом». attorney — адвокат.",
+      "context": "",
+      "guidance": {
+        "title": "Две схемы: refuse to и advise кого to",
+        "body": "Refuse — как agree, offer, promise: сразу to + глагол. Advise — как urge, warn, encourage: сначала кого, потом to.",
+        "example": "He offered to help and encouraged me to apply.",
+        "translation": "Он предложил помочь и уговаривал меня подать заявку."
+      },
+      "hint": "После refused сразу to. После advised — кому?",
+      "answers": [
+        "She refused to sign the contract and advised us to talk to an attorney.",
+        "She refused to sign the contract and advised us to speak to an attorney.",
+        "She refused to sign the contract and advised us to speak with an attorney.",
+        "She refused to sign the contract and advised us to talk to a lawyer.",
+        "She refused to sign the contract and advised us to consult an attorney.",
+        "She refused to sign the contract and advised us to talk with an attorney."
+      ],
+      "explanation": "Refused to sign — без человека, advised us to talk — с человеком. Refused signing и advised to us — ошибки."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь управляющему о ссоре на парковке: «Сосед обвинил нас в том, что мы заблокировали его выезд, а потом извинился за свой тон». block the driveway — заблокировать выезд.",
+      "context": "",
+      "guidance": {
+        "title": "Предлог + -ing",
+        "body": "Accuse кого of, blame кого for, apologize for — после предлога идёт -ing или вещь. Русское «в том, что мы…» превращается в of + -ing.",
+        "example": "She thanked us for waiting and apologized for the delay.",
+        "translation": "Она поблагодарила нас за ожидание и извинилась за задержку."
+      },
+      "hint": "Начни так: Our neighbor accused us of…",
+      "answers": [
+        "Our neighbor accused us of blocking his driveway and then apologized for his tone.",
+        "Our neighbor accused us of blocking his driveway, and then he apologized for his tone.",
+        "Our neighbor accused us of blocking his driveway but then apologized for his tone.",
+        "My neighbor accused us of blocking his driveway and then apologized for his tone.",
+        "The neighbor accused us of blocking his driveway and later apologized for his tone."
+      ],
+      "explanation": "Accused us of blocking — кого и в чём; apologized for his tone — за что. Accused us that we blocked — ошибка. Neighbor и apologized — американское написание."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Исправь три ошибки в письме стажёра и перепиши его целиком: The client suggested us to move the call to Friday. She also recommended me to send the slides early and denied to receive our first email.",
+      "context": "slides — слайды презентации.",
+      "guidance": {
+        "title": "Вспоминаем официальное «чтобы»",
+        "body": "Вспоминаем прошлый урок: suggest и recommend с человеком — that + словарная форма. Без человека — -ing. Deny — тоже -ing или that.",
+        "example": "The manager recommended that he take the train and denied knowing the schedule.",
+        "translation": "Начальница посоветовала ему поехать поездом и отрицала, что знает расписание."
+      },
+      "hint": "Найди suggested us to, recommended me to и denied to.",
+      "answers": [
+        "The client suggested that we move the call to Friday. She also recommended that I send the slides early and denied receiving our first email.",
+        "The client suggested moving the call to Friday. She also recommended sending the slides early and denied receiving our first email.",
+        "The client suggested that we move the call to Friday. She also recommended that I send the slides early and denied that she had received our first email.",
+        "The client suggested we move the call to Friday. She also recommended I send the slides early and denied receiving our first email."
+      ],
+      "explanation": "Suggested that we move или suggested moving; recommended that I send или recommended sending; denied receiving или denied that she had received. Схемы suggest someone to и recommend someone to по-американски не говорят."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пересказываешь статью в своём отчёте. В выводе автора ты сомневаешься, а второе — правда: ты проверил. Переведи: «Автор утверждает, что четырёхдневная рабочая неделя повышает продуктивность. Он обращает внимание, что в исследовании участвовали только 50 компаний».",
+      "context": "productivity — продуктивность; take part in — участвовать.",
+      "guidance": {
+        "title": "Claims — дистанция, points out — согласие",
+        "body": "Claims показывает: это слова автора, ты за них не ручаешься. Points out — ты считаешь это фактом. О статье, которая существует сейчас, — настоящее время.",
+        "example": "The blog claims that the city is safe at night. It points out that crime fell last year.",
+        "translation": "Блог утверждает, что ночью в городе безопасно. Он обращает внимание, что в прошлом году преступлений стало меньше."
+      },
+      "hint": "Оба глагола в настоящем времени: claims…, points out…",
+      "answers": [
+        "The author claims that a four-day workweek increases productivity. He points out that only 50 companies took part in the study.",
+        "The author claims that a four-day work week increases productivity. He points out that only 50 companies took part in the study.",
+        "The author claims that a four-day workweek boosts productivity. He points out that only 50 companies took part in the study.",
+        "The author claims that a four-day workweek increases productivity. He points out that only 50 companies participated in the study.",
+        "The author claims that the four-day workweek increases productivity. He points out that the study included only 50 companies."
+      ],
+      "explanation": "Claims и points out — в настоящем: статья существует сейчас. Took part — прошедшее, потому что исследование уже провели. Argues вместо claims тоже допустимо, но тогда ты не показываешь сомнения."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Исследователи написали: “Our results suggest that the app may help some beginners.” Коллега пересказал: The researchers prove that the app helps beginners. Перескажи честно: «Исследователи предполагают, что приложение может помочь части начинающих».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем оговорки: сила глагола = сила источника",
+        "body": "Вспоминаем урок об оговорках: may и some — границы вывода. При пересказе сохрани их и выбери глагол той же силы: suggest, а не prove или show.",
+        "example": "The doctors suggest that the drug may reduce pain in some patients.",
+        "translation": "Врачи предполагают, что лекарство может уменьшать боль у части пациентов."
+      },
+      "hint": "Сколько оговорок у авторов? Проверь, что обе остались: may и some.",
+      "answers": [
+        "The researchers suggest that the app may help some beginners.",
+        "The researchers suggest the app may help some beginners.",
+        "The researchers' results suggest that the app may help some beginners.",
+        "The researchers suggest that the app might help some beginners."
+      ],
+      "explanation": "Suggest передаёт осторожный вывод; may и some сохраняют обе границы. Prove и show добавляют уверенность, которой у авторов не было, а beginners без some говорит обо всех."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прочитай M1. Ты помогаешь жилищной ассоциации и пишешь нейтральный протокол этой встречи на 150–250 слов для владелицы дома, которой там не было. Что должно быть: что требовала Ана и что признал Марк; что Марк пообещал и от чего отказался; о чём он предупредил и что посоветовал; спорный вопрос про квартиру 5B — без вывода, кто прав; минимум шесть разных глаголов пересказа, среди них схемы с to, с кого + to, с -ing и с that + словарная форма; ни одного глагола, который добавляет мотив, которого нет в M1.",
+      "context": "tenant — жилец; plumber — сантехник; rug — ковёр; minutes — протокол.",
+      "hint": "Пройди по репликам M1 и для каждой реши: требование, признание, обещание, отказ, предупреждение, совет или утверждение?",
+      "answers": [
+        "Meeting about the leak in Apartment 4B\nTuesday, March 3\nPresent: Ana Torres (tenant, 4B), Mark Ellis (building manager)\n\nMs. Torres stated that water had been coming through her bathroom ceiling since February 10 and that she had reported the problem three times. She asked that the leak be fixed by the end of next week.\n\nMr. Ellis acknowledged that she had reported it three times. He admitted that the first plumber had not found the leak and accepted responsibility for that.\n\nMs. Torres said that the water had ruined her rug and suggested that the company pay for it. Mr. Ellis declined to promise payment, explaining that the owner decides on any payment. He promised to send the owner her photos and receipt that afternoon.\n\nMr. Ellis also promised to have a new plumber there on Thursday morning. He warned Ms. Torres not to use the bathroom fan until then.\n\nMs. Torres maintained that the leak was coming from Apartment 5B. Mr. Ellis said that this had not been confirmed and that the plumber would check 5B as well.\n\nMs. Torres said that she would contact the city housing office if the leak was not fixed by next Friday. Mr. Ellis recommended that she keep a record of every day the water comes through."
+      ],
+      "explanation": "Засчитывается, если все поступки из M1 переданы верными глаголами (asked that… be fixed, acknowledged, admitted, declined to, promised to, warned … not to, maintained, recommended that she keep), спор о 5B оставлен открытым и нет глаголов с лишним мотивом: Марк не denied про 5B, а Ана не threatened и не complained."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Перескажи вслух другу за 2–3 минуты спор, который ты недавно видел или слышал: на работе, в семье, в новостях, в интервью. Если такого нет — перескажи M1. Что должно быть: что каждая сторона утверждала, что признала, что отрицала или от чего отказалась; минимум пять разных глаголов пересказа; одно место, где ты сознательно выбрал said вместо яркого глагола, и почему; твоё мнение — отдельно, с I think. Запиши себя и проверь по расшифровке схемы после глаголов.",
+      "context": "",
+      "hint": "Начни так: So, there was this argument at work last week…",
+      "answers": [
+        "So, there was an argument at work last week about a deadline. Our designer, Kate, insisted that the client had agreed to move the launch to June. Our account manager, Tom, denied promising anything like that. He said the client had only asked whether June was possible.\n\nThen Kate pointed out that there was an email from the client that mentioned June. Tom acknowledged that the email existed, but he maintained that it was a question, not an agreement. Kate accused Tom of changing his story, and he refused to discuss it in front of the whole team. Our manager urged them both to stop and suggested that Tom call the client directly.\n\nOne thing I was careful about: at one point Tom said, “I might have been unclear.” I wouldn't say he admitted making a mistake. He just said that he might have been unclear, so “said” is more accurate.\n\nIn the end, Tom called the client, and it turned out the client really wanted June but had never confirmed it in writing. So in a way, they were both partly right. I think the real problem was that nobody wrote down what was agreed."
+      ],
+      "explanation": "Засчитывается, если пересказаны позиции обеих сторон, глаголов пересказа минимум пять со своими схемами (denied promising, accused … of, refused to, urged … to, suggested that he call), есть объяснение выбора said и мнение отделено через I think. Оценивай по своей расшифровке."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Коллега по ассоциации написал свой пересказ встречи из M1, и в нём глаголы искажают позиции. Исправь его по M1 и перепиши целиком (80–130 слов): Mark confessed that the company had ignored Ana for weeks. He refused to help with the rug and claimed that a plumber would come on Thursday. Ana proved that the leak was coming from 5B, and Mark denied it. He ordered her not to use the fan. Ana threatened the company, and Mark admitted that she could call the city.",
+      "context": "",
+      "hint": "Найди семь глаголов, которые не совпадают с M1. Для каждого спроси: что человек на самом деле сделал своей фразой?",
+      "answers": [
+        "Mark acknowledged that Ana had reported the leak three times and admitted that the first plumber had not found it. He said he could not promise payment for the rug because the owner decides, but he promised to send her photos and the receipt to the owner. He also promised that a new plumber would come on Thursday morning and asked her not to use the bathroom fan until then. Ana said that the leak was coming from 5B. Mark said that this had not been confirmed yet and that the plumber would check 5B too. Ana said that she would contact the city housing office if the leak was not fixed by next Friday, and Mark said that this was her right."
+      ],
+      "explanation": "Засчитывается, если исправлены семь мест: confessed / ignored → admitted, что первый сантехник не нашёл протечку; refused to help → не смог обещать оплату и пообещал передать фото; claimed → promised; proved → said или maintained; denied → said, что не подтверждено; ordered → asked или warned; threatened и admitted → said."
+    }
+  ]
+}

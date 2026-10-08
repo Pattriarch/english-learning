@@ -1,0 +1,360 @@
+{
+  "id": "research-report-data",
+  "title": "Отчёт по цифрам: что выросло, на сколько и чего цифры не объясняют",
+  "subtitle": "Что посчитано → from, to и by → процент и процентный пункт → сначала главное → граница вывода",
+  "level": "B2",
+  "group": "Жанры письма",
+  "units": "Внешний аудит · English File 5 B2.1 report · C1/C2 describing data",
+  "minutes": 55,
+  "goal": "Описать таблицу в коротком отчёте: «Доля дочитавших выросла с 25% до 36%, на 11 процентных пунктов» — The completion rate rose from 25% to 36%, an increase of 11 percentage points. Сначала главное, потом цифры, в конце — чего цифры не объясняют.",
+  "formula": "Overall, … → rose from X to Y / by Z → percentage points ≠ percent → The figures don't show why…",
+  "keyRule": {
+    "rule": "Разницу между двумя процентами называй percentage points, а не percent.",
+    "example": "It rose from 20% to 30%, an increase of 10 percentage points. — Выросло с 20% до 30%, на 10 процентных пунктов.",
+    "check": "To — где оказалось. By — на сколько изменилось."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-critical-reading",
+    "path-quantifiers-nuance",
+    "extended-a2-survey-summary"
+  ],
+  "recycles": [
+    "path-quantifiers-nuance",
+    "path-critical-reading"
+  ],
+  "teaches": [
+    "что посчитано: единица, группа, период; часть из целого — 30 out of 120; доля — share или rate",
+    "если группа выросла, сравнивают доли, а не только числа",
+    "глаголы изменения: rise — rose, fall — fell, go up / go down, double, stay the same",
+    "from — начало, to — конец, by — на сколько (не on); an increase of 30, a drop of 5",
+    "percentage points — разница двух процентов; percent — рост относительно старта; rose by 11 percent вместо пунктов — ошибка",
+    "строение отчёта: Overall, … → 2–3 главные цифры → compared with / whereas → ограничение → следующий шаг",
+    "As the table shows, …: текст выбирает главное, а не повторяет каждую строку",
+    "граница вывода: The figures don't show why…; One possible reason is…, but…; significant — только после статистической проверки",
+    "слова: sign up, completion rate, share, log, overall, average"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia · Percentage point",
+      "url": "https://en.wikipedia.org/wiki/Percentage_point",
+      "notes": "Сверено: процентный пункт — простая разница двух процентов, процентное изменение — рост относительно исходного значения. Пример 40% → 44% (4 пункта, рост на 10%) взят как образец для карточки третьего шага."
+    },
+    {
+      "title": "UNC Writing Center · Figures and Charts",
+      "url": "https://writingcenter.unc.edu/tips-and-handouts/figures-and-charts/",
+      "notes": "Сверено: текст называет главное, что показывает таблица, ссылается на неё (As Table 1 shows…), не повторяет каждое значение, а выделяет тенденцию и сравнение. На этом построен раздел «Сначала главное, потом цифры»."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "To, by и percentage points",
+    "why": "Доля дочитавших выросла с 25% до 36%. Три верных способа сказать об этом и одна частая ошибка.",
+    "items": [
+      {
+        "label": "Где оказалось — to",
+        "en": "It rose to 36%.",
+        "ru": "Выросло до 36%.",
+        "note": "Конечная точка."
+      },
+      {
+        "label": "На сколько — by",
+        "en": "It rose by 11 percentage points.",
+        "ru": "Выросло на 11 процентных пунктов.",
+        "note": "Разница: 36 − 25 = 11."
+      },
+      {
+        "label": "Относительно старта",
+        "en": "That's a 44 percent increase.",
+        "ru": "Это рост на 44%.",
+        "note": "11 — это 44% от 25."
+      },
+      {
+        "label": "Ошибка",
+        "en": "It rose by 11 percent.",
+        "ru": "Выросло на 11%.",
+        "note": "Читатель поймёт: с 25% примерно до 28%."
+      }
+    ],
+    "focus": [
+      "to",
+      "by",
+      "percentage points",
+      "percent"
+    ],
+    "footnote": "В американских текстах percent пишут одним словом; со знаком — 36%."
+  },
+  "sections": [
+    {
+      "title": "Сначала пойми, что посчитано",
+      "body": "Директор библиотеки просит коротко описать итоги летнего марафона чтения. Перед тобой таблица. Прежде чем писать, ответь себе: что посчитано — дети, книги или визиты? За какой период? В какой группе?\n\nЧисло без группы мало что говорит. 54 kids finished — много это или мало? Сравни: 54 out of 150 — 54 из 150. Out of — «из».\n\nДоля — share или rate: a completion rate of 36% — доля дочитавших 36%. Если группа выросла, сравнивай доли, а не только числа: детей стало больше, и дочитавших могло стать больше просто поэтому."
+    },
+    {
+      "title": "Rose from… to… by…: где оказалось и на сколько",
+      "body": "Глаголы изменения: rise — rose (выросло), fall — fell (упало), go up и go down — то же в разговоре, double — удвоилось, stay the same — не изменилось.\n\nFrom — откуда начали, to — где оказались, by — на сколько изменилось. Registration rose from 120 to 150 — число записавшихся выросло со 120 до 150. It rose by 30 — выросло на 30. Русское «на» здесь — by, а не on.\n\nЕсть и форма-предмет: an increase of 30 — рост на 30, a drop of 5 — падение на 5. Её удобно добавить через запятую: …, an increase of 30.\n\nИз урока о количестве: The number of kids has grown — глагол как для одного, потому что выросло само число."
+    },
+    {
+      "title": "Процент и процентный пункт",
+      "body": "Доля выросла с 20% до 30%. На сколько? Есть два честных ответа на два разных вопроса.\n\nРазница между двумя процентами — 10 процентных пунктов: up 10 percentage points. Это простое вычитание: 30 − 20.\n\nРост относительно старта — 50%: десять — это половина от двадцати. Так говорят с percent: a 50 percent increase.\n\nОшибка — сказать rose by 10 percent вместо пунктов. Читатель поймёт «на десятую часть от 20%», то есть до 22%. Чтобы не путать, в отчёте называй оба конца (from 20% to 30%), а разницу — percentage points."
+    },
+    {
+      "title": "Сначала главное, потом цифры",
+      "body": "Отчёт — не пересказ каждой клетки таблицы. Читатель хочет сначала понять направление.\n\nОбзор (overview) — одна фраза без мелких чисел: Overall, more kids joined, and a larger share finished. Overall — «в целом».\n\nПотом 2–3 главные цифры, которые подтверждают обзор, и сравнение: compared with 2025 — по сравнению с 2025 годом; whereas — «тогда как», из урока о цели и контрасте.\n\nЕсли таблица приложена, на неё ссылаются: As the table shows, … — как видно из таблицы. Текст не повторяет все строки, а выбирает важное."
+    },
+    {
+      "title": "Цифры показывают изменение, а не причину",
+      "body": "Из урока о критическом чтении: цифры показывают, что изменилось, но не почему. Здесь новое то, что эту границу пишешь ты сам — прямо в отчёте, а не оставляешь читателю догадываться.\n\nThe figures don't show why … — цифры не показывают, почему…; One possible reason is …, but … — одна возможная причина…, но…; We would need … — нам нужно было бы…\n\nОсторожно со словом significant. В отчёте его понимают как «проверено статистикой». Если никто ничего не проверял, пиши a large increase или a clear increase."
+    }
+  ],
+  "examples": [
+    {
+      "en": "In 2026, 54 out of 150 kids finished the challenge.",
+      "ru": "В 2026 году марафон закончили 54 ребёнка из 150.",
+      "why": "Out of 150 называет всю группу — без неё число 54 ничего не говорит."
+    },
+    {
+      "en": "The number of kids who signed up rose from 120 to 150.",
+      "ru": "Число записавшихся детей выросло со 120 до 150.",
+      "why": "From — начало, to — конец. The number of… rose — глагол как для одного."
+    },
+    {
+      "en": "It rose by 30, an increase of 25 percent.",
+      "ru": "Оно выросло на 30, то есть на 25%.",
+      "why": "Здесь сравниваются числа детей, а не доли, поэтому percent верен: 30 — это четверть от 120."
+    },
+    {
+      "en": "The completion rate went up from 25% to 36%, an increase of 11 percentage points.",
+      "ru": "Доля дочитавших выросла с 25% до 36%, на 11 процентных пунктов.",
+      "why": "Разница двух процентов — percentage points. Сравни с примером выше."
+    },
+    {
+      "en": "Overall, more kids took part, and a larger share of them finished.",
+      "ru": "В целом детей стало больше, и большая их доля дочитала до конца.",
+      "why": "Обзор: направление без мелких чисел."
+    },
+    {
+      "en": "The figures don't show why completion improved.",
+      "ru": "Цифры не показывают, почему дочитавших стало больше.",
+      "why": "Граница вывода написана прямо. После why — обычный порядок слов."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Таблица: летний марафон чтения",
+      "kind": "reading",
+      "text": "Riverside Public Library: Summer Reading Challenge, June 1 to August 31\n\nKids who signed up: 120 in 2025, 150 in 2026\nKids who finished (read all 10 books): 30 in 2025, 54 in 2026\nCompletion rate: 25% in 2025, 36% in 2026\nAverage number of books per kid: 6.1 in 2025, 6.8 in 2026\n\nNote: In 2026, the library added a free app for logging books. Kids could also use paper logs, as in 2025. The library did not record how many kids used the app.",
+      "source": "Придумано для курса: библиотека и цифры вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Начни отчёт по M1 с первого года. Переведи: «В 2025 году все десять книг прочитали 30 из 120 детей, то есть 25%».",
+      "context": "",
+      "guidance": {
+        "title": "Часть из целого — out of",
+        "body": "Сначала часть, потом out of и вся группа. Долю добавь в конце: …, or 25% — «то есть 25%».",
+        "example": "In May, 18 out of 60 runners finished in under an hour, or 30%.",
+        "translation": "В мае 18 из 60 бегунов уложились меньше чем в час, то есть 30%."
+      },
+      "hint": "Начни так: In 2025, 30 out of …",
+      "answers": [
+        "In 2025, 30 out of 120 kids finished all ten books, or 25%.",
+        "In 2025, 30 out of 120 kids read all ten books, or 25%.",
+        "In 2025, 30 out of 120 kids finished all 10 books, or 25%.",
+        "In 2025, 30 out of 120 kids finished all ten books, which is 25%.",
+        "In 2025, 30 out of 120 kids read all ten books, which is 25 percent.",
+        "In 2025, 30 of the 120 kids finished all ten books, or 25%.",
+        "In 2025, 30 out of 120 children finished all ten books, or 25 percent."
+      ],
+      "explanation": "Out of 120 называет всю группу, иначе число 30 ничего не говорит. Or 25% и which is 25% — оба верны. 30 of the 120 kids — тоже.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи для отчёта: «Число записавшихся детей выросло со 120 до 150, то есть на 30». sign up — записаться.",
+      "context": "",
+      "guidance": {
+        "title": "From, to и by",
+        "body": "From — откуда, to — куда, by — на сколько. Русское «на» здесь — by. Можно и так: …, an increase of 30.",
+        "example": "Ticket sales fell from 500 to 420, a drop of 80.",
+        "translation": "Продажи билетов упали с 500 до 420, то есть на 80."
+      },
+      "hint": "Начни так: The number of kids who signed up …",
+      "answers": [
+        "The number of kids who signed up rose from 120 to 150, an increase of 30.",
+        "The number of kids who signed up rose by 30, from 120 to 150.",
+        "The number of kids who signed up went up from 120 to 150, an increase of 30.",
+        "The number of kids who signed up increased by 30, from 120 to 150.",
+        "The number of kids who signed up rose from 120 to 150, or by 30.",
+        "The number of children who signed up rose from 120 to 150, an increase of 30.",
+        "Sign-ups rose from 120 to 150, an increase of 30."
+      ],
+      "explanation": "From 120 to 150 — оба конца, by 30 или an increase of 30 — размер изменения. Rose on 30 — ошибка. The number of… rose — глагол как для одного."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи: «Доля дочитавших выросла с 25% до 36%, то есть на 11 процентных пунктов». completion rate — доля тех, кто закончил.",
+      "context": "",
+      "guidance": {
+        "title": "Разница процентов — percentage points",
+        "body": "Когда вычитаешь один процент из другого, разница — percentage points. Слово percent здесь значило бы другое: рост относительно старта.",
+        "example": "Voter turnout rose from 40% to 44%, up 4 percentage points.",
+        "translation": "Явка выросла с 40% до 44%, на 4 процентных пункта."
+      },
+      "hint": "36 − 25 = 11. Это percent или percentage points?",
+      "answers": [
+        "The completion rate rose from 25% to 36%, an increase of 11 percentage points.",
+        "The completion rate rose from 25% to 36%, up 11 percentage points.",
+        "The completion rate rose by 11 percentage points, from 25% to 36%.",
+        "The completion rate went up from 25% to 36%, an increase of 11 percentage points.",
+        "The completion rate rose from 25 percent to 36 percent, an increase of 11 percentage points.",
+        "The share of kids who finished rose from 25% to 36%, an increase of 11 percentage points."
+      ],
+      "explanation": "11 — разница двух процентов, поэтому percentage points. Относительно старта рост — 44%: 11 — это 44% от 25. Оба числа верны, но отвечают на разные вопросы."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Волонтёр написал в черновике отчёта: “The completion rate rose on 11 percent, to 36 percent.” Исправь фразу и добавь, откуда начали.",
+      "context": "",
+      "guidance": {
+        "title": "Две ошибки в одной фразе",
+        "body": "Проверь предлог «на» и слово после числа. Разница двух долей — пункты, а не проценты.",
+        "example": "The share fell by 3 percentage points, from 18% to 15%.",
+        "translation": "Доля упала на 3 процентных пункта: с 18% до 15%."
+      },
+      "hint": "Сколько будет 25% плюс 11 процентов от 25%? Примерно 28%, а не 36%.",
+      "answers": [
+        "The completion rate rose by 11 percentage points, from 25 percent to 36 percent.",
+        "The completion rate rose by 11 percentage points, from 25% to 36%.",
+        "The completion rate rose from 25% to 36%, an increase of 11 percentage points.",
+        "The completion rate rose from 25 percent to 36 percent, up 11 percentage points."
+      ],
+      "explanation": "On → by: «на сколько» — by. Percent → percentage points: 11 — разница двух долей. Фраза «на 11%» значила бы рост с 25% примерно до 28%."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Напиши по M1 одну обзорную фразу для начала отчёта: что в целом изменилось с 2025 по 2026 год. Без мелких чисел.",
+      "context": "",
+      "guidance": {
+        "title": "Обзор — сначала направление",
+        "body": "Overall, … — одна фраза о главном: что выросло, что упало. Числа оставь для следующих фраз.",
+        "example": "Overall, the gym had more members in 2026, but fewer people came every day.",
+        "translation": "В целом в 2026 году у спортзала было больше участников, но каждый день приходило меньше людей."
+      },
+      "hint": "Что выросло: число детей, доля дочитавших, среднее число книг?",
+      "answers": [
+        "Overall, more kids signed up in 2026, and a larger share of them finished the challenge.",
+        "Overall, both the number of kids and the share who finished went up in 2026.",
+        "Overall, the challenge grew in 2026: more kids signed up, and a larger share finished all ten books."
+      ],
+      "explanation": "Засчитывается, если в одной фразе с Overall названо направление: детей больше, и доля дочитавших выше. Точные цифры — в следующих фразах отчёта.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем most of и «цифры — не причина». Переведи для отчёта: «В оба года большинство детей не прочитали все десять книг. Цифры не показывают, помогло ли приложение».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: most of и граница вывода",
+        "body": "Most of the kids — знакомая группа, как в уроке о количестве. Чего цифры не говорят, назови прямо, как в уроке о критическом чтении: The figures don't show whether…",
+        "example": "Most of the members renewed. The figures don't show whether the new price mattered.",
+        "translation": "Большинство участников продлили абонемент. Цифры не показывают, сыграла ли роль новая цена."
+      },
+      "hint": "После whether — обычный порядок слов: whether the app helped.",
+      "answers": [
+        "In both years, most of the kids didn't finish all ten books. The figures don't show whether the app helped.",
+        "In both years, most of the kids did not finish all ten books. The figures don't show whether the app helped.",
+        "In both years, most of the kids didn't read all ten books. The figures don't show if the app helped.",
+        "In both years, most kids didn't finish all ten books. The figures don't show whether the app helped.",
+        "Most of the kids didn't finish all ten books in either year. The numbers don't show whether the app helped."
+      ],
+      "explanation": "Most of the kids — дети из этого марафона. Whether the app helped — обычный порядок слов, без did. If вместо whether тоже верно."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Директор спрашивает: “So did the app work?” Ответь по M1 двумя фразами: одна возможная причина роста и что нужно, чтобы её проверить.",
+      "context": "",
+      "guidance": {
+        "title": "Возможная причина и проверка",
+        "body": "One possible reason is…, but… — причина как версия. We would need… — какие цифры её проверят. Загляни в примечание под таблицей.",
+        "example": "One possible reason is the new schedule, but we don't know how many people used it. We would need attendance by time of day.",
+        "translation": "Одна возможная причина — новое расписание, но мы не знаем, сколько людей им пользовались. Нужна была бы посещаемость по времени дня."
+      },
+      "hint": "Чего библиотека не записала в 2026 году?",
+      "answers": [
+        "One possible reason is the new app, but the library didn't record how many kids used it. We would need to compare kids who used the app with kids who used paper logs.",
+        "One possible reason is the app, but we don't know how many kids used it. We would need completion rates for app users and for paper log users."
+      ],
+      "explanation": "Засчитывается, если приложение названо только возможной причиной, сказано, чего не хватает (сколько детей им пользовались), и предложено сравнить пользователей приложения и бумажных журналов.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Директор библиотеки Ms. Okafor решает, платить ли дальше за приложение: $1,200 в год. Напиши ей отчёт по M1 на 100–180 слов. Что должно быть: обзор в одной фразе; число записавшихся и дочитавших с from… to; доля с percentage points; одно сравнение (whereas или compared with); одно ограничение — чего цифры не показывают; один шаг, который поможет решить про приложение.",
+      "context": "",
+      "hint": "Начни так: Overall, …",
+      "answers": [
+        "Summer Reading Challenge: 2025 vs. 2026\n\nOverall, more kids took part in 2026, and a larger share of them finished the challenge.\n\nThe number of kids who signed up rose from 120 to 150, an increase of 30. The number who read all ten books rose from 30 to 54. As a result, the completion rate went up from 25% to 36%, an increase of 11 percentage points. Compared with 2025, the average number of books per kid also rose slightly, from 6.1 to 6.8.\n\nHowever, the figures don't show why completion improved. The app is one possible reason, but we didn't record how many kids used it, whereas in 2025 every kid used a paper log.\n\nBefore we decide on the $1,200 fee, I suggest we record next summer which kids use the app and compare their completion rate with the rate for kids who use paper logs."
+      ],
+      "explanation": "Засчитывается, если есть все шесть частей и цифры совпадают с M1. Разница долей названа percentage points, приложение — только возможной причиной. Слово significant лучше не брать: статистику никто не проверял.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Волонтёр сказал на собрании: “Completion went up by 11 percent, right?” Объясни ему голосом за 1–2 минуты, не глядя в M1: какие были доли в оба года; почему это 11 процентных пунктов, а не 11 процентов; сколько это относительно старта; чего цифры не показывают. В конце задай ему проверочный вопрос.",
+      "context": "",
+      "hint": "Начни так: Not exactly. In 2025, 30 out of 120 kids finished …",
+      "answers": [
+        "Not exactly. In 2025, 30 out of 120 kids finished the challenge, so the completion rate was 25 percent. In 2026, 54 out of 150 finished, which is 36 percent. If we subtract 25 from 36, we get 11. That's 11 percentage points, because it's the gap between two percentages. Eleven percent would mean something different. Eleven percent of 25 is less than 3, so the rate would only be about 28 percent. If you compare the change with where we started, it's actually a 44 percent increase, because 11 is 44 percent of 25. Both numbers are true, but they answer different questions. One more thing: these figures don't show why more kids finished. The app might have helped, but we didn't track who used it. So, quick check: if a rate goes from 40 to 50 percent, how many percentage points is that?"
+      ],
+      "explanation": "Засчитывается, если по памяти названы обе доли, разница объяснена как percentage points, рост относительно старта посчитан (44%), сказано, чего цифры не показывают, и в конце есть проверочный вопрос. Расшифровка голоса покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Команде волонтёров нужен итог в общий чат. Напиши по M1 два предложения: размер групп в оба года, доли дочитавших, разница между ними и главное ограничение.",
+      "context": "",
+      "hint": "Первое предложение — цифры с compared with, второе — чего мы не знаем.",
+      "answers": [
+        "This summer, 54 out of 150 kids finished the reading challenge (36%), compared with 30 out of 120 last year (25%), an increase of 11 percentage points. We don't know yet whether the new app helped, because we didn't track who used it."
+      ],
+      "explanation": "Засчитывается, если в двух предложениях есть обе группы с размером, обе доли, разница в percentage points и ограничение про приложение. Новых выводов о причине быть не должно.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "id": "path-suggestions-offers",
+  "title": "Why don't we…? Do you want me to…?: предложить и ответить",
+  "subtitle": "Предложи план → предложи помощь → предложи вещь → ответь вежливо",
+  "level": "A2",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · A2",
+  "minutes": 30,
+  "goal": "Предложить другу план («Может, закажем пиццу?», «Как насчёт парка?»), предложить помощь («Хочешь, я тебя отвезу?») и вежливо согласиться или отказаться.",
+  "formula": "Let's go. · Why don't we take the bus? · How about going to the park? → Sounds good! · Do you want me to help? · Would you like some tea? → Yes, please. / No, thanks.",
+  "keyRule": {
+    "rule": "Сделаем вместе — Let's или Why don't we…? Сделаю для тебя — Do you want me to…?",
+    "example": "Why don't we order pizza? — может, закажем пиццу? Do you want me to order it? — мне заказать?",
+    "check": "Why don't we…? — не вопрос «почему», а предложение."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 1,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-future-plans"
+  ],
+  "recycles": [
+    "path-future-plans",
+    "path-something-anything"
+  ],
+  "teaches": [
+    "Let's + действие — прямо «давай»; Why don't we + действие? — мягкое предложение вопросом, не «почему»",
+    "Why don't you + действие? — совет другу: Why don't you call him?",
+    "How about + -ing или вещь: How about going to the park? How about Saturday?",
+    "Do you want me to…? — «хочешь, я…?»; вежливее Would you like me to…?; среди своих Want me to…?",
+    "Shall I…? и Shall we…? у американцев редки; вместо них Should I…? или Do you want me to…?",
+    "Would you like + вещь — предложить; Would you like to + действие — пригласить",
+    "ответы: Sounds good! That's a good idea! Yes, please. No, thanks. I'd love to! I'd love to, but… Maybe another time.",
+    "слова: order, join us, drive you, carry, take a break, another time"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: Making and Responding to Suggestions",
+      "url": "https://learningenglish.voanews.com/a/making-and-responding-to-suggestions/4266045.html",
+      "notes": "Сверено: How about + -ing или + человек и действие; What about у американцев реже; Why don't we + начальная форма; Let's — утверждение, не вопрос; Shall — официальнее и чаще в британском, только с I и we; ответы That sounds good, That's a good idea, I'd love to, отказ с новым вариантом."
+    },
+    {
+      "title": "British Council · Requests, offers and invitations",
+      "url": "https://learnenglish.britishcouncil.org/comment/180471",
+      "notes": "Сверено: Would you like (to)… — обычное приглашение, Can I… и I'll… — предложение помощи. В ответе редакции в комментариях: в американском shall в предложениях почти не используют, вместо него should или Do you want…"
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Кто будет действовать?",
+    "why": "Let's и Why don't we зовут сделать вместе. Do you want me to предлагает сделать за тебя. Would you like предлагает тебе вещь.",
+    "items": [
+      {
+        "label": "Вместе — прямо",
+        "en": "Let's take the bus.",
+        "ru": "Давай поедем на автобусе.",
+        "note": "Let's: говорящий уже почти решил."
+      },
+      {
+        "label": "Вместе — мягко",
+        "en": "Why don't we take the bus?",
+        "ru": "Может, поедем на автобусе?",
+        "note": "Не «почему»: это предложение вопросом."
+      },
+      {
+        "label": "Я сделаю для тебя",
+        "en": "Do you want me to drive?",
+        "ru": "Хочешь, я поведу?",
+        "note": "Me to — «чтобы я»."
+      },
+      {
+        "label": "Даю тебе",
+        "en": "Would you like some water?",
+        "ru": "Хотите воды?",
+        "note": "Would you like — вежливо предлагаем вещь."
+      }
+    ],
+    "footnote": "Ответы: на план — Sounds good!, на вещь или помощь — Yes, please или No, thanks, на приглашение — I'd love to!",
+    "focus": [
+      "Let's",
+      "Why don't we",
+      "Do you want me to",
+      "Would you like"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как предложить, а не приказать?",
+      "body": "Пятница, вечер. Вы с другом не знаете, чем заняться. По-русски говорим: «Давай сходим в кино», «Может, закажем пиццу?».\n\nLet's ты уже знаешь: Let's go to the movies — «давай сходим в кино». Это прямое предложение: ты уже почти решил.\n\nМягче — вопросом: Why don't we order pizza? Дословно «почему бы нам не заказать пиццу?». Это не вопрос «почему» и не отрицание: никто не спрашивает причину. По-русски это «может, закажем пиццу?». После Why don't we — действие в начальной форме, как после do в любом вопросе.\n\nWhy don't you…? — то же, но о другом человеке. Это совет: Why don't you call him? — «Может, позвонишь ему?»"
+    },
+    {
+      "title": "How about + -ing: «как насчёт…»",
+      "body": "How about — «как насчёт». После него — вещь, день или действие с -ing: How about pizza? How about Saturday? How about going to the park? — «Может, сходим в парк?» -ing здесь не значит «сейчас»: going просто называет действие, как «пойти». Сказать How about go — ошибка. What about означает то же, но у американцев звучит реже."
+    },
+    {
+      "title": "Предложить помощь: Do you want me to…?",
+      "body": "Подруга несёт тяжёлые сумки. «Я помогу» — I'll help you, из урока про will. Если спрашиваешь, нужна ли помощь, говори Do you want me to help? — «Хочешь, я помогу?». Дословно «ты хочешь, чтобы я помог?»: me to — «чтобы я». С незнакомыми вежливее Would you like me to…? Среди своих коротко: Want me to…?\n\nВ учебниках часто встречается Shall I help you? Американцы так почти не говорят: звучит официально или по-британски. Вместо этого — Should I…?: Should I call a taxi? — «Мне вызвать такси?»"
+    },
+    {
+      "title": "Предложить вещь и пригласить: Would you like…?",
+      "body": "Would you like something to drink? ты уже встречал в уроке про something. Would you like + вещь — вежливо предложить: Would you like some coffee? — «Хотите кофе?» Would you like to + действие — пригласить: Would you like to come to dinner on Saturday? — «Хочешь прийти на ужин в субботу?» To здесь обязателен, а после Let's и Why don't we его нет. Would you like звучит вежливее, чем Do you want."
+    },
+    {
+      "title": "Как сказать «да» и «нет»",
+      "body": "Согласиться с планом: Sounds good! / Sounds great! / That's a good idea! На приглашение — I'd love to! — «с удовольствием!» (I'd — это I would). На предложение вещи или помощи — Yes, please. Отказаться: No, thanks или No, thank you, I'm OK. На приглашение: I'd love to, but I can't. I'm busy on Saturday. Maybe another time? — «Может, в другой раз?» Просто No звучит резко: добавь thanks или причину. На Would you like…? не отвечают Yes, I like: это значит «да, мне вообще нравится»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Why don't we meet at the park?",
+      "ru": "Может, встретимся в парке?",
+      "why": "Why don't we — мягкое предложение. Meet в начальной форме."
+    },
+    {
+      "en": "How about Saturday?",
+      "ru": "Как насчёт субботы?",
+      "why": "После How about можно поставить просто день или вещь, без действия."
+    },
+    {
+      "en": "How about going for a walk?",
+      "ru": "Может, прогуляемся?",
+      "why": "После How about действие с -ing: going."
+    },
+    {
+      "en": "Why don't you take a break?",
+      "ru": "Может, отдохнёшь немного?",
+      "why": "Why don't you — совет другому человеку. Take a break — сделать перерыв."
+    },
+    {
+      "en": "Do you want me to carry that?",
+      "ru": "Хочешь, я это понесу?",
+      "why": "Me to carry — «чтобы я понёс». Carry — нести."
+    },
+    {
+      "en": "Would you like to join us?",
+      "ru": "Хочешь пойти с нами?",
+      "why": "Would you like to — приглашение: to перед действием обязателен. Join us — присоединиться к нам."
+    },
+    {
+      "en": "I'd love to, but I'm working on Sunday.",
+      "ru": "С удовольствием бы, но в воскресенье я работаю.",
+      "why": "Вежливый отказ: сначала I'd love to, потом причина. I'm working — договорённость, как в уроке про планы."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с другом решаете, где поужинать. Предложи мягко: «Может, закажем пиццу?» order = заказать.",
+      "context": "",
+      "guidance": {
+        "title": "Мягко вместе — Why don't we…?",
+        "body": "Why don't we + действие — предложение вопросом. Слово why здесь не спрашивает причину. Действие идёт в начальной форме.",
+        "example": "Why don't we watch a movie?",
+        "translation": "Может, посмотрим фильм?"
+      },
+      "hint": "Начни так: Why don't we … ? Что вы сделаете с пиццей?",
+      "answers": [
+        "Why don't we order pizza?",
+        "Why don't we order a pizza?",
+        "Why don't we order some pizza?"
+      ],
+      "explanation": "Why don't we order…? — «может, закажем…?». Let's order pizza тоже предложение, но прямое, а здесь просили мягко."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг зовёт в кино, а на улице отличная погода. Предложи другое: «Как насчёт того, чтобы сходить в парк?»",
+      "context": "",
+      "guidance": {
+        "title": "How about + -ing",
+        "body": "How about — «как насчёт». Если дальше действие, добавь к нему -ing: go → going. Без -ing фраза ломается.",
+        "example": "How about having lunch outside?",
+        "translation": "Может, пообедаем на улице?"
+      },
+      "hint": "Начни так: How about … ? Что станет с go?",
+      "answers": [
+        "How about going to the park?",
+        "How about going to the park instead?",
+        "What about going to the park?"
+      ],
+      "explanation": "После How about действие стоит с -ing: going. What about going… тоже верно, но у американцев звучит реже."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега жалуется: I'm so tired. Посоветуй: «Может, пойдёшь домой пораньше?» early = рано, пораньше.",
+      "context": "",
+      "guidance": {
+        "title": "Совет другу — Why don't you…?",
+        "body": "Замени we на you, и предложение станет советом: действовать будет другой человек. Строится так же: Why don't you + действие.",
+        "example": "Why don't you call her?",
+        "translation": "Может, позвонишь ей?"
+      },
+      "hint": "Начни так: Why don't you … ? «Домой» — home, без to.",
+      "answers": [
+        "Why don't you go home early?",
+        "Why don't you go home early today?"
+      ],
+      "explanation": "Why don't you go…? — мягкий совет. Home после go без to, как в уроке про прошлое: I went home."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: Why don't we go to the beach on Saturday? Откажись вежливо и предложи воскресенье: «С удовольствием бы, но в субботу я работаю. Как насчёт воскресенья?» beach = пляж.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: договорённость — am + -ing",
+        "body": "Как в уроке про планы: то, что уже назначено, — I'm working on Saturday. Отказ начни с I'd love to, but… Потом предложи свой день через How about.",
+        "example": "I'd love to, but I'm having dinner with my mom on Friday. How about Thursday?",
+        "translation": "С удовольствием бы, но в пятницу я ужинаю с мамой. Как насчёт четверга?"
+      },
+      "hint": "Три части: I'd love to, but … / I'm … on Saturday. / How about …?",
+      "answers": [
+        "I'd love to, but I'm working on Saturday. How about Sunday?",
+        "I'd love to, but I work on Saturday. How about Sunday?",
+        "I would love to, but I'm working on Saturday. How about Sunday?",
+        "I'd love to, but I'm working on Saturday. What about Sunday?"
+      ],
+      "explanation": "I'd love to, but… — вежливый отказ. I'm working — договорённость на субботу; I work on Saturday тоже верно, если это обычный график. How about Sunday? — новый вариант."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга опаздывает в аэропорт. Предложи: «Хочешь, я тебя отвезу?» drive you = отвезти тебя на машине.",
+      "context": "",
+      "guidance": {
+        "title": "Сделаю за тебя — Do you want me to…?",
+        "body": "Me to — «чтобы я». Do you want me to drive? — дословно «ты хочешь, чтобы я повёз?». I здесь превращается в me.",
+        "example": "Do you want me to call a taxi?",
+        "translation": "Хочешь, я вызову такси?"
+      },
+      "hint": "Начни так: Do you want me … ? Не забудь to перед действием.",
+      "answers": [
+        "Do you want me to drive you?",
+        "Do you want me to drive you to the airport?",
+        "Want me to drive you?",
+        "Would you like me to drive you?",
+        "Would you like me to drive you to the airport?"
+      ],
+      "explanation": "Do you want me to…? — обычное предложение помощи. Want me to…? — короче, среди своих; Would you like me to…? — вежливее."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В старом учебнике фраза: Shall I open the window? Перепиши её так, как скорее скажет американец, — двумя способами.",
+      "context": "",
+      "guidance": {
+        "title": "Shall I → Should I / Do you want me to",
+        "body": "Shall I…? в США звучит официально или по-британски. Американец спросит Should I…? — «Мне…?» или Do you want me to…?",
+        "example": "Should I bring some food? / Do you want me to bring some food?",
+        "translation": "Мне принести еды? / Хочешь, я принесу еды?"
+      },
+      "hint": "Первый способ: замени Shall на одно слово. Второй: Do you want me … ?",
+      "answers": [
+        "Should I open the window? Do you want me to open the window?",
+        "Should I open the window? / Do you want me to open the window?",
+        "Should I open the window? Would you like me to open the window?",
+        "Do you want me to open the window? Should I open the window?"
+      ],
+      "explanation": "Should I…? и Do you want me to…? — обычные американские предложения помощи. Would you like me to…? — тоже верно, вежливее."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "К тебе пришла гостья. Предложи: «Хотите кофе или чаю?»",
+      "context": "",
+      "guidance": {
+        "title": "Предложить вещь — Would you like…?",
+        "body": "Would you like + вещь — вежливое предложение, мягче, чем Do you want. Some перед вещью делает вопрос дружелюбнее: ты готов дать.",
+        "example": "Would you like a cookie?",
+        "translation": "Хочешь печенье?"
+      },
+      "hint": "Начни так: Would you like … ? Какое слово между вещами — or?",
+      "answers": [
+        "Would you like some coffee or tea?",
+        "Would you like coffee or tea?",
+        "Would you like some coffee or some tea?"
+      ],
+      "explanation": "Would you like…? — вежливо предложить. Some можно поставить или пропустить. Do you want coffee or tea? тоже понятно, но проще и менее вежливо."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Пригласи новую коллегу: «Хотите пообедать с нами?» join us for lunch = пообедать с нами.",
+      "context": "",
+      "guidance": {
+        "title": "Пригласить — Would you like to + действие",
+        "body": "Если предлагаешь не вещь, а действие, после like нужен to. После Let's и Why don't we to нет, а здесь без него нельзя.",
+        "example": "Would you like to come to my party?",
+        "translation": "Хочешь прийти ко мне на вечеринку?"
+      },
+      "hint": "Начни так: Would you like to … ?",
+      "answers": [
+        "Would you like to join us for lunch?",
+        "Would you like to have lunch with us?",
+        "Would you like to join us for lunch today?"
+      ],
+      "explanation": "Would you like to join us? — приглашение: to перед действием обязателен. Have lunch with us — тоже верно."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг написал: How about go to the movies? Or why we don't watch something at home? Исправь две ошибки и напиши текст целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь два предложения",
+        "body": "После How about действие идёт с -ing. Why don't we — готовый вопрос: don't стоит перед we, как в любом вопросе с do.",
+        "example": "How about cooking dinner? Or why don't we order something?",
+        "translation": "Может, приготовим ужин? Или закажем что-нибудь?"
+      },
+      "hint": "Что добавить к go? И где должно стоять don't — до we или после?",
+      "answers": [
+        "How about going to the movies? Or why don't we watch something at home?",
+        "How about going to the movies? Or, why don't we watch something at home?"
+      ],
+      "explanation": "How about going — после How about нужна -ing форма. Why don't we watch — don't перед we. Something в предложении — как в уроке про something."
+    },
+    {
+      "id": "e10",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ответь коротко на три фразы по порядку: 1) Would you like some cake? — вежливо откажись. 2) Let's take a taxi. — согласись. 3) Would you like to come to my party on Friday? — прими приглашение с удовольствием.",
+      "context": "",
+      "guidance": {
+        "title": "Какой ответ к какому предложению",
+        "body": "На вещь или помощь — Yes, please или No, thanks. На план — Sounds good! или That's a good idea! На приглашение — I'd love to!",
+        "example": "Would you like some water? — Yes, please. Let's go home. — Sounds good!",
+        "translation": "Хочешь воды? — Да, пожалуйста. Пойдём домой. — Давай!"
+      },
+      "hint": "Отказ на торт — с thank you. План — Sounds … Приглашение — I'd …",
+      "answers": [
+        "No, thank you. Sounds good! I'd love to!",
+        "No, thanks. Sounds good! I'd love to!",
+        "No, thank you. Sounds great! I'd love to!",
+        "No, thank you, I'm OK. Sounds good! I'd love to!",
+        "No, thanks. That's a good idea! I'd love to!",
+        "No, thank you. OK, sounds good! I'd love to!"
+      ],
+      "explanation": "No, thank you — вежливый отказ от вещи. Sounds good или That's a good idea — согласие с планом. I'd love to — «с удовольствием» на приглашение."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "В общем чате друг спрашивает: What should we do on Saturday? Напиши 3–4 фразы: предложи два разных плана и предложи сам что-то сделать — купить билеты или забронировать столик. book a table = забронировать столик.",
+      "context": "What should we do? — «Чем займёмся?»",
+      "hint": "Начни так: Why don't we … ? Потом: Or how about …? В конце: Do you want me to …?",
+      "answers": [
+        "Why don't we go to the new museum? Or how about having a picnic in the park? Do you want me to buy the tickets?",
+        "Let's try the new Thai restaurant downtown! Or how about going bowling after that? Do you want me to book a table for seven?"
+      ],
+      "explanation": "Засчитывается, если есть два предложения плана (Let's, Why don't we или How about + -ing) и одно предложение помощи — Do you want me to…? или Should I…?"
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "К тебе домой пришёл друг. Скажи вслух 3–4 фразы: предложи ему напиток, предложи взять его куртку и предложи план на вечер. jacket = куртка, take your jacket = взять твою куртку.",
+      "context": "",
+      "hint": "Опора: Would you like …? Do you want me to …? Why don't we …?",
+      "answers": [
+        "Hi, come in! Would you like some tea? Do you want me to take your jacket? Why don't we watch a movie tonight?",
+        "Welcome! Would you like something to drink? Want me to take your jacket? How about ordering pizza and playing a game?"
+      ],
+      "explanation": "Засчитывается, если есть предложение вещи (Would you like…?), помощи (Do you want me to…?) и плана (Why don't we, Let's или How about + -ing)."
+    }
+  ]
+}

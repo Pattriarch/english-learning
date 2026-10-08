@@ -1,0 +1,337 @@
+{
+  "id": "path-passive-reporting",
+  "title": "It is believed that…, he is said to…: «говорят» и «считается» в новостях",
+  "subtitle": "It is said that + фраза → начать с героя: he is said to → to have done — было раньше → в разговоре: people say, is supposed to",
+  "level": "B2",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Передать версию или слух, не называя, кто так говорит, — как в новостях: «Считается, что пожар начался на кухне», «Говорят, он живёт в Майами».",
+  "formula": "People say he lives in Miami. → It is said that he lives in Miami. → He is said to live in Miami.",
+  "guided": true,
+  "keyRule": {
+    "rule": "Передаёшь «говорят» или «считается», не называя кто, — It is said that… или He is said to…",
+    "example": "He is said to live in Miami — говорят, он живёт в Майами.",
+    "check": "Было раньше, чем об этом говорят? Тогда to have + третья форма: is said to have left."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-passive-basic",
+    "path-reported-speech",
+    "path-modal-perfect"
+  ],
+  "recycles": [
+    "path-modal-perfect",
+    "path-reported-speech"
+  ],
+  "teaches": [
+    "It is said / believed / reported that + целая фраза — «говорят, считается, сообщают, что…»",
+    "кто/что + is said / believed / expected + to + глагол: He is said to live in Miami",
+    "не смешивать два способа: не He is said that he…",
+    "is expected to — о будущем, без will: Prices are expected to rise",
+    "to be + -ing — идёт сейчас: Police are reported to be searching the area",
+    "to have + третья форма — случилось раньше: The thief is believed to have left the city",
+    "в разговоре: People say…, I heard…, be supposed to («говорят», «обещают дождь»)",
+    "reportedly — по сообщениям, allegedly — якобы",
+    "слова: believe, report, expect, mayor, announce, robber, escape, rescuers, hikers, suspect"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Advanced passives review (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-passives-review",
+      "notes": "Сверено: два образца с глаголами say, believe, report, expect, think, know, consider — It is estimated that… и Millions of people are estimated to…; после to — простая форма (то же время), to have + третья форма (раньше), to be + -ing (идёт сейчас)."
+    },
+    {
+      "title": "Инглекс · Complex Subject (сложное подлежащее)",
+      "url": "https://englex.ru/complex-subject/",
+      "notes": "Объяснение для русскоговорящих: She is said to be…, Ben is said to have passed…, She is reported to be working…; по-русски переводится безличным «говорят», «считается», «сообщают», «ожидается», а не дословно."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна новость — три способа",
+    "why": "Смысл везде один: мост обошёлся в 2 миллиарда долларов, но говорящий не уверен и не называет источник. Меняется только то, с чего начинается фраза.",
+    "items": [
+      {
+        "label": "В разговоре",
+        "en": "People say the bridge cost $2 billion.",
+        "ru": "Говорят, мост обошёлся в 2 миллиарда долларов.",
+        "note": "Так скажешь другу."
+      },
+      {
+        "label": "Новости · It … that",
+        "en": "It is said that the bridge cost $2 billion.",
+        "ru": "Говорят, что мост обошёлся в 2 миллиарда долларов.",
+        "note": "После that — обычная фраза."
+      },
+      {
+        "label": "Новости · с героя",
+        "en": "The bridge is said to have cost $2 billion.",
+        "ru": "Говорят, мост обошёлся в 2 миллиарда долларов.",
+        "note": "Стройка была раньше — to have cost."
+      }
+    ],
+    "footnote": "Cost → cost → cost: все три формы одинаковые.",
+    "focus": [
+      "People say",
+      "It is said that",
+      "is said to have"
+    ]
+  },
+  "sections": [
+    {
+      "title": "«Говорят, что…», «считается, что…» — как это сказать по-английски",
+      "body": "Ты читаешь американские новости: The fire is believed to have started in the kitchen. По-русски: «Считается, что пожар начался на кухне». Журналист не уверен до конца и не называет, кто так считает: пожарные, полиция или соседи.\n\nПо-русски для этого есть «говорят», «считается», «сообщают», «ожидается». По-английски так работают say, believe (считать, полагать), think, report (сообщать), expect (ожидать), know — в пассиве: is said, is believed, is reported, is expected.\n\nВ разговоре с другом проще: People say…, I heard… Пассив с said и believed — язык новостей, отчётов и путеводителей."
+    },
+    {
+      "title": "Первый способ: It is said that + обычная фраза",
+      "body": "It + is said / believed / reported + that + целая фраза со своим «кто» и глаголом: It is believed that the fire started in the kitchen — считается, что пожар начался на кухне.\n\nIt здесь пустое слово, как в It's cold. Его не переводят. That можно пропустить, как после said в пересказе.\n\nIs или was зависит от того, когда так считали: It was reported that the road was closed — сообщалось, что дорога закрыта.\n\nЭтот способ звучит официально. В американских новостях чаще встречается второй."
+    },
+    {
+      "title": "Второй способ: начать с героя новости",
+      "body": "Американские журналисты обычно начинают с того, о ком новость: The mayor is expected to announce the plan on Monday — ожидается, что мэр объявит план в понедельник.\n\nФорма: кто или что + is/are + said, believed, expected + to + глагол. По-русски фраза начинается со «считается», а по-английски — с мэра. «Считается» прячется внутрь: is believed.\n\nIs expected to почти всегда о будущем, но will после него не ставят: Prices are expected to rise — ожидается, что цены вырастут.\n\nДва способа не смешивают: The mayor is said that he… — ошибка. Либо It is said that the mayor…, либо The mayor is said to…"
+    },
+    {
+      "title": "To live, to be living, to have lived: что когда случилось",
+      "body": "Глагол после to показывает, когда было дело по сравнению с моментом «говорят».\n\nВ то же время или обычно — начальная форма: He is said to live in Miami — говорят, он живёт в Майами.\n\nИдёт прямо сейчас — to be + -ing: Police are reported to be searching the area — сообщается, что полиция сейчас прочёсывает район.\n\nСлучилось раньше — to have + третья форма: The thief is believed to have left the city — считается, что вор уже уехал из города. Это та же пара have + третья форма, что в should have gone.\n\nОшибка: is believed to left. После to — только начальная форма или have: to leave, to have left."
+    },
+    {
+      "title": "Как это звучит в разговоре",
+      "body": "Другу не говорят It is said that… — это звучит как газета. В разговоре: People say…, They say…, I heard…: I heard the new place downtown is great.\n\nЧастое американское выражение — be supposed to: This movie is supposed to be really good — говорят, фильм очень хороший. It's supposed to rain tomorrow — завтра обещают дождь. Но You're supposed to be at work значит «ты должен быть на работе». Какой смысл — видно по ситуации.\n\nВ новостях вместо целой конструкции бывает одно слово: reportedly — по сообщениям, allegedly — якобы (вину ещё не доказали): The man allegedly stole $5,000."
+    }
+  ],
+  "examples": [
+    {
+      "en": "It is believed that the fire started in the kitchen.",
+      "ru": "Считается, что пожар начался на кухне.",
+      "why": "It ничего не значит. После that — обычная фраза в past simple."
+    },
+    {
+      "en": "The fire is believed to have started in the kitchen.",
+      "ru": "Считается, что пожар начался на кухне.",
+      "why": "Та же новость, но с героя. Пожар начался раньше, чем об этом говорят, — to have started."
+    },
+    {
+      "en": "The new stadium is expected to open in September.",
+      "ru": "Ожидается, что новый стадион откроется в сентябре.",
+      "why": "Речь о будущем, но без will: is expected to open."
+    },
+    {
+      "en": "The singer is said to be working on a new album.",
+      "ru": "Говорят, певица сейчас работает над новым альбомом.",
+      "why": "Работа идёт сейчас — to be working."
+    },
+    {
+      "en": "People say the owner lives in Florida.",
+      "ru": "Говорят, хозяин живёт во Флориде.",
+      "why": "Так скажешь другу. В новостях было бы The owner is said to live in Florida."
+    },
+    {
+      "en": "It's supposed to snow on Saturday.",
+      "ru": "В субботу обещают снег.",
+      "why": "Разговорное «говорят», «обещают» — be supposed to."
+    },
+    {
+      "en": "The suspect allegedly took $3,000 from the register.",
+      "ru": "Подозреваемый якобы взял из кассы 3000 долларов.",
+      "why": "Allegedly — так его обвиняют, но вину ещё не доказали."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты переводишь новость для англоязычного сайта своего города: «Считается, что авария произошла из-за тумана». Начни с It. accident — авария, happen — произойти, because of the fog — из-за тумана.",
+      "context": "",
+      "guidance": {
+        "title": "It is believed that + обычная фраза",
+        "body": "It — пустое начало, его не переводят. После that идёт целая фраза со своим «кто» и глаголом, как в пересказе She said that…",
+        "example": "It is reported that the bridge is closed.",
+        "translation": "Сообщается, что мост закрыт."
+      },
+      "hint": "Начни так: It is believed that the accident …",
+      "answers": [
+        "It is believed that the accident happened because of the fog.",
+        "It is believed that the fog caused the accident.",
+        "It's believed that the accident happened because of the fog.",
+        "It's believed that the fog caused the accident.",
+        "It is believed the accident happened because of the fog.",
+        "It is believed the fog caused the accident.",
+        "It is thought that the accident happened because of the fog.",
+        "It is thought that the fog caused the accident."
+      ],
+      "explanation": "It is believed that… — «считается, что…». Happened — обычное past simple без was: у happen пассива нет. That можно пропустить; is thought тоже верно."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь путеводитель по Бостону: «Говорят, что это самый старый бар в Америке». Начни с This bar. the oldest — самый старый.",
+      "context": "",
+      "guidance": {
+        "title": "Начни с героя: is said to + глагол",
+        "body": "Вместо It поставь то, о чём новость. После is said — to и глагол в начальной форме. По-русски «говорят» стоит в начале, по-английски оно внутри: is said.",
+        "example": "This hotel is believed to be haunted.",
+        "translation": "Считается, что в этом отеле водятся привидения."
+      },
+      "hint": "Начни так: This bar is said …",
+      "answers": [
+        "This bar is said to be the oldest bar in America.",
+        "This bar is said to be the oldest in America.",
+        "This bar is said to be the oldest bar in the country.",
+        "This bar is said to be the oldest bar in the United States.",
+        "This bar is said to be the oldest bar in the U.S."
+      ],
+      "explanation": "Бар — герой фразы, «говорят» превратилось в is said to. Is — так говорят сейчас, to be — бар старейший и сейчас."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утренние новости: «Ожидается, что в понедельник мэр объявит новый план по борьбе с пробками». Начни с мэра. mayor — мэр, announce — объявить, traffic plan — план по борьбе с пробками.",
+      "context": "",
+      "guidance": {
+        "title": "Is expected to — о будущем без will",
+        "body": "«Ожидается» — значит, речь о будущем. Но время уже показало is expected, поэтому после to глагол в начальной форме, без will.",
+        "example": "The storm is expected to reach Florida tonight.",
+        "translation": "Ожидается, что шторм дойдёт до Флориды сегодня ночью."
+      },
+      "hint": "Есть ли место для will после to?",
+      "answers": [
+        "The mayor is expected to announce a new traffic plan on Monday.",
+        "The mayor is expected to announce the new traffic plan on Monday.",
+        "The mayor is expected to announce a new plan to fight traffic on Monday.",
+        "On Monday, the mayor is expected to announce a new traffic plan."
+      ],
+      "explanation": "Is expected to announce — «ожидается, что объявит». The mayor is expected to will announce — ошибка: после to идёт начальная форма."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сообщение полиции в новостях: «Считается, что грабитель сбежал через окно на кухне». Начни с грабителя. robber — грабитель, escape — сбежать.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем should have gone: to have + третья форма",
+        "body": "Вспоминаем should have gone: have + третья форма смотрит в прошлое. После is believed to та же пара: побег случился раньше, чем об этом стали говорить.",
+        "example": "The painting is thought to have disappeared in 1990.",
+        "translation": "Считается, что картина пропала в 1990 году."
+      },
+      "hint": "Побег был до того, как полиция так решила. Какая пара нужна после to?",
+      "answers": [
+        "The robber is believed to have escaped through the kitchen window.",
+        "The robber is believed to have escaped through a kitchen window.",
+        "The robber is believed to have escaped through the window in the kitchen.",
+        "The robber is thought to have escaped through the kitchen window.",
+        "The robber is thought to have escaped through a kitchen window.",
+        "The robber is thought to have escaped through the window in the kitchen."
+      ],
+      "explanation": "To have escaped показывает, что побег уже случился. Is believed to escape значило бы «обычно сбегает» — это не тот смысл."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новости из Колорадо: «Сообщается, что спасатели сейчас ищут двух туристов в горах». Начни со спасателей. rescuers — спасатели, search for — искать, hikers — туристы.",
+      "context": "",
+      "guidance": {
+        "title": "Идёт сейчас — to be + -ing",
+        "body": "Поиск идёт прямо сейчас, как в present continuous. После is reported to ставь be + -ing. Спасателей много — are.",
+        "example": "The two companies are said to be talking about a deal.",
+        "translation": "Говорят, две компании сейчас обсуждают сделку."
+      },
+      "hint": "Начни так: Rescuers are reported to be …",
+      "answers": [
+        "Rescuers are reported to be searching for two hikers in the mountains.",
+        "Rescuers are reported to be searching for two hikers in the mountains now.",
+        "Rescuers are reported to be looking for two hikers in the mountains.",
+        "Rescuers are reported to be looking for two hikers in the mountains now."
+      ],
+      "explanation": "To be searching — поиск идёт сейчас. To search значило бы «обычно ищут», to have searched — «уже искали»."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты прочитал в местной газете: The Rose Café is said to be closing next month. Скажи подруге по-разговорному, без is said: «Говорят, кафе Rose Café в следующем месяце закрывается». Начни с I heard или People say.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем пересказ: из газеты в разговор",
+        "body": "Вспоминаем пересказ: если новость верна и сейчас, время не сдвигают. Так же после People say и I heard — дальше обычная фраза. Is said to оставь для новостей.",
+        "example": "I heard the new gym downtown is really good.",
+        "translation": "Говорят, новый спортзал в центре очень хороший."
+      },
+      "hint": "Начни так: I heard the Rose Café …",
+      "answers": [
+        "I heard the Rose Café is closing next month.",
+        "I heard the Rose Café's closing next month.",
+        "I heard that the Rose Café is closing next month.",
+        "I heard that the Rose Café's closing next month.",
+        "People say the Rose Café is closing next month.",
+        "People say the Rose Café's closing next month.",
+        "People say that the Rose Café is closing next month.",
+        "People say that the Rose Café's closing next month.",
+        "They say the Rose Café is closing next month.",
+        "They say the Rose Café's closing next month."
+      ],
+      "explanation": "Другу говорят People say или I heard, а не is said to. Закрытие ещё впереди и новость верна сейчас, поэтому is closing без сдвига на was closing."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Стажёр в редакции написал заметку. Исправь три ошибки и перепиши текст целиком: The suspect is thought to left the country. The stolen painting is believed that it is worth $5 million. The museum is expected to reopening on Monday.",
+      "context": "suspect — подозреваемый, stolen painting — украденная картина, be worth — стоить, reopen — снова открыться.",
+      "guidance": {
+        "title": "Проверь, что стоит после to",
+        "body": "После to — начальная форма глагола или have + третья форма. И не смешивай способы: либо It is believed that…, либо X is believed to…",
+        "example": "The driver is said to have fallen asleep. It is believed that he was tired.",
+        "translation": "Говорят, водитель уснул. Считается, что он устал."
+      },
+      "hint": "Отъезд был раньше или сейчас? Можно ли после is believed поставить that it…?",
+      "answers": [
+        "The suspect is thought to have left the country. The stolen painting is believed to be worth $5 million. The museum is expected to reopen on Monday.",
+        "The suspect is thought to have left the country. It is believed that the stolen painting is worth $5 million. The museum is expected to reopen on Monday."
+      ],
+      "explanation": "To left → to have left: отъезд уже случился. Is believed that it… смешивает два способа — выбери один. После to нужна начальная форма: to reopen."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Соседка ведёт новостную страницу района, и её черновик звучит как разговор. Перепиши его в стиле новостей, без people say, people think и everyone expects: People say the old movie theater on Main Street was sold last month. People think the new owner is a restaurant company. Everyone expects the theater to close in December. People say workers are already removing the seats.",
+      "context": "remove the seats — снимать кресла.",
+      "hint": "Для каждой фразы реши: это было раньше, верно сейчас, будет или идёт прямо сейчас?",
+      "answers": [
+        "It is said that the old movie theater on Main Street was sold last month. The new owner is believed to be a restaurant company. The theater is expected to close in December. Workers are said to be removing the seats already.",
+        "The old movie theater on Main Street is said to have been sold last month. It is believed that the new owner is a restaurant company. The theater is expected to close in December. Workers are reported to be removing the seats already."
+      ],
+      "explanation": "Засчитывается, если во всех четырёх фразах нет people say и время передано верно: продажа была раньше (It is said that… was sold или is said to have been sold), владелец — сейчас (to be), закрытие впереди (is expected to close), работа идёт сейчас (to be removing). Been sold — пассив внутри to have: продали кинотеатр, а не он продал."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши заметку на 100–180 слов для новостной рассылки твоего дома или района о событии, которое ещё не подтверждено до конца: новый магазин, закрытие дороги, ремонт, новый владелец. В заметке: что известно точно; минимум три фразы с is said, is believed или is expected, из них одна — о том, что уже случилось (to have + третья форма); где читателям проверить новости.",
+      "context": "",
+      "hint": "Отдели факты от версий: факты — обычным past simple, версии — через is believed, is said, is expected.",
+      "answers": [
+        "Big changes on Oak Street\n\nThe grocery store on Oak Street closed on Friday, October 2. The owners put a sign on the door, but they did not give a reason. The store is believed to have lost money after the new supermarket opened downtown last spring. It is said that a coffee chain wants to rent the space, but nothing has been signed yet. Work on the building is expected to start in November. Until then, residents can shop at the farmers market. It is open every Saturday from 8 a.m. to 1 p.m. We will share more details when the new owner is confirmed. You can check for updates on the city website or call the building office at (312) 555-0148."
+      ],
+      "explanation": "Засчитывается, если факты отделены от версий, версий минимум три (is said, is believed, is expected или is reported), одна из них — с to have + третья форма, и есть, где проверить новости."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи другу вслух за 1–2 минуты о слухе или новости из твоего города или из интернета, в которой ты не уверен. В рассказе: что говорят — по-разговорному (people say, I heard, is supposed to); как то же написали бы в новостях — одна-две фразы с is said, is believed или is expected; что известно точно; что ты сам думаешь и почему сомневаешься.",
+      "context": "Сначала скажи без записи, потом прослушай себя: разговорные фразы и новостные не должны смешиваться в одной фразе.",
+      "hint": "Начни так: So, I heard something interesting about …",
+      "answers": [
+        "So, I heard something interesting about my neighborhood. People say a big tech company is moving into the old factory near the river. It's supposed to bring around five hundred jobs. The local news site was more careful. They wrote that the company is believed to have bought the building in the summer and that the office is expected to open next year. But what do we know for sure? Only that the factory was sold and that workers are cleaning it now. I'm not sure the rest is true. Nobody from the company has said anything, and the city hasn't confirmed it either. Rumors like this usually start when someone sees a truck with a logo. So I think we should wait for an official announcement before we get excited."
+      ],
+      "explanation": "Засчитывается, если есть разговорные people say, I heard или is supposed to, хотя бы одна новостная фраза с is said, believed или expected to и отделено то, что известно точно, от слухов."
+    }
+  ]
+}

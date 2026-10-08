@@ -50,7 +50,7 @@ export function initStudySession(state){
   window.addEventListener('planner-start',event=>{
     const {plan,block}=event.detail||{};if(!plan||!block||plan.day!==dateKey()||!plan.blocks?.some(b=>b.id===block.id))return;dismissPanel(false);
     const previous=session?.day===plan.day?session:null,totals=previous?.totals||{};
-    session={version:1,day:plan.day,blockId:block.id,title:block.title,minutes:block.minutes,href:block.href,seconds:Number(totals[block.id])||0,sinceBreak:previous?.sinceBreak||0,totals,stage:'study',breakSeconds:0,active:true,owner};
+    session={version:1,day:plan.day,blockId:block.id,...(block.step?{step:block.step}:{}),title:block.title,minutes:block.minutes,href:block.href,seconds:Number(totals[block.id])||0,sinceBreak:previous?.sinceBreak||0,totals,stage:'study',breakSeconds:0,active:true,owner};
     lastTick=Date.now();persist(true);paint();
   });
   window.addEventListener('storage',event=>{if(event.key!=='ew-draft:'+storageKey||!session?.active)return;if(storedOwner()!==owner){session={...session,active:false,owner:null};paint();toast('Таймер продолжен в другой вкладке.');}});

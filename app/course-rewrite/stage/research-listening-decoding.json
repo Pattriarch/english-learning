@@ -1,0 +1,347 @@
+{
+  "id": "research-listening-decoding",
+  "title": "Не расслышал: найти причину и проверить себя",
+  "subtitle": "Три причины пропуска → петля «слушаю — записываю — сверяю — слушаю снова» → две догадки вместо одной → рассказать о пробеле по-английски",
+  "level": "B1",
+  "group": "Аудирование и понимание",
+  "units": "Внешний аудит · Outcomes 3 · NGL Andrew Walkley listening article",
+  "minutes": 50,
+  "goal": "Когда в записи что-то не расслышал, понять почему — новое слово, знакомое слово в быстрой речи или пропущенное «не» — и проверить себя без самообмана: «I wasn't sure whether she said can or can't».",
+  "formula": "Слушаю без текста → пишу, что понял, и ставлю ? → слушаю кусок ещё раз → открываю текст → называю причину → позже слушаю снова",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Не расслышал — сначала найди причину: новое слово, знакомое слово в быстрой речи или потерянное «не».",
+    "example": "I knew the word, but I didn't recognize it — слово я знал, но на слух не узнал.",
+    "check": "Понял только с расшифровкой? Закрой её и послушай ещё раз позже."
+  },
+  "prerequisites": [
+    "research-connected-boundaries",
+    "path-listening-routine"
+  ],
+  "recycles": [
+    "path-polite-questions",
+    "path-repair-conversation"
+  ],
+  "teaches": [
+    "три причины пропуска: слово новое; слово знакомое, но в речи звучит иначе (слабое, слитое); все слова понятны, но потерялась связь — not, instead, if",
+    "петля проверки: без текста → записать понятое и ? → повтор короткого куска с соседними словами → расшифровка → назвать причину → позже снова без текста",
+    "понять с расшифровкой — ещё не понять на слух; проверка — новое прослушивание позже или похожая фраза другим голосом",
+    "держать две догадки до проверки: can или can't, fifteen или fifty",
+    "подсказки: can't — полный гласный и ударение; fifTEEN — ударение в конце и долгое ee, FIFty — в начале",
+    "фразы о пробеле: I didn't catch…, I missed the negative, I wasn't sure whether…, I understood it only after I read the transcript",
+    "в живом разговоре вместо повтора записи — переспросить: Sorry, did you say fifteen or fifty?"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Improve Your Listening Skills by Transcribing",
+      "url": "https://learningenglish.voanews.com/amp/education-tips-imrove-listening-by-transcribing/3393988.html",
+      "notes": "Сверен порядок: слушать короткий кусок без текста, записать услышанное, сравнить с расшифровкой, назвать, какие слова и звуки пропущены (два слова вместо одного, потерянное окончание), повторить."
+    },
+    {
+      "title": "VOA Learning English · Can and Can't: Hearing the Difference",
+      "url": "https://learningenglish.voanews.com/amp/can-and-can-t-hearing-the-difference-/5971519.html",
+      "notes": "Сверено: в can take гласный can ослаблен до /ə/, ударение на take; в can't take полный гласный /æ/ и ударение на can't; конечное t американцы часто заменяют короткой остановкой голоса."
+    },
+    {
+      "title": "VOA Learning English · How Do I Improve My Listening Skills? Part 2",
+      "url": "https://learningenglish.voanews.com/amp/how-do-i-improve-my-listening-skills-part-2-/5264093.html",
+      "notes": "Сверено: после прослушивания оценить, сколько понял, и задать вопрос о непонятом; незнакомое слово записать и проверить по контексту, а значение искать потом."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Три причины — три разных шага",
+    "why": "«У меня плохой слух» — не причина. Причина подсказывает, что делать дальше.",
+    "items": [
+      {
+        "label": "Слово новое",
+        "en": "The plumber is coming on Thursday.",
+        "ru": "Сантехник придёт в четверг.",
+        "note": "Plumber не знаешь и в тексте → словарь и свой пример."
+      },
+      {
+        "label": "Слово знакомое, звук другой",
+        "en": "Can you pick it up?",
+        "ru": "Можешь это забрать?",
+        "note": "Слышал «пи-ки-тап» → сравни звук с текстом, повтори кусок."
+      },
+      {
+        "label": "Слова понятны, связь потеряна",
+        "en": "You don't need to be home.",
+        "ru": "Тебе не нужно быть дома.",
+        "note": "Пропустил don't → смысл наоборот. Ищи not, instead, if."
+      }
+    ],
+    "footnote": "Бывает и четвёртое: всё расслышал, но длинную фразу с числами не удержал в памяти. Тогда записывай числа сразу.",
+    "focus": [
+      "plumber",
+      "pick it up",
+      "don't"
+    ]
+  },
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Сообщение из офиса дома / A voice message from the building office",
+      "kind": "listening",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Hi, this is Dana from the building office. I'm calling about the repair in your kitchen. The plumber can't come on Tuesday. He's coming on Thursday at ten thirty instead. You don't need to be home. Just leave your key at the front desk. The water will be off for about fifteen minutes, not the whole morning. If Thursday doesn't work for you, call me back at (312) 555-0148. Thanks!"
+    },
+    {
+      "id": "m2",
+      "title": "Сообщение коллеги / A voice message from Sam",
+      "kind": "listening",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Hey, it's Sam. Quick change for tomorrow. I can pick you up, but not at eight. Let's say eight fifteen. Main Street is closed for the parade, so we're taking the highway instead. Bring your laptop. You don't need the printed report; I've already sent it to the client. Text me if that doesn't work for you."
+    }
+  ],
+  "sections": [
+    {
+      "title": "«Не расслышал» — это три разные проблемы",
+      "body": "Тебе оставили голосовое из офиса дома. Ты понял: сантехник, четверг, ключ. Но придёт ли он во вторник? Нужно ли тебе быть дома?\n\nПрошлые два урока объясняли, как звучит быстрая речь: слабые маленькие слова и слипшиеся стыки. Этот урок — о том, что делать, когда кусок записи всё равно не понял.\n\nПричин обычно три. Первая: слово новое — ты не знаешь его и в тексте. Plumber — «сантехник». Вторая: слово знакомое, но в речи звучит иначе — коротко, слитно: can /kən/, pick it up «пи-ки-тап». Третья: все слова понятны, но потерялась связь — пропустил not, instead («вместо этого»), if.\n\nУ каждой причины свой следующий шаг. Новое слово — словарь и свой пример. Знакомое слово — сравнить звук с текстом и повторить кусок. Потерянная связь — найти короткое слово, которое меняет смысл, и пересказать фразу."
+    },
+    {
+      "title": "Петля проверки: слушаю → записываю → сверяю → слушаю снова",
+      "body": "1. Слушай без текста. Первый раз — кто говорит и зачем, как в уроке о голосовых сообщениях.\n2. Запиши, что понял. На месте неуверенности поставь ?. Если слышишь два варианта, запиши оба: can / can't?\n3. Послушай ещё раз короткий кусок — 3–5 секунд вместе с соседними словами, а не один звук. Хватит двух-трёх раз.\n4. Открой расшифровку — текст записи. Найди своё место и назови причину: новое слово, звук или связь.\n5. Закрой текст. Через 10 минут или на следующий день послушай снова без текста и перескажи главное.\n\nНе слушай один кусок двадцать раз подряд: после трёх попыток новой информации уже нет, пора открыть текст."
+    },
+    {
+      "title": "Понял с текстом — ещё не значит «понял на слух»",
+      "body": "Когда ты прочитал расшифровку, ты уже «слышишь» правильные слова: мозг знает ответ. Это полезный шаг — ты связываешь звук и текст. Но это не доказывает, что ты поймёшь фразу без текста. С субтитрами так же.\n\nНастоящая проверка — пятый шаг петли: послушать позже без текста. Ещё лучше — похожая фраза другим голосом, в другой записи.\n\nГраница: если знакомую запись ты слушал много раз, ты её уже помнишь. Тогда хороший результат на ней мало что значит — возьми новую."
+    },
+    {
+      "title": "Две догадки вместо одной: can или can't, fifteen или fifty",
+      "body": "Если не уверен, держи две догадки до проверки и не выбирай «более логичную». Самые частые пары — can / can't и числа на -teen / -ty.\n\nCan и can't. Из урока о связной речи: в утверждении can короткое /kən/, сильное — следующее действие. Can't звучит полностью, с /æ/, и само ударное, а t в конце часто не слышно. Если слово в конце фразы, оба звучат полностью — тогда помогает смысл соседних фраз: He's coming on Thursday instead — значит, во вторник он не может.\n\nFifteen и fifty. В fifTEEN ударение в конце и долгое «ии». В FIFty ударение в начале, а t звучит как мягкое d: «фифди».\n\nВ живом разговоре повторить запись нельзя. Тогда переспроси: Sorry, did you say fifteen or fifty?"
+    },
+    {
+      "title": "Как рассказать о своём пробеле по-английски",
+      "body": "Эти фразы нужны для дневника слушания и для разговора с преподавателем или другом.\n\nI didn't catch the time — я не расслышал время. I missed the negative — я пропустил «не». I knew the word, but I didn't recognize it — слово я знал, но на слух не узнал. I didn't know the word plumber — я не знал слова plumber. I wasn't sure whether she said can or can't — я не был уверен, сказала она can или can't. I understood it only after I read the transcript — я понял только после того, как прочитал расшифровку.\n\nПосле whether — «ли» — обычный порядок слов: whether she said, не whether did she say."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I didn't catch the time.",
+      "ru": "Я не расслышал время.",
+      "why": "Catch — «поймать» на слух. Названо конкретное место, а не «я ничего не понял»."
+    },
+    {
+      "en": "I missed the negative.",
+      "ru": "Я пропустил «не».",
+      "why": "Третья причина: слова понятны, но пропало слово, которое переворачивает смысл."
+    },
+    {
+      "en": "I knew the word, but I didn't recognize it.",
+      "ru": "Слово я знал, но на слух не узнал.",
+      "why": "Вторая причина: слово не новое, оно просто звучало коротко или слитно."
+    },
+    {
+      "en": "I wasn't sure whether she said can or can't.",
+      "ru": "Я не был уверен, сказала она «может» или «не может».",
+      "why": "Две догадки сохранены до проверки. После whether — обычный порядок: she said."
+    },
+    {
+      "en": "I understood it only after I read the transcript.",
+      "ru": "Я понял это только после того, как прочитал расшифровку.",
+      "why": "Честно отделяет понимание с текстом от понимания на слух."
+    },
+    {
+      "en": "Sorry, did you say fifteen or fifty?",
+      "ru": "Простите, вы сказали пятнадцать или пятьдесят?",
+      "why": "В живом разговоре так проверяют догадку: назвать оба варианта."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прослушай M1 один раз, расшифровку не открывай. Напиши по-английски 2–3 коротких предложения: кто звонит и о чём, и что ты понял точно. Место, в котором не уверен, отметь знаком ?.",
+      "context": "building office — офис управления домом; repair — ремонт.",
+      "guidance": {
+        "title": "Записывай понятое и ставь ?",
+        "body": "Пиши только то, что услышал. Неуверенное место не угадывай — поставь ? и, если есть два варианта, запиши оба через косую черту.",
+        "example": "Sam is calling about tomorrow. He can / can't (?) pick me up at eight.",
+        "translation": "Сэм звонит насчёт завтра. Он сможет / не сможет (?) забрать меня в восемь."
+      },
+      "hint": "Начни так: Dana from … is calling about … Потом: The plumber …",
+      "answers": [
+        "Dana from the building office is calling about the kitchen repair. The plumber is coming on Thursday at ten thirty. I'm not sure (?) whether I need to be home.",
+        "Dana is calling about the repair in the kitchen. The plumber can / can't (?) come on Tuesday. He's coming on Thursday."
+      ],
+      "explanation": "Засчитывается, если записаны кто звонит и зачем, хотя бы один точный факт и честно отмечено неуверенное место. Ошибок здесь нет: это первая запись, её проверишь дальше."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты сверяешь свою запись с расшифровкой и пишешь в дневник слушания. Напиши: «Слово я знал, но на слух не узнал».",
+      "context": "recognize — узнать.",
+      "guidance": {
+        "title": "Назови причину пропуска",
+        "body": "Причина «знакомое слово, другой звук» — самая частая. Её называют прямо: слово знал, но не узнал. Это значит, что учить нужно звук, а не значение.",
+        "example": "I didn't know the word, so I looked it up.",
+        "translation": "Я не знал этого слова, поэтому посмотрел в словаре."
+      },
+      "hint": "Начни так: I knew the word, but … Какое время у обоих глаголов?",
+      "answers": [
+        "I knew the word, but I didn't recognize it.",
+        "I knew the word, but I didn't recognize it when I heard it.",
+        "I knew this word, but I didn't recognize it."
+      ],
+      "explanation": "Обе части в прошедшем: knew, didn't recognize. Можно добавить when I heard it — «когда услышал»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Запиши в дневник свою неуверенность по M1: «Я не уверен, сказала она «может» или «не может»».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: whether — «ли»",
+        "body": "Вспоминаем: whether значит «ли», после него обычный порядок слов — she said. Так ты записываешь обе догадки и не выбираешь одну раньше проверки.",
+        "example": "I'm not sure whether he said Tuesday or Thursday.",
+        "translation": "Я не уверен, сказал он «во вторник» или «в четверг»."
+      },
+      "hint": "Начни так: I'm not sure whether she …",
+      "answers": [
+        "I'm not sure whether she said can or can't.",
+        "I'm not sure whether she said \"can\" or \"can't.\"",
+        "I am not sure whether she said can or can't.",
+        "I'm not sure if she said can or can't."
+      ],
+      "explanation": "После whether — she said, а не did she say. If вместо whether тоже звучит естественно."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Послушай ещё раз начало M1, до слова instead, расшифровку не открывай. Запиши точно фразу про вторник.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь догадку звуком и смыслом",
+        "body": "Две подсказки. Звук: can't полное и ударное, can — короткое. Смысл: следующая фраза. Если после неё идёт instead — «вместо этого», значит, первый план не получился.",
+        "example": "I can't make it at six. Let's meet at seven instead.",
+        "translation": "В шесть не успею. Давай лучше в семь."
+      },
+      "hint": "Что сказано сразу после фразы про вторник? Зачем там instead?",
+      "answers": [
+        "The plumber can't come on Tuesday.",
+        "The plumber cannot come on Tuesday."
+      ],
+      "explanation": "Can't звучит полностью и ударно, а следующая фраза — He's coming on Thursday instead. Если бы он мог во вторник, instead было бы не нужно."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Сосед по квартире тоже послушал M1 и записал: The water will be off for fifty minutes. Открой расшифровку M1. Исправь его запись и коротко назови причину ошибки по-английски.",
+      "context": "",
+      "guidance": {
+        "title": "Сверка с расшифровкой",
+        "body": "Найди в расшифровке то же место и сравни слово за словом. Потом выбери одну из трёх причин: новое слово, знакомое слово с другим звуком или потерянная связь.",
+        "example": "I wrote \"a way,\" but it was \"away.\" I knew the word, but I misheard it.",
+        "translation": "Я написал «a way», а было «away». Слово я знал, но расслышал не так."
+      },
+      "hint": "Fifteen или fifty — где ударение в каждом слове?",
+      "answers": [
+        "The water will be off for about fifteen minutes. He knew the word, but he misheard it.",
+        "The water will be off for about fifteen minutes, not the whole morning. It was a familiar word, but he misheard it.",
+        "The water will be off for about fifteen minutes. He misheard fifteen as fifty."
+      ],
+      "explanation": "В записи fifteen: ударение на TEEN, долгое «ии». Fifty — с ударением в начале и мягким t. Слово знакомое — значит, причина в звуке, а не в словаре."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Сосед спрашивает в чате: Do we have to stay home on Thursday? Ответь ему по M1 одной-двумя фразами: нужно ли быть дома и что сделать с ключом.",
+      "context": "",
+      "guidance": {
+        "title": "Не потеряй «не»",
+        "body": "Don't и doesn't в быстрой речи короткие, но переворачивают смысл. Проверь пересказ: если убрать не из твоей фразы, она станет ошибкой?",
+        "example": "We don't need to pay today. We can pay on Friday.",
+        "translation": "Сегодня платить не нужно. Можно заплатить в пятницу."
+      },
+      "hint": "Начни так: No, we don't …",
+      "answers": [
+        "No, we don't need to be home. We just leave the key at the front desk.",
+        "No, we don't have to be home. We can just leave our key at the front desk.",
+        "No. We don't need to be home; we just need to leave the key at the front desk."
+      ],
+      "explanation": "В M1: You don't need to be home. Just leave your key at the front desk. Don't need to и don't have to — оба значат «не нужно»."
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Ты перезваниваешь Дане из M1. Повторить запись нельзя, поэтому уточни вслух две вещи: пятнадцать минут или пятьдесят, и в четверг ли в десять тридцать.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: переспросить точное место",
+        "body": "Вспоминаем урок об уточнениях: назови оба варианта, и собеседник просто выберет. Вторую вещь проверь фразой Just to confirm — «просто чтобы уточнить».",
+        "example": "Sorry, did you say Tuesday or Thursday? Just to confirm, is it at nine?",
+        "translation": "Простите, вы сказали во вторник или в четверг? Просто уточню: в девять?"
+      },
+      "hint": "Начни так: Hi, this is … Sorry, did you say …",
+      "answers": [
+        "Hi Dana, this is Alex from apartment 4B. Sorry, did you say fifteen or fifty minutes? And just to confirm, is the plumber coming on Thursday at ten thirty?",
+        "Hi, it's about the kitchen repair. Did you say fifteen or fifty minutes? Just to confirm: Thursday at ten thirty?"
+      ],
+      "explanation": "Did you say … or …? показывает точное место. Just to confirm проверяет то, что ты уже понял. Fifteen и fifty говори с разным ударением: fifTEEN, FIFty."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Новая запись. Прослушай M2 два раза, расшифровку не открывай. Ты едешь с Сэмом и коллегой Ритой. Напиши Рите сообщение (40–80 слов): во сколько Сэм заберёт; почему поедете другой дорогой; что взять и чего не нужно. Если какое-то место не уверен, честно отметь его.",
+      "context": "pick up — заехать за кем-то; highway — шоссе; parade — парад; printed report — распечатанный отчёт.",
+      "hint": "План: Sam called. / He's picking us up at … / We're taking … because … / Bring … / We don't need …",
+      "answers": [
+        "Hi Rita, Sam called about tomorrow. He can pick us up, but at eight fifteen, not at eight. Main Street is closed for the parade, so we're taking the highway instead. Bring your laptop. We don't need the printed report, because Sam already sent it to the client. Text him if that doesn't work for you."
+      ],
+      "explanation": "Засчитывается, если верны четыре факта: 8:15, а не 8:00; шоссе из-за закрытой Main Street; ноутбук взять; отчёт не нужен. Отмеченное ? место лучше выдуманного факта. Ловушки M2 — can … but not и don't need."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "После сообщения Рите открой расшифровку M2 и запиши в свой дневник слушания (50–90 слов): что ты понял с первого раза; одно место, где ошибся или сомневался (если ошибок не было — какое место проверял); что показала расшифровка; причина — новое слово, звук или связь; что сделаешь дальше.",
+      "context": "",
+      "hint": "Опоры: On the first listen, I caught … / I wasn't sure whether … / The transcript says … / I knew the word, but … / Next, I'll …",
+      "answers": [
+        "On the first listen, I caught the time and the laptop. I wasn't sure whether Sam said he can or can't pick us up. The transcript says \"I can pick you up, but not at eight.\" I knew the words, but I missed how \"but not\" changes the time. Next, I'll listen again tomorrow without the text and try a new message with a similar change."
+      ],
+      "explanation": "Засчитывается, если запись описывает твою настоящую попытку: что понял, одно проверенное место, причину и следующий шаг. Не придумывай ошибку — если её не было, напиши, какое место ты проверил."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг жалуется: «Тексты понимаю, а подкасты — нет». Объясни ему голосом за 30–60 секунд, как работать с короткой записью: что делать в первый раз; что записывать; когда открывать текст; как понять причину пропуска; как проверить себя потом.",
+      "context": "",
+      "hint": "Опоры: First, … / Then, write down … / After two or three tries, open … / Ask yourself: … / Later, …",
+      "answers": [
+        "First, choose a short clip and listen once without the text. Just try to understand who is talking and why. Then write down what you heard and put a question mark where you're not sure. Listen to that short part again two or three times. After that, open the transcript and ask yourself why you missed it: was it a new word, a familiar word that sounded different, or a small word like \"not\"? Later, close the text and listen again without it."
+      ],
+      "explanation": "Засчитывается, если названы все пять шагов в верном порядке и три причины пропуска. Главное — расшифровку открывают после своих попыток, а проверяют себя новым прослушиванием без текста."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "extended-c2-register-performance",
+  "title": "Ремонтная мастерская на пробу: одно условное решение — другу, залу и совету",
+  "subtitle": "Каркас решения → другу → залу вслух → после перебивания → вопрос о деньгах и своих полномочиях → письмо совету",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Объяснить условное решение о пробной мастерской другу, жителям на встрече и совету так, чтобы условия, деньги и причины остановки остались те же; поправить слушателя, который понял «одобрено» как «точно будет», и ответить на вопрос о деньгах, не обещая чужого решения: «Approval lets us run the pilot; it doesn't guarantee six Saturdays», «I can…; I can't promise…; that decision belongs to…».",
+  "formula": "Approval means we're allowed to …, once … · It's planned, not guaranteed · The $9,600 is a ceiling, not a target · When you say …, I can see why. … · To go back to … · I can … · I can't promise … · That decision belongs to … · I propose …",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Обещай только то, что делаешь сам. Чужое решение не обещай — назови, кто его принимает.",
+    "example": "I can pass your request to the manager; I can't promise a refund. — Я могу передать вашу просьбу менеджеру; обещать возврат денег я не могу.",
+    "check": "Есть ли в твоём ответе обещание, которое зависит не от тебя?"
+  },
+  "prerequisites": [
+    "path-cross-register",
+    "path-register-b2",
+    "path-repair-conversation",
+    "extended-c1-public-explanation"
+  ],
+  "recycles": [
+    "path-cross-register",
+    "path-repair-conversation",
+    "extended-c1-public-explanation"
+  ],
+  "teaches": [
+    "каркас условного решения: что разрешено, условия запуска, план и деньги, причины остановки, что неизвестно",
+    "authorized ≠ will happen; planned ≠ guaranteed; ceiling ≠ spending target; резерв внутри предела, а не сверх",
+    "not yet может звучать как обещание; если исход открыт — сказать прямо",
+    "вслух: прямой ответ первым, условие в той же фразе; одно выделенное слово, но контраст — словами",
+    "поправка без обвинения: When you say…, I can see why → поправка → To go back to…",
+    "вопрос, ответ на который меняет следующий шаг: Has that message already been sent?",
+    "свои полномочия: I can… / I can't promise… / That decision belongs to…; признать трудность ≠ признать вину",
+    "письменный итог: решение, что сообщили люди (reported, not verified), твои предложения (I propose…)",
+    "слова: pilot, authorize, ceiling, reserve, stopping rule, treasurer, reimburse, deposit, liability"
+  ],
+  "sources": [
+    {
+      "title": "Digital.gov · Writing for understanding",
+      "url": "https://digital.gov/guides/plain-language/writing",
+      "notes": "Сверено: активный залог показывает, кто что должен сделать, а пассив часто прячет исполнителя. Отсюда правило называть, кто принимает каждое решение (the treasurer authorizes spending, the board decides continuation), и формула «могу / не могу / решает…»."
+    },
+    {
+      "title": "Digital.gov · Principles of plain language",
+      "url": "https://digital.gov/guides/plain-language/principles",
+      "notes": "Сверено: писать для конкретного читателя с учётом того, что он знает; длинный текст начинать с итога. Отсюда разные версии для Сэма, зала и совета и правило «прямой ответ первым»."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового: решение одно, а слушатели меняются по ходу встречи",
+      "body": "Maya координирует пробную ремонтную мастерскую (repair desk) в общественном центре. Совет района разрешил пилот — пробный запуск — с условиями. Ей нужно объяснить это другу, жителям на встрече и совету.\n\nИз урока о смене жанра ты знаешь: порядок и слова меняются под читателя, а опоры и сила must, may, only — нет. Новое здесь: сведения приходят в три этапа; ты говоришь вслух и не можешь отредактировать; слушатель понимает тебя неправильно и уже строит планы; а потом тебя просят пообещать то, что решаешь не ты. M3 открывай с задания e5, M4 — с e6.\n\nНачни с каркаса решения по M2 — пяти опор: что разрешено (пилот, а не постоянная услуга); два условия запуска; план и деньги; три причины остановить; что неизвестно (дата открытия, дата разбора итогов, продолжение). Любая версия для любого слушателя сохраняет все пять."
+    },
+    {
+      "title": "Разрешено — ещё не значит «точно будет»",
+      "body": "Authorized, approved — «разрешено». Will happen — «точно будет». Между ними — условия. Approval means we're allowed to run the pilot once both conditions are met. Это не значит, что пилот начнётся в назначенный день.\n\nЕщё три пары, которые легко спутать. Six planned sessions — «шесть по плану», а не six guaranteed sessions. Ceiling или spending limit — «потолок расходов»: больше нельзя. Это не spending target — «сумма, которую надо потратить». Reserve — резерв внутри потолка, а не сверх него: $9,600 — это всё вместе.\n\nОсторожно с not yet — «пока нет». We don't have an opening date yet звучит так, будто дата скоро появится. Если неизвестно, начнётся ли пилот вообще, скажи прямо: The launch depends on two conditions; until both are met, there's no date."
+    },
+    {
+      "title": "Вслух: ответ — первым, условие — рядом",
+      "body": "На встрече слушатель не может перечитать фразу. Поэтому сначала прямой ответ на его вопрос, условие — в той же фразе, потом подробности. Посетитель спрашивает, точно ли бассейн откроется в субботу. Ответ: Not for certain: it can open only after the inspection.\n\nИз урока об ударении: одно выделенное голосом слово показывает контраст — The date is PLANNED. Но контраст должен быть и в словах: planned, not confirmed. Если без ударения фраза звучит как обещание, перепиши фразу.\n\nВ расшифровках этого урока ПРОПИСНЫЕ буквы — слово, которое ты выделяешь, а / — пауза. Это твой план. Как ты на самом деле прозвучал, по тексту не проверить — для этого послушай запись."
+    },
+    {
+      "title": "Поправить слушателя и вернуться к мысли",
+      "body": "Leah поняла «одобрено и есть бюджет» как «шесть суббот гарантированы». Её не надо обвинять: You misunderstood me переводит разговор на её ошибку. Порядок из трёх шагов.\n\n1) Покажи, что услышал: When you say…, I can see why. 2) Поправь смысл: X lets us…; it doesn't… 3) Вернись к своей мысли: To go back to… — «возвращаясь к…».\n\nПотом задай вопрос, ответ на который меняет твой следующий шаг. Например, если неверные сведения могли уйти дальше: Has that message already been sent? Если да, поправку нужно отправить и тем, кто его получил. Вопрос Does that make sense? этого не даёт: на него отвечают «да», и ты ничего не узнаёшь."
+    },
+    {
+      "title": "Свои полномочия: могу, не могу, кто решает",
+      "body": "Покупатель требует у продавца вернуть деньги, а возврат решает менеджер по правилам магазина. Ответ в три части. I can… — что сделаешь сам: I can write down what happened and pass it to the manager today. I can't… — что не в твоей власти: I can't promise a refund. That decision belongs to… — кто решает и что известно о сроке: The manager decides under store policy; I don't know when. В M4 похожий вопрос зададут Maya.\n\nПризнать, что людям тяжело, — не то же, что признать вину. I understand that this money is at risk не обещает выплату.\n\nПисьмо совету после встречи разделяет три вещи: решение (что разрешено), что сообщили люди (Owen reported…, а не Owen paid…, пока чеки не проверены) и твои предложения (I propose…). Предложение не выдают за принятое решение."
+    }
+  ],
+  "examples": [
+    {
+      "en": "We can lend you the projector, provided it's back before the morning workshop.",
+      "ru": "Можем одолжить проектор при условии, что его вернут до утреннего семинара.",
+      "why": "Provided ставит условие прямо рядом с разрешением."
+    },
+    {
+      "en": "The board has approved a trial; it hasn't approved a permanent service.",
+      "ru": "Совет одобрил пробный запуск; постоянную услугу он не одобрял.",
+      "why": "Две параллельные части разделяют, что одобрено, а что нет."
+    },
+    {
+      "en": "The $9,600 is a ceiling, not a spending target.",
+      "ru": "$9,600 — это потолок расходов, а не сумма, которую надо потратить.",
+      "why": "Ceiling — больше нельзя; target — надо достичь. Смысл почти противоположный."
+    },
+    {
+      "en": "When you say the order is confirmed, I can see why it sounded that way. We've received it; we haven't confirmed the delivery date.",
+      "ru": "Когда вы говорите, что заказ подтверждён, я понимаю, почему так прозвучало. Мы его получили, но дату доставки ещё не подтвердили.",
+      "why": "Сначала показать, что услышал, потом поправить смысл — без «вы не поняли»."
+    },
+    {
+      "en": "To go back to the delivery date: it's planned, not confirmed.",
+      "ru": "Возвращаясь к дате доставки: она запланирована, но не подтверждена.",
+      "why": "Возврат к своей мысли после перебивания."
+    },
+    {
+      "en": "I can pass your request to the manager today. I can't promise a refund; that's her decision under store policy.",
+      "ru": "Я могу сегодня передать вашу просьбу менеджеру. Обещать возврат не могу: это её решение по правилам магазина.",
+      "why": "Своё действие обещано, чужое решение названо, но не обещано."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Встреча, этап 1 / The first question",
+      "kind": "dialogue",
+      "text": "Chair: Thanks for coming to the community center tonight. We're discussing the proposed Saturday repair desk, where residents could bring small household items and fix them with trained volunteers. Maya is coordinating the proposal. The board has sent out a decision sheet, but several residents have asked what it means in practice.\n\nLeah: I've read the notice twice. It says the board has approved a pilot, and then it lists conditions. I can't tell whether the desk is definitely happening or whether another decision is still needed. I'm not asking you to predict whether people will like it. I want to know what has actually been promised.\n\nChair: Which part matters most for your planning?\n\nLeah: Whether there's something definite to put on my calendar. I'd also like to know whether six sessions means we can count on all six once the first one happens. The notice mentions a spending limit but doesn't say whether it could affect the sessions. And if the trial goes well, is that the start of a regular service?\n\nChair: Maya, please explain the decision in plain language. We all have the decision sheet, so you don't need to read it aloud.",
+      "source": "Придумано для курса: встреча и люди вымышленные. Читай до первого ответа."
+    },
+    {
+      "id": "m2",
+      "title": "Решение совета / Decision sheet and three audiences",
+      "kind": "reference",
+      "text": "Decision status\nThe neighborhood board has authorized a limited repair-desk pilot. No further board vote is needed to start this pilot once both launch conditions are met: the community center must pass its safety inspection, and four trained volunteers must confirm that they are available for the full schedule. Neither condition has been met yet. The inspection date and the volunteers' confirmations are still outstanding, so no opening date can be announced.\n\nScope and money\nThe planned schedule is six weekly Saturday sessions, two hours each, with up to 24 residents per session. These are planned sessions, not a promise to deliver all six. The total spending limit is $9,600, which includes a $1,200 reserve for unexpected costs. The reserve is part of the limit, not extra money. All spending must be authorized by the treasurer; the coordinator cannot approve payments.\n\nStopping rules\nThe pilot must end immediately if a serious safety incident occurs. It must also end if the projected cost of the remaining sessions is more than the unspent part of the $9,600 limit. The third mandatory reason to end it is attendance below eight residents at two sessions in a row. One session below eight does not, by itself, end the pilot.\n\nReview\nAfter the pilot ends, the board will review attendance, feedback and actual spending. No review date has been promised. Positive feedback does not automatically approve a permanent service. Continuing would need a separate board decision; its timing and outcome are unknown.\n\nThree audiences\nYour friend Sam is thinking about going. Sam wants a direct explanation of what it means in practice and dislikes official jargon.\nThe board needs a short written record that separates what is authorized, the money limits, what is unresolved and any proposed next steps.\nResidents at the meeting know the proposal to different degrees. They need to hear the difference between approval, launch and continuation clearly enough to plan.",
+      "source": "Придумано для курса: решение и цифры вымышленные."
+    },
+    {
+      "id": "m3",
+      "title": "Встреча, этап 2 / The interruption",
+      "kind": "dialogue",
+      "text": "Leah: Sorry to interrupt. I took what you said to mean we can count on six Saturdays once the inspection is passed. The rest sounded like normal paperwork. That matters, because some parents are planning a shared childcare schedule so they can come on alternate weeks.\n\nChair: Let's let Maya finish before we get to arrangements.\n\nLeah: Sure, but I need to get this straight. When someone says a project has approval and a budget, I hear a commitment. I assumed the volunteers were basically taken care of, and I thought the reserve meant you could cover any extra costs. Otherwise, what does approval actually give us?\n\nAnother resident: The parents' group has a message ready that says the six dates are secure once the building is cleared. I don't know if anyone has sent it. I haven't seen a final schedule either.\n\nChair: Maya, please respond to that first, then go back to the point you were making. We need to know what information the parents are working from.",
+      "source": "Придумано для курса. Открой с задания e5."
+    },
+    {
+      "id": "m4",
+      "title": "Встреча, этап 3 / The question about money",
+      "kind": "dialogue",
+      "text": "Owen: There's another problem. Five of us have each paid a $90 non-refundable deposit to a private childcare provider. We paid yesterday, before this meeting. I have the receipts. I read the notice as firm enough to plan our Saturdays around it.\n\nChair: The board didn't know about these payments.\n\nOwen: If the desk never opens, or stops after two sessions, who's responsible? Maya, your name is on the notice. Will you pay us back, or guarantee that the board will? I'm not asking for another description of the pilot. I'm asking what happens to the money we've already put at risk.\n\nTreasurer: I can take the receipts and check whether our financial rules allow reimbursement. Those rules aren't in the decision sheet. I can't decide eligibility here, and I can't promise when the check will be done.\n\nChair: Maya coordinates the project, but she has no authority to decide reimbursement or accept legal responsibility for the board. Maya, tell us what you can do now and which questions are still open.",
+      "source": "Придумано для курса. Открой с задания e6: здесь новые сведения."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты — Maya. Прочитай M1 и M2 (M3 и M4 пока не открывай). Выпиши для себя по-английски каркас решения: пять коротких строк — что разрешено; условия запуска; план и деньги; причины остановить; что неизвестно.",
+      "context": "pilot — пробный запуск; authorize — разрешить; treasurer — казначей.",
+      "guidance": {
+        "title": "Сначала каркас",
+        "body": "Каркас — пять опор, которые должны пережить любой пересказ. Пиши коротко, как заметки для себя, но с точными числами.",
+        "example": "Allowed: a two-week trial of the new menu. Condition: kitchen inspection. Limit: $500. Stop if: sales drop 20%. Unknown: start date.",
+        "translation": "Разрешено: двухнедельная проба нового меню. Условие: проверка кухни. Предел: $500. Остановить, если продажи упадут на 20%. Неизвестно: дата начала."
+      },
+      "hint": "Сколько условий запуска? Сколько причин остановить? Резерв внутри $9,600 или сверх?",
+      "answers": [
+        "Authorized: a limited pilot, not a permanent service; no new vote needed to start.\nLaunch conditions: the center passes its safety inspection, and four trained volunteers confirm the full schedule. Neither is met.\nPlan and money: six weekly Saturday sessions, two hours each, up to 24 residents; $9,600 limit including the $1,200 reserve; the treasurer authorizes spending.\nStop if: a serious safety incident; remaining costs exceed the unspent money; fewer than eight residents at two sessions in a row.\nUnknown: opening date, review date, whether the service continues."
+      ],
+      "explanation": "Засчитывается, если есть все пять опор с точными числами: два условия, резерв внутри предела, три причины остановки, три неизвестных. Это заметки для себя, полные фразы не нужны.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи сообщение другу Sam: «Сэм, совет разрешил пробную мастерскую, но даты открытия нет: сначала центр должен пройти проверку безопасности, а четыре волонтёра — подтвердить весь график. Ни то ни другое пока не сделано. Шесть суббот — это план, а не обещание».",
+      "context": "volunteer — волонтёр; safety inspection — проверка безопасности.",
+      "guidance": {
+        "title": "Разрешено ≠ точно будет",
+        "body": "Другу можно по-дружески: сокращения, короткие фразы. Но approved не превращай в it's happening, а planned — в guaranteed.",
+        "example": "The city approved the street fair, but there's no date: the permit comes first.",
+        "translation": "Город разрешил уличную ярмарку, но даты нет: сначала нужно разрешение."
+      },
+      "hint": "Начни так: Sam, the board approved a trial repair desk, but…",
+      "answers": [
+        "Sam, the board approved a trial repair desk, but there's no opening date: first the center has to pass a safety inspection, and four volunteers have to confirm the whole schedule. Neither has happened yet. Six Saturdays is the plan, not a promise.",
+        "Sam, the board has OK'd a trial repair desk, but there's no opening date. The center needs to pass its safety inspection first, and four volunteers need to confirm the full schedule. Neither of those is done. The six Saturdays are planned, not guaranteed.",
+        "Hey Sam, the repair desk trial is approved, but there's no date to open. The center still has to pass its safety inspection, and four volunteers still have to confirm the whole schedule. Neither is done yet. Six Saturdays is what's planned, not what's promised."
+      ],
+      "explanation": "Засчитывается, если оба условия на месте, сказано, что ни одно не выполнено, и «план, а не обещание». Сокращения there's, hasn't и OK'd уместны с другом.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сосед набросал пост для районной группы: Great news, the repair desk is approved! Six Saturdays starting soon, and we've got $9,600 plus a $1,200 cushion, so money won't be a problem. Найди по M2 три ошибки и перепиши пост (2–3 фразы). Тон можно оставить дружеским.",
+      "context": "cushion — запас (разг.).",
+      "guidance": {
+        "title": "Потолок, резерв и «скоро»",
+        "body": "Сверь каждое число и каждое обещающее слово с M2: что входит в предел, что только запланировано, что известно о дате. Дружеский тон оставь, а обещания убери.",
+        "example": "We've got a $500 budget, and that includes the $50 for extras—it's a limit, not extra money.",
+        "translation": "У нас бюджет $500, и туда входят $50 на мелочи — это предел, а не дополнительные деньги."
+      },
+      "hint": "Ошибки прячутся в starting soon, plus и won't be a problem. Что про каждую сказано в M2?",
+      "answers": [
+        "Good news: the board approved a trial repair desk, but it can start only after the safety inspection and once four volunteers confirm the schedule. Six Saturdays are planned, not guaranteed, and there's no date yet. The spending limit is $9,600, and that includes the $1,200 reserve, so it isn't extra money.",
+        "The repair desk trial is approved, but there's no opening date: the center needs to pass inspection and four volunteers need to confirm first. The plan is six Saturdays, not a promise of six. The $9,600 limit already includes a $1,200 reserve, and the pilot stops if costs would go over it."
+      ],
+      "explanation": "Засчитывается, если исправлены три ошибки: даты нет и запуск зависит от двух условий; резерв внутри $9,600, а не сверх; деньги могут остановить пилот. Good news и дружеский тон допустимы.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи вслух начало ответа Leah на встрече: 3–4 фразы, 20–30 секунд. Сначала прямой ответ на её вопрос «это точно будет?», условие — в той же фразе, потом про шесть встреч. Запиши себя и в расшифровке выдели одно слово ПРОПИСНЫМИ.",
+      "context": "",
+      "guidance": {
+        "title": "Ответ первым, условие рядом",
+        "body": "Слушатель не перечитает фразу. Начни с ответа на заданный вопрос, а условие поставь в ту же фразу. Выдели одно слово — то, где контраст, — и проверь, что контраст есть и в словах.",
+        "example": "Not for certain yet: the fair is APPROVED, but it can start only after the permit comes through.",
+        "translation": "Пока не наверняка: ярмарка ОДОБРЕНА, но начаться может только после того, как придёт разрешение."
+      },
+      "hint": "Начни так: Leah, the short answer is: not for certain.",
+      "answers": [
+        "Leah, the short answer is: not for certain. The board has allowed us to run the pilot, but only after two things happen: the center passes its safety inspection, and four volunteers confirm the whole schedule. Neither has happened yet. And six is the PLANNED number of sessions, not a guaranteed one.",
+        "Leah, nothing is definite yet. We have PERMISSION to run a pilot / but only once the center passes inspection and four trained volunteers confirm the full schedule. So there's no date to put on your calendar. The six Saturdays are planned, not promised."
+      ],
+      "explanation": "Засчитывается, если первая фраза отвечает на вопрос Leah, оба условия стоят рядом с разрешением, а «план, а не гарантия» сказано словами. Выделенное слово стоит на контрасте (PLANNED, PERMISSION); как оно прозвучало, проверь по записи, а не по тексту.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем, как поправлять и переспрашивать. Открой M3. Напиши ответ Leah и соседу (4–5 фраз): покажи, что услышал её логику; поправь смысл (одобрение, волонтёры, резерв); вернись к шести встречам; задай один вопрос, ответ на который меняет твой следующий шаг.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: услышал → поправил → вернулся",
+        "body": "Вспоминаем уроки о переспросе и об объяснении числа: I can see why it looks that way + недостающий шаг, без You misunderstood. Новое: после поправки вернись к своей мысли (To go back to…) и спроси то, что меняет твоё действие.",
+        "example": "When you say the room is booked, I can see why: it's on the list. But it's on hold, not confirmed. To go back to the date: has anyone told the caterer?",
+        "translation": "Когда вы говорите, что зал забронирован, я понимаю почему: он в списке. Но он в резерве, а не подтверждён. Возвращаясь к дате: кто-нибудь уже сказал кейтерингу?"
+      },
+      "hint": "Начни так: Leah, when you say approval and a budget sound like a commitment, I can see why…",
+      "answers": [
+        "Leah, when you say approval and a budget sound like a commitment, I can see why. Approval lets us run the pilot; it doesn't make six Saturdays secure. Passing the inspection is only one condition: four volunteers still have to confirm, and the $1,200 reserve is inside the $9,600 limit, so it can't cover any extra cost. To go back to the six sessions: they're planned, and the stopping rules still apply. Has the parents' message saying the dates are secure already been sent, and if so, to whom?"
+      ],
+      "explanation": "Засчитывается, если поправлены три вещи (одобрение ≠ гарантия, волонтёры не подтверждены, резерв внутри предела), есть возврат к шести встречам и вопрос об отправке сообщения: от ответа зависит, кому нужна поправка. Does that make sense? не засчитывается как такой вопрос.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M4. Напиши Owen три фразы по схеме: что ты можешь сделать сам; чего не можешь обещать; кто решает и что известно о сроке. Не придумывай правила, сроки и выводы о праве на возврат.",
+      "context": "reimburse — вернуть деньги; receipt — чек; liability — юридическая ответственность.",
+      "guidance": {
+        "title": "Могу, не могу, кто решает",
+        "body": "Обещай только своё действие. Чужое решение назови и скажи, кто его принимает. Признать, что деньги под риском, можно — это не обещание выплаты.",
+        "example": "I can send your complaint to the manager today. I can't promise a discount; the manager decides that, and I don't know when.",
+        "translation": "Я могу сегодня передать вашу жалобу менеджеру. Обещать скидку я не могу: это решает менеджер, и когда — я не знаю."
+      },
+      "hint": "Начни так: Owen, what I can do is…",
+      "answers": [
+        "Owen, what I can do is collect the receipts tonight and pass them to the treasurer with a note of what you understood from the notice. I can't promise to pay you back myself or say that the board will; I don't have that authority. The treasurer will check whether the rules allow reimbursement, and she can't say yet when that will be done.",
+        "I can take your receipts and get them to the treasurer, along with your account of how you read the notice. I can't promise a refund or accept responsibility for the board. Whether you're reimbursed depends on the board's financial rules, which the treasurer will check, and there's no date for that."
+      ],
+      "explanation": "Засчитывается, если обещано только своё действие (собрать и передать чеки), прямо сказано, что возврат и ответственность — не в твоей власти, и названо, кто решает, без выдуманного срока. We'll sort it out не засчитывается: это обещание чужого решения.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о смене жанра. В черновике письма совету три фразы звучат сильнее, чем факты: The parents' message has been sent to everyone. Owen paid $450 in deposits. The treasurer will reimburse the residents. Перепиши их точно (три фразы).",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: сила слова в письменной версии",
+        "body": "Вспоминаем: при смене жанра сила слов не меняется. Новое: в письме совету отличай факт от того, что сообщили люди, — reported, said, has not been checked.",
+        "example": "The supplier has refunded us. → The supplier said it would refund us; the refund has not arrived.",
+        "translation": "Поставщик вернул нам деньги. → Поставщик сказал, что вернёт деньги; возврат не поступил."
+      },
+      "hint": "Что о сообщении известно на самом деле? Кто платил и проверены ли чеки? Обещал ли казначей выплату?",
+      "answers": [
+        "A parents' message saying the dates are secure has been prepared, but we don't know whether it has been sent. Owen reported that five residents each paid a $90 deposit, $450 in total; the receipts have not been checked yet. The treasurer offered to check whether the rules allow reimbursement, but she did not promise payment."
+      ],
+      "explanation": "Засчитывается, если сообщение «подготовлено, отправка неизвестна», платежи — «сообщил Owen» (пять по $90, чеки не проверены), а казначей «проверит правила», а не «вернёт». $450 заплатили пять человек, а не один Owen.",
+      "materialIds": [
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ответь Owen и всему залу: 2–3 минуты. Что должно быть: что нового ты узнал и что это меняет в ближайших действиях, а что не меняет (условия пилота); что ты можешь сделать сам; чего не можешь обещать и кто это решает; что неизвестно (правила, срок); один шаг, который ты предлагаешь, и проверка, одинаково ли вы понимаете его статус. Запиши себя и сверь расшифровку с M2 и M4.",
+      "context": "",
+      "hint": "Начни так: Owen, thank you. That's something I didn't know. Дальше: Here's what I can do… / Here's what I can't do… / So my proposal is…",
+      "answers": [
+        "Owen, thank you. That's something I didn't know. Five of you have each paid a ninety-dollar deposit, so about four hundred and fifty dollars is at risk. Until now, I was talking about planning. Now there's money involved, and that changes what we need to do tonight. It doesn't change the pilot itself: the board has allowed us to run it, but only after the center passes inspection and four volunteers confirm the whole schedule. Neither has happened, and there's no opening date.\n\nHere's what I can do. I'm responsible for explaining the decision clearly, and if my explanation or the notice made the dates sound secure, I want to correct that tonight. I can collect your receipts and write down what you understood from the notice, and I can get both to the treasurer this week.\n\nHere's what I can't do. I can't promise to pay you back myself, and I can't say that the board will. I don't have the authority to decide reimbursement or to accept legal responsibility for the board. The treasurer has said she'll check our financial rules. Those rules aren't in the decision sheet, so I don't know what they allow, and she can't say yet when the check will be done.\n\nSo my proposal is this: we collect the receipts and your account tonight, and the treasurer reviews them. I want to be sure we see that step the same way. Handing in the receipts starts a check; it isn't an approval of a refund. Does that match what you're asking for as a next step?"
+      ],
+      "explanation": "Засчитывается, если новость названа и отделена от условий пилота, своё действие обещано, а возврат и ответственность — нет, неизвестное (правила, срок) названо, предложен один шаг и проверено, что его понимают как проверку, а не как одобрение выплаты.",
+      "materialIds": [
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши письмо совету после встречи (200–300 слов). Совет на встрече не был. Что должно быть: решение со всеми условиями, числами и причинами остановки; как жители поняли решение и почему это расходится с ним; сведения из M4 со статусом «сообщено, не проверено»; твои предложения, помеченные как предложения; почему одной устной поправки может не хватить; короткая фраза, которую можно отправить жителям; твои полномочия. Перед отправкой сверь факты с сообщением Сэму (e2).",
+      "context": "",
+      "hint": "План: зачем письмо → The decision: … → What we learned: … → What I propose: … → чего ты не можешь решить.",
+      "answers": [
+        "Dear Board Members,\n\nAt last night's meeting, residents understood the repair-desk decision differently from the decision sheet. This is a record of what happened and what I propose.\n\nThe decision: the pilot is authorized, and no further vote is needed to launch it. It can start only after the community center passes its safety inspection and four trained volunteers confirm the full schedule. Neither condition is met, and there is no opening date. The plan is six weekly Saturday sessions of two hours for up to 24 residents. The $9,600 limit includes the $1,200 reserve, and the treasurer authorizes all spending. The pilot must end after a serious safety incident, if remaining costs would exceed the unspent money, or if fewer than eight residents attend two sessions in a row. Continuing would need a separate decision.\n\nWhat we learned: Leah understood that passing the inspection was enough and that the reserve could cover any extra cost. A parents' message describing the six dates as secure has been prepared; we don't know whether it has been sent. Owen reported that five residents each paid a $90 non-refundable childcare deposit, $450 in total. He has receipts, which have not been checked yet.\n\nWhat I propose: first, that we find out who received the parents' message and send a short written clarification: \"Approval allows a conditional pilot; it does not guarantee that it will start or run all six sessions.\" A spoken correction may not reach everyone relying on that message. Second, that I collect the receipts and pass them to the treasurer, who offered to check the reimbursement rules. I cannot decide reimbursement or accept liability for the board.\n\nBest regards,\nMaya"
+      ],
+      "explanation": "Засчитывается, если письмо само по себе восстанавливает решение (два условия, $9,600 вместе с резервом, три причины остановки, отдельное решение о продолжении), отделяет понимание жителей и сообщение Owen от проверенных фактов, помечает предложения (I propose) и не обещает возврат. Факты должны совпадать с e2.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "После встречи кто-то из команды набросал письмо жителям. Перепиши его (150–220 слов) так, чтобы факты совпали с M2–M4, а тон стал уважительным. В конце — одна фраза: какая правка самая важная и почему.\n\nЧерновик: \"Dear residents,\nGreat news: the repair desk is confirmed for six Saturdays as soon as the center passes inspection. The four volunteers are just a formality. We have $9,600 plus another $1,200 for surprises, so money shouldn't affect anyone's plans. If fewer than eight people come once, we'll probably cancel, but good feedback should let the service continue permanently. The parents' schedule has been sent to everyone, and all five childcare payments have been checked. Maya has accepted personal responsibility and will make sure the $450 is repaid. Please send your receipts to the treasurer by Friday; sending them guarantees your refund. We expect everything to be settled next week. Please stop speculating and let the team do its job.\nThe project team\"",
+      "context": "",
+      "hint": "Сверь с M2 каждое число и каждое «точно». Сверь с M4: кто что обещал и кто что может решить.",
+      "answers": [
+        "Dear residents,\n\nHere is an accurate summary of where the repair desk stands.\n\nThe board has authorized a pilot, and no further vote is needed to launch it. It can start only after the community center passes its safety inspection and four trained volunteers confirm the full schedule. Neither has happened yet, so there is no opening date.\n\nWe plan six weekly Saturday sessions of two hours, for up to 24 residents each. The $9,600 spending limit includes the $1,200 reserve; it is not extra money. The pilot must end after a serious safety incident, if the remaining sessions would cost more than the money left, or if fewer than eight residents attend two sessions in a row. Good feedback would not by itself make the service permanent; that would need a separate board decision.\n\nWe don't know whether the parents' message about the dates was sent. Owen reported five $90 childcare deposits. The treasurer can receive receipts and check whether the rules allow reimbursement, but sending receipts does not guarantee a refund, and we don't know when the check will be finished. Maya cannot decide reimbursement.\n\nWe understand that this uncertainty affects your plans, and your questions are welcome.\n\nThe project team\n\nThe most important correction is removing the refund guarantee, because residents could act on a promise that no one has the authority to make."
+      ],
+      "explanation": "Засчитывается, если исправлены условия запуска, резерв внутри предела, правило о двух встречах подряд, продолжение через отдельное решение, неизвестная судьба сообщения родителей, непроверенные платежи, отсутствие гарантии возврата и выдуманный срок, а упрёк Please stop speculating убран. Порядок может быть другим.",
+      "materialIds": [
+        "m2",
+        "m3",
+        "m4"
+      ]
+    }
+  ]
+}

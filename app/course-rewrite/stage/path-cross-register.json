@@ -1,0 +1,316 @@
+{
+  "id": "path-cross-register",
+  "title": "Одни факты — другой жанр: записка, объявление для всех, разговор",
+  "subtitle": "Опоры, которые нельзя потерять → сила must и may → условие и исполнитель → термин с объяснением → самая короткая версия",
+  "level": "C2",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Пересказать один и тот же результат или решение в записке для специалистов, в объявлении для всех и в разговоре так, чтобы менялись порядок, плотность и слова, а сила must, may, suggests, условия и неизвестное оставались прежними: «The test suggests…» → «In our first test, people seemed to…» → «It looks like…, but it's too early to say».",
+  "formula": "Записка: The preliminary test suggests that … may … · Всем: In our first test, …, but we need more testing · Другу: It looks like …, but it's too early to say · subject to / pending … → once / only after / until … · … means X, not Y",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Меняй порядок и слова под читателя. Силу слов must, may, only и unless не меняй.",
+    "example": "We recommend updating the app. ≠ You must update the app. — Мы советуем обновить приложение. ≠ Вы обязаны обновить приложение.",
+    "check": "Пересказ простой версии совпадает с пересказом официальной?"
+  },
+  "prerequisites": [
+    "path-register-b2",
+    "path-nominalisation",
+    "path-hedging",
+    "extended-c1-public-explanation"
+  ],
+  "recycles": [
+    "path-nominalisation",
+    "path-hedging"
+  ],
+  "teaches": [
+    "жанр — тип текста: записка, объявление, разговор; при смене жанра меняются порядок, плотность и слова",
+    "смысловые опоры не меняются: что наблюдали, насколько уверены, при каком условии, кто что должен сделать, что неизвестно",
+    "проверка пересказом: пересказы всех версий одной фразой должны совпасть",
+    "сила слова: must / required ≠ should / encouraged / recommend ≠ may; suggests ≠ shows ≠ proves; only и охват сохраняются",
+    "условие простыми словами: subject to → once / only after; pending → until / not yet; условие рядом с действием",
+    "распаковка: существительные → люди и глаголы; пассив → актив, только если исполнитель известен",
+    "термин объяснить, а не подменить: reliable ≠ accurate ≠ safe; … means X, not Y",
+    "короткая версия держит условие и не придумывает дату: Funding approved, pending board vote",
+    "слова: genre, preliminary, pending, subject to, mandatory, encouraged, reliability, opt out"
+  ],
+  "sources": [
+    {
+      "title": "Digital.gov · Principles of plain language",
+      "url": "https://digital.gov/guides/plain-language/principles",
+      "notes": "Сверено: первое правило — писать для своего читателя, с учётом его знаний и интереса; простой язык не значит «упростить до детского»; длинный текст начинают с краткого итога. Отсюда разделы о жанре и о термине с объяснением."
+    },
+    {
+      "title": "Digital.gov · Writing for understanding",
+      "url": "https://digital.gov/guides/plain-language/writing",
+      "notes": "Сверено: активный залог показывает, кто что должен сделать; пассив часто прячет исполнителя; «спрятанные глаголы» (conduct an analysis) заменяют прямыми (analyze). Отсюда раздел об условии и исполнителе и задание на распаковку."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Один результат — три жанра",
+    "why": "Во всех трёх строках результат предварительный и нужна ещё проверка. Меняются порядок и слова, а осторожность остаётся той же силы.",
+    "items": [
+      {
+        "label": "Записка",
+        "en": "The preliminary test suggests the new layout may reduce task time.",
+        "ru": "Предварительный тест позволяет предположить, что новый макет может сократить время на задачу.",
+        "note": "suggests и may"
+      },
+      {
+        "label": "Сайт",
+        "en": "In our first test, people seemed to finish faster. We need more testing.",
+        "ru": "В первом тесте люди, похоже, справлялись быстрее. Нужны ещё проверки.",
+        "note": "seemed to и need more testing"
+      },
+      {
+        "label": "Другу",
+        "en": "Looks like people are faster, but it's too early to say.",
+        "ru": "Похоже, люди справляются быстрее, но говорить ещё рано.",
+        "note": "looks like и too early"
+      }
+    ],
+    "footnote": "layout — макет, вид экрана; task time — время на задачу.",
+    "focus": [
+      "suggests",
+      "may",
+      "seemed to",
+      "need more testing",
+      "Looks like",
+      "too early"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Жанр меняет весь текст, а не только тон",
+      "body": "Представь: команда проверила новый вид приложения. Первый тест показал, что люди, возможно, справляются с задачей быстрее. Тебе нужно написать записку для инженеров, заметку на сайт и рассказать другу.\n\nВ уроке B2 «Другу, коллеге, клиенту» ты менял тон одного сообщения: приветствие, сокращения, could you. Жанр — это тип текста: записка, объявление, разговор. При смене жанра меняется весь текст. Записка для специалистов: метод → результат → ограничения. Объявление для всех: что это значит для читателя → что ему делать. Разговор: сначала прямой ответ, потом оговорка.\n\nНе меняются смысловые опоры: что наблюдали; насколько уверены; при каком условии; кто что должен сделать; что пока неизвестно.\n\nПроверка: представь, что читатель каждой версии пересказывает её одной фразой. Пересказы должны совпасть. Если другу ты сказал «похоже, быстрее», а на сайте написал «стало быстрее», ты изменил не жанр, а факт."
+    },
+    {
+      "title": "Сила слов: must, should, may, suggests",
+      "body": "Must и required — «обязан». Should, recommend, encourage — «советуем». May — «можно» или «возможно». При упрощении эти слова легко сдвигаются. Parents are encouraged to attend the meeting — «родителям советуют прийти на собрание». Сделать из этого You must attend the meeting — сильнее, чем было. Обратно тоже нельзя: Participation is required → We'd love you to join — слабее.\n\nТо же с уверенностью. Из урока об оговорках: suggests — «позволяет предположить», shows — «показывает», proves — «доказывает». The findings suggest a link не превращается в This causes that ради короткой фразы.\n\nМаленькие слова охвата тоже несут смысл: some, most, only. Required only for first-time visitors — «обязательно только для тех, кто пришёл впервые». Если в записке есть only, в объявлении оно тоже должно быть — своими словами."
+    },
+    {
+      "title": "Условие и исполнитель",
+      "body": "Официальные условия звучат тяжело: subject to completion of the checks — «при условии завершения проверок», pending board approval — «пока совет не одобрит». В простой версии: once the checks are done — «как только проверки закончатся», only after…, until the board approves it. Условие ставь рядом с действием, которое оно ограничивает: We can reopen the pool, but only after the inspection.\n\nИз урока о существительных вместо глаголов: распаковывая текст, возвращай людей и действия. An assessment of the damage was conducted → We assessed the damage.\n\nНо пассив можно превратить в актив, только если ты знаешь, кто действовал. Из The request was declined нельзя сделать Your manager declined your request, если менеджера в источнике нет. Если пишет само учреждение, которое отказало, честно: We declined your request."
+    },
+    {
+      "title": "Объяснить термин, а не подменить его",
+      "body": "Простой текст — не детский. Читателя не надо считать глупым: убери лишнюю плотность, но сохрани важное понятие и объясни его.\n\nОпасно менять термин на «похожее простое слово». Reliable — «надёжный: работает одинаково, раз за разом». Accurate — «точный: показывает верно». Safe — «безопасный: не причиняет вреда». Это три разных свойства. Если в записке идут проверки точности (accuracy checks), в объявлении нельзя написать safety checks: читатель решит, что прибор может быть опасен.\n\nЛучше оставить слово и коротко объяснить его: accuracy checks — tests of whether the sensor shows the right values. Объяснение стоит рядом с термином и говорит, что он значит и чего не значит."
+    },
+    {
+      "title": "Самая короткая версия",
+      "body": "Заголовок, push-уведомление, одна фраза в чате — здесь меньше всего места, и первым пропадает условие. В записке funding is approved, pending a board vote, а в заголовке Funding approved. Короткая версия уже сообщает другой факт.\n\nПравило: если условие не помещается, добавь слово, но не выбрасывай его. Funding approved, pending board vote — пять слов, и условие на месте. В заголовке нельзя и придумывать то, чего нет: Money arrives in May, если срок не назначен, — новый факт.\n\nВслух порядок такой же, как в разговоре: прямой ответ, условие в той же фразе, потом что дальше. We can start, but only once the checks are done. There's no date for now."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Parents are encouraged to attend. ≠ All parents must attend.",
+      "ru": "Родителям рекомендуется прийти. ≠ Все родители обязаны прийти.",
+      "why": "Совет и обязанность — разные факты, даже если тема одна."
+    },
+    {
+      "en": "We can launch once the security review is complete.",
+      "ru": "Можем запускать, как только завершится проверка безопасности.",
+      "why": "Простая версия subject to completion of…: once держит условие."
+    },
+    {
+      "en": "Kids who use screens more tend to sleep worse, but we don't know if screens are the reason.",
+      "ru": "Дети, которые больше сидят в экранах, обычно хуже спят, но мы не знаем, в экранах ли дело.",
+      "why": "Для всех вместо The data suggest a link…: tend to и we don't know сохранили силу suggests."
+    },
+    {
+      "en": "The request was declined. → We weren't able to approve your request.",
+      "ru": "Запрос был отклонён. → Мы не смогли одобрить ваш запрос.",
+      "why": "Актив с we — только если пишет то учреждение, которое отказало."
+    },
+    {
+      "en": "An accurate scale shows the right weight; a reliable scale shows the same weight every time.",
+      "ru": "Точные весы показывают верный вес; надёжные — каждый раз один и тот же.",
+      "why": "Accurate и reliable — разные свойства, их нельзя подменять друг другом."
+    },
+    {
+      "en": "Pool reopening approved, pending inspection",
+      "ru": "Открытие бассейна одобрено — ждёт проверки",
+      "why": "Заголовок: коротко, но условие pending на месте."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Из записки для инженеров: Preliminary results indicate a possible association between the new spam filter and reduced error rates; causation has not been established. Перепиши одной-двумя фразами для заметки на сайте компании.",
+      "context": "spam filter — фильтр спама; error rate — доля ошибок; causation — причинность.",
+      "guidance": {
+        "title": "Найди опоры",
+        "body": "Прежде чем упрощать, выпиши опоры: что наблюдали, насколько уверены, чего не знают. В простой версии все три должны остаться — другими словами.",
+        "example": "Early data point to a link between the new menu and fewer support calls, but we don't know yet if the menu is the reason.",
+        "translation": "Первые сведения указывают на связь нового меню с меньшим числом обращений в поддержку, но мы пока не знаем, в меню ли дело."
+      },
+      "hint": "Три опоры: fewer errors, early / may, we don't know why. Все есть?",
+      "answers": [
+        "Early results suggest that the new spam filter may be linked to fewer errors, but we don't know yet whether the filter is the reason.",
+        "Our first results show fewer errors since we added the new spam filter, but it's too early to say that the filter caused the drop.",
+        "In early tests, we saw fewer errors with the new spam filter. We don't yet know if the filter is what made the difference."
+      ],
+      "explanation": "Засчитывается, если остались три опоры: ошибок стало меньше (или связь возможна), результат ранний, причина не установлена. The new filter reduces errors — ошибка: это уже утверждение о причине."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Во внутренней записке: Staff are encouraged to complete the new security training by May 15. It is required only for employees hired after March 1. В объявлении для всех сотрудников вышло: All staff must complete the security training by May 15. Перепиши объявление так, чтобы сила требования совпала с запиской.",
+      "context": "hire — нанять; required, mandatory — обязательно; encouraged — рекомендуется.",
+      "guidance": {
+        "title": "Сила слова и only",
+        "body": "Сравни слова обязанности: encouraged — совет, required — обязанность. И найди, к кому относится only. В объявлении можно говорить проще, но совет не становится приказом.",
+        "example": "Masks are recommended in the lab and required only in the clean room.",
+        "translation": "Маски рекомендуются в лаборатории и обязательны только в чистой комнате."
+      },
+      "hint": "Кому обязательно, а кому только советуют? Начни так: We encourage all staff to…",
+      "answers": [
+        "We encourage all staff to complete the new security training by May 15. It is required only for employees hired after March 1.",
+        "All staff are encouraged to complete the security training by May 15. If you were hired after March 1, it is required.",
+        "Please try to complete the new security training by May 15. It is mandatory only for employees who joined after March 1."
+      ],
+      "explanation": "Засчитывается, если для всех — совет (encourage, please try), а обязанность — только для нанятых после March 1. Must для всех — ошибка: это сильнее, чем в записке."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сообщение руководства: The launch is authorized subject to completion of the security review. Funding for phase two is pending board approval. Перепиши для рабочего чата команды двумя простыми фразами. Сохрани оба условия.",
+      "context": "phase two — второй этап; security review — проверка безопасности; board — совет директоров.",
+      "guidance": {
+        "title": "Условие рядом с действием",
+        "body": "Subject to → once / only after; pending → until / not yet. Поставь условие в ту же фразу, что и действие, которое оно ограничивает.",
+        "example": "The office can reopen subject to inspection. → We can reopen the office once it passes inspection.",
+        "translation": "Офис может открыться при условии проверки. → Откроем офис, как только он пройдёт проверку."
+      },
+      "hint": "Начни так: We can launch once… Вторая фраза: Phase two funding…",
+      "answers": [
+        "We can launch once the security review is done. Phase two funding isn't approved yet; the board still has to approve it.",
+        "We can launch, but only after the security review is complete. Phase two isn't funded until the board approves it.",
+        "The launch can go ahead as soon as the security review is finished. Funding for phase two still needs board approval."
+      ],
+      "explanation": "Засчитывается, если запуск зависит от проверки (once, only after, as soon as), а деньги на второй этап ещё не одобрены. We're launching! без условия — ошибка: в сообщении разрешение с условием, а не дата."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем распаковку существительных. Письмо городской службы заявителю: Following a review of your application, a determination was made that additional documentation is required prior to approval. Перепиши одной-двумя простыми фразами от лица службы. Смысл и условие не меняй.",
+      "context": "applicant — заявитель; documentation — документы; approval — одобрение.",
+      "guidance": {
+        "title": "Вспоминаем: верни людей и действия",
+        "body": "Вспоминаем урок о существительных вместо глаголов: review → we reviewed, determination → we decided, prior to → before. Новое: письмо пишет сама служба, поэтому исполнитель известен — we.",
+        "example": "Upon completion of the inspection, a notification will be sent. → When we finish the inspection, we'll let you know.",
+        "translation": "По завершении проверки будет направлено уведомление. → Когда закончим проверку, мы вам сообщим."
+      },
+      "hint": "Кто проверил заявку? Начни так: We reviewed your application…",
+      "answers": [
+        "We reviewed your application and need more documents before we can approve it.",
+        "We've reviewed your application. Before we can approve it, we need some additional documents from you.",
+        "We looked at your application, and we need more documents from you before we can approve it."
+      ],
+      "explanation": "Засчитывается, если есть we, глаголы вместо существительных и условие «до одобрения нужны документы». Your application was rejected — ошибка: в оригинале отказа нет."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В записке: Final reliability checks are incomplete. Для объявления на сайте напиши одну-две фразы, которые сохраняют слово reliability и объясняют его. Не подменяй его словом safety.",
+      "context": "keep working — продолжать работать; over time — со временем.",
+      "guidance": {
+        "title": "Термин плюс объяснение",
+        "body": "Оставь важное слово и рядом скажи простыми словами, что оно значит и чего не значит. Так читатель не решит, что речь о другом свойстве.",
+        "example": "Accuracy checks test whether the scale shows the right weight, not how long it will last.",
+        "translation": "Проверки точности показывают, верный ли вес показывают весы, а не сколько они прослужат."
+      },
+      "hint": "Что проверяют: работает ли одинаково снова и снова — или не вредно ли? Добавь not…",
+      "answers": [
+        "We haven't finished our final reliability checks, which test whether the product keeps working the same way over time—not whether it is safe.",
+        "Our final reliability checks, which test whether the system works consistently over time, are not finished yet. They are not safety checks.",
+        "The last reliability checks aren't done yet. These tests show whether the product keeps working the same way again and again; they don't test safety."
+      ],
+      "explanation": "Засчитывается, если слово reliability осталось, объяснено (работает одинаково со временем) и отделено от безопасности. Safety checks вместо reliability — ошибка: читатель решит, что продукт может быть опасен."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем оговорки в разговоре. Друг спрашивает, сработал ли новый вид приложения. Переведи ответ: «Насколько я могу судить, люди справляются быстрее. Но это только первый тест — рано говорить наверняка».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: оговорка в разговоре",
+        "body": "Вспоминаем урок об оговорках: в разговоре уверенность смягчают так — as far as I can tell, I'd say, it looks like. Новое: разговорная оговорка должна быть той же силы, что suggests в записке.",
+        "example": "As far as I know, the meeting moved to Friday, but I could be wrong.",
+        "translation": "Насколько я знаю, встречу перенесли на пятницу, но могу ошибаться."
+      },
+      "hint": "Начни так: As far as I can tell…",
+      "answers": [
+        "As far as I can tell, people are getting through it faster. But it's only the first test, so it's too early to say for sure.",
+        "As far as I can tell, people are faster with it. But that's just the first test—it's too early to say for sure.",
+        "From what I can tell, people finish faster. But it's only been one test, so it's too early to know for sure."
+      ],
+      "explanation": "Засчитывается, если есть оговорка (as far as I can tell, from what I can tell) и «рано говорить наверняка» (too early to say / know for sure). It works! — сильнее, чем позволяет первый тест."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Из записки: The launch is approved, pending final reliability checks. No launch date has been set. Редактор новостей компании предложил заголовок: App launches next week. Найди ошибки, напиши правильный заголовок (до 8 слов) и одно предложение для push-уведомления.",
+      "context": "headline — заголовок; set a date — назначить дату; push notification — уведомление на телефоне.",
+      "guidance": {
+        "title": "Короткая версия с условием",
+        "body": "В заголовке первым пропадает условие, и легко дописать то, чего нет. Если условие не помещается — добавь слово, но не выбрасывай его.",
+        "example": "Bridge repairs approved, pending state funding",
+        "translation": "Ремонт моста одобрен — ждёт денег от штата"
+      },
+      "hint": "Есть ли в записке дата? Какое слово в записке ограничивает approved?",
+      "answers": [
+        "Launch approved, pending final checks\nThe app launch is approved, but it depends on final reliability checks, and no date has been set yet.",
+        "App launch approved; final checks still pending\nWe've approved the launch, but we'll set a date only after the final reliability checks are done."
+      ],
+      "explanation": "Засчитывается, если в заголовке есть условие (pending, after checks) и нет даты, а уведомление говорит, что даты нет. App launches next week придумывает дату и убирает условие."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Запуск откладывается. Напиши три версии (всего 200–300 слов): записку руководителям команд, объявление на сайте для клиентов и сообщение другу. Факты: финальные проверки надёжности не закончены; новой даты нет; дату назначат только после того, как проверки закончат и рассмотрят; это не значит, что продукт ненадёжен; следующее сообщение — в пятницу, May 22, даже если даты ещё не будет. Что должно быть: у каждой версии свой порядок (записка — статус и условие; сайт — что это значит для клиента; другу — сначала прямой ответ); reliability объяснено для клиентов; ни одна версия не обещает дату и не говорит, что продукт ненадёжен.",
+      "context": "",
+      "hint": "Сначала выпиши пять опор. Потом для каждой версии проверь: все пять на месте и ни одна не стала сильнее?",
+      "answers": [
+        "Memo to team leads\nThe launch is postponed because the final reliability checks are not complete. No new launch date has been set. We will set one only after the remaining checks are finished and reviewed. The delay does not show that the product is unreliable; it means we do not yet have the evidence we need for the launch decision. Please do not give clients an estimated date. The next update will come on Friday, May 22, even if there is still no date.\n\nWebsite announcement\nWe are postponing the launch of our new app. Before any launch, we test reliability: whether the app keeps working the same way over time. Those final tests are not finished. We can't give you a new date yet, because we will set it only after the tests are complete and reviewed. This does not mean we have found the app to be unreliable. We know this makes planning harder. We will post an update on Friday, May 22, even if we don't have a date by then.\n\nMessage to a friend\nHey! The launch is pushed back. The last reliability tests aren't done, and we won't pick a new date until they're finished and someone's gone through the results. It doesn't mean the app is broken; we just don't know yet. There's an update on the 22nd, but there might still be no date."
+      ],
+      "explanation": "Засчитывается, если во всех трёх версиях одни и те же опоры: проверки не закончены, даты нет, дату назначат только после проверок, это не вывод о ненадёжности, следующее сообщение — May 22. Порядок и слова разные, для клиентов reliability объяснено, ни одна версия не придумывает дату."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Объясни одно и то же вслух два раза, всего 2–3 минуты: сначала соседу-старшекласснику, потом инженеру из другого отдела. Вопрос: почему телефон внутри здания иногда показывает тебя не там. Что должно быть в обеих версиях: телефон оценивает место по сигналам спутников и Wi-Fi; стены и отражения портят сигнал; это вероятная причина, а не диагноз конкретного телефона; точка на карте — оценка, даже если выглядит точной. Старшекласснику — без терминов, инженеру — с терминами (positioning, accuracy). Запиши себя и сверь расшифровку: оговорки в обеих версиях одной силы?",
+      "context": "satellite — спутник; signal — сигнал; bounce off — отражаться от; estimate — оценка.",
+      "hint": "Начни школьнику так: You know how your map sometimes… Инженеру: Indoor positioning tends to…",
+      "answers": [
+        "To a high school student:\nYou know how your map sometimes shows you in the wrong spot when you're inside? Your phone figures out where you are mostly from satellite signals, and it can also use nearby Wi-Fi. Inside a building, walls and the roof make those signals weaker, and signals can bounce off things, which confuses the phone. That's why it often gets better when you move near a window or step outside: there's less in the way. Still, that's one likely reason, but I can't say for sure that's what happened with your phone. And here's the thing: the blue dot looks exact, but it's really the phone's best guess. Sometimes the guess is good, and sometimes it's off by a whole building.\n\nTo an engineer from another team:\nIndoor positioning tends to be less accurate because satellite signals are attenuated by the building and can reach the device after reflecting off surfaces. Most phones combine satellite data with Wi-Fi and other sources to estimate position. So weak or reflected signals are a plausible explanation for a bad indoor fix, but the displayed position alone doesn't tell us which factor caused a particular error; we'd need the device, the app and the conditions to check. It's also worth remembering that a precise-looking marker is an estimate, not a measure of accuracy. If we wanted to look into a specific report, I'd start by checking whether Wi-Fi positioning was available at that location and how the app requests location updates."
+      ],
+      "explanation": "Засчитывается, если в обеих версиях одни и те же четыре опоры и одинаковая осторожность (one likely reason / a plausible explanation), а меняются слова и порядок: школьнику — пример с картой, инженеру — positioning, attenuated, fix. Ни в одной версии нельзя утверждать, что причина точно известна."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Клиника готовит объявление для пациентов. Записка для врачей: The clinic will start sending text-message reminders to all patients next month. A small pilot suggests that reminders may reduce missed appointments. Patients can opt out at any time. Reminders will be in English only for now; Spanish reminders have not been tested. Черновик объявления: Text reminders are now mandatory for every patient and have been proven to stop missed appointments. Reminders are available in English and Spanish. Перепиши объявление (50–90 слов) и добавь одну фразу для редактора: какую опору черновик сломал сильнее всего.",
+      "context": "reminder — напоминание; opt out — отказаться; missed appointment — пропущенный приём.",
+      "hint": "Сравни черновик с запиской по опорам: обязательно ли? насколько доказано? когда? на каких языках?",
+      "answers": [
+        "Starting next month, we will send you a text message before each appointment. In a small early test, reminders seemed to help fewer patients miss appointments, but we can't promise they will prevent every missed visit. You can stop the reminders at any time. For now, reminders will be in English only, because we have not yet tested reminders in Spanish.\n\nThe most serious problem in the draft was \"mandatory\": patients can opt out, so it turned an option into a rule."
+      ],
+      "explanation": "Засчитывается, если исправлены все четыре опоры: не mandatory, а можно отказаться; не proven to stop, а small test, may reduce; не now, а next month; не English and Spanish, а пока только English. В фразе для редактора можно выбрать и proven — если объяснено, почему это важно."
+    }
+  ]
+}

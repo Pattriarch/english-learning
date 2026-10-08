@@ -1,0 +1,372 @@
+{
+  "id": "path-synthesis",
+  "title": "Синтез двух источников: один ответ вместо двух пересказов",
+  "subtitle": "Общий вопрос → одно ли слово → совпадение, различие, пробел → чей голос → свой вывод → сводка для руководителя",
+  "level": "C1",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Свести два источника в один ответ на вопрос читателя: «Both sources suggest…», «A found…, whereas B reports…», «Neither source measures…», «Taken together, …» — показать, где они совпадают, где расходятся и почему, чего не знает ни один, и отделить свой вывод от слов авторов.",
+  "formula": "The question is… · In A, X refers to…, whereas in B… · Both sources suggest… · A found…, whereas B reports… · The difference may come from… · Neither source… · Taken together, … provided that…",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Сначала общий вопрос, потом что каждый источник говорит о нём. Свой вывод помечай как свой.",
+    "example": "Both sources say people value control over their hours; they differ on what it costs. — Оба источника говорят, что людям важно самим выбирать часы работы; расходятся они в том, чего это стоит.",
+    "check": "Можно ли написать Both sources prove…, если один — опрос, а другой — сравнение двух офисов?"
+  },
+  "prerequisites": [
+    "path-critical-reading",
+    "path-reporting-verbs",
+    "path-hedging",
+    "path-discourse-markers"
+  ],
+  "recycles": [
+    "path-reporting-verbs",
+    "path-hedging"
+  ],
+  "teaches": [
+    "синтез (synthesis) — сводка нескольких источников вокруг одного вопроса, а не пересказы подряд; абзацы по пунктам, а не по источникам",
+    "общий вопрос: Both pieces help answer one question: …",
+    "проверка слова до сравнения: In A, flexibility refers to…, whereas in B it means…",
+    "совпадение: Both sources show / suggest that… — только если сказано в обоих",
+    "различие и его причина: A found…, whereas B reports…; They differ on…; The difference may come from…; apparent contradiction — кажущееся противоречие",
+    "пробел: Neither source measures…; It remains unclear whether…",
+    "свой вывод помечен: Taken together, this suggests…; In my view…; I would recommend…, provided that…",
+    "чей совет — того и подпись: Ruiz recommends…, а не «отчёт рекомендует»"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Synthesizing Sources",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/conducting_research/research_overview/synthesizing_sources.html",
+      "notes": "Сверено: синтез — не пересказ, а более широкий вывод из нескольких источников; группировать по темам, а не описывать источники по очереди; отмечать, кто с кем согласен и не согласен; не притягивать связи силой и не выбрасывать несогласные источники."
+    },
+    {
+      "title": "UNC Writing Center · Literature Reviews",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/literature-reviews/",
+      "notes": "Сверено: организовать текст вокруг тем, а не списка источников; собственный голос остаётся главным — абзац начинается и заканчивается твоей мыслью, источники её поддерживают; чужие идеи подписаны."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "От двух источников к одному ответу",
+    "why": "Синтез идёт по пунктам ответа, а не по очереди источников. Последний шаг — твой, и это видно по словам.",
+    "items": [
+      {
+        "label": "Вопрос",
+        "en": "What does flexibility do to people's workday?",
+        "ru": "Что гибкий график делает с рабочим днём людей?",
+        "note": "Один вопрос для обоих источников."
+      },
+      {
+        "label": "Совпадение",
+        "en": "Both sources suggest that people value control over their hours.",
+        "ru": "Оба источника говорят, что людям важно самим выбирать часы.",
+        "note": "Both — только если это есть в каждом."
+      },
+      {
+        "label": "Различие и пробел",
+        "en": "They measure different things, and neither tracks evening work.",
+        "ru": "Они измеряют разное, и ни один не следит за работой по вечерам.",
+        "note": "Различие объяснено, пробел назван."
+      },
+      {
+        "label": "Мой вывод",
+        "en": "Taken together, this suggests a wider trial with clear limits.",
+        "ru": "Вместе это говорит в пользу более широкой пробы с чёткими границами.",
+        "note": "Это мой вывод, а не слова авторов."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Синтез — это не два пересказа подряд",
+      "body": "Начальница просит: «Прочитай отчёт и статью и скажи, что они говорят вместе». Если ты пишешь «Отчёт говорит… Статья говорит…», ты кладёшь два пересказа рядом. Связывать их ей придётся самой.\n\nСинтез (synthesis) — сводка нескольких источников вокруг одного вопроса. По-русски так и говорят: «если свести вместе», «в целом из двух источников следует». Ты отвечаешь на вопрос читателя и показываешь, где источники совпадают, где расходятся и чего не знает ни один.\n\nПоэтому синтез начинается не с первого источника, а с вопроса: Both pieces help answer one question: … Дальше абзацы идут по пунктам ответа — совпадение, различие, пробел, — а не по источникам. В каждой фразе видно, кто что сообщает.\n\nПредел: синтез не обязан найти согласие. Если источники говорят о разном, честный вывод — «они отвечают на разные вопросы»."
+    },
+    {
+      "title": "Прежде чем сравнивать: одно ли слово и одни ли люди",
+      "body": "Два источника могут называть одним словом разные вещи. В M1 flexibility — это выбор времени начала работы в офисе. В M2 — работа из дома. Если этого не заметить, получится ложный спор: «отчёт за гибкость, статья против».\n\nПеред сравнением ответь на три вопроса. Что значит главное слово в каждом источнике? Кого изучали — одних и тех же людей? Что измеряли — опоздания, ответы в опросе, нагрузку?\n\nФраза для этого: In A, flexibility refers to…, whereas in B it means… Refer to — «обозначать», whereas — «тогда как»: связка, которая ставит две стороны рядом.\n\nКажущееся противоречие (apparent contradiction) часто исчезает после этих вопросов: источники изучали разных людей и разные результаты. Это не значит, что один прав, а другой ошибается."
+    },
+    {
+      "title": "Совпадение, различие, пробел: три фразы",
+      "body": "Совпадение: Both sources show / suggest that… Ставь both, только если это есть в каждом источнике. Одна и та же тема — ещё не совпадение.\n\nРазличие: A found…, whereas B reports… или They differ on… — «они расходятся в…». После различия сразу скажи, откуда оно может быть: The difference may come from… — «разница может объясняться…»: разными группами, сроками, способами измерения.\n\nПробел: Neither source measures… — «ни один источник не измеряет…». It remains unclear whether… — «неясно, …ли». Пробел — не слабость твоего текста, а важная для читателя информация: на какой вопрос ответа пока нет.\n\nПредел: не усредняй («в среднем гибкость нормальная») и не выбирай источник, который звучит увереннее. Уверенный тон — не доказательство."
+    },
+    {
+      "title": "Чей это голос: источник или ты",
+      "body": "Вспоминаем два прошлых урока. Глагол передачи (reporting verb) показывает, что делает источник: found, reports — сообщает сведения; argues, recommends — спорит, советует; respondents said — так ответили люди. Оговорки (may, suggests, appears to) соразмеряют уверенность с основанием. В синтезе они нужны для каждого источника отдельно.\n\nНовое здесь — твой собственный голос. Вывод из двух источников вместе не принадлежит ни одному из них. Помечай его: Taken together, this suggests… — «вместе это позволяет предположить…», In my view… — «по-моему», I would recommend… Совет автора статьи — её совет (Ruiz recommends…), а не вывод отчёта.\n\nОшибка: Both sources prove that flexibility works. Proves — слишком сильно, both — неправда, и непонятно, чей это вывод."
+    },
+    {
+      "title": "Как выглядит абзац синтеза",
+      "body": "Порядок для короткой сводки: вопрос → совпадение → различие и его причина → пробел → твой вывод с условием. Пример — про позднее начало уроков в школе:\n\nВопрос: The question is whether a later school start is worth it — стоит ли начинать уроки позже.\nСовпадение: Both sources suggest that teenagers sleep more — оба говорят, что подростки спят больше.\nРазличие: The district study found better attendance, whereas the parent survey reports problems with after-school jobs — посещаемость выросла, а родители пишут о трудностях с подработкой после школы.\nПричина различия: They measure different things — они измеряют разное.\nПробел: Neither source looks at grades — ни один не смотрит на оценки.\nТвой вывод: Taken together, they suggest that a later start could work, provided that schools move sports practice — при условии, что школы перенесут тренировки.\n\nКаждое предложение делает одну работу, и в каждом видно, чей это голос."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Both articles suggest that the library's new hours are popular.",
+      "ru": "Обе статьи говорят, что новые часы работы библиотеки людям нравятся.",
+      "why": "Both — совпадение, которое есть в каждом источнике."
+    },
+    {
+      "en": "In the first study, \"online learning\" refers to live classes, whereas in the second it means recorded videos.",
+      "ru": "В первом исследовании «онлайн-обучение» — это занятия в реальном времени, а во втором — записанные видео.",
+      "why": "Слово проверено до сравнения: иначе спор будет ложным."
+    },
+    {
+      "en": "The city survey found fewer complaints, while the drivers' union reports longer shifts.",
+      "ru": "Опрос города показал, что жалоб меньше, а профсоюз водителей сообщает о более длинных сменах.",
+      "why": "Различие двух сторон без вывода «кто-то прав»."
+    },
+    {
+      "en": "Neither source measures the cost.",
+      "ru": "Ни один источник не измеряет стоимость.",
+      "why": "Пробел назван прямо — это тоже ответ читателю."
+    },
+    {
+      "en": "The columnist recommends a four-day week; the survey itself doesn't.",
+      "ru": "Колумнист советует четырёхдневную неделю; сам опрос — нет.",
+      "why": "Совет остаётся за тем, кто его дал."
+    },
+    {
+      "en": "Taken together, the two studies suggest that the program helps, at least in the short term.",
+      "ru": "Вместе два исследования позволяют предположить, что программа помогает — по крайней мере в первое время.",
+      "why": "Taken together помечает твой вывод, а не слова авторов."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Отчёт о пробном периоде / Flexible start times: a six-month trial in Denver",
+      "source": "Авторский учебный материал; компания и цифры вымышлены",
+      "text": "Internal report, People Operations team\n\nFrom March to August, employees at our Denver office could start work at any time between 7:00 and 10:00 a.m., as long as they were available during \"core hours\" from 10:00 a.m. to 3:00 p.m. Our Austin office kept the usual 9:00 a.m. start, so we used it for comparison.\n\nLate arrivals to scheduled meetings fell from 14 percent to 5 percent in Denver. In Austin, the figure stayed at about 12 percent during the same months.\n\nAt the end of the trial, 94 of the 120 Denver employees (78 percent) said they wanted to keep flexible start times. Several team leaders said that meetings outside core hours were harder to schedule.\n\nThis report looks only at start times in the office. It did not measure workload, stress, or how much people worked in the evening."
+    },
+    {
+      "id": "m2",
+      "kind": "reading",
+      "title": "Статья в рассылке / Always on? What remote employees tell us about the end of the workday",
+      "source": "Авторский учебный материал; автор, компания и цифры вымышлены",
+      "text": "Staff wellness newsletter, October issue · by Dana Ruiz\n\nFlexibility sounds like a gift. For many of us, it has a cost. In September, we surveyed 210 employees across the company who work from home at least three days a week. Sixty-one percent said they find it hard to \"switch off\" at the end of the day, and nearly half said they check work messages after 7:00 p.m.\n\n\"When my office is my kitchen, the workday never really ends,\" one employee wrote.\n\nAt the same time, 72 percent said they would not want to give up their remote days.\n\nI believe flexible work is here to stay, but we need clear limits. I recommend \"quiet hours\" after 6:00 p.m., when nobody is expected to answer messages.\n\nThe survey asked only remote employees, so we can't say whether office workers feel the same."
+    },
+    {
+      "id": "m3",
+      "kind": "reference",
+      "title": "Запрос руководителя / A request from Maria Lopez",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "From: Maria Lopez, HR Director\nSubject: Flexible hours: what do we actually know?\n\nHi,\n\nNext month, the leadership team will decide whether to offer flexible start times in all five of our offices. Some managers keep saying that \"flexibility leads to burnout.\" Could you read the Denver trial report and Dana's newsletter piece and send me a short summary of what they tell us together, and what they don't? I'll share it with the leadership team, so please keep it under 250 words.\n\nThanks,\nMaria"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Прочитай M1 и M2. Напиши одно предложение: на какой общий вопрос помогают ответить оба текста? Не тема («гибкий график»), а именно вопрос.",
+      "context": "",
+      "guidance": {
+        "title": "Сначала вопрос, а не тема",
+        "body": "Тема — «о чём тексты». Вопрос — «что мы хотим узнать из них вместе». Хороший вопрос такой, что на него отвечают оба источника, хотя бы частично.",
+        "example": "Both pieces help answer one question: does a later school start help teenagers, and what does it cost families?",
+        "translation": "Оба текста помогают ответить на один вопрос: помогает ли подросткам позднее начало уроков и чего это стоит семьям?"
+      },
+      "hint": "Начни так: Both pieces help answer one question: what does…",
+      "answers": [
+        "Both pieces help answer one question: what does flexibility do to people's workday, and what does it cost?",
+        "The shared question is how flexible work arrangements affect employees, both their punctuality and their ability to stop working.",
+        "Both texts help answer one question: is flexibility good for employees, and where are its limits?"
+      ],
+      "explanation": "Засчитывается вопрос, на который отвечают оба текста: о пользе и цене гибкости для сотрудников. «Flexible work» без вопроса — это тема. Вопрос только об опозданиях не подходит: о них пишет лишь M1."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Что значит «гибкость» (flexibility) в каждом тексте и кого изучали? Ответь одним-двумя предложениями с whereas.",
+      "context": "refer to — обозначать; whereas — тогда как.",
+      "guidance": {
+        "title": "Одно слово — разные вещи?",
+        "body": "Найди в каждом тексте, что именно люди могут выбирать и где они работают. Если это разное, напиши об этом до любого сравнения.",
+        "example": "In the city survey, \"commute\" refers to driving to work, whereas in the transit report it means bus and train trips.",
+        "translation": "В городском опросе «дорога на работу» — это поездка на машине, а в отчёте о транспорте — поездки на автобусе и поезде."
+      },
+      "hint": "Начни так: In the Denver report, flexibility refers to…",
+      "answers": [
+        "In the Denver report, flexibility refers to choosing your start time in the office, whereas in Ruiz's article it means working from home. The report studied 120 office employees in Denver, while the survey asked 210 remote employees across the company.",
+        "In M1, flexibility means a flexible start time at the office, whereas in M2 it means remote work. So the two texts are about different people and different arrangements."
+      ],
+      "explanation": "Засчитывается, если сказано, что в M1 это выбор начала дня в офисе, а в M2 — работа из дома, и что группы разные. While вместо whereas тоже подходит."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Переведи фразу о совпадении: «Оба источника позволяют предположить, что сотрудники ценят контроль над своим графиком: 78% в Денвере хотят сохранить гибкое начало дня, а 72% удалённых сотрудников не хотят отказываться от работы из дома».",
+      "context": "value — ценить; give up — отказаться.",
+      "guidance": {
+        "title": "Both — только с опорой в каждом источнике",
+        "body": "Совпадение убедительно, когда рядом стоит опора из обоих текстов. Числа показывают читателю, что both — не твоя догадка.",
+        "example": "Both reports suggest the new route saves time: buses arrive six minutes earlier, and 80% of riders say trips feel shorter.",
+        "translation": "Оба отчёта позволяют предположить, что новый маршрут экономит время: автобусы приходят на шесть минут раньше, а 80% пассажиров говорят, что поездки кажутся короче."
+      },
+      "hint": "Начни так: Both sources suggest that employees value…",
+      "answers": [
+        "Both sources suggest that employees value control over their schedules: 78 percent in Denver want to keep flexible start times, and 72 percent of remote employees don't want to give up working from home.",
+        "Both sources suggest that employees value control over their schedules: 78% in Denver want to keep a flexible start, while 72% of remote employees would not want to give up their remote days.",
+        "Both sources indicate that employees value having control over their schedules: in Denver, 78 percent want to keep flexible start times, and 72 percent of remote workers don't want to give up working from home."
+      ],
+      "explanation": "Suggest или indicate подходят: оба числа — ответы людей, а не измерение. Shows тоже возможно; prove — слишком сильно. And и while одинаково соединяют две опоры."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Коллега пишет: The Denver report proves that flexibility works, but Ruiz's survey proves that it fails. Перепиши в два предложения: в чём настоящее различие и почему это не прямое противоречие.",
+      "context": "switch off — отключиться от работы; punctuality — пунктуальность.",
+      "guidance": {
+        "title": "Кажущееся противоречие",
+        "body": "Спроси: об одном ли результате говорят источники и об одних ли людях? Если нет, назови, что измерил каждый, и скажи прямо, почему спора нет.",
+        "example": "The school study found higher test scores, whereas the teachers' survey reports more stress. They measure different things, so both can be true.",
+        "translation": "Исследование школы показало, что баллы выросли, а опрос учителей сообщает о большем стрессе. Они измеряют разное, поэтому верно может быть и то, и другое."
+      },
+      "hint": "Начни так: The Denver report found fewer late arrivals, whereas…",
+      "answers": [
+        "The Denver report found that flexible start times reduced late arrivals in one office, whereas Ruiz's survey reports that many remote employees find it hard to switch off. They measure different things in different groups, so they don't contradict each other.",
+        "The report shows better punctuality with flexible start times, while the survey shows that many people who work from home struggle to stop working in the evening. These are different arrangements and different outcomes, so both findings can be true."
+      ],
+      "explanation": "Засчитывается, если названы оба результата (опоздания и трудность отключиться), сказано, что группы или договорённости разные, и нет proves и «works / fails». Whereas и while — оба верны."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Перескажи каждый источник одним предложением так, чтобы глагол показывал вид опоры: в M1 — сравнение двух офисов, в M2 — ответы опроса и мнение автора. Не забудь, кто советует «тихие часы».",
+      "context": "quiet hours — «тихие часы», когда не ждут ответа на сообщения.",
+      "guidance": {
+        "title": "Вспоминаем: глагол и оговорка показывают силу опоры",
+        "body": "Вспоминаем уроки о глаголах передачи и об оговорках: found — сведения, respondents said — так ответили люди, argues и recommends — мнение и совет автора. Силу глагола выбирай по тому, на чём держится утверждение.",
+        "example": "The clinic study found shorter wait times, while in the patient survey most respondents said that visits felt rushed.",
+        "translation": "Исследование клиники показало, что ждать стали меньше, а в опросе пациентов большинство ответивших сказали, что приёмы кажутся торопливыми."
+      },
+      "hint": "Для M1 начни с The Denver report found…, для M2 — с In Ruiz's survey, 61 percent of remote employees said…",
+      "answers": [
+        "The Denver report found that late arrivals fell from 14 to 5 percent, while the comparison office in Austin stayed at about 12 percent. In Ruiz's survey, 61 percent of remote employees said they find it hard to switch off, and Ruiz argues that flexibility needs limits, such as quiet hours after 6:00 p.m.",
+        "According to the Denver report, late arrivals dropped from 14% to 5%, compared with no change in Austin. Ruiz's survey shows that 61% of remote workers say they struggle to switch off, and she recommends quiet hours after 6 p.m."
+      ],
+      "explanation": "Засчитывается, если у M1 есть число и сравнение с Остином, у M2 сказано, что это ответы людей (said, say), а «тихие часы» — совет Ruiz, а не отчёта. Proves здесь не подходит ни для одного источника."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Назови два пробела: чего не знает ни один из двух источников, хотя это важно для решения о гибком начале дня во всех офисах? 1–2 предложения.",
+      "context": "",
+      "guidance": {
+        "title": "Пробел — тоже ответ",
+        "body": "Посмотри, что каждый источник сам говорит о своих границах (последние абзацы). Пробел синтеза — то, что не измерил ни один: Neither source… / It remains unclear whether…",
+        "example": "Neither source measures the cost, and it remains unclear whether the effect lasts after the first year.",
+        "translation": "Ни один источник не измеряет стоимость, и неясно, сохраняется ли эффект после первого года."
+      },
+      "hint": "M1 не измерял работу по вечерам. Кого не спрашивал опрос M2?",
+      "answers": [
+        "Neither source measures evening work for people with flexible start times in the office, and it remains unclear whether office workers find it as hard to switch off as remote workers do.",
+        "Neither source tells us whether flexible start times lead to more after-hours work. We also don't know how office employees would answer Ruiz's survey."
+      ],
+      "explanation": "Засчитывается, если пробел действительно общий: M1 не мерил вечернюю работу и стресс, M2 не спрашивал офисных сотрудников. Пробел про выгорание (burnout) тоже верен: его не измерял ни один."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Напиши свой вывод для руководителя одним-двумя предложениями: что ты советуешь и при каком условии. Вывод должен быть явно твоим, а не словами авторов.",
+      "context": "",
+      "guidance": {
+        "title": "Свой голос: Taken together… provided that…",
+        "body": "Taken together, In my view, I would recommend показывают, что дальше говоришь ты. Provided that — «при условии, что» — привязывает совет к пробелу, который ты нашёл.",
+        "example": "Taken together, the two reports suggest that a longer bus trial is worth it, provided that the city also tracks drivers' hours.",
+        "translation": "Вместе два отчёта позволяют предположить, что более долгая проба маршрута того стоит, при условии что город будет следить и за часами водителей."
+      },
+      "hint": "Начни так: Taken together, … I would recommend…, provided that…",
+      "answers": [
+        "Taken together, the two sources suggest that flexible start times are worth expanding. I would recommend a trial in all five offices, provided that we also track how many messages people send after 7:00 p.m.",
+        "In my view, the Denver results justify a wider trial, provided that we measure evening work and stress, which neither source looked at."
+      ],
+      "explanation": "Засчитывается, если вывод помечен как твой (Taken together, In my view, I would recommend), не приписан источникам и связан с пробелом через условие. Осторожный отказ тоже подходит, если он так же помечен и обоснован."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "prompt": "Открой M3 и ответь Марии Лопес (150–250 слов). Её письмо прочитает руководство. Что должно быть: общий вопрос; что в двух источниках значит «гибкость»; совпадение с опорой в обоих; различие и почему это не противоречие; какой вид опоры у каждого источника; ответ на фразу «flexibility leads to burnout»; что неизвестно; твоя рекомендация с условием, помеченная как твоя.",
+      "context": "burnout — выгорание; leadership team — руководство.",
+      "hint": "План: The question is… → In the report… whereas in the survey… → Both… → However… → Neither… → Taken together, I would recommend…, provided that…",
+      "answers": [
+        "Subject: Re: Flexible hours: what do we actually know?\n\nHi Maria,\n\nThe question for the leadership team is whether flexible start times would help or hurt our employees. The two pieces answer different parts of it.\n\nFirst, they use \"flexibility\" differently. The Denver report is about choosing your start time in the office. Dana's survey is about working from home.\n\nBoth suggest that people value control over their schedules: 78 percent of Denver employees want to keep flexible starts, and 72 percent of remote employees don't want to give up their remote days.\n\nThe findings differ, but they don't contradict each other. The Denver report compared two offices and found that late arrivals fell from 14 to 5 percent. The survey reports that 61 percent of remote employees find it hard to switch off. Those are different groups and different outcomes.\n\nNeither source measured burnout, so we can't say that flexibility leads to it. We also don't know whether flexible start times increase evening work.\n\nTaken together, I would recommend a one-year trial in all five offices, provided that we also track after-hours messages and ask about stress at the start and end.\n\nBest,\nSam"
+      ],
+      "explanation": "Засчитывается, если цифры совпадают с M1 и M2, разные значения «гибкости» названы, совпадение и различие опираются на оба текста, про выгорание сказано, что его не измеряли, а рекомендация помечена как твоя и связана с пробелом. Абзацы идут по пунктам, а не «сначала отчёт, потом статья»."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "На встрече руководитель говорит: The research says flexibility causes burnout, so let's not expand it. Ответь вслух, 2–3 минуты, не глядя в тексты. Что должно быть: что ты понимаешь его опасение; что на самом деле сообщает каждый источник, с одним числом из каждого; почему это не одно и то же «исследование»; чего не знает ни один; твоё предложение с условием; в конце — вопрос, который приглашает его возразить.",
+      "context": "",
+      "hint": "Начни так: I see why you're worried. But the two pieces say different things…",
+      "answers": [
+        "I see why you're worried, and the concern is fair. But I don't think the research says that flexibility causes burnout. We have two different pieces, and they're about different things.\n\nThe first is the Denver trial. People there could choose when to start work in the office. Late arrivals to meetings fell from fourteen to five percent, while our Austin office stayed at about twelve. That's a real comparison, but it only looks at start times. It didn't measure stress or evening work.\n\nThe second is Dana Ruiz's survey of people who work from home. Sixty-one percent said they find it hard to switch off. That's important, but it's about remote work, not flexible start times. And it's what people said, not a measure of burnout. The survey didn't ask office workers, so we can't compare.\n\nSo neither piece measured burnout. We simply don't know yet.\n\nTaken together, I'd suggest a one-year trial of flexible start times in all five offices, provided that we also track after-hours messages and ask people about stress. If the numbers look bad, we stop. Does that address your concern, or do you see a risk I'm missing?"
+      ],
+      "explanation": "Засчитывается, если ты не споришь с человеком, а уточняешь, что говорят источники: каждый назван с числом и своим видом опоры, «выгорание не измеряли» сказано прямо, а предложение помечено как твоё и имеет условие. Оценивай по своей расшифровке: слышно ли, где голос источника, а где твой."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Коллега написал сводку по M1 и M2 и просит её поправить. Перепиши её в один абзац синтеза (120–170 слов): по пунктам, а не по источникам, с правильными подписями и без лишней уверенности.\n\n\"Source 1 is a report from Denver. It says that flexible hours work very well, because people are late less often and 78% like it. Source 2 is a newsletter article. It says that flexibility causes burnout, because people can't switch off. It recommends quiet hours after 6 p.m. Both sources prove that flexibility is a big change. So the sources disagree, and we should do what the report recommends: quiet hours.\"",
+      "context": "",
+      "hint": "Найди пять проблем: порядок по источникам, «work very well», «causes burnout», «both prove», чей совет quiet hours.",
+      "answers": [
+        "Both sources help answer one question: what does flexibility do to employees' workday? They suggest that people value control over their schedules: 78 percent of Denver employees want to keep flexible start times, and 72 percent of remote employees want to keep their remote days. However, they look at different arrangements. The Denver report found that flexible start times in the office cut late arrivals from 14 to 5 percent, whereas Dana Ruiz's survey reports that 61 percent of people who work from home find it hard to switch off. These findings don't contradict each other, and neither source measured burnout. Ruiz, not the report, recommends quiet hours after 6:00 p.m. Taken together, the sources suggest that flexibility has real benefits and a possible cost, so any wider plan should track evening work as well as punctuality."
+      ],
+      "explanation": "Засчитывается, если абзац начинается с вопроса и идёт по пунктам, «work very well» и «causes burnout» заменены тем, что источники действительно сообщают, нет both prove, «тихие часы» приписаны Ruiz, а последний вывод помечен как твой."
+    }
+  ]
+}

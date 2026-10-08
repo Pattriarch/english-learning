@@ -1,0 +1,359 @@
+{
+  "id": "extended-a2-phone",
+  "title": "Звонок в мастерскую: перенести время и подтвердить",
+  "subtitle": "Старое время не подходит → попросить другое → выбрать → подтвердить последнее",
+  "level": "A2",
+  "group": "Полная практика навыков",
+  "units": "Авторский маршрут · A2",
+  "minutes": 35,
+  "goal": "Попросить по телефону другое время и подтвердить итог: «А можно забрать его в четверг?», «Значит, я забираю его в 4:45, верно?»",
+  "formula": "My pickup time is …, but I can't come then. → Could I pick it up on Thursday instead? → So I'm picking it up on Thursday at 4:45, right?",
+  "keyRule": {
+    "rule": "Старое время не подходит — скажи это и попроси другое: Could I… instead?",
+    "example": "Could I pick it up on Friday instead? — А можно забрать его в пятницу?",
+    "check": "В конце повтори время, которое прозвучало последним."
+  },
+  "guided": true,
+  "introSections": 1,
+  "introExamples": 2,
+  "prerequisites": [
+    "research-telephone-messages",
+    "path-future-plans",
+    "path-something-anything"
+  ],
+  "recycles": [
+    "research-telephone-messages",
+    "research-spelling-numbers",
+    "path-future-plans"
+  ],
+  "teaches": [
+    "проблема со временем: My pickup time is …, but I can't come then (pickup time — время получения)",
+    "просьба о замене: Could I come on Thursday instead? (instead — вместо этого)",
+    "pick up — забрать; it и them только внутри: pick it up, pick them up",
+    "ничего не подходит: Sorry, I can't come then. Do you have anything after six?",
+    "время поменялось в разговоре: подтверждаем последнее — So I'm picking it up on Thursday at 4:45, right?"
+  ],
+  "sources": [
+    {
+      "title": "Longman Dictionary · could",
+      "url": "https://www.ldoceonline.com/dictionary/could",
+      "notes": "Сверено: could используют для вежливой просьбы, а Could I…? — чтобы попросить разрешения (Could I use your phone?)."
+    },
+    {
+      "title": "British Council · Phrasal verbs",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/phrasal-verbs",
+      "notes": "Сверено правило для pick up: короткое местоимение (it, them) обязательно стоит между глаголом и частицей."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Время не подходит: как попросить другое?",
+      "body": "Мастерская пишет: ноутбук готов, забрать можно в среду в 12. А ты в это время на работе. Нужно позвонить и попросить другое время.\n\nНачало звонка ты знаешь из урока о сообщениях: Hi, this is Alex. I'm calling about my laptop.\n\nДальше назови старое время и скажи, что оно не подходит: My pickup time is Wednesday at noon, but I can't come then. Pickup time — время, когда забираешь заказ, then — «в это время». Потом попроси замену: Could I come on Thursday instead? Instead — «вместо этого», стоит в конце."
+    },
+    {
+      "title": "Pick it up: куда встаёт it",
+      "body": "Pick up — «забрать» вещь или заказ. С названием вещи годятся оба порядка: pick up my laptop и pick my laptop up. Короткие it и them встают только в середину: pick it up, pick them up. Pick up it — ошибка."
+    },
+    {
+      "title": "Ничего не подходит: спроси о другом",
+      "body": "Сотрудник предлагает варианты: I have 4:30 or 5:15. Which time works for you? Если одно подходит, ответ ты знаешь: 4:30 works for me. Если не подходит ничего, не соглашайся. Скажи это и спроси о своём времени: Sorry, I can't come then. Do you have anything after six? — «А есть что-нибудь после шести?»"
+    },
+    {
+      "title": "Время поменялось: подтверди последнее",
+      "body": "Время может измениться прямо в звонке: Sorry, 4:30 is taken. I can do 4:45. Taken — «занято», I can do — «могу предложить». Сомнительное число переспроси выбором через or, как в кафе. В конце повтори итог — то, что прозвучало последним, а не первым. Договорённость — знакомое am + -ing: So I'm picking it up on Thursday at 4:45, right?"
+    }
+  ],
+  "examples": [
+    {
+      "en": "My pickup time is Monday at 10 a.m., but I can't come then.",
+      "ru": "Время получения — понедельник, 10 утра, но я не могу прийти в это время.",
+      "why": "Сначала старое время, потом but и проблема."
+    },
+    {
+      "en": "Could I pick it up on Friday instead?",
+      "ru": "А можно забрать его в пятницу?",
+      "why": "Instead — пятница вместо старого дня. It стоит между pick и up."
+    },
+    {
+      "en": "Could I pick them up tomorrow?",
+      "ru": "Можно забрать их завтра?",
+      "why": "Them, как и it, стоит только внутри: pick them up."
+    },
+    {
+      "en": "Sorry, I can't come then. Do you have anything after six?",
+      "ru": "Простите, в это время я не могу. А есть что-нибудь после шести?",
+      "why": "Ни одно время не подходит: отказ и сразу вопрос о другом."
+    },
+    {
+      "en": "Sorry, 5:15 is taken. How about 5:30?",
+      "ru": "Простите, 5:15 занято. Может, 5:30?",
+      "why": "Сотрудник меняет время прямо в звонке. Запоминай новое — 5:30."
+    },
+    {
+      "en": "So I'm picking it up on Friday at 5:30, right?",
+      "ru": "Значит, я забираю его в пятницу в 5:30, верно?",
+      "why": "В итоге — последнее названное время. Right? просит собеседника подтвердить."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Звонок: начало",
+      "kind": "dialogue",
+      "text": "Dana: Good afternoon, Main Street Repair. This is Dana. How can I help you?\nYou: …\nDana: Sure. What's your order number?\nYou: …\nDana: Thank you. OK, I see it. Your laptop is ready for pickup on Wednesday at noon.",
+      "source": "Написано для курса; мастерская и люди вымышлены."
+    },
+    {
+      "id": "m2",
+      "title": "Сообщение мастерской и твой календарь",
+      "kind": "reference",
+      "text": "Text message from Main Street Repair:\nYour laptop is ready for pickup! Order #5816. Pickup time: Wednesday at 12:00 p.m. Questions? Call us at (312) 555-0147.\n\nYour calendar:\nWednesday: at work, 9:00 a.m. to 6:00 p.m.\nThursday: at work until 3:30 p.m. Free from 4:00 to 5:00 p.m.\nFriday: busy all day.",
+      "source": "Написано для курса; мастерская и люди вымышлены."
+    },
+    {
+      "id": "m3",
+      "title": "Звонок: предложение мастерской",
+      "kind": "dialogue",
+      "text": "Dana: Thursday? Let me check. OK, on Thursday I have 4:30 or 5:15. Which time works for you?\nYou: …\nDana: Great. And the repair is fifty dollars. You can pay by card or in cash.\nYou: …",
+      "source": "Написано для курса; мастерская и люди вымышлены."
+    },
+    {
+      "id": "m4",
+      "title": "Звонок: исправление и итог",
+      "kind": "dialogue",
+      "text": "Dana: Fifty. Five-zero. Oh, and I'm sorry. Someone just booked 4:30. I can do 4:45 on Thursday. Is that OK?\nYou: …\nDana: Yes, that's right. See you on Thursday, Alex. Bye!",
+      "source": "Написано для курса; мастерская и люди вымышлены."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Ты — Alex Kim. Мастерская прислала сообщение (M2). Ты звонишь, Дана берёт трубку (M1). Ответь на обе её реплики: назови себя и скажи, насчёт чего звонишь (laptop — ноутбук), потом назови номер заказа из M2.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем начало звонка",
+        "body": "Начало ты знаешь из урока о сообщениях: this is + имя, потом I'm calling about + вещь. Номер заказа — по одной цифре.",
+        "example": "Hi, this is Maria Lopez. I'm calling about my watch. It's three-zero-seven-two.",
+        "translation": "Здравствуйте, это Мария Лопес. Я звоню насчёт своих часов. Номер — три-ноль-семь-два."
+      },
+      "hint": "Какие четыре цифры стоят в M2 после Order #?",
+      "answers": [
+        "Hi, this is Alex Kim. I'm calling about my laptop. It's five-eight-one-six.",
+        "Hi, this is Alex Kim. I'm calling about my laptop. My order number is five-eight-one-six.",
+        "Hello, this is Alex Kim. I'm calling about my laptop. It's five-eight-one-six.",
+        "Hi, this is Alex. I'm calling about my laptop. It's five-eight-one-six.",
+        "Hi, this is Alex Kim. I am calling about my laptop. It's five-eight-one-six.",
+        "Hi, this is Alex Kim. I'm calling about my laptop. It's 5816."
+      ],
+      "explanation": "Имя и тема — в первых словах, номер — по цифрам: так Дана сразу найдёт заказ. Распознавание может записать номер цифрами 5816 — это нормально.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Дана нашла заказ. Объясни проблему: «Время получения — среда, 12 часов дня, но я не могу прийти в это время». Используй pickup time.",
+      "context": "",
+      "guidance": {
+        "title": "Что не подходит: …, but I can't come then",
+        "body": "Сначала назови старое время, потом объясни проблему: but — «но», then — «в это время». 12 часов дня часто называют noon — «полдень».",
+        "example": "My pickup time is Monday at 10 a.m., but I'm at work then.",
+        "translation": "Время получения — понедельник, 10 утра, но я в это время на работе."
+      },
+      "hint": "Начни так: My pickup time is Wednesday … Вторая часть — с but.",
+      "answers": [
+        "My pickup time is Wednesday at noon, but I can't come then.",
+        "My pickup time is Wednesday at noon, but I cannot come then.",
+        "My pickup time is on Wednesday at noon, but I can't come then.",
+        "My pickup time is Wednesday at 12 p.m., but I can't come then.",
+        "My pickup time is Wednesday at 12:00 p.m., but I can't come then."
+      ],
+      "explanation": "Сначала факт, потом проблема: but I can't come then. Noon и 12 p.m. — одно и то же время. On Wednesday тоже верно.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Теперь попроси четверг вместо среды: «А можно забрать его в четверг?» Добавь instead — «вместо этого».",
+      "context": "",
+      "guidance": {
+        "title": "Попроси замену: … instead?",
+        "body": "Could I…? ты уже знаешь. Новое — instead в конце фразы: так ясно, что четверг заменяет среду. Забрать — pick up, и it встаёт в середину: pick it up.",
+        "example": "Could I come on Friday instead?",
+        "translation": "А можно прийти в пятницу?"
+      },
+      "hint": "Начни так: Could I pick it … Какой предлог нужен перед днём недели?",
+      "answers": [
+        "Could I pick it up on Thursday instead?",
+        "Could I pick it up Thursday instead?",
+        "Can I pick it up on Thursday instead?",
+        "Could I pick up my laptop on Thursday instead?",
+        "Could I pick my laptop up on Thursday instead?"
+      ],
+      "explanation": "Instead показывает, что четверг заменяет среду, it стоит между pick и up. Can I… тоже понятно, но звучит проще. On перед Thursday в американской речи часто опускают."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Послушай M3: Дана предлагает два времени в четверг. Проверь по M2, когда ты свободен, и выбери одно время одной фразой.",
+      "context": "",
+      "guidance": {
+        "title": "Выбери по своему календарю",
+        "body": "Сначала сверь варианты с M2: какое время попадает в твоё свободное окно? Ответ — знакомое … works for me.",
+        "example": "Ten o'clock works for me.",
+        "translation": "Мне подходит десять часов."
+      },
+      "hint": "По M2 ты свободен в четверг с 4:00 до 5:00. Какое из двух времён попадает в этот промежуток?",
+      "answers": [
+        "4:30 works for me.",
+        "Four thirty works for me.",
+        "4:30 works for me, thanks.",
+        "Thursday at 4:30 works for me.",
+        "4:30, please."
+      ],
+      "explanation": "В четверг ты свободен с 4 до 5, а 5:15 уже позже. Поэтому 4:30 works for me. Можно и короче: 4:30, please.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Представь, что Дана предложила другое: On Friday, I have 9:00 or 11:00. По M2 в пятницу ты занят весь день. Откажись и спроси, нет ли чего-нибудь в четверг после четырёх.",
+      "context": "",
+      "guidance": {
+        "title": "Ничего не подходит — спроси о другом",
+        "body": "Не соглашайся на неудобное время. Скажи, что не можешь, и сразу спроси о своём времени: Do you have anything…? — «А есть что-нибудь…?»",
+        "example": "Sorry, I'm at work then. Do you have anything in the evening?",
+        "translation": "Простите, я в это время на работе. А есть что-нибудь вечером?"
+      },
+      "hint": "Начни так: Sorry, I can't … Во второй фразе — Do you have anything on Thursday …?",
+      "answers": [
+        "Sorry, I can't come then. Do you have anything on Thursday after four?",
+        "Sorry, I can't come then. Do you have anything on Thursday after 4?",
+        "Sorry, I can't come then. Do you have anything on Thursday after 4 p.m.?",
+        "Sorry, I can't come then. Do you have anything after four on Thursday?",
+        "Sorry, I can't come on Friday. Do you have anything on Thursday after four?",
+        "Sorry, I'm busy then. Do you have anything on Thursday after four?",
+        "Sorry, I'm busy all day on Friday. Do you have anything on Thursday after four?",
+        "Sorry, I can't come then. Is there anything on Thursday after four?"
+      ],
+      "explanation": "Сначала отказ, потом вопрос о времени, которое тебе подходит. Anything — в вопросе, как в уроке про something и anything. I'm busy then и Is there anything…? тоже верны.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Дальше в M3 Дана называет цену ремонта. Связь плохая: ты не понял, 15 или 50 долларов. Переспроси только это число.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: переспросить одно число",
+        "body": "Числа на -teen и -ty ты уже переспрашивал выбором через or. По телефону начни с Sorry, did you say…? — «простите, вы сказали…?»",
+        "example": "Sorry, did you say fourteen or forty?",
+        "translation": "Простите, вы сказали четырнадцать или сорок?"
+      },
+      "hint": "Какие два числа ты путаешь?",
+      "answers": [
+        "Sorry, did you say fifteen or fifty?",
+        "Did you say fifteen or fifty?",
+        "Sorry, did you say fifteen or fifty dollars?",
+        "Sorry, did you say 15 or 50?",
+        "Sorry, was that fifteen or fifty?",
+        "Fifteen or fifty?"
+      ],
+      "explanation": "Ты уточняешь только сомнительное число и даёшь оба варианта — ответить легко. Was that…? и короткое Fifteen or fifty? тоже подходят.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг готовится к такому же звонку и написал себе фразу: Can I pick up it on Friday? Исправь одну ошибку и напиши фразу целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь, где стоит it",
+        "body": "С it и them — только один.",
+        "example": "Could I pick them up tomorrow?",
+        "translation": "Можно забрать их завтра?"
+      },
+      "hint": "Где должно стоять it — после up или перед ним?",
+      "answers": [
+        "Can I pick it up on Friday?",
+        "Could I pick it up on Friday?"
+      ],
+      "explanation": "It — короткое слово-замена, его ставим между pick и up. Pick up it — частая ошибка. Could вместо Can тоже подходит."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Послушай M4: время изменилось. Подтверди новую договорённость одной фразой: «Итак, я забираю его в четверг в 4:45, верно?»",
+      "context": "",
+      "guidance": {
+        "title": "Подтверди последнее время",
+        "body": "Вспоминаем: договорённость — am + -ing, как в I'm meeting Mia tomorrow. Новое — взять время, которое сотрудник назвал последним, и спросить right? в конце.",
+        "example": "So I'm meeting Mr. Lee on Monday at 9:00, right?",
+        "translation": "Итак, я встречаюсь с мистером Ли в понедельник в 9:00, верно?"
+      },
+      "hint": "Какое время Дана назвала последним? Начни так: So I'm picking it up …",
+      "answers": [
+        "So I'm picking it up on Thursday at 4:45, right?",
+        "So I am picking it up on Thursday at 4:45, right?",
+        "OK, so I'm picking it up on Thursday at 4:45, right?",
+        "Yes, that's fine. So I'm picking it up on Thursday at 4:45, right?",
+        "So I'm picking it up Thursday at 4:45, right?",
+        "So I'm picking it up on Thursday at 4:45. Is that right?"
+      ],
+      "explanation": "Итог — последнее предложение Даны: 4:45, а не 4:30. Right? даёт сотруднику шанс поправить. Is that right? тоже подходит.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Сосед по квартире (roommate) обещал напомнить тебе про ноутбук. Напиши ему сообщение: когда ты теперь забираешь ноутбук и сколько стоит ремонт. 2–3 фразы.",
+      "context": "remind — напомнить.",
+      "hint": "Сверь с M4 последнее время. Опоры: I'm picking up my laptop … / The repair is … / Can you remind me …?",
+      "answers": [
+        "I'm picking up my laptop on Thursday at 4:45. The repair is $50. Can you remind me on Thursday?",
+        "My laptop pickup is now Thursday at 4:45, not Wednesday. It's $50. Please remind me!"
+      ],
+      "explanation": "Главное — верный итог: четверг, 4:45 (не 4:30) и $50 (не $15). Подходит любой понятный текст с этими сведениями.",
+      "materialIds": [
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Теперь позвони сам в другую мастерскую. Скажи вслух свою часть начала звонка: представься, назови вещь и номер заказа, объясни, что старое время не подходит, и попроси другое. 4–5 фраз, около 30 секунд.",
+      "context": "Велосипед (bike) в City Bike Shop. Номер заказа 3072. Записали на субботу, 10:00 a.m. Ты можешь в понедельник после 5 p.m. (after 5 p.m. — после пяти вечера).",
+      "hint": "План: This is … → I'm calling about … → My order number is … → My pickup time is …, but … → Could I …?",
+      "answers": [
+        "Hi, this is Alex Kim. I'm calling about my bike. My order number is three-zero-seven-two. My pickup time is Saturday at 10 a.m., but I can't come then. Could I pick it up on Monday after 5 p.m. instead?"
+      ],
+      "explanation": "Проверь по записи, есть ли все пять частей: имя, вещь, номер по цифрам, проблема и просьба. Распознанный текст показывает слова, но не оценивает произношение."
+    }
+  ]
+}

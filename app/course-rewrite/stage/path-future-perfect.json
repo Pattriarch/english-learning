@@ -1,0 +1,346 @@
+{
+  "id": "path-future-perfect",
+  "title": "К пятнице будет готово: will have + третья форма",
+  "subtitle": "Готово к сроку → by или until → by the time + настоящее → расскажи сам",
+  "level": "B2",
+  "group": "Времена",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Сказать, что к сроку в будущем дело уже будет сделано: «К пятнице я закончу отчёт», «Когда ты приедешь, мы уже поедим». И не путать by («не позже») с until («всё время до»).",
+  "formula": "By Friday, I'll have finished the report. → By the time you get here, we'll have eaten.",
+  "keyRule": {
+    "rule": "Говоришь, что к сроку в будущем дело уже будет сделано, — will have + третья форма.",
+    "example": "By Friday, I'll have finished the report — к пятнице я закончу отчёт.",
+    "check": "By — «не позже», until — «всё время до»: I'll be at work until six."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-future-continuous",
+    "path-past-perfect"
+  ],
+  "recycles": [
+    "path-zero-first",
+    "path-future-continuous"
+  ],
+  "teaches": [
+    "will have + третья форма — к сроку в будущем дело уже сделано: By Friday, I'll have finished the report",
+    "will have одинаково для всех (не will has); I'll have; «не успею» — won't have + третья форма; вопрос Will you have…? — Yes, I will",
+    "разговорный вариант: I'll be done by six",
+    "by six — срок, не позже ↔ until six — всё время до шести; won't… until — не раньше",
+    "by the time / when + настоящее время: By the time you get here, we'll have eaten",
+    "by then — к тому времени; in two years — через два года: In two years, I'll have graduated",
+    "will be + -ing (идёт в момент) ↔ will have + третья форма (готово к моменту) ↔ will (просто когда)"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Future continuous and future perfect",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-continuous-future-perfect",
+      "notes": "Сверены форма will have + третья форма, смысл «закончится до момента в будущем», by и by the time («в какой-то момент до»), in + срок («в конце этого периода») и отличие от will be + -ing."
+    },
+    {
+      "title": "Инглекс · Future Perfect Tense",
+      "url": "https://englex.ru/future-perfect-tense/",
+      "notes": "Объяснение для русскоговорящих: by — «к, не позже», by the time — «к тому времени, как», настоящее время после when и by the time, until в отрицании — «не раньше»; типичные ошибки will have go и will has."
+    },
+    {
+      "title": "VOA Learning English · Have You Perfected the Perfect Tenses?",
+      "url": "https://learningenglish.voanews.com/a/everyday-grammar-have-you-perfected-the-perfect-tenses/3137265.html",
+      "notes": "Сверено, что future perfect в речи встречается нечасто и нужен, когда есть будущий срок или второе будущее событие."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Три способа сказать «до шести»",
+    "why": "Will be + -ing — работа идёт в шесть. Will have + третья форма — к шести работа позади. Until — что-то длится и заканчивается в шесть.",
+    "items": [
+      {
+        "label": "В шесть — идёт",
+        "en": "At six, I'll be painting the fence.",
+        "ru": "В шесть я буду красить забор.",
+        "note": "Работа в процессе."
+      },
+      {
+        "label": "К шести — готово",
+        "en": "By six, I'll have painted the fence.",
+        "ru": "К шести я покрашу забор.",
+        "note": "Работа позади, забор готов."
+      },
+      {
+        "label": "До шести — всё время",
+        "en": "I'll be in the yard until six.",
+        "ru": "Я буду во дворе до шести.",
+        "note": "Until: длится и заканчивается в шесть."
+      }
+    ],
+    "focus": [
+      "will be painting",
+      "will have painted",
+      "until"
+    ],
+    "footnote": "By — срок, к которому дело закончится. Until — время, до которого что-то длится."
+  },
+  "sections": [
+    {
+      "title": "Как сказать «к пятнице уже будет готово»",
+      "body": "Начальница спрашивает, когда будет отчёт. Ты отвечаешь: «К пятнице закончу». Ты не говоришь, когда именно сядешь за работу. Ты обещаешь: в пятницу отчёт уже будет готов.\n\nДля этого есть форма will have + третья форма: By Friday, I’ll have finished the report. Её называют future perfect. Представь себя в пятнице: работа уже позади. Это пара к past perfect: had finished — готово к моменту в прошлом, will have finished — готово к моменту в будущем.\n\nФорме нужен срок: by Friday, by six, by the time you get here. Без срока хватает will: I’ll finish the report tomorrow — закончу завтра. Поэтому в речи will have звучит не так часто, как will."
+    },
+    {
+      "title": "Как собрать: will have + третья форма",
+      "body": "Will have одинаково для всех: I’ll have finished, she’ll have finished. После will всегда have, не has: she will has — ошибка. Дальше третья форма: done, sent, left.\n\n«Не успею» — won’t have + третья форма: I won’t have finished by then — к тому времени я ещё не закончу. Вопрос — will вперёд: Will you have finished by six? Краткий ответ: Yes, I will.\n\nВ разговоре американцы часто говорят проще: I’ll be done by six — к шести я закончу. Done здесь значит «закончил, готово». Это тоже верно и звучит очень естественно."
+    },
+    {
+      "title": "By или until: два разных «до»",
+      "body": "Русское «до шести» переводится по-разному. By six — срок: не позже шести. Дело закончится к шести или раньше: I’ll have sent it by six. Until six — всё время до шести: что-то длится и прекращается в шесть: I’ll be at the office until six — я буду в офисе до шести.\n\nС will have нужен by: I’ll have finished until Friday — ошибка. Спроси себя: дело к этому времени закончится — или будет длиться до этого времени?\n\nUntil с «не» значит «не раньше»: I won’t be done until six — закончу не раньше шести."
+    },
+    {
+      "title": "By the time you get here — без will",
+      "body": "By the time — «к тому времени, как». После него, как после when и before, ставь настоящее время, хотя речь о будущем: By the time you get here, we’ll have eaten — когда ты приедешь, мы уже поедим. By the time you will get — ошибка.\n\nЕщё два частых срока. By then — «к тому времени»: By then, she’ll have left — к тому времени она уже уйдёт. In + срок — «через»: In two years, I’ll have graduated — через два года я уже окончу учёбу."
+    },
+    {
+      "title": "Will be doing или will have done?",
+      "body": "Ты уже знаешь will be + -ing: дело будет идти в момент будущего. At six, I’ll be writing the report — в шесть я буду писать отчёт: работа идёт. By six, I’ll have written the report — к шести отчёт готов: работа позади.\n\nПо-русски разницу показывает сам глагол: «буду писать» и «напишу». Но «напишу» без срока — просто will: I’ll write it tomorrow. Will have нужен, когда ты говоришь, что будет готово к названному моменту."
+    }
+  ],
+  "examples": [
+    {
+      "en": "By Friday, I'll have finished the report.",
+      "ru": "К пятнице я закончу отчёт.",
+      "why": "Срок — пятница; к ней работа уже позади."
+    },
+    {
+      "en": "By the time you get here, we'll have eaten.",
+      "ru": "Когда ты приедешь, мы уже поедим.",
+      "why": "После by the time — get, без will."
+    },
+    {
+      "en": "I'll be at the office until six.",
+      "ru": "Я буду в офисе до шести.",
+      "why": "Until: пребывание в офисе длится до шести. Срока готовности здесь нет."
+    },
+    {
+      "en": "At six, I'll be packing. By eight, I'll have packed everything.",
+      "ru": "В шесть я буду собирать вещи. К восьми я всё соберу.",
+      "why": "Процесс в момент — will be + -ing; готово к сроку — will have."
+    },
+    {
+      "en": "Will you have read it by Monday?",
+      "ru": "Ты прочитаешь это к понедельнику?",
+      "why": "Will впереди, have и третья форма — после человека."
+    },
+    {
+      "en": "I won't have finished by then.",
+      "ru": "К тому времени я ещё не закончу.",
+      "why": "Won’t have: к сроку не будет готово."
+    },
+    {
+      "en": "I'll be done by noon.",
+      "ru": "Я закончу к полудню.",
+      "why": "Разговорный вариант: be done — «закончить»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Начальница спрашивает про презентацию для клиента. Ответь: «К четвергу я подготовлю слайды».",
+      "context": "prepare — подготовить; slides — слайды.",
+      "guidance": {
+        "title": "Готово к сроку: by + will have + третья форма",
+        "body": "By называет срок. Will have + третья форма говорит, что к нему дело уже будет сделано.",
+        "example": "By Monday, we'll have painted the bedroom.",
+        "translation": "К понедельнику мы покрасим спальню."
+      },
+      "hint": "Начни так: By Thursday, I'll have …",
+      "answers": [
+        "By Thursday, I'll have prepared the slides.",
+        "By Thursday, I will have prepared the slides.",
+        "I'll have prepared the slides by Thursday.",
+        "I will have prepared the slides by Thursday.",
+        "By Thursday, I'll have finished the slides.",
+        "By Thursday, I'll have made the slides.",
+        "By Thursday, I'll be done with the slides.",
+        "I'll have the slides ready by Thursday."
+      ],
+      "explanation": "Четверг — срок, к нему слайды будут готовы: will have prepared. By Thursday можно поставить и в конец. I’ll be done with the slides by Thursday — разговорный вариант, тоже верно."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг дал тебе свою книгу и спрашивает, вернёшь ли ты её в субботу. Ответь честно: «К субботе я её ещё не дочитаю. Она очень длинная».",
+      "context": "finish a book — дочитать книгу.",
+      "guidance": {
+        "title": "Не успею: won't have + третья форма",
+        "body": "Won’t have говорит, что к сроку дело ещё не будет готово.",
+        "example": "We won't have saved enough money by June.",
+        "translation": "К июню мы ещё не накопим достаточно денег."
+      },
+      "hint": "Начни так: I won't have …",
+      "answers": [
+        "I won't have finished it by Saturday. It's really long.",
+        "I won't have finished it by Saturday. It's very long.",
+        "I will not have finished it by Saturday. It is very long.",
+        "I won't have finished reading it by Saturday. It's really long.",
+        "I won't have read it by Saturday. It's really long.",
+        "I won't have finished it by Saturday because it's really long.",
+        "I won't be done with it by Saturday. It's really long."
+      ],
+      "explanation": "К субботе книга ещё не будет дочитана: won’t have finished. Won’t have read и разговорное won’t be done with it тоже верны."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты зовёшь коллегу на бейсбол в семь вечера. Спроси: «Ты закончишь работу к шести?»",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос: Will you have…?",
+        "body": "Will встаёт перед человеком, have и третья форма — после него. Срок — в конце.",
+        "example": "Will they have fixed the car by Friday?",
+        "translation": "Они починят машину к пятнице?"
+      },
+      "hint": "Начни так: Will you have …?",
+      "answers": [
+        "Will you have finished work by six?",
+        "Will you have finished by six?",
+        "Will you have finished your work by six?",
+        "Will you have finished work by 6?",
+        "Will you be done with work by six?",
+        "Will you be done by six?"
+      ],
+      "explanation": "Will впереди, потом you have finished, срок by six в конце. Разговорный Will you be done by six? тоже верен и звучит очень естественно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед просит переставить твою машину сегодня вечером. Ответь двумя фразами: «Я буду на работе до пяти. Но к шести я уже заберу детей из школы».",
+      "context": "pick up the kids — забрать детей.",
+      "guidance": {
+        "title": "By или until",
+        "body": "Until — что-то длится до этого времени. By — к этому времени дело будет сделано.",
+        "example": "I'll be in meetings until noon, but I'll have answered your email by two.",
+        "translation": "У меня совещания до полудня, но к двум я отвечу на твоё письмо."
+      },
+      "hint": "В какой фразе что-то длится, а в какой — будет сделано к сроку?",
+      "answers": [
+        "I'll be at work until five. But by six, I'll have picked up the kids from school.",
+        "I'll be at work until five. But I'll have picked up the kids from school by six.",
+        "I will be at work until five. But by six, I will have picked up the kids from school.",
+        "I'll be at work until five, but by six, I'll have picked up the kids from school.",
+        "I'll be at work until five. But by six, I'll have picked the kids up from school.",
+        "I'll be at work until 5. But by 6, I'll have picked up the kids from school.",
+        "I'll be at work until five. But by six, I'll have already picked up the kids from school."
+      ],
+      "explanation": "Работа длится до пяти — until. Детей ты заберёшь не позже шести — by + will have picked up. Picked the kids up тоже верно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем правило про when. Друг едет к тебе в кино, но застрял в пробке. Напиши ему: «Когда ты доберёшься, фильм уже начнётся».",
+      "context": "get here — добраться сюда.",
+      "guidance": {
+        "title": "Вспоминаем when + настоящее время: by the time you get here",
+        "body": "После when, before и by the time о будущем говорят в настоящем времени. Will ставят только в другую часть.",
+        "example": "By the time the guests arrive, I'll have cleaned the kitchen.",
+        "translation": "К приходу гостей я уберу кухню."
+      },
+      "hint": "Начни так: By the time you … — get или will get?",
+      "answers": [
+        "By the time you get here, the movie will have started.",
+        "By the time you get here, the movie will have already started.",
+        "By the time you get here, the movie will already have started.",
+        "The movie will have started by the time you get here.",
+        "The movie will have already started by the time you get here.",
+        "When you get here, the movie will have started.",
+        "When you get here, the movie will have already started."
+      ],
+      "explanation": "Get here — без will, хотя это будущее. Начало фильма случится раньше твоего прихода: will have started. When you get here тоже подходит."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем will be + -ing. Коллега хочет позвонить тебе завтра в три. Ответь: «В три я буду встречаться с клиентом. Но к четырём встреча уже закончится».",
+      "context": "meet with a client — встречаться с клиентом; end — закончиться.",
+      "guidance": {
+        "title": "Вспоминаем will be + -ing: идёт — или уже позади",
+        "body": "Will be + -ing — дело идёт в этот момент. Will have + третья форма — к этому моменту оно позади.",
+        "example": "At ten, we'll be boarding the plane. By noon, we'll have landed in Boston.",
+        "translation": "В десять мы будем садиться в самолёт. К полудню мы уже приземлимся в Бостоне."
+      },
+      "hint": "Первая фраза — что будет идти в три, вторая — что будет позади к четырём.",
+      "answers": [
+        "At three, I'll be meeting with a client. But by four, the meeting will have ended.",
+        "At three, I'll be meeting with a client. But the meeting will have ended by four.",
+        "At three, I will be meeting with a client. But by four, the meeting will have ended.",
+        "At three, I'll be meeting with a client, but by four, the meeting will have ended.",
+        "At three, I'll be meeting a client. But by four, the meeting will have ended.",
+        "At 3, I'll be meeting with a client. But by 4, the meeting will have ended.",
+        "At three, I'll be meeting with a client. But by four, the meeting will have finished.",
+        "At three, I'll be meeting with a client. But by four, we'll have finished."
+      ],
+      "explanation": "В три встреча идёт — will be meeting. К четырём она позади — will have ended. Finished вместо ended тоже верно."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет клиенту и просит проверить сообщение: “We will have finish the design until Friday. By the time you will come back from vacation, we will has tested the app.” Найди четыре ошибки и напиши сообщение целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Ищем ошибку: четыре места проверки",
+        "body": "Проверь по очереди: третья форма после have, have вместо has, by для срока и настоящее время после by the time.",
+        "example": "We'll have sent the contract by Monday. By the time you read this, I'll have left.",
+        "translation": "Мы отправим договор к понедельнику. Когда ты это прочитаешь, я уже уйду."
+      },
+      "hint": "Подчеркни каждое will: после какого оно лишнее, а где форма после него неполная?",
+      "answers": [
+        "We will have finished the design by Friday. By the time you come back from vacation, we will have tested the app.",
+        "We'll have finished the design by Friday. By the time you come back from vacation, we'll have tested the app.",
+        "We will have finished the design by Friday. By the time you get back from vacation, we will have tested the app.",
+        "We'll have finished the design by Friday. By the time you get back from vacation, we'll have tested the app."
+      ],
+      "explanation": "Засчитывается, если исправлены четыре места: finished вместо finish, by вместо until, you come back без will, have вместо has."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "В пятницу у коллеги Майка день рождения, ты готовишь сюрприз. Напиши письмо команде (100–180 слов). В письме: что ты сделаешь к среде и к пятнице (will have + третья форма с by); что к сроку ещё не будет готово и почему (won’t have); чем Майк будет занят в момент сюрприза (will be + -ing); одна фраза с by the time + настоящее время; вопрос к коллегам о готовности (Will you have…?).",
+      "context": "surprise party — вечеринка-сюрприз; break room — комната отдыха; sign a card — подписать открытку; set up — подготовить, расставить.",
+      "hint": "План: Hi everyone! → By Wednesday, I'll have… → … won't have… by…, because… → At 4 p.m., Mike will be… → By the time he gets back, we'll have… → Will you have… by…?",
+      "answers": [
+        "Hi everyone,\n\nAs you know, Friday is Mike's birthday, and we're planning a surprise party in the break room. Here's the plan. By Wednesday, I'll have ordered the cake and bought the decorations. By Friday morning, Sarah will have collected the money for the gift. Not everybody will have signed the card by Thursday, because half of the team is working from home this week, so please sign it on Friday morning. At 4 p.m., Mike will be meeting with a client downstairs, so that's our chance. By the time he gets back, we'll have set up everything. Will you all have finished your calls by 4:15? We need everyone in the room when he opens the door!\n\nThanks,\nAnna"
+      ],
+      "explanation": "Засчитывается, если есть два результата к разным срокам с will have + by, одно won’t have с причиной, процесс в момент сюрприза с will be + -ing, by the time + настоящее время и вопрос Will you have…? Повод и детали могут быть любыми."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "В разговорном клубе тема — «Где я буду через пять лет». Расскажи вслух, 1–2 минуты. Скажи: что ты сделаешь к концу этого года (will have + третья форма); что сделаешь через пять лет (In five years, I'll have…); чего ещё не успеешь (won’t have); чем будешь заниматься в обычный день через пять лет (will be + -ing); одна фраза с by the time + настоящее время.",
+      "context": "save money — копить деньги; get promoted — получить повышение; realistic — реалистичный.",
+      "hint": "Начни так: By the end of this year, I'll have …",
+      "answers": [
+        "By the end of this year, I'll have finished my English course, and I'll have read my first novel in English. That's my short plan. In five years, I hope I'll have moved to a bigger apartment, and I'll have gotten promoted at work. I'll probably have visited the United States at least twice. But I'm realistic. I won't have saved enough money for a house by then, and I won't have learned to play the guitar, because I never practice. On a normal day in five years, I'll be working from home, and in the evenings I'll be taking my kids to soccer practice. By the time my daughter starts school, I'll have found a job with shorter hours. Five years sounds like a long time, but I know it will go fast."
+      ],
+      "explanation": "Засчитывается, если есть результат к концу года и через пять лет с will have, одно won’t have, процесс в обычный день с will be + -ing и by the time + настоящее время. Планы могут быть любыми; проверь по записи, что после by the time нет will."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Сосед по квартире пишет: “Hey, can I use the kitchen at 7 tonight? I'm making dinner for some friends.” Ответь ему в 2–4 фразах: что ты будешь делать на кухне в семь (will be + -ing); к какому времени ты закончишь и уберёшь за собой (will have + by); до какого времени ты будешь дома (until).",
+      "context": "bake cookies — печь печенье; clean up — убрать за собой.",
+      "hint": "Начни так: Sure, but at seven I'll still be …",
+      "answers": [
+        "Sure, but at seven I'll still be baking cookies for tomorrow. I'll have finished and cleaned up by 7:30, so the kitchen is all yours after that. I'll be home until nine if you need help!"
+      ],
+      "explanation": "Засчитывается, если есть процесс в семь (will be + -ing), готово к сроку (will have + by) и until для времени, которое длится. I’ll be done by 7:30 тоже подходит."
+    }
+  ]
+}

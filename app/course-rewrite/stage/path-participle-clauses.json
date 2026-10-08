@@ -1,0 +1,350 @@
+{
+  "id": "path-participle-clauses",
+  "title": "Waiting for the bus, I…: короткие обороты вместо when и because",
+  "subtitle": "-ing → not + -ing → having + третья форма → третья форма → после существительного → тот же «кто» → after + -ing",
+  "level": "B2",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Писать короче и связнее, как в историях и новостях: «Стоя в пробке, я послушал твоё сообщение», «Закончив тесты, команда выпустила приложение», «Построенный в 1883 году, мост…» — и не терять того, кто делает действие.",
+  "formula": "Sitting in traffic, I listened… → Having finished the tests, the team… → Built in 1883, the bridge… → the man standing by the door",
+  "keyRule": {
+    "rule": "Короткая часть с -ing относится к тому, кто стоит сразу после запятой.",
+    "example": "Walking home, I saw Tom. — Идя домой, я увидел Тома (шёл я).",
+    "check": "Walking home, the rain started — кто шёл домой? Дождь? Значит, ошибка."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-passive-basic",
+    "path-relative-basic",
+    "path-gerund-infinitive"
+  ],
+  "recycles": [
+    "path-gerund-infinitive",
+    "path-verb-patterns"
+  ],
+  "teaches": [
+    "-ing в начале — действие одновременно с главным или причина: Sitting in traffic, I listened… Feeling tired, I went to bed",
+    "«не» — not перед -ing: Not knowing the password, I called you",
+    "having + третья форма — сначала одно, потом другое: Having finished the report, she went home",
+    "третья форма в начале — с человеком или вещью что-то сделали: Built in 1883, the bridge…",
+    "короткая часть после существительного: the man standing by the door (= who is standing), the package sent on Monday (= that was sent); одно законченное действие в прошлом так не сокращают",
+    "главное правило: «кто» короткой части — тот, кто стоит после запятой; иначе полная фраза с while, as, after",
+    "разговорный вариант: after / before / while + -ing — After talking to her, I felt better",
+    "короткие обороты звучат книжно; в разговоре чаще полная фраза"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Participle clauses",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/participle-clauses",
+      "notes": "Сверено: у короткой части и главной один и тот же «кто»; своего времени у неё нет; -ing — причина, одновременность, результат; третья форма — пассивный смысл; having + третья форма — действие закончилось раньше; часто после before, after, while, on; в основном письменная речь."
+    },
+    {
+      "title": "Lingust · -ing и -ed clauses",
+      "url": "https://lingust.ru/english/grammar/lesson97",
+      "notes": "Сверено: короткая часть после существительного — the woman talking to Tom, the boy injured in the accident; -ing — действие, -ed (третья форма) — с предметом что-то сделали."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Кто делает короткую часть",
+    "why": "Короткая часть не называет, кто действует. Его берут из главной части — того, кто стоит после запятой.",
+    "items": [
+      {
+        "label": "Тот же человек",
+        "en": "Leaving the office, Kate saw the bus.",
+        "ru": "Выходя из офиса, Кейт увидела автобус.",
+        "note": "Выходила Кейт — она и стоит после запятой."
+      },
+      {
+        "label": "Другой — ошибка",
+        "en": "Leaving the office, the bus came.",
+        "ru": "«Выходя из офиса, пришёл автобус».",
+        "note": "Получается, из офиса выходил автобус."
+      },
+      {
+        "label": "Полная фраза",
+        "en": "As Kate was leaving the office, the bus came.",
+        "ru": "Когда Кейт выходила из офиса, пришёл автобус.",
+        "note": "«Кто» разный — у каждой части свой."
+      },
+      {
+        "label": "С ним что-то сделали",
+        "en": "Painted last month, the office looks new.",
+        "ru": "Офис покрасили в прошлом месяце, и он выглядит как новый.",
+        "note": "Третья форма: офис не красил, его покрасили."
+      }
+    ],
+    "focus": [
+      "Kate saw",
+      "the bus came",
+      "As Kate was leaving",
+      "Painted"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что это такое: русское «стоя», «проверив» по-английски",
+      "body": "В русском есть короткие обороты: «Стоя в очереди, я понял…», «Проверив адрес, я вышел». В английском похожее делают формой на -ing или третьей формой глагола: Standing in line, I realized… — стоя в очереди, я понял…\n\nЭто не новое время. У короткой части нет своего времени и своего «кто». Время и человек — в главной части после запятой: I realized.\n\nТакие обороты чаще встречаются на письме: в историях, новостях, отчётах. В разговоре американцы обычно говорят полной фразой: While I was standing in line, I realized… Обе фразы правильные; короткая звучит книжнее."
+    },
+    {
+      "title": "Главное правило: делает тот, кто стоит после запятой",
+      "body": "Короткая часть берёт себе «кто» из главной части. В Standing in line, I realized… в очереди стоял тот же I, который понял.\n\nЕсли в главной части другой человек или вещь, получается нелепость: Walking home, the rain started — выходит, что домой шёл дождь. По-русски «Идя домой, начался дождь» — тоже ошибка, просто мы её реже замечаем.\n\nИсправить можно двумя способами. Поставить после запятой того, кто делал: Walking home, I got caught in the rain — идя домой, я попал под дождь. Или сказать полной фразой, где у каждой части свой «кто»: While I was walking home, it started to rain."
+    },
+    {
+      "title": "-ing, having + третья форма или просто третья форма",
+      "body": "-ing — действие идёт одновременно с главным или объясняет причину: Feeling tired, I went to bed early — чувствуя усталость (потому что устал), я рано лёг. «Не» — not перед -ing: Not knowing the way, we used GPS.\n\nHaving + третья форма — сначала одно закончилось, потом другое: Having finished the report, she went home — закончив отчёт, она ушла домой. В разговоре вместо этого говорят After finishing the report… или After she finished the report…\n\nТретья форма без having — с человеком или вещью что-то сделали, как в пассиве: Worried by the news, he called his parents — встревоженный новостями, он позвонил родителям. Его встревожили, он не тревожил."
+    },
+    {
+      "title": "После существительного: the man standing by the door",
+      "body": "Такую же короткую часть ставят сразу после слова, вместо who или that: the man standing by the door = the man who is standing by the door — мужчина, который стоит у двери. The package sent on Monday = the package that was sent on Monday — посылка, отправленная в понедельник.\n\n-ing заменяет who + действие, которое идёт сейчас или бывает всегда: people living in the city. Третья форма заменяет that + was или were + третья форма: a house built in 1920.\n\nГраница правила: одно законченное действие в прошлом так не сокращают. The woman who called yesterday нельзя заменить на the woman calling yesterday. Здесь оставь who."
+    },
+    {
+      "title": "After + -ing и while + -ing: как это звучит в обычной речи",
+      "body": "Самый разговорный вариант — короткая часть после after, before, while: After talking to her, I felt better — после разговора с ней мне стало лучше. Before leaving, turn off the lights — перед уходом выключи свет. While driving, don't text — за рулём не пиши сообщений.\n\nИз урока про to и -ing ты знаешь: после предлога глагол получает -ing. After и before здесь работают так же.\n\nПравило «тот же кто» остаётся: Before leaving, the lights should be turned off — ошибка, свет никуда не уходит. Правильно: Before leaving, turn off the lights."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Standing in line, I realized I'd left my wallet at home.",
+      "ru": "Стоя в очереди, я понял, что оставил кошелёк дома.",
+      "why": "Стоял и понял один и тот же I. I'd left — раньше, чем понял."
+    },
+    {
+      "en": "Not wanting to wake the baby, we whispered.",
+      "ru": "Не желая будить ребёнка, мы говорили шёпотом.",
+      "why": "Причина: not перед -ing."
+    },
+    {
+      "en": "Having lived in Texas for ten years, Maria isn't afraid of the heat.",
+      "ru": "Прожив в Техасе десять лет, Мария не боится жары.",
+      "why": "Having + третья форма: сначала прожила, отсюда вывод."
+    },
+    {
+      "en": "Made in small batches, these cookies sell out by noon.",
+      "ru": "Это печенье пекут маленькими партиями, и к полудню его раскупают.",
+      "why": "Третья форма: печенье не делает, его делают."
+    },
+    {
+      "en": "The guy sitting next to me snored the whole flight.",
+      "ru": "Парень, который сидел рядом со мной, храпел весь полёт.",
+      "why": "Sitting после слова = who was sitting."
+    },
+    {
+      "en": "Before signing anything, read it carefully.",
+      "ru": "Прежде чем что-то подписывать, внимательно прочитай.",
+      "why": "Before + -ing — так говорят и в обычной речи."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши другу: «Стоя в пробке, я послушал твоё голосовое сообщение. Поздравляю!»",
+      "context": "sit in traffic — стоять в пробке, voice message — голосовое сообщение.",
+      "guidance": {
+        "title": "-ing — пока шло другое действие",
+        "body": "Начни с -ing — это то, что шло в тот момент. После запятой поставь того, кто это делал, и главное действие.",
+        "example": "Waiting for my coffee, I checked the weather.",
+        "translation": "Ожидая кофе, я посмотрел погоду."
+      },
+      "hint": "Начни так: Sitting in traffic, I … Кто стоял в пробке?",
+      "answers": [
+        "Sitting in traffic, I listened to your voice message. Congratulations!",
+        "Sitting in traffic, I listened to your voice message. Congrats!",
+        "Sitting in traffic, I listened to your voicemail. Congratulations!",
+        "Stuck in traffic, I listened to your voice message. Congratulations!",
+        "While sitting in traffic, I listened to your voice message. Congratulations!",
+        "While I was sitting in traffic, I listened to your voice message. Congratulations!",
+        "Sitting in traffic, I listened to your message. Congratulations!"
+      ],
+      "explanation": "Sitting in traffic относится к I: в пробке стоял тот, кто слушал. Stuck in traffic и полная фраза While I was sitting… тоже верны."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Объясни коллеге, почему ты позвонил ему в выходной: «Не зная пароля от общей папки, я решил позвонить тебе. Извини!»",
+      "context": "password — пароль, shared folder — общая папка.",
+      "guidance": {
+        "title": "Причина: not + -ing",
+        "body": "-ing может объяснять причину: «потому что не знал». Not ставится перед -ing, а не после.",
+        "example": "Not having a car, I take the bus everywhere.",
+        "translation": "Машины у меня нет, поэтому я везде езжу на автобусе."
+      },
+      "hint": "Начни так: Not … the password … Где стоит not?",
+      "answers": [
+        "Not knowing the password for the shared folder, I decided to call you. Sorry!",
+        "Not knowing the password to the shared folder, I decided to call you. Sorry!",
+        "Not knowing the shared folder password, I decided to call you. Sorry!",
+        "Not knowing the password for the shared folder, I decided to give you a call. Sorry!",
+        "Because I didn't know the password for the shared folder, I decided to call you. Sorry!",
+        "I didn't know the password for the shared folder, so I decided to call you. Sorry!"
+      ],
+      "explanation": "Not knowing = because I didn't know. Knowing not — ошибка. Полная фраза с because или so тоже верна и звучит разговорнее."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши в рабочем отчёте: «Закончив тесты, команда выпустила новую версию приложения».",
+      "context": "release — выпустить, app — приложение.",
+      "guidance": {
+        "title": "Having + третья форма — сначала одно, потом другое",
+        "body": "Having + третья форма показывает: первое действие закончилось до главного. «Кто» тот же: команда закончила, и команда выпустила.",
+        "example": "Having signed the lease, we got the keys.",
+        "translation": "Подписав договор аренды, мы получили ключи."
+      },
+      "hint": "Начни так: Having … the tests, the team …",
+      "answers": [
+        "Having finished the tests, the team released the new version of the app.",
+        "Having finished the tests, the team released a new version of the app.",
+        "Having finished testing, the team released the new version of the app.",
+        "Having finished the testing, the team released the new version of the app.",
+        "Having completed the tests, the team released the new version of the app.",
+        "Having completed the tests, the team released a new version of the app.",
+        "After finishing the tests, the team released the new version of the app.",
+        "After finishing the tests, the team released a new version of the app."
+      ],
+      "explanation": "Having finished показывает: тесты закончились раньше выпуска. After finishing тоже верно и звучит проще."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь подпись к фото для сайта о путешествиях: «Построенный в 1883 году, Бруклинский мост был самым длинным подвесным мостом в мире».",
+      "context": "suspension bridge — подвесной мост.",
+      "guidance": {
+        "title": "Третья форма — с ним что-то сделали",
+        "body": "Если с человеком или вещью что-то сделали, начни с третьей формы, без having. Сама вещь стоит сразу после запятой.",
+        "example": "Written in 1960, the book is still popular.",
+        "translation": "Написанная в 1960 году, книга до сих пор популярна."
+      },
+      "hint": "Мост строил или его построили? Начни так: Built …",
+      "answers": [
+        "Built in 1883, the Brooklyn Bridge was the longest suspension bridge in the world.",
+        "Built in 1883, the Brooklyn Bridge was once the longest suspension bridge in the world.",
+        "Built in 1883, the Brooklyn Bridge was the world's longest suspension bridge.",
+        "Built in 1883, the Brooklyn Bridge was the longest suspension bridge in the world at the time.",
+        "Completed in 1883, the Brooklyn Bridge was the longest suspension bridge in the world.",
+        "Opened in 1883, the Brooklyn Bridge was the longest suspension bridge in the world."
+      ],
+      "explanation": "Built — третья форма: мост построили. Building in 1883 значило бы, что мост сам что-то строил. The Brooklyn Bridge — знаменитый мост, с the, как в уроке о названиях."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши коллеге в рабочем чате: «Парень, стоящий у стойки регистрации, — наш новый клиент. И посылка, отправленная в понедельник, до сих пор не пришла».",
+      "context": "front desk — стойка регистрации, package — посылка, arrive — прийти.",
+      "guidance": {
+        "title": "Сразу после слова — вместо who is и that was",
+        "body": "Короткую часть можно поставить сразу после существительного. -ing заменяет who is + -ing, третья форма — that was + третья форма.",
+        "example": "The woman talking to Mark is our new manager. The email sent this morning was from her.",
+        "translation": "Женщина, которая разговаривает с Марком, — наш новый менеджер. Письмо, отправленное утром, было от неё."
+      },
+      "hint": "Начни так: The guy standing … Как короче сказать that was sent?",
+      "answers": [
+        "The guy standing at the front desk is our new client. And the package sent on Monday still hasn't arrived.",
+        "The guy standing at the front desk is our new client. And the package sent on Monday hasn't arrived yet.",
+        "The guy standing at the front desk is our new client, and the package sent on Monday still hasn't arrived.",
+        "The guy standing by the front desk is our new client. And the package sent on Monday still hasn't arrived.",
+        "The man standing at the front desk is our new client. And the package sent on Monday still hasn't arrived.",
+        "The man standing at the front desk is our new client. And the package sent on Monday hasn't arrived yet.",
+        "The guy standing at the front desk is our new client. Also, the package sent on Monday still hasn't arrived.",
+        "The guy who's standing at the front desk is our new client. And the package that was sent on Monday still hasn't arrived."
+      ],
+      "explanation": "Standing = who is standing, sent = that was sent. Полные варианты с who и that тоже верны. Still hasn't arrived — посылки нет до сих пор."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В рассказе друга есть фраза: Walking into the office, my phone started ringing. Исправь её двумя способами и напиши оба варианта: в первом оставь Walking into the office и поставь после запятой того, кто шёл; во втором скажи полной фразой с as или while.",
+      "context": "",
+      "guidance": {
+        "title": "Кто шёл в офис?",
+        "body": "После запятой должен стоять тот, кто делал действие из короткой части. Если главное действие делает другой, говори полной фразой.",
+        "example": "While I was cooking dinner, the smoke alarm went off.",
+        "translation": "Пока я готовил ужин, сработала пожарная сигнализация."
+      },
+      "hint": "Первый способ: Walking into the office, I heard … Второй: As I was walking …",
+      "answers": [
+        "Walking into the office, I heard my phone ringing. As I was walking into the office, my phone started ringing.",
+        "Walking into the office, I heard my phone ring. As I was walking into the office, my phone started ringing.",
+        "Walking into the office, I heard my phone ringing. While I was walking into the office, my phone started ringing.",
+        "Walking into the office, I heard my phone ring. While I was walking into the office, my phone started ringing.",
+        "Walking into the office, I heard my phone ringing. As I walked into the office, my phone started ringing.",
+        "Walking into the office, I heard my phone ring. As I walked into the office, my phone started ringing.",
+        "Walking into the office, I heard my phone ringing. As I was walking into the office, my phone rang.",
+        "Walking into the office, I heard my phone ringing. As I was walking into the office, my phone started to ring.",
+        "Walking into the office, I noticed my phone ringing. As I was walking into the office, my phone started ringing."
+      ],
+      "explanation": "В исходной фразе в офис будто шёл телефон. В первом исправлении шёл I: heard my phone ringing — как в уроке о see и hear. Во втором у каждой части свой «кто»: I was walking, my phone started ringing."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем: после предлога — -ing. Друг нервничает перед собеседованием. Напиши ему: «Прежде чем идти на собеседование, почитай о компании. После разговора с рекрутером мне всегда спокойнее».",
+      "context": "recruiter — рекрутер, calmer — спокойнее.",
+      "guidance": {
+        "title": "Вспоминаем: после предлога — -ing",
+        "body": "Вспоминаем из урока про to и -ing: после for, at, of глагол получает -ing. Before, after и while работают так же — и это самый разговорный способ сократить фразу.",
+        "example": "After moving to Denver, I started hiking every weekend.",
+        "translation": "После переезда в Денвер я начал ходить в походы каждые выходные."
+      },
+      "hint": "Начни так: Before going … After …",
+      "answers": [
+        "Before going to the interview, read about the company. After talking to the recruiter, I always feel calmer.",
+        "Before going to the interview, read about the company. After talking to a recruiter, I always feel calmer.",
+        "Before going to your interview, read about the company. After talking to the recruiter, I always feel calmer.",
+        "Before going to the interview, read up on the company. After talking to the recruiter, I always feel calmer.",
+        "Before going to the interview, read about the company. After speaking with the recruiter, I always feel calmer.",
+        "Before going to the interview, read about the company. After talking with the recruiter, I always feel calmer.",
+        "Before you go to the interview, read about the company. After I talk to the recruiter, I always feel calmer.",
+        "Before your interview, read about the company. After talking to the recruiter, I always feel calmer."
+      ],
+      "explanation": "Before going и after talking — после before и after глагол с -ing, как после любого предлога. Полные части Before you go… и After I talk… тоже верны."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Районная библиотека просит помочь с новостью для сайта: текст слишком рубленый. Перепиши его, используя 2–3 короткие части (-ing, having + третья форма или третья форма). Там, где «кто» разный, оставь полную фразу. Текст: The new library opened on Monday. It was designed by a local architect. It has three floors and a rooftop garden. Visitors arrived in the morning. They were given free coffee. The mayor cut the ribbon. Then the kids ran to the children's section.",
+      "context": "architect — архитектор, rooftop garden — сад на крыше, mayor — мэр, cut the ribbon — перерезать ленточку.",
+      "hint": "Какие фразы говорят об одном и том же «кто»? Начни так: Designed by …",
+      "answers": [
+        "Designed by a local architect, the new library opened on Monday. It has three floors and a rooftop garden. Arriving in the morning, visitors were given free coffee. After the mayor cut the ribbon, the kids ran to the children's section.",
+        "The new library, designed by a local architect, opened on Monday. It has three floors and a rooftop garden. Visitors arriving in the morning were given free coffee. As soon as the mayor cut the ribbon, the kids ran to the children's section."
+      ],
+      "explanation": "Засчитывается, если есть 2–3 короткие части и у каждой правильный «кто»: designed — библиотека, arriving — посетители. Мэр и дети — разные люди, поэтому здесь нужна полная фраза с after или as soon as."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Управляющий домом просит жильцов описать, что случилось вчера вечером, когда во всём доме выключился свет. Напиши ему письмо на 100–180 слов. В нём: что ты делал, когда погас свет (короткая часть с -ing); что сделал потом (having + третья форма или after + -ing); что ты увидел (короткая часть после существительного); одно место, где «кто» разный, — полной фразой; просьба в конце.",
+      "context": "power outage — отключение света, building manager — управляющий домом, flashlight — фонарик, hallway — коридор, elevator — лифт, stuck — застрявший.",
+      "hint": "План: I'm writing about … . Cooking dinner, I … . Having found … . While I was … , we heard … . Could you …?",
+      "answers": [
+        "Dear Mr. Green,\nI'm writing about the power outage last night. Cooking dinner at around 8 p.m., I suddenly lost power. Not knowing what was going on, I looked out the window and saw that the whole building was dark. Having found a flashlight, I went into the hallway. While I was talking to my neighbor, we heard someone calling for help from the elevator. A man stuck between the third and fourth floors was pressing the alarm button. We called 911, and the firefighters got him out about twenty minutes later.\nCould you tell us what caused the outage? Also, could you please check the elevator alarm? It didn't seem to work.\nThank you,\nOlga Petrova, Apartment 4B"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: короткая часть с -ing, having + третья форма или after + -ing, короткая часть после существительного (a man stuck…), полная фраза там, где «кто» разный, и просьба. Проверь каждую короткую часть: тот ли «кто» стоит после запятой."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг спрашивает: What's the worst trip you've ever had? Расскажи историю вслух за 1–2 минуты. В рассказе: с чего всё началось (after или before + -ing); что ты заметил, пока что-то делал (-ing или while + -ing); что пошло не так у другого человека или с вещью — полной фразой; чем всё закончилось. В устной речи after и while + -ing звучат естественнее, чем having.",
+      "context": "",
+      "hint": "Начни так: A few years ago, after checking into a hotel in …",
+      "answers": [
+        "A few years ago, I went to Miami for a conference. After checking into the hotel, I went down to the beach. Lying in the sun, I fell asleep for two hours, and I woke up completely red. That night, while I was getting ready for dinner, my friend called. Her flight had been canceled, so she couldn't come. The next morning, before giving my presentation, I looked in the mirror and almost cried. Not having any makeup with me, I just went in and told everyone about my sunburn. They laughed, and it actually made the presentation easier. Since then, I always wear sunscreen."
+      ],
+      "explanation": "Засчитывается, если есть after или before + -ing, часть с -ing или while для того, что шло одновременно, полная фраза там, где действует другой человек, и понятный конец истории."
+    }
+  ]
+}

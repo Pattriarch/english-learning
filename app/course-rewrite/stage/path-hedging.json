@@ -1,0 +1,347 @@
+{
+  "id": "path-hedging",
+  "title": "Оговорки: говорить так уверенно, как позволяют факты",
+  "subtitle": "факт — прямо → оговорка у вывода → что именно ограничиваешь → одна оговорка на мысль → в разговоре: I'd say, as far as I can tell",
+  "level": "C1",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Говорить и писать о своих выводах ровно так уверенно, как позволяют факты: «Продажи выросли на 12 %» — прямо, «Возможно, помогла реклама» — с оговоркой, и не прятать мысль за тремя perhaps подряд.",
+  "formula": "Fact → no hedge · Explanation → may / likely / appears to · Range → tends to / most / in this group / partly",
+  "guided": true,
+  "keyRule": {
+    "rule": "Факт говори прямо. Оговорку ставь только у вывода — у того, в чём не уверен.",
+    "example": "Scores rose. The new schedule may have helped. — Баллы выросли. Возможно, помогло новое расписание.",
+    "check": "Убери оговорку. Фраза стала сильнее, чем факты? Значит, оговорка нужна. Нет — она лишняя."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-critical-reading",
+    "path-deduction",
+    "path-passive-reporting"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-modal-perfect"
+  ],
+  "teaches": [
+    "оговорка (hedge) — слово, которое ограничивает силу утверждения; факт — без неё, вывод — с ней",
+    "оговорка стоит у того, в чём не уверен: Sales rose. The ads may have helped — а не Sales may have risen",
+    "уверенность: may / might, probably, is likely to, may well — «вполне может»",
+    "частота и общность: tends to, often, in most cases",
+    "охват и степень: most, some, in this group; partly, to some extent, slightly",
+    "опора на видимое: appears to / seems to, The data suggest…",
+    "одна точная оговорка вместо could perhaps possibly; сильные сведения — сильные слова: clearly show",
+    "в разговоре: I'd say…, as far as I can tell / as far as I know, I'm fairly sure, I could be wrong, but…",
+    "слова: hedge, contribute to, account for, comparison group, pilot"
+  ],
+  "sources": [
+    {
+      "title": "University of Manchester · Academic Phrasebank: Being cautious",
+      "url": "https://www.phrasebank.manchester.ac.uk/using-cautious-language/",
+      "notes": "Сверено: виды осторожных формулировок — modal verbs (may, could, might), probability (It is likely), объяснение результатов (A possible explanation is…), ограничение выводов, рекомендации, прогнозы (will probably), защита от обобщений через often, generally, the majority of. Больше всего оговорок там, где автор объясняет причины."
+    },
+    {
+      "title": "Writefull · Using cautious language — hedging",
+      "url": "https://learn.writefull.com/Academic%20writing%20norms/Academic%20writing%20style/Academic%20vocabulary%20norms/Using%20cautious%20language%20-%20hedging",
+      "notes": "Сверено: оговорка нужна там, где вывод не доказан; виды — наречия (possibly, probably, somewhat), фразы (seems to, appears to, suggests that), модальные глаголы. Предупреждение против нагромождения: “This could perhaps suggest…” делает автора неуверенным. Отсюда раздел «Одна точная оговорка лучше трёх туманных»."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одни сведения — три фразы",
+    "why": "Факт: в июне посещений сайта стало в два раза больше. Неизвестно только, помог ли новый дизайн. Сравни, где в каждой фразе стоит сомнение.",
+    "items": [
+      {
+        "label": "Сомнение не там",
+        "en": "Website visits may have doubled in June.",
+        "ru": "Посещений сайта в июне, возможно, стало вдвое больше.",
+        "note": "Звучит так, будто ты не знаешь своих цифр."
+      },
+      {
+        "label": "Слишком смело",
+        "en": "The redesign doubled our website visits.",
+        "ru": "Новый дизайн удвоил посещения сайта.",
+        "note": "Догадка о причине подана как факт."
+      },
+      {
+        "label": "Точно",
+        "en": "Website visits doubled in June. The redesign may be part of the reason.",
+        "ru": "В июне посещений стало вдвое больше. Возможно, отчасти из-за нового дизайна.",
+        "note": "Факт прямо, оговорка у причины."
+      }
+    ],
+    "footnote": "Redesign — новый дизайн сайта; double — удвоиться.",
+    "focus": [
+      "may have doubled",
+      "doubled our",
+      "may be part of the reason"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что такое оговорка и зачем она в твоих собственных выводах",
+      "body": "Ты пишешь начальнице отчёт: после нового расписания занятий средний балл группы вырос с 68 до 74. Это факт — ты его посчитал. Почему вырос — уже твоё объяснение. Может, помогло расписание, а может, тест был легче.\n\nПо-английски факт говорят прямо: Scores rose from 68 to 74. Объяснение — с оговоркой: The new schedule may have helped. Оговорка (hedge) — слово, которое ограничивает силу утверждения: may, likely, tends to, partly. Это не признак слабого английского и не вежливость. Это точность: читатель видит, где кончается проверенное.\n\nВ уроке о критическом чтении ты проверял чужие выводы: хватает ли им доказательств. Теперь то же самое со своими словами: ты сам решаешь, насколько сильно сказать.\n\nПо-русски ту же работу делают «возможно», «скорее всего», «как правило», «отчасти». Разница в привычке: в американском рабочем отчёте вывод без оговорки читают как доказанный."
+    },
+    {
+      "title": "Где ставить оговорку: у вывода, а не у факта",
+      "body": "Оговорка ограничивает то, к чему стоит. Сравни. Scores may have risen — «баллы, возможно, выросли»: теперь ты сомневаешься в самом измерении. The schedule may have raised scores — «возможно, баллы подняло расписание»: измерение верное, сомнение только в причине.\n\nПравило: то, что ты видел, посчитал или прочитал, говори без оговорки. Оговорку ставь у объяснения причины, у прогноза и у переноса вывода на других людей.\n\nОбратная ошибка — сказать вывод так же прямо, как факт: The new schedule raised scores. Если не было группы для сравнения, это сильнее, чем ты знаешь.\n\nПроверка: убери оговорку и спроси себя, можешь ли ты доказать то, что осталось. Можешь — оговорка лишняя. Не можешь — она нужна."
+    },
+    {
+      "title": "Что именно ты ограничиваешь: уверенность, частоту, охват, степень",
+      "body": "Оговорки отвечают на разные вопросы, поэтому одну нельзя просто заменить другой.\n\nНасколько ты уверен? May, might — «возможно». Probably, is likely to — «скорее всего». May well — «вполне может», почти уверен: The delay may well cost us the client.\n\nВсегда ли так? Tends to + глагол — «как правило, обычно», бывают исключения: Beginners tend to skip the audio. Often, in most cases — «часто», «в большинстве случаев».\n\nО ком? Most, some, in this group, among beginners — «большинство», «некоторые», «в этой группе», «у начинающих».\n\nВ какой мере? Partly — «отчасти», to some extent — «в какой-то мере», slightly — «немного».\n\nНа что опираешься? Appears to, seems to — «судя по тому, что видно»: The app appears to work offline. The data suggest… — «сведения указывают».\n\nMost students improved slightly — здесь ограничены охват и степень, но не уверенность: это факт, may не нужен."
+    },
+    {
+      "title": "Одна точная оговорка лучше трёх туманных",
+      "body": "Частая ошибка продвинутых учеников — нагромоздить: This could perhaps possibly suggest that… Такая фраза не осторожная, а пустая: читатель не понимает, что ты думаешь. На одну мысль — одна оговорка, и именно та, которая ограничивает нужное.\n\nTo some extent и in some ways без уточнения тоже прячут позицию. Лучше назови границу словами: The method helps with vocabulary, but we don't know yet whether it helps with speaking.\n\nОговорка нужна не всегда. Если сведения сильные, говори сильно: The data clearly show…, There is no doubt that… Слишком осторожный текст о надёжном факте так же неточен, как слишком смелый текст о догадке.\n\nНе путай оговорку с чужим мнением. It is believed that… из урока о новостях прячет, кто так считает. Твоя оговорка — твоя собственная оценка: I think, may, likely."
+    },
+    {
+      "title": "Как это звучит в разговоре",
+      "body": "В устной речи американцы смягчают другими словами, чем в отчёте. I'd say… — «я бы сказал»: I'd say it'll take about two weeks. As far as I can tell / as far as I know — «насколько я вижу / знаю». I'm fairly sure — «я почти уверен». I could be wrong, but… — «может, я ошибаюсь, но…».\n\nТакую фразу ставят в начало, а дальше мысль идёт прямо: As far as I can tell, the bug is on the login page. Второе may здесь не нужно — одной оговорки хватит.\n\nНе начинай с I think каждую фразу: тогда оно перестаёт что-то значить. Факт: The meeting is at three. Мнение: I think we should move it.\n\nХорошая схема для ответа начальнику: короткий вывод → главная граница → как проверить. Scores went up, and I think the schedule helped. But we didn't have a comparison group, so I'd test it with one more class."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Scores rose from 68 to 74 after the schedule change.",
+      "ru": "После смены расписания баллы выросли с 68 до 74.",
+      "why": "Это измерение — оговорка не нужна."
+    },
+    {
+      "en": "The new schedule may have contributed to the increase.",
+      "ru": "Возможно, новое расписание внесло свой вклад в рост.",
+      "why": "May стоит у причины, а не у факта. Contribute to — «способствовать»: одна из причин, не единственная."
+    },
+    {
+      "en": "Beginners tend to skip the listening tasks.",
+      "ru": "Начинающие, как правило, пропускают задания на слух.",
+      "why": "Tends to — так бывает чаще всего, но не у всех."
+    },
+    {
+      "en": "The delay may well cost us the contract.",
+      "ru": "Задержка вполне может стоить нам контракта.",
+      "why": "May well сильнее, чем may: ты считаешь это вероятным."
+    },
+    {
+      "en": "The difference is partly explained by age.",
+      "ru": "Разницу отчасти объясняет возраст.",
+      "why": "Partly оставляет место другим причинам."
+    },
+    {
+      "en": "The app appears to work offline, but we haven't tested it on older phones.",
+      "ru": "Похоже, приложение работает без интернета, но на старых телефонах мы его не проверяли.",
+      "why": "Appears to — вывод по тому, что видели; вторая половина называет границу словами."
+    },
+    {
+      "en": "This could perhaps possibly suggest a problem.",
+      "ru": "Это могло бы, пожалуй, возможно, указывать на проблему.",
+      "why": "Так не надо: три оговорки подряд. Лучше одна: This may point to a problem."
+    },
+    {
+      "en": "As far as I can tell, the problem is on their side.",
+      "ru": "Насколько я вижу, проблема у них.",
+      "why": "Разговорная оговорка в начале, дальше мысль прямо, без may."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь руководителю короткий отчёт по продажам. Переведи: «В марте продажи выросли на 12 %. Возможно, помогла новая рекламная кампания». ad campaign — рекламная кампания.",
+      "context": "",
+      "guidance": {
+        "title": "Факт — прямо, причина — с may",
+        "body": "Первое предложение — то, что ты посчитал. Его говори без оговорки. Второе — твоё объяснение: may have + третья форма, потому что кампания уже прошла.",
+        "example": "Complaints fell by half in May. The new checklist may have helped.",
+        "translation": "В мае жалоб стало вдвое меньше. Возможно, помог новый чек-лист."
+      },
+      "hint": "Где в русском стоит «возможно»? Только во втором предложении — там и оговорка.",
+      "answers": [
+        "Sales rose by 12 percent in March. The new ad campaign may have helped.",
+        "Sales rose 12 percent in March. The new ad campaign may have helped.",
+        "Sales rose by 12% in March. The new ad campaign may have helped.",
+        "Sales went up by 12 percent in March. The new ad campaign may have helped.",
+        "Sales increased by 12 percent in March. The new ad campaign may have helped.",
+        "In March, sales rose by 12 percent. The new ad campaign may have helped.",
+        "Sales rose by 12 percent in March. The new ad campaign might have helped.",
+        "Sales rose by 12 percent in March. The new ad campaign may have contributed.",
+        "Sales rose by 12 percent in March. The new advertising campaign may have helped.",
+        "Sales increased 12% in March. The new ad campaign may have helped."
+      ],
+      "explanation": "Рост — факт, поэтому без may. Причина — догадка о прошлом: may have helped или might have helped. By 12 percent — «на 12 %»; by можно опустить."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега написал в отчёте: Attendance may have dropped after we moved the class to 8 a.m. Посещаемость точно упала — ты видел журнал: было 20 человек, стало 11. Не уверены вы только в том, что дело в раннем времени. Перепиши так, чтобы оговорка стояла на своём месте.",
+      "context": "attendance — посещаемость; drop — упасть.",
+      "guidance": {
+        "title": "Перенеси оговорку к причине",
+        "body": "Сейчас may ставит под сомнение то, что известно точно. Сначала скажи факт с цифрами, а may поставь у объяснения: почему это случилось.",
+        "example": "Orders fell from 300 to 210 in July. The price change may be the reason.",
+        "translation": "В июле заказов стало меньше: было 300, стало 210. Возможно, причина в новой цене."
+      },
+      "hint": "Начни так: Attendance dropped from 20 to 11 after…",
+      "answers": [
+        "Attendance dropped from 20 to 11 after we moved the class to 8 a.m. The earlier time may be the reason.",
+        "Attendance dropped from 20 to 11 after we moved the class to 8 a.m., and the earlier time may be the reason.",
+        "Attendance dropped from 20 to 11 after we moved the class to 8 a.m. The new time may explain the drop.",
+        "Attendance dropped from 20 to 11 after we moved the class to 8 a.m. The move may have caused the drop.",
+        "Attendance fell from 20 to 11 after we moved the class to 8 a.m. The earlier time may be the reason.",
+        "After we moved the class to 8 a.m., attendance dropped from 20 to 11. The earlier start may be the reason."
+      ],
+      "explanation": "Падение — факт из журнала, поэтому без may. Оговорка нужна только у причины: may be the reason, may explain или may have caused. Числа делают факт проверяемым."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Сведения курса: 18 из 24 учеников улучшили результат, в среднем на 3 балла из 100. Начальник написал на слайде: The course dramatically improves students' results. Напиши одну честную фразу о том, что произошло: ограничь, у скольких учеников (most) и насколько (slightly).",
+      "context": "dramatically — резко, очень сильно.",
+      "guidance": {
+        "title": "Ограничь охват и степень, а не уверенность",
+        "body": "Это факт, поэтому may не нужен. Неправда на слайде в другом: «у всех» и «сильно». Most ограничивает людей, slightly — размер изменения.",
+        "example": "Most of the trains arrived slightly late.",
+        "translation": "Большинство поездов пришли с небольшим опозданием."
+      },
+      "hint": "Начни так: Most of the students…",
+      "answers": [
+        "Most of the students improved slightly.",
+        "Most students improved slightly.",
+        "Most of the students improved their results slightly.",
+        "Most students' results improved slightly.",
+        "Most of the students' scores improved slightly.",
+        "Most of the students improved a little.",
+        "Eighteen of the 24 students improved slightly.",
+        "Eighteen of the 24 students improved their results slightly."
+      ],
+      "explanation": "Засчитывается фраза без may: улучшение было, это измерено. Most или eighteen of the 24 ограничивает охват, slightly или a little — степень. Слова dramatically и «у всех» сведения не подтверждают."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты вводишь в курс дела нового сотрудника службы поддержки. Переведи: «Новые клиенты, как правило, звонят в первую неделю». Бывает и иначе, но так чаще всего.",
+      "context": "",
+      "guidance": {
+        "title": "Tends to — «как правило»",
+        "body": "Ты не говоришь «все и всегда»: исключения бывают. Tends to + глагол в начальной форме ограничивает частоту: так обычно бывает. Ошибка — tend to calling.",
+        "example": "First-time buyers tend to choose the cheapest plan.",
+        "translation": "Те, кто покупает впервые, как правило, выбирают самый дешёвый тариф."
+      },
+      "hint": "Начни так: New customers tend…",
+      "answers": [
+        "New customers tend to call in the first week.",
+        "New customers tend to call during the first week.",
+        "New customers tend to call in their first week.",
+        "New customers tend to call during their first week.",
+        "New clients tend to call in the first week.",
+        "New clients tend to call during their first week."
+      ],
+      "explanation": "Tend — без -s, потому что customers во множественном числе. После to — начальная форма call. Usually call тоже верно по смыслу, но здесь тренируем tends to."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега написал: It could perhaps possibly be the case that the new login page might be somewhat confusing for some users. Факт: 9 из 50 пользователей написали в поддержку, что не нашли кнопку входа. Перепиши в две фразы: факт — прямо, вывод — с одной оговоркой.",
+      "context": "login button — кнопка входа; confusing — запутанный, непонятный.",
+      "guidance": {
+        "title": "Одна оговорка на одну мысль",
+        "body": "Пять оговорок подряд не делают фразу осторожнее: читатель не понимает, что ты думаешь. Скажи факт числами, а для вывода выбери одно слово: may, probably или appears to.",
+        "example": "Twelve of 40 guests asked us where the exit was. The signs may be too small.",
+        "translation": "Двенадцать из 40 гостей спросили нас, где выход. Возможно, указатели слишком маленькие."
+      },
+      "hint": "Первая фраза начинается с числа: Nine of the 50 users…",
+      "answers": [
+        "Nine of the 50 users told support that they couldn't find the login button. The new login page may be confusing for some users.",
+        "Nine of the 50 users told support they couldn't find the login button. The new login page may be confusing.",
+        "Nine out of 50 users told support that they couldn't find the login button. The new login page may be confusing for some users.",
+        "Nine of the 50 users wrote to support that they couldn't find the login button. The new login page appears to confuse some users.",
+        "Nine of the 50 users contacted support because they couldn't find the login button. The new login page is probably confusing for some users.",
+        "Nine of 50 users told support that they could not find the login button. The new page may be confusing for some users."
+      ],
+      "explanation": "Засчитывается, если первая фраза — факт без оговорки, а во второй ровно одна оговорка: may, probably, appears to или seems to. Some users можно оставить: это охват, а не лишнее сомнение."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь вывод в собственном отчёте об опросе сотрудников. Переведи: «Сведения указывают на связь между сном и ошибками на работе, но не доказывают, что одно вызывает другое». mistakes at work — ошибки на работе.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем критическое чтение: suggest и is linked to",
+        "body": "Вспоминаем критическое чтение: suggests слабее, чем proves, а is linked to значит только «встречается вместе». Там ты проверял чужой текст. Теперь эти слова в твоём собственном выводе.",
+        "example": "These figures suggest that the ads work, but they don't prove it.",
+        "translation": "Эти цифры указывают, что реклама работает, но не доказывают этого."
+      },
+      "hint": "Начни так: The data suggest a link between…",
+      "answers": [
+        "The data suggest a link between sleep and mistakes at work, but they don't prove that one causes the other.",
+        "The data suggest a link between sleep and mistakes at work, but they do not prove that one causes the other.",
+        "The data suggest that sleep is linked to mistakes at work, but they don't prove that one causes the other.",
+        "The data suggests a link between sleep and mistakes at work, but it doesn't prove that one causes the other.",
+        "The data suggests that sleep is linked to mistakes at work, but it does not prove that one causes the other.",
+        "The data suggest a connection between sleep and mistakes at work, but they don't prove that one causes the other."
+      ],
+      "explanation": "Suggest — указывать, а не доказывать. Data в американской речи бывает и множественным (suggest, they), и единственным (suggests, it) — верно и то и другое, если не смешивать."
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Клиент звонит: с утра у него не работает вход в ваше приложение. Ты посмотрел записи системы — ошибка идёт от их сервера. Скажи вслух коллеге: «Насколько я вижу, проблема на их стороне. Наверное, они обновили систему на выходных». Запиши себя и проверь по расшифровке.",
+      "context": "server — сервер; update — обновить.",
+      "guidance": {
+        "title": "Вспоминаем might have: оговорка в разговоре",
+        "body": "Вспоминаем might have + третья форма — догадка о прошлом. В разговоре оговорку обо всей мысли ставят в начало: As far as I can tell… Дальше фраза идёт прямо, без второго may.",
+        "example": "As far as I know, the store opens at nine. They might have changed their hours, though.",
+        "translation": "Насколько я знаю, магазин открывается в девять. Хотя они могли поменять часы работы."
+      },
+      "hint": "Начни так: As far as I can tell, the problem…",
+      "answers": [
+        "As far as I can tell, the problem is on their side. They might have updated their system over the weekend.",
+        "As far as I can tell, the problem is on their end. They probably updated their system on the weekend.",
+        "As far as I can see, the problem is on their side. They may have updated their system over the weekend."
+      ],
+      "explanation": "Засчитывается, если первая фраза начинается с As far as I can tell или as far as I can see и дальше идёт прямо, а догадка о прошлом — через might have, may have или probably + past simple. On their end — разговорный вариант on their side."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твой отдел два месяца пробовал гибкое начало рабочего дня. Напиши начальнице, Ms. Carter, письмо на 150–250 слов: продлевать ли эксперимент. Что должно быть: все факты из условия — прямо, без оговорок; минимум три оговорки разных видов (уверенность, частота или охват, степень); одна фраза о том, чего сведения не показывают; рекомендация с причиной; не больше одной оговорки на мысль.",
+      "context": "Сведения: начало дня — с 7 до 10 утра на выбор. Опоздания на утренние встречи: было 14 в месяц, стало 5. Опрос: 16 из 20 сотрудников довольны. Закрытых задач в месяц: 212 до эксперимента, 215 во время. Жалоб клиентов: 2 до, 3 во время. Отдела для сравнения не было. pilot — пробный период, эксперимент.",
+      "hint": "План: Subject → цифры прямо → что они, скорее всего, значат → чего не показывают → I recommend…, because…",
+      "answers": [
+        "Subject: Flexible start pilot – results and recommendation\n\nHi Ms. Carter,\n\nHere are the results of our two-month flexible start pilot.\n\nLate arrivals to morning meetings fell from 14 a month to 5. In our survey, 16 of the 20 employees said they were happy with the new hours. The number of completed tasks stayed about the same: 212 a month before the pilot and 215 during it. Customer complaints went from two to three.\n\nThe flexible start probably explains most of the drop in late arrivals. The higher satisfaction may be partly related to the pilot, but people tend to rate a new policy positively at first. One extra complaint is too small a change to draw any conclusion from.\n\nThese figures don't show whether the effect will last or whether it would work in other departments. We also had no comparison group, so other changes during these two months may have played a role.\n\nI recommend extending the pilot for three more months. That would show whether the results hold, and we could compare them with a team that keeps fixed hours.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если все цифры даны прямо, оговорки стоят только у объяснений и прогнозов, видов оговорок минимум три (probably, may, partly, tend to, most), есть граница сведений и рекомендация с причиной. Нет фраз вроде could perhaps possibly."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "На рабочей встрече тебя просят за 2–3 минуты рассказать, как прошло то, что ты недавно пробовал сам: новый способ учить слова, приложение, режим дня, тренировки. Что должно быть: вывод в одной фразе; что ты измерил или заметил — прямо; 2–3 разговорные оговорки (I'd say, as far as I can tell, I'm fairly sure, I could be wrong, but…); чего ты не знаешь; как это можно проверить. Запиши себя и проверь по расшифровке, нет ли двух оговорок на одну мысль.",
+      "context": "",
+      "hint": "Начни так: So, short version: I think it worked, but…",
+      "answers": [
+        "So, short version: I think it worked, but not for everything. For six weeks, I reviewed English words with flashcards for fifteen minutes every morning. I kept a simple log. I learned about four hundred new words, and when I tested myself last week, I remembered around three hundred of them. That's the part I'm sure about, because I counted.\n\nWhat I'm less sure about is speaking. I'd say I use more of these words in conversation now, but I didn't record myself before I started, so I can't really compare. As far as I can tell, the words I remember best are the ones I also heard in podcasts. I could be wrong, but I think hearing a word in a real sentence matters more than how often I see it on a card.\n\nI also tend to skip the review on weekends, so the results might look different with a stricter routine.\n\nIf I wanted to check this properly, I'd record a five-minute conversation now and another one in a month, and count how many of the new words I actually use. That would tell me if the flashcards help my speaking or only my memory."
+      ],
+      "explanation": "Засчитывается, если вывод прозвучал в начале, измеренное сказано прямо, разговорных оговорок 2–3 и каждая стоит у догадки, названо неизвестное и способ проверки. Оценивай по своей расшифровке."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Компания-разработчик прислала в школьную рассылку заметку о приложении для чтения. Перепиши её честно на 80–130 слов для родителей: факты — прямо, выводы — с одной точной оговоркой, и назови одну границу сведений. Исходный текст: Our new reading app definitely makes children love books. A study possibly maybe showed that 40 children perhaps read more pages. Parents always say their kids read more after using it. This proves that the app works for every child.",
+      "context": "Факты: в одной школе 40 детей месяц пользовались приложением; в среднем они прочитали на 15 % больше страниц, чем в прошлом месяце. Группы для сравнения не было. Из 25 опрошенных родителей 19 сказали, что ребёнок стал читать больше.",
+      "hint": "Найди в исходнике три вида ошибок: смелый вывод (definitely, proves, every child), туман вокруг факта (possibly maybe, perhaps) и always у опроса.",
+      "answers": [
+        "Our new reading app: early results\n\nLast month, 40 children at one school used our new reading app. On average, they read 15 percent more pages than in the previous month. In a survey, 19 of 25 parents said their child was reading more.\n\nThese results suggest that the app may encourage some children to read more. However, we did not have a comparison group, and the amount children read often changes from month to month for other reasons. We also don't know yet whether the effect lasts. We plan to test the app in more schools this spring and will share those results with you."
+      ],
+      "explanation": "Засчитывается, если 40 детей, 15 % и 19 из 25 родителей названы прямо, без possibly и perhaps; вывод смягчён одной оговоркой (suggest, may, some children); убраны definitely, proves, always и every child; названа хотя бы одна граница — нет группы для сравнения или неизвестно, надолго ли эффект."
+    }
+  ]
+}

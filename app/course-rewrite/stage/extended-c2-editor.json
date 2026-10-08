@@ -1,0 +1,349 @@
+{
+  "id": "extended-c2-editor",
+  "title": "Редактура статьи по справке: число, причина, вопрос автору",
+  "subtitle": "Честно пересказать автора → сверить проценты → убрать недоказанную причину → исправить или спросить → ошибка или стиль издания → записка автору",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 75,
+  "goal": "Отредактировать чужую статью по справке и объяснить автору каждую правку: «The fact sheet shows that 80% is the rate among those who signed up, not everyone invited», «This comparison can't show whether the tutoring helped», «AQ: Could you send the source?», «Per house style, I removed the serial comma; your version wasn't wrong».",
+  "formula": "The draft argues that … and recommends … → 40 of 200 invited (20%) ≠ 40 of 50 who signed up (80%) → These figures do not show whether … ; nor do they show that … → fact sheet confirms → fix; fact sheet is silent → AQ: Could you confirm …? → Error: … / House style: … → memo: what works → main changes → query → punctuation → style",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Справка подтверждает — исправь. Справка молчит — спроси автора. Правило издания — не ошибка.",
+    "example": "AQ: The fact sheet gives no number here. Could you send the source? — Вопрос автору: в справке этого числа нет. Можешь прислать источник?",
+    "check": "Запятая перед and в списке — ошибка или правило издания?"
+  },
+  "prerequisites": [
+    "path-editing",
+    "research-public-correction",
+    "path-critical-reading",
+    "extended-c1-visual-data"
+  ],
+  "recycles": [
+    "path-editing",
+    "path-hedging"
+  ],
+  "teaches": [
+    "до правки — честный пересказ автора с той же силой: The draft argues that the program raised … and recommends …",
+    "каждый процент — со своей группой: 40 of the 200 invited (20%) ≠ 40 of the 50 who signed up (80%)",
+    "причинный глагол (caused, led to, increased) — только с основанием; без него: These figures do not show whether …; и не уходить в обратное: nor do they show that … had no effect",
+    "исправить или спросить: справка отвечает — правишь и отмечаешь; молчит — вопрос автору (AQ, author query): место, проблема, выбор",
+    "тон вопроса: о тексте и читателе, а не о человеке; не Wrong! и не Huh?",
+    "правило издания (house style) ≠ ошибка: serial comma — запятая перед and в списке (Chicago — да, AP — нет); 45 percent / 45%",
+    "настоящие ошибки: comma splice — две полные фразы через одну запятую; запятая между подлежащим и глаголом; нет апострофа: the board's decision",
+    "записка автору: что хорошо → главные правки с основанием → вопрос → пунктуация одной фразой → стиль одной фразой → срок",
+    "слова: fact sheet, eligible, attend, comparison area, matched, author query, house style, serial comma, comma splice, flyer"
+  ],
+  "sources": [
+    {
+      "title": "ACES: The Society for Editing · The 3 essential elements of author queries",
+      "url": "https://aceseditors.org/news/2019/the-3-essential-elements-of-author-queries",
+      "notes": "Сверено: вопрос автору должен быть о работе, а не о человеке; конкретным (что поменять и почему), а не одним словом «переписать»; тактичным — с признанием того, что в тексте удачно."
+    },
+    {
+      "title": "PR News · Explainer: How to Use Oxford Commas, per AP Style",
+      "url": "https://www.prnewsonline.com/explainer-how-to-use-oxford-commas-per-ap-style/",
+      "notes": "Сверено: AP не ставит запятую перед and в простых перечислениях, но ставит, когда без неё неясен смысл; Chicago Manual of Style требует serial comma. Обе нормы американские — значит, это правило издания, а не ошибка."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Три вида пометки редактора",
+    "why": "Перед каждой пометкой спроси: это неправильно везде, это просто не наш стиль или справка молчит?",
+    "items": [
+      {
+        "label": "Ошибка",
+        "en": "The new schedule, starts in May → The new schedule starts in May",
+        "ru": "Новое расписание начинает действовать в мае",
+        "note": "Запятая между подлежащим и глаголом неверна в любом издании."
+      },
+      {
+        "label": "Правило издания",
+        "en": "maps, schedules, and forms → maps, schedules and forms",
+        "ru": "карты, расписания и бланки",
+        "note": "Оба варианта верны; в стиле AP запятую перед and убирают."
+      },
+      {
+        "label": "Вопрос автору",
+        "en": "AQ: The fact sheet gives no number here. Could you send the source?",
+        "ru": "В справке этого числа нет. Можешь прислать источник?",
+        "note": "Справка молчит — спрашиваешь, а не угадываешь."
+      }
+    ],
+    "footnote": "Schedule — расписание; AQ (author query) — вопрос автору на полях.",
+    "focus": [
+      "schedule, starts",
+      "schedules, and",
+      "Could you send"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что добавляет этот урок: целая статья, справка и автор",
+      "body": "Ты редактор. Автор, Jordan Lee, прислал статью для сайта (M1). У тебя есть справка (fact sheet) с проверенными сведениями и правилами издания (M2). Статью прочитают жители и члены городского совета, которые решают, давать ли деньги на программу дальше.\n\nУже знакомое здесь только вспоминаем. Из урока о редактуре: сначала смысл, потом порядок, потом строка. Из урока о поправке: как сообщить читателям, если ошибка ушла в печать.\n\nНовое — работа с чужим текстом целиком. Сначала честно перескажи автора: The draft argues that… and recommends… — «в статье утверждается… и предлагается…». Пересказ — не согласие. Сила остаётся той же: если в тексте caused — «вызвал», не пиши may have helped — «возможно, помог». Иначе ты спрячешь проблему ещё до правки.\n\nПотом сверь каждое число и вывод со справкой. Реши, что исправить самому, а о чём спросить автора. И в конце объясни автору свои правки в короткой записке."
+    },
+    {
+      "title": "Число и причина: сверь по справке",
+      "body": "Вспомни урок о графиках: называй и число, и из скольких. Пример: на курс пригласили 200 человек, записались 50, закончили 40. 40 из 50 — 80%. 40 из 200 — 20%. Фраза «80% of those invited finished the course» делит верно, но называет не ту группу. Это фактическая ошибка. Каждый процент в черновике проверь так же.\n\nТеперь причина. Caused, led to, increased — глаголы причины. Им нужно сравнение, где группы отличаются только программой. Пример: ученики, которые сами записались на дополнительные занятия (tutoring), сдали тест лучше. Но записались, возможно, самые старательные. Такое сравнение не показывает, помогли ли занятия: The comparison doesn't show whether the tutoring helped.\n\nГраница правила: не уходи в обратную крайность. «Не помогли» (had no effect) так же не доказано. Честно — и то и другое: …nor does it show that the tutoring had no effect. Рекомендация может остаться, но уже не как вывод из «доказанного эффекта»."
+    },
+    {
+      "title": "Исправить или спросить автора",
+      "body": "Встретил неясное или сомнительное место — сначала ищи ответ в справке.\n\nСправка отвечает — исправляешь сам и потом говоришь об этом автору. Пример: The school sent the forms to the district after it checked them. It может значить и школу, и округ (district). Если по справке бланки проверяла школа, назови её прямо: The school checked the forms and then sent them to the district.\n\nСправка молчит — не угадывай. Пиши вопрос автору (author query, коротко AQ). В нём три части: где место, в чём проблема, какой есть выбор. AQ: Paragraph 4 says 300 families signed up, but the fact sheet gives no number. Could you send the source? If we can't confirm it, we could cut the number.\n\nТон вопроса — о тексте и читателе, не о человеке. Не Wrong! и не Huh?, а Readers may not know who checked the forms. Хорошая записка начинается с того, что в статье удачно."
+    },
+    {
+      "title": "Ошибка или правило издания",
+      "body": "Правило издания (house style) — набор выборов конкретной редакции там, где английский допускает варианты. В США новости обычно пишут по AP Stylebook, книги — по Chicago Manual of Style.\n\nПример — serial comma, запятая перед and в перечислении: maps, schedules, and forms. Chicago её ставит, AP в простых списках убирает. Оба варианта верны. Поэтому в записке ты пишешь Per house style, I removed the serial comma, а не This comma is wrong. То же с 45 percent и 45%: в стиле AP — 45%. Британское organise — тоже не ошибка, а другая норма; в американском тексте пиши organize.\n\nНастоящие ошибки — те, что неверны в любом издании. Comma splice: две полные фразы соединены одной запятой (The bus was late, we missed the start). Запятая между подлежащим и глаголом: The new schedule, starts in May. Нет апострофа принадлежности: the boards decision вместо the board's decision — «решение совета»."
+    },
+    {
+      "title": "Записка автору: сначала главное",
+      "body": "Автору нужна не таблица из двадцати пунктов, а понятный порядок. Сначала одна фраза о том, что в статье удачно. Потом правки, которые меняют смысл: число и группа, недоказанная причина. У каждой — основание: The fact sheet shows… — «по справке…». Потом исправленная неясность (кто проверял) и твой вопрос (AQ). Пунктуацию — одной фразой списком. Правила издания — одной фразой, с пометкой, что вариант автора не был ошибкой. В конце — что нужно от автора и к какому сроку.\n\nГлаголы записки простые и прямые: I changed… because…, I removed…, I kept… Не You were wrong, а The draft applies 80% to the wrong group.\n\nЕсли статья уже вышла с ошибкой, действует урок о поправке: это Correction, а не «небольшое уточнение», и поправка идёт туда же, куда ушла ошибка, — в том числе в рассылку."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The draft argues that the tutoring program raised test scores and recommends expanding it.",
+      "ru": "В статье утверждается, что программа дополнительных занятий повысила баллы, и предлагается её расширить.",
+      "why": "Пересказ с той же силой (raised), но через The draft argues — это слова автора, не твои."
+    },
+    {
+      "en": "Of the 300 eligible students, 60 signed up (20%); 45 of those 60 (75%) finished the course.",
+      "ru": "Из 300 учеников, которые могли записаться, записались 60 (20%); 45 из этих 60 (75%) закончили курс.",
+      "why": "Каждый процент стоит со своей группой."
+    },
+    {
+      "en": "These results don't show whether the new schedule reduced absences, nor do they show that it made no difference.",
+      "ru": "Эти результаты не показывают, сократило ли новое расписание пропуски, и не показывают, что оно ничего не изменило.",
+      "why": "Граница в обе стороны: ни «помогло», ни «не помогло»."
+    },
+    {
+      "en": "The school checked the forms and then sent them to the district.",
+      "ru": "Школа проверила бланки, а потом отправила их в округ.",
+      "why": "Вместо неясного it назван тот, кто проверял."
+    },
+    {
+      "en": "AQ: Paragraph 4 says 300 families signed up, but the fact sheet gives no number. Could you send the source?",
+      "ru": "Вопрос автору: в абзаце 4 сказано, что записались 300 семей, но в справке числа нет. Можешь прислать источник?",
+      "why": "Справка молчит, поэтому редактор спрашивает: место, проблема, просьба."
+    },
+    {
+      "en": "Per house style, I changed 45 percent to 45%; your version wasn't wrong.",
+      "ru": "По правилам издания я заменил 45 percent на 45%; твой вариант не был ошибкой.",
+      "why": "Правка стиля названа правкой стиля, а не исправлением ошибки."
+    },
+    {
+      "en": "The bus was late, so we missed the start.",
+      "ru": "Автобус опоздал, поэтому мы пропустили начало.",
+      "why": "Союз so чинит comma splice: теперь видно, как связаны две фразы."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Черновик / What the evening application pilot tells us",
+      "source": "Авторский учебный материал; организация, места, люди и цифры вымышлены",
+      "text": "Unpublished draft for the Bellweather Civic Partnership website · Author: Jordan Lee\n\n[1] Residents who qualify for free home weatherization (help with insulation and drafty windows) often face a practical obstacle before any work can begin: the application. The Bellweather Civic Partnership tested evening application sessions at a neighborhood library, hoping to make that first step easier. Its six-week pilot is a useful starting point for a discussion about access, staff time and the evidence needed before a service becomes permanent.\n\n[2] This article is for residents, neighborhood representatives and city council members who are considering next year's budget. They need an account that connects results with practical choices. A headline number matters, but so do the opening hours, the demands on staff and the difference between submitting an application and receiving weatherization work. The pilot concerned the application stage only.\n\n[3] Eighty percent of the 120 eligible households submitted an application during the pilot. The 72 applications are a strong result for a service designed around residents' working hours. In the comparison area, 18 of 30 eligible households applied, a rate of 60 percent. The pilot therefore caused a 20-percentage-point rise in applications compared with the comparison area. This finding is a clear basis for keeping evening support, although the partnership should still examine staffing costs before making it permanent.\n\n[4] The sessions combined practical help with a quiet space and a computer. Staff explained which documents applicants needed and helped residents fill out the form. They did not decide eligibility or promise approval. Some visitors finished their forms during a session; others submitted them later. The application count includes both.\n\n[5] The partnership worked with a residents' panel and an outreach team to prepare the session notices. The panel sent its comments to the outreach team after it reviewed the draft notices. That review led to changes in the list of required documents.\n\n[6] Residents could bring questions, documents, and draft applications. The library offered a familiar place with evening hours. That may help people who cannot visit an office during the workday, but convenience does not mean the same thing for everyone: child care, transportation and confidence with official forms can all affect whether someone can attend.\n\n[7] The team plans to organize a review of the invitation process before another round of sessions. The library has agreed to stay open until 9 p.m. on Tuesdays next year. The review should also consider how residents can get help without attending a group session.\n\n[8] The outreach team reviewed the notices, it found several questions that residents might ask. The revised flyer, explains where to get help and may reduce calls to the office. The panels role includes checking whether residents can understand the instructions. Together, these steps could make the next round easier, although the partnership has not measured their effect on calls. The next review should examine that effect before treating clearer wording as a proven saving.\n\n[9] A decision about the program should also reflect what residents need to know next. Submitting an application is not the same as being approved, and approval is not the same as finished work. For now, the partnership recommends keeping evening support for one more cycle while collecting better information about staff costs and what happens to applications after they are submitted."
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Справка и правила издания / Fact sheet and house style",
+      "source": "Авторский учебный материал; сведения вымышлены",
+      "text": "Checking record for the Bellweather article\n\nReporting period: one six-week application window.\n\nPilot area: 120 eligible households. 90 attended at least one evening session. 72 of the attending households submitted one application each. None of the 30 households that did not attend submitted an application in that window. So 72 is both the number of applications from attendees and the total for the pilot area.\n\nComparison area: 30 eligible households; 18 submitted applications in the same window.\n\nDesign: Households chose whether to attend. The two areas were not matched, and no earlier application rate is available. These records support simple rates, not a conclusion about the sessions' effect. They show neither that the sessions helped nor that they had no effect.\n\nNotices: The residents' panel reviewed the draft notices and sent comments to the outreach team. Later, the outreach team reviewed the notices for likely questions. These were two separate reviews. The panel's role includes checking that instructions are easy to understand. No change in calls to the office has been measured.\n\nLibrary hours: this record has no information about library hours next year.\n\nStatus: Submitting an application does not mean approval or completed work. The partnership recommends one more cycle with better tracking. Permanent funding has not been approved.\n\nHouse style (AP): use % with numerals (60%); no serial comma in simple lists; American spelling. Other style guides, such as Chicago, use the serial comma and often write \"percent\" in ordinary text. Those choices are not errors; they are just not our style. Fix punctuation where grammar requires it. Keep the author's direct language, and keep may, could and should where the evidence is uncertain."
+    },
+    {
+      "id": "m3",
+      "kind": "dialogue",
+      "title": "После публикации / A conversation in the newsroom",
+      "source": "Авторский учебный материал; разговор вымышлен",
+      "text": "Sam Ortega (editor): Jordan's original draft went online this morning by mistake, before our edits. Our subscriber email also repeated the line that the pilot caused a 20-point increase. We need to decide what readers must be told, not only what the page should say.\n\nPriya Shah (managing editor): The correction box on the website has a hard limit of 60 words. Our email system allows one follow-up message today.\n\nSam: The newsletter manager wants to fix the number on the page and call it a minor clarification. Would that be enough for someone who only read the email?\n\nPriya: And if we had to cut the correction even further, what is the minimum you would keep?"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прочитай только M1. Перескажи в двух предложениях для главного редактора: что утверждает статья о результатах пилотного проекта и что она предлагает. Ничего пока не исправляй и не оценивай.",
+      "context": "pilot — пилотный проект, пробный запуск; eligible — имеющий право на помощь.",
+      "guidance": {
+        "title": "Сначала перескажи автора честно",
+        "body": "The draft argues that… — это слова автора, не твоё согласие. Сохрани силу: если в тексте caused, не смягчай до may have helped. Рекомендацию перескажи отдельной фразой.",
+        "example": "The column argues that the new bike lanes caused fewer crashes. It recommends adding lanes on two more streets.",
+        "translation": "В колонке утверждается, что новые велодорожки привели к снижению числа аварий. Автор предлагает добавить дорожки ещё на двух улицах."
+      },
+      "hint": "Какой глагол стоит в абзаце 3 — caused или may have helped? Что предлагает абзац 9?",
+      "answers": [
+        "The draft argues that the evening sessions caused a 20-percentage-point rise in applications compared with the comparison area. It recommends keeping evening support for one more cycle while collecting better information about staff costs and what happens to applications.",
+        "According to the draft, the pilot caused applications to rise by 20 percentage points relative to the comparison area, which it presents as a clear basis for keeping evening support. It recommends one more cycle of evening sessions while the partnership collects better data on costs."
+      ],
+      "explanation": "Засчитывается, если сохранён причинный глагол (caused) и он приписан статье (The draft argues, According to the draft), а рекомендация — ещё один цикл со сбором сведений — названа отдельно. Перескажешь как may have helped — потеряешь главную проблему черновика."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Открой M2. Перепиши первое предложение абзаца 3 так, чтобы каждый процент стоял со своей группой (1–2 предложения). Используй % — так требует стиль издания.",
+      "context": "attend — прийти на занятие; household — домохозяйство.",
+      "guidance": {
+        "title": "Каждый процент — со своей группой",
+        "body": "Одно и то же число может давать два верных процента — смотря из скольких. Назови группу у каждого: of the 120 eligible households, among the 90 that attended.",
+        "example": "Of the 500 households that got the survey, 150 replied (30%); 90 of those 150 (60%) wanted later hours.",
+        "translation": "Из 500 домохозяйств, получивших опрос, ответили 150 (30%); 90 из этих 150 (60%) хотят более поздних часов работы."
+      },
+      "hint": "72 из скольких? Посчитай двумя способами: из 120 и из 90.",
+      "answers": [
+        "During the pilot, 72 of the 120 eligible households (60%) submitted an application. All 72 had attended a session, so the rate among the 90 attending households was 80%.",
+        "Of the 120 eligible households in the pilot area, 72 submitted an application, a rate of 60%. Among the 90 households that attended a session, the rate was 80%."
+      ],
+      "explanation": "Засчитывается, если 60% относится ко всем 120 домохозяйствам, а 80% — только к 90 пришедшим. Порядок фраз может быть другим. Писать «80% of the 120» нельзя: это и есть ошибка черновика."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Перепиши предложение из абзаца 3 по M2 (1–2 предложения): «The pilot therefore caused a 20-percentage-point rise in applications compared with the comparison area.»",
+      "context": "comparison area — район для сравнения; matched — подобраны так, чтобы быть похожими.",
+      "guidance": {
+        "title": "Глагол причины — только с основанием",
+        "body": "Caused, led to, increased требуют сравнения, где группы отличаются только программой. Если его нет, напиши, чего цифры не показывают. И не уходи в обратное: «не помогло» тоже не доказано.",
+        "example": "Both clinics had similar wait times, so the comparison doesn't show whether the new check-in system helped.",
+        "translation": "В обеих клиниках ждали примерно одинаково, поэтому сравнение не показывает, помогла ли новая система записи."
+      },
+      "hint": "Начни так: On the same measure, both areas… These figures do not show whether…",
+      "answers": [
+        "On the same measure, both areas had a 60% application rate. These figures do not show whether the evening sessions increased applications, because households chose whether to attend and the areas were not matched.",
+        "Measured across all eligible households, the pilot area and the comparison area both had a 60% rate. Because households chose whether to attend and the areas were not matched, these figures can't show whether the sessions increased applications, nor that they had no effect."
+      ],
+      "explanation": "Засчитывается, если сравнены одинаковые группы (60% и 60%), убран глагол caused, названа причина осторожности (сами выбирали, районы не подобраны) и нет обратного вывода «не помогло». Добавка nor that they had no effect — хорошая, но не обязательная."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Два места в M1: абзац 5 (кто проверял черновик — it) и абзац 7 (библиотека согласилась работать до 9 вечера). Для одного справка даёт ответ — перепиши фразу. Для другого ответа нет — напиши вопрос автору (AQ).",
+      "context": "residents' panel — комиссия жителей; outreach team — выездная команда, которая работает с жителями.",
+      "guidance": {
+        "title": "Справка отвечает — исправь. Молчит — спроси",
+        "body": "Если ответ есть в справке, правишь сам и называешь того, кто действовал. Если нет — вопрос автору: где место, в чём проблема, какой есть выбор. Ответ за автора не угадываешь.",
+        "example": "AQ: Paragraph 2 says the program starts in March, but the schedule I have says April. Which date is correct?",
+        "translation": "Вопрос автору: в абзаце 2 сказано, что программа начинается в марте, а в моём расписании — апрель. Какая дата верна?"
+      },
+      "hint": "Найди в M2 раздел Notices: кто проверял первым? Есть ли в M2 что-нибудь о часах библиотеки?",
+      "answers": [
+        "Paragraph 5: The residents' panel reviewed the draft notices and then sent its comments to the outreach team.\nAQ (paragraph 7): The draft says the library has agreed to stay open until 9 p.m. on Tuesdays next year, but the fact sheet doesn't mention this. Could you confirm it and send the source? If it isn't confirmed yet, we could say the library is considering longer hours.",
+        "Paragraph 5: After the residents' panel reviewed the draft notices, it sent its comments to the outreach team.\nAQ: Paragraph 7 says the library has agreed to longer Tuesday hours. I couldn't find this in the fact sheet. Can you confirm it? Otherwise, I suggest \"the library is considering staying open later.\""
+      ],
+      "explanation": "Засчитывается, если в абзаце 5 прямо назван residents' panel (так в справке), а в абзаце 7 не исправлено наугад, а задан вопрос: место, «в справке нет», просьба подтвердить и запасной вариант. Во втором образце it стоит уже после названной комиссии — так неясности нет."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Пять мест: запятая перед and в абзаце 6; «60 percent» в абзаце 3; первое, второе и третье предложения абзаца 8. Для каждого — одна пометка для автора, которая начинается с Error: или House style:, и что ты сделал.",
+      "context": "",
+      "guidance": {
+        "title": "Ошибка или правило издания",
+        "body": "Спроси: будет ли это неправильно в любом американском издании? Да — Error. Нет, просто у нас другой выбор — House style, и пометка говорит, что вариант автора не был ошибкой.",
+        "example": "House style: changed \"health-care\" to \"health care\" (AP). Error: \"it's\" should be \"its\" here; it shows possession.",
+        "translation": "Правило издания: health-care заменено на health care (по AP). Ошибка: здесь нужно its, а не it's — это принадлежность."
+      },
+      "hint": "Подсказка к абзацу 8: в первом предложении две полные фразы, во втором подлежащее отрезано от глагола, в третьем — чья роль?",
+      "answers": [
+        "Paragraph 6: House style. The comma before \"and\" is correct and standard in Chicago style, but AP omits it in simple lists, so I removed it.\nParagraph 3: House style. \"60 percent\" is correct; our style uses the % sign with numerals, so it's now 60%.\nParagraph 8, sentence 1: Error. Two complete sentences are joined only by a comma (a comma splice). I started the sentence with \"When.\"\nParagraph 8, sentence 2: Error. The comma between \"flyer\" and \"explains\" separates the subject from its verb, so I removed it.\nParagraph 8, sentence 3: Error. \"Panels\" needs an apostrophe to show possession: \"the panel's role.\""
+      ],
+      "explanation": "Засчитывается, если два места помечены как House style с оговоркой, что вариант автора верен, а три — как Error с причиной. Comma splice можно чинить и точкой, и союзом and — назови свой способ."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Перепиши абзац 8 целиком: исправь три пунктуационные ошибки и больше ничего не меняй по силе — ни обещаний, ни отказа от осторожных слов.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: правка не меняет силу автора",
+        "body": "Вспоминаем урок о редактуре: правка строки не трогает силу утверждения. И урок об оговорках: may, could, should и has not measured стоят у неизвестного — их оставляешь как есть.",
+        "example": "When the team tested the form, it found two confusing questions. The new version may save time, but this hasn't been measured.",
+        "translation": "Когда команда проверила анкету, она нашла два запутанных вопроса. Новая версия может сэкономить время, но это не измеряли."
+      },
+      "hint": "Три правки пунктуации — и ни одной в словах may, could, should, has not measured.",
+      "answers": [
+        "When the outreach team reviewed the notices, it found several questions that residents might ask. The revised flyer explains where to get help and may reduce calls to the office. The panel's role includes checking whether residents can understand the instructions. Together, these steps could make the next round easier, although the partnership has not measured their effect on calls. The next review should examine that effect before treating clearer wording as a proven saving.",
+        "The outreach team reviewed the notices and found several questions that residents might ask. The revised flyer explains where to get help and may reduce calls to the office. The panel's role includes checking whether residents can understand the instructions. Together, these steps could make the next round easier, although the partnership has not measured their effect on calls. The next review should examine that effect before treating clearer wording as a proven saving."
+      ],
+      "explanation": "Засчитывается, если исправлены comma splice (When…, and found или точка), запятая после flyer и panel's, а may, could, should и has not measured остались. Will reduce вместо may reduce — уже обещание, которого нет в справке."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Напиши записку автору, Jordan Lee (200–300 слов). Что должно быть: с чего начать (что в статье удачно); две правки, которые меняют смысл, — у каждой основание из M2; исправленная неясность в абзаце 5; твой вопрос об абзаце 7; три ошибки пунктуации одной фразой; две правки стиля одной фразой — с пометкой, что вариант автора не был ошибкой; что нужно от автора и к какому сроку.",
+      "context": "",
+      "hint": "Порядок: Thanks for the draft… → Two changes affect the main argument… → In paragraph 5… → One question for you… → I also fixed… → Finally, two changes follow our house style… → Could you…by Thursday?",
+      "answers": [
+        "Subject: Edits to \"What the evening application pilot tells us\"\n\nHi Jordan,\n\nThanks for the draft. The parts about what staff did and about the difference between applying and being approved are clear and useful, and I kept them almost as they were.\n\nTwo changes affect the main argument. First, paragraph 3 applies the 80% rate to all 120 eligible households. The fact sheet shows that 80% is the rate among the 90 households that attended; for the whole pilot area it is 72 of 120, or 60%, the same as the comparison area. Second, I removed \"the pilot therefore caused a 20-percentage-point rise.\" Households chose whether to attend and the areas weren't matched, so the figures can't show whether the sessions increased applications. They don't show that the sessions failed, either, and the paragraph now says so. The recommendation for one more cycle stays, because the partnership made it, but it no longer rests on a proven increase.\n\nIn paragraph 5, \"after it reviewed\" could mean either group. The fact sheet says the panel did that review, so I named it.\n\nOne question for you: paragraph 7 says the library has agreed to stay open until 9 p.m. on Tuesdays next year. I couldn't find this in the fact sheet. Could you confirm it and send the source? If it isn't confirmed, I suggest \"the library is considering longer hours.\"\n\nI also fixed three punctuation errors in paragraph 8: a comma splice, a comma between subject and verb, and a missing apostrophe in \"panel's.\" Finally, two small changes follow our AP house style (60% instead of 60 percent, no serial comma in paragraph 6); your versions weren't wrong.\n\nCould you review the changes and answer the question by Thursday?\n\nThanks,\nSam"
+      ],
+      "explanation": "Засчитывается, если смысловые правки идут первыми и у каждой есть основание из справки, сказано и «не доказан рост», и «не доказано, что не помогло», абзац 7 оформлен как вопрос, а не как правка, пунктуация и стиль не растянуты на полстраницы и стиль не назван ошибкой. Тон — о тексте, не о человеке."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "prompt": "Только теперь открой M3. Ответь вслух Сэму и Прие, 2–3 минуты. Что должно быть: как изменился главный вывод статьи (было — стало, с цифрами); почему это Correction, а не minor clarification; почему нужно письмо подписчикам сегодня; что войдёт в поправку на 60 слов; какой минимум ты оставишь, если резать дальше, и что уберёшь первым.",
+      "context": "",
+      "hint": "Начни так: This isn't a minor clarification. The original version said…, and the correct picture is…",
+      "answers": [
+        "This isn't a minor clarification. The original version said that 80% of eligible households applied and that the pilot caused a 20-point increase. Both statements were wrong. Across all 120 eligible households, the rate was 60%, the same as in the comparison area. The 80% figure is only for the 90 households that attended. And because people chose whether to attend and the areas weren't matched, the figures can't show whether the sessions helped. They can't show that the sessions failed, either. So the main conclusion of the article has changed, not just a number.\n\nThat's why fixing the page isn't enough. The subscriber email repeated the 20-point claim, and people who read only the email will never see a quiet change on the website. We should send the follow-up today, because that's the one message the system allows.\n\nIn the 60-word box I'd put three things: what we got wrong, the correct rates with their groups, and the fact that the data don't show an effect either way. Then one short line that we regret the error.\n\nIf we have to cut further, I'd keep the correct 60% for all eligible households and the sentence that the figures don't show the sessions caused an increase. Those two things are what changes a reader's understanding. I'd cut the comparison-area detail first, and I wouldn't mention the punctuation or style edits at all. They don't change what anyone believes about the pilot."
+      ],
+      "explanation": "Засчитывается, если сказано «было — стало» с правильными группами, объяснено, почему это Correction, письмо подписчикам связано с тем, что ошибка ушла в рассылку, а минимум для поправки — верная доля и отказ от причинного вывода. Правки стиля в публичной поправке не нужны. Оценивай по своей записи: слышно ли, что первично, а что можно убрать."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Jordan прислал новую версию абзаца 3. Отредактируй её по M2 (100–150 слов) и добавь одну-две фразы для автора: что было не так в новой версии.\n\n\"Only 60 percent of the 90 households who attended submitted an application, exactly the same as in the comparison area. The pilot had no effect on applications, so the partnership should end evening sessions and save the staff time.\"",
+      "context": "",
+      "hint": "Проверь три вещи: к какой группе относится 60%; доказано ли «no effect»; совпадает ли рекомендация с тем, что пишет M2 в разделе Status.",
+      "answers": [
+        "During the six-week pilot, 72 of the 120 eligible households in the pilot area submitted an application, a rate of 60%. All 72 had attended an evening session, so among the 90 households that attended, the rate was 80%. In the comparison area, 18 of 30 eligible households applied, also 60%. Because households chose whether to attend and the two areas were not matched, these figures cannot show whether the sessions increased applications. They also do not show that the sessions had no effect. The partnership recommends keeping evening support for one more cycle while it collects better information about staff costs and about what happens to applications after they are submitted.\n\nNote to Jordan: The new version swings to the opposite claim, \"no effect,\" which the fact sheet doesn't support either, and it attaches 60% to the wrong group. I kept the partnership's actual recommendation."
+      ],
+      "explanation": "Засчитывается, если 60% стоит при 120 домохозяйствах, а 80% — при 90, убрано и «вызвал рост», и «не дал эффекта», а рекомендация совпадает со справкой: ещё один цикл со сбором сведений. Автор исправил одну крайность другой — это частая ошибка после первой правки, и записка говорит об этом спокойно."
+    }
+  ]
+}

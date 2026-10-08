@@ -1,0 +1,320 @@
+{
+  "id": "path-register-b2",
+  "title": "Другу, коллеге, клиенту: один факт — разный тон",
+  "subtitle": "Кому пишешь → что меняется, а что нет → просьба той же силы → без канцелярита → объявление для всех",
+  "level": "B2",
+  "group": "Лексика и сочетания",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Сообщить одну и ту же новость другу, коллеге, клиенту и незнакомым людям так, чтобы тон подходил адресату, а факты, срок и сила просьбы остались те же: «Hey, the picnic is off» — «The picnic scheduled for Sunday, June 7, has been canceled».",
+  "formula": "Другу: Hey, … is off. Can you…? · Коллеге: Hi Mark, just a heads-up: … Could you…? · Клиенту: Dear Mr. Lopez, … Could you please… by 5 p.m. today? · Всем: The … scheduled for … has been canceled.",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Меняй приветствие и слова под адресата. Факты, срок и просьбу не меняй.",
+    "example": "Can you send it by Friday? → Could you please send it by Friday? — Можешь прислать до пятницы? → Не могли бы вы прислать до пятницы?",
+    "check": "Стало вежливее — проверь: срок и действие остались на месте?"
+  },
+  "prerequisites": [
+    "path-email-basic",
+    "path-polite-questions",
+    "research-apologies-remedies",
+    "path-passive-basic"
+  ],
+  "recycles": [
+    "path-passive-basic",
+    "path-polite-questions"
+  ],
+  "teaches": [
+    "регистр — насколько официально ты говоришь; зависит от того, кто читает, какие у вас отношения и что нужно сделать",
+    "что меняется: приветствие и прощание (Hey / Hi Mark / Dear Mr. Lopez; Thanks! / Best, / Sincerely,), сокращения, разговорные слова, полные предложения",
+    "что не меняется: факты, степень уверенности, срок, кто отвечает за ошибку",
+    "вежливее ≠ слабее: Could you please confirm by Friday? We need… — просьба + срок + причина; ASAP → by 3 p.m. today",
+    "без канцелярита: commence → start, prior to → before, in the event that → if, kindly be informed — убрать",
+    "ошибку не прятать: We made an error in your application, а не Mistakes were made",
+    "объявление для всех: что, когда, где, что делать читателю; пассив, когда неважно, кто решил: has been canceled",
+    "слова: be off — отменяется (разг.); heads-up — предупреждение заранее; scheduled for — назначенный на; stuff — вещи (разг.); mess up — напортачить (разг.)"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Tone in Business Writing",
+      "url": "https://owl.purdue.edu/owl/subject_specific_writing/professional_technical_writing/tone_in_business_writing.html",
+      "notes": "Сверено: тон выбирают по цели и читателю; в рабочем тексте он уверенный, вежливый и искренний; вежливость без искренности звучит снисходительно; в неприятном сообщении — ясно сказать главное и не указывать пальцем на читателя. Отсюда разделы о силе просьбы и об ошибке."
+    },
+    {
+      "title": "Grammarly · Formal vs. Informal Writing",
+      "url": "https://www.grammarly.com/blog/writing-tips/formal-vs-informal-writing/",
+      "notes": "Сверено: в неформальном тексте свободно используют сокращения, разговорные слова и короткие фразы-обрывки (Monthly report ready?), в формальном — полные предложения и меньше сленга. В разделе 2 добавлено американское уточнение: сокращения I'm, we'll нормальны и в обычной рабочей переписке."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна просьба — три адресата",
+    "why": "Во всех трёх строках одна и та же просьба и один срок — шесть часов. Меняются только приветствие и слова вокруг.",
+    "items": [
+      {
+        "label": "Другу",
+        "en": "Hey, can you send me the file by six?",
+        "ru": "Слушай, скинешь файл до шести?",
+        "note": "Hey и can you."
+      },
+      {
+        "label": "Коллеге",
+        "en": "Hi Dana, could you send me the file by 6 p.m.?",
+        "ru": "Привет, Дана, пришлёшь файл до 18:00?",
+        "note": "Имя и could you."
+      },
+      {
+        "label": "Клиенту",
+        "en": "Dear Mr. Lopez, could you please send us the signed form by 6 p.m. today?",
+        "ru": "Уважаемый г-н Лопес, не могли бы вы прислать подписанную форму сегодня до 18:00?",
+        "note": "Dear, please и точная дата. Срок тот же."
+      }
+    ],
+    "footnote": "Signed form — подписанная форма. 6 p.m. — шесть вечера.",
+    "focus": [
+      "Hey",
+      "can you",
+      "Hi Dana",
+      "could you",
+      "Dear Mr. Lopez",
+      "please",
+      "by six",
+      "by 6 p.m."
+    ]
+  },
+  "sections": [
+    {
+      "title": "Одна новость — три адресата",
+      "body": "Представь: воскресный пикник отменили. Ты пишешь другу, коллеге и объявление на сайт. Новость одна, а слова разные.\n\nДругу: Hey, Sunday's picnic is off! Is off — «отменяется», так говорят в разговоре. Коллеге: Hi Mark, just a heads-up: the team picnic on Sunday is canceled. Heads-up — «предупреждение заранее». Всем: The Riverside Park picnic scheduled for Sunday, June 7, has been canceled. Scheduled for — «назначенный на».\n\nЭто и есть регистр — насколько официально ты говоришь. Он зависит от трёх вещей: кто читает, какие у вас отношения и что нужно сделать.\n\nРегистр — это не «умные слова». Официальный текст не обязан быть длиннее или сложнее. Он просто рассчитан на другого читателя."
+    },
+    {
+      "title": "Что меняется, а что остаётся",
+      "body": "Меняется: приветствие и прощание (Hey → Hi Mark, → Dear Mr. Lopez,; Thanks! → Best, → Sincerely,), разговорные слова (stuff — «всякое», a bit tricky — «немного сложно»), обрывки фраз (Report ready? → Is the report ready?).\n\nСокращения I'm, we'll, don't в США нормальны и в обычной рабочей переписке. Их избегают в официальных письмах и объявлениях.\n\nНе меняется: факты, насколько ты уверен, срок и кто что делает. Если другу ты пишешь «отменили», то в объявлении нельзя написать «возможно, перенесут». Это уже другая новость."
+    },
+    {
+      "title": "Вежливее — не значит слабее",
+      "body": "Please confirm by Friday — «пожалуйста, подтвердите до пятницы». Could you consider confirming when convenient? — «не могли бы вы подумать о подтверждении, когда будет удобно». Вторая фраза звучит мягче, но потеряла срок. Человек может ответить через месяц, и формально будет прав.\n\nВежливая и сильная просьба состоит из трёх частей: просьба, срок, причина. Could you please confirm by Friday? We need the numbers to book the room.\n\nASAP — «как можно скорее» — давит, но точного времени не даёт. By 3 p.m. today — и понятнее, и спокойнее."
+    },
+    {
+      "title": "Без канцелярита",
+      "body": "По-русски официальный текст часто тяжёлый: «настоящим уведомляем», «в целях проведения». Если перевести это слово в слово, по-английски выйдет холодно и непонятно. Простые слова в американском рабочем тексте — норма: commence → start, prior to → before, in the event that → if, perform a review → review. Kindly be informed that… — просто убери и скажи саму новость.\n\nИ не прячь, кто ошибся. Mistakes were made — «были допущены ошибки» — звучит как попытка уйти от ответа. Честно и вежливо: We made an error in your application. We're sorry about that. Сначала признай ошибку, потом скажи, как её исправишь."
+    },
+    {
+      "title": "Объявление для всех: читатель ничего не знает",
+      "body": "Другу хватит слов that thing on Saturday: он знает, о чём речь. Незнакомый читатель на сайте этого не знает. Ему нужны название, дата, время, место и что делать дальше: The Spanish Conversation Group meeting scheduled for Thursday, June 4, at 7:00 p.m. has been canceled. A new date will be posted on our website.\n\nПассив здесь удобен, потому что неважно, кто именно отменил: has been canceled, will be posted. Но извинение пишут от себя, без пассива: We're sorry for any inconvenience.\n\nПроверка: поймёт ли объявление человек, который не был ни на одной вашей встрече?"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Hey, can you send me that link when you get a chance?",
+      "ru": "Слушай, скинешь мне ту ссылку, когда будет минутка?",
+      "why": "Другу: Hey, can you и разговорное when you get a chance."
+    },
+    {
+      "en": "Hi Tom, could you send me the slides before the meeting?",
+      "ru": "Привет, Том, не мог бы ты прислать слайды до встречи?",
+      "why": "Коллеге: имя, could you и понятный срок."
+    },
+    {
+      "en": "Could you please confirm by Friday? We need the numbers to book the room.",
+      "ru": "Не могли бы вы подтвердить до пятницы? Нам нужны цифры, чтобы забронировать зал.",
+      "why": "Вежливо и не слабо: просьба, срок и причина на месте."
+    },
+    {
+      "en": "Could you consider confirming when it's convenient?",
+      "ru": "Не могли бы вы подумать о том, чтобы подтвердить, когда будет удобно?",
+      "why": "Контраст: звучит мягче, но срока нет, и просьба ослабла."
+    },
+    {
+      "en": "We made an error in your application. We're sorry about that.",
+      "ru": "Мы допустили ошибку в вашей заявке. Приносим извинения.",
+      "why": "Ошибка названа прямо, и видно, кто за неё отвечает."
+    },
+    {
+      "en": "A new date will be posted on our website.",
+      "ru": "Новая дата появится на нашем сайте.",
+      "why": "Пассив в объявлении: читателю важно, где искать дату, а не кто её разместит."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши другу в мессенджер. Переведи: «Слушай, субботняя встреча отменяется. Скажешь остальным?»",
+      "context": "be off — отменяется (разг.).",
+      "guidance": {
+        "title": "Другу — коротко и разговорно",
+        "body": "С другом подходят Hey, сокращения и разговорные слова. Полные официальные фразы здесь звучали бы странно.",
+        "example": "Hey, the movie's off tonight. Can you let Sam know?",
+        "translation": "Слушай, кино сегодня отменяется. Скажешь Сэму?"
+      },
+      "hint": "Начни так: Hey, Saturday's…",
+      "answers": [
+        "Hey, Saturday's meeting is off. Can you tell the others?",
+        "Hey, the Saturday meeting is off. Can you tell everyone else?",
+        "Hey, Saturday's meeting is canceled. Can you let the others know?",
+        "Hey, the meeting on Saturday is off. Could you tell the others?"
+      ],
+      "explanation": "Hey, is off и Can you…? — обычный тон с другом. Canceled тоже подходит, let the others know — то же, что tell the others."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ту же новость нужно отправить коллеге Марку в рабочий чат: Hey, Saturday's meeting is off. Can you tell the others? Перепиши для него. Добавь, где была встреча (в библиотеке), и попроси сообщить его команде.",
+      "context": "heads-up — предупреждение заранее; let someone know — сообщить.",
+      "guidance": {
+        "title": "Коллеге — дружелюбно, но точно",
+        "body": "В американской рабочей переписке обычно пишут Hi + имя и оставляют сокращения. Меняются точность и слова: вместо is off — canceled, вместо «остальным» — кому именно.",
+        "example": "Hi Lisa, just a heads-up: Monday's training is canceled. Could you let the new hires know?",
+        "translation": "Привет, Лиза, предупреждаю: тренинг в понедельник отменили. Не могла бы ты сообщить новичкам?"
+      },
+      "hint": "Начни так: Hi Mark, just a heads-up:…",
+      "answers": [
+        "Hi Mark, just a heads-up: Saturday's meeting at the library is canceled. Could you let your team know? Thanks!",
+        "Hi Mark, just a heads-up: the Saturday meeting at the library has been canceled. Could you please tell your team? Thanks!",
+        "Hi Mark, quick heads-up: Saturday's meeting at the library is canceled. Could you let your team know?"
+      ],
+      "explanation": "Hi Mark, heads-up и Could you…? — нейтральный рабочий тон. Is canceled и has been canceled оба верны. Is off в рабочем чате тоже встречается, но canceled точнее."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь напиши объявление для сайта (2 предложения). Встреча Community Book Club в четверг, 11 июня, в 6:30 p.m. в библиотеке Oak Park Library отменена. Новая дата появится на сайте.",
+      "context": "scheduled for — назначенный на; post — разместить.",
+      "guidance": {
+        "title": "Вспоминаем пассив",
+        "body": "Вспоминаем пассив: be + третья форма, когда важно, что случилось, а не кто это сделал. В объявлении это обычно: has been canceled, will be posted. Читатель ничего не знает — назови всё полностью.",
+        "example": "The concert scheduled for Friday, June 12, has been moved to the main hall.",
+        "translation": "Концерт, назначенный на пятницу, 12 июня, перенесён в большой зал."
+      },
+      "hint": "Проверь: есть название, день, дата, время, место и где искать новую дату?",
+      "answers": [
+        "The Community Book Club meeting scheduled for Thursday, June 11, at 6:30 p.m. at the Oak Park Library has been canceled. A new date will be posted on our website.",
+        "The Community Book Club meeting on Thursday, June 11, at 6:30 p.m. at the Oak Park Library has been canceled. We will post a new date on our website.",
+        "Canceled: the Community Book Club meeting scheduled for Thursday, June 11, at 6:30 p.m. at the Oak Park Library. A new date will be posted on our website."
+      ],
+      "explanation": "Has been canceled — пассив: неважно, кто отменил. Во втором предложении подходят и will be posted, и We will post. Дата по-американски: Thursday, June 11; время — 6:30 p.m."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друзьям написали: Hey, the Saturday trip to the lake is canceled—sorry! You'll get your money back by Friday. А в объявлении для всех вышло: We regret to inform you that the trip may be rescheduled at a later date. Объявление изменило новость. Перепиши его так, чтобы факты совпадали с сообщением друзьям.",
+      "context": "refund — вернуть деньги; regret to inform — с сожалением сообщаем.",
+      "guidance": {
+        "title": "Факты не меняются",
+        "body": "Сравни две версии по фактам: что случилось, насколько это точно, что будет с деньгами и когда. Тон может стать официальнее, но «отменили» не превращается в «возможно, перенесут».",
+        "example": "Friends: The party is moved to Sunday. Public: The party has been moved to Sunday, June 7.",
+        "translation": "Друзьям: вечеринка переносится на воскресенье. Всем: вечеринка перенесена на воскресенье, 7 июня."
+      },
+      "hint": "Найди два расхождения: canceled или may be rescheduled? И куда пропали деньги и пятница?",
+      "answers": [
+        "The Saturday trip to the lake has been canceled. We're sorry for the inconvenience. All payments will be refunded by Friday.",
+        "We're sorry to announce that the Saturday trip to the lake has been canceled. Everyone will get a full refund by Friday.",
+        "The trip to the lake on Saturday has been canceled. We apologize for the inconvenience. We will refund all payments by Friday."
+      ],
+      "explanation": "Засчитывается, если поездка отменена (а не «может быть перенесена») и есть возврат денег до пятницы. Официальный тон добавляют We're sorry for the inconvenience или We apologize — но не новые факты."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь новому клиенту. Черновик слишком резкий: Send me the final numbers by Friday. Коллега предложил: Could you consider sending the numbers when convenient? Но так пропал срок. Напиши вежливо и без потери силы: просьба, срок, причина (вам нужно забронировать зал).",
+      "context": "final numbers — итоговые цифры, сколько будет людей; book the room — забронировать зал.",
+      "guidance": {
+        "title": "Вспоминаем Could you…? — и держим срок",
+        "body": "Вспоминаем из урока о вежливых вопросах: Could you…? и I was wondering if you could… смягчают просьбу. Срок и причину оставь отдельными словами: by Friday, We need them to…",
+        "example": "Could you please sign the form by Monday? We need it to start your order.",
+        "translation": "Не могли бы вы подписать форму до понедельника? Она нужна нам, чтобы начать ваш заказ."
+      },
+      "hint": "Начни так: Could you please send me… by…? Второе предложение: We need them to…",
+      "answers": [
+        "Could you please send me the final numbers by Friday? We need them to book the room.",
+        "Could you please send us the final numbers by Friday? We need them to book the room.",
+        "I was wondering if you could send me the final numbers by Friday. We need them to book the room.",
+        "Would you mind sending me the final numbers by Friday? We need them to book the room."
+      ],
+      "explanation": "Засчитывается, если есть вежливое начало, срок by Friday и причина. I was wondering if you could… — самая мягкая форма, в конце точка. Без by Friday просьба не засчитывается."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега перевёл с русского письмо команде: Kindly be informed that, prior to the commencement of the meeting, all participants are required to perform a review of the attached document. Перепиши его так, как написал бы американский коллега.",
+      "context": "attached — приложенный.",
+      "guidance": {
+        "title": "Найди канцелярит",
+        "body": "Ищи тяжёлые слова и замени их простыми: commence → start, prior to → before, perform a review → read или review. Вступление Kindly be informed that просто убери.",
+        "example": "In the event that you require assistance, please contact us. → If you need help, let us know.",
+        "translation": "В случае если вам потребуется помощь, свяжитесь с нами. → Если нужна помощь, напишите нам."
+      },
+      "hint": "Сколько тяжёлых слов ты нашёл? Их четыре: kindly be informed, prior to, commencement, perform a review.",
+      "answers": [
+        "Hi all, please read the attached document before the meeting starts. Thanks!",
+        "Hi everyone, before the meeting, please review the attached document. Thanks!",
+        "Hi team, please take a look at the attached document before the meeting. Thank you!"
+      ],
+      "explanation": "Смысл остался — прочитать документ до встречи, — но без канцелярита. Please здесь достаточно: are required to звучит как приказ. Read, review и take a look at — все подходят."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Перепиши письмо клиенту: Dear client, send the stuff ASAP because we messed up. Ситуация: вы ошиблись в заявке клиента Mr. Lopez. Чтобы исправить, нужны копия его паспорта и договор аренды — сегодня до 5 p.m. Сохрани ответственность за ошибку.",
+      "context": "stuff — вещи (разг.); mess up — напортачить (разг.); lease — договор аренды; application — заявка.",
+      "guidance": {
+        "title": "Назови, что и когда, и кто ошибся",
+        "body": "Stuff замени тем, что нужно на самом деле. ASAP — точным временем. Messed up — честным We made an error. Ответственность при этом остаётся на вас.",
+        "example": "Dear Ms. Kim, We sent you the wrong invoice. Could you please ignore it? The correct one is attached.",
+        "translation": "Уважаемая г-жа Ким, мы прислали вам не тот счёт. Пожалуйста, не обращайте на него внимания. Правильный — во вложении."
+      },
+      "hint": "Три части: Dear Mr. Lopez, → We made an error… → Could you please send… by 5 p.m. today?",
+      "answers": [
+        "Dear Mr. Lopez,\n\nWe made an error in your application, and we're sorry about that. To correct it, could you please send us a copy of your passport and your lease by 5 p.m. today?\n\nThank you,\nKate Brown",
+        "Dear Mr. Lopez, We made a mistake in your application. We apologize. Could you please send us a copy of your passport and your lease by 5:00 p.m. today so we can fix it? Thank you."
+      ],
+      "explanation": "Засчитывается, если ошибка признана от «мы», названы документы и срок вместо stuff и ASAP. Error и mistake оба подходят; извинение — We're sorry или We apologize."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Отчёт задерживается. Напиши два сообщения (120–180 слов на оба): коллеге Алексу, с которым вы давно работаете, и новому клиенту, Ms. Green. В обоих одинаковые факты: исправленный отчёт придёт в четверг, а не во вторник; в таблице расходов нашли ошибку, нужно ещё два дня на проверку; остальное готово; цена не меняется; попроси до завтра, до 3 p.m., ответить, подходит ли четверг.",
+      "context": "revised report — исправленный отчёт; cost table — таблица расходов; fee — цена работы.",
+      "hint": "Сначала выпиши пять фактов и просьбу. Потом проверь: есть ли каждый в обоих сообщениях?",
+      "answers": [
+        "Hi Alex,\n\nQuick update: the revised report will be ready on Thursday, not Tuesday. We found an error in the cost table, and we need two more days to check and fix it. Everything else is done, and the fee doesn't change. Can you let me know by 3 p.m. tomorrow if Thursday works for you?\n\nThanks,\nSam\n\nDear Ms. Green,\n\nI'm sorry to let you know that we will send the revised report on Thursday instead of Tuesday. We found an error in the cost table and need two more days to check and correct it. The rest of the report is ready, and the fee remains the same. Could you please let me know by 3 p.m. tomorrow whether Thursday works for you?\n\nBest regards,\nSam Miller"
+      ],
+      "explanation": "Засчитывается, если в обоих сообщениях одни и те же факты и срок ответа, а меняются приветствие, сокращения и прощание. Просьба к клиенту не стала слабее: срок 3 p.m. tomorrow остался."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Объясни одну проблему вслух дважды, по 40–60 секунд: сначала другу, потом на рабочей встрече. Факты: зал для пятничного семинара недоступен — ошибка бронирования; записались двенадцать человек на 10 a.m.; в запасном зале восемь мест; можно провести онлайн, но это ещё не решено; организатору нужен ответ сегодня. Запиши себя и сверь расшифровку: факты и степень уверенности в обеих версиях одинаковые?",
+      "context": "workshop — семинар; booking error — ошибка бронирования.",
+      "hint": "Другу начни так: So, we've got a problem with Friday's workshop… На встрече: I'd like to ask for a quick decision about…",
+      "answers": [
+        "To a friend: So, we've got a problem with Friday's workshop. There was a booking mix-up, and we can't use the room. Twelve people signed up for ten o'clock, but the other room only has eight seats. We could do it online, but nothing's decided yet. The organizer needs an answer today. What do you think we should do?\n\nAt a meeting: I'd like to ask for a quick decision about Friday's workshop. Because of a booking error, the room we planned to use isn't available. Twelve participants are registered for 10 a.m., and the other room holds only eight people. Moving the workshop online is one option, but it hasn't been agreed yet. Could we decide today so that the organizer can tell everyone?"
+      ],
+      "explanation": "Засчитывается, если в обеих версиях есть все пять фактов и онлайн остаётся вариантом, а не решением. Меняются начало, слова (mix-up → booking error, signed up → are registered) и концовка."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ты на нервах написал коллеге: You didn't send the file again. I need it NOW. This is unacceptable. Перепиши так, чтобы письмо было спокойным, но не слабым (40–70 слов): какой файл, к какому сроку, зачем он нужен, и без упрёка.",
+      "context": "Файл — цифры продаж за май; нужен сегодня до 3 p.m., потому что в 4 p.m. отчёт уходит клиенту.",
+      "hint": "Проверь три вещи: что именно, к какому времени, зачем. И нет ли в письме слова you рядом с обвинением.",
+      "answers": [
+        "Hi Jen,\n\nI still don't have the May sales data. Could you please send it by 3 p.m. today? I need it for the client report that goes out at 4. If something is holding it up, let me know, and we can figure it out together.\n\nThanks,\nAlex",
+        "Hi Jen, could you please send me the May sales data by 3 p.m. today? The client report goes out at 4, and I can't finish it without the numbers. Let me know if there's a problem. Thanks!"
+      ],
+      "explanation": "Засчитывается, если названы файл, срок 3 p.m. и причина, а упрёк убран. I still don't have… говорит о факте, а не о вине коллеги. Срок не стал мягче: by 3 p.m. today остался."
+    }
+  ]
+}

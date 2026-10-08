@@ -1,0 +1,341 @@
+{
+  "id": "path-relative-advanced",
+  "title": "Запятые, whose и which: уточнить, о ком речь, или просто добавить",
+  "subtitle": "Без запятых — какой именно → с запятыми — добавка → whose — «чей» → предлог в конце → which о целой фразе",
+  "level": "B2",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Добавлять к фразе сведения о человеке или вещи и не путать «какой именно» с «кстати»: My sister, who lives in Denver, is a nurse. I helped a man whose car broke down.",
+  "formula": "My sister who lives in Denver (одна из сестёр) → My sister, who lives in Denver, … (сестра одна) → a man whose car… → He apologized, which surprised me.",
+  "guided": true,
+  "keyRule": {
+    "rule": "Без этой части непонятно, о ком речь, — без запятых. Просто добавляешь факт — запятые и who/which.",
+    "example": "My sister, who lives in Denver, is a nurse — моя сестра (она у меня одна), которая живёт в Денвере, медсестра.",
+    "check": "Убери эту часть. Всё ещё ясно, о ком речь? Тогда нужны запятые."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-relative-basic",
+    "path-possessive-pronouns"
+  ],
+  "recycles": [
+    "path-relative-basic"
+  ],
+  "teaches": [
+    "без запятых — какой именно (A2); с запятыми — добавка о том, кто уже понятен: My sister, who lives in Denver, is a nurse",
+    "проверка: убрать часть — ясно ли, о ком речь; после имён, my mom, my boss и единственных вещей — запятые",
+    "с запятыми только who (люди) и which (вещи); that нельзя, слово не пропускают",
+    "whose — «чей, у которого» о людях, компаниях и вещах: a man whose car broke down; не whose his car",
+    "предлог в конце в разговоре: the guy I told you about, the apartment I lived in; официально — to whom",
+    "число или most, some, all, both + of whom / of which: two of which, most of whom",
+    "which о целой фразе: He apologized, which surprised me; не what",
+    "слова: nurse, pass a test, highway, break down, reply, apologize, ruin, annoying"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Relative clauses: non-defining relative clauses (B1–B2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/relative-clauses-non-defining-relative-clauses",
+      "notes": "Сверено: добавочная часть отделяется запятыми; в ней всегда есть who, which, whose, where или when; that не используется и слово не пропускают."
+    },
+    {
+      "title": "British Council · Relative pronouns and relative clauses (grammar reference)",
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/relative-pronouns-and-relative-clauses",
+      "notes": "Сверено: предлог в конце (обычная речь) или перед whom/which (официально), с that — только в конце; which о целой ситуации после запятой; two of whom, one of which; whose — принадлежность."
+    },
+    {
+      "title": "Grammarly · Which vs. That",
+      "url": "https://www.grammarly.com/blog/grammar/which-vs-that/",
+      "notes": "Американская норма: that — в уточнении без запятых, which — в добавке с запятыми; проверка — убрать часть и посмотреть, изменился ли смысл."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Запятые меняют смысл",
+    "why": "Слова одинаковые. Без запятых уточнение выбирает одного человека из нескольких. С запятыми человек и так понятен, а уточнение — просто добавка.",
+    "items": [
+      {
+        "label": "Без запятых · какой именно",
+        "en": "My cousin who lives in Texas is a teacher.",
+        "ru": "Мой двоюродный брат, который живёт в Техасе, — учитель.",
+        "note": "Двоюродных братьев несколько. Без этой части неясно, о ком речь."
+      },
+      {
+        "label": "С запятыми · кстати",
+        "en": "My dad, who lives in Texas, is a teacher.",
+        "ru": "Мой папа, который живёт в Техасе, — учитель.",
+        "note": "Папа один. Техас — просто добавка."
+      }
+    ],
+    "footnote": "С запятыми — только who или which. That и пропуск слова не годятся.",
+    "focus": [
+      "who lives in Texas",
+      ","
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему в английском запятые меняют смысл",
+      "body": "По-русски «который» всегда отделяют запятыми. В английском запятые ставят не всегда, и от них зависит смысл.\n\nMy sister who lives in Denver is a nurse — без запятых. У тебя несколько сестёр, и who lives in Denver показывает, какая именно. Такие уточнения ты знаешь из урока A2.\n\nMy sister, who lives in Denver, is a nurse — с запятыми. Сестра у тебя одна. Денвер — просто добавка, «кстати».\n\nПроверка: убери эту часть. Если всё ещё ясно, о ком речь, — нужны запятые. Поэтому после имени, my mom, my boss или единственной вещи (the White House) уточнение почти всегда в запятых. В речи запятые слышны: короткие паузы, голос чуть ниже."
+    },
+    {
+      "title": "С запятыми — только who и which, и их не пропускают",
+      "body": "В части с запятыми о людях говорят who, о вещах — which. That здесь нельзя: My car, that I bought in 2020, … — ошибка. Правильно: My car, which I bought in 2020, still runs great.\n\nПропускать это слово тоже нельзя. Без запятых можно the car I bought, а с запятыми who или which нужны всегда.\n\nВ американском английском which почти всегда стоит после запятой. Без запятых американцы говорят that: the car that I bought. Поэтому which сам подсказывает: дальше добавка."
+    },
+    {
+      "title": "Whose — «чей», «у которого»",
+      "body": "Whose ты знаешь по вопросу Whose jacket is this? В середине фразы оно заменяет his, her, its или their: I helped a man whose car broke down — я помог мужчине, у которого сломалась машина.\n\nПосле whose сразу идёт вещь, без his или her: a woman whose son…, а не whose her son.\n\nWhose бывает не только о людях, но и о компаниях и вещах: a company whose app I use, a house whose roof leaks. По-русски это «чей», «у которого».\n\nНе путай с who's — это who is: Who's that? — Кто это?"
+    },
+    {
+      "title": "Предлог остаётся в конце",
+      "body": "«Это парень, о котором я тебе рассказывал». По-русски предлог стоит перед «котором». В разговоре американцы ставят его в конец: That's the guy I told you about. Терять предлог нельзя: the apartment I live in, а не the apartment I live.\n\nВ официальном письме предлог можно поставить вперёд, перед whom или which: the person to whom I spoke. Whom — это who после предлога. В разговоре оно звучит слишком строго.\n\nС числами и словами most, some, all, both: two of which, most of whom. We got 40 applications, most of which were excellent — большинство из которых были отличными. Most of them which — ошибка: which уже заменяет them."
+    },
+    {
+      "title": "Which о целой фразе: «что меня удивило»",
+      "body": "He apologized, which surprised me — он извинился, что меня удивило. Which здесь относится не к одному слову, а ко всему событию: к тому, что он извинился. Перед таким which всегда запятая.\n\nРусское «что» подталкивает к what: He apologized, what surprised me — ошибка. That тоже нельзя.\n\nТакое which удобно, чтобы добавить свою оценку или вывод: …, which was great — что было здорово; …, which means we're late — а значит, мы опаздываем."
+    }
+  ],
+  "examples": [
+    {
+      "en": "My sister who lives in Denver is a nurse.",
+      "ru": "Моя сестра, которая живёт в Денвере, — медсестра.",
+      "why": "Без запятых: сестёр несколько, говорю о той, что в Денвере."
+    },
+    {
+      "en": "My sister, who lives in Denver, is a nurse.",
+      "ru": "Моя сестра, которая живёт в Денвере, — медсестра.",
+      "why": "С запятыми: сестра одна, Денвер — добавка."
+    },
+    {
+      "en": "Our office, which is downtown, is closed on Monday.",
+      "ru": "Наш офис, который находится в центре, в понедельник закрыт.",
+      "why": "Офис один, «в центре» — добавка. С запятыми — which, не that."
+    },
+    {
+      "en": "I met a woman whose son plays on my son's team.",
+      "ru": "Я познакомилась с женщиной, чей сын играет в команде моего сына.",
+      "why": "Her son → whose son: whose заменяет her."
+    },
+    {
+      "en": "That's the guy I told you about.",
+      "ru": "Это тот парень, о котором я тебе рассказывал.",
+      "why": "Предлог about в конце — обычная разговорная речь."
+    },
+    {
+      "en": "I have two roommates, both of whom work from home.",
+      "ru": "У меня два соседа по квартире, и оба работают из дома.",
+      "why": "Both of whom — «оба из которых». После of о людях — whom."
+    },
+    {
+      "en": "The flight was canceled, which ruined our plans.",
+      "ru": "Рейс отменили, что испортило нам планы.",
+      "why": "Which относится ко всему событию, а не к одному слову."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи две фразы. Первую говорит учитель в классе: «Студенты, которые сдали тест, могут идти домой». Вторую ты пишешь другу: «Мои родители, которые живут в Огайо, приедут в июле». pass a test — сдать тест.",
+      "context": "",
+      "guidance": {
+        "title": "Убери часть — ясно, о ком речь?",
+        "body": "Если без уточнения непонятно, какие именно люди, запятых нет. Если человек и так понятен — родители, имя, my boss, — уточнение добавочное и стоит в запятых.",
+        "example": "The kids who finished can go outside. My kids, who love snow, are already outside.",
+        "translation": "Дети, которые закончили, могут идти на улицу. Мои дети, которые любят снег, уже на улице."
+      },
+      "hint": "Все ли студенты могут уйти? А родители у тебя одни?",
+      "answers": [
+        "The students who passed the test can go home. My parents, who live in Ohio, are coming in July.",
+        "The students who passed the test can go home. My parents, who live in Ohio, will come in July.",
+        "The students who passed the test can go home. My parents, who live in Ohio, are coming to visit in July.",
+        "The students who passed the test can go home. My parents, who live in Ohio, are visiting in July.",
+        "The students that passed the test can go home. My parents, who live in Ohio, are coming in July.",
+        "The students that passed the test can go home. My parents, who live in Ohio, will come in July.",
+        "The students that passed the test can go home. My parents, who live in Ohio, are coming to visit in July.",
+        "The students that passed the test can go home. My parents, who live in Ohio, are visiting in July."
+      ],
+      "explanation": "Уйти могут не все студенты, а только сдавшие тест, — без запятых, можно и that. Родители у тебя одни, Огайо — добавка: запятые и who."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, не пора ли тебе менять ноутбук. Ответь: «Мой ноутбук, который я купил шесть лет назад, всё ещё отлично работает». work great — отлично работать.",
+      "context": "",
+      "guidance": {
+        "title": "Добавка о вещи — which, и его не пропускают",
+        "body": "Ноутбук у тебя один, «купил шесть лет назад» — добавка. Значит, запятые и which. That и пропуск здесь не годятся, хотя без запятых можно the laptop I bought.",
+        "example": "Our car, which we bought in 2019, needs new tires.",
+        "translation": "Нашей машине, которую мы купили в 2019 году, нужны новые шины."
+      },
+      "hint": "Начни так: My laptop, which …",
+      "answers": [
+        "My laptop, which I bought six years ago, still works great.",
+        "My laptop, which I bought six years ago, still works really well.",
+        "My laptop, which I bought six years ago, still works perfectly.",
+        "My laptop, which I bought six years ago, still works fine."
+      ],
+      "explanation": "С запятыми — which, а не that, и пропустить его нельзя: My laptop, I bought six years ago, … — ошибка. Still ставь перед works."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты опоздал на работу и объясняешь коллеге: «Я помог мужчине, у которого на шоссе сломалась машина». highway — шоссе, break down → broke down — сломаться.",
+      "context": "",
+      "guidance": {
+        "title": "Whose вместо his и her",
+        "body": "«У которого машина» — это «его машина». В середине фразы his превращается в whose. Сразу после whose — вещь, без his.",
+        "example": "I called a friend whose brother is a lawyer.",
+        "translation": "Я позвонил другу, у которого брат — юрист."
+      },
+      "hint": "Начни так: I helped a man whose …",
+      "answers": [
+        "I helped a man whose car broke down on the highway.",
+        "I helped a man whose car had broken down on the highway.",
+        "I helped a guy whose car broke down on the highway.",
+        "I helped a guy whose car had broken down on the highway.",
+        "I was helping a man whose car broke down on the highway.",
+        "I was helping a man whose car had broken down on the highway."
+      ],
+      "explanation": "Whose car — «у которого машина». Whose his car — ошибка: whose уже заменяет his. Had broken down тоже верно: машина сломалась раньше, чем ты помог."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с другом проезжаете мимо старого дома. Скажи по-разговорному, с предлогом в конце: «Это квартира, в которой я жил, когда учился в колледже». when I was in college — когда я учился в колледже.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем the movie we saw: предлог в конце",
+        "body": "Вспоминаем A2: the movie (that) we saw — that можно пропустить. С предлогом так же, только предлог остаётся в конце: live in an apartment → the apartment I lived in.",
+        "example": "This is the bed I slept in as a kid.",
+        "translation": "Это кровать, на которой я спал в детстве."
+      },
+      "hint": "Начни так: That's the apartment I …",
+      "answers": [
+        "That's the apartment I lived in when I was in college.",
+        "That's the apartment that I lived in when I was in college.",
+        "That is the apartment I lived in when I was in college.",
+        "That is the apartment that I lived in when I was in college.",
+        "This is the apartment I lived in when I was in college.",
+        "This is the apartment that I lived in when I was in college.",
+        "That's the apartment where I lived when I was in college.",
+        "That's the apartment in which I lived when I was in college."
+      ],
+      "explanation": "Live in — предлог in остаётся в конце: the apartment I lived in. The apartment where I lived тоже верно. The apartment I lived без in — ошибка."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты ищешь работу и пишешь другу: «Я написал в пять компаний, две из которых уже ответили». write to — написать (кому-то), reply — ответить.",
+      "context": "",
+      "guidance": {
+        "title": "Two of which, most of whom",
+        "body": "Число или most, some, all, both + of + which (о вещах и компаниях) или whom (о людях). Перед ними запятая: это добавка.",
+        "example": "We invited twenty people, most of whom came.",
+        "translation": "Мы пригласили двадцать человек, большинство из которых пришли."
+      },
+      "hint": "Компании — это люди? Значит, of which или of whom?",
+      "answers": [
+        "I wrote to five companies, two of which have already replied.",
+        "I wrote to five companies, two of which have already answered.",
+        "I wrote to five companies, two of which already replied.",
+        "I wrote to five companies, two of which have replied already.",
+        "I've written to five companies, two of which have already replied.",
+        "I've written to five companies, two of which have already answered.",
+        "I've written to five companies, two of which already replied.",
+        "I've written to five companies, two of which have replied already.",
+        "I have written to five companies, two of which have already replied.",
+        "I have written to five companies, two of which have already answered.",
+        "I have written to five companies, two of which already replied.",
+        "I have written to five companies, two of which have replied already."
+      ],
+      "explanation": "О компаниях — of which, о людях — of whom. Two of them which — ошибка: which уже заменяет them."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Пишешь другу о вчерашнем дне: «Мой рейс отменили, что испортило все мои планы». cancel → canceled — отменить, ruin — испортить.",
+      "context": "",
+      "guidance": {
+        "title": "Which о целой фразе",
+        "body": "«Что» здесь относится ко всему событию: рейс отменили. По-английски это which после запятой, а не what.",
+        "example": "My boss called me on Sunday, which was annoying.",
+        "translation": "Начальник позвонил мне в воскресенье, что меня раздражало."
+      },
+      "hint": "Начни так: My flight was canceled, …",
+      "answers": [
+        "My flight was canceled, which ruined all my plans.",
+        "My flight was canceled, which ruined all of my plans.",
+        "My flight was canceled, which ruined my plans.",
+        "My flight got canceled, which ruined all my plans.",
+        "My flight got canceled, which ruined all of my plans.",
+        "My flight got canceled, which ruined my plans."
+      ],
+      "explanation": "Which относится ко всему, что случилось с рейсом. What и that здесь не ставят. Was canceled или got canceled — пассив из B1."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет приветствие для новой сотрудницы и просит проверить английский: Our manager, that is from Texas, will meet you at nine. You'll sit next to Mark, whose his desk is by the window. Lunch is free on Fridays, what is nice. Исправь три ошибки и перепиши текст целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь слово после запятой",
+        "body": "После запятой о человеке — who, о вещи и о целом событии — which. После whose — сразу вещь.",
+        "example": "Our CEO, who started the company in 2010, is very friendly.",
+        "translation": "Наш директор, который основал компанию в 2010 году, очень дружелюбный."
+      },
+      "hint": "Менеджер — человек или вещь? Что уже заменяет whose? Что из what, which и that ставят после запятой?",
+      "answers": [
+        "Our manager, who is from Texas, will meet you at nine. You'll sit next to Mark, whose desk is by the window. Lunch is free on Fridays, which is nice.",
+        "Our manager, who is from Texas, will meet you at nine. You will sit next to Mark, whose desk is by the window. Lunch is free on Fridays, which is nice.",
+        "Our manager, who's from Texas, will meet you at nine. You'll sit next to Mark, whose desk is by the window. Lunch is free on Fridays, which is nice.",
+        "Our manager, who's from Texas, will meet you at nine. You will sit next to Mark, whose desk is by the window. Lunch is free on Fridays, which is nice."
+      ],
+      "explanation": "После запятой о человеке — who, не that. Whose уже значит «его», поэтому his лишний. «Что приятно» о всей фразе — which, не what."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ты пишешь текст «О нас» для сайта маленькой семейной пекарни в Портленде. Черновик звучит рублено. Соедини каждую пару фраз в одну с помощью which, whose, of whom и перепиши текст целиком: Our bakery is on Oak Street. It opened in 2015. Maria Lopez started it. Her grandmother taught her to bake. We have six bakers. Four of them have worked here since the beginning. Our bread is made every morning. This means it's always fresh.",
+      "context": "bake — печь, baker — пекарь.",
+      "hint": "Пары: пекарня + год; Мария + бабушка; пекари + четверо из них; хлеб + «это значит».",
+      "answers": [
+        "Our bakery, which is on Oak Street, opened in 2015. It was started by Maria Lopez, whose grandmother taught her to bake. We have six bakers, four of whom have worked here since the beginning. Our bread is made every morning, which means it's always fresh.",
+        "Our bakery, which opened in 2015, is on Oak Street. Maria Lopez, whose grandmother taught her to bake, started it. We have six bakers, four of whom have been here since the beginning. Our bread is made every morning, which means it's always fresh."
+      ],
+      "explanation": "Засчитывается, если все четыре пары соединены верно: добавка о пекарне в запятых с which, whose вместо her, four of whom вместо four of them и which о целой фразе в конце."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Новая американская коллега, Jessica, начинает работать в твоей команде. Напиши ей письмо на 100–180 слов, где ты представляешь команду и офис. В нём: два-три человека с добавкой в запятых (who…); хотя бы одно whose; место или вещь с which или where; фраза с of whom или of which; оценка через which в конце фразы; совет или приглашение на первый день.",
+      "context": "",
+      "hint": "Начни так: Welcome to the team! Our team lead, …, who …",
+      "answers": [
+        "Hi Jessica,\nWelcome to the team! I want to tell you a little about the people you'll work with. Our team lead, David, who has been here for ten years, is very calm and always ready to help. You'll sit next to Priya, whose job is to check all our reports, so she's the person to ask about numbers. There are eight people on our team, three of whom work from home on Mondays and Fridays. Our office, which is on the fifth floor, has a small kitchen where we usually have lunch together. We also get free coffee, which is great on Monday mornings. On your first day, come at 9:30, and I'll show you around.\nSee you soon,\nOleg"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: добавки в запятых с who, whose, which или where, of whom или of which и which о целой фразе, а уточнения без запятых не перепутаны с добавками."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 1–2 минуты о человеке, который повлиял на твою жизнь: учитель, тренер, родственник или начальник. В рассказе: кто это — с добавкой в запятых; один факт через whose; место, где вы встречались (where или which); что он сделал и твоя оценка через which в конце фразы; одна фраза с предлогом в конце (the person I learned from, the town I grew up in).",
+      "context": "Сначала скажи без записи, потом прослушай себя: перед добавкой и перед which о целой фразе должна быть слышна пауза.",
+      "hint": "Начни так: I want to talk about my …, who …",
+      "answers": [
+        "I want to talk about my first boss, Irina, who ran a small design studio in my hometown. It was a tiny company whose clients were mostly local stores and cafés. We worked in an old building near the river, where the heat often didn't work in winter. Irina gave me a job when I had no experience at all, which was a big risk for her. She was the person I learned the most from. She never told me what to do. Instead, she asked me questions until I found the answer myself, which was annoying at first but really useful later. There were five designers in the studio, two of whom are still my close friends. Now I lead my own team, and I often try to work the way she did."
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов: добавка в запятых с who, whose, where или which о месте, which о целой фразе и предлог в конце."
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "path-articles-geography",
+  "title": "Lake Michigan, но the Mississippi: артикли с названиями",
+  "subtitle": "Страны и города → the United States → реки, океаны, горные цепи → the University of… → как проверить",
+  "level": "B2",
+  "group": "Существительные и определители",
+  "units": "Авторский маршрут · B2",
+  "minutes": 40,
+  "goal": "Правильно называть страны, города, реки, горы и университеты: «Я из России, живу в США», «Мы поехали в Скалистые горы», «Город стоит на Миссисипи», «Дочь учится в Мичиганском университете».",
+  "formula": "Russia, Chicago, Lake Michigan → the United States, the Rockies → the Mississippi, the Pacific → the University of Michigan, но Harvard University",
+  "keyRule": {
+    "rule": "Одно место с простым именем — без the. Реки, моря, горные цепи, «… of …» — с the.",
+    "example": "Lake Michigan, but the Mississippi — озеро Мичиган, но река Миссисипи.",
+    "check": "Название во множественном числе? Тогда the: the Rockies, the Philippines."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-articles-advanced"
+  ],
+  "recycles": [
+    "path-relative-advanced",
+    "path-articles-advanced"
+  ],
+  "teaches": [
+    "без артикля: страны, города, штаты, континенты, улицы, парки и площади — Russia, Chicago, Texas, Europe, Main Street, Central Park",
+    "без артикля: одно озеро, одна гора, один остров — Lake Michigan, Mount Rainier, Maui",
+    "the, если в названии обычные слова или множественное число: the United States, the UK, the Netherlands, the Philippines",
+    "the с группами гор, озёр и островов: the Rockies, the Great Lakes, the Hawaiian Islands",
+    "the с реками, океанами, морями, пустынями, каньонами и регионами: the Hudson, the Pacific, the Mojave, the Grand Canyon, the Midwest",
+    "the + «… of …»: the University of Michigan, the Gulf of Mexico, the Statue of Liberty; имя впереди — без the: Harvard University, Boston University",
+    "знаменитые здания и мосты обычно с the: the White House, the Golden Gate Bridge; аэропорты и вокзалы — без: Kennedy Airport, Penn Station",
+    "the внутри предложения — с маленькой буквы: She moved to the United States"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Using Articles",
+      "url": "https://owl.purdue.edu/owl/general_writing/grammar/using_articles.html",
+      "notes": "Сверено: без the — большинство стран, города, штаты, улицы, одно озеро, одна гора, один остров, континенты; с the — the United States, the Netherlands, the Philippines, реки, океаны, моря, пустыни, регионы, горные цепи (the Rockies), группы озёр и островов (the Great Lakes)."
+    },
+    {
+      "title": "British Council · Definite article: the",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+      "notes": "Сверено: the со странами, в названии которых есть states, kingdom, republic, и с названиями во множественном числе; с реками, морями, океанами, каналами, горными цепями и группами островов; the частое в названиях с of."
+    },
+    {
+      "title": "Инглекс · Артикли с географическими названиями",
+      "url": "https://englex.ru/articles-with-geographical-names/",
+      "notes": "Для русскоязычных: типичные ошибки — the перед континентом (the Europe) и одной горой (the Mount Everest), пропуск the перед рекой и группой островов; пустыни и регионы с the."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Простое имя или the",
+    "why": "Артикль зависит от того, что это за место: одно с простым именем — без the; вода, цепь гор, множественное число или of — с the.",
+    "items": [
+      {
+        "label": "Одно место с именем",
+        "en": "We swam in Lake Michigan.",
+        "ru": "Мы купались в озере Мичиган.",
+        "note": "Озеро, город, страна — без the."
+      },
+      {
+        "label": "Вода и пустыни",
+        "en": "We drove along the Mississippi.",
+        "ru": "Мы ехали вдоль Миссисипи.",
+        "note": "Реки, океаны, пустыни — с the."
+      },
+      {
+        "label": "Множественное число",
+        "en": "Then we flew to the Rockies.",
+        "ru": "Потом полетели в Скалистые горы.",
+        "note": "Цепь гор, группа островов — с the."
+      },
+      {
+        "label": "Название с of",
+        "en": "My cousin goes to the University of Colorado.",
+        "ru": "Мой двоюродный брат учится в Университете Колорадо.",
+        "note": "Сравни: Colorado State University — без the."
+      }
+    ],
+    "footnote": "Не уверен — посмотри, как место называют в американских новостях или на его сайте.",
+    "focus": [
+      "Lake Michigan",
+      "the Mississippi",
+      "the Rockies",
+      "the University of"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему the Russia — ошибка: у большинства имён артикля нет",
+      "body": "Ты уже знаешь: the ставят, когда понятно, какая именно вещь. С названием это понятно и так — Chicago один. Поэтому у большинства имён артикля нет.\n\nБез артикля: страны (Russia, Mexico, Canada), города и штаты (Chicago, Texas), континенты (Europe, Asia), улицы (Main Street, Fifth Avenue), парки и площади (Central Park, Times Square). Тоже без the: одно озеро (Lake Michigan), одна гора (Mount Rainier), один остров (Maui).\n\nЧастая ошибка русскоговорящих — the Russia, the Moscow, the Europe. Говори просто: I'm from Russia. I live in Moscow."
+    },
+    {
+      "title": "The United States: обычные слова в названии и множественное число",
+      "body": "Некоторые страны называются не именем, а описанием из обычных слов: «Соединённые Штаты», «Соединённое Королевство», «Чешская Республика». С ними the: the United States, the United Kingdom, the Czech Republic. Сокращения тоже: the US, the UK.\n\nВторой случай — название во множественном числе, на -s: the Netherlands, the Philippines, the Bahamas. Так же группы озёр, гор и островов: the Great Lakes, the Rockies (Скалистые горы), the Hawaiian Islands.\n\nСравни: Lake Superior — одно озеро, без the; the Great Lakes — все Великие озёра вместе, с the. Mount Hood — одна гора; the Rockies — горная цепь."
+    },
+    {
+      "title": "Реки, океаны, пустыни и регионы — с the",
+      "body": "Названия воды и больших пространств идут с the: реки (the Hudson, the Mississippi), океаны и моря (the Pacific, the Atlantic, the Caribbean), пустыни (the Mojave, the Sahara), каньоны (the Grand Canyon), регионы (the Midwest, the South, the West Coast).\n\nСлово River, Ocean или Desert можно добавить, а можно опустить: the Hudson = the Hudson River. The остаётся в обоих случаях.\n\nГраница правила: озеро — тоже вода, но одно озеро идёт без the. Запомни пару: Lake Michigan — без the, the Mississippi — с the."
+    },
+    {
+      "title": "The University of Michigan, но Harvard University",
+      "body": "Если название построено как «что-то of чего-то», ставь the: the University of Michigan, the Gulf of Mexico (Мексиканский залив), the Statue of Liberty, the Museum of Modern Art.\n\nЕсли имя стоит впереди, а общее слово после него, артикля обычно нет: Harvard University, Boston University, Kennedy Airport, Penn Station. Сравни: the University of Texas, но Texas State University.\n\nЗнаменитые здания, мосты и музеи часто идут с the: the White House, the Golden Gate Bridge, the Empire State Building. Аэропорты, вокзалы и парки — чаще без артикля."
+    },
+    {
+      "title": "Как проверить себя и что осталось из прошлого урока",
+      "body": "Перед названием задай вопрос. Это одно место с простым именем — город, страна, улица, одно озеро, одна гора? Тогда без the. Это река, море, пустыня, регион, цепь гор, множественное число или «… of …»? Тогда the.\n\nИсключения учат по одному. Например, районы Нью-Йорка: Brooklyn и Queens без артикля, но the Bronx. Если сомневаешься, посмотри, как место называют в американских новостях или на его сайте.\n\nВнутри предложения the пишется с маленькой буквы: She moved to the United States. Из прошлого урока остаётся то же: go to school и go to college — без артикля, а больница у американцев — с the: He's in the hospital."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I grew up in Russia, but now I live in the United States.",
+      "ru": "Я вырос в России, а сейчас живу в США.",
+      "why": "Russia — простое имя, the United States — описание из обычных слов."
+    },
+    {
+      "en": "Chicago is on Lake Michigan.",
+      "ru": "Чикаго стоит на озере Мичиган.",
+      "why": "Город и одно озеро — без the."
+    },
+    {
+      "en": "Memphis is on the Mississippi.",
+      "ru": "Мемфис стоит на Миссисипи.",
+      "why": "Реки — с the, даже без слова River."
+    },
+    {
+      "en": "We went hiking in the Rockies last summer.",
+      "ru": "Прошлым летом мы ходили в походы по Скалистым горам.",
+      "why": "Горная цепь — с the. Одна гора — без: Mount Elbert."
+    },
+    {
+      "en": "Las Vegas is in the Mojave Desert.",
+      "ru": "Лас-Вегас находится в пустыне Мохаве.",
+      "why": "Пустыня — с the, город — без артикля."
+    },
+    {
+      "en": "She got into the University of Michigan and Boston University.",
+      "ru": "Она поступила в Мичиганский университет и в Бостонский университет.",
+      "why": "The University of… — с the; в Boston University имя впереди, артикля нет."
+    },
+    {
+      "en": "Have you ever walked across the Golden Gate Bridge?",
+      "ru": "Ты когда-нибудь ходил по мосту Золотые Ворота?",
+      "why": "Знаменитые мосты и здания обычно идут с the."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В аэропорту американец спрашивает, откуда ты. Ответь: «Я из России, но уже три года живу в Чикаго, на Кларк-стрит».",
+      "context": "",
+      "guidance": {
+        "title": "Страна, город, улица — без the",
+        "body": "У названия с простым именем артикля нет: страна, город, улица. The Russia и the Chicago — ошибки.",
+        "example": "My sister is from Ukraine, and she lives in Denver, on Pearl Street.",
+        "translation": "Моя сестра из Украины, она живёт в Денвере, на Перл-стрит."
+      },
+      "hint": "Начни так: I'm from … Нужен ли the перед Russia?",
+      "answers": [
+        "I'm from Russia, but I've lived in Chicago, on Clark Street, for three years.",
+        "I'm from Russia, but I've been living in Chicago, on Clark Street, for three years.",
+        "I'm from Russia, but I've lived in Chicago for three years. I live on Clark Street.",
+        "I'm from Russia, but I've been living in Chicago for three years, on Clark Street.",
+        "I am from Russia, but I have lived in Chicago, on Clark Street, for three years.",
+        "I'm from Russia, but I've lived on Clark Street in Chicago for three years.",
+        "I'm from Russia, but I've been living on Clark Street in Chicago for three years.",
+        "I'm from Russia, but for three years I've lived in Chicago, on Clark Street."
+      ],
+      "explanation": "Russia, Chicago и Clark Street — простые имена, артикль не нужен. I've lived и I've been living — оба верны: ты живёшь там до сих пор."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает о твоих поездках. Ответь: «В прошлом году я был в Нидерландах, а этим летом лечу в США».",
+      "context": "",
+      "guidance": {
+        "title": "The United States и названия на -s",
+        "body": "Если в названии страны обычные слова (States, Kingdom, Republic) или оно во множественном числе, ставь the. Сокращение US тоже с the.",
+        "example": "My parents went to the Philippines, and my brother lives in the UK.",
+        "translation": "Родители ездили на Филиппины, а брат живёт в Великобритании."
+      },
+      "hint": "Начни так: Last year I went to … Что в Netherlands показывает множественное число?",
+      "answers": [
+        "Last year I went to the Netherlands, and this summer I'm flying to the United States.",
+        "Last year I went to the Netherlands, and this summer I'm flying to the US.",
+        "Last year I went to the Netherlands, and this summer I'm flying to the U.S.",
+        "Last year I was in the Netherlands, and this summer I'm flying to the United States.",
+        "Last year I was in the Netherlands, and this summer I'm flying to the US.",
+        "Last year I visited the Netherlands, and this summer I'm flying to the United States.",
+        "Last year I went to the Netherlands, and this summer I'm going to fly to the United States.",
+        "Last year I went to the Netherlands, and this summer I'm going to the United States.",
+        "Last year I went to the Netherlands, and this summer I'm going to the US."
+      ],
+      "explanation": "The Netherlands — название на -s, the United States — из обычных слов, поэтому the в обоих. I'm flying — уже решённый план; I'm going to fly тоже верно."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Расскажи коллеге об отпуске: «Сначала мы неделю жили у озера Тахо, а потом поехали в Скалистые горы».",
+      "context": "stay — остановиться, жить; Тахо — Tahoe; Скалистые горы — Rockies или Rocky Mountains.",
+      "guidance": {
+        "title": "Одно озеро или цепь гор",
+        "body": "Одно озеро и одна гора — без the: Lake Tahoe, Mount Hood. Группа гор или озёр — это множественное число, поэтому the.",
+        "example": "We could see Mount Shasta, but the Cascades were in the clouds.",
+        "translation": "Гору Шаста было видно, а Каскадные горы прятались в облаках."
+      },
+      "hint": "Где здесь множественное число — в Tahoe или в Rockies?",
+      "answers": [
+        "First we stayed at Lake Tahoe for a week, and then we went to the Rockies.",
+        "First we stayed at Lake Tahoe for a week, and then we went to the Rocky Mountains.",
+        "First we stayed by Lake Tahoe for a week, and then we went to the Rockies.",
+        "First we stayed by Lake Tahoe for a week, and then we went to the Rocky Mountains.",
+        "First we stayed near Lake Tahoe for a week, and then we went to the Rockies.",
+        "First we spent a week at Lake Tahoe, and then we went to the Rockies.",
+        "First we spent a week at Lake Tahoe, and then we went to the Rocky Mountains.",
+        "First we stayed at Lake Tahoe for a week and then went to the Rockies.",
+        "First, we stayed at Lake Tahoe for a week, and then we drove to the Rockies."
+      ],
+      "explanation": "Lake Tahoe — одно озеро, артикля нет. The Rockies — горная цепь, название во множественном числе, поэтому the."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг планирует поездку по США и спрашивает твой маршрут. Ответь: «Мы поедем из Нового Орлеана вдоль Миссисипи, потом через пустыню Мохаве — к Тихому океану».",
+      "context": "drive along — ехать вдоль, through — через, Тихий океан — Pacific.",
+      "guidance": {
+        "title": "Реки, пустыни, океаны — с the",
+        "body": "Реки, океаны, моря и пустыни идут с the. Слова River, Ocean, Desert можно добавить или опустить — the остаётся.",
+        "example": "From the Hudson, it's a short drive to the Atlantic.",
+        "translation": "От Гудзона совсем недалеко до Атлантики."
+      },
+      "hint": "Где здесь простое имя, а где река, пустыня и океан?",
+      "answers": [
+        "We're going to drive from New Orleans along the Mississippi, then through the Mojave Desert to the Pacific.",
+        "We're going to drive from New Orleans along the Mississippi, then through the Mojave to the Pacific.",
+        "We're going to drive from New Orleans along the Mississippi River, then through the Mojave Desert to the Pacific Ocean.",
+        "We're going to drive from New Orleans along the Mississippi, and then through the Mojave Desert to the Pacific Ocean.",
+        "We'll drive from New Orleans along the Mississippi, then through the Mojave Desert to the Pacific.",
+        "We'll drive from New Orleans along the Mississippi River, then through the Mojave Desert to the Pacific Ocean.",
+        "We're driving from New Orleans along the Mississippi, then through the Mojave Desert to the Pacific.",
+        "We're driving from New Orleans along the Mississippi River, then through the Mojave Desert to the Pacific Ocean."
+      ],
+      "explanation": "New Orleans — город, без артикля. The Mississippi, the Mojave и the Pacific — река, пустыня и океан, у них the. Will, going to и I'm driving подходят для плана."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Американская знакомая спрашивает о твоих детях. Ответь: «Дочь учится в Мичиганском университете, а сын — в Бостонском университете».",
+      "context": "Мичиганский университет — University of Michigan, Бостонский университет — Boston University. Учиться в колледже или университете по-американски — go to.",
+      "guidance": {
+        "title": "The … of …",
+        "body": "Если название построено как «что-то of чего-то», ставь the. Если имя стоит впереди, а слово University — после него, артикля нет.",
+        "example": "He works at the Museum of Fine Arts, near Boston College.",
+        "translation": "Он работает в Музее изящных искусств, рядом с Бостонским колледжем."
+      },
+      "hint": "Начни так: My daughter goes to … В каком из двух названий есть of?",
+      "answers": [
+        "My daughter goes to the University of Michigan, and my son goes to Boston University.",
+        "My daughter goes to the University of Michigan and my son goes to Boston University.",
+        "My daughter goes to the University of Michigan, and my son is at Boston University.",
+        "My daughter is at the University of Michigan, and my son is at Boston University.",
+        "My daughter's at the University of Michigan, and my son's at Boston University.",
+        "My daughter studies at the University of Michigan, and my son studies at Boston University.",
+        "My daughter studies at the University of Michigan, and my son at Boston University.",
+        "My daughter goes to the University of Michigan, and my son to Boston University."
+      ],
+      "explanation": "The University of Michigan — название с of, поэтому the. Boston University — имя впереди, без артикля. Goes to, is at и studies at — все естественны."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем запятые и which. Напиши в открытке друзьям: «Мы два дня провели в Сент-Луисе, который стоит на Миссисипи. Завтра едем в Чикаго».",
+      "context": "Сент-Луис — St. Louis.",
+      "guidance": {
+        "title": "Вспоминаем which с запятыми",
+        "body": "Вспоминаем: если место уже названо, а ты добавляешь факт о нём, ставь запятую и which. Артикли внутри работают как обычно: у города нет, у реки есть.",
+        "example": "We had lunch in Duluth, which is on Lake Superior.",
+        "translation": "Мы пообедали в Дулуте, который стоит на озере Верхнее."
+      },
+      "hint": "Начни так: We spent two days in St. Louis, which … Нужен ли the перед Chicago?",
+      "answers": [
+        "We spent two days in St. Louis, which is on the Mississippi. Tomorrow we're going to Chicago.",
+        "We spent two days in St. Louis, which is on the Mississippi River. Tomorrow we're going to Chicago.",
+        "We spent two days in St. Louis, which is on the Mississippi. Tomorrow we're driving to Chicago.",
+        "We spent two days in St. Louis, which is on the Mississippi River. Tomorrow we're driving to Chicago.",
+        "We spent two days in Saint Louis, which is on the Mississippi. Tomorrow we're going to Chicago.",
+        "We spent two days in St. Louis, which is on the Mississippi. Tomorrow we're leaving for Chicago.",
+        "We spent two days in St. Louis, which is on the Mississippi. We're going to Chicago tomorrow.",
+        "We spent two days in St. Louis, which is on the Mississippi. Tomorrow we're heading to Chicago."
+      ],
+      "explanation": "St. Louis уже назван, поэтому which с запятой; that здесь нельзя. The Mississippi — река, с the; Chicago — город, без артикля."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг просит проверить его пост об отпуске: We spent a week in the California. We drove along the coast to San Francisco and walked across Golden Gate Bridge. Next we're flying to Hawaiian Islands, and in September I start at University of Texas. Найди ошибки и напиши текст целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь каждое название",
+        "body": "Про каждое название спроси: это простое имя — или вода, множественное число, «… of …», знаменитый мост? Не добавляй лишних the.",
+        "example": "We flew from Miami to the Bahamas and then visited the Statue of Liberty in New York.",
+        "translation": "Мы полетели из Майами на Багамы, а потом побывали у статуи Свободы в Нью-Йорке."
+      },
+      "hint": "Ошибок четыре. The coast — ошибка или нет?",
+      "answers": [
+        "We spent a week in California. We drove along the coast to San Francisco and walked across the Golden Gate Bridge. Next we're flying to the Hawaiian Islands, and in September I start at the University of Texas.",
+        "We spent a week in California. We drove along the coast to San Francisco and walked across the Golden Gate Bridge. Next, we're flying to the Hawaiian Islands, and in September I start at the University of Texas."
+      ],
+      "explanation": "The California → California: штат с простым именем. Golden Gate Bridge → the Golden Gate Bridge: знаменитый мост. Hawaiian Islands → the Hawaiian Islands: группа островов. University of Texas → the University of Texas: название с of. The coast — верно: понятно, какой берег."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ты помогаешь турагентству проверить план поездки для американских клиентов. Исправь артикли и напиши текст целиком: Day 1: Arrive in the New York. Visit Statue of Liberty and walk in the Central Park. Day 2: Fly to the Chicago, a city on Lake Michigan. Take a boat tour on Chicago River. Day 3: Fly to Denver and drive into Rockies.",
+      "context": "",
+      "hint": "Выпиши все названия. Сколько из них — простые имена?",
+      "answers": [
+        "Day 1: Arrive in New York. Visit the Statue of Liberty and walk in Central Park. Day 2: Fly to Chicago, a city on Lake Michigan. Take a boat tour on the Chicago River. Day 3: Fly to Denver and drive into the Rockies."
+      ],
+      "explanation": "Ошибок шесть. New York, Central Park и Chicago — простые имена, без the. The Statue of Liberty — название с of, the Chicago River — река, the Rockies — горная цепь. Lake Michigan и Denver уже были верными."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Американская подруга Джесс хочет приехать в твою страну на две недели и просит совет. Напиши ей письмо на 100–180 слов. В нём: какой город посетить и почему; река, озеро или море рядом; горы (одна гора или горная цепь); музей или университет с названием; пожелание хорошего полёта из США (the US).",
+      "context": "",
+      "hint": "План: Hi Jess! Start in … . It's on the … . Visit the … . Then … . Have a safe flight from the US!",
+      "answers": [
+        "Hi Jess,\nI'm so glad you're coming! Start in St. Petersburg. It's on the Neva, and the canals are beautiful in June. Visit the Hermitage, one of the biggest museums in the world.\nThen take a train to Moscow. Walk around Red Square and see Moscow State University. The view from the hill near the main building is amazing.\nIf you like nature, fly to Lake Baikal in Siberia. It's the deepest lake in the world, and the water is very clear. Or go south to the Caucasus and see Mount Elbrus, the highest mountain in Europe.\nTwo weeks isn't a lot, so choose two or three places. And bring warm clothes, even in summer!\nHave a safe flight from the US!\nAnna"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: город, одно озеро или одна гора без the; река, море или горная цепь с the; музей или университет с правильным артиклем; the US в конце."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый коллега из США спрашивает: Where are you from? What's it like there? Расскажи вслух за 1–2 минуты. В рассказе: страна и город; на какой реке, озере или море он стоит; что есть рядом (горы, лес, пустыня); одно известное здание, мост или университет; куда в США ты хотел бы поехать и почему.",
+      "context": "",
+      "hint": "Начни так: I'm from … , a city on the … . It's not far from …",
+      "answers": [
+        "I'm from Russia, from a city called Nizhny Novgorod. It's on the Volga, right where the Oka joins it, so there's water everywhere. In summer, people swim and take boat trips on the river. There are no mountains near us, but there are huge forests. The city is famous for its old Kremlin, which stands on a hill above the Volga. There's also a big university, Lobachevsky University, where my brother studied. In the US, I'd love to see the Grand Canyon and drive along the Pacific Coast. I've seen it in so many movies that I want to see it with my own eyes."
+      ],
+      "explanation": "Засчитывается, если страна и город идут без артикля, река или море — с the и хотя бы одно известное место или университет названо с правильным артиклем."
+    }
+  ]
+}

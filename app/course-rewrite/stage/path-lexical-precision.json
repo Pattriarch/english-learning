@@ -1,0 +1,295 @@
+{
+  "id": "path-lexical-precision",
+  "title": "Efficient или effective: как выбрать точное слово из похожих",
+  "subtitle": "Что слово оценивает → пары на -ic и -ical → насколько сильно → хвалит или ругает → проверка по словарю",
+  "level": "C1",
+  "group": "Лексика и сочетания",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Выбирать из похожих слов то, которое говорит ровно твою мысль: «экономит время» — efficient, «даёт результат» — effective; «экономичный» — economical, «экономический» — economic; «упал на 8%» — fell by 8%, а не collapsed.",
+  "formula": "три вопроса: что оценивает? (затраты / результат) → насколько сильно? (drop / collapse) → хвалит, ругает или описывает? (confident / arrogant) → проверка по примерам в словаре",
+  "keyRule": {
+    "rule": "Похожие слова не равны: проверь, что слово оценивает, насколько сильно и хвалит ли.",
+    "example": "The old method is effective but not efficient. — Старый способ работает, но отнимает много времени.",
+    "check": "Скажи свой факт простыми словами. Выбранное слово говорит ровно это — не больше и не меньше?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-word-formation",
+    "path-collocations-b1",
+    "path-false-friends",
+    "path-academic-collocations"
+  ],
+  "recycles": [
+    "path-word-formation",
+    "path-false-friends"
+  ],
+  "teaches": [
+    "синонимы почти никогда не равны: слова отличаются тем, что оценивают, силой и оценкой",
+    "efficient — мало затрат (время, деньги, силы); effective — даёт нужный результат; effective but not efficient",
+    "economic — об экономике / economical — экономный; historic — важный для истории / historical — о прошлом; classic — образцовый, типичный / classical — классическая музыка, античность; electric — работает на электричестве / electrical — об электрике вообще",
+    "сила слова: a drop → a sharp drop → a collapse; annoyed → angry → furious; в отчёте — простое слово и число",
+    "оценка: confident / arrogant, assertive / pushy, firm / stubborn, thrifty / cheap, curious / nosy — факты те же, отношение разное",
+    "редкое слово ≠ точное: worked лучше, чем was efficacious",
+    "проверка: примеры в словаре для изучающих (Cambridge, Merriam-Webster Learner's), а не список синонимов"
+  ],
+  "sources": [
+    {
+      "title": "Writing Explained · Effective vs. Efficient",
+      "url": "https://writingexplained.org/effective-vs-efficient-difference",
+      "notes": "Сверено: effective — достиг нужного результата («получилось ли?»), efficient — достиг без лишних затрат времени, денег, сил («как экономно получилось?»); пример с лекарством, которое работает с одной дозы в день."
+    },
+    {
+      "title": "Dictionary.com · historic (usage note)",
+      "url": "https://www.dictionary.com/browse/historic",
+      "notes": "Сверена заметка об употреблении: historic — важный, значимый в истории (a historic decision), historical — относящийся к истории, к прошлому (a historical perspective). В американском словаре historic иногда даётся как вариант historical, поэтому в уроке разница подана как обычное употребление, а не жёсткий запрет."
+    },
+    {
+      "title": "Dictionary.com · economical",
+      "url": "https://www.dictionary.com/browse/economical",
+      "notes": "Сверено: economical — экономный, без лишних трат, и не только денег; economic в словаре — о хозяйстве и экономике. Пример economical car в уроке соответствует этому значению."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Почему «эффективный» — это два английских слова",
+      "body": "Ты пишешь начальнице о новом приложении для графика смен: «Оно очень эффективное». Что ты имеешь в виду? Может быть, оно экономит время: график теперь составляется за час, а не за день. А может быть, оно решило задачу: никто больше не пропускает смены. По-русски «эффективный» покрывает оба смысла. По-английски это два разных слова.\n\nEfficient — мало затрат: времени, денег, сил. Effective — даёт нужный результат.\n\nОдно может быть без другого. Старый способ effective but not efficient: он работает, но отнимает три часа. Новый может быть быстрым, но не решать проблему — тогда он не effective. Если и быстро, и с результатом — подходят оба слова.\n\nТак устроены почти все похожие слова. Синонимы — слова, близкие по смыслу, — почти никогда не равны. Они отличаются тем, что именно оценивают, насколько сильно и хвалят ли. Этот урок — о том, как выбрать одно точное слово."
+    },
+    {
+      "title": "-ic или -ical: одна основа — разный смысл",
+      "body": "В уроке о семьях слов ты видел окончание -al. У некоторых слов есть две формы, и смысл у них разный.\n\nEconomic — об экономике: economic growth (экономический рост), an economic crisis. Economical — экономный, без лишних трат: an economical car (машина, которая мало тратит).\n\nHistoric — важный для истории, тот, что запомнят: a historic day, a historic agreement. Historical — относящийся к прошлому: historical documents, a historical novel (роман о прошлом).\n\nClassic — образцовый, типичный: a classic mistake (типичная ошибка), a classic movie. Classical — о классической музыке и античности: classical music.\n\nElectric — работает на электричестве: an electric car. Electrical — об электрике вообще: an electrical engineer, an electrical problem.\n\nНо не у всех пар смысл разный. Geographic и geographical значат одно и то же. Поэтому не угадывай — проверяй в словаре."
+    },
+    {
+      "title": "Насколько сильно: слово должно совпадать с фактом",
+      "body": "Многие слова стоят на одной шкале и отличаются силой. A drop (снижение) → a sharp drop (резкое снижение) → a collapse (обвал). A problem → a serious problem → a crisis. Annoyed (раздражён) → angry → furious (в ярости). Rise (расти) → soar (взлететь).\n\nРусскоговорящие, чтобы звучать «живее», часто берут самое сильное слово. Продажи упали на 8% — “Sales collapsed”. Автобус опоздал на десять минут — “It was a disaster”. Носитель услышит не живость, а преувеличение. И перестанет верить твоим оценкам.\n\nВ рабочем тексте надёжнее простое слово и число: Sales fell by 8% this month. Читатель сам решит, много это или мало. Сильное слово оставь для сильного факта: продажи упали на 60% — тогда collapse к месту.\n\nВ разговоре с другом преувеличение бывает шуткой: “I'm starving” — «умираю с голоду». Это нормально, если оба понимают, что это шутка."
+    },
+    {
+      "title": "Хвалит или ругает: одно поведение — разные слова",
+      "body": "Коллега говорит на встречах уверенно и отстаивает своё мнение. Одни скажут confident (уверенный) или assertive (настойчивый — в хорошем смысле). Другие — arrogant (высокомерный) или pushy (напористый, давит на других). Факты те же. Слово добавляет похвалу или упрёк.\n\nЕщё пары: firm (твёрдый) / stubborn (упрямый); thrifty (бережливый) / cheap (скупой — в США так говорят о человеке); curious (любознательный) / nosy (любопытный, лезет не в своё дело).\n\nОпасность в том, что упрёк звучит как факт. “Mark is stubborn” читается как диагноз, хотя это твоя оценка.\n\nВ отзыве о человеке, в отчёте или в жалобе сначала опиши поведение: He didn't change the plan after three people objected. Потом, если нужно, добавь оценку и покажи, что она твоя: In my view, this was too stubborn."
+    },
+    {
+      "title": "Как выбрать слово: три вопроса и словарь",
+      "body": "1. Что именно ты оцениваешь? Затраты или результат, экономику или экономию, важность или просто прошлое.\n2. Насколько сильно? Посмотри на факт и число. Слово не должно быть сильнее.\n3. Хвалишь, ругаешь или описываешь? В нейтральном тексте выбирай нейтральное слово.\n\nПотом проверь слово в словаре для изучающих английский — Cambridge или Merriam-Webster Learner's. Читай не перевод, а примеры: с какими словами оно стоит. Economical car — да, economical crisis — нет.\n\nОсторожно со списком синонимов (thesaurus). Он даёт десять слов подряд и не говорит, чем они отличаются.\n\nИ не ищи редкое слово, чтобы звучать умно. “The plan was efficacious” — так почти никто не пишет. “The plan worked” — точнее и понятнее. Простое слово, которое говорит ровно твою мысль, — лучший выбор."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The new schedule is efficient: planning takes an hour instead of a day.",
+      "ru": "Новый график экономит время: планирование занимает час вместо дня.",
+      "why": "Efficient — о затратах. После двоеточия — сколько сэкономили."
+    },
+    {
+      "en": "The old method is effective but not efficient.",
+      "ru": "Старый способ работает, но отнимает много времени.",
+      "why": "Результат есть — effective. Затраты большие — not efficient."
+    },
+    {
+      "en": "Economic growth slowed, so families looked for more economical cars.",
+      "ru": "Экономический рост замедлился, и семьи стали искать более экономичные машины.",
+      "why": "Economic — об экономике страны, economical — о том, сколько тратит машина."
+    },
+    {
+      "en": "It was a historic day for the town: the museum reopened with its historical maps.",
+      "ru": "Для города это был исторический день: музей открылся снова со своими старинными картами.",
+      "why": "Historic — день запомнят. Historical — карты из прошлого."
+    },
+    {
+      "en": "Sales fell by 8% this month.",
+      "ru": "В этом месяце продажи упали на 8%.",
+      "why": "Простое слово и число. Collapsed было бы преувеличением."
+    },
+    {
+      "en": "She's assertive in meetings, but she listens to objections.",
+      "ru": "На встречах она настойчиво отстаивает своё мнение, но выслушивает возражения.",
+      "why": "Assertive — похвала. Pushy о том же поведении было бы упрёком."
+    },
+    {
+      "en": "Buying the cheapest model was a classic mistake.",
+      "ru": "Купить самую дешёвую модель — типичная ошибка.",
+      "why": "Classic — типичный, образцовый. Classical — о музыке и античности."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши начальнице о новом приложении для графика смен: «Новый график экономит время: на планирование мы тратим вдвое меньше. Но проблему опозданий он не решил».",
+      "context": "shift — смена; be late — опаздывать; half as much time — вдвое меньше времени.",
+      "guidance": {
+        "title": "Efficient — затраты, effective — результат",
+        "body": "Efficient говорит, сколько ушло времени, денег, сил. Effective — получился ли нужный результат. Одно может быть без другого.",
+        "example": "The medicine is effective, but it's very expensive.",
+        "translation": "Лекарство помогает, но оно очень дорогое."
+      },
+      "hint": "Какое слово для «экономит время»? Вторая фраза: But it hasn't…",
+      "answers": [
+        "The new schedule is efficient: we spend half as much time on planning. But it hasn't solved the problem of people being late.",
+        "The new schedule is efficient: planning takes half as much time. But it hasn't solved the problem of people being late.",
+        "The new schedule is efficient: we spend half as much time on planning. But it hasn't been effective at reducing lateness.",
+        "The new schedule is efficient, since we spend half as much time on planning, but it hasn't solved the lateness problem."
+      ],
+      "explanation": "Экономия времени — efficient. «Не решил проблему» — hasn't solved или hasn't been effective. The new schedule is effective в первой фразе сказало бы, что опоздания исчезли, — а это неправда."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь подпись к фото для сайта городского музея: «Этот исторический договор хранится вместе с другими историческими документами города».",
+      "context": "agreement — договор; keep — хранить.",
+      "guidance": {
+        "title": "Historic — важный, historical — из прошлого",
+        "body": "Historic говорят о том, что важно для истории и запомнится. Historical — просто о том, что относится к прошлому. Русское «исторический» — одно слово на оба случая.",
+        "example": "Election night was historic: the town chose its first woman mayor.",
+        "translation": "Ночь выборов вошла в историю: город впервые выбрал женщину мэром."
+      },
+      "hint": "Какой из двух «исторических» предметов важен сам по себе, а какие просто старые?",
+      "answers": [
+        "This historic agreement is kept with the city's other historical documents.",
+        "This historic agreement is kept together with other historical documents from the city.",
+        "This historic agreement is kept with other historical documents of the city.",
+        "This historic agreement is stored with the city's other historical documents."
+      ],
+      "explanation": "Договор важен для истории — historic. Остальные документы просто из прошлого — historical. Если договор не особенный, можно и historical agreement, но тогда подпись не говорит, что он важен."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега написал в рабочий чат: “Our website traffic collapsed this week — it's a total disaster!” Факты: посещаемость сайта упала на 8% по сравнению с прошлой неделей. Перепиши для начальника одной-двумя фразами: сила слов должна совпадать с фактом.",
+      "context": "traffic — посещаемость; keep an eye on — следить за.",
+      "guidance": {
+        "title": "Сила слова — по факту",
+        "body": "8% — не обвал. Возьми простое слово и назови число. Если хочешь, добавь оценку, но спокойную: a small drop.",
+        "example": "Prices rose slightly in May, by about 2%.",
+        "translation": "В мае цены немного выросли, примерно на 2%."
+      },
+      "hint": "Начни так: Our website traffic fell by… Чем заменить a total disaster?",
+      "answers": [
+        "Our website traffic fell by 8% this week compared with last week. It's a small drop, but we should keep an eye on it.",
+        "Our website traffic dropped by 8% compared with last week. It isn't a big drop, but we should keep an eye on it.",
+        "Website traffic went down 8% this week compared with last week. We should keep an eye on it."
+      ],
+      "explanation": "Fell, dropped или went down и число — точно. Collapsed и disaster подходят для падения в разы. Compared with last week показывает, с чем сравниваешь; compared to тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Начальница просит отзыв о коллеге Рите для анкеты. Факты: на встречах Рита ясно отстаивает своё мнение, но выслушивает возражения и меняет решение, если доводы хорошие. Напиши две фразы. Слова должны хвалить, а не упрекать.",
+      "context": "objection — возражение; change one's mind — передумать.",
+      "guidance": {
+        "title": "Одно поведение — похвала или упрёк",
+        "body": "Отстаивать мнение — это может быть assertive или confident (похвала), а может быть pushy или stubborn (упрёк). Выбери слово по фактам: Рита слушает и меняет решение.",
+        "example": "My grandfather was thrifty: he never wasted food.",
+        "translation": "Мой дедушка был бережливым: никогда не выбрасывал еду."
+      },
+      "hint": "Начни так: Rita is assertive in meetings: she… Вторая фраза — про возражения.",
+      "answers": [
+        "Rita is assertive in meetings: she defends her opinion clearly. At the same time, she listens to objections and changes her mind when the arguments are good.",
+        "Rita is confident in meetings and defends her opinion clearly. But she isn't stubborn: she listens to objections and changes her mind when the arguments are good.",
+        "Rita is assertive in meetings and states her opinion clearly. She also listens to objections and is willing to change her mind when someone makes a good point."
+      ],
+      "explanation": "Assertive и confident — похвала. Pushy и stubborn не подходят: Рита слушает и меняет решение, значит, она не давит и не упрямится. She isn't stubborn — хороший способ показать это прямо."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В отзыве о новом обогревателе три неточных слова. Найди их и перепиши отзыв целиком: “Our new heater is very economic: our electrical bill went down by $40 a month. Buying the cheapest model last winter was a classical mistake.”",
+      "context": "heater — обогреватель; bill — счёт.",
+      "guidance": {
+        "title": "Проверь каждое слово на -ic / -ical",
+        "body": "Остановись на каждом слове с -ic или -ical. Спроси: оно об экономике или об экономии? О работе на электричестве или об электрике вообще? Типичное или классическое?",
+        "example": "Wrong: an economical crisis. Right: an economic crisis.",
+        "translation": "Неверно: «экономный кризис». Верно: экономический кризис."
+      },
+      "hint": "Подозрительных слов три: economic, electrical, classical. Какое значение здесь нужно?",
+      "answers": [
+        "Our new heater is very economical: our electric bill went down by $40 a month. Buying the cheapest model last winter was a classic mistake.",
+        "Our new heater is very economical: our electricity bill went down by $40 a month. Buying the cheapest model last winter was a classic mistake.",
+        "Our new heater is very economical, and our electric bill went down by $40 a month. Buying the cheapest model last winter was a classic mistake."
+      ],
+      "explanation": "Обогреватель мало тратит — economical. Счёт за электричество в США — electric bill, можно и electricity bill. Типичная ошибка — classic mistake; classical — о музыке и античности."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем уроки о семьях слов и о ложных друзьях. Напиши в отчёт: «Мы проверили эффективность нового способа: он сэкономил время, но точность записей снизилась».",
+      "context": "records — записи.",
+      "guidance": {
+        "title": "Вспоминаем: та же разница у существительных",
+        "body": "Как в уроке о семьях слов, от признаков есть существительные: efficient → efficiency, effective → effectiveness. Разница та же: затраты или результат. А «точность» — как в уроке о ложных друзьях: accurate → accuracy, не «аккуратность».",
+        "example": "We measured the effectiveness of the training: 90% passed the test.",
+        "translation": "Мы проверили, насколько обучение дало результат: 90% сдали тест."
+      },
+      "hint": "Способ сэкономил время — какое существительное ты проверял: efficiency или effectiveness?",
+      "answers": [
+        "We checked the efficiency of the new method: it saved time, but the accuracy of the records went down.",
+        "We tested the efficiency of the new method: it saved time, but the accuracy of the records decreased.",
+        "We checked how efficient the new method was: it saved time, but the accuracy of the records went down.",
+        "We measured the efficiency of the new method: it saved time, but the records became less accurate."
+      ],
+      "explanation": "Речь о сэкономленном времени — efficiency. Effectiveness значило бы «дал ли способ нужный результат». Точность — accuracy; «аккуратность» записей в смысле порядка — neatness."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега хотел звучать солиднее и написал в письмо команде: “Our endeavor to ameliorate the onboarding procedure was efficacious.” Половина команды не поняла. Перепиши простыми точными словами.",
+      "context": "onboarding — ввод новых сотрудников в работу.",
+      "guidance": {
+        "title": "Редкое слово ≠ точное",
+        "body": "Редкое слово не делает мысль точнее — только труднее. Для каждого слова найди обычное, которое говорит то же самое.",
+        "example": "Instead of: We commenced the initiative. Better: We started the project.",
+        "translation": "Вместо «Мы инициировали начало инициативы» — «Мы начали проект»."
+      },
+      "hint": "Endeavor — попытка, ameliorate — улучшить, efficacious — сработавший. Как сказать это обычными словами?",
+      "answers": [
+        "Our attempt to improve the onboarding process worked.",
+        "Our effort to improve the onboarding process worked.",
+        "Our attempt to improve onboarding was effective.",
+        "We tried to improve the onboarding process, and it worked."
+      ],
+      "explanation": "Attempt или effort, improve, worked или was effective — та же мысль, понятная всем. Procedure тоже можно оставить, но process звучит естественнее. Efficient сюда не подходит: про затраты речи нет."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твоя начальница Карен выбирает, как обучать новых сотрудников склада: онлайн-курс или наставник. Напиши ей рекомендацию на 150–250 слов. Факты: курс — $40 на человека, 3 часа, первую проверку сдают 60% новичков, оценка новичков — 3,1 из 5. Наставник — $200 на человека (время наставника), 2 дня, проверку сдают 90%, оценка — 4,6 из 5. Что должно быть: отдельно о затратах, о скорости, о результате и о том, как это нравится новичкам; слова efficient, effective, economical — каждое в своём смысле; сила оценок совпадает с цифрами; твоя рекомендация.",
+      "context": "warehouse — склад; new hire — новый сотрудник; mentor — наставник; rating — оценка.",
+      "hint": "Раздели письмо по вопросам: сколько стоит → сколько времени → сколько сдают → что говорят новички → что ты советуешь.",
+      "answers": [
+        "Hi Karen,\n\nHere is my comparison of the two training options for new warehouse staff.\n\nCost: the online course is clearly more economical. It costs $40 per person, while a mentor costs about $200 per person, mostly in the mentor's time.\n\nTime: the course is also more efficient. New hires finish it in three hours, but mentoring takes two full days.\n\nResults: here the mentor wins. Ninety percent of new hires trained by a mentor pass the first check, compared with 60% after the online course. So the course saves time and money, but it is less effective: four in ten people still aren't ready for the job.\n\nHow new hires feel: they rate the mentor 4.6 out of 5 and the course 3.1. That's a clear difference, although ratings show what people liked, not what they learned.\n\nMy recommendation is a mix. Let new hires take the online course first, since it is quick and cheap, and then give them one day with a mentor. This should keep most of the mentor's results at a lower cost. We could try it with the next ten hires and compare the pass rate.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если затраты, скорость, результат и мнение новичков разобраны отдельно, economical — о деньгах, efficient — о времени, effective — о том, сдают ли проверку, оценки не сильнее цифр (никаких disaster или amazing), а в конце есть рекомендация. Рекомендовать можно любой вариант, если он следует из фактов."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Коллега Жуан из Бразилии получил замечания к отчёту: “an economic printer”, “a historical win for our team”, “sales collapsed” (на самом деле продажи упали на 5%). Он не понимает, что не так. Объясни ему вслух за 2–3 минуты. Что должно быть: что не так в каждом случае и какое слово верное; для каждой пары — короткая ситуация, где верно другое слово; как ты сам проверяешь похожие слова.",
+      "context": "",
+      "hint": "Начни так: All three words are real English words. The problem is that each one says something slightly different from what you meant.",
+      "answers": [
+        "All three words are real English words, João. The problem is that each one says something a little different from what you meant.\n\nFirst, “an economic printer.” Economic is about the economy, like economic growth or an economic crisis. What you wanted is economical: it uses little ink and doesn't cost much to run. So, “an economical printer.” Economic would be right in a sentence like, “The economic situation is hurting our sales.”\n\nSecond, “a historical win.” Historical just means connected with the past, like historical documents in a museum. Historic means important, something people will remember. Our team won the biggest contract in the company's history, so it was a historic win. If you're writing about old records of past games, then historical is the right word.\n\nThird, “sales collapsed.” Collapse means a huge fall, maybe fifty or sixty percent. Our sales fell by five percent. That's real, but it's not a collapse. In a report it's safer to use a simple verb and the number: “Sales fell by 5% this quarter.” The reader can decide how serious it is. If sales really dropped by half, then collapsed would be fine.\n\nHere's how I check words like these. I ask three questions. What exactly am I describing? How strong is the fact? And am I praising, criticizing, or just describing? Then I look up the word in a learner's dictionary and read the examples, not just the translation. If the examples don't look like my sentence, I choose another word."
+      ],
+      "explanation": "Засчитывается, если для каждого из трёх случаев названо верное слово и объяснена разница, у каждой пары есть ситуация для второго слова, и ты рассказал, как проверяешь слова. Ситуации можно придумать свои."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй абзац из ежегодного отзыва о сотруднике: слова должны совпадать с фактами и звучать нейтрально. Напиши исправленный абзац (60–100 слов). Факты: Марк сдаёт отчёты за час, но в двух из десяти отчётов были ошибки в цифрах; на трёх встречах он не поменял план, хотя двое коллег возражали; его идея бюджета обошлась на $500 дороже плана. Черновик: “Mark is arrogant and stubborn in meetings. His reports are effective because he finishes them in an hour, but they are full of mistakes. His budget idea was a catastrophe.”",
+      "context": "performance review — ежегодный отзыв о работе сотрудника.",
+      "hint": "Каждое оценочное слово замени описанием поведения. Проверь, что значит effective и совпадает ли full of mistakes с цифрой.",
+      "answers": [
+        "Mark works quickly: he finishes his reports in about an hour. However, two of his last ten reports had errors in the figures, so accuracy needs attention. In three meetings, he kept his original plan even though two colleagues objected; it would help if he discussed objections before deciding. His budget proposal cost $500 more than planned. Overall, Mark is efficient, and the next step is to make his work more accurate and more open to feedback."
+      ],
+      "explanation": "Засчитывается, если arrogant и stubborn заменены описанием поведения, effective исправлено на efficient (речь о скорости), full of mistakes — на точное число (два из десяти), catastrophe — на факт ($500 сверх плана), а тон остаётся нейтральным."
+    }
+  ]
+}

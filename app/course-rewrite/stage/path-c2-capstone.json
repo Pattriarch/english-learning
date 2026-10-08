@@ -1,0 +1,387 @@
+{
+  "id": "path-c2-capstone",
+  "title": "Итоговая мастерская: исследовать, написать, обсудить",
+  "subtitle": "Вопрос решения → заметки по источникам → одно слово, разные смыслы → вывод по силе сведений → рекомендация с ценой и проверкой → ответ несогласному → смена адресата → записка, выступление, правка чужого пересказа",
+  "level": "C2",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C2",
+  "minutes": 90,
+  "goal": "Пройти весь путь самостоятельно: из трёх материалов сделать рекомендацию для библиотечного совета — «Should …, given …?», «The report found…, whereas the columnist argues…», «I recommend a one-year trial, provided that…» — защитить её вслух перед несогласным и поправить неточный пересказ своих слов.",
+  "formula": "Should …, given …? → claim · basis · limit → For A, \"works\" means …, whereas for B … → Fact. The change may explain only part of … → I recommend …, at a cost of …, provided that … We will review … ; if …, we will … → If I understand you correctly, your concern is … You're right that … But … → same facts, new words → check: numbers, names, conditions",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Сначала вопрос и факты, потом твой вывод с условием. На возражение — сначала признай сильное в нём.",
+    "example": "You're right that buses ran a little later, but every route kept running. — Вы правы, что автобусы стали ходить чуть позже, но все маршруты продолжили работать.",
+    "check": "Чей это вывод — источника или твой? Видно ли это по словам?"
+  },
+  "prerequisites": [
+    "path-synthesis",
+    "path-proposal",
+    "path-diplomatic-disagreement",
+    "path-editing"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-synthesis",
+    "path-hedging",
+    "path-proposal",
+    "path-diplomatic-disagreement",
+    "path-cross-register"
+  ],
+  "teaches": [
+    "итоговая работа без новой грамматики: один вопрос проходит путь исследование → письмо → разговор → правка",
+    "вопрос решения: Should …, given …? — выбор и то, что нужно взвесить, а не тема",
+    "заметки по каждому источнику в три строки: claim (вывод), basis (на что опирается), limit (чего не показывает)",
+    "спорное слово до спора: For Donnelly, \"works\" means …, whereas …; on time ≠ eventually",
+    "вывод по силе сведений: факт прямо, причина с оговоркой, цена названа числом",
+    "рекомендация с ценой, условием и правилом пересмотра: I recommend …, provided that … We will review … ; if …, we will …",
+    "ответ несогласному: сильная версия его довода → что в нём верно → где не согласен, по фактам; честное «не знаю, но вот как проверить»",
+    "смена адресата: другие слова и длина, те же факты, уверенность и статус решения",
+    "проверка чужого пересказа своих слов: условие, оговорка, чья цитата",
+    "слова: late fine, fine-free, cardholder, overdue, replacement cost, board of trustees, revenue, on time, eventually"
+  ],
+  "sources": [
+    {
+      "title": "UNC Writing Center · Argument",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/argument/",
+      "notes": "Сверено: возражения нужно предвидеть и излагать честно, без карикатуры; можно уступить в частном и объяснить, почему вывод всё же стоит, или показать изъян возражения; лучше разобрать одно-два серьёзных возражения, чем длинный список; если возражение меняет позицию, позицию пересматривают."
+    },
+    {
+      "title": "Purdue OWL · Synthesizing Sources",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/conducting_research/research_overview/synthesizing_sources.html",
+      "notes": "Сверено: синтез — более широкий вывод из нескольких источников, а не пересказ; источники связывают по вопросам, показывают согласие и расхождение, не притягивают связи силой и не отбрасывают несогласные."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Один вопрос — весь путь",
+    "why": "Каждый шаг — ход из прошлых уроков. Пример здесь — другой город и другой вопрос: бесплатные автобусы.",
+    "items": [
+      {
+        "label": "Вопрос",
+        "en": "Should the city make buses free for a year, given the lost fares?",
+        "ru": "Стоит ли городу на год сделать автобусы бесплатными, учитывая потерю платы за проезд?",
+        "note": "Выбор и то, что надо взвесить."
+      },
+      {
+        "label": "Источники",
+        "en": "The transit report found…, whereas the columnist argues…",
+        "ru": "Отчёт транспортного управления показал…, а автор колонки утверждает…",
+        "note": "У каждого — вывод, опора, граница."
+      },
+      {
+        "label": "Позиция",
+        "en": "I recommend a one-year trial, provided that…",
+        "ru": "Я предлагаю пробный год при условии, что…",
+        "note": "Твой вывод помечен, у него есть цена и проверка."
+      },
+      {
+        "label": "Возражение",
+        "en": "You're right that…, but…",
+        "ru": "Вы правы в том, что…, но…",
+        "note": "Сначала сильное в чужом доводе, потом ответ."
+      }
+    ],
+    "footnote": "Fare — плата за проезд; trial — проба на время.",
+    "focus": [
+      "given",
+      "whereas",
+      "provided that",
+      "You're right that"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Последний урок: весь путь на одном деле",
+      "body": "Новой грамматики здесь нет. Ты делаешь то, ради чего учил всё остальное: разбираешься в спорном вопросе, пишешь решение для конкретных людей, защищаешь его вслух и проверяешь, как тебя пересказали.\n\nДело такое. Библиотечный совет городка Millbrook голосует, отменять ли штрафы за просрочку книг (late fines). У тебя три материала: отчёт о соседнем городе, который штрафы уже отменил (M1), колонка противника отмены в местной газете (M2) и письмо председателя совета (M3). Все они вымышлены, но такой спор идёт во многих американских городах на самом деле.\n\nПорядок работы: вопрос → заметки по источникам → вывод по силе сведений → рекомендация с ценой и проверкой → ответ несогласному → объяснение соседу → записка, выступление и правка чужого пересказа.\n\nКаждый шаг — ход из прошлого урока, и карточка называет, из какого. Граница: одна удачная работа не доказывает уровень C2. Доказывает другое — что через месяц ты сделаешь то же на новом вопросе без подсказок."
+    },
+    {
+      "title": "Исследовать: вопрос, заметки, одно слово",
+      "body": "Начни с вопроса решения, а не с темы. Тема — «бесплатные автобусы». Вопрос решения — выбор и то, что нужно взвесить: Should the city make buses free for a year, given that it would lose $2 million in fares? На такой вопрос можно подобрать сведения и ответить «да», «нет» или «да, при условии».\n\nПотом заметки по каждому источнику, три строки. Claim — вывод автора. Basis — на что он опирается: сравнение, опрос, личная история, мнение. Limit — чего источник не показывает. Сила опоры разная, и в тексте это видно по глаголу: the report found — для сведений, the columnist argues — для мнения.\n\nПеред сравнением проверь спорное слово. Один автор пишет, что бесплатный проезд doesn't work — «не работает», другой — что works. Работает по какому мерилу? Для одного успех — больше пассажиров, для другого — автобусы приходят вовремя. Спор часто оказывается не о фактах, а о том, что считать успехом."
+    },
+    {
+      "title": "Своя позиция: вывод, цена, условие",
+      "body": "Факт говори прямо: Ridership rose from 40,000 to 46,000 rides a week. Причину — с оговоркой, если есть другое объяснение: в тот же год открылась новая линия, значит, бесплатный проезд may explain only part of the rise — «может объяснять только часть роста».\n\nЦену называй числом. «Это ничего не стоит» — тоже утверждение: если город теряет $2 million платы за проезд, так и скажи. Маленькая доля бюджета — довод, но не повод скрывать цену.\n\nРекомендация — в первой фразе и с условием: I recommend a one-year trial, provided that… — «при условии, что…». Рядом — когда проверим и что будет, если результат плохой: We will review… after twelve months; if…, we will… Так совет голосует не за веру, а за проверку.\n\nСвой вывод помечай как свой: Taken together, In my view, I recommend. Ошибка: The evidence proves that free buses work. Proves — слишком сильно, и непонятно, чей это вывод."
+    },
+    {
+      "title": "Говорить с несогласным и с соседом",
+      "body": "На заседании тебе возразят. Сильный ответ идёт в три шага. Перескажи довод в его лучшей форме: If I understand you correctly, your concern is… — «если я правильно понимаю, вас беспокоит…». Признай, что в нём верно: You're right that buses ran a little later. Потом скажи, где не согласен, — по фактам, не о человеке: But the average delay was under two minutes.\n\nЕсли возражение верное, меняй позицию открыто: That's a fair point, and it changes my view on X, though not on Y. Если не знаешь ответа, не выдумывай: I don't know yet. Here's how we could find out.\n\nТа же позиция для соседа в магазине звучит иначе: короче, проще, с сокращениями. Но факты, степень уверенности и статус решения те же. Nothing's decided yet — «ещё ничего не решено» нельзя превратить в «автобусы сделают бесплатными». Предложение не становится решением оттого, что ты говоришь неформально."
+    },
+    {
+      "title": "Проверить себя и что дальше",
+      "body": "Готовый текст читай, как редактор чужой: сначала смысл (есть ли рекомендация, условие, цена), потом порядок, потом строка. Отдельно перечитай только числа, имена, отрицания и условия — они чаще всего теряются при сокращении.\n\nЕсли тебя пересказывает журналист или коллега, проверь три вещи. Сохранилось ли условие (provided that, for one year)? Сохранилась ли оговорка (may, part of)? Твои ли это слова — или тебе приписали чужую цитату?\n\nПосле курса повторяй этот цикл раз в месяц на новом вопросе — из новостей своего города, работы или учёбы. Бери два настоящих источника с разной опорой и записывай, что именно прочитал: автор, название, ссылка; если прочитал только краткое описание (abstract) — так и пиши. Храни черновик, правку и запись речи. Через месяц сравни: какие ошибки ушли, а какие повторяются. Это и есть проверка уровня, которой можно верить."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Should the city make buses free for a year, given that it would lose $2 million in fares?",
+      "ru": "Стоит ли городу на год сделать автобусы бесплатными, учитывая, что он потеряет $2 млн платы за проезд?",
+      "why": "Вопрос решения: выбор и то, что нужно взвесить."
+    },
+    {
+      "en": "The transit report found that ridership rose by 15%, whereas the columnist argues that people don't value what they don't pay for.",
+      "ru": "Отчёт транспортного управления показал, что поездок стало на 15% больше, а автор колонки утверждает, что люди не ценят то, за что не платят.",
+      "why": "Found — сведения, argues — мнение: глагол показывает силу опоры."
+    },
+    {
+      "en": "For the mayor, the trial worked because more people rode; for drivers, it didn't, because buses ran later.",
+      "ru": "Для мэра проба удалась, потому что ездить стали больше; для водителей — нет, потому что автобусы стали опаздывать.",
+      "why": "Одно слово worked — два разных мерила успеха."
+    },
+    {
+      "en": "A new line opened the same year, so free fares may explain only part of the rise.",
+      "ru": "В тот же год открылась новая линия, поэтому бесплатный проезд может объяснять только часть роста.",
+      "why": "Факт — прямо, причина — с оговоркой и с названным другим объяснением."
+    },
+    {
+      "en": "I recommend a one-year trial, provided that the state covers half the cost.",
+      "ru": "Я предлагаю пробный год при условии, что штат покроет половину расходов.",
+      "why": "Вывод помечен как свой, у него есть условие."
+    },
+    {
+      "en": "If I understand you correctly, your concern is crowding, not cost.",
+      "ru": "Если я правильно понимаю, вас беспокоит давка, а не деньги.",
+      "why": "Сначала перескажи чужой довод в лучшей форме — потом отвечай."
+    },
+    {
+      "en": "Nothing's decided yet. They vote in June, and I'm suggesting a one-year trial.",
+      "ru": "Ещё ничего не решено. Голосуют в июне, а я предлагаю попробовать один год.",
+      "why": "Разговорно для соседа, но статус решения тот же: это предложение."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "reading",
+      "title": "Отчёт / Fine-free: what happened in Riverton",
+      "source": "Авторский учебный материал; города, люди и цифры вымышлены",
+      "text": "Prepared by Alex Kim, Millbrook Public Library, for the Board of Trustees · April 2026\n\nIn January 2025, the Riverton Public Library, 20 miles from Millbrook, stopped charging late fines. Items more than 45 days overdue are still billed at replacement cost, and the bill is canceled when the item comes back.\n\nWe compared Riverton's records for 2024 (with fines) and 2025 (fine-free):\n\n- Active cardholders (people who borrowed at least once in the year): 9,400 in 2024; 10,300 in 2025.\n- Cards blocked because of unpaid fines or bills: 1,850; 310.\n- Items returned on time (within 21 days): 65%; 62%.\n- Items returned eventually (within 90 days): 97%; 97%.\n- Fine revenue: $38,000 (0.9% of the budget); $0.\n- Staff time spent on fine disputes: about 12 hours a week; about 2 hours a week.\n\nLimits: This is one town and one year. Riverton also opened a new branch in March 2025, which may explain part of the rise in cardholders. The records do not say who the new cardholders are or whether people whose cards had been blocked came back."
+    },
+    {
+      "id": "m2",
+      "kind": "reading",
+      "title": "Колонка в газете / Keep the fines: they teach responsibility",
+      "source": "Авторский учебный материал; автор и газета вымышлены",
+      "text": "Millbrook Courier · Opinion · by Ray Donnelly, retired teacher and library volunteer\n\nWhen I was a boy, a nickel-a-day fine taught me to bring my books back. Fines are the reason most books come home to the library. Look at Riverton: since it dropped fines, on-time returns have fallen. That proves fine-free doesn't work.\n\nSupporters say fines keep poor families away. I agree that a $20 bill can scare off a parent who is already struggling, and that is not fair. But the answer is not to throw away a system that works. Millbrook should forgive fines on children's books and keep them for adults.\n\nAnd who pays? Millbrook would lose about $41,000 a year. That money buys new books."
+    },
+    {
+      "id": "m3",
+      "kind": "reference",
+      "title": "Письмо председателя совета / A request from Linda Park",
+      "source": "Авторский учебный материал; письмо вымышлено",
+      "text": "From: Linda Park, President, Millbrook Library Board of Trustees\nSubject: Fines vote on June 9\n\nHi,\n\nThe board will vote on June 9 on whether to stop charging late fines. Could you send us a memo of 200 to 300 words with your recommendation? Two trustees are worried about losing books and about \"teaching responsibility.\" Our fine revenue last year was $41,000, about 1.1% of our budget.\n\nThe vote is at a public meeting, and you'll have three minutes to speak before it. Expect questions.\n\nThanks,\nLinda"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m3"
+      ],
+      "prompt": "Прочитай M3. Сформулируй одним предложением вопрос, который решает совет: что выбирают и что при этом нужно взвесить.",
+      "context": "late fine — штраф за просрочку; revenue — доход; board of trustees — совет попечителей.",
+      "guidance": {
+        "title": "Вопрос, на который отвечают «да» или «нет»",
+        "body": "Тема — «штрафы в библиотеке». Вопрос решения — выбор плюс то, что надо взвесить: Should…, given…? Под такой вопрос можно подобрать сведения.",
+        "example": "Should the high school start classes at 8:30 instead of 7:45, given the cost of new bus routes?",
+        "translation": "Стоит ли старшей школе начинать уроки в 8:30 вместо 7:45, учитывая стоимость новых автобусных маршрутов?"
+      },
+      "hint": "Начни так: Should the Millbrook Public Library…, given that…?",
+      "answers": [
+        "Should the Millbrook Public Library stop charging late fines, given that it would lose about $41,000 a year and some trustees worry about lost books?",
+        "Should Millbrook's library go fine-free, given the $41,000 in lost revenue and the concern that fewer books will come back?",
+        "Should the library stop charging late fines, given that fines bring in about 1.1% of the budget and two trustees worry about books not being returned?"
+      ],
+      "explanation": "Засчитывается вопрос с выбором (stop charging late fines) и тем, что нужно взвесить: деньги, возврат книг или ответственность. «Library fines in Millbrook» — это тема, а не вопрос."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Прочитай M1 и M2. Сделай заметки по каждому источнику в три строки: Claim — вывод, Basis — на что он опирается, Limit — чего источник не показывает.",
+      "context": "cardholder — читатель с библиотечной картой; overdue — просроченный; replacement cost — стоимость замены книги.",
+      "guidance": {
+        "title": "Вспоминаем: вывод, опора, граница",
+        "body": "Вспоминаем урок о критическом чтении: у каждого источника есть вывод, опора и граница. Опора бывает разной силы — сравнение, опрос, личная история, мнение. Границу некоторые авторы называют сами; у других её ищешь ты.",
+        "example": "Claim: most riders want later buses. Basis: a survey of 300 riders. Limit: only weekday riders were asked.",
+        "translation": "Вывод: большинство пассажиров хотят, чтобы автобусы ходили позже. Опора: опрос 300 пассажиров. Граница: спрашивали только тех, кто ездит в будни."
+      },
+      "hint": "Для M2 спроси: на что опирается фраза Fines are the reason most books come home — на цифры или на воспоминание?",
+      "answers": [
+        "M1 (Riverton report)\nClaim: After Riverton went fine-free, more people borrowed and far fewer cards were blocked, while on-time returns fell slightly.\nBasis: Riverton's records for one year with fines and one year without.\nLimit: One town and one year; a new branch opened in 2025; it doesn't say who the new cardholders are.\n\nM2 (Donnelly's column)\nClaim: Fines teach responsibility and are the reason most books come back, so Millbrook should keep them for adults.\nBasis: His childhood memory and one Riverton figure, the drop in on-time returns.\nLimit: It's an opinion, and it leaves out that 97% of items still came back within 90 days."
+      ],
+      "explanation": "Засчитывается, если у M1 опора — записи двух лет, а граница — один город, один год и новый филиал; у M2 опора — воспоминание и одна цифра, а граница — он не упоминает возврат за 90 дней. Формулировки могут быть короче, если три строки различимы."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Доннелли пишет: That proves fine-free doesn't work. Объясни в 2–3 предложениях, что для него значит works и почему по сведениям M1 ответ зависит от мерила.",
+      "context": "on time — вовремя; eventually — в итоге, рано или поздно.",
+      "guidance": {
+        "title": "Вспоминаем: одно слово — разные вещи",
+        "body": "Вспоминаем урок о синтезе: прежде чем сравнивать, проверь, что значит главное слово у каждого. Спорное слово здесь — works: работает по какому мерилу? Тот же вопрос задай к слову returned.",
+        "example": "For the mayor, the new parking rule \"works\" because it raises money; for store owners, it works only if customers can still park.",
+        "translation": "Для мэра новое правило парковки «работает», потому что приносит деньги; для владельцев магазинов — только если покупатели всё ещё могут припарковаться."
+      },
+      "hint": "В M1 две строки про возврат книг. Чем они отличаются и какую взял Доннелли?",
+      "answers": [
+        "For Donnelly, \"works\" means that books come back on time, and on that measure the share fell from 65% to 62%. But 97% of items still came back within 90 days, both before and after, so books were returned, just a little later. If \"works\" means that more people use the library, the rise in active cardholders points the other way.",
+        "Donnelly measures success by on-time returns, which did fall slightly, from 65% to 62%. By eventual returns, nothing changed: 97% in both years. So whether fine-free \"works\" depends on what you count as success, on-time returns or how many people borrow."
+      ],
+      "explanation": "Засчитывается, если сказано, что Доннелли судит по возврату вовремя (65% → 62%), а по возврату за 90 дней изменений нет (97% и 97%). Хорошо, если названо и третье мерило — число читателей. Proves в его фразе слишком сильно при любом мериле."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m3"
+      ],
+      "prompt": "Коллега предлагает начать записку так: «Riverton proves that going fine-free brings people back to the library, and it costs nothing.» Перепиши в два предложения по M1 и M3.",
+      "context": "branch — филиал.",
+      "guidance": {
+        "title": "Вспоминаем: сила вывода — по силе сведений",
+        "body": "Вспоминаем урок об оговорках: факт говори прямо, причину — с оговоркой, если есть другое объяснение. Проверь и вторую половину: «ничего не стоит» — тоже утверждение, и у него есть цифра.",
+        "example": "Ridership rose after the fare cut. The cut may be part of the reason, but a new line opened the same month.",
+        "translation": "После снижения цены билета пассажиров стало больше. Возможно, отчасти из-за цены, но в тот же месяц открылась новая линия."
+      },
+      "hint": "Что ещё случилось в Ривертоне в 2025 году? И сколько в год потеряет Миллбрук?",
+      "answers": [
+        "Active cardholders in Riverton rose from 9,400 to 10,300 after it went fine-free, but a new branch opened the same year, so the end of fines may explain only part of the rise. For Millbrook, it would not be free: we would lose about $41,000 a year, about 1.1% of our budget.",
+        "After Riverton dropped fines, the number of active cardholders grew by about 900, although a new branch that year may account for some of that growth. Going fine-free would cost Millbrook about $41,000 a year in lost revenue, or 1.1% of the budget."
+      ],
+      "explanation": "Засчитывается, если рост дан числом и прямо, причина ослаблена (may explain part of, may account for) с упоминанием филиала, а вместо «ничего не стоит» названа цена $41,000. Brings people back тоже неточно: M1 не знает, вернулись ли прежние читатели."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m3"
+      ],
+      "prompt": "Напиши рекомендацию совету в 2–3 предложениях: что ты предлагаешь, сколько это стоит и при каком условии, когда проверим результат и что будет, если он плохой.",
+      "context": "trial — проба на время; review — пересмотреть, проверить.",
+      "guidance": {
+        "title": "Вспоминаем: рекомендация, цена, проверка",
+        "body": "Вспоминаем урок о предложении: рекомендация — в первой фразе, рядом её цена. Потом — когда проверим и что сделаем, если результат плохой. Provided that — «при условии, что».",
+        "example": "I recommend keeping the pool open until 9 p.m. for one summer, at a cost of about $6,000. We will review attendance in August; if fewer than 40 people come after 7 p.m., we will return to the old hours.",
+        "translation": "Я предлагаю одно лето держать бассейн открытым до 9 вечера; это стоит около $6 000. В августе проверим посещаемость; если после 7 вечера будет приходить меньше 40 человек, вернёмся к прежним часам."
+      },
+      "hint": "Начни так: I recommend a one-year fine-free trial… provided that… We will review…",
+      "answers": [
+        "I recommend that Millbrook stop charging late fines for a one-year trial, while keeping replacement bills for items more than 45 days overdue. This would cost about $41,000 in lost revenue, provided that the board can cover it in next year's budget. We will review on-time returns, eventual returns and active cardholders after twelve months; if eventual returns fall below 95%, we will bring the question back to the board.",
+        "I recommend a one-year fine-free trial, at a cost of about $41,000, provided that we keep billing for items more than 45 days overdue. After a year, we will compare returns and the number of active cardholders with this year's figures, and if many more books go missing, the board can bring fines back."
+      ],
+      "explanation": "Засчитывается, если рекомендация стоит первой, названы цена ($41,000) и условие, срок проверки и правило пересмотра. Порог (95%) можно выбрать другой — важно, что он проверяемый."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "На заседании попечитель говорит словами из M2: «Fines teach responsibility. And Riverton's on-time returns fell — that proves it doesn't work.» Ответь в 3–4 предложениях: перескажи его довод в лучшей форме, признай верное и скажи, где не согласен.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: сначала сильная версия чужого довода",
+        "body": "Вспоминаем урок о дипломатичном несогласии: перескажи довод так, чтобы собеседник с ним согласился, признай, что в нём верно, и только потом скажи, где не согласен — по фактам, а не о человеке.",
+        "example": "If I understand you correctly, your concern is safety, not cost. You're right that the crossing is busy, and that's why I'd add a crossing guard rather than close the path.",
+        "translation": "Если я правильно понимаю, вас беспокоит безопасность, а не деньги. Вы правы, что на переходе оживлённо, и поэтому я бы поставил регулировщика, а не закрывал дорожку."
+      },
+      "hint": "Начни так: If I understand you correctly, your concern is… You're right that…",
+      "answers": [
+        "If I understand you correctly, your concern is that without fines, people will stop taking care to return books. You're right that on-time returns fell, from 65% to 62%. But 97% of items still came back within 90 days, the same as before, so books were returned, just a little later. That's why my plan keeps replacement bills after 45 days and checks returns after a year.",
+        "If I understand you correctly, you're worried that dropping fines teaches people that deadlines don't matter. That's a fair concern, and on-time returns did fall slightly in Riverton. Still, the share of items that came back within 90 days didn't change at all. I'd rather test it for a year with clear numbers than decide on a principle alone."
+      ],
+      "explanation": "Засчитывается, если довод пересказан честно (без «вы просто хотите наказывать»), верное признано (on-time returns fell), несогласие опирается на цифру из M1 (97% за 90 дней), а не на оценку человека."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m3"
+      ],
+      "prompt": "Сосед в магазине спрашивает: «So are they getting rid of library fines or what?» Ответь ему в 2–3 коротких разговорных предложениях — те же факты, та же уверенность и тот же статус решения, что в твоей рекомендации.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: другой адресат — те же факты",
+        "body": "Вспоминаем урок о смене жанра: для соседа меняются слова и длина, но не факты, не степень уверенности и не то, что решено, а что нет. Предложение остаётся предложением.",
+        "example": "Nothing's final. They're talking about closing the park road to cars on Sundays, just as a test, and they'll vote next month.",
+        "translation": "Ничего ещё не решено. Обсуждают, чтобы по воскресеньям дорогу в парке закрыли для машин, просто на пробу; голосовать будут в следующем месяце."
+      },
+      "hint": "Решение уже принято? Что именно ты предлагаешь и насколько уверен в сведений из Ривертона?",
+      "answers": [
+        "Not yet. The board votes on June 9. I'm suggesting they try it for a year: no late fines, but you'd still get a bill if a book's more than 45 days late. In Riverton more people started borrowing, but they also opened a new branch, so we don't really know how much of that was the fines.",
+        "Nothing's decided yet; they vote in June. My idea is a one-year trial without late fines, though you'd still pay if you basically keep a book. It seemed to go OK in Riverton, but it's one town, so we'd check the numbers after a year."
+      ],
+      "explanation": "Засчитывается, если сказано, что решение ещё не принято, предложение названо пробой на год, а уверенность не выросла (we don't really know, it's one town). Сокращения и разговорные слова здесь уместны; «They're getting rid of fines» было бы неправдой."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "prompt": "Напиши записку для Линды Парк и совета (200–300 слов). Что должно быть: рекомендация в первом абзаце; что показывает M1 — 2–3 числа и его границы; что утверждает M2, что в нём верно и где сведения его не поддерживают; цена для Миллбрука; условие и когда проверить результат; чего пока не знает никто; голоса источников подписаны, твой вывод помечен как твой.",
+      "context": "",
+      "hint": "План: I recommend… → The Riverton report found…, although… → Ray Donnelly argues…; he is right that…, but… → The cost… → We will review… → What we don't know…",
+      "answers": [
+        "Subject: Recommendation on late fines\n\nDear Linda and members of the board,\n\nI recommend a one-year fine-free trial starting in September. We would keep replacement bills for items more than 45 days overdue and review the results next summer.\n\nThe Riverton report found that after the library stopped charging fines, active cardholders rose from 9,400 to 10,300 and blocked cards fell from 1,850 to 310. On-time returns dropped slightly, from 65% to 62%, but 97% of items still came back within 90 days, the same as before. These are records from one town over one year, and a new branch opened in 2025, so the end of fines may explain only part of the rise.\n\nIn his column, Ray Donnelly argues that fines teach responsibility and are the reason most books come back. He is right that on-time returns fell, and he also agrees that fines can scare off struggling families. However, the Riverton figures do not support the claim that fines are why books come back: eventual returns did not change.\n\nThe trial would cost about $41,000 a year in lost revenue, or 1.1% of our budget, provided that the board can cover it in next year's budget. Riverton also saved about ten staff hours a week on fine disputes.\n\nAfter twelve months, we would compare on-time returns, eventual returns and active cardholders with this year's figures. If eventual returns fell below 95%, I would ask the board to reconsider.\n\nWhat no one knows yet is who Riverton's new cardholders are. We should track whether people with blocked cards come back.\n\nBest regards,\nChris"
+      ],
+      "explanation": "Засчитывается, если рекомендация с условием стоит первой, цифры совпадают с M1 и M3, у отчёта названы границы (один город, один год, филиал), у колонки признано верное и показано, где сведения её не поддерживают, есть цена, проверка и неизвестное. Свой вывод должен звучать как твой (I recommend, I would ask), а не как вывод отчёта."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Публичное заседание, у тебя три минуты, не читая с листа. Сначала выступи (около 2 минут), потом ответь на два вопроса из зала. Первый — о сведений: «Riverton's numbers went up because of the new branch, not because of fines.» Второй — о ценностях: «Why should taxpayers pay for people who don't return their books?» Что должно быть: рекомендация в первой фразе; 2–3 числа, округлённые, но честные; граница сведений; в ответах — сначала верное в вопросе, потом твой ответ; если чего-то не знаешь — так и скажи и предложи, как проверить.",
+      "context": "taxpayer — налогоплательщик.",
+      "hint": "Начни так: Thank you. My recommendation is simple: let's try it for one year and measure it.",
+      "answers": [
+        "Thank you. My recommendation is simple: let's try going fine-free for one year, and measure what happens.\n\nHere's what we know from Riverton, twenty miles away. After they stopped charging fines, the number of active cardholders went up by about nine hundred. Blocked cards dropped from about eighteen hundred to about three hundred. On-time returns fell a little, from 65 to 62 percent. But almost every book still came back: 97 percent within 90 days, exactly as before.\n\nIt's one town and one year, so it isn't proof. But it's a reason to test it here. Our cost would be about forty-one thousand dollars a year, a little over one percent of the budget. Late books would still be billed after 45 days. And after a year, we'd bring the numbers back to this board.\n\nQuestion one: You're right that Riverton opened a new branch the same year, and that probably explains part of the increase. I can't tell you how much. That's exactly why I'm suggesting a trial with our own numbers rather than copying Riverton's results.\n\nQuestion two: That's a fair question, and nobody wants to reward people who keep books. Under this plan, they don't get off free. If a book is more than 45 days late, they get a bill for the full cost. What changes is that a family with a few late picture books doesn't get blocked over a small fine. And if returns drop, this board can bring fines back next year."
+      ],
+      "explanation": "Засчитывается, если рекомендация звучит в первой фразе, числа совпадают с M1 и M3 (округлять можно), граница сведений названа, в каждом ответе сначала признано верное, а затем дан ответ по фактам; «не знаю, насколько» сказано прямо. Оценивай по своей записи: слышно ли, где факт, где твой вывод и где условие."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Репортёр местной газеты прислала абзац о твоём выступлении и просит проверить его до публикации. Перепиши абзац точно (100–150 слов) и добавь для неё 1–2 фразы: что было не так.\n\n\"A library staff member told the board on Monday that dropping late fines will bring hundreds of new readers to Millbrook and cost the city nothing. 'Fines are the reason most books come back,' the staff member said, calling fines pointless.\"",
+      "context": "",
+      "hint": "Найди четыре проблемы: will bring (уверенность), cost nothing (цена), чья цитата, pointless (слово, которого ты не говорил). И что потерялось — условие и проверка?",
+      "answers": [
+        "A library staff member recommended on Monday that the Millbrook library stop charging late fines for a one-year trial. The recommendation relied on records from Riverton, where active cardholders rose by about 900 and blocked cards fell sharply after fines ended. The staff member noted that a new branch opened in Riverton the same year, so the change may explain only part of the rise. Going fine-free would cost Millbrook about $41,000 a year, or 1.1% of the library's budget. Items more than 45 days overdue would still be billed, and the results would come back to the board after a year.\n\nNote: The quote \"Fines are the reason most books come back\" is from Ray Donnelly's column, not from me, and I didn't call fines pointless. I also said \"may explain part of,\" not \"will bring.\""
+      ],
+      "explanation": "Засчитывается, если убраны will bring и cost nothing, цитата возвращена Доннелли, нет слова pointless, а в абзаце есть условие (пробный год), оговорка о филиале, цена и проверка. Записка репортёру — спокойная и по фактам: что сказано и что нет."
+    }
+  ]
+}

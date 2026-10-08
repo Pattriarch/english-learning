@@ -1,0 +1,338 @@
+{
+  "id": "path-past-perfect-continuous",
+  "title": "Ждали уже час: had been + -ing",
+  "subtitle": "Сколько шло до момента в прошлом → след → was или had been → расскажи сам",
+  "level": "B2",
+  "group": "Времена",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Рассказать, сколько что-то шло до момента в прошлом: «Когда автобус пришёл, мы ждали уже сорок минут». И объяснить, почему тогда было так: «Она устала, потому что весь день таскала коробки».",
+  "formula": "When the bus came, we had been waiting for forty minutes. → She was tired because she had been moving boxes all day.",
+  "keyRule": {
+    "rule": "Считаешь, сколько что-то шло до момента в прошлом, — had been + -ing.",
+    "example": "When the bus came, we had been waiting for an hour — когда пришёл автобус, мы ждали уже час.",
+    "check": "Know, like, own — без -ing: I had known him for years."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-past-perfect",
+    "path-present-perfect-continuous"
+  ],
+  "recycles": [
+    "path-past-continuous",
+    "path-present-perfect-continuous"
+  ],
+  "teaches": [
+    "had been + -ing — сколько шло до момента в прошлом: When the bus came, we had been waiting for forty minutes",
+    "had been одинаково для всех; I’d been; «не» — hadn’t been; вопрос Had you been…? / How long had you been…?",
+    "сам момент — past simple: when the bus came; без второго момента — просто past simple: We waited for an hour",
+    "след в прошлом: The street was wet. It had been raining. She was tired because she had been moving boxes",
+    "was + -ing (что шло в тот момент) ↔ had been + -ing (сколько это шло к тому моменту)",
+    "had been writing (занятие) ↔ had written ten pages (готовый результат)",
+    "состояния без -ing: I had known her for years, had been married; live и work — обе формы"
+  ],
+  "sources": [
+    {
+      "title": "Инглекс · Past Perfect Continuous Tense",
+      "url": "https://englex.ru/past-perfect-continuous-tense/",
+      "notes": "Объяснение для русскоговорящих: длительность до момента в прошлом, причина или видимый след, перевод прошедшим временем несовершенного вида, отличие от past continuous и past perfect, состояния (know, like) без continuous."
+    },
+    {
+      "title": "Perfect English Grammar · Past Perfect Continuous: use",
+      "url": "https://www.perfect-english-grammar.com/past-perfect-continuous-use.html",
+      "notes": "Сверены два употребления: длительность с for до другого события в прошлом и только что закончившееся занятие с видимым следом (muddy because it had been raining); со состояниями — past perfect simple."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Один звонок — три вопроса",
+    "why": "Момент рассказа — «она позвонила». Was + -ing говорит, что шло в эту минуту. Had been + -ing — сколько это уже шло. Had + третья форма — что уже было готово.",
+    "items": [
+      {
+        "label": "Что шло",
+        "en": "When she called, I was baking.",
+        "ru": "Когда она позвонила, я пёк пирог.",
+        "note": "Кадр: в момент звонка дело шло."
+      },
+      {
+        "label": "Сколько уже шло",
+        "en": "When she called, I had been baking for two hours.",
+        "ru": "Когда она позвонила, я пёк уже два часа.",
+        "note": "Длину считаем до звонка."
+      },
+      {
+        "label": "Что уже готово",
+        "en": "When she called, I had baked two pies.",
+        "ru": "Когда она позвонила, я уже испёк два пирога.",
+        "note": "Результат к моменту звонка, без -ing."
+      }
+    ],
+    "focus": [
+      "was baking",
+      "had been baking",
+      "had baked"
+    ],
+    "footnote": "Сначала найди момент рассказа. Потом спроси: что шло, сколько шло или что уже готово?"
+  },
+  "sections": [
+    {
+      "title": "«Ждали уже час» — когда всё это в прошлом",
+      "body": "Ты рассказываешь другу про прошлую пятницу: «Когда автобус наконец пришёл, мы ждали уже сорок минут». Ожидание шло до прихода автобуса.\n\nПро сейчас ты уже умеешь: I’ve been waiting for forty minutes — жду уже сорок минут. Здесь та же мысль, но длину считаем не до сейчас, а до момента в прошлом. Поэтому have меняется на had: When the bus finally came, we had been waiting for forty minutes. Эту форму называют past perfect continuous.\n\nПо-русски — обычное прошедшее время и слово «уже»: «ждали уже». Had — помощник, как в had left, а не «имел».\n\nФорме нужен второй момент в прошлом — «автобус пришёл». Без него хватает past simple: We waited for forty minutes, and then we took a taxi."
+    },
+    {
+      "title": "Как собрать: had been + -ing",
+      "body": "Had been одинаково для всех: I had been, she had been, they had been. В речи — I’d been, she’d been. Потом глагол с -ing: had been working.\n\n«Не» — hadn’t been + -ing: I hadn’t been sleeping well — я тогда плохо спал. Вопрос начинается с had: Had you been waiting long? — Ты долго ждал? How long had you been living there? — Сколько ты там к тому времени прожил?\n\nСам момент рассказа — past simple: when the bus came, а не when the bus had come. For и since работают как раньше: for an hour — сколько, since 6 a.m. — с какого времени. Частые ошибки: had been wait (нет -ing) и had being (нужно been)."
+    },
+    {
+      "title": "След: почему тогда было так",
+      "body": "Иногда занятие уже закончилось, но в тот момент был виден его след. Ты вышел из дома, а улица мокрая: It had been raining — шёл дождь. Подруга пришла с красными глазами: She had been crying — она плакала.\n\nЭто знакомое It’s been raining, только перенесённое в прошлое. Форма объясняет, почему тогда было так: She was tired because she had been moving boxes all day — она устала, потому что весь день таскала коробки.\n\nIt rained yesterday — просто факт: вчера был дождь. Он ничего не объясняет про другой момент."
+    },
+    {
+      "title": "Was waiting или had been waiting?",
+      "body": "Обе формы — про занятие в прошлом, но отвечают на разные вопросы. Was + -ing показывает, что шло в тот момент: When she called, I was cooking — когда она позвонила, я готовил. Had been + -ing показывает, сколько это уже шло к тому моменту: When she called, I had been cooking for two hours — я готовил уже два часа.\n\nЕсли ты называешь длину до момента — for two hours, since noon, — нужен had been. Если длина не важна и ты просто рисуешь картинку, хватает was + -ing."
+    },
+    {
+      "title": "Had been writing или had written?",
+      "body": "Как и в настоящем времени, -ing говорит о занятии, а третья форма — о результате. She had been writing the report all morning — она всё утро писала отчёт; готов ли он, неизвестно. She had written ten pages — десять страниц уже были готовы. Если считаешь готовые вещи, -ing не ставят.\n\nKnow, like, want, have, own (владеть) — состояния, а не занятия. С ними -ing нет и здесь: I had known Mia for years — я знал Мию уже много лет. I had been knowing — ошибка. В had been married been значит «быть», поэтому тоже без -ing. Live и work подходят в обеих формах."
+    }
+  ],
+  "examples": [
+    {
+      "en": "When the bus finally came, we had been waiting for forty minutes.",
+      "ru": "Когда автобус наконец пришёл, мы ждали уже сорок минут.",
+      "why": "Приход автобуса — момент рассказа; ожидание шло до него."
+    },
+    {
+      "en": "The street was wet. It had been raining.",
+      "ru": "Улица была мокрой: шёл дождь.",
+      "why": "Мокрая улица — след, дождь шёл до этого момента."
+    },
+    {
+      "en": "She was tired because she had been moving boxes all day.",
+      "ru": "Она устала, потому что весь день таскала коробки.",
+      "why": "Had been объясняет, почему она устала."
+    },
+    {
+      "en": "When she called, I was cooking.",
+      "ru": "Когда она позвонила, я готовил.",
+      "why": "Без длины: просто что шло в момент звонка."
+    },
+    {
+      "en": "He had been working there for ten years when the company closed.",
+      "ru": "Когда компания закрылась, он проработал там уже десять лет.",
+      "why": "Длину работы считаем до закрытия компании."
+    },
+    {
+      "en": "I had known Mia for years before we started working together.",
+      "ru": "Я знал Мию много лет, прежде чем мы начали работать вместе.",
+      "why": "Know — состояние, поэтому had known без -ing."
+    },
+    {
+      "en": "We waited for forty minutes, and then we took a taxi.",
+      "ru": "Мы прождали сорок минут, а потом взяли такси.",
+      "why": "Второго момента нет — события по порядку, хватает past simple."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь коллеге, как сходил к врачу. Скажи: «Когда врач наконец меня позвал, я ждал уже час».",
+      "context": "call somebody in — позвать (в кабинет).",
+      "guidance": {
+        "title": "Сколько шло до момента в прошлом",
+        "body": "Момент рассказа — в past simple. Сколько что-то шло до него — had been + -ing и for с длиной.",
+        "example": "When the train finally left, we had been sitting in it for twenty minutes.",
+        "translation": "Когда поезд наконец тронулся, мы сидели в нём уже двадцать минут."
+      },
+      "hint": "Начни так: When the doctor finally called me in, I … — и не забудь for.",
+      "answers": [
+        "When the doctor finally called me in, I had been waiting for an hour.",
+        "When the doctor finally called me in, I'd been waiting for an hour.",
+        "When the doctor finally called me in, I had already been waiting for an hour.",
+        "When the doctor called me in, I had been waiting for an hour.",
+        "When the doctor finally called me, I had been waiting for an hour.",
+        "I had been waiting for an hour when the doctor finally called me in.",
+        "I'd been waiting for an hour when the doctor finally called me in."
+      ],
+      "explanation": "Ожидание шло до момента «врач позвал», поэтому had been waiting. Сам момент — past simple: called. I’d been и порядок «I had been waiting… when…» тоже верны."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Знакомый рассказывает, что раньше работал в магазине, который потом закрылся. Спроси: «Сколько ты там уже проработал, когда магазин закрылся?»",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос: How long had you been…?",
+        "body": "Had встаёт перед человеком, been и глагол с -ing — после него. Часть с when остаётся в past simple.",
+        "example": "How long had she been living in Texas when she met him?",
+        "translation": "Сколько она уже жила в Техасе, когда познакомилась с ним?"
+      },
+      "hint": "Начни так: How long had you … — а после when поставь простое closed.",
+      "answers": [
+        "How long had you been working there when the store closed?",
+        "How long had you been working there when it closed?",
+        "How long had you been working at the store when it closed?",
+        "How long had you worked there when the store closed?",
+        "How long had you worked at the store when it closed?"
+      ],
+      "explanation": "Had перед you, дальше been working; closed — момент в прошлом. С work можно и had worked — смысл почти тот же."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вчера ты зашёл к соседу, а он открыл дверь весь в краске. Расскажи другу: «Сосед был весь в краске. Он красил кухню».",
+      "context": "covered in paint — весь в краске; paint — красить.",
+      "guidance": {
+        "title": "След в прошлом: почему было так",
+        "body": "Занятие могло уже закончиться, но в тот момент был виден его след. Первая фраза — что ты увидел (past simple), вторая — had been + -ing.",
+        "example": "Her hands were dirty. She had been working in the yard.",
+        "translation": "У неё были грязные руки: она работала во дворе."
+      },
+      "hint": "Вторая фраза начинается так: He had been …",
+      "answers": [
+        "My neighbor was covered in paint. He had been painting his kitchen.",
+        "My neighbor was covered in paint. He'd been painting his kitchen.",
+        "My neighbor was covered in paint. He had been painting the kitchen.",
+        "My neighbor was covered in paint. He'd been painting the kitchen.",
+        "My neighbor was covered in paint because he had been painting his kitchen.",
+        "My neighbor was covered in paint because he had been painting the kitchen."
+      ],
+      "explanation": "Краска — след, который ты увидел; покраска шла до этого момента: had been painting. Обе фразы можно соединить через because."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, почему ты вчера не ответил на звонок. Ответь двумя фразами: «Когда ты позвонил, я бегал на дорожке. Я бегал уже сорок минут и не слышал телефон».",
+      "context": "treadmill — беговая дорожка; run on the treadmill — бегать на дорожке.",
+      "guidance": {
+        "title": "Вспоминаем was + -ing: что шло — и сколько уже шло",
+        "body": "Was + -ing — что ты делал в момент звонка. Had been + -ing — сколько это шло к тому моменту.",
+        "example": "When the power went out, I was watching a movie. I had been watching it for an hour.",
+        "translation": "Когда отключили свет, я смотрел фильм. Я смотрел его уже час."
+      },
+      "hint": "В какой фразе есть длина — сорок минут? Только туда ставь had been.",
+      "answers": [
+        "When you called, I was running on the treadmill. I had been running for forty minutes, and I didn't hear my phone.",
+        "When you called, I was running on the treadmill. I'd been running for forty minutes, and I didn't hear my phone.",
+        "When you called, I was running on the treadmill. I had been running for forty minutes and didn't hear my phone.",
+        "When you called, I was running on the treadmill. I'd been running for forty minutes and didn't hear my phone.",
+        "When you called, I was running on the treadmill. I had been running for forty minutes, and I didn't hear the phone.",
+        "When you called, I was running on the treadmill. I had been running for forty minutes and didn't hear the phone.",
+        "When you called, I was on the treadmill. I had been running for forty minutes, and I didn't hear my phone."
+      ],
+      "explanation": "Первая фраза — кадр: was running в момент звонка. Во второй есть длина до этого момента, поэтому had been running. Didn’t hear — обычный факт в past simple."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь, как Лиза готовилась к празднику. Скажи: «Когда пришли гости, Лиза готовила уже пять часов. Она приготовила шесть блюд».",
+      "context": "dish — блюдо; make → made → made.",
+      "guidance": {
+        "title": "Занятие или результат: had been cooking — had made",
+        "body": "Сколько шло — had been + -ing. Сколько штук готово — had + третья форма, без -ing.",
+        "example": "By noon, I had been cleaning for three hours. I had cleaned four rooms.",
+        "translation": "К полудню я убирался уже три часа. Я убрал четыре комнаты."
+      },
+      "hint": "Где в задании время, а где число готовых вещей?",
+      "answers": [
+        "When the guests arrived, Lisa had been cooking for five hours. She had made six dishes.",
+        "When the guests arrived, Lisa had been cooking for five hours. She'd made six dishes.",
+        "When the guests arrived, Lisa had been cooking for five hours. She had cooked six dishes.",
+        "When the guests came, Lisa had been cooking for five hours. She had made six dishes.",
+        "When the guests arrived, Lisa had been cooking for five hours, and she had made six dishes.",
+        "When the guests arrived, Lisa had been cooking for five hours and had made six dishes."
+      ],
+      "explanation": "Пять часов — длина занятия, поэтому had been cooking. Шесть блюд — готовый результат, поэтому had made. Had been making six dishes — ошибка: число готовых вещей с -ing не говорят."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Подруга пишет пост о том, как познакомилась с мужем, и просит проверить: “When I met Tom, he had been living in Denver since five years. I had been knowing him for only a month when he invited me to Thanksgiving.” В тексте две ошибки. Исправь и напиши текст целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Ищем ошибку: состояния и for / since",
+        "body": "Know, like, own не берут -ing даже здесь. Длина — for, точка начала — since.",
+        "example": "I had owned that car for ten years when it finally broke down.",
+        "translation": "У меня была эта машина уже десять лет, когда она окончательно сломалась."
+      },
+      "hint": "Проверь два места: что стоит перед five years и какой глагол здесь — состояние?",
+      "answers": [
+        "When I met Tom, he had been living in Denver for five years. I had known him for only a month when he invited me to Thanksgiving.",
+        "When I met Tom, he had been living in Denver for five years. I had only known him for a month when he invited me to Thanksgiving.",
+        "When I met Tom, he'd been living in Denver for five years. I'd known him for only a month when he invited me to Thanksgiving.",
+        "When I met Tom, he had lived in Denver for five years. I had known him for only a month when he invited me to Thanksgiving.",
+        "When I met Tom, he had been living in Denver for five years. I had known him for just a month when he invited me to Thanksgiving."
+      ],
+      "explanation": "Five years — длина, поэтому for. Know — состояние: had known, а не had been knowing. Had lived тоже верно: у live подходят обе формы."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем have been + -ing. Год назад, перед поездкой в Мексику, ты писал другу: “I've been learning Spanish for a year, and I've been taking lessons since March.” Теперь расскажи об этом как о прошлом. Начни так: “When I went to Mexico last year, …”",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем have been + -ing: от «сейчас» к «тогда»",
+        "body": "I’ve been learning — длина до этой минуты. Если считаешь до момента в прошлом, have меняется на had, остальное остаётся.",
+        "example": "She’s been working here since 2020. → When I met her, she had been working there since 2020.",
+        "translation": "Она работает здесь с 2020 года. → Когда я с ней познакомился, она работала там с 2020 года."
+      },
+      "hint": "Проверь оба места с ’ve: в каждом должно стать had. Since March — тоже до поездки.",
+      "answers": [
+        "When I went to Mexico last year, I had been learning Spanish for a year, and I had been taking lessons since March.",
+        "When I went to Mexico last year, I'd been learning Spanish for a year, and I'd been taking lessons since March.",
+        "When I went to Mexico last year, I had been learning Spanish for a year and had been taking lessons since March.",
+        "When I went to Mexico last year, I had been learning Spanish for a year, and I'd been taking lessons since March.",
+        "When I went to Mexico last year, I had been studying Spanish for a year, and I had been taking lessons since March.",
+        "When I went to Mexico last year, I had been learning Spanish for a year, and I had been taking classes since March."
+      ],
+      "explanation": "Обе длины теперь считаем до поездки, а она в прошлом: had been learning и had been taking. Went — сам момент рассказа, past simple."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Американская коллега Дана спрашивает в письме: “Why did you decide to change jobs last year?” Ответь ей (100–180 слов). В письме: сколько ты проработал на прежнем месте к моменту ухода (had been + -ing); одна причина-след — как ты себя чувствовал и почему (because I had been…); один результат с had + третья форма (что ты успел сделать к тому времени); одно состояние без -ing (had known, had always wanted); как дела сейчас.",
+      "context": "quit — уволиться; commute — ездить на работу; save money — копить деньги.",
+      "hint": "План: When I quit, I had been working at… for… → I was exhausted because I had been… → By then, I had… → I had always wanted… → Now I…",
+      "answers": [
+        "Hi Dana,\n\nGood question! When I quit last year, I had been working at the same bank for six years. I liked my team, but I was exhausted all the time because I had been commuting two hours a day and working late almost every night. My manager had been promising me a new role since 2023, but nothing changed. By then, I had saved enough money to live for a few months without a job, so I decided to take the risk. I had always wanted to work with kids, so I took a course and found a job at a school near my apartment. Now I walk to work in ten minutes, and I finally have time for my family. It was the right decision!\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если есть длительность до ухода с had been + -ing, причина-след с because… had been, результат с had + третья форма, одно состояние без -ing и рассказ о том, как сейчас. Работа и причины могут быть любыми."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "В разговорном клубе тема — «День, когда всё пошло не так». Расскажи вслух о таком дне, 1–2 минуты. Скажи: что вы делали и сколько это уже шло к главному моменту (had been + -ing); сам момент (past simple); что происходило в ту секунду (was + -ing); один след — что ты увидел или почувствовал и почему (had been…); чем всё кончилось.",
+      "context": "go wrong — пойти не так; flat tire — спущенное колесо; pull over — остановиться у обочины.",
+      "hint": "Начни так: It happened last … We had been … for … when …",
+      "answers": [
+        "It happened last summer. My friend and I were driving to a wedding in Michigan. We had been driving for about four hours when we heard a loud noise. It was a flat tire. At that moment, my friend was talking to her mom on the phone, and she just screamed and dropped it! We pulled over and looked at the tire. We had been driving on a really bad road for the last hour, so I wasn't surprised. Neither of us had ever changed a tire, so we watched a video on my phone. It took us forty minutes. When we finally got to the wedding, the ceremony had already started, and we were covered in dirt. Everybody laughed when they saw us. Now it's one of my favorite stories."
+      ],
+      "explanation": "Засчитывается, если есть длительность до момента с had been + -ing, сам момент в past simple, процесс в ту секунду с was + -ing, след с объяснением и итог. Проверь себя по записи: had been стоит только там, где ты считаешь время до момента."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Соседка хочет написать в общий чат дома о протечке и просит проверить времена. В тексте три ошибки. Исправь и напиши текст целиком: “On Friday, I came home at 7 p.m. and found water all over the kitchen floor. It was dripping from the ceiling for hours. The bathtub upstairs had been overflow since the afternoon. My neighbor felt terrible: he had been owning the apartment for only a month. By the time the plumber arrived, we had been cleaning up for two hours.”",
+      "context": "drip — капать; ceiling — потолок; overflow — переливаться через край; plumber — сантехник.",
+      "hint": "Про каждый глагол спроси: это сам момент, длина до момента или состояние?",
+      "answers": [
+        "On Friday, I came home at 7 p.m. and found water all over the kitchen floor. It had been dripping from the ceiling for hours. The bathtub upstairs had been overflowing since the afternoon. My neighbor felt terrible: he had owned the apartment for only a month. By the time the plumber arrived, we had been cleaning up for two hours.",
+        "On Friday, I came home at 7 p.m. and found water all over the kitchen floor. It had been dripping from the ceiling for hours. The bathtub upstairs had been overflowing since the afternoon. My neighbor felt terrible: he had only owned the apartment for a month. By the time the plumber arrived, we had been cleaning up for two hours.",
+        "On Friday, I came home at 7 p.m. and found water all over the kitchen floor. It'd been dripping from the ceiling for hours. The bathtub upstairs had been overflowing since the afternoon. My neighbor felt terrible: he'd owned the apartment for only a month. By the time the plumber arrived, we'd been cleaning up for two hours."
+      ],
+      "explanation": "Засчитывается, если исправлены три места: had been dripping — длина до твоего прихода; had been overflowing — после been нужен -ing; had owned — own состояние. Последняя фраза с by the time верна, её не трогай."
+    }
+  ]
+}

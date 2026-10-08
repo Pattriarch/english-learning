@@ -1,0 +1,390 @@
+{
+  "id": "path-quantifiers-basic",
+  "title": "A few, a little, both, every: сколько и какие из них",
+  "subtitle": "Немного → мало → оба и ни один из двух → каждый и все",
+  "level": "A2",
+  "group": "Существительные и определители",
+  "units": "Авторский маршрут · A2",
+  "minutes": 30,
+  "goal": "Сказать «у меня есть немного времени» и «у нас мало молока», а о двух вещах — «обе открыты», «любая подойдёт», «ни одна не дешёвая». И ещё — «в каждой комнате есть окно».",
+  "formula": "a few eggs, a little milk → very little milk → Both cafes are open. → Neither cafe is open. → Every room has a window.",
+  "keyRule": {
+    "rule": "С a — «немного, и этого хватает». Без a — «мало, почти нет».",
+    "example": "I have a little time — у меня есть немного времени. I have very little time — у меня очень мало времени.",
+    "check": "Можно сказать «две …»? Да — a few. Нет — a little."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 2,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-comparatives"
+  ],
+  "recycles": [
+    "path-me-too",
+    "path-comparatives"
+  ],
+  "teaches": [
+    "a few + слово с -s, a little + то, что не считают, — «немного, и этого хватает»: a few eggs, a little milk",
+    "few и little без a — «мало, почти нет»; в речи чаще very few / very little или not many / not much",
+    "a little перед описанием — «немного, чуть-чуть»: I'm a little tired",
+    "both — «оба, обе» о двух; слово с -s, глагол без -s: Both cafes are open; both my sisters; both of them",
+    "either + одна вещь — «любой из двух»: Either day works for me; после not — not … either",
+    "neither + одна вещь — «ни один из двух», глагол как для одного, без not: Neither hotel is cheap",
+    "every + одна вещь, глагол с -s: Every room has a TV; each — каждый по отдельности, и о двух: in each hand",
+    "all + слово с -s, глагол без -s: All the rooms have a TV",
+    "слова: question, sugar, hotel, hand, shower, bottle, empty"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Quantifiers: few, a few, little, a little",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/quantifiers-few-a-few-little-a-bit",
+      "notes": "Сверено: a few / a little — «немного, и этого хватает»; few / very little — «мало, не хватает»; little без very звучит книжно."
+    },
+    {
+      "title": "British Council LearnEnglish · Quantifiers (grammar reference)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/quantifiers",
+      "notes": "Сверено: both, either, neither — о двух; both с глаголом как для нескольких, either и neither — как для одного; every и each — с одной вещью; all — с вещами во множественном числе и с тем, что не считают."
+    },
+    {
+      "title": "Инглекс · Few, a few, little, a little",
+      "url": "https://englex.ru/few-a-few-little-a-little/",
+      "notes": "Объяснение для русскоговорящих: «немного» и «мало» как разница между a few и few; a little перед описанием (a little tired); little «маленький» и little «мало» — разные значения."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Немного или мало? Обе или ни одна?",
+    "why": "Маленькое a меняет «немного» на «мало». Both и neither говорят только о двух вещах.",
+    "items": [
+      {
+        "label": "Немного, но есть",
+        "en": "We have a few eggs and a little milk.",
+        "ru": "У нас есть несколько яиц и немного молока.",
+        "note": "Яйца считают — a few. Молоко не считают — a little."
+      },
+      {
+        "label": "Мало, почти нет",
+        "en": "We have very little milk.",
+        "ru": "У нас очень мало молока.",
+        "note": "Без a смысл другой: молока не хватает."
+      },
+      {
+        "label": "Обе из двух",
+        "en": "Both cafes are open.",
+        "ru": "Обе кофейни открыты.",
+        "note": "Both — две вещи сразу, глагол are."
+      },
+      {
+        "label": "Ни одна из двух",
+        "en": "Neither cafe is open.",
+        "ru": "Ни одна кофейня не открыта.",
+        "note": "Neither — без not, cafe без -s, глагол is."
+      }
+    ],
+    "footnote": "Every + одна вещь (every room has), all + вещи с -s (all the rooms have). Смысл один — «все», а форма разная.",
+    "focus": [
+      "a few",
+      "a little",
+      "very little",
+      "Both",
+      "Neither"
+    ]
+  },
+  "sections": [
+    {
+      "title": "«Немного» — a few и a little",
+      "body": "Друг собирает обед и спрашивает: Do we have any eggs? — «У нас есть яйца?» Ты заглядываешь в холодильник: там три штуки. Ты отвечаешь: Yes, we have a few eggs — да, есть несколько яиц.\n\nA few ставят перед тем, что считают по штукам, — перед словом с -s: a few eggs, a few friends, a few minutes. A little — перед тем, что не считают (как воду и рис из урока о счёте): a little milk, a little money, a little time.\n\nОба значат «немного, но есть» — и этого хватает. A few milk и a little eggs — ошибки. Проверь себя: можно сказать «два …»? Да — a few. Нет — a little."
+    },
+    {
+      "title": "«Мало» — few и little без a",
+      "body": "Убери a — и смысл меняется: «мало, почти нет, не хватает». Few people came — пришло мало людей. We have little time — у нас мало времени.\n\nВ разговоре американцы редко говорят few и little без других слов: так звучит книжно. Обычно говорят very few, very little или not many, not much: We don't have much time — у нас мало времени.\n\nA little перед описанием значит «немного, чуть-чуть»: I'm a little tired — я немного устал."
+    },
+    {
+      "title": "Оба — both",
+      "body": "Both — «оба, обе» — говорит о двух вещах или людях сразу. Слово после both — с -s, глагол — как для нескольких, без -s: Both cafes are open — обе кофейни открыты. Both my brothers live in Texas — оба моих брата живут в Техасе. Both стоит перед my и the: both my sisters. My both sisters — ошибка. Без вещи говорят both of them — «они оба»."
+    },
+    {
+      "title": "Любой из двух и ни один — either и neither",
+      "body": "Either + одна вещь — «любой из двух»: Saturday or Sunday? — Either day works for me — мне подходит любой день. Neither + одна вещь — «ни один из двух»: Neither hotel is cheap — ни один из двух отелей не дешёвый. Глагол — как для одного: is. Not не нужен: «не» уже внутри neither, как в Me neither. После not «ни тот, ни другой» — это either: I don't like either hotel."
+    },
+    {
+      "title": "Каждый и все — every, each, all",
+      "body": "Every + одна вещь — «каждый»: every room, every bus. Глагол — как для одного, с -s: Every room has a TV — в каждой комнате есть телевизор. Each — тоже «каждый», но по одному. Его берут и о двух вещах: I have a bag in each hand — у меня по сумке в каждой руке. Every hand так не говорят. All — «все» — ставят перед словом с -s, глагол без -s: All the rooms have a TV. Every rooms — ошибка."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Can I ask a few questions?",
+      "ru": "Можно задать несколько вопросов?",
+      "why": "Вопросы считают по штукам, поэтому a few и questions с -s."
+    },
+    {
+      "en": "Can I have a little sugar, please?",
+      "ru": "Можно мне немного сахара?",
+      "why": "Сахар не считают по штукам — a little. sugar — сахар."
+    },
+    {
+      "en": "Very few people came to the meeting.",
+      "ru": "На встречу пришло очень мало людей.",
+      "why": "Без a — «мало». Very делает фразу разговорной. meeting — встреча."
+    },
+    {
+      "en": "Both my parents are teachers.",
+      "ru": "Оба моих родителя — учителя.",
+      "why": "Both перед my, глагол are — как для нескольких. parents — родители."
+    },
+    {
+      "en": "Neither bus goes downtown.",
+      "ru": "Ни один из двух автобусов не идёт в центр.",
+      "why": "Neither + bus без -s, goes — как для одного. Not не нужен. downtown — в центр."
+    },
+    {
+      "en": "Every room has a window.",
+      "ru": "В каждой комнате есть окно.",
+      "why": "После every одна вещь, а у глагола -s: has."
+    },
+    {
+      "en": "All the banks are closed on Sunday.",
+      "ru": "В воскресенье все банки закрыты.",
+      "why": "All + banks с -s, are — как для нескольких."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты на собеседовании. Интервьюер закончил рассказывать о работе. Скажи: «У меня есть несколько вопросов». question — вопрос.",
+      "context": "",
+      "guidance": {
+        "title": "Несколько штук — a few",
+        "body": "A few — «несколько, немного» — ставь перед тем, что считают по штукам. Слово после a few всегда с -s.",
+        "example": "We have a few eggs.",
+        "translation": "У нас есть несколько яиц."
+      },
+      "hint": "Вопросы можно посчитать? Значит, a few + questions.",
+      "answers": [
+        "I have a few questions.",
+        "I have a few questions for you."
+      ],
+      "explanation": "Вопросы считают по штукам, поэтому a few. A little questions — ошибка."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Кофе слишком крепкий. Попроси официанта: «Можно мне немного молока?» milk — молоко.",
+      "context": "",
+      "guidance": {
+        "title": "Немного того, что не считают, — a little",
+        "body": "Молоко, воду, время и деньги не считают по штукам. «Немного» перед ними — это a little. Слово после него без -s.",
+        "example": "I have a little money.",
+        "translation": "У меня есть немного денег."
+      },
+      "hint": "Начни так: Can I have … Молоко можно посчитать по штукам?",
+      "answers": [
+        "Can I have a little milk, please?",
+        "Can I have a little milk?",
+        "Could I have a little milk, please?",
+        "Can I get a little milk, please?",
+        "Can I have some milk, please?"
+      ],
+      "explanation": "Молоко не считают, поэтому a little. Some milk тоже подходит: «немного молока». A few milk — ошибка."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг предлагает зайти в музей. Но ваш поезд через двадцать минут. Скажи: «У нас очень мало времени».",
+      "context": "",
+      "guidance": {
+        "title": "Мало, не хватает — без a",
+        "body": "Убери a — и «немного» станет «мало, почти нет». В разговоре добавь very: very little, very few. Ещё проще — not much или not many.",
+        "example": "There are very few people here.",
+        "translation": "Здесь очень мало людей."
+      },
+      "hint": "Время не считают по штукам. Начни так: We have very …",
+      "answers": [
+        "We have very little time.",
+        "We don't have much time.",
+        "We have little time.",
+        "We don't have a lot of time."
+      ],
+      "explanation": "Very little — «очень мало», времени не хватает. We don't have much time — то же самое, так говорят чаще всего. A little time значило бы «есть немного»."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь о семье. У тебя две сестры, и обе живут в Чикаго. Скажи: «Обе мои сестры живут в Чикаго».",
+      "context": "",
+      "guidance": {
+        "title": "Обе из двух — both",
+        "body": "Both — «оба, обе» — ставь перед my или the. Слово после него с -s, а глагол — как для нескольких, без -s.",
+        "example": "Both my brothers are doctors.",
+        "translation": "Оба моих брата — врачи."
+      },
+      "hint": "Начни так: Both my … Нужно ли -s у live?",
+      "answers": [
+        "Both my sisters live in Chicago.",
+        "Both of my sisters live in Chicago.",
+        "My sisters both live in Chicago."
+      ],
+      "explanation": "Both my sisters — две сестры сразу, поэтому live без -s. Both of my sisters тоже верно. My both sisters — ошибка."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга пишет: Lunch on Saturday or Sunday? Тебе всё равно. Ответь: «Мне подходит любой из двух дней».",
+      "context": "",
+      "guidance": {
+        "title": "Любой из двух — either",
+        "body": "Either + одна вещь — «любой из двух, какой хочешь». Слово после either — без -s. «Мне подходит» — готовая фраза works for me.",
+        "example": "You can take either bus.",
+        "translation": "Можешь сесть на любой из двух автобусов."
+      },
+      "hint": "Начни так: Either day … Какая форма у work, если день один?",
+      "answers": [
+        "Either day works for me.",
+        "Either day is fine.",
+        "Either day is fine with me.",
+        "Either works for me.",
+        "Either is fine."
+      ],
+      "explanation": "Either day — один любой день из двух, поэтому works с -s. Either works for me тоже верно: слово day понятно из вопроса."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты выбираешь отель в Майами: один стоит $250 за ночь, другой — $310. Скажи другу: «Ни один из двух отелей не дешёвый». hotel — отель, cheap — дешёвый.",
+      "context": "",
+      "guidance": {
+        "title": "Ни один из двух — neither, без not",
+        "body": "Neither + одна вещь — «ни один из двух». Глагол — как для одного: is. Not не ставь: «не» уже внутри neither.",
+        "example": "Neither restaurant is open on Monday.",
+        "translation": "Ни один из двух ресторанов не работает в понедельник."
+      },
+      "hint": "Начни так: Neither hotel … Нужен ли здесь isn't?",
+      "answers": [
+        "Neither hotel is cheap.",
+        "Neither of the hotels is cheap.",
+        "Neither of them is cheap.",
+        "Neither of the hotels are cheap.",
+        "Neither of them are cheap."
+      ],
+      "explanation": "Neither hotel is cheap: hotel без -s, is — как для одного. Neither hotel isn't cheap — ошибка: два «не». После neither of them в разговоре звучит и are — это тоже верно."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отзыв о хостеле. Скажи: «В каждой комнате есть душ». shower — душ.",
+      "context": "",
+      "guidance": {
+        "title": "Каждый — every + одна вещь",
+        "body": "Every — «каждый». После него одна вещь без -s, а глагол — как для одного, с -s.",
+        "example": "Every bus stops here.",
+        "translation": "Здесь останавливается каждый автобус."
+      },
+      "hint": "Начни так: Every room … Какая форма have нужна для одной комнаты?",
+      "answers": [
+        "Every room has a shower.",
+        "Each room has a shower.",
+        "Every room has its own shower."
+      ],
+      "explanation": "Every room — одна комната, поэтому has. Each room has a shower тоже верно."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты несёшь из магазина две тяжёлые сумки. Сосед предлагает открыть тебе дверь. Скажи: «Спасибо! У меня по сумке в каждой руке». hand — рука (кисть).",
+      "context": "",
+      "guidance": {
+        "title": "Каждый из двух — each",
+        "body": "Each тоже значит «каждый», но смотрит на вещи по одной. Если вещей всего две, подходит только each: every говорят о трёх и больше.",
+        "example": "There's a lamp on each side of the bed.",
+        "translation": "С каждой стороны кровати стоит лампа."
+      },
+      "hint": "Рук у тебя две. Начни так: Thanks! I have a bag in …",
+      "answers": [
+        "Thanks! I have a bag in each hand.",
+        "Thank you! I have a bag in each hand."
+      ],
+      "explanation": "Рук две, поэтому each hand. Every hand звучит странно: every говорят о трёх вещах и больше."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В объявлении о квартире ошибка: Every rooms have a big window. Исправь фразу двумя способами: одну с every, другую с all.",
+      "context": "",
+      "guidance": {
+        "title": "Every — одна вещь, all — много",
+        "body": "Every и all значат «все», но форма у них разная. После every вещь одна, и глагол как для одного. После all — вещи с -s, и глагол как для нескольких.",
+        "example": "Every bus is new. All the buses are new.",
+        "translation": "Каждый автобус новый. Все автобусы новые."
+      },
+      "hint": "Две фразы: Every room … . All the rooms …",
+      "answers": [
+        "Every room has a big window. All the rooms have a big window.",
+        "Every room has a big window. All the rooms have big windows.",
+        "Every room has a big window. All rooms have big windows.",
+        "Every room has a big window. All rooms have a big window."
+      ],
+      "explanation": "После every одна вещь — room, has. После all — rooms, have. All rooms без the тоже верно."
+    },
+    {
+      "id": "e10",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «я тоже» и too. В магазине подруга смотрит на две куртки и говорит: I don't like either jacket — мне не нравится ни одна. Ответь: «Мне тоже. Обе слишком дорогие». expensive — дорогой.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: Me neither и too",
+        "body": "Вспоминаем: на фразу с not отвечаем Me neither. Too перед описанием — «слишком». Both без вещи после него — «обе».",
+        "example": "I don't want either pizza. — Me neither. Both are too spicy.",
+        "translation": "Я не хочу ни ту, ни другую пиццу. — Я тоже. Обе слишком острые."
+      },
+      "hint": "Первая фраза — ответ на don't. Вторая: Both are …",
+      "answers": [
+        "Me neither. Both are too expensive.",
+        "Me neither. They're both too expensive.",
+        "Neither do I. Both are too expensive.",
+        "I don't either. Both are too expensive.",
+        "Neither do I. They're both too expensive.",
+        "Me neither. Both of them are too expensive."
+      ],
+      "explanation": "У подруги есть don't, поэтому Me neither или Neither do I. Both — обе куртки сразу, глагол are. Too expensive — дороже, чем ты готов заплатить."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Сосед по квартире (roommate) спрашивает в чате: What do we need from the store? Посмотри, что есть дома, и ответь 3–4 фразами: чего есть немного, чего очень мало и что купить.",
+      "context": "Дома: 3 яйца, немного риса, почти нет молока, хлеба нет совсем, обе бутылки воды пустые. rice — рис, bread — хлеб, bottle — бутылка, empty — пустой, buy — купить.",
+      "hint": "Опоры: We have a few … and a little … . We have very little … . Both … are empty.",
+      "answers": [
+        "We have a few eggs and a little rice. We have very little milk, and we don't have any bread. Both water bottles are empty. Can you buy milk, bread, and water?",
+        "We have a little rice and a few eggs, so we're OK. But there's very little milk. Both bottles of water are empty. Please buy milk, bread, and some water."
+      ],
+      "explanation": "Засчитывается, если a few стоит перед штуками (eggs), a little — перед тем, что не считают (rice), «мало» сказано через very little или not much, а both стоит с глаголом без -s."
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух о двух кафе, магазинах или парках рядом с твоим домом: что верно для обоих, что не верно ни для одного и что ты делаешь там каждую неделю. 3–5 фраз.",
+      "context": "near my home — рядом с домом, open late — работает допоздна, quiet — тихий, every week — каждую неделю.",
+      "hint": "Опоры: There are two … near my home. Both … . Neither … . I go there every …",
+      "answers": [
+        "There are two cafes near my home. Both are small and quiet. Neither cafe is open late. I go to the first one every Saturday.",
+        "There are two parks near my home. Both parks are beautiful. Neither park is very big. I walk my dog there every day, and I often meet a few friends there."
+      ],
+      "explanation": "Засчитывается любой честный рассказ, где есть both с глаголом без -s, neither без not и every с одной вещью."
+    }
+  ]
+}

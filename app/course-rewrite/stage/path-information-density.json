@@ -1,0 +1,329 @@
+{
+  "id": "path-information-density",
+  "title": "Staff training budget: плотная фраза для своих, развёрнутая — для новичка",
+  "subtitle": "Главное слово — последнее → a three-year plan → сжать: пояснение и короткая часть → тема письма → развернуть без новых фактов → дефис убирает второе чтение → две версии одного сообщения",
+  "level": "C2",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Читать и строить плотные фразы вроде customer complaint procedures и разворачивать их для нового человека: «правила разбора жалоб клиентов» — по одной мысли во фразе и без придуманных подробностей.",
+  "formula": "customer complaint procedures = procedures for handling complaints from customers · a three-year plan · small-business loans",
+  "keyRule": {
+    "rule": "В цепочке существительных главное — последнее слово. Разворачивай её справа налево.",
+    "example": "staff training budget — бюджет (на что?) на обучение (кого?) сотрудников.",
+    "check": "Цепочку можно понять двумя способами? Разверни её предлогами for, of, on."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-nominalisation",
+    "path-participle-clauses",
+    "path-relative-advanced"
+  ],
+  "recycles": [
+    "path-participle-clauses",
+    "path-relative-advanced"
+  ],
+  "teaches": [
+    "плотность — сколько сведений в одной фразе; плотно — для тех, кто знает контекст, развёрнуто — для новичка",
+    "цепочка существительных (noun string): главное — последнее слово, остальные отвечают «какой? для чего? чего?»: staff training budget",
+    "развернуть справа налево предлогами for, of, on, from или через 's: procedures for handling complaints from customers",
+    "первое слово цепочки — без -s: a three-year plan, a ten-minute break, a customer complaint; исключения: a sales team, a sports car, a savings account",
+    "больше трёх существительных подряд — сигнал развернуть",
+    "сжать для своих: существительное перед существительным (the safety report), короткая часть после слова (patients treated in May), пояснение через запятую (Dr. Ruiz, the clinic's director)",
+    "тема письма и заголовок — без the и is: New-hire training moved to June 3",
+    "развернуть для новичка: одна мысль во фразе, термин объяснён один раз, исполнитель и причина — только если они известны",
+    "двусмысленная цепочка: student support staff training; дефис связывает слова: small-business loans, a well-known author (но The author is well known)"
+  ],
+  "sources": [
+    {
+      "title": "PlainLanguage.gov (архив) · Don't use noun strings",
+      "url": "https://webarchive.library.unt.edu/web/20170118202111mp_/http:/www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/writeNoNounStrings.cfm",
+      "notes": "Сверено: федеральное руководство США по ясному языку — после трёх существительных подряд фраза читается трудно, читатель принимает первые слова за главное; правка — убрать лишние описания или вернуть предлоги и артикли (Draft regulations to protect the rights of laboratory animals)."
+    },
+    {
+      "title": "AJE · Editing Tip: Avoiding Noun String Overuse",
+      "url": "https://www.aje.com/arc/editing-tip-avoiding-noun-string-overuse/",
+      "notes": "Сверено: цепочки держать в пределах трёх-четырёх существительных в зависимости от того, насколько фраза знакома читателю; специалист прочтёт, другие — нет; правка — предлоги, артикли или 's; пример двусмысленной цепочки, где неясно, что именно выделяется."
+    },
+    {
+      "title": "Purdue OWL · Hyphen Use",
+      "url": "https://owl.purdue.edu/owl/general_writing/punctuation/hyphen_use.html",
+      "notes": "Сверено: дефис соединяет слова, которые вместе описывают существительное и стоят перед ним (a one-way street, well-known author); после существительного дефис не ставят (The author was well known)."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна мысль — две упаковки и одна ошибка",
+    "why": "Плотная и развёрнутая версии несут одни и те же факты. Ошибка — добавить при развёртывании то, чего не было.",
+    "items": [
+      {
+        "label": "Для команды",
+        "en": "Q3 customer data migration timeline update",
+        "ru": "Обновлённый график переноса сведений клиентов, третий квартал",
+        "note": "Своим хватает шести слов."
+      },
+      {
+        "label": "Для новичка",
+        "en": "We've updated the schedule for moving customer data. The move will happen in the third quarter, July through September.",
+        "ru": "Мы обновили график переноса сведений клиентов. Перенос пройдёт в третьем квартале, с июля по сентябрь.",
+        "note": "По одной мысли во фразе, квартал объяснён."
+      },
+      {
+        "label": "Лишнее",
+        "en": "The IT team will move all customer data to the cloud in July.",
+        "ru": "IT-отдел перенесёт все сведения клиентов в облако в июле.",
+        "note": "IT team и cloud в исходной фразе не было, а Q3 — это не только июль."
+      }
+    ],
+    "focus": [
+      "customer data migration timeline",
+      "moving customer data",
+      "The IT team"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Одна мысль — две упаковки",
+      "body": "Руководитель пишет команде тему письма: Q3 customer data migration timeline update. Команде всё ясно. Новая сотрудница знает каждое слово, но не понимает фразу. Для неё то же самое звучит так: «Мы обновили график переноса сведений клиентов. Перенос пройдёт в третьем квартале, с июля по сентябрь».\n\nПлотность — это сколько сведений упаковано в одну фразу. Плотно пишут для тех, кто знает контекст: коллегам, в теме письма, в заголовке, в таблице. Развёрнуто — для тех, кто не знает: новичку, клиенту, соседу. Ни одна упаковка не «правильнее» другой: её выбирают по читателю.\n\nВ уроке о номинализации ты превращал действие в существительное: refuse → refusal. Здесь следующий шаг: несколько существительных подряд — цепочка — и то, как её собрать и разобрать без потери смысла."
+    },
+    {
+      "title": "Как читать цепочку: начни с последнего слова",
+      "body": "В цепочке существительных главное — последнее слово. Слова перед ним работают как прилагательные и отвечают на вопросы «какой? для чего? чего?». Staff training budget: главное — budget (бюджет). Какой бюджет? На обучение — training. Обучение кого? Сотрудников — staff. По-русски порядок обратный: «бюджет на обучение сотрудников».\n\nРазворачивай справа налево и ставь предлоги: customer complaint procedures → procedures for handling complaints from customers. Иногда помогает 's: the company's safety rules.\n\nПервое слово цепочки почти всегда без -s, даже если смысл «много»: a three-year plan (план на три года), a ten-minute break, a customer complaint. A three-years plan — ошибка. Исключения запоминают целиком: a sales team, a sports car, a savings account.\n\nДва-три существительных подряд — норма. Больше трёх трудно даже носителю: он принимает первое слово за главное и сбивается."
+    },
+    {
+      "title": "Как сжать для своих",
+      "body": "Для коллег, в заголовке и в теме письма длинное сжимают. Три приёма.\n\nСуществительное вперёд вместо предлога: the report on safety → the safety report; a plan for three years → a three-year plan.\n\nКороткая часть после существительного вместо who или that — ты знаешь её из урока об оборотах: the patients who were treated in May → patients treated in May.\n\nПояснение через запятую вместо отдельной фразы: Dr. Ana Ruiz. She is the clinic's director. → Dr. Ana Ruiz, the clinic's director, said…\n\nТема письма и заголовок — самая плотная форма: без the и is, только суть: New-hire training moved to June 3 — «Обучение новых сотрудников перенесли на 3 июня».\n\nГраница: не больше трёх существительных перед главным. Если связь между словами неочевидна, оставь предлог."
+    },
+    {
+      "title": "Как развернуть для новичка и ничего не придумать",
+      "body": "Порядок такой: найди главное слово; верни связи предлогами или глаголом; дай одну новую мысль на фразу; термин объясни один раз, когда он впервые появился.\n\nГлавная ловушка — добавить то, чего в цепочке нет. Post-launch incident review — «разбор происшествия после запуска». Кто разбирал, фраза не говорит. Если написать After the launch, the support team reviewed the incident, ты придумал support team. Неизвестного исполнителя оставь неизвестным: The incident was reviewed after the launch. Или спроси автора.\n\nНе теряй и ограничения: «предварительный», «до 30 дней», «только по будням». При развёртывании их легко выбросить, а читатель решает по ним, что делать."
+    },
+    {
+      "title": "Когда цепочку можно понять двумя способами",
+      "body": "Student support staff training. Чтение 1: обучение для сотрудников, которые помогают студентам, — training for student support staff. Чтение 2: обучение сотрудников тому, как помогать студентам, — training for staff on how to support students. Слова те же, а кто пойдёт на курс — разные люди.\n\nДва способа убрать второе чтение. Предлоги: разверни цепочку так, как задумано. Дефис: свяжи слова, которые идут вместе. Small-business loans — кредиты для малого бизнеса; small business loans можно прочитать и как «небольшие бизнес-кредиты». Дефис ставят, только когда описание стоит перед существительным: a well-known author, но The author is well known.\n\nЕсли не знаешь, какое чтение имел в виду автор, не выбирай наугад: спроси или напиши оба."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The staff training budget was cut by 10 percent.",
+      "ru": "Бюджет на обучение сотрудников урезали на 10 процентов.",
+      "why": "Главное слово — budget, последнее в цепочке."
+    },
+    {
+      "en": "We approved a three-year plan.",
+      "ru": "Мы утвердили трёхлетний план.",
+      "why": "Первое слово цепочки без -s: three-year, а не three-years."
+    },
+    {
+      "en": "Dr. Ana Ruiz, the clinic's director, said patients treated in May recovered faster.",
+      "ru": "Доктор Ана Руис, директор клиники, сказала, что пациенты, которых лечили в мае, выздоровели быстрее.",
+      "why": "Две фразы сжаты в одну: пояснение через запятую и короткая часть после patients."
+    },
+    {
+      "en": "New-hire training moved to June 3",
+      "ru": "Обучение новых сотрудников перенесли на 3 июня",
+      "why": "Тема письма: без the и is, только суть."
+    },
+    {
+      "en": "The incident was reviewed after the launch.",
+      "ru": "Происшествие разобрали после запуска.",
+      "why": "Развёрнуто, но без придуманного исполнителя."
+    },
+    {
+      "en": "The city expanded its small-business loan program.",
+      "ru": "Город расширил программу кредитов для малого бизнеса.",
+      "why": "Дефис показывает: small относится к business, а не к loan."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Письмо отдела кадров о медицинской страховке",
+      "kind": "reading",
+      "text": "Subject: 2027 Plan Year Health Benefits Changes\n\nOpen enrollment period: November 2–20.\n\nKey changes:\n• Annual deductible increase: $1,500 to $2,000 (individual coverage).\n• In-network preventive care visits: still covered at 100%, no deductible.\n• Urgent care center copay reduction: $75 to $50.\n• Out-of-network emergency room visit coverage: unchanged.\n• New mental health telehealth benefit: up to 12 covered sessions per plan year.\n\nNo action required for current plan continuation. Dependent coverage changes require enrollment portal submission by November 20.\n\nQuestions: Benefits Help Line, (312) 555-0148, Mon.–Fri., 8 a.m.–6 p.m.",
+      "source": "Учебное письмо для этого урока."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Новая коллега спрашивает, что значит строка из плана отдела: customer complaint handling procedures. Разверни цепочку в обычное словосочетание с предлогами, начиная с главного слова. handle — разбирать, обрабатывать.",
+      "context": "",
+      "guidance": {
+        "title": "Главное — последнее слово",
+        "body": "Найди последнее слово цепочки — это главное. Потом иди налево и задавай вопросы: для чего? чего? от кого? Ответы соединяй предлогами.",
+        "example": "employee travel expense rules → rules for employees' travel expenses",
+        "translation": "правила оплаты командировочных расходов сотрудников"
+      },
+      "hint": "Начни так: procedures for…",
+      "answers": [
+        "procedures for handling complaints from customers",
+        "procedures for handling customer complaints",
+        "the procedures for handling complaints from customers",
+        "the procedures for handling customer complaints",
+        "procedures for handling customers' complaints",
+        "procedures for dealing with complaints from customers",
+        "procedures for dealing with customer complaints"
+      ],
+      "explanation": "Главное — procedures. Handling — что делают, complaints — с чем, customers — от кого. Procedures for handling customer complaints тоже верно: две цепочки по два слова читаются легко."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь коллегам итог собрания: «Мы утвердили трёхлетний план обучения сотрудников и десятиминутный перерыв каждые два часа». approve — утвердить, break — перерыв.",
+      "context": "",
+      "guidance": {
+        "title": "Первое слово цепочки — без -s",
+        "body": "Число со словом перед другим существительным пишется без -s и через дефис: a two-week course, a five-dollar fee. Если после числа нет второго существительного, -s на месте: two weeks.",
+        "example": "She signed up for a two-week course with a five-dollar fee.",
+        "translation": "Она записалась на двухнедельный курс со взносом пять долларов."
+      },
+      "hint": "Где в твоей фразе число стоит перед другим существительным, а где — нет?",
+      "answers": [
+        "We approved a three-year staff training plan and a ten-minute break every two hours.",
+        "We've approved a three-year staff training plan and a ten-minute break every two hours.",
+        "We have approved a three-year staff training plan and a ten-minute break every two hours.",
+        "We approved a three-year training plan for staff and a ten-minute break every two hours.",
+        "We approved a three-year plan for staff training and a ten-minute break every two hours.",
+        "We approved a three-year employee training plan and a ten-minute break every two hours."
+      ],
+      "explanation": "Three-year и ten-minute стоят перед plan и break — без -s, с дефисом. Every two hours — после числа нет второго существительного, -s нужно. A three-years plan — ошибка."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сожми две фразы для рассылки клиники в одну: Dr. Ana Ruiz is the clinic's director. She said that the patients who were treated in May recovered faster.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: пояснение через запятую и короткая часть",
+        "body": "Вспоминаем уроки о who и which и об оборотах с третьей формой. Фразу о том, кто человек, сожми в пояснение через запятые. Who were treated превращается в короткую часть после слова: patients treated in May.",
+        "example": "Tom Lee, our new chef, says dishes cooked on the grill sell best.",
+        "translation": "Том Ли, наш новый шеф-повар, говорит, что блюда, приготовленные на гриле, продаются лучше всего."
+      },
+      "hint": "Начни так: Dr. Ana Ruiz, the clinic's director, …",
+      "answers": [
+        "Dr. Ana Ruiz, the clinic's director, said that patients treated in May recovered faster.",
+        "Dr. Ana Ruiz, the clinic's director, said patients treated in May recovered faster.",
+        "Dr. Ana Ruiz, the clinic's director, said that the patients treated in May recovered faster.",
+        "Dr. Ana Ruiz, the clinic's director, said the patients treated in May recovered faster.",
+        "The clinic's director, Dr. Ana Ruiz, said that patients treated in May recovered faster.",
+        "The clinic's director, Dr. Ana Ruiz, said patients treated in May recovered faster."
+      ],
+      "explanation": "The clinic's director — пояснение, запятые с двух сторон. Patients treated in May = patients who were treated in May. That после said можно оставить или убрать."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сожми сообщение в тему письма (subject line) для всей компании, 5–8 слов: We have decided to move the date when new employees start their training. The new date is June 3.",
+      "context": "new hire — новый сотрудник (американское).",
+      "guidance": {
+        "title": "Тема письма — самая плотная форма",
+        "body": "В теме письма и в заголовке убирают the, a и is. Остаётся главное: что, что с ним случилось, когда. Цепочка из двух-трёх слов здесь к месту.",
+        "example": "Parking lot closed Friday for repairs",
+        "translation": "Парковка закрыта в пятницу на ремонт"
+      },
+      "hint": "Что перенесли? Обучение новых сотрудников. На какое число?",
+      "answers": [
+        "New-hire training moved to June 3",
+        "New hire training moved to June 3",
+        "New employee training moved to June 3",
+        "New-hire training start date moved to June 3",
+        "New-hire training now starts June 3",
+        "New employee training now starts June 3",
+        "New-hire training rescheduled for June 3",
+        "New employee training rescheduled to June 3"
+      ],
+      "explanation": "New-hire training — цепочка из двух частей, moved — короткая форма вместо has been moved. Засчитывается любой вариант, где есть обучение новых сотрудников и June 3, без the и is."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Новый сотрудник прочитал в отчёте строку: Post-launch incident review findings: two reporting gaps. Разверни её для него в 2–3 короткие фразы. Кто проводил разбор, в строке не сказано — не придумывай. reporting gap — пробел в отчётности: сведения не дошли до тех, кому они нужны.",
+      "context": "",
+      "guidance": {
+        "title": "Развернуть, ничего не добавив",
+        "body": "Найди главное слово (findings — что нашли), верни связи и дай одну мысль на фразу. Если цепочка не говорит, кто действовал, используй пассив или подлежащее вроде the review.",
+        "example": "Q2 safety inspection results: three minor issues. → A safety inspection was done in the second quarter. It found three minor issues.",
+        "translation": "Во втором квартале провели проверку безопасности. Она нашла три небольшие проблемы."
+      },
+      "hint": "Начни так: After the launch, the incident was reviewed.",
+      "answers": [
+        "After the launch, the incident was reviewed. The review found two gaps in reporting.",
+        "After the launch, the incident was reviewed. The review found two reporting gaps.",
+        "The incident was reviewed after the launch. The review found two gaps in reporting.",
+        "After the launch, there was a review of the incident. It found two gaps in reporting.",
+        "After the launch, the incident was reviewed. The review found two places where information didn't reach the people who needed it."
+      ],
+      "explanation": "Главное — findings: что нашли. Кто разбирал, неизвестно, поэтому was reviewed или the review. After the launch, the support team reviewed… — уже выдумка, даже если звучит правдоподобно."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Заголовок городской новости можно понять двумя способами: City Expands Small Business Loan Program. Имелись в виду кредиты для малого бизнеса. Перепиши заголовок двумя способами, чтобы второго чтения («небольшие бизнес-кредиты») не было: сначала с дефисом, потом с предлогом. Напиши оба варианта подряд.",
+      "context": "В американских заголовках важные слова часто пишут с большой буквы.",
+      "guidance": {
+        "title": "Дефис связывает слова",
+        "body": "Дефис перед существительным показывает, какие слова идут вместе: a part-time job, a long-term plan. Второй способ — развернуть цепочку предлогом: loans for small businesses.",
+        "example": "Low-Income Housing Fund Grows · Fund for Low-Income Housing Grows",
+        "translation": "Фонд жилья для людей с низким доходом растёт"
+      },
+      "hint": "К чему относится small: к business или к loan?",
+      "answers": [
+        "City Expands Small-Business Loan Program. City Expands Loan Program for Small Businesses.",
+        "City Expands Small-Business Loan Program / City Expands Loan Program for Small Businesses",
+        "City expands small-business loan program. City expands loan program for small businesses.",
+        "City Expands Small-Business Loan Program. City Expands Program of Loans for Small Businesses.",
+        "City Expands Small-Business Loan Program. City Expands Loan Program for Small Business."
+      ],
+      "explanation": "Small-business — дефис связывает small с business: кредиты для малого бизнеса. Loan Program for Small Businesses — то же через предлог. Small Business Loan Program без дефиса оставляет два чтения."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твоя команда переносит запуск нового сайта клиники. Напиши две версии одного сообщения, всего 200–300 слов. Версия 1 — для команды проекта (60–100 слов): тема письма в плотной форме; 2–3 цепочки существительных, не длиннее трёх слов перед главным; одно пояснение через запятую. Версия 2 — для новой сотрудницы регистратуры Марии (140–200 слов): те же факты, одна мысль во фразе, каждый термин объяснён один раз, ничего не добавлено. Факты: запуск сайта перенесли с May 4 на May 18; проверка доступности (accessibility review) нашла 14 проблем, 9 уже исправлены; онлайн-запись к врачу до запуска работает на старом сайте; руководитель проекта — Dana Price; обучение персонала новой системе записи — May 12, 2 p.m.",
+      "context": "accessibility — доступность: сайтом могут пользоваться люди с нарушениями зрения, слуха, движения; booking — запись.",
+      "hint": "Сначала выпиши факты столбиком. Обе версии должны содержать их все — и ни одного нового.",
+      "answers": [
+        "Version 1\n\nSubject: Clinic website launch moved to May 18\n\nTeam,\nThe website launch is moving from May 4 to May 18. The accessibility review found 14 issues; nine are already fixed. Online appointment booking stays on the current site until launch. Staff training on the new booking system is set for May 12 at 2 p.m. Please send questions to Dana Price, the project lead.\n\nVersion 2\n\nHi Maria,\n\nWelcome to the team! Here's a short update on our new website.\n\nWe planned to open the new clinic website on May 4. The new date is May 18.\n\nWhy the change? Before a website opens, it has to pass an accessibility review. This is a check that people with disabilities can use the site. For example, a person who can't see well should be able to have the pages read aloud. Our review found 14 problems. Nine of them are already fixed.\n\nUntil May 18, nothing changes for patients. They can still make appointments online on our current website.\n\nOn May 12 at 2 p.m., there will be a training session for staff. You'll learn the new booking system. That's the part of the site where patients choose a doctor and a time.\n\nIf you have questions, please ask Dana Price. She leads the website project.\n\nBest,\nSam"
+      ],
+      "explanation": "Засчитывается, если в обеих версиях одни и те же факты (две даты, 14 и 9 проблем, старый сайт для записи, обучение May 12, 2 p.m., Dana Price) и нет новых; в первой — плотная тема письма, короткие цепочки и пояснение через запятую; во второй — одна мысль на фразу и объяснённые accessibility review и booking system."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Твой партнёр недавно переехал в США, он на твоей страховке и просит объяснить письмо M1 простыми словами. Объясни вслух за 2–3 минуты, развернув каждую цепочку в обычные фразы. В ответе: когда можно менять страховку; что подорожает и что подешевеет, с суммами; что не изменилось; новая услуга и её предел; надо ли что-то делать, если менять ничего не хотите; что сделать и до какого числа, если хотите добавить или убрать члена семьи; куда звонить. Не добавляй того, чего в письме нет.",
+      "context": "deductible — сумма, которую за год платишь сам, прежде чем страховка начнёт платить; copay — фиксированная доплата за визит; in-network — у врачей, которые работают с твоей страховкой; preventive care — профилактика: осмотры, прививки; dependent — член семьи на твоей страховке; telehealth — приём по видео.",
+      "hint": "Начни так: So, this email is about changes to our health insurance next year.",
+      "answers": [
+        "So, this email is about changes to our health insurance for next year, 2027. First, there's a period when we're allowed to change our plan. It's called open enrollment, and it runs from November 2 to November 20.\n\nNow, the changes. The deductible is going up. The deductible is the amount we pay ourselves each year before the insurance starts paying. For one person, it was $1,500, and next year it'll be $2,000. So that part gets more expensive.\n\nSome things stay the same. Checkups and other preventive visits, with doctors who work with our insurance, are still free. We don't pay anything for them, even before we reach the deductible. And if we go to an emergency room outside our network, the coverage doesn't change.\n\nOne thing gets cheaper. If we go to an urgent care center, the fixed fee for each visit goes down from $75 to $50.\n\nThere's also something new. We can talk to a therapist or counselor by video, and the plan covers up to 12 sessions a year.\n\nIf we want to keep the plan as it is, we don't have to do anything. It just continues. But if we want to add or remove a family member on the plan, we have to do that online, in the enrollment portal, by November 20.\n\nAnd if we have questions, we can call the benefits help line at (312) 555-0148, Monday to Friday, from 8 a.m. to 6 p.m."
+      ],
+      "explanation": "Засчитывается, если переданы все факты M1 (2–20 ноября; $1,500 → $2,000; профилактика бесплатно; $75 → $50; экстренная помощь вне сети без изменений; до 12 сеансов по видео; без изменений — ничего не делать; члены семьи — через портал до 20 ноября; телефон и часы), цепочки развёрнуты в обычные фразы, а термины объяснены один раз и ничего не придумано.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега развернул для сайта больницы строку из внутреннего отчёта, но добавил причину, которой в отчёте нет, и потерял два ограничения. Строка из отчёта: Preliminary patient wait time reduction results: average ER wait down 18 minutes (March–April, weekdays only). Текст коллеги: Thanks to our new nurses, patients now wait 18 minutes less in the ER. Перепиши текст для сайта: понятно обычному читателю, без выдуманной причины, со всеми ограничениями. ER (emergency room) — отделение неотложной помощи.",
+      "context": "",
+      "hint": "Какие слова в строке отчёта ограничивают вывод? Их три: preliminary, March–April, weekdays only.",
+      "answers": [
+        "Early results show that patients are waiting less in our emergency room. In March and April, the average wait on weekdays was 18 minutes shorter. These results are preliminary, and they don't include weekends.",
+        "Our first results are encouraging: from March through April, the average weekday wait in our emergency room went down by 18 minutes. These are early results, and weekend waits were not included."
+      ],
+      "explanation": "Засчитывается, если убрана причина (new nurses), сохранены все три ограничения (предварительные результаты, март–апрель, только будни), 18 минут — это среднее, а ER объяснено словами emergency room."
+    }
+  ]
+}

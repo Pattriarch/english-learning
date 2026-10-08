@@ -1,0 +1,356 @@
+{
+  "id": "extended-c1-visual-data",
+  "title": "Как объяснить график: форма линии, доли и чего цифры не доказывают",
+  "subtitle": "Что посчитано и среди кого → как шла линия → почему число и доля расходятся → заметка без картинки и честный заголовок",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Объяснить два графика человеку, который их не видит: «Доля выросла с 30% до 40%, но в июне упала», «Ответов стало больше, а доля меньше — потому что ответивших стало 150, а не 100». И поправить громкий заголовок редактора так, чтобы его можно было напечатать.",
+  "formula": "The chart shows the share of … among … from … to … → Overall, it rose from … to …; it remained at …, peaked at … in …, before falling to … → Although the count rose from … to …, the share fell, because the total grew from … to … → The survey does not show that …",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "research-report-data",
+    "extended-b2-evidence",
+    "path-hedging"
+  ],
+  "recycles": [
+    "research-report-data",
+    "path-hedging",
+    "extended-b2-evidence"
+  ],
+  "teaches": [
+    "паспорт графика до цифр: что посчитано, среди кого, за какой период: The chart shows the share of … among … from … to …",
+    "ось и легенда: проценты ≠ люди; n=150 — сколько ответили; пара полосок — одна категория в два момента",
+    "форма линии: overall (с остановками) ≠ steadily (ровно, без остановок); remained at / was unchanged; leveled off",
+    "пик: peaked at 45% in April, reached a peak of 45%; пик — только в этом периоде; before falling to …",
+    "число и доля расходятся, когда меняется итог: Although car responses rose from 50 to 60, their share fell from 50% to 40%",
+    "после doubled — что удвоилось: the number of responses doubled, the share rose by 10 percentage points",
+    "объяснить без картинки: одна фраза об устройстве графика → главная картина → 2–4 цифры → граница",
+    "поправить заголовок: The headline goes further than the data… A headline the data support is …",
+    "слова: respondent, main mode, legend, axis, share, peak, plateau, ease (немного снизиться), separate samples"
+  ],
+  "sources": [
+    {
+      "title": "UNC Writing Center · Figures and Charts",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/figures-and-charts/",
+      "notes": "Сверено: текст рядом с графиком объясняет, что он показывает и зачем; называют переменные и оси, описывают общую картину (рост, спад) и выделяют главные значения, а не повторяют все; числа в тексте должны совпадать с подписями и шкалой. Отсюда порядок «паспорт → итог → 2–4 цифры»."
+    },
+    {
+      "title": "British Council LearnEnglish · Describing a bar chart",
+      "url": "https://learnenglish.britishcouncil.org/skills/writing/b1-writing/describing-a-bar-chart",
+      "notes": "Сверено: глаголы изменения (rise, increase, fall, drop, decline), итог через Overall, сравнение категорий, порядок «что показывает график → категории с цифрами → общий вывод». Британское написание per cent в уроке заменено американским percent."
+    }
+  ],
+  "keyRule": {
+    "rule": "Называй и число, и из скольких: число может расти, а доля — падать.",
+    "example": "Car responses rose from 50 to 60, but their share fell from 50% to 40%. — Ответов «на машине» стало больше, с 50 до 60, но их доля упала с 50% до 40%.",
+    "check": "Из скольких ответивших эта цифра — из 100 или из 150?"
+  },
+  "sections": [
+    {
+      "title": "Зачем объяснять график словами",
+      "body": "Рабочая группа компании Marlowe Design полгода спрашивала сотрудников, как они добираются до офиса. Нужно написать заметку для всех сотрудников, и часть читателей графики не увидит. А редактор уже предлагает заголовок: «Наша кампания удвоила долю тех, кто ходит пешком или ездит на велосипеде».\n\nЧасть инструментов ты знаешь. Из урока об отчёте: доля — share, разница двух процентов — percentage points. Из урока об оговорках: факт пишут прямо, вывод о причине — с границей.\n\nНовое здесь — четыре вещи. Первая: прежде чем говорить о росте, сказать, что вообще посчитано. Вторая: описать форму линии — где она росла, стояла, достигла пика и пошла вниз. Третья: объяснить, почему число ответов растёт, а доля падает. Четвёртая: пересказать всё это человеку без картинки и честно поправить заголовок.\n\nПо-русски мы делаем то же: «на графике — доля ответивших, а не все сотрудники», «в апреле и мае — пик, в июне — спад»."
+    },
+    {
+      "title": "Паспорт графика: что посчитано, среди кого и когда",
+      "body": "Название графика говорит только о теме. Точный смысл — в подписях осей, единице, легенде и примечании. Прежде чем описывать линию, скажи три вещи: что посчитано, среди кого и за какой период. The chart shows the share of parents who drove their kids to school, from September to December 2025 — «график показывает долю родителей, которые возили детей в школу на машине, с сентября по декабрь 2025».\n\nRespondents — «ответившие на опрос». Это не все сотрудники: among respondents и among employees — разные утверждения. Если на оси проценты, то 45 — это 45%, а не 45 человек.\n\nЛегенда (legend) — подписи, по которым понятно, какая линия или полоска что значит. N=150 значит «ответили 150 человек». В сгруппированной диаграмме сначала скажи, что сравнивает пара полосок: Each pair of bars compares 2024 and 2025 for the same store. Не опирайся на цвет: у читателя картинки может не быть."
+    },
+    {
+      "title": "Форма линии: итог, плато, пик и поворот",
+      "body": "Не перечисляй все точки. Сначала итог: Overall, the number of members rose from 80 to 110. Overall — «в целом»: по дороге могли быть остановки и спады. Steadily — «ровно, постоянно» — подходит, только если линия росла без остановок. Если хоть один месяц был без роста, steadily — ошибка.\n\nПлато — участок, где линия стоит: remained at 95, was unchanged, stayed the same. Leveled off — «рост прекратился, линия выровнялась».\n\nПик (peak) — самая высокая точка этого периода, а не рекорд навсегда. Peaked at 120 in August — «достигло пика 120 в августе»; reached a peak of 120. Поворот после пика: before falling to 110 in October, then fell to 110. Небольшой спад можно назвать eased — «немного снизилась».\n\nЧего не делать: dramatically только потому, что линия выглядит крутой. Сначала посмотри на числа и на шкалу."
+    },
+    {
+      "title": "Почему число растёт, а доля падает",
+      "body": "Доля — это число в категории, делённое на итог (сколько ответили всего). Если итог изменился, число и доля могут пойти в разные стороны. Осенью математику выбрали 40 из 100 студентов — 40%. Весной — 45 из 150, то есть 30%. Выбравших стало больше, а доля стала меньше. Противоречия нет: итог вырос быстрее.\n\nСкажи это одной фразой и сразу назови итоги: Although the number of math students rose from 40 to 45, their share fell from 40% to 30%, because the total grew from 100 to 150.\n\nОтсюда правило для doubled: назови, что удвоилось. The number of responses doubled — «удвоилось число ответов». Доля при этом могла вырасти, например, с 20% до 25% — на 5 процентных пунктов. Относительно стартовых 20% это рост на четверть, а не в два раза."
+    },
+    {
+      "title": "Как рассказать без картинки и поправить заголовок",
+      "body": "Читатель без графика сначала должен понять, как он устроен. Одна фраза: The first chart is a line chart, with months along the bottom and percentages up the side. Потом главная картина, 2–4 цифры и одна граница. Каждая цифра должна что-то подтверждать, а не просто стоять в списке.\n\nГраница здесь конкретная. Каждый месяц отвечали, возможно, разные люди (separate samples), поэтому график не показывает, кто именно пересел на велосипед. Письма о поездках начались в марте, но их охват не измеряли. «После» ещё не значит «благодаря».\n\nРедактору не пиши This is wrong. Скажи, что можно оставить, какое именно слово заголовка идёт дальше сведений и почему, и предложи свой вариант: The headline goes further than the data: … A headline the data support is: … Цель — заголовок, который можно напечатать, а не список возражений."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The chart shows the share of respondents who used the library, not the number of visits.",
+      "ru": "График показывает долю ответивших, которые пользовались библиотекой, а не число посещений.",
+      "why": "Сначала паспорт: доля и ответившие. Один человек мог прийти много раз, поэтому visits — другое."
+    },
+    {
+      "en": "Each pair of bars compares spring and fall for the same age group.",
+      "ru": "Каждая пара полосок сравнивает весну и осень для одной возрастной группы.",
+      "why": "Фраза объясняет устройство диаграммы без цвета: читатель знает, что с чем сравнивать."
+    },
+    {
+      "en": "Overall, the rate rose from 18% to 26%, remained at 26% for two months, and then eased to 24%.",
+      "ru": "В целом показатель вырос с 18% до 26%, два месяца держался на 26%, а потом немного снизился до 24%.",
+      "why": "Overall — итог, remained at — плато, eased — небольшой спад. Steadily здесь было бы ошибкой."
+    },
+    {
+      "en": "Visits peaked at 520 in July before falling to 430 in September.",
+      "ru": "Посещения достигли пика 520 в июле, а к сентябрю упали до 430.",
+      "why": "Peaked at + число + in + месяц; before falling to — поворот после пика."
+    },
+    {
+      "en": "Favorable answers rose from 24 of 40 to 30 of 60, while their share fell from 60% to 50%.",
+      "ru": "Положительных ответов стало больше — 24 из 40 и 30 из 60, — а их доля упала с 60% до 50%.",
+      "why": "Оба итога названы рядом, поэтому разное направление числа и доли понятно сразу."
+    },
+    {
+      "en": "The increase followed the schedule change, but these separate samples do not show that the change caused it.",
+      "ru": "Рост был после смены расписания, но эти отдельные опросы не показывают, что его вызвала именно смена расписания.",
+      "why": "Followed — порядок событий, caused — причина. Do not show не значит «не повлияло» — значит «не знаем»."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Первая диаграмма и паспорт опроса",
+      "kind": "reference",
+      "text": "Original teaching material: all data and the workplace situation are fictional. Dataset: Marlowe Design monthly commuting survey, January to June 2026. These are not official statistics or results from a real survey.\n\nFigure title: Walking or cycling in the monthly commuting responses.\nSubtitle: Share of respondents, Marlowe Design, January to June 2026.\n\nThis is a line chart. The horizontal axis is labeled 2026, with categories Jan, Feb, Mar, Apr, May, June in chronological order. The vertical axis is labeled Share of respondents (%). Its minimum is 0 and its maximum is 60, with ticks at 0, 10, 20, 30, 40, 50 and 60. The single series is labeled Walking or cycling. It has distinct visible points and a direct series label. There is no smoothing, fitted curve, confidence interval or causal annotation.\n\nThe observation unit is one voluntary response per employee in a month, reporting the main mode used for the longest part of their most recent journey to the office. Each response belongs to one category.\n\nWalking or cycling combines both activities; separate counts are unavailable. Public transport means bus, tram, underground or train as the main mode. Car combines drivers and passengers and is not a count of vehicles.\n\nThe population covered is employees who answered in that month. Total workforce, response rates, identities across months, number of journeys and emissions are not supplied. These are separate unweighted voluntary samples, not a tracked panel. Participants may differ between months. Each row contains all valid responses for that month. No causal experiment or control group is provided.\n\nComplete table. Column order: month; respondents; walking or cycling count; public transport count; car count; walking or cycling percentage; public transport percentage; car percentage.\nJanuary; 100; 30; 20; 50; 30%; 20%; 50%.\nFebruary; 110; 33; 22; 55; 30%; 20%; 50%.\nMarch; 125; 50; 25; 50; 40%; 20%; 40%.\nApril; 120; 54; 24; 42; 45%; 20%; 35%.\nMay; 140; 63; 28; 49; 45%; 20%; 35%.\nJune; 150; 60; 30; 60; 40%; 20%; 40%.\n\nThe working group is preparing a short explanatory note. The table provides a complete text alternative to the chart for colleagues using different reading formats.",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "figure": {
+        "id": "commuting-active-share",
+        "alt": "Line chart with months on the horizontal axis and walking-or-cycling respondents as percentages on the vertical axis.",
+        "caption": "Marlowe Design, January–June 2026. Original fictional teaching data."
+      }
+    },
+    {
+      "id": "m2",
+      "title": "Вторая диаграмма: категории и знаменатели",
+      "kind": "reference",
+      "text": "Original teaching material: this chart uses fictional Marlowe Design survey data, not an official statistic or a real survey.\n\nFigure title: Main travel modes in January and June.\nSubtitle: Share of respondents, Marlowe Design, 2026.\n\nThis is a grouped horizontal bar chart. The horizontal axis is labeled Share of respondents (%). It runs from 0 to 60, with ticks at 0, 10, 20, 30, 40, 50 and 60. All bars start at zero. The vertical categories, in fixed order from top to bottom, are Walking or cycling, Public transport, and Car.\n\nThe two legend labels are January (n=100) and June (n=150). Each category contains one bar for each of these series. Both series are labeled and values are printed; patterns or direct labels distinguish them in addition to color. Read a bar against the percentage axis, then use its series label to identify its month. The upper scale limit is a display boundary, not the total percentage across categories.\n\nComplete endpoint data:\nJanuary: 100 respondents. Walking or cycling: 30 responses, 30%. Public transport: 20 responses, 20%. Car: 50 responses, 50%.\nJune: 150 respondents. Walking or cycling: 60 responses, 40%. Public transport: 30 responses, 20%. Car: 60 responses, 40%.\n\nOne observation is one employee's voluntary monthly response about the main mode used for the longest part of their most recent office journey. Each response has one category. Walking and cycling are combined. Car includes drivers and passengers. Public transport includes bus, tram, underground and train. The monthly samples are separate and unweighted; participants may differ.\n\nAn independent fictional example illustrates the units. At a pottery club, 8 of 32 feedback cards requested longer sessions. Eight is the count; 25% is the proportion of those cards. At another session, 9 of 45 cards made that request. Nine is a count, and 20% uses 45 as its denominator. These cards have no connection with the commuting survey.",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "figure": {
+        "id": "commuting-mode-comparison",
+        "alt": "Grouped horizontal bar chart with travel modes on the vertical axis and respondent percentages on the horizontal axis, comparing January and June.",
+        "caption": "January n=100; June n=150. Original fictional teaching data."
+      }
+    },
+    {
+      "id": "m3",
+      "title": "Редактор предлагает заголовок",
+      "kind": "dialogue",
+      "text": "Editor: Here's my headline idea: \"Our cycling campaign doubled the share of green commuters.\" I'd also like the note to promise fewer cars. Before we settle the wording, there's some background you haven't seen yet.\n\nEditor: In March, the company started sending informational emails about commuting. Reading them was voluntary. We didn't measure how many people read them or what they thought of them. Beyond that, we have only the survey materials you already have.\n\nCoordinator: Who will read the note, and how long can it be?\n\nEditor: All employees, including people who can't see the charts. The body should be 230 words at most, with a separate headline. It has to make sense on its own, without the figures.\n\nCoordinator: One paragraph per chart, or one connected explanation?\n\nEditor: One connected explanation. Use a few numbers, not a long list. If you use a technical word, make sure readers really need it.\n\nEditor: So what can we keep from my idea, and what needs to change before we publish? Explain your reasoning so I can follow it. I want a note we can use and a headline that's accurate, not just a list of objections.",
+      "source": "Придумано для курса: разговор и компания вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Новый коллега в рабочей группе получил только M1. Напиши ему одну-две фразы — «паспорт» графика: что посчитано, среди кого и за какой период. Цифры роста пока не нужны.",
+      "context": "respondent — ответивший на опрос; main mode — основной способ добраться.",
+      "guidance": {
+        "title": "Паспорт графика: что, среди кого, когда",
+        "body": "Прежде чем говорить о росте, скажи, что вообще на графике. Три вещи: что посчитано (доля, а не люди), среди кого (ответившие, а не все сотрудники) и за какой период.",
+        "example": "The chart shows the share of library members who borrowed an e-book each month, from September to December 2025.",
+        "translation": "График показывает долю читателей библиотеки, которые брали электронную книгу, по месяцам с сентября по декабрь 2025 года."
+      },
+      "hint": "Начни так: The chart shows the share of employees who answered… Среди всех сотрудников или только ответивших?",
+      "answers": [
+        "The chart shows the share of survey respondents at Marlowe Design whose main way of getting to the office was walking or cycling, from January to June 2026.",
+        "The line chart shows what percentage of the employees who answered the monthly survey mainly walked or cycled to the office, from January to June 2026.",
+        "It shows the share of monthly respondents who said they mainly walked or cycled to work, from January to June 2026. It covers only the people who answered, not all employees."
+      ],
+      "explanation": "Засчитывается, если названы доля (а не число людей), ответившие (а не все сотрудники) и период с января по июнь 2026. Share и percentage одинаково верны.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Тот же коллега открыл M2 и не понимает, зачем у каждого способа две полоски. Объясни двумя фразами: что сравнивает каждая пара полосок и что значат подписи n=100 и n=150.",
+      "context": "bar — полоска (столбик) диаграммы; travel mode — способ добраться.",
+      "guidance": {
+        "title": "Легенда: что сравнивают соседние полоски",
+        "body": "В сгруппированной диаграмме сначала скажи, что объединяет пару полосок. Потом объясни подписи легенды. Не опирайся на цвет: у читателя может не быть картинки.",
+        "example": "Each pair of bars compares last year and this year for the same age group. Last year, 80 people answered; this year, 120 did.",
+        "translation": "Каждая пара полосок сравнивает прошлый и этот год для одной возрастной группы. В прошлом году ответили 80 человек, в этом — 120."
+      },
+      "hint": "Начни так: Each pair of bars compares January and June for… Что значит буква n?",
+      "answers": [
+        "Each pair of bars compares January and June for the same travel mode. The labels n=100 and n=150 show how many people answered in each month.",
+        "For each travel mode, there are two bars: one for January and one for June. The labels n=100 and n=150 mean that 100 people answered in January and 150 in June.",
+        "Each mode has a January bar and a June bar. In January, 100 employees answered; in June, 150 did, so the percentages come from different totals."
+      ],
+      "explanation": "Засчитывается, если сказано, что пара полосок — один способ в два месяца, а n — число ответивших. Хорошо, если ты добавил, что проценты посчитаны от разных итогов: это понадобится дальше.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Опиши линию из M1 двумя-тремя фразами для того же коллеги: общий итог, где линия стояла на месте, где была самая высокая точка и что случилось после неё. Не перечисляй все шесть месяцев подряд.",
+      "context": "",
+      "guidance": {
+        "title": "Форма линии: итог, плато, пик, поворот",
+        "body": "Начни с итога: Overall, … rose from … to …. Потом скажи, где линия стояла (remained at, was unchanged), где пик (peaked at … in …) и куда она пошла после него (before falling to …).",
+        "example": "Overall, ticket sales rose from 200 to 260. They remained at 240 in March and April, peaked at 290 in May, and then fell to 260 in June.",
+        "translation": "В целом продажи билетов выросли с 200 до 260. В марте и апреле они держались на 240, в мае достигли пика 290, а в июне упали до 260."
+      },
+      "hint": "Самая высокая точка — один месяц или два подряд? Начни так: Overall, the share rose from 30% to 40%…",
+      "answers": [
+        "Overall, the share rose from 30% to 40%. It was unchanged in January and February, peaked at 45% in April and May, and then fell to 40% in June.",
+        "Overall, walking or cycling went up from 30% to 40%. The share stayed at 30% in January and February, reached a peak of 45% in April, remained there in May, and fell to 40% in June.",
+        "From January to June, the share increased overall from 30% to 40%, but not every month: it stayed the same in February, peaked at 45% in April and May, and then dropped to 40%."
+      ],
+      "explanation": "Засчитывается, если есть итог 30% → 40%, неизменный февраль, пик 45% в апреле и мае и спад в июне. Март (40%) можно не называть: он лежит на пути к пику.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега написал: The share of walking or cycling rose steadily from January to June and peaked in June. Найди по M1 две ошибки и перепиши фразу.",
+      "context": "",
+      "guidance": {
+        "title": "Steadily и peak — проверь по точкам",
+        "body": "Steadily значит «ровно, каждый месяц», и одна остановка его ломает. Overall допускает остановки и спады. Peak — самая высокая точка периода: проверь, в каком она месяце.",
+        "example": "Overall, membership grew from 50 to 70, but it fell in August after peaking at 75 in July.",
+        "translation": "В целом число участников выросло с 50 до 70, но в августе упало после пика 75 в июле."
+      },
+      "hint": "Был ли месяц, когда доля не росла? В каком месяце она была выше всего?",
+      "answers": [
+        "Overall, the share of walking or cycling rose from January to June, but not steadily: it was unchanged in February, peaked at 45% in April and May, and fell to 40% in June.",
+        "The share of walking or cycling rose overall from 30% to 40%. It did not rise steadily: it stayed at 30% in February, and it peaked at 45% in April and May, not in June.",
+        "The walking or cycling share was higher in June than in January, but it peaked at 45% in April and May and then fell to 40% in June. It also stayed the same from January to February."
+      ],
+      "explanation": "Ошибок две: steadily (в феврале доля не изменилась, а в июне упала) и пик в июне (на самом деле 45% в апреле и мае). Можно заменить steadily на overall или прямо написать not steadily.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Автор черновика удивлён: в M2 доля машин упала с 50% до 40%, а в таблице M1 ответов «на машине» в июне больше, чем в январе. Объясни ему одной-двумя фразами, как так вышло. Назови оба итога: 100 и 150 ответивших.",
+      "context": "",
+      "guidance": {
+        "title": "Число и доля — от разных итогов",
+        "body": "Если всего ответивших стало больше, число в категории может расти, а её доля — падать. Поставь обе цифры в одну фразу через although или but и сразу назови итоги.",
+        "example": "Although 40 students chose math in both years, their share fell from 40% to 25%, because the total grew from 100 to 160.",
+        "translation": "Хотя оба года математику выбрали 40 студентов, их доля упала с 40% до 25%, потому что всего студентов стало не 100, а 160."
+      },
+      "hint": "Начни так: Although car responses rose from 50 to 60… Сколько человек ответили в январе и в июне?",
+      "answers": [
+        "Although car responses rose from 50 to 60, their share fell from 50% to 40%, because the total number of respondents grew from 100 to 150.",
+        "Car responses went up from 50 to 60, but their share fell from 50% to 40%: 50 of 100 is 50%, and 60 of 150 is 40%.",
+        "More people answered in June: 150 instead of 100. So 60 car responses were only 40% of the total, compared with 50 of 100, or 50%, in January."
+      ],
+      "explanation": "Засчитывается, если названы оба числа (50 и 60), обе доли (50% и 40%) и оба итога (100 и 150). Без итогов читатель не поймёт, почему число и доля идут в разные стороны.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок об отчёте. Теперь открой M3: редактор пишет «doubled the share». Проверь по M1 и M2 и ответь ему двумя фразами: что на самом деле удвоилось, на сколько процентных пунктов выросла доля и сколько это относительно старта.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: пункты и проценты",
+        "body": "Вспоминаем урок об отчёте: разница двух процентов — percentage points. Новое здесь: после doubled назови, что удвоилось — число ответов или доля. Относительный рост считай от стартовой доли.",
+        "example": "The number of members doubled from 20 to 40, but their share rose only from 10% to 15%, an increase of 5 percentage points.",
+        "translation": "Число участников удвоилось — с 20 до 40, но их доля выросла только с 10% до 15%, на 5 процентных пунктов."
+      },
+      "hint": "Число ответов: 30 → 60. Доля: 30% → 40%. Десять от тридцати — это какая часть?",
+      "answers": [
+        "The number of walking or cycling responses doubled from 30 to 60, but the share rose from 30% to 40%. That is an increase of 10 percentage points, or about a third relative to the starting share.",
+        "What doubled was the count, not the share: 30 responses became 60. The share went from 30% to 40%, which is 10 percentage points, or roughly 33% relative growth.",
+        "The count doubled, from 30 to 60 responses, but the share did not. It rose by 10 percentage points, from 30% to 40%, which is an increase of about one third."
+      ],
+      "explanation": "Удвоилось число ответов, а доля выросла на 10 процентных пунктов — примерно на треть от стартовых 30%, а не на 100%. About a third, roughly 33% и one third одинаково верны.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок об оговорках. Редактор хочет написать, что письма компании из M3 увеличили долю. Напиши ему две фразы: первая — что известно точно (когда начались письма и что было с долей после этого); вторая — почему опрос не доказывает, что причина в письмах.",
+      "context": "informational emails — информационные письма; reach — охват, сколько людей их прочитали; separate samples — каждый месяц отвечали, возможно, разные люди.",
+      "guidance": {
+        "title": "Вспоминаем: факт прямо, вывод — с границей",
+        "body": "Вспоминаем урок об оговорках: факт пиши без may, а вывод о причине — с границей. Из урока о клубе: «после» ещё не «благодаря». Назови, чего именно не хватает.",
+        "example": "The new signs went up in May, and recycling rose after that. However, nobody tracked who saw the signs, so the survey does not show that they caused the change.",
+        "translation": "Новые таблички повесили в мае, и после этого мусор стали сортировать чаще. Но никто не следил, кто их видел, поэтому опрос не показывает, что причина в табличках."
+      },
+      "hint": "Первая фраза: The emails started in March, and… Вторая: However, … was not measured, and…",
+      "answers": [
+        "The informational emails started in March, and the walking or cycling share was higher after that. However, nobody measured who read the emails, and the monthly samples were separate, so the survey does not show that the emails caused the change.",
+        "The emails began in March, and the share rose from 30% in February to 40% in March. But their reach was not measured, and different people may have answered each month, so we cannot say that the emails caused the rise.",
+        "The company started the emails in March, and the share went up after that. However, we don't know how many people read them, and the samples were not the same people, so the survey cannot show that the emails made the difference."
+      ],
+      "explanation": "Засчитывается, если первая фраза — факт без may (март, рост после него), а вторая называет конкретные пробелы: охват писем не измеряли, выборки разные. Does not show не значит «письма не помогли» — значит «мы не знаем».",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши заметку для всех сотрудников по требованиям редактора из M3: 150–230 слов плюс свой точный заголовок. Что должно быть: что и среди кого посчитано, за какой период; как шла линия (итог, плато, пик, поворот); сравнение трёх способов в январе и июне; почему число и доля расходятся — с итогами 100 и 150; два ограничения: каждый месяц отвечали, возможно, разные люди, и охват писем не измеряли; в конце — один вопрос для следующего опроса. Не перечисляй всю таблицу.",
+      "context": "",
+      "hint": "Заголовок: что выросло и что случилось потом? План: The survey asked… → Overall… → In June compared with January… → Because more people answered in June… → The survey cannot tell us… → Next time, could we ask…?",
+      "answers": [
+        "Walking or cycling share up since January, with a dip in June\n\nOur monthly survey asked employees how they mainly got to the office. The figures describe the people who answered each month, not every employee. From January to June 2026, the share who walked or cycled rose overall from 30% to 40%. It was unchanged in February, peaked at 45% in April and May, and then fell to 40% in June.\n\nIn June, car and walking or cycling were equal at 40%; in January, they were at 50% and 30%. Public transportation stayed at 20%. More people answered in June than in January: 150 instead of 100. That is why the numbers and shares can move in different directions. Car responses actually rose from 50 to 60, but they made up a smaller share. Walking or cycling responses doubled from 30 to 60, but the share rose by 10 percentage points, not twice.\n\nThe survey has two limits. Different people may have answered each month, so it cannot show who changed how they travel. The informational emails about commuting started in March, but we did not measure who read them, so we cannot say they caused the rise.\n\nFor the next survey, could we ask whether people read the commuting emails?"
+      ],
+      "explanation": "Засчитывается, если цифры совпадают с M1–M2, у долей названы итоги 100 и 150, форма линии описана с пиком в апреле и мае и спадом в июне, оба ограничения конкретны, а заголовок не обещает удвоения и причины. Вопрос в конце должен закрывать реальный пробел; даже ответы на него сами по себе не докажут эффект писем.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты отвечаешь редактору и коллеге из M3 вслух. Слушатель не видит экран. Закрой M3 и говори 2–3 минуты. Что должно быть: как устроены оба графика (по одной фразе); главная картина с 3–4 цифрами; один «парадокс» числа и доли с итогами; ответ редактору — что из его заголовка можно оставить, что нет и почему; твой вариант заголовка.",
+      "context": "",
+      "hint": "Начни так: Let me describe the charts without the screen. Переходы: Now the second chart… / Here's the part that looks strange… / About the headline…",
+      "answers": [
+        "Let me describe the charts without the screen. The first one is a line chart. The months from January to June go along the bottom, and the share of people who answered goes up the side, from zero to sixty percent. Walking or cycling starts at 30 percent, stays there in February, reaches 45 percent in April and May, and ends at 40 percent in June.\n\nNow the second chart. It compares January and June for three ways of getting to work. Walking or cycling goes from 30 to 40 percent, car goes down from 50 to 40, and public transportation stays at 20. So in June, car and walking or cycling are equal.\n\nHere's the part that looks strange. Car responses actually went up, from 50 to 60. But the share went down. That's because more people answered in June: 150 instead of 100. Sixty out of 150 is only 40 percent.\n\nAbout the headline. I'd keep the main idea: walking or cycling did grow. But two things go further than the data. First, the share didn't double. The number of responses doubled, but the share rose by ten percentage points. Second, we can't credit the emails. We didn't measure who read them, and different people may have answered each month. Also, the survey puts walking and cycling together, so we can't talk about cycling alone.\n\nA headline the data support would be: \"Walking or cycling share higher in June than in January.\" It's less exciting, but every word in it is true."
+      ],
+      "explanation": "Засчитывается, если слушатель без картинки понимает устройство обоих графиков, цифры совпадают с материалами, парадокс объяснён через итоги 100 и 150, а в ответе редактору названы конкретные причины (доля не удвоилась, письма не измеряли, ходьба и велосипед вместе) и дан пригодный заголовок. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега прислал абзац для заметки. В нём пять ошибок. Найди их по M1–M3, перепиши абзац (100–150 слов), а потом напиши редактору две фразы: какие две правки самые важные и почему.\n\nАбзац: \"The line chart shows 45 people walking or cycling in April. Their share kept rising from April to May. Between January and June, the share grew by 10%. The June car figure means 60 cars came to the office. The informational emails launched in March caused the change.\"",
+      "context": "",
+      "hint": "Проверь по очереди: что на оси — люди или проценты? Что было в мае? 10% или 10 пунктов? Car — это машины или ответы? Хватает ли сведений для caused?",
+      "answers": [
+        "The line chart shows percentages, not people. In April, 45% of respondents walked or cycled, which was 54 of 120 people. The share stayed at 45% in May and then fell to 40% in June. Between January and June, it rose from 30% to 40%, an increase of 10 percentage points, or about a third relative to January. The June car figure is also a share: 60 of 150 responses, or 40%. Since the car category includes drivers and passengers, it does not tell us how many cars came to the office. The informational emails started in March, but nobody measured who read them, and different people may have answered each month. So the survey does not show that the emails caused the change.\n\nThe most important corrections are about cars and causes. Readers could plan parking from a wrong car count, and they could believe the emails worked when we have no evidence either way."
+      ],
+      "explanation": "Пять ошибок: 45 — это проценты, а не люди; в мае доля не росла, а стояла; рост — 10 процентных пунктов, а не 10%; Car — ответы водителей и пассажиров, а не машины; caused не подтверждено. Засчитывается, если исправлены все пять, а две правки в записке объяснены через последствия для читателя. Можно выбрать другие две, если причина названа.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": "path-mixed-conditionals",
+  "title": "Если бы тогда — то сейчас: смешанные условия и wish",
+  "subtitle": "Прошлое меняет сейчас → черта «всегда» меняет прошлое → wish о сейчас → wish о прошлом → wish + would",
+  "level": "B2",
+  "group": "Условия и воображение",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Сказать, как прошлое решение меняет твоё сейчас: «Если бы я тогда согласился на ту работу, я бы сейчас жил в Денвере», и о чём ты жалеешь: «Жаль, что у меня мало времени», «Жаль, что я не начал раньше».",
+  "formula": "If I had taken that job, I would live in Denver now. → If I weren't so shy, I would have said hello. → I wish I had more time. → I wish I had started earlier.",
+  "keyRule": {
+    "rule": "Причина тогда — had + третья форма. Результат сейчас — would + обычный глагол.",
+    "example": "If I had slept more, I wouldn't be tired now — если бы я больше спал, я бы сейчас не был уставшим.",
+    "check": "Что было тогда? Спал мало. Что сейчас? Устал."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-third-conditional",
+    "path-second-conditional"
+  ],
+  "recycles": [
+    "path-second-conditional",
+    "path-third-conditional"
+  ],
+  "teaches": [
+    "if + had + третья форма, would + глагол — прошлое меняет сейчас: If I had taken that job, I would live in Denver now",
+    "наоборот: черта «всегда» + результат тогда — If I weren't so shy, I would have talked to her",
+    "could и might вместо would: If I hadn't spent so much, I could buy it now",
+    "wish + прошедшая форма — жаль, что сейчас так: I wish I had more time, I wish I could swim; «не» в английской фразе переворачивается",
+    "wish + had + третья форма — жаль, что тогда: I wish I had called, I wish I hadn't said that",
+    "wish + would — о чужом поведении, которое раздражает: I wish you would call more often; о себе — could или had, не would",
+    "wish ≠ hope: реальное будущее — I hope it doesn't rain tomorrow",
+    "I wish I were… / I wish I was… — оба в американской речи; на письме чаще were",
+    "слова: shy, quit, stubborn, hometown, roommate, drums"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Conditionals: third and mixed",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-third-mixed",
+      "notes": "Сверены обе схемы смешанного условия: прошлое условие → результат сейчас (if + past perfect, would + глагол) и условие сейчас → результат в прошлом (if + past simple, would have + третья форма). Примеры урока свои."
+    },
+    {
+      "title": "British Council LearnEnglish · Wishes: wish and if only",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/wishes-wish-if-only",
+      "notes": "Сверено: wish + прошедшая форма — о сейчас; wish + past perfect — о прошлом; wish + would — недовольство чужим поведением, о себе would не говорят; if only — то же, но сильнее (if only разобран в extended-b2-regret-emphasis)."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Где причина и где результат",
+    "why": "Каждая часть «если бы» берёт форму своего времени. Тогда — had + третья форма или would have. Сейчас и всегда — прошедшая форма или would + глагол.",
+    "items": [
+      {
+        "label": "Тогда → тогда",
+        "en": "If I had left earlier, I would have caught the train.",
+        "ru": "Если бы я вышел раньше, я бы успел на поезд.",
+        "note": "Обе части о прошлом — это ты уже знаешь."
+      },
+      {
+        "label": "Тогда → сейчас",
+        "en": "If I had taken that job, I would live in Denver now.",
+        "ru": "Если бы я тогда согласился на ту работу, я бы сейчас жил в Денвере.",
+        "note": "Причина в прошлом, результат сейчас: would + глагол, без have."
+      },
+      {
+        "label": "Всегда → тогда",
+        "en": "If I weren't so shy, I would have talked to her.",
+        "ru": "Если бы я не был таким застенчивым, я бы с ней заговорил.",
+        "note": "Черта постоянная, результат в прошлом: would have."
+      }
+    ],
+    "focus": [
+      "had left",
+      "would have caught",
+      "had taken",
+      "would live",
+      "weren't",
+      "would have talked"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Если бы тогда — то сейчас",
+      "body": "Три года назад тебе предложили работу в Денвере, и ты отказался. Сейчас ты живёшь в Огайо. Другу говоришь: «Если бы я тогда согласился, я бы сейчас жил в Денвере». Причина — в прошлом, результат — сейчас.\n\nПо-английски: If I had taken that job, I would live in Denver now. Часть с if — как в «если бы тогда»: had + третья форма. Вторая часть — как в «если бы сейчас»: would + обычный глагол, без have.\n\nДва случая ты уже знаешь: «сейчас — сейчас» (If I had a car, I'd drive to work) и «тогда — тогда» (If I had left earlier, I would have caught the train). Здесь части о разном времени, и каждая берёт свою форму. Такие фразы называют смешанными условиями (mixed conditionals).\n\nПроверка: назови оба факта. Работу не взял — это тогда. В Денвере не живу — это сейчас."
+    },
+    {
+      "title": "Наоборот: какой ты всегда — и что из-за этого было тогда",
+      "body": "Ты застенчивый (shy) — так было всегда и так есть сейчас. Вчера на вечеринке ты не подошёл к человеку, с которым хотел поговорить. If I weren't so shy, I would have talked to her — если бы я не был таким застенчивым, я бы с ней заговорил.\n\nЧасть с if — о том, какой ты вообще: прошедшая форма, как в «если бы сейчас» (were, spoke, lived). Вторая часть — о том, что уже случилось: would have + третья форма.\n\nЭто работает, только если черта постоянная. Ты устал только сегодня — значит, If I weren't tired, I would have gone yesterday не имеет смысла: сегодняшняя усталость не могла помешать вчера.\n\nВместо would в любой части можно поставить could («мог бы») или might («может быть, …бы»): If I hadn't spent so much, I could buy it now — если бы я не потратил так много, я мог бы купить это сейчас."
+    },
+    {
+      "title": "Wish о сейчас: «жаль, что» с прошедшей формой",
+      "body": "I wish I had more time — жаль, что у меня мало времени. Wish значит «хотеть, чтобы было иначе». После него стоит прошедшая форма (had, lived, could), но речь о сейчас. Такое ты уже видел: It's time you went, I'd rather you didn't.\n\nГлавная ловушка — «не». Русское «жаль, что…» называет то, что есть на самом деле. Английское wish называет то, чего ты хочешь. Поэтому «не» переворачивается. «Жаль, что я не умею плавать» — I wish I could swim, без not. «Жаль, что ты живёшь так далеко» — I wish you didn't live so far away, с not.\n\nС be на письме — were: I wish I were taller. В разговоре американцы часто говорят I wish I was…, это тоже нормально.\n\nWish — не hope. О будущем, которое правда может случиться, говорят hope: I hope it doesn't rain tomorrow — надеюсь, завтра не будет дождя. I wish it doesn't rain — ошибка."
+    },
+    {
+      "title": "Wish о прошлом: had + третья форма",
+      "body": "Ты не взял на свадьбу фотоаппарат и теперь жалеешь. I wish I had brought my camera — жаль, что я не взял фотоаппарат. О прошлом после wish ставь had + третья форма, как в части с if у «если бы тогда».\n\n«Не» переворачивается и здесь. Не сделал и жалеешь — без not: I wish I had called her — жаль, что я ей не позвонил. Сделал и жалеешь — hadn't: I wish I hadn't said that — зря я это сказал. В речи I wish I'd known = I wish I had known.\n\nСравни. I wish I had a car — машины нет сейчас. I wish I had bought that car — тогда не купил. Просто had — о сейчас, had + третья форма — о прошлом."
+    },
+    {
+      "title": "Wish + would: хочу, чтобы кто-то изменился",
+      "body": "I wish you would call more often — хоть бы ты звонил почаще. Wish + would говорит о чужом поведении, которое тебя раздражает и которое ты хотел бы изменить. Так же о погоде и вещах: I wish it would stop raining — хоть бы дождь перестал.\n\nО себе would не говорят: I wish I would… — ошибка. О своём умении — could: I wish I could come — жаль, что я не могу прийти. О своём прошлом — had: I wish I had come.\n\nWould — только о действии. О том, какой человек или вещь, — прошедшая форма: I wish you were here, а не would be here. I wish my apartment were bigger, а не would be bigger."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If I hadn't moved to Chicago, I wouldn't know any of these people.",
+      "ru": "Если бы я не переехал в Чикаго, я бы не знал никого из этих людей.",
+      "why": "Переехал — тогда. Знаешь их — сейчас."
+    },
+    {
+      "en": "If you had taken the medicine, you'd feel better now.",
+      "ru": "Если бы ты принял лекарство, тебе бы сейчас было лучше.",
+      "why": "Лекарство не принял раньше, плохо — сейчас. You'd = you would."
+    },
+    {
+      "en": "If she weren't so busy, she would have come to the party.",
+      "ru": "Если бы она не была так занята, она бы пришла на вечеринку.",
+      "why": "Занята она всегда, поэтому не пришла в тот вечер."
+    },
+    {
+      "en": "I wish I lived closer to work.",
+      "ru": "Жаль, что я живу так далеко от работы.",
+      "why": "Lived — о сейчас. По-русски — как есть («далеко»), по-английски — как хочешь («ближе»)."
+    },
+    {
+      "en": "I wish I hadn't eaten that second burger.",
+      "ru": "Зря я съел второй бургер.",
+      "why": "Съел и жалеешь — hadn't + третья форма."
+    },
+    {
+      "en": "I wish my roommate would wash the dishes.",
+      "ru": "Хоть бы мой сосед по квартире мыл посуду.",
+      "why": "Would — о чужом поведении, которое раздражает. Roommate — сосед по квартире."
+    },
+    {
+      "en": "I hope you feel better soon.",
+      "ru": "Надеюсь, ты скоро поправишься.",
+      "why": "Это может случиться — поэтому hope, а не wish."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вчера ты смотрел сериал до двух ночи. Сейчас утро, ты на работе и засыпаешь. Скажи коллеге: «Если бы я вчера лёг раньше, сейчас я бы не был таким уставшим». go to bed → gone to bed.",
+      "context": "",
+      "guidance": {
+        "title": "Тогда → сейчас: had + третья форма, would + глагол",
+        "body": "Причина — вчера, поэтому после if — had + третья форма. Результат — сейчас, поэтому would + обычный глагол, без have. Now в конце помогает услышать, что речь о сейчас.",
+        "example": "If I had eaten breakfast, I wouldn't be hungry now.",
+        "translation": "Если бы я позавтракал, я бы сейчас не был голодным."
+      },
+      "hint": "Начни так: If I had gone to bed … Во второй части: I wouldn't be …",
+      "answers": [
+        "If I had gone to bed earlier last night, I wouldn't be so tired now.",
+        "If I had gone to bed earlier last night, I would not be so tired now.",
+        "If I'd gone to bed earlier last night, I wouldn't be so tired now.",
+        "If I had gone to bed earlier yesterday, I wouldn't be so tired now.",
+        "If I had gone to bed earlier, I wouldn't be so tired now.",
+        "If I'd gone to bed earlier, I wouldn't be so tired now.",
+        "I wouldn't be so tired now if I had gone to bed earlier last night.",
+        "I wouldn't be so tired now if I'd gone to bed earlier.",
+        "If I had gone to bed earlier last night, I wouldn't be this tired now.",
+        "If I had gone to bed earlier last night, I wouldn't feel so tired now."
+      ],
+      "explanation": "Had gone — вчера ты лёг поздно. Wouldn't be — устал ты сейчас. Wouldn't have been было бы о вчерашнем вечере. Last night и yesterday оба подходят, «таким» — so или this."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, почему ты вчера молчал на собрании, хотя у тебя была хорошая идея. Ответь: «Если бы я не был таким застенчивым, я бы что-нибудь сказал». shy — застенчивый; say → said.",
+      "context": "",
+      "guidance": {
+        "title": "Всегда → тогда: прошедшая форма, would have",
+        "body": "Застенчивый ты всегда — эта часть как «если бы сейчас»: weren't. Молчал ты вчера — это результат в прошлом: would have + третья форма.",
+        "example": "If he were more careful, he wouldn't have lost his wallet.",
+        "translation": "Если бы он был внимательнее, он бы не потерял кошелёк."
+      },
+      "hint": "Начни так: If I weren't so shy, … Вторая часть — I would have …",
+      "answers": [
+        "If I weren't so shy, I would have said something.",
+        "If I wasn't so shy, I would have said something.",
+        "If I weren't so shy, I'd have said something.",
+        "If I wasn't so shy, I'd have said something.",
+        "If I weren't so shy, I would've said something.",
+        "If I weren't so shy, I would have said something at the meeting.",
+        "If I wasn't so shy, I would have said something at the meeting.",
+        "I would have said something if I weren't so shy.",
+        "I would have said something if I wasn't so shy.",
+        "If I were less shy, I would have said something.",
+        "If I hadn't been so shy, I would have said something."
+      ],
+      "explanation": "Weren't so shy — ты застенчивый и сейчас, это черта. Would have said — вчера ты промолчал. Wasn't вместо weren't — обычный разговорный вариант. If I hadn't been so shy тоже верно, если думаешь только о том вечере."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «если бы сейчас» и «если бы тогда». Ты плохо играешь на гитаре. Скажи три фразы: 1) «Если бы я занимался каждый день, я бы играл лучше»; 2) «Если бы я не бросил уроки в двенадцать лет, я бы сейчас играл гораздо лучше»; 3) «Если бы у меня тогда был хороший учитель, я бы не бросил». practice — заниматься; quit (quit, quit) — бросить; lessons — уроки.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: сейчас — сейчас, тогда — сейчас, тогда — тогда",
+        "body": "Для каждой фразы спроси: о каком времени условие и о каком результат. Сейчас — прошедшая форма или would + глагол. Тогда — had + третья форма или would have.",
+        "example": "If I read more, I'd know more words. If I hadn't stopped reading, I'd know more words now. If I'd had more time, I wouldn't have stopped.",
+        "translation": "Если бы я больше читал, я бы знал больше слов. Если бы я не бросил читать, я бы сейчас знал больше слов. Если бы у меня было больше времени, я бы не бросил."
+      },
+      "hint": "Третья форма have — had, поэтому в третьей фразе: If I had had … Вторая часть третьей фразы: I wouldn't have quit.",
+      "answers": [
+        "If I practiced every day, I would play better. If I hadn't quit lessons when I was twelve, I would play much better now. If I had had a good teacher back then, I wouldn't have quit.",
+        "If I practiced every day, I'd play better. If I hadn't quit lessons at twelve, I'd play much better now. If I'd had a good teacher then, I wouldn't have quit.",
+        "If I practiced every day, I would play better. If I hadn't quit my lessons when I was twelve, I would play much better now. If I had had a good teacher then, I wouldn't have quit.",
+        "If I practiced every day, I would play better. If I hadn't quit lessons when I was twelve, I'd play a lot better now. If I'd had a good teacher back then, I wouldn't have quit.",
+        "If I practiced every day, I would play better. If I had not quit lessons when I was 12, I would play much better now. If I had had a good teacher at that time, I would not have quit.",
+        "If I practiced every day, I would play better. If I hadn't quit lessons at the age of twelve, I would play much better now. If I had had a good teacher back then, I wouldn't have quit."
+      ],
+      "explanation": "Первая фраза — о сейчас: practiced, would play. Вторая — смешанная: бросил тогда (hadn't quit), играешь плохо сейчас (would play). Третья — целиком о прошлом: had had и wouldn't have quit."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты переписываешься с подругой из Мексики. Напиши ей две фразы: «Жаль, что я не говорю по-испански» и «Жаль, что ты живёшь так далеко».",
+      "context": "",
+      "guidance": {
+        "title": "Wish о сейчас: «не» переворачивается",
+        "body": "После wish — прошедшая форма, а смысл — сейчас. Ты называешь не то, что есть, а то, чего хочешь. Поэтому где в русской фразе «не» есть, в английской его нет, и наоборот.",
+        "example": "I wish I had a car. I wish it weren't so cold.",
+        "translation": "Жаль, что у меня нет машины. Жаль, что так холодно."
+      },
+      "hint": "Сначала скажи себе, чего ты хочешь: «говорить по-испански», «чтобы ты жила не так далеко». Начни так: I wish I spoke …",
+      "answers": [
+        "I wish I spoke Spanish. I wish you didn't live so far away.",
+        "I wish I could speak Spanish. I wish you didn't live so far away.",
+        "I wish I spoke Spanish. I wish you lived closer.",
+        "I wish I could speak Spanish. I wish you lived closer.",
+        "I wish I knew Spanish. I wish you didn't live so far away.",
+        "I wish I knew Spanish. I wish you lived closer.",
+        "I wish I spoke Spanish. I wish you did not live so far away.",
+        "I wish I spoke Spanish, and I wish you didn't live so far away."
+      ],
+      "explanation": "Spoke — прошедшая форма, но речь о сейчас. В первой фразе «не» пропало, во второй появилось didn't. Could speak, knew Spanish и you lived closer тоже верны."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пришёл на свадьбу друга Тома в джинсах, а все в костюмах. И ещё ты случайно рассказал Тому про сюрприз. Напиши сестре: «Жаль, что я не надел костюм. И зря я рассказал Тому про сюрприз». wear → wore → worn; tell → told.",
+      "context": "",
+      "guidance": {
+        "title": "Сожаление о том, что уже было",
+        "body": "Жалеешь о том, что уже случилось, — после wish ставь had + третья форма. Не сделал и жалеешь — без not. Сделал и жалеешь — hadn't.",
+        "example": "I wish I had taken more pictures. I wish I hadn't eaten so much cake.",
+        "translation": "Жаль, что я мало фотографировал. Зря я съел столько торта."
+      },
+      "hint": "Первая фраза без not: I wish I had … Вторая с not: I wish I hadn't …",
+      "answers": [
+        "I wish I had worn a suit. And I wish I hadn't told Tom about the surprise.",
+        "I wish I had worn a suit. I wish I hadn't told Tom about the surprise.",
+        "I wish I'd worn a suit. I wish I hadn't told Tom about the surprise.",
+        "I wish I'd worn a suit, and I wish I hadn't told Tom about the surprise.",
+        "I wish I had worn a suit. And I wish I had not told Tom about the surprise.",
+        "I wish I had worn a suit. I really wish I hadn't told Tom about the surprise."
+      ],
+      "explanation": "Had worn — костюм ты не надел, поэтому без not. Hadn't told — рассказал и жалеешь. I wish I wore a suit было бы о сейчас, а свадьба уже прошла."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед сверху каждый вечер до полуночи играет на барабанах. Пожалуйся другу: «Хоть бы он перестал играть так поздно. Жаль, что я не могу переехать». drums — барабаны; stop + -ing — перестать что-то делать; move — переехать.",
+      "context": "",
+      "guidance": {
+        "title": "Wish + would — о чужом поведении",
+        "body": "Хочешь, чтобы другой человек изменил то, что он делает, — wish + would. О себе would не ставят: о своём умении — could.",
+        "example": "I wish my brother would answer his phone. I wish I could help him.",
+        "translation": "Хоть бы брат отвечал на звонки. Жаль, что я не могу ему помочь."
+      },
+      "hint": "Первая фраза: I wish he would stop … Вторая — о тебе: I wish I could …",
+      "answers": [
+        "I wish he would stop playing so late. I wish I could move.",
+        "I wish he'd stop playing so late. I wish I could move.",
+        "I wish he would stop playing the drums so late. I wish I could move.",
+        "I wish he'd stop playing the drums so late. I wish I could move.",
+        "I wish he would stop playing so late at night. I wish I could move.",
+        "I wish he would stop playing the drums so late at night. I wish I could move out.",
+        "I wish he would stop playing so late, and I wish I could move."
+      ],
+      "explanation": "Would stop — ты хочешь, чтобы сосед изменил поведение, и тебя это раздражает. Could move — о твоей возможности, would здесь нельзя. He'd = he would."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг попросил проверить его пост перед публикацией. В нём три ошибки. Исправь и перепиши целиком: I wish I would have more free time. If I didn't sell my car last year, I would drive to work now. I wish I didn't eat so much at dinner last night.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь время каждой части",
+        "body": "Для каждой части спроси: это о сейчас или о прошлом? Сейчас — прошедшая форма, прошлое — had + третья форма. О себе после wish would не ставят.",
+        "example": "I wish I had a bigger kitchen. If I hadn't bought this apartment, I would rent a house now.",
+        "translation": "Жаль, что у меня маленькая кухня. Если бы я не купил эту квартиру, я бы сейчас снимал дом."
+      },
+      "hint": "Машину продал в прошлом году — какая форма после if? Ужин был вчера — какая форма после wish?",
+      "answers": [
+        "I wish I had more free time. If I hadn't sold my car last year, I would drive to work now. I wish I hadn't eaten so much at dinner last night.",
+        "I wish I had more free time. If I hadn't sold my car last year, I'd drive to work now. I wish I hadn't eaten so much at dinner last night.",
+        "I wish I had more free time. If I had not sold my car last year, I would drive to work now. I wish I had not eaten so much at dinner last night."
+      ],
+      "explanation": "Would have → had: о себе после wish would не ставят. Didn't sell → hadn't sold: машину продал тогда, а на работу не ездишь сейчас. Didn't eat → hadn't eaten: ужин уже прошёл."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Одноклассница Джен пишет тебе: Do you ever think about what your life would be like if you had stayed in our hometown? Ответь ей сообщением на 100–180 слов. Что должно быть: 1) какое решение ты принял тогда (прошедшее время); 2) две фразы «если бы тогда — то сейчас» (had + третья форма → would + глагол); 3) одна фраза наоборот: черта, которая есть у тебя всегда, и её результат в прошлом; 4) одно wish о сейчас и одно wish о прошлом; 5) в конце — чему ты рад или что собираешься сделать (I'm glad… / I'm going to…). Историю можно придумать.",
+      "context": "Слова: hometown — родной город, stay — остаться, stubborn — упрямый, lose touch with — перестать общаться, be glad — радоваться.",
+      "hint": "План: Seven years ago, I moved to … → If I had stayed, I would … now → If I weren't so …, I would have … → I wish I … / I wish I had … → I'm glad …",
+      "answers": [
+        "Hi Jen,\n\nYes, I think about it sometimes! Seven years ago, I moved to Austin for college, and I never came back. If I had stayed in our hometown, I would live near my parents now, and I would see you every weekend. I also wouldn't have this job at a tech company, because there are no companies like that back home. If I weren't so stubborn, I would have listened to my dad and studied business, but I chose design. I don't regret that. I wish I had more time to visit, though. And I wish I had called you more often in my first years here. I was so busy that I lost touch with almost everyone. Still, I'm glad I moved. I'm going to come home for Thanksgiving, so let's get coffee!\n\nTalk soon,\nAlex"
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов: решение в прошедшем времени; две фразы had + третья форма → would + глагол о сейчас; одна фраза «всегда → тогда» с would have; wish о сейчас (прошедшая форма) и wish о прошлом (had + третья форма); в конце — чему ты рад или реальный план. Подробности жизни — любые."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Разговорный клуб, тема: One decision I think about. Говори 1–2 минуты. Что должно прозвучать: 1) что ты решил или сделал тогда; 2) как это решение меняет твою жизнь сейчас — две фразы if + had…, would… now; 3) одно wish о прошлом и одно wish о сейчас; 4) одна надежда на будущее с hope (не wish); 5) вывод: чему тебя это научило.",
+      "context": "",
+      "hint": "Начни так: A few years ago, I decided … Для конца: I hope … / What I learned is that …",
+      "answers": [
+        "A few years ago, I decided not to go to college right after high school. I started working at a restaurant instead, because I wanted my own money. If I had gone to college then, I would have a degree now, and I probably wouldn't work evenings. I might even live in a different city. Sometimes I wish I had listened to my teachers. They told me it would be harder to start later, and they were right. At the same time, I learned a lot at work. Now I'm the shift manager, and I know how a real business runs. I wish I had more free time, because I'm taking online classes after work. I hope I'll finish my degree in two years. What I learned is that one decision isn't the end of the story. You can't change the past, but you can still change what happens next."
+      ],
+      "explanation": "Засчитывается, если прозвучали: решение в прошедшем времени, две смешанные фразы (had + третья форма → would + глагол о сейчас), wish о прошлом и wish о сейчас, одна фраза с hope о будущем и вывод. Запиши себя и проверь ответ по этому списку."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Подруга Мэри зовёт гостей на день рождения и просит проверить сообщение. В нём четыре ошибки с wish, hope и «если бы». Исправь и перепиши целиком: I wish you will come to my birthday party on Saturday! I hope I had more space in my apartment, but it's fine. If I didn't move last year, I would have a bigger place now, but I love this neighborhood. I wish my neighbors are quieter, so please don't stay too late!",
+      "context": "",
+      "hint": "В каждой фразе спроси: это может случиться — или этого нет? Может случиться — hope. Этого нет — wish.",
+      "answers": [
+        "I hope you will come to my birthday party on Saturday! I wish I had more space in my apartment, but it's fine. If I hadn't moved last year, I would have a bigger place now, but I love this neighborhood. I wish my neighbors were quieter, so please don't stay too late!",
+        "I hope you'll come to my birthday party on Saturday! I wish I had more space in my apartment, but it's fine. If I hadn't moved last year, I'd have a bigger place now, but I love this neighborhood. I wish my neighbors were quieter, so please don't stay too late!",
+        "I hope you can come to my birthday party on Saturday! I wish I had more space in my apartment, but it's fine. If I hadn't moved last year, I would have a bigger place now, but I love this neighborhood. I wish my neighbors were quieter, so please don't stay too late!"
+      ],
+      "explanation": "Засчитывается, если исправлены четыре места: wish you will → hope you'll come (приход гостей — реальное будущее); hope I had → wish I had (места нет сейчас); didn't move → hadn't moved (переезд был тогда, квартира — сейчас); are → were (после wish — прошедшая форма). I hope you can come тоже верно."
+    }
+  ]
+}

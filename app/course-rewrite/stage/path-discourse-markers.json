@@ -1,0 +1,329 @@
+{
+  "id": "path-discourse-markers",
+  "title": "Nevertheless, by contrast, that said: связка показывает, как связаны две мысли",
+  "subtitle": "Сначала связь между мыслями, потом слово: уступка, сравнение, следствие, оговорка, предел — и знаки препинания вокруг",
+  "level": "C1",
+  "group": "Связность и жанры",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Выбирать связку по тому, как на самом деле связаны мысли: «Выборка маленькая; nevertheless, картина одна и та же» — вопреки, «…; therefore, выводы осторожные» — поэтому. Добавить оговорку (that said), предел вывода (to the extent that), правильно расставить точки и запятые и звучать естественно в разговоре (actually, anyway).",
+  "formula": "уступка: nevertheless / even so · сравнение: by contrast · две стороны: on the other hand · следствие: consequently / as a result · пояснение: in other words · оговорка: that said / granted · предел: to the extent that / insofar as · X. However, Y. / X; however, Y.",
+  "keyRule": {
+    "rule": "Сначала реши, как связаны мысли: «поэтому», «вопреки», «а вот» или «при этом», — потом бери слово.",
+    "example": "The sample was small; nevertheless, the pattern was clear. — Выборка была маленькой; тем не менее картина была чёткой.",
+    "check": "Вторая мысль следует из первой или случилась ей вопреки?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-connectors-basic",
+    "path-purpose-contrast",
+    "path-argument-essay"
+  ],
+  "recycles": [
+    "path-purpose-contrast",
+    "path-argument-essay"
+  ],
+  "teaches": [
+    "связка — подсказка читателю, как связана следующая мысль; связь, которой нет, она не создаёт",
+    "уступка «всё равно, вопреки»: nevertheless, nonetheless, even so; however — общий поворот, nevertheless — только «вопреки»",
+    "by contrast / in contrast — две разные вещи рядом; on the other hand — другая сторона того же вопроса, не «кроме того»",
+    "следствие: consequently, as a result; thus — книжно; пояснение: in other words, that is",
+    "оговорка: that said — «при этом», granted — «допустим»; мысль не отменяется",
+    "предел вывода: to the extent that / insofar as — «в той мере, в какой»; не путать с as long as",
+    "пунктуация: X. However, Y. · X; however, Y. · X, but Y. · The group, however, …; X, however Y — ошибка",
+    "не каждой фразе нужна связка: this + слово из прошлой мысли часто связывает лучше",
+    "в разговоре: actually — «на самом деле», I mean — уточняю себя, anyway — к главному, so — к итогу"
+  ],
+  "sources": [
+    {
+      "title": "UNC Writing Center · Transitions",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/transitions/",
+      "notes": "Сверено: переходы говорят читателю, как понимать связь мыслей, но не заменяют хорошую структуру; если связать мысли трудно, проблема может быть в порядке, и полезно сначала записать главную мысль каждого абзаца. Отсюда правило «сначала связь, потом слово» и проверка «убери все связки»."
+    },
+    {
+      "title": "Purdue OWL · Transitional Devices",
+      "url": "https://owl.purdue.edu/owl/general_writing/mechanics/transitions_and_transitional_devices/transitional_devices.html",
+      "notes": "Сверено: деление связок по задачам — сравнение (by comparison, in contrast, conversely, on the other hand), исключение и уступка (nevertheless, still, however), следствие (consequently, as a result, thus, hence), пояснение (that is), добавление (moreover, in addition). Отсюда группы во втором разделе."
+    },
+    {
+      "title": "Englex · Linking words в английском языке",
+      "url": "https://englex.ru/linking-words/",
+      "notes": "Сверено: русскоязычное объяснение групп связок и их места — наречия вроде therefore стоят в начале фразы и выделяются запятой, despite и because of идут с существительным, although — с целой фразой. Отсюда напоминание о разнице although / despite и nevertheless в задании e7."
+    }
+  ],
+  "visual": {
+    "title": "Одни факты — четыре разных довода",
+    "why": "Связка не украшает фразу, а говорит, как вторая мысль относится к первой.",
+    "kind": "contrast",
+    "items": [
+      {
+        "label": "Следствие",
+        "en": "The data were incomplete; therefore, we ran the survey again.",
+        "ru": "Данные были неполными; поэтому мы провели опрос ещё раз.",
+        "note": "Второе произошло из-за первого."
+      },
+      {
+        "label": "Вопреки",
+        "en": "The data were incomplete; even so, the trend was clear.",
+        "ru": "Данные были неполными; и всё же тенденция была ясна.",
+        "note": "Второе верно, несмотря на первое."
+      },
+      {
+        "label": "Две разные вещи",
+        "en": "Last year's data were incomplete. This year's, by contrast, cover every school.",
+        "ru": "Прошлогодние данные были неполными. Нынешние, напротив, охватывают все школы.",
+        "note": "Рядом поставлены два разных случая."
+      },
+      {
+        "label": "Предел вывода",
+        "en": "The trend holds only to the extent that the missing schools are similar.",
+        "ru": "Тенденция верна лишь в той мере, в какой пропущенные школы похожи на остальные.",
+        "note": "Вывод верен, пока верно условие."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Связка — подсказка читателю: как связана следующая мысль",
+      "body": "Ты пишешь отчёт о пробном курсе. Учеников было всего двенадцать. Следующую фразу можно начать двумя способами.\n\nThe sample was small; therefore, we should be careful with the results. Здесь маленькая выборка — причина осторожности.\n\nThe sample was small; nevertheless, the pattern was the same in all three groups. Здесь картина устойчива вопреки маленькой выборке.\n\nФакты одни и те же, а доводы разные. Связка (linking word) — слово, которое говорит читателю, как вторая мысль относится к первой: это следствие, уступка, сравнение, пояснение или предел.\n\nТы уже знаешь but, so, although, despite, whereas, however, therefore, in addition и admittedly. Этот урок добавляет слова точнее: nevertheless, by contrast, consequently, that said, in other words, to the extent that. По-русски это «тем не менее», «напротив», «следовательно», «при этом», «иначе говоря», «в той мере, в какой».\n\nПредел у связки такой: она не создаёт связь, которой нет. Если второй вывод не следует из первого, therefore его не спасёт: читатель заметит скачок. Сначала спроси себя, какая связь между мыслями. Слово выбирай потом."
+    },
+    {
+      "title": "Пять связей и точные слова для них",
+      "body": "Вопреки: nevertheless, nonetheless, even so — «тем не менее», «и всё же». The course was expensive. Even so, most people finished it.\n\nДве разные вещи рядом: by contrast, in contrast — «напротив», «а вот». Group A met online. By contrast, group B met in person.\n\nДругая сторона того же вопроса: on the other hand — «с другой стороны». The app is free. On the other hand, it shows a lot of ads. Это не «кроме того»: для добавки нужны also, in addition.\n\nСледствие: consequently, as a result — «в результате»; thus — так же, но книжно. Пояснение: in other words, that is — «иначе говоря».\n\nHowever — общий поворот, он подходит почти к любому контрасту. Nevertheless уже: только «вопреки сказанному». The museum is free. However, the café is expensive. Nevertheless здесь не подходит: бесплатный музей не мешает кафе быть дорогим."
+    },
+    {
+      "title": "Оговорка и предел: that said, granted, to the extent that",
+      "body": "That said — «при этом», «впрочем». Эта связка идёт после сильной мысли и добавляет оговорку, но саму мысль не отменяет: Flashcards are great for new words. That said, they won't teach you to use them in a sentence.\n\nGranted — «допустим», «согласен». Ты признаёшь довод другой стороны, а потом отвечаешь. Это похоже на admittedly из урока об эссе, но чаще звучит в разговоре.\n\nTo the extent that и insofar as — «в той мере, в какой». Вывод верен, только пока верно условие: The results apply to the extent that the groups are similar. Insofar as звучит книжно; в американской речи чаще to the extent that или only if.\n\nНе путай с as long as. As long as — условие для действия: You can borrow it as long as you return it. To the extent that говорит, насколько верен вывод."
+    },
+    {
+      "title": "Точка, точка с запятой и запятая",
+      "body": "However, nevertheless, therefore, consequently — это не but и не and. Две полные фразы они одной запятой не склеивают. It is expensive, however it saves time — ошибка.\n\nВерно так: It is expensive. However, it saves time. Или с точкой с запятой: It is expensive; however, it saves time. Или через but: It is expensive, but it saves time. Внутри фразы связка стоит между запятыми: The second group, however, did not improve.\n\nНе каждой фразе нужна связка. Moreover в начале каждого абзаца утомляет. Часто лучше связывает this + слово из прошлой мысли: This delay cost us a week.\n\nПроверка: убери из абзаца все связки и прочитай. Если логика совсем пропала, дело не в словах, а в порядке мыслей."
+    },
+    {
+      "title": "В разговоре: actually, I mean, anyway, so",
+      "body": "В живой речи связки другие. Actually — «на самом деле»: поправка или неожиданный факт. Это не «актуально». I mean — уточняешь или поправляешь себя: It was cheap — I mean, cheaper than I expected. Anyway — возвращаешься к главному после отступления или закрываешь тему. So — переходишь к итогу или следующему шагу: So, what do we do next?\n\nThat said и even so звучат и в речи, и на письме. А nevertheless, consequently и insofar as в разговоре звучат как текст, прочитанный вслух. В отчёте наоборот: actually и anyway там почти не нужны."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The sample was small; nevertheless, the pattern was the same in all three groups.",
+      "ru": "Выборка была маленькой; тем не менее картина была одинаковой во всех трёх группах.",
+      "why": "Картина устойчива вопреки маленькой выборке."
+    },
+    {
+      "en": "The sample was small; therefore, we should treat the results with caution.",
+      "ru": "Выборка была маленькой; поэтому к результатам нужно относиться осторожно.",
+      "why": "Те же факты, но маленькая выборка — причина осторожности."
+    },
+    {
+      "en": "Group A studied online. By contrast, group B met in person twice a week.",
+      "ru": "Группа A занималась онлайн. Группа B, напротив, встречалась очно дважды в неделю.",
+      "why": "Две разные вещи рядом — сравнение, а не уступка."
+    },
+    {
+      "en": "Fewer people signed up this year. As a result, two classes were canceled.",
+      "ru": "В этом году записалось меньше людей. В результате два класса отменили.",
+      "why": "Второе произошло из-за первого."
+    },
+    {
+      "en": "The plan works well for small teams. That said, nobody has tried it with fifty people.",
+      "ru": "План хорошо работает в маленьких командах. При этом с пятьюдесятью людьми его никто не пробовал.",
+      "why": "Сильная мысль остаётся, оговорка показывает её границу."
+    },
+    {
+      "en": "These tips help only to the extent that you use them every day.",
+      "ru": "Эти советы помогают лишь в той мере, в какой ты пользуешься ими каждый день.",
+      "why": "Польза зависит от условия: насколько выполняешь, настолько и помогает."
+    },
+    {
+      "en": "It was cheap — I mean, cheaper than I expected. Anyway, it works.",
+      "ru": "Было дёшево — то есть дешевле, чем я ожидал. В общем, он работает.",
+      "why": "Разговорные связки: I mean уточняет, anyway возвращает к главному."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь короткий отчёт о летнем курсе. Переведи: «Курс был коротким; тем не менее почти все сдали итоговый тест».",
+      "context": "",
+      "guidance": {
+        "title": "Nevertheless — «и всё же, вопреки этому»",
+        "body": "Первая мысль — помеха, вторая случилась ей вопреки. Если вторая следует из первой, нужен therefore, а не nevertheless.",
+        "example": "The train was late; nevertheless, we got to the wedding on time.",
+        "translation": "Поезд опоздал; тем не менее мы успели на свадьбу вовремя."
+      },
+      "hint": "Начни так: The course was short; nevertheless, … «Сдать тест» — pass the test.",
+      "answers": [
+        "The course was short; nevertheless, almost everyone passed the final test.",
+        "The course was short. Nevertheless, almost everyone passed the final test.",
+        "The course was short; nonetheless, almost everyone passed the final test.",
+        "The course was short. Even so, almost everyone passed the final test.",
+        "The course was short; nevertheless, nearly everyone passed the final test."
+      ],
+      "explanation": "Короткий курс мешал сдать тест, но почти все сдали — это «вопреки». Nonetheless и even so тоже верны. После точки с запятой или точки — связка и запятая."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Подруга выбирает онлайн-курс английского. Курс A: учишься в своём темпе, сроков нет. Курс B: твёрдое расписание и живой созвон раз в неделю. Напиши ей одну-две фразы с by contrast, чтобы она увидела разницу.",
+      "context": "self-paced — в своём темпе; live call — живой созвон.",
+      "guidance": {
+        "title": "By contrast — две разные вещи рядом",
+        "body": "Сначала опиши первую вещь, потом с by contrast — вторую по тому же признаку. Здесь нет «вопреки», есть только «а вот».",
+        "example": "The old phone lasts two days on one charge. The new one, by contrast, needs charging every night.",
+        "translation": "Старый телефон работает два дня на одной зарядке. Новый, напротив, нужно заряжать каждый вечер."
+      },
+      "hint": "Начни так: Course A is self-paced and has no deadlines. By contrast, …",
+      "answers": [
+        "Course A is self-paced and has no deadlines. By contrast, Course B has a fixed schedule and a live call every week.",
+        "Course A lets you study at your own pace with no deadlines. Course B, by contrast, follows a fixed schedule with a weekly live call.",
+        "Course A is self-paced, with no deadlines. In contrast, Course B has a fixed schedule and weekly live calls."
+      ],
+      "explanation": "By contrast или in contrast ставят рядом два разных курса по одному признаку — расписанию. Nevertheless здесь не подходит: один курс не мешает другому."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега написал отзыв о курсе: «The course is cheap. On the other hand, it has excellent reviews. The teacher is new; therefore, the students love her.» Исправь две связки, которые говорят не то, что он имел в виду.",
+      "context": "",
+      "guidance": {
+        "title": "On the other hand — не «кроме того»",
+        "body": "On the other hand вводит другую сторону: минус после плюса или наоборот. Если это ещё один плюс — нужны also, in addition, what's more.",
+        "example": "The apartment is close to work. In addition, it has a big kitchen.",
+        "translation": "Квартира близко к работе. Кроме того, в ней большая кухня."
+      },
+      "hint": "Хорошие отзывы — ещё один плюс или минус? Новый учитель — причина любви студентов или помеха?",
+      "answers": [
+        "The course is cheap. In addition, it has excellent reviews. The teacher is new; nevertheless, the students love her.",
+        "The course is cheap. It also has excellent reviews. The teacher is new; even so, the students love her.",
+        "The course is cheap. What's more, it has excellent reviews. The teacher is new; nevertheless, the students love her.",
+        "The course is cheap, and it has excellent reviews. The teacher is new. Even so, the students love her."
+      ],
+      "explanation": "Отзывы — ещё один плюс, поэтому in addition, also или what's more. Новый учитель не причина любви, а то, что ей могло помешать, — значит nevertheless или even so."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Друг уверен: «Flashcard apps are the fastest way to build vocabulary». Согласись с ним в одной фразе, а во второй с that said добавь честную оговорку.",
+      "context": "flashcard — карточка со словом.",
+      "guidance": {
+        "title": "That said — оговорка, а не отказ",
+        "body": "После that said мысль остаётся верной, ты только показываешь её границу. Если ты с мыслью совсем не согласен, нужно however или прямое возражение.",
+        "example": "Running is great for your heart. That said, it can be hard on your knees.",
+        "translation": "Бег отлично укрепляет сердце. При этом он может быть тяжёл для коленей."
+      },
+      "hint": "Начни так: Flashcard apps are a fast way to… Чему карточки не научат?",
+      "answers": [
+        "Flashcard apps are a fast way to build vocabulary. That said, they won't teach you how to use the words in real sentences.",
+        "You're right that flashcard apps help you learn a lot of words quickly. That said, knowing a word on a card isn't the same as using it in conversation.",
+        "Flashcards really are fast for learning new words. That said, you still need to read and listen to see how the words are actually used."
+      ],
+      "explanation": "Засчитывается, если первая фраза соглашается, а вторая с that said ограничивает мысль, не отменяя её. Отказ вроде That said, flashcards are useless — уже не оговорка."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь вывод в отчёт о новой методике в одной школе. Переведи: «Эти результаты применимы к другим школам лишь в той мере, в какой ученики там похожи».",
+      "context": "",
+      "guidance": {
+        "title": "Предел вывода",
+        "body": "To the extent that и insofar as говорят, насколько далеко можно перенести вывод. Only перед ними подчёркивает, что дальше этого условия вывод не идёт.",
+        "example": "The survey speaks for all customers only to the extent that the people who answered are typical.",
+        "translation": "Опрос говорит обо всех клиентах лишь в той мере, в какой ответившие типичны."
+      },
+      "hint": "Начни так: These results apply to other schools only… Ученики «похожи» — are similar.",
+      "answers": [
+        "These results apply to other schools only to the extent that the students there are similar.",
+        "These results apply to other schools only insofar as the students there are similar.",
+        "These results apply to other schools only to the extent that their students are similar.",
+        "These results can be applied to other schools only to the extent that the students there are similar."
+      ],
+      "explanation": "Оба варианта, to the extent that и insofar as, верны; insofar as звучит книжнее. As long as здесь не подходит: это условие для действия, а не мера, в которой верен вывод."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В черновике отчёта три ошибки с запятыми. Перепиши фразы правильно: «The plan is expensive, however it could save time. Sales went down in March, consequently the store cut its hours. The first group improved quickly, the second group by contrast did not change.»",
+      "context": "",
+      "guidance": {
+        "title": "However — не but: нужна точка или точка с запятой",
+        "body": "Между двумя полными фразами перед however, consequently и by contrast ставь точку или точку с запятой. Если связка стоит внутри фразы, выдели её запятыми с двух сторон.",
+        "example": "The bus was full; therefore, we walked. The weather, however, was perfect.",
+        "translation": "Автобус был переполнен; поэтому мы пошли пешком. Погода, впрочем, была отличная."
+      },
+      "hint": "Сколько полных фраз в каждой строке? Где у by contrast не хватает запятой?",
+      "answers": [
+        "The plan is expensive; however, it could save time. Sales went down in March; consequently, the store cut its hours. The first group improved quickly; the second group, by contrast, did not change.",
+        "The plan is expensive. However, it could save time. Sales went down in March. Consequently, the store cut its hours. The first group improved quickly. The second group, by contrast, did not change.",
+        "The plan is expensive, but it could save time. Sales went down in March; as a result, the store cut its hours. The first group improved quickly. By contrast, the second group did not change."
+      ],
+      "explanation": "Точка или точка с запятой перед связкой и запятая после неё — оба способа верны. Можно заменить however на but с запятой. By contrast внутри фразы выделяется запятыми с двух сторон."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты споришь, что бесплатное приложение — не лучший способ учить язык. Собеседник напоминает, что оно бесплатное. Перепиши фразу «Although the app is free, most users stop using it after a week» двумя отдельными фразами: в первой признай его довод через admittedly, во второй ответь через nevertheless.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: although — внутри фразы, nevertheless — между фразами",
+        "body": "Вспоминаем B1: although и despite связывают части одной фразы. Admittedly из урока об эссе признаёт довод другой стороны. Nevertheless начинает новую фразу и отвечает на него.",
+        "example": "Admittedly, the gym is close to my office. Nevertheless, I rarely have time to go.",
+        "translation": "Надо признать, спортзал рядом с моим офисом. Тем не менее у меня редко есть время туда ходить."
+      },
+      "hint": "Начни так: Admittedly, the app is free. Nevertheless, … Although из второй версии убери.",
+      "answers": [
+        "Admittedly, the app is free. Nevertheless, most users stop using it after a week.",
+        "Admittedly, the app is free. Nevertheless, most people stop using it after a week.",
+        "Admittedly, the app is free. Nonetheless, most users stop using it after a week.",
+        "Admittedly, the app costs nothing. Nevertheless, most users stop using it after a week."
+      ],
+      "explanation": "Although во второй версии не нужен: уступку теперь несёт admittedly, ответ — nevertheless. Although the app is free. Nevertheless… — ошибка: часть с although не может стоять одна."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "На форуме для взрослых, которые учат языки, спрашивают: «Что лучше — длинные занятия по два-три часа или короткие по 20 минут?» Напиши ответ на 150–250 слов. Что должно быть: твоя позиция одной фразой; честное признание сильного довода другой стороны (admittedly или granted); ответ через nevertheless или even so; сравнение двух форматов с by contrast; одно следствие (consequently или as a result), которое действительно следует; предел твоего совета (to the extent that); хотя бы одна связь без связки — this + слово из прошлой мысли. Без запятых вместо точек перед however.",
+      "context": "",
+      "hint": "План: позиция → Admittedly, … → Nevertheless, … → By contrast, … → As a result, … → совет с to the extent that.",
+      "answers": [
+        "For most adult learners, I think short daily sessions work better than long weekly ones.\n\nAdmittedly, long sessions have a real advantage. Some tasks, like reading a difficult chapter or writing an essay, need time to get going, and stopping after twenty minutes can break your concentration. Nevertheless, most of us don't spend long sessions at full attention. After the first hour, we're often still at the desk but no longer really learning. As a result, the hours on the clock tell us very little about how much we actually remember.\n\nShort sessions, by contrast, are easy to fit around work and family. Because you come back to the material every day, you also review it more often, and this repetition is what makes new words stick.\n\nThat said, I wouldn't throw out long sessions completely. Keep them for the work that really needs continuity, and take breaks at natural stopping points. My advice works only to the extent that the short sessions actually happen every day: twenty minutes that you skip three times a week are worse than one honest long session."
+      ],
+      "explanation": "Засчитывается, если есть позиция, честная уступка с admittedly или granted, ответ с nevertheless или even so, сравнение с by contrast, следствие, которое правда вытекает из прошлой мысли, предел с to the extent that и хотя бы одна связь через this + слово. Можно защищать и длинные занятия."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг спрашивает, стоит ли ему ходить в еженедельный разговорный клуб, где нет преподавателя и ошибки никто не исправляет. Ответь ему вслух за 2–3 минуты. Что должно быть: твоя позиция; серьёзный минус (granted или that said); почему часть пользы всё равно остаётся (even so); хотя бы две разговорные связки — actually, I mean, anyway, so; в конце совет с пределом: при каком условии клуб полезен.",
+      "context": "",
+      "hint": "Начни так: Honestly, I think you should go… Минус: Granted, nobody there will… Конец: So my advice is… as long as… / only if…",
+      "answers": [
+        "Honestly, I think you should go, but not for the reason most people expect.\n\nGranted, there's a big problem. Nobody in that club is going to correct you. If you say something wrong, the others will probably understand you anyway and just keep talking. So some of your mistakes might stick, and going every week won't prove that your English is getting more accurate.\n\nEven so, I think part of the benefit stays. Actually, correction isn't the only thing you need. You also need practice taking turns, asking people to repeat things, and explaining an idea again when it didn't come out right the first time. I mean, that's exactly what you can't do with an app. And a club gives you a regular reason to speak, which is hard to find as an adult.\n\nThat said, I wouldn't make it your only practice. Get feedback somewhere else too — a tutor once a month, or recording yourself and checking it.\n\nAnyway, back to your question. So my advice is: go, but only if you actually get to talk. If one or two people do all the talking every week, the benefit gets much smaller, and you'd be better off finding a different group."
+      ],
+      "explanation": "Засчитывается, если есть позиция, честный минус, ответ «польза всё равно есть» с even so, хотя бы две разговорные связки на своих местах и совет с условием. Расшифровка покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй абзац из письма руководителю. Связки в нём выбраны «для красоты» и местами говорят обратное. Исправь каждую неверную связку и ошибку с запятой, факты не меняй.\n\n\"Our team tried the new scheduling app for a month. Moreover, it was hard to set up at first. Moreover, two people never logged in. Therefore, the people who used it every day said it saved them about an hour a week. On the other hand, we also saved money on paper calendars. The app is not perfect, however it is worth keeping. Consequently, we should keep it only if everyone gets a short training session.\"",
+      "context": "",
+      "hint": "Для каждой связки спроси: это добавка, минус, «вопреки», следствие или условие? Первое moreover вообще ни к чему не добавляется.",
+      "answers": [
+        "Our team tried the new scheduling app for a month. Admittedly, it was hard to set up at first. In addition, two people never logged in. Nevertheless, the people who used it every day said it saved them about an hour a week. We also saved money on paper calendars. The app is not perfect; however, it is worth keeping. That said, we should keep it only if everyone gets a short training session.",
+        "Our team tried the new scheduling app for a month. At first, it was hard to set up, and two people never logged in. Even so, the people who used it every day said it saved them about an hour a week. In addition, we saved money on paper calendars. The app is not perfect, but it is worth keeping. However, we should keep it only if everyone gets a short training session."
+      ],
+      "explanation": "Первое moreover не к чему добавлять — нужно admittedly или at first. Therefore неверно: экономия времени случилась вопреки проблемам, а не из-за них. On the other hand вводит не другую сторону, а ещё один плюс. Перед however — точка с запятой или but. Consequently неверно: условие про обучение не следует из прошлой фразы, это оговорка (that said, however)."
+    }
+  ]
+}

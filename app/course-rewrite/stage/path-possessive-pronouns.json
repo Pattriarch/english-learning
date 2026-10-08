@@ -1,0 +1,372 @@
+{
+  "id": "path-possessive-pronouns",
+  "title": "Mine, myself, each other: «моё», «сам» и «друг друга»",
+  "subtitle": "Моё без вещи → чьё? → сам себя → один → друг друга",
+  "level": "A2",
+  "group": "Основа предложения",
+  "units": "Авторский маршрут · A2",
+  "minutes": 25,
+  "goal": "Сказать «Это моё», спросить «Чьё это?», а ещё — «Я порезался», «Я живу один» и «Мы помогаем друг другу».",
+  "formula": "It's my umbrella. → It's mine. → Whose is it? → I cut myself. → We help each other.",
+  "keyRule": {
+    "rule": "После слова стоит вещь — my. Вещи после него нет — mine.",
+    "example": "It's my bag — это моя сумка. It's mine — это моя.",
+    "check": "It's mine bag — так нельзя: после mine вещь не ставят."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 2,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-me-too"
+  ],
+  "recycles": [
+    "path-me-too",
+    "path-present-perfect-for-since"
+  ],
+  "teaches": [
+    "mine, yours, his, hers, ours, theirs — «мой, твой…» без вещи после: It's mine (не It's mine umbrella)",
+    "my + вещь или mine вместо вещи: My phone is black. Mine is black.",
+    "yours, hers, ours, theirs пишутся без апострофа; a friend of mine — один из моих друзей",
+    "Whose…? — «чей?»: Whose jacket is this? — It's Anna's. / It's hers; whose ≠ who's",
+    "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves — действие возвращается к тому же человеку: I cut myself",
+    "by myself — один, без помощи: I live by myself (= I live alone)",
+    "feel и relax — без myself: I feel tired (не I feel myself tired)",
+    "each other — друг друга: They help each other ↔ themselves — каждый сам себе",
+    "слова: umbrella, keys, jacket, cut — cut — cut, hurt — hurt — hurt, alone, text"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Possessives: pronouns",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/possessives-pronouns",
+      "notes": "Сверены формы mine, yours, his, hers, ours, theirs, правило без апострофа (yours, не your's), замена вещи (It's mine, не It's my car) и a friend of mine; у it такой формы нет."
+    },
+    {
+      "title": "British Council LearnEnglish · Reflexive pronouns",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2-grammar/reflexive-pronouns",
+      "notes": "Сверены формы на -self/-selves, случай «действие возвращается к тому же человеку» (I cut myself), by myself = «один» и разница themselves ↔ each other."
+    },
+    {
+      "title": "Skyeng · Possessive pronouns",
+      "url": "https://skyeng.ru/exercises/possessive-pronouns/",
+      "notes": "Объяснение для русскоговорящих: my перед вещью, mine без вещи; типичные ошибки — двойная форма (my mine pen) и mine перед вещью."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Моё, сам, друг друга",
+    "why": "Русские «мой» и «себя» по-английски бывают разными словами. Смотри, есть ли после слова вещь и кто кому что делает.",
+    "items": [
+      {
+        "label": "Вещь названа",
+        "en": "This is my umbrella.",
+        "ru": "Это мой зонт.",
+        "note": "После my стоит вещь."
+      },
+      {
+        "label": "Вещь не повторяем",
+        "en": "This umbrella is mine.",
+        "ru": "Этот зонт — мой.",
+        "note": "После mine ничего нет."
+      },
+      {
+        "label": "Сам себя",
+        "en": "I cut myself.",
+        "ru": "Я порезался.",
+        "note": "Действие вернулось к тому, кто его сделал."
+      },
+      {
+        "label": "Друг другу",
+        "en": "We help each other.",
+        "ru": "Мы помогаем друг другу.",
+        "note": "Один помогает другому, и наоборот."
+      }
+    ],
+    "footnote": "Feel и relax не берут myself: I feel tired — я чувствую себя усталым.",
+    "focus": [
+      "my umbrella",
+      "mine",
+      "myself",
+      "each other"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему нельзя сказать It's my — «это моё»",
+      "body": "У двери стоят два одинаковых чёрных зонта. Друг спрашивает: Is this your umbrella? — «Это твой зонт?» Ты хочешь ответить: «Нет, не мой. Мой синий». umbrella — зонт.\n\nMy («мой») ты знаешь из урока о местоимениях. После него всегда идёт вещь: my umbrella. Если вещь уже названа и ты её не повторяешь, нужна другая форма — mine: No, it isn't mine. Mine is blue. Mine значит «мой», но после него ничего не ставят.\n\nПо-русски «мой» одинаков в обоих случаях. По-английски это два слова: my + вещь и mine вместо вещи. It's mine umbrella — ошибка. It's my. — тоже ошибка: после my фраза оборвалась."
+    },
+    {
+      "title": "Yours, his, hers, ours, theirs",
+      "body": "Почти везде к знакомому слову добавляется -s: your → yours (твой, ваш), her → hers (её), our → ours (наш), their → theirs (их). My → mine — особая форма. His не меняется: This is his car. The car is his. Апострофа в этих словах нет: yours, а не your's.\n\nПосле of тоже ставят mine, yours…: a friend of mine — один из моих друзей, мой друг. A friend of me — ошибка."
+    },
+    {
+      "title": "Чей? — Whose…?",
+      "body": "Whose — «чей, чья, чьё, чьи». Его ставят первым, сразу за ним — вещь: Whose jacket is this? — Чья это куртка? Можно и без вещи: Whose is this? — Чьё это? Отвечают через 's или через mine, hers…: It's Anna's. It's hers. Whose звучит так же, как who's (= who is, «кто»). На письме их не путай."
+    },
+    {
+      "title": "Сам себя: myself, yourself, himself…",
+      "body": "Иногда действие возвращается к тому, кто его делает: «я порезался» — я порезал себя. Тогда после действия ставят слово на -self: I cut myself. Формы: myself, yourself, himself, herself, itself, ourselves, yourselves (вы, несколько человек), themselves.\n\nНо не каждое русское «-ся» или «себя» даёт myself. Feel («чувствовать себя») и relax («расслабляться») идут без него: I feel tired — я чувствую себя усталым. I feel myself tired — ошибка."
+    },
+    {
+      "title": "Один, без помощи: by myself",
+      "body": "By + myself значит «один, без других людей»: I live by myself — я живу один. She fixed the faucet by herself — она сама починила кран. То же «один» можно сказать словом alone: I live alone. Без by слово на -self подчёркивает «сам, лично»: I made it myself — я сделал это сам."
+    },
+    {
+      "title": "Друг друга: each other",
+      "body": "Each other — «друг друга, друг другу». Его ставят, когда двое или больше делают что-то один для другого: They help each other — они помогают друг другу. Не путай с themselves: They help themselves — каждый помогает сам себе. Русское «-ся» часто переводится именно так: We text each other every day — мы каждый день переписываемся (text — писать сообщения)."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Is this your coffee? — No, mine is on the table.",
+      "ru": "Это твой кофе? — Нет, мой на столе.",
+      "why": "Mine заменяет my coffee, чтобы не повторять coffee."
+    },
+    {
+      "en": "Whose keys are these? — They're Tom's.",
+      "ru": "Чьи это ключи? — Тома.",
+      "why": "Whose + вещь в начале вопроса. Ключей несколько, поэтому these и are."
+    },
+    {
+      "en": "The blue car is ours.",
+      "ru": "Синяя машина — наша.",
+      "why": "Ours стоит после is, и вещь после него не нужна."
+    },
+    {
+      "en": "Be careful! Don't hurt yourself.",
+      "ru": "Осторожно! Не ушибись.",
+      "why": "Hurt yourself — «сделать себе больно». По-русски хватает «-сь»."
+    },
+    {
+      "en": "My grandma lives by herself.",
+      "ru": "Моя бабушка живёт одна.",
+      "why": "By herself — одна, без других людей. grandma — бабушка."
+    },
+    {
+      "en": "Sam and Mia call each other every day.",
+      "ru": "Сэм и Мия созваниваются каждый день.",
+      "why": "Каждый звонит другому — each other. По-русски это «-ся» в «созваниваются»."
+    },
+    {
+      "en": "She's a friend of mine.",
+      "ru": "Она моя подруга.",
+      "why": "После of — mine, а не me. Смысл: одна из моих подруг."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "У двери два одинаковых чёрных зонта. Друг берёт один и спрашивает: Is this your umbrella? Ответь: «Нет, это не мой. Мой синий». blue — синий.",
+      "context": "",
+      "guidance": {
+        "title": "Мой без вещи — mine",
+        "body": "Зонт уже назван, повторять umbrella не нужно. Вместо my umbrella скажи mine. После mine ничего не ставят.",
+        "example": "Your phone is new. Mine is old.",
+        "translation": "Твой телефон новый. Мой старый."
+      },
+      "hint": "Две фразы: No, it isn't … . … is blue.",
+      "answers": [
+        "No, it isn't mine. Mine is blue.",
+        "No, it's not mine. Mine is blue.",
+        "No, it is not mine. Mine is blue.",
+        "No, that's not mine. Mine is blue.",
+        "No, that isn't mine. Mine is blue."
+      ],
+      "explanation": "Mine заменяет my umbrella в обеих фразах. It isn't my. — ошибка: после my нужна вещь."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега ушёл с совещания, а на столе остались ключи. Догони его, покажи на ключи и спроси: «Это твои?» keys — ключи.",
+      "context": "",
+      "guidance": {
+        "title": "Твой без вещи — yours",
+        "body": "Your работает так же, как my: перед вещью your, вместо вещи — yours. Ключей несколько, поэтому these и are.",
+        "example": "Is this jacket yours?",
+        "translation": "Эта куртка твоя?"
+      },
+      "hint": "Начни так: Are these … ? Какое слово заменит your keys?",
+      "answers": [
+        "Are these yours?",
+        "Are these keys yours?",
+        "Are these your keys?"
+      ],
+      "explanation": "Are these yours? — короткий вопрос без повтора keys. Are these your keys? тоже верно: там вещь названа, поэтому your. Your's — ошибка написания."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с подругой Лизой и её братом Беном уходите из кафе. На стуле две сумки. Официант спрашивает, чьи они. Покажи и скажи: «Эта сумка — её, а та — его». that one — та.",
+      "context": "",
+      "guidance": {
+        "title": "Её — hers, его — his",
+        "body": "Her без вещи получает -s: hers. His не меняется: одно слово и с вещью, и без неё.",
+        "example": "The red car is ours, and the white one is theirs.",
+        "translation": "Красная машина — наша, а белая — их."
+      },
+      "hint": "This bag is … , and that one is …",
+      "answers": [
+        "This bag is hers, and that one is his.",
+        "This bag is hers and that one is his.",
+        "This one is hers, and that one is his.",
+        "This bag is hers, and that bag is his."
+      ],
+      "explanation": "Hers — «её» без вещи, his — «его» и с вещью, и без. That one заменяет that bag."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На стуле в офисе висит чья-то куртка. Спроси коллег: «Чья это куртка?» jacket — куртка.",
+      "context": "",
+      "guidance": {
+        "title": "Чей? — Whose + вещь",
+        "body": "Whose — «чей». Ставь его первым, сразу за ним вещь, а потом is this, как в обычном вопросе.",
+        "example": "Whose car is that?",
+        "translation": "Чья это машина?"
+      },
+      "hint": "Начни так: Whose jacket …",
+      "answers": [
+        "Whose jacket is this?",
+        "Whose jacket is that?",
+        "Whose is this jacket?",
+        "Whose is that jacket?"
+      ],
+      "explanation": "Whose jacket — «чья куртка», дальше is this. Whose is this jacket? тоже верно. Who's jacket — ошибка: who's значит who is."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты готовил и порезал палец. Друг спрашивает: What happened? Ответь: «Я порезался». cut — cut — cut (резать): в прошлом форма та же.",
+      "context": "",
+      "guidance": {
+        "title": "Сам себя: myself",
+        "body": "Если действие возвращается к тому, кто его сделал, после действия ставят слово на -self. С I — myself, с he — himself, с she — herself.",
+        "example": "He hurt himself at the gym.",
+        "translation": "Он ушибся в спортзале."
+      },
+      "hint": "Начни так: I cut … Кого ты порезал?",
+      "answers": [
+        "I cut myself.",
+        "I cut my finger.",
+        "I cut myself when I was cooking.",
+        "I cut myself while I was cooking."
+      ],
+      "explanation": "I cut myself — «я порезал себя», по-русски просто «порезался». Без myself фраза не закончена. Можно и I cut my finger — «порезал палец»."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новая знакомая спрашивает: Do you live with your family? Ответь: «Нет, я живу один».",
+      "context": "",
+      "guidance": {
+        "title": "Один, без других: by myself",
+        "body": "By + myself значит «один» или «сам, без помощи». С she — by herself, с they — by themselves.",
+        "example": "She traveled to Mexico by herself.",
+        "translation": "Она съездила в Мексику одна."
+      },
+      "hint": "Начни так: No, I live … Какое маленькое слово стоит перед myself?",
+      "answers": [
+        "No, I live by myself.",
+        "No, I live alone.",
+        "No, I don't. I live by myself.",
+        "No, I don't. I live alone."
+      ],
+      "explanation": "By myself и alone значат одно и то же: «один». I live myself — ошибка: без by смысла «один» нет."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь о сестре: вы живёте в разных городах, но часто общаетесь. Скажи: «Мы с сестрой звоним друг другу каждый день». my sister and I — мы с сестрой.",
+      "context": "",
+      "guidance": {
+        "title": "Друг другу: each other",
+        "body": "Каждый делает действие для другого — ставь each other сразу после действия. Не путай с ourselves: это «каждый сам себе».",
+        "example": "Tom and Lisa help each other.",
+        "translation": "Том и Лиза помогают друг другу."
+      },
+      "hint": "Начни так: My sister and I call … Что встанет вместо «друг другу»?",
+      "answers": [
+        "My sister and I call each other every day.",
+        "My sister and I talk to each other every day.",
+        "We call each other every day."
+      ],
+      "explanation": "Each other — «друг другу»: сестра звонит тебе, ты — ей. To после call не нужен. Ourselves значило бы, что каждый звонит сам себе."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Одногруппник по курсу хотел сказать: «Я сегодня чувствую себя усталым». Он написал: I feel myself tired today. Исправь фразу.",
+      "context": "",
+      "guidance": {
+        "title": "Не каждое «себя» — myself",
+        "body": "Русское «чувствую себя» дословно не переводится. После feel сразу идёт состояние: feel good, feel sick.",
+        "example": "I feel great today.",
+        "translation": "Я сегодня отлично себя чувствую."
+      },
+      "hint": "Какое слово лишнее? Feel + как ты себя чувствуешь.",
+      "answers": [
+        "I feel tired today.",
+        "I'm tired today.",
+        "I'm feeling tired today."
+      ],
+      "explanation": "После feel сразу состояние: I feel tired. Myself здесь лишний. I'm tired today тоже передаёт смысл."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «я тоже» и since. Друг пишет: My apartment is really small. I've lived in it since 2022. Ответь: «Моя тоже. А я живу в своей с 2024 года».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: So is mine и since",
+        "body": "Вспоминаем «я тоже»: помощник берём из первой фразы — здесь is. Mine встаёт на место I: Mine is too или So is mine. Срок до сейчас — have + третья форма и since.",
+        "example": "My car is old. — Mine is too. I've had mine since 2015.",
+        "translation": "Моя машина старая. — Моя тоже. Она у меня с 2015 года."
+      },
+      "hint": "Первая фраза: Mine is … или So is … Вторая: I've lived in …",
+      "answers": [
+        "Mine is too. I've lived in mine since 2024.",
+        "So is mine. I've lived in mine since 2024.",
+        "Mine is too. I've lived in my apartment since 2024.",
+        "So is mine. I've lived in my apartment since 2024.",
+        "Mine too. I've lived in mine since 2024."
+      ],
+      "explanation": "My apartment is → Mine is too или So is mine: помощник is из фразы друга. In mine — «в своей»: квартира уже названа. 2024 — точка начала, поэтому since и have lived."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "После вечеринки у тебя дома остались вещи гостей. Напиши в общий чат 3–4 фразы: что ты нашёл, спроси, чьё это, и скажи, какая вещь твоя, а какая — Анны.",
+      "context": "Ты нашёл: чёрный зонт (твой), синюю куртку (Анны), ключи (неизвестно чьи). find — found — found (находить).",
+      "hint": "Опоры: I found … / Whose … ? / The … is mine. / The … is Anna's.",
+      "answers": [
+        "Hi everyone! I found some keys, a black umbrella, and a blue jacket. The umbrella is mine, and the jacket is Anna's. Whose keys are these?",
+        "I found a blue jacket and some keys in my apartment. The jacket is Anna's. Whose keys are they? The black umbrella is mine."
+      ],
+      "explanation": "Засчитывается, если есть вопрос с whose и хотя бы одно «моё» или «её» без вещи после него: mine, hers или Anna's."
+    },
+    {
+      "id": "e11",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух о своей жизни 3–5 фразами: что ты делаешь сам или один (by myself), с кем вы помогаете или звоните друг другу, и сравни одну свою вещь с вещью друга или подруги через mine и his или hers.",
+      "context": "cook — готовить, help — помогать, text — писать сообщения, the gym — спортзал.",
+      "hint": "Опоры: I … by myself. My friend and I … each other. My … is …, and his / hers is …",
+      "answers": [
+        "I live by myself, and I cook for myself. My brother and I help each other a lot. My car is old, but his is new.",
+        "I usually go to the gym by myself. My best friend and I text each other every day. Her phone is new, and mine is old."
+      ],
+      "explanation": "Засчитывается любой честный рассказ, где есть by myself (или другое слово на -self), each other и одно слово вроде mine или hers без вещи после него."
+    }
+  ]
+}

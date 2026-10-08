@@ -1,0 +1,344 @@
+{
+  "id": "path-clefts",
+  "title": "It was Maya who called, What I need is time: как сказать «именно»",
+  "subtitle": "It was + деталь + who/that → It's not X, it's Y → What I need is… → What I did was + глагол → The person who…, All I…",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Поправить собеседника или выделить главное, как русским «именно» и «вот что мне нужно»: «Позвонила именно Майя, а не Лиза», «Меня беспокоит не цена, а срок», «Мне нужен не совет, а план».",
+  "formula": "Maya called. → It was Maya who called. · I need a plan. → What I need is a plan.",
+  "guided": true,
+  "keyRule": {
+    "rule": "Хочешь сказать «именно» — поставь это слово после It was, а остальное — после who или that.",
+    "example": "It was Maya who called — позвонила именно Майя.",
+    "check": "Хочешь назвать главное в самом конце? Начни с What: What I need is time."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-relative-advanced",
+    "extended-b2-regret-emphasis",
+    "path-inversion"
+  ],
+  "recycles": [
+    "path-relative-advanced",
+    "extended-b2-regret-emphasis"
+  ],
+  "teaches": [
+    "It is / It was + выделенная деталь + who (человек) или that (всё остальное) + остальная фраза",
+    "время, место, причина — с that, не с who: It was in March that…, It was because of the snow that…",
+    "поправка в одной фразе: It's not the price that worries me — it's the delivery time",
+    "What + кто + глагол + is/was + главное: What I need is a plan; What surprised me was…",
+    "действие: What I did was call the bank — глагол в начальной форме",
+    "The person who…, The reason (why)…, The place where…, All I… — «единственное, что»",
+    "в разговоре It was me who…; глагол после who согласуется с выделенным словом",
+    "чем отличается от I did send it (подтвердить действие) и от ударения голосом"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Emphasis: cleft sentences, inversion and auxiliaries (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries",
+      "notes": "Сверено: It + be + выделенная часть + who/that; одну фразу можно расщепить по человеку, времени или событию; what-фраза + be + главное, what-часть можно поставить в конец; действие: What we did next was phone the client (начальная форма); после what при множественном возможны оба глагола."
+    },
+    {
+      "title": "VOA Learning English · Everyday Grammar: Cleft Sentences in Speaking, Writing",
+      "url": "https://learningenglish.voanews.com/a/cleft-sentences-in-speaking-writing/5164836.html",
+      "notes": "Сверено: It was + выделенная часть + who/that/when + то, что слушатель уже знает; It was чаще всего; на письме расщеплённая фраза заменяет ударение голосом, в речи it-фразы тоже частые; отрицание It wasn't the girls who… В разговоре со временем встречается when: It was yesterday when…"
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна новость — выделяем разные детали",
+    "why": "Исходная фраза: Maya sent the file on Monday. Каждый вариант отвечает на свой спор: кто, когда, что именно.",
+    "items": [
+      {
+        "label": "Кто?",
+        "en": "It was Maya who sent the file.",
+        "ru": "Файл отправила именно Майя.",
+        "note": "Человек — who."
+      },
+      {
+        "label": "Когда?",
+        "en": "It was on Monday that Maya sent the file.",
+        "ru": "Майя отправила файл именно в понедельник.",
+        "note": "Время — that, не who."
+      },
+      {
+        "label": "Главное — в конце",
+        "en": "What Maya sent was the old file.",
+        "ru": "Майя отправила как раз старый файл.",
+        "note": "Сначала тема, ответ — последним."
+      }
+    ],
+    "footnote": "It здесь пустое слово, как в It's cold. Его не переводят.",
+    "focus": [
+      "It was Maya who",
+      "It was on Monday that",
+      "What Maya sent was"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как сказать «именно», если нельзя выделить голосом",
+      "body": "Коллега пишет: «Лиза отправила клиенту не тот файл». Ты знаешь, что отправила Майя. По-русски скажешь: «Отправила именно Майя» или просто выделишь «Майя» голосом.\n\nВ письме голоса нет. Английский разрезает фразу на две части: It was Maya who sent the file. Первая часть — It was + то, что ты выделяешь. Вторая — остальное, что оба уже знают: кто-то отправил файл.\n\nIt здесь пустое слово, как в It's cold. Его не переводят. Who — то же слово, что в придаточных: the woman who…\n\nТакую фразу называют cleft sentence — «расщеплённая фраза». Она нужна, когда есть спор или вопрос: кто? когда? что именно? В начале новой истории, где никто ни о чём не спорил, она звучит странно: It was a dog that I saw yesterday — слушатель не понимает, с чем ты споришь."
+    },
+    {
+      "title": "It is / It was … who / that: что можно выделить",
+      "body": "После It was можно поставить человека, вещь, время, место или причину.\nЧеловек — who (в разговоре и that): It was my brother who fixed the sink.\nВсё остальное — that: It was in Chicago that they met. It was because of the traffic that we were late. О времени в разговоре слышно и when: It was yesterday when…, но that верно всегда.\n\nIs или was берут по смыслу: сейчас — It's the noise that bothers me, в прошлом — It was the noise that woke me up.\n\nПоправка в одной фразе: It's not the price that worries me — it's the delivery time. «Меня беспокоит не цена, а срок».\n\nДве частые ошибки. Глагол после who согласуют с выделенным словом: It's the neighbors who are noisy, а не who is. Местоимение в разговоре — me: It was me who called. It was I who called звучит очень книжно."
+    },
+    {
+      "title": "What I need is…: сначала тема, главное в конце",
+      "body": "Второй способ ставит главное в самый конец, где оно лучше запоминается. What + кто + глагол — это «то, что…». Потом is или was и главное слово.\nWhat I need is a quiet room — «Что мне нужно, так это тихая комната».\nWhat surprised me was her calm — «Меня удивило её спокойствие».\nWhat happened was (that) the system crashed — «Случилось вот что: система упала».\n\nЕсли выделяешь само действие, после was ставь глагол в начальной форме: What I did was call the bank — «Я сделал вот что: позвонил в банк». Через It was действие не выделишь.\n\nОшибки: What I need it is… (лишнее it), What I need is that more time (лишнее that). С несколькими вещами американцы говорят и is, и are: What we need is / are more volunteers. Is — всегда безопасно."
+    },
+    {
+      "title": "The person who…, All I…: родственники из разговора",
+      "body": "Вместо What можно начать с обычного слова:\nThe person who helped me most was my aunt — «Больше всех мне помогла тётя».\nThe reason (why) I'm calling is that… — «Я звоню вот почему…».\nThe place where we met is closed now.\n\nAll I… is — «единственное, что», а не «всё»: All I want is a quiet weekend — «Я хочу только спокойных выходных». All I did was ask a question — «Я всего лишь задал вопрос».\n\nОчень американское начало разговора — The thing is, … — «Дело в том, что…»: The thing is, I already promised to help my sister."
+    },
+    {
+      "title": "Чем это отличается от I did send it и от ударения",
+      "body": "Ты уже знаешь do-усиление: I did send it — «Я правда отправил». Оно спорит с тем, было ли действие вообще. Расщеплённая фраза спорит с одной деталью: It was on Monday that I sent it — «Отправил я именно в понедельник», а не во вторник.\n\nВ живой речи американцы часто просто выделяют слово голосом: MAYA sent it. На письме для этого и нужна расщеплённая фраза.\n\nСледи за тоном. It's YOU who need to apologize звучит как обвинение. What would help is a short call — мягкая просьба. Одной такой фразы на абзац хватает — там, где ты поправляешь или называешь главное."
+    }
+  ],
+  "examples": [
+    {
+      "en": "It was Maya who sent the file, not Lisa.",
+      "ru": "Файл отправила именно Майя, а не Лиза.",
+      "why": "Поправка про человека: после It was — Майя, после who — то, что оба знают."
+    },
+    {
+      "en": "It was because of the storm that the game was canceled.",
+      "ru": "Игру отменили именно из-за грозы.",
+      "why": "Выделена причина, поэтому that, а не who."
+    },
+    {
+      "en": "It's not the price that worries me — it's the delivery time.",
+      "ru": "Меня беспокоит не цена, а срок доставки.",
+      "why": "Неверная деталь отрицается, верная названа после it's."
+    },
+    {
+      "en": "What I need is a clear answer by Friday.",
+      "ru": "Что мне нужно, так это ясный ответ к пятнице.",
+      "why": "Тема — в начале, главное — в самом конце."
+    },
+    {
+      "en": "What she did was write to the manager directly.",
+      "ru": "Она сделала вот что: написала менеджеру напрямую.",
+      "why": "Выделено действие: после was глагол в начальной форме."
+    },
+    {
+      "en": "All I did was ask a question.",
+      "ru": "Я всего лишь задал вопрос.",
+      "why": "All здесь «единственное, что», а не «всё»."
+    },
+    {
+      "en": "The reason I'm calling is that the delivery is late.",
+      "ru": "Я звоню, потому что доставка опаздывает.",
+      "why": "Разговорный способ сразу назвать причину звонка."
+    },
+    {
+      "en": "I did send it. It was on Monday that I sent it.",
+      "ru": "Я правда отправил. Отправил именно в понедельник.",
+      "why": "Did send подтверждает действие, It was … that выделяет день."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В рабочем чате думают, что ссылку на отчёт прислала Лиза. Поправь: «Ссылку прислала именно Майя, а не Лиза». link — ссылка.",
+      "context": "",
+      "guidance": {
+        "title": "It was + человек + who",
+        "body": "Выделенный человек стоит сразу после It was. После who — остальная фраза, которую оба уже знают: кто-то прислал ссылку.",
+        "example": "It was my brother who fixed the sink, not the plumber.",
+        "translation": "Раковину починил именно мой брат, а не сантехник."
+      },
+      "hint": "Начни так: It was Maya who …",
+      "answers": [
+        "It was Maya who sent the link, not Lisa.",
+        "It was Maya that sent the link, not Lisa.",
+        "It was Maya, not Lisa, who sent the link.",
+        "It was Maya who sent us the link, not Lisa.",
+        "It was Maya who sent the link to the report, not Lisa.",
+        "It wasn't Lisa who sent the link, it was Maya.",
+        "It wasn't Lisa who sent the link — it was Maya."
+      ],
+      "explanation": "It was Maya who sent the link: выделена Майя, остальное — после who. That вместо who в разговоре тоже встречается. Вариант It wasn't Lisa…, it was Maya тоже верен."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Начальник считает, что вы опоздали из-за будильника. Поправь: «Мы опоздали именно из-за пробки на мосту». traffic — пробка, движение; bridge — мост.",
+      "context": "",
+      "guidance": {
+        "title": "Время, место, причина — that",
+        "body": "Если выделяешь не человека, а когда, где или почему, после детали ставь that. Who здесь не подходит.",
+        "example": "It was in Chicago that they first met.",
+        "translation": "Впервые они встретились именно в Чикаго."
+      },
+      "hint": "После because of the traffic on the bridge — who или that?",
+      "answers": [
+        "It was because of the traffic on the bridge that we were late.",
+        "It was because of the traffic on the bridge that we were late, not because of the alarm.",
+        "It was the traffic on the bridge that made us late.",
+        "It was the traffic on the bridge that made us late, not the alarm.",
+        "It was because of traffic on the bridge that we were late.",
+        "It was because of the traffic jam on the bridge that we were late."
+      ],
+      "explanation": "Причина выделена после It was, дальше that и остальная фраза. It was the traffic… that made us late тоже верно: здесь выделена пробка как то, что заставило опоздать."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Продавец думает, что ты не покупаешь диван из-за цены. Ответь: «Меня беспокоит не цена, а срок доставки». worry — беспокоить, delivery time — срок доставки.",
+      "context": "",
+      "guidance": {
+        "title": "It's not X that…, it's Y — поправка в одной фразе",
+        "body": "Сначала отрицаешь неверную деталь: It's not… that… Потом называешь верную: it's… Вторую часть фразы второй раз не повторяют.",
+        "example": "It's not the money that matters — it's the time.",
+        "translation": "Важны не деньги, а время."
+      },
+      "hint": "Начни так: It's not the price that …",
+      "answers": [
+        "It's not the price that worries me — it's the delivery time.",
+        "It's not the price that worries me, it's the delivery time.",
+        "It isn't the price that worries me, it's the delivery time.",
+        "It is not the price that worries me; it is the delivery time.",
+        "It's not the price that bothers me, it's the delivery time.",
+        "What worries me isn't the price, it's the delivery time.",
+        "What worries me is not the price but the delivery time."
+      ],
+      "explanation": "Worries с -s: выделена одна вещь, the price. Вторую часть that worries me после it's не повторяют. Вариант с What worries me isn't… тоже верен."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Руководитель спрашивает, как помочь тебе закончить отчёт к пятнице. Ответь: «Что мне нужно, так это тихая комната на два дня». quiet — тихий.",
+      "context": "",
+      "guidance": {
+        "title": "What … is: главное — в конце",
+        "body": "What I need — «то, что мне нужно». Потом is и главное. Слушатель сначала узнаёт тему, а ответ получает последним, где он лучше запоминается.",
+        "example": "What we want is a clear answer by Monday.",
+        "translation": "Что нам нужно, так это ясный ответ к понедельнику."
+      },
+      "hint": "После What I need сразу идёт is — без it.",
+      "answers": [
+        "What I need is a quiet room for two days.",
+        "What I need is a quiet room for a couple of days.",
+        "What I really need is a quiet room for two days.",
+        "What I need is two days in a quiet room.",
+        "What I need to finish the report is a quiet room for two days."
+      ],
+      "explanation": "What I need is a quiet room: тема в начале, ответ в конце. What I need it is — ошибка, лишнее it."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, как ты вернул деньги за двойное списание. Ответь: «Я сделал вот что: позвонил в банк и попросил отменить второе списание». cancel — отменить, charge — списание, платёж.",
+      "context": "",
+      "guidance": {
+        "title": "Выделить действие: What … did was + глагол",
+        "body": "Действие через It was не выделишь. Скажи What I did was и глагол в начальной форме — без -ed и обычно без to.",
+        "example": "What she did was write to the manager directly.",
+        "translation": "Она сделала вот что: написала менеджеру напрямую."
+      },
+      "hint": "После was — call или called?",
+      "answers": [
+        "What I did was call the bank and ask them to cancel the second charge.",
+        "What I did was to call the bank and ask them to cancel the second charge.",
+        "What I did was call my bank and ask them to cancel the second charge.",
+        "What I did was call the bank and ask them to reverse the second charge.",
+        "What I did was call the bank and ask them to cancel the duplicate charge."
+      ],
+      "explanation": "Was call и ask — начальная форма: время уже показано в did и was. What I did was called — ошибка. To call тоже верно, но без to звучит естественнее."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь соседям в чат дома, кто помог тебе с переездом: «Больше всех мне помогла соседка снизу». downstairs neighbor — соседка снизу. Начни с The person who.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем who из придаточных: The person who…",
+        "body": "Вспоминаем придаточные с who и that: the person who…, the place where… Такое начало тоже ставит главное в конец, как What, но звучит проще.",
+        "example": "The place where we met is a bank now.",
+        "translation": "Там, где мы познакомились, теперь банк."
+      },
+      "hint": "Начни так: The person who helped me … — а главное поставь после was.",
+      "answers": [
+        "The person who helped me most was my downstairs neighbor.",
+        "The person who helped me the most was my downstairs neighbor.",
+        "The person who helped me most was my neighbor from downstairs.",
+        "The person who helped me the most was the neighbor downstairs.",
+        "The one who helped me most was my downstairs neighbor.",
+        "The person who helped me most with the move was my downstairs neighbor."
+      ],
+      "explanation": "The person who helped me most — тема, was my downstairs neighbor — главное в конце. Most и the most оба верны."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг думает, что ты забыл отправить приглашение на день рождения, и что, если отправил, то в среду. Ответь двумя фразами: «Я правда его отправил! Отправил именно в понедельник». invitation — приглашение.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем did send: две разные поправки",
+        "body": "Вспоминаем do-усиление: I did send it спорит с тем, было ли действие. It was … that спорит с деталью — здесь с днём. Нужны обе фразы.",
+        "example": "I did call her! It was yesterday that I called.",
+        "translation": "Я правда ей звонил! Звонил именно вчера."
+      },
+      "hint": "Первая фраза — с did, вторая — с It was on Monday …",
+      "answers": [
+        "I did send it! It was on Monday that I sent it.",
+        "I did send the invitation! It was on Monday that I sent it.",
+        "I did send it! It was Monday that I sent it.",
+        "I did send it! It was on Monday that I sent it, not Wednesday.",
+        "I did send it! It was on Monday that I sent it, not on Wednesday.",
+        "I did send the invitation! It was on Monday that I sent it, not on Wednesday."
+      ],
+      "explanation": "I did send it — «правда отправил», send без -ed после did. It was on Monday that I sent it — выделен день, поэтому that. On можно опустить: It was Monday that…"
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Клиент интернет-магазина пишет, что заказ опоздал на неделю из-за вашей службы доставки и что ему никто не ответил. На самом деле курьер доставил вовремя, но адрес в заказе был с ошибкой, а вот ответ на его первое письмо ваш отдел действительно задержал. Напиши ответ на 150–250 слов. В письме: благодарность за письмо; две поправки с It wasn't … that…, it was… или It's not … that…; одна фраза с What … is/was для главного шага или просьбы; честное извинение за вашу часть; следующий шаг с датой.",
+      "context": "courier — курьер, typo — опечатка, refund — возврат денег.",
+      "hint": "Сначала раздели, что из жалобы неверно, а что верно. Расщеплённые фразы — только для поправок и главного шага.",
+      "answers": [
+        "Dear Mr. Patel,\n\nThank you for writing to us about your order, and I'm sorry it caused you so much trouble.\n\nI've looked into what happened. It wasn't our delivery service that held up the package. The courier tried to deliver it on May 6, the expected date. It was a typo in the street number that sent the package back to our warehouse: the order says 418 Elm Street instead of 481 Elm Street.\n\nHowever, you're right about one thing, and I apologize for it. It's not the delivery that we handled badly — it's our reply. Your first email arrived on May 7, and nobody answered it for five days. That shouldn't have happened.\n\nWhat we'd like to do now is send the package again by express delivery at no cost to you. I've already corrected the address in your account. You should receive the package by Friday, May 15, and I've added a $15 credit to your account for the slow reply.\n\nIf anything else goes wrong, please call me directly at (312) 555-0136.\n\nSincerely,\nAnna Brooks\nCustomer Support Team"
+      ],
+      "explanation": "Засчитывается, если в письме две верные поправки (It wasn't / It's not … that…, it was / it's…), одна фраза с What … is/was для главного шага, честное извинение за задержку ответа, следующий шаг с датой и вежливый тон без обвинений."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 2–3 минуты, что на самом деле помогло тебе научиться чему-то трудному: водить, готовить, говорить по-английски, выступать. В рассказе: что обычно считают главным (talent, expensive courses) и твоя поправка — It wasn't … that…, it was…; одна фраза What really helped was…; одна фраза The person who…; одна фраза All I did was…; что ты посоветуешь человеку, который только начинает.",
+      "context": "Сначала скажи без записи, потом прослушай себя: каждая выделяющая фраза что-то поправляет или выделяет, а не стоит просто так.",
+      "hint": "Начни так: People often think that …",
+      "answers": [
+        "People often think that you need talent to cook well, or that you have to take expensive classes. That's not my experience. I couldn't cook at all when I moved out of my parents' place. I lived on pizza and cereal for almost a year. It wasn't a cooking class that changed things — it was a cheap notebook. What really helped was writing down every meal I made: what I used, how long it took, and what went wrong. After a few weeks, I could see my mistakes. I always used too much heat, for example, and I never tasted the food while I was cooking. The person who helped me the most was my roommate, Carlos. He didn't teach me recipes. All he did was eat whatever I made and tell me honestly what he thought. Sometimes that hurt, but it was useful. He would say things like, \"The chicken is fine, but the rice is way too salty,\" and the next time I'd fix exactly that. It's not the compliments that make you better. It's the specific comments. I also stopped trying to cook new things every day. I picked five simple dishes and made them again and again until I could make them without a recipe. So if you're just starting, my advice is simple. Don't buy fancy equipment, and don't worry about talent. What you need is a few basic recipes, a notebook, and one honest person who will eat your food."
+      ],
+      "explanation": "Засчитывается, если рассказ связный, есть поправка It wasn't … that…, it was…, фразы What really helped was…, The person who… и All I did was… (или All he did was…), каждая что-то выделяет, и в конце есть совет."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега прислал итог встречи для команды. В нём каждая фраза расщеплена, и есть две ошибки. Перепиши итог: исправь ошибки, оставь расщеплённую фразу только там, где кто-то поправляет недоразумение (команда думала, что опоздание с макетом — вина дизайнеров), остальное скажи просто. It was on Tuesday that we met. It was the marketing team who are responsible for the delay, not the designers. What we decided it is to move the launch to June 3. It was Sam that will write the new schedule. What we need is everyone's comments by Friday.",
+      "context": "launch — запуск, schedule — график, comments — замечания.",
+      "hint": "Какая фраза спорит с тем, что думала команда? Её оставь. Где лишнее it? Где глагол не согласован с the marketing team?",
+      "answers": [
+        "We met on Tuesday. It was the marketing team that was responsible for the delay, not the designers. We decided to move the launch to June 3. Sam will write the new schedule. Please send your comments by Friday.",
+        "We met on Tuesday. It was the marketing team, not the designers, that was responsible for the delay. We decided to move the launch to June 3. Sam is going to write the new schedule. We need everyone's comments by Friday."
+      ],
+      "explanation": "Засчитывается, если исправлено лишнее it (What we decided it is) и согласование (team … are → that was), расщеплённой осталась только поправка про маркетинг, а остальные фразы переписаны просто, без потери фактов: встреча во вторник, запуск 3 июня, график пишет Сэм, замечания к пятнице. Who was для команды тоже засчитывается."
+    }
+  ]
+}

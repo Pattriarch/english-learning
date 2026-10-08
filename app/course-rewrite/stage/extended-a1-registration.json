@@ -1,0 +1,400 @@
+{
+  "id": "extended-a1-registration",
+  "title": "Запись в книжный клуб: из сообщения — в анкету",
+  "subtitle": "Перенеси в анкету → оставь пустым, чего не сказали → прими исправление",
+  "level": "A1",
+  "group": "Полная практика навыков",
+  "units": "Авторский маршрут · A1",
+  "minutes": 35,
+  "goal": "Заполнить анкету по голосовому сообщению: записать имя, адрес, телефон и дату, оставить пустым то, чего не сказали, и принять исправление: «Forty, not fourteen».",
+  "formula": "That's K-I-M → Name: Kim Reed · Email: ___ (не сказали) · Forty, not fourteen → So it's 40 Hill Street.",
+  "guided": true,
+  "introSections": 1,
+  "prerequisites": [
+    "research-spelling-numbers",
+    "path-questions-basic",
+    "path-present-simple"
+  ],
+  "recycles": [
+    "research-spelling-numbers",
+    "path-questions-basic",
+    "path-present-simple"
+  ],
+  "teaches": [
+    "в строку Name идут продиктованные буквы (That’s K-I-M), а не догадка",
+    "адрес в анкете: номер дома цифрами, потом улица — 14 Hill Street",
+    "телефон в анкете: (312) 555-0147 — сосчитай, что вышло 10 цифр",
+    "дата: пишут June 12, говорят June twelfth; I can come / I can’t come — готовые фразы",
+    "не сказали — строка пустая; What’s your email? — спросить про пустую строку",
+    "forty, not fourteen — верно то, что до not; So it’s 40 Hill Street — подтвердить исправление",
+    "слова: join — вступить, street — улица, blank — пустой, use — пользоваться"
+  ],
+  "sources": [
+    {
+      "title": "Voices of the World Speech Training · “Fourteen” vs. “Forty”",
+      "url": "https://www.accentreductionaustin.com/fourteen-vs-forty/",
+      "notes": "Сверено: в американском forty t звучит мягко, почти как d, а в fourteen — чётко; ударение fourteen во фразе может сдвинуться. Поэтому человек сам поправляет себя: forty, not fourteen."
+    },
+    {
+      "title": "Grammarly · How to Write Dates Correctly",
+      "url": "https://www.grammarly.com/blog/writing-tips/how-to-write-dates/",
+      "notes": "Сверено: в США сначала месяц (June 12), число пишут без -th, а вслух дату говорят порядковым числом: June twelfth."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Из сообщения — в анкету",
+    "why": "У каждой строки анкеты один из четырёх случаев. Для каждого — свой ход.",
+    "items": [
+      {
+        "label": "Сказали — запиши, как пишут",
+        "en": "fourteen Hill Street · June nineteenth",
+        "ru": "14 Hill Street · June 19",
+        "note": "Номер дома — цифрами и первым, дата — без -th."
+      },
+      {
+        "label": "Не сказали — строка пустая",
+        "en": "Email: ____",
+        "ru": "Почта: ____",
+        "note": "Ничего не придумываешь."
+      },
+      {
+        "label": "Поправили — бери то, что до not",
+        "en": "Forty, not fourteen.",
+        "ru": "Сорок, а не четырнадцать.",
+        "note": "В строку идёт 40, старое зачёркиваешь."
+      },
+      {
+        "label": "Повтори исправление",
+        "en": "So it's forty Hill Street. Thanks!",
+        "ru": "Значит, Хилл-стрит, 40. Спасибо!",
+        "note": "Человек слышит твою запись и может поправить ещё раз."
+      }
+    ],
+    "focus": [
+      "Email",
+      "not",
+      "So it's"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что главное, когда переносишь сообщение в анкету?",
+      "body": "Представь: ты помогаешь книжному клубу. Новая участница оставила голосовое сообщение: I want to join your book club — «Хочу вступить в ваш книжный клуб». По нему нужно заполнить анкету: имя, адрес, телефон, почту и дату первой встречи.\n\nБуквы, номер телефона по одной цифре и вопрос Thirteen or thirty? ты уже знаешь из урока «По буквам и по цифрам». Новое здесь — сама анкета.\n\nПиши в строку только то, что человек сказал. Чего не сказал, того в анкете нет. А если человек сам себя поправил, в анкету идёт новое значение, а старое ты зачёркиваешь."
+    },
+    {
+      "title": "Адрес и дата: как их пишут в американской анкете",
+      "body": "Адрес пишут так: сначала номер дома, потом улица. Fourteen Hill Street — 14 Hill Street, по-русски «Хилл-стрит, 14». Street — «улица».\n\nДату пишут: сначала месяц, потом число, без -th: June 12 — «12 июня». А вслух число звучит с -th: June twelfth, June nineteenth. Рядом с датой слушай две готовые фразы: I can come — «могу прийти», I can’t come — «не могу прийти». Can’t звучит громче и длиннее."
+    },
+    {
+      "title": "Пустая строка — это «не сказали», а не «нет»",
+      "body": "Если человек не назвал почту, строка Email остаётся пустой. Не составляй адрес из имени вроде kimreed@…: письма уйдут чужому человеку. Пустая строка значит только одно: этого не сказали. Почта у человека может быть. Узнать её можно одним вопросом: What’s your email? — «Какая у вас почта?»"
+    },
+    {
+      "title": "Человек поправил себя: верно то, что до not",
+      "body": "Поправляя себя, человек сначала называет верное, а неверное — после not: forty, not fourteen — «сорок, а не четырнадцать». В анкету идёт число до not.\n\nПотом повтори новое вслух целиком: So it’s 40 Hill Street — «Значит, Хилл-стрит, 40». So it’s … — «значит, …». Человек услышит твою запись и скажет Yes — или поправит ещё раз."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Hi, this is Jen Holt. That's J-E-N, H-O-L-T.",
+      "ru": "Привет, это Джен Холт. Пишется J-E-N, H-O-L-T.",
+      "why": "В строку Name идёт Jen Holt — по продиктованным буквам."
+    },
+    {
+      "en": "My address is sixty-two Oak Street.",
+      "ru": "Мой адрес — Оук-стрит, 62.",
+      "why": "В анкету: 62 Oak Street — номер дома цифрами, потом улица."
+    },
+    {
+      "en": "I can't come on May fifth, but I can come on May twelfth.",
+      "ru": "5 мая я прийти не могу, а 12 мая — могу.",
+      "why": "Can’t и can разводят две даты. В анкету идёт May 12 — без -th."
+    },
+    {
+      "en": "What's your email?",
+      "ru": "Какая у вас почта?",
+      "why": "Вопрос ровно про пустую строку — так же, как What’s your name?"
+    },
+    {
+      "en": "My address is thirteen Oak Street. Thirteen, not thirty.",
+      "ru": "Мой адрес — Оук-стрит, 13. Тринадцать, не тридцать.",
+      "why": "Человек сам отсекает похожее число: верно то, что стоит до not."
+    },
+    {
+      "en": "So it's thirteen Oak Street. Thanks!",
+      "ru": "Значит, Оук-стрит, 13. Спасибо!",
+      "why": "So it’s повторяет исправленное целиком — человек может проверить."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Голосовое сообщение Ким",
+      "kind": "listening",
+      "text": "Hi, this is Kim Reed. That's K-I-M, R-E-E-D. I want to join your book club. My address is fourteen Hill Street. My phone number is three one two, five five five, oh one four seven. I can't come on June twelfth, but I can come on June nineteenth. Thanks!",
+      "source": "Учебная ситуация: имя, адрес и телефон вымышленные"
+    },
+    {
+      "id": "m2",
+      "title": "Анкета книжного клуба",
+      "kind": "reference",
+      "text": "BOOK CLUB SIGN-UP\n\nName: ____________\nAddress: ____________\nPhone: (___) ___-____\nEmail: ____________\nFirst meeting: June 12 / June 19",
+      "source": "Учебная анкета"
+    },
+    {
+      "id": "m3",
+      "title": "Ким звонит ещё раз",
+      "kind": "dialogue",
+      "text": "Kim: Hi, it's Kim Reed again.\n\nBook club: Hi, Kim! What's your email?\n\nKim: Sorry, I don't use email. And my address is forty Hill Street. Forty, not fourteen.",
+      "source": "Учебная ситуация: имя и адрес вымышленные"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Послушай M1 один раз, расшифровку пока не открывай. Кто звонит? Заполни строку Name в анкете M2: имя и фамилию так, как их продиктовали по буквам.",
+      "context": "",
+      "guidance": {
+        "title": "В строку — буквы, а не догадка",
+        "body": "В строку Name пиши буквы, которые человек продиктовал после That’s …, а не то, как имя тебе послышалось.",
+        "example": "This is Tim Bell. That's T-I-M, B-E-L-L.",
+        "translation": "Это Тим Белл. Пишется T-I-M, B-E-L-L."
+      },
+      "hint": "Сколько раз в фамилии звучит E? Посчитай, пока слушаешь.",
+      "answers": [
+        "Name: Kim Reed",
+        "Kim Reed"
+      ],
+      "explanation": "Ким продиктовала K-I-M, R-E-E-D. На слух эта фамилия совпадает с Read и Reid — без букв легко ошибиться.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Послушай M1 ещё раз. Заполни строку Address: номер дома цифрами, потом улицу.",
+      "context": "",
+      "guidance": {
+        "title": "Адрес: номер дома, потом улица",
+        "body": "Номер дома в анкете пиши цифрами и ставь первым, улицу — после. Street — «улица».",
+        "example": "My address is sixteen Park Street. → 16 Park Street",
+        "translation": "Мой адрес — Парк-стрит, 16."
+      },
+      "hint": "Конец числа долгий и громкий или короткий? Значит, -teen или -ty?",
+      "answers": [
+        "Address: 14 Hill Street",
+        "14 Hill Street"
+      ],
+      "explanation": "В сообщении звучит fourteen — конец долгий, значит 14. Номер дома цифрами — первым, потом Hill Street.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь только телефон. Заполни строку Phone цифрами, как в американской анкете: (___) ___-____.",
+      "context": "",
+      "guidance": {
+        "title": "Телефон в анкете: 3 + 3 + 4",
+        "body": "В анкете для номера готовы три группы: три цифры в скобках, потом три и четыре. Записав номер, сосчитай цифры — должно выйти 10.",
+        "example": "My number is four one five, five five five, oh one six six. → (415) 555-0166",
+        "translation": "Мой номер — (415) 555-0166."
+      },
+      "hint": "Вышло 9 цифр? Проверь, где прозвучало oh.",
+      "answers": [
+        "Phone: (312) 555-0147",
+        "(312) 555-0147",
+        "312-555-0147"
+      ],
+      "explanation": "Группы: 312, 555, 0147. Oh перед one — это 0; без него остаётся 9 цифр, и по номеру не дозвониться. Запись 312-555-0147 тоже понятна.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В анкете M2 две даты первой встречи: June 12 и June 19. На какую Ким может прийти? Заполни строку First meeting.",
+      "context": "",
+      "guidance": {
+        "title": "Can’t или can — какая дата подходит",
+        "body": "I can’t come — «не могу прийти», I can come — «могу прийти». Не расслышал can’t — выручит but, «но»: после него идёт другая дата.",
+        "example": "I can't come on July second, but I can come on July ninth.",
+        "translation": "2 июля я прийти не могу, а 9 июля — могу."
+      },
+      "hint": "Какая дата звучит после but?",
+      "answers": [
+        "First meeting: June 19",
+        "June 19"
+      ],
+      "explanation": "Про June twelfth Ким говорит can’t, про June nineteenth — can. В анкету идёт June 19 — без -th, как пишут в Америке.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега заполнил анкету по M1 и ошибся в двух строках. Найди ошибки и перепиши анкету правильно.\n\nName: Kim Reed\nAddress: 14 Hill Street\nPhone: (312) 555-0147\nEmail: kim.reed@example.com\nFirst meeting: June 12",
+      "context": "",
+      "guidance": {
+        "title": "Не сказали — оставь пустым",
+        "body": "Сверь каждую строку с сообщением. Чего Ким не говорила, того в анкете быть не должно: такая строка остаётся пустой. Дату заодно проверь по can’t и can.",
+        "example": "No email in the message? Leave it blank.",
+        "translation": "В сообщении нет почты? Оставь строку пустой."
+      },
+      "hint": "Какую строку Ким не упоминала ни разу? А что она говорит про June twelfth?",
+      "answers": [
+        "Name: Kim Reed\nAddress: 14 Hill Street\nPhone: (312) 555-0147\nEmail:\nFirst meeting: June 19"
+      ],
+      "explanation": "Почту Ким не называла, поэтому строка Email пустая: kim.reed@example.com — догадка коллеги. На June 12 Ким прийти не может, верная дата — June 19.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ким перезвонила в клуб, трубку взял ты. В анкете пустая строка Email. Спроси Ким: «Какая у вас почта?»",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: What’s your …?",
+        "body": "Вспоминаем вопрос What’s your name? из урока про вопросы. Чтобы заполнить пустую строку, спроси ровно про неё: на место name поставь нужную строку анкеты.",
+        "example": "What's your phone number?",
+        "translation": "Какой у вас номер телефона?"
+      },
+      "hint": "Начни так: What’s your …",
+      "answers": [
+        "What's your email?",
+        "What is your email?",
+        "What's your email address?",
+        "What is your email address?",
+        "Sorry, what's your email?",
+        "Kim, what's your email?",
+        "Can I have your email, please?",
+        "Can I have your email address, please?"
+      ],
+      "explanation": "What’s your email? — вопрос ровно про пустую строку. What’s your email address? тоже верно, а Can I have your email, please? звучит ещё вежливее."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M3 и послушай разговор. Ким кое-что исправляет. Какая строка анкеты меняется? Запиши её заново.",
+      "context": "again — снова; sorry — извини; use — пользоваться.",
+      "guidance": {
+        "title": "Два числа подряд — бери первое",
+        "body": "Ким называет два похожих числа. В строку идёт то, что стоит до not, а старое число ты зачёркиваешь.",
+        "example": "It's sixty, not sixteen.",
+        "translation": "Шестьдесят, а не шестнадцать."
+      },
+      "hint": "Какое число Ким называет перед not?",
+      "answers": [
+        "Address: 40 Hill Street",
+        "40 Hill Street"
+      ],
+      "explanation": "Ким говорит forty, not fourteen: теперь адрес 40 Hill Street. Почту она не называет, поэтому строка Email остаётся пустой.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Подтверди Ким новый адрес. Скажи вслух: «Значит, Хилл-стрит, 40. Спасибо!» — и запиши себя.",
+      "context": "",
+      "guidance": {
+        "title": "Повтори новое — пусть человек проверит",
+        "body": "Повтори исправленное целиком: номер дома и улицу. Ким услышит, что ты записал, и скажет Yes — или поправит ещё раз.",
+        "example": "So it's sixty Park Street. Thank you!",
+        "translation": "Значит, Парк-стрит, 60. Спасибо!"
+      },
+      "hint": "Начни так: So it’s … Номер дома скажи словом: forty.",
+      "answers": [
+        "So it's 40 Hill Street. Thank you!",
+        "So it's forty Hill Street. Thanks!",
+        "OK, so it's 40 Hill Street. Thank you!"
+      ],
+      "explanation": "So it’s 40 Hill Street повторяет новое значение целиком, и Ким может сразу подтвердить. Thanks! и Thank you! одинаково подходят.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Руководитель клуба Дана спрашивает: What’s Kim’s email? — «Какая у Ким почта?» Ответь по M3: «Она не пользуется почтой».",
+      "context": "use — пользоваться.",
+      "guidance": {
+        "title": "Вспоминаем: doesn’t + действие",
+        "body": "Вспоминаем урок про обычные действия: о ней «не» — doesn’t, а действие после него без -s. Так ты честно объясняешь, почему строка Email пустая.",
+        "example": "He doesn't use a computer.",
+        "translation": "Он не пользуется компьютером."
+      },
+      "hint": "Начни так: She doesn’t … Нужно ли -s у use?",
+      "answers": [
+        "She doesn't use email.",
+        "She does not use email.",
+        "Kim doesn't use email.",
+        "Kim does not use email.",
+        "Sorry, she doesn't use email."
+      ],
+      "explanation": "Ким сказала I don’t use email. О ней — she doesn’t use, без -s у use. She doesn’t have an email было бы догадкой: Ким сказала только, что не пользуется почтой.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Дана просит короткое сообщение о новой участнице. Напиши ей 2–3 фразы: кто хочет вступить в клуб, её адрес и телефон — уже с исправлением из M3 — и в какой день она придёт.",
+      "context": "wants to join — хочет вступить; she can come on June 19 — она может прийти 19 июня.",
+      "hint": "Схема: Kim Reed wants to … . Her address is … . She can come on … .",
+      "answers": [
+        "Kim Reed wants to join the book club. Her address is 40 Hill Street, and her phone number is (312) 555-0147. She can come on June 19.",
+        "New member: Kim Reed, 40 Hill Street, (312) 555-0147. She can come on June 19. She doesn't use email."
+      ],
+      "explanation": "Засчитывается, если сведения верные после исправления: 40 Hill Street, (312) 555-0147 и June 19. Порядок фраз любой; можно добавить She doesn’t use email.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e11",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты сам записался в этот клуб. Тебе перезванивают и читают твою анкету: So it's fifteen Pine Street, and you can come on June twelfth? На самом деле ты живёшь на Pine Street, 50, и можешь прийти только 19 июня. Поправь вслух обе ошибки.",
+      "context": "",
+      "hint": "Схема: Fifty, not … . And I can’t come on … , but I can come on … .",
+      "answers": [
+        "Fifty, not fifteen. Fifty Pine Street. And I can't come on June twelfth, but I can come on June nineteenth.",
+        "No, it's fifty Pine Street. Fifty, not fifteen. And I can come on June nineteenth, not June twelfth."
+      ],
+      "explanation": "Засчитывается, если обе поправки понятны: сначала верное — fifty, June nineteenth, потом not и ошибка, или can’t … but I can … . Послушай запись: fifty должно звучать с ударением в начале."
+    }
+  ],
+  "keyRule": {
+    "rule": "В анкету пиши только то, что услышал. Не сказали — оставь строку пустой.",
+    "example": "Forty, not fourteen. — Сорок, а не четырнадцать: в анкету идёт 40.",
+    "check": "Ким не назвала почту. Что в строке Email? — Ничего."
+  }
+}

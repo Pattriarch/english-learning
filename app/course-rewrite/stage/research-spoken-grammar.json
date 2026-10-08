@@ -1,0 +1,352 @@
+{
+  "id": "research-spoken-grammar",
+  "title": "That café, is it still open?: как устроена живая речь",
+  "subtitle": "Сначала тема — потом вопрос → уточнение в конце → без первых слов: Sounds good, Want some? → какую версию запомнить из поправки → из речи в письмо",
+  "level": "C1",
+  "group": "Разговор и дискурс",
+  "units": "Внешний аудит · English File 5 C1/C2 10B · Practical English Usage 299–301",
+  "minutes": 65,
+  "goal": "Понимать и говорить, как американцы в разговоре: «Это кафе — оно ещё работает?» (That café, is it still open?), «Классное оно, это место» (It's really good, that place), «Договорились» (Sounds good). А потом пересказать такой разговор нормальным письмом.",
+  "formula": "head: тема, пауза, фраза с it / she / they → tail: фраза с it, в конце — о чём она → без начала: Sounds good · Want some? · Will do → поправка: считается последняя версия → в письме: тема в фразу, начало вернуть, I think и maybe оставить",
+  "keyRule": {
+    "rule": "В разговоре тему можно назвать первой. В письме вставь её в саму фразу.",
+    "example": "That café, is it still open? → Is that café still open? — Это кафе — оно ещё работает?",
+    "check": "«В четверг — ой, в пятницу»: какой день записать? Только пятницу."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-ellipsis",
+    "path-repair-conversation",
+    "path-fronting"
+  ],
+  "recycles": [
+    "path-repair-conversation",
+    "path-ellipsis"
+  ],
+  "teaches": [
+    "head — тема перед фразой, внутри её заменяет it / she / they: That café, is it still open?; только в речи, с паузой",
+    "отличие от вынесения вперёд: This part I understand — без повторного it",
+    "tail — сначала it / he / she, в конце — о чём речь: It's really good, that place; часто с оценкой",
+    "пропуск начала, понятного из ситуации: Sounds good, Looks great, Want some coffee?, Got a minute?, Can't wait, Will do",
+    "где такой пропуск уместен (разговор, сообщение своим) и где нет (клиент, официальное письмо)",
+    "поправка на ходу (no, wait · sorry · actually · make it…) — считается последняя версия; добавление ≠ поправка",
+    "из речи в письмо: тему — в обычную фразу, начало вернуть, I think / maybe / might оставить, новых причин не добавлять",
+    "слова: head, tail, budget, vegetarian, appendix, run late"
+  ],
+  "sources": [
+    {
+      "title": "Humanising Language Teaching · Headers and tails (Simon Mumford)",
+      "url": "https://old.hltmag.co.uk/jun11/idea.htm",
+      "notes": "Сверено: head и tail — обычные черты непринуждённой устной грамматики (My father, he's happy now / He's happy now, my father), со ссылкой на Cambridge Grammar of English. Отсюда разделы 1–2 и мысль, что это не ошибка, а форма речи."
+    },
+    {
+      "title": "Tes · Four ways in which it's different, y'know: spoken grammar",
+      "url": "https://www.tes.com/news/four-ways-which-its-different-yknow-spoken-grammar",
+      "notes": "Сверено: в речи тему называют до вопроса (That house on the corner, is that where she lives?), пропускают подлежащее (Nice place.), добавляют хвост в конце; в письменном экзамене такие формы считаются неточными. Отсюда раздел «Из речи в письмо»."
+    },
+    {
+      "title": "British Council LearnEnglish · Ellipsis (C1 grammar)",
+      "url": "https://learnenglish.britishcouncil.org/grammar/c1-grammar/ellipsis",
+      "notes": "Сверено: в разговоре пропускают it / that (Sounds familiar!) и do you / have you (Want some coffee? Got a lot of homework?); с I пропуск помощника не работает. Отсюда раздел 3 и его граница."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Как сказали — как написать",
+    "why": "Сверху — как это звучит в разговоре, в пометке — та же мысль для письма.",
+    "items": [
+      {
+        "label": "Тема первой",
+        "en": "That bakery, is it open on Sundays?",
+        "ru": "Эта пекарня — она работает по воскресеньям?",
+        "note": "В письме: Is that bakery open on Sundays?"
+      },
+      {
+        "label": "Уточнение в конце",
+        "en": "It's so loud, that place.",
+        "ru": "Шумно там, в этом месте.",
+        "note": "В письме: That place is so loud."
+      },
+      {
+        "label": "Без первых слов",
+        "en": "Looks great.",
+        "ru": "Выглядит отлично.",
+        "note": "В письме: That looks great."
+      },
+      {
+        "label": "Поправка",
+        "en": "Thursday — sorry, Friday.",
+        "ru": "В четверг — ой, в пятницу.",
+        "note": "В письме: Friday."
+      }
+    ],
+    "focus": [
+      "That bakery,",
+      "that place",
+      "Looks great",
+      "Friday"
+    ],
+    "footnote": "Речь не «неправильная»: она сделана для слушателя рядом. Читателю нужна полная фраза."
+  },
+  "sections": [
+    {
+      "title": "Сначала тема, потом вопрос: That café, is it still open?",
+      "body": "Вы идёте по улице, и ты показываешь на кафе через дорогу: “That café, is it still open?” Сначала ты называешь, о чём речь, потом задаёшь вопрос. It внутри вопроса возвращает к тому же кафе. По-русски так тоже говорят: «Это кафе — оно ещё работает?»\n\nТакое начало называют head — «голова»: тема, вынесенная перед фразой. Слушателю так легче: он сначала понимает, о чём речь, потом слышит главное. Говорящему тоже: он строит фразу на ходу.\n\nВ уроке о вынесении вперёд ты ставил в начало часть самой фразы, без повтора: This part I understand. Здесь другое: тема стоит отдельно, а внутри фразы её заменяет it, she, they.\n\nГде это кончается. Head живёт только в речи, с паузой после темы. В письме пиши Is that café still open? И не удваивай каждое подлежащее: My brother he lives in Denver без паузы звучит как ошибка."
+    },
+    {
+      "title": "Уточнение в конце: It's really good, that place",
+      "body": "Бывает наоборот: сначала it, he, she, а о ком или о чём речь — в конце. It's really good, that Thai place — «классное оно, это тайское кафе». Такое добавление называют tail — «хвост». Чаще всего так звучит оценка: сначала мнение, потом напоминание, о чём оно. She's really smart, your sister.\n\nХвостик-вопрос из B1 тоже может встать рядом: It's hard to find, isn't it, that place?\n\nВ письме tail убирают, а предмет ставят на его обычное место: That Thai place is really good. Your sister is really smart."
+    },
+    {
+      "title": "Без первых слов: Sounds good. Want some coffee?",
+      "body": "В уроке об эллипсисе пропущенное было в прошлой фразе. В живой речи пропускают и то, что ясно из самой ситуации, — обычно первые слова.\n\nIt или that: Sounds good — «звучит хорошо, договорились». Looks great. Doesn't matter. Do you, are you, have you в вопросе: Want some coffee? Need a hand? Got a minute? You coming? I в начале: Can't wait. Hope you're well. Will do — «сделаю».\n\nГде это уместно: разговор, сообщение другу или коллеге, с которым вы общаетесь запросто. Где нет: письмо клиенту, малознакомому начальнику, официальный документ. Там верни начало: I hope you're well. Would you like some coffee? That sounds good.\n\nПропускают только то, что легко угадать. Am I late? так и говорят: I late? — ошибка."
+    },
+    {
+      "title": "Поправка на ходу: что запомнить из «в четверг — ой, в пятницу»",
+      "body": "В уроке о переспросе ты сам поправлял себя: Sorry, I mean…, Actually… Теперь ты слушатель или пишешь заметку. Правило простое: первая версия отменена, считается последняя. Let's meet Thursday — sorry, Friday значит «в пятницу». Записать «в четверг или в пятницу» — ошибка.\n\nСигналы поправки: no, wait; sorry; I mean; actually; make it… (make it twelve-thirty — «давай лучше в 12:30»). Иногда человек бросает фразу и начинает заново: We could — what if we just order pizza? Первая идея брошена, главное — вторая.\n\nНе путай поправку с добавлением: Eight of us, plus Priya. Здесь Прия не заменяет число, а прибавляется к нему: всего девять. Если не уверен, переспроси: So that's nine, right?"
+    },
+    {
+      "title": "Из речи в письмо: что убрать и что оставить",
+      "body": "Живая речь не «неправильная»: она сделана для слушателя, который рядом. Но у читателя нет паузы, жеста и голоса. Поэтому, когда пересказываешь разговор письмом:\n\n1. Head и tail вставь в обычную фразу: That report, it's almost done → The report is almost done.\n2. Верни пропущенное начало: Sounds good → That sounds good.\n3. Из поправки оставь только последнюю версию.\n4. Сохрани уверенность говорящего: I think, maybe, might остаются. Maybe twenty-five не превращай в twenty-five.\n5. Не добавляй причин и решений, которых не было: I need to check with Dana значит, что решения ещё нет.\n\nЗвуки-паузы вроде um и uh в письме тоже не нужны."
+    }
+  ],
+  "examples": [
+    {
+      "en": "That café, is it still open?",
+      "ru": "Это кафе — оно ещё работает?",
+      "why": "Тема названа первой, it внутри вопроса возвращает к ней."
+    },
+    {
+      "en": "Is that café still open?",
+      "ru": "Это кафе ещё работает?",
+      "why": "Та же мысль для письма: тема стоит внутри вопроса."
+    },
+    {
+      "en": "It's really good, that Thai place.",
+      "ru": "Классное оно, это тайское кафе.",
+      "why": "Сначала оценка с it, в конце — о чём она."
+    },
+    {
+      "en": "Sounds good. See you at seven.",
+      "ru": "Договорились. Увидимся в семь.",
+      "why": "Пропущено That: из ситуации понятно, что звучит хорошо."
+    },
+    {
+      "en": "Want some coffee?",
+      "ru": "Хочешь кофе?",
+      "why": "Пропущено Do you. Клиенту скажи: Would you like some coffee?"
+    },
+    {
+      "en": "We need a table for eight — no, wait, nine.",
+      "ru": "Нам нужен столик на восемь — нет, подожди, на девять.",
+      "why": "No, wait отменяет восемь: считается девять."
+    },
+    {
+      "en": "Will do.",
+      "ru": "Сделаю.",
+      "why": "Полностью — I will do that; в ответ на просьбу звучит дружелюбно и коротко."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Звонок: обед для команды",
+      "kind": "dialogue",
+      "text": "Phone call, Tuesday morning\n\nJen: Hey, Marcus. Got a minute?\nMarcus: Sure. What's up?\nJen: The team lunch next week. That Thai place on Fifth Street, is it open on Mondays?\nMarcus: I think so. It's really good, that place. A little loud, though.\nJen: Loud is fine. So we need a table for eight — no, wait, nine. Priya's coming too.\nMarcus: Want me to call them?\nJen: Would you? Let's say Monday at noon — actually, make it twelve-thirty. The morning meeting might run late.\nMarcus: Sounds good. What about the budget?\nJen: The budget, it's twenty dollars a person. Maybe twenty-five, but I need to check with Dana first.\nMarcus: Got it. Anything else?\nJen: Oh, and Priya, she doesn't eat meat. Can you ask about vegetarian dishes?\nMarcus: Will do. I'll call them this afternoon.\nJen: Great. Thanks!",
+      "source": "Придумано для курса: люди и разговор вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг спросил тебя вслух: “That new gym on Main Street, is it expensive?” Ты пересылаешь его вопрос в чат соседей. Напиши его обычной письменной фразой.",
+      "context": "gym — спортзал.",
+      "guidance": {
+        "title": "Тему — обратно в вопрос",
+        "body": "Тема, которая стояла перед вопросом, встаёт на место it. Само it уходит, пауза тоже.",
+        "example": "Your sister, does she still live in Austin? → Does your sister still live in Austin?",
+        "translation": "Твоя сестра — она ещё живёт в Остине? → Твоя сестра ещё живёт в Остине?"
+      },
+      "hint": "Начни так: Is that new gym …",
+      "answers": [
+        "Is that new gym on Main Street expensive?",
+        "Is the new gym on Main Street expensive?",
+        "Does anyone know if the new gym on Main Street is expensive?"
+      ],
+      "explanation": "Тема that new gym on Main Street заняла место it. Does anyone know if…? тоже подходит для чата, но тогда после if — обычный порядок слов."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты встречаешь друга и спрашиваешь вслух, как в живом разговоре: «Тот фильм, про который ты говорил, — он ещё идёт в кинотеатрах?» Начни с темы.",
+      "context": "be in theaters — идти в кинотеатрах.",
+      "guidance": {
+        "title": "Head: тема, пауза, вопрос с it",
+        "body": "Сначала целиком назови, о чём речь, потом пауза (в записи — запятая), потом вопрос, где тему заменяет it.",
+        "example": "Those shoes you bought, are they comfortable?",
+        "translation": "Те туфли, что ты купила, — они удобные?"
+      },
+      "hint": "Начни так: That movie you told me about, …",
+      "answers": [
+        "That movie you told me about, is it still in theaters?",
+        "The movie you told me about, is it still in theaters?",
+        "That movie you told me about, is it still playing?",
+        "That movie you were telling me about, is it still in theaters?",
+        "That movie you told me about, is it still showing in theaters?"
+      ],
+      "explanation": "That movie you told me about — тема, it внутри вопроса возвращает к ней. В письме было бы Is that movie you told me about still in theaters?"
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты советуешь коллеге место для обеда и говоришь, как в разговоре: «Классная она, эта пиццерия на углу».",
+      "context": "pizza place — пиццерия; on the corner — на углу.",
+      "guidance": {
+        "title": "Tail: сначала оценка, в конце — о чём",
+        "body": "Начни с it и оценки. Кто или что — добавь в самом конце, после запятой.",
+        "example": "He's really funny, your brother.",
+        "translation": "Он очень смешной, твой брат."
+      },
+      "hint": "Начни так: It's great, …",
+      "answers": [
+        "It's great, that pizza place on the corner.",
+        "It's really great, that pizza place on the corner.",
+        "It's really good, that pizza place on the corner.",
+        "It's so good, that pizza place on the corner.",
+        "It's awesome, that pizza place on the corner."
+      ],
+      "explanation": "It's great — оценка, that pizza place on the corner — о чём она. В письме: That pizza place on the corner is great."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: “Pizza at my place, 7?” Ответь коротко, как пишут своим: «Договорились. Принести что-нибудь?»",
+      "context": "",
+      "guidance": {
+        "title": "Без первых слов: Sounds… и Want me to…?",
+        "body": "That перед sounds и Do you перед want понятны из ситуации, поэтому их пропускают.",
+        "example": "Looks great. Need any help?",
+        "translation": "Выглядит отлично. Помочь?"
+      },
+      "hint": "Начни так: Sounds …",
+      "answers": [
+        "Sounds good. Want me to bring anything?",
+        "Sounds good. Want me to bring something?",
+        "Sounds great. Want me to bring anything?",
+        "Sounds good. Should I bring anything?",
+        "Sounds good. Need me to bring anything?",
+        "Sounds good! Want me to bring anything?"
+      ],
+      "explanation": "Sounds good — пропущено That. Want me to bring…? — пропущено Do you. Should I bring anything? тоже звучит естественно."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты набросал ответ клиентке, Ms. Ortiz, как пишешь коллегам: “Got your message. Sounds good. Will send the file tomorrow. Want me to copy Dana on the email?” Клиентке так коротко нельзя. Перепиши полными фразами.",
+      "context": "copy someone on an email — поставить кого-то в копию письма.",
+      "guidance": {
+        "title": "Для клиента — верни начало",
+        "body": "Каждой фразе верни пропущенное начало: I, that, do you. Вместо want в вопросе-предложении — would you like.",
+        "example": "Can't make it on Monday. → Unfortunately, I can't make it on Monday.",
+        "translation": "Не смогу в понедельник. → К сожалению, я не смогу в понедельник."
+      },
+      "hint": "Кто «получил» и кто «пришлёт»? Начни так: I got your message…",
+      "answers": [
+        "I got your message, and the plan sounds good. I'll send the file tomorrow. Would you like me to copy Dana on the email?",
+        "Thank you for your message. That sounds good. I will send the file tomorrow. Would you like me to copy Dana on the email?",
+        "I received your message, and that sounds good. I'll send the file tomorrow. Would you like me to copy Dana on the email?",
+        "I got your message. That sounds good. I'll send you the file tomorrow. Would you like me to copy Dana on the email?"
+      ],
+      "explanation": "Возвращены I, That и вопрос Would you like me to…? Want me to…? клиентке звучит слишком запросто. Thank you for your message — тоже хорошее начало."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем поправки. Прочитай M1. Джен дважды поправила себя. Марк звонит в ресторан. Что он скажет? «Здравствуйте, я хотел бы забронировать столик на девять человек в понедельник на 12:30».",
+      "context": "book / reserve a table — забронировать столик.",
+      "guidance": {
+        "title": "Вспоминаем: в поправке считается последнее",
+        "body": "В уроке о переспросе ты сам поправлял себя через Sorry, I mean… Теперь ты слушаешь: no, wait и actually отменяют то, что было до них.",
+        "example": "She said three — sorry, four. So I booked four seats.",
+        "translation": "Она сказала три — ой, четыре. Поэтому я забронировал четыре места."
+      },
+      "hint": "Какие два числа и два времени прозвучали в M1? Какие из них отменены?",
+      "answers": [
+        "Hi, I'd like to book a table for nine on Monday at 12:30.",
+        "Hi, I'd like to book a table for nine on Monday at 12:30 p.m.",
+        "Hello, I'd like to reserve a table for nine people on Monday at 12:30.",
+        "Hi, I'd like to book a table for nine people for Monday at twelve-thirty.",
+        "Hi, I'd like to reserve a table for nine on Monday at 12:30 p.m."
+      ],
+      "explanation": "No, wait отменило восемь, actually — полдень. Остались nine и 12:30. Table for eight или at noon — это отменённые версии."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем эллипсис. В M1 есть две короткие реплики: “Would you?” (Джен) и “Will do.” (Марк). Восстанови обе полностью, одну за другой.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: пропущенное — в прошлой реплике",
+        "body": "Как в уроке об эллипсисе, помощник остался, а действие взято из предыдущей фразы. Найди, на что отвечает каждая реплика.",
+        "example": "“Can you send me the link?” “Sure, I can.” → I can send you the link.",
+        "translation": "«Пришлёшь мне ссылку?» — «Конечно». → Я могу прислать тебе ссылку."
+      },
+      "hint": "Would you? — ответ на Want me to call them? Will do — ответ на Can you ask about…?",
+      "answers": [
+        "Would you call them? I'll do that.",
+        "Would you call them? I will do that.",
+        "Would you call the restaurant? I'll ask about vegetarian dishes.",
+        "Would you call them? I'll ask about vegetarian dishes.",
+        "Would you call the restaurant? I will do that."
+      ],
+      "explanation": "Would you? — это Would you call them? Will do — это I will do that, то есть спрошу о вегетарианских блюдах. Оба варианта второй фразы верны."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Джен просит тебя написать письмо всей команде про обед. Прочитай M1 один раз, закрой его и напиши письмо на 150–250 слов по памяти; потом сверь с M1. Что должно быть: где обед; день и время, почему не в полдень; сколько человек; бюджет и что он ещё не окончательный; вопрос о вегетарианских блюдах; кто бронирует; просьба сообщить о своих ограничениях в еде. Пиши полными фразами: без вынесенной темы, хвостов и пропущенных начал; из поправок — только последняя версия; maybe и might сохрани по смыслу.",
+      "context": "dietary needs — ограничения в еде.",
+      "hint": "План: Hi everyone, → We're having our team lunch… → The lunch starts at… because… → Nine of us… → The budget is… → Marcus is… → Please let me know…",
+      "answers": [
+        "Hi everyone,\n\nHere are the details for next week's team lunch.\n\nWe're going to the Thai restaurant on Fifth Street on Monday at 12:30 p.m. We chose 12:30 instead of noon because the morning meeting might run late. Marcus says the food is very good, but the place can be a little loud.\n\nThere will be nine of us, including Priya. Marcus is calling the restaurant this afternoon to book a table.\n\nThe budget is $20 per person for now. It might go up to $25, but Jen needs to check with Dana first, so please plan on $20 until you hear otherwise.\n\nPriya doesn't eat meat, so Marcus will ask about vegetarian dishes. If you have any other dietary needs, please let me know by Friday, and I'll pass them on to Marcus.\n\nSee you on Monday!\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если все факты совпадают с M1: тайский ресторан на Fifth Street, понедельник, 12:30 и причина (встреча может затянуться), девять человек, $20 с возможным $25 после разговора с Dana, вегетарианские блюда, Marcus бронирует. Нет восьми человек, полудня и head / tail; might или maybe сохранены."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Запиши голосовое другу, 2–3 минуты: расскажи о месте, где ты недавно был (кафе, парк, музей, магазин), и позови его туда. Говори, как в живом разговоре. Что должно быть: одна фраза с темой впереди (That…, it…); одна с хвостом (It's…, that…); два-три пропущенных начала (Sounds…, Want to…?, Can't wait); одна поправка (no, wait / actually); конкретный день и время в конце. Потом прослушай и выбери одну фразу, которую в письме ты бы сказал иначе.",
+      "context": "",
+      "hint": "Начни так: Hey! So, that place I told you about, …",
+      "answers": [
+        "Hey! So, that café I told you about, the one near the river, I finally went there on Saturday. It's really nice, that place. Big windows, lots of plants, and the coffee is great. They have this cinnamon roll — honestly, best thing I've eaten all month.\n\nI went with my sister, and we stayed for about two hours. Well, maybe an hour and a half. It wasn't too busy in the morning, but around noon it got pretty crowded, so going early is better.\n\nThe people who work there, they're super friendly. The guy at the counter remembered my name the second time I came in. Yeah, I went back on Sunday. Can't help it.\n\nAnyway, want to go together? I was thinking this Saturday at ten — no, wait, I have a dentist appointment. Let's say Sunday at ten. If that doesn't work, just tell me another day. Oh, and bring your laptop if you want: there's good Wi-Fi.\n\nLet me know. Can't wait to show you!"
+      ],
+      "explanation": "Засчитывается, если голосовое звучит 2–3 минуты, есть head, tail, два-три пропущенных начала, поправка и конкретное приглашение. Расшифровка покажет слова; паузы после темы и интонацию проверь, прослушав запись."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега, Tom, оставил тебе голосовое, и ты пересылаешь его суть начальнице, Ms. Chen, письменно. Расшифровка: “So, um, that report, the one for the board, I think it's almost done. We need twelve copies — no, fifteen, sorry. It's a bit long, the appendix, so maybe we cut it? Anyway, want me to send it Thursday — actually, Wednesday's better.” Напиши 3–5 полных фраз. Сохрани, насколько коллега уверен, и не превращай его вопрос в решение.",
+      "context": "board — совет директоров; appendix — приложение к отчёту.",
+      "hint": "Что отменено в двух поправках? Maybe we cut it? — это решение или предложение?",
+      "answers": [
+        "Tom thinks the report for the board is almost done. We need fifteen copies. The appendix is a bit long, so he suggests that we might cut it. He can send the report on Wednesday if you'd like.",
+        "Tom thinks the report for the board is almost done. We need fifteen copies. The appendix is a bit long, so he's wondering if we should cut it. He's offering to send the report on Wednesday.",
+        "The report for the board is almost done, Tom thinks. We'll need fifteen copies. He thinks the appendix is a bit long and asks whether we should cut it. He can send the report on Wednesday."
+      ],
+      "explanation": "Засчитывается, если тема и хвост вставлены в обычные фразы, остались только fifteen и Wednesday, I think передано (he thinks), а maybe we cut it? — как предложение или вопрос, не как решение. Um, so и anyway в письме не нужны."
+    }
+  ]
+}

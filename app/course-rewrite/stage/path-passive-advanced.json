@@ -1,0 +1,401 @@
+{
+  "id": "path-passive-advanced",
+  "title": "Is being fixed, must be checked, had it fixed: работа идёт, правило и услуга",
+  "subtitle": "Being — работа идёт сейчас → must be done — правило → have it done — сделали для тебя",
+  "level": "B2",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Сказать, что работу делают прямо сейчас, что нужно сделать по правилам и что тебе сделали другие: My car is being fixed, Bags must be checked, I got my hair cut.",
+  "formula": "My car is being fixed. → The form must be signed. → I had my laptop fixed.",
+  "guided": true,
+  "keyRule": {
+    "rule": "Делают прямо сейчас — is being fixed. Сделал мастер по твоей просьбе — I had it fixed.",
+    "example": "My car is being fixed — машину сейчас чинят. I had my car fixed — мне починили машину.",
+    "check": "Кто чинил? Ты сам — I fixed it. Мастер — I had it fixed."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-passive-basic",
+    "path-past-continuous",
+    "path-obligation"
+  ],
+  "recycles": [
+    "path-past-continuous",
+    "path-passive-basic"
+  ],
+  "teaches": [
+    "is/are being + третья форма — работу делают прямо сейчас: My car is being fixed",
+    "is being fixed (идёт) ≠ has been fixed (готово) ≠ is cleaned every evening (так бывает регулярно)",
+    "was/were being + третья форма — работа шла в момент прошлого: It was still being fixed",
+    "can / must / should / will / have to + be + третья форма: Bags must be checked, It can be paid online",
+    "have + вещь + третья форма — работу сделали для тебя: I had my laptop fixed; время меняет have: I'm having…, I've had…",
+    "get something done — то же в разговоре: I got my hair cut",
+    "I fixed it (сам) ≠ I had it fixed (мастер) ≠ I had fixed it (past perfect)",
+    "had something stolen — неприятность, а не услуга: I had my wallet stolen",
+    "слова: repair shop, service center, get my hair cut, change the oil, tires, brakes, trash, lobby, load, pack"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Passives (B1–B2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives",
+      "notes": "Сверено: пассив в процессе строится как is/are being + третья форма (The hall is being painted this week), в прошлом — was/were being."
+    },
+    {
+      "title": "British Council · Advanced passives review (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/advanced-passives-review",
+      "notes": "Сверено: модальный пассив — модальный глагол + be + третья форма (The accident must be reported); get + третья форма — разговорный вариант пассива."
+    },
+    {
+      "title": "Perfect English Grammar · The causative (have / get something done)",
+      "url": "https://www.perfect-english-grammar.com/causative.html",
+      "notes": "Сверено: have + вещь + третья форма — работу за плату делает другой человек (I had my car washed); время меняет have; get значит то же и звучит разговорнее (I'll get my hair cut)."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Идёт, готово или сделали для тебя",
+    "why": "Во всех трёх фразах речь о ремонте машины. Разница в том, закончена ли работа и кто её делал.",
+    "items": [
+      {
+        "label": "Идёт сейчас · is being",
+        "en": "My car is being fixed.",
+        "ru": "Машину сейчас чинят.",
+        "note": "Работа идёт. Забирать рано."
+      },
+      {
+        "label": "Готово · has been",
+        "en": "My car has been fixed.",
+        "ru": "Машину починили.",
+        "note": "Можно ехать. Кто чинил — неважно."
+      },
+      {
+        "label": "Сделали для тебя · had + вещь + fixed",
+        "en": "I had my car fixed.",
+        "ru": "Мне починили машину в сервисе.",
+        "note": "Чинил мастер, договаривался ты."
+      }
+    ],
+    "footnote": "I fixed my car — чинил ты сам.",
+    "focus": [
+      "being",
+      "has been",
+      "had",
+      "fixed"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Машину чинят или уже починили?",
+      "body": "Ты звонишь в автосервис и спрашиваешь про свою машину. Тебе могут ответить двумя способами.\n\nYour car is being fixed — машину сейчас чинят. Работа идёт, забирать рано. Your car has been fixed — машину починили. Работа закончена, можно ехать.\n\nBeing — это форма be с -ing, как working в I am working. Она показывает процесс. Получается is + being + третья форма: is being fixed, are being painted. По-русски — «сейчас чинят», «ремонтируется».\n\nBeing ставь, только когда работа идёт сейчас или в эти дни. Если так бывает регулярно, being не нужен: The office is cleaned every evening — офис убирают каждый вечер. The office is being cleaned — его убирают прямо сейчас, зайти нельзя."
+    },
+    {
+      "title": "Was being fixed — работа шла в тот момент",
+      "body": "Как I was cooking, пассив бывает в процессе и в прошлом: was/were + being + третья форма. When I got to the shop, my car was still being fixed — когда я приехал в сервис, машину ещё чинили.\n\nСравни: My car was fixed on Monday — машину починили в понедельник, работа закончена. Was being fixed — работа ещё шла, когда случилось что-то другое.\n\nОшибка: My car was fixing. Так выходит, будто машина сама что-то чинила. Нужны и being, и третья форма."
+    },
+    {
+      "title": "Must be checked, can be paid: пассив после can и must",
+      "body": "В правилах и объявлениях важно не кто, а что сделать с вещью: Bags must be checked — сумки нужно проверить. The bill can be paid online — счёт можно оплатить онлайн.\n\nФорма: can, must, should, will или have to + be + третья форма. Be здесь всегда одинаковое, без is, are и was: The form has to be signed. The package will be delivered tomorrow.\n\nРусское «нужно сделать», «можно оплатить», «нельзя оставлять» часто переводится именно так: Bikes can't be left in the lobby — велосипеды нельзя оставлять в холле.\n\nОшибки: must checked (потерян be), must to be checked (лишний to), must is checked."
+    },
+    {
+      "title": "I had my laptop fixed — сделал не ты, а для тебя",
+      "body": "Ноутбук сломался, ты отнёс его в мастерскую, и там его починили. По-русски часто говорят «я починил ноутбук», хотя чинил мастер. По-английски I fixed my laptop значит, что чинил ты сам.\n\nЕсли работу сделали по твоей просьбе, говори have + вещь + третья форма: I had my laptop fixed — мне починили ноутбук.\n\nВремя показывает have: I'm having my car washed tomorrow, I've had the locks changed, I need to have my phone fixed. В разговоре американцы чаще говорят get: I got my hair cut — я подстригся. Смысл тот же.\n\nПорядок важен. I had my laptop fixed — услуга. I had fixed my laptop — это past perfect: я сам починил его раньше."
+    },
+    {
+      "title": "I had my wallet stolen — та же форма, но не услуга",
+      "body": "С глаголами вроде steal (красть), break, damage то же строение рассказывает о неприятности: I had my wallet stolen — у меня украли кошелёк. Никто этого не заказывал. Это то же, что My wallet was stolen, но в центре фразы — ты, с кем это случилось.\n\nВ разговоре американцы чаще скажут My wallet got stolen или Someone stole my wallet. I had my wallet stolen тоже обычная фраза, особенно в рассказе о поездке.\n\nОтличить услугу от неприятности помогает сам глагол: fixed, cleaned, cut — услуга; stolen, broken — беда."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The elevator is being repaired, so please use the stairs.",
+      "ru": "Лифт сейчас ремонтируют, поэтому, пожалуйста, идите по лестнице.",
+      "why": "Ремонт идёт прямо сейчас — is being repaired. Лифт пока не работает."
+    },
+    {
+      "en": "The office is cleaned every evening.",
+      "ru": "Офис убирают каждый вечер.",
+      "why": "Так бывает регулярно, поэтому без being."
+    },
+    {
+      "en": "When I called, the report was still being checked.",
+      "ru": "Когда я позвонил, отчёт ещё проверяли.",
+      "why": "Проверка шла в момент звонка — was being checked."
+    },
+    {
+      "en": "Tickets can be bought at the door.",
+      "ru": "Билеты можно купить на входе.",
+      "why": "«Можно купить» — can be bought. Be после can не меняется."
+    },
+    {
+      "en": "I'm getting my car serviced on Friday.",
+      "ru": "В пятницу я отдаю машину на техобслуживание.",
+      "why": "Работу сделает сервис, а ты договорился заранее — I'm getting… serviced."
+    },
+    {
+      "en": "I got my hair cut yesterday.",
+      "ru": "Я вчера подстригся.",
+      "why": "Стриг парикмахер, поэтому got my hair cut. I cut my hair — стригся сам."
+    },
+    {
+      "en": "She had her bike stolen last week.",
+      "ru": "У неё на прошлой неделе украли велосипед.",
+      "why": "Это не услуга, а неприятность: had + bike + stolen."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты работаешь в службе поддержки онлайн-магазина. Напиши клиенту: «Ваш заказ уже упакован. Сейчас его грузят в фургон». pack — упаковать, load into the van — грузить в фургон.",
+      "context": "",
+      "guidance": {
+        "title": "Работа идёт сейчас — is being",
+        "body": "Первая фраза — о готовом результате, это has been из B1. Во второй работа ещё идёт: is + being + третья форма.",
+        "example": "The food has been cooked. It's being put in boxes now.",
+        "translation": "Еду приготовили. Сейчас её раскладывают по коробкам."
+      },
+      "hint": "Начни вторую фразу так: It's being …",
+      "answers": [
+        "Your order has been packed. It's being loaded into the van now.",
+        "Your order has been packed. It is being loaded into the van now.",
+        "Your order has been packed. It's now being loaded into the van.",
+        "Your order has been packed. Now it's being loaded into the van.",
+        "Your order has been packed, and it's being loaded into the van now.",
+        "Your order has been packed. It's being loaded into the van.",
+        "Your order has already been packed. It's being loaded into the van now.",
+        "Your order has already been packed. It is being loaded into the van now.",
+        "Your order has already been packed. It's now being loaded into the van.",
+        "Your order has already been packed. Now it's being loaded into the van.",
+        "Your order has already been packed, and it's being loaded into the van now.",
+        "Your order has already been packed. It's being loaded into the van."
+      ],
+      "explanation": "Has been packed — упаковка закончена. Is being loaded — погрузка идёт прямо сейчас. Already и now можно ставить или нет: время видно из формы."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, почему ты вчера опоздал. Ответь: «Когда я приехал в сервис, мою машину ещё чинили. Пришлось ждать час». service center — автосервис, had to — пришлось.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем past continuous: работа шла в тот момент",
+        "body": "Вспоминаем I was cooking when you called. С пассивом так же: was + being + третья форма. Приезд — короткое событие, он в past simple.",
+        "example": "When we arrived, the room was still being cleaned.",
+        "translation": "Когда мы приехали, номер ещё убирали."
+      },
+      "hint": "Начни так: When I got to the service center, my car was still …",
+      "answers": [
+        "When I got to the service center, my car was still being fixed. I had to wait for an hour.",
+        "When I got to the service center, my car was still being fixed. I had to wait an hour.",
+        "When I got to the service center, my car was still being fixed, so I had to wait for an hour.",
+        "When I got to the service center, my car was still being fixed, so I had to wait an hour.",
+        "When I got to the service center, my car was still being repaired. I had to wait for an hour.",
+        "When I got to the service center, my car was still being repaired. I had to wait an hour.",
+        "When I got to the service center, my car was still being repaired, so I had to wait for an hour.",
+        "When I got to the service center, my car was still being repaired, so I had to wait an hour.",
+        "When I arrived at the service center, my car was still being fixed. I had to wait for an hour.",
+        "When I arrived at the service center, my car was still being fixed. I had to wait an hour.",
+        "When I arrived at the service center, my car was still being fixed, so I had to wait for an hour.",
+        "When I arrived at the service center, my car was still being fixed, so I had to wait an hour.",
+        "When I arrived at the service center, my car was still being repaired. I had to wait for an hour.",
+        "When I arrived at the service center, my car was still being repaired. I had to wait an hour.",
+        "When I arrived at the service center, my car was still being repaired, so I had to wait for an hour.",
+        "When I arrived at the service center, my car was still being repaired, so I had to wait an hour."
+      ],
+      "explanation": "Was being fixed — ремонт шёл в момент твоего приезда. Got to или arrived at — короткое событие в past simple. My car was fixing — ошибка: машина ничего не чинила сама."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты управляешь домом и пишешь объявление для жильцов: «Мусор нужно выносить до 8 утра. Велосипеды нельзя оставлять в холле». trash — мусор, take out → taken out — выносить, leave → left — оставлять, lobby — холл.",
+      "context": "",
+      "guidance": {
+        "title": "После must и can't — be + третья форма",
+        "body": "Правило про вещь, а не про людей, поэтому начни с вещи. После must, can't или should ставь be без изменений, потом третью форму.",
+        "example": "Dogs must be kept on a leash. Food can't be brought inside.",
+        "translation": "Собак нужно держать на поводке. Еду нельзя проносить внутрь."
+      },
+      "hint": "Начни так: Trash must … Bikes can't …",
+      "answers": [
+        "Trash must be taken out before 8 a.m. Bikes can't be left in the lobby.",
+        "Trash must be taken out before 8 a.m. Bikes cannot be left in the lobby.",
+        "Trash must be taken out before 8 a.m. Bikes must not be left in the lobby.",
+        "Trash must be taken out before 8 a.m. Bicycles can't be left in the lobby.",
+        "Trash has to be taken out before 8 a.m. Bikes can't be left in the lobby.",
+        "Trash has to be taken out before 8 a.m. Bikes cannot be left in the lobby.",
+        "Trash has to be taken out before 8 a.m. Bikes must not be left in the lobby.",
+        "Trash has to be taken out before 8 a.m. Bicycles can't be left in the lobby.",
+        "The trash must be taken out before 8 a.m. Bikes can't be left in the lobby.",
+        "The trash must be taken out before 8 a.m. Bikes cannot be left in the lobby.",
+        "The trash must be taken out before 8 a.m. Bikes must not be left in the lobby.",
+        "The trash must be taken out before 8 a.m. Bicycles can't be left in the lobby."
+      ],
+      "explanation": "Must be taken out — правило, be после must не меняется. «Нельзя» — can't be left или must not be left; mustn't в американском объявлении звучит книжно. Has to be тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега видит, что твой ноутбук снова работает, и спрашивает: Did you fix it yourself? Ответь: «Нет, мне его починили в мастерской». repair shop — мастерская.",
+      "context": "",
+      "guidance": {
+        "title": "Сделал мастер — have + вещь + третья форма",
+        "body": "I fixed it значило бы, что чинил ты. Если работу сделали по твоей просьбе, после had поставь вещь, потом третью форму.",
+        "example": "I had my jacket cleaned last week.",
+        "translation": "Мне на прошлой неделе почистили куртку."
+      },
+      "hint": "Начни так: No, I had it …",
+      "answers": [
+        "No, I had it fixed at a repair shop.",
+        "No, I had it fixed at the repair shop.",
+        "No, I had it fixed at a shop.",
+        "No, I had it repaired at a repair shop.",
+        "No, I had it repaired at the repair shop.",
+        "No, I had it repaired at a shop.",
+        "No, I got it fixed at a repair shop.",
+        "No, I got it fixed at the repair shop.",
+        "No, I got it fixed at a shop.",
+        "No, I got it repaired at a repair shop.",
+        "No, I got it repaired at the repair shop.",
+        "No, I got it repaired at a shop.",
+        "No. I had it fixed at a repair shop.",
+        "No. I had it fixed at the repair shop.",
+        "No. I had it fixed at a shop.",
+        "No. I had it repaired at a repair shop.",
+        "No. I had it repaired at the repair shop.",
+        "No. I had it repaired at a shop.",
+        "No. I got it fixed at a repair shop.",
+        "No. I got it fixed at the repair shop.",
+        "No. I got it fixed at a shop.",
+        "No. I got it repaired at a repair shop.",
+        "No. I got it repaired at the repair shop.",
+        "No. I got it repaired at a shop."
+      ],
+      "explanation": "Had it fixed: чинил мастер, а ты договорился. Got it fixed звучит так же естественно. It стоит между had и fixed."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг зовёт тебя на завтрак в пятницу утром. Ответь: «Не могу: в пятницу утром мне меняют шины. Давай в субботу?» change the tires — менять шины.",
+      "context": "",
+      "guidance": {
+        "title": "Договорился заранее — I'm getting… / I'm having…",
+        "body": "Время показывает have или get, третья форма не меняется. О заранее назначенном деле — present continuous, как в I'm meeting Tom tomorrow. Get звучит разговорнее.",
+        "example": "I'm having my teeth cleaned next Tuesday.",
+        "translation": "В следующий вторник у меня чистка зубов у стоматолога."
+      },
+      "hint": "Начни так: I can't. I'm getting my …",
+      "answers": [
+        "I can't. I'm getting my tires changed on Friday morning. How about Saturday?",
+        "I can't. I'm getting my tires changed on Friday morning. What about Saturday?",
+        "I can't. I'm getting my tires changed Friday morning. How about Saturday?",
+        "I can't. I'm getting my tires changed Friday morning. What about Saturday?",
+        "I can't. I'm having my tires changed on Friday morning. How about Saturday?",
+        "I can't. I'm having my tires changed on Friday morning. What about Saturday?",
+        "I can't. I'm having my tires changed Friday morning. How about Saturday?",
+        "I can't. I'm having my tires changed Friday morning. What about Saturday?",
+        "Sorry, I can't. I'm getting my tires changed on Friday morning. How about Saturday?",
+        "Sorry, I can't. I'm getting my tires changed on Friday morning. What about Saturday?",
+        "Sorry, I can't. I'm getting my tires changed Friday morning. How about Saturday?",
+        "Sorry, I can't. I'm getting my tires changed Friday morning. What about Saturday?",
+        "Sorry, I can't. I'm having my tires changed on Friday morning. How about Saturday?",
+        "Sorry, I can't. I'm having my tires changed on Friday morning. What about Saturday?",
+        "Sorry, I can't. I'm having my tires changed Friday morning. How about Saturday?",
+        "Sorry, I can't. I'm having my tires changed Friday morning. What about Saturday?"
+      ],
+      "explanation": "I'm getting my tires changed: шины меняет мастер, а ты записался заранее. I'm having… тоже верно. I'm changing my tires значило бы, что меняешь сам."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь новому коллеге о поездке в Нью-Йорк: «У меня там в метро украли телефон». Скажи это через had, чтобы в центре фразы был ты. subway — метро.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем My bike was stolen: то же через had",
+        "body": "Вспоминаем B1: My bike was stolen — в центре вещь. Had + вещь + stolen говорит то же, но в центре человек, с которым это случилось. Это не услуга.",
+        "example": "My sister had her car broken into last month.",
+        "translation": "У сестры в прошлом месяце вскрыли машину."
+      },
+      "hint": "Начни так: I had my phone …",
+      "answers": [
+        "I had my phone stolen on the subway there.",
+        "I had my phone stolen there on the subway.",
+        "I had my phone stolen on the subway in New York.",
+        "I had my phone stolen on the New York subway.",
+        "I had my phone stolen on the subway."
+      ],
+      "explanation": "I had my phone stolen = My phone was stolen: никто ничего не заказывал. My phone got stolen тоже естественно, но в задании нужен had."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет тебе про машину и просит проверить английский: I can't drive today because my car is repairing. Last week I changed the oil at a service center, and now the brakes must checked. Исправь три ошибки и перепиши текст целиком.",
+      "context": "oil — масло, brakes — тормоза, service center — автосервис. Масло менял не друг, а мастер.",
+      "guidance": {
+        "title": "Проверь, кто делает работу",
+        "body": "Для каждого действия спроси: работа идёт сейчас, её сделал другой человек или это правило? От ответа зависит форма: being, have + вещь или be после must.",
+        "example": "The roof is being fixed, and I had the windows replaced.",
+        "translation": "Крышу сейчас чинят, а окна мне заменили."
+      },
+      "hint": "Машина сама себя чинит? Кто менял масло? Чего не хватает после must?",
+      "answers": [
+        "I can't drive today because my car is being repaired. Last week I had the oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car is being repaired. Last week I got the oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car is being repaired. Last week I had my oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car is being repaired. Last week I got my oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car is being repaired. Last week, I had the oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car's being repaired. Last week I had the oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car's being repaired. Last week I got the oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car's being repaired. Last week I had my oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car's being repaired. Last week I got my oil changed at a service center, and now the brakes must be checked.",
+        "I can't drive today because my car's being repaired. Last week, I had the oil changed at a service center, and now the brakes must be checked."
+      ],
+      "explanation": "Is repairing — будто машина сама чинит, нужно is being repaired. Масло менял мастер — had или got the oil changed. После must нужен be: must be checked."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Подрядчик прислал тебе черновик отчёта о ремонте квартиры и просит проверить английский перед отправкой хозяйке, Ms. Rivera. Исправь все ошибки и перепиши текст целиком: The bathroom has been finish. The kitchen cabinets are painting right now. The new faucet must installed by a plumber. Yesterday we had delivered the new floor tiles.",
+      "context": "Плитку привёз магазин, а не рабочие. cabinets — шкафчики, faucet — кран, plumber — сантехник, floor tiles — плитка для пола.",
+      "hint": "Ошибок четыре — по одной в каждой фразе.",
+      "answers": [
+        "The bathroom has been finished. The kitchen cabinets are being painted right now. The new faucet must be installed by a plumber. Yesterday we had the new floor tiles delivered.",
+        "The bathroom has been finished. The kitchen cabinets are being painted right now. The new faucet must be installed by a plumber. Yesterday we got the new floor tiles delivered.",
+        "The bathroom has been finished. The kitchen cabinets are being painted right now. The new faucet must be installed by a plumber. We had the new floor tiles delivered yesterday.",
+        "The bathroom has been finished. The kitchen cabinets are being painted right now. The new faucet must be installed by a plumber. Yesterday, we had the new floor tiles delivered."
+      ],
+      "explanation": "Засчитывается, если исправлены все четыре места: has been finished, are being painted, must be installed, had the tiles delivered. By a plumber здесь к месту: кто ставит кран — важная информация."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты снимаешь квартиру. После протечки в ней идёт ремонт. Напиши хозяйке, Ms. Rivera, письмо на 100–180 слов. В нём: что уже сделано; что делают сейчас; что ещё нужно сделать или проверить; какую услугу ты заказал сам и когда; вопрос или просьба в конце.",
+      "context": "leak — протечка, pipe — труба, ceiling — потолок, dry — сушить, mold — плесень, install — устанавливать, carpet — ковровое покрытие, receipt — чек.",
+      "hint": "План: I'm writing with an update on the repairs. … has been … . Right now, … is being … . … still needs to be … . I had … . Could you …?",
+      "answers": [
+        "Hi Ms. Rivera,\nI'm writing with an update on the repairs after the leak. The pipe under the kitchen sink has been replaced, and the floor has been dried. Right now, the bathroom ceiling is being painted, so I can't use the shower until Thursday. The walls still need to be checked for mold before the new cabinets are installed. Also, I had the living room carpet cleaned on Monday because it got wet. The receipt is $120. Could you let me know if you'll cover this cost, or should I send the receipt to the building manager?\nThank you,\nAnna Petrova"
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов и каждая форма на своём месте: готовое — has been, идущее сейчас — is/are being, нужное — needs to be или must be, заказанное тобой — had/got + вещь + третья форма."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый американский коллега спрашивает, как ты справляешься с бытовыми делами. Расскажи вслух за 1–2 минуты: что ты делаешь сам; что тебе делают другие (стрижка, машина, техника, уборка) и как часто; что сейчас ремонтируют или строят в твоём доме или районе; одно правило твоего дома или офиса.",
+      "context": "Сначала скажи без записи, потом прослушай себя и проверь: есть ли being, have/get + вещь + третья форма и be после must или can't.",
+      "hint": "Начни так: I do most things myself, but …",
+      "answers": [
+        "I do most things myself. I cook, I clean my apartment, and I fix small things at home. But for some things, I pay professionals. I get my hair cut once a month at a small place near my office. I have my car serviced twice a year, and last winter I had my old washing machine repaired instead of buying a new one. Right now, a lot is happening in my neighborhood. The main street is being repaired, so the buses are always late, and a new school is being built across from my building. It should be finished next year. My building has a couple of strict rules: visitors must be signed in at the front desk, and packages can't be left in the hallway."
+      ],
+      "explanation": "Засчитывается, если есть все четыре пункта и хотя бы по одному примеру: is/are being + третья форма, have/get + вещь + третья форма, must/can't + be + третья форма."
+    }
+  ]
+}

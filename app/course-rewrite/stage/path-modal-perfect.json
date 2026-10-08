@@ -1,0 +1,341 @@
+{
+  "id": "path-modal-perfect",
+  "title": "Must have, should have, could have: догадка и оценка прошлого",
+  "subtitle": "Наверное, было: must have → может быть: might have → точно нет: can't have → надо было: should have → мог, но не сделал: could have",
+  "level": "B2",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Гадать о том, что уже случилось, и оценивать прошлое: «Он, наверное, проспал», «Может быть, она не видела письмо», «Не может быть, что он забыл», «Надо было взять зонт», «Ты мог бы и сказать!».",
+  "formula": "He must have overslept. → She might not have seen it. → He can't have forgotten. → I should have checked. → You could have told me!",
+  "keyRule": {
+    "rule": "О прошлом после must, might, can't, should, could ставь have + третья форма.",
+    "example": "He must have forgotten — он, наверное, забыл.",
+    "check": "Must went или must have gone? Только have + третья форма."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-deduction",
+    "path-third-conditional",
+    "path-mixed-conditionals"
+  ],
+  "recycles": [
+    "path-deduction",
+    "path-third-conditional"
+  ],
+  "teaches": [
+    "must / might / can't + have + третья форма — догадка о прошлом: He must have overslept, He might have missed the bus, He can't have forgotten",
+    "have одинаков для всех; must went и must has gone — ошибки",
+    "might not have — «может, и не» ≠ can't have — «точно не»; американское must not have — «наверное, не»",
+    "«должен был»: had to (был обязан) ↔ must have (наверное, так и было) ↔ should have (так ожидалось): The package should have arrived by now",
+    "should have — надо было, а не сделал; shouldn't have — сделал, а не стоило; You shouldn't have! — благодарность за подарок",
+    "could have — мог, но не сделал; You could have told me! — упрёк; couldn't have — было невозможно",
+    "в речи should've, could've, must've; should of — ошибка",
+    "слова: oversleep → overslept, stand in line, receipt, delivery driver, cleaner"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Modals: deductions about the past",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/modals-deductions-about-past",
+      "notes": "Сверено: must have — уверен, что было; might have / may have (официальнее) / could have — возможно; can't have / couldn't have — уверен, что не было; для прошлой обязанности — had to, а не must have. Отмечено, что must not have встречается в речи; в американском разговоре это обычная форма."
+    },
+    {
+      "title": "VOA Learning English · Everyday Grammar: Could Have, Would Have, and Should Have",
+      "url": "https://learningenglish.voanews.com/a/everyday-grammar-could-have-should-have-would-have/3391128.html",
+      "notes": "Американский справочник: could have — было возможно, но не случилось; couldn't have — было невозможно; should have — не случилось, а жаль, часто в извинениях; have одинаков для всех, не has и не had; в речи could've и coulda."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Дэн не пришёл на планёрку",
+    "why": "Одно событие — четыре разные мысли о нём. Форма у всех одна: слово + have + третья форма.",
+    "items": [
+      {
+        "label": "Почти уверен",
+        "en": "He must have overslept.",
+        "ru": "Он, наверное, проспал.",
+        "note": "Признак сильный: вчера он смотрел матч до ночи."
+      },
+      {
+        "label": "Может быть",
+        "en": "He might have missed the bus.",
+        "ru": "Может быть, он опоздал на автобус.",
+        "note": "Одна из версий."
+      },
+      {
+        "label": "Точно нет",
+        "en": "He can't have forgotten.",
+        "ru": "Не может быть, что он забыл.",
+        "note": "Ты напомнил ему два раза."
+      },
+      {
+        "label": "Оценка",
+        "en": "He should have set an alarm.",
+        "ru": "Надо было ему поставить будильник.",
+        "note": "Не догадка, а «правильно было бы»."
+      }
+    ],
+    "focus": [
+      "must have overslept",
+      "might have missed",
+      "can't have forgotten",
+      "should have set"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Наверное, проспал: must have, might have, can't have",
+      "body": "Утром Дэна нет на планёрке. Он никогда не опаздывает, а вчера рассказывал, что смотрел матч до ночи. Ты гадаешь не о том, что сейчас, а о том, что уже случилось: «Наверное, он проспал» — He must have overslept. Oversleep → overslept — проспать.\n\nО сейчас ты уже говоришь: He must be sick. О прошлом после must, might, can't ставь have + третья форма: must have overslept, might have missed, can't have forgotten. Have одинаков для всех: he must have, а не must has. Must went — ошибка.\n\nШкала уверенности та же, что в уроке о догадках. Must have — почти уверен: «наверное», «должно быть». Might have (а также may have, could have) — может быть: He might have missed the bus. Can't have или couldn't have — уверен, что нет: He can't have forgotten — I reminded him twice — не может быть, что он забыл: я напомнил ему два раза."
+    },
+    {
+      "title": "«Не»: might not have и can't have",
+      "body": "Might not have — «может, и не»: ты не уверен. She might not have seen my email — может, она не видела моё письмо.\n\nCan't have — «точно не», у тебя есть веская причина. She can't have seen it — I sent it to the wrong address — она не могла его увидеть: я отправил письмо не на тот адрес.\n\nАмериканцы часто говорят ещё must not have — «наверное, не»: He must not have heard me — он, наверное, меня не услышал. Это догадка, а не запрет, и говорят её полностью, без сокращения mustn't."
+    },
+    {
+      "title": "«Должен был»: had to, must have или should have",
+      "body": "Русское «он должен был уйти» может значить разное. Обязанность — had to: He had to leave early — he had a doctor's appointment — ему нужно было уйти пораньше: у него был приём у врача. Догадка — must have: His jacket is gone. He must have left — куртки нет, он, должно быть, ушёл.\n\nЕсть и третий смысл — «должен был по плану». The package should have arrived by now — посылка уже должна была прийти. Так говорят, когда ожидаемое не случилось или ты ещё не проверил.\n\nПроверка: «был обязан» — had to; «наверное, так и было» — must have; «так ожидалось» — should have."
+    },
+    {
+      "title": "Should have: надо было, а ты не сделал",
+      "body": "I should have brought an umbrella — надо было взять зонт. Зонт ты не взял и теперь мокнешь. Should have + третья форма оценивает прошлое: правильно было бы сделать иначе. Так извиняются (I should have called you), жалеют и упрекают (You should have asked me).\n\nShouldn't have — наоборот: сделал, а не стоило. I shouldn't have eaten so much — зря я столько съел. Американцы так ещё благодарят за подарок: You shouldn't have! — «Ну зачем ты, не стоило!»\n\nI should have left earlier и I wish I had left earlier близки по смыслу. Should have — оценка решения («так было бы правильно»), wish — чувство («жаль»)."
+    },
+    {
+      "title": "Could have: мог, но не сделал",
+      "body": "Could have ты знаешь по «если бы тогда»: возможность была, но ею не воспользовались. We could have taken a cab, but we walked — мы могли взять такси, но пошли пешком. С you это часто упрёк: You could have told me! — мог бы и сказать!\n\nСравни три слова о том, чего не было. Could have — было можно. Should have — было бы правильно. Would have — так бы и случилось при другом условии: If you had asked, I would have helped. Couldn't have — было невозможно: I couldn't have done it without you — без тебя я бы не справился.\n\nВ речи have почти пропадает: should've, could've, must've звучат примерно как [шудэв], [кудэв], [мастэв]. Пиши have или 've. Should of — ошибка: of только звучит похоже."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The kids are so quiet. They must have fallen asleep.",
+      "ru": "Дети так притихли. Наверное, уснули.",
+      "why": "Признак сейчас, а событие уже случилось — must have."
+    },
+    {
+      "en": "I can't find my keys. I might have left them at the office.",
+      "ru": "Не могу найти ключи. Может быть, я оставил их в офисе.",
+      "why": "Одна из версий — might have."
+    },
+    {
+      "en": "She can't have driven here. Her car is in the shop.",
+      "ru": "Не может быть, что она приехала на машине: её машина в ремонте.",
+      "why": "Есть веская причина — can't have."
+    },
+    {
+      "en": "He had to work late yesterday.",
+      "ru": "Ему пришлось вчера задержаться на работе.",
+      "why": "Это обязанность, а не догадка — had to."
+    },
+    {
+      "en": "I should have checked the weather.",
+      "ru": "Надо было посмотреть прогноз погоды.",
+      "why": "Не посмотрел и теперь видишь, что зря."
+    },
+    {
+      "en": "Flowers? You shouldn't have!",
+      "ru": "Цветы? Ну зачем ты, не стоило!",
+      "why": "Не упрёк, а благодарность с лёгким смущением."
+    },
+    {
+      "en": "We could have stayed longer, but the babysitter was waiting.",
+      "ru": "Мы могли остаться подольше, но нас ждала няня.",
+      "why": "Возможность была, но ею не воспользовались."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утром ты выходишь из дома: машины мокрые, на тротуаре лужи. Скажи соседу: «Ночью, наверное, шёл дождь». rain → rained.",
+      "context": "",
+      "guidance": {
+        "title": "Догадка о прошлом: must have + третья форма",
+        "body": "Признак ты видишь сейчас, а событие уже случилось. После must ставь have и третью форму. Have одинаков для всех, не has.",
+        "example": "The lights are off. They must have gone to bed.",
+        "translation": "Свет выключен. Наверное, они легли спать."
+      },
+      "hint": "Начни так: It must have …",
+      "answers": [
+        "It must have rained last night.",
+        "It must've rained last night.",
+        "It must have rained during the night.",
+        "It must have rained overnight.",
+        "It must have been raining last night."
+      ],
+      "explanation": "Must have rained — ты почти уверен по лужам. It must rain значило бы «дождь должен идти». Must have been raining тоже верно — о том, что дождь шёл какое-то время."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем догадки о сейчас. У Анны красные глаза, и она всё время зевает. Скажи коллеге: «Она, наверное, устала. Должно быть, вчера она поздно работала». work late — поздно работать.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: must be — о сейчас, must have — о прошлом",
+        "body": "Состояние сейчас — must be, как в уроке о догадках. Причина в прошлом — must have + третья форма.",
+        "example": "You must be hungry. You must have skipped lunch.",
+        "translation": "Ты, наверное, голоден. Должно быть, ты пропустил обед."
+      },
+      "hint": "Две фразы — два времени: She must be … She must have …",
+      "answers": [
+        "She must be tired. She must have worked late last night.",
+        "She must be tired. She must've worked late last night.",
+        "She must be tired. She must have worked late yesterday.",
+        "She must be tired. She must have been working late last night.",
+        "She must be really tired. She must have worked late last night.",
+        "She must be tired, so she must have worked late last night."
+      ],
+      "explanation": "Must be tired — догадка о сейчас. Must have worked — о вчерашнем вечере. Must have been working тоже верно."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега Эмили два дня не отвечает на твоё письмо. Напиши другому коллеге: «Может быть, она не видела моё письмо. Но не может быть, чтобы она его удалила: она никогда ничего не удаляет». see → seen; delete → deleted — удалить.",
+      "context": "",
+      "guidance": {
+        "title": "Может, и нет — или точно нет",
+        "body": "Не уверен — might not have. Уверен, что нет, и знаешь почему — can't have. Mustn't have здесь не подходит.",
+        "example": "He might not have heard the doorbell. But he can't have left — his car is still here.",
+        "translation": "Может, он не услышал звонок. Но не может быть, что он ушёл: его машина ещё здесь."
+      },
+      "hint": "Первая фраза: She might not have … Вторая: But she can't have …",
+      "answers": [
+        "She might not have seen my email. But she can't have deleted it. She never deletes anything.",
+        "She might not have seen my email. But she can't have deleted it — she never deletes anything.",
+        "She might not have seen my email, but she can't have deleted it. She never deletes anything.",
+        "She may not have seen my email. But she can't have deleted it. She never deletes anything.",
+        "She might not have seen my email. But she couldn't have deleted it. She never deletes anything.",
+        "She might not have seen my email. But she can't have deleted it because she never deletes anything."
+      ],
+      "explanation": "Might not have seen — ты не уверен. Can't have deleted — уверен, что нет: она ничего не удаляет. May not have и couldn't have тоже верны."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи две похожие по-русски фразы: 1) «Вчера Майк должен был уйти пораньше: у него был приём у врача». 2) «Майка нет за столом, и куртки нет. Он, должно быть, уже ушёл». doctor's appointment — приём у врача; jacket — куртка.",
+      "context": "",
+      "guidance": {
+        "title": "Обязанность или догадка",
+        "body": "«Должен был», потому что так было нужно, — had to + глагол. «Должно быть, так и было» — must have + третья форма.",
+        "example": "I had to take a taxi — there were no buses. The streets are empty. Everyone must have gone home.",
+        "translation": "Мне пришлось взять такси: автобусов не было. Улицы пустые. Все, должно быть, разошлись по домам."
+      },
+      "hint": "В первой фразе Майк был обязан — had to … Во второй ты гадаешь — must have …",
+      "answers": [
+        "Yesterday, Mike had to leave early. He had a doctor's appointment. Mike isn't at his desk, and his jacket is gone. He must have left already.",
+        "Mike had to leave early yesterday because he had a doctor's appointment. Mike isn't at his desk, and his jacket is gone. He must have already left.",
+        "Yesterday, Mike had to leave early — he had a doctor's appointment. Mike isn't at his desk, and his jacket isn't here. He must have left already.",
+        "Yesterday Mike had to leave early because he had a doctor's appointment. Mike isn't at his desk, and his jacket is gone too. He must have already left.",
+        "Mike had to leave early yesterday. He had a doctor's appointment. Mike's not at his desk, and his jacket is gone. He must've left already."
+      ],
+      "explanation": "Had to leave — у Майка была причина, и он ушёл. Must have left — это твоя догадка по признакам. Mike must have left early yesterday значило бы «наверное, ушёл», а не «был обязан»."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты гулял по Сан-Франциско, пошёл дождь, а новые туфли натёрли ноги. Напиши подруге: «Надо было взять зонт. И не надо было надевать новые туфли». bring → brought; wear → wore → worn.",
+      "context": "",
+      "guidance": {
+        "title": "Should have — надо было, shouldn't have — не надо было",
+        "body": "Should have + третья форма — правильно было бы сделать, а ты не сделал. Shouldn't have — сделал, а не стоило.",
+        "example": "I should have charged my phone. I shouldn't have stayed up so late.",
+        "translation": "Надо было зарядить телефон. Не надо было ложиться так поздно."
+      },
+      "hint": "Первая фраза без not: I should have … Вторая с not: I shouldn't have worn …",
+      "answers": [
+        "I should have brought an umbrella. And I shouldn't have worn my new shoes.",
+        "I should have brought an umbrella. I shouldn't have worn my new shoes.",
+        "I should have taken an umbrella. I shouldn't have worn my new shoes.",
+        "I should've brought an umbrella. I shouldn't have worn my new shoes.",
+        "I should have brought an umbrella, and I shouldn't have worn my new shoes.",
+        "I should have brought an umbrella. And I should not have worn my new shoes.",
+        "I should have brought an umbrella. I shouldn't have worn new shoes."
+      ],
+      "explanation": "Should have brought — зонт ты не взял. Shouldn't have worn — туфли надел, и зря. Brought и taken оба подходят."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «если бы тогда». Ты час стоял в очереди за билетами в кино, а друг потом говорит, что их продавали онлайн. Скажи ему: «Мы могли купить билеты онлайн! Ты мог бы и сказать мне. Если бы ты сказал раньше, я бы не стоял в очереди целый час». buy → bought; stand in line (stood, stood) — стоять в очереди.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: could have и «если бы тогда»",
+        "body": "Could have — возможность была, но её упустили; с you часто звучит упрёк. В «если бы тогда» после if — had + третья форма, в другой части — would have.",
+        "example": "We could have taken the subway. If you had checked the map, we wouldn't have walked so far.",
+        "translation": "Мы могли поехать на метро. Если бы ты посмотрел карту, мы бы не шли так далеко."
+      },
+      "hint": "Начни так: We could have … You could have … Третья фраза: If you had told me earlier, I wouldn't have …",
+      "answers": [
+        "We could have bought the tickets online! You could have told me. If you had told me earlier, I wouldn't have stood in line for an hour.",
+        "We could have bought the tickets online! You could have told me. If you'd told me earlier, I wouldn't have stood in line for a whole hour.",
+        "We could've bought the tickets online! You could've told me. If you had told me earlier, I wouldn't have stood in line for an hour.",
+        "We could have bought tickets online! You could have told me. If you had told me earlier, I wouldn't have waited in line for an hour.",
+        "We could have bought the tickets online! You could have told me! If you'd told me sooner, I wouldn't have stood in line for a whole hour.",
+        "We could have bought the tickets online. You could have told me. If you had said so earlier, I wouldn't have stood in line for an hour.",
+        "We could have bought the tickets online! You could have told me. I wouldn't have stood in line for an hour if you had told me earlier."
+      ],
+      "explanation": "Could have bought — возможность была. You could have told me — упрёк. If you had told me… I wouldn't have stood — «если бы тогда» из урока B1. Waited in line и told me sooner тоже верны."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет в рабочий чат и просит проверить сообщение. В нём четыре ошибки в форме. Исправь и перепиши целиком: Dan must went home early. We should have call him. Emily can't has seen the message, and I should of checked the address.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь have и третью форму",
+        "body": "После must, might, can't, should, could — всегда have: не has и не of. После have — третья форма: gone, called, seen.",
+        "example": "She must have taken the bus. We should have waited for her.",
+        "translation": "Она, наверное, поехала на автобусе. Надо было её подождать."
+      },
+      "hint": "Ищи четыре места: где нет have, где has, где of и где после have не третья форма.",
+      "answers": [
+        "Dan must have gone home early. We should have called him. Emily can't have seen the message, and I should have checked the address.",
+        "Dan must've gone home early. We should've called him. Emily can't have seen the message, and I should've checked the address."
+      ],
+      "explanation": "Must went → must have gone, should have call → should have called, can't has → can't have, should of → should have. Of только звучит похоже на 've."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты заказал пиццу на обед команды к 12:00. Курьер приехал в 12:40 и вместо трёх вегетарианских пицц привёз одну. Что ты знаешь: заказ ты делал по телефону, связь была плохая; в чеке написано «1 veggie»; курьер сказал, что в ресторане сегодня очень много заказов. Напиши начальнице, Ms. Patel, письмо на 100–180 слов. Что должно быть: 1) что случилось — факты; 2) две догадки о причине (must have, might have или can't have) и на чём каждая основана; 3) что тебе стоило сделать (should have); 4) одна упущенная возможность (could have); 5) что ты сделаешь в следующий раз.",
+      "context": "Слова: order — заказ, place an order — сделать заказ, receipt — чек, delivery driver — курьер, veggie pizza — вегетарианская пицца, bad connection — плохая связь.",
+      "hint": "План: I'm sorry about today's lunch. → The receipt says … so the restaurant must have … → I might have … → I should have … → We could have … → Next time, I'll …",
+      "answers": [
+        "Hi Ms. Patel,\n\nI'm sorry about today's lunch. I ordered three veggie pizzas for 12:00, but the driver arrived at 12:40 with only one. I placed the order by phone, not on the website. The receipt says \"1 veggie,\" so the restaurant must have written the order down wrong. Or I might have said it unclearly, because the connection was bad. The driver told me they had a lot of orders today, which might explain the delay. I should have ordered online, where I can check everything before I pay. I also should have asked them to repeat the order. We could have ordered from the place across the street, since they usually deliver in twenty minutes. Next time, I'll order online at least an hour ahead and check the receipt right away.\n\nBest,\nSam"
+      ],
+      "explanation": "Засчитывается, если есть все пять пунктов и догадки опираются на факты из задания: чек, телефонный заказ, слова курьера. Must have — там, где признак сильный (чек), might have — где версий несколько. Не засчитывается, если догадка подана как факт: The restaurant forgot our order."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи другу историю-загадку из своей жизни (можно придумать): что-то пропало или пошло не так, и ты так и не узнал точно почему. Говори 1–2 минуты. Что должно прозвучать: 1) что случилось; 2) три версии — с must have, might have и can't have — и почему ты так думаешь; 3) что тебе стоило или не стоило делать (should have или shouldn't have); 4) чем всё закончилось.",
+      "context": "",
+      "hint": "Начни так: Here's something I still can't explain. Last summer, …",
+      "answers": [
+        "Here's something I still can't explain. Last summer, I came back from a weekend trip, and my bike wasn't in the yard. I had locked it to the fence, like always. At first, I thought someone must have stolen it. But the lock was gone too, and it's a really strong lock. A thief can't have cut it without anyone noticing, because my neighbor works from home and sits by the window all day. Then I thought my roommate might have borrowed it. But he was away too, so that didn't work. Two days later, the bike was back by the fence, with the lock on it! My best guess now is that my landlord must have moved it while the workers were painting the fence. I should have called him before I called the police. And I shouldn't have panicked so fast. Now I always text my landlord first."
+      ],
+      "explanation": "Засчитывается, если прозвучали: что случилось, три версии с must have, might have и can't have и для каждой — причина, оценка с should have или shouldn't have и конец истории. Запиши себя и проверь, что после каждого must, might, can't и should слышно have."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Утром дверь офиса оказалась открытой. Факты: последним вчера уходил Джейк; у уборщицы тоже есть ключ; ничего не пропало; правила, кто запирает дверь, в команде нет. Коллега написал сообщение для всей команды. В нём ошибки в форме и слишком уверенные обвинения. Перепиши его так, чтобы формы были верными, а уверенность совпадала с фактами: Jake must forgot to lock the door. He should locked it. Somebody must have took a laptop. It can't have been the cleaner.",
+      "context": "Слова: cleaner — уборщица, lock — запирать, be missing — пропасть.",
+      "hint": "Для каждой фразы спроси: это факт, сильная догадка или одна из версий? Какой факт спорит с фразой про ноутбук?",
+      "answers": [
+        "Jake might have forgotten to lock the door, but the cleaner also has a key, so it could have been the cleaner. Nothing is missing, so nobody took a laptop. We should have agreed on who locks the door at night.",
+        "Jake left last, so he might have forgotten to lock the door. But the cleaner has a key too, so she could have left it open. Nothing is missing. We should have decided who locks up."
+      ],
+      "explanation": "Засчитывается, если исправлены формы (might have forgotten, should have + третья форма) и снижена уверенность: Джейк ушёл последним, но ключ есть и у уборщицы, поэтому might или could, а не must и не can't. Фразу про ноутбук нужно убрать или исправить: ничего не пропало. Should have лучше отнести ко всей команде: правила не было."
+    }
+  ]
+}

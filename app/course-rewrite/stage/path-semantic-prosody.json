@@ -1,0 +1,332 @@
+{
+  "id": "path-semantic-prosody",
+  "title": "Caused interest? Нет — sparked interest: какую оценку слово берёт у соседей",
+  "subtitle": "Cause — с бедами → совершить ≠ commit → break out и set in → perfectly и utterly → famous и notorious → results, а не consequences → окраска нарочно → своя речь",
+  "level": "C2",
+  "group": "Лексика и сочетания",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Выбирать слово по его привычным соседям: «Новый парк вызвал большой интерес» — The new park sparked a lot of interest, а не caused (cause обычно стоит рядом с проблемами), и замечать, когда чужой текст окрашен нарочно.",
+  "formula": "cause problems · spark interest · a fire broke out · panic set in · perfectly normal · utterly useless · famous / notorious",
+  "keyRule": {
+    "rule": "Перед выбором слова посмотри, с чем оно обычно стоит: cause — с бедами.",
+    "example": "The park sparked a lot of interest — парк вызвал большой интерес (caused звучало бы как беда).",
+    "check": "Посмотри пять примеров со словом в словаре: соседи хорошие или плохие?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-lexical-precision",
+    "path-academic-collocations",
+    "extended-c1-lexical-lab"
+  ],
+  "recycles": [
+    "path-lexical-precision",
+    "path-academic-collocations"
+  ],
+  "teaches": [
+    "семантическая просодия — оценка, которую слово берёт у привычных соседей: по словарю нейтрально, в употреблении — нет",
+    "с плохими соседями: cause (problems, damage, delays), break out (a fire, a fight), set in (panic, doubt, winter), commit (a crime, an error, fraud), persist, a spate of, rife with, utterly, end up + -ing",
+    "нейтральные и хорошие: lead to, result in, bring about (change), spark / generate (interest, debate), provide (support), perfectly (normal, fine, reasonable)",
+    "famous, well-known — нейтрально и хорошо; renowned — с уважением; notorious, infamous — «печально известный»",
+    "consequences — чаще о плохом; results, effects, outcome — нейтрально",
+    "русские ловушки: вызвать интерес → spark interest; совершить открытие → make a discovery",
+    "окраска нарочно: ирония (notorious for her generosity) и заголовки, которые склоняют читателя (causes vs leads to)",
+    "граница: это привычка, а не закон — What causes the tides? нейтрально; commit to a plan — другое значение",
+    "как проверить: примеры в словаре для изучающих, SkELL (skell.sketchengine.eu), YouGlish"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia · Semantic prosody",
+      "url": "https://en.wikipedia.org/wiki/Semantic_prosody",
+      "notes": "Сверено: нейтральное по словарю слово получает положительную или отрицательную окраску от частых соседей (термин популяризовал Bill Louw); примеры — set in (Синклер) и cause (Стаббс): чаще всего с плохими результатами, хотя caused happiness возможно; столкновение окрасок даёт иронию; окраска зависит от жанра, и сама идея обсуждается."
+    },
+    {
+      "title": "Dictionary.com · notorious",
+      "url": "https://www.dictionary.com/browse/notorious",
+      "notes": "Сверено: notorious — «широко и дурно известный» (a notorious gambler); реже нейтрально — notorious for arriving late; famous и renowned — нейтрально или хорошо; infamous и notorious часто взаимозаменяемы."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Слово приносит оценку своих соседей",
+    "why": "Все три глагола по словарю значат «вызвать, привести к». Но рядом с ними обычно стоят разные вещи.",
+    "items": [
+      {
+        "label": "Плохие соседи",
+        "en": "cause problems, damage, delays",
+        "ru": "вызвать проблемы, ущерб, задержки",
+        "note": "Caused interest звучит как начало беды."
+      },
+      {
+        "label": "Нейтрально",
+        "en": "lead to changes, new jobs, a decision",
+        "ru": "привести к переменам, новым рабочим местам, решению",
+        "note": "Подходит и для хорошего, и для плохого."
+      },
+      {
+        "label": "Хорошие соседи",
+        "en": "spark interest, a debate, new ideas",
+        "ru": "вызвать интерес, спор, новые идеи",
+        "note": "Об интересе и идеях — spark."
+      }
+    ],
+    "focus": [
+      "cause",
+      "lead to",
+      "spark"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Слово нейтральное, а соседи — нет",
+      "body": "Ты пишешь в рассылку района: «Новый парк вызвал большой интерес». Переводишь: The new park caused a lot of interest. Грамматической ошибки нет, но американец споткнётся: после caused он ждёт беды — caused problems, caused damage, caused a delay.\n\nПо словарю cause значит просто «быть причиной». Но в живых текстах это слово почти всегда стоит рядом с плохим. Оценка соседей прилипает к слову, и носитель слышит её, даже когда плохого соседа нет. Лингвисты называют это семантической просодией — простыми словами, «окраской от привычных соседей». Здесь правильно: The new park sparked (generated) a lot of interest.\n\nЧем это отличается от урока о точном слове. Там оценка была в самом слове: firm хвалит, stubborn ругает. Здесь слово по словарю нейтральное, а оценку приносят его обычные соседи."
+    },
+    {
+      "title": "Слова, которые обычно стоят рядом с плохим",
+      "body": "cause — problems, damage, delays, concern: The storm caused delays.\nbreak out — «вспыхнуть вдруг»: a fire broke out, a fight broke out.\nset in — «наступить и остаться»: panic set in, doubt set in, winter set in.\ncommit — a crime, an error, fraud. О хорошем commit не говорят.\npersist — «не проходить»: the problem persists, symptoms persist.\na spate of — «серия, волна»: a spate of break-ins — серия краж со взломом.\nrife with — «полон, кишит»: rife with errors, rife with rumors.\nutterly — «совершенно»: utterly useless, utterly exhausted.\nend up + -ing — «в итоге пришлось», обычно не по плану: We ended up paying twice.\n\nГраница: это привычка, а не закон. В науке cause нейтрально: What causes the tides? — «Отчего бывают приливы?». Commit to a plan — другое значение: «твёрдо взяться за план»."
+    },
+    {
+      "title": "Нейтральные и хорошие замены",
+      "body": "О любом результате — lead to, result in: The change led to new jobs. Подходит и для хорошего, и для плохого.\nО переменах, которых добивались, — bring about: The new law brought about real change.\nОб интересе, спорах, идеях — spark, generate: spark interest, spark a debate, generate excitement.\nО помощи и возможностях — provide: provide support, provide opportunities.\n\nДва «совершенно»: perfectly стоит рядом с нормальным и хорошим — perfectly normal, perfectly fine, perfectly reasonable; utterly — рядом с плохим. Utterly normal звучит странно. Completely нейтрально и подходит к обоим.\n\nТри «известный»: famous, well-known — нейтрально и хорошо; renowned — «прославленный», с уважением и чуть книжно; notorious и infamous — «печально известный», почти всегда о плохом: a notorious criminal, notorious for delays."
+    },
+    {
+      "title": "Русские ловушки и окраска нарочно",
+      "body": "Русские сочетания тянут к неверным соседям. «Вызвать интерес, восторг» — не cause: spark interest, delight people. «Совершить открытие» — не commit: make a discovery. Commit оставь для преступлений и ошибок. «Последствия реформы» по-русски бывают нейтральными, а consequences по-английски чаще о плохом: face the consequences — «отвечать за последствия». Нейтрально — results, effects, outcome.\n\nОкраску выбирают и нарочно. She's notorious for her generosity — «печально известна своей щедростью»: шутка или скрытый упрёк. В заголовках и рекламе слово подбирают, чтобы склонить читателя: Plan Causes Changes звучит тревожно, Plan Leads to Changes — нейтрально, Plan Brings About Changes — одобрительно. Читая, замечай, кто и зачем выбрал этих соседей."
+    },
+    {
+      "title": "Как проверить соседей слова",
+      "body": "Список синонимов соседей не покажет. Смотри живые примеры.\n\nСловарь для изучающих (Cambridge, Merriam-Webster Learner's): прочитай 5–10 примеров под нужным значением. Если почти все про беды — у слова плохие соседи.\n\nSkELL (skell.sketchengine.eu) — бесплатный поиск по корпусу, то есть по огромной коллекции настоящих текстов, без регистрации. Введи слово и открой Word sketch: увидишь, с какими словами оно стоит чаще всего.\n\nYouGlish (youglish.com, выбери US) — как слово звучит в речи американцев.\n\nПравило проверки: пишешь о хорошем, а у слова соседи в основном плохие, — возьми другое слово."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The new park sparked a lot of interest.",
+      "ru": "Новый парк вызвал большой интерес.",
+      "why": "Spark — с интересом и спорами; caused звучало бы как беда."
+    },
+    {
+      "en": "The storm caused delays across the city.",
+      "ru": "Буря вызвала задержки по всему городу.",
+      "why": "Cause с плохим результатом — обычное соседство."
+    },
+    {
+      "en": "Panic set in when the lights went out.",
+      "ru": "Когда погас свет, началась паника.",
+      "why": "Set in — о плохом, что наступает и не уходит."
+    },
+    {
+      "en": "The team made an important discovery.",
+      "ru": "Команда совершила важное открытие.",
+      "why": "Открытие делают — make; commit — о преступлениях и ошибках."
+    },
+    {
+      "en": "That's a perfectly normal reaction.",
+      "ru": "Это совершенно нормальная реакция.",
+      "why": "Perfectly — с нормальным и хорошим; utterly — с плохим."
+    },
+    {
+      "en": "The diner is famous for its pies, but the street is notorious for parking tickets.",
+      "ru": "Закусочная славится пирогами, а улица печально известна штрафами за парковку.",
+      "why": "Famous — хорошо, notorious — о плохом."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь заметку для рассылки района. Черновик: The new farmers market caused a lot of interest among residents. Перепиши так, чтобы не звучало как начало беды. farmers market — фермерский рынок.",
+      "context": "",
+      "guidance": {
+        "title": "Cause — с бедами, spark — с интересом",
+        "body": "Cause по словарю нейтрально, но почти всегда стоит рядом с problems, damage, delays. Для интереса, споров и идей бери spark или generate.",
+        "example": "The new mural sparked a debate about public art.",
+        "translation": "Новая роспись на стене вызвала спор об уличном искусстве."
+      },
+      "hint": "Какой глагол «зажигает» интерес?",
+      "answers": [
+        "The new farmers market sparked a lot of interest among residents.",
+        "The new farmers market generated a lot of interest among residents.",
+        "The new farmers market attracted a lot of interest among residents.",
+        "The new farmers market drew a lot of interest from residents.",
+        "The new farmers market has sparked a lot of interest among residents.",
+        "Residents have shown a lot of interest in the new farmers market."
+      ],
+      "explanation": "Sparked и generated interest — привычные соседи. Attracted и drew interest тоже верны. Caused interest грамматически возможно, но читатель ждёт подвоха."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь подпись к фото для сайта университета: «В 2025 году эта лаборатория совершила важное открытие». lab — лаборатория.",
+      "context": "",
+      "guidance": {
+        "title": "Совершить ≠ commit",
+        "body": "Русское «совершить» тянет к commit. Но commit стоит рядом с crime, error, fraud — с плохим. Открытие и прорыв делают: make a discovery, make a breakthrough.",
+        "example": "Our engineers made a breakthrough last spring.",
+        "translation": "Прошлой весной наши инженеры совершили прорыв."
+      },
+      "hint": "Какой глагол идёт с discovery?",
+      "answers": [
+        "In 2025, this lab made an important discovery.",
+        "In 2025 this lab made an important discovery.",
+        "This lab made an important discovery in 2025.",
+        "In 2025, this laboratory made an important discovery.",
+        "This laboratory made an important discovery in 2025.",
+        "In 2025, this lab made a major discovery."
+      ],
+      "explanation": "Make a discovery — готовая пара. Committed a discovery звучит так, будто лаборатория совершила проступок."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь соседям о вчерашнем вечере в доме: «Около восьми на кухне на третьем этаже вспыхнул пожар. Когда отключился лифт, началась паника». elevator — лифт.",
+      "context": "",
+      "guidance": {
+        "title": "Плохое начинается: break out и set in",
+        "body": "Break out — плохое начинается вдруг: a fire, a fight. Set in — плохое наступает и не уходит: panic, doubt, winter. О хорошем так обычно не говорят.",
+        "example": "A fight broke out after the game, and fear set in among the kids.",
+        "translation": "После матча вспыхнула драка, и детей охватил страх."
+      },
+      "hint": "Начни так: Around 8 p.m., a fire broke out…",
+      "answers": [
+        "Around 8 p.m., a fire broke out in a kitchen on the third floor. When the elevator stopped working, panic set in.",
+        "Around 8 p.m., a fire broke out in a kitchen on the third floor. Panic set in when the elevator stopped working.",
+        "At around 8 p.m., a fire broke out in a third-floor kitchen. When the elevator stopped working, panic set in.",
+        "Around eight, a fire broke out in a kitchen on the third floor. When the elevator shut down, panic set in.",
+        "Around 8 p.m., a fire broke out in the kitchen on the third floor. When the elevator went out, panic set in.",
+        "Around 8 p.m., a fire broke out in a kitchen on the third floor. When the elevator stopped, panic set in."
+      ],
+      "explanation": "A fire broke out — вспыхнул вдруг. Panic set in — наступила и не отпускала. A fire started тоже верно, но break out точнее передаёт «вдруг»."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга переживает, что расплакалась на собеседовании. Успокой её: «Это совершенно нормальная реакция. А вот их вопросы были совершенно нелепыми». ridiculous — нелепый.",
+      "context": "",
+      "guidance": {
+        "title": "Perfectly — с хорошим, utterly — с плохим",
+        "body": "Оба слова значат «совершенно». Perfectly стоит рядом с нормальным и хорошим: perfectly fine, perfectly reasonable. Utterly — рядом с плохим: utterly useless, utterly unfair.",
+        "example": "Your plan is perfectly reasonable; their offer was utterly unfair.",
+        "translation": "Твой план вполне разумен, а их предложение было совершенно несправедливым."
+      },
+      "hint": "Какое из двух слов встанет рядом с normal?",
+      "answers": [
+        "That's a perfectly normal reaction. Their questions, on the other hand, were utterly ridiculous.",
+        "That's a perfectly normal reaction. But their questions were utterly ridiculous.",
+        "It's a perfectly normal reaction. But their questions were utterly ridiculous.",
+        "That's a perfectly normal reaction, but their questions were utterly ridiculous.",
+        "That's a perfectly normal reaction. Their questions were utterly ridiculous, though.",
+        "That is a perfectly normal reaction. Their questions, however, were utterly ridiculous."
+      ],
+      "explanation": "Perfectly normal и utterly ridiculous — привычные пары. Utterly normal звучит странно. Completely подошло бы к обеим фразам: оно нейтральное."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь текст для сайта пекарни. Черновик: Our chef is notorious for her apple pies, and our bakery is infamous across the neighborhood. Владелица хочет искренней похвалы. Перепиши.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: похожие слова не равны — famous и notorious",
+        "body": "Вспоминаем урок о точном слове: синонимы различаются оценкой. Notorious и infamous — «печально известный», обычно о плохом. Для похвалы — famous, known, well-known.",
+        "example": "The museum is well-known for its free Fridays.",
+        "translation": "Музей известен бесплатными пятницами."
+      },
+      "hint": "Начни так: Our chef is famous…",
+      "answers": [
+        "Our chef is famous for her apple pies, and our bakery is well-known across the neighborhood.",
+        "Our chef is famous for her apple pies, and our bakery is well known across the neighborhood.",
+        "Our chef is known for her apple pies, and our bakery is famous across the neighborhood.",
+        "Our chef is famous for her apple pies, and our bakery is popular across the neighborhood.",
+        "Our chef is famous for her apple pies, and our bakery is loved all over the neighborhood.",
+        "Our chef is renowned for her apple pies, and our bakery is well-known throughout the neighborhood."
+      ],
+      "explanation": "Famous, known, well-known хвалят или нейтральны; notorious и infamous превращают похвалу в упрёк. Renowned тоже верно, но для пекарни звучит торжественно."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отчёт о школьной программе чтения: «Первые результаты программы показывают, что число посещений библиотеки выросло на 12 процентов». Итог хороший — нужно нейтральное слово, а не consequences. library visits — посещения библиотеки.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем отчёты: results, а не consequences",
+        "body": "Вспоминаем урок о словах для исследований: the findings show, an increase in. Consequences по-английски чаще о плохом. О хорошем или нейтральном итоге — results, effects, outcome.",
+        "example": "One effect of the new schedule was shorter lines.",
+        "translation": "Одним из результатов нового расписания стали более короткие очереди."
+      },
+      "hint": "Начни так: The first results of the program…",
+      "answers": [
+        "The first results of the program show that library visits rose by 12 percent.",
+        "The first results of the program show that library visits went up by 12 percent.",
+        "The first results of the program show that library visits increased by 12 percent.",
+        "The first results of the program show a 12 percent increase in library visits.",
+        "The program's first results show that library visits rose by 12 percent.",
+        "Early results of the program show that library visits rose by 12 percent.",
+        "The first results of the program show that the number of library visits rose by 12 percent."
+      ],
+      "explanation": "Results — нейтрально. The consequences of the program прозвучали бы так, будто дальше будет плохое. An increase in visits — предлог in, как в уроке о словах для отчётов."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты работаешь в редакции и учишься замечать окраску. Нейтральный заголовок: City Plan Leads to Changes in Bus Routes. Поменяй одно слово так, чтобы заголовок звучал тревожно: читатель должен ждать, что перемены плохие.",
+      "context": "",
+      "guidance": {
+        "title": "Окраска нарочно: одно слово — другой тон",
+        "body": "Соседей выбирают и специально. Leads to — нейтрально, brings about — о желанных переменах, causes — читатель ждёт проблем. Так заголовки незаметно склоняют читателя.",
+        "example": "New Rule Leads to Longer Lines → New Rule Brings About Shorter Lines",
+        "translation": "Новое правило привело к более длинным очередям → Новое правило помогло сократить очереди"
+      },
+      "hint": "Какой глагол обычно стоит рядом с problems?",
+      "answers": [
+        "City Plan Causes Changes in Bus Routes",
+        "City plan causes changes in bus routes",
+        "City Plan Causes Changes in Bus Routes."
+      ],
+      "explanation": "Causes делает новость тревожной: читатель ждёт, что перемены плохие. Brings About сделал бы её одобрительной, Leads to оставляет нейтральной."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты пишешь для рассылки районной ассоциации (neighborhood association) заметку на 200–300 слов о первых трёх месяцах новой велодорожки (bike lane) на Oak Street. Есть и хорошее, и плохое. В заметке: хорошее — словами с хорошими или нейтральными соседями (led to, brought about, sparked, provided); проблемы — словами с плохими соседями там, где они к месту (caused, persist); ни одного cause, commit, consequences или notorious рядом с хорошим; одно perfectly или utterly к месту; что будет дальше. Факты: велосипедистов — 340 в день вместо 120; аварий с велосипедистами — 1 вместо 4 за тот же период прошлого года; исчезли 22 парковочных места; два кафе говорят, что утром покупателей стало меньше; грузовики доставки встают на велодорожку; город обсудит зоны погрузки (loading zones) на собрании October 14.",
+      "context": "cyclist — велосипедист, crash — авария, delivery truck — грузовик доставки.",
+      "hint": "Раздели факты на хорошие и плохие и для каждой группы выбери глаголы заранее.",
+      "answers": [
+        "Oak Street Bike Lane: The First Three Months\n\nThree months ago, a new bike lane opened on Oak Street. The early results are mostly encouraging, but some problems remain.\n\nThe lane has led to a big rise in cycling. About 340 people now ride on Oak Street every day, compared with 120 before. It has also brought about a real improvement in safety: there has been one crash involving a cyclist, compared with four during the same period last year. For people who bike to work or school, the lane provides a safer route through the center of the neighborhood.\n\nNot everything has gone smoothly. The lane took away 22 parking spaces, and that has caused frustration for some drivers. Two cafés say they are seeing fewer customers in the morning. Their concern is perfectly reasonable, although we don't yet know whether the lane is the reason.\n\nThe biggest problem is delivery trucks. Drivers stop in the bike lane to unload, and cyclists have to go around them into traffic. Until there is a better place for trucks to stop, this problem will likely persist.\n\nThe city will discuss loading zones for delivery trucks at its meeting on October 14. If you have an opinion about the bike lane, this is a good time to share it.\n\nThe Oak Street Neighborhood Association"
+      ],
+      "explanation": "Засчитывается, если все факты на месте; хорошее — с led to, brought about, sparked или provided; проблемы — с caused или persist; нет cause, commit, consequences и notorious рядом с хорошим; есть одно perfectly или utterly к месту; в конце сказано про собрание October 14."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг-американец просит рассказать, как за последние годы изменились твой город, район или место работы. Говори 2–3 минуты. В рассказе: два-три хороших изменения — с lead to, bring about, spark или provide; две проблемы — с cause, persist, set in или a spate of; одно famous или notorious к месту; одна фраза с perfectly и одна с utterly; в конце — честная общая оценка без преувеличения.",
+      "context": "Запиши себя и послушай: нет ли cause или consequences рядом с хорошими новостями.",
+      "hint": "Начни так: Well, a lot has changed in the last few years.",
+      "answers": [
+        "Well, a lot has changed in my neighborhood in the last few years. It used to be a pretty quiet area with old factories, and now it's one of the busiest parts of the city.\n\nSome of the changes have been really good. A few years ago, the city turned an old rail line into a park, and that led to a lot of new cafés and small shops opening nearby. The park also sparked a lot of interest in the area, so younger families started moving in. And the new library branch provides free classes for kids and older people, which I think is great.\n\nBut there are problems too. All this interest caused rents to go up very fast. A lot of people who lived there for twenty years had to move out, and I know a few of them personally. The other problem is parking. There's a spate of new apartment buildings, but no new parking, so finding a spot after six is utterly impossible. That problem persists even though the city keeps promising a new garage.\n\nOne funny thing: our main street used to be notorious for potholes. Now it's famous for its Saturday farmers market. So that's progress.\n\nOverall, I'd say the neighborhood is better than it was, but not for everyone. For people like me, who rent a small apartment and don't drive much, it's a perfectly good place to live. For the families who had to leave, it's a different story."
+      ],
+      "explanation": "Засчитывается, если хорошие изменения названы с lead to, bring about, spark или provide, проблемы — с cause, persist, set in или a spate of, famous или notorious стоят к месту, есть perfectly и utterly с привычными соседями, а итог сдержанный и честный."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Городской музей прислал перевод пресс-релиза с русского. Новости везде хорошие, но слова тянут к плохим соседям. Отредактируй текст целиком, сохранив все факты: The spring festival caused great interest among residents. Our young volunteers committed a real discovery: an old map of the town from 1890. The consequences of the festival were utterly positive: 3,000 visitors came in two days. The museum, notorious for its friendly staff, thanks everyone.",
+      "context": "",
+      "hint": "В тексте четыре слова с плохими соседями. Найди их до того, как переписывать.",
+      "answers": [
+        "The spring festival sparked great interest among residents. Our young volunteers made a real discovery: an old map of the town from 1890. The festival was a clear success: 3,000 visitors came in two days. The museum, known for its friendly staff, thanks everyone who took part.",
+        "The spring festival generated a lot of interest among residents. Our young volunteers made a real discovery: an old map of the town dating from 1890. The results of the festival were very encouraging, with 3,000 visitors in two days. The museum, which is well-known for its friendly staff, thanks everyone."
+      ],
+      "explanation": "Засчитывается, если caused interest → sparked или generated, committed a discovery → made, consequences и utterly positive заменены нейтральным (results, a success, very encouraging), notorious → known или well-known, а факты (1890, 3,000 посетителей, два дня) сохранены."
+    }
+  ]
+}

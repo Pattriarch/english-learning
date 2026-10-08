@@ -1,0 +1,379 @@
+{
+  "id": "path-adjectives-ed-ing",
+  "title": "Bored или boring: что ты чувствуешь и какая вещь",
+  "subtitle": "-ed — твоё чувство → -ing — что его вызывает → порядок описаний",
+  "level": "A2",
+  "group": "Описание и связность",
+  "units": "Авторский маршрут · A2",
+  "minutes": 25,
+  "goal": "Сказать «мне скучно» и «фильм скучный», «мне интересно» и «это интересно». И описать вещь двумя-тремя словами в правильном порядке: «красивый старый деревянный стол».",
+  "formula": "I'm bored. → The movie is boring. → a nice old wooden table",
+  "keyRule": {
+    "rule": "Говоришь, что чувствуешь ты, — -ed. Говоришь, какая вещь, — -ing.",
+    "example": "I'm bored — мне скучно. The movie is boring — фильм скучный.",
+    "check": "I'm boring значит «я зануда», а не «мне скучно»."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 2,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-adverbs-manner"
+  ],
+  "recycles": [
+    "path-comparatives",
+    "path-adverbs-manner"
+  ],
+  "teaches": [
+    "-ed — что чувствует человек: I'm bored — мне скучно",
+    "-ing — что вызывает чувство: The movie is boring — фильм скучный",
+    "пары: bored/boring, interested/interesting, tired/tiring, excited/exciting, surprised/surprising, confused/confusing",
+    "о человеке -ing значит, каким он кажется другим: My uncle is interesting; I'm boring — «я зануда»",
+    "сочетания: interested in (I'm interested in history), excited about (I'm excited about the trip)",
+    "порядок описаний перед вещью: мнение → размер → возраст → цвет → откуда → материал: a nice old wooden table",
+    "материал всегда ближе всех к вещи: a black leather bag",
+    "слова: lecture, trip, drive, homework, uncle, wooden, leather, Italian"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Adjectives ending in -ed and -ing",
+      "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/adjectives-ending-ed-ing",
+      "notes": "Сверено правило: -ed описывает чувство человека, -ing — то, что это чувство вызывает; список пар (bored/boring, interested/interesting, tired/tiring, excited/exciting, surprised/surprising, confused/confusing)."
+    },
+    {
+      "title": "British Council LearnEnglish · Adjective order",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/adjective-order",
+      "notes": "Сверен порядок описаний перед вещью: мнение → размер → форма → возраст → цвет → откуда → материал; это обычный порядок, а не жёсткий закон. В уроке форма пропущена, чтобы не перегружать."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Кто чувствует — и в каком порядке описания",
+    "why": "Конец слова показывает, о ком речь: -ed — о том, кто чувствует, -ing — о том, что вызывает чувство. Несколько описаний перед вещью стоят в постоянном порядке.",
+    "items": [
+      {
+        "label": "Вещь вызывает скуку",
+        "en": "The movie was boring.",
+        "ru": "Фильм был скучный.",
+        "note": "-ing — какая вещь."
+      },
+      {
+        "label": "Человек чувствует скуку",
+        "en": "I was bored.",
+        "ru": "Мне было скучно.",
+        "note": "-ed — что чувствует человек."
+      },
+      {
+        "label": "Другой смысл",
+        "en": "I was boring.",
+        "ru": "Я был занудой.",
+        "note": "Не «мне было скучно»: так говорят о скучном человеке."
+      },
+      {
+        "label": "Порядок описаний",
+        "en": "a nice old wooden table",
+        "ru": "красивый старый деревянный стол",
+        "note": "Мнение → возраст → материал."
+      }
+    ],
+    "footnote": "После interested ставят in, после excited — about: interested in art, excited about the trip.",
+    "focus": [
+      "boring",
+      "bored",
+      "was boring",
+      "nice old wooden"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему «мне скучно» — это не I'm boring",
+      "body": "Ты смотришь длинный фильм, и тебе скучно. По-русски тут два разных выражения: «фильм скучный» и «мне скучно». В английском оба выражения делают из одного слова bore — «наводить скуку». Меняется только конец.\n\nBoring — на -ing — говорит о вещи, которая вызывает скуку: The movie is boring — фильм скучный. Bored — на -ed — говорит о том, что чувствует человек: I'm bored — мне скучно.\n\nСамая частая ошибка русскоговорящих — I'm boring. Это значит не «мне скучно», а «я скучный человек, зануда». Если говоришь о своём чувстве, ставь -ed.\n\nОдно такое слово ты уже знаешь: tired — «устал». Это тоже -ed: так ты себя чувствуешь."
+    },
+    {
+      "title": "Другие пары: interested и interesting",
+      "body": "Так же устроены и другие пары. Interested — «мне интересно», interesting — интересный. Tired — уставший, tiring — утомительный. Excited — «в восторге, жду не дождусь», exciting — захватывающий. Surprised — удивлён, surprising — удивительный, неожиданный. Confused — «я запутался», confusing — запутанный, непонятный.\n\nПроверь себя вопросом: это то, что чувствует человек? Тогда -ed. Это то, что вызывает чувство? Тогда -ing."
+    },
+    {
+      "title": "Interested in, excited about",
+      "body": "После interested ставят in: I'm interested in history — мне интересна история. После excited — about: I'm excited about the trip — я с нетерпением жду поездку. I'm interesting in history — ошибка: интерес чувствуешь ты, значит, -ed. I'm so excited! — очень частая фраза у американцев: «Я так рад, жду не дождусь!» So здесь значит «так»."
+    },
+    {
+      "title": "-ing о человеке",
+      "body": "-ing бывает и у человека. Тогда оно говорит, что этот человек вызывает у других. My uncle is interesting — с дядей интересно, он много рассказывает. My uncle is interested — дяде интересно. The teacher is boring — учитель скучный. The teacher is bored — учителю скучно. Одна часть слова меняет, кто чувствует."
+    },
+    {
+      "title": "Несколько описаний: в каком порядке",
+      "body": "По-русски можно сказать и «старый красивый стол», и «красивый старый стол». В английском порядок почти постоянный. Сначала мнение (nice, beautiful), потом размер (big, small), возраст (old, new), цвет (red, black), откуда вещь (Italian — итальянский). В самом конце — из чего она: wooden — деревянный, leather — кожаный. A nice old wooden table — красивый старый деревянный стол. An old nice table звучит для американца странно. Обычно перед вещью ставят одно-два описания, реже три."
+    }
+  ],
+  "examples": [
+    {
+      "en": "This lecture is boring.",
+      "ru": "Эта лекция скучная.",
+      "why": "Лекция вызывает скуку, поэтому -ing. lecture — лекция."
+    },
+    {
+      "en": "I'm bored. Let's go home.",
+      "ru": "Мне скучно. Пойдём домой.",
+      "why": "Ты говоришь о своём чувстве, поэтому -ed."
+    },
+    {
+      "en": "Are you interested in art?",
+      "ru": "Тебе интересно искусство?",
+      "why": "После interested — in. art — искусство."
+    },
+    {
+      "en": "It was a really tiring day.",
+      "ru": "Это был очень утомительный день.",
+      "why": "День вызывает усталость — tiring. Ты сам после него — tired."
+    },
+    {
+      "en": "The ending was surprising. We were all surprised.",
+      "ru": "Концовка была неожиданной. Мы все удивились.",
+      "why": "Концовка вызывает удивление — -ing, люди его чувствуют — -ed. ending — концовка."
+    },
+    {
+      "en": "She has a beautiful old Italian car.",
+      "ru": "У неё красивая старая итальянская машина.",
+      "why": "Мнение → возраст → откуда вещь."
+    },
+    {
+      "en": "I bought a small black leather bag.",
+      "ru": "Я купил маленькую чёрную кожаную сумку.",
+      "why": "Размер → цвет → материал. Leather стоит ближе всех к bag."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с другом на длинной вечеринке, где вы никого не знаете. Шепни ему: «Мне скучно». party — вечеринка.",
+      "context": "",
+      "guidance": {
+        "title": "Твоё чувство — -ed",
+        "body": "О том, что ты чувствуешь, говорят словом на -ed. По-русски «мне скучно», а по-английски «я скучающий»: I'm + bored.",
+        "example": "I'm confused.",
+        "translation": "Я запутался."
+      },
+      "hint": "Начни так: I'm … Какой конец нужен — -ed или -ing?",
+      "answers": [
+        "I'm bored.",
+        "I am bored.",
+        "I'm so bored.",
+        "I'm really bored."
+      ],
+      "explanation": "Bored — твоё чувство, поэтому -ed. I'm boring значило бы «я зануда»."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты только что вышел с лекции. Подруга спрашивает, как было. Скажи: «Лекция была скучная». lecture — лекция.",
+      "context": "",
+      "guidance": {
+        "title": "Вещь, которая вызывает чувство, — -ing",
+        "body": "Если говоришь, какая вещь — фильм, урок, книга, — бери слово на -ing. Оно отвечает на вопрос «какой?»: boring — скучный.",
+        "example": "The game was exciting.",
+        "translation": "Игра была захватывающей."
+      },
+      "hint": "Что вызывает скуку — ты или лекция? Начни так: The lecture was …",
+      "answers": [
+        "The lecture was boring.",
+        "The lecture was really boring.",
+        "It was boring.",
+        "It was a boring lecture."
+      ],
+      "explanation": "Лекция вызывает скуку, поэтому boring. The lecture was bored — ошибка: лекция ничего не чувствует."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый знакомый спрашивает, что тебе нравится. Скажи: «Мне интересна история». history — история (как наука).",
+      "context": "",
+      "guidance": {
+        "title": "Interested + in",
+        "body": "«Мне интересно» — это I'm interested: интерес чувствуешь ты. После interested ставят in, а за ним — то, что интересно.",
+        "example": "She's interested in music.",
+        "translation": "Ей интересна музыка."
+      },
+      "hint": "Начни так: I'm interested … Какое маленькое слово встанет перед history?",
+      "answers": [
+        "I'm interested in history.",
+        "I am interested in history.",
+        "I'm really interested in history."
+      ],
+      "explanation": "Interested — твоё чувство, после него in. I'm interesting in history — ошибка. History без the: речь о науке вообще."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь о дяде, который объехал полмира. Скажи: «Мой дядя — очень интересный человек». uncle — дядя, person — человек.",
+      "context": "",
+      "guidance": {
+        "title": "-ing перед вещью или человеком",
+        "body": "Слово на -ing может стоять перед вещью или человеком, как любое описание: a boring book. О человеке -ing значит, что с ним интересно или скучно другим.",
+        "example": "It was a tiring day.",
+        "translation": "Это был утомительный день."
+      },
+      "hint": "Начни так: My uncle is a very …",
+      "answers": [
+        "My uncle is a very interesting person.",
+        "My uncle is a very interesting man.",
+        "My uncle is very interesting."
+      ],
+      "explanation": "С дядей интересно другим, поэтому interesting. My uncle is interested значило бы «дяде интересно»."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты вернулся из поездки на машине. Друг спрашивает: How was your trip? Ответь: «Дорога была утомительной, и я очень устал». the drive — дорога на машине.",
+      "context": "",
+      "guidance": {
+        "title": "Оба слова в одной фразе",
+        "body": "У одного события два взгляда. Какой была дорога — tiring. Что чувствовал ты — tired.",
+        "example": "The news was surprising. I was really surprised.",
+        "translation": "Новость была неожиданной. Я очень удивился."
+      },
+      "hint": "Дорога — какая? А ты — что чувствовал? The drive was … , and I was …",
+      "answers": [
+        "The drive was tiring, and I was very tired.",
+        "The drive was tiring and I was very tired.",
+        "The drive was very tiring, and I was tired.",
+        "The trip was tiring, and I was very tired."
+      ],
+      "explanation": "Tiring описывает дорогу, tired — твоё чувство. Was — потому что поездка уже прошла."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Через неделю ты летишь в Нью-Йорк. Напиши подруге: «Я так жду поездку в Нью-Йорк!» Используй excited — «в восторге, жду не дождусь».",
+      "context": "",
+      "guidance": {
+        "title": "Excited + about",
+        "body": "Excited — «в восторге, жду с нетерпением». После него ставят about и то, чего ждёшь. So перед описанием — «так»: I'm so excited!",
+        "example": "We're so excited about the concert!",
+        "translation": "Мы так ждём концерт!"
+      },
+      "hint": "Начни так: I'm so excited … Какое маленькое слово встанет перед my trip?",
+      "answers": [
+        "I'm so excited about my trip to New York!",
+        "I'm so excited about the trip to New York!",
+        "I'm really excited about my trip to New York!",
+        "I am so excited about my trip to New York!",
+        "I'm so excited about going to New York!"
+      ],
+      "explanation": "Excited — твоё чувство, после него about. Exciting описывало бы саму поездку: The trip is exciting."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Одногруппник хотел написать: «Мне было очень интересно на уроке, но домашнее задание было запутанным». Он написал: I was very interesting in the lesson today, but the homework was confused. Исправь две ошибки. homework — домашнее задание.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь, кто чувствует",
+        "body": "Перед каждым таким словом спроси: это чувство человека или свойство вещи? Человек чувствует — -ed. Вещь вызывает чувство — -ing.",
+        "example": "I was confused. The instructions were confusing.",
+        "translation": "Я запутался. Инструкция была непонятной."
+      },
+      "hint": "Кто чувствовал интерес — он или урок? Что было запутанным — задание или он?",
+      "answers": [
+        "I was very interested in the lesson today, but the homework was confusing.",
+        "I was very interested in the lesson today but the homework was confusing.",
+        "I was really interested in the lesson today, but the homework was confusing."
+      ],
+      "explanation": "Интерес чувствовал он — interested. Задание вызывает путаницу — confusing."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты продаёшь мебель онлайн. Напиши заголовок объявления: «Красивый старый деревянный стол». beautiful — красивый, wooden — деревянный.",
+      "context": "",
+      "guidance": {
+        "title": "Мнение → возраст → материал",
+        "body": "Несколько описаний перед вещью стоят в постоянном порядке. Сначала мнение (nice, beautiful), потом возраст (old, new), в конце — из чего вещь (wooden, leather).",
+        "example": "a nice new leather sofa",
+        "translation": "красивый новый кожаный диван"
+      },
+      "hint": "Где здесь мнение, где возраст, где материал? Материал стоит ближе всех к table.",
+      "answers": [
+        "A beautiful old wooden table",
+        "Beautiful old wooden table",
+        "A beautiful old wooden table.",
+        "Beautiful old wooden table."
+      ],
+      "explanation": "Beautiful — мнение, old — возраст, wooden — материал, поэтому порядок именно такой. An old beautiful wooden table американцу режет слух."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Брат купил машину, и ты рассказываешь о ней другу. Скажи: «У брата большая новая красная машина». Расставь big, new и red в правильном порядке.",
+      "context": "",
+      "guidance": {
+        "title": "Размер → возраст → цвет",
+        "body": "Размер (big, small) идёт раньше возраста (old, new), а цвет — после них, ближе к вещи.",
+        "example": "She has a small old white dog.",
+        "translation": "У неё маленькая старая белая собака."
+      },
+      "hint": "Начни так: My brother has a big …",
+      "answers": [
+        "My brother has a big new red car.",
+        "My brother bought a big new red car."
+      ],
+      "explanation": "Big — размер, new — возраст, red — цвет. Перед big стоит a: big начинается с согласного звука."
+    },
+    {
+      "id": "e10",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем сравнение и слова на -ly. Ты советуешь другу книгу. Скажи: «Эта книга интереснее той. Я прочитал её быстро». that one — та, quickly — быстро.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: more interesting и quickly",
+        "body": "Вспоминаем: interesting — длинное слово, поэтому «интереснее» — more interesting than. Слово на -ly отвечает на «как?» и стоит в конце фразы.",
+        "example": "This class is more interesting than that one. The teacher speaks slowly.",
+        "translation": "Этот курс интереснее того. Преподаватель говорит медленно."
+      },
+      "hint": "Первая фраза: This book is more … than … Вторая: I read it …",
+      "answers": [
+        "This book is more interesting than that one. I read it quickly.",
+        "This book is more interesting than that one. I read it fast.",
+        "This book is more interesting than that book. I read it quickly."
+      ],
+      "explanation": "Interesting длинное, поэтому more interesting, а не interestinger. Quickly отвечает на «как?» и стоит после it. Read в прошлом пишется так же, но звучит «ред»."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг спрашивает в чате: How was the museum? Ответь 3–4 фразами: каким был музей или выставка (слово на -ing), что ты чувствовал (слово на -ed), и опиши одну вещь, которую ты там видел или купил, двумя-тремя описаниями.",
+      "context": "museum — музей, exhibit — выставка, gift shop — сувенирный магазин, mug — кружка, painting — картина, huge — огромный.",
+      "hint": "Опоры: It was … . I was … . I saw / bought a … …",
+      "answers": [
+        "It was really interesting! I was surprised: the museum is huge. I bought a nice little blue mug in the gift shop.",
+        "The first part was boring, and I was tired. But the new exhibit was exciting. I saw a beautiful old Italian painting."
+      ],
+      "explanation": "Засчитывается, если музей или выставка описаны словом на -ing, твоё чувство — словом на -ed, а перед вещью стоят два-три описания в порядке: мнение → размер или возраст → цвет или откуда."
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух о своих интересах 3–5 фразами: чем ты интересуешься, что тебе кажется скучным и чего ты с нетерпением ждёшь в ближайшее время.",
+      "context": "sports — спорт, cooking — готовка, the news — новости, vacation — отпуск.",
+      "hint": "Опоры: I'm interested in … . I think … is boring. I'm excited about …",
+      "answers": [
+        "I'm interested in history and cooking. I think soccer is boring. I'm excited about my vacation in July.",
+        "I'm really interested in English and movies. The news is often boring for me. I'm so excited about the weekend. I'm going to see my friends."
+      ],
+      "explanation": "Засчитывается любой честный рассказ, где интерес и ожидание сказаны через interested in и excited about, а скучная вещь — через boring."
+    }
+  ]
+}

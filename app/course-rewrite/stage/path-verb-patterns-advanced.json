@@ -1,0 +1,344 @@
+{
+  "id": "path-verb-patterns-advanced",
+  "title": "Remember doing или remember to do: форма меняет смысл",
+  "subtitle": "Remember и forget → stop → try → regret → meant to → проверь каждую пару",
+  "level": "B2",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Различать пары, где -ing и to дают разный смысл: «Не забудь запереть дверь» и «Я помню, как запирал её», «Перестал пить кофе» и «Остановился выпить кофе», «Попробуй перезагрузить» и «Я пытался открыть».",
+  "formula": "remember to lock (не забыть) ≠ remember locking (помнить, как было) · stop doing ≠ stop to do · try to do ≠ try doing",
+  "keyRule": {
+    "rule": "После remember, forget и stop: to — дело впереди, -ing — дело уже было.",
+    "example": "Remember to call Mom. I remember calling her. — Не забудь позвонить маме. Я помню, что звонил ей.",
+    "check": "Try — отдельно: try to — стараться, try + -ing — попробовать способ."
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "path-gerund-infinitive",
+    "path-verb-patterns"
+  ],
+  "recycles": [
+    "path-verb-patterns"
+  ],
+  "teaches": [
+    "remember / forget + to — не забыть или забыть сделать: Remember to lock the door. I forgot to call her.",
+    "remember / forget + -ing — помнить то, что было: I remember locking the door. I'll never forget meeting you.",
+    "stop + -ing — перестать; stop + to — остановиться, чтобы: stopped drinking coffee / stopped to get coffee; quit smoking",
+    "go on + -ing — продолжать то же; go on + to — потом перейти к другому; в разговоре keep + -ing",
+    "try + to — стараться (трудно); try + -ing — попробовать способ: Try restarting it",
+    "regret + -ing и regret not + -ing — жалеть о сделанном и несделанном; We regret to inform you… — официальная плохая новость",
+    "mean + to — собираться (обычно не сделал): I meant to call you; mean + -ing — означать: means moving",
+    "слова: stove, get gas, complain, notifications, renovation, locker"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Verbs followed by -ing or infinitive to change meaning",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/verbs-followed-ing-or-infinitive-change-meaning",
+      "notes": "Сверено: stop + -ing — действие закончилось, stop + to — прервать ради другого; try + -ing — эксперимент, try + to — усилие; remember/forget + -ing — память о прошлом, + to — дело, которое нужно сделать; regret + to — официальная фраза; go on + -ing / + to; mean + -ing / + to."
+    },
+    {
+      "title": "Skyeng · Инфинитив и герундий",
+      "url": "https://skyeng.ru/articles/infinitiv-i-gerundij/",
+      "notes": "Для русскоязычных: переводы пар forget, go on, mean, regret, remember, stop, try; try + -ing — попробовать другой способ, try + to — пытаться, часто с трудом; regret to inform — формальное сообщение."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "To или -ing: смысл меняется",
+    "why": "После этих глаголов to и -ing — не два способа сказать одно и то же, а два разных смысла.",
+    "items": [
+      {
+        "label": "Не забыл сделать",
+        "en": "I remembered to buy milk.",
+        "ru": "Я не забыл купить молоко.",
+        "note": "Дело было впереди — to."
+      },
+      {
+        "label": "Помню, как было",
+        "en": "I remember buying milk.",
+        "ru": "Я помню, как покупал молоко.",
+        "note": "Дело уже было — -ing."
+      },
+      {
+        "label": "Перестала",
+        "en": "She stopped texting.",
+        "ru": "Она перестала переписываться.",
+        "note": "Прекратила то, что делала."
+      },
+      {
+        "label": "Остановилась, чтобы",
+        "en": "She stopped to text.",
+        "ru": "Она остановилась, чтобы написать сообщение.",
+        "note": "To отвечает на «зачем остановилась»."
+      }
+    ],
+    "footnote": "С like, love, start смысл не меняется: like to swim = like swimming. Меняется только у remember, forget, stop, try, regret, mean, go on.",
+    "focus": [
+      "remembered to buy",
+      "remember buying",
+      "stopped texting",
+      "stopped to text"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Помнишь, как было, или не забыл сделать: remember и forget",
+      "body": "Ты уже знаешь, что после like, love, start можно сказать и to, и -ing — смысл тот же. Есть глаголы, где смысл меняется.\n\nRemember + -ing — помнить то, что уже было: I remember locking the door — я помню, как запирал дверь. Remember + to — не забыть сделать то, что нужно: Remember to lock the door — не забудь запереть дверь. Did you remember to lock it? — ты не забыл её запереть?\n\nС forget так же. I forgot to call her — я забыл ей позвонить (звонка не было). I'll never forget meeting you — никогда не забуду, как мы познакомились (встреча была). Forget + -ing почти всегда идёт с never: I'll never forget…"
+    },
+    {
+      "title": "Stop: перестать или остановиться, чтобы",
+      "body": "Stop + -ing — перестать делать то, что делал: I stopped drinking coffee — я перестал пить кофе. Stop + to — прервать одно дело ради другого: We stopped to get coffee — мы остановились, чтобы выпить кофе. To здесь отвечает на вопрос «зачем?».\n\n«Бросить курить» — quit smoking или stop smoking. Американцы часто говорят quit.\n\nПохоже работает go on. Go on + -ing — продолжать то же самое: He went on talking — он продолжал говорить. Go on + to — потом перейти к другому: She went on to become a doctor — потом она стала врачом. В разговоре вместо go on + -ing чаще говорят keep + -ing: Keep talking — говори дальше."
+    },
+    {
+      "title": "Try: стараться или попробовать способ",
+      "body": "По-русски «попробовать» — одно слово, а по-английски у него два смысла.\n\nTry + to — стараться сделать что-то трудное, и может не получиться: I tried to open the window, but it was stuck — я пытался открыть окно, но его заело.\n\nTry + -ing — попробовать способ и посмотреть, поможет ли: It's hot in here. Try opening the window — тут душно, попробуй открыть окно. Открыть легко; вопрос в другом — станет ли прохладнее. Классика техподдержки: Have you tried turning it off and on again? — а вы пробовали выключить и включить?\n\nПроверка: действие само по себе трудное? Тогда try to. Это способ решить другую проблему? Тогда try + -ing."
+    },
+    {
+      "title": "Regret и mean: жалею о сделанном, собирался сделать",
+      "body": "Regret + -ing — жалеть о том, что уже сделал: I regret quitting my job — жалею, что ушёл с работы. «Жалею, что не…» — not перед -ing: I regret not learning to swim. Regret + to — официальная фраза перед плохой новостью, обычно в письмах: We regret to inform you that your flight has been canceled — с сожалением сообщаем, что ваш рейс отменён. В разговоре regret звучит серьёзно; чаще говорят I should have… — «надо было».\n\nMean + to — собираться сделать: I meant to call you — я собирался тебе позвонить (и обычно не позвонил). Mean + -ing — означать, повлечь за собой: The new job means moving to Denver — новая работа означает переезд в Денвер."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Did you remember to turn off the stove?",
+      "ru": "Ты не забыл выключить плиту?",
+      "why": "Remember to — дело было впереди, его нужно было не забыть."
+    },
+    {
+      "en": "I don't remember saying that.",
+      "ru": "Не помню, чтобы я такое говорил.",
+      "why": "Remember + -ing — о том, что было (или могло быть) раньше."
+    },
+    {
+      "en": "We stopped to take pictures of the lake.",
+      "ru": "Мы остановились, чтобы сфотографировать озеро.",
+      "why": "To отвечает на «зачем остановились»."
+    },
+    {
+      "en": "My dad stopped eating sugar last year.",
+      "ru": "Папа в прошлом году перестал есть сахар.",
+      "why": "Stop + -ing — прекратил привычку."
+    },
+    {
+      "en": "Try adding a little salt.",
+      "ru": "Попробуй добавить немного соли.",
+      "why": "Способ: посмотрим, станет ли вкуснее."
+    },
+    {
+      "en": "I'm trying to save money for a car.",
+      "ru": "Я стараюсь копить на машину.",
+      "why": "Try to — усилие: это трудно."
+    },
+    {
+      "en": "I meant to text you, but my phone died.",
+      "ru": "Я собирался тебе написать, но у меня сел телефон.",
+      "why": "Mean to — собирался, но не сделал."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты уезжаешь на выходные, а соседка по квартире остаётся. Оставь ей записку: «Не забудь покормить кота. В прошлый раз ты забыла его покормить!»",
+      "context": "feed — кормить.",
+      "guidance": {
+        "title": "To — дело ещё впереди",
+        "body": "Remember to и don't forget to — «не забудь сделать». Forgot to — дело нужно было сделать, но его не сделали.",
+        "example": "Don't forget to water the plants. I forgot to water them last week.",
+        "translation": "Не забудь полить цветы. На прошлой неделе я забыл их полить."
+      },
+      "hint": "Начни так: Remember to … или Don't forget to … Вторая фраза: Last time you forgot …",
+      "answers": [
+        "Remember to feed the cat. Last time you forgot to feed him!",
+        "Remember to feed the cat. Last time you forgot to feed her!",
+        "Remember to feed the cat. Last time you forgot to feed it!",
+        "Don't forget to feed the cat. Last time you forgot to feed him!",
+        "Don't forget to feed the cat. Last time you forgot to feed her!",
+        "Don't forget to feed the cat. Last time you forgot to feed it!",
+        "Please remember to feed the cat. Last time you forgot!",
+        "Please don't forget to feed the cat. Last time you forgot to feed him!",
+        "Don't forget to feed the cat. You forgot last time!"
+      ],
+      "explanation": "Remember to и don't forget to — о деле, которое ещё нужно сделать. Forgot to feed — кот остался голодным. Him, her или it — как ты говоришь о своём коте."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы уже в машине, и жена спрашивает: Did you lock the door? Ответь: «Да, я помню, как запирал её. Но я не помню, как выключал плиту».",
+      "context": "stove — плита, turn off — выключить.",
+      "guidance": {
+        "title": "-ing — дело уже было",
+        "body": "Remember + -ing — в памяти есть само действие, оно уже было. Не путай с remember to: там речь о деле, которое ещё нужно сделать.",
+        "example": "I remember paying the bill, but I don't remember getting a receipt.",
+        "translation": "Я помню, как оплатил счёт, но не помню, чтобы брал чек."
+      },
+      "hint": "Начни так: Yes, I remember … it. Какое окончание получит lock?",
+      "answers": [
+        "Yes, I remember locking it. But I don't remember turning off the stove.",
+        "Yes, I remember locking it, but I don't remember turning off the stove.",
+        "Yes, I remember locking it. But I don't remember turning the stove off.",
+        "Yes, I remember locking it, but I don't remember turning the stove off.",
+        "Yes, I remember locking the door. But I don't remember turning off the stove.",
+        "Yes, I remember locking the door, but I don't remember turning off the stove.",
+        "Yes, I remember locking it. I don't remember turning off the stove, though."
+      ],
+      "explanation": "Remember locking — в памяти есть сам момент. I don't remember to turn off — ошибка: так о прошлом воспоминании не говорят."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Расскажи другу о поездке: «По дороге мы остановились, чтобы заправиться, и Майк наконец перестал жаловаться».",
+      "context": "on the way — по дороге, get gas — заправиться, complain — жаловаться.",
+      "guidance": {
+        "title": "Stop: зачем остановились или что прекратили",
+        "body": "Stop + to отвечает на «зачем остановились». Stop + -ing — перестал делать то, что делал.",
+        "example": "We stopped to eat, and the kids stopped fighting.",
+        "translation": "Мы остановились поесть, и дети перестали драться."
+      },
+      "hint": "Где здесь «зачем», а где «перестал»?",
+      "answers": [
+        "On the way, we stopped to get gas, and Mike finally stopped complaining.",
+        "On the way we stopped to get gas, and Mike finally stopped complaining.",
+        "On the way, we stopped to get gas and Mike finally stopped complaining.",
+        "We stopped to get gas on the way, and Mike finally stopped complaining.",
+        "On the way, we stopped for gas, and Mike finally stopped complaining.",
+        "On the way, we stopped to fill up, and Mike finally stopped complaining.",
+        "On the way, we stopped to buy gas, and Mike finally stopped complaining."
+      ],
+      "explanation": "Stopped to get gas — остановились, чтобы заправиться. Stopped complaining — перестал жаловаться. Stopped for gas тоже естественно: for + вещь."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет: I tried to open the file, but it won't open. Ответь: «Попробуй перезагрузить ноутбук или открыть файл в другой программе».",
+      "context": "restart — перезагрузить, program — программа.",
+      "guidance": {
+        "title": "Try + -ing — попробуй способ",
+        "body": "Коллега старался открыть файл — это try to. Ты предлагаешь способ, который может помочь, — это try + -ing.",
+        "example": "Try clearing your browser history.",
+        "translation": "Попробуй очистить историю браузера."
+      },
+      "hint": "Начни так: Try … your laptop … Какое окончание получит restart?",
+      "answers": [
+        "Try restarting your laptop or opening the file in a different program.",
+        "Try restarting your laptop or opening the file in another program.",
+        "Try restarting the laptop or opening the file in a different program.",
+        "Try restarting your laptop or opening it in a different program.",
+        "Try restarting your laptop or opening it in another program.",
+        "Try restarting your laptop, or try opening the file in a different program."
+      ],
+      "explanation": "Try restarting и opening — способы, которые могут помочь. Try to restart звучало бы так, будто перезагрузить трудно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Американский друг спрашивает, о чём ты жалеешь со школьных лет. Ответь: «Я жалею, что бросил гитару. И жалею, что не начал учить английский раньше».",
+      "context": "quit — бросить, earlier — раньше.",
+      "guidance": {
+        "title": "Regret + -ing и regret not + -ing",
+        "body": "Regret + -ing — жалеешь о том, что сделал. «Жалею, что не…» — not перед -ing.",
+        "example": "I regret selling my old car. I regret not taking more pictures.",
+        "translation": "Жалею, что продал старую машину. Жалею, что мало фотографировал."
+      },
+      "hint": "Начни так: I regret … the guitar. Где стоит not во второй фразе?",
+      "answers": [
+        "I regret quitting the guitar. And I regret not starting to learn English earlier.",
+        "I regret quitting the guitar. And I regret not learning English earlier.",
+        "I regret quitting guitar. And I regret not learning English earlier.",
+        "I regret quitting the guitar, and I regret not learning English earlier.",
+        "I regret quitting the guitar. I also regret not learning English earlier.",
+        "I regret giving up the guitar. And I regret not learning English earlier.",
+        "I regret quitting the guitar. And I regret not studying English earlier.",
+        "I regret quitting the guitar. And I regret not starting English earlier.",
+        "I regret quitting the guitar. And I regret not having learned English earlier."
+      ],
+      "explanation": "Regret quitting — о том, что сделал. Regret not learning — о том, чего не сделал. Not having learned тоже верно, но звучит книжнее."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем ask somebody to и help somebody do. Напиши другу: «Прости, я собирался попросить тебя помочь мне с переездом, но забыл».",
+      "context": "помочь с переездом — help me move.",
+      "guidance": {
+        "title": "Вспоминаем ask you to — и добавляем meant to",
+        "body": "Вспоминаем: ask + человек + to, help + человек + действие. Meant to — «собирался», и обычно это значит, что дело не сделано.",
+        "example": "I meant to tell you to bring a jacket.",
+        "translation": "Я собирался сказать тебе, чтобы ты взял куртку."
+      },
+      "hint": "Начни так: Sorry, I meant to ask you …",
+      "answers": [
+        "Sorry, I meant to ask you to help me move, but I forgot.",
+        "Sorry, I meant to ask you to help me move, but I forgot!",
+        "I'm sorry, I meant to ask you to help me move, but I forgot.",
+        "Sorry, I meant to ask you to help me to move, but I forgot.",
+        "Sorry, I meant to ask you to help me with the move, but I forgot.",
+        "Sorry, I meant to ask you to help me move, but I forgot to.",
+        "Sorry, I meant to ask you if you could help me move, but I forgot."
+      ],
+      "explanation": "Meant to ask — собирался, но не сделал. Ask you to help и help me move — из урока о want you to и let me. Help me to move тоже верно."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг просит проверить письмо коллеге из Остина: Hi Sam! I'll never forget to meet you at the conference in Austin. I meant calling you last month, but I was really busy. I finally stopped to check work email on weekends, and I feel much better. You should try turning off notifications after 7 p.m. Найди ошибки и напиши текст целиком.",
+      "context": "notifications — уведомления.",
+      "guidance": {
+        "title": "Проверь смысл каждой пары",
+        "body": "Про каждый remember, forget, mean, stop и try спроси: дело уже было или впереди? Это «зачем» или «перестал»? Не исправляй то, что уже верно.",
+        "example": "I'll never forget visiting Austin, and I meant to go back.",
+        "translation": "Никогда не забуду, как был в Остине, и я собирался туда вернуться."
+      },
+      "hint": "Ошибок три. Try turning off — ошибка или способ решить проблему?",
+      "answers": [
+        "Hi Sam! I'll never forget meeting you at the conference in Austin. I meant to call you last month, but I was really busy. I finally stopped checking work email on weekends, and I feel much better. You should try turning off notifications after 7 p.m."
+      ],
+      "explanation": "Forget to meet → forget meeting: встреча уже была. Meant calling → meant to call: собирался позвонить. Stopped to check → stopped checking: перестал проверять. Try turning off — верно: это способ, который может помочь."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Подруга пишет в чате: I can't sleep at night. I've tried everything! Ответь ей 3–5 фразами: что она могла бы попробовать (try + -ing); что лучше перестать делать (stop + -ing); о чём не забыть (remember to); что помогло тебе.",
+      "context": "",
+      "hint": "Начни так: Have you tried … ? You should stop …",
+      "answers": [
+        "Have you tried reading before bed instead of looking at your phone? You should stop drinking coffee after lunch. And remember to turn off the lights early. I stopped checking my email at night, and it really helped.",
+        "Try going to bed at the same time every night. And stop scrolling on your phone in bed! Remember to open the window before you go to sleep. When I couldn't sleep, I tried listening to podcasts, and it worked."
+      ],
+      "explanation": "Засчитывается, если есть try + -ing как способ, stop + -ing как «перестать», remember to как «не забыть» и твой опыт. Stop to drink здесь значило бы «остановись, чтобы выпить»."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты работаешь в спортивном центре. Бассейн закрывают на ремонт на месяц. Напиши письмо посетителям на 100–180 слов. В нём: плохая новость официальной фразой (We regret to inform you…); когда и почему закрывают; что можно попробовать вместо бассейна (try + -ing); о чём не забыть (Please remember to…); что центр собирался сделать раньше, но не успел (We meant to…); благодарность.",
+      "context": "renovation — ремонт, member — посетитель с абонементом, locker — шкафчик, gym — тренажёрный зал, front desk — стойка администратора.",
+      "hint": "План: We regret to inform you that … . Try … . Please remember to … . We meant to … , but … . Thank you …",
+      "answers": [
+        "Dear members,\nWe regret to inform you that the pool will be closed from June 1 to June 30 for renovation. The old heating system has stopped working properly, and we need to replace it before summer.\nWhile the pool is closed, why not try something new? Try joining a yoga class or using the new bikes in the gym. All classes are free for members in June.\nPlease remember to empty your pool locker by May 31. Anything left in the lockers will go to the front desk.\nWe meant to do this work last fall, but the parts arrived late. We're sorry for the trouble, and we hope the new pool will be worth the wait.\nThank you for your patience,\nRiverside Sports Center"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: we regret to inform you, try + -ing как предложение, please remember to, we meant to + то, что не сделали, и благодарность."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг спрашивает: Have you ever tried to change a bad habit? Расскажи вслух за 1–2 минуты. В рассказе: какую привычку ты бросил (stopped + -ing) или стараешься бросить (I'm trying to…); какие способы пробовал (I tried + -ing); помнишь ли, как всё начиналось (I remember + -ing); о чём жалеешь (I regret + -ing или not + -ing); что собирался сделать, но не сделал (I meant to…).",
+      "context": "willpower — сила воли, junk food — вредная еда.",
+      "hint": "Начни так: A couple of years ago, I decided to stop …",
+      "answers": [
+        "A couple of years ago, I decided to stop eating junk food at night. I remember sitting on the couch every evening with a bag of chips. At first, I tried to stop with willpower alone, but it didn't work. Then I tried keeping only fruit in the kitchen, and I tried drinking a glass of water when I felt hungry. That actually helped. Now I almost never eat late. I regret not starting earlier, because I feel much better now. I also meant to start going to the gym, but I haven't done that yet. Maybe next month."
+      ],
+      "explanation": "Засчитывается, если есть stopped + -ing или trying to, tried + -ing как способ, remember + -ing о прошлом, regret + -ing и meant to. Смысл каждой формы должен совпадать с тем, что ты рассказываешь."
+    }
+  ]
+}

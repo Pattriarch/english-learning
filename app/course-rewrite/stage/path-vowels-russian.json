@@ -1,0 +1,361 @@
+{
+  "id": "path-vowels-russian",
+  "title": "Ship или sheep, bag или back: звуки, которые мы путаем",
+  "subtitle": "Коротко или долго → шире, чем «э» → «а» короткое и длинное → не оглушай конец",
+  "level": "A2",
+  "group": "Произношение и слушание",
+  "units": "Авторский маршрут · A2",
+  "minutes": 25,
+  "goal": "Произносить ship и sheep, bad и bed, full и fool, cut и cart как разные слова и не превращать bag в back, а eyes — в ice.",
+  "formula": "ship ≠ sheep · bed ≠ bad · full ≠ fool · cut ≠ cart · bag ≠ back · eyes ≠ ice",
+  "keyRule": {
+    "rule": "Не заменяй английский звук русским: ship и sheep, bag и back — разные слова.",
+    "example": "ship — корабль, sheep — овца. bag — сумка, back — спина.",
+    "check": "Скажи bag: гласный тянется, а в конце звучит g, а не «к»?"
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 1,
+  "introExamples": 2,
+  "prerequisites": [
+    "research-schwa-wordstress"
+  ],
+  "recycles": [
+    "path-this-that",
+    "research-ending-s-ed"
+  ],
+  "teaches": [
+    "на месте русского «и» два звука: короткий /ɪ/ (ship, live, sit) и долгий /i/ (sheep, leave, seat)",
+    "/æ/ шире, чем «э»: bad, man, can't; /ɛ/ близко к «э»: bed, men",
+    "короткий /ʊ/ без вытянутых губ: full, look, good; долгий /u/ с трубочкой: fool, pool",
+    "короткое «а» /ʌ/: cut, cup, but; длинное открытое /ɑ/ с американским r: cart, car",
+    "звонкий конец не глохнет: bag ≠ back, eyes ≠ ice, bed ≠ bet; перед звонким концом гласный длиннее",
+    "самопроверка: образец → своя запись → одно отличие; распознавание угадывает слово по смыслу",
+    "слова: ship, sheep, live, leave, sit, seat, bad, bed, man, men, full, fool, cut, cup, cart, bag, back, eyes, ice"
+  ],
+  "sources": [
+    {
+      "title": "Pronunciation Studio · 10 English Pronunciation Errors by Russian Speakers",
+      "url": "https://pronunciationstudio.com/russian-speakers-english-pronunciation-errors/",
+      "notes": "Сверены типичные слияния у русскоговорящих: /ɪ/ и /iː/ (feet/fit), /æ/ и /e/ (man/men, /æ/ открытее), /ʊ/ и /uː/ (look/loop), /ʌ/ и /ɑː/ через русское «а» (cut/cart), оглушение конечных звонких (bad, rug, choose). Британская модель: долготу и r сверяли с американской нормой."
+    },
+    {
+      "title": "Rachel's English · How to pronounce the IH vowel",
+      "url": "https://rachelsenglish.com/english-pronounce-ih-vowel/",
+      "notes": "Американская модель: для /ɪ/ челюсть чуть ниже, чем для /i/, язык не так близко к нёбу, губы расслаблены; частая ошибка — ставить /i/ вместо /ɪ/."
+    },
+    {
+      "title": "Indiana University Working Papers · Acquisition of the Feature [+Voice] in Word-Final Position by Native Speakers of Russian",
+      "url": "https://scholarworks.iu.edu/journals/index.php/iulcwp/article/view/26232",
+      "notes": "Пилотное исследование: американцы удлиняют гласный перед звонким концом, а русскоговорящие ученики этого не делают. Отсюда главный совет урока — тянуть гласный в bag, eyes, bed."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Один звук — другое слово",
+    "why": "В каждой паре слова различаются одним звуком. Русский звук ложится посередине, и слушатель угадывает.",
+    "items": [
+      {
+        "label": "Коротко или долго",
+        "en": "Ship. Sheep.",
+        "ru": "Корабль. Овца.",
+        "note": "Ship — коротко и расслабленно, sheep — долго, губы в улыбке."
+      },
+      {
+        "label": "Шире, чем «э»",
+        "en": "Bed. Bad.",
+        "ru": "Кровать. Плохой.",
+        "note": "Для bad челюсть опускается, как на «а»."
+      },
+      {
+        "label": "Губы вперёд или нет",
+        "en": "Full. Fool.",
+        "ru": "Полный. Дурак.",
+        "note": "Fool — трубочка и долго, full — коротко, губы спокойны."
+      },
+      {
+        "label": "Звонкий конец",
+        "en": "Bag. Back.",
+        "ru": "Сумка. Спина.",
+        "note": "В bag гласный длиннее, а в конце g с голосом."
+      }
+    ],
+    "footnote": "Cut и cart: в cut короткое «а», как в слове «вода», в cart рот шире, звук длиннее, в конце r.",
+    "focus": [
+      "Ship",
+      "Sheep",
+      "Bad",
+      "Fool",
+      "Bag"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему live превращается в leave?",
+      "body": "Ты говоришь новому соседу: I live here — «я здесь живу». А он слышит I leave here — «я ухожу отсюда». В русском один звук «и». В английском на его месте два разных: короткий в live и долгий в leave. Русское «и» лежит между ними, и слушателю приходится угадывать.\n\nТак же устроены ещё три пары: bad и bed — на месте нашего «э», full и fool — на месте «у», cut и cart — на месте «а». В каждой паре слова различаются одним гласным, а смысл меняется целиком.\n\nЕщё одна ловушка — конец слова. По-русски «дуб» звучит как «дуп». В английском так нельзя: bag — сумка, back — спина.\n\nТренируйся, как в уроках о звуках: послушай пример, повтори, запиши себя и сравни. Распознавание часто угадывает слово по смыслу фразы. Поэтому верный текст на экране — ещё не проверка звука."
+    },
+    {
+      "title": "Ship и sheep: коротко и долго",
+      "body": "Sheep /i/ — «овца». Губы растянуты, как в улыбке, язык высоко, звук долгий и напряжённый: «ии». Seat — место, leave — уходить, eat — есть.\n\nShip /ɪ/ — «корабль». Рот чуть свободнее, губы и язык расслаблены, звук короткий. Ближе всего к нему русское «и» после «ш» в слове «шить»: оно звучит почти как «ы». Sit — сидеть, live — жить, it — оно."
+    },
+    {
+      "title": "Bad и bed: шире, чем «э»",
+      "body": "Bed /ɛ/ — «кровать». Этот звук близок к русскому «э», тут почти ничего менять не нужно. Bad /æ/ — «плохой». Язык стоит как для «э», но нижняя челюсть опускается, как для «а». Выходит звук между «э» и «а». Этот же звук ты слышал в can't из урока про can. Пары: man — мужчина, men — мужчины; had — имел, head — голова."
+    },
+    {
+      "title": "Full и fool: губы вперёд или нет",
+      "body": "Fool /u/ — «дурак». Губы округлены и вытянуты вперёд, звук долгий: «уу». Pool — бассейн, food — еда. Full /ʊ/ — «полный», I'm full — «я наелся». Губы почти не вытягиваются, звук короткий и расслабленный. Тот же короткий звук в good, book, look и в could."
+    },
+    {
+      "title": "Cut и cart: два разных «а»",
+      "body": "Cut /ʌ/ — «резать». Звук короткий, рот приоткрыт немного, как в безударном «а» в слове «вода». Cup — чашка, but — но, bus — автобус. Cart /ɑr/ — «тележка». Рот открыт широко, звук длиннее, а в конце американское r: язык загибается назад, как в car и are. Без r и с коротким «а» cart превращается в cut."
+    },
+    {
+      "title": "Bag и back: не оглушай конец",
+      "body": "По-русски звонкий звук в конце слова глохнет: «глаз» звучит как «глас». В английском конец сохраняет голос: eyes — глаза, ice — лёд; bed — кровать, bet — спорить. В уроке про окончания ты уже видел пару plays и place.\n\nГлавный секрет: перед звонким концом гласный тянется дольше. Ba-a-g — долго, back — коротко. Американец узнаёт bag прежде всего по долгому гласному. Последний звук не взрывай с силой, но и не превращай g в «к»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I live here. I leave at six.",
+      "ru": "Я живу здесь. Я ухожу в шесть.",
+      "why": "Live — короткий звук, leave — долгий. Перепутаешь — поменяется смысл."
+    },
+    {
+      "en": "Please sit in this seat.",
+      "ru": "Пожалуйста, садитесь на это место.",
+      "why": "Sit — коротко и расслабленно, seat — долго, губы в улыбке."
+    },
+    {
+      "en": "That's not bad. I'm going to bed.",
+      "ru": "Неплохо. Я иду спать.",
+      "why": "В bad рот открыт шире, чем в bed."
+    },
+    {
+      "en": "No, thank you. I'm full.",
+      "ru": "Нет, спасибо. Я наелся.",
+      "why": "Full — коротко, губы не вытягиваются. Долгий звук дал бы fool — «дурак»."
+    },
+    {
+      "en": "Can I have a cup of coffee?",
+      "ru": "Можно чашку кофе?",
+      "why": "Cup — короткое «а». Of — слабое, как /ə/."
+    },
+    {
+      "en": "My bag is on my back.",
+      "ru": "Моя сумка у меня на спине.",
+      "why": "Bag — гласный тянется, в конце звонкий g. Back — коротко, в конце глухой k."
+    },
+    {
+      "en": "She has blue eyes.",
+      "ru": "У неё голубые глаза.",
+      "why": "Eyes кончается звонким z. С «с» на конце вышло бы ice — «лёд»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый сосед спрашивает, где ты живёшь. Скажи через «Надиктовать ответ»: «Я живу здесь». Потом послушай свою запись. live = жить.",
+      "context": "",
+      "guidance": {
+        "title": "Короткий /ɪ/ — не тяни",
+        "body": "В live звук короткий и расслабленный, губы не растягиваются в улыбку. Протянешь «ии» — сосед услышит leave, «уходить».",
+        "example": "Sit here, please.",
+        "translation": "Садись сюда, пожалуйста."
+      },
+      "hint": "Начни так: I live … На записи гласный в live короче, чем в here?",
+      "answers": [
+        "I live here."
+      ],
+      "explanation": "Live — короткий /ɪ/. Проверка засчитала слова, а сам звук сравни по записи: слышно ли «ии»?"
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В автобусе ты видишь свободное место рядом с человеком. Спроси: «Извините, это место свободно?» seat = место, free = свободный.",
+      "context": "",
+      "guidance": {
+        "title": "Долгий /i/ — улыбка и «ии»",
+        "body": "В seat губы растянуты, язык высоко, звук долгий. Скажешь коротко — выйдет sit, «сидеть». Тот же долгий звук в free.",
+        "example": "We need three tickets.",
+        "translation": "Нам нужно три билета."
+      },
+      "hint": "Начни так: Excuse me, is this … ? В каких двух словах звук долгий?",
+      "answers": [
+        "Excuse me, is this seat free?",
+        "Excuse me, is this seat taken?"
+      ],
+      "explanation": "Seat и free — долгий /i/. Is this seat taken? — «это место занято?» — тоже обычный вопрос."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, как тебе фильм. Ответь: «Неплохо». bad = плохой.",
+      "context": "",
+      "guidance": {
+        "title": "/æ/ — челюсть вниз",
+        "body": "Начни с «э», а потом опусти нижнюю челюсть, как для «а». Язык остаётся на месте. Если звук вышел как в bed, рот открыт мало.",
+        "example": "That's my bag.",
+        "translation": "Это моя сумка."
+      },
+      "hint": "Начни так: It's not … В зеркале челюсть на bad ниже, чем на «э»?",
+      "answers": [
+        "It's not bad.",
+        "It isn't bad.",
+        "Not bad.",
+        "It was not bad.",
+        "It wasn't bad."
+      ],
+      "explanation": "Bad — /æ/, рот шире, чем для «э». Not bad — обычная короткая оценка. Подходят и It's not bad, и It wasn't bad."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты показываешь другу фото и хочешь сказать «Этот мужчина — мой папа». Вместо /æ/ у тебя вышло «э», и друг переспросил: These men? Напиши, что ты хотел сказать, и произнеси правильно.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: this — один, these — несколько",
+        "body": "Как в уроке про this и these: один человек — this и is, несколько — these и are. Man и men различаются только гласным, поэтому «э» в man превращает одного мужчину в нескольких.",
+        "example": "This man is a doctor. These men are doctors.",
+        "translation": "Этот мужчина — врач. Эти мужчины — врачи."
+      },
+      "hint": "Один мужчина — man или men? Какое слово-указатель для одного?",
+      "answers": [
+        "This man is my dad.",
+        "This man is my father."
+      ],
+      "explanation": "Man — /æ/, рот шире. Men — /ɛ/, как «э». Друг услышал men и решил, что людей несколько."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В гостях тебе предлагают ещё торта. Скажи: «Нет, спасибо, я наелся». I'm full = я наелся.",
+      "context": "",
+      "guidance": {
+        "title": "Короткий /ʊ/ — губы спокойны",
+        "body": "В full губы почти не вытягиваются, звук короткий. Сложишь губы трубочкой и протянешь «уу» — выйдет fool, «дурак».",
+        "example": "Look at this book.",
+        "translation": "Посмотри на эту книгу."
+      },
+      "hint": "Начни так: No, thank you. I'm … Звук в full короче, чем в «уу»?",
+      "answers": [
+        "No, thank you. I'm full.",
+        "No, thanks. I'm full.",
+        "No, thank you, I'm full.",
+        "No, thank you. I am full."
+      ],
+      "explanation": "Full — короткий /ʊ/. Долгий /u/ с трубочкой дал бы fool. No, thanks — тоже вежливый отказ."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В кафе попроси: «Можно чашку кофе?» cup = чашка.",
+      "context": "",
+      "guidance": {
+        "title": "Короткое «а» /ʌ/",
+        "body": "В cup звук короткий, рот приоткрыт немного — как безударное «а» в слове «вода». Широкое и длинное «а» сюда не подходит.",
+        "example": "The bus is coming.",
+        "translation": "Автобус идёт."
+      },
+      "hint": "Начни так: Can I have a … ? Как звучит of — сильно или слабо?",
+      "answers": [
+        "Can I have a cup of coffee?",
+        "Can I have a cup of coffee, please?",
+        "Could I have a cup of coffee, please?",
+        "Could I have a cup of coffee?"
+      ],
+      "explanation": "Cup — короткое /ʌ/. Of звучит слабо, как /ə/ из урока про ударение."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты в супермаркете с другом. Скажи: «Нам нужна тележка». cart = тележка.",
+      "context": "",
+      "guidance": {
+        "title": "Длинное «а» и r — cart",
+        "body": "Открой рот широко и протяни «а». В конце загни язык назад для американского r. Короткое «а» без r даст cut, «резать».",
+        "example": "My car is in the parking lot.",
+        "translation": "Моя машина на парковке."
+      },
+      "hint": "Начни так: We need a … На записи слышно r перед t?",
+      "answers": [
+        "We need a cart.",
+        "We need a shopping cart."
+      ],
+      "explanation": "Cart — длинное открытое /ɑ/ и r. Shopping cart — полное название тележки, тоже верно."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В аэропорту сотрудник показывает на сумку на ленте. Скажи: «Да, это моя сумка». bag = сумка.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: конец слова не глохнет",
+        "body": "В уроке про окончания ты не оглушал plays, чтобы не вышло place. Здесь то же. Протяни гласный в bag и оставь голос на g. Коротко и с «к» выйдет back — «спина».",
+        "example": "This is my dog.",
+        "translation": "Это моя собака."
+      },
+      "hint": "Начни так: Yes, this is my … Гласный в bag длиннее, чем в back?",
+      "answers": [
+        "Yes, this is my bag.",
+        "Yes, that's my bag.",
+        "Yes, it's my bag.",
+        "Yes, that is my bag."
+      ],
+      "explanation": "Bag — долгий гласный и звонкий g. That's my bag тоже верно: сумка на ленте может быть подальше от тебя."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты описываешь подругу: «У неё карие глаза». Но ты оглушил конец, и друг переспросил: Brown ice? Напиши, что ты хотел сказать, и произнеси со звонким концом. brown = карий.",
+      "context": "",
+      "guidance": {
+        "title": "Z на конце — с голосом",
+        "body": "Eyes кончается звонким z: горло гудит до конца слова, а гласный перед ним тянется. С глухим «с» выходит ice — «лёд».",
+        "example": "He has two dogs.",
+        "translation": "У него две собаки."
+      },
+      "hint": "Начни так: She has brown … Пальцы на горле: гудит ли оно на последнем звуке?",
+      "answers": [
+        "She has brown eyes."
+      ],
+      "explanation": "Eyes — звонкий z и долгий гласный. Ice — глухой s и короткий гласный, поэтому друг услышал «лёд»."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг встретит твою сестру в аэропорту и никогда её не видел. Опиши её голосом в 3–4 фразах: глаза, сумка, где она будет ждать. Используй хотя бы три слова урока: eyes, bag, black, seat, sit.",
+      "context": "Слова: black — чёрный, big — большой, near the gate — у выхода на посадку.",
+      "hint": "Опора: She has … eyes. She has a big … bag. She is going to sit …",
+      "answers": [
+        "My sister has blue eyes. She has a big black bag. She is going to sit near the gate. Her seat is next to the café.",
+        "She has brown eyes and a red bag. She is going to sit near the gate."
+      ],
+      "explanation": "Засчитывается любое понятное описание. Сравни запись с примерами урока: тянется ли гласный в eyes и bag, открыт ли рот на black, короткий ли звук в sit."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты уходишь, а сосед по квартире остаётся дома. Напиши ему записку из 2–4 фраз: когда ты уходишь, где твоя сумка и что можно съесть. Потом прочитай её вслух. roommate = сосед по квартире.",
+      "context": "Слова: leave — уходить, bag — сумка, bed — кровать, eat — есть, cake — торт.",
+      "hint": "Начни так: I leave at … Потом: My bag is on … You can eat …",
+      "answers": [
+        "I leave at six. My bag is on my bed. You can eat the cake. I'm full!",
+        "Hi! I leave at seven thirty. My black bag is on the bed. Please eat the pizza in the fridge."
+      ],
+      "explanation": "Засчитывается любая понятная записка. Прочитай её вслух: долгий звук в leave и eat, широкий рот в bag, «э» в bed и звонкий конец в bag и bed."
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "path-listening-routine",
+  "title": "Голосовое сообщение: кто, когда и что изменилось",
+  "subtitle": "Угадай тему → поймай изменение → запиши факты",
+  "level": "A2",
+  "group": "Произношение и слушание",
+  "units": "Авторский маршрут · A2",
+  "minutes": 30,
+  "goal": "Понять короткое голосовое сообщение или объявление: кто говорит, что изменилось и что сделать тебе, — и записать это двумя-тремя фразами.",
+  "formula": "It isn't at five. It's at six now. → The game is at six now.",
+  "keyRule": {
+    "rule": "Слушай дважды: сначала — кто и о чём, потом — числа, дни и что изменилось.",
+    "example": "The movie is not at six. It's at seven now. — Кино не в шесть, теперь в семь.",
+    "check": "Незнакомое слово пропускай, если это не число, имя, время или место."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 2,
+  "introExamples": 4,
+  "prerequisites": [
+    "path-everyday-phrasal"
+  ],
+  "recycles": [
+    "path-future-plans",
+    "path-connectors-basic"
+  ],
+  "teaches": [
+    "порядок слушания: прогноз → в первый раз «кто и о чём» → во второй раз детали → 2–3 факта письменно",
+    "изменение: старое с not, новое с now или instead (of); still и same time — без изменений; moved — перенесли, canceled — отменили",
+    "незнакомое слово пропускаем, если это не число, имя, время или место",
+    "Can you…? в сообщении — это предложение, а не решение",
+    "просьба к тебе начинается с действия: bring a sweater, text me back — это твой список дел",
+    "быстрая речь: gonna = going to, wanna = want to, lemme = let me (узнавать на слух)",
+    "пересказ чужого сообщения: I → she/he (She's going to be late because…)"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Ask a Teacher: I Wanna Understand Gonna",
+      "url": "https://learningenglish.voanews.com/a/i-wanna-understand-gonna/4920078.html",
+      "notes": "Сверено: gonna = going to, wanna = want to — формы неформальной устной речи; писать их можно только в переписке с друзьями и близкими."
+    },
+    {
+      "title": "Cambridge English · A2 Key: формат экзамена",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/key/exam-format/",
+      "notes": "На уровне A2 из коротких записей извлекают ключевую информацию, и каждую запись слушают дважды — отсюда в уроке правило двух прослушиваний."
+    },
+    {
+      "title": "Wiktionary · gonna",
+      "url": "https://en.wiktionary.org/wiki/gonna",
+      "notes": "Gonna заменяет going to только перед глаголом (I'm gonna go), но не перед местом (I'm going to the mall). В соседней статье словаря сверено lemme — разговорное let me."
+    }
+  ],
+  "visual": {
+    "title": "Что изменилось, а что осталось",
+    "kind": "contrast",
+    "why": "Not отмечает старый вариант, now и instead — новый, still — то, что осталось прежним.",
+    "items": [
+      {
+        "label": "Старое — с not",
+        "en": "The game isn't at five.",
+        "ru": "Игра не в пять.",
+        "note": "Это время больше не действует."
+      },
+      {
+        "label": "Новое — с now",
+        "en": "It's at six now.",
+        "ru": "Теперь она в шесть.",
+        "note": "Запоминаем время рядом с now."
+      },
+      {
+        "label": "Новое — с instead",
+        "en": "It's at the park instead.",
+        "ru": "Вместо этого она в парке.",
+        "note": "Instead — «вместо прежнего»."
+      },
+      {
+        "label": "Без изменений — still",
+        "en": "It's still on Saturday.",
+        "ru": "Она по-прежнему в субботу.",
+        "note": "Still — день не изменился."
+      }
+    ],
+    "footnote": "Сначала слушай, не глядя в текст. Расшифровку открывай, когда уже ответил.",
+    "focus": [
+      "isn't",
+      "now",
+      "instead",
+      "still"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как понять сообщение, если не слышишь каждое слово?",
+      "body": "Тебе пришло голосовое на английском, и половина слов пролетела мимо. Это нормально. Даже по-русски на вокзале мы слушаем объявление не целиком, а ловим свой поезд и платформу.\n\nСлушай по шагам. До прослушивания угадай, о чём может быть сообщение: кино завтра — значит, прозвучат время и место. В первый раз слушай главное: кто говорит и о чём. Во второй раз лови детали: числа, дни и что изменилось. Потом запиши 2–3 факта короткими фразами.\n\nНа незнакомом слове не останавливайся: смысл часто понятен по соседним словам. Переслушивай, если пропустил число, имя или время."
+    },
+    {
+      "title": "Главное — что изменилось",
+      "body": "В сообщении о переносе обычно звучат два варианта: старый и новый. Старый идёт с not: Lunch isn’t at one. Новый — с now (теперь) или instead (вместо этого): It’s at two now. Запоминай новый. Если слышишь still (всё ещё) или same time (то же время), значит, это не изменилось. Другие сигналы: moved — перенесли, canceled — отменили."
+    },
+    {
+      "title": "Незнакомое слово — не повод останавливаться",
+      "body": "Sorry, the office is closed today for inventory. Если inventory («учёт товаров») незнакомо, факт всё равно ясен: офис сегодня закрыт. Спроси себя: это слово — число, имя, время или место? Если нет, пропусти его и слушай дальше. Если да, переслушай это место или переспроси: Sorry, what time?"
+    },
+    {
+      "title": "Записывай факты, а не слова",
+      "body": "Пока слушаешь, пиши коротко: Sat 2 p.m., Room 12, bring ID. Потом сделай из заметок фразы: The class is on Saturday at 2 p.m. It’s in Room 12. I need to bring my ID (документ). Проверь три вопроса: кто? когда и где? что сделать тебе? Чего нет в сообщении, не додумывай. И следи за вопросами: Can you come on Tuesday? — это пока предложение, а не решение."
+    },
+    {
+      "title": "Gonna, wanna, lemme: как говорят быстро",
+      "body": "Gonna = going to ты уже знаешь из урока о планах. Так же сливаются и другие слова. Want to → wanna: Do you wanna come? — хочешь прийти? Let me → lemme: Lemme know — дай знать. Их нужно узнавать на слух. Сам пиши полными словами; wanna и lemme уместны только в чате с близкими."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The party moved to Sunday.",
+      "ru": "Вечеринку перенесли на воскресенье.",
+      "why": "Moved — «перенесли»: сразу после него звучит новый день."
+    },
+    {
+      "en": "The class isn't on Monday. It's on Tuesday now.",
+      "ru": "Занятие не в понедельник. Теперь оно во вторник.",
+      "why": "Not отмечает старый день, now — новый. Запоминаем Tuesday."
+    },
+    {
+      "en": "We're meeting at the park instead.",
+      "ru": "Вместо этого мы встречаемся в парке.",
+      "why": "Instead — «вместо прежнего»: парк заменил старое место."
+    },
+    {
+      "en": "Dinner is still at eight.",
+      "ru": "Ужин по-прежнему в восемь.",
+      "why": "Still — «всё ещё»: время не изменилось. Сравни с now в примере выше."
+    },
+    {
+      "en": "Your appointment on Friday is canceled.",
+      "ru": "Твоя запись на пятницу отменена.",
+      "why": "Canceled — «отменено»; по-американски пишется с одной l."
+    },
+    {
+      "en": "Can you come in on Monday instead?",
+      "ru": "Можете прийти в понедельник?",
+      "why": "Это вопрос: новое время пока только предложили, а не решили."
+    },
+    {
+      "en": "I'm gonna be home late, sorry.",
+      "ru": "Извини, я поздно буду дома.",
+      "why": "Gonna — быстрое going to: так в разговоре звучит план или прогноз."
+    },
+    {
+      "en": "Do you wanna come? Lemme know.",
+      "ru": "Хочешь прийти? Дай знать.",
+      "why": "Wanna = want to, lemme = let me. Узнаём на слух, а сами пишем полностью."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Голосовое от Сэма",
+      "kind": "listening",
+      "text": "Hey, it's Sam. Quick update about tomorrow. The movie isn't at six. It's at seven now. So I'll pick you up at six thirty. Oh, and bring a sweater. It's always cold in that theater. Text me back, OK? Bye!",
+      "source": "Учебная запись: ситуация придумана для урока"
+    },
+    {
+      "id": "m2",
+      "title": "Объявление в спортивном центре",
+      "kind": "listening",
+      "text": "Good morning, everyone. Here's a quick update for today. The pool is closed for maintenance until Friday. Today's yoga class is not at noon. It's at one o'clock, and it's in Room 4 instead of Room 2. Thank you, and have a great day!",
+      "source": "Учебная запись: ситуация придумана для урока"
+    },
+    {
+      "id": "m3",
+      "title": "Сообщение из клиники",
+      "kind": "listening",
+      "text": "Hi, this is Karen from Dr. Lee's office. I'm calling about your appointment on Thursday at nine. Dr. Lee is out of the office that day, so we need to move it. Can you come in on Friday at ten thirty instead? Please call us back and let us know. Thank you!",
+      "source": "Учебная запись: ситуация придумана для урока"
+    },
+    {
+      "id": "m4",
+      "title": "Голосовое от Мии",
+      "kind": "listening",
+      "text": "Hi, it's Mia. I'm gonna be late, sorry. I missed my bus. Do you wanna start dinner without me? I'll be there at eight, not seven thirty. Lemme know if that's OK. Bye!",
+      "source": "Учебная запись: ситуация придумана для урока"
+    },
+    {
+      "id": "m5",
+      "title": "Голосовое от Криса",
+      "kind": "listening",
+      "text": "Hey, it's Chris! So, the party isn't at my place anymore. It's at Luigi's now. That's the pizza place on Main Street. Same time, seven o'clock. Oh, and can you come a little early and help me with the balloons? Lemme know. Thanks!",
+      "source": "Учебная запись: ситуация придумана для урока"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Тебе пришло голосовое (M1). Прослушай его один раз, не открывая текст. Кто звонит и о каком дне речь? Ответь одной фразой.",
+      "context": "",
+      "guidance": {
+        "title": "Первый раз — кто и о чём",
+        "body": "С первого раза не лови числа — только кто говорит и о чём. Начало звонка ты знаешь из урока о сообщениях: имя звучит после it's или this is, тема — после about.",
+        "example": "This is Tom. I'm calling about the trip.",
+        "translation": "Это Том. Звоню насчёт поездки."
+      },
+      "hint": "Начни так: It's … It's about …",
+      "answers": [
+        "It's Sam. It's about tomorrow.",
+        "Sam is calling about tomorrow.",
+        "It's Sam, and it's about tomorrow."
+      ],
+      "explanation": "Звонит Сэм (Hey, it’s Sam), а речь о завтрашнем дне (update about tomorrow). Подойдёт любая фраза с этими двумя фактами.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прослушай M1 второй раз. Во сколько теперь начинается фильм?",
+      "context": "",
+      "guidance": {
+        "title": "Второй раз — ищи изменение",
+        "body": "Изменение обычно звучит парой: старое с not, новое с now. Слушай, какое число стоит рядом с now: это и есть новый план.",
+        "example": "The game isn't at five. It's at six now.",
+        "translation": "Игра не в пять. Теперь она в шесть."
+      },
+      "hint": "Какое время прозвучало вместе с isn't, а какое — с now?",
+      "answers": [
+        "The movie is at seven now.",
+        "It's at seven now.",
+        "The movie is at seven.",
+        "At seven."
+      ],
+      "explanation": "The movie isn’t at six — старое время, it’s at seven now — новое. Запоминаем семь.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Что Сэм просит тебя сделать? Назови две вещи из M1.",
+      "context": "sweater — свитер; text — написать сообщение (здесь это глагол).",
+      "guidance": {
+        "title": "Что сделать тебе",
+        "body": "Просьба к тебе обычно начинается прямо с действия: bring, call, text. Такие фразы записывай отдельно от времени и места — это твой список дел.",
+        "example": "Please buy some milk and call me.",
+        "translation": "Пожалуйста, купи молока и позвони мне."
+      },
+      "hint": "Найди в M1 две фразы, которые начинаются с глагола.",
+      "answers": [
+        "Bring a sweater and text Sam back.",
+        "I need to bring a sweater and text him back.",
+        "Bring a sweater. Text him back."
+      ],
+      "explanation": "Bring a sweater — взять свитер, text me back — ответить сообщением. Время 6:30 — это план Сэма: в это время он заедет за тобой.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты в спортивном центре и слышишь объявление (M2). Что закрыто и до какого дня? Одна фраза. Одно слово там может быть незнакомым — ничего страшного.",
+      "context": "pool — бассейн.",
+      "guidance": {
+        "title": "Незнакомое слово пропускаем",
+        "body": "Не знаешь слово — спроси себя: это время, место или имя? Если нет, слушай дальше. Факт вокруг него обычно понятен и так.",
+        "example": "The gym is closed on Monday for renovations.",
+        "translation": "Спортзал закрыт в понедельник на ремонт."
+      },
+      "hint": "Начни так: The pool is …",
+      "answers": [
+        "The pool is closed until Friday.",
+        "The pool. It's closed until Friday."
+      ],
+      "explanation": "Maintenance — «техобслуживание», но для ответа оно не нужно: бассейн закрыт до пятницы.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прослушай M2 ещё раз. Во сколько и где сегодня йога? noon = полдень.",
+      "context": "",
+      "guidance": {
+        "title": "Instead of — что на что заменили",
+        "body": "Instead of значит «вместо»: сначала звучит новое, после of — старое. Если меняются и время, и место, запиши оба.",
+        "example": "The meeting is in Room 5 instead of Room 3.",
+        "translation": "Встреча в комнате 5, а не в комнате 3."
+      },
+      "hint": "Два факта: время (не noon!) и номер комнаты. Начни так: Yoga is at …",
+      "answers": [
+        "Yoga is at one o'clock in Room 4.",
+        "The yoga class is at one o'clock in Room 4.",
+        "Yoga is at one in Room 4.",
+        "It's at one in Room 4."
+      ],
+      "explanation": "Not at noon — старое время, at one o’clock — новое. In Room 4 instead of Room 2: после instead of звучит старая комната.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Пришло голосовое из клиники доктора Ли (M3). У тебя там запись на четверг. Пока не слушай! Напиши два вопроса, на которые, скорее всего, ответит сообщение.",
+      "context": "appointment — запись (к врачу); still — всё ещё.",
+      "guidance": {
+        "title": "Прогноз до прослушивания",
+        "body": "Прежде чем слушать, подумай, что прозвучит. Клиника и твоя запись — значит, день, время и что тебе сделать. Когда ждёшь нужные слова, их легче услышать.",
+        "example": "What time is the party now?",
+        "translation": "Во сколько теперь вечеринка?"
+      },
+      "hint": "Начни так: Is my appointment still …? Второй вопрос — про время или про то, что тебе сделать.",
+      "answers": [
+        "Is my appointment still on Thursday? What time is it?",
+        "Did they change my appointment? What do I need to do?"
+      ],
+      "explanation": "Подойдут любые вопросы о дне, времени и твоих действиях. Теперь прослушай M3 в следующем шаге и проверь, на какие из них есть ответ."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прослушай M3 два раза. Запиши три факта: что с записью на четверг, что предлагают вместо неё и что нужно сделать тебе. come in = прийти (в клинику).",
+      "context": "",
+      "guidance": {
+        "title": "Записываем три факта",
+        "body": "Пиши ответы на три вопроса: что случилось, что предлагают, что сделать мне. Если новое время звучит в вопросе Can you…?, оно ещё не решено — это только предложение.",
+        "example": "Dinner on Friday is canceled. They want Saturday. I need to call Tom.",
+        "translation": "Ужин в пятницу отменили. Предлагают субботу. Мне нужно позвонить Тому."
+      },
+      "hint": "Три коротких предложения: My appointment … They're asking about … I need to …",
+      "answers": [
+        "They need to move my Thursday appointment. They're asking about Friday at 10:30. I need to call them back.",
+        "Dr. Lee is out on Thursday. Friday at 10:30 is possible. I need to call them back."
+      ],
+      "explanation": "Пятница в 10:30 — пока только предложение (Can you come in…?), поэтому нужно перезвонить и ответить. Больше в сообщении ничего не решено.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Прослушай голосовое от Мии (M4). В нём три быстрые формы: gonna, wanna и lemme. Запиши эти три фразы Мии полными словами.",
+      "context": "",
+      "guidance": {
+        "title": "Расшифруй быстрые формы",
+        "body": "Gonna — это going to, wanna — want to, lemme — let me. Узнавай их на слух, а когда записываешь для себя, пиши полными словами.",
+        "example": "I'm gonna call you later.",
+        "translation": "Я позвоню тебе позже."
+      },
+      "hint": "На место gonna, wanna и lemme поставь going to, want to и let me.",
+      "answers": [
+        "I'm going to be late, sorry. Do you want to start dinner without me? Let me know if that's OK.",
+        "I'm going to be late. Do you want to start dinner without me? Let me know if that's OK.",
+        "I am going to be late, sorry. Do you want to start dinner without me? Let me know if that is OK."
+      ],
+      "explanation": "Gonna = going to, wanna = want to, lemme = let me. Смысл тот же: Мия опоздает, спрашивает, начнёте ли вы без неё, и просит ответить.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед по квартире спрашивает: Where's Mia? Передай ему одной фразой по-английски: «Она опоздает, потому что пропустила автобус».",
+      "context": "miss the bus — опоздать на автобус, пропустить его.",
+      "guidance": {
+        "title": "Вспоминаем going to и because",
+        "body": "Вспоминаем going to — «собираюсь, будет» — и because — «потому что». В пересказе чужих слов I становится she или he, а gonna пишем полностью: going to.",
+        "example": "Tom is going to be late because he's at work.",
+        "translation": "Том опоздает, потому что он на работе."
+      },
+      "hint": "Начни так: She's going to … Причина — после because.",
+      "answers": [
+        "She's going to be late because she missed her bus.",
+        "She is going to be late because she missed her bus.",
+        "Mia is going to be late because she missed her bus.",
+        "Mia's going to be late because she missed her bus.",
+        "She's going to be late because she missed the bus.",
+        "Mia is going to be late because she missed the bus."
+      ],
+      "explanation": "Going to be late — «опоздает», because she missed her bus — причина. В пересказе I стало she, а gonna — полным going to.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Прослушай голосовое от Криса (M5). Твоя подруга Кейт тоже идёт на вечеринку, но сообщения не слышала. Напиши ей 2–3 фразы: что изменилось и что осталось прежним.",
+      "context": "",
+      "hint": "Проверь по M5: какое место было, какое стало и что сказано про время.",
+      "answers": [
+        "Hi Kate! The party isn't at Chris's place anymore. It's at Luigi's on Main Street now. It's still at seven.",
+        "Kate, the party moved to Luigi's, the pizza place on Main Street. The time is the same: seven o'clock."
+      ],
+      "explanation": "Главное — новое место (Luigi’s на Main Street) и прежнее время (seven o’clock). Просьбу помочь с шариками Крис адресовал тебе — Кейт её передавать не нужно.",
+      "materialIds": [
+        "m5"
+      ]
+    },
+    {
+      "id": "e11",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ответь Крису голосовым: 3–4 фразы, около 30 секунд. Подтверди новое место и время и ответь на его просьбу — сможешь прийти пораньше или нет.",
+      "context": "Got it = понял; balloons = воздушные шарики; a little early = чуть пораньше.",
+      "hint": "Начни так: Hi Chris, it's … Got it: the party is at …",
+      "answers": [
+        "Hi Chris, it's Alex. Got it: the party is at Luigi's on Main Street at seven. Sure, I can come early and help with the balloons. See you at six thirty!",
+        "Hi Chris! So the party is at Luigi's now, still at seven. Sorry, I can't come early. I work until six. See you at seven!"
+      ],
+      "explanation": "В ответе должны быть новое место, время и твой ответ на просьбу. Повтори главные факты своими словами — так Крис услышит, что ты всё понял правильно.",
+      "materialIds": [
+        "m5"
+      ]
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Теперь запиши своё голосовое другу: ваш план на субботу изменился. Скажи, кто говорит, что было, что стало и что другу сделать. 3–5 фраз.",
+      "context": "",
+      "hint": "Схема: Hi, it's … The … isn't at … It's at … now. Can you …?",
+      "answers": [
+        "Hi, it's Alex. Quick update about Saturday. Lunch isn't at twelve. It's at one now. Can you text me back?",
+        "Hey, it's Nina. The soccer game on Saturday isn't at the park. We're meeting at the school instead, still at ten. Bring some water!"
+      ],
+      "explanation": "Подходит любой план, если друг поймёт: кто звонит, что было, что стало и что ему сделать."
+    }
+  ]
+}

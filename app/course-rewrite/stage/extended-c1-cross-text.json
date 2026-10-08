@@ -1,0 +1,346 @@
+{
+  "id": "extended-c1-cross-text",
+  "title": "Гибридные занятия: три разных текста и одно решение комитета",
+  "subtitle": "Что может доказать каждый текст → чей это голос → согласие, спор и цифры разных периодов → записка комитету с условием",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Сопоставить заметку исследователя, колонку участницы и записку организатора и написать комитету, что финансировать: «Цифры показывают посещаемость, а не знания», «Мара и Леон оба признают пользу, но расходятся в том, что делать сейчас», «Рекомендую гибрид, только если до выделения денег подтвердят план не дороже $1,100».",
+  "formula": "The note reports …, but it does not show that … → Mara's account illustrates …; it does not show how common … → Mara quotes a neighbor who …, but she rejects … → $960 is …, while $1,200 is … → Both acknowledge …, but they differ over … → I recommend … only if … is confirmed before money is committed → It remains unclear whether …",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-synthesis",
+    "path-critical-reading",
+    "path-reporting-verbs"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-synthesis",
+    "path-proposal"
+  ],
+  "teaches": [
+    "три типа источника — три вопроса: цифры (что посчитали), личная история (как это бывает), записка организатора (можно ли это обеспечить)",
+    "самоотбор: люди сами выбрали группу — разница не показывает причину: The note reports …, but it does not show that the format caused …",
+    "история: Her account illustrates …; it does not show how common … — не «бесполезно», а другой вид сведений",
+    "чужая фраза внутри текста: Mara quotes a neighbor who says …, but she rejects that view",
+    "называть источник заново при смене; свой вывод подписывать: I infer that …",
+    "цифры разных периодов — не противоречие: $960 is …, while $1,200 is …",
+    "согласие и настоящее расхождение: Both acknowledge …, but they differ over …; whereas ≠ on the contrary; thanks to = доказанная причина",
+    "рекомендация с проверяемым условием и сроком: only if … is confirmed before money is committed; неоплаченная работа — тоже ресурс",
+    "слова: hybrid, classroom-only, enroll, caregiver, self-selection, projection, quote (смета), committee, brief"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Synthesizing Sources",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/conducting_research/research_overview/synthesizing_sources.html",
+      "notes": "Сверено: синтез строят вокруг общих идей, а не пересказывают источники по очереди; отделяют согласных от несогласных, не придумывают связь, которой нет, называют автора каждой мысли и показывают, опирается ли текст на источник, соглашается с ним или противопоставляет. Отсюда шаги «вопрос каждого текста → чей голос → согласие и расхождение»."
+    }
+  ],
+  "keyRule": {
+    "rule": "Сначала спроси, на какой вопрос отвечает каждый текст. Разные вопросы — ещё не спор.",
+    "example": "Mara writes about access, while Leon writes about whether we can deliver it. — Мара пишет о доступе, а Леон — о том, сможем ли мы его обеспечить.",
+    "check": "Они правда спорят — или отвечают на разные вопросы?"
+  },
+  "sections": [
+    {
+      "title": "Три текста, один вопрос комитета",
+      "body": "Комитет решает, что финансировать на следующий восьминедельный курс: только очный или гибридный — когда можно прийти в класс или подключиться онлайн. У тебя три текста. Заметка исследователя — цифры посещаемости. Колонка участницы Мары — её личный опыт. Записка организатора Леона — что реально можно обеспечить и сколько это стоит. И запрос комитета: два критерия и предел расходов $1,100.\n\nИз урока о синтезе ты знаешь: текст строят вокруг вопроса, а не «сначала A, потом B», и разделяют голоса — источник сообщает, источник предполагает, ты рекомендуешь.\n\nНовое здесь — четыре вещи. Источников три, и они разного типа: каждый отвечает на свой вопрос. Внутри источника может звучать чужое мнение. Цифры из разных текстов могут относиться к разным периодам. И рекомендация ставит условие, которое проверяют до того, как тратят деньги."
+    },
+    {
+      "title": "Что может доказать каждый тип текста",
+      "body": "Спроси о каждом тексте: на какой вопрос он отвечает и что может подтвердить.\n\nЦифры исследователя: 18 из 24 в гибридной группе и 15 из 24 в очной посетили не меньше шести занятий. Это посещаемость, а не знания. Люди сами выбрали группу (это называют самоотбором — self-selection), и группы занимались в разные вечера. Поэтому разница не доказывает, что причина в формате: The note reports…, but it does not show that the format caused…\n\nИстория Мары показывает, как препятствие работает у одного человека: два вечера сиделка не пришла, и без онлайна Мара пропустила бы занятие. Но она не показывает, как часто так бывает: Her account illustrates…; it does not show how common… Это не «бесполезно», а другой вид сведений.\n\nЗаписка Леона — о выполнимости и цене, а не о пользе. Не требуй от текста ответа на чужой вопрос."
+    },
+    {
+      "title": "Чей это голос — даже внутри одного текста",
+      "body": "В колонке Мары есть фраза соседа: «Люди онлайн участвуют только наполовину». Это не мнение Мары — она с ним спорит: I disagree with that judgment. В пересказе такие голоса разводят так: The writer quotes X, who says…, but she rejects that view. Кавычки показывают чужие слова, а чья это позиция — видно по соседним фразам.\n\nКогда переходишь к другому источнику, называй его снова. They после трёх авторов — непонятно кто.\n\nНе превращай мнение в факт: It is clear that… звучит гораздо сильнее, чем Leon believes that… Свой вывод подписывай как свой: I infer that… — «из этого я делаю вывод, что…»; This suggests to me that… Так комитет видит, где кончаются источники и начинаешься ты."
+    },
+    {
+      "title": "Согласие, настоящий спор и цифры разных периодов",
+      "body": "Разные темы — ещё не спор. Мара пишет о доступе, Леон — о том, сможем ли мы его обеспечить. При этом Леон прямо признаёт, что онлайн помогает отдельному человеку, а Мара сама ставит условие: онлайн полезен, только если кто-то делает разговор доступным. Настоящее расхождение — что делать на следующем курсе. Фраза: Both acknowledge…, but they differ over…\n\nЦифры тоже проверяй, прежде чем назвать их противоречием: о каком периоде каждая и что в неё входит. $500 фактических расходов прошлого года и $650 прогноза на следующий — не спор, если в прогноз добавили новую аренду.\n\nСвязки по смыслу. Whereas сравнивает две позиции. On the contrary — «напротив» — только если вторая мысль опровергает первую. Thanks to называет причину — не пиши его, если причина не доказана."
+    },
+    {
+      "title": "Записка комитету: по критериям и с условием",
+      "body": "Комитету не нужны три пересказа подряд. Строй записку (brief) вокруг его двух критериев: есть ли убедительная польза для доступа и можно ли надёжно провести курс в пределах $1,100. Рекомендацию ставь в начало.\n\nРекомендация может быть уверенной и при этом условной. We should fund — обязательство. Funding should be conditional on… — «только при условии». Условие должно быть проверяемым: подтверждённая смета не дороже $1,100 и названные сотрудники, а не if everything works well. Скажи, когда его проверяют: before money is committed — «до того, как деньги выделены».\n\nНеизвестное называй предметно: как часто онлайн спасает от пропуска, влияет ли формат на знания. И неоплаченная работа — не бесплатная: часы подготовки преподавателя тоже ресурс, даже если за них никто не платит."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The survey reports higher satisfaction among evening visitors; it does not show that evening hours caused it.",
+      "ru": "Опрос сообщает, что вечерние посетители довольнее; он не показывает, что дело в вечерних часах.",
+      "why": "Reports — что нашли; does not show — граница вывода о причине."
+    },
+    {
+      "en": "His story illustrates a barrier one customer faced; it does not show how common that barrier is.",
+      "ru": "Его история показывает препятствие, с которым столкнулся один клиент; она не показывает, насколько оно распространено.",
+      "why": "Illustrates признаёт ценность случая, вторая часть не даёт его обобщить."
+    },
+    {
+      "en": "The writer quotes a manager who calls the service unnecessary, but she rejects that view.",
+      "ru": "Автор приводит слова менеджера, который считает услугу ненужной, но сама с этим не согласна.",
+      "why": "Два голоса разведены: she — автор, that view — мнение менеджера."
+    },
+    {
+      "en": "The $500 was last year's actual cost, while the $650 is next year's estimate.",
+      "ru": "$500 — фактические расходы прошлого года, а $650 — прогноз на следующий.",
+      "why": "Цифры разных периодов поставлены рядом через while — читатель не примет их за спор."
+    },
+    {
+      "en": "Both reports support longer hours, but they differ over who should cover the extra shifts.",
+      "ru": "Оба отчёта за продление часов, но расходятся в том, кто должен брать дополнительные смены.",
+      "why": "Both … but differ over … показывает, где согласие, а где настоящий спор."
+    },
+    {
+      "en": "I recommend a limited trial, provided that the budget is confirmed before we sign the contract.",
+      "ru": "Я рекомендую ограниченную пробу при условии, что бюджет подтвердят до подписания договора.",
+      "why": "Условие проверяемое и со сроком: что подтвердить и когда."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Заметка исследователя / Attendance in a hybrid pilot",
+      "kind": "reading",
+      "text": "The Bellford Community Learning Project tested a hybrid option during an eight-week practical skills course. This note asks whether attendance patterns justify a closer look at that option. It does not evaluate teaching quality or recommend a permanent model.\n\nForty-eight adults enrolled. Before the course began, twenty-four chose a hybrid group, which allowed them to attend in the room or through a live online connection. Twenty-four chose a classroom-only group. Both groups followed the same syllabus with the same tutor but met on different evenings. Places were not randomly assigned, and the project did not collect information at the start about caregiving responsibilities or working hours.\n\nEighteen of the twenty-four hybrid participants attended at least six sessions, compared with fifteen of the twenty-four classroom-only participants. That is 75 percent and 62.5 percent, respectively. Attendance means joining a session, in person or online; it is not a measure of skills gained. Eight hybrid participants used the online option at least once. The records do not show whether those participants would otherwise have missed a session.\n\nThe pilot cost $960 in direct expenses, including $360 for eighteen additional staff hours at $20 per hour. A comparable classroom-only course was budgeted at $600. The pilot total did not include equipment that was lent free of charge or the tutor's unpaid preparation time. It should therefore not be treated as a full estimate of ongoing costs.\n\nThe attendance difference is consistent with the possibility that flexibility helped some learners take part. However, people chose their own groups, the groups met on different evenings, and there was no information about them at the start, so we cannot draw a conclusion about cause. A higher attendance percentage cannot, by itself, show that the hybrid format produced the difference.\n\nA further trial would be more informative if it recorded why participants chose each group, what made attendance difficult, and whether joining online replaced an absence. It should also collect comparable learning measures and record all resources used. The present findings support a focused question for further study, not a general claim that hybrid courses are better.",
+      "source": "Придумано для курса: проект, цифры и люди вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Колонка участницы / The session I could still join",
+      "kind": "reading",
+      "text": "By Mara Ellis\n\nI joined Bellford's hybrid practical skills course because my father's care arrangements sometimes change at short notice. I wanted to learn alongside other people, not work through a folder alone. For me, the online connection was a way to stay part of a group when getting to the building became impossible.\n\nI attended seven of the eight sessions: five in the room and two from home. On both evenings at home, the caregiver who was supposed to take over had canceled. Without the connection, I would have stayed home and missed the class. That is my account of two evenings, not a calculation of what every participant would have done.\n\nA neighbor told me, \"People online are only half participating, so the committee should stop paying for them.\" I disagree with that judgment. During one online session, I compared two repair plans with a partner and changed my proposal after her feedback. Being physically absent did not mean being mentally absent. Still, there were moments when I could see people laughing but couldn't hear the comment that started it.\n\nThe tutor also had to repeat questions from the room. I appreciated that effort, but I could see it interrupting the discussion. An online place is useful only if someone makes the conversation accessible. Simply leaving a camera running would not have given me the same experience.\n\nI favor keeping a hybrid option for people whose circumstances make attendance unpredictable. I am not asking for every course to become hybrid, and I cannot tell the committee how many residents are in my situation. Nor can my seven visits prove that I learned more than someone in the other group.\n\nWhat I can offer is a reason not to dismiss flexibility as a luxury. For some of us, the real comparison is not between an ideal classroom and an imperfect screen. It is between joining an imperfect session and missing it entirely.",
+      "source": "Придумано для курса: колонка и автор вымышленные."
+    },
+    {
+      "id": "m3",
+      "title": "Записка организатора / What we can reliably deliver",
+      "kind": "reading",
+      "text": "From Leon Ward, course organizer\n\nThe committee needs a delivery plan for the next eight-week course. My question is not whether online access can help an individual. It clearly can. My question is whether we can promise that access reliably while keeping the class workable for everyone.\n\nThe evaluation records eighteen of twenty-four hybrid learners attending at least six sessions, compared with fifteen of twenty-four classroom-only learners. I accept those figures. They do not tell us how many extra attendances we paid for, because we do not know what the same people would have done without an online option.\n\nThe recorded pilot cost was $960, including $360 for eighteen additional staff hours. The classroom-only budget was $600. For the next course, we would also need to rent the equipment that was lent to us free of charge. The supplier's written quote is $240 for eight weeks. With the same staffing, our projected direct cost is therefore $1,200. This projection still leaves out the tutor's unpaid preparation; we have not measured those hours.\n\nDuring the pilot, I handled technical problems while also greeting people at the door. On two evenings, online participants waited while I dealt with arrivals. A second trained person would make that easier to manage, but no one is assigned to that role right now. The eighteen extra hours are an estimate, not a confirmed staff schedule.\n\nMara's account makes an important point: an imperfect connection may be better than missing the class. However, if we advertise a service, someone must be responsible for making it work. The value of access does not remove that responsibility.\n\nMy current preference is to fund the classroom-only course and send the hybrid proposal back for revision. I would reconsider if the equipment cost came down and named staff could cover the required duties within an agreed budget. This is a practical objection to the current plan, not a claim that online participants gain nothing.",
+      "source": "Придумано для курса: записка и автор вымышленные."
+    },
+    {
+      "id": "m4",
+      "title": "Запрос комитета / Decision brief request",
+      "kind": "reference",
+      "text": "Write for committee members who are deciding what to fund for the next eight-week course. Use two criteria: believable support for better access, and reliable delivery within a direct-cost limit of $1,100. This limit cannot be exceeded for this decision.\n\nUse the research note, the participant's column, and the organizer's memo. Keep apart what a source reports, what you infer, and what remains unknown. Show real agreement and disagreement instead of counting supporters. Recommend an action the committee can take under these conditions. If you propose conditional funding, say what must be confirmed before money is committed. Do not treat unpaid work as free.",
+      "source": "Придумано для курса: комитет и запрос вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой только M1. Напиши коллеге две-три фразы: какой вопрос задаёт заметка, что она нашла (с цифрами) и почему эта разница не доказывает, что причина в формате.",
+      "context": "hybrid — гибридный: можно прийти в класс или подключиться онлайн; classroom-only — только очно; enroll — записаться.",
+      "guidance": {
+        "title": "Вспоминаем: когда сравнение показывает причину",
+        "body": "Вспоминаем урок о критическом чтении: причину показывает сравнение похожих групп. Здесь люди сами выбрали группу и занимались в разные вечера — назови это границей вывода.",
+        "example": "The survey found that 70% of members who chose the morning class finished it, compared with 55% in the evening class. But members picked their own class, so the time of day may not be the reason.",
+        "translation": "Опрос показал, что утренний курс закончили 70% выбравших его, а вечерний — 55%. Но участники сами выбирали курс, так что дело может быть не во времени."
+      },
+      "hint": "Начни так: The note asks whether… Кто распределял людей по группам?",
+      "answers": [
+        "The note asks whether attendance in the pilot justifies a closer look at the hybrid option. Eighteen of 24 hybrid learners attended at least six sessions, compared with 15 of 24 in the classroom-only group. However, people chose their own groups, and the groups met on different evenings, so the difference does not show that the format caused it.",
+        "The research question is whether the attendance pattern is worth investigating further. In the hybrid group, 75 percent attended six or more sessions, compared with 62.5 percent in the classroom-only group. Because learners picked their groups and met on different evenings, the note cannot say that the hybrid format made the difference."
+      ],
+      "explanation": "Засчитывается, если названы вопрос заметки, обе цифры с итогом (18 из 24 и 15 из 24 или 75% и 62.5%) и хотя бы одна граница: самоотбор или разные вечера. Хорошо, если добавлено, что посещаемость — не знания.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь прочитай M2. Напиши коллеге две фразы: что история Мары добавляет к цифрам из M1 и чего она показать не может.",
+      "context": "caregiver — сиделка, человек, который ухаживает за больным.",
+      "guidance": {
+        "title": "История: как это работает, а не как часто",
+        "body": "Скажи, что история добавляет к цифрам: как именно препятствие мешало прийти. Потом назови её границу: один человек, два вечера. Illustrates — «показывает на примере».",
+        "example": "Tom's story illustrates how a late bus can make a student miss class; it doesn't show how many students have that problem.",
+        "translation": "История Тома показывает, как опоздавший автобус может заставить студента пропустить занятие; она не показывает, у скольких студентов такая проблема."
+      },
+      "hint": "Чего не знают записи о посещаемости, по словам M1? Что Мара сама говорит о своих двух вечерах?",
+      "answers": [
+        "Mara's account adds something the attendance records can't show: on two evenings, her father's caregiver canceled, and without the online option she would have missed class. It illustrates how flexibility can prevent an absence, but it doesn't show how many participants are in her situation.",
+        "The note can't tell whether going online replaced an absence, but Mara says it did for her on two evenings. Her story illustrates one real barrier; it does not show how common that barrier is or whether she learned more."
+      ],
+      "explanation": "Засчитывается, если сказано, что история объясняет механизм — онлайн спас от двух пропусков, — и названа граница: один человек, нельзя судить о частоте. Мара сама это признаёт, поэтому историю нельзя ни выбросить, ни обобщить.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега записал по M2: Mara thinks online learners are only half participating, so the committee should stop paying for them. Перепиши фразу так, чтобы голоса не были перепутаны (одна-две фразы).",
+      "context": "",
+      "guidance": {
+        "title": "Чужая фраза внутри текста",
+        "body": "Кавычки — это чужие слова, а не позиция автора. Посмотри на соседнюю фразу: автор согласен или спорит? Назови обоих: X quotes Y, who says…, but X rejects…",
+        "example": "The reviewer quotes a chef who calls the dish old-fashioned, but she disagrees and recommends it.",
+        "translation": "Рецензент приводит слова шефа, который считает блюдо старомодным, но сама с ним не согласна и советует его."
+      },
+      "hint": "Кто в M2 сказал «only half participating»? Какая фраза идёт сразу после?",
+      "answers": [
+        "Mara quotes a neighbor who says that online learners are only half participating, but she rejects that view. She describes an online session where she worked with a partner and changed her plan.",
+        "It was Mara's neighbor who said that online learners are only half participating. Mara disagrees: she says that being physically absent did not mean being mentally absent.",
+        "Mara's neighbor claims that people online only half participate and that the committee should stop paying for them, but Mara disagrees with that judgment."
+      ],
+      "explanation": "Это слова соседа, а Мара с ними спорит и приводит пример онлайн-занятия, где она работала с партнёром. Засчитывается, если голос соседа отделён и позиция Мары передана верно.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M3. Секретарь комитета видит в M1 $960, а в M3 — $1,200 и думает, что авторы спорят о цифрах. Объясни ему двумя фразами, почему это не противоречие.",
+      "context": "projected cost — прогноз расходов; quote — смета, письменное предложение цены; rent — арендовать.",
+      "guidance": {
+        "title": "Цифры разных периодов",
+        "body": "Прежде чем назвать цифры противоречием, проверь, о каком периоде каждая и что в неё входит. Скажи прямо: X is…, while Y is…",
+        "example": "The $300 was what the fair cost this spring, when the hall was free, while the $420 is the estimate for the fall, which adds the hall rental.",
+        "translation": "$300 — сколько ярмарка стоила этой весной, когда зал был бесплатным, а $420 — прогноз на осень, в который добавлена аренда зала."
+      },
+      "hint": "Что было бесплатным в пилоте и сколько это будет стоить на следующем курсе? 960 + 240 = ?",
+      "answers": [
+        "The $960 is what the pilot actually cost, when the equipment was lent for free, while the $1,200 is Leon's estimate for the next course, which adds $240 to rent the equipment. They describe different periods, so they don't contradict each other.",
+        "The researcher reports the pilot's real cost, $960, while Leon projects $1,200 for the next course because the equipment will no longer be free and the rental quote is $240. Both figures can be correct at the same time."
+      ],
+      "explanation": "$960 + $240 аренды = $1,200. Засчитывается, если названы разные периоды (прошедший пилот и следующий курс) и причина разницы — аренда оборудования. Можно добавить, что и $1,200 не включает неоплаченную подготовку.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о синтезе. По M2 и M3 напиши две-три фразы: в чём Мара и Леон согласны и в чём их настоящее расхождение.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: строим по вопросу",
+        "body": "Вспоминаем урок о синтезе: сначала общий предмет, потом где ответы совпадают и где расходятся. Новое: проверь, нет ли у обоих одного условия, даже если выводы разные.",
+        "example": "Both teachers acknowledge that homework helps, but they differ over how much to give: one wants daily tasks, whereas the other wants one project a week.",
+        "translation": "Оба учителя признают, что домашние задания помогают, но расходятся в объёме: один хочет ежедневных заданий, а другой — один проект в неделю."
+      },
+      "hint": "Что Леон говорит о пользе для отдельного человека? Что Мара говорит о человеке, который делает разговор доступным?",
+      "answers": [
+        "Both acknowledge that online access can help individual learners, and both say it only works if someone makes the conversation accessible. They differ over the next course: Mara wants to keep a hybrid option, whereas Leon prefers classroom-only delivery until the cost and staffing are fixed.",
+        "Mara and Leon agree that an online option can prevent absences and that it needs proper support. Their real disagreement is practical: Mara favors keeping it now, whereas Leon wants to fund the classroom-only course and revise the hybrid plan first."
+      ],
+      "explanation": "Засчитывается, если названы оба пункта согласия — польза для отдельных людей и нужен человек, который поддерживает разговор, — и настоящее расхождение: что делать на следующем курсе. Леон не против онлайна вообще; это важно не потерять.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о предложении. Открой M4 и переведи рекомендацию для комитета: «Я рекомендую финансировать гибридный вариант, только если до выделения денег будет подтверждён план не дороже 1 100 долларов с названными сотрудниками. Иначе комитету стоит выбрать очный курс».",
+      "context": "commit money — выделить деньги, взять обязательство платить; named staff — конкретные сотрудники.",
+      "guidance": {
+        "title": "Вспоминаем: условие, которое можно проверить",
+        "body": "Вспоминаем урок о предложении: условие должно быть проверяемым, а не if everything works well. Новое здесь: скажи, когда его проверяют, — before money is committed.",
+        "example": "I recommend renting the hall only if the owner confirms the price in writing before we pay the deposit. Otherwise, we should use the school gym.",
+        "translation": "Я рекомендую арендовать зал, только если владелец письменно подтвердит цену до того, как мы внесём залог. Иначе стоит взять школьный спортзал."
+      },
+      "hint": "Начни так: I recommend funding the hybrid option only if a plan costing no more than $1,100… Вторая фраза: Otherwise, the committee should…",
+      "answers": [
+        "I recommend funding the hybrid option only if a plan costing no more than $1,100, with named staff, is confirmed before money is committed. Otherwise, the committee should choose the classroom-only course.",
+        "I recommend funding the hybrid option only if, before any money is committed, a plan with named staff and a cost of $1,100 or less is confirmed. Otherwise, the committee should fund the classroom-only course.",
+        "I recommend that the committee fund the hybrid option only if a plan of no more than $1,100 with named staff is confirmed before money is committed. Otherwise, it should choose the classroom-only course."
+      ],
+      "explanation": "Only if и before money is committed сохраняют главное: сначала подтверждение, потом деньги. Recommend that the committee fund — тоже верно, глагол без -s. Should во второй фразе — совет, а не обязательное правило.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В черновике записки стоит: Thanks to the hybrid option, attendance rose to 75 percent. On the contrary, Leon talks about costs. Найди две ошибки в связках и перепиши (две фразы) по M1 и M3.",
+      "context": "",
+      "guidance": {
+        "title": "Связка обещает смысл",
+        "body": "Thanks to называет причину, а её здесь не доказали. Леон цифры не опровергает: он их принимает и говорит о другом.",
+        "example": "Sales were higher at the new store, but we can't say the location caused it. The manager accepts the numbers; her concern is the rent.",
+        "translation": "В новом магазине продажи были выше, но нельзя сказать, что дело в месте. Управляющая не спорит с цифрами — её беспокоит аренда."
+      },
+      "hint": "С чем сравнивать 75 percent? Что Леон пишет о цифрах — I accept those figures?",
+      "answers": [
+        "In the hybrid group, 75 percent attended at least six sessions, compared with 62.5 percent in the classroom-only group, but this does not show that the format caused the difference. Leon accepts these figures; his concern is cost and staffing.",
+        "Seventy-five percent of hybrid learners attended at least six sessions, compared with 62.5 percent of classroom-only learners, although the note cannot say why. Leon does not dispute this; instead, he asks whether we can deliver the option reliably and within budget."
+      ],
+      "explanation": "Thanks to утверждает причину, которой нет, а «rose to» — рост, которого не было: это сравнение двух групп. On the contrary неверно: Леон принимает цифры. Засчитывается, если исправлены обе связки и есть сравнение с 62.5%.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши записку для комитета по M1–M4: 180–250 слов. Что должно быть: рекомендация в первом абзаце; что даёт каждый из трёх текстов и где его граница, с подписью голоса; где Мара и Леон согласны и в чём настоящий спор; цифры $960, $1,200 и $1,100 — что каждая значит; условие, которое нужно подтвердить до выделения денег; что делать, если оно не выполнится; одно конкретное неизвестное; неоплаченная подготовка.",
+      "context": "",
+      "hint": "План: I recommend… → The research note reports…, but… → Mara's account illustrates… → Both acknowledge…, but they differ over… → Leon projects… → Before money is committed… → It remains unclear whether…",
+      "answers": [
+        "I recommend asking for a revised hybrid plan before any money is committed. If it cannot stay within $1,100 with named staff, the committee should fund the classroom-only course.\n\nThe research note reports that 18 of 24 hybrid learners attended at least six sessions, compared with 15 of 24 classroom-only learners. However, people chose their own groups, which met on different evenings, so the note cannot say that the format caused the difference. Attendance also does not measure learning.\n\nMara's account adds what the records cannot show: on two evenings, her caregiver canceled, and joining online kept her from missing class. Her story illustrates a real barrier, but it does not show how common it is.\n\nMara and Leon both acknowledge that online access can help individuals and that it needs someone to make the discussion accessible. They differ over the next course. Leon accepts the attendance figures, but he projects a direct cost of $1,200, because the equipment that was free in the $960 pilot would now cost $240. That is above the $1,100 limit, and no second staff member is assigned yet. His estimate also leaves out the tutor's unpaid preparation, which should be counted as a real cost.\n\nI infer that the current hybrid plan fails the delivery criterion, not the access criterion. It remains unclear how often online access prevents an absence across the whole group."
+      ],
+      "explanation": "Засчитывается, если рекомендация стоит в начале и укладывается в $1,100, у каждого текста подписан голос и названа граница, согласие отделено от настоящего спора, цифры разных периодов не выданы за противоречие, условие проверяется до выделения денег, а неизвестное конкретно. Рекомендация сразу выбрать очный курс тоже засчитывается, если она так же точно опирается на материалы.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Закрой материалы. Член комитета не читал ни одного текста и у него есть пара минут перед заседанием. Объясни ему вслух за 2–3 минуты. Что должно быть: твоя рекомендация в первой фразе; что показывают цифры и почему они не доказывают причину; что добавляет история Мары; где Мара и Леон согласны и где расходятся; почему нынешний план не проходит по деньгам; в конце — что ты упростил и какую разницу нельзя было потерять.",
+      "context": "",
+      "hint": "Начни так: My recommendation is… Переходы: Here's why… / The numbers… / Mara's story… / Where they really disagree… / I left out…",
+      "answers": [
+        "My recommendation is to ask for a revised hybrid plan before we fund it. Right now, it's projected at twelve hundred dollars, and our limit is eleven hundred, and nobody has been named to handle the technical side.\n\nHere's why I don't want to drop the idea. In the pilot, more people in the hybrid group came to at least six of the eight sessions: eighteen out of twenty-four, compared with fifteen out of twenty-four in the classroom group. But people chose their own groups, and the groups met on different evenings. So we can't say the hybrid format caused better attendance. And attendance isn't the same as learning.\n\nMara, one of the participants, explains how it worked for her. Twice, her father's caregiver canceled, and joining from home meant she didn't miss class. That's a real barrier, but it's one person's story. It doesn't tell us how many people are in that situation.\n\nWhere do they really disagree? Mara and Leon, the organizer, actually agree on a lot. Both say the online option can help people, and both say it needs someone to make the discussion work for people at home. The disagreement is about the next course. Mara wants to keep the option. Leon wants to fund the classroom course for now and fix the hybrid plan first.\n\nSo my condition is simple: before any money is committed, we need a plan under eleven hundred dollars with named staff. If we can't get that, we fund the classroom course.\n\nI left out most of the research method and some of the costs. What I couldn't lose was the difference between a possible benefit and a proven one, and the fact that the budget limit is fixed."
+      ],
+      "explanation": "Засчитывается, если слушатель без текстов понимает рекомендацию и её условие, цифры с итогами и их границу, пользу и предел истории Мары, согласие и настоящий спор, причину провала по бюджету, а в конце сказано, что упрощено. Точные размеры групп можно заменить словами «больше людей», если граница вывода сохранена.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега прислал черновик записки для комитета. Найди по M1–M4 все содержательные ошибки и перепиши записку (120–170 слов). Потом добавь две фразы: какие две правки самые важные и почему.\n\nЧерновик: \"The trial proves that hybrid teaching improves learning by 12.5 percent. Mara believes online learners are only half participating, so she opposes online access. Leon disputes the attendance figures and argues that online access has no value. Nevertheless, all three writers support immediate hybrid funding. The course costs $960, safely below the committee's limit, and the equipment will remain free. Unpaid preparation creates no cost. We should therefore approve $1,200 immediately and find support staff later.\"",
+      "context": "",
+      "hint": "Проверь по очереди: что измеряли — знания или посещаемость? Чьи слова «half participating»? Что Леон пишет о цифрах? Кто из троих поддерживает немедленное финансирование? Какой период у $960? Влезает ли $1,200 в предел?",
+      "answers": [
+        "The research note reports that 75 percent of hybrid learners and 62.5 percent of classroom-only learners attended at least six sessions. That is a gap of 12.5 percentage points in attendance, not in learning, and the note does not show that the format caused it. Mara rejects her neighbor's claim that online learners only half participate; she supports a hybrid option if the discussion is made accessible. Leon accepts the attendance figures but questions whether we can deliver the option reliably now. No source asks for immediate funding.\n\nThe $960 was the pilot's cost with free equipment. The next course is projected at $1,200, above the $1,100 limit, and that still leaves out unpaid preparation. I recommend asking for a revised plan within $1,100, with named staff, before any money is committed.\n\nThe most important changes are about learning and money. The pilot measured attendance, not learning, and approving $1,200 would break a limit that the committee cannot exceed."
+      ],
+      "explanation": "Засчитывается, если исправлены все ошибки: посещаемость вместо знаний и пункты вместо процентов, слова соседа отделены от Мары, Леон принимает цифры и не отрицает пользу, никто не просит немедленных денег, $960 — прошлый пилот, а $1,200 — выше предела, неоплаченная подготовка — тоже ресурс. Две главные правки можно выбрать другие, если объяснено, чем они важны для решения.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    }
+  ]
+}

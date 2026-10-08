@@ -1,0 +1,318 @@
+{
+  "id": "path-implicature",
+  "title": "Он не сказал «нет»: что сказано, а что ты додумал",
+  "subtitle": "Ответ без да и нет → проверка отменой → слово слабее ожидаемого → вежливое американское «нет» → допущение в вопросе → когда переспросить",
+  "level": "C2",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Понимать, что стоит за ответом без «да» и «нет» — “I have an early flight” («скорее всего, не приду»), “Let me get back to you” («пока не обещаю»), — замечать допущение, спрятанное в вопросе, и проверять свой вывод, когда от него зависит дело.",
+  "formula": "сказано → что я достроил? → проверка: можно отменить без противоречия? → намёк · важно → переспроси о сути с вариантами · в пересказе: He didn't say no, but he probably…",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-irony",
+    "path-reading-inference",
+    "path-hedging",
+    "research-question-response"
+  ],
+  "recycles": [
+    "path-reading-inference"
+  ],
+  "teaches": [
+    "намёк (подтекст) — вывод, который слушатель достраивает из сказанного и ситуации, а говорящий на это рассчитывает; не ирония: слова правдивы",
+    "проверка отменой: I have an early flight, but I can come for an hour — без противоречия, значит «не приду» было намёком",
+    "слово слабее ожидаемого: some → не все, OK → так себе, possible → не likely; рекомендация, которая молчит о главном",
+    "вежливое американское «нет»: I'll think about it · Let me get back to you · That might be tricky · I'm not sure that's going to work · Maybe another time · I'd love to, but…",
+    "We should grab coffee sometime — часто вежливость; всерьёз — с временем и местом",
+    "свой отказ: тёплое начало + причина + вариант: I'd love to, but I'm working on Saturday. Maybe next weekend?",
+    "допущение в вопросе (stop, again, still, why, when): Why did you ignore my email? — сначала снять: I didn't ignore it…; не прятать упрёк: Did you get a chance to…?",
+    "переспросить о сути с вариантами: Just to make sure I understand: does that mean…, or…? · So should I take that as a no for now?",
+    "пересказ: сказанное и вывод раздельно — He didn't say no, but he probably can't come; не переспрашивать вежливость (How are you?)",
+    "слова: refuse, vendor, reschedule, a stretch, run it by"
+  ],
+  "sources": [
+    {
+      "title": "Stanford Encyclopedia of Philosophy · Implicature",
+      "url": "https://plato.stanford.edu/entries/implicature/",
+      "notes": "Сверено: пример Грайса с рекомендательным письмом, где хвалят только английский и посещаемость, — сообщает, что кандидат слаб; разговорный вывод можно отменить (Some athletes smoke — indeed, all do); some обычно наводит на «не все», потому что не выбрано более сильное all; Have you cheated again? заранее считает, что раньше обманывал."
+    },
+    {
+      "title": "MIT International Students Office · American Friendship",
+      "url": "https://iso.mit.edu/americanisms/american-friendship",
+      "notes": "Сверено: американцы могут сказать Let's get coffee!, не имея в виду план; кто всерьёз — предложит время и место; проверить — предложить их самому; Sure! иногда говорят, чтобы не отказывать прямо, и потом не возвращаются к разговору. Отсюда раздел о вежливом «нет» и приглашениях без даты."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Что сказано → что ты достроил → как проверить",
+    "why": "Ты зовёшь коллегу на ужин сегодня в восемь. Он отвечает про рейс. Его слова, твой вывод и твой вопрос — три разные вещи.",
+    "items": [
+      {
+        "label": "Сказано",
+        "en": "I have an early flight tomorrow.",
+        "ru": "Завтра у меня ранний рейс.",
+        "note": "Только факт о рейсе."
+      },
+      {
+        "label": "Достроено",
+        "en": "He probably can't come tonight.",
+        "ru": "Скорее всего, сегодня он не придёт.",
+        "note": "Твой вывод. Его можно отменить."
+      },
+      {
+        "label": "Проверка",
+        "en": "So should I count you out, or can you stop by for an hour?",
+        "ru": "Значит, тебя не ждать — или заглянешь на часок?",
+        "note": "Вопрос о сути с двумя вариантами."
+      }
+    ],
+    "footnote": "Если он ответит “I can stop by for an hour”, он себе не противоречит: «не приду» было только выводом.",
+    "focus": [
+      "early flight",
+      "probably",
+      "or can you"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что значит ответ без «да» и «нет»",
+      "body": "Ты зовёшь коллегу на ужин в восемь. Он отвечает: “I have an early flight tomorrow.” Он не сказал «нет». Он сообщил факт о рейсе. Но ты понимаешь: скорее всего, он не придёт. Этот вывод достроил ты — из факта и ситуации. И говорящий рассчитывал, что ты его достроишь.\n\nТакой смысл называют подтекстом, или намёком. Это не ирония из прошлого урока: там слова говорили обратное. Здесь слова правдивы, а ответ — в том, о чём человек промолчал.\n\nПроверка: может ли говорящий добавить фразу, которая отменит твой вывод, и не противоречить себе? “I have an early flight, but I can come for an hour.” — звучит нормально. Значит, «не приду» было намёком, а не сказанным. А “I have an early flight, but I don't have a flight” — бессмыслица: сказанное отменить нельзя.\n\nЧитать текст между строк ты учился в уроке о чтении. Здесь то же в живом разговоре, где человек намекает нарочно."
+    },
+    {
+      "title": "Слово слабее ожидаемого — тоже сообщение",
+      "body": "“Some of the guests left early.” Буквально: часть гостей ушла рано. Но слушатель понимает: не все. Если бы ушли все, говорящий сказал бы all. Выбрал слово слабее — значит, сильное не подходит. Этот вывод тоже отменяется: “Some of them left early — actually, all of them did.”\n\nТак работают пары слов: some — all, good — great, possible — likely, warm — hot, I like it — I love it. “The food was OK” о ресторане, куда тебя пригласили, значит «так себе».\n\nИзвестный пример — рекомендательное письмо. О кандидате на работу аналитика написано только: “He was always on time, and his handwriting is very neat.” От письма ждут главного — как он работал. Автор промолчал о главном, и это сообщение: рекомендация слабая.\n\nГраница: вывод держится на ожиданиях. Если тебя спросили только «он приходил вовремя?», ответ “He was always on time” — просто ответ, без подтекста."
+    },
+    {
+      "title": "Американское вежливое «нет»",
+      "body": "Американцы часто отказывают, не произнося no. Обычно «скорее нет» значат: I'll think about it. Let me get back to you — «я вам сообщу», то есть пока не обещаю. That might be tricky — «это может быть сложно». I'm not sure that's going to work. Maybe another time. I'd love to, but… — «я бы с радостью, но…» и причина.\n\nОтдельный случай — приглашение без даты. “We should grab coffee sometime!” часто значит «приятно было увидеться», а не план. Гид для иностранных студентов MIT советует: кто зовёт всерьёз, тот предложит время и место. Хочешь проверить — предложи их сам и посмотри, ответит ли человек.\n\nОбратная сторона. Прямое “No, I don't want to” по-английски звучит резче, чем по-русски «Нет, не хочу». Вежливый отказ строят так: тёплое начало, причина, иногда другой вариант. I'd love to, but I'm working on Saturday. Maybe next weekend?"
+    },
+    {
+      "title": "Допущение, спрятанное в вопросе",
+      "body": "Некоторые вопросы заранее считают что-то правдой. “Have you stopped missing deadlines?” Любой ответ — yes или no — признаёт, что ты срывал сроки. Это допущение, и спрятано оно в слове stopped. Такие допущения часто несут слова stop, again, still, why, when. “Why did you ignore my email?” уже решил, что ты письмо проигнорировал. “When will you send the report?” — что ты его пришлёшь.\n\nПроверка: сделай фразу отрицательной. “She didn't stop smoking” — всё равно ясно, что она курила. Допущение остаётся и при отрицании, поэтому его легко пропустить.\n\nЕсли допущение неверно, сначала сними его, потом отвечай: “I didn't ignore it. I was out of the office until Monday.” Спокойно, без обиды: человек мог просто не знать.\n\nИ сам не прячь упрёк в вопросе. Вместо “Why didn't you call the client?” спроси: “Did you get a chance to call the client?”"
+    },
+    {
+      "title": "Когда переспросить, а когда нет",
+      "body": "Твой вывод из намёка — догадка. В пересказе для других подавай его как догадку: “He didn't say no, but he probably can't come.” Не пиши в отчёте “The bank refused”, если банк ответил “We'll need more time to review your application.”\n\nПереспрашивай, когда от вывода зависят деньги, сроки или решение «да или нет». Спрашивай о сути и давай варианты, чтобы человеку было легко ответить: “Just to make sure I understand: does that mean Friday doesn't work, or would a later time help?” Или короче: “So should I take that as a no for now?”\n\nНе переспрашивай там, где подтекст — просто вежливость. “How are you?” в лифте не просит рассказа о здоровье. “We should grab coffee sometime” не требует уточнения, если тебе самому это не нужно.\n\nИ помни границу: не каждый ответ — намёк. Иногда “I have an early flight” — просто факт, и человек всё равно придёт."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I'd love to, but I'm working on Saturday.",
+      "ru": "Я бы с радостью, но в субботу я работаю.",
+      "why": "Вежливый отказ: тёплое начало и причина, без no."
+    },
+    {
+      "en": "Some of the reviewers liked it.",
+      "ru": "Некоторым рецензентам понравилось.",
+      "why": "Слушатель поймёт «не всем»: иначе сказали бы all."
+    },
+    {
+      "en": "Let me get back to you on that.",
+      "ru": "Я вам об этом сообщу.",
+      "why": "Обычно: пока не обещаю. «Да» здесь нет."
+    },
+    {
+      "en": "I didn't ignore your email. I was out until Monday.",
+      "ru": "Я не игнорировал ваше письмо. Меня не было до понедельника.",
+      "why": "Сначала снято допущение вопроса, потом ответ."
+    },
+    {
+      "en": "Did you get a chance to call the client?",
+      "ru": "Ты успел позвонить клиенту?",
+      "why": "Тот же вопрос без спрятанного упрёка — в отличие от Why didn't you…?"
+    },
+    {
+      "en": "Just to make sure I understand: does that mean Friday doesn't work?",
+      "ru": "Уточню: значит, пятница не подходит?",
+      "why": "Проверка вывода, когда от него зависит дело."
+    },
+    {
+      "en": "He didn't say no, but he probably can't come.",
+      "ru": "Он не сказал «нет», но, скорее всего, не сможет прийти.",
+      "why": "Пересказ: сказанное и твой вывод разделены."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты спрашиваешь соседку: “Can you come to the building meeting at 7?” Она отвечает: “I have to pick up my kids at 6:30.” Напиши мужу одну-две фразы: что она, вероятно, имела в виду и чего она не сказала.",
+      "context": "pick up — забрать.",
+      "guidance": {
+        "title": "Сказанное и достроенное — по отдельности",
+        "body": "Сначала скажи свой вывод с probably, потом — чего человек прямо не говорил. Так ясно, где факт, а где догадка.",
+        "example": "Tom is on call this weekend, so he probably won't make it to the party. He didn't actually say no, though.",
+        "translation": "Том на дежурстве в выходные, так что на вечеринку он, скорее всего, не придёт. Правда, прямо он не отказался."
+      },
+      "hint": "Начни так: She probably… Потом: but she didn't…",
+      "answers": [
+        "She probably can't come to the meeting, but she didn't say no directly.",
+        "She has to pick up her kids at 6:30, so she probably can't make it. She didn't actually say no, though.",
+        "She probably won't come, although she didn't refuse directly."
+      ],
+      "explanation": "Засчитывается, если есть вывод с probably (can't come, won't make it) и отметка, что прямого отказа не было. Без probably пересказ выдаёт догадку за её слова."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет в отчёте: “Some of the customers complained about the new app.” Ты знаешь, что пожаловались все 40 клиентов. Допиши к его фразе продолжение, которое отменяет вывод «не все», — без противоречия.",
+      "context": "complain — жаловаться.",
+      "guidance": {
+        "title": "Намёк можно отменить",
+        "body": "Слово слабее, some, наводит на мысль «не все». Это вывод, а не сказанное, поэтому его можно снять продолжением с in fact или actually.",
+        "example": "Some of the tickets sold out — in fact, all of them did.",
+        "translation": "Часть билетов распродали — точнее, все."
+      },
+      "hint": "Начни так: … — in fact, …",
+      "answers": [
+        "Some of the customers complained about the new app — in fact, all 40 of them did.",
+        "Some of the customers complained about the new app; actually, all 40 did.",
+        "Some of the customers complained about the new app. In fact, every one of them did."
+      ],
+      "explanation": "Противоречия нет: «некоторые» не исключает «все», это только вывод слушателя. В настоящем отчёте лучше сразу написать точно: All 40 customers complained."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Руководитель просит тебя оценить рекомендацию кандидата в аналитики. В письме только одна фраза: “Alex was always on time, and he was very polite to everyone.” Напиши руководителю две фразы: что письмо, вероятно, сообщает и почему ты так думаешь.",
+      "context": "analyst — аналитик; reference letter — рекомендательное письмо.",
+      "guidance": {
+        "title": "Промолчал о главном — это тоже сообщение",
+        "body": "От рекомендации ждут главного: как человек работал. Если автор пишет только о мелочах, слушатель делает вывод из того, о чём он промолчал. Вывод держи осторожным.",
+        "example": "The review only mentions that the hotel had free parking. That suggests the rooms weren't great.",
+        "translation": "В отзыве сказано только, что у отеля бесплатная парковка. Это наводит на мысль, что номера были так себе."
+      },
+      "hint": "Что обычно хвалят в рекомендации аналитика? Есть ли это здесь? Начни так: The letter suggests…",
+      "answers": [
+        "The letter suggests that the writer can't say much about Alex's actual work. A reference for an analyst is expected to describe his skills and results, and this one only mentions being on time and polite.",
+        "This is probably a weak reference. The writer praises only punctuality and manners and says nothing about his analysis, so we should ask for another reference or call the writer."
+      ],
+      "explanation": "Засчитывается, если сказано, что рекомендация, вероятно, слабая или о работе ничего не сообщает, и объяснено почему: от письма ждут оценки работы, а её нет. Хорошо, если вывод осторожный (suggests, probably)."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг зовёт в субботу помочь с переездом, а у твоей мамы в этот день день рождения. Откажи вежливо, по-американски, без слова no, и предложи другой вариант: «Я бы с радостью, но в субботу у мамы день рождения. Может, помогу в воскресенье утром?»",
+      "context": "birthday — день рождения.",
+      "guidance": {
+        "title": "Вежливое «нет»: тепло, причина, вариант",
+        "body": "Прямое No, I can't звучит по-английски резче, чем по-русски. Начни с тёплой фразы, назови причину и, если можешь, предложи другое.",
+        "example": "I wish I could, but I have a dentist appointment. How about next week?",
+        "translation": "Хотел бы, но я записан к зубному. Может, на следующей неделе?"
+      },
+      "hint": "Начни так: I'd love to, but… «У мамы день рождения» — it's my mom's birthday. Предложение: Could I help…?",
+      "answers": [
+        "I'd love to, but it's my mom's birthday on Saturday. Could I help on Sunday morning instead?",
+        "I'd love to, but Saturday is my mom's birthday. Maybe I can help on Sunday morning?",
+        "I'd love to help, but it's my mom's birthday on Saturday. How about Sunday morning?",
+        "I'd love to, but it's my mom's birthday Saturday. Can I help Sunday morning?"
+      ],
+      "explanation": "I'd love to, but… — тёплое начало, причина — день рождения мамы, вариант — воскресенье утром. По-американски mom, а не mum. Saturday без on — обычный разговорный вариант."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Начальница пишет: “Why did you skip the client call this morning?” На деле звонок перенесли на четверг, и тебе пришло новое приглашение. Напиши ответ: сначала сними допущение, потом сообщи факт.",
+      "context": "skip — пропустить; reschedule — перенести.",
+      "guidance": {
+        "title": "Сначала сними допущение",
+        "body": "Вопрос с why уже считает, что ты это сделал. Если это неправда, начни с короткого спокойного «нет» по сути, а потом дай факт.",
+        "example": "“Why did you cancel the order?” “I didn't cancel it. The supplier did, because the item is out of stock.”",
+        "translation": "— Почему ты отменил заказ? — Я его не отменял. Его отменил поставщик: товара нет на складе."
+      },
+      "hint": "Начни так: I didn't skip it…",
+      "answers": [
+        "I didn't skip it: the call was moved to Thursday. I got an updated invitation yesterday.",
+        "I didn't skip the call. It was rescheduled for Thursday, and I have the new invite.",
+        "Actually, I didn't miss it. The client moved the call to Thursday."
+      ],
+      "explanation": "Засчитывается, если ответ начинается со снятия допущения (I didn't skip / miss it), а потом есть факт о переносе. Тон ровный: начальница могла не знать о переносе."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Клиент на звонке говорит: “That price might be a little hard for us.” От ответа зависит сделка. Задай уточняющий вопрос: проверь, что цена не подходит, и предложи вариант, чтобы клиенту было легко ответить.",
+      "context": "package — пакет услуг.",
+      "guidance": {
+        "title": "Проверь вывод, предложив варианты",
+        "body": "Не спрашивай «Это отказ?». Назови свой вывод в форме вопроса и дай два варианта ответа — тогда собеседнику не придётся говорить резкое «нет».",
+        "example": "So should I take that as a no on the second phone, or would a cheaper model work?",
+        "translation": "Значит, второй телефон не берёте — или подойдёт модель подешевле?"
+      },
+      "hint": "Начни так: Just to make sure I understand: …",
+      "answers": [
+        "Just to make sure I understand: is the price the main problem, or would a smaller package work for you?",
+        "So is this price a deal-breaker for you, or should we look at a smaller package?",
+        "Just to check: does that mean this price doesn't work for you, or could we find a package that fits your budget?"
+      ],
+      "explanation": "Засчитывается, если вопрос называет вывод (цена — проблема) и даёт вариант (smaller package, другой бюджет). Is that a no? звучит слишком резко: клиенту придётся отказать прямо."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о чтении между строк. В протоколе встречи коллега записал: “The vendor refused to lower the price.” На встрече поставщик сказал: “We'll have to see what we can do.” Перепиши запись: отдельно — что поставщик сказал, отдельно — что из этого следует и чего мы пока не знаем.",
+      "context": "vendor — поставщик; minutes — протокол встречи.",
+      "guidance": {
+        "title": "Вспоминаем: сказано, следует, неизвестно",
+        "body": "Как в уроке о чтении, раздели три вещи: что сказано прямо, какой вывод можно сделать и чего мы пока не знаем. Чужой намёк — не цитата.",
+        "example": "The landlord said, “I'll look into it.” He didn't promise a repair, and we don't know when he'll reply.",
+        "translation": "Хозяин сказал: «Я разберусь». Ремонт он не обещал, и мы не знаем, когда он ответит."
+      },
+      "hint": "Отказал ли поставщик прямо? Пообещал ли? Начни так: The vendor said, “We'll have to see what we can do.”",
+      "answers": [
+        "The vendor said, “We'll have to see what we can do.” They didn't agree to lower the price, but they didn't refuse either. We don't know yet whether they will offer a discount.",
+        "The vendor said they would have to see what they could do. This is not a refusal or a promise; it's still unclear whether they will lower the price."
+      ],
+      "explanation": "Засчитывается, если есть точные слова поставщика (цитатой или пересказом), сказано, что это ни отказ, ни согласие, и названо неизвестное: снизят ли цену. Refused выдаёт вывод за сказанное."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Новый коллега из Японии, Кэндзи, пишет тебе: “How do I know when Americans mean no? Yesterday my manager said ‘Let me get back to you’ about my vacation request, and I thought it was a yes.” Ответь ему письмом на 200–300 слов. Что должно быть: что, скорее всего, значила фраза менеджера и чего она не значила; две-три другие фразы, которые обычно значат «скорее нет»; как отличить настоящее приглашение на кофе от вежливости; вопрос со скрытым допущением и как на него отвечать; готовая фраза, чтобы вежливо уточнить у менеджера про отпуск; когда уточнять не нужно.",
+      "context": "",
+      "hint": "План: “Let me get back to you” usually means… → Other phrases… → Coffee invitations… → Questions that assume… → What you could ask your manager… → When not to ask…",
+      "answers": [
+        "Hi Kenji,\n\nGood question, and you're not the only one who finds this confusing.\n\n“Let me get back to you” usually means “I can't say yes right now.” It isn't a no, but it isn't a yes either. Your manager may need to check the schedule or ask someone else. So I wouldn't book anything yet.\n\nA few other phrases often mean “probably not”: “I'll think about it,” “That might be tricky,” and “I'm not sure that's going to work.” People use them because a direct “no” sounds harsh in English.\n\nInvitations can be confusing too. If someone says, “We should grab coffee sometime!” without a day or a place, it's usually just a friendly way to end a conversation. If they mean it, they'll suggest a time. If you want to know, suggest one yourself and see if they follow up.\n\nAlso watch out for questions that assume something. “Why did you miss the meeting?” assumes you missed it. If that isn't true, say so calmly first: “I didn't miss it, it was moved to Thursday,” and then explain.\n\nFor your vacation, you could write to your manager in a day or two: “Just to follow up on my vacation request: do you think those dates will work, or should I look at different ones?” That makes it easy for her to give you a clear answer.\n\nYou don't need to check everything, though. “How are you?” in the hallway is just a greeting, and you can simply say, “Good, thanks. You?”\n\nHope this helps!\nAnna"
+      ],
+      "explanation": "Засчитывается, если объяснено, что Let me get back to you — ни да, ни нет; есть две-три фразы «скорее нет», признак настоящего приглашения (время и место), пример вопроса с допущением и ответа на него, готовая фраза-уточнение про отпуск с вариантами и случай, когда уточнять не нужно."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 2–3 минуты о случае, когда тебе отказали без слова «нет» (или придумай такой случай). Что должно быть: что ты спросил и что ответили; что ты понял и почему; был ли вывод верным и как это выяснилось; что бы ты сказал теперь, чтобы проверить; как ты сам вежливо отказываешь по-английски — один пример.",
+      "context": "",
+      "hint": "Начни так: Last year I asked… Переходы: The answer was… / I took it to mean… / It turned out… / Now I would ask… / When I have to say no myself…",
+      "answers": [
+        "Last year, I asked a landlord if he could lower the rent for an apartment by a hundred dollars. He didn't say no. He said, “That might be tricky, but let me talk to the owner.”\n\nI took it to mean “probably yes.” I thought, he's going to talk to the owner, so there's a chance. I even stopped looking at other apartments for a few days.\n\nIt turned out I was wrong. A week later, I hadn't heard anything, so I called him. He said the owner wanted the full price, and another person had already applied. If I had understood “That might be tricky” correctly, I would have kept looking.\n\nLooking back, “That might be tricky” was the real answer. He was being polite. “Let me talk to the owner” didn't promise anything; it just ended the conversation nicely.\n\nNow I would check right away, and I'd give him an easy way to answer. Something like, “Just to make sure I understand: is a lower rent possible, or should I plan on the full price?” And I'd ask when I could expect an answer.\n\nWhen I have to say no myself, I try to do it the same polite way, but clearly. For example, if a coworker asks me to cover his shift, I say, “I'd love to help, but I already have plans that day. Maybe next time?” It's friendly, there's a reason, and nobody has to guess what I mean."
+      ],
+      "explanation": "Засчитывается, если есть вопрос и ответ без «нет», твой вывод и почему, чем всё закончилось, фраза-проверка с вариантами и пример своего вежливого отказа с причиной. 2–3 минуты — примерно 250–350 слов."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй запись звонка для команды (120–170 слов): в ней намёки поданы как обещания, и в конце есть вопрос со скрытым упрёком. Что клиент сказал на звонке: “The new design looks interesting.” — “We'd need to run it by our legal team.” — “March might be a stretch.” — “Let's touch base after the holidays.”\n\nЧерновик записи: “Great call! The client loved the new design and approved it. Legal is just a formality. They agreed to launch in March. Next step: they will sign after the holidays. Also, why did the design team send the files so late again?”",
+      "context": "run it by — показать на согласование; a stretch — с натяжкой, вряд ли получится; legal team — юристы; touch base — коротко связаться.",
+      "hint": "Проверь каждую фразу записи: клиент это сказал или ты это достроил? Что значит March might be a stretch? Какое допущение в вопросе про дизайнеров?",
+      "answers": [
+        "Call recap\n\nThe client called the new design “interesting.” They did not approve it. Before they can decide, their legal team needs to review it, so approval is not certain yet.\n\nOn timing, they said that March “might be a stretch.” This probably means a March launch is unlikely, so we should not plan on it until they confirm a date.\n\nThe agreed next step is to touch base after the holidays. They did not commit to signing then.\n\nOpen questions: When will their legal review be finished? What launch date do they think is realistic?\n\nI suggest we send them a short email this week asking about both. Separately, I'd like to check the timeline for the design files with the design team so we can plan the next round better."
+      ],
+      "explanation": "Засчитывается, если убраны все необоснованные утверждения: «loved and approved», «legal is just a formality», «agreed to March», «will sign»; если сказанное клиентом передано точно, а выводы помечены (probably, not certain) и названы открытые вопросы. Вопрос «why… so late again?» заменён нейтральной фразой без допущения."
+    }
+  ],
+  "keyRule": {
+    "rule": "Ответ без «да» и «нет» — тоже ответ. Если от него зависит дело — переспроси.",
+    "example": "I have an early flight. — У меня ранний рейс (скорее всего: не приду).",
+    "check": "Может ли человек добавить «но приду» и не противоречить себе? Значит, это намёк, а не «нет»."
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "id": "path-deduction",
+  "title": "Must, might, can’t: догадка по признакам",
+  "subtitle": "Вижу признак → уверен: must → не уверен: might → уверен, что нет: can’t",
+  "level": "B1",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Сказать, насколько ты уверен в догадке: «Она, должно быть, дома — машина у дома», «Может быть, она в магазине», «Это не может быть Джейк: он в Чикаго».",
+  "formula": "She must be home. → She might be home. → She might not be home. → She can't be home.",
+  "keyRule": {
+    "rule": "Уверен по признакам — must. Не уверен — might. Уверен, что нет, — can’t.",
+    "example": "Her car is outside. She must be home. — Её машина у дома. Она, должно быть, дома.",
+    "check": "Уверен, что её нет дома? Тогда can’t, а не mustn’t: She can’t be home."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-obligation",
+    "path-future-simple",
+    "path-present-perfect-continuous"
+  ],
+  "recycles": [
+    "path-present-perfect-continuous",
+    "path-obligation"
+  ],
+  "teaches": [
+    "must be — уверенная догадка по признакам («должно быть, наверняка»), а не обязанность",
+    "might be (may be, could be) — «может быть», одна из версий",
+    "can’t be — уверен, что нет; mustn’t для догадки не годится — это запрет",
+    "might not be — «может, и нет» ≠ can’t be — «точно нет»",
+    "после must, might, can’t — глагол без to: must be, might know; can be для догадки не говорят",
+    "догадка о том, что происходит сейчас: must be + -ing (He must be driving)",
+    "признак + вывод: Her coat is here, so she must be in the office",
+    "сочувствие: You must be tired! That must be hard."
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Modals: deductions about the present",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/modals-deductions-about-present",
+      "notes": "Сверено: must — уверен, что это правда; might, may, could — возможно, но не уверен (may чуть официальнее); can’t — уверен, что это невозможно; после них глагол без to."
+    },
+    {
+      "title": "VOA Learning English · Everyday Grammar: May, Might, Must — Modals of Certainty",
+      "url": "https://learningenglish.voanews.com/a/everyday-grammar-may-might-must-modals-certainty/2887387.html",
+      "notes": "Сверена шкала уверенности: must — почти уверен, may/might/could — примерно наполовину, простое утверждение без модального глагола — знаю точно. Must have / might have для прошлого — не в этом уроке."
+    },
+    {
+      "title": "VOA Learning English · Ask a Teacher: Must and Have To",
+      "url": "https://learningenglish.voanews.com/a/ask-a-teacher-must-and-have-to/4686883.html",
+      "notes": "Сверено американское употребление: в разговоре must обычно значит «очень вероятно», а обязанность чаще выражают have to — must в этом значении звучит официально."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Насколько я уверен, что она дома",
+    "why": "Признаки одни и те же — меняется только то, насколько ты уверен. Если знаешь точно, модальное слово не нужно: She is home.",
+    "items": [
+      {
+        "label": "Уверен, что да",
+        "en": "Her car is outside. She must be home.",
+        "ru": "Её машина у дома. Она, должно быть, дома.",
+        "note": "Признак сильный — must."
+      },
+      {
+        "label": "Может быть, да",
+        "en": "The light is on. She might be home.",
+        "ru": "Свет горит. Может быть, она дома.",
+        "note": "Свет могли просто оставить — might."
+      },
+      {
+        "label": "Может быть, нет",
+        "en": "She isn't answering. She might not be home.",
+        "ru": "Она не отвечает. Может, её нет дома.",
+        "note": "Не уверен, что нет, — might not."
+      },
+      {
+        "label": "Уверен, что нет",
+        "en": "I just saw her at work. She can't be home.",
+        "ru": "Я только что видел её на работе. Дома её быть не может.",
+        "note": "Признак исключает версию — can’t."
+      }
+    ],
+    "footnote": "Must здесь не «обязана быть дома». И не путай: mustn't — «нельзя», для догадки «точно нет» говорят can't.",
+    "focus": [
+      "must be",
+      "might be",
+      "might not be",
+      "can't be"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Must, который не значит «должен»",
+      "body": "Ты подходишь к дому подруги. В окне горит свет. Ты не знаешь точно, дома ли она, но гадаешь по признакам. Если признак один, честнее сказать She might be home — может быть, она дома: свет могли просто оставить. А если горит свет, играет музыка и её машина у подъезда, ты почти уверен: She must be home — она, должно быть, дома.\n\nВ уроке об обязанностях must был правилом на табличке: You must wear a helmet. Здесь must — не правило, а догадка: «должно быть», «наверняка». Американцы в разговоре используют must чаще всего именно так, а об обязанности говорят have to.\n\nКак отличить: правило — о том, что человек обязан сделать. Догадка — о том, что, видимо, правда сейчас. Обычно это must be: must be home, must be tired."
+    },
+    {
+      "title": "Три ответа: must, might, can’t",
+      "body": "Must — уверен, что да: признаки сильные. The kitchen light is on. Dad must be up — на кухне горит свет, папа, должно быть, уже встал.\n\nMight — может быть: одна из версий, есть и другие. She might be at the store — может, она в магазине. Вместо might можно сказать may (чуть официальнее) или could: It could be the wind — может, это ветер.\n\nCan’t — уверен, что нет. That can’t be Jake. He’s in Chicago this week — это не может быть Джейк, он на этой неделе в Чикаго.\n\nПосле всех трёх — глагол без to и без -s: she must be, he might know. Must to be — ошибка. А если знаешь точно, догадка не нужна: She is home."
+    },
+    {
+      "title": "Might not и can’t: «может, и нет» и «точно нет»",
+      "body": "Сравни. Tom might not be at work — может, Тома нет на работе: ты не уверен. Tom can’t be at work — Тома точно нет на работе: например, ты знаешь, что он сегодня в отпуске.\n\nДля «точно нет» не говори mustn’t. Mustn’t значит «нельзя»: You mustn’t park here — здесь нельзя парковаться. Tom mustn’t be at work прозвучит как «Тому запрещено быть на работе».\n\nИ ещё одна ловушка. По-русски «это может быть Том» — и догадка, и возможность. По-английски для догадки can не берут: It can be Tom — ошибка. Говори It might be Tom или It could be Tom. Can в догадке бывает только с not: It can’t be Tom."
+    },
+    {
+      "title": "Догадка о том, что происходит прямо сейчас",
+      "body": "Иногда ты гадаешь не о том, где человек, а о том, что он делает в эту минуту. Тогда после must, might или can’t ставь be + -ing, как в present continuous.\n\nThe music upstairs is really loud. The neighbors must be having a party — наверху очень громко играет музыка, у соседей, наверное, вечеринка. They might be waiting outside — может, они ждут на улице. She can’t be sleeping — the light is on — она не может спать, свет горит.\n\nЭтот урок — только о настоящем. Догадки о прошлом («он, наверное, опоздал вчера») строятся иначе — must have…, это отдельный урок уровня B2."
+    },
+    {
+      "title": "Назови признак — и умей посочувствовать",
+      "body": "Сила слова должна совпадать с силой признака. Скажи, на что ты опираешься: Her coat is here, so she must be in the office — её куртка здесь, значит, она в офисе. Один слабый признак — might, а не must. Появился новый факт — меняй догадку.\n\nУ американцев must ещё и обычный способ посочувствовать. Друг говорит, что работал двенадцать часов. Ответ: You must be tired! — «ты, наверное, устал!». Подруга рассказывает о переезде с тремя детьми: That must be hard — «тяжело, наверное». Это не холодный вывод, а «я понимаю, каково тебе»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "There are three empty cups on his desk. He must be really busy.",
+      "ru": "У него на столе три пустые чашки. Он, должно быть, очень занят.",
+      "why": "Признак назван первым, вывод — с must. Это догадка, а не обязанность."
+    },
+    {
+      "en": "I'm not sure where the remote is. It might be under the couch.",
+      "ru": "Не знаю, где пульт. Может, он под диваном.",
+      "why": "Говорящий не уверен — might. Remote — пульт, couch — диван."
+    },
+    {
+      "en": "That can't be the right address. This building is a bank.",
+      "ru": "Это не может быть правильный адрес. В этом здании банк.",
+      "why": "Факт исключает версию — can’t. Mustn’t здесь значило бы «нельзя»."
+    },
+    {
+      "en": "You must wear a seat belt. — You must be new here.",
+      "ru": "Ты обязан пристегнуться. — Ты, наверное, здесь новенький.",
+      "why": "Одно слово, два смысла. Первое — правило. Второе — догадка: о том, что, видимо, правда."
+    },
+    {
+      "en": "She might not know about the meeting. Let's text her.",
+      "ru": "Может, она не знает о встрече. Давай ей напишем.",
+      "why": "Might not — «может, и не знает». Can’t know значило бы «точно не может знать»."
+    },
+    {
+      "en": "They must be having dinner. Their phones are off.",
+      "ru": "Они, наверное, ужинают. Телефоны у них выключены.",
+      "why": "Догадка о том, что происходит сейчас: must be + -ing."
+    },
+    {
+      "en": "You just moved with three kids? That must be hard.",
+      "ru": "Вы только что переехали с тремя детьми? Тяжело, наверное.",
+      "why": "Must здесь — сочувствие: «понимаю, каково тебе»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, где Анна. Ответь: «Её ключи и сумка на столе. Она, должно быть, в здании».",
+      "context": "keys — ключи; bag — сумка; in the building — в здании.",
+      "guidance": {
+        "title": "Уверенная догадка — must be",
+        "body": "Сначала признак — обычной фразой. Потом вывод: must be + где человек. Must здесь не «обязана», а «наверняка».",
+        "example": "The TV is on, and his shoes are by the door. He must be home.",
+        "translation": "Телевизор работает, и его обувь у двери. Он, должно быть, дома."
+      },
+      "hint": "Начни так: Her keys and bag are…",
+      "answers": [
+        "Her keys and bag are on the desk. She must be in the building.",
+        "Her keys and her bag are on the desk. She must be in the building.",
+        "Her keys and bag are on the table. She must be in the building.",
+        "Her keys and bag are on her desk. She must be in the building.",
+        "Her keys and bag are on the desk, so she must be in the building."
+      ],
+      "explanation": "Два признака — уверенный вывод с must be. Стол в офисе — desk, обеденный — table; подходят оба. So перед выводом тоже хорошо."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, где Сэм. Ответь: «Не знаю. Может быть, он в спортзале».",
+      "context": "gym — спортзал.",
+      "guidance": {
+        "title": "Не уверен — might be",
+        "body": "Признаков нет или они слабые — ставь might: это одна из версий. Тот же смысл дают may и could.",
+        "example": "I don't know. She might be at the library.",
+        "translation": "Не знаю. Может, она в библиотеке."
+      },
+      "hint": "Начни так: I don't know. He…",
+      "answers": [
+        "I don't know. He might be at the gym.",
+        "I don't know. He may be at the gym.",
+        "I don't know. He could be at the gym.",
+        "I'm not sure. He might be at the gym.",
+        "I do not know. He might be at the gym.",
+        "I don't know. Maybe he's at the gym."
+      ],
+      "explanation": "Might, may и could здесь значат одно: «может быть». Maybe he's at the gym тоже верно. He must be at the gym было бы слишком уверенно: признаков нет."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Кто-то в чате пишет: «Смотри, это Том на фото с сегодняшнего праздника!» Ответь: «Это не может быть Том. Он сейчас в Канаде».",
+      "context": "Canada — Канада.",
+      "guidance": {
+        "title": "Уверен, что нет, — can’t be",
+        "body": "Факт исключает версию — can’t be. Не mustn’t: mustn’t значит «нельзя».",
+        "example": "That can't be my bus. Mine is number 12.",
+        "translation": "Это не может быть мой автобус. Мой — двенадцатый."
+      },
+      "hint": "Начни так: That…",
+      "answers": [
+        "That can't be Tom. He's in Canada now.",
+        "That can't be Tom. He is in Canada right now.",
+        "That cannot be Tom. He's in Canada now.",
+        "That can't be Tom because he's in Canada now.",
+        "It can't be Tom. He's in Canada now."
+      ],
+      "explanation": "Can't be — «точно не может быть», и сразу факт, который это доказывает. Cannot — полная форма, в разговоре говорят can't. That mustn't be Tom значило бы «Тому нельзя быть»."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты звонишь Ане, она не отвечает. Скажи две вещи. Сначала, пока не уверен: «Может, её нет дома». Потом её мама говорит, что Аня час назад уехала в аэропорт. Скажи: «Дома её быть не может. Она час назад уехала в аэропорт».",
+      "context": "leave for the airport → left for the airport — уехать в аэропорт; an hour ago — час назад.",
+      "guidance": {
+        "title": "Might not — «может, и нет», can’t — «точно нет»",
+        "body": "Пока ты не уверен — might not. Когда появился факт, который исключает версию, — can’t.",
+        "example": "He might not be at work. — I just saw him at the store. He can't be at work.",
+        "translation": "Может, его нет на работе. — Я только что видел его в магазине. На работе он быть не может."
+      },
+      "hint": "Первая фраза: She might not… Вторая: She can't…",
+      "answers": [
+        "She might not be home. She can't be home. She left for the airport an hour ago.",
+        "She might not be at home. She can't be at home. She left for the airport an hour ago.",
+        "She may not be home. She can't be home because she left for the airport an hour ago.",
+        "She might not be home. She can't be home, because she left for the airport an hour ago."
+      ],
+      "explanation": "Might not оставляет место сомнению, can't — нет: появился факт. Home и at home здесь значат одно. She mustn't be home — ошибка: это «ей нельзя быть дома»."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь Максу третий раз, он не отвечает. Скажи жене: «Он не берёт трубку. Наверное, он за рулём».",
+      "context": "answer the phone — брать трубку; drive — вести машину, быть за рулём.",
+      "guidance": {
+        "title": "Догадка о «сейчас» — must be + -ing",
+        "body": "Гадаешь, что человек делает в эту минуту, — после must ставь be + -ing, как в present continuous.",
+        "example": "She isn't answering. She must be sleeping.",
+        "translation": "Она не отвечает. Наверное, спит."
+      },
+      "hint": "Начни так: He isn't… Вторая фраза: He must be…",
+      "answers": [
+        "He isn't answering. He must be driving.",
+        "He isn't answering the phone. He must be driving.",
+        "He's not answering. He must be driving.",
+        "He isn't picking up. He must be driving.",
+        "He is not answering his phone. He must be driving."
+      ],
+      "explanation": "Must be driving — догадка о том, что происходит сейчас. He must drive значило бы «он обязан водить». Pick up — тоже «взять трубку»."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В сообщении коллеги три ошибки с догадками. Перепиши его правильно: “He must to be at home. It can be his brother at the door. She mustn't be at work — I saw her at the store.”",
+      "context": "",
+      "guidance": {
+        "title": "Три частые ошибки",
+        "body": "Проверь каждую фразу: нет ли to после must; не стоит ли can в догадке «может быть»; не стоит ли mustn’t вместо «точно нет».",
+        "example": "It might be the mail carrier. It can't be Jake — he's at school.",
+        "translation": "Может, это почтальон. Это не может быть Джейк — он в школе."
+      },
+      "hint": "Какое слово значит «нельзя», а какое — «точно нет»?",
+      "answers": [
+        "He must be at home. It might be his brother at the door. She can't be at work — I saw her at the store.",
+        "He must be home. It could be his brother at the door. She can't be at work. I saw her at the store.",
+        "He must be at home. It may be his brother at the door. She can't be at work; I saw her at the store."
+      ],
+      "explanation": "Must to be → must be: после must нет to. Can be → might, could или may be: can для догадки «может быть» не используют. Mustn't → can't: mustn't значит «нельзя»."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега жалуется: “I've been fixing this printer for two hours.” Ответь ему: «Ты чинишь его уже два часа? Ты, наверное, устал! Может, он просто сломан».",
+      "context": "fix — чинить; tired — уставший; just — просто; broken — сломан.",
+      "guidance": {
+        "title": "Вспоминаем: have been + -ing — это признак",
+        "body": "Вспоминаем present perfect continuous: have been + -ing — действие идёт уже долго. Это и есть признак. Из него — сочувствие с must и догадка с might.",
+        "example": "You've been running for an hour? You must be hungry!",
+        "translation": "Ты бегаешь уже час? Ты, наверное, голодный!"
+      },
+      "hint": "Начни так: You've been fixing it…",
+      "answers": [
+        "You've been fixing it for two hours? You must be tired! It might just be broken.",
+        "You've been fixing it for two hours? You must be tired! Maybe it's just broken.",
+        "You have been fixing it for two hours? You must be tired! It might just be broken.",
+        "You've been fixing it for two hours? You must be tired! It may just be broken.",
+        "You've been fixing it for two hours? You must be tired! It could just be broken."
+      ],
+      "explanation": "You've been fixing — долгий процесс до сейчас, отсюда сочувствие You must be tired! Про принтер ты не уверен — might, may или could. Maybe it's just broken тоже звучит естественно."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты пришёл в офис в 9 a.m., а там никого. Что ты видишь: на двери записка “Team meeting — Room 4”; на кухне горячий кофе; у стола начальницы стоит её чемодан; телефон Марка лежит на его столе. Напиши опаздывающему коллеге сообщение на 60–100 слов. Что должно быть: что ты видишь; одна уверенная догадка с must и её признак; одна-две версии с might; одна версия с can’t и почему; что ты сейчас сделаешь.",
+      "context": "note — записка; suitcase — чемодан; boss — начальница.",
+      "hint": "Каждая догадка — с признаком: …, so they must… / … might… / … can't…, because…",
+      "answers": [
+        "Hi Dan! The office is empty, but there's a note on the door: \"Team meeting — Room 4.\" The coffee in the kitchen is still hot, so everyone must be in Room 4 right now. Our boss's suitcase is by her desk. She might be leaving for a trip after the meeting. Mark's phone is on his desk, so he can't be far. He might be getting more coffee. I'm going to Room 4 now. See you there!"
+      ],
+      "explanation": "Засчитывается, если у каждой догадки есть признак: must — для сильного (записка и горячий кофе), might — для слабого (чемодан), can't — для того, что исключено фактом. Знаешь точно — пиши без модального слова: The office is empty."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Друг прислал фото с подписью “Guess where I am!” На фото: пляж, на песке полотенце, книга и бутылка воды; вдалеке пальмы; солнце; сегодня понедельник, и на работе друга сегодня нет. Запиши ему голосовой ответ на 30–60 секунд. Что должно быть: что ты видишь; где он, должно быть, и почему; одна-две версии с might (где именно, с кем, чем занят прямо сейчас); что точно не так — с can’t; одна фраза с чувством (You must be…).",
+      "context": "guess — угадай; towel — полотенце; palm trees — пальмы.",
+      "hint": "Начни так: I see a beach and palm trees, so you must be…",
+      "answers": [
+        "Hmm, I see sand, a towel, and palm trees, so you must be at the beach somewhere warm. It might be Florida, or you might be in Mexico. You can't be at work today, that's for sure! There's a book on the towel, but nobody is reading it, so you might be swimming right now. You must be having a great time. I'm so jealous!"
+      ],
+      "explanation": "Засчитывается, если есть must с признаком, хотя бы одна версия с might, одна с can't и фраза-чувство вроде You must be having fun. Догадка о «сейчас» — must/might be + -ing. Расшифровка покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ответь коротко на три сообщения друзей — каждый раз одной фразой-реакцией с must и, если хочешь, вопросом. 1) “I just finished a twelve-hour shift.” 2) “My flight was canceled, and I'm stuck at the airport.” 3) “I got the job!”",
+      "context": "shift — смена; canceled — отменён; stuck — застрял.",
+      "hint": "Как человек себя чувствует? You must be… / That must be…",
+      "answers": [
+        "1) You must be exhausted! Go get some sleep. 2) Oh no, that must be so frustrating. How long do you have to wait? 3) Congratulations! You must be so happy!",
+        "1) Wow, you must be really tired. 2) That must be so annoying! Are you OK? 3) That's great news! You must be thrilled."
+      ],
+      "explanation": "Засчитывается, если каждая реакция — догадка о чувстве друга с must: You must be tired / happy, That must be annoying. Это не приказ, а «понимаю, каково тебе». Exhausted — очень уставший, frustrating — «обидно, бесит», thrilled — «в восторге»."
+    }
+  ]
+}

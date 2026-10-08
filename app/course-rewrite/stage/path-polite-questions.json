@@ -8,11 +8,17 @@
   "minutes": 40,
   "goal": "Вежливо спросить незнакомого человека о месте, времени или цене и попросить об услуге, не ломая порядок слов.",
   "formula": "Where is the station? → Do you know where the station is? → Could you tell me what time it opens?",
+  "keyRule": {
+    "rule": "После Do you know или Could you tell me — порядок как в обычной фразе, без do.",
+    "example": "Where is the bank? → Do you know where the bank is? — Вы не знаете, где банк?",
+    "check": "Could you tell me what time does it open? — так нельзя: does лишний."
+  },
   "guided": true,
   "introSections": 5,
   "prerequisites": [
     "path-questions-basic",
-    "path-requests-can"
+    "path-requests-can",
+    "path-reported-speech"
   ],
   "recycles": [
     "path-questions-basic",
@@ -87,7 +93,7 @@
   "sections": [
     {
       "title": "Почему «Не подскажете, где вокзал?» — это не Tell me, please",
-      "body": "Ты в незнакомом городе и ищешь вокзал. По-русски ты не скажешь прохожему голое «Где вокзал?», а начнёшь мягче: «Извините, не подскажете, где вокзал?». Американцы делают то же: Excuse me, do you know where the station is? Excuse me — «извините», так привлекают внимание. Ты не требуешь ответа, а спрашиваешь, может ли человек помочь.\n\nНе переводи дословно «Скажите, пожалуйста»: Tell me, please звучит по-английски как приказ. Начни с Excuse me и вопроса Do you know…? или Could you tell me…?\n\nПосмотри на конец фразы: where the station is, а не where is the station. Вопрос уже задан словами Do you know, поэтому дальше идёт обычный порядок, как в утверждении: the station is. Ты видел это в уроке о пересказе: She asked where I lived. Разница одна: здесь ты спрашиваешь сам и сейчас, поэтому время не сдвигается."
+      "body": "Ты в незнакомом городе и ищешь вокзал. По-русски ты не скажешь прохожему голое «Где вокзал?», а начнёшь мягче: «Извините, не подскажете, где вокзал?». Американцы делают то же: Excuse me, do you know where the station is? Excuse me — «извините», так привлекают внимание.\n\nНе переводи дословно русскую просьбу «Подскажите, пожалуйста»: Tell me, please звучит по-английски как приказ. Начни с Excuse me и вопроса Do you know…? или Could you tell me…?\n\nПосмотри на конец фразы: where the station is, а не where is the station. Вопрос уже задан словами Do you know, поэтому дальше идёт обычный порядок, как в утверждении: the station is. Ты видел это в уроке о пересказе: She asked where I lived. Разница одна: здесь ты спрашиваешь сам и сейчас, поэтому время не сдвигается."
     },
     {
       "title": "Do, does и did внутри исчезают",

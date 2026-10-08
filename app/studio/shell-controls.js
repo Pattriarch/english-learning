@@ -9,8 +9,8 @@ export function bindShellControls() {
   const more = document.getElementById('mobile-more'), content = document.querySelector('.content');
   const mobileNav = document.querySelector('.mobile-nav');
   const narrow = window.matchMedia('(max-width: 900px)');
-  // In the «Кино» design the full section list is a drawer at every width.
-  const drawer = () => narrow.matches || document.documentElement.dataset.design === 'kino';
+  // In the «Кадр» design the full section list is a drawer at every width.
+  const drawer = () => narrow.matches || document.documentElement.dataset.design === 'kadr';
   let opener = menu;
   function setOpen(open) {
     sidebar.classList.toggle('open', open);
@@ -20,11 +20,11 @@ export function bindShellControls() {
     mobileNav.inert = open;
     document.body.classList.toggle('menu-is-open', open);
     menu.setAttribute('aria-expanded', String(open));
-    more.setAttribute('aria-expanded', String(open));
+    more?.setAttribute('aria-expanded', String(open));
     if (open) close.focus(); else if (opener.isConnected && opener.getClientRects().length) opener.focus({preventScroll:true});
     else if (document.activeElement === close) document.getElementById('main').focus({preventScroll:true});
   }
-  [menu, more].forEach(button => button.onclick = () => {opener = button; setOpen(!sidebar.classList.contains('open'));});
+  [menu, more].filter(Boolean).forEach(button => button.onclick = () => {opener = button; setOpen(!sidebar.classList.contains('open'));});
   close.onclick = () => setOpen(false);
   backdrop.onclick = () => setOpen(false);
   sidebar.onclick = event => {if (event.target.closest('a[href^="#/"]') && sidebar.classList.contains('open')) setOpen(false);};

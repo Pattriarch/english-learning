@@ -1,0 +1,338 @@
+{
+  "id": "extended-c1-adjective-scope",
+  "title": "Подписи на выставке: запятая между описаниями и «старый» друг",
+  "subtitle": "Два отдельных качества — запятая → качество + вид вещи — без запятой → когда запятая меняет смысл → old: возраст или давность → когда лучше сказать фразой",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Писать подписи и описания, которые читают только одним способом: «простая, прочная скамья» (a plain, sturdy bench), но «компактный медицинский шкаф» (a compact medical cabinet) без запятой; «давний друг», а не «пожилой» (a longtime friend).",
+  "formula": "A, B + вещь: оба качества отдельно (plain and sturdy) → A + [вид вещи]: без запятой (compact medical cabinet) → запятая меняет смысл: decorative tile ≠ unusual, decorative tile → old friend = давний, old bridge = старый → неясно — назови альтернативу или скажи фразой",
+  "keyRule": {
+    "rule": "Можно вставить and — ставь запятую. Нельзя — запятой нет.",
+    "example": "a plain, sturdy bench — простая, прочная скамья; a compact medical cabinet — компактный медицинский шкаф.",
+    "check": "Compact and medical cabinet — звучит нормально? Нет — значит, без запятой."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-adjectives-ed-ing",
+    "path-relative-advanced"
+  ],
+  "recycles": [
+    "path-relative-advanced",
+    "path-adjectives-ed-ing"
+  ],
+  "teaches": [
+    "два отдельных качества — запятая: a plain, sturdy bench; перед самой вещью запятой нет",
+    "две проверки: вставить and и поменять местами; обе прошли — запятая",
+    "качество + вид вещи (для чего, как работает, из чего) — без запятой: a compact medical cabinet, a heavy wooden box",
+    "запятая может менять смысл: an unusual decorative tile (вид вещи) ≠ an unusual, decorative tile (две оценки)",
+    "old friend — давний друг; old bridge — старый мост; elderly — пожилой; longtime — давний; former — бывший",
+    "выбор среди похожих: the blue folding screen, not the green one — альтернатива названа",
+    "неясная группа → добавка с who / which или отдельная фраза",
+    "слова: plain, sturdy, compact, decorative, folding screen, cabinet, caption, handout"
+  ],
+  "sources": [
+    {
+      "title": "EnglishPlus · Coordinate Adjectives",
+      "url": "https://englishplus.com/grammar/00000072.htm",
+      "notes": "Сверено правило двух проверок: можно ли заменить запятую на and и можно ли поменять описания местами без смены смысла; если хотя бы одна не проходит, описания идут в постоянном порядке и запятой нет (red fire truck, former secret agent)."
+    },
+    {
+      "title": "Spines · Coordinate Adjectives",
+      "url": "https://spines.com/coordinate-adjectives/",
+      "notes": "Сверено: примеры без запятой (a large ceramic bowl, three wooden chairs) и случаи, где запятая меняет смысл (a charming eccentric uncle ≠ a charming, eccentric uncle); совет прочитать вслух, если проверки расходятся. Отсюда раздел о decorative tile."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Где нужна запятая",
+    "why": "Слева — два отдельных качества. В середине — качество и вид вещи. Справа — та же группа с запятой уже звучит как две оценки.",
+    "items": [
+      {
+        "label": "Два качества — запятая",
+        "en": "a plain, sturdy bench",
+        "ru": "простая, прочная скамья",
+        "note": "Plain and sturdy — звучит нормально."
+      },
+      {
+        "label": "Качество + вид вещи",
+        "en": "a compact medical cabinet",
+        "ru": "компактный медицинский шкаф",
+        "note": "Medical cabinet — название вида вещи."
+      },
+      {
+        "label": "Запятая меняет смысл",
+        "en": "an unusual, decorative tile",
+        "ru": "необычная и к тому же красивая плитка",
+        "note": "С запятой decorative — уже похвала, а не вид плитки."
+      }
+    ],
+    "focus": [
+      "plain, sturdy",
+      "medical cabinet",
+      "unusual, decorative"
+    ],
+    "footnote": "Между последним описанием и самой вещью запятой нет никогда."
+  },
+  "sections": [
+    {
+      "title": "Два отдельных качества: a plain, sturdy bench",
+      "body": "Представь: ты помогаешь небольшой выставке писать подписи (captions) к вещам. Посетитель читает подпись за три секунды и переспросить не может. Поэтому важно, к чему относится каждое описание.\n\nA plain, sturdy bench — «простая, прочная скамья». Plain (простая, без украшений) и sturdy (прочная) — два отдельных качества. О каждом можно сказать по отдельности: скамья простая; скамья прочная. Такие слова разделяет запятая, как и в русском.\n\nДве проверки. Вставь and: a plain and sturdy bench — звучит нормально. Поменяй местами: a sturdy, plain bench — смысл тот же. Обе проверки прошли — ставь запятую.\n\nЗапятая стоит только между описаниями. Перед самой вещью её нет: a plain, sturdy, bench — ошибка."
+    },
+    {
+      "title": "Качество и вид вещи: a compact medical cabinet",
+      "body": "Medical cabinet — «медицинский шкаф»: это название вида вещи, как «кухонный стол» или «складной стул». Compact (компактный, небольшой) описывает уже этот медицинский шкаф. Слова вложены друг в друга: compact [medical cabinet]. Запятой нет.\n\nПроверки это показывают: a compact and medical cabinet звучит странно, a medical compact cabinet — тоже.\n\nТак ведут себя слова, которые отвечают на вопрос «какого вида вещь»: для чего она (kitchen, medical, reading), как работает (electric, folding — складной), из чего сделана (wooden, metal). С A2 ты помнишь порядок: мнение → размер → возраст → цвет → откуда → материал: a nice old wooden table. Вид вещи стоит в самом конце, у слова-вещи. Между описаниями из разных ступенек этого порядка запятых обычно нет: a heavy wooden box."
+    },
+    {
+      "title": "Одна запятая меняет смысл: decorative tile",
+      "body": "Иногда возможны обе формы, но значат они разное. An unusual decorative tile — «необычная декоративная плитка». Здесь decorative tile — вид вещи: плитка, которую вешают на стену для украшения. Unusual говорит, что именно эта настенная плитка необычная.\n\nAn unusual, decorative tile с запятой читатель поймёт иначе: плитка необычная и к тому же красивая. Decorative стало оценкой, а не видом вещи.\n\nПо-русски обе версии переводятся одинаково, поэтому русская фраза здесь не подскажет. Спроси себя: я называю вид вещи или хвалю её? Если боишься, что поймут не так, скажи словами: a tile made to hang on a wall — «плитка, сделанная для стены»."
+    },
+    {
+      "title": "Old friend — старый или давний?",
+      "body": "An old friend чаще всего значит «давний друг»: вы дружите много лет. Самому другу может быть тридцать. An old bridge — «старый мост»: мосту много лет. Слово стоит на том же месте, а описывает разное: в первом случае — дружбу, во втором — сам мост.\n\nЕсли нужно вежливо сказать про возраст человека — elderly (пожилой). Если про давнюю дружбу без двусмысленности — longtime: a longtime friend. Former — «бывший»: a former coworker — бывший коллега, вы больше вместе не работаете.\n\nПо-русски «старый друг» так же двусмыслен, поэтому переводить слово в слово опасно. В подписи или в письме незнакомым людям лучше дать факт: Daniel, who has been my friend since grade school — Дэниел, мой друг ещё с начальной школы."
+    },
+    {
+      "title": "Когда короткой группы мало: назови другой вариант или скажи фразой",
+      "body": "Иногда описание выбирает вещь среди похожих: We chose the blue folding screen, not the green one. Folding screen (складная ширма) — вид вещи, blue отличает её от другой ширмы. Not the green one прямо называет, с чем сравниваем, и читатель понимает, что дело в цвете. One заменяет повтор screen, как that one из A2.\n\nЕсли группа из трёх-четырёх описаний становится неясной, разбей её. Вместо an old, unusual, decorative clay tile напиши: an old clay tile made for a wall. Its fish design is unusual. Добавка с who или which из урока о запятых тоже помогает: the cabinet, which was made for a clinic.\n\nГлавный вопрос редактора — не «где запятая», а «что поймёт читатель». Сначала реши, что хочешь сказать, потом выбирай запятую."
+    }
+  ],
+  "examples": [
+    {
+      "en": "She's a patient, friendly tutor.",
+      "ru": "Она терпеливый, доброжелательный репетитор.",
+      "why": "Два отдельных качества: patient and friendly тоже звучит нормально."
+    },
+    {
+      "en": "It was a long, narrow hallway.",
+      "ru": "Это был длинный, узкий коридор.",
+      "why": "Обе проверки проходят: long and narrow, a narrow, long hallway."
+    },
+    {
+      "en": "We bought an expensive electric heater.",
+      "ru": "Мы купили дорогой электрический обогреватель.",
+      "why": "Electric heater — вид прибора; expensive описывает его целиком, запятой нет."
+    },
+    {
+      "en": "He carried a heavy wooden box.",
+      "ru": "Он нёс тяжёлый деревянный ящик.",
+      "why": "Материал стоит у самой вещи; heavy and wooden звучит странно."
+    },
+    {
+      "en": "An old friend of mine is only thirty.",
+      "ru": "Моему давнему другу всего тридцать.",
+      "why": "Old говорит о давней дружбе, а не о возрасте."
+    },
+    {
+      "en": "The old bridge was built in 1890.",
+      "ru": "Старый мост построили в 1890 году.",
+      "why": "Здесь old — возраст самого моста."
+    },
+    {
+      "en": "Please use the side entrance, not the main one.",
+      "ru": "Пожалуйста, проходите через боковой вход, а не через главный.",
+      "why": "Другой вариант назван прямо; one заменяет повтор entrance."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Черновик подписей и заметки о вещах",
+      "kind": "reading",
+      "text": "Small Rooms exhibition — draft captions (for review)\n\n1. A plain, sturdy bench from a train station waiting room.\nNotes: flat seat, four thick legs, no carving or paint. The joints are still firm.\n\n2. An unusual decorative tile from a family workshop.\nNotes: square clay tile with a purple fish and tiny orange ladders. Two holes near the top edge: it was made to hang on a wall. The workshop also made plain floor tiles. Its other surviving designs mostly show leaves.\n\n3. A compact medical cabinet.\nNotes: narrow metal cabinet made for a clinic in the 1930s, with shallow shelves for supplies. It's 24 inches wide, much narrower than the clinic's other cabinets.\n\n4. Thanks to our old friend Daniel Ruiz for lending the wooden chair.\nNotes: Daniel is 34. He and Nina, the editor, have been friends since grade school.\n\n5. We selected the blue folding screen, not the green one.\nNotes: two folding screens, same height, three wooden panels each. The blue one matches the color of the opening panel, and that's why the team chose it. The blue screen has a straight top edge; the green one has a wavy top edge.",
+      "source": "Придумано для курса: выставка, люди и вещи вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Что сказали первые читатели",
+      "kind": "reading",
+      "text": "Comments from three test readers\n\nReader 1: “The fish tile — so the museum thinks it's pretty? And I guess you could put it on a floor, too.”\n\nReader 2: “Our old friend Daniel — I pictured a man in his eighties.”\n\nReader 3: “Someone wrote ‘compact, medical cabinet’ in the online version. The comma made me read it as two separate facts: it's compact, and it's medical. It sounds odd.”\n\nNote from Nina: Next week we're printing a black-and-white handout for a high school class visit. The students will only see a photo of the screen we selected, not the green one.",
+      "source": "Придумано для курса: отзывы и люди вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь подпись к фотографии в той же выставке. Переведи: «Длинный, узкий коридор вёл в читальный зал».",
+      "context": "hallway — коридор; lead to — вести к; reading room — читальный зал.",
+      "guidance": {
+        "title": "Два отдельных качества — запятая",
+        "body": "Коридор длинный, и коридор узкий: каждое качество верно само по себе. Между ними — запятая, перед hallway — нет.",
+        "example": "It was a cold, rainy morning.",
+        "translation": "Было холодное, дождливое утро."
+      },
+      "hint": "Начни так: A long, …",
+      "answers": [
+        "A long, narrow hallway led to the reading room.",
+        "A long and narrow hallway led to the reading room.",
+        "A long, narrow corridor led to the reading room.",
+        "A long, narrow hallway leads to the reading room.",
+        "The long, narrow hallway led to the reading room."
+      ],
+      "explanation": "Long и narrow — два отдельных качества, поэтому запятая или and. Перед hallway запятой нет. Reading room — вид комнаты, туда запятая тоже не нужна."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, что купили для холодной мастерской при выставке. Ответь: «Мы купили дорогой электрический обогреватель».",
+      "context": "heater — обогреватель.",
+      "guidance": {
+        "title": "Вид вещи стоит у самого слова — без запятой",
+        "body": "Electric heater — название вида прибора. Expensive описывает этот прибор целиком, поэтому запятой между ними нет.",
+        "example": "They have a small kitchen table.",
+        "translation": "У них маленький кухонный стол."
+      },
+      "hint": "Можно ли сказать expensive and electric heater?",
+      "answers": [
+        "We bought an expensive electric heater.",
+        "We've bought an expensive electric heater.",
+        "We have bought an expensive electric heater.",
+        "We got an expensive electric heater."
+      ],
+      "explanation": "Electric heater — вид прибора, expensive описывает его целиком. An expensive, electric heater звучало бы как две отдельные оценки, а expensive and electric — странно."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подпись к фото зала: «Тихий, светлый читальный зал на втором этаже».",
+      "context": "bright — светлый; floor — этаж.",
+      "guidance": {
+        "title": "Обе ситуации в одной группе",
+        "body": "Между двумя отдельными качествами — запятая. Между последним качеством и видом вещи — нет.",
+        "example": "A warm, friendly coffee shop near the station.",
+        "translation": "Тёплая, уютная кофейня у станции."
+      },
+      "hint": "Сколько запятых получится? Одна — где именно?",
+      "answers": [
+        "A quiet, bright reading room on the second floor.",
+        "A quiet and bright reading room on the second floor.",
+        "A bright, quiet reading room on the second floor.",
+        "The quiet, bright reading room on the second floor."
+      ],
+      "explanation": "Quiet и bright — отдельные качества, между ними запятая. Reading room — вид комнаты, перед ним запятой нет. Американский second floor — это русский второй этаж."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай подпись 2 и заметки к ней в M1. Нина спрашивает: “Should we add a comma after ‘unusual’?” Ответь ей 2–3 английскими предложениями: что значит decorative в этой подписи и что изменит запятая.",
+      "context": "",
+      "guidance": {
+        "title": "Вид вещи или похвала",
+        "body": "Проверь по заметкам: зачем сделали эту плитку? Если decorative — её назначение, запятая превратит его в оценку.",
+        "example": "Here “kitchen table” is the type of table, and “small” describes it. So there's no comma after “small.”",
+        "translation": "Здесь kitchen table — вид стола, а small его описывает. Поэтому после small запятой нет."
+      },
+      "hint": "Начни так: No. Here “decorative tile” is the type of object: …",
+      "answers": [
+        "No. Here “decorative tile” is the type of object: a tile made to hang on a wall. “Unusual” describes its fish design. With a comma, readers would see two opinions: the tile is unusual and pretty.",
+        "I wouldn't add a comma. “Decorative tile” names what the tile is for: wall display. A comma would make “decorative” sound like praise."
+      ],
+      "explanation": "Засчитывается, если сказано: decorative tile — вид вещи (для стены, это видно по двум отверстиям), unusual — про рисунок, а запятая сделала бы decorative оценкой. Можно предложить и фразу вместо группы: a tile made to hang on a wall."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем добавки с who. В подписи 4 из M1 читатели решили, что Дэниел пожилой (M2). Перепиши благодарность так, чтобы было ясно: ему 34, и они с Ниной дружат с начальной школы. Возраст можно не называть.",
+      "context": "lend — одолжить.",
+      "guidance": {
+        "title": "Вспоминаем: добавка с запятыми — факт вместо old",
+        "body": "Вспоминаем урок о запятых и who: добавка о человеке, которого уже назвали по имени, стоит между запятыми. Через неё и дай факт о дружбе.",
+        "example": "Thanks to Ana Lopez, who has worked with us since 2015, for the photos.",
+        "translation": "Спасибо Ане Лопес, которая работает с нами с 2015 года, за фотографии."
+      },
+      "hint": "Начни так: Thanks to Daniel Ruiz, who …",
+      "answers": [
+        "Thanks to Daniel Ruiz, who has been Nina's friend since grade school, for lending the wooden chair.",
+        "Thanks to Daniel Ruiz, who has been Nina's friend since grade school, for lending us the wooden chair.",
+        "Thanks to Daniel Ruiz, a longtime friend of Nina's, for lending the wooden chair.",
+        "Thanks to our longtime friend Daniel Ruiz for lending the wooden chair.",
+        "Thanks to Daniel Ruiz, Nina's friend since grade school, for lending the wooden chair."
+      ],
+      "explanation": "Добавка с who и запятыми сообщает факт, и о возрасте уже никто не думает. Longtime friend тоже снимает двусмысленность: это слово говорит только о давности дружбы."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем порядок описаний. Волонтёр прислал список вещей для онлайн-версии: “a compact, medical cabinet; a wooden old chair; a heavy, metal, box”. Исправь все три.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: возраст раньше материала, и запятые только между качествами",
+        "body": "С A2: мнение → размер → возраст → цвет → откуда → материал. Материал и вид вещи — у самого слова, без запятых.",
+        "example": "a small old leather bag",
+        "translation": "маленькая старая кожаная сумка"
+      },
+      "hint": "Какие из этих описаний — вид вещи или материал? Перед самой вещью бывает запятая?",
+      "answers": [
+        "a compact medical cabinet; an old wooden chair; a heavy metal box",
+        "a compact medical cabinet, an old wooden chair, a heavy metal box",
+        "A compact medical cabinet; an old wooden chair; a heavy metal box."
+      ],
+      "explanation": "Medical cabinet — вид вещи, запятая не нужна. Возраст идёт раньше материала: an old wooden chair; артикль меняется на an перед old. Metal — материал, у самой вещи; перед box запятой не бывает."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай подпись 5 в M1 и заметку Нины в M2. В чёрно-белой распечатке цвет не виден. Напиши подпись из двух предложений: как узнать выбранную ширму на фото и почему команда её выбрала.",
+      "context": "top edge — верхний край; straight — прямой; wavy — волнистый; opening panel — первый стенд выставки.",
+      "guidance": {
+        "title": "Как узнать и почему выбрали — две разные фразы",
+        "body": "Признак, по которому вещь узнают на фото, и причина выбора — разные вещи. Скажи о каждой отдельно; другой вариант можно назвать через not the… one.",
+        "example": "The chair in the photo has curved arms. We chose it, not the straight one, because it matches the desk.",
+        "translation": "У стула на фото изогнутые подлокотники. Мы выбрали его, а не прямой, потому что он подходит к столу."
+      },
+      "hint": "Что видно в чёрно-белом фото? А почему выбрали — из-за края или из-за цвета?",
+      "answers": [
+        "The folding screen in the photo has a straight top edge. We chose it because it's blue, which matches the opening panel.",
+        "The selected folding screen has a straight top edge. The team chose it, not the green one, because its blue color matches the opening panel."
+      ],
+      "explanation": "Засчитывается, если подпись помогает узнать ширму по видимому признаку (straight top edge) и отдельно называет настоящую причину выбора — цвет. Если написать, что выбрали из-за прямого края, это новый, неверный факт."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ответь Нине одним письмом на 150–250 слов по отзывам из M2. Что должно быть: для каждого из трёх отзывов — что читатель понял не так и почему; исправленные подписи для плитки, для Дэниела и для шкафа; подпись к ширме для чёрно-белой распечатки; один общий совет команде. Не добавляй вещам свойств, которых нет в M1: например, нельзя писать, что плитку можно класть на пол.",
+      "context": "",
+      "hint": "План: Hi Nina, → Reader 1 read “decorative” as… → Reader 2… → Reader 3… → New captions: … → For the handout… → In general, …",
+      "answers": [
+        "Hi Nina,\n\nI went through the test readers' comments. Here's what went wrong and what I suggest.\n\nReader 1 read “decorative” as praise and guessed the tile could go on a floor. In our caption, “decorative tile” is meant as the type of object: a tile made for a wall. New caption: “A clay tile made to hang on a wall. Its fish design is unusual for this workshop.” We have no information about using it on a floor, so I wouldn't mention floors at all.\n\nReader 2 thought Daniel was elderly because of “old friend.” New caption: “Thanks to Daniel Ruiz, who has been Nina's friend since grade school, for lending the wooden chair.”\n\nReader 3 is right about the comma. “Medical cabinet” is the type of cabinet, and “compact” describes it, so there should be no comma: “A compact medical cabinet, made for a clinic in the 1930s.”\n\nFor the black-and-white handout: “The folding screen in the photo has a straight top edge. We chose it because its blue color matches the opening panel.”\n\nIn general, if a short group of adjectives can be read two ways, let's use a full sentence instead.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если разобраны все три отзыва с причиной, даны четыре подписи (плитка, Дэниел, шкаф без запятой, ширма с отдельной причиной выбора), есть общий совет и нет новых свойств вещей. Подписи могут быть другими, если смысл тот же."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый волонтёр спрашивает: “How do you decide where to put commas between adjectives?” Объясни голосом 2–3 минуты на своих примерах, не из M1. Что должно быть: две проверки (and и перестановка); пример двух отдельных качеств; пример качества и вида вещи; пример, где запятая меняет смысл; случай с old; когда лучше сказать целой фразой.",
+      "context": "",
+      "hint": "Начни так: Good question. I use two quick tests. First, …",
+      "answers": [
+        "Good question. I use two quick tests. First, I try putting “and” between the adjectives. Second, I try switching them around. If both still sound natural and the meaning doesn't change, I use a comma. For example, “a warm, friendly welcome”: “warm and friendly” sounds fine, and “a friendly, warm welcome” means the same thing. So there's a comma.\n\nNow take “a cheap plastic chair.” “Plastic chair” is the kind of chair, and “cheap” describes that whole thing. “Cheap and plastic” sounds strange, so no comma.\n\nSometimes both versions are possible, but they mean different things. “A strong black coffee” is a black coffee that's strong. With a comma, it would sound like two separate opinions about the coffee. So I ask myself: am I naming a type of thing, or am I describing it?\n\nThen there's “old.” “An old customer” can mean an elderly customer or someone who has shopped with us for years. If it matters, I say it directly: “a customer who has shopped here for ten years.”\n\nAnd finally, if a group of adjectives still feels unclear, I don't fight with commas. I just write two short sentences. A caption should be read in one way only."
+      ],
+      "explanation": "Засчитывается, если речь звучит 2–3 минуты и в ней есть обе проверки, три своих примера разного вида, случай с old и совет написать фразу. Расшифровка покажет слова и запятые в примерах, но не оценит произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Библиотека просит проверить объявление. Факты: путеводитель (guide) написали в прошлом году, он об истории города, сам он не исторический документ; Ms. Park 45 лет, она работает в библиотеке двадцать лет. Черновик: “The library has an interesting, new, historical guide to the area. Ask our old, friendly, librarian, Ms. Park, to help you find it.” Перепиши объявление так, чтобы его поняли только одним способом.",
+      "context": "librarian — библиотекарь; local history — история города.",
+      "hint": "Что значит historical: «о прошлом» или «старинный»? Что читатель подумает про old?",
+      "answers": [
+        "The library has an interesting new guide to local history. Ask our friendly librarian, Ms. Park, who has worked here for twenty years, to help you find it.",
+        "The library has an interesting new guide to the history of our town. Ms. Park, our friendly librarian, has worked here for twenty years. Ask her to help you find it.",
+        "We have an interesting new guide to local history. Our friendly librarian, Ms. Park, who has worked at the library for twenty years, can help you find it."
+      ],
+      "explanation": "Засчитывается, если: historical guide заменено на guide to local history (тема, а не старинная книга); запятые внутри interesting new guide убраны; old заменено фактом о двадцати годах работы; лишняя запятая перед librarian убрана. Возраст Ms. Park в объявлении не нужен."
+    }
+  ]
+}

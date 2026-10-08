@@ -1,0 +1,406 @@
+{
+  "id": "extended-a1-order",
+  "title": "В кафе: заказать, узнать гарнир, поменять заказ",
+  "subtitle": "Закажи две позиции → ответь кассиру → спроси, что идёт к блюду → поправь заказ",
+  "level": "A1",
+  "group": "Полная практика навыков",
+  "units": "Авторский маршрут · A1",
+  "minutes": 35,
+  "goal": "Заказать у кассы еду и напиток, ответить на вопросы кассира, узнать, что идёт к блюду, и поменять заказ: «Хотя нет, можно вместо этого сок?», «Простите, чай, а не кофе».",
+  "formula": "Can I get a … and a …, please? → What comes with it? → Actually, can I get a … instead?",
+  "guided": true,
+  "introSections": 1,
+  "prerequisites": [
+    "path-requests-can",
+    "path-countability",
+    "path-articles-basic"
+  ],
+  "recycles": [
+    "path-requests-can",
+    "path-countability",
+    "path-articles-basic"
+  ],
+  "teaches": [
+    "Can I get a … and a …, please? — обычный заказ у кассы (то же, что Can I have …?)",
+    "a или an перед каждой порцией (a tea, an orange juice), some — для воды",
+    "вопросы кассира: What can I get you? Small or large? For here or to go? Anything else?",
+    "короткие ответы: Large, please. For here. / To go. That’s all, thanks.",
+    "гарнир: What comes with it? — It comes with fries or a salad. → A salad, please.",
+    "передумал: Actually, can I get … instead?",
+    "ошибка кассира: Sorry, a tea, not a coffee; готовая фраза I ordered …",
+    "слова: side — гарнир, fries — картошка фри, salad — салат, actually — хотя нет, instead — вместо этого"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · How to Order at an American Restaurant",
+      "url": "https://learningenglish.voanews.com/a/how-to-order-at-an-american-restaurant/4745533.html",
+      "notes": "Сверены фразы у кассы: Can I get a medium tea, please?, Do you want anything else with that?, Is that for here or to go? — To go, please / For here, thanks."
+    },
+    {
+      "title": "FluentU · How to Order Food in English",
+      "url": "https://www.fluentu.com/blog/english/how-to-order-food-in-english/",
+      "notes": "Статья американского автора. Сверены Can I get…, please? как обычный заказ, жалоба «this isn’t what I ordered» и просьба заменить одно блюдо другим."
+    },
+    {
+      "title": "Skyeng Magazine · Английский для бытовухи: как заказать кофе с собой",
+      "url": "https://skyeng.ru/magazine/anglijskij-dlya-bytovuhi-kak-zakazat-kofe-s-soboj/",
+      "notes": "Объяснение для русскоязычных: вопрос For here or to go?, короткий заказ «напиток + please», вопрос о размере."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Разговор у кассы: четыре хода",
+    "why": "Каждый ход — одна короткая фраза. Длинно объяснять кассиру ничего не нужно.",
+    "items": [
+      {
+        "label": "Заказ",
+        "en": "Can I get a cookie and a small coffee, please?",
+        "ru": "Можно печенье и маленький кофе, пожалуйста?",
+        "note": "Две позиции через and, перед каждой — a."
+      },
+      {
+        "label": "Ответ на вопрос",
+        "en": "To go, please.",
+        "ru": "С собой, пожалуйста.",
+        "note": "Отвечаем только на то, что спросили."
+      },
+      {
+        "label": "Что идёт к блюду",
+        "en": "What comes with it? — Fries or a salad.",
+        "ru": "Что к нему идёт? — Картошка фри или салат.",
+        "note": "Выбираешь одно: A salad, please."
+      },
+      {
+        "label": "Исправление",
+        "en": "Sorry, a muffin, not a cookie.",
+        "ru": "Простите, маффин, а не печенье.",
+        "note": "Сначала нужное, потом not и ошибка."
+      }
+    ],
+    "focus": [
+      "and",
+      "To go",
+      "comes with",
+      "not"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как заказать в американском кафе?",
+      "body": "В американском кафе обычно сначала подходишь к кассе и заказываешь, а потом ждёшь еду. Кассир спросит: What can I get you? — «Что вам предложить?»\n\nПросьбу Can I have …, please? ты знаешь из урока про can. У кассы американцы чаще говорят Can I get …, please? Смысл тот же: «Можно мне …?». Get здесь — «получить».\n\nДве позиции соедини словом and, а перед каждой поставь a или an: Can I get a muffin and a tea, please? A tea — одна порция, одна чашка. Можно и короче: A muffin and a tea, please. С please это тоже вежливо."
+    },
+    {
+      "title": "Что спросит кассир и как коротко ответить",
+      "body": "Small or large? — маленький или большой? Хватит одного слова: Large, please. For here or to go? — здесь или с собой? For here — здесь, to go — с собой. Anything else? — что-нибудь ещё? Если да, назови: Yes, some water, please. Если нет — That’s all, thanks: это всё, спасибо. Весь заказ заново повторять не нужно."
+    },
+    {
+      "title": "Что идёт к блюду: What comes with it?",
+      "body": "К сэндвичу или бургеру в Америке часто идёт гарнир — side: fries (картошка фри) или a salad (салат). В меню пишут with a side, а какой — не всегда. Спроси: What comes with it? — «Что к нему идёт?».\n\nCome with — «идти вместе с». Do в этом вопросе не нужен: what само стоит на месте того, что «идёт», как who в Who lives here?. Кассир ответит: It comes with fries or a salad. Выбери одно: A salad, please."
+    },
+    {
+      "title": "Передумал или перепутали: как поменять заказ",
+      "body": "Передумал, пока заказ не готов, — начни с Actually: «хотя нет, вообще-то». Дальше обычная просьба, а в конце instead — «вместо этого»: Actually, can I get a coffee instead?\n\nЕсли перепутал кассир, начни с Sorry или Excuse me — «простите». Потом назови, что нужно, затем not и ошибку: Sorry, a coffee, not a tea. Ещё одна готовая фраза: I ordered a coffee — «я заказывал кофе». Ordered — прошедшее время, пока запомни фразу целиком. Спорить не нужно."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Can I get a bagel and an orange juice, please?",
+      "ru": "Можно бейгл и апельсиновый сок, пожалуйста?",
+      "why": "Orange начинается с гласного звука — an; bagel — с согласного — a."
+    },
+    {
+      "en": "Can I get some milk, please?",
+      "ru": "Можно немного молока, пожалуйста?",
+      "why": "Молоко не считают поштучно, поэтому some, а не a."
+    },
+    {
+      "en": "For here, please.",
+      "ru": "Здесь, пожалуйста.",
+      "why": "Короткий ответ на For here or to go?, если будешь есть в кафе."
+    },
+    {
+      "en": "That's all, thanks.",
+      "ru": "Это всё, спасибо.",
+      "why": "Ответ на Anything else?, когда больше ничего не нужно."
+    },
+    {
+      "en": "What comes with the burger? — It comes with fries.",
+      "ru": "Что идёт к бургеру? — Картошка фри.",
+      "why": "У comes -s: речь об одном блюде, как she works."
+    },
+    {
+      "en": "Actually, can I get a large coffee instead?",
+      "ru": "Хотя нет, можно мне вместо этого большой кофе?",
+      "why": "Actually предупреждает, что заказ меняется; instead — «вместо прежнего»."
+    },
+    {
+      "en": "Excuse me, I ordered a large coffee.",
+      "ru": "Простите, я заказывал большой кофе.",
+      "why": "I ordered — готовое «я заказывал»; дальше — что именно."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Кассир встречает посетителя",
+      "kind": "dialogue",
+      "text": "Cashier: Hi there! Welcome to Maple Cup Café. What can I get you?",
+      "source": "Диалог написан для курса; кафе вымышленное"
+    },
+    {
+      "id": "m2",
+      "title": "Меню Maple Cup Café",
+      "kind": "reference",
+      "text": "MAPLE CUP CAFÉ\n\nDrinks: small / large\nCoffee: $2.50 / $3.50\nTea: $2.00 / $3.00\nOrange juice: $4.00 (one size)\nWater: free\n\nFood\nCheese sandwich (with a side): $6.50\nBagel: $3.50\nMuffin: $3.00\nCookie: $2.00",
+      "source": "Меню составлено для курса; цены условные"
+    },
+    {
+      "id": "m3",
+      "title": "Кассир уточняет заказ",
+      "kind": "dialogue",
+      "text": "Cashier: Sure! One cheese sandwich and one tea. Small or large tea? For here or to go? Anything else?",
+      "source": "Диалог написан для курса; кафе вымышленное"
+    },
+    {
+      "id": "m4",
+      "title": "Кассир повторяет заказ",
+      "kind": "dialogue",
+      "text": "Cashier: OK! So that's one cheese sandwich, one large coffee, and a cup of water, for here.",
+      "source": "Диалог написан для курса; кафе вымышленное"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Послушай M1: кассир спрашивает, что ты хочешь. Закажи сэндвич с сыром и чай одной фразой. cheese sandwich = сэндвич с сыром.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем Can I have …? — у кассы Can I get …?",
+        "body": "Вспоминаем просьбу из урока про can. У кассы её чаще говорят с get: Can I get …, please? Две позиции соедини словом and, а перед каждой поставь a или an.",
+        "example": "Can I get a bagel and a coffee, please?",
+        "translation": "Можно бейгл и кофе, пожалуйста?"
+      },
+      "hint": "Начни так: Can I get a cheese sandwich … Перед tea тоже нужно маленькое слово.",
+      "answers": [
+        "Can I get a cheese sandwich and a tea, please?",
+        "Can I get a cheese sandwich and a tea?",
+        "Can I have a cheese sandwich and a tea, please?",
+        "Can I have a cheese sandwich and a tea?",
+        "A cheese sandwich and a tea, please.",
+        "Could I get a cheese sandwich and a tea, please?",
+        "Could I have a cheese sandwich and a tea, please?"
+      ],
+      "explanation": "Одна просьба на две позиции: and соединяет их, a стоит перед каждой. Can I have… и короткое A cheese sandwich and a tea, please тоже вежливы.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Послушай M3. Ответь на первые два вопроса кассира: чай нужен большой, есть будешь здесь. Две короткие фразы.",
+      "context": "",
+      "guidance": {
+        "title": "Отвечай только на вопрос",
+        "body": "Кассир спрашивает коротко — отвечай так же: размер одним словом и please. Будешь есть в кафе — For here, берёшь еду с собой — To go.",
+        "example": "Small, please. To go.",
+        "translation": "Маленький, пожалуйста. С собой."
+      },
+      "hint": "Первый ответ — размер и please. Второй — здесь или с собой?",
+      "answers": [
+        "Large, please. For here.",
+        "Large, please. For here, please.",
+        "A large tea, please. For here.",
+        "Large. For here, please.",
+        "Large, please. It's for here."
+      ],
+      "explanation": "Large, please — ответ про размер, For here — «здесь». Повторять весь заказ не нужно.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Последний вопрос в M3 — Anything else? (что-нибудь ещё?). Попроси немного воды. В меню M2 вода бесплатная — free.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем some",
+        "body": "Вспоминаем урок про количество: воду не считают поштучно, поэтому some water — немного воды. Начни с Yes, дальше знакомая просьба.",
+        "example": "Yes, can I get some sugar, please?",
+        "translation": "Да, можно немного сахара, пожалуйста?"
+      },
+      "hint": "Начни так: Yes, can I get … Вода — штуками или веществом?",
+      "answers": [
+        "Yes, can I get some water, please?",
+        "Yes, can I have some water, please?",
+        "Can I get some water, please?",
+        "Can I have some water, please?",
+        "Yes, some water, please.",
+        "Some water, please.",
+        "Yes, can I get a cup of water, please?",
+        "Yes, can I have a cup of water, please?",
+        "Yes, can I get a water, please?"
+      ],
+      "explanation": "Some water: воду не считают по штукам. Можно и a cup of water — «стаканчик воды»: тогда считаем стаканчики. В кафе поймут и a water — одну порцию, как a tea.",
+      "materialIds": [
+        "m3",
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В меню M2 у сэндвича с сыром написано with a side — «с гарниром». Какой гарнир, не сказано. Спроси кассира: «Что к нему идёт?»",
+      "context": "",
+      "guidance": {
+        "title": "What comes with …? — без do",
+        "body": "Начни с What comes with, а в конце назови само блюдо — или замени его на it, раз кассир знает, о чём речь.",
+        "example": "What comes with the burger?",
+        "translation": "Что идёт к бургеру?"
+      },
+      "hint": "Начни так: What comes … В конце — it или the sandwich.",
+      "answers": [
+        "What comes with it?",
+        "What comes with the sandwich?",
+        "What comes with the cheese sandwich?",
+        "Sorry, what comes with it?",
+        "What does it come with?",
+        "What does the sandwich come with?",
+        "What's the side?"
+      ],
+      "explanation": "What comes with it? — «что к нему идёт?». What does it come with? тоже верно и звучит так же часто. Кассир ответит, например: It comes with fries or a salad.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Заказ ещё не готов, а ты передумал: вместо чая хочешь апельсиновый сок. Скажи кассиру: «Хотя нет, можно мне вместо этого апельсиновый сок?» actually = хотя нет, вообще-то; instead = вместо этого.",
+      "context": "",
+      "guidance": {
+        "title": "Передумал: Actually … instead",
+        "body": "Сначала Actually, потом знакомая просьба с новой вещью, а instead — в самый конец.",
+        "example": "Actually, can I get a muffin instead?",
+        "translation": "Хотя нет, можно мне вместо этого маффин?"
+      },
+      "hint": "Начни так: Actually, can I get … Перед orange — a или an?",
+      "answers": [
+        "Actually, can I get an orange juice instead?",
+        "Actually, can I have an orange juice instead?",
+        "Actually, could I get an orange juice instead?",
+        "Actually, can I get an orange juice instead of the tea?",
+        "Actually, can I get an orange juice instead of a tea?",
+        "Actually, can I get an orange juice?",
+        "Sorry, can I get an orange juice instead?",
+        "Actually, an orange juice instead, please."
+      ],
+      "explanation": "Actually предупреждает, что заказ меняется, instead — что сок вместо чая. Instead of the tea тоже верно. An — потому что orange начинается с гласного звука."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Послушай M4: кассир повторяет заказ. Он перепутал напиток — ты просил апельсиновый сок. Поправь его одной фразой.",
+      "context": "",
+      "guidance": {
+        "title": "Нужное, потом not и ошибка",
+        "body": "Сравни M4 со своим заказом. Что ты просил — до not, что перепутали — после.",
+        "example": "Sorry, a muffin, not a cookie.",
+        "translation": "Простите, маффин, а не печенье."
+      },
+      "hint": "Начни с Sorry. Что ты просил и что назвал кассир?",
+      "answers": [
+        "Sorry, an orange juice, not a coffee.",
+        "Sorry, an orange juice, not a large coffee.",
+        "Excuse me, an orange juice, not a coffee.",
+        "Sorry, I ordered an orange juice, not a coffee.",
+        "Excuse me, I ordered an orange juice, not a coffee.",
+        "Sorry, I ordered an orange juice.",
+        "Sorry, orange juice, not coffee."
+      ],
+      "explanation": "Сначала то, что нужно, потом not и ошибка — кассир сразу понимает, что заменить. Sorry, I ordered an orange juice — тоже верно.",
+      "materialIds": [
+        "m4"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг стоит за тобой в очереди и заказывает так: Can I get cheese sandwich and a orange juice, please? Кассир переспрашивает. Найди две ошибки и напиши фразу правильно.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем a и an",
+        "body": "Вспоминаем урок про a и an: перед каждой вещью, которую считают поштучно, стоит маленькое слово. Начинается следующее слово с гласного звука — an.",
+        "example": "Can I get a bagel and an apple, please?",
+        "translation": "Можно бейгл и яблоко, пожалуйста?"
+      },
+      "hint": "Перед sandwich чего-то не хватает. А с какого звука начинается orange?",
+      "answers": [
+        "Can I get a cheese sandwich and an orange juice, please?",
+        "Can I get a cheese sandwich and an orange juice?",
+        "Could I get a cheese sandwich and an orange juice, please?"
+      ],
+      "explanation": "A cheese sandwich — одна порция, нужно a. An orange juice — orange начинается с гласного звука."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Утро, ты спешишь на работу. Закажи вслух в Maple Cup Café две любые позиции из меню M2: назови размер напитка и скажи, что заказ с собой.",
+      "context": "bagel — бейгл, muffin — маффин, cookie — печенье, orange juice — апельсиновый сок.",
+      "hint": "Схема: Can I get a … and a small/large …, please? To go.",
+      "answers": [
+        "Can I get a bagel and a small coffee, please? To go.",
+        "Can I have a muffin and a large tea, please? To go, please."
+      ],
+      "explanation": "Засчитывается любой заказ из меню: две позиции через and, a или an перед каждой, размер напитка и to go.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты заказал маленький кофе, а бариста протягивает большой и говорит: Here’s your large coffee (вот ваш большой кофе). Напиши, как спокойно его поправишь.",
+      "context": "",
+      "hint": "Что ты заказывал и что тебе дают? Начни с Sorry или Excuse me.",
+      "answers": [
+        "Sorry, I ordered a small coffee, not a large coffee.",
+        "Excuse me, a small coffee, not a large coffee."
+      ],
+      "explanation": "Подходит любая вежливая фраза, где понятно, что нужно (small) и что перепутали (large). Sorry или Excuse me в начале смягчают исправление."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты берёшь обед у стойки Maple Cup Café. Напиши свои три реплики кассиру: закажи сэндвич с сыром и любой напиток, спроси, что идёт к сэндвичу, а когда кассир ответит It comes with fries or a salad, выбери гарнир.",
+      "context": "",
+      "hint": "Три реплики: заказ с and → вопрос с What comes … → выбор и please.",
+      "answers": [
+        "Can I get a cheese sandwich and a small coffee, please? What comes with the sandwich? A salad, please.",
+        "Hi! Can I get a cheese sandwich and a large tea, please? What comes with it? Fries, please."
+      ],
+      "explanation": "Засчитывается, если есть заказ из двух позиций через and, вопрос What comes with …? и короткий выбор гарнира с please.",
+      "materialIds": [
+        "m2"
+      ]
+    }
+  ],
+  "keyRule": {
+    "rule": "Назови вещи через and, перед каждой — a, в конце — please.",
+    "example": "A muffin and a tea, please. — Маффин и чай, пожалуйста.",
+    "check": "Дали не то — Sorry, a tea, not a coffee."
+  }
+}

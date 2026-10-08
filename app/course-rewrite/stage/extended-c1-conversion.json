@@ -1,0 +1,322 @@
+{
+  "id": "extended-c1-conversion",
+  "title": "Email me, chair the meeting: когда предмет становится действием",
+  "subtitle": "Одно слово — вещь и действие → роль видна по соседям → table понимают наоборот → словечко команды не для чужих",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Понимать и использовать глаголы, которые выглядят как существительные: email the file — «отправь файл по почте», chair the meeting — «веди встречу», shoulder the cost — «возьми расходы на себя». И замечать, когда короткий глагол сбивает читателя с толку, — тогда писать действие прямо: «We postponed discussion until Tuesday».",
+  "formula": "email / text + человек (без to) · chair a meeting · shoulder the cost · microwave the soup · table → discuss / postpone discussion until … · словечко команды → действие + предмет + срок",
+  "keyRule": {
+    "rule": "Короткий глагол из предмета хорош, если читатель точно знает действие; иначе назови действие словами.",
+    "example": "Email me the file. — Пришли мне файл по почте. Но вместо We'll table it — We'll postpone it until Tuesday. — Отложим до вторника.",
+    "check": "Поймёт ли человек вне команды, что именно ему сделать?"
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "path-word-formation",
+    "path-lexical-precision",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-word-formation",
+    "path-register-b2"
+  ],
+  "teaches": [
+    "конверсия — слово меняет роль (вещь → действие) без новой части: an email → email me",
+    "-ed, -s, -ing у такого глагола — обычные окончания: emailed, texted, chaired",
+    "роль по соседям: после will / could / to / please — действие, после a / the / my — вещь",
+    "email / text + человек без to: text me, email me the map = email the map to me",
+    "chair a meeting (не chair of), shoulder the cost / the responsibility, microwave the soup",
+    "table a proposal: в США — отложить, в Британии — внести на обсуждение; для смешанной команды — discuss / put on the agenda / postpone discussion until …",
+    "postponed discussion ≠ rejected: перенос разговора — не отказ и не одобрение",
+    "словечко команды (Pebble the plan) — не ошибка, но чужому читателю назови действие, предмет и срок",
+    "слова: briefing, estimate, canopy, pickup, task board, agenda"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia · Conversion (word formation)",
+      "url": "https://en.wikipedia.org/wiki/Conversion_(word_formation)",
+      "notes": "Сверено: конверсия (zero derivation) — новое слово другой части речи без изменения формы и без суффикса; среди обычных примеров глаголов из существительных — chair, mail, host, access; новые «оглаголенные» слова сначала часто вызывают возражения, многие потом становятся нормой (impact). Отсюда раздел о том, что новинка — не ошибка, но не всегда понятна."
+    },
+    {
+      "title": "Language Log · Drifting tables (Mark Liberman)",
+      "url": "https://languagelog.ldc.upenn.edu/nll/?p=8496",
+      "notes": "Сверено: в британском употреблении table a proposal — официально внести на обсуждение, в американском — отложить рассмотрение, часто без срока; OED помечает американский смысл как «orig. and chiefly U.S.». Отсюда правило: для смешанной аудитории писать discuss или postpone discussion until …"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Email — письмо, email me — «напиши мне»: одно слово, две роли",
+      "body": "Волонтёры из Чикаго готовят праздник для своего района. В команде есть американцы, британка и внешний партнёр. Они пишут друг другу коротко: Email me the map. Text me when you finish. Asha will chair the briefing.\n\nВо всех трёх фразах слово, которое ты знаешь как вещь, работает как действие. An email — письмо, email me — «пришли мне письмом». A text — сообщение, text me — «напиши мне». The chair — председатель, chair the briefing — «вести планёрку». Это называют конверсией: слово меняет роль, а вид у него остаётся тот же.\n\nВ уроке о семьях слов ты делал вещь из действия с добавкой: decide → decision. Здесь ничего не добавляется. Окончания -ed, -s, -ing — обычные окончания глагола: She emailed the map — она отправила карту. Они не делают глагол из вещи: глагол уже есть.\n\nПо-русски такой глагол часто переводится целым выражением: microwave the soup — «разогреть суп в микроволновке», shoulder the cost — «взять расходы на себя». Длинный перевод не значит, что в английском это не глагол.\n\nПредел правила: не каждое существительное так работает. Email и text есть в любом словаре. You can coffee with us (в значении «выпить кофе с нами») по-английски не говорят: нужно have coffee with us."
+    },
+    {
+      "title": "Как понять, что слово — действие, и что ставить после него",
+      "body": "Смотри на соседей слева. После will, could, can, to, please или в начале просьбы стоит действие: Could you chair the briefing? После a, the, my, this стоит вещь: a chair with a broken arm — стул со сломанным подлокотником.\n\nПотом смотри направо: на кого или на что направлено действие. Email и text берут человека сразу, без предлога: email the coordinator, text me. Вещь можно поставить после человека или через to: email me the map = email the map to me. Text to me — ошибка: её подсказывает русское «написать кому».\n\nТак же без предлога: chair a meeting — вести встречу, shoulder the cost — взять расходы на себя. Chair of бывает только у вещи: She is the chair of the committee — она председатель комитета. У shoulder свой оттенок: оно звучит весомее, чем pay, и подчёркивает, что человек взял на себя груз."
+    },
+    {
+      "title": "Table: одно слово — два противоположных действия",
+      "body": "В США table a proposal значит «отложить предложение», часто надолго. В Британии и многих других странах — наоборот: «внести предложение на обсуждение». Если в команде есть и те и другие, фраза We tabled the proposal отправит людей делать противоположные вещи.\n\nПоэтому смешанной команде пиши действие прямо. Хочешь обсудить — We will discuss it on Thursday или We'll put it on Thursday's agenda (поставим в повестку). Хочешь отложить — We postponed discussion until Tuesday at noon.\n\nОтложить обсуждение — это ещё не решение. Postponed не значит rejected (отказали) и не значит approved (одобрили). Назови срок нового разговора и прямо скажи, что решения пока нет.\n\nЕсли не знаешь, что имел в виду автор, не угадывай. Ищи его пояснение в тексте или спроси: Did you mean we'll discuss it or postpone it?"
+    },
+    {
+      "title": "Словечко команды понятно только своим",
+      "body": "Команды сами делают глаголы из названий своих программ. У волонтёров доска задач называется Pebble, и они говорят Pebble the plan — «внеси план на доску». Внутри команды это понятно. Это не грамматическая ошибка: так появились и email, и text.\n\nНо внешний человек не знает, какое действие стоит за словом. Для него назови три вещи: что сделать, с каким предметом и к какому сроку: Mira will email you a PDF of the access plan by 4 p.m. today.\n\nВспомни урок о тоне: для другого читателя меняются слова, а факты и сроки остаются. Не добавляй шагов, которых не было в исходном поручении. Задача — сделать действие понятным, а не переделать работу."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I got your email, and I'll email the new map to everyone tonight.",
+      "ru": "Я получил твоё письмо и сегодня вечером разошлю всем новую карту по почте.",
+      "why": "Первое email стоит после your — это вещь. Второе после I'll — это действие."
+    },
+    {
+      "en": "Please text me when the delivery arrives.",
+      "ru": "Пожалуйста, напиши мне, когда приедет доставка.",
+      "why": "Text me — без to: человек идёт сразу после глагола."
+    },
+    {
+      "en": "Leila will chair the review, and the chair by the screen is for the interpreter.",
+      "ru": "Лейла будет вести обсуждение, а стул у экрана — для переводчика.",
+      "why": "После will chair — действие с объектом the review. После the chair — предмет."
+    },
+    {
+      "en": "She is the chair of the committee, so she chairs every meeting.",
+      "ru": "Она председатель комитета, поэтому ведёт каждое заседание.",
+      "why": "Chair of — у вещи (председатель чего). У действия of нет: chairs every meeting."
+    },
+    {
+      "en": "Ellis will shoulder the extra transport cost, up to $40.",
+      "ru": "Эллис возьмёт на себя дополнительные расходы на транспорт — до 40 долларов.",
+      "why": "Shoulder — плечо; как действие — взять груз на себя. Предел в долларах важен не меньше глагола."
+    },
+    {
+      "en": "Microwave the soup in two batches, and stir each batch before serving.",
+      "ru": "Разогрей суп в микроволновке в две порции и перемешай каждую перед подачей.",
+      "why": "Один английский глагол — целое русское выражение. Объект — суп, а не человек."
+    },
+    {
+      "en": "We postponed discussion of the canopy until Tuesday at noon; nothing has been decided.",
+      "ru": "Мы перенесли обсуждение навеса на вторник, на полдень; ничего не решено.",
+      "why": "Вместо двусмысленного tabled — прямое действие, срок и честное «решения нет»."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Рассказ о подготовке / How the Team Agreed on Actions",
+      "kind": "reading",
+      "text": "How the Team Agreed on Actions\n\nLantern Yard is a volunteer group in Chicago. In September, the team was preparing a free neighborhood event for Saturday, September 19: repair demonstrations, shared food and a small photo exhibit. On Monday morning, the volunteers met in a borrowed workshop. A long table held maps, an old microwave and a pile of name tags.\n\nMira was writing a short account of the preparations for the group's newsletter. Near the door stood a chair with a broken arm. Across the room, Rowan asked, \"Could you chair tomorrow's briefing, Asha?\" Asha checked her calendar. \"Yes, from 9:00 to 9:30 a.m. Send me the three decisions we need.\" Mira wrote that this quick exchange showed mutual respect. What she actually saw was a request, a yes and a time limit.\n\nAsha then texted the volunteers: \"I'll email the new site map to everyone by 6:00 p.m. Please use that version when you assign spaces.\" At 5:42 p.m., an email arrived with a file called Site Map 2. It moved the repair area away from the food line. Mira had no way to know whether everyone had opened the file, but her first draft said the whole team was \"fully informed.\"\n\nOutside, Ellis was measuring the entrance. Niko texted him: \"Please text me when you finish. I need the width before I set up the display boards.\" Ellis replied at 11:20 a.m. with the measurement and a photo.\n\nAt lunchtime, the kitchen lead pointed to the microwave. \"Microwave the soup in two batches, and stir each batch before serving,\" she told Dev. Dev did exactly that. His only comment was about the bowls: he wanted their sizes marked so that the next volunteer wouldn't have to guess.\n\nMoney came up later. The small transport budget would not cover an extra pickup. \"I'll shoulder the extra transport cost,\" Ellis said. Rowan asked whether that included the return trip. Ellis said yes, up to $40 in total. Nobody said that Ellis would organize all the transport; the notes recorded only the dollar limit next to his name.\n\nBea, a volunteer who had moved to Chicago from London, said, \"I'll table the proposal for an extra water station at Thursday's committee meeting.\" She added right away, \"I mean I'll put it before the committee for discussion. That doesn't mean it will be approved.\" The secretary added the proposal to Thursday's agenda.\n\nBy the end of the day, Mira had two explanations for the team's short messages. She thought they created energy. Dev thought some of them left the listener to guess. Mira rewrote her account to keep what she saw separate from what she thought.",
+      "source": "Придумано для курса: команда, люди и события вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Справка: шесть глаголов из предметов / Six verbs made from nouns",
+      "kind": "reference",
+      "text": "Six verbs made from nouns\n\nEmail. Noun: an email (a message). Verb: email someone; email something to someone; email someone something. Forms: emails, emailed, emailing. Plainer: send something by email.\n\nText. Noun: a text (a phone message). Verb: text someone; text someone the address. Forms: texts, texted, texting. Plainer: send someone a text.\n\nMicrowave. Noun: the microwave (the appliance). Verb: microwave the soup = heat it in the microwave. Forms: microwaved, microwaving.\n\nChair. Noun: a chair (a seat) or the chair of a committee (the person who leads it). Verb: chair a meeting = lead it. No \"of\" after the verb. Plainer: lead the meeting.\n\nShoulder. Noun: your shoulder. Verb: shoulder the cost, the responsibility or the blame = accept a heavy load. Plainer: pay for, take responsibility for.\n\nTable. Noun: a table. Verb in the US: table a proposal = postpone discussing it, often for a long time. Verb in the UK and many other countries: table a proposal = present it for discussion. With a mixed audience, name the action: discuss, put on the agenda, postpone discussion until a stated time.\n\nNew verbs. Teams often turn the names of their own tools into verbs. That is not a grammar mistake, but outsiders may not know what action the word means. For them, name the action, the object and the deadline.",
+      "source": "Придумано для курса: справка по материалам урока."
+    },
+    {
+      "id": "m3",
+      "title": "Разговор после встречи / A Clarification After the Meeting",
+      "kind": "dialogue",
+      "text": "A Clarification After the Meeting (Monday, September 14)\n\nRowan: We need to check something from this morning. My note said, \"We tabled the canopy proposal.\" Bea, what did you understand?\n\nBea: I understood that we had put it up for discussion. That's what table usually means in committee work in London. I've started preparing questions for this afternoon, but I haven't contacted the supplier.\n\nRowan: I meant that we postponed the discussion. Where I grew up, in Ohio, that's what table means. My note didn't make the action clear. We're waiting for a new estimate for renting the canopy. We agreed to discuss it again on Tuesday, September 15, at noon. We haven't approved or rejected renting a canopy.\n\nNiko: Who's getting the estimate, and when?\n\nRowan: You'll ask the supplier to email a new estimate by 10:00 a.m. on Tuesday. It has to include delivery and pickup. Please forward it to Asha and me when it arrives.\n\nAsha: I can chair the discussion at noon. Ellis has agreed to shoulder any canopy delivery charge up to $30. That's separate from his Monday transport money. Anything above $30 needs team approval.\n\nMira: There's also a request from Morgan, our contact at the venue. Morgan got a message saying \"Pebble the access plan\" and couldn't tell what to do. Pebble is just our nickname for the task board. Morgan has asked us not to use it as a verb in messages to the venue.\n\nNiko: So what does Morgan actually need?\n\nMira: A PDF of the access plan by 4:00 p.m. today. I'll email it directly. Morgan doesn't need access to our task board.\n\nRowan: Great. Everyone who's responsible for an action, please confirm your own deadline today.",
+      "source": "Придумано для курса: разговор и люди вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты встречаешь доставку для праздника. Переведи сообщение водителю: «Напиши мне, когда приедешь, и пришли мне по почте фото накладной».",
+      "context": "delivery receipt — накладная.",
+      "guidance": {
+        "title": "Действие из предмета + человек без to",
+        "body": "Text и email как действия сразу берут человека: text me, email me. Вещь ставят после человека или через to: email me the photo = email the photo to me.",
+        "example": "Email me the schedule, and text Ana when the bus leaves.",
+        "translation": "Пришли мне расписание по почте и напиши Ане, когда отъедет автобус."
+      },
+      "hint": "Начни так: Text me when you… После when — настоящее время, без will.",
+      "answers": [
+        "Text me when you arrive, and email me a photo of the delivery receipt.",
+        "Text me when you arrive and email me a photo of the delivery receipt.",
+        "Text me when you get here, and email me a photo of the delivery receipt.",
+        "Text me when you arrive, and email a photo of the delivery receipt to me.",
+        "Please text me when you arrive, and email me a photo of the delivery receipt."
+      ],
+      "explanation": "Text и email здесь действия, человек me стоит сразу после них. Email a photo … to me тоже верно. Text to me — ошибка."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В M1 слово chair встречается дважды: a chair with a broken arm и Could you chair tomorrow's briefing? Объясни новому редактору рассылки двумя фразами по-английски, где chair — предмет, а где действие, и по какому признаку это видно.",
+      "context": "",
+      "guidance": {
+        "title": "Роль видна по соседям",
+        "body": "Слева от действия стоит could, will, to или please, справа — то, на что оно направлено. Слева от предмета стоит a, the или my.",
+        "example": "In \"a short text,\" text is a thing after a; in \"text me,\" it is an action with me as the person.",
+        "translation": "В «a short text» text — предмет после a; в «text me» — действие, а me — тот, кому пишут."
+      },
+      "hint": "Что стоит перед каждым chair? Что стоит после второго?",
+      "answers": [
+        "In \"a chair with a broken arm,\" chair is a thing because it comes after a. In \"Could you chair tomorrow's briefing?\" it is an action: it comes after could and takes tomorrow's briefing as its object.",
+        "The first chair is a noun, a seat, because it follows a. The second is a verb meaning lead: it follows could and is followed by the thing being led, tomorrow's briefing.",
+        "Chair is a noun in \"a chair with a broken arm\" because of the article a. In \"Could you chair tomorrow's briefing?\" it is a verb because it comes after could and has an object."
+      ],
+      "explanation": "Засчитывается, если для предмета назван признак a, а для действия — could и объект tomorrow's briefing. Хорошо, если сказано, что chair-действие значит «вести», а не что-то делать со стулом."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Новый волонтёр написал три фразы для общего чата. Исправь в них лишние предлоги: «Please text to me the address. Asha will chair of the meeting. Ellis will shoulder for the cost.»",
+      "context": "",
+      "guidance": {
+        "title": "Лишний предлог из русского",
+        "body": "Русское «написать кому», «председательствовать на», «взять на себя» тянет за собой предлог. Английские chair, shoulder, text берут объект напрямую.",
+        "example": "Please email the coordinator. Dev will microwave the rice.",
+        "translation": "Пожалуйста, напиши координатору по почте. Дев разогреет рис в микроволновке."
+      },
+      "hint": "В каждой фразе убери одно слово. Address — куда его поставить: после me.",
+      "answers": [
+        "Please text me the address. Asha will chair the meeting. Ellis will shoulder the cost.",
+        "Please text the address to me. Asha will chair the meeting. Ellis will shoulder the cost.",
+        "Please text me the address. Asha will chair the meeting, and Ellis will shoulder the cost."
+      ],
+      "explanation": "Text me the address или text the address to me — оба верны; text to me the address — нет. Chair the meeting и shoulder the cost — без предлогов. Chair of возможно только у вещи: the chair of the meeting."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи заметку для рассылки: «Аша ведёт встречу и записывает решения. Вечером она разошлёт решения всем по почте».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: decide → decision",
+        "body": "Вспоминаем урок о семьях слов: decision получается из decide с добавкой -ion. У chair и email ничего не добавляется — меняется только место во фразе. Здесь нужны оба способа.",
+        "example": "Ben leads the meeting and reads the agreement aloud. Then he'll text everyone the final agreement.",
+        "translation": "Бен ведёт встречу и зачитывает соглашение. Потом он разошлёт всем итоговое соглашение сообщением."
+      },
+      "hint": "Решений несколько: decisions. «Разошлёт всем по почте» — will email … to everyone или will email everyone ….",
+      "answers": [
+        "Asha chairs the meeting and writes down the decisions. In the evening, she will email the decisions to everyone.",
+        "Asha chairs the meeting and writes down the decisions. In the evening, she'll email everyone the decisions.",
+        "Asha is chairing the meeting and writing down the decisions. This evening, she will email the decisions to everyone.",
+        "Asha chairs the meeting and records the decisions. In the evening, she'll email them to everyone."
+      ],
+      "explanation": "Chairs и email — глаголы без добавок, decisions — вещь от decide с -ion. Is chairing тоже подходит, если речь о встрече, которая идёт сейчас. Email everyone the decisions = email the decisions to everyone."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Американский член комитета прочитал в M1 фразу Беи I'll table the proposal for an extra water station… и решил, что предложение отложат. Объясни ему двумя фразами по-английски, что Бея на самом деле сделает в четверг и чего это не значит. Слово table не используй.",
+      "context": "",
+      "guidance": {
+        "title": "Table: ищи пояснение автора",
+        "body": "Сначала найди в тексте, какое из двух значений имел в виду автор. Потом назови это действие обычным глаголом: present, discuss или postpone.",
+        "example": "Ken will put the parking question on Monday's agenda; nobody has voted on it yet.",
+        "translation": "Кен поставит вопрос о парковке в повестку понедельника; никто ещё за него не голосовал."
+      },
+      "hint": "Что Бея сказала сразу после этой фразы? Начни так: Bea will present…",
+      "answers": [
+        "Bea will present the proposal for discussion at Thursday's committee meeting. That doesn't mean it will be approved.",
+        "Bea will put the proposal on the agenda for Thursday's committee meeting so the committee can discuss it. It hasn't been approved.",
+        "On Thursday, Bea will bring the proposal to the committee for discussion. It is not a decision to buy anything yet.",
+        "Bea is going to introduce the water station proposal at Thursday's meeting for discussion, not postpone it. Approval isn't guaranteed."
+      ],
+      "explanation": "Бея сама пояснила: она вынесет предложение на обсуждение. Засчитывается, если названо действие (present / discuss / put on the agenda) и сказано, что одобрения ещё нет."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M3. Роуэн записал утром: We tabled the canopy proposal. Напиши для общего чата две фразы: что решили на самом деле и чего не решали. День и время возьми из M3.",
+      "context": "canopy — навес; rent — арендовать.",
+      "guidance": {
+        "title": "Отложить — ещё не отказать",
+        "body": "Postpone discussion — разговор перенесли, решение впереди. Rejected — отказали, approved — одобрили. Когда обсуждение перенесли, назови срок и прямо скажи, что решения нет.",
+        "example": "We postponed the vote on the new logo until Friday at 3 p.m.; no logo has been chosen.",
+        "translation": "Мы перенесли голосование о новом логотипе на пятницу, на 15:00; логотип не выбран."
+      },
+      "hint": "Начни так: We postponed discussion of the canopy proposal until… Вторая фраза: We haven't…",
+      "answers": [
+        "We postponed discussion of the canopy proposal until Tuesday, September 15, at noon. We haven't approved or rejected renting a canopy.",
+        "We postponed the discussion of the canopy proposal until noon on Tuesday, September 15. Renting a canopy has not been approved or rejected.",
+        "We'll discuss the canopy proposal again on Tuesday, September 15, at noon. No decision has been made about renting a canopy.",
+        "We put off the canopy discussion until Tuesday at noon. We have neither approved nor rejected the rental."
+      ],
+      "explanation": "Засчитывается, если названо действие (обсуждение перенесли), срок — вторник, 15 сентября, полдень, и сказано, что решения нет. Put off — разговорный синоним postpone."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В черновике письма Моргану (M3) стоит фраза: Mira will Pebble you the access plan by four. Морган просил не писать ему Pebble. Перепиши фразу так, чтобы Морган знал, что получит, каким способом и к какому сроку.",
+      "context": "access plan — план доступа на площадку.",
+      "guidance": {
+        "title": "Вспоминаем: другой читатель — другие слова, те же факты",
+        "body": "Вспоминаем урок о тоне: для внешнего человека меняются слова, а не факты и сроки. Словечко команды не ошибка, но Морган не знает, какое действие за ним стоит.",
+        "example": "Instead of \"I'll Bramble it,\" write \"I'll add the event to our shared calendar by Friday.\"",
+        "translation": "Вместо «I'll Bramble it» напиши «Я внесу мероприятие в наш общий календарь до пятницы»."
+      },
+      "hint": "Что Мира обещала в M3: какой файл, как отправит и до какого часа?",
+      "answers": [
+        "Mira will email you a PDF of the access plan by 4:00 p.m. today.",
+        "Mira will email you a PDF of the access plan by 4 p.m. today.",
+        "Mira will send you the access plan as a PDF by email by 4:00 p.m. today.",
+        "Mira will email the access plan to you as a PDF by 4 p.m. today."
+      ],
+      "explanation": "Засчитывается, если названы действие (email), предмет (PDF плана доступа) и срок (4 p.m. сегодня). Email здесь уместен: это глагол из словаря, его поймёт любой."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты Роуэн. По M3 напиши всей международной команде исправленное сообщение на 150–220 слов. Что должно быть: признание, что слово tabled было неясным (без обвинений); что решили на самом деле и когда следующее обсуждение; кто что делает — Нико, Аша, Эллис (с пределом в долларах и пометкой, что это отдельно от транспорта), Мира; что нужно Моргану и что словечко Pebble в письмах на площадку не используем; просьба подтвердить свои сроки сегодня. Не пиши table.",
+      "context": "",
+      "hint": "План: моё слово было неясным → что решили → список «кто — что — кому — к какому сроку» → просьба подтвердить.",
+      "answers": [
+        "Hi everyone,\n\nMy note from this morning said we \"tabled\" the canopy proposal. That word means opposite things in different countries, so let me say it clearly: we postponed the discussion. We will discuss the proposal again on Tuesday, September 15, at noon. We have not approved or rejected renting a canopy.\n\nHere is who does what:\n- Niko will ask the supplier to email a new estimate, including delivery and pickup, by 10:00 a.m. on Tuesday, and then forward it to Asha and me.\n- Asha will chair the noon discussion.\n- Ellis will shoulder the canopy delivery charge up to $30. This is separate from his Monday transport money. Anything above $30 needs team approval.\n- Mira will email Morgan a PDF of the access plan by 4:00 p.m. today. Morgan doesn't need access to our task board, and please don't use \"Pebble\" as a verb in messages to the venue.\n\nIf you are responsible for one of these actions, please reply today to confirm your deadline.\n\nThanks,\nRowan"
+      ],
+      "explanation": "Засчитывается, если по M3 названы: перенос обсуждения на вторник, 15 сентября, полдень, и отсутствие решения; оценка от поставщика к 10:00 с доставкой и вывозом; Аша ведёт обсуждение; $30 Эллиса отдельно от транспортных денег; PDF Моргану к 4 p.m. без Pebble; просьба подтвердить сроки. Порядок и тон могут быть другими.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Отредактируй черновик письма внешнему партнёру Моргану. Сверь факты с M3, исправь грамматические ошибки с этими глаголами и замени слова, которые Морган не поймёт. После письма добавь одну английскую фразу-пометку для команды: какие правки исправили грамматику, а какие — понятность для этого читателя.\n\nЧерновик: \"Dear Morgan, we have table the canopy proposal until noon on Tuesday, September 15; no decision about renting has been made. Niko will ask the supplier to email to us a new estimate by 10 a.m. Tuesday, including delivery and pickup. Asha will chair of the noon discussion. Mira will Pebble you the access plan as a PDF by 4 p.m. today. You don't need our board. Best, Rowan\"",
+      "context": "",
+      "hint": "Найди четыре места: форма и смысл table, порядок слов после email, лишний предлог после chair, словечко Pebble.",
+      "answers": [
+        "Dear Morgan,\n\nWe have postponed discussion of the canopy proposal until noon on Tuesday, September 15. No decision about renting a canopy has been made yet. Niko will ask the supplier to email us a new estimate, including delivery and pickup, by 10:00 a.m. on Tuesday. Asha will chair the noon discussion. Mira will email you a PDF of the access plan by 4:00 p.m. today. You don't need access to our task board.\n\nBest,\nRowan\n\nNote for the team: \"Chair of\" and \"email to us a new estimate\" were grammar mistakes, while \"table\" and \"Pebble\" were changed because Morgan could not be sure what action they meant."
+      ],
+      "explanation": "Засчитывается, если table заменено на postponed discussion, email to us a new estimate — на email us a new estimate, chair of — на chair, Pebble — на email you a PDF, а все сроки совпадают с M3. В пометке грамматика отделена от понятности: Pebble не ошибка, а неудачное слово для этого читателя.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Коллега говорит: «В английском любое существительное можно сделать глаголом, так что давай писать наши словечки везде — и в письмах на площадку тоже». Ответь ему вслух за 2–3 минуты. Что должно быть: в чём он прав (конверсия — обычное дело); два конкретных решения из этой истории — какой короткий глагол ты оставишь и почему, какой заменишь и чем; почему table опасен для смешанной команды; простое правило, как выбирать.",
+      "context": "",
+      "hint": "Начни так: You're right that English does this all the time… Потом: But… Для каждого решения — слово, читатель, замена.",
+      "answers": [
+        "You're right that English turns nouns into verbs all the time. Email, text and chair were all nouns first, and nobody needs them explained now. So I'm not against short verbs.\n\nBut the question isn't whether a word is possible. It's whether this reader knows what to do. Take \"Asha will chair the discussion.\" I'd keep that. Chair is in every dictionary, it's short, and it sounds professional. If a reader didn't know it, \"lead the discussion\" would work too.\n\nNow take \"Pebble the access plan.\" I'd replace it in anything we send to the venue. Morgan couldn't tell what we wanted and asked us not to use it. \"Email Morgan a PDF of the access plan by 4 p.m.\" names the action, the file and the deadline. Inside the team, Pebble is fine. It's not wrong; it's just ours.\n\nTable is a different problem. Everybody knows the word, but it means opposite things. For Rowan it meant \"postpone,\" and for Bea it meant \"put up for discussion.\" Bea almost started preparing for a discussion that wasn't happening. With a mixed team, I'd always write \"discuss\" or \"postpone discussion until Tuesday.\"\n\nSo my rule is simple: if someone outside the team can act on the word without asking, keep it. If not, say the action in plain words."
+      ],
+      "explanation": "Засчитывается, если ты согласился в главном (конверсия — норма), защитил одно короткое слово и заменил другое с причиной для конкретного читателя, объяснил двойной смысл table и закончил понятным правилом. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    }
+  ]
+}

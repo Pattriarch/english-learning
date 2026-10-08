@@ -8,6 +8,11 @@
   "minutes": 40,
   "goal": "Передать другу, что сказал или спросил другой человек: выбрать said или told, сдвинуть время и сохранить порядок слов в пересказанном вопросе.",
   "formula": "“I'm tired.” → She said she was tired. → She asked if I was ready.",
+  "keyRule": {
+    "rule": "Пересказываешь через said — сдвинь время на шаг назад: am → was, will → would.",
+    "example": "“I'm tired.” → She said she was tired — она сказала, что устала.",
+    "check": "Назван тот, кому сказали, — told me. Не назван — said."
+  },
   "guided": true,
   "introSections": 6,
   "prerequisites": [

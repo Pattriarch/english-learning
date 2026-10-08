@@ -1,0 +1,342 @@
+{
+  "id": "path-nominalisation",
+  "title": "Refuse → the refusal: когда действие лучше назвать существительным, а когда нет",
+  "subtitle": "Действие → одно слово (refusal) → ссылка на сказанное → кто сделал: 's → без make a decision и цепочек of → распаковать для обычного читателя",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Писать отчёты и письма плотно, но понятно: сослаться на сказанное одним словом («Этот отказ задержал проект на год»), а где важно, кто что сделал, оставить глагол: «Мы не предупредили клиентов», а не «Имело место непредупреждение клиентов».",
+  "formula": "The council refused. → This refusal delayed the project. · We made a decision to wait. → We decided to wait.",
+  "guided": true,
+  "keyRule": {
+    "rule": "Существительное — чтобы сослаться на сказанное; глагол — чтобы показать, кто что сделал.",
+    "example": "The council refused. This refusal delayed the project — совет отказал. Этот отказ задержал проект.",
+    "check": "Из фразы не видно, кто это сделал, а это важно? Верни человека и глагол."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-fronting",
+    "path-word-formation",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-fronting",
+    "path-register-b2"
+  ],
+  "teaches": [
+    "действие как существительное: refuse → refusal, decide → decision, rise → a rise, close → closure",
+    "this + существительное — сослаться на сказанное и начать с него следующую фразу: This refusal delayed the project",
+    "кто сделал — через 's: the director's decision to…; после decision, refusal, failure, plan — to + глагол",
+    "наречие → прилагательное: rose sharply → a sharp rise in; предлоги: a rise in, an increase in, a delay in, a need for, a decision to",
+    "because + целая фраза ↔ due to / because of + существительное: due to heavy rain",
+    "make a decision → decide, conduct an analysis → analyze, carry out an investigation → investigate; цепочка of — сигнал распаковать",
+    "не прятать ответственность: There was a failure to notify… → We failed to notify…",
+    "распаковать для обычного читателя: существительные снова в людей и глаголы"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Sentence Clarity: Nominalizations and Subject Position",
+      "url": "https://owl.purdue.edu/owl/multilingual/multilingual_students/nominalizations_and_subject_position.html",
+      "notes": "Сверено: существительные от глаголов и прилагательных (decide → decision, -tion, -ment, -ity, -ness); длинные цепочки таких слов трудно читать; правка — найти, кто действует, сделать его подлежащим, вернуть глагол; существительное уместно, когда говорят о понятии в целом; не ставить много таких слов рядом."
+    },
+    {
+      "title": "Duke University Writing Studio · Revising for Style: Cohesion and Coherence",
+      "url": "https://wrp.duke.edu/sites/twp.duke.edu/files/documents/updated-Cohesion-and-Coherence-Handout-Feb2023.pdf",
+      "notes": "Сверено: начало фразы должно отсылать к уже сказанному — на этом держится приём this + существительное (This refusal…), который связывает фразу с предыдущей."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Когда существительное помогает, а когда мешает",
+    "why": "Одно и то же действие можно назвать глаголом или существительным. Существительное удобно, чтобы сослаться на уже сказанное. Глагол лучше, когда важно, кто что сделал.",
+    "items": [
+      {
+        "label": "Помогает",
+        "en": "The council refused. This refusal delayed the project.",
+        "ru": "Совет отказал. Этот отказ задержал проект.",
+        "note": "Refusal ссылается на сказанное и связывает фразы."
+      },
+      {
+        "label": "Мешает",
+        "en": "A decision to conduct an evaluation was made.",
+        "ru": "Было принято решение о проведении оценки.",
+        "note": "Не видно, кто решил. Три существительных вместо двух глаголов."
+      },
+      {
+        "label": "Распаковано",
+        "en": "We decided to evaluate the program.",
+        "ru": "Мы решили оценить программу.",
+        "note": "Кто — we, что сделали — decided, evaluate."
+      }
+    ],
+    "footnote": "По-русски та же болезнь называется канцеляритом: «осуществить проверку» вместо «проверить».",
+    "focus": [
+      "This refusal",
+      "A decision to conduct an evaluation",
+      "We decided to evaluate"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Действие можно назвать одним словом",
+      "body": "Ты пишешь отчёт: The city council refused to fund the bike lanes. This refusal delayed the project by a year. «Городской совет отказался финансировать велодорожки. Этот отказ задержал проект на год».\n\nRefuse — глагол: кто-то что-то делает. Refusal — существительное: название этого действия, как будто это вещь. По-русски так же: отказаться → отказ, решить → решение, проверить → проверка. Такое превращение называют номинализацией — «превращение действия в существительное». Как строятся такие слова (-tion, -ment, -al, -ance), ты уже знаешь из урока о семьях слов.\n\nЗачем это нужно. Первое — сослаться на сказанное одним словом и начать с него следующую фразу: This refusal…, The delay…, This decision… Это то же правило «знакомое — в начало». Второе — короткие заголовки и темы: Bike Lane Delay, The Closure of Elm Street."
+    },
+    {
+      "title": "Как не потерять, кто что сделал",
+      "body": "Существительное легко теряет того, кто действовал. The refusal delayed the project — чей отказ? Верни человека через 's: the council's refusal, the director's decision. О предметах и организациях — через of: the closure of the bridge.\n\nПосле многих таких слов идёт to + глагол: a decision to wait, a refusal to sign, a failure to notify, a plan to expand.\n\nКогда глагол становится существительным, наречие становится прилагательным: Prices rose sharply → a sharp rise in prices. They expanded quickly → their rapid expansion.\n\nЗапомни предлоги: a rise / an increase / a drop in prices, a delay in delivery, a need / demand for housing, a reason for the change. A rise of prices — ошибка; the rise of social media значит «появление, взлёт», это другой смысл."
+    },
+    {
+      "title": "Когда глагол лучше: make a decision и цепочки of",
+      "body": "Слабый глагол + существительное часто заменяется одним глаголом:\nmake a decision → decide\ngive an explanation → explain\nconduct an analysis → analyze\ncarry out an investigation → investigate\nmake a suggestion → suggest\n\nWe made a decision to conduct an evaluation of the program → We decided to evaluate the program. Смысл тот же, слов вдвое меньше.\n\nДва-три of подряд — сигнал распаковать: The implementation of the improvement of the process → We improved the process. Найди, кто действовал, сделай его началом фразы, а главное существительное — глаголом.\n\nГде правило не работает: если само решение — тема разговора, существительное нужно. It was a tough decision. The decision is still controversial — «Решение до сих пор вызывает споры». Здесь decide не подставишь."
+    },
+    {
+      "title": "Не прятать, кто ошибся",
+      "body": "Ты уже знаешь из урока о регистре: ошибку не прячут за безличной фразой. Существительные — любимый способ её спрятать: There was a failure to notify customers — «Имело место неуведомление клиентов». Кто не уведомил? Честно: We failed to notify customers.\n\nТак же прячут время. The closure of the library — она закрыта, будет закрыта или только обсуждается? Добавь слово: the planned closure, the temporary closure, the completed renovation.\n\nСуществительное без человека уместно, когда исполнитель и так ясен или неважен: The closure of Elm Street caused long delays — все знают, что улицу закрыл город."
+    },
+    {
+      "title": "Распаковать для обычного читателя",
+      "body": "Официальные письма и объявления часто состоят из одних существительных: The reduction in service hours is due to a decrease in funding. Соседу это надо пересказать проще: The library is open fewer hours because the city gave it less money.\n\nКак распаковать: найди, кто действует (город, библиотека), и что он делает (дал меньше денег). Due to / because of + существительное превращай в because + целую фразу: due to heavy rain → because it rained a lot.\n\nОбратно тоже работает: because it rained heavily → due to heavy rain. Выбирай по читателю: для отчёта — плотнее, для человека на улице — с людьми и глаголами."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The city council refused to fund the bike lanes. This refusal delayed the project by a year.",
+      "ru": "Городской совет отказался финансировать велодорожки. Этот отказ задержал проект на год.",
+      "why": "Refusal называет уже сказанное действие и стоит в начале как знакомое."
+    },
+    {
+      "en": "The sharp rise in rents forced many families to move.",
+      "ru": "Резкий рост арендной платы вынудил многие семьи переехать.",
+      "why": "Rose sharply превратилось в a sharp rise in: наречие стало прилагательным, появился in."
+    },
+    {
+      "en": "The director's decision to close the office on Fridays surprised everyone.",
+      "ru": "Решение директора закрывать офис по пятницам всех удивило.",
+      "why": "Кто решил — через 's, что решил — через to + глагол."
+    },
+    {
+      "en": "We decided to evaluate the program.",
+      "ru": "Мы решили оценить программу.",
+      "why": "Вместо We made a decision to conduct an evaluation of — два глагола и видно, кто решил."
+    },
+    {
+      "en": "We failed to notify customers about the price change.",
+      "ru": "Мы не предупредили клиентов об изменении цен.",
+      "why": "Честнее, чем There was a failure to notify customers: названо, кто ошибся."
+    },
+    {
+      "en": "The game was canceled due to heavy rain.",
+      "ru": "Игру отменили из-за сильного дождя.",
+      "why": "Due to + существительное. С because нужна целая фраза: because it rained heavily."
+    },
+    {
+      "en": "The decision is still controversial.",
+      "ru": "Это решение до сих пор вызывает споры.",
+      "why": "Здесь решение — тема разговора, глагол decide не подставишь."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Объявление городской службы водоснабжения",
+      "kind": "reading",
+      "text": "NOTICE: Temporary Interruption of Water Service\n\nDue to the replacement of aging water pipes and the upgrade of the pressure system, there will be an interruption of water service on Elm Street (100–400 blocks) on Tuesday, May 12, from 9 a.m. to 3 p.m.\n\nResidents are advised of the need for the storage of drinking water prior to the start of the work.\n\nUpon completion of the work, temporary discoloration of the water may occur. In the event of continued discoloration after 24 hours, notification of the Water Department at (312) 555-0163 is requested.\n\nThe City apologizes for any inconvenience.",
+      "source": "Учебное объявление для этого урока."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь заметку для сайта района: «Городской совет отказался финансировать велодорожки. Этот отказ задержал проект на год». city council — городской совет, fund — финансировать, bike lanes — велодорожки, delay — задержать.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем «знакомое — в начало»: действие одним словом",
+        "body": "Вспоминаем урок «От знакомого к новому»: следующая фраза начинается с уже знакомого. Здесь знакомое — сам отказ. Назови его существительным refusal, а this покажет, что речь о только что сказанном.",
+        "example": "The company canceled the festival. The cancellation upset thousands of fans.",
+        "translation": "Компания отменила фестиваль. Эта отмена расстроила тысячи фанатов."
+      },
+      "hint": "Какое существительное от refuse? Оно кончается на -al.",
+      "answers": [
+        "The city council refused to fund the bike lanes. This refusal delayed the project by a year.",
+        "The city council refused to fund the bike lanes. The refusal delayed the project by a year.",
+        "The city council refused to fund the bike lanes. This refusal delayed the project by one year.",
+        "The city council refused to fund the bike lanes. The council's refusal delayed the project by a year.",
+        "The city council refused to pay for the bike lanes. This refusal delayed the project by a year.",
+        "The city council refused to fund the bike lanes. This refusal set the project back a year."
+      ],
+      "explanation": "Refused — действие, refusal — его название, с него начинается вторая фраза. This или the — оба верны; the council's refusal тоже верно."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отчёт о жилье в городе. Перепиши фразу так, чтобы она начиналась с существительного: Rents rose sharply, and many families had to move. Начни с The sharp rise.",
+      "context": "rent — арендная плата, force — вынуждать.",
+      "guidance": {
+        "title": "Как → какой: sharply → sharp, плюс in",
+        "body": "Когда глагол становится существительным, наречие становится прилагательным: rose sharply → a sharp rise. После rise, increase, drop ставят in. Вторая часть станет глаголом: forced… to move.",
+        "example": "Sales dropped suddenly. → The sudden drop in sales worried investors.",
+        "translation": "Продажи резко упали. → Внезапное падение продаж встревожило инвесторов."
+      },
+      "hint": "Начни так: The sharp rise in rents …",
+      "answers": [
+        "The sharp rise in rents forced many families to move.",
+        "The sharp rise in rent forced many families to move.",
+        "The sharp rise in rents forced many families to move out.",
+        "The sharp rise in rents made many families move.",
+        "The sharp rise in rents forced a lot of families to move."
+      ],
+      "explanation": "Rose sharply → the sharp rise in rents. Had to move превратилось в forced many families to move. The sharp rise of rents — ошибка: о росте цен говорят rise in."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь коллеге из другого отдела: «Решение директора закрывать офис по пятницам всех удивило».",
+      "context": "",
+      "guidance": {
+        "title": "Кто сделал — через 's",
+        "body": "Существительное легко теряет того, кто действовал. Верни его через 's: the director's decision. После decision, refusal, plan, failure идёт to + глагол.",
+        "example": "The landlord's refusal to fix the heat angered the tenants.",
+        "translation": "Отказ хозяина дома починить отопление разозлил жильцов."
+      },
+      "hint": "Начни так: The director's decision to …",
+      "answers": [
+        "The director's decision to close the office on Fridays surprised everyone.",
+        "The director's decision to close the office on Fridays surprised everybody.",
+        "The director's decision to close the office every Friday surprised everyone.",
+        "The director's decision to close the office on Fridays surprised us all.",
+        "The director's decision to keep the office closed on Fridays surprised everyone."
+      ],
+      "explanation": "The director's decision — видно, кто решил. To close — что решил. Decision of closing — ошибка: после decision идёт to + глагол."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Твой коллега любит длинные фразы. Сократи его фразу, оставив тот же смысл: We made a decision to conduct an evaluation of the program.",
+      "context": "evaluate — оценить.",
+      "guidance": {
+        "title": "Make, conduct + существительное → один глагол",
+        "body": "Слабый глагол вроде make, conduct, carry out плюс существительное часто заменяется одним глаголом: make a decision → decide. Фраза короче, смысл тот же.",
+        "example": "The team carried out an investigation of the error. → The team investigated the error.",
+        "translation": "Команда провела расследование ошибки. → Команда расследовала ошибку."
+      },
+      "hint": "Сколько действий останется во фразе? Два: решили и оценить.",
+      "answers": [
+        "We decided to evaluate the program.",
+        "We've decided to evaluate the program.",
+        "We have decided to evaluate the program."
+      ],
+      "explanation": "Made a decision → decided, conduct an evaluation of → evaluate. Из девяти слов осталось пять, смысл не изменился."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ваш отдел не предупредил клиентов о новых ценах и ошибся в счетах. Руководитель написал клиентам так: There was a failure to notify customers about the price change. Mistakes were made in the billing process. Перепиши честно, от лица отдела (we).",
+      "context": "notify — уведомить, billing — выставление счетов.",
+      "guidance": {
+        "title": "Вспоминаем регистр: верни «мы» и глагол",
+        "body": "Вспоминаем урок о регистре: ошибку не прячут за безличной фразой. Существительное failure и пассив скрывают, кто виноват. Сделай «мы» началом фразы, а failure — глаголом.",
+        "example": "There was a delay in the shipment of your order. → We shipped your order late.",
+        "translation": "Имела место задержка отправки вашего заказа. → Мы отправили ваш заказ с опозданием."
+      },
+      "hint": "Кто не предупредил клиентов? Начни так: We failed to …",
+      "answers": [
+        "We failed to notify customers about the price change. We made mistakes in the billing process.",
+        "We failed to notify customers about the price change, and we made mistakes in billing.",
+        "We didn't notify customers about the price change. We made mistakes in the billing process.",
+        "We didn't tell customers about the price change, and we made mistakes on their bills.",
+        "We failed to tell our customers about the price change. We also made mistakes in billing."
+      ],
+      "explanation": "We failed to notify — видно, кто не предупредил. We made mistakes — вместо безличного Mistakes were made. Didn't notify и didn't tell тоже верны."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь короткую новость для школьного сайта. Перепиши фразу с due to: The game was canceled because it rained heavily.",
+      "context": "",
+      "guidance": {
+        "title": "Because + фраза, due to + существительное",
+        "body": "После because идёт фраза с «кто» и глаголом: because it rained heavily. После due to и because of — существительное. Наречие heavily снова становится прилагательным.",
+        "example": "The store closed early because the power went out. → The store closed early due to a power outage.",
+        "translation": "Магазин закрылся рано, потому что отключили свет. → Магазин закрылся рано из-за отключения света."
+      },
+      "hint": "Какое существительное спрятано в it rained? А какое прилагательное в heavily?",
+      "answers": [
+        "The game was canceled due to heavy rain.",
+        "Due to heavy rain, the game was canceled.",
+        "The game was canceled due to the heavy rain.",
+        "The game was canceled because of heavy rain.",
+        "Because of heavy rain, the game was canceled."
+      ],
+      "explanation": "Rained heavily → heavy rain. Due to it rained — ошибка: после due to нужно существительное. Because of heavy rain тоже верно."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Это фраза из квартального отчёта. Перепиши её так, чтобы было видно, кто что сделал: The implementation of the improvement of the scheduling process was carried out by the team in March.",
+      "context": "scheduling process — составление графиков работы.",
+      "guidance": {
+        "title": "Цепочка of — сигнал распаковать",
+        "body": "Если подряд идут два-три of и слова на -tion, -ment, найди, кто действовал и что на самом деле сделал. Этого человека поставь в начало, главное существительное сделай глаголом.",
+        "example": "The completion of the review of the budget was achieved by the board. → The board finished reviewing the budget.",
+        "translation": "Завершение рассмотрения бюджета было достигнуто советом. → Совет закончил рассматривать бюджет."
+      },
+      "hint": "Кто действовал? И что он сделал с процессом?",
+      "answers": [
+        "The team improved the scheduling process in March.",
+        "In March, the team improved the scheduling process.",
+        "The team improved its scheduling process in March.",
+        "The team improved how it schedules work in March."
+      ],
+      "explanation": "Из шести существительных осталось два, а действие стало глаголом: the team improved. Implementation и carried out ничего не добавляли — это слова-пустышки."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты координатор проекта: в школьном дворе должны были открыть новую игровую площадку в апреле, а откроют только в сентябре. Напиши родительскому комитету отчёт на 150–250 слов о причинах задержки. В отчёте: что произошло и в каком порядке; два-три существительных, которые ссылаются на сказанное и связывают фразы (This delay…, The contractor's decision…); у каждого важного решения назван, кто его принял; ни одного make a decision, carry out и цепочек of; одна фраза с due to; что будет дальше и когда.",
+      "context": "playground — игровая площадка, contractor — подрядчик, permit — разрешение.",
+      "hint": "Сначала запиши события простыми фразами «кто — что сделал», потом соедини их существительными.",
+      "answers": [
+        "Dear members of the parent committee,\n\nI'm writing to explain why the new playground will not open in April as planned.\n\nIn January, the city changed its safety rules for playground surfaces. This change meant that our design no longer met the requirements. The school board decided to redesign the play area instead of asking for an exception, and the new design was approved on February 20.\n\nThe redesign created a second problem. Our contractor, Midwest Builders, had already ordered the old surface material, and the company refused to cancel the order without a $3,000 fee. After two weeks of talks, the school agreed to pay half of the fee. This agreement allowed work to continue, but the new material will not arrive until late June due to high demand.\n\nI should also take responsibility for one thing: I did not inform you about the delay in February, when I first learned about it. I'm sorry for that.\n\nThe contractor's new schedule shows the work finished by August 25. If the city inspection goes well, the playground will open on the first day of school, September 2. I will send you an update every two weeks until then.\n\nSincerely,\nNicole Grant\nProject Coordinator"
+      ],
+      "explanation": "Засчитывается, если события идут по порядку, два-три существительных ссылаются на сказанное (This change…, The redesign…, This agreement…), у важных решений назван исполнитель, нет make a decision, carry out и цепочек of, есть фраза с due to и сказано, что будет дальше и когда."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Пожилая соседка не поняла объявление M1 и просит тебя объяснить. Перескажи его ей вслух за 2–3 минуты простыми словами. В рассказе: кто что будет делать и зачем; когда и на сколько отключат воду; что ей сделать заранее; что может случиться после работ и что делать, если это не пройдёт за сутки; ни одного существительного из объявления вроде interruption, replacement, discoloration, notification — вместо них люди и глаголы.",
+      "context": "Сначала скажи без записи, потом прослушай себя: каждое -tion и -ment из объявления должно стать глаголом.",
+      "hint": "Начни так: So, the city is going to …",
+      "materialIds": [
+        "m1"
+      ],
+      "answers": [
+        "So, the city is going to replace some old water pipes on our street, and they're also going to fix the system that controls the water pressure. Because of that, they'll turn off the water on Elm Street next Tuesday, May 12. It'll be off from nine in the morning until three in the afternoon, so about six hours. That's the whole block, from the 100s to the 400s, so our building too. You won't be able to use the sink, the shower, or the washing machine during that time, and the toilet will only flush once. What they're asking is that you fill up some bottles or a big pot with drinking water before nine. I'd say fill a few, so you have enough for tea, cooking, and taking your pills. You might also want to fill a bucket for the toilet. When they turn the water back on, it might look brown or yellow for a while. That's normal after this kind of work, and it should clear up. Just let the tap run for a few minutes. But if the water still looks brown the next day, after twenty-four hours, you should call the Water Department. The number is 312-555-0163. I can write it down for you and put it on your fridge. And if you need help carrying water on Monday evening, just knock on my door. I'm home after six. Oh, and they say they're sorry for the trouble."
+      ],
+      "explanation": "Засчитывается, если пересказ точен (улица, 12 мая, с 9 до 3, запасти воду заранее, вода может быть мутной, звонить, если не прошло за 24 часа, номер телефона) и все существительные объявления заменены людьми и глаголами: the city will replace, they'll turn off, call."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Это абзац из служебной записки компании. Перепиши его для сотрудников понятно: назови, кто что сделал и сделает, замени слабые глаголы с существительными одним глаголом, распакуй цепочки of. Одно существительное, которое ссылается на сказанное, оставь. The reduction of costs was achieved through the elimination of paper reports by the finance department. A decision was made by management to carry out a review of all software subscriptions in June. The expectation is that the completion of this review will result in further savings.",
+      "context": "subscription — подписка, savings — экономия, eliminate — отменить, убрать.",
+      "hint": "В каждой фразе найди, кто действует: finance department, management. Что они сделали и что сделают?",
+      "answers": [
+        "The finance department cut costs by eliminating paper reports. In June, management decided to review all software subscriptions. We expect this review to save even more money.",
+        "The finance department reduced costs by getting rid of paper reports. Management has decided to review all software subscriptions in June. This review should save us more money when it's finished."
+      ],
+      "explanation": "Засчитывается, если в каждой фразе назван исполнитель (the finance department, management, we), был achieved / was made / carry out a review / the completion of заменены глаголами (cut, decided to review, expect, save), а одно существительное — this review — ссылается на сказанное."
+    }
+  ]
+}

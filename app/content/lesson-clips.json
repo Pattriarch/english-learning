@@ -1,0 +1,696 @@
+{
+  "version": 1,
+  "note": "Один короткий настоящий ролик VOA Learning English (американский английский) на урок: где сегодняшняя форма звучит в живом диалоге, плюс крошечное задание. Ролики проверены на официальном канале VOA Learning English (YouTube); реплики для shadowLine взяты из расшифровок на learningenglish.voanews.com. start/end пока охватывают весь ролик (точных таймкодов сцены нет). Уроков без проверенного ролика здесь нет — приложение использует запасной вариант.",
+  "clips": {
+    "path-be": {
+      "title": "Let's Learn English Lesson 2: Hello, I'm Anna!",
+      "url": "https://www.youtube.com/watch?v=1-U7o9xjWQc",
+      "embed": "https://www.youtube-nocookie.com/embed/1-U7o9xjWQc?start=0&end=240",
+      "start": 0,
+      "end": 240,
+      "source": "VOA Learning English — Let's Learn English, Lesson 2",
+      "question": {
+        "prompt": "Откуда Анна и в какой квартире она живёт?",
+        "answer": "Из маленького города; квартира C2"
+      },
+      "lookFor": "Найди, где говорят am / is / are: I am from…, She is Anna, Marsha is my roommate",
+      "shadowLine": "I am from a small town.",
+      "lines": []
+    },
+    "path-articles-basic": {
+      "title": "Let's Learn English Lesson 4: What is it?",
+      "url": "https://www.youtube.com/watch?v=Z5PF-vJdUdc",
+      "embed": "https://www.youtube-nocookie.com/embed/Z5PF-vJdUdc?start=0&end=322",
+      "start": 0,
+      "end": 322,
+      "source": "VOA Learning English — Let's Learn English, Lesson 4",
+      "question": {
+        "prompt": "Что Анна ищет в сумке и что достаёт вместо этого?",
+        "answer": "Ручку; достаёт книгу, игрушку, подушку, карту, лампу"
+      },
+      "lookFor": "Найди a перед каждой новой вещью: a pen, a book, a map, a lamp",
+      "shadowLine": "It is not a pen. It is a book.",
+      "lines": []
+    },
+    "path-this-that": {
+      "title": "Lesson 14: How About This?",
+      "url": "https://www.youtube.com/watch?v=4Xn1Ysdmuvg",
+      "embed": "https://www.youtube-nocookie.com/embed/4Xn1Ysdmuvg?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 14",
+      "question": {
+        "prompt": "Куда Анна собирается вечером и кто помогает ей выбрать одежду?",
+        "answer": "В театр; помогает Джинн из журнала"
+      },
+      "lookFor": "Найди this / these и that / those: this dress, these clothes, those clothes, that looks great",
+      "shadowLine": "These clothes look great on you!",
+      "lines": []
+    },
+    "path-present-simple": {
+      "title": "Let's Learn English Lesson 12: Meet My Family",
+      "url": "https://www.youtube.com/watch?v=cyRaZA9ZD08",
+      "embed": "https://www.youtube-nocookie.com/embed/cyRaZA9ZD08?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 12",
+      "question": {
+        "prompt": "Чем занимается тётя Лавендер?",
+        "answer": "Любит садоводство и делает ложки"
+      },
+      "lookFor": "Найди -s у she/he: She loves gardening and makes spoons; и вопрос What does Uncle John do?",
+      "shadowLine": "She loves gardening and makes spoons.",
+      "lines": []
+    },
+    "path-possession": {
+      "title": "Let's Learn English Lesson 15: I Love People-Watching!",
+      "url": "https://www.youtube.com/watch?v=c6_7RYaNgdA",
+      "embed": "https://www.youtube-nocookie.com/embed/c6_7RYaNgdA?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 15",
+      "question": {
+        "prompt": "Как Анна описывает начальницу?",
+        "answer": "Невысокая, со светлыми прямыми волосами, носит очки"
+      },
+      "lookFor": "Найди have и has: You have brown eyes, I have blue eyes, She has straight, light hair",
+      "shadowLine": "She has straight, light hair.",
+      "lines": []
+    },
+    "path-questions-basic": {
+      "title": "Lesson 16: Where Are You From?",
+      "url": "https://www.youtube.com/watch?v=QQavoMYmMVE",
+      "embed": "https://www.youtube-nocookie.com/embed/QQavoMYmMVE?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 16",
+      "question": {
+        "prompt": "Откуда туристы, у которых Анна берёт интервью?",
+        "answer": "Из Бангладеш, Китая и Ирана"
+      },
+      "lookFor": "Найди вопросы со словом-вопросом: What is your name? Where are you from? What languages do you speak?",
+      "shadowLine": "What is your name and where are you from?",
+      "lines": []
+    },
+    "research-spelling-numbers": {
+      "title": "Let's Learn English Lesson 3: I'm Here!",
+      "url": "https://www.youtube.com/watch?v=IEA9LMy-N3M",
+      "embed": "https://www.youtube-nocookie.com/embed/IEA9LMy-N3M?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 3",
+      "question": {
+        "prompt": "Почему Анна сначала не дозванивается до Марши?",
+        "answer": "Набрала не тот номер: 555-8689 вместо 555-8986"
+      },
+      "lookFor": "Послушай, как номер называют по одной цифре: five-five-five, eight-nine-eight-six",
+      "shadowLine": "Is this 555-8986?",
+      "lines": []
+    },
+    "natural-a1-welcome": {
+      "title": "Let's Learn English Lesson 1 - Welcome!",
+      "url": "https://www.youtube.com/watch?v=WR9_nsLyaEY",
+      "embed": "https://www.youtube-nocookie.com/embed/WR9_nsLyaEY?start=0&end=230",
+      "start": 0,
+      "end": 230,
+      "source": "VOA Learning English — Let's Learn English, Lesson 1",
+      "question": {
+        "prompt": "Как пишется имя Анны?",
+        "answer": "A-N-N-A, с двумя n"
+      },
+      "lookFor": "Найди приветствие и имя по буквам: Nice to meet you; Is that A-N-A? — No. A-N-N-A",
+      "shadowLine": "Nice to meet you.",
+      "lines": []
+    },
+    "path-present-continuous": {
+      "title": "Let's Learn English Lesson 7 - What Are You Doing?",
+      "url": "https://www.youtube.com/watch?v=Ka33lX-kbMg",
+      "embed": "https://www.youtube-nocookie.com/embed/Ka33lX-kbMg?start=0&end=474",
+      "start": 0,
+      "end": 474,
+      "source": "VOA Learning English — Let's Learn English, Lesson 7",
+      "question": {
+        "prompt": "Что делают коллеги, когда Анна к ним подходит?",
+        "answer": "Пишут, записывают передачу, читают для эфира"
+      },
+      "lookFor": "Найди am / is / are + -ing: What are you doing? I'm writing. I'm reading for my show.",
+      "shadowLine": "What are you doing?",
+      "lines": []
+    },
+    "path-there-is": {
+      "title": "Lesson 11: This Is My Neighborhood",
+      "url": "https://www.youtube.com/watch?v=8_npDNRKGIE",
+      "embed": "https://www.youtube-nocookie.com/embed/8_npDNRKGIE?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 11",
+      "question": {
+        "prompt": "Где Анна берёт наличные на марки?",
+        "answer": "В банке прямо за ней"
+      },
+      "lookFor": "Найди Is there…? и There is…: Is there a post office near here? There is a bank behind you.",
+      "shadowLine": "Is there a bank near here?",
+      "lines": []
+    },
+    "path-countability": {
+      "title": "Let's Learn English Lesson 30: Rolling on the River",
+      "url": "https://www.youtube.com/watch?v=GnQEE0gEir0",
+      "embed": "https://www.youtube-nocookie.com/embed/GnQEE0gEir0?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 30",
+      "question": {
+        "prompt": "Что Анна покупает на рыбном рынке и сколько платит?",
+        "answer": "Фунт креветок и дюжину крабов; $49.95"
+      },
+      "lookFor": "Сравни How much shrimp? (не считаем) и How many crabs? (считаем)",
+      "shadowLine": "How many crabs do you want?",
+      "lines": []
+    },
+    "path-place-time": {
+      "title": "Let's Learn English Lesson 6 - Where Is the Gym",
+      "url": "https://www.youtube.com/watch?v=T3AJ29_2IX8",
+      "embed": "https://www.youtube-nocookie.com/embed/T3AJ29_2IX8?start=0&end=442",
+      "start": 0,
+      "end": 442,
+      "source": "VOA Learning English — Let's Learn English, Lesson 6",
+      "question": {
+        "prompt": "Где на самом деле спортзал?",
+        "answer": "Напротив комнаты отдыха, рядом с почтовой комнатой, за вестибюлем"
+      },
+      "lookFor": "Найди слова места: across from, next to, behind",
+      "shadowLine": "The gym is across from the lounge.",
+      "lines": []
+    },
+    "path-requests-can": {
+      "title": "Let's Learn English Lesson 20: What Can You Do?",
+      "url": "https://www.youtube.com/watch?v=2juFXfLsSJk",
+      "embed": "https://www.youtube-nocookie.com/embed/2juFXfLsSJk?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 20",
+      "question": {
+        "prompt": "Кем в итоге решает стать Пит?",
+        "answer": "Писателем — у его блога много подписчиков"
+      },
+      "lookFor": "Найди can / can't без to: Can you drive? I can't cook. I can be a writer!",
+      "shadowLine": "I can be a writer!",
+      "lines": []
+    },
+    "extended-a1-order": {
+      "title": "Let's Learn English Lesson 23: What Do You Want?",
+      "url": "https://www.youtube.com/watch?v=DzaLlp_kG6c",
+      "embed": "https://www.youtube-nocookie.com/embed/DzaLlp_kG6c?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 23",
+      "question": {
+        "prompt": "Что заказывает Джонатан, когда креветки закончились?",
+        "answer": "Говядину"
+      },
+      "lookFor": "Найди, как заказывают и исправляют заказ: I'll have the shrimp… Okay, I'll have the beef then; и сдачу: here is your change",
+      "shadowLine": "I'll have the beef then.",
+      "lines": []
+    },
+    "research-ordering-checkout": {
+      "title": "How to Pronounce: Methods of Payment -- Cash or Credit Cards",
+      "url": "https://www.youtube.com/watch?v=u9FlBQappD0",
+      "embed": "https://www.youtube-nocookie.com/embed/u9FlBQappD0?start=0&end=121",
+      "start": 0,
+      "end": 121,
+      "source": "VOA Learning English — How to Pronounce",
+      "question": {
+        "prompt": "Какое слово остаётся без -s, а какое получает -s в вопросе об оплате?",
+        "answer": "cash — без -s; credit cards — с -s"
+      },
+      "lookFor": "Найди вопросы об оплате: Do you take cash? Do you take credit cards? Do you prefer cash or credit cards?",
+      "shadowLine": "Do you take credit cards?",
+      "lines": []
+    },
+    "extended-a1-chat": {
+      "title": "Let's Learn English Lesson 17: Are You Free on Friday?",
+      "url": "https://www.youtube.com/watch?v=91sCUUVTDV8",
+      "embed": "https://www.youtube-nocookie.com/embed/91sCUUVTDV8?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 17",
+      "question": {
+        "prompt": "Когда Анна и Марша наконец идут в кино?",
+        "answer": "В субботу днём, сразу — Марша переносит дела на воскресенье"
+      },
+      "lookFor": "Найди, как договариваются о времени: Are you busy this Thursday at 6pm? How about on Wednesday night? Let's go!",
+      "shadowLine": "Are you busy on Friday night?",
+      "lines": []
+    },
+    "path-instructions": {
+      "title": "Lesson 10: Come Over to My Place",
+      "url": "https://www.youtube.com/watch?v=1Lo_ICJYxZI",
+      "embed": "https://www.youtube-nocookie.com/embed/1Lo_ICJYxZI?start=0&end=301",
+      "start": 0,
+      "end": 301,
+      "source": "VOA Learning English — Let's Learn English, Lesson 10",
+      "question": {
+        "prompt": "Напротив чего находится дом Анны?",
+        "answer": "Напротив большого универмага"
+      },
+      "lookFor": "Найди указания, которые начинаются с глагола: Exit the Metro and turn right. Then walk straight ahead.",
+      "shadowLine": "Exit the Metro and turn right.",
+      "lines": []
+    },
+    "path-adjectives-frequency": {
+      "title": "Let's Learn English Lesson 18: She Always Does That",
+      "url": "https://www.youtube.com/watch?v=he12VfXp5Ec",
+      "embed": "https://www.youtube-nocookie.com/embed/he12VfXp5Ec?start=0&end=299",
+      "start": 0,
+      "end": 299,
+      "source": "VOA Learning English — Let's Learn English, Lesson 18",
+      "question": {
+        "prompt": "Что начальница запрещает Анне в новостях?",
+        "answer": "Показывать чувства — только факты"
+      },
+      "lookFor": "Найди слова частоты перед действием: We are always reading facts. We never show our feelings. She rarely talks… she often says…",
+      "shadowLine": "We never show our feelings.",
+      "lines": []
+    },
+    "extended-a1-day": {
+      "title": "Let's Learn English Lesson 13: Happy Birthday, William Shakespeare!",
+      "url": "https://www.youtube.com/watch?v=jkutq1P7AHU",
+      "embed": "https://www.youtube-nocookie.com/embed/jkutq1P7AHU?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 13",
+      "question": {
+        "prompt": "Почему Анна сегодня смотрит кукольный спектакль?",
+        "answer": "Сегодня день рождения Шекспира"
+      },
+      "lookFor": "Сравни привычку и «сегодня»: I never watch puppet shows. But today I am watching a puppet show.",
+      "shadowLine": "I never watch puppet shows.",
+      "lines": []
+    },
+    "path-past-simple": {
+      "title": "Let's Learn English Lesson 24: Yesterday Was Amazing",
+      "url": "https://www.youtube.com/watch?v=7BDjr0Oc6VM",
+      "embed": "https://www.youtube-nocookie.com/embed/7BDjr0Oc6VM?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 24",
+      "question": {
+        "prompt": "Куда Анна попала, когда пошла прогуляться с работы?",
+        "answer": "На Смитсоновский фестиваль народной культуры (баскская культура)"
+      },
+      "lookFor": "Найди прошедшее время: I was at work, I wanted a break, I walked, I saw, It was a festival",
+      "shadowLine": "Then, I saw something!",
+      "lines": []
+    },
+    "research-ending-s-ed": {
+      "title": "Everyday Grammar TV: Past Tense -ed with Taylor Swift",
+      "url": "https://www.youtube.com/watch?v=Q-g4o0aZsWc",
+      "embed": "https://www.youtube-nocookie.com/embed/Q-g4o0aZsWc?start=0&end=121",
+      "start": 0,
+      "end": 121,
+      "source": "VOA Learning English — Everyday Grammar TV",
+      "question": {
+        "prompt": "Когда -ed звучит как отдельный слог /ɪd/?",
+        "answer": "Если глагол кончается на звук t или d: wanted, decided, needed"
+      },
+      "lookFor": "Слушай -ed: /ɪd/ в wanted, decided; просто /d/ после звонкого звука или гласной",
+      "shadowLine": "",
+      "lines": []
+    },
+    "path-dates-directions": {
+      "title": "How to Pronounce: Take First, Second, Third",
+      "url": "https://www.youtube.com/watch?v=-BJe3LMH1FA",
+      "embed": "https://www.youtube-nocookie.com/embed/-BJe3LMH1FA?start=0&end=120",
+      "start": 0,
+      "end": 120,
+      "source": "VOA Learning English — How to Pronounce",
+      "question": {
+        "prompt": "Как ответят на вопрос, где информационный офис?",
+        "answer": "Walk that way. It will be the second door on the right / Take the first left"
+      },
+      "lookFor": "Найди порядковые числа с left и right: the second door on the right, take the first left",
+      "shadowLine": "Walk that way. Take the first left.",
+      "lines": []
+    },
+    "path-past-continuous": {
+      "title": "Lesson 42: I Was Minding My Own Business",
+      "url": "https://www.youtube.com/watch?v=0aa78zW51so",
+      "embed": "https://www.youtube-nocookie.com/embed/0aa78zW51so?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 42",
+      "question": {
+        "prompt": "Где Анна на самом деле повредила руку?",
+        "answer": "В торговом автомате, когда доставала пакет чипсов"
+      },
+      "lookFor": "Найди was/were + -ing: She was yelling… Two robbers were grabbing her bag. While I was running, I tripped and fell.",
+      "shadowLine": "She was hitting them with her umbrella.",
+      "lines": []
+    },
+    "path-could-able": {
+      "title": "Let's Learn English Lesson 43: Time for Plan B",
+      "url": "https://www.youtube.com/watch?v=4z_TK18v2u8",
+      "embed": "https://www.youtube-nocookie.com/embed/4z_TK18v2u8?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 43",
+      "question": {
+        "prompt": "Почему друзья не могут помочь Анне?",
+        "answer": "Марша занята презентацией, Джонатан в аэропорту с мамой, Эшли сидит с племянницей"
+      },
+      "lookFor": "Найди could и be able to: Would you be able to come downtown? I wish I could. Could you give me $20?",
+      "shadowLine": "I wish I could.",
+      "lines": []
+    },
+    "path-future-simple": {
+      "title": "Let's Learn English Lesson 34: What Will I Do?",
+      "url": "https://www.youtube.com/watch?v=qIiGG0pwzwk",
+      "embed": "https://www.youtube-nocookie.com/embed/qIiGG0pwzwk?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 34",
+      "question": {
+        "prompt": "Кем Анна в итоге идёт на вечеринку?",
+        "answer": "Рок-звездой"
+      },
+      "lookFor": "Найди will и might: You will get a job… — I might get a job? She will say yes!",
+      "shadowLine": "You will get a job writing the news.",
+      "lines": []
+    },
+    "path-future-plans": {
+      "title": "Let's Learn English Lesson 22: Next Summer...",
+      "url": "https://www.youtube.com/watch?v=8Whu9xgm3dE",
+      "embed": "https://www.youtube-nocookie.com/embed/8Whu9xgm3dE?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 22",
+      "question": {
+        "prompt": "О чём будет первая детская передача Анны и Амелии?",
+        "answer": "О летних каникулах"
+      },
+      "lookFor": "Найди going to для плана: What are we going to talk about? First, we're going to introduce the subject.",
+      "shadowLine": "So, what are we going to talk about on the first show?",
+      "lines": []
+    },
+    "path-suggestions-offers": {
+      "title": "Let's Learn English Lesson 38: She’s my best friend!",
+      "url": "https://www.youtube.com/watch?v=oPEzfd7ZKQs",
+      "embed": "https://www.youtube-nocookie.com/embed/oPEzfd7ZKQs?start=0&end=305",
+      "start": 0,
+      "end": 305,
+      "source": "VOA Learning English — Let's Learn English, Lesson 38",
+      "question": {
+        "prompt": "Что Анна предлагает Пенелопе и что та отвечает?",
+        "answer": "Переехать и жить с ней и Маршей; Пенелопа не может оставить родной город и работу"
+      },
+      "lookFor": "Найди предложения: Let's go to my apartment. Why don't you move here and live with me and Marsha?",
+      "shadowLine": "Let's go to my apartment.",
+      "lines": []
+    },
+    "research-schwa-wordstress": {
+      "title": "How to Pronounce: King of Vowel Sounds",
+      "url": "https://www.youtube.com/watch?v=As7D2lD-blE",
+      "embed": "https://www.youtube-nocookie.com/embed/As7D2lD-blE?start=0&end=120",
+      "start": 0,
+      "end": 120,
+      "source": "VOA Learning English — How to Pronounce",
+      "question": {
+        "prompt": "Почему автор называет нейтральный гласный «королём»?",
+        "answer": "Он в центре всего американского произношения; язык лежит расслабленно посередине рта"
+      },
+      "lookFor": "Послушай безударный /ə/ — короткий, расслабленный, без ударения",
+      "shadowLine": "It is the neutral vowel sound.",
+      "lines": []
+    },
+    "path-vowels-russian": {
+      "title": "How to Pronounce: Games with Vowel Sounds",
+      "url": "https://www.youtube.com/watch?v=fpn3t_EI8io",
+      "embed": "https://www.youtube-nocookie.com/embed/fpn3t_EI8io?start=0&end=120",
+      "start": 0,
+      "end": 120,
+      "source": "VOA Learning English — How to Pronounce",
+      "question": {
+        "prompt": "Какие два гласных сравнивают в игре?",
+        "answer": "/ɪ/ как в city, Italy и /i/ как в see, sleep"
+      },
+      "lookFor": "Слушай разницу: короткий /ɪ/ (city) и долгий /i/ (see, sleep)",
+      "shadowLine": "Vowel sounds are very important in American English.",
+      "lines": []
+    },
+    "path-present-perfect": {
+      "title": "Let's Learn English Lesson 48: Have You Ever...?",
+      "url": "https://www.youtube.com/watch?v=Dngj5yTCQIY",
+      "embed": "https://www.youtube-nocookie.com/embed/Dngj5yTCQIY?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 48",
+      "question": {
+        "prompt": "Где Анна никогда не была, хотя давно живёт в Вашингтоне?",
+        "answer": "В зоопарке — ни в одном"
+      },
+      "lookFor": "Найди have/has + третья форма: Have you ever seen…? I have never seen… I've never been to any zoos!",
+      "shadowLine": "I've never been to any zoos!",
+      "lines": []
+    },
+    "path-possessive-pronouns": {
+      "title": "Let's Learn English Lesson 37: Let's Agree to Disagree",
+      "url": "https://www.youtube.com/watch?v=AGYPb0eeIs8",
+      "embed": "https://www.youtube-nocookie.com/embed/AGYPb0eeIs8?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 37",
+      "question": {
+        "prompt": "Чья сумка в итоге оказалась?",
+        "answer": "Фила — туриста из маленького города"
+      },
+      "lookFor": "Найди слова «чей» без вещи после: Is this bag yours? It's not mine. It might be hers.",
+      "shadowLine": "Is this bag yours?",
+      "lines": []
+    },
+    "path-comparatives": {
+      "title": "Let's Learn English Lesson 31 Take Me Out to the Ball Game",
+      "url": "https://www.youtube.com/watch?v=xfMnWypEufs",
+      "embed": "https://www.youtube-nocookie.com/embed/xfMnWypEufs?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 31",
+      "question": {
+        "prompt": "Что в итоге оказалось быстрее автобуса, такси и велосипеда?",
+        "answer": "Метро"
+      },
+      "lookFor": "Найди -er + than: A taxi is faster than a bus. Being early is better than being late.",
+      "shadowLine": "A taxi is faster than a bus.",
+      "lines": []
+    },
+    "path-adverbs-manner": {
+      "title": "Let's Learn English Lesson 40: The Woods Are Alive (corrected subtitles)",
+      "url": "https://www.youtube.com/watch?v=nABtxJy06Yo",
+      "embed": "https://www.youtube-nocookie.com/embed/nABtxJy06Yo?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 40",
+      "question": {
+        "prompt": "Какую роль Анна в итоге получает?",
+        "answer": "Дерево в спектакле «The Woods Are Alive»"
+      },
+      "lookFor": "Найди -ly после действия: speak more loudly, walk slowly and quietly, it fits you perfectly",
+      "shadowLine": "Walk slowly and quietly.",
+      "lines": []
+    },
+    "path-obligation": {
+      "title": "Let's Learn English Lesson 21: Can You Come to the Party?",
+      "url": "https://www.youtube.com/watch?v=A9lwBqNZEh8",
+      "embed": "https://www.youtube-nocookie.com/embed/A9lwBqNZEh8?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 21",
+      "question": {
+        "prompt": "Почему Анна сначала отказывается идти на вечеринку?",
+        "answer": "Ей надо получать водительские права — сдавать тесты"
+      },
+      "lookFor": "Найди have to / has to: I have to get my driver's license. Everyone has to bring something.",
+      "shadowLine": "I have to get my driver's license.",
+      "lines": []
+    },
+    "path-zero-first": {
+      "title": "Let's Learn English Lesson 41: Teamwork Works Best With a Team",
+      "url": "https://www.youtube.com/watch?v=jCSHkjcmZvs",
+      "embed": "https://www.youtube-nocookie.com/embed/jCSHkjcmZvs?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 41",
+      "question": {
+        "prompt": "Что не так с первым графиком у мисс Уивер?",
+        "answer": "Он перевёрнут вверх ногами"
+      },
+      "lookFor": "Найди if + настоящее, will + действие: If you look at this chart, you will see something good.",
+      "shadowLine": "If you look at this chart, you will see something good.",
+      "lines": []
+    },
+    "path-gerund-infinitive": {
+      "title": "Let's Learn English Lesson 47: How Can I Help?",
+      "url": "https://www.youtube.com/watch?v=vlNqXVmMPNY",
+      "embed": "https://www.youtube-nocookie.com/embed/vlNqXVmMPNY?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 47",
+      "question": {
+        "prompt": "Почему машина Пита не заводится?",
+        "answer": "Закончился бензин"
+      },
+      "lookFor": "Найди глагол + to и глагол + -ing: I was planning to visit some friends. I like helping.",
+      "shadowLine": "I like helping.",
+      "lines": []
+    },
+    "research-apologies-remedies": {
+      "title": "Let's Learn English Lesson 8: Are You Busy?",
+      "url": "https://www.youtube.com/watch?v=sp0cwcd1fGE",
+      "embed": "https://www.youtube-nocookie.com/embed/sp0cwcd1fGE?start=0&end=235",
+      "start": 0,
+      "end": 235,
+      "source": "VOA Learning English — Let's Learn English, Lesson 8",
+      "question": {
+        "prompt": "Что ждёт Анну в кабинете начальницы в 5 вечера?",
+        "answer": "Вечеринка-сюрприз — и работа за ней остаётся"
+      },
+      "lookFor": "Найди извинения: Sorry about yesterday. I want to say I'm sorry for yesterday.",
+      "shadowLine": "Sorry about yesterday.",
+      "lines": []
+    },
+    "path-relative-basic": {
+      "title": "Let's Learn English Lesson 29: A Long Time Ago",
+      "url": "https://www.youtube.com/watch?v=_demyJmMyCo",
+      "embed": "https://www.youtube-nocookie.com/embed/_demyJmMyCo?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 29",
+      "question": {
+        "prompt": "Кем Анна и Марша мечтали стать в детстве?",
+        "answer": "Анна — президентом США, Марша — астронавтом"
+      },
+      "lookFor": "Найди who и where, которые уточняют: people who live here; Ford's Theatre, where a man shot President Abraham Lincoln",
+      "shadowLine": "When I was a little girl, I was not like other children.",
+      "lines": []
+    },
+    "path-connectors-basic": {
+      "title": "Everyday Grammar TV: 'But' a Small, Common, Important Word",
+      "url": "https://www.youtube.com/watch?v=YzdzbJg3vhk",
+      "embed": "https://www.youtube-nocookie.com/embed/YzdzbJg3vhk?start=0&end=121",
+      "start": 0,
+      "end": 121,
+      "source": "VOA Learning English — Everyday Grammar TV",
+      "question": {
+        "prompt": "Что добавляет в предложение маленькое слово but?",
+        "answer": "Противопоставление и интерес: соединяет две части с подлежащим и сказуемым"
+      },
+      "lookFor": "Найди but между двумя частями: It's a small, common word… But it adds excitement and contrast to sentences.",
+      "shadowLine": "It's a small, common word.",
+      "lines": []
+    },
+    "extended-a2-story": {
+      "title": "Let's Learn English Lesson 28: I Passed It!",
+      "url": "https://www.youtube.com/watch?v=rn7kmGroxKs",
+      "embed": "https://www.youtube-nocookie.com/embed/rn7kmGroxKs?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 28",
+      "question": {
+        "prompt": "С какой попытки Анна сдала экзамен по вождению?",
+        "answer": "Со второй"
+      },
+      "lookFor": "Слушай историю в два слоя: события (It started fine, I passed) и фон (You were driving too slow, There were cars in the street)",
+      "shadowLine": "I passed my driving test!",
+      "lines": []
+    },
+    "path-everyday-phrasal": {
+      "title": "Let's Learn English - Level 2 - Lesson 2: The Interview",
+      "url": "https://www.youtube.com/watch?v=xokbf-np33Q",
+      "embed": "https://www.youtube-nocookie.com/embed/xokbf-np33Q?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English Level 2, Lesson 2",
+      "question": {
+        "prompt": "Какое новое задание мисс Уивер даёт Анне?",
+        "answer": "Снова вести программу и работать в паре с очень непохожим на неё человеком"
+      },
+      "lookFor": "Найди фразовые глаголы: giving new assignments out, go back to hosting, team up with someone",
+      "shadowLine": "I want you to go back to hosting and reporting.",
+      "lines": []
+    },
+    "path-email-basic": {
+      "title": "Everyday Grammar TV: Making Polite Requests in Email",
+      "url": "https://www.youtube.com/watch?v=mdFw-erJIQs",
+      "embed": "https://www.youtube-nocookie.com/embed/mdFw-erJIQs?start=0&end=120",
+      "start": 0,
+      "end": 120,
+      "source": "VOA Learning English — Everyday Grammar TV",
+      "question": {
+        "prompt": "Кому Фейт пишет письмо и почему?",
+        "answer": "Ветеринару её кошки — там перепутали лекарство"
+      },
+      "lookFor": "Найди вежливые просьбы с could / would: Would you mind helping me…? Would you be able to refill…?",
+      "shadowLine": "Would you mind helping me with something?",
+      "lines": []
+    },
+    "path-present-perfect-continuous": {
+      "title": "Let's Learn English Lesson 50: Back to School",
+      "url": "https://www.youtube.com/watch?v=DGAUQIcY8FA",
+      "embed": "https://www.youtube-nocookie.com/embed/DGAUQIcY8FA?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 50",
+      "question": {
+        "prompt": "О чём на самом деле должен был быть доклад Анны?",
+        "answer": "О насилии в городе (violence), а не о скрипках (violins)"
+      },
+      "lookFor": "Найди have/has been + -ing с for и since: I have been writing… since last night. How long has the class been waiting? I've been studying here since 2015.",
+      "shadowLine": "I've been studying here since 2015.",
+      "lines": []
+    },
+    "path-past-perfect": {
+      "title": "Let's Learn English Level 2 Lesson 3: He Said - She Said",
+      "url": "https://www.youtube.com/watch?v=a7X5ftOnp74",
+      "embed": "https://www.youtube-nocookie.com/embed/a7X5ftOnp74?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English Level 2, Lesson 3",
+      "question": {
+        "prompt": "Почему Анна и Пит опоздали на встречу?",
+        "answer": "Каждый винит другого: Пит ждал особый кофе, Анна кормила птиц"
+      },
+      "lookFor": "Найди had + третья форма для более раннего события: I had waited 15 minutes when Pete arrived. By the time she had fed all the birds, we were late.",
+      "shadowLine": "By the time she had fed all the birds, we were late.",
+      "lines": []
+    },
+    "path-future-continuous": {
+      "title": "Let's Learn English Lesson 45 This Land is Your Land",
+      "url": "https://www.youtube.com/watch?v=R4SVqLFBhVY",
+      "embed": "https://www.youtube-nocookie.com/embed/R4SVqLFBhVY?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 45",
+      "question": {
+        "prompt": "Куда Анна по ошибке везёт Маршу вместо Южной Дакоты?",
+        "answer": "В Северную Дакоту"
+      },
+      "lookFor": "Найди will be + -ing: We will be driving for a long time. We'll be eating lunch in about 2 hours.",
+      "shadowLine": "We will be driving for a long time.",
+      "lines": []
+    },
+    "path-word-formation": {
+      "title": "Let's Learn English Lesson 39: It’s Unbelievable!",
+      "url": "https://www.youtube.com/watch?v=FpCQfJLD4K8",
+      "embed": "https://www.youtube-nocookie.com/embed/FpCQfJLD4K8?start=0&end=300",
+      "start": 0,
+      "end": 300,
+      "source": "VOA Learning English — Let's Learn English, Lesson 39",
+      "question": {
+        "prompt": "Что случилось с волосами Анны после Hair Be Good?",
+        "answer": "Стали выглядеть плохо — средство не помогло"
+      },
+      "lookFor": "Найди приставки с отрицанием: untidy, uncomfortable, inexpensive, imperfect, unbelievable, dishonest",
+      "shadowLine": "This is not perfect. This is imperfect!",
+      "lines": []
+    }
+  }
+}

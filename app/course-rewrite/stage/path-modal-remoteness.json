@@ -1,0 +1,335 @@
+{
+  "id": "path-modal-remoteness",
+  "title": "I was hoping, What if we moved…: прошедшая форма без прошлого",
+  "subtitle": "Вежливость или правда прошлое → I was hoping, I wanted to ask, Did you want…? → You might want to → What if we + прошедшая форма → would rather you didn't / hadn't → где мягкость мешает",
+  "level": "C2",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Просить и предлагать мягко, но ясно: «Я надеялся, что ты сможешь…» — I was hoping you could…; «Может, стоит взять зонт» — You might want to take an umbrella; «А что если перенести на субботу?» — What if we moved it to Saturday? И понимать, когда прошедшая форма значит не «вчера», а вежливость.",
+  "formula": "прошедшая форма = шаг назад от собеседника, а не вчера → I was hoping / I wanted to ask / Did you want…? → would, could, might вместо will, can, may → What if we / Suppose we + прошедшая форма → I'd rather you didn't (впереди) / hadn't (уже было) → срочное — прямо: please + срок + причина",
+  "keyRule": {
+    "rule": "Прошедшая форма в просьбе — это вежливость, а не вчера. Проверка: добавь now.",
+    "example": "I was hoping you could help me today. — Я надеялся, ты сможешь помочь мне сегодня.",
+    "check": "I wanted to ask… — это о прошлом? Нет, просьба сейчас."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-polite-questions",
+    "path-advice-preference",
+    "path-second-conditional",
+    "path-hedging"
+  ],
+  "recycles": [
+    "path-hedging",
+    "path-suggestions-offers"
+  ],
+  "teaches": [
+    "прошедшая форма в просьбе — шаг назад, а не прошлое; проверка — добавить now / today",
+    "I hope you can → I'm hoping you can → I was hoping you could: чем дальше назад, тем легче отказать",
+    "I wanted to ask… / I just wanted to check… — начало письма или звонка; just — «просто, ничего срочного»",
+    "I was thinking we could… — нерешённое предложение; Did you want…? — вопрос продавца о сейчас",
+    "You might want to + глагол — «возможно, стоит», мягкий совет вместо should; It would be great if you could…",
+    "What if we moved…? / Suppose we tried… — предложение о будущем в прошедшей форме",
+    "I'd rather you didn't… — ещё можно не делать; I'd rather you hadn't… — уже сделано, жаль",
+    "срочное и обязательное — прямо: please + срок + причина; одно мягкое начало, а не was just wondering if maybe possibly",
+    "слова: package, projector, tow truck, extension, drums, vendor"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Using Past Forms to Describe Present, Future",
+      "url": "https://learningenglish.voanews.com/a/using-past-forms-to-describe-present-future/5010896.html",
+      "notes": "Сверено: прошедшие формы говорят о сейчас и будущем ради вежливости и неуверенности: I was wondering if my computer was ready yet вежливее, чем Is my computer ready yet?; We were hoping you could… оставляет место для отказа, а We hope you can… звучит так, будто «да» уже ожидается; I was thinking of… — план ещё не решён; It's time we left; Suppose / What if + прошедшая форма."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна просьба — сколько свободы отказать",
+    "why": "Первые три фразы — одна и та же просьба на сегодня. Чем дальше форма отходит назад, тем легче собеседнику сказать «нет». Последняя фраза — о настоящем прошлом.",
+    "items": [
+      {
+        "label": "Прямо",
+        "en": "Send me the file today.",
+        "ru": "Пришли мне файл сегодня.",
+        "note": "Отказ не предполагается."
+      },
+      {
+        "label": "Вежливо",
+        "en": "Could you send me the file today?",
+        "ru": "Можешь прислать мне файл сегодня?",
+        "note": "Обычная просьба коллеге."
+      },
+      {
+        "label": "Очень мягко",
+        "en": "I was wondering if you could send me the file today.",
+        "ru": "Я хотел спросить, не мог бы ты прислать мне файл сегодня.",
+        "note": "Was wondering — не вчера: просьба на сегодня."
+      },
+      {
+        "label": "Правда прошлое",
+        "en": "I was wondering about the file all day yesterday.",
+        "ru": "Я весь вчерашний день думал о файле.",
+        "note": "Yesterday — здесь речь о прошлом."
+      }
+    ],
+    "focus": [
+      "Send",
+      "Could you",
+      "I was wondering",
+      "yesterday"
+    ],
+    "footnote": "Срочное говори прямо: please, срок и причина делают фразу вежливой без лишних слоёв."
+  },
+  "sections": [
+    {
+      "title": "Шаг назад во времени — шаг назад от собеседника",
+      "body": "Просьбу I was wondering if you could… ты знаешь из урока о вежливых вопросах. Was wondering — прошедшая форма, а просьба — сейчас. Почему так? Прошедшая форма отодвигает фразу от «здесь и сейчас». Просьба звучит не как требование, а как мысль, которую можно отклонить.\n\nПо-русски мы делаем то же самое. «Я хотел спросить…» — ты спрашиваешь сейчас, хотя «хотел» — прошлое. «Не могли бы вы…» — тоже шаг назад: «могли бы» вместо «можете».\n\nПохожее ты видел в уроке «Если бы сейчас»: If I had a car — машины нет, прошедшая форма значит «не на самом деле». В просьбе она значит «не напрямую».\n\nКак понять, о прошлом фраза или нет. Добавь now или today. I was wondering if you could check it today — подходит, значит, это просьба. I was wondering about that all day yesterday — здесь правда прошлое. Отвечают на мягкую просьбу в настоящем: Sure, I can do it now."
+    },
+    {
+      "title": "Мягкие начала: I was hoping, I wanted to ask, Did you want…?",
+      "body": "I hope you can… — «надеюсь, ты сможешь»: звучит так, будто «да» уже известно. I'm hoping you can… — мягче. I was hoping you could… — ещё мягче. Чем дальше назад, тем легче собеседнику отказать.\n\nI wanted to ask… и I just wanted to check… — «хотел спросить», «хотел уточнить». Очень частое начало письма или звонка: I just wanted to check if you got my email. Just здесь не «только», а «просто, ничего срочного».\n\nI was thinking we could… — «я тут подумал, можно было бы…»: предложение, которое ещё не решено. I'm thinking we should… звучит увереннее.\n\nDid you want…? вместо Do you want…? часто говорят продавцы и официанты в США: Did you want a bag? — «Пакет нужен?». Это вопрос о сейчас.\n\nГде правило кончается: в рассказе о прошлом эти формы — обычное прошлое. I wanted to call you, but it was late — правда хотел, вчера."
+    },
+    {
+      "title": "Would, could, might: ещё один шаг назад",
+      "body": "Could you…? вместо Can you…? и Would you…? вместо Will you…? ты знаешь. Те же слова смягчают и советы, и мнения.\n\nYou might want to + глагол — «возможно, тебе стоит»: You might want to bring a jacket. Это совет, а не «может быть, ты захочешь». Американцы так говорят коллегам и незнакомым, когда should прозвучало бы как указание.\n\nIt would be great if you could… — «было бы здорово, если бы ты мог…». Здесь сразу два шага назад, would и could, поэтому просьба очень мягкая.\n\nI'd say… — «по-моему», смягчённое мнение. Ты помнишь его из урока об оговорках: I'd say the second option is better. Это не «я бы сказал, но не говорю».\n\nГраница: You might want to — совет другому. О себе I might want to leave early значит просто «может, мне захочется уйти пораньше»."
+    },
+    {
+      "title": "What if we moved…? I'd rather you hadn't: прошедшая форма о будущем",
+      "body": "What if we + прошедшая форма? — «а что если…?» о будущем: What if we moved the meeting to Thursday? Ты предлагаешь, но не давишь. What if we move…? — тоже правильно, чуть прямее. Так же Suppose we tried a different approach? — «а допустим, мы попробуем по-другому?».\n\nИз урока о совете и выборе ты знаешь: I'd rather you didn't tell anyone — «я бы предпочёл, чтобы ты никому не говорил». Didn't — прошедшая форма, а речь о будущем. Так же It's time we left — «нам пора».\n\nНовое: если действие уже случилось, нужен had: I'd rather you hadn't told Tom — «лучше бы ты не говорил Тому». А ты уже сказал. Didn't — ещё можно не делать. Hadn't — уже сделано, жаль.\n\nОшибка: I'd rather you to tell… — to здесь не ставят. I'd rather you don't… в американской речи слышно, но на письме пиши didn't."
+    },
+    {
+      "title": "Где мягкость мешает",
+      "body": "Каждый шаг назад даёт собеседнику право сказать «нет». Это хорошо, когда право у него действительно есть. Когда его нет, мягкая форма путает: человек решит, что просьба необязательная.\n\nСрочное и важное для безопасности говори прямо: Please move your car by 8 a.m. tomorrow. The street will be cleaned. А не: I was just wondering if maybe you could possibly move your car at some point. Прямо — не значит грубо. Please и короткая причина делают фразу вежливой.\n\nНе складывай всё сразу. Одного мягкого начала хватает. Дальше — что именно нужно и к какому сроку: I was wondering if you could send the report by Friday.\n\nПроверка: прочитай просьбу глазами собеседника. Понятно ли, что сделать, к какому сроку и можно ли отказаться? Если отказаться нельзя, убери was wondering."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I was hoping you could water my plants this weekend.",
+      "ru": "Я надеялся, что ты сможешь полить мои цветы на этих выходных.",
+      "why": "Was hoping — просьба сейчас, и отказать легко."
+    },
+    {
+      "en": "I just wanted to check if you got my email.",
+      "ru": "Просто хотел уточнить, получил ли ты моё письмо.",
+      "why": "Wanted — начало письма, а не прошлое."
+    },
+    {
+      "en": "Did you want a receipt?",
+      "ru": "Чек вам нужен?",
+      "why": "Продавец спрашивает о сейчас, просто мягче."
+    },
+    {
+      "en": "You might want to save a copy first.",
+      "ru": "Возможно, стоит сначала сохранить копию.",
+      "why": "Мягкий совет вместо should."
+    },
+    {
+      "en": "What if we started an hour earlier?",
+      "ru": "А что если начать на час раньше?",
+      "why": "Started — о будущем: предложение без давления."
+    },
+    {
+      "en": "I'd rather you hadn't mentioned it to my boss.",
+      "ru": "Лучше бы ты не говорил об этом моему начальнику.",
+      "why": "Hadn't — уже сказано, это сожаление."
+    },
+    {
+      "en": "I wanted to call you last night, but it was too late.",
+      "ru": "Я хотел позвонить тебе вчера вечером, но было слишком поздно.",
+      "why": "Здесь правда прошлое: last night."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь соседке, Mrs. Diaz. Переведи: «Я надеялся, что вы сможете забрать мою посылку в субботу. Меня не будет дома».",
+      "context": "pick up a package — забрать посылку.",
+      "guidance": {
+        "title": "Was hoping — мягче, чем hope",
+        "body": "I hope you can… звучит так, будто ты уже ждёшь «да». I was hoping you could… оставляет место для отказа. Это просьба сейчас, а не прошлое.",
+        "example": "I was hoping you could give me a ride to the airport.",
+        "translation": "Я надеялся, что ты сможешь подвезти меня в аэропорт."
+      },
+      "hint": "Начни так: I was hoping you …",
+      "answers": [
+        "I was hoping you could pick up my package on Saturday. I won't be home.",
+        "I was hoping you could pick up my package on Saturday. I won't be at home.",
+        "I was hoping that you could pick up my package on Saturday. I won't be home.",
+        "I was hoping you could pick up my package on Saturday, because I won't be home.",
+        "I was hoping you could pick my package up on Saturday. I'm not going to be home."
+      ],
+      "explanation": "I was hoping you could — мягкая просьба на субботу, никакого прошлого. Could идёт за hoping: оба слова делают шаг назад. I won't be home — обычное будущее, тут смягчать нечего."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь преподавателю, Dr. Kim. Переведи две фразы: «Я хотел спросить, можно ли перенести наше занятие на четверг. Я хотел написать вам вчера, но забыл».",
+      "context": "move a lesson to Thursday — перенести занятие на четверг.",
+      "guidance": {
+        "title": "Wanted: вежливость или правда прошлое",
+        "body": "В первой фразе wanted to ask — вежливое начало просьбы на сейчас. Во второй wanted — правда прошлое: рядом yesterday.",
+        "example": "I wanted to ask if the job is still open. I wanted to apply last week, but I was sick.",
+        "translation": "Я хотел спросить, свободна ли ещё вакансия. Я хотел подать заявку на прошлой неделе, но болел."
+      },
+      "hint": "Где можно добавить now, а где уже стоит yesterday?",
+      "answers": [
+        "I wanted to ask if we could move our lesson to Thursday. I wanted to email you yesterday, but I forgot.",
+        "I wanted to ask whether we could move our lesson to Thursday. I wanted to email you yesterday, but I forgot.",
+        "I wanted to ask if we could move our class to Thursday. I wanted to write to you yesterday, but I forgot.",
+        "I wanted to ask if we could reschedule our lesson for Thursday. I wanted to email you yesterday, but I forgot.",
+        "I wanted to ask if it would be possible to move our lesson to Thursday. I wanted to email you yesterday, but I forgot."
+      ],
+      "explanation": "Первое wanted — вежливая просьба на сейчас, поэтому дальше could. Второе — настоящее прошлое: yesterday и forgot. Форма одна, смысл решает ситуация."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега идёт на встречу с клиентом. Мягко посоветуй: «Возможно, стоит сначала распечатать договор: у них часто не работает проектор».",
+      "context": "print — распечатать; contract — договор; projector — проектор.",
+      "guidance": {
+        "title": "Мягкий совет — You might want to",
+        "body": "Это не «может, ты захочешь», а «возможно, стоит». После want to — глагол в словарной форме.",
+        "example": "You might want to call ahead. They close early on Sundays.",
+        "translation": "Возможно, стоит заранее позвонить. По воскресеньям они рано закрываются."
+      },
+      "hint": "Начни так: You might want to …",
+      "answers": [
+        "You might want to print the contract first. Their projector often doesn't work.",
+        "You might want to print out the contract first. Their projector often doesn't work.",
+        "You might want to print the contract first, because their projector often doesn't work.",
+        "You might want to print the contract first. Their projector doesn't always work.",
+        "You might want to print the contract first: their projector often doesn't work."
+      ],
+      "explanation": "You might want to print — мягкий совет, решение остаётся за коллегой. You should print звучало бы как указание. Their projector doesn't always work — тоже хорошо и даже мягче."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друзья спорят, когда устроить пикник. Предложи мягко: «А что если перенести пикник на воскресенье? Или, допустим, мы встретимся в парке после обеда?»",
+      "context": "in the afternoon — после обеда, днём.",
+      "guidance": {
+        "title": "What if / Suppose + прошедшая форма — о будущем",
+        "body": "Moved и met здесь не «перенесли» и «встретились». Прошедшая форма делает предложение мягче: ты не решаешь за всех.",
+        "example": "What if we ordered pizza instead? Suppose we left at six?",
+        "translation": "А может, лучше закажем пиццу? А если, допустим, выйдем в шесть?"
+      },
+      "hint": "Какие прошедшие формы у move и meet?",
+      "answers": [
+        "What if we moved the picnic to Sunday? Or suppose we met at the park in the afternoon?",
+        "What if we moved the picnic to Sunday? Or suppose we met in the park in the afternoon?",
+        "What if we moved the picnic to Sunday? Or what if we met at the park in the afternoon?",
+        "What if we moved the picnic to Sunday? Or, suppose we met at the park in the afternoon?",
+        "What if we moved the picnic to Sunday? Suppose we met at the park in the afternoon?"
+      ],
+      "explanation": "Moved и met — прошедшие формы, а речь о воскресенье. What if we move… тоже правильно, но звучит прямее: как готовый план, а не идея на обсуждение."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг рассказал Тому о твоём новом проекте. Скажи ему: «Лучше бы ты не говорил Тому. И я бы предпочёл, чтобы ты пока не рассказывал Анне».",
+      "context": "yet — пока (ещё).",
+      "guidance": {
+        "title": "Уже случилось — hadn't, ещё впереди — didn't",
+        "body": "I'd rather you didn't… — просьба на будущее: это ещё можно не делать. I'd rather you hadn't… — сожаление о том, что уже сделано.",
+        "example": "I'd rather you hadn't sold the car. And I'd rather you didn't sell the bike.",
+        "translation": "Лучше бы ты не продавал машину. И я бы предпочёл, чтобы ты не продавал велосипед."
+      },
+      "hint": "Тому уже рассказали, а Анне — ещё нет.",
+      "answers": [
+        "I'd rather you hadn't told Tom. And I'd rather you didn't tell Anna yet.",
+        "I would rather you hadn't told Tom. And I would rather you didn't tell Anna yet.",
+        "I'd rather you hadn't told Tom. And I'd rather you didn't tell Anna for now.",
+        "I'd rather you hadn't told Tom, and I'd rather you didn't tell Anna yet.",
+        "I'd rather you hadn't told Tom. I'd rather you didn't tell Anna just yet."
+      ],
+      "explanation": "Hadn't told — Тому уже сказали, остаётся сожаление. Didn't tell — Анне ещё нет, это просьба. Обе формы прошедшие, а говорят о разном времени."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Управляющий домом написал жильцам: “Hi everyone! I was just wondering if maybe some of you could possibly think about moving your cars at some point, if that's OK.” На самом деле завтра в 8 утра улицу чистят, а машины, которые останутся, увезёт эвакуатор (tow truck). Перепиши: вежливо, но ясно — что сделать, к какому сроку и почему.",
+      "context": "tow — увезти эвакуатором.",
+      "guidance": {
+        "title": "Обязательное — прямо: please, срок, причина",
+        "body": "Здесь у жильцов нет права отказаться. Убери was wondering, maybe и possibly. Оставь please, точный срок и причину.",
+        "example": "Please don't use the elevator on Monday. It will be inspected from 9 to 11 a.m.",
+        "translation": "Пожалуйста, не пользуйтесь лифтом в понедельник. С 9 до 11 утра его будут проверять."
+      },
+      "hint": "Сколько мягких слов в черновике? Нужно ли здесь хоть одно?",
+      "answers": [
+        "Hi everyone! Please move your cars by 8 a.m. tomorrow. The street will be cleaned, and any cars still parked there will be towed.",
+        "Hi everyone! Please move your cars off the street by 8 a.m. tomorrow. The street is being cleaned, and cars that are still there will be towed.",
+        "Hi everyone! Please move your cars by 8 a.m. tomorrow because the street will be cleaned. Any cars left on the street will be towed.",
+        "Hi everyone, please move your cars by 8 a.m. tomorrow. The city is cleaning the street, and a tow truck will remove any cars that are still parked there."
+      ],
+      "explanation": "Please делает фразу вежливой, by 8 a.m. tomorrow называет срок, причина объясняет, почему это не просьба на выбор. Was just wondering if maybe possibly здесь вредит: жильцы решат, что это можно не делать."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем оговорки и предложения. Коллега предлагает: “Let's launch the new website on Monday.” Ты не согласен. Ответь мягко: «По-моему, понедельник — рискованно: мы ещё не проверили формы. Почему бы не подождать до среды?»",
+      "context": "launch — запустить; risky — рискованно; test the forms — проверить формы.",
+      "guidance": {
+        "title": "Вспоминаем I'd say и Why don't we",
+        "body": "Вспоминаем урок об оговорках: I'd say — «по-моему», мягкое мнение. И урок о предложениях: Why don't we…? — «почему бы не…», это не вопрос о причине.",
+        "example": "I'd say Friday is too late. Why don't we finish on Thursday?",
+        "translation": "По-моему, пятница — это поздно. Почему бы не закончить в четверг?"
+      },
+      "hint": "Начни так: I'd say …",
+      "answers": [
+        "I'd say Monday is risky. We haven't tested the forms yet. Why don't we wait until Wednesday?",
+        "I'd say Monday is a little risky. We haven't tested the forms yet. Why don't we wait until Wednesday?",
+        "I'd say Monday is a bit risky, since we haven't tested the forms yet. Why don't we wait until Wednesday?",
+        "I'd say Monday is risky: we haven't tested the forms yet. Why don't we wait till Wednesday?",
+        "I'd say Monday is risky. We haven't tested the forms yet. What if we waited until Wednesday?"
+      ],
+      "explanation": "I'd say смягчает несогласие, а факт «формы не проверены» сказан прямо — это причина. Why don't we wait… — мягкое предложение. What if we waited… из этого урока тоже подходит."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты аналитик. Руководитель, Ms. Rivera, ждёт квартальный отчёт в пятницу, но сведения от поставщика (vendor) придут только в четверг вечером. Напиши ей письмо на 200–300 слов. Что должно быть: одно мягкое начало с прошедшей формой (I was wondering / I was hoping / I wanted to ask); что ты просишь и почему; предложение с What if we… или I was thinking we could…; один факт без смягчения — к пятнице полный отчёт невозможен; запасной вариант (например, черновик без новых сведений); просьба ответить к конкретному дню; подпись.",
+      "context": "quarterly report — квартальный отчёт; vendor — поставщик; draft — черновик.",
+      "hint": "План: Hi Ms. Rivera, → I was wondering if… → The vendor's data… → A complete report by Friday isn't possible. → What if we…? → If you need something on Friday, I can… → Could you let me know by…?",
+      "answers": [
+        "Hi Ms. Rivera,\n\nI was wondering if we could move the deadline for the quarterly report from Friday to Tuesday.\n\nHere's why. The vendor's sales data, which covers about half of the report, won't arrive until Thursday evening. I've already finished the sections on costs and staffing, but I can't write the sales analysis without that data. To be clear: a complete report by Friday isn't possible. Even if I worked through the night, I wouldn't have time to check the numbers properly, and I don't want to send you figures that might be wrong.\n\nWhat if we split the report into two parts? I could send you the finished sections on Friday morning, so you have something for your meeting with the board. Then I'd send the full report, with the sales analysis, by noon on Tuesday.\n\nI was also thinking we could ask the vendor to send their data earlier next quarter. I'd be happy to contact them and suggest a date.\n\nIf Tuesday doesn't work for you, I'd rather know now, so I can plan. One option would be a shorter sales section on Monday, based on the vendor's summary instead of the full data.\n\nCould you let me know by Wednesday which option you prefer? Thank you for understanding.\n\nBest regards,\nDaniel Brooks"
+      ],
+      "explanation": "Засчитывается, если письмо 200–300 слов и в нём есть: одно мягкое начало с прошедшей формой; просьба и причина; What if we… или I was thinking we could…; прямая фраза о том, что полный отчёт к пятнице невозможен; запасной вариант; срок ответа; подпись. Мягкие начала не складываются по три в одной фразе."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Сосед сверху, Jake, каждый вечер после 11 играет на барабанах (drums). Ты идёшь к нему поговорить. Сначала попроси мягко. Он отвечает: “Sure, I'll think about it,” — и ты понимаешь, что он принял это за необязательную идею. Тогда скажи прямее, но вежливо. Говори 2–3 минуты за себя; его реплики можно коротко пересказать. Что должно быть: приветствие и мягкое начало (I was wondering / I was hoping); причина; предложение с What if you…? и прошедшей формой; I'd rather you didn't…; потом прямая фраза с please и точным временем; почему это важно; дружелюбный конец. Запиши, прослушай и проверь, что прямая часть звучит ясно, без maybe и possibly.",
+      "context": "drums — барабаны; wake up — просыпаться; quiet hours — часы тишины.",
+      "hint": "Начни так: Hi Jake, sorry to bother you. I was hoping we could talk for a minute…",
+      "answers": [
+        "Hi Jake, sorry to bother you. I'm Sam from downstairs. I was hoping we could talk for a minute about the drums.\n\nFirst, you're really good. I mean it. But I start work at six, so I go to bed around ten thirty, and when you play after eleven, the sound comes right through my ceiling. I've been waking up almost every night this week.\n\nSo I was wondering if you could play a little earlier in the evening. What if you finished by ten? Or what if you used the practice pads after that? I'd rather you didn't play late at night, if that's possible.\n\n(Jake: “Sure, I'll think about it.”)\n\nOK, let me be clearer, because I don't think I explained it well. Please don't play the drums after 10 p.m. on weeknights. I'm not saying never play. Play as much as you want before ten, and on weekends you can go a little later. But after ten on weeknights, I really need it to be quiet. The building also has quiet hours from ten to seven, so this isn't only about me.\n\nI know it's your apartment, and I don't want to be the neighbor who complains about everything. That's exactly why I came to talk to you first instead of calling the landlord.\n\nSo, does ten o'clock work for you? And if you ever want to play a quick concert on a Saturday afternoon, let me know. I'll bring snacks."
+      ],
+      "explanation": "Засчитывается, если речь звучит 2–3 минуты и в ней есть: мягкое начало с прошедшей формой; причина; What if you… с прошедшей формой; I'd rather you didn't…; затем прямая фраза с please и точным временем; объяснение, почему это важно; дружелюбный конец. Расшифровка проверит слова, но не тон и произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Твой одногруппник, Alex, написал преподавателю слишком резкое письмо и просит помочь: “Dr. Kim, I need an extension for my essay. Give me until Monday. My grandmother is in the hospital. Answer today.” Перепиши письмо так, чтобы оно было вежливым, но просьба и срок остались ясными: что он просит, до какого дня и почему ответ нужен сегодня.",
+      "context": "extension — отсрочка; essay — эссе; hospital — больница.",
+      "hint": "Одно мягкое начало, потом причина, потом точный срок. Где нужна прямота?",
+      "answers": [
+        "Dear Dr. Kim,\n\nI was wondering if I could have an extension on my essay. My grandmother is in the hospital, and I've been spending most of my time with her this week. Would it be possible to submit it by Monday?\n\nI'd be grateful if you could let me know today, so I can plan the next few days.\n\nThank you for understanding.\n\nBest regards,\nAlex Novak",
+        "Dear Dr. Kim,\n\nI wanted to ask if I could get an extension on my essay. My grandmother is in the hospital, so I haven't been able to finish it on time. Could I submit it by Monday?\n\nIt would be great if you could reply today, because I need to plan my visits to the hospital around the work.\n\nThank you very much.\n\nSincerely,\nAlex Novak"
+      ],
+      "explanation": "Засчитывается, если: одно мягкое начало (I was wondering, I wanted to ask); причина названа; срок by Monday остаётся точным; просьба ответить сегодня сказана вежливо и с причиной; есть приветствие и подпись. Give me и Answer today — приказы преподавателю, их меняют на Could I… и I'd be grateful if you could…"
+    }
+  ]
+}

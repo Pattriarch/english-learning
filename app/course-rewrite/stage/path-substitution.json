@@ -1,0 +1,371 @@
+{
+  "id": "path-substitution",
+  "title": "One, so, do so: заменить повтор и не потерять, о чём речь",
+  "subtitle": "One и ones → it или one → so и not вместо мысли → do it и do so → the former, the latter → когда лучше повторить слово",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Не повторять одно и то же слово и при этом оставаться понятным: «мне нужен новый» (I need a new one), «надеюсь, нет» (I hope not), «сделайте это до пятницы» (please do so by Friday), «первое быстрее, второе дешевле» (the former…, the latter…) — и вовремя назвать вещь снова, если замена запутает.",
+  "formula": "a new one / the ones with… · it = тот самый, one = такой же · I think so / I don't think so / I hope not · do it, do that (разговор) / do so (письмо) · the former / the latter · неясно — повтори слово",
+  "keyRule": {
+    "rule": "Тот же самый предмет — it. Другой такой же — one.",
+    "example": "I lost my umbrella, so I bought a new one. — Я потерял зонт и купил новый.",
+    "check": "«Надеюсь, нет» — I hope not, а не I don't hope so."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-ellipsis",
+    "path-me-too",
+    "path-comparatives"
+  ],
+  "recycles": [
+    "path-ellipsis"
+  ],
+  "teaches": [
+    "слово-заместитель вместо повтора: one / ones — вещь, so — целая мысль, do it / do so — действие",
+    "описание не стоит одно: a new one, the blue one, bigger ones (не I need a new)",
+    "it — тот самый предмет, one — другой такой же: found it / bought a new one",
+    "the one / the ones + with, on, that: the one with the green handle; Which one?",
+    "one не работает: с тем, что не считают (some advice), сразу после числа (two, не two ones); вместо my one — mine",
+    "I think so / I hope so / I guess so / I'm afraid so; «нет»: I don't think so, но I hope not, I guess not, I'm afraid not",
+    "he said so; if so / if not; с know so не ставят",
+    "do it / do that — в разговоре, do so — в правилах и письмах; не для состояний (and so do I)",
+    "the former / the latter — только о двух вариантах, названных прямо перед этим",
+    "если заместитель может указывать на две вещи — повтори слово"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · ‘one’ and ‘ones’",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/one-ones",
+      "notes": "Сверено: one / ones вместо исчисляемого слова, после описания (the red one, new ones), после the и which; one не ставят сразу после числа; this one / that one. Ограничение с неисчисляемыми (advice) проверено по примерам урока: some, а не a good one."
+    },
+    {
+      "title": "VOA Learning English · How ‘So’ Can Replace a Lot of Information",
+      "url": "https://learningenglish.voanews.com/a/how-so-can-replace-a-lot-of-information/5980808.html",
+      "notes": "Сверено: so заменяет целую мысль после think, guess, hope (I hope so, I don't think so); со свежей, ещё не названной мыслью so не используют; I guess so и he said so — обычные в американской речи."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Что именно заменяет короткое слово",
+    "why": "В каждой строке — один заместитель и то, на что он указывает.",
+    "items": [
+      {
+        "label": "Тот же предмет — it",
+        "en": "I found my wallet. It was in my bag.",
+        "ru": "Я нашёл кошелёк. Он был в сумке.",
+        "note": "Та же самая вещь."
+      },
+      {
+        "label": "Другой такой же — one",
+        "en": "My wallet is falling apart. I need a new one.",
+        "ru": "Кошелёк разваливается. Мне нужен новый.",
+        "note": "One = wallet, но другой."
+      },
+      {
+        "label": "Целая мысль — so",
+        "en": "“Is the bank open?” — “I don't think so.”",
+        "ru": "«Банк работает?» — «Думаю, нет».",
+        "note": "So = the bank is open."
+      },
+      {
+        "label": "Действие в правилах — do so",
+        "en": "If you need to return an item, please do so within 30 days.",
+        "ru": "Если нужно вернуть товар, сделайте это в течение 30 дней.",
+        "note": "Do so = return an item. В разговоре — do it."
+      }
+    ],
+    "focus": [
+      "It",
+      "a new one",
+      "so",
+      "do so"
+    ],
+    "footnote": "«Нет» с hope — I hope not, а не I don't hope so."
+  },
+  "sections": [
+    {
+      "title": "Заменить, а не пропустить: one, so, do so",
+      "body": "В уроке об эллипсисе ты убирал повтор и оставлял помощника: She can't come, but I can. Здесь другой способ: вместо повтора ставишь короткое слово-заместитель.\n\nOne и ones встают вместо вещи: I need a new one — мне нужен новый. So встаёт вместо целой мысли: I think so — думаю, да. Do it и do so — вместо действия: Please do so by Friday — сделайте это до пятницы.\n\nГлавное отличие от русского. По-русски описание может стоять одно: «Мне нужен новый», «Дай синий». По-английски так нельзя: I need a new — ошибка. После описания нужна опора: a new one, the blue one.\n\nЗаместитель полезен, только пока ясно, что он заменяет. Если неясно — повтори слово."
+    },
+    {
+      "title": "One и ones: такой же, но не тот самый",
+      "body": "It — тот самый предмет: I lost my umbrella, but I found it — нашёл тот же зонт. One — другой такой же: I lost my umbrella, so I bought a new one — купил новый.\n\nOne — вместо одной вещи, ones — вместо нескольких: the red one, the old ones. Так же в вопросе Which one? — какой? И в ответе: the one with the green handle — тот, что с зелёной ручкой; the ones on the left — те, что слева.\n\nГде one не работает. С тем, что не считают (advice, information, furniture), нужно some: I need some advice. Can you give me some? Сразу после числа ones не ставят: I bought three, а не three ones. С описанием можно: two new ones. Вместо my one американцы говорят mine: Mine is broken."
+    },
+    {
+      "title": "So и not вместо целой мысли",
+      "body": "“Is the store still open?” — “I think so.” So заменяет всю мысль «магазин ещё открыт». Так работают think, hope, guess, believe и be afraid: I hope so, I guess so (очень по-американски), I'm afraid so — боюсь, что да.\n\n«Нет» строится двумя способами. С think и believe not ставят к самому глаголу: I don't think so. С hope, guess и be afraid вместо so ставят not: I hope not, I guess not, I'm afraid not. I don't hope so — ошибка. I think not понятно, но звучит книжно.\n\nSo бывает и после say: He said so — он так сказал. В письмах: if so — «если да», if not — «если нет»: Are you free on Friday? If so, let's meet.\n\nС know so не ставят: “Is it true?” — “I don't know.”"
+    },
+    {
+      "title": "Do it, do that, do so: вместо действия",
+      "body": "«Сделаю это после обеда» — I'll do it after lunch. В разговоре вместо уже названного действия говорят do it или do that: “Can you call the bank?” — “I'll do that now.”\n\nDo so значит то же самое, но живёт в письмах, правилах и объявлениях: If you want to cancel, please do so 24 hours in advance — если хотите отменить, сделайте это за 24 часа. В разговоре с другом do so звучит как официальное письмо.\n\nГраница: do it и do so заменяют действие, которое человек делает сам. Для состояний — know, like, be — они не подходят. She knows the answer, and I do so too — ошибка. Правильно: and so do I — как в уроке про «я тоже»."
+    },
+    {
+      "title": "The former, the latter — и когда лучше повторить слово",
+      "body": "The former — «первое из двух», the latter — «второе»: We can drive or take the train. The former is cheaper; the latter is faster. Так пишут, когда два варианта названы прямо перед этим. В разговоре проще: the first one, the second one или само слово: The train is faster.\n\nЛюбой заместитель должен указывать на одну вещь. The charger is next to the adapter. I need a new one. — что новое: зарядка или адаптер? Здесь лучше повторить: I need a new charger.\n\nПроверка: закрой предыдущую фразу пальцем. Если по одной фразе не понять, что заменяет one, it или this, — назови вещь снова. В инструкции и деловом письме ясность важнее короткого текста."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I lost my umbrella, so I bought a new one.",
+      "ru": "Я потерял зонт и купил новый.",
+      "why": "Новый зонт — другой, но такой же по виду вещи: one."
+    },
+    {
+      "en": "I lost my umbrella, but I found it in the car.",
+      "ru": "Я потерял зонт, но нашёл его в машине.",
+      "why": "Тот же самый зонт — it."
+    },
+    {
+      "en": "“Which car is yours?” — “The gray one by the gate.”",
+      "ru": "«Какая машина твоя?» — «Серая, у ворот».",
+      "why": "Gray не стоит одно: нужна опора one."
+    },
+    {
+      "en": "“Is the pharmacy still open?” — “I don't think so.”",
+      "ru": "«Аптека ещё работает?» — «Думаю, нет».",
+      "why": "С think not ставят к глаголу, so заменяет «аптека работает»."
+    },
+    {
+      "en": "“Will it rain tomorrow?” — “I hope not.”",
+      "ru": "«Завтра будет дождь?» — «Надеюсь, нет».",
+      "why": "С hope not стоит вместо мысли; I don't hope so — ошибка."
+    },
+    {
+      "en": "If you need to cancel, please do so by noon.",
+      "ru": "Если нужно отменить, сделайте это до полудня.",
+      "why": "Do so — в правилах и письмах; другу сказали бы do it."
+    },
+    {
+      "en": "We can drive or take the train. The former is cheaper; the latter is faster.",
+      "ru": "Можно поехать на машине или на поезде. Первое дешевле, второе быстрее.",
+      "why": "The former и the latter — только о двух вариантах, названных прямо перед этим."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты в магазине одежды, брюки (pants) малы. Спроси продавца: «Эти брюки маловаты. У вас есть побольше?»",
+      "context": "",
+      "guidance": {
+        "title": "После описания — one или ones",
+        "body": "Описание не стоит одно, как в русском «есть побольше?». Нужна опора: a bigger one для одной вещи, bigger ones — для нескольких.",
+        "example": "This chair is too low. Do you have a higher one?",
+        "translation": "Этот стул слишком низкий. У вас есть повыше?"
+      },
+      "hint": "Pants по-английски — одна вещь или несколько? Как jeans.",
+      "answers": [
+        "These pants are a little small. Do you have bigger ones?",
+        "These pants are a little small. Do you have any bigger ones?",
+        "These pants are a bit small. Do you have bigger ones?",
+        "These pants are a bit small. Do you have any bigger ones?",
+        "These pants are kind of small. Do you have bigger ones?",
+        "These pants are too small. Do you have bigger ones?",
+        "These pants are a little small. Do you have them in a bigger size?"
+      ],
+      "explanation": "Pants — всегда несколько, как jeans, поэтому ones. Do you have bigger? без ones — ошибка. Do you have them in a bigger size? тоже естественно: them — те же брюки, другого размера."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь соседу по квартире (roommate): «Я думал, что потерял зарядку, но нашёл её в рюкзаке. Всё равно куплю ещё одну — для офиса». charger — зарядка; backpack — рюкзак.",
+      "context": "",
+      "guidance": {
+        "title": "Тот самый — it, ещё такой же — one",
+        "body": "Нашёл ту же вещь — it. Покупаешь другую такую же — one: a new one, another one.",
+        "example": "My phone died, but I charged it. I still want a new one.",
+        "translation": "Телефон разрядился, но я его зарядил. Всё равно хочу новый."
+      },
+      "hint": "Где речь о той же зарядке, а где — о другой?",
+      "answers": [
+        "I thought I lost my charger, but I found it in my backpack. I'm still going to buy another one for the office.",
+        "I thought I'd lost my charger, but I found it in my backpack. I'm still going to buy another one for the office.",
+        "I thought I lost my charger, but I found it in my backpack. I'll still buy another one for the office.",
+        "I thought I lost my charger, but I found it in my backpack. I'm still going to get another one for the office.",
+        "I thought I lost my charger, but I found it in my backpack. I'll still get a second one for the office.",
+        "I thought I lost my charger, but I found it in my backpack. I'm going to buy another one for the office anyway."
+      ],
+      "explanation": "Found it — та же зарядка. Another one — другая такая же. Found one значило бы «нашёл какую-то зарядку»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты оставил ключи у друга, они лежат на столе среди других. Друг пишет: “Which keys are yours?” Ответь: «Те, что с красным брелоком». keychain — брелок.",
+      "context": "",
+      "guidance": {
+        "title": "Какой именно — the one / the ones + with, on, that",
+        "body": "The one и the ones показывают на конкретную вещь из нескольких. После них — чем она отличается: with, on, that.",
+        "example": "My bike is the one by the gate.",
+        "translation": "Мой велосипед — тот, что у ворот."
+      },
+      "hint": "Ключей несколько — one или ones?",
+      "answers": [
+        "The ones with the red keychain.",
+        "They're the ones with the red keychain.",
+        "Mine are the ones with the red keychain.",
+        "The ones with a red keychain.",
+        "The ones on the red keychain.",
+        "The ones that have the red keychain."
+      ],
+      "explanation": "Ключей несколько, поэтому the ones. With описывает, чем они отличаются. The one with… здесь не подходит: keys — множественное."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с другом едете на пляж. Он спрашивает: “Do you think it's going to rain?” Небо темнеет. Ответь: «Надеюсь, нет. Но, боюсь, что да — уже темнеет».",
+      "context": "",
+      "guidance": {
+        "title": "«Нет» вместо мысли: don't think so или hope not",
+        "body": "С think not ставят к глаголу: I don't think so. С hope и be afraid not стоит вместо мысли: I hope not, I'm afraid not.",
+        "example": "“Is Mike coming?” — “I don't think so.” — “Will he call?” — “I guess not.”",
+        "translation": "«Майк придёт?» — «Думаю, нет». — «Он позвонит?» — «Наверное, нет»."
+      },
+      "hint": "«Надеюсь, нет» — I hope … «Боюсь, что да» — I'm afraid …",
+      "answers": [
+        "I hope not. But I'm afraid so — it's getting dark.",
+        "I hope not, but I'm afraid so. It's getting dark.",
+        "I hope not. But I'm afraid so. It's already getting dark.",
+        "I hope not, but I'm afraid so — the sky is getting dark.",
+        "I hope not. But I'm afraid so — it's already getting dark.",
+        "I hope not. But I think so — it's getting dark."
+      ],
+      "explanation": "I hope not — not стоит вместо мысли. I'm afraid so — «боюсь, что да». I think so тоже верно, только без оттенка «боюсь». I don't hope so — ошибка."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты администратор стоматологической клиники. 1) Напиши строку для сайта: «Если хотите перенести приём, сделайте это не позже чем за 24 часа». 2) Коллега просит тебя позвонить пациенту. Ответь: «Сделаю это после обеда».",
+      "context": "reschedule an appointment — перенести приём; in advance — заранее.",
+      "guidance": {
+        "title": "Официально — do so, в разговоре — do it",
+        "body": "Do so заменяет действие в правилах, письмах и на сайте. Коллеге в разговоре скажи do it или do that.",
+        "example": "Members who want to pause their membership can do so online.",
+        "translation": "Участники, которые хотят приостановить абонемент, могут сделать это онлайн."
+      },
+      "hint": "Для сайта: … please do … Коллеге: I'll do …",
+      "answers": [
+        "If you would like to reschedule your appointment, please do so at least 24 hours in advance. I'll do it after lunch.",
+        "If you want to reschedule your appointment, please do so at least 24 hours in advance. I'll do that after lunch.",
+        "If you need to reschedule your appointment, please do so at least 24 hours in advance. I'll do it after lunch.",
+        "If you'd like to reschedule an appointment, please do so at least 24 hours in advance. I'll do it after lunch.",
+        "If you wish to reschedule your appointment, please do so no later than 24 hours in advance. I'll do that after lunch.",
+        "If you would like to reschedule your appointment, please do so at least 24 hours in advance. I'll do it after lunch, okay?"
+      ],
+      "explanation": "На сайте do so звучит как нужно: вежливое правило. Коллеге — I'll do it или I'll do that. I'll do so after lunch в разговоре прозвучало бы как письмо."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь руководителю короткую записку о двух вариантах: «Мы можем нанять фрилансера или обучить кого-то из команды. Первое быстрее, второе дешевле в долгосрочной перспективе».",
+      "context": "hire — нанять; train — обучить; in the long run — в долгосрочной перспективе.",
+      "guidance": {
+        "title": "The former и the latter — два варианта, названных только что",
+        "body": "The former — первое из двух, the latter — второе. Работает, только если оба варианта стоят прямо перед этим. В разговоре понятнее назвать их снова.",
+        "example": "We can meet in person or online. The former is better for planning; the latter saves time.",
+        "translation": "Можно встретиться лично или онлайн. Первое лучше для планирования, второе экономит время."
+      },
+      "hint": "Начни так: We could hire … Вторая фраза: The former …",
+      "answers": [
+        "We could hire a freelancer or train someone on the team. The former is faster; the latter is cheaper in the long run.",
+        "We can hire a freelancer or train someone on the team. The former is faster, and the latter is cheaper in the long run.",
+        "We could hire a freelancer or train someone from the team. The former is faster, while the latter is cheaper in the long run.",
+        "We could hire a freelancer or train someone on our team. The former is faster, but the latter is cheaper in the long run.",
+        "We could hire a freelancer or train someone on the team. Hiring a freelancer is faster; training someone is cheaper in the long run.",
+        "We could either hire a freelancer or train someone on the team. The first option is faster; the second is cheaper in the long run."
+      ],
+      "explanation": "The former — нанять фрилансера, the latter — обучить своего. Назвать варианты снова (Hiring a freelancer is faster…) или сказать the first option / the second тоже верно и в разговоре даже понятнее."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега просит проверить сообщение перед отправкой: “I need some advice. Can you give me a good one? We have three printers, and two ones are broken, so we need two new ones. Will the budget be a problem? I don't hope so.” Перепиши правильно. Верные места не меняй.",
+      "context": "",
+      "guidance": {
+        "title": "Где заместитель не работает",
+        "body": "Проверь три места: то, что не считают (advice), число без описания и «надеюсь, нет». После числа с описанием ones верно: two new ones.",
+        "example": "I need some information. Can you send me some?",
+        "translation": "Мне нужна информация. Можешь прислать?"
+      },
+      "hint": "Ошибок три. Одно место с ones верное.",
+      "answers": [
+        "I need some advice. Can you give me some? We have three printers, and two are broken, so we need two new ones. Will the budget be a problem? I hope not.",
+        "I need some advice. Can you give me some? We have three printers, and two of them are broken, so we need two new ones. Will the budget be a problem? I hope not.",
+        "I need some advice. Can you give me some good advice? We have three printers, and two are broken, so we need two new ones. Will the budget be a problem? I hope not.",
+        "I need some advice. Can you give me some good advice? We have three printers, and two of them are broken, so we need two new ones. Will the budget be a problem? I hope not.",
+        "I need some advice. Can you help me? We have three printers, and two are broken, so we need two new ones. Will the budget be a problem? I hope not."
+      ],
+      "explanation": "Advice не считают, поэтому some, а не a good one. Two ones — ошибка: после числа просто two или two of them. Two new ones верно: есть описание. I don't hope so → I hope not."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем пропуск из урока об эллипсисе. Друг спрашивает: “Are you coming to the concert on Saturday?” Ответь: «Хотел бы, но не могу. А Лео, кажется, идёт — по крайней мере, он так сказал».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: пропустить действие и заменить мысль",
+        "body": "Как в уроке об эллипсисе, действие можно не повторять: I'd like to, but I can't. А «он так сказал» — he said so: so заменяет целую мысль.",
+        "example": "“Is the museum free on Sundays?” — “I think so. The guide said so.”",
+        "translation": "«Музей бесплатный по воскресеньям?» — «Кажется, да. Экскурсовод так сказал»."
+      },
+      "hint": "Начни так: I'd like to, but … Потом: I think Leo …",
+      "answers": [
+        "I'd like to, but I can't. I think Leo is going, though. At least, he said so.",
+        "I'd like to, but I can't. I think Leo is, though — at least he said so.",
+        "I'd like to, but I can't. I think Leo is going, though — at least he said so.",
+        "I'd love to, but I can't. I think Leo is going, though — at least he said so.",
+        "I would like to, but I can't. I think Leo's going, though. At least he said so.",
+        "I'd like to, but I can't. I think Leo is coming, though. At least, he said so.",
+        "I'd like to, but I can't. Leo is going, I think. At least, he said so."
+      ],
+      "explanation": "I'd like to и I can't не повторяют come to the concert — это пропуск, как в уроке об эллипсисе. He said so заменяет мысль «Лео идёт». I think Leo is, though — тоже пропуск: going понятно из вопроса."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Подруга Нина переезжает в твой город и попросила тебя посмотреть две квартиры. Она спросила: “Is the neighborhood safe? Will the landlord allow a cat? Which one should I take?” Напиши ей письмо на 150–250 слов. Что должно быть: обе квартиры описаны без повтора apartment в каждой фразе (the first one, the bigger one, the one on…); ответы на её вопросы через so или not (I think so, I'm afraid not, I don't think so); один раз the former и the latter или the first one / the second one; хотя бы одно место, где ты нарочно называешь вещь снова, чтобы не было путаницы; твой совет.",
+      "context": "",
+      "hint": "Начни так: Hi Nina, I saw both apartments today. The first one …",
+      "answers": [
+        "Hi Nina,\n\nI saw both apartments today, so here's what I think.\n\nThe first one is on Maple Street, on the third floor. It's the bigger one: two bedrooms, a big kitchen, and lots of light. The second one is on Grant Avenue, near the subway. It's smaller, but it was renovated last year, and all the appliances are new ones.\n\nYou asked if the neighborhood is safe. For Maple Street, I think so: it's quiet, and there are always people walking their dogs. Grant Avenue is busier at night, but I don't think it's dangerous.\n\nWill the landlord allow a cat? On Maple Street, I'm afraid not. I asked, and he said no pets at all. On Grant Avenue, the landlord said cats are fine.\n\nThe Maple Street apartment costs $1,650 a month, and the Grant Avenue apartment costs $1,480.\n\nSo which one should you take? The former has more space; the latter is cheaper, closer to the subway, and lets you keep Biscuit. If I were you, I'd take the one on Grant Avenue.\n\nLove,\nKate"
+      ],
+      "explanation": "Засчитывается, если обе квартиры описаны без лишних повторов (one, the bigger one, the one on…), на вопросы есть ответы через so или not, есть the former / the latter или the first one / the second one и хотя бы одно место, где слово повторено ради ясности — например, названия улиц перед ценами. Объём — 150–250 слов."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Вы с соседом по квартире (roommate) решаете, что пора заменить. Сосед думает: “The microwave is fine. And the couch is okay too, right?” Расскажи голосом 2–3 минуты. Что должно быть: две-три вещи, которые сломались или устарели, и какие новые ты хочешь (a new one, the cheaper ones, the one with…); ответ на его догадки через so или not (I don't think so, I'm afraid not); кто что сделает — do it или do that; одно место, где ты называешь вещь снова, потому что one было бы непонятно.",
+      "context": "microwave — микроволновка; couch — диван; cushion — подушка дивана.",
+      "hint": "Начни так: Okay, so I made a list. First, the microwave. You think it's fine? …",
+      "answers": [
+        "Okay, so I made a list of what we need to replace. First, the microwave. You think it's fine? I'm afraid not. It takes five minutes to heat up a cup of coffee, and the door doesn't close properly. We need a new one. I looked online, and the ones at Target are about a hundred dollars. I like the white one with the big buttons, because it's easy to clean.\n\nThe couch is okay, right? I don't think so. One of the cushions is torn, and it's really uncomfortable after an hour. A new couch is expensive, so maybe we can get a used one. My coworker is selling hers, and it's in great shape.\n\nThen the lamps. The lamp in the living room is fine, but the one in my bedroom is broken. And the lamp next to the printer doesn't work either. I mean the lamp, not the printer. The printer still works.\n\nSo here's the plan. You said you'd look at my coworker's couch this weekend. Can you do that on Saturday? I'll order the microwave tonight. Actually, I'll do it right now, before the sale ends. And if your parents still have that extra lamp, maybe they can give it to us. Will they mind? I hope not.\n\nWhat do you think? Does that work for you?"
+      ],
+      "explanation": "Засчитывается, если рассказ звучит 2–3 минуты и в нём есть one / ones с описанием, ответы на догадки через so или not, do it или do that о деле и одно место, где вещь названа снова ради ясности. Do so в таком разговоре звучало бы как объявление."
+    },
+    {
+      "id": "e11",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ты помогаешь хозяйке квартир, миссис Ли (Mrs. Lee), с памяткой для новых жильцов. В тексте заместители указывают непонятно куда, а одно действие повторено целиком. Перепиши текст так, чтобы каждое it, one и this было ясно, а где нужно — назови вещь снова. Повтор в последней фразе замени на do so.",
+      "context": "Текст: “The router is next to the modem in the hall closet. If it stops working, unplug it for 30 seconds. If you need a new one, call us. Trash goes out on Tuesdays and recycling on Fridays; please don't mix this up. If you want to cancel a repair visit, please cancel the repair visit 24 hours in advance.” router — роутер; unplug — выключить из розетки; recycling — вторсырьё.",
+      "hint": "В каждой фразе спроси: router или modem? Что значит this — дни или мусор?",
+      "answers": [
+        "The router is next to the modem in the hall closet. If the internet stops working, unplug the router for 30 seconds. If you need a new router, call us. Trash goes out on Tuesdays and recycling on Fridays; please don't mix up the two days. If you want to cancel a repair visit, please do so 24 hours in advance.",
+        "The router is next to the modem in the hall closet. If the router stops working, unplug it for 30 seconds. If you need a new router, call us. Trash goes out on Tuesdays, and recycling goes out on Fridays. Please don't mix up these days. If you want to cancel a repair visit, please do so at least 24 hours in advance."
+      ],
+      "explanation": "Засчитывается, если ясно, что именно перестаёт работать и что выключать (router, а не modem), a new one стало a new router, this заменено понятным the two days или these days, а повтор cancel the repair visit — на do so. Unplug it после If the router stops working тоже верно: it стоит сразу после router."
+    }
+  ]
+}

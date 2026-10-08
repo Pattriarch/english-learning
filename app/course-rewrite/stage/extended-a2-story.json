@@ -1,0 +1,360 @@
+{
+  "id": "extended-a2-story",
+  "title": "Автобус уехал: история по порядку и ответ другу",
+  "subtitle": "Когда и где → что случилось → шаги по порядку → ответ другу",
+  "level": "A2",
+  "group": "Полная практика навыков",
+  "units": "Авторский маршрут · A2",
+  "minutes": 35,
+  "goal": "Рассказать другу, что случилось, по шагам: «Сначала я позвонил начальнику. Потом купил кофе. Наконец пришёл автобус». И ответить на его историю своей.",
+  "formula": "This morning, I was at the bus stop. → First… Then… After that… Finally… → Oh no! Something similar happened to me.",
+  "keyRule": {
+    "rule": "Рассказывай по шагам: сначала когда и где, потом события по порядку.",
+    "example": "First, I called my boss. Then I bought a coffee. — Сначала я позвонил начальнику. Потом купил кофе.",
+    "check": "Finally — только для последнего шага, которого пришлось ждать."
+  },
+  "guided": true,
+  "introSections": 1,
+  "prerequisites": [
+    "path-past-simple",
+    "path-past-continuous",
+    "path-connectors-basic"
+  ],
+  "recycles": [
+    "path-connectors-basic",
+    "path-past-continuous",
+    "path-past-simple"
+  ],
+  "teaches": [
+    "план истории: когда и где → что происходило вокруг → что случилось → шаги → чем кончилось",
+    "первая фраза — когда и где: This morning, … / Last Friday, … / Yesterday after work, …",
+    "шаги по порядку: first, then, after that, finally; запятая после First, After that, Finally",
+    "finally — «наконец-то»: последний шаг, которого пришлось ждать",
+    "реакция на историю друга: Oh no! That sounds stressful. — и вопрос о том, чего он не рассказал",
+    "переход к своей истории: Something similar happened to me / The same thing happened to me",
+    "слова: miss the bus, bus stop, wrong stop, get off, run after; came, left, ran, got, bought"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Transitional Devices",
+      "url": "https://owl.purdue.edu/owl/general_writing/mechanics/transitions_and_transitional_devices/transitional_devices.html",
+      "notes": "Американский справочник по письму: сверен список слов порядка (first, next, then, after, finally)."
+    },
+    {
+      "title": "British Council · Past continuous and past simple (A1–A2)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/past-continuous-past-simple",
+      "notes": "Сверено, что в рассказе фон идёт в past continuous, а события — в past simple; в этом уроке это только напоминание."
+    }
+  ],
+  "visual": {
+    "kind": "timeline",
+    "title": "История на линии времени",
+    "why": "Первая фраза ставит сцену, дальше события встают на линию точками. Слова порядка ведут от точки к точке.",
+    "items": [
+      {
+        "label": "Когда и где",
+        "en": "This morning, it was snowing, and we were waiting for the bus.",
+        "ru": "Сегодня утром шёл снег, и мы ждали автобус.",
+        "note": "This morning — сразу ясно, когда это было."
+      },
+      {
+        "label": "Событие",
+        "en": "At 8:10, the bus came, but it was full.",
+        "ru": "В 8:10 пришёл автобус, но он был битком.",
+        "note": "Came — первый шаг истории."
+      },
+      {
+        "label": "Следующий шаг",
+        "en": "Then we called a taxi.",
+        "ru": "Потом мы вызвали такси.",
+        "note": "Then ведёт к следующей точке."
+      },
+      {
+        "label": "Конец",
+        "en": "Finally, we got to work at 9:15.",
+        "ru": "Наконец мы добрались до работы в 9:15.",
+        "note": "Finally — последний шаг, которого пришлось ждать."
+      }
+    ],
+    "focus": [
+      "This morning",
+      "came",
+      "Then",
+      "Finally"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как рассказать, что случилось, чтобы друг не запутался?",
+      "body": "Друг спрашивает: «Почему ты опоздал?» Если выдать всё сразу, он потеряется. Рассказывай по плану: когда и где это было → что происходило вокруг → что случилось → что ты делал дальше → чем всё кончилось.\n\nФормы ты уже знаешь: что шло вокруг — was/were + -ing, шаги — простое прошлое (I was reading when the bus came). Причину и результат покажут because, so и but из урока о связках.\n\nНовое в этом уроке — сам порядок: с чего начать и как вести друга от шага к шагу."
+    },
+    {
+      "title": "Первая фраза: когда и где",
+      "body": "Начни с того, когда это было: This morning, … — сегодня утром, Last Friday, … — в прошлую пятницу, Yesterday after work, … — вчера после работы. Сразу добавь, где ты был и что происходило: This morning, I was at the bus stop, and it was raining. После такой фразы друг уже видит картинку, и дальше можно рассказывать события."
+    },
+    {
+      "title": "First, then, after that, finally: шаги по порядку",
+      "body": "Слово порядка ставим в начало фразы: First, I called Mom. Then I waited. Finally, the bus came. First — сначала, then — потом, after that — после этого, finally — «наконец-то»: последний шаг, которого пришлось ждать. После First, After that и Finally обычно ставят запятую, после Then — нет. Не начинай этими словами каждую фразу: хватит трёх-четырёх на историю."
+    },
+    {
+      "title": "Как ответить на историю друга",
+      "body": "Сначала отреагируй: Oh no! — ох, нет! That sounds stressful — похоже, было нервно. Потом спроси о том, чего друг ещё не рассказал: What did you do then? Were you OK? Если с тобой было похожее, переходи к своей истории: Something similar happened to me — со мной было похожее. The same thing happened to me! — со мной было то же самое!"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Last Friday, I was driving to work, and it was snowing.",
+      "ru": "В прошлую пятницу я ехал на работу, и шёл снег.",
+      "why": "Первая фраза: когда (Last Friday) и что происходило вокруг."
+    },
+    {
+      "en": "First, I called my sister. After that, I took a taxi.",
+      "ru": "Сначала я позвонил сестре. После этого взял такси.",
+      "why": "Слова порядка ведут по шагам. Took — прошедшее от take, «взять»."
+    },
+    {
+      "en": "I waited for twenty minutes. Finally, the bus came.",
+      "ru": "Я ждал двадцать минут. Наконец пришёл автобус.",
+      "why": "Finally — долгожданный последний шаг, а не просто «потом»."
+    },
+    {
+      "en": "Oh no! That sounds stressful. What did you do?",
+      "ru": "Ох, нет! Похоже, было нервно. И что ты сделал?",
+      "why": "Сначала реакция на чувства друга, потом вопрос о том, чего он ещё не рассказал."
+    },
+    {
+      "en": "Something similar happened to me last week.",
+      "ru": "Со мной на прошлой неделе было похожее.",
+      "why": "Мостик к своей истории: друг понимает, что сейчас будет твой рассказ."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Голосовое сообщение Алекса",
+      "kind": "listening",
+      "text": "Hi, it's Alex. What a morning! My bus to work leaves at 7:15 a.m. Today I got to the bus stop at 7:05, so I had ten minutes. It was raining, and a lot of people were waiting at the stop.\n\nI was reading the news on my phone when my bus came. But it stopped across the street! I was at the wrong stop. I ran across the street, but the bus left without me. So I missed the bus.\n\nFirst, I called my boss. Then I bought a coffee. After that, I waited for the next bus. It came at 7:45. Finally, I got to work at 8:20, and I was late for a meeting. Text me later!",
+      "source": "Учебная история: люди и события вымышлены."
+    },
+    {
+      "id": "m2",
+      "title": "Твоя история в четырёх кадрах",
+      "kind": "reading",
+      "text": "Frame 1 (5:40 p.m.): I'm going home on the bus. I'm listening to music, and I'm very tired.\n\nFrame 2 (5:55 p.m.): The bus stops at Park Avenue, my stop. I get off. My bag is still on the seat!\n\nFrame 3 (5:56 p.m.): The bus leaves. I run after it, but it doesn't stop.\n\nFrame 4 (6:10 p.m.): I call the bus company. The next morning, I get my bag back.",
+      "source": "Учебные кадры: история вымышлена."
+    },
+    {
+      "id": "m3",
+      "title": "Алекс спрашивает о тебе",
+      "kind": "dialogue",
+      "text": "Alex: Thanks for your message! My boss wasn't angry, but I was tired all day. Next time, I'm going to check the stop! So, what about you? Has anything like that ever happened to you? Tell me the whole story!",
+      "source": "Учебная история: люди и события вымышлены."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Послушай M1 — голосовое сообщение от твоего друга Алекса. Расшифровку пока не открывай. Что случилось с Алексом утром? Ответь одной фразой.",
+      "context": "miss the bus — опоздать на автобус, не успеть на него; missed — прошедшее время.",
+      "guidance": {
+        "title": "Сначала — главное событие",
+        "body": "С первого раза ищи только то, ради чего рассказана история. Подробности и порядок шагов — потом.",
+        "example": "My sister missed the train.",
+        "translation": "Моя сестра опоздала на поезд."
+      },
+      "hint": "Что должно было случиться в 7:15 и не случилось? Начни так: He …",
+      "answers": [
+        "He missed the bus.",
+        "Alex missed the bus.",
+        "He missed his bus.",
+        "Alex missed his bus.",
+        "He missed the 7:15 bus."
+      ],
+      "explanation": "Missed the bus — событие, вокруг которого построена вся история. Подойдут и his bus, и the 7:15 bus.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Почему Алекс опоздал на автобус? Ответь одной фразой с because. Если не расслышал, послушай M1 ещё раз.",
+      "context": "wrong stop — не та остановка; across the street — через дорогу.",
+      "guidance": {
+        "title": "Вспоминаем: причина — после because",
+        "body": "Как в уроке о связках: сначала событие, потом because и причина.",
+        "example": "She was late because she was on the wrong train.",
+        "translation": "Она опоздала, потому что ехала не на том поезде."
+      },
+      "hint": "Где стоял Алекс, а где остановился автобус? Начни так: He missed the bus because …",
+      "answers": [
+        "He missed the bus because he was at the wrong stop.",
+        "Alex missed the bus because he was at the wrong stop.",
+        "He missed the bus because he was waiting at the wrong stop.",
+        "Alex missed the bus because he was waiting at the wrong stop.",
+        "He missed his bus because he was at the wrong stop.",
+        "He missed the bus because he was at the wrong bus stop."
+      ],
+      "explanation": "Алекс пришёл в 7:05, раньше автобуса, так что дело не в спешке. Он стоял не на той остановке, а автобус остановился через дорогу.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M2: это твоя история в четырёх кадрах, подписи в настоящем времени. Напиши первые фразы рассказа другу по кадру 1: начни с того, когда это было (вчера в 5:40 вечера), и скажи, что происходило.",
+      "context": "yesterday — вчера; go home — ехать домой; listen to music — слушать музыку; tired — уставший.",
+      "guidance": {
+        "title": "Начни с «когда» и с картинки вокруг",
+        "body": "Первым ставь время: Yesterday at 5:40 p.m., … Дальше — что происходило. Подпись в настоящем, а рассказ о прошлом, поэтому I'm going → I was going, I'm tired → I was tired.",
+        "example": "Last night at ten, I was walking home, and it was snowing.",
+        "translation": "Вчера в десять вечера я шёл домой, и шёл снег."
+      },
+      "hint": "Начни так: Yesterday at 5:40 p.m., I was …",
+      "answers": [
+        "Yesterday at 5:40 p.m., I was going home on the bus. I was listening to music, and I was very tired.",
+        "Yesterday at 5:40 p.m., I was going home on the bus, and I was listening to music. I was very tired.",
+        "Yesterday at 5:40, I was going home on the bus. I was listening to music, and I was very tired.",
+        "Yesterday, at 5:40 p.m., I was on the bus. I was going home. I was listening to music, and I was very tired."
+      ],
+      "explanation": "Время в начале сразу ставит сцену. Поездка и музыка уже шли, поэтому was going и was listening; tired — состояние, просто was very tired.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Кадры 2–4 в M2: расскажи четыре шага по порядку — ты вышел из автобуса, автобус уехал, ты позвонил в автобусную компанию, ты получил сумку обратно. Каждый шаг — отдельная фраза со словом порядка.",
+      "context": "get off — выйти из транспорта, got off — вышел; leave — уехать, left — уехал; bus company — автобусная компания; get back — получить обратно, got back — получил.",
+      "guidance": {
+        "title": "Каждый шаг — со своим словом порядка",
+        "body": "Начни каждую фразу со слова порядка: First, … Then … After that, … Finally, … Finally оставь для последнего шага, которого пришлось ждать.",
+        "example": "First, I lost my keys. Then I called my sister. After that, I waited. Finally, she came.",
+        "translation": "Сначала я потерял ключи. Потом позвонил сестре. После этого я ждал. Наконец она пришла."
+      },
+      "hint": "Начни так: First, I got off … Второй шаг — про автобус: Then the bus …",
+      "answers": [
+        "First, I got off the bus. Then the bus left. After that, I called the bus company. Finally, I got my bag back.",
+        "First, I got off. Then the bus left. After that, I called the bus company. Finally, I got my bag back.",
+        "First, I got off the bus. Then the bus left. After that, I called the bus company. Finally, the next morning, I got my bag back."
+      ],
+      "explanation": "Слова порядка ведут от шага к шагу. Finally стоит у сумки: её пришлось ждать до утра. The next morning в конце тоже подходит.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сэм пересказал, что Алекс делал после того, как автобус уехал, но перепутал порядок: “Alex bought a coffee. He got to work at 8:20. He called his boss. He waited for the next bus.” Проверь по M1 и напиши четыре шага в верном порядке со словами first, then, after that, finally.",
+      "context": "",
+      "guidance": {
+        "title": "Сначала проверь порядок, потом расставь слова",
+        "body": "Слова порядка не исправят историю, если шаги перепутаны. Найди в M1, что было первым и что — последним, а потом ставь first и finally.",
+        "example": "First, I washed the dishes. Then I made tea. Finally, I went to bed.",
+        "translation": "Сначала я помыл посуду. Потом заварил чай. Наконец лёг спать."
+      },
+      "hint": "Что Алекс сделал сразу после того, как автобус уехал? А чем закончилось утро?",
+      "answers": [
+        "First, Alex called his boss. Then he bought a coffee. After that, he waited for the next bus. Finally, he got to work at 8:20.",
+        "First, he called his boss. Then he bought a coffee. After that, he waited for the next bus. Finally, he got to work at 8:20."
+      ],
+      "explanation": "В M1 первым идёт звонок начальнику, потом кофе, потом ожидание, а приход на работу — последний шаг. В пересказе о другом человеке I становится he.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Добавь в свою историю из M2, почему всё так вышло. Переведи: «Я очень устал, поэтому забыл сумку. Я побежал за автобусом, но он не остановился».",
+      "context": "forget — забыть, forgot — забыл; run after — бежать за кем-то, ran after — побежал за.",
+      "guidance": {
+        "title": "Вспоминаем: so и but в рассказе",
+        "body": "Как в уроке о связках: so — что из этого вышло, but — вышло не так, как ты хотел.",
+        "example": "I was hungry, so I bought a sandwich. I called Mia, but she was busy.",
+        "translation": "Я был голоден, поэтому купил сэндвич. Я позвонил Мие, но она была занята."
+      },
+      "hint": "Первая фраза начинается с I was very tired, … Во второй после didn't глагол без -ed.",
+      "answers": [
+        "I was very tired, so I forgot my bag. I ran after the bus, but it didn't stop.",
+        "I was very tired, so I forgot my bag. I ran after it, but it didn't stop.",
+        "I was really tired, so I forgot my bag. I ran after the bus, but it didn't stop.",
+        "I was very tired, so I left my bag on the bus. I ran after the bus, but it didn't stop.",
+        "I was very tired, so I left my bag. I ran after the bus, but it didn't stop."
+      ],
+      "explanation": "So вводит результат усталости, but — неудачную погоню. «Забыл сумку» можно перевести и как left my bag.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Алекс ждёт ответа на M1. Коротко отреагируй на его историю и спроси, злился ли его начальник: в сообщении об этом ничего нет.",
+      "context": "boss — начальник; angry — сердитый, злой.",
+      "guidance": {
+        "title": "Сначала реакция, потом вопрос",
+        "body": "Начни с короткой реакции: Oh no! That sounds stressful. Так друг слышит, что ты его слушал. Потом спроси о том, чего он не рассказал.",
+        "example": "Oh no! That sounds awful. Was the train full?",
+        "translation": "Ох, нет! Звучит ужасно. Поезд был битком?"
+      },
+      "hint": "Злой начальник — это состояние, а не действие: вопрос начни с Was.",
+      "answers": [
+        "Oh no! That sounds stressful. Was your boss angry?",
+        "Oh no! Was your boss angry?",
+        "That sounds stressful! Was your boss angry?",
+        "Oh no, that sounds stressful! Was your boss angry?",
+        "Oh no! That sounds awful. Was your boss angry?",
+        "Oh no! Was your boss mad?"
+      ],
+      "explanation": "Сначала сочувствие, потом вопрос. Angry — состояние, поэтому Was your boss angry?, а не Did your boss angry. В разговоре американцы часто говорят mad вместо angry.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга Кейт не слышала сообщение Алекса и спрашивает, почему он опоздал на работу. Перескажи ей историю вслух в 4–5 фразах: где был Алекс и что происходило, что случилось и почему, что он делал потом и чем всё кончилось.",
+      "context": "Алекс говорит о себе I, а ты рассказываешь о нём: he. Формы из M1: came — пришёл, ran — побежал, left — уехал, bought — купил, got to — добрался до.",
+      "hint": "План: This morning, Alex was … → что случилось и почему → First… Then… → Finally…",
+      "answers": [
+        "This morning, Alex was at the wrong bus stop. It was raining, and he was reading the news when his bus came. He ran across the street, but the bus left without him. First, he called his boss. Then he waited for the next bus. Finally, he got to work at 8:20.",
+        "Alex missed his bus this morning because he was at the wrong stop. The bus stopped across the street, and it left without him. First, he called his boss. After that, he waited for the next bus. Finally, he got to work at 8:20, so he was late for a meeting."
+      ],
+      "explanation": "Засчитывается пересказ, где есть сцена (когда и где), главное событие с причиной и шаги по порядку до конца. Проверь факты по M1: на остановку Алекс пришёл вовремя — подвела не спешка, а не та сторона улицы.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Открой M3: Алекс спрашивает, было ли с тобой что-то похожее. Ответь ему письменно в 3–5 фразах: коротко отреагируй, потом расскажи свой случай — настоящий или историю из M2. Нужны когда и где, что случилось и чем кончилось.",
+      "context": "Something similar happened to me — со мной было похожее. The same thing happened to me — со мной было то же самое.",
+      "hint": "Проверь по плану: реакция → Something similar happened to me… → когда и где → что случилось → чем кончилось.",
+      "answers": [
+        "That sounds so stressful! Something similar happened to me last month. I was going home on the bus, and I was very tired. I got off at my stop, but my bag was still on the seat! I called the bus company, and finally I got my bag back.",
+        "Oh no, poor you! The same thing happened to me last year. I was new in the city, and I was waiting at the wrong stop. My bus came, but it stopped across the street. I missed it, so I was late for work."
+      ],
+      "explanation": "Засчитывается любой свой случай, где есть реакция, мостик к своей истории, сцена, события по порядку и понятный конец.",
+      "materialIds": [
+        "m3",
+        "m2"
+      ]
+    }
+  ]
+}

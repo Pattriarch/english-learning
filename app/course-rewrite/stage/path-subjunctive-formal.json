@@ -1,0 +1,340 @@
+{
+  "id": "path-subjunctive-formal",
+  "title": "It's essential that he be…: официальное «чтобы» в американском английском",
+  "subtitle": "«важно, чтобы», «предлагаю, чтобы» → словарная форма: he be, she call → «не» — not без do → время не сдвигается → «что» ≠ «чтобы» → устойчивые фразы",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 50,
+  "goal": "Писать официальные правила, просьбы и рекомендации так, как это делают в американских письмах и протоколах: «Важно, чтобы каждый участник был на месте к 8:30», «Комитет рекомендует перенести собрание», «Просим гостей не парковаться на газоне».",
+  "formula": "It's essential / important that + he be, she arrive · I suggest / recommend / insist that + she call · that he not wait · that the meeting be moved",
+  "guided": true,
+  "keyRule": {
+    "rule": "После «важно, чтобы» или «предлагаю, чтобы» ставь глагол в словарной форме: that he be, that she call.",
+    "example": "It's important that he be on time. — Важно, чтобы он пришёл вовремя.",
+    "check": "По-русски подходит «чтобы» — словарная форма. Подходит «что» — обычное время: He insisted that he was right."
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-verb-patterns",
+    "path-advice-preference",
+    "path-reported-speech"
+  ],
+  "recycles": [
+    "path-reported-speech",
+    "path-verb-patterns"
+  ],
+  "teaches": [
+    "слово требования или совета + that + кто + глагол в словарной форме: I suggest that she call, It's essential that he be here",
+    "одна форма для всех: he be, she go, every guest wear — без -s и без am / is / are",
+    "«не» — not перед глаголом, без do: that guests not park",
+    "пассив: that the meeting be postponed",
+    "время не сдвигается: They insisted that she leave (не left)",
+    "сигналы: suggest, recommend, insist, demand, request, require, ask, propose, urge; essential, important, vital, necessary, crucial",
+    "после want / would like — другая схема: I want you to call (не want that you call)",
+    "insist «утверждать» и suggest «показывать» — обычное время: He insisted that he was innocent",
+    "проще: I suggest calling, It's important to arrive early, You should…; that he should be — чаще британское",
+    "устойчивые фразы: if need be, be that as it may, so be it, come what may, suffice it to say"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: Are You in the Mood to Learn the Subjunctive?",
+      "url": "https://learningenglish.voanews.com/a/are-you-in-the-mood-to-learn-the-subjunctive/3584928.html",
+      "notes": "Сверено: две схемы — глагол (advise, ask, demand, insist, propose, request, suggest) + (that) + кто + простая форма и It is + essential / imperative / important / necessary / vital + that…; без -s в третьем лице (that he take); that можно пропустить; форма звучит вежливо и официально, её любят начальники, родители и политики."
+    },
+    {
+      "title": "Wikipedia · English subjunctive",
+      "url": "https://en.wikipedia.org/wiki/English_subjunctive",
+      "notes": "Сверено: отрицание — not перед глаголом (that they not be punished), порядок be not устарел; вариант с should в начале XX века был обычен и в США, но в американском английском быстро ушёл и к XXI веку стал редким, в британском держится дольше; устойчивые фразы come what may, so be it, be that as it may, suffice it to say, God bless."
+    },
+    {
+      "title": "British Council LearnEnglish · Patterns with reporting verbs (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/patterns-reporting-verbs",
+      "notes": "Сверено: verb + that + subjunctive для требований и рекомендаций (We suggest that she read…), а verb + that + обычное время, когда глагол не выражает желания (insist, recommend, explain…). Отсюда раздел о двух смыслах insist и suggest."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "«Чтобы», «что» и want",
+    "why": "Одна тема — оплата за квартиру. Смотри, какая форма стоит после that или после человека, когда это требование, когда сообщение о факте и когда желание.",
+    "items": [
+      {
+        "label": "Требование · «чтобы»",
+        "en": "The landlord insisted that she pay by check.",
+        "ru": "Хозяин настоял, чтобы она платила чеком.",
+        "note": "Словарная форма: pay, не pays и не paid."
+      },
+      {
+        "label": "Факт · «что»",
+        "en": "She insisted that she had already paid.",
+        "ru": "Она настаивала, что уже заплатила.",
+        "note": "Insist = «утверждать» — обычный пересказ."
+      },
+      {
+        "label": "Желание · want",
+        "en": "He wants her to pay by Friday.",
+        "ru": "Он хочет, чтобы она заплатила до пятницы.",
+        "note": "После want — человек + to, без that."
+      }
+    ],
+    "footnote": "Landlord — хозяин квартиры; pay by check — платить чеком.",
+    "focus": [
+      "that she pay",
+      "had already paid",
+      "her to pay"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему she call без -s — не ошибка",
+      "body": "Ты получаешь письмо из американского университета: It is essential that every student be present at orientation. По-русски: «Обязательно, чтобы каждый студент присутствовал на вводной встрече». Там, где ждёшь is, стоит be. Это не опечатка.\n\nВ русском после «важно, чтобы» и «предлагаю, чтобы» глагол тоже меняется: «чтобы он пришёл», а не «он приходит». В английском на этом месте особая форма — словарная, та, что стоит в словаре: that he come, that she call, that it be. Её называют subjunctive — «форма требования или желания». Новых окончаний учить не надо: это просто глагол без -s и без am / is / are.\n\nГде она встречается: правила, официальные письма, советы врача или юриста, протоколы встреч, речи. Американцы употребляют её чаще британцев и считают нормой делового языка.\n\nГде она не нужна: в разговоре с другом. Там скажешь проще: You should call her или Call her, OK?"
+    },
+    {
+      "title": "Как строится: одна форма для всех",
+      "body": "Схема: слово требования или совета + that + кто + глагол в словарной форме.\n\nГлаголы: suggest, recommend, insist, demand (требовать), request, require, ask, propose, urge (настоятельно просить). Прилагательные после It's: essential, important, vital, necessary, crucial (крайне важно).\n\nФорма одна для всех: I suggest that he call — не calls. It's important that she be here — не is.\n\n«Не» — not прямо перед глаголом, без do: We ask that guests not park on the grass — не don't park.\n\nПассив — be + третья форма: The doctor recommended that the surgery be postponed — врач рекомендовал отложить операцию.\n\nВремя не сдвигается, даже если главный глагол в прошлом: They insisted that she leave — «настояли, чтобы она ушла», не left.\n\nThat можно пропустить: I suggest he call. Особая форма видна только с he, she, it и с be. С I, you, we, they она совпадает с обычной: I suggest that they call."
+    },
+    {
+      "title": "«Чтобы» или «что»: требование и сообщение о факте",
+      "body": "Insist и suggest бывают двух видов. Insist that she leave — «настаивает, чтобы она ушла»: требование. He insisted that he was innocent — «настаивал, что он невиновен»: он утверждал факт. Во втором случае — обычное время и сдвиг, как в любом пересказе.\n\nSuggest that he call — «предлагает, чтобы он позвонил». The data suggest that the plan works — «сведения указывают, что план работает»: здесь suggest значит «показывать», и после него обычное время.\n\nПроверка: переведи на русский. Подходит «чтобы» — словарная форма. Подходит «что» — обычное время.\n\nПосле want, would like и need «чтобы» строится иначе, по схеме из урока о глаголах: I want you to call — «хочу, чтобы ты позвонил». I want that you call — ошибка, хотя по-русски тянет сказать именно так."
+    },
+    {
+      "title": "Как сказать проще и что такое that he should be",
+      "body": "Официальная форма нужна в письме, правилах и протоколе. В разговоре и в чате с коллегами говорят проще.\n\nБез человека: I suggest calling them — «предлагаю им позвонить». It's important to arrive early — «важно прийти пораньше».\n\nВ группе: I suggest we take a break — «предлагаю сделать перерыв». Let's take a break.\n\nСовет одному человеку: You should see a doctor. You need to call them today.\n\nРазговорно: It's important for him to be there — «важно, чтобы он был там».\n\nВариант that he should be — I suggest that he should call — ты встретишь в британских текстах. В американском английском он звучит старомодно или по-британски, поэтому в своих письмах пиши that he call.\n\nIf I were you из урока о втором условии — остаток той же старой формы: were для всех. Новых правил оттуда не нужно."
+    },
+    {
+      "title": "Устойчивые фразы с той же формой",
+      "body": "Несколько выражений сохранили эту форму навсегда. Их учат целиком и не меняют.\n\nIf need be — «если понадобится»: I can work on Saturday if need be.\n\nBe that as it may — «как бы то ни было»: признаёшь довод собеседника и всё же идёшь дальше. Официально, в споре или в письме.\n\nSo be it — «ну что ж, пусть так»: принимаешь решение, которое тебе не нравится. If the board says no, so be it.\n\nCome what may — «что бы ни случилось»: We'll finish on time, come what may.\n\nSuffice it to say — «скажу только, что…», без подробностей: Suffice it to say, the meeting didn't go well.\n\nИ из речей: God bless America — «Боже, благослови Америку». Bless, а не blesses — та же словарная форма."
+    }
+  ],
+  "examples": [
+    {
+      "en": "It's essential that every guest be at the gate by 6:30 p.m.",
+      "ru": "Обязательно, чтобы каждый гость был у выхода на посадку к 18:30.",
+      "why": "Be для всех — не is."
+    },
+    {
+      "en": "The doctor recommended that he not lift anything heavy for a month.",
+      "ru": "Врач рекомендовал ему месяц не поднимать ничего тяжёлого.",
+      "why": "Not прямо перед глаголом, без doesn't."
+    },
+    {
+      "en": "The board has requested that the vote be postponed until May.",
+      "ru": "Совет попросил перенести голосование на май.",
+      "why": "Пассив: кто перенесёт — неважно, поэтому be + третья форма."
+    },
+    {
+      "en": "My manager insisted that I take a day off.",
+      "ru": "Начальница настояла, чтобы я взял выходной.",
+      "why": "Insisted в прошлом, а take не сдвигается: это требование."
+    },
+    {
+      "en": "He insisted that he had locked the door.",
+      "ru": "Он настаивал, что запер дверь.",
+      "why": "Здесь insist — «утверждать»: обычный пересказ факта, поэтому had locked."
+    },
+    {
+      "en": "I suggest we take a short break.",
+      "ru": "Предлагаю сделать короткий перерыв.",
+      "why": "Без that — естественно на встрече и не слишком официально."
+    },
+    {
+      "en": "We can stay late if need be.",
+      "ru": "Если понадобится, можем задержаться.",
+      "why": "Устойчивая фраза — переводи целиком."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь памятку для новых волонтёров музея. Переведи: «Важно, чтобы каждый волонтёр носил бейдж». wear a badge — носить бейдж.",
+      "context": "",
+      "guidance": {
+        "title": "It's important that + словарная форма",
+        "body": "После It's important that глагол стоит в словарной форме даже с he, she и every volunteer: wear, а не wears.",
+        "example": "It's essential that the driver check the tires every morning.",
+        "translation": "Обязательно, чтобы водитель каждое утро проверял шины."
+      },
+      "hint": "Начни так: It is important that every volunteer…",
+      "answers": [
+        "It is important that every volunteer wear a badge.",
+        "It's important that every volunteer wear a badge.",
+        "It is important that each volunteer wear a badge.",
+        "It's important that each volunteer wear a badge.",
+        "It is important that every volunteer wear their badge.",
+        "It's important that every volunteer wear their badge.",
+        "It is important every volunteer wear a badge."
+      ],
+      "explanation": "Wear без -s: после It's important that — словарная форма. Every volunteer wears тоже встречается в разговоре, но в памятке пиши wear."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты организуешь экзамен и пишешь участникам. Переведи: «Обязательно, чтобы все участники были на месте к 8:30 утра». It is essential — обязательно; be present — быть на месте, присутствовать.",
+      "context": "",
+      "guidance": {
+        "title": "Be вместо am, is, are",
+        "body": "У глагола «быть» в этой форме одно слово для всех: that you be, that everyone be, that they be. Is и are здесь не ставят.",
+        "example": "It's vital that the room be quiet during the test.",
+        "translation": "Крайне важно, чтобы во время теста в комнате было тихо."
+      },
+      "hint": "Начни так: It is essential that all participants…",
+      "answers": [
+        "It is essential that all participants be present by 8:30 a.m.",
+        "It's essential that all participants be present by 8:30 a.m.",
+        "It is essential that all participants be here by 8:30 a.m.",
+        "It is essential that all participants be in place by 8:30 a.m.",
+        "It is essential that everyone be present by 8:30 a.m.",
+        "It's essential that every participant be present by 8:30 a.m.",
+        "It is essential that all participants be present by 8:30."
+      ],
+      "explanation": "Be — для всех. Are present звучало бы как сообщение о факте, а не требование. By 8:30 a.m. — «к 8:30», не позже."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пересказываешь в письме соседям, что было на собрании жильцов. Переведи: «Управляющий потребовал, чтобы каждый жилец убрал велосипед из коридора». building manager — управляющий; tenant — жилец; remove — убрать; hallway — коридор.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем пересказ: здесь шаг назад не делают",
+        "body": "Вспоминаем пересказ: после said время обычно сдвигается назад. После demanded, insisted, required that — нет: это требование, а не рассказ о факте. Remove остаётся remove.",
+        "example": "The coach insisted that every player arrive an hour early.",
+        "translation": "Тренер настоял, чтобы каждый игрок приходил на час раньше."
+      },
+      "hint": "Проверь: demanded в прошлом. Какой формы будет remove?",
+      "answers": [
+        "The building manager demanded that every tenant remove their bike from the hallway.",
+        "The building manager demanded that each tenant remove their bike from the hallway.",
+        "The building manager demanded that every tenant remove his or her bike from the hallway.",
+        "The building manager demanded that every tenant remove their bicycle from the hallway.",
+        "The building manager demanded that all tenants remove their bikes from the hallway.",
+        "The manager demanded that every tenant remove their bike from the hallway."
+      ],
+      "explanation": "Remove — словарная форма, без -s и без сдвига в removed. Their после every tenant — обычный американский способ не выбирать his или her."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Табличка у входа в загородный отель. Переведи: «Мы просим, чтобы гости не парковались на газоне». lawn — газон.",
+      "context": "",
+      "guidance": {
+        "title": "«Не» — not прямо перед глаголом",
+        "body": "Do в этой форме не участвует: that guests not park, а не don't park. Not стоит прямо перед словарной формой.",
+        "example": "The nurse asked that visitors not use their phones in patient rooms.",
+        "translation": "Медсестра попросила, чтобы посетители не пользовались телефонами в палатах."
+      },
+      "hint": "Начни так: We ask that guests…",
+      "answers": [
+        "We ask that guests not park on the lawn.",
+        "We request that guests not park on the lawn.",
+        "We ask that guests not park on the grass.",
+        "We request that guests not park on the grass.",
+        "We kindly ask that guests not park on the lawn."
+      ],
+      "explanation": "Not park — без do. Guests don't park встречается в разговоре, но на официальной табличке пишут not park."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь протокол. Переведи: «Комитет рекомендует перенести собрание на 14 мая». Кто именно перенесёт — неважно. move — перенести.",
+      "context": "",
+      "guidance": {
+        "title": "Важна вещь, а не исполнитель — be + третья форма",
+        "body": "После that ставь саму вещь, а потом be + третья форма: that the meeting be… Так говорят, когда неважно, кто сделает.",
+        "example": "The lawyer advised that the contract be signed before Friday.",
+        "translation": "Юрист посоветовал подписать договор до пятницы."
+      },
+      "hint": "Начни так: The committee recommends that the meeting…",
+      "answers": [
+        "The committee recommends that the meeting be moved to May 14.",
+        "The committee recommends that the meeting be moved to May 14th.",
+        "The committee recommends that the meeting be rescheduled for May 14.",
+        "The committee recommends that the meeting be postponed until May 14.",
+        "The committee recommends that the meeting be postponed to May 14.",
+        "The committee recommends the meeting be moved to May 14."
+      ],
+      "explanation": "Be moved — пассив в словарной форме, без is. Recommends с -s: это главный глагол, к нему правило не относится. Rescheduled и postponed тоже подходят."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Поставь глагол в скобках в нужную форму и перепиши три фразы целиком. 1) She insisted that her son (wear) a helmet. 2) She insisted that she (lock) the door before she left. 3) The test results suggest that the new route (be) faster.",
+      "context": "helmet — шлем; route — маршрут.",
+      "guidance": {
+        "title": "«Чтобы» или «что»?",
+        "body": "Insist и suggest бывают требованием и сообщением о факте. Подставь русское слово: подходит «чтобы» — словарная форма; подходит «что» — обычное время, как в пересказе.",
+        "example": "He suggested that I apply. The survey suggests that most people like the plan.",
+        "translation": "Он предложил, чтобы я подал заявку. Опрос показывает, что план нравится большинству."
+      },
+      "hint": "Переведи каждую фразу: «настояла, чтобы…» или «настаивала, что…»?",
+      "answers": [
+        "She insisted that her son wear a helmet. She insisted that she had locked the door before she left. The test results suggest that the new route is faster.",
+        "She insisted that her son wear a helmet. She insisted that she locked the door before she left. The test results suggest that the new route is faster."
+      ],
+      "explanation": "1) «настояла, чтобы» — wear. 2) «настаивала, что заперла» — обычный пересказ: had locked или locked. 3) suggest = «показывают», маршрут быстрее и сейчас — is."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега написал клиенту письмо. Исправь три ошибки и перепиши текст целиком: We want that you send the documents by Friday. We also recommend that your assistant calls us before the visit, and it is necessary that the payment is made in U.S. dollars.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем want you to",
+        "body": "Вспоминаем схему want + человек + to: I want you to call. That после want не ставят. А после recommend that и necessary that — словарная форма: call, be.",
+        "example": "We'd like you to arrive early, and we ask that your driver wait outside.",
+        "translation": "Просим вас приехать пораньше, а вашего водителя — подождать снаружи."
+      },
+      "hint": "Найди want that, глагол с -s после recommend that и is после necessary that.",
+      "answers": [
+        "We would like you to send the documents by Friday. We also recommend that your assistant call us before the visit, and it is necessary that the payment be made in U.S. dollars.",
+        "We want you to send the documents by Friday. We also recommend that your assistant call us before the visit, and it is necessary that the payment be made in U.S. dollars.",
+        "We'd like you to send the documents by Friday. We also recommend that your assistant call us before the visit, and it is necessary that the payment be made in U.S. dollars.",
+        "We ask that you send the documents by Friday. We also recommend that your assistant call us before the visit, and it is necessary that the payment be made in U.S. dollars."
+      ],
+      "explanation": "Want that you send → want you to send (клиенту вежливее would like you to) или ask that you send. Calls → call, is made → be made: после recommend that и necessary that — словарная форма."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты организуешь двухдневный выездной семинар для команды. Напиши участникам официальное письмо на 150–250 слов с правилами и рекомендациями. Что должно быть: время и место сбора; что взять с собой и что нельзя; что делать при опоздании; минимум четыре фразы с that + словарная форма, из них одна с not и одна с be (it be или be + третья форма); одна фраза с would like you to; одна устойчивая фраза (if need be или come what may); вежливый деловой тон.",
+      "context": "retreat — выездной семинар; carpool — ехать вместе на одной машине.",
+      "hint": "План: Subject → Dear team, → когда и где → It is essential that… → We ask that… not… → If you are running late… → Best regards,",
+      "answers": [
+        "Subject: Team retreat, May 14–15 – important details\n\nDear team,\n\nOur retreat will take place at Pine Lake Lodge on May 14 and 15. The bus will leave from the main office at 7:30 a.m. on Thursday, and it is essential that everyone be at the parking lot by 7:15 a.m.\n\nPlease bring a photo ID, comfortable shoes, and a laptop. We recommend that each of you bring a warm sweater, since evenings by the lake can be cold. The lodge has asked that guests not bring food into the rooms.\n\nIf you are running late, it is important that you call Maria Lopez at (312) 555-0147 before 7:30. The bus cannot wait for more than ten minutes, but we can arrange a carpool if need be.\n\nWe would also like you to read the short agenda attached to this email before Thursday. Finally, we request that all work calls be scheduled before or after the retreat, so that everyone can take part fully.\n\nIf you have any dietary needs, please let us know by May 7.\n\nBest regards,\nAlex Chen\nOperations Manager"
+      ],
+      "explanation": "Засчитывается, если есть минимум четыре that + словарная форма (be, bring, not bring, call, be scheduled), одна с not, одна с be или be + третья форма, фраза с would like you to и одна устойчивая фраза. Тон вежливый, без you must в каждой фразе."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты выступаешь 2–3 минуты на собрании жильцов дома, родителей класса или членов клуба с решением одной проблемы: шум, парковка, мусор, расписание. Что должно быть: проблема в 2–3 фразах; три рекомендации через recommend / suggest / it's essential that + словарная форма, одна из них с not; признай возражение через Be that as it may или I understand that…; одна устойчивая фраза в конце; короткий итог. Запиши себя и проверь по расшифровке, нет ли -s после that.",
+      "context": "",
+      "hint": "Начни так: Thank you all for coming. I'd like to talk about…",
+      "answers": [
+        "Thank you all for coming. I'd like to talk about parking. Over the last two months, the lot behind our building has been full almost every evening, and at least three cars that don't belong to residents park there every night. Last week, an ambulance couldn't get close to the entrance.\n\nSo I have three recommendations. First, I recommend that every resident register their car with the building office by the end of the month. Second, I suggest that the office give each registered car a sticker, so that it's easy to see who belongs here. And third, it's essential that nobody park in front of the entrance, not even for five minutes. We ask that delivery drivers not stop there either, and I'll put up a sign.\n\nI understand that some of you have guests who visit often, and a sticker system might feel strict. Be that as it may, the entrance has to stay clear. For guests, I'd propose a few visitor spots near the street.\n\nIf the owner decides to bring in a towing company, so be it, but I'd rather we solve this ourselves first.\n\nSo, to sum up: register your car, use the stickers, and keep the entrance clear. If you have questions, I'll be here after the meeting."
+      ],
+      "explanation": "Засчитывается, если три рекомендации построены через that + словарная форма (register, give, park, not stop), одна с not, есть признанное возражение и одна устойчивая фраза. Оценивай по своей расшифровке: после that не должно быть registers, gives, doesn't."
+    },
+    {
+      "id": "e10",
+      "kind": "translate",
+      "practiceStage": "independent",
+      "prompt": "Начальница прислала по-русски указания для американской строительной бригады. Передай их по-английски одним официальным письмом бригадиру, Mr. Daniels (80–130 слов). Указания: «Просим, чтобы все рабочие на площадке носили каски. Важно, чтобы бригада не начинала работы раньше 8 утра: соседи жаловались на шум. Мы требуем, чтобы площадку убирали в конце каждого дня. Если понадобится, можем сдвинуть срок окончания на неделю. Хотим, чтобы вы прислали обновлённый график до пятницы».",
+      "context": "crew — бригада; work site — стройплощадка; hard hat — каска; foreman — бригадир.",
+      "hint": "Четыре «чтобы» с разными словами: ask that, it is important that, require that, would like you to. Какое из них работает по схеме want?",
+      "answers": [
+        "Subject: Site rules and updated schedule\n\nDear Mr. Daniels,\n\nWe ask that all workers on the site wear hard hats at all times. It is important that the crew not start work before 8 a.m., as several neighbors have complained about the noise. We also require that the work site be cleaned at the end of each day.\n\nIf need be, we can move the completion date back by one week. We would like you to send us an updated schedule by Friday.\n\nThank you for your help.\n\nSincerely,\nAnna Sokolova\nProject Manager"
+      ],
+      "explanation": "Засчитывается, если «просим, чтобы» и «требуем, чтобы» переданы через that + словарная форма (wear, be cleaned), «не начинала» — через not start без do, «хотим, чтобы вы прислали» — через would like you to, а «если понадобится» — через if need be. Все условия начальницы сохранены."
+    }
+  ]
+}

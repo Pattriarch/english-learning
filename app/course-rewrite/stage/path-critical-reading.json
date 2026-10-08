@@ -1,0 +1,368 @@
+{
+  "id": "path-critical-reading",
+  "title": "Критическое чтение: хватает ли доказательств для вывода",
+  "subtitle": "Вывод автора → чем подкреплён → кого измерили → сила слов → честное возражение",
+  "level": "B2",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Прочитать статью или пост и честно сказать, что автор утверждает, чем это подкреплено и чего не хватает: «The writer claims…», «The only evidence is…», «It doesn't show that…», «We would need…».",
+  "formula": "The writer claims… → The evidence is… → It shows… but it doesn't show… → We would need…",
+  "keyRule": {
+    "rule": "Найди вывод автора и спроси: что именно его подтверждает и хватает ли этого?",
+    "example": "The writer claims the app works for everyone. The only evidence is one story. — Автор утверждает, что приложение помогает всем. Единственное доказательство — одна история.",
+    "check": "Вывод говорит обо всех, а цифры — о двенадцати людях? Значит, вывод шире доказательства."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-reading-inference",
+    "path-deduction",
+    "path-modal-perfect"
+  ],
+  "recycles": [
+    "path-reading-inference",
+    "path-modal-perfect"
+  ],
+  "teaches": [
+    "claim — вывод автора, то, во что он хочет, чтобы ты поверил: The writer claims (that)…",
+    "evidence — то, на что опирается вывод; без a и без -s, «одно доказательство» — a piece of evidence; The only evidence is…",
+    "три вида опоры: одна история — так бывает; опрос — что ответили эти люди; сравнение двух групп — только оно показывает причину",
+    "кого и что измерили: The study only included…; It measured whether…, not whether…",
+    "сила слов: proves → shows → suggests → is linked to / is associated with → may",
+    "охват: some, most, everyone — вывод не перескакивает с some на everyone",
+    "честное возражение: To be fair, … → However, … → We would need…",
+    "слова: claim, evidence, survey, comparison, volunteer, measure, be linked to, to be fair"
+  ],
+  "sources": [
+    {
+      "title": "UNC Writing Center · Evidence",
+      "url": "https://writingcenter.unc.edu/tips-and-handouts/evidence/",
+      "notes": "Сверено: доказательство «не говорит само за себя» — нужно объяснить, как оно связано с выводом; личная история редко может быть единственной опорой; чужую позицию сначала пересказывают точно и только потом отвечают по пунктам. На этом построены разделы 1, 2 и 5."
+    },
+    {
+      "title": "The Journalist's Resource · Correlation vs. causation",
+      "url": "https://journalistsresource.org/?p=69053",
+      "notes": "Сверено: если исследование нашло только связь, пишут linked to, tied to, associated with, а не causes; про исследование не говорят proves. Пример с коротким сном и набором веса взят оттуда как идея, формулировка своя."
+    },
+    {
+      "title": "LibreTexts · How to Read Health News",
+      "url": "https://med.libretexts.org/Bookshelves/Health_and_Fitness/Health_Education_(Rienk_and_Lundin)/14%3A_Health_Care_Choices/14.02%3A_How_to_Read_Health_News",
+      "notes": "Сверено: маленькая выборка даёт случайные результаты, без контрольной группы причину не установить, и надо проверять, измерили ли то, о чём говорит заголовок. Отсюда разделы 2–3 и вопросы к статье M1."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Четыре вопроса к любому выводу",
+    "why": "Пост: “Standing desks make kids learn better.” По порядку — вопросы, которые ты задаёшь, и честный ответ на каждый.",
+    "items": [
+      {
+        "label": "Вывод",
+        "en": "The writer claims the desks help kids learn.",
+        "ru": "Автор утверждает, что парты помогают учиться.",
+        "note": "Во что автор хочет, чтобы ты поверил?"
+      },
+      {
+        "label": "Опора",
+        "en": "The evidence is one class and a survey.",
+        "ru": "Доказательство — один класс и опрос.",
+        "note": "Какого вида опора: история, опрос, сравнение?"
+      },
+      {
+        "label": "Граница",
+        "en": "It doesn't show that the desks caused the change.",
+        "ru": "Это не показывает, что причиной были парты.",
+        "note": "Хватает ли опоры для такого вывода?"
+      },
+      {
+        "label": "Проверка",
+        "en": "We would need a comparison group.",
+        "ru": "Нужна была бы группа для сравнения.",
+        "note": "Что изменило бы твоё мнение?"
+      }
+    ],
+    "focus": [
+      "claims",
+      "evidence",
+      "doesn't show",
+      "would need"
+    ],
+    "footnote": "Standing desk — парта, за которой можно работать стоя."
+  },
+  "sections": [
+    {
+      "title": "Вывод автора и то, чем он его подкрепляет",
+      "body": "Подруга присылает пост: “This app made me fluent in three months. It works for everyone!” Пост хочет, чтобы ты поверил: приложение помогает всем. Это вывод автора — claim («утверждение»). А чем он это подкрепляет? Историей одного человека — самого автора. Это evidence — «доказательство, то, на что опирается вывод».\n\nВ уроке о чтении ты отделял то, что написано, от своей догадки. Теперь шаг дальше: вывод делает сам автор, а ты проверяешь, хватает ли ему опоры.\n\nFluent — «свободно говорящий». Evidence — неисчисляемое слово: без a и без -s. «Одно доказательство» — a piece of evidence. Готовые фразы: The writer claims (that)… — автор утверждает, что…; The evidence is… — доказательство — это…"
+    },
+    {
+      "title": "Три вида опоры: история, опрос, сравнение",
+      "body": "Одна история (story) показывает, что так бывает. Она не говорит, как часто: у других людей может выйти иначе.\n\nОпрос (survey) показывает, что люди ответили, — и только те, кто ответил. 18 of 24 students liked the desks — восемнадцати из двадцати четырёх понравились парты. «Понравилось» — ещё не «стали лучше учиться».\n\nСравнение (comparison) — две похожие группы: одна получила новое, другая нет. Только так можно увидеть причину. Если сравнения нет, вспомни правило из урока о чтении: «после» — ещё не «из-за». Оценки выросли после новых парт, но за учебный год оценки часто растут и сами: дети учатся."
+    },
+    {
+      "title": "Кого измерили и что именно",
+      "body": "Посмотри, о ком цифры. Twelve volunteers — двенадцать добровольцев. Они сами захотели участвовать и, может быть, уже любили приложение. Вывод «работает для всех» говорит о миллионах людей, а цифры — о двенадцати.\n\nПотом посмотри, что именно измерили (measured). Спросили, нравится ли, — значит, измерили мнение, а не знания. Если автор пишет «помогает учиться», а мерили «нравится», вывод перескочил на другой вопрос.\n\nФразы: The survey only included twelve volunteers — в опросе были только двенадцать добровольцев. It measured whether people liked the app, not whether they learned more — измерили, нравится ли людям приложение, а не стали ли они больше знать."
+    },
+    {
+      "title": "Сила слов: proves, shows, suggests, is linked to",
+      "body": "Сравни, насколько уверенно звучат слова. Proves — «доказывает»: честно так говорят очень редко. Shows — «показывает»: цифры говорят это прямо. Suggests — «наводит на мысль»: ты знаешь его по уроку о чтении. Is linked to или is associated with — «связано с»: две вещи встречаются вместе, но что из них причина, неизвестно. May help — «может помочь».\n\nПример: люди, которые мало спят, чаще набирают вес. Честный заголовок — Short sleep is linked to weight gain. Заголовок Short sleep causes weight gain уже утверждает причину.\n\nСмотри и на охват: some — некоторые, most — большинство, everyone — все. Вывод не должен перескочить с some на everyone."
+    },
+    {
+      "title": "Честное возражение: точно, а не «всё враньё»",
+      "body": "Критика — не «всё это неправда». Сначала скажи, что доказательство действительно показывает: To be fair, the survey shows that most of these students liked the desks. To be fair — «справедливости ради».\n\nПотом назови одно точное ограничение: However, it was only one class, and there was no comparison group.\n\nВ конце скажи, что изменило бы твоё мнение: We would need to compare this class with similar classes that didn't get the desks — нужно было бы сравнить этот класс с похожими классами без таких парт. Так собеседник видит, что ты не против идеи, а просишь нужную проверку."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The writer claims that the app works for everyone.",
+      "ru": "Автор утверждает, что приложение помогает всем.",
+      "why": "Claims вводит вывод автора — то, что ещё надо проверить."
+    },
+    {
+      "en": "The only evidence is one person's story.",
+      "ru": "Единственное доказательство — история одного человека.",
+      "why": "Evidence без a и без -s. Одна история показывает, что так бывает, но не как часто."
+    },
+    {
+      "en": "The survey only included twelve volunteers.",
+      "ru": "В опросе участвовали только двенадцать добровольцев.",
+      "why": "Only included честно называет, о ком цифры."
+    },
+    {
+      "en": "Liking the app isn't the same as learning more.",
+      "ru": "Если приложение нравится, это ещё не значит, что ты больше выучил.",
+      "why": "Измерили мнение, а вывод — о знаниях."
+    },
+    {
+      "en": "Short sleep is linked to weight gain.",
+      "ru": "Короткий сон связан с набором веса.",
+      "why": "Linked to — две вещи встречаются вместе, причина не доказана. Сравни со следующим примером."
+    },
+    {
+      "en": "Short sleep causes weight gain.",
+      "ru": "Короткий сон вызывает набор веса.",
+      "why": "Causes — уже о причине. Для этого нужно сравнение групп, а не просто связь."
+    },
+    {
+      "en": "We would need to compare it with a group that didn't use the app.",
+      "ru": "Нужно было бы сравнить с группой, которая приложением не пользовалась.",
+      "why": "Would need называет недостающую проверку вместо «всё это неправда»."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Статья: парты для работы стоя",
+      "kind": "reading",
+      "text": "Standing Desks at Lincoln Middle School: A Success Story\n\nLast fall, Lincoln Middle School put standing desks in Ms. Rivera's seventh-grade math class. The desks let students stand or sit on a tall stool during the lesson. By spring, the class's average test score had risen from 72 to 78.\n\n“My students pay more attention now,” Ms. Rivera said. “They're not as restless after lunch.” In a class survey, 18 of the 24 students said they liked the new desks. One parent, Dana Brooks, said her son seemed happier about going to school.\n\nPrincipal Mark Ellis believes the results speak for themselves. “Standing desks clearly make students learn better,” he said. “Every classroom in the district should have them.” Each desk costs about $300.\n\nThe school board will vote on the plan at its meeting on Thursday, March 12.",
+      "source": "Придумано для курса: школа и люди вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга прислала пост про приложение для изучения языков. Объясни ей, что в нём главное: «Автор утверждает, что это приложение помогает всем».",
+      "context": "",
+      "guidance": {
+        "title": "Вывод автора — The writer claims…",
+        "body": "Claim — то, во что автор хочет, чтобы ты поверил. После claims (that) идёт обычная фраза в настоящем времени.",
+        "example": "The article claims that coffee helps you focus.",
+        "translation": "В статье утверждается, что кофе помогает сосредоточиться."
+      },
+      "hint": "Начни так: The writer claims …",
+      "answers": [
+        "The writer claims that the app works for everyone.",
+        "The writer claims the app works for everyone.",
+        "The writer claims that this app works for everyone.",
+        "The author claims that the app works for everyone.",
+        "The author claims the app works for everyone.",
+        "The writer claims that the app helps everyone.",
+        "The writer claims the app helps everyone.",
+        "The post claims that the app works for everyone."
+      ],
+      "explanation": "Claims вводит вывод, который ещё надо проверить. That можно пропустить. Writer, author и the post — все подходят."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга спрашивает: “But what's the proof?” Ответь: «Единственное доказательство — история одного человека».",
+      "context": "",
+      "guidance": {
+        "title": "Чем подкреплено — The evidence is…",
+        "body": "Evidence — «доказательство», неисчисляемое слово: без a и без -s. «Единственное» — the only.",
+        "example": "The main evidence is a survey of fifty parents.",
+        "translation": "Главное доказательство — опрос пятидесяти родителей."
+      },
+      "hint": "Нужен ли a перед evidence? Начни так: The only …",
+      "answers": [
+        "The only evidence is one person's story.",
+        "The only evidence is a story about one person.",
+        "The only evidence is the story of one person.",
+        "The only evidence is one person's experience.",
+        "Its only evidence is one person's story.",
+        "The only evidence is the writer's own story."
+      ],
+      "explanation": "Evidence без a: an evidence — ошибка. One person's story — «история одного человека»; a story about one person тоже верно."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пересказываешь коллеге исследование из новостей. Скажи: «В исследовании участвовали только двенадцать добровольцев, и все они уже пользовались приложением».",
+      "context": "study — исследование; volunteers — добровольцы.",
+      "guidance": {
+        "title": "О ком цифры — only included",
+        "body": "Назови, кого измерили и сколько их было: The study only included… Only здесь — честное «только».",
+        "example": "The study only included students from one school.",
+        "translation": "В исследование вошли только ученики одной школы."
+      },
+      "hint": "«Уже пользовались» ещё до исследования — had already used.",
+      "answers": [
+        "The study only included twelve volunteers, and all of them had already used the app.",
+        "The study only included twelve volunteers, and they had all already used the app.",
+        "The study only included twelve volunteers, and all of them already used the app.",
+        "The study only included twelve volunteers, and they all already used the app.",
+        "The study included only twelve volunteers, and all of them had already used the app.",
+        "Only twelve volunteers took part in the study, and all of them had already used the app."
+      ],
+      "explanation": "Only included честно ограничивает, о ком вывод. Had already used — пользовались ещё до исследования; already used тоже понятно. Only twelve volunteers took part — тот же смысл."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В рекламе написано: “Ten of twelve volunteers liked our app, so it helps people learn faster.” Перепиши честно двумя фразами: что опрос показывает и чего он не показывает.",
+      "context": "",
+      "guidance": {
+        "title": "Что измерили — It shows… It doesn't show…",
+        "body": "Сначала назови, что цифры показывают прямо. Потом — вывод, на который они не отвечают. «Нравится» и «учит быстрее» — разные вопросы.",
+        "example": "The poll shows that most parents like the new schedule. It doesn't show that kids sleep more.",
+        "translation": "Опрос показывает, что большинству родителей нравится новое расписание. Он не показывает, что дети больше спят."
+      },
+      "hint": "Что спросили у добровольцев: нравится ли им приложение или сколько они выучили?",
+      "answers": [
+        "The survey shows that ten of twelve volunteers liked the app. It doesn't show that the app helps people learn faster.",
+        "The survey shows that ten out of twelve volunteers liked the app. It doesn't show that it helps people learn faster.",
+        "It shows that ten of twelve volunteers liked the app. It doesn't show that the app helps people learn faster.",
+        "The survey shows that most of the volunteers liked the app. It does not show that the app helps people learn faster.",
+        "The ad shows that ten of twelve volunteers liked the app. It doesn't show that they learned faster."
+      ],
+      "explanation": "Засчитывается, если в первой фразе — то, что измерили (приложение понравилось десяти из двенадцати), а во второй — вывод, который из этого не следует (учит быстрее)."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Заголовок в новостях: “Coffee Causes Longer Life, Study Proves.” В самой статье сказано: люди, которые пьют кофе, в среднем жили немного дольше. Группы, которой кофе не давали, для сравнения не было. Перепиши заголовок честно.",
+      "context": "on average — в среднем; headline — заголовок.",
+      "guidance": {
+        "title": "Связь — ещё не причина: is linked to",
+        "body": "Если две вещи просто встречаются вместе, пиши is linked to или is associated with. Causes и proves — только когда сравнение показало причину.",
+        "example": "Screen Time Is Linked to Poor Sleep in Teens",
+        "translation": "Время у экрана связано с плохим сном у подростков"
+      },
+      "hint": "Какие два слова в заголовке слишком сильные?",
+      "answers": [
+        "Coffee Is Linked to Longer Life, Study Suggests",
+        "Coffee Is Linked to Longer Life, Study Finds",
+        "Coffee Is Associated with Longer Life, Study Finds",
+        "Coffee Is Associated With Longer Life, Study Suggests",
+        "Coffee Drinkers May Live Longer, Study Suggests",
+        "Coffee Drinkers May Live Longer, Study Finds",
+        "Study Links Coffee to Longer Life",
+        "Coffee Is Linked to Longer Life"
+      ],
+      "explanation": "Causes заменяем на is linked to или may: связь есть, причина не доказана. Proves — на suggests или finds. Засчитывается любой заголовок без causes и proves."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «после — ещё не из-за» и might have. Коллега уверен, что продажи выросли из-за нового сайта. Ответь: «Продажи выросли после того, как обновили сайт, но причиной могли быть и праздники».",
+      "context": "redesign — обновить дизайн; the holidays — праздники в конце года.",
+      "guidance": {
+        "title": "Вспоминаем: после — не из-за, и might have",
+        "body": "Как в уроке о чтении: порядок событий — факт, причина — вывод. Другую возможную причину в прошлом назови через might have been или could have been.",
+        "example": "Fewer people came after the price change, but the rain might have kept them home.",
+        "translation": "После смены цен людей пришло меньше, но, возможно, их удержал дома дождь."
+      },
+      "hint": "Начни так: Sales went up after … Для «могли быть» — might have been.",
+      "answers": [
+        "Sales went up after the website was redesigned, but the holidays might have been the reason.",
+        "Sales rose after the website was redesigned, but the holidays might have been the reason.",
+        "Sales went up after they redesigned the website, but the holidays might have been the reason.",
+        "Sales went up after the website was redesigned, but it might have been because of the holidays.",
+        "Sales went up after the website was redesigned, but the reason could have been the holidays.",
+        "Sales went up after the website redesign, but the holidays might have caused it.",
+        "Sales rose after the redesign, but the holidays could have been the reason."
+      ],
+      "explanation": "Порядок событий передан как факт: after. Причина — только возможная: might have been или could have been. Was redesigned и they redesigned — оба верны."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет в рабочий чат: “A four-day week makes teams more productive. Our team tried it for a month, and we finished more tasks.” Ответь тремя фразами: что справедливо, одно точное ограничение и какая проверка нужна.",
+      "context": "four-day week — четырёхдневная рабочая неделя; productive — продуктивный; tasks — задачи.",
+      "guidance": {
+        "title": "Честное возражение в три шага",
+        "body": "To be fair, … — что опора правда показывает. However, … — одно точное ограничение. We would need… — проверка, которая изменила бы твоё мнение.",
+        "example": "To be fair, the survey had 500 answers. However, they all came from one city. We would need data from other cities too.",
+        "translation": "Справедливости ради, в опросе было 500 ответов. Однако все они из одного города. Нужны были бы цифры и из других городов."
+      },
+      "hint": "Сколько команд попробовали и сколько времени? Это и есть ограничение.",
+      "answers": [
+        "To be fair, your team did finish more tasks that month. However, one team and one month aren't enough to show that a four-day week works for every team. We would need to compare several teams over a longer time.",
+        "To be fair, your team finished more tasks during that month. However, it was only one team, and a month is a short time. We would need to compare teams with and without a four-day week for longer."
+      ],
+      "explanation": "Засчитывается, если три шага на месте: что правда показано (больше задач за месяц), точное ограничение (одна команда, короткий срок, нет сравнения) и конкретная проверка. Ответ «это всё неправда» не засчитывается."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Прочитай M1. Ты родитель ученика этой школы. В четверг школьный совет округа (school board) голосует, покупать ли такие парты во все классы. Напиши письмо члену совета Ms. Patel на 100–180 слов. Что должно быть: что утверждает директор; какие виды опоры есть в статье; что они действительно показывают (To be fair…); два точных ограничения; какую проверку ты предлагаешь до покупки.",
+      "context": "vote — голосовать; standing desk — парта, за которой можно стоять; district — школьный округ.",
+      "hint": "Начни так: Dear Ms. Patel, I'm writing about the standing desk plan …",
+      "answers": [
+        "Dear Ms. Patel,\n\nI'm writing about the standing desk plan before Thursday's vote. Principal Ellis claims that standing desks clearly make students learn better. The article gives three kinds of evidence: test scores from one class, a class survey, and comments from the teacher and one parent.\n\nTo be fair, the scores did rise from 72 to 78, and 18 of 24 students liked the desks. However, it was only one class, and there was no comparison group. Scores often go up during the year anyway, because students learn. Also, the survey measured whether students liked the desks, not whether they learned more.\n\nBefore the district spends $300 per desk, I'd suggest a simple test: put the desks in a few classrooms for one semester and compare their scores with similar classes that don't have them.\n\nThank you for your time.\nBest,\nAlex Morgan"
+      ],
+      "explanation": "Засчитывается, если вывод директора назван как его claim, перечислены виды опоры (оценки одного класса, опрос, слова учителя и родителя), есть To be fair с цифрами из M1, два точных ограничения и конкретная проверка. Цифры должны совпадать с M1: 72 и 78, 18 из 24, $300.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Закрой M1. Друг, который статью не читал, спрашивает: “So, do standing desks actually work?” Ответь голосом за 1–2 минуты по памяти. Что должно быть: что утверждает директор; на что он опирается; одна справедливая вещь; главное ограничение; что убедило бы тебя.",
+      "context": "",
+      "hint": "Начни так: Well, the principal says they do, but …",
+      "answers": [
+        "Well, the principal says they do. He claims standing desks clearly make students learn better, and he wants them in every classroom. His evidence is one seventh-grade math class. Their average score went up from 72 to 78, and most of the kids, 18 out of 24, said they liked the desks. The teacher also says they pay more attention. To be fair, that's a good sign. But it was just one class, and there was no comparison group. Scores usually go up during the year anyway, because kids learn. And liking the desks isn't the same as learning more. I'd be convinced if a few classes tried them and did better than similar classes without them. Each desk costs about $300, so I think it's worth checking first."
+      ],
+      "explanation": "Засчитывается, если ответ по памяти передаёт вывод директора как его мнение, называет опору (один класс, оценки, опрос), признаёт что-то справедливое и предлагает сравнение. Расшифровка голоса покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Другой родитель написал в общий чат такой пересказ M1: “The article proves that standing desks make kids smarter. All the students loved them, and scores went up because of the desks, so every school should buy them.” Перепиши его честно в 3–4 фразах: оставь то, что в статье правда есть, и убери то, чего нет.",
+      "context": "",
+      "hint": "Найди три слова, которые слишком сильные или неточные: proves, all, because of.",
+      "answers": [
+        "The principal claims that standing desks help kids learn, but the article doesn't prove it. In one class, the average score rose from 72 to 78 after the desks arrived, and 18 of 24 students said they liked them. There was no comparison group, so we don't know if the desks caused the change. Maybe a few classes should try them before every school buys them."
+      ],
+      "explanation": "Засчитывается, если proves заменено на claims или suggests, all — на 18 of 24, because of — на after с оговоркой о причине, а совет купить всем стал осторожнее. Новых фактов, которых нет в M1, быть не должно.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

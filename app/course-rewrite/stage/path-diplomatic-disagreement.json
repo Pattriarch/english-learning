@@ -1,0 +1,303 @@
+{
+  "id": "path-diplomatic-disagreement",
+  "title": "Не согласен — и говорю это точно: сильная версия чужой мысли, одно возражение, путь дальше",
+  "subtitle": "Пересказать довод лучше автора → найти место расхождения → возражать не больше, чем нужно → ясная позиция → условие и проверка → «не согласен, но выполняю»",
+  "level": "C2",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Не соглашаться на важном совещании так, чтобы позиция была ясной, а разговор продолжался: «If I understand you correctly, your point is…», «I'm not disputing the numbers; I'm questioning the step from one clinic to forty», «I can't support a full launch yet», «What would change my mind is…», «I've said my piece; if we go ahead, I'll make it work».",
+  "formula": "Steelman: If I understand you correctly, your point is … → Where I part ways is … / We're weighing different risks → I support …; I can't support … → What would change my mind is … / What would change yours? → Let's pilot …; if …, we pause",
+  "keyRule": {
+    "rule": "Сначала перескажи чужую мысль так, чтобы автор согласился. Потом назови один шаг, с которым не согласен.",
+    "example": "You're right that the test went well; I just don't think one clinic tells us about forty. — Ты права, тест прошёл хорошо; я просто не думаю, что одна клиника говорит нам о сорока.",
+    "check": "Ты споришь с цифрами, с выводом из них или с тем, что важнее?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-discussion-b2",
+    "path-argument-essay",
+    "path-critical-reading",
+    "extended-c1-facilitation"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-proposal"
+  ],
+  "teaches": [
+    "сильная версия чужой мысли (steelman) — пересказ довода в лучшем виде, с причиной и цифрами; strawman — карикатура; проверка: сказал бы автор «да, именно»?",
+    "четыре места расхождения: сведения, вывод из них, приоритеты, последствия",
+    "I'm not disputing the numbers; I'm questioning… · Where I part ways is… (part ways — расходиться) · We're weighing different risks · My concern is what happens if…",
+    "спор о приоритетах цифрами не решить: What would count as success for you?",
+    "размер возражения: I support the goal and most of the plan; I can't support…; один контрпример опровергает never / always, но не usually",
+    "ясная позиция вместо тумана: I can't support a full launch yet, а не I have some thoughts",
+    "условие пересмотра: What would change my mind is… / What would change your view?; путь дальше — пилот, критерий успеха, правило остановки",
+    "обёртки, которые не помогают: With all due respect, No offense, but…, I'm just playing devil's advocate",
+    "американские начала: I see it a little differently · Can I offer a different take? · I'd push back on that a little · Here's where I land; с начальством — disagree and commit: I've said my piece; I'll make it work",
+    "слова: steelman, strawman, part ways, weigh, pilot, checkpoint, safeguard, double booking, roll out"
+  ],
+  "sources": [
+    {
+      "title": "Conversion Rate Experts · Use the steel man technique to persuade people who disagree with you",
+      "url": "https://conversion-rate-experts.com/steel-manning/",
+      "notes": "Сверено определение steelman (сделать довод оппонента сильнее, чем он сделал сам; противоположность strawman) и порядок Деннета: пересказать позицию так, чтобы автор сказал «жаль, я сам так не сформулировал», назвать точки согласия, то, чему научился, и только потом возражать. Отсюда первый шаг и проверка «сказал бы автор: да, именно»."
+    },
+    {
+      "title": "The Muse · How to Disagree Respectfully at Work",
+      "url": "https://www.themuse.com/advice/how-to-disagree-respectfully",
+      "notes": "Сверено: сначала показать, что понял чужую точку зрения; назвать общую цель (I agree with the overall goal…, but…); не переходить на личности; предлагать решение; выбирать время и место; для мелочей — agree to disagree и двигаться дальше. Американские фразы I see it slightly differently и Could we step aside after the meeting? сверены здесь."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Три шага несогласия",
+    "why": "Сначала собеседник узнаёт свою мысль. Потом видит, с чем именно ты споришь. В конце у вас есть способ проверить, кто прав.",
+    "items": [
+      {
+        "label": "Сильная версия",
+        "en": "Your point is that patients can't wait another year for faster booking.",
+        "ru": "Твоя мысль в том, что пациенты не могут ещё год ждать более быстрой записи.",
+        "note": "Дана сказала бы: «Да, именно»."
+      },
+      {
+        "label": "Одно возражение",
+        "en": "Where I part ways is the jump from one clinic to forty.",
+        "ru": "Расхожусь я в одном: в прыжке от одной клиники к сорока.",
+        "note": "Спор не о цифрах и не о цели, а об одном шаге."
+      },
+      {
+        "label": "Путь дальше",
+        "en": "Let's try three clinics for a month and agree now on what counts as success.",
+        "ru": "Давай попробуем в трёх клиниках месяц и сейчас договоримся, что считать успехом.",
+        "note": "Спор превращается в проверку."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Не согласен — но так, чтобы разговор продолжился",
+      "body": "На совещании Дана предлагает: «Тест в одной клинике прошёл отлично — запускаем новое приложение для записи во всех сорока клиниках в следующем месяце». Ты не согласен. Если сказать I have some concerns, план пройдёт: никто не понял, против чего ты. Если сказать That's a terrible idea, разговор кончится, и Дана будет защищаться, а не думать.\n\nВ уроке B2 ты научился спорить без ссоры: I see your point, but…, I'm not convinced that… Этого хватает в обычном разговоре. Здесь ставки выше: решение, деньги, люди. Позиция должна быть ясной, а тон — спокойным. Для этого три шага.\n\nПервый — сильная версия чужой мысли. По-английски это называют steelman: пересказать довод собеседника в самом сильном виде, лучше, чем он сам. Противоположность — strawman, «соломенное чучело»: удобная карикатура, которую легко опровергнуть. Проверка: сказал бы автор «да, именно это я имею в виду»?\n\nВторой — точное возражение: один шаг, с которым ты не согласен, а не весь план. Третий — путь дальше: проверка, следующий шаг или условие, при котором ты передумаешь.\n\nПредел: дипломатичное несогласие — это не смягчённое согласие. Это всё ещё «нет» или «не так». Меняется одно: собеседник понимает, с чем именно ты не согласен, и может ответить по существу."
+    },
+    {
+      "title": "Где именно расходимся: сведения, вывод, приоритеты, последствия",
+      "body": "Прежде чем возражать, найди место расхождения. Их обычно четыре.\n\nСведения — верны ли цифры: I'm not sure the numbers include the weekend clinics.\n\nВывод — следует ли из цифр то, что из них выводят: I'm not disputing the numbers; I'm questioning what we conclude from them. Where I part ways is the step from one clinic to forty. Part ways — «расходиться».\n\nПриоритеты — что важнее: I think we're weighing different risks. You're worried about wait times; I'm worried about double bookings.\n\nПоследствия — что будет, если…: My concern is what happens if the app goes down on a Monday morning.\n\nЧаще всего спорят о выводе или о приоритетах. Если дело в приоритетах, новые цифры спор не решат. Назови критерий и спроси о нём: What would count as success for you?"
+    },
+    {
+      "title": "Размер возражения: не больше, чем нужно",
+      "body": "Возражай ровно против того, с чем не согласен. Если тебе нравятся цель и большая часть плана, скажи это: I support the goal and most of the plan; I can't support the launch date. Иначе Дана услышит «он против приложения».\n\nОдин контрпример опровергает «всегда» и «никогда», но не «обычно». Поставщик обещал: The app never goes down. Один сбой это опровергает. Но он не доказывает, что приложение обычно не работает. Из урока о критическом чтении: вывод не сильнее опоры. The evidence doesn't support that — «сведения этого не подтверждают» — меньше, чем That's false.\n\nУступка должна быть настоящей. Great idea! I just can't support any part of it — запутывает: похвала ничего не значит. Если согласен с чем-то одним, назови это конкретно: You're right that patients wait too long."
+    },
+    {
+      "title": "Позиция видна, дверь открыта",
+      "body": "Скажи позицию словами, которые нельзя понять иначе: I can't support a full launch next month. Это вежливо, если рядом есть причина и путь дальше. I have some thoughts или Let's maybe think about it — туман, его легко не заметить.\n\nДверь открывает условие, при котором ты передумаешь: What would change my mind is a month with no double bookings in three clinics. И такой же вопрос собеседнику: What would change your view? Следующий шаг делает спор проверяемым: пилот (pilot — небольшая проба), критерий успеха, правило остановки.\n\nНе помогают «обёртки». With all due respect… или No offense, but… перед резкостью звучат как насмешка. I'm just playing devil's advocate — «я просто спорю ради спора» — честно, только если ты правда не держишься этой позиции. Иначе скажи прямо, что думаешь."
+    },
+    {
+      "title": "Как это звучит в американском офисе",
+      "body": "Несогласие часто начинают с общей цели: We both want patients to book faster. Обычные мягкие начала: I see it a little differently. Can I offer a different take? I'd push back on that a little — push back значит «возразить». Here's where I land — «вот к чему я прихожу».\n\nС тем, кто выше по должности, выбери момент и спроси: Do you have a few minutes to talk through a concern? Лучше наедине, чем при всех.\n\nЕсли решение приняли не так, как ты хотел, не продолжай спор в каждом письме. Американцы называют это disagree and commit — «не согласен, но выполняю». Скажи один раз: I've said my piece. If we go ahead, I'll do everything I can to make it work. И попроси одну меру предосторожности: Can we agree on a checkpoint after two weeks?"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I'm not disputing the numbers; I'm questioning what we conclude from them.",
+      "ru": "Я не спорю с цифрами; я сомневаюсь в выводе, который мы из них делаем.",
+      "why": "Место расхождения — вывод, а сведения приняты."
+    },
+    {
+      "en": "I think we're weighing different risks: you're worried about cost, and I'm worried about safety.",
+      "ru": "Мне кажется, мы по-разному взвешиваем риски: тебя беспокоит цена, а меня — безопасность.",
+      "why": "Спор о приоритетах назван прямо; обе заботы признаны законными."
+    },
+    {
+      "en": "One missed delivery disproves \"always on time,\" but it doesn't show the service is usually late.",
+      "ru": "Одна сорванная доставка опровергает «всегда вовремя», но не показывает, что служба обычно опаздывает.",
+      "why": "Возражение ровно такого размера, какой даёт контрпример."
+    },
+    {
+      "en": "I support the goal and most of the plan; I can't support the start date.",
+      "ru": "Я поддерживаю цель и большую часть плана; не могу поддержать дату начала.",
+      "why": "Несогласие отделено от остального, поэтому его не примут за «против всего»."
+    },
+    {
+      "en": "What would change my mind is three months without a missed deadline.",
+      "ru": "Моё мнение изменили бы три месяца без сорванных сроков.",
+      "why": "Условие пересмотра показывает, что ты споришь ради результата."
+    },
+    {
+      "en": "I've said my piece. If we go ahead, I'll do everything I can to make it work.",
+      "ru": "Я сказал, что думаю. Если мы идём дальше, я сделаю всё, чтобы это сработало.",
+      "why": "«Не согласен, но выполняю»: спор закончен, позиция не скрыта."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ситуация урока. Дана, руководитель отдела, говорит: «В клинике на Elm Street две недели тестировали новое приложение для записи к врачу. По телефону запись занимала в среднем 9 минут, через приложение — 3. Пациенты довольны. Запускаем во всех 40 клиниках в следующем месяце». Ты не согласен. Сначала перескажи её довод в самом сильном виде (1–2 предложения), пока без своего «но».",
+      "context": "booking app — приложение для записи; roll out — запустить везде; on hold — на линии, в ожидании.",
+      "guidance": {
+        "title": "Сильная версия, а не карикатура",
+        "body": "Назови не только её решение, но и причину, ради которой она его предлагает, — с её лучшими цифрами. Проверка: сказала бы Дана «да, именно так»?",
+        "example": "If I understand you correctly, the new schedule saves drivers an hour a day, and every month we wait costs us overtime we don't need to pay.",
+        "translation": "Если я правильно понимаю, новое расписание экономит водителям час в день, и каждый месяц ожидания стоит нам переработок, за которые можно не платить."
+      },
+      "hint": "Начни так: If I understand you correctly, your point is that…",
+      "answers": [
+        "If I understand you correctly, your point is that booking through the app took three minutes instead of nine, patients liked it, and every month we wait, thousands of patients spend extra time on hold.",
+        "As I understand it, the test at Elm Street cut booking time from nine minutes to three, patients were happy, and you see no reason to make the other 39 clinics wait for that benefit."
+      ],
+      "explanation": "Засчитывается, если пересказ включает цифры (9 → 3 минуты), довольных пациентов и причину спешки, а «но» ещё нет. Your point is / As I understand it / If I've got this right — все подходят."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи свою реплику Дане: «Я не спорю с цифрами теста. Я сомневаюсь в шаге от одной клиники к сорока: две недели в одной клинике не говорят нам, как приложение будет работать там, где пациенты старше, а связь хуже».",
+      "context": "older patients — пациенты старше; internet connection — связь, интернет.",
+      "guidance": {
+        "title": "Место расхождения — вывод",
+        "body": "Скажи, что принимаешь, и отдельно — какой шаг не принимаешь. I'm questioning… или Where I part ways… показывают точку спора, не задевая сами сведения.",
+        "example": "I'm not questioning the survey results. Where I part ways is the jump from one school to the whole district.",
+        "translation": "Я не ставлю под сомнение результаты опроса. Расхожусь я в прыжке от одной школы ко всему округу."
+      },
+      "hint": "Начни так: I'm not disputing the test results. …",
+      "answers": [
+        "I'm not disputing the test results. I'm questioning the step from one clinic to forty: two weeks at one clinic don't tell us how the app will work where patients are older and the internet connection is worse.",
+        "I'm not arguing with the test numbers. Where I part ways is the step from one clinic to forty. Two weeks in one clinic don't tell us how the app will work where patients are older and connections are poorer.",
+        "I don't dispute the numbers from the test. What I question is the jump from one clinic to forty: two weeks in a single clinic can't tell us how the app will perform where patients are older and the connection is worse."
+      ],
+      "explanation": "Важно разделить: цифры приняты (not disputing / not arguing with), а сомнение — в переходе от одной клиники к сорока. Two weeks… don't и doesn't встречаются оба: don't — если думаешь о неделях, doesn't — если о сроке целиком."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Дана отвечает: «Каждый месяц ожидания — это тысячи пациентов, которые висят на телефоне». Тебя больше беспокоит другое: двойные записи (два пациента на одно время) в первые недели. Напиши два предложения: назови, что вы по-разному взвешиваете, и спроси, что считать успехом.",
+      "context": "double booking — двойная запись на одно время; weigh — взвешивать; count as success — считаться успехом.",
+      "guidance": {
+        "title": "Разные приоритеты — назови критерий",
+        "body": "Если вы спорите о том, что важнее, новые цифры спор не решат. Признай обе заботы законными и спроси, по какому признаку вы будете судить о результате.",
+        "example": "I think we're weighing different risks: you're focused on cost, and I'm focused on staff burnout. What would a good outcome look like to you?",
+        "translation": "Мне кажется, мы по-разному взвешиваем риски: ты думаешь о цене, а я — о выгорании сотрудников. Каким для тебя был бы хороший результат?"
+      },
+      "hint": "Начни так: I think we're weighing different risks: you're…",
+      "answers": [
+        "I think we're weighing different risks: you're worried about patients waiting on the phone, and I'm worried about double bookings in the first weeks. What would count as success for you after the first month?",
+        "We may be putting different risks first. Long phone waits matter, and so do double bookings. How would we know the launch is working?"
+      ],
+      "explanation": "Засчитывается, если обе заботы названы без оценки (не «твоя забота неважна») и есть вопрос о критерии успеха. Weighing different risks, putting different risks first — оба верны."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Поставщик обещал: \"The app never goes down.\" В тестовой клинике приложение однажды не работало два часа. Коллега Марк пишет: \"So the app doesn't work. We should drop it.\" Перепиши его реплику (1–2 предложения) так, чтобы возражение было точным по размеру.",
+      "context": "go down — перестать работать (о системе); outage — сбой, перерыв в работе; drop — отказаться.",
+      "guidance": {
+        "title": "Вспоминаем: вывод не сильнее опоры",
+        "body": "Вспоминаем урок о критическом чтении: сила слов должна совпадать с силой доказательств. Новое здесь: один сбой опровергает «никогда», но не доказывает «обычно не работает». Возражай против того обещания, которое сбой правда опроверг.",
+        "example": "One late delivery shows the \"always on time\" promise isn't true, but it doesn't show the service is usually late.",
+        "translation": "Одна поздняя доставка показывает, что обещание «всегда вовремя» неверно, но не показывает, что служба обычно опаздывает."
+      },
+      "hint": "Начни так: The outage shows that the \"never goes down\" claim isn't true, but…",
+      "answers": [
+        "The outage shows that the vendor's \"never goes down\" claim isn't true, but one outage doesn't show that the app usually fails. We should ask how often it happens and what our backup is.",
+        "The two-hour outage disproves the promise that the app never goes down. It doesn't prove the app doesn't work, so before we drop it, let's find out how often outages happen."
+      ],
+      "explanation": "Засчитывается, если опровергнуто именно обещание «никогда», а вывод «не работает, бросаем» заменён вопросом о частоте сбоев или о запасном плане. Disproves, shows… isn't true — оба подходят."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Перепиши три реплики с совещания так, чтобы несогласие осталось, а ошибка ушла: 1) \"With all due respect, that's a ridiculous plan.\" 2) \"Great idea! I just can't support any part of it.\" 3) \"I have some thoughts, maybe.\"",
+      "context": "ridiculous — нелепый.",
+      "guidance": {
+        "title": "Убери обёртку, оставь позицию",
+        "body": "В первой реплике вежливое начало прикрывает оскорбление. Во второй похвала противоречит отказу. В третьей позиции не видно совсем. В каждой новой реплике должно быть понятно, с чем именно ты не согласен.",
+        "example": "No offense, but that's a bad idea. → I'm not sure this solves the problem: the delays come from the warehouse, not the website.",
+        "translation": "Без обид, но идея плохая. → Не уверен, что это решит проблему: задержки возникают на складе, а не на сайте."
+      },
+      "hint": "Проверь каждую новую реплику: может ли Дана ответить на неё по существу?",
+      "answers": [
+        "1) I don't think this plan is ready yet: one clinic isn't enough to show how it will work in forty. 2) You're right that booking takes too long, but I can't support launching everywhere next month. 3) I can't support a full launch yet, and I'd like to explain why.",
+        "1) I see it differently: I think a launch in all forty clinics is too big a step after one test. 2) I agree with the goal of faster booking, but I can't support this timeline. 3) I have a concern about the launch date, and I'd like to walk you through it."
+      ],
+      "explanation": "Засчитывается, если в первой реплике нет оценки плана как нелепого и названа причина, во второй похвала заменена настоящей уступкой (цель или проблема), а в третьей видна позиция. Must, should, can't support — все дают ясность."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Предложи Дане путь дальше (2–3 предложения): пилот в трёх разных клиниках на месяц, заранее оговорённый критерий успеха, правило остановки и условие, при котором ты сам поддержишь запуск во всех сорока.",
+      "context": "pilot — небольшая проба; pause — приостановить; citywide — по всему городу.",
+      "guidance": {
+        "title": "Вспоминаем: точка проверки и правило остановки",
+        "body": "Вспоминаем урок о предложении руководителю: точка проверки и правило остановки делают план проверяемым. Новое здесь: добавь, что изменит твоё собственное мнение, — так видно, что ты споришь ради результата, а не ради победы.",
+        "example": "Let's try the new route on two bus lines for six weeks. If complaints rise by more than 10 percent, we pause. If they don't, I'll support it citywide.",
+        "translation": "Давай попробуем новый маршрут на двух автобусных линиях шесть недель. Если жалоб станет больше чем на 10 процентов, ставим на паузу. Если нет, я поддержу его по всему городу."
+      },
+      "hint": "План: Let's pilot… → If…, we pause. → If…, I'll support…",
+      "answers": [
+        "Let's pilot the app in three different clinics for a month, including one with older patients. If we see more than a handful of double bookings, we pause and fix them. If booking stays under four minutes with no double bookings, I'll support rolling it out to all forty.",
+        "Could we run a one-month pilot in three clinics of different types and agree now on what counts as success? If double bookings show up, we stop and fix the problem. If they don't, you'll have my full support for the launch."
+      ],
+      "explanation": "Засчитывается, если есть пилот с размером и сроком, критерий успеха, правило остановки и твоё условие поддержки. Точные числа можно выбрать свои; важно, чтобы они были названы заранее."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Директор выслушал обе стороны и решил: запуск во всех 40 клиниках через месяц. Ты по-прежнему не согласен. Напиши ему 2–3 предложения: что твоё мнение не изменилось, что ты выполнишь решение и о какой одной мере предосторожности просишь.",
+      "context": "safeguard — мера предосторожности; backup — запасной вариант; phone line — телефонная линия.",
+      "guidance": {
+        "title": "Не согласен, но выполняю",
+        "body": "После решения спор не продолжают в каждом письме. Один раз ясно скажи, что мнение не изменилось, пообещай работать на результат и попроси одну конкретную меру, которая снижает риск.",
+        "example": "I would still have waited for the spring data, but I respect the decision, and I'll make it work. Could we review the numbers together after the first month?",
+        "translation": "Я бы всё же подождал весенних сведений, но уважаю решение и сделаю так, чтобы всё получилось. Можем вместе посмотреть цифры через месяц?"
+      },
+      "hint": "Начни так: I've said my piece, and I still think…",
+      "answers": [
+        "I've said my piece, and I still think a pilot would have been safer. But I understand the decision, and I'll make sure my clinics are ready. Could we keep the phone line open for the first two weeks as a backup?",
+        "I still see the risk differently, but the decision is made, and I'll do everything I can to make the launch work. One request: can we check double bookings at all forty clinics after the first week?"
+      ],
+      "explanation": "Засчитывается, если несогласие названо один раз и без упрёка, есть обещание выполнить решение и одна конкретная мера (запасная линия, проверка через неделю). Would have been safer — «было бы безопаснее»: о том, чего уже не будет."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Директор по работе с клиентами Лора пишет всей команде: \"Starting July 1, we'll move all customer support to chat only and close the phone line. Chat is 40 percent cheaper per conversation, and 70 percent of customers already choose it.\" Ответь ей (200–300 слов). Что должно быть: её довод в сильной версии, с цифрами; с чем ты согласен; одно точное место расхождения; почему возражение не шире, чем нужно; путь дальше с проверкой и сроком; что изменит твоё мнение; вопрос, что изменит её мнение; тон для человека выше по должности.",
+      "context": "customer support — поддержка клиентов; cancellation — отказ от услуги; route — направлять.",
+      "hint": "План: As I understand it, your case is… → I agree that… → Where I part ways is… → I'm not saying… → Here's what I'd suggest… → If…, I'd support… → What would…?",
+      "answers": [
+        "Subject: Re: Chat-only support from July 1\n\nHi Laura,\n\nThanks for laying out the numbers so clearly. As I understand it, your case is this: chat costs us 40 percent less per conversation, 70 percent of customers already choose it, and running two channels splits the team's attention. That's a strong argument, and I agree that chat should be our main channel.\n\nWhere I part ways is closing the phone line completely on July 1. My concern isn't the 70 percent; it's the other 30. We don't yet know who they are. If many of them are older customers or people calling about urgent problems like a locked account, losing the phone could cost us more in cancellations than we save per conversation. I'm not saying chat-only can't work. I'm saying we don't have the data to know yet.\n\nHere's what I'd suggest. For the next six weeks, we route all new contacts to chat first but keep a phone line for urgent issues, and we track who still calls and why. If fewer than 10 percent of contacts need the phone and our cancellation rate stays flat, I'd support closing it in the fall. If not, we'll know before we make a change that's hard to undo.\n\nWhat would make you comfortable with a short trial like this? And if you see a cost of waiting that I'm missing, I'd like to hear it.\n\nBest,\nSam"
+      ],
+      "explanation": "Засчитывается, если довод Лоры пересказан с её цифрами, согласие конкретно, возражение касается одного шага (закрыть телефон полностью и сразу), сказано, чего ты не утверждаешь, предложена проверка со сроком и критерием, есть твоё условие и вопрос к ней — и нет обёрток вроде With all due respect."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Городской совет обсуждает: \"The library should stop buying print newspapers and spend the money on digital subscriptions.\" Запиши два выступления, всего 2–3 минуты. Сначала возрази: сильная версия предложения, одно точное возражение, путь дальше. Потом защити исходное предложение так честно, как можешь, — без карикатуры на своё же возражение. В конце одной фразой скажи, к чему ты пришёл.",
+      "context": "print newspapers — бумажные газеты; subscription — подписка; archive — архив.",
+      "hint": "Переход между частями: Now let me make the case for the proposal as fairly as I can.",
+      "answers": [
+        "I understand why people want this. Print subscriptions are expensive, fewer visitors read paper copies every year, and digital access lets people read from home, at any hour, with archives going back years. If the goal is to reach the most readers for the money, that's a strong case, and I agree that digital should grow.\n\nWhere I part ways is stopping print completely. Some regular newspaper readers come to the library precisely because they don't have reliable internet or don't feel comfortable reading on a screen. For them, this isn't an upgrade; it's losing access. That doesn't mean print is better in general. It means the change hits one group much harder than everyone else. So I'd keep the two or three most-read print titles and move the rest of the money to digital. After six months, we check who still uses print. If almost nobody does, I'd support ending it.\n\nNow let me make the case for the proposal as fairly as I can. The library's job is to serve as many people as possible with limited money. Every dollar spent on paper copies that a handful of people read is a dollar not spent on access for hundreds. And the access concern can be addressed directly: staff can help people use the reading room computers. The strongest version of this view isn't that nobody needs print. It's that the library can meet that need more cheaply and still reach far more readers.\n\nHaving made both cases, I'd still keep a few print titles, but the gap between the two sides is smaller than I thought."
+      ],
+      "explanation": "Засчитывается, если в первой части есть сильная версия предложения, одно возражение и проверка, во второй — честная защита, где учтено и твоё возражение (доступ), а в конце — твой вывод. Проверь по расшифровке: узнал бы сторонник предложения свою мысль во второй части?"
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Руководитель предложил перенести еженедельную встречу на 7:30 a.m., «чтобы освободить день перед звонками клиентам». Ты утром до 8:15 отвозишь ребёнка в школу и не можешь прийти. Твой первый ответ в рабочем чате был резким. Перепиши его (100–160 слов): позиция «не могу в 7:30» должна остаться, но разговор — продолжиться.\n\n\"This is ridiculous. Some of us have kids. Whoever came up with 7:30 obviously doesn't. I'm not coming.\"",
+      "context": "school drop-off — отвезти ребёнка в школу; written update — письменный отчёт вместо участия.",
+      "hint": "Что хорошего в раннем времени? Скажи это первым. Потом — твоё «не могу» без оценки автора идеи и одно-два решения.",
+      "answers": [
+        "I see why an early slot is appealing: we'd be done before client calls start, and nobody has to break up their afternoon. That's a real benefit.\n\nBut I can't make 7:30. I do school drop-off until 8:15, and I think a couple of other people on the team are in the same spot. I don't want to miss the meeting every week.\n\nCould we try 9:00, which is still before most client calls? Or we could keep 7:30 and let anyone who can't join send a written update the night before. If most of the team prefers 7:30 and the written updates work, I'm happy to go with that.\n\nWhat do you think?"
+      ],
+      "explanation": "Засчитывается, если сначала признана польза раннего времени, позиция «не могу в 7:30» сказана ясно и с причиной, нет оценки автора идеи и обобщения «у кого есть дети», предложены варианты и сказано, при каком исходе ты согласишься."
+    }
+  ]
+}

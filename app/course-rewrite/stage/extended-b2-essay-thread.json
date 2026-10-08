@@ -1,0 +1,343 @@
+{
+  "id": "extended-b2-essay-thread",
+  "title": "Запись занятий: от спора в треде к эссе и ответу",
+  "subtitle": "Кто чего хочет → к чему относится this → эссе по фактам → ответ конкретному человеку → новый факт",
+  "level": "B2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Разобрать обсуждение в чате учебного сообщества: кто чего хочет и к чему относится каждое this. Потом написать по фактам короткое эссе о записи занятий и превратить его в ответ конкретному человеку: «Омар, твоё опасение понятно. Поэтому я предлагаю…».",
+  "formula": "Lena wants …, whereas Omar wants … → This proposal / This rule … → fact, which shows that … → Name, your point about … makes sense. That's why I suggest … → That changes my recommendation: …",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-argument-essay",
+    "extended-b2-evidence"
+  ],
+  "recycles": [
+    "path-purpose-contrast",
+    "path-relative-advanced"
+  ],
+  "teaches": [
+    "позиция в треде = потребность + предложение, а не «за» или «против»: Lena wants …, whereas Omar wants …",
+    "частичное согласие: X agrees with Y that …, but he needs …",
+    "this и that указывают на всю прошлую мысль; проверка — подставить мысль вместо слова",
+    "в своём тексте this + существительное: this proposal, this rule, this figure",
+    ", which о всей прошлой мысли: Seven learners opened a recording, which shows …",
+    "эссе по досье: у каждого факта своя роль; свои идеи — как предложения (I suggest …)",
+    "ответ в треде: имя → конкретное опасение → позиция с одним фактом → шаг или вопрос",
+    "новый факт: That changes my recommendation. In that case, … + суженное предложение",
+    "слова: thread, post, recording, tutor, enrolled, survey, policy"
+  ],
+  "sources": [
+    {
+      "title": "Skidmore Guide to Writing · Vague",
+      "url": "https://www.skidmore.edu/writing_guide/terms/vague.php",
+      "notes": "Сверено: this становится неясным, когда указывает на мысль из прошлой фразы и непонятно, на какую; совет — ставить после this существительное. Отсюда правило this proposal, this rule."
+    },
+    {
+      "title": "Hamilton College Writing Center · Pronoun Reference",
+      "url": "https://hamilton.edu/style/pronoun-reference",
+      "notes": "Сверено: which после запятой может относиться ко всей прошлой части фразы; this без подходящего существительного читатель связывает не с тем; исправление — назвать мысль словом (these qualities). Отсюда шаги с подстановкой и с , which."
+    },
+    {
+      "title": "UNC Writing Center · Argument",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/argument/",
+      "notes": "Сверено: возражение пересказывают честно и отвечают уступкой или опровержением; если возражение меняет позицию, позицию надо пересмотреть. Отсюда шаг «новый факт — поменяй вывод»."
+    }
+  ],
+  "sections": [
+    {
+      "title": "От треда к эссе: что нового в этом уроке",
+      "body": "Учебное сообщество обсуждает в чате, записывать ли вечерние занятия. Такое обсуждение называют тредом (thread) — это цепочка сообщений (posts), где каждый отвечает на прошлое. Пять человек высказались, и редактор рассылки просит тебя о двух вещах: короткое эссе по четырём фактам пилота и ответы людям в треде.\n\nКак строить эссе — тезис, довод, пример, возражение, — ты знаешь из урока об аргументе. Как не обещать больше, чем показали цифры, — из урока про клуб.\n\nНовое здесь — четыре вещи. Первая: читать тред не как «за» и «против», а как разные потребности людей. Вторая: понимать, к чему относится this или that, и в своём тексте писать так, чтобы это было ясно. Третья: превращать мысль из эссе в ответ конкретному человеку. Четвёртая: честно менять вывод, когда появляется новый факт.\n\nM1 — тред, M2 — задание редактора с фактами, M3 — ответ редактора на твоё эссе. Открывай их по порядку, как просят задания."
+    },
+    {
+      "title": "В треде ищи не «за» и «против», а кто чего хочет",
+      "body": "Лена и Омар оба не против записи объяснений преподавателя. Но Лене нужен доступ после занятия — она опаздывает с работы. Омару нужна свобода во время занятия — он боится, что недодуманную мысль потом переслушают.\n\nДля каждого сообщения ответь себе: какая потребность у автора и что он предлагает. Две разные цели удобно поставить рядом словом whereas из урока «Чтобы, несмотря на…»: Lena wants…, whereas Omar wants…\n\nЧастичное согласие пересказывай точно, двумя частями: Omar agrees with Lena that…, but he needs… Пересказ «Омар против записи» был бы неправдой."
+    },
+    {
+      "title": "This, that, which: к чему они относятся",
+      "body": "В английском this и that часто указывают не на одно слово, а на всю прошлую мысль. Проверка: подставь эту мысль вместо слова и прочитай фразу заново. Если смысл сохранился, ты понял верно.\n\nВ своём тексте не оставляй this одно. Поставь после него существительное, которое называет мысль: this proposal — это предложение, this rule — это правило, this figure — эта цифра, this change — это изменение. Тогда читатель не свяжет this с чем-то другим.\n\nWhich после запятой ты знаешь из урока об относительных частях. Оно тоже может относиться ко всей прошлой мысли: Seven learners opened a recording, which shows some interest."
+    },
+    {
+      "title": "Эссе по фактам: у каждого факта своя роль",
+      "body": "В задании M2 четыре факта, и каждый поддерживает свою часть вывода. Шесть занятий и восемнадцать учащихся — масштаб пилота. Семь человек открыли запись — записями пользовались, но это ещё не польза для учёбы. Девять из двенадцати ответивших поддержали запись объяснений — довод за этот вариант, но не мнение всех восемнадцати.\n\nУстройство эссе — как в уроке об аргументе: тезис, доводы с фактами, сильное возражение и ответ, вывод со следующим шагом. Возражение уже есть в треде — опасение Омара. Результатов, которых нет в M2, не придумывай. Свои идеи подавай как предложения: I suggest…, We could…"
+    },
+    {
+      "title": "Ответ в треде и новый факт",
+      "body": "Эссе начинают с вопроса для всех читателей. Ответ в треде начинают с мысли одного человека: назови его по имени и признай конкретное опасение — Omar, your worry about half-finished ideas makes sense. Дальше твоя позиция, один факт и шаг или вопрос. Абзац из эссе целиком не вставляй: In addition и Therefore в чате звучат как статья.\n\nЕсли появился новый факт, не защищай старый вывод любой ценой. Скажи прямо: That changes my recommendation или In that case, … Потом сузь предложение. Чего не знаешь — так и скажи: We don't know yet whether…"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Lena wants access after class, whereas Omar wants freedom during class.",
+      "ru": "Лене нужен доступ после занятия, а Омару — свобода во время занятия.",
+      "why": "Whereas ставит две цели рядом и не делает людей противниками."
+    },
+    {
+      "en": "Omar agrees with Lena that recording everything is a bad idea, but he wants to know when the recorder stops.",
+      "ru": "Омар согласен с Леной, что записывать всё — плохая идея, но хочет знать, когда запись выключают.",
+      "why": "Частичное согласие в двух частях: с чем согласен и что ему ещё нужно."
+    },
+    {
+      "en": "The group stopped posting summaries. This change left absent members without updates.",
+      "ru": "Группа перестала публиковать итоги. Из-за этого изменения пропустившие остались без новостей.",
+      "why": "This change называет всю прошлую мысль — перестали публиковать итоги."
+    },
+    {
+      "en": "Seven learners opened a recording, which shows that some people used them.",
+      "ru": "Семь учащихся открыли запись, и это показывает, что записями пользовались.",
+      "why": "Which относится ко всей мысли о семи учащихся, а не к слову recording."
+    },
+    {
+      "en": "Nine of the twelve learners who answered supported recording explanations only.",
+      "ru": "Девять из двенадцати ответивших поддержали запись только объяснений.",
+      "why": "Факт вместе с группой: двенадцать ответивших, а не все восемнадцать."
+    },
+    {
+      "en": "Omar, your worry about half-finished ideas makes sense. That's why I suggest recording only the tutor.",
+      "ru": "Омар, твоё опасение насчёт недодуманных мыслей понятно. Поэтому я предлагаю записывать только преподавателя.",
+      "why": "Ответ начинается с имени и чужой мысли, потом — своя позиция."
+    },
+    {
+      "en": "That changes my recommendation. In that case, I'd start with a two-week trial.",
+      "ru": "Это меняет мою рекомендацию. В таком случае я бы начал с двухнедельной пробы.",
+      "why": "Новый факт честно меняет вывод: предложение стало уже."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Тред: записывать ли занятия / Community thread",
+      "kind": "reading",
+      "text": "Community thread: Should we record our evening classes?\n\nPost 1 — Lena, learner\nI support recording our evening classes. My job sometimes makes me late. Last Tuesday I missed the explanation of the writing task and spent the break trying to figure it out. That was frustrating. I want access to the tutor's instructions, not a collection of other people's mistakes. Could we record the explanation but not the discussion? This would help people like me without making every comment permanent.\n\nPost 2 — Omar, learner\nLena's idea makes sense to me. However, when a recorder is on, people change what they say. I often test an idea before I'm sure of it, and that's part of learning for me. If that half-finished thought can be replayed, I'll probably stay quiet. Recording only explanations sounds better than recording everything, but I'd need to know exactly when the recorder stops.\n\nPost 3 — Beth, volunteer organizer\nYou both want to protect learning, but you need different things. Lena needs access after class; Omar needs freedom during it. We should also think about how people find a recording. A folder full of unnamed files wouldn't solve Lena's problem. I suggest a clear title and a short description for each recording. This is a proposal about finding files, not an argument for recording more.\n\nPost 4 — Daniel, tutor\nBeth's suggestion would make the files easier to find. Still, a recorded explanation isn't always a complete explanation. Sometimes the most useful part comes later, when a learner asks a question. That is why I don't want to promise that recordings can replace coming to class. They can be an extra resource.\n\nPost 5 — Mina, newsletter editor\nLet's focus on what we record and why. I'll ask for a short essay for the newsletter, using the facts from our pilot. Meanwhile, if you miss instructions, message the tutor through the course page. That is something you can do right now.",
+      "source": "Придумано для курса: сообщество и участники вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Задание редактора с фактами / Essay request",
+      "kind": "reference",
+      "text": "Essay request for the community newsletter\n\nReaders: adult learners and tutors.\nTask: Recommend a recording policy that readers can judge fairly. Use these four facts from our pilot:\n1. The pilot covered six evening classes.\n2. Eighteen learners were enrolled in those classes.\n3. Seven different learners opened at least one recording.\n4. Twelve learners answered a survey. Nine of them supported recording the tutor's explanations only.\n\nLink each fact to a claim, deal with one serious objection, and end with a next step. Proposals are welcome; made-up results are not.\n\nModel paragraph on another topic:\nThe community should try a quiet reading corner. Two members have asked for a place without conversation. This request shows a real need, although it does not show how many people share it. Therefore, a one-month trial makes more sense than a permanent change.",
+      "source": "Придумано для курса: пилот и цифры вымышленные."
+    },
+    {
+      "id": "m3",
+      "title": "Ответ редактора / Mina replies",
+      "kind": "dialogue",
+      "text": "Mina, newsletter editor, replies to your essay in the thread:\n\nThanks for the essay! Another draft we got says, \"Recording explanations will make every learner more confident.\" Which of our facts supports that?\n\nAlso, there's news from Beth: no volunteer can run the recorder, so the tutor would have to start and stop it during class. We haven't checked how that affects teaching. Does this change your recommendation? Please separate what we know from what we'd need to check.",
+      "source": "Придумано для курса: реплика вымышленная."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1. Новый участник спрашивает: «Лена и Омар спорят?» Ответь одной фразой: чего хочет каждый из них. Соедини две мысли словом whereas.",
+      "context": "access — доступ; freedom — свобода; test an idea — пробовать мысль.",
+      "guidance": {
+        "title": "Вспоминаем: whereas ставит две цели рядом",
+        "body": "Вспоминаем урок «Чтобы, несмотря на…»: whereas сравнивает два разных факта. Здесь это две потребности. Ни одна не «против» другой.",
+        "example": "Sam wants a longer lunch break, whereas Kate wants to leave work earlier.",
+        "translation": "Сэм хочет более длинный обеденный перерыв, а Кейт — уходить с работы пораньше."
+      },
+      "hint": "Начни так: Lena wants…, whereas Omar wants… Когда нужна помощь Лене — после занятия или во время?",
+      "answers": [
+        "Lena wants access to the tutor's instructions after class, whereas Omar wants to feel free to test ideas during class.",
+        "Lena wants to get the instructions after class, whereas Omar wants freedom to try half-finished ideas during class.",
+        "Lena needs access to explanations she missed, whereas Omar needs to feel safe saying unfinished thoughts in class."
+      ],
+      "explanation": "Засчитывается, если названы обе потребности: у Лены — доступ после занятия, у Омара — свобода во время. Сказать, что они противники, было бы неточно: запись объяснений устраивает обоих.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В M1 Омар соглашается с Леной не во всём. Напиши одну фразу: с чем он согласен и что ему ещё нужно знать.",
+      "context": "",
+      "guidance": {
+        "title": "Частичное согласие — с чем именно",
+        "body": "Частичное согласие легко пересказать как «за» или «против». Точнее назвать обе части: agrees with… that…, but he wants… или but he needs to know…",
+        "example": "Daniel agrees that clear titles would help, but he doesn't want to promise that recordings can replace class.",
+        "translation": "Дэниел согласен, что понятные названия помогут, но не хочет обещать, что записи заменят занятия."
+      },
+      "hint": "Начни так: Omar agrees with Lena that recording only… but…",
+      "answers": [
+        "Omar agrees with Lena that recording only the explanations is better than recording everything, but he needs to know exactly when the recorder stops.",
+        "Omar agrees with Lena that recording explanations only is a better idea, but he wants to know exactly when the recording stops.",
+        "Omar agrees that recording only the tutor's explanations sounds better than recording everything, but he needs to know when the recorder is turned off."
+      ],
+      "explanation": "Две части пересказаны точно: с чем Омар согласен — записывать только объяснения — и его условие — знать, когда запись выключают. Wants to know и needs to know оба верны.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Найди в M1 два слова-указателя: This в последней фразе Post 3 и That в начале фразы That is why… в Post 4. Напиши, к какой мысли относится каждое.",
+      "context": "refer to — относиться к, указывать на.",
+      "guidance": {
+        "title": "Подставь мысль вместо this",
+        "body": "Ищи не ближайшее слово, а мысль, которую можно подставить на место this или that. Прочитай фразу с подстановкой: если смысл не изменился, ты нашёл верно.",
+        "example": "In Post 1, \"That was frustrating\" refers to missing the explanation and trying to figure it out.",
+        "translation": "В первом сообщении «That was frustrating» относится к тому, что Лена пропустила объяснение и пыталась разобраться сама."
+      },
+      "hint": "Начни так: In Post 3, \"This\" refers to Beth's suggestion to… In Post 4, \"That\" refers to the fact that…",
+      "answers": [
+        "In Post 3, \"This\" refers to Beth's suggestion to give each recording a clear title and a short description. In Post 4, \"That\" refers to the fact that the most useful part of an explanation sometimes comes later, when a learner asks a question.",
+        "In Post 3, \"This\" means Beth's proposal of a clear title and a short description for each recording. In Post 4, \"That\" refers to the idea that a recorded explanation isn't always complete, because useful parts come from later questions."
+      ],
+      "explanation": "This у Бет — её предложение о названиях и описаниях, а не сама запись. That у Дэниела — вся мысль о том, что полезное приходит позже, из вопросов. Его можно описать и как «записанное объяснение не всегда полное».",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сделай отсылки понятными: после каждого This поставь существительное, которое называет прошлую мысль. Перепиши: The tutor will stop the recorder before each discussion. This will help Omar. Seven learners opened a recording. This is not very high.",
+      "context": "rule — правило; arrangement — договорённость; figure — цифра; number — число.",
+      "guidance": {
+        "title": "This + существительное",
+        "body": "Здесь первое This читатель может связать со словом discussion, а второе — с recording. Спроси себя, чем была прошлая мысль, и поставь это слово после This.",
+        "example": "Members can now vote online. This option saves time for parents.",
+        "translation": "Теперь участники могут голосовать онлайн. Этот вариант экономит время родителям."
+      },
+      "hint": "Первое This — какое-то правило или договорённость? Второе — какая-то цифра?",
+      "answers": [
+        "The tutor will stop the recorder before each discussion. This rule will help Omar. Seven learners opened a recording. This figure is not very high.",
+        "The tutor will stop the recorder before each discussion. This arrangement will help Omar. Seven learners opened a recording. This number is not very high.",
+        "The tutor will stop the recorder before each discussion. This rule will help Omar. Seven learners opened a recording. This number is not very high.",
+        "The tutor will stop the recorder before each discussion. This change will help Omar. Seven learners opened a recording. This figure is not very high."
+      ],
+      "explanation": "Rule, arrangement или change называют договорённость выключать запись, figure или number — цифру семь. Теперь this не свяжут с discussion или recording."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M2. Напиши одну фразу о третьем факте — семь человек открыли хотя бы одну запись — и прокомментируй всю эту мысль через «, which»: что она показывает.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: «, which» о всей мысли",
+        "body": "Вспоминаем урок об относительных частях: which после запятой добавляет сведения. Здесь оно относится не к слову recording, а ко всему факту. Вывод держи в границах факта: пользовались — да, помогло — неизвестно.",
+        "example": "Most members voted online, which made the meeting much shorter.",
+        "translation": "Большинство участников проголосовали онлайн, и поэтому собрание вышло гораздо короче."
+      },
+      "hint": "Начни так: Seven of the eighteen learners opened at least one recording, which shows…",
+      "answers": [
+        "Seven of the eighteen learners opened at least one recording, which shows that some people used them.",
+        "Seven of the eighteen enrolled learners opened at least one recording, which shows that the recordings got some use.",
+        "Seven different learners opened at least one recording, which suggests that some people found a reason to use them.",
+        "Seven of the eighteen learners opened at least one recording, which shows some interest but not whether the recordings helped."
+      ],
+      "explanation": "Which относится ко всей фразе о семи учащихся. Засчитывается вывод об использовании или интересе. «Записи помогли учиться» — шире факта, этого M2 не показывает.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты решил: записывать только объяснения преподавателя. Ответь в треде Омару (Post 2) тремя-четырьмя фразами: обратись по имени, признай его конкретное опасение, скажи свою позицию с одним фактом из M2 и задай вопрос или предложи шаг.",
+      "context": "worry — опасение; half-finished — недодуманный.",
+      "guidance": {
+        "title": "Начни с мысли собеседника",
+        "body": "Ответ в треде — не кусок эссе. Первая фраза — имя и его опасение своими словами. Дальше коротко: твоя позиция, один факт, шаг или вопрос.",
+        "example": "Daniel, your point about incomplete explanations is fair. Maybe each file could end with a note: \"Bring your questions to class.\"",
+        "translation": "Дэниел, твоё замечание о неполных объяснениях справедливо. Может, в конце каждого файла добавить: «Вопросы — на занятие»."
+      },
+      "hint": "Начни так: Omar, your worry about… makes sense. That's why I suggest… Какой факт M2 поддерживает запись только объяснений?",
+      "answers": [
+        "Omar, your worry about half-finished ideas makes sense. That's why I suggest recording only the tutor's explanations, not our discussions. Nine of the twelve learners who answered the survey supported this option. Could the tutor say clearly when the recorder starts and stops?",
+        "Omar, I understand your concern: nobody wants their unfinished thoughts replayed. I'd record the tutor's explanations only. Nine of twelve survey answers supported that. Maybe the tutor could announce each time the recorder goes off."
+      ],
+      "explanation": "Засчитывается, если ответ начинается с имени и конкретного опасения Омара, позиция подкреплена фактом из M2 (9 из 12), а в конце есть вопрос или шаг. Связки вроде In addition здесь не нужны.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Организатор добавляет в тред новый факт: записи можно хранить только семь дней, потом они удаляются. Ответь двумя фразами: скажи, что это меняет, и как теперь звучит твоё предложение.",
+      "context": "delete — удалять; review — повторять; final test — итоговый тест.",
+      "guidance": {
+        "title": "Новый факт — честно поменяй вывод",
+        "body": "Не защищай старое предложение любой ценой. Скажи прямо, что изменилось, и сузь предложение: кому оно ещё поможет, а кому уже нет.",
+        "example": "In that case, the reading corner will work for short visits, but not for people who want to study all evening.",
+        "translation": "В таком случае уголок для чтения подойдёт для коротких визитов, но не тем, кто хочет заниматься весь вечер."
+      },
+      "hint": "Начни так: That changes my recommendation a little. If recordings are deleted after seven days, …",
+      "answers": [
+        "That changes my recommendation a little. If recordings are deleted after seven days, they will help people who miss a class, but not people who want to review before the final test.",
+        "That changes things. In that case, recordings will help learners like Lena catch up during the week, but we shouldn't present them as a way to review for the final test.",
+        "In that case, I'd change my recommendation: the recordings can help people who missed a class that week, but they won't work for review later in the course."
+      ],
+      "explanation": "Засчитывается, если ты прямо сказал, что факт меняет вывод, и сузил предложение: записи помогут пропустившим на этой неделе, но не для повторения позже. That changes… и In that case… одинаково естественны."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши эссе для рассылки сообщества (M2) на 150–180 слов. Что должно быть: какую политику записи ты рекомендуешь; все четыре факта M2, у каждого — своя роль; одно серьёзное возражение из треда M1 и ответ на него; чего факты не показывают; следующий шаг. После каждого this — существительное. M3 пока не открывай.",
+      "context": "",
+      "hint": "План: тезис → масштаб пилота и семь пользователей → опрос и его граница → возражение Омара или Дэниела → I suggest… → After the trial, we should…",
+      "answers": [
+        "Our community should record the tutor's explanations, but not class discussions, for a one-month trial.\n\nThe pilot shows that recordings can be useful to some learners. It covered six evening classes with eighteen enrolled learners, and seven different learners opened at least one recording. This figure shows real use, but it does not tell us whether the recordings helped anyone learn.\n\nThe survey also points toward a limited policy. Nine of the twelve learners who answered supported recording explanations only. However, six enrolled learners did not answer, so we do not know their views.\n\nA serious objection is that a recorder can make people afraid to test half-finished ideas. This concern is fair, which is why discussions should stay unrecorded and the tutor should say clearly when the recorder stops.\n\nI suggest a one-month trial with a clear title for each file. After the trial, we should ask all eighteen learners whether the recordings were useful and whether anyone felt less free to speak."
+      ],
+      "explanation": "Засчитывается, если использованы все четыре факта и ни один не раздут: семь пользователей — это использование, девять из двенадцати — не мнение всех восемнадцати. Возражение взято из треда и получает ответ, свои идеи поданы как предложения, после this стоят существительные. Другая позиция тоже засчитывается при тех же условиях.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Открой M3. Ответь Мине в треде на 80–120 слов. Что должно быть: ответ на её первый вопрос — какой факт поддерживает фразу о «каждом учащемся»; что новость о записи меняет в твоей рекомендации; что мы знаем, а что нужно проверить; тон — дружелюбный, позиция — ясная.",
+      "context": "",
+      "hint": "Начни так: Thanks, Mina. You're right: … Потом: The news about the recorder changes my recommendation…",
+      "answers": [
+        "Thanks, Mina. You're right: none of our facts supports that sentence. We know that seven learners opened a recording and that nine of twelve survey answers supported recording explanations. We didn't measure confidence at all, so I would cut the claim or say that recordings may help some learners review.\n\nThe news about the recorder changes my recommendation. If the tutor has to start and stop it, that could interrupt the class. I'd still suggest a trial, but only if Daniel agrees, and only for two weeks at first. After that, we should ask him how much time it took and whether it got in the way."
+      ],
+      "explanation": "Засчитывается, если ответ прямо говорит, что уверенность не измеряли, отделяет известное (7 человек, 9 из 12) от того, что надо проверить (нагрузка на преподавателя), и честно сужает рекомендацию. Можно и отложить пробу — если причина названа.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "На онлайн-встрече сообщества тебя просят за 1–2 минуты подвести итог обсуждения. Закрой M1–M3 и скажи вслух: чего хотят хотя бы три участника треда; что ты рекомендуешь и какие два факта это поддерживают; чего мы не знаем; что изменила новость из M3.",
+      "context": "",
+      "hint": "Начни так: In the thread, Lena wants…, whereas Omar… Потом: My recommendation is… The news from Beth changes…",
+      "answers": [
+        "In the thread, people want different things. Lena wants access to instructions she misses because of work, whereas Omar wants to feel free to try half-finished ideas in class. Beth wants the files to be easy to find, and Daniel reminds us that a recording can't replace coming to class.\n\nMy recommendation is to record only the tutor's explanations. Seven of our eighteen learners opened a recording, so people do use them. And nine of the twelve people who answered the survey supported this option. We don't know yet whether recordings help anyone learn, and six learners didn't answer the survey.\n\nThe news from Beth changes my plan. The tutor would have to run the recorder, and we haven't checked how that affects teaching. So I'd start with a two-week trial, only if Daniel agrees, and then ask him and the learners how it went."
+      ],
+      "explanation": "Засчитывается, если названы потребности хотя бы трёх участников без «за/против», два факта поданы с группами, неизвестное отделено от известного, а рекомендация сужена после новости из M3. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    }
+  ],
+  "keyRule": {
+    "rule": "Пишешь this — поставь после него слово: this proposal, this change. Отвечаешь человеку — начни с его мысли.",
+    "example": "Beth suggests clear titles. This idea would help Lena. — Бет предлагает понятные названия. Эта идея помогла бы Лене.",
+    "check": "Если закрыть прошлую фразу, понятно, что такое твоё this?"
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "id": "extended-b2-negotiate",
+  "title": "Языковой вечер: договориться, когда условия меняются",
+  "subtitle": "Что хочет и зачем → варианты через could → обещание с условием → новость меняет план → понял ли я и согласен ли ты → кто что делает",
+  "level": "B2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Договориться с тремя организаторами о языковом вечере, когда условия дважды меняются: узнать, зачем каждому его вариант, предложить план с условием («I can call the library, as long as…»), пересмотреть его после новости и написать итог, где у каждого дела есть исполнитель.",
+  "formula": "So your priority is…? · We could… / It would… · I can…, as long as… · Given what you've said, I'd… · Have I got this right:…? · Would that work for you? · Proposed: … Nothing is booked yet.",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Сначала узнай, зачем человеку его вариант. Потом предлагай то, что решает и его задачу.",
+    "example": "Why the hall? — It's cheap. → So cost is your priority? — Почему зал? — Он дешёвый. → Значит, тебе главное — цена?",
+    "check": "Пишешь итог — у каждого дела есть имя и статус: предложено или уже подтверждено?"
+  },
+  "prerequisites": [
+    "path-discussion-b2",
+    "path-purpose-contrast",
+    "path-second-conditional",
+    "path-polite-questions"
+  ],
+  "recycles": [
+    "path-purpose-contrast",
+    "path-polite-questions",
+    "path-discussion-b2"
+  ],
+  "teaches": [
+    "позиция — какой вариант человек хочет; интерес — зачем он ему; проверка: So your priority is…? / It sounds like…",
+    "сравнивать варианты по одним и тем же признакам: цена, тишина, смена партнёров",
+    "we could / it would — только вариант; I can / I'll — твоё обещание",
+    "обещание с условием: I can…, as long as / provided (that) / if + настоящее время; обещай только своё действие",
+    "пересмотр после новости: Given what you've said… → что изменилось → на что влияет → новый шаг",
+    "«неизвестно» ≠ «невозможно»: We don't know yet if… вместо impossible",
+    "проверка понимания (Have I got this right…?) и проверка согласия (Would that work for you?) — разные вопросы; молчание — не согласие",
+    "итог: proposed / confirmed / still to check, у каждого дела имя: I'll… / Could you…?"
+  ],
+  "sources": [
+    {
+      "title": "Harvard Program on Negotiation · Principled Negotiation: Focus on Interests to Create Value",
+      "url": "https://www.pon.harvard.edu/daily/batna/principled-negotiation-focus-interests-create-value/",
+      "notes": "Сверено: позиция — требование на поверхности, интерес — потребность или опасение за ним; пример с праздником (одному некогда готовить, другой боится расходов) решён вариантом, который закрывает оба интереса. Отсюда первый раздел и вопрос «зачем тебе этот вариант»."
+    },
+    {
+      "title": "British Council LearnEnglish · Conditionals: zero, first and second",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-zero-first-second",
+      "notes": "Сверено: as long as, unless, in case могут заменять if; после них, как после if, настоящее время, даже когда речь о будущем (as long as you're back by midnight). Provided (that) на этой странице нет — его добавили как более официальный вариант того же условия."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового по сравнению с уроком о дискуссии",
+      "body": "В уроке о дискуссии ты учился соглашаться частично: I take your point, but… Теперь нужно не просто обменяться мнениями, а договориться о плане: деньги, время, люди. И условия будут меняться дважды.\n\nСначала раздели две вещи. Позиция — какой вариант человек хочет: «давайте зал». Интерес — зачем он ему: «зал дешёвый, останутся деньги на следующие встречи». Если спорить только о вариантах, каждый повторяет своё. Если знаешь интерес, можно найти вариант, который решает задачу обоих.\n\nИнтерес не угадывай. Проверь вопросом: So your priority is…? — «Значит, тебе главное…?» или мягко: It sounds like… — «похоже, что…». Человек может поправить."
+    },
+    {
+      "title": "Предложить вариант и не пообещать лишнего",
+      "body": "We could book the café — «можно было бы взять кафе»: это вариант, а не решение. It would cost $60 — «это обошлось бы в 60 долларов»: would описывает вариант, который ещё не выбран. Сравнивай варианты по одним и тем же признакам: цена, тишина, удобно ли менять партнёров.\n\nI can… и I'll… — уже твоё обещание. Его часто дают с условием: I can call the café tomorrow, as long as everyone agrees. Вместо as long as бывает if (нейтрально) и provided (that) — то же условие, но официальнее. После всех трёх — настоящее время, хотя речь о будущем: as long as everyone agrees, а не will agree.\n\nОбещай только своё действие. I'll ask the café — да. The café will hold the table — нет: это решает кафе."
+    },
+    {
+      "title": "Новость меняет план",
+      "body": "Пришла новость — не переписывай весь разговор и не извиняйся за прошлое предложение: тогда оно было разумным. Скажи три вещи по порядку: что изменилось, на какой признак это влияет, какой теперь следующий шаг.\n\nНачало связывает твои слова с новостью: Given what you've said, I'd… — «раз так, я бы…». That changes things — «это меняет дело».\n\nНе путай «нельзя» и «пока неизвестно». We can't use the hall — зал исключён. We don't know yet if the hall is free — нужна проверка. Слова impossible и definitely ставь, только если это уже точно известно."
+    },
+    {
+      "title": "«Понял ли я тебя» и «согласен ли ты» — разные вопросы",
+      "body": "Have I got this right: you need to leave by six? — «Я правильно понял…?» Так проверяют, верно ли ты понял чужую потребность. Пересказывай её в том же масштабе: если человеку нужно уйти в шесть, не превращай это в «он не может прийти».\n\nWould that work for you? / Does that work for everyone? — «Тебе так подходит?» Так проверяют согласие. Задавай этот вопрос после конкретного плана: время, место, кто что делает. На расплывчатый план «да» ничего не значит.\n\nМолчание — не согласие. Того, кто молчит, спроси по имени: Kim, what do you think? Частая ошибка: Are you agree? Agree — глагол, поэтому Do you agree?"
+    },
+    {
+      "title": "Итог встречи: статус и исполнитель",
+      "body": "Итог должен позволять действовать без догадок: что предложено, что уже подтверждено, что ещё надо проверить, кто что делает. Proposed — «предложено». Confirmed — «подтверждено». Still to check — «ещё проверить». Если никто не ответил «да», не пиши We all agreed.\n\nУ каждого дела есть имя. Своё — через I'll: I'll call the café today. Чужое — просьбой, пока человек не согласился: Kim, could you check the dates?\n\nРусское «будет сделано» прячет исполнителя. The café will be contacted — кем? Пиши прямо: I'll contact the café. И заверши фразой о статусе: Nothing is booked yet."
+    }
+  ],
+  "examples": [
+    {
+      "en": "So your priority is finishing early, not saving money?",
+      "ru": "Значит, тебе главное — закончить пораньше, а не сэкономить?",
+      "why": "Вопрос называет интерес за вариантом и даёт человеку поправить, если ты понял не так."
+    },
+    {
+      "en": "We could take the train, but it would cost $40 more.",
+      "ru": "Можно было бы поехать поездом, но это обошлось бы на 40 долларов дороже.",
+      "why": "Could и would показывают вариант, который ещё не выбран, и его цену."
+    },
+    {
+      "en": "I can book a table tonight, as long as everyone is OK with seven.",
+      "ru": "Я могу забронировать столик сегодня вечером, если всем подходит семь часов.",
+      "why": "I can — твоё обещание; as long as + настоящее время — условие."
+    },
+    {
+      "en": "Given what you've said about the weather, I'd move the picnic indoors.",
+      "ru": "Раз так с погодой, я бы перенёс пикник в помещение.",
+      "why": "Начало связывает пересмотр с новостью, поэтому смена мнения понятна."
+    },
+    {
+      "en": "Have I got this right: you can stay until nine, but not after that?",
+      "ru": "Я правильно понял: ты можешь остаться до девяти, но не позже?",
+      "why": "Проверка понимания: ты пересказываешь чужое ограничение и ждёшь «да» или поправки."
+    },
+    {
+      "en": "Would that schedule work for you?",
+      "ru": "Тебе подходит такое расписание?",
+      "why": "Проверка согласия. Она идёт после конкретного плана, а не вместо него."
+    },
+    {
+      "en": "Proposed: Saturday, 10 a.m., Room 4. Nothing is booked yet.",
+      "ru": "Предложено: суббота, 10 утра, комната 4. Пока ничего не забронировано.",
+      "why": "Статус назван прямо, поэтому никто не примет предложение за решение."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Этап 1. Кто что хочет / Planning meeting, part 1",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Nina: We're planning a free language evening for about twenty-four adults next Friday. I want people to meet someone new, especially people who usually stay quiet in group conversations.\n\nLeo: My priority is keeping the venue cost under two hundred dollars. That's all we have, and if we spend less, we'll have money left for future events.\n\nSam: I'd like beginners to talk in pairs before we bring everyone together. A little structure makes the evening less scary for them.\n\nNina: I like the studio, because movable chairs would let people change partners easily. I'm picturing several short conversations and then a relaxed group discussion.\n\nLeo: The community center hall looks good on price. I don't want to pay for features that won't actually make the evening better.\n\nSam: Fixed tables could still work for pairs. I just want to avoid a format where confident speakers do all the talking and everyone else listens.\n\nNina: That makes sense. Let's compare the rooms by what people will actually do there, not by how nice they look.\n\nLeo: Agreed. Let's look at the venue notes before we decide."
+    },
+    {
+      "id": "m2",
+      "title": "Этап 1. Площадки на следующую пятницу / Venue notes",
+      "kind": "reference",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Library meeting room: $120 total, available 6:00–8:00 p.m., room for 24 people. Quiet, wheelchair accessible, six fixed tables. Pairs can talk comfortably, but changing groups means people have to move between tables.\n\nRiverside studio: $180 total, available 6:30–8:30 p.m., room for 32 people. Wheelchair accessible, movable chairs. The open space makes partner changes easy.\n\nCommunity center hall: $90 total, available 6:00–8:30 p.m., room for 40 people. Wheelchair accessible, movable tables. A dance class next door may make quiet conversation difficult.\n\nAll prices include setup. Nothing is booked yet. A room is not guaranteed until the booking is confirmed."
+    },
+    {
+      "id": "m3",
+      "title": "Этап 2. Новость про студию / Part 2: news from the studio",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная. Открой только на втором этапе.",
+      "text": "Leo: I just got a message from the studio. They need an eighty-dollar deposit by noon tomorrow, Wednesday. It's part of the $180 total, not an extra fee.\n\nNina: So the total doesn't change. I'm still interested. Can we just pay it and keep planning?\n\nLeo: Our club account needs two approvals before any money goes out. I don't know if we can get both by tomorrow. And I'm not comfortable asking anyone to use their own money.\n\nSam: Does the message say if the deposit is refundable?\n\nLeo: No. I asked, but they haven't answered. We also haven't checked if the other places want a deposit.\n\nNina: OK. Then we need a plan that doesn't make promises we can't keep."
+    },
+    {
+      "id": "m4",
+      "title": "Этап 3. Сэм говорит о времени / Part 3: Sam's time limit",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная. Открой только на третьем этапе.",
+      "text": "Nina: Sam, you've been quiet during the money discussion. Is there anything else we should think about?\n\nSam: Yes. I have to leave by 7:30 to take care of my dad. I didn't mention it earlier because I thought someone else could lead the last activities.\n\nLeo: I thought you'd lead the whole evening. I've never run a session for beginners, so I wouldn't feel ready to take over without some preparation.\n\nSam: I can lead until 7:30, and I can give someone my plan beforehand if the evening goes later. But I need a fixed finish time for my part.\n\nNina: Thanks for telling us. Let's rethink the timing and who does what before we confirm anything."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прочитай только M1. Для Лео и Сэма напиши по одному предложению: какой вариант или формат хочет человек и зачем он ему.",
+      "context": "venue — место проведения; format — как устроен вечер.",
+      "guidance": {
+        "title": "Что хочет и зачем",
+        "body": "Позиция — что человек хочет. Интерес — зачем ему это. Интерес ищи в его собственных словах, а не в том, что «обычно бывает».",
+        "example": "Kim wants the earlier train because she needs to pick up her son at five.",
+        "translation": "Ким хочет поезд пораньше, потому что ей нужно забрать сына в пять."
+      },
+      "hint": "Проверка: подставь интерес после because. Начни так: Leo likes the hall because he wants to…",
+      "answers": [
+        "Leo likes the community center hall because he wants to keep the cost low and have money left for future events. Sam wants beginners to talk in pairs first because he wants the evening to feel less scary for them.",
+        "Leo prefers the cheapest room because he wants to save money for future events. Sam wants pair work before the group discussion because he doesn't want confident speakers to do all the talking."
+      ],
+      "explanation": "Засчитывается, если у каждого есть вариант и причина из M1: у Лео — деньги на будущие встречи, у Сэма — чтобы новичкам было не страшно и уверенные не говорили за всех. «Лео жадный» — не интерес, а догадка."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Проверь вслух, правильно ли ты понял интерес Лео. Переведи: «Похоже, тебе важно не просто сэкономить, а оставить деньги на следующие встречи. Я правильно понял?»",
+      "context": "",
+      "guidance": {
+        "title": "Проверь интерес вопросом",
+        "body": "It sounds like… — «похоже, что…» — даёт человеку поправить тебя. Так ты не приписываешь ему цель, которую он не называл.",
+        "example": "It sounds like you care more about the date than the price. Is that right?",
+        "translation": "Похоже, для тебя дата важнее цены. Так?"
+      },
+      "hint": "Начни так: It sounds like your priority isn't just…",
+      "answers": [
+        "It sounds like your priority isn't just saving money; it's keeping some for future events. Did I get that right?",
+        "It sounds like you don't just want to save money; you want to keep some for future events. Is that right?",
+        "It sounds like it's important to you not just to save money, but to keep some for future events. Am I right?",
+        "So your priority isn't just saving money, it's having money for future events. Is that right?"
+      ],
+      "explanation": "It sounds like и вопрос в конце оставляют Лео право поправить. Подойдут Is that right?, Did I get that right?, Am I right? и начало So your priority is…"
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Открой M2. Сравни библиотеку и студию по двум признакам: цена и смена партнёров. Два предложения, по одному на площадку. Решение пока не принимай.",
+      "context": "budget — бюджет ($200); partner changes — смена партнёров.",
+      "guidance": {
+        "title": "Варианты — через would",
+        "body": "Would описывает вариант, который ещё не выбран: it would cost, it would leave. Сравнивай оба варианта по одним и тем же признакам.",
+        "example": "The bus would take an hour, but it would cost only $5.",
+        "translation": "На автобусе вышло бы час, зато всего 5 долларов."
+      },
+      "hint": "Сколько останется от $200 в каждом случае? Начни так: The library would cost…",
+      "answers": [
+        "The library would cost $120 and leave $80 in the budget, but its fixed tables would make partner changes harder. The studio would cost $180 and leave only $20, but its movable chairs would make partner changes easy.",
+        "The library would be cheaper at $120, but people would have to move between fixed tables to change partners. The studio would cost $180, but changing partners would be easy because the chairs move."
+      ],
+      "explanation": "Засчитывается, если у обеих площадок названы оба признака: цена и смена партнёров. Would показывает, что это варианты. Вывод «библиотека лучше» здесь не нужен — сначала сравнение."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Предложи в чате следующий шаг. Переведи: «Я могу завтра утром позвонить в библиотеку и спросить, свободна ли комната, если никто не против. Но бронировать ничего не буду, пока мы все не согласимся».",
+      "context": "book — бронировать; mind — быть против.",
+      "guidance": {
+        "title": "Вспоминаем as long as, until и вопрос с if",
+        "body": "Вспоминаем as long as и until из урока про условия: после них настоящее время, хотя речь о будущем. И вопрос «ли» внутри фразы — через if с обычным порядком слов: ask if the room is free.",
+        "example": "I can drive you there, as long as we leave by six. I won't buy tickets until you're sure.",
+        "translation": "Могу тебя отвезти, если выедем до шести. Билеты не куплю, пока ты не будешь уверен."
+      },
+      "hint": "Проверь три места: as long as nobody… / ask if the room is… / until we all…",
+      "answers": [
+        "I can call the library tomorrow morning and ask if the room is available, as long as nobody minds. But I won't book anything until we all agree.",
+        "I can call the library tomorrow morning and ask if the room is free, as long as no one minds. But I won't book anything until we all agree.",
+        "I can call the library tomorrow morning and ask whether the room is available, unless anyone minds. But I won't book anything until everyone agrees.",
+        "I can call the library tomorrow morning to ask if the room is available, if nobody minds. But I won't book anything until we all agree."
+      ],
+      "explanation": "После as long as и until — настоящее время: nobody minds, we all agree. Внутри if the room is available — обычный порядок слов. Подойдут и unless anyone minds, whether вместо if."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2",
+        "m3"
+      ],
+      "prompt": "Второй этап: открой M3, M4 пока не читай. Напиши в чат 2–3 предложения: что изменилось со студией, чего пока не знаем и какой теперь твой следующий шаг. Начни с Given what Leo said.",
+      "context": "deposit — предоплата; approval — одобрение; refundable — возвратный.",
+      "guidance": {
+        "title": "Новость → на что влияет → новый шаг",
+        "body": "Назови новость точно, потом — на что она влияет, потом — новый шаг. Общая цена студии не выросла: изменился срок оплаты.",
+        "example": "Given what you said, the price stays the same, but we'd have to pay by Monday. I'd check the other option first.",
+        "translation": "Раз так, цена та же, но платить пришлось бы до понедельника. Я бы сначала проверил другой вариант."
+      },
+      "hint": "Три части: The total is still… / We don't know yet if… / I'd…",
+      "answers": [
+        "Given what Leo said, the studio still costs $180 in total, but we'd have to pay $80 by noon tomorrow. We don't know yet if we can get two approvals in time or if the deposit is refundable. I'd keep the studio as a backup and check the library first.",
+        "Given what Leo said, the price hasn't changed, but the studio wants an $80 deposit by noon tomorrow. We still don't know if we can get both approvals by then. I'd ask the library about its payment rules before we decide."
+      ],
+      "explanation": "Засчитывается, если сказано, что общая цена та же; названо неизвестное (два одобрения, возврат); шаг — твой и выполнимый. «Студия теперь дороже» — ошибка: $80 входят в $180."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m3"
+      ],
+      "prompt": "Кто-то из группы написал в чат: The studio is impossible now, so we'll definitely book the library. Leo can pay the deposit himself if we need the studio. Перепиши сообщение так, чтобы оно не говорило больше, чем известно из M3, и ничего не решало за Лео.",
+      "context": "",
+      "guidance": {
+        "title": "Найди, где сказано лишнее",
+        "body": "Ищи три вещи: «невозможно» там, где пока неизвестно; решение, которого никто не принимал; дело, которое повесили на другого без его согласия.",
+        "example": "The museum is closed forever. → The museum might be closed on Monday. We don't know yet.",
+        "translation": "Музей закрыт навсегда. → Возможно, в понедельник музей закрыт. Пока неизвестно."
+      },
+      "hint": "Что Лео сказал про личные деньги? Что известно про библиотеку — она уже свободна?",
+      "answers": [
+        "The studio may not work, because we might not get two approvals by noon tomorrow. I suggest checking the library first, but nothing is decided yet. We shouldn't ask Leo or anyone else to use their own money.",
+        "We don't know yet if we can pay the studio deposit in time. I'd check the library first, but we haven't decided anything. And Leo said he isn't comfortable with anyone using personal money, so that's not an option."
+      ],
+      "explanation": "Три исправления: impossible → may not work / we don't know yet; we'll definitely book → I suggest / nothing is decided; личные деньги Лео убраны — он прямо сказал, что против."
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2",
+        "m4"
+      ],
+      "prompt": "Третий этап: открой M4. Скажи вслух за 30–40 секунд: проверь, правильно ли понял ограничение Сэма; предложи одно изменение плана с библиотекой (6:00–8:00 p.m.); спроси, подходит ли это всем. Запиши себя и проверь по расшифровке, есть ли оба вопроса.",
+      "context": "lead — вести; take over — заменить, взять на себя.",
+      "guidance": {
+        "title": "Два разных вопроса",
+        "body": "Сначала проверь, что понял потребность: Have I got this right…? Потом предложи конкретный план и только после него спроси о согласии: Would that work for everyone?",
+        "example": "Have I got this right: you can't come before ten? Then I'd move the call to 10:30. Would that work for you?",
+        "translation": "Я правильно понял: раньше десяти ты не можешь? Тогда я бы перенёс звонок на 10:30. Тебе так подходит?"
+      },
+      "hint": "Порядок: Sam, have I got this right… → Then I'd suggest… → Would that work for everyone?",
+      "answers": [
+        "Sam, have I got this right: you can lead the activities until 7:30, but you need to leave then? Then I'd suggest we start at 6:15 and finish the pair activities by 7:20, so you have time to leave. Nina, could you lead the short group discussion after that? Would that work for everyone?",
+        "Sam, just to check: you can lead until 7:30, but not after that, right? Then let's run the pair activities from 6:15 to 7:20, while you're there. I could lead the last fifteen minutes and clean up with Nina. Does that work for everyone?"
+      ],
+      "explanation": "Засчитывается, если есть проверка понимания (до 7:30, а не «Сэм не может»), конкретное время и отдельный вопрос о согласии всех. Лео не назначен ведущим: он сказал, что не готов."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "prompt": "Напиши Нине, Лео и Сэму итоговое письмо после встречи (120–180 слов, вместе с темой). Что должно быть: предложенная площадка и формат; как они связаны с интересами каждого из троих; расписание с учётом 7:30 у Сэма; твоё дело через I'll; одна просьба к коллеге с вопросом, сможет ли он; что ещё неизвестно; статус — пока ничего не забронировано.",
+      "context": "",
+      "hint": "План: Subject → Hi all, → I suggest… because… → Schedule: … → I'll… / Could you…? → Still to check: … → Nothing is booked yet.",
+      "answers": [
+        "Subject: Proposed plan for Friday – please confirm\n\nHi Nina, Leo, and Sam,\n\nI suggest the library, if it's still available. At $120, it leaves $80 for future events, which matters to Leo. The quiet room should help Sam's beginners, and if people change tables every fifteen minutes, everyone will meet someone new, as Nina wants.\n\nProposed schedule: setup at 6:00, pair activities from 6:15 to 7:20 with Sam, and a short group discussion until 7:45.\n\nI'll call the library today and ask about availability and any deposit. Nina, could you lead the group discussion after Sam leaves? Please let me know if you can.\n\nStill to check: the library's payment rules. The studio is our backup, but its $80 deposit is due by noon Wednesday, and we don't know if we can get two approvals in time.\n\nNothing is booked yet. Once I hear from the library, I'll send an updated plan for everyone to confirm.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если у каждого из троих назван его интерес, время учитывает уход Сэма в 7:30, твоё дело — через I'll, чужое — просьбой с вопросом, неизвестное отделено, а статус назван прямо. Другая площадка тоже подходит, если доводы взяты из M1–M4."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m3",
+        "m4"
+      ],
+      "prompt": "На следующей встрече Нина говорит: Let's just book the studio and pay the deposit. We're wasting time. Ответь ей вслух за 1–1,5 минуты. Что должно быть: признай, в чём она права; объясни, в чём опасение Лео; предложи шаг с условием (I can…, as long as…); спроси мнение Сэма — он пока молчит; закончи вопросом о согласии.",
+      "context": "",
+      "hint": "Начни так: Nina, I take your point about… Потом: Leo's concern is… / I can…, as long as… / Sam, what do you think?",
+      "answers": [
+        "Nina, I take your point about time. The deposit doesn't change the total price, and the studio is great for changing partners. But Leo's concern isn't the price. It's that the club account needs two approvals, and we don't know if we can get them by noon tomorrow. We also don't know if the deposit is refundable. So here's what I'd suggest. I can call the library this afternoon and ask if they need a deposit, as long as Leo checks the approvals at the same time. If both approvals come through by tomorrow morning, we can still choose the studio. Sam, you haven't said much. What do you think? Would that plan work for everyone?"
+      ],
+      "explanation": "Засчитывается, если признана правота Нины (цена не выросла), опасение Лео названо точно (одобрения и срок, а не цена), есть твоё обещание с условием, отдельный вопрос Сэму и вопрос о согласии всех. Оценивай по своей расшифровке."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "prompt": "Кто-то отправил группе неудачный итог: Subject: Final decision. Everyone, the studio is booked for Friday, 6:30–8:30. Leo will pay the $80 deposit from his own account tomorrow, plus the $180 fee. The deposit is refundable anyway. Sam will lead until 8:30. Nina, tell all the participants everything is confirmed. If nobody replies, I'll take that as a yes. Перепиши его как честное письмо коллегам (120–160 слов): исправь все неверные факты, сними навязанные дела и назови статус.",
+      "context": "",
+      "hint": "Проверь каждую фразу: факт, догадка, предложение или чужое дело без согласия? Найди шесть ошибок.",
+      "answers": [
+        "Subject: Revised plan for Friday – please confirm\n\nHi everyone,\n\nA correction: nothing is booked yet. I suggest checking the library first. It costs $120, and the quiet room would work well for beginners.\n\nIf we choose the studio, the $80 deposit is part of the $180 total, not extra. It's due by noon Wednesday, and we don't know yet if it's refundable or if we can get two approvals in time. We shouldn't ask anyone to use personal money.\n\nSam can lead only until 7:30, so I'd suggest pair activities from 6:15 to 7:20. Sam, does that work for you? Nina, could you lead the last part?\n\nI'll call the library today. Let's not tell participants anything until the plan is confirmed. Please reply either way; I won't treat silence as a yes.\n\nThanks,\nAlex"
+      ],
+      "explanation": "Засчитывается, если исправлены шесть мест: ничего не забронировано; $80 входят в $180; возврат неизвестен; никаких личных денег Лео; Сэм — только до 7:30; участникам ничего не сообщают до подтверждения. Молчание не считается согласием."
+    }
+  ]
+}

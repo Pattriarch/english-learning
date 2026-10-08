@@ -1,0 +1,355 @@
+{
+  "id": "path-articles-advanced",
+  "title": "Coffee или the coffee: когда говоришь «вообще»",
+  "subtitle": "Вообще → какой именно → people who… → an experience → go to school и the school → the internet, но TV",
+  "level": "B2",
+  "group": "Существительные и определители",
+  "units": "Авторский маршрут · B2",
+  "minutes": 45,
+  "goal": "Говорить о вещах вообще и о конкретных: «Кофе не заменяет сон», «Еда в этом ресторане была холодной», «Мама в больнице», «Я учился в колледже в Казани».",
+  "formula": "Coffee doesn't replace sleep. → The coffee at work is awful. → My mom is in the hospital. → I went to college in Kazan.",
+  "keyRule": {
+    "rule": "Говоришь о вещах вообще — без the. Говоришь, какие именно, — the.",
+    "example": "Coffee keeps me awake. The coffee here is great. — Кофе не даёт мне спать. Кофе здесь отличный.",
+    "check": "Можно ответить на вопрос «какой именно?» по ситуации? Тогда the."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-articles-basic",
+    "path-countability",
+    "path-relative-basic"
+  ],
+  "recycles": [
+    "path-relative-basic"
+  ],
+  "teaches": [
+    "обобщение без артикля: то, что не считают, или множественное число — Coffee doesn't replace sleep, Dogs need exercise",
+    "the, когда уточнение показывает, какие именно: the food at this restaurant, the people I work with",
+    "уточнение типа — без the: People who exercise sleep better; a friend of mine — один из моих друзей",
+    "experience / an experience, time / a time, life / a life: вообще или один случай",
+    "a + любой представитель: A good teacher listens",
+    "по назначению — без артикля: go to school, in college, go to church, in prison, go to bed, go to work; по делу — the school",
+    "американское in the hospital (и про пациента), go to college; Where did you go to school? — где ты учился",
+    "постоянные сочетания: the internet, the news, the radio, the weather; но watch TV, on TV; play soccer, play the guitar"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Definite article: the",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/definite-article",
+      "notes": "Сверено: the для конкретной, известной собеседнику вещи; the + единственное число для целого вида (The wolf…) — книжный вариант; в разговоре чаще множественное без артикля."
+    },
+    {
+      "title": "Purdue OWL · Using Articles",
+      "url": "https://owl.purdue.edu/owl/general_writing/grammar/using_articles.html",
+      "notes": "Сверено: то, что не считают, без артикля, когда говорят о веществе вообще, и с the, когда о конкретном; виды спорта и учебные предметы без артикля."
+    },
+    {
+      "title": "Quick and Dirty Tips · in the hospital и in hospital",
+      "url": "https://quickanddirtytips.com/?p=39997",
+      "notes": "Сверено: американцы говорят in the hospital, британцы in hospital; in college и in prison без артикля — человек учится или сидит там, с the — конкретное здание."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Вообще или какой именно, учиться или прийти по делу",
+    "why": "Артикль не прикреплён к слову. Его выбирает смысл: вообще или конкретно, учиться там или прийти по делу.",
+    "items": [
+      {
+        "label": "Вообще",
+        "en": "Coffee doesn't replace sleep.",
+        "ru": "Кофе не заменяет сон.",
+        "note": "Кофе и сон вообще — без артикля."
+      },
+      {
+        "label": "Какой именно",
+        "en": "The coffee at work is awful.",
+        "ru": "Кофе на работе ужасный.",
+        "note": "At work показывает, какой кофе, — the."
+      },
+      {
+        "label": "Учиться",
+        "en": "The kids are at school until three.",
+        "ru": "Дети в школе до трёх.",
+        "note": "Учатся — без артикля."
+      },
+      {
+        "label": "Прийти по делу",
+        "en": "I'm meeting his teacher at the school.",
+        "ru": "Я встречаюсь с его учителем в школе.",
+        "note": "Пришёл как гость — the."
+      }
+    ],
+    "footnote": "Больница у американцев всегда с the: She's in the hospital.",
+    "focus": [
+      "Coffee",
+      "The coffee",
+      "at school",
+      "at the school"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Кофе вообще и этот кофе: когда артикля нет",
+      "body": "Друг пишет: «Не высплюсь — выпью кофе». Ты отвечаешь: «Кофе не заменяет сон». Ты говоришь не о чашке на столе, а о кофе и сне вообще.\n\nПо-английски такая мысль идёт без артикля: Coffee doesn't replace sleep. Так говорят о том, что не считают (coffee, sleep, music, money), и о многих вещах сразу, во множественном числе: Dogs need exercise — собакам нужно много двигаться.\n\nThe появляется, когда ты говоришь, какие именно: The coffee at work is awful — кофе на работе ужасный. Это уже не кофе вообще, а тот, что на работе.\n\nЧастая ошибка русскоговорящих — ставить the перед словом, которое кажется важным: The life is short, The music helps me relax. Правильно: Life is short. Music helps me relax."
+    },
+    {
+      "title": "Уточнение после слова: the people I work with, но people who exercise",
+      "body": "Обычно the ставят, когда после слова идёт уточнение: the food at this restaurant, the people I work with — люди, с которыми я работаю. Уточнение показывает, какие именно.\n\nНо не всякое уточнение делает вещь конкретной. People who exercise sleep better — люди, которые занимаются спортом, спят лучше. Это всё ещё люди вообще, просто такого типа: любые, кто занимается спортом. The people who live upstairs — уже конкретные соседи сверху. С of тоже не всегда the: a friend of mine — один из моих друзей.\n\nПроверка: можешь сказать «вот эти, именно они»? Тогда the. Если подходит любой человек или любая вещь такого типа — артикля нет."
+    },
+    {
+      "title": "Experience и an experience: одно слово, два смысла",
+      "body": "Некоторые слова бывают и «вообще», и «один случай». Experience без артикля — опыт, знания: I don't have much experience — у меня мало опыта. An experience — одно событие, которое ты пережил: The trip was an amazing experience — поездка была потрясающей.\n\nТак же time и a time: I don't have time — у меня нет времени; We had a great time — мы отлично провели время. И life: Life is short — жизнь вообще; She had a hard life — одна судьба, её можно посчитать.\n\nЕщё a бывает «любой такой»: A good teacher listens — хороший учитель (любой) слушает. Это то же обобщение, что Good teachers listen."
+    },
+    {
+      "title": "Go to school и go to the school: учиться или прийти по делу",
+      "body": "Есть места, куда ходят по их прямому назначению: учиться, молиться, спать, сидеть в тюрьме. Тогда артикля нет: go to school, be in college, go to church, be in prison, go to bed, go to work.\n\nЕсли ты приходишь туда по другому делу — как гость, родитель, на встречу, — нужен the: I went to the school to talk to his teacher — я ходил в школу поговорить с его учителем.\n\nБольница у американцев идёт с the, даже когда человек там лежит: My mom is in the hospital — мама в больнице. Британцы скажут in hospital. Американцы говорят go to college и про университет: I went to college in Texas. Вопрос Where did you go to school? значит «где ты учился» — часто имеют в виду колледж."
+    },
+    {
+      "title": "The internet, the news, но TV: сочетания, которые учат целиком",
+      "body": "Несколько частых слов всегда идут с the: the internet, the news, the radio, the weather. I saw it on the news — я видел это в новостях. I found it on the internet — я нашёл это в интернете.\n\nА TV в таких фразах без артикля: watch TV, on TV. Спорт тоже без артикля: play soccer, play tennis. Но музыкальный инструмент — с the: play the guitar.\n\nЭто не следует из правила «вообще или какой именно» — так просто говорят. Учи такие фразы целиком, вместе с предлогом."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Money doesn't buy happiness.",
+      "ru": "Счастье не купишь за деньги.",
+      "why": "Деньги и счастье вообще — без артикля."
+    },
+    {
+      "en": "The money in my wallet is for the bus.",
+      "ru": "Деньги у меня в кошельке — на автобус.",
+      "why": "In my wallet показывает, какие именно деньги, поэтому the."
+    },
+    {
+      "en": "People who travel a lot are usually good at packing.",
+      "ru": "Люди, которые много путешествуют, обычно умеют быстро собирать вещи.",
+      "why": "Уточнение есть, но это любые люди такого типа — без the."
+    },
+    {
+      "en": "Living in Chicago was a great experience.",
+      "ru": "Жизнь в Чикаго была для меня отличным опытом.",
+      "why": "An experience — одно пережитое событие, его можно посчитать."
+    },
+    {
+      "en": "My grandpa is in the hospital again.",
+      "ru": "Дедушка снова в больнице.",
+      "why": "Американцы ставят the, даже когда человек лежит в больнице."
+    },
+    {
+      "en": "She went to college in Ohio.",
+      "ru": "Она училась в университете в Огайо.",
+      "why": "Go to college — учиться, без артикля. Американцы так говорят и про университет."
+    },
+    {
+      "en": "I heard about it on the news.",
+      "ru": "Я услышал об этом в новостях.",
+      "why": "On the news — постоянное сочетание с the."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет, что не будет спать перед экзаменом: «Выпью побольше кофе». Ответь: «Кофе не заменяет сон. Сон важнее».",
+      "context": "replace — заменять, sleep — сон.",
+      "guidance": {
+        "title": "Вообще — без артикля",
+        "body": "Ты говоришь о кофе и сне вообще, а не о чашке на столе. Такие слова идут без a и без the.",
+        "example": "Exercise is good for stress.",
+        "translation": "Спорт помогает от стресса."
+      },
+      "hint": "Начни так: Coffee doesn't … Нужно ли the перед sleep?",
+      "answers": [
+        "Coffee doesn't replace sleep. Sleep is more important.",
+        "Coffee does not replace sleep. Sleep is more important.",
+        "Coffee can't replace sleep. Sleep is more important.",
+        "Coffee won't replace sleep. Sleep is more important.",
+        "Coffee isn't a replacement for sleep. Sleep is more important.",
+        "Coffee doesn't replace sleep. Sleep is more important than coffee.",
+        "Coffee is no replacement for sleep. Sleep is more important."
+      ],
+      "explanation": "Coffee и sleep здесь «вообще», поэтому без артикля. The coffee значило бы какой-то определённый кофе. Can't replace тоже верно."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, как тебе новый ресторан. Ответь: «Я люблю итальянскую еду, но еда в этом ресторане была холодной, а музыка — слишком громкой».",
+      "context": "",
+      "guidance": {
+        "title": "Какой именно — the",
+        "body": "Первая еда — итальянская вообще. Вторая — та, что была в этом ресторане: уточнение at this restaurant делает её конкретной. Музыка — тоже та, что играла там.",
+        "example": "I like jazz, but the jazz they played last night was boring.",
+        "translation": "Я люблю джаз, но джаз, который играли вчера вечером, был скучным."
+      },
+      "hint": "Сколько раз тебе нужно the: ни разу, один или два?",
+      "answers": [
+        "I love Italian food, but the food at this restaurant was cold, and the music was too loud.",
+        "I love Italian food, but the food at this restaurant was cold and the music was too loud.",
+        "I love Italian food, but the food at that restaurant was cold, and the music was too loud.",
+        "I love Italian food, but the food in this restaurant was cold, and the music was too loud.",
+        "I love Italian food, but the food there was cold, and the music was too loud.",
+        "I like Italian food, but the food at this restaurant was cold, and the music was too loud.",
+        "I like Italian food, but the food at that restaurant was cold and the music was too loud."
+      ],
+      "explanation": "Italian food — еда вообще, без артикля. The food at this restaurant и the music — то, что было там, поэтому the. In this restaurant и there тоже верны."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем who и that. Друг спрашивает, нравится ли тебе работать из дома. Ответь: «Говорят, люди, которые работают из дома, больше устают. Но люди, с которыми я работаю, выглядят счастливыми».",
+      "context": "Говорят — People say. work from home — работать из дома, get tired — уставать, look happy — выглядеть счастливыми.",
+      "guidance": {
+        "title": "Вспоминаем who: уточнение не всегда даёт the",
+        "body": "Вспоминаем: who и that добавляют уточнение — people who…, the people (that) I work with. Если это любые люди такого типа — без the. Если конкретные, которых ты знаешь, — the.",
+        "example": "Kids who read a lot learn faster, but the kids in my class hate reading.",
+        "translation": "Дети, которые много читают, учатся быстрее, но дети в моём классе терпеть не могут читать."
+      },
+      "hint": "Первые люди — любые такого типа? А вторые?",
+      "answers": [
+        "People say that people who work from home get more tired. But the people I work with look happy.",
+        "People say people who work from home get more tired. But the people I work with look happy.",
+        "People say that people who work from home get more tired, but the people I work with look happy.",
+        "People say that people who work from home get more tired. But the people that I work with look happy.",
+        "People say that people who work from home are more tired. But the people I work with look happy.",
+        "People say that people who work from home get more tired. But the people I work with seem happy.",
+        "They say that people who work from home get more tired. But the people I work with look happy.",
+        "They say people who work from home get more tired, but the people I work with look happy."
+      ],
+      "explanation": "People who work from home — любые люди такого типа, без the. The people I work with — конкретные коллеги. That после people можно опустить, как в уроке о who и that."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На собеседовании тебя спрашивают о продажах. Ответь: «У меня нет опыта в продажах, но работа волонтёром в больнице была для меня отличным опытом».",
+      "context": "sales — продажи, volunteering — работа волонтёром.",
+      "guidance": {
+        "title": "Опыт вообще и один случай",
+        "body": "Experience без артикля — знания и навыки, их не считают. An experience — одно пережитое событие, почти «впечатление».",
+        "example": "We didn't have much time in Boston, but we had a great time.",
+        "translation": "В Бостоне у нас было мало времени, но мы отлично его провели."
+      },
+      "hint": "Начни так: I don't have any … in sales. Перед вторым experience нужно a?",
+      "answers": [
+        "I don't have any experience in sales, but volunteering at the hospital was a great experience for me.",
+        "I don't have any experience in sales, but volunteering at a hospital was a great experience for me.",
+        "I don't have experience in sales, but volunteering at the hospital was a great experience for me.",
+        "I have no experience in sales, but volunteering at the hospital was a great experience for me.",
+        "I don't have any sales experience, but volunteering at the hospital was a great experience for me.",
+        "I don't have any sales experience, but volunteering at a hospital was a great experience for me.",
+        "I don't have any experience in sales, but volunteering at the hospital was a great experience.",
+        "I don't have any experience in sales, but volunteering at a hospital was a great experience."
+      ],
+      "explanation": "Первое experience — опыт вообще, без a. Второе — одно событие, поэтому a great experience. At the hospital и at a hospital — оба верны: ты был там волонтёром, а не пациентом."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши коллеге: «Сегодня уйду в три. Мама в больнице, а потом мне нужно зайти в школу к учителю сына».",
+      "context": "leave — уйти, my son's teacher — учитель сына.",
+      "guidance": {
+        "title": "Учиться или прийти по делу",
+        "body": "Ты идёшь в школу не учиться, а на встречу — поэтому the school. Больница у американцев всегда с the, даже если человек там лежит.",
+        "example": "My daughter is at school now, but I'm going to the school at four for a meeting.",
+        "translation": "Дочь сейчас в школе, а я иду в школу в четыре на встречу."
+      },
+      "hint": "Начни так: I'm leaving at three today. My mom is in … Ты идёшь в школу учиться?",
+      "answers": [
+        "I'm leaving at three today. My mom is in the hospital, and then I need to go to the school to see my son's teacher.",
+        "I'm leaving at three today. My mom is in the hospital, and then I need to go to the school to talk to my son's teacher.",
+        "I'm leaving at three today. My mom is in the hospital, and then I need to go to the school to meet my son's teacher.",
+        "I'm leaving at three today. My mom is in the hospital, and then I have to go to the school to talk to my son's teacher.",
+        "I'm leaving at 3 today. My mom is in the hospital, and then I need to go to the school to see my son's teacher.",
+        "I'm leaving at three today. My mom's in the hospital, and then I need to go to the school to see my son's teacher.",
+        "I'll leave at three today. My mom is in the hospital, and then I have to go to the school to see my son's teacher.",
+        "I'm leaving at three today. My mom is in the hospital, and after that I need to go to my son's school to see his teacher."
+      ],
+      "explanation": "In the hospital — так говорят американцы и про пациента (британцы: in hospital). Go to the school — ты идёшь туда по делу, а не учиться. My son's school тоже верно: «чей» заменяет the."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, откуда ты знаешь про снежную бурю. Ответь: «Я прочитал об этом в интернете. По телевизору ничего не сказали, но по радио говорили весь день».",
+      "context": "snowstorm — снежная буря.",
+      "guidance": {
+        "title": "The internet, но TV",
+        "body": "The internet, the news и the radio всегда идут с the. А TV в сочетаниях watch TV и on TV — без артикля. Это нужно просто запомнить.",
+        "example": "I don't watch TV. I listen to the news on the radio.",
+        "translation": "Я не смотрю телевизор. Новости я слушаю по радио."
+      },
+      "hint": "Какое из трёх слов — internet, TV, radio — идёт без the?",
+      "answers": [
+        "I read about it on the internet. They didn't say anything on TV, but they talked about it on the radio all day.",
+        "I read about it on the Internet. They didn't say anything on TV, but they talked about it on the radio all day.",
+        "I read about it on the internet. They didn't say anything about it on TV, but they talked about it on the radio all day.",
+        "I read about it on the internet. They didn't say anything about it on TV, but they talked about it all day on the radio.",
+        "I read about it on the internet. There was nothing on TV, but they talked about it on the radio all day.",
+        "I read about it online. There was nothing on TV, but they talked about it on the radio all day.",
+        "I read about it online. They didn't say anything on TV, but they talked about it on the radio all day."
+      ],
+      "explanation": "On the internet и on the radio — с the, on TV — без артикля. Online — тоже естественный вариант вместо on the internet."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Подруга просит проверить её сообщение американскому коллеге: The life in big cities is so busy. My dad is in hospital this week, so I go to the hospital every day after the work. The nurses there are really kind. Найди ошибки и напиши текст целиком.",
+      "context": "nurse — медсестра.",
+      "guidance": {
+        "title": "Проверь каждое the",
+        "body": "Про каждое существительное спроси: это вообще или какое-то именно? Человек там работает или лечится — или пришёл по делу? Вспомни, как американцы говорят про больницу.",
+        "example": "Life in a small town is quiet. I go to bed early and get to work at eight.",
+        "translation": "Жизнь в маленьком городе спокойная. Я рано ложусь и прихожу на работу к восьми."
+      },
+      "hint": "Ошибок три. The nurses there — ошибка или нет?",
+      "answers": [
+        "Life in big cities is so busy. My dad is in the hospital this week, so I go to the hospital every day after work. The nurses there are really kind.",
+        "Life in big cities is so busy. My dad's in the hospital this week, so I go to the hospital every day after work. The nurses there are really kind."
+      ],
+      "explanation": "The life → Life: жизнь в больших городах вообще, уточнение in big cities говорит о типе. In hospital → in the hospital, как у американцев. After the work → after work: ты был на работе как работник. The nurses there — конкретные медсёстры этой больницы, the на месте."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Новый американский коллега пишет в чате: Where did you go to school? Do you have any experience with customer service? Ответь 3–5 фразами: где ты учился (школа или колледж); есть ли у тебя опыт работы с клиентами; одно место работы или учёбы, которое тебе запомнилось, и чем.",
+      "context": "customer service — работа с клиентами.",
+      "hint": "Начни так: I went to college in … I have some experience …",
+      "answers": [
+        "I went to school and college in Kazan. I studied economics. I have some experience with customer service: I worked at a bank for two years. It was a great experience, and the people I worked with were really friendly.",
+        "I went to college in St. Petersburg, where I studied engineering. I don't have much experience with customer service, but working at a hotel one summer was an interesting experience."
+      ],
+      "explanation": "Засчитывается, если go to school или go to college без артикля, experience «вообще» без a, одно запомнившееся событие — an experience, а конкретные люди или место — с the. Went to university — британский вариант; американец скажет went to college."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "На американском форуме спросили: How is life in your country different from life in the US? Напиши ответ на 100–180 слов. В нём: две мысли о жизни вообще (жильё, еда, работа или транспорт); одна конкретная вещь из твоего города (the … in my city); что-то о школе или колледже; одно пережитое событие (an experience).",
+      "context": "public transportation — общественный транспорт, rent — аренда жилья.",
+      "hint": "План: Life in … is … . Food is … . The … in my city … . I went to college … . It was an … experience.",
+      "answers": [
+        "Life in Russia is different from life in the US in a few ways. Public transportation is cheap and fast, so many people don't need a car. Food is cheaper too, but rent in big cities is very expensive. People usually work long hours and spend weekends with family.\nThe subway in my city, Kazan, is small, but the stations are clean and beautiful. Most kids go to school until they are seventeen, and a lot of them go to college right after that. I went to college in Kazan and studied law. In my second year, I spent a summer working at a hotel in Florida. It was an amazing experience, and the people I met there are still my friends."
+      ],
+      "explanation": "Засчитывается, если есть две мысли «вообще» без артикля (Food is…, Public transportation is…), одна конкретная вещь с the и уточнением, go to school или go to college без артикля и одно событие — an experience."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Американский друг спрашивает: Would you rather live in a big city or a small town? Ответь вслух за 1–2 минуты. В ответе: две мысли о жизни вообще (Life in…, People in…); место, где ты живёшь сейчас, и что в нём хорошо или плохо (the…); как там ходят в школу или на работу; одна фраза с the news или the internet; твой выбор и почему.",
+      "context": "",
+      "hint": "Начни так: Life in a big city is … , but people in small towns …",
+      "answers": [
+        "Life in a big city is exciting, but it's also stressful. People in small towns usually know their neighbors and have more free time. Right now I live in Moscow. The subway here is great, but the rent is crazy. In a small town, kids can walk to school, and you don't spend an hour getting to work. On the other hand, if you get sick, the hospital might be far away. I saw on the news that a lot of young people are moving to small towns because they can work online. Still, I'd rather live in a big city, at least for now, because I love museums and concerts."
+      ],
+      "explanation": "Засчитывается, если мысли «вообще» идут без артикля, конкретные места и вещи — с the, go to school и go to work — без артикля, the news или the internet — с the и есть твой выбор с причиной."
+    }
+  ]
+}

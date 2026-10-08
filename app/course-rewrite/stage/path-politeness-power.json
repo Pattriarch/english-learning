@@ -1,0 +1,297 @@
+{
+  "id": "path-politeness-power",
+  "title": "Could you…? от друга и от начальника: вежливость, право просить и честный выбор",
+  "subtitle": "Размер просьбы → кто кому может поручать → есть ли выбор → обязательное честно → срочное прямо → критика и отказ",
+  "level": "C2",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Подбирать тон по тому, насколько велика просьба, кто кому может поручать и может ли человек отказаться: «It's about three hours, and it's completely fine to say no», «This one isn't optional, but we can talk about the timing», «Please don't use the east stairs — a step is broken», «I can't take over the whole deck, but I can review three slides by 3 p.m.».",
+  "formula": "Size + reason + a real way out · Which should I do first? · This is required, but … is open · Please + action + reason (urgent) · The work, not the person: This section doesn't … · No + one alternative you will deliver",
+  "keyRule": {
+    "rule": "Вежливое слово не меняет сути. Если отказаться нельзя, не делай вид, что можно.",
+    "example": "This one isn't optional, but we can talk about the timing. — Это обязательно, но сроки можно обсудить.",
+    "check": "Ты пишешь подчинённому «No pressure!». А он правда может отказаться?"
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "path-polite-questions",
+    "path-register-b2",
+    "path-modal-remoteness"
+  ],
+  "recycles": [
+    "path-polite-questions",
+    "path-register-b2"
+  ],
+  "teaches": [
+    "три вопроса для тона: насколько большая просьба, кто кому может поручать, насколько вы близки; четвёртый — может ли человек отказаться",
+    "вежливость — честность о нужде, цене и выборе, а не число could / please / maybe",
+    "большая просьба к тому, кто может отказаться: размер (It's about three hours), причина, настоящий выход (If you can't, that's completely fine — I'll ask…); I know this is a lot to ask, I hate to ask, but…",
+    "просьба начальнику — попросить решения: Which should I do first, … or …?",
+    "ложный выбор: No pressure / Totally optional, когда отказаться нельзя, — ловушка; честно: This one isn't optional, I'm afraid, but…; take something off someone's plate — снять часть дел",
+    "срочность и опасность — прямо: Please + действие + причина + что делать вместо",
+    "критика — о работе, а не о человеке, и так, чтобы проблема осталась видна: что не так → почему важно → что сделать к сроку",
+    "отказ: признание → ясное «нет» → одна альтернатива с временем и объёмом; без Maybe I can look at something",
+    "слова: required, optional, day off, take over, swamped, drowning (в делах), audit, freelance, contract"
+  ],
+  "sources": [
+    {
+      "title": "Stephan, Liberman, Trope · Politeness and Psychological Distance (Journal of Personality and Social Psychology, 2010, PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3193988/",
+      "notes": "Сверено изложение модели Брауна и Левинсона: вежливость растёт с властью адресата над говорящим, с размером просьбы и с социальной дистанцией; исследования (Holtgraves & Yang, Ambady et al.) это подтверждают. Отсюда три вопроса для выбора тона; честный выбор (четвёртый вопрос) — практическое правило урока."
+    },
+    {
+      "title": "Victoria University of Wellington · Language in the Workplace: Directives",
+      "url": "https://www.wgtn.ac.nz/lals/centres-and-institutes/language-in-the-workplace/research/directives",
+      "notes": "Сверено: с подчинёнными говорят прямее, чем с равными; срочность делает прямоту приемлемой; когда задача трудная или просьба чрезмерная, говорят косвеннее; смягчают через we, hedges и модальные слова. Отсюда разделы о срочности и о большой просьбе."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Мягко — не всегда честно",
+    "why": "Первые две фразы звучат вежливо, но мешают человеку понять, что от него нужно. Третья прямо называет обязанность и всё равно заботится о человеке.",
+    "items": [
+      {
+        "label": "Ложный выбор",
+        "en": "Totally optional, but everyone should be there.",
+        "ru": "Совсем не обязательно, но быть должны все.",
+        "note": "Противоречие: непонятно, можно ли отказаться."
+      },
+      {
+        "label": "Спрятанная срочность",
+        "en": "If it's not too much trouble, maybe avoid the stairs?",
+        "ru": "Если не трудно, может, не ходить по лестнице?",
+        "note": "При опасности мягкость мешает понять, что делать."
+      },
+      {
+        "label": "Честно и бережно",
+        "en": "Saturday is required; I'll give you Monday off instead.",
+        "ru": "Суббота обязательна; взамен дам выходной в понедельник.",
+        "note": "Обязанность названа прямо, забота — в том, что взамен."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Одна фраза — три разные просьбы",
+      "body": "Пятница, три часа дня. Три человека пишут тебе одно и то же: Could you send me the figures today? Друг из любопытства — можно ответить «давай в понедельник». Коллега из соседнего отдела — скорее всего, стоит помочь, но можно договориться. Начальница перед отчётом клиенту — это уже поручение. Слова те же, а свобода сказать «нет» разная. По-русски так же: «Не мог бы ты…» от начальника — просьба только по форме.\n\nТон выбирают по трём вопросам. Насколько большая просьба: минута или все выходные? Кто кому может поручать: руководитель, коллега, клиент? Насколько вы близки? И четвёртый вопрос, главный в этом уроке: может ли человек на самом деле отказаться?\n\nВежливость — это не число слов could, please и maybe. Это честность о трёх вещах: что нужно, сколько это стоит человеку и есть ли у него выбор. Длинная мягкая фраза бывает невежливой, если прячет срочность или обязанность. Короткая прямая бывает заботливой, если всё ясно.\n\nФормы ты знаешь: Could you…? Would you mind…? I was wondering if you could… — из уроков B1, один факт с разным тоном — из урока B2. Здесь новое — выбор не формы, а честности."
+    },
+    {
+      "title": "Большая просьба: размер, причина и настоящий выход",
+      "body": "Если просьба большая, а человек может отказаться, назови три вещи. Размер: It's about three hours of work. Причина: The client moved the deadline to Monday. Настоящий выход: If you can't, that's completely fine — I'll ask Dana. Последняя фраза работает, только если отказ правда ничего не испортит.\n\nАмериканцы часто признают размер просьбы прямо: I know this is a lot to ask. I hate to ask, but… Это не самоунижение, а честная оценка.\n\nПросьба начальнику устроена иначе. Его просят не «простить, если не успею», а решить: Which should I do first, the report or the client call? Так проблема видна, а решение остаётся у того, у кого на него есть право.\n\nПредел: не раздувай маленькую просьбу. I'm so sorry to bother you, I know you're incredibly busy, but could you possibly… — ради одной ссылки это звучит неуверенно или странно."
+    },
+    {
+      "title": "Ложный выбор: когда вежливость обманывает",
+      "body": "Самая неприятная ошибка — обещать выбор, которого нет. Totally optional, but I'd love to see everyone on Saturday. No pressure! Если неявка потом повредит человеку, это не мягкость, а ловушка: он не поймёт, можно ли отказаться, и узнает слишком поздно.\n\nЧестнее разделить, что обязательно, а что можно обсудить. This one isn't optional, I'm afraid, but we can talk about the timing. The deadline is fixed — what can I take off your plate? Take something off someone's plate — «снять с человека часть дел». No pressure, No worries if not, Totally fine if you can't — только когда отказ правда возможен.\n\nОбратный сбой — спрятать срочность. Если ступенька сломана, Could you maybe think about not using the east stairs? хуже, чем Please don't use the east stairs today — a step is broken. При опасности и жёстком сроке прямота и есть уважение: человек сразу понимает, что делать."
+    },
+    {
+      "title": "Критика и отказ: ясно о деле, бережно к человеку",
+      "body": "Критикуй работу, а не человека: This section doesn't say where the numbers come from, а не You're careless. Но не смягчай так, что проблема исчезает: Just a tiny thought, maybe the numbers could be looked at? Человек не поймёт, что делать. Хорошее замечание называет, что не так, почему это важно и что сделать к какому сроку.\n\nОтказ строится так же: признание → ясное «нет» → одна альтернатива, которую ты точно выполнишь. I can't take over the whole presentation, but I can review three slides by 3 p.m. Плохо: Maybe I can look at something — человек будет рассчитывать на помощь, которой не будет. Причину называть не обязательно; если называешь, то одну и правдивую.\n\nОтвет начальнику — тоже не всегда простое «да». Можно согласовать объём: I can do the summary today; the full analysis will take until Wednesday."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Could you send me the figures today? I need them for the 4 p.m. client call.",
+      "ru": "Не мог бы ты прислать цифры сегодня? Они нужны мне для звонка клиенту в 16:00.",
+      "why": "Причина и время объясняют, почему «сегодня», без лишних извинений."
+    },
+    {
+      "en": "I know this is a lot to ask. It's about three hours, and it's completely fine to say no.",
+      "ru": "Понимаю, что прошу о многом. Это примерно три часа, и отказаться — совершенно нормально.",
+      "why": "Размер назван, а выход настоящий — так просят того, кто может отказаться."
+    },
+    {
+      "en": "This one isn't optional, I'm afraid, but we can talk about the timing.",
+      "ru": "Боюсь, это обязательно, но о сроках можно договориться.",
+      "why": "Обязанность названа прямо; мягкость перенесена туда, где выбор правда есть."
+    },
+    {
+      "en": "Please leave the building now and use the north exit.",
+      "ru": "Пожалуйста, выйдите из здания сейчас через северный выход.",
+      "why": "При опасности прямая просьба с please — и есть вежливость."
+    },
+    {
+      "en": "This section doesn't say where the numbers come from. Could you add the source by Thursday?",
+      "ru": "В этом разделе не сказано, откуда цифры. Можешь добавить источник к четвергу?",
+      "why": "Замечание о работе, а не о человеке, и понятно, что сделать."
+    },
+    {
+      "en": "I can't take over the whole presentation, but I can review three slides by 3 p.m.",
+      "ru": "Взять всю презентацию я не могу, но могу посмотреть три слайда до 15:00.",
+      "why": "Ясное «нет» и одна помощь с объёмом и сроком."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты просишь о помощи коллегу из соседнего отдела, с которым мало знаком. На самом деле это три часа работы на выходных, и отказаться он вполне может. Твой черновик: \"Hey, could you quickly do the slides for Monday?\" Перепиши просьбу (2–3 предложения): размер, причина и настоящий выход.",
+      "context": "slides — слайды; the client moved the deadline — клиент перенёс срок.",
+      "guidance": {
+        "title": "Назови размер просьбы",
+        "body": "Quickly прячет размер: человек согласится на пять минут, а получит три часа. Скажи, сколько это займёт и зачем, и дай выход, который правда ничего не испортит.",
+        "example": "Could you cover my Thursday shift? It's eight hours, and it's because my daughter has surgery. If you can't, no problem — I'll ask Sam.",
+        "translation": "Не мог бы ты подменить меня в четверг? Это восемь часов, и дело в том, что у дочери операция. Если не сможешь, ничего страшного — спрошу Сэма."
+      },
+      "hint": "Начни так: I know this is a lot to ask. It's about three hours…",
+      "answers": [
+        "I know this is a lot to ask. Could you help me with the slides for Monday? It's about three hours of work this weekend, because the client moved the deadline. If you can't, that's completely fine — I'll ask someone else.",
+        "I hate to ask, but would you be able to help with the slides for Monday? It would take about three hours on the weekend, since the client moved the deadline up. No worries if you can't — I'll find another way."
+      ],
+      "explanation": "Засчитывается, если названы размер (about three hours, on the weekend), причина и выход, который не наказывает за отказ. Could you, would you be able to, I hate to ask — все подходят; quickly убрано."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Напиши начальнице по-английски: «У меня к пятнице две срочные задачи: отчёт для клиента и подготовка к аудиту. Обе хорошо я не успею. Подскажите, пожалуйста, какую сделать первой?»",
+      "context": "audit — проверка, аудит; prep — подготовка; client report — отчёт для клиента.",
+      "guidance": {
+        "title": "Вспоминаем: вежливый вопрос — и решение за начальником",
+        "body": "Вспоминаем урок о вежливых вопросах: после Could you tell me… порядок как в утверждении, без do. Новое: начальника просишь не простить, а решить, что важнее. Это его право, и так проблема видна заранее.",
+        "example": "I can't finish both the budget and the newsletter by Monday. Could you tell me which one matters more?",
+        "translation": "Я не успею к понедельнику и бюджет, и рассылку. Подскажете, что важнее?"
+      },
+      "hint": "Последняя фраза: Could you tell me which one… — какой порядок слов после which one?",
+      "answers": [
+        "I have two urgent tasks due Friday: the client report and the audit prep. I can't do both well. Could you tell me which one I should do first?",
+        "I have two urgent tasks due by Friday: the report for the client and the audit prep. I won't be able to do both well. Could you tell me which one to do first?",
+        "I've got two urgent tasks due Friday, the client report and the audit preparation, and I can't do both well. Could you let me know which one I should prioritize?"
+      ],
+      "explanation": "Главное — честное «обе хорошо не успею» и вопрос о приоритете с порядком утверждения: which one I should do first, а не which one should I do first. Which one to do first и prioritize тоже верны."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты руководитель. На самом деле субботнее обучение обязательно для всех, кто работает с новой системой, а взамен ты даёшь выходной в понедельник. Твой черновик: \"Totally optional, but I'd love to see everyone at the Saturday training! No pressure!\" Перепиши честно (2–3 предложения).",
+      "context": "required — обязательный; day off — выходной.",
+      "guidance": {
+        "title": "Что обязательно, а что обсуждается",
+        "body": "Если отказаться нельзя, скажи это прямо и не прячь за No pressure. Мягкость перенеси туда, где выбор правда есть: время, замена, помощь.",
+        "example": "The safety course is required for everyone on the night shift, but you can pick Tuesday or Thursday.",
+        "translation": "Курс по безопасности обязателен для всех в ночной смене, но день — вторник или четверг — выбираешь ты."
+      },
+      "hint": "Начни так: Saturday's training is required for…",
+      "answers": [
+        "Saturday's training is required for everyone who works with the new system. I know it's a weekend, so you'll get Monday off instead. If Saturday is a real problem for you, let me know this week and we'll figure something out.",
+        "The Saturday training isn't optional, I'm afraid: everyone who uses the new system needs to be there. In return, you'll have next Monday off."
+      ],
+      "explanation": "Засчитывается, если сказано required или isn't optional, убраны totally optional и no pressure, а забота выражена честно: выходной взамен или путь для настоящей трудности."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "На восточной лестнице сломана ступенька, можно упасть. Сотрудник написал всему офису: \"Hi all, if it's not too much trouble, could you maybe think about not using the east stairs today? Thanks so much!\" Перепиши сообщение (1–3 предложения).",
+      "context": "a step is broken — сломана ступенька; elevator — лифт.",
+      "guidance": {
+        "title": "При опасности — прямо",
+        "body": "Когда есть риск, вежливость — это ясность: что не делать, почему и что делать вместо этого. Please и короткая причина звучат уважительно и без maybe.",
+        "example": "Please don't park in the north lot today — they're repaving it. You can use the street instead.",
+        "translation": "Пожалуйста, не паркуйтесь сегодня на северной стоянке — там перекладывают асфальт. Можно встать на улице."
+      },
+      "hint": "Сначала действие: Please don't use… Потом причина и что делать вместо.",
+      "answers": [
+        "Please don't use the east stairs today — a step is broken. Use the west stairs or the elevator instead.",
+        "Heads-up: the east stairs are closed today because a step is broken. Please take the west stairs or the elevator."
+      ],
+      "explanation": "Засчитывается, если есть прямое действие (please don't use / the stairs are closed), причина и замена. If it's not too much trouble, maybe и think about убраны: при опасности они мешают понять, что делать."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты проверяешь отчёт младшего коллеги: в разделе 3 не указан источник цифр, а клиент о нём точно спросит. Два черновика замечания: \"You're so careless with numbers.\" и \"Just a tiny thought, maybe the numbers could possibly be looked at sometime?\" Напиши одно замечание (2–3 предложения), которое лучше обоих.",
+      "context": "source — источник; section — раздел.",
+      "guidance": {
+        "title": "О деле — ясно, о человеке — бережно",
+        "body": "Первый черновик бьёт по человеку, второй прячет проблему. Назови, что именно не так, почему это важно и что сделать к какому сроку.",
+        "example": "The chart on page 2 doesn't show the units. Readers won't know if it's dollars or hours — could you add them by Wednesday?",
+        "translation": "На графике на странице 2 не указаны единицы. Читатели не поймут, доллары это или часы, — можешь добавить их к среде?"
+      },
+      "hint": "Проверь: понятно ли из твоего замечания, что исправить и к какому сроку?",
+      "answers": [
+        "Section 3 doesn't say where the numbers come from, and the client will definitely ask. Could you add the source before you send it?",
+        "The figures in Section 3 need a source — the client is sure to ask about them. Could you add it by Thursday? The rest of the section reads well."
+      ],
+      "explanation": "Засчитывается, если замечание называет конкретную проблему (нет источника в разделе 3), причину (клиент спросит) и действие со сроком, без оценки человека и без tiny thought, maybe, possibly."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Одна и та же просьба — проверить твой текст до пятницы, 15 мая — двум людям. Ана — близкая коллега: она делает это по дружбе и может отказаться. Mr. Lee — внештатный редактор: проверка входит в его договор. Напиши два коротких сообщения, по 1–2 предложения.",
+      "context": "freelance editor — внештатный редактор; contract — договор; swamped — завален делами.",
+      "guidance": {
+        "title": "Вспоминаем: тон меняется, факты — нет",
+        "body": "Вспоминаем урок о регистре: приветствие и слова меняются, а срок и просьба — нет. Новое здесь: меняется и свобода отказа. Редактор по договору не делает тебе одолжение, а коллега — делает.",
+        "example": "Jen, any chance you could look over my cover letter by Friday? Totally fine if you're swamped. / Dear Ms. Ortiz, please send your comments on the draft by Friday, as agreed.",
+        "translation": "Джен, сможешь посмотреть моё сопроводительное письмо до пятницы? Если завал, ничего страшного. / Уважаемая г-жа Ортис, пожалуйста, пришлите комментарии к черновику до пятницы, как договаривались."
+      },
+      "hint": "Для Аны оставь выход (Totally fine if…), для Mr. Lee — дату и as agreed.",
+      "answers": [
+        "Ana, any chance you could read my article by Friday? Totally fine if you're swamped. / Dear Mr. Lee, please send me your edits on the article by Friday, May 15, as agreed in our contract.",
+        "Hey Ana, would you have time to look over my article before Friday? No worries if not. / Dear Mr. Lee, I'm attaching the article. Please return your edits by Friday, May 15, as we agreed."
+      ],
+      "explanation": "Засчитывается, если срок одинаковый в обоих сообщениях, у Аны есть настоящий выход, а Mr. Lee просьба дана прямо, со ссылкой на договорённость и без «если будет время». Hi Mr. Lee вместо Dear тоже уместно."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет: \"Could you take over my whole presentation for tomorrow? I'm drowning.\" У тебя свой отчёт к завтрашнему дню. Ты можешь только сегодня с 2 до 3 p.m. посмотреть три главных слайда. Откажи так, чтобы сохранить отношения (3–4 предложения).",
+      "context": "take over — взять на себя целиком; I'm drowning — я тону в делах.",
+      "guidance": {
+        "title": "Ясное «нет» и одна реальная помощь",
+        "body": "Сначала признай, что человеку тяжело, потом скажи «нет» без maybe. Предложи только то, что точно сделаешь: время, объём, срок.",
+        "example": "I wish I could run the whole workshop, but I can't this week. I can lead the first 20 minutes on Tuesday, if that helps.",
+        "translation": "Хотел бы провести весь семинар, но на этой неделе не могу. Могу вести первые 20 минут во вторник, если это поможет."
+      },
+      "hint": "Проверь: нет ли в ответе maybe I can look at something? У помощи должны быть время и объём.",
+      "answers": [
+        "That sounds really stressful, and I'm sorry you're buried. I can't take over the whole presentation, though — my own report is due tomorrow. What I can do is review your three most important slides between 2 and 3 p.m. today. If that helps, send them over by 1:30.",
+        "I can see you're swamped, and I'd like to help. I can't take on the whole presentation because I have my report due tomorrow. But I can spend an hour, from 2 to 3 p.m. today, on your three key slides."
+      ],
+      "explanation": "Засчитывается, если есть признание, ясное «нет» (I can't take over / take on the whole…), одна правдивая причина или без неё, и помощь с точным временем и объёмом. Без maybe и без обещаний, которые ты не выполнишь."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты руководишь командой из восьми человек. Клиент перенёс запуск на более ранний срок, понедельник, 18 мая. Напиши команде письмо (200–300 слов). Что должно быть: что случилось; одно обязательное дело — обновить статус задач в трекере до четверга, 5 p.m., — и почему оно обязательно; одна просьба по желанию — двое добровольцев на тестирование в субботу с 10 a.m. до 2 p.m., с выходным взамен; честно, что отказ ничем не грозит; размер каждой просьбы; кому и до когда отвечать; тон, подходящий своей команде.",
+      "context": "tracker — система учёта задач; volunteer — доброволец; launch — запуск.",
+      "hint": "Две части с подписями: Required: … / Voluntary: … В каждой — сколько это займёт.",
+      "answers": [
+        "Subject: Launch moved to Monday: one required task and one request\n\nHi everyone,\n\nThe client has moved the launch up to Monday, May 18, so our schedule is tighter than planned. Here's what I need, and what's up to you.\n\nRequired: please update the status of each of your tasks in the tracker by Thursday at 5 p.m. It should take about 15 minutes. I need a complete picture to tell the client what will be ready, so this one isn't optional. If something is blocking you, write that in the tracker instead of leaving it blank.\n\nVoluntary: I'm looking for two people to help test the new checkout on Saturday from 10 a.m. to 2 p.m. It's four hours, and you'd get a full day off next week in return. This is genuinely optional. Saying no won't affect anything, and I won't ask anyone individually. If nobody's free, I'll test with the client's team instead.\n\nIf you'd like to volunteer, reply to me by Wednesday at noon. If more than two people reply, I'll confirm by the end of the day.\n\nI know this lands on top of a busy week. Thank you for being flexible, and let me know if the Thursday deadline causes a real problem for you.\n\nThanks,\nPriya"
+      ],
+      "explanation": "Засчитывается, если обязательное и добровольное разведены и подписаны, у каждого дела есть размер и срок, обязательное объяснено без No pressure, у добровольного есть настоящий выход и запасной план, а забота выражена делом (выходной взамен, путь для трудностей), а не извинениями."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Начальник предлагает тебе с понедельника вести новый проект. У тебя уже два срока: отчёт для клиента в Чикаго к следующей пятнице и подготовка к аудиту к среде после неё. Ответь ему вслух, 2–3 минуты. Что должно быть: благодарность и интерес; честно, сколько у тебя уже работы; просьба решить, что важнее; два-три варианта, которые ты правда можешь выполнить; чего ты точно не сделаешь; в конце — вопрос, который оставляет решение за ним.",
+      "context": "kickoff meeting — первая встреча по проекту; slip — съехать, сорваться (о сроке).",
+      "hint": "Начни так: Thanks for thinking of me. I'd like to do it, and I want to be honest about where I am…",
+      "answers": [
+        "Thanks for thinking of me for the new project. I'd really like to work on it, and because I don't want to say yes and then do it badly, I want to be honest about where I am.\n\nRight now I have two deadlines. The report for the Chicago client is due next Friday, and the audit prep is due the Wednesday after that. Together, that's most of my week. If I also start leading the new project on Monday, something will slip, and I'd rather we decide what that is now than find out later.\n\nSo could you help me decide on priorities? Here are the options as I see them. One: I lead the new project from Monday, and someone else takes the audit prep. Marcus has done it before. Two: I finish the client report first and start the new project the following Monday. Three: I join the kickoff meeting on Monday, take a smaller role for the first two weeks, and then lead it after that.\n\nWhat I can't do is all three things at full speed at the same time. I don't want to promise that and then let you or the client down.\n\nIf the project really has to start at full speed on Monday, I think option one makes the most sense. But you know the bigger picture, so it's your call. Which would work best for you?"
+      ],
+      "explanation": "Засчитывается, если в записи есть интерес без автоматического «да», точный размер текущей работы, просьба решить приоритет, варианты, которые ты правда выполнишь, ясное «чего не смогу» и вопрос, оставляющий решение начальнику. Проверь по расшифровке: нет ли «I'll try to do everything»."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Твоя коллега Дана, руководитель группы, просит поправить её сообщение команде перед отправкой. Перепиши его (60–120 слов), потом добавь по-английски 1–2 предложения: что ты изменил и почему.\n\n\"Hi team! So sorry to bother everyone again!! If anyone maybe has a little time, it would be kind of amazing if the budget numbers could possibly be in the shared folder at some point? No pressure at all!! (Finance needs them by noon tomorrow or we lose the grant.)\"",
+      "context": "grant — грант, деньги на проект; shared folder — общая папка.",
+      "hint": "Где в черновике спрятаны срок и последствия? С чего должно начинаться сообщение?",
+      "answers": [
+        "Hi team,\n\nFinance needs the budget numbers in the shared folder by noon tomorrow, Wednesday. If we miss that deadline, we lose the grant, so this one is required.\n\nPlease upload your section by 11 a.m. so I have an hour to check everything. If you're stuck or don't have your numbers yet, message me today, and I'll help or find someone who can.\n\nThanks,\nDana\n\nI moved the deadline and the consequence to the start and removed \"no pressure,\" because the task isn't optional. The apologies and \"maybe\" are gone, and the offer of help keeps the message kind."
+      ],
+      "explanation": "Засчитывается, если срок и последствие стоят в начале, обязательность сказана прямо, no pressure, maybe и possibly убраны, а доброта выражена делом — предложением помощи. Своё внутреннее время (11 a.m.) добавлять не обязательно."
+    }
+  ]
+}

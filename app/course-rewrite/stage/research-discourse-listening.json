@@ -1,0 +1,302 @@
+{
+  "id": "research-discourse-listening",
+  "title": "Многоголосный разговор: кто что предложил и что осталось в силе",
+  "subtitle": "Статус каждой идеи → куда показывает that → yeah — ещё не «да» → проверил сам или слышал → итог после звонка → новое сообщение на слух",
+  "level": "C2",
+  "group": "Аудирование и понимание",
+  "units": "Внешний аудит · English File 5 C1/C2 detailed referencing and discussion listening",
+  "minutes": 65,
+  "keyRule": {
+    "rule": "У каждой идеи — хозяин и статус: кто предложил и что с ней стало к концу.",
+    "example": "Maya suggested Friday, then dropped it; Monday is still only proposed. — Майя предложила пятницу, потом сама отказалась; понедельник пока только предложен.",
+    "check": "Кто это сказал — и действует ли это до сих пор?"
+  },
+  "goal": "Понять на слух разговор четырёх человек, которые перебивают друг друга и меняют планы, и честно пересказать его: «Эту идею автор сам снял», «Под that она имела в виду отправку формы, а не дату», «Цену ему назвали весной, он её не проверял», «Дата пока не утверждена».",
+  "formula": "кто → что предложил → что стало: proposed · ruled out · withdrawn · conditional · confirmed · that / what she said / as I was saying → на что показывает · yeah во время чужой речи ≠ согласие · I checked ≠ I was told / apparently",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-lecture-listening",
+    "research-listening-decoding",
+    "research-spoken-grammar",
+    "path-debate-synthesis"
+  ],
+  "recycles": [
+    "research-spoken-grammar",
+    "extended-b2-negotiate"
+  ],
+  "teaches": [
+    "конспект многоголосного разговора: кто → что → что стало, а не все слова подряд",
+    "статус идеи: proposed / suggested → ruled out (отвергли другие) → withdrawn, taken off the table (снял сам автор) → conditional (if…, provided…) → confirmed",
+    "So I'm hearing that… — ведущий подводит, но ещё не решает; Not officially — решения нет",
+    "отсылки назад: that, it, the first option, what Leo said, going back to… — могут показывать на несколько реплик назад или на целое предложение",
+    "перебивание и возврат: Sorry, can I jump in? → So, as I was saying… — мысль не пропала",
+    "yeah, right, mm-hm во время чужой речи — «слушаю», а не «согласен»",
+    "откуда сведения: I checked / I talked to… / it's in the contract ≠ I was told / someone mentioned / apparently / he said",
+    "итог после разговора: подтверждено · предложено или с условием · открыто · кто что делает; с пометкой «со слов»",
+    "слова: forecast, vendor, food truck, permit, change fee, hold off, take off the table, pending"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: The Road Signs of English",
+      "url": "https://learningenglish.voanews.com/a/the-road-signs-of-english/4650241.html",
+      "notes": "Сверено: слова-указатели в речи (now, okay, so, alright, anyway) показывают начало, смену темы и окончание разговора; okay и alright могут и открывать тему, и закрывать её. Отсюда правило: so и okay в начале реплики объявляют итог или переход, но сами по себе решения не означают."
+    },
+    {
+      "title": "Seeds for Change · Consensus Decision Making",
+      "url": "https://www.seedsforchange.org.uk/consensus",
+      "notes": "Сверено: согласие бывает полным, с оговорками, «не мешаю, но не участвую»; молчание и бездействие нельзя считать согласием — нужна явная поддержка; в конце итог говорят прямо и отдельно сообщают, принято ли решение. Отсюда — статусы идей и правило «нет явного да — нет согласия»."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового: четыре голоса и план, который меняется на ходу",
+      "body": "Представь: ты на созвоне команды, которая готовит соседский праздник. Четыре человека за десять минут предлагают, отвергают, уточняют и перебивают друг друга. Тебя просят: «Напиши Розе, что решили, — её не было».\n\nВ лекции говорил один человек и сам расставлял сигналы: «главное», «пример», «отступление». Поправку на ходу (no, wait · sorry · I mean) ты знаешь из урока о живой речи: верна последняя версия. Здесь новое другое: голосов несколько, и каждая идея живёт своей жизнью. Её предлагает один, ограничивает другой, снимает третий.\n\nПоэтому записывать все слова бесполезно. Веди три колонки: кто → что предложил или сообщил → что с этим стало к концу разговора.\n\nПредел: последняя реплика — ещё не решение. Разговор может закончиться без итога, и честный пересказ тогда тоже без итога."
+    },
+    {
+      "title": "Статус идеи: предложено, отвергнуто, снято, с условием, подтверждено",
+      "body": "Proposed / suggested — предложено: What about…?, We could…, Let's look at… Это вариант, а не решение.\n\nRuled out — отвергнуто другими: That rules out…, That won't work for… Withdrawn — снято самим автором: I'll take that off the table — «я снимаю этот вариант». Разница важна: если идею снял автор, спорить о ней больше не с кем.\n\nConditional — с условием: I can support it if…, provided… Условие надо записать вместе с согласием, иначе ты потеряешь половину ответа.\n\nConfirmed — подтверждено: It's booked, They confirmed, It's in writing.\n\nОсобые сигналы ведущего: So I'm hearing that… — «я так понимаю, что…» — это его вывод, а не решение. Not officially, Not until… — решения пока нет. Okay и so в начале реплики объявляют итог или переход к новой теме, но сами ничего не утверждают."
+    },
+    {
+      "title": "Куда показывает that, и что стало с перебитой мыслью",
+      "body": "Слова that, it, the first option, what Leo said показывают назад. Но не обязательно на последнее слово: иногда на реплику три хода назад или на целое предложение. I'd wait on that может значить «пока не бронируй», а не «не бери этот день».\n\nКак проверить: подставь на место that два-три кандидата и спроси, какой смысл получается. Подсказка — что говорящий предлагает делать дальше. Going back to what Leo said about the room — прямой указатель: «возвращаясь к словам Лео о комнате». Ищи ту реплику, где Лео говорил о комнате, даже если она была давно.\n\nПеребили — не значит, что мысль пропала. Человек часто возвращается к ней через две-три реплики: So, as I was saying… — «так вот, как я говорила…», Anyway, back to… Запиши мысль один раз — в том виде, в каком её договорили до конца."
+    },
+    {
+      "title": "Yeah — ещё не «да»; проверил сам или слышал",
+      "body": "Yeah, right, mm-hm, okay посреди чужой речи — это сигналы «я слушаю, продолжай». По-русски это «ага», «угу». Согласие звучит иначе: это ответ на вопрос или предложение, и в нём есть содержание: Monday works for me. Не записывай человеку согласие за одно «ага».\n\nОткуда человек знает? Это меняет статус сведений.\n\nСам проверил: I checked, I talked to the parks office this morning, It's in the contract.\n\nСлышал от других: I was told…, Someone mentioned…, Apparently… — «говорят, вроде бы», He said… Такие сведения записывай с пометкой: Leo was told the room is free on Monday; nobody has checked.\n\nПредел: «со слов» не значит «неправда». Это значит «пока не проверено». Не превращай сведения из вторых рук в факт, но и не выбрасывай их."
+    },
+    {
+      "title": "Итог после разговора",
+      "body": "Разложи всё по четырём строкам. Confirmed — что подтверждено и кем. Proposed or conditional — что предложено и при каком условии. Open — что осталось без ответа, в том числе возражение, на которое никто не ответил. Next steps — кто что обещал сделать, только своими словами говорящего.\n\nУ сведений из вторых рук — пометка: according to…, apparently. У поправленной даты — только последняя версия.\n\nПотом проверь себя: найди одно место, где ты не уверен, послушай его ещё раз без текста и только потом открой расшифровку. Понять с расшифровкой — ещё не понять на слух: повтори задачу позже на новом разговоре."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Maya suggested Friday, then took it off the table herself.",
+      "ru": "Майя предложила пятницу, а потом сама сняла этот вариант.",
+      "why": "Withdrawn: идею снял автор, а не кто-то другой."
+    },
+    {
+      "en": "Monday is the stronger option, but it isn't official yet.",
+      "ru": "Понедельник — более сильный вариант, но официально его ещё не утвердили.",
+      "why": "Предложено ≠ решено."
+    },
+    {
+      "en": "Nina can make Monday if the meeting starts after three.",
+      "ru": "Нина сможет в понедельник, если встреча начнётся после трёх.",
+      "why": "Согласие записано вместе с условием."
+    },
+    {
+      "en": "When Leo said \"let's wait on that,\" he meant booking the room, not the date.",
+      "ru": "Когда Лео сказал «давай с этим подождём», он имел в виду бронь комнаты, а не дату.",
+      "why": "That показывает на действие, а не на ближайшее слово."
+    },
+    {
+      "en": "Tom said \"right, right\" while Maya was talking; he didn't agree to anything.",
+      "ru": "Том говорил «да-да», пока Майя объясняла; ни на что он не соглашался.",
+      "why": "Сигнал «слушаю» — не согласие."
+    },
+    {
+      "en": "Apparently the room is free on Monday, but that's just what Leo heard.",
+      "ru": "Говорят, в понедельник комната свободна, но это только то, что слышал Лео.",
+      "why": "Сведения из вторых рук помечены."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "dialogue",
+      "title": "Созвон: праздник и дождь / Planning call: the Eastside Fall Festival",
+      "source": "Авторский учебный материал; люди, район и цифры вымышлены. Озвучка читает имя перед каждой репликой.",
+      "text": "Kim: Okay, so the forecast for Saturday the twelfth is now heavy rain all day. We have two options. One, we keep the date and move everything into the school gym. Two, we push the whole festival back a week, to the nineteenth.\n\nLuis: Yeah. Yeah.\n\nKim: And I'd like a decision by Thursday, because the vendors need—\n\nSam: Sorry, can I jump in? Before we choose, the gym isn't free. I was told it's $400 for the day.\n\nKim: Who told you that?\n\nSam: Someone at the school office mentioned it last spring. I haven't checked this year's price.\n\nJen: Okay, but the bigger problem with the gym is the food trucks. They can't park inside, obviously, and three of our five vendors are trucks.\n\nLuis: So that rules out the first option, at least for food.\n\nJen: For the trucks, yes. The bakery and the coffee stand could go inside.\n\nKim: Right. Honestly, a festival with no trucks isn't much of a festival. I'll take the gym off the table. So, as I was saying, the vendors need to know by Thursday. Let's look at the nineteenth.\n\nLuis: The nineteenth works for my volunteers. Well, most of them. Sorry, I mean the twentieth — no, no, the nineteenth. Saturday the nineteenth. Most of them can do it.\n\nKim: And the park permit?\n\nLuis: I talked to the parks office this morning. They said the nineteenth is open, but they won't hold it for us without the form.\n\nKim: So it's not booked.\n\nLuis: Not yet. I can send the form today.\n\nJen: I'd hold off on that until we know the band can play on the nineteenth. Going back to what Sam said about money, the band's contract has a fifty-dollar change fee if we move the date.\n\nSam: I didn't build that in. Fifty is fine, though.\n\nKim: Okay. Jen, what about the trucks on the nineteenth?\n\nJen: Two have said yes. The taco truck said maybe. And apparently the ice cream truck has another event that day, but that's just what the driver told Luis, right?\n\nLuis: Right, he mentioned it. Nothing in writing.\n\nKim: So I'm hearing that the nineteenth is the stronger option. Does anyone want to keep the gym on the table?\n\nSam: Not me.\n\nJen: Can I add one thing? I can support the nineteenth if we tell the vendors by tomorrow, not Thursday. They need time.\n\nKim: That's a fair point. Luis, can you send the permit form today, then?\n\nLuis: Yeah, I can do that tonight.\n\nKim: Great. And I'll check with the band before we announce anything.\n\nSam: So are we saying it's the nineteenth?\n\nKim: Not officially. Not until the permit and the band are confirmed."
+    },
+    {
+      "id": "m2",
+      "kind": "listening",
+      "title": "Голосовое сообщение на следующее утро / Kim's voice message — открыть в задании e7",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Hi everyone, it's Kim. Quick update. The band can play on the nineteenth. I talked to their manager last night, and the fifty-dollar fee is confirmed. Luis sent the permit form, but the parks office hasn't approved it yet. They said it usually takes two business days. Jen, I know you wanted the vendors to hear by today, so please go ahead and tell them the nineteenth is our plan, pending the permit. Please don't call it final yet. And the ice cream truck — sorry, I mean the taco truck — has confirmed it can come. The ice cream truck still hasn't answered us directly. I'll send the official announcement as soon as the permit comes through."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Первое прослушивание. Прослушай M1 один раз, расшифровку не открывай. Напиши Розе, которой не было, два предложения: какое решение обсуждали, какие были варианты и приняли ли решение к концу.",
+      "context": "forecast — прогноз погоды; push back — перенести на более поздний срок; vendors — продавцы на празднике.",
+      "guidance": {
+        "title": "Первый проход: о чём решают и чем кончилось",
+        "body": "С первого раза не лови детали. Услышь вопрос, который решают, варианты и последнюю реплику: прозвучало ли что-то вроде It's confirmed — или Not officially.",
+        "example": "The team was deciding where to hold the party, at the office or at a restaurant, and they ended the call without a final choice.",
+        "translation": "Команда решала, где устроить праздник — в офисе или в ресторане, — и закончила звонок без окончательного выбора."
+      },
+      "hint": "Начни так: Because of the rain forecast, they were deciding whether…",
+      "answers": [
+        "Because of the rain forecast for the twelfth, they were deciding whether to move the festival into the school gym or push it back a week to the nineteenth. The nineteenth looked like the stronger option by the end, but nothing was official yet.",
+        "They discussed two options because of the rain: the school gym on the twelfth or the park a week later, on the nineteenth. They leaned toward the nineteenth, but it wasn't confirmed."
+      ],
+      "explanation": "Засчитывается, если названы оба варианта (спортзал в ту же дату и перенос на 19-е) и сказано, что решение не окончательное. «Они перенесли праздник на 19-е» — неверно: Ким прямо говорит Not officially.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прослушай M1 ещё раз, текст закрыт. Что стало с каждым вариантом — спортзалом и 19-м числом? По одному-два предложения: кто предложил, что с ним случилось и кто это сделал.",
+      "context": "rule out — исключить; take off the table — снять вариант с обсуждения.",
+      "guidance": {
+        "title": "Статус: отвергли другие или снял сам автор",
+        "body": "Отдели «вариант отвергли другие» (ruled out) от «автор сам его снял» (withdrawn). Для живого варианта проверь, есть ли условие и прозвучало ли подтверждение.",
+        "example": "Leo ruled out Friday because the room was booked, and Maya then withdrew it herself; Monday is still only proposed.",
+        "translation": "Лео исключил пятницу, потому что комната занята, и Майя потом сама сняла этот вариант; понедельник пока только предложен."
+      },
+      "hint": "Кто первым сказал про спортзал? И кто сказал I'll take the gym off the table?",
+      "answers": [
+        "Kim suggested the gym, Jen pointed out that the food trucks can't park inside, and Kim then took the gym off the table herself. The nineteenth is now the main proposal: Jen supports it if the vendors hear by tomorrow, but it isn't confirmed until the permit and the band are.",
+        "The gym was Kim's first option; after Jen raised the problem with the trucks, Kim withdrew it. The nineteenth is still only proposed, with Jen's condition and two things to confirm: the permit and the band."
+      ],
+      "explanation": "Засчитывается, если спортзал предложила и сама сняла Ким, а Джен только назвала препятствие; у 19-го есть условие Джен и два неподтверждённых пункта. «Луис отверг спортзал» — неточно: он сказал, что это исключает вариант для еды, а снимает его Ким.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Послушай ещё раз кусок от «So, as I was saying» до «Fifty is fine, though». На что показывают три выражения: (1) Ким: as I was saying; (2) Джен: I'd hold off on that; (3) Джен: what Sam said about money? Ответь тремя предложениями.",
+      "context": "hold off — подождать, повременить; change fee — плата за перенос.",
+      "guidance": {
+        "title": "Слова, которые показывают назад",
+        "body": "Подставь вместо that два-три кандидата и посмотри, что человек предлагает делать дальше. As I was saying и going back to… ведут к реплике, которую перебили или оставили несколько ходов назад.",
+        "example": "When Tom said \"that won't work,\" he meant the idea of meeting online, not the new date.",
+        "translation": "Когда Том сказал «это не сработает», он имел в виду идею встретиться онлайн, а не новую дату."
+      },
+      "hint": "Что Ким начала говорить, когда её перебил Сэм? Что Луис предложил сделать прямо перед словами Джен?",
+      "answers": [
+        "With \"as I was saying,\" Kim goes back to the point Sam interrupted: the vendors need to know by Thursday. When Jen says \"I'd hold off on that,\" she means Luis sending the permit form today; she wants to wait until they know the band can play. \"What Sam said about money\" points back to his comment that the gym costs $400, and Jen adds another cost: the band's fifty-dollar change fee.",
+        "Kim's \"as I was saying\" returns to her interrupted sentence about telling the vendors by Thursday. Jen's \"that\" is Luis's offer to send the permit form today. And \"what Sam said about money\" refers to Sam's warning about the $400 gym fee, several turns earlier."
+      ],
+      "explanation": "Засчитывается, если as I was saying связано с прерванной фразой о поставщиках, that — с отправкой формы на разрешение (а не с датой), а «слова Сэма о деньгах» — с ценой спортзала за несколько реплик до этого.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега записал: Luis agreed to the gym right at the start — he said \"yeah\" twice. Исправь запись по M1 в одно-два предложения: что на самом деле значило его yeah и с чем Луис действительно согласился позже.",
+      "context": "",
+      "guidance": {
+        "title": "Yeah во время чужой речи — «слушаю», а не «согласен»",
+        "body": "Короткое yeah, right, mm-hm, пока другой объясняет, значит «продолжай». Согласие — это ответ на вопрос или предложение, и в нём есть содержание: что именно подходит.",
+        "example": "Nina said \"right, right\" while Leo was explaining the plan, but she agreed only to the Monday part.",
+        "translation": "Нина говорила «да-да», пока Лео объяснял план, но согласилась только с частью про понедельник."
+      },
+      "hint": "Когда Луис сказал «yeah» — Ким уже задала вопрос или ещё перечисляла варианты?",
+      "answers": [
+        "Luis's \"yeah, yeah\" came while Kim was still listing the options, so it only meant he was listening. Later he said the nineteenth works for most of his volunteers and agreed to send the permit form tonight.",
+        "Luis didn't agree to the gym; his \"yeah\" was just a listening signal while Kim explained the two options. What he actually agreed to was sending the permit form, and he said most volunteers can do the nineteenth."
+      ],
+      "explanation": "Засчитывается, если yeah назван сигналом «слушаю», сказанным посреди перечисления вариантов, и указано настоящее согласие Луиса: 19-е подходит большинству волонтёров и он отправит форму вечером.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Для заметок к звонку переведи: «Цену спортзала — 400 долларов — Сэму кто-то назвал прошлой весной, нынешнюю он не проверял. Про то, что у фургона с мороженым другое мероприятие, водитель сказал Луису; письменно ничего нет. А плата 50 долларов за перенос указана в договоре с группой».",
+      "context": "ice cream truck — фургон с мороженым; in writing — письменно; contract — договор.",
+      "guidance": {
+        "title": "Проверил сам или слышал от других",
+        "body": "I was told, someone mentioned, apparently, he said — сведения из вторых рук. It's in the contract, I checked — проверено. В заметках у первых должна стоять пометка.",
+        "example": "Nina was told the caterer charges $200 for delivery; the $50 deposit, though, is on the invoice.",
+        "translation": "Нине сказали, что кейтеринг берёт $200 за доставку; а вот залог $50 указан в счёте."
+      },
+      "hint": "Начни так: Someone told Sam last spring that…",
+      "answers": [
+        "Someone told Sam last spring that the gym costs $400; he hasn't checked this year's price. The driver told Luis that the ice cream truck has another event that day; there's nothing in writing. The fifty-dollar change fee is in the band's contract.",
+        "Sam was told last spring that the gym costs $400, but he hasn't checked the current price. The idea that the ice cream truck has another event comes from what the driver told Luis, and nothing is in writing. The band's contract includes a $50 change fee."
+      ],
+      "explanation": "Два первых сведения — из вторых рук (was told, the driver told Luis), третье — из документа. Пассив Sam was told и актив Someone told Sam одинаково верны; $50 и fifty-dollar — оба варианта.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега прислал итог звонка: Everyone agreed to move the festival to Sunday the twentieth. The permit is booked, the gym costs $400, and all five vendors are coming. Перепиши его в два-три предложения по M1.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: верна последняя поправка, молчание — не согласие",
+        "body": "Из урока о живой речи: после I mean… no, no… считается последняя версия. Из урока о переговорах: итог делится на proposed, confirmed и still to check, а «все согласны» пишут, только если все сказали «да».",
+        "example": "The team is leaning toward Tuesday the 8th, not the 9th. The room hasn't been booked, and two people haven't answered.",
+        "translation": "Команда склоняется ко вторнику, 8-му, а не к 9-му. Комнату не забронировали, и двое не ответили."
+      },
+      "hint": "Найди четыре ошибки: дата, permit, цена спортзала, пять поставщиков. И есть ли «все согласны»?",
+      "answers": [
+        "The group is leaning toward Saturday the nineteenth, but it isn't official. The permit isn't booked yet; Luis will send the form tonight. The $400 gym price is unchecked and no longer matters because Kim dropped the gym, and only two of the five vendors have said yes so far.",
+        "Nothing is final: the nineteenth (a Saturday) is the stronger option, pending the permit and the band. The parks office won't hold the date until it gets the form. Only two trucks have confirmed, the taco truck said maybe, and the ice cream truck may have another event."
+      ],
+      "explanation": "Засчитывается, если исправлены дата (суббота, 19-е — Луис сам поправился), статус разрешения (не забронировано), цена спортзала (непроверенные сведения, а вариант снят) и число поставщиков, и нет «все согласны».",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Утро после звонка. Прослушай M2 — голосовое сообщение Ким, расшифровку не открывай. Потом напиши Розе, председателю совета района, которой не было на звонке, письмо на 200–300 слов. Что должно быть: какой вопрос решали и почему; что стало с каждым вариантом; что теперь подтверждено и кем; что предложено или с условием; что ещё открыто (включая то, на что никто не ответил); кто что делает дальше; какие сведения — со слов других. Не называй дату окончательной, если её не утвердили.",
+      "context": "pending — до получения, пока ждём; business days — рабочие дни.",
+      "hint": "План: Why we met → The gym → The nineteenth → Confirmed → Still open → Next steps. Помни, что Ким в M2 снова поправляется на ходу.",
+      "answers": [
+        "Subject: Fall Festival: where things stand\n\nHi Rosa,\n\nHere's an update on the festival, since you missed yesterday's call.\n\nThe forecast for Saturday, October 12, is heavy rain all day, so we discussed two options: moving into the school gym on the same date or pushing the festival back a week to Saturday, October 19.\n\nThe gym is off the table. Kim suggested it, but three of our five vendors are food trucks and can't park inside, so Kim withdrew it herself. Sam had heard that the gym costs $400, but that price was never checked.\n\nThe nineteenth is now our plan, but it isn't final. Here's what has been confirmed since the call: the band can play that day, and Kim confirmed the $50 change fee with their manager. Luis sent the park permit form last night, but the parks office hasn't approved it yet; it usually takes two business days. Most of Luis's volunteers can work that day.\n\nVendors: two trucks said yes during the call, and Kim says the taco truck has now confirmed too. The ice cream truck may have another event, but we only know that from what its driver told Luis; it hasn't answered us directly.\n\nNext steps: Jen is telling the vendors today that the nineteenth is the plan, pending the permit, which meets her condition that they hear early. Kim will send the official announcement once the permit comes through.\n\nStill open: the permit itself and the ice cream truck.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если сведения из M2 верны: группа и плата $50 подтверждены, форма отправлена, но не одобрена, подтвердил участие тако-фургон (Ким поправилась), фургон с мороженым не ответил напрямую. Спортзал снят самой Ким, цена $400 и сведения о мороженом помечены как «со слов», а 19-е не названо окончательной датой.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Через два дня новый созвон, и Ким просит тебя начать: You've got the notes. Can you remind us where we are? Скажи вслух 2–3 минуты, не глядя в расшифровки M1 и M2. Что должно быть: что решали и почему; что сняли и кто; что подтверждено и чьими словами; что предложено с условием; что открыто; два вопроса к конкретным людям, чтобы закрыть открытое.",
+      "context": "",
+      "hint": "Опора: Here's where we are… → The gym is off the table… → Confirmed so far… → Still pending… → Two questions: Luis, … ? Jen, … ?",
+      "answers": [
+        "Sure. Here's where we are. Because of the rain forecast for the twelfth, we looked at two options: the school gym on the same day, or the park a week later, on Saturday the nineteenth.\n\nThe gym is off the table. Kim suggested it, but Jen pointed out that our three food trucks can't park inside, so Kim withdrew it herself.\n\nSo the nineteenth is our plan, but it isn't official yet. What's confirmed: the band can play that day, and Kim checked the fifty-dollar change fee with their manager. Most of Luis's volunteers can make it. On vendors, two trucks said yes on the call, and the taco truck has confirmed since then.\n\nWhat's still pending: the park permit. Luis sent the form, and the parks office said approval usually takes two business days. And the ice cream truck: we heard from its driver, through Luis, that it has another event, but it hasn't told us directly.\n\nJen told the vendors that the nineteenth is the plan, pending the permit, so her condition about telling them early has been met.\n\nSo two questions. Luis, have you heard anything from the parks office? And Jen, has anyone reached the ice cream truck directly, or should we plan on four vendors?"
+      ],
+      "explanation": "Засчитывается по расшифровке, если у каждого пункта есть хозяин и статус, спортзал снят Ким, 19-е названо планом, а не решением, сведения о мороженом помечены как «со слов», и в конце два конкретных вопроса к людям, которые могут закрыть открытое.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Программа для созвонов сама сделала заметки по M1. Теперь можно открыть расшифровку. Исправь заметки, 120–180 слов, а потом добавь две фразы: какие две ошибки программы связаны с устройством разговора (перебивание, поправка, yeah, отсылка, сведения со слов), а не с отдельными словами. Заметки: \"Decisions: The festival moves to the 20th. Luis supported the gym option. Sam confirmed the gym costs $400. Jen asked Luis to send the permit form today. The ice cream truck is not coming. Vendors will be told on Thursday. Action items: Kim will announce the new date.\"",
+      "context": "action items — кто что делает.",
+      "hint": "Проверь каждую строку вопросом: кто это сказал — и действует ли это до сих пор?",
+      "answers": [
+        "Status: no final decision. The group is leaning toward Saturday the nineteenth, pending the park permit and the band.\n\nThe gym option was Kim's; she withdrew it because the food trucks can't park inside. Sam was told last spring that the gym costs $400 but hasn't checked the current price.\n\nJen suggested waiting to send the permit form until the band is confirmed; Kim asked Luis to send it today anyway, and Jen's concern wasn't discussed further. The band's contract has a $50 change fee.\n\nVendors: two trucks have said yes, the taco truck said maybe, and the ice cream truck may have another event, according to what its driver told Luis.\n\nJen supports the nineteenth only if vendors are told by tomorrow, not Thursday.\n\nNext steps: Luis will send the permit form tonight. Kim will check with the band before any announcement.\n\nTwo errors come from how the talk works: Luis's \"yeah\" was a listening signal, not support for the gym, and the date was a self-correction — Luis said \"the twentieth\" by mistake and corrected it to the nineteenth."
+      ],
+      "explanation": "Засчитывается, если исправлены все семь строк: дата (19-е, не решено), «Луис за спортзал» (это «ага»), цена (со слов, не подтверждена), кто просил отправить форму (Ким, а Джен предлагала подождать), фургон с мороженым (со слов водителя), срок для поставщиков (условие Джен — завтра) и объявление (только после разрешения и группы). Две ошибки устройства разговора — любые две из пяти названных.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

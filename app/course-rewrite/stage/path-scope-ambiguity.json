@@ -1,0 +1,331 @@
+{
+  "id": "path-scope-ambiguity",
+  "title": "Only Lisa или only the lease: когда фраза значит две вещи",
+  "subtitle": "Only и even рядом со своим словом → один на всех или у каждого свой → к чему прицепить кусок фразы → not … because → две версии или вопрос автору",
+  "level": "C2",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Заметить, что фраза читается двумя способами, и написать так, чтобы остался один смысл: «Договор подписала только Лиза» — Only Lisa signed the lease; «Он ушёл, но не из-за денег» — He left, but not because of the money.",
+  "formula": "only / even — прямо перед тем, что ограничиваешь → every … a: the same или a different → кусок фразы — рядом со своим словом → not … because: сначала факт, потом «не из-за» → два прочтения → одна ясная версия или вопрос автору",
+  "keyRule": {
+    "rule": "Видишь два смысла — перепиши так, чтобы остался один. Не знаешь, какой нужен, — спроси.",
+    "example": "Lisa signed only the lease. — Лиза подписала только договор аренды.",
+    "check": "Every guest got a gift — один подарок на всех или у каждого свой?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-advanced-negation",
+    "extended-c1-adjective-scope",
+    "path-prosody"
+  ],
+  "recycles": [
+    "path-advanced-negation",
+    "extended-c1-adjective-scope"
+  ],
+  "teaches": [
+    "двусмысленность (ambiguity) — фраза верная, но её можно понять двумя способами; в письме читатель не переспросит",
+    "only, even, just — на письме прямо перед словом, которое ограничиваешь: Only Lisa signed / Lisa signed only the lease",
+    "only перед глаголом в разговоре нормально: смысл даёт ударение; в коротких ясных фразах (I only have five dollars) — не ошибка",
+    "every … a: один на всех — the same, у каждого свой — a different / their own",
+    "кусок фразы с двумя соседями: with binoculars → through binoculars / who had binoculars; время — рядом со своим действием (On Monday, she said… / said that she would… on Monday)",
+    "описание перед двумя словами: new chairs and desks → new chairs and new desks",
+    "not … because: Dan left, but not because of the money ↔ Because of the money, Dan didn't leave",
+    "порядок работы: два прочтения своими словами → ясная версия → если намерение неизвестно, вопрос Did you mean X or Y?",
+    "слова: ambiguity, lease, intern, shadow, mentor, binoculars, guard, flashlight, tax break"
+  ],
+  "sources": [
+    {
+      "title": "Columbia Journalism Review · Language Corner: “only”",
+      "url": "https://www.cjr.org/?p=73861",
+      "notes": "Сверено: only тяготеет к слову, которое ограничивает, и каждое новое место меняет смысл; в речи и при ясном контексте раннее only (перед глаголом) звучит естественно и не путает, а в тексте, где читатель может ошибиться, его ставят перед нужным словом. Отсюда граница «I only have five dollars — не ошибка»."
+    },
+    {
+      "title": "Wikipedia · Syntactic ambiguity",
+      "url": "https://en.wikipedia.org/wiki/Syntactic_ambiguity",
+      "notes": "Сверено: глобальная двусмысленность — фраза сохраняет два прочтения и после конца; примеры с оборотом, который можно отнести к разным словам (who has the telescope). На этом построен раздел о with и о времени в середине фразы; свои примеры придуманы заново."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна фраза — два прочтения — две ясные версии",
+    "why": "Первую фразу честно понимают двумя способами. В двух других каждый смысл записан так, что второго не остаётся.",
+    "items": [
+      {
+        "label": "Неясно",
+        "en": "Every intern will shadow a manager.",
+        "ru": "«Каждый стажёр будет ходить за менеджером»",
+        "note": "Один менеджер на всех или у каждого свой?"
+      },
+      {
+        "label": "Один на всех",
+        "en": "All the interns will shadow the same manager.",
+        "ru": "Все стажёры будут ходить за одним и тем же менеджером.",
+        "note": "The same — один и тот же."
+      },
+      {
+        "label": "У каждого свой",
+        "en": "Each intern will shadow a different manager.",
+        "ru": "У каждого стажёра будет свой менеджер.",
+        "note": "A different — у каждого другой."
+      }
+    ],
+    "focus": [
+      "a manager",
+      "the same",
+      "a different"
+    ],
+    "footnote": "Не знаешь, какой смысл нужен автору, — не выбирай за него. Спроси: Did you mean the same manager or a different one?"
+  },
+  "sections": [
+    {
+      "title": "Одна фраза — две новости",
+      "body": "Представь: менеджер пишет в чат команды: “Every intern will shadow a manager” (shadow — ходить за кем-то и учиться; intern — стажёр). Половина стажёров решила, что все пойдут к одному менеджеру. Другая половина — что у каждого будет свой. Обе группы правы: у самой фразы два смысла.\n\nЭто называют двусмысленностью (ambiguity): слова и грамматика верны, но фразу можно понять двумя способами. В разговоре её снимает ударение или переспрос. В правиле, письме или договоре читатель переспросить не может.\n\nДвусмысленность — не всегда ошибка. В шутке или дипломатии её оставляют нарочно. Но если по фразе человек будет действовать — платить, приходить, подписывать, — смысл должен остаться один.\n\nДва случая ты уже чинил: All… not в уроке об отрицании и запятую между описаниями в уроке о подписях на выставке. Здесь ещё четыре: only и even, every … a, кусок фразы с двумя соседями и not … because."
+    },
+    {
+      "title": "Only и even ставь прямо перед тем, что ограничиваешь",
+      "body": "Only — «только»: из всех вариантов остаётся один. Какой — видно по месту слова. Only Lisa signed the lease — подписала только Лиза, другие люди нет. Lisa signed only the lease — Лиза подписала только договор аренды (lease), другие бумаги нет.\n\nВ разговоре американцы чаще ставят only перед глаголом: Lisa only signed the LEASE. Что ограничено, слышно по ударению. На письме ударения нет, и фраза может значить ещё «только подписала, но не прочитала». Поэтому на письме ставь only прямо перед своим словом.\n\nEven — «даже» — выделяет то, чего не ждали. Правило то же. Even Sam came on time — даже Сэм пришёл вовремя (обычно он опаздывает). Sam even baked a cake — Сэм даже испёк торт. Just в значении «только» ведёт себя так же: Just two people replied.\n\nГде правило кончается: если фраза короткая и смысл ясен, only перед глаголом не ошибка. I only have five dollars никто не поймёт иначе."
+    },
+    {
+      "title": "Every … a: один на всех или у каждого свой",
+      "body": "Every guest got a gift. Один подарок на всех? Почти наверняка нет: у каждого свой. А в Every student read a book оба смысла возможны: одна книга на весь класс или у каждого своя. Every и a вместе дают развилку: a может значить «один общий» или «по одному каждому».\n\nКак убрать развилку. Общий — the same: All the students read the same book. Свой у каждого — a different или their own: Each student read a different book. Every volunteer gets their own locker — у каждого волонтёра свой шкафчик.\n\nЕсли это ещё не решено, так и скажи: We haven't decided yet whether everyone will read the same book. Это честнее, чем фраза, которую каждый поймёт по-своему.\n\nТо же с числами: Three reviewers checked two reports. Каждый проверил два отчёта, или всего отчётов было два? Если важно, скажи прямо: Each of the three reviewers checked the same two reports."
+    },
+    {
+      "title": "Кусок фразы, который можно прицепить к двум словам",
+      "body": "Иногда кусок фразы — with…, on Monday, new — стоит так, что его можно отнести к двум разным словам.\n\nWith. The guard saw the man with binoculars. Бинокль (binoculars) у охранника (guard), он так смотрел? Или у мужчины? Для первого смысла: The guard saw the man through binoculars. Для второго: The guard saw the man who had binoculars.\n\nВремя. Ms. Lopez said on Monday she would send the contract. В понедельник она это сказала — или пришлёт в понедельник? Поставь время рядом с его действием: On Monday, Ms. Lopez said she would send the contract. Или: Ms. Lopez said that she would send the contract on Monday.\n\nОписание перед двумя словами. We ordered new chairs and desks. Столы тоже новые? Если да — new chairs and new desks. Если нет — desks and new chairs: описание стоит только перед своим словом."
+    },
+    {
+      "title": "Not … because: «не ушёл из-за денег» или «ушёл, но не из-за денег»",
+      "body": "Dan didn't leave the company because of the money. Смысла два. Первый: Дэн не ушёл, и причина — деньги (ему хорошо платят). Второй: Дэн ушёл, но не из-за денег. В разговоре второй смысл выдаёт мелодия «но…» на конце, как в уроке об ударении. На письме фразу надо переписать.\n\nПервый смысл: Dan stayed because of the money. Или: Because of the money, Dan didn't leave. Второй: Dan left, but not because of the money. Или: Dan left, but the money wasn't the reason. Сначала назови факт без not, потом отрицай только причину.\n\nКак работать с любой подозрительной фразой. Первое: запиши оба прочтения своими словами. Второе: если знаешь, какое нужно, перепиши фразу так, чтобы другого не осталось. Третье: если не знаешь — не выбирай за автора. Спроси: Did you mean X or Y?"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Only Lisa signed the lease.",
+      "ru": "Договор аренды подписала только Лиза.",
+      "why": "Only перед Лизой: другие люди не подписывали."
+    },
+    {
+      "en": "Lisa signed only the lease.",
+      "ru": "Лиза подписала только договор аренды.",
+      "why": "Only перед lease: другие бумаги она не подписывала."
+    },
+    {
+      "en": "Even Sam came on time.",
+      "ru": "Даже Сэм пришёл вовремя.",
+      "why": "Even перед Сэмом: от него этого не ждали."
+    },
+    {
+      "en": "Every volunteer gets their own locker.",
+      "ru": "У каждого волонтёра свой шкафчик.",
+      "why": "Their own убирает чтение «один шкафчик на всех»."
+    },
+    {
+      "en": "The guard saw the man through binoculars.",
+      "ru": "Охранник увидел мужчину в бинокль.",
+      "why": "Through показывает способ: бинокль у охранника."
+    },
+    {
+      "en": "Dan left, but not because of the money.",
+      "ru": "Дэн ушёл, но не из-за денег.",
+      "why": "Факт назван без not, отрицается только причина."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь агенту по аренде. Переведи: «Договор аренды пока подписала только Лиза, и она подписала только первую страницу».",
+      "context": "lease — договор аренды; page — страница.",
+      "guidance": {
+        "title": "Only — прямо перед своим словом",
+        "body": "Здесь два only. Одно ограничивает людей, другое — страницы. Каждое ставь перед тем словом, которое ограничиваешь.",
+        "example": "Only Mark has read the email, and he read only the first line.",
+        "translation": "Письмо прочитал только Марк, и он прочитал только первую строчку."
+      },
+      "hint": "Начни так: Only Lisa …",
+      "answers": [
+        "Only Lisa has signed the lease so far, and she signed only the first page.",
+        "Only Lisa has signed the lease, and she signed only the first page.",
+        "Only Lisa has signed the lease so far, and she has signed only the first page.",
+        "So far, only Lisa has signed the lease, and she signed only the first page.",
+        "Only Lisa signed the lease, and she signed only the first page.",
+        "Only Lisa has signed the lease so far, and she's signed only the first page."
+      ],
+      "explanation": "Первое only стоит перед Lisa: других подписавших нет. Второе — перед the first page: остальные страницы не подписаны. She only signed the first page в разговоре поймут, но на письме это ещё и «только подписала, не прочитала»."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь другу о вечеринке. Переведи: «Даже Сэм пришёл вовремя. А Мия даже испекла торт».",
+      "context": "on time — вовремя; bake a cake — испечь торт.",
+      "guidance": {
+        "title": "Even — перед тем, что удивляет",
+        "body": "Удивляет человек — even перед ним. Удивляет поступок — even перед глаголом.",
+        "example": "Even my boss laughed. My dad even danced.",
+        "translation": "Даже мой начальник смеялся. Мой папа даже танцевал."
+      },
+      "hint": "Что удивляет в первой фразе — кто пришёл или что он сделал?",
+      "answers": [
+        "Even Sam came on time. And Mia even baked a cake.",
+        "Even Sam came on time. Mia even baked a cake.",
+        "Even Sam was on time. And Mia even baked a cake.",
+        "Even Sam showed up on time. And Mia even baked a cake.",
+        "Even Sam got there on time. And Mia even baked a cake.",
+        "Even Sam came on time, and Mia even baked a cake."
+      ],
+      "explanation": "Even Sam — неожиданный человек. Mia even baked — неожиданный поступок. Sam even came on time значило бы другое: «Сэм не только …, но даже пришёл вовремя»."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Отдел кадров (HR) написал: “Every new employee will meet with a mentor on Friday.” Новички спорят, что это значит. Напиши две ясные фразы: сначала — если со всеми встречается один и тот же наставник (mentor), потом — если у каждого свой.",
+      "context": "",
+      "guidance": {
+        "title": "Один на всех — the same, у каждого свой — a different",
+        "body": "Every и a вместе дают развилку. The same оставляет смысл «один на всех». A different или their own — «у каждого свой».",
+        "example": "All the students will take the same test. Each student will take a different test.",
+        "translation": "Все студенты напишут одну и ту же контрольную. У каждого студента будет своя контрольная."
+      },
+      "hint": "Какое сочетание значит «один и тот же»?",
+      "answers": [
+        "All the new employees will meet with the same mentor on Friday. Each new employee will meet with a different mentor on Friday.",
+        "Every new employee will meet with the same mentor on Friday. Each new employee will meet with a different mentor on Friday.",
+        "All the new employees will meet with the same mentor on Friday. Each new employee will meet with their own mentor on Friday.",
+        "All new employees will meet with the same mentor on Friday. Every new employee will meet with their own mentor on Friday.",
+        "On Friday, all the new employees will meet with the same mentor. On Friday, each new employee will meet with a different mentor."
+      ],
+      "explanation": "The same mentor — один наставник для всех. A different mentor или their own mentor — у каждого свой. Без этих слов фраза оставляет оба смысла."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В протоколе встречи написано: “Ms. Lopez said on Monday she would send the contract.” На самом деле Ms. Lopez сказала это в понедельник, а когда пришлёт договор, не назвала. Перепиши так, чтобы второго смысла не было.",
+      "context": "",
+      "guidance": {
+        "title": "Время — рядом со своим действием",
+        "body": "On Monday между said и would send можно отнести к обоим глаголам. Поставь его туда, где рядом только said.",
+        "example": "Tom said that he would call on Friday.",
+        "translation": "Том сказал, что позвонит в пятницу."
+      },
+      "hint": "Куда поставить on Monday, чтобы рядом был только said?",
+      "answers": [
+        "On Monday, Ms. Lopez said she would send the contract.",
+        "On Monday, Ms. Lopez said that she would send the contract.",
+        "On Monday Ms. Lopez said she would send the contract.",
+        "Ms. Lopez said on Monday that she would send the contract."
+      ],
+      "explanation": "В начале фразы on Monday относится к said. Said on Monday that… тоже ясно: that отделяет то, что она сказала. Пример в карточке — второй смысл: время стоит в конце, рядом с call."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В отчёте соседского дозора (neighborhood watch) написано: “A neighbor saw the boy with a flashlight.” Напиши две ясные фразы: сначала — если фонарик (flashlight) был у соседа и он им светил, потом — если фонарик был у мальчика.",
+      "context": "",
+      "guidance": {
+        "title": "With — к кому он прицепится?",
+        "body": "Для способа скажи прямо, чем человек пользовался: used… to. Для того, у кого вещь, — who had или who was holding.",
+        "example": "The coach used a phone to film the player. The coach filmed the player who had a phone.",
+        "translation": "Тренер снимал игрока на телефон. Тренер снимал игрока, у которого был телефон."
+      },
+      "hint": "Первая фраза может начаться так: The neighbor used …",
+      "answers": [
+        "The neighbor used a flashlight to see the boy. The neighbor saw the boy who had a flashlight.",
+        "A neighbor used a flashlight to see the boy. A neighbor saw the boy who was holding a flashlight.",
+        "The neighbor used a flashlight and saw the boy. The neighbor saw the boy, who was carrying a flashlight.",
+        "With a flashlight, a neighbor saw the boy. A neighbor saw the boy who had a flashlight.",
+        "The neighbor saw the boy by using a flashlight. The neighbor saw the boy who was holding a flashlight."
+      ],
+      "explanation": "Used a flashlight to see — фонарик у соседа. The boy who had (was holding) a flashlight — у мальчика. With a flashlight в начале фразы тоже ясно: оно стоит рядом с соседом, а не с мальчиком."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет в отчёте: “Maria didn't move to Denver because of her job.” На самом деле Мария переехала в Денвер, но из-за семьи, а не из-за работы. Сделай фразу однозначной.",
+      "context": "",
+      "guidance": {
+        "title": "Not … because — сначала факт, потом «не из-за»",
+        "body": "Если действие было, назови его без not. Отрицание отдай только причине: but not because of… Можно добавить настоящую причину.",
+        "example": "Ken sold his car, but not because of the price.",
+        "translation": "Кен продал машину, но не из-за цены."
+      },
+      "hint": "Мария переехала или нет? Начни с этого факта.",
+      "answers": [
+        "Maria moved to Denver, but not because of her job.",
+        "Maria moved to Denver, but her job wasn't the reason.",
+        "Maria moved to Denver, but it wasn't because of her job.",
+        "Maria moved to Denver because of her family, not her job.",
+        "Maria moved to Denver for her family, not for her job.",
+        "Maria moved to Denver, but not because of her job. She moved because of her family."
+      ],
+      "explanation": "Факт «переехала» стоит без not, отрицается только причина. Вариант с because of her family, not her job ещё точнее: он называет настоящую причину."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем отрицание и описания. В страховом отчёте (insurance report) написано: “All the old chairs and tables weren't damaged.” Факты: из шести старых стульев повреждены два; столы новые, и ни один не повреждён. Напиши две ясные фразы.",
+      "context": "damaged — повреждён.",
+      "guidance": {
+        "title": "Вспоминаем: All… not и описание перед двумя словами",
+        "body": "Вспоминаем урок об отрицании: All… not читают двумя способами, поэтому назови часть числом или скажи None of. И урок о подписях на выставке: old стоит перед двумя словами — оставь его только у стульев.",
+        "example": "Three of the ten old lamps were broken. None of the new rugs were.",
+        "translation": "Из десяти старых ламп три были разбиты. Из новых ковров — ни один."
+      },
+      "hint": "Сколько стульев повреждено — назови число. Какие столы — старые?",
+      "answers": [
+        "Two of the six old chairs were damaged. None of the new tables were damaged.",
+        "Two of the six old chairs were damaged. None of the tables were damaged; they are new.",
+        "Two of the six old chairs were damaged. None of the new tables was damaged.",
+        "Not all the old chairs were damaged: two of the six were. None of the new tables were damaged.",
+        "Two of the six old chairs were damaged, and none of the new tables were."
+      ],
+      "explanation": "Число two of the six убирает развилку «никто / не все». None of без второго not — «ни один». Old остаётся только у chairs, а у tables стоит new: так видно, что столы не старые."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты редактор. Клиент, Mr. Harris, владелец сети кофеен, прислал черновик пресс-релиза (press release). Три фразы в нём можно понять двумя способами: 1) “We only serve breakfast on weekends.” 2) “Every store will host a local artist this summer.” 3) “We didn't open the new store because of the tax break.” Что он имел в виду, ты не знаешь. Напиши ему письмо на 200–300 слов. Что должно быть: зачем пишешь; для каждой фразы — два прочтения своими словами и ясная версия для каждого; почему это важно для читателей пресс-релиза; просьба выбрать и срок ответа; вежливое окончание и подпись.",
+      "context": "serve — подавать (еду); host — принимать у себя; tax break — налоговая льгота.",
+      "hint": "План: I'm writing about… → Sentence 1 could mean… or… → If you mean…, we could say… → Sentence 2… → Sentence 3… → Readers can't ask us… → Could you let me know by…?",
+      "answers": [
+        "Dear Mr. Harris,\n\nThank you for sending the draft press release. Before we publish it, I'd like to check three sentences that readers could understand in two different ways.\n\nFirst, “We only serve breakfast on weekends.” This could mean that breakfast is available only on Saturdays and Sundays. It could also mean that on weekends, breakfast is the only meal you serve. If you mean the first, we could write, “We serve breakfast on weekends only.” If you mean the second, we could write, “On weekends, we serve only breakfast.”\n\nSecond, “Every store will host a local artist this summer.” Will one artist visit all the stores, or will each store have its own artist? The clear versions are “The same local artist will visit every store this summer” and “Each store will host a different local artist this summer.”\n\nThird, “We didn't open the new store because of the tax break.” This could mean that the tax break stopped you from opening the store. It could also mean that you opened it, but not because of the tax break. We could write either “Because of the tax break, we decided not to open the new store” or “We opened the new store, but not because of the tax break.”\n\nThese details matter because customers and journalists will act on them, and they can't ask us what we meant.\n\nCould you let me know which meaning you intended by Thursday? I'll update the draft the same day.\n\nBest regards,\nNina Ortiz"
+      ],
+      "explanation": "Засчитывается, если письмо 200–300 слов и в нём есть: цель письма; для каждой из трёх фраз — два прочтения и по ясной версии на каждое; почему это важно для читателей; просьба выбрать со сроком; вежливое окончание и подпись. Автор не выбирает смысл за клиента."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "На прошлой неделе менеджер, Ms. Carter, написала в чат: “Every team member should review a client file by Friday.” Половина команды проверила один и тот же файл, остальные — каждый свой, и два файла остались без проверки. Объясни это голосом на утренней встрече (stand-up meeting), 2–3 минуты. Что должно быть: что случилось, без обвинений; два прочтения фразы; почему оба честные; как записать каждый смысл ясно; одна привычка на будущее; вопрос Ms. Carter, что она имела в виду. Запиши, прослушай и проверь, что в твоих ясных версиях есть the same или a different.",
+      "context": "review — проверить; client file — дело клиента.",
+      "hint": "Начни так: I want to explain what happened with the client files last week. Nobody did anything wrong…",
+      "answers": [
+        "I want to explain what happened with the client files last week, because I think nobody actually did anything wrong.\n\nMs. Carter, your message said, “Every team member should review a client file by Friday.” Some of us read that as one file for the whole team. So four people reviewed the same file, the Morris file. The rest of us read it as one file each, so we each picked a different file. Because of that, two files were never reviewed at all.\n\nBoth readings are honest. The sentence uses “every” and “a” together, and that combination can mean one shared thing or one thing for each person. The grammar doesn't tell you which. In a meeting, someone would have asked, but in a chat message, we all just guessed.\n\nThere are two clear ways to write it. If we want one shared file, we can say, “Everyone should review the same file, the Morris file.” If we want one file per person, we can say, “Each person should review a different file. Here's the list.” A list with names is even better, because then nobody has to guess.\n\nSo here's a habit I'd suggest for the future. When we give a task to the whole team, let's ask ourselves: one for everyone, or one for each? And if a message isn't clear, let's ask in the chat before we start, not after Friday.\n\nMs. Carter, just so we can fix this week's plan: did you mean the same file for everyone, or a different file for each person? Either way, I can review one of the two files we missed today."
+      ],
+      "explanation": "Засчитывается, если речь звучит 2–3 минуты и в ней есть: что случилось без обвинений; два прочтения; почему оба честные; две ясные версии с the same и a different; привычка на будущее; прямой вопрос автору. Расшифровка проверит слова, но не произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Управляющий спортивного центра прислал черновик объявления: “Members can only bring guests on weekends. Every family must sign up for a time slot at the pool. The pool isn't closed because of the storm. The manager said on Friday it will reopen.” Что он хотел сказать: гостей можно приводить только по выходным; каждая семья записывается на своё время в бассейне (по часу); бассейн сейчас закрыт на ремонт, а не из-за грозы; откроется он в пятницу. Перепиши объявление так, чтобы каждую фразу можно было понять только одним способом.",
+      "context": "sign up — записаться; time slot — время по записи; repairs — ремонт.",
+      "hint": "Где в черновике only? Один слот на всех или у каждого свой? Бассейн закрыт или нет? В пятницу сказали или откроют?",
+      "answers": [
+        "Members can bring guests on weekends only. Each family must sign up for its own one-hour time slot at the pool. The pool is closed for repairs, not because of the storm. It will reopen on Friday.",
+        "Guests are allowed only on weekends. Each family must sign up for a separate one-hour time slot at the pool. The pool is closed, but not because of the storm: it is closed for repairs. The manager said that it will reopen on Friday.",
+        "Members may bring guests only on weekends. Every family must sign up for its own one-hour slot at the pool. The pool is currently closed for repairs, not because of the storm. It will reopen on Friday."
+      ],
+      "explanation": "Засчитывается, если: only стоит перед on weekends; у семьи своё время (its own, separate); факт «закрыт» назван без not, а отрицается только причина; on Friday стоит рядом с reopen. Другие ясные формулировки тоже верны."
+    }
+  ]
+}

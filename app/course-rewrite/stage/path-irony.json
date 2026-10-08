@@ -1,0 +1,316 @@
+{
+  "id": "path-irony",
+  "title": "Great, another delay: когда слова говорят обратное",
+  "subtitle": "Слова и ситуация → готовые фразы с подвохом → сказать меньше, чем есть → голос → письмо → переспросить",
+  "level": "C2",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Узнавать иронию в американской речи — “Great, another delay” («ну отлично, опять задержка»), “Yeah, right” («ага, конечно»), — не путать её с похвалой, спокойно переспрашивать и не шутить так там, где тебя не поймут.",
+  "formula": "слова хвалят + ситуация плохая + оба это знают → возможно, ирония · не уверен и важно → переспроси о сути · в письме малознакомому → прямо",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-metaphor",
+    "path-prosody",
+    "research-question-response"
+  ],
+  "recycles": [
+    "path-prosody"
+  ],
+  "teaches": [
+    "ирония — слова говорят обратное или гораздо меньшее, и говорящий ждёт, что его поймут; работает, только если оба знают ситуацию; ирония ≠ ложь",
+    "сарказм — ирония против человека, чтобы задеть: Nice of you to join us",
+    "готовые фразы, обычно с подвохом: Yeah, right · Big surprise · Thanks a lot (после чужой ошибки) · Way to go (после промаха) · Real mature",
+    "Tell me about it / You're telling me — «и не говори», согласие, а не просьба рассказать",
+    "сдержанность (understatement), сухой юмор: It's a little chilly · That could have gone better · I've had better days; в отчёте и инструкции — нельзя",
+    "признаки на слух: растянутое ударное оценочное слово, ровный или нарочито радостный голос, oh / just / so — помогают, но не доказывают",
+    "переспросить: Wait, are you serious? · Is that sarcasm? (другу) · Just to check: are you saying…? (о сути, коллеге)",
+    "в письме ирония теряется: малознакомому — факт и отношение прямыми словами; снять иронию: Sorry, I was joking. Seriously, though, …",
+    "слова: sarcasm, understatement, dry humor, frustrating, commute"
+  ],
+  "sources": [
+    {
+      "title": "Dictionary.com · sarcasm",
+      "url": "https://www.dictionary.com/browse/sarcasm",
+      "notes": "Сверено: сарказм — резкая насмешка, часто через иронию; узкое значение: ирония, чтобы высмеять или задеть; пример похвалы вечно опаздывающему «You've arrived exactly on time!». Отсюда различие «ирония о ситуации / сарказм против человека»."
+    },
+    {
+      "title": "BPS Research Digest · Oops, how sarcastic emails fall flat (о работе Kruger, Epley et al., 2005)",
+      "url": "https://www.bps.org.uk/research-digest/oops-how-sarcastic-emails-fall-flat",
+      "notes": "Сверено: в email отправители сильнее переоценивают, что их сарказм поймут, чем в устной речи, даже с близкими людьми; причина — пишущий читает своё сообщение «своим» тоном. Точные проценты в этом пересказе не даны, поэтому в уроке их нет."
+    },
+    {
+      "title": "Wiktionary · tell me about it",
+      "url": "https://en.wiktionary.org/wiki/tell_me_about_it",
+      "notes": "Сверено: informal, выражает согласие и сочувствие сказанному; близкое — you're telling me, you said it. Отсюда «фраза-ловушка»: звучит как просьба, значит согласие."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Почти одни и те же слова — разный смысл",
+    "why": "Смысл задаёт ситуация, которую видят оба. Слова почти не меняются.",
+    "items": [
+      {
+        "label": "Искренне",
+        "en": "Perfect timing!",
+        "ru": "Как раз вовремя!",
+        "note": "Друг пришёл, когда ужин только что готов."
+      },
+      {
+        "label": "Ирония",
+        "en": "Perfect timing.",
+        "ru": "Ну просто идеальное время.",
+        "note": "Кофе пролился на ноутбук за минуту до звонка."
+      },
+      {
+        "label": "Сдержанность",
+        "en": "Not the best timing.",
+        "ru": "Время не самое удачное.",
+        "note": "Та же беда с кофе: сказано меньше, чем есть."
+      }
+    ],
+    "footnote": "Без общей ситуации вторая фраза звучит как похвала. Поэтому в письме незнакомому человеку ирония легко теряется.",
+    "focus": [
+      "Perfect timing",
+      "Not the best"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему Great! иногда значит «ужасно»",
+      "body": "Рейс задержали в третий раз. Пассажир рядом говорит: “Great. Just great.” Он не радуется. Он говорит обратное тому, что думает, и уверен, что ты поймёшь: вы оба видите табло.\n\nЭто ирония: слова говорят одно, а говорящий имеет в виду противоположное или гораздо меньшее. Работает она, только если оба знают настоящую ситуацию. Ирония — не ложь. Лжец хочет, чтобы ему поверили. Тот, кто иронизирует, хочет, чтобы его поняли.\n\nСарказм — ирония, направленная на человека, чтобы задеть. Коллеге, который опоздал на полчаса: “Nice of you to join us.” — «Как мило, что ты к нам присоединился». Ирония о погоде или рейсе никого не обижает. Сарказм обижает.\n\nПо-русски так же: «Ну спасибо!», «Молодец!» после ошибки, «Очень смешно». Механизм одинаковый, а готовые фразы в двух языках разные."
+    },
+    {
+      "title": "Готовые фразы, которые почти всегда с подвохом",
+      "body": "Некоторые американские фразы чаще звучат иронично, чем всерьёз. Их полезно знать как готовые блоки.\n\nYeah, right. — «Ага, конечно»: я не верю. Друг: “The boss says we'll all get a raise.” — “Yeah, right.” Big surprise. — «Кто бы сомневался»: ничего неожиданного. Thanks a lot — после чужой ошибки значит «ну спасибо, удружил». Way to go — после промаха: «ну молодец». Real mature — «очень по-взрослому», упрёк в детском поведении.\n\nА вот Tell me about it — не просьба рассказать. Это «и не говори», полное согласие: “This commute is killing me.” — “Tell me about it.” Commute — дорога на работу и обратно. Над собеседником тут не смеются: вы жалуетесь вместе. То же значит You're telling me.\n\nГраница: те же слова бывают искренними. Thanks a lot в ответ на помощь — просто «большое спасибо». Решает ситуация, а не сама фраза."
+    },
+    {
+      "title": "Сдержанность: сказать меньше, чем есть",
+      "body": "Американцы часто шутят преуменьшением — understatement. В минус двадцать говорят: “It's a little chilly today.” — «Сегодня прохладненько». После провальной презентации: “Well, that could have gone better.” — «Могло пройти и лучше». После тяжёлого дня: “I've had better days.”\n\nЭто тоже ирония: сказано гораздо меньше, чем есть, а масштаб слушатель понимает сам. Такой юмор называют сухим — dry humor: говорящий не улыбается и не меняет голос.\n\nСдержанность звучит спокойно и уверенно, поэтому её слышно даже на работе. Она безопаснее сарказма: никого не задевает. Но в инструкции или отчёте она вредна. “The server is a little slow” при полностью упавшем сервере собьёт с толку того, кто должен его чинить."
+    },
+    {
+      "title": "Как узнать иронию на слух — и почему признаки ненадёжны",
+      "body": "Главный признак — слова расходятся с ситуацией, которую знают оба. Второй признак — голос. Из урока о мелодии ты знаешь, что ударение выдаёт скрытый смысл. В иронии оценочное слово часто растянуто и ударно — “That's just GREAT”, — а голос ровный или нарочито радостный. Добавляют oh, just, so: “Oh, so helpful.”\n\nНо эти признаки ничего не доказывают. Ровным голосом говорят и просто уставшие люди. Сухой юмор вообще обходится без перемены тона. И наоборот: человек мог правда обрадоваться отмене встречи — у него освободился вечер.\n\nПоэтому вывод формулируй осторожно: He may have been joking. It sounded sarcastic, but I'm not sure. Если от ответа зависит дело, переспроси. Другу можно прямо: Wait, are you serious? Is that sarcasm? Коллеге лучше спросить о сути, а не о тоне: Just to check: do you think the timing is a problem?"
+    },
+    {
+      "title": "В письме ирония теряется",
+      "body": "В письме нет голоса и лица. Психологи Крюгер и Эпли (2005) просили людей передать фразы всерьёз или с сарказмом — голосом или по email. Пишущие были уверены, что их поймут. По email получатели понимали тон заметно хуже, чем по голосу. Причина: автор «слышит» свой тон в голове и забывает, что у читателя его нет.\n\nОтсюда правило. Человеку, который тебя мало знает, — клиенту, новому коллеге — пиши без иронии: факт и твоё отношение прямыми словами. Не “Great, the meeting got moved again 🙂”, а “The meeting has been moved again, which makes planning hard for us.” Отношение можно назвать словом: frustrating — «досадно, раздражает», inconvenient — «неудобно».\n\nЕсли тебя поняли буквально, сними второй слой без упрёка собеседнику: Sorry, I was joking. Seriously, though, I'm worried about the deadline. В онлайн-обсуждениях, например на Reddit, для этого пишут /s в конце: «это сарказм»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Great. Another canceled flight.",
+      "ru": "Отлично. Ещё один отменённый рейс.",
+      "why": "Похвала и плохое событие, которое видят оба, — ирония."
+    },
+    {
+      "en": "Nice of you to join us.",
+      "ru": "Как мило, что ты к нам присоединился.",
+      "why": "Сказано опоздавшему — сарказм: задевает конкретного человека."
+    },
+    {
+      "en": "“This commute is killing me.” “Tell me about it.”",
+      "ru": "— Эта дорога на работу меня убивает. — И не говори.",
+      "why": "Полное согласие, а не просьба рассказать."
+    },
+    {
+      "en": "It's a little chilly today.",
+      "ru": "Сегодня прохладненько.",
+      "why": "Сказано в минус двадцать: преуменьшение, сухой юмор."
+    },
+    {
+      "en": "Wait, are you being serious?",
+      "ru": "Подожди, ты серьёзно?",
+      "why": "Спокойный способ проверить, шутка ли это, — с другом или приятелем."
+    },
+    {
+      "en": "Sorry, I was joking. Seriously, though, I'm worried about the deadline.",
+      "ru": "Извини, я шутил. А если серьёзно, меня беспокоит срок.",
+      "why": "Снять иронию и сказать прямо, не обвиняя собеседника."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: “My landlord says he'll fix the heating this week.” Хозяин обещает это с ноября. Ответь иронично: «Ага, конечно».",
+      "context": "landlord — хозяин квартиры; heating — отопление.",
+      "guidance": {
+        "title": "Готовая фраза недоверия",
+        "body": "Для недоверия у американцев есть готовый блок из двух слов. Его говорят коротко, голос в конце идёт вниз. Он почти всегда значит «не верю».",
+        "example": "Oh sure, and I'm the president.",
+        "translation": "Ну да, а я президент."
+      },
+      "hint": "Первое слово — разговорное «да», второе — «правильно».",
+      "answers": [
+        "Yeah, right.",
+        "Yeah right.",
+        "Yeah, right!",
+        "Yeah, right. He's been saying that since November."
+      ],
+      "explanation": "Yeah, right — «ага, конечно»: не верю. Можно добавить факт, на котором держится ирония: He's been saying that since November."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Коллега вздыхает: “These Monday meetings are endless.” Ты полностью согласна. Ответь готовой фразой согласия и добавь одну свою деталь.",
+      "context": "",
+      "guidance": {
+        "title": "Согласие, которое звучит как просьба",
+        "body": "Есть фраза, которая дословно просит «расскажи мне об этом», а на деле значит «и не говори, я тоже это знаю». Её говорят, когда жалуются вместе.",
+        "example": "“I'm so tired of this rain.” “You're telling me. It's been raining all week.”",
+        "translation": "— Как же надоел этот дождь. — И не говори. Всю неделю льёт."
+      },
+      "hint": "Дословно: «расскажи мне об этом». Начни так: Tell me…",
+      "answers": [
+        "Tell me about it. Last week's meeting lasted two hours.",
+        "Tell me about it. I couldn't even get lunch before the last one ended.",
+        "You're telling me. Today's went on for almost two hours."
+      ],
+      "explanation": "Засчитывается Tell me about it или You're telling me плюс деталь в поддержку. Собеседник не ждёт рассказа: это согласие."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Напиши две ситуации по одной-две фразы, где реплика “That's exactly what I needed.” звучит по-разному: в первой — искренне, во второй — иронично. Реплика одинаковая — меняй факты.",
+      "context": "",
+      "guidance": {
+        "title": "Меняй ситуацию, а не слова",
+        "body": "Ирония рождается из того, что знают оба. Опиши факт, который делает похвалу правдой, и факт, который делает её насмешкой.",
+        "example": "Sincere: The sun came out for our picnic. “Lovely weather.” Ironic: It started pouring during our picnic. “Lovely weather.”",
+        "translation": "Искренне: к пикнику вышло солнце. «Чудесная погода». Иронично: во время пикника полил дождь. «Чудесная погода»."
+      },
+      "hint": "Что могло тебе помочь — а что помешать в ту же минуту? Начни так: Sincere: I was freezing at the bus stop…",
+      "answers": [
+        "Sincere: I was freezing at the bus stop, and a friend handed me a hot coffee. “That's exactly what I needed.”\nIronic: I was already late for work, and then my car wouldn't start. “That's exactly what I needed.”",
+        "Sincere: My laptop died before a presentation, and a coworker lent me hers. “That's exactly what I needed.”\nIronic: I had a headache, and my neighbor started drilling at 7 a.m. “That's exactly what I needed.”"
+      ],
+      "explanation": "Засчитывается, если реплика одна и та же, а в первой ситуации событие помогает, во второй — мешает. Ирония держится на факте, который видят оба."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, как прошёл перелёт. Рейс задержали на шесть часов, а чемодан потеряли. Ответь сдержанно, по-американски: «Бывали перелёты и получше», — и коротко назови оба факта.",
+      "context": "suitcase — чемодан.",
+      "guidance": {
+        "title": "Сказать меньше, чем было",
+        "body": "Сухой юмор: о плохом говорят спокойно и мягко, а масштаб слушатель понимает из фактов. Сначала сдержанная оценка, потом факты — без жалоб.",
+        "example": "Well, the interview could have gone better: I forgot the manager's name twice.",
+        "translation": "Ну, собеседование могло пройти и лучше: я дважды забыл, как зовут менеджера."
+      },
+      "hint": "Начни так: I've had better… Потом: they delayed it… and lost…",
+      "answers": [
+        "I've had better flights. They delayed it six hours and lost my suitcase.",
+        "I've had better flights: it was delayed six hours, and they lost my suitcase.",
+        "Well, I've had better flights. We were delayed six hours, and the airline lost my suitcase.",
+        "It wasn't the best flight: it was delayed six hours, and they lost my suitcase."
+      ],
+      "explanation": "I've had better flights или It wasn't the best flight — сдержанная оценка. Факты делают масштаб понятным без жалоб. Terrible flight тоже правда, но это уже прямая оценка, а не сухой юмор."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В рабочем чате коллега пишет: “Love how we found out about the new deadline from the client.” Ты не уверена, иронизирует ли он и что именно его беспокоит. Напиши спокойный ответ: проверь, что он имеет в виду, и предложи действие.",
+      "context": "",
+      "guidance": {
+        "title": "Переспроси о сути, а не о тоне",
+        "body": "Вопрос «Это сарказм?» коллеге звучит как упрёк. Назови, что ты услышала, и задай вопрос о деле.",
+        "example": "Just to check: are you saying the budget changes came too late for us?",
+        "translation": "Уточню: ты имеешь в виду, что об изменениях в бюджете нам сообщили слишком поздно?"
+      },
+      "hint": "Что его, вероятно, беспокоит — сама новость или то, что её сообщил клиент? Начни так: Just to check: …",
+      "answers": [
+        "Just to check: are you saying we should have heard about the new deadline from our own team first? If so, I can ask the project manager to send updates to us directly.",
+        "Do you mean the client knew about the deadline before we did? I agree that's a problem. Should we ask Dana to tell us about changes first?"
+      ],
+      "explanation": "Засчитывается, если ответ называет возможную причину недовольства (узнали от клиента, а не от своих), проверяет её вопросом и предлагает действие. Слов sarcasm и joke в ответе нет."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь клиенту, с которым работаешь две недели. Черновик: “Great, the files disappeared from the shared folder again 🙂 Love this system.” Перепиши: факт, твоё отношение прямыми словами и просьба прислать файлы ещё раз.",
+      "context": "shared folder — общая папка.",
+      "guidance": {
+        "title": "Малознакомому читателю — без иронии",
+        "body": "В письме нет голоса, и малознакомый читатель может понять похвалу буквально. Скажи факт и прямо назови, как ты к нему относишься.",
+        "example": "Instead of “Wonderful, the link expired again,” write “The link has expired again, which is inconvenient. Could you send a new one?”",
+        "translation": "Вместо «Чудесно, ссылка опять устарела» — «Ссылка снова устарела, это неудобно. Не могли бы вы прислать новую?»"
+      },
+      "hint": "Каким словом прямо назвать раздражение: frustrating, inconvenient? Просьба: Could you…?",
+      "answers": [
+        "The files have disappeared from the shared folder again, which is frustrating. Could you please send them again?",
+        "Unfortunately, the files are missing from the shared folder again, which is frustrating. Could you resend them?",
+        "The files have disappeared from the shared folder again. I know this is inconvenient, but could you please send them one more time?"
+      ],
+      "explanation": "Засчитывается, если есть факт (файлы снова пропали), прямое отношение (frustrating, inconvenient, unfortunately) и вежливая просьба. Great, Love this system и смайлик убраны: клиент мог прочитать их как похвалу."
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о мелодии и ударении. Скажи вслух одну фразу дважды: “That's just great.” Первый раз — искренне (тебе дали лишний выходной), второй — иронично (в жару сломался кондиционер). Потом одной-двумя фразами по-английски опиши, чем отличались варианты.",
+      "context": "air conditioner — кондиционер.",
+      "guidance": {
+        "title": "Вспоминаем: ударение выдаёт скрытый смысл",
+        "body": "Как в уроке о мелодии, ударение показывает скрытый смысл. В иронии оценочное слово растягивают и выделяют, а голос звучит ровно. Искренняя радость звучит живее и выше.",
+        "example": "Oh, that's wonderful! / Oh, that's just WON-derful.",
+        "translation": "Ой, как замечательно! / Ну просто за-ме-ча-тельно."
+      },
+      "hint": "Что ты делаешь со словом great во втором варианте? Куда идёт голос в конце?",
+      "answers": [
+        "That's just great! / That's just GREAT. In the ironic version, I stretched “great” and kept my voice flat.",
+        "That's just great! / That's just great. The first one sounded lively and went up; in the second one, I stressed “great,” made it longer, and my voice stayed low."
+      ],
+      "explanation": "Засчитывается запись обоих вариантов и описание разницы: растянутое ударное great, ровный или низкий голос. Эти признаки помогают слушателю, но не доказывают намерение: он опирается и на ситуацию."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твоя компания нанимает много людей из других стран. Тебя попросили написать короткую статью для внутренней вики «Reading irony at work»: 200–300 слов. Что должно быть: три фразы, которые часто звучат иронично, с короткой ситуацией для каждой; одна фраза, которая звучит как просьба, а значит согласие; пример сдержанного юмора; какие признаки помогают и почему на них нельзя полагаться; что делать, если не уверен; одно правило для собственных писем.",
+      "context": "",
+      "hint": "План: Some phrases usually mean the opposite… → One phrase sounds like a request… → Americans also joke by saying less… → Signals… but… → If you're not sure… → In writing…",
+      "answers": [
+        "Reading irony at work\n\nAmerican coworkers often say the opposite of what they mean and expect you to notice. Here are some phrases that are usually ironic.\n\n“Yeah, right” means “I don't believe it.” If someone says the office will finally get new chairs and a coworker answers “Yeah, right,” they doubt it will happen. “Big surprise” means the opposite: nobody is surprised, for example when the printer breaks for the fifth time. “Thanks a lot” after someone's mistake, such as deleting a shared file, means “you made things worse.”\n\nOne phrase sounds like a request but isn't: “Tell me about it.” If you complain about traffic and a coworker says this, they are agreeing with you, not asking for a story.\n\nAmericans also joke by saying less than they mean. “That could have gone better” after a failed demo is dry humor, not a calm report.\n\nSome signals help: praise in a clearly bad situation, a stretched, stressed word like “GREAT,” or a flat voice. But none of them is proof. People sound flat when they're tired, and sometimes “Perfect!” really means perfect.\n\nIf you're not sure and it matters, ask about the issue, not the tone: “Just to check, do you think the deadline is a problem?” This is friendlier than asking “Was that sarcasm?”\n\nFinally, a rule for your own messages: don't use irony in writing with people who don't know you well. Without your voice, they may take it literally. State the fact and how you feel about it."
+      ],
+      "explanation": "Засчитывается, если есть три иронические фразы с ситуациями, Tell me about it как согласие, пример сдержанного юмора, признаки и почему они ненадёжны, способ переспросить о сути и правило для писем. Фразы можно взять другие из урока."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 2–3 минуты о случае, когда кто-то понял иронию буквально или ты сам не сразу понял шутку (можно придумать). Что должно быть: что сказали и в какой ситуации; что человек имел в виду; какие признаки были и почему их не заметили; как недоразумение разрешилось; что бы ты сказал теперь — одну фразу, чтобы переспросить, и одну, чтобы снять свою иронию.",
+      "context": "",
+      "hint": "Начни так: A few months ago, at work, … Переходы: What she actually meant was… / Looking back, the signs were… / In the end… / Now I would say…",
+      "answers": [
+        "A few months ago, during my first week at a new job, our team had a long meeting about a project that was already late. At the end, our manager looked at the schedule and said, “Well, this is going great.” I took it literally. I even said, “Yes, I think we're making good progress.” A couple of people laughed, and I didn't understand why.\n\nWhat she actually meant was the opposite. The project was two weeks behind, and she was frustrated. She wasn't happy with the progress at all.\n\nLooking back, the signs were there. Everyone in the room knew the project was late; that was the whole reason for the meeting. She also stretched the word “great” and said it in a very flat voice. But I was new, I was nervous, and I was listening to the words, not the situation. In my first language, people use irony too, but the phrases are different, so I didn't recognize it.\n\nIn the end, a coworker explained it to me after the meeting. The next day I told my manager, “Sorry, I didn't catch the joke yesterday.” She laughed and said she should have been clearer with someone new.\n\nNow, if I'm not sure, I would ask about the issue, not the tone. Something like, “Just to check: are you worried about the schedule?” And if someone takes my own joke literally, I'd say, “Sorry, I was joking. Seriously, though, we're two weeks behind.”"
+      ],
+      "explanation": "Засчитывается, если названы ситуация и реплика, настоящий смысл, признаки и почему их пропустили, развязка и две фразы на будущее: переспросить о сути и снять свою иронию. 2–3 минуты — примерно 250–350 слов."
+    },
+    {
+      "id": "e10",
+      "kind": "translate",
+      "practiceStage": "independent",
+      "prompt": "Русскоязычный коллега просит переслать его сообщение американскому менеджеру Джейсону. Передай смысл по-английски (60–100 слов) так, чтобы Джейсон не понял иронию буквально. Можно оставить одну сдержанную фразу, но факты и просьба — прямыми словами. Сообщение: «Ну просто супер: сервер опять упал, и опять в пятницу вечером. Спасибо, что предупредили об обновлении заранее (нет). Мы потеряли три часа заказов. Давайте в следующий раз сообщать об обновлениях хотя бы за день».",
+      "context": "server — сервер; update — обновление; go down — упасть (о сервере); notice — предупреждение.",
+      "hint": "Что из сообщения факт, что отношение, что просьба? «Спасибо, что предупредили (нет)» — что на деле произошло?",
+      "answers": [
+        "Hi Jason, the server went down again on Friday evening, for the second Friday in a row. It happened during an update we weren't told about in advance, and we lost three hours of orders. That's frustrating for the team. Could we agree that updates are announced at least one day ahead from now on?",
+        "Hi Jason, unfortunately the server crashed again on Friday evening, right after an update that nobody warned us about. We lost about three hours of orders. Not our best Friday. Going forward, could your team let us know about updates at least a day in advance?"
+      ],
+      "explanation": "Засчитывается, если сохранены факты: сервер снова упал в пятницу вечером, об обновлении не предупредили, потеряны три часа заказов, — и прямая просьба предупреждать за день. «Ну просто супер» и «спасибо (нет)» переданы прямым отношением (frustrating, unfortunately) или одной сдержанной фразой вроде Not our best Friday."
+    }
+  ],
+  "keyRule": {
+    "rule": "Слова хвалят, а ситуация плохая — возможно, это ирония. Не уверен и это важно — переспроси.",
+    "example": "Great, another delay. — Ну отлично, опять задержка.",
+    "check": "Знают ли оба, что ситуация плохая? Без этого общего знания ирония не работает."
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "id": "extended-c2-built-environment",
+  "title": "Характер здания и новая жизнь: описать, сравнить позиции, обосновать выбор",
+  "subtitle": "Что видно → чья это оценка → что даст проект → как меняется выбор после нового требования; потом те же факты для посетителя и для журнала",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Описать здание так, чтобы читатель увидел его без фото («The façade has five bays»), отделить это от чужих оценок («Reed finds the small rooms inviting») и от обещаний проекта («could make arrival clearer»), выбрать решение и честно пересмотреть его, когда появится новое требование.",
+  "formula": "observation → whose evaluation → what the project would do · From the square, the façade… · The floor plan places X behind Y · What Vale sees as…, Reed regards as… · preserve / restore / rehabilitate / retrofit · would / could / is intended to · I favor…, provided that…",
+  "keyRule": {
+    "rule": "Что видно — говори прямо. Впечатление — с тем, чьё оно. Результат проекта — через would или could.",
+    "example": "The hall is narrow. Reed calls it intimate. Opening it could help newcomers. — Коридор узкий. Рид называет его уютным. Если его открыть, новичкам, возможно, будет проще.",
+    "check": "Можно ли проверить твою фразу, просто посмотрев на здание? Если нет — это оценка или прогноз."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-hedging",
+    "path-lexical-precision",
+    "path-cross-register",
+    "path-rhetorical-analysis"
+  ],
+  "recycles": [
+    "path-hedging"
+  ],
+  "teaches": [
+    "три вида фраз о здании: наблюдение (говорят прямо), оценка (с хозяином: Reed finds…, some visitors may find…), прогноз проекта (would / could / is intended to)",
+    "описание с точки наблюдателя: From the square…, inside the entrance…, at the far end; behind, beneath, on either side of, opening onto",
+    "façade, bay (вертикальная часть фасада, не комната), elevation (вид одной стороны, не высота), floor plan (комнаты сверху)",
+    "fenestration (расположение окон) ≠ glazing (стекло); historic fabric — материал здания, не мебель; first floor — уровень земли",
+    "типы работ: preserve / repair vs replace, restore, rehabilitate (adaptive reuse — новое использование с сохранением характера), retrofit; слово не обещает результат",
+    "одна деталь — две оценки: What X sees as…, Y regards as…; критерий выбирает позицию, а не деталь",
+    "пересмотр: прежняя оценка → новый факт → суженный вывод → конкретный вопрос (Before I learned…, I favored…)",
+    "посетителю — что увидишь и куда идти, журналу — какую идею выражает выбор; факты и степень уверенности те же"
+  ],
+  "sources": [
+    {
+      "title": "National Park Service · The Secretary of the Interior's Standards for Rehabilitation",
+      "url": "https://www.nps.gov/subjects/taxincentives/secretarys-standards-rehabilitation.htm",
+      "notes": "Сверено американское употребление: rehabilitation — ремонт, изменения и пристройки, при которых сохраняется исторический характер; новое использование должно минимально менять определяющие черты; повреждённое сначала чинят (repair), заменяют только при сильном износе; новое отличимо от старого и соразмерно ему. Отсюда различие preserve / restore / rehabilitate и мысль «сохранить фасад ≠ сохранить характер»."
+    },
+    {
+      "title": "Dictionary.com · fenestration",
+      "url": "https://www.dictionary.com/browse/fenestration",
+      "notes": "Сверено: fenestration в архитектуре — расположение и устройство окон и других наружных проёмов. Поэтому fenestration описывает схему окон, а glazing — стекло в них."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Три вида фраз о здании: что видно, как это ощущается, что даст проект",
+      "body": "Пустое здание бывшего городского архива хотят сделать культурным центром. Ты пишешь о нём для районной рассылки. В статье M1 дизайнер Vale предлагает убрать перегородки впереди, а эссеист Reed — сохранить маленькие комнаты. Читатель здание не видел, и ему нужны три разные вещи.\n\nПервое — что видно: The façade has five bays — «фасад разделён на пять вертикальных частей». Это можно проверить, просто посмотрев. Такие фразы говорят прямо, без оговорок.\n\nВторое — впечатление: dignified — «строгий, достойный», unwelcoming — «неприветливый». Это не свойство кирпича, а чья-то реакция. Поэтому называй, чья: Reed finds the small rooms inviting — «Риду маленькие комнаты кажутся приглашающими».\n\nТретье — что даст проект. Его ещё нет, поэтому результат звучит через would, could или is intended to: An open hall could make arrival clearer — «открытый зал мог бы сделать вход понятнее». Will make здесь — обещание без основания.\n\nПо-русски легко написать «объективно красивое здание» или «проект сделает центр удобным». В английском разборе это две ошибки: оценка выдана за факт, прогноз — за результат.\n\nГраница правила: если результат уже проверен замером или испытанием, говори прямо: The test showed that the basement stays dry."
+    },
+    {
+      "title": "Фасад, план, окна, материал: слова, которые легко перепутать",
+      "body": "Façade — наружная сторона здания, обычно главная, со входом. Bay — одна из повторяющихся вертикальных частей фасада, а не комната. Elevation — чертёж одной стороны, вид прямо спереди; это не «высота» (height). Floor plan — план этажа, вид сверху: какие комнаты рядом и как пройти из одной в другую.\n\nFenestration — расположение окон: сколько их, какого размера, какими рядами. Glazing — само стекло. Окна могут стоять ровно, а стекло в них — быть разным.\n\nHistoric fabric — сохранившийся материал самого здания: кладка, штукатурка, деревянные двери и пол. Это не мебель и не «ткань».\n\nВ американском английском first floor — этаж на уровне земли. Описание веди от места, где стоит наблюдатель: from the square, inside the entrance, at the far end. Помогают behind, beneath, on either side of, opening onto."
+    },
+    {
+      "title": "Сохранить, восстановить, приспособить: разные решения",
+      "body": "Спор о старом здании путается, когда под «сохранить» люди понимают разное. Preserve — поддерживать то, что есть; repair — починить повреждённую часть, а не заменить её (replace). Restore — вернуть здание к виду определённого времени. Rehabilitate — дать зданию новое использование (new use), сохранив то, что создаёт его характер; такое приспособление называют adaptive reuse. Retrofit — обновить инженерную часть: утепление, отопление, звукоизоляцию.\n\nЭти слова называют тип работы, но ничего не обещают. Retrofit не гарантирует тишину. Is intended to reduce noise — цель проекта, may reduce — возможность, will reduce — уверенный прогноз, для которого нужна проверка.\n\nЕщё одна граница: сохранённый фасад не значит сохранённый характер. За прежним фасадом можно полностью сменить планировку."
+    },
+    {
+      "title": "Одна деталь — две оценки, и как пересмотреть свой выбор",
+      "body": "Высокие окна Vale считает поводом открыть зал к площади, а Reed ценит промежутки между ними: они отмечают отдельные комнаты. Деталь одна, оценки противоположные. Значит, позицию выбирает не деталь, а критерий: понятность для новичка, масштаб, свет.\n\nФраза для этого: What Vale sees as an opportunity, Reed regards as a loss. Сильную позицию другой стороны передавай честно: цель Vale — чтобы посетитель сразу понял здание, а не «снести историю».\n\nКогда появляется новое требование, пересматривай только тот вывод, который от него зависит. Порядок: прежняя оценка → новый факт → суженный вывод → конкретный вопрос. Окна не изменились; изменилась задача, для которой их оценивают. Вопрос должен помогать решить: How much sound would reach the front rooms?"
+    },
+    {
+      "title": "Посетителю и журналу: разные тексты из одних фактов",
+      "body": "Вспоминаем урок о смене жанра: меняются порядок, акцент и слова, а факты и степень уверенности остаются.\n\nПосетителю нужно знать, что он увидит, куда идти и что пока не решено: You'll come in through the side door. Термин лучше заменить или объяснить в той же фразе: the floor plan, meaning how the rooms connect.\n\nЧитателю культурного журнала интересно другое: какую идею выражает выбор. Сохранить маленькие комнаты — ценить находку и отдельный масштаб. Открыть зал — ценить ясность и общий вход. Термины уместны, но с пояснением при первом упоминании.\n\nВ обоих текстах нельзя добавлять фактов и менять could на will. И не пиши громоздко: вместо the utilization of the building — просто the use of the building."
+    }
+  ],
+  "examples": [
+    {
+      "en": "From the square, the façade reads as five bays, with the entrance in the central one.",
+      "ru": "С площади фасад воспринимается как пять вертикальных частей, вход — в центральной.",
+      "why": "Наблюдение начинается с точки обзора. Reads as — «воспринимается как»."
+    },
+    {
+      "en": "The floor plan places four small offices on either side of a narrow hall.",
+      "ru": "На плане четыре небольших кабинета расположены по обе стороны узкого коридора.",
+      "why": "Floor plan говорит о комнатах и проходах, а не о виде снаружи."
+    },
+    {
+      "en": "The fenestration is regular, although the glazing varies from window to window.",
+      "ru": "Окна расположены ровно, хотя стекло в них различается от окна к окну.",
+      "why": "Схема окон и само стекло — два разных предмета; although их сопоставляет."
+    },
+    {
+      "en": "Darker stone frames the entrance; some visitors may find the narrow hall behind it unwelcoming.",
+      "ru": "Вход обрамлён более тёмным камнем; узкий коридор за ним кому-то из посетителей может показаться неприветливым.",
+      "why": "Сначала то, что видно, потом оценка — с тем, чья она, и с may."
+    },
+    {
+      "en": "The retrofit is intended to reduce noise; its actual effect has not been measured.",
+      "ru": "Модернизация должна снизить шум; её реальный эффект не измерен.",
+      "why": "Цель проекта и неизвестный результат стоят в разных частях фразы."
+    },
+    {
+      "en": "I favor keeping some front rooms, provided that sound between them can be tested.",
+      "ru": "Я за то, чтобы сохранить часть передних комнат, при условии что звук между ними можно проверить.",
+      "why": "Свой выбор прямо, условие — через provided that («при условии что»)."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Two Readings of Alder House",
+      "kind": "reading",
+      "text": "Original teaching material. The building, people and proposals described here are fictional.\n\nAlder House stands on the north side of Bell Square, with its main entrance facing south across the square toward a row of small shops. Built as a municipal records office, it is now empty. A cultural center is proposed, but no final arrangement has been chosen. The argument concerns more than whether an old building should survive. It concerns what, exactly, would survive when the public enters it for a different reason.\n\nFrom the square, the façade reads as five vertical bays: five repeated divisions rather than five separate rooms. Each outer bay has a tall first-floor window with a shorter window directly above. The central bay contains the entrance and an upper window. Pale brick forms most of the surface. Darker stone surrounds the entrance, where a shallow porch rests on a column at either side. A narrow cornice, a projecting horizontal band, runs above the upper windows.\n\nThe roof adds a less disciplined note. Its eaves extend slightly beyond the brick walls. A small dormer, containing a window, projects from each side of the roof facing the square. At the center, a triangular gable rises above the entrance bay. None of these features is especially elaborate. Together, however, they make the middle of the building more emphatic than its edges. Calling that emphasis dignified is an interpretation; the arrangement itself is visible.\n\nThe fenestration is regular, but the glazing is not uniform. Several upper panes have slight distortions through which reflections appear uneven. Others look flatter and clearer. This difference can be observed from outside, although the age of each pane has not been established. An elevation, a straight-on representation of the front, would show the windows' alignment. It would not explain the experience of walking through the rooms behind them.\n\nInside, the floor plan begins with a narrow entrance hall running north from the central door. Two former offices lie on either side of this hall, making four in total. At its far end, double doors open into a broad rear room that stretches across most of the building's width. Three tall windows face the northern yard. From the entrance, a visitor sees the double doors but cannot see much of either pair of side rooms.\n\nThe front offices retain timber door surrounds and patches of older lime plaster. In the rear room, the timber floor is worn most visibly near the doorway. These elements form part of the historic fabric: the surviving physical substance of the building, not the desks that once occupied it. Their condition has not been comprehensively assessed. Wear records use, but it cannot tell a visitor whether a component needs repair or what alterations it could accept.\n\nDesigner Mara Vale proposes removing the partitions between the entrance hall and the four offices, producing a broad front room for exhibitions and informal gathering. The rear room would remain a separate space. She would retain the external window openings and the entrance porch. Her argument is that the building's present sequence makes the public behave like applicants waiting to be summoned. A cultural center, she says, should allow people to understand its main space immediately.\n\nLocal essayist Ivo Reed favors retaining the smaller rooms and widening the range of activities within them. He sees the repeated doorways as invitations to discover something at a manageable scale. For him, an immediately legible interior can become an interior that has nothing left to reveal. He accepts that the current arrangement could confuse first-time visitors, but argues that signs and thoughtful programming deserve consideration before the walls are removed.\n\nThe same tall front windows serve both arguments. Vale regards them as an opportunity to bring a shared room into a clear relationship with the square. Reed values the intervals between them because those intervals belong to a rhythm of separate interiors. Neither interpretation follows automatically from the elevation. Nor does the available description establish how evenly either arrangement would be lit throughout the day. The windows support a discussion; they do not settle it.\n\nVale's proposal offers an attractive promise of visual generosity. Yet generosity is easier to draw when nobody's particular place has to remain. Reed's smaller rooms could preserve the modest pleasure of finding a corner that does not demand participation. That preference may underestimate the frustration of a newcomer confronted by closed doors. Still, before Alder House exchanges its accumulated pauses for one confident gesture, it deserves an account of what those pauses allow people to do.",
+      "source": "Авторский учебный материал; ситуация вымышленная"
+    },
+    {
+      "id": "m2",
+      "title": "Detail, Space and Change",
+      "kind": "reference",
+      "text": "Façade: the outside face of a building, especially the main front. Example: The brick façade faces a small public square.\n\nBay: one of the repeated vertical sections of a front. It is a division of the wall, not a room. Example: A clock marks the central bay above the doorway.\n\nColumn: an upright post, often supporting a roof or a beam. Example: A stone column stands at each side of the porch.\n\nCornice: a projecting horizontal band near the top of a wall. Example: The cornice casts a narrow shadow over the upper windows.\n\nDormer: a small structure with a window that projects from a sloping roof. Example: A small dormer breaks up the plain roof.\n\nEaves: the lower edges of a roof that extend beyond the walls. Example: Deep eaves shade the upper brickwork.\n\nGable: the triangular upper part of a wall under two sloping roof edges. Example: The central gable has a round window.\n\nFenestration: the arrangement and size of a building's windows. Glazing: the glass in them. Example: The fenestration is regular, but some of the glazing has been replaced.\n\nFloor plan: a drawing seen from above that shows rooms and the routes between them. Elevation: a straight-on drawing of one side of a building. Example: The floor plan shows two galleries; the front elevation shows the windows above the entrance.\n\nHistoric fabric: the surviving historic material of the building itself, such as brick, plaster, and woodwork, not its furniture. Example: Keeping the old plaster keeps part of the historic fabric, even after the desks are gone.\n\nWhat kind of work is proposed?\nPreserve: keep and maintain what exists; repair damaged parts rather than replace them.\nRestore: return a building to how it looked at a particular time.\nRehabilitate (adaptive reuse): give a building a new use while keeping the features that define its character.\nRetrofit: upgrade systems such as insulation, heating, or soundproofing.\n\nThese words name a type of work. None of them, on its own, guarantees comfort, privacy, safety, or accessibility. Descriptive words such as symmetrical name an arrangement; words such as graceful or unwelcoming add a judgment.",
+      "source": "Авторский учебный материал; ситуация вымышленная"
+    },
+    {
+      "id": "m3",
+      "title": "A New Requirement at Alder House",
+      "kind": "dialogue",
+      "text": "Original teaching material. This scripted discussion is fictional. Read it only when Exercise 4 begins. It introduces information unavailable in the earlier article.\n\nNadia, editor: We now have a program requirement from the proposed center's organizers. On Thursday evenings, individual advice appointments must take place at the same time as an amplified youth music rehearsal. The organizers cannot move either activity to another evening. Advice visitors need conversations that other visitors cannot overhear. This was not part of the brief discussed in the article.\n\nMara, designer: That changes my assessment of the broad front room. I had imagined exhibitions and informal gathering there. If advice takes place within it, visual openness becomes a disadvantage unless we introduce some form of enclosure. I still think a clear entrance space has value. Returning every existing wall to its current role is not the only possible response.\n\nLeon, future visitor: I would welcome an entrance where I could understand where to go. But I might avoid an advice appointment if everyone in an exhibition could watch me waiting. The smaller rooms sound promising. Do we know whether conversations can already be heard through their walls or doors?\n\nMara: No. We have no assessment of sound transmission between rooms. Keeping a partition does not establish privacy. The rear room is the proposed rehearsal space, but we also do not know how much amplified sound would reach the front rooms.\n\nNadia: There is another practical detail about the entrance. The main door from the square is reached by two steps. A side door from the eastern lane has no step at its threshold and leads into the entrance hall. The route through the lane and the doorway dimensions have not been assessed for different visitors' access needs.\n\nLeon: Then describing the side entrance as fully accessible would be premature. Could we consider keeping some front rooms while making the arrival clearer? I would also want the side entrance to feel like a proper welcome.\n\nMara: That is worth examining, although it could reduce the uninterrupted exhibition area. We need to distinguish a promising arrangement from a demonstrated solution.\n\nNadia: Let's record the competing requirements and the missing evidence before we recommend a layout.",
+      "source": "Авторский учебный материал; ситуация вымышленная"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1 целиком. Начни описание для районной рассылки с того места, где стоит читатель. Переведи: «С площади видно, что фасад разделён на пять вертикальных частей; вход находится в центральной, под неглубоким портиком».",
+      "context": "bay — вертикальная часть фасада; porch — портик, крыльцо с навесом; shallow — неглубокий.",
+      "guidance": {
+        "title": "Наблюдение: точка обзора и то, что видно",
+        "body": "Начни с места, откуда смотрит читатель: from the square, inside the hall. Дальше — только то, что можно проверить глазами. Оценочных слов в этой фразе нет.",
+        "example": "From the street, the library's front shows three tall windows above a wide stone step.",
+        "translation": "С улицы у фасада библиотеки видны три высоких окна над широкой каменной ступенью."
+      },
+      "hint": "Начни так: From the square, the façade…",
+      "answers": [
+        "From the square, the façade is divided into five bays, with the entrance in the central one, beneath a shallow porch.",
+        "From the square, you can see that the façade has five bays; the entrance is in the central bay, under a shallow porch.",
+        "Seen from the square, the façade reads as five vertical bays, and the entrance sits in the central one beneath a shallow porch."
+      ],
+      "explanation": "Засчитывается, если есть точка обзора, пять bays и вход в центральной части. Подойдут is divided into, has, reads as; beneath или under. Слова вроде dignified здесь лишние: это уже оценка.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Читатель рассылки прислал фразу: The entrance of Alder House is cold and unwelcoming. Перепиши её в две части: сначала что видно у входа по M1, потом оценка — с тем, чья она, и без превращения её в факт.",
+      "context": "framed by — обрамлён; double doors — двустворчатые двери.",
+      "guidance": {
+        "title": "Факт отдельно, впечатление — с хозяином",
+        "body": "В первой части — расположение и материал. Во второй — реакция и слово, которое показывает, что это реакция: may find, may feel, strikes some visitors as.",
+        "example": "The reading room has no windows on the street side; some readers find it calm, others closed in.",
+        "translation": "В читальном зале нет окон на улицу; одним читателям он кажется спокойным, другим — тесным."
+      },
+      "hint": "Что видит человек, который стоит в дверях? Начни так: The entrance is framed by…",
+      "answers": [
+        "The entrance is framed by darker stone beneath a shallow porch, and from the doorway a visitor sees only the double doors at the far end. Some visitors may find that arrangement unwelcoming.",
+        "A shallow porch and darker stone frame the entrance; inside, the narrow hall hides most of the side rooms. To a first-time visitor, this may feel unwelcoming."
+      ],
+      "explanation": "Засчитывается, если первая часть проверяется по M1 (портик, тёмный камень, узкий коридор, видны только дальние двери), а оценка смягчена и приписана посетителю. Cold и unwelcoming без хозяина звучат как свойство здания.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Редактор путает термины. Переведи для него: «На виде фасада окна стоят ровными рядами, но стекло в них разное. План этажа показывает, что за ними — четыре отдельных кабинета».",
+      "context": "elevation — вид (чертёж) одной стороны; regular — ровный; office — кабинет.",
+      "guidance": {
+        "title": "Окна и стекло, вид и план",
+        "body": "Ровность окон — fenestration, разное стекло — glazing. Вид спереди — elevation, комнаты сверху — floor plan. Каждое слово ставь к своему предмету.",
+        "example": "The side elevation shows a single row of small windows, while the floor plan reveals one long gallery behind them.",
+        "translation": "На виде боковой стороны — один ряд небольших окон, а план показывает за ними одну длинную галерею."
+      },
+      "hint": "Сколько терминов тебе нужно? Четыре — по одному на каждую часть фразы.",
+      "answers": [
+        "In the elevation, the fenestration is regular, but the glazing is not uniform. The floor plan shows four separate offices behind the windows.",
+        "The elevation shows regular fenestration, although the glazing varies from window to window. The floor plan shows that there are four separate offices behind them.",
+        "On the front elevation the windows are arranged in regular rows, but their glazing differs; the floor plan reveals four separate offices behind them."
+      ],
+      "explanation": "Засчитывается, если elevation и floor plan не перепутаны, а ровные ряды и разное стекло переданы через fenestration и glazing (или their glazing). Behind them и behind the windows — оба варианта верны.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В листовке написано: Vale's plan will restore Alder House and guarantee daylight in every room. По M1 тут две ошибки: план не возвращает старый вид, а даёт зданию новое использование; а свет в течение дня никто не проверял. Перепиши фразу честно (1–2 предложения).",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: оговорка — у прогноза, не у факта",
+        "body": "Вспоминаем урок об оговорках: проверенное говори прямо, прогноз — с could или is intended to. Здесь сначала выбери верное слово для типа работы, потом смягчи только обещание.",
+        "example": "The plan would convert the old mill into apartments; whether the rooms get enough light has not been studied.",
+        "translation": "По плану старую фабрику переделают в квартиры; хватит ли в комнатах света, не изучали."
+      },
+      "hint": "Какое слово из M2 значит «новое использование с сохранением характера»?",
+      "answers": [
+        "Vale's plan would rehabilitate Alder House for a new use, opening the front rooms into one space; how evenly that space would be lit has not been established.",
+        "Vale's proposal would adapt Alder House as a cultural center rather than restore it, and it could bring more daylight into the front, although this has not been tested.",
+        "Rather than restoring Alder House, Vale's plan would give it a new use. It is intended to make the front more open; its effect on daylight is still unknown."
+      ],
+      "explanation": "Засчитывается, если restore заменено на rehabilitate, adapt или give a new use, а guarantee — на would, could, is intended to или has not been established. Сам проект (убрать перегородки) описывается прямо.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Напиши редактору по M1 два предложения: как высокие передние окна поддерживают позицию Vale и как — позицию Reed. Потом одно предложение: что по этим окнам решить нельзя.",
+      "context": "",
+      "guidance": {
+        "title": "Одна деталь — две оценки",
+        "body": "Свяжи деталь с критерием каждого: для одного это ясность и связь с площадью, для другого — ритм отдельных комнат. Конструкция What X sees as…, Y regards as… ставит оценки рядом.",
+        "example": "What one critic sees as a generous open staircase, another regards as the loss of quiet corners.",
+        "translation": "То, что один критик считает щедрой открытой лестницей, другой воспринимает как потерю тихих уголков."
+      },
+      "hint": "Что M1 говорит о свете в разное время дня?",
+      "answers": [
+        "What Vale sees as a chance to connect a shared front room with the square, Reed regards as part of a rhythm of separate rooms. For Vale the windows promise openness; for Reed the intervals between them matter. Neither reading tells us how evenly either layout would be lit during the day.",
+        "Vale sees the tall front windows as a way to link one open room to the square, while Reed values the spaces between them because they mark separate interiors. The windows themselves can't settle whether either layout would get even daylight."
+      ],
+      "explanation": "Засчитывается, если у каждого назван свой критерий (связь с площадью или ритм отдельных комнат) и сказано, что окна не решают вопрос освещения. Sees as… regards as… или while — оба способа подходят.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Только теперь открой M3. Напиши организаторам 3–4 предложения: какую оценку открытого переднего зала ты дал бы по M1, что меняет новое требование и один конкретный вопрос, без ответа на который выбирать рано.",
+      "context": "overhear — случайно услышать чужой разговор; amplified — с усилителем.",
+      "guidance": {
+        "title": "Пересмотр: прежний вывод → новый факт → вопрос",
+        "body": "Не начинай с нуля. Назови, что думал раньше, какой факт это меняет и каким стал вывод. Вопрос должен вести к решению, а не просить «больше информации».",
+        "example": "Before I knew the gallery would show old photographs, I praised its large windows. Light-sensitive prints change that. How many hours of direct sun does the room get?",
+        "translation": "Пока я не знал, что в галерее будут старые фотографии, я хвалил её большие окна. Снимки, чувствительные к свету, это меняют. Сколько часов прямого солнца получает зал?"
+      },
+      "hint": "Начни так: Before the program requirement came up, I favored…",
+      "answers": [
+        "Before the program requirement came up, I favored Vale's open front room because it would make arrival clearer. Now that advice appointments must run alongside an amplified rehearsal, full openness looks less convincing: visitors need conversations that others cannot overhear. Keeping a wall, though, doesn't prove privacy either. How much sound would reach the front rooms from the rear rehearsal space?",
+        "On the article alone, I would have supported the open front room. The Thursday requirement changes that, because private advice and a loud rehearsal must happen at the same time. I'd now look at keeping some front rooms. Do we know whether conversations can be heard through the existing walls?"
+      ],
+      "explanation": "Засчитывается, если есть прежняя оценка, новый факт из M3 (консультации в то же время, что и репетиция; нужна приватность), суженный вывод и конкретный вопрос о звуке. Хорошо, если сказано, что сохранённая стена сама тишину не гарантирует.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши колонку для культурного журнала, 220–300 слов, со своим заголовком. Что должно быть: ясный тезис о будущем Alder House; точное описание фасада, плана и сохранившегося материала — минимум четыре термина из M2, каждый незнакомый термин объяснён в той же фразе; сильная версия противоположной позиции; что меняют требование из M3 и боковой вход; твой выбор с его ценой и условием (provided that…). Не обещай тишину, свет или доступность.",
+      "context": "Журнал спрашивает, что город сохраняет вместе со старым зданием.",
+      "hint": "Проверь каждое предложение: это видно, это чья-то оценка или это обещание проекта? У обещаний должны быть would, could или is intended to.",
+      "answers": [
+        "Keep the Rooms, Clarify the Welcome\n\nAlder House should become a cultural center through careful rehabilitation: a new use that keeps some of its small front rooms. Saving the façade alone would not save what makes the building distinctive.\n\nFrom Bell Square, its pale brick façade reads as five bays, or repeated vertical sections, with the entrance under a shallow porch. The regular fenestration, the even pattern of tall and short windows, matches an interior of separate offices. The floor plan, the arrangement of rooms seen from above, leads visitors down a narrow hall past four former offices to a broad rear room. Timber door frames, old plaster and a worn floor survive as historic fabric: the building's own material, not its furniture.\n\nMara Vale's case for one open front room deserves a fair hearing. Newcomers see little from the doorway, and an open space could make the center easy to understand at a glance. Keeping every wall simply because it is old would be nostalgia, not a plan.\n\nThe new program requirement shifts the balance. On Thursday evenings, private advice appointments must run alongside an amplified rehearsal, and an open hall offers no place to talk unheard. Some separate rooms now look useful rather than merely charming. Still, a wall is not proof of privacy: no one has measured how sound travels between the rooms. Nor does a step-free side door show that the route from the lane works for every visitor.\n\nI favor keeping some front rooms and making the arrival clearer, provided that sound and access are tested before the layout is fixed. The price is a smaller exhibition space, and I think it is worth paying."
+      ],
+      "explanation": "Засчитывается, если есть тезис, проверяемое описание с объяснёнными терминами, честный контраргумент, требование из M3 и вход, выбор с ценой и условием. Можно поддержать и полностью открытый зал, если так же честно сказать, что теряется и что не проверено.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты выступаешь на собрании жителей, которые статью не читали. Говори 2–3 минуты. Что должно быть: что за здание и о чём спор (2–3 фразы); две позиции — через то, что важно посетителю; минимум два термина, сразу объяснённые простыми словами; твой выбор и его граница — что пока не проверено (звук, путь к боковому входу); короткий итог. Запиши себя и проверь по записи, все ли пункты прозвучали.",
+      "context": "",
+      "hint": "План из четырёх частей: здание → две позиции → мой выбор → чего мы ещё не знаем.",
+      "answers": [
+        "Thanks for coming. Alder House is the old records office on the north side of Bell Square. It's empty now, and the plan is to turn it into a cultural center. The real question is how much of the inside we keep.\n\nRight now you walk in through a narrow hall, past four small offices, into one big room at the back. That's the floor plan, which simply means how the rooms connect.\n\nThere are two views. Mara Vale wants to take out the front walls and make one open room, so people understand the place the moment they walk in. Ivo Reed wants to keep the small rooms, because finding your own corner is part of the pleasure. Both are thinking about visitors; they just picture different ones.\n\nMy view is a mix: keep some of the front rooms and make the entrance much clearer. One reason is the historic fabric, by which I mean the original material, like the old plaster and the wooden door frames. The bigger reason is practical. On Thursday evenings, private advice sessions have to run at the same time as a loud music rehearsal, and people getting advice need a place where they can't be overheard.\n\nBut there are limits to what I can promise. Nobody has checked how much sound gets through those walls, so a wall alone doesn't mean privacy. And the side door from the lane has no step, which is promising, but the route hasn't been assessed, so we shouldn't call it accessible yet.\n\nSo let's agree on the direction, test sound and access, and then decide on the layout."
+      ],
+      "explanation": "Засчитывается, если слушатель без статьи понимает здание и спор, обе позиции переданы честно, два термина объяснены, выбор назван вместе с тем, что не проверено, и есть итог. Другой выбор подходит при тех же границах. Оценивай по своей записи.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Перенеси тот же способ на другое здание. Неудачный черновик о бывшей насосной станции: \"Brook Pump House is a gorgeous old place with a red-brick façade, three tall arched windows and one undivided hall. Its surviving cast-iron window frames and brick walls are basically old furniture. An oral-history venue is proposed, and listening sessions need darkness and quiet. Removable internal screens are proposed, so perfect darkness and silence are guaranteed, although their effects on daylight and sound have not been assessed. The scheme keeps the window openings and the single hall. This proves the conversion is ideal for every visitor.\" Сделай из него две версии по 80–100 слов: A — для будущего посетителя, B — для культурного журнала. Исправь термин, обещания и вывод; не добавляй фактов из Alder House.",
+      "context": "oral history — записанные воспоминания людей; screen — ширма, перегородка; pump house — насосная станция.",
+      "hint": "Сначала выпиши общие факты для обеих версий: фасад, окна, зал, рамы и стены, новая функция, экраны, что не проверено. Потом меняй только начало и акцент.",
+      "answers": [
+        "A\nBrook Pump House could become a place to hear oral histories, recorded memories of local people, in one undivided hall. Its red-brick front has three tall arched windows, and the old cast-iron frames and brick walls survive. The plan keeps the window openings and the single hall. Listening sessions need darkness and quiet, so removable screens are planned inside. How well they will block daylight and sound hasn't been tested yet. You can picture the setting, but the listening conditions are not guaranteed.\n\nB\nBrook Pump House is a test of whether a new use can keep a building's character. Behind its red-brick façade, three tall arched windows light one undivided hall; the cast-iron frames and brick walls are historic fabric, not furniture. The proposed oral-history venue would keep the openings and the single interior, adding removable screens for sessions that need darkness and quiet. This restraint is appealing, but it is still an intention: the screens' effect on daylight and sound has not been assessed. The conversion deserves consideration without being called ideal."
+      ],
+      "explanation": "Засчитывается, если в обеих версиях сохранены факты (фасад, три окна, единый зал, рамы и стены, новая функция, экраны, непроверенный эффект), «старая мебель» заменена на historic fabric или прямое описание, а guaranteed и proves убраны. Версия A начинается с того, что посетитель увидит, B — с критерия оценки."
+    }
+  ]
+}

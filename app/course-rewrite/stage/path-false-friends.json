@@ -1,0 +1,369 @@
+{
+  "id": "path-false-friends",
+  "title": "Magazine — не магазин: слова, которые только похожи на русские",
+  "subtitle": "Ложные друзья о людях → о вещах и времени → actual и actually → привычка проверять слово",
+  "level": "B1",
+  "group": "Лексика и сочетания",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Не попадаться на слова, похожие на русские: сказать «журнал» — magazine, «магазин» — store, «точный» — accurate, «аккуратный» — neat, и проверить любое подозрительное слово.",
+  "formula": "magazine — журнал ≠ магазин (store) · accurate — точный ≠ аккуратный (neat)",
+  "keyRule": {
+    "rule": "Слово похоже на русское, а фраза звучит странно — проверь его в словаре.",
+    "example": "I read a magazine — я читаю журнал. Магазин — это store.",
+    "check": "Магазин нельзя читать. Значит, magazine здесь — журнал."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-word-formation",
+    "path-collocations-b1",
+    "path-reading-inference"
+  ],
+  "recycles": [
+    "path-word-formation",
+    "path-reading-inference"
+  ],
+  "teaches": [
+    "ложные друзья — английские слова, похожие на русские, но с другим значением",
+    "magazine — журнал; магазин — store",
+    "accurate — точный; аккуратный — neat, tidy, careful",
+    "sympathetic — сочувствующий; симпатичный — nice, cute, good-looking",
+    "actual — настоящий, фактический; actually — на самом деле, вообще-то; актуальный — up to date, current, relevant",
+    "fabric — ткань (фабрика — factory); decade — десять лет (декада — ten days)",
+    "complexion — цвет лица (комплекция — build); prospect — перспектива (проспект — avenue)",
+    "familiar — знакомый; artist — художник или любой творец, артист театра и кино — actor",
+    "привычка: подставь значение → посмотри на соседние слова → открой английский словарь → запиши пару"
+  ],
+  "sources": [
+    {
+      "title": "Skyeng · 5 английских слов, которые вы хоть раз использовали неправильно",
+      "url": "https://skyeng.ru/magazine/vse-delali-eto-5-anglijskih-slov-kotorye-vy-hot-raz-ispolzovali-nepravilno/",
+      "notes": "Сверены actual («действительный, фактический», а «актуальный» — relevant, timely) и accurate («точный», а «аккуратный» — tidy)."
+    },
+    {
+      "title": "Антишкола · Ложные друзья переводчика",
+      "url": "https://antishkola.com/blog/lozhnie-druzya-perevodchikov/",
+      "notes": "Сверены пары magazine — журнал, sympathy — сочувствие, fabric — ткань (фабрика — factory) и советы, как проверять подозрительное слово: словарь, слово в контексте, свой список ловушек."
+    },
+    {
+      "title": "Dictionary.com · sympathetic",
+      "url": "https://www.dictionary.com/browse/sympathetic",
+      "notes": "Сверено: sympathetic — сочувствующий, понимающий, одобряющий; значения «привлекательный внешне» нет. Тем же словарём сверены complexion (цвет и состояние кожи лица, а не телосложение), prospect (перспективы, шанс, вид; не улица) и artist (в первую очередь художник, но и исполнитель — поэтому artist в уроке назван «другом наполовину»)."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Похоже на русское — значит другое",
+    "why": "Слева английское слово в обычной фразе, справа — что оно значит на самом деле и как сказать то, что ты имел в виду по-русски.",
+    "items": [
+      {
+        "label": "Похоже на «магазин»",
+        "en": "There's a magazine on the table.",
+        "ru": "На столе лежит журнал.",
+        "note": "Magazine — журнал. Магазин — store."
+      },
+      {
+        "label": "Похоже на «аккуратный»",
+        "en": "Her answer was accurate.",
+        "ru": "Её ответ был точным.",
+        "note": "Accurate — точный. Аккуратный — neat или careful."
+      },
+      {
+        "label": "Похоже на «симпатичный»",
+        "en": "The nurse was very sympathetic.",
+        "ru": "Медсестра мне очень сочувствовала.",
+        "note": "Sympathetic — сочувствующий. Симпатичный — nice или cute."
+      },
+      {
+        "label": "Похоже на «актуальный»",
+        "en": "The actual cost was higher.",
+        "ru": "Реальная стоимость оказалась выше.",
+        "note": "Actual — настоящий, фактический. Актуальный — up to date."
+      }
+    ],
+    "focus": [
+      "magazine",
+      "accurate",
+      "sympathetic",
+      "actual"
+    ],
+    "footnote": "Подставь русское значение. Фраза стала странной — перед тобой ложный друг."
+  },
+  "sections": [
+    {
+      "title": "Почему magazine — не магазин",
+      "body": "Ты читаешь сообщение друга: “I bought a magazine at the airport.” Первая мысль — «купил магазин в аэропорту». Звучит странно. На самом деле он купил журнал: magazine — это журнал.\n\nМногие английские слова похожи на русские и значат то же самое: problem — проблема, hotel — отель, idea — идея. Они помогают. Но есть слова, которые выглядят знакомо, а значат другое. Их называют «ложные друзья переводчика». Обычно и русское, и английское слово пришли из одного старого языка, но со временем их значения разошлись.\n\nЛожный друг не ломает грамматику. Фраза получается правильной, только смысл другой. Поэтому ошибку трудно заметить самому, а собеседник понимает тебя неправильно.\n\nПравило простое: если слово похоже на русское, а фраза от этого звучит странно, не доверяй сходству. Проверь слово.\n\nВсех похожих слов бояться не надо. Подозрение нужно, только когда смысл не складывается."
+    },
+    {
+      "title": "Слова о людях: sympathetic, accurate, familiar, artist",
+      "body": "Sympathetic — тот, кто сочувствует и понимает: a sympathetic doctor — врач, который тебе сочувствует. «Симпатичный» в смысле «приятный» — nice. О внешности — cute или good-looking.\n\nAccurate — точный, без ошибок: an accurate answer, an accurate clock. «Аккуратный» о комнате или почерке — neat или tidy. О человеке, который всё делает внимательно, — careful.\n\nFamiliar — знакомый: This song sounds familiar — эта песня кажется знакомой. «Фамильярный» по-английски скажут иначе: too informal.\n\nArtist — друг наполовину. Обычно это художник, но так называют и музыкантов: a solo artist. Артиста театра или кино называют actor."
+    },
+    {
+      "title": "Слова о вещах и времени",
+      "body": "Magazine — журнал. Магазин — store. В Британии говорят shop, но в американской речи обычное слово — store.\n\nFabric — ткань: a soft fabric. Фабрика — factory.\n\nDecade — десять лет: in the last decade — за последние десять лет. Русская «декада» — десять дней, по-английски просто ten days.\n\nComplexion — цвет лица: a pale complexion — бледное лицо. Комплекция, то есть телосложение, — build.\n\nProspect — перспектива, шанс на будущее: job prospects — шансы найти работу. Проспект как улица — avenue."
+    },
+    {
+      "title": "Actual и actually: самая частая ловушка",
+      "body": "Actual — настоящий, фактический: the actual price — настоящая цена, а не та, что в рекламе. Это не «актуальный».\n\n«Актуальный» говорят по-разному. Информация свежая и ещё верна — up to date или current: Is this schedule still up to date? Тема важна сейчас и подходит к разговору — relevant.\n\nActually — на самом деле, вообще-то. Это то же actual с -ly, как в уроке о семьях слов. В начале фразы actually мягко поправляет собеседника: Actually, I'm from Ohio — вообще-то я из Огайо. Значения «актуально» у него нет."
+    },
+    {
+      "title": "Как проверить слово, которое «выглядит по-русски»",
+      "body": "Сделай это привычкой из четырёх шагов.\n\n1. Подставь русское значение. Фраза звучит странно? Это первый сигнал.\n2. Посмотри на соседние слова, как при чтении с выводами. I read a magazine — магазин не читают, значит, это журнал.\n3. Открой английский толковый словарь для изучающих язык, например Cambridge или Merriam-Webster Learner's. Читай английское объяснение и примеры, а не только первый русский перевод.\n4. Запиши пару в свой список: magazine — журнал ≠ магазин — store. Через неделю проверь себя по этому списку."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I read about it in a magazine.",
+      "ru": "Я прочитал об этом в журнале.",
+      "why": "Magazine читают — значит, это журнал."
+    },
+    {
+      "en": "Let's stop at the store on the way home.",
+      "ru": "Давай зайдём в магазин по дороге домой.",
+      "why": "Сравни с фразой выше: магазин по-американски — store."
+    },
+    {
+      "en": "The actual price was $40 more.",
+      "ru": "Настоящая цена оказалась на 40 долларов больше.",
+      "why": "Actual — реальный, фактический. Никакой «актуальности» здесь нет."
+    },
+    {
+      "en": "Is this information still up to date?",
+      "ru": "Эта информация ещё актуальна?",
+      "why": "Русское «актуальный» о свежей информации — up to date."
+    },
+    {
+      "en": "She was very sympathetic when I lost my job.",
+      "ru": "Она мне очень сочувствовала, когда я потерял работу.",
+      "why": "Sympathetic — о сочувствии, а не о внешности."
+    },
+    {
+      "en": "He's a really nice guy.",
+      "ru": "Он очень симпатичный парень.",
+      "why": "Симпатичный в смысле «приятный» — nice."
+    },
+    {
+      "en": "The town has changed a lot in the last decade.",
+      "ru": "За последние десять лет город сильно изменился.",
+      "why": "Decade — десять лет, а не десять дней."
+    },
+    {
+      "en": "Your face looks familiar.",
+      "ru": "Ваше лицо мне кажется знакомым.",
+      "why": "Familiar — знакомый. Ничего «фамильярного» в этой фразе нет."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Скажи соседу по квартире: «Я куплю журнал в магазине».",
+      "context": "roommate — сосед по квартире.",
+      "guidance": {
+        "title": "Magazine — это журнал",
+        "body": "Magazine — журнал: его читают. Магазин — store. В этой фразе встречаются оба слова, не перепутай их местами.",
+        "example": "I saw your photo in a magazine.",
+        "translation": "Я видел твою фотографию в журнале."
+      },
+      "hint": "Что читают, а куда заходят за покупками? Начни так: I'll buy a …",
+      "answers": [
+        "I'll buy a magazine at the store.",
+        "I will buy a magazine at the store.",
+        "I'll get a magazine at the store.",
+        "I'm going to buy a magazine at the store.",
+        "I'm going to get a magazine at the store."
+      ],
+      "explanation": "Журнал — magazine, магазин — store. I'll buy и I'm going to buy одинаково верны. Shop тоже поймут, но в американской речи обычно говорят store."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Похвали коллегу: «Твои цифры точные, а записи очень аккуратные».",
+      "context": "notes — записи.",
+      "guidance": {
+        "title": "Accurate — точный, а не аккуратный",
+        "body": "Accurate говорят о цифрах, ответах, часах: всё без ошибок. «Аккуратный» о вещах и порядке — neat или tidy.",
+        "example": "This clock isn't accurate. It's five minutes fast.",
+        "translation": "Эти часы неточные: спешат на пять минут."
+      },
+      "hint": "Две половины — два разных слова. Какое из них похоже на русское, но значит другое?",
+      "answers": [
+        "Your numbers are accurate, and your notes are very neat.",
+        "Your numbers are accurate and your notes are very neat.",
+        "Your numbers are accurate, and your notes are very tidy.",
+        "Your figures are accurate, and your notes are very neat.",
+        "Your numbers are accurate, and your notes are really neat."
+      ],
+      "explanation": "Точные цифры — accurate, аккуратные записи — neat или tidy. Your notes are very accurate значило бы, что в записях нет ошибок, а не что они красиво оформлены."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Расскажи другу: «Моя соседка — очень симпатичная женщина, и она мне очень посочувствовала». «Симпатичная» здесь — приятная в общении.",
+      "context": "neighbor — соседка.",
+      "guidance": {
+        "title": "Sympathetic — сочувствует, а не нравится",
+        "body": "Sympathetic — тот, кто тебе сочувствует. «Симпатичный» в смысле «приятный» — nice, о внешности — cute или good-looking.",
+        "example": "My boss was very sympathetic when my son was sick.",
+        "translation": "Начальник очень мне сочувствовал, когда болел мой сын."
+      },
+      "hint": "В твоей фразе два похожих по смыслу места: «симпатичная» и «посочувствовала». Какое из них — sympathetic?",
+      "answers": [
+        "My neighbor is a very nice woman, and she was very sympathetic.",
+        "My neighbor is a very nice woman and she was very sympathetic.",
+        "My neighbor is a really nice woman, and she was very sympathetic.",
+        "My neighbor is a very nice woman, and she was really sympathetic."
+      ],
+      "explanation": "Приятная — nice, посочувствовала — was sympathetic. A very sympathetic woman тоже правильно, но значит «очень отзывчивая», а не «симпатичная»."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем семьи слов. Друг думает, что ты из Нью-Йорка. Мягко поправь его: «Вообще-то я из Бостона».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: actual → actually",
+        "body": "Как в уроке о семьях слов, -ly делает из признака наречие: actual — настоящий, actually — на самом деле, вообще-то. В начале фразы actually мягко поправляет.",
+        "example": "Actually, the meeting is on Thursday, not Friday.",
+        "translation": "Вообще-то встреча в четверг, а не в пятницу."
+      },
+      "hint": "Начни с поправки и запятой. Потом скажи, откуда ты.",
+      "answers": [
+        "Actually, I'm from Boston.",
+        "Actually, I am from Boston.",
+        "I'm actually from Boston.",
+        "Actually, I'm from Boston, not New York."
+      ],
+      "explanation": "Actually — «вообще-то, на самом деле». Его можно поставить в начало с запятой или после I'm. Значения «актуально» у него нет."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега прислал расписание на март. Спроси его: «Это расписание ещё актуально?»",
+      "context": "schedule — расписание.",
+      "guidance": {
+        "title": "«Актуальный» — up to date",
+        "body": "Actual не значит «актуальный». Если информация свежая и ещё верна, говорят up to date или current. Relevant — когда тема важна и подходит к разговору.",
+        "example": "Is your address still current?",
+        "translation": "Твой адрес ещё актуален?"
+      },
+      "hint": "Вопрос начинается с is. Какое выражение значит «свежий, ещё верный»?",
+      "answers": [
+        "Is this schedule still up to date?",
+        "Is this schedule still current?",
+        "Is the schedule still up to date?",
+        "Is the schedule still current?",
+        "Is this schedule up to date?"
+      ],
+      "explanation": "Up to date и current — «актуальный» о свежей информации. Is this schedule still actual? носитель не поймёт: actual значит «настоящий»."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Расскажи о подруге: «Последние десять лет она работает на фабрике, которая делает ткань». Используй decade.",
+      "context": "",
+      "guidance": {
+        "title": "Фабрика, ткань, десять лет",
+        "body": "Здесь три ловушки сразу. Фабрика — factory, а fabric — ткань.",
+        "example": "This jacket is made of a soft fabric.",
+        "translation": "Эта куртка из мягкой ткани."
+      },
+      "hint": "Работает до сих пор — нужен have/has + третья форма. Начни так: For the last decade, she …",
+      "answers": [
+        "For the last decade, she has worked at a factory that makes fabric.",
+        "She has worked at a factory that makes fabric for the last decade.",
+        "For the last decade, she's worked at a factory that makes fabric.",
+        "For the last decade, she has been working at a factory that makes fabric.",
+        "She has been working at a factory that makes fabric for the last decade.",
+        "For the past decade, she has worked at a factory that makes fabric."
+      ],
+      "explanation": "Factory — фабрика, fabric — ткань, the last decade — последние десять лет. Has worked и has been working оба верны: работа идёт до сих пор."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Знакомый написал о новой соседке, и в тексте три ложных друга. Он хотел сказать: она приятная, сложена как баскетболистка и живёт на проспекте Линкольна. Исправь и напиши текст целиком: “My new neighbor is very sympathetic, and she has a great smile. She has the complexion of a basketball player: tall and strong. She lives on Lincoln Prospect.”",
+      "context": "is built like — сложена как.",
+      "guidance": {
+        "title": "Найди слово, которое «выглядит по-русски»",
+        "body": "Перечитай текст и остановись на каждом слове, похожем на русское. Подставь его английское значение. Если фраза стала странной, автор взял ложного друга.",
+        "example": "She has a pale complexion and dark hair.",
+        "translation": "У неё бледное лицо и тёмные волосы."
+      },
+      "hint": "Подозрительных слов три: sympathetic, complexion, prospect. Что каждое значит на самом деле?",
+      "answers": [
+        "My new neighbor is very nice, and she has a great smile. She is built like a basketball player: tall and strong. She lives on Lincoln Avenue.",
+        "My new neighbor is very nice, and she has a great smile. She's built like a basketball player: tall and strong. She lives on Lincoln Avenue.",
+        "My new neighbor is really nice, and she has a great smile. She has the build of a basketball player: tall and strong. She lives on Lincoln Avenue.",
+        "My new neighbor is very cute, and she has a great smile. She's built like a basketball player: tall and strong. She lives on Lincoln Avenue."
+      ],
+      "explanation": "Sympathetic → nice или cute, complexion (цвет лица) → is built like или has the build of, Prospect → Avenue. С ошибками выходило: соседка ему сочувствует, у неё лицо как у баскетболистки, а живёт она на «перспективе Линкольна»."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о чтении. Друг перевёл artist в этом тексте как «артистка». По деталям текста скажи, кто она, и назови деталь: «Она художница. В тексте сказано, что она показала нам свои картины».",
+      "context": "Текст: “The artist showed us her paintings and gave us a tour of her studio.” paintings — картины.",
+      "guidance": {
+        "title": "Вспоминаем: детали подсказывают значение",
+        "body": "Как при чтении с выводами, смотри на соседние слова. Рядом paintings и studio — значит, artist здесь художник. Артиста театра или кино называют actor.",
+        "example": "The artist played three songs on the guitar.",
+        "translation": "Исполнитель сыграл на гитаре три песни."
+      },
+      "hint": "Художник — painter. Вторая фраза начинается так: The text says she …",
+      "answers": [
+        "She's a painter. The text says she showed us her paintings.",
+        "She is a painter. The text says she showed us her paintings.",
+        "She's a painter. The text says that she showed us her paintings.",
+        "She's an artist who paints. The text says she showed us her paintings."
+      ],
+      "explanation": "Картины и мастерская указывают на художницу: painter или artist. Actor здесь не подходит. Вторая фраза — факт из текста, поэтому The text says."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Твой американский коллега Джейк учит русский и спрашивает: “Which Russian words look like English ones but mean something different?” Напиши ему сообщение на 60–120 слов. Что должно быть: три пары; для каждой — что значит английское слово, что значит похожее русское и как это русское сказать по-английски; короткий пример хотя бы к одной паре.",
+      "context": "",
+      "hint": "Удобная схема для каждой пары: In Russian, “…” sounds like …, but it means …",
+      "answers": [
+        "Hi Jake! Good question. In Russian, “magazin” sounds like magazine, but it means a store. A magazine is “zhurnal.” Then there's “akkuratny.” It looks like accurate, but it means neat or careful, so a neat room is an “akkuratnaya” room. If you want to say accurate, use “tochny.” Finally, “simpatichny” means nice or good-looking, not sympathetic. A sympathetic person in Russian is someone who “sochuvstvuyet,” who feels sorry for you. So if a Russian friend calls you “simpatichny,” it's a compliment!"
+      ],
+      "explanation": "Засчитывается, если в каждой из трёх пар названы оба значения и английское слово для русского значения, а хотя бы к одной паре есть пример. Русские слова латиницей — нормальный способ показать их коллеге."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга начала учить английский и жалуется, что путает похожие слова. Запиши ей голосовое сообщение на 30–60 секунд. Что должно быть: как ты проверяешь слово, которое «выглядит по-русски», — по шагам; один пример ложного друга; одна ситуация, где ты сам ошибся или мог ошибиться.",
+      "context": "",
+      "hint": "Начни так: When a word looks Russian, I do three things. First, …",
+      "answers": [
+        "When a word looks Russian, I do three things. First, I put the Russian meaning into the sentence. If it sounds strange, I stop. Second, I look at the words around it. For example, “I read a magazine” can't be about a store, because you can't read a store. Third, I check an English dictionary and read the examples. Once I told a coworker that our project was very actual. Actually, I meant up to date. Now I write every pair like that in a list."
+      ],
+      "explanation": "Засчитывается, если шаги проверки идут по порядку, есть пример ложного друга с правильным значением и своя ситуация. Расшифровка голоса покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e11",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега Павел просит проверить письмо американской коллеге. В нём пять ложных друзей. Исправь и напиши письмо целиком: “Hi Megan, thanks for the actual information about the conference. I printed the schedule, and it looks very accurate and clean now. Our designer, Oleg, is a really sympathetic guy. He wants to show you the fabric where we print our posters. I'll send you the photos in a decade.”",
+      "context": "Павел имел в виду: «актуальная информация», «расписание выглядит аккуратно», «Олег — очень приятный парень», «фабрика, где печатают плакаты», «через десять дней».",
+      "hint": "Пройди по письму и подчеркни каждое слово, похожее на русское. Их ровно пять.",
+      "answers": [
+        "Hi Megan, thanks for the up-to-date information about the conference. I printed the schedule, and it looks very neat and clean now. Our designer, Oleg, is a really nice guy. He wants to show you the factory where we print our posters. I'll send you the photos in ten days.",
+        "Hi Megan, thanks for the latest information about the conference. I printed the schedule, and it looks very neat now. Our designer, Oleg, is a really nice guy. He wants to show you the factory where we print our posters. I'll send you the photos in ten days."
+      ],
+      "explanation": "Засчитывается, если исправлены пять мест: actual → up-to-date или latest, accurate → neat или tidy, sympathetic → nice, fabric → factory, in a decade → in ten days. С ошибками Меган прочитала бы, что фото придут через десять лет."
+    }
+  ]
+}

@@ -91,8 +91,16 @@ type LessonVisual struct {
 	Footnote string             `json:"footnote,omitempty"`
 	Focus    []string           `json:"focus,omitempty"`
 }
+// LessonKeyRule is the one memorable rule shown at the top of a lesson:
+// the rule itself, a vivid example and a quick self-check.
+type LessonKeyRule struct {
+	Rule    string `json:"rule"`
+	Example string `json:"example,omitempty"`
+	Check   string `json:"check,omitempty"`
+}
 type Lesson struct {
-	CourseGuide *CourseGuide `json:"courseGuide,omitempty"`
+	CourseGuide *CourseGuide   `json:"courseGuide,omitempty"`
+	KeyRule     *LessonKeyRule `json:"keyRule,omitempty"`
 	Beginner    bool         `json:"beginner,omitempty"`
 	// A guided lesson carries its own single explanation and step sequence;
 	// it never receives a course-guide overlay (see docs/COURSE-STANDARD.md).
@@ -131,6 +139,7 @@ type Server struct {
 	courseGuides         map[string]CourseGuide
 	cinema               json.RawMessage
 	research             json.RawMessage
+	lessonClips          json.RawMessage
 	pronunciation        json.RawMessage
 	subtitles            json.RawMessage
 	researchTopics       map[string]researchTopic
@@ -232,7 +241,7 @@ func (s *Server) Handler() http.Handler {
 		w.Header().Set("X-Content-Type-Options", "nosniff")
 		w.Header().Set("Referrer-Policy", "no-referrer")
 		w.Header().Set("Cache-Control", "no-store")
-		w.Header().Set("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'")
+		w.Header().Set("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; frame-src https://www.youtube-nocookie.com https://www.youtube.com; frame-ancestors 'none'; object-src 'none'; base-uri 'self'")
 		m.ServeHTTP(w, r)
 	})
 }
@@ -301,7 +310,7 @@ func (s *Server) bootstrap(w http.ResponseWriter, r *http.Request) {
 	})
 	out := map[string]any{"state": s.db.snapshot(), "settings": c, "hasKey": hasKey, "lessons": s.allLessons(), "topics": s.topics, "books": books}
 	out["bookStatus"] = s.bookBuildStatus()
-	for key, value := range map[string]json.RawMessage{"library": s.library, "learningPath": s.learningPath, "studyRoute": s.studyRoute, "cinema": s.cinema, "research": s.research, "pronunciation": s.pronunciation, "subtitleSources": s.subtitles} {
+	for key, value := range map[string]json.RawMessage{"library": s.library, "learningPath": s.learningPath, "studyRoute": s.studyRoute, "cinema": s.cinema, "lessonClips": s.lessonClips, "research": s.research, "pronunciation": s.pronunciation, "subtitleSources": s.subtitles} {
 		if len(value) > 0 {
 			out[key] = value
 		}

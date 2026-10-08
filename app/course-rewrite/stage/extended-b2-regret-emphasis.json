@@ -1,0 +1,349 @@
+{
+  "id": "extended-b2-regret-emphasis",
+  "title": "Если бы только: сожаление, извинение и «она всё-таки отправила»",
+  "subtitle": "If only… → признать свой шаг: shouldn't have → I do care, she did send → поправить своё обвинение после проверки",
+  "level": "B2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Разобрать неудачу в команде: сказать, о чём жалеешь («Если бы только мы проверили вход!»), признать свою ошибку («Зря я обвинила Лею») и твёрдо поправить неверное: «Лея всё-таки отправила карту».",
+  "formula": "If only we had tested the route! → I shouldn't have blamed Lea. → Lea did send the map. → Sam does care. → The records show that…",
+  "keyRule": {
+    "rule": "Тебе говорят «не сделал», а ты знаешь, что сделал, — поставь did перед глаголом.",
+    "example": "She did send the map — она всё-таки отправила карту.",
+    "check": "После did глагол без -ed: did send, не did sent."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-mixed-conditionals",
+    "path-modal-perfect",
+    "path-reported-speech"
+  ],
+  "recycles": [
+    "path-modal-perfect",
+    "path-mixed-conditionals"
+  ],
+  "teaches": [
+    "If only + прошедшая форма / had + третья форма — то же, что wish, но сильнее; часто одна восклицательная фраза: If only we had tested the route!",
+    "If only ≠ if + only «только»: If only one person comes, we'll cancel",
+    "признать свой шаг: I shouldn't have blamed Lea before checking — вместо безличного Mistakes were made",
+    "откуда сведения: Lea says…, I assumed…, The records show…; отправила ≠ получили ≠ прочитали",
+    "do / does / did + глагол без окончаний — «правда», «всё-таки», с ударением: I do care, Sam does care, She did send it",
+    "с am, is, are, can, have do не ставят — выделяют голосом то слово, которое есть: I AM listening; I do am — ошибка",
+    "уступка: I do like the photos, but…",
+    "поправить своё обвинение: I need to correct what I told you… → что показала проверка → что неизвестно → извинение",
+    "слова: entrance, route, assume, directions, records, confirmation email, guest list, test booking"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Wishes: wish and if only",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/wishes-wish-if-only",
+      "notes": "Сверено: if only строится так же, как wish (прошедшая форма — о сейчас, past perfect — о прошлом), но обычно звучит сильнее и эмоциональнее."
+    },
+    {
+      "title": "British Council LearnEnglish · Emphasis: cleft sentences, inversion and auxiliaries",
+      "url": "https://learnenglish.britishcouncil.org/grammar/c1-grammar/emphasis-cleft-sentences-inversion-auxiliaries",
+      "notes": "Сверен раздел о помощниках: если во фразе нет вспомогательного глагола, для усиления добавляют do, does, did — чтобы возразить на чужое мнение («I did like some of it») или подтвердить; если помощник уже есть, его выделяют голосом (I am coming!). Британский пример Do sit down в урок не взят."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "После открытия: разговор команды",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная.",
+      "text": "Nora: I wish this room were bigger. People can see the photos, but there's hardly any space to talk. And yesterday was even worse. The first guests waited at the wrong entrance for twenty minutes.\n\nSam: I should have checked the entrance myself. I looked at the lights and the labels, and I just assumed the directions were fine.\n\nNora: If only we had tested the whole route before the opening. I told two volunteers that Lea probably hadn't sent the new map. Now I'm not sure that was fair.\n\nSam: Lea says she sent it on Thursday evening. We haven't checked the email records yet, so we shouldn't call either version a fact.\n\nLea: I do want to help. I'm upset about the delay too, but please ask me before you decide what I did. I can bring my sent emails tomorrow.\n\nSam: Nora, you also said I didn't care about the visitors. I do care. I spent the whole evening helping the people who came late find the photos they wanted to see.\n\nNora: You're right. You did help them. I wish I weren't so quick to blame people. Let's check the records together before we write the report."
+    },
+    {
+      "id": "m2",
+      "title": "Нора: что я знала, а что придумала",
+      "kind": "reading",
+      "source": "Авторский учебный материал; ситуация вымышленная.",
+      "text": "I organized this exhibition because I wanted our neighbors to see our town differently. Each photographer chose an ordinary local place and explained why it mattered to them.\n\nOn Friday afternoon, a guest called me from outside a locked door. Several other visitors were waiting there too. The exhibition opened on time inside, but this group missed the opening talk because they had gone to the wrong entrance. They waited for twenty minutes before I found them.\n\nI immediately thought of the new map. Lea had agreed to send it, and I had never asked her to confirm. I told two volunteers that she probably hadn't sent it. I didn't know that. I was embarrassed, and I turned my guess into an accusation.\n\nThat evening, Sam helped the late guests, even though I had said he didn't care. I saw him take people to the photos they wanted and answer their questions. Later, Lea told me she had sent the map. I haven't seen the records yet.\n\nI still wish the room were bigger. I also wish I had checked the route before inviting everyone. Those are two different regrets: one is about the room we have now, and the other is about a decision I can't undo."
+    },
+    {
+      "id": "m3",
+      "title": "Сообщение из офиса галереи после проверки",
+      "kind": "listening",
+      "source": "Авторский учебный материал; ситуация вымышленная.",
+      "text": "Hi, everyone. This is Ben from the gallery office. We checked the email records with Lea this morning. Her email on Thursday evening had the correct map, and it went to everyone on the guest list. So Lea did send the new directions.\n\nBut there's a problem on our side. Our automatic confirmation email still showed the old entrance. The guests who called Nora had followed that email. From the records, we can't tell whether every guest read Lea's later message. So please don't write that nobody got the new map, or that everybody used the old directions.\n\nWe've already fixed the automatic email. Before the next event, our office will send a test booking to Sam, so he can check the whole route himself. In your report, please keep the two things separate: our wrong automatic email and the correct message Lea sent. Thanks for waiting until we'd checked."
+    }
+  ],
+  "sections": [
+    {
+      "title": "If only: то же, что wish, только сильнее",
+      "body": "Wish ты знаешь из урока о смешанных условиях. If only строится так же, но звучит сильнее — «если бы только», «эх, если бы». If only the room were bigger! — если бы только зал был побольше! Это о сейчас: прошедшая форма. If only we had tested the route! — если бы только мы проверили маршрут! Это о прошлом: had + третья форма.\n\nIf only часто стоит одной восклицательной фразой, без второй части. Это законченная реплика.\n\nНе путай с обычным if + only. If only one person comes, we'll cancel — если придёт только один человек, отменим. Здесь нет сожаления, only значит «только».\n\nВ рабочем письме одной фразы с If only достаточно. Дальше — факты и что ты сделаешь."
+    },
+    {
+      "title": "Признать свою ошибку и не придумать чужую",
+      "body": "Should have и shouldn't have ты знаешь. В разборе неудачи они нужны, чтобы назвать свой конкретный шаг: I shouldn't have blamed Lea before checking — зря я обвинила Лею, не проверив. Это честнее, чем безличное Mistakes were made — «были допущены ошибки».\n\nНо сожаление — не доказательство. Lea must have forgotten — это догадка, а без признаков — просто обвинение. Говори, откуда сведения: Lea says she sent it — Лея говорит, что отправила. I assumed… — я решила, не проверив. The records show… — записи показывают.\n\nОтправила, получили и прочитали — три разных факта. Из одного не следует другой."
+    },
+    {
+      "title": "Do, does, did: «правда», «всё-таки»",
+      "body": "Тебе говорят: You don't care about the visitors. Ты отвечаешь: I do care! — мне правда не всё равно! Do перед глаголом в обычном утверждении значит «правда», «действительно», «всё-таки». Его произносят с ударением.\n\nТак отвечают, когда собеседник сомневается или сказал обратное. Lea didn't send the map. — She did send it, on Thursday — она всё-таки отправила, в четверг.\n\nФорма как в отрицании, только без not: do, для he, she, it — does, для прошлого — did. После них глагол без окончаний: She does keep the receipts, а не does keeps. She did send, а не did sent. Порядок слов не меняется: I do understand — утверждение, Do I understand? — вопрос."
+    },
+    {
+      "title": "Если помощник уже есть, do не нужен",
+      "body": "Если во фразе есть am, is, are, can, will или have, do не добавляют. Голосом выделяют то слово, которое уже есть. You're not listening. — I AM listening. She can't explain it. — She CAN explain it. They haven't replied. — They HAVE replied. I do am sorry — ошибка: нужно I AM sorry или I really am sorry. Сокращение I'm здесь не подходит: на нём не сделаешь ударение.\n\nНе ставь do в каждую фразу. Без сомнения или спора оно звучит так, будто ты возражаешь.\n\nЕщё одно частое место — уступка: I do like the photos, but the room is too dark — фотографии мне правда нравятся, но в зале слишком темно."
+    },
+    {
+      "title": "Когда пришли новые факты",
+      "body": "Ты сказала то, что оказалось неправдой. Поправь это сама и по порядку. Что ты говорила: I told you that Lea hadn't sent the map. Что показала проверка: The records show that she did send it. Что пока неизвестно: We don't know whether every guest read it. Извинение за свои слова: I'm sorry I blamed her before checking.\n\nНачать можно так: I need to correct what I told you — мне нужно поправить то, что я тебе говорила.\n\nНе отменяй вместе с ошибкой всё остальное. Если гости правда ждали двадцать минут, это остаётся фактом."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If only I had saved a copy!",
+      "ru": "Если бы только я сохранил копию!",
+      "why": "Сожаление о прошлом одной фразой, без второй части."
+    },
+    {
+      "en": "If only it weren't so far!",
+      "ru": "Эх, если бы это было не так далеко!",
+      "why": "Weren't — прошедшая форма, а речь о сейчас."
+    },
+    {
+      "en": "I shouldn't have said that before checking.",
+      "ru": "Зря я это сказал, не проверив.",
+      "why": "Свой конкретный шаг, без обвинения других."
+    },
+    {
+      "en": "\"You never call me.\" — \"I do call you! I called on Sunday.\"",
+      "ru": "«Ты мне никогда не звонишь». — «Звоню же! Я звонил в воскресенье».",
+      "why": "Do с ударением спорит с never. После do — call без окончаний."
+    },
+    {
+      "en": "Marta does check the numbers every week.",
+      "ru": "Марта правда проверяет цифры каждую неделю.",
+      "why": "She — does, и глагол без -s: check."
+    },
+    {
+      "en": "\"You're not ready.\" — \"I am ready!\"",
+      "ru": "«Ты не готов». — «Я готов!»",
+      "why": "Am уже есть, поэтому do не нужен — ударение падает на am."
+    },
+    {
+      "en": "I do like your idea, but we don't have time for it.",
+      "ru": "Идея мне правда нравится, но на неё нет времени.",
+      "why": "Уступка: сначала честное «да», потом «но»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1. Нора пишет в общий чат команды: «Если бы только мы проверили весь путь до входа перед открытием!» route — путь, маршрут; the opening — открытие.",
+      "context": "",
+      "guidance": {
+        "title": "If only + had + третья форма — сильное сожаление",
+        "body": "Это как wish о прошлом, только эмоциональнее. Фраза законченная: вторая часть не нужна.",
+        "example": "If only I had saved the file!",
+        "translation": "Если бы только я сохранил файл!"
+      },
+      "hint": "Начни так: If only we had … Третья форма test — tested, check — checked.",
+      "answers": [
+        "If only we had tested the whole route before the opening!",
+        "If only we had checked the whole route before the opening!",
+        "If only we'd tested the whole route before the opening!",
+        "If only we'd checked the whole route before the opening!",
+        "If only we had tested the route before the opening!",
+        "If only we had checked the route before the opening!",
+        "If only we had tested the whole route before we opened!"
+      ],
+      "explanation": "Had tested — проверки не было, это прошлое. If only we tested было бы о сейчас. Tested и checked оба подходят.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Нора пишет сестре две фразы: «Если бы только зал был побольше!» и «Если бы только я не сказала волонтёрам про Лею!» volunteers — волонтёры.",
+      "context": "",
+      "guidance": {
+        "title": "Сейчас или тогда",
+        "body": "Зал маленький сейчас — прошедшая форма: were. Сказала она уже — had или hadn't + третья форма.",
+        "example": "If only my apartment were closer to work! If only I hadn't signed the lease!",
+        "translation": "Если бы только квартира была ближе к работе! Если бы только я не подписал договор аренды!"
+      },
+      "hint": "Первая фраза: If only the room were … Вторая: If only I hadn't told …",
+      "answers": [
+        "If only the room were bigger! If only I hadn't told the volunteers about Lea!",
+        "If only the room was bigger! If only I hadn't told the volunteers about Lea!",
+        "If only the room were larger! If only I hadn't told the volunteers about Lea!",
+        "If only the room was larger! If only I hadn't told the volunteers about Lea!",
+        "If only the room were bigger! If only I had not told the volunteers about Lea!",
+        "If only the room were bigger! If only I hadn't said anything to the volunteers about Lea!"
+      ],
+      "explanation": "Were bigger — о нынешнем зале; в разговоре можно was. Hadn't told — уже сказала и жалеет. If only I didn't tell — ошибка: это было бы о сейчас."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем should have. Сэм говорит команде: «Надо было мне самому проверить вход. И не надо было думать, что с указателями всё в порядке». entrance — вход; assume — считать, не проверив; directions — указатели, объяснение, как пройти.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: should have и shouldn't have",
+        "body": "Should have — надо было, а не сделал. Shouldn't have — сделал, а не стоило. Так признают свой конкретный шаг.",
+        "example": "I should have asked for the address. I shouldn't have trusted the old map.",
+        "translation": "Надо было спросить адрес. Не надо было доверять старой карте."
+      },
+      "hint": "Первая фраза: I should have checked … Вторая: I shouldn't have assumed (that) the directions were …",
+      "answers": [
+        "I should have checked the entrance myself. And I shouldn't have assumed the directions were fine.",
+        "I should have checked the entrance myself. I shouldn't have assumed the directions were fine.",
+        "I should have checked the entrance myself. I shouldn't have assumed that the directions were fine.",
+        "I should've checked the entrance myself. I shouldn't have assumed the directions were fine.",
+        "I should have checked the entrance myself, and I shouldn't have assumed that the directions were fine.",
+        "I should have checked the entrance myself. I shouldn't have assumed the directions were OK.",
+        "I should have checked the entrance myself. I shouldn't have assumed the directions were okay."
+      ],
+      "explanation": "Should have checked — не проверил. Shouldn't have assumed — предположил, и зря. Were после assumed — прошедшее время, как в пересказе. Fine, OK и okay подходят одинаково."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Прослушай M3. Потом волонтёр пишет тебе: Lea never sent the map. Ответь ему: «Лея всё-таки отправила карту — в четверг вечером».",
+      "context": "",
+      "guidance": {
+        "title": "Did + глагол — «всё-таки сделал»",
+        "body": "Тебе говорят «не сделал», а ты знаешь, что сделал, — поставь did перед глаголом и выдели его голосом. Глагол после did — без -ed.",
+        "example": "\"You didn't call me.\" — \"I did call you! Twice.\"",
+        "translation": "«Ты мне не позвонил». — «Я же звонил! Два раза»."
+      },
+      "hint": "Начни так: Lea did … Глагол send после did остаётся send.",
+      "answers": [
+        "Lea did send the map on Thursday evening.",
+        "Lea did send the map, on Thursday evening.",
+        "Lea did send the map — on Thursday evening.",
+        "She did send the map on Thursday evening.",
+        "Lea did send the map on Thursday night.",
+        "Actually, Lea did send the map on Thursday evening.",
+        "Lea did send the map. She sent it on Thursday evening."
+      ],
+      "explanation": "Did send спорит с never sent. Did sent — ошибка: время уже показывает did. Thursday night тоже подходит.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый волонтёр пишет две фразы: Sam doesn't care about the visitors. You don't want to understand what happened. Ответь от лица Норы: «Сэму правда не всё равно, что с посетителями. И я правда хочу понять, что случилось».",
+      "context": "",
+      "guidance": {
+        "title": "Do и does — «правда», о сейчас",
+        "body": "О сейчас — do, для he и she — does. Глагол после does — без -s.",
+        "example": "\"She doesn't like the photos.\" — \"She does like them. She just thinks the room is too dark.\"",
+        "translation": "«Ей не нравятся фотографии». — «Нравятся! Она просто считает, что в зале слишком темно»."
+      },
+      "hint": "Начни так: Sam does care … I do want …",
+      "answers": [
+        "Sam does care about the visitors. And I do want to understand what happened.",
+        "Sam does care about the visitors. I do want to understand what happened.",
+        "Sam does care about the visitors, and I do want to understand what happened.",
+        "Sam does care about visitors. I do want to understand what happened.",
+        "Sam does care about the visitors. I really do want to understand what happened."
+      ],
+      "explanation": "Does care — Sam = he, поэтому does, а care без -s. Do want — о тебе сейчас. Sam does cares — ошибка."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сэм и Нора спорят. Nora: You're not listening to me. Сэм: «Я слушаю!» Nora: Lea can't explain this. Сэм: «Может она объяснить — давай её спросим». Напиши только реплики Сэма.",
+      "context": "",
+      "guidance": {
+        "title": "Помощник уже есть — do не нужен",
+        "body": "Если во фразе есть am, is, are, can или have, do не добавляй. Выдели голосом то слово, которое уже есть.",
+        "example": "\"They haven't replied.\" — \"They have replied. Check your inbox.\"",
+        "translation": "«Они не ответили». — «Ответили. Посмотри почту»."
+      },
+      "hint": "Am и can уже есть: I am … She can … Let's ask her.",
+      "answers": [
+        "I am listening! She can explain it. Let's ask her.",
+        "I am listening! She can explain it — let's ask her.",
+        "I am listening. She can explain it. Let's ask her.",
+        "I am listening! She can explain this. Let's ask her.",
+        "I am listening! She can explain. Let's ask her.",
+        "I am listening! She can explain it, so let's ask her."
+      ],
+      "explanation": "Am и can несут ударение сами: I AM listening, She CAN explain. I do am listening — ошибка."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Волонтёр набросал заметку для отчёта. В ней четыре ошибки в форме. Исправь и перепиши целиком: Sam did helped the guests on Friday. Lea does sends updates every week. I do am sorry about the delay. If only we checked the route last Friday!",
+      "context": "",
+      "guidance": {
+        "title": "Проверь глагол после do, does, did",
+        "body": "После do, does, did — глагол без окончаний. С am, is, can do не ставят. If only о прошлом — had + третья форма.",
+        "example": "She did call the office. He does answer emails. If only I had known!",
+        "translation": "Она всё-таки позвонила в офис. Он правда отвечает на письма. Если бы только я знал!"
+      },
+      "hint": "Ищи по одному месту в каждой фразе. Пятница уже прошла — какая форма после If only?",
+      "answers": [
+        "Sam did help the guests on Friday. Lea does send updates every week. I am sorry about the delay. If only we had checked the route last Friday!",
+        "Sam did help the guests on Friday. Lea does send updates every week. I really am sorry about the delay. If only we had checked the route last Friday!",
+        "Sam did help the guests on Friday. Lea does send updates every week. I am sorry about the delay. If only we'd checked the route last Friday!",
+        "Sam did help the guests on Friday. Lea does send updates every week. I really am sorry about the delay. If only we'd checked the route last Friday!"
+      ],
+      "explanation": "Did helped → did help, does sends → does send: время уже показывают did и does. I do am → I am или I really am: с am do не нужен. Checked → had checked: пятница прошла."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Прослушай M3 ещё раз, расшифровку не открывай. Два волонтёра, Мария и Джош, слышали, как Нора обвинила Лею. Напиши им от лица Норы сообщение на 100–150 слов. Что должно быть: 1) что ты говорила раньше и что это неправда; 2) что показали записи — с усилительным did; 3) настоящая причина путаницы; 4) что пока неизвестно; 5) извинение за свои слова; 6) что уже исправлено и что будет сделано до следующего события.",
+      "context": "Слова: records — записи; confirmation email — письмо-подтверждение; guest list — список гостей; test booking — пробная запись.",
+      "hint": "Начни так: I need to correct what I told you about Lea.",
+      "answers": [
+        "Hi Maria and Josh,\n\nI need to correct what I told you about Lea. On Friday, I said she probably hadn't sent the new map. That wasn't true. Ben from the gallery office checked the email records this morning: Lea did send the correct map on Thursday evening, and it went to everyone on the guest list. The real problem was on the gallery's side. Their automatic confirmation email still showed the old entrance, and the guests who called me had followed that email. We still don't know whether every guest read Lea's message. I'm sorry I blamed her before checking. The office has already fixed the automatic email, and before the next event, they'll send Sam a test booking so he can check the whole route.\n\nNora"
+      ],
+      "explanation": "Засчитывается, если есть все шесть пунктов и ничего не преувеличено: письмо Леи ушло всем, но неизвестно, все ли его прочитали; путаницу вызвало автоматическое письмо со старым входом; письмо уже исправлено, а пробная запись ещё впереди. Did send должно опираться на записи, а не только на слова Леи.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Выступи от лица Норы на встрече команды. Говори 1–2 минуты. Что должно прозвучать: 1) зачем ты делала выставку (M2); 2) настоящая причина путаницы и одно, что пока неизвестно (M3); 3) одно If only о прошлом и одно wish о сейчас; 4) твоя ошибка — с shouldn't have; 5) два «правда / всё-таки»: о Лее (did) и о Сэме (does); 6) урок на следующий раз.",
+      "context": "",
+      "hint": "Начни так: I want to start with why we did this. Потом: Now we know what went wrong.",
+      "answers": [
+        "I want to start with why we did this. I organized this exhibition because I wanted our neighbors to see our town differently, and I think the photos do that. Now we know what went wrong on Friday. The gallery's automatic confirmation email still showed the old entrance, and the guests who waited outside had followed it. We don't know whether every guest read Lea's later message. If only we had tested the whole route before the opening! I also wish the room were bigger, because it's still hard to talk in here. I made a mistake, too. I shouldn't have blamed Lea before checking. She did send the correct map on Thursday evening. And Sam does care about our visitors. He spent the whole evening helping the people who came late. Next time, we'll walk the route ourselves before we invite anyone, and Sam will check the test booking from the office."
+      ],
+      "explanation": "Засчитывается, если прозвучали все шесть пунктов, причина взята из M3, а не придумана, а did и does стоят там, где есть факт: записи и то, что Нора видела сама. Голосом выделяй did и does.",
+      "materialIds": [
+        "m2",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Перепиши для архива ошибочный отчёт так, чтобы он совпадал с M1–M3 (100–150 слов). В нём ошибки и в фактах, и в формах: Lea never sent the correct map, and every visitor used the old entrance. Sam did ignored the guests. The whole exhibition opened twenty minutes late. Nora wishes the room had been bigger now. If only the team checks everything last Friday! Nobody knows why it happened, and the office has already done next time's test booking.",
+      "context": "",
+      "hint": "Проверь отдельно: что отправила Лея, какие гости ждали, когда открылась выставка, что с залом сейчас, что уже сделано и что только будет.",
+      "answers": [
+        "Lea did send the correct map on Thursday evening, and it went to everyone on the guest list. However, the gallery's automatic confirmation email still showed the old entrance. The guests who waited outside had followed that email; we don't know whether every guest read Lea's message. Sam did not ignore the guests: he spent the evening helping the late arrivals. The exhibition opened on time inside, but one group waited twenty minutes at the wrong entrance and missed the opening talk. Nora wishes the room were bigger. If only the team had tested the route before the opening! The office has fixed the automatic email and will send Sam a test booking before the next event."
+      ],
+      "explanation": "Засчитывается, если исправлены формы (did ignored, had been bigger now, checks … last Friday) и факты: карта отправлена, ждала одна группа, выставка открылась вовремя, причина известна, пробная запись ещё впереди. Sam didn't ignore и Sam helped — оба верно.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    }
+  ]
+}

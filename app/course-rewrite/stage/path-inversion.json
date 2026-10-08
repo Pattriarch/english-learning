@@ -1,0 +1,343 @@
+{
+  "id": "path-inversion",
+  "title": "Never have I seen…: порядок как в вопросе после «никогда» и «только тогда»",
+  "subtitle": "Обычная фраза → «никогда» или «только» вперёд → помощник перед «кто» → только там, где нужен сильный акцент",
+  "level": "C1",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Сделать сильный акцент в речи, эссе или официальном письме: «Никогда ещё я не видел такой очереди», «Только после звонка я понял, что случилось», «Ни в коем случае не сообщайте пароль».",
+  "formula": "I have never seen this. → Never have I seen this. · I understood only later. → Only later did I understand.",
+  "guided": true,
+  "keyRule": {
+    "rule": "«Никогда», «редко» или «только тогда» в начале фразы — дальше порядок как в вопросе.",
+    "example": "Never have I seen such a long line — никогда ещё я не видел такой длинной очереди.",
+    "check": "В фразе нет have, can или will? Добавь do, does или did: Rarely do we…"
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "path-past-perfect",
+    "path-me-too",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-past-perfect",
+    "path-register-b2"
+  ],
+  "teaches": [
+    "отрицательное или ограничивающее слово в начале + помощник перед «кто»: Never have I seen…, Rarely do we…",
+    "нет помощника — do / does / did, глагол без окончания: Only then did I realize",
+    "only after / only when / not until: перестановка во второй части; only + человек — без перестановки (Only Maria knew)",
+    "not only … but also: перестановка только в первой части",
+    "no sooner had … than, hardly had … when — «не успел…, как»",
+    "little did I know — «я и не подозревал»; under no circumstances / at no time + should / did",
+    "уместность: речь, эссе, официальное письмо; в разговоре — обычный порядок и ударение голосом"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Inversion after negative adverbials (C1)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-after-negative-adverbials",
+      "notes": "Сверено: список слов, после которых меняется порядок (never, rarely, seldom, hardly, barely, no sooner, only + время, under no circumstances, at no time, not until, not only, little); do/did, если помощника нет; hardly … when и no sooner … than обычно с had + третьей формой; инверсия — официальная речь и выступления."
+    },
+    {
+      "title": "Skyeng · Инверсия в повествовательных предложениях",
+      "url": "https://skyeng.ru/articles/ah-esli-by-vy-znali-inversiya-v-povestvovatelnyh-predlozheniyah",
+      "notes": "Объяснение для русскоговорящих: Not only…, Under no circumstances should you…, обычный вариант рядом с перестановкой; перестановка звучит официально и книжно, в повседневной речи редка."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Одна мысль — обычный порядок и перестановка",
+    "why": "Смысл не меняется. Меняется только то, что слышат первым: «никогда» или «только позже». После него помощник встаёт перед «кто», как в вопросе.",
+    "items": [
+      {
+        "label": "Помощник уже есть",
+        "en": "I have never seen this. → Never have I seen this.",
+        "ru": "Никогда я такого не видел.",
+        "note": "Have просто встаёт перед I."
+      },
+      {
+        "label": "Помощника нет",
+        "en": "We rarely meet. → Rarely do we meet.",
+        "ru": "Мы редко встречаемся.",
+        "note": "Добавили do, как в вопросе Do we meet?"
+      },
+      {
+        "label": "Две части",
+        "en": "Only when she called did I understand.",
+        "ru": "Только когда она позвонила, я понял.",
+        "note": "Внутри when she called порядок обычный."
+      }
+    ],
+    "footnote": "Знака вопроса нет, голос в конце идёт вниз: это утверждение.",
+    "focus": [
+      "Never have I",
+      "Rarely do we",
+      "did I understand"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Зачем переставлять слова, если смысл тот же",
+      "body": "Ты пишешь благодарность организаторам: I have never seen such a well-organized event. Можно сказать сильнее: Never have I seen such a well-organized event — «Никогда ещё я не видел такого хорошо организованного мероприятия».\n\nПо-русски «никогда» можно просто поставить вперёд, остальные слова не меняются. По-английски так нельзя. Если в начале стоит «никогда», «редко» или «только тогда», дальше идёт порядок как в вопросе: сначала помощник (have, did, can, will, should), потом «кто».\n\nЭто называют инверсией — перестановкой слов. Но это не вопрос: знака вопроса нет, голос в конце идёт вниз. Ты уже знаешь такую перестановку по So do I и Neither do I.\n\nПравило работает только со словами «нет» и «только»: never, rarely, seldom (редко), only…, not until, under no circumstances, little. С обычными словами порядок не меняется: Yesterday I saw Tom, а не Yesterday did I see Tom."
+    },
+    {
+      "title": "Как построить: помощник перед «кто»",
+      "body": "Возьми обычную фразу и найди в ней помощник: have, had, can, will, should, is, was. Вынеси «никогда» или «редко» вперёд, а помощник поставь перед «кто»:\nI have rarely seen → Rarely have I seen.\nShe can seldom relax → Seldom can she relax — она редко может расслабиться.\nThe city was never so quiet → Never was the city so quiet.\n\nЕсли помощника нет (обычное настоящее или прошедшее время), добавь do, does или did — как в вопросе. Глагол после них теряет окончание: We rarely get thank-you notes → Rarely do we get thank-you notes. I realized → Only then did I realize, а не did I realized.\n\nТипичная ошибка русскоговорящих — вынести слово и забыть про перестановку: Never I have seen, Rarely we get. Так не говорят."
+    },
+    {
+      "title": "Only и not until: переставляется вторая часть",
+      "body": "Часто в начале стоит целая часть со временем или условием: Only after the call, Only when she called, Only if you agree. Внутри неё порядок обычный. Перестановка — во второй, главной части: Only when she called did I understand — «Только когда она позвонила, я понял».\n\nТак же с not until — «только когда; не раньше чем»: Not until the meeting ended did anyone mention the budget — «Только когда встреча закончилась, кто-то упомянул бюджет».\n\nГде правило не работает: если only относится к человеку или вещи в роли «кто», порядок обычный. Only Maria knew the answer — «Только Мария знала ответ». Проверка: задай вопрос к only. «Когда? При каком условии?» — перестановка нужна. «Кто?» — не нужна."
+    },
+    {
+      "title": "Готовые сочетания: not only, no sooner, little, under no circumstances",
+      "body": "Not only — «не только»: перестановка только в первой части, вторая обычная: Not only did she finish early, but she also helped two coworkers — «Она не только закончила раньше, но и помогла двум коллегам».\n\nNo sooner … than и hardly … when — «не успел…, как»: первое действие в had + третья форма, второе — после than или when в обычном прошедшем: No sooner had we sat down than the fire alarm went off — «Не успели мы сесть, как сработала пожарная тревога».\n\nLittle did I know — «я и не подозревал». Это сочетание американцы любят в рассказах, часто с лёгкой иронией: Little did I know that the job would change my life.\n\nUnder no circumstances, at no time, in no way — «ни в коем случае», «ни разу», «никак». Чаще всего в правилах и официальных письмах: Under no circumstances should you share your password. At no time did the company warn us."
+    },
+    {
+      "title": "Где так говорить, а где нет",
+      "body": "Перестановка звучит торжественно. Она уместна в речи на мероприятии, в эссе, в официальном письме, в новостях и в рассказе в момент поворота. В обычном разговоре американцы говорят прямым порядком и выделяют слово голосом: I've NEVER seen anything like it. I only realized it later.\n\nИсключения в разговоре — готовые фразы: Little did I know…, Not only that, but… (без перестановки, «мало того»).\n\nОдной-двух перестановок на текст хватает: ставь их там, где главная мысль. Три подряд звучат как пародия на старинную пьесу. Если фраза с перестановкой ничего не выделяет, оставь обычный порядок — он точнее."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Never have I seen such a long line at the post office.",
+      "ru": "Никогда ещё я не видел такой длинной очереди на почте.",
+      "why": "Have уже был в I have never seen — он просто встал перед I."
+    },
+    {
+      "en": "Rarely do we get a chance to thank our volunteers in person.",
+      "ru": "Нечасто у нас есть возможность лично поблагодарить волонтёров.",
+      "why": "Помощника не было, поэтому добавили do; get без окончания."
+    },
+    {
+      "en": "Only after the call did I understand what had happened.",
+      "ru": "Только после звонка я понял, что случилось.",
+      "why": "Did стоит в главной части; внутри after the call ничего не меняется."
+    },
+    {
+      "en": "Only Maria knew the password.",
+      "ru": "Только Мария знала пароль.",
+      "why": "Only относится к «кто», поэтому порядок обычный."
+    },
+    {
+      "en": "No sooner had we sat down than the fire alarm went off.",
+      "ru": "Не успели мы сесть, как сработала пожарная тревога.",
+      "why": "Первое действие — had + третья форма, второе — после than в обычном прошедшем."
+    },
+    {
+      "en": "Under no circumstances should you share your password.",
+      "ru": "Ни в коем случае не сообщайте никому свой пароль.",
+      "why": "Should встал перед you. Так пишут в правилах и предупреждениях."
+    },
+    {
+      "en": "Little did I know that this trip would change my life.",
+      "ru": "Я и не подозревал, что эта поездка изменит мою жизнь.",
+      "why": "Готовая фраза для рассказа: little здесь значит «совсем не»."
+    },
+    {
+      "en": "I only realized it later.",
+      "ru": "Я понял это только потом.",
+      "why": "Так скажешь другу — без перестановки. Only later did I realize it — для речи или текста."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь благодарственное письмо организаторам конференции: «Никогда ещё я не бывал на такой хорошо организованной конференции». Начни с Never. attend — посещать, бывать; well-organized — хорошо организованный.",
+      "context": "",
+      "guidance": {
+        "title": "Помощник уже есть — поставь его перед I",
+        "body": "В I have never attended помощник — have. Вынеси Never вперёд, а have поставь перед I. Третья форма attended остаётся после I.",
+        "example": "Never has our team worked so hard.",
+        "translation": "Никогда ещё наша команда не работала так много."
+      },
+      "hint": "Начни так: Never have I …",
+      "answers": [
+        "Never have I attended such a well-organized conference.",
+        "Never have I been to such a well-organized conference.",
+        "Never before have I attended such a well-organized conference.",
+        "Never before have I been to such a well-organized conference.",
+        "Never have I attended a conference this well organized.",
+        "Never have I been to a conference this well organized."
+      ],
+      "explanation": "Never have I attended — have перед I, attended на месте. Never I have attended — ошибка: после never нужен порядок как в вопросе. Been to вместо attended тоже верно."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Клиентка прислала длинный отзыв о твоей пекарне. Ответь ей: «Мы редко получаем такие подробные отзывы». Начни с Rarely. receive — получать, detailed — подробный, feedback — отзыв (без a и без -s).",
+      "context": "",
+      "guidance": {
+        "title": "Помощника нет — добавь do или did",
+        "body": "В We rarely receive нет have, can или will. Как в вопросе Do we receive…?, добавь do перед we. Глагол после него — в начальной форме.",
+        "example": "Seldom did she complain about the long hours.",
+        "translation": "Она редко жаловалась на долгий рабочий день."
+      },
+      "hint": "Какое слово стоит перед we в вопросе «Мы получаем?» — оно и нужно.",
+      "answers": [
+        "Rarely do we receive such detailed feedback.",
+        "Rarely do we get such detailed feedback.",
+        "Rarely do we receive feedback this detailed.",
+        "Rarely do we get feedback this detailed.",
+        "Seldom do we receive such detailed feedback.",
+        "Seldom do we get such detailed feedback."
+      ],
+      "explanation": "Rarely do we receive: do перед we, receive без окончаний. Rarely we receive — ошибка, нет перестановки. Get и seldom тоже верны."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь в блоге, как чинил машину: «Только когда я увидел счёт, я понял, сколько стоил ремонт». Начни с Only when. bill — счёт, repair — ремонт.",
+      "context": "",
+      "guidance": {
+        "title": "Only when: меняется вторая часть",
+        "body": "Внутри when I saw the bill порядок обычный. Перестановка — в главной части: did перед I, глагол без -ed.",
+        "example": "Only when the lights went out did we notice the storm.",
+        "translation": "Только когда погас свет, мы заметили грозу."
+      },
+      "hint": "Сколько раз в ответе стоит did? Один раз — во второй части.",
+      "answers": [
+        "Only when I saw the bill did I realize how much the repair cost.",
+        "Only when I saw the bill did I realize how much the repair had cost.",
+        "Only when I saw the bill did I understand how much the repair cost.",
+        "Only when I saw the bill did I understand how much the repair had cost.",
+        "Only after I saw the bill did I realize how much the repair cost.",
+        "Only after seeing the bill did I realize how much the repair cost.",
+        "Only when I saw the bill did I realize how expensive the repair was."
+      ],
+      "explanation": "When I saw the bill — обычный порядок, did I realize — перестановка. После how much тоже обычный порядок: how much the repair cost. Only when did I see the bill — ошибка: перестановка не в той части."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи две фразы из рассказа о квесте: «Только Сэм знал код от двери. Только потом Сэм сказал нам код». door code — код от двери.",
+      "context": "",
+      "guidance": {
+        "title": "Only про человека — без перестановки",
+        "body": "Если only относится к «кто» (Only Sam), это обычное начало фразы, порядок не меняется. Перестановка нужна, когда only говорит о времени или условии: Only later, Only then.",
+        "example": "Only my sister came to the meeting. Only then did I relax.",
+        "translation": "На встречу пришла только моя сестра. Только тогда я расслабился."
+      },
+      "hint": "Задай вопрос к only в каждой фразе: «кто?» или «когда?».",
+      "answers": [
+        "Only Sam knew the door code. Only later did Sam tell us the code.",
+        "Only Sam knew the door code. Only later did he tell us the code.",
+        "Only Sam knew the door code. Only later did he tell us.",
+        "Only Sam knew the door code. Only then did he tell us the code.",
+        "Only Sam knew the code to the door. Only later did he tell us the code.",
+        "Only Sam knew the code for the door. Only later did he tell us the code."
+      ],
+      "explanation": "В первой фразе only — про человека, поэтому Only Sam knew, без did. Во второй only — про время, поэтому did he tell. Then вместо later тоже верно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь жалобу авиакомпании: «Не успели мы сесть в самолёт, как объявили задержку». board the plane — сесть в самолёт, announce a delay — объявить задержку. Начни с No sooner.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем had + третья форма: No sooner had… than",
+        "body": "Вспоминаем past perfect: had + третья форма — то, что случилось раньше другого. После No sooner had встаёт перед «кто». Вторая часть начинается с than и идёт в обычном прошедшем.",
+        "example": "No sooner had I paid than I noticed the mistake on the receipt.",
+        "translation": "Не успел я заплатить, как заметил ошибку в чеке."
+      },
+      "hint": "Начни так: No sooner had we … — а вторую часть начни с than.",
+      "answers": [
+        "No sooner had we boarded the plane than they announced a delay.",
+        "No sooner had we boarded the plane than a delay was announced.",
+        "No sooner had we boarded the plane than the airline announced a delay.",
+        "No sooner had we gotten on the plane than they announced a delay.",
+        "No sooner had we boarded than they announced a delay.",
+        "No sooner had we boarded the plane than they announced a delay in our flight.",
+        "No sooner had we boarded the plane than they announced that the flight was delayed."
+      ],
+      "explanation": "No sooner had we boarded — had перед we, boarded как третья форма. Вторая часть — с than, не с when. Hardly had we boarded the plane when… тоже верно по смыслу."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь рекомендацию для стажёрки: «Дана не только закончила отчёт раньше срока, но и помогла двум коллегам». ahead of schedule — раньше срока, coworkers — коллеги. Начни с Not only.",
+      "context": "",
+      "guidance": {
+        "title": "Not only: перестановка только в первой части",
+        "body": "После Not only — did, has или can перед «кто». Вторая часть идёт обычным порядком: but she also…",
+        "example": "Not only does the app save time, but it also saves money.",
+        "translation": "Приложение не только экономит время, но и экономит деньги."
+      },
+      "hint": "Начни так: Not only did Dana … — и проверь, что во второй части нет did she.",
+      "answers": [
+        "Not only did Dana finish the report ahead of schedule, but she also helped two coworkers.",
+        "Not only did Dana finish the report ahead of schedule, but she also helped two of her coworkers.",
+        "Not only did Dana finish the report early, but she also helped two coworkers.",
+        "Not only did Dana finish the report before the deadline, but she also helped two coworkers.",
+        "Not only did Dana finish the report ahead of schedule, but she helped two coworkers as well.",
+        "Not only did Dana finish the report ahead of schedule, but she also helped two colleagues.",
+        "Not only did Dana finish the report ahead of schedule; she also helped two coworkers."
+      ],
+      "explanation": "Did Dana finish — перестановка, finish без -ed. Во второй части обычный порядок: but she also helped. Early и before the deadline тоже верны."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Это объявление управляющей компании для всех жильцов дома. Найди и исправь три ошибки, перепиши текст целиком: Under no circumstances you should leave bikes in the lobby. Only after the inspection the gym will reopen. Never we have had so many complaints about noise.",
+      "context": "inspection — проверка, lobby — холл, complaints — жалобы.",
+      "guidance": {
+        "title": "Вспоминаем регистр: проверь каждую фразу",
+        "body": "Вспоминаем урок о регистре: в объявлении для всех торжественный тон уместен. Но после «ни в коем случае», «только после» и «никогда» помощник должен стоять перед «кто».",
+        "example": "At no time will residents lose access to the laundry room.",
+        "translation": "Жильцы ни на минуту не потеряют доступ в прачечную."
+      },
+      "hint": "В каждой фразе найди помощник — should, will, have — и проверь, где он стоит.",
+      "answers": [
+        "Under no circumstances should you leave bikes in the lobby. Only after the inspection will the gym reopen. Never have we had so many complaints about noise.",
+        "Under no circumstances should residents leave bikes in the lobby. Only after the inspection will the gym reopen. Never have we had so many complaints about noise.",
+        "Under no circumstances should you leave bikes in the lobby. Only after the inspection will the gym reopen. Never before have we had so many complaints about noise."
+      ],
+      "explanation": "Should you leave, will the gym reopen, have we had — во всех трёх фразах помощник переходит перед «кто». Остальные слова остаются на месте."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши короткую речь (150–250 слов) для вечера в честь волонтёров района, библиотеки или школы. В речи: кого и за что ты благодаришь; два-три конкретных факта (цифры, даты, случаи); две перестановки — там, где главные мысли (например, Never have we…, Not only did they…, Only when… did…); остальной текст — обычным порядком; что будет дальше.",
+      "context": "",
+      "hint": "Сначала напиши речь обычным порядком, потом выбери две самые важные фразы и только их переставь.",
+      "answers": [
+        "Good evening, everyone. Tonight we're here to thank the forty volunteers who kept the Maple Street Library open this year.\n\nIn March, the city cut our budget, and we had to reduce staff hours. Many of us thought the library would close on weekends. It didn't. Every Saturday and Sunday, volunteers sat at the front desk, shelved books, and helped kids with homework. Together they worked more than three thousand hours.\n\nNever have we seen so many people step up so quickly. Not only did our volunteers keep the doors open, but they also started a reading club for seniors that now has twenty-five members.\n\nI also want to thank Mr. Alvarez, who fixed every broken chair in the building without being asked.\n\nNext year, the city has promised to restore part of our budget, but we will still need your help, especially on weekend mornings. If you'd like to stay involved, please sign up at the front desk tonight.\n\nThank you all. This library is yours as much as it is ours."
+      ],
+      "explanation": "Засчитывается, если в речи есть благодарность с конкретными фактами, ровно две-три верные перестановки в главных местах (помощник перед «кто», do/did при необходимости), остальной текст обычным порядком и сказано, что будет дальше."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 2–3 минуты историю о том, как ты что-то понял слишком поздно: о работе, переезде, поездке или покупке. В рассказе: где и когда это было; момент, когда всё изменилось, — с одной-двумя перестановками (Little did I know…, Only when… did I…, No sooner had I… than…); остальное обычным порядком; чему тебя это научило; в конце скажи главный момент так, как сказал бы другу, без перестановки.",
+      "context": "Сначала расскажи без записи, потом прослушай себя: стоит ли помощник перед «кто» после only, never, little.",
+      "hint": "Начни так: A few years ago, I …",
+      "answers": [
+        "A few years ago, I moved to Chicago for a new job. I found an apartment online, and it looked perfect: big windows, a quiet street, and a great price. I signed the lease without visiting it, because I was still in another state. Little did I know that the apartment was right above a bar. The first night, I was so tired that I fell asleep early. No sooner had I closed my eyes than the music started downstairs. It went on until two in the morning, and the same thing happened every weekend. I tried earplugs, and I talked to the manager, but nothing really helped. The manager just shrugged and said that the bar had been there for twenty years. I started going to bed later and later, and I was always tired at work. My new boss even asked me once if I was okay. Only when I talked to my neighbors did I understand why the price was so low. Everybody in the building knew about the bar, and most people moved out after one year. That's exactly what I did. I learned to always visit a place before I sign anything, or at least to ask someone to visit it for me. And to read reviews of the neighborhood, not just the apartment. So, to put it simply: I only figured out why it was so cheap after I'd already moved in."
+      ],
+      "explanation": "Засчитывается, если история связная, есть одна-две верные перестановки в момент поворота, остальной рассказ — обычным порядком, назван вывод и в конце главный момент сказан по-разговорному, без перестановки."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Руководитель написал сообщение для рабочего чата, и оно звучит как речь со сцены. Перепиши его для чата: оставь одну перестановку — там, где самое важное предупреждение, — остальное скажи обычным порядком. Rarely have we had such a busy month. Not only did we launch the new website, but we also hired three people. Never have I been prouder of this team. Under no circumstances should you share the new client list outside the company. Only on Friday will the final numbers be ready.",
+      "context": "launch — запустить, client list — список клиентов.",
+      "hint": "Какое из пяти предложений — правило, которое нельзя нарушать? Его и оставь с перестановкой.",
+      "answers": [
+        "We've rarely had such a busy month. We launched the new website, and we also hired three people. I've never been prouder of this team. Under no circumstances should you share the new client list outside the company. The final numbers will be ready on Friday.",
+        "We've rarely had a month this busy. We launched the new website and hired three people too. I've never been so proud of this team. Under no circumstances should you share the new client list outside the company. The final numbers won't be ready until Friday."
+      ],
+      "explanation": "Засчитывается, если осталась одна перестановка — под предупреждением о списке клиентов, а остальные четыре фразы переписаны обычным порядком без потери смысла: We've rarely had…, We launched… and hired…, I've never been…, The numbers will be ready on Friday."
+    }
+  ]
+}

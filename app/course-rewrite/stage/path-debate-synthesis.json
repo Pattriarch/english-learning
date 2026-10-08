@@ -1,0 +1,358 @@
+{
+  "id": "path-debate-synthesis",
+  "title": "Итог живого спора: о чём на самом деле спорят и что поможет решить",
+  "subtitle": "Какой это спор → одно ли слово → скрытое допущение → узел спора → итог вслух → поправка при всех",
+  "level": "C2",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "keyRule": {
+    "rule": "Сначала пойми, о чём спор: о фактах, о словах или о том, что важнее.",
+    "example": "We agree on the facts; we disagree about what matters more. — В фактах мы согласны; расходимся в том, что важнее.",
+    "check": "Если завтра появятся точные сведения, этот спор закончится?"
+  },
+  "goal": "Подвести итог спора прямо на встрече, вслух: «Мы спорим не о фактах, а о том, что важнее», «Похоже, всё сводится к одному вопросу…», «Что заставило бы вас передумать?» — и спокойно поправить свой итог, если участник говорит «я не это сказал».",
+  "formula": "Are we disagreeing about the facts, or about what matters more? · When A says X, she means…, whereas B means… · That assumes… — is that right? · It seems to come down to whether… · What would change your mind? · Let me try to pull this together. · Is that a fair summary? · Fair correction. So…",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-synthesis",
+    "extended-c1-facilitation",
+    "path-diplomatic-disagreement",
+    "path-hedging"
+  ],
+  "recycles": [
+    "path-synthesis",
+    "path-hedging"
+  ],
+  "teaches": [
+    "синтез вживую: источники — люди, итог звучит вслух и сразу проверяется у них",
+    "три вида спора: о фактах (решают сведения), о словах (решает договорённость о значении), о приоритетах (решают люди): Are we disagreeing about the facts, or about what matters more?",
+    "скрытое допущение (assumption) — проверить без нападения: That assumes… — is that right?",
+    "узел спора (crux) — вопрос, от которого зависят позиции: It seems to come down to whether…; What would change your mind?",
+    "итог вслух: Let me try to pull this together → Here's where we agree… → Here's where we differ… → What would help us move forward is… → Is that a fair summary?",
+    "поправка при всех: Fair correction. So X's point is…",
+    "не делить пополам (split the difference), если середина не выполняет ни одно условие",
+    "слова: fare, ridership, reduced fare pass, assumption, crux, priority, split the difference"
+  ],
+  "sources": [
+    {
+      "title": "Beyond Intractability · Distinguishing Facts from Values",
+      "url": "https://www.beyondintractability.org/essay/facts-values",
+      "notes": "Сверено: спор о фактах и спор о ценностях — разные задачи; их часто путают, когда ценность подают как факт или наоборот; сначала разделить вопросы и сказать всем, какие из них фактические; факты решают проверкой (в том числе совместной), а спор о ценностях сведения обычно не закрывают — нужен диалог и честная процедура."
+    },
+    {
+      "title": "LessWrong (CFAR) · Double Crux — A Strategy for Mutual Understanding",
+      "url": "https://www.lesswrong.com/posts/exa5kmvopeRyfJgCy/double-crux-a-strategy-for-mutual-understanding",
+      "notes": "Сверено: crux — убеждение, на котором держится позиция; если оно окажется неверным, человек передумает; искать его помогает вопрос «что заставило бы меня передумать?»; расплывчатые слова сначала переводят в конкретные проверяемые утверждения; цель — понять, что видит другой, а не победить."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Как подвести итог спора вслух",
+    "why": "Сначала разбираешься, какой это спор, потом ищешь его узел и только потом говоришь итог. Итог заканчивается вопросом к людям.",
+    "items": [
+      {
+        "label": "Вид спора",
+        "en": "Is this about the facts, the words, or what matters more?",
+        "ru": "Это спор о фактах, о словах или о том, что важнее?",
+        "note": "От вида зависит, что поможет."
+      },
+      {
+        "label": "Допущение",
+        "en": "That assumes there's no other money — is that right?",
+        "ru": "Это исходит из того, что других денег нет, — так?",
+        "note": "Спроси, а не обвиняй."
+      },
+      {
+        "label": "Узел",
+        "en": "It seems to come down to what keeps people off the bus.",
+        "ru": "Похоже, всё сводится к тому, что мешает людям ездить.",
+        "note": "Один вопрос, от которого зависят позиции."
+      },
+      {
+        "label": "Итог и проверка",
+        "en": "Is that a fair summary?",
+        "ru": "Я честно подвёл итог?",
+        "note": "Люди могут тебя поправить — это нормально."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что нового: итог не по текстам, а по живым людям",
+      "body": "Представь: ты помощник члена городского совета на открытом обсуждении. Тема — сделать ли автобусы бесплатными. Через сорок минут тебя просят: «Подведи итог». Перечитать нельзя, люди сидят рядом и слушают.\n\nВ уроке о синтезе ты сводил два текста в один ответ: вопрос, совпадение, различие, пробел, свой вывод. Здесь задача та же, но источники — люди. Они перебивают, уточняют и могут сказать: «Я не это имел в виду». Пересказ с проверкой ты знаешь из урока о ведении встречи, а сильную версию чужой позиции — из урока о дипломатичном несогласии.\n\nНовое в этом уроке — три шага до итога. Понять, какой это спор. Найти вопрос, от которого зависят позиции. Сказать итог вслух коротко и сразу проверить его у людей.\n\nПредел: итог — не решение. Ты не выбираешь победителя, а показываешь, о чём на самом деле спор и что поможет его решить."
+    },
+    {
+      "title": "Три вида спора: о фактах, о словах и о том, что важнее",
+      "body": "Спор о фактах — что происходит или произойдёт: «Сколько людей не ездит из-за цены?» Его решают сведения: посчитать, спросить, сделать пробу.\n\nСпор о словах — одним словом называют разное. Для одного remote work — «два дня в неделю из дома», для другого — «всегда из дома». Пока это не сказано, люди спорят мимо друг друга. Решает договорённость о значении.\n\nСпор о приоритетах — люди знают одно и то же, но ставят на первое место разное: доступ для всех или частые рейсы. Сведения помогают, но не решают. Решают люди: голосованием или компромиссом.\n\nВопрос вслух: Are we disagreeing about the facts, or about what matters more? — «Мы спорим о фактах или о том, что важнее?» Часто в одном споре есть все три вида.\n\nОшибка: принять спор о приоритетах за спор о фактах и без конца просить «ещё сведений». И обратная ошибка: назвать проверяемый вопрос «делом вкуса»."
+    },
+    {
+      "title": "Скрытое допущение и узел спора",
+      "body": "Допущение (assumption) — то, что человек считает верным, но не говорит вслух. Маркус: «Уберём плату — придётся урезать рейсы». Его допущение: других денег в бюджете нет. Проверь его вопросом, а не упрёком: That assumes there's no other money — is that right? — «Это исходит из того, что других денег нет, — так?» Не You're wrong to assume that — это уже спор.\n\nУзел спора (crux) — вопрос, от ответа на который зависят позиции. Найти его помогает вопрос: What would change your mind? — «Что заставило бы вас передумать?» Если Дана отвечает «если бы цена не была главной причиной», а Маркус — «если бы нашлись деньги без урезания рейсов», узел виден. Назови его: It seems to come down to whether… — «похоже, всё сводится к тому, …ли».\n\nПредел: не у всякого спора есть узел-факт. Если человек отвечает «ничего не заставит», это спор о приоритетах. Скажи об этом прямо и не ищи сведения, которые его не решат."
+    },
+    {
+      "title": "Итог вслух: короче, чем на бумаге, и с проверкой",
+      "body": "Слушатель не может перечитать. Поэтому объяви итог: Let me try to pull this together — «попробую свести всё вместе». Дальше три части с сигналами: Here's where we agree… → Here's where we differ, and that's a question of… → What would help us move forward is… В конце — проверка: Is that a fair summary? Did I miss anything?\n\nГовори именами, а не «один участник». Короткие фразы, одно число, если без него непонятно. Свой взгляд — отдельно и помеченным: Speaking for myself… — «говорю от себя».\n\nЕсли тебя поправили, поблагодари и обнови итог при всех: Fair correction. So Ana's point is… Не защищайся: поправка значит, что итог проверили.\n\nОшибка: Let's split the difference — «давайте посередине». Если одному нужны бесплатные поездки для всех, а другому — не потерять $4.2 million, половинная цена не выполняет ни одно условие. Не придумывай компромисс, которого никто не предлагал."
+    },
+    {
+      "title": "Чего итог не говорит",
+      "body": "Молчание — не согласие: Tom didn't object ещё не значит Tom agrees. Не говори So we all agree, если с тобой согласились двое из четырёх.\n\nСила глагола — как в уроке об оговорках. Опрос тех, кто уже ездит, suggests, а не proves. Пробу в других городах тоже не выдавай за доказательство для своего.\n\nТвой вывод не принадлежит участникам. Если ты считаешь, что начать надо с пробы на двух маршрутах, скажи My own read is… или I'd suggest…, а не Everyone thinks…"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We agree on the facts; we disagree about what matters more.",
+      "ru": "В фактах мы согласны; расходимся в том, что важнее.",
+      "why": "Спор назван спором о приоритетах — новые сведения его не закроют."
+    },
+    {
+      "en": "When Lee says \"remote work,\" he means two days a week at home, whereas Ana means working from home full-time.",
+      "ru": "Когда Ли говорит «удалённая работа», он имеет в виду два дня в неделю дома, а Ана — работу из дома всё время.",
+      "why": "Спор о словах снят: теперь понятно, о чём каждый."
+    },
+    {
+      "en": "That assumes the money can only come from bus service — is that right?",
+      "ru": "Это исходит из того, что деньги можно взять только из рейсов, — так?",
+      "why": "Допущение названо вопросом, человек может поправить."
+    },
+    {
+      "en": "It seems to come down to whether the new route actually saves time.",
+      "ru": "Похоже, всё сводится к тому, экономит ли новый маршрут время на самом деле.",
+      "why": "Узел спора — один проверяемый вопрос."
+    },
+    {
+      "en": "So we all agree.",
+      "ru": "Итак, мы все согласны.",
+      "why": "Неверно, если кто-то промолчал или согласился только с целью."
+    },
+    {
+      "en": "So we agree on the goal, but not on how to pay for it.",
+      "ru": "Итак, в цели мы согласны, а в том, как за неё платить, — нет.",
+      "why": "Точный итог: видно, где согласие, а где нет."
+    },
+    {
+      "en": "Fair correction. So Ana's point is that the survey was small, not that it was wrong.",
+      "ru": "Справедливая поправка. Значит, Ана говорит, что опрос был маленьким, а не что он неверен.",
+      "why": "Итог обновлён при всех, без оправданий."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "kind": "dialogue",
+      "title": "Открытое обсуждение в мэрии / Riverton town hall: should buses be free?",
+      "source": "Авторский учебный материал; город, люди и цифры вымышлены",
+      "text": "Riverton City Council, public forum on bus fares.\n\nDana Brooks, Riverton Riders Alliance: Right now a ride costs $2.50. If you take the bus to work and back five days a week, that's $25 a week. For a family on a tight budget, that's real money. I think buses should be free, for everyone. A bus is a public service, like a library. We don't charge people at the library door.\n\nMarcus Hill, city budget office: I don't dispute that the fare is a burden for some riders. But fares bring in about $4.2 million a year. If we drop them, that money has to come from somewhere, and with this year's budget, the most likely place is service. We'd end up running free buses less often.\n\nDana: That assumes the money can't come from anywhere else.\n\nMarcus: It assumes this year's budget, yes. I'm not aware of another source. And we already have a reduced fare pass for people with low incomes. So in a sense, we already have free or cheap rides for the people who need them.\n\nDana: That's not what I mean by free. To get that pass, you fill out a form, bring documents, and wait three weeks. A lot of people who qualify never apply.\n\nPriya Shah, transit planner: Can I add some numbers? In other cities that dropped fares, ridership usually went up in the first year, often by ten to twenty percent. But in our own rider survey last spring, the top complaint wasn't the fare. Sixty-one percent said buses don't come often enough. Twenty-two percent named cost.\n\nDana: With respect, that survey asked people who already ride. The people the fare keeps away aren't on the bus to answer it.\n\nPriya: That's fair. We don't have good data on people who don't ride.\n\nTom Alvarez, bus drivers' union: From the drivers' side, arguments about fares are the most common cause of conflict on board. Free fares would take that off our plate. But if ridership jumps twenty percent and we don't add buses, the crowded routes get worse, and that's a safety issue too.\n\nMarcus: So we're back to money.\n\nDana: No, we're back to what we think buses are for.\n\nPriya: I'd put it a little differently. Free and frequent are both good goals. With this budget, we probably can't have both on every route this year."
+    },
+    {
+      "id": "m2",
+      "kind": "reference",
+      "title": "Письмо члена совета / A note from Council Member Grace Park",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "From: Grace Park, City Council\nSubject: Tuesday's bus forum\n\nHi,\n\nI couldn't make the forum on Tuesday. The council votes on the transit budget on May 14. I don't need a transcript. I need to know what people really disagree about and what information would help us decide. Could you send me something I can read in five minutes?\n\nThanks,\nGrace"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай или прослушай M1. Дана и Маркус спорят сразу о двух вещах. Назови одно разногласие о фактах и одно — о приоритетах, по одной фразе на каждое.",
+      "context": "fare — плата за проезд; service — здесь: рейсы, частота автобусов.",
+      "guidance": {
+        "title": "О фактах или о том, что важнее",
+        "body": "Спроси про каждое разногласие: закончится ли спор, если завтра появятся точные сведения? Если да — это спор о фактах. Если нет — о приоритетах.",
+        "example": "The parents disagree about a fact — whether a later start really adds sleep — and about a priority: sleep or after-school jobs.",
+        "translation": "Родители расходятся в факте — правда ли позднее начало добавляет сна — и в приоритете: что важнее, сон или подработка после школы."
+      },
+      "hint": "Начни так: On the facts, they disagree about whether…",
+      "answers": [
+        "On the facts, Dana and Marcus disagree about whether the $4.2 million could come from somewhere other than bus service. On priorities, they disagree about whether buses should be free at the door, like a library, or whether frequent service matters more.",
+        "Their factual disagreement is about where the money would come from if fares were dropped. Their disagreement about priorities is whether free rides for everyone matter more than running buses often."
+      ],
+      "explanation": "Засчитывается, если факт можно проверить (откуда деньги, что сильнее мешает людям ездить), а приоритет — это выбор, который сведения не закрывают (бесплатно для всех или частые рейсы). Спор о слове free тоже верен как третий вид, но здесь просили факт и приоритет.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега записал: Marcus says we already have free buses for poor people, so Dana's proposal is pointless. Перепиши запись в одно-два предложения так, чтобы было видно: Дана и Маркус называют словом free разные вещи.",
+      "context": "reduced fare pass — льготный проездной; apply — подать заявку; qualify — иметь право (на льготу).",
+      "guidance": {
+        "title": "Вспоминаем урок о синтезе: проверь слово до сравнения",
+        "body": "В синтезе двух текстов ты сначала проверял, одно ли значит главное слово. В живом споре — то же самое, только слово звучит у разных людей. Фраза та же: When A says…, she means…, whereas B means…",
+        "example": "When the principal says \"a later start,\" she means 8:30, whereas the parents mean 9:00 or later.",
+        "translation": "Когда директор говорит «позднее начало», она имеет в виду 8:30, а родители — 9:00 или позже."
+      },
+      "hint": "Начни так: When Dana says \"free,\" she means…",
+      "answers": [
+        "When Dana says \"free,\" she means free for everyone, with no application, whereas Marcus means the reduced fare pass for people with low incomes, which you have to apply for. So they aren't talking about the same thing.",
+        "Dana and Marcus use \"free\" differently: for Dana, it means no fare for anyone, while Marcus is talking about the reduced fare pass, which takes a form, documents, and three weeks to get."
+      ],
+      "explanation": "Засчитывается, если названы оба значения: «бесплатно для всех» у Даны и льготный проездной по заявке у Маркуса. Слово pointless и poor people из записи убраны: это оценка коллеги, а не слова участников. While вместо whereas тоже верно.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Дана считает, что людей не пускает в автобус именно плата. Это её допущение, и Маркус его не проверил. Задай Дане вопрос, который проверяет это допущение — без нападения. Одна-две фразы.",
+      "context": "barrier — препятствие.",
+      "guidance": {
+        "title": "Назови допущение и спроси, так ли это",
+        "body": "Скажи вслух, из чего человек исходит, и отдай ему слово: That assumes… — is that right? Честно проверять допущения обеих сторон, а не только той, с которой ты не согласен.",
+        "example": "That assumes most parents drive their kids to school — is that right?",
+        "translation": "Это исходит из того, что большинство родителей возит детей в школу на машине, — так?"
+      },
+      "hint": "Начни так: Dana, your proposal seems to assume that…",
+      "answers": [
+        "Dana, your proposal seems to assume that the fare is the main thing keeping people off the bus. Is that right, or are there other reasons you'd want us to look at?",
+        "That assumes cost is the biggest barrier for people who don't ride — is that what you're saying?"
+      ],
+      "explanation": "Засчитывается, если допущение названо точно (главная преграда — цена) и закончено вопросом, на который Дана может ответить «нет». You're wrong to assume… или Your data is weak — это уже спор, а не проверка.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты хочешь назвать узел спора и спросить обе стороны, что изменило бы их мнение. Переведи: «Похоже, всё сводится к одному вопросу: что сильнее удерживает людей от автобуса — цена или ожидание? Дана, Маркус, что заставило бы каждого из вас передумать?»",
+      "context": "keep someone off the bus — удерживать от поездок на автобусе; the wait — ожидание.",
+      "guidance": {
+        "title": "Узел спора и вопрос «что изменило бы твоё мнение»",
+        "body": "Узел — вопрос, от ответа на который зависят обе позиции. Назови его через It seems to come down to… и сразу спроси обоих: What would change your mind?",
+        "example": "It seems to come down to whether the later start actually adds sleep. What would change your mind?",
+        "translation": "Похоже, всё сводится к тому, добавляет ли позднее начало сна на самом деле. Что заставило бы вас передумать?"
+      },
+      "hint": "Проверь начало: It seems to come down to one question: …",
+      "answers": [
+        "It seems to come down to one question: what keeps more people off the bus, the fare or the wait? Dana, Marcus, what would change your mind?",
+        "It seems to come down to one question: does the fare or the waiting time keep more people off the bus? Dana, Marcus, what would make each of you change your mind?",
+        "It all seems to come down to one question: what keeps people off the bus more, the fare or the wait? Dana and Marcus, what would change each of your minds?"
+      ],
+      "explanation": "Come down to — «сводиться к». What would change your mind? — живой разговорный вопрос; what would make you change your mind — тоже естественно. Слово «каждого» можно передать через each of you или опустить.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега в конце обсуждения сказал вслух: So basically we all agree. Priya's survey proves the fare doesn't matter, so let's split the difference and make buses half price. Перепиши его реплику в две-три фразы так, чтобы она была честной по M1.",
+      "context": "split the difference — «сойтись посередине».",
+      "guidance": {
+        "title": "Середина — не компромисс",
+        "body": "Проверь три вещи: кто на самом деле согласен; насколько сильно говорит опрос (вспоминаем урок об оговорках: suggests, а не proves); выполняет ли «середина» чьё-то условие. Если ничьё — не предлагай её от имени группы.",
+        "example": "We don't all agree yet. The trial suggests shorter lines, but it was only two weeks, and a half-day schedule wouldn't solve either side's problem.",
+        "translation": "Мы пока не все согласны. Проба позволяет предположить, что очереди стали короче, но она шла всего две недели, а полудневное расписание не решит проблему ни одной из сторон."
+      },
+      "hint": "Найди три проблемы: we all agree, proves, half price.",
+      "answers": [
+        "We don't all agree. Priya's survey suggests that current riders care more about waiting than about the fare, but it didn't ask people who don't ride. And half price wouldn't meet Dana's goal of free rides for everyone or solve Marcus's concern about losing fare money.",
+        "I don't think we have agreement yet. The survey suggests waiting is the bigger complaint among people who already ride, but it says nothing about people who don't. Half price would still cost money and still charge riders, so it doesn't meet either side's condition."
+      ],
+      "explanation": "Засчитывается, если убраны все три ошибки: нет «все согласны», опрос suggests и ограничен теми, кто уже ездит, а половинная цена прямо названа вариантом, который не выполняет условия ни Даны, ни Маркуса.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи вслух короткий итог обсуждения из M1, 40–60 секунд, не глядя в текст. Что должно быть: объявление итога; где согласны; где расходятся и какой это спор; что поможет двигаться дальше; проверочный вопрос в конце.",
+      "context": "",
+      "guidance": {
+        "title": "Итог вслух: объявить, три части, проверка",
+        "body": "Начни с сигнала Let me try to pull this together, чтобы все поняли: сейчас будет итог. Каждая часть — одна-две короткие фразы с именами. Последняя фраза — вопрос, на который можно ответить «нет».",
+        "example": "Let me try to pull this together. We agree that teens need more sleep. We differ on whether a later start is worth the cost for families, and that's partly a question of priorities. What would help is data on after-school jobs. Is that a fair summary?",
+        "translation": "Попробую свести всё вместе. Мы согласны, что подросткам нужно больше спать. Расходимся в том, стоит ли позднее начало трудностей для семей, — и это отчасти вопрос приоритетов. Помогли бы сведения о подработке после школы. Я честно подвёл итог?"
+      },
+      "hint": "Опора: Let me try to pull this together. → Here's where we agree… → Here's where we differ… → What would help… → Is that a fair summary?",
+      "answers": [
+        "Let me try to pull this together. Here's where we agree: the fare is a burden for some riders, and nobody wants crowded, unsafe buses. Here's where we differ. Partly it's a question of facts: we don't know whether the fare or the wait keeps more people off the bus, because our survey only asked current riders. And partly it's priorities: Dana puts free access first, while Marcus and Priya worry about frequency on this budget. What would help us move forward is data on people who don't ride. Is that a fair summary?"
+      ],
+      "explanation": "Засчитывается по расшифровке, если есть сигнал итога, общая часть, разногласие с названным видом (факты и приоритеты), следующий шаг и вопрос в конце. Длинные списки чисел не нужны: одного факта про опрос достаточно.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "После твоего итога Прия говорит: That's not quite what I said. I didn't say the fare doesn't matter. I said it's not the top complaint among people who already ride. Ответь ей при всех и обнови итог, одна-две фразы.",
+      "context": "",
+      "guidance": {
+        "title": "Тебя поправили — обнови итог при всех",
+        "body": "Поблагодари одним словом и сразу скажи исправленную версию: Fair correction. So X's point is… Не оправдывайся и не объясняй, почему ошибся.",
+        "example": "Fair correction. So Tom's point is that crowding is a safety issue, not just a comfort issue.",
+        "translation": "Справедливая поправка. Значит, Том говорит, что теснота — вопрос безопасности, а не только удобства."
+      },
+      "hint": "Начни так: Fair correction, thanks. So Priya's point is that…",
+      "answers": [
+        "Fair correction, thanks. So Priya's point is that, among people who already ride, waiting is a bigger complaint than the fare. We still don't know what keeps non-riders away.",
+        "Fair correction. So the survey shows that current riders complain more about waiting than about cost, which doesn't tell us how much the fare matters to people who don't ride."
+      ],
+      "explanation": "Засчитывается, если исправленная версия точна: речь о тех, кто уже ездит, и о «главной жалобе», а не о том, что плата не важна. Хорошо, если сразу назван пробел: о тех, кто не ездит, сведений нет.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Конец обсуждения. Член совета говорит тебе: You've heard everyone. What is this really about, and what should we find out before the vote? Ответь вслух, 2–3 минуты, не глядя в M1. Что должно быть: объявление итога; позиция каждого из четырёх — так, чтобы человек её узнал; три вида спора (факты, слово free, приоритеты); по одному допущению с обеих сторон; узел спора и что могло бы его решить (например, опрос тех, кто не ездит, или проба на двух маршрутах); твой взгляд, помеченный как твой; вопрос к залу в конце.",
+      "context": "",
+      "hint": "Опора: Let me try to pull this together… → Dana… Marcus… Priya… Tom… → On the facts… On the word \"free\"… On priorities… → It seems to come down to… → Speaking for myself… → Did I miss anything?",
+      "answers": [
+        "Let me try to pull this together. Dana wants buses to be free for everyone, because a $2.50 fare is real money for many families. Marcus doesn't dispute that, but fares bring in about $4.2 million, and on this year's budget he thinks the money would come out of service. Priya says ridership usually rises when fares are dropped, but our riders complain most about waiting. Tom says free fares would mean fewer fights on board, but more riders without more buses would make crowding worse.\n\nI hear three kinds of disagreement. One is about facts: we don't know whether the fare or the wait keeps more people off the bus, because our survey only asked current riders. One is about a word: when Dana says \"free,\" she means free for everyone, while Marcus means the reduced fare pass, which you have to apply for. And one is about priorities: free access or frequent service, if we can't have both.\n\nThere are assumptions on both sides. Marcus assumes there's no other money this year. Dana assumes the fare is the main barrier. Both can be checked.\n\nSo it seems to come down to what keeps people from riding. A short survey of people who don't ride, or a fare-free trial on two routes, would tell us a lot. Speaking for myself, I'd start with the survey, because it's cheap. Did I miss anything, or did I get anyone's position wrong?"
+      ],
+      "explanation": "Засчитывается по расшифровке, если каждый из четырёх узнал бы свою позицию, названы все три вида спора, допущения есть у обеих сторон, узел сформулирован как проверяемый вопрос, твой совет помечен (Speaking for myself, I'd…), а в конце есть вопрос, приглашающий поправить. Нет «все согласны» и нет «посередине».",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Открой M2 и ответь Грейс Парк, 200–300 слов. Она не была на обсуждении и через несколько недель голосует. Что должно быть: о чём на самом деле спор — одной фразой в начале; где все согласны; разногласия по видам (факты, значение free, приоритеты) с именами; одно допущение с каждой стороны; узел спора; какие сведения помогли бы решить и чего сведения не решат; твоя рекомендация, помеченная как твоя. Нет «все согласны» и нет выдуманного компромисса.",
+      "context": "non-riders — те, кто не ездит на автобусе.",
+      "hint": "План: The core question is… → Common ground… → Facts / the word \"free\" / priorities… → Assumptions… → It comes down to… → What would help… → My own suggestion…",
+      "answers": [
+        "Subject: Re: Tuesday's bus forum\n\nHi Grace,\n\nThe core question is not really whether free buses are good. It's what keeps people in Riverton from riding: the fare or the wait.\n\nCommon ground: everyone accepts that a $2.50 fare is a burden for some families, and nobody wants crowded, unsafe buses.\n\nThe disagreements are of three kinds.\n\nFacts. Marcus Hill says that dropping fares would cost about $4.2 million a year and that, on this year's budget, the money would come out of service. Priya Shah says ridership usually rose 10 to 20 percent in cities that dropped fares, but in our own survey 61 percent of riders named waiting as the top problem and 22 percent named cost. That survey only asked current riders, so we don't know why other people don't ride.\n\nThe word \"free.\" Dana Brooks means free for everyone. Marcus pointed to the reduced fare pass, but it takes a form, documents, and three weeks, and many people who qualify never apply.\n\nPriorities. Even with full data, people would still disagree about whether free access or frequent service should come first if the budget can't cover both.\n\nBoth sides make assumptions: Marcus, that there is no other money this year; Dana, that the fare is the main barrier. Tom Alvarez, for the drivers, adds that more riders without more buses would make crowding a safety issue.\n\nMy own suggestion is to survey non-riders before May 14, or to plan a fare-free trial on two routes. That would settle the factual question. The priority question will still be the council's to decide.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если цифры совпадают с M1, каждая позиция подписана именем, три вида спора разведены, допущения названы у обеих сторон, сказано, что вопрос приоритетов сведения не закроют, а рекомендация помечена как твоя. Текст начинается с главного, а не с пересказа обсуждения по порядку.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Репортёр местной газеты прислал тебе свою заметку об обсуждении и просит проверить, честно ли она передаёт сказанное. Перепиши её по M1, 120–180 слов: точные позиции с именами, правильная сила утверждений, нет решения, которого не было. Заметка: \"Tuesday's forum showed that free buses are a bad idea. The city's own survey proved that riders don't care about fares, and even the drivers' union is against the plan because of crowding. Advocate Dana Brooks admitted that the city already offers free rides to low-income residents. Officials agreed that the only option is to keep the current fare.\"",
+      "context": "advocate — активист, защитник интересов.",
+      "hint": "Найди пять искажений: showed… a bad idea, proved, union is against, Dana admitted, officials agreed.",
+      "answers": [
+        "At Tuesday's forum on bus fares, speakers disagreed about both facts and priorities. Dana Brooks of the Riverton Riders Alliance argued that buses should be free for everyone, because a $2.50 fare is a real burden for many families. Marcus Hill of the city budget office said fares bring in about $4.2 million a year and that, on this year's budget, dropping them would likely mean less frequent service. He pointed to the reduced fare pass for low-income riders; Brooks said that applying takes weeks and many eligible people never do. Transit planner Priya Shah said that in the city's survey, current riders named waiting more often than cost, but she agreed there is little data on people who don't ride. Tom Alvarez of the drivers' union said free fares would reduce conflicts on board but warned about crowding if no buses are added. No decision was made."
+      ],
+      "explanation": "Засчитывается, если исправлены все пять искажений: обсуждение ничего не «показало», опрос suggests и касается только тех, кто ездит, профсоюз назвал плюс и риск, а не выступил против, Дана ничего не «признала» — она возразила, и никакого решения не было. Позиции подписаны нейтральными глаголами.",
+      "materialIds": [
+        "m1"
+      ]
+    }
+  ]
+}

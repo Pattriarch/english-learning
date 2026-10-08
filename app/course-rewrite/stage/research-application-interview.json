@@ -1,0 +1,315 @@
+{
+  "id": "research-application-interview",
+  "title": "Заявка и интервью: требование из вакансии → твой пример → чем он полезен",
+  "subtitle": "Требование из вакансии → действие вместо качества → зачем это работе → честный пробел → сопроводительное письмо и ответы на интервью",
+  "level": "B2",
+  "group": "Жанры письма",
+  "units": "Внешний аудит · English File 5 B1 covering email · B2.1 work profile",
+  "minutes": 50,
+  "goal": "Показать работодателю, что ты подходишь, не хваля себя: не «Я организованный», а «Год вёл таблицу записи на 60 учеников — у вас эта задача тоже есть». И честно сказать, чего ещё не делал: «С системой онлайн-записи пока не работал, но с общей таблицей — каждую неделю».",
+  "formula": "Требование из вакансии → At…, I… (что, сколько, как часто) → This is relevant because the role involves… → I haven't… yet, but I've… → I'm applying for… / I'd welcome the chance to discuss the role → I think I'm a good fit because…",
+  "keyRule": {
+    "rule": "Не называй качество — покажи действие и скажи, зачем оно этой работе.",
+    "example": "I kept the sign-up sheet for 60 students. Your front desk needs the same skill. — Я вёл таблицу записи на 60 учеников. На вашем ресепшене нужно то же умение.",
+    "check": "Можно ли проверить твою фразу? “I'm very organized” — нет. Добавь, что ты сделал."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "extended-b1-interview",
+    "path-email-basic",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "extended-b1-interview",
+    "path-present-perfect"
+  ],
+  "teaches": [
+    "заявка = требование из вакансии → твой пример → фраза связи",
+    "действие с деталями вместо качества: I kept the sign-up spreadsheet for about 60 students (не I'm organized)",
+    "качество — только рядом с примером: I'm careful with details: I…",
+    "связь: This is relevant because the role involves… / I'd use the same skills to…",
+    "честный пробел: I haven't… yet, but I've…; не I have no experience",
+    "сопроводительное письмо: I'm applying for… → по абзацу на требование → I'd welcome the chance to discuss the role → Sincerely,",
+    "интервью: сначала ответ (I think I'm a good fit because…), потом пример и связь; Tell me about yourself — сейчас → раньше → почему эта работа",
+    "уточнить широкий вопрос: Would you like an example from… or from…?",
+    "слова: job posting, front desk, cover letter, résumé, requirement, nice to have, part-time"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Cover Letters: Quick Content Tips",
+      "url": "https://owl.purdue.edu/owl/job_search_writing/job_search_letters/cover_letters_1_quick_tips/quick_content_tips.html",
+      "notes": "Сверено устройство американского сопроводительного письма: письмо под конкретную вакансию, во вступлении — должность и 2–3 главных умения, каждый абзац — одно умение и короткая история, где ты его получил и как применял, а не список качеств; резюме не пересказывать; в конце — почему подходишь, просьба об интервью, благодарность."
+    },
+    {
+      "title": "MIT Career Advising & Professional Development · The STAR method for behavioral interviews",
+      "url": "https://capd.mit.edu/resources/the-star-method-for-behavioral-interviews/",
+      "notes": "Сверено: примеры к интервью готовят по требованиям вакансии (обязанности и повторяющиеся глаголы), большая часть ответа — твои действия с I, результат по возможности в числах, но только правдивый; заученный текст звучит ненатурально."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что работодатель ищет в твоей заявке",
+      "body": "Ты нашёл вакансию (job posting): помощник на ресепшене (front desk) языковой школы. В ней список: что нужно делать и какие умения нужны. Работодатель читает заявку с одним вопросом: «Сможет ли этот человек делать то, что у нас написано?»\n\nПоэтому каждая часть заявки — цепочка из трёх звеньев. Требование из вакансии (requirement): careful work with schedules — «аккуратная работа с расписанием». Твой пример: что ты сделал, сколько, как часто. Связь: почему это пригодится именно здесь.\n\nПо-русски мы тоже не пишем «я ответственный», если хотим, чтобы поверили. Мы пишем: «год вёл запись учеников». Фраза I meet all your requirements — «соответствую всем требованиям» — ничего не доказывает. Покажи это примерами."
+    },
+    {
+      "title": "Действие вместо качества",
+      "body": "Organized, hardworking, a team player — «организованный, трудолюбивый, умею работать в команде». Так пишет почти каждый кандидат, поэтому эти слова ничего не говорят. Замени качество действием: I kept the sign-up spreadsheet for about 60 students and sent reminder emails every Friday. Видно, что ты делал, сколько и как часто.\n\nКачество можно оставить, только если сразу за ним пример: I'm careful with details: I checked every schedule change twice.\n\nЧисла — только настоящие. Forty people came — проверяемый факт. I increased attendance by 40% — выдумка, если никто не считал. Что сделал ты, а что команда, ты уже различал в уроке об интервью волонтёра: I — твой шаг, чужое решение — по имени."
+    },
+    {
+      "title": "Свяжи пример с работой и честно назови пробел",
+      "body": "Пример сам по себе не всегда понятен. Добавь одну фразу связи: This is relevant because the role involves updating class schedules — «это пригодится: в этой работе нужно обновлять расписание». Или: I'd use the same skills to… — «те же умения я применил бы, чтобы…». Вакансию целиком не переписывай: работодатель её знает.\n\nЕсли какого-то опыта нет, назови пробел узко и рядом поставь близкий опыт: I haven't used an online booking system yet, but I've used shared spreadsheets a lot. I haven't… yet — «ещё не…»: present perfect, опыт до сегодняшнего дня. “I have no experience” — слишком широко: опыт у тебя есть, нет одного умения."
+    },
+    {
+      "title": "Сопроводительное письмо: три части",
+      "body": "Сопроводительное письмо (cover letter) — короткое письмо к резюме (résumé). В нём три части.\n\nНачало: на какую работу подаёшь и почему она тебе интересна: I'm applying for the part-time Front Desk Assistant position at Lakeside English Center. Середина: один-два абзаца, в каждом — одно требование и один пример. Резюме не пересказывай. Конец: I'd welcome the chance to discuss the role — «буду рад обсудить эту работу» — и Thank you for your time.\n\nОбращение — по имени, если оно есть в вакансии: Dear Ms. Rivera, (Ms. с точкой). To whom it may concern — «тому, кого это касается» — звучит холодно, когда имя известно. В конце — Sincerely, и имя на новой строке."
+    },
+    {
+      "title": "На интервью: сначала ответ, потом пример",
+      "body": "В уроке об интервью волонтёра ты начинал с истории. Но на вопрос What makes you a good fit? — «почему вы нам подходите?» — начни с прямого ответа в одну фразу: I think I'm a good fit because I've worked at a front desk before. Потом пример, потом связь с работой.\n\nTell me about yourself — «расскажите о себе» — это не биография с детства. Ответь примерно за минуту: кто ты сейчас → что делал раньше, что подходит к этой работе → почему хочешь именно её.\n\nЕсли вопрос слишком общий, уточни: Would you like an example from my volunteer work or from my studies? Это нормально и звучит собранно, а не растерянно."
+    }
+  ],
+  "examples": [
+    {
+      "en": "At the library, I answered about thirty phone calls a day.",
+      "ru": "В библиотеке я отвечал примерно на тридцать звонков в день.",
+      "why": "Действие и число вместо “I'm good with people”."
+    },
+    {
+      "en": "I'm careful with details: I checked every order twice before it went out.",
+      "ru": "Я внимателен к мелочам: каждый заказ проверял дважды перед отправкой.",
+      "why": "Качество осталось, но сразу за ним пример."
+    },
+    {
+      "en": "This is relevant because the role involves answering customer emails.",
+      "ru": "Это пригодится: в этой работе нужно отвечать на письма клиентов.",
+      "why": "Одна фраза связывает пример с требованием."
+    },
+    {
+      "en": "I haven't used Salesforce yet, but I've worked with customer lists in Excel.",
+      "ru": "С Salesforce я пока не работал, но со списками клиентов в Excel — работал.",
+      "why": "Узкий пробел и близкий опыт вместо “I have no experience”."
+    },
+    {
+      "en": "Our team finished two days early. My part was the task list.",
+      "ru": "Наша команда закончила на два дня раньше. Моей частью был список задач.",
+      "why": "Итог команды — our, свой вклад отдельно. Не “I finished the project early”."
+    },
+    {
+      "en": "I'm applying for the part-time sales assistant position I saw on your website.",
+      "ru": "Подаю заявку на должность помощника продавца на неполный день, которую увидел на вашем сайте.",
+      "why": "Первая фраза письма: какая работа и где ты о ней узнал."
+    },
+    {
+      "en": "Would you like an example from my volunteer work or from my studies?",
+      "ru": "Вам привести пример из волонтёрской работы или из учёбы?",
+      "why": "Уточнение слишком общего вопроса перед ответом."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Вакансия",
+      "kind": "reference",
+      "text": "LAKESIDE ENGLISH CENTER — Chicago, IL\nPart-time Front Desk Assistant\n\nAbout us: We're a small language school with about 200 adult students from many countries. Our front desk assistant is the first person new students meet.\n\nWhat you'll do:\n- Welcome new students and answer their questions\n- Answer emails and phone calls\n- Keep class schedules up to date in Google Sheets\n- Help with our monthly student events\n\nWhat we're looking for:\n- Clear, friendly communication with people from different countries\n- Careful work with schedules and details\n- Experience working with the public\n\nNice to have: experience with an online booking system.\n\nHours: 20 hours a week, Monday to Friday, 1 p.m. to 5 p.m.\n\nTo apply, send your résumé and a short cover letter to Ms. Ana Rivera, Office Manager.",
+      "source": "Придумано для курса: школа, люди и вакансия вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Твой опыт: заметки для себя",
+      "kind": "reference",
+      "text": "You are Alex. Right now, you're studying business administration at a community college in the mornings.\n\nFrom September 2025 to August 2026, you volunteered at the front desk of the Northside Community Center on Saturdays.\n\n- You answered the phone and signed people up for classes.\n- You kept the sign-up spreadsheet for about 60 students in Google Sheets.\n- You sent reminder emails every Friday.\n- The coordinator, Ms. Kim, made the class schedule. You entered her changes in the spreadsheet.\n- Once, you noticed that two classes were booked in the same room at the same time. You told Ms. Kim, and she moved one class to another room.\n- Many visitors were new to the city. You helped them find the right class and showed them around the building.\n\nYou speak English and Russian. You have never used an online booking system. You have never had a paid office job.",
+      "source": "Придумано для курса: люди и события вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1 и M2. В вакансии есть требование “careful work with schedules and details”. Напиши одну-две фразы с примером из M2: где, что ты делал, сколько и как часто.",
+      "context": "sign-up spreadsheet — таблица записи; enter changes — вносить изменения.",
+      "guidance": {
+        "title": "Требование → действие с деталями",
+        "body": "Возьми одно требование и найди в своём опыте действие под него. Добавь детали: где, сколько, как часто. Детали делают фразу проверяемой.",
+        "example": "At the bookstore, I counted the stock every Monday and updated the price list.",
+        "translation": "В книжном магазине я каждый понедельник пересчитывал товар и обновлял список цен."
+      },
+      "hint": "Начни так: At the Northside Community Center, I kept…",
+      "answers": [
+        "At the Northside Community Center, I kept the sign-up spreadsheet for about 60 students and entered every schedule change.",
+        "At the Northside Community Center, I kept the sign-up spreadsheet for about 60 students. I also entered the coordinator's schedule changes.",
+        "For a year, I kept the sign-up spreadsheet for about 60 students at the Northside Community Center and entered all the schedule changes.",
+        "As a front desk volunteer at the Northside Community Center, I kept a sign-up spreadsheet for about 60 students and updated it with every schedule change."
+      ],
+      "explanation": "Засчитывается, если есть место, действие и деталь (60 students, every change). I made the class schedule — неверно: расписание составляла Ms. Kim, ты вносил её изменения.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг советует начать письмо так: “I am very communicative, hardworking and a real team player.” Перепиши это двумя фразами по M2: что ты делал, когда общался с людьми.",
+      "context": "communicative — общительный; hardworking — трудолюбивый; team player — человек, который умеет работать в команде.",
+      "guidance": {
+        "title": "Качество → действие",
+        "body": "Эти слова пишет почти каждый кандидат. Замени их тем, что ты делал. Одно качество можно оставить, если сразу за ним идёт пример.",
+        "example": "I'm good with customers: I helped about forty shoppers a day find what they needed.",
+        "translation": "Я хорошо работаю с покупателями: помогал примерно сорока людям в день найти то, что им нужно."
+      },
+      "hint": "Что ты делал с людьми в M2? Звонки, письма, новые посетители.",
+      "answers": [
+        "I answered the phone and signed people up for classes. I also helped visitors who were new to the city find the right class.",
+        "I answered phone calls, signed people up for classes and sent reminder emails every Friday. Many visitors were new to the city, and I helped them find the right class.",
+        "I'm comfortable with people from different backgrounds: I helped many visitors who were new to the city find the right class. I also answered the phone and sent reminder emails every Friday."
+      ],
+      "explanation": "Засчитывается, если вместо прилагательных — действия из M2. I'm comfortable with people… можно оставить, потому что сразу за ним пример.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Добавь к примеру о новых посетителях (M2) одну фразу связи: почему это пригодится в Lakeside English Center (M1).",
+      "context": "",
+      "guidance": {
+        "title": "Одна фраза связи",
+        "body": "This is relevant because the role involves… — «это пригодится: в этой работе…». Назови одну задачу из вакансии, а не весь список.",
+        "example": "This is relevant because the role involves helping customers on the phone.",
+        "translation": "Это пригодится: в этой работе нужно помогать клиентам по телефону."
+      },
+      "hint": "Кого первым встречает front desk assistant в M1? Начни так: This is relevant because…",
+      "answers": [
+        "This is relevant because your front desk assistant is the first person new students meet.",
+        "This is relevant because the role involves welcoming new students from different countries.",
+        "This is relevant because the job involves welcoming new students and answering their questions.",
+        "I'd use the same skills to welcome new students at Lakeside."
+      ],
+      "explanation": "Засчитывается, если связь опирается на конкретную задачу из M1. “I meet all your requirements” не засчитывается: эта фраза ничего не связывает.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Расскажи в двух-трёх фразах случай с двумя занятиями в одном кабинете (M2): что заметил ты и что сделала Ms. Kim.",
+      "context": "book — забронировать; notice — заметить; move — перенести.",
+      "guidance": {
+        "title": "Вспоминаем: твой шаг — I, чужой — по имени",
+        "body": "Вспоминаем урок об интервью волонтёра: свои действия — с I, чужое решение называем по имени. Так видно, что ты сделал сам, и ты не присваиваешь чужое.",
+        "example": "I noticed that the delivery was missing two boxes and told the manager. He called the supplier.",
+        "translation": "Я заметил, что в поставке не хватает двух коробок, и сказал менеджеру. Он позвонил поставщику."
+      },
+      "hint": "Кто перенёс занятие — ты или Ms. Kim?",
+      "answers": [
+        "Once, I noticed that two classes were booked in the same room at the same time. I told Ms. Kim, and she moved one class to another room.",
+        "I noticed that two classes were booked in the same room at the same time, so I told the coordinator, Ms. Kim. She moved one of the classes to another room.",
+        "One Saturday, I noticed a problem: two classes were in the same room at the same time. I told Ms. Kim right away, and she moved one class."
+      ],
+      "explanation": "Засчитывается, если ты заметил и сообщил, а перенесла занятие Ms. Kim. I moved the class звучит сильнее, но это неправда.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В M1 есть “Nice to have: experience with an online booking system”. Такого опыта у тебя нет. Напиши одну фразу: честно назови пробел и рядом — близкий опыт из M2.",
+      "context": "online booking system — система онлайн-записи; nice to have — желательно, но не обязательно.",
+      "guidance": {
+        "title": "Вспоминаем: I haven't… yet, but I've…",
+        "body": "Вспоминаем present perfect: опыт до сегодняшнего дня, без даты. I haven't… yet — «ещё не», but I've… — что похожее ты уже делал. Пробел — узкий, одно умение.",
+        "example": "I haven't worked with children yet, but I've taught adults.",
+        "translation": "С детьми я пока не работал, но взрослых учил."
+      },
+      "hint": "С какой похожей программой ты работал каждую неделю?",
+      "answers": [
+        "I haven't used an online booking system yet, but I've used Google Sheets to keep sign-ups for about 60 students.",
+        "I haven't worked with an online booking system yet, but I've used a shared sign-up spreadsheet a lot.",
+        "I haven't used an online booking system yet, but I kept a sign-up spreadsheet in Google Sheets for a year.",
+        "I haven't used an online booking system yet, but I've kept sign-up lists in Google Sheets."
+      ],
+      "explanation": "Засчитывается, если пробел назван узко, а рядом — настоящий похожий опыт. Если называешь законченный срок (for a year, до августа), подходит past simple: I kept… for a year. “I have no experience” сказало бы, что опыта нет совсем, а это неправда.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Интервью в Lakeside. Ms. Rivera спрашивает: “What makes you a good fit for this role?” Ответь вслух в 3–4 фразах: сначала прямой ответ одной фразой, потом пример из M2, потом связь с работой. Потом запиши, что сказал.",
+      "context": "good fit — подходящий человек для этой работы.",
+      "guidance": {
+        "title": "Сначала ответ, потом пример",
+        "body": "Первая фраза сразу отвечает на вопрос: I think I'm a good fit because… Потом пример с деталями и одна фраза связи. Историю с самого начала не рассказывай.",
+        "example": "I think I'm a good fit because I've worked with customers before. At a bakery, I served about a hundred people every morning. Your café needs someone who stays calm when it's busy.",
+        "translation": "Думаю, я вам подхожу, потому что уже работал с клиентами. В пекарне я каждое утро обслуживал около ста человек. Вашему кафе нужен человек, который не теряется, когда много посетителей."
+      },
+      "hint": "Начни так: I think I'm a good fit because I've worked at a front desk before.",
+      "answers": [
+        "I think I'm a good fit because I've worked at a front desk before. For a year, I volunteered at the Northside Community Center, where I answered the phone, signed people up for classes and kept the sign-up spreadsheet for about 60 students. That's very close to what your front desk assistant does.",
+        "I think I'm a good fit because I enjoy helping new people, and I've done it at a front desk. At the Northside Community Center, many visitors were new to the city, and I helped them find the right class. Your new students would need the same kind of help."
+      ],
+      "explanation": "Засчитывается, если первая фраза отвечает на вопрос, пример взят из M2, а последняя фраза связывает его с M1. I've worked at a front desk — опыт без даты, поэтому present perfect.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши Ms. Rivera сопроводительное письмо на 120–180 слов. Что должно быть: обращение по имени; на какую работу подаёшь и почему она тебе интересна; два требования из M1 — к каждому пример из M2 и фраза связи; честный пробел с близким опытом; просьба об интервью и благодарность; Sincerely, и имя. Не добавляй платной работы и достижений, которых нет в M2.",
+      "context": "",
+      "hint": "План: Dear Ms. Rivera, → I'm applying for… because… → абзац «расписание» → абзац «люди» → I haven't… yet, but… → I'd welcome the chance… → Sincerely, Alex",
+      "answers": [
+        "Dear Ms. Rivera,\n\nI'm applying for the part-time Front Desk Assistant position at Lakeside English Center. I enjoy helping people who are new to a place, and your front desk is where new students start.\n\nFrom September 2025 to August 2026, I volunteered at the front desk of the Northside Community Center. I kept the sign-up spreadsheet for about 60 students and entered every schedule change. Once, I noticed that two classes were booked in the same room and told the coordinator, who moved one of them. This is relevant because your assistant keeps class schedules up to date.\n\nI also answered the phone and helped visitors who were new to the city find the right class. I haven't used an online booking system yet, but I've used Google Sheets every week.\n\nI'd welcome the chance to discuss the role. Thank you for your time.\n\nSincerely,\nAlex"
+      ],
+      "explanation": "Засчитывается, если все шесть пунктов на месте и каждый факт есть в M2: расписание составляла Ms. Kim, и в письме это видно. Dear Ms. Rivera, с запятой — обычный вариант для письма по e-mail; в бумажном деловом письме после обращения ставят двоеточие.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Интервью продолжается. Ms. Rivera просит: “Tell me about yourself.” Потом: “Tell me about a time you noticed a problem.” Ответь вслух на оба вопроса, всего 1–2 минуты. Что должно быть: в первом ответе — кто ты сейчас, что делал раньше (только то, что подходит к этой работе) и почему хочешь в Lakeside; во втором — что ты заметил, что сделал сам, что сделала Ms. Kim и чему ты научился. Потом запиши, что сказал, и сверь с M2.",
+      "context": "",
+      "hint": "План 1: Right now, I… → Before that, I… → I'd like to work at Lakeside because… План 2: Once, I noticed… → I… → Ms. Kim… → I learned that…",
+      "answers": [
+        "Right now, I'm studying business administration at a community college in the mornings, so I'm free in the afternoons. From September 2025 to August 2026, I volunteered at the front desk of the Northside Community Center on Saturdays. I answered the phone, signed people up for classes and kept the sign-up spreadsheet for about 60 students. I'd like to work at Lakeside because I enjoy helping people who are new to the city, and your students come from many countries.\n\nOnce, I noticed that two classes were booked in the same room at the same time. I told the coordinator, Ms. Kim, right away, and she moved one class to another room. I learned that it's worth checking the rooms, not just the times, every time I enter a change."
+      ],
+      "explanation": "Засчитывается, если первый ответ идёт от «сейчас» к «раньше» и к «почему эта работа», а во втором видно, что сделал ты и что — Ms. Kim. Биография с детства и перечень всех дел на ресепшене не нужны. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Теперь о тебе. Найди настоящую вакансию, которая тебе интересна, или вспомни работу, которую хотел бы. Выпиши два требования и к каждому напиши свой реальный пример и фразу связи. Добавь один честный пробел. 100–150 слов. Это заготовка для будущего письма и интервью — пиши только правду о себе.",
+      "context": "Если опыта работы нет, бери учёбу, волонтёрство, домашние дела: важно действие, а не должность.",
+      "hint": "Для каждого требования: Requirement: … → At…, I… → This is relevant because…",
+      "answers": [
+        "Role: weekend assistant at a bike shop.\n\nRequirement 1: friendly customer service.\nLast summer, I helped at my uncle's bike rental on weekends. I explained the prices to tourists and helped them choose the right bike. This is relevant because the shop needs someone who can talk to customers.\n\nRequirement 2: basic repairs.\nI've fixed flat tires and adjusted brakes on my own bike and my friends' bikes many times. This is relevant because the job involves small repairs while customers wait.\n\nGap: I haven't worked with a cash register yet, but I've taken cash and card payments at the rental."
+      ],
+      "explanation": "Засчитывается, если у каждого требования есть твоё действие с деталями и фраза связи, а пробел назван узко. Качества без примера не засчитываются. Образец — чужая история: твоя будет другой."
+    }
+  ]
+}

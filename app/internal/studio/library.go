@@ -150,7 +150,7 @@ func (s *Server) loadContent() error {
 	for filename, target := range map[string]*json.RawMessage{
 		"library.json": &s.library, "learning-path.json": &s.learningPath, "cinema.json": &s.cinema,
 		"research-topics.json": &s.research, "subtitle-sources.json": &s.subtitles,
-		"pronunciation.json": &s.pronunciation,
+		"pronunciation.json": &s.pronunciation, "lesson-clips.json": &s.lessonClips,
 	} {
 		*target, err = optionalJSON(filepath.Join(s.content, filename))
 		if err != nil {

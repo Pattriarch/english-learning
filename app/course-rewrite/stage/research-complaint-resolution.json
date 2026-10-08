@@ -1,0 +1,327 @@
+{
+  "id": "research-complaint-resolution",
+  "title": "Жалоба в поддержку: что случилось, чего ты просишь и о чём договорились",
+  "subtitle": "Факт и доказательство → одна просьба со сроком → что значит ответ поддержки → вежливый отказ от предложения → записать договорённость",
+  "level": "B2",
+  "group": "Практическое общение",
+  "units": "Внешний аудит · English File 5 B1 complaint email · C1/C2 formal complaint",
+  "minutes": 50,
+  "goal": "Написать в поддержку так, чтобы проблему решили: «Лампу доставили 6 мая, но она мигает. Прошу заменить её, ответьте до 15 мая». И потом точно записать ответ: «обещали проверить», а не «обещали вернуть деньги».",
+  "formula": "I'm writing about order #… → …, but… / I've attached… → To resolve this, I'd like… Could you let me know by…? → We'll look into it = «проверим» → Thank you for…, but I'd prefer… → Just to confirm: you'll…, and I'll…",
+  "keyRule": {
+    "rule": "Назови, что случилось, и одну просьбу со сроком. Не пиши, почему сломалось, если не знаешь.",
+    "example": "I ordered a blue jacket, but I received a green one. I'd like an exchange. — Я заказал синюю куртку, а получил зелёную. Прошу обменять.",
+    "check": "Поддержка ответила “We'll look into it”. Тебе обещали вернуть деньги? Нет: обещали проверить."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-email-basic",
+    "research-apologies-remedies",
+    "path-polite-questions",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-polite-questions",
+    "path-reported-speech"
+  ],
+  "teaches": [
+    "жалоба из четырёх частей: что случилось → доказательство → одна просьба со сроком → договорённость",
+    "начало: I'm writing about order #…; сравнение «заказал — получил»: I ordered…, but I received…",
+    "факт вместо догадки о причине; доказательство: I've attached a photo / a short video",
+    "решения: refund, replacement, exchange, repair, store credit; To resolve this, I'd like…; Could you let me know by Friday, May 15?",
+    "ответ поддержки: We'll look into it — «проверим», We can offer… — предложение, We're unable to… — отказ, We aim to… — цель, а не гарантия",
+    "вежливый отказ: Thank you for the offer of…, but I'd prefer…, because…",
+    "итог: Just to confirm: you'll…, and I'll… by…; No decision has been made yet",
+    "слова: customer support, warehouse, flicker, prepaid return label, business days, receipt, account credit"
+  ],
+  "sources": [
+    {
+      "title": "Federal Trade Commission · Sample Customer Complaint Letter",
+      "url": "https://consumer.ftc.gov/articles/sample-customer-complaint-letter",
+      "notes": "Сверено, что входит в американскую жалобу: номер заказа или аккаунта, товар и дата, что не так и что уже пробовали, какое решение нужно (refund, repair, exchange, store credit), копии документов, разумный срок ответа. Совет держать вежливый тон: читатель, скорее всего, проблему не создавал, но может её решить."
+    },
+    {
+      "title": "Skyeng · Диалог: жалоба на товар",
+      "url": "https://skyeng.ru/articles/dialogi-na-anglijskom/complaint-about-the-product/",
+      "notes": "Сверены фразы обеих сторон: описание ошибки «заказал одно — пришло другое», просьба назвать номер заказа, I'll look into this, обещание прислать замену и наклейку для возврата. Отсюда идея разбирать, что именно обещает каждая фраза сотрудника."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Зачем жалобе четыре части",
+      "body": "Ты заказал настольную лампу (desk lamp). Её привезли, а она мигает (flickers), когда включаешь. Ты пишешь в поддержку (customer support). Человек, который прочитает письмо, лампу не ломал. Но он может помочь, если быстро поймёт: что случилось, чем это подтвердить и чего ты хочешь.\n\nПоэтому в жалобе четыре части. Что случилось: номер заказа, дата, что не так. Доказательство: фото, видео, чек. Просьба: одно конкретное решение и срок. А после ответа — договорённость: кто что делает и когда.\n\nПо-русски мы пишем так же: «Пишу по поводу заказа № 48213. Лампа мигает, видео прилагаю. Прошу заменить». Начало I'm writing about… ты знаешь из урока о письмах. Тон — вежливый, но твёрдый: без крика и без извинений за то, что пишешь."
+    },
+    {
+      "title": "Пиши, что видишь, а не почему сломалось",
+      "body": "“The lamp flickers when I turn it on” — «лампа мигает, когда я её включаю». Это факт, его можно проверить. “Your warehouse sent me a broken lamp because nobody checks anything” — догадка о причине и упрёк. Ты не знаешь, что было на складе (warehouse). Поддержка начнёт защищаться, а не помогать.\n\nЕсли пришло не то, сравни, что обещали и что получил: I ordered a blue jacket, but I received a green one. The confirmation says two tickets, but I received only one. Confirmation — письмо-подтверждение заказа.\n\nДоказательство назови одной фразой: I've attached a short video — «прикладываю короткое видео». I've attached — present perfect: файл уже в письме."
+    },
+    {
+      "title": "Одна ясная просьба и срок",
+      "body": "Напиши, какое решение тебе нужно. Refund — вернуть деньги. Replacement — прислать замену. Exchange — обменять на другой товар. Repair — починить. Store credit — деньги на счёт в этом магазине, а не на карту.\n\nФраза: To resolve this, I'd like a replacement — «чтобы решить вопрос, прошу прислать замену». Resolve — решить проблему. Потом срок: Could you let me know by Friday, May 15? Дата по-американски: сначала месяц, потом число.\n\n“Please do something” — не просьба: непонятно, что делать. “I demand a refund” — «требую» — звучит как начало ссоры. I'd like… — вежливо и ясно. Если правило магазина на твоей стороне, назови его: Your website says that returns are free within 30 days."
+    },
+    {
+      "title": "Что на самом деле значит ответ поддержки",
+      "body": "Ответ поддержки читай точно. We'll look into it — «мы проверим». Это не обещание вернуть деньги. We can offer you a $10 store credit — предложение: его можно принять или нет. We're unable to offer a refund — отказ. We aim to reply within two business days — «стараемся ответить за два рабочих дня»: это цель, а не гарантия. Business days — рабочие дни, без выходных.\n\nЕсли предложение не подходит, откажись вежливо и скажи, чего хочешь: Thank you for the offer, but I'd prefer a replacement, because I need the lamp for work. Просто “No” или “That's not enough” звучит грубо и ничего не решает."
+    },
+    {
+      "title": "Запиши, о чём договорились",
+      "body": "В конце повтори договорённость: Just to confirm: you'll send a replacement, and I'll return the old lamp by May 25. Так обе стороны видят одно и то же: кто что делает и до какого числа.\n\nЕсли решения ещё нет, так и напиши: No decision has been made yet — «решение пока не принято». Не превращай «проверим» в «обещали замену».\n\nКогда пересказываешь ответ другу или в заметке, помогает урок о чужой речи: They said they would look into it — «сказали, что проверят». Не They promised a refund, если о деньгах не было ни слова."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I'm writing about order #30577, which arrived on Monday.",
+      "ru": "Пишу по поводу заказа № 30577, который пришёл в понедельник.",
+      "why": "Номер и дата — первое, что ищет поддержка."
+    },
+    {
+      "en": "I ordered a blue jacket, but I received a green one. I've attached a photo of the label.",
+      "ru": "Я заказал синюю куртку, а получил зелёную. Прикладываю фото этикетки.",
+      "why": "Сравнение «заказал — получил» и доказательство. Причину ошибки автор не угадывает."
+    },
+    {
+      "en": "To resolve this, I'd like a full refund. Could you let me know by Friday, June 12?",
+      "ru": "Чтобы решить вопрос, прошу вернуть деньги полностью. Сообщите, пожалуйста, до пятницы, 12 июня.",
+      "why": "Одно решение и срок. I'd like — вежливо, но ясно."
+    },
+    {
+      "en": "We'll look into it and get back to you within two business days.",
+      "ru": "Мы проверим и ответим в течение двух рабочих дней.",
+      "why": "Обещали проверить и ответить. О деньгах и замене здесь ни слова."
+    },
+    {
+      "en": "Thank you for the offer of store credit, but I'd prefer a refund, because I don't shop here often.",
+      "ru": "Спасибо за предложение зачислить деньги на счёт в магазине, но я бы предпочёл возврат: я здесь редко покупаю.",
+      "why": "Отказ с благодарностью, выбором и причиной."
+    },
+    {
+      "en": "Just to confirm: you'll send a new charger, and I'll return the old one with the prepaid label.",
+      "ru": "Подтверждаю: вы присылаете новую зарядку, а я возвращаю старую с оплаченной наклейкой.",
+      "why": "Prepaid label — наклейка для отправки, доставка уже оплачена. Каждая сторона знает свой шаг."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Подтверждение заказа",
+      "kind": "reference",
+      "text": "BRIGHTWAY HOME — ORDER CONFIRMATION\n\nOrder #48213\nOrdered: May 2, 2026\nDelivered: May 6, 2026\n\nItem: Nova LED desk lamp, white — $39.99\nShipping: Free\nTotal: $39.99\n\nReturns and exchanges: You can return or exchange most items within 30 days of delivery. If an item arrives damaged or doesn't work, we'll send you a prepaid return label.\n\nQuestions? Reply to this email or call (312) 555-0164, Monday to Friday, 9 a.m. to 6 p.m.",
+      "source": "Придумано для курса: магазин, люди и заказ вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Первый ответ поддержки, 8 мая",
+      "kind": "reading",
+      "text": "Hi Alex,\n\nThank you for contacting Brightway Home, and I'm sorry to hear about the problem with your desk lamp. Thanks also for the video.\n\nWe'll look into it. Right now, we can offer you a $10 store credit if you'd like to keep the lamp. If you'd prefer a replacement, our team needs to review your video first. We aim to reply within two business days.\n\nBest,\nJordan\nBrightway Home Customer Support",
+      "source": "Придумано для курса: магазин, люди и заказ вымышленные."
+    },
+    {
+      "id": "m3",
+      "title": "Второй ответ поддержки, 11 мая",
+      "kind": "reading",
+      "text": "Hi Alex,\n\nWe've reviewed your video, and we can send you a replacement lamp. It should arrive by May 14.\n\nPlease return the original lamp by May 25. I've attached a prepaid return label, so you won't pay for shipping. Once the original lamp reaches our warehouse, we'll close your case.\n\nBest,\nJordan",
+      "source": "Придумано для курса: магазин, люди и заказ вымышленные."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты — Alex. Открой M1. Начни письмо в поддержку: «Пишу по поводу заказа № 48213. Настольную лампу доставили 6 мая, но она мигает, когда я её включаю».",
+      "context": "desk lamp — настольная лампа; flicker — мигать; turn on — включать.",
+      "guidance": {
+        "title": "Номер, дата и что не так — в первых двух фразах",
+        "body": "I'm writing about + номер заказа. Потом что пришло и когда, а после but — что не так. Описывай то, что видно, без догадок о причине.",
+        "example": "I'm writing about order #30577. The chair arrived on Monday, but one leg is shorter than the others.",
+        "translation": "Пишу по поводу заказа № 30577. Стул доставили в понедельник, но одна ножка короче остальных."
+      },
+      "hint": "Начни так: I'm writing about order #48213. The desk lamp…",
+      "answers": [
+        "I'm writing about order #48213. The desk lamp was delivered on May 6, but it flickers when I turn it on.",
+        "I'm writing about order #48213. The desk lamp arrived on May 6, but it flickers when I turn it on.",
+        "I am writing about order #48213. The desk lamp was delivered on May 6, but it flickers when I switch it on.",
+        "I'm writing about my order #48213. The desk lamp arrived on May 6, but it flickers when I switch it on."
+      ],
+      "explanation": "Номер заказа и дата — в начале: по ним поддержка найдёт заказ. Arrived и was delivered — оба верно. Turn on и switch on — синонимы, в США чаще turn on. Дата — May 6, без th.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг помогает с письмом и предлагает фразу: “Your warehouse obviously sent me a broken lamp. Nobody there checks anything.” Перепиши её: оставь только то, что ты видел сам, и добавь доказательство — ты снял короткое видео, где лампа мигает.",
+      "context": "warehouse — склад; obviously — очевидно; attach — приложить.",
+      "guidance": {
+        "title": "Факт и доказательство вместо догадки",
+        "body": "Убери то, чего ты не знаешь: что было на складе и кто что проверял. Оставь то, что видно. Доказательство — I've attached + что именно.",
+        "example": "The screen goes black after two minutes. I've attached a photo of the error message.",
+        "translation": "Экран гаснет через две минуты. Прикладываю фото сообщения об ошибке."
+      },
+      "hint": "Что ты видел своими глазами? Начни так: The lamp flickers…",
+      "answers": [
+        "The lamp flickers when I turn it on. I've attached a short video that shows the problem.",
+        "The lamp flickers when I turn it on. I've attached a short video of the problem.",
+        "The lamp flickers every time I turn it on. I have attached a short video that shows the flickering.",
+        "The lamp flickers when I switch it on. I've attached a short video."
+      ],
+      "explanation": "Засчитывается, если остался наблюдаемый факт и есть I've attached. Склад, «никто не проверяет» и obviously ушли: ты этого не знаешь, а упрёк заставит поддержку защищаться."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Продолжи письмо: попроси прислать замену (replacement) и ответить до пятницы, 15 мая. Найди в M1, что магазин обещает, если товар не работает, и сошлись на это.",
+      "context": "resolve — решить (проблему); let me know — сообщите.",
+      "guidance": {
+        "title": "Одно решение и срок",
+        "body": "To resolve this, I'd like + решение. Потом срок: Could you let me know by + день и дата? Если правило магазина на твоей стороне, назови его — тогда просьба опирается на факт.",
+        "example": "Your website says that returns are free within 30 days. To resolve this, I'd like a refund. Could you let me know by Monday, June 8?",
+        "translation": "На вашем сайте написано, что возврат бесплатный в течение 30 дней. Чтобы решить вопрос, прошу вернуть деньги. Сообщите, пожалуйста, до понедельника, 8 июня."
+      },
+      "hint": "Что в M1 написано про товар, который “doesn't work”? Начни так: Your confirmation says that…",
+      "answers": [
+        "Your confirmation says that if an item doesn't work, you'll send a prepaid return label. To resolve this, I'd like a replacement. Could you let me know by Friday, May 15?",
+        "According to your confirmation, you send a prepaid return label if an item doesn't work. To resolve this, I'd like a replacement. Could you let me know by Friday, May 15?",
+        "To resolve this, I'd like a replacement lamp. Your confirmation says that you'll send a prepaid return label if an item doesn't work. Could you please let me know by Friday, May 15?"
+      ],
+      "explanation": "Засчитывается, если есть одно решение (replacement), срок в американском формате и ссылка на правило из M1. I demand здесь лишнее: правило уже говорит за тебя.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Закончи письмо одним вежливым вопросом: нужно ли возвращать старую лампу и как её отправить.",
+      "context": "return — вернуть, отправить обратно; the original lamp — первая, старая лампа.",
+      "guidance": {
+        "title": "Вспоминаем: вежливый вопрос с whether",
+        "body": "Вспоминаем урок о вежливых вопросах: после Could you let me know порядок как в обычной фразе. Вопрос «да или нет» — через whether или if: whether I need to…, а не do I need.",
+        "example": "Could you let me know whether I need to keep the original box?",
+        "translation": "Сообщите, пожалуйста, нужно ли мне сохранить оригинальную коробку?"
+      },
+      "hint": "Два вопроса в одном: whether I need to… and how I should…",
+      "answers": [
+        "Could you let me know whether I need to return the original lamp and how I should send it?",
+        "Could you let me know if I need to return the original lamp and how to send it back?",
+        "Could you tell me whether I need to return the original lamp and, if so, how I should do it?",
+        "Could you please let me know if I should return the original lamp and how to send it?"
+      ],
+      "explanation": "После Could you let me know — порядок утверждения: whether I need, how I should send. Do I need внутри такого вопроса — ошибка. If и whether здесь равны."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Открой M2 — ответ поддержки. Соседка по квартире (roommate) спросила, что ответили, и записала в общий чат: “They promised to send a new lamp.” Исправь запись: перескажи M2 точно, через They said… В двух-трёх фразах — что они сделают, что предлагают сейчас и когда ответят.",
+      "context": "store credit — деньги на счёт в магазине; review — посмотреть, проверить; business days — рабочие дни.",
+      "guidance": {
+        "title": "Вспоминаем: пересказ ответа через said",
+        "body": "Вспоминаем урок о чужой речи: we'll → they would, can → could. В пересказ попадает только то, что сказано. «Проверим» — не «пришлём».",
+        "example": "They said they would check my account and call me back on Monday.",
+        "translation": "Сказали, что проверят мой счёт и перезвонят в понедельник."
+      },
+      "hint": "Найди в M2 три вещи: look into it, a $10 store credit, two business days.",
+      "answers": [
+        "They said they would look into it. They offered a $10 store credit if I keep the lamp. For a replacement, they said they would review the video first and try to reply within two business days.",
+        "They didn't promise a new lamp. They said they would look into it and review my video before deciding on a replacement. They also offered a $10 store credit if I keep the lamp, and they aim to reply within two business days.",
+        "They said they would look into it and that they could offer a $10 store credit right away. They said a replacement would depend on their review of my video, and they aimed to reply within two business days."
+      ],
+      "explanation": "Засчитывается, если нет обещания новой лампы, есть проверка, предложение $10 и срок ответа как цель («стараются»), а не гарантия. We'll → they would, can → could.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Скидка тебе не нужна: лампа нужна для работы, а с мигающей работать нельзя. Ответь Jordan одной-двумя фразами: поблагодари за предложение, откажись и скажи, что выбираешь.",
+      "context": "I'd prefer — я бы предпочёл.",
+      "guidance": {
+        "title": "Отказ: спасибо → но → что выбираешь и почему",
+        "body": "Thank you for the offer of…, but I'd prefer… — отказ без грубости. Короткая причина с because показывает, что это не каприз.",
+        "example": "Thank you for the offer of a discount, but I'd prefer an exchange, because the size is wrong.",
+        "translation": "Спасибо за предложение скидки, но я бы предпочёл обмен: размер не тот."
+      },
+      "hint": "Начни так: Thank you for the offer of a $10 store credit, but…",
+      "answers": [
+        "Thank you for the offer of a $10 store credit, but I'd prefer a replacement, because I need the lamp for work.",
+        "Thanks for offering a $10 store credit, but I'd prefer a replacement, because I need a working lamp for my job.",
+        "Thank you for the offer, but I'd prefer a replacement. I use the lamp for work, so I need one that doesn't flicker."
+      ],
+      "explanation": "Засчитывается, если есть благодарность, ясный выбор (replacement) и причина. “No, $10 is not enough” звучит как торг и не говорит, чего ты хочешь.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Открой M3. Ответь Jordan: поблагодари и одной фразой подтверди договорённость — что делают они и что делаешь ты, с датами из M3.",
+      "context": "",
+      "guidance": {
+        "title": "Just to confirm: you'll…, and I'll…",
+        "body": "Повтори обе стороны договорённости с датами. Should arrive — «должна прийти»: магазин ожидает, но не гарантирует. Сохрани это слово.",
+        "example": "Thanks! Just to confirm: you'll send the new charger by June 3, and I'll return the old one with the prepaid label.",
+        "translation": "Спасибо! Подтверждаю: вы присылаете новую зарядку до 3 июня, а я возвращаю старую с оплаченной наклейкой."
+      },
+      "hint": "Что делает Brightway? Что делаешь ты? К какому числу?",
+      "answers": [
+        "Thank you! Just to confirm: you'll send a replacement lamp that should arrive by May 14, and I'll return the original lamp with the prepaid label by May 25.",
+        "Thanks, Jordan. Just to confirm: the replacement should arrive by May 14, and I'll send the original lamp back with the prepaid label by May 25.",
+        "Thank you for your help. Just to confirm: you're sending a replacement that should arrive by May 14, and I'll return the original lamp by May 25 using the prepaid label."
+      ],
+      "explanation": "Засчитывается, если есть обе стороны и обе даты. Should arrive оставляет ожидание ожиданием: will definitely arrive приписало бы магазину гарантию.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Новая ситуация. Ты ждал мастера интернет-провайдера во вторник, 19 мая, с 8 утра до полудня, и взял для этого выходной. Мастер не пришёл и не позвонил. Напиши в поддержку письмо на 100–150 слов. Что должно быть: номер аккаунта; на когда была запись и что случилось; доказательство — у тебя есть SMS с подтверждением; что ты просишь: новый визит в субботу и деньги на счёт за пропущенный день; срок ответа; спокойный тон, без догадок, почему мастер не пришёл.",
+      "context": "Lakeview Internet, account 7720-4418. technician — мастер; appointment — запись на визит; text message — SMS; screenshot — снимок экрана; account credit — деньги на счёт за услугу; take the day off — взять выходной.",
+      "hint": "План: Subject → I'm writing about… → I had an appointment…, but… → I've attached… → To resolve this, I'd like… → Could you let me know by…? → Thank you, Alex",
+      "answers": [
+        "Subject: Missed technician appointment, account 7720-4418\n\nHello,\n\nI'm writing about my account, 7720-4418. I had an appointment with a technician on Tuesday, May 19, between 8 a.m. and noon. I took the day off work to be at home, but the technician didn't come or call. I've attached a screenshot of the text message that confirmed the appointment.\n\nTo resolve this, I'd like a new appointment on Saturday, May 23, and a credit on my account for the missed visit. Could you let me know by Thursday, May 21, whether Saturday is possible?\n\nThank you,\nAlex"
+      ],
+      "explanation": "Засчитывается, если есть номер аккаунта, дата и время визита, «записали — не пришли», доказательство, понятная просьба и срок. Догадки вроде “Your technicians don't care” и угрозы в первом письме не нужны: они не помогают решить вопрос."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Позвони в Brightway после M2 и поговори 1–2 минуты. Говоришь только свою часть. Что должно быть: кто ты и номер заказа; что случилось и когда; видео ты уже отправил; вежливый отказ от $10 и просьба о замене; один вопрос о возврате старой лампы; в конце — что ты понял: они посмотрят видео и постараются ответить за два рабочих дня, решения о замене пока нет. Сначала скажи вслух, потом запиши, что получилось, и сверь с M1 и M2.",
+      "context": "",
+      "hint": "План: Hi, this is Alex. I'm calling about… → The lamp… → I sent… → Thank you for…, but I'd prefer… → Could you tell me whether…? → So, just to confirm: …",
+      "answers": [
+        "Hi, this is Alex. I'm calling about order #48213. The desk lamp arrived on May 6, but it flickers when I turn it on. I sent you a short video of the problem with my email. Jordan offered me a $10 store credit if I keep the lamp. Thank you for the offer, but I'd prefer a replacement, because I need the lamp for work. Could you tell me whether I'll need to return the original lamp if you send a new one? OK, thank you. So, just to confirm: you'll review my video first and try to reply within two business days, and no decision about a replacement has been made yet. Thanks for your help."
+      ],
+      "explanation": "Засчитывается, если есть все шесть пунктов, а итог не превращает проверку в обещанную замену. Расшифровка покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Подруга пишет авиакомпании и просит помочь. Её черновик: “Your airline is a joke. I paid $45 to choose seat 12A by the window, and you put me in a middle seat on flight 418 on June 2. I demand all my money back NOW, or I'll post about you everywhere.” Перепиши письмо на 80–120 слов от её имени (Nina Park): факты и доказательство (у неё есть чек за место и посадочный талон), одна просьба — вернуть $45 за выбор места, срок ответа, спокойный тон. Весь билет она не просит вернуть: полёт состоялся.",
+      "context": "seat fee — плата за выбор места; middle seat — место посередине; receipt — чек; boarding pass — посадочный талон.",
+      "hint": "Проверь каждую фразу: это факт, догадка, угроза или просьба? Оставь факты и одну просьбу.",
+      "answers": [
+        "Subject: Seat fee refund, flight 418, June 2\n\nHello,\n\nI'm writing about flight 418 on June 2. I paid $45 to choose seat 12A, a window seat, but I was given a middle seat instead. I've attached the receipt for the seat fee and a photo of my boarding pass.\n\nTo resolve this, I'd like a refund of the $45 seat fee. Could you let me know by June 16 how and when the refund will be made?\n\nThank you,\nNina Park"
+      ],
+      "explanation": "Засчитывается, если ушли “a joke”, I demand и угроза, а остались рейс, дата, сумма, доказательство, одна просьба и срок. Просить вернуть весь билет было бы нечестно: место она не получила, но полёт состоялся."
+    }
+  ]
+}

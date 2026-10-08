@@ -1,0 +1,338 @@
+{
+  "id": "extended-b2-sleep",
+  "title": "О сне без громких обещаний: описать, проверить совет, ответить",
+  "subtitle": "Заснул, проснулся, встал → задремал → устал или клонит в сон → may help, а не will cure → ответ Джону",
+  "level": "B2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Точно рассказать о ночи и дне («заснул только в 11:30», «проснулся, но ещё не встал»), отличить осторожный совет о сне от громкого обещания и ответить человеку о его сне, не ставя ему диагноз.",
+  "formula": "go to bed → fall asleep → wake up → get up · doze off ≠ take a nap · tired ≠ sleepy · may help ≠ will cure · что было + как часто + кто заметил",
+  "keyRule": {
+    "rule": "О здоровье пересказывай, что было, как часто и кто заметил, — без диагноза.",
+    "example": "My partner says I snore. I don't know why. — Партнёр говорит, что я храплю. Почему — не знаю.",
+    "check": "Совет обещает результат всем? Спроси, на чём держится это обещание."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-critical-reading",
+    "path-everyday-phrasal",
+    "path-past-perfect"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-past-perfect"
+  ],
+  "teaches": [
+    "моменты ночи: go to bed → fall asleep → sleep → wake up → get up; be asleep и be awake — состояние, с is / was",
+    "didn't fall asleep until 11:30 — «заснул только в 11:30»; slept, а не sleeped",
+    "doze off — задремать без плана; take a nap — поспать днём специально",
+    "tired — устал ≠ sleepy — клонит в сон; daytime sleepiness — сонливость днём",
+    "snore — звук, а не причина; insomnia — регулярные трудности со сном, одна ночь — ещё не insomnia",
+    "источник и частота: My roommate says I sometimes snore",
+    "совет о здоровье: may help / can help ≠ will cure / works for everyone; история одного человека — не гарантия",
+    "американское talk to your doctor (в Британии — GP)",
+    "ответ человеку: его факты точно → кто что заметил → чего ты не знаешь → следующий шаг"
+  ],
+  "sources": [
+    {
+      "title": "CDC · About Sleep",
+      "url": "https://www.cdc.gov/sleep/about/index.html",
+      "notes": "Сверено: ложиться и вставать в одно и то же время, выключать экраны хотя бы за 30 минут до сна — советы, которые могут помочь; поговорить с врачом, если трудности со сном регулярные или клонит в сон даже после достаточного сна. На этом построены M1 и второй черновик в M2."
+    },
+    {
+      "title": "NHLBI (NIH) · Sleep Apnea: Symptoms",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms",
+      "notes": "Сверено: громкий храп, остановки дыхания во сне и сонливость днём — признаки, о которых говорят с врачом; их часто замечает партнёр; храп сам по себе диагнозом не считается. Поэтому в M3 и в ответах Джону — совет поговорить с врачом, без названия болезни."
+    },
+    {
+      "title": "The Journalist's Resource · Correlation vs. causation",
+      "url": "https://journalistsresource.org/?p=69053",
+      "notes": "Сверено: о советах и исследованиях про сон пишут linked to и may, а не causes и proves. Отсюда граница «may help — не will cure» в разделе 4."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Заснуть, спать, проснуться, встать — разные моменты",
+      "body": "По-русски хватает слов «спать» и «заснуть», а английский делит ночь на точные шаги.\n\nGo to bed (went to bed) — лечь в постель. Fall asleep (fell asleep) — заснуть, это момент. Sleep (slept) — спать, это процесс: I slept for seven hours. Be asleep — спать, это состояние: The baby is asleep. Без is — ошибка: The baby asleep.\n\nWake up и get up ты знаешь: проснуться и встать с постели. Между ними может пройти полчаса.\n\n«Заснул только в 11:30» — I didn't fall asleep until 11:30. Didn't … until — «только в», дословно «не засыпал до». Частая ошибка — sleeped: правильно slept."
+    },
+    {
+      "title": "Ненадолго днём: doze off и take a nap",
+      "body": "Doze off (dozed off) — задремать, часто без плана: I dozed off in front of the TV — я задремал перед телевизором.\n\nTake a nap (took a nap) — поспать днём, обычно специально: I took a twenty-minute nap after lunch. Nap — короткий сон днём.\n\nНи то, ни другое — не ночной сон. Если человек задремал в кресле, не пиши, что он slept there или slept well.\n\nAwake — «не спит» — тоже состояние, как asleep: I was already awake — я уже не спал."
+    },
+    {
+      "title": "Устал или клонит в сон: tired, sleepy, snore, insomnia",
+      "body": "Tired — устал: после работы, после спортзала. Sleepy — клонит в сон, глаза закрываются. Можно быть tired и при этом не хотеть спать. Daytime sleepiness — сонливость днём.\n\nSnore — храпеть. Это звук во сне, а не объяснение: само слово не говорит, почему человек храпит.\n\nInsomnia — бессонница: регулярно трудно заснуть или проспать ночь без пробуждений. Одна плохая ночь — ещё не insomnia.\n\nЕсли заметил другой человек, назови его: My roommate says I snore — сосед по квартире говорит, что я храплю. Так ясно, что сам ты этого не слышал."
+    },
+    {
+      "title": "Совет о сне: may help — не will cure",
+      "body": "Из урока о критическом чтении: найди вывод и проверь, на чём он держится. В советах о здоровье это особенно важно: громкое обещание звучит убедительно.\n\nОсторожный совет: may help, can help — «может помочь». Громкое обещание: will cure, will fix, works for everyone — «вылечит», «решит у всех». История кузена показывает, что одному человеку помогло, но не доказывает, что поможет всем.\n\nПересказывая источник, сохрани его силу: The CDC says a regular schedule can help. CDC — американское агентство по здоровью. Писать will fix your sleep нельзя: источник такого не обещает.\n\nВ США в таких случаях говорят talk to your doctor — поговорите с врачом. В Британии скажут GP."
+    },
+    {
+      "title": "Ответ человеку: его факты, источник и следующий шаг",
+      "body": "Человек рассказал о своём сне подробнее. Ответ строят так. Поблагодари и повтори его новые факты точно: twice last week — дважды на прошлой неделе, а не «каждый день». Сохрани, кто что заметил: your partner says… Честно скажи, чего ты не знаешь: we can't tell you the cause. Предложи шаг: talk to your doctor, write down what happens.\n\nНе добавляй чисел, сроков и названий болезней, которых в его сообщении нет. Совет «просто ложись в десять» тоже не подходит, если человек описывает другое."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I went to bed at eleven, but I didn't fall asleep until eleven thirty.",
+      "ru": "Я лёг в одиннадцать, но заснул только в половине двенадцатого.",
+      "why": "Go to bed и fall asleep — разные моменты. Didn't … until — «только в»."
+    },
+    {
+      "en": "When the alarm went off, I was already awake, but I hadn't gotten up yet.",
+      "ru": "Когда зазвонил будильник, я уже не спал, но ещё не встал.",
+      "why": "Awake — состояние, get up — действие. Hadn't gotten — американская форма."
+    },
+    {
+      "en": "I dozed off on the couch during the movie.",
+      "ru": "Я задремал на диване во время фильма.",
+      "why": "Doze off — без плана. Это не ночной сон."
+    },
+    {
+      "en": "My roommate says I sometimes snore.",
+      "ru": "Сосед по квартире говорит, что я иногда храплю.",
+      "why": "Says — источник, sometimes — частота. Snore не объясняет причину."
+    },
+    {
+      "en": "I'm tired, but I'm not sleepy.",
+      "ru": "Я устал, но спать не хочется.",
+      "why": "Tired и sleepy — разные состояния."
+    },
+    {
+      "en": "A regular schedule may help, but it won't fix everyone's sleep.",
+      "ru": "Режим может помочь, но не решит проблемы со сном у всех.",
+      "why": "May help — осторожный совет. Обещание «всем» требует доказательств."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Статья: сначала опиши, потом советуй",
+      "kind": "reading",
+      "text": "Sleep: Describe It Before You Fix It\n\nOur community newsletter gets a lot of messages about sleep. Before we compare advice, it helps to describe what actually happens. The right words make a story clearer without pretending to explain it.\n\nTake Mina, a reader we made up for this example. She went to bed at eleven, read for half an hour, and then fell asleep. She woke up at six but stayed in bed until six thirty. Saying that she slept from eleven would hide the time she spent reading. Saying that she got up at six would change the story too. Later that afternoon, she dozed off in an armchair for a few minutes. That short sleep was a separate event, not part of her night.\n\nFeeling tired and falling asleep during the day are different things. You can feel tired after a long day and still stay awake. Insomnia means regular trouble falling asleep or staying asleep, so one bad night isn't enough for that label. Snoring is a sound people make while they sleep; the word alone doesn't explain why it happens.\n\nThe CDC says that going to bed and getting up at the same time every day and turning off screens before bed can help. That is advice that may help, not a promise that works for everyone. If you regularly have trouble sleeping, or you feel sleepy during the day even after enough sleep, the CDC suggests talking to your doctor.\n\nSo our job as readers is simple: separate what happened, what someone suggests, and how strong the claim is. One person's success story can show an idea, but it can't prove that the same change will fix everyone's sleep.",
+      "source": "Придумано для курса: бюллетень и Мина вымышленные. Советы пересказаны по странице CDC About Sleep."
+    },
+    {
+      "id": "m2",
+      "title": "Два черновика для бюллетеня",
+      "kind": "dialogue",
+      "text": "Editor: We need a short paragraph for next week's newsletter. Here's the first draft: “Go to bed at exactly ten every night, and your sleep problems will disappear in three days. My cousin tried it, so we know it works for everybody. If you still feel tired, you're just not following the routine.”\n\nWriter: That sounds confident, but the example doesn't support those promises. We don't know our readers' situations, and blaming them isn't fair. The article also separates feeling tired from actually falling asleep.\n\nEditor: Here's the second draft: “You could try going to bed and getting up at the same time every day and turning off screens half an hour before bed. These are possible first steps, not a guarantee. Write down what happens at night and during the day, and talk to your doctor if the problem continues or affects your daily life.”\n\nWriter: That version gives a concrete suggestion and admits its limits. I'd also keep the difference between waking up and getting up. Readers can use those words to describe their nights more accurately.\n\nEditor: Agreed. Let's explain our reasons instead of just saying one paragraph sounds nicer. And we shouldn't turn the newsletter into a diagnosis.",
+      "source": "Придумано для курса: редакция вымышленная."
+    },
+    {
+      "id": "m3",
+      "title": "Голосовое сообщение Джона",
+      "kind": "listening",
+      "text": "Hi, this is Jon. I read your newsletter and realized that my first message was too vague. I wrote that I felt tired after work, but the truth is that I often fall asleep without meaning to. Last week I dozed off twice while I was reading reports at my desk, and on another day I fell asleep in a quiet meeting and missed part of it. It's starting to affect my work.\n\nMy partner also says that I snore loudly and that my breathing sometimes seems to stop and start while I'm asleep. I don't know why this happens, and I haven't talked to a doctor about it yet. I haven't measured anything. Could you help me describe the problem clearly, instead of telling me what condition I have? I'd like to know what to tell my doctor.",
+      "source": "Придумано для курса: Джон вымышленный."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты ведёшь дневник сна для себя. Запиши: «Вчера я лёг в одиннадцать, но заснул только в половине двенадцатого».",
+      "context": "",
+      "guidance": {
+        "title": "Лёг и заснул — go to bed и fall asleep",
+        "body": "Go to bed — лечь, fall asleep — заснуть. «Только в» — didn't … until, дословно «не засыпал до».",
+        "example": "She went to bed at ten but didn't fall asleep until midnight.",
+        "translation": "Она легла в десять, но заснула только в полночь."
+      },
+      "hint": "Начни так: Last night, I went to bed at eleven, but I didn't …",
+      "answers": [
+        "Last night, I went to bed at eleven, but I didn't fall asleep until eleven thirty.",
+        "Last night I went to bed at eleven, but I didn't fall asleep until eleven-thirty.",
+        "Last night I went to bed at 11, but I didn't fall asleep until 11:30.",
+        "Yesterday I went to bed at eleven, but I didn't fall asleep until eleven thirty.",
+        "Yesterday, I went to bed at 11:00, but I didn't fall asleep until 11:30.",
+        "Last night, I went to bed at eleven, but I didn't fall asleep until 11:30.",
+        "Last night, I went to bed at eleven but only fell asleep at eleven thirty."
+      ],
+      "explanation": "Went to bed и fall asleep — два разных момента. Didn't fall asleep until 11:30 — «заснул только в 11:30». Only fell asleep at тоже понятно, но didn't … until звучит естественнее."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Продолжи дневник: «Когда в шесть зазвонил будильник, я уже не спал, но ещё не встал».",
+      "context": "the alarm went off — зазвонил будильник.",
+      "guidance": {
+        "title": "Состояние — awake, действие — get up",
+        "body": "Awake — «не спит», это состояние: нужен was. Get up — действие. «Ещё не встал» к тому моменту — hadn't gotten up yet, как в уроке о had + третья форма.",
+        "example": "When I got home, the kids were already asleep, but they hadn't brushed their teeth.",
+        "translation": "Когда я пришёл домой, дети уже спали, но зубы так и не почистили."
+      },
+      "hint": "Начни так: When the alarm went off at six, I was already …",
+      "answers": [
+        "When the alarm went off at six, I was already awake, but I hadn't gotten up yet.",
+        "When the alarm went off at six, I was already awake but hadn't gotten up yet.",
+        "When my alarm went off at six, I was already awake, but I hadn't gotten up yet.",
+        "When the alarm went off at 6:00, I was already awake, but I hadn't gotten up yet.",
+        "When the alarm went off at six, I was already awake, but I hadn't gotten out of bed yet.",
+        "When the alarm went off at six, I was already awake, but I was still in bed."
+      ],
+      "explanation": "Was awake — состояние в тот момент. Hadn't gotten up — встать ещё не успел; I was still in bed тоже верно. Gotten — американская форма."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ещё одна строчка дневника: «Днём я задремал на диване минут на десять. Я не собирался спать».",
+      "context": "couch — диван; plan to — собираться.",
+      "guidance": {
+        "title": "Без плана — doze off, специально — take a nap",
+        "body": "Doze off — задремать неожиданно. Take a nap — поспать днём специально.",
+        "example": "After lunch, I took a short nap on purpose.",
+        "translation": "После обеда я специально немного поспал."
+      },
+      "hint": "Ты собирался спать? Тогда doze off или take a nap?",
+      "answers": [
+        "In the afternoon, I dozed off on the couch for about ten minutes. I didn't plan to sleep.",
+        "In the afternoon, I dozed off on the couch for about ten minutes. I wasn't planning to sleep.",
+        "In the afternoon, I dozed off on the couch for about ten minutes. I didn't plan to.",
+        "In the afternoon, I dozed off on the couch for about ten minutes. I didn't mean to.",
+        "During the day, I dozed off on the couch for about ten minutes. I didn't plan to sleep.",
+        "In the afternoon I dozed off on the couch for ten minutes or so. I didn't mean to fall asleep."
+      ],
+      "explanation": "Dozed off — задремал без плана. Took a nap здесь не подходит: ты не собирался спать. I didn't mean to — «я не хотел, само вышло» — тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь врачу: «Сосед по квартире говорит, что я иногда храплю, но сам я этого никогда не слышал». roommate — сосед по квартире.",
+      "context": "",
+      "guidance": {
+        "title": "Кто заметил и как часто",
+        "body": "Если заметил другой человек, назови его: My roommate says… Sometimes — «иногда» — сохрани частоту. Snore — храпеть.",
+        "example": "My wife says I talk in my sleep, but I don't remember it.",
+        "translation": "Жена говорит, что я разговариваю во сне, но я этого не помню."
+      },
+      "hint": "«Никогда не слышал» за всю жизнь — I've never heard it.",
+      "answers": [
+        "My roommate says I sometimes snore, but I've never heard it myself.",
+        "My roommate says that I sometimes snore, but I've never heard it myself.",
+        "My roommate says I snore sometimes, but I've never heard it myself.",
+        "My roommate says I sometimes snore, but I have never heard it myself.",
+        "My roommate says I sometimes snore, but I've never heard it.",
+        "My roommate says I sometimes snore, but I never hear it myself."
+      ],
+      "explanation": "Says сохраняет источник: это наблюдение соседа. Sometimes — частота, её нельзя потерять. I've never heard it — ни разу за всё время, поэтому have + третья форма."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: “I slept badly last night, so I have insomnia. I'm sleepy after the gym.” Ты знаешь: плохая ночь была одна, а после спортзала он просто устал, спать ему не хочется. Перепиши его сообщение точнее двумя фразами.",
+      "context": "",
+      "guidance": {
+        "title": "Описание вместо ярлыка",
+        "body": "Insomnia — регулярные трудности со сном, одна ночь — ещё не она. Tired — устал, sleepy — клонит в сон.",
+        "example": "I had a bad night, but that doesn't mean I have a sleep problem.",
+        "translation": "Ночь была плохая, но это не значит, что у меня проблемы со сном."
+      },
+      "hint": "Какое слово — про усталость, а какое — про желание спать?",
+      "answers": [
+        "I slept badly last night, but one bad night isn't insomnia. I'm tired after the gym.",
+        "I slept badly last night, but that doesn't mean I have insomnia. I'm tired after the gym.",
+        "I slept badly last night, but one bad night doesn't mean I have insomnia. I'm tired after the gym.",
+        "I had a bad night, but that doesn't mean I have insomnia. I'm tired after the gym.",
+        "I slept badly last night, but that's not insomnia. I'm just tired after the gym."
+      ],
+      "explanation": "Одна ночь — описание, а не диагноз insomnia. После спортзала — tired: устал, но спать не хочет. Sleepy значило бы, что у него закрываются глаза."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем урок о критическом чтении. В черновике бюллетеня строчка: “This routine will cure everybody's sleep problems. My cousin tried it, and it worked.” Перепиши честно двумя фразами: что совет может дать и что доказывает история кузена.",
+      "context": "routine — режим, распорядок.",
+      "guidance": {
+        "title": "Вспоминаем: вывод шире доказательства",
+        "body": "Как в уроке о критическом чтении: одна история показывает, что так бывает, но не доказывает «для всех». Will cure замени на may help.",
+        "example": "This app may help you focus. One coworker liked it, but that doesn't prove it works for everyone.",
+        "translation": "Это приложение может помочь сосредоточиться. Одному коллеге оно понравилось, но это не доказывает, что оно подходит всем."
+      },
+      "hint": "Начни так: This routine may help … Во второй фразе — про кузена: shows … but doesn't prove …",
+      "answers": [
+        "This routine may help some people sleep better. My cousin's story shows it worked for one person, but it doesn't prove it works for everyone.",
+        "This routine may help some people. My cousin tried it and it worked for him, but that doesn't prove it will work for everyone.",
+        "This routine might help some people sleep better. It worked for my cousin, but one story doesn't prove it works for everyone.",
+        "This routine can help some people sleep better. My cousin's experience shows it can work, but it doesn't prove it works for everybody."
+      ],
+      "explanation": "Засчитывается, если will cure заменено на may, might или can help, «всех» — на some people, а история кузена названа одним случаем, который не доказывает результат для всех."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M2. Редактор просит объяснить тремя фразами: что обещает первый черновик, почему история кузена этого не доказывает и что честнее во втором черновике.",
+      "context": "",
+      "guidance": {
+        "title": "Сравни силу утверждения, а не тон",
+        "body": "Не «первый плохой, второй хороший», а причины: что обещано, на чём держится, что сделано честнее.",
+        "example": "The first ad promises results in a week, but it only quotes one customer. The second one says the product may help and explains how to use it.",
+        "translation": "Первая реклама обещает результат за неделю, но цитирует только одного покупателя. Вторая говорит, что средство может помочь, и объясняет, как им пользоваться."
+      },
+      "hint": "Найди в первом черновике will и everybody.",
+      "answers": [
+        "The first draft promises that everyone's sleep problems will disappear in three days. The only evidence is one cousin's story, so it can't support a promise for everybody. The second draft gives concrete first steps and says clearly that they aren't a guarantee.",
+        "The first draft says the routine works for everybody in three days. One cousin's experience doesn't prove that, and the draft also blames readers who still feel tired. The second draft suggests possible first steps and tells people to talk to their doctor if the problem continues."
+      ],
+      "explanation": "Засчитывается, если названо обещание первого черновика (всем, за три дня), сказано, почему история кузена его не доказывает, и названо, что второй черновик делает честнее: возможные шаги, не гарантия, совет поговорить с врачом.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Прослушай M3 два раза, текст не открывай. Ответь Джону письменно от редакции бюллетеня, 100–150 слов. Что должно быть: спасибо за уточнение; чем новые сведения отличаются от «устаю после работы»; его факты точно — сколько раз и где; что заметил партнёр — с указанием, кто заметил; что причину вы назвать не можете; совет поговорить с врачом; что полезно записать до визита.",
+      "context": "",
+      "hint": "Отдели то, что Джон пережил сам, от слов его партнёра. Сроков и цифр, которых нет в M3, не добавляй.",
+      "answers": [
+        "Hi Jon,\n\nThank you for explaining things more clearly. What you describe now is different from feeling tired after work: you fall asleep during the day without meaning to. Last week you dozed off twice while reading reports at your desk, and on another day you fell asleep in a quiet meeting. You also say it's starting to affect your work.\n\nYour partner says you snore loudly and that your breathing sometimes seems to stop and start. We can't tell you what causes this, and we won't guess. We'd suggest talking to your doctor about it soon. Before the visit, it might help to write down when you doze off, how often it happens, and what your partner notices at night.\n\nBest wishes,\nThe newsletter team"
+      ],
+      "explanation": "Засчитывается, если факты совпадают с M3 (дважды за столом, один раз на встрече, мешает работе), наблюдения партнёра поданы через your partner says, причина не названа, есть совет поговорить с врачом и что записать. Нельзя добавлять сроки, цифры и названия болезней, которых в M3 нет.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты Джон из M3. Завтра визит к врачу, и ты репетируешь, что скажешь. Запиши себя на 1–2 минуты. Что должно быть: что происходит днём — daytime sleepiness или sleepy, doze off; сколько раз и где; что заметил партнёр — snore, дыхание — и что это его наблюдения; как это влияет на работу; чего ты не знаешь; два открытых вопроса врачу.",
+      "context": "",
+      "hint": "Начни так: I'd like to talk about daytime sleepiness, because …",
+      "answers": [
+        "I'd like to talk about daytime sleepiness, because it's starting to affect my work. At first I thought I was just tired after work, but I often fall asleep without meaning to. Last week I dozed off twice while I was reading reports at my desk. On another day, I fell asleep during a quiet meeting and missed part of it. My partner also says I snore loudly and that my breathing sometimes seems to stop and start while I'm asleep. Those are my partner's observations; I haven't noticed it myself, and I haven't measured anything. I don't know what's causing this. What information should I keep track of before my next visit? And what do you think the next step should be?"
+      ],
+      "explanation": "Засчитывается, если свои случаи отделены от наблюдений партнёра, число случаев совпадает с M3, сказано, чего ты не знаешь, и в конце два открытых вопроса без готового диагноза. Расшифровка голоса покажет слова, но не оценит произношение.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши по M1 и M2 заметку для клубного бюллетеня: 100–180 слов с коротким заголовком. Что должно быть: пример двух разных моментов ночи (fall asleep и wake up или get up); doze off, snore и insomnia — каждое в понятной фразе; один осторожный совет из M1 с may help или can help; почему история одного человека — не гарантия для всех; когда стоит поговорить с врачом.",
+      "context": "",
+      "hint": "Распредели слова между примером, объяснением и советом. Диагноз читателю не ставь.",
+      "answers": [
+        "Sleep: Say What Happens\n\nGoing to bed, falling asleep, and waking up are different moments. You might go to bed at eleven but not fall asleep until eleven thirty, or wake up at six but not get up until six thirty. If you doze off in an armchair in the afternoon, that's a short daytime sleep, not part of your night.\n\nChoose your words carefully. Snoring is a sound people make while they sleep; the word doesn't explain why it happens. Insomnia means regular trouble sleeping, so one bad night isn't enough for that label.\n\nThe CDC says that going to bed and getting up at the same time every day can help. That's a possible first step, not a promise. One cousin's success story doesn't prove a routine will work for everyone. If you regularly have trouble sleeping, or you feel sleepy during the day, talk to your doctor."
+      ],
+      "explanation": "Засчитывается, если есть заголовок, пример двух моментов ночи, doze off, snore и insomnia в понятных фразах, совет с may или can help, мысль о том, что одна история — не гарантия, и когда идти к врачу. Нельзя приписывать CDC обещание результата.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    }
+  ]
+}

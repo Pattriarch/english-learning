@@ -1,0 +1,344 @@
+{
+  "id": "path-determiner-nuance",
+  "title": "Some guy, a certain someone, the very person: что маленькое слово говорит о твоём отношении",
+  "subtitle": "some + один → a certain → That was some…! → any или every → this в рассказе → the very → проверка такого и каждого → своя история",
+  "level": "C2",
+  "group": "Грамматика высокого уровня",
+  "units": "Авторский маршрут · C2",
+  "minutes": 60,
+  "goal": "Одним словом перед существительным показать, что ты знаешь о человеке и как к нему относишься: «Звонил какой-то парень» (кто — не знаю), «Кое-кто опять не помыл посуду» (знаю, но не называю), «Вот это была гроза!».",
+  "formula": "Some guy called. · A certain someone forgot again. · That was some storm! · Any student can sign up. · the very person we needed",
+  "keyRule": {
+    "rule": "Не знаешь, кто это, или тебе не важно — some. Знаешь, но не называешь — a certain.",
+    "example": "Some guy called for you — тебе звонил какой-то парень (кто — не знаю).",
+    "check": "Можешь назвать имя, но не хочешь? Тогда a certain, а не some."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-articles-advanced",
+    "path-quantifiers-nuance",
+    "path-something-anything"
+  ],
+  "recycles": [
+    "path-so-such-intensifiers",
+    "path-quantifiers-nuance"
+  ],
+  "teaches": [
+    "some + один человек или вещь — «какой-то, не знаю какой»: Some guy called; с несколькими вещами и веществом some — просто «несколько, немного»",
+    "ударное some — оценка: That was some storm! (вот это гроза), Some friend you are! (тоже мне друг); тон решает голос",
+    "some + число — «около» в новостях и отчётах: some 300 people",
+    "a certain — «знаю, но не называю»: a certain someone; с качеством — «некоторый»: a certain hesitation, to a certain extent; a certain Mr. Hall — «некий»",
+    "any + один в утверждении — «любой, неважно какой»: Any pharmacist can tell you; not just any lawyer",
+    "every — все до одного, это факт; any — любой на выбор, это возможность; о случившемся any не говорят",
+    "this в разговорном рассказе вводит нового человека: So this guy comes up to me…; that / those — дистанция и раздражение: that dog of theirs",
+    "the very — «именно тот, тот самый», at the very end — «в самом конце»; это не very «очень»",
+    "such + уже описанное: Such behavior is unacceptable; с behavior, advice — без a",
+    "в официальном тексте вместо some expert и those people — критерий: an adviser with no medical training"
+  ],
+  "sources": [
+    {
+      "title": "Dictionary.com · some",
+      "url": "https://www.dictionary.com/browse/some",
+      "notes": "Сверено: some — «какой-то, не названный» (Some person may object); разговорное «замечательный, вот это» — That was some storm, с ударением; some перед числом — «около» (Some 300 were present) в американском употреблении."
+    },
+    {
+      "title": "Dictionary.com · certain",
+      "url": "https://www.dictionary.com/browse/certain",
+      "notes": "Сверено: a certain — «определённый, но не названный» (A certain person left the kitchen a mess — чтобы не называть человека); «некоторый, хотя и не большой» (a certain reluctance); a certain + имя — человек, которого говорящий не знает лично."
+    },
+    {
+      "title": "Dictionary.com · this",
+      "url": "https://www.dictionary.com/browse/this",
+      "notes": "Сверено: в американском употреблении this ставят вместо a для выразительности в рассказе: I was walking down the street when I heard this explosion; помечено как разговорное."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Один звонок — три отношения",
+    "why": "Слово перед существительным сообщает, что говорящий знает о человеке.",
+    "items": [
+      {
+        "label": "Не знаю, кто",
+        "en": "Some guy from the bank called.",
+        "ru": "Звонил какой-то парень из банка.",
+        "note": "Кто это — неизвестно и не важно."
+      },
+      {
+        "label": "Знаю, но не скажу",
+        "en": "A certain someone called again.",
+        "ru": "Кое-кто опять звонил.",
+        "note": "Оба догадываетесь, о ком речь."
+      },
+      {
+        "label": "Именно тот",
+        "en": "He was the very person we needed.",
+        "ru": "Он был именно тем, кто нам был нужен.",
+        "note": "Точное совпадение, а не «очень»."
+      }
+    ],
+    "focus": [
+      "Some guy",
+      "A certain someone",
+      "the very person"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Одно слово перед существительным — и слышно, что ты знаешь",
+      "body": "Сосед по квартире (roommate) говорит: Some guy from the bank called for you. «Тебе звонил какой-то парень из банка». Some здесь не значит «несколько». Оно говорит: «кто это — не знаю, и мне не важно».\n\nСравни три фразы об одном звонке. A man from the bank called — «звонил мужчина из банка», без оценки. Some guy from the bank called — «какой-то парень»: говорящий его не знает. A certain someone called again — «кое-кто опять звонил»: говорящий знает, кто это, вы оба догадываетесь, но имя не звучит.\n\nТакие маленькие слова перед существительным называют определителями (determiners): a, the, some, any, this, that, such. Как они считают предметы, ты уже знаешь. В этом уроке — другое: что ими сообщают о своём знании и отношении. По-русски это делают слова «какой-то», «некий», «кое-кто», «любой», «тот самый»."
+    },
+    {
+      "title": "Some + одна вещь: «какой-то» и оценка голосом",
+      "body": "Some с одним человеком или вещью (some guy, some website) — «какой-то, не знаю какой»: I read it on some website — «прочитал на каком-то сайте». Часто звучит небрежно: говорящему всё равно, что за сайт.\n\nС ударением some становится оценкой. That was SOME storm! — «Вот это была гроза!» — восхищение силой. Some FRIEND you are! — «Тоже мне друг!» — упрёк. Some EXPERT told you that? — «Это тебе какой-то „эксперт“ сказал?» — сомнение. Форма одна, а хвалит она или насмехается, решают голос и ситуация.\n\nГде этого нет. С несколькими вещами и веществом some — обычное «несколько, немного», без оценки: some people, some coffee. Перед числом some значит «около» — так пишут в новостях и отчётах: some 300 people — «около 300 человек»."
+    },
+    {
+      "title": "A certain: «знаю, но не называю» и «в какой-то мере»",
+      "body": "A certain + человек — говорящий знает, о ком речь, но не называет. A certain someone left dishes in the sink again — «кое-кто опять оставил посуду в раковине». Обычно все понимают, кто это, — получается шутливый упрёк. У some смысл «не знаю», у a certain — «не скажу».\n\nA certain + качество — «некоторый, заметный, но не сильный»: There was a certain hesitation in her voice — «в её голосе была некоторая нерешительность». Ты отмечаешь качество и не преувеличиваешь его. Готовое выражение: to a certain extent — «в какой-то мере».\n\nA certain + имя — «некий»: a certain Mr. Hall — человек, которого говорящий лично не знает. Это книжно; в разговоре скажут a guy named Hall."
+    },
+    {
+      "title": "Any или every: любой на выбор или все до одного",
+      "body": "Any + один человек или вещь в утверждении (не в вопросе и не после not) значит «любой, неважно какой»: Any pharmacist can tell you that — «это тебе скажет любой фармацевт». С ударением: We don't need just ANY lawyer — «нам нужен не просто какой-нибудь юрист».\n\nEvery говорит обо всех до одного, и это факт: Every student in the class passed the test — «все ученики класса сдали тест». Any говорит о выборе: Any student can sign up — «записаться может любой ученик». Every student can sign up тоже верно, но звучит как «все», а any подчёркивает «кого ни возьми».\n\nГде any не подходит: о том, что уже случилось со всеми. Any student passed — ошибка, нужно every student или all the students."
+    },
+    {
+      "title": "This, that, such, the very: указатели с отношением",
+      "body": "В разговорном американском рассказе this вводит нового человека, а не «этот, рядом»: So this guy comes up to me at the gas station… — «И тут подходит ко мне на заправке один парень…». Так рассказывают друзьям; в письме и отчёте пишут a man. That и those с известным всем человеком добавляют дистанцию, часто раздражение: that dog of theirs — «эта их собака».\n\nSuch — «такой, как только что описано»: They shouted at the staff. Such behavior is unacceptable. С behavior, advice — без a.\n\nThe very — «именно тот, тот самый»: the very person we needed; at the very end — «в самом конце». Это не very «очень»: the very helpful person — ошибка.\n\nВ официальном тексте some expert и those people звучат как намёк. Назови критерий: an adviser with no medical training."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Some guy from the bank called for you.",
+      "ru": "Тебе звонил какой-то парень из банка.",
+      "why": "Some + один человек: говорящий не знает, кто это."
+    },
+    {
+      "en": "A certain someone forgot to take out the trash again.",
+      "ru": "Кое-кто опять забыл вынести мусор.",
+      "why": "Говорящий знает, кто это, но имя не называет — шутливый упрёк."
+    },
+    {
+      "en": "That was some storm last night!",
+      "ru": "Вот это была гроза вчера!",
+      "why": "Ударное some — оценка силы, а не «какая-то»."
+    },
+    {
+      "en": "There was a certain hesitation in her voice.",
+      "ru": "В её голосе была некоторая нерешительность.",
+      "why": "Качество замечено, но не раздуто."
+    },
+    {
+      "en": "Every student in the class passed. Any student can sign up for the next course.",
+      "ru": "Все ученики класса сдали. На следующий курс может записаться любой ученик.",
+      "why": "Every — факт обо всех, any — выбор любого."
+    },
+    {
+      "en": "He was the very person we needed.",
+      "ru": "Он был именно тем человеком, который нам был нужен.",
+      "why": "The very — «именно тот», а не «очень»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь соседу по квартире записку: «Тебе звонил какой-то парень из автосервиса. Имя не оставил». auto shop — автосервис, leave a name — оставить имя.",
+      "context": "",
+      "guidance": {
+        "title": "Some + один человек — «какой-то»",
+        "body": "Some перед одним человеком или вещью значит «какой-то, не знаю какой». Существительное после some здесь без -s: some guy, some woman.",
+        "example": "Some woman from the school called this morning.",
+        "translation": "Утром звонила какая-то женщина из школы."
+      },
+      "hint": "Начни так: Some guy from…",
+      "answers": [
+        "Some guy from the auto shop called you. He didn't leave his name.",
+        "Some guy from the auto shop called for you. He didn't leave his name.",
+        "Some guy from the auto shop called you. He didn't leave a name.",
+        "Some guy from the auto shop called for you. He didn't leave a name.",
+        "Some guy from the auto shop called. He didn't leave his name.",
+        "Some guy from the auto shop called you, but he didn't leave his name.",
+        "Some man from the auto shop called you. He didn't leave his name.",
+        "Some guy from the auto shop called you. He did not leave his name."
+      ],
+      "explanation": "Some guy — «какой-то парень»: ты его не знаешь. A guy from the auto shop called тоже верно, но без оттенка «понятия не имею, кто это»."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В общем чате квартиры ты пишешь с улыбкой: «Кое-кто опять оставил грязную посуду в раковине». Все знают, кто это, но имя ты не называешь. dirty dishes — грязная посуда, sink — раковина.",
+      "context": "",
+      "guidance": {
+        "title": "A certain someone — «знаю, но не скажу»",
+        "body": "A certain + человек: ты знаешь, о ком речь, но не называешь. A certain someone — шутливый упрёк, все догадываются, кто это.",
+        "example": "A certain someone ate the last cookie.",
+        "translation": "Кое-кто съел последнее печенье."
+      },
+      "hint": "Some здесь не подойдёт: some — «не знаю кто». Какое слово значит «знаю, но не скажу»?",
+      "answers": [
+        "A certain someone left dirty dishes in the sink again.",
+        "A certain someone left their dirty dishes in the sink again.",
+        "A certain someone left the dirty dishes in the sink again.",
+        "A certain someone has left dirty dishes in the sink again.",
+        "A certain someone left dirty dishes in the sink. Again.",
+        "Once again, a certain someone left dirty dishes in the sink."
+      ],
+      "explanation": "A certain someone — все понимают, о ком речь, но имени нет. Someone left dishes… — «кто-то», будто ты не знаешь; намёк и шутка пропадают."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утром соседка спрашивает: Did you hear the storm last night? Ответь с восхищением: «Ещё бы! Вот это была гроза!» storm — гроза, буря.",
+      "context": "",
+      "guidance": {
+        "title": "Ударное some — «вот это да»",
+        "body": "Some с ударением перед одной вещью значит не «какая-то», а «вот это да»: сила, размах. С другим тоном та же форма звучит насмешкой: Some help you are! — «Тоже мне помощь!»",
+        "example": "That was some game last night!",
+        "translation": "Вот это была игра вчера!"
+      },
+      "hint": "Начни так: Yes! That was…",
+      "answers": [
+        "Yes! That was some storm!",
+        "Yeah! That was some storm!",
+        "Oh yeah! That was some storm!",
+        "I sure did! That was some storm!",
+        "Did I ever! That was some storm!",
+        "Yes, I did! That was some storm!",
+        "Yes! That was some storm last night!",
+        "Yes! What a storm!",
+        "I sure did! What a storm!"
+      ],
+      "explanation": "That was some storm! — восхищение силой грозы, ударение на some. What a storm! тоже верно и звучит так же естественно. That was a storm без some оценку теряет."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь объявление о курсе для школьного сайта: «Все ученики нашего класса сдали тест. Записаться на курс может любой ученик школы». sign up for — записаться на.",
+      "context": "",
+      "guidance": {
+        "title": "Every — все до одного, any — любой на выбор",
+        "body": "Every говорит, что случилось со всеми: это факт. Any в утверждении говорит, что подойдёт любой, кого ни возьми: это возможность. О том, что уже случилось, any не говорят.",
+        "example": "Every guest got a gift. Any guest can ask for a second one.",
+        "translation": "Все гости получили подарок. Любой гость может попросить второй."
+      },
+      "hint": "В какой фразе речь о том, что уже произошло? Туда — every.",
+      "answers": [
+        "Every student in our class passed the test. Any student at the school can sign up for the course.",
+        "Every student in our class passed the test. Any student in the school can sign up for the course.",
+        "Every student in our class has passed the test. Any student at the school can sign up for the course.",
+        "All the students in our class passed the test. Any student at the school can sign up for the course.",
+        "All of the students in our class passed the test. Any student at the school can sign up for the course.",
+        "Every student in our class passed the test, and any student at the school can sign up for the course."
+      ],
+      "explanation": "Every student passed — факт обо всех. Any student can sign up — разрешение для любого. Any student passed — ошибка: о случившемся говорят every или all."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг записывает тебе голосовое с историей, но начало звучит как протокол: A man approached me at the gas station and asked me for directions. Перескажи начало так, как его рассказал бы американец другу: с So и this guy. approach — подойти, come up to — подойти (разг.).",
+      "context": "",
+      "guidance": {
+        "title": "This в рассказе — «тут один»",
+        "body": "В разговорном рассказе this вводит нового человека: не «этот, рядом», а «тут один…». Часто с So в начале и в настоящем времени, будто всё происходит сейчас. В письме и отчёте так не пишут.",
+        "example": "So this woman at the airport starts yelling at me.",
+        "translation": "И тут одна женщина в аэропорту начинает на меня кричать."
+      },
+      "hint": "Начни так: So this guy…",
+      "answers": [
+        "So this guy came up to me at the gas station and asked me for directions.",
+        "So this guy comes up to me at the gas station and asks me for directions.",
+        "So this guy came up to me at the gas station and asked for directions.",
+        "So this guy comes up to me at the gas station and asks for directions.",
+        "So this guy walked up to me at the gas station and asked me for directions.",
+        "So this guy walks up to me at the gas station and asks me for directions."
+      ],
+      "explanation": "This guy — «тут один парень», новый человек в истории. Came up вместо approached — разговорно. Настоящее время (comes up, asks) — обычный приём живого рассказа, прошедшее тоже верно."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь коллеге о новом инженере: «Майк — именно тот человек, который нам был нужен, и он пришёл в самом начале проекта». join — прийти в команду.",
+      "context": "",
+      "guidance": {
+        "title": "The very — «именно тот», «в самом»",
+        "body": "The very перед существительным — «именно тот, тот самый», а с beginning, end, top — «в самом». После the very идёт существительное, а не описание: это не very «очень».",
+        "example": "This is the very room where they signed the contract.",
+        "translation": "Это та самая комната, где подписали договор."
+      },
+      "hint": "Начни так: Mike is the very…",
+      "answers": [
+        "Mike is the very person we needed, and he joined at the very beginning of the project.",
+        "Mike is the very person we needed, and he joined us at the very beginning of the project.",
+        "Mike is the very person we needed. He joined at the very beginning of the project.",
+        "Mike is the very person we needed, and he came at the very beginning of the project.",
+        "Mike is the very person we needed, and he started at the very beginning of the project.",
+        "Mike was the very person we needed, and he joined at the very start of the project.",
+        "Mike is the very person we needed, and he joined at the very start of the project."
+      ],
+      "explanation": "The very person — «именно тот человек». At the very beginning или at the very start — «в самом начале». A very person — ошибка: very «очень» стоит перед описанием, а не перед человеком."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Управляющий домом просит проверить объявление для жильцов. В нём три ошибки. Перепиши его целиком: Last week, some residents left trash in the hallway. Such a behavior attracts mice. Every residents can use the dumpster behind the building. We hope to get less complaints this month. dumpster — мусорный контейнер, attract — привлекать, mice — мыши.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем such и fewer: смотри на слово после",
+        "body": "Вспоминаем уроки о such и о количестве. Such, every и fewer требуют своего существительного: such + то, что не считают, — без a; every + один, без -s; fewer + то, что считают. Проверь каждое по очереди.",
+        "example": "Such advice helps. Every tenant got a key. Fewer cars parked here.",
+        "translation": "Такой совет помогает. Каждый жилец получил ключ. Здесь парковалось меньше машин."
+      },
+      "hint": "Behavior можно посчитать штуками? А complaints?",
+      "answers": [
+        "Last week, some residents left trash in the hallway. Such behavior attracts mice. Every resident can use the dumpster behind the building. We hope to get fewer complaints this month.",
+        "Last week, some residents left trash in the hallway. Such behavior attracts mice. Any resident can use the dumpster behind the building. We hope to get fewer complaints this month.",
+        "Last week, some residents left trash in the hallway. Such behavior attracts mice. All residents can use the dumpster behind the building. We hope to get fewer complaints this month.",
+        "Last week some residents left trash in the hallway. Such behavior attracts mice. Every resident can use the dumpster behind the building. We hope to get fewer complaints this month."
+      ],
+      "explanation": "Such behavior — без a: behavior не считают. Every resident — один, без -s; any resident тоже верно и подчёркивает «любой». Fewer complaints — жалобы считают. Some residents оставь: с несколькими людьми some — просто «некоторые», без оценки."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Жильцы твоего дома спорят о правилах для общей террасы на крыше (roof deck). Напиши письмо совету дома (building board) на 200–300 слов. В письме: что случилось в прошлые выходные — без имён и без насмешки (some guests…, such…); правило, которое ты предлагаешь, где ясно, кому что можно (any resident, every guest, only residents who…); одна сдержанная оценка через a certain или to a certain extent; одно the very; ни одного some expert или those people — вместо намёка назови факт или критерий; в конце — просьба принять решение к определённой дате.",
+      "context": "roof deck — терраса на крыше, prop the door open — подпереть дверь, чтобы не закрывалась, railing — перила.",
+      "hint": "Сначала факты без оценок, потом правило, потом одна оценка и просьба.",
+      "answers": [
+        "Dear members of the building board,\n\nI'm writing about the roof deck and what happened there last weekend.\n\nOn Saturday night, some guests of a fourth-floor resident stayed on the deck until 1:30 a.m. They played loud music, left bottles by the railing, and propped the roof door open with a chair. Such behavior isn't just noisy: an open roof door is also a safety risk.\n\nI understand that a certain frustration has built up on both sides. Residents who use the deck want to invite friends, and residents on the top floor want to sleep. To a certain extent, both groups are right.\n\nI'd like to propose a simple rule. Any resident may use the roof deck and bring up to four guests. Every guest must leave by 10 p.m. on weeknights and by 11 p.m. on weekends. Only residents who are on the deck with their guests may keep the door open, and the last person to leave must close it.\n\nThe very problem we're discussing started with a door that nobody closed, so I'd also suggest a sign on the door with the hours and this rule.\n\nCould the board discuss this proposal at the meeting on June 4 and let us know its decision by June 11?\n\nThank you for your time.\n\nBest regards,\nDaniel Ortiz\nApt. 2B"
+      ],
+      "explanation": "Засчитывается, если факты описаны без имён и насмешки; such ссылается на описанное поведение; в правиле ясно, кому что можно (any, every, only … who); есть a certain или to a certain extent; есть the very; нет some expert и those people; в конце просьба с датой."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 2–3 минуты две версии одной истории о странной или смешной встрече с незнакомым человеком (в магазине, в аэропорту, на улице). Версия для друга (1,5–2 минуты): начало с So this guy… или So this woman…; одно some + человек или вещь (some app, some guy); одно ударное That was some…! или What a…!; одно a certain или the very. Версия для официальной жалобы или отчёта (20–40 секунд): a man или a woman вместо this guy, без ударного some и без насмешки, те же факты.",
+      "context": "Запиши себя и послушай: в первой версии должно быть слышно ударение на some, во второй — ровный тон.",
+      "hint": "Первое упоминание человека — this + существительное, дальше — he или she.",
+      "answers": [
+        "So this guy comes up to me at the airport in Denver. I'm waiting at the gate, and he asks if I can watch his bag for a minute. I say no, obviously, because they tell you that a million times. And he gets really offended. He says, \"I'm not some criminal, I just need the restroom.\" Then he starts telling me his whole life story. He's flying to see his daughter, he hasn't seen her in five years, she just had a baby. I'm thinking, okay, now I feel bad. Then they announce that our flight is delayed by three hours, and he says, \"Well, I guess we're friends now.\" And honestly, we were. We got coffee, we played cards on some app he had on his phone, and he showed me about two hundred photos of the baby. That was some delay, by the way. Three hours turned into five. At the very end, when we finally boarded, it turned out his seat was right next to mine. What are the odds? There was a certain look on his face like he'd planned it. He hadn't, of course. Anyway, we still text sometimes.\n\nOfficial version: On May 6, while I was waiting at Gate B12 at Denver International Airport, a man asked me to watch his bag. I declined. He was not aggressive, and there was no further problem. The flight was delayed by five hours in total."
+      ],
+      "explanation": "Засчитывается, если в версии для друга есть this guy в начале, some + один человек или вещь, ударное some или What a…, a certain или the very, а в официальной версии — a man, нейтральные слова и те же факты."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега из страховой компании написал клиенту ответ об отказе в выплате. Тон обидный. Перепиши письмо нейтрально, сохранив все факты: Some adjuster looked at your claim, and those people in the claims office decided it's not covered. Any idiot can see the damage happened before you bought the policy. Such a claims are always denied. Факты: страховой эксперт Laura Kim осмотрела дом 3 марта; ущерб от воды возник до начала полиса 1 января; по условиям полиса такой ущерб не покрывается; клиент может подать апелляцию (appeal) в течение 30 дней.",
+      "context": "adjuster — страховой эксперт, claim — заявление на выплату, policy — страховой полис, cover — покрывать.",
+      "hint": "Каждый намёк замени фактом: кто именно осмотрел, какой отдел решил, когда возник ущерб.",
+      "answers": [
+        "Our adjuster, Laura Kim, inspected your home on March 3. Based on her report, our claims office found that the water damage happened before your policy started on January 1. Under the terms of your policy, damage that happened before the start date is not covered, so we are unable to approve this claim. If you disagree with this decision, you may file an appeal within 30 days. I'd be happy to explain how to do that.",
+        "Thank you for your patience. Laura Kim, one of our adjusters, inspected your home on March 3. Her report shows that the water damage occurred before your policy began on January 1. Your policy does not cover damage that occurred before that date, so the claims office has denied this claim. You have the right to file an appeal within 30 days, and I can help you with the process."
+      ],
+      "explanation": "Засчитывается, если some adjuster заменён именем и должностью, those people — названием отдела, any idiot убран, вместо оценки — факт с датами; such a claims исправлено или заменено точным правилом; названы апелляция и срок 30 дней."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "research-connected-boundaries",
+  "title": "Стык слов: почему pick it up звучит как одно слово",
+  "subtitle": "Согласный цепляется за гласный → t звучит как мягкое d → t пропадает между согласными → did you звучит «диджа»",
+  "level": "B1",
+  "group": "Произношение и слушание",
+  "units": "Внешний аудит · Pronunciation in Use Advanced 7–9, 26–31",
+  "minutes": 50,
+  "goal": "Узнавать знакомые слова, когда на слух они слиплись: pick it up («пи-ки-тап»), get it («ге-дит»), next week («некс-уик»), did you («диджа») — и говорить такие куски слитно, не теряя слов на письме.",
+  "formula": "pick‿it‿up · get it → «ге-дит» · next week → «некс-уик» · did you → «диджа»",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Слово кончается на согласный, следующее начинается с гласного — произноси их слитно.",
+    "example": "Pick it up — «пи-ки-тап» — подними это.",
+    "check": "Слова не пропадают: на письме всё равно pick it up."
+  },
+  "prerequisites": [
+    "path-connected-speech",
+    "research-ending-s-ed"
+  ],
+  "recycles": [
+    "research-ending-s-ed",
+    "path-connected-speech"
+  ],
+  "teaches": [
+    "сцепление: конечный согласный переходит к гласному следующего слова (pick it up, turn it off, an apple)",
+    "американское мягкое t: между гласными, и на стыке слов тоже, t звучит как быстрое мягкое d (water, get it, a lot of); в начале ударного слога t остаётся обычным (today)",
+    "t и d между двумя согласными почти не слышны (next week, last night, just finished); перед гласным возвращаются",
+    "t/d + you сливаются: did you «диджа», could you «куджа», don't you «доунча», meet you «мичу»",
+    "на письме всегда полные слова: did you, а не didja",
+    "приём «разрежь по-другому»: незнакомое «слово» из знакомых звуков — попробуй другую границу и проверь грамматикой"
+  ],
+  "sources": [
+    {
+      "title": "Rachel's English · Flap T",
+      "url": "https://rachelsenglish.com/flap-t/",
+      "notes": "Сверено: t между двумя гласными, когда с него не начинается ударный слог, звучит как быстрое мягкое d (pretty, city, matter), в том числе на стыке слов (thought of)."
+    },
+    {
+      "title": "Listen Better in English · Changed sounds and how they affect listening",
+      "url": "https://2listenbetterinenglish.substack.com/p/changed-sounds-and-how-they-affect",
+      "notes": "Сверены американские слияния: did you → dija, could you → cuja, don't you → don chu, nice to meet you → nice ta meecha; мягкое t на стыке слов (what a surprise, sort of). Автор подчёркивает: такие изменения мешают на слух, пока их не ждёшь."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Что происходит на стыке двух слов",
+    "why": "Четыре частых изменения в американской речи. Во всех случаях слова остаются на месте — меняется только звук на границе.",
+    "items": [
+      {
+        "label": "Согласный + гласный · слитно",
+        "en": "Turn it off.",
+        "ru": "Выключи это.",
+        "note": "«тёр-ни-тоф»: n и t переходят к следующему слову."
+      },
+      {
+        "label": "t между гласными · мягкое d",
+        "en": "Let me get it.",
+        "ru": "Давай я возьму.",
+        "note": "get it — «ге-дит»: t звучит как быстрое мягкое d."
+      },
+      {
+        "label": "t между согласными · почти нет",
+        "en": "See you next week.",
+        "ru": "Увидимся на следующей неделе.",
+        "note": "next week — «некс-уик»: t почти не слышно."
+      },
+      {
+        "label": "d + you · «джу»",
+        "en": "Did you call her?",
+        "ru": "Ты ей позвонил?",
+        "note": "did you — «диджа»: d и y сливаются в «дж»."
+      }
+    ],
+    "footnote": "Для своей речи главное — первое: говорить слитно внутри группы. Остальное сначала учись узнавать.",
+    "focus": [
+      "it off",
+      "get it",
+      "next week",
+      "Did you"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему пробела между словами не слышно",
+      "body": "Друг говорит: Can you pick it up? — «Можешь это забрать?» А ты слышишь «кən ю пи-ки-тап» и ищешь в памяти незнакомое слово «китап».\n\nВ прошлом уроке маленькие слова становились короткими. Здесь другое: что происходит на стыке двух слов. Пробел есть только на письме. Внутри смысловой группы слова идут без пауз, и если слово кончается на согласный, а следующее начинается с гласного, согласный переходит к следующему слову: pick it up → «пи-ки-тап», turn it off → «тёр-ни-тоф», an apple → «э-нэпл».\n\nЭто сцепление. Новых слов не появляется и ничего не пропадает: все три слова на месте. По-русски так же: «в Америку» мы говорим слитно, «вамерику», и никто не слышит там одно слово.\n\nСвоя речь: внутри группы не вставляй паузу и не добавляй гласный — не «пик-ит-ап», а слитно."
+    },
+    {
+      "title": "Американское t между гласными",
+      "body": "У американцев t между двумя гласными звучит как быстрое мягкое d: кончик языка один раз касается нёба. Water — «уóдэр», city — «сиди», better — «бéдэр».\n\nТо же на стыке слов: get it — «ге-дит», put it on — «пу-ди-дон», a lot of — «э-ло-дəв», what a day — «уа-дə дэй». Поэтому I'll get it («я открою», о звонке в дверь) звучит почти как «айл ге-дит».\n\nГраница правила: если с t начинается ударный слог, оно остаётся обычным, чётким t: today, return, attack. И в начале слова t всегда обычное: ten, time. Британцы чаще говорят чёткое t везде — ты услышишь обе версии, это одно и то же слово."
+    },
+    {
+      "title": "Когда t и d почти пропадают",
+      "body": "Если t или d стоит между двумя согласными, его часто почти не слышно: next week — «некс-уик», last night — «лас-найт», just like — «джас-лайк», and then — «ən-ðен».\n\nКак только после t идёт гласный, оно возвращается: last October — «лас-ток-тó-бэр», next April — «нэкс-тэйприл».\n\nОсобая ловушка — окончание -ed перед согласным: I finished the report — «фи-ниш-ðə», t от -ed почти не слышно. Время ты узнаёшь по смыслу: last night, yesterday, по другим глаголам рядом. На письме -ed всегда пишется, а в своей речи, если не уверен, произноси его, как в уроке об окончаниях."
+    },
+    {
+      "title": "Did you → «диджа»: t и d перед you",
+      "body": "Когда d или t стоит перед you (или your), звуки сливаются. D + you → «джу», часто «джа»: did you — «диджа», could you — «куджа», would you — «вуджа». T + you → «чу»: don't you — «доунча», meet you — «мичу», what are you … — «уаче».\n\nNice to meet you на слух — «найс тə мичу». Did you eat? — «диджа ит?».\n\nЭто способ произносить, а не новые слова. На письме — всегда did you, could you. Написания вроде didja или wouldja встречаются только в очень небрежной переписке и в комиксах; в сообщении коллеге они звучат неграмотно.\n\nВ своей речи сливать не обязательно: Did you и Could you, сказанные полностью, поймут без труда."
+    },
+    {
+      "title": "Приём: разрежь по-другому",
+      "body": "Если слышишь незнакомое «слово», но звуки в нём знакомые, — скорее всего, это два-три слова со сцеплением. Попробуй провести границу в другом месте. «Э-нэпл» → не a napple, а an apple. «Ге-дит» → get it. «Тёр-ни-тоф» → turn it off.\n\nПроверь вариант грамматикой: после can идёт действие, после действия часто идёт it, после it — up, off, on. Если вариант даёт нормальную фразу, которая подходит к ситуации, он верный.\n\nЕсли ни один вариант не подходит, возможно, слово действительно новое — тогда его ищут в словаре, а не в звуках."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Can you pick it up after work?",
+      "ru": "Можешь забрать это после работы?",
+      "why": "Pick it up звучит одним куском «пи-ки-тап»: k и t цепляются за следующие гласные."
+    },
+    {
+      "en": "Turn it off, please.",
+      "ru": "Выключи это, пожалуйста.",
+      "why": "«Тёр-ни-тоф»: n переходит к it, t — к off. Пауз между словами нет."
+    },
+    {
+      "en": "It's a lot of work.",
+      "ru": "Это много работы.",
+      "why": "A lot of — «э-ло-дəв»: t между гласными звучит как мягкое d, of слабое."
+    },
+    {
+      "en": "I'll get it!",
+      "ru": "Я открою! (о звонке в дверь)",
+      "why": "Get it — «ге-дит»: мягкое t на стыке двух слов."
+    },
+    {
+      "en": "We're moving next week.",
+      "ru": "Мы переезжаем на следующей неделе.",
+      "why": "В next week t стоит между согласными и почти не слышно: «некс-уик»."
+    },
+    {
+      "en": "Did you see my message?",
+      "ru": "Ты видел моё сообщение?",
+      "why": "Did you сливается в «диджа». На письме всё равно did you."
+    },
+    {
+      "en": "Nice to meet you.",
+      "ru": "Приятно познакомиться.",
+      "why": "Meet you — «мичу»: t и y сливаются в «ч», to — слабое /tə/."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты готовишься сказать фразу вслух. Перепиши её и отметь знаком ‿ места, где согласный цепляется за следующий гласный: Take it out. Знак ‿ можно заменить на _.",
+      "context": "take out — достать, вынуть.",
+      "guidance": {
+        "title": "Отметь сцепления",
+        "body": "Ищи пары: слово кончается на согласный звук, следующее начинается с гласного. Между ними ставь ‿ — там не будет паузы.",
+        "example": "Turn‿it‿off.",
+        "translation": "Выключи это."
+      },
+      "hint": "Какой звук в конце take — гласный или согласный? А в начале it?",
+      "answers": [
+        "Take‿it‿out.",
+        "Take_it_out."
+      ],
+      "explanation": "Take кончается на звук k (буква e не читается), it начинается с гласного — «тэй-ки». It кончается на t, out начинается с гласного — «ки-таут». Вся фраза звучит одним куском: «тэй-ки-таут»."
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вы смотрите кино, и друг быстро говорит. Ты записал на слух: Why don't you tur nitoff? Запиши, что он сказал, обычными словами.",
+      "context": "",
+      "guidance": {
+        "title": "Разрежь по-другому",
+        "body": "Незнакомое «слово» из знакомых звуков — обычно несколько слов со сцеплением. Попробуй провести границу в другом месте и проверь, получилась ли нормальная фраза.",
+        "example": "an apple",
+        "translation": "звучит как «э-нэпл» — это два слова: an + apple, «яблоко»"
+      },
+      "hint": "Nitoff: если отдать n предыдущему слову, что останется? Какое действие подходит к телевизору?",
+      "answers": [
+        "Why don't you turn it off?"
+      ],
+      "explanation": "N принадлежит turn, «итоф» — это it off. Получается turn it off — «выключи». Why don't you…? — «Может, ты…?», мягкое предложение."
+    },
+    {
+      "id": "e3",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Звонят в дверь, ты идёшь открывать. Скажи вслух: «Я открою!»",
+      "context": "I'll get it! — Я открою! / Я возьму! (о звонке в дверь или телефоне)",
+      "guidance": {
+        "title": "Мягкое t на стыке",
+        "body": "T в конце get стоит между двумя гласными: перед ним e, после — i из it. Поэтому оно звучит как быстрое мягкое d: «ге-дит». Не делай паузу между get и it.",
+        "example": "Let me think about it.",
+        "translation": "Дай мне подумать."
+      },
+      "hint": "Скажи медленно «ге-дит», потом быстрее, вместе с I'll.",
+      "answers": [
+        "I'll get it!",
+        "I'll get it."
+      ],
+      "explanation": "«Айл ге-дит» — так звучит у большинства американцев. Чёткое t тоже поймут, но мягкое звучит естественнее. Распознанный текст покажет слова, а звук сравни с образцом сам."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега продиктовал голосом, а друг записал на слух: I jus finish the report las night. Друг не услышал части слов. Исправь запись.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: -ed слышно не всегда",
+        "body": "Вспоминаем: -ed после sh звучит как /t/ — finished. Перед следующим согласным это t, как и t в just и last, почти не слышно. Время подскажет смысл: last night — прошлое.",
+        "example": "I watched the game last night.",
+        "translation": "Я смотрел матч вчера вечером."
+      },
+      "hint": "Где во фразе слово о прошлом? Значит, какая форма нужна у finish?",
+      "answers": [
+        "I just finished the report last night.",
+        "I finished the report last night."
+      ],
+      "explanation": "Just, finished и last — все теряют t перед согласным. На письме они полные. Last night — законченное время, поэтому finished, прошедшее время."
+    },
+    {
+      "id": "e5",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отчёт с коллегой. Спроси его вслух: «Ты не мог бы мне помочь? Ты видел моё письмо?»",
+      "context": "",
+      "guidance": {
+        "title": "D + you: можно слить",
+        "body": "Could you и did you американцы часто говорят слитно: «куджа», «диджа». Ты можешь так же или сказать слова полностью — поймут оба варианта. Главное — не делай паузы между ними.",
+        "example": "Would you like some coffee?",
+        "translation": "Хочешь кофе?"
+      },
+      "hint": "Начни так: Could you … ? Вторая фраза — с did you.",
+      "answers": [
+        "Could you help me? Did you see my email?",
+        "Could you help me? Did you get my email?",
+        "Can you help me? Did you see my email?"
+      ],
+      "explanation": "Слитное «куджа хелп ми? диджа си май имейл?» звучит естественно, полное тоже правильно. Распознавание запишет did you, даже если ты сказал «диджа»."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Новый коллега написал тебе так, как слышит: Hey, didja get my email? Couldja send me the file by Friday? Перепиши сообщение так, как пишут обычно.",
+      "context": "",
+      "guidance": {
+        "title": "Слышим одно, пишем другое",
+        "body": "Didja и couldja — запись звука, а не слова. В сообщении, письме и чате пишут полные слова. Такое написание выглядит небрежно, особенно на работе.",
+        "example": "Wouldja like to come? → Would you like to come?",
+        "translation": "Хочешь прийти?"
+      },
+      "hint": "Какие два слова спрятались в didja? А в couldja?",
+      "answers": [
+        "Hey, did you get my email? Could you send me the file by Friday?",
+        "Hi, did you get my email? Could you send me the file by Friday?"
+      ],
+      "explanation": "Didja = did you, couldja = could you. Звучит слитно, а пишется полностью."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг прислал вопрос (ниже). Ответь ему по-английски (50–90 слов): что на самом деле сказала женщина, полной обычной записью; и простыми словами объясни два места, где слова слиплись.",
+      "context": "Сообщение друга: I got a voice message from my new landlord, and I'm lost. I heard: \"Did you get the keys? I left them in fronna the door. Can you pi kemup today?\" What did she say? (landlord — хозяйка квартиры)",
+      "hint": "Найди два места: «fronna» и «pi kemup». Какие слова там слиплись?",
+      "answers": [
+        "She said: \"Did you get the keys? I left them in front of the door. Can you pick them up today?\" \"Fronna\" is \"front of\": the t is almost gone, and of is very short. \"Pi kemup\" is \"pick them up\": them sounds like \"em\", so the k joins it, and the m joins up. So she wants you to take the keys from the door today."
+      ],
+      "explanation": "Засчитывается, если фраза восстановлена полностью (in front of, pick them up) и объяснены оба места своими словами. Them в быстрой речи звучит «əм» — это слабая форма из прошлого урока."
+    },
+    {
+      "id": "e8",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты уезжаешь на выходные. Запиши голосовое сообщение соседу по квартире (30–60 секунд): четыре просьбы по порядку. Используй take it, put it, turn it off, pick it up. Внутри каждой просьбы говори слитно, паузу делай между просьбами.",
+      "context": "roommate — сосед по квартире; trash — мусор; heater — обогреватель; package — посылка.",
+      "hint": "План: Hey, it's … / First, … / Then, … / Also, … / And …",
+      "answers": [
+        "Hey, it's Dan. I'm leaving for the weekend, so I need a few favors. First, the trash is full. Can you take it out on Saturday? Then, there's a plant on my desk. Please put it by the window. Also, I left the heater on in my room. Turn it off, please. And a package is coming on Sunday. Can you pick it up at the front desk? Thanks a lot!"
+      ],
+      "explanation": "Засчитывается, если есть четыре просьбы с it и понятный порядок. На записи проверь: take it out, put it by, turn it off, pick it up звучат одним куском, а паузы — между просьбами."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Коллега оставил голосовое: Did you get my email? Could you send it back to me today? Ответь ему голосом за 20–40 секунд: получил ли ты письмо; когда отправишь ответ и почему не раньше; один свой вопрос с could you или did you.",
+      "context": "",
+      "hint": "Начни так: Hi, yes, I got it. I'll send it back … Потом: Could you … ? / Did you … ?",
+      "answers": [
+        "Hi Mark, yes, I got your email. I'll send it back to you at four, because I'm in a meeting until three thirty. Could you tell me which version of the file you need? Thanks!"
+      ],
+      "explanation": "Засчитывается, если есть все три части. Got it, send it back и could you можно говорить слитно; на записи проверь, что слова не разорваны паузами, а время звучит ясно."
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "extended-c1-facilitation",
+  "title": "Вести встречу: честно пересказать позиции и записать условное решение",
+  "subtitle": "ты ведущий, а не сторона → пересказ, который человек узнаёт → спор о людях — обратно к плану → открытый вопрос тому, кто молчит → новость меняет сам вопрос → протокол: кто что сказал, что решено и при каком условии",
+  "level": "C1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Провести встречу комитета как нейтральный ведущий: пересказать каждую позицию так, чтобы человек её узнал, вернуть спор от людей к плану, дать слово тому, кто молчит, пересмотреть сам вопрос после новости и написать протокол с условным решением, исполнителями и открытыми вопросами.",
+  "formula": "If I understand you correctly, your main concern is… Is that fair? · Let's keep this about the plan. · Grace, how does this look from your side? · Can we park that until the end? · Given…, this may no longer be an either/or choice. · It was agreed that…, provided that… · The committee recommends that… be…",
+  "guided": true,
+  "keyRule": {
+    "rule": "Ведущий не выбирает победителя. Перескажи каждого так, чтобы он сказал: «Да, именно это».",
+    "example": "So your main concern is what happens when the grant ends. Is that fair? — То есть тебя беспокоит, что будет, когда грант закончится. Я правильно говорю?",
+    "check": "Поменяй имена в своём пересказе местами. Он звучит одинаково честно для обоих?"
+  },
+  "introSections": 5,
+  "prerequisites": [
+    "extended-b2-negotiate",
+    "path-discussion-b2",
+    "path-reporting-verbs",
+    "path-hedging"
+  ],
+  "recycles": [
+    "path-hedging",
+    "path-reporting-verbs",
+    "path-subjunctive-formal"
+  ],
+  "teaches": [
+    "ведущий (chair, facilitator) ведёт ход встречи и не продвигает свой вариант; своё мнение — отдельно: Speaking for myself, not as chair…",
+    "пересказ цели, а не только варианта, с проверкой: If I understand you correctly, your main concern is… Is that fair?",
+    "нейтрально — без оценки внутри: Raj points out…, а не Raj is worried / complains",
+    "спор о людях — обратно к плану: Let's keep this about the plan, not past years; назвать общую цель",
+    "открытый вопрос тому, кто молчит: How does this look from your side? — не You're OK with it, aren't you?",
+    "отложить посторонний вопрос: Can we park that and come back to it at the end?",
+    "новость меняет вопрос: Given…, this may no longer be an either/or choice; I framed this as…",
+    "протокол: It was agreed that…, provided that… · X agreed to… by… · No decision was made on… · … remains open",
+    "рекомендация в протоколе: The committee recommends that… be…",
+    "слова: grant, chair, waiting list, refurbished, fall through, agenda, park an issue, minutes"
+  ],
+  "sources": [
+    {
+      "title": "Community Tool Box (University of Kansas) · Developing Facilitation Skills",
+      "url": "https://ctb.ku.edu/en/table-of-contents/leadership/group-facilitation/facilitation-skills/main",
+      "notes": "Сверено: ведущий не встаёт на сторону и не высказывает своё мнение, а вытягивает мнения группы; после важного пункта подводит итог и проверяет у говорящего, правильно ли понял; поощряет тихих участников; при уходе от темы возвращает разговор и откладывает посторонний вопрос в список на конец; перед закрытием называет решения, задачи и имена исполнителей."
+    },
+    {
+      "title": "Newcastle University · Academic Skills Kit: Reporting verbs",
+      "url": "https://www.ncl.ac.uk/academic-skills-kit/writing/academic-writing/reporting-verbs/",
+      "notes": "Сверено: нейтральные глаголы пересказа (states, describes, says) против оценочных (claims — сомнение, shows и points out — согласие). Отсюда правило протокола: позиции участников — нейтральными глаголами."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового по сравнению с языковым вечером",
+      "body": "В уроке о языковом вечере ты сам был стороной: хотел свой вариант и договаривался. Там ты научился отделять вариант от интереса, проверять понимание и согласие и не считать молчание согласием. Это всё пригодится, но роль другая: теперь ты ведёшь встречу — chair или facilitator.\n\nВедущий не продвигает свой вариант. Его работа — чтобы каждую позицию услышали в честном виде, спор шёл о плане, а итог записали точно. Если ведущий начинает спорить, ему перестают доверять пересказ.\n\nНовые ходы урока: пересказать позицию так, чтобы человек её узнал; вернуть разговор от людей к плану; дать слово тому, кто молчит, не подсказывая ответ; отложить посторонний вопрос; после новости переформулировать сам вопрос; написать протокол.\n\nЕсли у тебя есть своё мнение, скажи его отдельно и открыто: Speaking for myself, not as chair, I'd… — «я говорю от себя, а не как ведущий»."
+    },
+    {
+      "title": "Пересказ, который человек узнаёт",
+      "body": "Пересказывай не вариант, а цель за ним, своими словами. Raj wants laptops — это вариант. Raj wants the money to pay for something that lasts beyond one season — это цель.\n\nСхема: If I understand you correctly, your main concern is… → проверка: Is that fair? или Did I get that right? Пока человек не подтвердил, пересказ — твоя догадка, поэтому оговорка уместна: your main concern seems to be… После «да» говори прямо.\n\nНейтрально — значит без оценки внутри. Raj is worried about money — уже оценка: «переживает». Raj points out that the grant will be gone by summer — его довод. Не пересказывай одного теплее, чем другого: Dana has a great idea, and Raj has some concerns — ты уже выбрал победителя.\n\nПроверка: поменяй имена местами. Пересказ звучит одинаково честно для обоих?"
+    },
+    {
+      "title": "Спор о людях, молчащий участник и посторонний вопрос",
+      "body": "Когда спор переходит на людей — Every year it's a new class, Dana, — не вставай на чью-то сторону и никого не стыди. Найди довод за упрёком и верни его к плану: Let's keep this about this plan, not past years. Raj, I think your concern is who pays when the grant ends. Is that right? Потом назови то, что их объединяет: You both want this money to help the people who use the center.\n\nТому, кто молчит, задай открытый вопрос по имени: Grace, how does this look from your side? Не наводящий: You're OK with the class, aren't you? — вопрос с хвостиком ждёт «да». Если ответ короткий, подожди пару секунд: пауза — тоже приглашение.\n\nПосторонний вопрос не обсуждай, но и не отмахивайся: That's important, but it's not on today's agenda. Can we park it and come back to it at the end? Park — «отложить, записать на потом». В конце правда к нему вернись."
+    },
+    {
+      "title": "Новость меняет вопрос, а не только ответ",
+      "body": "Иногда новость не делает один вариант лучше, а меняет сам выбор. Был вопрос «класс или ноутбуки?». Пришло известие, что ноутбуки, возможно, подарят, — теперь, может быть, хватит на то и другое.\n\nСкажи это прямо и отдельно от решения: Given Raj's news, this may no longer be an either/or choice. Given — «с учётом». Either/or — «или — или». И сразу назови, что неизвестно: The donation isn't confirmed in writing, so we can't plan on it yet.\n\nОшибка — сразу объявить новый план: Great, so we'll do both. Ты решил за группу, и ещё на неподтверждённых сведений. Сначала спроси каждого, меняет ли новость его позицию: Raj, does this change things for you?\n\nСвою прежнюю постановку вопроса исправляй спокойно: I framed this as a choice between the class and the laptops. That may not be the right question anymore. Frame — «ставить вопрос»."
+    },
+    {
+      "title": "Протокол: кто что сказал и что решено",
+      "body": "Протокол (minutes) читают те, кого не было. По нему нужно понять: какие были позиции, что решили, при каком условии, кто что делает и к какому сроку, что осталось открытым.\n\nПозиции — нейтральными глаголами из урока о пересказе: Dana proposed…, Raj pointed out…, Grace raised a concern about… — «подняла вопрос». Не пиши Raj complained: это оценка.\n\nРешение: It was agreed that… — «договорились, что». Условие: provided that + настоящее время. Задача: Raj agreed to contact TechBridge by Friday. Не решили: No decision was made on…; … remains open.\n\nФормальная рекомендация — в форме из урока об официальном «чтобы»: The committee recommends that the class be held one evening a week.\n\nЧего в протоколе нет: we all agreed, если кто-то не сказал «да»; чужих обещаний, которых человек не давал; оговорок у фактов. Оговорка — только у неизвестного: The donation is likely but not confirmed."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If I understand you correctly, your main concern is the people who can't come during the day. Is that fair?",
+      "ru": "Если я правильно понимаю, тебе главное — те, кто не может приходить днём. Я верно говорю?",
+      "why": "Названа цель, а не вариант «вечерний класс», и сразу проверка."
+    },
+    {
+      "en": "Let's keep this about the plan, not about who said what last year.",
+      "ru": "Давайте говорить о плане, а не о том, кто что сказал в прошлом году.",
+      "why": "Ведущий не защищает и не стыдит, а возвращает разговор к предмету."
+    },
+    {
+      "en": "Grace, we haven't heard from you yet. How does this look from your side?",
+      "ru": "Грейс, мы тебя ещё не слышали. Как это выглядит с твоей стороны?",
+      "why": "Открытый вопрос по имени: можно ответить и «да», и «нет»."
+    },
+    {
+      "en": "That's a fair point, but it's not on today's agenda. Can we park it until the end?",
+      "ru": "Справедливо, но этого нет в сегодняшней повестке. Давай отложим до конца встречи?",
+      "why": "Вопрос признан важным и не потерян, но разговор остаётся на теме."
+    },
+    {
+      "en": "Given this news, the question may no longer be either/or.",
+      "ru": "С учётом этой новости, возможно, выбирать «или — или» уже не нужно.",
+      "why": "Новость меняет сам вопрос; may — потому что она ещё не подтверждена."
+    },
+    {
+      "en": "It was agreed that the application will include the class, provided that the donation is confirmed in writing.",
+      "ru": "Договорились включить класс в заявку при условии, что пожертвование подтвердят письменно.",
+      "why": "Условное решение: после provided that — настоящее время."
+    },
+    {
+      "en": "No decision was made on the parking lot lights.",
+      "ru": "По освещению парковки решения не приняли.",
+      "why": "Протокол честно называет то, что осталось открытым."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Этап 1. Два предложения / Part 1: two proposals",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Monday, March 2. Program committee, Westside Community Center. Alex chairs the meeting.\n\nAlex: Thanks, everyone. We have one item today: how to use the $6,000 city grant for our spring and summer programs. Dana, would you like to start?\n\nDana: Sure. We have forty adults on the waiting list for English classes, and most of them work during the day. I'm proposing a ten-week evening class, two evenings a week. That's eighteen more people who finally get a chance to learn.\n\nRaj: I understand that, but I'd spend the money on the computer room. Six of our eight laptops crash every week. The job-search workshop uses them, the homework club uses them, everyone uses them. A class ends in ten weeks. New laptops last four or five years.\n\nDana: The laptops are a problem, I agree. But some people on that list have been waiting since last fall.\n\nRaj: Every year it's a new class, Dana, and every year we end up paying for the extras out of the general budget.\n\nDana: That's not fair. Last year's class came in under budget.\n\nRaj: And while we're at it, somebody needs to call the city about the parking lot lights. Half of them are out."
+    },
+    {
+      "id": "m2",
+      "title": "Этап 1. Цифры и правила / Grant facts",
+      "kind": "reference",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Committee: Alex (chair), Dana Brooks (program director), Raj Patel (treasurer), Grace Kim (volunteer coordinator). Grace has not spoken yet.\n\nGrant: $6,000 from the city. It must be spent by June 30. The application with a spending plan is due March 15.\n\nOption 1, evening English class: ten weeks, Tuesdays and Thursdays, 6:30–8:30 p.m., up to 18 students. Teacher: $3,000. Books and materials: $600. Total: $3,600.\n\nOption 2, laptops: eight new laptops at $550 each. Total: $4,400.\n\nBoth options together: $8,000, which is $2,000 over the grant.\n\nBuilding rule: a staff member or a trained volunteer must be on site whenever the center is open after 6 p.m."
+    },
+    {
+      "id": "m3",
+      "title": "Этап 2. Новость о ноутбуках / Part 2: news about the laptops",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная. Открой только на втором этапе.",
+      "text": "Raj: I just got an email from TechBridge, the nonprofit downtown. They can donate six refurbished laptops. They're about three years old, and they'd arrive in late May.\n\nDana: That's great news!\n\nRaj: It's good news, but it's not in writing yet. The email says “most likely,” not “confirmed.” And refurbished laptops won't last as long as new ones.\n\nDana: If we get six free laptops, we only need to buy two new ones. That's $1,100. With the class, that's $4,700, so we're under the grant.\n\nRaj: On paper, yes. But if the donation falls through in May, it's too late to change the grant plan.\n\nDana: Can we ask TechBridge to confirm before March 15?\n\nRaj: I can ask. I can't promise they'll answer in time."
+    },
+    {
+      "id": "m4",
+      "title": "Этап 3. Грейс говорит / Part 3: Grace speaks",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная. Открой только на третьем этапе.",
+      "text": "Alex: Grace, we haven't heard from you yet. How does this look from your side?\n\nGrace: Honestly, I'm worried about the evenings. The rule says a staff member or a trained volunteer has to be here after 6 p.m. Right now I have one trained volunteer for evenings, and she can only do Tuesdays.\n\nDana: So Thursdays are the problem?\n\nGrace: Thursdays are the problem. I could train someone new, but training takes three weeks, and I can't promise I'll find anyone.\n\nDana: What if we do one evening a week for twenty weeks instead of two evenings for ten?\n\nGrace: That would work on my side. But please don't write that I approved the class. I like the idea. I just can't guarantee volunteers.\n\nRaj: If TechBridge confirms in writing, I'm fine with the class. If they don't, I still think the laptops come first.\n\nDana: Wait, twenty weeks would go past June 30. Does the grant allow that?\n\nGrace: Good question. I don't know.\n\nRaj: I'll email TechBridge today and ask for written confirmation. I'll tell you what they say by Friday.\n\nDana: I'll ask the teacher about Tuesdays only, and I'll call the city about the June 30 rule. I can do both by Friday too.\n\nGrace: I'll email my volunteer list this week and let you know who answers. No promises.\n\nRaj: Can we meet again next Monday, March 9? That still gives us time before the 15th.\n\nDana: Works for me.\n\nGrace: Me too."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Прочитай M1 и M2, следующие этапы пока не открывай. Ты — Алекс, ведущий. Перескажи Раджу его позицию в одной-двух фразах: назови цель, а не только вариант, и закончи проверкой.",
+      "context": "",
+      "guidance": {
+        "title": "Цель за вариантом и проверка",
+        "body": "Вариант Раджа — ноутбуки. Скажи, зачем они ему, его же доводом, но своими словами. Пока он не подтвердил, это твоя догадка, поэтому закончи вопросом: Is that fair? или Did I get that right?",
+        "example": "Dana, if I understand you correctly, your main concern is the people who can't come during the day. Is that fair?",
+        "translation": "Дана, если я правильно понимаю, тебе главное — люди, которые не могут приходить днём. Я верно говорю?"
+      },
+      "hint": "Что у ноутбуков есть такого, чего нет у класса? Посмотри на последние две фразы Раджа перед спором.",
+      "answers": [
+        "Raj, if I understand you correctly, your main concern is that the grant should pay for something that lasts beyond one season and helps several programs. Is that fair?",
+        "Raj, it sounds like your priority is spending the money on something that will still help people in four or five years, not just for ten weeks. Did I get that right?"
+      ],
+      "explanation": "Засчитывается, если названа цель Раджа — польза надолго и для многих программ, а не просто «ноутбуки»; нет оценки вроде you're worried или you always; в конце вопрос-проверка."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "После реплики Раджа «Every year it's a new class, Dana…» скажи как ведущий: «Давайте говорить об этом плане, а не о прошлых годах. Радж, мне кажется, тебя беспокоит, кто будет платить, когда грант закончится. Я прав?»",
+      "context": "run out — закончиться (о деньгах).",
+      "guidance": {
+        "title": "От людей — к плану",
+        "body": "Не защищай Дану и не стыди Раджа. Верни разговор к плану и назови довод, который стоит за упрёком. В конце — проверка, а не утверждение.",
+        "example": "Let's focus on the schedule, not on who was late last month. Sam, I think your concern is the deadline. Is that right?",
+        "translation": "Давайте сосредоточимся на расписании, а не на том, кто опоздал в прошлом месяце. Сэм, мне кажется, тебя беспокоит срок. Так?"
+      },
+      "hint": "Начни так: Let's keep this about…",
+      "answers": [
+        "Let's keep this about this plan, not about past years. Raj, I think your concern is who will pay when the grant runs out. Am I right?",
+        "Let's keep this about this plan, not past years. Raj, I think your concern is who will pay when the grant ends. Is that right?",
+        "Let's focus on this plan, not on past years. Raj, I think your concern is who will pay when the grant runs out. Is that right?",
+        "Let's talk about this plan, not about past years. Raj, I think you're concerned about who will pay when the grant runs out. Am I right?",
+        "Let's keep this about this plan rather than past years. Raj, it seems to me your concern is who pays when the grant runs out. Is that right?"
+      ],
+      "explanation": "Keep this about или focus on возвращают к предмету. I think your concern is… — догадка с проверкой, а не приговор. Runs out и ends — оба верны."
+    },
+    {
+      "id": "e3",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Дана поворачивается к Грейс и говорит: Grace, you're fine with the class, aren't you? Ты ведущий. Замени это одним-двумя открытыми вопросами к Грейс: по имени, без подсказки ответа.",
+      "context": "",
+      "guidance": {
+        "title": "Открытый вопрос вместо наводящего",
+        "body": "Хвостик aren't you? ждёт «да»: так ответ подсказан заранее. Открытый вопрос начинается с how или what и оставляет место для «нет».",
+        "example": "Leo, how would this work for the weekend team?",
+        "translation": "Лео, как это будет для команды, которая работает по выходным?"
+      },
+      "hint": "Начни с имени, потом How… или What would you need…?",
+      "answers": [
+        "Grace, we haven't heard from you yet. How does this look from your side?",
+        "Grace, how does this look from your side?",
+        "Grace, what do you think about the evening class?",
+        "Grace, what would you need to make the evening class work?",
+        "Grace, how would this plan work for the volunteers?",
+        "Grace, we haven't heard from you yet. What do you think?"
+      ],
+      "explanation": "Засчитывается вопрос по имени с how или what, на который можно честно ответить «нет». Вопросы с хвостиком и Do you agree that…? подсказывают ответ."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Радж в конце M1 вспоминает про освещение парковки. Ответь ему как ведущий: «Это важно, но сегодня этого нет в повестке. Давай отложим и вернёмся к этому в конце встречи».",
+      "context": "agenda — повестка.",
+      "guidance": {
+        "title": "Отложить, но не отмахнуться",
+        "body": "Park — «отложить»: вопрос записан и не потерян. Скажи, что он важный, почему не сейчас и когда вы к нему вернётесь.",
+        "example": "Good point about the website. Let's put it on the list for Friday so we can stay on the budget now.",
+        "translation": "Верно насчёт сайта. Давай внесём это в список на пятницу, чтобы сейчас не уходить от бюджета."
+      },
+      "hint": "Начни так: That's important, but…",
+      "answers": [
+        "That's important, but it's not on today's agenda. Let's park it and come back to it at the end of the meeting.",
+        "That's important, but it's not on today's agenda. Can we park it and come back to it at the end of the meeting?",
+        "That's important, but it isn't on today's agenda. Let's park it and come back to it at the end.",
+        "That's important, but it's not on the agenda today. Let's park it and return to it at the end of the meeting."
+      ],
+      "explanation": "Park it — отложить, но записать. Come back to it at the end — обещание вернуться, которое ведущий потом выполняет. Can we…? звучит мягче, Let's… — увереннее; оба подходят."
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2",
+        "m3"
+      ],
+      "prompt": "Открой M3, M4 пока не читай. Ты ведущий. Скажи группе 2–3 предложения: как новость меняет сам вопрос; чего пока не знаете; и спроси Раджа и Дану, меняет ли это их позиции. Не объявляй новый план.",
+      "context": "refurbished — восстановленный, бывший в употреблении; fall through — сорваться.",
+      "guidance": {
+        "title": "Вспоминаем оговорки: новость — ещё не факт",
+        "body": "Вспоминаем урок об оговорках: факт — прямо, неизвестное — с may или likely. TechBridge написали «most likely» — это не подтверждение. Сначала скажи, как меняется вопрос, потом — чего не знаете.",
+        "example": "Given the new quote, this may not be a choice between the two rooms anymore. But the price isn't final, so we can't count on it yet.",
+        "translation": "С учётом новой сметы, возможно, выбирать между двумя залами уже не придётся. Но цена не окончательная, так что рассчитывать на неё пока нельзя."
+      },
+      "hint": "Начни так: Given Raj's news, this may no longer be…",
+      "answers": [
+        "Given Raj's news, this may no longer be an either/or choice. But the donation isn't confirmed in writing yet, so we can't plan on it. Raj, Dana, does this change your positions?",
+        "Given the TechBridge email, the question may no longer be the class or the laptops. The donation is likely, but it isn't confirmed, and if it falls through in May, it'll be too late to change the plan. Raj, Dana, how does this change things for you?"
+      ],
+      "explanation": "Засчитывается, если сказано, что меняется сам вопрос (may no longer be either/or), оговорка стоит только у неподтверждённого пожертвования, план не объявлен за группу и обоим задан вопрос о позиции."
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m4"
+      ],
+      "prompt": "Открой M4. Напиши для протокола по одному-два предложения о позициях Грейс и Раджа на третьем этапе. Глаголы пересказа выбирай так, чтобы каждый подписался бы под своей строкой.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем глаголы пересказа: глагол = поступок",
+        "body": "Вспоминаем урок о пересказе: Грейс не возражала и не одобряла — она подняла вопрос. Радж не согласился просто так — он поставил условие. Выбирай глагол, который человек подтвердил бы сам.",
+        "example": "Leo raised a concern about the cost but said that he liked the venue.",
+        "translation": "Лео поднял вопрос о цене, но сказал, что зал ему нравится."
+      },
+      "hint": "Для Грейс: raised a concern about… / asked that… not be recorded… Для Раджа: said he would support… provided that…",
+      "answers": [
+        "Grace raised a concern about evening staffing: she has one trained volunteer, who can only work on Tuesdays. She said she supported the idea of the class but could not guarantee volunteers, and she asked that this not be recorded as approval. Raj said that he would support the class provided that TechBridge confirms the donation in writing; otherwise, he still considers the laptops the priority.",
+        "Grace pointed out that the center has only one trained evening volunteer, available on Tuesdays only. She said she liked the idea but did not approve the class. Raj agreed to support the class on the condition that TechBridge confirms the donation in writing."
+      ],
+      "explanation": "Засчитывается, если у Грейс есть и забота о волонтёрах, и граница «не одобрила», а у Раджа — условие с provided that или on the condition that. Глаголы objected, approved, complained или agreed без условия искажают их позиции."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь раздел «Рекомендации» в протоколе. Переведи: «Комитет рекомендует, чтобы класс проходил один вечер в неделю и чтобы заявку подали до 15 марта».",
+      "context": "submit an application — подать заявку.",
+      "guidance": {
+        "title": "Вспоминаем официальное «чтобы» в протоколе",
+        "body": "Вспоминаем урок об официальном «чтобы»: после recommends that — словарная форма, а если важна вещь, а не исполнитель, — be + третья форма.",
+        "example": "The board recommends that the fee be waived for students.",
+        "translation": "Совет рекомендует отменить плату для студентов."
+      },
+      "hint": "Два «чтобы» — два that: …that the class meet… and that the application be…",
+      "answers": [
+        "The committee recommends that the class meet one evening a week and that the application be submitted by March 15.",
+        "The committee recommends that the class be held one evening a week and that the application be submitted by March 15.",
+        "The committee recommends that the class meet one evening a week and that the application be submitted before March 15.",
+        "The committee recommends that the class be held one evening per week and that the application be submitted by March 15.",
+        "The committee recommends that the class meet once a week and that the application be submitted by March 15."
+      ],
+      "explanation": "Meet без -s и be submitted без is — словарная форма после recommends that. By March 15 — не позже 15-го; before тоже подходит."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "prompt": "Встреча закончилась. Напиши протокол-письмо на 150–250 слов комитету и директору центра, Ms. Lopez, которой на встрече не было. Что должно быть: позиции Даны, Раджа и Грейс — нейтральными глаголами; что изменилось после письма TechBridge; что решено и при каком условии; задачи с именами и сроками — только те, что люди взяли сами; открытые вопросы; отложенный вопрос о парковке; дата следующей встречи. Нет фраз we all agreed о классе и нет оговорок у фактов.",
+      "context": "action items — задачи; open questions — открытые вопросы.",
+      "hint": "План: Subject → Positions → New information → Agreed → Action items → Open questions → Parked → Next meeting.",
+      "answers": [
+        "Subject: Program committee, March 2 – summary and next steps\n\nDear Ms. Lopez and committee,\n\nWe discussed how to use the $6,000 city grant (application due March 15).\n\nPositions: Dana proposed an evening English class for adults on the waiting list. Raj argued that the money should replace the laptops, which several programs use. Grace raised a concern about evening staffing: she has one trained volunteer, available on Tuesdays only. She supports the idea but has not approved the class.\n\nNew information: TechBridge will most likely donate six refurbished laptops in late May. This is not confirmed in writing. If it is confirmed, the class and two new laptops would cost $4,700.\n\nAgreed: no decision on the class was made. Raj will support it provided that TechBridge confirms in writing. The group discussed one evening a week instead of two.\n\nAction items:\n- Raj: ask TechBridge for written confirmation, report by Friday, March 6.\n- Dana: ask the teacher about Tuesdays only and ask the city about the June 30 deadline, by Friday.\n- Grace: email her volunteer list this week (no commitment to find anyone).\n\nOpen questions: whether a 20-week class can run past June 30; volunteers for any second evening.\n\nParked: parking lot lights (raised by Raj). I'll add it to the next agenda.\n\nNext meeting: Monday, March 9.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если позиции переданы нейтрально (proposed, argued, raised a concern), класс не назван одобренным, условие Раджа записано через provided that, у каждой задачи есть имя и срок, у Грейс нет обещания найти волонтёров, оговорка стоит только у пожертвования, а парковка и следующая встреча упомянуты."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "prompt": "Понедельник, 9 марта, ты открываешь следующую встречу. Скажи вслух 2–3 минуты. Что должно быть: цель встречи и срок 15 марта; по одной фразе о позиции каждого — так, чтобы человек её узнал, с проверкой; что решили в прошлый раз и при каком условии; порядок отчётов: Радж, Дана, Грейс — по имени, открытыми вопросами; обещание вернуться к парковке в конце; если хочешь сказать своё мнение — отдельно, через Speaking for myself, not as chair. Запиши себя и проверь по расшифровке, не звучит ли один пересказ теплее другого.",
+      "context": "",
+      "hint": "Начни так: Thanks for coming back, everyone. Today we need to…",
+      "answers": [
+        "Thanks for coming back, everyone. Today we need to decide what goes into the grant application, because it's due on Sunday, March 15.\n\nLet me quickly recap where we were, and please correct me if I get anything wrong. Dana, your main goal is to give the adults on the waiting list an evening class, because most of them work during the day. Raj, your main concern is that the money should pay for something that lasts and helps several programs, which is why you proposed the laptops. Grace, you said you like the idea of the class, but you can only guarantee a volunteer on Tuesdays, and you asked us not to record that as approval. Is that a fair summary?\n\nLast time, we didn't make a decision. Raj said he'd support the class provided that TechBridge confirms the donation in writing, and we talked about holding the class one evening a week instead of two.\n\nSo let's hear the updates. Raj, what did TechBridge say? Then Dana, what did you find out from the teacher and from the city about the June 30 deadline? And Grace, how did it go with your volunteer list?\n\nOnce we've heard all three, we'll see what options we actually have. And at the end, I'd like to come back to the parking lot lights, since we parked that last time.\n\nSpeaking for myself, not as chair, I'd be glad if we could do both. But let's see what the facts say first. Raj, go ahead."
+      ],
+      "explanation": "Засчитывается, если у каждого пересказана цель, а не только вариант, есть общая проверка, прошлое решение названо с условием, отчёты запрошены открытыми вопросами, парковка обещана на конец, а личное мнение отделено от роли ведущего. Оценивай по своей расшифровке."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "prompt": "Дана сразу после встречи отправила директору свой итог. Перепиши его как честный протокол на 120–180 слов. Исправь все искажения по M1–M4, верни позиции другим людям и назови статус. Текст Даны: Hi Ms. Lopez, great meeting! We all agreed to run the English class, and TechBridge is giving us six laptops, so the laptop problem is solved. Raj complained about money as usual but came around in the end. Grace approved the class and will find volunteers for Thursdays. Raj will make sure TechBridge confirms. The grant rules are fine. We'll submit the application on March 15 with the class and two new laptops.",
+      "context": "",
+      "hint": "Найди семь искажений: кто что на самом деле сказал, что подтверждено, что обещано и что ещё неизвестно?",
+      "answers": [
+        "Subject: Program committee, March 2 – corrected summary\n\nDear Ms. Lopez,\n\nNo decision on the grant was made at the March 2 meeting.\n\nDana proposed an evening English class for adults on the waiting list. Raj argued for replacing the laptops, which several programs use, and said he would support the class provided that TechBridge confirms its donation in writing. TechBridge has said it will most likely donate six refurbished laptops, but this is not confirmed.\n\nGrace raised a concern about evening staffing. She has one trained volunteer for Tuesdays only. She supports the idea but has not approved the class, and she did not promise to find more volunteers.\n\nRaj will ask TechBridge for written confirmation and report by Friday. Dana will check with the teacher and ask the city whether the class can run past June 30. Grace will email her volunteer list this week.\n\nThe application, due March 15, will be decided at our next meeting on March 9.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если исправлены семь мест: никто не согласился на класс; пожертвование не подтверждено; complained и came around — оценка вместо довода и условия; Грейс не одобрила класс и не обещала волонтёров; Радж обещал спросить, а не «обеспечить»; правило 30 июня — открытый вопрос; заявка ещё не решена."
+    }
+  ]
+}

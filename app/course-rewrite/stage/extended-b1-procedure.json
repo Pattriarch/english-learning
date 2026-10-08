@@ -1,0 +1,347 @@
+{
+  "id": "extended-b1-procedure",
+  "title": "Возврат абонемента: правило, исключение и срок",
+  "subtitle": "Must, should, may → обычный путь и исключение → от какого дня считать срок → вопрос о том, чего не знаешь → сообщение другу",
+  "level": "B1",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 55,
+  "goal": "Прочитать правила клуба и объяснить другу, как вернуть деньги за абонемент: что обязательно, что можно, до какого часа — и спросить о том, от чего зависит следующий шаг: «Have you received a confirmation email yet?»",
+  "formula": "You must… · You should… · You may…, but you don't have to. · Use X unless… If…, you may… instead. · It must reach the club by 6 p.m. · Have you received… yet?",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "В правилах must — обязательно, should — совет, may — можно, если хочешь.",
+    "example": "You must use the form — форма обязательна. You may attach a screenshot — скриншот можно приложить.",
+    "check": "You don't have to — «не обязательно». You must not — «нельзя». Это разные вещи."
+  },
+  "prerequisites": [
+    "path-obligation",
+    "path-purpose-contrast",
+    "path-reading-inference",
+    "path-present-perfect"
+  ],
+  "recycles": [
+    "path-purpose-contrast",
+    "path-present-perfect"
+  ],
+  "teaches": [
+    "читать порядок действий: что сделать, как, до какого срока и как узнать, что получилось; кто делает каждый шаг",
+    "must — обязательно, should — совет, may — разрешено (можно, но не обязательно)",
+    "you don't have to — «не обязательно» ≠ you must not — «нельзя»",
+    "обычный путь и исключение: Use the form unless…; If the form fails, you may… instead; исключение не становится свободным выбором",
+    "срок: The day after purchase is day one; calendar days — вместе с выходными; must reach the club by 6 p.m. — клуб должен получить, а не ты отправить",
+    "вопрос о неизвестном факте: Have you received… yet? и два пути: If you have…, If you haven't…",
+    "сообщение другу простыми словами: First…, Then…, точные названия кнопок и адресов"
+  ],
+  "sources": [
+    {
+      "title": "Federal Plain Language Guidelines · Use \"must\" to indicate requirements (plainlanguage.gov, архив)",
+      "url": "https://cybercemetery.unt.edu/oilspill/20121007091305mp_/http:/www.plainlanguage.gov/howto/guidelines/bigdoc/writeMust.cfm",
+      "notes": "Сверено американское правило для текстов правил: must — обязанность, must not — запрет, may — действие по выбору, should — рекомендация."
+    },
+    {
+      "title": "Dictionary.com · unless",
+      "url": "https://www.dictionary.com/browse/unless",
+      "notes": "Сверено значение «если только не, кроме случая, когда» и пример I'll be there at nine, unless the train is late: после unless — обычное утверждение без второго not."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Правила отмены абонемента / Membership cancellation rules",
+      "kind": "reading",
+      "source": "Авторский учебный материал; клуб вымышленный",
+      "text": "Riverside Activity Club: Canceling a New Membership\n\nThis page explains how to cancel a new membership and get a full refund. The same cancellation period applies to all new members. You do not need to give a reason. Please read the steps carefully before you send your request: asking a general question is not the same as requesting a cancellation.\n\nYour cancellation request must reach the club by 6 p.m. local time on the fourteenth calendar day after your purchase. The day after your purchase is day one. Calendar days include Saturdays, Sundays, and holidays. For example, if you buy a membership on July 4, the deadline is 6 p.m. on July 18. Requests received after the deadline do not qualify for a refund.\n\nYou must normally use the cancellation form in your online member account. Open \"My membership,\" choose \"Cancel membership,\" and complete the form. You must enter your full name, membership number, and purchase date. Select \"Cancel and request refund,\" then click \"Submit.\" Opening or completing the form does not send a request. A successful request produces a confirmation email with a reference number.\n\nUse the online form unless a technical problem prevents you from submitting it. This is the only exception. If the form fails, you may email your cancellation request to cancellations@riverside.example instead. Your email must include the same three personal details and clearly say that you want to cancel and get a refund. You must also describe the technical problem. The email must reach the club by the original deadline; a technical problem does not extend your cancellation period.\n\nYou should keep a copy of your request and any confirmation. You should check your inbox and spam folder. You may attach a screenshot of the problem, but you do not have to. Staff review requests after they arrive, so the review may happen after your deadline. An approved refund goes back to your original payment method within seven business days. Business days are Monday through Friday, not including holidays.\n\nFor help with these rules, email help@riverside.example or talk to the front desk. The front desk can explain the process, but a conversation or phone call does not count as a cancellation request."
+    },
+    {
+      "id": "m2",
+      "title": "Сообщение Алекса / Alex's message",
+      "kind": "reference",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Hi! I bought my Riverside membership on June 1. Today is June 15, and it's 5:55 p.m. At 5:10, I entered my full name, membership number, and purchase date in the cancellation form, selected the refund option, and clicked Submit. The page just stayed open. Then I left for work. I can't tell you yet whether a confirmation email came, because I haven't checked my email. Can you help me figure out what to do next?"
+    },
+    {
+      "id": "m3",
+      "title": "Ответ на стойке клуба / A clarification from the front desk",
+      "kind": "dialogue",
+      "source": "Авторский учебный материал; ситуация вымышленная",
+      "text": "Member: What counts as a technical problem if someone clicks Submit but isn't sure the request went through?\nFront desk: Here's the rule for that: if no confirmation email arrives within thirty minutes, treat the submission as unsuccessful. That counts as a technical problem, even if you didn't see an error message. After you check your inbox and spam folder, you may use the email exception. If a confirmation has arrived, keep its reference number; you don't need to send another request. The original deadline still applies."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Как читать правила: что сделать, как и до какого срока",
+      "body": "Друг Алекс купил абонемент в спортклуб и передумал. Деньги можно вернуть, но только по правилам. Страница правил длинная, а Алексу нужен короткий ответ: что сделать прямо сейчас.\n\nВ правилах ищи четыре вещи: что сделать (отправить запрос на отмену), как (онлайн-форма), до какого срока (18:00 четырнадцатого дня) и как понять, что получилось (письмо с подтверждением).\n\nОтдельно смотри, кто делает каждый шаг. Ты отправляешь запрос, сотрудники его проверяют, клуб возвращает деньги. Если перепутать, совет будет неверным, даже если слова переведены правильно.\n\nИ последнее: вопрос — не запрос. Asking a general question is not the same as requesting a cancellation. Позвонить и спросить ещё не значит отменить."
+    },
+    {
+      "title": "Must, should, may: обязательно, совет, можно",
+      "body": "Must — без этого не сработает: You must enter your full name — имя указать обязательно. Should — полезный совет, без него запрос всё равно примут: You should keep a copy — копию лучше сохранить. May — разрешено, но выбирать не обязательно: You may attach a screenshot — скриншот можно приложить.\n\nНе путай два отрицания. You don't have to attach a screenshot — «прикладывать не обязательно». You must not attach a screenshot — «прикладывать нельзя». Это противоположные правила.\n\nВ сообщении другу не смягчай must до should ради вежливости. Вежливость — в тоне и в объяснении причины, а обязательное остаётся обязательным: You must do it by 6 p.m."
+    },
+    {
+      "title": "Обычный путь и исключение: unless и instead",
+      "body": "Use the online form unless a technical problem prevents you from submitting it — «пользуйся онлайн-формой, если только техническая проблема не мешает её отправить». Обычный путь — форма. Unless — «если не»: второе not после него не добавляют.\n\nIf the form fails, you may email your request instead — «если форма не сработала, можно вместо этого написать на почту». Instead — «вместо этого».\n\nГраница правила: исключение работает только при своём условии. Почта — не второй способ на выбор, а запасной путь, когда форма не сработала. И исключение не меняет срок: письмо тоже должно прийти до 18:00."
+    },
+    {
+      "title": "Срок: от какого дня считать и что должно успеть",
+      "body": "The day after your purchase is day one — первый день срока — следующий после покупки. Купил 1 июня → первый день 2 июня → четырнадцатый 15 июня. Calendar days — календарные дни, выходные тоже считаются.\n\nYour request must reach the club by 6 p.m. Reach — «дойти до клуба»: важно, когда клуб получил запрос, а не когда ты нажал кнопку. By 6 p.m. — не позже шести: раньше можно, позже нельзя.\n\nЕсли клуб проверит запрос завтра, это не опоздание: Staff review requests after they arrive. Опоздать может только сам запрос.\n\nВ сообщении пиши точный час — by 6 p.m. today, а не tonight: «вечером» для друга может значить и девять часов."
+    },
+    {
+      "title": "Чего не знаешь — спроси, а пока дай два пути",
+      "body": "Иногда следующий шаг зависит от факта, которого ты не знаешь. Алекс нажал Submit, но не проверил почту. Пришло подтверждение — всё готово. Не пришло — нужен запасной путь.\n\nНе угадывай. Задай узкий вопрос, на который друг ответит одним словом: Have you received a confirmation email yet? — present perfect из уроков A2: прошлое действие, важное сейчас. Did you get a confirmation email yet? — тоже нормальный американский вариант.\n\nПока ответа нет, дай оба пути: If you have, keep the reference number. If you haven't, email the club. После If you have и If you haven't всё предложение не повторяют — received a confirmation и так понятно из вопроса.\n\nПиши другу простыми словами, по порядку: First…, Then… Названия кнопок и адреса копируй точно."
+    }
+  ],
+  "examples": [
+    {
+      "en": "You must bring your booking number to pick up the equipment.",
+      "ru": "Чтобы забрать снаряжение, обязательно нужен номер бронирования.",
+      "why": "Must — без номера оборудование не выдадут. После must нет to."
+    },
+    {
+      "en": "You should save a copy of the receipt.",
+      "ru": "Чек лучше сохранить.",
+      "why": "Should — совет. Без копии правило не нарушено."
+    },
+    {
+      "en": "You may bring a friend, but you don't have to.",
+      "ru": "Можно прийти с другом, но не обязательно.",
+      "why": "May — разрешение. Don't have to — «не обязательно», а не «нельзя»."
+    },
+    {
+      "en": "Use the main entrance unless it's closed.",
+      "ru": "Входи через главный вход, если только он не закрыт.",
+      "why": "Unless = if not: обычный путь — главный вход. Второе not не нужно."
+    },
+    {
+      "en": "If the elevator is out of order, use the stairs instead.",
+      "ru": "Если лифт не работает, поднимайся по лестнице.",
+      "why": "If + instead — запасной путь только при этом условии."
+    },
+    {
+      "en": "The office must receive your form by 4 p.m. on Thursday.",
+      "ru": "Офис должен получить твою форму до 16:00 в четверг.",
+      "why": "Важно получение, а не отправка. By — крайний срок."
+    },
+    {
+      "en": "Have you received a pickup code yet? If you have, take it with you.",
+      "ru": "Тебе уже пришёл код для получения? Если да, возьми его с собой.",
+      "why": "Вопрос о неизвестном факте, а совет зависит от ответа. If you have — без повтора received a code."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прочитай второй абзац M1. Передай другу главное правило о сроке: «Твой запрос должен дойти до клуба до 18:00».",
+      "context": "reach — дойти, поступить.",
+      "guidance": {
+        "title": "Must + reach + by",
+        "body": "Must — обязательно. Reach — запрос должен дойти, то есть клуб должен его получить. By 6 p.m. — не позже шести.",
+        "example": "The package must reach the office by noon.",
+        "translation": "Посылка должна прийти в офис до полудня."
+      },
+      "hint": "Начни так: Your request must …",
+      "answers": [
+        "Your request must reach the club by 6 p.m.",
+        "Your cancellation request must reach the club by 6 p.m.",
+        "The request must reach the club by 6 p.m.",
+        "Your request has to reach the club by 6 p.m."
+      ],
+      "explanation": "Must reach — важно, когда клуб получит запрос. Send by 6 p.m. звучит похоже, но меняет правило: отправить можно, а дойти не успеет. Has to тоже верно."
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Прочитай пятый абзац M1. Напиши другу две фразы: что стоит сделать (совет) и что можно сделать, но не обязательно.",
+      "context": "",
+      "guidance": {
+        "title": "Should — совет, may — можно",
+        "body": "Should — полезно, но запрос примут и без этого. May — разрешено, выбирать не обязательно. После may удобно добавить but you don't have to.",
+        "example": "You should arrive early. You may bring snacks, but you don't have to.",
+        "translation": "Лучше прийти пораньше. Можно взять перекус, но не обязательно."
+      },
+      "hint": "Совет — про копию запроса. Разрешение — про скриншот.",
+      "answers": [
+        "You should keep a copy of your request. You may attach a screenshot, but you don't have to.",
+        "You should keep a copy of your request and the confirmation. You can attach a screenshot, but you don't have to.",
+        "You should check your inbox and spam folder. You may attach a screenshot of the problem, but you don't have to."
+      ],
+      "explanation": "Should — keep a copy или check your inbox. May — скриншот: You can attach… тоже передаёт разрешение. Must с этими действиями было бы ошибкой."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "Перескажи другу правило из четвёртого абзаца M1 двумя фразами: «Пользуйся онлайн-формой, если только она не сломалась. Если сломалась, можно вместо этого написать клубу на почту».",
+      "context": "fail — не сработать, сломаться.",
+      "guidance": {
+        "title": "Вспоминаем: unless = if not",
+        "body": "Вспоминаем: unless значит «если не», поэтому второе not после него не ставят. Unless it fails — «если только она не сломается». Unless it doesn't work — ошибка, смысл перевернётся.",
+        "example": "Take the bus unless it's late. If it's late, you can take a taxi instead.",
+        "translation": "Езжай на автобусе, если он не опаздывает. Если опаздывает, можно взять такси."
+      },
+      "hint": "Начни так: Use the online form unless … Вторая фраза: If it fails, …",
+      "answers": [
+        "Use the online form unless it fails. If it fails, you can email the club instead.",
+        "Use the online form unless it fails. If it fails, you may email the club instead.",
+        "Use the online form unless there's a technical problem. If there is, you can email the club instead."
+      ],
+      "explanation": "Unless it fails — без второго not. Instead показывает, что почта — запасной путь, а не второй способ на выбор. You can и you may здесь одинаково верны."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Прочитай M2. Посчитай срок Алекса по правилу из M1 и напиши ему две фразы: от какого дня считать и до какого числа и часа должен дойти запрос.",
+      "context": "",
+      "guidance": {
+        "title": "Первый день — следующий после покупки",
+        "body": "Найди в правилах, какой день считается первым. Отсчитай четырнадцать календарных дней, выходные тоже. Назови число и точный час.",
+        "example": "You bought it on May 3, so day one is May 4 and day fourteen is May 17.",
+        "translation": "Ты купил его 3 мая, значит, первый день — 4 мая, а четырнадцатый — 17 мая."
+      },
+      "hint": "Купил June 1. Какое число — day one? Прибавь ещё тринадцать дней.",
+      "answers": [
+        "Day one is the day after your purchase, so your day fourteen is June 15. Your request must reach the club by 6 p.m. on June 15.",
+        "You bought it on June 1, so day one was June 2 and day fourteen is June 15. Your request must reach the club by 6 p.m. today.",
+        "The deadline is 6 p.m. on June 15, because day one is June 2. That's today."
+      ],
+      "explanation": "Первый день — 2 июня, четырнадцатый — 15 июня, то есть сегодня, до 18:00. Ошибка — начать счёт с 1 июня: тогда срок выйдет 14 июня."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2"
+      ],
+      "prompt": "Другой друг уже ответил Алексу так: Relax, you clicked Submit at 5:10, so it's done. If you're worried, call the front desk tomorrow. Исправь его ответ по правилам M1 (2–3 фразы).",
+      "context": "",
+      "guidance": {
+        "title": "Найди, что противоречит правилам",
+        "body": "Проверь каждое утверждение по M1: что доказывает, что запрос отправлен; что считается запросом; успевает ли совет до срока.",
+        "example": "You can't be sure it worked until you get a receipt.",
+        "translation": "Нельзя быть уверенным, что всё прошло, пока не придёт чек."
+      },
+      "hint": "Найди в M1 фразы про confirmation email и про phone call.",
+      "answers": [
+        "You can't be sure it's done until you get a confirmation email. Calling the front desk doesn't count as a cancellation request, and tomorrow is too late.",
+        "Clicking Submit doesn't prove the request was sent. Only a confirmation email shows that. A phone call to the front desk doesn't count, and your deadline is 6 p.m. today."
+      ],
+      "explanation": "Две ошибки: успех показывает только письмо с подтверждением, а не нажатая кнопка; звонок не считается запросом и к тому же будет после срока."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m2"
+      ],
+      "prompt": "Главное, чего ты не знаешь из M2, — пришло ли Алексу подтверждение. Спроси его: «Тебе уже пришло письмо с подтверждением?»",
+      "context": "confirmation email — письмо с подтверждением.",
+      "guidance": {
+        "title": "Вспоминаем: Have you… yet?",
+        "body": "Вспоминаем present perfect: прошлое действие, которое важно сейчас. Have you + третья форма + yet? Yet в конце вопроса — «уже».",
+        "example": "Have you gotten your ticket yet?",
+        "translation": "Тебе уже пришёл билет?"
+      },
+      "hint": "Начни так: Have you received …",
+      "answers": [
+        "Have you received a confirmation email yet?",
+        "Have you received the confirmation email yet?",
+        "Have you gotten a confirmation email yet?",
+        "Did you get a confirmation email yet?",
+        "Have you received a confirmation yet?"
+      ],
+      "explanation": "Have you received… yet? — главный вариант. Have you gotten… и Did you get… yet? — тоже нормальный американский разговорный язык."
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "prompt": "Прочитай M3: на стойке объяснили, что считать сбоем. Алекс ещё не ответил про почту. Напиши ему два пути: что делать, если подтверждение пришло, и что — если нет.",
+      "context": "",
+      "guidance": {
+        "title": "Два пути: If you have / If you haven't",
+        "body": "Пока ответа нет, дай оба варианта. После If you have и If you haven't остальное не повторяй: received a confirmation и так понятно из вопроса.",
+        "example": "Have you paid yet? If you have, keep the receipt. If you haven't, pay by Friday.",
+        "translation": "Ты уже заплатил? Если да, сохрани чек. Если нет, заплати до пятницы."
+      },
+      "hint": "Если да — что сохранить? Если нет — куда написать и до какого часа?",
+      "answers": [
+        "If you have, keep the reference number. You don't need to send another request. If you haven't, email cancellations@riverside.example before 6 p.m.",
+        "If you've received it, keep the reference number; you don't need another request. If you haven't, email your request to cancellations@riverside.example by 6 p.m. today."
+      ],
+      "explanation": "По M3 без подтверждения через тридцать минут подача считается сбоем, а с 5:10 прошло сорок пять минут. Значит, если письма нет, можно писать на почту. Срок прежний — 6 p.m."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3"
+      ],
+      "prompt": "Напиши Алексу готовое сообщение (80–120 слов), по которому он сможет действовать сразу. Что должно быть: вопрос о подтверждении; что делать, если оно пришло; что делать, если нет, — адрес и что написать в письме; срок с числом и часом; почему почта сейчас разрешена.",
+      "context": "Сейчас 5:55 p.m., June 15.",
+      "hint": "План: Have you received … yet? / If you have, … / If you haven't, … / Your email must include … / It must reach the club by …",
+      "answers": [
+        "Hi Alex, have you received a confirmation email yet? Check your inbox and spam folder now. If you have, keep the reference number; you don't need to send another request. If you haven't, email cancellations@riverside.example right away. The club says no confirmation within thirty minutes counts as a technical problem, and you clicked Submit forty-five minutes ago. In the email, give your full name, membership number, and purchase date, say you want to cancel and get a refund, and describe the problem. A screenshot is optional. Your email must reach the club by 6 p.m. today, June 15, so you only have five minutes."
+      ],
+      "explanation": "Засчитывается, если есть вопрос, оба пути, адрес, три пункта о себе, просьба о возврате, описание проблемы и срок 6 p.m., June 15. Скриншот — не обязательно; если написать you must attach a screenshot, правило искажено."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1",
+        "m3"
+      ],
+      "prompt": "Новый случай. Подруга Нина купила абонемент в тот же клуб June 3. Сейчас 5:50 p.m., June 17. Она отправила форму в 5:05, проверила входящие и спам — подтверждения нет, ошибки на экране не было. Запиши ей голосовое сообщение на 30–60 секунд: что делать прямо сейчас, почему это разрешено, что написать в письме и до какого часа.",
+      "context": "",
+      "hint": "Посчитай заново: день один — June 4. Начни так: Nina, you can email the club now, because …",
+      "answers": [
+        "Nina, you can email the club right now, because there's no confirmation after forty-five minutes. The club counts that as a technical problem, even without an error message. Write to cancellations at riverside dot example. Give your full name, membership number, and purchase date, say you want to cancel and get a refund, and explain that no confirmation came. Your email must reach them by 6 p.m. today, so you have ten minutes. Don't call the front desk; a phone call doesn't count."
+      ],
+      "explanation": "Засчитывается, если срок посчитан верно (June 17, 6 p.m.), названо, почему почта разрешена (нет подтверждения через тридцать минут), и есть всё, что должно быть в письме. Вопрос о подтверждении здесь не нужен: Нина уже проверила почту."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "materialIds": [
+        "m1"
+      ],
+      "prompt": "В чате новичков клуба кто-то написал памятку с ошибками (ниже). Перепиши её правильно по M1 (50–90 слов), чтобы новички не потеряли деньги.",
+      "context": "Памятка: \"You can cancel by email or by phone anytime in your first two weeks. Your request must be sent by midnight. You must attach a screenshot. Weekends don't count.\"",
+      "hint": "Проверь четыре вещи: способ, срок и час, скриншот, выходные.",
+      "answers": [
+        "To cancel, use the online form in your member account. You may email the club only if the form fails, and a phone call doesn't count. Your request must reach the club by 6 p.m. on the fourteenth calendar day after your purchase; the day after you buy is day one. Weekends and holidays count. You don't have to attach a screenshot, but you should keep a copy of your request and the confirmation."
+      ],
+      "explanation": "Засчитывается, если исправлены все четыре ошибки: обычный путь — форма, почта — только при сбое, звонок не считается; срок — дойти до 18:00, а не отправить до полуночи; скриншот не обязателен; выходные считаются."
+    }
+  ]
+}

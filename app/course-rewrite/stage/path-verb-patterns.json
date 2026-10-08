@@ -1,0 +1,348 @@
+{
+  "id": "path-verb-patterns",
+  "title": "Хочу, чтобы ты пришёл: want you to, make me, let me",
+  "subtitle": "Want you to → ask и tell → make и let без to → help → saw him leaving",
+  "level": "B1",
+  "group": "Структура предложения",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Сказать, чего ты хочешь от другого человека, о чём тебя попросили и что тебе разрешили: «Я хочу, чтобы ты пришёл», «Родители не разрешали мне гулять допоздна», «Я видел, как он уходил».",
+  "formula": "I want you to come. → She made me wait. → I saw him leaving.",
+  "keyRule": {
+    "rule": "После want, ask и tell назови человека, потом to + действие.",
+    "example": "I want you to come — я хочу, чтобы ты пришёл.",
+    "check": "После make и let — без to: She made me laugh."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-pronouns",
+    "path-gerund-infinitive",
+    "path-reported-speech"
+  ],
+  "recycles": [
+    "path-gerund-infinitive",
+    "path-reported-speech"
+  ],
+  "teaches": [
+    "want / would like / need + человек + to + действие: I want you to come (не want that you come)",
+    "«не хочу, чтобы…» — not у want: I don't want you to go",
+    "ask / tell / remind + человек + to: She asked me to wait; «не делать» — not перед to: He told me not to worry",
+    "told me (that) + фраза передаёт новость, told me to — указание",
+    "make + человек + действие без to — заставить или довести до: made me stay, made me cry",
+    "let + человек + действие без to — разрешить: let me leave; «мне разрешили» — I was allowed to…",
+    "help + человек + действие с to или без: help me (to) carry; американцы чаще без to; с вещью — help with",
+    "see / hear / notice + человек + -ing — «видел, как…», без how: I saw him leaving; целиком — I saw him leave",
+    "слова: remind, allow, stay out late, ride away, move in, pick up the keys, strict"
+  ],
+  "sources": [
+    {
+      "title": "British Council · Verbs followed by infinitive",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verbs-followed-infinitive",
+      "notes": "Сверено: ask, tell, remind, want, would like + человек + to; make и let + человек + действие без to; в пассиве у make появляется to, а у let пассива нет — вместо него allow."
+    },
+    {
+      "title": "British Council · Verbs followed by the -ing form",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verbs-followed-ing-form",
+      "notes": "Сверено: see, hear, watch, listen to + человек + -ing (We saw everybody running away)."
+    },
+    {
+      "title": "Инглекс · Complex Object — сложное дополнение",
+      "url": "https://englex.ru/complex-object/",
+      "notes": "Для русскоязычных: «чтобы» не переводят через that (I want that he comes — ошибка); made me to read — ошибка; help me do = help me to do; see/hear + действие без to — целиком, + -ing — в процессе; not стоит перед to."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Кто делает и нужен ли to",
+    "why": "Между want и to встаёт тот, кто сделает. После make и let to нет. После saw и heard действие получает -ing.",
+    "items": [
+      {
+        "label": "Сделаю я сам",
+        "en": "I want to stay.",
+        "ru": "Я хочу остаться.",
+        "note": "Останется тот, кто хочет."
+      },
+      {
+        "label": "Сделает другой",
+        "en": "I want you to stay.",
+        "ru": "Я хочу, чтобы ты остался.",
+        "note": "You — тот, кто останется. That не нужен."
+      },
+      {
+        "label": "Make и let — без to",
+        "en": "They let us stay.",
+        "ru": "Нам разрешили остаться.",
+        "note": "После let сразу действие."
+      },
+      {
+        "label": "Видел, слышал — -ing",
+        "en": "I heard them laughing.",
+        "ru": "Я слышал, как они смеялись.",
+        "note": "«Как» не переводится."
+      }
+    ],
+    "footnote": "Человек везде в форме me, you, him, her, us, them — как после любого действия.",
+    "focus": [
+      "you to stay",
+      "let us stay",
+      "them laughing"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как сказать «Я хочу, чтобы ты пришёл»",
+      "body": "У тебя день рождения, и ты пишешь другу: «Я хочу, чтобы ты пришёл». По-русски здесь две части: «я хочу» и «чтобы ты пришёл».\n\nПо-английски «чтобы» не переводится, и второй части нет. Того, кто должен сделать, ставишь сразу после want, а потом to + действие: I want you to come.\n\nСравни с уроком про want to. I want to come — я хочу прийти: приду я сам. I want you to come — хочу, чтобы пришёл ты. Добавилось одно слово — тот, кто сделает. Он стоит в форме me, you, him, her, us, them: Mom wants me to call her — мама хочет, чтобы я ей позвонил. I want that you come и I want you come — ошибки.\n\nТак же работают would like и need: I'd like you to meet my parents — я хочу познакомить тебя с родителями. «Не хочу, чтобы…» — not ставится к want: I don't want you to go — я не хочу, чтобы ты уходил."
+    },
+    {
+      "title": "Попросил, велел, напомнил: ask, tell, remind",
+      "body": "Просьбу и указание строят так же. Ask somebody to — попросить кого-то сделать: She asked me to wait — она попросила меня подождать. Tell somebody to — велеть, сказать сделать: The doctor told me to rest — врач велел мне отдохнуть. Remind somebody to — напомнить: Remind me to call Mom — напомни мне позвонить маме.\n\n«Не делать» — not перед to: He told me not to worry — он сказал мне не волноваться. Это не то же, что don't want: там not стоит у want.\n\nВ уроке о пересказе told me передавал новость: She told me (that) she was busy. Told me to передаёт не новость, а указание. Said me to — ошибка, как и said me: с человеком нужен told."
+    },
+    {
+      "title": "Make и let — без to",
+      "body": "Make somebody do — заставить кого-то сделать: My boss made me stay late — начальник заставил меня задержаться. Let somebody do — разрешить, дать сделать: My boss let me leave early — начальник отпустил меня пораньше. После make и let сразу действие: made me to stay — ошибка.\n\nMake бывает и не про приказ, а про причину: You make me laugh — ты меня смешишь.\n\nLet's go из урока об указаниях — это тот же let: let us go, «давай пойдём». Let me help — давай я помогу.\n\n«Мне разрешили» через let в пассиве не говорят. Берут allow («разрешать») с to: I was allowed to leave early."
+    },
+    {
+      "title": "Help: to можно оставить или убрать",
+      "body": "Help somebody do — помочь кому-то сделать. To здесь можно поставить или нет, смысл один: Can you help me carry this? = Can you help me to carry this? Американцы в разговоре чаще говорят без to.\n\nЕсли человека не называешь, тоже можно без to: I helped clean up after the party — я помог убраться после вечеринки.\n\nЕсли после help идёт вещь, а не действие, нужен with: Can you help me with my bags? — поможешь мне с сумками?"
+    },
+    {
+      "title": "Видел, как он уходил: see и hear + -ing",
+      "body": "По-русски говорим «я видел, как он уходил», «я слышал, как ты пел». По-английски «как» не переводится: I saw him leaving. I heard you singing. Сначала тот, кого видел или слышал, — him, you, them, а не he. Потом действие с -ing.\n\n-ing значит, что ты застал действие в процессе. Если видел его целиком, от начала до конца, бывает форма без -ing и без to: I saw him leave — я видел, как он ушёл. Обе формы правильные.\n\nI saw how he left звучит как «я видел, каким способом он ушёл» — обычно так не говорят. Так же работают watch («смотреть») и notice («заметить»): I noticed a man standing outside — я заметил, что на улице стоит какой-то мужчина."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I want you to meet my sister.",
+      "ru": "Я хочу познакомить тебя с сестрой.",
+      "why": "Дословно «хочу, чтобы ты познакомился». You стоит между want и to, that не нужен."
+    },
+    {
+      "en": "Can you ask him to call me back?",
+      "ru": "Можешь попросить его мне перезвонить?",
+      "why": "Ask + him + to call: кого просят, потом что сделать. Call back — перезвонить."
+    },
+    {
+      "en": "The doctor told me not to lift anything heavy.",
+      "ru": "Врач велел мне не поднимать ничего тяжёлого.",
+      "why": "Told me to — указание. «Не делать» — not перед to."
+    },
+    {
+      "en": "My parents didn't let me stay out late.",
+      "ru": "Родители не разрешали мне гулять допоздна.",
+      "why": "Let + me + stay, без to. Stay out late — гулять допоздна."
+    },
+    {
+      "en": "That movie made me cry.",
+      "ru": "Я плакал на этом фильме.",
+      "why": "Make здесь — причина, а не приказ: фильм довёл до слёз. После made — сразу cry."
+    },
+    {
+      "en": "Could you help me move this couch?",
+      "ru": "Можешь помочь мне передвинуть этот диван?",
+      "why": "Help me move — так чаще говорят американцы. Help me to move тоже верно."
+    },
+    {
+      "en": "I heard the neighbors arguing last night.",
+      "ru": "Вчера вечером я слышал, как соседи ругались.",
+      "why": "«Как» не переводится: heard + the neighbors + arguing. Argue — ссориться, ругаться."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг сомневается, идти ли к тебе на день рождения. Напиши ему: «Я очень хочу, чтобы ты пришёл».",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем want to — и добавляем человека",
+        "body": "Вспоминаем I want to come — «я хочу прийти»: делаешь сам. Если сделать должен другой, поставь его между want и to. «Чтобы» отдельно не переводится.",
+        "example": "I want you to meet Anna.",
+        "translation": "Я хочу, чтобы ты познакомился с Анной."
+      },
+      "hint": "Начни так: I really want you … Нужно ли здесь that?",
+      "answers": [
+        "I really want you to come.",
+        "I really want you to come!",
+        "I really want you to be there.",
+        "I really want you to come to my birthday party.",
+        "I really want you to come to my party."
+      ],
+      "explanation": "Want + you + to come: после want сразу тот, кто придёт. I really want you to be there тоже естественно."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сестра собирается ночью одна ехать на машине в другой город. Скажи ей: «Я не хочу, чтобы ты ехала одна ночью». drive = ехать за рулём, alone = одна, at night = ночью.",
+      "context": "",
+      "guidance": {
+        "title": "«Не хочу, чтобы…» — not у want",
+        "body": "По-русски «не» стоит у «хочу», и по-английски тоже: I don't want you to… После to действие остаётся без not.",
+        "example": "My parents don't want me to quit my job.",
+        "translation": "Родители не хотят, чтобы я уходил с работы."
+      },
+      "hint": "С чего начнёшь: I don't want … или I want you not …? Где стоит you?",
+      "answers": [
+        "I don't want you to drive alone at night.",
+        "I do not want you to drive alone at night.",
+        "I don't want you to drive at night alone.",
+        "I don't want you driving alone at night."
+      ],
+      "explanation": "I don't want you to drive — обычная фраза. I want you not to drive звучит неестественно. В разговоре можно и I don't want you driving alone at night."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты выходишь из дома, и друг спрашивает по телефону, куда ты идёшь. Ответь: «Эмма попросила меня купить молоко». Эмма — твоя соседка по квартире.",
+      "context": "",
+      "guidance": {
+        "title": "Ask + человек + to — просьба",
+        "body": "Asked me to передаёт просьбу «сделай». Не путай с asked if — так передают вопрос. После asked стоит me, а не I.",
+        "example": "Tom asked her to wait.",
+        "translation": "Том попросил её подождать."
+      },
+      "hint": "Начни так: Emma asked … Какое слово стоит перед buy?",
+      "answers": [
+        "Emma asked me to buy milk.",
+        "Emma asked me to buy some milk.",
+        "Emma asked me to get milk.",
+        "Emma asked me to get some milk.",
+        "She asked me to buy some milk.",
+        "She asked me to get some milk."
+      ],
+      "explanation": "Ask + me + to buy: сначала кого попросили, потом что сделать. Asked me buy (без to) и asked to me — ошибки. Американцы часто говорят get вместо buy."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем пересказ. Врач сказал тебе: You have a cold. Don't go to work for two days. Напиши начальнику: «Врач сказал, что у меня простуда, и велел мне не ходить на работу два дня». cold = простуда.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем told me (that): новость или указание",
+        "body": "Вспоминаем told me (that) + фраза — так передают новость, со сдвигом времени. Указание «сделай» или «не делай» передают через told me to или told me not to. Время здесь не сдвигается.",
+        "example": "My boss told me she was busy and told me to come back later.",
+        "translation": "Начальница сказала, что занята, и велела мне зайти позже."
+      },
+      "hint": "Первая часть: The doctor said I … Вторая: … told me not …",
+      "answers": [
+        "The doctor said I had a cold and told me not to go to work for two days.",
+        "The doctor said I have a cold and told me not to go to work for two days.",
+        "The doctor told me I had a cold and told me not to go to work for two days.",
+        "The doctor told me I have a cold and told me not to go to work for two days.",
+        "The doctor said that I had a cold and told me not to go to work for two days.",
+        "The doctor told me that I had a cold and told me not to go to work for two days.",
+        "The doctor said I had a cold. He told me not to go to work for two days.",
+        "The doctor said I had a cold. She told me not to go to work for two days."
+      ],
+      "explanation": "Новость — said (that) I had a cold; простуда ещё не прошла, поэтому I have a cold тоже верно. Указание — told me not to go: not перед to."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый знакомый спрашивает о твоём детстве. Расскажи: «Папа заставлял меня делать уроки каждый вечер, но разрешал мне смотреть телевизор по выходным». do homework = делать уроки, on weekends = по выходным.",
+      "context": "",
+      "guidance": {
+        "title": "Make и let — сразу действие",
+        "body": "Made — «заставил», let — «разрешил». После них сразу тот, кого заставили, и действие без to. Let в прошлом не меняется: let — let.",
+        "example": "The coach made us run, but then he let us rest.",
+        "translation": "Тренер заставил нас бегать, но потом разрешил отдохнуть."
+      },
+      "hint": "Начни так: My dad made me … Есть ли to после me?",
+      "answers": [
+        "My dad made me do my homework every evening, but he let me watch TV on weekends.",
+        "My dad made me do my homework every night, but he let me watch TV on weekends.",
+        "My father made me do my homework every evening, but he let me watch TV on weekends.",
+        "My dad made me do homework every evening, but he let me watch TV on weekends.",
+        "My dad made me do my homework every evening, but he let me watch TV on the weekends.",
+        "My dad used to make me do my homework every evening, but he let me watch TV on weekends.",
+        "My dad would make me do my homework every evening, but he would let me watch TV on weekends."
+      ],
+      "explanation": "Made me do и let me watch — без to. Made me to do — ошибка. Used to make или would make тоже подходят: так подчёркивают, что это было регулярно."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "У соседа украли велосипед, и он спрашивает, не видел ли ты чего-нибудь. Ответь: «Я видел, как какой-то мужчина уезжал на нём около девяти». ride away = уезжать (на велосипеде), on it = на нём.",
+      "context": "",
+      "guidance": {
+        "title": "Видел, как… — без how",
+        "body": "После saw или heard ставь того, кого видел, а потом действие с -ing. Так ты показываешь, что застал его в процессе.",
+        "example": "I heard someone knocking on the door.",
+        "translation": "Я слышал, как кто-то стучал в дверь."
+      },
+      "hint": "Начни так: I saw a man … Какое окончание получит ride?",
+      "answers": [
+        "I saw a man riding away on it around nine.",
+        "I saw a man riding away on it at around nine.",
+        "I saw a man riding away on it at about nine.",
+        "I saw a guy riding away on it around nine.",
+        "I saw some guy riding away on it around nine.",
+        "I saw a man riding it away around nine.",
+        "I saw a man ride away on it around nine."
+      ],
+      "explanation": "Saw + a man + riding: «как» не переводится. I saw a man ride away тоже верно: так подчёркивают, что видел, как он уехал совсем. I saw how a man rode away звучит как «видел, каким способом он уехал»."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет хозяйке квартиры и просит проверить английский: My boss wants that I work this Saturday, so I can't move in until Sunday. Could you let me to pick up the keys on Sunday morning? My brother will help me to carry the boxes. Исправь ошибки и напиши текст целиком.",
+      "context": "move in — въехать, pick up the keys — забрать ключи.",
+      "guidance": {
+        "title": "Проверь каждое «чтобы» и каждый let",
+        "body": "Ищи that после want и to после make или let — оба лишние. Help — исключение: с ним to можно оставить или убрать.",
+        "example": "My landlord wants me to pay by Friday. He'll let me pay online.",
+        "translation": "Хозяин квартиры хочет, чтобы я заплатил до пятницы. Он разрешит мне заплатить онлайн."
+      },
+      "hint": "Сколько здесь ошибок — две или три? Что правило говорит о help?",
+      "answers": [
+        "My boss wants me to work this Saturday, so I can't move in until Sunday. Could you let me pick up the keys on Sunday morning? My brother will help me to carry the boxes.",
+        "My boss wants me to work this Saturday, so I can't move in until Sunday. Could you let me pick up the keys on Sunday morning? My brother will help me carry the boxes."
+      ],
+      "explanation": "Ошибок две: wants that I work → wants me to work, let me to pick up → let me pick up. Help me to carry — не ошибка; американцы чаще говорят help me carry, но верно и так, и так."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Начальница Линда оставила тебе голосовое сообщение: Hi, it's Linda. Please send the sales report to Mark before lunch. Don't forget about the meeting at three. And can Joe help Mark set up the projector? Thanks! Перескажи коллеге Джо тремя фразами: о чём Линда попросила тебя, о чём велела не забыть и чего она хочет от Джо.",
+      "context": "sales report — отчёт о продажах, set up — настроить, projector — проектор.",
+      "hint": "Начни так: Linda asked me to … . She told … . She wants you …",
+      "answers": [
+        "Linda asked me to send the sales report to Mark before lunch. She told us not to forget about the meeting at three. She wants you to help Mark set up the projector.",
+        "Linda asked me to send the report to Mark before lunch. She told me not to forget about the meeting at three. She'd like you to help Mark set up the projector."
+      ],
+      "explanation": "Засчитывается, если просьба передана через asked me to, указание — через told me (или us) not to forget, а желание Линды — через wants you to help Mark set up. Help Mark to set up тоже верно. Wants в настоящем: Линда хочет этого и сейчас."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты уезжаешь на неделю, а друг Ник поживёт у тебя и присмотрит за собакой Максом. Оставь ему записку на 60–100 слов. В ней: что тебе нужно, чтобы он делал (I need you to… или I want you to…); чего не разрешать собаке (Please don't let Max…); что попросила передать соседка (Mrs. Lopez asked me to tell you…); благодарность.",
+      "context": "walk the dog — гулять с собакой, couch — диван, spare key — запасной ключ, get locked out — остаться за дверью без ключа.",
+      "hint": "План: Thanks for … . I need you to … . Please don't let Max … . Mrs. Lopez asked me to …",
+      "answers": [
+        "Hi Nick,\nThanks so much for staying with Max this week! I need you to walk him twice a day, at 8 a.m. and 6 p.m. Please don't let him sleep on the couch. He'll give you sad eyes, but stay strong! My neighbor, Mrs. Lopez, asked me to tell you that she has a spare key, so ask her if you get locked out. Eat anything you want from the fridge.\nSee you on Sunday,\nKate"
+      ],
+      "explanation": "Засчитывается, если есть все четыре пункта: need/want you to + действие, don't let + Max + действие без to, asked me to tell you и благодарность. Let him to sleep — ошибка."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый американский друг спрашивает, строгими ли были твои родители. Расскажи вслух за 30–60 секунд. В рассказе: что родители заставляли тебя делать (made me); что разрешали (let me); чего не разрешали (didn't let me); кем или каким они хотели тебя видеть (wanted me to…); что ты думаешь об этом сейчас.",
+      "context": "strict — строгий, practice the piano — заниматься на пианино, weeknights — вечера в будни, become — стать.",
+      "hint": "Начни так: When I was a kid, my parents made me … . They let me … , but they didn't let me …",
+      "answers": [
+        "When I was a kid, my parents were pretty strict. My mom made me practice the piano every day, and my dad made me read for an hour before bed. They let me play outside after school, but they didn't let me watch TV on weeknights. They wanted me to become a doctor. I didn't, but now I'm glad they made me read so much."
+      ],
+      "explanation": "Засчитывается, если есть made me + действие, let me и didn't let me + действие без to, wanted me to + действие и твоё мнение сейчас."
+    }
+  ]
+}

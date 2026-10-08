@@ -1,0 +1,344 @@
+{
+  "id": "path-argument-essay",
+  "title": "Аргумент в эссе: тезис, довод, пример и честное «но»",
+  "subtitle": "Узкий тезис → довод → пример и его предел → самое сильное возражение и ответ → вывод без нового довода",
+  "level": "B2",
+  "group": "Письмо и чтение",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Написать короткое эссе-мнение, которое выдержит спор: «Городу стоит строить велодорожки, потому что…», «Например…», «Конечно, они занимают место, но…». И сказать свою позицию вслух за одну-две минуты.",
+  "formula": "Claim: … should … → because … / This matters because … → For example, … This shows that …, but … → It is true that …, but … / While …, … → Therefore / Although …, …",
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-critical-reading",
+    "path-purpose-contrast"
+  ],
+  "recycles": [
+    "path-critical-reading",
+    "path-purpose-contrast"
+  ],
+  "teaches": [
+    "тезис — одна узкая фраза с should: кто, что, в каком объёме; факт тезисом не бывает",
+    "довод: because …, This matters because …; один because — одна причина",
+    "пример: For example / For instance + один конкретный случай; придуманный пример честно: imagine a … who …",
+    "предел примера: This shows that …, but it does not prove that …",
+    "самое сильное возражение, а не удобное: A serious objection is that …",
+    "уступка и ответ: It is true that …, but … · While …, … · Admittedly, … However, …",
+    "связки по смыслу: in addition — ещё довод, however — поворот, therefore — вывод (строже, чем so)",
+    "вывод повторяет тезис с его границей и не вводит новый главный довод",
+    "слова: claim, reason, objection, conclusion, commute, bike lane"
+  ],
+  "sources": [
+    {
+      "title": "UNC Writing Center · Argument",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/argument/",
+      "notes": "Сверено: аргумент = утверждение + доказательства; сильный тезис — не очевидный факт, а позиция, с которой можно спорить; возражение пересказывают честно, без ослабленной версии (straw man); на него отвечают уступкой или опровержением; лучше одно-два серьёзных возражения, чем список."
+    },
+    {
+      "title": "Purdue OWL · Argumentative Essays",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/argumentative_essays.html",
+      "notes": "Сверено: тезис в первом абзаце и сужен под задание; в каждом абзаце одна мысль, связанная с тезисом; нужно объяснить, как пример поддерживает тезис; противоположной позиции дают отдельное место; в выводе не вводят новую информацию."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Четыре хода одного аргумента",
+    "why": "Жители дома просят управляющую компанию сделать комнату для велосипедов. Каждый ход отвечает на свой вопрос читателя.",
+    "items": [
+      {
+        "label": "Тезис",
+        "en": "Our building should turn the old storage room into a bike room.",
+        "ru": "Нашему дому стоит превратить старую кладовку в комнату для велосипедов.",
+        "note": "Что именно предлагаешь — узко."
+      },
+      {
+        "label": "Довод",
+        "en": "Many residents ride bikes, and the halls are crowded.",
+        "ru": "Многие жильцы ездят на велосипедах, и в коридорах тесно.",
+        "note": "Почему это нужно."
+      },
+      {
+        "label": "Пример",
+        "en": "For example, three bikes block the back door every evening.",
+        "ru": "Например, каждый вечер три велосипеда загораживают чёрный ход.",
+        "note": "Как это выглядит в жизни."
+      },
+      {
+        "label": "Возражение и ответ",
+        "en": "It is true that some people use the room, but there is space in the basement.",
+        "ru": "Конечно, кладовкой кто-то пользуется, но в подвале есть место.",
+        "note": "Назвал «но» и ответил на него."
+      }
+    ],
+    "footnote": "storage room — кладовка; resident — жилец; basement — подвал.",
+    "focus": [
+      "should",
+      "For example",
+      "It is true that",
+      "but"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Чем аргумент отличается от простого мнения",
+      "body": "На работе спорят, разрешить ли сотрудникам работать из дома. Фраза Remote work is good — «удалёнка — это хорошо» — просто мнение. С ней нельзя спорить по делу: непонятно, для кого, сколько дней и почему.\n\nАргумент — это мнение с опорой. В нём четыре хода: тезис (что именно ты предлагаешь), довод (почему), пример (как это выглядит в жизни) и ответ на самое сильное возражение. По-русски мы делаем то же самое: «Я считаю, что…, потому что… Например… Конечно, …, но…».\n\nВ уроке о критическом чтении ты проверял чужой вывод: есть ли за ним доказательство. Здесь ты строишь свой текст так, чтобы он выдержал такую же проверку.\n\nЭссе-мнение (opinion essay) — короткий текст из 3–5 абзацев. В одном абзаце одна мысль, и первая фраза абзаца её называет."
+    },
+    {
+      "title": "Тезис: одна фраза, с которой можно спорить",
+      "body": "Тезис (claim) — главная фраза эссе. Её ты защищаешь до конца текста. Хороший тезис узкий: в нём видно, кто, что и в каком объёме. Companies should let office workers work from home two days a week — «компаниям стоит разрешить офисным сотрудникам два дня работы из дома в неделю».\n\nShould здесь значит «стоит»: это предложение, а не факт. Факт тезисом не бывает. Commuting takes time — «дорога на работу занимает время» — правда, спорить не с чем. Такая фраза годится как довод, но не как тезис.\n\nНе обещай больше, чем докажешь: all, always, everyone в тезисе тянут за собой огромный спор."
+    },
+    {
+      "title": "Довод и пример: пример показывает, но не доказывает",
+      "body": "Довод (reason) отвечает на вопрос «почему?»: …because many people spend an hour a day on the road. В эссе удобна связка This matters because… — «это важно, потому что…».\n\nПример вводят словами For example или For instance — «например». Это один конкретный случай: человек, место, число. Сразу после примера скажи, что он показывает: This shows that… Один случай делает мысль живой, но не доказывает её для всех. Если пример придуман, так и скажи: imagine a designer who… — «представь дизайнера, который…».\n\nТри примера подряд без объяснения — не аргумент, а список."
+    },
+    {
+      "title": "Возражение: самое сильное, а не самое удобное",
+      "body": "Возражение (objection) — главный довод человека, который с тобой не согласен. Выбирай самое сильное. Ответ на «удалёнщики ленивые» никого не убедит: читатель видит, что ты выбрал слабого противника. Сильное возражение звучит так: new employees learn more slowly without coworkers nearby.\n\nСначала признай разумную часть: It is true that…, but… — «конечно, …, но…». Или одной фразой: While remote work saves time, it can make teamwork harder. While здесь значит «хотя». Потом ответь: добавь условие (if, as long as), сузь тезис или покажи, что польза больше. Although и despite из урока «Чтобы, несмотря на…» работают так же."
+    },
+    {
+      "title": "Связки по смыслу и вывод без нового довода",
+      "body": "Связку выбирай по связи мыслей, а не для красоты. In addition — «кроме того»: ещё довод в ту же сторону. However — «однако»: поворот против. Therefore — «поэтому, следовательно»: вывод из уже сказанного. Therefore звучит строже, чем so, и обычно открывает новую фразу, после него запятая. Если между фактами нет причины и следствия, therefore её не создаст.\n\nВывод (conclusion) повторяет тезис другими словами — вместе с его границей. Новый главный довод в выводе не нужен: объяснить его уже негде. In conclusion в американских школьных эссе встречается, но звучит шаблонно. Можно начать вывод прямо с позиции."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Our city should keep public pools open until 9 p.m. in July and August.",
+      "ru": "Нашему городу стоит держать бассейны открытыми до девяти вечера в июле и августе.",
+      "why": "Узкий тезис: видно, что, до какого часа и в какие месяцы. С ним можно спорить по делу."
+    },
+    {
+      "en": "This matters because many families do not have air conditioning at home.",
+      "ru": "Это важно, потому что у многих семей дома нет кондиционера.",
+      "why": "Довод отвечает на «почему?» и опирается на факт, который читатель может проверить."
+    },
+    {
+      "en": "For example, the pool on Lake Street is full every evening after six.",
+      "ru": "Например, бассейн на Лейк-стрит каждый вечер после шести забит.",
+      "why": "Один конкретный случай: место и время."
+    },
+    {
+      "en": "This shows that people want evening hours, but it does not prove that every pool would be busy.",
+      "ru": "Это показывает, что вечерние часы нужны людям, но не доказывает, что во всех бассейнах будет людно.",
+      "why": "Автор сам называет предел примера — раньше, чем это сделает читатель."
+    },
+    {
+      "en": "It is true that longer hours cost money, but the pools could open later in the morning.",
+      "ru": "Конечно, долгие часы работы стоят денег, но бассейны могли бы открываться позже утром.",
+      "why": "Уступка признаёт расходы, а ответ предлагает способ их покрыть."
+    },
+    {
+      "en": "While evening hours help families, they also mean more work for lifeguards.",
+      "ru": "Хотя вечерние часы помогают семьям, у спасателей прибавится работы.",
+      "why": "While = «хотя»: обе стороны в одной фразе."
+    },
+    {
+      "en": "A visit costs $2. Therefore, almost any family can afford it.",
+      "ru": "Вход стоит 2 доллара. Поэтому его может позволить себе почти любая семья.",
+      "why": "Therefore — вывод из цены: вторая мысль следует из первой."
+    },
+    {
+      "en": "A visit costs $2. However, the pool closes before most parents get home from work.",
+      "ru": "Вход стоит 2 доллара. Однако бассейн закрывается раньше, чем большинство родителей возвращаются с работы.",
+      "why": "Сравни с предыдущим примером: however поворачивает мысль против — дёшево, но неудобно."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Тема эссе: «Нужна ли детям домашняя работа?» Тезис Homework is useful слишком широкий. Переведи узкий тезис: «Учителям начальной школы стоит задавать не больше двадцати минут домашней работы в день».",
+      "context": "elementary school — начальная школа; no more than — не больше; homework — домашняя работа.",
+      "guidance": {
+        "title": "Узкий тезис: кто, что и сколько",
+        "body": "Тезис — одна фраза, которую ты защищаешь во всём эссе. Should показывает: это твоё предложение. Добавь, кого оно касается и в каком объёме, — тогда спорить можно по делу.",
+        "example": "Public libraries should stay open until 9 p.m. on weekdays.",
+        "translation": "Городским библиотекам стоит работать до девяти вечера по будним дням."
+      },
+      "hint": "Начни так: Elementary school teachers should give… Куда поставить a day?",
+      "answers": [
+        "Elementary school teachers should give no more than twenty minutes of homework a day.",
+        "Elementary school teachers should give no more than 20 minutes of homework a day.",
+        "Elementary school teachers should assign no more than twenty minutes of homework a day.",
+        "Elementary school teachers should give no more than twenty minutes of homework per day.",
+        "Elementary school teachers should not give more than twenty minutes of homework a day.",
+        "Elementary school teachers shouldn't give more than 20 minutes of homework a day."
+      ],
+      "explanation": "Тезис узкий: начальная школа и двадцать минут в день. Assign homework тоже верно. Homework, как advice, не берёт a и -s."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Тезис эссе: Cities should build more bike lanes — «городам стоит строить больше велодорожек». Добавь к нему довод и переведи всю фразу: «Городам стоит строить больше велодорожек, потому что многие поездки по городу короче трёх миль».",
+      "context": "bike lane — велодорожка; trip — поездка; mile — миля, около 1,6 км.",
+      "guidance": {
+        "title": "Довод: ответ на «почему?»",
+        "body": "Довод — причина, которую читатель может проверить. Один because — одна причина: три причины в одной фразе читатель не удержит. Остальные доводы получат свои абзацы.",
+        "example": "High schools should start at 9 a.m. because teenagers need more sleep.",
+        "translation": "Старшим школам стоит начинать занятия в девять утра, потому что подросткам нужно больше сна."
+      },
+      "hint": "Начни так: Cities should build more bike lanes because many trips… «Короче чем» — shorter than.",
+      "answers": [
+        "Cities should build more bike lanes because many trips in the city are shorter than three miles.",
+        "Cities should build more bike lanes because many city trips are shorter than three miles.",
+        "Cities should build more bike lanes because many trips around the city are shorter than three miles.",
+        "Cities should build more bike lanes because many trips in town are less than three miles.",
+        "Cities should build more bike lanes because a lot of trips in the city are under three miles."
+      ],
+      "explanation": "Довод опирается на проверяемый факт о длине поездок. Shorter than, less than и under three miles одинаково естественны."
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь, что школе стоит открывать спортзал для жителей по субботам. Пример: твой сосед Дэн каждую субботу играет там в баскетбол. Напиши две фразы: сам пример с For example и что он показывает, а чего не доказывает.",
+      "context": "neighbor — сосед; gym — спортзал.",
+      "guidance": {
+        "title": "Вспоминаем: один случай — не правило",
+        "body": "Вспоминаем урок о критическом чтении: один пример не доказывает закономерность. В своём тексте скажи это сам, раньше читателя: This shows that…, but it does not prove that…",
+        "example": "For instance, one café near my office added outdoor tables, and they are full every lunch. This shows there is some demand, but it does not prove that every café needs them.",
+        "translation": "Например, одно кафе возле моего офиса поставило столики на улице, и в обед они всегда заняты. Это показывает, что спрос есть, но не доказывает, что столики нужны каждому кафе."
+      },
+      "hint": "Вторая фраза: This shows that some people…, but it does not prove that many…",
+      "answers": [
+        "For example, my neighbor Dan plays basketball in the school gym every Saturday. This shows that some people want to use the gym, but it does not prove that many people will come.",
+        "For example, my neighbor Dan plays basketball in the school gym every Saturday. This shows that there is some interest, but it doesn't prove that a lot of people will use it.",
+        "For instance, my neighbor Dan plays basketball in the school gym every Saturday. This suggests that some residents would use the gym, but one case does not prove that many would come."
+      ],
+      "explanation": "Засчитывается, если пример конкретный (Дэн, суббота, баскетбол), а вторая фраза называет и вывод, и его предел. Suggests вместо shows тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Эссе: «Компаниям стоит разрешить два удалённых дня в неделю». Самое сильное возражение — новичкам нужна помощь коллег. Переведи уступку с ответом: «Конечно, новым сотрудникам нужно больше помощи, но первые три месяца они могут работать в офисе».",
+      "context": "new employees — новые сотрудники.",
+      "guidance": {
+        "title": "Уступка: признай «но» и ответь",
+        "body": "It is true that… признаёт разумную часть чужого довода. После but идёт твой ответ: условие, ограничение или решение. Уступка без ответа просто ослабляет твою позицию.",
+        "example": "It is true that bike lanes take space from cars, but they can replace parking on one side of the street.",
+        "translation": "Конечно, велодорожки отнимают место у машин, но их можно сделать вместо парковки с одной стороны улицы."
+      },
+      "hint": "Начни так: It is true that new employees… Что они могут делать первые три месяца?",
+      "answers": [
+        "It is true that new employees need more help, but they can work in the office for the first three months.",
+        "It's true that new employees need more help, but they can work in the office for the first three months.",
+        "It is true that new employees need more help, but they can work in the office for their first three months.",
+        "It is true that new employees need more support, but they can work in the office during the first three months.",
+        "Of course, new employees need more help, but they can work in the office for the first three months.",
+        "Admittedly, new employees need more help, but they can work in the office for their first three months."
+      ],
+      "explanation": "Первая часть признаёт возражение, вторая отвечает на него условием. Of course и Admittedly тоже вводят уступку; support и help здесь синонимы."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Эссе: «Нашей школе стоит заменить бумажные учебники планшетами». В черновике возражение такое: Some people say tablets are bad because kids like games. Перепиши его как самое сильное возражение по этим фактам: планшеты ломаются, а ремонт оплачивает школа.",
+      "context": "tablet — планшет; break — ломаться; repairs — ремонт; pay for — платить за.",
+      "guidance": {
+        "title": "Сильное возражение, а не удобное",
+        "body": "Возражение про игры легко отбросить — и читатель это заметит. Сильное — то, что сказал бы разумный человек на другой стороне: о деньгах, времени, безопасности. Перескажи его честно, без насмешки.",
+        "example": "A serious objection is that later start times could make mornings harder for working parents.",
+        "translation": "Серьёзное возражение: позднее начало занятий может усложнить утро работающим родителям."
+      },
+      "hint": "Начни так: A serious objection is that tablets… Кто платит, когда планшет ломается?",
+      "answers": [
+        "A serious objection is that tablets break easily, and the school would have to pay for repairs.",
+        "A serious objection is that tablets can break, and the school would have to pay for the repairs.",
+        "One serious objection is that tablets break easily and the school would pay for the repairs.",
+        "The strongest objection is that tablets break, and repairs would cost the school a lot of money.",
+        "Some parents worry that tablets break easily and that the school would have to pay for repairs."
+      ],
+      "explanation": "Возражение теперь о деньгах школы — с ним спорят всерьёз. Would показывает возможное последствие плана. Можно начать и с Some parents worry that…"
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "В абзаце о велодорожках связки не совпадают со смыслом. Исправь их и перепиши абзац: Bike lanes make streets safer. However, they could get more people to ride to work. Therefore, some drivers may be unhappy.",
+      "context": "",
+      "guidance": {
+        "title": "Связка по смыслу",
+        "body": "Перед связкой скажи себе по-русски, что делает следующая мысль: «и ещё» (in addition), «но» (however) или «поэтому» (therefore). Связка должна совпадать с этим словом.",
+        "example": "Remote work saves time. In addition, it saves money on gas. However, some people feel lonely at home.",
+        "translation": "Удалённая работа экономит время. Кроме того, она экономит деньги на бензин. Однако некоторым дома одиноко."
+      },
+      "hint": "Вторая фраза — ещё один плюс или минус? А третья — вывод из плюсов или поворот против?",
+      "answers": [
+        "Bike lanes make streets safer. In addition, they could get more people to ride to work. However, some drivers may be unhappy.",
+        "Bike lanes make streets safer. Also, they could get more people to ride to work. However, some drivers may be unhappy.",
+        "Bike lanes make streets safer. They could also get more people to ride to work. However, some drivers may be unhappy.",
+        "Bike lanes make streets safer, and they could also get more people to ride to work. However, some drivers may be unhappy.",
+        "Bike lanes make streets safer. In addition, they could get more people to ride to work. On the other hand, some drivers may be unhappy.",
+        "Bike lanes make streets safer. In addition, they could get more people to ride to work. Still, some drivers may be unhappy."
+      ],
+      "explanation": "Вторая мысль — ещё одна польза, поэтому in addition или also. Недовольство водителей — минус, а не вывод из пользы: нужен however, on the other hand или still. Therefore создавал причину, которой нет."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем although и despite. Переведи вывод эссе о велодорожках: «Хотя велодорожки занимают место, городу стоит построить их хотя бы на двух главных улицах».",
+      "context": "take up space — занимать место; at least — хотя бы; main street — главная улица.",
+      "guidance": {
+        "title": "Вспоминаем: although + целая мысль, despite + вещь",
+        "body": "Как в уроке «Чтобы, несмотря на…»: после although идёт кто + действие, после despite — существительное или -ing. В выводе такая фраза повторяет тезис вместе с его границей.",
+        "example": "Despite the cost, the school should test tablets in two classrooms first.",
+        "translation": "Несмотря на расходы, школе стоит сначала испытать планшеты в двух классах."
+      },
+      "hint": "Начни так: Although bike lanes… Где граница тезиса — на скольких улицах?",
+      "answers": [
+        "Although bike lanes take up space, the city should build them on at least two main streets.",
+        "Although bike lanes take space, the city should build them on at least two main streets.",
+        "Even though bike lanes take up space, the city should build them on at least two main streets.",
+        "Although bike lanes take up space, the city should build them on at least two of its main streets.",
+        "Despite the space they take up, the city should build bike lanes on at least two main streets."
+      ],
+      "explanation": "Вывод признаёт минус и сужает тезис до двух улиц, без нового довода. После although — целая мысль, despite требует существительного: despite the space."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Городской совет спрашивает жителей: закрывать ли Main Street для машин по субботам и воскресеньям? Напиши эссе-мнение для городского сайта, 120–180 слов. Что должно быть: узкий тезис (что, где, когда); два довода; один пример и что он показывает; самое сильное возражение и ответ на него; вывод с границей, без нового довода. Можно защищать и «нет».",
+      "context": "close to cars — закрыть для машин; downtown — центр города; deliveries — доставка товаров; store owner — владелец магазина; parking lot — парковка.",
+      "hint": "План: тезис → The first reason is… → For example, … This shows… → The second reason… → It is true that…, but… → Although…, …",
+      "answers": [
+        "Our city should close Main Street to cars on Saturdays and Sundays from 10 a.m. to 6 p.m. This would make downtown safer and more pleasant.\n\nThe first reason is safety. On weekends, the sidewalks are crowded, and many families walk with small kids. Without cars, people could use the whole street. For example, when the street was closed for the Fourth of July parade, it was full of people all day. This shows that residents enjoy the space, but it does not prove that every weekend would be as busy.\n\nThe second reason is business. When people walk instead of drive, they stop and look in store windows more often.\n\nIt is true that stores need deliveries and that some customers drive. However, trucks could come before 10 a.m., and the parking lot on Oak Street is only two blocks away.\n\nAlthough the plan will not suit everyone, a summer trial on weekends is worth it."
+      ],
+      "explanation": "Засчитывается, если в эссе есть все пять частей: узкий тезис с днями и часами, два довода, пример с пределом (This shows…, but…), самое сильное возражение — доставка и машины покупателей — с ответом и вывод без нового довода. Позиция «нет» засчитывается при тех же частях."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга-учительница спрашивает твоё мнение: стоит ли старшим школам (high schools) запретить телефоны? Ответь вслух за 1–2 минуты. Что должно быть: узкий тезис (только на уроках или весь день); два довода; пример (если придуманный — начни с imagine…); самое сильное возражение и честный ответ на него; короткий вывод.",
+      "context": "ban — запретить; during class — на уроках; emergency — экстренный случай; school office — канцелярия школы.",
+      "hint": "Начни так: I think high schools should ban phones during class, but… My first reason is…",
+      "answers": [
+        "I think high schools should ban phones during class, but not during lunch or breaks. My first reason is attention. A phone on the desk pulls students away from the lesson, even when it's silent. My second reason is that teachers shouldn't have to compete with videos. For example, imagine a math teacher explaining a hard problem while half the class checks messages. It's an imagined case, but it shows the problem. It is true that parents want to reach their kids in an emergency, and that's a serious point. But students could keep their phones in their bags, and parents could always call the school office. So my answer is yes, but only for class time. Lunch and breaks should stay phone-friendly."
+      ],
+      "explanation": "Засчитывается, если тезис узкий (уроки, а не весь день), есть два довода, пример честно назван придуманным или реальным, сильное возражение — связь с родителями — получает ответ, а вывод повторяет границу тезиса. Расшифровка покажет слова, но не оценит произношение."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Друг прислал абзац для конкурса эссе и просит помочь. Перепиши его в сильный абзац на 90–130 слов: узкий тезис, довод, пример с пределом, сильное возражение с ответом и вывод без нового довода. Черновик: “Remote work is the best thing ever. Everyone is more productive at home. For example, my friend Kate. Some people say remote workers are lazy, but that's silly. Therefore, all companies must go remote. Also, it's good for the planet.”",
+      "context": "Факты о Кейт: раньше она тратила на дорогу 90 минут в день; теперь работает из дома три дня в неделю и говорит, что успевает больше.",
+      "hint": "Что в черновике тезис — и на сколько дней его сузить? Какое возражение про удалёнку серьёзнее, чем «ленивые»?",
+      "answers": [
+        "Companies should let office workers work from home up to three days a week. This matters because commuting takes time that people could use for work or rest. For example, my friend Kate used to spend ninety minutes a day on the road. Now she works from home three days a week, and she says she gets more done. Her story shows how remote days can help, but it does not prove that everyone works better at home. It is true that new employees may learn more slowly without coworkers nearby. However, they could spend their first months in the office. A flexible schedule, not full remote work, is the fair answer."
+      ],
+      "explanation": "Засчитывается, если тезис сужен (несколько дней, офисные сотрудники), пример Кейт стал конкретным и получил предел, «ленивые» заменено серьёзным возражением с ответом, а «хорошо для планеты» убрано из вывода как новый довод. Everyone и all companies тоже должны исчезнуть."
+    }
+  ],
+  "keyRule": {
+    "rule": "Сначала скажи, что именно предлагаешь и почему. Потом честно назови главное «но» и ответь на него.",
+    "example": "The library should open on Sundays because many people work on Saturdays. It is true that this costs money, but it could close on Mondays instead. — Библиотеке стоит работать по воскресеньям: многие работают по субботам. Конечно, это стоит денег, но можно закрываться по понедельникам.",
+    "check": "Может ли читатель одной фразой сказать, что ты предлагаешь и на какое «но» ответил?"
+  }
+}

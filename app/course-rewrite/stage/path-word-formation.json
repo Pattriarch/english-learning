@@ -1,0 +1,334 @@
+{
+  "id": "path-word-formation",
+  "title": "Decide или decision: какая форма слова нужна на этом месте",
+  "subtitle": "Вещь из действия → -ful и -less → приставки «не-» → одна семья, три места → найди ошибку → скажи сам",
+  "level": "B1",
+  "group": "Лексика и сочетания",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Выбирать форму слова по её месту во фразе: «Мне нужно решить» — I need to decide, «Мне нужно решение» — I need a decision; делать из знакомых слов новые: use → useful, useless; possible → impossible.",
+  "formula": "decide → a decision · use → useful / useless · possible → impossible",
+  "keyRule": {
+    "rule": "Смотри на место: после a или the нужна вещь (decision), после to — действие (decide).",
+    "example": "I need to decide. I need a decision. — Мне нужно решить. Мне нужно решение.",
+    "check": "I need a decide — так сказать нельзя."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-adverbs-manner",
+    "path-adjectives-ed-ing"
+  ],
+  "recycles": [
+    "path-adverbs-manner",
+    "path-adjectives-ed-ing",
+    "research-schwa-wordstress"
+  ],
+  "teaches": [
+    "семья слов: одно слово в роли действия, вещи, описания и «как» — decide, decision, decisive, decisively",
+    "место подсказывает форму: после to/can — действие, после a/the/my — вещь, перед вещью и после is — описание, при действии — -ly",
+    "вещь из действия: -tion/-sion, -ment (explanation, decision, improvement, payment); человек: -er/-or (teacher, visitor)",
+    "вещь из описания: -ness, -ity (kindness, happiness, possibility, responsibility)",
+    "описание: -ful «с», -less «без» (useful/useless, careful/careless), -able (reliable, affordable), -al, -ive (natural, creative)",
+    "friendly, lovely, lonely — описания на -ly, а не «как»: in a friendly way",
+    "«не-»: un-, dis-, in-, im- (перед p, m), il-, ir- (unusual, disagree, incorrect, impossible, illegal, irregular); re- «снова», mis- «неправильно»",
+    "приставку и суффикс у слова не выбирают сами: impossible, а не unpossible; проверка по словарю (noun, verb, adjective, adverb)",
+    "ударение в семье может переехать: PHOtograph → phoTOGrapher; перед -tion ударный слог: inforMAtion"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Learn Prefixes, Suffixes to Expand Your Vocabulary",
+      "url": "https://learningenglish.voanews.com/a/learn-prefixes-and-suffixes-to-expand-your-vocabulary/4140658.html",
+      "notes": "Сверены значения un-, in-, im-, ir-, re-, mis-, суффиксы -ion, -er, -ness, -able, -ful; совет проверять, существует ли сочетание корня и суффикса, и следить за написанием корня."
+    },
+    {
+      "title": "Skyeng · Что вы не знали о суффиксах в английском",
+      "url": "https://skyeng.ru/articles/chto-vy-ne-znali-o-suffiksah-v-anglijskom/",
+      "notes": "Объяснение для русскоговорящих: какие суффиксы делают существительное (-ment, -ion, -ness, -ity, -er/-or), прилагательное (-ful, -less, -able, -al, -ive) и наречие (-ly). Про friendly как прилагательное на -ly в статье нет — это добавлено из словарных помет."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Одна семья — четыре места",
+    "why": "Смысл везде один — «решать». Форму выбирает место во фразе: что стоит перед словом и после него.",
+    "items": [
+      {
+        "label": "Действие",
+        "en": "We need to decide today.",
+        "ru": "Нам нужно решить сегодня.",
+        "note": "После to — действие."
+      },
+      {
+        "label": "Вещь",
+        "en": "We need a decision today.",
+        "ru": "Нам нужно решение сегодня.",
+        "note": "После a — вещь: -sion."
+      },
+      {
+        "label": "Описание",
+        "en": "She's a decisive manager.",
+        "ru": "Она решительный руководитель.",
+        "note": "Перед manager — описание: -ive."
+      },
+      {
+        "label": "Как",
+        "en": "She acted decisively.",
+        "ru": "Она действовала решительно.",
+        "note": "При действии — -ly."
+      }
+    ],
+    "focus": [
+      "decide",
+      "decision",
+      "decisive",
+      "decisively"
+    ],
+    "footnote": "Спроси себя: что стоит перед пустым местом — to, a, название вещи или действие?"
+  },
+  "sections": [
+    {
+      "title": "Почему нельзя сказать «I need a decide»",
+      "body": "Ты говоришь другу: «Мне нужно решить» и «Мне нужно решение». По-русски это два слова от одного корня: «решить» — действие, «решение» — вещь, о которой говорят. В английском так же: decide — действие, decision — вещь. Слова от одного корня называют семьёй слов.\n\nКакую форму взять, подсказывает место. После to, can, will, didn’t — действие: I need to decide. После a, the, my, this — вещь: a decision. Перед названием вещи или после is — описание: a useful app, the app is useful. Рядом с действием, чтобы сказать «как», — форма на -ly, её ты знаешь: explain clearly.\n\nТипичная ошибка — ставить знакомую форму на любое место: I need a decide, It was a success meeting. Правильно: a decision, a successful meeting."
+    },
+    {
+      "title": "Как из действия или описания сделать вещь",
+      "body": "Вещь делают окончанием — суффиксом, кусочком в конце слова. Из действия: -tion или -sion (inform → information, explain → explanation — объяснение, decide → decision) и -ment (improve → improvement — улучшение, agree → agreement — договорённость, pay → payment — оплата). Из описания: -ness и -ity (kind → kindness — доброта, happy → happiness, possible → possibility, responsible → responsibility — ответственность). Человека, который делает, называют -er или -or: teach → teacher, visit → visitor — посетитель.\n\nГде правило кончается: суффикс у слова свой, его не выбирают. Слов decidement и kindity нет. Корень иногда меняется: decide → decision, explain → explanation (без i). Новую форму проверяй в словаре."
+    },
+    {
+      "title": "Как сделать описание: -ful, -less, -able",
+      "body": "-ful значит «с этим», -less — «без этого»: use → useful (полезный) и useless (бесполезный), care → careful (осторожный) и careless (небрежный). -able — «можно»: rely (полагаться) → reliable (надёжный), afford (позволить себе) → affordable (по карману). Описание делают и -al, -ive: nature → natural, create → creative (творческий).\n\nГде правило кончается: пары -ful и -less есть не у всех слов. Helpless — «беспомощный», а «не помог» — unhelpful. И не каждое слово на -ly отвечает на «как»: friendly (дружелюбный), lovely (милый), lonely (одинокий) — это описания. He talked friendly — ошибка, правильно: He talked in a friendly way."
+    },
+    {
+      "title": "Как сказать «не-», «снова» и «неправильно»",
+      "body": "Приставка — кусочек в начале слова. Она меняет смысл, но не роль: happy и unhappy — оба описания.\n\n«Не-» дают несколько приставок: un- (unusual — необычный, unclear), dis- (disagree — не соглашаться, dishonest — нечестный), in- (incorrect). Перед p и m пишут im- (impossible, impolite — невежливый), перед l — il- (illegal — незаконный), перед r — ir- (irregular). Re- значит «снова»: rewrite — переписать. Mis- — «неправильно»: misunderstand — неправильно понять.\n\nГде правило кончается: какая приставка у слова, надо знать. Unpossible и inhappy — ошибки. И не каждое un- в начале — приставка: uncle, under."
+    },
+    {
+      "title": "Слово меняет роль — может сдвинуться ударение",
+      "body": "Из урока об ударении ты знаешь: PHO-to-graph, но pho-TOG-ra-pher. В семьях слов это бывает часто: pho-TOG-ra-phy, e-CON-o-my → ec-o-NOM-ic. У слов на -tion и -sion ударный слог стоит прямо перед окончанием: in-for-MA-tion, ex-pla-NA-tion, de-CI-sion. Окончания -ful, -less, -ment, -ness ударение не двигают: CARE-ful, im-PROVE-ment, KIND-ness.\n\nВ словаре у каждой формы есть помета: noun — вещь, verb — действие, adjective — описание, adverb — «как». Знак ˈ стоит перед ударным слогом. Учи новое слово сразу с семьёй и с этими пометами."
+    }
+  ],
+  "examples": [
+    {
+      "en": "We need to decide by Friday.",
+      "ru": "Нам нужно решить до пятницы.",
+      "why": "После to — действие decide."
+    },
+    {
+      "en": "We need a decision by Friday.",
+      "ru": "Нам нужно решение до пятницы.",
+      "why": "Тот же смысл, но после a нужна вещь: decision."
+    },
+    {
+      "en": "Thanks for the clear explanation.",
+      "ru": "Спасибо за понятное объяснение.",
+      "why": "Explain → explanation: буква i пропала, ударение на NA."
+    },
+    {
+      "en": "A good map is useful. A wrong map is useless.",
+      "ru": "Хорошая карта полезна. Неверная карта бесполезна.",
+      "why": "-ful — «с пользой», -less — «без пользы»."
+    },
+    {
+      "en": "Her kindness surprised everyone.",
+      "ru": "Её доброта всех удивила.",
+      "why": "Kind — описание, kindness — та же черта как вещь."
+    },
+    {
+      "en": "I'm sorry, but that's impossible.",
+      "ru": "Извини, но это невозможно.",
+      "why": "Possible начинается с p, поэтому im-, а не un-."
+    },
+    {
+      "en": "Our new neighbors are really friendly.",
+      "ru": "Наши новые соседи очень дружелюбные.",
+      "why": "Friendly — описание, хоть и кончается на -ly."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Соседка подробно объяснила тебе, как работает стиральная машина в доме, и помогла с первой стиркой. Напиши ей: «Спасибо за объяснение и за твою доброту!»",
+      "context": "explain — объяснять; kind — добрый.",
+      "guidance": {
+        "title": "После the и your — вещь",
+        "body": "После the, a, your нужна вещь. Из действия её делают -tion или -ment, из описания — -ness или -ity.",
+        "example": "Thanks for the invitation and for your honesty!",
+        "translation": "Спасибо за приглашение и за твою честность!"
+      },
+      "hint": "Начни так: Thanks for the expla… Какая буква из explain пропадает?",
+      "answers": [
+        "Thanks for the explanation and for your kindness!",
+        "Thank you for the explanation and for your kindness!",
+        "Thanks for the explanation and your kindness!",
+        "Thank you for the explanation and your kindness!",
+        "Thanks for the explanation and for your kindness."
+      ],
+      "explanation": "Explain → explanation (без i), kind → kindness. Оба слова стоят после the и your, поэтому нужны вещи, а не действие и описание."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг выбирает приложение для бега и спрашивает твоё мнение. Напиши: «Это приложение полезное, а то бесполезное: в нём нет карты».",
+      "context": "map — карта; то (приложение) — that one.",
+      "guidance": {
+        "title": "-ful — «с», -less — «без»",
+        "body": "Из вещи получается описание: -ful — «с этим», -less — «без этого». Описание стоит после is или перед названием вещи.",
+        "example": "Be careful: the floor is wet. Don't be careless.",
+        "translation": "Осторожно: пол мокрый. Не будь небрежным."
+      },
+      "hint": "Начни так: This app is use… Какое окончание значит «без»?",
+      "answers": [
+        "This app is useful, but that one is useless: it doesn't have a map.",
+        "This app is useful, but that one is useless. It doesn't have a map.",
+        "This app is useful, but that one is useless: there's no map.",
+        "This app is useful, but that one is useless. There's no map in it.",
+        "This app is useful, but that one is useless because it doesn't have a map."
+      ],
+      "explanation": "Use + -ful = useful, use + -less = useless. That one заменяет повтор слова app. It doesn't have a map и there's no map — оба верны."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В рабочем чате начальник предлагает закончить проект к пятнице. Ответь: «Я не согласен. По-моему, к пятнице это невозможно, и такой срок нечестный».",
+      "context": "fair — честный, справедливый; deadline — срок.",
+      "guidance": {
+        "title": "«Не-» — приставка в начале слова",
+        "body": "«Не-» дают un-, dis-, in-, а перед p и m — im-. Приставка принадлежит слову: какую взять, надо знать, а не угадывать.",
+        "example": "The instructions are unclear, and the price is incorrect.",
+        "translation": "Инструкция непонятная, а цена неверная."
+      },
+      "hint": "Начни так: I dis… Перед possible — un- или im-?",
+      "answers": [
+        "I disagree. I think it's impossible by Friday, and the deadline is unfair.",
+        "I disagree. I think it's impossible by Friday, and that deadline is unfair.",
+        "I disagree. In my opinion, it's impossible by Friday, and the deadline is unfair.",
+        "I disagree. I think it's impossible to finish by Friday, and the deadline is unfair.",
+        "I don't agree. I think it's impossible by Friday, and the deadline is unfair.",
+        "I disagree. I think it is impossible by Friday, and the deadline is unfair."
+      ],
+      "explanation": "Disagree — «не соглашаться», impossible — im- перед p, unfair — un- перед fair. I don't agree тоже верно."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, как прошла твоя первая презентация на работе. Ответь тремя фразами от одного корня success: «Это был успех. Презентация была успешной. Мы успешно закончили проект».",
+      "context": "success — успех.",
+      "guidance": {
+        "title": "Одна семья — три места",
+        "body": "После a — вещь, после was без вещи — описание, при действии — форма на -ly. Корень один, окончания разные.",
+        "example": "Creativity matters in my job. I'm a creative person, and I solve problems creatively.",
+        "translation": "В моей работе важна творческая жилка. Я творческий человек и решаю задачи нестандартно."
+      },
+      "hint": "Во второй фразе после was нет вещи. Значит, нужна вещь, описание или «как»?",
+      "answers": [
+        "It was a success. The presentation was successful. We finished the project successfully.",
+        "It was a success. The presentation was successful. We successfully finished the project.",
+        "It was a success. The presentation was successful. We completed the project successfully.",
+        "It was a big success. The presentation was successful. We finished the project successfully."
+      ],
+      "explanation": "A success — вещь, successful — описание после was, successfully — «как» закончили. We successfully finished тоже верно: -ly может стоять перед действием."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега просит проверить сообщение перед отправкой. В нём три неверные формы слова. Исправь и напиши сообщение целиком: “Hi Kate! Thanks for your help yesterday. Your explain was very use, and now the problem is clear. I had a really success day!”",
+      "context": "",
+      "guidance": {
+        "title": "Найди слово не на своём месте",
+        "body": "Здесь ошибки не во времени, а в форме слова. Около каждого слова спроси: тут нужна вещь, описание или действие?",
+        "example": "He gave me a very helpful answer.",
+        "translation": "Он дал мне очень полезный ответ. (Не a very help answer.)"
+      },
+      "hint": "Ошибок три. Clear стоит правильно: после is — описание.",
+      "answers": [
+        "Hi Kate! Thanks for your help yesterday. Your explanation was very useful, and now the problem is clear. I had a really successful day!",
+        "Hi Kate! Thank you for your help yesterday. Your explanation was very useful, and now the problem is clear. I had a really successful day!"
+      ],
+      "explanation": "После your — вещь: explanation. После very — описание: useful. Перед day — тоже описание: successful. Help после your — вещь, у неё та же форма, что у действия."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга спрашивает, как тебе новый курс английского. Ответь: «Курс очень интересный: преподаватель объясняет всё понятно и терпеливо. Мне никогда не скучно».",
+      "context": "patient — терпеливый.",
+      "guidance": {
+        "title": "Вспоминаем: -ly и -ed/-ing",
+        "body": "Вспоминаем: -ly делает из описания «как»: clear → clearly. -ing говорит, каким кажется предмет (boring), -ed — что чувствует человек (bored).",
+        "example": "The game was exciting: our team played calmly and carefully.",
+        "translation": "Игра была захватывающей: наша команда играла спокойно и аккуратно."
+      },
+      "hint": "Курс — interesting или interested? А «мне скучно» — это про тебя или про курс?",
+      "answers": [
+        "The course is very interesting: the teacher explains everything clearly and patiently. I'm never bored.",
+        "The course is very interesting. The teacher explains everything clearly and patiently. I'm never bored.",
+        "The course is very interesting: the teacher explains everything clearly and patiently. I never get bored.",
+        "The course is really interesting: the teacher explains everything clearly and patiently. I'm never bored.",
+        "The class is very interesting: the teacher explains everything clearly and patiently. I'm never bored."
+      ],
+      "explanation": "Interesting — каким кажется курс, bored — что чувствуешь ты. Clearly и patiently отвечают на «как объясняет». I never get bored тоже верно."
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Новый знакомый спрашивает о твоём хобби. Скажи вслух: «Я фотограф-любитель. Фотография — моё хобби уже десять лет. Больше всего я люблю фотографировать природу». Следи за ударением в каждом слове семьи photo.",
+      "context": "amateur — любитель; nature — природа.",
+      "guidance": {
+        "title": "Вспоминаем ударение: в семье оно переезжает",
+        "body": "Вспоминаем ударение: PHO-to-graph, но pho-TOG-ra-pher и pho-TOG-ra-phy. Ударный слог длиннее и громче, остальные короткие.",
+        "example": "The economy is growing, but there are still economic problems.",
+        "translation": "Экономика растёт, но экономические проблемы остаются. (e-CON-o-my, ec-o-NOM-ic)"
+      },
+      "hint": "Проверь себя: в photographer и photography ударение на втором слоге — TOG.",
+      "answers": [
+        "I'm an amateur photographer. Photography has been my hobby for ten years. I love taking photographs of nature most of all.",
+        "I'm an amateur photographer. Photography has been my hobby for ten years. Most of all, I love taking pictures of nature."
+      ],
+      "explanation": "Засчитывается, если сказаны три фразы с photographer, photography и photographs или pictures. Распознавание речи проверяет слова, а не ударение: сравни свою запись с образцом на слогах TOG и PHO."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг Мэтт пишет: “Is your gym any good? I'm thinking about joining.” Ответь ему (60–120 слов). В ответе: две сильные стороны — описания на -ful, -able или -ive; один минус со словом на un-, dis-, in- или im-; одно улучшение, которое ты заметил (improvement или другое слово на -ment, -tion, -ness); одно действие с -ly; совет, что ему сделать.",
+      "context": "join — записаться; locker room — раздевалка.",
+      "hint": "План: Good question! → что хорошо → что плохо → что изменилось у тебя → My advice: …",
+      "answers": [
+        "Hi Matt! Good question. I've been going to FitLife for six months, and I really like it. The trainers are helpful and friendly, and the price is affordable: only $30 a month. One thing is unpleasant: the locker room is often crowded and a little dirty. Still, I've seen a real improvement in my health. I sleep better, and I work out more regularly. My advice: try a free class first and decide carefully. I think you'll enjoy it!"
+      ],
+      "explanation": "Засчитывается, если есть две сильные стороны (-ful, -able, -ive), минус с приставкой «не-», вещь на -ment, -tion или -ness, действие с -ly и совет. Каждое слово должно стоять на своём месте: после a/the — вещь, после is — описание."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "В разговорном клубе тема — «Перемена, которой я горжусь». Расскажи 30–60 секунд: какое решение ты принял (decision); что сначала казалось трудным или невозможным; какое улучшение ты заметил; какая твоя черта помогла (patience, responsibility, kindness или другая вещь на -ness, -ity); одно действие с -ly.",
+      "context": "proud of — горжусь; patience — терпение.",
+      "hint": "Начни так: Two years ago, I made a decision to … At first, it seemed impossible because …",
+      "answers": [
+        "Two years ago, I made a decision to stop eating fast food. At first, it seemed impossible because I was always busy and tired. I started slowly: I cooked simple meals on the weekend. Now I see a big improvement. I have more energy, and I've lost some weight. I think patience helped me most. I didn't try to change everything at once."
+      ],
+      "explanation": "Засчитывается, если есть decision, слово с приставкой «не-», improvement или другая вещь на -ment, черта на -ness или -ity и действие с -ly. Послушай запись: в decision ударение на CI."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега Ана просит проверить письмо клиенту. В нём пять неверных форм слова. Исправь и напиши письмо целиком: “Hi Tom, thanks for the quick reply. I read your suggest careful, and I think it's a really help idea. The only problem is the price: it's not very clearly. We need a final decide by Friday. Best, Ana”",
+      "context": "suggest — предлагать.",
+      "hint": "Для каждого слова спроси, что стоит перед ним: your, read, really, very, final.",
+      "answers": [
+        "Hi Tom, thanks for the quick reply. I read your suggestion carefully, and I think it's a really helpful idea. The only problem is the price: it's not very clear. We need a final decision by Friday. Best, Ana",
+        "Hi Tom, thanks for the quick reply. I read your suggestion carefully, and I think it's a really helpful idea. The only problem is the price. It's not very clear. We need a final decision by Friday. Best, Ana"
+      ],
+      "explanation": "Засчитывается, если исправлены пять мест: suggestion (после your — вещь), carefully («как» прочитала), helpful (перед idea — описание), clear (после is — описание), decision (после final — вещь)."
+    }
+  ]
+}

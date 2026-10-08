@@ -1,0 +1,323 @@
+{
+  "id": "path-future-perfect-continuous",
+  "title": "В июне будет десять лет: will have been + -ing",
+  "subtitle": "Сколько накопится к дате → длина или результат → когда сказать проще → расскажи сам",
+  "level": "B2",
+  "group": "Времена",
+  "units": "Авторский маршрут · B2",
+  "minutes": 50,
+  "goal": "Сказать, сколько что-то будет длиться к моменту в будущем: «В июне будет десять лет, как я здесь работаю», «Когда мы приедем, мы будем в дороге уже девять часов». И понять, когда хватает формы попроще.",
+  "formula": "In June, I'll have been working here for ten years. → By the time we land, we'll have been flying for fourteen hours.",
+  "keyRule": {
+    "rule": "Считаешь, сколько что-то будет длиться к моменту в будущем, — will have been + -ing.",
+    "example": "In June, I'll have been working here for ten years — в июне будет десять лет, как я здесь работаю.",
+    "check": "Считаешь готовые вещи — без been и -ing: I'll have written ten pages."
+  },
+  "guided": true,
+  "introSections": 4,
+  "prerequisites": [
+    "path-future-perfect",
+    "path-past-perfect-continuous"
+  ],
+  "recycles": [
+    "path-future-perfect",
+    "path-future-continuous",
+    "path-past-perfect-continuous"
+  ],
+  "teaches": [
+    "will have been + -ing — сколько что-то будет длиться к моменту в будущем: In June, I'll have been working here for ten years",
+    "три точки отсчёта: have been + -ing (до сейчас), had been + -ing (до момента в прошлом), will have been + -ing (до момента в будущем)",
+    "форма одна для всех: will have been (не will has, не being); I'll have been",
+    "by the time / when + настоящее время; следствие: …, so we'll be exhausted",
+    "will have been reading for a month (длина) ↔ will have read 300 pages (результат)",
+    "состояния без -ing: will have known, will have been married; live и work — обе формы",
+    "will be + -ing — что будет идти в момент, без длины: At noon, I'll be driving",
+    "разговорно о годовщине: It'll be ten years in June / it'll be ten years since I started"
+  ],
+  "sources": [
+    {
+      "title": "Инглекс · Future Perfect Continuous Tense",
+      "url": "https://englex.ru/future-perfect-continuous-tense/",
+      "notes": "Объяснение для русскоговорящих: длительность к будущему моменту, перевод «к моменту… будет N лет, как…», настоящее время после by the time и when, форма употребляется редко, отличие от future perfect (длительность или результат), состояния."
+    },
+    {
+      "title": "Perfect English Grammar · Future Perfect Continuous: use",
+      "url": "https://www.perfect-english-grammar.com/future-perfect-continuous-use.html",
+      "notes": "Сверены два употребления: длина с for до будущего момента и занятие, которое оставит след (I'll have been studying, so I'll be tired); замечание, что форму любят для круглых чисел и годовщин."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Поход: что идёт, сколько идёт, сколько пройдено",
+    "why": "Момент — пять часов вечера. Will be + -ing — что будет идти в этот момент. Will have been + -ing — сколько это уже будет длиться. Will have + третья форма — сколько будет готово.",
+    "items": [
+      {
+        "label": "Идёт в момент",
+        "en": "At five, we'll be hiking.",
+        "ru": "В пять мы будем идти по тропе.",
+        "note": "Без длины: просто что будет идти."
+      },
+      {
+        "label": "Сколько накопится",
+        "en": "By five, we'll have been hiking for six hours.",
+        "ru": "К пяти мы будем в пути уже шесть часов.",
+        "note": "Длину считаем до пяти."
+      },
+      {
+        "label": "Что будет готово",
+        "en": "By five, we'll have hiked twelve miles.",
+        "ru": "К пяти мы пройдём двенадцать миль.",
+        "note": "Результат — число миль. Миля — около 1,6 км."
+      }
+    ],
+    "focus": [
+      "will be hiking",
+      "will have been hiking",
+      "will have hiked"
+    ],
+    "footnote": "Hike — идти пешком по тропе, в поход."
+  },
+  "sections": [
+    {
+      "title": "«В июне будет десять лет, как я здесь работаю»",
+      "body": "Подруга спрашивает, давно ли ты в своей компании. Ты считаешь: «В июне будет десять лет». Работа началась раньше, идёт сейчас и будет идти в июне. Ты считаешь её длину до момента в будущем.\n\nПо-английски: In June, I’ll have been working here for ten years. Это форма will have been + -ing, её называют future perfect continuous. Две её соседки ты уже знаешь: I’ve been working — длина до сейчас, I had been working — до момента в прошлом. Здесь — до момента в будущем.\n\nПо-русски это говорят по-разному: «в июне будет десять лет, как я работаю» или «к июню я буду работать здесь уже десять лет».\n\nЭту форму берут в основном для круглых чисел и годовщин. В обычном разговоре она звучит нечасто."
+    },
+    {
+      "title": "Как собрать: will have been + -ing",
+      "body": "Четыре части, одинаковые для всех: will have been working. Have не меняется на has, been — не на being. В речи — I’ll have been, she’ll have been.\n\nСрок называют как в прошлом уроке: by, by the time, in June. После by the time и when — настоящее время: By the time we get to Denver, we’ll have been driving for eight hours — когда доедем до Денвера, мы будем в пути уже восемь часов.\n\nЧастые ошибки: will has been, will been working (потерян have), will have been work (нет -ing)."
+    },
+    {
+      "title": "Сколько длилось — или сколько готово",
+      "body": "Как и в других формах с have, -ing говорит о длине занятия, а третья форма — о результате. By Sunday, I’ll have been reading this book for a month — к воскресенью я буду читать её уже месяц. By Sunday, I’ll have read 300 pages — к воскресенью я прочитаю 300 страниц. Время — с been и -ing, число готовых вещей — без них.\n\nСостояния и здесь без -ing: In May, I’ll have known Sam for twenty years — в мае будет двадцать лет, как я знаю Сэма. В we’ll have been married been значит «быть», поэтому -ing нет. У live и work подходят обе формы: I’ll have lived here и I’ll have been living here for ten years."
+    },
+    {
+      "title": "Что из этого следует — и когда сказать проще",
+      "body": "Форму часто берут, чтобы объяснить, каким ты будешь в тот момент: By the time we land, we’ll have been flying for fourteen hours, so we’ll be exhausted — к посадке мы будем лететь уже четырнадцать часов, так что будем без сил.\n\nЕсли длина не важна и ты говоришь только, что будет идти в момент, хватает will be + -ing: At noon, I’ll be driving — в полдень я буду за рулём.\n\nО годовщинах американцы часто говорят проще: It’ll be ten years in June — в июне будет десять лет. Или: In June, it’ll be ten years since I started here. Это тоже верно. Will have been + -ing нужен, когда хочешь назвать само занятие и его длину."
+    }
+  ],
+  "examples": [
+    {
+      "en": "In June, I'll have been working here for ten years.",
+      "ru": "В июне будет десять лет, как я здесь работаю.",
+      "why": "Работа идёт и сейчас; длину считаем до июня."
+    },
+    {
+      "en": "By the time we get to Denver, we'll have been driving for eight hours.",
+      "ru": "Когда мы доедем до Денвера, мы будем в пути уже восемь часов.",
+      "why": "После by the time — get, без will."
+    },
+    {
+      "en": "At noon, I'll be driving.",
+      "ru": "В полдень я буду за рулём.",
+      "why": "Длины нет — только что будет идти в момент: will be + -ing."
+    },
+    {
+      "en": "By Sunday, I'll have been reading this book for a month, but I'll have read only half of it.",
+      "ru": "К воскресенью я буду читать эту книгу уже месяц, но прочитаю только половину.",
+      "why": "Месяц — длина занятия; половина книги — готовый результат."
+    },
+    {
+      "en": "In May, I'll have known Sam for twenty years.",
+      "ru": "В мае будет двадцать лет, как я знаю Сэма.",
+      "why": "Know — состояние, поэтому без been и -ing."
+    },
+    {
+      "en": "It'll be ten years in June.",
+      "ru": "В июне будет десять лет.",
+      "why": "Простой разговорный способ сказать о годовщине."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На встрече с новой командой ты рассказываешь о себе. Скажи: «В сентябре будет три года, как я работаю в этой компании».",
+      "context": "",
+      "guidance": {
+        "title": "Длина к дате в будущем: will have been + -ing",
+        "body": "Дату ставь в начало: In September или By September. Потом will have been + -ing и for с длиной.",
+        "example": "In May, she'll have been teaching for twenty years.",
+        "translation": "В мае будет двадцать лет, как она преподаёт."
+      },
+      "hint": "Начни так: In September, I'll have …",
+      "answers": [
+        "In September, I'll have been working at this company for three years.",
+        "In September, I will have been working at this company for three years.",
+        "In September, I'll have been working for this company for three years.",
+        "By September, I'll have been working at this company for three years.",
+        "By September, I'll have been working for this company for three years.",
+        "I'll have been working at this company for three years in September.",
+        "In September, I'll have worked at this company for three years.",
+        "In September, I'll have worked for this company for three years.",
+        "In September, it'll be three years since I started working at this company."
+      ],
+      "explanation": "Работа идёт и сейчас, а длину считаем до сентября: will have been working. С work подходит и will have worked. At this company и for this company — оба варианта естественны."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с друзьями едете на машине из Чикаго в Нэшвилл. Напиши тем, кто ждёт вас в Нэшвилле: «Когда мы приедем, мы будем в дороге уже девять часов, так что мы будем очень уставшими».",
+      "context": "drive — ехать на машине; get there — добраться туда.",
+      "guidance": {
+        "title": "Что из этого следует: …, so we'll be…",
+        "body": "Сначала длина к моменту: will have been + -ing. Потом через so — каким ты будешь в этот момент: will be + слово-состояние.",
+        "example": "By the end of the shift, the nurses will have been working for twelve hours, so they'll be hungry.",
+        "translation": "К концу смены медсёстры будут работать уже двенадцать часов, так что будут голодными."
+      },
+      "hint": "Начни так: By the time we get there, … — помнишь, почему здесь get, а не will get?",
+      "answers": [
+        "By the time we get there, we'll have been driving for nine hours, so we'll be really tired.",
+        "By the time we get there, we'll have been driving for nine hours, so we'll be very tired.",
+        "By the time we get there, we will have been driving for nine hours, so we will be very tired.",
+        "By the time we get there, we'll have been driving for nine hours, so we'll be exhausted.",
+        "By the time we get to Nashville, we'll have been driving for nine hours, so we'll be really tired.",
+        "By the time we arrive, we'll have been driving for nine hours, so we'll be really tired.",
+        "When we get there, we'll have been driving for nine hours, so we'll be really tired.",
+        "By the time we get there, we'll have been on the road for nine hours, so we'll be really tired."
+      ],
+      "explanation": "Get there — настоящее время после by the time. Девять часов — длина до приезда: will have been driving. Усталость — следствие: so we’ll be tired; exhausted тоже подходит."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем will have + третья форма. Друг спрашивает, как продвигается твоя дипломная работа. Ответь: «К концу месяца я буду писать её уже полгода. Но напишу только две главы».",
+      "context": "thesis — дипломная работа; chapter — глава; six months — полгода.",
+      "guidance": {
+        "title": "Вспоминаем will have + третья форма: длина или результат",
+        "body": "Сколько будет длиться — will have been + -ing. Сколько будет готово — will have + третья форма, без been и -ing.",
+        "example": "By June, I'll have been saving for a year. I'll have saved $3,000.",
+        "translation": "К июню я буду копить уже год. Я накоплю 3000 долларов."
+      },
+      "hint": "В какой фразе время, а в какой — число готовых глав?",
+      "answers": [
+        "By the end of the month, I'll have been writing it for six months. But I'll have written only two chapters.",
+        "By the end of the month, I'll have been writing it for six months. But I'll only have written two chapters.",
+        "By the end of the month, I'll have been writing it for six months, but I'll have written only two chapters.",
+        "By the end of the month, I'll have been writing it for six months, but I'll only have written two chapters.",
+        "By the end of the month, I'll have been writing it for six months, but I'll have only written two chapters.",
+        "By the end of the month, I will have been writing it for six months. But I will have written only two chapters.",
+        "By the end of the month, I'll have been writing my thesis for six months, but I'll have written only two chapters."
+      ],
+      "explanation": "Полгода — длина занятия: will have been writing. Две главы — готовый результат: will have written. Only можно поставить перед written или после I’ll."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "У твоих родителей в июле годовщина свадьбы. Расскажи другу: «В июле будет тридцать лет, как они женаты. А знакомы они будут уже тридцать пять лет».",
+      "context": "be married — быть женатыми; know each other — быть знакомыми.",
+      "guidance": {
+        "title": "Состояния — без -ing",
+        "body": "Be, know, have, own — не занятия. С ними к дате в будущем — will have + третья форма: will have been, will have known.",
+        "example": "By December, I'll have had this car for ten years.",
+        "translation": "В декабре будет десять лет, как у меня эта машина."
+      },
+      "hint": "Married — это состояние. Что после will have — been или being?",
+      "answers": [
+        "In July, they'll have been married for thirty years. And they'll have known each other for thirty-five years.",
+        "In July, they'll have been married for thirty years, and they'll have known each other for thirty-five years.",
+        "In July, they will have been married for thirty years. And they will have known each other for thirty-five years.",
+        "In July, they'll have been married for thirty years. They'll have known each other for thirty-five years.",
+        "By July, they'll have been married for thirty years, and they'll have known each other for thirty-five years.",
+        "In July, they'll have been married for thirty years, and they'll have known each other for thirty-five.",
+        "In July, they'll have been married for 30 years, and they'll have known each other for 35 years."
+      ],
+      "explanation": "В been married been — сам глагол «быть», поэтому без -ing. Know — состояние: will have known, а не will have been knowing."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем will be + -ing. Коллега хочет позвонить тебе завтра в пять. Ответь: «В пять я ещё буду ехать домой. К тому времени я буду за рулём уже два часа».",
+      "context": "drive home — ехать домой на машине; still — ещё, всё ещё.",
+      "guidance": {
+        "title": "Вспоминаем will be + -ing: идёт — или сколько уже идёт",
+        "body": "Will be + -ing — что будет идти в момент. Will have been + -ing — сколько это будет идти к этому моменту.",
+        "example": "At ten, I'll still be studying. By then, I'll have been studying for five hours.",
+        "translation": "В десять я ещё буду заниматься. К тому времени я буду заниматься уже пять часов."
+      },
+      "hint": "В какой фразе есть длина — два часа? Только туда ставь have been.",
+      "answers": [
+        "At five, I'll still be driving home. By then, I'll have been driving for two hours.",
+        "At five, I will still be driving home. By then, I will have been driving for two hours.",
+        "At five, I'll still be driving home. By then, I'll have been driving for two hours already.",
+        "At 5, I'll still be driving home. By then, I'll have been driving for two hours.",
+        "At five, I'll still be driving home, and by then I'll have been driving for two hours.",
+        "At five, I'll still be driving home. By that time, I'll have been driving for two hours."
+      ],
+      "explanation": "Первая фраза — что будет идти в пять: will be driving. Во второй есть длина до этого момента: will have been driving. By that time тоже подходит."
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет тебе: “Guess what? By the time you will come back from vacation, I will has been working here for five years. And next month, I will have been knowing my boss for ten years!” Найди три ошибки и напиши сообщение целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Ищем ошибку: три места",
+        "body": "Проверь: нет ли will после by the time, have или has стоит после will и нет ли -ing у состояния.",
+        "example": "By the time you read this, I'll have been flying for six hours.",
+        "translation": "Когда ты это прочитаешь, я буду в полёте уже шесть часов."
+      },
+      "hint": "Сколько раз в тексте will? Одно из них лишнее.",
+      "answers": [
+        "Guess what? By the time you come back from vacation, I will have been working here for five years. And next month, I will have known my boss for ten years!",
+        "Guess what? By the time you come back from vacation, I'll have been working here for five years. And next month, I'll have known my boss for ten years!",
+        "Guess what? By the time you get back from vacation, I'll have been working here for five years. And next month, I'll have known my boss for ten years!",
+        "Guess what? By the time you come back from vacation, I'll have worked here for five years. And next month, I'll have known my boss for ten years!"
+      ],
+      "explanation": "Засчитывается, если исправлены три места: you come back без will, will have вместо will has, will have known вместо will have been knowing."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем had been + -ing. Новый знакомый спрашивает, давно ли ты учишь английский. Ответь тремя фразами: «Я учу английский уже два года. Когда я начал работать в американской компании, я учил его уже год. А через год я буду учить его уже три года».",
+      "context": "a year from now — через год.",
+      "guidance": {
+        "title": "Вспоминаем had been + -ing: до сейчас, до тогда, до потом",
+        "body": "Длина одна, точки разные: have been — до сейчас, had been — до момента в прошлом, will have been — до момента в будущем.",
+        "example": "She's been dancing for ten years. When we met, she had been dancing for five. By 2030, she'll have been dancing for fourteen.",
+        "translation": "Она танцует уже десять лет. Когда мы познакомились, она танцевала уже пять. К 2030 году она будет танцевать уже четырнадцать."
+      },
+      "hint": "Найди в каждой фразе точку, до которой считаешь: сейчас, тогда или потом.",
+      "answers": [
+        "I've been learning English for two years. When I started working at an American company, I had been learning it for a year. A year from now, I'll have been learning it for three years.",
+        "I have been learning English for two years. When I started working at an American company, I had been learning it for a year. A year from now, I will have been learning it for three years.",
+        "I've been learning English for two years. When I started working at an American company, I'd been learning it for a year. A year from now, I'll have been learning it for three years.",
+        "I've been learning English for two years. When I started working for an American company, I had been learning it for a year. A year from now, I'll have been learning it for three years.",
+        "I've been learning English for two years. When I started working at an American company, I had been learning it for a year. In a year, I'll have been learning it for three years.",
+        "I've been learning English for two years. When I started working at an American company, I had been learning it for a year. This time next year, I'll have been learning it for three years.",
+        "I've been studying English for two years. When I started working at an American company, I had been studying it for a year. A year from now, I'll have been studying it for three years."
+      ],
+      "explanation": "До сейчас — have been learning, до начала работы в прошлом — had been learning, до момента через год — will have been learning. In a year и this time next year тоже верны."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Американская подруга Эшли спрашивает: “How's your marathon training going? The race is in May, right?” Ответь ей (100–180 слов). В письме: сколько ты будешь тренироваться ко дню забега (will have been + -ing); сколько миль пробежишь к тому времени всего (will have + третья форма); каким ты будешь на финише и почему (By the time I finish, I'll have been running for…, so…); чем будешь занят в какой-то момент забега (will be + -ing); пригласи её прийти.",
+      "context": "train — тренироваться; race — забег; mile — миля (около 1,6 км); finish line — финиш; cheer for somebody — болеть за кого-то.",
+      "hint": "План: It's going well! → By race day, I'll have been training for… → I'll have run… miles → By the time I cross the finish line, … so … → At around 11 a.m., I'll be… → Can you come…?",
+      "answers": [
+        "Hi Ashley,\n\nIt's going well, thanks for asking! The race is on May 17, and by then I'll have been training for eight months. I started last September with short runs, and now I run five days a week. By race day, I'll have run more than 500 miles in total, which sounds crazy to me. My running partner, Kate, and I will run the race together. Our goal is to finish in under five hours. By the time we cross the finish line, we'll have been running for about four and a half hours, so I'll be exhausted and very hungry. At around 11 a.m., we'll probably be running along the lake, so that's a great place to watch. Can you come and cheer for us? I'll buy you lunch after!\n\nTalk soon,\nMax"
+      ],
+      "explanation": "Засчитывается, если есть длина тренировок ко дню забега с will have been + -ing, общий результат с will have + третья форма, следствие через so, процесс в момент забега с will be + -ing и приглашение. После by the time — настоящее время."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "В разговорном клубе тема — «Важная дата впереди». Расскажи вслух, 1–2 минуты, о дате через несколько месяцев или лет: годовщина работы, учёбы, жизни в городе, дружбы. Скажи: сколько это будет длиться к той дате (will have been + -ing); что к ней уже будет сделано (will have + третья форма); одно состояние без -ing (will have known / had / been); каким ты будешь в тот момент или что почувствуешь; как отметишь этот день.",
+      "context": "anniversary — годовщина; celebrate — отметить; settled — освоившийся, как дома.",
+      "hint": "Начни так: Next …, I'll have been … for …",
+      "answers": [
+        "Next March is an important date for me. In March, I'll have been living in Austin for five years. I moved here from a small town, and at first I didn't know anybody. By then, I'll have changed apartments three times, and I'll have tried almost every taco place in the city, I think! I'll have known my best friend here, Maria, for almost five years too, because we met in my first week. We were neighbors. By the time March comes, I'll have been working at the same company for four years, so I'll feel really settled. I'm going to celebrate with a small party on my roof, and I'll invite all the people who helped me in my first year. It's funny: five years ago, I was scared, and now this city feels like home."
+      ],
+      "explanation": "Засчитывается, если есть длина к дате с will have been + -ing, результат с will have + третья форма, одно состояние без -ing, чувство или следствие и план, как отметить. Проверь по записи: been и -ing стоят только там, где ты считаешь время."
+    }
+  ]
+}

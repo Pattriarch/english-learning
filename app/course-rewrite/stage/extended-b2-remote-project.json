@@ -1,0 +1,328 @@
+{
+  "id": "extended-b2-remote-project",
+  "title": "Команда на связи: сбой на видеозвонке и миссия проекта",
+  "subtitle": "Сказать, что не работает → переспросить пропущенную часть → кому, что и как: миссия → граница вместо обещания → новая версия после нового условия",
+  "level": "B2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Не потерять смысл на видеозвонке: «Похоже, у тебя выключен микрофон», «Я не расслышал, что нельзя включать, — повтори эту часть». И написать короткую миссию проекта: кому вы помогаете, что человек сможет делать и как — без громких обещаний.",
+  "formula": "I can see you, but I can't hear you → You seem to be on mute → Your video froze / You're breaking up / There's a lag → I heard…, but I missed… Could you repeat that part? → [Project] helps [кому] [что делать] through [как] → Volunteers…; they don't… → I'll revise the draft and send it to you before we publish it",
+  "keyRule": {
+    "rule": "Миссия проекта: кому вы помогаете, что человек сможет делать и как. Без обещаний результата.",
+    "example": "We help adult residents practice online tasks through free weekly sessions. — Мы помогаем взрослым жителям осваивать дела в интернете на бесплатных занятиях раз в неделю.",
+    "check": "“We change lives” — понятно, кому вы помогаете и как? Нет. Значит, это ещё не миссия."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-repair-conversation",
+    "path-polite-questions",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-repair-conversation",
+    "path-polite-questions"
+  ],
+  "teaches": [
+    "сбой: I can see you, but I can't hear you; You seem to be on mute; Could you unmute yourself? Can you hear me now?",
+    "mute / unmute — микрофон; turn the volume up — громкость у себя",
+    "Your video froze; You're breaking up; There's a lag → Let's take turns; I think we lost you for a second",
+    "экран: share your screen; I can see your desktop, but not the document",
+    "переспросить кусок: I heard…, but I missed the part about… Could you repeat that part?",
+    "миссия: [project] helps [кому] [что делать] through [как]; после help — действие без to",
+    "граница вместо обещания: Volunteers explain the steps; they don't…; helps ≠ guarantees; free sessions ≠ free devices",
+    "миссия ≠ объявление (notice) с датами и записью",
+    "статус текста: draft, submitted, approved; I'll revise the draft and send it to you before we publish it"
+  ],
+  "sources": [
+    {
+      "title": "Llexi · English Phrases for Online Meetings (Zoom, Teams)",
+      "url": "https://llexi.com/business-english/english-phrases-online-meetings-zoom-teams.html",
+      "notes": "Сверены фразы рабочего видеозвонка: Sorry, you are on mute; You are breaking up — could you say that again?; I think we lost you for a second; screen share как глагол и существительное."
+    },
+    {
+      "title": "Engoo Blog · Vocabulary for internet and connection problems",
+      "url": "https://engoo.com/blog/?p=1265",
+      "notes": "Сверены значения: breaking up — звук приходит кусками, lag — задержка соединения, video keeps freezing — картинка застывает, we lost Jane — человек выпал из звонка, got disconnected — отключился."
+    },
+    {
+      "title": "BiddingOwl · How to Write a Mission Statement for Your Nonprofit",
+      "url": "https://biddingowl.com/en-us/learning-center/how-to-write-mission-statement-for-nonprofit",
+      "notes": "Сверено: миссия коротко отвечает, что вы делаете, кому помогаете и зачем; «help people» слишком общо — нужно назвать группу и конкретные действия; услуги группируют под одну цель, а не перечисляют всё."
+    }
+  ],
+  "sections": [
+    {
+      "title": "На звонке что-то не работает: скажи, что видишь",
+      "body": "Ты на видеозвонке с командой. Сэм говорит, губы двигаются, а звука нет. Скажи, что видишь и слышишь: I can see you, but I can't hear you — «я тебя вижу, но не слышу». Потом вероятную причину: You seem to be on mute — «похоже, у тебя выключен микрофон». Seem to be — «похоже»: чужой компьютер ты не видишь и не утверждаешь наверняка. Среди своих короче: You're on mute.\n\nMute — выключить микрофон, unmute — включить. Это не громкость: turn the volume up — сделать громче у себя, чужой микрофон это не включит. Попроси: Could you unmute yourself? Потом проверь: Can you hear me now? — «теперь слышно?»"
+    },
+    {
+      "title": "Застыло, прерывается, с задержкой, не тот экран",
+      "body": "Your video froze — «у тебя застыло видео»: картинка стоит. Голос при этом может быть слышен, поэтому звук проверь отдельно. You're breaking up — «ты прерываешься»: слышны куски фраз. There's a lag — «есть задержка»: звук приходит позже. Из-за неё люди перебивают друг друга, хотя не хотят. Помогает Let's take turns — «давайте по очереди».\n\nShare your screen — показать свой экран. Если видно не то: I can see your desktop, but not the document — «вижу твой рабочий стол, но не документ». I think we lost you for a second — «кажется, ты на секунду пропал»."
+    },
+    {
+      "title": "Пропустил часть — проси повторить только её",
+      "body": "Из урока о разговоре ты знаешь Sorry, did you say…? и Could you say that again? На звонке связь часто съедает кусок фразы. Всё заново просить не нужно. Скажи, что ты услышал и где оборвалось: I heard the part about the room, but I missed what you said about devices. Could you repeat that part?\n\nНе кивай и не додумывай. Если пропустил условие, а потом пишешь итог «по памяти», в записи окажется выдумка. После повтора закрепи: So, just to confirm: … — тоже из урока о разговоре.\n\nЕсли не расслышали тебя, повтори мысль короче и проверь: My question was whether… Does that make sense now?"
+    },
+    {
+      "title": "Миссия: кому, что и как",
+      "body": "Mission statement — миссия проекта: одна-три фразы о том, зачем он существует. В ней три части. Кому вы помогаете: adult residents — взрослые жители. Что человек сможет делать: practice everyday online tasks — осваивать повседневные дела в интернете. Как: through free weekly sessions — на бесплатных занятиях раз в неделю. Вместе: Neighbor Link helps adult residents practice everyday online tasks through free weekly sessions.\n\nПосле help — человек и действие без to: helps residents practice. С to тоже верно, но без него звучит обычнее.\n\n“We change lives” — не миссия: непонятно, кому и как. Дата, кабинет и запись — тоже не миссия. Это объявление (notice), его пишут отдельно."
+    },
+    {
+      "title": "Граница вместо обещания и новая версия",
+      "body": "Добавь одну границу, которая важна читателю: Volunteers explain the steps; they don't fill in forms for you — «волонтёры объясняют шаги, но формы за вас не заполняют». Так человек сразу видит, чего ждать.\n\nНе обещай результат: helps people practice — «помогает осваивать», а не guarantees that everyone will feel confident — «гарантирует, что все станут уверенными». Free sessions — бесплатные занятия, но не бесплатные устройства.\n\nЕсли партнёр меняет условия, текст переписывают: That changes our description. I'll revise the draft and send it to you before we publish it. Пока текст не одобрен, это draft — черновик. Submitted — отправили, approved — одобрили: это разные вещи."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I can see you, but I can't hear you. I think you're on mute.",
+      "ru": "Я тебя вижу, но не слышу. Кажется, у тебя выключен микрофон.",
+      "why": "Сначала то, что видно, потом вероятная причина."
+    },
+    {
+      "en": "Your video froze, but I can still hear you.",
+      "ru": "У тебя застыло видео, но слышно тебя по-прежнему.",
+      "why": "Картинка и звук — разные вещи, проверяй их отдельно."
+    },
+    {
+      "en": "There's a bit of a lag, so let's take turns.",
+      "ru": "Есть небольшая задержка, давайте говорить по очереди.",
+      "why": "Задержка — причина перебиваний, а не чья-то грубость."
+    },
+    {
+      "en": "Sorry, you were breaking up. I missed the part after the budget. Could you repeat that part?",
+      "ru": "Извини, ты прерывался. Я пропустил то, что было после бюджета. Можешь повторить эту часть?",
+      "why": "Названо, где оборвалось. Повторить просят кусок, а не всё."
+    },
+    {
+      "en": "Our club helps new cyclists learn basic bike repair through free hands-on workshops.",
+      "ru": "Наш клуб помогает начинающим велосипедистам научиться простому ремонту на бесплатных практических занятиях.",
+      "why": "Кому, что и как — в одной фразе. Helps не обещает, что научатся все."
+    },
+    {
+      "en": "This is still a draft. The center hasn't approved it yet.",
+      "ru": "Это пока черновик. Центр его ещё не одобрил.",
+      "why": "Draft — статус текста: его ещё могут изменить."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Досье проекта Neighbor Link",
+      "kind": "reference",
+      "text": "Neighbor Link is a three-month pilot for adult residents of Eastbank. After the pilot, the community center will decide whether to continue. The project helps people practice everyday online tasks with patient help from volunteers. Planned activities: finding bus information, booking a library event and searching for local job information.\n\nVisitors use their own phones or laptops and make their own decisions. Volunteers explain the steps and let visitors try them. Volunteers don't log in to anyone's accounts and don't give professional advice.\n\nThe community center has approved one 90-minute session each week for up to eight visitors. Participation is free. The room and the three-month schedule are confirmed. The center hasn't said yet whether it can lend devices to visitors who don't have their own. The team must not advertise anything that depends on those devices.\n\nMina coordinates the pilot and talks to the center. Sam writes plain-language activity sheets. You are Alex, a volunteer who helps visitors practice and helps write the public description. The mission statement should tell residents whom the project helps, what they can do there and how the help works. Dates and booking details will go in a separate notice.\n\nThe pilot hasn't started, so there is no evidence yet that it helps. The team can describe the help it plans to give, but it can't promise results.",
+      "source": "Придумано для курса: люди, организации и события вымышленные."
+    },
+    {
+      "id": "m2",
+      "title": "Видеозвонок, часть 1",
+      "kind": "dialogue",
+      "text": "Mina: Welcome, Alex. We need to talk about the public description before I send it to the center. Sam, could you explain the activity sheet? … Sam? I can see your lips moving, but I can't hear you. You seem to be on mute.\n\nSam: Sorry, I forgot to unmute myself. Can you hear me now? I'll share my screen. The document is called Neighbor Link, version one.\n\nMina: Your voice is clear now, but I can only see your desktop, not the document. There's also a short lag: your answers arrive after I've started speaking again. Let's take turns a little more slowly.\n\nSam: OK, I've selected the document window. Alex, can you see the heading? Also, I heard you start a question about devices, but your video froze and I missed the rest. What exactly do you need us to check before we publish anything?",
+      "source": "Придумано для курса: сбои связи описаны словами, озвучка читает текст обычно."
+    },
+    {
+      "id": "m3",
+      "title": "Образец: миссия другого проекта",
+      "kind": "reading",
+      "text": "Small Garden Exchange is a different project. Don't move its facts into Neighbor Link.\n\nSmall Garden Exchange brings adult neighbors together to share simple growing skills. Volunteers run free demonstrations with containers and everyday household materials. The project welcomes beginners, but it doesn't sell plants, visit private gardens or promise a good harvest.\n\nIts mission statement:\n\n“Small Garden Exchange helps adult neighbors start growing plants in small spaces through free, hands-on demonstrations. We make simple methods easy to understand and try, and we encourage people to choose what works for them. Our role is to teach; we don't sell products or guarantee results.”\n\nThe first sentence says who, what and how. The second explains the approach without promising success. The third sets a limit. The statement has no dates, room numbers or volunteer schedules: those go in a separate notice.",
+      "source": "Придумано для курса: проект вымышленный."
+    },
+    {
+      "id": "m4",
+      "title": "Видеозвонок, часть 2: новое условие",
+      "kind": "dialogue",
+      "text": "Mina: I've just talked to the center. They've approved our basic approach, but they want a narrower first pilot. It can cover local transportation information and bookings for community activities. It can't include job searches or help with job applications. Staff will send people with job questions to the city's career center. So our public description needs to change.\n\nSam: We should also stop saying that help will always be available. The center has only confirmed the three months. It'll decide about the future after the pilot. And there's still no answer about lending devices.\n\nMina: Alex, your picture is moving again, but I missed your last sentence because you were breaking up. Could you repeat your response to the change? What should the mission make clear now, and what do we still need to find out before the final notice goes out?",
+      "source": "Придумано для курса: сбои связи описаны словами, озвучка читает текст обычно."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Найди в M2, как Мина говорит Сэму, что его не слышно. Теперь твоя очередь, на другом звонке: коллега Dana говорит, а звука нет. Скажи ей: «Дана, я тебя вижу, но не слышу. Похоже, у тебя выключен микрофон. Можешь его включить?»",
+      "context": "mute — выключить микрофон; unmute yourself — включить свой микрофон.",
+      "guidance": {
+        "title": "Что видно → вероятная причина → просьба",
+        "body": "Сначала то, что ты видишь и слышишь. Потом причину через seem to be — «похоже»: наверняка ты не знаешь. Потом короткая просьба.",
+        "example": "Ben, I can hear you, but I can't see you. Your camera seems to be off. Could you turn it on?",
+        "translation": "Бен, я тебя слышу, но не вижу. Похоже, у тебя выключена камера. Можешь её включить?"
+      },
+      "hint": "Начни так: Dana, I can see you, but…",
+      "answers": [
+        "Dana, I can see you, but I can't hear you. You seem to be on mute. Could you unmute yourself?",
+        "Dana, I can see you, but I can't hear you. You seem to be muted. Can you unmute yourself?",
+        "Dana, I can see you, but I can't hear you. I think you're on mute. Could you unmute, please?",
+        "Dana, I can see you, but I can't hear you. It looks like you're on mute. Could you unmute yourself?"
+      ],
+      "explanation": "On mute и muted — оба верно. I think и It looks like — тоже осторожная догадка. Turn up the volume здесь не подходит: громкость у тебя не включит чужой микрофон.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "В M2 Сэм выбрал окно документа и спрашивает, видишь ли ты заголовок. Ты видишь заголовок, но голос Сэма приходит с задержкой. Ответь двумя фразами: что ты видишь и как вести разговор при задержке.",
+      "context": "heading — заголовок.",
+      "guidance": {
+        "title": "Экран и задержка",
+        "body": "Подтверди конкретно, что видно: заголовок, документ, рабочий стол. О задержке — There's a lag, и сразу предложи, как говорить: по очереди, с паузой.",
+        "example": "Yes, I can see the spreadsheet now. There's a short lag, so I'll wait a second before I answer.",
+        "translation": "Да, теперь вижу таблицу. Есть небольшая задержка, так что я буду секунду ждать, прежде чем отвечать."
+      },
+      "hint": "Начни так: Yes, I can see the heading now…",
+      "answers": [
+        "Yes, I can see the heading now. There's a short lag, so let's take turns.",
+        "Yes, I can see the Neighbor Link heading now. Your voice arrives a little late, so let's take turns and pause before we answer.",
+        "I can see the heading now, thanks. There's a bit of a lag, so I'll pause before I answer."
+      ],
+      "explanation": "Засчитывается, если ты назвал, что видно, и предложил, как говорить при задержке. Lag объясняет, почему вы перебиваете друг друга: это не грубость.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Другой звонок. Мина прерывалась. Ты расслышал, что центр одобрил ваш подход, но не расслышал, что включать нельзя. Скажи, что ты услышал и где оборвалось, и попроси повторить только эту часть.",
+      "context": "approve — одобрить; approach — подход; include — включать.",
+      "guidance": {
+        "title": "Вспоминаем: переспросить конкретное место",
+        "body": "Вспоминаем урок о разговоре: переспрашиваем конкретное место, а не «повтори всё». На звонке добавь, что ты услышал, — так собеседник поймёт, откуда начать.",
+        "example": "Sorry, you were breaking up. I heard the date, but I missed the time. Could you repeat that part?",
+        "translation": "Извини, ты прерывалась. Дату я услышал, а время — нет. Можешь повторить эту часть?"
+      },
+      "hint": "Начни так: Sorry, you were breaking up. I heard that…",
+      "answers": [
+        "Sorry, you were breaking up. I heard that the center approved our approach, but I missed what we can't include. Could you repeat that part?",
+        "Sorry, Mina, you were breaking up. I heard that the center has approved our approach, but I missed the part about what we can't include. Could you repeat that part, please?",
+        "Sorry, I think we lost you for a second. I heard that the center approved our basic approach, but I didn't catch what we can't include. Could you say that part again?"
+      ],
+      "explanation": "Засчитывается, если названо услышанное и пропущенное, а повторить просят только кусок. Didn't catch — «не расслышал», синоним missed."
+    },
+    {
+      "id": "e4",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вернись к M2. Сэм не расслышал твой вопрос об устройствах. Повтори его короче и проверь, понятно ли теперь. В M1 найди, что именно неизвестно об устройствах.",
+      "context": "lend — одолжить, выдать на время; device — устройство.",
+      "guidance": {
+        "title": "Вспоминаем: вопрос с whether внутри",
+        "body": "Вспоминаем урок о вежливых вопросах: My question was whether… — дальше порядок обычной фразы: whether the center can, а не whether can the center. В конце — короткая проверка.",
+        "example": "My question was whether we can use the room on Sundays. Does that make sense now?",
+        "translation": "Я спрашивал, можно ли нам пользоваться комнатой по воскресеньям. Теперь понятно?"
+      },
+      "hint": "Кто может выдать устройства и кому? Начни так: My question was whether the center…",
+      "answers": [
+        "My question was whether the center can lend devices to visitors who don't have their own. Does that make sense now?",
+        "Sorry, let me repeat: my question was whether the center can lend phones or laptops to visitors who don't have one. Is that clearer now?",
+        "My question was whether the center will be able to lend devices to visitors. We shouldn't mention devices in the notice until we know. Does that make sense?"
+      ],
+      "explanation": "После whether — the center can, порядок утверждения. Вопрос — об устройствах для посетителей, а не для волонтёров: так он стоит в M1.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M3 — образец другого проекта. Теперь напиши первую фразу миссии Neighbor Link по M1: кому помогает проект, что люди смогут делать и как. Факты о саде не переноси.",
+      "context": "resident — житель; everyday online tasks — повседневные дела в интернете.",
+      "guidance": {
+        "title": "Кому + что + как",
+        "body": "Название + helps + кому + действие без to + through + способ. Одна фраза, без дат и кабинетов: их пишут в объявлении.",
+        "example": "Bright Start helps parents of young children find free local activities through a weekly email.",
+        "translation": "Bright Start помогает родителям маленьких детей находить бесплатные занятия рядом с домом с помощью еженедельной рассылки."
+      },
+      "hint": "Кому — в первой строке M1. Как — какие занятия и сколько они стоят?",
+      "answers": [
+        "Neighbor Link helps adult Eastbank residents practice everyday online tasks through free weekly sessions with volunteers.",
+        "Neighbor Link helps adult residents of Eastbank practice everyday online tasks through free, guided weekly sessions.",
+        "Neighbor Link helps adults in Eastbank practice everyday online tasks, such as finding bus information, through free weekly sessions with patient volunteers."
+      ],
+      "explanation": "Засчитывается, если есть кому (adult Eastbank residents), что (practice everyday online tasks) и как (free weekly sessions). Helps them to practice тоже верно. Дата и номер кабинета в миссии лишние.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сэм предложил вторую фразу миссии: “We guarantee that everyone will feel confident online, and we'll take care of your accounts for you.” Перепиши её по M1: убери обещание и замени его честной границей помощи.",
+      "context": "guarantee — гарантировать; confident — уверенный; take care of — заниматься чем-то вместо кого-то.",
+      "guidance": {
+        "title": "Граница вместо обещания",
+        "body": "Обещать результат нельзя: пилот ещё не начался. Скажи, как работает помощь и чего волонтёры не делают. Одной границы, важной посетителю, достаточно.",
+        "example": "Our tutors explain the math step by step; they don't do homework for students.",
+        "translation": "Наши репетиторы объясняют математику шаг за шагом, но домашние задания за учеников не делают."
+      },
+      "hint": "Что в M1 сказано о том, чьи это телефоны и кто принимает решения?",
+      "answers": [
+        "Volunteers explain the steps and let visitors try them; visitors use their own devices and make their own decisions.",
+        "Our volunteers explain each step, and visitors try it themselves. We don't log in to anyone's accounts or give professional advice.",
+        "Volunteers explain the steps, but visitors do the tasks themselves and make their own decisions. We don't log in to your accounts."
+      ],
+      "explanation": "Засчитывается, если обещания уверенности и «займёмся вашими аккаунтами» нет, а граница взята из M1. Фразу о бесплатных устройствах добавлять нельзя: центр ещё не ответил.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Открой M4. Ответь Мине и Сэму вслух, 1–1,5 минуты. Что должно быть: начни с того, что повторяешь свою мысль; что изменилось по сравнению с M1; что теперь должна говорить миссия (только транспорт и запись на занятия, вопросы о работе — в career center, пилот на три месяца); что ещё неизвестно; один практический вопрос; текст — черновик, и ты пришлёшь его до отправки в центр. Скажи, запиши и сверь с M1 и M4.",
+      "context": "career center — центр помощи с поиском работы; narrower — уже, с меньшим кругом задач.",
+      "hint": "План: Sure, I'll repeat that. → So, the pilot is now… → The mission should… → We still don't know… → Could you…? → I'll revise the draft…",
+      "answers": [
+        "Sure, I'll repeat that. So, the first pilot is now narrower: it covers local transportation information and bookings for community activities, but not job searches or job applications. The mission should say that clearly, and the notice should send people with job questions to the city's career center. We should also call it a three-month pilot, not a service that's always available, because the center hasn't decided about the future. We still don't know whether the center can lend devices, so we shouldn't mention them. Could you check who will give us the career center's contact details for the notice? I'll revise the draft today and send it to you both before we submit anything to the center."
+      ],
+      "explanation": "Засчитывается, если названо сужение пилота, career center, три месяца, открытый вопрос об устройствах, один вопрос и статус черновика. Говорить так, будто центр уже одобрил новый текст, нельзя: одобрен только подход.",
+      "materialIds": [
+        "m1",
+        "m4"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши обновлённую миссию Neighbor Link (45–65 слов) и записку команде (60–100 слов). В миссии: кому, что, как и одна граница, с учётом M4. В записке: что ты изменил и почему, что ещё неизвестно, что пойдёт в отдельное объявление и что текст пока не одобрен. Подпиши части: Revised mission и Note to the team.",
+      "context": "",
+      "hint": "Миссия: Neighbor Link is a three-month pilot that helps… through… Volunteers…; we don't… Записка: I've narrowed… → I haven't mentioned… → The notice should… → This is still a draft.",
+      "answers": [
+        "Revised mission\nNeighbor Link is a three-month pilot that helps adult Eastbank residents practice finding local transportation information and booking community activities through free weekly sessions. Volunteers explain the steps, and visitors use their own devices and make their own decisions. We don't help with job searches or applications; for those, please contact the city's career center.\n\nNote to the team\nI've narrowed the tasks to transportation and bookings, as the center asked, and removed job searches. I've called it a three-month pilot, so we don't promise a permanent service. I haven't mentioned devices because the center hasn't answered yet. The separate notice should include the session times, how to book and the career center's contact details. This is still a draft: the center approved our approach, not this wording."
+      ],
+      "explanation": "Засчитывается, если миссия опирается только на M1 и M4, а записка отделяет одобренный подход от неодобренного текста. Устройства, гарантии и «помогаем всегда» в миссии — ошибка.",
+      "materialIds": [
+        "m1",
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Кто-то из волонтёров выложил в общий документ рекламный текст. Перепиши его в точное объявление для жителей на 70–100 слов по M1 и M4: “Neighbor Link guarantees digital confidence for everyone! Our permanent service gives you free devices and fills in your job applications. Everything is approved. Come whenever you like — our volunteers will manage your accounts, so you never have to learn the steps yourself.”",
+      "context": "permanent — постоянный; fill in — заполнять; manage — вести, управлять.",
+      "hint": "Проверь каждую фразу: что из этого есть в M1 и M4, а что выдумано?",
+      "answers": [
+        "Neighbor Link is a free three-month pilot for adult Eastbank residents. In weekly 90-minute sessions, volunteers help you practice finding local transportation information and booking community activities. Volunteers explain the steps, and you use your own device and make your own decisions. We can't help with job searches or applications; the city's career center can. Each session has space for up to eight visitors. We'll share dates and booking details in a separate notice."
+      ],
+      "explanation": "Убраны гарантия, «постоянный», бесплатные устройства, помощь с работой, «всё одобрено», «приходите когда угодно» и управление аккаунтами — ничего этого нет в M1 и M4. Остались подтверждённые факты: бесплатно, раз в неделю по 90 минут, до восьми человек, три месяца.",
+      "materialIds": [
+        "m1",
+        "m4"
+      ]
+    }
+  ]
+}

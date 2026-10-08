@@ -1,0 +1,393 @@
+{
+  "id": "path-vague-language",
+  "title": "Around six, kind of, and stuff: говорить примерно — и знать, где нельзя",
+  "subtitle": "Примерное число → «вроде» и «немного» → «и всё такое» → мягкая оценка → где нужна точная цифра",
+  "level": "C1",
+  "group": "Прагматика и точность",
+  "units": "Авторский маршрут · C1",
+  "minutes": 60,
+  "goal": "Говорить примерно, как американцы в обычном разговоре: «буду часов в шесть» (around six), «минут двадцать» (twenty minutes or so), «я немного устал» (I'm kind of tired), «убрался, постирал и всё такое» (and stuff) — и называть точно то, от чего что-то зависит: сумму, срок, адрес.",
+  "formula": "around / about + число · число + or so · sixish · kind of / sort of / a bit + описание · pretty much · список + and stuff / and things like that / or something · деньги, сроки, адреса — точно",
+  "keyRule": {
+    "rule": "Число не важно — скажи примерно: around six. Число важно — назови точно: 6:15.",
+    "example": "I'll be there around six. — Буду около шести.",
+    "check": "Сумма, срок, адрес, доза лекарства — без or so и -ish."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "research-spoken-grammar",
+    "path-hedging",
+    "path-register-b2"
+  ],
+  "recycles": [
+    "path-hedging",
+    "path-register-b2"
+  ],
+  "teaches": [
+    "around / about + число или время: around six, about $50; or so — после числа: twenty minutes or so",
+    "-ish у числа, возраста и цвета: sixish, fortyish, reddish; одно “Ish.” — «почти»; только в разговоре",
+    "a couple of — «пара, два-три»; like twenty dollars — совсем разговорное «примерно»",
+    "kind of / sort of + описание — «вроде, немного»; “Kind of.” — «отчасти»; ≠ a kind of — «разновидность»",
+    "a bit + описание, a bit of + вещь; pretty much — «почти полностью»: I'm pretty much done",
+    "and stuff / and things like that / or something в конце списка — только если слушатель угадает остальное",
+    "or whatever в конце списка — нормально; одно “Whatever.” — «мне всё равно», грубо",
+    "смягчить оценку и отказ: It's kind of expensive, I'm a bit busy; одно смягчение на фразу",
+    "деньги, сроки, адреса, дозы — точно; в деловом письме — approximately / about вместо -ish и or so",
+    "слова: attend, invoice, do laundry, gonna"
+  ],
+  "sources": [
+    {
+      "title": "RealLife English · How to Be Vague When Speaking English",
+      "url": "https://reallifeglobal.com/?p=1281",
+      "notes": "Сверено: kind of / sort of — обычный выбор перед описанием и как короткий ответ (“Kind of.”); about ставят перед числом, or so — после (three weeks or so); -ish со временем и цветом; всё это разговорные средства. Отсюда порядок слов в уроке."
+    },
+    {
+      "title": "Engoo Blog · Helping students use -ish like a native speaker",
+      "url": "https://engoo.com/blog/?p=7929",
+      "notes": "Сверено: -ish с временем, возрастом и количеством (8-ish, 25-ish), со значением «почти, -оватый» (pinkish), одно “Ish.” как ответ «почти»; предупреждение, что это разговорное и в официальной речи не подходит."
+    },
+    {
+      "title": "Vocabulary.com · The Ish List: One Suffix to Rule Them All (Sort Of)",
+      "url": "https://www.vocabulary.com/articles/candlepwr/the-ish-list-one-suffix-to-rule-them-all-sort-of",
+      "notes": "Сверено: -ish «около» со временем (elevenish) и «-оватый» с цветом — давние значения; отдельное слово ish — новое, неформальное, «более-менее». Поэтому в уроке “Ish.” — только для разговора."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Где можно примерно, а где нужно точно",
+    "why": "Первые две строки — разговор, где точная цифра не нужна. Последние две — где от числа что-то зависит.",
+    "items": [
+      {
+        "label": "Встреча с другом",
+        "en": "I'll be there around six.",
+        "ru": "Буду около шести.",
+        "note": "Пять минут разницы ничего не ломают."
+      },
+      {
+        "label": "Мягкая оценка",
+        "en": "It's kind of expensive.",
+        "ru": "Дороговато.",
+        "note": "Мысль та же, что в It's expensive, тон мягче."
+      },
+      {
+        "label": "Деньги и срок",
+        "en": "The rent is $1,425, due October 5.",
+        "ru": "Аренда — $1,425, оплата до 5 октября.",
+        "note": "Ошибка в числе стоит денег — только точно."
+      },
+      {
+        "label": "Отчёт",
+        "en": "Approximately 30 people attended.",
+        "ru": "Пришло около 30 человек.",
+        "note": "Примерно, но официальным словом, без or so."
+      }
+    ],
+    "focus": [
+      "around",
+      "kind of",
+      "$1,425",
+      "Approximately"
+    ],
+    "footnote": "-ish, or so, like и and stuff — для разговора и сообщений друзьям."
+  },
+  "sections": [
+    {
+      "title": "Зачем говорить «примерно» и «вроде»",
+      "body": "Друг пишет: “When are you getting here?” — «Когда ты будешь?». Ответ “At 6:17” звучит как робот. Обычный ответ — “Around six”: «около шести». Ты не знаешь точно, и точно здесь не нужно.\n\nПо-русски мы всё время говорим неточно: «где-то в шесть», «человек двадцать», «вроде устал», «и всё такое». В английском есть такие же слова: around, or so, kind of, and stuff. В учебниках их почти нет, поэтому речь ученика звучит как документ.\n\nЭто не небрежность. Такие слова нужны в трёх случаях: ты правда не знаешь точно; точное число не важно; ты хочешь смягчить фразу, чтобы она не звучала резко.\n\nВ уроке об оговорках ты писал may и appears to — насколько ты уверен в выводе. Здесь другое: обычный разговор, примерные числа, описания и списки."
+    },
+    {
+      "title": "Примерное число: around, about, or so, -ish",
+      "body": "Around и about ставь перед числом или временем: around twenty people — человек двадцать, about $50 — примерно 50 долларов, at around six — около шести. Здесь они значат одно и то же.\n\nOr so ставь после: twenty minutes or so — минут двадцать, a week or so — где-то неделю. Одного слова хватает: around twenty или twenty or so, оба сразу не нужны.\n\n-ish приклеивается к числу: sixish или six-ish — «часов в шесть», she's fortyish — «ей около сорока». A couple of — «пара, два-три»: a couple of days. В быстрой речи like тоже значит «примерно»: It was like twenty dollars. -ish и like — совсем разговорные.\n\nГраница: эти слова — для чисел, где ошибка на пару минут или пару человек ничего не ломает."
+    },
+    {
+      "title": "Вроде, немного, почти: kind of, sort of, a bit, pretty much",
+      "body": "Kind of и sort of перед описанием значат «вроде, как бы, немного»: I'm kind of tired — я немного устал, it's sort of strange — это как-то странно. Американцы чаще говорят kind of, в быстрой речи — kinda. Не путай с a kind of — «вид, разновидность»: a kind of fish.\n\nKind of бывает и коротким ответом: “Did you like the movie?” — “Kind of.” Это «ну, отчасти», а не «да».\n\nA bit — «немного» перед описанием: a bit late, a bit expensive. Перед вещью нужен of: a bit of time.\n\nPretty much — «почти полностью»: I'm pretty much done — я почти закончил, pretty much everyone — почти все.\n\n-ish бывает и у цвета или описания: greenish — зеленоватый, tallish — высоковатый. Одно “Ish.” в ответе — «почти, типа того»: “Are you ready?” — “Ish.”"
+    },
+    {
+      "title": "И всё такое: and stuff, and things like that, or something",
+      "body": "Когда перечисляешь, необязательно называть всё. And stuff — «и всё такое»: We talked about work and stuff. And things like that — то же самое, звучит чуть аккуратнее. Or something — «или что-то такое»: Let's get pizza or something.\n\nПравило: слушатель должен понять, что входит в «всё такое». Milk, eggs, and stuff — понятно: продукты. В банке сказать I brought my passport and stuff — непонятно: какие ещё документы?\n\nOr whatever в конце списка — «или что угодно»: coffee, tea, or whatever. Но одно “Whatever.” в ответе значит «да мне всё равно» и звучит грубо.\n\nВ письме вместо and stuff пишут etc. или and so on, а в деловом тексте лучше назвать всё."
+    },
+    {
+      "title": "Смягчить фразу — и где неточность вредит",
+      "body": "Kind of, a bit и sort of смягчают оценку и отказ. It's expensive звучит прямо, It's kind of expensive — мягче. I'm a bit busy right now — вежливое «не сейчас». Could you be a bit quieter? — просьба без упрёка.\n\nПеребор звучит неуверенно: It was, like, kind of a bit expensive or something. Одного смягчения на мысль хватает.\n\nГде нельзя говорить примерно: деньги, сроки, дозы лекарства, адреса, время, к которому человек должен прийти. Если ошибка в числе кому-то навредит — называй точно: The rent is $1,425, due October 5.\n\nВ деловом письме примерное число можно, но другим словом: approximately 30 people или about 30 people. -ish, or so, like, and stuff и kind of оставь для разговора и сообщений друзьям."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I'll be there around six.",
+      "ru": "Буду около шести.",
+      "why": "Around перед временем: точная минута другу не нужна."
+    },
+    {
+      "en": "It took twenty minutes or so.",
+      "ru": "Это заняло минут двадцать.",
+      "why": "Or so стоит после числа, around — перед ним."
+    },
+    {
+      "en": "Let's meet at sevenish.",
+      "ru": "Давай встретимся часов в семь.",
+      "why": "-ish приклеено к числу. Так пишут другу, но не в рабочем письме."
+    },
+    {
+      "en": "I'm kind of tired, to be honest.",
+      "ru": "Честно говоря, я немного устал.",
+      "why": "Kind of смягчает: не «я без сил», а «немного»."
+    },
+    {
+      "en": "We talked about school and stuff.",
+      "ru": "Мы поговорили про учёбу и всё такое.",
+      "why": "And stuff в конце списка: детали не важны, тема понятна."
+    },
+    {
+      "en": "I'm pretty much done.",
+      "ru": "Я почти закончил.",
+      "why": "Pretty much — «почти полностью», а не «очень много»."
+    },
+    {
+      "en": "The appointment is at 3:15 p.m. on May 6.",
+      "ru": "Приём — 6 мая в 15:15.",
+      "why": "Время приёма важно: опоздание сорвёт визит. Поэтому без around и -ish."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет: “When are you getting here?” Ты едешь на автобусе и точно не знаешь, когда приедешь. Ответь: «Буду около семи».",
+      "context": "",
+      "guidance": {
+        "title": "Около + время — around или about",
+        "body": "Around или about ставь прямо перед числом или временем. Значат одно и то же: «около, примерно».",
+        "example": "The game starts around eight.",
+        "translation": "Игра начинается около восьми."
+      },
+      "hint": "Начни так: I'll be there …",
+      "answers": [
+        "I'll be there around seven.",
+        "I'll be there about seven.",
+        "I'll be there at around seven.",
+        "I'll be there at about seven.",
+        "I will be there around seven.",
+        "I'll get there around seven.",
+        "I'll be there around 7.",
+        "I'll be there around seven o'clock.",
+        "I'll be there at sevenish.",
+        "Around seven.",
+        "About seven."
+      ],
+      "explanation": "Around и about перед временем значат «около». At around seven тоже верно. Ответ “At seven” был бы обещанием прийти ровно в семь."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед спрашивает: “How long does it take to get downtown by bike?” Ответь фразой с or so: «Где-то минут двадцать».",
+      "context": "",
+      "guidance": {
+        "title": "Or so — после числа",
+        "body": "Or so ставь после числа и того, что считаешь: a week or so. Перед числом его не ставят.",
+        "example": "We stayed there a week or so.",
+        "translation": "Мы пробыли там где-то неделю."
+      },
+      "hint": "Начни так: It takes … Куда встанет or so — до minutes или после?",
+      "answers": [
+        "It takes twenty minutes or so.",
+        "It takes 20 minutes or so.",
+        "It takes twenty minutes or so by bike.",
+        "It's twenty minutes or so.",
+        "Twenty minutes or so.",
+        "It takes about twenty minutes.",
+        "It takes around twenty minutes."
+      ],
+      "explanation": "Or so стоит в конце: twenty minutes or so. About twenty minutes значит то же самое. Or so twenty minutes — ошибка."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты просишь друга встретить твою тётю в аэропорту и описываешь её: «Ей около пятидесяти, у неё рыжеватые волосы». hair — волосы; red — рыжий.",
+      "context": "",
+      "guidance": {
+        "title": "-ish: «около» у возраста и «-оватый» у цвета",
+        "body": "-ish приклеивается к числу или цвету: sixish — часов в шесть, greenish — зеленоватый. Это слово для разговора, не для отчёта.",
+        "example": "He's thirtyish and has grayish hair.",
+        "translation": "Ему около тридцати, волосы седоватые."
+      },
+      "hint": "К каким двум словам приклеишь -ish? У red на конце d удваивается.",
+      "answers": [
+        "She's fiftyish, and she has reddish hair.",
+        "She's fiftyish and has reddish hair.",
+        "She's fifty-ish, and she has reddish hair.",
+        "She's fifty-ish and has reddish hair.",
+        "She is fiftyish, and she has reddish hair.",
+        "She's fiftyish, with reddish hair.",
+        "She's about fifty, and she has reddish hair.",
+        "She's around fifty and has reddish hair.",
+        "She's about fifty and has reddish hair."
+      ],
+      "explanation": "Fiftyish — «около пятидесяти», reddish — «рыжеватый». About fifty и around fifty тоже верно. Fifty-ish через дефис — тоже допустимо."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега показывает новый логотип и спрашивает: “What do you think?” Тебе не нравится цвет, но ты не хочешь звучать резко. Скажи: «Мне нравится, но он немного темноват».",
+      "context": "",
+      "guidance": {
+        "title": "Смягчить оценку — kind of или a bit",
+        "body": "Kind of и a bit перед описанием делают оценку мягче. Мысль та же, тон спокойнее.",
+        "example": "The room is nice, but it's a bit small.",
+        "translation": "Комната хорошая, но маловата."
+      },
+      "hint": "Что поставишь перед dark, чтобы звучало мягче?",
+      "answers": [
+        "I like it, but it's a bit dark.",
+        "I like it, but it's a bit too dark.",
+        "I like it, but it's kind of dark.",
+        "I like it, but it's a little dark.",
+        "I like it, but it's a little too dark.",
+        "I like it, but it's sort of dark.",
+        "I like it, but it's kinda dark.",
+        "I like it, but it is a bit dark."
+      ],
+      "explanation": "A bit dark и kind of dark звучат мягко и естественно; a little dark — тоже. It's too dark без смягчения — уже прямая критика."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты переезжаешь. Подруга пишет: “Are you all packed?” Ответь: «Почти. Осталось только упаковать кухню».",
+      "context": "",
+      "guidance": {
+        "title": "Почти полностью — pretty much",
+        "body": "Pretty much — «почти полностью, в целом да». Подходит как короткий ответ и перед описанием: pretty much done, pretty much everyone.",
+        "example": "It's pretty much the same price.",
+        "translation": "Цена почти такая же."
+      },
+      "hint": "Начни с двух слов вместо «почти». Потом: I just need to …",
+      "answers": [
+        "Pretty much. I just need to pack the kitchen.",
+        "Pretty much. I just have to pack the kitchen.",
+        "Pretty much. I only need to pack the kitchen.",
+        "Pretty much. I just need to pack up the kitchen.",
+        "Pretty much, I just need to pack the kitchen.",
+        "Pretty much. Only the kitchen is left.",
+        "Pretty much. I just have the kitchen left.",
+        "Almost. I just need to pack the kitchen."
+      ],
+      "explanation": "Pretty much — «в целом да, почти». Almost тоже верно. Pretty much не значит «очень много»."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает: “What did you do on the weekend?” Ничего интересного не было. Ответь: «Ничего особенного: убрался, постирал и всё такое».",
+      "context": "clean — убираться; do laundry — постирать.",
+      "guidance": {
+        "title": "Конец списка — and stuff",
+        "body": "And stuff или and things like that ставь в конце списка, когда остальное понятно и так. Слушатель должен угадать, что входит в «всё такое».",
+        "example": "I bought bread, cheese, and stuff for the picnic.",
+        "translation": "Я купил хлеб, сыр и всё такое для пикника."
+      },
+      "hint": "Что поставишь после последнего дела — did laundry …?",
+      "answers": [
+        "Nothing special. I cleaned, did laundry, and stuff.",
+        "Nothing special. I cleaned, did laundry and stuff.",
+        "Nothing special. I cleaned, did the laundry, and stuff.",
+        "Nothing special. I cleaned, did laundry, and things like that.",
+        "Nothing special. I cleaned, did laundry, and stuff like that.",
+        "Nothing special. I cleaned the apartment, did laundry, and stuff.",
+        "Nothing much. I cleaned, did laundry, and stuff.",
+        "Nothing special. Just cleaning, laundry, and stuff."
+      ],
+      "explanation": "And stuff в конце списка — «и всё такое»: и так ясно, что речь о домашних делах. And things like that и and stuff like that тоже верно. Did laundry — с do, не с make."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь хозяину квартиры, мистеру Бруксу, что заплатишь за октябрь позже. Черновик: “Hi Mr. Brooks, I'll pay the rent around the 5th or so. It's like $1,400-ish.” Перепиши так, чтобы дата и сумма были точными.",
+      "context": "Точные факты: сумма — $1,425, оплата — 5 октября.",
+      "guidance": {
+        "title": "Деньги и сроки — без «примерно»",
+        "body": "Если ошибка в числе кому-то навредит, называй его точно. Around, or so и -ish оставь для встречи с другом.",
+        "example": "The appointment is at 3:15 p.m. on May 6.",
+        "translation": "Приём — 6 мая в 15:15."
+      },
+      "hint": "Какие слова здесь значат «примерно»? Их четыре, считая like.",
+      "answers": [
+        "Hi Mr. Brooks, I'll pay the rent on October 5. The amount is $1,425.",
+        "Hi Mr. Brooks, I'll pay the rent on October 5. It's $1,425.",
+        "Hi Mr. Brooks, I'll pay the rent of $1,425 on October 5.",
+        "Hi Mr. Brooks, I'll pay the October rent on October 5. It's $1,425.",
+        "Hi Mr. Brooks, I will pay the rent on October 5. The amount is $1,425.",
+        "Hi Mr. Brooks, I'll pay the rent on the 5th. It's $1,425."
+      ],
+      "explanation": "Around, or so, like и -ish ушли: дата и сумма теперь точные. On the 5th тоже понятно, если речь об октябре."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем оговорки и регистр. Вечером ты написал коллеге: “We had like thirty people or so, and they kind of liked it.” Теперь то же самое нужно написать в отчёт для руководителя. Перепиши: число — примерно, но официальным словом; мнение гостей — с оговоркой seemed to или appeared to.",
+      "context": "attend — прийти, присутствовать (официально); enjoy — получить удовольствие.",
+      "guidance": {
+        "title": "Вспоминаем: в отчёте — approximately и оговорка",
+        "body": "В отчёте like, or so и kind of меняют на approximately или about. Догадку о том, что думали гости, отмечают оговоркой, как в уроке об оговорках: seemed to, appeared to.",
+        "example": "Approximately 50 residents signed up, and most seemed to support the plan.",
+        "translation": "Записались около 50 жителей, и большинство, судя по всему, поддержали план."
+      },
+      "hint": "Начни так: Approximately thirty people …",
+      "answers": [
+        "Approximately thirty people attended, and most of them seemed to enjoy it.",
+        "Approximately 30 people attended, and most of them seemed to enjoy it.",
+        "Approximately 30 people attended, and they appeared to enjoy the event.",
+        "Approximately 30 people attended, and they generally seemed to enjoy the event.",
+        "About 30 people attended, and most of them appeared to enjoy the event.",
+        "About thirty people attended, and the guests seemed to enjoy the event.",
+        "Approximately 30 people attended the event, and most appeared to enjoy it.",
+        "Approximately 30 people attended, and they seemed to like it."
+      ],
+      "explanation": "Like и or so заменены на approximately или about. Kind of liked превратилось в seemed to / appeared to: ты не спрашивал каждого, поэтому это вывод, а не факт."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг из Чикаго приезжает к тебе на выходные и спрашивает: “What's the plan? What should I bring?” Напиши ему письмо на 150–250 слов. Что должно быть: когда и где ты его встретишь — время примерно (around, or so или -ish); сколько ехать до твоего дома — примерно; что будете делать — список с and stuff или or something; одна мягкая оценка с kind of или a bit (о погоде, о районе); одна вещь, которую ты называешь точно, потому что от неё что-то зависит (адрес, время поезда, цена билета); что взять с собой.",
+      "context": "",
+      "hint": "Начни так: Hey Sam! Can't wait to see you. Here's the plan: …",
+      "answers": [
+        "Hey Sam!\n\nCan't wait to see you. Here's the plan. Your train gets in at 6:42 p.m. on Friday, so I'll be at the station around a quarter to seven, by the main entrance. From there, it's twenty minutes or so to my place by car, depending on traffic.\n\nOn Saturday, I thought we could walk around downtown, check out the farmers market, get tacos, and stuff like that. If it rains, we can go to a museum or something. In the evening, a couple of friends are coming over for dinner. Nothing fancy.\n\nOne warning: my neighborhood is kind of quiet, so don't expect much nightlife. And the weather has been a bit cold this week, so bring a warm jacket and comfortable shoes.\n\nThe one thing to remember is my address, because the GPS sometimes sends people to the wrong building: 1418 West Ellis Avenue, Apartment 3B. If we miss each other at the station, just call me at (312) 555-0163.\n\nSee you Friday!\nAlex"
+      ],
+      "explanation": "Засчитывается, если есть все пункты: примерное время и примерная дорога (around, or so или -ish), список с and stuff или or something, одно смягчение kind of или a bit и хотя бы одна точная вещь без «примерно» — адрес, время поезда или цена. Объём — 150–250 слов."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый сосед (neighbor) спрашивает за чашкой кофе: “So where are you from? What's it like there?” Расскажи голосом 2–3 минуты о городе или месте, где ты вырос. Что должно быть: сколько там примерно живёт людей и как далеко оно от большого города (about, around, or so); каким было место — одна-две мягкие оценки с kind of, a bit или pretty much; чем там занимаются люди — список с and stuff или and things like that; одна точная деталь, которую ты знаешь наверняка (год, когда уехал, или возраст); почему ты уехал или остался.",
+      "context": "",
+      "hint": "Начни так: I grew up in a small town about … from …",
+      "answers": [
+        "I grew up in a small town about two hours from the capital. It's not tiny, but it's not a city either. I think around forty thousand people live there now, maybe a bit more. When I was a kid, it felt like pretty much everyone knew everyone.\n\nIt's kind of a quiet place. There's a river, a couple of old factories, a main street with cafes, a movie theater, and stuff like that. In the summer, people go swimming, have barbecues, grow vegetables, and things like that. In the winter, it gets dark early, and it's a bit boring, to be honest. Most people go to bed early.\n\nMy parents still live there, so I go back about once a year, usually in August. The town hasn't changed much. There are a few new stores, and my old school is a library now, but pretty much everything else looks the same.\n\nI left in 2015, when I was eighteen, because I wanted to go to college in a bigger city. There weren't many jobs for young people, and I was kind of tired of seeing the same faces every day. I don't regret leaving, but I do miss some things: the quiet, the river, and being able to walk everywhere in fifteen minutes or so.\n\nWhat about you? Where did you grow up?"
+      ],
+      "explanation": "Засчитывается, если рассказ звучит 2–3 минуты и в нём есть примерные числа (about, around, or so), одна-две мягкие оценки, список с and stuff или and things like that и одна точная деталь без «примерно». Если смягчение стоит в каждой фразе, речь звучит неуверенно: одного на мысль хватает."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Коллега Дэн оставил тебе голосовое сообщение (расшифровка ниже). Напиши по нему письмо руководителю, мисс Ортис (Ms. Ortiz): 4–6 предложений. Что точно — оставь точным. Что неизвестно — честно назови неизвестным. Примерное — официальным словом. Разговорные kind of, like, -ish и and stuff убери.",
+      "context": "Расшифровка: “Hey, it's Dan. So the delivery is gonna be kind of late, like Thursday-ish, maybe Friday, they don't know yet. It's forty boxes or so, chairs, tables, and stuff. Oh, and the invoice is $2,380, and they need it paid by October 15. The driver's number is (312) 555-0147.” gonna — going to (разг.); invoice — счёт.",
+      "hint": "Начни так: Dear Ms. Ortiz, The furniture delivery will be late. …",
+      "answers": [
+        "Dear Ms. Ortiz,\n\nThe furniture delivery will be late. The supplier expects it on Thursday or Friday but cannot confirm the day yet. It includes approximately 40 boxes of chairs, tables, and other furniture. The invoice is $2,380 and must be paid by October 15. The driver's phone number is (312) 555-0147.\n\nBest regards,\nAlex",
+        "Hi Ms. Ortiz,\n\nDan let me know that the delivery is delayed. It should arrive on Thursday or Friday; the exact day isn't confirmed yet. There are about 40 boxes, mostly chairs and tables. The invoice for $2,380 is due by October 15. If you need to reach the driver, his number is (312) 555-0147.\n\nBest,\nAlex"
+      ],
+      "explanation": "Засчитывается, если сумма, срок оплаты и телефон остались точными, «четверг или пятница» названо честно как неизвестное, «коробок сорок» стало approximately или about 40, а kind of, like, -ish и and stuff исчезли. Thursday-ish нельзя превращать в on Thursday — это была бы неправда."
+    }
+  ]
+}

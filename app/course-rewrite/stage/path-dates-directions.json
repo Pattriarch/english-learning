@@ -1,0 +1,391 @@
+{
+  "id": "path-dates-directions",
+  "title": "Sixth, May 6, the second left: даты и дорога",
+  "subtitle": "Какой по счёту → дата по-американски → спроси дорогу → объясни маршрут",
+  "level": "A2",
+  "group": "Пространство и повседневность",
+  "units": "Авторский маршрут · A2",
+  "minutes": 30,
+  "goal": "Назвать дату по-американски («шестое мая» — May sixth), спросить прохожего, как пройти, и объяснить дорогу: «Иди прямо два квартала, потом второй поворот налево».",
+  "formula": "six → sixth · May 6 = May sixth · How do I get to…? → Go straight for two blocks. Take the second left. It's on the right.",
+  "keyRule": {
+    "rule": "«Какой по счёту» — это число с -th: six → sixth. В дате сначала месяц, потом такое число.",
+    "example": "May 6 читается May sixth — шестое мая.",
+    "check": "Первые три — свои слова: first, second, third."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 1,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-past-simple"
+  ],
+  "recycles": [
+    "path-place-time",
+    "path-instructions"
+  ],
+  "teaches": [
+    "порядковые числа — «какой по счёту»: -th (fourth, seventh, tenth); first, second, third — свои слова; 1st, 2nd, 3rd, 4th на письме",
+    "написание: five → fifth, twelve → twelfth, nine → ninth, eight → eighth, twenty → twentieth; 21st = twenty-first",
+    "дата по-американски: пишут May 6, говорят May sixth; год парами — twenty twenty-six",
+    "цифрами сначала месяц: 6/3 — June 3",
+    "on May 6, on Monday, in May, in 2026; What's the date today? — It's October eighth",
+    "спросить дорогу: Excuse me, how do I get to…? Is there a … near here?",
+    "маршрут: go straight for two blocks, turn left at the light, take the second left, go past the bank",
+    "где: on the corner, between, on your left; next to и across from — из прошлых уроков",
+    "слова: block, light, corner, pharmacy, train station, vacation, birthday"
+  ],
+  "sources": [
+    {
+      "title": "Espresso English · How to say and write dates in English",
+      "url": "https://www.espressoenglish.net/?p=20628",
+      "notes": "Сверено: в США порядок «месяц — число — год», запятая перед годом; на письме May 6 или May 6th, вслух всегда порядковое число (May sixth); год парами (twenty twenty-two); цифрами сначала месяц: 10/5/22 в США — 5 октября."
+    },
+    {
+      "title": "Break Into English · Giving directions in English",
+      "url": "https://breakintoenglish.com/vocabulary/giving-directions-in-english/",
+      "notes": "Сверены фразы маршрута: How can I get to…?, Is there a … near here?, go for two blocks, take the second left, go past, on the corner of, across from. Американские слова взяты по общему знанию: block, subway, gas station."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Сколько, какой по счёту и когда",
+    "why": "Three считает кварталы. Third показывает порядок: так называют поворот, этаж и число месяца.",
+    "items": [
+      {
+        "label": "Сколько?",
+        "en": "Go straight for three blocks.",
+        "ru": "Иди прямо три квартала.",
+        "note": "Three — сколько кварталов пройти."
+      },
+      {
+        "label": "Какой по счёту?",
+        "en": "Take the third right.",
+        "ru": "Сверни на третий поворот направо.",
+        "note": "Third — какой поворот. Перед ним the."
+      },
+      {
+        "label": "Месяц",
+        "en": "My birthday is in June.",
+        "ru": "Мой день рождения в июне.",
+        "note": "Только месяц — in."
+      },
+      {
+        "label": "Число",
+        "en": "It's on June 3.",
+        "ru": "Он третьего июня.",
+        "note": "Есть число — on. Вслух: June third."
+      }
+    ],
+    "footnote": "Цифрами американцы пишут сначала месяц: 6/3 — это 3 июня, а не 6 марта.",
+    "focus": [
+      "three",
+      "third",
+      "in June",
+      "on June 3"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как сказать «шестое мая» и «второй поворот»?",
+      "body": "Ты записываешься к врачу. Администратор спрашивает дату, и ты отвечаешь: «Шестое мая». «Шестое» отвечает не на вопрос «сколько?», а на вопрос «какое по счёту?». В английском для этого тоже отдельные слова: six — шесть, sixth — шестой.\n\nОбычно к числу добавляют -th: four → fourth (четвёртый), seven → seventh (седьмой), ten → tenth (десятый). Три первых слова свои: first — первый, second — второй, third — третий. На письме — цифра и две последние буквы слова: 1st, 2nd, 3rd, 4th.\n\nЭти же слова нужны в дороге и в доме: the second left — второй поворот налево, the third floor — третий этаж. Перед ними обычно the: ты показываешь, какой именно.\n\nПроверь себя: отвечаешь на «сколько?» — six. На «какой по счёту?» — sixth."
+    },
+    {
+      "title": "Где -th меняет слово",
+      "body": "У нескольких чисел меняется конец. Five → fifth, twelve → twelfth: ve становится f. Nine → ninth: e пропадает. Eight → eighth: t уже есть, добавляем только h. Twenty → twentieth: y становится ie. В числе из двух слов меняется только последнее: 21st — twenty-first, 22nd — twenty-second, 23rd — twenty-third. Но 11, 12 и 13 — одно слово, поэтому eleventh, twelfth, thirteenth."
+    },
+    {
+      "title": "Дата по-американски: May 6 — May sixth",
+      "body": "Американцы пишут сначала месяц, потом число: May 6, 2026. Можно и May 6th. Вслух число всегда звучит как «какое по счёту»: May sixth. Год читают двумя парами: 2026 — twenty twenty-six, 1998 — nineteen ninety-eight. Если месяц уже назван, говорят с the: from the fifth to the tenth — с пятого по десятое.\n\nЦифрами месяц тоже идёт первым: 6/3/2026 — это 3 июня. По-русски 06.03 — шестое марта. Здесь легко ошибиться на целый месяц."
+    },
+    {
+      "title": "On May 6, in May: какой предлог",
+      "body": "Предлоги те же, что в уроке про in, on, at. День — on: on Monday, on May 6. Месяц и год без числа — in: in May, in 2026. Какое сегодня число — What's the date today? Ответ: It's October eighth. Не путай с What day is it? — это вопрос о дне недели: It's Friday. День рождения: When is your birthday? — It's on June 3. Или короче: June third."
+    },
+    {
+      "title": "Как спросить дорогу",
+      "body": "Сначала привлеки внимание: Excuse me — «извините». Потом спроси: How do I get to the train station? — «Как мне добраться до вокзала?» Get to — «добраться до». Do здесь — тот же помощник, что в любом вопросе. Можно спросить, есть ли место рядом: Is there a pharmacy near here? — «Здесь рядом есть аптека?» В конце — Thank you! или Thanks a lot!"
+    },
+    {
+      "title": "Как объяснить маршрут",
+      "body": "Go straight, turn left, it's on the right, next to, across from ты уже знаешь. Добавь расстояние и ориентиры. Block — квартал, отрезок улицы между двумя перекрёстками: в американском городе путь меряют кварталами. Go straight for two blocks — иди прямо два квартала. At the light — у светофора. Take the second left — сверни на второй поворот налево. Go past the bank — пройди мимо банка. On the corner — на углу, between — между. It's on your left — это слева от тебя."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Today is October eighth.",
+      "ru": "Сегодня восьмое октября.",
+      "why": "Eighth: в eight уже есть t, поэтому добавляем только h."
+    },
+    {
+      "en": "My birthday is on March 21.",
+      "ru": "Мой день рождения 21 марта.",
+      "why": "Вслух — March twenty-first: в составном числе меняется только последнее слово, one → first."
+    },
+    {
+      "en": "Our vacation is in August.",
+      "ru": "У нас отпуск в августе.",
+      "why": "Месяц без числа — in. Vacation — отпуск, американское слово."
+    },
+    {
+      "en": "Excuse me, how do I get to the train station?",
+      "ru": "Извините, как мне добраться до вокзала?",
+      "why": "Excuse me — чтобы обратиться к незнакомому. Get to — добраться до."
+    },
+    {
+      "en": "Go straight for two blocks and turn left at the light.",
+      "ru": "Иди прямо два квартала и поверни налево у светофора.",
+      "why": "Two — сколько кварталов. At the light — у светофора."
+    },
+    {
+      "en": "Take the second right. The pharmacy is on the corner.",
+      "ru": "Сверни на второй поворот направо. Аптека на углу.",
+      "why": "Second — какой поворот по счёту, поэтому the."
+    },
+    {
+      "en": "Go past the bank. It's on your left, next to the park.",
+      "ru": "Пройди мимо банка. Это слева от тебя, рядом с парком.",
+      "why": "Go past — пройти мимо. On your left — слева от того, кто идёт."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В лифте отеля сосед спрашивает, какой тебе нужен этаж. Скажи: «Мой номер на седьмом этаже». room = номер в отеле, floor = этаж.",
+      "context": "",
+      "guidance": {
+        "title": "Какой по счёту — число + -th",
+        "body": "«Седьмой» отвечает на вопрос «какой по счёту?». Добавь к seven окончание -th. Перед этажом — the, как в on the second floor.",
+        "example": "The office is on the fourth floor.",
+        "translation": "Офис на четвёртом этаже."
+      },
+      "hint": "Начни так: My room is on the … floor. Seven → ?",
+      "answers": [
+        "My room is on the seventh floor.",
+        "It's on the seventh floor.",
+        "It is on the seventh floor.",
+        "My room is on the 7th floor."
+      ],
+      "explanation": "Seventh — seven с -th: «седьмой». Перед этажом the и on, как в уроке про объявления."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг впервые пришёл к тебе и стоит в длинном коридоре. Напиши ему: «Моя дверь третья слева». door = дверь.",
+      "context": "",
+      "guidance": {
+        "title": "First, second, third — свои слова",
+        "body": "У первых трёх чисел -th нет. «Первый» — first, «второй» — second, «третий» — third. Перед ними the: ты показываешь одну дверь из ряда.",
+        "example": "The restroom is the first door on the right.",
+        "translation": "Туалет — первая дверь справа."
+      },
+      "hint": "Начни так: It's the … door on the left. Как будет «третий»?",
+      "answers": [
+        "It's the third door on the left.",
+        "It is the third door on the left.",
+        "My door is the third door on the left.",
+        "My door is the third one on the left."
+      ],
+      "explanation": "Third — «третий», это отдельное слово, а не three с -th. On the left — «слева»."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с друзьями бежали забег. Напиши в общий чат результаты: Анна была пятой, Том — двенадцатым, а ты — двадцатым. Числа пиши словами. race = забег.",
+      "context": "",
+      "guidance": {
+        "title": "Где -th меняет слово",
+        "body": "У части чисел меняется конец. Ve превращается в f: five → fifth. Y превращается в ie: twenty → twentieth. Остальные буквы на месте.",
+        "example": "I was ninth, and my brother was eighth.",
+        "translation": "Я был девятым, а мой брат — восьмым."
+      },
+      "hint": "Начни так: Anna was … Что станет с ve в five и twelve?",
+      "answers": [
+        "Anna was fifth, Tom was twelfth, and I was twentieth.",
+        "Anna was fifth, Tom was twelfth, I was twentieth.",
+        "Anna came in fifth, Tom came in twelfth, and I came in twentieth.",
+        "Anna finished fifth, Tom finished twelfth, and I finished twentieth."
+      ],
+      "explanation": "Fifth и twelfth: ve стало f. Twentieth: y стало ie. Was — прошлое от is: забег уже закончился."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Ты диктуешь по телефону дату встречи: May 6, 2026. Запиши словами, как ты её произнесёшь.",
+      "context": "",
+      "guidance": {
+        "title": "Дата вслух: месяц, «какое по счёту», год",
+        "body": "Сначала месяц. Потом число как «какое по счёту»: не six, а sixth. Год читают двумя парами цифр.",
+        "example": "June 3, 2025 — June third, twenty twenty-five.",
+        "translation": "3 июня 2025 года."
+      },
+      "hint": "Six → ? А 2026 раздели на две пары: 20 и 26.",
+      "answers": [
+        "May sixth, twenty twenty-six",
+        "May sixth, two thousand twenty-six",
+        "May the sixth, twenty twenty-six"
+      ],
+      "explanation": "Вслух число всегда порядковое: May sixth. Год — twenty twenty-six; two thousand twenty-six тоже слышно в США."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает: When is your vacation? Ответь: «В августе, с пятого по двадцать первое». vacation = отпуск.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: месяц — in. Новое: twenty-first",
+        "body": "Как в уроке про in, on, at: месяц без числа — in. В числе из двух слов меняется только последнее: twenty-one → twenty-first. Месяц уже назван, поэтому числа идут с the: from the fifth.",
+        "example": "It's in July, from the second to the twenty-third.",
+        "translation": "В июле, со второго по двадцать третье."
+      },
+      "hint": "Начни так: It's in August, from the … Как будет «двадцать первое»?",
+      "answers": [
+        "It's in August, from the fifth to the twenty-first.",
+        "In August, from the fifth to the twenty-first.",
+        "It's in August, from August 5 to August 21.",
+        "It's in August, from August fifth to August twenty-first.",
+        "My vacation is in August, from the fifth to the twenty-first.",
+        "It's in August, from the 5th to the 21st."
+      ],
+      "explanation": "In August — месяц без числа. Twenty-first: меняется только one → first. Можно повторить месяц: from August 5 to August 21."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега из Чикаго пишет: The training is on 6/3. Переспроси, чтобы проверить: «То есть 3 июня, верно?» training = тренинг.",
+      "context": "",
+      "guidance": {
+        "title": "Цифрами — сначала месяц",
+        "body": "Американец пишет цифрами сначала месяц, потом число. 6/3 для него — шестой месяц, третье число. Так что это не 6 марта.",
+        "example": "The party is on 10/31. — So it's October 31, right?",
+        "translation": "Вечеринка 31 октября. — То есть 31 октября, да?"
+      },
+      "hint": "Начни так: So it's … , right? Какой месяц шестой?",
+      "answers": [
+        "So it's June 3, right?",
+        "So it's June third, right?",
+        "So it's on June 3, right?",
+        "So that's June 3, right?",
+        "June 3, right?",
+        "June third, right?"
+      ],
+      "explanation": "6/3 в США — June 3: шестой месяц, третье число. Right? в конце — «верно?», как в уроке про обмен заказа."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты в Чикаго и ищешь вокзал. Обратись к прохожему: «Извините, как мне добраться до вокзала?» train station = вокзал.",
+      "context": "",
+      "guidance": {
+        "title": "Excuse me + How do I get to…?",
+        "body": "Excuse me — чтобы незнакомый человек обратил на тебя внимание. Потом How do I get to…? — «как мне добраться до…?». После to — место с the.",
+        "example": "Excuse me, how do I get to Main Street?",
+        "translation": "Извините, как мне добраться до Мейн-стрит?"
+      },
+      "hint": "Начни так: Excuse me, how do I … ? Какое слово значит «добраться до»?",
+      "answers": [
+        "Excuse me, how do I get to the train station?",
+        "Excuse me, how can I get to the train station?",
+        "Excuse me, how do I get to the station?"
+      ],
+      "explanation": "How do I get to…? — обычный вопрос о дороге, do здесь — помощник вопроса. How can I get to…? тоже верно."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Турист спрашивает у тебя, как пройти к музею. Объясни: «Идите прямо два квартала, потом поверните направо у светофора».",
+      "context": "block — квартал, light — светофор.",
+      "guidance": {
+        "title": "Вспоминаем: маршрут начинается с глагола",
+        "body": "Как в уроке про указания: Go straight. Turn right. You не нужно. Новое — расстояние и ориентир: for two blocks — два квартала, at the light — у светофора.",
+        "example": "Go straight for one block, then turn left at the bank.",
+        "translation": "Идите прямо один квартал, потом поверните налево у банка."
+      },
+      "hint": "Начни так: Go straight for … Где поворот — at the …?",
+      "answers": [
+        "Go straight for two blocks, then turn right at the light.",
+        "Go straight for two blocks and turn right at the light.",
+        "Go straight for two blocks, and then turn right at the light.",
+        "Go straight two blocks, then turn right at the light.",
+        "Go straight for two blocks, then turn right at the traffic light."
+      ],
+      "explanation": "Указание начинается с глагола: go, turn. For two blocks — сколько идти, at the light — где повернуть. Go straight two blocks без for — тоже верно."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Соседка ищет аптеку. Объясни: «Сверни на второй поворот налево. Аптека на углу, напротив банка». pharmacy = аптека.",
+      "context": "",
+      "guidance": {
+        "title": "Какой поворот и где на улице",
+        "body": "Take the second left — «сверни на второй поворот налево»: снова «какой по счёту». On the corner — «на углу». Across from — «напротив», ты знаешь его из урока про объявления.",
+        "example": "Take the first right. The bank is on the corner.",
+        "translation": "Сверни на первый поворот направо. Банк на углу."
+      },
+      "hint": "Начни так: Take the … left. Потом: The pharmacy is on the …",
+      "answers": [
+        "Take the second left. The pharmacy is on the corner, across from the bank.",
+        "Take the second left. It's on the corner, across from the bank.",
+        "Take the second left. The pharmacy is on the corner across from the bank.",
+        "Take the second street on the left. The pharmacy is on the corner, across from the bank."
+      ],
+      "explanation": "Second — второй поворот по счёту, поэтому the. On the corner — на углу, across from the bank — напротив банка."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг отправил гостям приглашение: The party is in May 6. Take the two left after the bank. My house is in the right. Исправь три ошибки и напиши текст целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь три места",
+        "body": "Есть число месяца — нужен on. Поворот «какой по счёту» — не two, а порядковое слово. Сторона улицы — on the right, а не in.",
+        "example": "The game is on April 2. Take the first right. The gym is on the left.",
+        "translation": "Игра 2 апреля. Сверни на первый поворот направо. Спортзал слева."
+      },
+      "hint": "Найди in перед May 6, two перед left и in перед the right.",
+      "answers": [
+        "The party is on May 6. Take the second left after the bank. My house is on the right.",
+        "The party is on May sixth. Take the second left after the bank. My house is on the right.",
+        "The party is on May 6th. Take the second left after the bank. My house is on the right."
+      ],
+      "explanation": "On May 6 — день с числом. The second left — поворот по счёту. On the right — сторона улицы всегда с on."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты зовёшь друга на свой день рождения. Напиши ему сообщение 3–5 фраз: дата и день недели, время и как дойти от станции метро до твоего дома. subway station = станция метро.",
+      "context": "",
+      "hint": "Начни так: My birthday party is on … Потом: From the subway station, go … Take the … It's on …",
+      "answers": [
+        "Hi! My birthday party is on Saturday, June 14, at 7 p.m. From the subway station, go straight for two blocks. Then take the first right. My building is on the left, across from the park. See you there!",
+        "Come to my birthday party on Friday, March 21, at 6:30 p.m.! From the subway station, turn left and go past the bank. Take the second right. My house is on the corner."
+      ],
+      "explanation": "Засчитывается, если есть дата с on (вслух — порядковое число), время и маршрут: хотя бы одно указание с глаголом в начале и одно «где» — on the left, on the corner, across from."
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "У твоего дома прохожий спрашивает: Excuse me, is there a grocery store near here? Ответь голосом 3–4 фразы: есть ли магазин рядом и как до него дойти. grocery store = продуктовый магазин.",
+      "context": "",
+      "hint": "Начни так: Yes, there is. Go straight … Потом: Take the … It's on …",
+      "answers": [
+        "Yes, there is. Go straight for one block and turn left at the light. Take the second right. The store is on the corner, next to the bank.",
+        "Yes, there is one on Oak Street. Go past the park and turn right. It's on your left, between the pharmacy and the bank."
+      ],
+      "explanation": "Засчитывается любой понятный маршрут: короткий ответ Yes, there is, указания с глагола в начале, хотя бы один поворот по счёту или расстояние в кварталах и место в конце."
+    }
+  ]
+}

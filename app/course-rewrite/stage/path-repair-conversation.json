@@ -1,0 +1,350 @@
+{
+  "id": "path-repair-conversation",
+  "title": "Sorry, did you say fifteen or fifty?: переспросить, уточнить и поправить себя",
+  "subtitle": "Не расслышал → не понял слово → не знаешь слова → тебя поняли не так",
+  "level": "B1",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Не замолчать, когда что-то пошло не так: переспросить нужное место («Вы сказали пятнадцать или пятьдесят?»), спросить про слово, описать предмет, если забыл его название, и коротко поправить себя.",
+  "formula": "Sorry, did you say … or …? · What does … mean? · It's a thing you use to … · Sorry, I mean …, not …",
+  "keyRule": {
+    "rule": "Скажи точно, что не так: не расслышал, не понял слово или сам не знаешь слова.",
+    "example": "Sorry, did you say fifteen or fifty? — Простите, вы сказали пятнадцать или пятьдесят?",
+    "check": "После твоей фразы собеседник знает, что именно повторить или объяснить?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-polite-questions",
+    "path-question-tags"
+  ],
+  "recycles": [
+    "path-question-tags",
+    "path-polite-questions"
+  ],
+  "teaches": [
+    "переспросить конкретное место: Sorry, did you say … or …? Sorry, what was the date? Could you say that again a little more slowly?",
+    "What? и Repeat, please звучат резко; вежливо — Sorry? ↗ или Sorry, what was that?",
+    "вопрос о слове: What does \"deposit\" mean? (с does, не What means…); What do you mean by \"soon\"?",
+    "проверить догадку: Do you mean …? So you're saying …? You mean …, right?",
+    "описать забытое слово: It's a thing you use to … · It's a kind of … · It's like …, but … · What's the word for …?",
+    "поправить себя: Sorry, I mean …, not … · Actually, … · Let me put it another way.",
+    "закончить уточнение: So, just to confirm: … · Got it. · That makes sense.",
+    "не извиняться за английский в каждой фразе"
+  ],
+  "sources": [
+    {
+      "title": "Engoo Blog · 10 Ways to Politely Ask for Clarification in English",
+      "url": "https://engoo.com/blog/?p=1473",
+      "notes": "Сверены фразы: What do you mean by …?, I'm not sure I understand, You mean …?, So you're saying …?, If I understand you correctly…; совет смягчать уточнение словами Sorry, please."
+    },
+    {
+      "title": "BYU Linguistics · Lesson plan: circumlocution",
+      "url": "https://linguistics.byu.edu/classes/Ling577lh/lpv3.html",
+      "notes": "Описание предмета без названия своими словами — отдельный навык, который тренируют играми «угадай предмет». Отсюда задание описать три вещи, не называя их."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Что именно сломалось — такая и фраза",
+    "why": "Общее I don't understand не говорит, что менять. Каждая беда чинится своей короткой фразой.",
+    "items": [
+      {
+        "label": "Не расслышал",
+        "en": "Sorry, did you say Tuesday or Thursday?",
+        "ru": "Простите, вы сказали во вторник или в четверг?",
+        "note": "Назови оба варианта, которые слышишь."
+      },
+      {
+        "label": "Не понял слово",
+        "en": "Sorry, what does \"lease\" mean?",
+        "ru": "Простите, что значит «lease»?",
+        "note": "What does + слово + mean."
+      },
+      {
+        "label": "Не знаешь слова",
+        "en": "It's a thing you use to cut paper.",
+        "ru": "Это такая штука, которой режут бумагу.",
+        "note": "Опиши, для чего вещь."
+      },
+      {
+        "label": "Тебя поняли не так",
+        "en": "Sorry, I mean the second floor, not the third.",
+        "ru": "Простите, я имею в виду второй этаж, а не третий.",
+        "note": "Правильное — потом not и ошибочное."
+      }
+    ],
+    "footnote": "Lease — договор аренды квартиры.",
+    "focus": [
+      "did you say",
+      "does",
+      "mean",
+      "use to",
+      "I mean"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Разговор сломался — почини его, а не молчи",
+      "body": "Ты звонишь хозяину квартиры. Он говорит быстро, ты не расслышал дату, не знаешь одного слова, а потом он понял тебя не так. По-русски ты бы сказал: «Простите, какого числа?», «А что значит…?», «Нет, я имел в виду…».\n\nПо-английски на каждый такой случай есть короткая готовая фраза. Главное — назвать, что именно не так. Сбоев бывает четыре: не расслышал, не понял слово или смысл, сам не знаешь слова, тебя поняли не так.\n\nОдно I don't understand — «я не понимаю» — почти не помогает. Собеседник не знает, что менять: повторить, сказать медленнее или объяснить слово.\n\nИ не начинай каждую фразу с Sorry for my English. Это отвлекает от дела и ничего не чинит."
+    },
+    {
+      "title": "Не расслышал: попроси повторить конкретное место",
+      "body": "Если не расслышал всё — Sorry? (голос вверх ↗) или Sorry, what was that? — «Простите, что вы сказали?». Could you say that again a little more slowly? — «Можете повторить чуть медленнее?».\n\nЛучше назвать само место: Sorry, what was the date? Sorry, what time? Особенно числа и дни, которые звучат похоже: Did you say fifteen or fifty? Tuesday or Thursday?\n\nОдно What? звучит резко, как «Чего?». Repeat, please звучит как приказ — так же, как Tell me, please из урока о вежливых вопросах."
+    },
+    {
+      "title": "Не понял слово или смысл: спроси или проверь догадку",
+      "body": "Про слово спрашивают так: What does \"deposit\" mean? — что значит «deposit»? Does нужен, потому что mean («значить») — обычное действие, как в Where does she live? What means \"deposit\"? — частая ошибка.\n\nЕсли слово знакомое, но непонятно, что человек имеет в виду, — What do you mean by \"soon\"? — «Что значит „скоро“? Когда именно?».\n\nЕсли догадка уже есть, проверь её: Do you mean …? So you're saying …? — «То есть ты говоришь, что…?». Подходит и хвостик из прошлого урока: You mean the first floor, right? Это не утверждение, а проверка: собеседник может тебя поправить."
+    },
+    {
+      "title": "Не знаешь слова: опиши, что это",
+      "body": "Забыл, как будет «отвёртка»? Не молчи и не переходи на русский — опиши вещь.\n\nДля чего она: It's a thing you use to open bottles — штука, которой открывают бутылки. Use to здесь не used to «раньше»: это «используешь, чтобы». Что это: It's a kind of fruit — это такой фрукт. На что похоже: It's like a spoon, but bigger — как ложка, только больше.\n\nМожно прямо попросить слово: What's the word for this? How do you say «отвёртка» in English?\n\nКогда собеседник подскажет (Oh, a screwdriver!), сразу скажи с этим словом целую фразу: Yes, a screwdriver! Do you have one? Так оно лучше запомнится."
+    },
+    {
+      "title": "Тебя поняли не так или ты ошибся: поправь коротко",
+      "body": "Если тебя поняли не так, не повторяй ту же фразу громче. Назови правильное и ошибочное: Sorry, I mean next Friday, not tomorrow. Actually («вообще-то, на самом деле») — когда исправляешь факт: Actually, the meeting is on Tuesday, not Thursday. Если вся мысль вышла непонятной — Let me put it another way («скажу по-другому») — и скажи проще.\n\nОговорился в грамматике — поправь и иди дальше: She go — sorry, she goes there every week. Начинать рассказ сначала не нужно.\n\nВ конце верни разговор к делу: So, just to confirm: I bring the keys on Monday, right? — «Итак, проверю: я приношу ключи в понедельник?». Ответ Got it или That makes sense («понятно») значит, что всё починено."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Sorry, what was that?",
+      "ru": "Простите, что вы сказали?",
+      "why": "Вежливая замена резкого What? Голос в конце вверх."
+    },
+    {
+      "en": "Sorry, did you say fifteen or fifty?",
+      "ru": "Простите, вы сказали пятнадцать или пятьдесят?",
+      "why": "Назван точный участок: собеседник повторит только число."
+    },
+    {
+      "en": "What does \"refundable\" mean?",
+      "ru": "Что значит «refundable»?",
+      "why": "Does + слово + mean. Refundable — «с возвратом денег»."
+    },
+    {
+      "en": "So you're saying the store is closed on Sunday?",
+      "ru": "То есть магазин в воскресенье закрыт?",
+      "why": "Пересказываешь понятое своими словами и ждёшь «да» или поправку."
+    },
+    {
+      "en": "It's a thing you use to cut paper.",
+      "ru": "Это такая штука, которой режут бумагу.",
+      "why": "Слова scissors («ножницы») нет — объясняешь, для чего вещь."
+    },
+    {
+      "en": "Sorry, I mean next Friday, not this Friday.",
+      "ru": "Прости, я имею в виду следующую пятницу, а не эту.",
+      "why": "Сначала правильное, потом not и то, что поняли не так."
+    },
+    {
+      "en": "So, just to confirm: we meet at the main entrance at ten.",
+      "ru": "Итак, проверю: встречаемся у главного входа в десять.",
+      "why": "Итог в конце показывает, что непонимание разобрано."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты записываешься к стоматологу по телефону. Администратор быстро назвала время, и ты не понял, два тридцать или три тридцать. Переспроси: «Простите, вы сказали два тридцать или три тридцать?»",
+      "context": "",
+      "guidance": {
+        "title": "Назови оба варианта",
+        "body": "Не проси повторить всё. Назови два варианта, которые слышишь, — собеседник просто выберет один.",
+        "example": "Sorry, did you say Tuesday or Thursday?",
+        "translation": "Простите, вы сказали во вторник или в четверг?"
+      },
+      "hint": "Начни так: Sorry, did you say …",
+      "answers": [
+        "Sorry, did you say two thirty or three thirty?",
+        "Sorry, did you say 2:30 or 3:30?",
+        "Sorry, was that two thirty or three thirty?",
+        "Sorry, was that 2:30 or 3:30?",
+        "Sorry, did you say two-thirty or three-thirty?",
+        "I'm sorry, did you say 2:30 or 3:30?"
+      ],
+      "explanation": "Did you say … or …? показывает точное место, которое ты не расслышал. Was that … or …? звучит так же естественно."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Хозяин квартиры говорит: You'll need to pay a security deposit. Ты не знаешь слова deposit. Спроси: «Простите, что значит deposit?»",
+      "context": "",
+      "guidance": {
+        "title": "What does + слово + mean",
+        "body": "Mean («значить») — обычное действие, поэтому в вопросе нужен does. Само слово стоит между does и mean.",
+        "example": "Sorry, what does \"carpool\" mean?",
+        "translation": "Простите, что значит «carpool»?"
+      },
+      "hint": "Начни так: Sorry, what does … Где стоит mean — в начале или в конце?",
+      "answers": [
+        "Sorry, what does \"deposit\" mean?",
+        "Sorry, what does deposit mean?",
+        "Sorry, what does \"security deposit\" mean?",
+        "Sorry, what does security deposit mean?",
+        "What does \"deposit\" mean?",
+        "What does deposit mean?",
+        "Sorry, what's a security deposit?",
+        "Sorry, what is a deposit?"
+      ],
+      "explanation": "What does deposit mean? — does впереди, mean в конце. What's a deposit? тоже естественно. What means deposit? — ошибка: без does вопрос не построить."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега пишет в чате: Let's push the meeting. Тебе кажется, это значит «перенести на попозже». Проверь догадку: «Ты имеешь в виду перенести её на попозже?»",
+      "context": "move it later — перенести на попозже.",
+      "guidance": {
+        "title": "Проверь догадку: Do you mean…?",
+        "body": "Догадка уже есть — не спрашивай про слово, а перескажи, как понял. Do you mean …? или So you're saying …?",
+        "example": "Do you mean we should start without him?",
+        "translation": "Ты имеешь в виду, что нам начинать без него?"
+      },
+      "hint": "Начни так: Do you mean we should …",
+      "answers": [
+        "Do you mean we should move it later?",
+        "Do you mean we should move the meeting later?",
+        "Do you mean move it later?",
+        "Do you mean we're moving it later?",
+        "So you're saying we should move it later?",
+        "So you mean we should move it later?",
+        "Do you mean we should move it to a later time?"
+      ],
+      "explanation": "Do you mean …? проверяет догадку: коллега ответит Yes, exactly или поправит. Push the meeting и правда значит «перенести встречу на попозже»."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем хвостики. Менеджер объяснил: The office is closed on Monday, but you can work from home. Проверь, что понял: «То есть в понедельник я работаю из дома, да?» Голос в конце вверх.",
+      "context": "work from home — работать из дома.",
+      "guidance": {
+        "title": "Вспоминаем: right? в конце проверки",
+        "body": "Вспоминаем прошлый урок: right? или хвостик с голосом вверх превращает фразу в проверку. Перескажи понятое своими словами и начни с So.",
+        "example": "So the store is closed on Sunday, isn't it?",
+        "translation": "То есть магазин в воскресенье закрыт, да?"
+      },
+      "hint": "Начни так: So I … on Monday, … Можно right? или хвостик с помощником.",
+      "answers": [
+        "So I work from home on Monday, right?",
+        "So I'm working from home on Monday, right?",
+        "So I can work from home on Monday, right?",
+        "So I can work from home on Monday, can't I?",
+        "So I work from home on Monday, don't I?",
+        "So I'll work from home on Monday, right?",
+        "So on Monday I work from home, right?"
+      ],
+      "explanation": "So + твой пересказ + right? — проверка, а не утверждение. С хвостиком помощник берётся из фразы: I can → can't I, I work → don't I."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты в хозяйственном магазине и не помнишь, как будет «отвёртка». Опиши продавцу: «Мне нужна такая штука, которой закручивают винты».",
+      "context": "I'm looking for — мне нужно, я ищу; screw — винт; turn — крутить.",
+      "guidance": {
+        "title": "Опиши, для чего вещь",
+        "body": "Готовая заготовка: a thing you use to + действие — «штука, которой…». После to — само действие: open, cut, turn.",
+        "example": "I need a thing you use to open cans.",
+        "translation": "Мне нужна штука, которой открывают консервы."
+      },
+      "hint": "Начни так: I'm looking for a thing you use to …",
+      "answers": [
+        "I'm looking for a thing you use to turn screws.",
+        "I need a thing you use to turn screws.",
+        "I'm looking for a tool you use to turn screws.",
+        "I need a tool you use to turn screws.",
+        "I'm looking for a thing for turning screws.",
+        "I'm looking for something you use to turn screws."
+      ],
+      "explanation": "A thing you use to turn screws — описание через назначение. Продавец, скорее всего, скажет: Oh, a screwdriver! Ответь: Yes, a screwdriver."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сегодня четверг. Ты написал другу: Let's meet on Friday. Он отвечает: Great, see you tomorrow! Но ты имел в виду пятницу на следующей неделе. Поправь: «Прости, я имею в виду следующую пятницу, а не завтра».",
+      "context": "",
+      "guidance": {
+        "title": "Правильное, потом not и ошибочное",
+        "body": "Не повторяй Let's meet on Friday. Скажи I mean + правильное, потом not + то, как тебя поняли.",
+        "example": "Sorry, I mean the second floor, not the third.",
+        "translation": "Прости, я имею в виду второй этаж, а не третий."
+      },
+      "hint": "Начни так: Sorry, I mean … Что идёт после not?",
+      "answers": [
+        "Sorry, I mean next Friday, not tomorrow.",
+        "Sorry, I meant next Friday, not tomorrow.",
+        "Sorry, I mean Friday next week, not tomorrow.",
+        "Sorry, I meant Friday next week, not tomorrow.",
+        "Sorry, I mean next week's Friday, not tomorrow.",
+        "Actually, I mean next Friday, not tomorrow."
+      ],
+      "explanation": "Названы оба варианта — правильный и тот, как тебя поняли, — поэтому путаницы больше нет. I mean и I meant оба естественны. Friday next week звучит ещё однозначнее."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем вежливые вопросы. Друг готовится к звонку и написал две фразы: What means \"deadline\"? Explain me, please, what do you mean. Исправь ошибки и перепиши обе фразы.",
+      "context": "deadline — крайний срок.",
+      "guidance": {
+        "title": "Вспоминаем: порядок слов внутри просьбы",
+        "body": "Вспоминаем урок о вежливых вопросах: после Could you … внутри идёт порядок утверждения, без do. Explain me — ошибка: explain to me или просто explain. В вопросе о слове нужен does.",
+        "example": "Could you explain what this word means?",
+        "translation": "Не могли бы вы объяснить, что значит это слово?"
+      },
+      "hint": "Где во второй фразе лишний do? Чем заменить Explain me, please?",
+      "answers": [
+        "What does \"deadline\" mean? Could you explain what you mean?",
+        "What does deadline mean? Could you explain what you mean?",
+        "What does \"deadline\" mean? Could you explain to me what you mean?",
+        "What does deadline mean? Could you explain to me what you mean?",
+        "What does \"deadline\" mean? Can you explain what you mean?",
+        "What does deadline mean? Can you explain what you mean?",
+        "What does \"deadline\" mean? Could you please explain what you mean?"
+      ],
+      "explanation": "В вопросе о слове нужен does: What does deadline mean? Внутри просьбы — порядок утверждения: what you mean, без do. После explain — to me или ничего."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты снимаешь квартиру, и у тебя на кухне сломалась техника. Ты звонишь хозяину, Mr. Lee. Запиши ваш разговор как диалог на 60–100 слов. В нём должно быть: ты не знаешь названия сломанной вещи и описываешь её; он понял тебя не так, и ты поправляешь себя; ты переспрашиваешь время, которое он назвал; спрашиваешь значение одного его слова; в конце — итог с So, just to confirm.",
+      "context": "landlord — хозяин квартиры, broken — сломан, repairman — мастер, faucet — кран, garbage disposal — измельчитель отходов в раковине.",
+      "hint": "Начни так: Me: Hi Mr. Lee. The thing you use to … is broken. Mr. Lee: Oh, the …?",
+      "answers": [
+        "Me: Hi Mr. Lee. The thing in the sink that you use to break up food is broken.\nMr. Lee: Oh, the garbage disposal? In the bathroom?\nMe: Sorry, I mean the kitchen, not the bathroom.\nMr. Lee: Got it. A repairman can come at four fifteen. Please clear the area under the sink.\nMe: Sorry, did you say four fifteen or four fifty?\nMr. Lee: Four fifteen.\nMe: And what does \"clear the area\" mean?\nMr. Lee: Take everything out of the cabinet.\nMe: So, just to confirm: he comes at 4:15, and I empty the cabinet.\nMr. Lee: Exactly."
+      ],
+      "explanation": "Засчитывается, если в диалоге есть все пять ходов: описание вещи без названия, исправление через I mean …, not …, переспрос точного времени, вопрос What does … mean? и итог с So, just to confirm."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Игра «Угадай без названия». Опиши вслух три вещи у тебя дома, ни разу не называя их, — 30–60 секунд. Для каждой: что это за вещь (It's a kind of…), для чего она (It's a thing you use to…) и на что похожа или где лежит. После каждой спроси: Do you know the word?",
+      "context": "kitchen — кухня, bathroom — ванная, drawer — ящик, metal — металлический, plastic — пластиковый.",
+      "hint": "Начни так: The first thing is a kind of … You use it to …",
+      "answers": [
+        "The first thing is a kind of tool. You use it to open cans. It's small and made of metal, and I keep it in a kitchen drawer. Do you know the word? The second thing is in the bathroom. It's like a small brush, and you use it to clean your teeth. Do you know the word? The third thing is a kind of machine. You use it to make your clothes dry after you wash them. It's big and white. Do you know the word?"
+      ],
+      "explanation": "Засчитывается, если у каждой вещи есть группа (a kind of…), назначение (you use it to…) и ещё один признак, а само название не прозвучало."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Объясни вслух за 30–60 секунд, чем ты занимаешься на работе или в учёбе, человеку, который ничего не знает о твоей области. В середине одну мысль скажи заново проще, начав с Let me put it another way. Поправь одну свою оговорку (sorry, I mean …). В конце проверь понимание: Does that make sense?",
+      "context": "Does that make sense? — понятно?, customer — клиент, app — приложение.",
+      "hint": "Начни так: I work as … My job is to … Let me put it another way: …",
+      "answers": [
+        "I work as a software tester. My job is to find bugs in an app before customers see them. Let me put it another way: I use the app like a normal person, but I try to break it. When something goes wrong, I write a report for the developers on Tuesday — sorry, I mean every day, not only on Tuesday. Then they fix the problem, and I check it again. Does that make sense?"
+      ],
+      "explanation": "Засчитывается, если есть объяснение, перефраз через Let me put it another way с более простыми словами, исправление через I mean …, not … или sorry, I mean … и вопрос Does that make sense?"
+    }
+  ]
+}

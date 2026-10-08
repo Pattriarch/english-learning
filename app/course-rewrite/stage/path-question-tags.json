@@ -1,0 +1,344 @@
+{
+  "id": "path-question-tags",
+  "title": "It's cold, isn't it?: короткий вопрос в конце фразы",
+  "subtitle": "Помощник из фразы → «не» наоборот → голос вверх или вниз → ответ на факт",
+  "level": "B1",
+  "group": "Модальность и общение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Сказать «Холодно сегодня, правда?» или «Ты ведь работаешь здесь?»: It's cold today, isn't it? You work here, right? И правильно ответить, когда так спрашивают тебя.",
+  "formula": "You work here. → You work here, don't you? → You don't work here, do you?",
+  "keyRule": {
+    "rule": "Во фразе нет not — в хвостике есть n't. Во фразе есть not — в хвостике его нет.",
+    "example": "It's cold, isn't it? — Холодно, правда? It isn't cold, is it? — Ведь не холодно, да?",
+    "check": "Помощника бери из самой фразы: is → isn't, can → can't, works → doesn't."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-me-too",
+    "path-questions-basic"
+  ],
+  "recycles": [
+    "path-me-too",
+    "path-present-perfect"
+  ],
+  "teaches": [
+    "хвостик (tag) — короткий вопрос в конце фразы, по-русски «да?», «правда?», «ведь»: It's cold, isn't it?",
+    "в хвостике помощник из самой фразы и he/she/it/they вместо имени: Anna is late, isn't she?",
+    "нет помощника — do, does, did: You work here, don't you? She called, didn't she?",
+    "фраза без not — хвостик с n't; фраза с not или never — хвостик без not: It isn't far, is it? You've never been there, have you?",
+    "I'm … — хвостик aren't I: I'm next, aren't I?",
+    "right? — самый частый американский хвостик, подходит к любой фразе: You're from Ohio, right?",
+    "голос вниз ↘ — ждёшь согласия; голос вверх ↗ — правда не уверен",
+    "ответ на факт, а не на хвостик: You're not tired, are you? — No, I'm not (не устал) / Yes, I am (устал)"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: You Want to Learn about Tag Questions, Don't You?",
+      "url": "https://learningenglish.voanews.com/a/you-want-to-learn-about-tag-questions-don-t-you-/3428710.html",
+      "notes": "Сверено: хвостик строится из местоимения и того же be или помощника; после утверждения — отрицательный хвостик с сокращением, после отрицания — положительный; aren't I; голос вверх — проверка факта, вниз — почти уверен и ждёшь согласия; ожидаемые ответы Yes, it is / No, I don't."
+    },
+    {
+      "title": "Pronunciation Studio · Tag Questions: a Pronunciation Guide",
+      "url": "https://pronunciationstudio.com/?p=22085",
+      "notes": "Сверено: падающий хвостик — не настоящий вопрос, а просьба согласиться; восходящий — настоящий вопрос. В американской речи хвостики реже, вместо них часто восходящее right?"
+    },
+    {
+      "title": "University of Bamberg · Tag questions in British and American English: results",
+      "url": "https://www.uni-bamberg.de/fileadmin/eng-ling/fs/Chapter_9/642Resultsandconclusions.html",
+      "notes": "Корпусное сравнение: в американском английском right — самый частый хвостик, в британском он редок. Поэтому в уроке right? дан как основной разговорный вариант, а isn't it? — как полная форма, которую тоже нужно понимать и строить."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Как собрать хвостик",
+    "why": "Хвостик повторяет помощника из фразы и переворачивает «не»: есть not во фразе — нет в хвостике, и наоборот.",
+    "items": [
+      {
+        "label": "Фраза без not",
+        "en": "She's at home, isn't she?",
+        "ru": "Она ведь дома?",
+        "note": "Is из фразы → isn't в хвостике."
+      },
+      {
+        "label": "Фраза с not",
+        "en": "She isn't at home, is she?",
+        "ru": "Её ведь нет дома?",
+        "note": "Not уже есть — в хвостике просто is."
+      },
+      {
+        "label": "Нет помощника",
+        "en": "She lives here, doesn't she?",
+        "ru": "Она ведь здесь живёт?",
+        "note": "Lives без помощника → берём does; -s уходит в doesn't."
+      },
+      {
+        "label": "Проще всего",
+        "en": "She lives here, right?",
+        "ru": "Она здесь живёт, да?",
+        "note": "Right не меняется — подходит к любой фразе."
+      }
+    ],
+    "footnote": "В хвостике всегда he, she, it, they или you, а не имя: Anna is here, isn't she?",
+    "focus": [
+      "isn't she",
+      "is she",
+      "doesn't she",
+      "right"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Что это за короткий вопрос в конце фразы",
+      "body": "Ты почти уверен в чём-то и хочешь, чтобы собеседник подтвердил. По-русски добавляешь «да?», «правда?» или «ведь»: «Ты ведь из Чикаго?», «Холодно сегодня, правда?».\n\nПо-английски в конец фразы ставят хвостик — короткий вопрос из двух слов после запятой: You're from Chicago, aren't you? It's cold today, isn't it? Сама фраза не меняется, хвостик просто прибавляют.\n\nХвостик не переводят дословно. «Не так ли?» звучит книжно — по-русски это «да?», «правда?», «ведь».\n\nАмериканцы чаще всего говорят right? — «да?», «верно?»: You're from Chicago, right? Right не меняется и подходит к любой фразе. Но полные хвостики тоже звучат постоянно, и их нужно уметь строить."
+    },
+    {
+      "title": "Хвостик берёт помощника из самой фразы",
+      "body": "Ты уже делал так в «So do I»: смотришь на первую фразу и берёшь её помощника. Am, is, are, was, can, will, have — его и повторяешь: She's tired, isn't she? You can swim, can't you? They've left, haven't they?\n\nЕсли помощника нет — обычное действие вроде work, lives, called, — бери do, does или did: You work here, don't you? She lives nearby, doesn't she? You called him, didn't you?\n\nВ хвостике не имя, а he, she, it или they: Anna is late, isn't she? This и that в хвостике становятся it: That's your car, isn't it? There is остаётся there: There's a pharmacy near here, isn't there?"
+    },
+    {
+      "title": "Есть «не» во фразе — нет «не» в хвостике",
+      "body": "Хвостик переворачивает «не». Фраза без not — хвостик с n't: It's far, isn't it? — Это далеко, да? Фраза с not — хвостик без not: It isn't far, is it? — Это ведь недалеко?\n\nNever («никогда») тоже делает фразу отрицательной — как в «Neither have I». Значит, хвостик без not: You've never been there, have you?\n\nОдно исключение: после I'm хвостик aren't I, а не amn't I: I'm next, aren't I? — Я следующий, да?\n\nДва «не» (It isn't far, isn't it?) — ошибка. Хвостик без «не» после фразы без «не» (It's far, is it?) бывает, но значит удивление: «Ах, далеко, значит?». Пока так не говори."
+    },
+    {
+      "title": "Голос вверх или вниз — два разных смысла",
+      "body": "На письме хвостик один, а смысл задаёт голос. Ты уже знаешь: в сообщении голос в конце идёт вниз, в вопросе — вверх. С хвостиком так же.\n\nГолос вниз ↘ — ты уверен и просто зовёшь согласиться. It's a beautiful day, isn't it? ↘ — «Чудесный день, правда?». Так заводят разговор с соседом или коллегой.\n\nГолос вверх ↗ — ты правда не уверен и проверяешь факт. The meeting is at three, isn't it? ↗ — «Встреча ведь в три? (Я не уверен.)» Right? обычно произносят вверх.\n\nВ быстрой речи хвостик звучит слитно, как одно слово: isn't it — примерно «изнит», don't you — «доунчу»."
+    },
+    {
+      "title": "Как ответить на хвостик",
+      "body": "Отвечай на сам факт и не смотри на хвостик. Факт верен — Yes, неверен — No. Дальше короткий ответ с тем же помощником.\n\nYou're not tired, are you? Если ты не устал — No, I'm not. Если устал — Yes, I am.\n\nПо-русски на «Ты ведь не устал?» отвечают «Да», имея в виду «да, ты прав, не устал». По-английски Yes здесь значит «устал». Поэтому сначала реши для себя «устал или нет», а потом выбирай Yes или No.\n\nКороткий ответ можно продолжить деталью: It's cold, isn't it? — Yeah, it's freezing! (freezing — ледяной холод). Yeah — разговорное «да»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "It's really cold today, isn't it?",
+      "ru": "Сегодня очень холодно, правда?",
+      "why": "Голос вниз: говорящий не спрашивает, а зовёт согласиться. Is из фразы → isn't в хвостике."
+    },
+    {
+      "en": "You work with Mark, don't you?",
+      "ru": "Ты ведь работаешь с Марком?",
+      "why": "Во фразе нет помощника, поэтому в хвостике don't."
+    },
+    {
+      "en": "She didn't call, did she?",
+      "ru": "Она ведь не звонила?",
+      "why": "Not уже есть во фразе, поэтому хвостик без not: did she."
+    },
+    {
+      "en": "They've already left, haven't they?",
+      "ru": "Они уже ушли, да?",
+      "why": "Помощник have из фразы повторяется в хвостике: haven't they."
+    },
+    {
+      "en": "I'm next, aren't I?",
+      "ru": "Я следующий, да?",
+      "why": "После I'm хвостик aren't I — amn't I не говорят."
+    },
+    {
+      "en": "The store opens at nine, right?",
+      "ru": "Магазин ведь открывается в девять?",
+      "why": "Right? не зависит от фразы. Голос вверх: говорящий проверяет время."
+    },
+    {
+      "en": "You're not busy, are you? — No, I'm not. Come in!",
+      "ru": "Ты ведь не занят? — Нет, не занят. Заходи!",
+      "why": "No подтверждает факт «не занят». Yes здесь значило бы «занят»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты ждёшь автобус рядом с соседом и хочешь начать разговор. Скажи: «Сегодня холодно, правда?» Добавь хвостик с помощником (не right).",
+      "context": "cold — холодно, today — сегодня.",
+      "guidance": {
+        "title": "Помощник из фразы + n't",
+        "body": "Во фразе It's cold помощник — is. Повтори его в хвостике с n't и поставь it: isn't it.",
+        "example": "The coffee is good, isn't it?",
+        "translation": "Кофе хороший, правда?"
+      },
+      "hint": "Начни так: It's cold today, … Какой помощник спрятан в It's?",
+      "answers": [
+        "It's cold today, isn't it?",
+        "It is cold today, isn't it?",
+        "It's cold, isn't it?",
+        "It is cold, isn't it?",
+        "It's so cold today, isn't it?",
+        "It's really cold today, isn't it?"
+      ],
+      "explanation": "It's = it is, поэтому хвостик isn't it. Голос в хвостике вниз: ты не спрашиваешь о погоде, а зовёшь соседа согласиться."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На вечеринке ты знакомишься с Анной. Тебе кажется, она работает в банке. Спроси её: «Ты ведь работаешь в банке?» Используй хвостик.",
+      "context": "bank — банк.",
+      "guidance": {
+        "title": "Нет помощника — бери do",
+        "body": "В You work помощника не видно. Для хвостика его берут сами: do для I, you, we, they и does для he, she.",
+        "example": "Your brother lives in Denver, doesn't he?",
+        "translation": "Твой брат ведь живёт в Денвере?"
+      },
+      "hint": "Говоришь с Анной — значит, you. Какой помощник нужен с you: do или does?",
+      "answers": [
+        "You work at a bank, don't you?",
+        "You work in a bank, don't you?",
+        "You work at the bank, don't you?",
+        "You work for a bank, don't you?"
+      ],
+      "explanation": "Work — действие без помощника, с you нужен do, а в хвостике — don't you. Doesn't подходит только к he и she."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с подругой хвалите вчерашний ужин. Ты почти уверен, что готовил Том. Уточни: «Ужин ведь Том приготовил?»",
+      "context": "cook dinner — приготовить ужин.",
+      "guidance": {
+        "title": "Прошлое — did; имя — he или she",
+        "body": "Cooked — прошлое без помощника, значит, в хвостике did. Имя в хвостике не повторяют: Tom → he.",
+        "example": "Lisa sent the email, didn't she?",
+        "translation": "Письмо ведь Лиза отправила?"
+      },
+      "hint": "Начни так: Tom cooked dinner, … Кто такой Том в хвостике — he или she?",
+      "answers": [
+        "Tom cooked dinner, didn't he?",
+        "Tom made dinner, didn't he?",
+        "Tom cooked the dinner, didn't he?",
+        "Tom made the dinner, didn't he?"
+      ],
+      "explanation": "Cooked — прошедшее время, поэтому didn't, а Tom в хвостике становится he. Did Tom в хвостике — ошибка: имя там не ставят."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты переезжаешь и хочешь попросить соседа помочь, но, кажется, машины у него нет. Уточни: «У тебя ведь нет машины?»",
+      "context": "",
+      "guidance": {
+        "title": "Not во фразе — без not в хвостике",
+        "body": "Во фразе уже есть not, поэтому хвостик без него. Помощник тот же: don't во фразе → do в хвостике.",
+        "example": "She isn't at work today, is she?",
+        "translation": "Её ведь сегодня нет на работе?"
+      },
+      "hint": "Начни так: You don't have a car, … В хвостике нужно «не» или нет?",
+      "answers": [
+        "You don't have a car, do you?",
+        "You do not have a car, do you?"
+      ],
+      "explanation": "Фраза с don't, значит, хвостик без not: do you. Don't you здесь — ошибка: два «не» подряд."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем never и present perfect. Друг рассказывает про Нью-Йорк, но ты помнишь, что он там ни разу не был. Спроси: «Ты ведь никогда не был в Нью-Йорке?»",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: never — уже «не»",
+        "body": "Вспоминаем урок «Me too»: после фразы с never говорят Neither have I. Never делает фразу отрицательной, поэтому хвостик без not. Помощник have — из I've, you've.",
+        "example": "She's never tried sushi, has she?",
+        "translation": "Она ведь ни разу не пробовала суши?"
+      },
+      "hint": "Начни так: You've never been to New York, … Помощник — have. С not или без?",
+      "answers": [
+        "You've never been to New York, have you?",
+        "You have never been to New York, have you?"
+      ],
+      "explanation": "Never уже даёт «не», поэтому have you без not. Haven't you после never — частая ошибка."
+    },
+    {
+      "id": "e6",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Ты не уверен, во сколько встреча, — кажется, в три. Спроси коллегу вслух: «Встреча ведь в три?» Скажи это два раза: сначала с хвостиком из помощника, потом с right? Голос в конце — вверх ↗.",
+      "context": "meeting — встреча, at three — в три.",
+      "guidance": {
+        "title": "Не уверен — голос вверх",
+        "body": "Голос вверх ↗ превращает хвостик в настоящий вопрос: собеседник поймёт, что ты ждёшь ответа. Right? говорят так же, вверх.",
+        "example": "The train leaves at six, doesn't it? ↗",
+        "translation": "Поезд ведь уходит в шесть? (Я не уверен.)"
+      },
+      "hint": "Начни так: The meeting is at three, … Потом то же самое, но вместо хвостика — одно слово.",
+      "answers": [
+        "The meeting is at three, isn't it? The meeting is at three, right?",
+        "The meeting's at three, isn't it? The meeting's at three, right?",
+        "The meeting is at 3:00, isn't it? The meeting is at 3:00, right?",
+        "The meeting is at three o'clock, isn't it? The meeting is at three o'clock, right?"
+      ],
+      "explanation": "Is → isn't it, а right? подходит без изменений. Засчитывается, если слова верны; проверь на записи, что голос в конце идёт вверх: так ты правда спрашиваешь."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "В пять вечера коллега видит, что ты ещё работаешь, и спрашивает: You're not leaving yet, are you? Ты и правда пока не уходишь. Ответь: «Нет, не ухожу. Я останусь до шести».",
+      "context": "leave — уходить, stay — оставаться, until six — до шести.",
+      "guidance": {
+        "title": "Отвечай на факт",
+        "body": "Смотри не на хвостик, а на факт: уходишь или нет. Не уходишь — No и короткий ответ с тем же помощником.",
+        "example": "You didn't lock the door, did you? — Yes, I did.",
+        "translation": "Ты ведь не запер дверь? — Нет, запер."
+      },
+      "hint": "Ты уходишь или нет? Начни так: No, I'm …",
+      "answers": [
+        "No, I'm not. I'll stay until six.",
+        "No, I'm not. I'm staying until six.",
+        "No, I am not. I will stay until six.",
+        "No, I'm not. I'll stay until 6:00.",
+        "No, I'm not leaving. I'll stay until six.",
+        "No, I'm not. I'm going to stay until six."
+      ],
+      "explanation": "Ты не уходишь — значит, No, I'm not. Ответ Yes, I am значил бы «да, ухожу», хотя по-русски хочется сказать «да» в смысле «ты прав»."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг написал в чат три вопроса перед вечеринкой. В двух хвостиках ошибки. Найди их и перепиши всё сообщение: You're coming on Saturday, are you? Your sister lives in Austin, isn't she? I'm invited too, aren't I?",
+      "context": "invited — приглашён.",
+      "guidance": {
+        "title": "Проверь два признака",
+        "body": "У каждого хвостика проверь два признака. Первый: «не» перевёрнуто? Второй: помощник тот же, что во фразе, или do/does/did, если его нет?",
+        "example": "He can't swim, can he? We had fun, didn't we?",
+        "translation": "Он ведь не умеет плавать? Мы же хорошо провели время?"
+      },
+      "hint": "Во второй фразе есть is? Какой помощник у lives?",
+      "answers": [
+        "You're coming on Saturday, aren't you? Your sister lives in Austin, doesn't she? I'm invited too, aren't I?",
+        "You are coming on Saturday, aren't you? Your sister lives in Austin, doesn't she? I am invited too, aren't I?"
+      ],
+      "explanation": "Первая фраза без not — нужен aren't you. У lives помощника нет — нужен doesn't she. Третья фраза правильная: после I'm хвостик aren't I."
+    },
+    {
+      "id": "e9",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Через неделю ты летишь в Денвер на свадьбу друга. Его сестра Меган отвечает за гостей. Напиши ей сообщение на 60–100 слов. В нём: поздоровайся и напомни, кто ты; проверь три вещи, в которых ты почти уверен, — две через хвостик, одну через right?; хотя бы одна из трёх фраз — с not; задай один новый вопрос; поблагодари.",
+      "context": "wedding — свадьба, pick up at the airport — встретить в аэропорту, guest — гость, bring — принести, dress code — дресс-код.",
+      "hint": "План: Hi Megan, it's … , Jake's friend. The wedding is on …, isn't it? You're picking me up …, right? Guests don't need to …, do they? Thanks!",
+      "answers": [
+        "Hi Megan, it's Alex, Jake's friend from Chicago. I just want to check a few things before the wedding. The ceremony is on Saturday at 4 p.m., isn't it? You're picking me up at the airport on Friday, right? My flight lands at 6:30 p.m. Guests don't need to bring food, do they? And one more question: is there a dress code? Thanks so much for your help! See you soon.",
+        "Hi Megan! This is Sam, Jake's roommate from college. The wedding starts at four, doesn't it? I'm staying at your parents' house, right? And there isn't a dinner on Friday, is there? Could you also tell me if I need a suit? Thank you so much, and see you next week!"
+      ],
+      "explanation": "Засчитывается, если есть три проверки: два хвостика с правильным помощником и перевёрнутым «не», одна фраза с right?, хотя бы одна фраза с not и хвостиком без not, плюс новый вопрос и благодарность."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты на барбекю у коллеги и разговариваешь с незнакомым гостем. Говори вслух 30–60 секунд. Начни разговор хвостиком о погоде или еде, голос вниз ↘. Проверь две вещи о собеседнике, голос вверх ↗: например, что он работает с хозяином и живёт рядом. Потом представь, что он спросил тебя: You're not from here, are you? — ответь правильным Yes или No и добавь 1–2 детали о себе.",
+      "context": "barbecue — барбекю, host — хозяин, neighborhood — район.",
+      "hint": "Начни так: The food is amazing, isn't it? ↘ Потом: You work with …, don't you? ↗",
+      "answers": [
+        "The food is great, isn't it? And the weather is perfect today. You work with Dan, don't you? I think he told me about you. And you live in this neighborhood, right? Oh, me? No, I'm not from here. I'm from Russia, but I've lived in Portland for two years. I work in IT.",
+        "It's a beautiful day, isn't it? Perfect for a barbecue. You're Dan's neighbor, aren't you? And you have a dog, right? I saw him in the yard. Me? No, I'm not from here. I moved here last year from Moscow. I really like it here."
+      ],
+      "explanation": "Засчитывается, если есть хвостик для начала разговора, две проверки фактов (хвостик или right?) и ответ No, I'm not / Yes, I am по факту, с деталями. Прослушай запись: в первой фразе голос вниз, в проверках — вверх."
+    }
+  ]
+}

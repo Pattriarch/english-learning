@@ -1,0 +1,329 @@
+{
+  "id": "path-third-conditional",
+  "title": "Если бы тогда: if + had, would have",
+  "subtitle": "Что было на самом деле → другая версия прошлого → could have и might have",
+  "level": "B1",
+  "group": "Условия и воображение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Говорить о прошлом, которое могло пойти иначе: «Если бы я вышел раньше, я бы успел на поезд», «Если бы ты позвонил, я мог бы тебя подвезти».",
+  "formula": "If I had left earlier, I would have caught the train. → If you had called, I could have helped. → What would you have done?",
+  "keyRule": {
+    "rule": "Представляешь, что в прошлом было иначе: после if — had + третья форма, потом would have + третья форма.",
+    "example": "If I had left earlier, I would have caught the bus — если бы я вышел раньше, я бы успел на автобус.",
+    "check": "А на самом деле? Я вышел поздно и опоздал."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-past-perfect",
+    "path-second-conditional"
+  ],
+  "recycles": [
+    "path-second-conditional",
+    "path-past-perfect"
+  ],
+  "teaches": [
+    "if + had + третья форма, would have + третья форма — другая версия прошлого: If I had left earlier, I would have caught the train (а на самом деле вышел поздно и опоздал)",
+    "have после would не меняется: would have, а не would has и не would had",
+    "отрицание hadn't и wouldn't have: If I hadn't taken the highway, I wouldn't have gotten stuck in traffic",
+    "вопрос: What would you have done if…?",
+    "could have — «мог бы» (возможность была и прошла), might have — «может быть, …бы»; You could have told me!",
+    "в речи: If I'd known (I'd = I had), I'd have called (I'd = I would); would have звучит как would've; would of — ошибка",
+    "сейчас или тогда: If I had a car (сейчас) ↔ If I had had a car (тогда)",
+    "слова: catch the train, get stuck in traffic, give somebody a ride, deadline, schedule"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: Past Unreal Conditionals",
+      "url": "https://learningenglish.voanews.com/a/past-unreal-conditionals/3181755.html",
+      "notes": "Американский справочник: в части с if — past perfect, в результате — would have + третья форма; так выражают сожаление и «знал бы — сделал бы иначе». Учтены заметки об американской речи: часто два сокращения (I'd, would've), а в разговоре иногда простое прошедшее после if — на письме нужен had."
+    },
+    {
+      "title": "Инглекс · Условные предложения в английском языке",
+      "url": "https://englex.ru/conditional-sentences/",
+      "notes": "Объяснение для русскоговорящих: третий тип — сожаление о прошлом, схема If + Past Perfect, would have + V3; could have и might have вместо would have. Сверено отличие от второго типа, где речь о настоящем."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Было, могло быть, если бы сейчас",
+    "why": "Сначала факт, потом его другая версия. Третья строка — для сравнения: «если бы» о сейчас строится иначе.",
+    "items": [
+      {
+        "label": "Что было",
+        "en": "I left late and missed the train.",
+        "ru": "Я вышел поздно и опоздал на поезд.",
+        "note": "Факт: простое прошедшее."
+      },
+      {
+        "label": "Другая версия прошлого",
+        "en": "If I had left earlier, I would have caught it.",
+        "ru": "Если бы я вышел раньше, я бы на него успел.",
+        "note": "Had left + would have caught: обе части о прошлом."
+      },
+      {
+        "label": "Если бы сейчас",
+        "en": "If I lived closer, I'd walk to the station.",
+        "ru": "Если бы я жил ближе, я бы ходил на станцию пешком.",
+        "note": "Это о сейчас: прошедшая форма и would."
+      }
+    ],
+    "focus": [
+      "missed",
+      "had left",
+      "would have caught",
+      "I'd walk"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Если бы тогда: прошлое, которое уже не изменить",
+      "body": "Ты вышел из дома поздно и опоздал на поезд. Другу говоришь: «Если бы я вышел раньше, я бы успел». По-английски: If I had left earlier, I would have caught the train. Catch the train — успеть на поезд.\n\nОбе части — о прошлом, и обе — не то, что было. На самом деле ты вышел поздно и опоздал. Так говорят, когда жалеют («если бы я знал…»), объясняют («если бы ты предупредил, я бы взял зонт») или радуются, что обошлось («если бы мы поехали той дорогой, мы бы застряли»).\n\nПо-русски «если бы» одинаковое и про сейчас, и про тогда. В английском схемы разные: If I had a car — машины нет сейчас. If I had left earlier — речь о том, что уже прошло."
+    },
+    {
+      "title": "Как собрать: had + третья форма, would have + третья форма",
+      "body": "В части с if — had + третья форма, как в past perfect: if I had left, if she had called. В другой части — would have + третья форма: I would have caught, she would have helped. Have после would не меняется: he would have, а не would has и не would had.\n\nОтрицание — hadn't и wouldn't have. If I hadn't taken the highway, I wouldn't have gotten stuck in traffic — если бы я не поехал по шоссе, я бы не застрял в пробке. Вопрос: What would you have done? — А ты бы что сделал?\n\nWould, как и в «если бы сейчас», — только в части без if. If I would have known — ошибка: нужно If I had known."
+    },
+    {
+      "title": "Could have и might have",
+      "body": "Could have + третья форма — «мог бы»: возможность была, но её упустили. If you had called me, I could have given you a ride — если бы ты позвонил, я мог бы тебя подвезти. Give somebody a ride — подвезти. Часто так говорят и без if, с упрёком: You could have told me! — Мог бы и сказать!\n\nMight have — «может быть, …бы»: ты не уверен. If we had left earlier, we might have found a parking spot — если бы мы выехали раньше, может, и нашли бы место на парковке. Would have — уверен, might have — нет."
+    },
+    {
+      "title": "Как это звучит: I'd и would've",
+      "body": "В речи слова сжимаются. I'd — это и had, и would. В части с if I'd = I had: If I'd known… В другой части после I'd идёт have: I'd have called = I would have called.\n\nWould have звучит быстро, примерно [вудэв]. В переписке так и пишут: would've. Иногда даже американцы пишут would of — это ошибка: слова of здесь нет.\n\nВ разговоре можно услышать и If I would have known. Узнавай это на слух, но сам говори и пиши If I had known."
+    },
+    {
+      "title": "Тогда или сейчас?",
+      "body": "Сравни. If I had a car, I'd drive to work — машины нет сейчас, ты представляешь обычный день. If I had had a car, I would have driven to the party — машины не было тогда, в день вечеринки. Два had подряд — не опечатка: первое — часть схемы, второе — третья форма глагола have, «иметь».\n\nСпроси себя: что я меняю — то, что есть сейчас, или то, что уже случилось? Сейчас — прошедшая форма и would. Тогда — had + третья форма и would have."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If I had known about the party, I would have come.",
+      "ru": "Если бы я знал о вечеринке, я бы пришёл.",
+      "why": "На самом деле не знал и не пришёл."
+    },
+    {
+      "en": "If she hadn't helped me, I wouldn't have finished on time.",
+      "ru": "Если бы она мне не помогла, я бы не успел вовремя.",
+      "why": "Not в обеих частях. На самом деле она помогла, и я успел."
+    },
+    {
+      "en": "We could have taken the subway.",
+      "ru": "Мы могли бы поехать на метро.",
+      "why": "Возможность была, но мы ею не воспользовались."
+    },
+    {
+      "en": "If we had left at six, we might have missed the traffic.",
+      "ru": "Если бы мы выехали в шесть, может, и проскочили бы без пробок.",
+      "why": "Might have — ты не уверен, что так и было бы."
+    },
+    {
+      "en": "I'd have called you if I'd had your number.",
+      "ru": "Я бы тебе позвонил, если бы у меня был твой номер.",
+      "why": "Первое I'd — would (дальше have), второе — had; после него had — третья форма have."
+    },
+    {
+      "en": "If I had more money, I'd take a vacation.",
+      "ru": "Если бы у меня было больше денег, я бы съездил в отпуск.",
+      "why": "Это о сейчас: одно had и would + обычный глагол."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг переезжал в субботу, а ты узнал об этом только в понедельник. Скажи ему: «Если бы ты сказал мне, я бы помог». tell → told.",
+      "context": "",
+      "guidance": {
+        "title": "Другое прошлое: had + would have",
+        "body": "Он не сказал, ты не помог — это уже случилось. После if — had + третья форма. В другой части — would have + третья форма.",
+        "example": "If she had asked, I would have given her a ride.",
+        "translation": "Если бы она попросила, я бы её подвёз."
+      },
+      "hint": "Начни так: If you had told … Какая форма у help после would have?",
+      "answers": [
+        "If you had told me, I would have helped.",
+        "If you had told me, I would have helped you.",
+        "If you'd told me, I'd have helped.",
+        "If you had told me, I'd have helped.",
+        "If you'd told me, I would have helped.",
+        "I would have helped if you had told me.",
+        "I'd have helped if you'd told me.",
+        "If you'd told me, I would've helped."
+      ],
+      "explanation": "Had told — то, чего не было: он не сказал. Would have helped — другой результат того же прошлого. I’d have, would’ve — обычные разговорные сокращения."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты опоздал на встречу на сорок минут. Объясни коллеге: «Если бы я не поехал по шоссе, я бы не застрял в пробке». take the highway = поехать по шоссе, get stuck in traffic = застрять в пробке (третья форма get — gotten).",
+      "context": "",
+      "guidance": {
+        "title": "«Не …бы»: hadn't и wouldn't have",
+        "body": "Not ставится после had и после would: hadn't left, wouldn't have missed. Have после would остаётся на месте.",
+        "example": "If I hadn't stayed up so late, I wouldn't have overslept.",
+        "translation": "Если бы я не засиделся так допоздна, я бы не проспал."
+      },
+      "hint": "Две «не»: в части с if — hadn’t, в другой — wouldn’t have. Третья форма take — taken.",
+      "answers": [
+        "If I hadn't taken the highway, I wouldn't have gotten stuck in traffic.",
+        "If I had not taken the highway, I would not have gotten stuck in traffic.",
+        "I wouldn't have gotten stuck in traffic if I hadn't taken the highway.",
+        "If I hadn't taken the highway, I wouldn't have been stuck in traffic.",
+        "If I hadn't taken the highway, I wouldn't have gotten stuck in a traffic jam."
+      ],
+      "explanation": "На самом деле ты поехал по шоссе и застрял, поэтому not в обеих частях. Gotten — американская третья форма get. Wouldn’t have been stuck тоже верно."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга рассказывает: в Нью-Йорке она забыла кошелёк в такси, но таксист его вернул. Спроси: «А что бы ты сделала, если бы он его не вернул?» give it back = вернуть.",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос: What would you have done?",
+        "body": "Сначала вопросительное слово, потом would, you, have и третья форма. Часть с if — как обычно.",
+        "example": "Where would you have stayed if the hotel had been full?",
+        "translation": "Где бы ты остановился, если бы в отеле не было мест?"
+      },
+      "hint": "Начни так: What would you have done if he … Третья форма give — given.",
+      "answers": [
+        "What would you have done if he hadn't given it back?",
+        "What would you have done if he had not given it back?",
+        "What would you have done if he hadn't given it back to you?",
+        "If he hadn't given it back, what would you have done?",
+        "What would you have done if he hadn't returned it?"
+      ],
+      "explanation": "What would you have done — вопрос о другой версии прошлого. Hadn’t given it back — на самом деле таксист вернул кошелёк. Returned тоже подходит."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг шёл домой под дождём полчаса, а ты был рядом на машине. Скажи: «Если бы ты мне позвонил, я мог бы тебя подвезти». give you a ride = подвезти тебя.",
+      "context": "",
+      "guidance": {
+        "title": "Мог бы: could have",
+        "body": "Возможность была, но её упустили — could have + третья форма. Если не уверен в результате, скажи might have.",
+        "example": "If we had booked earlier, we could have gotten better seats.",
+        "translation": "Если бы мы забронировали раньше, мы могли бы взять места получше."
+      },
+      "hint": "Вторая часть: I could have … Третья форма give — given.",
+      "answers": [
+        "If you had called me, I could have given you a ride.",
+        "If you'd called me, I could have given you a ride.",
+        "If you had called, I could have given you a ride.",
+        "I could have given you a ride if you had called me.",
+        "If you'd called me, I could've given you a ride.",
+        "If you had called me, I could have picked you up."
+      ],
+      "explanation": "Could have given — возможность подвезти была, но её не использовали. Would have given тоже верно, но could have точнее передаёт «мог бы». Picked you up — «забрал бы тебя» — тоже подходит."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем «если бы» о сейчас. Друг спрашивает про машину. Скажи две фразы: «Если бы у меня была машина, я бы ездил на работу на ней. А вчера, если бы у меня была машина, я бы не опоздал на собеседование». be late for = опоздать на, job interview = собеседование.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: сейчас — had, тогда — had had",
+        "body": "Про сейчас — прошедшая форма и would. Про вчера — had + третья форма и would have. Третья форма have — had, поэтому выйдет два had подряд.",
+        "example": "If I spoke French, I'd watch French movies. If I had spoken French on that trip, I would have made friends.",
+        "translation": "Если бы я говорил по-французски, я бы смотрел французские фильмы. Если бы я говорил по-французски в той поездке, я бы завёл друзей."
+      },
+      "hint": "Первая фраза — If I had a car, I’d … Вторая — Yesterday, if I had had a car, I wouldn’t have …",
+      "answers": [
+        "If I had a car, I would drive to work. And yesterday, if I had had a car, I wouldn't have been late for the interview.",
+        "If I had a car, I'd drive to work. Yesterday, if I'd had a car, I wouldn't have been late for my job interview.",
+        "If I had a car, I'd drive to work. And yesterday, if I had had a car, I wouldn't have been late for my interview.",
+        "If I had a car, I would drive to work. And if I had had a car yesterday, I would not have been late for the job interview.",
+        "If I had a car, I'd drive to work. And yesterday, if I had had a car, I wouldn't have been late for the job interview.",
+        "If I had a car, I'd drive to work. Yesterday, if I had had a car, I wouldn't have been late for the interview."
+      ],
+      "explanation": "Первая фраза о сейчас: машины нет, had и would drive. Вторая — о вчерашнем дне: had had и wouldn’t have been. If I’d had — то же самое, сокращённо."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем past perfect. Ты рассказываешь, как опоздал на поезд: «Когда я приехал на вокзал, поезд уже ушёл. Если бы я проверил расписание, я бы знал о новом времени». station = вокзал, check the schedule = проверить расписание, the new time = новое время.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: had + третья форма — раньше другого события",
+        "body": "В первой фразе had left — поезд ушёл раньше, чем ты приехал. Во второй тот же had — уже часть «если бы».",
+        "example": "When we got to the restaurant, it had closed. If we had called first, we wouldn't have driven there for nothing.",
+        "translation": "Когда мы доехали до ресторана, он уже закрылся. Если бы мы сначала позвонили, мы бы не ехали туда зря."
+      },
+      "hint": "Первая фраза: When I got to the station, the train had already … Вторая: If I had checked …",
+      "answers": [
+        "When I got to the station, the train had already left. If I had checked the schedule, I would have known about the new time.",
+        "When I got to the station, the train had already left. If I'd checked the schedule, I'd have known about the new time.",
+        "When I arrived at the station, the train had already left. If I had checked the schedule, I would have known about the new time.",
+        "When I got to the station, the train had left already. If I had checked the schedule, I would have known about the new time.",
+        "When I got to the station, the train had already left. I would have known about the new time if I had checked the schedule."
+      ],
+      "explanation": "Had already left — поезд ушёл раньше твоего приезда. If I had checked… I would have known — другая версия: на самом деле ты не проверил и не знал. Got to и arrived at здесь одинаково хороши."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет тебе после вечеринки: You missed a great night! If you had came, you would has met my cousin from Texas. В сообщении две ошибки. Исправь их и перепиши сообщение целиком.",
+      "context": "",
+      "guidance": {
+        "title": "Проверь третью форму и have",
+        "body": "После had и после would have — третья форма. У неправильных глаголов она своя: go — gone, see — seen. А have после would не меняется ни с кем.",
+        "example": "If he had gone with us, he would have seen the fireworks.",
+        "translation": "Если бы он пошёл с нами, он бы увидел салют."
+      },
+      "hint": "Третья форма come совпадает с первой. Как выглядит have после would?",
+      "answers": [
+        "You missed a great night! If you had come, you would have met my cousin from Texas.",
+        "You missed a great night! If you'd come, you'd have met my cousin from Texas.",
+        "You missed a great night! If you had come, you'd have met my cousin from Texas."
+      ],
+      "explanation": "Had come — третья форма come такая же, как первая; came — простое прошедшее. Would have met — have после would не меняется, даже с he и she."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Подруга Кейт пишет: So what happened at the airport yesterday? Did you make your flight? Расскажи ей в сообщении на 60–120 слов (историю можно придумать). В нём должно быть: 1) что случилось — по порядку, в прошедшем времени; 2) две фразы «если бы …, то …» о прошлом: одна с would have, одна с wouldn't have; 3) одна фраза с could have или might have; 4) что ты сделаешь в следующий раз: Next time, I'll…",
+      "context": "Слова: make a flight — успеть на рейс, security line — очередь на досмотр, gate — выход на посадку, set an alarm — поставить будильник, check in online — зарегистрироваться онлайн, luckily — к счастью.",
+      "hint": "План: I woke up late because … → When I got to the gate, they had already … → If I had …, I would have … → If I hadn’t …, I wouldn’t have … → Next time, I’ll …",
+      "answers": [
+        "Hi Kate,\n\nNo, I didn't make it! I woke up late because I forgot to set an alarm. Then the security line was really long, and when I got to the gate, they had already closed the doors. If I had left home an hour earlier, I would have made my flight. And if I hadn't stopped for coffee, I wouldn't have lost ten more minutes. I could have checked in online, too. Luckily, they put me on the next flight. Next time, I'll set two alarms!\n\nSee you soon,\nMia"
+      ],
+      "explanation": "Засчитывается, если есть все четыре пункта: события по порядку в прошедшем времени, одна фраза с had + would have и одна с hadn’t или wouldn’t have, could have или might have и план с Next time, I’ll… Подробности истории — любые."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "На встрече разговорного клуба тема: A decision that changed my life. Расскажи вслух за 30–60 секунд: 1) какое решение ты принял и когда; 2) что было бы иначе, если бы ты решил по-другому, — две фразы с would have или wouldn't have; 3) одна фраза с might have; 4) как ты к этому относишься сейчас: Now I think… / I'm glad…",
+      "context": "Слова: decision — решение, decide — решить, hometown — родной город, take a risk — рискнуть, I'm glad — я рад.",
+      "hint": "Начни так: Five years ago, I decided to … Потом: If I hadn’t …, I wouldn’t have …",
+      "answers": [
+        "Five years ago, I decided to move to Seattle for a job. If I hadn't moved, I wouldn't have met my wife. I would have stayed in my hometown, and I would have worked at my dad's store. I might have been happy there too, but I'll never know. Now I think it was the best decision of my life, and I'm glad I took the risk."
+      ],
+      "explanation": "Засчитывается, если прозвучали само решение в прошедшем времени, две фразы с had или hadn’t после if и would have или wouldn’t have, одна фраза с might have и твоё отношение сейчас. Решение — твоё собственное."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Коллега просит проверить письмо руководителю перед отправкой. В нём три ошибки. Исправь и перепиши письмо целиком: Hi Ms. Lee, I'm sorry the report was late. If I would have known about the new deadline, I would have finish it on Monday. If Tom had told me earlier, I would had more time. Next time, I'll check the team calendar every morning. Best, Daniel",
+      "context": "Слова: deadline — срок сдачи, team calendar — общий календарь команды.",
+      "hint": "Проверь каждую часть с if: нет ли там would? И каждую часть с would: есть ли have и третья форма?",
+      "answers": [
+        "Hi Ms. Lee, I'm sorry the report was late. If I had known about the new deadline, I would have finished it on Monday. If Tom had told me earlier, I would have had more time. Next time, I'll check the team calendar every morning. Best, Daniel",
+        "Hi Ms. Lee, I'm sorry the report was late. If I'd known about the new deadline, I would have finished it on Monday. If Tom had told me earlier, I would have had more time. Next time, I'll check the team calendar every morning. Best, Daniel"
+      ],
+      "explanation": "Засчитывается, если исправлены три места: If I would have known → If I had known (в части с if would не бывает), would have finish → would have finished (нужна третья форма), would had → would have had (have после would не пропадает)."
+    }
+  ]
+}

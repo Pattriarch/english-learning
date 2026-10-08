@@ -1,0 +1,328 @@
+{
+  "id": "path-second-conditional",
+  "title": "Если бы сейчас: if + прошедшая форма, would",
+  "subtitle": "Представить другое «сейчас» → совет «на твоём месте» → реальное или воображаемое",
+  "level": "B1",
+  "group": "Условия и воображение",
+  "units": "Авторский маршрут · B1",
+  "minutes": 45,
+  "goal": "Говорить о том, чего сейчас нет, но могло бы быть: «Если бы у меня была машина, я бы ездил на работу», «На твоём месте я бы подождал».",
+  "formula": "If I had a car, I'd drive to work. → If I were you, I'd wait. → If we lived closer, we could visit more often.",
+  "keyRule": {
+    "rule": "Представляешь то, чего сейчас нет: после if — прошедшая форма, в другой части — would.",
+    "example": "If I had a car, I would drive to work — если бы у меня была машина, я бы ездил на работу.",
+    "check": "Would — только в одной части: If I would have… — ошибка."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-zero-first",
+    "path-past-simple"
+  ],
+  "recycles": [
+    "path-past-habits",
+    "path-zero-first"
+  ],
+  "teaches": [
+    "if + прошедшая форма, would + глагол — воображаемое «сейчас»: If I had a car, I'd drive to work (на самом деле машины нет)",
+    "would только в части без if: If I would have… — ошибка; I'd = I would, если дальше обычный глагол",
+    "отрицание wouldn't и порядок частей: You wouldn't be so tired if you went to bed earlier",
+    "вопрос: What would you do if…? Where would you live if you could…?",
+    "were после if: If I were you, I'd… — мягкий совет «на твоём месте»; в разговоре бывает If I was…",
+    "could — «мог бы», might — «может быть, …бы»: If we had a car, we could visit them",
+    "реальный шанс или фантазия: If I get the job, I'll move ↔ If I won the lottery, I'd quit",
+    "слова: cook at home, landlord, rent, win the lottery, anywhere, still"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Everyday Grammar: Introducing Conditionals",
+      "url": "https://learningenglish.voanews.com/a/everyday-grammar-introducing-conditionals/2778457.html",
+      "notes": "Американский справочник: в воображаемом условии после if — простое прошедшее, would — только в части результата. Сверено про were: в разговоре часто звучит was, на письме советуют were; пример If I were you, I would take the job."
+    },
+    {
+      "title": "Инглекс · Условные предложения в английском языке",
+      "url": "https://englex.ru/conditional-sentences/",
+      "notes": "Объяснение для русскоговорящих: Past Simple во втором типе говорит не о прошлом, а о воображаемом настоящем или будущем; If I were you — совет; could и might вместо would. Was после I допустимо только в разговоре."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "На самом деле, представляю, может быть",
+    "why": "Прошедшая форма после if говорит: «на самом деле не так». Настоящее время после if — «вполне может случиться».",
+    "items": [
+      {
+        "label": "На самом деле",
+        "en": "I don't have a car.",
+        "ru": "У меня нет машины.",
+        "note": "Факт сейчас."
+      },
+      {
+        "label": "Представляю",
+        "en": "If I had a car, I'd drive to work.",
+        "ru": "Если бы у меня была машина, я бы ездил на работу на ней.",
+        "note": "Had — «не на самом деле», would — «бы»."
+      },
+      {
+        "label": "Вполне может быть",
+        "en": "If I buy a car this year, I'll drive to work.",
+        "ru": "Если куплю машину в этом году, буду ездить на работу на ней.",
+        "note": "Реальный план: настоящее время после if и will."
+      }
+    ],
+    "focus": [
+      "had",
+      "I'd drive",
+      "buy",
+      "I'll drive"
+    ]
+  },
+  "sections": [
+    {
+      "title": "«Если бы» о сегодняшнем дне",
+      "body": "Друг спрашивает: «Почему ты ездишь на работу на автобусе?» Ты отвечаешь: «У меня нет машины. Если бы была, я бы ездил на ней». По-английски: If I had a car, I'd drive to work.\n\nHad — прошедшая форма, но речь не о прошлом. Здесь она значит: «на самом деле не так». Машины нет сейчас, и ты только представляешь, что она есть. I'd drive — это I would drive, «я бы ездил».\n\nПо-русски «бы» стоит в обеих частях: «если бы была, я бы ездил». В английском would — только в части без if. В части с if — прошедшая форма без would: If I had, а не If I would have."
+    },
+    {
+      "title": "Как собрать: if + прошедшая форма, would + глагол",
+      "body": "Часть с if — прошедшая форма, как в past simple: if I had, if she lived, if we knew. Другая часть — would + обычный глагол: I would drive, she would call. Would одинаковый для всех. Отрицание — wouldn't: I wouldn't worry. Вопрос — would перед you: What would you do if you won the lottery? — Что бы ты сделал, если бы выиграл в лотерею?\n\nЧасти можно поменять местами: I'd call her if I knew her number. Запятая нужна, только когда if стоит первым. I'd здесь — I would: после него обычный глагол (I'd call). Если после I'd третья форма (I'd left), это had из past perfect."
+    },
+    {
+      "title": "If I were you: «на твоём месте»",
+      "body": "С be после if обычно ставят were — со всеми, даже с I и she. If I were rich — если бы я был богат. If she were here — если бы она была здесь. В разговоре американцы часто говорят If I was…, но на письме лучше were.\n\nСамая частая фраза — If I were you, I'd… — «на твоём месте я бы…». Это мягкий совет: If I were you, I'd talk to your boss. Сравни с should из урока об обязанностях: You should talk to your boss — прямее. If I were you звучит как «я бы так сделал, а решать тебе». В этой фразе всегда were."
+    },
+    {
+      "title": "Could и might вместо would",
+      "body": "Would — «я бы сделал». Could — «я мог бы», то есть была бы такая возможность: If we had a car, we could visit our parents more often — если бы у нас была машина, мы могли бы чаще навещать родителей.\n\nMight — «может быть, …бы»: ты не уверен в результате. If you asked him, he might say yes — если бы ты его попросил, он, может, и согласился бы.\n\nПосле could и might — тоже обычный глагол, без to: could visit, might say."
+    },
+    {
+      "title": "Реальный шанс или фантазия: If I get или If I got",
+      "body": "Ты уже знаешь схему If I get the job, I'll move to Austin. Это реальный план: собеседование завтра, шанс есть. If I won the lottery, I'd quit my job — я только представляю и всерьёз не жду. Quit — уйти с работы.\n\nОдно и то же событие можно сказать обоими способами. If he calls, I'll tell him — думаешь, что позвонит. If he called, I'd tell him — не очень веришь, что позвонит. Выбор показывает, насколько реальным ты это считаешь.\n\nЧастая ошибка — смешать схемы: If I had more time, I will… Will идёт с настоящим временем после if (If I have…), would — с прошедшей формой (If I had…)."
+    }
+  ],
+  "examples": [
+    {
+      "en": "If I knew her number, I'd call her.",
+      "ru": "Если бы я знал её номер, я бы ей позвонил.",
+      "why": "Номера нет: knew говорит «на самом деле не знаю», а не «знал вчера»."
+    },
+    {
+      "en": "I wouldn't worry if I were you.",
+      "ru": "На твоём месте я бы не волновался.",
+      "why": "Совет. Часть с if стоит второй, поэтому запятой нет."
+    },
+    {
+      "en": "What would you do if you lost your phone?",
+      "ru": "Что бы ты делал, если бы потерял телефон?",
+      "why": "В вопросе would стоит перед you. Lost — воображаемое, телефон на месте."
+    },
+    {
+      "en": "If we lived closer, we could see each other more often.",
+      "ru": "Если бы мы жили ближе, мы могли бы чаще видеться.",
+      "why": "Could — была бы возможность."
+    },
+    {
+      "en": "If you asked her, she might help.",
+      "ru": "Если бы ты её попросил, она, может, и помогла бы.",
+      "why": "Might — результат возможен, но ты не уверен."
+    },
+    {
+      "en": "If it rains tomorrow, we'll stay home.",
+      "ru": "Если завтра будет дождь, мы останемся дома.",
+      "why": "Реальный прогноз: настоящее время после if и will."
+    },
+    {
+      "en": "If it snowed in Miami, people would be shocked.",
+      "ru": "Если бы в Майами пошёл снег, люди были бы в шоке.",
+      "why": "Почти невозможно — поэтому прошедшая форма и would."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега спрашивает, почему ты всё время обедаешь в кафе. Ответь: «Если бы у меня было больше времени, я бы готовил дома». cook at home = готовить дома.",
+      "context": "",
+      "guidance": {
+        "title": "Представляю сейчас: had + would",
+        "body": "Времени нет на самом деле — поэтому после if прошедшая форма had. В другой части — would + обычный глагол.",
+        "example": "If I knew his address, I'd send him a card.",
+        "translation": "Если бы я знал его адрес, я бы отправил ему открытку."
+      },
+      "hint": "Начни так: If I had … В какой части стоит would?",
+      "answers": [
+        "If I had more time, I would cook at home.",
+        "If I had more time, I'd cook at home.",
+        "I would cook at home if I had more time.",
+        "I'd cook at home if I had more time.",
+        "If I had more time, I would cook at home more."
+      ],
+      "explanation": "Had — воображаемое условие сейчас, would cook — что было бы. Части можно поменять местами: I’d cook at home if I had more time — тогда без запятой."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг жалуется, что всё время устаёт. Скажи: «Ты бы не уставал так сильно, если бы ложился спать раньше». be so tired = так сильно уставать, go to bed = ложиться спать.",
+      "context": "",
+      "guidance": {
+        "title": "«Не …бы»: wouldn't",
+        "body": "«Не …бы» — wouldn't + глагол. Можно начать с результата: тогда if стоит в середине, и запятая не нужна.",
+        "example": "I wouldn't drink so much coffee if I slept more.",
+        "translation": "Я бы не пил столько кофе, если бы больше спал."
+      },
+      "hint": "Начни так: You wouldn’t be … После if — прошедшая форма go.",
+      "answers": [
+        "You wouldn't be so tired if you went to bed earlier.",
+        "You would not be so tired if you went to bed earlier.",
+        "If you went to bed earlier, you wouldn't be so tired.",
+        "If you went to bed earlier, you would not be so tired.",
+        "You wouldn't be so tired if you went to sleep earlier."
+      ],
+      "explanation": "Wouldn’t be — «не уставал бы», went — воображаемое: на самом деле друг ложится поздно. Можно начать с if, тогда после этой части ставь запятую."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вы с друзьями играете в «а что, если». Спроси подругу: «Где бы ты жила, если бы могла жить где угодно?» anywhere = где угодно.",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос: Where would you…?",
+        "body": "Сначала вопросительное слово, потом would, you и глагол. Часть с if — как обычно, в конце или в начале.",
+        "example": "What would you cook if you had guests tonight?",
+        "translation": "Что бы ты приготовил, если бы сегодня вечером к тебе пришли гости?"
+      },
+      "hint": "Начни так: Where would you … После if нужна прошедшая форма can.",
+      "answers": [
+        "Where would you live if you could live anywhere?",
+        "If you could live anywhere, where would you live?",
+        "Where would you live if you could choose anywhere?"
+      ],
+      "explanation": "Where would you live — вопрос о воображаемом. Could — прошедшая форма can: «если бы могла». Часть с if можно поставить первой, тогда после неё запятая."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруге подняли плату за квартиру на 300 долларов, и она не знает, что делать. Посоветуй мягко: «На твоём месте я бы поговорил с хозяином квартиры». landlord = хозяин квартиры, которую снимаешь.",
+      "context": "",
+      "guidance": {
+        "title": "Совет: If I were you, I'd…",
+        "body": "«На твоём месте» — готовая фраза If I were you. Дальше — I'd и что бы ты сделал.",
+        "example": "If I were you, I'd ask for a refund.",
+        "translation": "На твоём месте я бы попросил вернуть деньги."
+      },
+      "hint": "Первые четыре слова — If I were you. Дальше: I’d talk to …",
+      "answers": [
+        "If I were you, I would talk to the landlord.",
+        "If I were you, I'd talk to the landlord.",
+        "If I were you, I'd talk to your landlord.",
+        "If I were you, I would talk to your landlord.",
+        "I'd talk to the landlord if I were you.",
+        "I'd talk to your landlord if I were you.",
+        "If I were you, I'd speak to your landlord.",
+        "If I were you, I'd speak to the landlord."
+      ],
+      "explanation": "If I were you — устойчивая фраза, в ней всегда were. I’d talk to — «я бы поговорил». Talk и speak здесь одинаково хороши."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем used to. Коллега спрашивает, любишь ли ты плавать. Ответь: «Раньше я жил у океана. Если бы я до сих пор жил там, я мог бы плавать каждое утро». near the ocean = у океана, still = до сих пор.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем used to; новое — could",
+        "body": "Начни с used to: так было раньше, теперь нет. Во второй фразе вместо would поставь could — «мог бы», была бы возможность.",
+        "example": "I used to have a bike. If I still had it, I could ride to work.",
+        "translation": "Раньше у меня был велосипед. Если бы он у меня всё ещё был, я мог бы ездить на нём на работу."
+      },
+      "hint": "Still стоит между I и lived. После could — обычный глагол без to.",
+      "answers": [
+        "I used to live near the ocean. If I still lived there, I could swim every morning.",
+        "I used to live by the ocean. If I still lived there, I could swim every morning.",
+        "I used to live near the ocean. I could swim every morning if I still lived there.",
+        "I used to live near the ocean. If I still lived there, I could go swimming every morning."
+      ],
+      "explanation": "Used to live — так было раньше. If I still lived there — воображаемое «сейчас»: на самом деле ты живёшь в другом месте. Could swim — была бы возможность; would swim тоже понятно, но звучит как «плавал бы обязательно»."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем if с настоящим временем. Завтра у тебя собеседование в Остине, а друг шутит про лотерею. Скажи: «Если я получу эту работу, я перееду в Остин. А если бы я выиграл в лотерею, я бы вообще не работал». get the job = получить работу, win the lottery = выиграть в лотерею, not at all = вообще не.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: реальный шанс — will",
+        "body": "Работу ты вполне можешь получить: после if настоящее время, потом will. Лотерея — фантазия: прошедшая форма и would.",
+        "example": "If it's sunny on Sunday, we'll go to the beach. If we had a boat, we'd go sailing.",
+        "translation": "Если в воскресенье будет солнечно, мы пойдём на пляж. Если бы у нас была лодка, мы бы ходили под парусом."
+      },
+      "hint": "Две фразы, две схемы: If I get … I’ll … и If I won … I wouldn’t …",
+      "answers": [
+        "If I get this job, I'll move to Austin. If I won the lottery, I wouldn't work at all.",
+        "If I get this job, I will move to Austin. If I won the lottery, I would not work at all.",
+        "If I get the job, I'll move to Austin. If I won the lottery, I wouldn't work at all.",
+        "If I get this job, I'll move to Austin. But if I won the lottery, I wouldn't work at all.",
+        "If I get this job, I'll move to Austin. And if I won the lottery, I wouldn't work at all."
+      ],
+      "explanation": "If I get… I’ll move — реальный план, после if настоящее время. If I won… I wouldn’t work — фантазия, после if прошедшая форма. Смешать нельзя: If I get…, I would… или If I won…, I will… звучат неправильно."
+    },
+    {
+      "id": "e7",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Сосед пишет в общий чат дома: My apartment is tiny. If I would have a bigger kitchen, I will cook for my friends every weekend. В сообщении две ошибки. Исправь их и перепиши сообщение целиком. tiny = крошечный.",
+      "context": "",
+      "guidance": {
+        "title": "Найди лишний would и лишний will",
+        "body": "В части с if would не бывает. А will с прошедшей формой после if не сочетается — нужен would.",
+        "example": "If I had a yard, I'd grow tomatoes.",
+        "translation": "Если бы у меня был двор, я бы выращивал помидоры."
+      },
+      "hint": "Большой кухни у соседа нет. Это реальный шанс или фантазия? Какая схема подходит?",
+      "answers": [
+        "My apartment is tiny. If I had a bigger kitchen, I would cook for my friends every weekend.",
+        "My apartment is tiny. If I had a bigger kitchen, I'd cook for my friends every weekend."
+      ],
+      "explanation": "If I had — прошедшая форма без would: кухни на самом деле нет. I would cook — результат, would стоит только здесь. Will не подходит: он идёт с настоящим временем после if."
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг Джейк пишет: I got a job offer in New York. The salary is great, but rent is crazy and I don't know anyone there. What would you do? Ответь ему на 60–120 слов. В ответе должно быть: 1) совет с If I were you, I'd…; 2) два «если бы …, то …» с would или wouldn't; 3) одна фраза с could; 4) вопрос Джейку с would.",
+      "context": "Слова: job offer — предложение о работе, salary — зарплата, rent — плата за жильё, roommate — сосед по квартире, save money — копить деньги, regret — жалеть.",
+      "hint": "План: If I were you, I’d … → If you moved, you would … → If you found a roommate, you could … → What would you miss most?",
+      "answers": [
+        "Hi Jake,\n\nCongratulations! If I were you, I'd take the offer. If you moved to New York, you would earn more and learn a lot. Yes, rent is crazy, but if you found a roommate, you could save money. You wouldn't be lonely for long, because people at work would invite you out. If I had an offer like that, I'd be nervous too. But if you stayed here, you might regret it later. What would you miss most about Chicago?\n\nTalk soon,\nSam"
+      ],
+      "explanation": "Засчитывается, если есть If I were you, I’d…, два условия с прошедшей формой после if и would или wouldn’t, фраза с could и вопрос с would. Совет может быть и противоположным — например, остаться."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Подруга из Сиэтла записывает подкаст и спрашивает: If you could change one thing about your city, what would you change? Ответь вслух за 30–60 секунд: 1) что бы ты изменил — If I could…, I'd…; 2) два результата с would или wouldn't; 3) одна фраза с could или might; 4) как на самом деле сейчас — In reality, …",
+      "context": "Слова: public transportation — общественный транспорт, bike lane — велодорожка, traffic — пробки, run more often — ходить чаще (об автобусах), clean — чистый.",
+      "hint": "Начни так: If I could change one thing, I’d … Закончи фразой In reality, …",
+      "answers": [
+        "If I could change one thing about my city, I'd make public transportation better. If buses ran more often, people wouldn't need cars so much. There would be less traffic, and the air would be cleaner. Students could get to school faster, and people might have more time for their families. In reality, our buses come every thirty minutes, so most people drive."
+      ],
+      "explanation": "Засчитывается, если прозвучали условие с прошедшей формой после if, два результата с would или wouldn’t, фраза с could или might и одна фраза о том, как на самом деле. Город и перемены — твои собственные."
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Знакомая отвечает на форуме на вопрос What would you do if you didn't have to work? и просит проверить ответ. В нём три ошибки. Исправь и перепиши текст целиком: If I didn't have to work, I will travel around the country in a van. I would visit every national park and write a blog about it. If I would have more money, I'd buy a small house in Montana. I would to go fishing every morning.",
+      "context": "Слова: van — фургон, national park — национальный парк, go fishing — ходить на рыбалку.",
+      "hint": "Проверь каждую часть с if: нет ли там would? И каждую другую часть: would это или will, и есть ли лишнее to?",
+      "answers": [
+        "If I didn't have to work, I would travel around the country in a van. I would visit every national park and write a blog about it. If I had more money, I'd buy a small house in Montana. I would go fishing every morning.",
+        "If I didn't have to work, I'd travel around the country in a van. I'd visit every national park and write a blog about it. If I had more money, I'd buy a small house in Montana. I'd go fishing every morning."
+      ],
+      "explanation": "Засчитывается, если исправлены три места: will travel → would travel (после if прошедшая форма, значит would), If I would have → If I had (в части с if would не бывает), would to go → would go (после would — глагол без to)."
+    }
+  ]
+}

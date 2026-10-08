@@ -1,0 +1,346 @@
+{
+  "id": "extended-c2-synthesis",
+  "title": "Деньги на культуру: спор о ценностях, оценочное эссе и решение комиссии",
+  "subtitle": "Граница тезиса → где кончается согласие → спор о фактах или о приоритетах → сила и предел довода → новый случай: что решают цифры, а что — комиссия",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Пересказать два мнения о деньгах на культуру вместе с их границами, отличить спор о приоритетах от спора о фактах, написать оценочное эссе со своей позицией, а потом дать комиссии условную рекомендацию: «Their agreement extends to…, but not to…», «This is a disagreement about priorities, not facts», «Subject to…, I recommend…».",
+  "formula": "Mercer argues that … should normally … · Their agreement extends to …, but not to … · This is a disagreement about priorities, not facts · X is most persuasive when …, but … · I would argue … · The figures settle …; they cannot settle … · Subject to …, I recommend …; if not, the question is whether …",
+  "guided": true,
+  "introSections": 5,
+  "keyRule": {
+    "rule": "Спор о фактах решают сведения. Спор о приоритетах решаешь ты — и называешь свой выбор.",
+    "example": "The figures show who attended; they can't tell us whether access matters more than preservation. — Цифры показывают, кто пришёл; они не скажут, что важнее — доступ или сохранение.",
+    "check": "Исчезнет ли этот спор, если принести новые сведения?"
+  },
+  "prerequisites": [
+    "path-synthesis",
+    "extended-c1-cross-text",
+    "path-source-mediation",
+    "path-argument-essay"
+  ],
+  "recycles": [
+    "path-synthesis",
+    "extended-c1-cross-text"
+  ],
+  "teaches": [
+    "граница тезиса: normally, generally, unless, only when — пересказывать тезис вместе с ней",
+    "сильная версия чужой позиции: что автор прямо отрицает и какие обязанности оставляет; straw man — слабая копия",
+    "предел согласия: Both writers… — только если есть в обоих; Their agreement extends to…, but not to…",
+    "спор о фактах решают сведения, спор о приоритетах — выбор: This is a disagreement about priorities, not facts; They differ over which criterion should come first",
+    "оценка довода: сила и предел, своя добавка помечена: X is most persuasive when…, but…; I would argue…",
+    "своя позиция говорит, какой критерий ты ставишь первым и почему",
+    "новый случай: что цифры решают, что только сужают, что остаётся выбором; вывод эссе — не правило комиссии",
+    "условная рекомендация с названным выбором: Subject to…, I recommend…; If not, the question is whether…",
+    "слова: presumption, criterion, accountability, significance, preservation, settle, steelman / straw man, subject to"
+  ],
+  "sources": [
+    {
+      "title": "Purdue OWL · Synthesizing Sources",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/conducting_research/research_overview/synthesizing_sources.html",
+      "notes": "Сверено: синтез строят вокруг идей, а не по очереди источников; отношения согласия и несогласия показывают явно; не придумывают связь, которой нет, и не замалчивают несогласных; отдельно названа аргументирующая синтез-работа, где автор строит собственную позицию. Отсюда разделы о пределе согласия и об оценочном синтезе."
+    },
+    {
+      "title": "UNC Writing Center · Argument",
+      "url": "https://writingcenter.unc.edu/tips-and-tools/argument/",
+      "notes": "Сверено: чужую позицию пересказывают в сильной версии, а не как «соломенное чучело» (straw man); уступка признаёт пункт и объясняет, почему твоя позиция всё равно держится; при чтении спрашивают, что автор доказывает, что принимает без доказательства и что опускает. Отсюда шаги «сильная версия» и «сила и предел довода»."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что этот урок добавляет к синтезу",
+      "body": "Городской фонд решает, на какие культурные проекты давать деньги. У тебя две колонки. Mercer (M1) считает, что деньги должны прежде всего расширять доступ: чтобы прийти могли больше людей. Reed (M2) считает, что деньги должны защищать то, что без поддержки исчезнет, даже если сейчас это нужно немногим.\n\nИз прошлых уроков ты знаешь: синтез строят вокруг вопроса читателя, разделяют голоса и помечают свой вывод; каждый тип текста отвечает на свой вопрос; одни и те же источники пересказывают разным читателям по-разному.\n\nНовое здесь — четыре вещи. У тезиса есть граница, и её нельзя терять. Авторы спорят не о фактах, а о том, что важнее, — такой спор цифры не решают. Ты не только показываешь, кто что говорит, но и оцениваешь доводы и занимаешь свою позицию. И в конце — новый случай с цифрами (M3), на который нельзя просто перенести вывод своего эссе."
+    },
+    {
+      "title": "Граница тезиса: normally, unless, only when",
+      "body": "Mercer пишет: funding should normally favor broader access. Normally — «как правило». Это правило по умолчанию, у которого есть исключения: она сама допускает поддержку ради сохранения, если её отдельно обосновать.\n\nЕсли в пересказе потерять normally, Mercer станет жёстче, чем в тексте: будто она требует всегда выбирать самую большую аудиторию. Так же работают generally — «в целом», unless — «если только не», only when — «только когда». Слова короткие, но меняют позицию.\n\nТо же с согласием. Both writers… пиши, только если это есть в обоих текстах. Потом скажи, где согласие кончается: Their agreement extends to accountability, but not to the first test for funding — «их согласие распространяется на подотчётность, но не на первый критерий». Accountability — обязанность объяснять, на что ушли деньги."
+    },
+    {
+      "title": "Спор о фактах и спор о приоритетах",
+      "body": "Проверка простая: исчезнет ли спор, если принести новые сведения? «Сколько людей пришло на выставку» — спор о фактах: посчитай, и он кончится. «Что важнее — широкий доступ или сохранение редкого» — спор о приоритетах. Новые цифры помогут, но не решат его: решает выбор, что ставить первым.\n\nФразы: This is a disagreement about priorities, not facts. They differ over which criterion should come first. Criterion — признак, по которому оценивают. Whereas ставит позиции рядом, но не говорит, что они исключают друг друга.\n\nПредел: спор о приоритетах — не пустой спор. В конкретном случае он даёт разные решения. Mercer и Reed разойдутся, когда значимый проект сразу привлекает мало людей. Назови такой случай — так видно, что спор настоящий."
+    },
+    {
+      "title": "Оценить доводы и занять позицию",
+      "body": "Оценочный синтез — это не два пересказа и I agree в конце. У каждого довода назови силу — что он позволяет увидеть — и предел: где он перестаёт работать. Пример не из колонок: «библиотеке нужно покупать те книги, которые чаще берут». Сила: спрос показывает, что людям нужно сейчас. Предел: редкие книги, которые берут раз в год, по этому правилу исчезнут.\n\nСначала перескажи позицию в сильной версии — так, чтобы автор под ней подписался. Слабая копия чужой позиции (по-английски straw man — «соломенное чучело») делает твою победу ненастоящей.\n\nСвоя позиция говорит, какой критерий ты ставишь первым и почему. Свои добавки помечай: I would argue… — «я бы сказал(а)…». Вместо «нельзя не согласиться» назови конкретное достоинство: The point about demand is persuasive because…"
+    },
+    {
+      "title": "Новый случай: что решают цифры, а что — комиссия",
+      "body": "M3 — досье для комиссии: архив записей или театральные мастерские, а денег на оба проекта нет. Из урока о гибридных занятиях ты помнишь: у каждого числа есть автор и единица счёта, а проверка документа — ещё не одобрение вывода.\n\nНовое — разделить три вещи. Что цифры решают: если две заявки по $60,000, а денег $100,000, обе не профинансировать — это арифметика. Что они только сужают: 300 посещений — ещё не 300 человек; «под угрозой» — ещё не проверенная потеря. Что они не решают: что важнее — спасти то, что может исчезнуть, или поддержать то, что уже работает с людьми. Это выбор комиссии, и его надо назвать, а не прятать за числами.\n\nВывод твоего эссе — не правило, которое комиссия приняла. Рекомендация может быть условной: Subject to a specialist assessment, I recommend… — «при условии оценки специалиста рекомендую…». И скажи, что делать, если условие не выполнится."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Mercer argues that funding should normally favor broader access, and she allows exceptions for preservation.",
+      "ru": "Mercer считает, что деньги, как правило, должны идти на более широкий доступ, и допускает исключения ради сохранения.",
+      "why": "Normally и исключение — граница тезиса. Без них позиция становится жёстче."
+    },
+    {
+      "en": "Their agreement extends to accountability, but not to the first test for funding.",
+      "ru": "Их согласие распространяется на подотчётность, но не на первый критерий для финансирования.",
+      "why": "Сначала общее, потом точное место, где согласие кончается."
+    },
+    {
+      "en": "This is a disagreement about priorities, not facts: no attendance figure could settle it.",
+      "ru": "Это спор о приоритетах, а не о фактах: никакие цифры посещаемости его не решат.",
+      "why": "Так называют спор, который сведения не закрывают."
+    },
+    {
+      "en": "Both reports count visitors, but they disagree about the number. A recount would settle it.",
+      "ru": "Оба отчёта считают посетителей, но расходятся в числе. Пересчёт решит спор.",
+      "why": "Контраст: это спор о фактах — новые сведения его закрывают."
+    },
+    {
+      "en": "Reed's argument is strongest where present demand is a poor guide, but it needs a way to test claims of future value.",
+      "ru": "Довод Reed сильнее всего там, где нынешний спрос плохо подсказывает ценность, но ему нужен способ проверить обещания будущей ценности.",
+      "why": "Оценка: сила и предел в одной фразе."
+    },
+    {
+      "en": "If the committee gives priority to participation now, the workshops are the stronger case.",
+      "ru": "Если комиссия ставит выше участие сейчас, мастерские — более сильный вариант.",
+      "why": "Ценностный выбор назван как условие, а не спрятан за цифрами."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Колонка 1 / Who should cultural funding reach?",
+      "kind": "reading",
+      "text": "Public cultural funding should normally favor projects that bring meaningful participation within reach of more residents. Attendance alone is a crude measure: free admission means little if opening hours exclude shift workers or the program feels closed to newcomers. Organizations that receive public money should explain whom they serve and how public support widens that circle.\n\nConsider a small exhibition that adds evening hours and guided introductions. Its value is not simply the extra tickets issued, but the removal of practical barriers. Exceptional preservation needs may justify support for a narrow audience. Such exceptions, however, require a specific case. Without a presumption in favor of broader access, funding can become a permanent subsidy for people who already feel at home in cultural institutions.",
+      "source": "Придумано для курса: колонка вымышленного советника по городской политике Alice Mercer."
+    },
+    {
+      "id": "m2",
+      "title": "Колонка 2 / What would we lose without support?",
+      "kind": "reading",
+      "text": "Public funding should protect forms of cultural value that present demand cannot fully express. An unfamiliar musical tradition or an experimental performance may attract few people now while expanding what future audiences can experience. Requiring broad participation from the start can reward familiar work and make cultural life steadily narrower.\n\nThis is not a defense of closed institutions. Recipients should explain their work publicly and remove avoidable barriers. Yet wider access should follow from a persuasive account of cultural significance, rather than serve as the default test for funding. A modest audience is neither proof of excellence nor a reason for automatic rejection. The central question is what would disappear, or never develop, without public support.",
+      "source": "Придумано для курса: колонка вымышленного историка культуры Daniel Reed."
+    },
+    {
+      "id": "m3",
+      "title": "Досье для комиссии / Bellhaven Arts Grants: two applications",
+      "kind": "reading",
+      "text": "Decision framework\nThe Bellhaven Arts Grants Committee has $120,000 for the coming year. Two applications have passed the basic eligibility checks. The Harbor Voices Archive requests $90,000 for a preservation and access package. The Open Stage Collective requests $80,000 for a program of neighborhood theater workshops. Each applicant says its package cannot be split at the proposed price. The committee may fund either package or neither, but it cannot fund both. Unspent money may stay in reserve. A decision is due in three weeks.\n\nSana Malik, archive curator\n\"Our collection holds 240 recorded interviews with former dockworkers and their families. A preliminary inventory marks 120 tapes as potentially vulnerable because of their recording format and storage history. That is a warning category, not a prediction that all 120 will fail this year. Volunteers have digitized 30 interviews, but we chose them for convenience, not as a representative sample.\n\n\"The package covers a specialist inspection, digitization of vulnerable material where technically possible, rights clearance and a searchable public catalog. Our online collection recorded 900 visits last year; we can't tell how many different people that was. Low use should concern us, but recordings that disappear can never be made accessible later. I believe this work is urgent. However, no outside specialist has assessed the tapes individually yet, so I can't give the committee a verified estimate of loss.\"\n\nLeo Grant, workshop director\n\"Our pilot ran 24 sessions at three neighborhood venues. Registration records show 160 different participants and 480 attendances. People came back on purpose: they developed scenes over several meetings. So it would be misleading to say the pilot reached 480 people.\n\n\"We sent a questionnaire to all 160 participants and got 96 replies. Of those, 72 said they felt more confident speaking in a group after the program. Their comments matter to us, although people who enjoyed the workshops may have been more willing to reply. We didn't measure confidence before the pilot.\n\n\"The new application would fund 40 sessions, with childcare at selected venues and help with transportation on request. These respond to barriers participants mentioned. We haven't estimated how many more people they would bring in. I would welcome an independent evaluation, as long as it doesn't use up the money for the sessions.\"\n\nMei Foster, independent evaluation adviser\n\"I checked the registration totals and questionnaire counts against the collective's records; they matched. I also checked that the archive inventory contains the categories it reports. These checks confirm what the documents record, not every interpretation attached to them.\n\n\"The questionnaire has no comparison group and no before-and-after measure, so it can't show that the workshops caused a rise in confidence. Archive visits and workshop participants are not equivalent measures of reach. We have no consistent information on who takes part in either project, so we can't say which would do more to reduce inequality in participation.\n\n\"My recommendation is to get a specialist assessment of the tapes before treating loss as established. The committee could also ask the collective for a modest evaluation plan. Neither step gives us a common scale for cultural value. The final choice will still depend on how members weigh a possibly urgent preservation need against an existing program of participation. My role is to say what the evidence supports. I am not recommending either applicant.\"",
+      "source": "Придумано для курса: комиссия, проекты, люди и цифры вымышленные."
+    },
+    {
+      "id": "m4",
+      "title": "Кому ты пишешь / Two audiences",
+      "kind": "reference",
+      "text": "Essay readers: people following a public discussion about city arts funding. They can read the two short opinion pieces, but your essay should make sense on its own. Explain how the two arguments relate, evaluate their reasoning and defend your own position. Write 200–300 words in a formal but readable style. No special background is assumed.\n\nCommittee members: they are deciding a separate case, described in the dossier (M3). They need a recommendation they can act on, with each piece of evidence attributed to the right person and the main uncertainties made visible. Your essay's conclusion is not a rule the committee has adopted.",
+      "source": "Придумано для курса."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Прочитай M1. Напиши редактору одно-два предложения: главный тезис Mercer и её критерий. Сохрани слово, которое ограничивает тезис, и её исключение.",
+      "context": "presumption — исходное правило «по умолчанию»; criterion — признак, по которому оценивают.",
+      "guidance": {
+        "title": "Найди границу тезиса",
+        "body": "Слова normally, generally, unless, only when делают правило условным. Если их потерять, автор станет жёстче, чем в тексте. Перескажи тезис вместе с его границей.",
+        "example": "The report generally supports later start times, but only for high schools.",
+        "translation": "Отчёт в целом поддерживает более позднее начало уроков, но только для старших классов."
+      },
+      "hint": "Какое слово стоит у Mercer перед favor? И что она пишет о сохранении?",
+      "answers": [
+        "Mercer argues that public funding should normally favor projects that make meaningful participation possible for more residents. Her criterion is the removal of real barriers, not attendance alone, and she allows exceptions for preservation if they are specifically justified.",
+        "Mercer's thesis is that funding should, as a rule, go to projects that widen meaningful access. She judges projects by whether they remove practical barriers, and she accepts preservation as an exception that needs a specific case."
+      ],
+      "explanation": "Засчитывается, если есть граница тезиса (normally, as a rule, generally), критерий — снятие барьеров, а не число билетов, — и исключение для сохранения. Без normally Mercer выглядит так, будто требует всегда выбирать самую большую аудиторию, а этого в тексте нет.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Коллега пересказал M2 так: Reed thinks small audiences prove quality, and funded groups shouldn't have to explain anything. Перепиши пересказ в два предложения так, чтобы позиция Reed была в сильной версии.",
+      "context": "",
+      "guidance": {
+        "title": "Сильная версия позиции",
+        "body": "Пересказывай позицию так, чтобы автор под ней подписался. Проверь две вещи: что автор прямо отрицает и какие обязанности он оставляет.",
+        "example": "Mercer does not reject preservation; she asks that it be argued case by case.",
+        "translation": "Mercer не отвергает сохранение; она просит обосновывать его в каждом случае отдельно."
+      },
+      "hint": "Найди в M2 фразу, которая начинается с A modest audience is neither… И что Reed требует от получателей денег?",
+      "answers": [
+        "Reed argues that funding should protect cultural value that current demand may not show, and he rejects the idea that a small audience proves quality. He still expects funded groups to explain their work publicly and remove avoidable barriers.",
+        "Reed's point is that present popularity is a poor guide to cultural value, not that small audiences prove excellence. In his view, recipients must still explain their work and reduce unnecessary barriers."
+      ],
+      "explanation": "Засчитывается, если исправлены обе ошибки: Reed прямо пишет, что малая аудитория не доказывает качество, и оставляет получателям обязанность объяснять работу и снимать барьеры. Его главный вопрос — что исчезнет или не появится без поддержки.",
+      "materialIds": [
+        "m2"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Напиши ведущему дискуссии одно-два предложения: до какого места Mercer и Reed согласны и где согласие кончается. Используй Their agreement extends to…, but not to…",
+      "context": "extend to — распространяться на.",
+      "guidance": {
+        "title": "Где кончается согласие",
+        "body": "Both… Потом назови, на что согласие уже не распространяется: обычно это то, какой критерий стоит первым.",
+        "example": "The two reports agree on the cost, but their agreement does not extend to the timeline.",
+        "translation": "Два отчёта согласны в цене, но их согласие не распространяется на сроки."
+      },
+      "hint": "Что требуют от получателей денег оба автора? Считает ли кто-то из них размер аудитории достаточной мерой?",
+      "answers": [
+        "Both writers expect funded organizations to remove barriers and explain their public benefit, and neither treats audience size as enough. Their agreement extends to accountability, but not to the starting test: Mercer begins with broader access, whereas Reed begins with what would be lost without support.",
+        "Mercer and Reed agree that recipients should explain their work and reduce barriers, and that attendance alone proves little. Their agreement does not extend to which criterion should come first."
+      ],
+      "explanation": "Засчитывается, если названы общие требования (объяснять пользу, снимать барьеры, не мерить успех одной посещаемостью) и граница согласия — какой критерий первый.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи для ведущего: «Это спор не о фактах, а о приоритетах: никакие цифры посещаемости его не решат. Но он может привести к разным решениям, когда значимый проект сразу привлекает мало людей».",
+      "context": "settle — решить (спор); significant — значимый.",
+      "guidance": {
+        "title": "Факты или приоритеты",
+        "body": "Спроси себя: исчезнет ли спор, если принести новые сведения? Если нет, это спор о приоритетах. Но и он может дать разные решения в конкретном случае — назови, в каком.",
+        "example": "This is a disagreement about values, not data: a larger survey would not resolve it.",
+        "translation": "Это разногласие о ценностях, а не о сведений: более крупный опрос его не разрешит."
+      },
+      "hint": "Начни так: This is a disagreement about priorities, not facts…",
+      "answers": [
+        "This is a disagreement about priorities, not facts: no attendance figures will settle it. But it could lead to different decisions when a significant project attracts few people at first.",
+        "This is not a dispute about facts but about priorities; no attendance data could settle it. However, it may lead to different decisions when a significant project draws only a small audience at the start.",
+        "The disagreement concerns priorities rather than facts, so attendance figures cannot settle it. Still, it can produce different decisions when an important project attracts few people early on."
+      ],
+      "explanation": "Засчитывается, если сохранено «не о фактах, а о приоритетах», «никакие цифры не решат» и «может привести» (could, may, can), а не will. Significant и important — оба подходят; at first, at the start, early on — тоже.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь оцени. Напиши по одному предложению о каждом авторе: в чём его довод сильнее всего и где он перестаёт работать. Назови конкретную причину, а не «нельзя не согласиться».",
+      "context": "scrutiny — тщательная проверка; invoke — ссылаться на.",
+      "guidance": {
+        "title": "Сила и предел",
+        "body": "Оценка — это не I agree. Назови конкретное достоинство (что довод позволяет увидеть) и случай, где он слабеет. Добавленное тобой помечай как своё: I would argue…",
+        "example": "The survey's strength is its size; its weakness is that only volunteers replied.",
+        "translation": "Сила опроса — в его размере; слабость — в том, что ответили только добровольцы."
+      },
+      "hint": "Mercer: что она говорит о бесплатном входе? Где её правило может помешать? Reed: что он позволяет защитить и что в его доводе трудно проверить?",
+      "answers": [
+        "Mercer is most persuasive when she shows that free admission means little if the hours exclude shift workers, but her presumption may disadvantage work whose value is hard to show through current attendance. Reed rightly protects unfamiliar work that present demand undervalues, but I would argue that claims of future value need their own scrutiny, or any applicant could invoke them.",
+        "Mercer's strongest point is that real access is about barriers, not ticket counts; it weakens for valuable work that will never be popular. Reed's strongest point is that demand today is a poor guide to cultural value; his argument is weaker because it gives no way to test a claim of significance."
+      ],
+      "explanation": "Засчитывается, если у каждого автора названы конкретная сила и конкретный предел, а своя добавка помечена (I would argue) или явно твоя. Нельзя выдавать слабость за признание самого автора: Reed об этом не пишет.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем прошлые уроки синтеза. Открой M3. Напиши секретарю комиссии три предложения: что цифры досье решают, что они только сужают и что остаётся выбором самой комиссии.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: кто посчитал и что посчитали",
+        "body": "Вспоминаем уроки о синтезе: у каждого числа есть автор и единица счёта, а проверка документа — не одобрение вывода. Новое: отдели то, что цифры решают, от выбора, который за комиссию они не сделают.",
+        "example": "The budget rules out option C; the data narrow the choice between A and B; the rest is a question of priorities.",
+        "translation": "Бюджет исключает вариант C; сведения сужают выбор между A и B; остальное — вопрос приоритетов."
+      },
+      "hint": "$90,000 + $80,000 — это сколько, и сколько есть? 480 — это люди или посещения? Что сказала Foster о выборе?",
+      "answers": [
+        "The figures settle one thing: the committee cannot fund both packages, because together they cost $170,000 and only $120,000 is available. They narrow the rest: the workshops reached 160 people, not 480, and the archive's risk is a warning category that no specialist has confirmed yet. What they cannot settle is whether a possibly urgent preservation need should come before an existing program of participation; as Foster says, that depends on how the committee weighs them."
+      ],
+      "explanation": "Засчитывается, если верно посчитано $170,000 против $120,000, 480 названо посещениями, а не людьми, риск архива — не подтверждённым, и прямо сказано, что выбор между сохранением и участием делают не цифры, а приоритет комиссии.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи для комиссии рекомендацию: «При условии, что специалист подтвердит серьёзный риск потери записей, я рекомендую профинансировать архив. Если риск не подтвердится, комиссии стоит вернуться к мастерским: тогда вопрос в том, что она ставит выше — сохранение или участие сейчас».",
+      "context": "subject to — при условии; give priority to — ставить выше.",
+      "guidance": {
+        "title": "Условие и названный выбор",
+        "body": "Subject to… или If… ставит проверяемое условие рядом с решением. Вторая фраза называет ценностный выбор открыто, а не прячет его за цифрами.",
+        "example": "Subject to the inspection results, I recommend repairing the roof; if the roof is sound, the question is whether we value space or cost more.",
+        "translation": "При условии результатов осмотра я рекомендую ремонт крыши; если крыша в порядке, вопрос в том, что нам важнее — площадь или цена."
+      },
+      "hint": "Начни так: Subject to a specialist confirming…",
+      "answers": [
+        "Subject to a specialist confirming a serious risk of losing the recordings, I recommend funding the archive. If the risk is not confirmed, the committee should return to the workshops: the question then is whether it puts preservation or participation now first.",
+        "Provided that a specialist confirms a serious risk of loss, I recommend funding the archive. If that risk is not confirmed, the committee should reconsider the workshops; the question then becomes whether it gives priority to preservation or to participation now.",
+        "If a specialist confirms a serious risk that the recordings will be lost, I recommend funding the archive. If not, the committee should go back to the workshops, and the question is what it values more: preservation or participation now."
+      ],
+      "explanation": "Засчитывается, если условие проверяемое (специалист подтверждает риск), рекомендация условная, а во второй фразе выбор назван как приоритет комиссии. Subject to, provided that и if — все подходят.",
+      "materialIds": [
+        "m3"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Напиши оценочное эссе (200–300 слов) для читателей городской дискуссии о деньгах на культуру (M4). Опирайся на M1 и M2. Что должно быть: вопрос, на который отвечают оба текста; тезис каждого автора с его границей; где авторы согласны и где согласие кончается; спор назван спором о приоритетах; сила и предел каждого довода; твоя позиция — какой критерий ты ставишь первым и почему; твои добавки помечены как твои.",
+      "context": "",
+      "hint": "План: The question is… → Both writers… → Their agreement ends… → This is a disagreement about priorities… → X is most persuasive when…, but… → My own position… → This does not remove…",
+      "answers": [
+        "How should a city decide which cultural projects deserve public money? Mercer and Reed agree on more than their headlines suggest, but they disagree about which test should come first.\n\nBoth writers expect funded organizations to explain their public benefit and remove avoidable barriers, and neither treats audience size as proof of merit. Their agreement ends at the starting point. Mercer argues that funding should normally favor projects that widen meaningful access, with exceptions for preservation that must be argued case by case. Reed argues that funding should protect what present demand cannot show, so access should follow from cultural significance rather than serve as the entry test.\n\nThis is a disagreement about priorities, not facts, and no attendance figure could settle it. Mercer's strongest point is that free admission means little if the hours exclude shift workers. Her rule weakens, however, for valuable work that will never be popular. Reed protects exactly that work, but his argument offers no way to test a claim of future value. I would argue that without such a test, any applicant could invoke significance.\n\nMy own position is to ask every applicant two questions: what does public support make possible that would not exist otherwise, and what are you doing about access? A project with a small audience should face hard questions about significance rather than automatic rejection, and a popular program should show that it reaches people who are not already well served.\n\nThis approach does not make difficult choices disappear. It makes their basis visible: neither popularity nor claimed significance should replace a reasoned case for public benefit."
+      ],
+      "explanation": "Засчитывается, если оба тезиса пересказаны с границами и в сильной версии, согласие и его предел названы, спор назван спором о приоритетах, у каждого довода есть сила и предел, а позиция говорит, какой критерий первый и почему. Позиция на стороне Mercer или Reed тоже засчитывается, если она так же объяснена.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m4"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Выступи перед комиссией по M3: 2–3 минуты, первая фраза — рекомендация. Что должно быть: что цифры решают (бюджет) и что нет; одно число, которое легко понять неправильно, и как его понимать; что проверила Foster и чего она не говорила; какой выбор остаётся самой комиссии; условие твоей рекомендации и что делать, если оно не выполнится; один вопрос, на который в досье нет сведений. Запиши себя и сверь расшифровку с M3.",
+      "context": "",
+      "hint": "Начни так: My recommendation is… Переходы: The numbers settle one thing… / One figure is easy to misread… / What the numbers don't settle… / If the specialist…",
+      "answers": [
+        "My recommendation is to get a fast specialist assessment of the archive tapes before we decide, and to keep the three-week deadline in view.\n\nThe numbers settle one thing: we can't fund both. The archive asks for ninety thousand dollars and the workshops for eighty thousand. That's a hundred and seventy thousand, and we have a hundred and twenty. Neither package can be split.\n\nOne figure is easy to misread. The workshops report four hundred and eighty attendances, but that's a hundred and sixty people who came back several times. Of the ninety-six who answered the questionnaire, seventy-two felt more confident. That's encouraging, but there was no before-and-after measure, so it doesn't show that the workshops caused it.\n\nOn the archive side, a hundred and twenty tapes are flagged as possibly vulnerable. That's a warning category, not a prediction that they'll fail this year. Mei Foster checked that the records match the documents. She didn't confirm the risk, and she didn't recommend either project.\n\nSo what the numbers don't settle is a question of priorities: does a possibly urgent preservation need come before a program that's already reaching people? That's our call, not the data's.\n\nIf the specialist confirms a serious near-term risk, I'd fund the archive and keep the remaining thirty thousand in reserve. If the risk isn't confirmed, I think we should look again at the workshops.\n\nOne question we can't answer at all is which project would do more to reduce inequality in who takes part. We don't have comparable information about the participants in the two projects."
+      ],
+      "explanation": "Засчитывается, если рекомендация в первой фразе, бюджет посчитан верно, 480 объяснено как посещения, роль Foster передана точно, выбор назван выбором комиссии, у рекомендации есть условие и запасной ход, а нерешённый вопрос конкретный. Рекомендация в пользу мастерских тоже засчитывается, если она так же опирается на досье.",
+      "materialIds": [
+        "m3",
+        "m4"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Секретарь набросал записку для комиссии, и в ней почти всё перепутано. Перепиши её по M3 (150–220 слов): верни каждое утверждение его автору, исправь арифметику и числа, убери недоказанную причину, предложи выполнимое решение. В конце — одна фраза: какая правка самая важная и почему.\n\nЧерновик: \"The committee should fund both projects immediately. Their combined cost fits the $120,000 budget, and any difficulty can be solved by trimming each package slightly. Independent adviser Mei Foster confirms that 120 archive tapes will be lost this year and recommends the archive as the stronger application. Curator Sana Malik has also established that the theater workshops increased confidence by 75% across the community. The workshops reached 480 different people, while the archive served 900 different users, so the archive clearly provides greater public access. These figures prove that both projects reduce inequality. Since Reed and Mercer agree that the largest audience should always win, the earlier essay already gives us the correct decision rule. No further checks are needed; every statement in the dossier is equally verified.\"",
+      "context": "",
+      "hint": "Проверь по очереди: сумму двух заявок; кто что сказал; что такое 75%, 480 и 900; что на самом деле пишут Mercer и Reed.",
+      "answers": [
+        "The committee cannot fund both applications: together they cost $170,000, the budget is $120,000, and neither package can be split. I recommend requesting an urgent specialist assessment of the archive tapes before the three-week deadline. If a serious near-term risk is confirmed, I would fund the archive's $90,000 package and keep $30,000 in reserve.\n\nSana Malik reports 120 potentially vulnerable tapes, not 120 certain losses this year. Mei Foster checked that the inventory contains these categories; she did not confirm the risk or recommend either applicant.\n\nLeo Grant reports 160 participants and 480 attendances. Seventy-two of 96 respondents said they felt more confident: that is 75% of respondents, not a 75% rise across the community, and without a baseline it does not show cause. The archive's 900 visits are not 900 different users. Nothing in the dossier shows which project reduces inequality more.\n\nMercer and Reed never agree that the largest audience should win. Whether preservation or participation comes first is the committee's own choice, and the figures cannot make it.\n\nThe most important correction is that the figures limit the decision but do not make it: the remaining choice is about priorities."
+      ],
+      "explanation": "Засчитывается, если исправлены бюджет ($170,000 > $120,000, пакеты не делятся), слова Foster (проверила документы, не подтверждала риск и не выбирала), 75% (доля ответивших, а не рост), 480 и 900 (посещения, а не люди), ложное согласие Mercer и Reed, а рекомендация условная. Другой выбор допустим, если он так же точен.",
+      "materialIds": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    }
+  ]
+}

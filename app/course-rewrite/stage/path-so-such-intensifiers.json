@@ -1,0 +1,376 @@
+{
+  "id": "path-so-such-intensifiers",
+  "title": "So good, such a nice day: «так», «такой» и «просто потрясающе»",
+  "subtitle": "So или such → «настолько, что» → too и enough → absolutely с сильными словами",
+  "level": "B1",
+  "group": "Описание и связность",
+  "units": "Авторский маршрут · B1",
+  "minutes": 40,
+  "goal": "Сказать «Было так здорово!», «Это такой красивый город!», «Я так устал, что уснул» и «Вид просто потрясающий» — и выбрать so, such, too или absolutely без ошибок.",
+  "formula": "It was so good. → It was such a good day. → It was so hot that we stayed inside.",
+  "keyRule": {
+    "rule": "После описания есть предмет — ставь such. Предмета нет — ставь so.",
+    "example": "It's so cold. It's such a cold day. — Так холодно. Такой холодный день.",
+    "check": "Very amazing? Нет: сильное слово усиливают absolutely или really."
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "path-comparatives",
+    "path-connectors-basic"
+  ],
+  "recycles": [
+    "path-comparatives"
+  ],
+  "teaches": [
+    "so + описание без предмета — «так», «такой»: The city is so beautiful!",
+    "such a/an + описание + предмет: such a nice day; без a — с несколькими вещами и веществом: such nice people, such good weather",
+    "so many + вещи, so much + вещество: so many people, so much traffic",
+    "so … that и such … that — «настолько …, что»; that в разговоре часто пропускают: I was so tired I fell asleep",
+    "too + описание + to + действие: too far to walk; описание + enough + to: old enough to drive; enough + предмет: enough time",
+    "too — не «очень»: very warm (хорошо) ≠ too warm (мешает)",
+    "сильные слова amazing, awful, exhausted, freezing, huge, tiny, delicious — с absolutely или really, не с very",
+    "pretty good — «довольно хороший»; quite у американцев ближе к «очень, весьма»; not quite — «не совсем»"
+  ],
+  "sources": [
+    {
+      "title": "Ellii · So vs. Such",
+      "url": "https://ellii.com/blog/so-vs-such",
+      "notes": "Сверено: so + описание без предмета; such a/an + описание + предмет в единственном числе; such без a с несколькими вещами и веществом (such heavy rain, such good singers). Частые ошибки: so good movie и such good movie. Совет смотреть на предмет, а не на артикль взят как основа keyRule."
+    },
+    {
+      "title": "British Council LearnEnglish · Adjectives: gradable and non-gradable",
+      "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/adjectives-gradable-non-gradable",
+      "notes": "Сверено: very — только с обычными описаниями; сильные слова (amazing, awful, freezing, exhausted) уже содержат «очень» и усиливаются absolutely или really; really подходит к обоим типам."
+    },
+    {
+      "title": "Dictionary.com · quite",
+      "url": "https://www.dictionary.com/browse/quite",
+      "notes": "Сверено американское значение quite: «полностью», «по-настоящему», «в значительной степени»; значение «довольно, отчасти» отмечено в британской статье. Поэтому для «довольно» в уроке дан разговорный американский pretty."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "So или such: смотри, что стоит после описания",
+    "why": "So стоит перед одним описанием. Such нужен, когда после описания идёт предмет. A остаётся, только если предмет один.",
+    "items": [
+      {
+        "label": "Нет предмета — so",
+        "en": "The movie was so good.",
+        "ru": "Фильм был такой хороший.",
+        "note": "После good ничего нет."
+      },
+      {
+        "label": "Один предмет — such a",
+        "en": "It was such a good movie.",
+        "ru": "Это был такой хороший фильм.",
+        "note": "Movie — один, поэтому a."
+      },
+      {
+        "label": "Много или вещество — such",
+        "en": "They make such good movies.",
+        "ru": "Они снимают такие хорошие фильмы.",
+        "note": "Movies — несколько, a нет."
+      },
+      {
+        "label": "Результат — so … that",
+        "en": "The movie was so good that we watched it twice.",
+        "ru": "Фильм был настолько хорош, что мы посмотрели его дважды.",
+        "note": "После that — что из-за этого случилось."
+      }
+    ],
+    "footnote": "So good movie — ошибка: перед предметом нужно such.",
+    "focus": [
+      "so",
+      "such a",
+      "such",
+      "that"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Как сказать «так» и «такой»",
+      "body": "Ты вернулся из поездки и рассказываешь: «Было так здорово!», «Это такой красивый город!». Ты не просто описываешь, а показываешь, насколько тебя это впечатлило.\n\nПо-английски для этого два слова. So — «так», «такой» — ставят прямо перед описанием: It was so good! The city is so beautiful! Such — тоже «такой», но после него идёт предмет: It's such a beautiful city!\n\nSo сильнее и эмоциональнее, чем very. Very good — «очень хорошо», спокойно. So good — «так хорошо!», с чувством.\n\nЭто не so «поэтому» из урока о связках: It was late, so we left. Там so стоит между двумя мыслями после запятой. Здесь so стоит прямо перед описанием и усиливает его."
+    },
+    {
+      "title": "So или such: есть ли после описания предмет",
+      "body": "Смотри, что идёт после описания. Ничего — so: The soup is so good. Предмет — such: It's such good soup.\n\nОдин предмет, который можно посчитать, — such a или such an: such a nice day, such an easy test. Несколько вещей или вещество (water, weather, coffee) — such без a: such nice people, such good weather. Weather — вещество, поэтому such a good weather — ошибка.\n\nДве частые ошибки: so nice day (нужно such a) и such nice day (потерян a).\n\nПеред количеством — so many и so much: so many people — столько людей, so much traffic — столько машин на дороге. Many — с вещами, которые считают, much — с веществом. Such many не говорят."
+    },
+    {
+      "title": "So … that и such … that: «настолько, что»",
+      "body": "Иногда хочешь сказать не только «так холодно», но и что из-за этого случилось. Тогда после описания ставь that и результат: It was so cold that we stayed home — было так холодно, что мы остались дома. It was such a cold day that we stayed home — это был такой холодный день, что мы остались дома. Смысл одинаковый, выбор so или such — по тому же правилу.\n\nВ разговоре that часто пропускают: I was so tired I fell asleep on the bus — я так устал, что уснул в автобусе.\n\nНе путай с because: We stayed home because it was cold — причина. So … that выводит на первое место силу: «настолько холодно»."
+    },
+    {
+      "title": "Too и enough: слишком и достаточно — для чего",
+      "body": "Too и enough ты знаешь из урока о сравнении: too small — слишком маленький, big enough — достаточно большой.\n\nЧтобы сказать, для чего «слишком» или «достаточно», добавь to + действие: It's too far to walk — слишком далеко, чтобы идти пешком. He's old enough to drive — он достаточно взрослый, чтобы водить. Для кого — for: This jacket is too small for me.\n\nПеред предметом enough стоит впереди: enough time — достаточно времени, enough chairs — достаточно стульев.\n\nToo — не «очень». Too значит «больше, чем нужно, и это мешает». The jacket is very warm — куртка очень тёплая, это хорошо. The jacket is too warm — она слишком тёплая, в ней жарко."
+    },
+    {
+      "title": "Very good, но absolutely amazing",
+      "body": "Обычные описания — good, tired, cold, big — можно усилить: very, really, so. Есть и сильные слова, в которых «очень» уже есть: amazing — потрясающий, awful — ужасный, exhausted — измотанный, freezing — ледяной, huge — огромный, tiny — крошечный, delicious — очень вкусный. С ними very не ставят: very amazing — ошибка. Говорят absolutely amazing — «просто потрясающе» или really amazing.\n\nReally подходит ко всем: really good, really amazing.\n\nPretty перед описанием — не «красивый», а «довольно»: pretty good — довольно хороший, неплохой. Так американцы говорят постоянно.\n\nQuite у американцев ближе к «весьма» и звучит официальнее. Not quite — «не совсем»: I'm not quite ready. (В Британии quite часто значит «довольно».)"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The concert was so good!",
+      "ru": "Концерт был такой классный!",
+      "why": "После good нет предмета, поэтому so."
+    },
+    {
+      "en": "It was such a long day.",
+      "ru": "Это был такой длинный день.",
+      "why": "После long идёт предмет day, он один — such a."
+    },
+    {
+      "en": "Your parents are such nice people.",
+      "ru": "Твои родители такие милые люди.",
+      "why": "People — несколько человек, поэтому such без a."
+    },
+    {
+      "en": "There was so much traffic that I was late.",
+      "ru": "Было столько машин, что я опоздал.",
+      "why": "Traffic — вещество, не считается: so much. После that — результат."
+    },
+    {
+      "en": "I was so tired I fell asleep on the bus.",
+      "ru": "Я так устал, что уснул в автобусе.",
+      "why": "That пропущен — в разговоре так говорят постоянно."
+    },
+    {
+      "en": "This box is too heavy to lift.",
+      "ru": "Эта коробка слишком тяжёлая, её не поднять.",
+      "why": "Too + to + действие: из-за веса поднять нельзя."
+    },
+    {
+      "en": "The room is very small, but it's big enough for us.",
+      "ru": "Комната очень маленькая, но нам хватает.",
+      "why": "Very small — просто факт. Big enough for us — достаточно для нас, ничего не мешает."
+    },
+    {
+      "en": "The view was absolutely amazing.",
+      "ru": "Вид был просто потрясающий.",
+      "why": "Amazing — сильное слово, поэтому absolutely, а не very."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты в Сан-Франциско и пишешь другу первое впечатление: «Город такой красивый!»",
+      "context": "beautiful — красивый.",
+      "guidance": {
+        "title": "Нет предмета — so",
+        "body": "После beautiful в этой фразе ничего не идёт: «город» стоит в начале. Значит, перед описанием просто so.",
+        "example": "The beach is so clean!",
+        "translation": "Пляж такой чистый!"
+      },
+      "hint": "Начни так: The city is … Что стоит после beautiful?",
+      "answers": [
+        "The city is so beautiful!",
+        "The city is so beautiful.",
+        "San Francisco is so beautiful!",
+        "San Francisco is so beautiful.",
+        "The city's so beautiful!"
+      ],
+      "explanation": "Предмет city стоит в начале, после beautiful ничего нет — значит, so. The city is very beautiful тоже правильно, но звучит спокойнее."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга помогла тебе с переездом в субботу. Скажи ей: «Ты такой хороший друг!»",
+      "context": "",
+      "guidance": {
+        "title": "Есть предмет — such a",
+        "body": "После good идёт предмет friend, и он один. Значит, such a + описание + предмет.",
+        "example": "It was such a nice evening.",
+        "translation": "Это был такой приятный вечер."
+      },
+      "hint": "Что идёт после good? Начни так: You're such …",
+      "answers": [
+        "You're such a good friend!",
+        "You are such a good friend!",
+        "You're such a good friend.",
+        "You are such a good friend.",
+        "You're such a great friend!",
+        "You are such a great friend!"
+      ],
+      "explanation": "Friend — один предмет после описания, поэтому such a good friend. So good friend — ошибка: so перед предметом не ставят."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты пишешь отзыв о кафе: «Здесь такой вкусный кофе и такие приветливые официанты!» Используй such два раза.",
+      "context": "friendly — приветливый, server — официант. Начни с They have …",
+      "guidance": {
+        "title": "Вещество или много вещей — such без a",
+        "body": "Кофе не считают, официантов несколько. В обоих случаях such без a.",
+        "example": "We had such good weather in Miami.",
+        "translation": "В Майами у нас была такая хорошая погода."
+      },
+      "hint": "Начни так: They have such good … Нужен ли a перед coffee и перед servers?",
+      "answers": [
+        "They have such good coffee and such friendly servers!",
+        "They have such good coffee and such friendly servers.",
+        "They have such great coffee and such friendly servers!",
+        "They have such delicious coffee and such friendly servers!",
+        "They have such good coffee and such nice servers!",
+        "This place has such good coffee and such friendly servers!"
+      ],
+      "explanation": "Coffee — вещество, servers — несколько человек, поэтому оба раза such без a. Such a good coffee — ошибка."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Утром друг спрашивает, почему ты не ответил на его сообщение вечером. Объясни: «Я так устал, что уснул в девять».",
+      "context": "tired — устал, fall asleep (fell asleep) — уснуть (уснул).",
+      "guidance": {
+        "title": "Добавь результат через that",
+        "body": "После so + описание поставь that и то, что из-за этого случилось. В разговоре that можно пропустить.",
+        "example": "The movie was so boring that I left early.",
+        "translation": "Фильм был такой скучный, что я ушёл раньше."
+      },
+      "hint": "Начни так: I was so tired … Что случилось из-за этого?",
+      "answers": [
+        "I was so tired that I fell asleep at nine.",
+        "I was so tired I fell asleep at nine.",
+        "I was so tired that I fell asleep at 9:00.",
+        "I was so tired I fell asleep at 9:00.",
+        "I was so tired that I fell asleep at nine o'clock.",
+        "I was so tired I fell asleep at nine o'clock."
+      ],
+      "explanation": "So tired — сила, that I fell asleep — результат. Засчитывается и с that, и без него."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Вспоминаем too из урока о сравнении. Подруга предлагает пойти на концерт пешком, но до него 5 миль. Ответь: «Слишком далеко, чтобы идти пешком. Давай возьмём такси».",
+      "context": "far — далеко, walk — идти пешком, take a taxi — взять такси.",
+      "guidance": {
+        "title": "Вспоминаем too — и добавляем «чтобы»",
+        "body": "Вспоминаем: too — «слишком», больше, чем можно. Чтобы сказать, что именно из-за этого нельзя, добавь to + действие.",
+        "example": "The coffee is too hot to drink.",
+        "translation": "Кофе слишком горячий, его не выпить."
+      },
+      "hint": "Начни так: It's too far … Потом предложение с Let's.",
+      "answers": [
+        "It's too far to walk. Let's take a taxi.",
+        "It is too far to walk. Let's take a taxi.",
+        "It's too far to walk. Let's take a cab.",
+        "It's too far to walk. Let's get a taxi.",
+        "It's too far to walk there. Let's take a taxi.",
+        "It's too far to walk. Let's take an Uber."
+      ],
+      "explanation": "Too far to walk: слишком далеко, и поэтому пешком нельзя. It's very far to walk звучит странно: very не говорит, что из-за расстояния ничего не выйдет."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты примеряешь куртку, продавец спрашивает, как она тебе. Ответь: «Она очень тёплая, мне нравится. Но она слишком большая для меня».",
+      "context": "warm — тёплый, big — большой.",
+      "guidance": {
+        "title": "Very — хорошо, too — мешает",
+        "body": "Very только усиливает. Too говорит, что из-за этого вещь не подходит. «Для меня» — for me после описания.",
+        "example": "The room is very small, but it's cozy. It's too small for four people.",
+        "translation": "Комната очень маленькая, но уютная. Для четверых она слишком маленькая."
+      },
+      "hint": "Тёплая — это хорошо или мешает? А большая? Начни так: It's very warm …",
+      "answers": [
+        "It's very warm. I like it. But it's too big for me.",
+        "It's very warm, and I like it. But it's too big for me.",
+        "It's very warm. I like it, but it's too big for me.",
+        "It's really warm. I like it. But it's too big for me.",
+        "It's so warm. I like it. But it's too big for me.",
+        "It is very warm. I like it. But it is too big for me."
+      ],
+      "explanation": "Тепло — плюс, поэтому very (или really, so). Размер мешает, поэтому too big for me. Too warm значило бы, что в куртке жарко."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг спрашивает, как было в Гранд-Каньоне. Ответь: «Вид был просто потрясающий, но я был совершенно измотан».",
+      "context": "view — вид, amazing — потрясающий, exhausted — измотанный.",
+      "guidance": {
+        "title": "Сильное слово — absolutely",
+        "body": "Amazing и exhausted уже значат «очень». Very к ним не ставят — усиливай через absolutely или really.",
+        "example": "The food was absolutely delicious.",
+        "translation": "Еда была просто восхитительная."
+      },
+      "hint": "Что поставить перед amazing и exhausted вместо very?",
+      "answers": [
+        "The view was absolutely amazing, but I was absolutely exhausted.",
+        "The view was absolutely amazing, but I was really exhausted.",
+        "The view was really amazing, but I was absolutely exhausted.",
+        "The view was really amazing, but I was really exhausted.",
+        "The view was absolutely amazing, but I was totally exhausted.",
+        "The view was absolutely amazing, but I was completely exhausted."
+      ],
+      "explanation": "С amazing и exhausted ставят absolutely или really; totally и completely exhausted тоже звучат естественно. Very amazing — ошибка."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Подруга пишет отзыв об отеле и просит проверить: It was so nice hotel. The pool was very amazing, and the beds were such comfortable. We had so much fun! Исправь ошибки и перепиши отзыв целиком. Одна фраза уже правильная.",
+      "context": "pool — бассейн, comfortable — удобный.",
+      "guidance": {
+        "title": "Проверь каждую фразу по очереди",
+        "body": "Для каждой фразы задай два вопроса. Есть ли после описания предмет? Сильное это слово или обычное?",
+        "example": "It was such a cute café. The cake was absolutely delicious.",
+        "translation": "Это было такое милое кафе. Торт был просто восхитительный."
+      },
+      "hint": "После nice идёт hotel? После comfortable есть предмет? Amazing — сильное слово?",
+      "answers": [
+        "It was such a nice hotel. The pool was absolutely amazing, and the beds were so comfortable. We had so much fun!",
+        "It was such a nice hotel. The pool was really amazing, and the beds were so comfortable. We had so much fun!",
+        "It was such a nice hotel. The pool was absolutely amazing, and the beds were really comfortable. We had so much fun!",
+        "It was such a nice hotel. The pool was absolutely amazing, and the beds were very comfortable. We had so much fun!"
+      ],
+      "explanation": "Hotel — предмет, поэтому such a nice hotel. Amazing — сильное, поэтому absolutely или really. После comfortable нет предмета — so. So much fun правильно: fun — не считается."
+    },
+    {
+      "id": "e9",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Твой друг написал скучный отзыв о ресторане: The restaurant was good. The food was very good. The portions were big. The line was long, and we waited for forty minutes. The dessert was very good. Перепиши его живее, 50–80 слов. В нём: одна фраза со so; одна с such (a); одна с so … that или such … that; одно сильное слово с absolutely или really.",
+      "context": "portion — порция, line — очередь, dessert — десерт, huge — огромный.",
+      "hint": "Начни так: It was such a … restaurant! Очередь и ожидание соедини через so long that …",
+      "answers": [
+        "It was such a great restaurant! The food was absolutely delicious, and the portions were huge. The line was so long that we waited for forty minutes, but it was worth it. And the dessert was so good! We'll definitely come back.",
+        "It was such a great place! The food was so good, and the portions were huge. There were so many people that we waited in line for forty minutes. But the dessert was absolutely amazing, so I'm not complaining!"
+      ],
+      "explanation": "Засчитывается, если есть so перед описанием без предмета, such (a) перед описанием с предметом, одна фраза с результатом через that и сильное слово с absolutely или really, а не very."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Друг едет на неделю в город, где ты уже был, и спрашивает совета. Напиши ему сообщение на 60–100 слов. В нём: что тебе там больше всего понравилось (so или such); одно сильное впечатление с absolutely или really; одна история с so … that или such … that; одно предупреждение с too или enough; совет, что взять или где остановиться.",
+      "context": "worth it — стоит того, crowded — переполненный, bring — взять с собой, comfortable shoes — удобная обувь.",
+      "hint": "Начни так: You're going to love … It's such a … city!",
+      "answers": [
+        "You're going to love Chicago! It's such a beautiful city, and the people are so friendly. The view from the Willis Tower is absolutely amazing, but the line was so long that we waited for an hour, so buy tickets online. In January it's too cold to walk around for long, so bring a warm jacket. Also, one week isn't enough time to see everything, so choose three or four places.",
+        "Boston is so nice in the fall! The old streets are absolutely beautiful. We walked so much that my feet hurt every evening, so bring comfortable shoes. The hotels downtown are too expensive for me, so I stayed near the subway in Cambridge. It was cheap enough and really quiet."
+      ],
+      "explanation": "Засчитывается, если есть so или such по правилу о предмете, сильное слово с absolutely или really, результат через that, too или enough в верном месте и практический совет другу."
+    },
+    {
+      "id": "e11",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Расскажи вслух за 30–60 секунд о самом удачном или самом неудачном дне своего последнего отпуска. В рассказе: где ты был; что было so или such; один результат через so … that; одно сильное слово (amazing, awful, freezing, exhausted) с absolutely или really; одна фраза с too или enough.",
+      "context": "vacation — отпуск, awful — ужасный, freezing — ледяной холод, rain — дождь.",
+      "hint": "Начни так: The best day of my vacation was … It was such a … day.",
+      "answers": [
+        "The worst day of my last vacation was in Seattle. It was such a cold, rainy day. We wanted to go on a boat tour, but the wind was so strong that they canceled it. I was absolutely freezing, and my jacket wasn't warm enough. So we went to a small café and drank hot chocolate. The café was so cozy that we stayed there for three hours. In the end it was a pretty good day.",
+        "The best day of my vacation was on a beach in Florida. The water was so warm, and the sand was absolutely perfect. It was such a sunny day that I got a sunburn. In the evening I was too tired to go out, so we ordered pizza and watched the sunset. It was really amazing."
+      ],
+      "explanation": "Засчитывается, если в рассказе есть so и such по правилу, результат с that, сильное слово без very и too или enough на своём месте. Прослушай запись: so и such обычно звучат с ударением."
+    }
+  ]
+}

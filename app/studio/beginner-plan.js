@@ -1,9 +1,10 @@
 import {authoredExerciseID,isGuidedLesson} from './authored-exercise.js';
 import {lessonSequence} from './lesson-sequence.js';
+import {createDaySession,independentTask} from './day-session-model.js';
 
 // Practice completion is not a CEFR or mastery claim. Old revisions and failed
 // answers do not move a beginner past a construction they have not practiced.
-export function beginnerPlan(data,{level,minutes,domain},now){
+export function beginnerPlan(data,{level,minutes,domain,daySession=false},now){
  if(!['A1','A2'].includes(level))return null;
  const sequence=lessonSequence(data.lessons,data.learningPath),wanted=new Set();
  const include=lesson=>{if(!lesson||wanted.has(lesson.id))return;wanted.add(lesson.id);for(const id of lesson.prerequisites||[])include(sequence.find(r=>r.lesson.id===id)?.lesson);};
@@ -11,6 +12,10 @@ export function beginnerPlan(data,{level,minutes,domain},now){
  const lessons=sequence.filter(r=>wanted.has(r.lesson.id)).map(r=>r.lesson);
  const latest=new Map();for(const a of data.state?.attempts||[]){const at=Date.parse(a.at);if(!Number.isFinite(at)||at>now.getTime())continue;const key=a.lessonId+':'+a.exerciseId,previous=latest.get(key);if(!previous||at>=Date.parse(previous.at))latest.set(key,a);}
  const pending=lesson=>lesson.exercises.filter(e=>{const a=latest.get(lesson.id+':'+authoredExerciseID(e));return !a?.answer?.trim()||['partial','incorrect'].includes(a.feedback?.verdict);});
+ const skillOf=lesson=>lesson.id==='path-sound-basics'?'pronunciation':lesson.id==='path-listening-routine'?'listening':'grammar';
+ // Day session: the first lesson with open work anchors the day; its free speaking
+ // task is covered by the day's speak step, so it never holds the lesson back.
+ if(daySession){const anchor=lessons.find(l=>pending(l).some(e=>!(independentTask(e)&&e.kind==='speak')));if(anchor){const open=new Set(pending(anchor));const plan=createDaySession(data,{lesson:anchor,level,minutes,domain,now,beginner:true,skill:skillOf(anchor),pending:e=>open.has(e)});if(plan)return plan;}}
  const remaining=lessons.filter(l=>pending(l).length);if(!remaining.length)return null;
  const day=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
  const selected=remaining.slice(0,Math.max(1,Math.floor(minutes/30)));

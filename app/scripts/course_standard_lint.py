@@ -92,6 +92,9 @@ def english_fields(lesson):
     for i, e in enumerate(lesson.get("examples", [])):
         yield f"examples[{i}].en", e.get("en", "")
     for m in lesson.get("materials", []) or []:
+        # A real recording's transcript or a published figure is quoted as said; it is not ours to Americanize.
+        if any(m.get(k) for k in ("audioFile", "sourceUrl", "inputSkill", "figure")):
+            continue
         yield f"materials[{m.get('id')}]", m.get("text", "")
     visual = lesson.get("visual") or {}
     for i, item in enumerate(visual.get("items", []) or []):

@@ -1,6 +1,9 @@
 import {$,$$,esc,icon,api,toast,busy,uid,dateKey,formatDate,words,getDraft,queueDraft,feedbackHTML,bindMistakes,cardModal,empty,mediaURL,openModal,progressLesson,clipUTF8} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
 import {mountVoiceSettings} from './voice-settings.js';
+import {dayContext,dayNextHTML,dayDotsHTML} from './day-session.js';
+import {dayWatchKey} from './day-session-model.js';
+import {dayNotesJournalHTML} from './day-notes.js';
 const heading=(title,sub,extra='')=>`<div class="page-head"><div><h1>${title}</h1><p>${sub}</p></div>${extra}</div>`;
 const passages=[
  {title:'A different kind of morning',text:"For years, Nina checked her phone before getting out of bed. By the time she started work, she already felt tired. Last month she decided to try something different. She left her phone in the kitchen and put a book beside her bed. At first, she found it difficult to resist checking messages. After a week, however, she began to enjoy the quiet. She hasn't stopped using social media, but she no longer lets it decide how her day begins. The biggest surprise was that she didn't need more free time. She just needed to use the first twenty minutes differently.",task:'Почему Нина изменила привычку? Что было труднее всего и какой вывод она сделала? Ответь по-английски, затем опиши похожую перемену в своей жизни.'},
@@ -41,6 +44,7 @@ export function plannedPractice(raw,mode,day,blockId){
 }
 export function mountPractice(root,data,mode,refresh,planned=null){
  if(!modes.some(m=>m[0]===mode))mode='writing';let index=practiceTaskIndex(getDraft('practice-index:'+mode,data.state),tasks[mode]?.length||passages.length),conversation=[],currentPrompt='',source='',requestID=uid(),currentMode=mode==='speaking'?'writing':mode,taskVersion=0;
+ const dayCtx=planned?.blockId==='day-write'?dayContext(data):null,clipPhrase=dayCtx?(()=>{try{return JSON.parse(getDraft(dayWatchKey(dayCtx.day),data.state)||'null')?.phrase||'';}catch{return '';}})():'';
  const taskStoreKey=planned?'planner:practice:'+planned.day+':'+planned.blockId:'practice-task:'+mode;
  let generated=planned?.task||restorePracticeTask(getDraft(taskStoreKey,data.state));
  let selectedLevel=generated?.level||getDraft('practice-level',data.state)||'B1';
@@ -65,7 +69,8 @@ export function mountPractice(root,data,mode,refresh,planned=null){
    <div class="exercise-actions"><div class="actions"><button id="read-answer" class="btn ghost small" aria-label="Прослушать свой текст">${icon('sound')}</button></div><button id="check" class="btn primary">Получить разбор ${icon('arrow')}</button></div>
    <audio class="audio-preview" id="audio-preview" controls hidden></audio><p class="small-note" style="margin-top:15px">Запись можно прослушать до ухода со страницы. Расшифровка и разбор сохраняются в журнале; оценка произношения по тексту не выставляется.</p>
    <div id="feedback"></div><div id="followup"></div>`;
-  if(planned)$('#practice-work').insertAdjacentHTML('afterbegin',`<p class="small-note"><a href="#/today">${icon('back')} План на ${esc(new Date(planned.day+'T12:00:00').toLocaleDateString('ru-RU',{day:'numeric',month:'long'}))}</a> · ${esc(planned.task.level)}</p>`);
+  if(planned)$('#practice-work').insertAdjacentHTML('afterbegin',dayCtx?`<div class="day-practice-top"><a class="small-note" href="#/today" data-day-stop>${icon('close')} На сегодня хватит</a>${dayDotsHTML(dayCtx,'write')}</div>`:`<p class="small-note"><a href="#/today">${icon('back')} План на ${esc(new Date(planned.day+'T12:00:00').toLocaleDateString('ru-RU',{day:'numeric',month:'long'}))}</a> · ${esc(planned.task.level)}</p>`);
+  if(clipPhrase)$('#practice-prompt').insertAdjacentHTML('afterend',`<p class="small-note">Фраза из ролика: <span lang="en">${esc(clipPhrase)}</span></p>`);
   if(!planned)$('#practice-work').insertAdjacentHTML('afterbegin',`<div class="practice-task-controls"><select id="practice-level" aria-label="Уровень нового задания">${['A1','A2','B1','B2','C1','C2'].map(l=>`<option ${l===selectedLevel?'selected':''}>${l}</option>`).join('')}</select><input id="task-topic" placeholder="Интересы: работа, кино, путешествия…" aria-label="Тема нового задания"><button class="btn small" id="ai-task">${icon('spark')} Новая ситуация</button></div><p class="small-note">Уровень применяется к новой ситуации. ${generated?`Текущее задание: ${esc(generated.level||'B1–B2')}.`:'Сохранённые примеры рассчитаны на B1–B2.'}</p>`);
   if($('#practice-level'))$('#practice-level').onchange=e=>{selectedLevel=e.target.value;queueDraft('practice-level',selectedLevel);};
   const target=$('#answer'),onText=()=>{queueDraft(key,target.value);$('#word-count').textContent=words(target.value)+' слов';requestID=uid();$('#feedback').innerHTML='';$('#followup').innerHTML='';};$('#word-count').textContent=words(target.value)+' слов';target.oninput=()=>{currentMode=mode==='speaking'?'writing':mode;onText();};
@@ -84,6 +89,7 @@ export function mountPractice(root,data,mode,refresh,planned=null){
    const a=await api('/check',payload);
    await refresh();if($('#answer')!==target||target.value!==submitted){toast('Разбор предыдущей версии сохранён в журнале.');return;}
    $('#feedback').innerHTML=feedbackHTML(a);bindMistakes($('#feedback'));conversation.push({question:currentPrompt,answer:target.value});
+   if(dayCtx){$('#followup').innerHTML=`<div class="day-after"><p class="small-note">Перепиши самое слабое предложение и проверь ещё раз.</p>${dayNextHTML(dayCtx,'write')}</div>`;return;}
    $('#followup').innerHTML=a.feedback.followUp?`<div class="followup"><div class="eyebrow">Продолжим мысль</div><p>${esc(a.feedback.followUp)}</p><div class="actions"><button class="btn small" id="respond">Ответить ${icon('arrow')}</button><button class="btn small ghost" id="listen-question">${icon('sound')} Послушать</button></div></div>`:'';
    if($('#respond'))$('#respond').onclick=()=>{stopAudio();generated={id:uid(),title:'Продолжение разговора',prompt:a.feedback.followUp,passage:source,level:generated?.level||'B1',conversation:conversation.slice(-6)};queueDraft(taskStoreKey,JSON.stringify(generated));draw();$('#answer').focus();};
    if($('#listen-question'))$('#listen-question').onclick=()=>speak(a.feedback.followUp);
@@ -134,6 +140,7 @@ export function mountJournal(root,data){
  <div class="card"><h3>Баланс практики</h3><div class="skills-bars">${skills.map(([t,n])=>`<div class="skill-row"><span>${t}</span><div class="progress-track"><span style="width:${n/max*100}%"></span></div><span>${n}</span></div>`).join('')}</div><p class="small-note" style="margin-top:15px">Количество ответов по форматам; это не оценка владения навыком.</p></div></div>
  <div class="section-heading"><h2>Журнал ответов</h2><span class="small-note">${p.attempts.length} ответов · ${graded.length} с оценкой</span></div>
  <div class="filters"><div class="search">${icon('search')}<input id="history-search" aria-label="Поиск в журнале" placeholder="Найти фразу, тему или ошибку…"></div><select id="history-filter" aria-label="Фильтр ответов"><option value="all">Все ответы</option><option value="mistakes">Нужно доработать</option><option value="correct">Верные</option><option value="ungraded">Без оценки</option></select></div><div id="history-list"></div>`;
+ const dayNotes=dayNotesJournalHTML(p);if(dayNotes)$('.grid2',root).insertAdjacentHTML('afterend',dayNotes);
  root.insertAdjacentHTML('beforeend',`<details class="surface progress-storage"><summary>Как и где сохраняется мой прогресс</summary><p>Ответы, разборы, карточки, интервалы повторения, отметки занятий и время практики автоматически записываются сервером. При обычном запуске через Start-English.cmd файл находится в <code>app/data/studio/progress.json</code>. Рядом находится <code>progress.json.bak</code> — предыдущая успешная версия.</p><p>Черновик сначала сохраняется в браузере, затем отправляется серверу. Изображения хранятся отдельно в <code>app/data/studio/media/</code>. Голосовые записи доступны на странице; для постоянного хранения скачай запись.</p><p>Это локальный профиль на этом компьютере. Облачная синхронизация не настроена. «Экспорт JSON» сохраняет переносимую копию текстового прогресса; «Снимок для Git» в настройках создаёт файл для ручного коммита.</p><a class="text-link" href="#/settings">Резервная копия и перенос ${icon('arrow')}</a></details>`);
  function draw(){
   const q=$('#history-search').value.toLowerCase(),filter=$('#history-filter').value,items=[...p.attempts].reverse().filter(a=>(a.answer+' '+a.prompt+' '+a.feedback.explanation).toLowerCase().includes(q)&&(filter==='all'||filter==='mistakes'&&['partial','incorrect'].includes(a.feedback.verdict)||a.feedback.verdict===filter));

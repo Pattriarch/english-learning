@@ -1,0 +1,346 @@
+{
+  "id": "path-present-perfect-for-since",
+  "title": "For и since: сколько это длится до сих пор",
+  "subtitle": "Срок до сейчас → for или since → How long…? → срок уже закончился",
+  "level": "A2",
+  "group": "Времена",
+  "units": "Авторский маршрут · A2",
+  "minutes": 25,
+  "goal": "Сказать, сколько длится то, что идёт до сих пор: «Я живу здесь два года», «Я знаю его с 2020 года», — и спросить: «Сколько ты здесь работаешь?»",
+  "formula": "I've lived here for two years. → I've lived here since 2024. → How long have you lived here?",
+  "keyRule": {
+    "rule": "Длится до сих пор — have + третья форма. Длина срока — for, начало — since.",
+    "example": "I've lived here for two years — я живу здесь два года. I've lived here since 2024 — с 2024 года.",
+    "check": "I live here for two years — так нельзя: нужен have."
+  },
+  "beginner": true,
+  "guided": true,
+  "introSections": 2,
+  "introExamples": 2,
+  "prerequisites": [
+    "path-present-perfect"
+  ],
+  "recycles": [
+    "path-past-simple",
+    "path-present-perfect"
+  ],
+  "teaches": [
+    "срок до сейчас — have/has + третья форма, а не present simple: I've lived here for two years (не I live here for two years)",
+    "for + длина срока: for two years, for a week, for ten minutes, for a long time",
+    "since + точка начала: since 2024, since May, since Monday, since 9 a.m., since last summer",
+    "вопрос How long have you…? и короткий ответ: For two years. / Since 2024.",
+    "третьи формы для срока: lived, worked, known (know — knew — known), had, been",
+    "отрицание со сроком: I haven't seen him for a year / since May",
+    "срок закончился — past simple + for: I lived in Boston for two years; since с ним не ставят",
+    "ago и for об одном факте: I moved here two years ago. I've lived here for two years.",
+    "слова: company, know — knew — known, move — переехать, airport, ago"
+  ],
+  "sources": [
+    {
+      "title": "British Council LearnEnglish · Present perfect",
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect",
+      "notes": "Сверено: present perfect с for (длина срока) и since (точка начала) — о том, что началось в прошлом и длится до сейчас; законченный срок (I lived in Rome for ten years) — past simple."
+    },
+    {
+      "title": "EF English Grammar · Present perfect with for and since",
+      "url": "https://www.ef.com/english-resources/english-grammar/present-perfect-and/",
+      "notes": "Сверены списки для for (for a week, for two hours) и since (since yesterday, since 2 o'clock) и то, что since ставят только с формой have, а for — и с past simple."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Длится до сих пор — или уже закончилось?",
+    "why": "For и since считают срок, который дошёл до сегодняшнего дня. Если срок закончился, have не нужен.",
+    "items": [
+      {
+        "label": "Длина срока → for",
+        "en": "I've lived here for two years.",
+        "ru": "Я живу здесь два года.",
+        "note": "Two years — сколько. Живу здесь и сейчас."
+      },
+      {
+        "label": "Точка начала → since",
+        "en": "I've lived here since 2024.",
+        "ru": "Я живу здесь с 2024 года.",
+        "note": "2024 — когда всё началось."
+      },
+      {
+        "label": "Уже не так → past simple",
+        "en": "I lived in Boston for two years.",
+        "ru": "Я жил в Бостоне два года.",
+        "note": "Сейчас живу в другом месте: lived без have."
+      }
+    ],
+    "footnote": "Русское «живу» в настоящем времени здесь переводится через have + lived. I live here for two years — ошибка.",
+    "focus": [
+      "for two years",
+      "since 2024",
+      "lived in Boston"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему «я живу здесь два года» — это не I live",
+      "body": "Новый сосед спрашивает: How long have you lived here? — «Сколько ты здесь живёшь?» По-русски ты ответишь в настоящем времени: «Я живу здесь два года». Ты жил здесь раньше и живёшь сейчас.\n\nПо-английски такой срок говорят через have + третья форма — ту же форму, что в прошлом уроке: I have lived here for two years. Дословно: «я прожил здесь два года — и живу до сих пор». For — «в течение»: оно стоит перед длиной срока.\n\nФраза I live here for two years — ошибка. Present simple (I live) говорит о том, что бывает обычно. Срок от прошлого до сегодняшнего дня он не считает.\n\nПравило работает, только когда срок тянется до сейчас. Если ты там уже не живёшь, нужен past simple: I lived there for two years — я жил там два года."
+    },
+    {
+      "title": "For — сколько, since — с какого момента",
+      "body": "For ставим перед длиной срока: for two years — два года, for a week — неделю, for ten minutes — десять минут, for a long time — давно. Since — «с» — ставим перед точкой, когда всё началось: since 2024 — с 2024 года, since May — с мая, since Monday — с понедельника, since 9 a.m. — с девяти утра.\n\nПроверь себя: отвечаешь на «сколько?» — for. На «с какого момента?» — since. Since two years — ошибка: два года — это длина, а не точка."
+    },
+    {
+      "title": "Вопрос: How long have you…?",
+      "body": "«Сколько ты уже…?» — это How long («как долго») и вопрос в форме с have: have или has встаёт перед человеком. How long have you worked here? — Сколько ты здесь работаешь? How long has she lived in Denver? — Сколько она живёт в Денвере? Отвечают коротко: For three years. / Since 2023. How long do you work here? — ошибка: в вопросе о сроке тоже нужен have."
+    },
+    {
+      "title": "Какие глаголы подходят: live, work, know, have, be",
+      "body": "Срок до сейчас чаще всего называют с такими глаголами: live — lived, work — worked, know — knew — known (знать), have — had — had (иметь), be — was/were — been. I've known Tom for ten years — я знаю Тома десять лет. We've had this car since 2020 — эта машина у нас с 2020 года. Have had — не опечатка: первое have — помощник, второе — третья форма «иметь».\n\nС отрицанием подходит любое действие: I haven't seen him for a year — я не видел его год."
+    },
+    {
+      "title": "Срок закончился — past simple",
+      "body": "Если срок закончился, have не нужен: I lived in Boston for two years — я жил в Бостоне два года, а сейчас живу в другом месте. For подходит обоим временам, а since — только форме с have.\n\nОдин факт можно сказать двумя фразами. Ago — «назад» — отмечает момент в прошлом, поэтому с ним past simple: I moved here two years ago — я переехал сюда два года назад (move — переезжать). А срок от того момента до сейчас: I've lived here for two years."
+    }
+  ],
+  "examples": [
+    {
+      "en": "I've lived in Chicago for five years.",
+      "ru": "Я живу в Чикаго пять лет.",
+      "why": "Живу до сих пор, поэтому have + lived. Five years — длина срока, значит for."
+    },
+    {
+      "en": "She's worked at the hospital since 2021.",
+      "ru": "Она работает в больнице с 2021 года.",
+      "why": "2021 — точка начала, поэтому since. She's здесь значит she has: дальше третья форма."
+    },
+    {
+      "en": "How long have you known Mike? — Since college.",
+      "ru": "Сколько ты знаешь Майка? — С колледжа.",
+      "why": "Known — третья форма know. Короткий ответ — since и точка начала."
+    },
+    {
+      "en": "We've had this dog for six years.",
+      "ru": "Эта собака у нас шесть лет.",
+      "why": "Had — третья форма have. Первое have — слово-помощник."
+    },
+    {
+      "en": "I haven't seen Anna since May.",
+      "ru": "Я не видел Анну с мая.",
+      "why": "В отрицании срок подходит и обычному действию: «не видел до сих пор»."
+    },
+    {
+      "en": "I lived in Boston for two years. Now I live in New York.",
+      "ru": "Я жил в Бостоне два года. Сейчас я живу в Нью-Йорке.",
+      "why": "Бостон остался в прошлом — past simple lived. Since сюда не поставить."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Сосед спрашивает, сколько ты здесь живёшь. Ответь: «Я живу здесь три года».",
+      "context": "",
+      "guidance": {
+        "title": "Срок до сейчас: have + lived + for",
+        "body": "По-русски «живу» стоит в настоящем времени, но срок тянется из прошлого до сегодня. Поэтому по-английски нужен have + третья форма, а длину срока вводит for.",
+        "example": "I've worked here for five years.",
+        "translation": "Я работаю здесь пять лет."
+      },
+      "hint": "Начни так: I've lived here … Какое слово встанет перед three years?",
+      "answers": [
+        "I've lived here for three years.",
+        "I have lived here for three years.",
+        "I've been living here for three years.",
+        "I have been living here for three years."
+      ],
+      "explanation": "Ты живёшь здесь до сих пор — значит have lived. Три года — длина срока, поэтому for. I live here for three years — ошибка."
+    },
+    {
+      "id": "e2",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Коллега на конференции спрашивает, давно ли ты в своей компании. Скажи: «Я работаю в этой компании с 2023 года». company — компания.",
+      "context": "",
+      "guidance": {
+        "title": "Точка начала — since",
+        "body": "Если называешь не длину срока, а момент, когда всё началось, — год, месяц, день, — вместо for ставь since: «с».",
+        "example": "She has lived in Denver since May.",
+        "translation": "Она живёт в Денвере с мая."
+      },
+      "hint": "2023 — это «сколько» или «с какого момента»? Начни так: I've worked …",
+      "answers": [
+        "I've worked at this company since 2023.",
+        "I have worked at this company since 2023.",
+        "I've worked for this company since 2023.",
+        "I have worked for this company since 2023.",
+        "I've been working at this company since 2023.",
+        "I've been working for this company since 2023."
+      ],
+      "explanation": "2023 — точка начала, поэтому since. Work at и work for a company — оба варианта верны."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Твой брат дружит с Томом с 2016 года — уже десять лет. Скажи это двумя фразами: «Мой брат знает Тома с 2016 года. Он знает его десять лет». know — knew — known (знать).",
+      "context": "",
+      "guidance": {
+        "title": "Has + known: один срок двумя способами",
+        "body": "Брат — это he, поэтому has. У know третья форма своя: known. Один и тот же срок можно назвать точкой начала (since) или длиной (for).",
+        "example": "My sister has known Anna for twenty years.",
+        "translation": "Моя сестра знает Анну двадцать лет."
+      },
+      "hint": "Две фразы: My brother has known Tom since … He has known him for …",
+      "answers": [
+        "My brother has known Tom since 2016. He has known him for ten years.",
+        "My brother has known Tom since 2016. He's known him for ten years.",
+        "My brother's known Tom since 2016. He's known him for ten years."
+      ],
+      "explanation": "Has — потому что brother = he; known — третья форма know. 2016 — точка начала (since), ten years — длина (for). My brother knows Tom since 2016 — ошибка."
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "На новой работе ты знакомишься с коллегой. Спроси её: «Сколько ты здесь работаешь?»",
+      "context": "",
+      "guidance": {
+        "title": "Вопрос о сроке: How long have you…?",
+        "body": "How long — «как долго». Дальше вопрос в форме с have: have встаёт перед you, потом третья форма. Do в таком вопросе не нужен.",
+        "example": "How long has he lived in Chicago?",
+        "translation": "Сколько он живёт в Чикаго?"
+      },
+      "hint": "Начни так: How long have … Какая третья форма у work?",
+      "answers": [
+        "How long have you worked here?",
+        "How long have you been working here?",
+        "How long have you been here?"
+      ],
+      "explanation": "How long + have you + worked — вопрос о сроке до сейчас. How long do you work here? — ошибка. How long have you been here? тоже верно."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг пишет в чате: Where are you? Рейс задержали, и ты сидишь в аэропорту с шести утра. Ответь: «Я в аэропорту с шести утра». airport — аэропорт, 6 a.m. — шесть утра.",
+      "context": "",
+      "guidance": {
+        "title": "Быть где-то с…: have been",
+        "body": "«Я в аэропорту» — это I'm at the airport. Если считаешь срок до сейчас, am превращается в have been: been — третья форма be.",
+        "example": "She has been at work since 8 a.m.",
+        "translation": "Она на работе с восьми утра."
+      },
+      "hint": "Начни так: I've been at … Чем закончить — for или since?",
+      "answers": [
+        "I've been at the airport since 6 a.m.",
+        "I have been at the airport since 6 a.m.",
+        "I've been at the airport since six a.m.",
+        "I've been at the airport since 6:00 a.m.",
+        "I've been at the airport since six in the morning.",
+        "I've been here since 6 a.m."
+      ],
+      "explanation": "Срок до сейчас с be — это have been. Шесть утра — точка начала, поэтому since. I'm at the airport since 6 a.m. — ошибка."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Подруга спрашивает о вашем общем друге Максе. Ты давно его не видел. Скажи: «Я не видел Макса с мая».",
+      "context": "",
+      "guidance": {
+        "title": "«Не делал с тех пор»: haven't + третья форма",
+        "body": "В отрицании срок подходит почти любому действию: «не видел», «не звонил», «не ел». Not встаёт в have: haven't, hasn't.",
+        "example": "He hasn't called me for a week.",
+        "translation": "Он не звонит мне уже неделю."
+      },
+      "hint": "Начни так: I haven't … Какая третья форма у see?",
+      "answers": [
+        "I haven't seen Max since May.",
+        "I have not seen Max since May."
+      ],
+      "explanation": "Haven't seen — «не видел до сих пор». May — точка начала, поэтому since. С длиной срока было бы for: I haven't seen Max for months."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты рассказываешь о себе. Раньше ты два года жил в Бостоне, а сейчас живёшь в Нью-Йорке. Скажи: «Я жил в Бостоне два года».",
+      "context": "",
+      "guidance": {
+        "title": "Срок закончился — past simple",
+        "body": "Ты там больше не живёшь — срок закончился. Have не нужен: past simple и for. Since с past simple не ставят.",
+        "example": "She worked at a bank for ten years.",
+        "translation": "Она десять лет проработала в банке (сейчас уже не работает)."
+      },
+      "hint": "Ты всё ещё живёшь в Бостоне? Нет — значит, без have.",
+      "answers": [
+        "I lived in Boston for two years."
+      ],
+      "explanation": "Срок остался в прошлом, поэтому past simple: lived. I've lived in Boston for two years значило бы, что ты живёшь там до сих пор."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Одногруппник по курсу английского хотел написать: «Я знаю Сэма с 2015 года». Он написал: I know Sam since 2015. Исправь фразу.",
+      "context": "",
+      "guidance": {
+        "title": "Русское «знаю» — не present simple",
+        "body": "Частая ошибка — перевести русское настоящее время напрямую. Если срок идёт до сейчас и в фразе есть since или for, глаголу нужен have + третья форма.",
+        "example": "I've lived here since 2022.",
+        "translation": "Я живу здесь с 2022 года."
+      },
+      "hint": "Какое слово-помощник пропущено? Какая третья форма у know?",
+      "answers": [
+        "I've known Sam since 2015.",
+        "I have known Sam since 2015."
+      ],
+      "explanation": "Срок с 2015 года тянется до сейчас, поэтому have known. Since 2015 остаётся: это точка начала."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Новый знакомый спрашивает, когда ты переехал в этот город. Скажи двумя фразами: «Я переехал сюда два года назад. Я живу здесь два года». move — переехать, ago — назад.",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем past simple: ago — момент, for — срок",
+        "body": "Вспоминаем past simple: ago — «назад» — отмечает момент в прошлом, поэтому moved. Срок от того момента до сейчас — have + третья форма и for.",
+        "example": "I started this job a year ago. I've worked here for a year.",
+        "translation": "Я начал эту работу год назад. Я работаю здесь год."
+      },
+      "hint": "Первая фраза: I moved … ago. Вторая: I've lived …",
+      "answers": [
+        "I moved here two years ago. I've lived here for two years.",
+        "I moved here two years ago. I have lived here for two years.",
+        "I moved here two years ago. I've been here for two years."
+      ],
+      "explanation": "Two years ago — момент в прошлом, поэтому moved. For two years — срок до сейчас, поэтому have lived. I've moved here two years ago — ошибка: ago требует past simple."
+    },
+    {
+      "id": "e10",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты переехал в новый дом и пишешь соседке Линде в общий чат дома, чтобы познакомиться. Напиши 3–4 фразы: как тебя зовут, сколько ты живёшь в этом городе, где и с какого времени работаешь. Спроси, сколько она живёт в этом доме.",
+      "context": "building — многоквартирный дом, neighbor — сосед, last week — на прошлой неделе.",
+      "hint": "Опоры: I've lived in … for … / I've worked at … since … / How long have you …?",
+      "answers": [
+        "Hi Linda! I'm Oleg from apartment 4B. I've lived in Denver for three years, but I moved to this building last week. I've worked at a bank since 2022. How long have you lived here?",
+        "Hi, I'm Kate, your new neighbor. I've lived in this city since 2021. I've worked at a hospital for two years. How long have you lived in this building?"
+      ],
+      "explanation": "Засчитывается, если срок до сейчас сказан через have + третья форма с for или since, а вопрос начинается с How long have you. Момент в прошлом (last week, in 2021) — past simple."
+    },
+    {
+      "id": "e11",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Новый американский знакомый спрашивает: How long have you lived in your city? How long have you known your best friend? How long have you had your phone? Ответь вслух 3–5 фразами. Добавь один срок, который уже закончился: где ты жил или работал раньше и сколько.",
+      "context": "best friend — лучший друг, school — школа, last summer — прошлым летом.",
+      "hint": "Срок до сейчас: I've … for / since … Закончилось: I lived / worked … for …",
+      "answers": [
+        "I've lived in Kazan for ten years. I've known my best friend since school. I've had my phone for two years. Before Kazan, I lived in Samara for five years.",
+        "I've lived in Moscow since 2019. I've known my best friend Dima for fifteen years. I've had this phone since last summer. I worked at a cafe for two years."
+      ],
+      "explanation": "Засчитывается любой честный ответ, где срок до сейчас сказан через have + третья форма с for или since, а законченный срок — через past simple с for."
+    }
+  ]
+}

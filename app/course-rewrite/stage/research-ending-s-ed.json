@@ -1,0 +1,292 @@
+{
+  "id": "research-ending-s-ed",
+  "title": "Окончание -ed: чтобы прошлое было слышно",
+  "subtitle": "Услышь последний звук → выбери /t/, /d/ или /ɪd/ → сохрани окончание во фразе",
+  "level": "A2",
+  "group": "Произношение и слух",
+  "units": "Авторский маршрут · A2",
+  "minutes": 30,
+  "goal": "Произносить -ed так, чтобы собеседник понял, «работаю» ты сказал или «работал»: I work — I worked.",
+  "formula": "worked /t/ · cleaned /d/ · needed /ɪd/",
+  "keyRule": {
+    "rule": "Не глотай конец слова: без -ed «работал» звучит как «работаю».",
+    "example": "I worked — я работал. I work — я работаю.",
+    "check": "Лишний слог «ид» — только после t и d: needed. Worked — один слог."
+  },
+  "guided": true,
+  "introSections": 2,
+  "prerequisites": [
+    "path-past-simple",
+    "path-present-simple",
+    "path-sound-basics"
+  ],
+  "recycles": [
+    "research-sound-w-v-th",
+    "path-present-simple"
+  ],
+  "teaches": [
+    "-ed по последнему звуку слова: /t/ — worked, /d/ — cleaned, /ɪd/ — needed",
+    "лишний слог только после t и d: wanted, needed, started",
+    "решает звук, а не буква: liked — /t/, немая e не считается",
+    "не оглушать конец (played ≠ plate) и не читать -ed как «эд»",
+    "самопроверка: фраза без слов времени → запись → прослушивание"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · Learn to Pronounce Past Tense -ed",
+      "url": "https://learningenglish.voanews.com/a/learn-to-pronounce-past-tense--ed-with-taylor-swift/6608811.html",
+      "notes": "Сверены три звучания -ed (/t/, /d/, /ɪd/), лишний слог только после t и d, списки звонких и глухих звуков."
+    },
+    {
+      "title": "Enginform · Не оглушайте это! Звонкие звуки в конце слова",
+      "url": "https://enginform.com/article/proiznoshenie-zvonkih-zvukov-v-konce-slova",
+      "notes": "Объяснение для русскоговорящих: привычка оглушать конец слова (bed → bet, bag → back) портит и окончание /d/."
+    }
+  ],
+  "visual": {
+    "kind": "contrast",
+    "title": "Решает последний звук слова",
+    "why": "Убери -ed и послушай, каким звуком кончается слово. От этого звука зависит окончание.",
+    "items": [
+      {
+        "label": "Глухой звук",
+        "en": "It worked.",
+        "ru": "Сработало.",
+        "note": "/k/ глухой → /t/, слог не прибавляется."
+      },
+      {
+        "label": "Звонкий или гласный",
+        "en": "She played.",
+        "ru": "Она играла.",
+        "note": "Гласный звонкий → /d/, голос до конца."
+      },
+      {
+        "label": "На конце уже t или d",
+        "en": "They wanted tea.",
+        "ru": "Они хотели чаю.",
+        "note": "После /t/ → лишний слог /ɪd/: want-ed."
+      },
+      {
+        "label": "Буква не решает",
+        "en": "He liked it.",
+        "ru": "Ему понравилось.",
+        "note": "В like e немая, последний звук /k/ → /t/."
+      }
+    ],
+    "footnote": "Лишний слог появляется только тогда, когда слово уже кончается на /t/ или /d/.",
+    "focus": [
+      "worked",
+      "played",
+      "wanted",
+      "liked"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Почему маленькое -ed так важно?",
+      "body": "Ты говоришь другу по телефону: I worked at home — «я работал дома». Если /t/ в конце пропадёт, он услышит I work at home — «я работаю дома». По-русски «работаю» и «работал» отличаются всем концом слова, а в английском — часто одним согласным звуком.\n\nНа письме окончание видно всегда, а у слушателя есть только звук. Поэтому -ed мало написать — его нужно произнести. Вариантов всего три: /t/, /d/ или лишний слог /ɪd/. Выбор зависит от последнего звука слова, а не от буквы.\n\nС -s у глагола то же самое: works, plays, watches звучат так же, как books, pens, boxes из урока про множественное число. Не глотай и его."
+    },
+    {
+      "title": "Как проверять себя честно",
+      "body": "Приложение проверяет текст, а не звук. Распознавание речи угадывает слова и по смыслу: после yesterday оно может само дописать -ed. Поэтому во фразах урока почти нет слов времени. Надиктуй фразу и сразу послушай свою запись — плеер появится под полем ответа. Спроси себя: слышно ли окончание? Потом нажми «Проверить» и сравни с озвученным ответом."
+    },
+    {
+      "title": "Звонкий или глухой?",
+      "body": "Проверка та же, что в уроке про th: пальцы на горле. Гудит — звук звонкий, тихо — глухой. Глухие: /p/, /t/, /k/, /f/, /s/, /ʃ/ «ш», /tʃ/ «ч», /θ/ как в think. Звонкие — остальные согласные и все гласные. Решает звук, а не буква: like кончается немой e, но последний звук в нём — глухой /k/."
+    },
+    {
+      "title": "Три звучания -ed",
+      "body": "После глухого звука — /t/: worked, liked, watched. После звонкого или гласного — /d/: played, lived, cleaned. Если слово уже кончается на /t/ или /d/, появляется лишний слог /ɪd/: wanted, needed, started. Только здесь e и слышно. Worked и played — один слог: не «уоркед» и не «плейед»."
+    },
+    {
+      "title": "Русские привычки, которые съедают -ed",
+      "body": "В русском звонкий звук в конце слова глохнет: «дуб» звучит как «дуп». Так played превращается в plate — «тарелка». Держи голос до конца. Вторая привычка — читать -ed по буквам: «уоркед». Третья — глотать конец в быстрой речи. Сначала говори медленно и чётко, потом быстрее, но с тем же окончанием."
+    }
+  ],
+  "examples": [
+    {
+      "en": "The kids play outside. The kids played outside.",
+      "ru": "Дети играют на улице. Дети играли на улице.",
+      "why": "Разницу несёт только /d/. Проглотишь его — и прошлое станет настоящим."
+    },
+    {
+      "en": "We watched a movie and needed a break.",
+      "ru": "Мы посмотрели фильм, и нам понадобился перерыв.",
+      "why": "Watched — один слог с /t/, needed — два слога: перед -ed звук /d/."
+    },
+    {
+      "en": "He liked the job and started on Monday.",
+      "ru": "Ему понравилась работа, и он начал в понедельник.",
+      "why": "В like конечная e немая, слово кончается на /k/, поэтому liked — /t/. Started — лишний слог /ɪd/."
+    },
+    {
+      "en": "I lived in Denver. Now I live in Boston.",
+      "ru": "Я жил в Денвере. Теперь я живу в Бостоне.",
+      "why": "Lived — /d/ после звонкого /v/. Без него «жил» превратится в «живу»."
+    },
+    {
+      "en": "She called me and invited me to dinner.",
+      "ru": "Она позвонила мне и пригласила на ужин.",
+      "why": "Called — один слог с /d/, invited — лишний слог /ɪd/ после t."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи и надиктуй: «Я работал дома». Слова «вчера» здесь нет, поэтому прошлое слышно только по /t/ в конце worked. Послушай запись.",
+      "context": "",
+      "guidance": {
+        "title": "После глухого звука -ed — это /t/",
+        "body": "Work кончается глухим /k/, поэтому -ed звучит как /t/: worked — /wɜːrkt/. Буквы e не слышно, слог не добавляется.",
+        "example": "We watched a movie.",
+        "translation": "Мы посмотрели фильм."
+      },
+      "hint": "Скажи I work, а потом добавь в конце короткое /t/, без гласного.",
+      "answers": [
+        "I worked at home.",
+        "I worked from home."
+      ],
+      "explanation": "Worked — один слог с /t/ в конце. Без /t/ выйдет I work at home — «я работаю дома», и время изменится."
+    },
+    {
+      "id": "e2",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи и надиктуй: «Я убрал кухню». clean = убирать. Послушай запись: /d/ в конце cleaned не пропал?",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: звонкий звук — с голосом",
+        "body": "Как в уроке про th: в this горло гудит. Clean кончается звонким /n/, поэтому -ed звучит /d/ — тоже один слог. Не оглушай его до /t/.",
+        "example": "They played cards.",
+        "translation": "Они играли в карты."
+      },
+      "hint": "Скажи clean и, не прерывая голос, добавь /d/: clean-d.",
+      "answers": [
+        "I cleaned the kitchen."
+      ],
+      "explanation": "Cleaned — /kliːnd/: после звонкого /n/ окончание звучит /d/, без нового слога."
+    },
+    {
+      "id": "e3",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи и надиктуй: «Мне была нужна помощь». need = нуждаться, help = помощь. Послушай запись: в needed два слога?",
+      "context": "",
+      "guidance": {
+        "title": "После /t/ и /d/ — лишний слог /ɪd/",
+        "body": "Need кончается звуком /d/. Ещё одно /d/ к нему не присоединить, поэтому появляется гласный: need-ed. То же после /t/: want → wanted, start → started.",
+        "example": "We waited for the bus.",
+        "translation": "Мы ждали автобус."
+      },
+      "hint": "Раздели: need-ed. Ударение на первом слоге, второй короткий.",
+      "answers": [
+        "I needed help."
+      ],
+      "explanation": "Needed — /ˈniːdɪd/, два слога. Здесь e слышно, потому что перед -ed уже стоит /d/."
+    },
+    {
+      "id": "e4",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи и надиктуй: «Ему понравился фильм». like = нравиться, movie = фильм. Послушай запись: liked звучит в один слог?",
+      "context": "",
+      "guidance": {
+        "title": "Решает звук, а не буква",
+        "body": "Like пишется с e на конце, но эта e немая: последний звук — глухой /k/. Значит, -ed здесь /t/, и слог не добавляется.",
+        "example": "We danced all night.",
+        "translation": "Мы танцевали всю ночь."
+      },
+      "hint": "Скажи like, а потом сразу короткое /t/: «лайкт», а не «лайкед».",
+      "answers": [
+        "He liked the movie."
+      ],
+      "explanation": "Liked — /laɪkt/, один слог. Буква e в конце like не звучит, поэтому окончание выбираем по звуку /k/."
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Друг составил список: worked, wanted, played, needed, watched, started. Выпиши слова, где -ed звучит отдельным слогом.",
+      "context": "",
+      "guidance": {
+        "title": "Лишний слог — только после t и d",
+        "body": "Мысленно убери -ed и посмотри на последний звук: work, want, play… Кончается на /t/ или /d/ — будет лишний слог.",
+        "example": "We waited and cooked.",
+        "translation": "Мы подождали и приготовили еду."
+      },
+      "hint": "Таких слов в списке три. Посмотри на звук прямо перед -ed.",
+      "answers": [
+        "wanted, needed, started",
+        "wanted, needed and started",
+        "wanted, needed, and started"
+      ],
+      "explanation": "Want, need и start кончаются на /t/ или /d/, поэтому -ed даёт второй слог. Worked, played и watched — по одному слогу."
+    },
+    {
+      "id": "e6",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Скажи подряд две фразы и надиктуй: «Она играет в теннис. Она играла в теннис». Послушай запись: в конце plays слышно /z/, а в конце played — /d/?",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем -s: пара с голосом",
+        "body": "-s у глагола после гласного — /z/, как ты уже знаешь. -ed после гласного — /d/. Обе фразы отличаются одним последним звуком, и в обоих голос идёт до конца.",
+        "example": "He stays home. He stayed home.",
+        "translation": "Он остаётся дома. Он остался дома."
+      },
+      "hint": "Пальцы на горле: в plays и played гул не должен пропасть до самого конца.",
+      "answers": [
+        "She plays tennis. She played tennis."
+      ],
+      "explanation": "Plays — /pleɪz/, played — /pleɪd/. Оглушишь конец — выйдет place («место») и plate («тарелка»)."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Друг показывает тебе офис и спрашивает: Do you work here? Ответь: «Нет. Я работал здесь раньше». before = раньше. Скажи так, чтобы /t/ в worked было слышно.",
+      "context": "",
+      "guidance": {
+        "title": "Одна согласная меняет смысл",
+        "body": "В паре «работаю — работал» разница на слух — только /t/ в конце worked. Проглотишь его — и друг решит, что ты работаешь здесь до сих пор.",
+        "example": "I live in Boston. I lived in Denver.",
+        "translation": "Я живу в Бостоне. Я жил в Денвере."
+      },
+      "hint": "Начни с короткого ответа: No, I don't. Потом скажи, что было раньше, и выдели /t/.",
+      "answers": [
+        "No, I don't. I worked here before.",
+        "No. I worked here before.",
+        "No, not anymore. I worked here before."
+      ],
+      "explanation": "I worked here before — «я работал здесь раньше». Без /t/ фраза звучит как I work here, и смысл меняется на «работаю»."
+    },
+    {
+      "id": "e8",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ты надиктовал другу сообщение, а распознавание записало: Yesterday I clean the kitchen and watch a movie. My sister call me. Верни потерянные окончания, прежде чем отправить. Потом скажи сообщение ещё раз и послушай запись.",
+      "context": "",
+      "hint": "Речь о вчерашнем дне. Каким трём глаголам не хватает окончания?",
+      "answers": [
+        "Yesterday I cleaned the kitchen and watched a movie. My sister called me.",
+        "Yesterday, I cleaned the kitchen and watched a movie. My sister called me."
+      ],
+      "explanation": "Cleaned, watched, called — три правильных глагола в прошлом. Если распознавание снова теряет окончание, произнеси /d/ и /t/ чётче: скорее всего, они звучали слишком слабо."
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Запиши другу голосовое сообщение о прошлых выходных: 3–4 фразы. Используй хотя бы три правильных глагола на -ed, и один из них — с лишним слогом (wanted, needed, started, visited). Потом послушай запись: слышно ли каждое -ed?",
+      "context": "visit = навещать.",
+      "hint": "Опора: On Saturday, I … and … . On Sunday, I visited …",
+      "answers": [
+        "On Saturday, I cleaned my apartment and cooked dinner. I watched a movie in the evening. On Sunday, I visited my sister, and we played cards.",
+        "I worked on Saturday. I started at nine and finished at five. On Sunday, I stayed home and watched TV."
+      ],
+      "explanation": "Подходит любой рассказ с правильными глаголами. По записи проверь: worked и played звучат в один слог, а started и visited — в два; /t/ и /d/ в конце не пропали."
+    }
+  ]
+}

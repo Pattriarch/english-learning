@@ -1,0 +1,411 @@
+{
+  "id": "research-ordering-checkout",
+  "title": "Оплата в кафе: сумма, карта, чек",
+  "subtitle": "Спроси сумму → выбери, как платить → возьми чек и попрощайся",
+  "level": "A1",
+  "group": "Практическое общение",
+  "units": "Авторский маршрут · A1",
+  "minutes": 30,
+  "goal": "Узнать сумму заказа, заплатить картой или наличными, попросить чек, спокойно исправить ошибку в нём и попрощаться.",
+  "formula": "How much is it? → Can I pay by card? → Can I get a receipt, please?",
+  "guided": true,
+  "introSections": 1,
+  "prerequisites": [
+    "extended-a1-order",
+    "path-requests-can"
+  ],
+  "recycles": [
+    "path-countability",
+    "path-requests-can",
+    "extended-a1-order",
+    "path-there-is"
+  ],
+  "teaches": [
+    "How much is it? — сколько стоит весь заказ (вопрос из урока про количество)",
+    "как звучит цена: $8.25 — eight twenty-five; total — общая сумма",
+    "способ оплаты: Cash or card? — Card, please. Can I pay by card?",
+    "чек после оплаты — receipt [рисИт]: Can I get a receipt, please? (Can I get — из урока про заказ)",
+    "счёт за столом в ресторане — the check: Can I get the check, please?",
+    "чаевые (tip): за столом обычно 15–20%, у стойки — по желанию",
+    "ошибка в чеке: Excuse me, I think there's a mistake. There are two teas on my receipt. I have one.",
+    "прощание: Have a nice day! — You too!",
+    "слова: total, cash, card, receipt, check, tip, mistake"
+  ],
+  "sources": [
+    {
+      "title": "VOA Learning English · How to Order at an American Restaurant",
+      "url": "https://learningenglish.voanews.com/a/how-to-order-at-an-american-restaurant/4745533.html",
+      "notes": "Сверены американские реалии: в одних кафе заказывают у стойки, в других к столу подходит официант; счёт в ресторане — check (Can we have the check, please? / Check, please); хорошие чаевые — 15–20%; Can I get… — обычная просьба при заказе."
+    },
+    {
+      "title": "Pew Research Center · What services do Americans tip for, and how much? (2023)",
+      "url": "https://www.pewresearch.org/2023/11/09/services-americans-do-and-dont-tip-for-and-how-much/",
+      "notes": "Опрос 2023 года: в ресторане с официантом чаевые всегда или часто оставляют 92% американцев, в кофейне — лишь четверть. Отсюда пометка «у стойки — по желанию»."
+    },
+    {
+      "title": "italki · How do you say these prices in English? (ответы носителей)",
+      "url": "https://www.italki.com/en/post/e3C2Hdem70h8tNaJsmDP42",
+      "notes": "Сверено, как цену говорят вслух: $8.50 — eight fifty, $10.75 — ten seventy-five; слова dollars и cents в быту пропускают, полная форма звучит официальнее."
+    }
+  ],
+  "visual": {
+    "kind": "sequence",
+    "title": "Разговор у кассы — четыре шага",
+    "why": "Кассир ведёт разговор по порядку. На каждый его вопрос хватает короткого ответа.",
+    "items": [
+      {
+        "label": "Итог",
+        "en": "Your total is $12.40.",
+        "ru": "С вас 12,40.",
+        "note": "Звучит как twelve forty: доллары, потом центы."
+      },
+      {
+        "label": "Оплата",
+        "en": "Cash or card? — Cash.",
+        "ru": "Наличными или картой? — Наличными.",
+        "note": "Ответ — один вариант из вопроса."
+      },
+      {
+        "label": "Чек",
+        "en": "Do you need a receipt? — No, thanks.",
+        "ru": "Чек нужен? — Нет, спасибо.",
+        "note": "На вопрос с do отвечают yes или no."
+      },
+      {
+        "label": "Прощание",
+        "en": "Have a good one! — Thanks, you too!",
+        "ru": "Всего доброго! — Спасибо, и вам!",
+        "note": "Have a good one — то же, что Have a nice day."
+      }
+    ],
+    "focus": [
+      "total",
+      "Cash",
+      "receipt",
+      "you too"
+    ]
+  },
+  "sections": [
+    {
+      "title": "Заказ сделан. Что говорят у кассы дальше?",
+      "body": "Допустим, ты заказал кофе и выпечку. Осталось заплатить. Обычно кассир сам называет сумму: That’s $8.25 — «С вас 8,25». Если он молчит, спроси: How much is it? — «Сколько с меня?». Этот вопрос ты знаешь из урока про количество; it здесь — весь заказ целиком.\n\nДальше разговор идёт по шагам: сумма → карта или наличные → чек → «хорошего дня». На каждый шаг хватает одной короткой фразы."
+    },
+    {
+      "title": "Как звучит цена",
+      "body": "Цену называют двумя числами: сначала доллары, потом центы. $8.25 звучит как eight twenty-five, а слова dollars и cents обычно пропускают. Полное eight dollars and twenty-five cents тоже верно, просто длиннее. Кассир часто говорит Your total is… — «Итого…». Total — общая сумма за всё."
+    },
+    {
+      "title": "Картой или наличными?",
+      "body": "Кассир спросит: Cash or card? — «Наличными или картой?». Это выбор из двух, поэтому отвечай вариантом, а не yes: Card, please. Не уверен, что карты принимают, — спроси сам: Can I pay by card? — «Можно картой?». Can I pay with a card? — тоже верно. Протягиваешь карту — скажи Here you go: «Вот, пожалуйста»."
+    },
+    {
+      "title": "Receipt, check и чаевые",
+      "body": "Receipt [рисИт] — чек, который дают после оплаты; p не читается. Просят его так же, как заказывали: Can I get a receipt, please? — «Можно чек?».\n\nThe check — счёт в ресторане, где к столу подходит официант. Его просят после еды: Can I get the check, please? Официанту оставляют чаевые — tip, обычно 15–20% суммы. У стойки платят сразу, чаевые там по желанию."
+    },
+    {
+      "title": "Ошибка в чеке: спокойно и по фактам",
+      "body": "Начни мягко: Excuse me, I think there’s a mistake — «Извините, кажется, тут ошибка». I think — «мне кажется»: ты не обвиняешь, а предполагаешь. Потом назови факт: There are two teas on my receipt. I have one. О записи в чеке говорят on: on my receipt. В конце попроси: Can you check, please? Здесь check — глагол «проверить»."
+    },
+    {
+      "title": "Как попрощаться по-американски",
+      "body": "Кассир отдаёт чек и говорит: Have a nice day! — «Хорошего дня!». Бывает и Have a good one! — то же пожелание. Отвечают коротко: You too! — «И вам!». Теплее — Thanks, you too! Не путай с Me too — это «я тоже»."
+    }
+  ],
+  "examples": [
+    {
+      "en": "How much is it?",
+      "ru": "Сколько с меня?",
+      "why": "It — весь заказ целиком. How much вместе с is спрашивает цену."
+    },
+    {
+      "en": "That's $8.25.",
+      "ru": "С вас 8,25.",
+      "why": "Прозвучит как eight twenty-five: сначала доллары, потом центы."
+    },
+    {
+      "en": "Card, please.",
+      "ru": "Картой, пожалуйста.",
+      "why": "Ответ на Cash or card?: назван один вариант из двух."
+    },
+    {
+      "en": "Can I pay by card?",
+      "ru": "Можно заплатить картой?",
+      "why": "Can I — «можно мне». Pay после can идёт без to."
+    },
+    {
+      "en": "Can I get a receipt, please?",
+      "ru": "Можно чек, пожалуйста?",
+      "why": "Receipt — бумажка после оплаты, звучит [рисИт]."
+    },
+    {
+      "en": "Can we get the check, please?",
+      "ru": "Можно счёт, пожалуйста?",
+      "why": "The check — счёт за столом. Его просят у официанта, а не у кассы."
+    },
+    {
+      "en": "Excuse me, I think there's a mistake.",
+      "ru": "Извините, кажется, тут ошибка.",
+      "why": "С I think замечание звучит как предположение, а не как обвинение."
+    },
+    {
+      "en": "Have a nice day! — You too!",
+      "ru": "Хорошего дня! — И вам!",
+      "why": "You too возвращает пожелание тому, кто его сказал."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты заказал у стойки латте и маффин. Кассир молчит и смотрит в экран. Спроси: «Сколько с меня?»",
+      "context": "",
+      "guidance": {
+        "title": "Вспоминаем: How much is it?",
+        "body": "Вспоминаем вопрос из урока про количество. Цену одной вещи спрашивают с её названием, а цену всего заказа — с it: «это, всё вместе».",
+        "example": "How much is the muffin?",
+        "translation": "Сколько стоит маффин?"
+      },
+      "hint": "Начни так: How much … В конце — маленькое слово, которое заменяет весь заказ.",
+      "answers": [
+        "How much is it?",
+        "How much is that?",
+        "How much is everything?"
+      ],
+      "explanation": "How much is it? — «сколько это стоит?»: it здесь весь заказ. How much is that? тоже звучит естественно."
+    },
+    {
+      "id": "e2",
+      "kind": "speak",
+      "practiceStage": "guided",
+      "prompt": "Друг стоит рядом и спрашивает: How much is the latte? На табло: Latte $4.75. Ответь вслух так, как сказал бы американец.",
+      "context": "seventy-five — 75.",
+      "guidance": {
+        "title": "Цена — два числа подряд",
+        "body": "Сначала скажи число долларов, сразу за ним — число центов. Слова dollars и cents в быту опускают. Перед ценой удобно поставить It’s — «это стоит».",
+        "example": "It's eight twenty-five.",
+        "translation": "Восемь двадцать пять."
+      },
+      "hint": "Начни так: It’s four … — дальше число центов.",
+      "answers": [
+        "It's four seventy-five.",
+        "Four seventy-five.",
+        "It's four dollars and seventy-five cents.",
+        "It's $4.75."
+      ],
+      "explanation": "Four seventy-five — так $4.75 звучит в обычной речи. Four dollars and seventy-five cents тоже верно, просто длиннее."
+    },
+    {
+      "id": "e3",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты у фудтрака (food truck — фургон с едой). Наличных у тебя нет, только карта. Спроси, можно ли заплатить картой.",
+      "context": "pay — платить; by card — картой.",
+      "guidance": {
+        "title": "Вспоминаем can: спросить разрешения",
+        "body": "Can I…? — «можно мне…?», как в Can I use your phone? из урока про can. Сейчас действие — pay, «платить». После can оно идёт без to, а способ оплаты стоит в конце.",
+        "example": "Can I pay cash?",
+        "translation": "Можно заплатить наличными?"
+      },
+      "hint": "Начни так: Can I … Картой — by card.",
+      "answers": [
+        "Can I pay by card?",
+        "Can I pay by card, please?",
+        "Can I pay with a card?",
+        "Can I pay with card?",
+        "Can I pay with my card?",
+        "Do you take cards?",
+        "Do you take credit cards?"
+      ],
+      "explanation": "Can I pay by card? — просьба о разрешении с can. With a card тоже верно, а Do you take cards? — «карты принимаете?» — частый американский вариант."
+    },
+    {
+      "id": "e4",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Кассир спрашивает: Cash or card? Твой друг отвечает: Yes, please. Кассир не понял. Исправь ответ друга: он платит картой.",
+      "context": "",
+      "guidance": {
+        "title": "На вопрос с or не отвечают yes",
+        "body": "Cash or card? — выбор из двух: «наличными или картой?». Yes тут ничего не выбирает. Повтори свой вариант из вопроса и добавь please.",
+        "example": "Small or large? — Large, please.",
+        "translation": "Маленький или большой? — Большой, пожалуйста."
+      },
+      "hint": "Кассир предложил два слова: cash и card. Какое из них про карту?",
+      "answers": [
+        "Card, please.",
+        "Card.",
+        "By card, please.",
+        "Card, please. Here you go."
+      ],
+      "explanation": "Card, please — выбран один вариант из вопроса. Yes подходит к вопросам, на которые отвечают «да» или «нет»."
+    },
+    {
+      "id": "e5",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты заплатил за кофе, а чек тебе не дали. Он нужен для отчёта на работе. Попроси чек у кассира.",
+      "context": "receipt — чек после оплаты.",
+      "guidance": {
+        "title": "Вспоминаем: Can I get …?",
+        "body": "Вспоминаем просьбу из урока про заказ в кафе. Меняется только вещь — receipt. Читается [рисИт]: буква p молчит.",
+        "example": "Can I get a bag, please?",
+        "translation": "Можно пакет, пожалуйста?"
+      },
+      "hint": "Начни так: Can I get … Перед receipt нужен артикль — a или an?",
+      "answers": [
+        "Can I get a receipt, please?",
+        "Can I get a receipt?",
+        "Can I have a receipt, please?",
+        "Can I have a receipt?",
+        "Can I get my receipt, please?",
+        "Can I have my receipt, please?",
+        "Could I get a receipt, please?",
+        "Could I have a receipt, please?"
+      ],
+      "explanation": "Can I get a receipt, please? — обычная просьба у кассы. Can I have a receipt? тоже верно. A — потому что receipt начинается с согласного звука [r]."
+    },
+    {
+      "id": "e6",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты ужинаешь в ресторане, к столу подходит официант. Вы поели и готовы платить. Попроси счёт.",
+      "context": "",
+      "guidance": {
+        "title": "За столом просят the check",
+        "body": "В ресторане с официантом сначала едят, а платят потом — по счёту. Счёт — the check, а receipt дают уже после оплаты. Фраза та же, меняется только вещь: Can I get the …, please?",
+        "example": "Can we get the menu, please?",
+        "translation": "Можно нам меню, пожалуйста?"
+      },
+      "hint": "Что нужно сейчас: чек после оплаты или счёт? Начни так: Can I get the …",
+      "answers": [
+        "Can I get the check, please?",
+        "Can we get the check, please?",
+        "Can I have the check, please?",
+        "Can we have the check, please?",
+        "Could I get the check, please?",
+        "Could we get the check, please?",
+        "Can I get the check?",
+        "Can we get the check?",
+        "Check, please."
+      ],
+      "explanation": "The check — счёт за столом; его приносит официант. Can we have the check, please? и короткое Check, please тоже подходят. Не забудь чаевые: за столом их обычно оставляют."
+    },
+    {
+      "id": "e7",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Кассир дал чек, и сумма кажется слишком большой. Вежливо начни разговор: «Извините, кажется, тут ошибка».",
+      "context": "mistake — ошибка.",
+      "guidance": {
+        "title": "Начни с мягкого «кажется»",
+        "body": "Excuse me — «извините»: так привлекают внимание. С I think («мне кажется») замечание звучит как догадка, а не упрёк. Дальше — there’s a mistake, «тут ошибка».",
+        "example": "Excuse me, I think this is my coffee.",
+        "translation": "Извините, кажется, это мой кофе."
+      },
+      "hint": "Три части по порядку: Excuse me → I think → there’s a …",
+      "answers": [
+        "Excuse me, I think there's a mistake.",
+        "Excuse me, I think there is a mistake.",
+        "Excuse me. I think there's a mistake.",
+        "Excuse me, I think there's a mistake here.",
+        "Excuse me, I think there is a mistake here.",
+        "Excuse me, I think there's a mistake on my receipt.",
+        "Excuse me, I think there is a mistake on my receipt.",
+        "Excuse me, I think there's a mistake on the receipt.",
+        "Sorry, I think there's a mistake."
+      ],
+      "explanation": "I think превращает замечание в предположение — так разговор остаётся спокойным. There is и there’s — одно и то же."
+    },
+    {
+      "id": "e8",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Ты взял один латте, а в чеке их два. Скажи кассиру: «В моём чеке два латте. У меня один».",
+      "context": "lattes — латте (несколько порций).",
+      "guidance": {
+        "title": "Вспоминаем there is / there are",
+        "body": "Так сообщают, что где-то что-то есть. Для двух вещей — there are, а место — в конце: on my receipt. Второй фразой скажи, что у тебя на самом деле.",
+        "example": "There is a large tea on my receipt. I have a small tea.",
+        "translation": "В моём чеке большой чай. У меня маленький."
+      },
+      "hint": "Начни так: There are two … Вторая фраза начинается с I have.",
+      "answers": [
+        "There are two lattes on my receipt. I have one.",
+        "There are two lattes on my receipt. I have one latte.",
+        "There are two lattes on my receipt, but I have one.",
+        "There are two lattes on my receipt. I only have one.",
+        "There are two lattes on the receipt. I have one."
+      ],
+      "explanation": "There are — потому что латте в чеке два. I have one показывает, что не так, и кассир сразу видит ошибку."
+    },
+    {
+      "id": "e9",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Кассир исправил чек, отдаёт его и говорит: Have a nice day! Ответь коротко и тепло.",
+      "context": "",
+      "guidance": {
+        "title": "Верни пожелание: you too",
+        "body": "На Have a nice day! — «хорошего дня!» — пожелание возвращают двумя словами: you too, «и вам тоже». Перед ними можно сказать Thanks.",
+        "example": "Have a great weekend! — Thanks, you too!",
+        "translation": "Хороших выходных! — Спасибо, и вам!"
+      },
+      "hint": "Проверь себя: хорошего дня ты желаешь кассиру, а не себе. Значит, не me.",
+      "answers": [
+        "Thanks, you too!",
+        "You too!",
+        "Thank you! You too!",
+        "Thanks! You too!",
+        "Thank you, you too!",
+        "You too, thanks!",
+        "Thanks, you too. Have a nice day!"
+      ],
+      "explanation": "You too! возвращает пожелание кассиру. Me too значит «я тоже»: вышло бы, что ты желаешь хорошего дня себе."
+    },
+    {
+      "id": "e10",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты у стойки кофейни, заказ уже назван. Скажи кассиру вслух три вопроса: сколько с тебя, можно ли картой и можно ли чек.",
+      "context": "",
+      "hint": "Порядок как у кассы: сумма → карта → чек.",
+      "answers": [
+        "How much is it? Can I pay by card? Can I get a receipt, please?",
+        "How much is that? Can I pay with a card? And can I get a receipt?"
+      ],
+      "explanation": "Засчитывается любой вежливый вариант, где есть сумма, способ оплаты и чек. Can I get… и Can I have… одинаково подходят."
+    },
+    {
+      "id": "e11",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Ты заказал в приложении кофейни один маффин за $3.50. В чеке два маффина, итог $7.00. Напиши в чат поддержки 2–3 фразы: что не так и о чём ты просишь.",
+      "context": "support — поддержка.",
+      "hint": "План: I think there’s a mistake → что в чеке и что у тебя → просьба с Can you…?",
+      "answers": [
+        "Hi! I think there's a mistake. There are two muffins on my receipt, but I have one. Can you check, please?",
+        "Hello! There are two muffins on my receipt. I have one. It's $3.50, not $7.00. Can you check it?"
+      ],
+      "explanation": "Хорошее сообщение называет факт — сколько маффинов в чеке и сколько у тебя — и вежливо просит проверить. Сумма с not тоже помогает: It’s $3.50, not $7.00."
+    },
+    {
+      "id": "e12",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Ты ужинаешь в ресторане. Скажи официанту вслух две фразы: попроси счёт и спроси, можно ли заплатить картой.",
+      "context": "",
+      "hint": "Счёт за столом — это не receipt. Потом вопрос с Can I pay …?",
+      "answers": [
+        "Can I get the check, please? Can I pay by card?",
+        "Can we get the check, please? Can we pay by card?"
+      ],
+      "explanation": "За столом просят the check, а receipt получают после оплаты. Потом оставь чаевые: официанту их обычно дают."
+    }
+  ],
+  "keyRule": {
+    "rule": "Узнай сумму, скажи, чем платишь, попроси чек. Ошибку в чеке назови спокойно.",
+    "example": "Card, please. Can I get a receipt? — Картой, пожалуйста. Можно чек?",
+    "check": "Чек у кассы — receipt. Счёт за столом в ресторане — the check."
+  }
+}

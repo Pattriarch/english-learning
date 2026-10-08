@@ -1,0 +1,329 @@
+{
+  "id": "extended-c2-interview",
+  "title": "Позиция между строк: интервью о городской памяти",
+  "subtitle": "Карта позиции → поправка гостя → ответ на «а если бы…» → чей голос → честный заголовок → новость после интервью",
+  "level": "C2",
+  "group": "Полная практика навыков",
+  "units": "Дополнительная программа по исследованию",
+  "minutes": 60,
+  "goal": "Прослушать длинное интервью и сказать редактору подкаста, что гость думает на самом деле: «Ellis rejects the proposal as it stands, not every change», «Asked to assume…, he said he would no longer oppose…», «According to Ellis, the note…; we haven't seen it» — и не дать заголовку сказать больше, чем сказал гость.",
+  "formula": "Initially, … · When pressed on …, … · In a self-correction, he narrows … to … · Asked to assume …, he said he would … · According to Ellis, … · He implies …, but he doesn't say … · What we still don't know is whether …",
+  "keyRule": {
+    "rule": "Пересказывай последнюю, поправленную версию слов гостя. Ответ на «а если бы…» передавай вместе с этим «если».",
+    "example": "Asked to assume the old spot was marked, Ellis said he would no longer object in principle. — Когда его попросили представить, что прежнее место отмечено, Эллис сказал, что в принципе больше не возражал бы.",
+    "check": "Можно ли написать заголовок «Эллис передумал», если он только сузил своё «нет»?"
+  },
+  "guided": true,
+  "introSections": 5,
+  "prerequisites": [
+    "extended-b2-interview",
+    "extended-c1-lecture",
+    "path-reporting-verbs",
+    "path-implicature"
+  ],
+  "recycles": [
+    "extended-b2-interview",
+    "path-implicature"
+  ],
+  "teaches": [
+    "карта позиции (timeline): у каждой точки — о чём именно спросили и что ответил гость; разные ответы на разные вопросы — не противоречие",
+    "Initially… / When pressed on… / By the end… — порядок, а не причина: because только если гость назвал причину",
+    "поправка гостя (Earlier I said… More precisely…) → в пересказе поправленная версия и сам факт поправки: In a self-correction, he narrows his \"no\" to…",
+    "ответ на «а если бы…»: Asked to assume…, he said he would…; границы ответа: in principle — в принципе, on historical grounds — по историческим причинам",
+    "пример в ответ на «как это могло бы выглядеть?» — иллюстрация, а не рекомендация: He offered these as examples, not as his plan",
+    "документ, которого ты не видел, — со слов гостя: According to Ellis, the note…; does not establish that X ≠ shows that not X",
+    "намёк передают как намёк: He implies…, but he doesn't say / accuse…",
+    "честный заголовок: согласился бы гость с этой фразой? narrows his objection, а не changes his mind",
+    "новость после интервью: Mara reports…; Ellis hasn't seen it — условие не выполнено, пока его не проверили; меняется только затронутый пункт",
+    "слова: relocation, endorse, approval, legible, scope, in principle, hypothetical, attribute, headline, subhead"
+  ],
+  "sources": [
+    {
+      "title": "SPJ Journalist's Toolbox · Ethics: Quotations",
+      "url": "https://ethics.journalists.org/topics/quotations/",
+      "notes": "Сверено: обрезанная цитата легко меняет смысл (пример «I will go to war… but only if necessary» без второй части); пересказ рядом с цитатой должен вместе с ней давать честную картину взглядов человека; если цитату приходится сильно подгонять, лучше выбрать другую или пересказать. Отсюда правила «ответ вместе с условием» и проверка заголовка «согласился бы гость»."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Что нового по сравнению с прошлыми интервью",
+      "body": "Подкаст о жизни города записал интервью о площади Foundry Square. Город хочет перенести центральный камень и разместить на стенах записи воспоминаний жителей. Гость, Эллис Роуэн, — историк, который консультировал первые обсуждения. Редактор запись не слушал. Он спрашивает тебя: «Так Эллис за проект или против? Можно написать, что он передумал?»\n\nЧасть ты уже умеешь. Из урока B2 об интервью: вопрос ведущего — не мнение гостя, а сузить позицию — не то же, что передумать. Из урока о лекции: qualify — «уточнить, сузить», withdraw — «отказаться». Из урока о подтексте: сказанное прямо и подразумеваемое — разные вещи.\n\nНовое здесь — четыре трудности длинного живого разговора. Гость сам поправляет свои слова. Ведущая спрашивает «а если бы…», и гость отвечает про воображаемую ситуацию. Гость пересказывает документы, которых ты не видел. А после интервью приходит новость, которую гость не проверял.\n\nЗадача урока — пересказать всё это так, чтобы гость, услышав твой пересказ, сказал: «Да, я говорил именно это»."
+    },
+    {
+      "title": "Карта позиции: о чём спросили и что ответил",
+      "body": "Карта позиции (timeline) — три-пять точек разговора. В каждой две вещи: о чём именно спросили и что гость ответил. Без первой части ответы кажутся противоречивыми.\n\nЭллис сначала говорит о проекте: no, not as it stands — «нет, в нынешнем виде нет». Потом признаёт, что проблема с доступом реальна. В конце говорит, что в принципе не возражал бы против переноса. Это не три разных мнения. Это ответы на три разных вопроса: о проекте целиком, о проблеме доступа, о воображаемом улучшенном варианте.\n\nФразы для карты: Initially, … — «сначала»; When pressed on …, — «когда ведущая настаивала на …»; By the end, … — «к концу». Они показывают порядок, но не причину. Не добавляй because, если гость не назвал, почему ответ изменился."
+    },
+    {
+      "title": "Поправка и ответ на «а если бы…»",
+      "body": "Ближе к концу Эллис говорит: Earlier I said my answer to the proposal was no. More precisely, my answer to presenting it as ready for approval is no. Это поправка: он сузил своё «нет». Он против не всего проекта, а того, чтобы называть проект готовым к утверждению. В пересказ идёт поправленная версия, а сам факт поправки стоит назвать.\n\nВедущая спрашивает: Suppose those explanations were included… Would you still oppose moving the stone? — «Допустим, пояснения добавили. Вы всё ещё против?» Ответ — внутри этого «допустим»: Asked to assume…, Ellis said he would no longer oppose… Would — «был бы», а не «теперь не против». Сохрани и границы: in principle — «в принципе», а не о конкретном чертеже; on historical grounds — только по историческим причинам.\n\nПредел: пример — тоже не одобрение. Варианты, названные на вопрос «как это могло бы выглядеть?», — иллюстрация, а не план гостя."
+    },
+    {
+      "title": "Чей это голос: документ, гость или ты",
+      "body": "Эллис пересказывает два документа: Access Note — записку о доступе, и Memory Catalog — список собранных записей. Ты их не видел. Значит, всё о них — со слов гостя: According to Ellis, the Access Note identifies… Если написать The Access Note shows…, редактор решит, что вы проверили документ сами.\n\nСледи за отрицанием. The note does not establish that moving the stone is the only option — «записка не доказывает, что перенос — единственный выход». Это не «записка доказывает, что переносить не нужно».\n\nЧасть оценок Эллис даёт намёком. О заголовке «гость передумал» он говорит: It would be tidy. Fair is another matter. — «Было бы аккуратно. Справедливо ли — другой вопрос». Слова «нечестно» нет, но смысл такой. Пересказ: He implies that the headline would be misleading, but he doesn't accuse anyone. Не усиливай намёк до обвинения."
+    },
+    {
+      "title": "Записка редактору и новость после интервью",
+      "body": "Редактору нужен короткий brief — сводка для решения. Порядок: главное различие → две-три опоры с короткими цитатами → чего мы не знаем → один вопрос, ответ на который изменит текст выпуска. Проверка заголовка: согласился бы гость с этой фразой? Ellis changes his mind — нет. Ellis narrows his objection — да.\n\nПосле интервью ведущая сообщает новость: команда прислала новый чертёж (drawing). Это слова ведущей, а не гостя: Mara reports that… Эллис чертёж не видел. Значит, нельзя писать, что его условие выполнено.\n\nОбновляй только тот пункт, который затронула новость, остальное остаётся в силе. Неизвестное называй точно: What we still don't know is whether the new drawing meets his conditions. Фраза We need more information редактору ничего не говорит."
+    }
+  ],
+  "examples": [
+    {
+      "en": "Initially, she rejects the plan as it stands, not every change to the park.",
+      "ru": "Сначала она отвергает план в нынешнем виде, а не любые изменения в парке.",
+      "why": "As it stands — «в нынешнем виде»: «нет» относится к этому варианту плана."
+    },
+    {
+      "en": "In a self-correction, he narrows his objection to the schedule, not the project itself.",
+      "ru": "Поправив себя, он оставляет возражение только против графика, а не против самого проекта.",
+      "why": "Пересказана поправленная версия, и сказано, что гость поправил себя сам."
+    },
+    {
+      "en": "Asked to assume the budget doubled, the mayor said she would support a second bus line.",
+      "ru": "Когда мэра попросили представить, что бюджет удвоится, она сказала, что поддержала бы вторую автобусную линию.",
+      "why": "Asked to assume и would: это ответ про воображаемую ситуацию, а не решение."
+    },
+    {
+      "en": "According to the guest, the report counts visits, not people; we haven't seen the report.",
+      "ru": "По словам гостя, отчёт считает посещения, а не людей; сам отчёт мы не видели.",
+      "why": "Сведения о документе подписаны гостем, а вторая часть честно говорит, что мы их не проверяли."
+    },
+    {
+      "en": "She implies the survey was rushed, but she doesn't say it was wrong.",
+      "ru": "Она намекает, что опрос провели в спешке, но не говорит, что он ошибочен.",
+      "why": "Намёк передан как намёк, и рядом сказано, чего она не утверждала."
+    },
+    {
+      "en": "He mentioned a bench as an example, not as his recommendation.",
+      "ru": "Скамейку он упомянул как пример, а не как свою рекомендацию.",
+      "why": "Иллюстрация в ответе на вопрос «как это могло бы выглядеть?» — не одобрение."
+    }
+  ],
+  "materials": [
+    {
+      "id": "m1",
+      "title": "Интервью о городской памяти / What a Square Remembers",
+      "kind": "listening",
+      "text": "Original teaching material. Fictional interview script for locally synthesized speech.\n\nHost, Mara: The council wants to redesign Foundry Square, moving its central stone and putting recorded memories along the surrounding walls. You advised the early discussions, although you are not on the design team. In a sentence, do you support the proposal?\n\nGuest, Ellis: In a sentence, I support making the square more usable without making its past easier to misunderstand. If you mean the current proposal, my answer is no, not as it stands. Moving the stone is being presented as a practical adjustment, almost like moving a bench. But the position of an object can be part of what it tells us. I would want the council to explain that loss before asking us to celebrate the gain. That is not a demand that every object remain exactly where somebody first put it.\n\nMara: The Access Note says the present route is difficult for some wheelchair users. Are you putting historical meaning ahead of access?\n\nEllis: No. The note identifies a narrow turn beside the stone, and I take that seriously. What I have not seen is a comparison showing that moving the stone is the only workable response. The note records the difficulty; it does not choose a design. Those are different jobs. I would be perfectly willing to examine a relocation scheme that preserves a legible connection with the original position. I am resisting the idea that accepting the problem commits you to this particular solution.\n\nMara: What would a legible connection actually look like?\n\nEllis: It might include a visible outline on the ground, an explanation at the new position, and a route between them that people can follow. But please do not turn those possibilities into my approved specification. I have not checked whether they would work here. There is a temptation, in these discussions, to treat an example as a signature. Someone asks what might help; you answer; the next document says the adviser supports the design. An illustration of a principle is not a professional assessment of a finished plan.\n\nMara: You sound rather wary of the documents.\n\nEllis: Of what documents get asked to do, perhaps. My mother used to work in the old ticket office beside the square. Years after it closed, she saw an exhibition caption describing the office as a place where neighbors exchanged stories. She said, yes, sometimes, but mostly we sold tickets and tried to keep the rain off the accounts. I remember being disappointed. I wanted her workplace to have been a little theater of community life. She wanted someone to remember the leaking roof. Neither version was entirely false, but one was much easier to put on a cheerful panel. I mention that because selection can become sentiment without anybody consciously deciding to mislead.\n\nMara: Does that make the proposed recorded memories a problem too?\n\nEllis: Potentially, though let me come back to your question about documents first. I trust the Access Note as a record of the obstacle its author observed. I do not treat it as permission for every alteration that follows. Likewise, the Memory Catalog tells us what has been collected, not what the whole neighborhood remembers. It lists eighteen recorded contributions, eleven from former shopkeepers. That may produce excellent material. It cannot, on those numbers alone, justify the phrase “the community's voice.” We do not know from the catalog how people were approached or who declined.\n\nMara: The project officer calls it a first collection, not a representative sample.\n\nEllis: Then that is a useful distinction, and the public description should keep it. My concern is that careful language tends to disappear between the working document and the launch banner. “A first collection” becomes “our shared memory,” and suddenly a limited invitation has acquired a very large hat. Forgive the expression, but it matters. I would welcome the recordings as attributed individual accounts, provided visitors can see how the collection was assembled and how further contributions can be offered.\n\nMara: Suppose those explanations were included and the original position remained clearly marked. Would you still oppose moving the stone?\n\nEllis: I would no longer oppose relocation in principle on historical grounds. That is narrower than saying I would approve this design. Access, maintenance, and the actual quality of the interpretation would still need assessment. Earlier I said my answer to the proposal was no. More precisely, my answer to presenting it as ready for approval is no. There may be a defensible proposal inside it; I am not yet persuaded that the necessary work has been done.\n\nMara: So a headline saying you have changed your mind would be fair?\n\nEllis: It would be tidy. Fair is another matter. You have made the conditions more explicit, and I have made the scope of my objection more explicit. If that counts as changing my mind, the phrase needs quite a lot of furniture around it. I am less concerned with keeping my opening sentence intact than with keeping the decision open until its basis is clear.\n\nMara: What should listeners ask for next?\n\nEllis: A revised proposal that separates the access problem, the relocation options, and the claims made for the recordings. Publish the reasoning connecting them. Then people can disagree about an actual choice rather than being told that concern for access or respect for memory leaves only one answer. I would be glad to take part in that discussion. I would not want my willingness to discuss it advertised as an endorsement.",
+      "source": "Придумано для курса: люди, площадь и документы вымышленные; голос — синтез речи."
+    },
+    {
+      "id": "m2",
+      "title": "Карта источников и контекста / Editorial Context Card",
+      "kind": "reference",
+      "text": "Original teaching material. Fictional context card.\n\nMara Vale hosts a local affairs podcast. Ellis Rowan is a historian who works on public history projects. He attended two early advisory meetings about Foundry Square. Ellis is not employed by the design team and has no authority to approve the council's proposal.\n\nThe council is considering changes to pedestrian access, the location of a central stone, and the presentation of recorded memories. The interview concerns a proposal rather than a completed redevelopment.\n\nDocuments mentioned in the interview:\n\nAccess Note: an observation document concerning movement through the square.\n\nMemory Catalog: an inventory of collected audio contributions.\n\nCurrent Proposal: the design team's description of the proposed changes.\n\nThese titles identify separate documents. This card supplies no additional findings from them. References to their contents must therefore be attributed to the interview unless an actual document is supplied. The podcast editor needs an account of the guest's position, with explicit distinctions between statements, interpretations, and missing information.",
+      "source": "Придумано для курса: карточка вымышленная."
+    },
+    {
+      "id": "m3",
+      "title": "Уточнение после интервью — открыть в задании e9 / A Follow-up Before Editing",
+      "kind": "dialogue",
+      "text": "Original teaching material. Fictional follow-up dialogue for a separate locally synthesized recording. Release after the initial timeline has been completed.\n\nMara: Our editor read your line about no longer opposing relocation in principle as permission to say you support a trial move. Is that what you meant?\n\nEllis: No. A trial move was not discussed. Temporary relocation could still involve physical work that is difficult to reverse. My statement concerned historical objections under the conditions you proposed; it was not advice about a trial or its safety.\n\nMara: There is also an update. The team has sent a revised drawing showing an outline at the original position. Can we report that your main condition has now been met?\n\nEllis: You can report what the drawing shows, if you have checked it. I have not seen it. An outline alone would not tell me whether visitors could understand the relationship between the positions. Please do not use my earlier hypothetical answer as an assessment of a drawing I have not reviewed.\n\nMara: Would you give us a new verdict before tonight's edit?\n\nEllis: I can clarify my words now, but I cannot assess the revision tonight. I would need the drawing and its explanatory text. My request for a transparent account of the recordings also remains. I am not withdrawing the conditional openness I expressed. I am saying that conditional openness and approval are different statements.",
+      "source": "Придумано для курса: разговор вымышленный; голос — синтез речи."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Первый проход. Прослушай M1 один раз, не читая текст. Напиши редактору две-три фразы: о чём спор, что Эллис отвечает в самом начале и насколько широко его «нет». Цифры и названия документов пока не нужны.",
+      "context": "stone — камень; relocation — перенос; as it stands — в нынешнем виде; access — доступ, возможность пройти.",
+      "guidance": {
+        "title": "Вспоминаем: первый проход — позиция и её размах",
+        "body": "Вспоминаем урок B2 об интервью: на первом проходе ищи позицию гостя и её границу. Новое здесь: сразу отметь, против чего именно его «нет» — против любых перемен или против этого варианта.",
+        "example": "The guest opposes the new bus route as it stands, but she doesn't reject changes to the route in general.",
+        "translation": "Гостья против нового автобусного маршрута в нынешнем виде, но не отвергает изменения маршрута вообще."
+      },
+      "hint": "В первом ответе Эллиса есть слова not as it stands, а в конце — That is not a demand that every object remain… Что они ограничивают?",
+      "answers": [
+        "The interview is about the plan to redesign Foundry Square, including moving its central stone. At the start, Ellis rejects the current proposal as it stands. But he makes clear that he isn't against every change: he doesn't demand that every object stay where it is.",
+        "The debate is about whether the square can be made easier to use without hiding its past. Ellis's first answer is no to the proposal in its current form, not to change in general."
+      ],
+      "explanation": "Засчитывается, если названы тема (перестройка площади и перенос камня) и граница первого ответа: «нет» относится к нынешнему варианту, а не к любым переменам. Сказать просто Ellis is against the project — слишком широко.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e2",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Второй проход, тоже без текста. Напиши заметку для проверки фактов (3–4 предложения): какое препятствие описывает Access Note, чего эта записка, по словам Эллиса, не доказывает, какие два числа он называет из Memory Catalog и чего каталог не сообщает.",
+      "context": "narrow turn — узкий поворот; wheelchair user — человек на инвалидной коляске; contribution — запись, которую прислал человек; decline — отказаться.",
+      "guidance": {
+        "title": "Документ — со слов гостя",
+        "body": "Ты не видел ни записки, ни каталога. Каждое сведение о них начинай с According to Ellis или Ellis says. Так редактор видит, что это пересказ гостя, а не ваша проверка.",
+        "example": "According to the principal, the survey covers only ninth graders; we haven't seen the survey ourselves.",
+        "translation": "По словам директора, опрос охватывает только девятиклассников; сам опрос мы не видели."
+      },
+      "hint": "Начни так: According to Ellis, the Access Note identifies…",
+      "answers": [
+        "According to Ellis, the Access Note identifies a narrow turn beside the stone that is difficult for some wheelchair users. He says the note does not establish that moving the stone is the only workable solution. Ellis says the Memory Catalog lists eighteen recorded contributions, eleven of them from former shopkeepers. The catalog doesn't show how people were approached or who declined.",
+        "Ellis says the Access Note records a narrow turn next to the stone, which some wheelchair users find hard to get through, but it doesn't show that relocation is the only option. According to him, the catalog has eighteen contributions, eleven from former shopkeepers. It doesn't tell us how contributors were invited or who said no."
+      ],
+      "explanation": "Засчитывается, если все сведения о документах подписаны гостем, числа связаны с тем, что посчитано (18 записей, 11 от бывших владельцев магазинов), и отрицание не усилено: записка не доказывает, что перенос — единственный выход, но и не доказывает, что он не нужен.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e3",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Теперь можно открыть текст M1. Найди место, где Эллис поправляет своё первое «нет». Перескажи поправку одним-двумя предложениями: что он сказал сначала и к чему сузил ответ.",
+      "context": "approval — утверждение; defensible — такой, который можно обосновать.",
+      "guidance": {
+        "title": "Поправка: берём новую версию",
+        "body": "More precisely, actually, what I mean is — сигналы поправки. Назови в пересказе и то, что гость поправил себя: так редактор поймёт, почему ранняя цитата не годится для заголовка.",
+        "example": "At first, the coach said the team wasn't ready. In a self-correction, she narrowed that to the defense.",
+        "translation": "Сначала тренер сказала, что команда не готова. Поправив себя, она сузила это до защиты."
+      },
+      "hint": "Ищи пару Earlier I said… More precisely…",
+      "answers": [
+        "At first, Ellis said his answer to the proposal was no. In a self-correction, he narrowed that: he objects to presenting the proposal as ready for approval, not to the proposal as a whole.",
+        "Ellis corrects his opening answer. His \"no\" is not to the whole proposal but to treating it as ready for approval; he says there may be a defensible proposal inside it."
+      ],
+      "explanation": "Засчитывается, если сказано, что гость сам себя поправил, и названа новая граница: против готовности к утверждению, а не против проекта целиком. Narrowed, clarified, made more precise — всё подходит; changed his mind — нет.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e4",
+      "kind": "translate",
+      "practiceStage": "guided",
+      "prompt": "Переведи для редактора: «Когда ведущая попросила его представить, что пояснения добавлены и прежнее место камня ясно отмечено, Эллис сказал, что больше не возражал бы против переноса в принципе — по историческим причинам. Доступ, обслуживание и качество пояснений ещё нужно оценить. Это не одобрение нынешнего проекта».",
+      "context": "maintenance — обслуживание; in principle — в принципе; on historical grounds — по историческим причинам; assess — оценить.",
+      "guidance": {
+        "title": "Ответ на «а если бы…» — вместе с «если»",
+        "body": "Гость отвечал про ситуацию, которую придумала ведущая. Начни с Asked to assume… или When Mara asked him to imagine… и оставь would и обе границы: in principle и on historical grounds.",
+        "example": "Asked to assume the school hired two more teachers, the principal said she would no longer object to smaller classes.",
+        "translation": "Когда директора попросили представить, что школа наймёт ещё двух учителей, она сказала, что больше не возражала бы против маленьких классов."
+      },
+      "hint": "Проверь: есть ли в переводе would? Без него выходит, что он уже не против.",
+      "answers": [
+        "When Mara asked him to assume that the explanations were included and the stone's original position was clearly marked, Ellis said he would no longer oppose relocation in principle on historical grounds. Access, maintenance, and the quality of the explanations would still need to be assessed. This is not an endorsement of the current proposal.",
+        "Asked to imagine that the explanations had been added and the original position was clearly marked, Ellis said he would no longer object to moving the stone in principle, on historical grounds. Access, maintenance, and the quality of the explanations still need to be assessed. This isn't approval of the current proposal.",
+        "When the host asked him to suppose that the explanations were included and the original location was clearly marked, Ellis said he would no longer oppose relocation in principle on historical grounds. Access, maintenance, and the quality of the interpretation still have to be assessed. That does not mean he approves of the current proposal."
+      ],
+      "explanation": "Важно три вещи: «если» ведущей (asked him to assume / imagine / suppose), would no longer oppose вместо no longer opposes и обе границы — in principle и on historical grounds. Endorsement, approval и approves — одинаково верны.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e5",
+      "kind": "rewrite",
+      "practiceStage": "guided",
+      "prompt": "Продюсер написал в черновике: \"Ellis recommends three changes: an outline on the ground, a sign at the new position, and a marked route between them.\" Перепиши фразу (1–2 предложения) так, чтобы она передавала, что сказал Эллис на самом деле.",
+      "context": "outline — контур; specification — готовый план с требованиями.",
+      "guidance": {
+        "title": "Пример — не рекомендация",
+        "body": "Если гостя спросили «как это могло бы выглядеть?», его ответ — иллюстрация. Посмотри, как он сам называет свои варианты и о чём просит, когда их перечислил.",
+        "example": "Asked what might help, the nurse mentioned a second waiting room as an example; she didn't recommend it.",
+        "translation": "Когда медсестру спросили, что могло бы помочь, она упомянула вторую комнату ожидания как пример; она её не рекомендовала."
+      },
+      "hint": "В M1 Эллис говорит: please do not turn those possibilities into my approved specification. На какой вопрос он отвечал?",
+      "answers": [
+        "Asked what a legible connection might look like, Ellis mentioned an outline on the ground, an explanation at the new position, and a route between them as possibilities. He stressed that these are not his approved plan and that he hasn't checked whether they would work there.",
+        "Ellis offered an outline, an explanation at the new spot, and a route between them only as examples of what might help. He asked that they not be treated as his recommendation, since he hasn't checked whether they would work."
+      ],
+      "explanation": "Засчитывается, если варианты названы примерами (possibilities, examples), сказано, на какой вопрос он отвечал или что он не проверял их, и нет recommends. Explanation вместо sign — точнее по M1, но sign не меняет смысла.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e6",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "На вопрос, честен ли заголовок «гость передумал», Эллис отвечает: It would be tidy. Fair is another matter. Раньше он говорит, что «первая коллекция» на баннере превращается в «нашу общую память» и a limited invitation has acquired a very large hat. Напиши два предложения: что он подразумевает в каждом случае и чего прямо не говорит.",
+      "context": "tidy — аккуратный, удобный; hat — шляпа: здесь образ, маленькому делу дали слишком громкое имя.",
+      "guidance": {
+        "title": "Вспоминаем: сказанное и подразумеваемое",
+        "body": "Вспоминаем урок о подтексте: намёк оставляет часть вывода слушателю. Новое здесь: в записке для редактора намёк передают глаголами implies или suggests и рядом пишут, чего гость не сказал.",
+        "example": "Asked if the plan was realistic, she said, \"It's ambitious.\" She implies doubt, but she doesn't call it unrealistic.",
+        "translation": "На вопрос, реалистичен ли план, она ответила: «Он амбициозный». Она намекает на сомнение, но не называет план нереалистичным."
+      },
+      "hint": "Начни так: Ellis implies that the headline…, but he doesn't…",
+      "answers": [
+        "Ellis implies that the headline would be misleading, but he doesn't accuse the host of dishonesty. With the \"very large hat\" image, he suggests that a small first collection is being presented as the whole community's memory, but he doesn't say the recordings themselves are unreliable.",
+        "By calling the headline tidy rather than fair, Ellis suggests it would oversimplify his position; he doesn't say anyone is lying. The hat image implies that the launch wording claims too much for a limited collection, not that the contributors are wrong."
+      ],
+      "explanation": "Засчитывается, если оба намёка переданы через implies / suggests и при каждом сказано, чего гость прямо не утверждал: никого не обвиняет во лжи и не говорит, что записи недостоверны. Accused, attacked, said it was dishonest — уже усиление.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e7",
+      "kind": "write",
+      "practiceStage": "guided",
+      "prompt": "Редактор предлагает заголовок выпуска: \"Historian Changes His Mind on Foundry Square.\" Предложи честный заголовок (до 10 слов) и одно предложение-подзаголовок, с которым Эллис бы согласился.",
+      "context": "headline — заголовок; subhead — строка под заголовком.",
+      "guidance": {
+        "title": "Заголовок проверяет гость",
+        "body": "Заголовок короче пересказа, но не должен быть сильнее его. Перед отправкой спроси: сказал бы гость «да, это мои слова»? Если для условия нет места, выбери глагол, который его подразумевает: narrows, sets conditions.",
+        "example": "Council Member Sets Conditions for Park Plan. She would back the plan if the playground stays, but she hasn't seen the final design.",
+        "translation": "Член совета ставит условия плану парка. Она поддержала бы план, если площадку сохранят, но окончательного проекта она не видела."
+      },
+      "hint": "Changes his mind — слишком сильно. Какой глагол из урока описывает, что стало с его «нет»?",
+      "answers": [
+        "Historian Narrows His Objection to Foundry Square Plan. Ellis Rowan says the plan isn't ready for approval, but he would no longer oppose moving the stone in principle if its original position were clearly marked.",
+        "Historian Sets Conditions on Moving Foundry Square Stone. Ellis Rowan would drop his historical objection if the old position were marked and explained, but he hasn't approved the design."
+      ],
+      "explanation": "Засчитывается, если в заголовке нет changes his mind, backs, approves, а подзаголовок сохраняет условие (if…) и то, что проект не одобрен. Were после if — форма воображаемого условия; was в разговорной речи тоже встречается.",
+      "materialIds": [
+        "m1"
+      ]
+    },
+    {
+      "id": "e8",
+      "kind": "write",
+      "practiceStage": "independent",
+      "prompt": "Открой M2. Напиши редактору записку о позиции Эллиса (200–300 слов). Что должно быть: карта позиции из четырёх точек — о чём спросили и что он ответил, с короткими цитатами; его поправка; ответ на «а если бы…» с условием и границами; что о документах известно только со слов гостя; один намёк, переданный как намёк; честен ли заголовок «он передумал» и какой лучше; чего мы не знаем; один вопрос, ответ на который изменит текст выпуска.",
+      "context": "",
+      "hint": "План: Initially… → When pressed on access… → In a self-correction… → Asked to assume… → According to Ellis… → A fair headline… → What we still don't know… → Can we…?",
+      "answers": [
+        "Ellis's position: a summary for the edit\n\nInitially, Ellis rejects the current proposal \"as it stands,\" but he says he is not demanding that every object stay in place.\n\nWhen pressed on access, he accepts the problem: according to him, the Access Note records a narrow turn beside the stone. He says it \"does not choose a design,\" so recognizing the problem doesn't commit us to moving the stone. We haven't seen the note ourselves.\n\nOn the recordings, he welcomes them as attributed individual accounts, provided visitors can see how the collection was put together. According to Ellis, the catalog lists eighteen contributions, eleven from former shopkeepers. His \"very large hat\" image suggests that a first collection is being sold as the whole neighborhood's memory; he doesn't say the recordings are unreliable.\n\nBy the end, he corrects himself: his \"no\" is to \"presenting it as ready for approval,\" not to the whole proposal. Asked to assume the explanations were added and the old position marked, he said he would no longer oppose relocation \"in principle\" on historical grounds. Access and maintenance would still need assessment.\n\nIs \"he changed his mind\" fair? He calls it \"tidy,\" which implies it would mislead. A fairer headline: \"Historian Narrows His Objection to Foundry Square Plan.\"\n\nWhat we still don't know is whether any actual design meets his conditions. Before we call his view conditional support, can we ask Ellis whether that phrase fairly describes his position?"
+      ],
+      "explanation": "Засчитывается, если у каждой точки карты понятно, о чём был вопрос; поправка и гипотетический ответ переданы с would, in principle и on historical grounds; сведения о документах подписаны гостем; намёк передан как намёк; changes his mind отклонён; неизвестное названо предметно, а вопрос влияет на текст выпуска.",
+      "materialIds": [
+        "m1",
+        "m2"
+      ]
+    },
+    {
+      "id": "e9",
+      "kind": "speak",
+      "practiceStage": "independent",
+      "prompt": "Открой M3 и сначала прослушай его один раз, не читая текст. Потом запиши устное обновление для редактора перед вечерним монтажом, 2–3 минуты, без опоры на текст. Что должно быть: что гость сказал о «пробном переносе»; что сообщила ведущая о новом чертеже и почему это её слова, а не его; почему нельзя сказать, что условие выполнено; что остаётся из прежней записки; чего мы не знаем; один практический шаг до монтажа.",
+      "context": "trial move — пробный перенос; reverse — вернуть как было; verdict — итоговая оценка.",
+      "hint": "Начни так: Two things changed after the follow-up. First, …",
+      "answers": [
+        "Two things changed after the follow-up, and one thing didn't.\n\nFirst, the trial move. Our editor read Ellis's earlier answer as support for a trial move. Ellis says that's not what he meant. A trial move was never discussed, and he points out that even a temporary relocation could involve physical work that is hard to reverse. So we can't say he supports a trial. His earlier statement was only about historical objections, under the conditions Mara described.\n\nSecond, the drawing. Mara reports that the design team has sent a revised drawing with an outline at the original position. That's her information, not his. Ellis hasn't seen the drawing. He also says an outline alone wouldn't tell him whether visitors could understand how the two positions are connected. So we can't report that his main condition has been met. We can report what the drawing shows, but only if we've checked it ourselves.\n\nWhat stays the same: he still keeps his conditional openness. He hasn't withdrawn it. And he still wants a clear account of how the recordings were collected. In his words, conditional openness and approval are different statements.\n\nWhat we still don't know is whether the revised drawing and its explanatory text meet his conditions. He can't assess that tonight.\n\nSo my suggestion for the edit: let's get the drawing and the text, check what they actually show, and describe them as the team's revision, not as something Ellis has reviewed. Does that work for tonight?"
+      ],
+      "explanation": "Засчитывается, если в записи есть отказ гостя от «пробного переноса», новость о чертеже подписана ведущей, сказано, что Эллис чертёж не видел и не может оценить его сегодня, прежняя условная открытость сохранена, неизвестное названо предметно и предложен шаг. Сравни запись с M3: не потерялось ли «не видел» и «не сегодня».",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    },
+    {
+      "id": "e10",
+      "kind": "rewrite",
+      "practiceStage": "independent",
+      "prompt": "Ассистент оставил ведущей итог. Перепиши его (130–180 слов) так, чтобы он совпадал с M1 и M3, и добавь два предложения: какие две реплики гостя подтверждают твои правки.\n\n\"Ellis has reversed his original objection and now supports a temporary move of the stone. The revised drawing meets his conditions because it marks the original position. Ellis reviewed the drawing and confirmed that the recordings represent the neighborhood. The Access Note proves that relocation is the only accessible option. We can present the revised project as approved by its historical adviser.\"",
+      "context": "",
+      "hint": "Проверь каждый глагол: reversed, supports, meets, reviewed, confirmed, proves, approved. Есть ли для него реплика гостя?",
+      "answers": [
+        "Ellis has narrowed his objection, not reversed it. He would no longer oppose relocation in principle on historical grounds if the explanations were included and the original position were clearly marked, but he has not approved the current or revised design. He did not endorse a temporary move: it was never discussed, and he warns that it could involve work that is hard to reverse. Mara reports that a revised drawing marks the original position, but Ellis hasn't seen it and can't assess it tonight. He still asks for a clear account of how the recordings were collected; he never said they represent the whole neighborhood. According to Ellis, the Access Note records an obstacle but does not show that relocation is the only option. We should not present the project as approved by him.\n\nIn M3, \"A trial move was not discussed\" and \"I have not seen it\" rule out the claims about a trial and a review. In M1, \"The note records the difficulty; it does not choose a design\" corrects the claim about proof."
+      ],
+      "explanation": "Засчитывается, если исправлены все пять искажений: «передумал», «поддерживает пробный перенос», «чертёж выполняет условия», «проверил чертёж и подтвердил записи», «записка доказывает». Новость о чертеже подписана ведущей, а цитаты точно взяты из M1 и M3.",
+      "materialIds": [
+        "m1",
+        "m3"
+      ]
+    }
+  ]
+}
