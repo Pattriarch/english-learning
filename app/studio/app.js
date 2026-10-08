@@ -1,4 +1,5 @@
 import {loadWordImages,lessonWordImagesHTML,bindWordImages} from './word-images.js';
+import {loadLessonScenes} from './lesson-scenes.js';
 import {mountSpeechPractice} from './speech-practice.js';
 import {authoredExerciseID,authoredLessonState,currentAuthoredExercise,isGuidedLesson} from './authored-exercise.js';
 import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
@@ -51,7 +52,7 @@ const kadrSection={lesson:'roadmap',unit:'roadmap',tenses:'roadmap',books:'roadm
 const isKadr=()=>document.documentElement.dataset.design==='kadr';
 async function refresh(){
  data=await api('/bootstrap');
- await loadWordImages();
+ await Promise.all([loadWordImages(),loadLessonScenes()]);
  initStudySession(data.state);
  const link=$('.nav a[href="#/review"]');
  if(link){const count=dueCount(),badge=$('.badge-count',link);if(badge){if(count)badge.textContent=count;else badge.remove();}else if(count)link.insertAdjacentHTML('beforeend',`<span class="badge-count">${count}</span>`);}

@@ -1,6 +1,7 @@
 import {esc,icon} from './core.js';
 import {speak} from './audio.js';
 import {lessonDiagramHTML,bindLessonVisuals,lessonTeachingVisual} from './lesson-visuals.js';
+import {expandedLessonScene} from './lesson-scenes.js';
 
 const scenes={
  states:{file:'be-states-scene.png',alt:'Слева девушка с ключами и рюкзаком готова выйти; справа она устало зевает на диване.',title:'Готова выйти — или устала?',en:'I am ready. I am tired.',ru:'Я готова. Я устала.',panels:[['I am ready.','Я готова.'],['I am tired.','Я устала.']],why:'Она ничего не делает — она говорит, какая она сейчас. Это состояние, поэтому после I стоит am. По-русски на этом месте пусто, а в английском без am нельзя.'},
@@ -21,7 +22,7 @@ const mapped={
  'path-deduction':'perspective','modals-deduction':'perspective'
 };
 // Light copies of the scenes for cards and banners; the lesson keeps the full image.
-export const scenePoster=scene=>'/assets/posters/'+String(scene.file).replace(/\.png$/,'.jpg');
+export const scenePoster=scene=>scene.association?'/assets/course-scenes/'+scene.file:'/assets/posters/'+String(scene.file).replace(/\.png$/,'.jpg');
 // A short English label for a lesson without a scene: the English term from its
 // title ("I, me, my"), or its shortest example when that fits a poster whole.
 export function posterWord(lesson){
@@ -32,12 +33,17 @@ export function posterWord(lesson){
  return example.length<=24?example:'';
 }
 export function lessonVisual(lesson){
+ const expanded=expandedLessonScene(lesson);if(expanded)return expanded;
  if(lesson.id==='path-plurals')return {...scenes.count,en:'One apple. Three apples.',ru:'Одно яблоко. Три яблока.',title:'Одно яблоко — apple, три яблока — apples',panels:[['One apple.','Одно яблоко.'],['Three apples.','Три яблока.'],['','']],why:'Слева одно яблоко: one apple. В середине три яблока: three apples — к apple добавилось -s, потому что яблок больше одного. Справа вода: её не считают по штукам, поэтому к water -s не добавляют. О таких словах — отдельный урок.'};
  if(lesson.id==='path-present-perfect-continuous')return {...scenes.time,en:'He has been painting the chair. He has painted the chair.',ru:'Он уже некоторое время красит стул. Он покрасил стул.',panels:[['He has been painting the chair.','Он уже некоторое время красит стул.'],['He has painted the chair.','Он покрасил стул.']],why:'В первом случае выделяем процесс, начавшийся раньше: has been painting. Во втором — завершённый результат: has painted. Первая фраза сама по себе не обещает, что стул уже готов.'};
  const key=mapped[lesson.id];return key?scenes[key]:null;
 }
 export function lessonVisualHTML(lesson){
  const s=lessonVisual(lesson);if(!s)return '';
+ if(s.association){
+  const meaning=s.panels?.length?`<div class="course-scene-labels">${s.panels.map(([en,ru])=>`<div><p lang="en">${esc(en)}</p><p>${esc(ru)}</p></div>`).join('')}</div>`:`<div><p lang="en">${esc(s.en)}</p><p>${esc(s.ru)}</p></div>`;
+  return `<figure class="course-visual course-scene-association"><div class="course-visual-frame"><img src="/assets/course-scenes/${esc(s.file)}" alt="${esc(s.alt)}" loading="lazy" width="${Number(s.width)||1536}" height="${Number(s.height)||1024}"></div><figcaption>${meaning}<button type="button" class="btn small ghost" data-scene-speak aria-label="Послушать подпись к иллюстрации">${icon('sound')}</button></figcaption></figure>`;
+ }
  // A scene of several panels gets one subtitle under each panel and, below,
  // each English line paired with its translation, so nothing has to be matched by guesswork.
  const panels=s.panels||[],sides=panels.length===3?['Слева','В центре','Справа']:['Слева','Справа'];

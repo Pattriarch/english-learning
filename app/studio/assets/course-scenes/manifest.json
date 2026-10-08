@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "generatedOn": "2026-10-08",
+  "generator": "OpenAI built-in image_gen",
+  "description": "Авторские иллюстрации к готовым учебным примерам. Люди и ситуации вымышлены. Подписи выводятся отдельно в HTML.",
+  "promptSet": "app/docs/course-illustration-expansion-2026-10.json",
+  "lessons": {
+    "path-this-that": {
+      "title": "Рядом и вдалеке",
+      "alt": "Человек держит ручку в руке и указывает на машину за окном.",
+      "en": "This is a pen. That’s a car.",
+      "ru": "Это ручка у меня в руке. А вон там — машина.",
+      "file": "near-far-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "61b06303a367c33f570d35dbd8c22c6bcc90809bcbaa5e5bf044081df0d0faea",
+      "promptKey": "near-far"
+    },
+    "path-possession": {
+      "title": "У неё есть кошка",
+      "alt": "Девушка дома держит кошку на руках.",
+      "en": "She has a cat.",
+      "ru": "У неё есть кошка.",
+      "file": "have-cat-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "0de401b82a5dc495283f856e6ad65d302d8e52f6f48bbb8c08bd8da4751ba896",
+      "promptKey": "have-cat"
+    },
+    "path-requests-can": {
+      "title": "Я умею плавать",
+      "alt": "Взрослый человек уверенно плывёт в бассейне.",
+      "en": "I can swim.",
+      "ru": "Я умею плавать.",
+      "file": "can-swim-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "166cce67221dd5e30d5fecdf5c883db45855278d1866e873f8f35bad0373b2a0",
+      "promptKey": "can-swim"
+    },
+    "path-instructions": {
+      "title": "Открой дверь",
+      "alt": "Человек поворачивает ручку и открывает дверь.",
+      "en": "Open the door.",
+      "ru": "Открой дверь.",
+      "file": "door-instructions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "ff4608fe5dcbae59d4db5ce27c2e763c5bc4918f7673c4de559b1305562b6d20",
+      "promptKey": "door-instructions"
+    },
+    "path-future-plans": {
+      "title": "Вечером позвоню маме",
+      "alt": "Девушка вечером держит телефон; рядом небольшая семейная фотография.",
+      "en": "I'm going to call Mom tonight.",
+      "ru": "Вечером я собираюсь позвонить маме.",
+      "file": "phone-plans-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "fb892d74df37da96fda17662b7c18a99675dc88e98c87e93b83954c9877a2b1f",
+      "promptKey": "phone-plans"
+    },
+    "path-something-anything": {
+      "title": "Дома кто-нибудь есть?",
+      "alt": "Посетитель у открытой двери смотрит в тихую прихожую.",
+      "en": "Is anyone home?",
+      "ru": "Дома кто-нибудь есть?",
+      "file": "anyone-home-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "fb8e2490ccfe805e80bed7de2cf07c9c26339cbc990e70fb131db970f2fd16ed",
+      "promptKey": "anyone-home"
+    },
+    "path-suggestions-offers": {
+      "title": "Может, встретимся в парке?",
+      "alt": "Двое друзей разговаривают у дорожки в зелёном парке.",
+      "en": "Why don't we meet at the park?",
+      "ru": "Может, встретимся в парке?",
+      "file": "park-suggestions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "4cd198daddbc4974cbc253e3fae55f6595bb03c10935cbd04d95b2aa512ae1e6",
+      "promptKey": "park-suggestions"
+    },
+    "path-possessive-pronouns": {
+      "title": "Чьи это ключи?",
+      "alt": "Человек поднял связку ключей и показывает её другу.",
+      "en": "Whose keys are these?",
+      "ru": "Чьи это ключи?",
+      "file": "whose-keys-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "34ad1f739022c4b23420d97dc756aaf0e98a795e6fed51b85af3e7b080d9c270",
+      "promptKey": "whose-keys"
+    },
+    "path-adverbs-manner": {
+      "title": "Суп вкусный. Ты хорошо готовишь",
+      "alt": "Человек пробует суп, пока друг стоит у кастрюли.",
+      "en": "The soup is good. You cook well.",
+      "ru": "Суп вкусный. Ты хорошо готовишь.",
+      "file": "cook-well-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "ef0cb0ee405ae850ac00d1265333f23c29d171318db6c4959bd9e3a064b889ac",
+      "promptKey": "cook-well"
+    },
+    "path-adjectives-ed-ing": {
+      "title": "Скучная лекция — скучающий слушатель",
+      "alt": "Слева идёт однообразная лекция, справа слушатель с трудом удерживает внимание.",
+      "en": "This lecture is boring. I'm bored.",
+      "ru": "Эта лекция скучная. Мне скучно.",
+      "panels": [
+        [
+          "This lecture is boring.",
+          "Эта лекция скучная."
+        ],
+        [
+          "I'm bored.",
+          "Мне скучно."
+        ]
+      ],
+      "file": "boring-bored-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "0bc17796b17e6be6be684a6c1c0f4759df383a4d96b5d99a3b3f0a4106d4f487",
+      "promptKey": "boring-bored"
+    },
+    "path-zero-first": {
+      "title": "Если дождь — остаёмся дома",
+      "alt": "За окном идёт дождь, двое друзей сидят дома.",
+      "en": "If it rains, we'll stay home.",
+      "ru": "Если будет дождь, мы останемся дома.",
+      "file": "rain-condition-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "346da3ed08734e2bac98f7f9a207461950174e55404c407fc13a9772f5c6d184",
+      "promptKey": "rain-condition"
+    },
+    "path-everyday-phrasal": {
+      "title": "Проснуться и встать — разные действия",
+      "alt": "Слева человек уже открыл глаза, но лежит в кровати; справа тот же человек встаёт.",
+      "en": "I wake up at six, but I get up at seven.",
+      "ru": "Я просыпаюсь в шесть, но встаю в семь.",
+      "panels": [
+        [
+          "I wake up.",
+          "Я просыпаюсь."
+        ],
+        [
+          "I get up.",
+          "Я встаю."
+        ]
+      ],
+      "file": "wake-get-up-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "5895483ddb89513a021c2fcd1220a683732cc15332ca306ec5d3f5afd915351c",
+      "promptKey": "wake-get-up"
+    },
+    "path-relative-basic": {
+      "title": "Кофейня, где мы познакомились",
+      "alt": "Двое взрослых встретились за столиком в небольшой кофейне.",
+      "en": "This is the coffee shop where we met.",
+      "ru": "Это кофейня, где мы познакомились.",
+      "file": "relative-cafe-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "9f6fe5aae5eb718dd5b7d1ded2b6dab762680a6ded2c5f1b4107dcc895f8fcd4",
+      "promptKey": "relative-cafe"
+    },
+    "path-passive-basic": {
+      "title": "Посылка доставлена",
+      "alt": "Закрытая картонная посылка стоит у входной двери.",
+      "en": "Your package has been delivered.",
+      "ru": "Ваша посылка доставлена.",
+      "file": "delivered-parcel-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "98bc434f636bd285d5ec75c801ab632278bc20df581cd9fc51b534d0378f66d8",
+      "promptKey": "delivered-parcel"
+    },
+    "path-reported-speech": {
+      "title": "Том сказал, что он в отпуске",
+      "alt": "Слева Том разговаривает по телефону у пляжа; справа его знакомый рассказывает об этом другому человеку.",
+      "en": "Tom told me he was on vacation.",
+      "ru": "Том сказал мне, что он в отпуске.",
+      "file": "reported-vacation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "8a99a9747320120e6101b52f46238694e696daf48e814185442650cafadbc90a",
+      "promptKey": "reported-vacation"
+    },
+    "path-question-tags": {
+      "title": "Холодно, правда?",
+      "alt": "Двое друзей в шарфах разговаривают на заснеженной улице.",
+      "en": "It's really cold today, isn't it?",
+      "ru": "Сегодня очень холодно, правда?",
+      "file": "winter-tags-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "2b01493a4c1b086edc30ecf574497d2df49091a41515caf16227a4af52f6197e",
+      "promptKey": "winter-tags"
+    },
+    "path-false-friends": {
+      "title": "Magazine — журнал. Store — магазин",
+      "alt": "Слева человек читает бумажный журнал, справа он покупает продукты в магазине.",
+      "en": "I read about it in a magazine. Let's stop at the store on the way home.",
+      "ru": "Я прочитал об этом в журнале. Давай зайдём в магазин по дороге домой.",
+      "panels": [
+        [
+          "a magazine",
+          "журнал"
+        ],
+        [
+          "a store",
+          "магазин"
+        ]
+      ],
+      "file": "magazine-store-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "dfea880242e1b40a4b2f1e2006117cc694b0c43f5552e3387cd219bf814cc023",
+      "promptKey": "magazine-store"
+    },
+    "path-register-b2": {
+      "title": "Другу, коллеге, клиенту",
+      "alt": "Три ситуации: разговор друзей, общение коллег и встреча с клиентом.",
+      "en": "Hey, can you send me the file by six? Hi Dana, could you send me the file by 6 p.m.? Dear Mr. Lopez, could you please send us the signed form by 6 p.m. today?",
+      "ru": "Одна просьба и один срок. Тон зависит от того, кому пишешь.",
+      "file": "audience-tone-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "d4803ce9b59f9b31a73a1e9986da279f0dc61403c1f1bde39c2906601ea48e3b",
+      "promptKey": "audience-tone"
+    },
+    "extended-a2-story": {
+      "title": "Автобус был битком",
+      "alt": "На заснеженной остановке двое взрослых смотрят на переполненный автобус.",
+      "en": "This morning, it was snowing, and we were waiting for the bus. The bus came, but it was full.",
+      "ru": "Утром шёл снег, и мы ждали автобус. Он приехал, но был битком.",
+      "file": "bus-story-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "53bf1424e205434f92a7cef68412f79fa74cb61ecbbe2d458decb6f5b6d51414",
+      "promptKey": "bus-story"
+    },
+    "extended-a2-service": {
+      "title": "Заказал большую — получил маленькую",
+      "alt": "Слева большая пицца как ожидание, справа маленькая пицца в большой коробке.",
+      "en": "I ordered a large pizza, but I got a small one.",
+      "ru": "Я заказал большую пиццу, а получил маленькую.",
+      "panels": [
+        [
+          "I ordered a large pizza.",
+          "Я заказал большую пиццу."
+        ],
+        [
+          "I got a small one.",
+          "Я получил маленькую."
+        ]
+      ],
+      "file": "pizza-size-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "15f7f1615223a1b7837028a7b31ef88fd6148bef0e8714504210a349abc71a21",
+      "promptKey": "pizza-size"
+    },
+    "extended-b1-interview": {
+      "title": "Помощь в общественном саду",
+      "alt": "Волонтёр проверяет инструменты рядом с грядками; другие помогают с посадкой.",
+      "en": "Last spring, I helped at a community garden. My job was to check the tools.",
+      "ru": "Прошлой весной я помогал в общественном саду. Моя задача была проверять инструменты.",
+      "file": "garden-volunteer-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "association": true,
+      "reviewed": true,
+      "sha256": "cef2a9c08994234f9af0b90d93a89eaf13d6bfede79aa3be2f9e5c4c4d5d04df",
+      "promptKey": "garden-volunteer"
+    }
+  }
+}

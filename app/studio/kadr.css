@@ -884,3 +884,9 @@
 [data-design=kadr] .speech-word small{font-style:normal;color:var(--muted);line-height:1.6}
 [data-design=kadr] .speech-practice-body label{display:block;margin-top:14px}
 [data-design=kadr] .speech-practice-body select{white-space:normal;height:auto;min-height:44px}
+[data-design=kadr] .course-scene-association .course-visual-frame{border-radius:6px}
+[data-design=kadr] .course-scene-association img{object-fit:contain;height:auto}
+[data-design=kadr] .course-visual.course-scene-association figcaption{display:flex;gap:16px;padding:14px 0 20px}
+[data-design=kadr] .course-visual.course-scene-association figcaption p{margin:4px 0;font-size:15px;line-height:1.5}
+[data-design=kadr] .course-visual.course-scene-association figcaption p[lang=en]{color:var(--ink);font-size:18px}
+[data-design=kadr] .course-visual.course-scene-association figcaption p:not([lang=en]){color:var(--muted)}

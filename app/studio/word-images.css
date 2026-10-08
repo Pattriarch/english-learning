@@ -8,6 +8,7 @@
 .word-image-credit{margin-top:8px;overflow-wrap:anywhere}
 .word-image-credit summary{cursor:pointer;white-space:normal}
 .word-image-credit p{margin-top:6px;line-height:1.6}
+.lexicon-context figure.lexicon-word-association img{height:280px;aspect-ratio:auto;object-fit:contain}
 .lesson-word-images{margin:24px 0 32px}
 .speech-practice{margin:20px 0;border-top:1px solid var(--line,var(--border));padding-top:18px}
 .speech-practice>summary{cursor:pointer;font-weight:500}

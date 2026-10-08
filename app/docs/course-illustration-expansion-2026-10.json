@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "mode": "built-in image_gen",
+  "description": "Новые сцены к готовым урокам; подписи выводятся в HTML. Тексты и порядок курса сохранены.",
+  "scenes": [
+    {
+      "key": "near-far",
+      "ids": [
+        "path-this-that"
+      ],
+      "title": "Рядом и вдалеке",
+      "alt": "Человек держит ручку в руке и указывает на машину за окном.",
+      "en": "This is a pen. That’s a car.",
+      "ru": "Это ручка у меня в руке. А вон там — машина.",
+      "subject": "One adult stands beside an open doorway, holding a clearly visible blue pen close to their chest in the foreground, and pointing with the other hand at a car visibly far away across the street. Clear near versus far spatial relationship. Show a single coherent scene, hands and the whole car fully visible.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: One adult stands beside an open doorway, holding a clearly visible blue pen close to their chest in the foreground, and pointing with the other hand at a car visibly far away across the street. Clear near versus far spatial relationship. Show a single coherent scene, hands and the whole car fully visible."
+    },
+    {
+      "key": "have-cat",
+      "ids": [
+        "path-possession"
+      ],
+      "title": "У неё есть кошка",
+      "alt": "Девушка дома держит кошку на руках.",
+      "en": "She has a cat.",
+      "ru": "У неё есть кошка.",
+      "subject": "A young adult woman at home gently holding one small cat in both arms. The woman and cat are equally clear; cat anatomically correct and fully identifiable. Simple home setting.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: A young adult woman at home gently holding one small cat in both arms. The woman and cat are equally clear; cat anatomically correct and fully identifiable. Simple home setting."
+    },
+    {
+      "key": "can-swim",
+      "ids": [
+        "path-requests-can"
+      ],
+      "title": "Я умею плавать",
+      "alt": "Взрослый человек уверенно плывёт в бассейне.",
+      "en": "I can swim.",
+      "ru": "Я умею плавать.",
+      "subject": "One adult confidently swimming freestyle in a calm outdoor swimming pool, waterline at shoulder level, visible arm stroke and clear pool edge. Swimming skill is the focus, no diving, no safety hazard, no lifeguard signage.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: One adult confidently swimming freestyle in a calm outdoor swimming pool, waterline at shoulder level, visible arm stroke and clear pool edge. Swimming skill is the focus, no diving, no safety hazard, no lifeguard signage."
+    },
+    {
+      "key": "door-instructions",
+      "ids": [
+        "path-instructions"
+      ],
+      "title": "Открой дверь",
+      "alt": "Человек поворачивает ручку и открывает дверь.",
+      "en": "Open the door.",
+      "ru": "Открой дверь.",
+      "subject": "One adult in a simple cream home hallway opening a blue door with their hand clearly on its handle. Door partly open, hinges and threshold believable. The action of opening unmistakable, not knocking. No extra people.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: One adult in a simple cream home hallway opening a blue door with their hand clearly on its handle. Door partly open, hinges and threshold believable. The action of opening unmistakable, not knocking. No extra people."
+    },
+    {
+      "key": "phone-plans",
+      "ids": [
+        "path-future-plans"
+      ],
+      "title": "Вечером позвоню маме",
+      "alt": "Девушка вечером держит телефон; рядом небольшая семейная фотография.",
+      "en": "I'm going to call Mom tonight.",
+      "ru": "Вечером я собираюсь позвонить маме.",
+      "subject": "A young adult woman seated at a home desk in the early evening, holding her mobile phone just before calling. A small framed photograph of her and an older adult woman sits beside a warm lamp. Twilight outside the window. Phone screen blank; no icons, contact names, letters or dates. Image supports an example of a plan; do not invent a diagram of future tense.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: A young adult woman seated at a home desk in the early evening, holding her mobile phone just before calling. A small framed photograph of her and an older adult woman sits beside a warm lamp. Twilight outside the window. Phone screen blank; no icons, contact names, letters or dates. Image supports an example of a plan; do not invent a diagram of future tense."
+    },
+    {
+      "key": "anyone-home",
+      "ids": [
+        "path-something-anything"
+      ],
+      "title": "Дома кто-нибудь есть?",
+      "alt": "Посетитель у открытой двери смотрит в тихую прихожую.",
+      "en": "Is anyone home?",
+      "ru": "Дома кто-нибудь есть?",
+      "subject": "One adult visitor at an open front door, looking attentively into a quiet empty hallway. Small coat rack and potted plant inside. The visitor's questioning posture is clear. Interior deliberately shows nobody, without asserting that nobody is elsewhere in the home.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: One adult visitor at an open front door, looking attentively into a quiet empty hallway. Small coat rack and potted plant inside. The visitor's questioning posture is clear. Interior deliberately shows nobody, without asserting that nobody is elsewhere in the home."
+    },
+    {
+      "key": "park-suggestions",
+      "ids": [
+        "path-suggestions-offers"
+      ],
+      "title": "Может, встретимся в парке?",
+      "alt": "Двое друзей разговаривают у дорожки в зелёном парке.",
+      "en": "Why don't we meet at the park?",
+      "ru": "Может, встретимся в парке?",
+      "subject": "Two casually dressed adult friends talking beside a path in an inviting green city park, one gesturing toward an empty park bench as a meeting spot. Clear relaxed social conversation, subtle spring plants, no other people.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two casually dressed adult friends talking beside a path in an inviting green city park, one gesturing toward an empty park bench as a meeting spot. Clear relaxed social conversation, subtle spring plants, no other people."
+    },
+    {
+      "key": "whose-keys",
+      "ids": [
+        "path-possessive-pronouns"
+      ],
+      "title": "Чьи это ключи?",
+      "alt": "Человек поднял связку ключей и показывает её другу.",
+      "en": "Whose keys are these?",
+      "ru": "Чьи это ключи?",
+      "subject": "Two adult friends at a small kitchen table, one holding up a clearly visible metal keyring with two door keys and looking questioningly at the other. Keys are large enough to read as physical keys. The second person acknowledges them with an open hand. No text, no brand.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two adult friends at a small kitchen table, one holding up a clearly visible metal keyring with two door keys and looking questioningly at the other. Keys are large enough to read as physical keys. The second person acknowledges them with an open hand. No text, no brand."
+    },
+    {
+      "key": "cook-well",
+      "ids": [
+        "path-adverbs-manner"
+      ],
+      "title": "Суп вкусный. Ты хорошо готовишь",
+      "alt": "Человек пробует суп, пока друг стоит у кастрюли.",
+      "en": "The soup is good. You cook well.",
+      "ru": "Суп вкусный. Ты хорошо готовишь.",
+      "subject": "Two adults in a calm kitchen: one has just cooked soup in a pot, holding a ladle; the other tastes a spoonful from a bowl and looks pleased. Pot, bowl and spoon clearly identifiable, hygienic and believable positions. No exaggerated steam blocking objects.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two adults in a calm kitchen: one has just cooked soup in a pot, holding a ladle; the other tastes a spoonful from a bowl and looks pleased. Pot, bowl and spoon clearly identifiable, hygienic and believable positions. No exaggerated steam blocking objects."
+    },
+    {
+      "key": "boring-bored",
+      "ids": [
+        "path-adjectives-ed-ing"
+      ],
+      "title": "Скучная лекция — скучающий слушатель",
+      "alt": "Слева идёт однообразная лекция, справа слушатель с трудом удерживает внимание.",
+      "en": "This lecture is boring. I'm bored.",
+      "ru": "Эта лекция скучная. Мне скучно.",
+      "panels": [
+        [
+          "This lecture is boring.",
+          "Эта лекция скучная."
+        ],
+        [
+          "I'm bored.",
+          "Мне скучно."
+        ]
+      ],
+      "subject": "Two equal side-by-side panels separated by a narrow cream gap. LEFT: quiet university lecture room, adult lecturer speaking beside a completely blank projection screen, very monotonous atmosphere, two seated adult students. RIGHT: close view of one of those adult students sitting with cheek resting on their hand, bored expression and notebook untouched. The distinction is cause versus feeling. No visible words or diagrams on screen or notebook.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two equal side-by-side panels separated by a narrow cream gap. LEFT: quiet university lecture room, adult lecturer speaking beside a completely blank projection screen, very monotonous atmosphere, two seated adult students. RIGHT: close view of one of those adult students sitting with cheek resting on their hand, bored expression and notebook untouched. The distinction is cause versus feeling. No visible words or diagrams on screen or notebook."
+    },
+    {
+      "key": "rain-condition",
+      "ids": [
+        "path-zero-first"
+      ],
+      "title": "Если дождь — остаёмся дома",
+      "alt": "За окном идёт дождь, двое друзей сидят дома.",
+      "en": "If it rains, we'll stay home.",
+      "ru": "Если будет дождь, мы останемся дома.",
+      "subject": "Two adult friends comfortably sitting indoors beside a large window. Rain falling outside with clear raindrops on glass, umbrellas put away by the door. Cozy quiet home, board game pieces on table without printed letters. One scene connecting rainy weather and remaining indoors; no timeline or false claims about certainty.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two adult friends comfortably sitting indoors beside a large window. Rain falling outside with clear raindrops on glass, umbrellas put away by the door. Cozy quiet home, board game pieces on table without printed letters. One scene connecting rainy weather and remaining indoors; no timeline or false claims about certainty."
+    },
+    {
+      "key": "wake-get-up",
+      "ids": [
+        "path-everyday-phrasal"
+      ],
+      "title": "Проснуться и встать — разные действия",
+      "alt": "Слева человек уже открыл глаза, но лежит в кровати; справа тот же человек встаёт.",
+      "en": "I wake up at six, but I get up at seven.",
+      "ru": "Я просыпаюсь в шесть, но встаю в семь.",
+      "panels": [
+        [
+          "I wake up.",
+          "Я просыпаюсь."
+        ],
+        [
+          "I get up.",
+          "Я встаю."
+        ]
+      ],
+      "subject": "Two equal side-by-side panels, same adult and same bedroom. LEFT: person still lying in bed under a blanket with eyes clearly open, awake and looking at daylight. RIGHT: the same person sitting upright on the bed's edge, feet on floor, beginning to stand. No clocks, digits, labels or text. Exact contrast awake in bed versus getting out of bed.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two equal side-by-side panels, same adult and same bedroom. LEFT: person still lying in bed under a blanket with eyes clearly open, awake and looking at daylight. RIGHT: the same person sitting upright on the bed's edge, feet on floor, beginning to stand. No clocks, digits, labels or text. Exact contrast awake in bed versus getting out of bed."
+    },
+    {
+      "key": "relative-cafe",
+      "ids": [
+        "path-relative-basic"
+      ],
+      "title": "Кофейня, где мы познакомились",
+      "alt": "Двое взрослых встретились за столиком в небольшой кофейне.",
+      "en": "This is the coffee shop where we met.",
+      "ru": "Это кофейня, где мы познакомились.",
+      "subject": "Two adults warmly greeting each other at a small coffee shop table, cups between them, inviting cafe counter behind them. Distinct cafe location, soft daylight, simple surfaces with no shop name or menu text. Moment of meeting, no romantic assumptions.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two adults warmly greeting each other at a small coffee shop table, cups between them, inviting cafe counter behind them. Distinct cafe location, soft daylight, simple surfaces with no shop name or menu text. Moment of meeting, no romantic assumptions."
+    },
+    {
+      "key": "delivered-parcel",
+      "ids": [
+        "path-passive-basic"
+      ],
+      "title": "Посылка доставлена",
+      "alt": "Закрытая картонная посылка стоит у входной двери.",
+      "en": "Your package has been delivered.",
+      "ru": "Ваша посылка доставлена.",
+      "subject": "A single sealed plain cardboard parcel placed neatly on the doorstep of a closed muted-blue home door, after delivery. No courier present; the delivered object is the subject. Blank parcel with no address, label, writing, logo or tracking code. Clear undamaged box and threshold, soft afternoon light.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: A single sealed plain cardboard parcel placed neatly on the doorstep of a closed muted-blue home door, after delivery. No courier present; the delivered object is the subject. Blank parcel with no address, label, writing, logo or tracking code. Clear undamaged box and threshold, soft afternoon light."
+    },
+    {
+      "key": "reported-vacation",
+      "ids": [
+        "path-reported-speech"
+      ],
+      "title": "Том сказал, что он в отпуске",
+      "alt": "Слева Том разговаривает по телефону у пляжа; справа его знакомый рассказывает об этом другому человеку.",
+      "en": "Tom told me he was on vacation.",
+      "ru": "Том сказал мне, что он в отпуске.",
+      "subject": "Two equal side-by-side panels. LEFT: an adult man in a blue casual shirt calling on a mobile phone beside a peaceful beach; distant sea and small travel bag. RIGHT: a second adult in a cream shirt, phone now in pocket, telling a third adult about the call using a calm conversational gesture, simple indoor living room. Exactly three distinct adult identities across the illustration. No speech bubbles, clocks or written words.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two equal side-by-side panels. LEFT: an adult man in a blue casual shirt calling on a mobile phone beside a peaceful beach; distant sea and small travel bag. RIGHT: a second adult in a cream shirt, phone now in pocket, telling a third adult about the call using a calm conversational gesture, simple indoor living room. Exactly three distinct adult identities across the illustration. No speech bubbles, clocks or written words."
+    },
+    {
+      "key": "winter-tags",
+      "ids": [
+        "path-question-tags"
+      ],
+      "title": "Холодно, правда?",
+      "alt": "Двое друзей в шарфах разговаривают на заснеженной улице.",
+      "en": "It's really cold today, isn't it?",
+      "ru": "Сегодня очень холодно, правда?",
+      "subject": "Two adult friends in winter coats, scarves and gloves standing on a quiet snowy street. One rubs gloved hands for warmth while speaking; the other nods in agreement. Visible breath subtle, cold weather clearly communicated. No calendar, street signs, snowstorm or exaggerated distress.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two adult friends in winter coats, scarves and gloves standing on a quiet snowy street. One rubs gloved hands for warmth while speaking; the other nods in agreement. Visible breath subtle, cold weather clearly communicated. No calendar, street signs, snowstorm or exaggerated distress."
+    },
+    {
+      "key": "magazine-store",
+      "ids": [
+        "path-false-friends"
+      ],
+      "title": "Magazine — журнал. Store — магазин",
+      "alt": "Слева человек читает бумажный журнал, справа он покупает продукты в магазине.",
+      "en": "I read about it in a magazine. Let's stop at the store on the way home.",
+      "ru": "Я прочитал об этом в журнале. Давай зайдём в магазин по дороге домой.",
+      "panels": [
+        [
+          "a magazine",
+          "журнал"
+        ],
+        [
+          "a store",
+          "магазин"
+        ]
+      ],
+      "subject": "Two equal side-by-side panels. LEFT: an adult reading a physical glossy magazine on a cafe table, recognizable thin bound pages and photos but NO readable text, NOT a hardcover book. RIGHT: same adult inside a small American grocery store, holding a basket with apples and milk beside grocery shelves. No signs, prices, logos or readable labels. Clear visual distinction magazine versus store.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two equal side-by-side panels. LEFT: an adult reading a physical glossy magazine on a cafe table, recognizable thin bound pages and photos but NO readable text, NOT a hardcover book. RIGHT: same adult inside a small American grocery store, holding a basket with apples and milk beside grocery shelves. No signs, prices, logos or readable labels. Clear visual distinction magazine versus store."
+    },
+    {
+      "key": "audience-tone",
+      "ids": [
+        "path-register-b2"
+      ],
+      "title": "Другу, коллеге, клиенту",
+      "alt": "Три ситуации: разговор друзей, общение коллег и встреча с клиентом.",
+      "en": "Hey, can you send me the file by six? Hi Dana, could you send me the file by 6 p.m.? Dear Mr. Lopez, could you please send us the signed form by 6 p.m. today?",
+      "ru": "Одна просьба и один срок. Тон зависит от того, кому пишешь.",
+      "subject": "Three equal vertical panels separated by thin cream gutters in one horizontal image. LEFT: two casually dressed adult friends relaxed at a cafe with a phone. CENTER: two adult colleagues at an office desk looking at a laptop. RIGHT: a professionally dressed adult and client at a meeting table with one blank form and a pen. Same friendly modern American everyday world, increasing formality, no text, no screens with content, no exaggerated corporate posing.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Three equal vertical panels separated by thin cream gutters in one horizontal image. LEFT: two casually dressed adult friends relaxed at a cafe with a phone. CENTER: two adult colleagues at an office desk looking at a laptop. RIGHT: a professionally dressed adult and client at a meeting table with one blank form and a pen. Same friendly modern American everyday world, increasing formality, no text, no screens with content, no exaggerated corporate posing."
+    },
+    {
+      "key": "bus-story",
+      "ids": [
+        "extended-a2-story"
+      ],
+      "title": "Автобус был битком",
+      "alt": "На заснеженной остановке двое взрослых смотрят на переполненный автобус.",
+      "en": "This morning, it was snowing, and we were waiting for the bus. The bus came, but it was full.",
+      "ru": "Утром шёл снег, и мы ждали автобус. Он приехал, но был битком.",
+      "subject": "A winter city bus stop, exactly two adult commuters outside looking at a stopped city bus visibly filled with seated and standing passengers behind windows. Light snow falling, coats and bags, the bus doors closed and no room inside. No numbers, route names, timetable, logos or text. Believable American city bus shape.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: A winter city bus stop, exactly two adult commuters outside looking at a stopped city bus visibly filled with seated and standing passengers behind windows. Light snow falling, coats and bags, the bus doors closed and no room inside. No numbers, route names, timetable, logos or text. Believable American city bus shape."
+    },
+    {
+      "key": "pizza-size",
+      "ids": [
+        "extended-a2-service"
+      ],
+      "title": "Заказал большую — получил маленькую",
+      "alt": "Слева большая пицца как ожидание, справа маленькая пицца в большой коробке.",
+      "en": "I ordered a large pizza, but I got a small one.",
+      "ru": "Я заказал большую пиццу, а получил маленькую.",
+      "panels": [
+        [
+          "I ordered a large pizza.",
+          "Я заказал большую пиццу."
+        ],
+        [
+          "I got a small one.",
+          "Я получил маленькую."
+        ]
+      ],
+      "subject": "Two equal side-by-side panels, overhead three-quarter view on the same cream table, two IDENTICALLY sized open plain cardboard pizza boxes. LEFT: a large pizza fills nearly all the box. RIGHT: a much smaller pizza is centered in the same size box leaving a broad empty margin. Same toppings and material style. Clear size mismatch, absolutely no labels, brands, text, receipts or delivery people.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: Two equal side-by-side panels, overhead three-quarter view on the same cream table, two IDENTICALLY sized open plain cardboard pizza boxes. LEFT: a large pizza fills nearly all the box. RIGHT: a much smaller pizza is centered in the same size box leaving a broad empty margin. Same toppings and material style. Clear size mismatch, absolutely no labels, brands, text, receipts or delivery people."
+    },
+    {
+      "key": "garden-volunteer",
+      "ids": [
+        "extended-b1-interview"
+      ],
+      "title": "Помощь в общественном саду",
+      "alt": "Волонтёр проверяет инструменты рядом с грядками; другие помогают с посадкой.",
+      "en": "Last spring, I helped at a community garden. My job was to check the tools.",
+      "ru": "Прошлой весной я помогал в общественном саду. Моя задача была проверять инструменты.",
+      "subject": "An adult volunteer in a calm community garden carefully checking a rake, small hand trowel and watering can arranged beside raised vegetable beds. Two other adult volunteers in the background planting seedlings together. Foreground person checks tools rather than planting; distinguish personal task and group work. Soft spring daylight, no signage, labels or text.",
+      "prompt": "Use case: illustration-story.\nAsset type: educational English lesson illustration, one standalone horizontal 3:2 PNG asset.\nStyle: match the project's existing premium warm 3D editorial illustrations: soft matte materials, tactile knitted fabrics, expressive but adult-proportioned human characters, restrained muted periwinkle blue and warm cream palette, gentle natural daylight, believable detailed objects, quiet uncluttered composition. Clear, appealing, readable at laptop size.\nAvoid: any visible text, letters, numbers, speech bubbles, captions, watermarks, branding; decorative UI, borders, collage of unrelated concepts; extra limbs, ambiguous objects; cropped heads, hands or important objects. Captions are supplied separately in HTML.\nScene: An adult volunteer in a calm community garden carefully checking a rake, small hand trowel and watering can arranged beside raised vegetable beds. Two other adult volunteers in the background planting seedlings together. Foreground person checks tools rather than planting; distinguish personal task and group work. Soft spring daylight, no signage, labels or text."
+    }
+  ]
+}
