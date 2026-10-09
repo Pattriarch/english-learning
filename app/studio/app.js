@@ -6,7 +6,7 @@ import {courseGuideHTML,bindCourseGuide} from './course-guide.js';
 import {lessonGuidanceHTML,lessonPrerequisiteHTML} from './lesson-guidance.js';
 import {lessonIntroHTML,bindLessonIntro} from './lesson-intro.js';
 import {scheduleLessonAdvance} from './lesson-advance.js';
-import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus} from './core.js';
+import {$,$$,esc,icon,api,toast,busy,dateKey,words,getDraft,localDraft,queueDraft,retryPendingDrafts,progressLesson,feedbackHTML,bindMistakes,cardModal,empty,saveStatus,stateVersion} from './core.js';
 import {voice,speak,stopAudio} from './audio.js';
 import {mountPractice,plannedPractice,mountReview,mountJournal,mountSettings} from './pages.js';
 import {mountMedia,unmountMedia} from './media.js';
@@ -50,8 +50,10 @@ const topNav=[['today','Сегодня'],['roadmap','Программа'],['lexi
 const kadrNav=[['today','home','Сегодня'],['roadmap','layers','Курс'],['hub','mic','Практика'],['lexicon','cards','Слова']];
 const kadrSection={lesson:'roadmap',unit:'roadmap',tenses:'roadmap',books:'roadmap',mastery:'roadmap',coverage:'roadmap',method:'roadmap',practice:'hub',conversation:'hub',cinema:'hub',pronunciation:'hub',notebook:'hub',transfer:'hub',projects:'hub',focus:'hub',media:'hub',capture:'hub',review:'lexicon',day:'today'};
 const isKadr=()=>document.documentElement.dataset.design==='kadr';
+let loadedVersion=-1,loadedAt=0,enteredHash=null;
 async function refresh(){
- data=await api('/bootstrap');
+ const version=stateVersion();
+ data=await api('/bootstrap');loadedVersion=version;loadedAt=Date.now();
  await Promise.all([loadWordImages(),loadLessonScenes()]);
  initStudySession(data.state);
  const link=$('.nav a[href="#/review"]');
@@ -64,6 +66,7 @@ function dailyGoal(){try{const plan=JSON.parse(getDraft('planner:day:'+dateKey()
 function dueCount(){return data.state.cards.filter(c=>Date.parse(c.due)<=Date.now()).length;}
 function shell(route){
  if(isKadr())return kadrShell(route);
+ delete $('#app').dataset.shell;
  document.body.classList.remove('focus-mode');
  const mins=Math.floor((data.state.activity[dateKey()]||0)/60),due=dueCount();
  $('#app').innerHTML=`<aside class="sidebar" id="sidebar">
@@ -90,7 +93,19 @@ function kadrShell(route){
  const due=dueCount(),section=kadrSection[route]||route,dark=appearance().theme==='dark';
  document.body.classList.toggle('focus-mode',route==='lesson'||route==='day');
  const tab=([r,i,t])=>`<a href="${href(r)}" ${r===section?'aria-current="page"':''}>${icon(i)}<span>${t}</span>${r==='lexicon'&&due?`<span class="badge-count" aria-label="${due} к повторению">${due}</span>`:''}</a>`;
- $('#app').innerHTML=`<aside class="sidebar" id="sidebar" aria-label="Все разделы">
+ // Keep the bar and the drawer between screens; only the page itself changes.
+ const app=$('#app'),key='kadr:'+(dark?'dark':'light');
+ if(app.dataset.shell===key&&$('#main')){
+  const mark=(a,on)=>{if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');};
+  const badge=(a,label)=>{const b=$('.badge-count',a);if(!due)b?.remove();else if(b)b.textContent=due;else a.insertAdjacentHTML('beforeend',`<span class="badge-count"${label?` aria-label="${due} к повторению"`:''}>${due}</span>`);};
+  for(const a of $$('.top-nav a,.mobile-tabs a')){const r=kadrNav.find(([r])=>href(r)===a.getAttribute('href'))?.[0];mark(a,r===section);if(r==='lexicon')badge(a,true);}
+  for(const a of $$('#sidebar .nav a')){const r=nav.find(([r])=>href(r)===a.getAttribute('href'))?.[0];a.classList.toggle('active',r===route);mark(a,r===route);if(r==='review')badge(a,false);}
+  $$('.day-bar').forEach(bar=>bar.remove());
+  const fresh=document.createElement('main');fresh.id='main';fresh.className='page';fresh.tabIndex=-1;$('#main').replaceWith(fresh);
+  return;
+ }
+ app.dataset.shell=key;
+ app.innerHTML=`<aside class="sidebar" id="sidebar" aria-label="Все разделы">
   <div class="drawer-head"><strong>Все разделы</strong><button class="menu-close" id="menu-close" aria-label="Закрыть меню">${icon('close')}</button></div>
   <nav class="nav" aria-label="Все разделы">${nav.map(([r,i,t])=>`<a href="${href(r)}" class="${r===route?'active':''}" ${r===route?'aria-current="page"':''}>${icon(i)}${t}${r==='review'&&due?`<span class="badge-count">${due}</span>`:''}</a>`).join('')}</nav>
   <div class="sidebar-bottom drawer-tools"><button class="drawer-tool" id="theme-toggle" data-labelled aria-label="${dark?'Включить светлую тему':'Включить тёмную тему'}">${icon(dark?'sun':'moon')}<span>${dark?'Светлая тема':'Тёмная тема'}</span></button><a class="drawer-tool" href="#/designs">${icon('spark')}<span>Другие дизайны</span></a></div>
@@ -193,10 +208,11 @@ function lesson(id,index){
 }
 async function render(){
  const version=++routeVersion;unmountMedia();stopAudio();
- try{await refresh();if(version!==routeVersion)return;const parts=location.hash.replace(/^#\/?/,'').split('/'),r=parts[0]||'today';shell(r);const main=$('#main');
+ // Reuse loaded data while nothing was saved; refetching ~6 MB on every tap made screens lag.
+ try{if(!data||loadedVersion!==stateVersion()||Date.now()-loadedAt>120000)await refresh();if(version!==routeVersion)return;const parts=location.hash.replace(/^#\/?/,'').split('/'),r=parts[0]||'today';shell(r);const main=$('#main');
   if(r!=='lesson'&&r!=='day')try{sessionStorage.setItem('ew-return',location.hash||'#/today');}catch{}
   // A new screen eases in once; later re-renders of the same screen stay still.
-  if(isKadr()){main.dataset.enter='';setTimeout(()=>delete main.dataset.enter,1200);}
+  if(isKadr()&&location.hash!==enteredHash){enteredHash=location.hash;main.dataset.enter='';setTimeout(()=>delete main.dataset.enter,1200);}
   if(r==='today')await mountDashboard(main,data,refresh);else if(r==='roadmap')mountRoadmap(main,data,parts[1]);else if(r==='lesson'){const step=parts[2]?.split('?')[0];lesson(parts[1],step==='complete'?'complete':/^\d+$/.test(step||'')&&Number.isSafeInteger(+step)?+step:undefined);}
   else if(r==='tenses')mountTenses(main,data);
   else if(r==='pronunciation')mountPronunciation(main,data,parts[1],refresh);

@@ -27,6 +27,36 @@ type transcriptResult struct {
 	Text                string           `json:"text"`
 	Words               []transcriptWord `json:"words"`
 	ConfidenceAvailable bool             `json:"confidenceAvailable"`
+	// Sound-by-sound score from the optional local phoneme scorer.
+	Pronunciation json.RawMessage `json:"pronunciation,omitempty"`
+}
+
+// scripts/pronounce_server.py. When it is not running, the transcript is
+// returned without a pronunciation score.
+var pronunciationURL = "http://127.0.0.1:8881"
+
+func scorePronunciation(ctx context.Context, audio []byte, text string) json.RawMessage {
+	text = strings.TrimSpace(text)
+	if text == "" || len(text) > 4096 || len(audio) > 8<<20 {
+		return nil
+	}
+	ctx, cancel := context.WithTimeout(ctx, 30*time.Second)
+	defer cancel()
+	req, err := http.NewRequestWithContext(ctx, http.MethodPost, pronunciationURL+"/score?text="+url.QueryEscape(text), bytes.NewReader(audio))
+	if err != nil {
+		return nil
+	}
+	req.Header.Set("Content-Type", "audio/wav")
+	res, err := whisperClient(30 * time.Second).Do(req)
+	if err != nil {
+		return nil
+	}
+	defer res.Body.Close()
+	raw, err := io.ReadAll(io.LimitReader(res.Body, (1<<20)+1))
+	if err != nil || res.StatusCode != 200 || len(raw) > 1<<20 || !json.Valid(raw) {
+		return nil
+	}
+	return raw
 }
 
 func whisperEndpoint(raw string) (*url.URL, error) {
@@ -104,11 +134,23 @@ func (s *Server) transcribe(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	defer f.Close()
+	audio, err := io.ReadAll(f)
+	if err != nil {
+		problem(w, 400, errors.New("Не удалось прочитать запись"))
+		return
+	}
+	// With a target phrase the sounds are scored while Whisper transcribes.
+	expected := strings.TrimSpace(r.FormValue("expected"))
+	var scored chan json.RawMessage
+	if expected != "" {
+		scored = make(chan json.RawMessage, 1)
+		go func() { scored <- scorePronunciation(r.Context(), audio, expected) }()
+	}
 	var buf bytes.Buffer
 	mw := multipart.NewWriter(&buf)
 	part, err := mw.CreateFormFile("file", "speech.wav")
 	if err == nil {
-		_, err = io.Copy(part, f)
+		_, err = part.Write(audio)
 	}
 	if err == nil {
 		err = mw.WriteField("language", "en")
@@ -116,8 +158,13 @@ func (s *Server) transcribe(w http.ResponseWriter, r *http.Request) {
 	if err == nil {
 		err = mw.WriteField("response_format", "verbose_json")
 	}
+	// Whisper drops hesitations unless the prompt itself contains them. This
+	// prompt only sets a verbatim style; never prompt it with the answer.
+	if err == nil {
+		err = mw.WriteField("prompt", "Umm, let me think, like, hmm... Okay, uh, so I- I mean, er, here's what I'm, like, thinking.")
+	}
 	// whisper.cpp returns token probabilities in verbose_json. Request token
-	// timing and join subword pieces below. Do not prompt it with the answer.
+	// timing and join subword pieces below.
 	if err == nil && strings.HasSuffix(u.Path, "/inference") {
 		for key, value := range map[string]string{"token_timestamps": "true", "temperature": "0.0", "temperature_inc": "0.0", "no_context": "true"} {
 			if err = mw.WriteField(key, value); err != nil {
@@ -160,6 +207,12 @@ func (s *Server) transcribe(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		problem(w, 422, err)
 		return
+	}
+	// Free speech has no target: score the sounds against the recognized words.
+	if scored != nil {
+		result.Pronunciation = <-scored
+	} else {
+		result.Pronunciation = scorePronunciation(r.Context(), audio, result.Text)
 	}
 	jsonResponse(w, 200, result)
 }

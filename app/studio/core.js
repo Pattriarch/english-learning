@@ -11,8 +11,14 @@ export const formatDate=v=>new Date(v).toLocaleDateString('ru-RU',{day:'numeric'
 export const words=t=>(t.trim().match(/\S+/g)||[]).length;
 export function clipUTF8(text,maxBytes){const bytes=new TextEncoder().encode(text);if(bytes.length<=maxBytes)return text;let end=Math.max(0,Math.floor(maxBytes));while(end>0&&(bytes[end]&0xc0)===0x80)end--;return new TextDecoder().decode(bytes.subarray(0,end));}
 export const mediaURL=name=>/^[a-f0-9]{64}\.(png|jpg)$/.test(name||'')?'/media/'+name:'';
+// Counts requests that may change saved progress, so the router reloads
+// /bootstrap only after one of them instead of on every screen change.
+let stateChanges=0;export const stateVersion=()=>stateChanges;
+const readOnlyPost=/^\/(?:draft|activity|transcribe|speech|translate|ocr)(?:\/|$)/;
 export async function api(path,body,method='POST'){
+  if(body!==undefined&&!readOnlyPost.test(path))stateChanges++;
   let res;try{res=await fetch('/api'+path,{method:body===undefined?'GET':method,headers:body instanceof FormData?{}:{'Content-Type':'application/json'},body:body===undefined?undefined:body instanceof FormData?body:JSON.stringify(body)});}catch{throw Error('Сервер недоступен. Открой Start-English.cmd (Windows) или Start-English.command (Mac). Текст остаётся в черновике браузера.');}
+  if(body!==undefined&&!readOnlyPost.test(path))stateChanges++;
   let out;try{out=await res.json();}catch{throw Error('Сервер вернул неожиданный ответ.');}
   if(!res.ok){const error=Error(out.error||'Не удалось выполнить действие');error.status=res.status;throw error;}return out;
 }

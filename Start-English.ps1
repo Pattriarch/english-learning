@@ -18,6 +18,11 @@ try {
 try {
     & (Join-Path $appDirectory 'scripts\start-local-whisper.ps1') -AppDirectory $appDirectory | Out-Null
 } catch { Write-Warning "Local speech recognition could not start: $($_.Exception.Message)" }
+$pronunciationPython = Join-Path $appDirectory 'data\local-pronunciation\venv\Scripts\python.exe'
+if (Test-Path -LiteralPath $pronunciationPython) {
+    & $pronunciationPython -X utf8 (Join-Path $appDirectory 'scripts\local_speech.py') start --engine pronunciation | Out-Null
+    if ($LASTEXITCODE -ne 0) { Write-Warning 'Pronunciation scoring could not start. See app/data/local-pronunciation/server.stderr.log.' }
+}
 try {
     $existing = Invoke-RestMethod "$url/api/bootstrap" -TimeoutSec 2
     if ($existing.state.version -eq 1) { Connect-LocalWhisper $existing; Start-Process $url; exit 0 }

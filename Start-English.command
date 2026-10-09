@@ -11,6 +11,7 @@ fi
 if [ -n "$python_command" ]; then
   "$python_command" scripts/local_speech.py start --engine whisper || true
   "$python_command" scripts/local_speech.py start --engine kokoro || true
+  if [ -x data/local-pronunciation/venv/bin/python ]; then "$python_command" scripts/local_speech.py start --engine pronunciation || true; fi
 else
   echo 'Для Whisper и озвучки установи Python 3.12: brew install python@3.12'
 fi

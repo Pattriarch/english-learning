@@ -1,4 +1,4 @@
-"""Install/start local Whisper and Kokoro on macOS, Windows and Linux.
+"""Install/start local Whisper, Kokoro and pronunciation scoring on macOS, Windows and Linux.
 
 Models, environments and binaries stay in ignored app/data. No speech text is
 passed to a shell and no processes are killed, including on a port conflict.
@@ -120,6 +120,25 @@ def install_kokoro():
     print('Kokoro installed: four American English voices', flush=True)
 
 
+PRONUNCIATION_MODEL = ('facebook/wav2vec2-lv-60-espeak-cv-ft', 'ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4')
+
+
+def install_pronunciation():
+    # About 4 GB with CUDA PyTorch: install only when asked by name.
+    directory = APP / 'data/local-pronunciation'
+    directory.mkdir(parents=True, exist_ok=True)
+    py = python_env(directory)
+    torch = ['torch==2.11.0']
+    if sys.platform != 'darwin' and shutil.which('nvidia-smi'):
+        torch += ['--index-url', 'https://download.pytorch.org/whl/cu128']
+    run(py, '-m', 'pip', 'install', *torch)
+    run(py, '-m', 'pip', 'install', '-r', APP / 'scripts/pronunciation-requirements.txt')
+    repo, revision = PRONUNCIATION_MODEL
+    run(py, '-c', 'import sys; from huggingface_hub import snapshot_download; snapshot_download(sys.argv[1], revision=sys.argv[2], local_dir=sys.argv[3], allow_patterns=["*.json", "pytorch_model.bin"])',
+        repo, revision, directory / 'model')
+    print('Pronunciation scoring installed: ' + repo, flush=True)
+
+
 def healthy(port, engine=None):
     try:
         with urllib.request.urlopen('http://127.0.0.1:' + str(port) + '/health', timeout=2) as response:
@@ -230,6 +249,16 @@ def start_kokoro():
     start_service('Kokoro',8880,directory,[py,APP/'scripts/kokoro_server.py','--model-directory',directory,'--port','8880'], 'kokoro-onnx')
 
 
+def start_pronunciation(required):
+    directory = APP / 'data/local-pronunciation'
+    py = directory / 'venv' / ('Scripts/python.exe' if os.name=='nt' else 'bin/python')
+    if not py.is_file() or not (directory/'model/pytorch_model.bin').is_file():
+        if required:
+            raise RuntimeError('Install pronunciation scoring first: python3 app/scripts/local_speech.py install --engine pronunciation')
+        return
+    start_service('Pronunciation',8881,directory,[py,'-X','utf8',APP/'scripts/pronounce_server.py','--model-directory',directory,'--port','8881'], 'wav2vec2-phonemes')
+
+
 def configure_whisper(app_url):
     # Use the app API so its live settings, backups and saved API key stay in sync.
     if not app_url.startswith(('http://127.0.0.1:', 'http://localhost:')):
@@ -251,7 +280,8 @@ def configure_whisper(app_url):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['install','start','configure'])
-    parser.add_argument('--engine',choices=['all','whisper','kokoro'],default='all')
+    # "all" installs Whisper and Kokoro; pronunciation is a separate 4 GB step.
+    parser.add_argument('--engine',choices=['all','whisper','kokoro','pronunciation'],default='all')
     parser.add_argument('--accelerator',choices=['auto','metal','cuda','cpu'],default='auto')
     parser.add_argument('--model',choices=list(MODELS),default='small.en-q5_1')
     parser.add_argument('--app-url',default='http://127.0.0.1:8790')
@@ -261,11 +291,13 @@ def main():
     if args.action=='install':
         if args.engine in ('all','whisper'):install_whisper(args)
         if args.engine in ('all','kokoro'):install_kokoro()
+        if args.engine=='pronunciation':install_pronunciation()
     elif args.action=='configure':
         configure_whisper(args.app_url)
     else:
         if args.engine in ('all','whisper'):start_whisper()
         if args.engine in ('all','kokoro'):start_kokoro()
+        if args.engine in ('all','pronunciation'):start_pronunciation(args.engine=='pronunciation')
 
 
 if __name__=='__main__':

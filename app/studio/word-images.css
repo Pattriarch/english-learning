@@ -23,4 +23,12 @@
 .speech-word.is-matched{border-color:#579878}
 .speech-word.is-uncertain{border-color:#789ab5;background:rgba(100,145,180,.1)}
 .speech-word.is-missing,.speech-word.is-extra,.speech-word.is-replaced{border-color:#b77078;background:rgba(160,80,90,.08)}
+.speech-word.is-filler{border-style:dashed;opacity:.7}
+.speech-fluency{margin:14px 0;padding-top:12px;border-top:1px solid var(--line,var(--border))}
+.speech-fluency>p:first-child{margin:0 0 6px}
+.speech-sounds{margin:14px 0;padding-top:12px;border-top:1px solid var(--line,var(--border))}
+.speech-sounds>p:first-child{margin:0 0 6px}
+.sound-issues{list-style:none;margin:8px 0;padding:0;display:grid;gap:4px}
+.sound-ipa{color:var(--muted)}
+.sound-ipa mark{background:none;color:var(--danger,#b42318);font-weight:700}
 @media(max-width:560px){.word-photo-grid{gap:16px}.word-photo>img{height:140px}.word-photo-label strong{font-size:1rem}}

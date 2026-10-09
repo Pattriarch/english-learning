@@ -1,5 +1,5 @@
 import {$,api,toast} from './core.js';
-import {showSpeechFeedback} from './speech-feedback.js';
+import {showSpeechFeedback,stripFillers} from './speech-feedback.js';
 let active=null,audioURL=null,audioGeneration=0,localSpeech=null,localSpeechPanel=null,speechRequest=null;
 const speechPlayers=new WeakMap();
 export const speechVoiceName=id=>({af_heart:'Heart',af_bella:'Bella',am_michael:'Michael',am_fenrir:'Fenrir',bf_emma:'Emma'}[id]||id);
@@ -100,7 +100,7 @@ export async function voice(button,target,settings,onText,options={}){
       const blob=new Blob(chunks,{type:recorder.mimeType});if(audioURL)URL.revokeObjectURL(audioURL);audioURL=URL.createObjectURL(blob);if(preview?.isConnected){preview.src=audioURL;preview.hidden=false;}
       if(!settings.whisperUrl){cleanup();return;}
       button.disabled=true;button.textContent='Распознаём запись…';
-      try{const file=await wav(blob);if(!current())return;const out=await transcribeWAV(file);if(current()){applyText(out.text);if(!textChanged){showSpeechFeedback(preview,out,options.expected||'');options.onTranscript?.(out);toast('Запись разобрана. Проверь расшифровку.');}}}
+      try{const file=await wav(blob);if(!current())return;const out=await transcribeWAV(file,options.expected||'');if(current()){applyText(stripFillers(out.text));if(!textChanged){showSpeechFeedback(preview,out,options.expected||'',options.fluencyKey);options.onTranscript?.(out);toast('Запись разобрана. Проверь расшифровку.');}}}
       catch(e){if(current())toast(e.message,true);}finally{cleanup();}
     };
     if(!settings.whisperUrl){
@@ -116,5 +116,6 @@ export async function voice(button,target,settings,onText,options={}){
   }catch(e){cleanup();if(current())toast(e.name==='NotAllowedError'?'Разрешите доступ к микрофону в настройках браузера.':e.message,true);}
 }
 
-export async function transcribeWAV(file){const form=new FormData();form.append('file',file,'speech.wav');return api('/transcribe',form);}
+// With the target phrase the server also scores each sound against it.
+export async function transcribeWAV(file,expected=''){const form=new FormData();form.append('file',file,'speech.wav');if(expected)form.append('expected',expected);return api('/transcribe',form);}
 export async function transcribeRecording(blob){return transcribeWAV(await wav(blob));}
