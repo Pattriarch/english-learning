@@ -1,0 +1,2174 @@
+{
+  "version": 1,
+  "reviewedOn": "2026-10-09",
+  "method": "Asset inventory, original-file hashes and manual visual review; no tests or linters run.",
+  "totalLessons": 238,
+  "illustratedLessons": 238,
+  "routeLessons": 189,
+  "illustratedRouteLessons": 189,
+  "addedInThisBatch": 152,
+  "sceneFiles": 232,
+  "levels": {
+    "B1–B2": 15,
+    "B2": 48,
+    "C1–C2": 2,
+    "B1": 39,
+    "C1": 41,
+    "A1": 25,
+    "B2–C1": 1,
+    "C2": 30,
+    "A2": 37
+  },
+  "curriculumFiles": [
+    "app/content/curriculum.json",
+    "app/content/courses/*.json"
+  ],
+  "runtimeInventoryMatched": true,
+  "missingLessons": [],
+  "missingRouteLessons": [],
+  "assetProblems": [],
+  "lessons": {
+    "articles": {
+      "level": "B1–B2",
+      "title": "A, the или без артикля",
+      "file": "articles-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ab45220a434cdf6e55370f70b6a5ab3ccb590b4dd0ee116d42c575f172ea3d5b",
+      "poster": "/assets/posters/articles-scene.jpg"
+    },
+    "cinema-bcs-s01e01-listen": {
+      "level": "B1",
+      "title": "01 · Uno — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e01-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b99812b1afa8406ea5dc32b96e04422004f64e23eb55d125223adc31f12edd87",
+      "poster": "/assets/posters/all-cinema-bcs-s01e01-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e01-prepare": {
+      "level": "B1",
+      "title": "01 · Uno — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e01-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2c21d2cb262950e9578b7a748d5b00b606f0067b22d036616b9e8bd811c1d314",
+      "poster": "/assets/posters/all-cinema-bcs-s01e01-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e01-respond": {
+      "level": "B1",
+      "title": "01 · Uno — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e01-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "076872e17e94dbff060a329a595077ba22cc8ec7c65b974130082c1e57a81d6e",
+      "poster": "/assets/posters/all-cinema-bcs-s01e01-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e02-listen": {
+      "level": "B1",
+      "title": "02 · Mijo — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e02-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "89044588d6dfa9e0445722af87f436fd715d6f9591eb9c3eabca39d357486a0f",
+      "poster": "/assets/posters/all-cinema-bcs-s01e02-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e02-prepare": {
+      "level": "B1",
+      "title": "02 · Mijo — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e02-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cf033fe1f5b55911b29ff1a9794d404ffe56372509854a34dc72f90ad6f4778b",
+      "poster": "/assets/posters/all-cinema-bcs-s01e02-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e02-respond": {
+      "level": "B1",
+      "title": "02 · Mijo — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e02-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6d536c08f417f95913c946655bc27c40e37f4b6e5d20f71df5342839895fa072",
+      "poster": "/assets/posters/all-cinema-bcs-s01e02-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e03-listen": {
+      "level": "B2",
+      "title": "03 · Nacho — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e03-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b2a2773727830acdbc3972c0985c675d50e5f692f6eaa5ceb703db89d098a96d",
+      "poster": "/assets/posters/all-cinema-bcs-s01e03-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e03-prepare": {
+      "level": "B2",
+      "title": "03 · Nacho — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e03-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4eab0d61c8f9ec9cda68706f4fad4efef12d52f266c4459664b96ee1f8d50451",
+      "poster": "/assets/posters/all-cinema-bcs-s01e03-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e03-respond": {
+      "level": "B2",
+      "title": "03 · Nacho — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e03-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "61854af83a205aca2ed5ac73babca08c3418c1ae8e067db22ab36885a5edc190",
+      "poster": "/assets/posters/all-cinema-bcs-s01e03-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e04-listen": {
+      "level": "B2",
+      "title": "04 · Hero — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e04-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "28e42ee60dabeea730a944ba0cb6696b2786746eda7eec798d0cd947ce0f8899",
+      "poster": "/assets/posters/all-cinema-bcs-s01e04-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e04-prepare": {
+      "level": "B2",
+      "title": "04 · Hero — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e04-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4a597d74a84fccfa941ea25ee03c4f1491814620112efe773f1727c3ffe15d15",
+      "poster": "/assets/posters/all-cinema-bcs-s01e04-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e04-respond": {
+      "level": "B2",
+      "title": "04 · Hero — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e04-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9b244133c307bc0abc3c68ce15d6ce85602e2acc20bc8ec43f1cc2b640fc9985",
+      "poster": "/assets/posters/all-cinema-bcs-s01e04-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e05-listen": {
+      "level": "B1",
+      "title": "05 · Alpine Shepherd Boy — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e05-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f0cb3e3cec2af6543eb65fd6623775452ef99bbaa0e385c5b5defc2025ffa43d",
+      "poster": "/assets/posters/all-cinema-bcs-s01e05-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e05-prepare": {
+      "level": "B1",
+      "title": "05 · Alpine Shepherd Boy — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e05-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "de3777f32e8159abd33fbb300505984f89dc0502d11aa1fc98ec36770db12e7d",
+      "poster": "/assets/posters/all-cinema-bcs-s01e05-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e05-respond": {
+      "level": "B1",
+      "title": "05 · Alpine Shepherd Boy — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e05-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bddda0a77073c20d000491ecabfccc90bc4341368ba22379ba62f9116495c99d",
+      "poster": "/assets/posters/all-cinema-bcs-s01e05-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e06-listen": {
+      "level": "B2",
+      "title": "06 · Five-O — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e06-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "44441760a33fc32fb0172b2c44f441953432267eeca4fbe5025c156497c8ca0f",
+      "poster": "/assets/posters/all-cinema-bcs-s01e06-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e06-prepare": {
+      "level": "B2",
+      "title": "06 · Five-O — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e06-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f2b9a6f28e8d87b09eef2622b791d25f123594113b1367d4fbcb800c39b4a1fa",
+      "poster": "/assets/posters/all-cinema-bcs-s01e06-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e06-respond": {
+      "level": "B2",
+      "title": "06 · Five-O — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e06-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "337b81707230210e1da597d023553b6edb18824c77f55fd8f6299590209bec8d",
+      "poster": "/assets/posters/all-cinema-bcs-s01e06-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e07-listen": {
+      "level": "B2",
+      "title": "07 · Bingo — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e07-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1a0a04c69349109dfb315ac31e24b0014d6ea93ed7ff4a17a319acb959e213cd",
+      "poster": "/assets/posters/all-cinema-bcs-s01e07-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e07-prepare": {
+      "level": "B2",
+      "title": "07 · Bingo — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e07-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6c9e7b76e5a914d7ea732ce63eaebf33b2f9681403128eb3897722b5f9cc0807",
+      "poster": "/assets/posters/all-cinema-bcs-s01e07-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e07-respond": {
+      "level": "B2",
+      "title": "07 · Bingo — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e07-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "71d0cc9e98c6ab6be495197c29b48aac9b0f00d2be24e35940c192dc459db20c",
+      "poster": "/assets/posters/all-cinema-bcs-s01e07-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e08-listen": {
+      "level": "B2",
+      "title": "08 · RICO — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e08-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4efbaf40896c5cc8a70f5ff723764b27e69d970ed9ebd4a891c4edb77ba0123f",
+      "poster": "/assets/posters/all-cinema-bcs-s01e08-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e08-prepare": {
+      "level": "B2",
+      "title": "08 · RICO — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e08-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "21379be34b0282a250b2bf4af90174af5fe97be9e7f43771bbfb7958fbfa2dad",
+      "poster": "/assets/posters/all-cinema-bcs-s01e08-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e08-respond": {
+      "level": "B2",
+      "title": "08 · RICO — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e08-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b155109d9aaf9d98a2c11b99db038e797e88feb1634e62072e5a32f34cbb653b",
+      "poster": "/assets/posters/all-cinema-bcs-s01e08-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e09-listen": {
+      "level": "C1",
+      "title": "09 · Pimento — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e09-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "92afc4b36213552fa9e09cc120eed04982909cfe92cba90595c999f5b11abc4d",
+      "poster": "/assets/posters/all-cinema-bcs-s01e09-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e09-prepare": {
+      "level": "C1",
+      "title": "09 · Pimento — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e09-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d9a63d2a37f186a759e843205e3c8feeba3335c21058d9a331e613b57ff7ebef",
+      "poster": "/assets/posters/all-cinema-bcs-s01e09-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e09-respond": {
+      "level": "C1",
+      "title": "09 · Pimento — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e09-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e51d2703b02a3742db45287f749bc14b1e42390855fe7b7acffb00847b6c4166",
+      "poster": "/assets/posters/all-cinema-bcs-s01e09-respond-scene.jpg"
+    },
+    "cinema-bcs-s01e10-listen": {
+      "level": "C1",
+      "title": "10 · Marco — Слух, сцена и смысл",
+      "file": "all-cinema-bcs-s01e10-listen-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7f4e6db39a7f8ba54026ab7780428c94ee045e0b8cc02a96b9e7a7ea4d0fcf9a",
+      "poster": "/assets/posters/all-cinema-bcs-s01e10-listen-scene.jpg"
+    },
+    "cinema-bcs-s01e10-prepare": {
+      "level": "C1",
+      "title": "10 · Marco — Язык и подготовка",
+      "file": "all-cinema-bcs-s01e10-prepare-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aabaf52c655974ce12062d36916b81899ea8ceedff362bd5ddcb48d1c00caf67",
+      "poster": "/assets/posters/all-cinema-bcs-s01e10-prepare-scene.jpg"
+    },
+    "cinema-bcs-s01e10-respond": {
+      "level": "C1",
+      "title": "10 · Marco — Выход в собственную речь",
+      "file": "all-cinema-bcs-s01e10-respond-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e3126522f2f4ab1e103c3f28e9f0b6d72dab43980704a14a2d0b062ac7f51ddc",
+      "poster": "/assets/posters/all-cinema-bcs-s01e10-respond-scene.jpg"
+    },
+    "collocations": {
+      "level": "B1–B2",
+      "title": "Слова, которые работают вместе",
+      "file": "all-overview-collocations-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "39e716555a3a5a1e23f448479a33594915d14c13bc39e9a55ee4f4b365bdf69a",
+      "poster": "/assets/posters/all-overview-collocations-scene.jpg"
+    },
+    "comparison": {
+      "level": "B2",
+      "title": "Сравнивать и уточнять количество",
+      "file": "comparatives-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "32d7a8e16fd09ce8ff7a0b8d0e11cc3725575c77a965b89ca77c528c07eebe41",
+      "poster": "/assets/posters/comparatives-scene.jpg"
+    },
+    "conditionals": {
+      "level": "B2",
+      "title": "Если бы всё было иначе",
+      "file": "all-overview-conditionals-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a3d23aebfbc986c4d20de2cdf398269b28f10d3b2e80bf8ae718496efe01ca77",
+      "poster": "/assets/posters/all-overview-conditionals-scene.jpg"
+    },
+    "extended-a1-chat": {
+      "level": "A1",
+      "title": "На выставку с другом: договориться в чате",
+      "file": "sunday-chat-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "299cb62b999cabc241139f8cfab2f6c06df44912e22c12a5931fb52f8073b404",
+      "poster": "/assets/posters/sunday-chat-scene.jpg"
+    },
+    "extended-a1-day": {
+      "level": "A1",
+      "title": "Рабочий день Леи: пересказать и найти время для практики",
+      "file": "english-at-home-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "33f0096670950176a674d6d1ab1974f67b30812d88dac84a94ebc8e1bb1245e8",
+      "poster": "/assets/posters/english-at-home-scene.jpg"
+    },
+    "extended-a1-notices": {
+      "level": "A1",
+      "title": "Объявления в центре: найти правило и передать другу",
+      "file": "please-wait-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0e4202d5eb96cf8f4acc34eff09049f2cea86992a78a5c1f74dbc6016ea19e1b",
+      "poster": "/assets/posters/please-wait-scene.jpg"
+    },
+    "extended-a1-order": {
+      "level": "A1",
+      "title": "В кафе: заказать, узнать гарнир, поменять заказ",
+      "file": "bagel-and-juice-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dc554d13c8cfd193f4790e1d8320053b503e8029136f6d2ac0bddf5c54f49450",
+      "poster": "/assets/posters/bagel-and-juice-scene.jpg"
+    },
+    "extended-a1-registration": {
+      "level": "A1",
+      "title": "Запись в книжный клуб: из сообщения — в анкету",
+      "file": "all-extended-a1-registration-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b0d109961c4b28861a0a66400575937084b27c9828c9d83b593ab814bdd50921",
+      "poster": "/assets/posters/all-extended-a1-registration-scene.jpg"
+    },
+    "extended-a2-options": {
+      "level": "A2",
+      "title": "Поездка на воскресенье: сравнить два варианта и изменить план",
+      "file": "bring-water-trip-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8e85e15a7717aeaa4739babbd35ee4432148a037d8d186c8378e48b8e471bd13",
+      "poster": "/assets/posters/bring-water-trip-scene.jpg"
+    },
+    "extended-a2-phone": {
+      "level": "A2",
+      "title": "Звонок в мастерскую: перенести время и подтвердить",
+      "file": "pickup-workshop-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9c0ef95ea1b3875033bfb2f222f3221ebc9a0c3ba4e7d06f06b0448a8713f7ee",
+      "poster": "/assets/posters/pickup-workshop-scene.jpg"
+    },
+    "extended-a2-picture-description": {
+      "level": "A2",
+      "title": "Четыре человека во дворе: описать и помочь найти",
+      "file": "all-extended-a2-picture-description-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c4b66daa80ccc14ce71082fa33dfb18c3c4cfba958b9a369ace8caf59bd2a454",
+      "poster": "/assets/posters/all-extended-a2-picture-description-scene.jpg"
+    },
+    "extended-a2-relay": {
+      "level": "A2",
+      "title": "Встречу перенесли: передай другу свежий план",
+      "file": "pool-is-closed-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9a4b36d930211bef43ae5db7cb014ceffeb861f823383500c59e6f9f90737f0c",
+      "poster": "/assets/posters/pool-is-closed-scene.jpg"
+    },
+    "extended-a2-service": {
+      "level": "A2",
+      "title": "Прислали не ту вещь: объяснить и договориться",
+      "file": "pizza-size-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "15f7f1615223a1b7837028a7b31ef88fd6148bef0e8714504210a349abc71a21",
+      "poster": "/assets/posters/pizza-size-scene.jpg"
+    },
+    "extended-a2-story": {
+      "level": "A2",
+      "title": "Автобус уехал: история по порядку и ответ другу",
+      "file": "bus-story-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "53bf1424e205434f92a7cef68412f79fa74cb61ecbbe2d458decb6f5b6d51414",
+      "poster": "/assets/posters/bus-story-scene.jpg"
+    },
+    "extended-a2-survey-summary": {
+      "level": "A2",
+      "title": "Опрос в клубе: посчитать ответы и обновить итог",
+      "file": "all-extended-a2-survey-summary-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "276e373332825e363c9d23e3312f7163be00c091c90ea9c11d0a59e2f2631bdd",
+      "poster": "/assets/posters/all-extended-a2-survey-summary-scene.jpg"
+    },
+    "extended-b1-interview": {
+      "level": "B1",
+      "title": "Интервью волонтёра: что сделал я, а что — мы",
+      "file": "garden-volunteer-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cef2a9c08994234f9af0b90d93a89eaf13d6bfede79aa3be2f9e5c4c4d5d04df",
+      "poster": "/assets/posters/garden-volunteer-scene.jpg"
+    },
+    "extended-b1-listening": {
+      "level": "B1",
+      "title": "Почему он сменил работу: причины, поправка и условие",
+      "file": "all-extended-b1-listening-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "854a7354960440613f74c1102a65aaeaa1b799c0b6e21c4d9d2919b82c1ce5eb",
+      "poster": "/assets/posters/all-extended-b1-listening-scene.jpg"
+    },
+    "extended-b1-online-help": {
+      "level": "B1",
+      "title": "Помощь в чате: ответить по делу и поправить недоразумение",
+      "file": "all-extended-b1-online-help-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "338ead05f651d2cd5da91add2ecb8aa1be6921a737fd191e717debeec641250f",
+      "poster": "/assets/posters/all-extended-b1-online-help-scene.jpg"
+    },
+    "extended-b1-procedure": {
+      "level": "B1",
+      "title": "Возврат абонемента: правило, исключение и срок",
+      "file": "all-extended-b1-procedure-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b1883b92100cc89a8b94942549aec764e163f6c0b911e33de2720a0ec0ced9fd",
+      "poster": "/assets/posters/all-extended-b1-procedure-scene.jpg"
+    },
+    "extended-b1-review": {
+      "level": "B1",
+      "title": "От фактов к полезному отзыву: маленькая выставка в городе",
+      "file": "all-extended-b1-review-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9afb027f03e7076765e72409f18bddcdda13d61cbc82ce273524f2244d9d7c42",
+      "poster": "/assets/posters/all-extended-b1-review-scene.jpg"
+    },
+    "extended-b2-application": {
+      "level": "B2",
+      "title": "Заявка координатора: личный вклад, точное расписание и условия",
+      "file": "all-extended-b2-application-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a45e92a1f233363dc6656a82ac93d765681d9678032692b8a5f00cf9af0e3fad",
+      "poster": "/assets/posters/all-extended-b2-application-scene.jpg"
+    },
+    "extended-b2-essay-thread": {
+      "level": "B2",
+      "title": "Запись занятий: от спора в треде к эссе и ответу",
+      "file": "all-extended-b2-essay-thread-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8e7590b098e2347b9988d35abde4ec52161bff408aac68bb9006a6ee528afcbf",
+      "poster": "/assets/posters/all-extended-b2-essay-thread-scene.jpg"
+    },
+    "extended-b2-evidence": {
+      "level": "B2",
+      "title": "Продлевать ли клуб: отчёт, который выдержит проверку",
+      "file": "all-extended-b2-evidence-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "72ac027a4a943bae6c25b25a6227d3185d0d083fc8dc2a0d6f2ac1425e6e0a86",
+      "poster": "/assets/posters/all-extended-b2-evidence-scene.jpg"
+    },
+    "extended-b2-interview": {
+      "level": "B2",
+      "title": "Закрыть улицу для машин? Как меняется позиция в интервью",
+      "file": "all-extended-b2-interview-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "65ceb53192ac527d0e0345727f0be77eb75e4c9254f6f8b178c8243ae0c63295",
+      "poster": "/assets/posters/all-extended-b2-interview-scene.jpg"
+    },
+    "extended-b2-negotiate": {
+      "level": "B2",
+      "title": "Языковой вечер: договориться, когда условия меняются",
+      "file": "all-extended-b2-negotiate-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cef6afcdb902bbef57904c5875bc7fee224eb9be49ca29e13c48b5270d3e447e",
+      "poster": "/assets/posters/all-extended-b2-negotiate-scene.jpg"
+    },
+    "extended-b2-reference-letter": {
+      "level": "B2",
+      "title": "Рекомендательное письмо: что ты видел сам и чего не знаешь",
+      "file": "all-extended-b2-reference-letter-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9d16e2798ce974ee633d4c0d4324d7a5d478f46aec3f06681e97e8a2b3a98e57",
+      "poster": "/assets/posters/all-extended-b2-reference-letter-scene.jpg"
+    },
+    "extended-b2-regret-emphasis": {
+      "level": "B2",
+      "title": "Если бы только: сожаление, извинение и «она всё-таки отправила»",
+      "file": "all-extended-b2-regret-emphasis-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "19cdc512d0a7883fe4c57bbf804d7003a9638259e51271527b1538f494f09b20",
+      "poster": "/assets/posters/all-extended-b2-regret-emphasis-scene.jpg"
+    },
+    "extended-b2-remote-project": {
+      "level": "B2",
+      "title": "Команда на связи: сбой на видеозвонке и миссия проекта",
+      "file": "remote-call-mute-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8c46eaba08989a6343ea6733649c3cddf14b3e578f8f330ca29af7adcd000f7b",
+      "poster": "/assets/posters/remote-call-mute-scene.jpg"
+    },
+    "extended-b2-sleep": {
+      "level": "B2",
+      "title": "О сне без громких обещаний: описать, проверить совет, ответить",
+      "file": "all-extended-b2-sleep-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5062aac14c6e95daab5f115a565da95a3ddf63c2c71cb4e76a0f2ba1ff9b2de5",
+      "poster": "/assets/posters/all-extended-b2-sleep-scene.jpg"
+    },
+    "extended-c1-adjective-scope": {
+      "level": "C1",
+      "title": "Подписи на выставке: запятая между описаниями и «старый» друг",
+      "file": "all-extended-c1-adjective-scope-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "26b175a47170053e27f5e00de2ba7f450dfe96c564e65173c29345f74b9daf0a",
+      "poster": "/assets/posters/all-extended-c1-adjective-scope-scene.jpg"
+    },
+    "extended-c1-conversion": {
+      "level": "C1",
+      "title": "Email me, chair the meeting: когда предмет становится действием",
+      "file": "all-extended-c1-conversion-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fc53381951ef8eb867e1a6be5047ad11a4ab6ed38e8dfd5aa3ab12b30fc67d29",
+      "poster": "/assets/posters/all-extended-c1-conversion-scene.jpg"
+    },
+    "extended-c1-cross-text": {
+      "level": "C1",
+      "title": "Гибридные занятия: три разных текста и одно решение комитета",
+      "file": "all-extended-c1-cross-text-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4bb967ebd3412591c3b568b9ce37cd847f9cb0b8b68c89b0e11f56387d71c381",
+      "poster": "/assets/posters/all-extended-c1-cross-text-scene.jpg"
+    },
+    "extended-c1-facilitation": {
+      "level": "C1",
+      "title": "Вести встречу: честно пересказать позиции и записать условное решение",
+      "file": "invite-quiet-colleague-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f143811c82c075afae2c63bbcc6229a97e2a2eb7f4da8a3bf35d82ff6afbee24",
+      "poster": "/assets/posters/invite-quiet-colleague-scene.jpg"
+    },
+    "extended-c1-lecture": {
+      "level": "C1",
+      "title": "Библиотека меняется: от конспекта лекции к решению после вопросов",
+      "file": "all-extended-c1-lecture-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ae8e18894a488a8b5cb04d3ed1f9053d29204f02d91ee2b70a043d921237b3b9",
+      "poster": "/assets/posters/all-extended-c1-lecture-scene.jpg"
+    },
+    "extended-c1-lexical-lab": {
+      "level": "C1",
+      "title": "Точное слово в рабочей записке: issue, address, concern, experience",
+      "file": "all-extended-c1-lexical-lab-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5de0575a23c3e74066b2ab27a933941ee5235a3fb21ff64a365fb50835a1c509",
+      "poster": "/assets/posters/all-extended-c1-lexical-lab-scene.jpg"
+    },
+    "extended-c1-public-explanation": {
+      "level": "C1",
+      "title": "Датчик воздуха во дворе: объяснить число и не пообещать лишнего",
+      "file": "all-extended-c1-public-explanation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "25a82bd5b96e02a26656661b48998bb2b145ecc08c9bc1a87e027d243b25733e",
+      "poster": "/assets/posters/all-extended-c1-public-explanation-scene.jpg"
+    },
+    "extended-c1-review-article": {
+      "level": "C1",
+      "title": "Рецензия на фильм: критерий, сцена, честный итог — и статья по тем же фактам",
+      "file": "all-extended-c1-review-article-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b153d4b611cbf39545ea08fc9722a15a9be36827d0b574c2fcdbd1d7d1d93918",
+      "poster": "/assets/posters/all-extended-c1-review-article-scene.jpg"
+    },
+    "extended-c1-sea-coast": {
+      "level": "C1",
+      "title": "Меняющийся берег: точные слова о воде и честная рекомендация",
+      "file": "river-mouth-coast-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "747e402bbbb6756fd795d8048b07ba79046f12d25254df19ae941103cfcc782f",
+      "poster": "/assets/posters/river-mouth-coast-scene.jpg"
+    },
+    "extended-c1-visual-data": {
+      "level": "C1",
+      "title": "Как объяснить график: форма линии, доли и чего цифры не доказывают",
+      "file": "all-extended-c1-visual-data-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8efa50388e5fbcc8e3c6b0e914c53e04d6a4e4bd28b5e5d44f88c3b1f188e69f",
+      "poster": "/assets/posters/all-extended-c1-visual-data-scene.jpg"
+    },
+    "extended-c2-built-environment": {
+      "level": "C2",
+      "title": "Характер здания и новая жизнь: описать, сравнить позиции, обосновать выбор",
+      "file": "five-bay-facade-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5cdbd7318208a21602c1d273f749d07b5be28d60482635c5d9fce2a6cc4680ba",
+      "poster": "/assets/posters/five-bay-facade-scene.jpg"
+    },
+    "extended-c2-consensus": {
+      "level": "C2",
+      "title": "Вернуть разговор к сути: доступ в мастерскую и условное согласие",
+      "file": "all-extended-c2-consensus-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c129a9c86e56226213a6d5840a1afce83a63bef0e383ffca2d5f268109c39018",
+      "poster": "/assets/posters/all-extended-c2-consensus-scene.jpg"
+    },
+    "extended-c2-editor": {
+      "level": "C2",
+      "title": "Редактура статьи по справке: число, причина, вопрос автору",
+      "file": "all-extended-c2-editor-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "afe1250cf9bf5854c1fcf922ccae4a57bedf34829e0dc2b271716b12d001ac9b",
+      "poster": "/assets/posters/all-extended-c2-editor-scene.jpg"
+    },
+    "extended-c2-interview": {
+      "level": "C2",
+      "title": "Позиция между строк: интервью о городской памяти",
+      "file": "all-extended-c2-interview-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9f0ef3dd8d7b711e2d47ff6160fe806046659b74a0eba9db2a5acc8412b623b1",
+      "poster": "/assets/posters/all-extended-c2-interview-scene.jpg"
+    },
+    "extended-c2-literary": {
+      "level": "C2",
+      "title": "«Последний ключ»: рассказ, сцена и два читательских мнения",
+      "file": "all-extended-c2-literary-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dc4edd668bd07198a549349c9c3053db2ac63faa5a1ef77d835fdfb3bcdd602e",
+      "poster": "/assets/posters/all-extended-c2-literary-scene.jpg"
+    },
+    "extended-c2-register-performance": {
+      "level": "C2",
+      "title": "Ремонтная мастерская на пробу: одно условное решение — другу, залу и совету",
+      "file": "all-extended-c2-register-performance-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "87f21ba7c9d246246d2df4eb1528de0df5e5591b1ffd579daeb0ddc3b8fc8e98",
+      "poster": "/assets/posters/all-extended-c2-register-performance-scene.jpg"
+    },
+    "extended-c2-shakespeare-idioms": {
+      "level": "C2",
+      "title": "Шекспир в редакции: старые выражения, сегодняшний смысл и чужие чувства",
+      "file": "all-extended-c2-shakespeare-idioms-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "afcdb825df849f1bb774d85c4fda8469e7eef492e63df93dea28006223274e39",
+      "poster": "/assets/posters/all-extended-c2-shakespeare-idioms-scene.jpg"
+    },
+    "extended-c2-synthesis": {
+      "level": "C2",
+      "title": "Деньги на культуру: спор о ценностях, оценочное эссе и решение комиссии",
+      "file": "all-extended-c2-synthesis-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aa2fe280d3afd1e1ab29c3544b70adf727e0428de3231bfcab1cefa7313190ad",
+      "poster": "/assets/posters/all-extended-c2-synthesis-scene.jpg"
+    },
+    "future": {
+      "level": "B1–B2",
+      "title": "Планы, решения и прогнозы",
+      "file": "all-overview-future-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "78e2b937136722433ae7d2c35746feefd8d8ec4d4224b800542926b5c07729eb",
+      "poster": "/assets/posters/all-overview-future-scene.jpg"
+    },
+    "linking": {
+      "level": "B2",
+      "title": "Соединять мысли",
+      "file": "all-overview-linking-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "269e6ef502204d784fbc9ba08b6c5f3fc69a86dcfa0e5c10736fcfd7bb767aed",
+      "poster": "/assets/posters/all-overview-linking-scene.jpg"
+    },
+    "listening": {
+      "level": "B1–B2",
+      "title": "Слышать смысл, а не каждое слово",
+      "file": "all-overview-listening-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "484690c2820f9878c43716d42661915337db9d253154b6d226b008f4e7219831",
+      "poster": "/assets/posters/all-overview-listening-scene.jpg"
+    },
+    "modals": {
+      "level": "B2",
+      "title": "Обязанность, совет и догадка",
+      "file": "all-overview-modals-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "417f352b46cf0842ef3ffc739d4626dae686ca02f5be4fba1754402b4ff98da7",
+      "poster": "/assets/posters/all-overview-modals-scene.jpg"
+    },
+    "natural-a1-welcome": {
+      "level": "A1",
+      "title": "Настоящий разговор: знакомство и имя по буквам",
+      "file": "first-hello-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "72d9513107d2bd6bdcbe3d52c29b0646af5e3b0486aab77dded63ec453ed8447",
+      "poster": "/assets/posters/first-hello-scene.jpg"
+    },
+    "natural-b2-leadership": {
+      "level": "B2–C1",
+      "title": "Когда всё работает: понять мнение в живом интервью NASA",
+      "file": "all-natural-b2-leadership-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "62ed55727057ac58f45885e75cc0ba2a189590024b83f9b8e65fc3f6442d05c3",
+      "poster": "/assets/posters/all-natural-b2-leadership-scene.jpg"
+    },
+    "natural-c1-teams": {
+      "level": "C1–C2",
+      "title": "Счастливая команда и полезный спор: два голоса из подкаста NASA",
+      "file": "all-natural-c1-teams-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3103ae3c2281b56035cb55be1b0b036003b3b4fab0f6d4279cc2d75131eeeb6c",
+      "poster": "/assets/posters/all-natural-c1-teams-scene.jpg"
+    },
+    "passive": {
+      "level": "B1–B2",
+      "title": "Когда важен результат",
+      "file": "all-overview-passive-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "59ed50c20ce1955811da120cf9f75998b18bea3b26ca9de64e6394fc6ea3bc8c",
+      "poster": "/assets/posters/all-overview-passive-scene.jpg"
+    },
+    "past-story": {
+      "level": "B1–B2",
+      "title": "Рассказать, что случилось",
+      "file": "all-overview-past-story-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7653268bbed36e684e4ad87ebbb384fe65d0c9de20566d4a496cf67f1e937f1c",
+      "poster": "/assets/posters/all-overview-past-story-scene.jpg"
+    },
+    "path-academic-collocations": {
+      "level": "C1",
+      "title": "Conduct a study, raise a question: как по-английски рассказать об исследовании",
+      "file": "all-path-academic-collocations-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "42b3e93e933746c7280be3f960f6c70cbf0f40788c54b6abf0d79f381f91f9d1",
+      "poster": "/assets/posters/all-path-academic-collocations-scene.jpg"
+    },
+    "path-adjectives-ed-ing": {
+      "level": "A2",
+      "title": "Bored или boring: что ты чувствуешь и какая вещь",
+      "file": "boring-bored-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0bc17796b17e6be6be684a6c1c0f4759df383a4d96b5d99a3b3f0a4106d4f487",
+      "poster": "/assets/posters/boring-bored-scene.jpg"
+    },
+    "path-adjectives-frequency": {
+      "level": "A1",
+      "title": "Какой и как часто: a new phone, I usually walk",
+      "file": "new-phone-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "85cd8f3a36314c7ec97831b2682835a43e618f29edf3841ccb3f1290b4ec3085",
+      "poster": "/assets/posters/new-phone-scene.jpg"
+    },
+    "path-advanced-negation": {
+      "level": "C1",
+      "title": "Not all, not necessarily, no longer: что именно отрицает not",
+      "file": "all-path-advanced-negation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1c6f0f9ebb8e4a5ee6f3f95c6003c42939d8e1e1f1db37b2e32649ab3c901cf9",
+      "poster": "/assets/posters/all-path-advanced-negation-scene.jpg"
+    },
+    "path-adverbs-manner": {
+      "level": "A2",
+      "title": "Quickly, carefully, well: как ты это делаешь",
+      "file": "cook-well-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ef0cb0ee405ae850ac00d1265333f23c29d171318db6c4959bd9e3a064b889ac",
+      "poster": "/assets/posters/cook-well-scene.jpg"
+    },
+    "path-advice-preference": {
+      "level": "B1",
+      "title": "Had better, would rather, it’s time: совет, выбор и «пора»",
+      "file": "take-an-umbrella-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "065d67c01895951e14bd51b8b81a189b311d5c203e3f6526b4b86d5da931f3d9",
+      "poster": "/assets/posters/take-an-umbrella-scene.jpg"
+    },
+    "path-argument-essay": {
+      "level": "B2",
+      "title": "Аргумент в эссе: тезис, довод, пример и честное «но»",
+      "file": "all-path-argument-essay-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d60aa3b2febe1c2ce5fb2734932468a9043368369d0e860cbf615f8e6f04f9fd",
+      "poster": "/assets/posters/all-path-argument-essay-scene.jpg"
+    },
+    "path-articles-advanced": {
+      "level": "B2",
+      "title": "Coffee или the coffee: когда говоришь «вообще»",
+      "file": "articles-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ab45220a434cdf6e55370f70b6a5ab3ccb590b4dd0ee116d42c575f172ea3d5b",
+      "poster": "/assets/posters/articles-scene.jpg"
+    },
+    "path-articles-basic": {
+      "level": "A1",
+      "title": "A, an, the: новая вещь или уже знакомая",
+      "file": "articles-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ab45220a434cdf6e55370f70b6a5ab3ccb590b4dd0ee116d42c575f172ea3d5b",
+      "poster": "/assets/posters/articles-scene.jpg"
+    },
+    "path-articles-geography": {
+      "level": "B2",
+      "title": "Lake Michigan, но the Mississippi: артикли с названиями",
+      "file": "all-path-articles-geography-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "96c42bd537affce3633142f6181942ba0a6e1d92fa514be9b0202a8f74c25839",
+      "poster": "/assets/posters/all-path-articles-geography-scene.jpg"
+    },
+    "path-aspect-viewpoint": {
+      "level": "C2",
+      "title": "He's rude или he's being rude: целиком, изнутри, временно",
+      "file": "all-path-aspect-viewpoint-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b1ded4a28d1544cbefabab67fd172ffcc34a1f3b42b84a6a7e0a3cd919671fe0",
+      "poster": "/assets/posters/all-path-aspect-viewpoint-scene.jpg"
+    },
+    "path-be": {
+      "level": "A1",
+      "title": "Я, ты, он: зачем нужны am, is и are",
+      "file": "be-states-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cb2b15f479cf2ef29b2665c59ebf44433605e2f5461b241042338db71056efc5",
+      "poster": "/assets/posters/be-states-scene.jpg"
+    },
+    "path-c2-capstone": {
+      "level": "C2",
+      "title": "Итоговая мастерская: исследовать, написать, обсудить",
+      "file": "all-path-c2-capstone-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dd496dc659db790a873aaf78d41c8d53333780dee7a34d2705f3457685b6dda7",
+      "poster": "/assets/posters/all-path-c2-capstone-scene.jpg"
+    },
+    "path-clefts": {
+      "level": "C1",
+      "title": "It was Maya who called, What I need is time: как сказать «именно»",
+      "file": "all-path-clefts-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "54b022461053e74373f0f3749b63ef4b54a1ccecfe24bd0e03b4c7556de06a86",
+      "poster": "/assets/posters/all-path-clefts-scene.jpg"
+    },
+    "path-collocations-b1": {
+      "level": "B1",
+      "title": "Make a mistake, do homework: слова, которые ходят парами",
+      "file": "heavy-highway-traffic-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "88edee3f830b3783ed6cee5ba15c01eb2e4d46fe7afe97a6e00e41fba7a17cfd",
+      "poster": "/assets/posters/heavy-highway-traffic-scene.jpg"
+    },
+    "path-comparatives": {
+      "level": "A2",
+      "title": "Taller, the tallest, too tall: сравниваем вещи",
+      "file": "comparatives-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "32d7a8e16fd09ce8ff7a0b8d0e11cc3725575c77a965b89ca77c528c07eebe41",
+      "poster": "/assets/posters/comparatives-scene.jpg"
+    },
+    "path-connected-speech": {
+      "level": "B1",
+      "title": "Связная речь: слабые маленькие слова и смысловые группы",
+      "file": "all-path-connected-speech-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9a66cd6e2901789061252582ea64985ebb2c4ded3134fcab2749311ed46484bb",
+      "poster": "/assets/posters/all-path-connected-speech-scene.jpg"
+    },
+    "path-connectors-basic": {
+      "level": "A2",
+      "title": "Because, so, but, although: как связать две мысли",
+      "file": "rain-taking-bus-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6fb9a5b90681c4bdb05ab5853b9fe89f3a109f0000e44226fdfbf38b2eaa535a",
+      "poster": "/assets/posters/rain-taking-bus-scene.jpg"
+    },
+    "path-could-able": {
+      "level": "A2",
+      "title": "Could и was able to: что умел и что удалось",
+      "file": "child-swimming-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "00ccf871d68be6b6888fc72f7e3a8a66c20b0d695029a1ab2c7a0bbe70e29b54",
+      "poster": "/assets/posters/child-swimming-scene.jpg"
+    },
+    "path-countability": {
+      "level": "A1",
+      "title": "Яблоки и вода: что считаем, а что измеряем",
+      "file": "countability-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "00148b7ec45ef8c7d749e825a641b10871dd85dab59caeac78ba1f7bd0cc4aad",
+      "poster": "/assets/posters/countability-scene.jpg"
+    },
+    "path-counterfactual-inversion": {
+      "level": "C2",
+      "title": "Had I known, Should you need: условие без if",
+      "file": "all-path-counterfactual-inversion-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "79937727fec7282966291b6748cdcde37e541ef3c93d13da97521d5e01856248",
+      "poster": "/assets/posters/all-path-counterfactual-inversion-scene.jpg"
+    },
+    "path-critical-reading": {
+      "level": "B2",
+      "title": "Критическое чтение: хватает ли доказательств для вывода",
+      "file": "all-path-critical-reading-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e8f9916bfda9c68bac59bc59c9892a4c92ffccd1a85f428771c865b1e548870e",
+      "poster": "/assets/posters/all-path-critical-reading-scene.jpg"
+    },
+    "path-cross-register": {
+      "level": "C2",
+      "title": "Одни факты — другой жанр: записка, объявление для всех, разговор",
+      "file": "all-path-cross-register-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5be57dfd7c297f0e8b4b6b561c41c30d9ae802cb5b6b9e02c526749e91e166dc",
+      "poster": "/assets/posters/all-path-cross-register-scene.jpg"
+    },
+    "path-dates-directions": {
+      "level": "A2",
+      "title": "Sixth, May 6, the second left: даты и дорога",
+      "file": "asking-directions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "693a0c71db8f2f84a50ff9dcd565f6be8050cc5cb029c08a46a8a3b8ed07a35d",
+      "poster": "/assets/posters/asking-directions-scene.jpg"
+    },
+    "path-debate-synthesis": {
+      "level": "C2",
+      "title": "Итог живого спора: о чём на самом деле спорят и что поможет решить",
+      "file": "all-path-debate-synthesis-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f85f3434cfd1bb1f86879a052fa028ac3d1e313796f40f2a6b7a16c2310b826f",
+      "poster": "/assets/posters/all-path-debate-synthesis-scene.jpg"
+    },
+    "path-deduction": {
+      "level": "B1",
+      "title": "Must, might, can’t: догадка по признакам",
+      "file": "perspective-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3ac2f16b1a05fa84b71c450ccbf61828f12c5072375d47de7d997146c62e5d20",
+      "poster": "/assets/posters/perspective-scene.jpg"
+    },
+    "path-determiner-nuance": {
+      "level": "C2",
+      "title": "Some guy, a certain someone, the very person: что маленькое слово говорит о твоём отношении",
+      "file": "all-path-determiner-nuance-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6d1a7b9277e5052cf2dcbbbc1310ac330a94ce628b93dcc7753270a935bf2340",
+      "poster": "/assets/posters/all-path-determiner-nuance-scene.jpg"
+    },
+    "path-diplomatic-disagreement": {
+      "level": "C2",
+      "title": "Не согласен — и говорю это точно: сильная версия чужой мысли, одно возражение, путь дальше",
+      "file": "all-path-diplomatic-disagreement-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0bbe2751128058d21dcdce441009b9e93196ebcf9c163bafb08d08f816a7accf",
+      "poster": "/assets/posters/all-path-diplomatic-disagreement-scene.jpg"
+    },
+    "path-discourse-markers": {
+      "level": "C1",
+      "title": "Nevertheless, by contrast, that said: связка показывает, как связаны две мысли",
+      "file": "all-path-discourse-markers-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9d390453dc473be481ee5c30181013134dbe5bb31babc6157fe13a7cd98852d7",
+      "poster": "/assets/posters/all-path-discourse-markers-scene.jpg"
+    },
+    "path-discussion-b2": {
+      "level": "B2",
+      "title": "Спор без ссоры: согласиться частично, возразить и подвести итог",
+      "file": "all-path-discussion-b2-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e46a8fbe693dae004a846a1f6a227c60dd7d884fe06c74d7fe80529c6af5fe88",
+      "poster": "/assets/posters/all-path-discussion-b2-scene.jpg"
+    },
+    "path-editing": {
+      "level": "C2",
+      "title": "Редактура чужого текста: сначала смысл, потом порядок, потом слова",
+      "file": "all-path-editing-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cdd39f2219113159c397b729790e8648167e09b0e6b1fc443a2b031c14c6ae54",
+      "poster": "/assets/posters/all-path-editing-scene.jpg"
+    },
+    "path-ellipsis": {
+      "level": "C1",
+      "title": "Sarah has, but I haven't: что можно не повторять",
+      "file": "all-path-ellipsis-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a6712b21bd73c74dcbc538d94b8e28ff3c2872e3639407e8521267d637a7d71f",
+      "poster": "/assets/posters/all-path-ellipsis-scene.jpg"
+    },
+    "path-email-basic": {
+      "level": "A2",
+      "title": "Короткое письмо: кому, зачем и о чём прошу",
+      "file": "send-email-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "36441aafadfd159f27d3aeed63126be32c873076e9b7f03586952b920d017cfd",
+      "poster": "/assets/posters/send-email-scene.jpg"
+    },
+    "path-emphasis-restraint": {
+      "level": "C2",
+      "title": "Not exactly cheap: как выделить главное и не кричать",
+      "file": "all-path-emphasis-restraint-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e5e885266157e4afac5a90ebe820303557087af037c63598138c6f99f58dbd53",
+      "poster": "/assets/posters/all-path-emphasis-restraint-scene.jpg"
+    },
+    "path-everyday-phrasal": {
+      "level": "A2",
+      "title": "Get up, turn off, look for: учим сочетание целиком",
+      "file": "wake-get-up-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5895483ddb89513a021c2fcd1220a683732cc15332ca306ec5d3f5afd915351c",
+      "poster": "/assets/posters/wake-get-up-scene.jpg"
+    },
+    "path-false-friends": {
+      "level": "B1",
+      "title": "Magazine — не магазин: слова, которые только похожи на русские",
+      "file": "magazine-store-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dfea880242e1b40a4b2f1e2006117cc694b0c43f5552e3387cd219bf814cc023",
+      "poster": "/assets/posters/magazine-store-scene.jpg"
+    },
+    "path-fronting": {
+      "level": "C1",
+      "title": "От знакомого к новому: что поставить в начало фразы, а что в конец",
+      "file": "all-path-fronting-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b0404a2fd9a93d8d51442e093768bfa5baa5801268c477f6e60e65ad10a882c5",
+      "poster": "/assets/posters/all-path-fronting-scene.jpg"
+    },
+    "path-future-continuous": {
+      "level": "B1",
+      "title": "Завтра в это время: will be + -ing",
+      "file": "flying-tomorrow-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6d651c56d5a671482315aa5985c908a5eda5bf86342bd04d7a5f8cfc55a88187",
+      "poster": "/assets/posters/flying-tomorrow-scene.jpg"
+    },
+    "path-future-perfect": {
+      "level": "B2",
+      "title": "К пятнице будет готово: will have + третья форма",
+      "file": "all-path-future-perfect-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "52a365f767959ed9aed7a10808cad367f98168509fe4426a769656776df47b43",
+      "poster": "/assets/posters/all-path-future-perfect-scene.jpg"
+    },
+    "path-future-perfect-continuous": {
+      "level": "B2",
+      "title": "В июне будет десять лет: will have been + -ing",
+      "file": "all-path-future-perfect-continuous-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f627a78aa990f35f2fd1281b0af2355f005ddc6bcd126874540fdac70afe9000",
+      "poster": "/assets/posters/all-path-future-perfect-continuous-scene.jpg"
+    },
+    "path-future-plans": {
+      "level": "A2",
+      "title": "Going to и -ing: когда план уже есть",
+      "file": "phone-plans-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fb892d74df37da96fda17662b7c18a99675dc88e98c87e93b83954c9877a2b1f",
+      "poster": "/assets/posters/phone-plans-scene.jpg"
+    },
+    "path-future-simple": {
+      "level": "A2",
+      "title": "Will: решаю сейчас, обещаю, предсказываю",
+      "file": "call-after-work-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "daa43ccba7491d79cd78dcc23f8e746737f97cbda2b6795d9829970013a2a3d8",
+      "poster": "/assets/posters/call-after-work-scene.jpg"
+    },
+    "path-gerund-infinitive": {
+      "level": "A2",
+      "title": "Want to cook, enjoy cooking: to или -ing после глагола",
+      "file": "enjoy-walking-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "04386f996ab3d34508c19d3ebcd916ad4833c6e24074d894bedfdbe66217a83e",
+      "poster": "/assets/posters/enjoy-walking-scene.jpg"
+    },
+    "path-hedging": {
+      "level": "C1",
+      "title": "Оговорки: говорить так уверенно, как позволяют факты",
+      "file": "all-path-hedging-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "87a11f58c901949bfe79f4eb0e24525d31f0e2989d61b1f0eaf490a46ceeafbd",
+      "poster": "/assets/posters/all-path-hedging-scene.jpg"
+    },
+    "path-idioms-context": {
+      "level": "C1",
+      "title": "The last straw, on the fence: когда идиома к месту",
+      "file": "all-path-idioms-context-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c911538da795395872d2f57d37f9775e5080b369f3d21f2cc60f0438a6092783",
+      "poster": "/assets/posters/all-path-idioms-context-scene.jpg"
+    },
+    "path-implicature": {
+      "level": "C2",
+      "title": "Он не сказал «нет»: что сказано, а что ты додумал",
+      "file": "all-path-implicature-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cd5a6936a0771d852c8707ee2c3e335fd5302501f0907c262c65cfd48f753ea0",
+      "poster": "/assets/posters/all-path-implicature-scene.jpg"
+    },
+    "path-information-density": {
+      "level": "C2",
+      "title": "Staff training budget: плотная фраза для своих, развёрнутая — для новичка",
+      "file": "all-path-information-density-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1b6c99831e973d6ecea90206c82c4702f65069869679e01aff8320128a32adf6",
+      "poster": "/assets/posters/all-path-information-density-scene.jpg"
+    },
+    "path-instructions": {
+      "level": "A1",
+      "title": "Open the door: указания, запреты и let's",
+      "file": "door-instructions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ff4608fe5dcbae59d4db5ce27c2e763c5bc4918f7673c4de559b1305562b6d20",
+      "poster": "/assets/posters/door-instructions-scene.jpg"
+    },
+    "path-inversion": {
+      "level": "C1",
+      "title": "Never have I seen…: порядок как в вопросе после «никогда» и «только тогда»",
+      "file": "all-path-inversion-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8d3da63cbfef18846aa7f0a3f96ed0bb971cfb0574cd761dc4871ad4c77396e9",
+      "poster": "/assets/posters/all-path-inversion-scene.jpg"
+    },
+    "path-irony": {
+      "level": "C2",
+      "title": "Great, another delay: когда слова говорят обратное",
+      "file": "canceled-flight-irony-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7bbb8eb2f193cb4bc94401ee46c69bc13a9b6645dc11b52fff062881a1186c9d",
+      "poster": "/assets/posters/canceled-flight-irony-scene.jpg"
+    },
+    "path-lecture-listening": {
+      "level": "C1",
+      "title": "Лекция на слух: где главное, где пример, где отступление и оговорка",
+      "file": "all-path-lecture-listening-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "75d3d0febd3681f18d5f3ad3ff6578a55a3f13c8e4d5eda9dde1c011734af89d",
+      "poster": "/assets/posters/all-path-lecture-listening-scene.jpg"
+    },
+    "path-lexical-precision": {
+      "level": "C1",
+      "title": "Efficient или effective: как выбрать точное слово из похожих",
+      "file": "all-path-lexical-precision-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9a7d6984602148d751b2b9d1d39c52127c7297f15820182f1c9c6e55db072be7",
+      "poster": "/assets/posters/all-path-lexical-precision-scene.jpg"
+    },
+    "path-listening-routine": {
+      "level": "A2",
+      "title": "Голосовое сообщение: кто, когда и что изменилось",
+      "file": "party-voice-update-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "88174c80ed580c949a868e7c2443cfe061ecb70e0186ee5e6dec8d3485a6e3bf",
+      "poster": "/assets/posters/party-voice-update-scene.jpg"
+    },
+    "path-literary-reading": {
+      "level": "C2",
+      "title": "Художественное чтение: кто говорит, что видно и какое чтение сильнее",
+      "file": "all-path-literary-reading-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "580a05cf90cd1b4460683c9a2d9ad76c7da98088c667f9e17b1456dd8ce2e46f",
+      "poster": "/assets/posters/all-path-literary-reading-scene.jpg"
+    },
+    "path-longform-reading": {
+      "level": "C1",
+      "title": "Длинная статья: что делает каждый абзац и где позиция автора",
+      "file": "all-path-longform-reading-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9daa93baf82c935c0d9724470f84ed91ca2472fab899a13fbe6f987b82020fc7",
+      "poster": "/assets/posters/all-path-longform-reading-scene.jpg"
+    },
+    "path-me-too": {
+      "level": "A2",
+      "title": "Me too и Me neither: как сказать «я тоже»",
+      "file": "me-too-music-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d0dbe052356ca2938920aa9686ff16ad03fd7d47838917dc937ff26accd008aa",
+      "poster": "/assets/posters/me-too-music-scene.jpg"
+    },
+    "path-metaphor": {
+      "level": "C2",
+      "title": "Hit a wall, gain traction: какую картинку несёт фраза",
+      "file": "all-path-metaphor-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d082d273b738fb2e843df982686b7d806472a8b164ee01b0d69c542ddf77840d",
+      "poster": "/assets/posters/all-path-metaphor-scene.jpg"
+    },
+    "path-mixed-conditionals": {
+      "level": "B2",
+      "title": "Если бы тогда — то сейчас: смешанные условия и wish",
+      "file": "all-path-mixed-conditionals-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "817349aeb683a0fa91549bde39725897c2981f3920135dd9171522768976b23a",
+      "poster": "/assets/posters/all-path-mixed-conditionals-scene.jpg"
+    },
+    "path-modal-perfect": {
+      "level": "B2",
+      "title": "Must have, should have, could have: догадка и оценка прошлого",
+      "file": "all-path-modal-perfect-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "52ebb2dccfbc4160af3ea20ddbced475854f9a0dfe0a184ed27d288aba8322ad",
+      "poster": "/assets/posters/all-path-modal-perfect-scene.jpg"
+    },
+    "path-modal-remoteness": {
+      "level": "C2",
+      "title": "I was hoping, What if we moved…: прошедшая форма без прошлого",
+      "file": "water-my-plants-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1819e5d7c0cc2fdd3802582b80931f98b83c9b327449eca48d08c076d7110a1c",
+      "poster": "/assets/posters/water-my-plants-scene.jpg"
+    },
+    "path-narrative": {
+      "level": "B1",
+      "title": "История с поворотом: сцена, неожиданность, итог",
+      "file": "knock-before-bed-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "57dcba9362828b67bdb12a1fa550cd501dcdf512d9b2f3c0eac3e498c3c8272f",
+      "poster": "/assets/posters/knock-before-bed-scene.jpg"
+    },
+    "path-nominalisation": {
+      "level": "C1",
+      "title": "Refuse → the refusal: когда действие лучше назвать существительным, а когда нет",
+      "file": "all-path-nominalisation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "64aa15919667e9db25ba352b99ba47950d6791fb3bdadc219f6aad2d996c0fef",
+      "poster": "/assets/posters/all-path-nominalisation-scene.jpg"
+    },
+    "path-obligation": {
+      "level": "A2",
+      "title": "Нужно, стоит, нельзя: have to, should, can’t",
+      "file": "work-on-saturday-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "63094f7a10d944bf902759673c3ca2e2e75642e56bc154adb7c2ca6666f2d805",
+      "poster": "/assets/posters/work-on-saturday-scene.jpg"
+    },
+    "path-participle-clauses": {
+      "level": "B2",
+      "title": "Waiting for the bus, I…: короткие обороты вместо when и because",
+      "file": "all-path-participle-clauses-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "23995dcfb9acbdabf349a55189b9da6895fe5f7fe87bd6920e373409ae486070",
+      "poster": "/assets/posters/all-path-participle-clauses-scene.jpg"
+    },
+    "path-passive-advanced": {
+      "level": "B2",
+      "title": "Is being fixed, must be checked, had it fixed: работа идёт, правило и услуга",
+      "file": "elevator-under-repair-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e676f27120c04d56ca2074c75d29c6ca52cb65bdeea9affb777f3a92ce8f3205",
+      "poster": "/assets/posters/elevator-under-repair-scene.jpg"
+    },
+    "path-passive-basic": {
+      "level": "B1",
+      "title": "Пассив: что случилось, а не кто сделал",
+      "file": "delivered-parcel-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "98bc434f636bd285d5ec75c801ab632278bc20df581cd9fc51b534d0378f66d8",
+      "poster": "/assets/posters/delivered-parcel-scene.jpg"
+    },
+    "path-passive-reporting": {
+      "level": "B2",
+      "title": "It is believed that…, he is said to…: «говорят» и «считается» в новостях",
+      "file": "all-path-passive-reporting-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "70f9056d2d8ba189f23d64cee8cbdbef8a62b1818424fc3d70db66ac08a845b1",
+      "poster": "/assets/posters/all-path-passive-reporting-scene.jpg"
+    },
+    "path-past-continuous": {
+      "level": "A2",
+      "title": "Что происходило в тот момент: was/were + -ing",
+      "file": "past-interrupted-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e72d1707c6f265fc8c2dd8bcf28b4cd52d7d8a1f3ac9a5fc7e8a7ec5a91e78a9",
+      "poster": "/assets/posters/past-interrupted-scene.jpg"
+    },
+    "path-past-habits": {
+      "level": "A2",
+      "title": "Used to: раньше было, а теперь нет",
+      "file": "used-to-soccer-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8a7b0a84bca1b4a6fc5ded999eb1489ff276a38cc80afbdb88f0de206de4786",
+      "poster": "/assets/posters/used-to-soccer-scene.jpg"
+    },
+    "path-past-perfect": {
+      "level": "B1",
+      "title": "Фильм уже начался: had + третья форма",
+      "file": "already-asleep-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4a951a1d25984969efd764b8c4bd8803ce0146b366412008945c1c96c5d02ea7",
+      "poster": "/assets/posters/already-asleep-scene.jpg"
+    },
+    "path-past-perfect-continuous": {
+      "level": "B2",
+      "title": "Ждали уже час: had been + -ing",
+      "file": "bus-waiting-long-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "adff449765b975af6b5730e2e932aa7fb2f42b8f83d36694c125d65c11b741ad",
+      "poster": "/assets/posters/bus-waiting-long-scene.jpg"
+    },
+    "path-past-simple": {
+      "level": "A2",
+      "title": "Что было вчера: I worked, I went, I was",
+      "file": "worked-late-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4d379b951909ce6162c920960fad3d4c95538ba0723fe4c0bb835794259be060",
+      "poster": "/assets/posters/worked-late-scene.jpg"
+    },
+    "path-phrasal-nuance": {
+      "level": "C1",
+      "title": "Put off, pick up, work out: один фразовый глагол — разные смыслы",
+      "file": "all-path-phrasal-nuance-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "187046b6be59530dd2493bab981961346361ead537b6df4bf32efdb3a4b645bb",
+      "poster": "/assets/posters/all-path-phrasal-nuance-scene.jpg"
+    },
+    "path-place-time": {
+      "level": "A1",
+      "title": "In, on, at: где вещь и когда встреча",
+      "file": "prepositions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bf6d5827bb483f64767bb5e7d8537cfd7a1ca4e18b60086a1ce0e632b5d999d6",
+      "poster": "/assets/posters/prepositions-scene.jpg"
+    },
+    "path-plurals": {
+      "level": "A1",
+      "title": "Один предмет и несколько: book → books",
+      "file": "countability-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "00148b7ec45ef8c7d749e825a641b10871dd85dab59caeac78ba1f7bd0cc4aad",
+      "poster": "/assets/posters/countability-scene.jpg"
+    },
+    "path-polite-questions": {
+      "level": "B1",
+      "title": "Не подскажете…?: вежливые вопросы и просьбы",
+      "file": "polite-bus-stop-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "928a3e3829455f4b388083b29cab3eb5df019d0c367f0fe4323d268d5ba3a27f",
+      "poster": "/assets/posters/polite-bus-stop-scene.jpg"
+    },
+    "path-politeness-power": {
+      "level": "C2",
+      "title": "Could you…? от друга и от начальника: вежливость, право просить и честный выбор",
+      "file": "all-path-politeness-power-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "23aee8b9773cac3696697c5b57c40b3bf988f8b8747c1725747f480ab6fc6978",
+      "poster": "/assets/posters/all-path-politeness-power-scene.jpg"
+    },
+    "path-possession": {
+      "level": "A1",
+      "title": "У меня есть: have и has",
+      "file": "have-cat-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0de401b82a5dc495283f856e6ad65d302d8e52f6f48bbb8c08bd8da4751ba896",
+      "poster": "/assets/posters/have-cat-scene.jpg"
+    },
+    "path-possessive-pronouns": {
+      "level": "A2",
+      "title": "Mine, myself, each other: «моё», «сам» и «друг друга»",
+      "file": "whose-keys-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "34ad1f739022c4b23420d97dc756aaf0e98a795e6fed51b85af3e7b080d9c270",
+      "poster": "/assets/posters/whose-keys-scene.jpg"
+    },
+    "path-preposition-patterns": {
+      "level": "C1",
+      "title": "Agree with, agree to, depend on: предлог, который меняет смысл",
+      "file": "all-path-preposition-patterns-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "93eee096e1857d3d0d25d40e66eb23286fffe42b7203cb0c1b1e57b64d03d3f7",
+      "poster": "/assets/posters/all-path-preposition-patterns-scene.jpg"
+    },
+    "path-present-continuous": {
+      "level": "A1",
+      "title": "I am reading: что происходит прямо сейчас",
+      "file": "habit-now-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3d236a64f3bd7dfa683aaaa116b5bcab5afd63ddd8c18f6db7c9442e911bc2fe",
+      "poster": "/assets/posters/habit-now-scene.jpg"
+    },
+    "path-present-perfect": {
+      "level": "A2",
+      "title": "Have + третья форма: прошлое, которое важно сейчас",
+      "file": "time-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0429a9154fd062fb33bcb3fa6086583b52f455979832e64d6f733dfbd4b61489",
+      "poster": "/assets/posters/time-scene.jpg"
+    },
+    "path-present-perfect-continuous": {
+      "level": "B1",
+      "title": "Жду уже 20 минут: I've been waiting",
+      "file": "time-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0429a9154fd062fb33bcb3fa6086583b52f455979832e64d6f733dfbd4b61489",
+      "poster": "/assets/posters/time-scene.jpg"
+    },
+    "path-present-perfect-for-since": {
+      "level": "A2",
+      "title": "For и since: сколько это длится до сих пор",
+      "file": "hospital-since-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0d5e8b1f3449dbe4c82ef3444f67174acc062e1bee0efa43149dc0a6a2aaa96d",
+      "poster": "/assets/posters/hospital-since-scene.jpg"
+    },
+    "path-present-simple": {
+      "level": "A1",
+      "title": "I work, she works: что ты делаешь обычно",
+      "file": "daily-tea-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f54eadc43196438826c9b3c91953b7b2a84e97c0020e58f843bab7b748072bf5",
+      "poster": "/assets/posters/daily-tea-scene.jpg"
+    },
+    "path-pronouns": {
+      "level": "A1",
+      "title": "I, me, my: кто, кого и чей",
+      "file": "her-red-bag-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "566da99f0c75be9d9fa1a267f69d351983e0b7031ae07e6e40485c85b2c9b1bf",
+      "poster": "/assets/posters/her-red-bag-scene.jpg"
+    },
+    "path-proposal": {
+      "level": "C1",
+      "title": "Предложение руководителю: цель, варианты, риск и просьба о решении",
+      "file": "all-path-proposal-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7c2323d7841c5c9f77160988909e47f75d30a03f4e787eb257b147fdfb747660",
+      "poster": "/assets/posters/all-path-proposal-scene.jpg"
+    },
+    "path-prosody": {
+      "level": "C1",
+      "title": "Ударение и мелодия: те же слова — другой смысл",
+      "file": "all-path-prosody-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "753cc2954498eabde14fddeca9ec08813bf8567d6fdc258ecf623e789f1d54d1",
+      "poster": "/assets/posters/all-path-prosody-scene.jpg"
+    },
+    "path-purpose-contrast": {
+      "level": "B1",
+      "title": "Чтобы, несмотря на, если только не: to, despite, unless",
+      "file": "all-path-purpose-contrast-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7640386af6c19b545136a5941d9076e75a01a3f1162cc82e0675ab798ed20027",
+      "poster": "/assets/posters/all-path-purpose-contrast-scene.jpg"
+    },
+    "path-quantifiers-basic": {
+      "level": "A2",
+      "title": "A few, a little, both, every: сколько и какие из них",
+      "file": "little-sugar-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "70ef80394740b67adb49b5adaa9623cc1618bd4abdc6e762382909b1ff789861",
+      "poster": "/assets/posters/little-sugar-scene.jpg"
+    },
+    "path-quantifiers-nuance": {
+      "level": "B2",
+      "title": "Quite a few, fewer, most of: точнее о количестве",
+      "file": "all-path-quantifiers-nuance-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "16373f76f7661aa140f5cc3a8f90da963d944f59494755f6a5739e140a05998c",
+      "poster": "/assets/posters/all-path-quantifiers-nuance-scene.jpg"
+    },
+    "path-question-tags": {
+      "level": "B1",
+      "title": "It's cold, isn't it?: короткий вопрос в конце фразы",
+      "file": "winter-tags-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2b01493a4c1b086edc30ecf574497d2df49091a41515caf16227a4af52f6197e",
+      "poster": "/assets/posters/winter-tags-scene.jpg"
+    },
+    "path-questions-basic": {
+      "level": "A1",
+      "title": "Где, что, кто: как спросить подробность",
+      "file": "where-are-you-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0a549e67d4d98ff6c97b9a8ad4d53953ace27a170f34d3d932f8733260cbd4c7",
+      "poster": "/assets/posters/where-are-you-scene.jpg"
+    },
+    "path-reading-inference": {
+      "level": "B1",
+      "title": "Чтение: что сказано, что следует и чего в тексте нет",
+      "file": "all-path-reading-inference-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0c5522b6d2f59635f1073d68812f5fa6c33148a43a33580b6199b51870f813ee",
+      "poster": "/assets/posters/all-path-reading-inference-scene.jpg"
+    },
+    "path-register-b2": {
+      "level": "B2",
+      "title": "Другу, коллеге, клиенту: один факт — разный тон",
+      "file": "audience-tone-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d4803ce9b59f9b31a73a1e9986da279f0dc61403c1f1bde39c2906601ea48e3b",
+      "poster": "/assets/posters/audience-tone-scene.jpg"
+    },
+    "path-relative-advanced": {
+      "level": "B2",
+      "title": "Запятые, whose и which: уточнить, о ком речь, или просто добавить",
+      "file": "all-path-relative-advanced-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d704a69b0c29f0cf35f47642ed6e715cf7d0b72cfa568447336c27ec7bc70c02",
+      "poster": "/assets/posters/all-path-relative-advanced-scene.jpg"
+    },
+    "path-relative-basic": {
+      "level": "A2",
+      "title": "Who, that, where: какой именно человек, вещь или место",
+      "file": "relative-cafe-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9f6fe5aae5eb718dd5b7d1ded2b6dab762680a6ded2c5f1b4107dcc895f8fcd4",
+      "poster": "/assets/posters/relative-cafe-scene.jpg"
+    },
+    "path-repair-conversation": {
+      "level": "B1",
+      "title": "Sorry, did you say fifteen or fifty?: переспросить, уточнить и поправить себя",
+      "file": "all-path-repair-conversation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3036fd1323621884a9f05f74a976c095d7aa58356190963575d59a71ce54016e",
+      "poster": "/assets/posters/all-path-repair-conversation-scene.jpg"
+    },
+    "path-reported-speech": {
+      "level": "B1",
+      "title": "Она сказала, что…: как передать чужие слова",
+      "file": "reported-vacation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8a99a9747320120e6101b52f46238694e696daf48e814185442650cafadbc90a",
+      "poster": "/assets/posters/reported-vacation-scene.jpg"
+    },
+    "path-reporting-verbs": {
+      "level": "C1",
+      "title": "Admitted, denied, pointed out: пересказать не только слова, но и позицию",
+      "file": "all-path-reporting-verbs-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a79ef6a2ec33fc1d90f8c49a29b70a199c0054681f31ec8b4974adfa0c1db139",
+      "poster": "/assets/posters/all-path-reporting-verbs-scene.jpg"
+    },
+    "path-requests-can": {
+      "level": "A1",
+      "title": "Can: умею, могу, можно",
+      "file": "can-swim-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "166cce67221dd5e30d5fecdf5c883db45855278d1866e873f8f35bad0373b2a0",
+      "poster": "/assets/posters/can-swim-scene.jpg"
+    },
+    "path-rhetorical-analysis": {
+      "level": "C2",
+      "title": "Как текст убеждает: рамка, уступка, аналогия и «мы все знаем»",
+      "file": "all-path-rhetorical-analysis-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e9eb165e6d026395948c0ffd27f941c2de04322fc49251dd7029dbd5f663079b",
+      "poster": "/assets/posters/all-path-rhetorical-analysis-scene.jpg"
+    },
+    "path-scope-ambiguity": {
+      "level": "C2",
+      "title": "Only Lisa или only the lease: когда фраза значит две вещи",
+      "file": "all-path-scope-ambiguity-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4f116b48fb7e67dd90fd250f58f7df0dfe04aca4ffe255fd9f8b856c1c75d2c9",
+      "poster": "/assets/posters/all-path-scope-ambiguity-scene.jpg"
+    },
+    "path-second-conditional": {
+      "level": "B1",
+      "title": "Если бы сейчас: if + прошедшая форма, would",
+      "file": "missing-phone-number-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "27ce7399f872ae1b7cd78f3644417bb42edc84ef4698b88fe4968bc77318eca2",
+      "poster": "/assets/posters/missing-phone-number-scene.jpg"
+    },
+    "path-semantic-prosody": {
+      "level": "C2",
+      "title": "Caused interest? Нет — sparked interest: какую оценку слово берёт у соседей",
+      "file": "all-path-semantic-prosody-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e10d349763894da209197f4a0e0108a66a7b81927e20788afe2f06701fd17dfd",
+      "poster": "/assets/posters/all-path-semantic-prosody-scene.jpg"
+    },
+    "path-so-such-intensifiers": {
+      "level": "B1",
+      "title": "So good, such a nice day: «так», «такой» и «просто потрясающе»",
+      "file": "all-path-so-such-intensifiers-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "59faf4c624e61b92d3562368db31f737ee6f55360adcc137d349f0ea17983c6a",
+      "poster": "/assets/posters/all-path-so-such-intensifiers-scene.jpg"
+    },
+    "path-something-anything": {
+      "level": "A2",
+      "title": "Кто-то, что-нибудь, никто: some-, any-, no- и every-",
+      "file": "anyone-home-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fb8e2490ccfe805e80bed7de2cf07c9c26339cbc990e70fb131db970f2fd16ed",
+      "poster": "/assets/posters/anyone-home-scene.jpg"
+    },
+    "path-sound-basics": {
+      "level": "A1",
+      "title": "Слушай, повторяй, сравнивай: как тренировать произношение",
+      "file": "all-path-sound-basics-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "75293193681272829b652e6182e7d846f702980e2ae759ecc383f58d0b1e073a",
+      "poster": "/assets/posters/all-path-sound-basics-scene.jpg"
+    },
+    "path-source-mediation": {
+      "level": "C2",
+      "title": "Один набор фактов — разные читатели: пересказать источники и не сдвинуть смысл",
+      "file": "all-path-source-mediation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4810ce75d249eb1f98fb03ca5a8dd9eb86bc858b01b5fc88bce31dbbd4fcbf2e",
+      "poster": "/assets/posters/all-path-source-mediation-scene.jpg"
+    },
+    "path-subjunctive-formal": {
+      "level": "C1",
+      "title": "It's essential that he be…: официальное «чтобы» в американском английском",
+      "file": "all-path-subjunctive-formal-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3f3de8c51e4cfd9c455b3515b1d322b9baa4679872c4594922a9e8c7535ec582",
+      "poster": "/assets/posters/all-path-subjunctive-formal-scene.jpg"
+    },
+    "path-substitution": {
+      "level": "C1",
+      "title": "One, so, do so: заменить повтор и не потерять, о чём речь",
+      "file": "new-one-umbrella-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "56e58a55d604ef8b925d13e14146bd465a6ddbe9e290fee2dbf6a54b3782fccb",
+      "poster": "/assets/posters/new-one-umbrella-scene.jpg"
+    },
+    "path-suggestions-offers": {
+      "level": "A2",
+      "title": "Why don't we…? Do you want me to…?: предложить и ответить",
+      "file": "park-suggestions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4cd198daddbc4974cbc253e3fae55f6595bb03c10935cbd04d95b2aa512ae1e6",
+      "poster": "/assets/posters/park-suggestions-scene.jpg"
+    },
+    "path-synthesis": {
+      "level": "C1",
+      "title": "Синтез двух источников: один ответ вместо двух пересказов",
+      "file": "all-path-synthesis-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2f44262aa5e4bff3b36a8c04ec16ee78bf19d0c4b16f4b8245bc04fb96082d68",
+      "poster": "/assets/posters/all-path-synthesis-scene.jpg"
+    },
+    "path-there-is": {
+      "level": "A1",
+      "title": "There is и there are: что есть в комнате",
+      "file": "room-table-chairs-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eb6fddaefcebe57666cf10054949961092f1db697480271ba30b6d6b2ed11c4f",
+      "poster": "/assets/posters/room-table-chairs-scene.jpg"
+    },
+    "path-third-conditional": {
+      "level": "B1",
+      "title": "Если бы тогда: if + had, would have",
+      "file": "missed-party-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "df1e099a3bf83b02b89c10139a5ffc5d863a253ac364a6d968f7ca5d71f61e54",
+      "poster": "/assets/posters/missed-party-scene.jpg"
+    },
+    "path-this-that": {
+      "level": "A1",
+      "title": "This, that, these, those: рядом или вдали, одно или несколько",
+      "file": "near-far-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "61b06303a367c33f570d35dbd8c22c6bcc90809bcbaa5e5bf044081df0d0faea",
+      "poster": "/assets/posters/near-far-scene.jpg"
+    },
+    "path-used-to-be-used-to": {
+      "level": "B1",
+      "title": "Used to, be used to, get used to: раньше, привык, привыкаю",
+      "file": "not-used-to-snow-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "65f533f4a486a0f883340988924dc381fd482dc669dcbe2e9a840db0c2377810",
+      "poster": "/assets/posters/not-used-to-snow-scene.jpg"
+    },
+    "path-vague-language": {
+      "level": "C1",
+      "title": "Around six, kind of, and stuff: говорить примерно — и знать, где нельзя",
+      "file": "all-path-vague-language-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "32885981c3311a8f5ad68265406f1145697cde06eb2a2e2b9eeef76ee815bbf8",
+      "poster": "/assets/posters/all-path-vague-language-scene.jpg"
+    },
+    "path-verb-patterns": {
+      "level": "B1",
+      "title": "Хочу, чтобы ты пришёл: want you to, make me, let me",
+      "file": "all-path-verb-patterns-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "aa500406439c404aa2294213af628ca1a565a58df380f6be319afea9bd34ad4e",
+      "poster": "/assets/posters/all-path-verb-patterns-scene.jpg"
+    },
+    "path-verb-patterns-advanced": {
+      "level": "B2",
+      "title": "Remember doing или remember to do: форма меняет смысл",
+      "file": "remember-stove-off-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1f6e75878cd4f8da94f83f90efff2e46d01e537c74ad2b1eb0f4abf3214c24fd",
+      "poster": "/assets/posters/remember-stove-off-scene.jpg"
+    },
+    "path-vowels-russian": {
+      "level": "A2",
+      "title": "Ship или sheep, bag или back: звуки, которые мы путаем",
+      "file": "all-path-vowels-russian-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c5c36e9e761a5c2c687853a591d90150865caa257fbe907bc747097f1e7fbe69",
+      "poster": "/assets/posters/all-path-vowels-russian-scene.jpg"
+    },
+    "path-word-formation": {
+      "level": "B1",
+      "title": "Decide или decision: какая форма слова нужна на этом месте",
+      "file": "all-path-word-formation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6707ec6b7ad25a20b7db8a30022b07c0aa811da58c7a2203b38e8d2ad18a40ae",
+      "poster": "/assets/posters/all-path-word-formation-scene.jpg"
+    },
+    "path-zero-first": {
+      "level": "A2",
+      "title": "If и when: «если будет» без will",
+      "file": "rain-condition-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "346da3ed08734e2bac98f7f9a207461950174e55404c407fc13a9772f5c6d184",
+      "poster": "/assets/posters/rain-condition-scene.jpg"
+    },
+    "perfect": {
+      "level": "B1–B2",
+      "title": "Опыт, результат и длительность",
+      "file": "all-overview-perfect-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f2d8edd2ea46d904f25b9d5d0552c430cfd71e8a6b3e5176dba22514d7b39206",
+      "poster": "/assets/posters/all-overview-perfect-scene.jpg"
+    },
+    "phrasal": {
+      "level": "B1–B2",
+      "title": "Фразовые глаголы без зубрёжки",
+      "file": "all-overview-phrasal-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "36f348c03542209190cef2d53264143c8a797f05dd3b6172ca1da4a0b7854b75",
+      "poster": "/assets/posters/all-overview-phrasal-scene.jpg"
+    },
+    "prepositions": {
+      "level": "B1–B2",
+      "title": "Предлоги в живых фразах",
+      "file": "all-overview-prepositions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fef74140d2ac05773f03779d99963462277db524757988408e9f12053b36977e",
+      "poster": "/assets/posters/all-overview-prepositions-scene.jpg"
+    },
+    "present": {
+      "level": "B1–B2",
+      "title": "Simple или continuous?",
+      "file": "habit-now-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3d236a64f3bd7dfa683aaaa116b5bcab5afd63ddd8c18f6db7c9442e911bc2fe",
+      "poster": "/assets/posters/habit-now-scene.jpg"
+    },
+    "questions": {
+      "level": "B1–B2",
+      "title": "Задавать вопросы естественно",
+      "file": "all-overview-questions-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bcc27398e14feb52652d902189c72ee19d216871d52503819cc38be2f7a3f5ef",
+      "poster": "/assets/posters/all-overview-questions-scene.jpg"
+    },
+    "research-accent-adaptation": {
+      "level": "C1",
+      "title": "Непривычный акцент: настроить слух за минуту и переспросить по делу",
+      "file": "all-research-accent-adaptation-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ba7e018e7ed78d9e2f0050bd8625bb7dcbc7d1666f97db55552bfa295cb0e14a",
+      "poster": "/assets/posters/all-research-accent-adaptation-scene.jpg"
+    },
+    "research-apologies-remedies": {
+      "level": "A2",
+      "title": "Sorry I’m late: извиниться, объяснить и исправить",
+      "file": "broken-mug-apology-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e62c6eb0c5a4021b813c479ac19b62c30420a82392d391b505d0f37fa0eaf1bd",
+      "poster": "/assets/posters/broken-mug-apology-scene.jpg"
+    },
+    "research-application-interview": {
+      "level": "B2",
+      "title": "Заявка и интервью: требование из вакансии → твой пример → чем он полезен",
+      "file": "all-research-application-interview-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "24553a71cfff5ea0849140b468fe08c3bd3a0f2fd748e673b4b5bd001001f48f",
+      "poster": "/assets/posters/all-research-application-interview-scene.jpg"
+    },
+    "research-complaint-resolution": {
+      "level": "B2",
+      "title": "Жалоба в поддержку: что случилось, чего ты просишь и о чём договорились",
+      "file": "all-research-complaint-resolution-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7e5bcf2c9fead844241a25ca832d137763148a4fb094a2cff0aaf5e1f844604e",
+      "poster": "/assets/posters/all-research-complaint-resolution-scene.jpg"
+    },
+    "research-connected-boundaries": {
+      "level": "B1",
+      "title": "Стык слов: почему pick it up звучит как одно слово",
+      "file": "all-research-connected-boundaries-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9e2ac9651e0bebd02bab32d72793cfcb3d8867fce5adc5c150606d05dd467da4",
+      "poster": "/assets/posters/all-research-connected-boundaries-scene.jpg"
+    },
+    "research-discourse-listening": {
+      "level": "C2",
+      "title": "Многоголосный разговор: кто что предложил и что осталось в силе",
+      "file": "all-research-discourse-listening-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4b56e3d085b6b4733fe54becca562895a0d18f0fed8d067648254f434aa2a918",
+      "poster": "/assets/posters/all-research-discourse-listening-scene.jpg"
+    },
+    "research-ending-s-ed": {
+      "level": "A2",
+      "title": "Окончание -ed: чтобы прошлое было слышно",
+      "file": "all-research-ending-s-ed-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "868e40155f6bc8179b22087c9bb51fdc19cad1dd5d37bbcf39e26fc7c3185aba",
+      "poster": "/assets/posters/all-research-ending-s-ed-scene.jpg"
+    },
+    "research-listening-decoding": {
+      "level": "B1",
+      "title": "Не расслышал: найти причину и проверить себя",
+      "file": "all-research-listening-decoding-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ff1b80dd1fcfdfd871b8e28e80aee262911056aeaf6a84ffdc0041560ad78253",
+      "poster": "/assets/posters/all-research-listening-decoding-scene.jpg"
+    },
+    "research-ordering-checkout": {
+      "level": "A1",
+      "title": "Оплата в кафе: сумма, карта, чек",
+      "file": "paying-by-card-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "246873fd5722d896342c75692ef26ecd48be35a7bdb468a05ca3736ed003d5d0",
+      "poster": "/assets/posters/paying-by-card-scene.jpg"
+    },
+    "research-public-correction": {
+      "level": "C2",
+      "title": "Публичная поправка: что было неверно, что верно и что это меняет",
+      "file": "all-research-public-correction-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "dcc6670e088a835b318fdbd11ecda9aef622a56512e17e249554bf11e2fb22fb",
+      "poster": "/assets/posters/all-research-public-correction-scene.jpg"
+    },
+    "research-question-response": {
+      "level": "C1",
+      "title": "Вопрос в ответ: интерес, удивление и проверка",
+      "file": "all-research-question-response-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "69944327afb133260e0a299f12770a1bcc47bd4c3db7f52cf6482a7265bc8f84",
+      "poster": "/assets/posters/all-research-question-response-scene.jpg"
+    },
+    "research-report-data": {
+      "level": "B2",
+      "title": "Отчёт по цифрам: что выросло, на сколько и чего цифры не объясняют",
+      "file": "all-research-report-data-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c302bfc223e3132c1442121b0b545fc77d62740b989dc7810d97a0edac96d17b",
+      "poster": "/assets/posters/all-research-report-data-scene.jpg"
+    },
+    "research-review-writing": {
+      "level": "B1",
+      "title": "Отзыв: деталь вместо «классно» и совет, кому подойдёт",
+      "file": "vegetable-soup-review-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6df5ded58f55cdb453f0cb56535b35669938646831c4591d96bb9a8a66f1d46d",
+      "poster": "/assets/posters/vegetable-soup-review-scene.jpg"
+    },
+    "research-schwa-wordstress": {
+      "level": "A2",
+      "title": "Ударение в слове: сильный слог и слабый /ə/",
+      "file": "all-research-schwa-wordstress-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "07c196a03facfd3523e6c64f9008f9d2f9dadedb6b39fec1dcfaa569d38fa1ac",
+      "poster": "/assets/posters/all-research-schwa-wordstress-scene.jpg"
+    },
+    "research-sound-w-v-th": {
+      "level": "A1",
+      "title": "West или vest, thin или sin: звуки w, v и th",
+      "file": "all-research-sound-w-v-th-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e383c597b75979fe7e79998a8e09e323b9c52581686094e661bad9b26c239712",
+      "poster": "/assets/posters/all-research-sound-w-v-th-scene.jpg"
+    },
+    "research-spelling-numbers": {
+      "level": "A1",
+      "title": "По буквам и по цифрам: имя, телефон, почта",
+      "file": "spelling-at-desk-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a38fb076ddd1fde7458b4356a33d78ef22e899407486fd0393b6a72da18fa397",
+      "poster": "/assets/posters/spelling-at-desk-scene.jpg"
+    },
+    "research-spoken-grammar": {
+      "level": "C1",
+      "title": "That café, is it still open?: как устроена живая речь",
+      "file": "all-research-spoken-grammar-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f400423c894c12e6d78b1db31f67652f5cc6cb58312864f3fea0302630fc57c8",
+      "poster": "/assets/posters/all-research-spoken-grammar-scene.jpg"
+    },
+    "research-telephone-messages": {
+      "level": "A2",
+      "title": "Звонок и автоответчик: оставить и принять сообщение",
+      "file": "leave-voice-message-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "47384ed15f739faaff67a92b3f3b5a863bfb35c92afa26dcdc0017a2066bc33a",
+      "poster": "/assets/posters/leave-voice-message-scene.jpg"
+    },
+    "speaking": {
+      "level": "B1–B2",
+      "title": "Говорить и поддерживать разговор",
+      "file": "all-overview-speaking-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0b33301cfa2abe6abc19d44444aac4b315a746633f449fd8a5238862118221b1",
+      "poster": "/assets/posters/all-overview-speaking-scene.jpg"
+    },
+    "sustained-clock-history": {
+      "level": "C1–C2",
+      "title": "Часы над Мерсер-стрит: держать в голове всю длинную статью",
+      "file": "all-sustained-clock-history-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d7e16e149cbcf6efa875f2d98ba8efbe4bdad0e08ec4ec7d03efafc908c01f1a",
+      "poster": "/assets/posters/all-sustained-clock-history-scene.jpg"
+    },
+    "verb-patterns": {
+      "level": "B1–B2",
+      "title": "Doing или to do?",
+      "file": "all-overview-verb-patterns-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e42a7d54bed4d2611cb5bc00dc14c93b6b5d475f35a9143f759ff5a013fb755b",
+      "poster": "/assets/posters/all-overview-verb-patterns-scene.jpg"
+    },
+    "word-building": {
+      "level": "B1–B2",
+      "title": "Расширять словарь осмысленно",
+      "file": "all-overview-word-building-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f61b2c29c6704e86bcf93182dcd88049a82e2aecbc2cbe725a83303f2f7900cc",
+      "poster": "/assets/posters/all-overview-word-building-scene.jpg"
+    },
+    "writing": {
+      "level": "B1–B2",
+      "title": "Письмо, которое выполняет задачу",
+      "file": "all-overview-writing-scene.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c9dfbdac50ab819735cecf32e68a496693f104a71e22c0d0166c09b64819034f",
+      "poster": "/assets/posters/all-overview-writing-scene.jpg"
+    }
+  }
+}
